@@ -29,9 +29,9 @@ The first stage is to import the proxy server's root CA certificate into the log
     docker ps
     ```
 
-    In the results, look for a container based on the image **mcr.microosft.com/mcas/logcollector**.
+    In the results, look for a container based on the image `mcr.microosft.com/mcas/logcollector`.
 
-    :::image type="content" source="../media/05-list-containers.png" alt-text="A screenshot of the output from the docker ps command, showing the log collector." lightbox="../media/05-list-containers.png":::
+    :::image type="content" source="../media/05-list-containers.png" alt-text="A screenshot of the output from the docker PowerShell command, showing the log collector." lightbox="../media/05-list-containers.png":::
 
 1. To copy the CA certificate to the container, run this command. Replace `Ubuntu-LogCollector` with the name of your container:
 
@@ -49,7 +49,7 @@ Now that the certificate is copied into the log collector container, you must in
     docker exec -it Ubuntu-LogCollector /bin/bash
     ```
 
-1. At the `bash>` prompt, to navigate to the Java **jre** folder, run these commands:
+1. At the `bash>` prompt, to navigate to the Java `jre` folder, run these commands:
 
     ```bash
     cd "$(find /opt/jdk/*/jre -name "bin" -printf '%h' -quit)"
