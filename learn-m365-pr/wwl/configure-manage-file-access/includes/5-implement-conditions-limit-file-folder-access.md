@@ -1,6 +1,6 @@
 Traditionally, you control permissions to files and folders by using group membership. However, if your Windows–based computer is a domain member, you can extend this traditional access control by using conditions to limit access. Windows 8 and Windows Server 2012 introduced this feature, which allows you to utilize user or computer properties to limit access beyond group membership. For example, if the users have a defined department in AD DS, you can limit access to files or folders to users from a specific department, regardless of their group membership. You also can limit access to users who are in the department and in a specific group. You do this by extending a user token, which all users receive upon sign-in, with the claims. Claims are AD DS properties and their values, and an administrator must configure which properties can be used as claims in AD DS.
 
-:::image type="content" source="../media/impliment-file-limit-c3beead4.jpg" alt-text="Screenshot of the permission entry for folder window.":::
+:::image type="content" source="../media/implement-file-limit-e0df156a.jpg" alt-text="Screenshot of the permission entry for folder window.":::
 
 
 Even if an administrator does not specify in AD DS which properties to use as claims, you can use conditions to limit access to files or folders based on user or device-group membership. When viewing the permissions for a file or folder, the Condition column in the Advanced Security Settings lists the applied conditions.
