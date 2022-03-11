@@ -12,7 +12,7 @@ title: Explore device encryption features
 summary: This module explains the benefits of using encryption to protect drives and files against unauthorized access.
 abstract: |
   After completing this module, you will be able to:
-  - Describe the benefits of drive encryption with Bitlocker
+  - Describe the benefits of drive encryption with BitLocker
   - Describe the benefits of Encrypted File System
 prerequisites: |
   - Students should have a basic understanding of computer networks and hardware concepts.
