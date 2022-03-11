@@ -8,7 +8,7 @@ One of the most important considerations for OneDrive should be with regard to m
  -  **Data migration**. Eventually a user's device is retired and replaced. If files are stored locally, a migration can be tedious. With user files in OneDrive, a new device with a standard image or configuration can be deployed, and combined with settings sync, replacing a device can be as simple as the user turning their new device on, signing in, and continuing to work.
  -  **Anywhere access**. As people rarely use only one device anymore, and the dramatic shift to work-at-home, employees and students being able to access their data using personal devices provides enormous flexibility, along with additional controls that organizations require to help protect that data.
 
-### One Drive features
+### OneDrive features
 
 Below is a list of just some of the features that OneDrive offers:
 
