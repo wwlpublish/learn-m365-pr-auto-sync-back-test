@@ -45,7 +45,7 @@ Here are some considerations before electing to copy policies:
 - **Immediate publishing**. Once policies are copied, they are **immediately published* to all unified labeling supported clients. All users with applications that support unified labeling will see any sensitivity labels associated with those policies. This may be what you intend, but do not copy your policies if you do not want the sensitivity labels associated with them to be visible to users.
 - **Policies not synchronized**. Unlike labels, **policies do not synchronize* between the Microsoft 365 compliance center and the Azure Information Protection pane. Once copied, each platform's policies are independent. Classic client users will still access the Azure Information Protection store for policies. Unified labeling clients will access the Microsoft 365 compliance center store.
 
-Selecting *Azure Information Protection > Unified labeling > Copy policies (Preview)** performs a one-time copy from the Azure Information Protection policy store to the Microsoft 365 compliance center policy store. The policies copied to compliance center use the naming convention "AIP_<policyname>".
+Selecting *Azure Information Protection > Unified labeling > Copy policies (Preview)** performs a one-time copy from the Azure Information Protection policy store to the Microsoft 365 compliance center policy store. The policies copied to compliance center use the naming convention "AIP_\<policyname>".
 
 Examples of the copy policies summary in Azure Information Protection and resulting policy in the Microsoft 365 compliance center are shown below. Notice the "AIP_" prefix to indicate this policy was copied from Azure Information Protection.
 

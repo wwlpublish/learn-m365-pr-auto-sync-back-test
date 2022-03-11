@@ -2,7 +2,7 @@
 uid: learn-m365.identity-permissions-consent
 metadata:
   title: Permissions and Consent Framework
-  description: Learn the basics of Microsoft identity including the different types of tokens, account types, and supported topologies.
+  description: Learn the different types of permissions and consent framework models for obtaining permissions from users to use them in apps.
   ms.date: 09/07/2020
   author: andrewconnell
   ms.author: suzanz

@@ -8,17 +8,15 @@ A dataflow can be consumed in the following three ways:
 
 - Create a connection from external tools that can read from the CDM format
 
-|||
-| :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about creating standard and analytical dataflows, as well as how to consume the dataflow output.|
+![Icon indicating play video](../media/video-icon.png)  Watch this video to learn more about creating standard and analytical dataflows, as well as how to consume the dataflow output.
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HxEj]
 
 To learn more about the demos and concepts in this video, read the following resources:
 
-- [Configure and consume a dataflow](https://docs.microsoft.com/power-bi/transform-model/dataflows/dataflows-configure-consume).
+- [Configure and consume a dataflow](/power-bi/transform-model/dataflows/dataflows-configure-consume).
 
-- [Grouping or summarizing rows - Fuzzy Grouping](https://docs.microsoft.com/power-query/group-by)
+- [Grouping or summarizing rows - Fuzzy Grouping](/power-query/group-by)
 
-- [Power Query Text/CSV by Example connector](https://docs.microsoft.com/power-query/connectors/textcsv)
+- [Power Query Text/CSV by Example connector](/power-query/connectors/textcsv)
 
