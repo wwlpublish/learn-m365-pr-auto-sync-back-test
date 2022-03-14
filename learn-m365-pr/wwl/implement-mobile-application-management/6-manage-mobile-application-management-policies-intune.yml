@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-mobile-application-management. manage-mobile-application-management-policies-intune
+title: Manage mobile application management policies in Intune
+metadata:
+  title: Manage mobile application management policies in Intune
+  description: "Manage mobile application management policies in Intune"
+  ms.date: 03/14/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-manage-mobile-application-management-policies-intune.md)]

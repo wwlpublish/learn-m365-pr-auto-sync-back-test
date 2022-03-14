@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-mobile-application-management.examine-mobile-application-management
+title: Examine mobile application management
+metadata:
+  title: Examine mobile application management
+  description: "Examine mobile application management"
+  ms.date: 03/14/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-examine-mobile-application-management.md)]
