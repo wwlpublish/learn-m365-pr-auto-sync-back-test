@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-user-files.evaluate-onedrive
+title: Evaluate OneDrive
+metadata:
+  title: Evaluate OneDrive
+  description: "Evaluate OneDrive"
+  ms.date: 03/11/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-evaluate-onedrive.md)]

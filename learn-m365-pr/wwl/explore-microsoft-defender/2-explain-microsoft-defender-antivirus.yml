@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-microsoft-defender.explain-microsoft-defender-antivirus
+title: Explain Microsoft Defender Antivirus
+metadata:
+  title: Explain Microsoft Defender Antivirus
+  description: "Explain Microsoft Defender Antivirus"
+  ms.date: 03/11/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/2-explain-microsoft-defender-antivirus.md)]

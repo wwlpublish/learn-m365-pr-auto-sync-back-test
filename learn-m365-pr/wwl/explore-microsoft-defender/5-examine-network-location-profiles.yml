@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-microsoft-defender.examine-network-location-profiles
+title: Examine network location profiles
+metadata:
+  title: Examine network location profiles
+  description: "Examine network location profiles"
+  ms.date: 03/11/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/5-examine-network-location-profiles.md)]
