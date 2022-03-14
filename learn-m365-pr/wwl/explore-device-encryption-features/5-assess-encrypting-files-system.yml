@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-device-encryption-features.assess-encrypting-files-system
+title: Assess Encrypting Files System
+metadata:
+  title: Assess Encrypting Files System
+  description: "Assess Encrypting Files System"
+  ms.date: 03/11/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-assess-encrypting-files-system.md)]
