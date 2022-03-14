@@ -1,0 +1,51 @@
+### YamlMime:Module
+uid: learn.wwl.deploy-update-applications
+metadata:
+  title: Deploy and update applications
+  description: "In this module, you will be introduced to application deployment in Intune and Microsoft Store for Business."
+  ms.date: 03/14/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Deploy and update applications
+summary: In this module, you will be introduced to application deployment in Intune and Microsoft Store for Business.
+abstract: |
+  After completing this module, you will be able to:
+  - Explain how to deploy applications using Intune.
+  - Learn how to deploy applications using Group Policy.
+  - Understand Microsoft Store for Business.
+  - Learn how to configure Microsoft Store for Business.
+  - Explain how to use Microsoft Store for Business.
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later.
+  - Strong understanding of computer networking, client security, and application concepts.
+  - Experience using Active Directory Domain Services.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.deploy-update-applications.introduction
+- learn.wwl.deploy-update-applications.deploy-applications-with-intune
+- learn.wwl.deploy-update-applications.add-apps-intune
+- learn.wwl.deploy-update-applications.manage-win32-apps-with-intune
+- learn.wwl.deploy-update-applications.deploy-applications-configuration-manager
+- learn.wwl.deploy-update-applications.deploying-applications-group-policy
+- learn.wwl.deploy-update-applications.assign-publish-software
+- learn.wwl.deploy-update-applications.explore-microsoft-store-business
+- learn.wwl.deploy-update-applications.examine-microsoft-store-business-prerequisites
+- learn.wwl.deploy-update-applications.implement-microsoft-store-business
+- learn.wwl.deploy-update-applications.obtain-apps-based-on-your-licensing-model
+- learn.wwl.deploy-update-applications.use-microsoft-store-business
+- learn.wwl.deploy-update-applications.assign-apps-company-employees
+- learn.wwl.deploy-update-applications.knowledge-check
+- learn.wwl.deploy-update-applications.summary
+badge:
+  uid: learn.wwl.deploy-update-applications.badge

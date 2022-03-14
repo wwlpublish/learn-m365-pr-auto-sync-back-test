@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-update-applications.assign-apps-company-employees
+title: Assign apps to company employees
+metadata:
+  title: Assign apps to company employees
+  description: "Assign apps to company employees"
+  ms.date: 03/14/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/13-assign-apps-company-employees.md)]

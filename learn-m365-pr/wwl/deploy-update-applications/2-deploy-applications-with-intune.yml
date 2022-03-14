@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-update-applications.deploy-applications-with-intune
+title: Deploy applications with Intune
+metadata:
+  title: Deploy applications with Intune
+  description: "Deploy applications with Intune"
+  ms.date: 03/14/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-deploy-applications-with-intune.md)]

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-update-applications.deploy-applications-configuration-manager
+title: Deploy applications with Configuration Manager
+metadata:
+  title: Deploy applications with Configuration Manager
+  description: "Deploy applications with Configuration Manager"
+  ms.date: 03/14/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-deploy-applications-configuration-manager.md)]
