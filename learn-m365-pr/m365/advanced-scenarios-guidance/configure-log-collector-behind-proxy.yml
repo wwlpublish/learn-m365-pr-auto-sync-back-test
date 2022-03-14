@@ -3,7 +3,7 @@ uid: learn-m365.advanced-scenarios-guidance.configure-log-collector-behind-proxy
 metadata:
   title: Configure a log collector to connect to Microsoft Defender for Cloud Apps from behind a proxy
   description: Advanced scenarios and guidance with Microsoft Defender for Cloud Apps
-  ms.date: 01/13/2022
+  ms.date: 03/10/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
