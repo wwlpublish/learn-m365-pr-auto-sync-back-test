@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-device-encryption-features.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/11/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "What does BitLocker use to verify the integrity of a computer's startup process?"
+    choices:
+    - content: "The BitLocker recovery password"
+      isCorrect: false
+      explanation: "Incorrect. The BitLocker recovery password is a 48-digit password that unlocks a system in recovery mode. Try again."
+    - content: "a Trusted Platform Module chip"
+      isCorrect: true
+      explanation: "Correct. BitLocker uses a Trusted Platform Module (TPM) chip to verify the integrity of the startup process. TPM provides a method to verify that early boot file integrity has been maintained, and to help ensure that there has been no adverse modification of those files, such as with boot sector viruses or root kits. It also provides enhanced protection to mitigate offline software-based attacks, and it locks the system when it's tampered with."
+    - content: "Windows Information Protection"
+      isCorrect: false
+      explanation: "Incorrect. Windows Information Protection protects against potential data leakage without otherwise interfering with the employee experience. Try again"
+  - content: "Which of the following is a feature of EFS?"
+    choices:
+    - content: "EFS encrypts individual files based on user accounts"
+      isCorrect: true
+      explanation: "Correct. Encrypting Files System (EFS) is another encryption feature in Windows. Unlike BitLocker, which encrypts the entire volume, EFS encrypts individual files based on user accounts."
+    - content: "With EFS, files don't remain encrypted if they're moved or copied to another system that doesn't also provide encryption"
+      isCorrect: false
+      explanation: "Incorrect. This item is actually a feature of BitLocker. With EFS, users can share encrypted files with other users on file shares and in web folders. Try again."
+    - content: "EFS is easier to implement and manager than BitLocker"
+      isCorrect: false
+      explanation: "Incorrect. BitLocker is a newer feature of Windows and generally recommended for encryption as it’s easier to implement and manage. You need to have a comprehensive understanding of EFS to implement a secure and recoverable EFS policy. A lack of understanding (by either an administrator or an end user) or an improper implementation can expose your data unnecessarily or leave it in a state from which you cannot recover it. Try again."
+  - content: "Contoso is interested in using BitLocker to provide additional protection for their computers' operating systems and any data that's stored on those operating systems or in other volumes. Which of the following is a feature of BitLocker?"
+    choices:
+    - content: "To install BitLocker, you must manually partition each computer's hard disk to enable the use of BitLocker"
+      isCorrect: false
+      explanation: "Incorrect. The Windows installation automatically process partitions the computer’s hard disk to enable the use of BitLocker. Try again."
+    - content: "BitLocker requires a TPM chip"
+      isCorrect: false
+      explanation: "Incorrect. BitLocker does not require a TPM. However, only a computer with a TPM can provide the additional security of prestartup system-integrity verification. Try again."
+    - content: "The BitLocker recovey password is required if you move a BitLocker encrypted drive to another computer"
+      isCorrect: true
+      explanation: "Correct. The BitLocker recovery password is a 48-digit password that unlocks a system in recovery mode. The recovery password is unique to a particular BitLocker encryption, and you can store it in AD DS. The recovery password will be required if you move the encrypted drive to another computer, or if changes are made to the system startup information."
+  - content: "Tailspin Toys doesn't have BitLocker installed on any of the company's computers. However, the company is now considering implementing BitLocker because it recently had an attacker gain access to the startup process components on several computers. The attacker changed the code in these components and gained access to the computers even though the data on the computers' disks was encrypted. Once the attacker gained access to confidential information such as user passwords, they were able to circumvent other Windows security protections. How would BitLocker have prevented these attacks?"
+    choices:
+    - content: "By requiring a TPM chip"
+      isCorrect: false
+      explanation: "Incorrrect. BitLocker doesn't require a TPM chip. However, only a computer with a TPM can provide the additional security of prestartup system-integrity verification that would have prevented the attack on Tailspin Toys' computers. Try again."
+    - content: "BitLocker doesn't allow the system to start when it's been tampered with"
+      isCorrect: true
+      explanation: "Correct. BitLocker uses a Trusted Platform Module (TPM) chip to verify the integrity of the startup proces. It does so by locking the system when it is tampered with. If anyone has tampered with monitored files, the system does not start. This alerts the user to the tampering because the system fails to start as usual. In the event that system lockout occurs, BitLocker offers a simple recovery process."
+    - content: "BitLocker requires a recovery password to enter recovery mode"
+      isCorrect: false
+      explanation: "Incorrect. While BitLocker does require a recovery password to enter recovery mode, this would not have prevented the attacks that Tailspin Toys experienced. BitLocker has another feature that would have prevented those attacks. Try again."
+  - content: "BitLocker has entered a locked state on a user's computer in your domain environment. You need the recovery password to unlock the encrypted data on the volume. Locating a BitLocker password requires several conditions. Which of the following items is one of the conditions that must be met to locate the password?"
+    choices:
+    - content: "You must be a domain administrator or have delegate permissions"
+      isCorrect: true
+      explanation: "Correct. To locate a password, the following conditions must be met: 1) You must be a domain administrator or have delegate permissions, 2) The client's BitLocker recovery information is configured for storage in AD DS, 3) The client’s computer has been joined to a domain, and 4) BitLocker must be enabled on the client's computer."
+    - content: "The computer must be quarnteened from the network"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't a condition for locating the BitLocker password. Try again."
+    - content: "BitLocker must be configured to store recovery information in AD DS"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't a condition for locating the BitLocker password. Try again."

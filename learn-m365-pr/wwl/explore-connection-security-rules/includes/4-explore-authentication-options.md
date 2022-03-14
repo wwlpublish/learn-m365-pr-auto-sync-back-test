@@ -1,0 +1,20 @@
+When you use the New Connection Security Rule Wizard to create a new rule, you can use the Requirements page to specify how you want authentication to apply to inbound and outbound connections. If you request authentication, this enables communications when authentication fails. If you require authentication, this causes the connection to drop if authentication fails.
+
+### Authentication options
+
+The following options are available when creating a new rule:
+
+ -  **Request authentication for inbound and outbound connections option.** Use this option to specify that all inbound and outbound traffic must authenticate, but that the connection is allowable if authentication fails. However, if authentication succeeds, traffic is protected. You typically use this option in low-security environments or in an environment where computers must be able to connect, but they cannot perform the types of authentication that are available with Windows Defender Firewall with Advanced Security.
+ -  **Require authentication for inbound connections and Request authentication for outbound connections option**. Use this option to ensure that all inbound traffic is authenticated or blocked. This allows you to allow outbound traffic for which authentication fails. If authentication succeeds for outbound traffic, the firewall authenticates that traffic. You typically use this option in most IT environments in which the computers that need to connect can perform the authentication types that are available with Windows Defender Firewall with Advanced Security.
+ -  **Require authentication for inbound and outbound connections option**. Use this option to require that all inbound and outbound traffic either is authenticated or else blocked. You typically use this option in higher-security IT environments where you must protect and control traffic flow, and in which the computers that must be able to connect can perform the authentication types that are available with Windows Defender Firewall with Advanced Security.
+
+### Authentication methods
+
+The New Connection Security Rule Wizard has a page on which you can configure the authentication method and the authentication credentials that you want clients to use. If the rule exists already, you can use the Authentication tab in the Properties dialog box of the rule that you wish to edit. The following authentication methods are available:
+
+ -  **Default**. Select the Default option to use the authentication method that you configured on the IPsec Settings tab of the Windows Defender Firewall with Advanced Security Properties dialog box.
+ -  **Computer and user (Kerberos V5)**. The Computer and user (Kerberos V5) method uses both computer and user authentication, which means that you can request or require both the user and the computer to authenticate before communications continue. You can use the Kerberos V5 authentication protocol only if both computers are domain members.
+ -  **Computer (Kerberos V5)**. The Computer (Kerberos V5) method requests or requires the computer to authenticate by using the Kerberos V5 authentication protocol. You can use the Kerberos V5 authentication protocol only if both computers are domain members.
+ -  **User (Kerberos V5)**. The User (Kerberos V5) method requests or requires the user to authenticate by using the Kerberos V5 authentication protocol. You can use the Kerberos V5 authentication protocol only if the user is a domain user.
+ -  **Computer certificate**. The Computer certificate method requests or requires a valid computer certificate to authenticate, and you must have certificates from a CA trusted by both computers. s. Use this method if the computers are not part of the same AD DS domain.
+ -  **Advanced**. You can configure any available method, and you can specify methods for first authentication and second authentication. First authentication methods include Computer (Kerberos V5), computer certificate, and a Preshared key (not recommended). Second authentication methods include User (Kerberos V5), User NTLM (Windows NT Challenge/Response protocol), user certificates, and computer certificates issued by trusted CAs.
