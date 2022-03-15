@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-device-compliance-policies. create-conditional-access-policies
+title: Create conditional access policies
+metadata:
+  title: Create conditional access policies
+  description: "Create conditional access policies"
+  ms.date: 03/15/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-create-conditional-access-policies.md)]
