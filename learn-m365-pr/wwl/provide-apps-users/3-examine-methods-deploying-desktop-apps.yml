@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.provide-apps-users.examine-methods-deploying-desktop-apps
+title: Examine methods for deploying desktop apps
+metadata:
+  title: Examine methods for deploying desktop apps
+  description: "Examine methods for deploying desktop apps"
+  ms.date: 03/11/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-examine-methods-deploying-desktop-apps.md)]

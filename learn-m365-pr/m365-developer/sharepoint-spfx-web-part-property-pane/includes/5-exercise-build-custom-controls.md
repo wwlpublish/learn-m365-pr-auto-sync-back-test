@@ -2,7 +2,7 @@ In this exercise, you'll extend the property pane by creating your own custom fi
 
 ## Create folders to contain the files for the control and associated React component
 
-Open a command prompt and change to the root folder of the project created in the last exercise. Within the project, locate the **src** folder and create a subfolder named **controls**.
+Open **Visual Studio Code** and then open the SharePoint Framework web part project you created in the previous exercise. Locate the **src** folder and create a subfolder named **controls**.
 
 Create a new subfolder **PropertyPaneContinentSelector** within the **controls** folder.
 

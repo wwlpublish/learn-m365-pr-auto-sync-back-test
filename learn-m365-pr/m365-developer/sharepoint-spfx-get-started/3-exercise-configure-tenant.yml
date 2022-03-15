@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-get-started.3-exercise-configure-tenant
 metadata:
   title: Exercise - Create and configure your SharePoint Online developer tenant
   description: In this exercise, you'll configure your SharePoint environment to be ready for SharePoint Framework development.
-  ms.date: 12/11/2021
+  ms.date: 03/08/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

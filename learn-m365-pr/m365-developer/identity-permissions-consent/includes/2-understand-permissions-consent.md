@@ -15,11 +15,11 @@ The other units in this module will explore both delegated and application permi
 
 Effective permissions are the permissions that your app will have when making requests to the target resource. It's important to understand the difference between the delegated and application permissions that your app is granted and its effective permissions when making calls to the target resource.
 
-![Screenshot of application and delegated permissions](../media/02-permissions-01.png)
+![Screenshot of application and delegated permissions.](../media/02-permissions-01.png)
 
 For delegated permissions, the effective permissions of your app are the intersection of the delegated permissions the app has been granted and the privileges of the currently signed-in user. In other words, the app can never have more privileges than the signed-in user. Within organizations, the privileges of the signed-in user may be determined by policy or by membership in one or more administrator roles.
 
-![Screenshot of application and delegated permissions](../media/02-permissions-02.png)
+![Screenshot of application and effective permissions.](../media/02-permissions-02.png)
 
 For example, assume your app has been granted the **User.ReadWrite.All** delegated permission. This permission enables your app to be used to read and update the profile of every user in an organization. If the signed-in user is a global administrator, your app can update the profile of every user in the organization. However, if the signed-in user isn't in an administrator role, your app can update only the profile of the signed-in user. It can't update the profiles of other users in the organization because the user that it has permission to act on behalf of does not have those privileges.
 
