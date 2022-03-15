@@ -15,7 +15,7 @@ Enterprise State Roaming syncs settings across Azure AD joined devices and provi
  -  Synced data is kept in the same region. Enterprise State Roaming data is hosted in the Azure region that best aligns with the Azure AD tenant’s country/region, and data resides locally in the geographical region and does not replicate across regions.
  -  Data retention. Enterprise State Roaming data that was synced to Azure is kept at least 90 days after it was last accessed or until you delete it manually.
 
-#### Syncing User Data
+#### Sync User Data
 
 Enterprise State Roaming (ESR) does not provide a mechanism for synchronizing user files, such as documents and pictures. For this, OneDrive is a service that enables the ability to store and access files from all your devices, by storing data in the cloud. Together, OneDrive and ESR provide a modern method for providing users a seamless experience when using different devices. The modern method is fairly straight-forward. User data and settings are seamlessly synchronized between the client device and the cloud. When a user logs in to any other (approved) device, the user’s data and settings follow.
 

@@ -2,5 +2,4 @@ Windows user profiles are assigned to each user signed onto a PC and each user p
 
 ### Learn more
 
- -  Folder Redirection Overview.
- -  [Microsoft Edge and Enterprise State Roaming](/deployedge/microsoft-edge-enterprise-state-roaming)
+ -  [Microsoft Edge and Enterprise State Roaming](/deployedge/microsoft-edge-enterprise-state-roaming)<br>
