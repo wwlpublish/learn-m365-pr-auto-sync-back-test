@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.enable-organizational-access
+metadata:
+  title: Enable organizational access
+  description: "This module describes how clients can be configured to access organizational resources using a virtual private network (VPN)."
+  ms.date: 03/15/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Enable organizational access
+summary: This module describes how clients can be configured to access organizational resources using a virtual private network (VPN).
+abstract: |
+  - Describe how you can access corporate resources
+  - Describe VPN types and configuration
+  - Describe Always On VPN
+  - Describe how to configure Always On VPN
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.enable-organizational-access.introduction
+- learn.wwl.enable-organizational-access.enable-access-organization-resources
+- learn.wwl.enable-organizational-access.explore-vpn-types-configuration
+- learn.wwl.enable-organizational-access.explore-always-on-vpn
+- learn.wwl.enable-organizational-access.deploy-always-on-vpn
+- learn.wwl.enable-organizational-access.knowledge-check
+- learn.wwl.enable-organizational-access. summary
+badge:
+  uid: learn.wwl.enable-organizational-access.badge
