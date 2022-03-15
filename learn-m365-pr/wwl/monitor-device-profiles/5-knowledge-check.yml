@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/07/2022
+  ms.date: 03/15/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -17,14 +17,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Intune policies fall into mulitple categories. Which category is commonly used to manage security settings and features on your devices, including access to company resources?"
+  - content: "Intune policies fall into mulitple categories. Which category is commonly used to manage security settings and features on devices, including defining access to company resources?"
     choices:
     - content: "Conditional access policies"
       isCorrect: false
-      explanation: "Incorrect. Conditional access policies help secure email and other services, depending on conditions that you enter. Try again."
+      explanation: "Incorrect. Conditional access policies help secure email and other services, based on the current configuration of the device. Try again."
     - content: "Configuration policies"
       isCorrect: true
-      explanation: "Correct. Configuration policies are commonly used to manage security settings and features on your devices, including access to company resources. Get started at Intune device profiles."
+      explanation: "Correct. Configuration policies are commonly used to manage security settings and features on your devices, including defining access to company resources."
     - content: "Device compliance policies"
       isCorrect: false
       explanation: "Incorrect. Device compliance policies define the rules and settings that a device must comply with to be considered compliant by conditional access policies. You can also use compliance policies to monitor and remediate the compliance of devices independent of conditional access. Try again."

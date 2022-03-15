@@ -46,12 +46,12 @@ The Intune management extension has the following prerequisites:
 :::row-end:::
 
 
-### **Create a PowerShell script policy for Windows**
+### Create a PowerShell script policy for Windows
 
 1.  In the Endpoint Manager admin center, select **Devices**.
 2.  In the Policy section, select **Scripts** and select **Add**, then select **Windows 10 and later**.
-
-Adding scripts is very similar to the process for creating a profile. After adding a name and description, you will configure the Script settings.
+    
+    Adding scripts is very similar to the process for creating a profile. After adding a name and description, you will configure the Script settings.
 
 3.  In **Script settings**, enter the following properties:
     
@@ -61,7 +61,7 @@ Adding scripts is very similar to the process for creating a profile. After addi
      -  **Run script in 64-bit PowerShell host**: Select Yes to run the script in a 64-bit PowerShell (PS) host on a 64-bit client architecture. Select No (default) runs the script in a 32-bit PowerShell host.
 4.  Select **Next** and configure scope tags and assignments. Note that PowerShell scripts in Intune can be targeted to Azure AD device security groups or Azure AD user security groups.
 
-### **Create a shell script policy for MacOS**
+### Create a shell script policy for MacOS
 
 Adding a script for the MacOS uses the same steps creating a PowerShell script policy, selecting **macOS** after choosing **Add**. The macOS script settings are slightly different.
 

@@ -1,6 +1,6 @@
 Intune includes some features in the Endpoint Manager admin center to help monitor and manage your device configuration profiles. For example, you can check the status of a profile, see which devices are assigned to it, and update the properties of a profile.
 
-### **View existing profiles**
+### View existing profiles
 
 Complete the following steps to view existing profiles:
 
@@ -9,7 +9,7 @@ Complete the following steps to view existing profiles:
 
 All your existing profiles are listed, which includes details such as the platform, and shows if the profile is assigned to any devices.
 
-### **View details on a profile**
+### View details on a profile
 
 After you create your device profile, Intune provides graphical charts. These charts display the status of a profile, such as it being successfully assigned to devices, or if the profile shows a conflict.
 
@@ -29,11 +29,11 @@ After you create your device profile, Intune provides graphical charts. These ch
      -  **User status.** Lists the user names with devices impacted by this profile, and if the profile successfully deployed. You can select a specific user to get even more details.
      -  **Per-setting status.** Filters the output by showing the individual settings within the profile and shows if the setting is successfully applied.
 
-### **View conflicts**
+### View conflicts
 
-In **Devices** &gt; **All devices**, you can see any policy settings that are causing a conflict. When there's a conflict, you are also shown all the configuration profiles that contain this setting. Administrators can use this feature to help troubleshoot and fix any discrepancies with the profiles.
+In **Devices** &gt;**All devices**, you can see any policy settings that are causing a conflict. When there's a conflict, you are also shown all the configuration profiles that contain this setting. Administrators can use this feature to help troubleshoot and fix any discrepancies with the profiles.
 
-1.  In the Endpoint Manager admin center, select **Devices** &gt; **All Devices**, and then select an existing device in the list. An end user can get the device name from their Company Portal app.
+1.  In the Endpoint Manager admin center, select **Devices** &gt;**All Devices**, and then select an existing device in the list. An end user can get the device name from their Company Portal app.
 2.  Select **Device configuration**. All configuration policies that apply to the device are listed.
 3.  Select the policy. It shows you all the settings in that policy that apply to the device. If a device has a Conflict state, select that row. In the new window, you see all the profiles, and the profile names that have the setting causing the conflict.
 
