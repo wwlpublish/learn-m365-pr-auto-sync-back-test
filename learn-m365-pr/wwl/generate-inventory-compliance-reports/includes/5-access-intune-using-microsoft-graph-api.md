@@ -1,6 +1,6 @@
 The Microsoft Graph API for Intune enables programmatic access to Intune information for your tenant; the API performs the same Intune operations as those available through the Azure portal. Even though Microsoft Graph is primarily used for programmatic access to your data in the cloud, and thus can be used for building automation scripts. You can also use it to extract data from Intune and further manipulate that data into your favorite analysis or reporting tool. When you use Microsoft Graph you have access to all data in Intune but it’s more complex to work with compared to Power BI and Intune Data Warehouse, for example.
 
-:::image type="content" source="../media/microsoft-graph-api-907866e3.png":::
+:::image type="content" source="../media/microsoft-graph-api-907866e3.png" alt-text="Illustration titled, Intune APIs in Microsoft Graph-automation, integration and advanced analytics.":::
 
 
 For mobile device management (MDM) scenarios, the Graph API for Intune supports standalone deployments. Intune provides data into the Microsoft Graph in the same way as other cloud services do, with rich entity information and relationship navigation. Use Microsoft Graph to combine information from other services and Intune to build rich cross-service applications for IT professionals or end users.
