@@ -30,4 +30,4 @@ When you're done with a link, use the **Back** arrow in your browser to come bac
 
 - [Manage Windows upgrades with Upgrade Readiness](https://docs.microsoft.com/windows/deployment/upgrade/manage-windows-upgrades-with-upgrade-readiness)
 - [The Readiness Toolkit for Office add-ins and VBA](https://docs.microsoft.com/DeployOffice/use-the-readiness-toolkit-to-assess-application-compatibility-for-office-365-pro)
-- [Desktop App Assure](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure)
+- [Desktop App Assure](https://docs.microsoft.com/windows/compatibility/app-assure)
