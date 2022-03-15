@@ -86,7 +86,7 @@ The `check_query()` function checks the query (data frame) and gives you a diagn
 check_query(sq_data)
 ```
 
-The `hrvar_count()` function counts the distinct people by the specified HR attribute, and returns a bar chart. The following example shows a bar chart for "LevelDesignation".
+The `hrvar_count()` function counts the distinct people by the specified HR attribute, and returns a bar chart. The following example shows a bar chart for `LevelDesignation`.
 
 ```R
 hrvar_count(sq_data, hrvar = "LevelDesignation")
