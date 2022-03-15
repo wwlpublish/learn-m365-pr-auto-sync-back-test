@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-manage-file-access.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/11/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/9-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "You're working on a sales spreadsheet. Due to the sensitive nature of the file, it has explicitly assigned permissions. You decide to move the file to a different volume. What's the effect of this move on the file's permissions?"
+    choices:
+    - content: "The file inherits the destination folder's permissions, but it doesn't retain the explicitly assigned permissions"
+      isCorrect: true
+      explanation: "Correct. When you move a file or folder to a different volume, the folder or file inherits the destination folder’s permissions, but it does not retain the explicitly assigned or inherited permissions from the source location. When you move a folder or file between volumes, Windows copies the folder or file to the new location and deletes the original file from the source location."
+    - content: "The file inherits the destination folder's permissions and it retains the explicitly assigned permissions"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the effect the move has on the file's permissions. Try again."
+    - content: "The file loses all permissions"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the effect the move has on the file's permissions. Try again."
+  - content: "You're an IT Support professional for a medical facility. One of the physicians needs to move a file to a different folder on the file server. You determine that the folders are on the same volume. What permissions, at a minimum, must the physician have to move the file?"
+    choices:
+    - content: "Modify for the source file and Write for the destination folder"
+      isCorrect: true
+      explanation: "Correct. When you move a file or folder within a volume or between volumes, you must have both the Write permission for the destination folder and the Modify permission for the source file or folder. You require the Modify permission to move a folder or file because Windows deletes the folder or file from the source folder after it copies it to the destination folder."
+    - content: "Read for the source file and Write for the destination folder"
+      isCorrect: false
+      explanation: "Incorrect. These aren't the minimum permissions required to move the file. However, they are the minimum requirements to copy a file or folder within a single volume or between volumes. Try again."
+    - content: "Read for the source file and Full control for the destination folder"
+      isCorrect: false
+      explanation: "Incorrect. These aren't the minimum permissions required to move the file. Try again."
+  - content: "What are effective permissions?"
+    choices:
+    - content: "The permissions on a file or folder that are effective on the date the file or folder is created"
+      isCorrect: false
+      explanation: "Incorrect. Effective permissions have nothing to do with effectivity dates. Try again."
+    - content: "Permissions that are explicitly assigned to a file or folder"
+      isCorrect: false
+      explanation: "Incorrect. Permissions that are explicitly assigned to a file or folder are referred to as explicit permissions. Try again."
+    - content: "Permissions determined by combining the user and group permissions and then comparing them to the selected user's permissions"
+      isCorrect: true
+      explanation: "Correct. Each file or folder on the NTFS file system or ReFS has inherited or explicit permissions assigned, or both. Windows determines effective permissions by combining the user and group permissions and comparing them to the permissions of the selected user."
+  - content: "Which basic permission on a folder allows groups or users to delete a file in that folder, regardless of the permissions that protect the file?"
+    choices:
+    - content: "Modify"
+      isCorrect: false
+      explanation: "Incorrect. The Modify permission allows you to read a file, write changes to it, and modify permissions. Try again."
+    - content: "Full control"
+      isCorrect: true
+      explanation: "Correct. Groups or users that have the Full Control permission on a folder can delete any files in that folder, regardless of the permissions that protect the file."
+    - content: "Delete"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't a basic file or folder permission. Try again"
+  - content: "Sally is a member of the HR security group. You want to determine whether Sally can access the HR folder on an NTFS drive, so you open the Advanced Security Settings feature on the HR folder. From this feature, you can determine the permissions assigned to Sally and the effective access permissions Sally and the HR group have on the folder. What else can you determine from the Advanced Security Settings feature on the HR folder?"
+    choices:
+    - content: "The permissions assigned to the HR group"
+      isCorrect: false
+      explanation: "Incorrect. The Permission tab in Advanced Security Settings doesn't display the permissions assigned to the HR group. Try again."
+    - content: "The effective access to the device"
+      isCorrect: true
+      explanation: "Correct. The Effective Access tab in the Advanced Security Settings for the HR folder enables you to view the effective permissions for a user, group, or device account."
+    - content: "How many times Sally has tried to access the folder"
+      isCorrect: false
+      explanation: "Incorrect. The Advanced Security Settings feature doesn't display the number of times Sally has tried to access the folder. Try again."

@@ -8,7 +8,7 @@ In this exercise, you'll create a new web part that someone can use to select a 
 Open a command prompt and change to the folder where you want to create the project.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.13.0 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you are using v1.13.1 of the SharePoint Framework Yeoman generator.
 
 Run the SharePoint Yeoman generator by executing the following command:
 
@@ -18,18 +18,19 @@ yo @microsoft/sharepoint
 
 Use the following to complete the prompt that is displayed (*if additional options are presented, accept the default answer)*:
 
-- **Which type of client-side component to create?**: Web Part
-- **What is your Web Part name?**: UploadFile
-- **What is your Web Part description?**: UploadFile description
+- **What is your solution name?**: FileUpload
+- **Only SharePoint Online (latest) is supported.  For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
+- **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
+- **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No- **Which type of client-side component to create?**: Web Part
+- **What is your Web Part name?**: FileUpload
+- **What is your Web Part description?**: FileUpload description
 - **Which framework would you like to use?** No JavaScript Framework
 
-After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, test the default project provisioned by the generator.
-
-Open the project in **Visual Studio Code**.
+After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, open the project in **Visual Studio Code**.
 
 ## Update the web part's user interface
 
-With the web part created, update the user interface to include a control to select a file from the user's computer and a button to trigger the process.
+With the web part created, update the user interface to include a control to select a file from the user's computer and a button to trigger the upload process.
 
 Locate and open the **./src/webparts/fileUpload/FileUploadWebPart.ts** file.
 
@@ -57,7 +58,7 @@ public render(): void {
 
 ## Obtain element references and attach event handlers
 
-Next, replace the `// TODO` comment with the following code. These are used to get a reference to the two form elements you added to the web part:
+Next, replace the `// TODO 1` comment with the following code. These are used to get a reference to the two form elements you added to the web part:
 
 ```typescript
 // get reference to file control
@@ -83,7 +84,7 @@ This code attaches to the `click` event on the button. The last two steps are to
 
 ## Read the contents of the selected file
 
-In the **FileUploadWebPart.ts** file, add the following method to the `FileUploadWebPart` class. This will take a file reference, read its contents into memory and return it to the caller:
+In the **FileUploadWebPart.ts** file, add the following method to the `FileUploadWebPart` class. This will take a file reference, read its contents into memory, and return it to the caller:
 
 ```typescript
 private _getFileBuffer(file: File): Promise<ArrayBuffer> {
@@ -174,7 +175,7 @@ The SharePoint Framework's gulp **serve** task will build the project, start a l
 
 Open a browser and navigate to a SharePoint site's hosted workbench to test the project, such as `https://{{REPLACE-THIS}}.sharepoint.com/sites/{{REPLACE-THIS}}/_layouts/workbench.aspx`.
 
-Select the plus icon on the page to open the toolbox and select the **File Upload** web part.
+Select the plus icon on the page to open the toolbox and select the **FileUpload** web part.
 
 ![SharePoint hosted workbench web part toolbox](../media/07-add-webpart-01.png)
 
@@ -190,7 +191,7 @@ Go back to the browser window/tab that contains the web part.
 
 Select the **Choose File** button and select a file from your computer, then select the **Upload** button. You should see an alert appear saying the file was uploaded.
 
-Finally, verify the file was uploaded by switching back ot the browser window/tab with the **Documents** library. The file should appear in a moment, or you can force the page to update by refreshing it:
+Finally, verify the file was uploaded by switching back ot the browser window/tab with the **Documents** library. Refresh the page to see the file if it doesn't show automatically:
 
 ![Documents library with the added file](../media/07-document-library-02.png)
 

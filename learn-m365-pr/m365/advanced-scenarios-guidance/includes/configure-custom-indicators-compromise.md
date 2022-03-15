@@ -10,7 +10,7 @@ When you try to intercept attacks against your network, it's essential to spot m
 Common indicators of compromise include:
 
 - Virus signatures.
-- Blacklisted IP addresses.
+- Blocklisted IP addresses.
 - MD5 hashes of known malware files.
 
 Microsoft Defender for Cloud Apps includes a broad set of indicators for well-known viruses, IP addresses, and malware, and you can define the actions taken when each indicator of compromise is detected on your network. For example, you could delete a detected malware file or send it to a quarantine folder.
@@ -23,7 +23,7 @@ You can create a custom indicator of compromise in Microsoft Defender for Cloud 
 
 1. Select **Create policy** and then select **File policy**.
 
-    :::image type="content" source="../media/02-create-file-policy.png" alt-text="A screenshot of the Microsoft Defender for Cloud Apps portal showing how to create a file policy." lightbox="../media/02-create-file-policy.png":::
+    :::image type="content" source="../media/02-create-file-policy.png" alt-text="A screenshot of the Microsoft Defender for Cloud Apps portal showing how to create a file policy." border="false":::
 
 1. In the **Edit file policy** page, in the **Policy name** and **Description** textboxes, enter information to describe this policy to other administrators.
 1. In the **Policy severity** drop-down list, select a severity. This setting is used to determine whether the policy will send a notification when a matching file is detected.

@@ -4,9 +4,9 @@ Open **Visual Studio Code** and then open the SharePoint Framework web part proj
 
 ## The different modes of the gulp serve task
 
-The SharePoint Framework's gulp **serve** task with the **nobrowser** switch will build the project and start a local web server. After running the gulp **serve** task, you need to manually navigate to the hosted workbench to test your web part. This is how you have used the gulp **serve** task so far.
+The SharePoint Framework's gulp **serve** task with the **nobrowser** switch will build the project and start a local web server. After running the gulp **serve** task, you need to manually navigate to the hosted workbench to test your web part. This is how you've used the gulp **serve** task so far.
 
-But what if you want the browser to open the hosted workbench automatically for you? In that case, you can use a configuration setting to tell the gulp **serve** task what to do.
+But what if you want the browser to open the hosted workbench for you automatically? In that case, you can use a configuration setting to tell the gulp **serve** task what to do.
 
 Locate and open the file **config/serve.json**
 

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-universal-windows-platform-apps.compare-microsoft-store-microsoft-store-business
+title: Compare Microsoft Store and Microsoft Store for Business
+metadata:
+  title: Compare Microsoft Store and Microsoft Store for Business
+  description: "Compare Microsoft Store and Microsoft Store for Business"
+  ms.date: 03/11/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/2-compare-microsoft-store-business.md)]

@@ -3,7 +3,7 @@ uid: learn.wwl.manage-authentication-for-messaging
 metadata:
   title: Manage authentication for messaging
   description: "Manage authentication for messaging"
-  ms.date: 01/13/2022
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -23,8 +23,10 @@ levels:
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.manage-authentication-for-messaging.introduction
 - learn.wwl.manage-authentication-for-messaging.examine-password-policy-options
