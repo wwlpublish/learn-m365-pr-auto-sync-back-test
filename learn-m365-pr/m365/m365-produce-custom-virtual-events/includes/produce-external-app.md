@@ -14,7 +14,11 @@ After you have joined, click Start Setup to provision the event
 
 Once the setup is complete, use the URLs listed on the bottom right to connect the encoder
 
+![Teams calendar showing how to use URL to connect encoder ](../media/join-producer-two.png)
+
 **Note**: When a Teams Live Event is produced using an external app or encoder, Presenters for this event will not have any type of audio/video capabilities. They will be able to moderate the Q&A panel (if enabled), chat with the producer(s), and view the live stream within the client.
+
+![Teams calendar showing how to join as a moderator for a custom produced event ](../media/join-producer-moderator.png)
 
 ## Go Live
  Now you have connected your encoder. Before you go live with custom produced Live Event, make sure to configure your OBS Studio settings to the following:
@@ -33,7 +37,7 @@ Click **Video** and Configure the following settings
 - **Output (Scaled) Resolution**: 1280 x 720 (Encoder Profiles are maxed at 720p in Stream for Live Events).
 - **Common FPS Values**: 30 is normally used for frames per second.
 
-![Image showing OBS settings](../media/OBS-settings-live-events.jpg)
+![Image showing OBS settings for Teams](../media/OBS-settings-live-events.jpg)
 
 ## Extracting content from Teams as a (content source) 
  In our scenario, we are using a Teams meeting as our content source. Remember, this is the Source machine, and it joins the Teams meeting and uses NDI to extract the isolated video feeds and mixed audio feed.  
@@ -56,11 +60,10 @@ Click **Video** and Configure the following settings
 - Install OBS and the OBS NDI Plugin (requires restart) 
 - In OBS, create a new Scene, and add a new NDI source
 
-![checkmark icon](../media/checkmark-icon.png)
+![Image showing how to install OBS NDI plugin](../media/install-OBS-ndi-plugin.png)
 
 - Select the desired feed and position into the scene
 
-![checkmark icon](../media/checkmark-icon.png)
+![Image showing how to select a desired feed using OBS](../media/select-desired-feed.png)
 
 **Note**: both audio and video must be present.
-
