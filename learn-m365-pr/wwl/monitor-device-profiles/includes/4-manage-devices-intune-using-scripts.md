@@ -71,5 +71,5 @@ Adding a script for the MacOS uses the same steps creating a PowerShell script p
      -  **Run script as signed-in user**: Select **Yes** to run the script with the user's credentials on the device. Choose **No** (default) to run the script as the root user.
      -  **Hide script notifications on devices**: By default, script notifications are shown for each script that is run. End users see an IT is configuring your computer notification from Intune on macOS devices.
      -  **Script frequency**: Select how often the script is to be run. Choose **Not configured** (default) to run a script only once.
-     -  **Max number of times to retry if script fails**: Select how many times the script should be run if it returns a non-zero exit code (zero, meaning success). Choose \*\*Not configured \*\*(default) to not retry when a script fails.
+     -  **Max number of times to retry if script fails**: Select how many times the script should be run if it returns a non-zero exit code (zero, meaning success). Choose **Not configured** (default) to not retry when a script fails.
 4.  Select **Next** and configure scope tags and assignments. Note that shell scripts assigned to user groups apply to any user logging in to the Mac.
