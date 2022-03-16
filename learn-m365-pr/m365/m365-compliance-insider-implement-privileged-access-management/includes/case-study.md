@@ -22,17 +22,17 @@ Contoso IT administrators attended online webinars about privileged access manag
 1. In the admin center, they select **Groups > Groups > Add a group** which opens the **Choose a group type** flyout page.
 1. They select **mail-enabled security group** and then complete the **Name**, **Group email address**, and **Description** fields for the new group in the **Add a group wizard**.
 
-:::image type="content" source="../media/choose-group-type.png" alt-text="Choose a group type." border="false":::
+    :::image type="content" source="../media/choose-group-type.png" alt-text="Choose a group type." border="false":::
 
 1. When finished, they click the **Create group** button at the end of the wizard.  It may take a few minutes for the group to be fully configured and to appear in the Microsoft 365 admin center.
 
-:::image type="content" source="../media/review-finish-adding-group.png" alt-text="Review and finish adding group." border="false":::
+    :::image type="content" source="../media/review-finish-adding-group.png" alt-text="Review and finish adding group." border="false":::
 
 1. After the group is created, they select the new approvers group which opens the details page for that group.
 
 1. To add users to the group, they navigate to the **Members** tab, select the **View all and manage members** link, then click **Add members** to add users to the group.
 
-:::image type="content" source="../media/pam-approvers.png" alt-text="PAM approvers." border="false":::
+    :::image type="content" source="../media/pam-approvers.png" alt-text="PAM approvers." border="false":::
 
 ## Step 2 – Enabling privileged access
 
@@ -40,11 +40,11 @@ After creating the approvers group, Contoso IT administrators must explicitly en
 
 1. In the admin center, go to **Settings** > **Settings** > **Security & Privacy** > **Privileged access**.
   
-:::image type="content" source="../media/enable-privileged-access.png" alt-text="Enable privileged access." border="false":::
+    :::image type="content" source="../media/enable-privileged-access.png" alt-text="Enable privileged access." border="false":::
 
 1. To enable privileged access they toggle the **Require approvals for privileged tasks**  control to the **On** setting, assign the approver's group created in Step 1 as the default approvers group, then click **Save**.
 
-:::image type="content" source="../media/require-approvals-privileged-tasks.png" alt-text="Require approvals for privileged tasks." border="false":::
+    :::image type="content" source="../media/require-approvals-privileged-tasks.png" alt-text="Require approvals for privileged tasks." border="false":::
 
 ## Step 3 – Creating an access policy
 
@@ -59,7 +59,7 @@ With all the prerequisites completed, the IT administrators Contoso are ready to
    - **Approval type**: Manual or Auto
    - **Approval group**: Select the approvers group created in Step 1
 
-:::image type="content" source="../media/create-new-access-policy.png" alt-text="Create new access policy." border="false":::
+    :::image type="content" source="../media/create-new-access-policy.png" alt-text="Create new access policy." border="false":::
 
 1. When finished, they click **Create**, then **Close**.  
 
