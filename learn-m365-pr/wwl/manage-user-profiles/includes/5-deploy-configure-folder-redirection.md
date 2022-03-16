@@ -10,7 +10,7 @@ Folder Redirection provides several advantages:
 
  -  Redirected folder content is available from any computer in the domain.
  -  Redirected folder content does not copy to local computers, which minimizes network traffic during user sign-in.
- -  Administrators can set quotas (limiting disk space) and permissions on redirected folders. By doing so, administrators can control how much space a user can utilize and whether the user can modify contents of that part of the folder—for example, Desktop.
+ -  Administrators can set quotas (limiting disk space) and permissions on redirected folders. By doing so, administrators can control how much space a user can utilize and whether the user can modify contents of that part of the folder - for example, Desktop.
  -  Redirected folders are stored on network locations (network shares) and not on local computers. If a local hard drive fails, users can still access data in redirected folders from a different computer.
  -  Redirected folder content can be backed up centrally because it is not stored locally on user computers. If Shadow Copies for Shared Folders is configured on a network location, users can access previous versions of their redirected files.
 

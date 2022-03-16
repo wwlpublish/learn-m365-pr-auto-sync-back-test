@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/15/2022
+  ms.date: 03/16/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -27,7 +27,7 @@ quiz:
       explanation: "Incorrect. These profiles aren't the four common different types of user profiles. Try again."
     - content: "Local User Profile, Roaming User Profile, Member User Profile, Temporary User Profile"
       isCorrect: false
-      explanation: "Incorrect. Incorrect. These profiles aren't the four common different types of user profiles. Try again."
+      explanation: "Incorrect. These profiles aren't the four common different types of user profiles. Try again."
   - content: "Data synced to the Microsoft cloud using Enterprise State Roaming that hasn't been accessed for one year may be deleted from the Microsoft cloud. What are the three methods that can explicitly delete data?"
     choices:
     - content: "User Deletion, Directory Deletion, Removal Deletion"
