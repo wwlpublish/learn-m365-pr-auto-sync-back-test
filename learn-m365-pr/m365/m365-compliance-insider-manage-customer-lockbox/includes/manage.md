@@ -4,7 +4,7 @@ You can turn on Customer Lockbox controls in the Microsoft 365 admin center. Whe
 
 1. To turn on Customer Lockbox, anyone with a work or school account who has been granted the global administrator role or someone assigned the Customer Lockbox access approver admin role signs in to the [Microsoft 365 admin center](https://admin.microsoft.com?azure-portal=true) and selects **Settings > Settings > Security & privacy**.
 
-    :::image type="content" source="../media/    customer-lockbox-settings.png" alt-text="Customer lockbox settings." border="false":::
+    :::image type="content" source="../media/customer-lockbox-settings.png" alt-text="Customer lockbox settings." border="false":::
 
 1. Selecting Customer lockbox opens the Customer lockbox flyout page where you can toggle the setting to be On or Off by using the Require approval for all data requests checkbox and clicking Save changes.
 
