@@ -1,13 +1,13 @@
 The following graphic walks you through the workflow for using an encoder to produce your event. 
+
+![Flow Chart of advanced production workflow](../media\proposed-advanced-production-workflow.jpg)
+
 These steps represent the production workflow for broadcast streaming. At each step, you decide the specific technology to use based on your specific needs:
 - Schedule 
 - Produce using app/device
-- Go live
-- Cloud Delivery
-- Network Delivery 
-- View 
+- Go live 
 
-Now that you understand how the production process works, let's move on to scheduling a Teams Live Event. You’ll use the live event to produce the executive panel and to get a link for the event that you can share with attendees in the formal invitation. 
+Now that you understand how the production process works, let's move on to the first step, which is to schedule your Teams Live Event. You’ll use the live event to produce the executive panel and to get a link for the event that you can share with attendees in the formal invitation. 
 ## How to schedule your Live Event from Teams 
 To get started, create a **Live event** in Microsoft Teams. This is where you define your event details such as the title of your live event, the time and date, and your **Producers** and **Presenters**. 
 
