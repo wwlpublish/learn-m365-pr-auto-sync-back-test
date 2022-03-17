@@ -25,7 +25,7 @@ When accessing data in the Data Warehouse with Power BI, you have two options:
  -  Load the data in Power BI using the OData link
  -  Use the Intune Compliance App
 
-### **Load the data in Power BI using the OData link**
+### Load the data in Power BI using the OData link
 
 With a client authenticated to Azure AD, the OData URL connects to the RESTful endpoint in the Data Warehouse API that exposes the data model to your reporting client. Follow these instructions to use Power BI Desktop to connect and create your own reports. You're not limited to Power BI Desktop, but can use your favorite analytic tool with the OData URL provided the client supports OAUTH2.0 authentication and the OData v4.0 standard.
 
@@ -43,7 +43,7 @@ With a client authenticated to Azure AD, the OData URL connects to the RESTful e
 7.  Select the desired tables needed for reporting.
 8.  Create custom dashboards and reports using the PowerBI Desktop.
 
-### **Use the Power BI App**
+### Use the Power BI App
 
 Alternatively, you can use the Power BI Intune Compliance app, which is in preview. This contains pre-configured reports focused on device compliance reporting. This uses the web version of PowerBI and allows for customization and sharing of reports.
 

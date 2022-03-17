@@ -8,27 +8,27 @@ For mobile device management (MDM) scenarios, the Graph API for Intune supports 
 Here’s an example of how you can determine whether an application is installed on a user's device:
 
 1.  From Azure AD, get a list of devices registered to a user:
-
-```
-https://graph.microsoft.com/beta/users/{user}/ownedDevices
-
-```
+    
+    ```
+    https://graph.microsoft.com/beta/users/{user}/ownedDevices
+    
+    ```
 
 2.  Then view the list of applications for your tenant:
-
-```
-https://graph.microsoft.com/beta/deviceAppManagement/mobileApps
-
-```
+    
+    ```
+    https://graph.microsoft.com/beta/deviceAppManagement/mobileApps
+    
+    ```
 
 3.  Take the ID from the application and determine the installation state for the application (and therefore user):
+    
+    ```
+    https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{id}/deviceStatuses/
+    
+    ```
 
-```
-https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{id}/deviceStatuses/
-
-```
-
-### **Microsoft Graph Explorer**
+### Microsoft Graph Explorer
 
 You could use the Microsoft Graph Explorer, which is a tool that lets you make requests and receive responses against the Microsoft Graph. Doing so should make it easier to find out how you would build your queries against Graph for Intune. You can find the Microsoft Graph Explorer at: [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer). For examples of scripts used to access and manipulate data in Intune using Microsoft Graph, refer to the Graph API PowerShell-Intune-Sample script at: [Microsoft Graph PowerShell Intune Samples](https://github.com/microsoftgraph/powershell-intune-samples).
 

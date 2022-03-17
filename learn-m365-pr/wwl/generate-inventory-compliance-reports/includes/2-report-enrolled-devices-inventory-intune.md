@@ -1,6 +1,6 @@
 While the Endpoint Manager admin center does not include any reports specifically for inventory in the Reports node, you can still report on all your devices and applications using the Devices and Apps tab.
 
-### **Device reporting**
+### Device reporting
 
 To create and download a report for devices, in the Endpoint Manager admin center, do the following:
 
@@ -13,7 +13,7 @@ To create and download a report for devices, in the Endpoint Manager admin cente
 
 Alternatively, instead of selecting All devices, you can also select a specific platform and perform the same actions as described above.
 
-### **Application reporting**
+### Application reporting
 
 To create and download a report for apps, in the Endpoint Manager admin center, do the following:
 
