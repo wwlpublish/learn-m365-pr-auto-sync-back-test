@@ -24,7 +24,7 @@ At a minimum, you'll need access to an Office 365 organization with custom app u
 
 Developers have multiple options when building Microsoft Teams apps.
 
-The community-based **Yeoman Generator for Microsoft Teams** (*also known as: "yo teams"*) scaffolds a project once the developer has answered a few questions for the type of Microsoft Teams app they're building. You can learn more about the Yeoman Generator for Microsoft Teams here: [Create your First Microsoft Teams App](/microsoftteams/platform/tutorials/get-started-yeoman).
+The community-based **Yeoman Generator for Microsoft Teams** (*also known as: "yo teams"*) scaffolds a project once the developer has answered a few questions for the type of Microsoft Teams app they're building. You can learn more about the Yeoman Generator for Microsoft Teams here: [Create your First Microsoft Teams App](/microsoftteams/platform/get-started/get-started-overview).
 
 The **Microsoft Teams Toolkit** enables you to create custom Teams apps directly within the **Visual Studio** integrated development environment (IDE). The Microsoft Teams toolkit guides you through the process and provides everything you need to build, debug, and launch your Teams app. You can learn more about the Microsoft Teams Toolkit for Visual Studio Code here: [Build apps with the Microsoft Teams Toolkit and Visual Studio](/microsoftteams/platform/toolkit/visual-studio-overview)
 
