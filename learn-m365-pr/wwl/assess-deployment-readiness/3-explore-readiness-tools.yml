@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.assess-deployment-readiness.explore-readiness-tools
+title: Explore readiness tools
+metadata:
+  title: Explore readiness tools
+  description: "Explore readiness tools"
+  ms.date: 03/17/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-explore-readiness-tools.md)]
