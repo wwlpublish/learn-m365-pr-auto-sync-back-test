@@ -104,7 +104,7 @@ You can do many more things with an application to cater to multiple scenarios. 
 :::row-end:::
 
 
-### Creating an application in Configuration Manager
+### Create an application in Configuration Manager
 
 While there are many different options that exist for creating an application in Configuration Manager, the following procedure walks through an example that you can later expand on.
 
@@ -115,10 +115,10 @@ To create an application:
 3.  On the **General** page of the **Create Application Wizard**, choose **Automatically detect information about this application from installation files**. This pre-populates some of the information in the wizard with information that is extracted from the installation .msi file. Then, specify the following information:
     
     1.  **Type**: Choose **Windows Installer (\*.msi file)**.
-    2.  **Location**: Type the location (or choose **Browse** to select the location) of the installation file **Contoso.msi**. Note that you must specify the location in the form *\\\\Server\\Share\\File* for Configuration Manager to locate the installation files.<br><br>The example below shows the location of an MSI file.<br>:::image type="content" source="../media/configuration-manager-msi-file-location-a98ad3d1.png" alt-text="Screenshot of dialog prompting for the type and path to the application install files.":::
+    2.  **Location**: Type the location (or choose **Browse** to select the location) of the installation file **Contoso.msi**. Note that you must specify the location in the form *\\\\Server\\Share\\File* for Configuration Manager to locate the installation files.<br><br>The example below shows the location of an MSI file.<br>:::image type="content" source="../media/configuration-manager-msiexec-file-location-deaa5ab8.png" alt-text="Screenshot of dialog prompting for the type and path to the application install files.":::
         
 4.  On the **General Information** page, you can supply further information about the application to help you sort and locate it in the Configuration Manager console.
-5.  Additionally, in the **Installation program** field, you can specify the full command line that will be used to install the application on PCs. You can edit the command line to add your own properties (for example, **/q** for an unattended installation).<br><br>Below is the example MSI application.<br>:::image type="content" source="../media/configuration-manager-example-msi-application-bce0a297.png" alt-text="Screenshot of dialog prompting for information about the application, such as name, publisher, version, and comments.":::
+5.  Additionally, in the **Installation program** field, you can specify the full command line that will be used to install the application on PCs. You can edit the command line to add your own properties (for example, **/q** for an unattended installation).<br><br>Below is the example MSI application.<br>:::image type="content" source="../media/configuration-manager-example-msiexec-application-4954adc8.png" alt-text="Screenshot of dialog prompting for information about the application, such as name, publisher, version, and comments.":::
     <br>Tip: For an MSI file, you can place parameters directly on the installation program line rather than inside of a script file.<br><br>
 6.  Choose **Next**. On the **Summary** page, confirm your application settings and then complete the wizard.
 7.  You have now created the app. To find it, in the **Software Library** workspace, expand **Application Management**, and then choose **Applications**. For this example, you will see:<br>:::image type="content" source="../media/configuration-manager-software-library-example-6247005d.png" alt-text="Screenshot of Application Management folder, with the sample Contoso application listed in the Applications group.":::
@@ -126,7 +126,7 @@ To create an application:
 
 For a complex application deployment that has multiple applications, a specific sequence, or restarts as part of the eventual completion, the application model may not suit this specific scenario. In this instance, you can use the task sequence engine to initiate the installation.
 
-### Choosing an Endpoint Manager solution for deploying an application
+### Choos an Endpoint Manager solution for deploying an application
 
 Endpoint Manager offers application deployment from both Configuration Manager and Intune to deliver your line of business applications to Windows clients. Below are the supported applications types that each can offer.
 

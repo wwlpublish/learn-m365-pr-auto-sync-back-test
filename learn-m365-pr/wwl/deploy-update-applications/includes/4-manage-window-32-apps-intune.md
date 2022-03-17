@@ -14,7 +14,7 @@ Some features worth noting include:
 
 Before the Win32 app can be deployed with Intune, it must be prepped. The following chart illustrates the steps for preparing the app.
 
-:::image type="content" source="../media/prepae-win32-app-d428edb6.png" alt-text="Diagram of the process of preparing an app for Intune. Steps are Gather Media, validate command for Install or Uninstall, Create IntuneWin file, reduce size to 8GB if needed, and specify the source installer folder, setup file to run, and output folder of the .intunewin file.":::
+:::image type="content" source="../media/prepae-window-32-app-d6f22c74.png" alt-text="Diagram of the process of preparing an app for Intune. Steps are Gather Media, validate command for Install or Uninstall, Create IntuneWin file, reduce size to 8GB if needed, and specify the source installer folder, setup file to run, and output folder of the .intunewin file.":::
 
 
 The Win32 Content Prep Tool (IntuneWinAppUtil.exe) is a command line tool used to compress the Win32 app into a .intunewin file. The folder, install file (such as setup.exe) and output folder must be specified. Running the tool with the -h switch will display usage information.
@@ -25,7 +25,6 @@ A sample command might look like this:
 IntuneWinAppUtil -c c:\testapp\\v1.0 -s c:\testapp\v1.0\setup.exe -o
 c:\testappoutput\v1.0 -q
 
-
 ```
 
 Once the Intunewin file has been created, it can be added to Intune. The steps for adding the app are as follows:
@@ -34,14 +33,13 @@ Once the Intunewin file has been created, it can be added to Intune. The steps f
 2.  Select **App package file** and browse to the intunewin file you created to upload the package to Intune.
 3.  **Add the App information.** This will include information such as the name, description, publisher, category, owner, etc.
 4.  **Configure app installation install and uninstall commands.** This might look like the following for installing and uninstalling, respectively:
-
-```
-msiexec /p “MyApp.msp”
-
-msiexec /x “{12345A67-89B0-1234-5678-000001000000}
-
-
-```
+    
+    ```
+    msiexec /p “MyApp.msp”
+    
+    msiexec /x “{12345A67-89B0-1234-5678-000001000000}
+    
+    ```
 
 5.  **Define the app requirements.** This might include if it’s x86/x64, minimum OS version, disk space required, minimum memory, etc.
 6.  **Add requirement rules.** These define a specific configuration to look for, such as an existing file or folder, a registry value, or a script to execute and compare against the results of the script.

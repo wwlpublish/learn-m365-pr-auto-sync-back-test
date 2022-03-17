@@ -9,7 +9,7 @@ To assign an app to company employees, perform the following steps:
 
 You can assign apps from Microsoft Store for Business only to company users; you can’t assign them to groups or devices. If a user to whom you assign an app no longer needs the app, you can reclaim the license from that user.
 
-#### **Distribute apps with a management tool**
+#### Distribute apps with a management tool
 
 Using a management tool to distribute apps that are in Microsoft Store for Business will provide the most flexibility. For example, you can distribute apps to users based on group membership or the configuration of their Windows devices. You can use management tools for distributing apps regardless of their license type; they can distribute both online and offline-licensed apps. For online-licensed apps, Microsoft Store for Business tracks and manages app licenses. For offline-licensed apps, the management tool tracks licenses. You can use tools such as Intune or Configuration Manager to distribute apps from Microsoft Store for Business.
 
@@ -23,11 +23,11 @@ To integrate Windows Store for business, perform the following steps:
 6.  On the **Microsoft Store for Business** page, select **Enable** and choose the **Language** for the store.
 7.  Select **Save** and then select **Sync**. That will sync all the apps from Microsoft Store for Business that you added, to Intune. The synchronization can take a few hours depending on the number of apps.
 
-#### **Distribute online-licensed apps**
+#### Distribute online-licensed apps
 
 To distribute online-licensed apps by using a mobile device management tool, you must first register and configure the tool to sync with Microsoft Store for Business. You must register the management tool in the same Azure AD tenant as Microsoft Store for Business, and you must activate the mobile device management tool in Microsoft Store for Business.
 
-#### **Distribute offline-licensed apps**
+#### Distribute offline-licensed apps
 
 You can also install offline-licensed apps on devices that don’t have internet connectivity and to users who don’t have an Azure AD account. Only some apps in Microsoft Store for Business support offline licensing; offline licensing allows you to download an app package, app license, and frameworks that the app from the store requires, and you then can deploy them in a way that is most appropriate for your environment.
 

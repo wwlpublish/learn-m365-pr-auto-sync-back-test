@@ -4,7 +4,7 @@ title: Deploying applications with Group Policy
 metadata:
   title: Deploying applications with Group Policy
   description: "Deploying applications with Group Policy"
-  ms.date: 03/15/2022
+  ms.date: 03/17/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -13,4 +13,4 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 4
 content: |
-  [!include[](includes/6-deploying-applications-group-policy.md)]
+  [!include[](includes/6-deploy-applications-group-policy.md)]

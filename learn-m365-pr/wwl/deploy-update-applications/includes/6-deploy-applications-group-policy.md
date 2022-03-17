@@ -1,6 +1,6 @@
 Windows Server 2016 and later includes a feature called Software Installation and Maintenance that Active Directory Domain Services (AD DS), Group Policy, and the Windows Installer service use to install, maintain, and remove software from your organization’s computers.
 
-#### Using Group Policy to manage the software lifecycle
+#### Use Group Policy to manage the software lifecycle
 
 The software lifecycle consists of four phases: preparation, deployment, maintenance, and removal.
 
@@ -25,7 +25,7 @@ The disadvantages of using Group Policy to manage the software lifecycle are:
 
 For larger organizations, especially organizations that have more than 500 computers, and for any organizations with specific software distribution requirements, Configuration Manager provides enterprise-level features and control. These enterprise-level features and control eliminate the disadvantages found in Group Policy software distribution.
 
-#### **How Windows Installer enhances software distribution**
+#### How Windows Installer enhances software distribution
 
 To enable Group Policy to deploy and manage software, Windows Server 2016 or later uses the Windows Installer service. This component automates the installation and removal of applications by applying a set of centrally-defined setup rules during the installation process. The Windows Installer service installs the .msi package files. .msi files contain a database that stores all the instructions required to install the application. Small applications may be entirely stored as .msi files, whereas other larger applications will have many associated source files that the MSI references. Many software vendors provide .msi files for their applications.
 
@@ -35,7 +35,7 @@ The Windows Installer service has the following characteristics:
  -  Applications are resilient. If an application becomes corrupted, the installer will detect and reinstall or repair the application.
  -  Windows Installer cannot install .exe files. To distribute a software package that installs with an .exe file, you must convert the .exe file must to an .msi file by using a third-party utility.
 
-#### Managing software upgrades by using Group Policy
+#### Manage software upgrades by using Group Policy
 
 Software vendors occasionally release software updates. These usually address minor issues, such as a performance update or a feature enhancement that does not warrant a complete application reinstallation. Microsoft releases some software patches as .msp files. Major updates that provide new functionality require users to upgrade a software package to a newer version. You can open the GPO that deploys a software package, modify the software installation settings, and then use the Upgrades tab to upgrade a package. When you perform upgrades by using Group Policy, you’ll notice the following characteristics:
 
