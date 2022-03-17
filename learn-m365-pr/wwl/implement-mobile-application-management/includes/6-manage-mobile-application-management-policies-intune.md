@@ -6,10 +6,12 @@ There are three different places to monitor the compliance status:
  -  Detailed view
  -  Reporting view
 
-#### **Summary view**
+#### Summary view
 
 1.  Sign in to the **Microsoft Endpoint Manager admin center**.
-2.  Select **Apps** &gt; **Monitor** &gt; **App protection status**. :::image type="content" source="../media/intune_mam_summary-a332a3df.png" alt-text="Intune app protection pane, Summary view screen.":::
+2.  Select **Apps** &gt; **Monitor** &gt; **App protection status**.
+    
+    :::image type="content" source="../media/intune-mobile-application-management-summary-3d01f139.png" alt-text="Intune app protection pane, Summary view screen.":::
     
 
  -  **Assigned Users**: The total number of users in your company who are using an app which is associated with a policy in a work context.
@@ -18,11 +20,11 @@ There are three different places to monitor the compliance status:
  -  **Top Protected iOS/iPadOS Apps** and **Top Protected Android Apps**: Based on the most used, this information shows the number of protected and unprotected apps by platform.
  -  **Top Configured iOS/iPadOS Apps Without Enrollment** and **Top Configured Android Apps Without Enrollment**: Based on the most used apps for unenrolled devices, this information shows the number of configured apps by platform (as in, using an app configuration policy).
 
-#### **Detailed view**
+#### Detailed view
 
 You can get to the detailed view from the summary view by choosing the User status tile (based on device OS platform), and the **Flagged users** tile.
 
-#### **User status**
+#### User status
 
 You can search for a single user and check the compliance status for that user. The App reporting pane shows the following information for a selected user:
 
@@ -44,7 +46,7 @@ To see a detailed report for a user, follow these steps:
 :::image type="content" source="../media/intune-user-app-license-7b7d1c74.png" alt-text="App reporting screen in the Intune app protection pane.":::
 
 
-#### **Reporting view**
+#### Reporting view
 
 To view these reports, select **Apps** &gt; **App protection status** &gt; **Reports**. The Reports pane provides several reports based on user and app.
 

@@ -8,5 +8,3 @@ Intune-managed apps are enabled with a rich set of mobile application protection
  -  Enable app protection on devices managed with 3rd party EMM tools
 
 Intune-managed apps can also enable app protection without requiring enrollment, giving you the choice to apply data loss prevention policies without managing the user's device. One challenge many Intune admins face is keeping on top of which apps do or don’t support MAM policies.
-
-#### 

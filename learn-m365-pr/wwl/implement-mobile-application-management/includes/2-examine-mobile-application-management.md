@@ -25,6 +25,6 @@ There are additional benefits to using MDM with app protection policies, and com
      -  Control the sharing of data between apps
      -  Prevent the saving of company app data to a personal storage location
 
-#### **Supported platforms for app protection policies**
+#### Supported platforms for app protection policies
 
 App protection policies are only supported by Android and iOS. When you enroll Windows devices with Intune, you can use Windows Information Protection, which offers similar functionality.
