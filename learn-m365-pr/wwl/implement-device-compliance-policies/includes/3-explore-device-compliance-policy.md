@@ -27,7 +27,7 @@ Device compliance policies can be used in the following manner:
  -  **With conditional access**. For devices that comply with policy rules, you can allow those devices to access email and other company resources. If the devices don't comply with policy rules, then they don't get access to company resources.
  -  **Without conditional access**. You can also use device compliance policies without any conditional access. When you use compliance policies without conditional access, there are no access restrictions to company resources.
 
-### Using Azure AD device groups for policies
+### Use Azure AD device groups for policies
 
 It is recommended that you use Azure AD groups for users and devices to apply any type of policies implemented with Intune. You can create a group in Azure AD with dynamic membership by specifying a rule to determine membership based on user or device properties. When the attributes of a user or device changes, Azure AD evaluates all dynamic groups in a directory to see if the change would trigger any group adds or removes. If a user or device satisfies a rule on a group, they are added as a member of that group. If they no longer satisfy the rule, they are removed from the group.
 
