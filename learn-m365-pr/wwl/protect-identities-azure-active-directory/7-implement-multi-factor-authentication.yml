@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.protect-identities-azure-ad.implement-multi-factor-authentication
+title: Implement multi-factor authentication
+metadata:
+  title: Implement multi-factor authentication
+  description: "Implement multi-factor authentication"
+  ms.date: 03/17/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-implement-multi-factor-authentication.md)]

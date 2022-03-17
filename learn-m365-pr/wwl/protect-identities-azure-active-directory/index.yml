@@ -1,0 +1,46 @@
+### YamlMime:Module
+uid: learn.wwl.protect-identities-azure-ad
+metadata:
+  title: Protect identities in Azure AD
+  description: "This module introduces students to the various authentication methods used to protect identities."
+  ms.date: 03/17/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Protect identities in Azure AD
+summary: This module introduces students to the various authentication methods used to protect identities.
+abstract: |
+  After this module, you should be able to:
+  - Describe Windows Hello for Business
+  - Describe Windows Hello deployment and management
+  - Describe Azure AD Identity Protection
+  - Describe and manage self-service password reset in Azure AD
+  - Describe and manage multi-factor authentication
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.protect-identities-azure-ad.introduction
+- learn.wwl.protect-identities-azure-ad.explore-windows-hello-business
+- learn.wwl.protect-identities-azure-ad.deploy-windows-hello
+- learn.wwl.protect-identities-azure-ad.manage-windows-hello-business
+- learn.wwl.protect-identities-azure-ad.explore-azure-ad-identity-protection
+- learn.wwl.protect-identities-azure-ad.manage-self-service-password-reset-azure-ad
+- learn.wwl.protect-identities-azure-ad.implement-multi-factor-authentication
+- learn.wwl.protect-identities-azure-ad.knowledge-check
+- learn.wwl.protect-identities-azure-ad.summary
+badge:
+  uid: learn.wwl.protect-identities-azure-active-directory.badge
