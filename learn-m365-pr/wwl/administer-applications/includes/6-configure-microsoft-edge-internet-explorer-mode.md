@@ -1,6 +1,6 @@
 For Windows 10 and later, Microsoft Edge is the default browser experience, and is available for download for Windows 8.1. However, legacy web applications may still exist that were originally written for Internet Explorer 11. While Windows can run both Edge and Internet Explorer at the the same time, Internet Explorer is being retired, and it can be tedious to switch between browsers or remember which browser to use for which web application. Frequently, an organization's desire to upgrade the OS can be blocked due to older browser requirements in a critical LOB web app.
 
-### Microsoft Edge with IE mode<br>
+### Microsoft Edge with IE mode
 
 To overcome the hurdle of supporting legacy web applications, Microsoft Edge introduced a feature called IE Mode. IE mode on Microsoft Edge makes it easy to use all of the sites your organization needs in a single browser. It uses the integrated Chromium engine for modern sites, and it uses the Trident MSHTML engine from Internet Explorer 11 (IE11) for legacy sites.
 
@@ -9,7 +9,7 @@ Only those sites that you specifically configure (via policy) will use IE mode, 
 > [!NOTE]
 > Internet Explorer provided a feature called Enterprise Mode. This enabled Internet Explorer to runin a compatiblity mode for web apps that were designed for older versions of IE.
 
-#### **To enable Internet Explorer Mode in Edge using Intune**<br>
+#### To enable Internet Explorer Mode in Edge using Intune
 
 1.  In the Endpoint Manager admin center, select **Devices**, then select **Windows** platform, then select **Configuration Profiles**.
 2.  Select **Create Profile**.
@@ -22,11 +22,11 @@ Only those sites that you specifically configure (via policy) will use IE mode, 
 6.  In the dialog on the right, set the option to **Enabled**. In the drop-down box, select **Internet Explorer mode**.
 7.  Assign and complete the profile.<br>
 
-### Configuring IE Mode Sites
+### Configure IE Mode Sites
 
 Before you can start using either IE Mode, you must create an IE Mode site list and add the individual website domains and domain paths that need to be rendered in a mode other than the default Edge experience.
 
-#### **Enterprise Mode Site List Manager**
+#### Enterprise Mode Site List Manager
 
 This tool helps you create error-free XML documents with simple n+1 versioning and URL verification. We recommend using this tool if your site list is relatively small. There are two versions of this tool, both supported on Windows 8.1 and Windows 10. We recommend that you only use Enterprise Mode Site List Manager (schema v.2) because the Enterprise Mode schema has been updated to v.2 to be easier to read and to provide a better foundation for future capabilities.
 
@@ -34,7 +34,7 @@ When configuring a site list, all sites that have the element **&lt;open-in&gt;I
 
 You can download version 2 of the tool from here: [https://www.microsoft.com/en-us/download/details.aspx?id=49974](https://www.microsoft.com/en-us/download/details.aspx?id=49974).
 
-#### **Enterprise Mode Site List Portal**
+#### Enterprise Mode Site List Portal
 
 The Enterprise Mode Site List Portal is an open-source web tool on GitHub that allows you to manage your Enterprise Mode site list, hosted by the app, with multiple users. The portal is designed to use IIS and a SQL Server backend, leveraging Active Directory (AD) for employee management.
 
@@ -50,7 +50,7 @@ Updates to your site list are made by submitting new change requests, which are 
 
 If your list is too large to add individual sites, or if you have more than one person managing the site list, we recommend using the Enterprise Site List Portal.
 
-### Enabling Enterprise Site Mode
+### Enable Enterprise Site Mode
 
 After you have created the Enterprise Mode site list, you need to turn on the functionality and set up the system for centralized control. By allowing centralized control, you can create one global list of websites that render using IE Mode or Enterprise Mode.
 

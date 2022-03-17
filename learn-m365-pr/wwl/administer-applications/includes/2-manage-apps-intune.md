@@ -11,7 +11,7 @@ To deploy an app from Intune, perform the following steps:
 4.  **Configure policies**. You can manage application features and protect data by deploying app configuration and app protection policies.
 5.  **Monitor the results of the app deployment**. You can monitor the status of app deployments and installations from the Intune console by viewing the details for any app that appears in the list of apps in your Client Apps blade. You can view the installation status for the app either by device or by user.
 
-#### **App categories**
+#### App categories
 
 A common setting across app types is **Category**. When you add more than just a few apps, organizing apps in the Company Portal into groups is helpful for your users. Creating categories allows you to do this in a way that makes the most sense for your organization. There are already nine categories created for you in Intune. You can assign apps to one category, multiple categories, or no categories.
 
@@ -20,7 +20,7 @@ To create your own app categories in Intune, perform the following steps:
 1.  On the **Apps** page, select **App categories** under **Other**.
 2.  Select **Add**, and enter a name for the category in the **Name** field, and then select **Create**.
 
-#### **Assigning apps**
+#### Assign apps
 
 You can assign the app to users and devices either when adding the app to Intune or afterwards. Assigning apps makes them available for users to install or can cause the app to be installed automatically. You assign the apps to Azure AD groups, this can be either user groups or device groups; for each group, you choose an assignment type. The assignment type will differ depending on the app type you choose to assign.
 

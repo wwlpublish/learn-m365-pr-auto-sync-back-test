@@ -22,4 +22,5 @@ Intune provides several ways to monitor the compliance status of the apps that y
     :::image type="content" source="../media/intune-app-install-status-db87bcc4.png" alt-text="Client apps - App install status screen":::
     
 
-*Note: You can export this information to a CSV file by selecting **Export** and import into Excel for further processing. This is covered later in the course.*
+> [!NOTE]
+> You can export this information to a CSV file by selecting **Export** and import into Excel for further processing. This is covered later in the course.

@@ -6,7 +6,7 @@ Be aware of the following limitations and caveats:
  -  Intune does not support installing Microsoft 365 Apps from the Microsoft Store (known as Office Centennial apps) on a device to which you have already deployed Microsoft 365 apps with Intune. If you install this configuration, it might cause data loss or corruption.
  -  Multiple required or available app assignments are not additive. A later app assignment will overwrite pre-existing installed app assignments. For example, if the first set of Office apps contains Word, and the later one does not, Word will be uninstalled. This condition does not apply to any Visio or Project applications.
 
-#### **Deploy Microsoft 365 Apps with Intune**
+#### Deploy Microsoft 365 Apps with Intune
 
 1.  Sign in to the **Endpoint Administrator admin center**.
 2.  Select **Apps**, then select **All Apps**. Select **+ Add**.

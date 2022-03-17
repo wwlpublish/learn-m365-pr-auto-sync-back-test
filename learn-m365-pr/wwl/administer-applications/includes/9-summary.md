@@ -10,5 +10,3 @@ In Windows 10 and later, Microsoft Edge is the default browser experience. Micro
  -  [An overview of the Office Deployment Tool](/deployoffice/overview-of-the-office-2016-deployment-tool)
  -  [Manage software download settings in Microsoft 365](/DeployOffice/manage-software-download-settings-office-365)
  -  [Enterprise Mode Site List Portal](https://github.com/MicrosoftEdge/enterprise-mode-site-list-portal)
-
-### 

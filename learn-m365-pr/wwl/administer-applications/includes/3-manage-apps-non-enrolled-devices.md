@@ -13,13 +13,13 @@ A managed app is an app for which Intune manages the whole lifecycle such as:
 
 Intune also supports deploying apps to unenrolled devices. Currently, you can assign iOS and Android apps and iOS and Android built-in apps to devices that aren't enrolled in Intune.
 
-#### **Updates for unenrolled devices**
+#### Updates for unenrolled devices
 
 To receive app updates on devices that aren't enrolled with Intune, device users must go to their organization's Company Portal and manually install app updates.
 
 Users can then use either the Company Portal app or go to the Intune Company Portal website at [https://portal.manage.microsoft.com](https://portal.manage.microsoft.com) on any of their devices and install the application without needing the device to be enrolled in Intune. The Company Portal app will not prompt users to enroll their devices if the app is configured to not require enrollment.
 
-#### **Deploy apps to unenrolled devices**
+#### Deploy apps to unenrolled devices
 
 To deploy an app to an unenrolled device, perform the following steps:
 
