@@ -1,8 +1,8 @@
 Do the following to set up the `wpa` R package:
 
 1. Download and install the R software.
-2. Install the `wpa` R package.
-3. Load the `wpa` R package.
+1. Install the `wpa` R package.
+1. Load the `wpa` R package.
 
 ## 1. Download and install the R software
 

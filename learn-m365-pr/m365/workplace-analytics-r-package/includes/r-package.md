@@ -12,10 +12,10 @@ The R logo is © 2016 The R Foundation. No changes have been made to the R logo 
 
 The following are some reasons for using R to analyze Viva Insights data that's available through the Workplace Analytics app:
 
-* **Cutting edge data science** - A  wide range of packages in R enable quick and effective implementation of data science techniques.
-* **Reproducibility** - Code-based workflows make it easy to replicate analysis. R as a tool promotes this good practice.
-* **Efficiency and scalability** - You can use R to analyze large datasets. Applying the R functions and automated processes reduce routine analysis time.
-* **Integration and extensibility** - R offers access to a wide range of packages with advanced functions. You can use these functions to create advanced, in-depth analysis and seamlessly add to an R workflow.
+- **Cutting edge data science** - A  wide range of packages in R enable quick and effective implementation of data science techniques.
+- **Reproducibility** - Code-based workflows make it easy to replicate analysis. R as a tool promotes this good practice.
+- **Efficiency and scalability** - You can use R to analyze large datasets. Applying the R functions and automated processes reduce routine analysis time.
+- **Integration and extensibility** - R offers access to a wide range of packages with advanced functions. You can use these functions to create advanced, in-depth analysis and seamlessly add to an R workflow.
 
 ## What can you do with the `wpa` R package?
 
