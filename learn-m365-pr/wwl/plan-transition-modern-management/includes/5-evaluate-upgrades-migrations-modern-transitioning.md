@@ -68,7 +68,7 @@ The process of preparing the destination computer is not unlike deploying a new 
 
 Modern desktop deployment with Windows Autopilot helps you easily deploy the latest version of Windows to your existing devices. You can adapt this method for an existing legacy device (such as Windows 7/8.1) to both transform a traditional domain joined endpoint into an Azure AD managed device and perform a rebuild, all within the same piece of automation. Alternatively, you must build devices from fresh using Autopilot from a vanilla Windows 10 or Windows 11 PC.
 
-:::image type="content" source="../media/autopilot-for-existing-devices-task-sequence-editor-21352361.png":::
+:::image type="content" source="../media/autopilot-for-existing-devices-task-sequence-editor-21352361.png" alt-text="Screenshot of Task Sequence Editor showing Autopilot for existing devices options.":::
 
 
 As with many of the options that exist in a deployment strategy, transforming a device is only relevant if this fits into you overall planning approach. You may simply want to begin your journey with newly provisioned devices and migrate over time.
