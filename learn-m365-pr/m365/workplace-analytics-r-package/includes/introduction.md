@@ -17,4 +17,4 @@ In this module, you'll learn to:
 
 - Familiarity with Workplace Analytics data sources and metrics.
 - Basic knowledge of Workplace Analytics queries and query structure.
-- Basic understanding of data manipulation in R. For this, we recommend reviewing the basic verbs in the dplyr package. [dplyr overview](https://dplyr.tidyverse.org/)
+- Basic understanding of data manipulation in R. For this, we recommend reviewing the basic verbs in the `dplyr` package. [dplyr overview](https://dplyr.tidyverse.org/)
