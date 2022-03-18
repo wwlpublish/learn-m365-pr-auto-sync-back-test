@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.update-windows-client.compare-windows-client-servicing-options-channels
+title: Compare Windows client servicing options and channels
+metadata:
+  title: Compare Windows client servicing options and channels
+  description: "Compare Windows client servicing options and channels"
+  ms.date: 03/18/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-compare-windows-client-servicing-options-channels.md)]
