@@ -33,7 +33,7 @@ products:
 - windows
 units:
 - learn.wwl.explore-endpoint-analytics.introduction
-- learn.wwl.explore-endpoint-analytics.explore-endpoint-analytics
+- learn.wwl.explore-endpoint-analytics.enroll-devices-endpoint-analytics
 - learn.wwl.explore-endpoint-analytics.monitor-startup-performance-restarts
 - learn.wwl.explore-endpoint-analytics.monitor-application-reliability
 - learn.wwl.explore-endpoint-analytics.use-endpoint-analytics-monitor-transition-modern-management
