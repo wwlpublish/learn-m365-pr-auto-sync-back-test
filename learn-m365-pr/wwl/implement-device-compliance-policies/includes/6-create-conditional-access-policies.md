@@ -21,7 +21,7 @@ You can configure conditional access from the Intune console in the Endpoint Man
 
 You can also configure conditional access for Exchange ActiveSync in the Tenant administration section of Endpoint Manager admin center.
 
-:::image type="content" source="../media/create-ca-b46a2bf2.png" alt-text="Screenshot showing the steps to create a conditional access policy.":::
+:::image type="content" source="../media/create-conditional-access-72f94dcd.png" alt-text="Screenshot showing the steps to create a conditional access policy.":::
 
 
 #### Conditional Access and Exchange ActiveSync

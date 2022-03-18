@@ -3,7 +3,7 @@ uid: learn.wwl.implement-device-compliance-policies
 metadata:
   title: Implement device compliance policies
   description: "This module describes how to use compliance and conditional access policies to help protect access to organizational resources."
-  ms.date: 03/17/2022
+  ms.date: 03/18/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial

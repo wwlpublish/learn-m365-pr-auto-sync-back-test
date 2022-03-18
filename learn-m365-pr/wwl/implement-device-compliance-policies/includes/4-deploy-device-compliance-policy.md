@@ -25,7 +25,9 @@ When implementing compliance policies, there are some general compliance setting
      -  **Mark devices with no compliance policy assigned as**. This property has two values:
         
          -  **Not compliant (default)**. Security feature is turned On.
-         -  **Compliant**. Security feature is turned Off.<br>If a device doesn't have a compliance policy assigned, then the device is considered **Not compliant**. By default, devices are marked as **Compliant**. If you use conditional access, we recommended you change the setting to **Not compliant**. If an end user is not compliant because a policy isn't assigned, then Company Portal lists **No compliance policies have been assigned**.
+         -  **Compliant**. Security feature is turned Off.
+            
+            If a device doesn't have a compliance policy assigned, then the device is considered **Not compliant**. By default, devices are marked as **Compliant**. If you use conditional access, we recommended you change the setting to **Not compliant**. If an end user is not compliant because a policy isn't assigned, then Company Portal lists **No compliance policies have been assigned**.
      -  **Enhanced jailbreak detection**. When enabled, this setting causes iOS devices to check-in with Intune more frequently. Enabling this property uses the device’s location services, and impacts battery usage. The user location data is not stored by Intune. Enabling this setting requires devices to:
         
          -  Enable location services at the OS level.
