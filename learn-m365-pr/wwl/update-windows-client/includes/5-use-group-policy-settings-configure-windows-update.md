@@ -1,6 +1,6 @@
 To configure each individual computer with specific Windows Update settings would be very time-consuming. Fortunately, you can create a Group Policy Object (GPO) to configure the necessary settings, and then use Active Directory Domain Services (AD DS) to apply those settings to the appropriate collection of computers.
 
-:::image type="content" source="../media/group-policy-editor-8cc6e6a6.png":::
+:::image type="content" source="../media/group-policy-editor-8cc6e6a6.png" alt-text="A screenshot that displays the Local Group Policy Editor. The Computer Configuration-Administrative Templates-Windows Components-Windows Update node is displayed.":::
 
 
 Three nodes in Group Policy contain Windows Update settings that are relevant for Windows devices. The first of these nodes is the Windows Update node. Open the Group Policy Management Editor on a domain controller, and then navigate to **Computer Configuration/Administrative Templates/Windows Components/Windows Update**.
@@ -67,7 +67,7 @@ You can set both values to be the same server.
 
 In addition to the Windows Update node, you also can configure update settings in **Computer Configuration/Administrative Templates/Windows Components/Data Collection and Preview Builds**.
 
-:::image type="content" source="../media/local-group-policy-editor-settings-a86445fc.jpg":::
+:::image type="content" source="../media/local-group-policy-editor-settings-a86445fc.jpg" alt-text="A screenshot of the Local Group Policy Editor. The Computer Configuration-Administrative Templates-Windows Components-Data Collection and Preview Builds node is displayed.":::
 
 
 The following table explains the configurable settings:
@@ -100,7 +100,7 @@ The following table explains the configurable settings:
 
 The final node in Group Policy that contains Windows Updates settings is the Delivery Optimization node.
 
-:::image type="content" source="../media/local-group-policy-editor-delivery-optimization-67fccde2.jpg":::
+:::image type="content" source="../media/local-group-policy-editor-delivery-optimization-67fccde2.jpg" alt-text="A screenshot of the Local Group Policy Editor that display the Computer Configuration-Administrative Templates-Windows Components-Delivery Optimization node.":::
 
 
 The **Computer Configuration/Administrative Templates/Windows Components/Delivery Optimization** node contains the following settings:
