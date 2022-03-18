@@ -8,13 +8,13 @@ To enable this flexibility and advanced analysis, you can install R and use the 
 
 In this module, you'll learn to:
 
-* Explain what the `wpa` R package is, and how it can be useful when analyzing Workplace Analytics data
-* Install R and set up the `wpa` R package
-* Validate and explore Workplace Analytics data with the `wpa` R package
-* Use the functions in the `wpa` R package to create your own analysis
+- Explain what the `wpa` R package is, and how it can be useful when analyzing Workplace Analytics data
+- Install R and set up the `wpa` R package
+- Validate and explore Workplace Analytics data with the `wpa` R package
+- Use the functions in the `wpa` R package to create your own analysis
 
 ## Prerequisites
 
-* Familiarity with Workplace Analytics data sources and metrics.
-* Basic knowledge of Workplace Analytics queries and query structure.
-* Basic understanding of data manipulation in R. For this, we recommend reviewing the basic verbs in the dplyr package. [dplyr overview](https://dplyr.tidyverse.org/)
+- Familiarity with Workplace Analytics data sources and metrics.
+- Basic knowledge of Workplace Analytics queries and query structure.
+- Basic understanding of data manipulation in R. For this, we recommend reviewing the basic verbs in the dplyr package. [dplyr overview](https://dplyr.tidyverse.org/)

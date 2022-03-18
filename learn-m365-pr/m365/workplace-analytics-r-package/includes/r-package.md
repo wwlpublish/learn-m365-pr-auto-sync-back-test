@@ -27,19 +27,19 @@ The package currently includes over 160 different functions, as shown in the fol
 
 The `wpa` R package includes the following essential and advanced features:
 
-* **Data import and export** - Run Workplace Analytics queries, import .csv data, and export plots and analysis in a wide range of formats.
-* **Data validation** - Run an automated data validation report for Workplace Analytics data.
-* **Plotting and data visualization** - Choose from over 60 pre-built Workplace Analytics data visualizations.
-* **Quick-start reports** - Choose from multiple automated reports to quickly establish collaboration baselines.
-* **Network analysis** - Create a network visualization based on person or group collaboration.
-* **Text mining** - Analyze meeting subject lines using the text mining function.
-* **Clustering and community detection** - Identify organically formed communities in your organization.
-* **Information value** - Determine important features with employee sentiment data.
-* **Working patterns and flexibility** - Measure and benchmark working patterns.
+- **Data import and export** - Run Workplace Analytics queries, import .csv data, and export plots and analysis in a wide range of formats.
+- **Data validation** - Run an automated data validation report for Workplace Analytics data.
+- **Plotting and data visualization** - Choose from over 60 pre-built Workplace Analytics data visualizations.
+- **Quick-start reports** - Choose from multiple automated reports to quickly establish collaboration baselines.
+- **Network analysis** - Create a network visualization based on person or group collaboration.
+- **Text mining** - Analyze meeting subject lines using the text mining function.
+- **Clustering and community detection** - Identify organically formed communities in your organization.
+- **Information value** - Determine important features with employee sentiment data.
+- **Working patterns and flexibility** - Measure and benchmark working patterns.
 
 ## Learn more
 
-* [Base R Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf)
-* [Resource on using R for data science](https://r4ds.had.co.nz)
-* [`wpa` R package documentation](/viva/insights/tutorials/wpa-r-package)
-* [`wpa` R package on CRAN](https://CRAN.R-project.org/package=wpa)
+- [Base R Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf)
+- [Resource on using R for data science](https://r4ds.had.co.nz)
+- [`wpa` R package documentation](/viva/insights/tutorials/wpa-r-package)
+- [`wpa` R package on CRAN](https://CRAN.R-project.org/package=wpa)

@@ -55,9 +55,9 @@ If you are new to using R, an easy way to learn it, is to try it for yourself. T
 To complete the exercise:
 
 1. Open R.
-2. Select **File** > **New Script**.
-3. Enter `print("Hello World!")`
-4. Select **Ctrl**+**R** or select the button to **Run line or selection**.
+1. Select **File** > **New Script**.
+1. Enter `print("Hello World!")`
+1. Select **Ctrl**+**R** or select the button to **Run line or selection**.
 
 ![Create a script in R](../media/hello-world.png)
 
@@ -72,8 +72,8 @@ Now that you have downloaded and installed R and loaded the `wpa` R package, you
 
 ## Learn more
 
-* [Download and install R](http://www.r-project.org)
-* [Download and install RStudio Desktop](https://www.rstudio.com/products/rstudio/download)
-* [Download an installation file and install it locally](https://github.com/microsoft/wpa/releases)
-* [Learn more about Tidyverse](https://www.tidyverse.org)
-* [`wpa` R package cheat sheet](https://github.com/microsoft/wpa/blob/main/man/figures/wpa%20cheatsheet.pdf)
+- [Download and install R](http://www.r-project.org)
+- [Download and install RStudio Desktop](https://www.rstudio.com/products/rstudio/download)
+- [Download an installation file and install it locally](https://github.com/microsoft/wpa/releases)
+- [Learn more about Tidyverse](https://www.tidyverse.org)
+- [`wpa` R package cheat sheet](https://github.com/microsoft/wpa/blob/main/man/figures/wpa%20cheatsheet.pdf)
