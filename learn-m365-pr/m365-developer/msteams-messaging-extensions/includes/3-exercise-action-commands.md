@@ -1,6 +1,6 @@
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OANG]
 
-In this exercise, you'll create an action command messaging extension for a custom Microsoft Teams app. Action commands allow you present your users with a modal popup to collect or display information, then process their interaction and send information back to Teams.
+In this exercise, you'll create an action command messaging extension for a custom Microsoft Teams app. Action commands allow you to present your users with a modal popup to collect or display information, then process their interaction and send information back to Teams.
 
 > [!NOTE]
 > This exercise requires a valid Azure subscription in order to create a bot using Bot Framework. However, if you do not have an Azure subscription, you can use the legacy Bot Framework Registration Portal. Refer to the following docs for more information: [Create a bot for Microsoft Teams](/microsoftteams/platform/bots/how-to/create-a-bot-for-teams)
