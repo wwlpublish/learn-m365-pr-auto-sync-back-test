@@ -392,7 +392,7 @@ Select the **Apps** tab and then **Upload a custom app**.
 
 In the file dialog that appears, select the Microsoft Teams package in your project. This app package is a ZIP file that can be found in the project's **./package** folder.
 
-After the package is uploaded, Microsoft Teams displays a summary of the app. Select the **Add** buttonto install the app.
+After the package is uploaded, Microsoft Teams displays a summary of the app. Select the **Add** button to install the app.
 
 In the Team's General channel, select the **+** button in the Tab strip. In the **Add a Tab** dialog, select the **Learn MSTeams Auth Tabs** app.
 
