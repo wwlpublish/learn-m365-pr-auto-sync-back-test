@@ -103,7 +103,7 @@ In this section, you'll programmatically test that your add-in supports the user
 
     > [!NOTE]
     >
-    > - Your Excel.js business logic will be added to the function that is passed to `Excel.run()`. This logic doesn't execute immediately. Instead, its added to a queue of pending commands.
+    > - Your Excel.js business logic will be added to the function that is passed to `Excel.run()`. This logic doesn't execute immediately. Instead, it's added to a queue of pending commands.
     > - The `context.sync()` method sends all queued commands to Excel for execution.
     > - The `Excel.run()` is followed by a `catch` block. This is a best practice that you should always follow.
 
@@ -117,7 +117,7 @@ In this section, you'll programmatically test that your add-in supports the user
 
     > [!NOTE]
     >
-    > - The code creates a table by using `add()` method of a worksheet's table collection, which always exists even if its empty. This is the standard way that Excel.js objects are created. There are no class constructor APIs, and you never use a `new` operator to create an Excel object. Instead, you add to a parent collection object.
+    > - The code creates a table by using `add()` method of a worksheet's table collection, which always exists even if it's empty. This is the standard way that Excel.js objects are created. There are no class constructor APIs, and you never use a `new` operator to create an Excel object. Instead, you add to a parent collection object.
     > - The first parameter of the `add()` method is the range of only the top row of the table, not the entire range the table will ultimately use. This is because when the add-in populates the data rows (in the next step), it will add new rows to the table instead of writing values to the cells of existing rows. This is a more common pattern because the number of rows that a table will have is often not known when the table is created.
     > - Table names must be unique across the entire workbook, not just the worksheet.
 
@@ -253,7 +253,7 @@ In this section, you'll filter and sort the table that you created previously.
 
     > [!NOTE]
     >
-    > - The code first gets a reference to the column that needs filtering by passing the column name to the `getItem()` method, instead of passing its index to the `getItemAt()` method as the `createTabl()e` method does. Since users can move table columns, the column at a given index might change after the table is created. Its safer to use the column name to get a reference to the column. We used `getItemAt` safely in the preceding tutorial, because we used it in the same method that creates the table, so there's no chance that a user has moved the column.
+    > - The code first gets a reference to the column that needs filtering by passing the column name to the `getItem()` method, instead of passing its index to the `getItemAt()` method as the `createTabl()e` method does. Since users can move table columns, the column at a given index might change after the table is created. It's safer to use the column name to get a reference to the column. We used `getItemAt` safely in the preceding tutorial, because we used it in the same method that creates the table, so there's no chance that a user has moved the column.
     > - The `applyValuesFilter()` method is one of several filtering methods on the `Filter` object.
 
 ### Sort the table
