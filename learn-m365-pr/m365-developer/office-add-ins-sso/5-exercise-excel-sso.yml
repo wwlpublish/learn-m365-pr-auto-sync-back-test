@@ -17,15 +17,15 @@ quiz:
   questions:
   - content: "What's the purpose of the `forMSGraphAccess` authorization option on the `getAccessToken()` method?"
     choices:
-      - content: "When set to `false`, it tells Azure AD to perform an another check to see if the user has already consented to the requested Microsoft Graph permissions. If not, Azure AD will return an error code."
+      - content: "When set to `false`, it tells Azure AD to perform another check to see if the user has already consented to the requested Microsoft Graph permissions. If not, Azure AD will return an error code."
         isCorrect: false
         explanation: "This is the opposite behavior - when set to `true`, Azure AD will do the extra check."
-      - content: "When set to `true`, it tells Azure AD to perform an another check to see if the user has already consented to the requested Microsoft Graph permissions. If not, Azure AD will return an error code."
+      - content: "When set to `true`, it tells Azure AD to perform another check to see if the user has already consented to the requested Microsoft Graph permissions. If not, Azure AD will return an error code."
         isCorrect: true
         explanation: "Correct!"
       - content: "When set to `true`, it tells Azure AD to check only if the user has consented to the requested Microsoft Graph permissions."
         isCorrect: false
-        explanation: "When this property is set to `true`, it performs an another check, not only check, for prior consent of Microsoft Graph permissions."
+        explanation: "When this property is set to `true`, it performs another check, not only check, for prior consent of Microsoft Graph permissions."
   - content: "What details are listed in the `<WebApplicationInfo>` element in an Office Add-in's manifest.xml file?"
     choices:
       - content: "The Azure AD app's URI"
