@@ -24,7 +24,7 @@ The `ExecuteFunction` action allows an add-in command to execute some script in 
 
 Let's explore how the different elements in the add-in manifest map to the rendered elements in the Outlook user experience.
 
-The following image includes contains an image of an Office client application on the left and a condensed version of an add-in manifest file on the right:
+The following image contains an image of an Office client application on the left and a condensed version of an add-in manifest file on the right:
 
 ![Screenshot of add-in manifest and an Office application](../media/04-manifest-01.png)
 
@@ -60,7 +60,7 @@ First, define the function in a script file. For example, add the following code
     // Initialize add-in
   };
 })();
-// function must be global
+// function must be global
 function doStuff(event) {
   // do stuff with Office.js
 }
@@ -95,9 +95,9 @@ To call the function, use the `ExecuteFunction` action type in the add-in manife
 
 The Dialog API is an extension of the user experience developers can customize in Office. Developers can use it to open dialogs from custom add-ins that interact with the user and the custom add-in user experience.
 
-The primary scenario for the Dialog API is authentication with third-party providers. Most identity providers prevent their sign-in experiences from being displayed in an Iframe because of click-jacking concerns. This is troublesome with an add-in as they are displayed in iframes in some of the clients such as the web versions of Office client applications.
+The primary scenario for the Dialog API is authentication with third-party providers. Most identity providers prevent their sign in experiences from being displayed in an Iframe because of click-jacking concerns. This is troublesome with an add-in as they're displayed in iframes in some of the clients such as the web versions of Office client applications.
 
-Another challenge with authentication scenarios is predicting the domains that will need to load. In federated sign-in scenarios, the potential list of domains could be endless, which again is troublesome in an add-in where all domains need to be registered in the manifest.
+Another challenge with authentication scenarios is predicting the domains that will need to load. In federated sign in scenarios, the potential list of domains could be endless, which again is troublesome in an add-in where all domains need to be registered in the manifest.
 
 It's important to note that Office offers a single sign-on experience specific for Microsoft identities. If your add-in requires data about the Office user or their resources accessible through Microsoft Graph, such as Microsoft 365 or OneDrive, Microsoft recommends you use the single sign-on API whenever you can. If you use the APIs for single sign-on, then you won't need the Dialog API.
 
