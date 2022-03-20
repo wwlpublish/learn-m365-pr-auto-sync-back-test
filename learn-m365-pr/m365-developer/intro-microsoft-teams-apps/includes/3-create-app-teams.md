@@ -19,7 +19,7 @@ The best apps will typically take advantage of more than one extension point. Fo
 
 ## Prepare your development environment
 
-At a minimum, you'll need access to an Microsoft 365 organization with custom app uploading enabled. If you don't have one, you can obtain a development organization by signing up for the [Microsoft 365 developer program](https://developer.microsoft.com/microsoft-365/dev-program). You'll also need a way to deploy and host your web services. For local development you can use a tunneling service like [ngrok](https://ngrok.com), but for production you'll want to deploy your services, probably to a cloud service provider like Azure. You can use on-premises infrastructure to host your web services, but they must be publicly accessible (not behind a firewall).
+At a minimum, you'll need access to a Microsoft 365 organization with custom app uploading enabled. If you don't have one, you can obtain a development organization by signing up for the [Microsoft 365 developer program](https://developer.microsoft.com/microsoft-365/dev-program). You'll also need a way to deploy and host your web services. For local development you can use a tunneling service like [ngrok](https://ngrok.com), but for production you'll want to deploy your services, probably to a cloud service provider like Azure. You can use on-premises infrastructure to host your web services, but they must be publicly accessible (not behind a firewall).
 
 ## Select your development environment
 
