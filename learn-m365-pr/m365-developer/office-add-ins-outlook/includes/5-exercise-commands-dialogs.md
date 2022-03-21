@@ -381,35 +381,34 @@ Finally, open the file **webpack.config.js** file in the root directory of the p
 
     ```javascript
     plugins: [
-      new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
         filename: "taskpane.html",
         template: "./src/taskpane/taskpane.html",
-        chunks: ["polyfill", "taskpane"]
+        chunks: ["polyfill", "taskpane"],
       }),
       new CopyWebpackPlugin({
         patterns: [
           {
-            to: "taskpane.css",
-            from: "./src/taskpane/taskpane.css"
+            from: "assets/*",
+            to: "assets/[name][ext][query]",
           },
           {
-            to: "[name]." + buildType + ".[ext]",
             from: "manifest*.xml",
+            to: "[name]." + buildType + "[ext]",
             transform(content) {
               if (dev) {
                 return content;
               } else {
                 return content.toString().replace(new RegExp(urlDev, "g"), urlProd);
               }
-            }
-          }
-        ]
+            },
+          },
+        ],
       }),
       new HtmlWebpackPlugin({
         filename: "commands.html",
         template: "./src/commands/commands.html",
-        chunks: ["polyfill", "commands"]
+        chunks: ["polyfill", "commands"],
       }),
       new HtmlWebpackPlugin({
         filename: "dialog.html",
@@ -741,7 +740,7 @@ If the server isn't already running, save all of your changes and run **npm run 
 
     ![Screenshot of the add-in's prompt to configure](../media/05-add-in-prompt-configure.png)
 
-1. In the settings dialog, enter your GitHub username and then either **Tab** or click elsewhere in the dialog to invoke the `change` event, which should load your list of gists. Select a gist to be the default, and select **Done**.
+1. In the settings dialog, enter your GitHub username and then either **Tab** or select elsewhere in the dialog to invoke the `change` event, which should load your list of gists. Select a gist to be the default, and select **Done**.
 
     ![Screenshot of the add-in's settings dialog](../media/05-add-in-settings.png)
 
