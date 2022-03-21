@@ -47,9 +47,9 @@ Once the list is created, it must be deployed using a policy. When using IE Mode
 4.  Double-click **Configure Internet Explorer integration.**
 5.  Select **Enabled**.
 6.  Under Options, set the dropdown value to:
-
- -  **Internet Explorer mode** if you want sites to open in IE mode on Microsoft Edge
- -  **None** if you want to stop users from configuring Internet Explorer mode via edge://flags or through the command line
+    
+     -  **Internet Explorer mode** if you want sites to open in IE mode on Microsoft Edge
+     -  **None** if you want to stop users from configuring Internet Explorer mode via edge://flags or through the command line
 
 7.  In the content pane, double-click Configure the Enterprise Mode Site List.
 8.  Select **Enabled**, in the Configure the Enterprise Mode Site List text box, type the url to the Enterprise Site list XML file.
