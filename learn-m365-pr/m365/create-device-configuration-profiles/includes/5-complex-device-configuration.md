@@ -1,42 +1,29 @@
-
-
-
-
+Beyond fundamental and protective device configuration profiles, you should be aware of the following configuration control and concepts that Microsoft Intune provides. Intune provides a wide variety of device configuration control. These following areas can help you become familiar with the total configuration capabilities offered by Intune.
 
 ## Group Policy analytics
 
-Group Policy analytics is a tool and feature in Microsoft Endpoint Manager that analyzes your on-premises Group Policy objects (GPO). It helps you determine how your GPOs translate in the cloud. The output shows which settings are supported in MDM providers, including Microsoft Intune. It also shows any deprecated settings, or settings not available to MDM providers.
+If you are using Microsoft Endpoint Configuration Manager to managing your on-premises devices and endpoints, you should be aware of Group Policy analytics. Group Policy analytics is a feature and tool in Microsoft Endpoint Manager that analyzes your on-premises Group Policy objects (GPOs). GPOs are primarily used on-premises to configure settings on Windows computers, but also can include remote Windows devices. In device management, GPOs help control security and features in the Windows OS, Internet Explorer, Office apps, and more. Group policy provides the capability to manage a large number of Active Directory Domain Services (AD DS) computer and user objects through a centralized, one-to-many model. Group Policy settings are contained in a group policy object and linked to one or more AD DS service containers—sites, domains, and organizational units (OUs). Note that devices do not have to be domain-joined to apply GPOs.
 
-If your organization uses GPOs, and you want to move some workloads to Microsoft Endpoint Manager and Intune, then Group Policy analytics will help.
+Group Policy analytics helps you determine how your GPOs translate in the cloud. The output shows which settings are supported in MDM providers, including Microsoft Intune. It also shows any deprecated settings, or settings not available to MDM providers.
 
-Currently, this feature provides importing and analysis. In a future release (no ETA), you'll be able to create a policy based off your imported GPO, and deploy the policy.
+If your organization uses GPOs, and you want to move some workloads to Microsoft Intune, then Group Policy analytics will help. Currently, this feature provides importing and analysis.
 
 ## Administrative templates
 
-When managing devices in your organization, you want to create groups of settings that apply to different device groups. For example, you have several device groups. For GroupA, you want to assign a specific set of settings. For GroupB, you want to assign a different set of settings. You also want a simple view of the settings you can configure.
+When managing devices in your organization, you want to create groups of settings that apply to different device groups. For example, suppose you have two device groups. For the first group, you want to assign a specific set of settings. For the second group, you want to assign a different set of settings. You also want a simple view of the settings you can configure. You can complete this task using Administrative Templates in Microsoft Intune. Administrative Templates include thousands of settings that control features in Microsoft Edge version 77 and later, Internet Explorer, Microsoft Office programs, remote desktop, OneDrive, passwords, PINs, and more. These settings allow group administrators to manage group policies using the cloud.
 
-You can complete this task using Administrative Templates in Microsoft Intune. The administrative templates include thousands of settings that control features in Microsoft Edge version 77 and later, Internet Explorer, Microsoft Office programs, remote desktop, OneDrive, passwords, PINs, and more. These settings allow group administrators to manage group policies using the cloud.
+## Custom profiles
 
-The Windows settings are similar to group policy (GPO) settings in Active Directory (AD). These settings are built in to Windows, and are ADMX-backed settings that use XML. The Office and Microsoft Edge settings are ADMX-ingested, and use the ADMX settings in Office administrative template files and Microsoft Edge administrative template files. And, the Intune templates are 100% cloud-based. They offer a simple and straight-forward way to configure the settings, and find the settings you want.
+In addition to using built-in Intune settings to control different features on a device, you can also create custom profiles. Custom profiles are great when you want to use device settings and features that aren't built in to Intune. These profiles include features and settings for you to control on devices in your organization. For example, you can create a custom profile that sets the same feature for every iOS/iPadOS device.
 
-Administrative Templates are built in to Intune, and don't require any customizations, including using OMA-URI. As part of your mobile device management (MDM) solution, use these template settings as a one-stop shop to manage your Windows client devices.
+Custom settings are configured differently for each platform. For example, to control features on Android and Windows devices, you can enter Open Mobile Alliance Uniform Resource Identifier (OMA-URI) values. For Apple devices, you can import a file you created with the [Apple Configurator](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344?mt=12) or [Apple Profile Manager](https://support.apple.com/profile-manager).
 
-This article lists the steps to create a template for Windows client devices, and shows how to filter all the available settings in Intune. When you create the template, it creates a device configuration profile. You can then assign or deploy this profile to Windows client devices in your organization.
-
-## Custom
-
-Microsoft Intune includes many built-in settings to control different features on a device. You can also create custom profiles, which are created similar to built-in profiles. Custom profiles are great when you want to use device settings and features that aren't built in to Intune. These profiles include features and settings for you to control on devices in your organization. For example, you can create a custom profile that sets the same feature for every iOS/iPadOS device.
-
-Custom settings are configured differently for each platform. For example, to control features on Android and Windows devices, you can enter Open Mobile Alliance Uniform Resource Identifier (OMA-URI) values. For Apple devices, you can import a file you created with the Apple Configurator or Apple Profile Manager.
-
-For more information on configuration profiles, see What are Microsoft Intune device profiles?.
-
-This article shows you how to create a custom profile for Android device administrator, Android Enterprise, iOS/iPadOS, macOS, and Windows. You can also see all the available settings for the different platforms.
+For more information about crating custom device configuration profiles, see [Create a profile with custom settings in Intune](/mem/intune/configuration/custom-settings-configure).
 
 ## Settings catalog
 
-Settings catalog lists all the settings you can configure, and all in one place. This feature simplifies how you create a policy, and how you see all the available settings. More settings are continually being added.
+The settings catalog lists all the settings you can configure on Windows and macOS devices. This feature simplifies how you create a device configuration policy, and how you view all the available settings. Also, more settings are continually being added.
 
-When you create the policy, you start from scratch. You add only the settings you want to control and manage. For example, you can use the settings catalog to create a BitLocker policy with all BitLocker settings, and all in one place in Intune.
+When you create a device configuration profile using the settings catalog, you start from scratch. You add only the settings you want to control and manage. For example, you can use the settings catalog to create a BitLocker profile with all BitLocker settings, and all in one place in Intune.
 
-Use the settings catalog as part of your mobile device management (MDM) solution to manage and secure devices in your organization.
+For more information about the setting catalog, see [Use the settings catalog to configure settings on Windows and macOS devices](/mem/intune/configuration/settings-catalog).

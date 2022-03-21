@@ -1,6 +1,6 @@
-Device configuration profiles are groups of settings that enable or disable different device capabilities. These capabilities are used to configure the devices used in your organization so users and devices can access the right resources and data, safely and securely. Device configuration profiles help users become productive quickly. 
+Device configuration profiles are groups of settings that enable or disable different device capabilities. These capabilities are used to configure the devices used in your organization so that users and devices can access the right resources and data, safely and securely. Assigning device configuration profiles to user's devices help those users become productive quickly.
 
-Once you create a configuration profile, you can assign it to users or devices at your organization. Often times, configuration profiles relate to a specific area, feature, or capability. For instance, a device configuration profile might focus on email settings, VPN access, or Wi-Fi settings that are specific to your organization. There many options you use to configure different devices in just the way that your organization needs or requires.
+Once you create a configuration profile in Intune, you can assign it to users or devices at your organization. Often times, configuration profiles relate to a specific area, feature, or capability. For instance, a device configuration profile might focus on email settings, VPN access, or Wi-Fi settings that are specific to your organization. There are many options you use to configure different devices in just the way that your organization needs or requires.
 
 You determine the specific capabilities and apply the unique settings for your organization. You also determine the groups of users and devices that require these capabilities and settings. It is common to have many device profiles for each supported platform, ranging from device anti-virus settings, to custom settings that aren't built into Intune yet.
 
@@ -20,7 +20,7 @@ When creating a new device configuration profile, you must first select the plat
 
 ## Profile types
 
-A profile type is a device configuration area, feature, or capability that contains specific device settings. As mentioned above, each platform has a unique set of available device configuration settings. To select a setting, you start by selecting the a **Platform** and a **Profile type**. For instance, if you choose **iOS/iPadOS** as the platform, you can select **Templates** for the profile type. Next, you can select a template name from the provided list. For instance, you can select the **Email** template to configure an email server, SSL communication, and other built-in email settings. Because capabilities are different for each platform, your available profile types and templates are also different.
+A profile type is a device configuration area, feature, or capability that contains specific device settings. As mentioned above, each platform has a unique set of available device configuration settings. To select a setting, you start by selecting the a **Platform** and then a **Profile type**. For instance, if you choose **iOS/iPadOS** as the platform, you can select **Templates** for the profile type. Next, you can select a template name from the provided list. For instance, you can select the **Email** template to configure an email server, SSL communication, and other built-in email settings. Because capabilities are different for each platform, your available profile types and templates are also different.
 
 ## Device credentials
 
@@ -54,7 +54,9 @@ Administrative templates are a subset of the overall configuration profile templ
 
 ### Group policy
 
-Group Policy analytics analyzes your on-premises Group Policy Objects (GPO), and shows which policy settings are supported, deprecated, and more. Group Policy is supported on Windows 10/11.
+Group Policy is a rich and flexible technology providing the capability to efficiently manage a large number of Active Directory Domain Services (AD DS) computer and user objects through a centralized, one-to-many model. Group Policy settings are contained in a Group Policy object (GPO) and linked to one or more AD DS service containers—sites, domains, and organizational units (OUs).
+
+**Group Policy analytics** is a tool and feature in Microsoft Endpoint Manager that analyzes your on-premises GPOs. It helps you determine how your GPOs translate in the cloud. The output shows which settings are supported in MDM providers, including Microsoft Intune. It also shows any deprecated settings, or settings not available to MDM providers. Group Policy is supported on Windows 10/11.
 
 ### Certificates
 
@@ -64,5 +66,10 @@ You use [certificates in Intune](/mem/intune/protect/certificates-configure) to 
 
 Microsoft Intune includes many built-in settings to control different features on a device. If you need to assign device settings that aren’t built into Intune, you can create custom profiles. For example, you can create a custom profile that sets the same feature for every iOS/iPadOS device.
 
-### Cloud vs. On-prem
+### Prepare Intune for co-management
 
+Before you switch workloads from Microsoft Endpoint Configuration Manager to Microsoft Intune, create the profiles and policies you need in Intune to ensure your devices continue to be protected. You can create objects in Intune based on the objects that you have in Configuration Manager. For related information, see [Prepare Intune for co-management](/mem/configmgr/core/get-started/capabilities-in-technical-preview-1709#prepare-intune-for-co-management). For more information about co-management, see [Understand co-management using Microsoft Endpoint Configuration Manager](/learn/modules/understand-co-management/).
+
+### Refresh cycle times
+
+Intune uses different refresh cycles to check for updates to configuration profiles. If the device recently enrolled, the check-in runs more frequently. Policy and profile refresh cycles lists the estimated refresh times. At any time, users can open the Company Portal app, and sync the device to immediately check for profile updates.
