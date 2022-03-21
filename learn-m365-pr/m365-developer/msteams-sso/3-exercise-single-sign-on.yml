@@ -3,7 +3,7 @@ uid: learn-m365.msteams-sso.3-exercise-single-sign-on
 metadata:
   title: Exercise - Implement single sign-on (SSO) for Microsoft Teams apps
   description: In this exercise, you'll learn how to manually register and configure the Azure AD app that can be used to implement SSO in a Microsoft Teams app to better understand all the required settings.
-  ms.date: 12/08/2021
+  ms.date: 03/08/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

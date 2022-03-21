@@ -3,7 +3,7 @@ uid: learn-m365.office-add-ins-excel.7-exercise-dialogs
 metadata:
   title: Exercise - Work with dialogs in Excel
   description: In this exercise, you'll open a dialog in your add-in, pass a message from the dialog process to the task pane process, and close the dialog.
-  ms.date: 03/05/2021
+  ms.date: 03/01/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
