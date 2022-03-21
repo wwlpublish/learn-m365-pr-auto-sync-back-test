@@ -107,35 +107,34 @@ Open the file **webpack.config.js** in the root directory of the project and com
 
     ```javascript
     plugins: [
-      new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
         filename: "taskpane.html",
         template: "./src/taskpane/taskpane.html",
-        chunks: ["polyfill", "taskpane"]
+        chunks: ["polyfill", "taskpane"],
       }),
       new CopyWebpackPlugin({
         patterns: [
           {
-            to: "taskpane.css",
-            from: "./src/taskpane/taskpane.css"
+            from: "assets/*",
+            to: "assets/[name][ext][query]",
           },
           {
-            to: "[name]." + buildType + ".[ext]",
             from: "manifest*.xml",
+            to: "[name]." + buildType + "[ext]",
             transform(content) {
               if (dev) {
                 return content;
               } else {
                 return content.toString().replace(new RegExp(urlDev, "g"), urlProd);
               }
-            }
-          }
-        ]
+            },
+          },
+        ],
       }),
       new HtmlWebpackPlugin({
         filename: "commands.html",
         template: "./src/commands/commands.html",
-        chunks: ["polyfill", "commands"]
+        chunks: ["polyfill", "commands"],
       }),
       new HtmlWebpackPlugin({
         filename: "popup.html",
@@ -148,7 +147,7 @@ Open the file **webpack.config.js** in the root directory of the project and com
 1. If the local web server is running, stop it by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console window.
 1. Run the following command to rebuild the project.
 
-    ```bash
+    ```console
     npm run build
     ```
 
@@ -244,13 +243,13 @@ Open the file **webpack.config.js** in the root directory of the project and com
 1. If the local web server is already running and your add-in is already loaded in Excel, continue to step 2. Otherwise, start the local web server and sideload your add-in:
     - To test your add-in in Excel, run the following command in the root directory of your project. This starts the local web server (if it's not already running) and opens Excel with your add-in loaded.
 
-        ```bash
+        ```console
         npm start
         ```
 
     - To test your add-in in Excel on the web, run the following command in the root directory of your project. When you run this command, the local web server will start (if it's not already running).
 
-        ```bash
+        ```console
         npm run start:web
         ```
 

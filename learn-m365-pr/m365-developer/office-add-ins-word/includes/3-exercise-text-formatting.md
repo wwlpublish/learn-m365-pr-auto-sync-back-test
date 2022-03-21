@@ -101,7 +101,7 @@ In this section, you'll programmatically test that your add-in supports the user
 
     > [!NOTE]
     >
-    > - Your Word.js business logic will be added to the function that is passed to `Word.run`. This logic doesn't execute immediately. Instead, its added to a queue of pending commands.
+    > - Your Word.js business logic will be added to the function that is passed to `Word.run`. This logic doesn't execute immediately. Instead, it's added to a queue of pending commands.
     > - The `context.sync` method sends all queued commands to Word for execution.
     > - The `Word.run` is followed by a `catch` block. This is a best practice that you should always follow.
 
