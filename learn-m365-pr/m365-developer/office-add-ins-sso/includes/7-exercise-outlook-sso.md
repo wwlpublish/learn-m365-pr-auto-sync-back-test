@@ -64,7 +64,7 @@ After authenticating, the script will do the following tasks:
 1. Create a new client secret and save it to your developer workstations secret store
 1. Update the project with the Azure AD application's client ID
 
-![Running and the output from the configure-sso script.](../media/03-configure-sso.png)
+![Output from running the configure-sso script.](../media/03-configure-sso.png)
 
 > [!WARNING]
 > The **configure-sso** command will fail if your Azure AD tenant is configured for multi-factor authentication (MFA)/two-factor authentication. In this case, you'll need manually create the Azure AD app registration as outlined in the **[Create a Node.js Office Add-in that uses single sign-on: Register the add-in with Azure AD v2.0 endpoint](/office/dev/add-ins/develop/create-sso-office-add-ins-nodejs#register-the-add-in-with-azure-ad-v20-endpoint)** article.
