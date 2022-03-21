@@ -23,21 +23,14 @@ Virtual private networks (VPNs) give users secure remote access to your organiza
     - **Description**: Enter a description for the profile. This setting is optional, but recommended.
 
 6. Select **Next**.
-7. In **Configuration settings**, depending on the platform you chose, the settings you can configure are different. Select your platform for detailed settings:
-
-    - [Android device administrator](vpn-settings-android.md)
-    - [Android Enterprise](vpn-settings-android-enterprise.md)
-    - [iOS/iPadOS](vpn-settings-ios.md)
-    - [macOS](vpn-settings-macos.md)
-    - [Windows 10](vpn-settings-windows-10.md) (including Windows Holographic for Business)
-    - [Windows 8.1](vpn-settings-windows-8-1.md)
+7. In **Configuration settings**, depending on the platform you chose, the settings you can configure are different. 
 
 8. Select **Next**.
-9. In **Scope tags** (optional), assign a tag to filter the profile to specific IT groups, such as `US-NC IT Team` or `JohnGlenn_ITDepartment`. For more information about scope tags, see [Use RBAC and scope tags for distributed IT](../fundamentals/scope-tags.md).
+9. In **Scope tags** (optional), assign a tag to filter the profile to specific IT groups, such as `US-NC IT Team` or `JohnGlenn_ITDepartment`. For more information about scope tags, see [Use RBAC and scope tags for distributed IT](/mem/intune/configuration/scope-tags).
 
     Select **Next**.
 
-10. In **Assignments**, select the user or groups that will receive your profile. For more information on assigning profiles, see [Assign user and device profiles](device-profile-assign.md).
+10. In **Assignments**, select the user or groups that will receive your profile. For more information on assigning profiles, see [Assign user and device profiles](/mem/intune/configuration/device-profile-assign).
 
     Select **Next**.
 
@@ -53,11 +46,11 @@ When you create the VPN profile, you choose a SCEP or PKCS certificate profile t
 
 If you use certificate-based authentication for your VPN profile, then deploy the VPN profile, certificate profile, and trusted root profile to the same groups. This assignment makes sure each device recognizes the legitimacy of your certificate authority.
 
-For more information about how to create and use certificate profiles in Intune, see [How to configure certificates with Microsoft Intune](../protect/certificates-configure.md).
+For more information about how to create and use certificate profiles in Intune, see [How to configure certificates with Microsoft Intune](/mem/intune/protect/certificates-configure).
 
 > [!NOTE]
 > Certificates added using the **PKCS imported certificate** profile aren't supported for VPN authentication. Certificates added using the **PKCS certificates** profile are supported for VPN authentication.
 
 ### User name and password
 
-The user authenticates to the VPN server by providing a user name and password, or [derived credentials](../protect/derived-credentials.md).
+The user authenticates to the VPN server by providing a user name and password, or [derived credentials](/mem/intune/protect/derived-credentials).

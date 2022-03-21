@@ -31,23 +31,16 @@ Wi-Fi is a wireless network that's used by many mobile devices to get network ac
 6. Select **Next**.
 7. In **Configuration settings**, depending on the platform you chose, the settings you can configure are different. Select your platform for detailed settings:
 
-    - [Android device administrator](wi-fi-settings-android.md)
-    - [Android Enterprise](wi-fi-settings-android-enterprise.md), including dedicated devices
-    - [iOS/iPadOS](wi-fi-settings-ios.md)
-    - [macOS](wi-fi-settings-macos.md)
-    - [Windows 10/11](wi-fi-settings-windows.md)
-    - [Windows 8.1 and newer](wi-fi-settings-import-windows-8-1.md), including Windows Holographic for Business
-
 8. Select **Next**.
-9. In **Scope tags** (optional), assign a tag to filter the profile to specific IT groups, such as `US-NC IT Team` or `JohnGlenn_ITDepartment`. For more information about scope tags, see [Use RBAC and scope tags for distributed IT](../fundamentals/scope-tags.md).
+9. In **Scope tags** (optional), assign a tag to filter the profile to specific IT groups, such as `US-NC IT Team` or `JohnGlenn_ITDepartment`. For more information about scope tags, see [Use RBAC and scope tags for distributed IT](/mem/intune/fundamentals/scope-tags).
 
     Select **Next**.
 
-10. In **Assignments**, select the user or groups that will receive your profile. For more information on assigning profiles, see [Assign user and device profiles](device-profile-assign.md).
+10. In **Assignments**, select the user or groups that will receive your profile. For more information on assigning profiles, see [Assign user and device profiles](/mem/intune/configuration/device-profile-assign).
 
     Select **Next**.
 
 11. In **Review + create**, review your settings. When you select **Create**, your changes are saved, and the profile is assigned. The policy is also shown in the profiles list.
 
 > [!TIP]
-> If you use certificate based authentication for your Wi-Fi profile, deploy the Wi-Fi profile, certificate profile, and trusted root profile to the same groups to ensure that each device can recognize the legitimacy of your certificate authority.  For more information, see [How to configure certificates with Microsoft Intune](../protect/certificates-configure.md).
+> If you use certificate based authentication for your Wi-Fi profile, deploy the Wi-Fi profile, certificate profile, and trusted root profile to the same groups to ensure that each device can recognize the legitimacy of your certificate authority.  For more information, see [How to configure certificates with Microsoft Intune/mem/intune/protect/certificates-configure).

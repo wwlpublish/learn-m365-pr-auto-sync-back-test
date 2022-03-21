@@ -28,10 +28,6 @@ After you create your device profile, Intune provides graphical charts. These ch
 
     It can also show the number of devices for other platforms that are assigned the same device profile. For example, it shows the count of the non-macOS devices.
 
-    :::image type="content" source="./media/device-profile-monitor/device-configuration-profile-graphical-chart.png" alt-text="See or view the number of devices assigned to the device profile in Microsoft Intune and Endpoint Manager admin center.":::
-
-    The bottom graphical chart shows the number of users assigned to the device profile. For example, if the configuration device profile applies to macOS users, the chart lists the count of the macOS users.
-
 4. Select the top graphical chart. **Device status** opens.
 
     The devices assigned to the profile are listed, and it shows the deployment status. Also note that it only lists the devices with the specific platform (for example, macOS).
