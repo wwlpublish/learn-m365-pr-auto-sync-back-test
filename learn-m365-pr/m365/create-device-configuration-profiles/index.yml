@@ -39,6 +39,7 @@ units:
 - learn.create-device-configuration.add-email-settings
 - learn.create-device-configuration.create-vpn-profile
 - learn.create-device-configuration.add-wi-fi-settings
+- learn.create-device-configuration.assign-configuration-profile
 - learn.create-device-configuration.view-configuration-profiles
 - learn.create-device-configuration.knowledge-check
 - learn.create-device-configuration.summary

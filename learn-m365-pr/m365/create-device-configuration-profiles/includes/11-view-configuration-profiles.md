@@ -49,4 +49,4 @@ After you create your device profile, Intune provides graphical charts. These ch
     - **Per-setting status**: Filters the output by showing the individual settings within the profile, and shows if the setting is successfully applied.
 
 > [!TIP]
-> [Intune reports](../fundamentals/reports.md) is a great resource, and describes all the reporting features you can use.
+> [Intune reports](/mem/intune/fundamentals/reports) is a great resource, and describes all the reporting features you can use.
