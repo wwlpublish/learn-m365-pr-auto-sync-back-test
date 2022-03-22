@@ -1,6 +1,6 @@
 The Microsoft Edge browser is a cross-platform browser that is available for Windows. Microsoft Edge replaces the older Internet Explorer browser that previously shipped with Windows. Microsoft Edge is a modern browser with an interface that is more simple and intuitive to use, increases performance, and provides options that users can configure with touch on or off.
 
-:::image type="content" source="../media/edge-menu-open-4bad1daf.png" alt-text="Screenshot showing Edge with the options menu open.":::
+:::image type="content" source="../media/edge-menu-open-4bad1daf.png" alt-text="Screenshot showing Edge with the options menu open." lightbox="../media/edge-menu-open-4bad1daf.png":::
 
 
 Microsoft Edge has many features that allow you to be more productive when browsing websites. These features can improve reading speed, accomplish actions quicker, and help to browse websites more easily. Below are some of the highlights of features in Microsoft Edge.
