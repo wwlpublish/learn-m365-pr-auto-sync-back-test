@@ -115,11 +115,11 @@ After you've reinstalled the add-in, you can verify that it installed successful
 
 - If you're running this add-in in Outlook 2016 or later on Windows, you should see two new buttons in the ribbon of the compose message window: **Insert gist** and **Insert default gist**.
 
-    ![Screenshot of the ribbon in Outlook on Windows with the add-in's buttons highlighted](../media/05-add-in-buttons-in-windows.png)
+    ![Ribbon in Outlook on Windows with the add-in's buttons highlighted.](../media/05-add-in-buttons-in-windows.png)
 
 - If you're running this add-in in Outlook on the web, you should see a new button at the bottom of the compose message window. Select that button to see the options **Insert gist** and **Insert default gist**.
 
-    ![Screenshot of the message compose form in Outlook on the web with the add-in button and pop-up menu highlighted](../media/05-add-in-buttons-in-owa.png)
+    ![Message compose form in Outlook on the web with the add-in button and pop-up menu highlighted.](../media/05-add-in-buttons-in-owa.png)
 
 ## Implement a first-run experience
 
@@ -738,11 +738,11 @@ If the server isn't already running, save all of your changes and run **npm run 
 1. Open Outlook and compose a new message.
 1. In the compose message window, select the **Insert default gist** button. You should be prompted to configure the add-in.
 
-    ![Screenshot of the add-in's prompt to configure](../media/05-add-in-prompt-configure.png)
+    ![Add-in's prompt to configure.](../media/05-add-in-prompt-configure.png)
 
 1. In the settings dialog, enter your GitHub username and then either **Tab** or select elsewhere in the dialog to invoke the `change` event, which should load your list of gists. Select a gist to be the default, and select **Done**.
 
-    ![Screenshot of the add-in's settings dialog](../media/05-add-in-settings.png)
+    ![Add-in's settings dialog.](../media/05-add-in-settings.png)
 
 1. Select the **Insert default gist** button again. This time, you should see the contents of the gist inserted into the body of the email.
 

@@ -16,7 +16,7 @@ Add-in commands support button and menu controls. Buttons do a single action and
 
 ### Commands actions
 
-The `ShowTaskpane()` action is the most common for an add-in command. It's used to launch the add-in in a task pane. Using an add-in command to launch an add-in is considered a best practice and is incorporated in most Office add-in templates and generators.
+The `ShowTaskpane()` action is the most common for an add-in command. It's used to launch the add-in in a task pane. Using an add-in command to launch an add-in is considered a best practice and is incorporated in most Office Add-in templates and generators.
 
 The `ExecuteFunction` action allows an add-in command to execute some script in the background without displaying any UI. This type of command requires a `FunctionFile` to be defined in the manifest.
 
@@ -26,25 +26,25 @@ Let's explore how the different elements in the add-in manifest map to the rende
 
 The following image contains an image of an Office client application on the left and a condensed version of an add-in manifest file on the right:
 
-![Screenshot of add-in manifest and an Office application](../media/04-manifest-01.png)
+![Add-in manifest and an Office application.](../media/04-manifest-01.png)
 
 The manifest starts with the `ExtensionPoint` element that contains all customizations defined for the Office ribbon:
 
-![Screenshot of add-in manifest and an Office application - highlight ExtensionPoint element](../media/04-manifest-02.png)
+![Add-in manifest and an Office application with ExtensionPoint element highlighted.](../media/04-manifest-02.png)
 
 The entire contents of the `ExtensionPoint` element define the custom tab in the ribbon and all buttons in the tab:
 
-![Screenshot of add-in manifest and an Office application - highlight CustomTab element](../media/04-manifest-03.png)
+![Add-in manifest and an Office application with CustomTab element highlighted.](../media/04-manifest-03.png)
 
 Each button in the ribbon is defined using a `Control` element. A control can be different types, defined in the `xsi:type` property. All the controls in this ribbon are buttons:
 
-![Screenshot of add-in manifest and an Office application - highlight Control element](../media/04-manifest-04.png)
+![Add-in manifest and an Office application with Control element highlighted.](../media/04-manifest-04.png)
 
 Within a control, developers can define *actions* or *items*. An `Action` element is used to do an action, such as showing a task pane or executing a custom function.
 
 The `Items` collection allows developers to add more menu items to the ribbon button as shown in the following image. Notice each sub menu item also has a `Action` element as well:
 
-![Screenshot of add-in manifest and an Office application - highlight Item element](../media/04-manifest-05.png)
+![Add-in manifest and an Office application with Item elements highlighted.](../media/04-manifest-05.png)
 
 ### ExecuteFunction add-in command
 
@@ -107,7 +107,7 @@ The Dialog API can display any HTTPS web page, but it must be launched to an app
 
 ## Open dialogs
 
-Open a dialog using the `diaplayDialogAsync()` method from an Office add-in:
+Open a dialog using the `diaplayDialogAsync()` method from an Office Add-in:
 
 ```javascript
 Office.context.ui.displayDialogAsync("<URL />", options, optionalCallback);

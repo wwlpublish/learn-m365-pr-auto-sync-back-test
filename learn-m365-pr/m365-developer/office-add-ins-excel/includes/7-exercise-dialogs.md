@@ -261,7 +261,7 @@ Open the file **webpack.config.js** in the root directory of the project and com
 1. In the dialog, enter a name, and select **OK**. The name appears on the task pane and the dialog closes.
 1. Optionally, in the `processMessage` function, add **//** in front of the line `dialog.close();` . Then repeat the steps of this section. The dialog stays open and you can change the name. You can close it manually by pressing the **X** button in the upper right corner.
 
-![Excel tutorial - Dialog](../media/07-excel-tutorial-dialog-open-2.png)
+![Dialog added by the tutorial in Excel.](../media/07-excel-tutorial-dialog-open-2.png)
 
 ## Summary
 
