@@ -1,0 +1,11 @@
+Sometimes users enter an incorrect password when they attempt to sign in. If a user repeatedly enters an incorrect password during the same sign in attempt, Windows could lock their account depending on the account lockout threshold that the company configured. When a user contacts the help desk with a sign in issue, as a best practice, you should verify whether the account is locked because of repeated incorrect passwords.
+
+Occasionally, account lockouts can occur for other, less obvious reasons than repeated, failed interactive sign in attempts, including that:
+
+ -  **Applications use cached user credentials**. Some applications store user names and passwords for subsequent reuse. If a user changes their password, Windows could lock the account because the cache is outdated.
+ -  **Users sign in to multiple computers**. If a user signs in to multiple computers to access resources, and then changes their password at one of the computers, the password update doesn't propagate to the other computers to which the user signs in. On those other computers, Windows uses the cached password, which results in an account lockout.
+ -  **Passwords for service accounts have changed**. A service account is a user account that is related to a service. The service control manager on computers that are domain members cache that service’s account details. If you change the service account’s password without also resetting the service control manager, account lockouts can occur. This can lead to service failures, which is a far more serious issue than a standard user lockout.
+ -  **Persistent drive mappings are used**. When a user maps a network drive, they can specify that they want to connect to the server folder by using alternative credentials. This means that a user account and password other than the one to which they've signed in. If the password is reset for the account that is being used as the drive’s map, this can result in account lockout.
+
+> [!IMPORTANT]
+> Setting the account lockout threshold too low can create excessive administrative burden, as the help-desk staff will be conducting many account resets. Remember that many users will forget that they changed their password recently, and might require a few attempts to sign in before they remember.

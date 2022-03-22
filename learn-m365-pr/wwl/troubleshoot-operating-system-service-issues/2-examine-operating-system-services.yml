@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-operating-system-service-issues.examine-operating-system-services
+title: Examine operating system services
+metadata:
+  title: Examine operating system services
+  description: "Examine operating system services"
+  ms.date: 03/22/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/2-examine-operating-system-services.md)]

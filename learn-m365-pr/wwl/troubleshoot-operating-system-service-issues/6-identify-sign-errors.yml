@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-operating-system-service-issues.identify-sign-errors
+title: Identify sign-in errors
+metadata:
+  title: Identify sign-in errors
+  description: "Identify sign-in errors"
+  ms.date: 03/22/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/6-identify-sign-errors.md)]
