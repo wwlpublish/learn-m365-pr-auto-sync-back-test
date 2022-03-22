@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-assign-admin-plan.begin-planning
+title: Begin content planning
+metadata:
+  title: Begin content planning
+  description: When it comes to getting answers and results, knowing your users’ needs and pain points is key. This helps ensure Microsoft Search provides value by delivering the information that people in your organization want and need.
+  ms.date: 01/12/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/begin-planning.md)]

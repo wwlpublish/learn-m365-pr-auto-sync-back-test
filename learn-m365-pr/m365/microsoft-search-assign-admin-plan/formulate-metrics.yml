@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-assign-admin-plan.formulate-metrics
+title: Formulate success metrics
+metadata:
+  title: Formulate success metrics
+  description: Use metrics available from Microsoft Search and other resources to help define how you'll measure success of the search experience and adoption across your organization. 
+  ms.date: 01/12/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/formulate-metrics.md)]
