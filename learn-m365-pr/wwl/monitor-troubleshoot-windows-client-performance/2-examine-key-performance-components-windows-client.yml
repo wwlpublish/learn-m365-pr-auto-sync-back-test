@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.monitor-troubleshoot-windows-client-performance.examine-key-performance-components-windows-client
+title: Examine key performance components in Windows client
+metadata:
+  title: Examine key performance components in Windows client
+  description: "Examine key performance components in Windows client"
+  ms.date: 03/22/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/2-examine-key-performance-components-windows-client.md)]

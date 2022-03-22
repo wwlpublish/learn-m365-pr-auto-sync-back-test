@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.monitor-troubleshoot-windows-client-performance.configure-windows-client-search-indexes
+title: Configure Windows client search indexes
+metadata:
+  title: Configure Windows client search indexes
+  description: "Configure Windows client search indexes"
+  ms.date: 03/22/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-configure-windows-client-search-indexes.md)]
