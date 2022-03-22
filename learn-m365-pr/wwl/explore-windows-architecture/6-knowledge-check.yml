@@ -1,0 +1,44 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-windows-architecture.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/22/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "A user reports that an application is automatically launching after sign in, which should not be. It is a shared device, and other users are stating the application does not launch when they sign in on the same device. You ask the user to sign in, and then remote in to their session. You decide to investigate the registry to see what is causing the application to launch. Which hive should you check?"
+    choices:
+    - content: "HKEY_USERS"
+      isCorrect: false
+      explanation: "Incorrect. While it is possible to find the issue in this hive, you must know the SID to know which tree to check. There is a better method, try again."
+    - content: "HKEY_LOCAL_MACHINE"
+      isCorrect: false
+      explanation: "Incorrect. As only one user is seeing the behavior, and not all users, it is not likely to be in this hive. Try again."
+    - content: "HKEY_CURRENT_USER"
+      isCorrect: true
+      explanation: "Correct. As only one user is experiencing the issue, checking Software\\Microsoft\\Windows\\CurrentVersion\\Run is likely the location that is causing the application to launch."
+    - content: "HKEY_CURRENT_CONFIG"
+      isCorrect: false
+      explanation: "Incorrect. This hive contains hardware profile information, and does not store information related to user configurations. Try again."
+  - content: "In the Windows operating system architecture, the Windows Runtime (RT) APIs enable the operating system to run which type of apps?"
+    choices:
+    - content: "Microsoft Store apps"
+      isCorrect: true
+      explanation: "Correct. The Windows Runtime (RT) APIs enable the operating system to run Microsoft Store apps, whereas Win32 and related API sets enable the operating system to run traditional desktop apps."
+    - content: ".NET Framework"
+      isCorrect: false
+      explanation: "Incorrect. .NET Framework enables the operating system to run traditional desktop apps. Try again."
+    - content: "Win32 APIs"
+      isCorrect: false
+      explanation: "Incorrect. Win32 APIs enable the operating system to run traditional desktop apps. Try again."
