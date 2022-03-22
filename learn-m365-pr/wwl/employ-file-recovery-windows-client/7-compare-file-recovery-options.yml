@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.employ-file-recovery-windows-client.compare-file-recovery-options
+title: Compare file recovery options
+metadata:
+  title: Compare file recovery options
+  description: "Compare file recovery options"
+  ms.date: 03/22/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-compare-file-recovery-options.md)]
