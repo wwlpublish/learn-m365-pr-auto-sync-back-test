@@ -327,6 +327,7 @@ Select the **Add a client application** to add the following applications. Appli
 - `57fb890c-0dab-4253-a5e0-7188c88b2bb4` (*Office on the web*)
 - `08e18876-6177-487e-b8b5-cf950c1e598c` (*Office on the web*)
 - `bc59ab01-8403-45c6-8796-ac3ef710b3e3` (*Outlook on the web*)
+- `93d53678-613d-4013-afc1-62e9e444a0a5` (*Office on the web*)
 
 If you select one of these apps, each of them has the scope defined above as an authorized scope.
 
@@ -351,7 +352,7 @@ Next, you need to save the client secret for the application in the credential s
 Execute the following PowerShell, after updating the first three values:
 
 - `$ssoAppName`: *the name of your project, such as **MyOutlookSsoAddin***
-- `$user`: *your Windows sign in user name, such as MyDomain\MyUserName*
+- `$user`: *your Windows sign-in user name, such as MyDomain\MyUserName*
 - `$secret`: *the client secret you copied when registering the Azure AD app*
 
 ```powershell

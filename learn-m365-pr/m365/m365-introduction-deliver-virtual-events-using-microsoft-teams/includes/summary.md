@@ -4,7 +4,7 @@ In this module, you explored different kinds of virtual events, reviewed what th
 
 ## Next steps
 
-Now that you understand the basics of virtual events, you're ready to start creating your event: [Design a successful virtual event using Microsoft 365](/learn/modules/m365-design-successful-virtual-event-using-microsoft-365)
+Now that you understand the basics of virtual events, you're ready to start creating your event: [Design a successful virtual event using Microsoft 365](/learn/modules/m365-design-successful-virtual-events)
 
 ## Learn more
 

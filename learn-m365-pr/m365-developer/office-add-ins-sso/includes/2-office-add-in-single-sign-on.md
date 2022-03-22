@@ -4,18 +4,18 @@ In this unit, you'll learn how authentication works with Office Add-ins and how 
 
 ## Authentication and authorization in Office Add-ins
 
-Web applications and Office Add-ins allow anonymous access by default, but you can require users to authenticate with a login. For example, you can require that your users be logged in with a Microsoft account, a Microsoft 365 Education or work account, or other common account. This task is called user authentication because it enables the add-in to know who the user is.
+Web applications and Office Add-ins allow anonymous access by default, but you can require users to authenticate with a sign in. For example, you can require that your users be logged in with a Microsoft account, a Microsoft 365 Education or work account, or other common account. This task is called user authentication because it enables the add-in to know who the user is.
 
 Your add-in can also get the user's consent to access their Microsoft Graph data (such as their Microsoft 365 profile, OneDrive files, and SharePoint data) or to data in other external sources such as Google, Facebook, LinkedIn, SalesForce, and GitHub. This task is called add-in (or app) authorization, because it's the add-in that is being authorized, not the user.
 
 You have a choice of two ways to accomplish authentication and authorization.
 
-- **Office Single Sign-on (SSO):** A system that enables the user's login to Office to also function as a login to the add-in. Optionally, the add-in can also use the user's Office credentials to authorize the add-in to Microsoft Graph.
-- **Web Application Authentication and Authorization with Azure Active Directory (Azure AD):** This is the way Office Add-ins (and other web apps) authenticated users and authorized apps before there was an Office SSO system, and it's still used in scenarios where Office SSO can't be. Also, there are scenarios in which you want to have your users log in to your add-in separately even when SSO is available; for example, if you want them to have the option of logging in to the add-in with a different ID from the one with which they're currently logged in to Office.
+- **Office Single Sign-on (SSO):** A system that enables the user's sign in to Office to also function as a sign in to the add-in. Optionally, the add-in can also use the user's Office credentials to authorize the add-in to Microsoft Graph.
+- **Web Application Authentication and Authorization with Azure Active Directory (Azure AD):** This is the way Office Add-ins (and other web apps) authenticated users and authorized apps before there was an Office SSO system, and it's still used in scenarios where Office SSO can't be. Also, there are scenarios in which you want to have your users sign in to your add-in separately even when SSO is available; for example, if you want them to have the option of logging in to the add-in with a different ID from the one with which they're currently logged in to Office.
 
 ## Office Add-ins and Single Sign-on
 
-Microsoft added support for SSO to Office Add-ins in 2020. This capability reduces how often a user is prompted to login to third-party services.
+Microsoft added support for SSO to Office Add-ins in 2020. This capability reduces how often a user is prompted to sign in to third-party services.
 
 Office SSO support is implemented in combination with code in your custom add-ins, support for SSO in the Office runtime JavaScript SDK, and Azure AD. To support SSO, an Office Add-in must have a corresponding Azure AD application registration. This app registration defines what permissions the add-in supports and trusts Office client applications to act on behalf of the user.
 
