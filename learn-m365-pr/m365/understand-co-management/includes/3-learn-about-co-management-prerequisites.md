@@ -43,7 +43,7 @@ If you don't have a license for Azure AD Premium, see [Sign up for Azure Active 
 
 ## Microsoft Endpoint Configuration Manager
 
-Enabling co-management itself doesn't require that you onboard your site with Azure AD. Internet-based Configuration Manager clients require the [cloud management gateway](/mem/configmgr/core/clients/manage/cmg/overview.md) (CMG). The CMG requires the site is [onboarded to Azure AD for cloud management](/mem/configmgr/core/servers/deploy/configure/azure-services-wizard.md).
+Enabling co-management itself doesn't require that you onboard your site with Azure AD. Internet-based Configuration Manager clients require the [cloud management gateway](/mem/configmgr/core/clients/manage/cmg/overview) (CMG). The CMG requires the site is [onboarded to Azure AD for cloud management](/mem/configmgr/core/servers/deploy/configure/azure-services-wizard.md).
 
 To check the version of Configuration Manager:
 

@@ -8,7 +8,7 @@ In this unit, you'll learn how to implement SSO in an Office Add-in to submit re
 
 Let's start by taking a look at how the authentication flow works at runtime when an Office Add-in implements SSO with the end goal to access Microsoft Graph.
 
-![SSO authentication flow with Office Add-ins and Microsoft Graph](../media/04-sso-graph-overview-diagram.png)
+![SSO authentication flow with Office Add-ins and Microsoft Graph.](../media/04-sso-graph-overview-diagram.png)
 
 1. In the add-in, JavaScript calls the Office.js API method `getAccessToken()`. This method tells the Office client application to obtain an access token to the add-in.
 
@@ -41,7 +41,7 @@ In this scenario, your add-in should gracefully handle this scenario with a fall
 
 ### Avoid multiple round trips: fail fast
 
-One thing you'll notice from these steps is the many round trips to Azure AD. This is especially true when requesting an access token to use with Microsoft Graph. Your add-in will need to start multiple round trips before it can find out if the user needs to consent to more permissions for Microsoft Graph.
+One thing you'll notice from these steps are the many round trips to Azure AD. This is especially true when requesting an access token to use with Microsoft Graph. Your add-in will need to start multiple round trips before it can find out if the user needs to consent to more permissions for Microsoft Graph.
 
 The `getAccessToken()` method in the Office.js SDK accepts an options object that you can use to implement a *fail fast* approach. If you pass `{ forMSGraphAccess: true }` to this method, Azure AD will do an extra check before returning the bootstrap token.
 
@@ -49,7 +49,7 @@ If the user has consented to the requested Microsoft Graph permissions, your add
 
 However, if the user hasn't consented to the requested Microsoft Graph permissions, Azure AD will respond with a **13012** error. Your code can handle this error by falling back to the alternative authorization system. This alternate process will open a dialog and prompt the user to consent for the necessary Microsoft Graph permissions.
 
-This way, your add-in can avoid multiple round trips just to find out the user needs to consent to Microsoft Graph permissions.
+This way, your add-in can avoid multiple requests just to find out the user needs to consent to Microsoft Graph permissions.
 
 The code in the default Office Add-in SSO project includes boilerplate code necessary to implement this fallback authorization process. These are all found as **./helpers/fallbackauth\*.\*** files, a collection of HTML and JavaScript files that implement the popup dialog.
 
@@ -65,7 +65,7 @@ const sso = require("office-addin-sso");
 let bootstrapToken = await OfficeRuntime.auth.getAccessToken({ allowSignInPrompt: true });
 ```
 
-![Screenshot of the sign in process in Word](../media/03-test-app-02.png)
+![Signing in in Word.](../media/03-test-app-02.png)
 
 Next, you'll try to exchange this bootstrap token for an access token that can be used to call Microsoft Graph. It's this part that starts the OAuth2 OBO flow:
 

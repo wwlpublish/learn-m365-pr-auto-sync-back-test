@@ -2,7 +2,7 @@ In this exercise, you'll learn how to work with tables and charts using the Offi
 
 ## Prerequisites
 
-Developing Office add-ins for Microsoft Excel requires Excel 2016, version 1711 (Build 8730.1000 Click-to-Run) or later. You might need to be an Office Insider to get this version. For more information, see [Be an Office Insider](https://insider.office.com/?tab=tab-1).
+Developing Office Add-ins for Microsoft Excel requires Excel 2016, version 1711 (Build 8730.1000 Click-to-Run) or later. You might need to be an Office Insider to get this version. For more information, see [Be an Office Insider](https://insider.office.com/?tab=tab-1).
 
 You'll use Node.js to create the custom Excel add-in in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
 
@@ -35,7 +35,7 @@ When prompted, provide the following information to create your add-in project:
 - **What do you want to name your add-in?** My Office Add-in
 - **Which Office client application would you like to support?** Excel
 
-![Yeoman generator](../media/03-yo-office-excel.png)
+![Prompts and answers for the Yeoman generator.](../media/03-yo-office-excel.png)
 
 After you complete the wizard, the generator creates the project and installs supporting Node components.
 
@@ -103,7 +103,7 @@ In this section, you'll programmatically test that your add-in supports the user
 
     > [!NOTE]
     >
-    > - Your Excel.js business logic will be added to the function that is passed to `Excel.run()`. This logic doesn't execute immediately. Instead, its added to a queue of pending commands.
+    > - Your Excel.js business logic will be added to the function that is passed to `Excel.run()`. This logic doesn't execute immediately. Instead, it's added to a queue of pending commands.
     > - The `context.sync()` method sends all queued commands to Excel for execution.
     > - The `Excel.run()` is followed by a `catch` block. This is a best practice that you should always follow.
 
@@ -117,7 +117,7 @@ In this section, you'll programmatically test that your add-in supports the user
 
     > [!NOTE]
     >
-    > - The code creates a table by using `add()` method of a worksheet's table collection, which always exists even if its empty. This is the standard way that Excel.js objects are created. There are no class constructor APIs, and you never use a `new` operator to create an Excel object. Instead, you add to a parent collection object.
+    > - The code creates a table by using `add()` method of a worksheet's table collection, which always exists even if it's empty. This is the standard way that Excel.js objects are created. There are no class constructor APIs, and you never use a `new` operator to create an Excel object. Instead, you add to a parent collection object.
     > - The first parameter of the `add()` method is the range of only the top row of the table, not the entire range the table will ultimately use. This is because when the add-in populates the data rows (in the next step), it will add new rows to the table instead of writing values to the cells of existing rows. This is a more common pattern because the number of rows that a table will have is often not known when the table is created.
     > - Table names must be unique across the entire workbook, not just the worksheet.
 
@@ -190,11 +190,11 @@ In this section, you'll programmatically test that your add-in supports the user
 
 1. In Excel, select the **Home** tab, and then select the **Show Task pane** button in the ribbon to open the add-in task pane.
 
-    ![Excel add-in button](../media/03-excel-quickstart-add-in-3b.png)
+    ![Excel add-in button.](../media/03-excel-quickstart-add-in-3b.png)
 
 1. In the task pane, select the **Create Table** button.
 
-    ![Excel tutorial - Create Table](../media/03-excel-tutorial-create-table-2.png)
+    ![Table created by tutorial in Excel.](../media/03-excel-tutorial-create-table-2.png)
 
 ## Filter and sort a table
 
@@ -253,7 +253,7 @@ In this section, you'll filter and sort the table that you created previously.
 
     > [!NOTE]
     >
-    > - The code first gets a reference to the column that needs filtering by passing the column name to the `getItem()` method, instead of passing its index to the `getItemAt()` method as the `createTabl()e` method does. Since users can move table columns, the column at a given index might change after the table is created. Its safer to use the column name to get a reference to the column. We used `getItemAt` safely in the preceding tutorial, because we used it in the same method that creates the table, so there's no chance that a user has moved the column.
+    > - The code first gets a reference to the column that needs filtering by passing the column name to the `getItem()` method, instead of passing its index to the `getItemAt()` method as the `createTabl()e` method does. Since users can move table columns, the column at a given index might change after the table is created. It's safer to use the column name to get a reference to the column. We used `getItemAt` safely in the preceding tutorial, because we used it in the same method that creates the table, so there's no chance that a user has moved the column.
     > - The `applyValuesFilter()` method is one of several filtering methods on the `Filter` object.
 
 ### Sort the table
@@ -341,7 +341,7 @@ In this section, you'll filter and sort the table that you created previously.
 1. If the table you added previously in this tutorial isn't present in the open worksheet, select the **Create Table** button in the task pane.
 1. Select the **Filter Table** button and the **Sort Table** button, in either order.
 
-    ![Excel tutorial - Filter and Sort Table](../media/03-excel-tutorial-filter-and-sort-table-2.png)
+    ![Table filtered and sorted by tutorial in Excel.](../media/03-excel-tutorial-filter-and-sort-table-2.png)
 
 ## Create a chart
 
@@ -452,7 +452,7 @@ In this section, you'll create a chart using data from the table that you create
 1. If the table you added previously in this tutorial isn't present in the open worksheet, select the **Create Table** button, and then the **Filter Table** button and the **Sort Table** button, in either order.
 1. Select the **Create Chart** button. A chart is created and only the data from the rows that have been filtered are included. The labels on the data points across the bottom are in the sort order of the chart; that is, merchant names in reverse alphabetical order.
 
-![Excel tutorial - Create Chart](../media/03-excel-tutorial-create-chart-2.png)
+![Chart created by tutorial in Excel.](../media/03-excel-tutorial-create-chart-2.png)
 
 ## Summary
 

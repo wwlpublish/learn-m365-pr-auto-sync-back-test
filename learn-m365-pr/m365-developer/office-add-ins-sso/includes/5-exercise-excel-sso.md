@@ -38,7 +38,7 @@ When prompted, provide the following information to create your add-in project:
 - **What do you want to name your add-in?** MyExcelSsoAddin
 - **Which Office client application would you like to support?** Excel
 
-![A screenshot of the prompts and answers for the Yeoman generator](../media/05-yo-office-sso-add-in.png)
+![Prompts and answers for the Yeoman generator.](../media/05-yo-office-sso-add-in.png)
 
 After you complete prompts, the generator creates the project and installs supporting Node components.
 
@@ -55,7 +55,7 @@ From the command prompt, ensure you're currently in the root folder of the proje
 npm run configure-sso
 ```
 
-The command will launch a browser and prompt you to login to Azure AD. Ensure you login as a user that has permissions to register an Azure AD application, such as a user assigned to the **Global Administrator** role.
+The command will launch a browser and prompt you to sign in to Azure AD. Ensure you sign in as a user that has permissions to register an Azure AD application, such as a user assigned to the **Global Administrator** role.
 
 After authenticating, the script will do the following tasks:
 
@@ -64,7 +64,7 @@ After authenticating, the script will do the following tasks:
 1. Create a new client secret and save it to your developer workstations secret store
 1. Update the project with the Azure AD application's client ID
 
-![Screenshot of running and the output from the configure-sso script](../media/03-configure-sso.png)
+![Output from running the configure-sso script.](../media/03-configure-sso.png)
 
 > [!WARNING]
 > The **configure-sso** command will fail if your Azure AD tenant is configured for multi-factor authentication (MFA)/two-factor authentication. In this case, you'll need manually create the Azure AD app registration as outlined in the **[Create a Node.js Office Add-in that uses single sign-on: Register the add-in with Azure AD v2.0 endpoint](/office/dev/add-ins/develop/create-sso-office-add-ins-nodejs#register-the-add-in-with-azure-ad-v20-endpoint)** article.
@@ -81,7 +81,7 @@ npm start
 
 After a moment, the Excel will load with the add-in's button in the ribbon and loaded in the task pane.
 
-![Screenshot of the add-in in Excel](../media/05-test-app-01.png)
+![Add-in in Excel.](../media/05-test-app-01.png)
 
 To test the add-in, select the **Get my user profile information** button.
 
@@ -89,7 +89,7 @@ If you aren't already signed in with your Office client, you'll be prompted to s
 
 After signing in, the add-in will retrieve your basic profile information from Microsoft Graph and add it to the document.
 
-![Screenshot of the sign in process in Excel](../media/05-test-app-02.png)
+![Successful test in Excel.](../media/05-test-app-02.png)
 
 ## Update the app to show recent emails
 
@@ -107,7 +107,7 @@ Add a new permission by selecting **Add a permission**.
 
 On the **Select an API** screen, select **Microsoft Graph**, then select **Delegated permissions**. Search for and select permission **Mail.Read** and select **Add permissions**.
 
-![Screenshot of adding the Mail.Read permission](../media/05-azure-ad-add-permission-01.png)
+![Adding the Mail.Read permission.](../media/05-azure-ad-add-permission-01.png)
 
 Next, select the **Grant admin consent for Contoso** followed by accepting the confirmation prompt by selecting **Yes**.
 
@@ -233,4 +233,4 @@ Select the **Show Taskpane** button, then select the **Get last 10 emails** butt
 
 Because you're already signed in, after a moment, you'll see the recent emails appear in the worksheet without having to sign in.
 
-![Screenshot of the final add-in in Excel](../media/05-test-app-03.png)
+![Final add-in in Excel.](../media/05-test-app-03.png)

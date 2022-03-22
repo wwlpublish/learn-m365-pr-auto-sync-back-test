@@ -82,7 +82,7 @@ When a table is long enough that a user must scroll to see some rows, the header
 1. In the task pane, select **Freeze Header**.
 1. Scroll down the worksheet far enough to see that the table header remains visible at the top even when the higher rows scroll out of sight.
 
-![Excel tutorial - Freeze Header](../media/05-excel-tutorial-freeze-header-2.png)
+![Freeze Header set by the tutorial in Excel.](../media/05-excel-tutorial-freeze-header-2.png)
 
 ## Protect a worksheet
 
@@ -332,7 +332,7 @@ These steps must be completed whenever your code needs to *read* information fro
 
 1. On the **Home** tab in Excel, select the **Toggle Worksheet Protection** button. Most of the controls on the ribbon are disabled (and visually grayed-out) as seen in the following screenshot.
 
-    ![Excel tutorial - Ribbon with Protection On](../media/05-excel-tutorial-ribbon-with-protection-on-2.png)
+    ![Ribbon in Excel with Worksheet Protection on.](../media/05-excel-tutorial-ribbon-with-protection-on-2.png)
 
 1. Select a cell as you would if you wanted to change its content. Excel displays an error message indicating that the worksheet is protected.
 1. Select the **Toggle Worksheet Protection** button again, and the controls are reenabled, and you can change cell values again.

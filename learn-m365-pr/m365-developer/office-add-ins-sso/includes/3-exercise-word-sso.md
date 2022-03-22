@@ -38,7 +38,7 @@ When prompted, provide the following information to create your add-in project:
 - **What do you want to name your add-in?** MyWordSsoAddin
 - **Which Office client application would you like to support?** Word
 
-![A screenshot of the prompts and answers for the Yeoman generator](../media/03-yo-office-sso-add-in.png)
+![Prompts and answers for the Yeoman generator.](../media/03-yo-office-sso-add-in.png)
 
 After you complete prompts, the generator creates the project and installs supporting Node components.
 
@@ -71,7 +71,7 @@ From the command prompt, ensure you're currently in the root folder of the proje
 npm run configure-sso
 ```
 
-The command will launch a browser and prompt you to log in to Azure AD. Ensure you log in as a user that has permissions to register an Azure AD application, such as a user assigned to the **Global Administrator** role.
+The command will launch a browser and prompt you to sign in to Azure AD. Ensure you sign in as a user that has permissions to register an Azure AD application, such as a user assigned to the **Global Administrator** role.
 
 After authenticating, the script will perform the following tasks:
 
@@ -80,7 +80,7 @@ After authenticating, the script will perform the following tasks:
 1. Create a new client secret and save it to your developer workstations secret store
 1. Update the project with the Azure AD application's client ID
 
-![Screenshot of running and the output from the configure-sso script](../media/03-configure-sso.png)
+![Output from running the configure-sso script.](../media/03-configure-sso.png)
 
 > [!WARNING]
 > The **configure-sso** command will fail if your Azure AD tenant is configured for multi-factor authentication (MFA)/two-factor authentication. In this case, you'll need manually create the Azure AD app registration as outlined in the **[Create a Node.js Office Add-in that uses single sign-on: Register the add-in with Azure AD v2.0 endpoint](/office/dev/add-ins/develop/create-sso-office-add-ins-nodejs#register-the-add-in-with-azure-ad-v20-endpoint)** article.
@@ -95,7 +95,7 @@ Select **Azure Active Directory** in the leftmost navigation.
 
 Select **Manage > App registrations** in the leftmost navigation.
 
-  ![Screenshot of the App registrations](../media/03-azure-ad-portal-home.png)
+  ![App registrations.](../media/03-azure-ad-portal-home.png)
 
 On the **App registrations** page, select the app **MyWordSsoAddin**. This is the same name of the app that you created with the Yeoman Generator for Microsoft Office previously.
 
@@ -114,11 +114,11 @@ SCOPE=User.Read
 
 Next, in the leftmost navigation, select **Manage > Authentication**. Notice the **Redirect URIs** are set to the **taskpane.html** and **fallbackauthdialog.html** pages in our app.
 
-![Screenshot of the redirect URI section](../media/03-azure-ad-authentication-redirect-uri.png)
+![Redirect URI section.](../media/03-azure-ad-authentication-redirect-uri.png)
 
 Also note the section **Implicit grand and hybrid flows** has been updated to ensure Azure AD returns access tokens and ID tokens when a user authenticates to the app:
 
-![Screenshot of the implicit flows selection](../media/03-azure-ad-authentication-implicit.png)
+![Implicit flows selection.](../media/03-azure-ad-authentication-implicit.png)
 
 ### Certificates & secrets
 
@@ -130,7 +130,7 @@ The **configure-sso** script created a client secret for the app. This was displ
 
 In the leftmost navigation, select **Manage > API permissions**. Notice how multiple delegated permissions have been configured for the app. The **console-sso** script also granted admin consent to all users in the tenant so they won't be prompted to consent the app the first time they use the app.
 
-![Screenshot of permissions configured and granted on the app](../media/03-azure-ad-api-permissions.png)
+![Permissions configured and granted on the app.](../media/03-azure-ad-api-permissions.png)
 
 ### Expose an API: Application ID URI
 
@@ -164,7 +164,7 @@ The applications listed are as follows:
 
 If you select one of these apps, each of them has the scope defined above as an authorized scope.
 
-![Screenshot showing the ID and authorized clients who can access the add-in's API](../media/03-azure-ad-expose-api.png)
+![ID and authorized clients who can access the add-in's API.](../media/03-azure-ad-expose-api.png)
 
 ## Build and test the application
 
@@ -187,17 +187,17 @@ The **start** script will do three things:
 
 After a moment, Word will load with the add-in's button in the ribbon and loaded in the task pane.
 
-![Screenshot of the add-in in Word](../media/03-test-app-01.png)
+![Add-in in Word.](../media/03-test-app-01.png)
 
 To test the add-in, select the **Get my user profile information** button.
 
 If you aren't already signed in with your Office client, you'll be prompted to sign in.
 
-![Screenshot of the sign in process in Word](../media/03-test-app-02.png)
+![Signing in in Word.](../media/03-test-app-02.png)
 
 After signing in, the add-in will retrieve your basic profile information from Microsoft Graph and add it to the document.
 
-![Screenshot of the successful test in Word](../media/03-test-app-03.png)
+![Successful test in Word.](../media/03-test-app-03.png)
 
 ### Test the add-in in the Word web client
 
