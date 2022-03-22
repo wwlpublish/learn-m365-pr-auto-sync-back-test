@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/11/2022
+  ms.date: 03/22/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -27,12 +27,12 @@ quiz:
       explanation: "Incorrect. The site considers the client active when there's communication with Configuration Manager within seven days. With client activity, the site evaluates if the client has completed one of the key actions within seven days. These activities include requesting policy updates, sending a heartbeat message, or sending a hardware inventory message. Try again."
     - content: "Client Check"
       isCorrect: false
-      explanation: "Incorrect. With Client Check, the site runs a periodic evaluation with the Configuration Manager client on the device. The evaluation checks the device and remediate the problems it finds. Try again."
+      explanation: "Incorrect. With Client Check, the site runs a periodic evaluation with the Configuration Manager client on the device. The evaluation checks the device and remediates the problems it finds. Try again."
   - content: "To manage a Windows computer using Configuration Manager, there are multiple ways to deploy the client. What are the four most common methods of deployment?"
     choices:
     - content: "Client push, Manual deployment, Configuration Manager application package, Microsoft Intune"
       isCorrect: false
-      explanation: "Incorrect. While the client can be delieverd as a package, the client must already be installed and running on the device before it can recieve packages. This method isn't practical for the common scenarios. Try again."
+      explanation: "Incorrect. While the client can be delivered as a package, the client must already be installed and running on the device before it can receive packages. This method isn't practical for the common scenarios. Try again."
     - content: "Windows update, Manual deployment, OS deployment, Microsoft Intune"
       isCorrect: false
       explanation: "Incorrect. The Client is not deployed through Windows update. Try again."
