@@ -12,7 +12,7 @@ title: Explore the Windows servicing model
 summary: This module examines the Windows client service module and describes the available methods for applying Windows updates.
 abstract: |
   After completing this module, you will be able to:
-  - Describe the Windows client sevice model.
+  - Describe the Windows client service model.
   - Describe the different Windows service channels.
   - Describe the available methods for applying updates to Windows.
 prerequisites: |
