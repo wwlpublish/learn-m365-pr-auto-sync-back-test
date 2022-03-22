@@ -29,7 +29,7 @@ if (Office.context.requirements.isSetSupported(RequirementSetName, MinimumVersio
 > [!NOTE]
 > **Office Insider's Program**
 >
-> To get the earliest or monthly changes to any of the Office hosts, you can join the Office Insider's program. This program is for Windows PC only and requires an Microsoft 365 subscription. From any Office application, select **File > Account > Office Insider** to quickly join the program.
+> To get the earliest or monthly changes to any of the Office hosts, you can join the Office Insider's program. This program is for Windows PC only and requires an Microsoft 365 subscription. From any Office application, select **File** > **Account** > **Office Insider** to quickly join the program.
 
 ### Using Office JavaScript APIs
 
@@ -240,7 +240,7 @@ The following table lists a few example tasks based on a user's selection.
 
 The following image shows a contextual add-in displayed in Outlook.
 
-![Contextual add-in example displayed in Outlook.](../media/03-outlook-detected-entity-card.png)
+![Screenshot of contextual add-in example displayed in Outlook.](../media/03-outlook-detected-entity-card.png)
 
 *A contextual add-in displayed in Outlook*
 
@@ -272,7 +272,7 @@ Module add-ins appear in the Outlook navigation bar, right alongside mail, tasks
 
 The following image shows an example of a module extension add-in.
 
-![Module add-in example in Outlook on Windows.](../media/03-outlook-module-extension.png)
+![Screenshot of module add-in example in Outlook on Windows.](../media/03-outlook-module-extension.png)
 
 *A Module add-in example in Outlook on Windows*
 

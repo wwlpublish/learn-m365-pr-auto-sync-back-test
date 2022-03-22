@@ -76,13 +76,13 @@ When a table is long enough that a user must scroll to see some rows, the header
 
         To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
-1. If the add-in task pane isn't already open, on the **Home** tab, select **Show Task pane**.
+1. If the add-in task pane isn't already open, on the **Home** tab, select **Show Taskpane**.
 1. If the table you added previously in this tutorial is present in the worksheet, delete it.
 1. In the task pane, select **Create Table**.
 1. In the task pane, select **Freeze Header**.
 1. Scroll down the worksheet far enough to see that the table header remains visible at the top even when the higher rows scroll out of sight.
 
-![Freeze Header set by the tutorial in Excel.](../media/05-excel-tutorial-freeze-header-2.png)
+![Screenshot of Freeze Header set by the tutorial in Excel.](../media/05-excel-tutorial-freeze-header-2.png)
 
 ## Protect a worksheet
 
@@ -91,7 +91,7 @@ In this section, you'll add another button to the ribbon that, when chosen, exec
 ### Configure the manifest to add a second ribbon button
 
 1. Open the manifest file **./manifest.xml**.
-1. Locate the `<Control>` element. This element defines the **Show Task pane** button on the **Home** ribbon you have been using to launch the add-in. We're going to add a second button to the same group on the **Home** ribbon.
+1. Locate the `<Control>` element. This element defines the **Show Taskpane** button on the **Home** ribbon you have been using to launch the add-in. We're going to add a second button to the same group on the **Home** ribbon.
 
     Between the end Control tag (`</Control>`) and the end Group tag (`</Group>`), add the following markup.
 
@@ -332,7 +332,7 @@ These steps must be completed whenever your code needs to *read* information fro
 
 1. On the **Home** tab in Excel, select the **Toggle Worksheet Protection** button. Most of the controls on the ribbon are disabled (and visually grayed-out) as seen in the following screenshot.
 
-    ![Ribbon in Excel with Worksheet Protection on.](../media/05-excel-tutorial-ribbon-with-protection-on-2.png)
+    ![Screenshot of ribbon in Excel with Worksheet Protection on.](../media/05-excel-tutorial-ribbon-with-protection-on-2.png)
 
 1. Select a cell as you would if you wanted to change its content. Excel displays an error message indicating that the worksheet is protected.
 1. Select the **Toggle Worksheet Protection** button again, and the controls are reenabled, and you can change cell values again.
