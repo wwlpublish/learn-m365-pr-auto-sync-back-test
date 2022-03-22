@@ -32,7 +32,7 @@ Microsoft Search can help transform your organization’s search experience by c
 
 - **Power BI**: Get links to dashboards and reports along with the team owner. Users will only see results for Power BI sites and data they have access to.
 
-:::image type="content" source="../media/module-1-unit-3-powerbi.png" alt-text="Image showing Power BI answer.":::
+:::image type="content" source="../media/module-1-unit-3-power-bi.png" alt-text="Image showing Power BI answer.":::
 
 - **Connectors**: Make data and info outside of Microsoft 365 searchable with connectors.
 
