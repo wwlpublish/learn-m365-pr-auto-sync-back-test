@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn.wwl.maintain-disks-volumes
+metadata:
+  title: Maintain disks and volumes
+  description: "This module explores file system fragmentation and the tools that you can use to reduce fragmentation. Students will learn how Windows can compress files to take up less space on the hard disk."
+  ms.date: 03/04/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Maintain disks and volumes
+summary: This module explores file system fragmentation and the tools that you can use to reduce fragmentation. Students will learn how Windows can compress files to take up less space on the hard disk.
+abstract: |
+  After completing this module, you will be able to:
+  - Explain the primary characteristics of the Storage functionality in Windows client.
+  - Describe how to use the Storage functionality.
+  - Describe how files stored on disks might fragment.
+  - Describe how to defragment volumes.
+  - Explain folder compression.
+  - Describe how to compress folders.
+  - Describe what disk quotas are.
+  - Describe how to configure disk quotas.
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.maintain-disks-volumes.introduction
+- learn.wwl.maintain-disks-volumes.monitor-storage-usage
+- learn.wwl.maintain-disks-volumes.understand-disk-optimization
+- learn.wwl.maintain-disks-volumes.explore-file-folder-compression
+- learn.wwl.maintain-disks-volumes.knowledge-check
+- learn.wwl.maintain-disks-volumes.summary
+badge:
+  uid: learn.wwl.maintain-disks-volumes.badge

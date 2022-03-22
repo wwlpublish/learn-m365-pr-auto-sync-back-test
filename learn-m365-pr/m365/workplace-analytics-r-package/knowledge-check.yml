@@ -14,42 +14,42 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "What is the wpa R package?"
+    - content: "What is the `wpa` R package?"
       choices:
       - content: " A set of tools and functions to analyze Viva Insights with Workplace Analytics data."
         isCorrect: true
-        explanation: "Correct. The wpa R package is a set of tools and functions to analyze Viva Insights with Workplace Analytics data."
+        explanation: "Correct. The `wpa` R package is a set of tools and functions to analyze Viva Insights with Workplace Analytics data."
       - content: "A set of tools used to build graphics with Workplace Analytics data."
         isCorrect: false
-        explanation: "Sorry, that’s incorrect. The wpa R package includes data visualization functions, but it is not limited to building graphics."
+        explanation: "Sorry, that’s incorrect. The `wpa` R package includes data visualization functions, but it is not limited to building graphics."
       - content: "A collection of R packages you can use for data science with Workplace Analytics data. "
         isCorrect: false
-        explanation: "Sorry, that’s incorrect. The wpa R package is a single package that includes many essential and advanced functions to help you deliver advanced analytics."
-    - content: "What code should you run to load the wpa R library?"
+        explanation: "Sorry, that’s incorrect. The `wpa` R package is a single package that includes many essential and advanced functions to help you deliver advanced analytics."
+    - content: "What code should you run to load the `wpa` R library?"
       choices:
-      - content: "load(wpa)"
+      - content: "`load(wpa)`"
         isCorrect: false
-        explanation: "Sorry, that's incorrect. The correct answer is library(wpa). To load the wpa R package in your R session, enter library(wpa) and run."
-      - content: "import(wpa)"
+        explanation: "Sorry, that's incorrect. The correct answer is `library(wpa)`. To load the `wpa` R package in your R session, enter `library(wpa)` and run."
+      - content: "`import(wpa)`"
         isCorrect: false
-        explanation: "Sorry, that's incorrect. The correct answer is library(wpa). To load the wpa R package in your R session, enter library(wpa) and run."
-      - content: "library(wpa)"
+        explanation: "Sorry, that's incorrect. The correct answer is `library(wpa)`. To load the `wpa` R package in your R session, enter `library(wpa)` and run."
+      - content: "`library(wpa)`"
         isCorrect: true
-        explanation: "Correct. To load the wpa R package in your R session, enter library(wpa) and run."
+        explanation: "Correct. To load the wpa R package in your R session, enter `library(wpa)` and run."
     - content: "Which is the recommended function to help you validate your data before analysis?"
       choices:
-      - content: "collaboration_report()"
+      - content: "`collaboration_report()`"
         isCorrect: false
-        explanation: "Sorry, that's incorrect. The collaboration_report() function is not used to validate data before analysis, rather. It gives a summary and analysis on collaboration metrics such as email and meeting hours."
-      - content: "check_query()"
+        explanation: "Sorry, that's incorrect. The `collaboration_report()` function is not used to validate data before analysis, rather. It gives a summary and analysis on collaboration metrics such as email and meeting hours."
+      - content: "`check_query()`"
         isCorrect: false
-        explanation: "Sorry, that's incorrect. The check_query() function provides a high level summary of the data used for analysis, but it does not provide complete checks to validate the data."
-      - content: "data_validate()"
+        explanation: "Sorry, that's incorrect. The `check_query()` function provides a high level summary of the data used for analysis, but it does not provide complete checks to validate the data."
+      - content: "`data_validate()`"
         isCorrect: false
-        explanation: "Sorry, that's incorrect. There isn't a data_validate() function in the wpa R package."
-      - content: "validation_report()"
+        explanation: "Sorry, that's incorrect. There isn't a `data_validate()` function in the wpa R package."
+      - content: "`validation_report()`"
         isCorrect: true
-        explanation: "Correct. The validation report function performs a series of checks against your dat. This includes checks on Workplace Analytics settings, organizational data quality, and Microsoft 365 data quality."
+        explanation: "Correct. The `validation_report()` function performs a series of checks against your data. This includes checks on Workplace Analytics settings, organizational data quality, and Microsoft 365 data quality."
     - content: "What are some examples of quick start reports that are available for creating a baseline analysis?"
       choices:
       - content: "Report on Collaboration, Validation Report, Subject Line Validation Report, Report on Connectivity"

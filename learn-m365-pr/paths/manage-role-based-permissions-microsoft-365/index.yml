@@ -3,7 +3,7 @@ uid: learn.wwl.manage-role-based-permissions-microsoft-365
 metadata:
   title: Manage role-based permissions in Microsoft 365
   description: Manage role-based permissions in Microsoft 365
-  ms.date: 12/15/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -23,8 +23,10 @@ levels:
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 modules:
 - learn.wwl.manage-admin-roles
 - learn.wwl.manage-user-roles

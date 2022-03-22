@@ -59,7 +59,7 @@ quiz:
     - content: "XML"
       isCorrect: false
       explanation: "That’s incorrect. The Microsoft 365 Defender portal doesn’t support the Transact-SQL language for queries in the advanced hunting tool."
-  - content: "You have used curl to issue the following REST request but have been denied access. What should you do to fix the problem? curl -XGET 'https://<portal_url>/api/v1/alerts'"
+  - content: "You have used curl to issue the following REST request but have been denied access. What should you do to fix the problem? `curl -XGET 'https://<portal_url>/api/v1/alerts'`"
     choices:
     - content: "Include a filter in your query"
       isCorrect: false

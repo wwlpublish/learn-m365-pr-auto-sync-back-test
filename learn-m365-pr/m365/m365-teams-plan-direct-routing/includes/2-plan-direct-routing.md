@@ -8,8 +8,8 @@ The first decision is whether to host the SBC yourself, or use a partner hosted 
 
 |  |Self-deployed SBC  | Partner hosted SBC  |
 |---------|---------|---------|
-|Benefits     | <ul><li>Full control over SBC</li><li>Connectivity to existing PBX</li></ul>        | <ul><li>No need for purchasing, maintaining, and hosting own SBC</li></ul>        |
-|Disadvantages     | <ul><li>Customer responsible for SBC configuration</li><li>Need to purchase, maintain, and host SBC</li></ul>         | <ul><li>No control over SBC configuration</li><li>Support model more complex</li></ul>        |
+|**Benefits**     | <ul><li>Full control over SBC</li><li>Connectivity to existing PBX</li></ul>        | <ul><li>No need for purchasing, maintaining, and hosting own SBC</li></ul>        |
+|**Disadvantages**     | <ul><li>Customer responsible for SBC configuration</li><li>Need to purchase, maintain, and host SBC</li></ul>         | <ul><li>No control over SBC configuration</li><li>Support model more complex</li></ul>        |
 
 For each approach, you need to understand:
 

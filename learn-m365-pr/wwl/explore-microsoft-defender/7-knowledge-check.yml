@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-microsoft-defender.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/11/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following items analyzes network traffic and filters out harmful traffic, such as attempts to cause a denial-of-service attack or an SQL injection attack?"
+    choices:
+    - content: "Block at first sight"
+      isCorrect: false
+      explanation: "Incorrect. This is a feature in Microsoft Defender Antivirus that allows it to rapidly identify and block new malware. You enable Block at First Sight through Group Policy. When you enable this feature, both cloud-based protection and Automatic sample submission will be turned on. Try again."
+    - content: "Firewall"
+      isCorrect: true
+      explanation: "Correct. A sophisticated firewall can analyze network traffic and filter out harmful traffic, such as attempts to cause a denial-of-service attack or an SQL injection attack. Administrators often place firewalls at a network perimeter, between an organization’s screened subnet and the Internet, and between the screened subnet and the internal network. Today, it also is common for each host to have its own additional firewall."
+    - content: "Microsoft Defender for Endpoint"
+      isCorrect: false
+      explanation: "Incorrect. This cloud-based online service assists organizations in detecting, investigating, and responding to advanced persistent threats. Microsoft Defender for Endpoint provides behavior-based advanced attack detection, a forensic timeline, and a unique threat intelligence knowledge base. Try again."
+  - content: "In which type of network location is network discovery turned on by default, and you can't create or join a HomeGroup?"
+    choices:
+    - content: "Domain networks"
+      isCorrect: true
+      explanation: "Correct. These typically are workplace networks that attach to a domain. Use this option for any network that allows communication with a domain controller. Network discovery is on by default, and you cannot create or join a HomeGroup."
+    - content: "Private networks"
+      isCorrect: false
+      explanation: "Incorrect. These are networks at home or work where you know and trust the people and devices on the network. When you select Home or work (private) networks, this turns on network discovery. Computers on a home network can belong to a HomeGroup. Try again."
+    - content: "Guest or public networks"
+      isCorrect: false
+      explanation: "Incorrect. These are networks in public places. This location keeps the computer from being visible to other computers. When you select the Public place network location, HomeGroup is not available, and Windows turns off network discovery. Try again."
+  - content: "As the Desktop Administrator for Lucerne Publishing, Patti Fernandez wants to allow incoming traffic for a specific desktop management tool when a computer is on the company's domain network, but block traffic when the computer connects to public or private networks. Which of the following tools should Patti use to provide this functionality?"
+    choices:
+    - content: "Microsoft Defender for Endpoint"
+      isCorrect: false
+      explanation: "Incorrect. This cloud-based online service assists organizations in detecting, investigating, and responding to advanced persistent threats. Microsoft Defender for Endpoint provides behavior-based advanced attack detection, a forensic timeline, and a unique threat intelligence knowledge base. Try again."
+    - content: "Windows Defender Firewall with Advanced Security"
+      isCorrect: true
+      explanation: "Correct. Windows Defender Firewall with Advanced Security is an example of a network-aware app. You can create a profile for each network location type, and each profile can contain different firewall policies. For example, you can allow incoming traffic for a specific desktop management tool when a computer is on a domain network, but block traffic when the computer connects to public or private networks."
+    - content: "Block at first sight"
+      isCorrect: false
+      explanation: "Incorrect. This feature of Microsoft Defender Antivirus can rapidly identify and block new malware. Try again."
+  - content: "Adventure Works Cycles has set the Windows Defender Firewall option that allows an app or feature through Windows Defender Firewall. Turning on this option enables Adventure Works' administrators to define a list of approved programs that can communicate through their firewall. What else can Adventure Works do to help decrease security risks with its communication architecture?"
+    choices:
+    - content: "Allow all programs to communicate through the firewall"
+      isCorrect: false
+      explanation: "Incorrect. To decrease security risks, you should only allow a program when necessary. Try again."
+    - content: "Open a port without scoping the port to a specific app"
+      isCorrect: false
+      explanation: "Incorrect. To decrease security risks, you should only open a port to a specific app when necessary. Try again."
+    - content: "Close ports when you don't require them"
+      isCorrect: true
+      explanation: "Correct. Generally, it is safer to add a program to the list of allowed programs than to open a port for an app. If you open a port without scoping the port to a specific app, the opening in the firewall stays open until you close the port, regardless of whether a program is using it. You should only open a port when necessary."
+  - content: "You suspect that spyware has infected a specific area of your computer. You want to run a quick scan to determine whether your computer is infected. Which of the following tools will provide this functionality?"
+    choices:
+    - content: "Windows Defender Firewall with Advanced Security"
+      isCorrect: false
+      explanation: "Incorrect. Windows Defender Firewall with Advanced Security is an example of a network-aware app. You can create a profile for each network location type, and each profile can contain different firewall policies. Try again."
+    - content: "Microsoft Defender for Endpoint"
+      isCorrect: false
+      explanation: "Incorrect. This cloud-based online service assists organizations in detecting, investigating, and responding to advanced persistent threats. Microsoft Defender for Endpoint provides behavior-based advanced attack detection, a forensic timeline, and a unique threat intelligence knowledge base. Try again."
+    - content: "Microsoft Defender Antivirus"
+      isCorrect: true
+      explanation: "Correct. You can use Microsoft Defender Antivirus to run a Quick, Full, Custom, or Offline scan. If you suspect spyware has infected a specific area of a computer, you can customize a scan by selecting specific drives and folders. You also can configure the schedule that Microsoft Defender Antivirus will use."

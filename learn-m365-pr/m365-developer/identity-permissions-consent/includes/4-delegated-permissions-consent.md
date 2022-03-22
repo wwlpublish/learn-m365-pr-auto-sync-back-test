@@ -24,9 +24,9 @@ There are two ways to define the permissions an app needs that drives what permi
 
 With static consent, the permissions are defined in the app's registration within the Azure AD admin center.
 
-![Screenshot of the Configured Permissions page in Azure AD](../media/05-azure-ad-portal-new-app-permissions-01.png)
+![Screenshot of the Configured Permissions page in Azure AD.](../media/05-azure-ad-portal-new-app-permissions-01.png)
 
-![Screenshot of the Configured Permissions page in Azure AD](../media/05-azure-ad-portal-new-app-permissions-02.png)
+![Screenshot of the Request API Permissions page in Azure AD.](../media/05-azure-ad-portal-new-app-permissions-02.png)
 
 The static consent approach is how the Microsoft identity v1.0 authorize endpoint worked. All permissions an application used needed to be defined ahead of time. When users signed in, they would have to consent to all permission requests.
 

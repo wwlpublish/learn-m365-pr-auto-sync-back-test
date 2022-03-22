@@ -3,18 +3,18 @@ uid: learn-m365.sharepoint-spfx-web-parts
 metadata:
   title: Develop web parts with the SharePoint Framework
   description: Learn how to create client-side web parts with the SharePoint Framework.
-  ms.date: 09/13/2021
+  ms.date: 03/07/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Develop web parts with the SharePoint Framework
-summary: This module will introduce you to creating client-side web parts using the SharePoint Framework. You'll also see how to leverage both the local and hosted SharePoint Workbench & using different parts of the SharePoint Framework API.
+summary: This module will introduce you to creating client-side web parts using the SharePoint Framework. You'll also see how to leverage the hosted SharePoint Workbench & using different parts of the SharePoint Framework API.
 abstract: |
   By the end of this module, you'll be able to:
   - Create a client-side web with the SharePoint Framework
-  - Demonstrate how to test a web part using the local workbench
-  - Explain the differences and when to use the local vs. hosted workbench
+  - Demonstrate how to test a web part using the SharePoint workbench
+  - Explain the differences and when to use the hosted workbench
 prerequisites: |
   - Experience using SharePoint Online at the intermediate level
   - Ability to program with JavaScript, TypeScript, and Node.js

@@ -4,13 +4,12 @@ title: Explore message flow with an Edge Transport server
 metadata:
   title: Explore message flow with an Edge Transport server
   description: "Explore message flow with an Edge Transport server"
-  ms.date: 12/15/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 5
 content: |

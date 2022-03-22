@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-extensions.3-exercise-application-customizer
 metadata:
   title: Exercise - Create an application customizer extension
   description: In this exercise, you'll create a SharePoint Framework (SPFx) application customizer extension.
-  ms.date: 12/08/2021
+  ms.date: 03/08/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

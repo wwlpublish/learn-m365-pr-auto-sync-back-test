@@ -4,7 +4,7 @@ metadata:
   title: Exercise - Upload files to document libraries
   description: |
     In this exercise, you'll create a new web part that someone can use to select a file to upload to the current site's Documents library.
-  ms.date: 12/10/2021
+  ms.date: 03/07/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

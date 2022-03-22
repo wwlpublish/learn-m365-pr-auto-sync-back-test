@@ -3,7 +3,7 @@ uid: learn.wwl.configure-organizational-sharing
 metadata:
   title: Configure organizational sharing
   description: "Configure organizational sharing"
-  ms.date: 12/22/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,8 +24,10 @@ levels:
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.configure-organizational-sharing.introduction
 - learn.wwl.configure-organizational-sharing.examine-exchange-federated-delegation-features

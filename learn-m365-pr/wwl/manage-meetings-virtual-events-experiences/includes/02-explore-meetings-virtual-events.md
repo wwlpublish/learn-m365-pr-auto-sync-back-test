@@ -99,10 +99,10 @@ The following table summarizes the key differences between the three Teams meeti
 
 | |Teams Meetings |Teams Webinars | Teams Live events|
 |--|--|--|--|
-|Attendee limits |1,000 interactive <br/>10,000 view-only* |1,000 interactive <br/>10,000 view-only*| 10,000|
-| Managements| Meeting policies/settings|Meeting policies/settings |Live events policies/settings |
-|Roles |Organizer, Attendee, Presenter|Organizer, Attendee, Presenter | Organizer, Attendee, Presenter, Producer|
-| Highlights|1,000-attendees with breakout rooms<br/>Audio, video, and  screen sharing | Attendee registration page and email confirmations <br/>Download attendee reporting for CRM & Marketing apps| Advanced production with RTMP<br/>Producer UX with content queue<br/>Supported in Yammer, Teams, and Stream|
+|**Attendee limits** |1,000 interactive <br/>10,000 view-only* |1,000 interactive <br/>10,000 view-only*| 10,000|
+| **Managements**| Meeting policies/settings|Meeting policies/settings |Live events policies/settings |
+|**Roles** |Organizer, Attendee, Presenter|Organizer, Attendee, Presenter | Organizer, Attendee, Presenter, Producer|
+| **Highlights**|1,000-attendees with breakout rooms<br/>Audio, video, and  screen sharing | Attendee registration page and email confirmations <br/>Download attendee reporting for CRM & Marketing apps| Advanced production with RTMP<br/>Producer UX with content queue<br/>Supported in Yammer, Teams, and Stream|
 
 *view-only broadcasts for up to 20,000-attendees through the end of 2021.
 

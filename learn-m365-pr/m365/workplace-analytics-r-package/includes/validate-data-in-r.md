@@ -4,9 +4,9 @@ Before using R functions to analyze Viva Insights data from Workplace Analytics 
 
 Data validation is essential for ensuring trust that it is accurate, clean, and helpful. The following are just a few of many important reasons to validate the Workplace Analytics data:
 
-* Data validation ensures a dataset is a good basis for analyses, and acts as a proactive intervention to safeguard your analyses from the start.
-* There might be gaps, anomalies, or errors in the organizational data, such as missing data, or the data might not have the right level of granularity. These issues might require fixing the data at the source, or interpreting the data differently. Any data biases should be caveated or accounted for.
-* Outliers might exist in Workplace Analytics data, and often for legitimate reasons. For example, collaboration hours for a specific week or employee might be low because of a public holiday or paid time off. If these outliers aren't addressed, the interpretation of the data might be incorrect.
+- Data validation ensures a dataset is a good basis for analyses, and acts as a proactive intervention to safeguard your analyses from the start.
+- There might be gaps, anomalies, or errors in the organizational data, such as missing data, or the data might not have the right level of granularity. These issues might require fixing the data at the source, or interpreting the data differently. Any data biases should be caveated or accounted for.
+- Outliers might exist in Workplace Analytics data, and often for legitimate reasons. For example, collaboration hours for a specific week or employee might be low because of a public holiday or paid time off. If these outliers aren't addressed, the interpretation of the data might be incorrect.
 
 It is a good practice to have a comprehensive understanding of the data and perform checks for common biases, errors, and anomalies before analysis. Otherwise, the quality and reliability of the analysis might be at risk.
 
@@ -14,10 +14,10 @@ It is a good practice to have a comprehensive understanding of the data and perf
 
 Before you begin with data validation, it's helpful to know more about your dataset, including:
 
-* Type of query loaded (person query, meeting query, and so on)
-* Number of unique employees in the dataset
-* Date range of the dataset
-* Organizational attributes in the dataset
+- Type of query loaded (person query, meeting query, and so on)
+- Number of unique employees in the dataset
+- Date range of the dataset
+- Organizational attributes in the dataset
 
 You can quickly get this information with the `check_query()` function. Use the following to run the `check_query()` function on the inbuilt `sq_data` sample person query dataset.
 
@@ -32,19 +32,19 @@ The resulting output gives you a summary of the data, as shown in the following 
 
 The following functions are helpful for initially exploring your data (the examples use the `sq_data` person query output):
 
-* `names(sq_data)` - Gets all column names.
-* `class(sq_data$Date)` - Checks object type (this example checks the type of the Date column).
-* `summary(sq_data)` - Gets summary statistics.
-* `length(unique(sq_data$PersonId))` - Computes the number of unique values (this example computes the unique number of PersonIds).
-* `dplyr::glimpse(sq_data)` or `skimr::skim(sq_data)` - Get an overview of the data.
-* `View(sq_data)` - View the entire dataset (not recommended for large datasets).
+- `names(sq_data)` - Gets all column names.
+- `class(sq_data$Date)` - Checks object type (this example checks the type of the Date column).
+- `summary(sq_data)` - Gets summary statistics.
+- `length(unique(sq_data$PersonId))` - Computes the number of unique values (this example computes the unique number of PersonIds).
+- `dplyr::glimpse(sq_data)` or `skimr::skim(sq_data)` - Get an overview of the data.
+- `View(sq_data)` - View the entire dataset (not recommended for large datasets).
 
 Validating the structure of the data is as important as validating the data. You might check that the data is correctly imported into R if you observe any anomalies, such as:
 
-* Unexpected or misspelled column names
-* Unexpected number of rows in the data
-* Unexpectedly high number of missing or unique values
-* The Date variable is a type other than the character or date type
+- Unexpected or misspelled column names
+- Unexpected number of rows in the data
+- Unexpectedly high number of missing or unique values
+- The Date variable is a type other than the character or date type
 
 ## Data Validation Report
 
@@ -56,9 +56,9 @@ validation_report(sq_data)
 
 This function generates an interactive HTML report in your working directory that includes a series of checks, including:
 
-* Workplace Analytics settings
-* Organizational data quality
-* Microsoft 365 data quality
+- Workplace Analytics settings
+- Organizational data quality
+- Microsoft 365 data quality
 
 See the following **Learn more** section for demo validation report output.
 
@@ -86,7 +86,7 @@ The `check_query()` function checks the query (data frame) and gives you a diagn
 check_query(sq_data)
 ```
 
-The `hrvar_count()` function counts the distinct people by the specified HR attribute, and returns a bar chart. The following example shows a bar chart for "LevelDesignation".
+The `hrvar_count()` function counts the distinct people by the specified HR attribute, and returns a bar chart. The following example shows a bar chart for `LevelDesignation`.
 
 ```R
 hrvar_count(sq_data, hrvar = "LevelDesignation")
@@ -100,15 +100,15 @@ To run a blanket analysis for all the organizational attributes in the dataset, 
 
 There are three common reasons for removing certain employees or weeks from the data:
 
-* A given week is likely a public holiday that impacts a significant proportion of the organization, such as Christmas or New Year's day.
-* An employee is a non-knowledge worker who doesn't typically collaborate with email and meetings.
-* An employee is off work for certain weeks because of annual leave, sabbaticals, and so on, which do not necessarily coincide with public holidays.
+- A given week is likely a public holiday that impacts a significant proportion of the organization, such as Christmas or New Year's day.
+- An employee is a non-knowledge worker who doesn't typically collaborate with email and meetings.
+- An employee is off work for certain weeks because of annual leave, sabbaticals, and so on, which do not necessarily coincide with public holidays.
 
 You can use a function in `wpa` to address each of the following:
 
-* `identify_holidayweeks()` - Identifies weeks where collaboration hours are low outliers for the entire organization.
-* `identify_nkw()` - Identifies employees with overall low collaboration signals, based on average collaboration hours. In addition to non-knowledge workers, this method would also capture any effective part-timers or freelancers, where their collaboration hours are significantly low.
-* `identify_inactiveweeks()` - Identifies individual weeks where collaboration hours are low outliers for the entire organization.
+- `identify_holidayweeks()` - Identifies weeks where collaboration hours are low outliers for the entire organization.
+- `identify_nkw()` - Identifies employees with overall low collaboration signals, based on average collaboration hours. In addition to non-knowledge workers, this method would also capture any effective part-timers or freelancers, where their collaboration hours are significantly low.
+- `identify_inactiveweeks()` - Identifies individual weeks where collaboration hours are low outliers for the entire organization.
 
 These functions all include the option to either return the 'clean' dataset or return the original dataset with an appended flag that identifies the anomalous people or weeks.
 
@@ -116,7 +116,7 @@ The `wpa` R package also includes functions that identify privacy thresholds for
 
 ## Learn more
 
-* [Data validation overview](https://microsoft.github.io/wpa/analyst_guide_data_validation.html)
-* [Generate a Data validation report](https://microsoft.github.io/wpa/reference/validation_report.html)
-* [Data validation report output](https://microsoft.github.io/wpa/report-demo/validation-report-demo.html)
-* [The `wpa` R package function reference](https://microsoft.github.io/wpa/reference/index.html)
+- [Data validation overview](https://microsoft.github.io/wpa/analyst_guide_data_validation.html)
+- [Generate a Data validation report](https://microsoft.github.io/wpa/reference/validation_report.html)
+- [Data validation report output](https://microsoft.github.io/wpa/report-demo/validation-report-demo.html)
+- [The `wpa` R package function reference](https://microsoft.github.io/wpa/reference/index.html)

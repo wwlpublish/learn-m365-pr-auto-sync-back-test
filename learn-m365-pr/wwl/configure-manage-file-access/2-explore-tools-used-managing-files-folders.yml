@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-manage-file-access.explore-tools-used-managing-files-folders
+title: Explore tools used for managing files and folders
+metadata:
+  title: Explore tools used for managing files and folders
+  description: "Explore tools used for managing files and folders"
+  ms.date: 03/11/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/2-explore-tools-used-managing-files-folders.md)]

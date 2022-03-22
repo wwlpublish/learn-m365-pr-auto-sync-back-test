@@ -18,8 +18,9 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - [Node.js](https://nodejs.org/) - v12.\* (or higher)
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
+- [Gulp-cli](https://gulpjs.com/) - v2.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.2.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0 (or higher)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
 
@@ -109,7 +110,7 @@ Next, select **Add a scope** to add a new permission for the app. Create a new s
 
 The last step is to preauthorize the Microsoft Teams clients that the app's API will trust. This means users won't be asked to consent to specific permissions, or scopes, exposed by the API.
 
-Add the following client applications by selecting the **Add a client application** link. For each, select the **api://REPLACE.ngrok.io/<app-id>/access_as_user** scope you previously created:
+Add the following client applications by selecting the **Add a client application** link. For each, select the **api://REPLACE.ngrok.io/\<app-id>/access_as_user** scope you previously created:
 
 - `1fec8e78-bce4-4aaf-ab1b-5451cc387264`
   - *Microsoft Teams mobile & desktop clients*
@@ -134,7 +135,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: MSGraph Playground
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.9
+- **Which manifest version would you like to use?**: v1.11
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A Tab
 - **The URL where you will host this solution?**: `https://REPLACE.ngrok.io`
