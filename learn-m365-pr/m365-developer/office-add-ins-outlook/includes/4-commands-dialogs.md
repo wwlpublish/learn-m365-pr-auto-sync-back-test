@@ -24,27 +24,27 @@ The `ExecuteFunction` action allows an add-in command to execute some script in 
 
 Let's explore how the different elements in the add-in manifest map to the rendered elements in the Outlook user experience.
 
-The following image contains an image of an Office client application on the left and a condensed version of an add-in manifest file on the right:
+The following image contains a screenshot of an Office client application on the left and a condensed version of an add-in manifest file on the right:
 
-![Add-in manifest and an Office application.](../media/04-manifest-01.png)
+![Screenshot of an Office application next to an add-in manifest excerpt.](../media/04-manifest-01.png)
 
 The manifest starts with the `ExtensionPoint` element that contains all customizations defined for the Office ribbon:
 
-![Add-in manifest and an Office application with ExtensionPoint element highlighted.](../media/04-manifest-02.png)
+![Screenshot of an Office application next to an add-in manifest excerpt with extension point highlighted.](../media/04-manifest-02.png)
 
 The entire contents of the `ExtensionPoint` element define the custom tab in the ribbon and all buttons in the tab:
 
-![Add-in manifest and an Office application with CustomTab element highlighted.](../media/04-manifest-03.png)
+![Screenshot of an Office application next to an add-in manifest excerpt with custom tab highlighted in both.](../media/04-manifest-03.png)
 
 Each button in the ribbon is defined using a `Control` element. A control can be different types, defined in the `xsi:type` property. All the controls in this ribbon are buttons:
 
-![Add-in manifest and an Office application with Control element highlighted.](../media/04-manifest-04.png)
+![Screenshot of an Office application next to an add-in manifest excerpt with custom tabs highlighted and numbered in both.](../media/04-manifest-04.png)
 
 Within a control, developers can define *actions* or *items*. An `Action` element is used to do an action, such as showing a task pane or executing a custom function.
 
 The `Items` collection allows developers to add more menu items to the ribbon button as shown in the following image. Notice each sub menu item also has a `Action` element as well:
 
-![Add-in manifest and an Office application with Item elements highlighted.](../media/04-manifest-05.png)
+![Screenshot of an Office application next to an add-in manifest with Item elements highlighted and numbered in both.](../media/04-manifest-05.png)
 
 ### ExecuteFunction add-in command
 
