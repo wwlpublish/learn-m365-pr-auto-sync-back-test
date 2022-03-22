@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-application-troubleshooting.resolve-desktop-app-deployment-issues
+title: Resolve desktop app deployment issues
+metadata:
+  title: Resolve desktop app deployment issues
+  description: "Resolve desktop app deployment issues"
+  ms.date: 03/22/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/3-resolve-desktop-app-deployment-issues.md)]

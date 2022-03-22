@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-application-troubleshooting.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/22/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/9-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Your organization deployed a new sales desktop app a month ago. A few users are experiencing issues starting this app. What method should you try first to resolve the issue for these users?"
+    choices:
+    - content: "Reinstall the application"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the first thing you should try to resolve the issue. Try again."
+    - content: "Reconfigure the application"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the first thing you should try to resolve the issue. Try again."
+    - content: "Repair the application"
+      isCorrect: true
+      explanation: "Correct. If a desktop app is experiencing errors or is unable to start, repairing the application might resolve the issue. Repairing an application updates the application files to the correct version, and rewrites the required computer-specific registry entries. It does not affect user-specific registry entries. If an application repair doesn't resolve the problem, then try reinstalling the application."
+  - content: "As the Desktop Administrator for Contoso, Holly Dickson is planning a new operating system deployment to ensure that all applications function properly. Holly wants to perform an inventory of applications, analyze compatibility of applications, and mitigate any compatibility issues. Which tool should Holly use to complete these tasks?"
+    choices:
+    - content: "Apps troubleshooter"
+      isCorrect: false
+      explanation: "Incorrect. The Apps troubleshooter is a tool organizations run when they have problems with an application, or when the Microsoft Store doesn't open. Try again."
+    - content: "Upgrade Analytics"
+      isCorrect: false
+      explanation: "Incorrect. Upgrade Analytics collects data that is necessary to detect any potential compatibility issues and provides recommendations regarding their resolution. Try again."
+    - content: "Application Compatibility Toolkit"
+      isCorrect: true
+      explanation: "Correct. The Application Compatibility Toolkit (ACT) is a set of tools that you can use to perform an inventory of applications, analyze compatibility of applications, and mitigate any compatibility issues. Organizations typically use ACT when planning a new operating system deployment to ensure that all applications function properly."
+  - content: "A user at Northwind Traders is receiving a “product deactivated” message when they try to use Microsoft 365 applications. What type of issue does this message indicate?"
+    choices:
+    - content: "An activation issue"
+      isCorrect: true
+      explanation: "Correct. Activation of Microsoft 365 usually occurs during installation. To remain activated, Microsoft 365 connects to the Internet at least once every 30 days. Office goes into reduced functionality mode when there is an activation issue. In this mode, most commands are unavailable and users see “product deactivated” messages when they try to use Microsoft 365 applications. The user should try to reactivate Microsoft 365 from one of the Office applications or access the Microsoft 365 portal to manage Microsoft 365 installations."
+    - content: "An update issue"
+      isCorrect: false
+      explanation: "Incorrect. This message doesn't indicate an update issue. Try again."
+    - content: "A connectivity issue"
+      isCorrect: false
+      explanation: "Incorrect. This message doesn't indicate a connectivity issue. Try again."
+  - content: "Which feature of the Application Compatibility Toolkit monitors an application’s installation process and identifies issues that relate to installation?"
+    choices:
+    - content: "The Setup Analysis Tool (SAT)"
+      isCorrect: true
+      explanation: "Correct. This tool monitors an application’s installation process and identifies issues that relate to installation."
+    - content: "The Update Compatibility Evaluator (UCE)"
+      isCorrect: false
+      explanation: "Incorrect. This tool identifies any issues that relate to implementing new Windows operating system updates. Try again."
+    - content: "The Compatibility Administrator Tool"
+      isCorrect: false
+      explanation: "Incorrect. This tool provides compatibility fixes (previously known as shims) that enable earlier application versions to run on newer Windows operating systems. Try again."
+  - content: "You are troubleshooting a Windows 10 computer in which the Windows Store app can't connect to the store. You ran the Apps troubleshooter but still experience the issue. What should you try next?"
+    choices:
+    - content: "Clear Microsoft Store cache"
+      isCorrect: true
+      explanation: "Correct. If the Microsoft Store app will not start or the Microsoft Store app cannot connect to the store, clearing the Microsoft Store cache might resolve this issue. You can reset the Microsoft Store cache by typing WSReset.exe in a command prompt."
+    - content: "Reconfigure the AppLocker rules"
+      isCorrect: false
+      explanation: "Incorrect. You should try this step when AppLocker blocks the installation and execution of certain Universal Windows apps. That's not the problem in this scenario. Try again."
+    - content: "Configure Windows Firewall rules"
+      isCorrect: false
+      explanation: "Incorrect. You should try this step when Windows Firewall blocks some universal apps. That's not the problem in this scenario. Try again."

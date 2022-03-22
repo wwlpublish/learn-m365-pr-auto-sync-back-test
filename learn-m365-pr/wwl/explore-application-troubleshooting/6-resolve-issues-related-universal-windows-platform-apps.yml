@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-application-troubleshooting.resolve-issues-related-universal-windows-platform-apps
+title: Resolve issues related to Universal Windows Platform apps
+metadata:
+  title: Resolve issues related to Universal Windows Platform apps
+  description: "Resolve issues related to Universal Windows Platform apps"
+  ms.date: 03/22/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-resolve-issues-related-universal-windows-platform-apps.md)]

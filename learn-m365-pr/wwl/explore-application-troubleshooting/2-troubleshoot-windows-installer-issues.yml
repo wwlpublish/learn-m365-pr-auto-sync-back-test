@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-application-troubleshooting.troubleshoot-windows-installer-issues
+title: Troubleshoot Windows Installer issues
+metadata:
+  title: Troubleshoot Windows Installer issues
+  description: "Troubleshoot Windows Installer issues"
+  ms.date: 03/22/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/2-troubleshoot-windows-installer-issues.md)]
