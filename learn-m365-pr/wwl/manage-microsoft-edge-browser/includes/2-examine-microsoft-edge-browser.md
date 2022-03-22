@@ -1,6 +1,6 @@
 The Microsoft Edge browser is a cross-platform browser that is available for Windows. Microsoft Edge replaces the older Internet Explorer browser that previously shipped with Windows. Microsoft Edge is a modern browser with an interface that is more simple and intuitive to use, increases performance, and provides options that users can configure with touch on or off.
 
-:::image type="content" source="../media/edge-menu-open-4bad1daf.png" alt-text="Screenshot showing Edge with the options menu open." lightbox="../media/edge-menu-open-4bad1daf.png":::
+:::image type="content" source="../media/edge-menu-open-4bad1daf.png" alt-text="Screenshot showing Edge with the options menu open.":::
 
 
 Microsoft Edge has many features that allow you to be more productive when browsing websites. These features can improve reading speed, accomplish actions quicker, and help to browse websites more easily. Below are some of the highlights of features in Microsoft Edge.
@@ -72,7 +72,7 @@ Microsoft Edge provides additional configuration options in the Settings and mor
  -  **Find on page**. This is a text box in which you can enter text to search for, on the open webpage.
  -  **Print**. This allows you to print your webpage.
  -  **Extensions**. This shows the installed extensions, and includes a link to Microsoft Edge Add-ons for installing additional extensions.
- -  **Help and feedback** &gt; **What's new and tips**. This opens the Microsoft Edge Tips page where you can learn how to use Microsoft Edge more efficiently.
+ -  **Help and feedback** > **What's new and tips**. This opens the Microsoft Edge Tips page where you can learn how to use Microsoft Edge more efficiently.
  -  **Settings**. Some of the settings you can configure in Microsoft Edge are:
     
      -  **Appearance**. This allows you to choose between light and dark themes, show favorites bar, collections, feedback button, and setting the Home button.

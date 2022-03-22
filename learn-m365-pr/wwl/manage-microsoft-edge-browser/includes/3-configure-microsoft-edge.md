@@ -24,8 +24,8 @@ Microsoft Edge supports both *mandatory* and *recommended* policies. Mandatory p
 
 You can set mandatory or recommended policies to configure Microsoft Edge with the Group Policy Editor for both Active Directory and individual computers. You can scope policy settings to either the Computer Configuration or User Configuration by selecting the appropriate node as described below.
 
- -  To configure a mandatory policy, open the Group Policy Editor and go to (Computer Configuration or User Configuration) &gt; Policies &gt; Administrative Templates &gt; Microsoft Edge.
- -  To configure a recommended policy, open the Group Policy Editor and go to (Computer Configuration or User Configuration) &gt; Policies &gt; Administrative Templates &gt; Microsoft Edge – Default Settings (users can override).
+ -  To configure a mandatory policy, open the Group Policy Editor and go to (Computer Configuration or User Configuration) > Policies > Administrative Templates > Microsoft Edge.
+ -  To configure a recommended policy, open the Group Policy Editor and go to (Computer Configuration or User Configuration) > Policies > Administrative Templates > Microsoft Edge – Default Settings (users can override).
 
 ### Verifying applied policies
 

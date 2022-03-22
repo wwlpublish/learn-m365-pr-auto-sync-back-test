@@ -9,7 +9,7 @@ Internet Explorer (IE) mode was designed for organizations that still need Inter
 
 IE Mode uses the integrated Chromium engine for modern sites, and it uses the Trident MSHTML engine from Internet Explorer 11 (IE11) for legacy sites. When a site loads in IE mode, the IE logo indicator displays on the left side of navigation bar. You can select the IE logo indicator to display additional information.
 
-:::image type="content" source="../media/edge-ie-mode-logo-932e1581.png" alt-text="Microsoft Edge URL bar showing the IE logo indicating Edge is in IE mode." lightbox="../media/edge-ie-mode-logo-932e1581.png":::
+:::image type="content" source="../media/edge-ie-mode-logo-932e1581.png" alt-text="Microsoft Edge URL bar showing the IE logo indicating Edge is in IE mode.":::
 
 
 When browsing websites that use legacy IE capabilities, Microsoft Edge will not necessarily switch to IE Mode automatically. Users can manually switch to IE Mode when browsing a site that contains legacy code. Alternatively, you can configure known sites (via policy) to use IE mode. When a user navigates to a known site, the browser will automatically switch to IE Mode, while all other sites will be rendered as modern web sites.
@@ -43,7 +43,7 @@ Once the list is created, it must be deployed using a policy. When using IE Mode
 
 1.  Download and use the latest Microsoft Edge Policy Template.
 2.  Open Group Policy Editor.
-3.  Select User Configuration/Computer Configuration &gt; Administrative Templates &gt; Microsoft Edge.
+3.  Select User Configuration/Computer Configuration > Administrative Templates > Microsoft Edge.
 4.  Double-click **Configure Internet Explorer integration.**
 5.  Select **Enabled**.
 6.  Under Options, set the dropdown value to:
