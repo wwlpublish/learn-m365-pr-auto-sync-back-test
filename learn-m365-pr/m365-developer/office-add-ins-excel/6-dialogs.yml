@@ -3,7 +3,7 @@ uid: learn-m365.office-add-ins-excel.6-dialogs
 metadata:
   title: Work with dialogs
   description: In this unit, you'll learn how to incorporate dialogs in Excel workbooks. You'll learn how to open dialogs and how to submit and retrieve inputs and outputs for the dialog.
-  ms.date: 09/06/2021
+  ms.date: 03/01/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

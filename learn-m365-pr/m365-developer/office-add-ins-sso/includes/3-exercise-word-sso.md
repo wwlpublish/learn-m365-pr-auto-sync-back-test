@@ -71,7 +71,7 @@ From the command prompt, ensure you're currently in the root folder of the proje
 npm run configure-sso
 ```
 
-The command will launch a browser and prompt you to log in to Azure AD. Ensure you log in as a user that has permissions to register an Azure AD application, such as a user assigned to the **Global Administrator** role.
+The command will launch a browser and prompt you to sign in to Azure AD. Ensure you sign in as a user that has permissions to register an Azure AD application, such as a user assigned to the **Global Administrator** role.
 
 After authenticating, the script will perform the following tasks:
 
