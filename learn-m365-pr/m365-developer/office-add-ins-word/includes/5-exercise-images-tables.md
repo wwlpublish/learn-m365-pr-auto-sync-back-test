@@ -274,7 +274,7 @@ function insertTextIntoRange() {
 ### Test the add-in
 
 1. Repeat the steps from the previous exercise to sideload the add-in.
-1. If the add-in task pane isn't already open in Word, go to the **Home** tab and select the **Show Task pane** button in the ribbon to open it.
+1. If the add-in task pane isn't already open in Word, go to the **Home** tab and select the **Show Taskpane** button in the ribbon to open it.
 1. In the task pane, select the **Insert Paragraph** button to ensure that there's a paragraph at the start of the document.
 1. Within the document, select the phrase "Click-to-Run". *Be careful not to include the preceding space or following comma in the selection.*
 1. Select the **Insert Abbreviation** button. Note that " (C2R)" is added. Note also that at the bottom of the document a new paragraph is added with the entire expanded text because the new string was added to the existing range.
@@ -283,7 +283,7 @@ function insertTextIntoRange() {
 1. Within the document, select the word "several". *Be careful not to include the preceding or following space in the selection.*
 1. Select the **Change Quantity Term** button. Note that "many" replaces the selected text.
 
-![Word tutorial - Text Added and Replaced](../media/05-word-tutorial-text-replace-2.png)
+![Screenshot of text added and replaced by tutorial in Word.](../media/05-word-tutorial-text-replace-2.png)
 
 ## Insert images, HTML, and tables
 
@@ -476,13 +476,13 @@ Complete the following steps to define the image that you'll insert into the doc
 ### Test the add-in
 
 1. Repeat the steps from the previous exercise to sideload the add-in.
-1. If the add-in task pane isn't already open in Word, go to the **Home** tab and select the **Show Task pane** button in the ribbon to open it.
+1. If the add-in task pane isn't already open in Word, go to the **Home** tab and select the **Show Taskpane** button in the ribbon to open it.
 1. In the task pane, select the **Insert Paragraph** button at least three times to ensure that there are a few paragraphs in the document.
 1. Select the **Insert Image** button and note that an image is inserted at the end of the document.
 1. Select the **Insert HTML** button and note that two paragraphs are inserted at the end of the document, and that the first one has Verdana font.
 1. Select the **Insert Table** button and note that a table is inserted after the second paragraph.
 
-![Word tutorial - Insert Image, HTML, and Table](../media/05-word-tutorial-insert-image-html-table-2.png)
+![Screenshot of an image, HTML, and a table inserted by tutorial in Word.](../media/05-word-tutorial-insert-image-html-table-2.png)
 
 ## Summary
 

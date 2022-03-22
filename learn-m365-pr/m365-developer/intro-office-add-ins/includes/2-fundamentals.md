@@ -11,7 +11,7 @@ Office Add-ins provide several options for how your solution can interact with a
 
 Task pane add-ins allow user interaction through a panel displayed within an Office application. Through the task pane interface, you can enable the user to modify documents or emails, view data from a data source, and more. In the following image, the task pane is the panel that's displayed to the right of the document.
 
-![Task pane add-in on the right side in the Office application window.](../media/02-about-add-ins-task-pane.png)
+![Representation of task pane add-in shown on the right side in the Office application window.](../media/02-about-add-ins-task-pane.png)
 
 _Task pane add-in displayed within an Office application_
 
@@ -45,7 +45,7 @@ To configure an add-in for Outlook, set the `xsi:type` attribute to `MailApp` wi
 
 Content add-ins can be used to insert an object into an Excel spreadsheet or PowerPoint presentation. That object can be a web-based data visualization, media, or other external content. In the following image, the content add-in is displayed near the center of the document.
 
-![Content add-in in the middle of the Office application window.](../media/02-about-add-ins-content-add-in.png)
+![Representation of content add-in shown in the middle of the Office application window.](../media/02-about-add-ins-content-add-in.png)
 
 _Content add-in loaded within an Office application_
 
@@ -71,7 +71,7 @@ The Office Add-ins platform enables you to display a dialog for your users to:
 
 The dialog window isn't modal, meaning that your user can continue to interact with the Office application and your add-in while the dialog window is displayed. The following image shows a dialog being displayed in an Office application.
 
-![Dialog displayed in the Office application window.](../media/02-overview-with-app-dialog.png)
+![Illustration showing dialog displayed in the Office application window.](../media/02-overview-with-app-dialog.png)
 
 _Dialog displayed in an Office application_
 
@@ -81,7 +81,7 @@ Office Add-ins enable you to create custom JavaScript or TypeScript functions th
 
 The following image shows a custom function called `SPHEREVOLUME` being entered in Excel.
 
-![Custom function being entered in Excel.](../media/02-sphere-volume.gif)
+![Animated image showing custom function being entered in Excel.](../media/02-sphere-volume.gif)
 
 _Custom function being entered in Excel_
 
@@ -154,7 +154,7 @@ An add-in command can also open a submenu with more commands.
 
 The following image shows three add-in commands (custom buttons) added to the **Data** tab of the Excel ribbon.
 
-![Add-in commands in Excel.](../media/02-add-in-commands.png)
+![Screenshot of add-in commands in Excel.](../media/02-add-in-commands.png)
 
 _Add-in commands in Excel on Windows_
 
@@ -175,7 +175,7 @@ An add-in command can also open a submenu with more commands.
 
 The following images show three add-in commands (custom buttons) added to the ribbon in Outlook. In the first image, the buttons are rendered in a regular state; in the second image, the buttons are rendered in a collapsed state.
 
-![Add-in commands in Outlook.](../media/02-commands-normal-collapsed.png)
+![Screenshot of add-in commands in Outlook.](../media/02-commands-normal-collapsed.png)
 
 _Add-in commands in Outlook on Windows_
 

@@ -29,7 +29,7 @@ Both **Implicit grand and hybrid flow** token options should be enabled because 
 - Access tokens (used for implicit flows)
 - ID tokens (used for implicit and hybrid flows)
 
-![App authentication settings.](../media/07-azure-ad-app-authentication.png)
+![Screenshot of app authentication settings.](../media/07-azure-ad-app-authentication.png)
 
 ### API permissions
 
@@ -41,7 +41,7 @@ If your add-in needs any permissions for Microsoft Graph, they should also be ad
 
 While not required, when registering the app, as the administrator you can pre-consent on behalf of all users in your tenant these permissions. This simplifies the authentication flow so users won't have to consent to the add-in when they first use it.
 
-![Added permissions.](../media/07-azure-ad-app-permissions-01.png)
+![Screenshot of the added permissions.](../media/07-azure-ad-app-permissions-01.png)
 
 ### Expose an API
 
@@ -62,7 +62,7 @@ Each Office client type is represented by a unique ID. Make sure you include all
 - `bc59ab01-8403-45c6-8796-ac3ef710b3e3` (*Outlook on the web*)
 - `93d53678-613d-4013-afc1-62e9e444a0a5` (*Office on the web*)
 
-![ID and authorized clients who can access the add-in's API.](../media/07-azure-ad-expose-api.png)
+![Screenshot showing ID and authorized clients who can access the add-in's API.](../media/07-azure-ad-expose-api.png)
 
 > [!IMPORTANT]
 > The last service listed above, `93d53678-613d-4013-afc1-62e9e444a0a5`, is a new SSO service [introduced January 2022](https://devblogs.microsoft.com/microsoft365dev/new-single-sign-on-service-for-office-add-ins-rolling-out-in-office-on-the-web/).

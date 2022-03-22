@@ -10,13 +10,13 @@ Developers customize pages in SharePoint Server and SharePoint online using the 
 
 Office clients, such as Word, Excel, PowerPoint, OneNote, and Outlook can also be extended to implement custom task panes, actions, and other customizations using add-ins.
 
-![Overview of the Microsoft 365 Platform.](../media/02-office-365-platform.png)
+![Overview diagram of the Microsoft 365 Platform.](../media/02-office-365-platform.png)
 
 ## Anatomy of Office.js add-in for Microsoft Excel
 
 We'll start by looking at an anatomy of an Office.js for Microsoft Excel:
 
-![Anatomy of an Office.js add-in.](../media/02-office-js-anatomy.png)
+![Outline of the anatomy of an Office.js add-in.](../media/02-office-js-anatomy.png)
 
 - All Office Add-ins must call off the `Office.initialize()` method when a page first loads the add-in.
 - If you're using a newer Office.js capability in your add-in, it's important to check if the client supports those extensions using the `requirements` API.
@@ -34,7 +34,7 @@ Excel add-in developers should understand an Excel workbook's hierarchy and how 
 
 Office.js provides context to an Excel workbook through `Excel.run()` and the `context.workbook` property.
 
-![Excel object hierarchy.](../media/02-excel-object-hierarchy.png)
+![Diagram showing Excel object hierarchy.](../media/02-excel-object-hierarchy.png)
 
 The workbook contains worksheets that contain many collections. These collections include things such as charts, tables, and pivotTables.
 
@@ -52,7 +52,7 @@ Office.js also offers many worksheet events such as `onActivated`, `onDeactivate
 
 Tables are at the heart of a spreadsheet. Excel supports defining a range of data that is the foundation of a table of data.
 
-![Excel workbook example.](../media/02-excel-workbook-01.png)
+![Screenshot of Excel workbook example.](../media/02-excel-workbook-01.png)
 
 ### Ranges
 
@@ -149,7 +149,7 @@ The following code snippets demonstrate working examples of working text and par
 
 Any column in a table can be filtered using Office.js.
 
-![Excel with a table of data.](../media/02-excel-workbook-01.png)
+![Screenshot of Excel with a table of data.](../media/02-excel-workbook-01.png)
 
 Filter a column by first getting a reference ot the column and then use the `applyValuesFilter()` method to filter on specific values.
 
@@ -202,7 +202,7 @@ Microsoft Excel has become a playground for data manipulation and visualization.
 
 Charts exist within worksheets, but can also be accessed directly from the workbook object.
 
-![Excel workbook with a chart.](../media/02-excel-workbook-02.png)
+![Screenshot of Excel workbook with a chart.](../media/02-excel-workbook-02.png)
 
 Charts have many complex relational properties that can be used to fine-tune the look of a chart. These include titles, legends, axes, series, labels, and format.
 

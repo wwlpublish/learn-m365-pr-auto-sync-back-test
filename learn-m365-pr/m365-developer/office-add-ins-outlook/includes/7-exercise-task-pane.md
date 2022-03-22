@@ -409,7 +409,7 @@ Save all of your changes and run **npm run dev-server** from the command prompt,
 
 1. In the task pane, select the **Hello World Html** gist and select **Insert** to insert that gist into the body of the message.
 
-![Add-in task pane.](../media/07-add-in-taskpane.png)
+![Screenshot of the message compose window and add-in task pane.](../media/07-add-in-taskpane.png)
 
 ## Summary
 
