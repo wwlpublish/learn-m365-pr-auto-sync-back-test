@@ -3,7 +3,7 @@ uid: learn.wwl.update-windows-clients
 metadata:
   title: Update Windows clients
   description: "This module describes the various methods for applying updates to Windows and explains how to configure Windows update in an organization."
-  ms.date: 03/14/2022
+  ms.date: 03/22/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
