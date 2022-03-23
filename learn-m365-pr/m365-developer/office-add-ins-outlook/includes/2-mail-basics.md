@@ -10,7 +10,7 @@ Developers customize pages in SharePoint Server and SharePoint online using the 
 
 Office clients, such as Word, Excel, PowerPoint, OneNote, and Outlook can also be extended to implement custom task panes, actions, and more customizations using add-ins.
 
-![Overview of the Microsoft 365 Platform.](../media/02-office-365-platform.png)
+![Overview diagram of the Microsoft 365 Platform.](../media/02-office-365-platform.png)
 
 ## Historical add-in challenges
 
@@ -18,7 +18,7 @@ Traditional Office Add-ins have been built using old or proprietary development 
 
 Once developers got past the development tools and built a great Office Add-in, how are people going to find it? Great Office Add-ins were hard to find as there was no centralized marketplace to find them.
 
-![Historical challenges with add-ins.](../media/02-add-in-challenges.png)
+![Illustration of historical challenges with add-ins.](../media/02-add-in-challenges.png)
 
 Assuming you can find an add-in, how do you distribute it to the rest of your organization? Traditional Office Add-ins were installed alongside Office and execute with Office, meaning you have to distribute it to each user's computer.
 
@@ -34,7 +34,7 @@ Modern Office Add-ins are just web app applications. Office clients include Offi
 
 The web applications that implement a modern Office Add-in are hosted by the developer, which results in a greatly simplified deployment, installation, and upgrade experience for end users. There's zero-client footprint on installation. In fact, when the add-in is installed in one Office client, provided the user is signed into their Microsoft 365 account, the add-in will be available in the desktop, mobile, and web Office client applications.
 
-![Add-in structure.](../media/02-modern-add-in-value-proposition.png)
+![Illustration of add-in structure.](../media/02-modern-add-in-value-proposition.png)
 
 A single XML manifest file is used to define the requirements, limitations, and metadata about the add-in. This manifest file is used by Office to determine integration points such as the type of add-in, buttons to add to the ribbon, the location of the web application, and other metadata including the title and description of the add-in.
 
@@ -48,7 +48,7 @@ Let's now look at the various types of mail add-ins developers can create for Ou
 
 Start specific add-in actions from the ribbon by adding buttons or drop-down menus.
 
-![Add-in types.](../media/02-add-in-types.png)
+![Screenshot of Outlook displaying an example add-in menu and buttons.](../media/02-add-in-types.png)
 
 Custom buttons in the Office ribbon, called add-in commands, can launch a task pane add-in with context to the selected message. These task panes can also be pinned to stay open.
 
@@ -58,19 +58,19 @@ Add-in commands can execute a JavaScript function for scenarios where the user d
 
 Outlook add-ins can be activated in the message compose forms to help author a message, meeting request, or appointment.
 
-![Example of a message compose add-in.](../media/02-message-compose.png)
+![Screenshot of an example message compose add-in.](../media/02-message-compose.png)
 
 ### Contextual add-ins
 
 Contextual add-ins are Outlook add-ins that activate based on text in a message or appointment that matches a known type or regular expression. Known types can include meeting time suggestions or physical addresses.
 
-![Example of a contextual add-in.](../media/02-contextual-add-in.png)
+![Screenshot of an example contextual add-in.](../media/02-contextual-add-in.png)
 
 ### Module extension add-ins
 
 Module extension add-ins appear in the Outlook navigation bar alongside mail, tasks, and calendars allowing you to embed almost any applications inside Outlook.
 
-![Example of a module extension add-in.](../media/02-module-extension.png)
+![Screenshot of an example module extension add-in.](../media/02-module-extension.png)
 
 ### On send add-ins
 

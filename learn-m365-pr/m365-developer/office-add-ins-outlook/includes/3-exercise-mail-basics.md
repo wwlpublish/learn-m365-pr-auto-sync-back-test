@@ -83,7 +83,7 @@ The add-in that you'll create in this tutorial will read [gists](https://gist.gi
     - **What do you want to name your add-in?** - Git the gist
     - **Which Office client application would you like to support?** - Outlook
 
-    ![Prompts and answers for the Yeoman generator.](../media/03-yeoman-prompts-2.png)
+    ![Screenshot of the prompts and answers for the Yeoman generator.](../media/03-yeoman-prompts-2.png)
 
     After you complete the wizard, the generator will create the project and install supporting Node components.
 
@@ -145,7 +145,7 @@ Before going any further, let's test the basic add-in that the generator created
 
 1. In Outlook, open an existing message, and select the **Show Taskpane** button. If set up correctly, the task pane will open and render the add-in's welcome page.
 
-![Button and task pane added by the sample.](../media/03-button-and-pane.png)
+![Screenshot of button and task pane added by the sample.](../media/03-button-and-pane.png)
 
 ## Summary
 

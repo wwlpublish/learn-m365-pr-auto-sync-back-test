@@ -35,7 +35,7 @@ When prompted, provide the following information to create your add-in project:
 - **What do you want to name your add-in?** My Office Add-in
 - **Which Office client application would you like to support?** Word
 
-![A screenshot of the prompts and answers for the Yeoman generator](../media/03-yo-office-word.png)
+![Screenshot of the prompts and answers for the Yeoman generator.](../media/03-yo-office-word.png)
 
 After you complete the wizard, the generator creates the project and installs supporting Node components.
 
@@ -148,15 +148,15 @@ In this section, you'll programmatically test that your add-in supports the user
 
         To use your add-in, open a new document in Word on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
-1. In Word, select the **Home** tab, and then select the **Show Task pane** button in the ribbon to open the add-in task pane.
+1. In Word, select the **Home** tab, and then select the **Show Taskpane** button in the ribbon to open the add-in task pane.
 
-    ![Screenshot of the Word application with the Show Task pane button highlighted](../media/03-word-quickstart-add-in-2b.png)
+    ![Screenshot of the Word application with the Show Taskpane button highlighted.](../media/03-word-quickstart-add-in-2b.png)
 
 1. In the task pane, select **Insert Paragraph**.
 1. Make a change in the paragraph.
 1. Select the **Insert Paragraph** button again. The new paragraph appears above the previous one because the `insertParagraph*()` method is inserting at the start of the document's body.
 
-    ![Word tutorial - Insert Paragraph](../media/03-word-tutorial-insert-paragraph-2.png)
+    ![Screenshot of paragraph inserted by tutorial in Word.](../media/03-word-tutorial-insert-paragraph-2.png)
 
 ## Format text
 
@@ -332,14 +332,14 @@ In this section, you'll apply a built-in style to text, apply a custom style to 
 
         To use your add-in, open a new document in Word on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
-1. If the add-in task pane isn't already open in Word, go to the **Home** tab and select **Show Task pane**.
+1. If the add-in task pane isn't already open in Word, go to the **Home** tab and select **Show Taskpane**.
 1. Be sure there are at least three paragraphs in the document. You can select the **Insert Paragraph** button three times. *Check carefully that there's no blank paragraph at the end of the document. If there is, delete it.*
 1. In Word, create a [custom style](https://support.office.com/article/Customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563) named **MyCustomStyle**. It can have any formatting that you want.
 1. Select the **Apply Style** button. The first paragraph will be styled with the built-in style **Intense Reference**.
 1. Select the **Apply Custom Style** button. The last paragraph will be styled with your custom style. (If nothing seems to happen, the last paragraph might be blank. If so, add some text to it.)
 1. Select the **Change Font** button. The font of the second paragraph changes to 18 pt., bold, Courier New.
 
-    ![Word tutorial - Apply Styles and Font](../media/03-word-tutorial-apply-styles-and-font-2.png)
+    ![Screenshot of styles applied and font changed by tutorial in Word.](../media/03-word-tutorial-apply-styles-and-font-2.png)
 
 ## Summary
 

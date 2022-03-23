@@ -4,7 +4,7 @@ In this unit, you'll learn how you can use task panes in Outlook add-ins and how
 
 By default, if a user has an add-in task pane open for a message in the Reading Pane, and then selects a new message, the task pane is automatically closed. Pinning allows the task pane to stay activated.
 
-![Example of a pinnable task pane.](../media/06-pinnable-task-pane.png)
+![Screenshot of an example pinnable task pane.](../media/06-pinnable-task-pane.png)
 
 Pinnable task panes ideal for heavily used add-ins. In these cases, the user may prefer to keep that pane open, eliminating the need to reactivate the add-in on each message
 
