@@ -35,7 +35,7 @@ quiz:
       explanation: "That isn't right. This built-in schema will only provide you with information on the columns in the table."
     - content: "Action types"
       isCorrect: false
-      explanation: "Not quite. This built-in schema only returns values if the table contains an ActionType column, and provides the event types supported by the table."
+      explanation: "Not quite. This built-in schema only returns values if the table contains an `ActionType`` column, and provides the event types supported by the table."
   - content: "When using a custom detection rule, what is the quota limit applied to every query result set?"
     choices:
     - content: "1,000 rows"

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-advanced-protection-methods.understand-microsoft-defender-endpoint
+title: Understand Microsoft Defender for Endpoint
+metadata:
+  title: Understand Microsoft Defender for Endpoint
+  description: "Understand Microsoft Defender for Endpoint"
+  ms.date: 03/11/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-understand-microsoft-defender-endpoint.md)]

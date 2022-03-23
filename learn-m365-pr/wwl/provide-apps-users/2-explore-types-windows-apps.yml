@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.provide-apps-users.explore-types-windows-apps
+title: Explore types of Windows apps
+metadata:
+  title: Explore types of Windows apps
+  description: "Explore types of Windows apps"
+  ms.date: 03/11/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-explore-types-windows-apps.md)]

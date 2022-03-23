@@ -20,7 +20,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: My First Teams Connector
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: (Accept the default option)
+- **Which manifest version would you like to use?**: 1.11
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A Connector
 - **The URL where you will host this solution?**: (Accept the default option)
@@ -82,7 +82,7 @@ setColor(availableColors.find(c => c.code === context.entityId));
 The `find()` method needs to be replaced with a `filter()` method. Update this to the following:
 
 ```typescript
-setColor(availableColors.filter(c => c.code === context.entityId)[0]),
+setColor(availableColors.filter(c => c.code === context.entityId)[0]);
 ```
 
 The important part of this component to take note of is in the call to the `microsoftTeams.settings.registerOnSaveHandler()` handler that is called when the user selects the **Save**  button on the config page. Selecting **Save** will save the configuration of the Connector in Microsoft Teams and notify the Connector's web service that it has been added to a team.
@@ -192,11 +192,11 @@ Select a team, select the action menu on the team and select **Manage team**:
 
 ![Screenshot of the team's action menu](../media/07-test-setup-app-01.png)
 
-Select the **Apps** tab and then the **More apps** button:
+Select the **Apps** tab and then **Upload a custom app** button:
 
 ![Screenshot of the Manage team page](../media/07-test-setup-app-02.png)
 
-From the **Browse available apps and services**, select the **Upload a custom app > Upload for me or my teams** at the bottom of the **Apps** panel of categories. Select the Microsoft Teams app package, the **MyFirstTeamsConnector.zip** file in the **./package** folder of your project.
+Select the Microsoft Teams app package, the **MyFirstTeamsConnector.zip** file in the **./package** folder of your project.
 
 > [!NOTE]
 > If the **./package** folder is not present, this means you are affected by a bug in the yoteams-deploy package. To resolve the issue:
@@ -204,7 +204,7 @@ From the **Browse available apps and services**, select the **Upload a custom ap
 > - Install the preview version of the **yoteams-deploy** package using the command `npm install yoteams-deploy@preview`
 > - Restart the server process: `gulp ngrok-serve`
 
-After uploading the app, select the **Add to a team** button and enter the team...
+After uploading the app, select the **Add** button and enter the team...
 
 ![Screenshot of the app details](../media/07-test-setup-app-04.png)
 
