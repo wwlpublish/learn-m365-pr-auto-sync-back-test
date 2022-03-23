@@ -2,32 +2,18 @@ The following table provides an overview of the Enterprise Mobility + Security c
 
 :::row:::
   :::column:::
-    
-
-**Service**
-
-
+    **Service**
   :::column-end:::
   :::column:::
-    
-
-**Description**
-
-
+    **Description**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-[Microsoft Azure Active Directory](/azure/active-directory/active-directory-whatis)
-
-
+    [Microsoft Azure Active Directory](/azure/active-directory/active-directory-whatis?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-Azure Active Directory (Azure AD) provides a full suite of identity management capabilities, including:
+    Azure Active Directory (Azure AD) provides a full suite of identity management capabilities, including:
 
  -  multifactor authentication
  -  device registration
@@ -52,85 +38,51 @@ Azure AD includes the following premium editions:
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-[Azure AD Identity Protection](/azure/active-directory/active-directory-identityprotection)
-
-
+    [Azure AD Identity Protection](/azure/active-directory/active-directory-identityprotection?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-This service enables organizations to detect potential vulnerabilities affecting its identities. In turn, they can respond to those vulnerabilities by configuring automated responses through Conditional Access policies to low, medium, and high sign-in risk and user risk.
-
-
+    This service enables organizations to detect potential vulnerabilities affecting its identities. In turn, they can respond to those vulnerabilities by configuring automated responses through conditional access policies to low, medium, and high sign-in risk and user risk.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-[Azure AD Privileged Identity Management](/azure/active-directory/active-directory-privileged-identity-management-configure)
-
-
+    [Azure AD Privileged Identity Management](/azure/active-directory/active-directory-privileged-identity-management-configure?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-Azure AD Privileged Identity Management enables organizations to minimize the number of people who have persistent access to privileged operations. This service introduces the concept of an eligible administrator.
-
-Eligible admins are users who need privileged access now and then, but not every day. The role is inactive until the user needs access, at which point they must complete an activation process and become an active admin for a predetermined amount of time.
-
-
+    Azure AD Privileged Identity Management enables organizations to minimize the number of people who have persistent access to privileged operations. This service introduces the concept of an eligible administrator.Eligible admins are users who need privileged access now and then, but not every day. The role is inactive until the user needs access, at which point they must complete an activation process and become an active admin for a predetermined amount of time.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-[Azure Information Protection](/information-protection/understand-explore/what-is-information-protection)
-
-
+    [Azure Information Protection](/information-protection/understand-explore/what-is-information-protection?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-Azure Information Protection (AIP) is a cloud-based solution that's delivered as part of the Mobility + Security E3 and E5 subscriptions. AIP helps organizations classify, label, and protect their documents and emails, all of which can be done:
+    Azure Information Protection (AIP) is a cloud-based solution that's delivered as part of the Mobility + Security E3 and E5 subscriptions. AIP helps organizations classify, label, and protect their documents and emails, all of which can be done:
 
  -  automatically by administrators who define rules and conditions.
  -  manually by users.
  -  or through a combination where users are given recommendations.
 
-AIP labels can apply classification to documents and emails. When using AIP labels, the classification is always identifiable despite where the data is stored or with who it’s shared.
-
-AIP policy settings are protected by [Azure Rights Management](/information-protection/understand-explore/what-is-azure-rms). Protection. This process is similar to how the labels are applied. In other words, AIP policies stay with the documents and emails independently of the location—inside or outside the organization, networks, file servers, and applications.
-
-
+AIP labels can apply classification to documents and emails. When using AIP labels, the classification is always identifiable despite where the data is stored or with who it’s shared.AIP policy settings are protected by [Azure Rights Management](/information-protection/understand-explore/what-is-azure-rms?azure-portal=true). Protection. This process is similar to how the labels are applied. In other words, AIP policies stay with the documents and emails independently of the location—inside or outside the organization, networks, file servers, and applications.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-[Microsoft Intune](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/microsoft-intune?azure-portal=true)
-
-
+    [Microsoft Intune](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/microsoft-intune?azure-portal=true)
   :::column-end:::
   :::column:::
-    
+    Intune is a cloud-based Enterprise Mobility Management (EMM) service that enables an organization’s workforce to be productive while keeping its corporate data protected. Intune integrates closely with Azure AD for identity and access control. It's also used for device and application management.[Intune's device management](/mem/intune/fundamentals/what-is-device-management?azure-portal=true) capabilities are used to configure and protect user's devices, including Windows PCs. Intune device management capabilities support the following enrollment types:
 
-Intune is a cloud-based Enterprise Mobility Management (EMM) service that enables an organization’s workforce to be productive while keeping its corporate data protected. Intune integrates closely with Azure AD for identity and access control. It's also used for device and application management.
-
-[Intune's device management](/mem/intune/fundamentals/what-is-device-management) capabilities are used to configure and protect user's devices, including Windows PCs. Intune device management capabilities support the following enrollment types:
-
- -  [Bring Your Own Device (BYOD)](/enterprise-mobility-security/solutions/enable-byod) enrollment. This enrollment type lets users enroll their personal phones, tablets, or PCs to Intune.
- -  [Corporate-owned Device (COD)](/enterprise-mobility-security/solutions/issue-corp-devices) enrollment. This enrollment type enables management scenarios like automatic enrollment, shared devices, and pre-authorized enrollment requirement configurations. For added security, organizations can even require multifactor authentication to enroll a device to Intune. Once a device is enrolled, Intune can configure device features and settings to enable secure access to company resources.
+ -  [Bring Your Own Device (BYOD)](/enterprise-mobility-security/solutions/enable-byod?azure-portal=true) enrollment. This enrollment type lets users enroll their personal phones, tablets, or PCs to Intune.
+ -  [Corporate-owned Device (COD)](/enterprise-mobility-security/solutions/issue-corp-devices?azure-portal=true) enrollment. This enrollment type enables management scenarios like automatic enrollment, shared devices, and pre-authorized enrollment requirement configurations. For added security, organizations can even require multifactor authentication to enroll a device to Intune. Once a device is enrolled, Intune can configure device features and settings to enable secure access to company resources.
 
 
   :::column-end:::
 :::row-end:::
 
 
-## Knowledge check<br>
+# 
 
-Choose the best response for the following question. Then select “Check your answers.”
+## Knowledge check
+
+Choose the best response for the following question. Then select **Check your answers**.

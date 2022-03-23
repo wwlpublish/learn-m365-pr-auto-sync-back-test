@@ -4,12 +4,13 @@ title: Review the subscription options in Microsoft 365
 metadata:
   title: Review the subscription options in Microsoft 365
   description: "Review the subscription options in Microsoft 365"
-  ms.date: 06/29/2021
+  ms.date: 03/23/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/2-review-subscription-options.md)]

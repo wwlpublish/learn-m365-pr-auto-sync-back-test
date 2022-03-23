@@ -4,12 +4,13 @@ title: Examine the components in Microsoft 365 Enterprise Mobility and Security
 metadata:
   title: Examine the components in Microsoft 365 Enterprise Mobility and Security
   description: "Examine the components in Microsoft 365 Enterprise Mobility and Security"
-  ms.date: 06/29/2021
+  ms.date: 03/23/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/3-examine-components-enterprise-mobility-security.md)]

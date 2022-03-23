@@ -4,12 +4,13 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/29/2021
+  ms.date: 03/23/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/6-knowledge-check.md)]
@@ -21,7 +22,7 @@ quiz:
     - content: "Inventory the current environment in the organization"
       isCorrect: false
       explanation: "That's incorrect. This action is the second step in the overall process for creating a tenant account for Microsoft 365. Try again."
-    - content: "Decide which Microsoft 365 plans meet your organization’s requirements"
+    - content: "Decide which Microsoft 365 plan(s) meet your organization’s requirements"
       isCorrect: true
       explanation: "That's correct. The first step in the overall process for creating a tenant account for Microsoft 365 is deciding which Microsoft 365 plans meet your organization’s requirements."
     - content: "Fix potential deployment blockers and clean up your organization"
