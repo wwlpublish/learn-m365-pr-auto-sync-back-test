@@ -38,7 +38,7 @@ When prompted, provide the following information to create your add-in project:
 - **What do you want to name your add-in?** MyExcelSsoAddin
 - **Which Office client application would you like to support?** Excel
 
-![A screenshot of the prompts and answers for the Yeoman generator](../media/05-yo-office-sso-add-in.png)
+![Screenshot of the prompts and answers for the Yeoman generator.](../media/05-yo-office-sso-add-in.png)
 
 After you complete prompts, the generator creates the project and installs supporting Node components.
 
@@ -64,7 +64,7 @@ After authenticating, the script will do the following tasks:
 1. Create a new client secret and save it to your developer workstations secret store
 1. Update the project with the Azure AD application's client ID
 
-![Screenshot of running and the output from the configure-sso script](../media/03-configure-sso.png)
+![Screenshot of output from running the configure-sso script.](../media/03-configure-sso.png)
 
 > [!WARNING]
 > The **configure-sso** command will fail if your Azure AD tenant is configured for multi-factor authentication (MFA)/two-factor authentication. In this case, you'll need manually create the Azure AD app registration as outlined in the **[Create a Node.js Office Add-in that uses single sign-on: Register the add-in with Azure AD v2.0 endpoint](/office/dev/add-ins/develop/create-sso-office-add-ins-nodejs#register-the-add-in-with-azure-ad-v20-endpoint)** article.
@@ -81,7 +81,7 @@ npm start
 
 After a moment, the Excel will load with the add-in's button in the ribbon and loaded in the task pane.
 
-![Screenshot of the add-in in Excel](../media/05-test-app-01.png)
+![Screenshot of add-in in Excel.](../media/05-test-app-01.png)
 
 To test the add-in, select the **Get my user profile information** button.
 
@@ -89,7 +89,7 @@ If you aren't already signed in with your Office client, you'll be prompted to s
 
 After signing in, the add-in will retrieve your basic profile information from Microsoft Graph and add it to the document.
 
-![Screenshot of the sign in process in Excel](../media/05-test-app-02.png)
+![Screenshot of successful test in Excel.](../media/05-test-app-02.png)
 
 ## Update the app to show recent emails
 
@@ -101,13 +101,13 @@ The registered Azure AD app must first be granted permissions to the app.
 
 Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in using a **Work or School Account** that has global administrator rights to the tenancy.
 
-In the leftmost navigation, select **Manage > API permissions**.
+In the leftmost navigation, select **Manage** > **API permissions**.
 
 Add a new permission by selecting **Add a permission**.
 
 On the **Select an API** screen, select **Microsoft Graph**, then select **Delegated permissions**. Search for and select permission **Mail.Read** and select **Add permissions**.
 
-![Screenshot of adding the Mail.Read permission](../media/05-azure-ad-add-permission-01.png)
+![Screenshot showing how to add the Mail.Read permission.](../media/05-azure-ad-add-permission-01.png)
 
 Next, select the **Grant admin consent for Contoso** followed by accepting the confirmation prompt by selecting **Yes**.
 
@@ -221,7 +221,7 @@ Open a browser and navigate to the [OneDrive (https://onedrive.com)](https://one
 
 Add a new Excel workbook by selecting the **New** button and then select **Excel workbook**.
 
-Install the Excel add-in by sideloading it. From the ribbon, select **Insert > Add-ins**.
+Install the Excel add-in by sideloading it. From the ribbon, select **Insert** > **Add-ins**.
 
 In the **Office Add-ins** dialog, select **Upload My Add-in**.
 
@@ -233,4 +233,4 @@ Select the **Show Taskpane** button, then select the **Get last 10 emails** butt
 
 Because you're already signed in, after a moment, you'll see the recent emails appear in the worksheet without having to sign in.
 
-![Screenshot of the final add-in in Excel](../media/05-test-app-03.png)
+![Screenshot of final add-in in Excel.](../media/05-test-app-03.png)

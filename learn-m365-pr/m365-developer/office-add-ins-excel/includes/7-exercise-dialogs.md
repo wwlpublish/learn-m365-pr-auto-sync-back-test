@@ -255,13 +255,13 @@ Open the file **webpack.config.js** in the root directory of the project and com
 
         To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
-1. To open the add-in task pane, on the **Home** tab, select **Show Task pane**.
+1. To open the add-in task pane, on the **Home** tab, select **Show Taskpane**.
 1. Choose **Open Dialog**.
 1. While the dialog is open, drag it and resize it. You can interact with the worksheet and press other buttons on the task pane, but you can't launch a second dialog from the same task pane page.
 1. In the dialog, enter a name, and select **OK**. The name appears on the task pane and the dialog closes.
 1. Optionally, in the `processMessage` function, add **//** in front of the line `dialog.close();` . Then repeat the steps of this section. The dialog stays open and you can change the name. You can close it manually by pressing the **X** button in the upper right corner.
 
-![Excel tutorial - Dialog](../media/07-excel-tutorial-dialog-open-2.png)
+![Screenshot of dialog added by the tutorial in Excel.](../media/07-excel-tutorial-dialog-open-2.png)
 
 ## Summary
 
