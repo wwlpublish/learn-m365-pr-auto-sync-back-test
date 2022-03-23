@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-physical-hardware-troubleshooting.use-best-practices-troubleshoot-hardware-issues
+title: Use best practices to troubleshoot hardware issues
+metadata:
+  title: Use best practices to troubleshoot hardware issues
+  description: "Use best practices to troubleshoot hardware issues"
+  ms.date: 03/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/6-use-best-practices-troubleshoot-hardware-issues.md)]
