@@ -13,10 +13,10 @@ Microsoft Intune policies are groups of settings that control features on mobile
 
 Intune policies fall into the following categories. The category that you use affects how you create and deploy the policy.
 
- -  **Configuration policies.** Commonly used to manage security settings and features on your devices, including access to company resources. Get started at Intune device profiles.
- -  **Device compliance policies.** Define the rules and settings that a device must comply with to be considered compliant by conditional access policies. You can also use compliance policies to monitor and remediate the compliance of devices independent of conditional access.
- -  **Conditional access policies.** Help secure email and other services, depending on conditions that you enter.
- -  **Corporate device enrollment policies.** Intune supports the enrollment of corporate-owned iOS devices using the Apple Device Enrollment Program (DEP) or the Apple Configurator tool running on a Mac computer.
+ -  **Configuration policies**. Commonly used to manage security settings and features on your devices, including access to company resources. Get started at Intune device profiles.
+ -  **Device compliance policies**. Define the rules and settings that a device must comply with to be considered compliant by conditional access policies. You can also use compliance policies to monitor and remediate the compliance of devices independent of conditional access.
+ -  **Conditional access policies**. Help secure email and other services, depending on conditions that you enter.
+ -  **Corporate device enrollment policies**. Intune supports the enrollment of corporate-owned iOS devices using the Apple Device Enrollment Program (DEP) or the Apple Configurator tool running on a Mac computer.
 
 When a policy or an app is deployed, Intune immediately begins notifying the device to check in with the Intune service. This step typically takes less than five minutes.
 
@@ -40,7 +40,7 @@ If a device doesn't check in to get the policy after the first notification is s
 :::row-end:::
 :::row:::
   :::column:::
-    Mac OS X
+    macOS
   :::column-end:::
   :::column:::
     Every 6 hours
@@ -56,7 +56,7 @@ If a device doesn't check in to get the policy after the first notification is s
 :::row-end:::
 :::row:::
   :::column:::
-    Windows 10 (enrolled as devices)
+    Windows 10 and later (enrolled as devices)
   :::column-end:::
   :::column:::
     Every 8 hours
@@ -92,7 +92,7 @@ If the device recently enrolled, the check-in frequency is more frequent, as fol
 :::row-end:::
 :::row:::
   :::column:::
-    Mac OS X
+    macOS
   :::column-end:::
   :::column:::
     Every 15 minutes for 6 hours, and then every 6 hours
