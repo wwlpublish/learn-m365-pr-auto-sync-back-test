@@ -1,0 +1,45 @@
+### YamlMime:Module
+uid: learn.wwl.explore-azure-active-directory
+metadata:
+  title: Explore Azure Active Directory
+  description: "This module introduces students to the concepts of Azure Active Directory."
+  ms.date: 03/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore Azure Active Directory
+summary: This module introduces students to the concepts of Azure Active Directory.
+abstract: |
+  After this module, you should be able to:
+  - Describe Azure AD.
+  - Compare Azure AD to Active Directory Domain Services (AD DS).
+  - Describe how Azure AD is used as a directory for cloud apps.
+  - Describe Azure AD Premium P1 and P2.
+  - Describe Azure AD Domain Services.
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later.
+  - Strong understanding of computer networking, client security, and application concepts.
+  - Experience using Active Directory Domain Services.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.explore-azure-active-directory.introduction
+- learn.wwl.explore-azure-active-directory.examine-azure-active-directory
+- learn.wwl.explore-azure-active-directory.compare-azure-ad-active-directory-domain-services
+- learn.wwl.explore-azure-active-directory.examine-azure-ad-as-directory-service-cloud-apps
+- learn.wwl.explore-azure-active-directory.compare-azure-ad-premium-p1-p2-plans
+- learn.wwl.explore-azure-active-directory.examine-azure-ad-domain-services
+- learn.wwl.explore-azure-active-directory.knowledge-check
+- learn.wwl.explore-azure-active-directory.summary
+badge:
+  uid: learn.wwl.explore-azure-active-directory.badge

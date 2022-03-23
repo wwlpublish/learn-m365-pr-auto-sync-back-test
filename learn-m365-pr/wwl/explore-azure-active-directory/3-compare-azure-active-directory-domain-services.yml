@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-azure-active-directory.compare-azure-ad-active-directory-domain-services
+title: Compare Azure AD and Active Directory Domain Services
+metadata:
+  title: Compare Azure AD and Active Directory Domain Services
+  description: "Compare Azure AD and Active Directory Domain Services"
+  ms.date: 03/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-compare-azure-active-directory-domain-services.md)]

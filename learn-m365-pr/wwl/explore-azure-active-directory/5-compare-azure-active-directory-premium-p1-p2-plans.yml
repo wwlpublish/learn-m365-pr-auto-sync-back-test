@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-azure-active-directory.compare-azure-ad-premium-p1-p2-plans
+title: Compare Azure AD Premium P1 and P2 plans
+metadata:
+  title: Compare Azure AD Premium P1 and P2 plans
+  description: "Compare Azure AD Premium P1 and P2 plans"
+  ms.date: 03/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/5-compare-azure-active-directory-premium-p1-p2-plans.md)]
