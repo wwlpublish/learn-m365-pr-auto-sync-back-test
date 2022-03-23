@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-device-authentication.examine-azure-ad-join-prerequisites-limitations-benefits
+title: Examine Azure AD join prerequisites limitations and benefits
+metadata:
+  title: Examine Azure AD join prerequisites limitations and benefits
+  description: "Examine Azure AD join prerequisites limitations and benefits"
+  ms.date: 03/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/3-examine-azure-active-directory-join-prerequisites-limitations-benefits.md)]

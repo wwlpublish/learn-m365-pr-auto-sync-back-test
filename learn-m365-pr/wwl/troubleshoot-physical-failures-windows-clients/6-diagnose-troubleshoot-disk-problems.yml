@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-physical-failures-windows-clients.diagnose-troubleshoot-disk-problems
+title: Diagnose and troubleshoot disk problems
+metadata:
+  title: Diagnose and troubleshoot disk problems
+  description: "Diagnose and troubleshoot disk problems"
+  ms.date: 03/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-diagnose-troubleshoot-disk-problems.md)]
