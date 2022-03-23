@@ -3,7 +3,7 @@ uid: learn.wwl.enroll-devices-using-microsoft-endpoint-configuration-manager
 metadata:
   title: Enroll devices using Microsoft Endpoint Configuration Manager
   description: "This module introduces students to client deployment options and some of the high-level management and monitoring options that are available using Configuration Manager."
-  ms.date: 03/22/2022
+  ms.date: 03/23/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
