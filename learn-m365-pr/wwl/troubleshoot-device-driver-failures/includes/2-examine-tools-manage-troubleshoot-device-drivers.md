@@ -4,7 +4,7 @@ Device Manager is the most widely used tool for this purpose. It provides a list
 
 To view advanced device information, you also can use the DevCon.exe tool, which you can download from the Microsoft site.
 
-:::image type="content" source="../media/device-manager2-35059a9c.jpg" alt-text="Screenshot of the Device Manager screen.":::
+:::image type="content" source="../media/device-manager-2-721ad505.jpg" alt-text="Screenshot of the Device Manager screen.":::
 
 
 #### The Device Manager tool

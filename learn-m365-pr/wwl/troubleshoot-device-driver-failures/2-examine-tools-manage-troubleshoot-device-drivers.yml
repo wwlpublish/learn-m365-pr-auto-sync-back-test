@@ -13,4 +13,4 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 4
 content: |
-  [!include[](includes/2-examine-tools-managing-troubleshooting-device-drivers.md)]
+  [!include[](includes/2-examine-tools-manage-troubleshoot-device-drivers.md)]
