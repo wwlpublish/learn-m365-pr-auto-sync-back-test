@@ -3,7 +3,7 @@ uid: learn.wwl.plan-your-migration-to-microsoft-365
 metadata:
   title: Plan your migration to Microsoft 365
   description: "Plan your migration to Microsoft 365"
-  ms.date: 06/30/2021
+  ms.date: 03/23/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -26,13 +26,12 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:
 - learn.wwl.plan-your-migration-to-microsoft-365.introduction
 - learn.wwl.plan-your-migration-to-microsoft-365.create-deployment-planning-checklist-for-migrating
-- learn.wwl.plan-your-migration-to-microsoft-365.clean-up-your-active-directory-before-synchronizing-it
+- learn.wwl.plan-your-migration-to-microsoft-365.plan-your-active-directory-cleanup-before-synchronizing
 - learn.wwl.plan-your-migration-to-microsoft-365.select-mail-migration-strategy-for-moving-your-mail-data-to-cloud
 - learn.wwl.plan-your-migration-to-microsoft-365.analyze-performance-considerations-for-your-mail-migration
 - learn.wwl.plan-your-migration-to-microsoft-365.analyze-network-considerations-for-your-mail-migration

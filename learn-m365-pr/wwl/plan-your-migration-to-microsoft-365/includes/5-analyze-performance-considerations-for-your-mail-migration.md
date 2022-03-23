@@ -2,298 +2,138 @@ Organizations should consider the following performance issues when determining 
 
 :::row:::
   :::column:::
-    
-
-**Migration method**
-
-
+    **Migration method**
   :::column-end:::
   :::column:::
-    
-
-**Microsoft 365 user throttling**
-
-
+    **Microsoft 365 user throttling**
   :::column-end:::
   :::column:::
-    
-
-**Microsoft 365 migration-service throttling**
-
-
+    **Microsoft 365 migration-service throttling**
   :::column-end:::
   :::column:::
-    
-
-**Microsoft 365 resource health-based throttling**
-
-
+    **Microsoft 365 resource health-based throttling**
   :::column-end:::
   :::column:::
-    
-
-**Observed average throughput per hour and per client (if applicable)**
-
-
+    **Observed average throughput per hour and per client (if applicable)**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-IMAP migration
-
-
+    IMAP migration
   :::column-end:::
   :::column:::
-    
-
-No
-
-
+    No
   :::column-end:::
   :::column:::
-    
-
-Yes
-
-
+    Yes
   :::column-end:::
   :::column:::
-    
-
-Yes
-
-
+    Yes
   :::column-end:::
   :::column:::
-    
-
-10-14 GB (20 concurrency)
-
-
+    10-14 GB (20 concurrency)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Cutover migration
-
-
+    Cutover migration
   :::column-end:::
   :::column:::
-    
-
-No
-
-
+    No
   :::column-end:::
   :::column:::
-    
-
-Yes
-
-
+    Yes
   :::column-end:::
   :::column:::
-    
-
-Yes
-
-
+    Yes
   :::column-end:::
   :::column:::
-    
-
-10-14 GB (20 concurrency)
-
-
+    10-14 GB (20 concurrency)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Staged migration
-
-
+    Staged migration
   :::column-end:::
   :::column:::
-    
-
-No
-
-
+    No
   :::column-end:::
   :::column:::
-    
-
-Yes
-
-
+    Yes
   :::column-end:::
   :::column:::
-    
-
-Yes
-
-
+    Yes
   :::column-end:::
   :::column:::
-    
-
-10-14 GB (20 concurrency)
-
-
+    10-14 GB (20 concurrency)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Hybrid migration
-
-
+    Hybrid migration
   :::column-end:::
   :::column:::
-    
-
-No
-
-
+    No
   :::column-end:::
   :::column:::
-    
-
-Yes
-
-
+    Yes
   :::column-end:::
   :::column:::
-    
-
-Yes
-
-
+    Yes
   :::column-end:::
   :::column:::
-    
-
-10-14 GB per on-premises Exchange 2013 or 2010 CAS (Microsoft Exchange Mailbox Replication service (MRSProxy service)) with 20 concurrent moves; **see footnote 1**
-
-
+    10-14 GB per on-premises Exchange 2013 or 2010 CAS (Microsoft Exchange Mailbox Replication service (MRSProxy service)) with 20 concurrent moves; **see footnote 1**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Third-party MAPI migration
-
-
+    Third-party MAPI migration
   :::column-end:::
   :::column:::
-    
-
-Yes
-
-
+    Yes
   :::column-end:::
   :::column:::
-    
-
-No
-
-
+    No
   :::column-end:::
   :::column:::
-    
-
-Yes
-
-
+    Yes
   :::column-end:::
   :::column:::
-    
-
-4-12 GB (20 concurrency); **see footnote 2**
-
-
+    4-12 GB (20 concurrency); **see footnote 2**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Third-party Exchange Web Services migration
-
-
+    Third-party Exchange Web Services migration
   :::column-end:::
   :::column:::
-    
-
-No
-
-
+    No
   :::column-end:::
   :::column:::
-    
-
-Yes
-
-
+    Yes
   :::column-end:::
   :::column:::
-    
-
-Yes
-
-
+    Yes
   :::column-end:::
   :::column:::
-    
-
-5-10 GB (20 concurrency); **see footnote 3**
-
-
+    5-10 GB (20 concurrency); **see footnote 3**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Client uploading (from Outlook .pst files)
-
-
+    Client uploading (from Outlook .pst files)
   :::column-end:::
   :::column:::
-    
-
-Yes
-
-
+    Yes
   :::column-end:::
   :::column:::
-    
-
-No
-
-
+    No
   :::column-end:::
   :::column:::
-    
-
-Yes
-
-
+    Yes
   :::column-end:::
   :::column:::
-    
-
-0.5 GB
-
-
+    0.5 GB
   :::column-end:::
 :::row-end:::
 

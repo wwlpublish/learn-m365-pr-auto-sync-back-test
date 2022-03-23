@@ -2,41 +2,21 @@
 
 :::row:::
   :::column:::
-    
-
-**Factor**
-
-
+    **Factor**
   :::column-end:::
   :::column:::
-    
-
-**Description**
-
-
+    **Description**
   :::column-end:::
   :::column:::
-    
-
-**Best practices**
-
-
+    **Best practices**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Network capacity
-
-
+    Network capacity
   :::column-end:::
   :::column:::
-    
-
-The amount of time it takes to migrate mailboxes to Microsoft 365 is determined by the available and maximum capacity of your network.
-
-
+    The amount of time it takes to migrate mailboxes to Microsoft 365 is determined by the available and maximum capacity of your network.
   :::column-end:::
   :::column:::
     
@@ -51,47 +31,23 @@ The amount of time it takes to migrate mailboxes to Microsoft 365 is determined 
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Network stability
-
-
+    Network stability
   :::column-end:::
   :::column:::
-    
-
-A fast network doesn’t always result in fast migrations. If the network isn’t stable, data transfer takes longer because of error correction. Depending on the migration type, error correction can significantly affect migration performance.
-
-
+    A fast network doesn’t always result in fast migrations. If the network isn’t stable, data transfer takes longer because of error correction. Depending on the migration type, error correction can significantly affect migration performance.
   :::column-end:::
   :::column:::
-    
-
-Network hardware and driver issues often cause network stability problems. Work with your hardware vendors to understand your network devices and apply the vendor’s latest recommended drivers and software updates.
-
-
+    Network hardware and driver issues often cause network stability problems. Work with your hardware vendors to understand your network devices and apply the vendor’s latest recommended drivers and software updates.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Network delays
-
-
+    Network delays
   :::column-end:::
   :::column:::
-    
-
-Intrusion detection functionality configured on a network firewall often causes significant network delays and affects migration performance.
-
-
+    Intrusion detection functionality configured on a network firewall often causes significant network delays and affects migration performance.
 Migrating data to Microsoft 365 mailboxes relies on your Internet connection. Internet delays effect overall migration performance.
-
-
 Also, users in the same company may have cloud mailboxes that are located in datacenters in different geographical locations. Depending on the customer's ISP, migration performance may vary.
-
-
   :::column-end:::
   :::column:::
     
