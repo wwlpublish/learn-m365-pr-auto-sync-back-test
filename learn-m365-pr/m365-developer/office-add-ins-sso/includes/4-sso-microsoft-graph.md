@@ -8,7 +8,7 @@ In this unit, you'll learn how to implement SSO in an Office Add-in to submit re
 
 Let's start by taking a look at how the authentication flow works at runtime when an Office Add-in implements SSO with the end goal to access Microsoft Graph.
 
-![SSO authentication flow with Office Add-ins and Microsoft Graph.](../media/04-sso-graph-overview-diagram.png)
+![Overview diagram of SSO authentication flow with Office Add-ins and Microsoft Graph.](../media/04-sso-graph-overview-diagram.png)
 
 1. In the add-in, JavaScript calls the Office.js API method `getAccessToken()`. This method tells the Office client application to obtain an access token to the add-in.
 
@@ -65,7 +65,7 @@ const sso = require("office-addin-sso");
 let bootstrapToken = await OfficeRuntime.auth.getAccessToken({ allowSignInPrompt: true });
 ```
 
-![Signing in in Word.](../media/03-test-app-02.png)
+![Screenshot of signing in in Word.](../media/03-test-app-02.png)
 
 Next, you'll try to exchange this bootstrap token for an access token that can be used to call Microsoft Graph. It's this part that starts the OAuth2 OBO flow:
 

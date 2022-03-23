@@ -4,7 +4,7 @@ In this unit, you'll learn how to work with worksheets in Excel workbooks. You'l
 
 A workbook is the root object when working with the Excel APIs.
 
-![Excel object hierarchy.](../media/02-excel-object-hierarchy.png)
+![Diagram showing Excel object hierarchy.](../media/02-excel-object-hierarchy.png)
 
 A workbook is a property of the Excel add-in context, `context.workbook`, and contains a collection of worksheets.
 
@@ -106,27 +106,27 @@ The `ExecuteFunction` action allows an add-in command to execute some script in 
 
 Let's explore how the different elements in the add-in manifest map to the rendered elements in the Excel user experience.
 
-The following image includes contains an image of an Office client application on the left and a condensed version of an add-in manifest file on the right:
+The following image includes contains a screenshot of an Office client application on the left and a condensed version of an add-in manifest file on the right:
 
-![Add-in manifest and an Office application.](../media/04-manifest-01.png)
+![Screenshot of an Office application next to an add-in manifest excerpt.](../media/04-manifest-01.png)
 
 The manifest starts with the `ExtensionPoint` element that contains all customizations defined for the Office ribbon:
 
-![Add-in manifest and an Office application with extension point highlighted.](../media/04-manifest-02.png)
+![Screenshot of an Office application next to an add-in manifest excerpt with extension point highlighted.](../media/04-manifest-02.png)
 
 The entire contents of the `ExtensionPoint` element define the custom tab in the ribbon and all buttons in the tab:
 
-![Add-in manifest and an Office application with custom tab highlighted.](../media/04-manifest-03.png)
+![Screenshot of an Office application next to an add-in manifest excerpt with custom tab highlighted in both.](../media/04-manifest-03.png)
 
 Each button in the ribbon is defined using a `Control` element. A control can be different types, defined in the `xsi:type` property. All the controls in this ribbon are buttons:
 
-![Add-in manifest and an Office application with custom tabs highlighted.](../media/04-manifest-04.png)
+![Screenshot of an Office application next to an add-in manifest excerpt with custom tabs highlighted and numbered in both.](../media/04-manifest-04.png)
 
 Within a control, developers can define *actions* or *items*. An `Action` element is used to do an action, such as showing a task pane or executing a custom function.
 
 The `Items` collection allows developers to add more menu items to the ribbon button as shown in the following image. Notice each sub menu item also has a `Action` element as well:
 
-![Add-in manifest and an Office application with controls highlighted.](../media/04-manifest-05.png)
+![Screenshot of an Office application next to an add-in manifest with Item elements highlighted and numbered in both.](../media/04-manifest-05.png)
 
 ### ExecuteFunction add-in command
 
