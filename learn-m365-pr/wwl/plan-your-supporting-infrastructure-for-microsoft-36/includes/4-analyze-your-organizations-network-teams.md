@@ -7,9 +7,9 @@ Microsoft Teams provides the backbone for enterprise voice and video in Microsof
 
 To achieve the best experience using Microsoft Teams, an organization should deploy Exchange Online and SharePoint Online, and it should ensure that its current environment is ready for Teams. To prepare your organization for a Teams deployment, refer to the following articles:
 
- -  If your organization hasn't synchronized identities to Azure Active Directory, see [Identity models and authentication in Microsoft Teams](/MicrosoftTeams/identify-models-authentication).
- -  If your organization doesn't have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](/MicrosoftTeams/exchange-teams-interact).
- -  If your organization has an existing on-premises Skype for Business Server (or Lync Server) deployment, you must configure Azure AD Connect to synchronize your on-premises directory with Microsoft 365. For more information, see [Configure Azure AD Connect for Teams and Skype for Business](/skypeforbusiness/hybrid/configure-azure-ad-connect).
+ -  If your organization hasn't synchronized identities to Azure Active Directory, see [Identity models and authentication in Microsoft Teams](/MicrosoftTeams/identify-models-authentication?azure-portal=true).
+ -  If your organization doesn't have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](/MicrosoftTeams/exchange-teams-interact?azure-portal=true).
+ -  If your organization has an existing on-premises Skype for Business Server (or Lync Server) deployment, you must configure Azure AD Connect to synchronize your on-premises directory with Microsoft 365. For more information, see [Configure Azure AD Connect for Teams and Skype for Business](/skypeforbusiness/hybrid/configure-azure-ad-connect?azure-portal=true).
 
 ### Prepare your organization's network for Microsoft Teams
 
@@ -40,169 +40,85 @@ The following diagram displays how Teams clients can be located in a company beh
 :::image type="content" source="../media/teams-clients-behind-network-perimeter-bcce29da.jpg" alt-text="diagram displays how Teams clients can be located in a company behind a perimeter network or at home of individual users":::
 
 
-To achieve an optimal experience with real-time media within Microsoft Teams, an organization's network must meet the networking requirements for Microsoft 365. For more information, see [Media Quality and Network Connectivity Performance for Skype for Business Online](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+To achieve an optimal experience with real-time media within Microsoft Teams, an organization's network must meet the networking requirements for Microsoft 365. For more information, see [Media Quality and Network Connectivity Performance for Skype for Business Online](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance?azure-portal=true).
 
 For the two defining network segments (Client to Microsoft Edge and Customer Edge to Microsoft Edge), organizations should consider the following recommendations.
 
 :::row:::
   :::column:::
-    
-
-**Value**
-
-
+    **Value**
   :::column-end:::
   :::column:::
-    
-
-**Client to Microsoft Edge**
-
-
+    **Client to Microsoft Edge**
   :::column-end:::
   :::column:::
-    
-
-**Customer Edge to Microsoft Edge**
-
-
+    **Customer Edge to Microsoft Edge**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Latency (one way) \*
-
-
+    Latency (one way) \*
   :::column-end:::
   :::column:::
-    
-
-&lt; 50 ms
-
-
+    &lt; 50 ms
   :::column-end:::
   :::column:::
-    
-
-&lt; 30 ms
-
-
+    &lt; 30 ms
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Latency (RTT or Round-trip Time) \*
-
-
+    Latency (RTT or Round-trip Time) \*
   :::column-end:::
   :::column:::
-    
-
-&lt; 100 ms
-
-
+    &lt; 100 ms
   :::column-end:::
   :::column:::
-    
-
-&lt; 60 ms
-
-
+    &lt; 60 ms
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Burst packet loss
-
-
+    Burst packet loss
   :::column-end:::
   :::column:::
-    
-
-&lt;10% during any 200-ms interval
-
-
+    &lt;10% during any 200-ms interval
   :::column-end:::
   :::column:::
-    
-
-&lt;1% during any 200-ms interval
-
-
+    &lt;1% during any 200-ms interval
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Packet loss
-
-
+    Packet loss
   :::column-end:::
   :::column:::
-    
-
-&lt;1% during any 15-s interval
-
-
+    &lt;1% during any 15-s interval
   :::column-end:::
   :::column:::
-    
-
-&lt;0.1% during any 15-s interval
-
-
+    &lt;0.1% during any 15-s interval
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Packet inter-arrival Jitter
-
-
+    Packet inter-arrival Jitter
   :::column-end:::
   :::column:::
-    
-
-&lt;30 ms during any 15-s interval
-
-
+    &lt;30 ms during any 15-s interval
   :::column-end:::
   :::column:::
-    
-
-&lt;15 ms during any 15-s interval
-
-
+    &lt;15 ms during any 15-s interval
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Packet reorder
-
-
+    Packet reorder
   :::column-end:::
   :::column:::
-    
-
-&lt;0.05% out-of-order packets
-
-
+    &lt;0.05% out-of-order packets
   :::column-end:::
   :::column:::
-    
-
-&lt;0.01% out-of-order packets
-
-
+    &lt;0.01% out-of-order packets
   :::column-end:::
 :::row-end:::
 
@@ -211,9 +127,9 @@ Packet reorder
 
 A company's site connection to the Microsoft network edge includes first hop network access, which can be WiFi or another wireless technology.
 
-The network performance targets assume proper bandwidth and [QoS planning](/MicrosoftTeams/qos-in-teams). In other words, the requirements apply directly to Teams real-time media traffic when the network connection is under a peak load.
+The network performance targets assume proper bandwidth and [QoS planning](/MicrosoftTeams/qos-in-teams?azure-portal=true). In other words, the requirements apply directly to Teams real-time media traffic when the network connection is under a peak load.
 
-To test both network segments, you can use the [Network Assessment Tool](https://go.microsoft.com/fwlink/?linkid=855799?azure-portal=true). This tool can be deployed on both the client PC directly and on a PC connected to the Customer Network Edge. By running this Network Readiness Assessment, you can validate your network’s readiness to run real-time media applications, such as Microsoft Teams.
+To test both network segments, you can use the Network Assessment Tool. This tool can be deployed on both the client PC directly and on a PC connected to the Customer Network Edge. By running this Network Readiness Assessment, you can validate your network’s readiness to run real-time media applications, such as Microsoft Teams.
 
 ### Bandwidth requirements
 
@@ -223,130 +139,66 @@ Teams is always conservative on bandwidth utilization and can deliver HD video q
 
 :::row:::
   :::column:::
-    
-
-**Bandwidth(up/down)**
-
-
+    **Bandwidth(up/down)**
   :::column-end:::
   :::column:::
-    
-
-**Scenarios**
-
-
+    **Scenarios**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-30 kbps
-
-
+    30 kbps
   :::column-end:::
   :::column:::
-    
-
-Peer-to-peer audio calling
-
-
+    Peer-to-peer audio calling
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-130 kbps
-
-
+    130 kbps
   :::column-end:::
   :::column:::
-    
-
-Peer-to-peer audio calling and screen sharing
-
-
+    Peer-to-peer audio calling and screen sharing
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-500 kbps
-
-
+    500 kbps
   :::column-end:::
   :::column:::
-    
-
-Peer-to-peer quality video calling 360p at 30 fps
-
-
+    Peer-to-peer quality video calling 360p at 30 fps
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-1.2 Mbps
-
-
+    1.2 Mbps
   :::column-end:::
   :::column:::
-    
-
-Peer-to-peer HD quality video calling with resolution of HD 720p at 30 fps
-
-
+    Peer-to-peer HD quality video calling with resolution of HD 720p at 30 fps
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-1.5 Mbps
-
-
+    1.5 Mbps
   :::column-end:::
   :::column:::
-    
-
-Peer-to-peer HD quality video calling with resolution of HD 1080p at 30 fps
-
-
+    Peer-to-peer HD quality video calling with resolution of HD 1080p at 30 fps
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-500 kbps/1 Mbps
-
-
+    500 kbps/1 Mbps
   :::column-end:::
   :::column:::
-    
-
-Group Video calling
-
-
+    Group Video calling
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-1 Mbps/2 Mbps
-
-
+    1 Mbps/2 Mbps
   :::column-end:::
   :::column:::
-    
-
-HD Group video calling (540p videos on 1080p screen)
-
-
+    HD Group video calling (540p videos on 1080p screen)
   :::column-end:::
 :::row-end:::
 
@@ -355,6 +207,6 @@ HD Group video calling (540p videos on 1080p screen)
 
 Organizations should also consider the following factors when planning their networking environment for a Microsoft Teams deployment:
 
- -  **External Name Resolution.** Ensure that all client computers running the Teams client can resolve external DNS queries to discover the services provided by Microsoft 365. Companies should also ensure that their firewalls aren't preventing access. For information about configuring firewall ports, see [Office 365 URLs and IP ranges](/microsoftteams/office-365-urls-ip-address-ranges).
+ -  **External Name Resolution.** Ensure that all client computers running the Teams client can resolve external DNS queries to discover the services provided by Microsoft 365. Companies should also ensure that their firewalls aren't preventing access. For information about configuring firewall ports, see [Office 365 URLs and IP ranges](/microsoftteams/office-365-urls-ip-address-ranges?azure-portal=true).
  -  **NAT Pool Size.** When multiple users/devices access Office 365 using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address don't exceed the supported number. To mitigate this risk, ensure adequate Public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will cause internal end users and devices to face issues when connecting to the Microsoft 365 services. For more information, see [NAT support with Office 365](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9?azure-portal=true).
  -  **Intrusion Detection and Prevention Guidance.** If an organization has an Intrusion Detection or Prevention System (IDS/IPS) deployed for an extra layer of security for outbound connections, ensure that any traffic with destination to Microsoft 365 URLs is safeguarded.

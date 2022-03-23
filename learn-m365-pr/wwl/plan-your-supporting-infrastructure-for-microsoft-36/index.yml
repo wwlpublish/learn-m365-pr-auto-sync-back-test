@@ -3,7 +3,7 @@ uid: learn.wwl.plan-your-supporting-infrastructure-for-microsoft-365
 metadata:
   title: Plan your supporting infrastructure for Microsoft 365
   description: "Plan your supporting infrastructure for Microsoft 365"
-  ms.date: 06/30/2021
+  ms.date: 03/23/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -25,15 +25,13 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:
 - learn.wwl.plan-your-supporting-infrastructure-for-microsoft-365.introduction
 - learn.wwl.plan-your-supporting-infrastructure-for-microsoft-365.email-strategy-for-migration-coexistence
 - learn.wwl.plan-your-supporting-infrastructure-for-microsoft-365.determine-your-collaboration-requirements-for-file-storage
-- learn.wwl.plan-your-supporting-infrastructure-for-microsoft-365.prepare-your-organizations-network-teams
-- learn.wwl.plan-your-supporting-infrastructure-for-microsoft-365.integrate-your-premises-directories-by-using-azure-ad-connect
+- learn.wwl.plan-your-supporting-infrastructure-for-microsoft-365.analyze-your-organizations-network-teams
 - learn.wwl.plan-your-supporting-infrastructure-for-microsoft-365.knowledge-check
 - learn.wwl.plan-your-supporting-infrastructure-for-microsoft-365.summary
 badge:

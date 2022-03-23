@@ -4,21 +4,22 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/30/2021
+  ms.date: 03/23/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 8
+labModal: false
+durationInMinutes: 6
 content: |
-  [!include[](includes/6-knowledge-check.md)]
+  [!include[](includes/5-knowledge-check.md)]
 quiz:
   title: "Check your knowledge"
   questions:
   - content: "You're the Enterprise Administrator for Tailspin Toys, Inc. You want to achieve the best experience using Microsoft Teams in your Microsoft 365 deployment. Which of the following feature sets should Tailspin Toys deploy?"
     choices:
-    - content: "Azure AD Pass-through Authentication and Multifactor authentication"
+    - content: "Azure AD Pass-through Authentication and Multi-factor authentication"
       isCorrect: false
       explanation: "That's incorrect. This feature doesn't achieve the best experience using Microsoft Teams. Try again."
     - content: "Azure AD Connect and Password Hash Synchronization"
@@ -38,17 +39,6 @@ quiz:
     - content: "They actively block specific ports, or they don't open the correct ports"
       isCorrect: true
       explanation: "That's correct. Organizations will experience degraded performance if they don't open the correct ports, or if they actively block specific ports."
-  - content: "Azure AD Connect is made up of two primary components. One of the components is Synchronization services. This component is responsible for synchronizing users, groups, and other objects. It's also responsible for making sure identity information for your on-premises users and groups is matching the cloud. What is the second primary component of Azure AD Connect?"
-    choices:
-    - content: "Azure AD Connect Health"
-      isCorrect: true
-      explanation: "That's correct. Azure AD Connect Health provides robust health monitoring and a central location in the Azure portal to view this activity."
-    - content: "Azure AD Federation service"
-      isCorrect: false
-      explanation: "That's incorrect. This isn't the second primary component of Azure AD Connect. Try again."
-    - content: "Azure AD Pass-through Authentication service"
-      isCorrect: false
-      explanation: "That's incorrect. This isn't the second primary component of Azure AD Connect. Try again."
   - content: "As the Enterprise Administrator for Fabrikam, you're trying to decide which migration option will be the best fit for the company. Fabrikam currently uses a third-party mail system. Given this requirement, which of the following migration options must Fabrikam use?"
     choices:
     - content: "Cutover migration"
