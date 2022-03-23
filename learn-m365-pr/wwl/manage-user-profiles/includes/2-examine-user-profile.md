@@ -47,9 +47,9 @@ User state consists of four main data categories, including:
     User data
   :::column-end:::
   :::column:::
-    This component contains all user-specific data, such as files, which is stored in multiple user profile sub-folders, such as Documents, Favorites, Pictures, and Music. Users can change this location and store their data in any other folder to which they have Write permissions. However, by default, user data is stored in the individual user profile.
+    This component contains all user-specific data, such as files, which are stored in multiple user profile sub-folders, such as Documents, Favorites, Pictures, and Music. Users can change this location and store their data in any other folder to which they have Write permissions. However, by default, user data is stored in the individual user profile.
   :::column-end:::
 :::row-end:::
 
 
-When a user signs into a device for the first time, a new user profile is created. The configuration for that is based on the configuration of the Default Profile. A default profile is a pre-configured baseline profile, which contain all of the initial settings to be included, whenever a new profile is created.
+When a user signs into a device for the first time, a new user profile is created. The configuration for that is based on the configuration of the Default Profile. A default profile is a pre-configured baseline profile, which contains all of the initial settings to be included, whenever a new profile is created.

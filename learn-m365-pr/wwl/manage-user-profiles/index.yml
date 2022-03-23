@@ -2,14 +2,14 @@
 uid: learn.wwl.manage-user-profiles
 metadata:
   title: Manage user profiles
-  description: "Students will learn about the benefits of various Windows user profiles, how to manage them, and how to facilitating profile data synchronization across multiple devices."
-  ms.date: 03/16/2022
+  description: "Students will learn about the benefits of various Windows user profiles, how to manage them, and how to facilitate profile data synchronization across multiple devices."
+  ms.date: 03/23/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage user profiles
-summary: Students will learn about the benefits of various Windows user profiles, how to manage them, and how to facilitating profile data synchronization across multiple devices.
+summary: Students will learn about the benefits of various Windows user profiles, how to manage them, and how to facilitate profile data synchronization across multiple devices.
 abstract: |
   After completing this module, you will be able to:
   - Explain the various user profile types that exist in Windows.

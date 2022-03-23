@@ -16,7 +16,7 @@ For a Windows device to use the Enterprise State Roaming service, the device mus
  -  Theme, which includes features such as desktop theme and taskbar settings.
  -  Internet Explorer settings, including recently opened tabs and favorites.
  -  Passwords, including Internet passwords, Wi-Fi profiles, and others.
- -  Language preferences, which includes settings for keyboard layouts, system language, date and time, and more.
+ -  Language preferences, which include settings for keyboard layouts, system language, date and time, and more.
  -  Ease of access features, such as high-contrast theme, Narrator, and Magnifier.
  -  Other Windows settings, such as mouse settings.
 
