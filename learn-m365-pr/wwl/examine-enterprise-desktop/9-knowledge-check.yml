@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/11/2022
+  ms.date: 03/23/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -35,7 +35,7 @@ quiz:
       explanation: "Correct. Microsoft Intune is a cloud-based device management technology to secure data users can access on company owned or personal devices. With Intune, you can manage devices on the network, and selectively remove applications from the device. In a BYOD scenario, employees may not want to risk their personal data to be on a company network. Employees should be aware of policies and security requirements before enrolling personal devices."
     - content: "Desktop Analytics"
       isCorrect: false
-      explanation: "Incorrect. Desktop Analytics gives insights about the devices on your network connected to Microsoft Cloud. This information includes security updates, appls and compatibility issues. Try again."
+      explanation: "Incorrect. Desktop Analytics gives insights about the devices on your network connected to Microsoft Cloud. This information includes security updates, apps and compatibility issues. Try again."
     - content: "Configuration Manager"
       isCorrect: false
       explanation: "Incorrect. Configuration Manager is an on-premises management solution to manage desktop computers and servers on the network. With Configuration Manager, you deploy apps, software updates, and configure operating systems. Try again."
