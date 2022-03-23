@@ -1,0 +1,33 @@
+### YamlMime:LearningPath
+uid: learn.wwl.manage-apps-windows-updates
+metadata:
+  title: Manage apps and Windows updates
+  description: Manage apps and Windows updates
+  ms.date: 03/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage apps and Windows updates
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+summary: |
+  In this learning path, students will be introduced to App management in Windows. This path will cover the different types of apps and supported installation methods, as well as managing Microsoft Edge.
+iconUrl: /learn/achievements/generic-trophy.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+modules:
+- learn.wwl.provide-apps-users
+- learn.wwl.manage-universal-windows-platform-apps
+- learn.wwl.manage-microsoft-edge-browser
+- learn.wwl.explore-windows-servicing-model
+- learn.wwl.update-windows-clients
+trophy:
+  uid: learn.wwl.manage-apps-windows-updates.trophy
