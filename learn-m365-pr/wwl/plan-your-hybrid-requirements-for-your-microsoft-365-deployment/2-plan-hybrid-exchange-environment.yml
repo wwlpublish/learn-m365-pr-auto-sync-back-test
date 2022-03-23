@@ -4,12 +4,13 @@ title: Plan a hybrid Exchange environment
 metadata:
   title: Plan a hybrid Exchange environment
   description: "Plan a hybrid Exchange environment"
-  ms.date: 06/29/2021
+  ms.date: 03/23/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 10
 content: |
   [!include[](includes/2-plan-hybrid-exchange-environment.md)]
