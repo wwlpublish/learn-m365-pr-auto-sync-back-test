@@ -1,18 +1,19 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.manage-your-transition-to-by-using-deployment-planning-checklist
-title: Manage your transition to Microsoft 365 by using the Deployment Planning Checklist
+uid: learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.plan-your-microsoft-365-transition
+title: Plan your transition to Microsoft 365
 metadata:
-  title: Manage your transition to Microsoft 365 by using the Deployment Planning Checklist
-  description: "Manage your transition to Microsoft 365 by using the Deployment Planning Checklist"
-  ms.date: 06/30/2021
+  title: Plan your transition to Microsoft 365
+  description: "Plan your transition to Microsoft 365"
+  ms.date: 03/23/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 5
 content: |
-  [!include[](includes/3-manage-your-transition-to-by-using-deployment-planning-checklist.md)]
+  [!include[](includes/3-plan-your-microsoft-365-transition.md)]
 quiz:
   title: "Check your knowledge"
   questions:

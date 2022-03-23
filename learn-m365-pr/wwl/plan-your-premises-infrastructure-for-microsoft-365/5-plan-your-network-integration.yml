@@ -1,18 +1,19 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.integrate-your-network-to
-title: Integrate your network to Microsoft 365
+uid: learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.plan-your-network-integration
+title: Plan your network integration to Microsoft 365
 metadata:
-  title: Integrate your network to Microsoft 365
-  description: "Integrate your network to Microsoft 365"
-  ms.date: 06/30/2021
+  title: Plan your network integration to Microsoft 365
+  description: "Plan your network integration to Microsoft 365"
+  ms.date: 03/23/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
-  [!include[](includes/6-integrate-your-network-to.md)]
+  [!include[](includes/5-plan-your-network-integration.md)]
 quiz:
   title: "Check your knowledge"
   questions:

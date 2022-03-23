@@ -10,536 +10,248 @@ Microsoft 365, together with Azure Active Directory (Azure AD), provides differe
      -  The agent validates the username and password against Active Directory by using standard Windows APIs, which is a similar mechanism to what is used by Active Directory Federation Services (AD FS). The username can either be the on-premises default username, usually User Principal Name, or another attribute (known as Alternate ID) configured in Azure AD Connect.
      -  The on-premises Active Directory domain controller (DC) evaluates the request and returns the appropriate response (success, failure, password expired, or user locked out) to the agent.
      -  The Authentication Agent returns this response back to Azure AD, then Azure AD evaluates the response and responds to the user as appropriate. For example, Azure AD either signs the user in immediately or requests Azure Active Directory Multifactor authentication. If the user sign-in is successful, the user can access the application.
- -  **Azure AD Pass-Through Authentication with Seamless Single Sign On (SSO).** You can combine Pass-Through Authentication with the [Seamless Single Sign-On](/azure/active-directory/connect/active-directory-aadconnect-sso). This way, when your users are accessing applications on their corporate machines inside your corporate network, they don't need to type in their passwords to sign in.
+ -  **Azure AD Pass-Through Authentication with Seamless Single Sign On (SSO).** You can combine Pass-Through Authentication with the [Seamless Single Sign-On](/azure/active-directory/connect/active-directory-aadconnect-sso?azure-portal=true). This way, when your users are accessing applications on their corporate machines inside your corporate network, they don't need to type in their passwords to sign in.
  -  **Federated SSO with Active Directory Federation Services (AD FS).** With federated sign-in, users sign in to Azure AD-based services with their on-premises passwords. This service uses an intermediary server call to a WAP, which uses proxy DNS names to route users to their required location. While they're on the corporate network, they don't even have to enter their passwords. By using the federation option with AD FS, organizations can deploy a new or existing farm with AD FS in Windows Server 2012 R2. If you choose to specify an existing farm, Azure AD Connect configures the trust between your farm and Azure AD so that your users can sign in.
 
-    > [!WARNING]
-    > Depending on your environment, this option can be the most complex and costliest to set up.
+> [!WARNING]
+> Depending on your environment, this option can be the most complex and costliest to set up.
 
 The following table compares the different deployment strategies for implementing Microsoft 365 services:
 
 :::row:::
   :::column:::
-    
-
-**Consideration**
-
-
+    **Consideration**
   :::column-end:::
   :::column:::
-    
-
-**Password hash synchronization + Seamless SSO**
-
-
+    **Password hash synchronization + Seamless SSO**
   :::column-end:::
   :::column:::
-    
-
-**Azure AD Pass-Through Authentication + Seamless SSO**
-
-
+    **Azure AD Pass-Through Authentication + Seamless SSO**
   :::column-end:::
   :::column:::
-    
-
-**Federation with AD FS**
-
-
+    **Federation with AD FS**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Where does authentication happen?
-
-
+    Where does authentication happen?
   :::column-end:::
   :::column:::
-    
-
-In the cloud
-
-
+    In the cloud
   :::column-end:::
   :::column:::
-    
-
-In the cloud after a secure password verification exchange with the on-premises authentication agent
-
-
+    In the cloud after a secure password verification exchange with the on-premises authentication agent
   :::column-end:::
   :::column:::
-    
-
-On-premises
-
-
+    On-premises
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-What are the on-premises server requirements beyond the provisioning system? Does it include Azure AD Connect?
-
-
+    What are the on-premises server requirements beyond the provisioning system? Does it include Azure AD Connect?
   :::column-end:::
   :::column:::
-    
-
-None
-
-
+    None
   :::column-end:::
   :::column:::
-    
-
-One server for each extra authentication agent
-
-
+    One server for each extra authentication agent
   :::column-end:::
   :::column:::
-    
-
-Two or more AD FS servers
-
-
+    Two or more AD FS servers
 Two or more WAP servers in the perimeter network
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-What are the requirements for on-premises Internet and networking beyond the provisioning system?
-
-
+    What are the requirements for on-premises Internet and networking beyond the provisioning system?
   :::column-end:::
   :::column:::
-    
-
-None
-
-
+    None
   :::column-end:::
   :::column:::
-    
-
-[Outbound Internet access](/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-quick-start) from the servers running authentication agents
-
-
+    [Outbound Internet access](/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-quick-start?azure-portal=true) from the servers running authentication agents
   :::column-end:::
   :::column:::
-    
-
-[Inbound Internet access](/windows-server/identity/ad-fs/overview/ad-fs-requirements) to WAP servers in the perimeter
-
-
+    [Inbound Internet access](/windows-server/identity/ad-fs/overview/ad-fs-requirements?azure-portal=true) to WAP servers in the perimeter
 Inbound network access to AD FS servers from WAP servers in the perimeter
-
-
 Network load balancing
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Is there an SSL certificate requirement?
-
-
+    Is there an SSL certificate requirement?
   :::column-end:::
   :::column:::
-    
-
-No
-
-
+    No
   :::column-end:::
   :::column:::
-    
-
-No
-
-
+    No
   :::column-end:::
   :::column:::
-    
-
-Yes
-
-
+    Yes
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Is there a health monitoring solution?
-
-
+    Is there a health monitoring solution?
   :::column-end:::
   :::column:::
     N/A
   :::column-end:::
   :::column:::
-    
-
-Agent status provided by [Azure Active Directory admin center](/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-pass-through-authentication)
-
-
+    Agent status provided by [Azure Active Directory admin center](/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-pass-through-authentication?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-[Azure AD Connect Health](/azure/active-directory/connect-health/active-directory-aadconnect-health-adfs)
-
-
+    [Azure AD Connect Health](/azure/active-directory/connect-health/active-directory-aadconnect-health-adfs?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Do users get single sign-on to cloud resources from domain-joined devices within the company network?
-
-
+    Do users get single sign-on to cloud resources from domain-joined devices within the company network?
   :::column-end:::
   :::column:::
-    
-
-Yes with [Seamless SSO](/azure/active-directory/connect/active-directory-aadconnect-sso)
-
-
+    Yes with [Seamless SSO](/azure/active-directory/connect/active-directory-aadconnect-sso?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-Yes with [Seamless SSO](/azure/active-directory/connect/active-directory-aadconnect-sso)
-
-
+    Yes with [Seamless SSO](/azure/active-directory/connect/active-directory-aadconnect-sso?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-Yes
-
-
+    Yes
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-What sign-in types are supported?
-
-
+    What sign-in types are supported?
   :::column-end:::
   :::column:::
-    
-
-UserPrincipalName + password
-
-
-Windows-Integrated Authentication by using [Seamless SSO](/azure/active-directory/connect/active-directory-aadconnect-sso)
-
-
-[Alternate sign-in ID](/azure/active-directory/connect/active-directory-aadconnect-get-started-custom)
-
-
+    UserPrincipalName + password
+Windows-Integrated Authentication by using [Seamless SSO](/azure/active-directory/connect/active-directory-aadconnect-sso?azure-portal=true)
+[Alternate sign-in ID](/azure/active-directory/connect/active-directory-aadconnect-get-started-custom?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-UserPrincipalName + password
-
-
-Windows-Integrated Authentication by using [Seamless SSO](/azure/active-directory/connect/active-directory-aadconnect-sso)
-
-
-[Alternate sign-in ID](/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-faq)
-
-
+    UserPrincipalName + password
+Windows-Integrated Authentication by using [Seamless SSO](/azure/active-directory/connect/active-directory-aadconnect-sso?azure-portal=true)
+[Alternate sign-in ID](/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-faq?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-UserPrincipalName + password
-
-
+    UserPrincipalName + password
 sAMAccountName + password
-
-
 Windows-Integrated Authentication
-
-
-[Certificate and smart card authentication](/windows-server/identity/ad-fs/operations/configure-user-certificate-authentication)
-
-
-[Alternate sign-in ID](/windows-server/identity/ad-fs/operations/configuring-alternate-login-id)
-
-
+[Certificate and smart card authentication](/windows-server/identity/ad-fs/operations/configure-user-certificate-authentication?azure-portal=true)
+[Alternate sign-in ID](/windows-server/identity/ad-fs/operations/configuring-alternate-login-id?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Is Windows Hello for Business supported?
-
-
+    Is Windows Hello for Business supported?
   :::column-end:::
   :::column:::
-    
-
-[Key trust model](/windows/security/identity-protection/hello-for-business/hello-identity-verification)
-
-
-[Certificate trust model with Intune](/intune/certificates-configure)
-
-
+    [Key trust model](/windows/security/identity-protection/hello-for-business/hello-identity-verification?azure-portal=true)
+[Certificate trust model with Intune](/intune/certificates-configure?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-[Key trust model](/windows/security/identity-protection/hello-for-business/hello-identity-verification)
-
-
-[Certificate trust model with Intune](/intune/certificates-configure)
-
-
+    [Key trust model](/windows/security/identity-protection/hello-for-business/hello-identity-verification)
+[Certificate trust model with Intune](/intune/certificates-configure?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-[Key trust model](/windows/security/identity-protection/hello-for-business/hello-identity-verification)
-
-
-[Certificate trust model](/windows/security/identity-protection/hello-for-business/hello-key-trust-adfs)
-
-
+    [Key trust model](/windows/security/identity-protection/hello-for-business/hello-identity-verification?azure-portal=true)
+[Certificate trust model](/windows/security/identity-protection/hello-for-business/hello-key-trust-adfs?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-What are the multifactor authentication options?
-
-
+    What are the multifactor authentication options?
   :::column-end:::
   :::column:::
-    
-
-[Azure MFA](/azure/multi-factor-authentication/)
-
-
+    [Azure MFA](/azure/multi-factor-authentication/?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-[Azure MFA](/azure/multi-factor-authentication/)
-
-
+    [Azure MFA](/azure/multi-factor-authentication/?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-[Azure MFA](/azure/multi-factor-authentication/)
-
-
-[Azure MFA server](/azure/active-directory/authentication/howto-mfaserver-deploy)
-
-
-[Third-party MFA](/windows-server/identity/ad-fs/operations/configure-additional-authentication-methods-for-ad-fs)
-
-
+    [Azure MFA](/azure/multi-factor-authentication/?azure-portal=true)
+[Azure MFA server](/azure/active-directory/authentication/howto-mfaserver-deploy?azure-portal=true)
+[Third-party MFA](/windows-server/identity/ad-fs/operations/configure-additional-authentication-methods-for-ad-fs?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-What user account states are supported?
-
-
+    What user account states are supported?
   :::column-end:::
   :::column:::
-    
-
-Disabled accounts (up to 30-minute delay)
-
-
+    Disabled accounts (up to 30-minute delay)
   :::column-end:::
   :::column:::
-    
-
-Disabled accounts
-
-
+    Disabled accounts
 Account locked out
-
-
 Password expired
-
-
 Sign-in hours
-
-
   :::column-end:::
   :::column:::
-    
-
-Disabled accounts
-
-
+    Disabled accounts
 Account locked out
-
-
 Password expired
-
-
 Sign-in hours
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-What are the Conditional Access options?
-
-
+    What are the conditional access options?
   :::column-end:::
   :::column:::
-    
-
-[Azure AD Conditional Access](/azure/active-directory/active-directory-conditional-access-azure-portal)
-
-
+    [Azure AD conditional access](/azure/active-directory/active-directory-conditional-access-azure-portal?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-[Azure AD Conditional Access](/azure/active-directory/active-directory-conditional-access-azure-portal)
-
-
+    [Azure AD conditional access](/azure/active-directory/active-directory-conditional-access-azure-portal?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-[Azure AD Conditional Access](/azure/active-directory/active-directory-conditional-access-azure-portal)
-
-
+    [Azure AD conditional access](/azure/active-directory/active-directory-conditional-access-azure-portal?azure-portal=true)
 [AD FS claim rules](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator?azure-portal=true)
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Is blocking legacy protocols supported?
-
-
+    Is blocking legacy protocols supported?
   :::column-end:::
   :::column:::
-    
-
-[Yes](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-conditions#legacy-authentication?azure-portal=true)
-
-
+    [Yes](/azure/active-directory/active-directory-conditional-access-conditions#legacy-authentication?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-[Yes](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-conditions#legacy-authentication?azure-portal=true)
-
-
+    [Yes](/azure/active-directory/active-directory-conditional-access-conditions#legacy-authentication?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-[Yes](/windows-server/identity/ad-fs/operations/access-control-policies-w2k12)
-
-
+    [Yes](/windows-server/identity/ad-fs/operations/access-control-policies-w2k12?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Can you customize the logo, image, and description on the sign-in pages?
-
-
+    Can you customize the logo, image, and description on the sign-in pages?
   :::column-end:::
   :::column:::
-    
-
-[Yes, with Azure AD Premium](/azure/active-directory/customize-branding)
-
-
+    [Yes, with Azure AD Premium](/azure/active-directory/customize-branding?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-[Yes, with Azure AD Premium](/azure/active-directory/customize-branding)
-
-
+    [Yes, with Azure AD Premium](/azure/active-directory/customize-branding?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-[Yes](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-federation-management#customlogo?azure-portal=true)
-
-
+    [Yes](/azure/active-directory/connect/active-directory-aadconnect-federation-management#customlogo?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-What advanced scenarios are supported?
-
-
+    What advanced scenarios are supported?
   :::column-end:::
   :::column:::
-    
-
-[Smart password lockout](/azure/active-directory/active-directory-secure-passwords)
-
-
-[Leaked credentials reports](/azure/active-directory/active-directory-reporting-risk-events)
-
-
+    [Smart password lockout](/azure/active-directory/active-directory-secure-passwords?azure-portal=true)
+[Leaked credentials reports](/azure/active-directory/active-directory-reporting-risk-events?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-[Smart password lockout](/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-smart-lockout)
-
-
+    [Smart password lockout](/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-smart-lockout?azure-portal=true)
   :::column-end:::
   :::column:::
-    
-
-Multi-site low-latency authentication system
-
-
-[AD FS extranet lockout](/windows-server/identity/ad-fs/operations/configure-ad-fs-extranet-smart-lockout-protection)
-
-
-[Integration with third-party identity systems](/azure/active-directory/connect/active-directory-aadconnect-federation-compatibility)
-
-
+    Multi-site low-latency authentication system
+[AD FS extranet lockout](/windows-server/identity/ad-fs/operations/configure-ad-fs-extranet-smart-lockout-protection?azure-portal=true)
+[Integration with third-party identity systems](/azure/active-directory/connect/active-directory-aadconnect-federation-compatibility?azure-portal=true)
   :::column-end:::
 :::row-end:::
 

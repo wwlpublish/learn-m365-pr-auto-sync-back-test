@@ -1,3 +1,12 @@
+Planning network integration to Microsoft 365 begins with analyzing your network readiness. Microsoft provides several tools to help organizations test and validate their upload, download, and latency constraints. These tools are designed to help organizations determine the capabilities of their networks for both migration and after they're fully deployed.
+
+These network tools include:
+
+ -  **Microsoft Remote Connectivity Analyzer.** The Remote Connectivity Analyzer tool tests connectivity in your Exchange Online environment. For more information, see the [Microsoft Remote Connectivity Analyzer web site](https://testconnectivity.microsoft.com/?azure-portal=true).<br>
+ -  **Microsoft 365 Support and Recovery Assistant.** The Microsoft 365 Support and Recovery Assistant (SARA) can help you automatically diagnose and fix a range of Outlook problems. For more information, visit the [Office Support Center site for SARA](https://diagnostics.office.com/?azure-portal=true) to download the SARA tool.
+
+### Network integration
+
 When an organization integrates its network to Microsoft 365, it can achieve its best network performance when:
 
  -  It treats its Microsoft 365 network traffic as a trusted Internet service.

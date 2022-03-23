@@ -1,15 +1,16 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.identify-endpoints-required-to-function-properly
+uid: learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.identify-endpoints
 title: Identify the endpoints required for Microsoft 365 to function properly
 metadata:
   title: Identify the endpoints required for Microsoft 365 to function properly
   description: "Identify the endpoints required for Microsoft 365 to function properly"
-  ms.date: 06/30/2021
+  ms.date: 03/23/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 8
 content: |
-  [!include[](includes/7-identify-endpoints-required-to-function-properly.md)]
+  [!include[](includes/6-identify-endpoints.md)]
