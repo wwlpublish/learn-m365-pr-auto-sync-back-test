@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365.office-add-ins-outlook
 metadata:
-  title: Build Office add-ins for Outlook
-  description: This module walks through development of Office add-ins for Microsoft Outlook.
+  title: Build Office Add-ins for Outlook
+  description: This module walks through development of Office Add-ins for Microsoft Outlook.
   ms.date: 09/01/2020
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Build Office add-ins for Outlook
+title: Build Office Add-ins for Outlook
 summary: Microsoft Office clients enable developers to create add-ins that extend Microsoft Outlook with custom functionality. Through a JavaScript API, developers can access and edit the contents in an email or calendar event in Outlook from an app running in the client. In this module, you'll learn how to build an Outlook add-in that will render buttons in the compose message window, implement a button that invokes a function, and implement a task pane that inserts content into the body of a message.
 abstract: |
   By the end of this module, you'll be able to:
