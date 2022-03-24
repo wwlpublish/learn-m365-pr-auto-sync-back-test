@@ -21,32 +21,32 @@ quiz:
     choices:
     - content: "Azure AD Pass-through Authentication and Multi-factor authentication"
       isCorrect: false
-      explanation: "That's incorrect. This feature doesn't achieve the best experience using Microsoft Teams. Try again."
+      explanation: "Incorrect. This feature doesn't achieve the best experience using Microsoft Teams. Try again."
     - content: "Azure AD Connect and Password Hash Synchronization"
       isCorrect: false
-      explanation: "That's incorrect. This feature doesn't achieve the best experience using Microsoft Teams. Try again."
+      explanation: "Incorrect. This feature doesn't achieve the best experience using Microsoft Teams. Try again."
     - content: "Exchange Online and SharePoint Online"
       isCorrect: true
-      explanation: "That's correct. To achieve the best experience using Microsoft Teams, an organization should deploy Exchange Online and SharePoint Online, and it should ensure that its current environment is ready for Teams."
+      explanation: "Correct. To achieve the best experience using Microsoft Teams, an organization should deploy Exchange Online and SharePoint Online. It should also ensure that its current environment is ready for Teams."
   - content: "When implementing Microsoft Teams, organizations will experience degraded performance when which of the following network activities occurs?"
     choices:
     - content: "The burst packet loss from clients to Microsoft Edge is greater than 1% during any 15-second interval"
       isCorrect: false
-      explanation: "That's incorrect. This network activity won't result in degraded performance when implementing Teams. Try again."
+      explanation: "Incorrect. This network activity won't result in degraded performance when implementing Teams. Try again."
     - content: "The Round-trip time from clients to Microsoft Edge is greater than 50 ms"
       isCorrect: false
-      explanation: "That's incorrect. This network activity won't result in degraded performance when implementing Teams. Try again."
+      explanation: "Incorrect. This network activity won't result in degraded performance when implementing Teams. Try again."
     - content: "They actively block specific ports, or they don't open the correct ports"
       isCorrect: true
-      explanation: "That's correct. Organizations will experience degraded performance if they don't open the correct ports, or if they actively block specific ports."
+      explanation: "Correct. Organizations experience degraded performance if they don't open the correct ports, or if they actively block specific ports."
   - content: "As the Enterprise Administrator for Fabrikam, you're trying to decide which migration option will be the best fit for the company. Fabrikam currently uses a third-party mail system. Given this requirement, which of the following migration options must Fabrikam use?"
     choices:
     - content: "Cutover migration"
       isCorrect: false
-      explanation: "That's incorrect. This migration option shouldn't be used if you currently run a third-party mail system. Try again."
+      explanation: "Incorrect. This migration option shouldn't be used if you currently run a third-party mail system. Try again."
     - content: "Staged migration"
       isCorrect: false
-      explanation: "That's incorrect. This migration option shouldn't be used if you currently run a third-party mail system. Try again."
+      explanation: "Incorrect. This migration option shouldn't be used if you currently run a third-party mail system. Try again."
     - content: "IMAP migration"
       isCorrect: true
-      explanation: "That's correct. If you currently run a third-party mail system, you can only use IMAP or third-party tools as migration options."
+      explanation: "Correct. If you run a third-party mail system, you can only use IMAP or third-party tools as migration options."

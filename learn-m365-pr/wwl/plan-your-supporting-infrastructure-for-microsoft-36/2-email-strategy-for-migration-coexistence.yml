@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Hybrid configuration"
       isCorrect: true
-      explanation: "That's correct. When an organization wants to keep its on-premises Exchange servers, the recommended approach is to use a hybrid configuration."
+      explanation: "Correct. When an organization wants to keep its on-premises Exchange servers, the recommended approach is to use a hybrid configuration."
     - content: "Staged migration"
       isCorrect: false
-      explanation: "That's incorrect. This migration option does not meet Lucerne's requirement to keep its on-premises Exchange servers. Try again."
+      explanation: "Incorrect. This migration option does not meet Lucerne's requirement to keep its on-premises Exchange servers. Try again."
     - content: "Cutover migration"
       isCorrect: false
-      explanation: "That's incorrect. This migration option does not meet Lucerne's requirement to keep its on-premises Exchange servers. Try again."
+      explanation: "Incorrect. This migration option does not meet Lucerne's requirement to keep its on-premises Exchange servers. Try again."
