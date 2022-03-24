@@ -51,6 +51,7 @@ In the **Create an Azure Bot** blade, enter the following values and then select
 - **Subscription**: *Select the subscription you selected previously when creating the resource group*
 - **Resource group**: *Select the resource group you created previously*
 - **Pricing tier**: *Select a preferred pricing tier; the F0 tier is free*
+- **Type of App**: *Select Multi Tenant*
 - **Microsoft App ID**: Create new Microsoft App ID
 
 Select **Create**.
