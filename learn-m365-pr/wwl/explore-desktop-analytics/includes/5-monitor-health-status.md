@@ -10,7 +10,7 @@ Desktop Analytics monitors the following health status factors for apps:<br>
 > [!NOTE]
 > Desktop Analytics requires data from at least 20 devices, otherwise it reports *Insufficient data* for the app.
 
-:::image type="content" source="../media/da_monitor-health-f7b637e5.png" alt-text="Screenshot of Monitor Health screen in Desktop Analytics":::
+:::image type="content" source="../media/desktop-analytics-monitor-health-d6c537c7.png" alt-text="Screenshot of Monitor Health screen in Desktop Analytics":::
 
 
 Monitor Health also provides additional information such as:

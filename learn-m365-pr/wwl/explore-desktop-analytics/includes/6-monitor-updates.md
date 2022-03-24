@@ -1,6 +1,6 @@
 In the Desktop Analytics portal, you can view the status of security and feature updates. Select these nodes in the Monitor group of the Desktop Analytics main menu to give you insights into the status of these updates in your environment.
 
-:::image type="content" source="../media/da_security-updates-0394e7fe.png" alt-text="Screenshot of Monitor Health screen in Desktop Analytics":::
+:::image type="content" source="../media/desktop-analytics-security-updates-f11bcc83.png" alt-text="Screenshot of Monitor Health screen in Desktop Analytics":::
 
 
 Security updates are categorized into:
