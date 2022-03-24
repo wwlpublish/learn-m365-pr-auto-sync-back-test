@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Fix potential deployment blockers"
       isCorrect: false
-      explanation: "That's incorrect. Fixing potential deployment blockers isn't the next step once you've determined your organization's goals. Try again."
+      explanation: "Incorrect. Fixing potential deployment blockers isn't the next step once you've determined your organization's goals. Try again."
     - content: "Set up Microsoft 365 services to work for your organization"
       isCorrect: false
-      explanation: "That's incorrect. Setting up Microsoft 365 services isn't the next step once you've determined your organization's goals. Try again."
+      explanation: "Incorrect. Setting up Microsoft 365 services isn't the next step once you've determined your organization's goals. Try again."
     - content: "Inventory the current environment"
       isCorrect: true
-      explanation: "That's correct. Once you've determined your organization's goals, the next step is to inventory your current environment."
+      explanation: "Correct. Once you've determined your organization's goals, the next step is to inventory your current environment."
