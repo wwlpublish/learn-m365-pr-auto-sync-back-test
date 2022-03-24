@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-device-authentication.manage-devices-joined-azure-ad
+title: Manage devices joined to Azure AD
+metadata:
+  title: Manage devices joined to Azure AD
+  description: "Manage devices joined to Azure AD"
+  ms.date: 03/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 1
+content: |
+  [!include[](includes/5-manage-devices-joined-azure-active-directory.md)]

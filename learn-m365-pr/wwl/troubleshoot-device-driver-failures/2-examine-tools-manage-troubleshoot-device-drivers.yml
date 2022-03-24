@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-device-driver-failures.examine-tools-managing-troubleshooting-device-drivers
+title: Examine tools for managing and troubleshooting device drivers
+metadata:
+  title: Examine tools for managing and troubleshooting device drivers
+  description: "Examine tools for managing and troubleshooting device drivers"
+  ms.date: 03/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/2-examine-tools-manage-troubleshoot-device-drivers.md)]
