@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-device-driver-failures.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Using signed drivers ensures which of the following situations?"
+    choices:
+    - content: "The driver will work with the installed hardware"
+      isCorrect: false
+      explanation: "Incorrect. Driver signing isn't related to hardware compatibility. Try again."
+    - content: "The source of the driver is authentic"
+      isCorrect: true
+      explanation: "Correct. Signed drivers ensure the driver package came from the claimed source."
+    - content: "The driver will be compatible with the target operating system"
+      isCorrect: false
+      explanation: "Incorrect. Digital signatures are not related to OS compatibility. Try again."
+  - content: "Joseph's Windows 10 laptop won't start normally due to a malfunctioning driver. Joseph wants to use the Driver Roll Back feature to reinstall the last version of the problematic driver. However, to start the laptop so that he can use the Driver Roll Back feature, what's the recommended step that Joseph should complete?"
+    choices:
+    - content: "Start the computer in safe mode"
+      isCorrect: true
+      explanation: "Correct. If a malfunctioning driver is preventing Windows from starting normally, you can start the computer in safe mode and then use the Roll Back Driver option."
+    - content: "Build a recovery disk, make a complete image backup of all drives with BCD partitions on them, boot from the recovery disk, and restore the backup image"
+      isCorrect: false
+      explanation: "Incorrect. While these actions can be used to recover a PC, they aren't the recommended step to start a PC due to a corrupted device driver. Try again."
+    - content: "Replace the current OS with a backup you create using the System Image Recovery tool"
+      isCorrect: false
+      explanation: "Incorrect. While these actions can be used to recover a PC, they aren't the recommended step to start a PC due to a corrupted device driver. Try again."
+  - content: "Having Windows automatically install a device driver is a two-step process. What's the first step?"
+    choices:
+    - content: "Assign administrative permissions to the user who will initiate driver installation from the driver store"
+      isCorrect: false
+      explanation: "Incorrect. A standard user can initiate installation of the driver from the driver store, because it does not require administrative permissions. Try again."
+    - content: "Add the driver package into the driver store"
+      isCorrect: true
+      explanation: "Correct. Installing a device driver in Windows is a two-step process. During staging, you add the driver package into the driver store. You can do this regardless of whether the device is attached to the computer. You must use administrator credentials to add the device driver package into the driver store. The second step is the driver’s installation from the driver store. The driver is installed when Windows detects an attached device that would need the driver for the first time. A standard user can perform the second step, because it does not require administrative permissions."
+    - content: "Customize the locations that Windows will search for a matching driver package"
+      isCorrect: false
+      explanation: "Incorrect. Windows will only search for driver locations if the device driver isn't in the driver store. Try again."
+  - content: "Windows is very user friendly in that any user can start using devices without any assistance. As long as a driver package is in the driver store, any user can connect a device, and the driver installation will begin. Contoso has found this to be challenging for its IT department, who at times has been unable to support such a broad range of devices. Contoso doesn't want to prevent users from connecting USB devices to their USB ports. Such a solution isn't very flexible, and it would be almost impossible for Contoso to manage given its staffing issues. Instead, Contoso has chosen to implement a built-in Windows feature that will enable it to restrict certain types of USB devices and installation of all devices that aren't explicitly allowed. What is this Windows feature?"
+    choices:
+    - content: "Device Manager"
+      isCorrect: false
+      explanation: "Incorrect. Device Manager doesn't provide the ability to restrict installation of specific devices while allowing installation of others. Try again."
+    - content: "The pnputil.exe command line utility"
+      isCorrect: false
+      explanation: "Incorrect. The pnputil.exe command line utility is used to manage the driver store. Try again."
+    - content: "Group Policy settings"
+      isCorrect: true
+      explanation: "Correct. Windows includes several Group Policy settings that control installation of devices and device drivers. This enables you to restrict installation of specific devices, but allows installation of all others devices. For example, you can use these Group Policy settings to restrict certain types of USB devices and installation of all devices that are not allowed explicitly, such as USB keys that are not company-approved."
+  - content: "A user installed a new hardware device and now is reporting problems. What's the most widely used Windows tool to perform initial hardware-related troubleshooting?"
+    choices:
+    - content: "The System Information tool"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the most widely used Windows tool for performing initial hardware-related troubleshooting. Try again."
+    - content: "The Reliability and Performance Monitor tools"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the most widely used Windows tool for performing initial hardware-related troubleshooting. Try again."
+    - content: "The Device Manager tool"
+      isCorrect: true
+      explanation: "Correct. Windows has several tools that you can use if you need to list installed devices, change device settings, or troubleshoot devices that don't work correctly. Device Manager is the most widely used tool for this purpose. It provides a list of all detected devices and the resources that they use."
