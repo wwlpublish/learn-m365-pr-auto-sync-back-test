@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-edge-browser.troubleshoot-common-microsoft-edge-issues
+title: Troubleshoot common Microsoft Edge issues
+metadata:
+  title: Troubleshoot common Microsoft Edge issues
+  description: "Troubleshoot common Microsoft Edge issues"
+  ms.date: 03/22/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/8-troubleshoot-common-microsoft-edge-issues.md)]

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.employ-remote-management.use-remote-assistance
+title: Use Remote Assistance
+metadata:
+  title: Use Remote Assistance
+  description: "Use Remote Assistance"
+  ms.date: 03/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-use-remote-assistance.md)]
