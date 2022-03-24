@@ -10,7 +10,7 @@ These issues and other end-user experience problems persist because IT doesn't h
 
 Endpoint analytics aims to improve user productivity and reduce IT support costs by providing insights into the user experience. The insights enable IT to optimize the end-user experience with proactive support and to detect regressions to the user experience by assessing user impact of configuration changes.
 
-### Scoring
+### Score
 
 Endpoint analytics scores range from 0 to 100. Lower scores indicate there's room for improvement. Scores help you understand the relative impact of each metric in your environment. There's a built-in baseline for All organizations (median), which allows you to compare your scores to a typical enterprise. For instance, when reviewing your startup score, you find that overall your score of 61 is higher than the baseline of 50 for all organizations. You can create new baselines based on your current metrics so you can track progress or view regressions over time.
 
@@ -22,7 +22,7 @@ Scores are aggregated across all devices. Endpoint analytics also shows some sco
 :::image type="content" source="../media/8816759-per-device-scores-chart-014d10e0.png" alt-text="8816759-per-device-scores-chart.png":::
 
 
-### Filtering
+### Filter
 
 Use the Add filter option on tables to display items that match your criteria. You can add more filters to drill further into your data. Using filters enables you to discover trends in your environment or spot potential issues. For instance, in the Device performance tab of the Startup performance report, you might use a filter to identify devices with a high Time to responsive desktop. After reviewing your filtered data, you add another filter to include devices with a high Group Policy sign-in time. With the additional filter, you can gauge the impact Group Policy has on the user experience for devices that take a long time to get to a responsive desktop.
 
