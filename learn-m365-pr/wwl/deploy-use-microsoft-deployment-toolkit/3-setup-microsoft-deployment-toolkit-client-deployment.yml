@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-use-microsoft-deployment-toolkit.setup-microsoft-deployment-toolkit-client-deployment
+title: Setup the Microsoft Deployment Toolkit for client deployment
+metadata:
+  title: Setup the Microsoft Deployment Toolkit for client deployment
+  description: "Setup the Microsoft Deployment Toolkit for client deployment"
+  ms.date: 03/24/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/3-setup-microsoft-deployment-toolkit-client-deployment.md)]

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-use-microsoft-deployment-toolkit.evaluate-traditional-deployment-methods
+title: Evaluate traditional deployment methods
+metadata:
+  title: Evaluate traditional deployment methods
+  description: "Evaluate traditional deployment methods"
+  ms.date: 03/24/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-evaluate-traditional-deployment-methods.md)]

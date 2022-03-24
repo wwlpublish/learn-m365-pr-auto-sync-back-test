@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn.wwl.deploy-use-microsoft-deployment-toolkit
+metadata:
+  title: Deploy using the Microsoft Deployment Toolkit
+  description: "Discusses the shifts from traditional to modern management and where on-premises solutions best fit in today’s enterprise."
+  ms.date: 03/24/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Deploy using the Microsoft Deployment Toolkit
+summary: Discusses the shifts from traditional to modern management and where on-premises solutions best fit in today’s enterprise.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe the fundamentals of using images in traditional deployment methods.
+  - Describe the key benefits, limitations, and decisions when planning a deployment of - Windows using Microsoft Deployment Toolkit (MDT).
+  - Describe how Configuration Manager builds upon MDT and how both can work in harmony.
+  - Explain the different options and considerations when choosing the user interaction experience during deployment, and which methods and tools support these experiences.
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+- microsoft-deployment-toolkit
+units:
+- learn.wwl.deploy-use-microsoft-deployment-toolkit.introduction
+- learn.wwl.deploy-use-microsoft-deployment-toolkit.evaluate-traditional-deployment-methods
+- learn.wwl.deploy-use-microsoft-deployment-toolkit.setup-microsoft-deployment-toolkit-client-deployment
+- learn.wwl.deploy-use-microsoft-deployment-toolkit.manage-deploy-images-using-microsoft-deployment-toolkit
+- learn.wwl.deploy-use-microsoft-deployment-toolkit.knowledge-check
+- learn.wwl.deploy-use-microsoft-deployment-toolkit.summary
+badge:
+  uid: learn.wwl.deploy-using-microsoft-deployment-toolkit.badge
