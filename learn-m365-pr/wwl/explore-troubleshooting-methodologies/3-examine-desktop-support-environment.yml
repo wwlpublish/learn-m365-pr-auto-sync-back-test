@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-troubleshooting-methodologies.examine-desktop-support-environment
+title: Examine the Desktop Support Environment
+metadata:
+  title: Examine the Desktop Support Environment
+  description: "Examine the Desktop Support Environment"
+  ms.date: 03/22/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-examine-desktop-support-environment.md)]

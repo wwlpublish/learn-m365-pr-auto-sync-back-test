@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.update-windows-clients.use-wsus-server-deploy-updates
+title: Use a WSUS server to deploy updates
+metadata:
+  title: Use a WSUS server to deploy updates
+  description: "Use a WSUS server to deploy updates"
+  ms.date: 03/22/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-use-windows-server-update-services-server-deploy-updates.md)]

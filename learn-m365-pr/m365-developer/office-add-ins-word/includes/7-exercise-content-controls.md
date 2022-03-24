@@ -120,12 +120,12 @@ In this exercise, you'll learn how to create rich text content controls in the d
 ### Test the add-in
 
 1. Repeat the steps from the previous exercise to sideload the add-in.
-1. If the add-in task pane isn't already open, from the **Home** tab, select **Show Task pane**.
+1. If the add-in task pane isn't already open, from the **Home** tab, select **Show Taskpane**.
 1. In the task pane, select the **Insert Paragraph** button to ensure that there's a paragraph with "Microsoft 365" at the top of the document.
 1. In the document, select the text "Microsoft 365" and then select the **Create Content Control** button. The phrase is wrapped in tags labeled "Service Name".
 1. Select the **Rename Service** button and note that the text of the content control changes to "Fabrikam Online Productivity Suite".
 
-![Word tutorial - Create Content Control and Change its Text](../media/07-word-tutorial-content-control-2.png)
+![Screenshot of content control created and changed by tutorial in Word.](../media/07-word-tutorial-content-control-2.png)
 
 ## Summary
 
