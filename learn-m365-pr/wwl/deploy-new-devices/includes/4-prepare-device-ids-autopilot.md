@@ -29,7 +29,7 @@ You must perform the first step—uploading device specific information, includi
 
 To deploy devices by using Windows Autopilot, you must first obtain the CSV file that contains the device specific information.
 
-### **Get the CSV file from your OEM partner**
+### Get the CSV file from your OEM partner
 
 If your OEM partner supports Windows Autopilot, you can obtain a CSV file from them when you purchase the devices. You can also generate a device specific CSV file yourself, based on the device inventory. The CSV file should have the following three columns:
 
@@ -37,7 +37,7 @@ If your OEM partner supports Windows Autopilot, you can obtain a CSV file from t
  -  Windows Product ID
  -  Hardware Hash
 
-### **Generate your own CSV file**
+### Generate your own CSV file
 
 If the OEM partner does not provide a CSV file, you can generate a device specific file by obtaining and running the Get-WindowsAutopilotInfo.ps1 Windows PowerShell script. You can install the script by running the following cmdlet:
 
@@ -47,7 +47,7 @@ After installing the script, you can generate device specific information and sa
 
 `Get-WindowsAutopilotInfo.ps1 –OutputFile D:\\Devices\\Device1.csv`
 
-### **Upload the device specific CSV file**
+### Upload the device specific CSV file
 
 To do this, you must have the Admin role in Microsoft Store for Business or Global admin role in Intune. When you upload a CSV file, you will receive a notification if the upload was successful and the number of devices that were added. If there was any error, for example, if the CSV file was not formatted properly or some devices were already in Microsoft Store for Business, you can download the CSV file with error information and URLs that point to detailed error descriptions, and then you can review the details.
 
@@ -61,10 +61,10 @@ To complete this process using Intune, use the following procedure:
 4.  After import is complete, select **Device enrollment**, select **Windows enrollment**, select **Windows Autopilot**, select **Devices** and then select **Sync**.
 5.  Refresh the view to see the new devices.
 
-:::image type="content" source="../media/windows-autopilot-service1-f3b88858.png" alt-text="Diagram showing the device ID process. Vendors or the Customer upload the device IDs to the Autopilot service. Customers create the deployment profile and the employee unboxes the device and self-deploys.":::
+:::image type="content" source="../media/windows-autopilot-service-1-06a2bc34.png" alt-text="Diagram showing the device ID process. Vendors or the Customer upload the device IDs to the Autopilot service. Customers create the deployment profile and the employee unboxes the device and self-deploys.":::
 
 
-### **Import a device hash directly into Intune**
+### Import a device hash directly into Intune
 
 In certain circumstances, it may be beneficial to directly import the device hash into Microsoft Intune rather than generating the file as shown above. This is often useful in testing scenarios or perhaps could be useful if you have a batch of machines that are being built by onsite technicians ready for users.
 

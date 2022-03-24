@@ -4,4 +4,4 @@ Windows 10 introduces a new OS deployment method called Windows Autopilot. Windo
 
  -  [Windows Autopilot Deployment Scenarios](/mem/autopilot/user-driven)
  -  [Create device groups for Windows Autopilot](/mem/autopilot/enrollment-autopilot)
- -  [Troubleshooting Windows Autopilot](/mem/autopilot/troubleshooting).<br>
+ -  [Troubleshooting Windows Autopilot](/mem/autopilot/troubleshooting)

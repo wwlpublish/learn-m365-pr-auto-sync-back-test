@@ -109,7 +109,7 @@ Windows Autopilot Reset supports two scenarios:<br>
  -  Local reset
  -  Remote reset
 
-#### **Local Windows Autopilot Reset**
+#### Local Windows Autopilot Reset
 
 Local Windows Autopilot Reset uses Windows reset functionality. You can use local Windows Autopilot Reset regardless of how you're currently managing a device. It preserves device name, Azure AD membership, and MDM enrollment.
 
@@ -117,7 +117,7 @@ By default, local Windows Autopilot Reset is disabled in Windows, which helps en
 
 After enabling local Windows Autopilot Reset, you can start it by pressing *Ctrl+Windows logo key+R* when you're at the Windows lock screen. Only users with administrative permissions can start local Windows Autopilot Reset.
 
-#### **Remote Windows Autopilot Reset**
+#### Remote Windows Autopilot Reset
 
 Remote Windows Autopilot Reset uses Windows reset functionality. You can use local Windows Autopilot Reset regardless of how you're currently managing a device. You use Intune to initiate a remote Windows Autopilot Reset following these steps:
 
