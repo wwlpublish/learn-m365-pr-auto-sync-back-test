@@ -3,7 +3,7 @@ uid: learn-m365.embedded-web-experiences.6-implement-tab-authentication
 metadata:
   title: Implement authentication in a custom tab
   description: In this unit, you'll learn how to implement authentication with Microsoft Teams tabs.
-  ms.date: 09/13/2021
+  ms.date: 03/08/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
