@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Using Single Sign-On (SSO) with Office Add-ins
-summary: Office Add-ins can access information from anywhere on the internet, whether from the server that hosts the add-in, from your internal network, or from somewhere else in the cloud. If that information is protected, your add-in needs a way to authenticate your user. Office Add-ins provide a number of different methods to authenticate using single sign-on (SSO), depending on your specific scenario. In this module, you'll learn how to implement single sign-on (SSO) and call the Microsoft Graph in Word, Excel, and Outlook Add-ins.
+summary: Office Add-ins can access information from anywhere on the internet, whether from the server that hosts the add-in, from your internal network, or from somewhere else in the cloud. If that information is protected, your add-in needs a way to authenticate your user. Office Add-ins provide a number of different methods to authenticate using single sign-on (SSO), depending on your specific scenario. In this module, you'll learn how to implement single sign-on (SSO) and call the Microsoft Graph in Word, Excel, and Outlook add-ins.
 abstract: |
   By the end of this module, you'll be able to:
   - Understand how Office Add-ins can leverage SSO to call Microsoft Graph
