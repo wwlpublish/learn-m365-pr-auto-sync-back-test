@@ -2,7 +2,7 @@ In this exercise, you'll learn how to create your first Outlook add-in project a
 
 ## Prerequisites
 
-Developing Office add-ins for Microsoft Outlook requires Outlook 2016 or later. You might need to be an Office Insider to get this version. For more information, see [Be an Office Insider](https://insider.office.com/?tab=tab-1).
+Developing Office Add-ins for Microsoft Outlook requires Outlook 2016 or later. You might need to be an Office Insider to get this version. For more information, see [Be an Office Insider](https://insider.office.com/?tab=tab-1).
 
 You'll use Node.js to create the custom Outlook add-in in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
 
@@ -83,7 +83,7 @@ The add-in that you'll create in this tutorial will read [gists](https://gist.gi
     - **What do you want to name your add-in?** - Git the gist
     - **Which Office client application would you like to support?** - Outlook
 
-    ![A screenshot of the prompts and answers for the Yeoman generator](../media/03-yeoman-prompts-2.png)
+    ![Screenshot of the prompts and answers for the Yeoman generator.](../media/03-yeoman-prompts-2.png)
 
     After you complete the wizard, the generator will create the project and install supporting Node components.
 
@@ -145,7 +145,7 @@ Before going any further, let's test the basic add-in that the generator created
 
 1. In Outlook, open an existing message, and select the **Show Taskpane** button. If set up correctly, the task pane will open and render the add-in's welcome page.
 
-![A screenshot of the button and task pane added by the sample](../media/03-button-and-pane.png)
+![Screenshot of button and task pane added by the sample.](../media/03-button-and-pane.png)
 
 ## Summary
 

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.employ-remote-management.describe-windows-admin-center
+title: Describe Windows Admin Center
+metadata:
+  title: Describe Windows Admin Center
+  description: "Describe Windows Admin Center"
+  ms.date: 03/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-describe-windows-admin-center.md)]
