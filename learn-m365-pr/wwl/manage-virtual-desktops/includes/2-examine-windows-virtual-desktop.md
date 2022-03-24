@@ -11,7 +11,7 @@ Azure Virtual Desktop is easier to deploy and manage than traditional Remote Des
 
 Azure Virtual Desktop provides virtualization infrastructure as a managed service. Microsoft manages the infrastructure, which includes the web client, diagnostics, management, broker, load balancing, and the gateway. As the customer, all you need to manage are the images, apps, and the desktops experience, while managing the profiles, scaling, network policies, and user identities to facilitate the deployment.
 
-:::image type="content" source="../media/wvd-management-ownership-7c5ae6b1.png" alt-text="Diagram that shows what's managed my Microsoft and what's managed by you.":::
+:::image type="content" source="../media/window-virtual-desktop-management-ownership-489dd741.png" alt-text="Diagram that shows what's managed my Microsoft and what's managed by you.":::
 
 
 ### When to choose Azure Virtual Desktop

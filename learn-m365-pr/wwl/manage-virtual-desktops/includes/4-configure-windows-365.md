@@ -4,10 +4,10 @@ Setting up Windows 365 is primarily done in the Endpoint Manager admin center. T
 
 Before a user can use a Cloud PC, you must assign a Windows 365 license to that user. You can assign the licenses to users or groups using one of the administrative portals or PowerShell. To assign licenses using the Azure AD admin center, perform the following.
 
-1.  Sign in to the Azure AD admin center with a license administrator account.<br>
-2.  Select **Licenses** to open a page where you can see and manage all licensable products in the organization.<br>
-3.  Select a user or group, and then use the **Select** button at the bottom of the page to confirm your selection.<br>
-4.  Under All products, select **Windows 365.** Select **Assign** at the top of the page.<br>
+1.  Sign in to the Azure AD admin center with a license administrator account.
+2.  Select **Licenses** to open a page where you can see and manage all licensable products in the organization.
+3.  Select a user or group, and then use the **Select** button at the bottom of the page to confirm your selection.
+4.  Under All products, select **Windows 365.** Select **Assign** at the top of the page.
 5.  On the Assign license page, select **Users and groups** to open a list of users and groups.
 6.  Select **Assign** at the bottom of the page.
 
@@ -19,8 +19,10 @@ To create an on-premises network connection:
 
 1.  Sign in to the Microsoft Endpoint Manager admin center with an account that is an Intune Administrator in Azure AD and has owner permissions to the virtual network in the Azure subscription.
 2.  Select **Devices** &gt; **Windows 365** (under **Provisioning**) &gt; **On-premises network connection** &gt; **Create connection**.
-3.  On the **Network details** page, enter a **Name** for the new connection. The connection name must be unique within the customer tenant.<br><br>:::image type="content" source="../media/connection-name-c4ff26d6.png" alt-text="Screenshot of connection name":::
-    <br><br>
+3.  On the **Network details** page, enter a **Name** for the new connection. The connection name must be unique within the customer tenant.
+    
+    :::image type="content" source="../media/connection-name-c4ff26d6.png" alt-text="Screenshot of connection name":::
+    
 4.  Select a **Subscription** and **Resource group** for the new connection. Create a new resource group or select an existing one that contains your Cloud PC resources.
 5.  Select a **Virtual network** and **Subnet** and select **Next**.
 6.  On the **AD domain** page, provide the **AD domain name**, **Organizational unit** (optional) and an **AD domain username and password** for the service account used for connecting the Cloud PCs to your Active Directory domain.
@@ -42,8 +44,10 @@ Cloud PCs are created and assigned to users based on provisioning policies. Afte
 
 Creating a provisioning policy requires the following steps:
 
-1.  Sign in to the Microsoft Endpoint Manager admin center, select **Devices** &gt; **Windows 365** &gt; **Provisioning policies** &gt; **Create policy**.<br><br>:::image type="content" source="../media/create-policy-bd0ad87a.png" alt-text="Screenshot of create policy,":::
-    <br><br>
+1.  Sign in to the Microsoft Endpoint Manager admin center, select **Devices** &gt; **Windows 365** &gt; **Provisioning policies** &gt; **Create policy**.
+    
+    :::image type="content" source="../media/create-policy-bd0ad87a.png" alt-text="Screenshot of create policy,":::
+    
 2.  On the **General** page, enter a **Name** for the new policy.
 3.  For **On-premises network connection**, select the connection to use for this policy &gt; **Next**.
 4.  On the **Image** page, for **Image type**, select one of the following options:

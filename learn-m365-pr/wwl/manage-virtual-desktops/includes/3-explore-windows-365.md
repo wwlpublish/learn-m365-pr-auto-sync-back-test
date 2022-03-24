@@ -73,7 +73,7 @@ While setting up AVD has more complexity, because the customer is managing the V
 
 Users can navigate to [https://windows365.microsoft.com](https://windows365.microsoft.com/) to access their Cloud PCs, connecting through Remote Desktop.
 
-:::image type="content" source="../media/cloudpc-gear-c7844c37.png" alt-text="cloudpc-gear.png":::
+:::image type="content" source="../media/cloud-personal-computer-gear-04bac88c.png" alt-text="cloudpc-gear.png":::
 
 
 The Remote Desktop client is available for Windows, macOS, iOS/iPadOS and Android.

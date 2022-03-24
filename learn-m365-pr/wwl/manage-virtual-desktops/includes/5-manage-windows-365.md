@@ -26,17 +26,19 @@ The Reprovision remote action lets admins reprovision Cloud PCs. When a reprovis
 
 To reprovision a Cloud PC, perform the following steps:
 
-1.  Sign in to the Microsoft Endpoint Manager admin center, select **Devices** &gt; **All Devices** &gt; choose a Cloud PC device &gt; **Reprovision**.<br><br><br>:::image type="content" source="../media/reprovision-5de0ba6b.png" alt-text="Screenshot of Endpoint Manager admin center showing a device selected and highlighting the Reprovision button.":::
-    <br>
+1.  Sign in to the Microsoft Endpoint Manager admin center, select **Devices** &gt; **All Devices** &gt; choose a Cloud PC device &gt; **Reprovision**.
+    
+    :::image type="content" source="../media/reprovision-5de0ba6b.png" alt-text="Screenshot of Endpoint Manager admin center showing a device selected and highlighting the Reprovision button.":::
+    
 2.  In the Reprovision box, select **Yes**. The reprovision process will begin.
 
 After the new Cloud PC is created, Windows 365 sends access information to the new user.<br>
 
-### Resize a Cloud PC<br>
+### Resize a Cloud PC
 
 The Resize remote action lets you upgrade a Cloud PC’s RAM, CPU, and storage size. This is useful if the requirements of a user change over time, such as running more CPU intensive applications or need more disk storage. When choosing an initial size, keep in mind that resizing only allows increasing storage; you will not be able to resize to a lower storage allocation.
 
-To resize a Cloud PC, the following are required:<br>
+To resize a Cloud PC, the following are required:
 
  -  The admin must have either Global Admin or the Intune Service Admin Azure AD role
  -  The Cloud PC must have a status of provisioned.
@@ -44,7 +46,9 @@ To resize a Cloud PC, the following are required:<br>
 
 Resizing a Cloud PC involves the following steps:
 
-1.  Sign in to the Microsoft Endpoint Manager admin center, select **Devices** &gt; **All Devices** &gt; choose a device &gt; **Resize**.<br><br>:::image type="content" source="../media/resize-6b7faa89.png" alt-text="Screenshot of resize a Cloud PC.":::
-    <br><br>
+1.  Sign in to the Microsoft Endpoint Manager admin center, select **Devices** &gt; **All Devices** &gt; choose a device &gt; **Resize**.
+    
+    :::image type="content" source="../media/resize-6b7faa89.png" alt-text="Screenshot of resize a Cloud PC.":::
+    
 2.  You’ll see a list with all the possible SKUs that you can upgrade to. Select one of the available options.
 3.  Select **Resize**. If there are available licenses the upgrade will take place, otherwise resizing will fail.
