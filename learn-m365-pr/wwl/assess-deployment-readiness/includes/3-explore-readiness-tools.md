@@ -13,5 +13,3 @@ Desktop Analytics also uses this information to help generate deployment plans. 
 #### Endpoint Analytics
 
 Endpoint analytics is a cloud-based service that provides insights for measuring how your organization is working and the quality of the experience you're delivering to your users. Endpoint Analytics provides Windows 11 hardware readiness reports in the Work from Anywhere report. This report shows which devices are capable of running Windows 11, and lists reasons for devices that do not meet Windows 11 readiness. While Endpoint Analytics can leverage devices that are managed in Configuration Manager and co-managed devices, unlike Desktop Analytics, Endpoint Analytics does not require Configuration Manager.
-
-#### 

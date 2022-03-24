@@ -3,7 +3,7 @@ uid: learn.wwl.assess-deployment-readiness
 metadata:
   title: Assess deployment readiness
   description: "Discusses some of the tools that you can use to perform detailed assessments of existing deployments, and describes some of the challenges that you may face."
-  ms.date: 03/17/2022
+  ms.date: 03/24/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -18,7 +18,6 @@ abstract: |
   - Describe the methods of identifying and mitigating application compatibility issues.
   - Explain considerations for planning a phased rollout.
 prerequisites: |
-  Students should have:
   - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
   - Strong understanding of computer networking, client security, and application concepts
   - Experience using Active Directory Domain Services
