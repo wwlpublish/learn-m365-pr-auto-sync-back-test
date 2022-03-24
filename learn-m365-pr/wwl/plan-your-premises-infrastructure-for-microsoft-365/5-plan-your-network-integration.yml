@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Avoid VPN tunneling through other company locations"
       isCorrect: true
-      explanation: "That's correct. All locations should use a direct connection to Microsoft 365 and not use VPN tunneling to route through other company locations."
+      explanation: "Correct. All locations should use a direct connection to Microsoft 365 and not use VPN tunneling to route through other company locations."
     - content: "Require user authentication on outbound proxies"
       isCorrect: false
-      explanation: "That's incorrect. If your outbound proxies require user authentication you may experience slow connectivity or a loss of functionality. Try again."
+      explanation: "Incorrect. If your outbound proxies require user authentication you may experience slow connectivity or a loss of functionality. Try again."
     - content: "Locate your more active network systems between a client and the Microsoft 365 resource"
       isCorrect: false
-      explanation: "That's incorrect. The more active network systems are located between a client and the Microsoft 365 resources, the worse the overall connection quality and experience when using Microsoft 365. Try again."
+      explanation: "Incorrect. The more active network systems are located between a client and the Microsoft 365 resources, the worse the overall connection quality and experience when using Microsoft 365. Try again."

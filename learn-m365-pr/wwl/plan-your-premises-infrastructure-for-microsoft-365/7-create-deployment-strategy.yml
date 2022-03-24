@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Password Hash Synchronization + Seamless SSO"
       isCorrect: false
-      explanation: "That's incorrect. For this strategy, authentication occurs in the cloud. Try again."
+      explanation: "Incorrect. For this strategy, authentication occurs in the cloud. Try again."
     - content: "Federation with AD FS"
       isCorrect: true
-      explanation: "That's correct. Authentication occurs on-premises when implementing Federation with AD FS."
+      explanation: "Correct. Authentication occurs on-premises when implementing Federation with AD FS."
     - content: "Azure AD Pass-Through Authentication + Seamless SSO"
       isCorrect: false
-      explanation: "That's incorrect. For this strategy, authentication occurs in the cloud after a secure password verification exchange with the on-premises authentication agent. Try again."
+      explanation: "Incorrect. For this strategy, authentication occurs in the cloud after a secure password verification exchange with the on-premises authentication agent. Try again."

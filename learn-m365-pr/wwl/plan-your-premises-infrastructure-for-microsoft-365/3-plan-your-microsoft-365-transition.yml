@@ -17,14 +17,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As Fabrikam's Enterprise Administrator, you're using Microsoft's Deployment Planning Checklist to help keep your Microsoft 365 deployment on schedule. You have determined your deployment goals and inventoried your current environment. Which of the following tasks should you do next?"
+  - content: "As Fabrikam's Enterprise Administrator, you're using the sample deployment planning checklist provided in this training to help keep your Microsoft 365 deployment on schedule. You determined your deployment goals and inventoried your current environment. Which of the following tasks should you do next?"
     choices:
     - content: "Collect details about any intranet sites that you plan to migrate"
       isCorrect: false
-      explanation: "That's incorrect. This task would be performed when you inventory your current environment. Try again."
+      explanation: "Incorrect. This task would be performed when you inventory your current environment. Try again."
     - content: "Prepare for directory synchronization"
       isCorrect: false
-      explanation: "That's incorrect. This task would be performed when you set up Microsoft 365 services to work for your organization. Try again."
+      explanation: "Incorrect. This task would be performed when you set up Microsoft 365 services to work for your organization. Try again."
     - content: "Update client software versions"
       isCorrect: true
-      explanation: "That's correct. After determining your deployment goals and taking inventory of your current environment, the next step in the Deployment Planning Checklist is to fix potential deployment blockers. Updating client software versions is one of the tasks that should be completed within this step."
+      explanation: "Correct. After you determine your deployment goals and take inventory of your current environment, the next step in the sample deployment planning checklist provided in this training is to fix potential deployment blockers. Updating client software versions is one of the tasks that should be completed within this step."

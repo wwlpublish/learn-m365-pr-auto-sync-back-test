@@ -21,13 +21,13 @@ quiz:
     choices:
     - content: "Password Hash Synchronization"
       isCorrect: false
-      explanation: "That's incorrect. This strategy has more setup requirements than the correct answer. Try again."
+      explanation: "Incorrect. This strategy has more setup requirements than the correct answer. Try again."
     - content: "Cloud Only"
       isCorrect: true
-      explanation: "That's correct. This strategy has the least setup compared to the other identity strategies - all that is needed is a subscription and a sign-in account."
+      explanation: "Correct. This strategy has the least setup compared to the other identity strategies. All that's needed is a subscription and a sign-in account."
     - content: "Azure AD Pass-Through Authentication"
       isCorrect: false
-      explanation: "That's incorrect. This strategy has more setup requirements than the correct answer. Try again."
+      explanation: "Incorrect. This strategy has more setup requirements than the correct answer. Try again."
   - content: "Tailspin Toys wants to remediate Active Directory identity issues when onboarding to Microsoft 365. It wants to specifically focus on the Windows Server Active Directory errors reported by Azure AD Connect Cloud Sync, which Tailspin plans to use as its directory synchronization tool. What should Tailspin Toys do to help clean up its Active Directory?"
     choices:
     - content: "Run Azure AD Smart Lockout"
@@ -54,10 +54,10 @@ quiz:
     choices:
     - content: "Cloud Only"
       isCorrect: false
-      explanation: "That's incorrect. This strategy does not replicate hashes of user passwords from on-premises Active Directory to Azure AD. Try again."
+      explanation: "Incorrect. This strategy does not replicate hashes of user passwords from on-premises Active Directory to Azure AD. Try again."
     - content: "Federated identity"
       isCorrect: false
-      explanation: "That's incorrect. This strategy does not replicate hashes of user passwords from on-premises Active Directory to Azure AD. Try again."
+      explanation: "Incorrect. This strategy does not replicate hashes of user passwords from on-premises Active Directory to Azure AD. Try again."
     - content: "Synchronized identity"
       isCorrect: true
-      explanation: "That's correct. With synchronized identities, hashes of user passwords are replicated from on-premises Active Directory to Azure AD. When passwords are changed or reset on-premises, the new password hashes are immediately synchronized to Azure AD so that users can always use the same password for cloud resources and on-premises resources."
+      explanation: "Correct. With synchronized identities, hashes of user passwords are replicated from on-premises Active Directory to Azure AD. When passwords are changed or reset on-premises, the new password hashes are immediately synchronized to Azure AD so that users can always use the same password for cloud resources and on-premises resources."

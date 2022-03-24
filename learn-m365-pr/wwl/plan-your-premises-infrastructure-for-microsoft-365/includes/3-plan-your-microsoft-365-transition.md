@@ -1,6 +1,6 @@
 Using a pre-deployment checklist enables companies to create timelines and set goals and subtasks that will help keep their Microsoft 365 deployments on schedule. Having a model to follow will improve quality of life and manage key benchmarks so they don’t become insurmountable.
 
-The following table provides a sample checklist that can help you get started. Your organization can use this checklist as a template and then customize it to map to your organization's business requirements.
+The following table provides a sample deployment planning checklist that can help you get started. Your organization can use this checklist as a template and then customize it to map to your organization's business requirements.
 
 :::row:::
   :::column:::
@@ -38,7 +38,7 @@ The following table provides a sample checklist that can help you get started. Y
 :::row-end:::
 :::row:::
   :::column:::
-    With your internal and external stakeholders:
+    Complete the following tasks with your internal and external stakeholders:
 \- Agree on scope and timeline
 \- Agree on project tracking mechanism
 \- Develop success criteria and a communication plan
@@ -211,7 +211,7 @@ The following table provides a sample checklist that can help you get started. Y
 :::row-end:::
 :::row:::
   :::column:::
-    Collect the details about any applications that are integrated with existing systems (mail enabled applications, workflow, CRM, and so on)
+    Collect the details about any applications that work with existing systems, such as mail enabled applications, workflow, CRM, and so on
   :::column-end:::
   :::column:::
     
@@ -313,7 +313,7 @@ The following table provides a sample checklist that can help you get started. Y
 :::row-end:::
 :::row:::
   :::column:::
-    What devices will users be able to connect from (remotely, from mobile devices, or just from your network)?
+    What devices will users be able to connect from (from remote mobile devices, or just from your network)?
   :::column-end:::
   :::column:::
     
@@ -331,23 +331,6 @@ The following table provides a sample checklist that can help you get started. Y
 :::row:::
   :::column:::
     **Fix potential deployment blockers**
-  :::column-end:::
-  :::column:::
-    
-  :::column-end:::
-  :::column:::
-    
-  :::column-end:::
-  :::column:::
-    
-  :::column-end:::
-  :::column:::
-    
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    With tools and guidance from Microsoft:
   :::column-end:::
   :::column:::
     
@@ -432,7 +415,7 @@ The following table provides a sample checklist that can help you get started. Y
 :::row-end:::
 :::row:::
   :::column:::
-    If you have Active Directory Rights Management Services: Prepare your environment
+    Prepare your environment if you have Active Directory Rights Management Services
   :::column-end:::
   :::column:::
     
@@ -636,7 +619,7 @@ The following table provides a sample checklist that can help you get started. Y
 :::row-end:::
 :::row:::
   :::column:::
-    Setup accounts and mailboxes
+    Set up accounts and mailboxes
   :::column-end:::
   :::column:::
     
@@ -653,7 +636,7 @@ The following table provides a sample checklist that can help you get started. Y
 :::row-end:::
 :::row:::
   :::column:::
-    Add your users and [Assign licenses to users in Microsoft 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc?azure-portal=true)
+    Add your users and assign licenses to users in Microsoft 365 for business
   :::column-end:::
   :::column:::
     
@@ -738,7 +721,7 @@ The following table provides a sample checklist that can help you get started. Y
 :::row-end:::
 :::row:::
   :::column:::
-    Reconfigure client systems to connect to Microsoft 365 (Office, Outlook, Outlook for Mac, Mobile Devices)
+    Reconfigure client systems such as Office, Outlook, Outlook for Mac, and mobile devices to connect to Microsoft 365
   :::column-end:::
   :::column:::
     
