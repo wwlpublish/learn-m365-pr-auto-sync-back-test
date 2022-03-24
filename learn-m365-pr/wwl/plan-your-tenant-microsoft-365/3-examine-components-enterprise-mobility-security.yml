@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Azure AD Identity Protection"
       isCorrect: false
-      explanation: "That's incorrect. This feature doesn't provide identity management for on-premises users, remote users, and hybrid users accessing applications both locally and over the cloud. Try again."
+      explanation: "Incorrect. This feature doesn't provide identity management for on-premises users, remote users, and hybrid users accessing applications both locally and over the cloud. Try again."
     - content: "Azure AD Privileged Identity Management"
       isCorrect: false
-      explanation: "That's incorrect. This feature doesn't provide identity management for on-premises users, remote users, and hybrid users accessing applications both locally and over the cloud. Try again."
+      explanation: "Incorrect. This feature doesn't provide identity management for on-premises users, remote users, and hybrid users accessing applications both locally and over the cloud. Try again."
     - content: "Azure AD Premium P1"
       isCorrect: true
-      explanation: "That's correct. Azure AD Premium P1 is an enterprise-level edition. It provides identity management for on-premises users, remote users, and hybrid users accessing applications both locally and over the cloud."
+      explanation: "Correct. Azure AD Premium P1 is an enterprise-level edition. It provides identity management for on-premises users, remote users, and hybrid users accessing applications both locally and over the cloud."

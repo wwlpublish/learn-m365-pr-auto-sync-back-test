@@ -79,10 +79,3 @@ AIP labels can apply classification to documents and emails. When using AIP labe
 
   :::column-end:::
 :::row-end:::
-
-
-# 
-
-## Knowledge check
-
-Choose the best response for the following question. Then select **Check your answers**.
