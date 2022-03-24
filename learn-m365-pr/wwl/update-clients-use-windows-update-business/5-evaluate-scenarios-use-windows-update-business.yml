@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.update-clients-use-windows-update-business.evaluate-scenarios-using-windows-update-business
+title: Evaluate scenarios for using Windows Update for Business
+metadata:
+  title: Evaluate scenarios for using Windows Update for Business
+  description: "Evaluate scenarios for using Windows Update for Business"
+  ms.date: 03/24/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-evaluate-scenarios-use-windows-update-business.md)]

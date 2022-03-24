@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.update-clients-use-windows-update-business.enable-delivery-optimization-windows-updates
+title: Enable Delivery Optimization for Windows Updates
+metadata:
+  title: Enable Delivery Optimization for Windows Updates
+  description: "Enable Delivery Optimization for Windows Updates"
+  ms.date: 03/24/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-enable-delivery-optimization-windows-updates.md)]
