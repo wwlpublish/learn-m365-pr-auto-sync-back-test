@@ -9,7 +9,7 @@ The Automatic Updates feature in Windows Update downloads and installs important
 
 The recommended settings are set to download and install updates automatically. By using the recommended settings, users don’t need to search for critical updates or worry that critical fixes might be missing from their computers.
 
-:::image type="content" source="../media/wufb-branch-readiness-1903-a44fc56c.png" alt-text="Screenshot displaying the ability to defer updates for feature and quality updates.":::
+:::image type="content" source="../media/branch-readiness-1903-eaeb648a.png" alt-text="Screenshot displaying the ability to defer updates for feature and quality updates.":::
 
 
 ### Update delivery
