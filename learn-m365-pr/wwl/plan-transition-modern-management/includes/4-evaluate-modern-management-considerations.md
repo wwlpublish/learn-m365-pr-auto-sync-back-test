@@ -151,7 +151,7 @@ After you have considered these requirements, there are two paths for transition
 
 The remaining units in this module examine some of the key aspects around these paths.
 
-### Imaging with Modern Methods
+### Image with Modern Methods
 
 While modern methods are preferred as they offer easier configuration and management, sometimes traditional methods using imaging may be needed. Some of the more common day-to-day scenarios that are likely to require organizations to consider using imaging with modern management include:
 
