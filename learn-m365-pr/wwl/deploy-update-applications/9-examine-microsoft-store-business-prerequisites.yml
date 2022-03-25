@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-update-applications.examine-microsoft-store-business-prerequisites
+title: Examine Microsoft Store for Business prerequisites
+metadata:
+  title: Examine Microsoft Store for Business prerequisites
+  description: "Examine Microsoft Store for Business prerequisites"
+  ms.date: 03/25/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/9-examine-microsoft-store-business-prerequisites.md)]
