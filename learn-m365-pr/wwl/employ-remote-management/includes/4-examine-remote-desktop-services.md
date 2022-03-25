@@ -1,0 +1,18 @@
+Remote Desktop Services is one of the most used services of a System Administrator.
+
+### Remote desktops
+
+Remote Desktop Services (RDS), formerly Terminal Services, provide users with access to a full remote desktop experience. In this scenario, users securely connect to a remote session via their local Remote Desktop Connection (RDC) client. After they authenticate, users are presented with a full desktop just as if they were signed in locally. The client machines send keystrokes and mouse movements to the server, and screen images are delivered back to the client machines. Users have access to applications as if the applications are running locally, even though they are running on a Remote Desktop Session Host (RD Session Host) server. Each user establishes his or her own private session that does not affect any other users who are connected to the same RD Session Host server.
+
+To access any remote desktop, the user account (or domain global group) of the connecting user must be added to the Remote Desktop Users group on the computer to which they are connecting. By default, this group has no members, and therefore, users cannot make a remote desktop connection until their account has been added to the local Remote Desktop Users group. However, this can be configured during the initial RDS deployment.
+
+> [!NOTE]
+> Standard users do not have the right to sign in to domain controllers either locally or remotely. Being added to the Remote Desktop Users group on a domain controller does not change this. A standard user still needs to be given the right to sign in to a domain controller and must be added to the Remote Desktop Users group to connect to a domain controller remotely.
+
+Installing the RD Session Host role on a server automatically enables remote desktop connections to the local computer and adds users who have been granted access to the local Remote Desktop Users group. If you do not install the RD Session Host role, you can still enable remote desktop access to any Windows-based operating system by modifying the system properties to allow remote connections. Connecting this way is limited to Administrators by default, and only two concurrent connections are allowed. You can allow remote connections and select the users who can connect remotely by using the System Properties item in Control Panel.
+
+Remote desktops are well‑suited for single‑task workers, such as point-of-sale terminals or data‑entry workers. In such scenarios, it is important to provide a consistent desktop experience for all workers. Remote desktops also perform well over limited bandwidth, making this a suitable solution for branch offices where information technology (IT) support might be limited. Remote desktops are typically employed with thin clients. Another common use for remote desktops is to enable users to access their organizational desktop. For example, users can work from home by connecting to their workstations.
+
+### Remote desktops in Azure
+
+Using RDS in Azure enables access to the desktop of virtual machines running in Azure, similar to accessing a local system. A Remote Desktop connection can be used to troubleshoot and diagnose problems with an application while it is running. One way to enable a Remote Desktop connection in your VM is during development by including the Remote Desktop modules in your service definition or you can choose to enable Remote Desktop through the Remote Desktop Extension. The preferred approach is to use the Remote Desktop extension as you can enable Remote Desktop even after the application is deployed without having to redeploy your application.
