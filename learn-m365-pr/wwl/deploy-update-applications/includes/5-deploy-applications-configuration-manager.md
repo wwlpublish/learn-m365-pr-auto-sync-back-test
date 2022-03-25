@@ -139,7 +139,7 @@ To create an application:
 
 For a complex application deployment that has multiple applications, a specific sequence, or restarts as part of the eventual completion, the application model may not suit this specific scenario. In this instance, you can use the task sequence engine to initiate the installation.
 
-### Choos an Endpoint Manager solution for deploying an application
+### Choose an Endpoint Manager solution for deploying an application
 
 Endpoint Manager offers application deployment from both Configuration Manager and Intune to deliver your line of business applications to Windows clients. Below are the supported applications types that each can offer.
 
