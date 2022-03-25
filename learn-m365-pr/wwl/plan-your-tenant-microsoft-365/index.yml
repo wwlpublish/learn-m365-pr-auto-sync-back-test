@@ -9,12 +9,12 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Plan your tenant in Microsoft 365
-summary: This module examines the key areas that organizations must plan for to create their Microsoft 365 tenant, including subscription options, tenant components, and the overall migration process.
+summary: This module examines the key areas that organizations must plan for in order to create their Microsoft 365 tenant. These areas include subscription options, tenant components, and the overall migration process.
 abstract: |
-  By the end of this module, you will be able to:
-  - Determine which Microsoft 365 subscription offerings best suit your organization’s requirements.
-  - Identify which Microsoft 365 component services satisfy your organizational needs.
-  - Identify the steps to successfully create a tenant for Microsoft 365.
+  By the end of this module, you'll be able to:
+  *   Determine which Microsoft 365 subscription offerings best suit your organization’s requirements.
+  *   Identify which Microsoft 365 component services satisfy your organizational needs.
+  *   Identify the steps to successfully create a tenant for Microsoft 365\.
 prerequisites: ""
 iconUrl: /learn/achievements/plan-your-tenant-in-microsoft-365.svg
 levels:
