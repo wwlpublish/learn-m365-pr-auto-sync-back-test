@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.enroll-devices-using-microsoft-endpoint-configuration-manager.monitor-microsoft-endpoint-configuration-manager-client
+title: Monitor the Microsoft Endpoint Configuration Manager client
+metadata:
+  title: Monitor the Microsoft Endpoint Configuration Manager client
+  description: "Monitor the Microsoft Endpoint Configuration Manager client"
+  ms.date: 03/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/3-monitor-microsoft-endpoint-configuration-manager-client.md)]
