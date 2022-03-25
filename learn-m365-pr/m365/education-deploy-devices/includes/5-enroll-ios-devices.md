@@ -1,6 +1,6 @@
 Today's classroom provides the student with access to multiple technologies that can enhance the students learning experience and support the teachers as well. It's common now to see tablets being used in a classroom setting.  Microsoft Intune supports mobile device management (MDM) for iOS-based devices.
 
-As the IT administrator for your school, you want to empower your students and teachers alike to use iOS-based devices in a classroom setting.  You want to understand how this can be achieved and how to support BOYD iOS devices being used in the classroom setting.
+As the IT administrator for your school, you want to empower your students and teachers alike to use iOS-based devices in a classroom setting.  You want to understand how this can be achieved and how to support BYOD iOS devices being used in the classroom setting.
 
 Here, you'll learn about integrating Microsoft Intune with Apple's automated device enrollment.
 

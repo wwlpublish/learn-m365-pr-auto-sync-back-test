@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn.wwl.employ-remote-management
+metadata:
+  title: Employ remote management
+  description: "This module demonstrates the various tools for connecting remotely to a Windows client."
+  ms.date: 03/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Employ remote management
+summary: This module demonstrates the various tools for connecting remotely to a Windows client.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe Remote Desktop in Windows.
+  - Enable and use Remote Assistance, including Easy Connect.
+  - Describe Azure Remote Desktop Services.
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.employ-remote-management.introduction
+- learn.wwl.employ-remote-management.examine-remote-desktop
+- learn.wwl.employ-remote-management.use-remote-assistance
+- learn.wwl.employ-remote-management.examine-remote-desktop-services
+- learn.wwl.employ-remote-management.use-remote-commands-windows-powershell
+- learn.wwl.employ-remote-management.describe-windows-admin-center
+- learn.wwl.employ-remote-management.knowledge-check
+- learn.wwl.employ-remote-management.summary
+badge:
+  uid: learn.wwl.employ-remote-management.badge

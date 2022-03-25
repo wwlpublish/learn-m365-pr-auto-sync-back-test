@@ -122,7 +122,6 @@ Create a new file named **responseCard.json** in the **./src/server/conversation
           "wrap": true
         }
       ]
-    }
     },
     {
       "type": "ActionSet",
@@ -142,6 +141,7 @@ Create a new file named **responseCard.json** in the **./src/server/conversation
           "$when": "${showDelete}"
         }
       ]
+    }
   ]
 }
 ```
@@ -217,7 +217,7 @@ import ResponseCard from "./cards/responseCard";
 import * as ACData from "adaptivecards-templating";
 ```
 
-Update the existing `import` from `botbuilder` to include the `CardFactory` class:
+Update the existing `import` from `botbuilder` to include the following classes:
 
 ```typescript
 import {
@@ -315,13 +315,20 @@ Locate and open the bot in the file **./src/server/conversationalBot/Conversatio
 Add the following `this.onMessageReaction()` handler to the class constructor method:
 
 ```typescript
-if (context.activity.reactionsAdded) {
-  context.activity.reactionsAdded.forEach(async (reaction) => {
-    if (reaction.type === "like") {
-      await context.sendActivity("Thank you!");
+this.onMessageReaction(async (context, next) => {
+  try {
+    if (context.activity.reactionsAdded) {
+      context.activity.reactionsAdded.forEach(async (reaction) => {
+        if (reaction.type === "like") {
+          await context.sendActivity("Thank you!");
+        }
+      });
     }
-  });
-}
+    await next();
+  } catch (error) {
+    log("onMessageReaction: error\n", error);
+  }
+});
 ```
 
 This code will execute when a user adds a reaction to a message from the bot. If the reaction is a *like*, the bot will reply with a *"Thank you!"* message
