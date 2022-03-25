@@ -140,6 +140,12 @@ Organizations should consider the following performance issues when determining 
 
 #### Footnotes
 
-1.  Observed single mailbox move throughput is in the 0.3–1.0 GB/hour range. Greater than 1000 MB/h per mailbox throughput rate can be achieved with a network that can sustain less than a 2 percent transient failure stall time and less than 100-ms network latency. More concurrent mailbox migrations can be used to achieve higher data migration rates. Single mailbox move throughput will slow down when the on-premises Client Access server is at hardware capacity, if the network bandwidth isn’t sufficient, or the network latency is too high. Consider adding more servers or temporarily improving network connectivity to increase migration velocity.
+1.  Observed single mailbox move throughput is in the 0.3–1.0 GB/hour range. Greater than 1000 MB/h per mailbox throughput rate can be achieved. However, the network must sustain less than a 2 percent transient failure stall time and less than 100-ms network latency. More concurrent mailbox migrations can be used to achieve higher data migration rates. Single mailbox move throughput will slow down when any of the following conditions occur:
+    
+     -  The on-premises Client Access server is at hardware capacity.
+     -  The network bandwidth isn’t sufficient.
+     -  The network latency is too high.
+    
+    Consider adding more servers or temporarily improving network connectivity to increase migration velocity
 2.  Observed single MAPI migration throughput is in the 0.1-0.5 GB/hour range. More concurrent migrations can be used to achieve higher data-migration rates. Single MAPI migration throughput will slow down when either the on-premises servers or the network is at capacity.
 3.  Observed single Exchange Web Services migration throughput is in the 0.2–0.5 GB/hour range. More concurrent migrations can be used to achieve higher data migration rates. For example, with 20 concurrent migrations, the overall throughput will be in the 4-10 GB/hour range. Single Exchange Web Services migration throughput will slow down when either the on-premises servers or the network is at capacity.

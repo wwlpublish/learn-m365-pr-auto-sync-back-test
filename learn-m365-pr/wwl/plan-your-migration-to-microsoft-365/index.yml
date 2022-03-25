@@ -9,13 +9,13 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Plan your migration to Microsoft 365
-summary: This module examines the key steps that must be completed to move an entire organization to Microsoft 365, including when the steps should be performed and who should perform them.
+summary: This module examines the key steps that must be completed in order to move an organization to Microsoft 365.
 abstract: |
-  By the end of this module, you will be able to:
-  - Plan your organization's migration strategy to Microsoft 365.
-  - Analyze your organization's Active Directory and plan any necessary clean-up using the ID Fix tool.
-  - Determine which migration strategy to use to move your organization's mail, calendar, and contact information to the cloud.
-  - Describe the performance and network issues to consider when planning your organization's migration strategy.
+  By the end of this module, you'll be able to:
+  *   Plan your organization's migration strategy to Microsoft 365.
+  *   Analyze your organization's Active Directory and plan any necessary clean-up using the ID Fix tool.
+  *   Determine which migration strategy to use to move your organization's mail, calendar, and contact information to the cloud.
+  *   Describe the performance and network issues to consider when planning your organization's migration strategy.
 prerequisites: |
   None
 iconUrl: /learn/achievements/plan-your-migration-to-microsoft-365.svg
