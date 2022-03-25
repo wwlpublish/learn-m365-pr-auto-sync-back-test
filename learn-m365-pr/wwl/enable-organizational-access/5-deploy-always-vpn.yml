@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.enable-organizational-access.deploy-always-on-vpn
+title: Deploy Always On VPN
+metadata:
+  title: Deploy Always On VPN
+  description: "Deploy Always On VPN"
+  ms.date: 03/25/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/5-deploy-always-vpn.md)]
