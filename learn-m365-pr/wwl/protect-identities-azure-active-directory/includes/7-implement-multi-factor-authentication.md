@@ -1,21 +1,21 @@
-Multifactor authentication (MFA) adds an additional security layer in the authentication process by requiring more than one method of authentication to detect and validate user identity. Users still require usernames and passwords to sign in to your data and applications, but you can add an additional access method as a second method of authentication. The multifactor authentication technology combines something that you know, such as a password or a PIN, with something that you have, such as your phone or a token, and even possibly something that you are (biometric technologies).
+Multi-factor authentication (MFA) adds an extra security layer in the authentication process by requiring more than one method of authentication to detect and validate user identity. Users still require usernames and passwords to sign in to your data and applications, but you can add another access method as a second method of authentication. The multi-factor authentication technology combines something that you know, such as a password or a PIN, with something that you have, such as your phone or a token, and even possibly something that you are (biometric technologies).
 
 You can implement MFA in different ways based on users’ demands and the level of additional security that they need. The following are some ways to implement MFA:
 
  -  You can use the Microsoft Authenticator mobile app as a software token to provide one-time passwords or to receive push notifications from the application.
  -  You can authenticate by using a phone call.
- -  You can authenticate by using text messages, which is very similar to mobile app authentication, but the push notifications or the codes will come via text messages.
+ -  You can authenticate by using text messages, which is similar to mobile app authentication, but the push notifications or the codes will come via text messages.
  -  You can use third-party OAuth tokens.
 
-Azure MFA helps safeguard access to data and applications while maintaining simplicity for users. It provides additional security by requiring a second form of authentication and delivers strong authentication via a range of easy to use authentication methods.
+Azure MFA helps safeguard access to data and applications while maintaining simplicity for users. It provides extra security by requiring a second form of authentication and delivers strong authentication via a range of easy to use authentication methods.
 
-Multifactor Authentication comes as part of the following offerings:
+Multi-factor authentication comes as part of the following offerings:
 
- -  Azure Active Directory Premium licenses - Full featured use of Azure Multifactor Authentication Service (Cloud) or Azure Multifactor Authentication Server (On-premises).
+ -  Azure Active Directory Premium licenses - Full featured use of Azure Multi-Factor Authentication Service (Cloud) or Azure Multi-Factor Authentication Server (On-premises).
     
      -  Azure MFA Service (Cloud) - This option is the recommended path for new deployments. Azure MFA in the cloud requires no on-premises infrastructure and can be used with your federated or cloud-only users.
      -  Azure MFA Server - If your organization wants to manage the associated infrastructure elements and has deployed AD FS in your on-premises environment this way may be an option.
- -  Multifactor Authentication for Microsoft 365 - A subset of Azure MFA capabilities is available as a part of your subscription.
+ -  Multi-factor authentication for Microsoft 365 - A subset of Azure MFA capabilities is available as a part of your subscription.
  -  Azure Active Directory Global Administrators - A subset of Azure MFA capabilities is available as a means to protect global administrator accounts.
 
 :::image type="content" source="../media/azure-verify-identity-9a3ddc3b.png" alt-text="Authentication methods in use at the sign-in screen":::
@@ -24,9 +24,9 @@ Multifactor Authentication comes as part of the following offerings:
  -  If you have Azure AD Premium or Enterprise Mobility + Security licenses, you already have Azure MFA. Your organization doesn't need anything additional to extend the two-step verification capability to all users. You only need to assign a license to a user, and then you can turn on MFA.
  -  When setting up MFA, consider the following tips:
     
-     -  Do not create a per-authentication Multifactor Auth Provider. If you do, you could end up paying for verification requests from users that already have licenses.
-     -  If you don't have enough licenses for all your users, you can create a per-user Multifactor Auth Provider to cover the rest of your organization.
-     -  Azure AD Connect is only required if you are synchronizing your on-premises Active Directory environment with an Azure AD directory. If you use an Azure AD directory that is not synchronized with an on-premises instance of Active Directory, you do not need Azure AD Connect.
+     -  Don't create a per-authentication Multi-Factor Auth Provider. If you do, you could end up paying for verification requests from users that already have licenses.
+     -  If you don't have enough licenses for all your users, you can create a per-user Multi-Factor Auth Provider to cover the rest of your organization.
+     -  Azure AD Connect is only required if you're synchronizing your on-premises Active Directory environment with an Azure AD directory. If you use an Azure AD directory that isn't synchronized with an on-premises instance of Active Directory, you don't need Azure AD Connect.
 
 ### Enable MFA for a single Azure AD user
 

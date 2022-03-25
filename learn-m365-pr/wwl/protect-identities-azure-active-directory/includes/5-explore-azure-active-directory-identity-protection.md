@@ -16,9 +16,9 @@ You should not consider Azure AD Identity Protection as one more reporting and m
 
 Azure AD Identity Protection monitors each user session that authenticates on any of your cloud resources and calculates the potential risk. The risk is based on the user location, the application used to authenticate, the device the user uses, and other factors. For example, Azure AD Identity Protection can detect if the same user tries to authenticate from two very distant geographic locations in a short period of time. Also, it can detect if a user tries to authenticate from a location where he or she has never authenticated before.
 
-:::image type="content" source="../media/azure-identity-protection-71fb80d4.png" alt-text="Screenshot of Azure AD Identity Protection remediation":::
+:::image type="content" source="../media/azure-identity-protection-71fb80d4.png" alt-text="Screenshot of Azure AD Identity Protection remediation.":::
 
 
-Based on a calculated risk, Azure AD Identity Protection can notify administrators, try to remediate the risk, increase the authentication security requirements, or take another action defined by the risk policy. The sign-in risk level can be Low and above, Medium and above, and High. For each risk level, you can define actions, such as require Multi-Factor Authentication for signing-in, requiring password change, or blocking access.
+Based on a calculated risk, Azure AD Identity Protection can notify administrators, try to remediate the risk, increase the authentication security requirements, or take another action defined by the risk policy. The sign-in risk level can be Low and above, Medium and above, and High. For each risk level, you can define actions, such as require multi-factor authentication for signing-in, requiring password change, or blocking access.
 
 Azure AD Identity Protection provides you with a dashboard where you can monitor, in real time, which users are flagged for risk, how many risk events have happened, and the potential vulnerabilities in your organization.
