@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl. administer-applications.configure-microsoft-edge-internet-explorer-mode
+title: Configure Microsoft Edge Internet Explorer mode
+metadata:
+  title: Configure Microsoft Edge Internet Explorer mode
+  description: "Configure Microsoft Edge Internet Explorer mode"
+  ms.date: 03/25/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/6-configure-microsoft-edge-internet-explorer-mode.md)]
