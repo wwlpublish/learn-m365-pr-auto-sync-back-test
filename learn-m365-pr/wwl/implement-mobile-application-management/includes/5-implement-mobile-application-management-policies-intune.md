@@ -10,7 +10,7 @@ Use the following steps to create an app protection policy:
 2.  In the **Policy** section, select **App protection policies**.
 3.  Select **+ Create Policy** and select a platform.
 
-Creating a app protection policy will present several tabs for configuration:
+Creating an app protection policy will present several tabs for configuration:
 
  -  **Basics**. Enter a name for the policy, add a brief description.
  -  **Apps**. Select which app types to target. With **Target to all app types** set to **Yes**, both **Apps on unmanaged devices** and **Apps on Intune managed devices** will be targeted. If you select **No** you can choose between unmanaged and Intune managed devices. The apps page also allows you to choose one or more apps from the list that you want to associate with the policy that you're creating. You must select at least one app to create a policy.

@@ -2,7 +2,7 @@ You can enable your apps to use app protection policies by using either the Intu
 
 #### Intune App Wrapping Tool
 
-The App Wrapping Tool is used primarily for internal line-of-business (LOB) apps. The tool is a command-line application that creates a wrapper around the app, which then allows the app to be managed by an Intune app protection policy. When protecting an app provided by an independent software vendor (ISV) it's important to clarify if the ISV will stil support the wrapped app. You don't need the source code to use the tool, but you do need signing credentials.
+The App Wrapping Tool is used primarily for internal line-of-business (LOB) apps. The tool is a command-line application that creates a wrapper around the app, which then allows the app to be managed by an Intune app protection policy. When protecting an app provided by an independent software vendor (ISV) it's important to clarify if the ISV will still support the wrapped app. You don't need the source code to use the tool, but you do need signing credentials.
 
 > [!NOTE]
 > The App Wrapping Tool does not support apps in the Apple App Store or Google Play Store. It also doesn't support certain features that require developer integration.
