@@ -3,7 +3,7 @@ uid: learn-m365.office-add-ins-sso.6-azure-ad-app-registration-guidance
 metadata:
   title: Azure AD applications for Office Add-ins and SSO
   description: In this unit, you'll learn how to create the Azure AD app registration for an Office Add-in that implements single sign-on (SSO). You'll also learn some best practices recommended by Microsoft when creating Office Add-ins that implement SSO.
-  ms.date: 04/02/2021
+  ms.date: 03/01/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

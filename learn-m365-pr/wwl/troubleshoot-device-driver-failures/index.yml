@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.troubleshoot-device-driver-failures
+metadata:
+  title: Troubleshoot device driver failures
+  description: "This module focuses on the role of device drivers and troubleshooting problems that pertain to them."
+  ms.date: 03/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot device driver failures
+summary: This module focuses on the role of device drivers and troubleshooting problems that pertain to them.
+abstract: |
+  After completing this module, you will be able to:
+  * Describe the role and importance of device drivers.
+  * Manage and troubleshoot device drivers.
+  * Explain the difference between the staging and installation of device drivers.
+  * Restrict installation of device drivers by using Group Policy.
+prerequisites: |
+  * Students should have a basic understanding of computer networks and hardware concepts.
+  * Students should have a basic understanding of OS and Application concepts.
+  * Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.troubleshoot-device-driver-failures.introduction
+- learn.wwl.troubleshoot-device-driver-failures.examine-tools-managing-troubleshooting-device-drivers
+- learn.wwl.troubleshoot-device-driver-failures.use-driver-roll-back
+- learn.wwl.troubleshoot-device-driver-failures.manage-signed-drivers
+- learn.wwl.troubleshoot-device-driver-failures.stage-device-drivers
+- learn.wwl.troubleshoot-device-driver-failures.restrict-device-installation
+- learn.wwl.troubleshoot-device-driver-failures.knowledge-check
+- learn.wwl.troubleshoot-device-driver-failures.summary
+badge:
+  uid: learn.wwl.troubleshoot-device-driver-failures.badge

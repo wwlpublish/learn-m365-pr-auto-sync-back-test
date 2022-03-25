@@ -2,7 +2,7 @@ The Excel JavaScript API makes programmatic control over text, tables, and chart
 
 ## Office developer platform overview
 
-The Microsoft 365 developer platform, which includes Office, offers many canvases for developers to embed customizations and Office add-ins are one of three canvases: documents, conversations  and pages.
+The Microsoft 365 developer platform, which includes Office, offers many canvases for developers to embed customizations and Office Add-ins are one of three canvases: documents, conversations, and pages.
 
 Microsoft Teams makes conversations between users and enables developers to extend the experience using messaging extensions, conversational bots, and other customization options.
 
@@ -10,15 +10,15 @@ Developers customize pages in SharePoint Server and SharePoint online using the 
 
 Office clients, such as Word, Excel, PowerPoint, OneNote, and Outlook can also be extended to implement custom task panes, actions, and other customizations using add-ins.
 
-![Screenshot overview of the Microsoft 365 Platform](../media/02-office-365-platform.png)
+![Overview diagram of the Microsoft 365 Platform.](../media/02-office-365-platform.png)
 
 ## Anatomy of Office.js add-in for Microsoft Excel
 
 We'll start by looking at an anatomy of an Office.js for Microsoft Excel:
 
-![Screenshot of the anatomy of an Office.js add-in](../media/02-office-js-anatomy.png)
+![Outline of the anatomy of an Office.js add-in.](../media/02-office-js-anatomy.png)
 
-- All Office add-ins must call off the `Office.initialize()` method when a page first loads the add-in.
+- All Office Add-ins must call off the `Office.initialize()` method when a page first loads the add-in.
 - If you're using a newer Office.js capability in your add-in, it's important to check if the client supports those extensions using the `requirements` API.
 - For the Excel JavaScript APIs, you'll use the `Excel.run()` method to get an instance of the current workbook `context`.
 - Once you have a reference to the current Excel workbook's `context`, you can load any properties on the context using the `load()` method. This method will add the request queue, allowing you to chain multiple requests together for performance reasons.
@@ -34,7 +34,7 @@ Excel add-in developers should understand an Excel workbook's hierarchy and how 
 
 Office.js provides context to an Excel workbook through `Excel.run()` and the `context.workbook` property.
 
-![Screenshot of Excel object hierarchy](../media/02-excel-object-hierarchy.png)
+![Diagram showing Excel object hierarchy.](../media/02-excel-object-hierarchy.png)
 
 The workbook contains worksheets that contain many collections. These collections include things such as charts, tables, and pivotTables.
 
@@ -52,7 +52,7 @@ Office.js also offers many worksheet events such as `onActivated`, `onDeactivate
 
 Tables are at the heart of a spreadsheet. Excel supports defining a range of data that is the foundation of a table of data.
 
-![Screenshot of an excel workbook](../media/02-excel-workbook-01.png)
+![Screenshot of Excel workbook example.](../media/02-excel-workbook-01.png)
 
 ### Ranges
 
@@ -149,7 +149,7 @@ The following code snippets demonstrate working examples of working text and par
 
 Any column in a table can be filtered using Office.js.
 
-![Screenshot of Excel with a table of data](../media/02-excel-workbook-01.png)
+![Screenshot of Excel with a table of data.](../media/02-excel-workbook-01.png)
 
 Filter a column by first getting a reference ot the column and then use the `applyValuesFilter()` method to filter on specific values.
 
@@ -202,7 +202,7 @@ Microsoft Excel has become a playground for data manipulation and visualization.
 
 Charts exist within worksheets, but can also be accessed directly from the workbook object.
 
-![Screenshot of Excel workbook with a chart](../media/02-excel-workbook-02.png)
+![Screenshot of Excel workbook with a chart.](../media/02-excel-workbook-02.png)
 
 Charts have many complex relational properties that can be used to fine-tune the look of a chart. These include titles, legends, axes, series, labels, and format.
 
