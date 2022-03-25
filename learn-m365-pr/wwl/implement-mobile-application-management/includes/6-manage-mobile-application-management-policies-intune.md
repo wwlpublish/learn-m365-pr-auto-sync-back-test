@@ -9,7 +9,7 @@ There are three different places to monitor the compliance status:
 #### Summary view
 
 1.  Sign in to the **Microsoft Endpoint Manager admin center**.
-2.  Select **Apps** &gt; **Monitor** &gt; **App protection status**.
+2.  Select **Apps** > **Monitor** > **App protection status**.
     
     :::image type="content" source="../media/intune-mobile-application-management-summary-3d01f139.png" alt-text="Intune app protection pane, Summary view screen.":::
     
@@ -38,7 +38,7 @@ You can search for a single user and check the compliance status for that user. 
 To see a detailed report for a user, follow these steps:
 
 1.  Sign into **Endpoint Manager admin center**.
-2.  Select **Apps** &gt; **Monitor** &gt; **App protection status**.
+2.  Select **Apps** > **Monitor** > **App protection status**.
 3.  Select either the **User status for iOS** tile or the **User status for Android** tile.
 4.  On the **App reporting** page, select **Select user** to search for an Azure AD user.
 5.  Select a user from the list i.e **Debra Berger** and then select **Select**. You can see the user name, if the user has a license for Intune and details of the compliance status for that user:
@@ -48,7 +48,7 @@ To see a detailed report for a user, follow these steps:
 
 #### Reporting view
 
-To view these reports, select **Apps** &gt; **App protection status** &gt; **Reports**. The Reports pane provides several reports based on user and app.
+To view these reports, select **Apps** > **App protection status** > **Reports**. The Reports pane provides several reports based on user and app.
 
  -  **User report**. You can search for a single user and check the compliance status for that user. This report includes information such as the App name and status (whether it is up to date), devices associated with the account, platform and OS, associated app policies, and when the app was last synced with Intune.
  -  **App report** You can search by platform and app, and then this report will provide two different app protection statuses that you can select before generating the report. The statuses can be **Protected** or **Unprotected**.
