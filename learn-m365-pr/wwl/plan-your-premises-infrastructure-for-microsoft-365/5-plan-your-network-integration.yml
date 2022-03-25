@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "When planning network requirements for a Microsoft 365 deployment, what should you always do?"
+  - content: "What should an organization always do when it plans its network requirements for a Microsoft 365 deployment?"
     choices:
     - content: "Avoid VPN tunneling through other company locations"
       isCorrect: true

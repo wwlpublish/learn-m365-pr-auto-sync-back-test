@@ -9,12 +9,12 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Plan your on-premises infrastructure for Microsoft 365
-summary: This module examines the key areas that organizations must plan for to migrate their on-premises infrastructure to Microsoft 365.
+summary: This module examines the key areas that organizations must plan for in order to migrate their on-premises infrastructure to Microsoft 365\.
 abstract: |
-  By the end of this module, you will be able to:
-  *   Prepare your organization to transition its on-premises deployment to Microsoft 365.
+  By the end of this module, you'll be able to:
+  *   Prepare your organization to transition its on-premises deployment to Microsoft 365\.
   *   Estimate your network's bandwidth.
-  *   Describe best practices to employ when integrating your network to Microsoft 365.
+  *   Describe best practices to employ when integrating your network to Microsoft 365\.
   *   Identify the deployment strategies your company can use when implementing Microsoft 365 services.
   *   Prepare your Active Directory forest for directory synchronization.
 prerequisites: ""
