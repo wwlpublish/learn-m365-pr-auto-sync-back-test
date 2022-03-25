@@ -33,7 +33,7 @@ When you assign apps by using Intune, you have the following options in the **As
  -  **Available for enrolled devices**. The app is available to users who have devices enrolled in Intune.
  -  **Available with or without enrollment**. The app is available to users who do not have devices enrolled in Intune.
 
-Although you assign apps to either devices or to users, the options for how you can assign them will depend on the enrollment status of the devices with Intune. The following table shows you the assignment options when a device is enrolled in Intune and when it is not enrolled. It also shows the options users have depending on the device enrollment.
+Although you assign apps to either devices or to users, the options for how you can assign them will depend on the enrollment status of the devices with Intune. The following table shows you the assignment options when a device is enrolled in Intune and when it is not enrolled. It also shows the options users have, depending on the device enrollment.
 
 :::row:::
   :::column:::

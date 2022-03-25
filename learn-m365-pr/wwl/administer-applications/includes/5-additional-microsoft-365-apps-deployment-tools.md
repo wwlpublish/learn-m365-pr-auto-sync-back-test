@@ -28,7 +28,7 @@ This tool provides a simple experience which allows you to create a configuratio
  -  Installation of volume licensed products with automatic KMS and MAK activation.
  -  Automatic removal of previous MSI based Office products.
 
-You can also use the Office Customization Tool to make changes to existing configuration files, which is very useful when you need to modify the configuration of Office on devices that are already installed and configured or if you’re creating a second or third configuration and you want to use your own baseline. Simply use the Import option and select the configuration file you wish to modify, make the desired changes, and use the Export option to generate a new configuration file.
+You can also use the Office Customization Tool to make changes to existing configuration files. This tool is useful when you need to modify the configuration of Office on devices that are already installed and configured or if you’re creating a second or third configuration and you want to use your own baseline. Simply use the Import option and select the configuration file you wish to modify, make the desired changes, and use the Export option to generate a new configuration file.
 
 #### End-user installation
 
