@@ -15,7 +15,7 @@ The following table provides an overview of the Enterprise Mobility + Security c
   :::column:::
     Azure Active Directory (Azure AD) provides a full suite of identity management capabilities, including:
 
- -  multifactor authentication
+ -  multi-factor authentication
  -  device registration
  -  self-service password management
  -  self-service group management
@@ -63,7 +63,7 @@ Azure AD includes the following premium editions:
  -  manually by users.
  -  or through a combination where users are given recommendations.
 
-AIP labels can apply classification to documents and emails. When using AIP labels, the classification is always identifiable despite where the data is stored or with who it’s shared.AIP policy settings are protected by [Azure Rights Management](/information-protection/understand-explore/what-is-azure-rms?azure-portal=true). Protection. This process is similar to how the labels are applied. In other words, AIP policies stay with the documents and emails independently of the location—inside or outside the organization, networks, file servers, and applications.
+AIP labels can apply classification to documents and emails. When AIP labels are used, the classification is always identifiable despite where the data is stored or with who it’s shared.AIP policy settings are protected by [Azure Rights Management](/information-protection/understand-explore/what-is-azure-rms?azure-portal=true). Protection. This process is similar to how the labels are applied. In other words, AIP policies stay with the documents and emails independently of the location—inside or outside the organization, networks, file servers, and applications.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -74,7 +74,7 @@ AIP labels can apply classification to documents and emails. When using AIP labe
     Intune is a cloud-based Enterprise Mobility Management (EMM) service that enables an organization’s workforce to be productive while keeping its corporate data protected. Intune integrates closely with Azure AD for identity and access control. It's also used for device and application management.[Intune's device management](/mem/intune/fundamentals/what-is-device-management?azure-portal=true) capabilities are used to configure and protect user's devices, including Windows PCs. Intune device management capabilities support the following enrollment types:
 
  -  [Bring Your Own Device (BYOD)](/enterprise-mobility-security/solutions/enable-byod?azure-portal=true) enrollment. This enrollment type lets users enroll their personal phones, tablets, or PCs to Intune.
- -  [Corporate-owned Device (COD)](/enterprise-mobility-security/solutions/issue-corp-devices?azure-portal=true) enrollment. This enrollment type enables management scenarios like automatic enrollment, shared devices, and pre-authorized enrollment requirement configurations. For added security, organizations can even require multifactor authentication to enroll a device to Intune. Once a device is enrolled, Intune can configure device features and settings to enable secure access to company resources.
+ -  [Corporate-owned Device (COD)](/enterprise-mobility-security/solutions/issue-corp-devices?azure-portal=true) enrollment. This enrollment type enables management scenarios like automatic enrollment, shared devices, and pre-authorized enrollment requirement configurations. For added security, organizations can even require multi-factor authentication to enroll a device to Intune. Once a device is enrolled, Intune can configure device features and settings to enable secure access to company resources.
 
 
   :::column-end:::
