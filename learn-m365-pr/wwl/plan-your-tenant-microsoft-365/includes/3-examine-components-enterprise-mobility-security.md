@@ -49,7 +49,7 @@ Azure AD includes the following premium editions:
     [Azure AD Privileged Identity Management](/azure/active-directory/active-directory-privileged-identity-management-configure?azure-portal=true)
   :::column-end:::
   :::column:::
-    Azure AD Privileged Identity Management enables organizations to minimize the number of people who have persistent access to privileged operations. This service introduces the concept of an eligible administrator.Eligible admins are users who need privileged access now and then, but not every day. The role is inactive until the user needs access, at which point they must complete an activation process and become an active admin for a predetermined amount of time.
+    Azure AD Privileged Identity Management enables organizations to minimize the number of people who have persistent access to privileged operations. This service introduces the concept of an eligible administrator.Eligible admins are users who need privileged access now and then, but not every day. The role is inactive until the user needs access. At that point, they must complete an activation process and become an active admin for a predetermined amount of time.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -63,7 +63,7 @@ Azure AD includes the following premium editions:
  -  manually by users.
  -  or through a combination where users are given recommendations.
 
-AIP labels can apply classification to documents and emails. When AIP labels are used, the classification is always identifiable despite where the data is stored or with who it’s shared.AIP policy settings are protected by [Azure Rights Management](/information-protection/understand-explore/what-is-azure-rms?azure-portal=true). Protection. This process is similar to how the labels are applied. In other words, AIP policies stay with the documents and emails independently of the location—inside or outside the organization, networks, file servers, and applications.
+AIP labels can apply classification to documents and emails. When AIP labels are used, the classification is always identifiable. It doesn't matter where the data is stored or with whom it’s shared.AIP policy settings are protected by [Azure Rights Management](/information-protection/understand-explore/what-is-azure-rms?azure-portal=true). This process is similar to how the labels are applied. In other words, AIP policies stay with the documents and emails independently of the location—inside or outside the organization, networks, file servers, and applications.
   :::column-end:::
 :::row-end:::
 :::row:::
