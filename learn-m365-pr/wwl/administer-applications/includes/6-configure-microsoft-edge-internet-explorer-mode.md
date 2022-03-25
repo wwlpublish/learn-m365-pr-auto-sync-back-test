@@ -20,7 +20,7 @@ Only those sites that you specifically configure (via policy) will use IE mode, 
 4.  After providing a name, on the **Configuration Settings tab**, select **All Settings**.
 5.  In the Search field, enter **configure internet**. In the results, select **Configure Internet Explorer integration** on the line where **Setting type** is showing as **User**.
 6.  In the dialog on the right, set the option to **Enabled**. In the drop-down box, select **Internet Explorer mode**.
-7.  Assign and complete the profile.<br>
+7.  Assign and complete the profile.
 
 ### Configure IE Mode Sites
 
@@ -30,7 +30,7 @@ Before you can start using either IE Mode, you must create an IE Mode site list 
 
 This tool helps you create error-free XML documents with simple n+1 versioning and URL verification. We recommend using this tool if your site list is relatively small. There are two versions of this tool, both supported on Windows 8.1 and Windows 10. We recommend that you only use Enterprise Mode Site List Manager (schema v.2) because the Enterprise Mode schema has been updated to v.2 to be easier to read and to provide a better foundation for future capabilities.
 
-When configuring a site list, all sites that have the element **&lt;open-in&gt;IE11&lt;/open-in&gt;** will now open in IE mode. Sites that have an additional compat-mode tag, such as **&lt;compat-mode&gt;IE7Enterprise&lt;/compat-mode&gt;**, will open using compatibility mode for that browser version.
+When configuring a site list, all sites that have the element **<open-in>IE11</open-in>** will now open in IE mode. Sites that have an additional compat-mode tag, such as **<compat-mode>IE7Enterprise</compat-mode>**, will open using compatibility mode for that browser version.
 
 You can download version 2 of the tool from here: [https://www.microsoft.com/en-us/download/details.aspx?id=49974](https://www.microsoft.com/en-us/download/details.aspx?id=49974).
 
@@ -62,6 +62,6 @@ The Enterprise Mode Site list location must also be configured. To do so, follow
 
 You can also use Group Policy to configure clients to use IE Mode or Enterprise Mode.
 
- -  To configure IE Mode: Set **Computer Configuration** &gt; **Administrative Templates** &gt; **Microsoft Edge**&gt; **Configure Internet Explorer integration** to **Enabled**.
- -  If you want to use the same IE website list for both IE and Enterprise mode: Set **Computer Configuration** &gt; **Administrative Templates**&gt; **Windows Components** &gt; **Internet Explorer** &gt; **Use the Enterprise Mode IE website list** to the complete path to the file, such as **https://localhost:8080/ESMlist.xml**.
- -  Alternatively, you can also configure IE mode with a separate policy for Microsoft Edge. This additional policy allows you to override the IE site list. Set **Computer Configuration** &gt; **Administrative Templates**&gt; **Microsoft Edge** &gt; **Configure the Enterprise Mode Site List** to the complete path to the file, such as **https://localhost:8080/IEModelist.xml**.
+ -  To configure IE Mode: Set **Computer Configuration** > **Administrative Templates** > **Microsoft Edge** > **Configure Internet Explorer integration** to **Enabled**.
+ -  If you want to use the same IE website list for both IE and Enterprise mode: Set **Computer Configuration** > **Administrative Templates** > **Windows Components** > **Internet Explorer** > **Use the Enterprise Mode IE website list** to the complete path to the file, such as **https://localhost:8080/ESMlist.xml**.
+ -  Alternatively, you can also configure IE mode with a separate policy for Microsoft Edge. This additional policy allows you to override the IE site list. Set **Computer Configuration** > **Administrative Templates** > **Microsoft Edge** > **Configure the Enterprise Mode Site List** to the complete path to the file, such as **https://localhost:8080/IEModelist.xml**.
