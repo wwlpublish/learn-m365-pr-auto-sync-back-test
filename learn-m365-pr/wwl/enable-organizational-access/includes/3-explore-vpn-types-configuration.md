@@ -2,7 +2,7 @@ Virtual private networks (VPNs) are point-to-point connections across a private 
 
 There are many options for VPN clients. In Windows, the built-in plug-in and the Universal Windows Platform (UWP) VPN plug-in platform are built on top of the Windows VPN platform.
 
-:::image type="content" source="../media/windows-vpn-platform-ffcf080a.png" alt-text="VPN connection types":::
+:::image type="content" source="../media/windows-vpn-platform-ffcf080a.png" alt-text="Diagram of VPN connection types.":::
 
 
 ### Built-in VPN client

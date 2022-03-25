@@ -6,6 +6,6 @@ Always On VPN can work on both domain and non-domain joined devices. It supports
 
 Always On VPN is exclusively a Windows 10 or later feature–devices using other platforms would need to use traditional client VPN solutions. Also, you can't use AD DS or Group Policy to deploy and manage this feature. You need to use Configuration Manager, Microsoft Intune or PowerShell. Windows Server 2016 and later, with the Routing and Remote Access role installed supports Always On VPN technology. However, other network devices (from vendors such as Cisco, Juniper, Palo Alto and others) that can terminate VPN connections are also supported.
 
-Enabling clients for Always On VPN connections requires deploying an XML VPN profile. This can be manually created or use a configured client to generate a template. The XML file can then be deployed to clients using Intune, Configuration Manager or Powershell.
+Enabling clients for Always On VPN connections requires deploying an XML VPN profile. This can be manually created or use a configured client to generate a template. The XML file can then be deployed to clients using Intune, Configuration Manager or PowerShell.
 
 The process for creating VPN profiles is beyond the scope of this course, and typically the MDA will work with the Network Manager when configuring Always On VPNs.

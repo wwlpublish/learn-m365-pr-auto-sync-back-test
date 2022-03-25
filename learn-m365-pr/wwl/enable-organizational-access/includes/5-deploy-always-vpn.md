@@ -13,7 +13,7 @@ When preparing for Always On VPN deployment, you should ensure that you have fol
 
 The following illustration shows the infrastructure that is required to deploy Always On VPN.
 
-:::image type="content" source="../media/vpn-perimeter-diagram-97027b4d.png" alt-text="Diagram showing the Always On VPN infrastructure":::
+:::image type="content" source="../media/vpn-perimeter-diagram-97027b4d.png" alt-text="Diagram showing the Always On VPN infrastructure.":::
 
 
 For more information refer to [Deploy Always On VPN](/windows-server/remote/remote-access/vpn/always-on-vpn/deploy/always-on-vpn-deploy-deployment).

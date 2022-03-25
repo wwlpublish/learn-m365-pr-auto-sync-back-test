@@ -3,7 +3,7 @@ uid: learn.wwl.enable-organizational-access
 metadata:
   title: Enable organizational access
   description: "This module describes how clients can be configured to access organizational resources using a virtual private network (VPN)."
-  ms.date: 03/18/2022
+  ms.date: 03/25/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
