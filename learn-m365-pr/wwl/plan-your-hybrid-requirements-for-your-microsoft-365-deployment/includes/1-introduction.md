@@ -11,3 +11,4 @@ After completing this module, you'll be able to:
  -  Describe the key planning options when designing a hybrid SharePoint environment, along with the primary features of a hybrid deployment.
  -  Identify the infrastructure, topology, port, and protocol requirements that are necessary to set up a hybrid Skype For Business environment.
  -  Understand how your selected hybrid connectivity affects users.
+
