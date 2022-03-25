@@ -15,7 +15,7 @@ When a device enrolls in Intune, information about the device, including its com
 
 Intune compliance policies are created in the Devices section of the Endpoint Manager admin center. The device compliance dashboard for monitoring can be found under Reports.
 
-By default, when Intune detects a device that isn't compliant, it immediately marks the device as noncompliant. In each compliance policy you can configure actions for noncompliant devices, which provides you with additional flexibility in deciding what to do. For example, in a typical scenario, organizations will block access to company resources from a non-compliant device. However, you can configure a compliance policy that instead allows a non-compliant device to access company resources as long as the device is made compliant within a specified grace period. If compliance is not achieved by that time, the device will no longer be able to access company resources.
+By default, when Intune detects a device that isn't compliant, it immediately marks the device as noncompliant. In each compliance policy you can configure actions for noncompliant devices, which provide you with additional flexibility in deciding what to do. For example, in a typical scenario, organizations will block access to company resources from a non-compliant device. However, you can configure a compliance policy that instead allows a non-compliant device to access company resources as long as the device is made compliant within a specified grace period. If compliance is not achieved by that time, the device will no longer be able to access company resources.
 
 There are two types of noncompliant actions:
 
@@ -33,9 +33,9 @@ It is recommended that you use Azure AD groups for users and devices to apply an
 
 A group membership rule is used to automatically populate a group with users or devices. This is a binary expression that results in a True or False outcome. The three parts of a simple group membership rule include:
 
- -  **Property.** Specifies the object attribute; for example, you can use **user.department** to reference the Department attribute of a user object, or **device.displayName** to reference the **displayName** attribute of a device object.
+ -  **Property**. Specifies the object attribute; for example, you can use **user.department** to reference the Department attribute of a user object, or **device.displayName** to reference the **displayName** attribute of a device object.
  -  **Operator**. Can be one of many supported operators, such as Equals (-eq), Starts With (-startsWith), Contains (-contains), or Match (-match).
- -  **Value.** The value against which you want to evaluate the property by using the operator.
+ -  **Value**. The value against which you want to evaluate the property by using the operator.
 
 For example, you would use the following group membership rule to include all devices that were manufactured by Microsoft:
 

@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/18/2022
+  ms.date: 03/25/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -27,7 +27,7 @@ quiz:
       explanation: "Incorrect. Endpoint Manager isn't a synchronization protocol. Try again."
     - content: "Exchange ActiveSync"
       isCorrect: true
-      explanation: "Correct. Exchange ActiveSync (EAS) is an Exchange synchronization protocol that's optimized to work together with high-latency and low-bandwidth networks. The protocol, based on HTTP and XML, lets mobile phones access an organization's information on a server that's running Microsoft Exchange. Not only does EAS allow mobile phone users to access their email, calendar, contacts, and tasks, it also lets them to continue accessing this information when they're working offline."
+      explanation: "Correct. Exchange ActiveSync (EAS) is an Exchange synchronization protocol that's optimized to work together with high-latency and low-bandwidth networks. The protocol, based on HTTP and XML, lets mobile phones access an organization's information on a server that's running Microsoft Exchange. Not only does EAS allow mobile phone users to access their email, calendar, contacts, and tasks, it also allows them to continue accessing this information when they're working offline."
   - content: "As the Desktop Administrator for World Wide Importers, Alan Deyoung wants to create Conditional Access policies to provide granular access control over organizational data while allowing users to work from essentially any device and location. In which of the following scenarios will Conditional Access be especially beneficial for World Wide Importers?"
     choices:
     - content: "Enabling employees to use a corporate application on their personal device"

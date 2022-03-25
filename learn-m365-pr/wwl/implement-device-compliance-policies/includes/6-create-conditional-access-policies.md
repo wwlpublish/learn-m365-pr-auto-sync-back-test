@@ -26,7 +26,7 @@ You can also configure conditional access for Exchange ActiveSync in the Tenant 
 
 #### Conditional Access and Exchange ActiveSync
 
-Exchange ActiveSync (EAS) is an Exchange synchronization protocol that's optimized to work together with high-latency and low-bandwidth networks. The protocol, based on HTTP and XML, lets mobile phones access an organization's information on a server that's running Microsoft Exchange. Not only does EAS allow mobile phone users to access their email, calendar, contacts, and tasks, it also lets them to continue accessing this information when they're working offline. By default, Exchange ActiveSync is enabled. All users who have an Exchange mailbox can synchronize their mobile device with the Microsoft Exchange server.
+Exchange ActiveSync (EAS) is an Exchange synchronization protocol that's optimized to work together with high-latency and low-bandwidth networks. The protocol, based on HTTP and XML, lets mobile phones access an organization's information on a server that's running Microsoft Exchange. Not only does EAS allow mobile phone users to access their email, calendar, contacts, and tasks, it also allows them to continue accessing this information when they're working offline. By default, Exchange ActiveSync is enabled. All users who have an Exchange mailbox can synchronize their mobile device with the Microsoft Exchange server.
 
 > [!NOTE]
 > Exchange ActiveSync doesn't support shared mailboxes or delegate access.
@@ -40,7 +40,7 @@ You can configure advanced settings in conditional access for more granular cont
  -  Allow or block certain platforms.
  -  Immediately block devices that are not managed by Intune.
 
-Any device used to access Exchange on-premises is checked for compliance when device compliance and conditional access policies are applied. When devices do not meet the conditions set, the end user is guided through the process of enrolling the device to fix the issue that is making the device noncompliant.
+Any device used to access Exchange on-premises is checked for compliance when device compliance and conditional access policies are applied. When devices do not meet the conditions set, the end user is guided through the process of enrolling the device via the Azure AD Device Registration Server (DRS) to fix the issue that is making the device noncompliant.
 
 The Intune Exchange connector pulls in all the Exchange ActiveSync records that exist at the Exchange server so Intune can take these EAS records and map them to Intune device records. These records are devices enrolled and recognized by Intune. This process allows or blocks e-mail access.
 
