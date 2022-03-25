@@ -13,12 +13,12 @@ To achieve the best experience using Microsoft Teams, an organization should dep
 
 ### Prepare your organization's network for Microsoft Teams
 
-When planning the implementation of Microsoft Teams within its network, an organization must ensure:
+When an organization plans to implement Microsoft Teams, it must first verify the following network requirements are met:
 
- -  that it has the required bandwidth.
- -  that it has access to all required IP addresses.
- -  the correct ports are open.
- -  the performance requirements are met for real-time media.
+ -  Its network has the required bandwidth.
+ -  It has access to all required IP addresses.
+ -  The correct ports are open.
+ -  The performance requirements are met for real-time media.
 
 If an organization doesn't meet these criteria, its end users won't get an optimal experience from Teams because of bad quality during calls and meetings. Should an organization not meet these criteria, it should consider pausing the project until it completes any necessary corrective actions to meet the criteria before continuing.
 

@@ -4,7 +4,7 @@ Microsoft 365 includes a basic team site for you to get started. You can immedia
 
 ### Best practices for file storage and sharing
 
-Small businesses often have file storage and collaboration requirements that can be addressed through best practices that are unique to their industry type, such as:
+Small businesses often have file storage and collaboration requirements that can be addressed through best practices that are unique to their industry type. These industry types include:
 
  -  **Small Businesses.** Create a Microsoft 365 team site to store shared documents so information is centrally located and archived. This way information isn't lost during personnel transitions, such as when transitioning to a new director. Create a private Microsoft 365 team subsite to store files that you want to keep private from the rest of the team, such as your personnel and financial documents.
  -  **Sole proprietorships.** Use OneDrive for Business to store your own files and share them with customers on a case-by-case basis.
