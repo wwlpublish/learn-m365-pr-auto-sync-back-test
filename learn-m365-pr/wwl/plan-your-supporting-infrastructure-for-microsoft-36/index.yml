@@ -9,9 +9,9 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Plan your supporting infrastructure for Microsoft 365
-summary: This module examines the key areas that organizations must plan for to either move their Microsoft 365 service completely to the cloud or to hybridize their environment.
+summary: This module examines the key areas that organizations must plan for in order to either move their Microsoft 365 service completely to the cloud or to hybridize their environment.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   *   Determine the best email migration or coexistence strategy for your organization.
   *   Create a file storage and collaboration strategy that is resilient and reliable.
   *   Prepare your organization to achieve the best experience using Microsoft Teams.

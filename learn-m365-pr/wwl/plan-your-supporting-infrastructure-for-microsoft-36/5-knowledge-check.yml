@@ -28,7 +28,7 @@ quiz:
     - content: "Exchange Online and SharePoint Online"
       isCorrect: true
       explanation: "Correct. To achieve the best experience using Microsoft Teams, an organization should deploy Exchange Online and SharePoint Online. It should also ensure that its current environment is ready for Teams."
-  - content: "When implementing Microsoft Teams, organizations will experience degraded performance when which of the following network activities occurs?"
+  - content: "When organizations implement Microsoft Teams, they'll experience degraded performance when which of the following network activities occurs?"
     choices:
     - content: "The burst packet loss from clients to Microsoft Edge is greater than 1% during any 15-second interval"
       isCorrect: false
