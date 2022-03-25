@@ -7,7 +7,7 @@ Use the following steps to view the Device Compliance Summary report:
 1.  Sign in to the **Microsoft Endpoint Manager admin center**.
 2.  Select **Reports** &gt; **Device Compliance** to view the reports summary.
 
-:::image type="content" source="../media/intune-reports-compliance-summary-d675b4ee.png" alt-text="Screenshot of the Conditional access screen in Intune.":::
+:::image type="content" source="../media/intune-reports-compliance-summary-d675b4ee.png" alt-text="Screenshot of the Conditional access screen in Intune, showing the summary page of compliant and noncompliant devices..":::
 
 
 ### Device compliance report
@@ -18,12 +18,12 @@ The Device Compliance report shows all the compliance states for devices to give
 2.  Select **Reports** &gt; **Device compliance**.
 3.  In the details pane, select the **Reports** tab, then select the **Device compliance** option.
 4.  Select the **Compliance status**, **OS**, and **Ownership** filters to refine your report.
-5.  Click **Generate report** (or Generate again) to retrieve current data.
+5.  Select **Generate report** (or Generate again) to retrieve current data.
 
-:::image type="content" source="../media/intune-reports-device-compliance-8686ddd2.png" alt-text="Screenshot of the Conditional access screen in Intune.":::
+:::image type="content" source="../media/intune-reports-device-compliance-8686ddd2.png" alt-text="Screenshot of the Conditional access screen in Intune, showing a device compliance report.":::
 
 
-A device compliance trend report for device compliance trends can show the trend of device compliance states over a period of time. The aggregated data is displayed over a period of time, and is useful for making future investment decisions, driving process improvements, or prompting investigation into any anomalies.You can identify where compliance peaks occurred and focus your time and effort accordingly.
+A device compliance trend report for device compliance trends can show the trend of device compliance states over a period of time. The aggregated data is displayed over a period of time, and is useful for making future investment decisions, driving process improvements, or prompting investigation into any anomalies. You can identify where compliance peaks occurred and focus your time and effort accordingly.
 
 You can view the Trends report using the following steps:
 
@@ -31,4 +31,4 @@ You can view the Trends report using the following steps:
 2.  Select **Reports** &gt; **Device compliance**.
 3.  In the details pane, select the **Reports** tab, then select the **Device compliance trends** option.
 
-:::image type="content" source="../media/intune-reports-compliance-trend-22dcd5b9.png" alt-text="Screenshot of the Conditional access screen in Intune.":::
+:::image type="content" source="../media/intune-reports-compliance-trend-22dcd5b9.png" alt-text="Screenshot of the Conditional access screen in Intune, showing a 60-day trend of device compliance status.":::

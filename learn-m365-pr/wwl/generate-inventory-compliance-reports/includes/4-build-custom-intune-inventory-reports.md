@@ -1,7 +1,7 @@
 You can use the Intune Data Warehouse to build professional looking reports that provide insight into your enterprise mobile environment. For example, some of the reports include:
 
  -  Trend of users enrolling in Intune so you can optimize your license purchases
- -  App and OS versions breakdown so you can review that status of devices
+ -  App and OS versions break down so you can review that status of devices
  -  Enrollment and device compliance trends so you can smoothly roll out policy updates
 
 The Data Warehouse provides you access to more information about your Intune environment than the Endpoint Manager portal. With the Intune Data Warehouse you can access:
@@ -41,14 +41,14 @@ With a client authenticated to Azure AD, the OData URL connects to the RESTful e
 5.  Type or paste the OData URL into the URL box.
 6.  Authenticate to Azure AD for your tenant from the Power BI desktop client by signing in on the Organizational account tab.
 7.  Select the desired tables needed for reporting.
-8.  Create custom dashboards and reports using the PowerBI Desktop.
+8.  Create custom dashboards and reports using the Power BI Desktop.
 
 ### Use the Power BI App
 
-Alternatively, you can use the Power BI Intune Compliance app, which is in preview. This contains pre-configured reports focused on device compliance reporting. This uses the web version of PowerBI and allows for customization and sharing of reports.
+Alternatively, you can use the Power BI Intune Compliance app, which is in preview. This contains pre-configured reports focused on device compliance reporting. This uses the web version of Power BI and allows for customization and sharing of reports.
 
 1.  Sign in to the Endpoint Manager portal and choose **Reports**.
 2.  Select **Get Power BI App**, then **Get it now**.
-3.  Install the App. You will either need to sign in with a user licensed for PowerBI or sign up for a trial.
+3.  Install the App. You will either need to sign in with a user licensed for Power BI or sign up for a trial.
 4.  Once in the app, note a message that sample data is being shown. Connect your data by signing in.
 5.  When the data has refreshed (this can take up to 5 minutes), select the Intune Compliance workspace to view the dashboards and reports.
