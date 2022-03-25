@@ -4,10 +4,11 @@ title: Deploy applications with Intune
 metadata:
   title: Deploy applications with Intune
   description: "Deploy applications with Intune"
-  ms.date: 03/17/2022
+  ms.date: 03/25/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 azureSandbox: false
 labModal: false
 durationInMinutes: 3

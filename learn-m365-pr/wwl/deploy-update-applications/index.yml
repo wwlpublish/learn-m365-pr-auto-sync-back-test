@@ -3,7 +3,7 @@ uid: learn.wwl.deploy-update-applications
 metadata:
   title: Deploy and update applications
   description: "In this module, you will be introduced to application deployment in Intune and Microsoft Store for Business."
-  ms.date: 03/17/2022
+  ms.date: 03/25/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
