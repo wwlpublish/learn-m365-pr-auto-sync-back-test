@@ -1,4 +1,4 @@
-An organization must first clean up its Active Directory before synchronizing it to Microsoft 365. Typically, older AD environments have some User and Group objects that have been inactive for months and sometimes years. Before migrating its Organizational Unit (OU) to its clean cloud environment, an organization should take inventory of the objects that can help its migration.
+An organization must first clean up its Active Directory before synchronizing it to Microsoft 365. Typically, older AD environments have some User and Group objects that have been inactive for months and sometimes years. Before an organization migrates its Organizational Unit (OU) to its clean cloud environment, it should take inventory of the objects that can help its migration.
 
 Taking inventory of these items typically includes the following steps:
 

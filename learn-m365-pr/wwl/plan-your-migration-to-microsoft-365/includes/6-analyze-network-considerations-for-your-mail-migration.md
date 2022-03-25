@@ -22,7 +22,7 @@
     
 
  -  Identify your available network capacity and determine the maximum upload capacity.
- -  Contact your ISP to confirm your assigned bandwidth and to get details about restrictions, such as the total amount of data that can be transferred in a specific period of time.
+ -  Contact your ISP to confirm your assigned bandwidth. Your ISP can also provide details about restrictions, such as the total amount of data that can be transferred in a specific period of time.
  -  Use tools to evaluate your actual network capacity. Make sure you test the end-to-end flow of data from your on-premises data source to the Microsoft datacenter gateway servers.
  -  Identify other loads on your network (for example, backup utilities and scheduled maintenance) that can affect your network capacity.
 
@@ -46,7 +46,7 @@
   :::column-end:::
   :::column:::
     Intrusion detection functionality configured on a network firewall often causes significant network delays and affects migration performance.
-Migrating data to Microsoft 365 mailboxes relies on your Internet connection. Internet delays effect overall migration performance.
+Migrating data to Microsoft 365 mailboxes relies on your Internet connection. Internet delays can negatively affect overall migration performance.
 Also, users in the same company may have cloud mailboxes that are located in datacenters in different geographical locations. Depending on the customer's ISP, migration performance may vary.
   :::column-end:::
   :::column:::
