@@ -1,7 +1,7 @@
 Microsoft 365, together with Azure Active Directory (Azure AD), provides different avenues for companies to authenticate into its services. The following list identifies the different strategies that can be implemented in an organization’s tenant and environment:
 
  -  **Cloud only.** This strategy has the least setup compared to the other identity strategies - all that's needed is a subscription and a sign-in account. The **Cloud only** strategy is managed from a web interface from the Microsoft 365 Admin Center or by remotely accessing the service using PowerShell.
- -  **Password hash synchronization.** Hashes of user passwords are synchronized from on-premises Active Directory to Azure AD. When passwords are changed or reset on-premises, the new password hashes are immediately synchronized to Azure AD so that users can always use the same password for cloud resources and on-premises resources. The passwords themselves are NEVER sent to Azure AD or stored in Azure AD in clear text.
+ -  **Password hash synchronization.** Hashes of user passwords are synchronized from on-premises Active Directory to Azure AD. When passwords are changed or reset on-premises, the new password hashes are immediately synchronized to Azure AD. This design enables users to always use the same password for cloud resources and on-premises resources. The passwords themselves are NEVER sent to Azure AD or stored in Azure AD in clear text.
  -  **Azure AD Pass-Through Authentication.** You can enable Seamless Single Sign-On (SSO) for users on domain-joined machines that are on your corporate network. With single sign-on enabled, users only need to enter a username to help them securely access cloud resources. Azure AD Pass-Through Authentication allows your users to sign into both on-premises and cloud-based applications using the same passwords. The Pass-Through Authentication process is summarized as follows:
     
      -  On receiving the request to sign in, Azure AD places the username and password (encrypted by using the public key of the Authentication Agents) in a queue.
@@ -9,7 +9,7 @@ Microsoft 365, together with Azure Active Directory (Azure AD), provides differe
      -  The agent decrypts the password by using its private key.
      -  The agent validates the username and password against Active Directory by using standard Windows APIs, which is a similar mechanism to what is used by Active Directory Federation Services (AD FS). The username can either be the on-premises default username, usually User Principal Name, or another attribute (known as Alternate ID) configured in Azure AD Connect.
      -  The on-premises Active Directory domain controller (DC) evaluates the request and returns the appropriate response (success, failure, password expired, or user locked out) to the agent.
-     -  The Authentication Agent returns this response back to Azure AD, then Azure AD evaluates the response and responds to the user as appropriate. For example, Azure AD either signs the user in immediately or requests Azure Active Directory Multifactor authentication. If the user sign-in is successful, the user can access the application.
+     -  The Authentication Agent returns this response back to Azure AD, then Azure AD evaluates the response and responds to the user as appropriate. For example, Azure AD either signs the user in immediately or requests Azure Active Directory Multi-factor authentication. If the user sign-in is successful, the user can access the application.
  -  **Azure AD Pass-Through Authentication with Seamless Single Sign On (SSO).** You can combine Pass-Through Authentication with the [Seamless Single Sign-On](/azure/active-directory/connect/active-directory-aadconnect-sso?azure-portal=true). This way, when your users are accessing applications on their corporate machines inside your corporate network, they don't need to type in their passwords to sign in.
  -  **Federated SSO with Active Directory Federation Services (AD FS).** With federated sign-in, users sign in to Azure AD-based services with their on-premises passwords. This service uses an intermediary server call to a WAP, which uses proxy DNS names to route users to their required location. While they're on the corporate network, they don't even have to enter their passwords. By using the federation option with AD FS, organizations can deploy a new or existing farm with AD FS in Windows Server 2012 R2. If you choose to specify an existing farm, Azure AD Connect configures the trust between your farm and Azure AD so that your users can sign in.
 
@@ -160,17 +160,17 @@ Windows-Integrated Authentication
 :::row-end:::
 :::row:::
   :::column:::
-    What are the multifactor authentication options?
+    What are the multi-factor authentication options?
   :::column-end:::
   :::column:::
-    [Azure MFA](/azure/multi-factor-authentication/?azure-portal=true)
+    [Azure AD Multi-Factor Authentication](/azure/multi-factor-authentication/?azure-portal=true)
   :::column-end:::
   :::column:::
-    [Azure MFA](/azure/multi-factor-authentication/?azure-portal=true)
+    [Azure AD Multi-Factor Authentication](/azure/multi-factor-authentication/?azure-portal=true)
   :::column-end:::
   :::column:::
-    [Azure MFA](/azure/multi-factor-authentication/?azure-portal=true)
-[Azure MFA server](/azure/active-directory/authentication/howto-mfaserver-deploy?azure-portal=true)
+    [Azure AD Multi-Factor Authentication](/azure/multi-factor-authentication/?azure-portal=true)
+[Azure AD Multi-Factor Authentication server](/azure/active-directory/authentication/howto-mfaserver-deploy?azure-portal=true)
 [Third-party MFA](/windows-server/identity/ad-fs/operations/configure-additional-authentication-methods-for-ad-fs?azure-portal=true)
   :::column-end:::
 :::row-end:::

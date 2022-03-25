@@ -1,8 +1,8 @@
-Although Microsoft 365 is a managed service that requires little to set up for pure cloud companies, companies with an existing local environment still need to complete various checks to ensure a smooth transition. These checks should include analyzing network readiness and your on-premises Active Directory environment.
+Microsoft 365 is a managed service that requires minimal setup for pure cloud companies. However, companies with an existing local environment must complete various checks to ensure a smooth transition to Microsoft 365. These checks include analyzing network readiness and the organization's on-premises Active Directory environment.
 
 ### Network concerns
 
-Using Microsoft 365 may increase the utilization of your organization’s internet circuit. It's important to determine if the amount of bandwidth currently available is enough to handle the estimated increase once Microsoft 365 is fully deployed while leaving at least 20% capacity to handle the busiest of days.
+Using Microsoft 365 may increase the utilization of an organization’s internet circuit. It's important to determine if the amount of bandwidth currently available is enough to handle the estimated increase once Microsoft 365 is fully deployed while leaving at least 20% capacity to handle the busiest of days.
 
 ### Cleaning up your on-premises Active Directory environment
 
