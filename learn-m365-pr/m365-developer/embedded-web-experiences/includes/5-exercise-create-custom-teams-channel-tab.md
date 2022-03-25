@@ -21,7 +21,7 @@ yo teams
 Yeoman starts and asks you a series of questions. Answer the questions with the following values:
 
 - **You are running the generator on an already existing project... are you sure you want to continue?**: Yes
-- **Do you want to change the current manifest version (1.9)?**: No
+- **Do you want to change the current manifest version (1.11)?**: No
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A Tab
 - **Default tab name (max 16 characters)**: ConfigMathTab
@@ -32,7 +32,7 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 
 If prompted to overwrite files, select **Y**.
 
-After you answer the generator's questions, the generator adds the additional files for a new component. Then it runs `npm install` to ensure that any new dependencies are downloaded for the project.
+After you answer the generator's questions, the generator adds the additional files for a new component. Then it may run the `npm install` command to ensure that any new dependencies are downloaded for the project.
 
 ## Test the channel tab
 
@@ -46,7 +46,7 @@ gulp ngrok-serve --debug
 
 Open a browser, and go to [Microsoft Teams](https://teams.microsoft.com). Sign in with the credentials of a Work and School account.
 
-In the app bar on the left, select the **More added apps** button. Then select **Browse all apps** > **Upload for me or my teams**.
+In the app bar on the left, select the **More added apps** button. Then select **Manage your apps** > **Upload a custom app**.
 
 ![Screenshot of More added apps dialog box in Microsoft Teams](../media/03-yo-teams-05.png)
 

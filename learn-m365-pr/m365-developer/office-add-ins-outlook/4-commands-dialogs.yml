@@ -3,7 +3,7 @@ uid: learn-m365.office-add-ins-outlook.4-commands-dialogs
 metadata:
   title: Add-in commands and dialogs
   description: In this unit, you'll learn how to create add-in commands and work with dialogs to display information, or prompt the user for input.
-  ms.date: 06/17/2021
+  ms.date: 03/01/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -12,4 +12,3 @@ title: Add-in commands and dialogs
 durationInMinutes: 13
 content: |
   [!include[](includes/4-commands-dialogs.md)]
-
