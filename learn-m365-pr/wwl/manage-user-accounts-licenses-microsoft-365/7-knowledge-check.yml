@@ -4,13 +4,12 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 09/10/2021
+  ms.date: 03/27/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 4
 content: |
@@ -22,21 +21,21 @@ quiz:
     choices:
     - content: "Because the user account is soft deleted for 30 days, the license will remain unavailable for 30 days before it can be assigned to another user"
       isCorrect: false
-      explanation: "That's incorrect. This isn't what happens to a user's Microsoft 365 license when you delete the user's account. Try again."
+      explanation: "Incorrect. This isn't what happens to a user's Microsoft 365 license when you delete the user's account. Try again."
     - content: "To ensure the license is not assigned to another user in the event the deleted user account is restored, the license is placed on hold and can't be reassigned until the Global Admin runs a PowerShell command that releases the hold"
       isCorrect: false
-      explanation: "That's incorrect. This isn't what happens to a user's Microsoft 365 license when you delete the user's account. Try again."
+      explanation: "Incorrect. This isn't what happens to a user's Microsoft 365 license when you delete the user's account. Try again."
     - content: "The license for that user becomes available and can be assigned to another user"
       isCorrect: true
-      explanation: "That's correct. When you delete a user account, the user's license becomes available to be assigned to another user."
+      explanation: "Correct. When you delete a user account, the user's license becomes available. You can then assign the unused license to another user."
   - content: "As the Enterprise Administrator for Fabrikam, you're planning its migration to Microsoft 365. You plan to authenticate all of Fabrikam's users in Azure Active Directory. In doing so, you want the hashes of your users' passwords replicated between Fabrikam's on-premises environment and Microsoft 365. Which type of identity should you use?"
     choices:
     - content: "Synchronized identity"
       isCorrect: true
-      explanation: "That's correct. Synchronized identities are authenticated in Azure Active Directory using hashes of user passwords that are synchronized between the on-premises environment and Microsoft 365."
+      explanation: "Correct. Synchronized identities are authenticated in Azure Active Directory using hashes of user passwords that are synchronized between the on-premises environment and Microsoft 365."
     - content: "Cloud identity"
       isCorrect: false
-      explanation: "That's incorrect. While Cloud identities are authenticated in Azure Active Directory, they don't require replication of password hashes between the on-premises environment and Microsoft 365. Try again."
+      explanation: "Incorrect. While Cloud identities are authenticated in Azure Active Directory, they don't require replication of password hashes between the on-premises environment and Microsoft 365. Try again."
     - content: "Federated identity"
       isCorrect: false
-      explanation: "That's incorrect. Federated identities don't require replication of password hashes between the on-premises environment and Microsoft 365. Try again."
+      explanation: "Incorrect. Federated identities don't require replication of password hashes between the on-premises environment and Microsoft 365. Try again."

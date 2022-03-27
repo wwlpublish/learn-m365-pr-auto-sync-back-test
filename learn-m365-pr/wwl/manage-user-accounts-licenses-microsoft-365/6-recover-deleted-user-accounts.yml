@@ -4,13 +4,12 @@ title: Recover deleted user accounts in Microsoft 365
 metadata:
   title: Recover deleted user accounts in Microsoft 365
   description: "Recover deleted user accounts in Microsoft 365"
-  ms.date: 09/10/2021
+  ms.date: 03/27/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 3
 content: |

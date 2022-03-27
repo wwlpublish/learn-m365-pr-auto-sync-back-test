@@ -4,13 +4,12 @@ title: Manage user licenses in Microsoft 365
 metadata:
   title: Manage user licenses in Microsoft 365
   description: "Manage user licenses in Microsoft 365"
-  ms.date: 09/10/2021
+  ms.date: 03/27/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 5
 content: |
@@ -22,10 +21,10 @@ quiz:
     choices:
     - content: "Any service data associated with that user is soft-deleted, but you have a 30-day grace period in which you can recover the data before it gets permanently deleted"
       isCorrect: true
-      explanation: "That's correct. When you remove the license from one of your users, any service data that is associated with that user is soft-deleted. You then have a 30-day grace period in which you can recover that data, but after the grace period, the data is not recoverable."
+      explanation: "Correct. When you remove the license from one of your users, any service data that's associated with that user is soft-deleted. You then have a 30-day grace period in which you can recover that data. After the grace period, the data isn't recoverable."
     - content: "Any service data associated with that user is soft-deleted, but you can recover the data anytime after the data is deleted"
       isCorrect: false
-      explanation: "That's incorrect. This isn't what happens to a user's service data when you remove a license from the user's account. Try again."
+      explanation: "Incorrect. This isn't what happens to a user's service data when you remove a license from the user's account. Try again."
     - content: "Any service data associated with that user is permanently deleted and cannot be recovered"
       isCorrect: false
-      explanation: "That's incorrect. This isn't what happens to a user's service data when you remove a license from the user's account. Try again."
+      explanation: "Incorrect. This isn't what happens to a user's service data when you remove a license from the user's account. Try again."
