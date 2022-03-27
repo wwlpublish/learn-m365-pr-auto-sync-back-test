@@ -3,7 +3,7 @@ uid: learn.wwl.manage-groups-microsoft-365
 metadata:
   title: Manage groups in Microsoft 365
   description: "Manage groups in Microsoft 365"
-  ms.date: 09/10/2021
+  ms.date: 03/27/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -12,9 +12,9 @@ title: Manage groups in Microsoft 365
 summary: This module provides instruction on how to create groups for distributing email to multiple users within Exchange Online, and how to create groups to support collaboration in SharePoint Online.
 abstract: |
   By the end of this module, you will be able to:
-  - Describe the various types of groups available in Microsoft 365
-  - Create and manage groups using the Microsoft 365 admin center and Windows PowerShell
-  - Create and manage groups in Exchange Online and SharePoint Online
+  - Describe the various types of groups available in Microsoft 365.
+  - Create and manage groups using the Microsoft 365 admin center and Windows PowerShell.
+  - Create and manage groups in Exchange Online and SharePoint Online.
 prerequisites: |
   None
 iconUrl: /learn/achievements/manage-groups-in-microsoft-365.svg
@@ -25,7 +25,6 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:

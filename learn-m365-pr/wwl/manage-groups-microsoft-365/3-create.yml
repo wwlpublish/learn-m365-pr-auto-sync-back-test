@@ -4,13 +4,12 @@ title: Create and manage groups in Microsoft 365
 metadata:
   title: Create and manage groups in Microsoft 365
   description: "Create and manage groups in Microsoft 365"
-  ms.date: 09/10/2021
+  ms.date: 03/27/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 6
 content: |
@@ -18,14 +17,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "You're the Enterprise Administrator for Contoso. After creating a security group in Microsoft 365 that is synchronized with your on-premises Active Directory, you now want to edit the group. Which of the following tools should you use to edit the group?"
+  - content: "You're the Enterprise Administrator for Contoso. After creating a security group in Microsoft 365 that's synchronized with your on-premises Active Directory, you now want to edit the group. Which of the following tools should you use to edit the group?"
     choices:
     - content: "Microsoft 365 admin center"
       isCorrect: false
-      explanation: "That's incorrect. Security groups that are synchronized with your on-premises Active Directory can't be modified using the Microsoft 365 admin center. Try again."
+      explanation: "Incorrect. Security groups that are synchronized with your on-premises Active Directory can't be modified using the Microsoft 365 admin center. Try again."
     - content: "Local Active Directory management tools"
       isCorrect: true
-      explanation: "That's correct. Security groups that are synchronized with your on-premises Active Directory can only be modified using the local Active Directory management tools."
+      explanation: "Correct. Security groups that are synchronized with your on-premises Active Directory can only be modified using the local Active Directory management tools."
     - content: "Windows PowerShell"
       isCorrect: false
-      explanation: "That's incorrect. Security groups that are synchronized with your on-premises Active Directory can't be modified using Windows PowerShell. Try again."
+      explanation: "Incorrect. Security groups that are synchronized with your on-premises Active Directory can't be modified using Windows PowerShell. Try again."
