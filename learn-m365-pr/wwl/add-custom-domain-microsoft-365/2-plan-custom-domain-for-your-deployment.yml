@@ -4,12 +4,13 @@ title: Plan a custom domain for your Microsoft 365 deployment
 metadata:
   title: Plan a custom domain for your Microsoft 365 deployment
   description: "Plan a custom domain for your Microsoft 365 deployment"
-  ms.date: 06/30/2021
+  ms.date: 03/27/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/2-plan-custom-domain-for-your-deployment.md)]
