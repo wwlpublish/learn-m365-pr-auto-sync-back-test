@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Plan hybrid requirements for your Microsoft 365 deployment
-summary: This module examines the key areas that an organization must plan for to create hybrid environments for Exchange, SharePoint, and Skype for Business.
+summary: This module examines the key areas that an organization must plan for in order to create hybrid environments for Exchange, SharePoint, and Skype for Business.
 abstract: |
   By the end of this module, you'll be able to:
   *   Identify key considerations when planning a hybrid Exchange environment.
