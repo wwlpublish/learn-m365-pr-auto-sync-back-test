@@ -4,7 +4,7 @@ title: Manage user licenses in Microsoft 365
 metadata:
   title: Manage user licenses in Microsoft 365
   description: "Manage user licenses in Microsoft 365"
-  ms.date: 03/27/2022
+  ms.date: 03/28/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -19,12 +19,12 @@ quiz:
   questions:
   - content: "You're the Enterprise Administrator for Tailspin Toys. When a member of the Sales team recently left the company, you removed the Office 365 E3 license from the user's Microsoft 365 account. What will happen to any service data associated with that user?"
     choices:
-    - content: "Any service data associated with that user is soft-deleted, but you have a 30-day grace period in which you can recover the data before it gets permanently deleted"
+    - content: "Any service data associated with that user is soft-deleted. However, you have a 30-day grace period in which you can recover the data before it gets permanently deleted"
       isCorrect: true
       explanation: "Correct. When you remove the license from one of your users, any service data that's associated with that user is soft-deleted. You then have a 30-day grace period in which you can recover that data. After the grace period, the data isn't recoverable."
-    - content: "Any service data associated with that user is soft-deleted, but you can recover the data anytime after the data is deleted"
+    - content: "Any service data associated with that user is soft-deleted. However, you can recover the data anytime after the data is deleted"
       isCorrect: false
-      explanation: "Incorrect. This isn't what happens to a user's service data when you remove a license from the user's account. Try again."
-    - content: "Any service data associated with that user is permanently deleted and cannot be recovered"
+      explanation: "Incorrect. This action isn't what happens to a user's service data when you remove a license from the user's account. Try again."
+    - content: "Any service data associated with that user is permanently deleted and can't be recovered"
       isCorrect: false
-      explanation: "Incorrect. This isn't what happens to a user's service data when you remove a license from the user's account. Try again."
+      explanation: "Incorrect. This action isn't what happens to a user's service data when you remove a license from the user's account. Try again."
