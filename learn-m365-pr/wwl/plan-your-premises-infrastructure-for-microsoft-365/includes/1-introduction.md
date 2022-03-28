@@ -12,4 +12,3 @@ After completing this module, you'll be able to:<br>
  -  Describe the best practices for integrating to Microsoft 365.
  -  Identify the different deployment strategies a company can use for implementing Microsoft 365 services.
  -  Prepare your Active Directory forest for directory synchronization.
-
