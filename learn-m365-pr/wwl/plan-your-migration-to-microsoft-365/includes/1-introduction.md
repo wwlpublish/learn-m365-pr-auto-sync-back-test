@@ -13,5 +13,5 @@ After completing this module, you'll be able to:
  -  Plan your organization's migration to Microsoft 365 by using the Deployment Planning Checklist.
  -  Analyze your organization's Active Directory and plan any necessary clean-up using the ID Fix tool.
  -  Determine which migration strategy to use to move your organization's mail, calendar, and contact information to the cloud.
- -  Describe the performance and network issues to consider when planning your organization's migration strategy.
+ -  Describe the performance and network issues to consider when planning your organization's migration strategy. 
 
