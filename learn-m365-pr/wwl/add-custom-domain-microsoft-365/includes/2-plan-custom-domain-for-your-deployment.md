@@ -13,7 +13,7 @@ There are several factors an organization must consider when planning to add cus
     Multiple domains
   :::column-end:::
   :::column:::
-    An organization should plan to add the main domain that it currently uses. It should also add any other domain that it uses for email messages within the organization. This scenario is common when the overall company is a business group, or the organization has been through a merger process and some employees still have alternative email addresses.
+    An organization should plan to add the main domain that it currently uses. It should also add any other domain that it uses for email messages within the organization. This scenario is common when the overall company is a business group. It's also common when the organization has been through a merger process and some employees still have alternative email addresses.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -61,7 +61,7 @@ There are several factors an organization must consider when planning to add cus
     Not registering DNS
   :::column-end:::
   :::column:::
-    It's rare that an organization wouldn't want to register a DNS domain with Microsoft 365. However, it does happen occassionally. For example, an organization may want a separate email and directory service for its Microsoft 365 users. One possible scenario is a university that wants to host its faculty members in the on-premises environment and have the students in Microsoft 365 with a different domain name.
+    It's rare that an organization wouldn't want to register a DNS domain with Microsoft 365. However, it does happen occasionally. For example, an organization may want a separate email and directory service for its Microsoft 365 users. One possible scenario is a university that wants to host its faculty members in the on-premises environment and have the students in Microsoft 365 with a different domain name.
   :::column-end:::
 :::row-end:::
 :::row:::
