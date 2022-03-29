@@ -8,6 +8,10 @@ metadata:
   ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - aycabas-03262021
 title: Get started with Microsoft Graph Toolkit
 summary: Learn how to use the Microsoft Graph Toolkit, a set of web components and authentication providers to connect your web app to Microsoft Graph and load data from Microsoft 365. You can use Microsoft Graph Toolkit in any JavaScript framework.
 abstract: |
