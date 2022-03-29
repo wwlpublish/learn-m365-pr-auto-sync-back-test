@@ -24,7 +24,7 @@ roles:
 - administrator
 products:
 - office-teams
-- microsoft-compliance-center
+- m365-compliance-center
 units:
 - learn-m365.teams.enterprise-compliance.1-introduction
 - learn-m365.teams.enterprise-compliance.2-configure-retention-policies
