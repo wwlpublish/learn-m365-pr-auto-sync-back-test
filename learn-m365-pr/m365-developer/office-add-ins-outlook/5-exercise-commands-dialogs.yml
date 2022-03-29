@@ -17,7 +17,7 @@ quiz:
   questions:
   - content: "To add a button to an Outlook message compose add-in, you must add the control to which extension point type in the add-in's manifest file?"
     choices:
-    - content: "MessageComposeCommand"
+    - content: "`MessageComposeCommand`"
       isCorrect: false
       explanation: "The `<ExtensionPoint xsi:type=\"\">` should be set to `MessageComponseCommandSurface`."
     - content: "MessageComposeCommandSurface"
