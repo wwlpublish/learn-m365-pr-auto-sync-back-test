@@ -1,4 +1,4 @@
-When using Windows Information Protection, organizational data automatically encrypts when data downloads to or opens on a local device. Encryption protects the file data and associates the data with your enterprise identity.
+When you use Windows Information Protection, organizational data automatically encrypts when data downloads to or opens on a local device. Encryption protects the file data and associates the data with your enterprise identity.
 
 WIP policies then specify which trusted apps can use and manipulate that data. Enlightened apps such as Word or Microsoft Excel can work with organizational and personal data. When creating WIP policies, you can set four WIP-protection modes, which the following table lists, for managing that access.
 

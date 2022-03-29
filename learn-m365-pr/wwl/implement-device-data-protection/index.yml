@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Implement device data protection
-summary: This module describes how you can use Intune to create and manage WIP policies that manage this protection. The modules also covers implementing BitLocker and Encrypting File System.
+summary: This module describes how you can use Intune to create and manage WIP policies that manage this protection. The module also covers implementing BitLocker and Encrypting File System.
 abstract: |
   After this module, you should be able to:
   - Describe Windows Information Protection
