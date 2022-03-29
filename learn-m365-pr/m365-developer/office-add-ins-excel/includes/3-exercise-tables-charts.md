@@ -2,7 +2,7 @@ In this exercise, you'll learn how to work with tables and charts using the Offi
 
 ## Prerequisites
 
-Developing Office add-ins for Microsoft Excel requires Excel 2016, version 1711 (Build 8730.1000 Click-to-Run) or later. You might need to be an Office Insider to get this version. For more information, see [Be an Office Insider](https://insider.office.com/?tab=tab-1).
+Developing Office Add-ins for Microsoft Excel requires Excel 2016, version 1711 (Build 8730.1000 Click-to-Run) or later. You might need to be an Office Insider to get this version. For more information, see [Be an Office Insider](https://insider.office.com/?tab=tab-1).
 
 You'll use Node.js to create the custom Excel add-in in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
 
@@ -35,7 +35,7 @@ When prompted, provide the following information to create your add-in project:
 - **What do you want to name your add-in?** My Office Add-in
 - **Which Office client application would you like to support?** Excel
 
-![Yeoman generator](../media/03-yo-office-excel.png)
+![Screenshot of the prompts and answers for the Yeoman generator.](../media/03-yo-office-excel.png)
 
 After you complete the wizard, the generator creates the project and installs supporting Node components.
 
@@ -188,13 +188,13 @@ In this section, you'll programmatically test that your add-in supports the user
 
         To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
-1. In Excel, select the **Home** tab, and then select the **Show Task pane** button in the ribbon to open the add-in task pane.
+1. In Excel, select the **Home** tab, and then select the **Show Taskpane** button in the ribbon to open the add-in task pane.
 
-    ![Excel add-in button](../media/03-excel-quickstart-add-in-3b.png)
+    ![Screenshot of Excel add-in button.](../media/03-excel-quickstart-add-in-3b.png)
 
 1. In the task pane, select the **Create Table** button.
 
-    ![Excel tutorial - Create Table](../media/03-excel-tutorial-create-table-2.png)
+    ![Screenshot of table created by tutorial in Excel.](../media/03-excel-tutorial-create-table-2.png)
 
 ## Filter and sort a table
 
@@ -337,11 +337,11 @@ In this section, you'll filter and sort the table that you created previously.
 
         To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
-1. If the add-in task pane isn't already open in Excel, go to the **Home** tab and select the **Show Task pane** button in the ribbon to open it.
+1. If the add-in task pane isn't already open in Excel, go to the **Home** tab and select the **Show Taskpane** button in the ribbon to open it.
 1. If the table you added previously in this tutorial isn't present in the open worksheet, select the **Create Table** button in the task pane.
 1. Select the **Filter Table** button and the **Sort Table** button, in either order.
 
-    ![Excel tutorial - Filter and Sort Table](../media/03-excel-tutorial-filter-and-sort-table-2.png)
+    ![Screenshot of table filtered and sorted by tutorial in Excel.](../media/03-excel-tutorial-filter-and-sort-table-2.png)
 
 ## Create a chart
 
@@ -448,11 +448,11 @@ In this section, you'll create a chart using data from the table that you create
 
         To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
-1. If the add-in task pane isn't already open in Excel, go to the **Home** tab and select the **Show Task pane** button in the ribbon to open it.
+1. If the add-in task pane isn't already open in Excel, go to the **Home** tab and select the **Show Taskpane** button in the ribbon to open it.
 1. If the table you added previously in this tutorial isn't present in the open worksheet, select the **Create Table** button, and then the **Filter Table** button and the **Sort Table** button, in either order.
 1. Select the **Create Chart** button. A chart is created and only the data from the rows that have been filtered are included. The labels on the data points across the bottom are in the sort order of the chart; that is, merchant names in reverse alphabetical order.
 
-![Excel tutorial - Create Chart](../media/03-excel-tutorial-create-chart-2.png)
+![Screenshot of chart created by tutorial in Excel.](../media/03-excel-tutorial-create-chart-2.png)
 
 ## Summary
 
