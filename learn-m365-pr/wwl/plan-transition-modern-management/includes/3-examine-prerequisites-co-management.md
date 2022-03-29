@@ -19,8 +19,8 @@ To control Windows current devices:
 
 You can control the device registration behavior of your devices by deploying the following GPO: **Register domain-joined computers as devices**.
 
-1.  In the Group Policy Management Console, create two new GPOs and then go to **Computer Configuration** &gt; **Policies** &gt; **Administrative Templates** &gt; **Windows Components** &gt; **Device Registration**.<br>
-2.  In the first GPO, apply the **Disabled** setting to prevent automatic device registration. In the second GPO, apply the **Enabled** setting to enable automatic device registration<br>
+1.  In the Group Policy Management Console, create two new GPOs and then go to **Computer Configuration** &gt; **Policies** &gt; **Administrative Templates** &gt; **Windows Components** &gt; **Device Registration**.
+2.  In the first GPO, apply the **Disabled** setting to prevent automatic device registration. In the second GPO, apply the **Enabled** setting to enable automatic device registration
 3.  Link the first GPO to all devices in your environment and then link the second GPO only to the OU containing your pilot devices. Alternatively, you can use Group Policy security filtering and a security group to control which devices can automatically register with Azure AD.
 
 After you have joined your on-premises Active Directory devices to Azure AD, you can immediately use the following Intune remote actions:
@@ -47,13 +47,13 @@ The following list features some of the workloads that you can transition to Int
  -  Endpoint Protection
     
      -  Microsoft Defender Antivirus
-     -  Microsoft Defender Application Guard<br>
+     -  Microsoft Defender Application Guard
      -  Microsoft Defender Firewall
      -  Microsoft Defender SmartScreen
      -  Windows Encryption
      -  Microsoft Defender Exploit Guard
      -  Windows Defender Application Control
-     -  Microsoft Defender for Endpoint<br>
+     -  Microsoft Defender for Endpoint
      -  Windows Information Protection
  -  Device Configuration
     

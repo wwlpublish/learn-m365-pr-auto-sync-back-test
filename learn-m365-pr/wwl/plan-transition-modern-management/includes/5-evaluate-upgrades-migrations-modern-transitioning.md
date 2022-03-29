@@ -1,16 +1,16 @@
-Device migration is like deploying a new device. The deployment to the target device, whether it be the same or a different device, is typically the same process as a new device. You can use a traditional process, such as re-imaging the device, or if the target device has Windows 10 or Windows 11, you can use modern methods, such as Autopilot.<br>
+Device migration is like deploying a new device. The deployment to the target device, whether it be the same or a different device, is typically the same process as a new device. You can use a traditional process, such as reimaging the device, or if the target device has Windows 10 or Windows 11, you can use modern methods, such as Autopilot.
 
-The key difference is consideration for the end user's data and configuration. The process must include a way to safely and securely ensure that user data and settings are not lost during the process.
+The key difference is consideration for the end user's data and configuration. The process must include a way to safely and securely ensure that user data and settings aren't lost during the process.
 
 Scenarios for migrating users can include:
 
  -  The user's device is being replaced.
- -  The user's existing device is being upgraded from an older OS to Windows 10 or Windows 11 and an in-place upgrade is not possible (such as an unsupported upgrade path).
- -  A clean installation is needed. You may want to do this if the current state of the PC is undesirable. For example, the PC has performance or stability issues unrelated to hardware or the device has not been ideally maintained (it has legacy or unapproved apps installed, non-standard configuration, etc.)
+ -  The user's existing device is being upgraded from an older OS to Windows 10 or Windows 11 and an in-place upgrade isn't possible (such as an unsupported upgrade path).
+ -  A clean installation is needed. You may want to do this if the current state of the PC is undesirable. For example, the PC has performance or stability issues unrelated to hardware or the device hasn't been ideally maintained (it has legacy or unapproved apps installed, non-standard configuration, etc.)
 
-Depending on your environment, you can use two migration scenarios: side-by-side migration or wipe-and-load migration, which is also referred to as a refresh migration. In a refresh migration scenario, the source computer and the destination computer are the same, whereas in a side-by-side migration scenario, the source computer and the destination computer are different. Both migration scenarios require a clean installation of Windows 10 or Windows 11. When you migrate configurations from an older version of the Windows operating system, you are moving files and settings to a clean installation of the Windows operating system.
+Depending on your environment, you can use two migration scenarios: side-by-side migration or wipe-and-load migration, which is also referred to as a refresh migration. In a refresh migration scenario, the source computer and the destination computer are the same, whereas in a side-by-side migration scenario, the source computer and the destination computer are different. Both migration scenarios require a clean installation of Windows 10 or Windows 11. When you migrate configurations from an older version of the Windows operating system, you're moving files and settings to a clean installation of the Windows operating system.
 
-Careful consideration should be given when choosing to migrate instead of upgrade. Whenever an in-place migration is performed, there is can be a risk of loss of data if either IT or the user did not properly identify data that needed to be migrated. If something goes wrong during the deployment, a migration cannot be rolled back.
+Careful consideration should be given when choosing to migrate instead of upgrade. Whenever an in-place migration is performed, there can be a risk of loss of data if either IT or the user didn't properly identify data that needed to be migrated. If something goes wrong during the deployment, a migration can't be rolled back.
 
 :::row:::
   :::column:::
@@ -30,7 +30,7 @@ Careful consideration should be given when choosing to migrate instead of upgrad
 :::row-end:::
 :::row:::
   :::column:::
-    Does not need to reinstall apps or transfer data
+    Doesn't need to reinstall apps or transfer data
   :::column-end:::
   :::column:::
     You can control what migrates
@@ -62,7 +62,7 @@ Careful consideration should be given when choosing to migrate instead of upgrad
 :::row-end:::
 
 
-The process of preparing the destination computer is not unlike deploying a new computer or refreshing an existing one. In the case of side-by-side migrations, if the new device has Windows 10 or Windows 11, you can leverage modern methods like Autopilot to configure the device. If performing an in-place migration, you can leverage Autopilot for existing devices or you can use traditional methods, as well.
+The process of preparing the destination computer isn't unlike deploying a new computer or refreshing an existing one. In the case of side-by-side migrations, if the new device has Windows 10 or Windows 11, you can use modern methods like Autopilot to configure the device. If performing an in-place migration, you can use Autopilot for existing devices or you can use traditional methods, as well.
 
 ### In-place upgrades
 
@@ -71,7 +71,7 @@ Modern desktop deployment with Windows Autopilot helps you easily deploy the lat
 :::image type="content" source="../media/autopilot-for-existing-devices-task-sequence-editor-21352361.png" alt-text="Screenshot of Task Sequence Editor showing Autopilot for existing devices options.":::
 
 
-As with many of the options that exist in a deployment strategy, transforming a device is only relevant if this fits into you overall planning approach. You may simply want to begin your journey with newly provisioned devices and migrate over time.
+As with many of the options that exist in a deployment strategy, transforming a device is only relevant if this fits into you overall planning approach. You may want to begin your journey with newly provisioned devices and migrate over time.
 
 With tools such as Microsoft Intune and Autopilot, device deployment and the deployment scenarios are beginning to change. Co-management offers that bridge to spread workloads between Intune and Configuration Manager. This means that co-management can offer a path to modern management (with a workflow moved fully to Intune) or it can be part of the journey in helping an enterprise get to modern management by allowing it to trial the workload in Intune while running most production clients from Configuration Manager.
 
