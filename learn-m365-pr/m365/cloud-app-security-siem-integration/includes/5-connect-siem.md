@@ -2,7 +2,7 @@ Many organizations have Already implemented an event management (SIEM) solution 
 
 ## Prerequisites
 
-The following prerequisites are required to connect a 3^rd^ party SIEM solution to Microsoft Defender for Cloud Apps:
+The following prerequisites are required to connect a 3rd party SIEM solution to Microsoft Defender for Cloud Apps:
 
 - A SIEM solution that can receive Syslog CEF messages.
 - A syslog server with the following specifications:
