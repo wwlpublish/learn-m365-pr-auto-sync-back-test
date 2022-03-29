@@ -8,8 +8,11 @@ metadata:
   ms.author: wmastyka
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ms.custom: team=cloud_advocates
-  ms.contributors: wmastyka-01212022
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - wmastyka-01212022
+  - aapowell-09102021
 title: Extend Microsoft Viva Connections with web parts
 summary: Learn how to extend Viva Connections with custom web parts by using your existing web development skills. You'll learn about the scenarios where web parts are most suitable and how to build them.
 abstract: |

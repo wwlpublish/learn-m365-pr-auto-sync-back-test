@@ -8,8 +8,10 @@ metadata:
   ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
-  ms.custom: team=cloud_advocates
-  ms.contributors: aycabas-03262021
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - aycabas-03262021
 title: Show data from Microsoft 365
 durationInMinutes: 5
 content: |

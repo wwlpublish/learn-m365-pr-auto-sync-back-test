@@ -9,8 +9,11 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
   ms.suite: microsoft-graph
-  ms.contributors: dwahlin-09292021
-  ms.custom: team=cloud_advocates
+  ms.contributors:
+  - dwahlin-09292021
+  - aapowell-09102021
+  ms.custom:
+  - team=cloud_advocates
 title: Explore Microsoft Graph scenarios for ASP.NET Core development
 summary: "This learning path includes hands-on exercises that will show you how to perform common tasks, such as showing a user's emails, accessing calendar events, and downloading and uploading files, in an ASP.NET Core app using Microsoft Graph APIs."
 prerequisites: | 

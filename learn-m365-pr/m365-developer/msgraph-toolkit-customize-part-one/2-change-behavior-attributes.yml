@@ -8,8 +8,10 @@ metadata:
   ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
-  ms.custom: team=cloud_advocates
-  ms.contributors: aycabas-04262021
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - aycabas-04262021
 title: Change the behavior of components by using attributes
 durationInMinutes: 5
 content: |
