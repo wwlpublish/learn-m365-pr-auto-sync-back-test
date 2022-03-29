@@ -27,6 +27,7 @@ roles:
 - business-user
 products:
 - m365
+- sharepoint-syntax
 units:
 - learn-m365.syntex-setup.introduction
 - learn-m365.syntex-setup.prepare-system
