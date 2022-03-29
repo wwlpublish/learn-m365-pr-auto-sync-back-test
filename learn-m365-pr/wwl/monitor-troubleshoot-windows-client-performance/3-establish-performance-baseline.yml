@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.monitor-troubleshoot-windows-client-performance.establish-performance-baseline
+title: Establish a performance baseline
+metadata:
+  title: Establish a performance baseline
+  description: "Establish a performance baseline"
+  ms.date: 03/29/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/3-establish-performance-baseline.md)]
