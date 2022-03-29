@@ -8,7 +8,9 @@ You can decide to use only the **.onmicrosoft.com** domain if you want to, but i
 
 1.  Go to the Microsoft 365 admin center and sign into your administrator account.
 2.  In the navigation pane, choose **Setup** \- **Domains**.
-3.  Choose **Add domain**, and type your custom domain name. Select **Next**. :::image type="content" source="../media/microsoft-365-admin-center-add-domain-7e79fc63.png" alt-text="Screenshot of the 'Add a domain' screen, within the Microsoft 365 admin center.":::
+3.  Choose **Add domain**, and type your custom domain name. Select **Next**.
+    
+    :::image type="content" source="../media/microsoft-365-admin-center-add-domain-7e79fc63.png" alt-text="Screenshot of the 'Add a domain' screen, within the Microsoft 365 admin center.":::
     
 4.  The **Verify domain** dialog box opens giving you the values to create the TXT record in your DNS hosting provider.
     
