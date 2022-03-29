@@ -1,4 +1,4 @@
-In this module, you will be introduced to managing devices using Intune. You will learn how to configure and setup Intune, so you can more easily manage Windows, Android and iOS devices. You will learn how to enroll devices in Intune, as well as considerations for facilitating enrollment. The module will conclude with an overview of verifying device inventory in Intune using Graph API and PowerBI.
+In this module, you'll be introduced to managing devices using Intune. You'll learn how to configure and setup Intune, so you can more easily manage Windows, Android and iOS devices. You'll learn how to enroll devices in Intune, as well as considerations for facilitating enrollment. The module will conclude with an overview of verifying device inventory in Intune using Graph API and PowerBI.
 
 ### Objectives
 
