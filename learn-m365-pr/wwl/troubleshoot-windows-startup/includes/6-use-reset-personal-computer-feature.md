@@ -129,7 +129,7 @@ Consider the following when you are deciding whether to use the Reset this PC to
 
 You should consider the following when deciding whether to use the Reset this PC tool with the Just remove my files or Fully clean the drive options:
 
- -  The Reset this PC tool removes all of your Microsoft Store apps and desktop apps. If preinstalled apps is enabled, only the apps that were pre-installed by the manufacturer will be available on the computer.
+ -  The Reset this PC tool removes all of your Microsoft Store apps and desktop apps. If preinstalled apps are enabled, only the apps that were pre-installed by the manufacturer will be available on the computer.
  -  You do not need any special permissions to use Reset this PC with the **Just remove my files** or **Fully clean the drive** options.
  -  Your files, settings, and computer configuration settings are set to their initial, post-installation state. For example, a computer will have the name DESKTOP- name, and it will be in a workgroup.
  -  You must reinstall any apps and reapply any updates that were made since the computer was first installed with Windows.

@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-windows-startup
 metadata:
   title: Troubleshoot Windows startup
   description: "This module examines the Windows startup architecture and discusses the methods used to troubleshoot client startup issues."
-  ms.date: 03/22/2022
+  ms.date: 03/29/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
