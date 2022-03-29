@@ -31,6 +31,6 @@ In this scenario, the following objectives apply:
  -  Device is configured to defer Quality Updates using Windows Update for Business.
  -  Device is managed by WSUS.
  -  Device is configured to receive updates for other Microsoft products at the same time as updates to Windows.
- -  Microsoft Update, third-party, and locally-published update content is available on the WSUS server.
+ -  Microsoft Update, third-party, and locally published update content is available on the WSUS server.
 
 :::image type="content" source="../media/microsoft-wsus-third-party-updates-diagram-d1672990.png" alt-text="At the top of the image, a cloud containing a server and a globe represent the Microsoft Update service, and a WSUS server used to update third party apps and drivers.":::

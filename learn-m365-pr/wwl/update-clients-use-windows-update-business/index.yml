@@ -3,7 +3,7 @@ uid: learn.wwl.update-clients-use-windows-update-business
 metadata:
   title: Update clients using Windows Update for Business
   description: "Leverage Windows Update for Business to control the distribution and methods for Windows update delivery."
-  ms.date: 03/24/2022
+  ms.date: 03/29/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
