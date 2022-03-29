@@ -1,6 +1,6 @@
-Sometimes users enter an incorrect password when they attempt to sign in. If a user repeatedly enters an incorrect password during the same sign in attempt, Windows could lock their account depending on the account lockout threshold that the company configured. When a user contacts the help desk with a sign in issue, as a best practice, you should verify whether the account is locked because of repeated incorrect passwords.
+Sometimes users enter an incorrect password when they attempt to sign in. If a user repeatedly enters an incorrect password during the same sign-in attempt, Windows could lock their account depending on the account lockout threshold that the company configured. When a user contacts the help desk with a sign-in issue, as a best practice, you should verify whether the account is locked because of repeated incorrect passwords.
 
-Occasionally, account lockouts can occur for other, less obvious reasons than repeated, failed interactive sign in attempts, including that:
+Occasionally, account lockouts can occur for other, less obvious reasons than repeated, failed interactive sign-in attempts, including that:
 
  -  **Applications use cached user credentials**. Some applications store user names and passwords for subsequent reuse. If a user changes their password, Windows could lock the account because the cache is outdated.
  -  **Users sign in to multiple computers**. If a user signs in to multiple computers to access resources, and then changes their password at one of the computers, the password update doesn't propagate to the other computers to which the user signs in. On those other computers, Windows uses the cached password, which results in an account lockout.

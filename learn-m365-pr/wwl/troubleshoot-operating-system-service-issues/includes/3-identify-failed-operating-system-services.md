@@ -9,7 +9,7 @@ Event Viewer provides access to the Windows logs, and to applications and servic
 The Windows logs files provide the following information:
 
  -  **Application log**. The application log contains events that applications generate. For example, a database program records a file error in the application log, and the program developer decides which events to record.
- -  **Security log**. The security log records security events, such as valid and invalid sign in attempts, and events related to resource use such as creating, opening, or deleting files. An administrator specifies which events Windows records in the security log by creating a domain-wide audit policy.
+ -  **Security log**. The security log records security events, such as valid and invalid sign-in attempts, and events related to resource use such as creating, opening, or deleting files. An administrator specifies which events Windows records in the security log by creating a domain-wide audit policy.
  -  **System log**. The system log contains events that the system components in Windows generate. For example, if a driver or other system component fails to load during startup, Windows records this failure in the system log. Windows predetermines the event types that the system components log.
 
 When you troubleshoot startup problems with services, pay special attention to error events that the system log records. All users can access the application and system logs, but only members of the local Administrators group can use the security log. If you encounter problems with service startup, examine the system and application logs for related events.
