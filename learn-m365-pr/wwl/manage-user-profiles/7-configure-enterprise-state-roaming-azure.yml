@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-user-profiles.configure-enterprise-state-roaming-azure
+title: Configure Enterprise State Roaming in Azure
+metadata:
+  title: Configure Enterprise State Roaming in Azure
+  description: "Configure Enterprise State Roaming in Azure"
+  ms.date: 03/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/7-configure-enterprise-state-roaming-azure.md)]
