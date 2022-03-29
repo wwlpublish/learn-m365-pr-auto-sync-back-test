@@ -8,6 +8,10 @@ metadata:
   ms.author: wmastyka
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - wmastyka-10192021
 title: Extend Microsoft Viva Connections
 summary: "**Extend Microsoft Viva Connections** is a multi-part series that teaches you how to extend Microsoft Viva Connections with custom components. These modules will guide you through the basics of Microsoft Viva Connections extensibility through hands-on exercises, which cover the different types of extensions that you can build for Viva Connections."
 prerequisites: | 
