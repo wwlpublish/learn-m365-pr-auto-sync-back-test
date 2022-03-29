@@ -1,4 +1,4 @@
-A typical organization's IT support staff reckon on their users using 30 or 40 apps throughout the organization. The reality is often different, with hundreds of apps, perhaps many more, being used. It's difficult to imagine how IT staff can easily manage apps they know nothing about. And worse, to control possible security threats posed by those unknown apps.
+A typical organization's IT support staff expects their users to use between 30 or 40 apps throughout the organization. The reality is often different, with hundreds of apps, perhaps many more, being used. It's difficult to imagine how IT staff can easily manage apps they know nothing about. And worse, to control possible security threats posed by those unknown apps.
 
 > [!NOTE]
 > Around 80% of employees in a typical organization use unsanctioned apps. These apps might not meet compliance or security standards of your organization.
