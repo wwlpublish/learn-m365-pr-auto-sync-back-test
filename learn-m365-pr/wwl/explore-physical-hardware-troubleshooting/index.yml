@@ -3,7 +3,7 @@ uid: learn.wwl.explore-physical-hardware-troubleshooting
 metadata:
   title: Explore physical hardware troubleshooting
   description: "This module provides an overview of troubleshooting hardware-related problems and discusses specific considerations for using USB and wireless devices on computers that are running Windows."
-  ms.date: 03/23/2022
+  ms.date: 03/29/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
