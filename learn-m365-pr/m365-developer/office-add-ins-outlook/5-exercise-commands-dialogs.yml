@@ -23,7 +23,7 @@ quiz:
     - content: "MessageComposeCommandSurface"
       isCorrect: true
       explanation: "Correct"
-    - content: "MessageComposeSurface"
+    - content: "`MessageComposeSurface`"
       isCorrect: false
       explanation: "The `<ExtensionPoint xsi:type=\"\">` should be set to `MessageComposeCommandSurface`."
   - content: "To call a JavaScript function from a button in the Office application's ribbon defined in the add-in's manifest, you must do which of the following?"
