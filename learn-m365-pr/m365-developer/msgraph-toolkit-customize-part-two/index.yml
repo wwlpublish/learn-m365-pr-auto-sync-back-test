@@ -3,42 +3,42 @@ uid: learn-m365.msgraph-toolkit-customize-part-two
 metadata:
   title: Customize the presentation of Microsoft Graph Toolkit components by using templates
   description: Microsoft Graph Toolkit components are flexible for customization. You can change the presentation of Microsoft Graph Toolkit components by using templates and learn troubleshooting techniques for rendering.
-  ms.date: 04/09/2021
+  ms.date: 03/01/2022
   author: aycabas
   ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - aycabas-04232021
 title: Customize the presentation of Microsoft Graph Toolkit components by using templates
 summary: Microsoft Graph Toolkit components are flexible for customization. You can change the presentation of Microsoft Graph Toolkit components by using templates and learn troubleshooting techniques for rendering.
 abstract: |
   In this module, you'll:
   - Customize Microsoft Graph Toolkit components by using templates.
   - Troubleshoot Microsoft Graph Toolkit components' rendering.
-
-
 prerequisites: |
-  - Global administrator access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-16105-cxa)
+  - Global administrator access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-16105-cxa)
   - Basic understanding of Microsoft Graph Toolkit components
   - Basic understanding of Azure Active Directory app registration
   - Basic understanding of HTML
   - [Visual Studio Code](https://code.visualstudio.com/)
   - [Visual Studio Code Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-
-
 iconUrl: /learn/achievements/msgraph-toolkit-customize-part-two.svg
 levels:
-- beginner
+  - beginner
 roles:
-- developer
+  - developer
 products:
-- m365
-- ms-graph
+  - m365
+  - ms-graph
 units:
-- learn-m365.msgraph-toolkit-customize-part-two.1-introduction
-- learn-m365.msgraph-toolkit-customize-part-two.2-change-presentation-using-templates
-- learn-m365.msgraph-toolkit-customize-part-two.3-exercise-change-presentation-using-templates
-- learn-m365.msgraph-toolkit-customize-part-two.4-troubleshoot-rendering
-- learn-m365.msgraph-toolkit-customize-part-two.5-exercise-troubleshoot-rendering
-- learn-m365.msgraph-toolkit-customize-part-two.6-summary
+  - learn-m365.msgraph-toolkit-customize-part-two.1-introduction
+  - learn-m365.msgraph-toolkit-customize-part-two.2-change-presentation-using-templates
+  - learn-m365.msgraph-toolkit-customize-part-two.3-exercise-change-presentation-using-templates
+  - learn-m365.msgraph-toolkit-customize-part-two.4-troubleshoot-rendering
+  - learn-m365.msgraph-toolkit-customize-part-two.5-exercise-troubleshoot-rendering
+  - learn-m365.msgraph-toolkit-customize-part-two.6-summary
 badge:
   uid: learn-m365.msgraph-toolkit-customize-part-two.badge

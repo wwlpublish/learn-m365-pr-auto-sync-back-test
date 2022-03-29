@@ -3,11 +3,15 @@ uid: learn-m365.msgraph-intro-overview.3-microsoft-graph-services
 metadata:
   title: Understand Microsoft Graph services
   description: Learn about Microsoft Graph and how the service uses users and groups.
-  ms.date: 02/17/2021
+  ms.date: 03/01/2022
   author: aycabas
   ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - aycabas-03262021
 title: Understand Microsoft Graph services
 durationInMinutes: 2
 content: |

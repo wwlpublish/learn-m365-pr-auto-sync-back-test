@@ -3,41 +3,45 @@ uid: learn-m365.msgraph-show-user-emails
 metadata:
   title: Show a user's emails in a JavaScript app with Microsoft Graph
   description: Learn how to show a user's emails in JavaScript apps with Microsoft Graph. Also, learn how to optimize Microsoft Graph queries and page through large datasets.
-  ms.date: 03/30/2021
+  ms.date: 03/01/2022
   author: waldekmastykarz
   ms.author: wmastyka
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - wmastyka-04142021
 title: Show a user's emails in a JavaScript app with Microsoft Graph
 summary: Learn how to show a user's emails in JavaScript apps with Microsoft Graph. Also, learn how to optimize Microsoft Graph queries and page through large datasets.
 abstract: |
   After completing this module, you'll be able to:
-  - Configure a JavaScript app to retrieve emails by using Microsoft Graph.
+  - Configure a JavaScript app to retrieve emails by using Microsoft Graph.
   - Retrieve a user's emails from Microsoft Graph.
   - Break large datasets from Microsoft Graph into pages.
 prerequisites: |
   - Global administrator access to a Microsoft 365 tenant
   - Basic understanding of authentication and authorization on Microsoft 365
   - Basic understanding of HTML and JavaScript
-  - Basic understanding of Microsoft Graph
+  - Basic understanding of Microsoft Graph
   - Node.js LTS
 iconUrl: /learn/achievements/graph-user-email.svg
 levels:
-- intermediate
+  - intermediate
 roles:
-- developer
+  - developer
 products:
-- m365
-- ms-graph
+  - m365
+  - ms-graph
 units:
-- learn-m365.msgraph-show-user-emails.1-introduction
-- learn-m365.msgraph-show-user-emails.2-exercise-configure-azuread-app
-- learn-m365.msgraph-show-user-emails.3-connect-javascript-app
-- learn-m365.msgraph-show-user-emails.4-exercise-connect-javascript-app
-- learn-m365.msgraph-show-user-emails.5-show-users-email
-- learn-m365.msgraph-show-user-emails.6-exercise-show-users-email
-- learn-m365.msgraph-show-user-emails.7-load-users-email-batches
-- learn-m365.msgraph-show-user-emails.8-exercise-load-users-email-batches
-- learn-m365.msgraph-show-user-emails.9-summary
+  - learn-m365.msgraph-show-user-emails.1-introduction
+  - learn-m365.msgraph-show-user-emails.2-exercise-configure-azuread-app
+  - learn-m365.msgraph-show-user-emails.3-connect-javascript-app
+  - learn-m365.msgraph-show-user-emails.4-exercise-connect-javascript-app
+  - learn-m365.msgraph-show-user-emails.5-show-users-email
+  - learn-m365.msgraph-show-user-emails.6-exercise-show-users-email
+  - learn-m365.msgraph-show-user-emails.7-load-users-email-batches
+  - learn-m365.msgraph-show-user-emails.8-exercise-load-users-email-batches
+  - learn-m365.msgraph-show-user-emails.9-summary
 badge:
   uid: learn-m365.msgraph-show-user-emails.badge

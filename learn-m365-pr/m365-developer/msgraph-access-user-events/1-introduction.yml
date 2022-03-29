@@ -1,15 +1,19 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.msgraph-access-user-events.1-introduction
-title: Introduction  
+title: Introduction
 metadata:
-  unitType: introduction  
+  unitType: introduction
   title: Introduction
   description: This unit introduces you to the module and explains what you'll learn.
-  ms.date: 03/23/2021  
-  author: aycabas  
-  ms.author: aycabas  
+  ms.date: 03/01/2022
+  author: aycabas
+  ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.contributors:
+  - aycabas-04072021
+  ms.custom:
+  - team=cloud_advocates
 durationInMinutes: 2
 content: |
   [!include[](includes/1-introduction.md)]

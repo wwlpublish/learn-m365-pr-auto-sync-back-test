@@ -3,11 +3,15 @@ uid: learn-m365.msgraph-dotnet-core-show-user-emails.9-summary
 metadata:
   title: Summary
   description: This unit summarizes what you learned in this module.
-  ms.date: 08/29/2021
-  author: DanWahlin 
+  ms.date: 03/01/2022
+  author: DanWahlin
   ms.author: dwahlin
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - dwahlin-09302021
 title: Summary
 durationInMinutes: 1
 content: |

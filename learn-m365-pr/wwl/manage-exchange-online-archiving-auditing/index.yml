@@ -3,7 +3,7 @@ uid: learn.wwl.manage-exchange-online-archiving-auditing
 metadata:
   title: Manage Exchange Online archiving and auditing
   description: "Manage Exchange Online archiving and auditing"
-  ms.date: 01/12/2022
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -22,8 +22,10 @@ levels:
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.manage-exchange-online-archiving-auditing.introduction
 - learn.wwl.manage-exchange-online-archiving-auditing.plan-implement-place-archiving

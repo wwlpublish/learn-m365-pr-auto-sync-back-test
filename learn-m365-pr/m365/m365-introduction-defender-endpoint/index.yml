@@ -9,6 +9,7 @@ metadata:
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
+  ms.custom: intro-internal
 title: Introduction to Microsoft Defender for Endpoint
 summary: Learn about Microsoft Defender for Endpoint and its key capabilities, such as threat and vulnerability management, attack surface reduction, automated investigation and remediation, endpoint detection and response, and more.
 abstract: |

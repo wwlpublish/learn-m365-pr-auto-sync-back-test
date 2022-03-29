@@ -29,6 +29,7 @@ The tools used in compiling, debugging, and packaging SharePoint Framework proje
 
 | SPFx    | Node.js                         | SP 2016 | SP 2019 | SP Online |
 | ------- | ------------------------------- | ------- | ------- | --------- |
+| v1.13.1 | v10.13.0+, v12.13.0+, v14.15.0+ |         |         |     X     |
 | v1.13.0 | v10.13.0+, v12.13.0+, v14.15.0+ |         |         |     X     |
 | v1.12.1 | v10.13.0+, v12.13.0+, v14.15.0+ |         |    X    |     X     |
 | v1.11.0 | v10.x                           |         |    X    |     X     |
@@ -58,17 +59,7 @@ If you already have a version of Node.js that's compatible with the environment(
 
 Open a browser and navigate to the Node.js Foundation site: https://www.nodejs.org.
 
-### To install the current LTS version of Node.js
-
-Select **Downloads** from the top menu navigation, ensure the **LTS** tab is selected, and download the appropriate installer or binary for the platform you're using.
-
-![Screenshot of the Downloads page](../media/05-install-node-01.png)
-
-Run the installer, accepting all the default options. This will install Node.js and NPM (*a package manager that Node.js uses, similar to .NET's NuGet*).
-
-### To install a previous version of Node.js 
-
-To install a previous version of Node.js, you'll need to navigate further into the site to find the appropriate installer.
+The LTS version is currently 16.x so you'll need to navigate further into the site to find the appropriate installer.
 
 Select **Downloads** from the top menu navigation then scroll to the bottom of the page and select **Previous Releases**.
 

@@ -3,42 +3,46 @@ uid: learn-m365.msgraph-dotnet-core-show-user-emails
 metadata:
   title: Show a user's emails in an ASP.NET Core app with Microsoft Graph
   description: Learn how to show a user's emails in ASP.NET Core apps with Microsoft Graph. Also, learn how to optimize Microsoft Graph queries and load email in batches.
-  ms.date: 08/29/2021
-  author: DanWahlin 
+  ms.date: 03/01/2022
+  author: DanWahlin
   ms.author: dwahlin
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - dwahlin-09302021
 title: Show a user's emails in an ASP.NET Core app with Microsoft Graph
 summary: Learn how to show a user's emails in ASP.NET Core apps with Microsoft Graph. Also, learn how to optimize Microsoft Graph queries and load email in batches.
 abstract: |
   After completing this module, you'll be able to:
   - Configure a .NET Core app to retrieve emails using Microsoft Graph
-  - Retrieve a user’s emails from Microsoft Graph
+  - Retrieve a user's emails from Microsoft Graph
   - Break large data sets from Microsoft Graph into pages
 prerequisites: |
-  - [Microsoft 365 developer tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn&WT.mc_id=m365-30352-cxa)  
+  - [Microsoft 365 developer tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn&WT.mc_id=m365-30352-cxa)
   - Basic understanding of [authentication and authorization](/learn/modules/getting-started-identity/?WT.mc_id=m365-30352-cxa) on Microsoft 365
-  - Basic understanding of HTML, C#, and [ASP.NET Core](/aspnet/core/razor-pages/?WT.mc_id=m365-30352-cxa) 
-  - Basic understanding of [Microsoft Graph](/learn/modules/msgraph-intro-overview/?WT.mc_id=m365-30352-cxa) 
+  - Basic understanding of HTML, C#, and [ASP.NET Core](/aspnet/core/razor-pages/?WT.mc_id=m365-30352-cxa)
+  - Basic understanding of [Microsoft Graph](/learn/modules/msgraph-intro-overview/?WT.mc_id=m365-30352-cxa)
   - [.NET Core 5 (or higher) SDK installed](https://dot.net?WT.mc_id=m365-30352-cxa)
 iconUrl: /learn/achievements/graph-user-email.svg
 levels:
-- intermediate
+  - intermediate
 roles:
-- developer
+  - developer
 products:
-- m365
-- ms-graph
-- dotnet-core
+  - m365
+  - ms-graph
+  - dotnet-core
 units:
-- learn-m365.msgraph-dotnet-core-show-user-emails.1-introduction
-- learn-m365.msgraph-dotnet-core-show-user-emails.2-exercise-configure-azure-ad-app
-- learn-m365.msgraph-dotnet-core-show-user-emails.3-connect-app
-- learn-m365.msgraph-dotnet-core-show-user-emails.4-exercise-connect-app
-- learn-m365.msgraph-dotnet-core-show-user-emails.5-show-users-email
-- learn-m365.msgraph-dotnet-core-show-user-emails.6-exercise-show-users-email
-- learn-m365.msgraph-dotnet-core-show-user-emails.7-load-users-email-batches
-- learn-m365.msgraph-dotnet-core-show-user-emails.8-exercise-load-users-email-batches
-- learn-m365.msgraph-dotnet-core-show-user-emails.9-summary
+  - learn-m365.msgraph-dotnet-core-show-user-emails.1-introduction
+  - learn-m365.msgraph-dotnet-core-show-user-emails.2-exercise-configure-azure-ad-app
+  - learn-m365.msgraph-dotnet-core-show-user-emails.3-connect-app
+  - learn-m365.msgraph-dotnet-core-show-user-emails.4-exercise-connect-app
+  - learn-m365.msgraph-dotnet-core-show-user-emails.5-show-users-email
+  - learn-m365.msgraph-dotnet-core-show-user-emails.6-exercise-show-users-email
+  - learn-m365.msgraph-dotnet-core-show-user-emails.7-load-users-email-batches
+  - learn-m365.msgraph-dotnet-core-show-user-emails.8-exercise-load-users-email-batches
+  - learn-m365.msgraph-dotnet-core-show-user-emails.9-summary
 badge:
   uid: learn-m365.msgraph-dotnet-core-show-user-emails.badge

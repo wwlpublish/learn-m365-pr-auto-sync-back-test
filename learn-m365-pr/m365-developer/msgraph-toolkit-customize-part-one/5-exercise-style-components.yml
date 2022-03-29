@@ -3,11 +3,15 @@ uid: learn-m365.msgraph-toolkit-customize-part-one.5-exercise-style-components
 metadata:
   title: Exercise - Style components to match your branding
   description: Learn how to style components by using CSS custom properties.
-  ms.date: 04/09/2021
+  ms.date: 03/01/2022
   author: aycabas
   ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - aycabas-04262021
 title: Exercise - Style components to match your branding
 durationInMinutes: 8
 content: |

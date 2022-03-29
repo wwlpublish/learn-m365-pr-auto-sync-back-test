@@ -1,0 +1,45 @@
+### YamlMime:Module
+uid: learn.wwl.explore-advanced-configuration-methods
+metadata:
+  title: Explore advanced configuration methods
+  description: "This module describes how administrators can activate Windows clients at scale and use Group Policy and PowerShell to apply configuration settings to groups of Windows clients."
+  ms.date: 02/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Explore advanced configuration methods
+summary: This module describes how administrators can activate Windows clients at scale and use Group Policy and PowerShell to apply configuration settings to groups of Windows clients.
+abstract: |
+  After this module, you will be able to:
+  *   Deploy customized Start menu configurations
+  *   Describe activation methods
+  *   Describe Active Directory
+  *   Describe the benefits of using Group Policy
+  *   Configure and apply a Group Policy Object
+  *   Describe Windows PowerShell
+  *   Explain how to use Windows PowerShell cmdlets
+prerequisites: |
+  *   Students should have a basic understanding of computer networks and hardware concepts.
+  *   Students should have a basic understanding of OS and Application concepts.
+  *   Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.explore-advanced-configuration-methods.introduction
+- learn.wwl.explore-advanced-configuration-methods.explore-windows-activation
+- learn.wwl.explore-advanced-configuration-methods.explain-group-policy
+- learn.wwl.explore-advanced-configuration-methods.apply-group-policy-objects
+- learn.wwl.explore-advanced-configuration-methods.explore-windows-powershell
+- learn.wwl.explore-advanced-configuration-methods.use-windows-powershell
+- learn.wwl.explore-advanced-configuration-methods.deploy-custom-start-menu-windows-10
+- learn.wwl.explore-advanced-configuration-methods.deploy-custom-start-menu-windows-11
+- learn.wwl.explore-advanced-configuration-methods.knowledge-check
+- learn.wwl.explore-advanced-configuration-methods.summary
+badge:
+  uid: learn.wwl.explore-advanced-configuration-methods.badge

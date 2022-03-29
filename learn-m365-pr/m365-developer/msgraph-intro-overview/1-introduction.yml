@@ -3,11 +3,15 @@ uid: learn-m365.msgraph-intro-overview.1-introduction
 metadata:
   title: Introduction
   description: This unit introduces you to the module and explains what you'll learn.
-  ms.date: 02/17/2021
+  ms.date: 03/01/2022
   author: DanWahlin
   ms.author: dwahlin
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - dwahlin-03262021
 title: Introduction
 durationInMinutes: 1
 content: |

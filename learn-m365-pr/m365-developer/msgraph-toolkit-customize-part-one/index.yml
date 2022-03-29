@@ -3,11 +3,15 @@ uid: learn-m365.msgraph-toolkit-customize-part-one
 metadata:
   title: Configure and style Microsoft Graph Toolkit components by using attributes and CSS
   description: Microsoft Graph Toolkit components are flexible for customization. You can change the behavior of components by using attributes. You can also customize component styling by using CSS custom properties to match your app's branding.
-  ms.date: 04/09/2021
+  ms.date: 03/01/2022
   author: aycabas
   ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - aycabas-04262021
 title: Configure and style Microsoft Graph Toolkit components by using attributes and CSS
 summary: Microsoft Graph Toolkit components are flexible for customization. You can change the behavior of components by using attributes. You can also customize component styling by using CSS custom properties to match your app's branding.
 abstract: |
@@ -16,7 +20,7 @@ abstract: |
   - Customize Microsoft Graph Toolkit component styling by using CSS custom properties.
 
 prerequisites: |
-  - Global administrator access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-16105-cxa)
+  - Global administrator access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-16105-cxa)
   - Basic understanding of Microsoft Graph Toolkit components
   - Basic understanding of Azure Active Directory app registration
   - Basic understanding of HTML
@@ -26,18 +30,18 @@ prerequisites: |
 
 iconUrl: /learn/achievements/msgraph-toolkit-customize-part-one.svg
 levels:
-- beginner
+  - beginner
 roles:
-- developer
+  - developer
 products:
-- m365
-- ms-graph
+  - m365
+  - ms-graph
 units:
-- learn-m365.msgraph-toolkit-customize-part-one.1-introduction
-- learn-m365.msgraph-toolkit-customize-part-one.2-change-behavior-attributes
-- learn-m365.msgraph-toolkit-customize-part-one.3-exercise-change-behavior-attributes
-- learn-m365.msgraph-toolkit-customize-part-one.4-style-components
-- learn-m365.msgraph-toolkit-customize-part-one.5-exercise-style-components
-- learn-m365.msgraph-toolkit-customize-part-one.6-summary
+  - learn-m365.msgraph-toolkit-customize-part-one.1-introduction
+  - learn-m365.msgraph-toolkit-customize-part-one.2-change-behavior-attributes
+  - learn-m365.msgraph-toolkit-customize-part-one.3-exercise-change-behavior-attributes
+  - learn-m365.msgraph-toolkit-customize-part-one.4-style-components
+  - learn-m365.msgraph-toolkit-customize-part-one.5-exercise-style-components
+  - learn-m365.msgraph-toolkit-customize-part-one.6-summary
 badge:
   uid: learn-m365.msgraph-toolkit-customize-part-one.badge

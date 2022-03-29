@@ -1,10 +1,10 @@
-In this exercise, you'll see how Microsoft Graph Toolkit components cache their data. You’ll also control cache configuration and see how it affects loading data from Microsoft Graph. 
+In this exercise, you'll see how Microsoft Graph Toolkit components cache their data. You’ll also control cache configuration and see how it affects loading data from Microsoft Graph.
 
 ## Before you start
 
 Complete the following steps as prerequisites for this exercise.
 
-### 1. Configure an Azure Active Directory app  
+### 1. Configure an Azure Active Directory app
 
 For this module, you'll need an application with the following settings:
 
@@ -27,10 +27,10 @@ You can create this application by following these steps:
     ```html
     <!DOCTYPE html>
     <html lang="en">
-      <head>    
+      <head>
         <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
       </head>
-      <body>    
+      <body>
         <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
         <mgt-login></mgt-login>
       </body>
@@ -52,7 +52,7 @@ You can create this application by following these steps:
 First, let’s look at how Microsoft Graph Toolkit components cache data by default.
 
 1. In Visual Studio Code, open the **index.html** file.
-1. Before the closing body tag, add the `mgt-people` component, as follows:
+1. Before the closing body tag, add the **mgt-people** component, as follows:
 
     ```html
     <!DOCTYPE html>
@@ -68,8 +68,14 @@ First, let’s look at how Microsoft Graph Toolkit components cache data by defa
     </html>
     ```
 
-1. Open the command palette by pressing Ctrl+Shift+P on Windows, or Command+Shift+P on macOS. From the command palette, select **Live Server: Open with Live Server** to test your app.
-1. In the web browser, go to `http://localhost:3000`.
+1. In Visual Studio Code, select the following key combination in Visual Studio Code and search for Live Server:
+
+    - **Windows**: <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd>
+    - **macOS**: <kbd>COMMAND</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd>
+
+   Run Live Server to test your app.
+
+1. Open your browser, and go to `http://localhost:3000`.
 1. Select the **Sign in** button, and sign in with your Microsoft 365 developer account. Consent to the required permissions and select **Accept**. You should see a list of people.
 
     :::image type="content" source="../media/3-mgt-people.png" alt-text="Screenshot of the People component, showing information about people.":::
@@ -94,7 +100,7 @@ You saw how Microsoft Graph Toolkit components cache and load data from cache by
 1. Clear the Microsoft Graph Toolkit cache, by running the following statement in the console:
 
     ```javascript
-    mgt.CacheService.clearCaches() 
+    mgt.CacheService.clearCaches()
     ```
 
 1. To confirm that the cache has been cleared, switch to the **Application** tab. There are no longer any databases under **IndexedDB**.

@@ -3,11 +3,15 @@ uid: learn-m365.msgraph-intro-overview.2-what-is-microsoft-graph
 metadata:
   title: What is Microsoft Graph?
   description: Learn about users and groups in Microsoft Graph.
-  ms.date: 02/17/2021
+  ms.date: 03/01/2022
   author: DanWahlin
   ms.author: dwahlin
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - dwahlin-03262021
 title: What is Microsoft Graph?
 durationInMinutes: 5
 content: |

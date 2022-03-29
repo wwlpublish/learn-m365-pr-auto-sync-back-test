@@ -11,28 +11,6 @@ In a previous exercise, you created an action messaging extension that enabled a
 
 In this section, you'll add a search messaging extension to find a specific planet.
 
-### Use the Yeoman Generator to add a search messaging extension
-
-In the folder containing the solution from the previous exercise, run the Yeoman Generator for Microsoft Teams by running the following command:
-
-```console
-yo teams
-```
-
-Yeoman will launch and ask you a series of questions. Answer the questions with the following values:
-
-- **You are running the generator on an already existing project, "Planet Messaging", are you sure you want to continue?**: Yes
-- **Do you want to change the current manifest version (1.10)?**: No
-- **Quick scaffolding**: Yes
-- **What features do you want to add to your project?**: A Message Extension Command
-- **Where is your message extension hosted?**: In a bot or Messaging Extension already defined in this project
-- **Choose which bot**: {{MICROSOFT_APP_ID}}
-- **What type of messaging extension command?**: Search based messaging extension
-- **Would you like a Settings option for the messaging extension?**: No
-- **What is the name of your Message Extension command?**: PlanetLookup
-- **Describe your Message Extension command?**: Search for a planet
-
-The generator will prompt for overwriting files. Enter `y` for each prompt.
 
 ### Update the app's configuration
 
@@ -42,18 +20,15 @@ You must increment the version of the app to upgrade an existing installed versi
 npm version patch
 ```
 
-The generator created the `composeExtensions` entry for the new Messaging Extension. Locate and open the **./src/manifest/manifest.json** file.
-
-Next, locate the `composeExtensions.commands` array. Update the array item with the ID of `planeLookupMessageExtension` so that it has the following properites:
+Locate and open the **./src/manifest/manifest.json** file. Find the `composeExtensions.commands` array. Add a new item with the following properties:
 
 ```json
 {
-  "id": "planetLookupMessageExtension",
+  "id": "planetExpanderSearch",
   "type": "query",
   "title": "Planet Lookup",
   "description": "Search for a planet.",
   "context": ["compose"],
-  "initialRun": false,
   "parameters": [{
     "name": "searchKeyword",
     "description": "Enter 'inner','outer' or the name of a specific planet",
@@ -62,28 +37,26 @@ Next, locate the `composeExtensions.commands` array. Update the array item with 
 }
 ```
 
-### Update the bot code
+### Add the query command handler to the bot
 
-The next step is to update the bot's code. 
+The next step is to implement the query command messaging extension using a well-known method in the bot. 
 
-Locate and open the bot in the file **./src/server/planetLookupMessageExtension/PlanetLookupMessageExtension.ts**.
+Locate and open the bot in the file **./src/server/planetBot/planetBot.ts**.
 
-Update the `import` statement for the **botbuilder** package to include the `Attachment` objects:
+Update the `import` statement for the **botbuilder** package to include the `MessagingExtensionQuery` and `MessageExtensionResponse` objects:
 
 ```typescript
 import {
-  TurnContext,
-  CardFactory, 
+  // ... existing imports
   MessagingExtensionQuery, 
-  MessagingExtensionResult,
-  Attachment
+  MessagingExtensionResponse
 } from "botbuilder";
 ```
 
-The scaffolded project has a default implementation of the query handler, in the `onQuery` method in the `PlanetLookupMessageExtension` class. In this exercise, that implementation is not used. Remove the contents of the `onQuery` method and replace with the following:
+Next, add the following method to the `PlanetBot` class:
 
 ```typescript
-public async onQuery(context: TurnContext, query: MessagingExtensionQuery): Promise<MessagingExtensionResult> {
+protected handleTeamsMessagingExtensionQuery(context: TurnContext, query: MessagingExtensionQuery): Promise<MessagingExtensionResponse> {
   // get the search query
   let searchQuery = "";
   if (query && query.parameters && query.parameters[0].name === "searchKeyword" && query.parameters[0].value) {
@@ -135,7 +108,7 @@ This method will first get the search keyword from the query sent to the bot fro
 
 It will then take the query results, convert them to cards and add them to the `MessagingExtensionResult` returned to the Bot Framework and ultimately to Microsoft Teams.
 
-Lastly, add the following utility method to the `PlanetLookupMessageExtension` class to create the card for each search result:
+Lastly, add the following utility method to the `PlanetBot` class to create the card for each search result:
 
 ```typescript
 private getPlanetResultCard(selectedPlanet: any): MessagingExtensionAttachment {

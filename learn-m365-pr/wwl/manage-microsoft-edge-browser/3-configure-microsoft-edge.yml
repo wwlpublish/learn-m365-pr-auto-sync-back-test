@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-edge-browser.configure-microsoft-edge
+title: Configure Microsoft Edge
+metadata:
+  title: Configure Microsoft Edge
+  description: "Configure Microsoft Edge"
+  ms.date: 03/22/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-configure-microsoft-edge.md)]

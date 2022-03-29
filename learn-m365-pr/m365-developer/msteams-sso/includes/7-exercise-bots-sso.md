@@ -23,9 +23,9 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 
 - [Node.js](https://nodejs.org/) - v12.\* (or higher)
 - NPM (installed with Node.js) - v6.\* (or higher)
-- [Gulp](https://gulpjs.com/) - v4.\* (or higher)
+- [Gulp-cli](https://gulpjs.com/) - v2.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.2.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -73,6 +73,7 @@ In the **Create an Azure Bot** blade, enter the following values and then select
 - **Subscription**: *Select the subscription you selected previously when creating the resource group*
 - **Resource group**: *Select the resource group you created previously*
 - **Pricing tier**: *Select a preferred pricing tier; the F0 tier is free*
+- **Type fo App**: *Select Multi Tenant*
 - **Microsoft App ID**: Create new Microsoft App ID
 
 Select **Create**.
@@ -133,7 +134,7 @@ Use the following values to create a new connection setting, and then select **S
 - **Service Provider**: Azure Active Directory v2
 - **Client ID**: *use the Azure AD app's client ID (the My Teams SSO application above)*
 - **Client secret**: *use the Azure AD app's client secret from the previous exercise*
-- **Token exchange URL**: *use the Azure AD app's application ID URI you updated previously in this exercise (api://botid-{{Microsoft App Id}})*
+- **Token Exchange URL**: *use the Azure AD app's application ID URI you updated previously in this exercise (api://botid-{{Microsoft App Id}})*
 - **Tenant ID**: common
 - **Scopes**: Mail.Read openid profile User.Read
   - *This is a space-delimited list of all permissions the bot needs that have also been added to the Azure AD app you previously. The list contains a subset of the permissions listed in the Azure AD app from the exercises in this module that the bot will use.*
@@ -172,7 +173,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: SSO Teams Bot
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.9
+- **Which manifest version would you like to use?**: v1.11
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A bot
 - **The URL where you will host this solution?**:  (Accept the default option)

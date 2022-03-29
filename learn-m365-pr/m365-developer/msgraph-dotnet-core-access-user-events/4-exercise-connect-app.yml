@@ -1,15 +1,19 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.msgraph-dotnet-core-access-user-events.4-exercise-connect-app
-title: Exercise - Connect an ASP.NET Core app to Microsoft 365 
+title: Exercise - Connect an ASP.NET Core app to Microsoft 365
 metadata:
-  unitType: learning-content  
-  title: Exercise - Connect an ASP.NET Core app to Microsoft 365  
+  unitType: learning-content
+  title: Exercise - Connect an ASP.NET Core app to Microsoft 365
   description: In this exercise, you'll connect an ASP.NET Core app to Microsoft 365.
-  ms.date: 08/28/2021  
-  author: DanWahlin 
-  ms.author: dwahlin  
+  ms.date: 03/01/2022
+  author: DanWahlin
+  ms.author: dwahlin
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.contributors:
+  - dwahlin-12092021
+  ms.custom:
+  - team=cloud_advocates
 durationInMinutes: 5
 content: |
   [!include[](includes/4-exercise-connect-app.md)]
