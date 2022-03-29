@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.enroll-devices-use-microsoft-intune.manage-mobile-devices-with-intune
+title: Manage mobile devices with Intune
+metadata:
+  title: Manage mobile devices with Intune
+  description: "Manage mobile devices with Intune"
+  ms.date: 03/29/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/2-manage-mobile-devices-intune.md)]
