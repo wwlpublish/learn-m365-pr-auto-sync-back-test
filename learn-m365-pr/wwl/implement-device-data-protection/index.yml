@@ -1,0 +1,45 @@
+### YamlMime:Module
+uid: learn.wwl.implement-device-data-protection
+metadata:
+  title: Implement device data protection
+  description: "This module describes how you can use Intune to create and manage WIP policies that manage this protection. The modules also covers implementing BitLocker and Encrypting File System."
+  ms.date: 03/29/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implement device data protection
+summary: This module describes how you can use Intune to create and manage WIP policies that manage this protection. The modules also covers implementing BitLocker and Encrypting File System.
+abstract: |
+  After this module, you should be able to:
+  - Describe Windows Information Protection
+  - Plan for Windows Information Protection usage
+  - Implement and use Windows Information Protection
+  - Describe the Encrypting File System (EFS)
+  - Describe BitLocker
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.implement-device-data-protection.introduction
+- learn.wwl.implement-device-data-protection.explore-windows-information-protection
+- learn.wwl.implement-device-data-protection.plan-windows-information-protection
+- learn.wwl.implement-device-data-protection.implement-use-windows-information-protection
+- learn.wwl.implement-device-data-protection.explore-encrypting-file-system-windows-client
+- learn.wwl.implement-device-data-protection.explore-bitlocker
+- learn.wwl.implement-device-data-protection.knowledge-check
+- learn.wwl.implement-device-data-protection.summary
+badge:
+  uid: learn.wwl.implement-device-data-protection.badge

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-device-data-protection.explore-bitlocker
+title: Explore BitLocker
+metadata:
+  title: Explore BitLocker
+  description: "Explore BitLocker"
+  ms.date: 03/29/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/6-explore-bitlocker.md)]

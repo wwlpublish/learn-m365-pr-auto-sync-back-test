@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-device-data-protection.implement-use-windows-information-protection
+title: Implement and use Windows Information Protection
+metadata:
+  title: Implement and use Windows Information Protection
+  description: "Implement and use Windows Information Protection"
+  ms.date: 03/29/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-implement-use-windows-information-protection.md)]
