@@ -1,0 +1,49 @@
+### YamlMime:Module
+uid: learn.wwl.explore-support-diagnostic-tools
+metadata:
+  title: Explore support and diagnostic tools
+  description: "This module introduces the tools for troubleshooting the Windows client operating system and provides guidance on how to use them."
+  ms.date: 03/29/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore support and diagnostic tools
+summary: This module introduces the tools for troubleshooting the Windows client operating system and provides guidance on how to use them.
+abstract: |
+  After completing this module, you will be able to:
+  * Explain how to use the Task Manager tool.
+  * Use Event Viewer to identify problems.
+  * Explain how to use the Reliability Monitor.
+  * Use the Diagnostics and Recovery Toolset.
+  * Use the Steps Recorder to record details of a problem.
+  * Use the Microsoft Management Console
+  * Understand the Windows Registry
+prerequisites: |
+  * Students should have a basic understanding of computer networks and hardware concepts.
+  * Students should have a basic understanding of OS and Application concepts.
+  * Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.explore-support-diagnostic-tools.introduction
+- learn.wwl.explore-support-diagnostic-tools.examine-task-manager
+- learn.wwl.explore-support-diagnostic-tools.examine-resource-monitor
+- learn.wwl.explore-support-diagnostic-tools.examine-event-viewer
+- learn.wwl.explore-support-diagnostic-tools.explain-performance-monitor
+- learn.wwl.explore-support-diagnostic-tools.explain-reliability-monitor
+- learn.wwl.explore-support-diagnostic-tools.compare-process-explorer-process-monitor
+- learn.wwl.explore-support-diagnostic-tools.examine-diagnostics-recovery-toolset
+- learn.wwl.explore-support-diagnostic-tools.use-steps-recorder
+- learn.wwl.explore-support-diagnostic-tools.explore-microsoft-management-console
+- learn.wwl.explore-support-diagnostic-tools.explore-additional-tools
+- learn.wwl.explore-support-diagnostic-tools.knowledge-check
+- learn.wwl.explore-support-diagnostic-tools.summary
+badge:
+  uid: learn.wwl.explore-support-diagnostic-tools.badge
