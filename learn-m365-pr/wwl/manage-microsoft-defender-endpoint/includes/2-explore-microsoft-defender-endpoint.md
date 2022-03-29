@@ -16,4 +16,4 @@ You can use Microsoft 365 Security Center to:
  -  Search for more information on observed indicators such as files and IP addresses.
  -  Change Microsoft Defender for Endpoint settings, including time zone and review licensing information.
 
-:::image type="content" source="../media/alert-dashboard-92252985.png" alt-text="Windows Defender Security Center screen.":::
+:::image type="content" source="../media/alert-dashboard-92252985.png" alt-text="Windows Defender Security Center screen." lightbox="../media/alert-dashboard-92252985.png":::
