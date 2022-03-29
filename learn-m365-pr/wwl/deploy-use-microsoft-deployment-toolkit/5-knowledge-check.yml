@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/24/2022
+  ms.date: 03/29/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -39,7 +39,7 @@ quiz:
     - content: "the Disk Management console"
       isCorrect: false
       explanation: "Incorrect. The Windows Server Disk Management snap-in tool can be used to manage your hard disks and the volumes or partitions they contain. Try again."
-  - content: "Contoso has transitioned from the Microsoft Deployment Toolkit (MDT) to Windows Autopilot and Microsoft Intune to automate its server and desktop deployments. However, there are still some scenarios where in which Contoso prefers to use MDT, because it's better suited than Autopilot and Intune. Which of the following scenarios is MDT the better choice for automating desktop deployments rather than modern management and deployment tools such as Autopilot and Intune?"
+  - content: "Contoso has transitioned from the Microsoft Deployment Toolkit (MDT) to Windows Autopilot and Microsoft Intune to automate its server and desktop deployments. However, there are still some scenarios where Contoso prefers to use MDT, because it's better suited than Autopilot and Intune. Which of the following scenarios is MDT the better choice for automating desktop deployments rather than modern management and deployment tools such as Autopilot and Intune?"
     choices:
     - content: "When customizing the out-of-box experience"
       isCorrect: false

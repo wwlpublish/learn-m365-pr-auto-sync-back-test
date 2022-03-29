@@ -6,10 +6,13 @@ Creating a reference image is the foundation to standardizing the operating syst
 
 Traditionally, enterprises have always created a custom (or golden) image with which to imprint on their endpoints. While they serve a purpose, images can become technician intensive due to the cadence of Windows and the constant changes that arise. Autopilot attempts to bridge the gap. But, for now, consider the reasons behind creating a golden image (such as core applications or perhaps a timely unique installation sequence) and plan for it, rather than doing it because you always have.
 
-> [!TIP]
-> Make a checklist of how your current platform is put together and then look for ways to streamline that process, or consider if you could do it in a more efficient way, such as:<br>\- Do you have any applications as part of your image that require constant updating?<br>\- Do you have a process for keeping your core image up to date with security updates?<br>\- Are there any legacy steps or tasks that are no longer required?
+Make a checklist of how your current platform is put together and then look for ways to streamline that process, or consider if you could do it in a more efficient way, such as:
 
-You can import both original media and custom images that you have created into the Deployment Workbench. The following image showcases a standard Windows setup directory that can be imported.<br>
+ -  Do you have any applications as part of your image that requires constant updating?
+ -  Do you have a process for keeping your core image up to date with security updates?
+ -  Are there any legacy steps or tasks that are no longer required?
+
+You can import both original media and custom images that you've created into the Deployment Workbench. The following image showcases a standard Windows setup directory that can be imported.
 
 :::image type="content" source="../media/window-10-enterprise-files-fb4ca293.png" alt-text="Screenshot of the root folder of a Windows 10 Enterprise image.":::
 
@@ -36,7 +39,7 @@ Import-MDTApplication -Path "DS001:\Applications\Microsoft" -Enable "True" -Name
 
 ### Deploy a reference image with a task sequence
 
-To create a capture and then deploy Windows 10 or later with MDT, you will create a task sequence. A task sequence is a sequential set of steps that will reference various components imported into MDT up to this point (OS images, applications etc.) When you create these using the MDT wizard, you are presented with various templates to help with each scenario. For this lesson, we will focus on a deployment task sequence.
+To create a capture and then deploy Windows 10 or later with MDT, you'll create a task sequence. A task sequence is a sequential set of steps that will reference various components imported into MDT up to this point (OS images, applications etc.) When you create these using the MDT wizard, you are presented with various templates to help with each scenario. For this lesson, we will focus on a deployment task sequence.
 
 Some of the key steps in the development task sequence and their role in delivering an automated delivery of Windows include:
 
@@ -56,7 +59,7 @@ You can create task sequences by using a wizard or building it from scratch.
 > [!NOTE]
 > When creating golden images, it is a best practice to do this on a virtual machine to ensure there are no rogue drivers injected into your image. At this stage, no drivers should be as part of the deployment consideration unless the virtual machine is unable to establish a network connection.
 
-When capturing and deploying Windows, be sure to familiarize yourself with the Unattend.xml file. This helps the Windows installation move through the various passes and apply any relevant customization. System Image Manager helps you review and showcase answer files for Windows.
+When capturing and deploying Windows, be sure to familiarize yourself with the Unattend.xml file. This helps the Windows installation move through the various passes and applies any relevant customization. System Image Manager helps you review and showcase answer files for Windows.
 
 :::image type="content" source="../media/system-image-manager-2b34e5e8.png" alt-text="Screenshot of the Windows System Image Manager,":::
 
