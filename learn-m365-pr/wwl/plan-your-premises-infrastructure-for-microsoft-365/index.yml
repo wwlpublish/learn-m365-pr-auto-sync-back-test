@@ -34,7 +34,7 @@ units:
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.plan-your-microsoft-365-transition
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.estimate-your-network-bandwidth-requirements
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.plan-your-network-integration
-- learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.identify-endpoints
+- learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.identify-endpoints-required-to-function-properly
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.create-deployment-strategy-to-implement-services
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.prepare-active-directory-forest-directory-synchronization
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.knowledge-check
