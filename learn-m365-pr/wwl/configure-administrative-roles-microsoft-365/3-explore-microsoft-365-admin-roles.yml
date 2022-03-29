@@ -1,0 +1,12 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-administrative-roles-microsoft-365.explore-microsoft-365-admin-roles
+title: Explore the Microsoft 365 admin roles
+metadata:
+  title: Explore the Microsoft 365 admin roles
+  description: "Explore the Microsoft 365 admin roles"
+  ms.date: 03/29/2022
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 3

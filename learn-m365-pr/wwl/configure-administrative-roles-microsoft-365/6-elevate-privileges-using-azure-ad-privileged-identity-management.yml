@@ -4,17 +4,16 @@ title: Elevate privileges using Azure AD Privileged Identity Management
 metadata:
   title: Elevate privileges using Azure AD Privileged Identity Management
   description: "Elevate privileges using Azure AD Privileged Identity Management"
-  ms.date: 09/10/2021
+  ms.date: 03/29/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 5
 content: |
-  [!include[](includes/10-elevate-privileges-using-azure-ad-privileged-identity-management.md)]
+  [!include[](includes/6-elevate-privileges-using-azure-ad-privileged-identity-management.md)]
 quiz:
   title: "Check your knowledge"
   questions:
