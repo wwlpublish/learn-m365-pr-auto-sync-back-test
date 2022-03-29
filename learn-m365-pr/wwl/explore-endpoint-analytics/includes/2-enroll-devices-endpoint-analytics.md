@@ -1,4 +1,4 @@
-Endpoint Analytics provides insights for measuring the quality of the experience you're delivering to your users. Endpoint analytics can help identify policies or hardware issues that may be slowing down devices and help you proactively make improvements before end-users generate a help desk ticket. Endpoint analytics aims to improve user productivity and reduce IT support costs by providing insights into the user experience through proactive support and to detect regressions to the user experience by assessing user impact of configuration changes.
+Endpoint Analytics provides insights for measuring the quality of the experience you're delivering to your users. Endpoint analytics can help identify policies or hardware issues that may be slowing down devices and help you proactively make improvements before end-users generate a help desk ticket. Endpoint analytics aims to improve user productivity and reduce IT support costs by providing insights into the user experience through proactive support and to detect regressions to the user experience by assessing user affect of configuration changes.
 
 It's not uncommon for end users to experience long boot times or other disruptions. These disruptions can be due to a combination of:
 
@@ -6,25 +6,23 @@ It's not uncommon for end users to experience long boot times or other disruptio
  -  Software configurations that aren't optimized for the end-user experience
  -  Issues caused by configuration changes and updates
 
-These issues and other end-user experience problems persist because IT doesn't have much visibility into the end-user experience. Generally, the only visibility into these issues comes from a slow costly support channel that doesn't usually provide clear information about what needs to be optimized. It's not only IT support bearing the cost of these problems. The time information workers spend dealing with issues is also costly. Performance, reliability, and support issues that reduce user productivity can have a large impact on an organization's bottom line as well.
-
-Endpoint analytics aims to improve user productivity and reduce IT support costs by providing insights into the user experience. The insights enable IT to optimize the end-user experience with proactive support and to detect regressions to the user experience by assessing user impact of configuration changes.
+These issues and other end-user experience problems persist because IT doesn't have much visibility into the end-user experience. Generally, the only visibility into these issues comes from a slow costly support channel that doesn't usually provide clear information about what needs to be optimized. It's not only IT support bearing the cost of these problems. The time information workers spend dealing with issues is also costly. Performance, reliability, and support issues that reduce user productivity can have a large affect on an organization's bottom line as well.
 
 ### Score
 
-Endpoint analytics scores range from 0 to 100. Lower scores indicate there's room for improvement. Scores help you understand the relative impact of each metric in your environment. There's a built-in baseline for All organizations (median), which allows you to compare your scores to a typical enterprise. For instance, when reviewing your startup score, you find that overall your score of 61 is higher than the baseline of 50 for all organizations. You can create new baselines based on your current metrics so you can track progress or view regressions over time.
+Endpoint analytics scores range from 0 to 100. Lower scores indicate there's room for improvement. Scores help you understand the relative affect of each metric in your environment. There's a built-in baseline for All organizations (median), which allows you to compare your scores to a typical enterprise. For instance, when reviewing your startup score, you find that overall your score of 61 is higher than the baseline of 50 for all organizations. You can create new baselines based on your current metrics so you can track progress or view regressions over time.
 
-:::image type="content" source="../media/8816759-baseline-0113a08c.png" alt-text="8816759-baseline.png":::
+:::image type="content" source="../media/8816759-baseline-0113a08c.png" alt-text="Screenshot clip of Endpoint analytics score.":::
 
 
-Scores are aggregated across all devices. Endpoint analytics also shows some scores per device, so that you can also identify devices that could be impacting user experience . Reviewing scores per device may help you find and resolve end-user impacting issues before a call is made to the help desk.
+Scores are aggregated across all devices. Endpoint analytics also shows some scores per device, so that you can also identify devices that could be affecting user experience. Reviewing scores per device may help you find and resolve end-user affecting issues before a call is made to the help desk.
 
-:::image type="content" source="../media/8816759-per-device-scores-chart-014d10e0.png" alt-text="8816759-per-device-scores-chart.png":::
+:::image type="content" source="../media/8816759-per-device-scores-chart-014d10e0.png" alt-text="Screenshot of Endpoint analytics Overview showing Device scores page.":::
 
 
 ### Filter
 
-Use the Add filter option on tables to display items that match your criteria. You can add more filters to drill further into your data. Using filters enables you to discover trends in your environment or spot potential issues. For instance, in the Device performance tab of the Startup performance report, you might use a filter to identify devices with a high Time to responsive desktop. After reviewing your filtered data, you add another filter to include devices with a high Group Policy sign-in time. With the additional filter, you can gauge the impact Group Policy has on the user experience for devices that take a long time to get to a responsive desktop.
+Use the Add filter option on tables to display items that match your criteria. You can add more filters to drill further into your data. Using filters enables you to discover trends in your environment or spot potential issues. For instance, in the Device performance tab of the Startup performance report, you might use a filter to identify devices with a high Time to responsive desktop. After reviewing your filtered data, you add another filter to include devices with a high Group Policy sign-in time. With the additional filter, you can gauge the affect that Group Policy has on the user experience for devices that take a long time to get to a responsive desktop.
 
 ### Requirements
 

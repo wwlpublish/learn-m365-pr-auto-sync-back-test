@@ -1,4 +1,4 @@
-Endpoint Analytics can provide insights to help organizations monitor transitions to cloud managment solutions. Endpoint Analytics reviews configurations and provides guidance for IT to enabling employees to work from anywhere, as well as assists in planning for Windows 11 migrations.
+Endpoint Analytics can provide insights to help organizations monitor transitions to cloud management solutions. Endpoint Analytics reviews configurations and provides guidance for IT to enabling employees to work from anywhere, as well as assists in planning for Windows 11 migrations.
 
 ### Work from anywhere report
 
@@ -30,7 +30,7 @@ To determine how many of your enrolled devices meet the minimum system requireme
 
 In the **Windows** tab, a device-by-device view of Windows 11 hardware readiness is displayed. This includes whether the device is already upgraded or not, if the device is capable of upgrading, and which specific hardware requirements that aren't met for devices that have a readiness status of *Not capable*. Devices may show with a Windows 11 readiness status of *Unknown***,** which are likely inactive. To verify this, review the device's last check-in time.
 
-Windows 11 hardware readiness insights do not impact your Work from anywhere score.
+Windows 11 hardware readiness insights do not affect your Work from anywhere score.
 
 #### Cloud management
 
@@ -38,7 +38,7 @@ The Cloud management metric measures the percent of PCs that have attached to th
 
 #### Cloud identity
 
-Cloud identity provides users with many productivity benefits including device-wide single sign-on to apps and services, Windows Hello sign in, self-service BitLocker recovery, and corporate data roaming. The Cloud identity metric measures the percent of devices enrolled in Azure Active Directory (AD) or hybrid Azure AD.
+Cloud identity provides users with many productivity benefits including device-wide single sign-on to apps and services, Windows Hello sign-in, self-service BitLocker recovery, and corporate data roaming. The Cloud identity metric measures the percent of devices enrolled in Azure Active Directory (AD) or hybrid Azure AD.
 
 :::image type="content" source="../media/8668496-cloud-identity-f4c76cc4.png" alt-text="Screenshot of the Cloud identity fly out showing insights for the metric":::
 
