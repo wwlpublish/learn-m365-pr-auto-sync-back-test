@@ -28,6 +28,7 @@ products:
 - windows
 - office-365
 - windows-19044
+- windows-10
 units:
 - learn-m365.modern-windows-office-servicing.1-introduction
 - learn-m365.modern-windows-office-servicing.2-overview-servicing-models

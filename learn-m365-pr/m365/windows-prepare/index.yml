@@ -24,6 +24,7 @@ products:
 - windows
 - m365
 - windows-19044
+- windows-10
 units:
 - learn-m365.windows-prepare.introduction
 - learn-m365.windows-prepare.outline-phase
