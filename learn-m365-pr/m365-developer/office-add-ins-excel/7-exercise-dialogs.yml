@@ -15,7 +15,7 @@ content: |
 quiz:
   title: Test your knowledge
   questions:
-  - content: "How can an Office add-in open a dialog from Microsoft Excel?"
+  - content: "How can an Office Add-in open a dialog from Microsoft Excel?"
     choices:
     - content: "Define the dialog as an HTML page. Open the dialog using the `Office.context.openDialog(url, options, callback)` method."
       isCorrect: false
@@ -26,7 +26,7 @@ quiz:
     - content: "Define the dialog as an HTML page and register it in the add-in's manifest file. Open the dialog using the `Office.context.ui.displayDialogAsync(url, options, callback)` method."
       isCorrect: false
       explanation: "Dialogs don't need to be registered in the add-in's manifest file."
-  - content: "Office add-ins can access values from the dialog in which of the following ways?"
+  - content: "Office Add-ins can access values from the dialog in which of the following ways?"
     choices:
     - content: "Before opening the dialog, set the `callback` property to an event that will receive the arguments returned by the dialog."
       isCorrect: false
