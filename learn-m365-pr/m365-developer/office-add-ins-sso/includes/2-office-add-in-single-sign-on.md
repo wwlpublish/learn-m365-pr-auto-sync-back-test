@@ -36,7 +36,7 @@ Office Add-ins SSO is supported in Office web clients and the following desktop 
 
 Let's look at how the SSO process works at runtime.
 
-![SSO runtime process flow](../media/02-sso-overview-diagram.png)
+![Overview diagram of SSO runtime process flow.](../media/02-sso-overview-diagram.png)
 
 1. In the add-in, JavaScript calls a new Office.js API: `getAccessToken()`. This tells the Office client application to obtain an access token to the add-in.
 1. If the user isn't signed in, the Office client application opens a pop-up window for the user to sign in.
