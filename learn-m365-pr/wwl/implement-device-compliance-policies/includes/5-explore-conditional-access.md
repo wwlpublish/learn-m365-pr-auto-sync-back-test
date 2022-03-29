@@ -9,14 +9,14 @@ You can also set policies in Azure AD that allow only domain-joined or Intune-en
 
 A conditional access policy is a definition of an access scenario using the **When this happens**: **Then do this** pattern.
 
- -  **When this happens.** Defines the reason for triggering the conditional access policy. This reason is characterized by a group of conditions that have been satisfied. In conditional access, the two assignment conditions play a special role:
+ -  **When this happens**. Defines the reason for triggering the conditional access policy. This reason is characterized by a group of conditions that have been satisfied. In conditional access, the two assignment conditions play a special role:
     
-     -  **Users.** The users performing an access attempt (Who).
-     -  **Cloud apps.** The targets of an access attempt (What).
+     -  **Users**. The users performing an access attempt (Who).
+     -  **Cloud apps**. The targets of an access attempt (What).
 
 These two conditions are mandatory in a conditional access policy. In addition to the two mandatory conditions, you can also include additional conditions that describe how the access attempt is performed. Common examples are using mobile devices or locations that are outside your company network.
 
- -  **Then do this.** Defines the response of the policy. With a conditional access policy, you control how authorized users (users that have been granted access to a cloud app) can access cloud apps under specific conditions. In your response, you enforce additional requirements such as multi-factor authentication, a managed device, and others. In the context of conditional access, the requirements the policy enforces are called access controls. In the most restrictive form, your policy can block access.
+ -  **Then do this**. Defines the response of the policy. With a conditional access policy, you control how authorized users (users that have been granted access to a cloud app) can access cloud apps under specific conditions. In your response, you enforce additional requirements such as multi-factor authentication, a managed device, and others. In the context of conditional access, the requirements the policy enforces are called access controls. In the most restrictive form, your policy can block access.
 
 Conditional access is especially beneficial in certain scenarios.
 
