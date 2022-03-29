@@ -12,7 +12,7 @@ An *Anycast IP address* is a single IP address assigned to geographically disper
 
 By default, Microsoft Teams media uses 3478/udp for all media. That is controlled by an on-off switch found in the Teams admin center.
 
-![UDP ports](../media/udp-ports.png)
+:::image type="content" source="../media/udp-ports.png" alt-text="Screenshot of the Meeting settings pane that shows the Q O S toggle as On, which configures the client to mark traffic using D S C P." border="false":::
 
 If you leave it off, everything stays on 3478/udp. If you turn on this switch, you'll see that Teams will use 3478/udp for media negotiation and discovery, 3479/udp for audio, 3480/udp for video, and 3481/udp for sharing.
 
