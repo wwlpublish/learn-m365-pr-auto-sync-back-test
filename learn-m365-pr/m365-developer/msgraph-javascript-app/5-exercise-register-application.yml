@@ -8,6 +8,10 @@ metadata:
   ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - aycabas-03262021
 title: Exercise - Register an application with Azure Active Directory
 durationInMinutes: 7
 content: |
