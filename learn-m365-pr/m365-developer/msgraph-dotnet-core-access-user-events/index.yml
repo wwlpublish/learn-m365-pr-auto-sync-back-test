@@ -12,7 +12,6 @@ metadata:
   - team=cloud_advocates
   ms.contributors:
   - dwahlin-09282021
-  - aapowell-09102021
 title: Access a user's calendar events in an ASP.NET Core app with Microsoft Graph
 summary: Microsoft Graph provides access to data stored across Microsoft 365 services. In this module, you'll learn how to access Microsoft 365 data to show a user's default calendar in an ASP.NET Core application by using Microsoft Graph APIs and SDKs. To make sure that the web app only shows what's immediately relevant to the user, you'll access and display instances of events for a given period.
 abstract: |

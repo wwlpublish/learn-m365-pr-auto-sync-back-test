@@ -12,7 +12,6 @@ metadata:
   - team=cloud_advocates
   ms.contributors:
   - aycabas-03262021
-  - aapowell-09102021
 title: What is Microsoft Graph?
 summary: Microsoft Graph provides access to data stored across Microsoft 365 services. Custom applications can use the Microsoft Graph API to connect to data and use it in custom applications to enhance organizational productivity.
 abstract: |

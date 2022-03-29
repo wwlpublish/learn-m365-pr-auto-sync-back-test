@@ -12,7 +12,6 @@ metadata:
   - team=cloud_advocates
   ms.contributors:
   - dwahlin-09292021
-  - aapowell-09102021
 title: Download and upload files in an ASP.NET Core app with Microsoft Graph
 summary: Learn how to list, download, and upload a user's files in an ASP.NET Core application by using Microsoft Graph.
 abstract: |
