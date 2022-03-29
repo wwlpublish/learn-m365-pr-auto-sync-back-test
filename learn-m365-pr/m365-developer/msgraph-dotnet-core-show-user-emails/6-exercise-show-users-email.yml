@@ -8,8 +8,10 @@ metadata:
   ms.author: dwahlin
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
-  ms.custom: team=cloud_advocates
-  ms.contributors: dwahlin-09302021
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - dwahlin-09302021
 title: Exercise - Show a user's emails
 durationInMinutes: 10
 content: |

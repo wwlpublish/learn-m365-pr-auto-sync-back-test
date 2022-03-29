@@ -8,8 +8,10 @@ metadata:
   ms.author: wmastyka
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
-  ms.custom: team=cloud_advocates
-  ms.contributors: wmastyka-04072021
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - wmastyka-04072021
 title: Introduction
 durationInMinutes: 1
 content: |
