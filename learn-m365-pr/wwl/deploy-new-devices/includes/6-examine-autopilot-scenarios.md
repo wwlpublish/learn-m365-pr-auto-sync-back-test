@@ -82,7 +82,7 @@ Starting with Windows 10 version 1903, Windows Autopilot can also provide a capa
 
 Instead of the entire provisioning process occurring when the user powers on the device, the provisioning process is split. Time-consuming portions such as device and user application installs and policies are completed by IT. Final user settings and policies are applied when the user connects and powers on the device.
 
-The process for configuring a pre-provisioned deployment are as follows:
+The process for configuring a pre-provisioned deployment is as follows:
 
 1.  Enable the **White Glove OOBE** option in the desired Autopilot Profile.
 2.  Connect (ethernet required for pre-provision) and boot the device. At the first OOBE screen press the Windows key five times.
