@@ -28,6 +28,7 @@ roles:
 products:
 - office-teams
 - microsoft-teams-phone
+- microsoft-admin-center
 units:
 - learn-m365.teams.navigate-admin-portal.1-introduction
 - learn-m365.teams.navigate-admin-portal.2-configure-your-teams-development

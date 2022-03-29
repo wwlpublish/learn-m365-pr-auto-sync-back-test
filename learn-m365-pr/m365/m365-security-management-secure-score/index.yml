@@ -29,6 +29,7 @@ products:
 - m365-security-center
 - m365-security-score
 - m365-threat-protection
+- microsoft-admin-center
 units:
 - learn-m365.m365-security-management-secure-score.introduction
 - learn-m365.m365-security-management-secure-score.how-secure-score-works

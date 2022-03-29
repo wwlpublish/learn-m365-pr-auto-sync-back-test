@@ -24,6 +24,7 @@ roles:
 products:
 - office-teams
 - microsoft-compliance-center
+- microsoft-admin-center
 units:
 - learn-m365.teams.enterprise-security.1-introduction
 - learn-m365.teams.enterprise-security.2-configure-safe-attachments
