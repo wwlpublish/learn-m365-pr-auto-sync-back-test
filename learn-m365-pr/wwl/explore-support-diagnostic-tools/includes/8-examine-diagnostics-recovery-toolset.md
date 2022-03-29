@@ -1,6 +1,6 @@
 The Microsoft Diagnostics and Recovery Toolset (DaRT) 10 enables you to troubleshoot, diagnose, and repair a Windows computer that will not start, or that generates errors when starting. DaRT 10 is an important part of the Microsoft Desktop Optimization Pack (MDOP), and you can use it to:
 
- -  Recover Windows computers that are unusable or will not startup properly.
+ -  Recover Windows computers that are unusable or will not start up properly.
  -  Diagnose the probable causes of problems.
  -  Quickly repair nonstarting or locked-out computers.
  -  Restore lost files, and detect and remove malware, quickly.
@@ -19,6 +19,6 @@ DaRT 10 consists of the following tools:
  -  Hotfix uninstall. Use this tool to remove hotfixes or service packs from a computer.
  -  Locksmith. Use this tool to set or reset the password for any local account.
  -  Registry editor. Use this tool to edit the local registry.
- -  SFC scan. Use this tool to launches the System File Repair Wizard, which enables you repair system files that are preventing the installed operating system from starting.
+ -  SFC scan. Use this tool to launch the System File Repair Wizard, which enables you repair system files that are preventing the installed operating system from starting.
  -  Solution Wizard. Use this tool to present a series of questions, and then based on your answer, the tool recommends the best tool for the situation.
  -  TCP/IP config. Use this tool to configure TCP/IP settings manually for a computer that you are troubleshooting.\]
