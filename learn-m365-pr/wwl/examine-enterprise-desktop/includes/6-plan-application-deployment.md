@@ -33,7 +33,7 @@ Organizations have several options for choosing how to deliver applications. App
 The Microsoft Store for Business is a Microsoft Azure–based portal for finding, distributing, and managing applications in an enterprise. You can filter applications by device, such as phone, Surface Hub, IoT, and HoloLens. You can develop line-of-business (LOB) applications and publish them through the Microsoft Store for Business so that they are available only to your organization. The Microsoft Store for Business may not be available in all locations.
 
 > [!NOTE]
-> The Microsoft Store for Business will be retired in Q1 2023. Organizations will be able to host and manage their own private stores using solutions such as Microsoft Intune to deploy private applications. More on this will be announced in early 2022.
+> The Microsoft Store for Business will be retired in Q1 2023.
 
 #### Microsoft Endpoint Manager
 
