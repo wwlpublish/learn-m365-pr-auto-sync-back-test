@@ -18,7 +18,7 @@ An on-premises network connection is required so that Cloud PCs can join the org
 To create an on-premises network connection:
 
 1.  Sign in to the Microsoft Endpoint Manager admin center with an account that is an Intune Administrator in Azure AD and has owner permissions to the virtual network in the Azure subscription.
-2.  Select **Devices** &gt; **Windows 365** (under **Provisioning**) &gt; **On-premises network connection** &gt; **Create connection**.
+2.  Select **Devices** > **Windows 365** (under **Provisioning**) > **On-premises network connection** > **Create connection**.
 3.  On the **Network details** page, enter a **Name** for the new connection. The connection name must be unique within the customer tenant.
     
     :::image type="content" source="../media/connection-name-c4ff26d6.png" alt-text="Screenshot of connection name":::
@@ -36,7 +36,7 @@ Windows 365 provides a built-in gallery of Windows Enterprise images accessible 
  -  Images with pre-installed Microsoft 365 Apps: Microsoft 365 Apps and Teams optimizations are already installed.
  -  Images with OS optimizations: These are Windows Enterprise images optimized for improved performance on virtualized environments and on lower end hardware configurations.
 
-As most device configurations are applied through configuration policies, these base images should be sufficient for many organizations. However, if a custom image is needed, you can create and upload up to 20 custom generalized images. The custom image must be added to your Azure subscription before it can be used with Windows 365. Once that's done, sign in to the Microsoft Endpoint Manager admin center, select **Devices** &gt; **Windows 365** &gt; **Device images** &gt; **Add**. Select an image from the available list, and select **Add**.
+As most device configurations are applied through configuration policies, these base images should be sufficient for many organizations. However, if a custom image is needed, you can create and upload up to 20 custom generalized images. The custom image must be added to your Azure subscription before it can be used with Windows 365. Once that's done, sign in to the Microsoft Endpoint Manager admin center, select **Devices** > **Windows 365** > **Device images** > **Add**. Select an image from the available list, and select **Add**.
 
 ### Create provisioning policies
 
@@ -44,18 +44,18 @@ Cloud PCs are created and assigned to users based on provisioning policies. Afte
 
 Creating a provisioning policy requires the following steps:
 
-1.  Sign in to the Microsoft Endpoint Manager admin center, select **Devices** &gt; **Windows 365** &gt; **Provisioning policies** &gt; **Create policy**.
+1.  Sign in to the Microsoft Endpoint Manager admin center, select **Devices** > **Windows 365** > **Provisioning policies** > **Create policy**.
     
     :::image type="content" source="../media/create-policy-bd0ad87a.png" alt-text="Screenshot of create policy,":::
     
 2.  On the **General** page, enter a **Name** for the new policy.
-3.  For **On-premises network connection**, select the connection to use for this policy &gt; **Next**.
+3.  For **On-premises network connection**, select the connection to use for this policy > **Next**.
 4.  On the **Image** page, for **Image type**, select one of the following options:
     
-     -  **Gallery image**: Choose **Select** &gt; select an image from the gallery &gt; **Select**.
-     -  **Custom image**: Choose **Select** &gt; select an image from the list &gt; **Select**.
+     -  **Gallery image**: Choose **Select** > select an image from the gallery > **Select**.
+     -  **Custom image**: Choose **Select** > select an image from the list > **Select**.
 5.  Select **Next**.
-6.  On the **Assignments** page, choose **Select groups** &gt; choose the groups you want this policy assigned to, choose **Select** and then **Next**.
+6.  On the **Assignments** page, choose **Select groups** > choose the groups you want this policy assigned to, choose **Select** and then **Next**.
 7.  On the **Review + create** page, select **Create**.
 
 > [!NOTE]
