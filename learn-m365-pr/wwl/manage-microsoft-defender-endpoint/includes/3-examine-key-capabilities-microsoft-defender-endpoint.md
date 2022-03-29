@@ -30,7 +30,7 @@ Endpoint detection and response capabilities are put in place to detect, investi
 
 When a threat is detected, alerts are created in the system for an analyst to investigate. Alerts with the same attack techniques or attributed to the same attacker are aggregated into an entity called incident. Aggregating alerts in this manner makes it easy for analysts to collectively investigate and respond to threats.
 
-Inspired by the "assume breach" mindset, Microsoft Defender for Endpoint continuously collects behavioral cyber telemetry. This includes process information, network activities, deep optics into the kernel and memory manager, user sign in activities, registry and file system changes and others. This information is stored for six months, enabling an analyst to travel back in time to the starting point of an attack and pivot in various views and approach an investigation through multiple possible vectors.
+Inspired by the "assume breach" mindset, Microsoft Defender for Endpoint continuously collects behavioral cyber telemetry. This includes process information, network activities, deep optics into the kernel and memory manager, user sign-in activities, registry and file system changes and others. This information is stored for six months, enabling an analyst to travel back in time to the starting point of an attack and pivot in various views and approach an investigation through multiple possible vectors.
 
 The response capabilities give you the power to promptly remediate threats by acting on the affected entities.
 

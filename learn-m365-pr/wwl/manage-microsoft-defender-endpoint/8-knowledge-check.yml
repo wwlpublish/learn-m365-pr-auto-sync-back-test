@@ -38,4 +38,4 @@ quiz:
       explanation: "Correct. The Secure score dashboard expands your visibility into the overall security posture of your organization. From this dashboard, can assess the security posture of your organization, see machines that require attention, as well as recommendations for actions to further reduce the attack surface in your organization. From there you can take action based on the recommended configuration baselines."
     - content: "Auto investigation and remediation"
       isCorrect: false
-      explanation: "Incorrect. This feature of Microsoft Defender for Endpoint help reduce the volume of alerts in minutes at scale. Try again."
+      explanation: "Incorrect. This feature of Microsoft Defender for Endpoint helps reduce the volume of alerts in minutes at scale. Try again."
