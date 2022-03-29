@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/22/2022
+  ms.date: 03/29/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -43,13 +43,13 @@ quiz:
     choices:
     - content: "Evaluate each computer's workload"
       isCorrect: false
-      explanation: "Incorrect. Setting up a baseline actually helps with this task. This tasks doesn't establish a baseline. Try again."
+      explanation: "Incorrect. Setting up a baseline actually helps with this task. This task doesn't establish a baseline. Try again."
     - content: "Use data collector sets"
       isCorrect: true
       explanation: "Correct. By using data collector sets, you can establish a baseline to use as a standard for comparison. You create a baseline when you first configure the computer, at regular intervals of typical usage, and when you make any changes to the computer’s hardware or software configuration."
     - content: "Monitor system resources"
       isCorrect: false
-      explanation: "Incorrect. Setting up a baseline actually helps with this task. This tasks doesn't establish a baseline. Try again."
+      explanation: "Incorrect. Setting up a baseline actually helps with this task. This task doesn't establish a baseline. Try again."
   - content: "Your computer can use more memory than the limitation imposed by 32-bit operating systems. Because your computer doesn't have this memory limitation, you want to select a 64-bit version of Windows. What's the memory limitation imposed by 32-bit operating systems?"
     choices:
     - content: "2 GB"
