@@ -1,12 +1,12 @@
 In the Desktop Analytics portal, you can view the status of security and feature updates. Select these nodes in the Monitor group of the Desktop Analytics main menu to give you insights into the status of these updates in your environment.
 
-:::image type="content" source="../media/desktop-analytics-security-updates-f11bcc83.png" alt-text="Screenshot of Monitor Health screen in Desktop Analytics":::
+:::image type="content" source="../media/desktop-analytics-security-updates-f11bcc83.png" alt-text="Screenshot of Desktop Analytics showing the Security updates page.":::
 
 
 Security updates are categorized into:
 
  -  Devices running the latest version
- -  Devices running latest version – 1
+ -  Devices running latest version –1
  -  Devices running updates older than latest -1
 
 Likewise, for feature updates, devices are categorized as:

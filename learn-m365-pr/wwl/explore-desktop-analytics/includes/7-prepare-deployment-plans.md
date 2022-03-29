@@ -25,9 +25,9 @@ The following readiness rules are available in deployment plans:
 
 While the Assets area also shows devices and apps, the **Plan assets** area under a specific deployment plan includes additional information.
 
- -  **Devices.** See the **Windows upgrade decision** for each device in the deployment plan. The Windows upgrade decision to **Replace device. This** can be because of reasons such as minimum hard requirements not met, a specific make/model cannot upgrade, a plug-and-play component that blocks upgrade, a risk that after an upgrade it will lose connectivity (such as a driver issue).
- -  **Apps.** Set the **Upgrade decision** and the **Importance** for this app in this deployment plan. In the details of the app, you can also see the following information: Recommendations, Compatibility risk factors, and Microsoft known issues. Use this information to help set the **Upgrade decision**. The apps that Desktop Analytics shows as **noteworthy** are based on the low install count threshold for the readiness rules of the deployment plan.
- -  **Drivers.** See the list of drivers included with this deployment plan. Set the **Upgrade decision**, review Microsoft's recommendation, and see compatibility risk factors.
+ -  **Devices**. See the **Windows upgrade decision** for each device in the deployment plan. The Windows upgrade decision to **Replace device. This** can be because of reasons such as minimum hard requirements not met, a specific make/model cannot upgrade, a plug-and-play component that blocks upgrade, a risk that after an upgrade it will lose connectivity (such as a driver issue).
+ -  **Apps**. Set the **Upgrade decision** and the **Importance** for this app in this deployment plan. In the details of the app, you can also see the following information: Recommendations, Compatibility risk factors, and Microsoft known issues. Use this information to help set the **Upgrade decision**. The apps that Desktop Analytics shows as **noteworthy** are based on the low install count threshold for the readiness rules of the deployment plan.
+ -  **Drivers**. See the list of drivers included with this deployment plan. Set the **Upgrade decision**, review Microsoft's recommendation, and see compatibility risk factors.
 
 ### Importance
 
