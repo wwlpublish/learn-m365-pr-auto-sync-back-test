@@ -3,7 +3,7 @@ uid: learn.wwl.implement-dynamic-deployment-methods
 metadata:
   title: Implement dynamic deployment methods
   description: "Use dynamic provisioning methods such as Subscription Activation, Provisioning packages, and Azure AD join to reconfigure an existing operating system."
-  ms.date: 03/24/2022
+  ms.date: 03/29/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
