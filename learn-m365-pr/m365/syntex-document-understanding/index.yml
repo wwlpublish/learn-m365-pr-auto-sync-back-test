@@ -28,7 +28,7 @@ roles:
 - business-user
 products:
 - m365
-- sharepoint-syntax
+- sharepoint-syntex
 units:
 - learn-m365.syntex-document-understanding.introduction
 - learn-m365.syntex-document-understanding.create-model
