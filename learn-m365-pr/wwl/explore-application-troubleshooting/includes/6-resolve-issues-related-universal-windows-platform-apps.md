@@ -1,10 +1,10 @@
 The Microsoft Store will notify you if there are issues with an application, and in most cases will try to solve the problem automatically. However, you might experience situations where an application will not start and the Microsoft Store cannot solve the problem. This unit will cover some of the most common issues that you might encounter running Universal Windows apps.
 
-#### Windows Store Apps Troubleshooter
+#### Windows Store apps troubleshooter
 
 If you have problems with an application, or if the Microsoft Store app does not open, you can run the Windows Store Apps Troubleshooter tool. This tool can identify and fix problems with Universal Windows apps and the Microsoft Store app. It is only available in English, but you can use the tool on PCs that run any language.
 
-#### Additional solutions to the Windows Store Apps Troubleshooter
+#### Additional solutions to the Windows Store apps troubleshooter
 
 If the troubleshooter cannot resolve the issue, it's recommended that you try any of the following listed suggestions:
 
