@@ -12,7 +12,6 @@ metadata:
   - team=cloud_advocates
   ms.contributors:
   - wmastyka-01212022
-  - aapowell-09102021
 title: Extend Microsoft Viva Connections with Adaptive Card Extensions
 summary: Learn how to extend Viva Connections with custom Adaptive Card Extensions using nothing but your existing web development skills. You'll learn about the scenarios where they're most suitable and how to build them.
 abstract: |
