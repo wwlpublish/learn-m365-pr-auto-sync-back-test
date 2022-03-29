@@ -43,7 +43,7 @@ After installing MDT on a server and creating a deployment share using Deploymen
 
 Boot images are the Windows PE images that start the OS deployment. This is essentially a minimal OS that contains limited components and services. You can start boot images from a CD or DVD, an ISO file, a USB device, or over the network using a Pre-Boot Execution Environment (PXE) server. The boot images connect to the deployment share on the server and start the deployment. You'll usually create two default boot images: One to support x86 platforms and one to support x64 platforms. These images are stored in the i386 or x64 folders, respectively. As part of the setup and configuration of MDT, the Windows ADK will be installed on the designated server that delivers the OoB boot images for x86 and x64. It is important to remember that when using UEFI firmware that the correct boot image is available for the target OS.
 
-When deciding whether to add drivers to a Windows PE image, you should first determine if the existing image has network capability on the target device. If so, drivers may not be needed during the Windows PE stage and can delivered later during deployment.
+When deciding whether to add drivers to a Windows PE image, you should first determine if the existing image has network capability on the target device. If so, drivers may not be needed during the Windows PE stage and can be delivered later during deployment.
 
 > [!NOTE]
 > Consider adding a custom background to your boot image

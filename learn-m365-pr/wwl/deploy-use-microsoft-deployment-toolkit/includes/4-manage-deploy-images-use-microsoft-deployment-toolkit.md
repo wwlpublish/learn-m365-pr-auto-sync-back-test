@@ -51,7 +51,7 @@ Some of the key steps in the development task sequence and their role in deliver
 
 An example task sequence is show below:
 
-:::image type="content" source="../media/task-sequence-example-f676c21f.png" alt-text="Screensot of a Task Sequence.":::
+:::image type="content" source="../media/task-sequence-example-f676c21f.png" alt-text="Screenshot of a Task Sequence.":::
 
 
 You can create task sequences by using a wizard or building it from scratch.
