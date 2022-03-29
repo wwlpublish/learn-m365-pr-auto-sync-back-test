@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-intro.results-answers
+title: Microsoft Search results and answers
+metadata:
+  title: Microsoft Search results and answers
+  description: Learn how Microsoft Search saves time for everyone in your organization and see examples of different search answers and result types.
+  ms.date: 01/11/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/results-answers.md)]
