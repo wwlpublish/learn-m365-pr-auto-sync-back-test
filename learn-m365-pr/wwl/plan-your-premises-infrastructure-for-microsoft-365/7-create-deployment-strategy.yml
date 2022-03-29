@@ -4,15 +4,16 @@ title: Create a deployment strategy to implement Microsoft 365 services
 metadata:
   title: Create a deployment strategy to implement Microsoft 365 services
   description: "Create a deployment strategy to implement Microsoft 365 services"
-  ms.date: 06/30/2021
+  ms.date: 03/29/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 10
 content: |
-  [!include[](includes/8-create-deployment-strategy-to-implement-services.md)]
+  [!include[](includes/7-create-deployment-strategy.md)]
 quiz:
   title: "Check your knowledge"
   questions:
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Password Hash Synchronization + Seamless SSO"
       isCorrect: false
-      explanation: "That's incorrect. For this strategy, authentication occurs in the cloud. Try again."
+      explanation: "Incorrect. For this strategy, authentication occurs in the cloud. Try again."
     - content: "Federation with AD FS"
       isCorrect: true
-      explanation: "That's correct. Authentication occurs on-premises when implementing Federation with AD FS."
+      explanation: "Correct. Authentication occurs on-premises when implementing Federation with AD FS."
     - content: "Azure AD Pass-Through Authentication + Seamless SSO"
       isCorrect: false
-      explanation: "That's incorrect. For this strategy, authentication occurs in the cloud after a secure password verification exchange with the on-premises authentication agent. Try again."
+      explanation: "Incorrect. For this strategy, authentication occurs in the cloud after a secure password verification exchange with the on-premises authentication agent. Try again."

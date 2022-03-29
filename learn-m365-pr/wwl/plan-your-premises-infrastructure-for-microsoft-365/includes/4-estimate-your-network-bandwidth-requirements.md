@@ -9,7 +9,7 @@ Complete the following steps to estimate your network’s bandwidth:
 
 1.  Assess the number of clients that will use each Internet egress.
 2.  Determine which Microsoft 365 services and features will be available for clients to use. You'll likely have groups of people with different services or usage profiles.
-3.  Measure the network use for a pilot group of clients. Ensure the pilot clients represent the different profiles of people in the organization and the different geographic locations. You can cross-check your results against Microsoft’s calculators for [Exchange](https://go.microsoft.com/fwlink/p/?LinkId=321550?azure-portal=true) and [Skype for Business](https://go.microsoft.com/fwlink/p/?LinkId=321551?azure-portal=true). You can also compare your results to the [case study](https://www.microsoft.com/itshowcase/Article/Content/631/Optimizing-network-performance-for-Microsoft-Office-365?azure-portal=true) Microsoft conducted on its own network.
+3.  Measure the network use for a pilot group of clients. Ensure the pilot clients represent the different profiles of people in the organization and the different geographic locations. You can also compare your results to the [case study](https://www.microsoft.com/itshowcase/Article/Content/631/Optimizing-network-performance-for-Microsoft-Office-365?azure-portal=true) Microsoft conducted on its own network.
 4.  Use the measurements from the pilot group to extrapolate the entire organization's needs.
 5.  Retest to validate the estimations before making any changes to your network.
 

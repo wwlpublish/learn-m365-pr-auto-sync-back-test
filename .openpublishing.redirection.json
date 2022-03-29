@@ -1789,6 +1789,51 @@
       "source_path": "learn-m365-pr/wwl/implement-security-for-microsoft-teams/05-examine-cloud-app-security.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/implement-security-for-microsoft-teams/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-premises-infrastructure-for-microsoft-365/3-manage-your-transition-to-by-using-deployment-planning-checklist.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-premises-infrastructure-for-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-premises-infrastructure-for-microsoft-365/4-estimate-your-organizations-bandwidth-requirements-to-support.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-premises-infrastructure-for-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-premises-infrastructure-for-microsoft-365/5-validate-your-network-readiness-by-using-microsoft-network-tools.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-premises-infrastructure-for-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-premises-infrastructure-for-microsoft-365/6-integrate-your-network-to.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-premises-infrastructure-for-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-premises-infrastructure-for-microsoft-365/7-identify-endpoints-required-to-function-properly.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-premises-infrastructure-for-microsoft-365/6-identify-endpoints",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-premises-infrastructure-for-microsoft-365/8-create-deployment-strategy-to-implement-services.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-premises-infrastructure-for-microsoft-365/7-create-deployment-strategy",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-premises-infrastructure-for-microsoft-365/9-enable-password-hash-synchronization-with-your-authentication-method.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-premises-infrastructure-for-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-premises-infrastructure-for-microsoft-365/10-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-premises-infrastructure-for-microsoft-365/9-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-premises-infrastructure-for-microsoft-365/11-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-premises-infrastructure-for-microsoft-365/10-summary",
+      "redirect_document_id": true
     }
   ]
 }
