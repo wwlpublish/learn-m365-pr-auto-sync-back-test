@@ -13,7 +13,7 @@ Before a user can use a Cloud PC, you must assign a Windows 365 license to that 
 
 ### Create an on-premises network connection
 
-An on-premises network connection is required so that Cloud PCs can join the organization's domain and access on-premises resources. You'll be connecting to a virtual network configured in Azure that has been setup for connectivity with the on-premises domain controller and network. Work with your organization's Azure administrator to identify this.
+An on-premises network connection is required so that Cloud PCs can join the organization's domain and access on-premises resources. You'll be connecting to a virtual network configured in Azure that has been set up for connectivity with the on-premises domain controller and network. Work with your organization's Azure administrator to identify this.
 
 To create an on-premises network connection:
 

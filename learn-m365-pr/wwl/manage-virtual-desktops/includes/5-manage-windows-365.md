@@ -32,7 +32,7 @@ To reprovision a Cloud PC, perform the following steps:
     
 2.  In the Reprovision box, select **Yes**. The reprovision process will begin.
 
-After the new Cloud PC is created, Windows 365 sends access information to the new user.<br>
+After the new Cloud PC is created, Windows 365 sends access information to the new user.
 
 ### Resize a Cloud PC
 
