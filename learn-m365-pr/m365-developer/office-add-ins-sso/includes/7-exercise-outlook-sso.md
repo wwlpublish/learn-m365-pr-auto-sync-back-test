@@ -38,7 +38,7 @@ When prompted, provide the following information to create your add-in project:
 - **What do you want to name your add-in?** MyOutlookSsoAddin
 - **Which Office client application would you like to support?** Outlook
 
-![A screenshot of the prompts and answers for the Yeoman generator](../media/07-yo-office-sso-add-in.png)
+![Screenshot of the prompts and answers for the Yeoman generator.](../media/07-yo-office-sso-add-in.png)
 
 After you complete prompts, the generator creates the project and installs supporting Node components.
 
@@ -64,7 +64,7 @@ After authenticating, the script will do the following tasks:
 1. Create a new client secret and save it to your developer workstations secret store
 1. Update the project with the Azure AD application's client ID
 
-![Screenshot of running and the output from the configure-sso script](../media/03-configure-sso.png)
+![Screenshot of output from running the configure-sso script.](../media/03-configure-sso.png)
 
 > [!WARNING]
 > The **configure-sso** command will fail if your Azure AD tenant is configured for multi-factor authentication (MFA)/two-factor authentication. In this case, you'll need manually create the Azure AD app registration as outlined in the **[Create a Node.js Office Add-in that uses single sign-on: Register the add-in with Azure AD v2.0 endpoint](/office/dev/add-ins/develop/create-sso-office-add-ins-nodejs#register-the-add-in-with-azure-ad-v20-endpoint)** article.
@@ -87,13 +87,13 @@ In the new message section, locate the **...** button in the bottom of the new m
 
 Select the **Get Add-ins** menu item.
 
-![Screenshot of the Get Add-ins button](../media/07-test-app-01.png)
+![Screenshot of the Get Add-ins button.](../media/07-test-app-01.png)
 
 On the **Add-Ins for Outlook** dialog, select **My add-ins** from the left menu.
 
-On the **My add-ins** screen, select the **Add a custom add-in > Add from file...** button.
+On the **My add-ins** screen, select the **Add a custom add-in** > **Add from file...** button.
 
-![Screenshot of the screen to sideload a custom add-in](../media/07-test-app-02.png)
+![Screenshot showing how to sideload a custom add-in.](../media/07-test-app-02.png)
 
 Select the **manifest.xml** file in the root of your project folder and select **Upload**.
 
@@ -101,13 +101,13 @@ When prompted, select the **Install** button on the **Warning** dialog.
 
 Close the dialog and select the **...** button at the bottom of the email. Notice your custom add-in now appears:
 
-![Screenshot of add-in loaded in Outlook](../media/07-test-app-03.png)
+![Screenshot of the loaded add-in in Outlook.](../media/07-test-app-03.png)
 
 Select the add-in to open the task pane. When the task pane appears, select the **Get My user profile information** button.
 
 Because you're already signed in, after a moment, you'll see the user's basic profile information appear in the email without having to sign in.
 
-![Screenshot of the add-in task pane in the new Outlook email](../media/07-test-app-04.png)
+![Screenshot of the add-in task pane in a new Outlook email.](../media/07-test-app-04.png)
 
 ## Update the app to show upcoming meetings
 
@@ -203,9 +203,9 @@ Select **Azure Active Directory** in the leftmost navigation.
 
 ### App registration
 
-Select **Manage > App registrations** in the leftmost navigation.
+Select **Manage** > **App registrations** in the leftmost navigation.
 
-  ![Screenshot of the App registrations](../media/03-azure-ad-portal-home.png)
+  ![Screenshot of app registrations in the Azure Active Directory admin center portal.](../media/03-azure-ad-portal-home.png)
 
 On the **App registrations** page, select **New registration** and set the following values on the **Register an application** screen. When finished, select the **Register** button.
 
@@ -217,11 +217,11 @@ On the **App registrations** page, select **New registration** and set the follo
 
 The next step is to configure the app's registration details.
 
-Next, in the leftmost navigation, select **Manage > Authentication**.
+Next, in the leftmost navigation, select **Manage** > **Authentication**.
 
 On the **Authentication** screen, select **Add a platform**. Then select the **Web** platform from the list of options:
 
-![Screenshot selecting the web platform](../media/07-azure-ad-app-registration.png)
+![Screenshot showing how to select the web platform.](../media/07-azure-ad-app-registration.png)
 
 For the **Redirect URIs**, enter **https://localhost:3000/taskpane.html**.
 
@@ -234,7 +234,7 @@ After the screen reloads, select **Add URI** in the **Web** platform, and enter 
 
 Select **Save** at the top of the screen to save your changes.
 
-![Screenshot of the app authentication settings](../media/07-azure-ad-app-authentication.png)
+![Screenshot of app authentication settings.](../media/07-azure-ad-app-authentication.png)
 
 ### App certificates and secrets
 
@@ -244,28 +244,28 @@ Select **Certificates & secrets** from the leftmost navigation panel.
 
 Select the **New client secret** button:
 
-![Screenshot of the Certificates & Secrets page in the Azure AD admin center](../media/07-azure-ad-app-secret-01.png)
+![Screenshot of the Certificates & secrets page in the Azure AD admin center.](../media/07-azure-ad-app-secret-01.png)
 
 When prompted, give the secret a description and select one of the expiration duration options provided and select **Add**. *What you enter and select doesn't matter for the exercise.*
 
-![Screenshot of creating a new client secret](../media/07-azure-ad-app-secret-02.png)
+![Screenshot showing how to add a client secret.](../media/07-azure-ad-app-secret-02.png)
 
 The **Certificate & Secrets** page will display the new secret.
 
 > [!IMPORTANT]
 > It's important you copy this value as it's only shown this one time; if you leave the page and come back, it will only show as a masked value.
 
-![Screenshot showing the new secret](../media/07-azure-ad-app-secret-03.png)
+![Screenshot showing the new secret.](../media/07-azure-ad-app-secret-03.png)
 
-After copying the client secret, let's copy the client ID as well. In the leftmost navigation, select **Manage > Overview**.
+After copying the client secret, let's copy the client ID as well. In the leftmost navigation, select **Manage** > **Overview**.
 
-![Screenshot showing the client ID](../media/07-azure-ad-app-secret-04.png)
+![Screenshot showing the client ID.](../media/07-azure-ad-app-secret-04.png)
 
 ### API permissions
 
 Next, you need to grant the application permissions to Microsoft Graph.
 
-In the leftmost navigation, select **Manage > API permissions**.
+In the leftmost navigation, select **Manage** > **API permissions**.
 
 It's a good practice to only request permissions that your app needs. So, let's remove the initial **User.Read** permission by selecting it, then select **Remove permission**, followed by **Yes, remove** to confirm.
 
@@ -283,13 +283,13 @@ On the **Select an API** screen, select **Microsoft Graph**, then select **Deleg
 
 Once you've selected these permissions, select the **Add permissions** button.
 
-![Screenshot of the added permissions](../media/07-azure-ad-app-permissions-01.png)
+![Screenshot of the added permissions.](../media/07-azure-ad-app-permissions-01.png)
 
 Next, select the **Grant admin consent for Contoso** followed by accepting the confirmation prompt by selecting **Yes**.
 
 ### Expose an API: Application ID URI
 
-Finally, select **Manage > Expose an API** in the leftmost navigation. There are multiple things to do on this page:
+Finally, select **Manage** > **Expose an API** in the leftmost navigation. There are multiple things to do on this page:
 
 First, select **Set** next to the **Application ID URI**. This is the unique ID of our application. Add **localhost:3000/** just before the protocol and the ID of the application so it looks similar to the following and select **Save**:
 
@@ -331,7 +331,7 @@ Select the **Add a client application** to add the following applications. Appli
 
 If you select one of these apps, each of them has the scope defined above as an authorized scope.
 
-![Screenshot showing the ID and authorized clients who can access the add-in's API](../media/07-azure-ad-expose-api.png)
+![Screenshot showing ID and authorized clients who can access the add-in's API.](../media/07-azure-ad-expose-api.png)
 
 ### Update project and developer workstation
 
@@ -399,8 +399,8 @@ Repeat the process of testing the add-in that you did at the beginning of this e
 
 To remove the add-in, follow the same steps to install a new add-in, except before uploading your custom **manifest.xml** file, remove the previously installed add-in:
 
-![Screenshot of removing an existing add-in](../media/07-test-app-05.png)
+![Screenshot showing how to remove an existing add-in.](../media/07-test-app-05.png)
 
 After you've installed the updated add-in **manifest.xml** file, complete the testing process to test the new logic of your add-in.
 
-![Screenshot of the results from the updated add-in](../media/07-test-app-06.png)
+![Screenshot of results from the updated add-in.](../media/07-test-app-06.png)
