@@ -1,6 +1,6 @@
 With Windows as a service, Microsoft simplifies the operating system deployment process. Microsoft now releases improvements and even new versions of Windows through the same technology used to deliver regular updates. Updates are now delivered as follows:
 
- -  **Quality updates**. Provide reliability and security updates and fixes, usually at least once a month. Each month, a cumulative update is released which supersedes all previous updates. This helps to ensure that organizations’ devices more closely align to those used for testing at Microsoft.<br>
+ -  **Quality updates**. Provide reliability and security updates and fixes, usually at least once a month. Each month, a cumulative update is released which supersedes all previous updates. This helps to ensure that organizations’ devices more closely align to those used for testing at Microsoft.
  -  **Feature updates**. Adds new functionality annually. Microsoft aims to package new features into annual updates that can be readily deployed using existing management tools. Because the updates are delivered using the same method as quality updates, deployment is considerably easier. Consequently, the workload and cost effect on organizations is reduced. OS upgrades are also now delivered through this method, such as upgrading from Windows 10 to Windows 11.
 
 In addition to feature and quality updates, Windows update continues to provide the following update types:
@@ -82,8 +82,7 @@ Below is an example of deployment rings you might create:
     7-14 days
   :::column-end:::
   :::column:::
-    Use this ring to deploy to most of your users’ devices. Use the deferment period to thoroughly test the updates before further deployment.> [!NOTE]
-> You can pause updates if you encounter significant problems or issues.
+    Use this ring to deploy to most of your users’ devices. Use the deferment period to thoroughly test the updates before further deployment. Note that you can pause updates if you encounter significant problems or issues.
   :::column-end:::
 :::row-end:::
 :::row:::
