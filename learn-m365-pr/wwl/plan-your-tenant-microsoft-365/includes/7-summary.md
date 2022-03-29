@@ -2,4 +2,4 @@ This module examined the key features that organizations must consider when plan
 
 This module reviewed the tasks that organizations must complete after ensuring their network is optimized for access to Microsoft 365 for both on-premises and remote workers. These tasks include planning for and then configuring your Microsoft 365 tenant for DNS domain names, common services, and for that identity infrastructure that supports secure user sign-in. To get your tenant ready for user, groups, licenses, and cloud apps, it's critical to carefully plan and execute your tenant configuration.
 
-In this module, you examined the key areas that organizations must plan for to create their Microsoft 365 tenant. These areas included subscription options, tenant components, and the overall migration process.
+In this module, you examined the key areas that organizations must plan for in order to create their Microsoft 365 tenant. These areas included subscription options, tenant components, and the overall migration process.
