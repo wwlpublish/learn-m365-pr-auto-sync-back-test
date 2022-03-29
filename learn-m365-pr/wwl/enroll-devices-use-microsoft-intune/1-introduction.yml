@@ -1,16 +1,16 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.introduction
+uid: learn.wwl.enroll-devices-use-microsoft-intune.introduction
 title: Introduction
 metadata:
   title: Introduction
   description: "Introduction"
   ms.date: 03/29/2022
   author: wwlpublish
-  ms.author: tfrink
+  ms.author: brhinkel
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
 labModal: false
-durationInMinutes: 2
+durationInMinutes: 1
 content: |
   [!include[](includes/1-introduction.md)]
