@@ -35,7 +35,7 @@ Windows Registry Editor Version 5.00
 > [!NOTE]
 > This particular .reg file edits the Start value stored in the *HKEY\\\_LOCAL\\\_MACHINE\\\\SYSTEM\\\\ControlSet001\\\\services\\\\atapi* path, and assigns it the *DWORD* value of 1.
 
-After you have created the .reg file, you can import the when you:
+After you have created the .reg file, you can import the .reg file when you:
 
  -  Double-click the file and confirm that you want to continue.
  -  Run a script that loads the file. The following command imports the settings stored in setting1.reg without prompting the user to confirm:

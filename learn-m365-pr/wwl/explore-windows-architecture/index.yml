@@ -3,7 +3,7 @@ uid: learn.wwl.explore-windows-architecture
 metadata:
   title: Explore Windows architecture
   description: "This module provides information about the operating system’s architecture and supported devices. It also describes the desktop support environment and troubleshooting terminology."
-  ms.date: 03/22/2022
+  ms.date: 03/29/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
