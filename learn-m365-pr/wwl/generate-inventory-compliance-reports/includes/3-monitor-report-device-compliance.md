@@ -7,7 +7,7 @@ Use the following steps to view the Device Compliance Summary report:
 1.  Sign in to the **Microsoft Endpoint Manager admin center**.
 2.  Select **Reports** &gt; **Device Compliance** to view the reports summary.
 
-:::image type="content" source="../media/intune-reports-compliance-summary-d675b4ee.png" alt-text="Screenshot of the Conditional access screen in Intune, showing the summary page of compliant and noncompliant devices..":::
+:::image type="content" source="../media/intune-reports-compliance-summary-d675b4ee.png" alt-text="Screenshot of the Conditional access screen in Intune, showing the summary page of compliant and noncompliant devices.":::
 
 
 ### Device compliance report

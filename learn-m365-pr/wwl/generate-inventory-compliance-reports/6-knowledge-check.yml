@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/25/2022
+  ms.date: 03/29/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -28,7 +28,7 @@ quiz:
     - content: "Microsoft Graph Explorer"
       isCorrect: false
       explanation: "Incorrect. Microsoft Graph Explorer lets you make requests and receive responses against the Microsoft Graph. Doing so should make it easier to find out how you would build your queries against Graph for Intune. Try again."
-  - content: "As the Desktop Admnistrator for Fabrikam, Holly Spencer wants to build professional looking reports that provide insight into the company's enterprise mobile environment. Holly wants to access historical Intune data, data that's refreshed on a daily cadence, and a data model that uses the OData standard. What tool should Holly use that provides this advanced level of information?"
+  - content: "As the Desktop Administrator for Fabrikam, Holly Spencer wants to build professional looking reports that provide insight into the company's enterprise mobile environment. Holly wants to access historical Intune data, data that's refreshed on a daily cadence, and a data model that uses the OData standard. What tool should Holly use that provides this advanced level of information?"
     choices:
     - content: "Endpoint Manager"
       isCorrect: false
