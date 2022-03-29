@@ -3,7 +3,7 @@ uid: learn.wwl.deploy-use-endpoint-configuration-manager
 metadata:
   title: Deploy using Endpoint Configuration Manager
   description: "This module explains the common day to day tasks that Administrators would use Configuration Manager to perform."
-  ms.date: 03/24/2022
+  ms.date: 03/29/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -20,6 +20,7 @@ prerequisites: |
   - Strong understanding of computer networking, client security, and application concepts
   - Experience using Active Directory Domain Services
 iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
 levels:
 - intermediate
 roles:

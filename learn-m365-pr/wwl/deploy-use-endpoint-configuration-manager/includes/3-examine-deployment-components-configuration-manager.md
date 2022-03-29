@@ -10,7 +10,7 @@ The default boot images are updated or regenerated depending on the action that 
  -  Make sure that the boot image contains the network and storage drivers that are required to provision the destination computer.
  -  Insure you included all the required applications.
 
-The Windows ADK is required as part of the prerequisites to setup a Configuration Manager hierarchy. Windows ADK loads a set of boot images based on a specific version of Windows. These images evolve as Windows does and follows a support matrix in relation to Configuration Manager site server support.
+The Windows ADK is required as part of the prerequisites to set up a Configuration Manager hierarchy. Windows ADK loads a set of boot images based on a specific version of Windows. These images evolve as Windows does and follows a support matrix in relation to Configuration Manager site server support.
 
 Starting with Configuration Manager 2006 and beyond, boot images have cloud capability that expands options for modern deployment; however, with the introduction of Autopilot and the use of OEM images from a vendor, the requirement to start devices from a boot image has less relevance.
 
