@@ -6,7 +6,8 @@
 
 There are other tools you could use too such as Microsoft System Center Operations Manager to track CPU, RAM, and get alerts on specific events.
 
-![the on-premises management option](../media/on-premises-option.png)
+> [!div class="centered"]
+> :::image type="content" source="../media/on-premises-option.png" alt-text="Infographic that shows the on-premises management options including: Active Directory, Exchange, Skype for Business, Configuration manager, X M L configuration file, and PowerShell." border="false":::
 
 **The hybrid management option**. If you're in a hybrid environment, you could use all the on-premises tools along with management options provided by Microsoft 365.  In a hybrid configuration, you could use Intune and Azure Active Directory (Azure AD) which provide additional management options for Teams Rooms.
 
