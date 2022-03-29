@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-edge-browser.implement-internet-explorer-mode
+title: Implement Internet Explorer mode
+metadata:
+  title: Implement Internet Explorer mode
+  description: "Implement Internet Explorer mode"
+  ms.date: 03/22/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/6-implement-internet-explorer-mode.md)]
