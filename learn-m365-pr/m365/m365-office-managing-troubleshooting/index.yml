@@ -29,6 +29,7 @@ products:
 - office-365
 - windows
 - windows-19044
+- windows-10
 units:
 - learn-m365-office.m365-managing-troubleshooting-office.intro-managing-troubleshooting
 - learn-m365-office.m365-managing-troubleshooting-office.understand-update-management-options
