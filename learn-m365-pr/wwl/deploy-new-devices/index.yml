@@ -3,7 +3,7 @@ uid: learn.wwl.deploy-new-devices
 metadata:
   title: Deploy new devices
   description: "Use Autopilot to deploy new hardware or refreshing an existing hardware with the organization’s desired configuration, without using the traditional imaging process."
-  ms.date: 03/24/2022
+  ms.date: 03/29/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial

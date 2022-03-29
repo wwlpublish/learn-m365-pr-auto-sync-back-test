@@ -90,6 +90,6 @@ Error code 80180018 will typically be reported on an error page titled "Somethin
 
 ### Troubleshoot Device Import
 
-When importing a device CSV file, if nothing happens and a *'400' error appears in network trace with error body "Cannot convert the literal '\[DEVICEHASH\]' to the expected type 'Edm.Binary* error appears, the device hash within the file is either corrupted or the hash may not be properly padded in the file. This may require a minor edit to the file.
+When importing a device CSV file, if nothing happens and a *'400' error appears in network trace with error body "Cannot convert the literal '\[DEVICEHASH\]' to the expected type 'Edm.Binary'* error appears, the device hash within the file is either corrupted or the hash may not be properly padded in the file. This may require a minor edit to the file.
 
 For more information, see [Troubleshooting Windows Autopilot (level100/200)](https://aka.ms/AA6d57a) and [Troubleshooting Windows Autopilot](https://aka.ms/AA80h34).

@@ -15,7 +15,7 @@ Windows Autopilot is cloud-driven and based around Azure AD Premium and Microsof
  -  Restrict the creation of the Administrator account.
  -  Customize the OOBE content specifically to your organization.
 
-### New Devices
+### New devices
 
 Most organizations purchase new devices from an Original Equipment Manufacturer (OEM). In this process, the device will typically be purchased with an OEM license of Windows 10 or Windows 11 (usually Pro edition) and this will be pre-installed on the device when it's shipped to the customer. The OEM image is rarely desired, and until Windows 10, re-imaging the device was the most efficient method of configuring the device to organizational requirements.
 
@@ -23,7 +23,7 @@ It is no longer necessary to re-image the device when the device already has Win
 
 From the user's perspective, powering on the device provides an OOBE, with the organization deciding which options remain user-configurable, including the ability to deliver a zero-touch installation (ZTI) experience where the device is ready to use after simply plugging it in and turning it on.
 
-### Refresh Existing Devices
+### Refresh existing devices
 
 Over time, scenarios arise where it may be beneficial to refresh the device. Performance can be affected more apps are installed over time or possibly issues can appear that are intermittent or cannot be easily solved. IT might elect to perform a wipe-and-load, and as with new deployments, Autopilot can be used in place of traditional methods. Similarly, if a device is re-assigned to another user, Autopilot can be used to reset the device, with a new OOBE as if the device was wiped and re-imaged.
 

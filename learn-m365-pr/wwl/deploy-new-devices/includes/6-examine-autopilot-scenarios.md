@@ -28,7 +28,7 @@ User-driven mode is also supported for hybrid Azure Active Directory join. In ad
  -  The device must be able to access the internet and an Active Directory domain controller.
  -  The Intune Connector for Active Directory must be installed (this performs the on-prem AD join instead of requiring user permission to join).
 
-### Self-Deploying Mode
+### Self-deploying mode
 
 Windows Autopilot self-deploying mode enables a device to be deployed with little to no user interaction, achieving a ZTI experience with all OOBE prompts pre-configured. The enrollment status page will display while the device is being configured, and then the computer will either complete and display the sign-in screen, ready for Azure AD credentials. If the device is configured as a kiosk device, it will automatically sign in by using a locally configured account.
 
@@ -40,7 +40,7 @@ To perform a self-deploying mode deployment using Windows Autopilot:
 
 Some interaction may be required under certain circumstances. If only wireless connectivity is available, the wireless network must be selected. If multiple languages are pre-installed, a language must be selected.
 
-### Autopilot for Existing Devices
+### Autopilot for existing devices
 
 As discussed previously, the Autopilot process requires that the device have Windows 10 or Windows 11 installed. This feature allows you to re-image and provision a 8.1 device for Windows Autopilot user-driven mode using a single, native Configuration Manager task sequence. This process allows a device that was traditionally managed with images to transition to device using modern methods.
 
