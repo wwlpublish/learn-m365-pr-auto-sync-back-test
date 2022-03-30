@@ -3,7 +3,7 @@ uid: learn.wwl.explore-endpoint-analytics
 metadata:
   title: Explore Endpoint Analytics
   description: "Use Endpoint analytics to help identify policies or hardware issues that ultimately create a poor user experience, and help remediate those issues."
-  ms.date: 03/29/2022
+  ms.date: 03/30/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial

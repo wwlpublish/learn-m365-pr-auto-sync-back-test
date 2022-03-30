@@ -39,7 +39,7 @@ Frequent restarts can be just as impactful to the user experience since a device
 
 In the device performance tab, two default columns have been added so you can review the total number of restarts and the number of Stop errors (blue screen errors) each device had in the last 14 days. Sort by these columns to find problematic devices. You can also use this tab to review the total number of devices that have sent restart records. For example, the screenshot below has 31 records, meaning 31 devices have sent restart data.
 
-:::image type="content" source="../media/device-performance-tab-b453eaa3.png" alt-text="Device performance tab under Startup Performance.":::
+:::image type="content" source="../media/device-performance-tab-b453eaa3.png" alt-text="Device performance tab under Startup Performance." lightbox="../media/device-performance-tab-b453eaa3.png":::
 
 
 ### Model performance tab

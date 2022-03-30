@@ -1,6 +1,6 @@
 The application reliability report provides insight into potential issues for desktop applications on managed devices. You can quickly identify the top applications that are impacting end-user productivity, and see aggregate app usage along with app failure metrics for these applications. From the report, drill into specific device data and view a timeline of app reliability events to troubleshoot end-user impacting issues.
 
-:::image type="content" source="../media/5659073-application-reliability-1a0652d7.png" alt-text="Application reliability report in endpoint analytics.":::
+:::image type="content" source="../media/5659073-application-reliability-1a0652d7.png" alt-text="Application reliability report in endpoint analytics." lightbox="../media/5659073-application-reliability-1a0652d7.png":::
 
 
 ### App reliability score
@@ -19,7 +19,7 @@ The App performance tab uses data from the past 14 days to show reliability insi
  -  Foreground applications with a measurable amount of usage in your organization. This ensures that the report is focused on end-user impacting issues.
  -  Applications with either an active device count that's greater than five, or a count greater than 2% of the total number of your tenant's enrolled devices, whichever is larger. This helps filter out noise and ensures that calculations are made across a sufficient number of devices to be meaningful.
 
-:::image type="content" source="../media/5659073-app-performance-tab-1fa64dbc.png" alt-text="Application performance tab in endpoint analytics":::
+:::image type="content" source="../media/5659073-app-performance-tab-1fa64dbc.png" alt-text="Application performance tab in endpoint analytics" lightbox="../media/5659073-app-performance-tab-1fa64dbc.png":::
 
 
 For each application in the report, the following data is provided:
@@ -46,7 +46,7 @@ Selecting an app name in the table from App performance opens App performance de
  -  **App versions**. This tab allows you to compare the number of *App crashes* and number of unique *Devices with crashes* across different versions of the application over the past 14 days. This information can be useful in determining which version of an application is the most reliable. The information can assist with troubleshooting a potential issue with certain versions of an application. You may also find these insights valuable when deciding which version of an application to deploy, whether to install an update or roll back an update.
  -  **OS versions**. This tab compares the *Mean time to failure* for the application across different versions of Windows. This information can be helpful for identifying potential correlations between OS version and application issues.
 
-:::image type="content" source="../media/5659073-app-performance-details-8a788610.png" alt-text="Application performance details in endpoint analytics":::
+:::image type="content" source="../media/5659073-app-performance-details-8a788610.png" alt-text="Application performance details in endpoint analytics" lightbox="../media/5659073-app-performance-details-8a788610.png":::
 
 
 ### Device performance
