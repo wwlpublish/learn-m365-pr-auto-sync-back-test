@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-create-customize-answers.acronyms
+title: Create acronym answers
+metadata:
+  title: Create acronym answers
+  description: Get an overview of acronym answers, how to add or exclude acronyms, and learn about system-curated acronyms.
+  ms.date: 03/30/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/acronyms.md)]
