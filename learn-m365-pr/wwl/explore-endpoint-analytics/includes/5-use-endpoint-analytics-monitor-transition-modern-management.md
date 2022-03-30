@@ -40,7 +40,7 @@ The Cloud management metric measures the percent of PCs that have attached to th
 
 Cloud identity provides users with many productivity benefits including device-wide single sign-on to apps and services, Windows Hello sign-in, self-service BitLocker recovery, and corporate data roaming. The Cloud identity metric measures the percent of devices enrolled in Azure Active Directory (AD) or hybrid Azure AD.
 
-:::image type="content" source="../media/8668496-cloud-identity-f4c76cc4.png" alt-text="Screenshot of the Cloud identity fly out showing insights for the metric" ligthbox="../media/8668496-cloud-identity-f4c76cc4.png":::
+:::image type="content" source="../media/8668496-cloud-identity-f4c76cc4.png" alt-text="Screenshot of the Cloud identity fly out showing insights for the metric" lightbox="../media/8668496-cloud-identity-f4c76cc4.png":::
 
 
 #### Cloud provisioning
