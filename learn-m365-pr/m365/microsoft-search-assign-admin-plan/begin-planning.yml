@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-assign-admin-plan.begin-planning
+title: Begin content planning
+metadata:
+  title: Begin content planning
+  description: As you plan your Microsoft Search implementation, review a suggested list of sites and pages you should include. 
+  ms.date: 01/12/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/begin-planning.md)]

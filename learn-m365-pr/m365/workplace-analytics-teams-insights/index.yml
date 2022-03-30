@@ -33,6 +33,8 @@ products:
 - m365-workplace-analytics
 - office-teams
 - power-bi
+- viva
+- viva-insights
 units:
 - learn-m365.workplace-analytics-teams-insights.introduction
 - learn-m365.workplace-analytics-teams-insights.setup
