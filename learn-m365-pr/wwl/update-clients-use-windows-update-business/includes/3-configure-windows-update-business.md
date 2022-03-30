@@ -33,7 +33,7 @@ Using Intune, you can configure the following settings:
 To configure these settings, use the following procedure:
 
 1.  Sign in to the **Microsoft Endpoint Manager admin center**.
-2.  Select **Devices** &gt; **Windows** &gt; **Windows 10 and later Update Rings** &gt; **Create**.
+2.  Select **Devices** > **Windows** > **Windows 10 and later Update Rings** > **Create**.
 3.  Under Basics tab, specify a name and description (optional).
 4.  Under Update ring settings, configure settings for your business needs. Configure the following settings:
     
@@ -42,7 +42,7 @@ To configure these settings, use the following procedure:
      -  Automatic update behavior and frequency
      -  Automatic behavior frequency
      -  Restart checks
-     -  Quality &amp; Feature update deferral period (days)
+     -  Quality & Feature update deferral period (days)
      -  Delivery optimization download mode
 5.  Once you've defined your ring settings, continue by assigning the ring to users and/or groups and create the profile.
 

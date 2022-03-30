@@ -17,7 +17,7 @@ Delivery Optimization works in conjunction with Windows Update, Windows Update f
 To set up Delivery Optimization in Intune, configure Delivery Optimization as part of your device configuration profiles. After you create a profile, you then assign or deploy that profile to your Windows devices.
 
 1.  Sign in to the **Microsoft Endpoint Manager admin center**.
-2.  Select **Devices** &gt; **Configuration profiles** &gt; **Create profile**.
+2.  Select **Devices** > **Configuration profiles** > **Create profile**.
 3.  Enter the following properties:
     
      -  Platform: Select **Windows 10 and later**.
