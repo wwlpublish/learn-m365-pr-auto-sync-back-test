@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-windows-startup.use-reset-this-pc-feature
+title: Use the Reset This PC feature
+metadata:
+  title: Use the Reset This PC feature
+  description: "Use the Reset This PC feature"
+  ms.date: 03/29/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/6-use-reset-personal-computer-feature.md)]
