@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.configure-client-aconnectivity-to-microsoft-365.introduction
+uid: learn.wwl.protect-identities-azure-ad.introduction
 title: Introduction
 metadata:
   title: Introduction
   description: "Introduction"
   ms.date: 03/30/2022
   author: wwlpublish
-  ms.author: tfrink
+  ms.author: brhinkel
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
