@@ -8,6 +8,10 @@ metadata:
   ms.author: rogerman
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - rogerman-04162021
 title: Download and upload files in a JavaScript app with Microsoft Graph
 summary: Learn how to list, download, and upload a user's files from a single-page application by using Microsoft Graph.
 abstract: |
