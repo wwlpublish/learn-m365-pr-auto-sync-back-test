@@ -30,6 +30,8 @@ products:
 - m365
 - office-teams
 - office-sp
+- sharepoint-online
+- m365-admin-center
 units:
 - learn-m365.m365-teams-sharepoint-manage-sites.introduction
 - learn-m365.m365-teams-sharepoint-manage-sites.sharepoint-admin-center

@@ -25,6 +25,8 @@ products:
 - windows
 - office-365
 - windows-19044
+- windows-10
+- m365-apps-admin-center
 units:
 - learn-m365.get-modern-security-compliance.1-introduction
 - learn-m365.get-modern-security-compliance.2-new-m365-capabilities

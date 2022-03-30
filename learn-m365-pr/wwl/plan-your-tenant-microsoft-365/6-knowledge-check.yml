@@ -4,12 +4,13 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/29/2021
+  ms.date: 03/29/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/6-knowledge-check.md)]
@@ -20,21 +21,21 @@ quiz:
     choices:
     - content: "Inventory the current environment in the organization"
       isCorrect: false
-      explanation: "That's incorrect. This action is the second step in the overall process for creating a tenant account for Microsoft 365. Try again."
-    - content: "Decide which Microsoft 365 plans meet your organization’s requirements"
+      explanation: "Incorrect. This action is the second step in the overall process for creating a tenant account for Microsoft 365. Try again."
+    - content: "Decide which Microsoft 365 plan(s) meet your organization’s requirements"
       isCorrect: true
-      explanation: "That's correct. The first step in the overall process for creating a tenant account for Microsoft 365 is deciding which Microsoft 365 plans meet your organization’s requirements."
+      explanation: "Correct. The first step in the overall process for creating a tenant account for Microsoft 365 is deciding which Microsoft 365 plans meet your organization’s requirements."
     - content: "Fix potential deployment blockers and clean up your organization"
       isCorrect: false
-      explanation: "That's incorrect. This action is the fourth step in the overall process for creating a tenant account for Microsoft 365. Try again."
+      explanation: "Incorrect. This action is the fourth step in the overall process for creating a tenant account for Microsoft 365. Try again."
   - content: "You're the Enterprise Administrator for Contoso, which is planning to migrate to Microsoft 365. They've narrowed down the Microsoft 365 plan to the business plans that take advantage of support for unlimited users. The company has also identified the following requirements: the ability to install Office 2019 apps on Mac computers, the ability to install Office on smartphones and tablets, and support for business-class email. You have been asked to identify the Microsoft 365 plan that meets these requirements while minimizing the total cost. Which plan should you use?"
     choices:
     - content: "Office 365 E3"
       isCorrect: false
-      explanation: "That's incorrect. You can't install Office 2019 apps locally using this plan, whether it's on a Mac or Windows computer. Try again."
+      explanation: "Incorrect. You can't install Office 2019 apps locally using this plan, whether it's on a Mac or Windows computer. Try again."
     - content: "Office 365 F3"
       isCorrect: false
-      explanation: "That's incorrect. You can't install Office 2019 apps locally using this plan, whether it's on a Mac or Windows computer. Try again."
+      explanation: "Incorrect. You can't install Office 2019 apps locally using this plan, whether it's on a Mac or Windows computer. Try again."
     - content: "Microsoft 365 Apps for enterprise"
       isCorrect: true
-      explanation: "That's correct. You can only install Office 2019 apps locally using the Microsoft 365 Apps for enterprise plan. It doesn't matter whether it's a Mac or Windows computer."
+      explanation: "Correct. You can only install Office 2019 apps locally using the Microsoft 365 Apps for enterprise plan. It doesn't matter whether it's a Mac or Windows computer."

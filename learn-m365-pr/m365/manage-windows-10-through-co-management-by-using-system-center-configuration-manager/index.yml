@@ -25,6 +25,7 @@ roles:
 products:
 - m365
 - windows-19044
+- windows-10
 units:
 - learn-m365-pr.manage-windows-10-through-co-management-by-using-system-center-configuration-manager.1-what-is-co-management
 - learn-m365-pr.manage-windows-10-through-co-management-by-using-system-center-configuration-manager.2-planning-and-configuration-for-co-management

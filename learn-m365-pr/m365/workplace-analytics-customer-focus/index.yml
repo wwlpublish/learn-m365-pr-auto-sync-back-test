@@ -31,6 +31,8 @@ roles:
 products:
 - m365
 - m365-workplace-analytics
+- viva
+- viva-insights
 units:
 - learn-m365.workplace-analytics-customer-focus.introduction
 - learn-m365.workplace-analytics-customer-focus.why-user-focus
