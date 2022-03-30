@@ -26,6 +26,7 @@ products:
 - m365
 - office-365
 - m365-threat-protection
+- defender-office365
 units:
 - learn-m365.m365-security-management-mail.introduction
 - learn-m365.m365-security-management-mail.atp-policy-examples

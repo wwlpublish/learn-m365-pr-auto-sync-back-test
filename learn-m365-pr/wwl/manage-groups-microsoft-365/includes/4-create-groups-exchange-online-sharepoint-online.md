@@ -2,13 +2,13 @@ An organization can create groups not only in the Microsoft 365 admin center, bu
 
 ### Creating groups in Exchange Online
 
-An organization can use the Exchange Online admin center to create groups of users so that it can send email to all the users in a group at the same time. When creating a group in Exchange Online, the appropriate group type must be selected depending on the purpose of the group:
+An organization can use the Exchange Online admin center to create groups of users. A major benefit of using groups is that you send an email to all the users in a group at the same time. When you create a group in Exchange Online, the appropriate group type must be selected depending on the purpose of the group:
 
  -  **Distribution group.** Used to distribute messages to a group of users. It's also called a mail-enabled distribution group, or, in Microsoft 365, a distribution group. For more information, see [Manage distribution groups](https://technet.microsoft.com/library/bb124513.aspx?azure-portal=true).
  -  **Security group.** Can be used to distribute messages to a group of users, or to grant access permissions to resources. This group is also called a mail-enabled security group. For more information, see [Manage mail-enabled security groups](https://technet.microsoft.com/library/bb123521.aspx?azure-portal=true).
  -  **Dynamic distribution group.** A type of distribution group whose list of recipients is recalculated every time a message is sent based on filters and conditions the organization defines. For more information, see [Manage dynamic distribution groups](https://technet.microsoft.com/library/bb123722.aspx?azure-portal=true).
 
-After you create distribution groups and mail-enabled security groups in the Exchange admin center, their names and user lists appear on the Microsoft 365 Security groups page (select the **Filter** option on the **Active groups** page and then select **Security groups** in the list of group types you wish to filter on). These groups can be deleted in both locations, but they can only be edited in the Exchange admin center. Dynamic distribution groups don't appear on the Microsoft 365 Security groups page.
+After you create distribution groups and mail-enabled security groups in the Exchange admin center, their names and user lists appear on the Microsoft 365 Security groups page. These groups can be deleted in both locations. However, they can only be edited in the Exchange admin center. Dynamic distribution groups don't appear on the Microsoft 365 Security groups page.
 
 ### Creating groups in SharePoint Online
 

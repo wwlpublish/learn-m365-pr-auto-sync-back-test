@@ -90,7 +90,7 @@ For more information, see [Enable Windows 10 automatic enrollment](/mem/intune/e
 
 ## Windows 10 or Windows 11
 
-To enable co-management, end users must upgrade their devices to a supported version of Windows 10 or Windows 11. For more information, see [Adopting Windows as a service](/windows/deployment/update/waas-overview).
+To enable co-management, end users must upgrade their devices to a supported version of Windows 10 or Windows 11. For more information, see [Adopting Windows as a service](/mem/configmgr/core/understand/configuration-manager-and-windows-as-service).
 
 ## Permissions and roles
 

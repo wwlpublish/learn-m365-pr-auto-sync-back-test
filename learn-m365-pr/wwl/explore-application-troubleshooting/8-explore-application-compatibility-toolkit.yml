@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-application-troubleshooting.explore-application-compatibility-toolkit
+title: Explore the Application Compatibility Toolkit
+metadata:
+  title: Explore the Application Compatibility Toolkit
+  description: "Explore the Application Compatibility Toolkit"
+  ms.date: 03/30/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/8-explore-application-compatibility-toolkit.md)]
