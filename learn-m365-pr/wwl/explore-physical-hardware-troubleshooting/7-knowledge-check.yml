@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-physical-hardware-troubleshooting.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/29/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Desktop Administrator for Northwind Traders, Patti Fernandez is troubleshooting issues with a user's laptop. As part of her initial troubleshooting, Patti reviewed device-related events in Event Viewer. As a best practice, what's the second step that Patti should complete during this initial troubleshooting?"
+    choices:
+    - content: "Upgrade the computer’s BIOS or firmware"
+      isCorrect: false
+      explanation: "Incorrect. While this is a common troubleshooting step, it's not one of the best practices when performing initial troubleshooting. Try again."
+    - content: "Check for device conflicts in Device Manager"
+      isCorrect: true
+      explanation: "Correct. When performing initial troubleshooting, you should review device related events in Event Viewer and check for device conflicts in Device Manager."
+    - content: "Verify hardware compatibility"
+      isCorrect: false
+      explanation: "Incorrect. While this is a common troubleshooting step, it's not one of the best practices when performing initial troubleshooting. Try again."
+  - content: "Which Windows tool is typically the starting point for troubleshooting hardware failures?"
+    choices:
+    - content: "Event Viewer"
+      isCorrect: true
+      explanation: "Correct. The Event Viewer tool is the starting point for troubleshooting hardware failures. You should check the system and application logs for information, warnings, or errors that hardware devices or device drivers generate. Use the Event Viewer tool to show logs on remote computers and on the local machine."
+    - content: "System Information tool"
+      isCorrect: false
+      explanation: "Incorrect. While this tool displays information about a computer, including reports on installed hardware, there's another tool that's usually the starting point for troubleshooting hardware failures. Try again."
+    - content: "Device Manager"
+      isCorrect: false
+      explanation: "Incorrect. While this tool displays information about the hardware installed on a computer, including hardware resource settings, device details, and driver information, there's another tool that's usually the starting point for troubleshooting hardware failures. Try again."
+  - content: "You're troubleshooting a problem with a peripheral wireless device. The problem doesn't appear to be with the actual device itself. When this situation occurs, what is often the source of the problem?"
+    choices:
+    - content: "The peripheral device didn't provide a passcode to exchange with the computer"
+      isCorrect: false
+      explanation: "Incorrect. While this can be an issue when pairing a peripheral with a computer, there's a more common issue that devices encounter. Try again."
+    - content: "The device driver is outdated or corrupt"
+      isCorrect: false
+      explanation: "Incorrect. While this can be an issue, there's a more common issue that devices encounter. Try again."
+    - content: "The problem is related to wireless connectivity"
+      isCorrect: true
+      explanation: "Correct. When you're troubleshooting wireless devices, problems that devices encounter are often due to wireless connectivity rather than with the actual devices. For example, many laptop computers allow users to disable the Wi-Fi and Bluetooth ports, primarily to conserve battery power. However, you must ensure that you enable all ports. Furthermore, for Bluetooth, you should ensure that you configure all ports to be discoverable during the process of pairing the device with the user’s computer."
+  - content: "As the Desktop Administrator for Tailspin Toys, Alan Deyoung wants to identify hardware-failure trends so that he can be more proactive when managing devices. This will enable him to identify devices that suffer periodic failures, and replace them before they fail irreversibly. Which Windows tool should Alan use to gather this information?"
+    choices:
+    - content: "Device Manager"
+      isCorrect: false
+      explanation: "Incorrect. Device Manager displays information about the hardware installed on a computer, including hardware resource settings, device details, and driver information. Try again."
+    - content: "Reliability Monitor"
+      isCorrect: true
+      explanation: "Correct. The Reliability Monitor displays Windows reliability over time and any hardware failures that have occurred. You can use the Reliability Monitor to identify hardware-failure trends so that you can be more proactive in your administration. This can help you identify devices that suffer periodic failures, and replace them before they fail irreversibly."
+    - content: "The System Information tool"
+      isCorrect: false
+      explanation: "Incorrect. The System Information tool displays information about a computer, including reports on installed hardware. Try again."
+  - content: "As the Desktop Administrator for Fabrikam, Holly Spencer installed a SCSI hard disk drive to one of the company's laptops. Windows selected a generic SCSI driver for the disk drive, but this resulted in limited device functionality and slower read/write performance. Why would Windows have selected a generic SCSI driver for the disk drive?"
+    choices:
+    - content: "Because the disk drive included more than one logical device"
+      isCorrect: false
+      explanation: "Incorrect. Hard disk drives are not multifunction devices that have more than one logical device. Try again."
+    - content: "Windows used a compatible identifier to select the device driver"
+      isCorrect: true
+      explanation: "Correct. Windows uses compatible identifiers to select a device driver only if the driver store has no available drivers for any of the hardware identifiers that Windows retrieves from the device. These strings are optional, and Windows lists them in decreasing order of suitability if the hardware manufacturer provides them. Typically, the strings are generic and identify the hardware device at the component level, such as a Small Computer System Interface (SCSI) hard disk drive. This enables Windows to select a generic SCSI driver for the disk drive, but may result in limited device functionality and slower read/write performance."
+    - content: "Because Fabrikam didn't allow or deny all hardware identifiers for the disk drive"
+      isCorrect: false
+      explanation: "Incorrect. Hard disk drives are not a multifunction device that have more than one hardware identifier that must be allowed or denied. Try again."

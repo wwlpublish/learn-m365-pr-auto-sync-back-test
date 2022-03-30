@@ -1,0 +1,50 @@
+### YamlMime:Module
+uid: learn.wwl.troubleshoot-windows-startup
+metadata:
+  title: Troubleshoot Windows startup
+  description: "This module examines the Windows startup architecture and discusses the methods used to troubleshoot client startup issues."
+  ms.date: 03/29/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot Windows startup
+summary: This module examines the Windows startup architecture and discusses the methods used to troubleshoot client startup issues.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe the Windows startup architecture.
+  - Explain the repair and recovery options available in Windows.
+  - Describe the available advanced startup recovery tools.
+  - Explore the advanced startup environment.
+  - Describe the System Restore process in Windows.
+  - Access the Windows System Restore tool to fix the startup environment.
+  - Describe volume activation considerations.
+  - Describe the role of the BCD store.
+  - Describe BCD configuration settings.
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.troubleshoot-windows-startup.introduction
+- learn.wwl.troubleshoot-windows-startup.explore-windows-client-startup-architecture
+- learn.wwl.troubleshoot-windows-startup.compare-device-recovery-procedures
+- learn.wwl.troubleshoot-windows-startup.use-windows-recovery-environment
+- learn.wwl.troubleshoot-windows-startup.explore-advanced-startup-options
+- learn.wwl.troubleshoot-windows-startup.use-reset-this-pc-feature
+- learn.wwl.troubleshoot-windows-startup.examine-system-restore-feature
+- learn.wwl.troubleshoot-windows-startup.explore-additional-recovery-tools-windows-recovery-environment
+- learn.wwl.troubleshoot-windows-startup.explore-windows-client-boot-configuration-data-store
+- learn.wwl.troubleshoot-windows-startup.configure-bcd-settings
+- learn.wwl.troubleshoot-windows-startup.knowledge-check
+- learn.wwl.troubleshoot-windows-startup.summary
+badge:
+  uid: learn.wwl.troubleshoot-windows-startup.badge
