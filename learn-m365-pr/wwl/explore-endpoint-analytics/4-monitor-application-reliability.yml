@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-endpoint-analytics.monitor-application-reliability
+title: Monitor application reliability
+metadata:
+  title: Monitor application reliability
+  description: "Monitor application reliability"
+  ms.date: 03/30/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-monitor-application-reliability.md)]
