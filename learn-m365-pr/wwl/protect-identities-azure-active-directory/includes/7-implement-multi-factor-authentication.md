@@ -11,7 +11,7 @@ Azure Active Directory Multi-Factor Authentication helps safeguard access to dat
 
 Multi-factor authentication comes as part of the following offerings:
 
- -  Azure Active Directory Premium licenses - Full featured use of Azure Multi-Factor Authentication Service (Cloud) or Azure Multi-Factor Authentication Server (On-premises).
+ -  Azure Active Directory Premium licenses - Full featured use of Azure Active Directory Multi-Factor Authentication (Cloud) or Azure Active Directory Multi-Factor Authentication Server (On-premises).
     
      -  Azure Active Directory Multi-Factor Authentication Service (Cloud) - This option is the recommended path for new deployments. Azure Active Directory Multi-Factor Authentication in the cloud requires no on-premises infrastructure and can be used with your federated or cloud-only users.
      -  Azure Active Directory Multi-Factor Authentication Server - If your organization wants to manage the associated infrastructure elements and has deployed AD FS in your on-premises environment this way may be an option.
@@ -21,7 +21,7 @@ Multi-factor authentication comes as part of the following offerings:
 :::image type="content" source="../media/azure-verify-identity-9a3ddc3b.png" alt-text="Authentication methods in use at the sign-in screen.":::
 
 
- -  If you have Azure AD Premium or Enterprise Mobility + Security licenses, you already have Azure MFA. Your organization doesn't need anything additional to extend the two-step verification capability to all users. You only need to assign a license to a user, and then you can turn on MFA.
+ -  If you have Azure AD Premium or Enterprise Mobility + Security licenses, you already have Azure Active Directory Multi-Factor Authentication . Your organization doesn't need anything additional to extend the two-step verification capability to all users. You only need to assign a license to a user, and then you can turn on MFA.
  -  When setting up MFA, consider the following tips:
     
      -  Don't create a per-authentication Multi-Factor Auth Provider. If you do, you could end up paying for verification requests from users that already have licenses.
@@ -34,9 +34,9 @@ Multi-factor authentication comes as part of the following offerings:
 2.  Go to **Azure Active Directory** &gt; **Users and groups** &gt; **All users**.
 3.  Select **Multi-Factor Authentication**.
 4.  A new page that displays the user states appears.
-5.  Find the user you want to enable for Azure MFA. You might need to change the view at the top.
+5.  Find the user you want to enable for Azure Active Directory Multi-Factor Authentication. You might need to change the view at the top.
 6.  Select the checkbox for each user’s name.
 7.  On the right, under Quick Steps, select **Enable** or **Disable**.
 8.  Confirm your selection in the pop-up window that appears.
 
-After you enable users, notify them via email. Tell them that they'll be asked to register the next time they sign in. Also, if your organization uses non-browser apps that don't support modern authentication, they need to create app passwords. You can also include a link to the Azure MFA end-user guide to help them get started.
+After you enable users, notify them via email. Tell them that they'll be asked to register the next time they sign in. Also, if your organization uses non-browser apps that don't support modern authentication, they need to create app passwords. You can also include a link to the Azure Active Directory Multi-Factor Authentication end-user guide to help them get started.
