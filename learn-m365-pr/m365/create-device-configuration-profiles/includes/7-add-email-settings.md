@@ -1,4 +1,4 @@
-Microsoft Intune includes different email settings you can deploy to devices in your organization. Most platforms have a native or built-in email app on the device. Using Intune, configure the built-in email app to connect to Microsoft Exchange. End users then connect, authenticate, and synchronize their organizational email accounts on their mobile devices. By creating and deploying an email profile, you can confirm settings are standard across many devices. By configuring standard settings, you can help reduce support calls from end users who don't know the correct email settings.
+Microsoft Intune includes different email settings you can deploy to devices in your organization. Most platforms have a native or built-in email app on the device. Using Intune, you can configure the built-in email app to connect to Microsoft Exchange. End users then connect, authenticate, and synchronize their organizational email accounts on their mobile devices. By creating and deploying an email configuration profile, you can confirm settings are standard across many devices in your organization. By configuring standard settings, you can help reduce support calls from end users who don't know the correct email settings.
 
 You can use email profiles to configure the built-in email settings for the following devices:
 - Android device administrator on Samsung Knox Standard 5.0 and newer
@@ -8,7 +8,7 @@ You can use email profiles to configure the built-in email settings for the foll
 - Windows 11
 - Windows 10
 
-Use the following steps to create a new Windows 11 email configuration profile:
+Use the following steps to create a new Windows 11 email configuration profile.
 
 ## Step 1: Create a new Windows 11 email profile
 1. Sign in to [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
@@ -20,8 +20,8 @@ Use the following steps to create a new Windows 11 email configuration profile:
 6. Click **Create**.
 
 ### Add basic profile values
-1. Next to **Name**, add "Windows email settings".
-1. [Option] Add a **Description** for your new profile.
+1. Next to **Name**, add "Windows 11 email settings".
+1. *[Optional]* Add a **Description** for your new profile.
 1. Click **Next**.
 
 ## Step 2: Add configuration settings
@@ -43,6 +43,9 @@ Use the following steps to create a new Windows 11 email configuration profile:
    - **Email address attribute from AAD**: Intune gets this attribute from Azure Active Directory (AAD). Choose how the email address for the user is generated. Make sure your users have email addresses that match the attribute you select. Your options:
    - **User principal name**: Uses the full principal name as the email address, such as `user1@contoso.com` or `user1`.
    - **Primary SMTP address**: Uses the primary SMTP address to sign in to Exchange, such as `user1@contoso.com`.
+
+
+    :::image type="content" source="../media/create-device-configuration-profiles-02.png" alt-text="Device configuration profile email settings":::
 
 2. Select **Enable** next to *SSL** to use Secure Sockets Layer (SSL) communication when sending emails, receiving emails, and communicating with the Exchange server. **Disable** doesn't require SSL.
 3. Select the following email synchronizastion settings:

@@ -1,6 +1,8 @@
 Microsoft Endpoint Manager helps you by providing a single, modern, integrated management platform for managing, protecting, and monitoring all of your organization's endpoints. Endpoints include tablets, smartphones, desktops, laptops computers, and apps that an organization uses whether they connect over the internet (cloud-based) or are on-premises. Both Microsoft Intune and Microsoft Endpoint Configuration Manager are part of Microsoft Endpoint Manager.
 
-Before you enroll devices to be managed by Microsoft Endpoint Manager and used by members of your organization, you should create device configuration profiles, device compliance policies, and conditional access policies needed by your organization. This module helps you understand and implement device configuration profiles that you should consider before enrolling devices into Microsoft Endpoint Manager.
+Before you enroll devices to be managed by Microsoft Endpoint Manager and used by members of your organization, you should create device configuration profiles, device compliance policies, and conditional access policies needed by your organization. By first creating your device profiles and policies, you'll be ready to apply them to protect your organization immediately.
+
+This module helps you understand and implement device configuration profiles that using Microsoft Endpoint Manager.
 
 ## Learning objectives
 
