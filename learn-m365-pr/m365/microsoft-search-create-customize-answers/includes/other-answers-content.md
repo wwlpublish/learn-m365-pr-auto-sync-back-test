@@ -29,13 +29,3 @@ Search for "my calendar" or "my schedule" to see your upcoming meetings. You can
 Find Microsoft Teams and Yammer conversations, including private chats you were part of and public ones. Currently, conversation results are only available in Microsoft Search in Bing.
 
 :::image type="content" source="../media/module-3-unit-6-additional-results-conversations.png" alt-text="Image showing Conversation results.":::
-
-## Power BI reports and dashboards
-
-To make it easier to find data in your organization, Microsoft Search supports Power BI dashboards and reports. This feature is enabled by default but your Power BI admin can disable it at any time.
-
-To learn more, see [Administering Power BI in the admin portal](/power-bi/admin/service-admin-portal#use-global-search-for-power-bi-preview).
-
-> [!Note]
->
-> Power BI results may not be available for all Microsoft 365 service plans.
