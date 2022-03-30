@@ -1,0 +1,32 @@
+### YamlMime:LearningPath
+uid: learn.wwl.support-windows-client-environment
+metadata:
+  title: Support the Windows client environment
+  description: Support the Windows client environment
+  ms.date: 03/29/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Support the Windows client environment
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+summary: |
+  This learning path will cover the Windows architecture and common environments. Students will be introduced to the various tools and methodologies used in maintaining Windows.
+iconUrl: /learn/achievements/generic-trophy.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+modules:
+- learn.wwl.explore-troubleshooting-methodologies
+- learn.wwl.explore-windows-architecture
+- learn.wwl.explore-support-diagnostic-tools
+- learn.wwl.monitor-troubleshoot-windows-client-performance
+trophy:
+  uid: learn.wwl.support-windows-client-environment.trophy
