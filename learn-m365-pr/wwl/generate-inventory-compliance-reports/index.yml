@@ -3,7 +3,7 @@ uid: learn.wwl.generate-inventory-compliance-reports
 metadata:
   title: Generate inventory and compliance reports
   description: "This module describes how to use Microsoft Endpoint Manager and Power BI to create compliance and custom reports."
-  ms.date: 03/29/2022
+  ms.date: 03/30/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
