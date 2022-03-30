@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-defender-endpoint.examine-key-capabilities-microsoft-defender-endpoint
+title: Examine key capabilities of Microsoft Defender for Endpoint
+metadata:
+  title: Examine key capabilities of Microsoft Defender for Endpoint
+  description: "Examine key capabilities of Microsoft Defender for Endpoint"
+  ms.date: 03/29/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/3-examine-key-capabilities-microsoft-defender-endpoint.md)]

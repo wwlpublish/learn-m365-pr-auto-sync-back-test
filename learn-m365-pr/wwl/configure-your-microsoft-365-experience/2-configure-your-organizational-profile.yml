@@ -4,13 +4,12 @@ title: Configure your organizational profile in Microsoft 365
 metadata:
   title: Configure your organizational profile in Microsoft 365
   description: "Configure your organizational profile in Microsoft 365"
-  ms.date: 09/10/2021
+  ms.date: 03/29/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 4
 content: |
@@ -22,10 +21,10 @@ quiz:
     choices:
     - content: "Use the Microsoft 365 admin center to access Tailwind's Organization Profile and change the country/region of the company's headquarters to the United States"
       isCorrect: false
-      explanation: "That's incorrect. You can't use the Microsoft 365 admin center to change your company's headquarters. Try again."
+      explanation: "Incorrect. You can't use the Microsoft 365 admin center to change your company's headquarters. Try again."
     - content: "Contact Microsoft Support Services and have them update the country/region of your Microsoft 365 subscription to the United States"
       isCorrect: false
-      explanation: "That's incorrect. Microsoft Support Services won't change your company's headquarters. Try again."
+      explanation: "Incorrect. Microsoft Support Services won't change your company's headquarters. Try again."
     - content: "Sign up for a new account, choose the United States as the desired country/region, and purchase a new subscription"
       isCorrect: true
-      explanation: "That's correct. Because the country/region where your organization is headquartered determines which services are available to you, the taxes and billing currency, and the location of the Microsoft data center, changing the location of the company headquarters requires that you sign up for a new account, choose the desired country/region, and purchase a new subscription."
+      explanation: "Correct. The country/region where your organization is headquartered determines which services are available to you, the taxes and billing currency, and the location of the Microsoft data center that supports your organization. As such, changing the location of the company headquarters requires that you sign up for a new account, choose the desired country/region, and purchase a new subscription."

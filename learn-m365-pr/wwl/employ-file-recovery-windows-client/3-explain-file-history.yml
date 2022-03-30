@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.employ-file-recovery-windows-client.explain-file-history
+title: Explain file history
+metadata:
+  title: Explain file history
+  description: "Explain file history"
+  ms.date: 03/29/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-explain-file-history.md)]

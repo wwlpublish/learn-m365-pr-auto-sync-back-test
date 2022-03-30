@@ -40,117 +40,55 @@ Each identify model has different advantages and disadvantages. To determine the
     
   :::column-end:::
   :::column:::
-    
-
-**Cloud Identity**
-
-
+    **Cloud Identity**
   :::column-end:::
   :::column:::
-    
-
-**Synchronized Identity**
-
-
+    **Synchronized Identity**
   :::column-end:::
   :::column:::
-    
-
-**Federated Identity**
-
-
+    **Federated Identity**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-**Definition**
-
-
+    **Definition**
   :::column-end:::
   :::column:::
-    
-
-User account only exists in Microsoft 365.
-
-
+    User account only exists in Microsoft 365.
   :::column-end:::
   :::column:::
-    
-
-User account exists in local Active Directory and an identical user in exists in Microsoft 365.
-
-
+    User account exists in local Active Directory and an identical user in exists in Microsoft 365.
   :::column-end:::
   :::column:::
-    
-
-Synchronized user account authenticated by using AD FS.
-
-
+    Synchronized user account authenticated by using AD FS.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-**Best for…**
-
-
+    **Best for…**
   :::column-end:::
   :::column:::
-    
-
-Small to medium-sized organizations or organizations that don't need a local Active Directory Domain Service (AD DS) anymore.
-
-
+    Small to medium-sized organizations or organizations that don't need a local Active Directory Domain Service (AD DS) anymore.
   :::column-end:::
   :::column:::
-    
-
-Organizations running Active Directory already and are planning to move to the cloud.
-
-
+    Organizations running Active Directory already and are planning to move to the cloud.
   :::column-end:::
   :::column:::
-    
-
-Organizations that want to centralize their authentication and authorization processes.
-
-
-Also used by organizations already running a federated authentication system, or that require a special type of sign-in, such as with ID card.
-
-
+    Organizations that want to centralize their authentication and authorization processes.
+This model is also used by organizations already running a federated authentication system, or that require a special type of sign-in, such as with ID card.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-**Greatest benefit**
-
-
+    **Greatest benefit**
   :::column-end:::
   :::column:::
-    
-
-Simple to use; no extra tools required.
-
-
+    Simple to use; no extra tools required.
   :::column-end:::
   :::column:::
-    
-
-Same Sign-In, and where management of identities is only required in one place.
-
-
+    Same Sign-In, and where management of identities is only required in one place.
   :::column-end:::
   :::column:::
-    
-
-Single Sign-On (SSO), and where management of identities is only required in one place.
-
-
+    Single Sign-On (SSO), and where management of identities is only required in one place.
   :::column-end:::
 :::row-end:::

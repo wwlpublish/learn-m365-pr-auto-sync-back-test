@@ -44,6 +44,6 @@ View a [video version](https://www.microsoft.com/videoplayer/embed/RWJINt) of th
 
 Click on the image to get started.
 
-:::image type="content" source="../media/2-interactive-guide-place-holder.png" alt-text="Safeguard your organization with Microsoft Defender for Office 365." border="false":::
+[:::image type="content" source="../media/2-interactive-guide-place-holder.png" alt-text="Safeguard your organization with Microsoft Defender for Office 365." border="false":::](https://aka.ms/MSDO-IG)
 
 When you're done, use the **Back** arrow in your browser to come back to this page.
