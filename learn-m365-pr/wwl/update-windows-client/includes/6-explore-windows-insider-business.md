@@ -1,6 +1,6 @@
 As we already mentioned, the Windows Insider Program enables your users and support staff to become familiar with feature updates before they are released to the larger Windows community.
 
-:::image type="content" source="../media/windows-insider-program-73cec1ab.png" alt-text="Screenshot of the Windows Insider Program tab of the Update and Security node in the Settings app. Beneath the Get Insider Preview builds heading, the Get started button is displayed.":::
+:::image type="content" source="../media/windows-insider-program-73cec1ab.png" alt-text="Screenshot of the Windows Insider Program tab of the Update and Security node in the Settings app.":::
 
 
 Windows Insider for Business extends this to help business plan for forthcoming updates and offers the following benefits:

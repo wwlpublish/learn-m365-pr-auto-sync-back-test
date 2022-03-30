@@ -34,9 +34,9 @@ To use the Configure Automatic Updates setting, under Status, select **Enabled**
   :::column-end:::
   :::column:::
     This setting lets you specify a server on your network to function as an internal update service. The Automatic Updates client will search this service for updates that apply to the computers on your network. To use this setting, you must set two server name values, including:
-\- Server from which the Automatic Updates client detects and downloads updates.
-\- Server to which updated workstations upload statistics.
-You can set both values to be the same server.
+    * Server from which the Automatic Updates client detects and downloads updates.
+    * Server to which updated workstations upload statistics.
+    You can set both values to be the same server.
   :::column-end:::
 :::row-end:::
 :::row:::

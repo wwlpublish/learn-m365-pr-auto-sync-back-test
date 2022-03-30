@@ -3,7 +3,7 @@ uid: learn.wwl.update-windows-client
 metadata:
   title: Update Windows client
   description: "Explore the Windows servicing channels and use tools such as Windows Server Update Service (WSUS) to manage Windows update deployments."
-  ms.date: 03/29/2022
+  ms.date: 03/30/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
