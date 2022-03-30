@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-operating-system-service-issues
 metadata:
   title: Troubleshoot operating system service issues
   description: "This module discusses the role of operating system services and how to troubleshoot issues that restrict functionality. This module also discusses resolving issues with signing in to Windows."
-  ms.date: 03/29/2022
+  ms.date: 03/30/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial

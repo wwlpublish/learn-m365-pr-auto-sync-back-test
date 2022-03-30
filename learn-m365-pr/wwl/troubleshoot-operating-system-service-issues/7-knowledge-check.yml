@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/29/2022
+  ms.date: 03/30/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -63,7 +63,7 @@ quiz:
       explanation: "Incorrect. While this issue can result in account lockout, it's not the typical issue that causes users to be locked out of their accounts. Try again."
   - content: "When you attempted to sign in to one of your company's older Windows 10 computers, you received an error message indicating that a service failed to start. As you begin troubleshooting the problem, what should you pay special attention to?"
     choices:
-    - content: "The lis of services in the System Configuration tool"
+    - content: "The list of services in the System Configuration tool"
       isCorrect: false
       explanation: "Incorrect. The System Configuration tool is used to specify which services you want to run on startup. Try again."
     - content: "The stop code that's displayed"
