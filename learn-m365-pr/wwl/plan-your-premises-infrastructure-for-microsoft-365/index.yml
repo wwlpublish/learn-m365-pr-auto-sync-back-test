@@ -3,21 +3,20 @@ uid: learn.wwl.plan-your-premises-infrastructure-for-microsoft-365
 metadata:
   title: Plan your on-premises infrastructure for Microsoft 365
   description: "Plan your on-premises infrastructure for Microsoft 365"
-  ms.date: 06/30/2021
+  ms.date: 03/29/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Plan your on-premises infrastructure for Microsoft 365
-summary: This module examines the key areas that organizations must plan for to migrate their on-premises infrastructure to Microsoft 365.
+summary: This module examines the key areas that organizations must plan for in order to migrate their on-premises infrastructure to Microsoft 365\.
 abstract: |
-  By the end of this module, you will be able to:
-  - Prepare your organization to transition its on-premises deployment to Microsoft 365
-  - Estimate your network's bandwidth
-  - Test your existing network using the tools provided by Microsoft
-  - Describe best practices to employ when integrating your network to Microsoft 365
-  - Identify the deployment strategies your company can use when implementing Microsoft 365 services
-  - Explain why password hash synchronization should be used regardless of your authentication method
+  By the end of this module, you'll be able to:
+  *   Prepare your organization to transition its on-premises deployment to Microsoft 365\.
+  *   Estimate your network's bandwidth.
+  *   Describe best practices to employ when integrating your network to Microsoft 365\.
+  *   Identify the deployment strategies your company can use when implementing Microsoft 365 services.
+  *   Prepare your Active Directory forest for directory synchronization.
 prerequisites: ""
 iconUrl: /learn/achievements/plan-your-on-premises-infrastructure-for-microsoft-365.svg
 levels:
@@ -27,19 +26,17 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.introduction
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.prepare-your-organizations-enterprise
-- learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.manage-your-transition-to-by-using-deployment-planning-checklist
-- learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.estimate-your-organizations-bandwidth-requirements-to-support
-- learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.validate-your-network-readiness-by-using-microsoft-network-tools
-- learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.integrate-your-network-to
+- learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.plan-your-microsoft-365-transition
+- learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.estimate-your-network-bandwidth-requirements
+- learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.plan-your-network-integration
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.identify-endpoints-required-to-function-properly
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.create-deployment-strategy-to-implement-services
-- learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.enable-password-hash-synchronization-with-your-authentication-method
+- learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.prepare-active-directory-forest-directory-synchronization
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.knowledge-check
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.summary
 badge:

@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn.wwl.explore-physical-hardware-troubleshooting
+metadata:
+  title: Explore physical hardware troubleshooting
+  description: "This module provides an overview of troubleshooting hardware-related problems and discusses specific considerations for using USB and wireless devices on computers that are running Windows."
+  ms.date: 03/29/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore physical hardware troubleshooting
+summary: This module provides an overview of troubleshooting hardware-related problems and discusses specific considerations for using USB and wireless devices on computers that are running Windows.
+abstract: |
+  After completing this module, you will be able to:
+  * Describe hardware-related problems.
+  * Describe the considerations for using USB devices.
+  * Describe considerations for using wireless devices.
+  * Explain how you can use built-in diagnostic tools to gather hardware information.
+  * Determine how to best approach hardware problems.
+  * Apply the guidelines for troubleshooting hardware-related problems.
+prerequisites: |
+  * Students should have a basic understanding of computer networks and hardware concepts.
+  * Students should have a basic understanding of OS and Application concepts.
+  * Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.explore-physical-hardware-troubleshooting.introduction
+- learn.wwl.explore-physical-hardware-troubleshooting.identify-hardware-related-problems
+- learn.wwl.explore-physical-hardware-troubleshooting.troubleshoot-usb-devices
+- learn.wwl.explore-physical-hardware-troubleshooting.troubleshoot-wireless-devices
+- learn.wwl.explore-physical-hardware-troubleshooting.gather-hardware-information
+- learn.wwl.explore-physical-hardware-troubleshooting.use-best-practices-troubleshoot-hardware-issues
+- learn.wwl.explore-physical-hardware-troubleshooting.knowledge-check
+- learn.wwl.explore-physical-hardware-troubleshooting.summary
+badge:
+  uid: learn.wwl.explore-physical-hardware-troubleshooting.badge
