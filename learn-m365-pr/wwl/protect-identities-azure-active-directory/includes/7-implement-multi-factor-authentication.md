@@ -31,7 +31,7 @@ Multi-factor authentication comes as part of the following offerings:
 ### Enable MFA for a single Azure AD user
 
 1.  Sign in to the Azure portal as an administrator.
-2.  Go to **Azure Active Directory** &gt; **Users and groups** &gt; **All users**.
+2.  Go to **Azure Active Directory** > **Users and groups** > **All users**.
 3.  Select **Multi-Factor Authentication**.
 4.  A new page that displays the user states appears.
 5.  Find the user you want to enable for Azure Active Directory Multi-Factor Authentication. You might need to change the view at the top.

@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.protect-identities-azure-ad.implement-multi-factor-authentication
-title: Implement multi-factor authentication
+title: Implement Azure Active Directory Multi-Factor Authentication
 metadata:
-  title: Implement multi-factor authentication
-  description: "Implement multi-factor authentication"
+  title: Implement Azure Active Directory Multi-Factor Authentication
+  description: "Implement Azure Active Directory Multi-Factor Authentication"
   ms.date: 03/30/2022
   author: wwlpublish
   ms.author: brhinkel
