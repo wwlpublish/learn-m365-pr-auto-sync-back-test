@@ -106,7 +106,7 @@ toRecipients.setAsync(
 ```
 
 > [!NOTE]
-> The sample looks at required recipients and recipients in the To field, however, it also works for optional attendees and recipients in the Cc and Bcc fields.
+> The sample looks at required attendees and recipients in the To field, however, it also works for optional attendees and recipients in the Cc and Bcc fields.
 
 ### Get or set appointment recurrence
 
