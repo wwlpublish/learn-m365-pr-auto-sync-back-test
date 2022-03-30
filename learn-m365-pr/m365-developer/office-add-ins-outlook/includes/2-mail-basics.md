@@ -88,4 +88,4 @@ Office Add-ins must be hosted using HTTPS, and both these project provisioning m
 
 ## Summary
 
-In this unit, you'll learn the basics of an Outlook mail add-in.
+In this unit, you learned the basics of an Outlook mail add-in.

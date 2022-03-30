@@ -6,15 +6,19 @@ By default, if a user has an add-in task pane open for a message in the Reading 
 
 ![Screenshot of an example pinnable task pane.](../media/06-pinnable-task-pane.png)
 
-Pinnable task panes ideal for heavily used add-ins. In these cases, the user may prefer to keep that pane open, eliminating the need to reactivate the add-in on each message
+Pinnable task panes are ideal for heavily used add-ins. In these cases, the user may prefer to keep that pane open, eliminating the need to reactivate the add-in on each message.
 
-At the current time only available in Outlook 2016 for Windows and Outlook Online (or later).
+> [!NOTE]
+> Pinnable task panes are currently only available to Microsoft 365 subscribers using the following:
+> - Outlook 2016 or later on Windows (build 7668.2000 or later for users in the Current or Office Insider Channels, build 7900.xxxx or later for users in Deferred channels)
+> - Outlook 2016 or later on Mac (version 16.13.503 or later)
+> - Modern Outlook on the web
 
-Developers must specify in the manifest that the task pane supports pinning and "listen" for new item selections to update UI of task pane.
+Developers must specify in the manifest that the task pane supports pinning and "listen" for new item selections to update the task pane UI.
 
 ## Implement a pinnable task pane
 
-To implement a pinnable task pane, add the `SupportsPinning` element to your add-in manifest:
+To implement a pinnable task pane, add the `SupportsPinning` element to your add-in manifest.
 
 ```javascript
 <Action xsi:type="ShowTaskpane">
@@ -38,7 +42,7 @@ Let's look at some common tasks developers face when creating add-ins for Outloo
 
 ### Write to the message body
 
-The following example shows some basic BODY operations. The `body.getAsync()` method is used to read the body of a message. Notice the coercion type that's specified. In this sample, we're asking for the content to be returned as HTML.
+The following example shows some basic message body operations. The `body.getAsync()` method is used to read the body of a message. Notice the coercion type that's specified. In this sample, we're asking for the content to be returned as HTML.
 
 Before inserting data into the message body, you should check the format of the message using the `body.getTypeAsync()` method.
 
@@ -66,7 +70,7 @@ item.body.getTypeAsync(function (r) { // check the format of the message body
 ...
 ```
 
-### Get/set message and appointment recipients
+### Get or set message and appointment recipients
 
 The following sample demonstrates how to get and set the recipients for both messages and appointments.
 
@@ -102,9 +106,9 @@ toRecipients.setAsync(
 ```
 
 > [!NOTE]
-> The sample looks at to/required recipients, it also works for optional attendees, cc and bcc recipients.
+> The sample looks at required recipients and recipients in the To field, however, it also works for optional attendees and recipients in the Cc and Bcc fields.
 
-### Get/set appointment recurrence
+### Get or set appointment recurrence
 
 This sample demonstrates how to set an appointment recurrence setting, which is a more complex object using the `SeriesTime` object.
 
@@ -152,32 +156,6 @@ Office.initialize = function () {
 }
 ```
 
-### Tokens and APIs (REST)
-
-This following sample demonstrates how to get an OAuth 2.0 access token from Outlook for use in calling the Outlook REST API.
-
-Use the `getCallbackTokenAsync()` method to get the token and then submit a typical REST request can be done with the access token passed as a bearer token in the `authorization` header.
-
-```javascript
-// Call Outlook REST API
-Office.context.mailbox.getCallbackTokenAsync({isRest: true}, function(result){
-  if (result.status === "succeeded") {
-    // this is the access token for calling Outlook APIs
-    var token = result.value;
-    var itemId = Office.context.mailbox.item.itemId;
-
-    var url = Office.context.mailbox.restUrl + '/v2.0/me/messages/' + itemId;
-
-    $.ajax({ url: url, dataType: 'json',
-      headers: { 'Authorization': 'Bearer ' + token } }).done(function(item){
-      // Message is passed in item
-    }).fail(function(error){
-      // Handle error
-    });
-  }
-});
-```
-
 ### Tokens and APIs (Exchange Web Services)
 
 This sample demonstrates how to call the Exchange Web Services (EWS) from an add-in using Office.js.
@@ -199,11 +177,9 @@ mailbox.makeEwsRequestAsync(mailbox.item.itemId, function(result) {
 
 ### Get attachments
 
-The following sample demonstrates how to get attachments using the Office.js.
+The following sample demonstrates how to get attachments using Office.js.
 
-Outlook add-ins can't pass the attachments of a selected item directly from the client.
-
-Instead, Outlook can return an OAuth 2.0 access token the add-in can use to call the Outlook REST APIs.
+Outlook add-ins can't pass the attachments of a selected item directly from the client. Instead, Outlook can return an OAuth 2.0 access token the add-in can use to call the Outlook REST APIs.
 
 ```javascript
 // Get attachments
@@ -223,7 +199,7 @@ Office.context.mailbox.getCallbackTokenAsync(function(asyncResult, userContext) 
 });
 ```
 
-### Add/remove attachments
+### Add or remove attachments
 
 The following sample demonstrates how to add and remove an attachment from an Outlook item.
 
@@ -255,4 +231,4 @@ Office.context.mailbox.item.removeAttachmentAsync(
 
 ## Summary
 
-In this unit, you'll learn how you can use task panes in Outlook add-ins and how to store user settings for use across devices.
+In this unit, you learned how you can use task panes in Outlook add-ins and how to store user settings for use across devices.

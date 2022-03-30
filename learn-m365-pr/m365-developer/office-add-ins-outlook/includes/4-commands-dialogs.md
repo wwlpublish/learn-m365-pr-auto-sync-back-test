@@ -24,25 +24,25 @@ The `ExecuteFunction` action allows an add-in command to execute some script in 
 
 Let's explore how the different elements in the add-in manifest map to the rendered elements in the Outlook user experience.
 
-The following image contains a screenshot of an Office client application on the left and a condensed version of an add-in manifest file on the right:
+The following image contains a screenshot of an Office client application on the left and a condensed version of an add-in manifest file on the right.
 
 ![Screenshot of an Office application next to an add-in manifest excerpt.](../media/04-manifest-01.png)
 
-The manifest starts with the `ExtensionPoint` element that contains all customizations defined for the Office ribbon:
+The manifest starts with the `ExtensionPoint` element that contains all customizations defined for the Office ribbon.
 
 ![Screenshot of an Office application next to an add-in manifest excerpt with extension point highlighted.](../media/04-manifest-02.png)
 
-The entire contents of the `ExtensionPoint` element define the custom tab in the ribbon and all buttons in the tab:
+The entire contents of the `ExtensionPoint` element define the custom tab in the ribbon and all buttons in the tab.
 
 ![Screenshot of an Office application next to an add-in manifest excerpt with custom tab highlighted in both.](../media/04-manifest-03.png)
 
-Each button in the ribbon is defined using a `Control` element. A control can be different types, defined in the `xsi:type` property. All the controls in this ribbon are buttons:
+Each button in the ribbon is defined using a `Control` element. A control can be different types, defined in the `xsi:type` property. All the controls in this ribbon are buttons.
 
 ![Screenshot of an Office application next to an add-in manifest excerpt with custom tabs highlighted and numbered in both.](../media/04-manifest-04.png)
 
 Within a control, developers can define *actions* or *items*. An `Action` element is used to do an action, such as showing a task pane or executing a custom function.
 
-The `Items` collection allows developers to add more menu items to the ribbon button as shown in the following image. Notice each sub menu item also has a `Action` element as well:
+The `Items` collection allows developers to add more menu items to the ribbon button as shown in the following image. Notice each sub menu item also has a `Action` element as well.
 
 ![Screenshot of an Office application next to an add-in manifest with Item elements highlighted and numbered in both.](../media/04-manifest-05.png)
 
@@ -95,19 +95,19 @@ To call the function, use the `ExecuteFunction` action type in the add-in manife
 
 The Dialog API is an extension of the user experience developers can customize in Office. Developers can use it to open dialogs from custom add-ins that interact with the user and the custom add-in user experience.
 
-The primary scenario for the Dialog API is authentication with third-party providers. Most identity providers prevent their sign in experiences from being displayed in an Iframe because of click-jacking concerns. This is troublesome with an add-in as they're displayed in iframes in some of the clients such as the web versions of Office client applications.
+The primary scenario for the Dialog API is authentication with third-party providers. Most identity providers prevent their sign-in experiences from being displayed in an iframe because of click-jacking concerns. This is troublesome with an add-in as they're displayed in iframes in some of the clients, such as the web versions of Office client applications.
 
-Another challenge with authentication scenarios is predicting the domains that will need to load. In federated sign in scenarios, the potential list of domains could be endless, which again is troublesome in an add-in where all domains need to be registered in the manifest.
+Another challenge with authentication scenarios is predicting the domains that will need to load. In federated sign-in scenarios, the potential list of domains could be endless, which again is troublesome in an add-in where all domains need to be registered in the manifest.
 
 It's important to note that Office offers a single sign-on experience specific for Microsoft identities. If your add-in requires data about the Office user or their resources accessible through Microsoft Graph, such as Microsoft 365 or OneDrive, Microsoft recommends you use the single sign-on API whenever you can. If you use the APIs for single sign-on, then you won't need the Dialog API.
 
-Beyond authentication, the Dialog API can provide extra screen real estate for elements difficult to display in a traditional task pane of content add-in. A good example would be hosting a video that would be too small if confined to a task pane
+Beyond authentication, the Dialog API can provide extra screen real estate for elements difficult to display in a traditional task pane of content add-in. A good example would be hosting a video that would be too small if confined to a task pane.
 
 The Dialog API can display any HTTPS web page, but it must be launched to an app domain first and then redirect.
 
 ## Open dialogs
 
-Open a dialog using the `displayDialogAsync()` method from an Office Add-in:
+Open a dialog using the `displayDialogAsync()` method from an Office Add-in.
 
 ```javascript
 Office.context.ui.displayDialogAsync("<URL />", options, optionalCallback);
@@ -124,7 +124,7 @@ The `displayDialogAsync()` method accepts three parameters:
 
 ## Dialog input and output
 
-The primary way to pass information to a dialog is through the browser's local storage (`window.localStorage`) or through URL parameters in the dialog URL. In this sample, the host page is passing an ID of "123" to the dialog via a url parameter.
+The primary way to pass information to a dialog is through the browser's local storage (`window.localStorage`) or through URL parameters in the dialog URL. In this sample, the host page is passing an ID of "123" to the dialog via a URL parameter.
 
 ```javascript
 /******* START Host page script *******/
@@ -169,4 +169,4 @@ The host page must listen for messages by subscribing to the `DialogMessageRecei
 
 ## Summary
 
-In this unit, you'll learn how to create add-in commands and work with dialogs to display information, or prompt the user for input.
+In this unit, you learned how to create add-in commands and work with dialogs to display information, or prompt the user for input.

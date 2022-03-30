@@ -2,7 +2,7 @@ In this exercise, you'll learn how to create your first Outlook add-in project a
 
 ## Prerequisites
 
-Developing Outlook add-ins requires Outlook 2016 or later or Outlook on the web.
+Developing Outlook add-ins require Outlook 2016 (or later) or Outlook on the web.
 
 You'll use Node.js to create the custom Outlook add-in in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
 
@@ -127,13 +127,13 @@ The manifest for an add-in influences how it appears in Outlook. It defines the 
 
 Make the following updates in the **manifest.xml** file to specify some basic information about the add-in.
 
-1. Locate the **ProviderName** element and replace the default value with your company name.
+1. Locate the `ProviderName` element and replace the default value with your company name.
 
     ```xml
     <ProviderName>Contoso</ProviderName>
     ```
 
-1. Locate the **Description** element, replace the default value with a description of the add-in, and save the file.
+1. Locate the `Description` element, replace the default value with a description of the add-in, and save the file.
 
     ```xml
     <Description DefaultValue="Allows users to access their GitHub gists."/>

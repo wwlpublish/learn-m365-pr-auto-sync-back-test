@@ -24,7 +24,7 @@ In the project that you've created, the task pane HTML is specified in the file 
   <!-- Office JavaScript API -->
   <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
 
-  <!-- For more information on Office UI Fabric, visit https://developer.microsoft.com/fabric. -->
+  <!-- For more information on Fluent UI, visit https://developer.microsoft.com/fluentui. -->
   <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/9.6.1/css/fabric.min.css"/>
 
   <!-- Template styles -->
@@ -60,11 +60,12 @@ In the project that you've created, the task pane HTML is specified in the file 
       <i class="ms-Icon enlarge ms-Icon--Settings ms-fontColor-white"></i>
     </div>
   </footer>
-  <script type="text/javascript" src="../node_modules/jquery/dist/jquery.js"></script>
-  <script type="text/javascript" src="../node_modules/showdown/dist/showdown.min.js"></script>
-  <script type="text/javascript" src="../node_modules/urijs/src/URI.min.js"></script>
-  <script type="text/javascript" src="../src/helpers/addin-config.js"></script>
-  <script type="text/javascript" src="../src/helpers/gist-api.js"></script>
+
+  <script type="text/javascript" src="../../node_modules/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="../../node_modules/showdown/dist/showdown.min.js"></script>
+  <script type="text/javascript" src="../../node_modules/urijs/src/URI.min.js"></script>
+  <script type="text/javascript" src="../helpers/addin-config.js"></script>
+  <script type="text/javascript" src="../helpers/gist-api.js"></script>
   <script type="text/javascript" src="taskpane.js"></script>
 </body>
 
@@ -76,9 +77,7 @@ In the project that you've created, the task pane HTML is specified in the file 
 In the project that you've created, the task pane CSS is specified in the file **./src/taskpane/taskpane.css**. Open that file and replace the entire contents with the following code.
 
 ```css
-html,
-
-body {
+html, body {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -103,13 +102,7 @@ footer {
   margin-top: 10px;
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
@@ -220,14 +213,8 @@ ul {
   padding: 20px;
 }
 
-.ms-landing-page__footer--left:active,
-.ms-landing-page__footer--left:hover {
-  background: #005ca4;
-  cursor: pointer;
-}
-
 .ms-landing-page__footer--left:active {
-  background: #005ca4;
+  cursor: default;
 }
 
 .ms-landing-page__footer--left--disabled {
@@ -372,9 +359,9 @@ In the project that you've created, the task pane JavaScript is specified in the
   }
 
   function onGistSelected() {
+    $('#insert-button').removeAttr('disabled');
     $('.ms-ListItem').removeClass('is-selected').removeAttr('checked');
     $(this).children('.ms-ListItem').addClass('is-selected').attr('checked', 'checked');
-    $('#insert-button').removeAttr('disabled');
   }
 
   function showError(error) {
@@ -401,7 +388,7 @@ In the project that you've created, the task pane JavaScript is specified in the
 
 ### Test the button
 
-Save all of your changes and run **npm run dev-server** from the command prompt, if the server isn't already running. Then complete the following steps to test the **Insert gist** button.
+Save all your changes. If the server isn't already running, run `npm start` from the command prompt, then complete the following steps to test the **Insert gist** button.
 
 1. Open Outlook and compose a new message.
 

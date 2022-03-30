@@ -3,7 +3,7 @@ uid: learn-m365.office-add-ins-outlook.6-task-panes
 metadata:
   title: Task panes and persisting settings
   description: In this unit, you'll learn how you can use task panes in Outlook add-ins and how to store user settings for use across devices.
-  ms.date: 11/25/2020
+  ms.date: 03/29/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
