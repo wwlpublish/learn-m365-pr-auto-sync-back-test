@@ -27,6 +27,7 @@ products:
 - m365
 - office-365
 - office-exchange-server
+- office-exchange-online
 units:
 - learn-m365.m365-messaging-manage-compliance.introduction
 - learn-m365.m365-messaging-manage-compliance.retention-policies

@@ -28,6 +28,7 @@ products:
 - m365
 - office-teams
 - office-sp
+- sharepoint-online
 units:
 - learn-m365.m365-teams-sharepoint-plan-site-architecture.introduction
 - learn-m365.m365-teams-sharepoint-plan-site-architecture.team-sites

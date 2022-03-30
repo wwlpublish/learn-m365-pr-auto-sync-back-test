@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.monitor-troubleshoot-windows-client-performance
+metadata:
+  title: Monitor and troubleshoot Windows client performance
+  description: "This module explores methods and tools for monitoring and troubleshooting Windows client performance issues."
+  ms.date: 03/29/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Monitor and troubleshoot Windows client performance
+summary: This module explores methods and tools for monitoring and troubleshooting Windows client performance issues.
+abstract: |
+  After completing this module, you will be able to:
+  * Describe key system components in Windows.
+  * Describe performance monitoring tools in Windows.
+  * Explain how to establish a performance baseline.
+  * Explain how to optimize disk and memory performance in a Windows computer.
+prerequisites: |
+  * Students should have a basic understanding of computer networks and hardware concepts.
+  * Students should have a basic understanding of OS and Application concepts.
+  * Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.monitor-troubleshoot-windows-client-performance.introduction
+- learn.wwl.monitor-troubleshoot-windows-client-performance.examine-key-performance-components-windows-client
+- learn.wwl.monitor-troubleshoot-windows-client-performance.establish-performance-baseline
+- learn.wwl.monitor-troubleshoot-windows-client-performance.monitor-windows-client-performance
+- learn.wwl.monitor-troubleshoot-windows-client-performance.optimize-disk-memory-performance
+- learn.wwl.monitor-troubleshoot-windows-client-performance.configure-windows-client-search-indexes
+- learn.wwl.monitor-troubleshoot-windows-client-performance.knowledge-check
+- learn.wwl.monitor-troubleshoot-windows-client-performance.summary
+badge:
+  uid: learn.wwl.monitor-troubleshoot-windows-client-performance.badge
