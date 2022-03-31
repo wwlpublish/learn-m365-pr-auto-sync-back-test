@@ -40,11 +40,11 @@ The Cloud management metric measures the percent of PCs that have attached to th
 
 Cloud identity provides users with many productivity benefits including device-wide single sign-on to apps and services, Windows Hello sign-in, self-service BitLocker recovery, and corporate data roaming. The Cloud identity metric measures the percent of devices enrolled in Azure Active Directory (AD) or hybrid Azure AD.
 
-:::image type="content" source="../media/8668496-cloud-identity-f4c76cc4.png" alt-text="Screenshot of the Cloud identity fly out showing insights for the metric" lightbox="../media/8668496-cloud-identity-f4c76cc4.png":::
+:::image type="content" source="../media/8668496-cloud-identity-f4c76cc4.png" alt-text="Screenshot of the Cloud identity fly out showing insights for the metric." lightbox="../media/8668496-cloud-identity-f4c76cc4.png":::
 
 
 #### Cloud provisioning
 
 Cloud provisioning provides a simpler initial provisioning experience for Windows PCs than the native experience. It reduces the number of screens in the Out Of Box Experience (OOBE) and provides defaults, to ensure the device is correctly provisioning from the factory or on reset. The Cloud provisioning metric measures the percentage of machines that are either Windows 365 Cloud PCs or Windows Intune devices that are both registered and have a deployment profile created for Autopilot. This view can be especially helpful when transitioning to modern management, and identifying devices that are still provisioned through traditional management methods.
 
-:::image type="content" source="../media/8668496-cloud-provisioning-b2989f35.png" alt-text="Screenshot of the cloud provisioning tab showing the device list" lightbox="../media/8668496-cloud-provisioning-b2989f35.png":::
+:::image type="content" source="../media/8668496-cloud-provisioning-b2989f35.png" alt-text="Screenshot of the cloud provisioning tab showing the device list." lightbox="../media/8668496-cloud-provisioning-b2989f35.png":::

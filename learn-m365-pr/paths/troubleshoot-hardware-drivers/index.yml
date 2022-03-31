@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-hardware-drivers
 metadata:
   title: Troubleshoot hardware and drivers
   description: Troubleshoot hardware and drivers
-  ms.date: 03/30/2022
+  ms.date: 03/31/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -16,7 +16,6 @@ prerequisites: |
 summary: |
   This learning path introduces hardware troubleshooting.  Students will learn about driver management and how to troubleshoot devices, system hardware and external peripherals.
 iconUrl: /learn/achievements/generic-trophy.svg
-hidden: true
 levels:
 - beginner
 roles:

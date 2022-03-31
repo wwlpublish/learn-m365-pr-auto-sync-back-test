@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-windows-startup
 metadata:
   title: Troubleshoot Windows startup
   description: "This module examines the Windows startup architecture and discusses the methods used to troubleshoot client startup issues."
-  ms.date: 03/29/2022
+  ms.date: 03/31/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -26,7 +26,6 @@ prerequisites: |
   - Students should have a basic understanding of OS and Application concepts.
   - Students should have experience with using Windows 10 or later.
 iconUrl: /learn/achievements/generic-badge.svg
-hidden: true
 levels:
 - beginner
 roles:
