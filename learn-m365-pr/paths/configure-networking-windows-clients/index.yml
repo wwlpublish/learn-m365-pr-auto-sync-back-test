@@ -16,7 +16,6 @@ prerequisites: |
 summary: |
   In this module, students will learn about networking concepts. This module will introduce to IPv4 and IPv6, and concepts like DNS.  Students will learn how to configure network settings methods of managing Windows remotely.
 iconUrl: /learn/achievements/generic-trophy.svg
-hidden: true
 levels:
 - beginner
 roles:
