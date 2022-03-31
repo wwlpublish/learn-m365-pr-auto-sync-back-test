@@ -16,7 +16,6 @@ prerequisites: |
 summary: |
   Students will learn about using Windows Autopilot and deployment using Microsoft Intune. Students will also learn how Co-Management can be used to transitioning to modern management.
 iconUrl: /learn/achievements/generic-trophy.svg
-hidden: true
 levels:
 - intermediate
 roles:
