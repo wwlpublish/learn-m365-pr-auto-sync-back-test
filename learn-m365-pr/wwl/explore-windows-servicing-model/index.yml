@@ -3,7 +3,7 @@ uid: learn.wwl.explore-windows-servicing-model
 metadata:
   title: Explore the Windows servicing model
   description: "This module examines the Windows client service module and describes the available methods for applying Windows updates."
-  ms.date: 03/22/2022
+  ms.date: 03/31/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -20,7 +20,6 @@ prerequisites: |
   - Students should have a basic understanding of OS and Application concepts.
   - Students should have experience with using Windows 10 or later.
 iconUrl: /learn/achievements/generic-badge.svg
-hidden: true
 levels:
 - beginner
 roles:
