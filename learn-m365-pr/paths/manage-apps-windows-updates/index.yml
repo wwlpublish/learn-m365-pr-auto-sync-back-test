@@ -3,7 +3,7 @@ uid: learn.wwl.manage-apps-windows-updates
 metadata:
   title: Manage apps and Windows updates
   description: Manage apps and Windows updates
-  ms.date: 03/23/2022
+  ms.date: 03/31/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -16,7 +16,6 @@ prerequisites: |
 summary: |
   In this learning path, students will be introduced to App management in Windows. This path will cover the different types of apps and supported installation methods, as well as managing Microsoft Edge.
 iconUrl: /learn/achievements/generic-trophy.svg
-hidden: true
 levels:
 - beginner
 roles:
