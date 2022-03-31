@@ -51,7 +51,7 @@ When you create policies in Intune, you can define which apps are protected, the
 To create a WIP policy in Intune, perform the following:
 
 1.  Sign in to the **Microsoft Endpoint Manager admin center**.
-2.  Select **Apps** &gt; **App protection policies**.
+2.  Select **Apps** > **App protection policies**.
 3.  Select **Add a policy**, and then enter a name for the policy.
 4.  Select **Windows 10 and later** as the Platform.
 5.  Select **With Enrollment** as the Enrollment state.
