@@ -3,7 +3,7 @@ uid: learn.wwl.implement-device-data-protection
 metadata:
   title: Implement device data protection
   description: "This module describes how you can use Intune to create and manage WIP policies that manage this protection. The module also covers implementing BitLocker and Encrypting File System."
-  ms.date: 03/29/2022
+  ms.date: 03/31/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial

@@ -25,7 +25,7 @@ If you use CA to issue EFS certificates, you can configure archiving of user’s
 
 #### Export the client EFS certificate without the private key
 
-If you need to distribute only your public key, you can export the client EFS certificate without the private key to Canonical Encoding Rules (.cer) files. A user’s private key is stored in the user’s profile in the RSA folder, which you can access by expanding **AppData** > **Roaming** > **Microsoft** > **Crypto**. However, please note that because there is only one instance of the key, it is vulnerable to hard-disk failure or data corruption.
+If you need to distribute only your public key, you can export the client EFS certificate without the private key to Canonical Encoding Rules (.cer) files. A user’s private key is stored in the user’s profile in the RSA folder, which you can access by expanding **AppData** &gt; **Roaming** &gt; **Microsoft** &gt; **Crypto**. However, please note that because there is only one instance of the key, it is vulnerable to hard-disk failure or data corruption.
 
 #### Export certificates with the MMC Certificates snap-in
 
