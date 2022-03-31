@@ -14,7 +14,7 @@ prerequisites: |
   - Strong understanding of computer networking, client security, and application concepts
   - Experience using Active Directory Domain Services
 summary: |
-  Students will learn about using Windows Autopilot and deployment using Microsoft Intune. Students will also learn how Co-Management can be used to transitioning to modern management.
+  Students will learn about using Windows Autopilot and deployment using Microsoft Intune. Students will also learn how co-management can be used to transition to modern management.
 iconUrl: /learn/achievements/generic-trophy.svg
 levels:
 - intermediate
