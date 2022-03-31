@@ -10,7 +10,7 @@ In this scenario, the following objectives apply:
  -  Office and other software apps are on WSUS.
  -  Third party drivers are on WSUS.
 
-:::image type="content" source="../media/microsoft-wsus-deferrals-diagram-5b6ab621.png" alt-text="At the top of the image, a cloud containing a server and a globe represent the Microsoft Update service, and a WSUS server used to update other products.":::
+:::image type="content" source="../media/microsoft-wsus-deferrals-diagram-5b6ab621.png" alt-text="Diagram of a cloud containing a server and a globe represent the Microsoft Update service, and a WSUS server used to update other products.":::
 
 
 ### Exclude drivers from Windows Quality Updates using Windows Update for Business
@@ -21,7 +21,7 @@ In this scenario, the following objectives apply:
  -  Device is configured to be managed by WSUS.
  -  Windows Update drivers are available on WSUS.
 
-:::image type="content" source="../media/microsoft-wsus-drivers-updates-diagram-cead93f2.png" alt-text="At the top of the image, a cloud containing a server and a globe represent the Microsoft Update service, and a WSUS server used to update drivers.":::
+:::image type="content" source="../media/microsoft-wsus-drivers-updates-diagram-cead93f2.png" alt-text="Diagram of a cloud containing a server and a globe represent the Microsoft Update service, and a WSUS server used to update drivers.":::
 
 
 ### Example - Device configured to receive Microsoft updates
@@ -33,4 +33,4 @@ In this scenario, the following objectives apply:
  -  Device is configured to receive updates for other Microsoft products at the same time as updates to Windows.
  -  Microsoft Update, third-party, and locally published update content is available on the WSUS server.
 
-:::image type="content" source="../media/microsoft-wsus-third-party-updates-diagram-d1672990.png" alt-text="At the top of the image, a cloud containing a server and a globe represent the Microsoft Update service, and a WSUS server used to update third party apps and drivers.":::
+:::image type="content" source="../media/microsoft-wsus-third-party-updates-diagram-d1672990.png" alt-text="Diagram of a cloud containing a server and a globe represent the Microsoft Update service, and a WSUS server used to update third party apps and drivers.":::

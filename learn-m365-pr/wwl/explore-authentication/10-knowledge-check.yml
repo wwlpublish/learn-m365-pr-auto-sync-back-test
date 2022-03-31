@@ -4,7 +4,7 @@ title: Knowledge Check
 metadata:
   title: Knowledge Check
   description: "Knowledge Check"
-  ms.date: 02/18/2022
+  ms.date: 03/31/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the new Desktop Administrator for Northwind Traders, Alan Deyoung is trying to fix some of the security issues left behind by his predecessor. One such practice directed users to sign in to their computers with the Administrator account. Alan discovered that this policy lead to malicious users gaining access to server and client computers. What should Alan do to resolve this issue with each device?"
+  - content: "As the new Desktop Administrator for Northwind Traders, Alan Deyoung is trying to fix some of the security issues left behind by his predecessor. One such practice directed users to sign in to their computers with the Administrator account. Alan discovered that this policy led to malicious users gaining access to server and client computers. What should Alan do to resolve this issue with each device?"
     choices:
     - content: "Delete the Administrator account and have users sign in with the Default Account"
       isCorrect: false
