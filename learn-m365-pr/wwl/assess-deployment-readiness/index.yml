@@ -3,7 +3,7 @@ uid: learn.wwl.assess-deployment-readiness
 metadata:
   title: Assess deployment readiness
   description: "Discusses some of the tools that you can use to perform detailed assessments of existing deployments, and describes some of the challenges that you may face."
-  ms.date: 03/29/2022
+  ms.date: 03/31/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
