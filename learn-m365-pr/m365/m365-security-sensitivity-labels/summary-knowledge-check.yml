@@ -32,7 +32,7 @@ quiz:
 
     - content: "What three steps does Microsoft recommend when defining sensitivity labels?"
       choices:
-      - content: "Define what each labels does – Identify who will see each label – Define the naming convention."
+      - content: "Define what each label does – Identify who will see each label – Define the naming convention."
         isCorrect: false
         explanation: "Microsoft recommends that you first define your naming convention for labels."
       - content: "Identify who will see each label – Define the naming convention – Define what each label does."
