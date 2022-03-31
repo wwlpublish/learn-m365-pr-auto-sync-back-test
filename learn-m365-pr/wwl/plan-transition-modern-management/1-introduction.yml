@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.explore-troubleshooting-methodologies.summary
-title: Summary
+uid: learn.wwl.plan-transition-modern-management.introduction
+title: Introduction
 metadata:
-  title: Summary
-  description: "Summary"
+  title: Introduction
+  description: "Introduction"
   ms.date: 03/31/2022
   author: wwlpublish
   ms.author: brhinkel
@@ -13,4 +13,4 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 1
 content: |
-  [!include[](includes/7-summary.md)]
+  [!include[](includes/1-introduction.md)]

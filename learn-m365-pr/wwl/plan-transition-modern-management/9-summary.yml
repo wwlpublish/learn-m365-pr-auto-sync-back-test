@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.explore-troubleshooting-methodologies.summary
+uid: learn.wwl.plan-transition-modern-management.summary
 title: Summary
 metadata:
   title: Summary
@@ -11,6 +11,6 @@ metadata:
   ms.prod: learning-m365
 azureSandbox: false
 labModal: false
-durationInMinutes: 1
+durationInMinutes: 3
 content: |
-  [!include[](includes/7-summary.md)]
+  [!include[](includes/9-summary.md)]
