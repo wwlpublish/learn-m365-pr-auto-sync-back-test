@@ -1,11 +1,11 @@
-Azure Active Directory Single Sign-On automatically signs in users when they are on their corporate devices connected to their corporate network. When enabled, users don't need to type in their passwords to sign in to Azure AD; in fact, they usually don’t even need to type in their usernames. This feature provides users with easy access to their organization’s cloud-based applications without needing any extra on-premises components.
+Azure Active Directory single sign-on automatically signs in users when they are on their corporate devices connected to their corporate network. When enabled, users don't need to type in their passwords to sign in to Azure AD; in fact, they usually don’t even need to type in their usernames. This feature provides users with easy access to their organization’s cloud-based applications without needing any extra on-premises components.
 
-Azure Active Directory Single Sign-On can be combined with either the Password Hash Synchronization or Pass-through Authentication sign-in methods.
+Azure Active Directory single sign-on can be combined with either the Password Hash Synchronization or Pass-through Authentication sign-in methods.
 
 :::image type="content" source="../media/aad-sso-for-contoso-fa78179b.png" alt-text="graphic of Azure Active Directory Seamless Single Sign-On for Contoso":::
 
 
-Azure Active Directory Single Sign-On creates Azure AD Connect trace log files, which can contain personal data. User privacy for seamless single sign-on can be improved in two ways:
+Azure Active Directory single sign-on creates Azure AD Connect trace log files, which can contain personal data. User privacy for seamless single sign-on can be improved in two ways:
 
  -  Upon request, extract data for a person and remove data from that person from the installations.
  -  Ensure no data is kept beyond 48 hours.

@@ -17,7 +17,7 @@ abstract: |
   *   Create a plan for directory synchronization and Azure AD Connect Pass-through authentication.
   *   Explore how password hash synchronization supports cloud authentication.
   *   Describe the issues, benefits, and best practices when implementing federated authentication using Active Directory Federation Services.
-  *   Plan for Azure AD Seamless Single Sign-On.
+  *   Plan for Azure AD single sign-on.
 prerequisites: ""
 iconUrl: /learn/achievements/plan-your-identity-and-authentication-solution-for-microsoft-365.svg
 levels:

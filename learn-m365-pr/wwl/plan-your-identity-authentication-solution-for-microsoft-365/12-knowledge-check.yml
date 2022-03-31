@@ -39,7 +39,7 @@ quiz:
     - content: "Azure AD Pass-through Authentication service"
       isCorrect: false
       explanation: "Incorrect. This item isn't the second primary component of Azure AD Connect. Try again."
-  - content: "Azure Active Directory Single Sign-On creates Azure AD Connect trace log files. These files contain personal data. What best practice can you employ to improve the privacy of the data that's stored in these files?"
+  - content: "Azure Active Directory single sign-on creates Azure AD Connect trace log files. These files contain personal data. What best practice can you employ to improve the privacy of the data that's stored in these files?"
     choices:
     - content: "Ensure no data is kept beyond 48 hours"
       isCorrect: true

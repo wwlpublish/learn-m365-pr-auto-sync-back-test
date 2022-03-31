@@ -5,7 +5,7 @@ Designing a Microsoft 365 tenant begins with planning for your on-premises infra
  -  Azure AD Connect Cloud Sync
  -  Azure AD Connect pass-through
  -  AD FS deployments
- -  Azure Active Directory Seamless Single Sign-On
+ -  Azure Active Directory single sign-on
 
 This module also examines the key areas that organizations must plan for to either move their Microsoft 365 service completely to the cloud or to hybridize their environment.
 
@@ -15,5 +15,5 @@ After completing this module, you'll be able to:
  -  Explain multi-factor authentication in Microsoft 365 deployments.
  -  Create a plan for directory synchronization and Azure AD Connect Pass-Through authentication.
  -  Describe the issues, benefits, and recommendations when implementing federated authentication using Active Directory Federation Services (AD FS).
- -  Plan for Azure AD Seamless Single Sign-On.
+ -  Plan for Azure AD single sign-on.
 

@@ -5,7 +5,7 @@ Planning the deployment of a Microsoft 365 tenant is a multi-step process. Once 
  -  Azure AD Connect Cloud Sync
  -  Azure AD Connect pass through
  -  AD FS deployments
- -  Azure Active Directory Single Sign-On
+ -  Azure Active Directory single sign-on
 
 Microsoft 365 uses Azure Active Directory (Azure AD), which is a cloud-based user identity and authentication service that's included with a Microsoft 365 subscription. Azure AD manages identities and authentication for Microsoft 365. This module examined the importance of correctly configuring your identity infrastructure and managing Microsoft 365 user access and permissions for your organization.
 
