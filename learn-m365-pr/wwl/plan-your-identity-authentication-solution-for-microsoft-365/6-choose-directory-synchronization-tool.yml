@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.choose-directory-synchronization-tool
+title: Choose your directory synchronization tool
+metadata:
+  title: Choose your directory synchronization tool
+  description: "Choose your directory synchronization tool"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/6-choose-directory-synchronization-tool.md)]

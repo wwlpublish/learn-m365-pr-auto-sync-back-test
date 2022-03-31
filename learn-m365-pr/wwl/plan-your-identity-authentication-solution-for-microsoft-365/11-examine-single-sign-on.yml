@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.examine-single-sign-on
+title: Examine how Azure AD Single Sign-On simplifies user access
+metadata:
+  title: Examine how Azure AD Single Sign-On simplifies user access
+  description: "Examine how Azure AD Single Sign-On simplifies user access"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/11-examine-single-sign-on.md)]

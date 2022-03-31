@@ -3,21 +3,21 @@ uid: learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365
 metadata:
   title: Plan your identity and authentication solution for Microsoft 365
   description: "Plan your identity and authentication solution for Microsoft 365"
-  ms.date: 06/30/2021
+  ms.date: 03/31/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Plan your identity and authentication solution for Microsoft 365
-summary: This module examines the key areas that organizations must plan for to design the identity and authentication solutions they'll employ in their Microsoft 365 tenant.
+summary: This module examines the key areas that organizations must plan for in order to design the identity and authentication solutions they'll employ in their Microsoft 365 tenant.
 abstract: |
-  By the end of this module, you will be able to:
-  - Describe authentication behavior for Office client apps when they connect with or without modern authentication to Exchange Online, SharePoint Online, and Skype for Business Online
-  - Explain how multifactor authentication is supported in a Microsoft 365 deployment
-  - Create a plan for directory synchronization and Azure AD Connect Pass-through authentication
-  - Describe the issues, benefits, and best practices when implementing federated authentication using Active Directory Federation Services (AD FS)
-  - Contrast the options available for restricting traffic in an AD FS deployment
-  - Plan for Azure AD Seamless Single Sign-On
+  By the end of this module, you'll be able to:
+  *   Describe authentication behavior for Office client apps when they connect to Exchange Online, SharePoint Online, and Skype for Business Online.
+  *   Explain how multi-factor authentication is supported in a Microsoft 365 deployment.
+  *   Create a plan for directory synchronization and Azure AD Connect Pass-through authentication.
+  *   Explore how password hash synchronization supports cloud authentication.
+  *   Describe the issues, benefits, and best practices when implementing federated authentication using Active Directory Federation Services.
+  *   Plan for Azure AD Seamless Single Sign-On.
 prerequisites: ""
 iconUrl: /learn/achievements/plan-your-identity-and-authentication-solution-for-microsoft-365.svg
 levels:
@@ -27,19 +27,20 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.introduction
+- learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.determine-your-cloud-identity-model
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.examine-modern-authentication-for-office-apps
-- learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.evaluate-multifactor-authentication-for-your-deployment
-- learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.prepare-for-directory-synchronization-to-manage-identities
+- learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.evaluate-multifactor-authentication
+- learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.plan-authentication-within-multiple-forest-deployments
+- learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.choose-directory-synchronization-tool
+- learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.choose-authentication-method
+- learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.explore-password-hash-synchronization
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.implement-azure-ad-connect-pass-through-authentication
-- learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.implement-federated-authentication-using-adfs
-- learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.examine-adfs-microsoft-azure
-- learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.restrict-traffic-adfs-deployment
-- learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.implement-azure-ad-single-sign-to-simplify-user-access
+- learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.explore-federated-authentication
+- learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.examine-single-sign-on
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.knowledge-check
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.summary
 badge:

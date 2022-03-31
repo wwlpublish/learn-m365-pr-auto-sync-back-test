@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.choose-authentication-method
+title: Choose the authentication method for your Azure AD hybrid identity solution
+metadata:
+  title: Choose the authentication method for your Azure AD hybrid identity solution
+  description: "Choose the authentication method for your Azure AD hybrid identity solution"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/7-choose-authentication-method.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Lucerne Publishing has an existing on-premises directory, and it wants to move its apps to Microsoft 365. The company spent considerable time and effort determining the correct authentication method that it wants to use. In doing so, it considered the time, existing infrastructure, complexity, and implementation costs. Lucerne narrowed down its primary authentication requirement to one key factor. It wants its users to use the same username and password that they use on-premises without having to deploy any extra infrastructure. Given this overriding requirement, which authentication method should Lucerne Publishing employ?"
+    choices:
+    - content: "Federated authentication"
+      isCorrect: false
+      explanation: "Incorrect. This method requires more infrastructure. With this method, Azure AD hands off the authentication process to a separate trusted authentication system, such as on-premises Active Directory Federation Services (AD FS), to validate the user’s password. Try again."
+    - content: "Azure AD Pass-through Authentication"
+      isCorrect: false
+      explanation: "Incorrect. This method requires more infrastructure. It provides a simple password validation for Azure AD authentication services by using a software agent that runs on one or more on-premises servers. The servers validate the users directly with the on-premises Active Directory, which ensures the password validation doesn't happen in the cloud. Try again."
+    - content: "Azure AD password hash synchronization"
+      isCorrect: true
+      explanation: "Correct. This method is the simplest way to enable authentication for on-premises directory objects in Azure AD. Users can use the same username and password that they use on-premises without having to deploy any extra infrastructure."

@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.plan-authentication-within-multiple-forest-deployments
+title: Plan for authentication within multiple forest deployments
+metadata:
+  title: Plan for authentication within multiple forest deployments
+  description: "Plan for authentication within multiple forest deployments"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/5-plan-authentication-within-multiple-forest-deployments.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Fabrikam has multiple on-premises Active Directory forests and a single Microsoft 365 tenant. To complete its hybrid deployment prerequisites, what must Fabrikam do so that its secure mail transport functions correctly in its hybrid deployment?"
+    choices:
+    - content: "Simplify its on-premises environment by combining its Active Directory forests"
+      isCorrect: false
+      explanation: "Incorrect. This consideration is recommended to reduce overhead for authentication purposes. Try again."
+    - content: "Each forest must use a globally trusted, dedicated CA-issued certificate"
+      isCorrect: true
+      explanation: "Correct. All hybrid deployments require a digital certificate issued by trusted third-party certificate authority (CA). For a multi-forest hybrid deployment, a single digital certificate can't be used for multiple Active Directory forests. Each forest must use a globally trusted, dedicated CA-issued certificate for secure mail transport to function correctly in a hybrid deployment."
+    - content: "Consider deploying Microsoft 365 only in your primary sign-in forest for your initial rollout of Microsoft 365"
+      isCorrect: false
+      explanation: "Incorrect. This consideration is recommended for authentication purposes. Try again."
