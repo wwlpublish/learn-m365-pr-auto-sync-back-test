@@ -10,11 +10,11 @@ Windows continues to use many of the same computer controls that previous Window
 :::row-end:::
 :::row:::
   :::column:::
-    :::image type="content" source="../media/windows-10-settings-app-b4388dfa.png" alt-text="Screenshot of the Windows 10 settings app showing the main settings categories." lightbox="../media/windows-10-settings-app-b4388dfa.png":::
+    :::image type="content" source="../media/windows-10-settings-app-b4388dfa.png" alt-text="Screenshot of the Windows 10 settings app showing the main settings categories.":::
 
   :::column-end:::
   :::column:::
-    :::image type="content" source="../media/windows-11-settings-app-9bcdddb2.png" alt-text="Screenshot of the Windows 11 settings app showing the main categories, with the System category selected by default." lightbox="../media/windows-11-settings-app-9bcdddb2.png":::
+    :::image type="content" source="../media/windows-11-settings-app-9bcdddb2.png" alt-text="Screenshot of the Windows 11 settings app showing the main categories, with the System category selected by default.":::
 
   :::column-end:::
 :::row-end:::
