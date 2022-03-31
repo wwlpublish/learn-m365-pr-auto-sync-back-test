@@ -3,7 +3,7 @@ uid: learn.wwl.configure-threat-protection
 metadata:
   title: Configure threat protection
   description: Configure threat protection
-  ms.date: 03/14/2022
+  ms.date: 03/31/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -16,7 +16,6 @@ prerequisites: |
 summary: |
   This learning path introduces students to protecting devices from external threats. This path will teach students about using encryption, firewalls, and IPSec to help protect against threats.
 iconUrl: /learn/achievements/generic-trophy.svg
-hidden: true
 levels:
 - beginner
 roles:
