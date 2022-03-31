@@ -16,7 +16,6 @@ prerequisites: |
 summary: |
   In this learning path, students will learn about data protection and protecting endpoints against threats. This path will also cover the key capabilities of Microsoft Defender solutions.
 iconUrl: /learn/achievements/generic-trophy.svg
-hidden: true
 levels:
 - intermediate
 roles:

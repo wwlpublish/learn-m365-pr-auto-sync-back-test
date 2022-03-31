@@ -16,7 +16,6 @@ prerequisites: |
 summary: |
   Students well be introduced to deployment using the Microsoft Deployment Toolkit and Configuration Manager.
 iconUrl: /learn/achievements/generic-trophy.svg
-hidden: true
 levels:
 - intermediate
 roles:
