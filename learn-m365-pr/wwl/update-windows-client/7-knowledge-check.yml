@@ -1,0 +1,41 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.update-windows-client.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/30/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the new Desktop Administrator for Contoso, Holly Dickson, has determined that the company is too large to continue configuring each individual computer with specific Windows Update settings. Instead, Holly wants to create a Group Policy Object (GPO) to configure the necessary settings. When using GPOs in this manner, what will Holly use to apply those settings to the appropriate collection of computers?"
+    choices:
+    - content: "Active Directory Domain Services"
+      isCorrect: true
+      explanation: "Correct. To configure each individual computer with specific Windows Update settings would be very time-consuming. Fortunately, you can create a Group Policy Object (GPO) to configure the necessary settings, and then use Active Directory Domain Services (AD DS) to apply those settings to the appropriate collection of computers."
+    - content: "Microsoft Intune"
+      isCorrect: false
+      explanation: "Incorrect. This item is an update method and not a vehicle for applying GPOs. It uses Intune configuration profiles to control the distribution of Windows updates. Try again."
+    - content: "Microsoft Endpoint Configuration Manager"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Endpoint Configuration Manager performs many configuration management–based tasks in an enterprise, including update management. However, it's not a vehicle for applying GPOs. Try again."
+  - content: "How often does Microsoft release feature updates?"
+    choices:
+    - content: "Monthly"
+      isCorrect: false
+      explanation: "Incorrect. Feature updates aren't delivered monthly. Try again."
+    - content: "Quarterly"
+      isCorrect: false
+      explanation: "Incorrect. Feature updates aren't delivered quarterly. Try again."
+    - content: "Annually"
+      isCorrect: true
+      explanation: "Correct. Feature updates add new functionality annually. Microsoft aims to package new features into annual updates that can be readily deployed using existing management tools. Because the updates are delivered using the same method as quality updates, deployment is considerably easier. Consequently, the workload and cost effect on organizations is reduced. OS upgrades are also now delivered through this method, such as upgrading from Windows 10 to Windows 11."

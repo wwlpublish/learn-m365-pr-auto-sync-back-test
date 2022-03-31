@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.employ-file-recovery-windows-client.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/29/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/9-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Desktop Administrator for Contoso, Holly Dickson is comparing the various recovery features that are available. Which of the following is a true statement regarding file recovery options that Holly should consider when determining which recovery option to use?"
+    choices:
+    - content: "Windows provides three file recovery options - File History, Backup and Restore (Windows 7), and Azure Backup"
+      isCorrect: false
+      explanation: "Incorrect. Azure Backup isn't included in Windows. You must purchase a Microsoft Azure subscription to use this file recovery tool. Try again."
+    - content: "File History and Azure Backup can recover files and folders on the same computer on which the backup was created, and on different computers"
+      isCorrect: false
+      explanation: "Incorrect. Both the Backup and Restore (Windows 7) tool and Azure Backup can recover files and folders on the same computer on which the backup was created, and on different computers. Try again."
+    - content: "File History can only recover files and folders on the computer on which the backup was created"
+      isCorrect: true
+      explanation: "Correct. Both the Backup and Restore (Windows 7) tool and Azure Backup can recover files and folders on the same computer on which the backup was created, and on different computers. However, File History can recover files and folders only on the computer on which the backup was created."
+  - content: "As the Desktop Administrator for Tailspin Toys, Alan Deyoung enabled File History on the company's Windows 10 and 11 computers. By doing so, File History automatically creates a backup of modified user files on each computer's local drive. By default, how often does File History copy the modified files in protected folders?"
+    choices:
+    - content: "Every hour"
+      isCorrect: true
+      explanation: "Correct. After you enable File History, it creates a backup of modified user files automatically on the local drive, removable drive, or network location. File History backs up the folders in user profiles and libraries, and you can add additional folders. By default, File History copies the modified files in protected folders every hour, and Windows keeps them indefinitely, as long as there is enough storage space."
+    - content: "Every 12 hours"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the correct interval at which File History copies the modified files in protected folders. Try again."
+    - content: "Once a day"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the correct interval at which File History copies the modified files in protected folders. Try again."
+  - content: "As the Desktop Administrator for Lucerne Publishing, Patti Fernandez used Folder Redirection in the company's domain environment to redirect local folders from the user profile to the file server. Which tool should Patti use to make a local copy of these redirected files and then make them available even when there's no network connectivity to the file server?"
+    choices:
+    - content: "Work Folders tool"
+      isCorrect: false
+      explanation: "Incorrect. Work Folders synchronize data files between the file server and user devices. Try again."
+    - content: "Offline Files tool"
+      isCorrect: true
+      explanation: "Correct. In a domain environment, Folder Redirection redirects local folders from the user profile to the file server. Offline Files makes a local copy of redirected files and then makes them available even when there is no network connectivity to the file server."
+    - content: "robocopy.exe"
+      isCorrect: false
+      explanation: "Incorrect. The robocopy.exe tool can be used to copy files manually to other media or a network location. Try again."
+  - content: "As the Desktop Administrator for Fabrikam, Holly Spencer wants to use the Previous Versions tab in File Explorer to view, restore, or revert previous versions of files, folders, or volumes. What must Holly configure to be able to use the Previous Versions feature?"
+    choices:
+    - content: "A virtual hard disk"
+      isCorrect: false
+      explanation: "Incorrect. This item doesn't need to be configured to use the Previous Versions feature. Try again."
+    - content: "A system image"
+      isCorrect: false
+      explanation: "Incorrect. This item doesn't need to be configured to use the Previous Versions feature. Try again."
+    - content: "Restore points"
+      isCorrect: true
+      explanation: "Correct. The Previous Versions tab in File Explorer is a Windows feature that enables users to view, restore, or revert previous versions of files, folders, or volumes. Data from File History or restore points populates the Previous Versions tab. Therefore, you must configure either File History or restore points to be able to use the Previous Versions feature."
+  - content: "You support a number of Windows 10 computers that store files on FAT32 file systems. You need to configure a recovery option that will allow you to recover data that was backed up from these systems. Which recovery option should you choose?"
+    choices:
+    - content: "File History"
+      isCorrect: true
+      explanation: "Correct. File History, Backup and Restore (Windows 7), and Azure Backup can all protect and recover files and folders that are stored on an NTFS volume, the most common file system in Windows. If files are stored on other file systems, such as FAT, FAT32, exFAT or ReFS, you only can use File History to protect and recover them. The Windows Backup and Restore (Windows 7) tool and Azure Backup don't support those file systems."
+    - content: "Windows Backup and Restore (Windows 7)"
+      isCorrect: false
+      explanation: "Incorrect. Windows Backup and Restore (Windows 7) only supports files and folders that are stored on an NTFS file system. Try again."
+    - content: "Azure Backup"
+      isCorrect: false
+      explanation: "Incorrect. Azure Backup only supports files and folders that are stored on an NTFS file system. Try again."

@@ -26,6 +26,7 @@ products:
 - m365
 - office-365
 - office-exchange-server
+- office-exchange-online
 units:
 - learn-m365.m365-messaging-configure-transport-architecture.introduction
 - learn-m365.m365-messaging-configure-transport-architecture.plan-connectors
