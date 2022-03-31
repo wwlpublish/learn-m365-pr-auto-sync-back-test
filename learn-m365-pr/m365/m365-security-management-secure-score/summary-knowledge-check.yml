@@ -53,8 +53,8 @@ quiz:
       - content: "Office Defender for Cloud"
         isCorrect: true
         explanation: "Correct. Office Security Center does not exist, the Microsoft 365 Defender portal is the centralized location for security administrators and security operations teams."
-      - content: "Microsoft Defender for Endpoint"
+      - content: "Microsoft Defender for Cloud"
         isCorrect: false
-        explanation: "That's incorrect. Microsoft Secure Score includes recommendations from Microsoft Defender for Endpoint."
+        explanation: "That's incorrect. Microsoft Secure Score includes recommendations from Microsoft Defender for Cloud."
       
 
