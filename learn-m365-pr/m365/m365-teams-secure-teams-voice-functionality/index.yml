@@ -25,6 +25,7 @@ roles:
 - administrator
 products:
 - office-teams
+- microsoft-teams-phone
 units:
 - learn-m365.teams.secure-teams-voice-functionality.1-introduction
 - learn-m365.teams.secure-teams-voice-functionality.2-configure-calling-policies

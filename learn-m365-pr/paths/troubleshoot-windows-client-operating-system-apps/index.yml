@@ -1,0 +1,32 @@
+### YamlMime:LearningPath
+uid: learn.wwl.troubleshoot-windows-client-operating-system-apps
+metadata:
+  title: Troubleshoot the Windows client operating system and apps
+  description: Troubleshoot the Windows client operating system and apps
+  ms.date: 03/30/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot the Windows client operating system and apps
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+summary: |
+  This learning path helps students plan for file backup and recovery.  Students will learn how to plan and configure data protection strategies and how to perform various file and system recovery methods.
+iconUrl: /learn/achievements/generic-trophy.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+modules:
+- learn.wwl.employ-file-recovery-windows-client
+- learn.wwl.explore-application-troubleshooting
+- learn.wwl.troubleshoot-windows-startup
+- learn.wwl.troubleshoot-operating-system-service-issues
+trophy:
+  uid: learn.wwl.troubleshoot-windows-client-operating-system-apps.trophy

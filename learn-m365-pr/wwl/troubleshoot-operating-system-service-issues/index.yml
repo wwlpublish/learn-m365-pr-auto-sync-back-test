@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.troubleshoot-operating-system-service-issues
+metadata:
+  title: Troubleshoot operating system service issues
+  description: "This module discusses the role of operating system services and how to troubleshoot issues that restrict functionality. This module also discusses resolving issues with signing in to Windows."
+  ms.date: 03/30/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot operating system service issues
+summary: This module discusses the role of operating system services and how to troubleshoot issues that restrict functionality. This module also discusses resolving issues with signing in to Windows.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe operating system services.
+  - Identify failed services by using Windows tools.
+  - Explain how to use tools and utilities to disable services.
+  - Explain how to resolve locked-out accounts.
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.troubleshoot-operating-system-service-issues.introduction
+- learn.wwl.troubleshoot-operating-system-service-issues.examine-operating-system-services
+- learn.wwl.troubleshoot-operating-system-service-issues.identify-failed-operating-system-services
+- learn.wwl.troubleshoot-operating-system-service-issues.disable-operating-system-services
+- learn.wwl.troubleshoot-operating-system-service-issues.troubleshoot-locked-accounts-windows-clients
+- learn.wwl.troubleshoot-operating-system-service-issues.identify-sign-errors
+- learn.wwl.troubleshoot-operating-system-service-issues.knowledge-check
+- learn.wwl.troubleshoot-operating-system-service-issues.summary
+badge:
+  uid: learn.wwl.troubleshoot-operating-system-service-issues.badge

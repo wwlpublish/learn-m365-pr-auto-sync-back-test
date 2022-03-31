@@ -1,0 +1,47 @@
+### YamlMime:Module
+uid: learn.wwl.deploy-new-devices
+metadata:
+  title: Deploy new devices
+  description: "Use Autopilot to deploy new hardware or refreshing an existing hardware with the organization’s desired configuration, without using the traditional imaging process."
+  ms.date: 03/29/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Deploy new devices
+summary: Use Autopilot to deploy new hardware or refreshing an existing hardware with the organization’s desired configuration, without using the traditional imaging process.
+abstract: |
+  After completing this module, you will be able to:
+  - Explain the benefits of modern deployment for new devices.
+  - Describe the process of preparing for an Autopilot deployment.
+  - Describe the process of registering devices in Autopilot.
+  - Describe the different methods and scenarios of Autopilot deployments.
+  - Describe how to troubleshoot common Autopilot issues.
+  - Describe the process of deployment using traditional methods.
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.deploy-new-devices.introduction
+- learn.wwl.deploy-new-devices.use-autopilot-modern-deployment
+- learn.wwl.deploy-new-devices.examine-requirements-windows-autopilot
+- learn.wwl.deploy-new-devices.prepare-device-ids-autopilot
+- learn.wwl.deploy-new-devices.implement-device-registration-out-box-customization
+- learn.wwl.deploy-new-devices.examine-autopilot-scenarios
+- learn.wwl.deploy-new-devices.troubleshoot-windows-autopilot
+- learn.wwl.deploy-new-devices.knowledge-check
+- learn.wwl.deploy-new-devices.summary
+badge:
+  uid: learn.wwl.deploy-new-devices.badge

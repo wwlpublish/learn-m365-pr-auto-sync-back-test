@@ -1,0 +1,46 @@
+### YamlMime:Module
+uid: learn.wwl.employ-file-recovery-windows-client
+metadata:
+  title: Employ file recovery in Windows client
+  description: "In this module, you will learn about the Windows file backup and recovery tools."
+  ms.date: 03/29/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Employ file recovery in Windows client
+summary: In this module, you will learn about the Windows file backup and recovery tools.
+abstract: |
+  After completing this module, you will be able to:
+  - Explain the Windows file recovery methods and tools.
+  - Use File History to recover files.
+  - Describe and use the Previous Versions feature.
+  - Describe how to configure and use the Azure Backup tool.
+  - Troubleshoot File Recovery Options.
+  - Explain how and when to use the Reset this PC tool.
+  - Explain how to use provisioning packages.
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.employ-file-recovery-windows-client.introduction
+- learn.wwl.employ-file-recovery-windows-client.explain-importance-file-recovery
+- learn.wwl.employ-file-recovery-windows-client.explain-file-history
+- learn.wwl.employ-file-recovery-windows-client.protect-files-using-azure-backup
+- learn.wwl.employ-file-recovery-windows-client.restore-files-using-backup-restore-windows-7
+- learn.wwl.employ-file-recovery-windows-client.restore-files-using-previous-versions-tab
+- learn.wwl.employ-file-recovery-windows-client.compare-file-recovery-options
+- learn.wwl.employ-file-recovery-windows-client.troubleshoot-file-recovery-options
+- learn.wwl.employ-file-recovery-windows-client.knowledge-check
+- learn.wwl.employ-file-recovery-windows-client.summary
+badge:
+  uid: learn.wwl.employ-file-recovery-windows-client.badge
