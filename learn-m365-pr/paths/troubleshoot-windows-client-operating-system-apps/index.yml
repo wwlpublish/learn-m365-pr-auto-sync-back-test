@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-windows-client-operating-system-apps
 metadata:
   title: Troubleshoot the Windows client operating system and apps
   description: Troubleshoot the Windows client operating system and apps
-  ms.date: 03/30/2022
+  ms.date: 03/31/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -16,7 +16,6 @@ prerequisites: |
 summary: |
   This learning path helps students plan for file backup and recovery.  Students will learn how to plan and configure data protection strategies and how to perform various file and system recovery methods.
 iconUrl: /learn/achievements/generic-trophy.svg
-hidden: true
 levels:
 - beginner
 roles:
