@@ -1,0 +1,34 @@
+### YamlMime:LearningPath
+uid: learn.wwl.manage-security-windows
+metadata:
+  title: Manage Windows client security
+  description: Manage Windows client security
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage Windows client security
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+summary: |
+  In this learning path, students will learn about data protection and protecting endpoints against threats. This path will also cover the key capabilities of Microsoft Defender solutions.
+iconUrl: /learn/achievements/generic-trophy.svg
+hidden: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+modules:
+- learn.wwl.implement-device-data-protection
+- learn.wwl.manage-microsoft-defender-endpoint
+- learn.wwl.manage-microsoft-defender-windows-client
+trophy:
+  uid: learn.wwl.manage-security-windows.trophy
