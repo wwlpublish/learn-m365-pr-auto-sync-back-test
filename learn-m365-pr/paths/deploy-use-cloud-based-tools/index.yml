@@ -1,0 +1,35 @@
+### YamlMime:LearningPath
+uid: learn.wwl.deploy-use-cloud-based-tools
+metadata:
+  title: Deploy using cloud based tools
+  description: Deploy using cloud based tools
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Deploy using cloud based tools
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+summary: |
+  Students will learn about using Windows Autopilot and deployment using Microsoft Intune. Students will also learn how Co-Management can be used to transitioning to modern management.
+iconUrl: /learn/achievements/generic-trophy.svg
+hidden: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+modules:
+- learn.wwl.deploy-new-devices
+- learn.wwl.implement-dynamic-deployment-methods
+- learn.wwl.plan-transition-modern-management
+- learn.wwl.manage-virtual-desktops
+trophy:
+  uid: learn.wwl.deploy-using-cloud-based-tools.trophy
