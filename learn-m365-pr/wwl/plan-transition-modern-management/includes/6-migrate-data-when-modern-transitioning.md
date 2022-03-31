@@ -44,7 +44,7 @@ Historically, it's the user's responsibly to set this up. Known Folder Move enab
 
 Enabling Known Folder Move is done through Group Policy. You'll need to install the Group Policy templates, which are located at **%localappdata%\\Microsoft\\OneDrive\[BuildNumber\]\\adm** of a OneDrive client. You'll need to enable the **Prompt users to move Windows known folders to OneDrive** policy and configure it with your tenant ID (located in Azure AD admin center).
 
-:::image type="content" source="../media/known-folder-move-b78855c6.jpg" alt-text="Screenshot of the user experience when Known Folder Move is implimented.":::
+:::image type="content" source="../media/known-folder-move-b78855c6.jpg" alt-text="Screenshot of the user experience when Known Folder Move is implemented.":::
 
 
 If a user is already using OneDrive to redirect their folders to another account (such as a personal account), they'll be prompted to direct the folders to the organizational account.

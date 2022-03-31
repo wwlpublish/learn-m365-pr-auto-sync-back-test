@@ -71,7 +71,7 @@ Modern desktop deployment with Windows Autopilot helps you easily deploy the lat
 :::image type="content" source="../media/autopilot-for-existing-devices-task-sequence-editor-21352361.png" alt-text="Screenshot of Task Sequence Editor showing Autopilot for existing devices options.":::
 
 
-As with many of the options that exist in a deployment strategy, transforming a device is only relevant if this fits into you overall planning approach. You may want to begin your journey with newly provisioned devices and migrate over time.
+As with many of the options that exist in a deployment strategy, transforming a device is only relevant if this fits into your overall planning approach. You may want to begin your journey with newly provisioned devices and migrate over time.
 
 With tools such as Microsoft Intune and Autopilot, device deployment and the deployment scenarios are beginning to change. Co-management offers that bridge to spread workloads between Intune and Configuration Manager. This means that co-management can offer a path to modern management (with a workflow moved fully to Intune) or it can be part of the journey in helping an enterprise get to modern management by allowing it to trial the workload in Intune while running most production clients from Configuration Manager.
 
