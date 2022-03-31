@@ -17,7 +17,6 @@ prerequisites: |
 summary: |
   This learning path covers the various solutions for managing authentication. Students will also learn about the different types of VPNs, as well as compliance and conditional access policies.
 iconUrl: /learn/achievements/generic-trophy.svg
-hidden: true
 levels:
 - intermediate
 roles:
