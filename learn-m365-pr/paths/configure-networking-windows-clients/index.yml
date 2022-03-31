@@ -3,7 +3,7 @@ uid: learn.wwl.configure-networking-windows-clients
 metadata:
   title: Configure networking on Windows clients
   description: Configure networking on Windows clients
-  ms.date: 03/23/2022
+  ms.date: 03/31/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -16,7 +16,6 @@ prerequisites: |
 summary: |
   In this module, students will learn about networking concepts. This module will introduce to IPv4 and IPv6, and concepts like DNS.  Students will learn how to configure network settings methods of managing Windows remotely.
 iconUrl: /learn/achievements/generic-trophy.svg
-hidden: true
 levels:
 - beginner
 roles:

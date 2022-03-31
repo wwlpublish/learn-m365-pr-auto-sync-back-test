@@ -1,0 +1,46 @@
+### YamlMime:Module
+uid: learn.wwl.assess-deployment-readiness
+metadata:
+  title: Assess deployment readiness
+  description: "Discusses some of the tools that you can use to perform detailed assessments of existing deployments, and describes some of the challenges that you may face."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Assess deployment readiness
+summary: Discusses some of the tools that you can use to perform detailed assessments of existing deployments, and describes some of the challenges that you may face.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe the guidelines for an effective enterprise desktop deployment.
+  - Explain how to assess the current environment.
+  - Describe the tools that you can use to assess your current environment.
+  - Describe the methods of identifying and mitigating application compatibility issues.
+  - Explain considerations for planning a phased rollout.
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.assess-deployment-readiness.introduction
+- learn.wwl.assess-deployment-readiness.examine-deployment-guidelines
+- learn.wwl.assess-deployment-readiness.explore-readiness-tools
+- learn.wwl.assess-deployment-readiness.assess-application-compatibility
+- learn.wwl.assess-deployment-readiness.explore-tools-application-compatibility-mitigation
+- learn.wwl.assess-deployment-readiness.prepare-network-directory-deployment
+- learn.wwl.assess-deployment-readiness.plan-pilot
+- learn.wwl.assess-deployment-readiness.knowledge-check
+- learn.wwl.assess-deployment-readiness.summary
+badge:
+  uid: learn.wwl.assess-deployment-readiness.badge
