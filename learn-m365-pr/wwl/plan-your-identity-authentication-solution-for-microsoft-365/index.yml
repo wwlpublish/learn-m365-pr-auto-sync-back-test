@@ -33,7 +33,7 @@ units:
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.introduction
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.determine-your-cloud-identity-model
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.examine-modern-authentication-for-office-apps
-- learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.evaluate-multifactor-authentication
+- learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.evaluate-multifactor-authentication-for-your-deployment
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.plan-authentication-within-multiple-forest-deployments
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.choose-directory-synchronization-tool
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.choose-authentication-method
