@@ -1,0 +1,35 @@
+### YamlMime:LearningPath
+uid: learn.wwl.explore-modern-management
+metadata:
+  title: Explore modern management
+  description: Explore modern management
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore modern management
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later.
+  - Strong understanding of computer networking, client security, and application concepts.
+  - Experience using Active Directory Domain Services.
+summary: |
+  This learning path explains the concepts of supporting the desktop through its entire lifecycle.
+iconUrl: /learn/achievements/generic-trophy.svg
+hidden: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+- microsoft-deployment-toolkit
+modules:
+- learn.wwl.examine-enterprise-desktop
+- learn.wwl.explore-azure-active-directory
+- learn.wwl.manage-identities-azure-active-directory
+trophy:
+  uid: learn.wwl.explore-modern-management.trophy
