@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-create-customize-answers.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Confirm what you've learned about Microsoft Search.
+  ms.date: 03/30/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 5
+quiz:
+  title: "Check your knowledge"
+  questions:
+    - content: "Where are Microsoft Search answers like bookmarks, Q&As, and acronyms created?"
+      choices:
+      - content: "In the settings section of the Bing homepage."
+        isCorrect: false
+        explanation: "Try again. Bing homepage settings customize that page for the user."
+      - content: "Anyone can create Microsoft Search answers in the Microsoft 365 admin center."
+        isCorrect: false
+        explanation: "Try again. Only admins and editors with permissions can access the Microsoft 365 admin center and the Search & intelligence settings."
+      - content: "Admins can create and publish answers in the Search & intelligence section of the Microsoft 365 admin center."
+        isCorrect: true
+        explanation: "Correct! Search admins and editors can create bookmarks, Q&As, and other answers using the Search & intelligence settings in the Microsoft 365 admin center."
+
+    - content: "How can users identify a recommended bookmark in search results?"
+      choices:
+      - content: "Recommended bookmarks will always appear at the top of search results."
+        isCorrect: false
+        explanation: "Try again. Bookmarks are listed based on their relevance."
+      - content: "Recommended bookmarks include the phrase 'Suggested for you' before the URL."
+        isCorrect: true
+        explanation: "Correct! In search results, recommended bookmarks will be labeled as 'Suggested for you.'"
+      - content: "In search results, recommended bookmarks will be called out in larger font."
+        isCorrect: false
+        explanation: "Try again. Recommended bookmarks have the same appearance as other results."
+
+    - content: "What type of file is needed to create floor plan answers in Microsoft Search?"
+      choices:
+      - content: "A JPG or PNG file."
+        isCorrect: false
+        explanation: "Try again. Neither of these file types can be used to create floor plan answers."
+      - content: "A DWG file."
+        isCorrect: true
+        explanation: "Correct! Admins can only create floor plan answers in Microsoft Search using DWG files."
+      - content: "A MAP file."
+        isCorrect: false
+        explanation: "Try again. MAP files aren't used to create floor plan answers in Microsoft Search." 

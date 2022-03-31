@@ -1,0 +1,5 @@
+This module examined how clients connect to Microsoft 365. You initially reviewed the name resolution configurations to ensure that clients can connect without user intervention. You then examined Outlook client configuration. Finally, you reviewed some troubleshooting techniques that can be helpful for Microsoft 365 clients.
+
+Now that you've completed this module, you should have a greater understanding how client connectivity works in Microsoft 365, especially with Outlook. You learned how Outlook uses Autodiscover to connect an Outlook client to Exchange Online. You also reviewed the DNS records needed for Outlook and other Office-related clients to automatically locate the services in Microsoft 365 using the Autodiscover process. Finally, you learned about the connectivity protocols that enable Outlook to connect to Microsoft 365.
+
+The module concluded with an analysis of the tools that can help you troubleshoot connectivity issues in Microsoft 365 deployments. These tools include Microsoft Remote Connectivity Analyzer, Microsoft 365 Support and Recovery Assistant, and Microsoft Message Analyzer.

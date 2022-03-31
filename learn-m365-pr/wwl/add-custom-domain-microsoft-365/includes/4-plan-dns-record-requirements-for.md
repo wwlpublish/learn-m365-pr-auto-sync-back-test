@@ -1,9 +1,9 @@
-After the Microsoft 365 setup wizard has verified the organization owns the custom domain, the administrator should add other DNS records to the custom DNS zone that enable the organization’s clients to locate Microsoft 365 services. Each DNS zone can contain several different DNS record types that provide differing name resolution services.
+After the Microsoft 365 setup wizard has verified the organization owns the custom domain, the administrator should add other DNS records to the custom DNS zone. These records should enable the organization’s clients to locate Microsoft 365 services. Each DNS zone can contain several different DNS record types that provide differing name resolution services.
 
  -  If the organization hosts its own external DNS server, then a DNS administrator should add the necessary DNS records to provide client connectivity to Office 365 services.
- -  If a DNS provider hosts the organization’s DNS zone, then administrators should add the necessary DNS records through the appropriate management console that the DNS provider has created. Some DNS providers, such as GoDaddy, provide automated DNS record configuration for Microsoft 365, so organizations don't need to manually create their DNS records for Microsoft 365. Furthermore, organizations might also select the option to have Microsoft 365 configure and host the DNS records.
+ -  If a DNS provider hosts the organization’s DNS zone, then administrators should add the necessary DNS records through the appropriate management console that the DNS provider has created. Some DNS providers, such as GoDaddy, provide automated DNS record configuration for Microsoft 365. This design saves organizations from having to manually create their DNS records for Microsoft 365. Organizations may also select the option to have Microsoft 365 configure and host the DNS records.
 
-Microsoft 365 uses the following subset of DNS records:
+Microsoft 365 uses the following subset of DNS records, each of which is examined in the following sections:
 
  -  DNS records for Exchange Online
  -  DNS records for Skype for Business Online
@@ -50,7 +50,7 @@ The following table identifies the requirements for the MX and CNAME records for
     Adatum-com.mail.protection.outlook.com
   :::column-end:::
   :::column:::
-    1 Hour
+    One Hour
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -67,7 +67,7 @@ The following table identifies the requirements for the MX and CNAME records for
     autodiscover.outlook.com
   :::column-end:::
   :::column:::
-    1 Hour
+    One Hour
   :::column-end:::
 :::row-end:::
 
@@ -99,7 +99,7 @@ The following table identifies the requirements for the TXT records for Exchange
     v=spf1 include:spf.protection.outlook.com -all
   :::column-end:::
   :::column:::
-    1 Hour
+    One Hour
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -113,7 +113,7 @@ The following table identifies the requirements for the TXT records for Exchange
     Custom-generated, domain-proof hash text
   :::column-end:::
   :::column:::
-    1 Hour
+    One Hour
   :::column-end:::
 :::row-end:::
 
@@ -176,7 +176,7 @@ The following table identifies the requirements for the SRV records for Skype fo
     100
   :::column-end:::
   :::column:::
-    1 Hour
+    One Hour
   :::column-end:::
   :::column:::
     @
@@ -205,7 +205,7 @@ The following table identifies the requirements for the SRV records for Skype fo
     100
   :::column-end:::
   :::column:::
-    1 Hour
+    One Hour
   :::column-end:::
   :::column:::
     @
@@ -243,7 +243,7 @@ The following table identifies the requirements for the CNAME records for Skype 
     sipdir.online.lync.com
   :::column-end:::
   :::column:::
-    1 Hour
+    One Hour
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -257,7 +257,7 @@ The following table identifies the requirements for the CNAME records for Skype 
     webdir.online.lync.com
   :::column-end:::
   :::column:::
-    1 Hour
+    One Hour
   :::column-end:::
 :::row-end:::
 
@@ -291,7 +291,7 @@ The following table identifies the requirements for the Address (A) record for M
     sipdir.online.lync.com
   :::column-end:::
   :::column:::
-    1 Hour
+    One Hour
   :::column-end:::
 :::row-end:::
 
@@ -330,7 +330,7 @@ The following table identifies the requirements for the CNAME records for Mobile
     enterpriseregistration.windows.net
   :::column-end:::
   :::column:::
-    1 Hour
+    One Hour
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -344,12 +344,12 @@ The following table identifies the requirements for the CNAME records for Mobile
     enterpriseenrollment.manage.microsoft.com
   :::column-end:::
   :::column:::
-    1 Hour
+    One Hour
   :::column-end:::
 :::row-end:::
 
 
-The DNS record for Microsoft Online Services Sign-In Assistant is a CNAME record. This record is used during the authentication process by client applications, such as Outlook, Skype for Business Online, Windows PowerShell, and the Microsoft Azure Active Directory Sync tool. By using this record, Microsoft 365 connects clients to the appropriate authentication endpoint, depending on the client location.
+The DNS record for Microsoft Online Services Sign-In Assistant is a CNAME record. This record is used during the authentication process by client applications, such as Outlook, Skype for Business Online, Windows PowerShell, and the Microsoft Azure Active Directory Sync tool. Microsoft 365 uses this record to connect clients to the appropriate authentication endpoint, depending on the client location.
 
 The following table identifies the requirements for the CNAME record for Microsoft Online Services Sign-In Assistant.
 
@@ -378,7 +378,7 @@ The following table identifies the requirements for the CNAME record for Microso
     clientconfig.microsoftonline-p.net
   :::column-end:::
   :::column:::
-    1 Hour
+    One Hour
   :::column-end:::
 :::row-end:::
 

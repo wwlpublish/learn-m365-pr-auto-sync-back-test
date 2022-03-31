@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-use-endpoint-configuration-manager.manage-client-deployment-using-configuration-manager
+title: Manage client deployment using Configuration Manager
+metadata:
+  title: Manage client deployment using Configuration Manager
+  description: "Manage client deployment using Configuration Manager"
+  ms.date: 03/29/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-manage-client-deployment-use-configuration-manager.md)]
