@@ -6,7 +6,7 @@ metadata:
   description: Learn how to analyze Viva Insights through Workplace Analytics data with R.
   ms.date: 03/18/2022
   author: madehmer
-  ms.author: helayne
+  ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 3
