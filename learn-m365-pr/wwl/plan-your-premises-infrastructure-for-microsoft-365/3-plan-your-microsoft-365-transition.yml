@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.plan-your-microsoft-365-transition
+title: Plan your transition to Microsoft 365
+metadata:
+  title: Plan your transition to Microsoft 365
+  description: "Plan your transition to Microsoft 365"
+  ms.date: 03/30/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/3-plan-your-microsoft-365-transition.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As Fabrikam's Enterprise Administrator, you're using the sample deployment planning checklist provided in this training to help keep your Microsoft 365 deployment on schedule. You determined your deployment goals and inventoried your current environment. Which of the following tasks should you do next?"
+    choices:
+    - content: "Collect details about any intranet sites that you plan to migrate"
+      isCorrect: false
+      explanation: "Incorrect. This task would be performed when you inventory your current environment. Try again."
+    - content: "Prepare for directory synchronization"
+      isCorrect: false
+      explanation: "Incorrect. This task would be performed when you set up Microsoft 365 services to work for your organization. Try again."
+    - content: "Update client software versions"
+      isCorrect: true
+      explanation: "Correct. After you determine your deployment goals and take inventory of your current environment, the next step in the sample deployment planning checklist provided in this training is to fix potential deployment blockers. Updating client software versions is one of the tasks that should be completed within this step."

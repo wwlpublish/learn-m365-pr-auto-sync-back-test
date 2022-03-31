@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-client-aconnectivity-to-microsoft-365.troubleshoot
+title: Troubleshoot client connectivity
+metadata:
+  title: Troubleshoot client connectivity
+  description: "Troubleshoot client connectivity"
+  ms.date: 03/30/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-troubleshoot.md)]

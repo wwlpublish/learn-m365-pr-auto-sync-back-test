@@ -1,0 +1,32 @@
+### YamlMime:LearningPath
+uid: learn.wwl.configure-data-access-usage
+metadata:
+  title: Configure data access and usage
+  description: Configure data access and usage
+  ms.date: 03/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure data access and usage
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+summary: |
+  In this learning path, Students will learn about file and folder permissions and configuring settings through methods such as local and group policy.
+iconUrl: /learn/achievements/generic-trophy.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+modules:
+- learn.wwl.explore-windows-client-file-systems
+- learn.wwl.configure-manage-file-access
+- learn.wwl.configure-manage-shared-folders
+- learn.wwl.manage-user-files
+trophy:
+  uid: learn.wwl.configure-data-access-usage.trophy
