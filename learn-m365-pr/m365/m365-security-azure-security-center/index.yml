@@ -29,6 +29,7 @@ products:
 - azure
 - azure-security-center
 - azure-sentinel
+- m365-admin-center
 units:
 - learn-m365.sci-asc.introduction
 - learn-m365.sci-asc.gain-insights

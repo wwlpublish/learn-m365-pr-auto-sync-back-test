@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-windows-startup.configure-bcd-settings
+title: Configure the BCD settings
+metadata:
+  title: Configure the BCD settings
+  description: "Configure the BCD settings"
+  ms.date: 03/29/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/10-configure-boot-configuration-data-settings.md)]
