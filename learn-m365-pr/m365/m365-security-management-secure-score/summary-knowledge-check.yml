@@ -50,7 +50,7 @@ quiz:
       - content: "Azure Active Directory"
         isCorrect: false
         explanation: "That's incorrect. Microsoft Secure Score includes recommendations from Azure AD."
-      - content: "Office Defender for Cloud"
+      - content: "Office Security Center"
         isCorrect: true
         explanation: "Correct. Office Security Center does not exist, the Microsoft 365 Defender portal is the centralized location for security administrators and security operations teams."
       - content: "Microsoft Defender for Cloud"
