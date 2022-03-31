@@ -20,7 +20,7 @@ quiz:
     - content: "`MessageComposeCommand`"
       isCorrect: false
       explanation: "The `<ExtensionPoint xsi:type=\"\">` should be set to `MessageComponseCommandSurface`."
-    - content: "MessageComposeCommandSurface"
+    - content: "`MessageComposeCommandSurface`"
       isCorrect: true
       explanation: "Correct"
     - content: "`MessageComposeSurface`"
