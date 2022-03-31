@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.assess-deployment-readiness.prepare-network-directory-deployment
+title: Prepare network and directory for deployment
+metadata:
+  title: Prepare network and directory for deployment
+  description: "Prepare network and directory for deployment"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/6-prepare-network-directory-deployment.md)]

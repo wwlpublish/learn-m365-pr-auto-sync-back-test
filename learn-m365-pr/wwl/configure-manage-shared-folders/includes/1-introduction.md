@@ -2,7 +2,7 @@ Collaboration is an important part of an administrator’s job. Your team might 
 
 Sharing folders enables users to connect to a shared folder over a network, and to access the folders and files that it contains. Shared folders can contain applications, public data, or a user’s personal data. Managing shared folders helps you provide a central location for users to access common files, and it simplifies the task of backing up data that those folders contain. This module examines various methods of sharing folders, along with the effect this has on file and folder permissions when you create shared folders on an NTFS-formatted partition.
 
-### Objectives 
+### Objectives
 
 After completing this module, you will be able to:
 
