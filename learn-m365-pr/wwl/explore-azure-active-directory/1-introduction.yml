@@ -1,16 +1,16 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.explore-windows-client.summary
-title: Summary
+uid: learn.wwl.explore-azure-active-directory.introduction
+title: Introduction
 metadata:
-  title: Summary
-  description: "Summary"
+  title: Introduction
+  description: "Introduction"
   ms.date: 03/31/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
-  ms.prod: learning-azure
+  ms.prod: learning-m365
 azureSandbox: false
 labModal: false
 durationInMinutes: 1
 content: |
-  [!include[](includes/7-summary.md)]
+  [!include[](includes/1-introduction.md)]

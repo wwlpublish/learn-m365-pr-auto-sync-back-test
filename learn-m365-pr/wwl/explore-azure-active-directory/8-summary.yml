@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.explore-windows-client.summary
+uid: learn.wwl.explore-azure-active-directory.summary
 title: Summary
 metadata:
   title: Summary
@@ -8,9 +8,9 @@ metadata:
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
-  ms.prod: learning-azure
+  ms.prod: learning-m365
 azureSandbox: false
 labModal: false
 durationInMinutes: 1
 content: |
-  [!include[](includes/7-summary.md)]
+  [!include[](includes/8-summary.md)]
