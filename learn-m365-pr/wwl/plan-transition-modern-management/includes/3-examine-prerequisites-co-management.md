@@ -19,7 +19,7 @@ To control Windows current devices:
 
 You can control the device registration behavior of your devices by deploying the following GPO: **Register domain-joined computers as devices**.
 
-1.  In the Group Policy Management Console, create two new GPOs and then go to **Computer Configuration** &gt; **Policies** &gt; **Administrative Templates** &gt; **Windows Components** &gt; **Device Registration**.
+1.  In the Group Policy Management Console, create two new GPOs and then go to **Computer Configuration** > **Policies** > **Administrative Templates** > **Windows Components** > **Device Registration**.
 2.  In the first GPO, apply the **Disabled** setting to prevent automatic device registration. In the second GPO, apply the **Enabled** setting to enable automatic device registration
 3.  Link the first GPO to all devices in your environment and then link the second GPO only to the OU containing your pilot devices. Alternatively, you can use Group Policy security filtering and a security group to control which devices can automatically register with Azure AD.
 
