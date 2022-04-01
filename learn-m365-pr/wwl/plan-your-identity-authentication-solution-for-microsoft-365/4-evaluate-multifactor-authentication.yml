@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.evaluate-multifactor-authentication-for-your-deployment
+title: Evaluate multifactor authentication for your Microsoft 365 deployment
+metadata:
+  title: Evaluate multifactor authentication for your Microsoft 365 deployment
+  description: "Evaluate multifactor authentication for your Microsoft 365 deployment"
+  ms.date: 04/01/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-evaluate-multifactor-authentication.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "You're the Enterprise Administrator for Tailspin Toys, Inc. Your company’s Microsoft 365 tenant is deployed in a Cloud Only environment. You're interested in enabling Azure Active Directory Multi-Factor Authentication (MFA). Which of the following authentication options can Tailspin Toys use as a second type of authentication for MFA?"
+    choices:
+    - content: "Physical or virtual smart card"
+      isCorrect: false
+      explanation: "Incorrect. This MFA option is only available in a hybrid setup that's managed on-premises. Try again."
+    - content: "Text message"
+      isCorrect: true
+      explanation: "Correct. In a Cloud Only deployment, Azure Active Directory MFA options include text message, phone call, and use of a mobile app."
+    - content: "Azure AD Multi-Factor Authentication App"
+      isCorrect: false
+      explanation: "Incorrect. This MFA option is only available in a hybrid setup that's managed on-premises. Try again."

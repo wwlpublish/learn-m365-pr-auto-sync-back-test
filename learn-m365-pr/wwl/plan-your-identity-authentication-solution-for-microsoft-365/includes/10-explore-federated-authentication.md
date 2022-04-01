@@ -6,7 +6,7 @@ When a user must access a Web application from one of its federation partners, t
 
 ### Federated authentication features
 
-A federated authentication system can provide extra advanced authentication requirements. Examples are smartcard-based authentication or third-party multifactor authentication. For more information, see [Deploying Active Directory Federation Services](/windows-server/identity/ad-fs/deployment/windows-server-2012-r2-ad-fs-deployment-guide).
+A federated authentication system can provide extra advanced authentication requirements. Examples are smartcard-based authentication or third-party multi-factor authentication. For more information, see [Deploying Active Directory Federation Services](/windows-server/identity/ad-fs/deployment/windows-server-2012-r2-ad-fs-deployment-guide?azure-portal=true).
 
 Administrators must consider the following issues when planning a federated authentication solution:
 
@@ -16,7 +16,7 @@ Administrators must consider the following issues when planning a federated auth
     
      -  Authentication that requires smartcards or certificates.
      -  On-premises MFA servers or third-party multifactor providers.
-     -  Authentication by using third-party authentication solutions. See the [Azure AD federation compatibility list](/azure/active-directory/connect/active-directory-aadconnect-federation-compatibility).
+     -  Authentication by using third-party authentication solutions. See the [Azure AD federation compatibility list](/azure/active-directory/connect/active-directory-aadconnect-federation-compatibility?azure-portal=true).
      -  Sign in that requires an sAMAccountName, for example, DOMAIN\\username, instead of a User Principal Name (UPN), for example, user@domain.com.
  -  **Business continuity.** Federated systems typically require a load-balanced array of servers, known as a farm. This farm is configured in an internal network and perimeter network topology to ensure high availability for authentication requests. You should deploy password hash synchronization along with federated authentication as a backup authentication method when the primary authentication method is no longer available. An example is when the on-premises servers aren't available. Some large enterprise organizations require a federation solution to support multiple Internet ingress points configured with geo-DNS for low-latency authentication requests.
  -  **Considerations.** Federated systems typically require a more significant investment in on-premises infrastructure. Most organizations choose this option if they already have an on-premises federation investment, and if it's a strong business requirement to use a single-identity provider. Federation is more complex to operate and troubleshoot compared to cloud authentication solutions.
@@ -30,6 +30,9 @@ The following list summarizes the major benefits of using AD FS to drive a feder
  -  **Centralized federated partner management.** All federated partner management is performed using the AD FS Microsoft Management Console (MMC) snap-in.
  -  **Extensible architecture.** AD FS provides an extensible architecture for claim augmentation; for example, adding or modifying claims using custom business logic during claims processing. Organizations can use this extensibility to modify AD FS to finely support their business policies.
 
-When implementing a federated authentication model, the following graphic identifies the components required for federation in an organization's perimeter and internal network.
+The following graphic identifies the components required for federation in an organization's perimeter and internal network.
 
 :::image type="content" source="../media/federation-components-49f802ee.png" alt-text="graphic identifies the components required for federation in your perimeter and internal network of your organization":::
+
+
+There's another alternative to deploying AD FS altogether if an organization's goal is only to enable single sign-on for Microsoft 365. In that case, directory synchronization with password hash synchronization can be deployed on-premises. This design achieves the same end-result with minimal deployment complexity because it doesn't require AD FS or Azure.

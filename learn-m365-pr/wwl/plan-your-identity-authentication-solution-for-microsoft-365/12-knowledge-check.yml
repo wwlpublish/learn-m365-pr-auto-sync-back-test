@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/01/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/12-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso currently has on-premises Exchange Server and SharePoint deployments. The company plans to deploy each service in a hybrid environment as part of its transition to Microsoft 365. It also plans to use password authentication along with multi-factor authentication for added security. Given these requirements, which directory synchronization method should Contoso use?"
+    choices:
+    - content: "Azure AD Connect sync"
+      isCorrect: true
+      explanation: "Correct. The two directory synchronization options are Azure AD Connect sync and Azure AD Connect Cloud Sync. Azure AD Connect Cloud Sync doesn't support Exchange hybrid deployments, so Contoso must use Azure AD Connect sync."
+    - content: "Azure AD Connect Cloud Sync"
+      isCorrect: false
+      explanation: "Incorrect. This directory synchronization method doesn't support Exchange hybrid deployments. Try again."
+    - content: "Azure AD modern synchronization"
+      isCorrect: false
+      explanation: "Incorrect. There's no such directory synchronization tool as Azure AD modern synchronization. Try again."
+  - content: "Azure AD Connect is made up of two primary components. One of the components is Synchronization services. This component is responsible for synchronizing users, groups, and other objects. It's also responsible for making sure identity information for your on-premises users and groups is matching the cloud. What is the second primary component of Azure AD Connect?"
+    choices:
+    - content: "Azure AD Connect Health"
+      isCorrect: true
+      explanation: "Correct. Azure AD Connect Health provides robust health monitoring and a central location in the Azure portal to view this activity."
+    - content: "Azure AD Federation service"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the second primary component of Azure AD Connect. Try again."
+    - content: "Azure AD Pass-through Authentication service"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the second primary component of Azure AD Connect. Try again."
+  - content: "Azure Active Directory single sign-on creates Azure AD Connect trace log files. These files contain personal data. What best practice can you employ to improve the privacy of the data that's stored in these files?"
+    choices:
+    - content: "Ensure no data is kept beyond 48 hours"
+      isCorrect: true
+      explanation: "Correct. You should employ this option because it's the easiest policy to implement and maintain and yet still improve data privacy."
+    - content: "Purge log files as they come available"
+      isCorrect: false
+      explanation: "Incorrect. This process won't improve the privacy of the data that's stored in these files. Try again."
+    - content: "Request a custom policy from Microsoft Support services"
+      isCorrect: false
+      explanation: "Incorrect. This process won't improve the privacy of the data that's stored in these files. Try again."
