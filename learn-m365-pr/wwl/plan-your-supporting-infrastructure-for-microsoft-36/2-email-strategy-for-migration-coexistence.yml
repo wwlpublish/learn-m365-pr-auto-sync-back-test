@@ -4,12 +4,13 @@ title: Plan your email strategy for migration or coexistence
 metadata:
   title: Plan your email strategy for migration or coexistence
   description: "Plan your email strategy for migration or coexistence"
-  ms.date: 06/30/2021
+  ms.date: 04/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 5
 content: |
   [!include[](includes/2-email-strategy-for-migration-coexistence.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Hybrid configuration"
       isCorrect: true
-      explanation: "That's correct. When an organization wants to keep its on-premises Exchange servers, the recommended approach is to use a hybrid configuration."
+      explanation: "Correct. When an organization wants to keep its on-premises Exchange servers, the recommended approach is to use a hybrid configuration."
     - content: "Staged migration"
       isCorrect: false
-      explanation: "That's incorrect. This migration option does not meet Lucerne's requirement to keep its on-premises Exchange servers. Try again."
+      explanation: "Incorrect. This migration option does not meet Lucerne's requirement to keep its on-premises Exchange servers. Try again."
     - content: "Cutover migration"
       isCorrect: false
-      explanation: "That's incorrect. This migration option does not meet Lucerne's requirement to keep its on-premises Exchange servers. Try again."
+      explanation: "Incorrect. This migration option does not meet Lucerne's requirement to keep its on-premises Exchange servers. Try again."
