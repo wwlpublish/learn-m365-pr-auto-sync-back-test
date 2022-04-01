@@ -49,6 +49,5 @@ java -jar mcas-siemagent-0.87.20-signed.jar \[\--logsDirectory DIRNAME\] \[\--pr
 > TOKEN is the SIEM agent token you saved in the previous step.
 
 The following video walks through the steps to connect Microsoft Defender for Cloud Apps to a 3rd party SIEM:
-
 >
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWyyLZ]

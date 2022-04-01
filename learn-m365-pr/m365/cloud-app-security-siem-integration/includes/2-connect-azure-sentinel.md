@@ -42,6 +42,5 @@ To connect Microsoft Sentinel to Microsoft Defender for Cloud Apps, perform the 
 1. You will now see incidents from Microsoft Defender for Cloud Apps in Microsoft Sentinel.
 
 The following video gives you an overview of connecting Microsoft Defender for Cloud Apps to Microsoft Sentinel:
-
 >
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWyyLS]
