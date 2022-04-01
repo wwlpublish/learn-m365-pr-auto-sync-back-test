@@ -11,14 +11,14 @@ The following illustration shows what services are managed by Microsoft and what
 
 Azure Virtual Desktop provides virtualization infrastructure as a managed service. Azure Virtual Desktop manages:
 
-- Web client - The Web Access service within Window Virtual Desktop lets users access virtual desktops and remote apps through an HTML5-compatible web browser like they would with a local PC—from anywhere and any device. You can secure Web Access by using multifactor authentication in Azure Active Directory (Azure AD).
+- Web client - The Web Access service within Azure Virtual Desktop lets users access virtual desktops and remote apps through an HTML5-compatible web browser like they would with a local PC—from anywhere and any device. You can secure Web Access by using multifactor authentication in Azure Active Directory (Azure AD).
 - Diagnostics - Remote Desktop Diagnostics is an event-based aggregator that marks each user or administrator action on the Azure Virtual Desktop deployment as a success or failure. Administrators can query the aggregation of events to identify failing components.
 - Management - Manage Azure Virtual Desktop configurations in the Azure portal. Manage and publish host pool resources. Azure Virtual Desktop also includes several extensibility components. Manage Azure Virtual Desktop by using Windows PowerShell or with the provided REST APIs, which also enable support from third-party tools.
 - Broker - The Connection Broker service manages user connections to virtual desktops and remote apps. It provides load balancing and reconnection to existing sessions.
 - Load balancing - Session host load balancing by depth-first or breadth-first. The broker decides how new incoming sessions are to be distributed across the virtual machines (VMs) in a host pool.
 - Gateway - The Remote Connection Gateway service connects remote users to Azure Virtual Desktop remote apps and desktops from any internet-connected device that can run an Azure Virtual Desktop client. The client connects to a Gateway that then orchestrates a connection from the VM back to the same gateway.
 
-Window Virtual Desktop uses Azure infrastructure services for compute, storage, and networking.
+Azure Virtual Desktop uses Azure infrastructure services for compute, storage, and networking.
 
 ## What you manage
 

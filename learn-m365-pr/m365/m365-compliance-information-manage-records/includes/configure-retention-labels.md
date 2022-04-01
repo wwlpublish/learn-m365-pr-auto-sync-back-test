@@ -37,9 +37,9 @@ The file plan descriptors step is unique to records management. File plan descri
 
 | Name  | Description  | Example  | Prepopulated?  |
 |---|---|---|---|
-| Reference   ID  | Free form unique field that could be used to refer to your formal file plan  | 764X37-9087  | No  |
+| Reference   ID  | Freeform unique field that could be used to refer to your formal file plan  | 764X37-9087  | No  |
 |  Business function/department |  Common department names are supplied, but you can add your own; for example, select Accounting | Finance	  | Yes  |
-| Category  | A list of categories is provided, but you can add you own  | Financial statements  |  Yes |
+| Category  | A list of categories is provided, but you can add your own  | Financial statements  |  Yes |
 |  Subcategory |  This lets you add a second level of categorization |  Income statements |  Yes |
 |  Authority type | The primary justification for the label  | Regulatory  | Yes  |
 | Provision/citation  | The name of the specific regulatory or legal provision the label applies to  | Sarbanes-Oxley Act of 2002  |  Yes |
