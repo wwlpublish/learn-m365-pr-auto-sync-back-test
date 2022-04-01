@@ -4,12 +4,13 @@ title: Analyze network considerations for your mail migration
 metadata:
   title: Analyze network considerations for your mail migration
   description: "Analyze network considerations for your mail migration"
-  ms.date: 06/30/2021
+  ms.date: 04/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/6-analyze-network-considerations-for-your-mail-migration.md)]
