@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-connectors.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Confirm what you've learned about Microsoft Search.
+  ms.date: 04/01/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 3
+quiz:
+  title: "Check your knowledge"
+  questions:
+    - content: "Which definition best describes Microsoft Graph connectors?"
+      choices:
+      - content: "Microsoft Graph connectors allow organizations to share sensitive data between departments and groups."
+        isCorrect: false
+        explanation: "That’s incorrect. This definition doesn't accurately describe Microsoft Graph connectors."
+      - content: "Microsoft Graph connectors merge web and work results into a single search vertical."
+        isCorrect: false
+        explanation: "Incorrect. Microsoft Graph connectors don't index or include web results."
+      - content: "Microsoft Graph connectors allow organizations to index third-party data so it appears in Microsoft Search results."
+        isCorrect: true
+        explanation: "That’s correct! This definition best describes Microsoft Graph connectors."
+
+    - content: "Where do admins set up and manage Graph connectors?"
+      choices:
+      - content: "In the Microsoft 365 admin center."
+        isCorrect: true
+        explanation: "That’s correct! Graph connectors, created by Microsoft and our partners, are added and managed from the Microsoft 365 admin center."
+      - content: "Microsoft Graph."
+        isCorrect: false
+        explanation: "That’s incorrect. Connectors can't be added or managed in Microsoft Graph."
+      - content: "In group policy settings."
+        isCorrect: false
+        explanation: "Sorry, that’s incorrect. Graph connectors aren't set up or managed in group policy settings."
+      
+    - content: "Which answer is a customization option for connector results?"
+      choices:
+      - content: "Custom verticals."
+        isCorrect: true
+        explanation: "That’s correct. Custom verticals can be used to customize and configure connector results."
+      - content: "Result themes."
+        isCorrect: false
+        explanation: "That’s incorrect! Result themes aren't a customization option."
+      - content: "Logic trees."
+        isCorrect: false
+        explanation: "That's incorrect. Logic trees aren't a customization option."
