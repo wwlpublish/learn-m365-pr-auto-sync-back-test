@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-connectors.summary
+title: Summary 
+metadata:
+  title: Summary
+  description: Get a description of how connectors help an organization enhance their search experience and see a list of available resources.
+  ms.date: 04/01/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/summary.md)]
