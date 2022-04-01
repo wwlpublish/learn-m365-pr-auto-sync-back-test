@@ -1,0 +1,45 @@
+### YamlMime:Module
+uid: learn.wwl.manage-microsoft-defender-endpoint
+metadata:
+  title: Manage Microsoft Defender for Endpoint
+  description: "This module explores using Microsoft Defender for Endpoint to provide additional protection and monitor devices against threats."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage Microsoft Defender for Endpoint
+summary: This module explores using Microsoft Defender for Endpoint to provide additional protection and monitor devices against threats.
+abstract: |
+  After this module, you should be able to:
+  - Describe Microsoft Defender for Endpoint
+  - Describe key capabilities of Microsoft Defender for Endpoint
+  - Describe Microsoft Defender Application Guard
+  - Describe Microsoft Defender Exploit Guard
+  - Describe Windows Defender System Guard
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.manage-microsoft-defender-endpoint.introduction
+- learn.wwl.manage-microsoft-defender-endpoint.explore-microsoft-defender-endpoint
+- learn.wwl.manage-microsoft-defender-endpoint.examine-key-capabilities-microsoft-defender-endpoint
+- learn.wwl.manage-microsoft-defender-endpoint.explore-windows-defender-application-control-device-guard
+- learn.wwl.manage-microsoft-defender-endpoint.explore-microsoft-defender-application-guard
+- learn.wwl.manage-microsoft-defender-endpoint.examine-windows-defender-exploit-guard
+- learn.wwl.manage-microsoft-defender-endpoint.explore-windows-defender-system-guard
+- learn.wwl.manage-microsoft-defender-endpoint.knowledge-check
+- learn.wwl.manage-microsoft-defender-endpoint.summary
+badge:
+  uid: learn.wwl.manage-microsoft-defender-endpoint.badge

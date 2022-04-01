@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-use-microsoft-deployment-toolkit.manage-deploy-images-using-microsoft-deployment-toolkit
+title: Manage and deploy images using the Microsoft Deployment Toolkit
+metadata:
+  title: Manage and deploy images using the Microsoft Deployment Toolkit
+  description: "Manage and deploy images using the Microsoft Deployment Toolkit"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/4-manage-deploy-images-use-microsoft-deployment-toolkit.md)]

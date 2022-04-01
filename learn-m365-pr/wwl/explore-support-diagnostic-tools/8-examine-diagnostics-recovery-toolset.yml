@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-support-diagnostic-tools.examine-diagnostics-recovery-toolset
+title: Examine the Diagnostics and Recovery Toolset
+metadata:
+  title: Examine the Diagnostics and Recovery Toolset
+  description: "Examine the Diagnostics and Recovery Toolset"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/8-examine-diagnostics-recovery-toolset.md)]

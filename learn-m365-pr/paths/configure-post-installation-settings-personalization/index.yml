@@ -3,7 +3,7 @@ uid: learn.wwl.configure-post-installation-settings-personalization
 metadata:
   title: Configure post-installation settings and personalization
   description: Configure post-installation settings and personalization
-  ms.date: 02/24/2022
+  ms.date: 03/31/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -16,7 +16,6 @@ prerequisites: |
 summary: |
   Students will learn how to customize the user interface and use the control panel and settings app to configure common OS settings. This path will also introduce students to Windows PowerShell and device drivers.
 iconUrl: /learn/achievements/generic-trophy.svg
-hidden: true
 levels:
 - beginner
 roles:

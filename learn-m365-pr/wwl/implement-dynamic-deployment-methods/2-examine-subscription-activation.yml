@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-dynamic-deployment-methods.examine-subscription-activation
+title: Examine Subscription Activation
+metadata:
+  title: Examine Subscription Activation
+  description: "Examine Subscription Activation"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/2-examine-subscription-activation.md)]

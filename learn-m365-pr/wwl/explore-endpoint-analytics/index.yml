@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn.wwl.explore-endpoint-analytics
+metadata:
+  title: Explore Endpoint Analytics
+  description: "Use Endpoint analytics to help identify policies or hardware issues that ultimately create a poor user experience, and help remediate those issues."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore Endpoint Analytics
+summary: Use Endpoint analytics to help identify policies or hardware issues that ultimately create a poor user experience, and help remediate those issues.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe the benefits of Endpoint Analytics.
+  - Describe how Endpoint Analytics can monitor performance and the user experience.
+  - Describe how Endpoint Analytics can identify application issues.
+  - Describe how Endpoint Analytics can be used to help transition to modern management and Windows 11.
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.explore-endpoint-analytics.introduction
+- learn.wwl.explore-endpoint-analytics.enroll-devices-endpoint-analytics
+- learn.wwl.explore-endpoint-analytics.monitor-startup-performance-restarts
+- learn.wwl.explore-endpoint-analytics.monitor-application-reliability
+- learn.wwl.explore-endpoint-analytics.use-endpoint-analytics-monitor-transition-modern-management
+- learn.wwl.explore-endpoint-analytics.knowledge-check
+- learn.wwl.explore-endpoint-analytics.summary
+badge:
+  uid: learn.wwl.explore-endpoint-analytics.badge

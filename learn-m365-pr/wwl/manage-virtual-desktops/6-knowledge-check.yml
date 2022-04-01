@@ -1,0 +1,41 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-virtual-desktops.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso is interested in deploying Windows as virtual sessions. The company has 150 seats, and it wants a solution that provides ready-to-use Cloud PCs with simple management options. It doesn't want any licensing prerequisites or any dependencies on Active Directory. Given these requirements, which of the following virtual desktop solutions should Contoso use?"
+    choices:
+    - content: "Windows 365 Enterprise"
+      isCorrect: false
+      explanation: "Incorrect. This edition is for larger companies who want unlimited seats for creating Cloud PCs. It includes options to create custom Cloud PCs based on device images that you create, more management options, and full integration with Microsoft Endpoint Manager. It leverages Azure AD and AD DS domains. Try again."
+    - content: "Azure Virtual Desktop"
+      isCorrect: false
+      explanation: "Incorrect. This edition is for larger companies. It requires Azure administration skills and has a complex setup because the customer manages the VMs. Try again."
+    - content: "Windows 365 Business"
+      isCorrect: true
+      explanation: "Correct. This Windows 365 edition is made specifically for use in smaller companies (up to 300 seats) who want ready-to-use Cloud PCs with simple management options. There are no licensing prerequisites to set up Windows 365 Business. There are no dependencies on Azure or Active Directory. It's purchased through the Microsoft 365 admin center or the Windows 365 product site."
+  - content: "As the Desktop Administrator for Lucerne Publishing, Patti Fernandez wants to deploy Windows as virtual sessions rather than deploying Windows to clients. Given the company's limited resources, Patti is looking for a virtualization solution that's the easiest to deploy and manage, and that doesn't require provisioning and management servers and server roles like the gateway, connection broker, diagnostics, load balancing, and licensing. Given these requirements, which of the following solutions should Patti use to deploy Windows as virtual sessions?"
+    choices:
+    - content: "Virtual Desktop Infrastructure (VDI)"
+      isCorrect: false
+      explanation: "Incorrect. Because VDI is supported by extensive collections of VMs running on top of hypervisor software, VDI environments can get more complex than remote desktop environments. Try again."
+    - content: "Remote Desktop Services (RDS)"
+      isCorrect: false
+      explanation: "Incorrect. RDS is not the easiest solution to deploy and manage. Try again."
+    - content: "Azure Virtual Desktop"
+      isCorrect: true
+      explanation: "Correct. Azure Virtual Desktop is easier to deploy and manage than traditional Remote Desktop Services (RDS) or virtual desktop infrastructure (VDI) environments. You don't have to provision and manage servers and server roles like the gateway, connection broker, diagnostics, load balancing, and licensing."

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.examine-enterprise-desktop.examine-benefits-modern-management
+title: Examine benefits of modern management
+metadata:
+  title: Examine benefits of modern management
+  description: "Examine benefits of modern management"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/2-examine-benefits-modern-management.md)]

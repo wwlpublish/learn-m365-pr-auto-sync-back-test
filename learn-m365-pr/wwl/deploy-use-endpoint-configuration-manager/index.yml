@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.deploy-use-endpoint-configuration-manager
+metadata:
+  title: Deploy using Endpoint Configuration Manager
+  description: "This module explains the common day to day tasks that Administrators would use Configuration Manager to perform."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Deploy using Endpoint Configuration Manager
+summary: This module explains the common day to day tasks that Administrators would use Configuration Manager to perform.
+abstract: |
+  After completing this module, you'll be able to:
+  - Describe the capabilities of Configuration Manager.
+  - Describe the key components of Configuration Manager.
+  - Describe how to troubleshoot Configuration Manager deployments.
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.deploy-use-endpoint-configuration-manager.introduction
+- learn.wwl.deploy-use-endpoint-configuration-manager.explore-client-deployment-using-configuration-manager
+- learn.wwl.deploy-use-endpoint-configuration-manager.examine-deployment-components-configuration-manager
+- learn.wwl.deploy-use-endpoint-configuration-manager.manage-client-deployment-using-configuration-manager
+- learn.wwl.deploy-use-endpoint-configuration-manager.plan-place-upgrades-using-configuration-manager
+- learn.wwl.deploy-use-endpoint-configuration-manager.knowledge-check
+- learn.wwl.deploy-use-endpoint-configuration-manager.summary
+badge:
+  uid: learn.wwl.deploy-using-endpoint-configuration-manager.badge

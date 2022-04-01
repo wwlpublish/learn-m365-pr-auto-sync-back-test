@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-assign-admin-plan.identify-stakeholders
+title: Identify stakeholders and experts who can help
+metadata:
+  title: Identify stakeholders and experts who can help
+  description: Use the expertise and knowledge of people across the organization to ensure Microsoft Search includes helpful, high-quality content.
+  ms.date: 01/12/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/identify-stakeholders.md)]

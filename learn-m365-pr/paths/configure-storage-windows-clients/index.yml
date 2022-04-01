@@ -3,7 +3,7 @@ uid: learn.wwl.configure-storage-windows-clients
 metadata:
   title: Configure storage on Windows clients
   description: Configure storage on Windows clients
-  ms.date: 03/04/2022
+  ms.date: 03/31/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -16,7 +16,6 @@ prerequisites: |
 summary: |
   This learning path covers storage configuration and management in Windows client.  Students will be introduced to local, cloud and virtual storage options.
 iconUrl: /learn/achievements/generic-trophy.svg
-hidden: true
 levels:
 - beginner
 roles:
