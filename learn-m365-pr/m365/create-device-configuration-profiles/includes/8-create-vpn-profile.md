@@ -15,7 +15,6 @@ Use the following steps to create a new Android Enterprise VPN configuration pro
 > Before completing the below steps, you must first follow the [prerequisites for Microsoft Tunnel in Intune](/mem/intune/protect/microsoft-tunnel-prerequisites).
 
 ## Step 1: Create a VPN device configuration profile
-
 1. Sign in to the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. Select **Devices** > **Configuration profiles** > **Create profile**.
    The **Create a profile** pane is displayed.
