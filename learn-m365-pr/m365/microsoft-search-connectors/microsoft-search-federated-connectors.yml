@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-connectors.microsoft-search-federated-connectors
+title: Microsoft Search federated connectors
+metadata:
+  title: Microsoft Search federated connectors
+  description: Learn about the benefits of using Microsoft Search federated connectors and where you can get more information about them.
+  ms.date: 04/01/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/microsoft-search-federated-connectors.md)]
