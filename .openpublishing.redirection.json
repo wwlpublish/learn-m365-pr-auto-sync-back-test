@@ -1904,6 +1904,26 @@
       "source_path": "learn-m365-pr/wwl/plan-your-identity-authentication-solution-for-microsoft-365/11-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-identity-authentication-solution-for-microsoft-365/13-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-supporting-infrastructure-for-microsoft-36/4-prepare-your-organizations-network-teams.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-supporting-infrastructure-for-microsoft-36/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-supporting-infrastructure-for-microsoft-36/5-integrate-your-premises-directories-by-using-azure-ad-connect.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-supporting-infrastructure-for-microsoft-36/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-supporting-infrastructure-for-microsoft-36/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-supporting-infrastructure-for-microsoft-36/5-knowledge-check.md",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-supporting-infrastructure-for-microsoft-36/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-supporting-infrastructure-for-microsoft-36/6-summary.md",
+      "redirect_document_id": true
     }
   ]
 }
