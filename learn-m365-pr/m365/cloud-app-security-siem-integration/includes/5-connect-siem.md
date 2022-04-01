@@ -1,4 +1,4 @@
-Many organizations have Already implemented an event management (SIEM) solution and they are unlikely to want to replace this solution purely for Microsoft Defender for Cloud Apps connectivity. Fortunately, when connecting Microsoft Defender for Cloud Apps to a SIEM solution you are not obliged to use Microsoft Sentinel and can connect to other, 3^rd^ party, SIEM solutions as long as they use Common Event Format (CEF).
+Many organizations have Already implemented an event management (SIEM) solution and they are unlikely to want to replace this solution purely for Microsoft Defender for Cloud Apps connectivity. Fortunately, when connecting Microsoft Defender for Cloud Apps to a SIEM solution you are not obliged to use Microsoft Sentinel and can connect to other, 3rd party, SIEM solutions as long as they use Common Event Format (CEF).
 
 ## Prerequisites
 
@@ -25,17 +25,17 @@ To connect a non-Microsoft security information and event management solution to
 
     :::image type="content" source="../media/../media/2-security-extensions.png" alt-text="Security extensions.":::
 
-2. Select **SIEM agents** and select **Add agent**.
+1. Select **SIEM agents** and select **Add agent**.
 
     :::image type="content" source="../media/5-add-agent.png" alt-text="Add agent.":::
 
-3. Select **Generic SIEM** and select **Start Wizard**.
-4. Enter the name and format for the agent and select **Next**.
-5. Enter the IP address information for the syslog host and select **Next**.
-6. Select the alert and activity types to export to your SIEM server and select **Next**.
-7. Copy the token and save it.
-8. Select **Finish**.
-9. Unzip the file and run the extracted file on your server:
+1. Select **Generic SIEM** and select **Start Wizard**.
+1. Enter the name and format for the agent and select **Next**.
+1. Enter the IP address information for the syslog host and select **Next**.
+1. Select the alert and activity types to export to your SIEM server and select **Next**.
+1. Copy the token and save it.
+1. Select **Finish**.
+1. Unzip the file and run the extracted file on your server:
 
 ```java
 java -jar mcas-siemagent-0.87.20-signed.jar \[\--logsDirectory DIRNAME\] \[\--proxy ADDRESS\[:PORT\]\] \--token TOKEN
