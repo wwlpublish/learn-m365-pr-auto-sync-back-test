@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.protect-identities-azure-ad.explore-azure-ad-identity-protection
+title: Explore Azure AD identity protection
+metadata:
+  title: Explore Azure AD identity protection
+  description: "Explore Azure AD identity protection"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-explore-azure-active-directory-identity-protection.md)]

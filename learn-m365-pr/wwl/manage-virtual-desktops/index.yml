@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn.wwl.manage-virtual-desktops
+metadata:
+  title: Manage virtual desktops
+  description: "Use Endpoint Manager to manage Azure Virtual Desktops and Windows 365 cloud PCs."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage virtual desktops
+summary: Use Endpoint Manager to manage Azure Virtual Desktops and Windows 365 cloud PCs.
+abstract: |
+  After completing this module, you should be able to:
+  - Describe the differences between Azure Virtual Desktop and Windows 365.
+  - Configure Windows 365 using Endpoint Manager admin center.
+  - Create a provisioning policy to deploy a Windows 365 desktop.
+  - Reprovision and resize Windows 365 desktops.
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.manage-virtual-desktops.introduction
+- learn.wwl.manage-virtual-desktops.examine-windows-virtual-desktop
+- learn.wwl.manage-virtual-desktops.explore-windows-365
+- learn.wwl.manage-virtual-desktops.configure-windows-365
+- learn.wwl.manage-virtual-desktops.manage-windows-365
+- learn.wwl.manage-virtual-desktops.knowledge-check
+- learn.wwl.manage-virtual-desktops.summary
+badge:
+  uid: learn.wwl.manage-virtual-desktops.badge

@@ -1,4 +1,4 @@
->:::image type="content" source="../media/governance.png" alt-text="Pillars of container and content governance":::
+:::image type="content" source="../media/governance.png" alt-text="Pillars of container and content governance":::
 
 There are four strategic pillars to content and container governance in Microsoft 365 that directly affect the experience in Microsoft Teams, SharePoint, and other services that rely on Microsoft 365 groups for membership management. They are your desire to:
 

@@ -39,15 +39,15 @@ quiz:
         explanation: "No, the oldest version you can use with Exchange Online Archiving is Exchange Server 2010 (Service Pack 2 or later)." 
     - content: "Which of the following PowerShell cmdlets displays information about a distribution group?"
       choices:
-      - content: "View-DistributionGroup 'Name' | Format-List Name,RecipientTypeDetails,PrimarySmtpAddress "
+      - content: "`View-DistributionGroup 'Name' | Format-List Name,RecipientTypeDetails,PrimarySmtpAddress`"
         isCorrect: false
-        explanation: "No, View-DistributionGroup isn't an Exchange Online PowerShell cmdlet."
-      - content: "List-DistributionGroup 'Name' | Format-List Name,RecipientTypeDetails,PrimarySmtpAddress"
+        explanation: "No, `View-DistributionGroup` isn't an Exchange Online PowerShell cmdlet."
+      - content: "`List-DistributionGroup 'Name' | Format-List Name,RecipientTypeDetails,PrimarySmtpAddress`"
         isCorrect: false
-        explanation: "No, List-DistributionGroup isn't an Exchange Online PowerShell cmdlet."
-      - content: "Get-DistributionGroup 'Name' | Format-List Name,RecipientTypeDetails,PrimarySmtpAddress"
+        explanation: "No, `List-DistributionGroup` isn't an Exchange Online PowerShell cmdlet."
+      - content: "`Get-DistributionGroup 'Name' | Format-List Name,RecipientTypeDetails,PrimarySmtpAddress`"
         isCorrect: true
-        explanation: "Yes, Get-DistributionGroup displays information about a distribution group."
+        explanation: "Yes, `Get-DistributionGroup` displays information about a distribution group."
     - content: "Which of the following mailbox permissions should you use to enable a delegate to send messages that appear to come from the target mailbox?"
       choices:
       - content: "Send As"

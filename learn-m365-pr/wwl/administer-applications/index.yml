@@ -3,7 +3,7 @@ uid: learn.wwl. administer-applications
 metadata:
   title: Administer applications
   description: "In this module, you will be introduced to managing apps on Intune managed devices. The module will then conclude with an overview of how to use IE Mode with Microsoft Edge."
-  ms.date: 03/25/2022
+  ms.date: 03/31/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -22,7 +22,6 @@ prerequisites: |
   - Strong understanding of computer networking, client security, and application concepts
   - Experience using Active Directory Domain Services
 iconUrl: /learn/achievements/generic-badge.svg
-hidden: true
 levels:
 - intermediate
 roles:

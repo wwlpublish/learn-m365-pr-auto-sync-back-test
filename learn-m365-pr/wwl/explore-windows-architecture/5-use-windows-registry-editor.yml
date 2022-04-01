@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-windows-architecture.use-windows-registry-editor
+title: Use the Windows registry editor
+metadata:
+  title: Use the Windows registry editor
+  description: "Use the Windows registry editor"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-use-windows-registry-editor.md)]

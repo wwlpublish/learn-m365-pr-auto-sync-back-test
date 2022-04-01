@@ -3,19 +3,18 @@ uid: learn.wwl.plan-your-supporting-infrastructure-for-microsoft-365
 metadata:
   title: Plan your supporting infrastructure for Microsoft 365
   description: "Plan your supporting infrastructure for Microsoft 365"
-  ms.date: 06/30/2021
+  ms.date: 04/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Plan your supporting infrastructure for Microsoft 365
-summary: This module examines the key areas that organizations must plan for to either move their Microsoft 365 service completely to the cloud or to hybridize their environment.
+summary: This module examines the key areas that organizations must plan for in order to either move their Microsoft 365 service completely to the cloud or to hybridize their environment.
 abstract: |
-  By the end of this module, you will be able to:
-  - Determine the best email migration or coexistence strategy for your organization
-  - Create a file storage and collaboration strategy that is resilient and reliable
-  - Prepare your organization to achieve the best experience using Microsoft Teams
-  - Describe how Azure AD Connect can integrate your company's Active Directory and import local users to the cloud
+  By the end of this module, you'll be able to:
+  *   Determine the best email migration or coexistence strategy for your organization.
+  *   Create a file storage and collaboration strategy that is resilient and reliable.
+  *   Prepare your organization to achieve the best experience using Microsoft Teams.
 prerequisites: ""
 iconUrl: /learn/achievements/plan-your-supporting-infrastructure-for-microsoft-365.svg
 levels:
@@ -25,15 +24,13 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:
 - learn.wwl.plan-your-supporting-infrastructure-for-microsoft-365.introduction
 - learn.wwl.plan-your-supporting-infrastructure-for-microsoft-365.email-strategy-for-migration-coexistence
 - learn.wwl.plan-your-supporting-infrastructure-for-microsoft-365.determine-your-collaboration-requirements-for-file-storage
-- learn.wwl.plan-your-supporting-infrastructure-for-microsoft-365.prepare-your-organizations-network-teams
-- learn.wwl.plan-your-supporting-infrastructure-for-microsoft-365.integrate-your-premises-directories-by-using-azure-ad-connect
+- learn.wwl.plan-your-supporting-infrastructure-for-microsoft-365.analyze-your-organizations-network-teams
 - learn.wwl.plan-your-supporting-infrastructure-for-microsoft-365.knowledge-check
 - learn.wwl.plan-your-supporting-infrastructure-for-microsoft-365.summary
 badge:
