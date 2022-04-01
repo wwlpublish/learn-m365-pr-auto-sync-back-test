@@ -1917,12 +1917,12 @@
     },
     {
       "source_path": "learn-m365-pr/wwl/plan-your-supporting-infrastructure-for-microsoft-36/6-knowledge-check.md",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-supporting-infrastructure-for-microsoft-36/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-supporting-infrastructure-for-microsoft-36/5-knowledge-check",
       "redirect_document_id": true
     },
     {
       "source_path": "learn-m365-pr/wwl/plan-your-supporting-infrastructure-for-microsoft-36/7-summary.md",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-supporting-infrastructure-for-microsoft-36/6-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-supporting-infrastructure-for-microsoft-36/6-summary",
       "redirect_document_id": true
     }
   ]
