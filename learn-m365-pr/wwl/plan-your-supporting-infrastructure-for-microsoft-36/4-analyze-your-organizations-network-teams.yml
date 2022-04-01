@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-your-supporting-infrastructure-for-microsoft-365.analyze-your-organizations-network-teams
+title: Analyze your organization's network for Microsoft Teams
+metadata:
+  title: Analyze your organization's network for Microsoft Teams
+  description: "Analyze your organization's network for Microsoft Teams"
+  ms.date: 04/01/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/4-analyze-your-organizations-network-teams.md)]
