@@ -1924,6 +1924,11 @@
       "source_path": "learn-m365-pr/wwl/plan-your-supporting-infrastructure-for-microsoft-36/7-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-supporting-infrastructure-for-microsoft-36/6-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-migration-to-microsoft-365/3-clean-up-your-active-directory-before-synchronizing-it.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-migration-to-microsoft-365/",
+      "redirect_document_id": false
     }
   ]
 }
