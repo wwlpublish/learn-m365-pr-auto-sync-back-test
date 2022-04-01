@@ -11,9 +11,9 @@ All of your profiles are shown. You also see the platform, the type of profile, 
 
 ## View device configuration profile details
 
-After you create your device profile, Intune provides graphical charts. These charts display the status of a profile, such as it being successfully assigned to devices, or if the profile shows a conflict.
+After you create your device configuration profile, Intune provides graphical charts. These charts display the status of a profile, such as it being successfully assigned to devices, or if the profile shows a conflict.
 
-1. Select an existing profile. For example, select a macOS profile.
+1. Select an existing profile. For example, select a iOS/iPadOS profile.
 2. Select the **Overview** tab. In this view, the **Profile assignment** includes the following statuses:
 
     - **Completed**: Policy is applied successfully.
@@ -22,21 +22,21 @@ After you create your device profile, Intune provides graphical charts. These ch
     - **Pending**: The device hasn't checked in with Intune to receive the policy yet.
     - **Not applicable**: The device can't receive the policy. For example, the policy updates a setting specific to iOS 11.1, but the device is using iOS 10.
 
-3. The top graphical chart shows the number of devices assigned to the device profile. For example, if the configuration device profile applies to macOS devices, the chart lists the count of the macOS devices.
+3. The top graphical chart shows the number of devices assigned to the device profile. For example, if the configuration device profile applies to iOS/iPadOS devices, the chart lists the count of the iOS/iPadOS devices.
 
     When monitoring a Windows profile, the count in the **Profile assignment** status is per device per user. So, if two users sign in to the same device, then that device is counted twice.
 
-    It can also show the number of devices for other platforms that are assigned the same device profile. For example, it shows the count of the non-macOS devices.
+    It can also show the number of devices for other platforms that are assigned the same device profile. For example, it shows the count of the non-iOS/iPadOS devices.
 
 4. Select the top graphical chart. **Device status** opens.
 
-    The devices assigned to the profile are listed, and it shows the deployment status. Also note that it only lists the devices with the specific platform (for example, macOS).
+    The devices assigned to the profile are listed, and it shows the deployment status. Also note that it only lists the devices with the specific platform (for example, iOS/iPadOS).
 
     Close the **Device status** details.
 
 5. Select the circle in the bottom graphical chart. **User status** opens.
 
-    The users assigned to the profile are listed, and it shows the deployment status. Also note that it only lists the users with the specific platform (for example, macOS).
+    The users assigned to the profile are listed, and it shows the deployment status. Also note that it only lists the users with the specific platform (for example, iOS/iPadOS).
 
     Close the **User status** details.
 
@@ -49,4 +49,4 @@ After you create your device profile, Intune provides graphical charts. These ch
     - **Per-setting status**: Filters the output by showing the individual settings within the profile, and shows if the setting is successfully applied.
 
 > [!TIP]
-> [Intune reports](/mem/intune/fundamentals/reports) is a great resource, and describes all the reporting features you can use.
+> For additional information about all Intune reporting, see [Intune reports](/mem/intune/fundamentals/reports).

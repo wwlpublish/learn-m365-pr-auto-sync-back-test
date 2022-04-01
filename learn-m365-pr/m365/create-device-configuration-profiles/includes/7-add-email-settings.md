@@ -19,55 +19,40 @@ Use the following steps to create a new Windows 11 email configuration profile.
 5. Select **Email** within the **Template name** list.
 6. Click **Create**.
 
-### Add basic profile values
+## Step 2: Add basic profile values
 1. Next to **Name**, add "Windows 11 email settings".
-1. *[Optional]* Add a **Description** for your new profile.
-1. Click **Next**.
+2. *[Optional]* Add a **Description** for your new profile.
+3. Click **Next**.
 
-## Step 2: Add configuration settings
+## Step 3: Add configuration settings
 1. Add the following email account settings:
-   - **Email server**: Enter the host name of your Exchange server. For example, enter `outlook.office365.com`.
+   - **Email server**: Enter the Exchange location (URL) of your email Exchange server. For example, enter `outlook.office365.com`.
    - **Account name**: Enter the display name for the email account. This name is shown to users on their devices.
-   - **Username attribute from AAD**: This name is the attribute Intune gets from Azure Active Directory (AAD). Intune dynamically generates the username that's used by this profile. Your options:
-   - **User Principal Name**: Gets the name, such as `user1` or `user1@contoso.com`.
-   - **Primary SMTP address**: Gets the name in email address format, such as `user1@contoso.com`.
-   - **sAM Account Name**: Requires the domain, such as `domain\user1`. Also enter:  
-      - **User domain name source**: Select **AAD** (Azure Active Directory) or **Custom**.
-
-         When getting the attributes from **AAD**, also enter:
-         - **User domain name attribute from AAD**: Choose to get the **Full domain name** or the **NetBIOS name** attribute of the user.
-
-         When using **Custom** attributes, also enter:
-         - **Custom domain name to use**: Enter a value that Intune uses for the domain name, such as `contoso.com` or `contoso`.
-
-   - **Email address attribute from AAD**: Intune gets this attribute from Azure Active Directory (AAD). Choose how the email address for the user is generated. Make sure your users have email addresses that match the attribute you select. Your options:
-   - **User principal name**: Uses the full principal name as the email address, such as `user1@contoso.com` or `user1`.
-   - **Primary SMTP address**: Uses the primary SMTP address to sign in to Exchange, such as `user1@contoso.com`.
-
+2. For **Username attribute from AAD**, select **Primary SMTP address**. 
+   The **Username attribute from AAD** is an attribute Intune gets from Azure Active Directory (AAD). Intune dynamically generates the username that's used by this profile. The **Primary SMTP address** is the name in email address format, such as `user1@contoso.com`.
+3. For **Email address attribute from AAD**, select **Primary SMTP address**. Intune gets the email address attribute from Azure Active Directory (AAD). Uses the primary SMTP address to sign in to Exchange, such as `user1@contoso.com`. Make sure your users have email addresses that match the attribute you select. Your options:
 
     :::image type="content" source="../media/create-device-configuration-profiles-02.png" alt-text="Device configuration profile email settings":::
 
-2. Select **Enable** next to *SSL** to use Secure Sockets Layer (SSL) communication when sending emails, receiving emails, and communicating with the Exchange server. **Disable** doesn't require SSL.
-3. Select the following email synchronizastion settings:
-   - **Amount of email to synchronize**: Select the number of days of email that you want to synchronize. When set to **Not configured** (default), Intune doesn't change or update this setting. Select **Unlimited** to synchronize all available email.
-   - **Sync schedule**: Select the schedule for devices to synchronize data from the Exchange server. You can also select **As Messages arrive**, which synchronizes data as soon as it arrives. Or, select **Manual** so the device user starts the synchronization.
+4. Select **Enable** next to **SSL** to use Secure Sockets Layer (SSL) communication to securely send emails, receive emails, and communicate with the Exchange server.
+5. In the synchronization section, select **One Week** next to **Amount of email to synchronize**. 
+   This email synchronization setting controls how much email to store on the device and how often to connect to the server.
+6. Select **15 Minutes** next to  **Sync schedule**. 
+   This setting allows you to select the schedule for devices to synchronize data from the Exchange server. You can also select **As Messages arrive**, which synchronizes data as soon as it arrives. Or, select **Manual** so the device user starts the synchronization.
+7. In the **Content type to sync** section, select **On** next to **Contacts**, **Calendar**, and **Tasks**. 
+   In addition to email, you can use these settings to configure other items you want to synchronize like contacts, calendar, and tasks. Email is still synchronized, regardless of these settings.
+8. Click **Next**.
 
-   When set to **Not configured** (default), Intune doesn't change or update this setting.
-
-
-4. Select the content types that you want to synchronize to devices. Your options:
-  - **Contacts**: **On** syncs the contacts. **Off** doesn't automatically sync the contacts. Users manually sync.
-  - **Calendar**: **On** syncs the calendar. **Off** doesn't automatically sync the contacts. Users manually sync.
-  - **Tasks**: **On** syncs the tasks. **Off** doesn't automatically sync the tasks. Users manually sync.
-
-5. Click **Next**.
-
-## Step 3: Assignments
+## Step 4: Assign profile to group
 For this device configuration profile, you can skip assigning this profile to any groups, users, or devices until you have created users and enrolled devices.
+1. Click **Next**.
 
-## Step 3: Applicability Rules
-For this device configuration profile, you can skip assigning this profile to any groups, users, or devices until you have created users and enrolled devices.
+## Step 5: Set applicability Rules
+For this device configuration profile, you can skip specifying how to apply this profile within an assigned group.
+1. Click **Next**.
 
-## Step 4: Review + create
+## Step 6: Review + create
 1. Review the values and settings for this configuration profile.
 2. Click **Create**.
+
+You have now created a new device configuration profile named "Windows 11 email settings". You can see the new configuration profile in the list by selecting **Devices** > **Configuration profiles**. For more information about email configuration settings in Intune, see [Email profile settings for devices running Windows 10/11 in Microsoft Intune](/mem/intune/configuration/email-settings-windows-10).
