@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-dynamic-deployment-methods.use-azure-ad-join-with-automatic-mdm-enrollment
+title: Use Azure AD join with automatic MDM enrollment
+metadata:
+  title: Use Azure AD join with automatic MDM enrollment
+  description: "Use Azure AD join with automatic MDM enrollment"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 1
+content: |
+  [!include[](includes/5-use-azure-ad-join-automatic-mobile-device-management-enrollment.md)]

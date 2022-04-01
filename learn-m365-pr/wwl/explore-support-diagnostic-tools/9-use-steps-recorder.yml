@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-support-diagnostic-tools.use-steps-recorder
+title: Use the Steps Recorder
+metadata:
+  title: Use the Steps Recorder
+  description: "Use the Steps Recorder"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 1
+content: |
+  [!include[](includes/9-use-steps-recorder.md)]

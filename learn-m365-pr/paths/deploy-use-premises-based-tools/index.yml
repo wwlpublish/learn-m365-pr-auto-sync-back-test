@@ -1,0 +1,34 @@
+### YamlMime:LearningPath
+uid: learn.wwl.deploy-use-premises-based-tools
+metadata:
+  title: Deploy using on-premises based tools
+  description: Deploy using on-premises based tools
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Deploy using on-premises based tools
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+summary: |
+  Students well be introduced to deployment using the Microsoft Deployment Toolkit and Configuration Manager.
+iconUrl: /learn/achievements/generic-trophy.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+- microsoft-deployment-toolkit
+modules:
+- learn.wwl.assess-deployment-readiness
+- learn.wwl.deploy-use-microsoft-deployment-toolkit
+- learn.wwl.deploy-use-endpoint-configuration-manager
+trophy:
+  uid: learn.wwl.deploy-using-on-premises-based-tools.trophy

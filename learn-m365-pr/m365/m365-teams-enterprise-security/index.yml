@@ -3,7 +3,7 @@ uid: learn-m365.teams.enterprise-security
 metadata:
   title: Configure enterprise-grade security in Microsoft Teams
   description: Learn how to configure enterprise-grade security for Microsoft Teams.
-  ms.date: 10/20/2021
+  ms.date: 03/25/2022
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
@@ -23,6 +23,8 @@ roles:
 - administrator
 products:
 - office-teams
+- m365-compliance-center
+- m365-admin-center
 units:
 - learn-m365.teams.enterprise-security.1-introduction
 - learn-m365.teams.enterprise-security.2-configure-safe-attachments

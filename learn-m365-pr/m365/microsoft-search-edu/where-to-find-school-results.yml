@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-edu.where-to-find-school-results
+title: Where to find school results
+metadata:
+  title: Where to find school results
+  description: Get to know the entry points for Microsoft Search and where users can find school results.
+  ms.date: 03/30/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/where-to-find-school-results.md)]

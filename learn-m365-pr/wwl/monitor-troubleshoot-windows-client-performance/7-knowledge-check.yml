@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.monitor-troubleshoot-windows-client-performance.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "You are an IT Support Professional for a law firm. One of the paralegals is having trouble finding files on their Windows 10 computer. Which of the following files is included in the Windows Search index by default?"
+    choices:
+    - content: "Password-protected Office files"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't included by default in the Windows Search index. Try again."
+    - content: "Network shares"
+      isCorrect: false
+      explanation: "Incorrect. Custom locations like network shares can be added, but they aren't included by default. Try again."
+    - content: "Documents folder"
+      isCorrect: true
+      explanation: "Correct. By default, Windows Search indexes each user’s e-mail and Documents and Settings folders (users can add custom locations like network shares). Indexing of shared folders can be turned off with Group Policy."
+  - content: "Contoso has several Windows 10 laptops experiencing performance bottlenecks. Diagnostic analysis indicates the source of the problem to be the computers' disk subsystems. What can Contoso do to alleviate this problem?"
+    choices:
+    - content: "Install a powerful graphics subsystem"
+      isCorrect: false
+      explanation: "Incorrect. This item can have a significant impact on the performance of graphics-intensive applications. However, this doesn't address Contoso's disk subsystem issue. Try again."
+    - content: "Run applications when demand for resources is low"
+      isCorrect: false
+      explanation: "Incorrect. This is a troubleshooting step when an application is monopolizing a particular resource. However, this doesn't address Contoso's disk subsystem issue. Try again."
+    - content: "Add more memory"
+      isCorrect: true
+      explanation: "Correct. Windows moves information on the disk into memory before it uses it. Therefore, if a surplus of memory exists, the Windows operating system creates a file cache for items recently written to, or read from disks. Installing additional memory in a workstation often improves the disk subsystem performance, because accessing the cache is faster than moving the information into memory."
+  - content: "Wingtip Toys wants to calculate performance baselines for its client computer environment. By doing so, the company can interpret real-time monitoring information more accurately. How can Wingtip Toys establish a baseline to use as a standard for comparison?"
+    choices:
+    - content: "Evaluate each computer's workload"
+      isCorrect: false
+      explanation: "Incorrect. Setting up a baseline actually helps with this task. This task doesn't establish a baseline. Try again."
+    - content: "Use data collector sets"
+      isCorrect: true
+      explanation: "Correct. By using data collector sets, you can establish a baseline to use as a standard for comparison. You create a baseline when you first configure the computer, at regular intervals of typical usage, and when you make any changes to the computer’s hardware or software configuration."
+    - content: "Monitor system resources"
+      isCorrect: false
+      explanation: "Incorrect. Setting up a baseline actually helps with this task. This task doesn't establish a baseline. Try again."
+  - content: "Your computer can use more memory than the limitation imposed by 32-bit operating systems. Because your computer doesn't have this memory limitation, you want to select a 64-bit version of Windows. What's the memory limitation imposed by 32-bit operating systems?"
+    choices:
+    - content: "2 GB"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the memory limitation imposed by 32-bit operating systems. Try again."
+    - content: "4 GB"
+      isCorrect: true
+      explanation: "Correct. Using a 64-bit version enables your computer to use more memory than the 4 GB limitation imposed by 32-bit operating systems. If your computer has more than 4 GB of memory, or if you can add additional memory beyond 4 GB, then select a 64-bit version of Windows."
+    - content: "8 GB"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the memory limitation imposed by 32-bit operating systems. Try again."
+  - content: "A user is complaining of decreased computer system performance. Which of the following items is one of the four main hardware components that you should monitor in a Windows 10–based computer?"
+    choices:
+    - content: "Network"
+      isCorrect: true
+      explanation: "Correct. Windows computers have four main hardware components that you should monitor: Processor, Disk, Memory, and Network."
+    - content: "Battery"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't one of the four main hardware components that you should monitor. Try again."
+    - content: "Cooling Fan"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't one of the four main hardware components that you should monitor. Try again."

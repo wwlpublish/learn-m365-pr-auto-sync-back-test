@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.update-clients-use-windows-update-business
+metadata:
+  title: Update clients using Windows Update for Business
+  description: "Leverage Windows Update for Business to control the distribution and methods for Windows update delivery."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Update clients using Windows Update for Business
+summary: Leverage Windows Update for Business to control the distribution and methods for Windows update delivery.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe Windows Update for Business.
+  - Configure Windows Update for Business.
+  - Identify scenarios for using Windows Update for Business.
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.update-clients-use-windows-update-business.introduction
+- learn.wwl.update-clients-use-windows-update-business.explore-windows-update-business
+- learn.wwl.update-clients-use-windows-update-business.configure-windows-update-business
+- learn.wwl.update-clients-use-windows-update-business.enable-delivery-optimization-windows-updates
+- learn.wwl.update-clients-use-windows-update-business.evaluate-scenarios-using-windows-update-business
+- learn.wwl.update-clients-use-windows-update-business.knowledge-check
+- learn.wwl.update-clients-use-windows-update-business.summary
+badge:
+  uid: learn.wwl.update-clients-using-windows-update-business.badge

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.enroll-devices-use-microsoft-intune.enroll-ios-devices-intune
+title: Enroll iOS devices in Intune
+metadata:
+  title: Enroll iOS devices in Intune
+  description: "Enroll iOS devices in Intune"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/8-enroll-ios-devices-intune.md)]

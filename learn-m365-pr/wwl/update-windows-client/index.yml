@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn.wwl.update-windows-client
+metadata:
+  title: Update Windows client
+  description: "Explore the Windows servicing channels and use tools such as Windows Server Update Service (WSUS) to manage Windows update deployments."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Update Windows client
+summary: Explore the Windows servicing channels and use tools such as Windows Server Update Service (WSUS) to manage Windows update deployments.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe Windows servicing options and channels.
+  - Explain available methods for applying updates to Windows.
+  - Configure Windows Update settings in Windows.
+  - Describe available Group Policy settings for configure Windows Update.
+  - Explain how Windows Insider for Business works.
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.update-windows-client.introduction
+- learn.wwl.update-windows-client.compare-windows-client-servicing-options-channels
+- learn.wwl.update-windows-client.examine-methods-applying-updates-windows-client
+- learn.wwl.update-windows-client.examine-windows-update-settings-windows-client
+- learn.wwl.update-windows-client.use-group-policy-settings-configure-windows-update
+- learn.wwl.update-windows-client.explore-windows-insider-business
+- learn.wwl.update-windows-client.knowledge-check
+- learn.wwl.update-windows-client.summary
+badge:
+  uid: learn.wwl.update-windows-client.badge

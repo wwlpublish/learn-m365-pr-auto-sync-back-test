@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.plan-your-network-integration
+title: Plan your network integration to Microsoft 365
+metadata:
+  title: Plan your network integration to Microsoft 365
+  description: "Plan your network integration to Microsoft 365"
+  ms.date: 03/30/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-plan-your-network-integration.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "What should an organization always do when it plans its network requirements for a Microsoft 365 deployment?"
+    choices:
+    - content: "Avoid VPN tunneling through other company locations"
+      isCorrect: true
+      explanation: "Correct. All locations should use a direct connection to Microsoft 365 and not use VPN tunneling to route through other company locations."
+    - content: "Require user authentication on outbound proxies"
+      isCorrect: false
+      explanation: "Incorrect. If your outbound proxies require user authentication you may experience slow connectivity or a loss of functionality. Try again."
+    - content: "Locate your more active network systems between a client and the Microsoft 365 resource"
+      isCorrect: false
+      explanation: "Incorrect. The more active network systems are located between a client and the Microsoft 365 resources, the worse the overall connection quality and experience when using Microsoft 365. Try again."

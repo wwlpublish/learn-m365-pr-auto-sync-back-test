@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.implement-azure-ad-connect-pass-through-authentication
+title: Explore cloud authentication using Azure AD Connect pass-through authentication
+metadata:
+  title: Explore cloud authentication using Azure AD Connect pass-through authentication
+  description: "Explore cloud authentication using Azure AD Connect pass-through authentication"
+  ms.date: 04/01/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/9-explore-pass-through-authentication.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Contoso, you're planning its Microsoft 365 deployment. You're currently investigating authentication strategies. While you're interested in Azure AD Connect Pass-through authentication, you're concerned whether Contoso's environment can support it. If you implement pass-through authentication, which of the following scenarios will it support?"
+    choices:
+    - content: "Users sign in to Outlook clients using legacy protocols such as Exchange ActiveSync, SMTP, POP, and IMAP"
+      isCorrect: true
+      explanation: "Correct. This item is a supported scenario for implementing PTA."
+    - content: "Users sign in to Skype for Business client applications without modern authentication"
+      isCorrect: false
+      explanation: "Incorrect. This scenario isn't supported for implementing PTA. However, you should note that users signing in to Skype for Business client applications WITH modern authentication is supported. Try again."
+    - content: "Access to calendar sharing and free/busy information in Exchange hybrid environments on Office 2010 only"
+      isCorrect: false
+      explanation: "Incorrect. This scenario isn't supported for implementing PTA. Try again."
