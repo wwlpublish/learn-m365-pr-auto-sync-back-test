@@ -5,8 +5,8 @@ metadata:
   title: Validate Workplace Analytics data in R
   description: Learn how to validate your Workplace Analytics data using the wpa r package.
   ms.date: 03/18/2022
-  author: madehmer
-  ms.author: helayne
+  author: maggierui
+  ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 12

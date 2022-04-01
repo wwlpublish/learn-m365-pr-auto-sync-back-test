@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-edu.customize-search-experience
+title: Customize the search experience for your school
+metadata:
+  title: Customize the search experience for your school
+  description: Find and employ school-related controls in the Microsoft 365 admin center and appraise connectors.
+  ms.date: 03/30/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/customize-search-experience.md)]

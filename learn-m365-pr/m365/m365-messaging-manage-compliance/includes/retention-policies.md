@@ -40,7 +40,7 @@ To create a retention tag:
 5. Define the **retention period**:
    - **Never**: Select this option to specify that items should never be deleted or moved to the archive.
    - **When the item reaches the following age (in days)**: Select this option, and specify the number of days to retain items before they're moved or deleted. The retention age for all supported items except Calendar and Tasks is calculated from the date an item is received or created. Retention age for Calendar and Tasks items is calculated from the end date.
-   - **Comment**: User this optional field to enter any administrative notes or comments. The field isn't displayed to users.
+   - **Comment**: Use this optional field to enter any administrative notes or comments. The field isn't displayed to users.
 
 ## Step 2: Create a retention policy
 
