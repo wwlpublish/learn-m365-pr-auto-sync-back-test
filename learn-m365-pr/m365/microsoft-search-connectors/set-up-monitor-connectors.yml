@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-connectors.set-up-monitor-connectors
+title: Set up and monitor connectors by Microsoft
+metadata:
+  title: Set up and monitor connectors by Microsoft
+  description: Learn about important limitations before you add a connector and how to monitor a connector's state.
+  ms.date: 04/01/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/set-up-monitor-connectors.md)]
