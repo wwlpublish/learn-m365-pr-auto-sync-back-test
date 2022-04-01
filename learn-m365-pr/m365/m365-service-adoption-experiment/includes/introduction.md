@@ -1,4 +1,4 @@
->:::image type="content" source="../media/phase-2.png" alt-text="The Experiment phase":::
+:::image type="content" source="../media/phase-2.png" alt-text="The Experiment phase":::
 
 Now that you know who's doing what, your organization's capacity for change, and the sentiment of your stakeholders, you're ready to recruit champions and pick the first scenarios to improve. Now is the time to experiment. Your early experiments are designed to:
 
@@ -8,7 +8,7 @@ Now that you know who's doing what, your organization's capacity for change, and
 
 You'll also make six key governance decisions and configure your feedback methods to capture valuable data. Use the information you got from speaking to stakeholders, your stakeholder kick-off presentation, and other end-user interviews to start forming a picture of the business processes you want to experiment with.  You can also focus on one of these standard scenarios - they normally need improvement in most organizations:
 
->:::image type="content" source="../media/core-scenarios.png" alt-text="Modernizing core scenarios":::
+:::image type="content" source="../media/core-scenarios.png" alt-text="Modernizing core scenarios":::
 
 **Project management** - Spreadsheets in multiple versions, random sticky notes, and your memory aren't reliable ways to manage a project. Using Microsoft Teams and Planner can provide a  way to improve project planning in your organization.
 

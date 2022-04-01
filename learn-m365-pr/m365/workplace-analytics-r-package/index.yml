@@ -4,8 +4,8 @@ metadata:
   title: Analyze Microsoft Viva Insights with Workplace Analytics data by using the wpa R package
   description: Learn how to install and use the wpa R package. Validate and explore Microsoft Viva Insights with Workplace Analytics data, and learn how you can use wpa R package functions to create your own analysis.  
   ms.date: 03/18/2022
-  author: madehmer
-  ms.author: helayne
+  author: maggierui
+  ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Analyze Microsoft Viva Insights with Workplace Analytics data by using the wpa R package
