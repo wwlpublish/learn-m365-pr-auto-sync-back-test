@@ -14,17 +14,6 @@ durationInMinutes: 3
 content: |
 quiz:
   questions:
-  - content: "Which best describes security baselines?"
-    choices:
-    - content: "Security baselines are groups of pre-configured Windows settings that help you apply and enforce granular security settings recommended by the relevant security teams at Microsoft."
-      isCorrect: true
-      explanation: "Security baselines are groups of pre-configured Windows settings that help you apply and enforce granular security settings."
-    - content: "Security baselines are groups of dynamic iOS settings that help you apply and enforce granular security settings. "
-      isCorrect: false
-      explanation: "Security baselines are groups of pre-configured Windows settings that help you apply and enforce granular security settings."
-    - content: "Security baselines pre-configured server settings that help you apply and enforce overall security settings."
-      isCorrect: false
-      explanation: "Security baselines are groups of pre-configured Windows settings that help you apply and enforce granular security settings."
   - content: "Which best describe device configuration profiles?"
     choices:
     - content: "Device configuration profiles help you protect your organization's data on both managed and unmanaged devices."
@@ -36,6 +25,17 @@ quiz:
     - content: "Device configuration profiles allow you to enable or disable different device capabilities."
       isCorrect: true
       explanation: "Device configuration profiles allow you to enable or disable different device capabilities."
+  - content: "Which best describes security baselines?"
+    choices:
+    - content: "Security baselines are groups of pre-configured Windows settings that help you apply and enforce granular security settings recommended by the relevant security teams at Microsoft."
+      isCorrect: true
+      explanation: "Security baselines are groups of pre-configured Windows settings that help you apply and enforce granular security settings."
+    - content: "Security baselines are groups of dynamic iOS settings that help you apply and enforce granular security settings. "
+      isCorrect: false
+      explanation: "Security baselines are groups of pre-configured Windows settings that help you apply and enforce granular security settings."
+    - content: "Security baselines are pre-configured server settings that help you apply and enforce overall security settings."
+      isCorrect: false
+      explanation: "Security baselines are groups of pre-configured Windows settings that help you apply and enforce granular security settings."
   - content: "Which of the following setting is commonly configured using device configuration profiles in Intune?"
     choices:
     - content: "Microsoft Defender for Endpoint settings"
