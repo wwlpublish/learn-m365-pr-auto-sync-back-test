@@ -1,4 +1,4 @@
-Microsoft 365 provides multiple ways of migrating mail, calendar, and contact information to the cloud. An organization should select the method that best fits its current environment, its migration strategy, and its network configuration. This unit introduces the available migration strategies. Upcoming units in this module analyze the performance considerations of each methodology and network issues that must be considered when creating a mail migration plan.
+Microsoft 365 provides multiple ways of migrating mail, calendar, and contact information to the cloud. An organization should select the method that best fits its current environment, its migration strategy, and its network configuration. This unit introduces the available migration strategies. Upcoming units in this module analyze the performance considerations of each methodology and the network issues that must be considered when creating a mail migration plan.
 
 There are five migration strategies an organization can choose from to move its data:
 

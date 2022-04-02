@@ -7,5 +7,5 @@ Once you have gathered all of the required information, you can implement logic 
 By using Microsoft Sentinel, you have the ability to add granular control to the infrequent country request process. For example, you can exclude automatic resolution from members of administrator groups because there is extra risk to your systems if these accounts are compromised.
 
 The following video includes details of using Microsoft Sentinel to add sophistication to a Microsoft Defender for Cloud Apps infrequent country request alert:
-
+>
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWyyLY]
