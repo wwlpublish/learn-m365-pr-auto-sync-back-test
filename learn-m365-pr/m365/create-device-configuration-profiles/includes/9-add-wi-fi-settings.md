@@ -12,7 +12,7 @@ Use the following steps to create a new iOS/iPadOS configuration profile.
 
 ## Step 1: Create a Wi-Fi device configuration profile for iOS/iPadOS devices
 1. Sign in to the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
-2. Select **Devices** > **Configuration profiles** > **Create profile**.
+2. Select **Devices** > **Configuration profiles** > **Create profile**.<br>
    The **Create a profile** pane is displayed.
 3. Select **iOS/iPadOS** from the dropdown box under **Platform**.
 4. Select **Wi-Fi** from the dropdown box under **Profile type**.
@@ -26,20 +26,20 @@ Use the following steps to create a new iOS/iPadOS configuration profile.
 ## Step 3: Add configuration settings
 1. Next to **Wif-Fi type**, select **Basic**.
 2. Next to **Network name**, enter "iOS/iPadOS Wi-Fi settings". 
-3. Next to **SSID**, enter the name of your organization.
+3. Next to **SSID**, enter the name of your organization.<br>
    The Service Set Identifier (SSID) is the name of the Wi-Fi connection.
 4. Select **Enable** next to **Connect automatically**.
 5. Ensure **Disable** is selected next to **Hidden network**.
-6. Select **WPA/WPA2-Personal** next to **Security type**.
+6. Select **WPA/WPA2-Personal** next to **Security type**.<br>
    This setting is the security protocol to use for Wi-Fi authentication.
-7. Enter a password as a **pre-shared key**.
+7. Enter a password as a **pre-shared key**.<br>
    When your organization's network is set up or configured, a password or network key is also configured. Enter this password or network key for the pre-shared key (PSK) value.
-8. Select **Manual** next to **Proxy settings**.
+8. Select **Manual** next to **Proxy settings**.<br>
    Ensure that this proxy configuration is used by your organization.
-9. Enter a **Proxy server address**.
+9. Enter a **Proxy server address**.<br>
    This is the IP address of the proxy server.
-10. Enter a **Port number**.
-If your proxy server uses a particular port, enter the port number.
+10. Enter a **Port number**.<br>
+   If your proxy server uses a particular port, enter the port number.
 11. Ensure that **Disable MAC address randomization** is set to **Not configured**.
 12. Select **Next**.
 

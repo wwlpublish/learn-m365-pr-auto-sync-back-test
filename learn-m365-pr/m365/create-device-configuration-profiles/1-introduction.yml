@@ -5,11 +5,11 @@ metadata:
   unitType: introduction
   title: Introduction
   description: Create device configuration profiles
-  ms.date: 02/03/2022
+  ms.date: 04/01/2022 
   author: Erikre
   ms.author: erikre
   ms.topic: interactive-tutorial
   ms.prod: learning-endpoint-manager
-durationInMinutes: 3
+durationInMinutes: 2
 content: |
   [!include[](includes/1-introduction.md)]

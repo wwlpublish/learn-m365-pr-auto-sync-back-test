@@ -5,7 +5,7 @@ metadata:
   unitType: knowledge_check
   title: Knowledge check
   description: Knowledge check
-  ms.date: 02/03/2022
+  ms.date: 04/01/2022
   author: Erikre
   ms.author: erikre
   ms.topic: interactive-tutorial
@@ -14,45 +14,40 @@ durationInMinutes: 3
 content: |
 quiz:
   questions:
-  - content: "Which best describes co-management?"
+  - content: "Which best describes security baselines?"
     choices:
-    - content: "Co-management is the process of attaching your Intune tenant to the cloud. The process incorporates tenant-attach so that all your endpoints are successfully managed."
-      isCorrect: false
-      explanation: "Co-management is where you concurrently manage Windows 10 or later devices with both Configuration Manager and Microsoft Intune. Tenant attach can be applied separately from co-management."
-    - content: "Co-management allows you to recognize your Configuration Manager devices and infrastructure by the Intune cloud service and take actions by using Active Directory."
-      isCorrect: false
-      explanation: "Co-management is where you concurrently manage Windows 10 or later devices with both Configuration Manager and Microsoft Intune."
-    - content: "Co-management is where you concurrently manage Windows 10 or later devices with both Configuration Manager and Microsoft Intune."
+    - content: "Security baselines are groups of pre-configured Windows settings that help you apply and enforce granular security settings recommended by the relevant security teams at Microsoft."
       isCorrect: true
-      explanation: "Co-management combines your existing on-premises Configuration Manager and Active Directory investment with the cloud by using Intune, Azure AD, and other Microsoft 365 cloud services."
-  - content: "Which is not a benefit of implementing co-management?"
+      explanation: "Security baselines are groups of pre-configured Windows settings that help you apply and enforce granular security settings."
+    - content: "Security baselines are groups of dynamic iOS settings that help you apply and enforce granular security settings. "
+      isCorrect: false
+      explanation: "Security baselines are groups of pre-configured Windows settings that help you apply and enforce granular security settings."
+    - content: "Security baselines pre-configured server settings that help you apply and enforce overall security settings."
+      isCorrect: false
+      explanation: "Security baselines are groups of pre-configured Windows settings that help you apply and enforce granular security settings."
+  - content: "Which best describe device configuration profiles?"
     choices:
-    - content: "Intune-based remote actions"
+    - content: "Device configuration profiles help you protect your organization's data on both managed and unmanaged devices."
       isCorrect: false
-      explanation: "Using co-management, you can perform remote device actions, such as deleting company data on lost or stolen devices, renaming a device, restarting a device, reviewing device inventory, remotely controlling a device, wiping out pre-installed OEM apps with a Fresh Start reboot, or doing a factory reset on any Windows 10 or later device."
-    - content: "Link users, devices, and apps with Azure Active Directory (Azure AD)"
+      explanation: "Device configuration profiles allow you to enable or disable different device capabilities."
+    - content: "Device configuration profiles help you blocking access to data from devices that might be compromised."
       isCorrect: false
-      explanation: "Using co-management, you can using Azure AD. Azure AD is an identity service that provides single sign-on and multifactor authentication to help protect your users."
-    - content: "On-premises data access only"
+      explanation: "Device configuration profiles allow you to enable or disable different device capabilities."
+    - content: "Device configuration profiles allow you to enable or disable different device capabilities."
       isCorrect: true
-      explanation: "When you implement co-management, you concurrently manage Windows 10 or later devices on-premises using Configuration Manager and via the cloud using Microsoft Intune. "
-    - content: "Centralized visibility of device health"
-      isCorrect: false
-      explanation: "Using co-management, you can use Microsoft Endpoint Manager admin center which provides a single location to view all your organization's devices, whether those devices are connected via the cloud using Intune or are on-premises and connect via the Configuration Manager connector."
-  - content: "Which of the following is not involved in co-management?"
+      explanation: "Device configuration profiles allow you to enable or disable different device capabilities."
+  - content: "Which of the following setting is commonly configured using device configuration profiles in Intune?"
     choices:
-    - content: "Windows 10 or later devices"
+    - content: "Microsoft Defender for Endpoint settings"
       isCorrect: false
-      explanation: "To enable co-management, end users must upgrade their devices to Windows 10 (version 1709 or later) or Window 11."
-    - content: "Microsoft Endpoint Configuration Manager"
-      isCorrect: false
-      explanation: "Co-management requires Configuration Manager version 1710 or later."
-    - content: "Microsoft Office"
+      explanation: "Common device configuration settings include device email, Wi-Fi, and VPN settings."
+    - content: "Email settings"
       isCorrect: true
-      explanation: "Microsoft Office is not required to implement co-management."      
-    - content: "Azure Active Directory"
+      explanation: "Common device configuration settings include device email, Wi-Fi, and VPN settings."
+    - content: "Microsoft Office settings"
       isCorrect: false
-      explanation: "Windows 10 or later devices must be connected to Azure AD to use co-management."
-    - content: "Microsoft Intune"
+      explanation: "Common device configuration settings include device email, Wi-Fi, and VPN settings."      
+    - content: "Intune managed app settings"
       isCorrect: false
-      explanation: "Intune, which is required for co-management, is a cloud-based service that focuses on mobile device management (MDM) and mobile application management (MAM)."
+      explanation: "Common device configuration settings include device email, Wi-Fi, and VPN settings."
+

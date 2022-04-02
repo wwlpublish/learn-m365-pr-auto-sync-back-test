@@ -18,7 +18,7 @@ Use the following steps to create a new iOS/iPadOS device configuration profile 
 
 ## Step 1: Create a new iOS/iPadOS password profile
 1. Sign in to [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
-2. Select **Devices** > **Configuration profiles** > **Create profile**.
+2. Select **Devices** > **Configuration profiles** > **Create profile**.<br>
    The **Create a profile** pane is displayed.
 3. Select **iOS/iPadOS** from the dropdown box under **Platform**.
 4. Select **Device restrictions** from the dropdown box under **Profile type**.
@@ -43,7 +43,7 @@ For this device configuration profile, you can skip assigning this profile to an
 1. Click **Next**.
 
 ## Step 5: Review + create
-2. Review the values and settings for this configuration profile.
-3. Click **Create**.
+1. Review the values and settings for this configuration profile.
+2. Click **Create**.
 
 You have now created a new device configuration profile named "Require device password". You can see the new configuration profile in the list by selecting **Devices** > **Configuration profiles**. For related information, see [iOS and iPadOS device settings to allow or restrict features using Intune](/mem/intune/configuration/device-restrictions-ios).

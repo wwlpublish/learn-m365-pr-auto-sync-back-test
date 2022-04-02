@@ -16,7 +16,7 @@ Use the following steps to create a new Android Enterprise VPN configuration pro
 
 ## Step 1: Create a VPN device configuration profile
 1. Sign in to the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
-2. Select **Devices** > **Configuration profiles** > **Create profile**.
+2. Select **Devices** > **Configuration profiles** > **Create profile**.<br>
    The **Create a profile** pane is displayed.
 3. Select **Android Enterprise** from the dropdown box under **Platform**.
 4. Under the **Personally-Owned Work Profile** section, select **VPN**.
@@ -28,13 +28,13 @@ Use the following steps to create a new Android Enterprise VPN configuration pro
 3. Click **Next**.
 
 ## Step 3: Add configuration settings
-1. Next to **Connection type**, select **Microsoft Tunnel**.
+1. Next to **Connection type**, select **Microsoft Tunnel**.<br>
    For more information, see [Microsoft Tunnel overview](/mem/intune/protect/microsoft-tunnel-overview).
-2. Under **Base VPN**, add a **Connection name**. For instance, include your organization's name as part of the connection name, such as "Contoso VPN".
+2. Under **Base VPN**, add a **Connection name**. For instance, include your organization's name as part of the connection name, such as "Contoso VPN".<br>
    The connection name is a descriptive name for the VPN connection and will be displayed to end-users on their device.
-3. Below **Microsoft Tunnel site**, click **Select a site** to display the **Microsoft Tunnel site** pane.
+3. Below **Microsoft Tunnel site**, click **Select a site** to display the **Microsoft Tunnel site** pane.<br>
    The VPN client will connect to the public IP address or fully qualified domain name (FQDN) of the site.
-4. Select an available site. 
+4. Select an available site.<br> 
    If you don't have an available site, create one by selecting **Tenant administration** > **Microsoft Tunnel Gateway**. For more information, see [Prerequisites for the Microsoft Tunnel in Intune](/mem/intune/protect/microsoft-tunnel-prerequisites).
 5. Click **Next**.
 

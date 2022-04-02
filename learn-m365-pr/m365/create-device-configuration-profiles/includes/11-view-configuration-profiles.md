@@ -7,46 +7,36 @@ Intune includes some features to help monitor and manage your device configurati
 1. Sign in to the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. Select **Devices** > **Configuration profiles**.
 
-All of your profiles are shown. You also see the platform, the type of profile, and if the profile is assigned.
+All of your profiles are shown. You also see the related platform, the type of profile, and the last time the profile was modified.
 
 ## View device configuration profile details
 
-After you create your device configuration profile, Intune provides graphical charts. These charts display the status of a profile, such as it being successfully assigned to devices, or if the profile shows a conflict.
+After you create your device configuration profile, Intune provides status details about how the configuration profile.
 
-1. Select an existing profile. For example, select a iOS/iPadOS profile.
-2. Select the **Overview** tab. In this view, the **Profile assignment** includes the following statuses:
+1. Select an existing configuration profile.<br>
+   In this view, you can view a profile report, the profile assignment status, and the per setting profile status. In addition, you can modify the properties settings of the profile.
 
-    - **Completed**: Policy is applied successfully.
-    - **Error**: The policy failed to apply. The message typically displays with an error code that links to an explanation.
+2. Select **View Report**.<br>
+   This report shows all the devices and users that have checked in to receive the policy. Devices may show up multiple times based on the user that had checked in. This report does not include devices in a pending policy assignment state. To see the devices in a pending policy assignment state, select the “Device assignment status” report
+3. Click the name of the device configuration profile at the top to return to the profile details.
+
+4. Select **Device assignment status** > **Generate report**.<p>
+   The generated report provides the following details:
+    - **Success**: Policy is applied successfully.
     - **Conflict**: Two settings are applied to the same device, and Intune can't sort out the conflict. An administrator should review.
+    - **Error**: The policy failed to apply. The message typically displays with an error code that links to an explanation.
     - **Pending**: The device hasn't checked in with Intune to receive the policy yet.
     - **Not applicable**: The device can't receive the policy. For example, the policy updates a setting specific to iOS 11.1, but the device is using iOS 10.
 
-3. The top graphical chart shows the number of devices assigned to the device profile. For example, if the configuration device profile applies to iOS/iPadOS devices, the chart lists the count of the iOS/iPadOS devices.
+5. Click the name of the device configuration profile at the top again to return to the profile details.
 
-    When monitoring a Windows profile, the count in the **Profile assignment** status is per device per user. So, if two users sign in to the same device, then that device is counted twice.
+6. You can also edit specific settings within the profile.<p>
 
-    It can also show the number of devices for other platforms that are assigned the same device profile. For example, it shows the count of the non-iOS/iPadOS devices.
-
-4. Select the top graphical chart. **Device status** opens.
-
-    The devices assigned to the profile are listed, and it shows the deployment status. Also note that it only lists the devices with the specific platform (for example, iOS/iPadOS).
-
-    Close the **Device status** details.
-
-5. Select the circle in the bottom graphical chart. **User status** opens.
-
-    The users assigned to the profile are listed, and it shows the deployment status. Also note that it only lists the users with the specific platform (for example, iOS/iPadOS).
-
-    Close the **User status** details.
-
-6. Back in the **Profiles** list, select a specific profile.
-
+   The following profile sections allow you to modify the profile:
     - **Properties**: Change the name, or update any existing settings.
     - **Assignments**: Include or exclude devices that the policy should apply. Choose **Selected Groups** to choose specific groups.
-    - **Device status**: The devices assigned to the profile are listed, and it shows if the profile is successfully deployed. You can select a specific device to get even more details, including the installed apps.
-    - **User status**: Lists the user names with devices affected by this profile, and if the profile successfully deployed. You can select a specific user to get even more details.
-    - **Per-setting status**: Filters the output by showing the individual settings within the profile, and shows if the setting is successfully applied.
+    - **Scope tags**: Configure or update the admin access and visibility of the device configuration profile.
+    - **Configuration settings**: Update the configuration settings for the device configuration profile.
+    - **Applicability Rules**: Specify how to apply this profile within an assigned group. Intune will only apply the profile to devices that meet the combined criteria of these rules.
 
-> [!TIP]
-> For additional information about all Intune reporting, see [Intune reports](/mem/intune/fundamentals/reports).
+For additional information about all Intune reporting, see [Intune reports](/mem/intune/fundamentals/reports).
