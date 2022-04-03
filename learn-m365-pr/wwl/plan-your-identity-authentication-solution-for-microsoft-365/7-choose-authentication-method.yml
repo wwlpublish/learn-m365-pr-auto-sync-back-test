@@ -4,7 +4,7 @@ title: Choose the authentication method for your Azure AD hybrid identity soluti
 metadata:
   title: Choose the authentication method for your Azure AD hybrid identity solution
   description: "Choose the authentication method for your Azure AD hybrid identity solution"
-  ms.date: 04/01/2022
+  ms.date: 04/03/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Federated authentication"
       isCorrect: false
-      explanation: "Incorrect. This method requires more infrastructure. With this method, Azure AD hands off the authentication process to a separate trusted authentication system, such as on-premises Active Directory Federation Services (AD FS), to validate the user’s password. Try again."
+      explanation: "Incorrect. This method requires more infrastructure. With this method, Azure AD hands off the authentication process to a separate trusted authentication system, such as on-premises Active Directory Federation Services (AD FS), to validate the user’s password."
     - content: "Azure AD Pass-through Authentication"
       isCorrect: false
-      explanation: "Incorrect. This method requires more infrastructure. It provides a simple password validation for Azure AD authentication services by using a software agent that runs on one or more on-premises servers. The servers validate the users directly with the on-premises Active Directory, which ensures the password validation doesn't happen in the cloud. Try again."
+      explanation: "Incorrect. This method requires more infrastructure. It provides a simple password validation for Azure AD authentication services by using a software agent that runs on one or more on-premises servers. The servers validate the users directly with the on-premises Active Directory, which ensures the password validation doesn't happen in the cloud."
     - content: "Azure AD password hash synchronization"
       isCorrect: true
       explanation: "Correct. This method is the simplest way to enable authentication for on-premises directory objects in Azure AD. Users can use the same username and password that they use on-premises without having to deploy any extra infrastructure."
