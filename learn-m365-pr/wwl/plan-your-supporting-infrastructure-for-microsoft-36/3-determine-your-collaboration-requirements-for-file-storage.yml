@@ -4,7 +4,7 @@ title: Determine your collaboration requirements for file storage
 metadata:
   title: Determine your collaboration requirements for file storage
   description: "Determine your collaboration requirements for file storage"
-  ms.date: 04/01/2022
+  ms.date: 04/03/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Create a Microsoft 365 team site to store shared documents, and create a private Microsoft 365 team subsite to store files that you want to keep private from the rest of the team"
       isCorrect: false
-      explanation: "Incorrect. This strategy is recommended for small businesses rather than sole proprietorships. Try again."
+      explanation: "Incorrect. This strategy is recommended for small businesses rather than sole proprietorships."
     - content: "Use Microsoft 365 team subsites to store and share documents intended for a specific customer"
       isCorrect: false
-      explanation: "Incorrect. This strategy is recommended for businesses with external clients or partners who need access to files. Try again."
+      explanation: "Incorrect. This strategy is recommended for businesses with external clients or partners who need access to files."
     - content: "Use OneDrive for Business to store your own files and share them with customers on a case-by-case basis"
       isCorrect: true
       explanation: "Correct. The recommended file storage and sharing strategy for sole proprietorships is to use OneDrive for Business to store your own files and share them with customers on a case-by-case basis."
