@@ -4,7 +4,7 @@ title: Configure Outlook clients
 metadata:
   title: Configure Outlook clients
   description: "Configure Outlook clients"
-  ms.date: 03/30/2022
+  ms.date: 04/03/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "fully qualified domain names (FQDNs)"
       isCorrect: false
-      explanation: "Incorrect. Clients don't use this feature to connect to services such as Exchange Online and SharePoint Online. Try again."
+      explanation: "Incorrect. Clients don't use this feature to connect to services such as Exchange Online and SharePoint Online."
     - content: "Microsoft 365 endpoints"
       isCorrect: true
       explanation: "Correct. Microsoft 365 services contain multiple endpoints, through which clients connect to services such as Exchange Online and SharePoint Online. IPv4 and IPv6 address ranges and fully qualified domain names (FQDNs) are properties included in each endpoint (including ports, URLs, and IPv4 and IPv6 address ranges). However, it's the endpoints themselves that clients use to connect to services such as Exchange Online and SharePoint Online."
     - content: "IPv4 and IPv6 address ranges"
       isCorrect: false
-      explanation: "Incorrect. Clients don't use this feature to connect to services such as Exchange Online and SharePoint Online. Try again."
+      explanation: "Incorrect. Clients don't use this feature to connect to services such as Exchange Online and SharePoint Online."
