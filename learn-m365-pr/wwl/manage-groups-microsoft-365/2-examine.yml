@@ -4,7 +4,7 @@ title: Examine groups in Microsoft 365
 metadata:
   title: Examine groups in Microsoft 365
   description: "Examine groups in Microsoft 365"
-  ms.date: 03/30/2022
+  ms.date: 04/03/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Security group"
       isCorrect: false
-      explanation: "Incorrect. Security groups are used to grant access permissions to resources such as OneDrive. They're not used for collaboration between team members, nor do they provide a shared workspace for email, conversations, files, and calendar events. Try again."
+      explanation: "Incorrect. Security groups are used to grant access permissions to resources such as OneDrive. They're not used for collaboration between team members, nor do they provide a shared workspace for email, conversations, files, and calendar events."
     - content: "Distribution group"
       isCorrect: false
-      explanation: "Incorrect. Distribution groups are used for sending email to all members of a group. However, they don't provide a shared workspace for email, conversations, files, and calendar events. Try again."
+      explanation: "Incorrect. Distribution groups are used for sending email to all members of a group. However, they don't provide a shared workspace for email, conversations, files, and calendar events."
     - content: "Microsoft 365 group"
       isCorrect: true
       explanation: "Correct. A Microsoft 365 group is similar to a distribution group. It has its own mailbox and its members receive email messages that are sent to the group. However, it differs from distribution groups in that it allows teams to collaborate by providing them a shared workspace for email, conversations, files, and calendar events."
