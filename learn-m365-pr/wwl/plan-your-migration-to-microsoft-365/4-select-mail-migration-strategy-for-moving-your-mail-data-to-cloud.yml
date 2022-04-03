@@ -4,7 +4,7 @@ title: Select the mail migration strategy for moving your mail data to the cloud
 metadata:
   title: Select the mail migration strategy for moving your mail data to the cloud
   description: "Select the mail migration strategy for moving your mail data to the cloud"
-  ms.date: 04/01/2022
+  ms.date: 04/03/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Cutover migration"
       isCorrect: false
-      explanation: "Incorrect. A cutover migration can migrate all on-premises mailboxes to Microsoft 365 over a few days. However, you can only migrate a maximum of 2000 mailboxes, with a recommended maximum of 150 before performance begins to suffer. Try again."
+      explanation: "Incorrect. A cutover migration can migrate all on-premises mailboxes to Microsoft 365 over a few days. However, you can only migrate a maximum of 2000 mailboxes, with a recommended maximum of 150 before performance begins to suffer."
     - content: "IMAP migration"
       isCorrect: false
-      explanation: "Incorrect. An IMAP migration migrates the contents of users' mailboxes from an IMAP messaging system to their Microsoft 365 mailboxes. This scenario isn't the case at Tailspin Toys. Try again."
+      explanation: "Incorrect. An IMAP migration migrates the contents of users' mailboxes from an IMAP messaging system to their Microsoft 365 mailboxes. This scenario isn't the case at Tailspin Toys."
     - content: "Staged migration"
       isCorrect: true
       explanation: "Correct. A staged migration migrates batches of on-premises mailboxes to Microsoft 365 over the course of a few weeks or months. This design ultimately allows you to manage user accounts in Microsoft 365."

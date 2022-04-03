@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/01/2022
+  ms.date: 04/03/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,18 +24,18 @@ quiz:
       explanation: "Correct. This best practice will ultimately minimize the amount of time it takes to migrate mailboxes to Microsoft 365. When you contact your ISP to confirm your allocated bandwidth, you should also get details about restrictions, such as the total amount of data that can be transferred in a specific period of time."
     - content: "Work with your hardware vendors to understand your network devices and apply the vendor’s latest recommended drivers and software updates"
       isCorrect: false
-      explanation: "Incorrect. This best practice helps address network stability issues but doesn't address network capacity. Try again."
+      explanation: "Incorrect. This best practice helps address network stability issues but doesn't address network capacity."
     - content: "Add IP addresses for Microsoft datacenter servers to your allowlist, or bypass all migration-related traffic from your network firewall"
       isCorrect: false
-      explanation: "Incorrect. This best practice helps address network delays but doesn't address network capacity. Try again."
+      explanation: "Incorrect. This best practice helps address network delays but doesn't address network capacity."
   - content: "As the Enterprise Administrator for Tailspin Toys, you're planning your company's deployment of Microsoft 365. As you work your way through the Microsoft 365 Deployment Planning Checklist, you want to start planning your rollout to Tailspin's users. Which of the following steps must you complete when rolling out Microsoft 365 to your users?"
     choices:
     - content: "Update client software versions"
       isCorrect: false
-      explanation: "Incorrect. This step is one of the things you can do to resolve blocking situations. Try again."
+      explanation: "Incorrect. This step is one of the things you can do to resolve blocking situations."
     - content: "Reconfigure your client systems to connect to Microsoft 365"
       isCorrect: true
       explanation: "Correct. When rolling out Microsoft 365 to your users, you must reconfigure your client systems (Office, Outlook, Outlook for Mac, and mobile devices) to connect to Microsoft 365."
     - content: "Analyze your current environment to determine the intranet sites that you plan to migrate"
       isCorrect: false
-      explanation: "Incorrect. This step is completed when you inventory your current environment. Try again."
+      explanation: "Incorrect. This step is completed when you inventory your current environment."
