@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/01/2022
+  ms.date: 04/03/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,32 +21,32 @@ quiz:
     choices:
     - content: "Enable Direct Routing"
       isCorrect: false
-      explanation: "Incorrect. With Direct Routing, you can use your on-premises voice infrastructure while you move to the cloud and after your migration is complete. Try again."
+      explanation: "Incorrect. With Direct Routing, you can use your on-premises voice infrastructure while you move to the cloud and after your migration is complete."
     - content: "Configure the users to be in Teams Only mode"
       isCorrect: true
       explanation: "Correct. Teams Only mode provides your users with inter-operability and federation support from their Teams client."
     - content: "Create a split domain when setting up your hybrid connectivity"
       isCorrect: false
-      explanation: "Incorrect. A split domain means that users of a domain are split between using on-premises Skype for Business Server and Skype for Business Online. Try again."
+      explanation: "Incorrect. A split domain means that users of a domain are split between using on-premises Skype for Business Server and Skype for Business Online."
   - content: "You're the Enterprise Administrator for Contoso, which has a Microsoft Enterprise E5 subscription. Contoso already uses SharePoint Online to support its collaboration efforts between users and teams. However, you're interested in creating a hybrid SharePoint environment to maximize collaboration. Of all the extra features that a hybrid SharePoint environment will provide, you're most interested in creating a modern productivity experience for your users. In this environment, your users will have a more seamless experience when navigating between Contoso's on-premises SharePoint Server and Microsoft 365. To achieve this result, which of the following features should you configure with the help of the SharePoint Online Hybrid Picker tool?"
     choices:
     - content: "Hybrid OneDrive"
       isCorrect: false
-      explanation: "Incorrect. Storing business files in OneDrive for Business makes it easy for users to share and collaborate on documents. However, it doesn't create a modern productivity experience for users or help them have a more seamless experience when navigating between your on-premises SharePoint Server and Microsoft 365. Try again."
+      explanation: "Incorrect. Storing business files in OneDrive for Business makes it easy for users to share and collaborate on documents. However, it doesn't create a modern productivity experience for users or help them have a more seamless experience when navigating between your on-premises SharePoint Server and Microsoft 365."
     - content: "Hybrid App Launcher"
       isCorrect: true
       explanation: "Correct. Hybrid App Launcher creates a modern productivity experience for users. It also helps them have a more seamless experience when navigating between your on-premises SharePoint Server and Microsoft 365."
     - content: "Business to Business extranet sites"
       isCorrect: false
-      explanation: "Incorrect. The Business to Business extranet sites feature enables you to create partner facing extranet sites that let partners securely do business with your organization. However, it doesn't create a modern productivity experience for users or help them have a more seamless experience when navigating between your on-premises SharePoint Server and Microsoft 365. Try again."
+      explanation: "Incorrect. The Business to Business extranet sites feature enables you to create partner facing extranet sites that let partners securely do business with your organization. However, it doesn't create a modern productivity experience for users or help them have a more seamless experience when navigating between your on-premises SharePoint Server and Microsoft 365."
   - content: "You're the Enterprise Administrator for Tailspin Toys, Inc. You have on-premises Skype for Business users who are simultaneously using Microsoft Teams. However, they're unable to inter-operate with Skype for Business users from their Teams client. They also can't communicate with users in federated organizations from their Teams client. You want to provide both of these functions to your users in Teams. To do so, you must move the users from on-premises Skype for Business to the cloud. Doing so requires that you configure a hybrid Skype for Business deployment. Once you've configured this hybrid deployment, what must you do to provide your users with inter-operability and federation support from their Teams client?"
     choices:
     - content: "Enable Direct Routing"
       isCorrect: false
-      explanation: "Incorrect. With Direct Routing, you can use your on-premises voice infrastructure while you move to the cloud and after your migration is complete. However, it doesn't provide your users with inter-operability and federation support from their Teams client. Try again."
+      explanation: "Incorrect. With Direct Routing, you can use your on-premises voice infrastructure while you move to the cloud and after your migration is complete. However, it doesn't provide your users with inter-operability and federation support from their Teams client."
     - content: "Configure the users to be in Teams Only mode"
       isCorrect: true
       explanation: "Correct. Teams Only mode provides your users with inter-operability and federation support from their Teams client."
     - content: "Create a split domain when setting up your hybrid connectivity"
       isCorrect: false
-      explanation: "Incorrect. A split domain means that users of a domain are split between using on-premises Skype for Business Server and Skype for Business Online. However, it doesn't provide your users with inter-operability and federation support from their Teams client. Try again."
+      explanation: "Incorrect. A split domain means that users of a domain are split between using on-premises Skype for Business Server and Skype for Business Online. However, it doesn't provide your users with inter-operability and federation support from their Teams client."
