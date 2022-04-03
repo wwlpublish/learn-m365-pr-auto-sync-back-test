@@ -4,7 +4,7 @@ title: Integrate Microsoft 365 with customer engagement apps
 metadata:
   title: Integrate Microsoft 365 with customer engagement apps
   description: "Integrate Microsoft 365 with customer engagement apps"
-  ms.date: 03/29/2022
+  ms.date: 04/03/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Upgrade your subscription to Microsoft 365 Enterprise E5"
       isCorrect: false
-      explanation: "Incorrect. Upgrading your subscription to Microsoft 365 Enterprise E5 isn't the cheapest option. Try again."
+      explanation: "Incorrect. Upgrading your subscription to Microsoft 365 Enterprise E5 isn't the cheapest option."
     - content: "Purchase an add-on license for Visio Online"
       isCorrect: true
       explanation: "Correct. To provide this functionality while minimizing costs, you should purchase an add-on license for Visio Online."
     - content: "Deploy the standalone version of Office 2019"
       isCorrect: false
-      explanation: "Incorrect. Deploying a standalone version of Office 2019 isn't the cheapest option. Try again."
+      explanation: "Incorrect. Deploying a standalone version of Office 2019 isn't the cheapest option."
