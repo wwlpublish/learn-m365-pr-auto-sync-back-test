@@ -4,7 +4,6 @@ To align with the new method of delivering feature and quality updates in Window
 
 For any release, we recommend at least three deployment phases for IT: validation, piloting, and broad production deployment.
 
-
 ## Expand your validation of security updates
 
 Before security updates are rolled out for broad deployment, builds are released through the **Insider Programs** for Office and Windows. The Insider Program provides access to early update releases that you can validate on your own system before deploying them to your whole organization. Microsoft also uses the Insider Programs to gather diagnostic data and feedback prior to releasing updates broadly. This helps minimize update incompatibilities. The Insider Programs are open to everyone.
@@ -17,7 +16,7 @@ Windows Update for Business is a free service that helps you keep Windows 10 dev
 
 You can significantly reduce download size by using a technology like **Express Updates** in Windows. In this approach, the update engines compare the PC's current status and find only the delta needed to update it. Windows Update for Business and Windows Server Update Services have supported express updates for a long time, and Configuration Manager has been updated so that it can also use express updates.
 
-![Express Updates screen](../media/step-7-1.png)
+:::image type="content" source="../media/step-7-1.png" alt-text="Express Updates screen." border="false":::
 
 ### Explore how to optimize Windows 10 updates
 
