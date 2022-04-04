@@ -1,6 +1,6 @@
-![step 6 highlighted on deployment wheel](../media/step-6-wheel.png)
+:::image type="content" source="../media/step-6-wheel.png" alt-text="Step 6 highlighted on deployment wheel." border="false":::
 
-![step 6 icon](../media/step-6-icon.png)
+:::image type="icon" source="../media/step-6-icon.png" :::
 
 To successfully deploy the Windows 10 operating system in your organization, it is important to understand the different ways that it can be deployed, especially now that there are new scenarios to consider. Choosing among these scenarios, and understanding the capabilities and limitations of each, is a key task.
 

@@ -4,7 +4,7 @@ You're ready to begin your strategy and project plan. You need to quickly delive
 
 |Role|Description|
 |-|-|
-|Executive sponsor| Do you have a senior executive in your company that is spearheading the overall business outcomes, including the implementation of Microsoft Teams?| 
+|Executive sponsor| Do you have a senior executive in your company that is spearheading the overall business outcomes, including the implementation of Microsoft Teams?|
 |Success owner|Who is accountable for the overall success of your implementation? THis is often a business leader (like the head of product development) in partnership with an IT service owner (like the service manager who owns collaboration and communication services).|
 |Project manager|You or another person who has the day-to-day responsibility for managing the overall project, including managing risks, issues, and stakeholders.|
 |Champions|Do you have an existing network of champions who provide departmental and 1:1 support for employees during transitions? Do you have a community manager that can provide a consistent presence to these people and handle their training and support?|
@@ -14,7 +14,7 @@ You're ready to begin your strategy and project plan. You need to quickly delive
 > [!NOTE]
 > With the advent of Microsoft Teams, IT professionals who formerly ran only collaboration or communications/telephony services now need to work together to deliver an integrated experience. In small organizations this may be one individual in larger organization, it's often two or more people.
 
-|:::image type="content" source="../media/activity.png" alt-text="Activity icon" border="false"::: Activity|
+|:::image type="icon" source="../media/activity.png" :::|
 |-|
 |Read [Microsoft Teams Phase One](/microsoftteams/teams-adoption-phase1) for more information on roles and pre-requisites for this phase of your planning.<br><br>Watch and use introduction videos like [What is Microsoft Teams?](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d) to ensure people begin to understand what this new experience can do. Note that this video doesn't focus on a long list of features but on the outcomes for employees.|
 
@@ -27,7 +27,7 @@ What we know is that most employees aren't willing to use new technology rolled 
 Identify and empower your executive sponsor to be a consistently visible part of your change program. This supports sustained use of the new tools and overall transformation. Consistent communications are key. Here are ways your executive sponsors can communicate their support for the project:
 
 - Use Microsoft Teams Live Events to broadcast a digital town hall to employees impacted by the change. Schedule these regularly - preferably monthly or at a minimum quarterly - to reinforce why your organization is going on this change journey.
-- Have your executive sponsor use the technology themselves. When executives are present in new experiences, employee use of those experiences increases. Select a relevant executive experience to transform along with other employees. Work with the executive's support staff directly to ensure a smooth transition. 
+- Have your executive sponsor use the technology themselves. When executives are present in new experiences, employee use of those experiences increases. Select a relevant executive experience to transform along with other employees. Work with the executive's support staff directly to ensure a smooth transition.
 - Use additional forms of communication including email, intranet articles, and internal social networks to communicate to employees, and allow executives to receive feedback directly. While a more open and transparent culture may be new to your organization, your change program will benefit.
 
 If you don't have a senior executive who is willing to participate, you can drive a portion of change in a grassroots manner. Go directly to a key division or process owner and partner with them on your experimental transformation process. Meaningful business results from this experiment might be what you need to get your C-suite onboard.
@@ -36,7 +36,7 @@ If you don't have a senior executive who is willing to participate, you can driv
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3Fq2b]
 
-|:::image type="content" source="../media/activity.png" alt-text="Activity icon" border="false"::: Activity|
+|:::image type="icon" source="../media/activity.png" ::: Activity|
 |-|
 |Map out your team structures and workstream assignments for your own organization. Take this opportunity to identify talent in your organization or any gaps that need to be filled. It's important to identify missing talent areas early in your planning process so you can get the correct kind of help. Download our Workstream Assignment handout to aid you in this process. |
 
