@@ -1,4 +1,4 @@
-![checkmark icon](../media/checkmark-icon.png)
+:::image type="icon" source="../media/checkmark-icon.png" :::
 
 ## Troubleshooting updates
 
