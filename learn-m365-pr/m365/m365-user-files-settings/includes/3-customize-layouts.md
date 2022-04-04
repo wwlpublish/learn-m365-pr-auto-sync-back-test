@@ -1,7 +1,6 @@
 > [!div class="centered"]
-> :::image type="content" source="../media/step-4-start-options.png" alt-text="Customize the start layout." border="false":::
+> :::image type="content" source="../media/step-4-start-options.png" alt-text="Customize the start layout." lightbox="../media/step-4-start-options.png" border="false":::
 
-After your updated apps are deployed, you'll want to sync the start and taskbar layouts on your users' systems. To do this in the past, you may have used the copy profile method to configure standard layouts for users' start menus and taskbar settings.
 
 In Windows 10 Pro, Enterprise, and Education, you can use Group Policy, MDM, PowerShell, or provisioning packages to deploy customized start and taskbar layouts. You don't need to reimage the user's systems, and you can update or revise the layout by editing the output xml file. This means you can customize the layout for different departments or organizations.
 

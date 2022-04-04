@@ -4,7 +4,8 @@ You've seen that connectors are needed to route emails from on-premises Exchange
 
 You have a combination of Office 365 mailboxes and on-premises email servers. To enable mail to flow in both directions, you will need to set up connectors.
 
-:::image type="content" source="../media/3-connector-office-365-email-server.png" alt-text="A workflow diagram shows how connectors enable mail flow to and from online and on-premises mail servers." border="true":::
+> [!div class="centered"]
+> :::image type="content" source="../media/3-connector-office-365-email-server.png" alt-text="A workflow diagram shows how connectors enable mail flow to and from online and on-premises mail servers." lightbox="../media/3-connector-office-365-email-server.png" border="false":::
 
 To ensure the integration is seamless for your users, you'll need two connectors to route email between Microsoft 365 and your on-premises email servers:
 
