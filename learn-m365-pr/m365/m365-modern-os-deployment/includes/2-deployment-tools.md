@@ -13,7 +13,7 @@ There are three primary deployment scenarios, each with specific tools or method
 - **Dynamic.** Dynamic deployment methods enable you to configure applications and settings for specific use cases. Some examples are:
 
   - Subscription activation. Switch from Windows 10 Pro to Enterprise when a subscribed user signs in.
-  - Azure Active Directory (AAD), and mobile device management (MDM). You can automatically join a device to AAD and enroll it in your management solution with no additional user interaction.
+  - Azure Active Directory (Azure AD), and mobile device management (MDM). You can automatically join a device to Azure AD and enroll it in your management solution with no additional user interaction.
   - Provisioning packages. Using the Windows Imaging and Configuration Designer tool, create provisioning packages, the collection of apps and settings customized for your deployment, to apply to devices.
 
 - **Traditional.** Traditional deployment methods use existing tools to deploy operating system images. You'll employ one of these methods:
