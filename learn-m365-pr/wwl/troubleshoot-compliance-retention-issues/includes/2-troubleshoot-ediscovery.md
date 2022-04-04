@@ -28,13 +28,13 @@ If a user is denied access to eDiscovery tools, first check that their job requi
 
 1.  In the Microsoft 365 compliance center, select **Permissions** and then, under **Compliance center**, select **Roles**.
 
-    - :::image type="content" source="../media/02-access-roles.png" alt-text="Screen shot showing how to access the role assignment tool in Microsoft 365 compliance center.":::
+    :::image type="content" source="../media/02-access-roles.png" alt-text="Screen shot showing how to access the role assignment tool in Microsoft 365 compliance center.":::
 
 1.  In the list of role groups, select **eDiscovery Manager**.
 1.  To the right of **eDiscovery Manager** or **eDiscovery Administrator**, select **Edit**.
 1.  In the **Editing Choose eDiscovery Manager** windows, under the list of users, select **Edit**.
 
-    - :::image type="content" source="../media/02-edit-role.png" alt-text="Screen shot showing how to edit the membership of a role group in Microsoft 365 compliance center.":::
+    :::image type="content" source="../media/02-edit-role.png" alt-text="Screen shot showing how to edit the membership of a role group in Microsoft 365 compliance center.":::
 
 1.  Select **Add**, search for and select the correct user account, and then select **Add** again.
 1.  To save the new membership, select **Done,** and then select **Save**.
