@@ -16,4 +16,3 @@ After completing this module, you'll be able to:
  -  Create a plan for directory synchronization and Azure AD Connect Pass-Through authentication.
  -  Describe the issues, benefits, and recommendations when implementing federated authentication using Active Directory Federation Services (AD FS).
  -  Plan for Azure AD single sign-on.
-
