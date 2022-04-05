@@ -46,7 +46,7 @@ This simple mapping shows a user, their role, a common problem and how to addres
 
 |:::image type="content" source="../media/activity.png" alt-text="Activity icon" border="false"::: Example Activity for Contoso|
 |-|
-|You have reviewed the information from your employee interviews. First gather your priority pain by using a persona pain point powerpoint template. This will provide you with a visual reference of the issues facing your employees. We encourage you to put a face with the name and include their profile photos when you can. Use this list to begin documenting target business scenarios that should be selected for improvement.|
+|You have reviewed the information from your employee interviews. First gather your priority pain by using a persona pain point PowerPoint template. This will provide you with a visual reference of the issues facing your employees. We encourage you to put a face with the name and include their profile photos when you can. Use this list to begin documenting target business scenarios that should be selected for improvement.|
 
 ## The importance of User Adoption Planning
 
