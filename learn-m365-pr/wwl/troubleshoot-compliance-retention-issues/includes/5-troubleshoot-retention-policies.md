@@ -64,6 +64,6 @@ Set-AppRetentionCompliancePolicy -Identity ContosoExecsRetentionPolicy -RetryDis
 
 # Learn more
 
-- [Learn about retention policies and retention labels](/microsoft-365/compliance/retention?view=o365-worldwide)
+- [Learn about retention policies and retention labels](/microsoft-365/compliance/retention)
 - [Learn about retention for Exchange](/microsoft-365/compliance/retention-policies-exchange)
 - [Create and configure retention policies](/microsoft-365/compliance/create-retention-policies)

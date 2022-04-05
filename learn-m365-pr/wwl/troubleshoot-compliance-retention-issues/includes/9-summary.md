@@ -18,7 +18,7 @@ Now that you’ve completed this module, you can:
 - [New-ComplianceSearch](/powershell/module/exchange/New-ComplianceSearch)
 - [Clean up or delete items from the Recoverable Items folder in Exchange Online](/exchange/security-and-compliance/recoverable-items-folder/clean-up-deleted-items)
 - [Use Content search for targeted collections](/microsoft-365/compliance/use-content-search-for-targeted-collections)
-- [Learn about retention policies and retention labels](/microsoft-365/compliance/retention?view=o365-worldwide)
+- [Learn about retention policies and retention labels](/microsoft-365/compliance/retention)
 - [Learn about retention for Exchange](/microsoft-365/compliance/retention-policies-exchange)
 - [Create and configure retention policies](/microsoft-365/compliance/create-retention-policies)
 - [Retention tags and retention policies in Exchange Online](/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)
