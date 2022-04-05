@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn.wwl.troubleshoot-issues-mobile-devices
+metadata:
+  title: Troubleshoot issues with mobile devices
+  description: "Investigate and diagnose problems that users may experience when they use mobile phones, tablets, and other devices to access Exchange Online. MS-220"
+  ms.date: 04/05/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot issues with mobile devices
+summary: Investigate and diagnose problems that users may experience when they use mobile phones, tablets, and other devices to access Exchange Online.
+abstract: |
+  After completing this module, you'll be able to:
+  - Resolve any issues that mobile devices have when connecting to Exchange Online.
+  - Diagnose problems with ActiveSync devices.
+prerequisites: |
+  - Experience with PowerShell and the Exchange PowerShell module.
+  - Significant experience deploying, managing, and troubleshooting Exchange environments.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- advanced
+roles:
+- support-engineer
+products:
+- azure-active-directory
+- defender-office365
+- office-exchange-server
+- office-outlook
+- office-exchange-online
+units:
+- learn.wwl.troubleshoot-issues-mobile-devices.introduction
+- learn.wwl.troubleshoot-issues-mobile-devices.troubleshoot-that-access-exchange-online
+- learn.wwl.troubleshoot-issues-mobile-devices.troubleshoot-activesync
+- learn.wwl.troubleshoot-issues-mobile-devices.interactive-demonstration
+- learn.wwl.troubleshoot-issues-mobile-devices.knowledge-check
+- learn.wwl.troubleshoot-issues-mobile-devices.summary
+badge:
+  uid: learn.wwl.troubleshoot-issues-mobile-devices.badge
