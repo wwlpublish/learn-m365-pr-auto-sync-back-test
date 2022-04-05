@@ -1,6 +1,6 @@
-![Step 4 highlighted on the deployment wheel](../media/step-4-wheel.png)
+:::image type="content" source="../media/step-4-wheel.png" alt-text="Step 4 highlighted on the deployment wheel." border="false":::
 
-![Step 4 icon](../media/step-4-icon.png)
+:::image type="icon" source="../media/step-4-icon.png" :::
 
 ## Migrate user data manually
 
