@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/30/2022
+  ms.date: 04/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Microsoft Message Analyzer"
       isCorrect: false
-      explanation: "Incorrect. Message Analyzer is an effective tool for troubleshooting network issues. Try again."
+      explanation: "Incorrect. Message Analyzer is an effective tool for troubleshooting network issues."
     - content: "Microsoft Remote Connectivity Analyzer"
       isCorrect: false
-      explanation: "Incorrect. While the Microsoft Remote Connectivity Analyzer creates a log file, the tool itself focuses primarily on client connectivity issues. Try again."
+      explanation: "Incorrect. While the Microsoft Remote Connectivity Analyzer creates a log file, the tool itself focuses primarily on client connectivity issues."
     - content: "Microsoft 365 Support and Recovery Assistant"
       isCorrect: true
       explanation: "Correct. The Microsoft 365 Support and Recovery Assistant tool lets users run tests to resolve a variety of problems. These problems include Outlook installation and activation issues. They also include issues that occur when you make a network connection in Microsoft Dynamics 365 or OneDrive for Business."
@@ -32,10 +32,10 @@ quiz:
     choices:
     - content: "TXT"
       isCorrect: false
-      explanation: "Incorrect. This DNS record type doesn't enable Outlook clients to use the Autodiscover process to connect to Exchange Online. Try again."
+      explanation: "Incorrect. This DNS record type doesn't enable Outlook clients to use the Autodiscover process to connect to Exchange Online."
     - content: "MX"
       isCorrect: false
-      explanation: "Incorrect. This DNS record type doesn't enable Outlook clients to use the Autodiscover process to connect to Exchange Online. Try again."
+      explanation: "Incorrect. This DNS record type doesn't enable Outlook clients to use the Autodiscover process to connect to Exchange Online."
     - content: "CNAME"
       isCorrect: true
       explanation: "Correct. Based on an Outlook client's email address information and the CNAME record on the Internet-located DNS, the client locates the Autodiscover service in Microsoft 365. The Autodiscover process then automatically connects Outlook to Exchange Online."
@@ -43,10 +43,10 @@ quiz:
     choices:
     - content: "RPC/HTTP"
       isCorrect: false
-      explanation: "Incorrect. This protocol doesn't support connecting Outlook to Exchange Online in Microsoft 365. Try again."
+      explanation: "Incorrect. This protocol doesn't support connecting Outlook to Exchange Online in Microsoft 365."
     - content: "MAPI/HTTP"
       isCorrect: true
       explanation: "Correct. MAPI over HTTP is the newest and most modern protocol. It's better designed for modern networks and connectivity over the Internet than RPC/HTTP and RPC/TCP. It's also the only protocol that connects Outlook to Exchange Online in Microsoft 365."
     - content: "RPC/TCP"
       isCorrect: false
-      explanation: "Incorrect. This protocol doesn't support connecting Outlook to Exchange Online in Microsoft 365. Try again."
+      explanation: "Incorrect. This protocol doesn't support connecting Outlook to Exchange Online in Microsoft 365."

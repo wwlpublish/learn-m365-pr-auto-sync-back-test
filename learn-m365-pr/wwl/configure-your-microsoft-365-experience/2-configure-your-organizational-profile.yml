@@ -4,7 +4,7 @@ title: Configure your organizational profile in Microsoft 365
 metadata:
   title: Configure your organizational profile in Microsoft 365
   description: "Configure your organizational profile in Microsoft 365"
-  ms.date: 03/29/2022
+  ms.date: 04/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Use the Microsoft 365 admin center to access Tailwind's Organization Profile and change the country/region of the company's headquarters to the United States"
       isCorrect: false
-      explanation: "Incorrect. You can't use the Microsoft 365 admin center to change your company's headquarters. Try again."
+      explanation: "Incorrect. You can't use the Microsoft 365 admin center to change your company's headquarters."
     - content: "Contact Microsoft Support Services and have them update the country/region of your Microsoft 365 subscription to the United States"
       isCorrect: false
-      explanation: "Incorrect. Microsoft Support Services won't change your company's headquarters. Try again."
+      explanation: "Incorrect. Microsoft Support Services won't change your company's headquarters."
     - content: "Sign up for a new account, choose the United States as the desired country/region, and purchase a new subscription"
       isCorrect: true
       explanation: "Correct. The country/region where your organization is headquartered determines which services are available to you, the taxes and billing currency, and the location of the Microsoft data center that supports your organization. As such, changing the location of the company headquarters requires that you sign up for a new account, choose the desired country/region, and purchase a new subscription."
