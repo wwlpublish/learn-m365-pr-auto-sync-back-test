@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-desktop-outlook-clients.fix-outlook-authentication-issues
+title: Fix Outlook authentication issues
+metadata:
+  title: Fix Outlook authentication issues
+  description: "Fix Outlook authentication issues"
+  ms.date: 04/05/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-fix-outlook-authentication-issues.md)]

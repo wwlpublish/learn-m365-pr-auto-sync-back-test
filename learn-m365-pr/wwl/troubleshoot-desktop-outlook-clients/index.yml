@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.troubleshoot-desktop-outlook-clients
+metadata:
+  title: Troubleshoot desktop Outlook clients
+  description: "Investigate and diagnose problems that desktop and laptop computer users have when connecting their Outlook client to Exchange Online. MS-220"
+  ms.date: 04/05/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot desktop Outlook clients
+summary: Investigate and diagnose problems that desktop and laptop computer users have when connecting their Outlook client to Exchange Online.
+abstract: |
+  After completing this module, you'll be able to:
+  - Ensure Outlook clients can connect to Exchange Online.
+  - Diagnose Outlook client authentication issues.
+  - Resolve problems with calendaring, resource booking, and delegation.
+prerequisites: |
+  - Experience with Windows PowerShell and the Exchange PowerShell module.
+  - Hands-on experience deploying, managing, and troubleshooting Exchange environments.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- advanced
+roles:
+- support-engineer
+products:
+- azure-active-directory
+- defender-office365
+- office-exchange-server
+- office-outlook
+- office-exchange-online
+units:
+- learn.wwl.troubleshoot-desktop-outlook-clients.introduction
+- learn.wwl.troubleshoot-desktop-outlook-clients.troubleshoot-outlook-connections-to-exchange
+- learn.wwl.troubleshoot-desktop-outlook-clients.fix-outlook-authentication-issues
+- learn.wwl.troubleshoot-desktop-outlook-clients.troubleshoot-calendars
+- learn.wwl.troubleshoot-desktop-outlook-clients.interactive-demonstration
+- learn.wwl.troubleshoot-desktop-outlook-clients.knowledge-check
+- learn.wwl.troubleshoot-desktop-outlook-clients.summary
+badge:
+  uid: learn.wwl.troubleshoot-desktop-outlook-clients.badge

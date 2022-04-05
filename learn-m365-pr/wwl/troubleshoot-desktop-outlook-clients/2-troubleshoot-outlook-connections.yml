@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-desktop-outlook-clients.troubleshoot-outlook-connections-to-exchange
+title: Troubleshoot Outlook connections to Exchange
+metadata:
+  title: Troubleshoot Outlook connections to Exchange
+  description: "Troubleshoot Outlook connections to Exchange"
+  ms.date: 04/05/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-troubleshoot-outlook-connections.md)]
