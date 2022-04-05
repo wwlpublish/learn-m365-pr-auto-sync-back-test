@@ -12,7 +12,6 @@ Microsoft 365 Apps and Office 2019 are both installed using **Click-to-Run,** wh
 
 Office applications are delivered and managed via the **Office Deployment Tool** (also known as the Office Customization Tool), which is the Office setup engine needed to download, configure, and customize your Office apps. With this tool, you can set the applications and languages to be installed, the method for updating the applications, application preferences, and installation experience settings.
 
-
 :::image type="content" source="../media/step-3-office-and-lob-app-delivery-media-7-50.png" alt-text="Screenshot of the Office Customization Tool.":::
 
 ## Deploy Office with the Microsoft Endpoint Configuration Manager
