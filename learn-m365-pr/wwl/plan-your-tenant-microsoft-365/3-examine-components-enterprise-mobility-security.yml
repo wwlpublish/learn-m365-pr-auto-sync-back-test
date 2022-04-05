@@ -4,7 +4,7 @@ title: Examine the components in Microsoft 365 Enterprise Mobility and Security
 metadata:
   title: Examine the components in Microsoft 365 Enterprise Mobility and Security
   description: "Examine the components in Microsoft 365 Enterprise Mobility and Security"
-  ms.date: 03/29/2022
+  ms.date: 04/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Azure AD Identity Protection"
       isCorrect: false
-      explanation: "Incorrect. This feature doesn't provide identity management for on-premises users, remote users, and hybrid users accessing applications both locally and over the cloud. Try again."
+      explanation: "Incorrect. This feature doesn't provide identity management for on-premises users, remote users, and hybrid users accessing applications both locally and over the cloud."
     - content: "Azure AD Privileged Identity Management"
       isCorrect: false
-      explanation: "Incorrect. This feature doesn't provide identity management for on-premises users, remote users, and hybrid users accessing applications both locally and over the cloud. Try again."
+      explanation: "Incorrect. This feature doesn't provide identity management for on-premises users, remote users, and hybrid users accessing applications both locally and over the cloud."
     - content: "Azure AD Premium P1"
       isCorrect: true
       explanation: "Correct. Azure AD Premium P1 is an enterprise-level edition. It provides identity management for on-premises users, remote users, and hybrid users accessing applications both locally and over the cloud."
