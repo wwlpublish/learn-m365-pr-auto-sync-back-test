@@ -9,4 +9,4 @@ Planning the deployment of a Microsoft 365 tenant is a multi-step process. Once 
 
 Microsoft 365 uses Azure Active Directory (Azure AD), which is a cloud-based user identity and authentication service that's included with a Microsoft 365 subscription. Azure AD manages identities and authentication for Microsoft 365. This module examined the importance of correctly configuring your identity infrastructure and managing Microsoft 365 user access and permissions for your organization.
 
-Now  that you've completed this module, you should have a greater understanding of what's required for planning your Microsoft 365 identity and authentication solution.
+Now that you've completed this module, you should have a greater understanding of what's required for planning your Microsoft 365 identity and authentication solution.

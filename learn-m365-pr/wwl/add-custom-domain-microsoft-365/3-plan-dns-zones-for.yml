@@ -4,7 +4,7 @@ title: Plan the DNS zones for a custom domain
 metadata:
   title: Plan the DNS zones for a custom domain
   description: "Plan the DNS zones for a custom domain"
-  ms.date: 03/29/2022
+  ms.date: 04/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,7 +24,7 @@ quiz:
       explanation: "Correct. Split brain DNS is a configuration in which the internal and external DNS environments provide different IP addresses to requests for the same host name. The address that's provided depends on which server is used for name resolution."
     - content: "Use DNS zones that are Active Directory integrated"
       isCorrect: false
-      explanation: "Incorrect. This action won't meet your DNS requirements. Try again."
+      explanation: "Incorrect. This action won't meet your DNS requirements."
     - content: "Use a primary zone for the domain for external use and a secondary zone that points to the primary zone for the internal use"
       isCorrect: false
-      explanation: "Incorrect. This action won't meet your DNS requirements. Try again."
+      explanation: "Incorrect. This action won't meet your DNS requirements."
