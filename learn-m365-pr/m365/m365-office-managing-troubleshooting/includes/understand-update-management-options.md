@@ -1,4 +1,4 @@
-![Checkmark icon](../media/checkmark-icon.png)
+:::image type="icon" source="../media/checkmark-icon.png" :::
 
 All Click-to-Run packages of Office share the same post-deployment servicing approaches. In the module **Prepare to upgrade and update Office at scale in Windows**, we explained the Office servicing channels used for software update management:
 
@@ -17,7 +17,7 @@ Once the update compares what's already installed with what is needed from the u
 
 If the user doesn't close and reopen their Office apps or restart their device as part of their normal workflow, Office notifies users with system tray notifications after 4 days, by default. After 6 days, Office displays a message in the Office apps themselves informing the user that an update is ready to apply. You can use Group Policies to modify notification behavior and update timing.
 
-![Screenshot of PowerPoint file with updates available alert.](../media/updates-available-alert.png)
+:::image type="content" source="../media/updates-available-alert.png" alt-text="Screenshot of PowerPoint file with updates available alert." border="false":::
 
 Then when they're ready, users simply need to save their work, and then select Update Now. The update process itself usually takes a few seconds and will close and reopen apps. Again, it won't require Windows to restart.
 

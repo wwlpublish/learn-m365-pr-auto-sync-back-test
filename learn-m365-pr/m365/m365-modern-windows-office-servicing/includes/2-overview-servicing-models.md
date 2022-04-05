@@ -1,6 +1,6 @@
-![step 7 highlighted on deployment wheel](../media/step-7-wheel.png)
+:::image type="content" source="../media/step-7-wheel.png" alt-text="Step 7 highlighted on deployment wheel." border="false":::
 
-![step 7 icon](../media/step-7-icon.png)
+:::image type="icon" source="../media/step-7-icon.png" :::
 
 Windows servicing updates fall into two main categories: **feature updates** and **quality and security updates**, which contain cumulative security, reliability, and bug fixes.
 
