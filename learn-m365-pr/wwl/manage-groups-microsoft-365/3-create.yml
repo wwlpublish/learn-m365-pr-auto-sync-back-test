@@ -4,7 +4,7 @@ title: Create and manage groups in Microsoft 365
 metadata:
   title: Create and manage groups in Microsoft 365
   description: "Create and manage groups in Microsoft 365"
-  ms.date: 03/30/2022
+  ms.date: 04/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Microsoft 365 admin center"
       isCorrect: false
-      explanation: "Incorrect. Security groups that are synchronized with your on-premises Active Directory can't be modified using the Microsoft 365 admin center. Try again."
+      explanation: "Incorrect. Security groups that are synchronized with your on-premises Active Directory can't be modified using the Microsoft 365 admin center."
     - content: "Local Active Directory management tools"
       isCorrect: true
       explanation: "Correct. Security groups that are synchronized with your on-premises Active Directory can only be modified using the local Active Directory management tools."
     - content: "Windows PowerShell"
       isCorrect: false
-      explanation: "Incorrect. Security groups that are synchronized with your on-premises Active Directory can't be modified using Windows PowerShell. Try again."
+      explanation: "Incorrect. Security groups that are synchronized with your on-premises Active Directory can't be modified using Windows PowerShell."
