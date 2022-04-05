@@ -4,7 +4,7 @@ title: Explore cloud authentication using Azure AD Connect pass-through authenti
 metadata:
   title: Explore cloud authentication using Azure AD Connect pass-through authentication
   description: "Explore cloud authentication using Azure AD Connect pass-through authentication"
-  ms.date: 04/01/2022
+  ms.date: 04/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,7 +24,7 @@ quiz:
       explanation: "Correct. This item is a supported scenario for implementing PTA."
     - content: "Users sign in to Skype for Business client applications without modern authentication"
       isCorrect: false
-      explanation: "Incorrect. This scenario isn't supported for implementing PTA. However, you should note that users signing in to Skype for Business client applications WITH modern authentication is supported. Try again."
+      explanation: "Incorrect. This scenario isn't supported for implementing PTA. However, you should note that users signing in to Skype for Business client applications WITH modern authentication is supported."
     - content: "Access to calendar sharing and free/busy information in Exchange hybrid environments on Office 2010 only"
       isCorrect: false
-      explanation: "Incorrect. This scenario isn't supported for implementing PTA. Try again."
+      explanation: "Incorrect. This scenario isn't supported for implementing PTA."

@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/01/2022
+  ms.date: 04/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Azure AD Pass-through Authentication and Multi-factor authentication"
       isCorrect: false
-      explanation: "Incorrect. This feature doesn't achieve the best experience using Microsoft Teams. Try again."
+      explanation: "Incorrect. This feature doesn't achieve the best experience using Microsoft Teams."
     - content: "Azure AD Connect and Password Hash Synchronization"
       isCorrect: false
-      explanation: "Incorrect. This feature doesn't achieve the best experience using Microsoft Teams. Try again."
+      explanation: "Incorrect. This feature doesn't achieve the best experience using Microsoft Teams."
     - content: "Exchange Online and SharePoint Online"
       isCorrect: true
       explanation: "Correct. To achieve the best experience using Microsoft Teams, an organization should deploy Exchange Online and SharePoint Online. It should also ensure that its current environment is ready for Teams."
@@ -32,10 +32,10 @@ quiz:
     choices:
     - content: "The burst packet loss from clients to Microsoft Edge is greater than 1% during any 15-second interval"
       isCorrect: false
-      explanation: "Incorrect. This network activity won't result in degraded performance when implementing Teams. Try again."
+      explanation: "Incorrect. This network activity won't result in degraded performance when implementing Teams."
     - content: "The Round-trip time from clients to Microsoft Edge is greater than 50 ms"
       isCorrect: false
-      explanation: "Incorrect. This network activity won't result in degraded performance when implementing Teams. Try again."
+      explanation: "Incorrect. This network activity won't result in degraded performance when implementing Teams."
     - content: "They actively block specific ports, or they don't open the correct ports"
       isCorrect: true
       explanation: "Correct. Organizations experience degraded performance if they don't open the correct ports, or if they actively block specific ports."
@@ -43,10 +43,10 @@ quiz:
     choices:
     - content: "Cutover migration"
       isCorrect: false
-      explanation: "Incorrect. This migration option shouldn't be used if you currently run a third-party mail system. Try again."
+      explanation: "Incorrect. This migration option shouldn't be used if you currently run a third-party mail system."
     - content: "Staged migration"
       isCorrect: false
-      explanation: "Incorrect. This migration option shouldn't be used if you currently run a third-party mail system. Try again."
+      explanation: "Incorrect. This migration option shouldn't be used if you currently run a third-party mail system."
     - content: "IMAP migration"
       isCorrect: true
       explanation: "Correct. If you run a third-party mail system, you can only use IMAP or third-party tools as migration options."
