@@ -6,10 +6,10 @@ Your first step is to create a retention tag. Retention tags apply retention set
 
 There are three types of retention tags, based on who can apply them and where in a mailbox they can be applied.
 
-|Type of retention tag|	Applied|	Applied by|	Available actions|	Details|
+|Type of retention tag|Applied|Applied by|Available actions|Details|
 |-|-|-|-|-|
-|Default policy tag (DPT)|	Automatically to entire mailbox. <br>A DPT applies to untagged items, which are mailbox items that don't have a retention tag applied directly or by inheritance from the folder.	|Administrator|	Move to archive. <br>Delete and allow recovery<br>Permanently delete|	Users can't change DPTs applied to a mailbox.|
-|Retention policy tag (RPT)|	Automatically to a default folder<br>Default folders are folders created automatically in all mailboxes. For example: **Inbox**, **Deleted Items**, and **Sent Items**.|Administrator	|Delete and allow recovery<br>Permanently delete|	Users can't change the RPT applied to a default folder.|
+|Default policy tag (DPT)|Automatically to entire mailbox. <br>A DPT applies to untagged items, which are mailbox items that don't have a retention tag applied directly or by inheritance from the folder.|Administrator|Move to archive. <br>Delete and allow recovery<br>Permanently delete|Users can't change DPTs applied to a mailbox.|
+|Retention policy tag (RPT)|Automatically to a default folder<br>Default folders are folders created automatically in all mailboxes. For example: **Inbox**, **Deleted Items**, and **Sent Items**.|Administrator	|Delete and allow recovery<br>Permanently delete|	Users can't change the RPT applied to a default folder.|
 |Personal tag|	Manually to items and folders<br>Users can automate tagging by using Inbox rules to either move a message to a folder that has a particular tag or to apply a personal tag to the message.|	Users|	Move to archive<br>Delete and allow recovery<br>Permanently delete|	Personal tags allow your users to determine how long an item should be retained. For example, the mailbox can have a DPT to delete items in seven years, but a user can create an exception for items such as newsletters and automated notifications by applying a personal tag to delete them in three days.|
 
 >[!NOTE]
@@ -21,7 +21,7 @@ To create a retention tag:
 2. Select one of the following options:
     - **Applied automatically to entire mailbox (default)**: Select this option to create a default policy tag (DPT). You can use DPTs to create a default deletion policy and a default archive policy, which applies to all items in the mailbox.
       >[!NOTE]
-      > You can't use the EAC to create a DPT to delete voice mail items. Instead use the **New-RetentionPolicyTag** cmdlet.
+      > You can't use the Exchange admin center to create a DPT to delete voice mail items. Instead use the **New-RetentionPolicyTag** cmdlet.
     - **Applied automatically to a specific folder**: Select this option to create a retention policy tag (RPT) for a default folder such as Inbox or Deleted Items.
       >[!NOTE]
       >You can only create RPTs with the **Delete and allow recovery** or **Permanently delete** actions.
@@ -61,8 +61,8 @@ A retention policy can contain the following tags:
 Use these steps to create a new retention policy:
 
 1. Go to **Compliance management > Retention policies**, and then click **Add**.
-2. Enter a name for the retention policy.
-3. Now add retention tags. Click **Add**, and then select the tags you want to add to this retention policy.
+1. Enter a name for the retention policy.
+1. Now add retention tags. Click **Add**, and then select the tags you want to add to this retention policy.
 
 You can create a retention policy without adding any retention tags to it, but items in the mailbox to which the policy is applied won't be moved or deleted. You can also add and remove retention tags from a retention policy after it's created.
 
@@ -73,39 +73,39 @@ After you create a retention policy, you must apply it to mailbox users. You can
 You can use retention policies to group one or more retention tags and apply them to mailboxes to enforce message retention settings. A mailbox can't have more than one retention policy.
 
 >[!CAUTION]
-> Messages expire based on settings defined in the retention tags linked to the policy. These settings include actions such as moving messages to the archive or permanently deleting them. Before applying a retention policy to one or more mailboxes, test the policy and inspect each retention tag associated with it. 
+> Messages expire based on settings defined in the retention tags linked to the policy. These settings include actions such as moving messages to the archive or permanently deleting them. Before applying a retention policy to one or more mailboxes, test the policy and inspect each retention tag associated with it.
 
-You can apply a retention policy to a single mailbox or to multiple mailboxes. You can use either the Exchange admin center or the **Get-Mailbox** and **Set-Mailbox** cmdlets. The following steps use the Exchange admin center.
+You can apply a retention policy to a single mailbox or to multiple mailboxes. You can use either the Exchange admin center or the `Get-Mailbox` and `Set-Mailbox` cmdlets. The following steps use the Exchange admin center.
 
 To apply a retention policy to a single mailbox:
 
 1. Go to **Recipients > Mailboxes**.
-2. Select the mailbox to which you want to apply the retention policy, and then click **Edit**.
-3. In **User Mailbox**, click **Mailbox features**.
-4. Select the retention policy you want to apply to the mailbox, and then click **Save**.
+1. Select the mailbox to which you want to apply the retention policy, and then click **Edit**.
+1. In **User Mailbox**, click **Mailbox features**.
+1. Select the retention policy you want to apply to the mailbox, and then click **Save**.
 
 To apply a retention policy to multiple mailboxes:
 
 1. Go to **Recipients > Mailboxes**.
-2. Use the Shift or Ctrl keys to select multiple mailboxes.
-3. In the details pane, click **More options**.
-4. Under **Retention Policy**, click **Update**.
-5. In **Bulk Assign Retention Policy**, select the retention policy you want to apply to the mailboxes, and then click **Save**.
+1. Use the Shift or Ctrl keys to select multiple mailboxes.
+1. In the details pane, click **More options**.
+1. Under **Retention Policy**, click **Update**.
+1. In **Bulk Assign Retention Policy**, select the retention policy you want to apply to the mailboxes, and then click **Save**.
 
 ## Place a mailbox on retention hold
 
 You can use a retention hold to temporarily suspend processing MRM retention policies. This is useful when your users go on vacation or are otherwise temporarily away from their mail.
 
-To place a retention hold on a mailbox, run the **Set-Mailbox** PowerShell cmdlet. This example places Michael Allen's mailbox on retention hold.
+To place a retention hold on a mailbox, run the `Set-Mailbox` PowerShell cmdlet. This example places Michael Allen's mailbox on retention hold.
 
 ```PowerShell
 Set-Mailbox "Michael Allen" -RetentionHoldEnabled $true
 ```
 
-To remove the retention hold, run the same cmdlet, but set  *RetentionHoldEnabled* to **$false**.
+To remove the retention hold, run the same cmdlet, but set  `RetentionHoldEnabled` to `$false`.
 
 >[!IMPORTANT]
-> *RetentionHoldEnabled* isn't a filterable property in Exchange Server. Because of this, you can't use the *Filter* parameter with the **Get-Mailbox** cmdlet to get a list of mailboxes that are placed on retention hold. You can run the following command to retrieve a list of all mailboxes and filters on the client running the Exchange Online PowerShell session. Be aware that, in environments with thousands of mailboxes, this command may take a long time to complete.
+> `RetentionHoldEnabled` isn't a filterable property in Exchange Server. Because of this, you can't use the `Filter` parameter with the `Get-Mailbox` cmdlet to get a list of mailboxes that are placed on retention hold. You can run the following command to retrieve a list of all mailboxes and filters on the client running the Exchange Online PowerShell session. Be aware that, in environments with thousands of mailboxes, this command may take a long time to complete.
 
 ```PowerShell
 Get-Mailbox -ResultSize unlimited | Where-Object {$_.RetentionHoldEnabled -eq $true} | Format-Table Name,RetentionPolicy,RetentionHoldEnabled -Auto
