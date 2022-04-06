@@ -22,7 +22,7 @@ Now that you've added your domains to Microsoft 365, you can now manage them in 
 1. In the Exchange admin center, select **mail flow**, and then select **accepted domains**. The domains you've added on the Microsoft 365 admin center will be listed and editable here.
 1. Select the domain you want to manage, then select **edit**.
 
-   :::image type="content" source="../media/3-edit-accepted-domains.png" alt-text="A screenshot shows the accepted domains details page for the clothingretailer domain." border="false":::
+   :::image type="content" source="../media/3-edit-accepted-domains.png" alt-text="A screenshot shows the accepted domains details page for the clothing retailer domain." border="false":::
 
 You can set a domain to one of two types: authoritative or internal relay (also known as non-authoritative).
 
