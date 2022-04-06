@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-exchange-online-configuration-issues.investigate-organization-wide-settings
+title: Investigate organization-wide settings
+metadata:
+  title: Investigate organization-wide settings
+  description: "Investigate organization-wide settings"
+  ms.date: 04/06/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-investigate-organization-wide-settings.md)]
