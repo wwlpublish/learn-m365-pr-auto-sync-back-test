@@ -9,7 +9,7 @@ By the end of this module, you'll be able to:
 - Explain audit logs
 - Explain content search
 
-## Prerequisites:
+## Prerequisites
 
 - Basic understanding of Microsoft 365 and Exchange Online.
 - General understanding of privacy and compliance concepts that impact enterprise organizations.

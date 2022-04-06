@@ -4,7 +4,7 @@ title: Determine your cloud identity model
 metadata:
   title: Determine your cloud identity model
   description: "Determine your cloud identity model"
-  ms.date: 04/01/2022
+  ms.date: 04/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Active Directory Domain Services"
       isCorrect: false
-      explanation: "Incorrect. This service doesn't authenticate on-premises users in a hybrid identity model. Try again."
+      explanation: "Incorrect. This service doesn't authenticate on-premises users in a hybrid identity model."
     - content: "Azure AD Connect"
       isCorrect: false
-      explanation: "Incorrect. Azure AD Connect is a directory synchronization service. It doesn't authenticate users. Try again."
+      explanation: "Incorrect. Azure AD Connect is a directory synchronization service. It doesn't authenticate users."
     - content: "Azure Active Directory"
       isCorrect: true
       explanation: "Correct. In a hybrid identity model, both on-premises and remote users accessing Microsoft 365 cloud services authenticate against Azure AD."
