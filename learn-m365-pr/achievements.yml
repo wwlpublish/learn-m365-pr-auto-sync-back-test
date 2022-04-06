@@ -120,3 +120,14 @@ achievements:
   title: Embrace Zero Trust with Azure Active Directory
   summary: Embrace Zero Trust with Azure Active Directory
   iconUrl: /learn/achievements/embrace-zero-trust.svg
+- uid: learn.wwl.implement-office-telemetry.badge
+  type: badge
+  title: Implement Office Telemetry
+  summary: This module examines Office Telemetry, including how it assesses the way an organization employs its Office products, and it provides instruction on how to install and configure Office Telemetry.
+  iconUrl: /learn/achievements/implement-office-telemetry.svg
+- uid: learn.wwl.leverage-fasttrack-partner-services-to-support-microsoft-365.badge
+  type: badge
+  title: Use FastTrack and Partner Services to support Microsoft 365
+  summary: This module examines how you can use FastTrack for Microsoft 365 and Microsoft Partner Services to assist with your Microsoft 365 deployment.
+  iconUrl: /learn/achievements/leverage-fasttrack-and-partner-services-to-support-microsoft-365.svg
+

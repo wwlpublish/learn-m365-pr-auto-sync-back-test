@@ -40,7 +40,7 @@ Below is an example of a `SkypeSettings.xml` file. The example shows only a subs
 
 Once you have created your XML file, it must be copied to a specific directory:
 
-`C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`
+**C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**
 
 By default, you cannot access that path. Using File Explorer to navigate to that path, Windows will ask you if you want to grant yourself rights. Choose **Yes** to accept the assignment of rights.
 
