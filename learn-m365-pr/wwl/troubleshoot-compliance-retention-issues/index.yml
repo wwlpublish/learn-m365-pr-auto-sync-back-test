@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-compliance-retention-issues
 metadata:
   title: Troubleshoot compliance and retention issues
   description: "Investigate and diagnose problems with compliance and item retention in your Exchange Online organization, including incorrect retention policies, problems with eDiscovery, and inappropriate holds. MS-220"
-  ms.date: 04/05/2022
+  ms.date: 04/06/2022
   author: wwlpublish
   ms.author: dawnhopper
   ms.topic: interactive-tutorial
@@ -38,7 +38,6 @@ units:
 - learn.wwl.troubleshoot-compliance-retention-issues.manage-item-deletion
 - learn.wwl.troubleshoot-compliance-retention-issues.troubleshoot-retention-policies
 - learn.wwl.troubleshoot-compliance-retention-issues.troubleshoot-mail-records-management
-- learn.wwl.troubleshoot-compliance-retention-issues.interactive-demonstration
 - learn.wwl.troubleshoot-compliance-retention-issues.knowledge-check
 - learn.wwl.troubleshoot-compliance-retention-issues.summary
 badge:
