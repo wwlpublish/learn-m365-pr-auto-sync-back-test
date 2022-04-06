@@ -5,8 +5,6 @@ Exchange Online uses transport rules to automatically process messages as they p
 - **Actions**. You use actions to determine what happens to targeted emails. Actions include forwarding, deleting, adding recipients, and appending disclaimers.
 - **Properties**. You define rule properties to control additional rule settings, such as validity period.
 
-> [!NOTE]
-> Transport rules are commonly referred to as mail flow rules. 
 
 You can create mail flow rules in three ways:
 

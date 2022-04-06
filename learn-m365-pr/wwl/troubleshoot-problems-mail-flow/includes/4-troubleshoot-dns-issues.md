@@ -124,5 +124,5 @@ Where:
 
 - [Email messages aren't received for a new domain that you add in the Office 365 portal](/exchange/troubleshoot/email-delivery/emails-not-received-for-new-domain)
 - [Set up SPF to help prevent spoofing](/microsoft-365/security/office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing)
-- [Set up SPF to help prevent spoofing](/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email)
+- [Use DKIM to validate outbound email](/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email)
 - [Use DMARC to validate email](/microsoft-365/security/office-365-security/use-dmarc-to-validate-email)
