@@ -22,7 +22,7 @@ The first step you should take to assess the impact of a rule is to check the se
 
 :::image type="content" source="../media/security-recommendations.png" alt-text="Screenshot of the security recommendations page, showing the impact of attack surface reduction rules." lightbox="../media/security-recommendations-large.png":::
 
-The second step you should take is to run the new rule in **audit mode**. In this mode, rules are triggered and store information in the event logs but the rule doesn't block the relevant actions. After running the rule in audit mode for a while, you can use logs to determine how often a rule fires, which actions is blocks, and which applications are blocked. You can use this information to determine whether the rule will block legitimate actions and impact productivity.
+The second step you should take is to run the new rule in **audit mode**. In this mode, rules are triggered and store information in the event logs but the rule doesn't block the relevant actions. After running the rule in audit mode for a while, you can use logs to determine how often a rule fires, which actions are blocked, and which applications are blocked. You can use this information to determine whether the rule will block legitimate actions and impact productivity.
 
 If you have used audit mode to become confident that the rule is appropriate and will increase security without blocking legitimate actions, you can move the rule into **block mode**.
 
