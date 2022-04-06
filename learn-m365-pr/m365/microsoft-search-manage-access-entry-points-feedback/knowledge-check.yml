@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-manage-access-entry-points-feedback.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Confirm what you've learned about Microsoft Search.
+  ms.date: 04/05/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 4
+quiz:
+  title: "Check your knowledge"
+  questions:
+    - content: "Which response best describes 'oversharing' as defined in this module?"
+      choices:
+      - content: "'Oversharing' is the disclosure of inappropriate personal details at work."
+        isCorrect: false
+        explanation: "That’s incorrect. This definition isn't correct in the context of this module."
+      - content: "'Oversharing' happens when files and sites are accessible to unintended users."
+        isCorrect: true
+        explanation: "That’s correct! This definition accurately describes 'oversharing' as used in this module."
+      - content: "'Oversharing' occurs when people in your organization post on their personal social media account."
+        isCorrect: false
+        explanation: That’s incorrect. This definition isn't correct in the context of this module."
+      
+    - content: "Which option is a Microsoft Search entry point covered in this module?"
+      choices:
+      - content: "Embedded search boxes."
+        isCorrect: true
+        explanation: "That's correct! Embedded search boxes are one of the entry points we covered."
+      - content: "Microsoft Search desktop shortcut."
+        isCorrect: false
+        explanation: "That’s incorrect. There's no Microsoft Search desktop shortcut."
+      - content: "Pressing Ctrl+S."
+        isCorrect: false
+        explanation: "That's incorrect. There's no keyboard shortcut for Microsoft Search."
+      
+    - content: "Where can admins review the Microsoft Search feedback their users have submitted?"
+      choices:
+      - content: "In a Microsoft Teams channel."
+        isCorrect: false
+        explanation: "That’s incorrect. Feedback sent to the admin center won't appear in Microsoft Teams."
+      - content: "Feedback will automatically generate an email to admins."
+        isCorrect: false
+        explanation: "That's incorrect. End user feedback won't generate emails to admins."
+      - content: "The Microsoft 365 admin center."
+        isCorrect: true
+        explanation: "That’s correct! Admins can find and review Microsoft Search user feedback in the Microsoft 365 admin center."
+  
