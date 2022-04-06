@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-problems-mail-flow.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/06/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "A user has been attempting to email a customer. Their messages keep being bounced. An administrator decides to investigate and discovers that an NDR has been returned to the sender. The NDR contains the status code 5.1.1. What does this code mean?"
+    choices:
+    - content: "This code means that the recipient email address doesn't exist."
+      isCorrect: true
+      explanation: "Correct. Status code 5.1.1 means \"Bad destination mailbox address\"."
+    - content: "This code means that the delivery was not authorized."
+      isCorrect: false
+      explanation: "Incorrect. Status code 5.7.x relates to the sending system not being permitted to send messages to the recipient."
+    - content: "This code means a submission quota was exceeded by the sender."
+      isCorrect: false
+      explanation: "Incorrect. Status code 5.2.x relates to submission quotas."
+  - content: "A user complains that when they send email to a recipient in a partner organization, the delivery fails with a message that states the 'message conflicts with a policy'. The messaging administrator reviews the Mail flow rules and cannot see any rules that might be impacting delivery. What else should they check?"
+    choices:
+    - content: "The administrator should also check for Microsoft 365 Data Loss Prevention rules in the Microsoft 365 compliance center."
+      isCorrect: true
+      explanation: "Correct. DLP rules also prohibit the sending of messages that contain defined sensitive information types."
+    - content: "The administrator should check for Azure AD Conditional Access policies."
+      isCorrect: false
+      explanation: "Incorrect. Azure AD Conditional Access policies determine whether a user can connect their device or app to Exchange mailboxes (amongst other things). They do not control mail flow."
+    - content: "The administrator should check for a configured connector for the recipient's email domain name."
+      isCorrect: false
+      explanation: "Incorrect. Connectors are not relevant here."
+  - content: "Users are complaining that they cannot send messages to recipients outside their organization. An administrator recently added a custom domain and updated all mailboxes to use the domain name, Contoso.com, as the primary email suffix. Which of the following is the cause of the issue?"
+    choices:
+    - content: "The DNS settings for the custom domain are incomplete and are missing an MX record for the domain."
+      isCorrect: false
+      explanation: "Incorrect. The MX record determines the inbound path for messages."
+    - content: "The DNS settings for the custom domain are incomplete and are missing an SPF record for the domain."
+      isCorrect: true
+      explanation: "Correct: You must setup SPF records for custom domains."
+    - content: "The DNS settings for the custom domain are incomplete and are missing an host record for the domain."
+      isCorrect: false
+      explanation: "Incorrect. You don't need to add host records for email purposes."

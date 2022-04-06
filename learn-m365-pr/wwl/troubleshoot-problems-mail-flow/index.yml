@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn.wwl.troubleshoot-problems-mail-flow
+metadata:
+  title: Troubleshoot problems with mail flow
+  description: "Investigate and diagnose problems with email flow in your Exchange Online organization. Find issues caused by incorrect transport rules, DNS records, message headers, and other causes. MS-220"
+  ms.date: 04/06/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot problems with mail flow
+summary: Investigate and diagnose problems with email flow in your Exchange Online organization. Find issues caused by incorrect transport rules, DNS records, message headers, and other causes.
+abstract: |
+  After completing this module, you'll be able to:
+  *   Identify and troubleshoot message delivery issues.
+  *   Determine why Exchange Online is routing messages incorrectly.
+  *   Identify wrongly configured mail records in DNS.
+  *   Troubleshoot issues with SMTP mail transfer.
+prerequisites: |
+  Experience with PowerShell and the Exchange PowerShell module.
+  Significant experience deploying, managing, and troubleshooting Exchange environments.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- advanced
+roles:
+- support-engineer
+products:
+- azure-active-directory
+- defender-office365
+- office-exchange-server
+- office-outlook
+- office-exchange-online
+units:
+- learn.wwl.troubleshoot-problems-mail-flow.introduction
+- learn.wwl.troubleshoot-problems-mail-flow.investigate-problematic-messages
+- learn.wwl.troubleshoot-problems-mail-flow.troubleshoot-transport-rules-conditional-routing
+- learn.wwl.troubleshoot-problems-mail-flow.fix-dns-issues
+- learn.wwl.troubleshoot-problems-mail-flow.investigate-repair-smtp-issues
+- learn.wwl.troubleshoot-problems-mail-flow.interactive-demonstration
+- learn.wwl.troubleshoot-problems-mail-flow.knowledge-check
+- learn.wwl.troubleshoot-problems-mail-flow.summary
+badge:
+  uid: learn.wwl.troubleshoot-problems-mail-flow.badge

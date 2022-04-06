@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-problems-mail-flow.investigate-problematic-messages
+title: Investigate problematic messages
+metadata:
+  title: Investigate problematic messages
+  description: "Investigate problematic messages"
+  ms.date: 04/06/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-investigate-problematic-messages.md)]
