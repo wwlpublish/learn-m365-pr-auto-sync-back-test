@@ -76,7 +76,7 @@ The automated investigation feature uses various inspection algorithms, and proc
 
  [![Malware detected and remediated](../media/malware-detected-remediated.png)](../media/malware-detected-remediated-magnify.png#lightbox)
 
->### Explore how to reduce organizational risk with Threat and Vulnerability Management
+### Explore how to reduce organizational risk with Threat and Vulnerability Management
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4AFt9) of the interactive guide (captions available in more languages).
 
