@@ -11,13 +11,15 @@ There are other tools you could use too such as Microsoft System Center Operatio
 
 **The hybrid management option**. If you're in a hybrid environment, you could use all the on-premises tools along with management options provided by Microsoft 365. In a hybrid configuration, you could use Intune and Azure Active Directory (Azure AD) which provide additional management options for Teams Rooms.
 
-:::image type="content" source="../media/hybrid-option.png" alt-text="The hybrid management option." border="false":::
+> [!div class="centered"]
+> :::image type="content" source="../media/hybrid-option.png" alt-text="The hybrid management option." border="false":::
 
 **The Microsoft 365 management option**. In a cloud-only implementation, you'll need to use online tools such as the Exchange Online admin center. A Teams-only implementation of Teams Rooms greatly simplifies management and gives you access to a constantly evolving, modern management platform.
 
 If you are in a Teams only configuration on Teams Rooms - even if you have On-Premises Active Directory - you're best served to configure Teams Rooms to be managed solely by Microsoft 365 management tools. This includes creating the Teams Rooms resource account directly in Azure AD.
 
-:::image type="content" source="../media/microsoft-365-option.png" alt-text="Microsoft 365 management option." border="false":::
+> [!div class="centered"]
+> :::image type="content" source="../media/microsoft-365-option.png" alt-text="Microsoft 365 management option." border="false":::
 
 **The Microsoft Teams Rooms Premium managed service option**. Microsoft Teams Rooms Premium is a cloud-based IT management and monitoring service that keeps Microsoft Teams Rooms and their peripherals up to date and proactively monitored.
 
@@ -25,7 +27,8 @@ Microsoft Teams Rooms Premium consists of several features such as inventory man
 
 The Microsoft Teams Rooms managed service is for organizations wanting to improve their meeting room experience and rapidly scale their footprint by offering proactive management for Microsoft Teams Rooms devices. The service allows organizations to save time, money, and expertise that would otherwise be spent on "do it yourself" room management. The Microsoft Teams Rooms managed service is built on a strong foundation of Microsoft's expertise in software-enabled management of endpoints, machine learning, and intelligent automation. The Microsoft Teams Rooms managed service helps organizations deliver a high-quality experience across multiple remote sites and can accommodate any pace of growth an organization might require.
 
-:::image type="content" source="../media/microsoft-teams-rooms-premium-option.png" alt-text="Microsoft Teams Rooms Premium managed services option." border="false":::
+> [!div class="centered"]
+> :::image type="content" source="../media/microsoft-teams-rooms-premium-option.png" alt-text="Microsoft Teams Rooms Premium managed services option." border="false":::
 
 Here's an overview of the capabilities of the Microsoft Teams Rooms Premium managed service.
 
