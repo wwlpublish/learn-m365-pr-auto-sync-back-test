@@ -1,6 +1,7 @@
 **The unmanaged option**. The easiest way to manage Teams Rooms is to let it manage itself. When run in an unmanaged configuration, all Windows updates and Teams Rooms application updates come directly from Microsoft. Teams Rooms runs a scheduled task nightly at 2:00 in the morning to download and install any pending updates. The Teams Rooms compute module needs access to the Microsoft update servers on the Internet. You use the local administrator account to sign into the machine when necessary.
 
-:::image type="content" source="../media/unmanaged-option.png" alt-text="The unmanaged option." border="false":::
+> [!div class="centered"]
+> :::image type="content" source="../media/unmanaged-option.png" alt-text="The unmanaged option." border="false":::
 
 **The on-premises management option**. In a strictly on-premises environment, you can use the local management tools you're already familiar with.
 
