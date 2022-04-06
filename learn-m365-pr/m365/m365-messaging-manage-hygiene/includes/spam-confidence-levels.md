@@ -6,7 +6,7 @@ Use mail flow rules to stamp an SCL on messages, using SCL values of 5 and 6 for
 
 To create a mail flow rule, open the Exchange admin center, go to **Mail flow > Rules**, select **Add**, and then select **Create a new rule**.
 
-:::image type="content" source="../media/spam-rule.png" alt-text="Screenshot showing Exchange admin center New Rule.":::
+:::image type="content" source="../media/spam-rule.png" alt-text="Screenshot showing Exchange admin center New Rule." border="false":::
 
 ## Learn more
 
