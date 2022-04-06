@@ -1929,6 +1929,81 @@
       "source_path": "learn-m365-pr/wwl/plan-your-migration-to-microsoft-365/3-clean-up-your-active-directory-before-synchronizing-it.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-migration-to-microsoft-365/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-office-telemetry/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-office-telemetry/2-examine-functionality.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-office-telemetry/3-plan-installation.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-office-telemetry/4-explore-data-collected-by-telemetry-agent.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-office-telemetry/5-install-configure.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-office-telemetry/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-office-telemetry/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-office-telemetry/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/leverage-fasttrack-partner-services-to-support-microsoft-365/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/configure-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/leverage-fasttrack-partner-services-to-support-microsoft-365/2-use-fasttrack-to-help-with-your-deployment.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/configure-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/leverage-fasttrack-partner-services-to-support-microsoft-365/3-identify-requirements-for-implementing-fasttrack.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/configure-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/leverage-fasttrack-partner-services-to-support-microsoft-365/4-request-partner-to-help-with-your-deployment.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/configure-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/leverage-fasttrack-partner-services-to-support-microsoft-365/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/configure-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/leverage-fasttrack-partner-services-to-support-microsoft-365/6-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/configure-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/leverage-fasttrack-partner-services-to-support-microsoft-365/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/configure-your-microsoft-365-tenant/",
+      "redirect_document_id": false
     }
   ]
 }
