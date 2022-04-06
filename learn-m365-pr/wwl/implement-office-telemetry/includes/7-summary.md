@@ -1,5 +1,0 @@
-This module examined Office Telemetry, which assesses the way an organization uses its Office products. The module began by reviewing the Office Telemetry Dashboard. The dashboard is an on-premises tool that collects inventory, usage, and health data about the Office documents and solutions used in your organization. Data collected for the Office Telemetry Dashboard is different than Office diagnostic data, which can be sent to Microsoft. The settings used to manage the Office Telemetry Dashboard have no impact on Office diagnostic data.
-
-You then learned about the five components of the Office Telemetry Dashboard and the role each plays in collecting and analyzing your organization's Office data. You also learned about the basic Telemetry process, including the prerequisites that must be in place before collection can begin. To assist you with your Office Telemetry planning, the module reviewed the typical Telemetry deployment requirements and issues that you need to consider.
-
-The module concluded by examining the data that is collected by the Telemetry Agent, and how to install and configure Office Telemetry.
