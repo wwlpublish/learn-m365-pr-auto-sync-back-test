@@ -32,7 +32,8 @@ Here are some scenarios where you'll need to create your own connectors:
 
 If your on-premises servers are Exchange 2010 or later, and you used the Hybrid Configuration Wizard to integrate them, then the necessary connectors may already exist. Otherwise you'll need to create them. You learn how to create a connector in the next unit.
 
-:::image type="content" source="../media/2-connectors-on-premises-servers.png" alt-text="A diagram shows how mail flows from the on-premises environment to the internet." border="true":::
+> [!div class="centered"]
+> :::image type="content" source="../media/2-connectors-on-premises-servers.png" alt-text="A diagram shows how mail flows from the on-premises environment to the internet." lightbox="../media/2-connectors-on-premises-servers.png" border="true":::
 
 This diagram shows the role of connectors in a hybrid system. Notice that:
 
@@ -47,6 +48,7 @@ If you want to place extra security restrictions on email sent to one of your cl
 
 Another reason to use a connector for internet mail, is to route all email through a service provider, who can scan and filter nuisance traffic.
 
-:::image type="content" source="../media/2-connectors-partner-organizations.png" alt-text="A diagram shows how mail flows change when you want to protect mail sent to a partner organization." border="true":::
+> [!div class="centered"]
+> :::image type="content" source="../media/2-connectors-partner-organizations.png" alt-text="A diagram shows how mail flows change when you want to protect mail sent to a partner organization." lightbox="../media/2-connectors-partner-organizations.png" border="true":::
 
 The diagram shows that, in this configuration, connectors are used to route mail to and from your partner organization. Notice that if you want to require TLS encryption, you must have a suitable TLS certificate issued by a certificate authority that both organizations trust.
