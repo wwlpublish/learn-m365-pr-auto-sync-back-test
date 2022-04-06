@@ -76,5 +76,10 @@ The automated investigation feature uses various inspection algorithms, and proc
 
  [![Malware detected and remediated](../media/malware-detected-remediated.png)](../media/malware-detected-remediated-magnify.png#lightbox)
 
->
+>### Explore how to reduce organizational risk with Threat and Vulnerability Management
+
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE4AFt9) of the interactive guide (captions available in more languages).
+
+<a href="https://mslearn.cloudguides.com/guides/Reduce%20organizational%20risk%20with%20Threat%20and%20Vulnerability%20Management">![Reduce organizational risk with Threat and Vulnerability Management](../media/reduce-organizational-risk.png)</a>  
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.
 
