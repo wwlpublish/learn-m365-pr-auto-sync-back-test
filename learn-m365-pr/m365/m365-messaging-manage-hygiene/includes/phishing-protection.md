@@ -12,7 +12,7 @@ EOP (that is, for Microsoft 365 organizations without Microsoft 365 Defender) co
 - **Implicit email authentication**: Enhances standard email authentication checks for inbound email with sender reputation, sender history, recipient history, behavioral analysis, and other advanced techniques to help identify forged senders.
 
 >[!NOTE]
-> Many phishing attacks attempt to hide the actual sender and make the message appear as if it is from a trusted source. Messages from authenticated senders contain trackable sender identification to verify the source of their messages. Email authentication verifies that a message is from a legitimate sender. **Unauthenticated sender identification** analyzes senders for reputation, sender history, recipient history, behaviour, and other advanced techniques to find suspicious senders.
+> Many phishing attacks attempt to hide the actual sender and make the message appear as if it is from a trusted source. Messages from authenticated senders contain trackable sender identification to verify the source of their messages. Email authentication verifies that a message is from a legitimate sender. **Unauthenticated sender identification** analyzes senders for reputation, sender history, recipient history, behavior, and other advanced techniques to find suspicious senders.
 
 ## Additional anti-phishing protection in Microsoft Defender for Office 365
 
