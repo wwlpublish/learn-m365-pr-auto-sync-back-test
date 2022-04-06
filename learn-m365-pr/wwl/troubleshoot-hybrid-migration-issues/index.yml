@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.troubleshoot-hybrid-migration-issues
+metadata:
+  title: Troubleshoot hybrid and migration issues
+  description: "Investigate and diagnose problems in an Exchange Online and Exchange Server hybrid organization, including mail flow problems, synchronization issues, and migration failures. MS-220"
+  ms.date: 04/06/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot hybrid and migration issues
+summary: Investigate and diagnose problems in an Exchange Online and Exchange Server hybrid organization, including mail flow problems, synchronization issues, and migration failures.
+abstract: |
+  After completing this module, you'll be able to:
+  *   Enable mail to flow between Exchange Online and Exchange Server recipients correctly.
+  *   Fix issues with free/busy information, public folders, and recipient synchronization in hybrid deployments.
+  *   Troubleshoot issues that arise during a migration.
+prerequisites: |
+  - Experience with PowerShell and the Exchange PowerShell module.
+  - Significant experience deploying, managing, and troubleshooting Exchange environments.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- advanced
+roles:
+- support-engineer
+products:
+- azure-active-directory
+- defender-office365
+- office-exchange-server
+- office-outlook
+- office-exchange-online
+units:
+- learn.wwl.troubleshoot-hybrid-migration-issues.introduction
+- learn.wwl.troubleshoot-hybrid-migration-issues.troubleshoot-setup-mail-flow-hybrid-configurations
+- learn.wwl.troubleshoot-hybrid-migration-issues.address-other-hybrid-configuration-problems
+- learn.wwl.troubleshoot-hybrid-migration-issues.ensure-smooth-migration
+- learn.wwl.troubleshoot-hybrid-migration-issues.interactive-demonstration
+- learn.wwl.troubleshoot-hybrid-migration-issues.knowledge-check
+- learn.wwl.troubleshoot-hybrid-migration-issues.summary
+badge:
+  uid: learn.wwl.troubleshoot-hybrid-migration-issues.badge
