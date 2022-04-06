@@ -1,4 +1,4 @@
-*PowerShell* and the xml file *skypesettings.xml* are two basic tools for managing Teams Rooms.
+PowerShell and the xml file `skypesettings.xml` are two basic tools for managing Teams Rooms.
 
 ## Use PowerShell
 
@@ -26,21 +26,21 @@ The output below was generated using the following PowerShell, where you would c
 invoke-command { $package = get-appxpackage -User Skype -Name Microsoft.SkypeRoomSystem; if ($package -eq $null) {Write-host "SkypeRoomSystems not installed."} else {write-host "SkypeRoomSystem Version : " $package.Version}; $process = Get-Process -Name "Microsoft.SkypeRoomSystem" -ErrorAction SilentlyContinue; if ($process -eq $null) {write-host "App not running."} else {$process | format-list StartTime,Responding}}  -ComputerName <Device FQDN>
 ```
 
-Teams Rooms reboots at about 2:30 every morning. We can see in this example that **StartTime** on this Teams Rooms was at 2:33:57 AM. We can also see that the installed version of the Teams Rooms app is 4.3.33.0. Internally, the Teams Rooms app is called **SkypeRoomSystem**.
+Teams Rooms reboots at about 2:30 every morning. We can see in this example that `StartTime` on this Teams Rooms was at 2:33:57 AM. We can also see that the installed version of the Teams Rooms app is 4.3.33.0. Internally, the Teams Rooms app is called `SkypeRoomSystem`.
 
-![The Teams Room app is called the SkypeRoomSystem](../media/skype-room-system.png)
+:::image type="content" source="../media/skype-room-system.png" alt-text="The Teams Room app is called the SkypeRoomSystem." lightbox="../media/skype-room-system.png" border="false":::
 
-## Use SkypeSettings.xml
+## Use `SkypeSettings.xml`
 
-To change the actual configuration of the Teams Rooms app, you can use the *SkypeSettings.xml* file. This xml file can set all the values that you see via the console and some that are only available via this file.
+To change the actual configuration of the Teams Rooms app, you can use the `SkypeSettings.xml` file. This xml file can set all the values that you see via the console and some that are only available via this file.
 
-Below is an example of a SkypeSettings.xml file. The example shows only a subset of the supported values. Near the bottom of the sample, you will see a `Theming` section. This lets you set a custom background on the front-of-room displays. Microsoft provides a template to help you with creating your own custom graphic. 
+Below is an example of a `SkypeSettings.xml` file. The example shows only a subset of the supported values. Near the bottom of the sample, you will see a `Theming` section. This lets you set a custom background on the front-of-room displays. Microsoft provides a template to help you with creating your own custom graphic.
 
-![Skype settings output](../media/skype-setting-xml-output.png)
+:::image type="content" source="../media/skype-setting-xml-output.png" alt-text="Skype settings output." lightbox="../media/skype-setting-xml-output.png" border="false":::
 
 Once you have created your XML file, it must be copied to a specific directory:
 
-### C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState
+**C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**
 
 By default, you cannot access that path. Using File Explorer to navigate to that path, Windows will ask you if you want to grant yourself rights. Choose **Yes** to accept the assignment of rights.
 
