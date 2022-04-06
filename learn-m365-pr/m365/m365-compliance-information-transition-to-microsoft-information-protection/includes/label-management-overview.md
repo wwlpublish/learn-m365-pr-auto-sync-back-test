@@ -9,7 +9,7 @@ Based on customer feedback, the decision was made to integrate Azure Information
 The following changes were needed to make that decision a reality.
 
 - **Microsoft Information Protection Software Development Kit released**. The Microsoft Information Protection SDK brings the classification, labeling, and protection capabilities of Microsoft Information Protection into a simple, lightweight, cross-platform software development kit that enables any application to label and protect information.
-- **Administrative experience changes**. The Microsoft 365 Defender portal and Microsoft 365 compliance center were extended to incorporate information protection label management, a feature previously only available in Azure Information Protection. 
+- **Administrative experience changes**. The Microsoft 365 Defender portal and Microsoft 365 compliance center were extended to incorporate information protection label management, a feature previously only available in Azure Information Protection.
 - **Azure Information Protection labels renamed sensitivity labels**. One kind of label, retention labels, already existed as part of Advanced Data Governance. The development team concluded introducing another capability called "labels" into Microsoft 365 administrator experience could cause confusion. The decision was made to refer to what were called "labels" in Azure Information Protection labels as "sensitivity labels" going forward to differentiate them from retention labels.
 
 These changes resulted in the creation of a new unified label management experience, client support based on the Microsoft Information Protection SDK, and the availability of sensitivity labels across Microsoft 365.

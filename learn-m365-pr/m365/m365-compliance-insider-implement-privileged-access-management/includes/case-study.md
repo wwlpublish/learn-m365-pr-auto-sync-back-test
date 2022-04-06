@@ -13,7 +13,7 @@ This case study will cover the basics for configuring a privileged access policy
 
 Contoso IT administrators attended online webinars about privileged access management in Office 365 and decided that access policies will help them meet the updated corporate policy requirements for mitigating risk in the organization. Their plan includes identifying:
 
-- The users who need approval authority for incoming requests for access to elevated and privileged tasks.  
+- The users who need approval authority for incoming requests for access to elevated and privileged tasks.
 - The users who will manage access requests.
 
 ### Creating the approver's group
@@ -36,10 +36,10 @@ Contoso IT administrators attended online webinars about privileged access manag
 
 ## Step 2 – Enabling privileged access
 
-After creating the approvers group, Contoso IT administrators must explicitly enable privileged access in Office 365 with the group you assign as the default approvers group. This procedure is also performed in the  [Microsoft 365 Admin Center](https://admin.microsoft.com/?azure-portal=true).  
+After creating the approvers group, Contoso IT administrators must explicitly enable privileged access in Office 365 with the group you assign as the default approvers group. This procedure is also performed in the  [Microsoft 365 Admin Center](https://admin.microsoft.com/?azure-portal=true).
 
 1. In the admin center, go to **Settings** > **Settings** > **Security & Privacy** > **Privileged access**.
-  
+
     :::image type="content" source="../media/enable-privileged-access.png" alt-text="Enable privileged access." border="false":::
 
 1. To enable privileged access they toggle the **Require approvals for privileged tasks**  control to the **On** setting, assign the approver's group created in Step 1 as the default approvers group, then click **Save**.
@@ -61,11 +61,11 @@ With all the prerequisites completed, the IT administrators Contoso are ready to
 
     :::image type="content" source="../media/create-new-access-policy.png" alt-text="Create new access policy." border="false":::
 
-1. When finished, they click **Create**, then **Close**.  
+1. When finished, they click **Create**, then **Close**.
 
 ## Step 4 – Submitting and approving access policy requests
 
-Once enabled, privileged access requires approvals for any task that has an associated approval policy defined. For tasks included in an approval policy, users must request and be granted access approval to have permissions necessary to execute the task.  
+Once enabled, privileged access requires approvals for any task that has an associated approval policy defined. For tasks included in an approval policy, users must request and be granted access approval to have permissions necessary to execute the task.
 
 After approval is granted, the requesting user can execute the intended task and privileged access will authorize and execute the task on behalf of the user. The approval remains valid for the requested duration (default duration is 4 hours), during which the requester can execute the intended task multiple times. All such executions are logged and made available for security and compliance auditing.
 
@@ -76,9 +76,9 @@ After approval is granted, the requesting user can execute the intended task and
 
 1. When users need to submit an access policy request, they sign in to the  [Microsoft 365 Admin Center](https://admin.microsoft.com/?azure-portal=true) with their administrator credentials and go to **Settings** > **Security & Privacy** > **Privileged access**.
 
-1. On the **Privileged access** flyout page, they select the **Manage access policies and requests** link, then click **New request**.  
+1. On the **Privileged access** flyout page, they select the **Manage access policies and requests** link, then click **New request**.
 
-1. On the **New access request** page, they complete the required fields:  
+1. On the **New access request** page, they complete the required fields:
 
    - **Request type**: Task, Role, or Role Group
    - **Request scope**: Exchange
@@ -94,7 +94,7 @@ After an approval request is submitted, users can view the status of their reque
 
 ### Approving or denying an elevation authorization request
 
-When an approval request is created, members of the approver group receive an email notification similar to the one below:  
+When an approval request is created, members of the approver group receive an email notification similar to the one below:
 
    :::image type="content" source="../media/notification.png" alt-text="A notification window that says Access request is pending your action." border="false":::
 
@@ -102,14 +102,14 @@ Members of the approver group can either approve or deny the request in the Micr
 
 :::image type="content" source="../media/approve-deny.png" alt-text="A dialog box with the options 'Approve' or 'Deny.'. " border="false":::
 
-The requestor is subsequently notified of the request approval or denial via email.  
-  
+The requestor is subsequently notified of the request approval or denial via email.
+
 :::image type="content" source="../media/approval-denial-notification.png" alt-text="Approval-denial notification." border="false":::
 
 ### Explore administrator tasks with privileged access management in Office 365
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4xoaw) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/guides/Implement%20privileged%20access%20management%20in%20Office%20365?azure-portal=true">:::image type="content" source="../media/implement-privileged-access-management-in-office-365.png" alt-text="Implement privileged access management in Office 365." border="false":::</a>  
+[:::image type="content" source="../media/implement-privileged-access-management-in-office-365.png" alt-text="Implement privileged access management in Office 365." border="false":::](https://mslearn.cloudguides.com/guides/Implement%20privileged%20access%20management%20in%20Office%20365?azure-portal=true)
 
 Be sure to click the full-screen option in the video player.

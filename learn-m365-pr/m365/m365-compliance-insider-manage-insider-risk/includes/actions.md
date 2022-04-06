@@ -141,6 +141,6 @@ If you'd like to create more than a simple text-based email message for notifica
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4yghe?azure-portal=true) of the interactive guide (captions available in more languages).
 
-[![Minimize internal risks with insider risk management in Microsoft 365.](../media/minimize-internal-risks-with-insider-risk-management-in-microsoft-365.png)](https://mslearn.cloudguides.com/guides/Minimize%20internal%20risks%20with%20insider%20risk%20management%20in%20Microsoft%20365?azure-portal=true)
+[:::image type="content" source="../media/minimize-internal-risks-with-insider-risk-management-in-microsoft-365.png" alt-text="Minimize internal risks with insider risk management in Microsoft 3 65." border="false":::](https://mslearn.cloudguides.com/guides/Minimize%20internal%20risks%20with%20insider%20risk%20management%20in%20Microsoft%20365?azure-portal=true)
 
 Be sure to click the full-screen option in the video player.
