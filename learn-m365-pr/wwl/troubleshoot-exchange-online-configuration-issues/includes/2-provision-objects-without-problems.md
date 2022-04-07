@@ -27,7 +27,7 @@ The following are supported object types:
 - Group - `MsolGroup`
 - User - `MsolUser`
 
-For example, the following commands retrieve errors for users' objects and then iterates through the users looking for detailed error information.
+For example, the following commands retrieve errors for users' objects and then iterate through the users looking for detailed error information.
 
 Run the following command to retrieve any errors for your users in Azure AD:
 

@@ -36,7 +36,7 @@ If you need to mail-enable the folder, use the following procedure within Exchan
 To determine the email address, in the admin center:
 
 1. Open the public folder by clicking **Edit**.
-1. On the **general mail properties** tab, review and if needed, update the **Alias** and **Display Name** properties. These default to the public folder name.
+1. On the **general mail properties** tab, review and if needed, update the **Alias** and **Display Name** properties. These properties default to the public folder name.
 
     > [!TIP]
     > You can select **Hide from Exchange address list** if you want.
