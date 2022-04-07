@@ -55,7 +55,7 @@ The Office 365 E3, E5, and F3 subscriptions offer the following similarities:
 
 The Office 365 E3, E5, and F3 subscriptions have the following differences:
 
- -  Office 365 E3 includes business services such as email, file storage and sharing, Office for the web, meetings and IM, and more, plus the ability to install Office applications locally. It also includes application enterprise management, self-service business intelligence, and compliance tools such as archiving and legal hold, rights management, data loss prevention, and email and file encryption.
+ -  Office 365 E3 includes business services such as email, file storage and sharing, Office for the web, meetings and IM, and more, plus the ability to install Office applications locally. However, Office 2019 apps cannot be installed on Office 365 E3. It also includes application enterprise management, self-service business intelligence, and compliance tools such as archiving and legal hold, rights management, data loss prevention, and email and file encryption. 
  -  Office 365 E5 includes all the features of the E3 subscription, plus advanced security, analytic tools, public switched telephone network (PSTN) conferencing, and cloud PBX (private branch exchange) for cloud-based call management.
  -  Office 365 F3 (formerly F1) is designed for Firstline Workers. It doesn't include a license to install Office applications locally because it's a cloud-based subscription that only provides access to online versions of Office.
 
