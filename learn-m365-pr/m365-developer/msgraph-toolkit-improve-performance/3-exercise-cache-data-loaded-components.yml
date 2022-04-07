@@ -3,11 +3,15 @@ uid: learn-m365.msgraph-toolkit-improve-performance.3-exercise-cache-data-loaded
 metadata:
   title: Exercise - Cache data loaded by components
   description: This unit shows you how Microsoft Graph Toolkit components cache their data.
-  ms.date: 04/20/2021
+  ms.date: 03/01/2022
   author: waldekmastykarz
   ms.author: wmastyka
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - wmastyka-04232021
 title: Exercise - Cache data loaded by components
 durationInMinutes: 8
 content: |

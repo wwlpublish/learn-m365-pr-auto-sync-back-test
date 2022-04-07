@@ -1,15 +1,19 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.msgraph-access-user-events.7-summary  
-title: Summary  
+uid: learn-m365.msgraph-access-user-events.7-summary
+title: Summary
 metadata:
-  unitType: summary  
+  unitType: summary
   title: Summary
   description: This unit summarizes what you learned in this module.
-  ms.date: 03/23/2021  
-  author: aycabas  
-  ms.author: aycabas  
-  ms.topic: interactive-tutorial 
+  ms.date: 03/01/2022
+  author: aycabas
+  ms.author: aycabas
+  ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.contributors:
+  - aycabas-04072021
+  ms.custom:
+  - team=cloud_advocates
 durationInMinutes: 1
 content: |
   [!include[](includes/7-summary.md)]

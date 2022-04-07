@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-ip-network-connectivity.examine-tools-troubleshooting-network-connections
+title: Examine tools for troubleshooting network connections
+metadata:
+  title: Examine tools for troubleshooting network connections
+  description: "Examine tools for troubleshooting network connections"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/8-examine-tools-troubleshooting-network-connections.md)]

@@ -3,7 +3,7 @@ uid: learn-m365.office-add-ins-outlook.5-exercise-commands-dialogs
 metadata:
   title: Exercise - Add buttons and commands
   description: In this exercise, you'll add additional functionality to the add-in you created in a previous exercise. You'll create two new buttons that insert a specific gist or a default gist into a message. You'll also implement a first-run experience, prompting the user for their credentials to authenticate with GitHub to retrieve your gists.
-  ms.date: 03/05/2021
+  ms.date: 03/01/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -15,17 +15,17 @@ content: |
 quiz:
   title: Test your knowledge
   questions:
-  - content: "To add a button to an Outlook message compose add-in, you must add the control to which extention point type in the add-in's manifest file?"
+  - content: "To add a button to an Outlook message compose add-in, you must add the control to which extension point type in the add-in's manifest file?"
     choices:
-    - content: "MessageComponseCommand"
+    - content: "`MessageComposeCommand`"
       isCorrect: false
-      explanation: "The `<ExtensionPoint xsi:type=\"\">` should be set to `MessageComponseCommandSurface`."
-    - content: "MessageComponseCommandSurface"
+      explanation: "The `<ExtensionPoint xsi:type=\"\">` should be set to `MessageComposeCommandSurface`."
+    - content: "`MessageComposeCommandSurface`"
       isCorrect: true
       explanation: "Correct"
-    - content: "MessageComponseSurface"
+    - content: "`MessageComposeSurface`"
       isCorrect: false
-      explanation: "The `<ExtensionPoint xsi:type=\"\">` should be set to `MessageComponseCommandSurface`."
+      explanation: "The `<ExtensionPoint xsi:type=\"\">` should be set to `MessageComposeCommandSurface`."
   - content: "To call a JavaScript function from a button in the Office application's ribbon defined in the add-in's manifest, you must do which of the following?"
     choices:
     - content: "Include the JavaScript function in the add-in's JavaScript file. This function must be in the global scope so the Office.js API can call it directly from the ribbon."

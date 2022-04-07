@@ -1,0 +1,76 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-user-files.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  zone_pivot_groups: azure-interface
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which OneDrive feature redirects the common Windows known folders (Desktop, Documents, Pictures, Screenshots, and Camera Roll) to organizational Sharepoint storage?"
+    choices:
+    - content: "Known folder move"
+      isCorrect: true
+      explanation: "Correct. This feature redirects the common Windows known folders (Desktop, Documents, Pictures, Screenshots, and Camera Roll) to organizational Sharepoint storage. Users can continue with their daily work habits, while gaining the benefits of OneDrive."
+    - content: "OneDrive files on demand"
+      isCorrect: false
+      explanation: "Incorrect. This feature enables you to choose the storage preferences for individual files and folders. Try again."
+    - content: "Files restore"
+      isCorrect: false
+      explanation: "Incorrect. This feature enables users to restore files to any point over the past 30 days. Try again."
+  - content: "Walter wants to use OneDrive. Before Walter can use OneDrive from the Windows OneDrive tile, what's the first thing they must do?"
+    choices:
+    - content: "Configure your OneDrive synchronization settings"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the first thing you must do to use OneDrive. Try again."
+    - content: "Connect your domain or local account with your Microsoft account"
+      isCorrect: true
+      explanation: "Correct. Before you can use OneDrive from the Windows OneDrive tile, you must connect your domain or local account with your Microsoft account."
+    - content: "Sign in with your Microsoft account and request OneDrive access"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the first thing you must do to use OneDrive. Try again."
+  - content: "As the Desktop Administrator for Contoso, Jesse wants to implement Work Folders throughout the organization. Jesse has begun by setting up a Work Folders server. After installing the Work Folder role on the server, what feature will Jesse be able to use to create and manage sync shares, which contain users’ Work Folders?"
+    choices:
+    - content: "The Work Folders admin center"
+      isCorrect: false
+      explanation: "Incorrect. This item doesn't exist. Try again."
+    - content: "Server Manager"
+      isCorrect: true
+      explanation: "Correct. When you install the Work Folder role service on the Work Folder server, this adds an additional access protocol and extends Server Manager. You can then use Server Manager to create and manage sync shares, which contain users’ Work Folders."
+    - content: "Work Folders Synchronization tool"
+      isCorrect: false
+      explanation: "Incorrect. This item doesn't exist. Try again."
+  - content: "Gus is implementing Work Folders at your organization. Gus has created a sync share on the Work Folders server. What's the purpose of the sync share that Gus just created?"
+    choices:
+    - content: "They contain users' Work Folders"
+      isCorrect: true
+      explanation: "Correct. A sync share is a unit of synchronization between the Work Folders server and client devices. Sync shares contain users’ Work Folders. You can create multiple sync shares on a Work Folders server, and each sync folder maps to the physical folder on the file server. Each user who uses Work Folders has a personal subfolder inside the sync share, and users can access and sync only the content of their subfolders."
+    - content: "They're used for setting quotas"
+      isCorrect: false
+      explanation: "Incorrect. This item is an administrative task that can be performed using Server Manager on the Work Folders server. Try again."
+    - content: "They're used for managing volumes"
+      isCorrect: false
+      explanation: "Incorrect. This item is an administrative task that can be performed using Server Manager on the Work Folders server. Try again."
+  - content: "As the Desktop Administrator for Fabrikam, Saul has added a network folder to a library. Which of the following items will result from that action?"
+    choices:
+    - content: "The folder was physically moved on the computer"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the result of adding a network folder to a library. Try again."
+    - content: "Users can access the folder when the computer is offline"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the result of adding a network folder to a library. Try again."
+    - content: "Users can only access the folder when the computer can connect to the networked location"
+      isCorrect: true
+      explanation: "Correct. Users may add network folder locations to libraries. However, users will only be accessible when the computer can connect to that networked location. They cannot be accessed in offline scenarios."
+interactive: bash

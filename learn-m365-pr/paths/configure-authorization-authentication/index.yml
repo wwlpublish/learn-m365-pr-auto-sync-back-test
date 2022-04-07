@@ -1,0 +1,31 @@
+### YamlMime:LearningPath
+uid: learn.wwl.configure-authorization-authentication
+metadata:
+  title: Configure authorization and authentication
+  description: Configure authorization and authentication
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure authorization and authentication
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+summary: |
+  This learning path introduces the tools and features of Windows for authorizing access to Windows clients. Students will learn about methods for how users sign-in to Windows, User Account Control, and account types.
+iconUrl: /learn/achievements/generic-trophy.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+modules:
+- learn.wwl.explore-authentication
+- learn.wwl.manage-users-groups
+- learn.wwl.configure-user-account-control
+- learn.wwl.implement-device-registration
+trophy:
+  uid: learn.wwl.configure-authorization-authentication.trophy

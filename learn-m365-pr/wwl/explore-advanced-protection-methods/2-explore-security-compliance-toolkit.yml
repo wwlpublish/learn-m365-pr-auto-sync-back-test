@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-advanced-protection-methods.explore-security-compliance-toolkit
+title: Explore the Security Compliance Toolkit
+metadata:
+  title: Explore the Security Compliance Toolkit
+  description: "Explore the Security Compliance Toolkit"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-explore-security-compliance-toolkit.md)]

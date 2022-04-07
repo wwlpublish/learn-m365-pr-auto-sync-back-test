@@ -1,0 +1,75 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.employ-remote-management.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "You're an IT Support Professional for Contoso's business applications. A home-based user has requested support with an application. You tell the user to launch Quick Assist. Which of the following items is an option the user will have?"
+    choices:
+    - content: "Save this invitation as a file"
+      isCorrect: false
+      explanation: "Incorrect. Remote Desktop provides this option, not Quick Assist. Try again."
+    - content: "Send invitation to phone"
+      isCorrect: false
+      explanation: "Incorrect. Remote Desktop provides this option, not Quick Assist. Try again."
+    - content: "Code from assistant"
+      isCorrect: true
+      explanation: "Correct. The person providing the assistance will provide a one-time code to establish the connection, which the user requesting the help will enter in the Quick Assist app."
+  - content: "Northwind Traders wants its IT Support staff to be able to take control of a computer to troubleshoot and perform maintenance tasks without having to physically travel to the problematic machine. Northwinds wants to limit its IT Support staff to troubleshoot remote computers, but not telecommute or access files or folders. Which service that's bundled with Windows provides this functionality?"
+    choices:
+    - content: "Remote Assistance"
+      isCorrect: true
+      explanation: "Correct. Remote Assistance is a bundled service with Windows. It enables a technician to take control of a computer to troubleshoot and perform maintenance tasks without having to physically travel to the problematic machine. This enables the technician to resolve problems without leaving their home or office. The end user must be there to authorize this, and the user can end the session at any time. This technology is generally used only to troubleshoot remote computers and is not used for telecommuting or accessing files or folders."
+    - content: "System Center Virtual Machine Manager"
+      isCorrect: false
+      explanation: "Incorrect. SCVMM is designed for management of large numbers of Virtual Servers based on Microsoft Virtual Server and Hyper-V. Try again."
+    - content: "Remote Desktop Services"
+      isCorrect: false
+      explanation: "Incorrect. RDS provides users with access to a full remote desktop experience. Users securely connect to a remote session via their local Remote Desktop Connection client. After they authenticate, users are presented with a full desktop. This service provides access to all files and folders, just as if they were signed in locally. Try again."
+  - content: "Contoso recently purchased a new PC for use by its Sales team. Each Sales team member will be able to access the PC remotely from their laptops. Contoso's Desktop Administrator joined the new PC to Azure AD. What additional configuration is needed so that Sales staff can access it remotely from their own PCs?"
+    choices:
+    - content: "Remote connections must be allowed for the local Authenticated Users group"
+      isCorrect: true
+      explanation: "Correct. If the user who joined the PC to Azure AD is the only one who is going to connect remotely, no additional configuration is needed. However, to allow additional users to connect to the PC, you must allow remote connections for the local Authenticated Users group."
+    - content: "Remote Assistance connections must be enabled for the PC"
+      isCorrect: false
+      explanation: "Incorrect. Remote Assistance enables users to remotely access their own computers for working at them while not physically sitting in front of them. Try again."
+    - content: "No additional configuration is needed"
+      isCorrect: false
+      explanation: "Incorrect. No additional configuration is needed if the user who joined the PC to Azure AD is the only one who's going to remotely connect to it. Since the entire Sales team will be connecting to it, additional configuration is needed. Try again."
+  - content: "As the Desktop Administrator for World Wide Importers, you're interested in a Windows 10 or later tool that will enable you to manage the company's servers. You also want to use a subset of the Server Manager features to manage Windows client PCs. For example, you want to display resources and resource utilization, manage certificates and devices, configure local users and groups, and edit the registry. Which tool in Windows 10 or later provides this combination of server and client management functionality?"
+    choices:
+    - content: "Remote Desktop Services"
+      isCorrect: false
+      explanation: "Incorrect. Remote Desktop Services (RDS), formerly Terminal Services, provide users with access to a full remote desktop experience. In this scenario, users securely connect to a remote session via their local Remote Desktop Connection (RDC) client. After they authenticate, users are presented with a full desktop just as if they were signed in locally. Try again."
+    - content: "Windows Remote Management service"
+      isCorrect: false
+      explanation: "Incorrect. WinRM is the Microsoft implementation of WS-Management protocol that provides a common way for hardware and operating systems from different vendors to interact, access, and exchange management information across an IT infrastructure. Try again."
+    - content: "Windows Admin Center"
+      isCorrect: true
+      explanation: "Correct. Windows Admin Center is a locally deployed, browser-based management tool that lets you manage Windows clients and servers remotely over HTTPS. While it's primary function is manging servers, Windows Admin Center provides Desktop Administrators a subset of the Server Manager features for managing Windows client PCs."
+  - content: "Tom is an IT Support Professional for Fabrikam. One of the users that Tom supports isn't able to make a remote desktop connection to a Windows 10 computer. The user keeps receiving an Access Denied error. Tom must confirm whether the user's account has permissions to make a remote desktop connection. Which security group on the Windows 10 computer is the best choice for Tom to set the user's account to be a member of?"
+    choices:
+    - content: "Remote Management Users"
+      isCorrect: false
+      explanation: "Incorrect. The Remote Management Users group is generally used to allow users to manage servers through the Server Manager console. Try again."
+    - content: "Remote Desktop Users"
+      isCorrect: true
+      explanation: "Correct. As a member of the Remote Desktop Users group, users will have the appropriate permissions to connect. While the Administrators group also provides these permissions, it provides much more access than is required to meet the request. As such, Remote Desktop Users is a better choice than Administrators."
+    - content: "Administrators"
+      isCorrect: false
+      explanation: "Incorrect. While this action provides permissions, it provides much more access than is required to meet the request. This option isn't the best choice. Try again."
+interactive: bash

@@ -5,11 +5,15 @@ metadata:
   unitType: summary
   title: Summary
   description: This unit summarizes what you learned in this module.
-  ms.date: 09/04/2021
+  ms.date: 03/01/2022
   author: DanWahlin
   ms.author: dwahlin
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.contributors:
+  - dwahlin-09292021
+  ms.custom:
+  - team=cloud_advocates
 durationInMinutes: 1
 content: |
   [!include[](includes/9-summary.md)]

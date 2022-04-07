@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn.wwl.manage-universal-windows-platform-apps
+metadata:
+  title: Manage Universal Windows Platform apps
+  description: "This module explores using Microsoft Store to manage Universal Windows Platform apps."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage Universal Windows Platform apps
+summary: This module explores using Microsoft Store to manage Universal Windows Platform apps.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe the Universal Windows apps, Microsoft Store, and Microsoft Store for Business.
+  - Explain how to manage and restrict access to Microsoft Store.
+  - Explain how to resolve issues related to Universal Windows apps.
+  - Explain how to configure assigned access to a Universal Windows app.
+  - Describe the process of using AppLocker to control Universal Windows apps.
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.manage-universal-windows-platform-apps.introduction
+- learn.wwl.manage-universal-windows-platform-apps.compare-microsoft-store-microsoft-store-business
+- learn.wwl.manage-universal-windows-platform-apps.manage-access-microsoft-store-apps
+- learn.wwl.manage-universal-windows-platform-apps.configure-assigned-access-single-store-app
+- learn.wwl.manage-universal-windows-platform-apps.knowledge-check
+- learn.wwl.manage-universal-windows-platform-apps.summary
+badge:
+  uid: learn.wwl.manage-universal-windows-platform-apps.bagde

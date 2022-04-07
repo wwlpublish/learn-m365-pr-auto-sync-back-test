@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-connection-security-rules.explain-connection-security-rules
+title: Explain connection security rules
+metadata:
+  title: Explain connection security rules
+  description: "Explain connection security rules"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/3-explain-connection-security-rules.md)]

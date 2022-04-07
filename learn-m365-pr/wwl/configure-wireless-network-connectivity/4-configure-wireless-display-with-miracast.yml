@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-wireless-network-connectivity.configure-wireless-display-with-miracast
+title: Configure wireless display with Miracast
+metadata:
+  title: Configure wireless display with Miracast
+  description: "Configure wireless display with Miracast"
+  ms.date: 04/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-configure-wireless-display-with-miracast.md)]

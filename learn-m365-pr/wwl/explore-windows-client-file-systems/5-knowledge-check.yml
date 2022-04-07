@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-windows-client-file-systems.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "You're configuring a Windows 10 desktop computer. You added a new hard disk drive to the computer. You want to configure the drive to support quotas so that you can track and control disk-space usage. Which file system should you format the new drive with?"
+    choices:
+    - content: "FAT"
+      isCorrect: false
+      explanation: "Incorrect. The FAT file system doesn't support the use of quotas. Try again."
+    - content: "NTFS"
+      isCorrect: true
+      explanation: "Correct. NTFS supports the use of disk quotas, which enable you to specify the amount of disk space that is available to a user. When you enable disk quotas, you can track and control disk-space usage. You can configure whether to allow users to exceed their limits and configure Windows to log an event when a user exceeds a specified warning level or quota limit."
+    - content: "ReFS"
+      isCorrect: false
+      explanation: "Incorrect. ReFS doesn't support the use of quotas. Try again."
+  - content: "When comparing NTFS and FAT file systems, which of the following features is unique to NTFS?"
+    choices:
+    - content: "NTFS uses smaller clusters to reduce space wastage on hard disks"
+      isCorrect: true
+      explanation: "Correct. NTFS manages disk space more efficiently than FAT by using smaller cluster sizes. For example, a 30-GB NTFS volume uses 4-KB clusters. The same volume formatted with FAT32 uses 16-KB clusters. Using smaller clusters reduces space wastage on hard disks."
+    - content: "NTFS supports file encryption"
+      isCorrect: false
+      explanation: "Incorrect. Currently, there's no file encryption built into NTFS. Therefore, someone can boot under MS-DOS, or another operating system, and use a low-level disk editing utility to view data stored on an NTFS volume. Try again."
+    - content: "You can format floppy disks with NTFS"
+      isCorrect: false
+      explanation: "Incorrect. It isn't possible to format a floppy disk with NTFS. Windows NT formats all floppy disks with the FAT file system because the overhead involved in NTFS won't fit onto a floppy disk. Try again."
+  - content: "Windows client supports three versions of FAT: FAT, FAT32, and exFAT. There are several differences between these versions. For example, one difference is the size of the largest supported volume. Another difference is the maximum file size. Which of the following items is another difference between these three FAT versions?"
+    choices:
+    - content: "You can only convert exFAT to NTFS"
+      isCorrect: false
+      explanation: "Incorrect. You can convert FAT and FAT32 to NTFS, but not exFAT. Try again."
+    - content: "The maximum number of files and folders that you can create on the volume"
+      isCorrect: true
+      explanation: "Correct. The main difference between the three versions is the size of the largest supported volume, the default cluster size, and the maximum number of files and folders that you can create on the volume."
+    - content: "FAT32 is the only version of FAT that NTFS can be converted to"
+      isCorrect: false
+      explanation: "Incorrect. You can't convert NTFS to any of the FAT versions. Try again."
+  - content: "While ReFS was built on NTFS, it's designed to provide the highest level of resiliency, integrity, and scalability, regardless of software or hardware failures. Which of the following features is unique to ReFS when compared to NTFS?"
+    choices:
+    - content: "ReFS allows you to control file permissions"
+      isCorrect: false
+      explanation: "Incorrect. ReFS allows you to control file permissions as you would with NTFS. Try again."
+    - content: "ReFS allows you to configure auditing"
+      isCorrect: false
+      explanation: "Incorrect. ReFS allows you to configure auditing as you would with NTFS. Try again."
+    - content: "ReFS periodically scans volumes and tries to automatically correct any corruption"
+      isCorrect: true
+      explanation: "Correct. ReFS periodically scans volumes. If it detects corruption, ReFS tries to correct the corruption automatically. If it can't repair the corruption automatically, ReFS localizes the salvaging process to the corruption area. This doesn't require any downtime for the volume."
+  - content: "You are configuring the storage on a Windows 10 computer. You format a 32 GB volume with FAT32. What is the maximum file size supported on this volume?"
+    choices:
+    - content: "32 GB"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the maximum file size supported with FAT32. Try again."
+    - content: "4 GB"
+      isCorrect: true
+      explanation: "Correct. FAT32 supports a maximum file size of 4 GB."
+    - content: "8 GB"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the maximum file size supported with FAT32. Try again."

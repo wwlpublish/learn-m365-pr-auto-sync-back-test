@@ -3,11 +3,12 @@ uid: learn-m365.windows-plan
 metadata:
   title: Plan to deploy updates for Windows clients and Microsoft 365 apps
   description: Some of your organization's devices are at the end of support or nearing end of support. This means your organization's environment is at risk of security threats and other issues. You'll learn how to create a plan to help bring your organization's environment up to date.
-  ms.date: 11/02/2021
+  ms.date: 03/03/2022
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
+  ms.custom: intro-internal
 title: Plan to deploy updates for Windows clients and Microsoft 365 apps
 summary: Learn how you can use the Windows servicing process to help your organization stay current with the latest Windows updates. 
 abstract: | 
@@ -25,6 +26,8 @@ products:
 - windows
 - m365
 - windows-19044
+- windows-10
+- m365-apps-admin-center
 units:
 - learn-m365.windows-plan.introduction
 - learn-m365.windows-plan.review-benefits-stay-current

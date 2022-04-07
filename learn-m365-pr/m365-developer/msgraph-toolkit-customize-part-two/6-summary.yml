@@ -3,11 +3,15 @@ uid: learn-m365.msgraph-toolkit-customize-part-two.6-summary
 metadata:
   title: Summary
   description: This unit summarizes what you learned in this module.
-  ms.date: 04/09/2021
+  ms.date: 03/01/2022
   author: aycabas
   ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - aycabas-04232021
 title: Summary
 durationInMinutes: 1
 content: |

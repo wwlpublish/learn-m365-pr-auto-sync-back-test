@@ -198,7 +198,7 @@
     {
       "source_path": "learn-m365-pr/m365/m365-security-threat-train/index.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-security-threat-train/introduction.yml",
@@ -223,7 +223,7 @@
     {
       "source_path": "learn-m365-pr/compliance-with-microsoft-365/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/compliance-with-microsoft-365/1-introduction.md",
@@ -498,17 +498,17 @@
     {
       "source_path": "learn-m365-pr/wwl-mba/welcome-to-microsoft-365/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/browse/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl-mba/welcome-to-microsoft-365/1-introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/browse/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl-mba/welcome-to-microsoft-365/2-executive-welcome.md",
       "redirect_url": "https://docs.microsoft.com/learn/browse/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl-mba/introducing-microsoft-365-and-surface-for-business/index.md",
@@ -708,22 +708,22 @@
     {
       "source_path": "learn-m365-pr/wwl/what-is-m365/2-whats-in-m365.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/what-is-m365",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/what-is-m365/3-connecting-clouds.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/what-is-m365",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/what-is-m365/4-m365-subscriptions.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/what-is-m365",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/what-is-m365/5-summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/what-is-m365",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/intro-to-m365-core-services/2-accessibility-in-microsoft-365.md",
@@ -923,77 +923,77 @@
     {
       "source_path": "learn-m365-pr/m365/m365-wvd-intro/introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-wvd-intro/1-introduction/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-wvd-intro/wvd-configuration.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-wvd-intro/3-how-windows-virtual-desktop-works/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-wvd-intro/summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-wvd-intro/5-knowledge-check/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-prepare-for-wvd/introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-prepare-for-wvd/1-introduction/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-prepare-for-wvd/wvd-provision-azure.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-prepare-for-wvd/2-provision-azure/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-prepare-for-wvd/integrate-aad-adds.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-prepare-for-wvd/3-integrate-active-directory/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-prepare-for-wvd/provision-aad-roles.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-prepare-for-wvd/4-provision-roles/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-prepare-for-wvd/set-up-wvd-tenant.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-prepare-for-wvd/5-register-provider/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-prepare-for-wvd/summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-prepare-for-wvd/6-knowledge-check/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-deploy-wvd/introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-deploy-wvd/1-introduction/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-deploy-wvd/provision-host-pool.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-deploy-wvd/3-provision-host-pool/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-deploy-wvd/configure-remote-apps.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-deploy-wvd/4-configure-remote-apps/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-deploy-wvd/summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-deploy-wvd/6-Knowledge-check/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-optimize-wvd/introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-optimize-wvd/1-introduction/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-optimize-wvd/provision-fslogix.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-optimize-wvd/3-provision-fslogix/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-optimize-wvd/configure-onedrive.md",
@@ -1003,17 +1003,17 @@
     {
       "source_path": "learn-m365-pr/m365/m365-optimize-wvd/migrate-files.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-optimize-wvd/4-migrate-files/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-optimize-wvd/configure-automation.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-optimize-wvd/5-configure-automation/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-optimize-wvd/summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-optimize-wvd/6-knowledge-check/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwwl/describe-cloud-security-capabilities-of-microsoft-365/index.md",
@@ -1784,6 +1784,226 @@
       "source_path": "learn-m365-pr/m365-developer/sharepoint-spfx-spcontent/7-exercise-using-mocks.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/sharepoint-spfx-spcontent/7-exercise-upload-file",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-security-for-microsoft-teams/05-examine-cloud-app-security.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-security-for-microsoft-teams/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-premises-infrastructure-for-microsoft-365/3-manage-your-transition-to-by-using-deployment-planning-checklist.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-premises-infrastructure-for-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-premises-infrastructure-for-microsoft-365/4-estimate-your-organizations-bandwidth-requirements-to-support.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-premises-infrastructure-for-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-premises-infrastructure-for-microsoft-365/5-validate-your-network-readiness-by-using-microsoft-network-tools.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-premises-infrastructure-for-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-premises-infrastructure-for-microsoft-365/6-integrate-your-network-to.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-premises-infrastructure-for-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-premises-infrastructure-for-microsoft-365/7-identify-endpoints-required-to-function-properly.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-premises-infrastructure-for-microsoft-365/6-identify-endpoints",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-premises-infrastructure-for-microsoft-365/8-create-deployment-strategy-to-implement-services.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-premises-infrastructure-for-microsoft-365/7-create-deployment-strategy",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-premises-infrastructure-for-microsoft-365/9-enable-password-hash-synchronization-with-your-authentication-method.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-premises-infrastructure-for-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-premises-infrastructure-for-microsoft-365/10-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-premises-infrastructure-for-microsoft-365/9-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-premises-infrastructure-for-microsoft-365/11-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-premises-infrastructure-for-microsoft-365/10-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-client-connectivity-to-microsoft-365/5-configure-azure-active-directory-multifactor-authentication.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-client-connectivity-to-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-client-connectivity-to-microsoft-365/6-troubleshoot.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-client-connectivity-to-microsoft-365/5-troubleshoot",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-client-connectivity-to-microsoft-365/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-client-connectivity-to-microsoft-365/6-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-client-connectivity-to-microsoft-365/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-client-connectivity-to-microsoft-365/7-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-identity-authentication-solution-for-microsoft-365/2-examine-modern-authentication-for-office-apps.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-identity-authentication-solution-for-microsoft-365/3-examine-modern-authentication",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-identity-authentication-solution-for-microsoft-365/3-evaluate-multifactor-authentication-for-your-deployment.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-identity-authentication-solution-for-microsoft-365/4-evaluate-multifactor-authentication",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-identity-authentication-solution-for-microsoft-365/4-prepare-for-directory-synchronization-to-manage-identities.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-identity-authentication-solution-for-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-identity-authentication-solution-for-microsoft-365/5-implement-azure-ad-connect-pass-through-authentication.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-identity-authentication-solution-for-microsoft-365/9-explore-pass-through-authentication",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-identity-authentication-solution-for-microsoft-365/6-implement-federated-authentication-using-adfs.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-identity-authentication-solution-for-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-identity-authentication-solution-for-microsoft-365/7-examine-adfs-microsoft-azure.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-identity-authentication-solution-for-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-identity-authentication-solution-for-microsoft-365/8-restrict-traffic-adfs-deployment.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-identity-authentication-solution-for-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-identity-authentication-solution-for-microsoft-365/9-implement-azure-ad-single-sign-to-simplify-user-access.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-identity-authentication-solution-for-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-identity-authentication-solution-for-microsoft-365/10-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-identity-authentication-solution-for-microsoft-365/12-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-identity-authentication-solution-for-microsoft-365/11-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-identity-authentication-solution-for-microsoft-365/13-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-supporting-infrastructure-for-microsoft-36/4-prepare-your-organizations-network-teams.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-supporting-infrastructure-for-microsoft-36/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-supporting-infrastructure-for-microsoft-36/5-integrate-your-premises-directories-by-using-azure-ad-connect.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-supporting-infrastructure-for-microsoft-36/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-supporting-infrastructure-for-microsoft-36/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-supporting-infrastructure-for-microsoft-36/5-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-supporting-infrastructure-for-microsoft-36/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-supporting-infrastructure-for-microsoft-36/6-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-migration-to-microsoft-365/3-clean-up-your-active-directory-before-synchronizing-it.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-migration-to-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-office-telemetry/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-office-telemetry/2-examine-functionality.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-office-telemetry/3-plan-installation.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-office-telemetry/4-explore-data-collected-by-telemetry-agent.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-office-telemetry/5-install-configure.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-office-telemetry/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-office-telemetry/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-office-telemetry/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/leverage-fasttrack-partner-services-to-support-microsoft-365/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/configure-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/leverage-fasttrack-partner-services-to-support-microsoft-365/2-use-fasttrack-to-help-with-your-deployment.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/configure-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/leverage-fasttrack-partner-services-to-support-microsoft-365/3-identify-requirements-for-implementing-fasttrack.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/configure-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/leverage-fasttrack-partner-services-to-support-microsoft-365/4-request-partner-to-help-with-your-deployment.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/configure-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/leverage-fasttrack-partner-services-to-support-microsoft-365/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/configure-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/leverage-fasttrack-partner-services-to-support-microsoft-365/6-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/configure-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/leverage-fasttrack-partner-services-to-support-microsoft-365/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/configure-your-microsoft-365-tenant/",
+      "redirect_document_id": false
     }
   ]
 }

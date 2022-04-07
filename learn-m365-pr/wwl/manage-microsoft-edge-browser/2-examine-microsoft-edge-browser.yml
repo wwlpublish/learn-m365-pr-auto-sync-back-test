@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-edge-browser.examine-microsoft-edge-browser
+title: Examine the Microsoft Edge browser
+metadata:
+  title: Examine the Microsoft Edge browser
+  description: "Examine the Microsoft Edge browser"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/2-examine-microsoft-edge-browser.md)]

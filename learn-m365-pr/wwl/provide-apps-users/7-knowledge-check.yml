@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.provide-apps-users.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Desktop Administrator for Tailspin Toys, Patti Fernandez wants to installs several desktop apps throughout the company. Patti wants to use an installation methodology that's as robust as Microsoft Endpoint Configuration Manager, but is significantly less effort to set up and manage. Patti also wants the installation method to deploy apps to non-Windows devices such as iOS, Android and macOS, as well as deployment to unmanaged (BYOD) devices. Which deployment methodology should Patti use that meets these requirements?"
+    choices:
+    - content: "Group Policy"
+      isCorrect: false
+      explanation: "Incorrect. This method uses a Group Policy Object (GPO) to automate desktop app installation using the Windows Installer package file format (.msi file) from a network share. You can make desktop apps available for users to install via Control Panel, or you can configure desktop apps so that they install automatically for specific users, or on specific computers. Try again."
+    - content: "Microsoft Intune"
+      isCorrect: true
+      explanation: "Correct. Intune is Microsoft’s cloud –based solution for managing desktop and mobile devices. Intune supports deployment of UWP, AppX, and has recently added support for Win32 apps such as simple MSI files. While not as robust as Configuration Manager, Intune is significantly less effort to setup and manage. Intune also manages deployment of apps to non-Windows devices such as iOS, Android and macOS, as well as deployment to unmanaged (BYOD) devices."
+    - content: "Virtualized applications"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Application Virtualization (App-V) can make applications available on desktop computers without installing the applications directly. Try again."
+  - content: "As the Desktop Administrator for Northwind Traders, you want to deploy Microsoft 365 using the same deployment method that you used to deploy desktop apps. This method will provide native integration for deployment of Microsoft 365. It will also provide extensive control over installation, updates, and settings. Which deployment option is this?"
+    choices:
+    - content: "Configuration Manager"
+      isCorrect: true
+      explanation: "Correct. Configuration Manager provides native integration for deployment of Microsoft 365. It also provides extensive control over installation, updates, and settings."
+    - content: "Click-to-run"
+      isCorrect: false
+      explanation: "Incorrect. With Click-to-run, you download Microsoft 365 directly from the Microsoft website. Click-to-run uses the same streaming and virtualization technologies as App-V, so you can use the Microsoft 365 apps before the installation completes. Try again."
+    - content: "The Office Deployment Tool (ODT)"
+      isCorrect: false
+      explanation: "Incorrect. The ODT is a command-line tool that you can use to download and customize your deployment of Microsoft 365 Apps. The ODT can be used to customize and manage Click-to-run deployments as well. Try again."
+  - content: "You need to plan and perform an automated desktop app deployment. You want to determine the best deployment method for your organization. You were initially interested in using Group Policy, but one potential drawback has you concerned. Which of the following items is that drawback?"
+    choices:
+    - content: "You can't assign apps to users or computers"
+      isCorrect: false
+      explanation: "Incorrect. Actually, group policy software deployment supports assigning apps to users or computers. Try again."
+    - content: "It can be difficult to determine whether a deployment is successful"
+      isCorrect: true
+      explanation: "Correct. Group Policy software deployment doesn't include reporting functionality. The only way to determine whether an app has installed correctly is to check it manually."
+    - content: "You must upload apps to Microsoft Intune before you can deploy them"
+      isCorrect: false
+      explanation: "Incorrect. This item is a feature of automating installation by using Microsoft Intune. Try again."
+  - content: "Which of the following items is a benefit of using Windows Installer app packages in an .msi format compared to using app installers in .exe files?"
+    choices:
+    - content: "MSI files provide more control over the installation process"
+      isCorrect: false
+      explanation: "Incorrect. This item is actually a benefit of using an EXE file. Try again."
+    - content: "You can optionally build a custom UI"
+      isCorrect: false
+      explanation: "Incorrect. This item is actually a benefit of using an EXE file. Try again."
+    - content: "Apps that you deploy from .msi packages are more likely to uninstall cleanly"
+      isCorrect: true
+      explanation: "Correct. Because of the way that Windows Installer packages manage changes to an operating system, apps that you deploy from an MSI package are more likely to uninstall cleanly than those that you deploy by using apps installers in EXE files. A \"clean\" uninstall means that no \"artifacts\" related to the uninstalled app are left behind. This is important from an app-management perspective, because the ability to remove an app cleanly, without leaving any trace of it on a device, is as important as installing it correctly in the first place."
+  - content: "Which of the following items is a benefit of using Universal Windows Platform (UWP) apps as compared to desktop apps (Win32 apps)?"
+    choices:
+    - content: "UWP apps can be uninstalled without leaving artifacts like desktop apps typically do when they're uninstalled"
+      isCorrect: true
+      explanation: "Correct. UWP apps are distributed using a packaging system that installs the app that protects the user, device, and system. They are simple to install (usually one-click), and uninstall just as easily, without leaving \"artifacts\" that desktop apps typically do. The Microsoft Store is the most common place to find UWP apps."
+    - content: "UWP apps can be launched using an .msi file from either product media, network location share, or downloaded from a website"
+      isCorrect: false
+      explanation: "Incorrect. This item is actually a feature of Desktop apps. Try again."
+    - content: "UWP apps can be launched as a package distributed from application management solution such as Endpoint Configuration Manager"
+      isCorrect: false
+      explanation: "Incorrect. This item is actually a feature of Desktop apps. Try again."

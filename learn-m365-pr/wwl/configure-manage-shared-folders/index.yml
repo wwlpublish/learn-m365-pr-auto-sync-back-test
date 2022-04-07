@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn.wwl.configure-manage-shared-folders
+metadata:
+  title: Configure and manage shared folders
+  description: "This module examines various methods of sharing folders, along with the effect this has on file and folder permissions when you create shared folders on an NTFS-formatted partition."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure and manage shared folders
+summary: This module examines various methods of sharing folders, along with the effect this has on file and folder permissions when you create shared folders on an NTFS-formatted partition.
+abstract: |
+  After completing this module, you will be able to:
+  *   Describe shared folders.
+  *   Describe methods for sharing folders.
+  *   Describe the effect of combining file permissions and share permissions.
+prerequisites: |
+  *   Students should have a basic understanding of computer networks and hardware concepts.
+  *   Students should have a basic understanding of OS and Application concepts.
+  *   Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.configure-manage-shared-folders.introduction
+- learn.wwl.configure-manage-shared-folders.explore-shared-folders
+- learn.wwl.configure-manage-shared-folders.examine-methods-available-connecting-share-folders
+- learn.wwl.configure-manage-shared-folders.examine-shared-folder-properties
+- learn.wwl.configure-manage-shared-folders.combine-shared-folder-ntfs-permissions
+- learn.wwl.configure-manage-shared-folders.knowledge-check
+- learn.wwl.configure-manage-shared-folders.summary
+badge:
+  uid: learn.wwl.configure-manage-shared-folders.badge

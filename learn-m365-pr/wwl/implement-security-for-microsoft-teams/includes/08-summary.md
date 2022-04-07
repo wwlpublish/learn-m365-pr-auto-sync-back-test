@@ -6,6 +6,6 @@ This module explored how to configure Conditional Access and Multifactor authent
 
 This module also examined the Microsoft 365 security features known as Safe Attachments and Safe Links. Safe Attachments helps detect and block files that are identified as malicious in Teams sites and document libraries. Safe Links provides URL scanning and rewriting of inbound email messages in mail flow, and time-of-click verification of URLs and links in email messages and other locations. Safe Links scanning can help protect your organization from malicious links that are used in phishing and other attacks.
 
-You also learned about Microsoft Cloud App Security. It's a layer between cloud applications and cloud application users. Microsoft Cloud App Security is designed for security professionals who need to monitor activity centrally and enforce security policies.
+You also learned about Microsoft Defender for Cloud Apps. It's a layer between cloud applications and cloud application users. Microsoft Defender for Cloud Apps is designed for security professionals who need to monitor activity centrally and enforce security policies.
 
 The module concluded by examining the reports provided by the Microsoft 365 Defender portal. The Microsoft 365 Defender portal provides reports that allow you to monitor potential security threats in your organization. Even though threat security reports may not be directly related to Microsoft Teams, they can alert you to suspicious activity that's threatening the security of your organization.

@@ -3,11 +3,15 @@ uid: learn-m365.msgraph-toolkit-customize-part-one.3-exercise-change-behavior-at
 metadata:
   title: Exercise - Change the behavior of components by using attributes
   description: Learn how to use attributes with Microsoft Graph Toolkit components.
-  ms.date: 02/17/2021
+  ms.date: 03/01/2022
   author: aycabas
   ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - aycabas-04262021
 title: Exercise - Change the behavior of components by using attributes
 durationInMinutes: 2
 content: |

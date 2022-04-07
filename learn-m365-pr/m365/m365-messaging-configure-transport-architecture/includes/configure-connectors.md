@@ -4,7 +4,8 @@ You've seen that connectors are needed to route emails from on-premises Exchange
 
 You have a combination of Office 365 mailboxes and on-premises email servers. To enable mail to flow in both directions, you will need to set up connectors.
 
-:::image type="content" source="../media/3-connector-office-365-email-server.png" alt-text="A workflow diagram shows how connectors enable mail flow to and from online and on-premises mail servers." border="true":::
+> [!div class="centered"]
+> :::image type="content" source="../media/3-connector-office-365-email-server.png" alt-text="A workflow diagram shows how connectors enable mail flow to and from online and on-premises mail servers." lightbox="../media/3-connector-office-365-email-server.png" border="false":::
 
 To ensure the integration is seamless for your users, you'll need two connectors to route email between Microsoft 365 and your on-premises email servers:
 
@@ -15,7 +16,7 @@ Before you can connect both mail servers, it's important to check that the on-pr
 
 - The on-premises email server can send and receive external mail.
 - Your on-premises email server has Transport Layer Security (TLS) enabled, with a valid certification authority-signed (CA-signed) certificate. It's good practice to include the primary on-premises email server's name in the certificate subject name.
-- If you want to improve the communication security between your on-premises email server and Microsoft 365, use certificates. In that case, you'll need to update the connector used by your on-premises email server to receive email. This connector must recognize the right certificate when Microsoft 365 attempts to connect with your server. 
+- If you want to improve the communication security between your on-premises email server and Microsoft 365, use certificates. In that case, you'll need to update the connector used by your on-premises email server to receive email. This connector must recognize the right certificate when Microsoft 365 attempts to connect with your server.
 - Make a note of the name or IP address of your external-facing email server. If you're using Exchange, this value is the Fully Qualified Domain Name (FQDN) of your Edge Transport server or CAS that will receive email from Microsoft 365.
 - Open port 25 on your firewall so that Microsoft 365 can connect to your email servers.
 - Make sure that your firewall accepts connections from all Microsoft 365 IP addresses.
@@ -64,7 +65,7 @@ Before you set up the connector, you need to set up your Microsoft 365 environme
 
     |Property|Value|
     |-|-|
-    |Always use Transport Layer Security (TLS) to secure the connection |Selected| 
+    |Always use Transport Layer Security (TLS) to secure the connection |Selected|
     |Connect only if the recipient's email server certificate matches this criteria |Issued by a trusted certificate authority (CA) |
     |And the subject name or subject alternative name (SAN) matches the domain name|Enter in the on-premises domain |
 
@@ -76,7 +77,7 @@ Before you set up the connector, you need to set up your Microsoft 365 environme
 
 Finally, modify your MX record to redirect email flow to Microsoft 365. Access the DNS records held by your domain hosting service. Add or update the MX record, so that messages sent to your domain will come to Microsoft 365.  
 
-The MX record you'll add includes a value (the **Points to address** value) that looks something like this: /<MX token/>.mail.protection.outlook.com, where /<MX token/> is a value like "MSxxxxxxx."
+The MX record you'll add includes a value (the **Points to address** value) that looks something like this: \<MX token/>.mail.protection.outlook.com, where \<MX token/> is a value like "MSxxxxxxx."
 
 1. To get the information for the MX record from Microsoft 365, in the Microsoft 365 admin center, go to ****Setup > Domains**, and then select your domain.  
 1. Under **Required DNS settings**, you'll see the DNS records. Copy the **Points to address** value. You'll use this value in the record you create or update on your DNS host's site.

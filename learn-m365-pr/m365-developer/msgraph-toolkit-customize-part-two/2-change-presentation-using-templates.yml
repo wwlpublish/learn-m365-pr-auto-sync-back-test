@@ -3,11 +3,15 @@ uid: learn-m365.msgraph-toolkit-customize-part-two.2-change-presentation-using-t
 metadata:
   title: Change the presentation of data by using templates
   description: Learn how to change the presentation of data by using templates with the Microsoft Graph Toolkit components.
-  ms.date: 04/09/2021
+  ms.date: 03/01/2022
   author: aycabas
   ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - aycabas-04232021
 title: Change the presentation of data by using templates
 durationInMinutes: 5
 content: |

@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn.wwl.manage-identities-azure-active-directory
+metadata:
+  title: Manage identities in Azure Active Directory
+  description: "This module introduces students to identity concepts including role based access control and managing groups."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage identities in Azure Active Directory
+summary: This module introduces students to identity concepts including role-based access control and managing groups.
+abstract: |
+  After this module, you should be able to:
+  - Describe RBAC and user roles in Azure AD.
+  - Create and manage users in Azure AD.
+  - Create and manage groups in Azure AD.
+  - Use Windows PowerShell cmdlets to manage Azure AD.
+  - Describe how you can synchronize objects from AD DS to Azure AD.
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later.
+  - Strong understanding of computer networking, client security, and application concepts.
+  - Experience using Active Directory Domain Services.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.manage-identities-azure-active-directory.introduction
+- learn.wwl.manage-identities-azure-active-directory.examine-rbac-user-roles-azure-ad
+- learn.wwl.manage-identities-azure-active-directory.create-manage-users-azure-ad
+- learn.wwl.manage-identities-azure-active-directory.create-manage-groups-azure-ad
+- learn.wwl.manage-identities-azure-active-directory.use-windows-powershell-cmdlets-manage-azure-ad-objects
+- learn.wwl.manage-identities-azure-active-directory.synchronize-objects-from-ad-ds-azure-ad
+- learn.wwl.manage-identities-azure-active-directory.knowledge-check
+- learn.wwl.manage-identities-azure-active-directory.summary
+badge:
+  uid: learn.wwl.manage-identities-azure-active-directory.badge

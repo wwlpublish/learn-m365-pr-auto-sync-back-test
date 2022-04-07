@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-manage-shared-folders.combine-shared-folder-ntfs-permissions
+title: Combine shared folder and NTFS permissions
+metadata:
+  title: Combine shared folder and NTFS permissions
+  description: "Combine shared folder and NTFS permissions"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/5-combine-shared-folder-ntfs-permissions.md)]

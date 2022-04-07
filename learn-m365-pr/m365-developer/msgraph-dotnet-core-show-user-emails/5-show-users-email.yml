@@ -2,12 +2,16 @@
 uid: learn-m365.msgraph-dotnet-core-show-user-emails.5-show-users-email
 metadata:
   title: Show a user's emails
-  description: In this unit, you'll learn how to load a user's emails from Microsoft 365 by using Microsoft Graph. 
-  ms.date: 08/29/2021
-  author: DanWahlin 
+  description: In this unit, you'll learn how to load a user's emails from Microsoft 365 by using Microsoft Graph.
+  ms.date: 03/01/2022
+  author: DanWahlin
   ms.author: dwahlin
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - dwahlin-09302021
 title: Show a user's emails
 durationInMinutes: 5
 content: |

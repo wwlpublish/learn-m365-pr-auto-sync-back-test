@@ -1,0 +1,63 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-name-resolution.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "What is the maximum length of a host name?"
+    choices:
+    - content: "16 characters"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the maximum number of characters in a host name. However, 16 characters is the maximum allowed in a NetBIOS name. Try again."
+    - content: "32 characters"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the maximum number of characters in a host name. Try again."
+    - content: "255 characters"
+      isCorrect: true
+      explanation: "Correct. A host name is a user-friendly name that is associated with a host’s IP address and identifies it as a TCP/IP host. A host name can be no more than 255 characters in length. It can only contain alphanumeric characters, periods, and hyphens."
+  - content: "Which DNS record type is used to resolve a host name with an IP address?"
+    choices:
+    - content: "MX record"
+      isCorrect: false
+      explanation: "Incorrect. Mail exchange (MX) records are used to locate the mail servers responsible for a domain. Try again."
+    - content: "A record"
+      isCorrect: true
+      explanation: "Correct. The most common record type in forward lookup zones is an A record, which is also known as a host record. This record is used when resolving a host name to an IP address."
+    - content: "CNAME record"
+      isCorrect: false
+      explanation: "Incorrect. Canonical name records (CNAME records) resolve to another host name, also referred to as an alias. Try again."
+  - content: "A host name combines a domain name with what other object to create a fully qualified domain name (FQDN)?"
+    choices:
+    - content: "an alias"
+      isCorrect: true
+      explanation: "Correct. An alias is a single name associated with an IP address. The host name combines an alias with a domain name to create the FQDN."
+    - content: "a NetBIOS name"
+      isCorrect: false
+      explanation: "Incorrect. A NetBIOS name is a nonhierarchical name that some older apps use. It identifies a NetBIOS resource on a network, such as a single computer or a group of computers. Try again."
+    - content: "a sub-domain name"
+      isCorrect: false
+      explanation: "Incorrect. A subdomain name is a piece of additional information added to the beginning of a website’s domain name. It allows websites to separate and organize content for a specific function — such as a blog or an online store — from the rest of your website. Try again."
+  - content: "As the Desktop Administrator for Northwind Traders, you've been receiving reports that your clients are having trouble connecting to a server. Which command or PowerShell cmdlet should you use to check whether your DNS server has the correct IP address for the target host?"
+    choices:
+    - content: "Ipconfig /displaydns"
+      isCorrect: false
+      explanation: "Incorrect. This cmdlet checks the cached DNS records of the client. Try again."
+    - content: "Get-DnsClient"
+      isCorrect: false
+      explanation: "Incorrect. This cmdlet returns the network interfaces on the client. Try again."
+    - content: "Nslookup"
+      isCorrect: true
+      explanation: "Correct. The NSLookup command line tool displays information that you can use to diagnose your Domain Name System (DNS) infrastructure. Before using this tool, you should be familiar with how DNS works. The nslookup command-line tool is available only if you have installed the TCP/IP protocol."

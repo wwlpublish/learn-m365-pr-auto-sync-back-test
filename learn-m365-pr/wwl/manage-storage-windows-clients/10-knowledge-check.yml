@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-storage-windows-clients.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/10-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Desktop Administrator for Lucerne Publishing, Patti Fernandex wants to implement a high‐speed network that connects computer systems or host servers to high-performance storage subsystems. Patti wants to enable multiple servers to access a pool of storage in which any server can potentially access any storage unit. Which type of external storage system should Patti deploy to satisfy these requirements?"
+    choices:
+    - content: "Network-Attached Storage"
+      isCorrect: false
+      explanation: "Incorrect. NAS is storage that's connected to a dedicated storage device. You can access it over the network. NAS isn't directly attached to a computer or server, and users access it over the network. Try again."
+    - content: "Direct-Attached Storage"
+      isCorrect: false
+      explanation: "Incorrect. DAS is a locally attached hard disk. Patti is looking for an external storage system. Try again."
+    - content: "Storage Area Networking"
+      isCorrect: true
+      explanation: "Correct. SAN is a high‐speed network that connects computer systems or host servers to high-performance storage subsystems. A SAN enables multiple servers to access a pool of storage in which any server can potentially access any storage unit. Because a SAN is a network, you can use a SAN to connect many different devices and hosts and provide access to any connected device from anywhere."
+  - content: "The local storage needs upgrading for a 64-bit, Windows 10 laptop. The Windows 10 client runs on a motherboard with BIOS firmware and requires an MBR-partitioned system disk. The upgrade for the local storage for this laptop will be a 6 TB removable disk. You have decided to configure it as a GPT disk. Will you encounter any problems?"
+    choices:
+    - content: "The GPT partition style can't be used on removable disks"
+      isCorrect: true
+      explanation: "Correct. GPT disks address the limitations of MBR disks. However, you can't use the GPT partition style on removable disks."
+    - content: "You can't boot from GPT disks on BIOS systems running 64-bit Windows operating systems"
+      isCorrect: false
+      explanation: "Incorrect. You can't boot from GPT disks on BIOS systems running 32-bit Windows operating systems. You can boot from 64-bit Windows operating systems. Try again."
+    - content: "The protective MBR doesn't protect GPT disks from previously released MBR disk tools, which makes them vulnerable to incidental data loss"
+      isCorrect: false
+      explanation: "Incorrect. The protective MBR protects GPT disks from previously released MBR disk tools. Because these tools view a GPT disk as a single encompassing partition by interpreting the protected MBR, it makes the disk less vulnerable to incidental data loss. Try again."
+  - content: "As the Desktop Administrator for Wingtip Toys, you have replaced a hard disk drive on one of your PCs. You began by partitioning the disk using the master boot record (MBR) scheme. What's the next step that you must complete before an operating system can use the disk?"
+    choices:
+    - content: "Restart the PC to recognize the disk"
+      isCorrect: false
+      explanation: "Incorrect. This task isn't the next step that must be completed. Try again."
+    - content: "Resize the partitions"
+      isCorrect: false
+      explanation: "Incorrect. This task isn't the next step that must be completed. Try again."
+    - content: "Create and format one or more volumes on the disk"
+      isCorrect: true
+      explanation: "Correct. After partitioning the disk, you must create and format one or more volumes before an operating system can use the disk."
+  - content: "Some of the users in your organization are running out of disk space. You've identified that each of these users has unallocated free space on a different disk in their computer. What volume would add space to their existing volume?"
+    choices:
+    - content: "Mirrored volumes"
+      isCorrect: false
+      explanation: "Incorrect. A mirrored volume presents two disks to the operating systems as a single logical volume. A mirrored volume always consists of exactly two disks. Each disk has an identical copy of the data that is on the logical volume. Try again."
+    - content: "Spanned volumes"
+      isCorrect: true
+      explanation: "Correct. A spanned volume joins areas of unallocated space on at least two and at most 32 disks into a single logical disk. This design gives users the option to gather noncontiguous free space from two or more disks into the same volume."
+    - content: "Striped volumes"
+      isCorrect: false
+      explanation: "Incorrect. A striped volume requires two or more disks. Striped volumes map stripes of data cyclically across the disks. Try again."
+  - content: "Contoso uses virtual hard disks, which are an integral part of its Client Hyper-V virtual machine environments. Which of the following items is an advantage of using virtual hard disks?"
+    choices:
+    - content: "Performance"
+      isCorrect: false
+      explanation: "Incorrect. In high I/O scenarios, the additional overhead of using a virtual hard disk can affect performance. Try again."
+    - content: "Portability"
+      isCorrect: true
+      explanation: "Correct. An advantage to using virtual hard disks is portability. Virtual hard disk files may be easier to move between systems, particularly when you use shared storage."
+    - content: "Physical failures"
+      isCorrect: false
+      explanation: "Incorrect. A .vhd file does not protect against cluster failure on the underlying physical disks. Try again."

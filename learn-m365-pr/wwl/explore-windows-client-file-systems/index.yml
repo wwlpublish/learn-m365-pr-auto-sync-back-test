@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn.wwl.explore-windows-client-file-systems
+metadata:
+  title: Explore Windows client file systems
+  description: "In this module, you will learn about the differences and benefits of the file systems that Windows client supports."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore Windows client file systems
+summary: In this module, you will learn about the differences and benefits of the file systems that Windows client supports.
+abstract: |
+  After completing this module, you will be able to:
+  *   Describe the features of the FAT file system.
+  *   Explain the features of the NTFS file system.
+  *   Describe the features of the ReFS file system.
+  *   Work with the file systems available in Windows client.
+prerequisites: |
+  *   Students should have a basic understanding of computer networks and hardware concepts.
+  *   Students should have a basic understanding of OS and Application concepts.
+  *   Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.explore-windows-client-file-systems.introduction
+- learn.wwl.explore-windows-client-file-systems.examine-file-allocation-table-file-system
+- learn.wwl.explore-windows-client-file-systems.examine-new-technology-file-system
+- learn.wwl.explore-windows-client-file-systems.examine-resilient-file-system
+- learn.wwl.explore-windows-client-file-systems.knowledge-check
+- learn.wwl.explore-windows-client-file-systems.summary
+badge:
+  uid: learn.wwl.explore-windows-client-file-systems.badge

@@ -3,11 +3,15 @@ uid: learn-m365.mgt-intro.7-summary
 metadata:
   title: Summary
   description: This unit summarizes what you learned in this module.
-  ms.date: 02/02/2021
+  ms.date: 03/01/2022
   author: waldekmastykarz
   ms.author: wmastyka
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - wmastyka-03262021
 title: Summary
 durationInMinutes: 1
 content: |

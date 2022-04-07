@@ -85,7 +85,7 @@ The ability to discover and classify data in Microsoft 365 apps and services is 
 
 Azure Information Protection scanner helps discover, classify, label, and protect sensitive information in on-premises file servers. You can run the scanner and get immediate insight into risks with on-premises data. Discover mode helps you identify and report on files containing sensitive data. Enforce mode automatically classifies, labels, and protects files with sensitive data.
   
- ![Discover and classify on-premises files.](../media/discover-classify-on-premises-files.png)
+ :::image type="content" source="../media/discover-classify-on-premises-files.png" alt-text="Discover and classify on-premises files." border="false":::
 
 ## Discover and classify cloud services and SaaS apps
 
@@ -95,7 +95,7 @@ Most organizations store some of their sensitive data outside the Microsoft ecos
 - Automatically apply labels to sensitive files identified in cloud apps
 - Use sensitivity labels to apply policy, such as restricting access to sensitive information, blocking uploads, and blocking downloads
 
- ![Discover and classify cloud services using Microsoft Defender for Cloud Apps.](../media/discover-classify-cloud-services.png)
+ :::image type="content" source="../media/discover-classify-cloud-services.png" alt-text="Discover and classify cloud services using Microsoft Defender for Cloud Apps." border="false":::
 
 ## Learn more
 

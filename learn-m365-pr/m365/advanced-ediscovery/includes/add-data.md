@@ -37,13 +37,13 @@ Not all content that you need to analyze in Advanced eDiscovery is in Microsoft 
 
 ### Before you begin
 
-Loading non-Microsoft 365 data into a review set leverages an Azure AzCopy command that contains parameters with the location of where the files that you want to upload are stored and the Azure storage location that the files will be uploaded to. Therefore, before you attempt to load non-Microsoft 365 data, it is necessary to [install the AzCopy command-line utility](/azure/storage/common/storage-use-azcopy-v10?azure-portal=true) to your local computer in the default location, which is **%ProgramFiles(x86)%\Microsoft SDKs\Azure\AzCopy**.  
+Loading non-Microsoft 365 data into a review set leverages an Azure AzCopy command that contains parameters with the location of where the files that you want to upload are stored and the Azure storage location that the files will be uploaded to. Therefore, before you attempt to load non-Microsoft 365 data, it is necessary to [install the AzCopy command-line utility](/azure/storage/common/storage-use-azcopy-v10?azure-portal=true) to your local computer in the default location, which is `%ProgramFiles(x86)%\Microsoft SDKs\Azure\AzCopy`.  
 
-The files to be uploaded must be located in subfolders, where each subfolder is associated with a specific custodian using the following naming convention: **alias\@domainname**. The alias@domainname must be the user's Microsoft 365 alias and domain. The parent folder can only contain the alias@domainname folders without any loose files. As an example, the folder structure for the non-Microsoft 365 data that you want to upload would be similar to the following:
+The files to be uploaded must be located in subfolders, where each subfolder is associated with a specific custodian using the following naming convention: `alias@domainname`. The `alias@domainname` must be the user's Microsoft 365 alias and domain. The parent folder can only contain the `alias@domainname` folders without any loose files. As an example, the folder structure for the non-Microsoft 365 data that you want to upload would be similar to the following:
 
-- c:\nonO365\abraham.mcmahon@contoso.com
-- c:\nonO365\jewell.gordon@contoso.com
-- c:\nonO365\staci.gonzalez@contoso.com
+- `c:\nonO365\abraham.mcmahon@contoso.com`
+- `c:\nonO365\jewell.gordon@contoso.com`
+- `c:\nonO365\staci.gonzalez@contoso.com`
 
 :::image type="content" source="../media/file-structure.png" alt-text="Required file structure.":::
 

@@ -4,13 +4,12 @@ title: Examine how transport rules work
 metadata:
   title: Examine how transport rules work
   description: "Examine how transport rules work"
-  ms.date: 12/08/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 7
 content: |

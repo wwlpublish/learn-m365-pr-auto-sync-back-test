@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-manage-file-access.understand-file-folder-permissions
+title: Understand file and folder permissions
+metadata:
+  title: Understand file and folder permissions
+  description: "Understand file and folder permissions"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-understand-file-folder-permissions.md)]

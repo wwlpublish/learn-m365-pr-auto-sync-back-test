@@ -8,6 +8,7 @@ metadata:
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
+  ms.custom: intro-internal
 title: Plan for SharePoint in Microsoft 365 
 summary: Discover how SharePoint works with Microsoft 365. Learn the role and key tasks of the SharePoint administrator and the tools available to secure your environment.
 abstract: |
@@ -29,6 +30,7 @@ products:
 - m365
 - office-365
 - office-sp
+- sharepoint-online
 units:
 - learn-m365.m365-teams-sharepoint-plan-sharepoint.introduction
 - learn-m365.m365-teams-sharepoint-plan-sharepoint.administer-sharepoint

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-windows-servicing-model.explore-windows-client-servicing-channels
+title: Explore the Windows client servicing channels
+metadata:
+  title: Explore the Windows client servicing channels
+  description: "Explore the Windows client servicing channels"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-explore-windows-client-servicing-channels.md)]

@@ -8,6 +8,7 @@ metadata:
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
+  ms.custom: intro-internal
 title: Introduction to SharePoint Syntex
 summary: Learn about SharePoint Syntex, including the business problem it solves, how it works, and common scenarios for use.
 abstract: |
@@ -26,6 +27,7 @@ roles:
 - business-user
 products:
 - m365
+- sharepoint-syntex
 units:
 - learn-m365.syntex-intro.introduction
 - learn-m365.syntex-intro.what-is-sharepoint-syntex

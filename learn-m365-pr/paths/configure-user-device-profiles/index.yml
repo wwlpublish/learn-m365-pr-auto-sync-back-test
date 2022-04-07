@@ -1,0 +1,33 @@
+### YamlMime:LearningPath
+uid: learn.wwl.configure-user-device-profiles
+metadata:
+  title: Configure user and device profiles
+  description: Configure user and device profiles
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure user and device profiles
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later.
+  - Strong understanding of computer networking, client security, and application concepts.
+  - Experience using Active Directory Domain Services.
+summary: |
+  This learning path explores Intune device profiles, the benefits of user profiles and how to synchronize profile data across multiple devices.
+iconUrl: /learn/achievements/generic-trophy.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+modules:
+- learn.wwl.implement-device-profiles
+- learn.wwl.monitor-device-profiles
+- learn.wwl.manage-user-profiles
+trophy:
+  uid: learn.wwl.configure-user-device-profiles.trophy

@@ -4,12 +4,13 @@ title: Plan a hybrid SharePoint environment
 metadata:
   title: Plan a hybrid SharePoint environment
   description: "Plan a hybrid SharePoint environment"
-  ms.date: 06/29/2021
+  ms.date: 04/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 8
 content: |
   [!include[](includes/3-plan-hybrid-sharepoint-environment.md)]

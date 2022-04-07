@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-troubleshooting-methodologies.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "When an end user first discovers and reports a computer problem, what's the first step in most troubleshooting methodologies?"
+    choices:
+    - content: "Classification"
+      isCorrect: true
+      explanation: "Correct. When an end user first discovers and reports a computer problem, a series of classification processes begins. During these processes, you gather information from the end user in an attempt to establish the problem’s nature and scope. The initial discussion might reveal information that results in an immediate resolution to the problem, but with more complex or serious problems, you must continue to troubleshoot the issue to resolve it."
+    - content: "Reporting"
+      isCorrect: false
+      explanation: "Incorrect. This phase is near the end of the troubleshooting process. When you resolve an incident, you must document the resolution. Try again."
+    - content: "Testing"
+      isCorrect: false
+      explanation: "Incorrect. When you have prioritized and logged a reported incident, the testing phase starts. Try again."
+  - content: "Northwind Traders currently has a workgroup network. However, it's considering implementing a domain network. Which of the following is an advantage for Northwind Traders to stay with a workgroup network?"
+    choices:
+    - content: "It's the most secure type of network"
+      isCorrect: false
+      explanation: "Incorrect. A domain network is actually the most secure type of network. Try again."
+    - content: "It offers centralized security to all computes in the group"
+      isCorrect: false
+      explanation: "Incorrect. A domain network actually provides centralized security of user accounts for all of the network’s computers. Try again."
+    - content: "It requires the least amount of attention"
+      isCorrect: true
+      explanation: "Correct. Larger companies and corporations typically configure domains because they are the most secure network option. They also are extensible and offer centralized security and management. Smaller companies generally don't use domains because they are more expensive, and require more attention than workgroups."
+  - content: "Which type of corporate network is a logical grouping of networked computers that share a common user database?"
+    choices:
+    - content: "Workgroup"
+      isCorrect: false
+      explanation: "Incorrect. Workgroups are logical groupings of networked computers that share resources. Each computer in a workgroup maintains its own local security database, which contains the valid user accounts for signing in to that computer. Try again."
+    - content: "Peer-to-peer"
+      isCorrect: false
+      explanation: "Incorrect. Peer-to-peer networks are logical groupings of networked computers that share resources. Each computer in a workgroup maintains its own local security database, which contains the valid user accounts for signing in to that computer. Try again."
+    - content: "Domain"
+      isCorrect: true
+      explanation: "Correct. Domains are logical groupings of networked computers that share a common user database. In addition, they manage security centrally on a single server, known as a domain controller, or on a group of servers (domain controllers). A single domain must have one or more domain controllers. These computers provide Active Directory Domain Services (AD DS), helping to secure access to resources, and providing a single point of administration. By the way, workgroups is another name for peer-to-peer networks."

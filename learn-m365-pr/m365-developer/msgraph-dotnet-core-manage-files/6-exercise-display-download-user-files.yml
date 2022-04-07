@@ -2,14 +2,18 @@
 uid: learn-m365.msgraph-dotnet-core-manage-files.6-exercise-display-download-user-files
 title: Exercise - Display user files
 metadata:
-  unitType: learning-content  
+  unitType: learning-content
   title: Exercise - Connect JavaScript app to Microsoft 365
   description: In this exercise, you'll learn how to display files from Microsoft 365 in an ASP.NET Core app.
-  ms.date: 09/04/2021
+  ms.date: 03/01/2022
   author: DanWahlin
   ms.author: dwahlin
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.contributors:
+  - dwahlin-09292021
+  ms.custom:
+  - team=cloud_advocates
 durationInMinutes: 10
 content: |
   [!include[](includes/6-exercise-display-download-user-files.md)]

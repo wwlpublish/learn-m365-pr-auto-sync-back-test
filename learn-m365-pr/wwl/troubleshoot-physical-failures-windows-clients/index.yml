@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.troubleshoot-physical-failures-windows-clients
+metadata:
+  title: Troubleshoot physical failures on Windows clients
+  description: "The module examines the methods for identifying and troubleshooting issues related to the device's physical hardware."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot physical failures on Windows clients
+summary: The module examines the methods for identifying and troubleshooting issues related to the device's physical hardware.
+abstract: |
+  After completing this module, you will be able to:
+  * Apply device-replacement considerations.
+  * Identify the most vulnerable hardware devices.
+  * Apply the guidelines for replacing hardware.
+  * Diagnose memory problems.
+  * Diagnose and troubleshoot disk problems.
+prerequisites: |
+  * Students should have a basic understanding of computer networks and hardware concepts.
+  * Students should have a basic understanding of OS and Application concepts.
+  * Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.troubleshoot-physical-failures-windows-clients.introduction
+- learn.wwl.troubleshoot-physical-failures-windows-clients.examine-factors-when-replacing-devices
+- learn.wwl.troubleshoot-physical-failures-windows-clients.explore-common-vulnerabilities-hardware-devices
+- learn.wwl.troubleshoot-physical-failures-windows-clients.examine-guidelines-replacing-hardware
+- learn.wwl.troubleshoot-physical-failures-windows-clients.diagnose-memory-problems
+- learn.wwl.troubleshoot-physical-failures-windows-clients.diagnose-troubleshoot-disk-problems
+- learn.wwl.troubleshoot-physical-failures-windows-clients.knowledge-check
+- learn.wwl.troubleshoot-physical-failures-windows-clients.summary
+badge:
+  uid: learn.wwl.troubleshoot-physical-failures-windows-clients.badge

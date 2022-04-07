@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn.wwl.explore-troubleshooting-methodologies
+metadata:
+  title: Explore troubleshooting methodologies
+  description: "This module introduces the Enterprise Desktop Support Technician role and describes how an EDST best supports end users, both directly and indirectly, in a Windows client environment."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore troubleshooting methodologies
+summary: This module introduces the Enterprise Desktop Support Technician role and describes how an EDST best supports end users, both directly and indirectly, in a Windows client environment.
+abstract: |
+  After completing this module, you'll be able to:
+  *   Describe the Enterprise Desktop Support Technician (EDST) job role.
+  *   Describe the desktop support environment.
+  *   Describe how to interact with end users.
+  *   Explain the key stages and terminology of a troubleshooting methodology
+prerequisites: |
+  *   Students should have a basic understanding of computer networks and hardware concepts.
+  *   Students should have a basic understanding of OS and Application concepts.
+  *   Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.explore-troubleshooting-methodologies.introduction
+- learn.wwl.explore-troubleshooting-methodologies.examine-enterprise-desktop-support-technician-role
+- learn.wwl.explore-troubleshooting-methodologies.examine-desktop-support-environment
+- learn.wwl.explore-troubleshooting-methodologies.explore-key-stages-terminology-troubleshooting-methodology
+- learn.wwl.explore-troubleshooting-methodologies.examine-process-problem-reporting
+- learn.wwl.explore-troubleshooting-methodologies.knowledge-check
+- learn.wwl.explore-troubleshooting-methodologies.summary
+badge:
+  uid: learn.wwl.explore-troubleshooting-methodologies.badge

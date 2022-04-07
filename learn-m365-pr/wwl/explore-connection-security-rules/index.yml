@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn.wwl.explore-connection-security-rules
+metadata:
+  title: Explore connection security rules
+  description: "This module describes how connection security rules can be used to provide addtional security to protect data transmitted across networks."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore connection security rules
+summary: This module describes how connection security rules can be used to provide additional security to protect data transmitted across networks.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe the purpose and functionality of IPsec.
+  - Describe how to configure IPsec.
+  - Describe connection security rules.
+  - Explain authentication options.
+  - Monitor connections.
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.explore-connection-security-rules.introduction
+- learn.wwl.explore-connection-security-rules.explain-ipsec
+- learn.wwl.explore-connection-security-rules.explain-connection-security-rules
+- learn.wwl.explore-connection-security-rules.explore-authentication-options
+- learn.wwl.explore-connection-security-rules.monitor-security-policies-active-connections
+- learn.wwl.explore-connection-security-rules.knowledge-check
+- learn.wwl.explore-connection-security-rules.summary
+badge:
+  uid: learn.wwl.explore-connection-security-rules.badge

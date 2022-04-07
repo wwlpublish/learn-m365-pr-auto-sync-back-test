@@ -46,7 +46,6 @@ Teams webinars provide the following management features that enable the Teams a
 Team webinars include the following features:
 
 * Polls, chat, and reactions for up to 1,000 attendees
-* View-only broadcast of the webinar for up to 10,000 attendees
 * Content layouts that can be customized for Presenter Mode
 * Attendee registration page and email confirmations 
 * Download attendee reporting for CRM & Marketing apps
@@ -99,12 +98,12 @@ The following table summarizes the key differences between the three Teams meeti
 
 | |Teams Meetings |Teams Webinars | Teams Live events|
 |--|--|--|--|
-|Attendee limits |1,000 interactive <br/>10,000 view-only* |1,000 interactive <br/>10,000 view-only*| 10,000|
+|Attendee limits |1,000 interactive <br/>20,000 view-only |1,000 interactive | 10,000 attendees*|
 | Managements| Meeting policies/settings|Meeting policies/settings |Live events policies/settings |
 |Roles |Organizer, Attendee, Presenter|Organizer, Attendee, Presenter | Organizer, Attendee, Presenter, Producer|
 | Highlights|1,000-attendees with breakout rooms<br/>Audio, video, and  screen sharing | Attendee registration page and email confirmations <br/>Download attendee reporting for CRM & Marketing apps| Advanced production with RTMP<br/>Producer UX with content queue<br/>Supported in Yammer, Teams, and Stream|
 
-*view-only broadcasts for up to 20,000-attendees through the end of 2021.
+*view-only broadcasts for up to 20,000-attendees through June 30, 2022. For the latest update, see [Limits and specifications for Microsoft Teams](/microsoftteams/limits-specifications-teams#teams-live-events?azure-portal=true).
 
 
 

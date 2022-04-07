@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.prepare-active-directory-forest-directory-synchronization
+title: Prepare your Active Directory forest for directory synchronization
+metadata:
+  title: Prepare your Active Directory forest for directory synchronization
+  description: "Prepare your Active Directory forest for directory synchronization"
+  ms.date: 04/05/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/8-prepare-active-directory-forest-directory-synchronization.md)]

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-remote-access.explore-virtual-private-networks
+title: Explore virtual private networks
+metadata:
+  title: Explore virtual private networks
+  description: "Explore virtual private networks"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/2-explore-virtual-private-networks.md)]

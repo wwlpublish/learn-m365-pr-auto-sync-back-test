@@ -1,0 +1,75 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-wireless-network-connectivity.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Northwind Traders is a small importer and exporter of fine gems. Northwind created a small business network that supports the 802.11n and 802.11ac wireless standards. It also supports the WPA-Personal security model. A company visitor recently complained that while they could see the company's guest network, they couldn't connect to it. Which of the following items may be a cause of this issue?"
+    choices:
+    - content: "The guest's device doesn't support the 802.11x standards"
+      isCorrect: false
+      explanation: "Incorrect. Guest devices that don't support the 802.11x wireless standards won't be able to see a company's guest network that's built upon these standards. In this scenario, the guest could see the network, but just not connect to it. Try again."
+    - content: "The guest's device doesn't support WPA"
+      isCorrect: false
+      explanation: "Incorrect. WPA-Personal is a variation of the WPA security model. It's the security model upon which Northwind's guest network is designed. It's not a feature of the guest's device. Try again."
+    - content: "The visitor entered an incorrect password when trying to connect to Tradewind's guest network"
+      isCorrect: true
+      explanation: "Correct. The WPA security model involves providing a security password. The visitor won't be able to connect to Northwind's wireless network if they enter the wrong password."
+  - content: "Which type of wireless network topology can connect wireless devices dynamically in a peer-to-peer configuration without the use of any infrastructure devices?"
+    choices:
+    - content: "Ad hoc"
+      isCorrect: true
+      explanation: "Correct. Ad hoc networks can connect wireless devices dynamically in a peer-to-peer configuration without the use of any infrastructure devices."
+    - content: "Infrastructure"
+      isCorrect: false
+      explanation: "Incorrect. Infrastructure wireless networks consist of wireless local area networks (LANs) and cellular networks, and require the use of a device, such as an access point (AP), to allow communication between client wireless devices. You can manage infrastructure wireless networks centrally.. Try again."
+    - content: "WPA2"
+      isCorrect: false
+      explanation: "Incorrect. WPA2 is a security model that's available for wireless networks. Try again."
+  - content: "Which of the following items is a feature of the Miracast protocol?"
+    choices:
+    - content: "The Miracast protocol is used in client-server networks"
+      isCorrect: false
+      explanation: "Incorrect. The Miracast protocol is used in peer-to-peer networks and uses Wi-Fi Direct for the connection. Try again."
+    - content: "When transmitting audio and video between devices via Wi-Fi, both devices must be connected to the Internet"
+      isCorrect: false
+      explanation: "Incorrect. Both devices don't have to be connected to the Internet. Try again."
+    - content: "When transmitting audio and video between devices via Wi-Fi, the devices only need to share the same local wireless network"
+      isCorrect: true
+      explanation: "Correct. It isn't necessary that both devices are connected to the Internet. They only need to share the same local wireless network. The shared information is sent by the device via Wi-Fi through a Wi-Fi Direct connection to a receiver connected to the display device. The receiver then decodes the video signal and passes it to the TV display (or other display device)."
+  - content: "Contoso wants to use Miracast wireless technology in its conference rooms. This technology will enable users to project their screen to conference room TVs, projectors, and streaming media players that also support Miracast. This will enable the users to share what they're doing on their PC or present a slide show on to a larger screen. However, when setting up their conference rooms, Contoso realized that some of the rooms are using older displays that don't support Miracast. What's the most efficient thing that Contoso can do so that its users can project on to these older display devices and still take advantage of the Miracast technology?"
+    choices:
+    - content: "Plug a Miracast adapter into the display device's HDMI port"
+      isCorrect: true
+      explanation: "Correct. In order to use Miracast, both the source and target device’s hardware and OS must support Miracast. If the display you'll project to doesn’t support Miracast, you’ll need to plug a Miracast adapter (sometimes called a “hardware guard”) into the device's HDMI port."
+    - content: "Wire their PC to the display device"
+      isCorrect: false
+      explanation: "Incorrect. This option defeats the whole purpose of using Miracast technology, which is a wireless, screen-mirroring protocol. Try again."
+    - content: "Contoso will need to replace these older display devices with devices that support Miracast"
+      isCorrect: false
+      explanation: "Incorrect. While updating devices is an option, this isn't the most efficient option that Contoso can follow that still allows them to use the older devices. Try again."
+  - content: "When troubleshooting basic network connectivity with devices, which is a unique factor with wireless networks that's generally not a factor when troubleshooting wired networks?"
+    choices:
+    - content: "Physical connection distance"
+      isCorrect: false
+      explanation: "Incorrect. Wired connections, such as ethernet, have a maximum cable length limitation. Try again."
+    - content: "Encryption settings"
+      isCorrect: true
+      explanation: "Correct. Encryption is typically not a factor when troubleshooting basic network connectivity."
+    - content: "Interference"
+      isCorrect: false
+      explanation: "Incorrect. Wired connections are susceptible to interference, such as when cables are damaged, or run parallel to electrical cables. Try again."
+interactive: bash

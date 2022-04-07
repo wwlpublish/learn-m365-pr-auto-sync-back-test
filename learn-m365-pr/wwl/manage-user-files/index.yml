@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn.wwl.manage-user-files
+metadata:
+  title: Manage user files
+  description: "The module examines the various options that enable administrators to protect user files against data loss."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage user files
+summary: The module examines the various options that enable administrators to protect user files against data loss.
+abstract: |
+  After completing this module, you will be able to:
+  *   Describe Windows Libraries.
+  *   Describe the capabilities of OneDrive.
+  *   Configure Windows to synchronize files and settings using OneDrive.
+  *   Describe Work Folders and how they contrast to OneDrive.
+  *   Configure a client to use Work folders.
+prerequisites: |
+  *   Students should have a basic understanding of computer networks and hardware concepts.
+  *   Students should have a basic understanding of OS and Application concepts.
+  *   Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.manage-user-files.introduction
+- learn.wwl.manage-user-files.understand-windows-libraries
+- learn.wwl.manage-user-files.evaluate-onedrive
+- learn.wwl.manage-user-files.enable-onedrive
+- learn.wwl.manage-user-files.examine-work-folders
+- learn.wwl.manage-user-files.knowledge-check
+- learn.wwl.manage-user-files.summary
+badge:
+  uid: learn.wwl.manage-user-files.badge

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-operating-system-service-issues.disable-operating-system-services
+title: Disable operating system services
+metadata:
+  title: Disable operating system services
+  description: "Disable operating system services"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/4-disable-operating-system-services.md)]

@@ -3,11 +3,15 @@ uid: learn-m365.msgraph-show-user-emails.6-exercise-show-users-email
 metadata:
   title: Exercise - Show a user's emails
   description: In this unit, you'll learn how to load a user's 10 last emails from Microsoft 365 by using Microsoft Graph.
-  ms.date: 06/01/2021
+  ms.date: 03/01/2022
   author: waldekmastykarz
   ms.author: wmastyka
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - wmastyka-04142021
 title: Exercise - Show a user's emails
 durationInMinutes: 4
 content: |

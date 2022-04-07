@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn.wwl.implement-mobile-application-management
+metadata:
+  title: Implement mobile application management
+  description: "This module introduces Mobile Application Management (MAM). Students will learn about considerations for implementing MAM and will be introduced to the management of MAM using Microsoft Endpoint Manager."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implement mobile application management
+summary: This module introduces Mobile Application Management (MAM). Students will learn about considerations for implementing MAM and will be introduced to the management of MAM using Microsoft Endpoint Manager.
+abstract: |
+  After this module, you should be able to:
+  - Explain Mobile Application Management
+  - Understand application considerations in MAM
+  - Explain how to use Configuration Manager for MAM
+  - Use Intune for MAM
+  - Implement and manage MAM policies
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.implement-mobile-application-management.introduction
+- learn.wwl.implement-mobile-application-management.examine-mobile-application-management
+- learn.wwl.implement-mobile-application-management.examine-considerations-mobile-application-management
+- learn.wwl.implement-mobile-application-management.prepare-line-business-apps-app-protection-policies
+- learn.wwl.implement-mobile-application-management.implement-mobile-application-management-policies-intune
+- learn.wwl.implement-mobile-application-management. manage-mobile-application-management-policies-intune
+- learn.wwl.implement-mobile-application-management.knowledge-check
+- learn.wwl.implement-mobile-application-management.summary
+badge:
+  uid: learn.wwl.implement-mobile-application-management.badge

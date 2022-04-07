@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-edge-browser.manage-microsoft-edge-extensions
+title: Manage Microsoft Edge extensions
+metadata:
+  title: Manage Microsoft Edge extensions
+  description: "Manage Microsoft Edge extensions"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/5-manage-microsoft-edge-extensions.md)]

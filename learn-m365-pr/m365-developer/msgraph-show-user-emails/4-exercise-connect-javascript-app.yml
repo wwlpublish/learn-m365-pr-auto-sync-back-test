@@ -3,11 +3,15 @@ uid: learn-m365.msgraph-show-user-emails.4-exercise-connect-javascript-app
 metadata:
   title: Exercise - Connect a JavaScript app to Microsoft 365
   description: In this exercise, you'll create a simple JavaScript app. You'll configure it to use your Azure Active Directory application registration and let users sign in with their work account by using the Microsoft Authentication Library SDK.
-  ms.date: 03/30/2021
+  ms.date: 03/01/2022
   author: waldekmastykarz
   ms.author: wmastyka
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - wmastyka-04142021
 title: Exercise - Connect a JavaScript app to Microsoft 365
 durationInMinutes: 3
 content: |

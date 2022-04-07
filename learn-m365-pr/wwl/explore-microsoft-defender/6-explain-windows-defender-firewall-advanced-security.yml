@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-microsoft-defender.explain-windows-defender-firewall-advanced-security
+title: Explain Windows Defender Firewall with Advanced Security
+metadata:
+  title: Explain Windows Defender Firewall with Advanced Security
+  description: "Explain Windows Defender Firewall with Advanced Security"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/6-explain-windows-defender-firewall-advanced-security.md)]

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-connection-security-rules.monitor-security-policies-active-connections
+title: Monitor security policies and active connections
+metadata:
+  title: Monitor security policies and active connections
+  description: "Monitor security policies and active connections"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-monitor-security-policies-active-connections.md)]

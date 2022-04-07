@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-storage-spaces.examine-scenarios-storage-spaces
+title: Examine scenarios for Storage Spaces
+metadata:
+  title: Examine scenarios for Storage Spaces
+  description: "Examine scenarios for Storage Spaces"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/4-examine-scenarios-storage-spaces.md)]

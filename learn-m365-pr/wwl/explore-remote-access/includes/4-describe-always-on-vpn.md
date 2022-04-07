@@ -1,0 +1,18 @@
+With traditional VPNs, the end user typically initiates the VPN connection by launching the VPN client and authenticating. There are two common disadvantages with this:
+
+ -  Users have to be aware of what resources require VPN access and the additional steps the user must perform every time they need to connect over VPN.
+ -  Traditional VPNs are an “all or nothing” solution. Once connected, all network traffic is tunneled over the VPN. This can lead to large amounts of bandwidth on the organization’s network being consumed when it isn’t necessary. The most notable example being remote users who frequently use publicly accessible websites and resources. They might need VPN access for one or two tasks, but inadvertently pass all internet traffic over the organization’s network instead of directly through the end user’s ISP.
+
+Always On VPN provides a more seamless experience for end users. It supports remote access for domain-joined, nondomain-joined (workgroup), or Azure AD–joined devices, and personally owned devices. Administrators configure routing policies to determine when the client should direct traffic over the VPN. Policies can be based on user, hardware, or software criteria. For example, you could enable device authentication for remote device management, and then enable user authentication for connectivity to internal company sites and services. Because it’s controlled by policies, the user no longer has to be concerned with when to connect or disconnect from the VPN, whether they are remote or on the internal network.
+
+Most organizations supporting VPN access typically have the technologies deployed that are needed for Always On VPN. Other than your Domain Controller and DNS servers, the Always On VPN deployment requires an NPS (RADIUS) server, a Certification Authority (CA) server, and a Remote Access (Routing/VPN) server. Once the infrastructure is set up, you must enroll clients and then connect the clients to your on-premises securely through several network changes.
+
+### Always On VPN and Direct Access
+
+Always On VPN is the successor to Direct Access. While both solutions are supported, Microsoft recommends deploying or migrating to Always On VPN. Direct Access also provide seamless access, but required IPv6 and that clients be domain-joined. Always On VPN can use either IPv4 or IPv6, and supports non-domain joined devices. Always On VPN also provides more granular controls over how traffic is routed and support for conditional access policies. Always On VPN only supports Windows 10 and later clients, while Direct Access support Windows 8.1. Administrators should review each solution to assess which solution meets their needs.
+
+### Configuring Clients for Always On VPN
+
+Windows 10 and later clients are configured for Always On VPN through ProfileXML. ProfileXML is a uniform resource identifier (URI) node within the VPNv2 configuration service provider (CSP). Conceptually, CSPs work similar to how Group Policy works. Similar to how you use the Group Policy Management Editor to configure Group Policy objects (GPOs), you configure CSP nodes by using a mobile device management (MDM) solution such as Microsoft Intune. In this case, configuring a specific node called ProfileXML in the VPNv2 CSP, which contains all the settings necessary.
+
+The settings and XML file are typically created by the Administrator responsible for the VPN infrastructure. Once the XML file is created, it can be deployed to clients with either a device profile in Intune or as a package in Configuration Manager. It can also be deployed using PowerShell.

@@ -4,12 +4,13 @@ title: Plan the DNS record requirements for a custom domain
 metadata:
   title: Plan the DNS record requirements for a custom domain
   description: "Plan the DNS record requirements for a custom domain"
-  ms.date: 06/30/2021
+  ms.date: 04/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 9
 content: |
   [!include[](includes/4-plan-dns-record-requirements-for.md)]

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-device-authentication.describe-azure-ad-join
+title: Describe Azure AD join
+metadata:
+  title: Describe Azure AD join
+  description: "Describe Azure AD join"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-describe-azure-active-directory-join.md)]

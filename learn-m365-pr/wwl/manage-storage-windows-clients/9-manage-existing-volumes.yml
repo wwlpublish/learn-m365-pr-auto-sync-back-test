@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-storage-windows-clients.manage-existing-volumes
+title: Manage existing volumes
+metadata:
+  title: Manage existing volumes
+  description: "Manage existing volumes"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/9-manage-existing-volumes.md)]

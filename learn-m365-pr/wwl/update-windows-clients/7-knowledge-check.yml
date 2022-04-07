@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.update-windows-clients.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following items identifies the four phases in the Windows Server Update Services (WSUS) update management process?"
+    choices:
+    - content: "Identify, Evaluate and plan, Deploy, Support"
+      isCorrect: false
+      explanation: "Incorrect. These steps aren't in the correct order. Try again."
+    - content: "Assess, Evaluate and plan, Identify, Deploy"
+      isCorrect: false
+      explanation: "Incorrect. These steps aren't in the correct order. Try again."
+    - content: "Assess, Identify, Evaluate and plan, Deploy"
+      isCorrect: true
+      explanation: "Correct. The goal of the assess phase is to set up a production environment that supports update management for routine and emergency scenarios. During the identify phase, you identify new updates that are available, and determine whether they are relevant to your organization. After you identify the relevant updates, you need to evaluate whether they work properly in your environment. After you have thoroughly tested an update and determined any dependencies, you can approve it for deployment in the production network."
+  - content: "As the Desktop Administrator for World Wide Importers, Alan Deyoung wants to configure each individual computer with specific Windows Update settings. Doing this manually would be very time consuming, so Alan plans to create a Group Policy Object (GPO) to configure the necessary settings. After creating the GPO, what must Alan use to apply those settings to the appropriate collection of computers?"
+    choices:
+    - content: "Active Directory Domain Services"
+      isCorrect: true
+      explanation: "Correct. To configure each individual computer with specific Windows Update settings would be very time-consuming. Fortunately, you can create a Group Policy Object (GPO) to configure the necessary settings, and then use Active Directory Domain Services (AD DS) to apply those settings to the appropriate collection of computers."
+    - content: "Configuration Manager"
+      isCorrect: false
+      explanation: "Incorrect. Configuration Manager isn't the tool Alan would use to apply those settings. Try again."
+    - content: "Microsoft Endpoint Manager"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Endpoint Manager isn't the tool Alan would use to apply those settings. Try again."
+  - content: "As the Desktop Administrator for Contoso, Holly Dickson wants to use Windows Update for Business to manage which Windows Updates are received when, as well as the experience a device has when it receives them. Holly wants to specify which devices go first in an update wave, and which ones will come later. This design will help Holly ensure that all quality bars are met. What must Holly do to support this update plan?"
+    choices:
+    - content: "Implement peer-to-peer delivery for Microsoft updates"
+      isCorrect: false
+      explanation: "Incorrect. This design will optimizes bandwidth efficiency and reduces the need for an on-site server caching solution. Try again."
+    - content: "Integrate Windows Update for Business with Microsoft Intune"
+      isCorrect: false
+      explanation: "Incorrect. Intune can be used to configure Windows Update for Business settings. Try again."
+    - content: "Create deployment rings"
+      isCorrect: true
+      explanation: "Correct. Deployment rings enable administrators to specify which devices go first in an update wave, and which ones will come later (to ensure any quality bars are met)."
+  - content: "As the Windows Update for Business administrator at Contoso, you want to defer the installation of both feature and quality updates from deploying to devices within a bounded range of time from when those updates are first made available on the Windows Update service. You want to use this deferral to allow time to validate deployments as they are pushed to devices. What's the maximum deferral period for quality updates?"
+    choices:
+    - content: "30 days"
+      isCorrect: true
+      explanation: "Correct. The maximum deferral period for quality updates is 30 days. The maximum deferral period for feature updates is 365 days."
+    - content: "180 days"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the maximum deferral period for quality updates. Try again."
+    - content: "365 days"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the maximum deferral period for quality updates. Try again."
+  - content: "Your organization requires that updates are controlled and deferred. You want to utilize the service updates with Windows. Which servicing tool will allow you to perform centralized management using Group Policy or Microsoft Intune?"
+    choices:
+    - content: "Windows Update"
+      isCorrect: false
+      explanation: "Incorrect. Windows Update doesn't allow you to perform centralized management using Group Policy or Microsoft Intune. Try again."
+    - content: "Windows Update for Business"
+      isCorrect: true
+      explanation: "Correct. You can use Group Policy or MDM solutions such as Intune to configure the Windows Update for Business settings that control how and when Windows devices are updated. In addition, by using Intune, organizations can manage devices that are not joined to a domain at all or are joined to Microsoft Azure Active Directory (Azure AD) alongside your on-premises domain-joined machines."
+    - content: "Windows Server Update Service"
+      isCorrect: false
+      explanation: "Incorrect. Windows Server Update Service doesn't allow you to perform centralized management using Group Policy or Microsoft Intune. Try again."

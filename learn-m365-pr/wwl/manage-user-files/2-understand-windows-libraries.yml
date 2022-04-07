@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-user-files.understand-windows-libraries
+title: Understand Windows Libraries
+metadata:
+  title: Understand Windows Libraries
+  description: "Understand Windows Libraries"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/2-understand-windows-libraries.md)]
