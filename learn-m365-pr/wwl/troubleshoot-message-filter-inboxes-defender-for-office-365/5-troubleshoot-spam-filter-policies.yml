@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-message-filter-inboxes-defender-for-office-365.troubleshoot-spam-filter-policies
+title: Troubleshoot spam filter policies
+metadata:
+  title: Troubleshoot spam filter policies
+  description: "Troubleshoot spam filter policies"
+  ms.date: 04/07/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-troubleshoot-spam-filter-policies.md)]

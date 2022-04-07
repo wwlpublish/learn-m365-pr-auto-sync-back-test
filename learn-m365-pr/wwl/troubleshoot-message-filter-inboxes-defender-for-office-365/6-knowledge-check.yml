@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-message-filter-inboxes-defender-for-office-365.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/07/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "You're investigating why an email is marked as spam. You want to determine the Bulk Complaint Level value that Exchange Online assigned to it. Which email header should you examine?"
+    choices:
+    - content: "X-Forefront-Antispam-Report"
+      isCorrect: false
+      explanation: "That's incorrect. The X-Forefront-Antispam-Report header includes many useful values that show why a message was marked as spam. This header doesn't include the Bulk Complaint Level."
+    - content: "X-Microsoft-Antispam"
+      isCorrect: true
+      explanation: "That's correct. The X-Microsoft-Antispam header includes the Bulk Complaint Level, labeled as BCL."
+    - content: "Authentication-Results"
+      isCorrect: false
+      explanation: "That's incorrect. The Authentication-Results header includes information from authenticating email against DNS values, but it doesn't include the Bulk Complaint Level."
+  - content: "You've diagnosed that an anti-spam policy is regularly quarantining mail that should be delivered to users' inboxes. When you try to change the policy, you're denied access. Which group role do you need membership of?"
+    choices:
+    - content: "Organization Management"
+      isCorrect: true
+      explanation: "That's correct. Administrators must be in the Organization Management or Security Administrator role groups to edit anti-spam policies."
+    - content: "Security Reader"
+      isCorrect: false
+      explanation: "That's incorrect. Members of the Security Reader role group can view but not edit anti-spam policies."
+    - content: "Records Management"
+      isCorrect: false
+      explanation: "That's incorrect. Members of the Records Management role group can't edit anti-spam policies."
+  - content: "Email messages are arriving in the wrong folder in your inbox. You want to determine if there's a hidden inbox rule that's causing the problem. Which tool should you use?"
+    choices:
+    - content: "The Get-HostedContentFilterPolicy cmdlet"
+      isCorrect: false
+      explanation: "That's incorrect. The Get-HostedContentFilterPolicy cmdlet lists spam filter policies, not inbox rules."
+    - content: "Microsoft Outlook"
+      isCorrect: false
+      explanation: "That's incorrect. Outlook doesn't display hidden inbox rules."
+    - content: "MFCMAPI"
+      isCorrect: true
+      explanation: "That's correct. MFCMAPI displays all inbox rules, including hidden ones."
+  - content: "You're using Microsoft Defender for Office Safe Attachments to prevent users from opening malicious attached files. You want to ensure that emails are displayed to users as fast as possible. You don't mind if the attachment is unavailable until it has been detonated. Which response setting should you use?"
+    choices:
+    - content: "Monitor"
+      isCorrect: false
+      explanation: "That's incorrect. With this setting, email and attachments are delivered immediately and also monitored. Users might be able to open a malicious attachment."
+    - content: "Replace"
+      isCorrect: false
+      explanation: "That's incorrect. With this setting, email isn't delivered until detonation is complete, which may take time."
+    - content: "Dynamic Delivery"
+      isCorrect: true
+      explanation: "That's correct. With this setting, email is delivered immediately, but attachments are only available to open after detonation is complete."
+  - content: "Which of the following is used to examine a request if it's blocked by the WAF?"
+    choices:
+    - content: "WAF logs"
+      isCorrect: true
+      explanation: "That's correct. WAF logs work as a ledger of all evaluated requests that are matched or blocked by the WAF."
+    - content: "Root Certificates"
+      isCorrect: false
+      explanation: "That's incorrect. A root certificate is generated for the purpose of P2S connections."
+    - content: "Private endpoints"
+      isCorrect: false
+      explanation: "That's incorrect. Azure Private Endpoint is a network interface."

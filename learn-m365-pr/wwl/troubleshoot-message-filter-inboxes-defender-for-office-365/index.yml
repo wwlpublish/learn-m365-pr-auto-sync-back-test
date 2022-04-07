@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn.wwl.troubleshoot-message-filter-inboxes-defender-for-office-365
+metadata:
+  title: Troubleshoot message filtering in inboxes and Microsoft Defender for Office 365
+  description: "Investigate and diagnose why emails are prevented from arriving at their intended destination because of inbox rules, Microsoft Defender for Office 365, spam filter policies, and other Exchange Online features. MS-220"
+  ms.date: 04/07/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot message filtering in inboxes and Microsoft Defender for Office 365
+summary: Investigate and diagnose why emails are prevented from arriving at their intended destination because of inbox rules, Microsoft Defender for Office 365, spam filter policies, and other Exchange Online features.
+abstract: |
+  After completing this module, you'll be able to:
+  - Diagnose problems caused by misconfigured or corrupted inbox rules.
+  - Decide why message attachments are preventing message delivery.
+  - Analyze why Exchange Online Protection has taken action on a message.
+  - Identify poorly configured spam filter policies.
+prerequisites: |
+  Experience with PowerShell and the Exchange PowerShell module.
+  Significant experience deploying, managing, and troubleshooting Exchange environments.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- advanced
+roles:
+- support-engineer
+products:
+- azure-active-directory
+- defender-office365
+- office-exchange-server
+- office-outlook
+- office-exchange-online
+units:
+- learn.wwl.troubleshoot-message-filter-inboxes-defender-for-office-365.introduction
+- learn.wwl.troubleshoot-message-filter-inboxes-defender-for-office-365.fix-inbox-rules
+- learn.wwl.troubleshoot-message-filter-inboxes-defender-for-office-365.attachments
+- learn.wwl.troubleshoot-message-filter-inboxes-defender-for-office-365.investigate-actions-taken-by
+- learn.wwl.troubleshoot-message-filter-inboxes-defender-for-office-365.troubleshoot-spam-filter-policies
+- learn.wwl.troubleshoot-message-filter-inboxes-defender-for-office-365.knowledge-check
+- learn.wwl.troubleshoot-message-filter-inboxes-defender-for-office-365.summary
+badge:
+  uid: learn.wwl.troubleshoot-message-filtering-inboxes-defender-for-office-365.badge
