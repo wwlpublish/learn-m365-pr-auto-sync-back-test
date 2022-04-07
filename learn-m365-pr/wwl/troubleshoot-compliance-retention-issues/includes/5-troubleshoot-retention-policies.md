@@ -62,7 +62,7 @@ After seven days, if the policy is still not working as expected, you can use th
 Set-AppRetentionCompliancePolicy -Identity ContosoExecsRetentionPolicy -RetryDistribution
 ```
 
-# Learn more
+## Learn more
 
 - [Learn about retention policies and retention labels](/microsoft-365/compliance/retention)
 - [Learn about retention for Exchange](/microsoft-365/compliance/retention-policies-exchange)
