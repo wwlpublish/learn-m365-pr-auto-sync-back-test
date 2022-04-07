@@ -17,14 +17,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "An administrator suspects that a user's mailbox is not configured to allow Exchange ActiveSync access to their mailbox. The administrator decides to change the settings. Which cmdlet should the administrator use?"
+  - content: "An administrator suspects that a user's mailbox isn't configured to allow Exchange ActiveSync access to their mailbox. The administrator decides to change the settings. Which cmdlet should the administrator use?"
     choices:
     - content: "Set-ActiveSyncDeviceAccessRule"
       isCorrect: false
       explanation: "Incorrect. This cmdlet is used to make changes to Device Access Rules. These rules might impact a user's ability to use ActiveSync, however, that's not a mailbox setting."
     - content: "Get-MobileDeviceMailboxPolicy"
       isCorrect: false
-      explanation: "Incorrect. This cmdlet is used to retrieve detais about a mailbox policy. Mobile device mailbox policies are used to secure your users' devices when connecting to Exchange Online."
+      explanation: "Incorrect. This cmdlet is used to retrieve details about a mailbox policy. Mobile device mailbox policies are used to secure your users' devices when connecting to Exchange Online."
     - content: "Set-CASMailbox"
       isCorrect: true
       explanation: "Correct. This cmdlet enables an administrator to enable or disable specific email apps, such as ActiveSync."

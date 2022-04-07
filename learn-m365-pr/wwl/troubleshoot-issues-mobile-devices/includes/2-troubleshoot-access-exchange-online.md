@@ -35,7 +35,7 @@ You can configure mobile device mailbox policies to secure your users' devices w
 - Require a password
 - Specify the minimum password length
 - Allow a numeric PIN or require special characters in the password
-- Designate how long a device can be inactive before requiring the user to re-enter a password
+- Designate how long a device can be inactive before requiring the user to reenter a password
 - Wipe a device after a specific number of failed password attempts
 
 If you have access to the Classic Exchange admin center, you can review the current policies:
@@ -106,7 +106,7 @@ Options for default access level are Allow, Quarantine, or Block.
 > [!TIP]
 > You can also use the Classic Exchange admin center to configure these default settings, and to customize Quarantine notification messages. 
 
-If some users' devices are not able to gain access, review the state of the devices by using: 
+If some users' devices aren't able to gain access, review the state of the devices by using: 
 
 ``` powershell
 Get-Mobiledevice | ft UserDisplayName, DeviceOS, ClientType, DeviceAccessState, DeviceAccessStateReason`
@@ -124,7 +124,7 @@ It's important to understand why a device is being blocked or quarantined. It's 
 
 ### Review Azure AD Conditional Access policies
 
-Azure AD Conditional Access enables you to provide more robust mobile device access control. It's necessary to review Azure AD Conditional Access policies. For example, if you create and configure a Conditional Access policy with the following settings, Device Access Rules are not applied to devices targeted by this Conditional Access policy. The required settings are:
+Azure AD Conditional Access enables you to provide more robust mobile device access control. It's necessary to review Azure AD Conditional Access policies. For example, if you create and configure a Conditional Access policy with the following settings, Device Access Rules aren't applied to devices targeted by this Conditional Access policy. The required settings are:
 
 - Assignments: Choose the appropriate users or groups
 - Cloud apps or actions: Office 365 Exchange Online
