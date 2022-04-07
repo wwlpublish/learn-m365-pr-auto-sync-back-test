@@ -83,7 +83,7 @@ Get-Mobiledevice -Mailbox "AlexW" | ft DeviceOS, ClientType, DeviceAccessState, 
 
 In this instance, all of Alex's devices have access through the global access setting, as shown in the following screenshot.
 
-:::image type="content" source="../media/get-mobiledevice.png" alt-text="A screenshot of the output from the Get-MobileDevice cmdlet using syntax that precedes this image.":::
+:::image type="content" source="../media/get-mobile-device.png" alt-text="A screenshot of the output from the Get-MobileDevice cmdlet using syntax that precedes this image.":::
 
 The following command retrieves the statistics for the smart phone that's configured to synchronize with Alex's mailbox:
 
