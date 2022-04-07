@@ -81,7 +81,7 @@ Set-Mailbox -Identity <MailboxIdentity> -AddressBookPolicy <ABPIdentity>
 
 You can also use the Exchange Admin Center, as shown below. Locate the mailbox object and then click **Manage mailbox policies**. Review the Address book policy assignment, and if necessary, click **Edit** to change the assignment.
 
-:::image type="content" source="../media/abp-edit.png" alt-text="A screenshot displaying the Mailbox policies page for a mailbox. No address book policy is configured for the user.":::
+:::image type="content" source="../media/address-book-policy-edit.png" alt-text="A screenshot displaying the Mailbox policies page for a mailbox. No address book policy is configured for the user.":::
 
 ### Review the settings in an ABP
 

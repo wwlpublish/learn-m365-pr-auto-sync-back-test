@@ -108,7 +108,7 @@ If users are removed from a DL, consider changing both these settings to **Close
 
 If your organization uses a premium version of Azure AD, you can create dynamic DLs in addition to assigned DLs. To create a dynamic DL, you create a query based on properties such as recipient types and rules, as shown the following screenshot.
 
-:::image type="content" source="../media/dynamic-dl.png" alt-text="A screenshot shows the Users tab of the Add a group wizard. Adele Vance is the assigned owner, and the administrator has chosen to use a query to assign membership.":::
+:::image type="content" source="../media/dynamic.png" alt-text="A screenshot shows the Users tab of the Add a group wizard. Adele Vance is the assigned owner, and the administrator has chosen to use a query to assign membership.":::
 
  If you experience problems with email delivery, review the assignment rules and, if necessary, correct any errors.
 

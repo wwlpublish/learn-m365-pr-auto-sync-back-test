@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-exchange-online-configuration-issues
 metadata:
   title: Troubleshoot Exchange Online configuration issues
   description: "Investigate and diagnose Exchange Online configuration issues including provisioning errors, recipient issues, address book membership, and public folder settings. MS-220"
-  ms.date: 04/06/2022
+  ms.date: 04/07/2022
   author: wwlpublish
   ms.author: dawnhopper
   ms.topic: interactive-tutorial
