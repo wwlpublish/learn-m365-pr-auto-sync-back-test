@@ -15,7 +15,7 @@ Despite being a reliable, self-managed system, issues can pop up in Teams Rooms.
 
 ### Issue: The local Skype account doesn't automatically sign in
 
-- Make sure that a policy isn't applied that disables auto login.  Teams Rooms devices should be put in their own custom groups, whether Active Directory, Group Policy, or Intune. It's possible a Group Policy setting was applied to your Teams Rooms device that's preventing the Skype account from logging in automatically.
+- Make sure that a policy isn't applied that disables auto login. Teams Rooms devices should be put in their own custom groups, whether Active Directory, Group Policy, or Intune. It's possible a Group Policy setting was applied to your Teams Rooms device that's preventing the Skype account from logging in automatically.
 - Make sure that the password is still blank.
 - Make sure that a password expiration policy hasn't been applied.
 
