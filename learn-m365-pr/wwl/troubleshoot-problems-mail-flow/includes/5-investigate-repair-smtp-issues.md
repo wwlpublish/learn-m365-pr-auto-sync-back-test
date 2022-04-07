@@ -1,6 +1,6 @@
 SMTP is the protocol used for email delivery through the internet. Any problems with your SMTP configuration will almost certainly result in message delivery delays, or worse. For smaller organizations that use Microsoft 365 to manage DNS configuration for their custom domain, there's little that can go wrong. But for larger organizations, especially those with connectors and additional remote domain configurations, it can be all too easy to encounter external routing problems.
 
-If you're experiencing external email delivery issues, determine whether these issues relate to inbound communications, outbound communications, a single external domain, or all external domains. For example, if you determine that a remote domain cannot send email to you, but no other domains have issues, and you can send email to the external domain, the chances are that the problem lies with their configuration.
+If you're experiencing external email delivery issues, determine whether these issues relate to inbound communications, outbound communications, a single external domain, or all external domains. For example, if you determine that a remote domain can't send email to you, but no other domains have issues, and you can send email to the external domain, the chances are that the problem lies with their configuration.
 
 ## Test SMTP
 
@@ -10,7 +10,7 @@ To test SMTP, you can use the Microsoft Remote Connectivity Analyzer to perform 
 1. If necessary, select **Office 365** in the navigation pane and then select the test you want to perform:
 
     - **Inbound SMTP Email**. Steps through the process used by an email server to send email to your organization using SMTP. Identifies potential problems with your configuration.
-    - **Outbound SMTP Email**. Checks your outbound configuration, including reverse DNS, Sender ID, and remote block list (RBL) checks. Identifies potential problems with your configuration.
+    - **Outbound SMTP Email**. Checks your outbound configuration, including reverse DNS, Sender ID, and remote blocklist (RBL) checks. Identifies potential problems with your configuration.
 
 > [!TIP]
 > Remember you can also use message trace to help track problems.
