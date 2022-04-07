@@ -4,13 +4,13 @@ Exchange Online supports two types of authentication:
 - **Modern**. Based on OAuth 2.0 token authorization, it provides many benefits and improvements that help mitigate the issues in basic authentication. For example:
 
     - OAuth access tokens have a limited usable lifetime
-    - OAuth access tokens are specific to the apps and resources for which they are issued
-    - Multifactor authentication is also simple to enable and enforce with Modern authentication
+    - OAuth access tokens are specific to the apps and resources for which they're issued
+    - Multi-factor authentication is also simple to enable and enforce with Modern authentication
 
 > [!NOTE]
 > Basic authentication is often enabled by default on many servers and services and is comparatively easy to set up.  
 
-Basic authentication poses security risks and challenges, and organizations are seeking to implement modern authentication to mitigate those risks and challenges. Consequently, Microsoft are removing the ability to use Basic authentication in Exchange Online for the following clients:
+Basic authentication poses security risks and challenges, and organizations are seeking to implement modern authentication to mitigate those risks and challenges. Consequently, Microsoft is removing the ability to use Basic authentication in Exchange Online for the following clients:
 
 - Exchange ActiveSync
 - POP and IMAP
@@ -21,7 +21,7 @@ Basic authentication poses security risks and challenges, and organizations are 
 
 ## Troubleshoot Exchange authentication policies
 
-If a user cannot connect a client app, such as Microsoft Outlook, to Exchange Online, then this change in authentication might be the culprit.
+If a user can't connect a client app, such as Microsoft Outlook, to Exchange Online, then this change in authentication might be the culprit.
 
 > [!TIP]
 > Remember that Client Access Rules can prohibit or allow access based on authentication types. It's worth reviewing your Client Access Rules if you experience sign-in problems.
@@ -87,11 +87,11 @@ You can help avoid problems that might arise with modern authentication by using
 
 ### Be aware of multiple accounts in Outlook
 
-Some users report that when modern authentication is enabled, they cannot connect to their mailboxes. This behavior is often associated with users that have multiple mailboxes configured in Outlook. A known issue in Outlook creates a miscommunication between Outlook and Windows.
+Some users report that when modern authentication is enabled, they can't connect to their mailboxes. This behavior is often associated with users that have multiple mailboxes configured in Outlook. A known issue in Outlook creates a miscommunication between Outlook and Windows.
 
 When this problem arises, the mailbox shows **Disconnected** in the status bar.
 
-You'll most likely see this issue if more than one mailbox is added to the Outlook profile, and at least one of these mailboxes uses a login account that is not the same as the user's Windows login. This miscommunication causes Windows to provide the default credential instead of the appropriate account credential required to access the mailbox.
+You'll most likely see this issue if more than one mailbox is added to the Outlook profile, and at least one of these mailboxes uses a login account that isn't the same as the user's Windows login. This miscommunication causes Windows to provide the default credential instead of the appropriate account credential required to access the mailbox.
 
 The best approach to resolving this problem is to recreate the user's Outlook profile.
 
@@ -130,6 +130,6 @@ Users sometimes experience sign-in loops when they open Outlook. These loops can
 - Having multiple work and school accounts on the device.
 - Experiencing proxy server pre-authentication issues.
 - Using an app password instead of an account password.
-- Using multifactor authentication with an outdated Outlook version.
+- Using multi-factor authentication with an outdated Outlook version.
 
 These are often symptoms that appear after enabling modern authentication. In these situations, the best approach is to clear the Credential Manager in Windows, and then recreate the Outlook profile.

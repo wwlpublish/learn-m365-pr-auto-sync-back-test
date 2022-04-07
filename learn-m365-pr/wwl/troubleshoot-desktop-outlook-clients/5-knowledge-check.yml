@@ -27,8 +27,8 @@ quiz:
       explanation: "Incorrect. In this case, the user wouldn't be able to connect from their old computer either."
     - content: "A Client Access rule."
       isCorrect: false
-      explanation: "Incorrect. An Exchange Online Client Access Rule allows or denies access based on a client protocol and other connection characteristics. Compliance is not one of the characteristics."
-  - content: "A user reports that they're unable to access all of their their mailbox features from Outlook on the web. They can access all features of their mailbox by using Microsoft Outlook on their Windows computer. Which of the following would you check?"
+      explanation: "Incorrect. An Exchange Online Client Access Rule allows or denies access based on a client protocol and other connection characteristics. Compliance isn't one of the characteristics."
+  - content: "A user reports that they're unable to access all of their mailbox features from Outlook on the web. They can access all features of their mailbox by using Microsoft Outlook on their Windows computer. Which of the following would you check?"
     choices:
     - content: "Verify the Outlook on the web mailbox policies."
       isCorrect: true

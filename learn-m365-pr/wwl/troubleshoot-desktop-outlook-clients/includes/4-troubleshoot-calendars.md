@@ -31,7 +31,7 @@ Additional guidance on using this tool is located in this knowledge base article
 
 ## Troubleshoot calendar sharing permissions issues
 
-Sharing calendar information is very common. It's a useful way for users to determine their respective availability. If, after sharing a calendar, users don't have the expected permissions, then use Outlook to verify the permissions:
+Sharing calendar information is very common. It's a useful way for users to determine their respective availability. If after sharing a calendar, users don't have the expected permissions, then use Outlook to verify the permissions:
 
 1. Open **Outlook** and navigate to the appropriate calendar.
 1. Right-click the calendar, point to **Share** and then click **Calendar Permissions**.
@@ -53,7 +53,7 @@ You define the rules that make up a sharing policy. These rules include:
     - Free/busy information with time, subject, and location
     - Free/busy information, including time, subject, location, and title
 
-To create Sharing polices, you can use both the Exchange Admin Center and Exchange Online PowerShell.
+To create Sharing policies, you can use both the Exchange Admin Center and Exchange Online PowerShell.
 
 1. In the **Exchange Admin Center**, select **Organization**, and then select **Sharing**.
 1. In the details pane, you can review or create policies.
@@ -95,8 +95,8 @@ The manager should now be able to return to Outlook to continue management of th
 
 When your users attempt to use Resource Booking to schedule a resource, such as a conference room, with Microsoft Outlook, they might notice the following behavior when Resource Booking is unsuccessful:
 
-- The Resource does not automatically respond to meeting requests.
-- The Resource does not correctly respond to meeting requests.
+- The Resource doesn't automatically respond to meeting requests.
+- The Resource doesn't correctly respond to meeting requests.
 - The Resource is double-booking.
 
 This problem is usually caused by incorrect mailbox configuration, or mail flow set up with resource mailboxes.
@@ -113,7 +113,7 @@ The following high-level steps might help resolve this problem:
 
 These two steps might resolve the issue, but if not, continue with the additional guidance documented here: [Resources in Exchange don't respond to meeting requests](https://support.microsoft.com/topic/resources-in-exchange-don-t-respond-to-meeting-requests-e6d24af5-36ae-5d87-b615-f292f3953dac).
 
-## Determine why content for a shared calendar is not updated
+## Determine why content for a shared calendar isn't updated
 
 If users don't receive shared calendar updates, it could be related to the update failing to propagate automatically from the originator of the update in Outlook. For example, a user creates a new appointment in a shared calendar, but the update doesn't sync automatically to Exchange Online. Consequently, other users are unaware of the update. However, if, when a user presses F9, updates are propagated, then the problem might be related to two settings in Outlook:
 
