@@ -1,4 +1,4 @@
-All new files that are created through Office.com are automatically saved to a user's OneDrive. Users can store over 320+ different file types in OneDrive and upload files up to 100 GB in size. Files and folders can be uploaded directly in the browser once signed into OneDrive:
+All new files that are created through Office.com are automatically saved to a user's OneDrive. Users can store over 320+ different file types in OneDrive and upload files up to 250 GB in size. Files and folders can be uploaded directly in the browser once signed into OneDrive:
  
 :::image type="content" source="../media/upload-browser.png" alt-text="Files and folders can be uploaded directly in the browser":::
 
