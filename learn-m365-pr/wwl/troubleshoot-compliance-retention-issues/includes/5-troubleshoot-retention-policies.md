@@ -38,9 +38,9 @@ If a **Delete content** or a **Retain and then delete** policy applies, and the 
 
 You can create multiple retention policies in compliance center and apply them to different scopes. Depending on the conditions you apply, it's possible that several different retention policies might apply to a mailbox. This situation can make it difficult to assess what retention behavior should be.
 
-If items are not being retained or deleted as you expect, the first stage of troubleshooting is to determine which policies apply in the mailbox. You can diagnose these policies by using the **Policy lookup** tool:
+If items aren't being retained or deleted as you expect, the first stage of troubleshooting is to determine which policies apply in the mailbox. You can diagnose these policies by using the **Policy lookup** tool:
 
-1.  In the ccMicrosoft 365 ompliance enter, under **Solutions,** select **Information governance**.
+1.  In the Microsoft 365 compliance center, under **Solutions,** select **Information governance**.
 1.  Select the **Policy lookup** tab.
 
     :::image type="content" source="../media/05-access-policy-lookup.png" alt-text="Screen shot showing how to access the policy lookup tool in Microsoft 365 compliance center.":::

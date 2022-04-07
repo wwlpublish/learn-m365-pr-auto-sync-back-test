@@ -6,7 +6,7 @@ Here, you'll learn how Exchange handles deleted items and ensures that mistakenl
 
 ## Deleted items and recoverable items in mailboxes
 
-When users delete an item in their inbox, it's moved to the **Deleted Items** folder. When they empty that folder, items are not removed permanently but instead are moved to the **Recoverable Items** folder. Messages in Recoverable Items can be recovered if, for example, the deletion was a mistake. The following features of Exchange Online also use the Recoverable Items folder:
+When users delete an item in their inbox, it's moved to the **Deleted Items** folder. When they empty that folder, items aren't removed permanently but instead are moved to the **Recoverable Items** folder. Messages in Recoverable Items can be recovered if, for example, the deletion was a mistake. The following features of Exchange Online also use the Recoverable Items folder:
 
 - Microsoft 365 retention policies
 - In-Place holds
@@ -15,7 +15,7 @@ When users delete an item in their inbox, it's moved to the **Deleted Items** fo
 - Mailbox audit logging
 - Calendar logging
 
-In Outlook, user-accessible items such as email, calendar appointments, and tasks are stored in the Interpersonal Messaging (IPM) subtree. There is also a non-IPM subtree, which stores items that users can't access through Outlook, such as preferences and internal data. The Recoverable Items folder is located in the non-IPM subtree so Outlook users don't see it in their mailbox hierarchy.
+In Outlook, user-accessible items such as email, calendar appointments, and tasks are stored in the Interpersonal Messaging (IPM) subtree. There's also a non-IPM subtree, which stores items that users can't access through Outlook, such as preferences and internal data. The Recoverable Items folder is located in the non-IPM subtree so Outlook users don't see it in their mailbox hierarchy.
 
 > [!NOTE] 
 > You can use a low-level MAPI tool, such as MFCMAPI, to view the non-IPM subtree, including the Recoverable Items folder.
@@ -28,7 +28,7 @@ This arrangement of deleted items and recoverable items folders protects against
 
 ## Search for and delete messages from all mailboxes
 
-Ordinarily, users are in charge of deleting items from their mailbox and administrators are not involved. However, in certain situations, administrators may want to search all mailboxes for specific messages and delete them. These situations include:
+Ordinarily, users are in charge of deleting items from their mailbox and administrators aren't involved. However, in certain situations, administrators may want to search all mailboxes for specific messages and delete them. These situations include:
 
 - Messages have been received that contain dangerous attachments.
 - Phishing messages have been received and reached users' inboxes.
