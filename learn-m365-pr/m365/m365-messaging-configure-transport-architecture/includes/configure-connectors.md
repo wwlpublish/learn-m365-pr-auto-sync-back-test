@@ -42,11 +42,11 @@ Before you set up the connector, you need to set up your Microsoft 365 environme
 
 ### Create and configure the connector from Microsoft 365 to your email server
 
-1. Sign in to your Microsoft 365 instance.  
+1. Sign in to your Microsoft 365 instance.
 1. In the Exchange admin center, select **mail flow** and then open the **connectors** tab.
 
-   If you have any existing connectors, they will be listed here.  
-    ![A screenshot shows the Exchange admin center, highlighting the mail flow and connectors](../media/3-mail-flow-connectors-list.png)
+   If you have any existing connectors, they will be listed here.
+    :::image type="content" source="../media/3-mail-flow-connectors-list.png" alt-text="A screenshot shows the Exchange admin center, highlighting the mail flow and connectors." border="false":::
 
 1. Select the plus sign (**+**).
 1. Because this connector routes mail from Microsoft 365 to your on-premises email servers:
@@ -54,7 +54,7 @@ Before you set up the connector, you need to set up your Microsoft 365 environme
    - Set **From** to **Office 365**.
    - Set **To** to your on-premises Exchange mail server.
 
-     ![A screenshot shows setting the targets for the connectors](../media/3-connector-wizard-office-365-on-premises.png)
+     :::image type="content" source="../media/3-connector-wizard-office-365-on-premises.png" alt-text="A screenshot shows setting the targets for the connectors." border="false":::
 
 1. Select **Next**.
 1. Enter a name and description for the new connector.
@@ -69,17 +69,17 @@ Before you set up the connector, you need to set up your Microsoft 365 environme
     |Connect only if the recipient's email server certificate matches this criteria |Issued by a trusted certificate authority (CA) |
     |And the subject name or subject alternative name (SAN) matches the domain name|Enter in the on-premises domain |
 
-    ![A screenshot of the page of the new connector wizard that enforces encryption](../media/3-complete-new-connector.png)
+    :::image type="content" source="../media/3-complete-new-connector.png" alt-text="A screenshot of the page of the new connector wizard that enforces encryption." border="false":::
 
 1. Finally, validate the outbound connector. Enter an external email address, select **Validate**. When the validation is successful, select **Save**.
 
 ### Redirect your mail flow from the internet to Microsoft 365 by changing your MX record
 
-Finally, modify your MX record to redirect email flow to Microsoft 365. Access the DNS records held by your domain hosting service. Add or update the MX record, so that messages sent to your domain will come to Microsoft 365.  
+Finally, modify your MX record to redirect email flow to Microsoft 365. Access the DNS records held by your domain hosting service. Add or update the MX record, so that messages sent to your domain will come to Microsoft 365.
 
 The MX record you'll add includes a value (the **Points to address** value) that looks something like this: \<MX token/>.mail.protection.outlook.com, where \<MX token/> is a value like "MSxxxxxxx."
 
-1. To get the information for the MX record from Microsoft 365, in the Microsoft 365 admin center, go to ****Setup > Domains**, and then select your domain.  
+1. To get the information for the MX record from Microsoft 365, in the Microsoft 365 admin center, go to ****Setup > Domains**, and then select your domain.
 1. Under **Required DNS settings**, you'll see the DNS records. Copy the **Points to address** value. You'll use this value in the record you create or update on your DNS host's site.
 1. In the MX record on your DNS host's site, make sure that the fields are set to the following values:
 
@@ -95,11 +95,11 @@ The MX record you'll add includes a value (the **Points to address** value) that
 
 ## Create a connector from your on-premises email server to Microsoft 365
 
-Now, you're ready to make the connection from your on-premises email server to Microsoft 365.  
+Now, you're ready to make the connection from your on-premises email server to Microsoft 365.
 
 ### Create and configure the connector
 
-1. Sign in to your Microsoft 365 instance.  
+1. Sign in to your Microsoft 365 instance.
 1. In the Exchange admin center, select **mail flow** and then open the **connectors** tab.
    If you have any existing connectors, they will be listed here. If you already have a connector from Microsoft 365 to your on-premises mail server, you don't need to create another connector.
 1. Select the plus sign (**+**).
@@ -108,7 +108,7 @@ Now, you're ready to make the connection from your on-premises email server to M
    - Set **From** to your on-premises Exchange mail server.
    - Set **To** to **Office 365**.
 
-     ![A screenshot to choose the mail scenarios](../media/3-connector-wizard-on-premises-office-365.png)
+     :::image type="content" source="../media/3-connector-wizard-on-premises-office-365.png" alt-text="A screenshot to choose the mail scenarios." border="false":::
 
 1. Select **Next**.
 1. Enter a name and description for the new connector.
@@ -122,15 +122,15 @@ Next, you must prepare your email server to send mail to Microsoft 365. This ste
 
 If your on-premises email environment is Microsoft Exchange, you'll create a **Send** connector that uses smart host routing to send messages to Microsoft 365.
 
-To create the Send connector in Exchange Server, run the **New-SendConnector** cmdlet with the following syntax in the Exchange Management Shell.
+To create the Send connector in Exchange Server, run the `New-SendConnector` cmdlet with the following syntax in the Exchange Management Shell.
 
 ```powershell
-New-SendConnector -Name <DescriptiveName>  
--AddressSpaces *  
--CloudServicesMailEnabled $true  
--Fqdn <CertificateHostNameValue>  
--RequireTLS $true  
--DNSRoutingEnabled $false  
--SmartHosts <YourDomain>-com.mail.protection.outlook.com  
+New-SendConnector -Name <DescriptiveName>
+-AddressSpaces *
+-CloudServicesMailEnabled $true
+-Fqdn <CertificateHostNameValue>
+-RequireTLS $true
+-DNSRoutingEnabled $false
+-SmartHosts <YourDomain>-com.mail.protection.outlook.com
 -TlsAuthLevel CertificateValidation 
 ```
