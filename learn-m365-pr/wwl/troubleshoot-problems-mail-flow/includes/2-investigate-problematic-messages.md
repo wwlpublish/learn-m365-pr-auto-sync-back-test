@@ -15,7 +15,7 @@ Exchange Online generates a graphical email that's returned to the sender. This 
 
 In the second screenshot, the message displays a specific status code, in this case 550 5.4.1. Additional information is displayed about the cause, along with suggestions for a solution.
 
-:::image type="content" source="../media/non-delivery-report-2.png" alt-text="A screenshot of an NDR message as described in the preceding text.":::
+:::image type="content" source="../media/non-delivery-report-2.png" alt-text="A screenshot of an NDR message as described in the preceding text, with the additional information about the cause.":::
 
 The `docs.microsoft.com` website contains several documents that describe each status code in more detail and provide detailed analysis of possible causes and suggested troubleshooting steps and mitigations. For example, the following document describes the 5.4.1 status code displayed in the preceding email message NDR: [Fix email delivery issues for error code 550 5.4.1 in Exchange Online](/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/fix-error-code-550-5-4-1-in-exchange-online).
 
