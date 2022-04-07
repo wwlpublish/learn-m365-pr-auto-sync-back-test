@@ -1,6 +1,7 @@
-![Graphic showing the different capabilities of Microsoft 365 in a pinwheel arrangement.](../media/step-5-wheel.png)
+> [!div class="centered"]
+> :::image type="content" source="../media/step-5-wheel.png" alt-text="Graphic showing the different capabilities of Microsoft 3 65 in a pinwheel arrangement." border="false":::
 
-![Graphic of a lock and memo](../media/step-5-icon.png)
+:::image type="icon" source="../media/step-5-icon.png" :::
 
 Let's look at new capabilities you can take advantage of with Windows 10, Microsoft 365 Apps, and cloud-based options from Enterprise Mobility + Security and beyond.
 
@@ -40,7 +41,7 @@ Along with the Microsoft Intelligent Security Graph, you have faster access to b
 
 [Microsoft Intune](/intune/introduction-intune) serves as a cloud-based management service for mobile scenarios, including iOS, Android, and Windows devices. You can configure Intune for co-management to complement and extend controls for specific workloads managed by Microsoft Endpoint Configuration Manager. You can require devices that access protected resources to enroll in device management, even non-managed, non-domain-joined, or non-Azure AD-joined devices. You can also take advantage of granular configuration and compliance policy enforcement at the operating system and application level. Finally, you can configure application policies and settings centrally and enforce them for Microsoft 365 Apps and store apps in Windows 10 using Microsoft Intune.
 
-![Screenshot of the profiles section in the device configuration tab of Intune.](../media/step-5-1.png)
+:::image type="content" source="../media/step-5-1.png" alt-text="Screenshot of the profiles section in the device configuration tab of Intune." border="false":::
 
 ## Learn more
 
