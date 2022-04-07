@@ -2004,6 +2004,46 @@
       "source_path": "learn-m365-pr/wwl/leverage-fasttrack-partner-services-to-support-microsoft-365/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/configure-your-microsoft-365-tenant/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-workplace-analytics/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-workplace-analytics/2-examine-functionality.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-workplace-analytics/3-examine-data-protection.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-workplace-analytics/4-explore-data-privacy.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-workplace-analytics/5-configure.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-workplace-analytics/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-workplace-analytics/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-workplace-analytics/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-tenant/",
+      "redirect_document_id": false
     }
   ]
 }
