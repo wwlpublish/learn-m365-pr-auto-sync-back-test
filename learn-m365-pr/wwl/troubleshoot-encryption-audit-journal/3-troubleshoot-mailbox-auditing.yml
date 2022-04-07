@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-encryption-audit-journal.troubleshoot-mailbox-auditing
+title: Troubleshoot mailbox auditing
+metadata:
+  title: Troubleshoot mailbox auditing
+  description: "Troubleshoot mailbox auditing"
+  ms.date: 04/07/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/3-troubleshoot-mailbox-auditing.md)]
