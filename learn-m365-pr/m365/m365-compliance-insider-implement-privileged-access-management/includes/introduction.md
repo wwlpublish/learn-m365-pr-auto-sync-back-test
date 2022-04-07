@@ -28,7 +28,7 @@ Privileged access management in Microsoft 365 is defined and scoped at the *ta
 
 ## Privileged access management architecture and approval workflow
 
-Each of the following process flows outline the architecture of privileged access and how it interacts with Microsoft 365 auditing and the Exchange Management run space.  
+Each of the following process flows outline the architecture of privileged access and how it interacts with Microsoft 365 auditing and the Exchange Management run space.
 
 ### Step 1: Configure a privileged access policy
 
@@ -38,25 +38,25 @@ When you configure a privileged access policy with the [Microsoft 365 admin cent
 
 ### Step 2: Access request
 
-In the Microsoft 365 admin center or with the Exchange Online PowerShell, users can request access to elevated or privileged tasks. The privileged access feature sends the request to the Microsoft 365 substrate for processing against the configured privilege access policy and records the activity in the Microsoft 365 Defender portal logs. 
-  
- ![Access request.](../media/access-request.png)
+In the Microsoft 365 admin center or with the Exchange Online PowerShell, users can request access to elevated or privileged tasks. The privileged access feature sends the request to the Microsoft 365 substrate for processing against the configured privilege access policy and records the activity in the Microsoft 365 Defender portal logs.
+
+ :::image type="content" source="../media/access-request.png" alt-text="Access request." border="false":::
 
 ### Step 3: Access approval
 
 An approval request is generated and the pending request notification is emailed to approvers. If approved, the privileged access request is processed as an approval and the task is ready to be completed. If denied, the task is blocked and no access is granted to the requestor. The requestor is notified of the request approval or denial via email message.
 
-  ![Access approval.](../media/access-approval.png)
+  :::image type="content" source="../media/access-approval.png" alt-text="Access approval." border="false":::
 
 ### Step 4: Access processing
 
 For an approved request, the task is processed by the Exchange Management runspace. The approval is checked against the privileged access policy and processed by the Microsoft 365 substrate. All activity for the task is logged in the Microsoft 365 Defender portal.
 
-  ![Access processing.](../media/access-processing.png)  
+  :::image type="content" source="../media/access-processing.png" alt-text="Access processing." border="false":::
 
 The approval workflow can also be illustrated as follows:
 
-   ![Approval workflow.](../media/approval-workflow.png)
+   :::image type="content" source="../media/approval-workflow.png" alt-text="Approval workflow." border="false":::
 
 ## Learn more
 

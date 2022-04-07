@@ -19,7 +19,6 @@ For example, using the security recommendations present in the portal, an admini
 [![Security recommendations](../media/security-recommendations.png)](../media/security-recommendations-magnify.png#lightbox)
 
 >
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4CYw7]
 
 ## Attack surface reduction
 
@@ -38,7 +37,6 @@ The  below screenshot shows a chart of detections against an attack surface redu
  [![Attack surface reduction rules](../media/attack-surface-reduction-rules.png)](../media/attack-surface-reduction-rules-magnify.png#lightbox)
 
 >
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4COmV]
 
 ## Next generation protection
 
@@ -78,14 +76,10 @@ The automated investigation feature uses various inspection algorithms, and proc
 
  [![Malware detected and remediated](../media/malware-detected-remediated.png)](../media/malware-detected-remediated-magnify.png#lightbox)
 
->
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4CQAA]
->
-
 ### Explore how to reduce organizational risk with Threat and Vulnerability Management
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4AFt9) of the interactive guide (captions available in more languages).
 
 <a href="https://mslearn.cloudguides.com/guides/Reduce%20organizational%20risk%20with%20Threat%20and%20Vulnerability%20Management">![Reduce organizational risk with Threat and Vulnerability Management](../media/reduce-organizational-risk.png)</a>  
-
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.
+
