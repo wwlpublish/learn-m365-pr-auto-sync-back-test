@@ -30,6 +30,5 @@ modules:
 - learn.wwl.configure-administrative-roles-microsoft-365
 - learn.wwl.manage-tenant-health-services-microsoft-365
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise
-- learn.wwl.implement-workplace-analytics
 trophy:
   uid: learn.wwl.manage-your-microsoft-365-tenant.trophy
