@@ -23,11 +23,11 @@ Since mail flow rules (transport rules) are configured with actions, it's import
 
 These and other actions can result in a message not being routed to the intended recipient, or being dropped. The following screenshot displays the message a user received when a mail flow rule blocked the message.
 
-:::image type="content" source="../media/mailflow-1.png" alt-text="A screenshot that displays a message in Outlook on the web. The message explains why the message was blocked.":::
+:::image type="content" source="../media/mail-flow-1.png" alt-text="A screenshot that displays a message in Outlook on the web. The message explains why the message was blocked.":::
 
 By tracing messages, you might be able to determine whether a mail flow rule is the cause of a dropped or misdirected message. The following screenshot shows a message trace for failed deliveries. The Events section is shown and identifies the failure and the reason. The name of the transport rule is **Test Rule**.
 
-:::image type="content" source="../media/mailflow-2.png" alt-text="A screenshot displays a message trace for a message that's been blocked by a mail flow rule. ":::
+:::image type="content" source="../media/mail-flow-2.png" alt-text="A screenshot displays a message trace for a message that's been blocked by a mail flow rule. ":::
 
 ### Review transport rules
 
@@ -60,7 +60,7 @@ Where *connector* is the configured messaging connector.
 
 To review these rules, you use the same procedure for other mail flow rules. The following screenshot displays the property of a mail flow rule that redirects messages to a specified connector.
 
-:::image type="content" source="../media/mailflow-3.png" alt-text="A screenshot displays a mail flow rule that redirects to a connector. ":::
+:::image type="content" source="../media/mail-flow-3.png" alt-text="A screenshot displays a mail flow rule that redirects to a connector. ":::
 
 > [!TIP]
 > Use the `get-transportrule | Where-Object {$_.RouteMessageOutBoundConnector -ne $null} | ft Name, RouteMessageOutBoundConnector` command to list all mail flow rules by name that redirect to a named connector.
