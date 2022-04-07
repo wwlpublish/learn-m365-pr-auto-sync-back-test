@@ -24,7 +24,7 @@ quiz:
       explanation: "That's incorrect. The X-MS-Exchange-Organization-AuthAs header records whether the message was sent by an authenticated or anonymous client."
     - content: "X-MS-Exchange-Organization-MessageDirectionality"
       isCorrect: true
-      explanation: "Thats correct. The X-MS-Exchange-Organization-MessageDirectionality header records whether Exchange classified the email as originating within the hybrid system or incoming from an external email system."
+      explanation: "That's correct. The X-MS-Exchange-Organization-MessageDirectionality header records whether Exchange classified the email as originating within the hybrid system or incoming from an external email system."
     - content: "Authentication-Results."
       isCorrect: false
       explanation: "That's incorrect. The Authentication-Results header stores the results of antispam queries against DNS records."

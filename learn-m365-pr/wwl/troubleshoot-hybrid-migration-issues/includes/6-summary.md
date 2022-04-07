@@ -17,7 +17,7 @@ Now that you have reviewed this module, you should be able to:
 - [Free/busy lookups stop working in a cross-premises environment or in an Exchange Server hybrid deployment](/exchange/troubleshoot/calendars/freebusy-lookups-stop-working)
 - [Exchange 2013/2016 Public Folders Migration Scripts](/download/details.aspx?id=54855)
 - [Configure Exchange Server public folders for a hybrid deployment](/exchange/hybrid-deployment/set-up-modern-hybrid-public-folders)
-- [Mail-enabled Public Folders - directory sync from EXO to On-Prem script](https://www.microsoft.com/download/details.aspx?id=52037)
+- [Mail-enabled Public Folders - directory sync from EXO to On-prem script](https://www.microsoft.com/download/details.aspx?id=52037)
 - [How to configure Exchange Online public folders for a hybrid deployment](/exchange/hybrid-deployment/set-up-exo-hybrid-public-folders)
 - [Troubleshooting mail enabled public folder synchronization failures when using PowerShell script](/exchange/troubleshoot/public-folders/mepf-sync-failures-script)
 - [Ways to migrate multiple email accounts to Microsoft 365 or Office 365](/exchange/mailbox-migration/mailbox-migration)
