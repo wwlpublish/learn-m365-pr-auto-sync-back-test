@@ -33,7 +33,7 @@ OME has the following advantages:
 
 Some Microsoft 365 subscriptions also include **Advanced Message Encryption**, which is built on top of OME and grants extra capabilities to administrators:
 
-- You can control sensitive emails shared outside you organization with automatic policies.
+- You can control sensitive emails shared outside your organization with automatic policies.
 - You can add a custom email template and an expiration date to sensitive emails.
 - You can revoke access to a sensitive email.
 

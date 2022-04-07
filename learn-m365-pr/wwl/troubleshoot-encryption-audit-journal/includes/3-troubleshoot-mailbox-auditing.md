@@ -77,7 +77,7 @@ To see the same list for delegates or admins, use the `AuditDelegate` or `AuditA
 
 ## Modify the audit actions for a mailbox
 
-If you've diagnosed that the wrong set of actions are being audited for a mailbox, you can change the list by using the Set-Mailbox cmdlet. For example, the following command adds mailbox logins to the list of audited actions for the mailbox owner:
+If you've diagnosed that the wrong set of actions is being audited for a mailbox, you can change the list by using the Set-Mailbox cmdlet. For example, the following command adds mailbox logins to the list of audited actions for the mailbox owner:
 
 ```powershell
 Set-Mailbox -Identity serena.davis@contoso.com -AuditOwner @{Add="MailboxLogin"}
