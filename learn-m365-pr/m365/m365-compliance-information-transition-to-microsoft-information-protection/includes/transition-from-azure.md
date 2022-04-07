@@ -31,7 +31,7 @@ Here is an image of the service architecture **before** unified labeling activat
 
 :::image type="content" source="../media/service-architecture-before-unified-labeling-activation.png" alt-text="Service architecture before unified labeling activation." border="false":::
 
-Here is an image of the service architecture **after** unified labeling activation. When the "Get policy" action is executed from the classic client, the source of the labels is now the  Microsoft 365 compliance center unified labeling store. Note that **policies** and **conditions** are still sourced from the Azure Information Protection store for the classic client, even after migration. **Just the label source changes.**
+Here is an image of the service architecture **after** unified labeling activation. When the "Get policy" action is executed from the classic client, the source of the labels is now the Microsoft 365 compliance center unified labeling store. Note that **policies** and **conditions** are still sourced from the Azure Information Protection store for the classic client, even after migration. **Just the label source changes.**
 
 :::image type="content" source="../media/service-architecture-after-unified-labeling-activation.png" alt-text="Service architecture after unified labeling activation." border="false":::
 

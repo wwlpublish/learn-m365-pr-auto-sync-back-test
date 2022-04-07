@@ -2,7 +2,8 @@ To properly protect your network from internet attacks, you should reduce the at
 
 The Edge Transport server role is optional and typically deployed on a computer located in an Exchange organization's perimeter network. It's designed to minimize the attack surface of the organization. The Edge Transport server role handles all internet-facing mail flow.
 
-![Exchange Edge transport server role diagram](../media/exchange-edge-transport.png)
+> [!div class="centered"]
+> :::image type="content" source="../media/exchange-edge-transport.png" alt-text="Exchange Edge transport server role diagram." border="false":::
 
 ## Adding an Edge Transport server to a hybrid deployment
 
