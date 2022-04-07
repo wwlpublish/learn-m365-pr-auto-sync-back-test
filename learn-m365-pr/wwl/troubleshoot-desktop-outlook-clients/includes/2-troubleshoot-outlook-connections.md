@@ -61,7 +61,7 @@ If you've checked your Outlook client configuration and troubleshooting logs and
 The issue that prevents Outlook from connecting to Exchange Online might not be on the client side. On the server, one feature that can stop users connecting is Client Access Rules. Exchange Online uses Client Access Rules to control access from different types of client apps or activities. For example, by using Client Access Rules, an administrator can:
 
 - Allow or block access to Exchange ActiveSync clients (perhaps by specific IP addresses).
-- Allow or block access to Exchange Web Services (perhaps for users in specific departments, cities, or countries).
+- Allow or block access to Exchange Web Services (perhaps for users in specific department, city, or country).
 - Allow or block access to an offline address book (perhaps for specific users based on their usernames).
 - Prevent client access using federated authentication.
 - Prevent client access using Exchange Online PowerShell.
@@ -182,7 +182,7 @@ Conditional Access is a feature of Azure AD that provides an additional layer of
 Conditional Access can use a number of signals when deciding whether to grant access, including the following:
 
 - **User or group membership**. Policies can be targeted to specific users and groups, giving administrators fine-grained control over access.
-- **IP Location information**. Trusted IP address ranges can be created, then used when making policy decisions. Also, Administrators can opt to block or allow traffic from an entire countries IP range.
+- **IP Location information**. Trusted IP address ranges can be created, then used when making policy decisions. Also, Administrators can opt to block or allow traffic from an entire country IP range.
 - **Device**. Users with devices of specific platforms or marked with a specific state can be used
 - **Application**. Users attempting to access specific applications can trigger different Conditional Access policies.
 - **Real-time sign-in risk detection**. Signals integration with Azure AD Identity Protection allows Conditional Access policies to identify risky sign-in behavior. Policies can then force users to perform password changes or multi-factor authentication to reduce their risk level or be blocked from access until an administrator takes manual action.
