@@ -45,7 +45,7 @@ quiz:
         isCorrect: false
         explanation: "That's not correct. Permissions manage who in your organization has access to the Microsoft 365 Defender portal to view content and perform tasks."
       
-    - content: "How does the Microsoft 365 Defender provide intelligent and personalized recommendations to users?"
+    - content: "What feature determines the cards shown on a user's personal home page in the Microsoft Defender 365 portal?"
       choices:
       - content: "Shared global administration accounts"
         isCorrect: false
