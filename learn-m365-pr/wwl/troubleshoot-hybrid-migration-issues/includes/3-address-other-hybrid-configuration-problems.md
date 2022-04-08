@@ -47,7 +47,7 @@ To provide a seamless lookup system, on-premises mailboxes must have correspondi
 For users whose mailbox is on-premises:
 
 - In Exchange Server, there is a mailbox object.
-- In Exchange Online, these is a mail-enabled user.
+- In Exchange Online, there is a mail-enabled user.
 
 Both these objects have a primary email address set to the public-facing address, such as **serena.davis@contoso.com**. They also have a secondary email address with a *.onmicrosoft.com* domain, such as **serena.davis@contoso.mail.onmicrosoft.com**. The mail-enabled user also has an external email address set to the public facing address.
 
