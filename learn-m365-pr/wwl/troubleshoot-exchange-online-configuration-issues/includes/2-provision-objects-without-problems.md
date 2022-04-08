@@ -231,7 +231,7 @@ When you delete a user account, the following occurs:
 
 If you use the `Remove-MsolUser` cmdlet to delete a user and want to immediately remove it from the Azure AD recycle bin, you can use the `RemoveFromRecycleBin` parameter. The user is now unrecoverable, but you should be aware that the corresponding mailbox is not purged; it is soft-deleted. To remove a mailbox and make it unrecoverable (purge), use the `Remove-Mailbox` cmdlet with the `PermanentlyDelete` parameter in Exchange Online PowerShell.
 
-> [WARNING!]
+> [!WARNING]
 > You can only use the `PermanentlyDelete` parameter if the mailbox is soft-deleted. This command will fail to run against an active mailbox.
 
 Occasionally, the permanent deletion can fail. This problem might arise for several reasons:

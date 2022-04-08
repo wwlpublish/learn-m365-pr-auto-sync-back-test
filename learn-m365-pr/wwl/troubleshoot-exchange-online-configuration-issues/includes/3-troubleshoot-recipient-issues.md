@@ -112,7 +112,7 @@ If your organization uses a premium version of Azure AD, you can create dynamic 
 
  If you experience problems with email delivery, review the assignment rules and, if necessary, correct any errors.
 
-> [IMPORTANT]
+> [!IMPORTANT]
 > If you make changes, remember that these updates can take up to 24 hours to be provisioned.
 
 But remember that, by default, only messages from people inside your organization can be routed to members of the DL. Ensure this setting is correctly configured.
