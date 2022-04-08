@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-exchange-online-configuration-issues.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/08/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "An administrator wants to create a resource mailbox. To which role groups does the administrator need to be assigned to perform this task?"
+    choices:
+    - content: "The Organization Management and Recipient Management role groups."
+      isCorrect: false
+      explanation: "Incorrect. The administrator needs to be assigned to only one or the other of these role groups."
+    - content: "The Security Administrator role group."
+      isCorrect: false
+      explanation: "Incorrect. This role group is not appropriate for the task."
+    - content: "The Organization Management or Recipient Management role groups."
+      isCorrect: true
+      explanation: "Correct. Being assigned to either of these role groups is appropriate."
+  - content: "An administrator wants to configure automatic email forwarding. They select the option **Automatic - System-controlled**. What is the effect of this setting?"
+    choices:
+    - content: "This setting is effectively the same as On and allows automatic external forwarding."
+      isCorrect: false
+      explanation: "Incorrect. It is not the same as the On setting."
+    - content: "This setting is a hybrid setting that allows for some automatic external forwarding."
+      isCorrect: false
+      explanation: "Incorrect. This setting is not a hybrid."
+    - content: "This setting is effectively the same as Off and prohibits automatic external forwarding."
+      isCorrect: true
+      explanation: "Correct. This setting is the default and does prohibit automatic external forwarding."
+  - content: "An administrator has just completed provisioning an Exchange Online subscription for a customer. The administrator wants to create and manage address lists using Exchange Online PowerShell but seems unable to proceed with the task. What's the likely problem?"
+    choices:
+    - content: "The administrator must use the Exchange admin center to perform the task."
+      isCorrect: false
+      explanation: "Incorrect. This issue is security-related."
+    - content: "The administrator must sign in as Global Admin."
+      isCorrect: false
+      explanation: "Incorrect. This ability is not limited to Global Admin accounts."
+    - content: "The administrator must assign the Address List role to a role group to which their account is assigned."
+      isCorrect: true
+      explanation: "Correct. By default, the Address List role isn't assigned to any role groups in Exchange Online. To use any cmdlets that require the Address List role, you must add the role to a role group."

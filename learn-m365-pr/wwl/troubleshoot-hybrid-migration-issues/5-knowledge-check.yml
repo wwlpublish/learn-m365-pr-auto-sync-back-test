@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-hybrid-migration-issues.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/08/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "You are troubleshooting mail flow in your hybrid Exchange deployment. You want find out if Exchange marked a message as originating in Exchange or incoming. Which email header should you check?"
+    choices:
+    - content: "X-MS-Exchange-Organization-AuthAs"
+      isCorrect: false
+      explanation: "That's incorrect. The X-MS-Exchange-Organization-AuthAs header records whether the message was sent by an authenticated or anonymous client."
+    - content: "X-MS-Exchange-Organization-MessageDirectionality"
+      isCorrect: true
+      explanation: "That's correct. The X-MS-Exchange-Organization-MessageDirectionality header records whether Exchange classified the email as originating within the hybrid system or incoming from an external email system."
+    - content: "Authentication-Results."
+      isCorrect: false
+      explanation: "That's incorrect. The Authentication-Results header stores the results of antispam queries against DNS records."
+  - content: "You have a hybrid Exchange deployment. You're trying to find out why Exchange Online mailboxes can't access public folders, which are stored on-premises. What value should the Get-OrganizationConfig cmdlet report for the PublicFoldersEnabled property when you run it in the Exchange Online PowerShell to enable this access?"
+    choices:
+    - content: "True."
+      isCorrect: false
+      explanation: "That's incorrect. The PublicFoldersEnabled property is not a boolean property."
+    - content: "Local."
+      isCorrect: false
+      explanation: "That's incorrect. If the PublicFoldersEnabled property is set to Local in Exchange Online, cloud mailboxes can only access public folders stored in Exchange Online."
+    - content: "Remote"
+      isCorrect: true
+      explanation: "That's correct. To enable Exchange Online users to access public folder store on-premises, the PublicFoldersEnabled property should be set to Remote."
+  - content: "You're using the Exchange Admin Center to create a new migration batch, but you receive an error when you try to create a migration endpoint. Which of the following could cause this problem?"
+    choices:
+    - content: "The data consistency score for a mailbox in the previous migration batch was poor."
+      isCorrect: false
+      explanation: "That's incorrect. A poor data consistency score might prevent the current migration completing but it doesn't cause errors when you create endpoints for subsequent batches."
+    - content: "The migration batch is larger than 5,000 mailboxes."
+      isCorrect: false
+      explanation: "That's incorrect. A large batch of mailboxes might result in a migration that lasts a long time but doesn't cause an error when you create the migration endpoint."
+    - content: "A firewall is configured to block all traffic on TCP 443."
+      isCorrect: true
+      explanation: "That's correct. The wizard can only create a migration endpoint in Exchange on-premise if it can connect to that server on TCP port 443."
