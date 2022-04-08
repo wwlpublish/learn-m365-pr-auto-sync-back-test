@@ -103,7 +103,7 @@ To find out whether this decryption is currently enabled for your organization, 
 Get-IRMConfiguration | FL JournalReportDecryptionEnabled
 ```
 
-If you don't want encrypted messages to be journaled, reconfigure the IRM configuration by using this command :
+If you don't want encrypted messages to be journaled, reconfigure the IRM configuration by using this command:
 
 ```powershell
 Set-IRMConfiguration -JournalReportDecryptionEnabled $False
