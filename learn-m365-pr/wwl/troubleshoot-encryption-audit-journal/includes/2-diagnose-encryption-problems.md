@@ -1,6 +1,6 @@
 øExchange Online has versatile features for encrypting emails to ensure that messages can only be read by the intended recipient. However, if the system is incorrectly configured, messages might not be protected, or users might be unable to open encrypted messages.
 
-In your company that helps disadvantaged youth, emails often include personal information about your clients. It's vital that this information is protected against interception by third parties, both to protect your clients privacy and identity and to comply with data protection legislation. Recently, you've noticed that some emails that contain personal data are not encrypted as you expect. Also, some emails that have been encrypted by using Secure Multipurpose Mail Extensions (S/MIME) can't be opened. You need to troubleshoot these problems as quickly as possible.
+In your company that helps disadvantaged youth, emails often include personal information about your clients. It's vital that this information is protected against interception by third parties, both to protect your client's privacy and identity and to comply with data protection legislation. Recently, you've noticed that some emails that contain personal data aren't encrypted as you expect. Also, some emails that have been encrypted by using Secure Multipurpose Mail Extensions (S/MIME) can't be opened. You need to troubleshoot these problems as quickly as possible.
 
 Here, you'll learn how to diagnose problems with messages that have been encrypted with Office Message Encryption (OME) or S/MIME.
 
@@ -49,7 +49,7 @@ Get-IRMConfiguration
 
 If OME is configured, this command will display `$True` for the `AzureRMSLicensingEnabled` property.
 
-If sensitive content is arriving at recipient mailboxes unencrypted, it might be because the mail transport rules are not correctly set up. You can view the list of transport rule in the Exchange Admin Center (EAC):
+If sensitive content is arriving at recipient mailboxes unencrypted, it might be because the mail transport rules aren't correctly set up. You can view the list of transport rule in the Exchange Admin Center (EAC):
 
 1. In the EAC, go to **Mail flow > Rules**.
 1. In the list of rules, you can see summary properties for each rule. To see full details, select the rule and then select **Edit**.
@@ -110,7 +110,7 @@ The iOS Mail client doesn't support OME and can't decrypt messages. If a user of
 
 The best way to work around this problem is to deploy Outlook for iOS to the device. Outlook has full support for OME encrypted messages.
 
-If you can't deploy Outlook but you want iOS Mail users to be able to see the contents of these messages, you can configure Exchange Online to decrypt the messages before they are sent to the iOS device.
+If you can't deploy Outlook but you want iOS Mail users to be able to see the contents of these messages, you can configure Exchange Online to decrypt the messages before they're sent to the iOS device.
 
 > [!IMPORTANT] 
 > If you enable service-side decryption of message for iOS devices, messages are no longer protected on those devices. Your sensitive data can be intercepted as it's sent over the network. Be sure that this behavior is what you want before you enable this setting.
@@ -132,7 +132,7 @@ If you're using OME with certain Microsoft 365 licenses, such as Enterprise E5, 
 - For each branding template you can specify an expiration age. Messages sent using this template can't be read after they exceed that age.
 - You can revoke messages at any time. Revoked messages are no longer readable, just like expired messages.
 
-If a user can't access a message, if might be because it is revoked or expired. To check the status of a message, you'll need to obtain its message ID, which is in this format: `<xxxxxxxxxxxxxxxxxxxxxxx@xxxxxx.xxxx.prod.outlook.com>`
+If a user can't access a message, it might be because it's revoked or expired. To check the status of a message, you'll need to obtain its message ID, which is in this format: `<xxxxxxxxxxxxxxxxxxxxxxx@xxxxxx.xxxx.prod.outlook.com>`
 
 If you know some information about the message in question, such as its send date or subject line, you can locate it by using the **Message Trace** tool in the Microsoft 365 Security and Compliance Center. Once you've traced the message, select it in the list and then select **More Information** to see the message ID.
 
@@ -150,11 +150,11 @@ Get-OMEConfiguration -Identity "Contoso expiration settings"
 
 ## Troubleshoot S/MIME in Exchange Online
 
-S/MIME is a widely used and standardized protocol that you can use to secure emails. Because it's supported by so many email clients, you can use it to send email to almost anyone in the world, even if they're not using Outlook or Exchange. If the recipient can access and trust the right certificate, they will be able to read your email in their preferred client and they won't have to browse to a separate portal.
+S/MIME is a widely used and standardized protocol that you can use to secure emails. Because it's supported by so many email clients, you can use it to send email to almost anyone in the world, even if they're not using Outlook or Exchange. If the recipient can access and trust the right certificate, they'll be able to read your email in their preferred client and they won't have to browse to a separate portal.
 
 S/MIME provides two security techniques:
 
-- **Digital Signatures.** If you digitally sign a message, the recipient can verify that it comes from you and that the content has not been altered since you signed it with your private key. The text of the message remains in plain text and can be viewed by anyone who intercepts the message.
+- **Digital Signatures.** If you digitally sign a message, the recipient can verify that it comes from you and that the content hasn't been altered since you signed it with your private key. The text of the message remains in plain text and can be viewed by anyone who intercepts the message.
 - **Encryption.** If you encrypt a message, the content is hidden from third parties. Only the intended recipient of the message, who has the correct private key to decrypt it, can read the message.
 
 Certificates underpin both these techniques. You must ensure that certificates are distributed to recipients and that those certificates are trusted by both parties.
@@ -167,9 +167,9 @@ To use S/MIME in Exchange Online requires administrators to configure:
 1. the users' client software, such as Outlook, to use S/MIME encryption or signatures.
 
 > [!NOTE]
-> It's beyond the scope of this troubleshooting module to describe the setup steps for S/MIME in Exchange Online in full. For more details see "Configure S/MIME for message signing and encryption in Exchange Online" in the Learn more section, below.
+> It's beyond the scope of this troubleshooting module to describe the setup steps for S/MIME in Exchange Online in full. For more information, see "Configure S/MIME for message signing and encryption in Exchange Online" in the Learn more section, below.
 
-If your users are not able to encrypt, sign, or decrypt S/MIME emails correctly, use the steps outlined in the following sections to diagnose the problem.
+If your users aren't able to encrypt, sign, or decrypt S/MIME emails correctly, use the steps outlined in the following sections to diagnose the problem.
 
 ### Check the email client configuration
 
@@ -201,7 +201,7 @@ You can also use the following PowerShell command to check the configuration of 
 Get-SmimeConfig
 ```
 
-If certificates are not present, check the S/MIME configuration in your Exchange Online organization. For full information, visit the **Configure S/MIME in Exchange Online** link in the **Learn more** section below.
+If certificates aren't present, check the S/MIME configuration in your Exchange Online organization. For full information, visit the **Configure S/MIME in Exchange Online** link in the **Learn more** section below.
 
 ## Learn more
 
