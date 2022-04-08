@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-hybrid-migration-issues
 metadata:
   title: Troubleshoot hybrid and migration issues
   description: "Investigate and diagnose problems in an Exchange Online and Exchange Server hybrid organization, including mail flow problems, synchronization issues, and migration failures. MS-220"
-  ms.date: 04/07/2022
+  ms.date: 04/08/2022
   author: wwlpublish
   ms.author: dawnhopper
   ms.topic: interactive-tutorial
