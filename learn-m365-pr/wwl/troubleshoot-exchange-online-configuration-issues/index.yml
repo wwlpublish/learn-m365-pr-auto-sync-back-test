@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn.wwl.troubleshoot-exchange-online-configuration-issues
+metadata:
+  title: Troubleshoot Exchange Online configuration issues
+  description: "Investigate and diagnose Exchange Online configuration issues including provisioning errors, recipient issues, address book membership, and public folder settings. MS-220"
+  ms.date: 04/08/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot Exchange Online configuration issues
+summary: Investigate and diagnose Exchange Online configuration issues including provisioning errors, recipient issues, address book membership, and public folder settings.
+abstract: |
+  After completing this module, you'll be able to:
+  - Diagnose problems that arise when provisioning recipients and other objects.
+  - Resolve issues that affect mailboxes, distribution lists, and other recipients.
+  - Ensure that address lists include all the intended recipients and only the intended recipients.
+  - Fix common problems that affect your entire organization.
+  - Ensure that users can access public folders without problems.
+prerequisites: |
+  - Experience with PowerShell and the Exchange PowerShell module.
+  - Significant experience deploying, managing, and troubleshooting Exchange environments.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- advanced
+roles:
+- support-engineer
+products:
+- azure-active-directory
+- defender-office365
+- office-exchange-server
+- office-outlook
+- office-exchange-online
+units:
+- learn.wwl.troubleshoot-exchange-online-configuration-issues.introduction
+- learn.wwl.troubleshoot-exchange-online-configuration-issues.provision-objects-without-problems
+- learn.wwl.troubleshoot-exchange-online-configuration-issues.troubleshoot-recipient-issues
+- learn.wwl.troubleshoot-exchange-online-configuration-issues.troubleshoot-address-lists-address-books
+- learn.wwl.troubleshoot-exchange-online-configuration-issues.investigate-organization-wide-settings
+- learn.wwl.troubleshoot-exchange-online-configuration-issues.troubleshoot-public-folder-issues
+- learn.wwl.troubleshoot-exchange-online-configuration-issues.knowledge-check
+- learn.wwl.troubleshoot-exchange-online-configuration-issues.summary
+badge:
+  uid: learn.wwl.troubleshoot-exchange-online-configuration-issues.badge
