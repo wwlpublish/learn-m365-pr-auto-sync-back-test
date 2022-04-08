@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-exchange-online-configuration-issues.troubleshoot-recipient-issues
+title: Troubleshoot recipient issues
+metadata:
+  title: Troubleshoot recipient issues
+  description: "Troubleshoot recipient issues"
+  ms.date: 04/08/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/3-troubleshoot-recipient-issues.md)]
