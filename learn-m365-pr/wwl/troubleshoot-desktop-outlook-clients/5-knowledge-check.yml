@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-desktop-outlook-clients.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/08/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "A user is unable to connect to their Exchange Online mailbox from their new computer. Their old computer works fine, though. The administrator tells you that the device the user is now using is non-compliant. What might be preventing the user's access to their mailbox?"
+    choices:
+    - content: "An Azure AD conditional access policy."
+      isCorrect: true
+      explanation: "Correct. Azure AD conditional access policies can stipulate that devices must be compliant for access to configured cloud apps and resources."
+    - content: "The user doesn't have an appropriate license"
+      isCorrect: false
+      explanation: "Incorrect. In this case, the user wouldn't be able to connect from their old computer either."
+    - content: "A Client Access rule."
+      isCorrect: false
+      explanation: "Incorrect. An Exchange Online Client Access Rule allows or denies access based on a client protocol and other connection characteristics. Compliance isn't one of the characteristics."
+  - content: "A user reports that they're unable to access all of their mailbox features from Outlook on the web. They can access all features of their mailbox by using Microsoft Outlook on their Windows computer. Which of the following would you check?"
+    choices:
+    - content: "Verify the Outlook on the web mailbox policies."
+      isCorrect: true
+      explanation: "Correct. These policies can be used to determine which functions are available in Outlook on the web."
+    - content: "Check for Azure AD conditional access policies."
+      isCorrect: false
+      explanation: "Incorrect. A conditional access policy is unable to determine which features are available from a specific client type."
+    - content: "Review Client Access Rules."
+      isCorrect: false
+      explanation: "Incorrect. A Client Access Rule allows or denies access based on a client protocol. It doesn't turn on or off specific features."
+  - content: "An administrator wants to review detailed logging information that relates to the mailbox for a specific user. Which Exchange Online PowerShell cmdlet should they use?"
+    choices:
+    - content: "Get-CalendarDiagnosticObjects."
+      isCorrect: false
+      explanation: "Incorrect. Although this cmdlet is useful, it focuses on calendaring diagnostics only."
+    - content: "Export-MailboxDiagnosticLogs."
+      isCorrect: true
+      explanation: "Correct. The Export-MailboxDiagnosticLogs cmdlet enables you to retrieve logging information from a user's mailbox."
+    - content: "Get-ClientAccessRule."
+      isCorrect: false
+      explanation: "Incorrect. This cmdlet enables an administrator to retrieve data about Client Access Rules."
