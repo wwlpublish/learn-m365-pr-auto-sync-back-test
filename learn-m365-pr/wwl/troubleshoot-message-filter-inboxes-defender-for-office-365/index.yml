@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-message-filter-inboxes-defender-for-office-365
 metadata:
   title: Troubleshoot message filtering in inboxes and Microsoft Defender for Office 365
   description: "Investigate and diagnose why emails are prevented from arriving at their intended destination because of inbox rules, Microsoft Defender for Office 365, spam filter policies, and other Exchange Online features. MS-220"
-  ms.date: 04/07/2022
+  ms.date: 04/08/2022
   author: wwlpublish
   ms.author: dawnhopper
   ms.topic: interactive-tutorial
