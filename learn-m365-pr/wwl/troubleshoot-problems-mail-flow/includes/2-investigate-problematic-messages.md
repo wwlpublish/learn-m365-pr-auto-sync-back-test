@@ -162,7 +162,7 @@ You can access message trace from the Exchange admin center.
     :::image type="content" source="../media/trace-1.png" alt-text="A screenshot displays the New message trace blade. The details are from the standard 'All failed messages for the last 7 days' trace.":::
 
 1. Click **Search**. Your trace runs and the results are displayed. 
-1. In the results window, select any message you want to review. The details for the message trace is displayed, as shown in the following screenshot.
+1. In the results window, select any message you want to review. The details for the message trace are displayed, as shown in the following screenshot.
 
     :::image type="content" source="../media/trace-2.png" alt-text="A screenshot of a message trace for an email that failed to deliver. The Status, Error, and How to fix it fields are visible. ":::
 
