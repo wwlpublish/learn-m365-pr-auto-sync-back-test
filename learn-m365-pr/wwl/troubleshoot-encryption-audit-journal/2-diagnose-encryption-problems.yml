@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-encryption-audit-journal.diagnose-encryption-problems
+title: Diagnose encryption problems
+metadata:
+  title: Diagnose encryption problems
+  description: "Diagnose encryption problems"
+  ms.date: 04/08/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/2-diagnose-encryption-problems.md)]
