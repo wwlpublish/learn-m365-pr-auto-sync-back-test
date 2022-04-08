@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-message-filter-inboxes-defender-for-office-365.investigate-actions-taken-by
+title: Investigate actions taken by Defender for Office 365
+metadata:
+  title: Investigate actions taken by Defender for Office 365
+  description: "Investigate actions taken by Defender for Office 365"
+  ms.date: 04/08/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-investigate-actions-taken.md)]
