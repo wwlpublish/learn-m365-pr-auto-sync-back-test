@@ -4,12 +4,13 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 07/01/2021
+  ms.date: 04/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/5-knowledge-check.md)]
@@ -20,32 +21,32 @@ quiz:
     choices:
     - content: "Multiple users or services are affected."
       isCorrect: false
-      explanation: "That's incorrect. This description defines a Sev A (Critical) issue, where one or more services aren’t accessible or are unusable. Production, operations, or deployment deadlines are severely affected, or there will be a severe impact on production or profitability. Multiple users or services are affected. Try again."
+      explanation: "Incorrect. This description defines a Sev A (Critical) issue, where one or more services aren’t accessible or are unusable. Production, operations, or deployment deadlines are severely affected, or there will be a severe impact on production or profitability. Multiple users or services are affected."
     - content: "The situation has moderate business impact and can be dealt with during business hours"
       isCorrect: true
-      explanation: "That's correct. This description defines a Sev B (High) issue, where the service is usable but in an impaired fashion. The situation has moderate business impact and can be dealt with during business hours. A single user, customer, or service is partially affected."
+      explanation: "Correct. This description defines a Sev B (High) issue, where the service is usable but in an impaired fashion. The situation has moderate business impact and can be dealt with during business hours. A single user, customer, or service is partially affected."
     - content: "The issue is important but doesn't have a significant current service or productivity impact for the customer"
       isCorrect: false
-      explanation: "That's incorrect. This description defines a Sev C (Non-Critical) issue, where the situation has minimal business impact. The issue is important but doesn't have a significant current service or productivity impact for the customer. A single user is experiencing partial disruption, but an acceptable workaround exists. Try again."
+      explanation: "Incorrect. This description defines a Sev C (Non-Critical) issue, where the situation has minimal business impact. The issue is important but doesn't have a significant current service or productivity impact for the customer. A single user is experiencing partial disruption, but an acceptable workaround exists."
   - content: "Fabrikam recently experienced a degradation in service with SharePoint Online. As Fabrikam's Enterprise Administrator, you've been monitoring the situation and want to complete an incident response plan. As the Enterprise Admin, which of the following steps should you complete to develop an incident response plan?"
     choices:
     - content: "Review for timeline checks once relevancy and degradation have been established"
       isCorrect: true
-      explanation: "That's correct. This step determines whether the service group has set a specific timeframe on when they expect the service to be in a non-degraded state. If no timeline has been set for the incident, you can submit a service request to see if there's an opening on the timeline. You should have the incident number ready and added to the service request to speed up the resolution time."
+      explanation: "Correct. This step determines whether the service group has set a specific timeframe on when they expect the service to be in a non-degraded state. If no timeline has been set for the incident, you can submit a service request to see if there's an opening on the timeline. You should have the incident number ready and added to the service request to speed up the resolution time."
     - content: "Gather and validate information related to specific service requests"
       isCorrect: false
-      explanation: "That's incorrect. This step isn't related to incident response plans. This is one of Microsoft's responsibilities when a company requests technical assistance from Microsoft. Try again."
+      explanation: "Incorrect. This step isn't related to incident response plans. This is one of Microsoft's responsibilities when a company requests technical assistance from Microsoft."
     - content: "Troubleshoot and provide technical guidance for customer issues and escalations"
       isCorrect: false
-      explanation: "That's incorrect. This step isn't related to incident response plans. This item is one of Microsoft's responsibilities when a company requests technical assistance from Microsoft. Try again."
+      explanation: "Incorrect. This step isn't related to incident response plans. This item is one of Microsoft's responsibilities when a company requests technical assistance from Microsoft."
   - content: "When monitoring your service health, what status indicates a service isn't functioning, and users can't access the service?"
     choices:
     - content: "Investigating"
       isCorrect: false
-      explanation: "That's incorrect. This status indicates that a potential service incident is under investigation. Try again."
+      explanation: "Incorrect. This status indicates that a potential service incident is under investigation."
     - content: "Service interruption"
       isCorrect: true
-      explanation: "That's correct. This status indicates the service isn't functioning, and users can't access the service."
+      explanation: "Correct. This status indicates the service isn't functioning, and users can't access the service."
     - content: "Service degradation"
       isCorrect: false
-      explanation: "That's incorrect. This status indicates the service is slow or is occasionally unresponsive for brief periods. Try again."
+      explanation: "Incorrect. This status indicates the service is slow or is occasionally unresponsive for brief periods."

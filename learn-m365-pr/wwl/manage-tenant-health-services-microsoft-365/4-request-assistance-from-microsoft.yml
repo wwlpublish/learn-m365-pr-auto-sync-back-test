@@ -4,12 +4,13 @@ title: Request assistance from Microsoft
 metadata:
   title: Request assistance from Microsoft
   description: "Request assistance from Microsoft"
-  ms.date: 07/01/2021
+  ms.date: 04/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 7
 content: |
   [!include[](includes/4-request-assistance-from-microsoft.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Address client connectivity, client software, and mobility installation issues"
       isCorrect: true
-      explanation: "That's correct. This item is part of the Enterprise Admin's responsibilities when submitting a service request."
+      explanation: "Correct. This item is part of the Enterprise Admin's responsibilities when submitting a service request."
     - content: "Troubleshoot and provide technical guidance for customer issues and escalations"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't part of the Enterprise Admin's responsibilities when submitting a service request. Try again."
+      explanation: "Incorrect. This item isn't part of the Enterprise Admin's responsibilities when submitting a service request."
     - content: "Aid with licensing, invoicing, subscription inquiries, and purchasing and trial inquiries"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't part of the Enterprise Admin's responsibilities when submitting a service request. Try again."
+      explanation: "Incorrect. This item isn't part of the Enterprise Admin's responsibilities when submitting a service request."

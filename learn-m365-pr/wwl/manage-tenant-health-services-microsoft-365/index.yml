@@ -3,18 +3,18 @@ uid: learn.wwl.manage-tenant-health-services-microsoft-365
 metadata:
   title: Manage tenant health and services in Microsoft 365
   description: "Manage tenant health and services in Microsoft 365"
-  ms.date: 07/01/2021
+  ms.date: 04/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage tenant health and services in Microsoft 365
-summary: This module examines how to monitor your organization's transition to Microsoft 365 using Microsoft 365 tools, and how to develop an incident response plan and request assistance from Microsoft.
+summary: This module examines how to monitor your organization's transition to Microsoft 365 using Microsoft 365 tools. It also examines how to develop an incident response plan and request assistance from Microsoft.
 abstract: |
-  By the end of this module, you will be able to:
-  - Monitor your organization's Microsoft 365 service health in the Microsoft 365 admin center
-  - Develop an incident response plan to deal with incidents that may occur with your Microsoft 365 service
-  - Request assistance from Microsoft to address technical, pre-sales, billing, and subscription support issues
+  By the end of this module, you'll be able to:
+  - Monitor your organization's Microsoft 365 service health in the Microsoft 365 admin center.
+  - Develop an incident response plan to deal with incidents that may occur with your Microsoft 365 service.
+  - Request assistance from Microsoft to address technical, pre-sales, billing, and subscription support issues.
 prerequisites: |
   None
 iconUrl: /learn/achievements/manage-tenant-health-and-services-in-microsoft-365.svg
@@ -25,7 +25,6 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:
