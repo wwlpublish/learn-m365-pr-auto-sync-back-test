@@ -3,19 +3,19 @@ uid: learn.wwl.plan-your-migration-to-microsoft-365
 metadata:
   title: Plan your migration to Microsoft 365
   description: "Plan your migration to Microsoft 365"
-  ms.date: 06/30/2021
+  ms.date: 04/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Plan your migration to Microsoft 365
-summary: This module examines the key steps that must be completed to move an entire organization to Microsoft 365, including when the steps should be performed and who should perform them.
+summary: This module examines the key steps that must be completed in order to move an organization to Microsoft 365.
 abstract: |
-  By the end of this module, you will be able to:
-  - Plan your organization's migration to Microsoft 365 by using the Deployment Planning Checklist
-  - Analyze your organization's Active Directory and plan any necessary clean-up using the ID Fix tool
-  - Determine which migration strategy to use to move your organization's mail, calendar, and contact information to the cloud
-  - Describe the performance and network issues to consider when planning your organization's migration strategy
+  By the end of this module, you'll be able to:
+  *   Plan your organization's migration strategy to Microsoft 365.
+  *   Analyze your organization's Active Directory and plan any necessary clean-up using the ID Fix tool.
+  *   Determine which migration strategy to use to move your organization's mail, calendar, and contact information to the cloud.
+  *   Describe the performance and network issues to consider when planning your organization's migration strategy.
 prerequisites: |
   None
 iconUrl: /learn/achievements/plan-your-migration-to-microsoft-365.svg
@@ -26,13 +26,12 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:
 - learn.wwl.plan-your-migration-to-microsoft-365.introduction
 - learn.wwl.plan-your-migration-to-microsoft-365.create-deployment-planning-checklist-for-migrating
-- learn.wwl.plan-your-migration-to-microsoft-365.clean-up-your-active-directory-before-synchronizing-it
+- learn.wwl.plan-your-migration-to-microsoft-365.plan-your-active-directory-cleanup-before-synchronizing
 - learn.wwl.plan-your-migration-to-microsoft-365.select-mail-migration-strategy-for-moving-your-mail-data-to-cloud
 - learn.wwl.plan-your-migration-to-microsoft-365.analyze-performance-considerations-for-your-mail-migration
 - learn.wwl.plan-your-migration-to-microsoft-365.analyze-network-considerations-for-your-mail-migration

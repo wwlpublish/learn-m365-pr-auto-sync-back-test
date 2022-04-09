@@ -3,7 +3,7 @@ uid: learn.wwl.configure-data-access-usage
 metadata:
   title: Configure data access and usage
   description: Configure data access and usage
-  ms.date: 03/23/2022
+  ms.date: 03/31/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -16,7 +16,6 @@ prerequisites: |
 summary: |
   In this learning path, Students will learn about file and folder permissions and configuring settings through methods such as local and group policy.
 iconUrl: /learn/achievements/generic-trophy.svg
-hidden: true
 levels:
 - beginner
 roles:

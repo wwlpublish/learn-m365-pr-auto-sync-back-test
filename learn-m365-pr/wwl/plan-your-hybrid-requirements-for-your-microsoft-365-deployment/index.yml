@@ -1,20 +1,22 @@
 ### YamlMime:Module
 uid: learn.wwl.plan-your-hybrid-requirements-for-your-microsoft-365-deployment
 metadata:
-  title: Plan your hybrid requirements for your Microsoft 365 deployment
-  description: "Plan your hybrid requirements for your Microsoft 365 deployment"
-  ms.date: 06/29/2021
+  title: Plan hybrid requirements for your Microsoft 365 deployment
+  description: "Plan hybrid requirements for your Microsoft 365 deployment"
+  ms.date: 04/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Plan your hybrid requirements for your Microsoft 365 deployment
-summary: This module examines the key areas that organizations must plan for to create hybrid environments for Exchange, SharePoint, and Skype for Business.
+title: Plan hybrid requirements for your Microsoft 365 deployment
+summary: This module examines the key areas that an organization must plan for in order to create hybrid environments for Exchange, SharePoint, and Skype for Business.
 abstract: |
-  By the end of this module, you will be able to:
-  - Identify key considerations when planning a hybrid Exchange environment and understand how your choices will affect your hybrid deployment
-  - Describe the key planning options when designing a hybrid SharePoint environment, along with the primary features of a hybrid deployment
-  - Identify the infrastructure, topology, port, and protocol requirements that are necessary to set up a hybrid Skype for Business environment
+  By the end of this module, you'll be able to:
+  *   Identify key considerations when planning a hybrid Exchange environment.
+  *   Understand how planning your choices will affect your hybrid deployment.
+  *   Describe the key planning options when designing a hybrid SharePoint environment.
+  *   Identify the primary features of a hybrid deployment.
+  *   Identify the infrastructure requirements for setting up a hybrid Skype for Business environment.
 prerequisites: ""
 iconUrl: /learn/achievements/plan-your-hybrid-requirements-for-your-microsoft-365-deployment.svg
 levels:
@@ -24,7 +26,6 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:

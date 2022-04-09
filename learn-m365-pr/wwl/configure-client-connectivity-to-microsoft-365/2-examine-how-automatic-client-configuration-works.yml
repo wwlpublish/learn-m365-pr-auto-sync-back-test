@@ -4,12 +4,13 @@ title: Examine how automatic client configuration works
 metadata:
   title: Examine how automatic client configuration works
   description: "Examine how automatic client configuration works"
-  ms.date: 07/01/2021
+  ms.date: 04/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 2
 content: |
   [!include[](includes/2-examine-how-automatic-client-configuration-works.md)]

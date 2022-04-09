@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.determine-your-cloud-identity-model
+title: Determine your cloud identity model
+metadata:
+  title: Determine your cloud identity model
+  description: "Determine your cloud identity model"
+  ms.date: 04/05/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-determine-your-cloud-identity-model.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso employs a hybrid identity model. Azure AD authenticates Contoso's remote users who access Microsoft 365 cloud services. Which of the following services authenticates Contoso's on-premises users who access Microsoft 365 cloud services?"
+    choices:
+    - content: "Active Directory Domain Services"
+      isCorrect: false
+      explanation: "Incorrect. This service doesn't authenticate on-premises users in a hybrid identity model."
+    - content: "Azure AD Connect"
+      isCorrect: false
+      explanation: "Incorrect. Azure AD Connect is a directory synchronization service. It doesn't authenticate users."
+    - content: "Azure Active Directory"
+      isCorrect: true
+      explanation: "Correct. In a hybrid identity model, both on-premises and remote users accessing Microsoft 365 cloud services authenticate against Azure AD."

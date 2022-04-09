@@ -1,0 +1,30 @@
+### YamlMime:LearningPath
+uid: learn.wwl.troubleshoot-hardware-drivers
+metadata:
+  title: Troubleshoot hardware and drivers
+  description: Troubleshoot hardware and drivers
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot hardware and drivers
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+summary: |
+  This learning path introduces hardware troubleshooting.  Students will learn about driver management and how to troubleshoot devices, system hardware and external peripherals.
+iconUrl: /learn/achievements/generic-trophy.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+modules:
+- learn.wwl.troubleshoot-device-driver-failures
+- learn.wwl.explore-physical-hardware-troubleshooting
+- learn.wwl.troubleshoot-physical-failures-windows-clients
+trophy:
+  uid: learn.wwl.troubleshoot-hardware-drivers.trophy

@@ -3,7 +3,7 @@ uid: learn-m365-office.m365-managing-troubleshooting-office
 metadata:
   title: Manage and troubleshoot common issues with Office in Windows  
   description: Learn how to manage and troubleshoot common issues with Office in Windows.
-  ms.date: 07/19/2021
+  ms.date: 04/04/2022
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
@@ -29,6 +29,7 @@ products:
 - office-365
 - windows
 - windows-19044
+- windows-10
 units:
 - learn-m365-office.m365-managing-troubleshooting-office.intro-managing-troubleshooting
 - learn-m365-office.m365-managing-troubleshooting-office.understand-update-management-options

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-connectors.introduction
+title: Bring more of your data to Microsoft Search
+metadata:
+  title: Bring more of your data to Microsoft Search
+  description: Get an overview of the benefits of Microsoft Search connectors, including Graph and Federated connectors.
+  ms.date: 04/01/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/introduction.md)]

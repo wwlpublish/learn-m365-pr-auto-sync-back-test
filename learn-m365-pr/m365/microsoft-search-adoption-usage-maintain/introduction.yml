@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-adoption-usage-maintain.introduction
+title: Increase Microsoft Search adoption, monitor usage, and maintain answers
+metadata:
+  title: Increase Microsoft Search adoption, monitor usage, and maintain answers
+  description: How to spread the word about Microsoft Search and tips to ensure content quality.
+  ms.date: 04/05/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/introduction.md)]

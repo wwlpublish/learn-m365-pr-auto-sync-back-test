@@ -23,8 +23,8 @@ As an organization decides which migration or coexistence option provides the be
      -  If there are fewer than 2000 users, the recommendation is an Exchange cutover migration.
      -  If there are 2000 or more mailboxes to migrate, then the version of Exchange Server being used determines the solution.
         
-         -  If its Exchange 2007, then staged migration is the answer.
-         -  If its Exchange 2010 or later, the organization can implement a full or minimal hybrid configuration to migrate its mailboxes.
+         -  With Exchange 2007, staged migration is the answer.
+         -  With Exchange 2010 or later, the organization can implement a full or minimal hybrid configuration to migrate its mailboxes.
  -  **IMAP connections**. If IMAP is or can be made available as a protocol to connect to the existing email system, an IMAP migration is possible. However, if IMAP isn't available on non-Exchange Server systems, migration must be PST-based or use a third-party tool.
  -  **POP3 connections.** If the third-party email system only provides POP3 protocol over which users connect to their mailboxes, the only migration options are to use a third-party migration tool.
 
@@ -37,7 +37,7 @@ Depending on the migration option an organization selects to migrate its message
  -  **Cutover migration.** If running a cutover migration, it's important to change the DNS MX record before the final synchronization run. Changing the MX record ensures that no mail will be routed to the on-premises Exchange server after the mailbox migration is complete. An organization must also be aware of the TTL of its DNS MX record. While it may have a high TTL of 24 hours, for migration purposes it's recommended to set the TTL of the DNS MX record to 60 minutes when starting the migration to help to propagate the change much faster.
  -  **Staged migration.** Because Azure AD Connect synchronizes an organization's Active Directory to Microsoft 365, the DNS MX record must point to the on-premises environment during the migration. Don't change the DNS MX record to point to Microsoft 365 until all the migration batches are complete.
  -  **Full or Minimal hybrid configuration.** Because the Hybrid Configuration Wizard configures the mail flow to be seamless between Exchange on-premises and Exchange Online, an organization can decide when to switch the DNS MX record to Microsoft 365. This switch usually occurs once most of the mailboxes have been migrated. However, an organization may have reasons to switch earlier. For example, it may want to use Exchange Online Protection to scan messages on its on-premises servers. Conversely, it may determine that it shouldn't switch the DNS MX record. For example, it may have a required third-party mail archiving system on-premises.
- -  **IMAP migration.** Using this method, an organization can pre-stage its mailboxes in Microsoft 365 and synchronize mail between the two systems. Once the mail is synchronized and the organization is ready to make the switch, it should change the DNS MX records to point towards Microsoft 365. After making this change, it must wait for the change to propagate and then stop the synchronization.
+ -  **IMAP migration.** When an organization uses this method, it can pre-stage its mailboxes in Microsoft 365 and synchronize mail between the two systems. Once the mail is synchronized and the organization is ready to make the switch, it should change the DNS MX records to point towards Microsoft 365. After an organization makes this change, it must wait for the change to propagate and then stop the synchronization.
 
 ## Knowledge check
 

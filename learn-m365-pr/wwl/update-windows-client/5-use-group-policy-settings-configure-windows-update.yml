@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.update-windows-client.use-group-policy-settings-configure-windows-update
+title: Use Group Policy settings to configure Windows Update
+metadata:
+  title: Use Group Policy settings to configure Windows Update
+  description: "Use Group Policy settings to configure Windows Update"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-use-group-policy-settings-configure-windows-update.md)]

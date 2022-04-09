@@ -1,0 +1,41 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-issues-mobile-devices.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/08/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "An administrator suspects that a user's mailbox isn't configured to allow Exchange ActiveSync access to their mailbox. The administrator decides to change the settings. Which cmdlet should the administrator use?"
+    choices:
+    - content: "Set-ActiveSyncDeviceAccessRule"
+      isCorrect: false
+      explanation: "Incorrect. This cmdlet is used to make changes to Device Access Rules. These rules might impact a user's ability to use ActiveSync, however, that's not a mailbox setting."
+    - content: "Get-MobileDeviceMailboxPolicy"
+      isCorrect: false
+      explanation: "Incorrect. This cmdlet is used to retrieve details about a mailbox policy. Mobile device mailbox policies are used to secure your users' devices when connecting to Exchange Online."
+    - content: "Set-CASMailbox"
+      isCorrect: true
+      explanation: "Correct. This cmdlet enables an administrator to enable or disable specific email apps, such as ActiveSync."
+  - content: "Which of the following can prevent a specific user from connecting to Exchange Online using ActiveSync?"
+    choices:
+    - content: "Azure AD Conditional Access policy."
+      isCorrect: true
+      explanation: "Correct. Policy access controls can stipulate factors such as whether a specific device is compliant, using an approved app, or an app protected by a policy. This setting can impact one or many devices."
+    - content: "Mobile device mailbox policies."
+      isCorrect: false
+      explanation: "Incorrect. You configure mobile device mailbox policies to secure your users' devices when connecting to Exchange Online."
+    - content: "Device Access Rules."
+      isCorrect: false
+      explanation: "Incorrect. These rules are used to limit device connectivity by platform for all users rather than specific user device."

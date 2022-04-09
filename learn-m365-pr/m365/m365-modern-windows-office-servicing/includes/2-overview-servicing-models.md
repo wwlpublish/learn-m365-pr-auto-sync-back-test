@@ -1,6 +1,6 @@
-![step 7 highlighted on deployment wheel](../media/step-7-wheel.png)
+:::image type="content" source="../media/step-7-wheel.png" alt-text="Step 7 highlighted on deployment wheel." border="false":::
 
-![step 7 icon](../media/step-7-icon.png)
+:::image type="icon" source="../media/step-7-icon.png" :::
 
 Windows servicing updates fall into two main categories: **feature updates** and **quality and security updates**, which contain cumulative security, reliability, and bug fixes.
 
@@ -27,6 +27,6 @@ With the cumulative model, your PCs are always one update away from being curren
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE44DnU) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/guides/Discover%20servicing%20options%20for%20Windows%2010">![Discover servicing options for Windows 10](../media/lab-servicing-options.png)</a>  
+[:::image type="content" source="../media/lab-servicing-options.png" alt-text="Discover servicing options for Windows 10." border="false":::](https://mslearn.cloudguides.com/guides/Discover%20servicing%20options%20for%20Windows%2010)
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.

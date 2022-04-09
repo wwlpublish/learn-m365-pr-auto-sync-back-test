@@ -4,48 +4,49 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/30/2021
+  ms.date: 04/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/6-knowledge-check.md)]
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Contoso, you manage the company's Microsoft 365 tenant. You must add a DNS record for Exchange Online that will be used by Outlook clients to locate the Autodiscover service in Microsoft 365? Which DNS record type should you create?"
+  - content: "As the Enterprise Administrator for Contoso, you manage the company's Microsoft 365 tenant. You must add a DNS record for Exchange Online that will be used by Outlook clients to locate the Autodiscover service in Microsoft 365. Which DNS record type should you create?"
     choices:
     - content: "CNAME"
       isCorrect: true
-      explanation: "That's correct. Outlook clients use this record to locate the Autodiscover service in Microsoft 365."
+      explanation: "Correct. Outlook clients use the CNAME record to locate the Autodiscover service in Microsoft 365."
     - content: "MX"
       isCorrect: false
-      explanation: "That's incorrect. This record is a requirement for SMTP communication between Exchange Online in Microsoft 365 and mail servers on the Internet. Try again."
+      explanation: "Incorrect. The MX record is a requirement for SMTP communication between Exchange Online in Microsoft 365 and mail servers on the Internet."
     - content: "TXT"
       isCorrect: false
-      explanation: "That's incorrect. This record is a requirement for Sender Policy Framework (SPF) anti-spam protection and for organizations that use federation. Try again."
-  - content: "As the Enterprise Administrator for Contoso, you manage the company's Microsoft 365 tenant. You have a custom domain that you want to add to Microsoft 365. However, because the IT team had several key members quit over the past year, you're not sure if one of those former employees registered the domain using their personal information. How can you find out who registered the domain?"
+      explanation: "Incorrect. The TXT record is a requirement for Sender Policy Framework (SPF) anti-spam protection and for organizations that use federation."
+  - content: "As the Enterprise Administrator for Contoso, you manage the company's Microsoft 365 tenant. You have a custom domain that you want to add to Microsoft 365. However, Contoso's IT team had several key members quit over the past year. You're not sure if one of those former employees registered the domain using their personal information. How can you find out who registered the domain?"
     choices:
     - content: "Contact any of the top 10 domain name registrars"
       isCorrect: false
-      explanation: "That's incorrect. This action won't help you find out who registered the domain. Try again."
+      explanation: "Incorrect. This action won't help you find out who registered the domain."
     - content: "Contact any of the top 10 DNS hosting providers"
       isCorrect: false
-      explanation: "That's incorrect. This action won't help you find out who registered the domain. Try again."
+      explanation: "Incorrect. This action won't help you find out who registered the domain."
     - content: "Check the WHOIS record for that domain by using an Internet WHOIS register"
       isCorrect: true
-      explanation: "That's correct. Check the WHOIS record for that domain by using an Internet WHOIS register, such as who.is."
-  - content: "Fabrikam has a Microsoft 365 Business Premium subscription. The company recently purchased a new subsidiary that will be named Fabrikam Residences. As Fabrikam's Enterprise Administrator, you want to add a custom domain titled fabrikamresidences.com for the new subsidiary. You also want to register a subdomain titled content.fabrikamresidences.com that will be under the fabrikamresidences.com root domain. What should you do to add these two domains to your Microsoft 365 Business Premium subscription?"
+      explanation: "Correct. Check the WHOIS record for that domain by using an Internet WHOIS register, such as who.is."
+  - content: "Fabrikam has a Microsoft 365 Business Premium subscription. The company recently purchased a new subsidiary that will be named Fabrikam Residences. As Fabrikam's Enterprise Administrator, you want to add a custom domain titled fabrikamresidences.com for the new subsidiary. You also want to register a subdomain titled content.fabrikamresidences.com. This subdomain will be under the fabrikamresidences.com root domain. What should you do to add these two domains to your Microsoft 365 Business Premium subscription?"
     choices:
     - content: "Register the subdomain first and then register the root domain"
       isCorrect: false
-      explanation: "That's incorrect. This action won't add these two domains to your Microsoft 365 Business Premium subscription. Try again."
+      explanation: "Incorrect. This action won't add these two domains to your Microsoft 365 Business Premium subscription."
     - content: "Register the root domain first and then register the subdomain"
       isCorrect: true
-      explanation: "That's correct. Root domains must be added before subdomains. So fabrikamresidences.com must be registered before you add content.fabrikamresidences.com."
+      explanation: "Correct. Root domains must be added before subdomains. So fabrikamresidences.com must be registered before you add content.fabrikamresidences.com."
     - content: "Microsoft 365 Business Premium doesn't support subdomains. Fabrikam must upgrade to Microsoft 365 Enterprise before it can register a subdomain under a root domain"
       isCorrect: false
-      explanation: "That's incorrect. Both Microsoft 365 Business Premium and Enterprise plans enable you to add subdomains under a root domain. Try again."
+      explanation: "Incorrect. Both Microsoft 365 Business Premium and Enterprise plans enable you to add subdomains under a root domain."

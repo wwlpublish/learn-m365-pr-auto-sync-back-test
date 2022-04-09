@@ -42,7 +42,7 @@ The following requirements must be met before you can set up an HR connector:
 
 ### Data leaks template
 
-Insider risk management supports using DLP policies to help identify the intentional or accidental exposure of sensitive information to unwanted parties. When configuring an insider risk management policy with the Data leaks template, you have to assign a specific DLP policy.  This policy helps drive the alert indicators for sensitive information and is an important part of configuring full risk management coverage in your organization.
+Insider risk management supports using DLP policies to help identify the intentional or accidental exposure of sensitive information to unwanted parties. When configuring an insider risk management policy with the Data leaks template, you have to assign a specific DLP policy. This policy helps drive the alert indicators for sensitive information and is an important part of configuring full risk management coverage in your organization.
 
 > [!NOTE]
 > To reduce noise, alerts will only fire when a high volume DLP policy qualifying event is triggered. For example, an alert will fire if the policy detects 10 or more credit card numbers in an email or document, but not less. See the [Create, test, and tune a DLP policy](/microsoft-365/compliance/create-test-tune-dlp-policy?azure-portal=true) topic to learn how to configure DLP policies for your organization.

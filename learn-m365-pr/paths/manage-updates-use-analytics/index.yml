@@ -1,0 +1,35 @@
+### YamlMime:LearningPath
+uid: learn.wwl.manage-updates-use-analytics
+metadata:
+  title: Manage updates and use analytics
+  description: Manage updates and use analytics
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage updates and use analytics
+prerequisites: |
+  Students should have:
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+summary: |
+  Introduces the servicing options for Windows clients. Students will learn the different methods for deploying updates and how to configure windows update policies. Use Analytics to plan update strategies and monitor the reliability of devices.
+iconUrl: /learn/achievements/generic-trophy.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+modules:
+- learn.wwl.update-windows-client
+- learn.wwl.update-clients-use-windows-update-business
+- learn.wwl.explore-desktop-analytics
+- learn.wwl.explore-endpoint-analytics
+trophy:
+  uid: learn.wwl.manage-updates-use-analytics.trophy

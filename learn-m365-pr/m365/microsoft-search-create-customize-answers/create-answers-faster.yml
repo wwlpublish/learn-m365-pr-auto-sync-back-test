@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-create-customize-answers.create-answers-faster
+title: Create answers faster
+metadata:
+  title: Create answers faster
+  description: Find out how to bulk create answers and how the content creator extension can make it easier to add answers from existing content.
+  ms.date: 03/30/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/create-answers-faster.md)]

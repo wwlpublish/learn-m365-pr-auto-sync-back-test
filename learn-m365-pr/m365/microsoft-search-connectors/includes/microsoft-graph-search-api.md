@@ -1,0 +1,3 @@
+Create custom connectors or add work or school search to your internal apps with the Microsoft Search API in Microsoft Graph. Your users will get the same personalized, relevant results and the experience will be consistent with other Microsoft Search entry points, like SharePoint and Bing. Use the API to query and retrieve data in the Microsoft cloud—including content in Outlook, OneDrive, and SharePoint—that's been indexed as part of Microsoft Search, as well as content you've added to your search index using a Graph connector.
+
+For more information, see [Overview of the Microsoft Search API in Microsoft Graph](/graph/search-concept-overview).
