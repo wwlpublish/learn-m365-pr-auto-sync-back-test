@@ -1,257 +1,12 @@
 In Microsoft 365, administrator roles are used to assign specific administrative functions to users. Each admin role maps to common business functions and gives people permissions to do specific tasks in the Microsoft 365 admin center. Admin roles can be managed in Microsoft 365 using the Microsoft 365 admin center or Windows PowerShell.
 
-The following table describes several of the key admin roles that are available in the Microsoft 365 admin center. The table also provides typical scenarios for when these roles should be assigned to users.
-
-:::row:::
-  :::column:::
-    
-
-**Administrator role**
-
-
-  :::column-end:::
-  :::column:::
-    
-
-**Description**
-
-
-  :::column-end:::
-  :::column:::
-    
-
-**When to use**
-
-
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    
-
-Global Administrator
-
-
-  :::column-end:::
-  :::column:::
-    
-
-This role is the ultimate administrator and includes access to all administrative features in Microsoft 365. It's also the only admin role who can assign other admin roles.
-
-
-  :::column-end:::
-  :::column:::
-    
-
-It's recommended to only have a limited number of global administrators to reduce the risk to your business.
-
-
-By default, the person who signs up to buy Microsoft 365 becomes a global admin.
-
-
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    
-
-Billing Administrator
-
-
-  :::column-end:::
-  :::column:::
-    
-
-Makes purchases, manages subscriptions, manages support tickets, and monitors service health.
-
-
-  :::column-end:::
-  :::column:::
-    
-
-Ideal for users of your purchasing department that manage Microsoft 365 licenses.
-
-
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    
-
-Dynamics 365 Service Administrator
-
-
-  :::column-end:::
-  :::column:::
-    
-
-This role can manage instances in the Dynamics 365 admin center and assign users to manage Dynamics 365 at the tenant level.
-
-
-  :::column-end:::
-  :::column:::
-    
-
-Used if you must configure and manage Dynamics 365.
-
-
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    
-
-Exchange Service Administrator
-
-
-  :::column-end:::
-  :::column:::
-    
-
-Manages mailboxes and anti-spam policies for your business, using the Exchange admin center. Can view all the activity reports in the Microsoft 365 admin center.
-
-
-  :::column-end:::
-  :::column:::
-    
-
-Used if you must manage mailbox-related settings and attributes such as mailbox size or mail flow connectors.
-
-
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    
-
-Helpdesk Administrator
-
-
-  :::column-end:::
-  :::column:::
-    
-
-Resets passwords, manages service requests, and monitors service health. Helpdesk admins are limited to resetting passwords for users only. They can't reset passwords for anyone with an administrator role.
-
-
-  :::column-end:::
-  :::column:::
-    
-
-For administrators that must reset passwords or manage service requests.
-
-
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    
-
-Power BI Administrator
-
-
-  :::column-end:::
-  :::column:::
-    
-
-The Power BI admin role will have access to Microsoft 365 Power BI usage metrics. People assigned this role can control the organization's usage of Power BI features.
-
-
-  :::column-end:::
-  :::column:::
-    
-
-For administrators who want to manage Power BI.
-
-
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    
-
-Service Support Administrator
-
-
-  :::column-end:::
-  :::column:::
-    
-
-Can open support requests with Microsoft and views the service dashboard and message center.
-
-
-They have “view only” permissions except for opening support tickets and reading them.
-
-
-  :::column-end:::
-  :::column:::
-    
-
-This role is ideal for first or second-level support staff that manages Microsoft 365 problems and incidents.
-
-
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    
-
-SharePoint Service Administrator
-
-
-  :::column-end:::
-  :::column:::
-    
-
-Manages the document storage for your business using the SharePoint admin center in SharePoint Online. They can also assign other people to be Site Collection administrators and Term Store administrators.
-
-
-People assigned this role can also view all the activity reports in the Microsoft 365 admin center.
-
-
-  :::column-end:::
-  :::column:::
-    
-
-For administrators who must manage SharePoint Online.
-
-
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    
-
-User Management Administrator
-
-
-  :::column-end:::
-  :::column:::
-    
-
-Resets passwords, monitors service health, adds and deletes user accounts, and manages service requests. The user management admin can’t delete a global admin, create other admin roles, or reset passwords for global, billing, Exchange, SharePoint, Compliance, and Skype for Business admins.
-
-
-  :::column-end:::
-  :::column:::
-    
-
-Good for user helpdesk personnel that manage user-related issues.
-
-
-  :::column-end:::
-:::row-end:::
-
-
-Individual service administrators can administer their services on the highest level, while the Global admin role simply includes all these service admin roles. This relationship is shown in the following diagram.
+Individual service administrators can administer their services on the highest level, while the Global admin role simply includes all these service admin roles. This relationship is shown in the following diagram.<br>
 
 > [!NOTE]
-> All service admin roles are included in the Global admin role, not just the four service admin roles shown here. This diagram simply illustrates the relationship between the service admin roles and the Global admin role.
+> All service admin roles are included in the Global admin role, not just the four service admin roles shown here. The following diagram illustrates the relationship between the service admin roles and the Global admin role.
 
 :::image type="content" source="../media/global-admin-role-relationships-e0920e52.jpg" alt-text="diagram shows how the Global admin role includes all the service admin roles":::
 
-
-Additional admin roles such as Compliance Administrator and Company Administrator are available but are managed using either the Security &amp; Compliance admin center or Windows PowerShell. A list of all available admin roles is available by running the **Get-MsolRole** cmdlet in Windows PowerShell.
 
 ### Assign admin roles in Microsoft 365
 
@@ -272,20 +27,90 @@ To assign admin roles in Microsoft 365 admin center, you must sign in using a Gl
 5.  In the **Alternative email address** field, you can type an email address that isn't connected to Microsoft 365. This email address is used for important notifications, including resetting your admin password.
 6.  To close the **Edit user roles** page, select **Save**.
 
-To use Windows PowerShell to assign admin roles to users, you must first use the **Get-MsolRole** cmdlet to find out the internal admin role name that you want to assign.
+### Assign admin roles in Windows PowerShell
 
-You'll then use the **Add-MsolRoleMember** cmdlet to assign that role to a user. For example, the following cmdlet adds the user Holly Spencer to the Exchange administrator role for Contoso:
+Azure Active Directory PowerShell for Graph (Azure AD PowerShell) is the module IT Pros commonly use to manage their Azure Active Directory, including admin role assignments and maintenance. You should install the AzuerAD module and then connect to it.
+
+There's two pieces of data that are required to assign an admin role to a user:<br>
+
+ -  The object ID of the user.
+ -  The object ID of the role.
+
+Once you know this information, you can then use the **Add-AzureADDirectoryRoleMember** cmdlet to assign a user to an admin role.
+
+```powershell
+Add-AzureADDirectoryRoleMember -ObjectID <ObjectID of the role> -RefObjectId <ObjectID of the user>
+```
+
+You must use the **Get-AzureADUser** cmdlet to display the ObjectID of the user that you want to assign the role to. For example, you would run the following command to retrieve the ObjectID for Patti Fernandez:<br>
+
+```powershell
+Get-AzureADUser -ObjectID "PattF@contoso.com"
+```
+
+To retrieve the ObjectID of the role, it's important to note that Azure AD PowerShell only displays the admin roles that are "enabled". In other words, the role must either be flagged as enabled (if it has no users assigned to it), or it must have at least one active user assignment. To view the enabled roles, run the **Get-AzureADDirectoryrole** cmdlet.
+
+If the role you want to assign appears in this list, then you can add the enabled role to a user account. However, if the role isn't enabled (it doesn't appear in the list), then you must first enable it before assigning it to a user. Each of these scenarios is covered in the following sections.
+
+#### Add an enabled admin role to a user
+
+Let's assume you want to assign Patti Fernandez to the Helpdesk Administrator role. When you ran the **Get-AzureADDirectoryRole** cmdlet, let's further assume the role appeared in the list of enabled roles.
+
+You can copy the ObjectID for this role and paste it into the **Add-AzureADDirectoryRoleMember** command. Let's assume the ObjectID of the Helpdesk Administrator role in this fictitious scenario is 729827c3-9c14-49f7-bb1b-9608-f156-bbb8.
+
+Similarly, can you copy and paste in the ObjectId for Patti Fernandez's user account after you ran the **Get-AzureADUser** command. In this example, the ObjectID for Patti's user account is a4a9ed46-369c-4b69-9e47-d2ac6029485d.
+
+You would then enter the following command and paste in each of the ObjectId's to assign Patti to the Helpdesk Administrator role:
 
 ```
-Add-MsolRoleMember -RoleName "Exchange Service Administrator" -RoleMemberEmailAddress "HollyS@contoso.com”
-
+Add-AzureADDirectoryRoleMember -ObjectID "729827c3-9c14-49f7-bb1b-9608-f156-bbb8" -RefObjectId "a4a9ed46-369c-4b69-9e47-d2ac6029485d"
 ```
 
-> [!CAUTION]
-> For some roles, the internal role name is different from the role name displayed in the Microsoft 365 admin center. That's why you should first use the **Get-MsolRole** cmdlet to find out the "official", internal role name when using PowerShell to assign roles to user accounts. If you use a role name that appears in the admin center, the **Add-MsolRoleMember** command will fail if the internal role name is different.
+#### Enable an admin account and then add it to a user
 
-## **Exercise – Interactive demonstration**
+In this scenario, let's assume the Helpdesk Administrator role didn't appear in the list of enabled roles when you ran the **Get-AzureADDirectoryRole** cmdlet. In this event, you should first run the following series of PowerShell commands to enable the Helpdesk Administrator role:
 
-Select the following link to complete an interactive demonstration titled: [Assign delegated administrators with Windows PowerShell](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M3-L2-E1-T2/index.html?azure-portal=true).
+```powershell
+# Run the following four steps to enable the Helpdesk Administrator role.
 
-This simulation guides you through using Windows PowerShell to assign roles in Microsoft 365 and to show which users are assigned to specific roles.
+# Step 1 - Run the Get-AzureADDirectoryRoleTemplate command to display the list of templates for all Azure AD roles. You'll enable the Helpdesk Administrator role from the Helpdesk Administrator role template.
+Get-AzureADDirectoryRoleTemplate
+
+ObjectId                            DisplayName              Description
+--------                            -----------              -----------
+f023fd81-a637-4b56-95fd-791ac0226033 Global Administrator    Can manage all aspects of Azure AD and Microsoft services that use Azure AD identities.
+b0f54661-2d74-4c50-afa3-1ec803f12efe Billing Administrator   Can perform common billing related tasks like payment information.
+75941009-915a-4869-abe7-691bff18279e Guest user              Default role for guest users. Can read a limited set of directory information.
+d65e02d2-0214-4674-8e5d-766fb330e2c0 User Administrator      Can manage all aspects of users and groups, including resetting passwords for limited admins.
+d405c6df-0af8-4e3b-95e4-4d06e542189e Exchange Administrator  Can manage all aspect of the Exchange product.
+95e79109-95c0-4d8e-aee3-d01accf2d47b Helpdesk Administrator  Can reset passwords for non-administrators and Helpdesk Administrators.
+and so on...
+
+# Step 2 - Retrieve the Role Template object for the Helpdesk Administrator role in the $HelpdeskRole variable.
+$HelpdeskRole = Get-AzureADDirectoryRoleTemplate | Where-Object {$_.DisplayName -eq "Helpdesk Administrator"}
+
+# Step 3 - Display the contents of the $HelpdeskRole variable to verify you found the correct role template.
+$HelpdeskRole
+
+ObjectId                            DisplayName              Description
+--------                            -----------              -----------
+95e79109-95c0-4d8e-aee3-d01accf2d47b Helpdesk Administrator  Can reset passwords for non-administrators and Helpdesk Administrators.
+
+# Step 4 - Enable the directory role that's based on the Helpdesk Administrator role template that's in the $HelpdeskRole variable.
+Enable-AzureADDirectoryRole -RoleTemplateId $HelpdeskRole.ObjectId
+
+ObjectId                            DisplayName              Description
+--------                            -----------              -----------
+03618579-3c16-4765-9539-86d9163ee3d9 Helpdesk Administrator  Can reset passwords for non-administrators and Helpdesk Administrators.
+```
+
+When you run the **Enable-AzureADDirectoryRole** command in step 4, it enables the role and displays its ObjectID. You'll copy and paste this ObjectID into the **Add-AzureADDirectoryRoleMember** command. In this example, the ObjectID for the newly enabled role is 03618579-3c16-4765-9539-86d9163ee3d9.<br>
+
+Similarly, can you copy and paste in the ObjectId for Patti Fernandez's user account after you ran the **Get-AzureADUser** command. In this example, the ObjectID for Patti's user account is a4a9ed46-369c-4b69-9e47-d2ac6029485d.
+
+You would then enter the following command and paste in each of the Object IDs to assign Patti to the Helpdesk Administrator role:
+
+```powershell
+
+Add-AzureADDirectoryRoleMember -ObjectID "03618579-3c16-4765-9539-86d9163ee3d9" -RefObjectId "a4a9ed46-369c-4b69-9e47-d2ac6029485d"
+```

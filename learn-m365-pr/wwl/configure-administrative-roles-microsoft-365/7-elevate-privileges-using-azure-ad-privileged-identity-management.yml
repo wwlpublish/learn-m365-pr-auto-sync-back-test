@@ -4,7 +4,7 @@ title: Elevate privileges using Azure AD Privileged Identity Management
 metadata:
   title: Elevate privileges using Azure AD Privileged Identity Management
   description: "Elevate privileges using Azure AD Privileged Identity Management"
-  ms.date: 03/29/2022
+  ms.date: 04/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -13,7 +13,7 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 5
 content: |
-  [!include[](includes/6-elevate-privileges-using-azure-ad-privileged-identity-management.md)]
+  [!include[](includes/7-elevate-privileges-using-azure-ad-privileged-identity-management.md)]
 quiz:
   title: "Check your knowledge"
   questions:
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "The Global Admin must assign an eligible user standing admin access to become an active admin"
       isCorrect: false
-      explanation: "That's incorrect. This item doesn't describe how a user can become an eligible admin. Try again."
+      explanation: "Incorrect. This item doesn't describe how a user can become an eligible admin."
     - content: "An eligible user must sign up to become an active admin for a specific date"
       isCorrect: false
-      explanation: "That's incorrect. This item doesn't describe how a user can become an eligible admin. Try again."
+      explanation: "Incorrect. This item doesn't describe how a user can become an eligible admin."
     - content: "A user with an inactive role must complete an activation process to activate the role for a predetermined amount of time"
       isCorrect: true
-      explanation: "That's correct. Eligible admins are users that need privileged access periodically, but not all-day, every day. The role is inactive until the user needs access. At that point, the user must complete an activation process to become an active admin for a predetermined amount of time."
+      explanation: "Correct. Eligible admins are users that need privileged access periodically, but not all-day, every day. The role is inactive until the user needs access. At that point, the user must complete an activation process to become an active admin for a predetermined amount of time."
