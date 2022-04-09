@@ -6,7 +6,9 @@ metadata:
   description: "Explore the Microsoft 365 admin roles"
   ms.date: 04/09/2022
   author: wwlpublish
+  ms.author: tfrink
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 azureSandbox: false
 labModal: false
 durationInMinutes: 3
