@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-microsoft-365-apps-for-enterprise.deploy-microsoft-365-apps-from-cloud
+title: Deploy Microsoft 365 Apps for enterprise from the cloud
+metadata:
+  title: Deploy Microsoft 365 Apps for enterprise from the cloud
+  description: "Deploy Microsoft 365 Apps for enterprise from the cloud"
+  ms.date: 04/09/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/6-deploy-microsoft-365-apps-from-cloud.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Fabrikam, you're planning the deployment of Microsoft 365 Apps for enterprise throughout the organization. You want to perform a centralized deployment of Microsoft 365 Apps for enterprise that installs the 64-bit English and German version of Office without Access and Publisher and with the EULA automatically accepted. Which of the following steps should you do as part of the deployment process to create this customized installation of Microsoft 365 Apps for enterprise?"
+    choices:
+    - content: "Customize the configuration.xml file using the Office Deployment Tool"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't one of the steps that you should do to create a customized installation of Microsoft 365 Apps for enterprise."
+    - content: "Customize the configuration.xml file using the Office Customization Tool"
+      isCorrect: true
+      explanation: "Correct. You must first customize the configuration.xml file using the Office Customization Tool. When you're done, the configuration file can be exported and then used with the Office Deployment Tool to deploy Microsoft 365 Apps for enterprise in your organization."
+    - content: "Run the Office Deployment Tool and respond to the user prompts to define your customized settings"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't one of the steps that you should do to create a customized installation of Microsoft 365 Apps for enterprise."

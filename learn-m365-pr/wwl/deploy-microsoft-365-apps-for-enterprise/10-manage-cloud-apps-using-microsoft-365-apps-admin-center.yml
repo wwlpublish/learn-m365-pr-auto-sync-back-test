@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-microsoft-365-apps-for-enterprise.manage-cloud-apps-using-microsoft-365-apps-admin-center
+title: Manage your cloud apps using the Microsoft 365 Apps admin center
+metadata:
+  title: Manage your cloud apps using the Microsoft 365 Apps admin center
+  description: "Manage your cloud apps using the Microsoft 365 Apps admin center"
+  ms.date: 04/09/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/10-manage-cloud-apps-using-microsoft-365-apps-admin-center.md)]

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-microsoft-365-apps-for-enterprise.deploy-microsoft-365-apps-with-endpoint-configuration-manager
+title: Deploy Microsoft 365 Apps for enterprise with Microsoft Endpoint Configuration Manager
+metadata:
+  title: Deploy Microsoft 365 Apps for enterprise with Microsoft Endpoint Configuration Manager
+  description: "Deploy Microsoft 365 Apps for enterprise with Microsoft Endpoint Configuration Manager"
+  ms.date: 04/09/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-deploy-microsoft-365-apps-with-endpoint-configuration-manager.md)]
