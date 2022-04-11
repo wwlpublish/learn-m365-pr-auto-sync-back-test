@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-encryption-audit-journal.troubleshoot-journaling
+title: Troubleshoot journaling
+metadata:
+  title: Troubleshoot journaling
+  description: "Troubleshoot journaling"
+  ms.date: 04/08/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/4-troubleshoot-journal.md)]
