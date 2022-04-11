@@ -106,7 +106,7 @@ Exchange admins can also:
 \- Recover deleted items in a user's mailbox.
 \- Determine how long deleted email should be retained before it's permanently deleted.
 \- Set up mailbox features such as the mailbox sharing policy, which determines how users can share calendar and contacts information with others outside of your organization.
-\- Set up Send As and Send on Behalf delegates for someone's mailbox; for example, when an executive wants their assistant to have permission to send mail on the executive's behalf.
+\- Set up, Send As, and Send on Behalf delegates for someone's mailbox; for example, when an executive wants their assistant to have permission to send mail on the executive's behalf.
 \- Create shared mailboxes so a group of people can monitor and send email from a common email address.
 \- Set up anti-spam and malware filters for the organization.
 \- Manage Microsoft 365 Groups.When the Exchange Administrator role is assigned to a user, it's recommended that they also be assigned the Service Administrator role. This way they can see important information in the Microsoft 365 admin center, such as the health of the Exchange Online service, and change and release notifications.
