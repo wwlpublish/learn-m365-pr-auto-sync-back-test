@@ -17,9 +17,7 @@ abstract: |
     - "TODO learning objective 2"
     - "TODO learning objective 3"
 prerequisites: |
-  - "TODO prerequisite 1"
-  - "TODO prerequisite 2"
-  - "TODO prerequisite 3
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
   - beginner
