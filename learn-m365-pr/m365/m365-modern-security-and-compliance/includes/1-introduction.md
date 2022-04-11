@@ -4,7 +4,7 @@ Before detailing the new capabilities and connecting those experiences to the cl
 
 **Disk encryption.** One of the initial challenges during desktop deployment is hard disk encryption. Many hard disk encryption solutions cannot easily be upgraded from a previous version to a newer version of Windows.
 
-With some disk encryption solutions, let you can use the **/reflectdrivers** option with Windows Setup to upgrade certain platform versions; with others you have to unencrypt the drive before deployment and then re-encrypt after you install Windows 10. Some solutions don't let you move from a master boot record (MBR), using legacy BIOS, to a GUID partition table (GPT), required for UEFI. This is important because the 64-bit version of Windows 10 with UEFI is required for the new virtualization-based security capabilities in Windows 10.
+With some disk encryption solutions, you can use the **/reflectdrivers** option with Windows Setup to upgrade certain platform versions; with others you have to unencrypt the drive before deployment and then re-encrypt after you install Windows 10. Some solutions don't let you move from a master boot record (MBR), using legacy BIOS, to a GUID partition table (GPT), required for UEFI. This is important because the 64-bit version of Windows 10 with UEFI is required for the new virtualization-based security capabilities in Windows 10.
 
 One option for resolving these issues is using BitLocker, which is included in Windows 10 Pro and higher editions. With BitLocker, you can suspend protection for OS upgrades and feature updates as part of the process.
 
