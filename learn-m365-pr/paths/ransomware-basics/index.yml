@@ -23,5 +23,6 @@ products:
 modules:
 - learn-m365.ransomware-extortion-based-threats
 - learn-m365.ransomware-identify-entry-points
+- learn-m365.ransomware-prevent-attacks
 trophy:
   uid: learn-m365.ransomware-basics.trophy
