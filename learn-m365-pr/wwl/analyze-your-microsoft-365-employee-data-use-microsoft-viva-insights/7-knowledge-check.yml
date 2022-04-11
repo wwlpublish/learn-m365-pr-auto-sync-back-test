@@ -1,0 +1,63 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.analyze-your-microsoft-365-employee-data-use-microsoft-viva-insights.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/11/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso wants to conduct workplace analysis using Microsoft Viva Insights. What are the required and optional data sources included in Viva Insights?"
+    choices:
+    - content: "Microsoft 365 and HR organizational data are required; CRM data is optional."
+      isCorrect: true
+      explanation: "Correct. Microsoft 365 data and HR organizational data are required in Viva Insights. CRM data is optional."
+    - content: "Microsoft 365 and CRM data are required; HR organizational data is optional."
+      isCorrect: false
+      explanation: "Incorrect. Microsoft 365 data and HR organizational data are required in Viva Insights. CRM data is optional."
+    - content: "HR organizational and CRM data are required; Microsoft 365 data is optional."
+      isCorrect: false
+      explanation: "Incorrect. Microsoft 365 data and HR organizational data are required in Viva Insights. CRM data is optional."
+  - content: "Fabrikam has completed its workplace analysis using Microsoft Viva Insights. Where should its management team go to view out-of-the-box insights on important business outcomes in Viva Insights?"
+    choices:
+    - content: "Query designer"
+      isCorrect: false
+      explanation: "Incorrect The Query designer is used to access templates and create custom queries for row-level data."
+    - content: "Peer analysis"
+      isCorrect: false
+      explanation: "Incorrect The Peer analysis feature is used to compare the collaboration behaviors of two different groups."
+    - content: "Home page"
+      isCorrect: true
+      explanation: "Correct. The Home page provides leaders with quick insights into research-based business outcomes."
+  - content: "Which of the following statements is true concerning Microsoft Viva Insights settings?"
+    choices:
+    - content: "Working hours set by the admin apply to all employees included in the analysis population"
+      isCorrect: false
+      explanation: "Incorrect. Working hours set by the admin only apply to those employees that haven't already configured their working hours in Outlook."
+    - content: "Updating minimum group size and hashed subject lines in Privacy settings causes the changes to go into effect immediately and apply retroactively"
+      isCorrect: true
+      explanation: "Correct. These changes take effect immediately, while changes to processing exclusions (domains, email addresses, subject lines) only apply on a go-forward basis."
+    - content: "If a specific email address is excluded, meeting hours for other employees that meet with the owner of that email address remain in the data set"
+      isCorrect: false
+      explanation: "Incorrect. Any collaboration with excluded email addresses (either as the sender, receiver, or meeting attendee) is excluded from being processed or measured."
+  - content: "What type of workplace analytical data does Microsoft Viva Insights use within the Microsoft 365 collaboration data?"
+    choices:
+    - content: "Email attachments"
+      isCorrect: false
+      explanation: "Incorrect. Viva Insights doesn't look at email attachments."
+    - content: "Header-level data"
+      isCorrect: true
+      explanation: "Correct. Viva Insights doesn't look at email body text."
+    - content: "Body of emails"
+      isCorrect: false
+      explanation: "Incorrect. Viva Insights doesn't look at the body text in emails."

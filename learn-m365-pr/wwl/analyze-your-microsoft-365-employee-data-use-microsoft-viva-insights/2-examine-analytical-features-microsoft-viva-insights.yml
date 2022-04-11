@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.analyze-your-microsoft-365-employee-data-use-microsoft-viva-insights.examine-analytical-features-microsoft-viva-insights
+title: Examine the analytical features of Microsoft Viva Insights
+metadata:
+  title: Examine the analytical features of Microsoft Viva Insights
+  description: "Examine the analytical features of Microsoft Viva Insights"
+  ms.date: 04/11/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-examine-analytical-features-microsoft-viva-insights.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Where in Microsoft Viva Insights does it show targeted suggestions to help improve focus, collaboration, wellbeing, and sales success?"
+    choices:
+    - content: "The Home page"
+      isCorrect: false
+      explanation: "Incorrect. The Home page displays high-level insights about your organizational data. It also recommends options for in-depth analysis about research-based behavioral outcomes."
+    - content: "The Plans page"
+      isCorrect: true
+      explanation: "Correct. The Plans page works with personal insights, where available. It shows targeted suggestions to help improve focus, collaboration, wellbeing, and sales success."
+    - content: "The Analyze page"
+      isCorrect: false
+      explanation: "Incorrect. The Analyze page enables more in-depth analysis with the Query designer, Business process analysis, and Peer analysis features."

@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.analyze-your-microsoft-365-employee-data-use-microsoft-viva-insights.configure-microsoft-viva-insights
+title: Configure Microsoft Viva Insights
+metadata:
+  title: Configure Microsoft Viva Insights
+  description: "Configure Microsoft Viva Insights"
+  ms.date: 04/11/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-configure-microsoft-viva-insights.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso is conducting a workplace analysis project. It's using Microsoft Viva Insights to analyze the company's Microsoft 365 data. Contoso's workplace analysis project team has been discussing how Viva Insights should handle the data involving Fabrikam staff. Contoso has contracted with Fabrikam to upgrade Contoso's Fabication department. The technology used in the department has become outdated, which is negatively impacting Contoso's production process. After considerable discussion, the project team has decided to treat their employee's interactions with Fabrikam staff as internal meetings rather than external collaboration. What should Contoso's project team do to enable this analysis in Viva Insights?"
+    choices:
+    - content: "Examine individual activity from Fabrikam employees"
+      isCorrect: false
+      explanation: "Incorrect. The objective of Viva Insights isn't to examine individual activity. Rather, its goal is to recognize group-level trends occurring in an organization."
+    - content: "Reclassify Fabrikam's domain as internal"
+      isCorrect: true
+      explanation: "Correct. Viva Insights provides insights on how employees use domain information to collaborate with other employees in the company (not included in the analysis population) or with external individuals. If a company has contractors or consultants as part of its internal teams, it can include interactions with those people as internal as compared to external collaboration in its analysis. The Reclassify external domains setting can be used to include external domains as internal collaborators."
+    - content: "There's nothing to do, since Fabrikam employees can't be included in Viva Insights analysis involving Contoso employees"
+      isCorrect: false
+      explanation: "Incorrect. If a company has contractors or consultants as part of its internal teams, it can include interactions with those people as internal as compared to external collaboration in its analysis. This scenario is accommodated in Viva Insights using the Reclassify external domains setting."
