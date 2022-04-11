@@ -1,7 +1,7 @@
 Users can analyze and explore Microsoft 365 data in multiple ways using Microsoft Viva Insights:
 
- -  The **Home** page displays high-level insights about your organizational data. It also recommends options for in-depth analysis about research-based behavioral outcomes.<br>
- -  The **Analyze** page enables more in-depth analysis with the Query designer, Business process analysis, and Peer analysis features.<br>
+ -  The **Home** page displays high-level insights about your organizational data. It also recommends options for in-depth analysis about research-based behavioral outcomes.
+ -  The **Analyze** page enables more in-depth analysis with the Query designer, Business process analysis, and Peer analysis features
  -  The **Plans** page works with personal insights, where available. It shows targeted suggestions to help improve focus, collaboration, wellbeing, and sales success.
  -  The pages in the **Controls** section allow you to:
     
@@ -78,7 +78,7 @@ Peer analysis helps you discover differences in collaboration behavior between g
 
 #### Query designer
 
-Query designer gives you access to row-level data and customizable metrics. The following chart is an example of query output with organizational attributes (level, function, and region) and other related metrics (external and internal collaboration hours, meeting hours, and network size).<br>
+Query designer gives you access to row-level data and customizable metrics. The following chart is an example of query output with organizational attributes (level, function, and region) and other related metrics (external and internal collaboration hours, meeting hours, and network size).
 
 :::image type="content" source="../media/flexible-query-outputs-2dd4ffab.png" alt-text="diagram of query output with organizational attributes and other related metrics":::
 

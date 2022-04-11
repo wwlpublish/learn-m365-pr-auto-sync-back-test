@@ -1,17 +1,17 @@
-The primary steps involved in setting up workplace analytics in Microsoft Viva Insights include:
+Setting up workplace analytics in Microsoft Viva Insights is a straightforward process. Here's an overview of the primary steps:
 
 1.  Your Microsoft 365 or Azure Active Directory admin assigns the licenses and roles.
 2.  The designated Viva Insights admin sets up the system defaults and privacy settings.
 3.  The Viva Insights admin then prepares and uploads the organizational data.
 4.  Microsoft Viva Insights validates the upload and then processes the data.
 
-After these steps are complete, your organization has full access to all service features. The only exceptions are for admin-only settings. These settings include privacy and system default settings, and settings that control uploading of HR data.
+After these steps are complete, your organization has full access to all service features. The only exceptions are for admin-only settings, such as for uploading HR data, and the privacy and system default settings.
 
 Organizational data contains effective dates that map to the Microsoft 365 data. This data should be uploaded on a regular (monthly) schedule to reflect changes in your organization. The Microsoft 365 collaboration data updates weekly.
 
 ### Microsoft Viva Insights and data privacy
 
-Microsoft Viva Insights resides within the Microsoft 365 trust boundaries. These boundaries are defined by organizations for privacy safeguards and protections of individual employees. By default, only metadata is processed for generating metrics that don't include personal information. Your organization has full control over how to use and deploy Viva Insights. You can also control the level of visibility of the workplace analysis that's generated.
+Microsoft Viva Insights resides within the Microsoft 365 trust boundaries. These boundareis are defined by organizations for privacy safeguards and protections of individual employees. By default, only metadata is processed for generating metrics that don't include personal information. Your organization has full control over how Viva Insights is used, deployed, and the visibility it has in your organization.
 
 User-specific controls in Viva Insights include:
 
@@ -50,7 +50,7 @@ The following diagram shows how the Microsoft 365 Enterprise Admin assigns licen
 
 ### Assign licenses
 
-An organization's Microsoft 365 Enterprise Admin should work with the company's business leaders to determine which users to include in the analysis population. This group consists of the employees whose digital collaboration patterns the company wants to evaluate.
+An organization's Microsoft 365 Enterprise Admin should work with the company's business leaders to determine which users to include in the analysis population. This group consistgs of the employees whose digital collaboration patterns the company wants to evaluate.
 
 The enterprise admin can use Azure Active Directory or Windows PowerShell to assign users or group-based licenses. It's important to note that assigning a Viva Insights license to a mailbox doesn't change the employee's day-to-day experience.
 
@@ -79,9 +79,11 @@ The Viva Insights admin must set up the System defaults and Privacy settings bef
 
 The following system default settings apply to the employees who are included in the analysis population:
 
- -  **Default time zone, Working days, and Working hours**. These settings are used to calculate employees' collaboration hours within work hours and during after hours. The system defaults are applied only if the user hasn't previously personalized their settings in Outlook.<br>
- -  **Hourly Rate.** This setting is used to calculate the cost of employee time (for example, the cost of time spent in "low-quality" meetings). You can customize this value at aggregate levels in the organizational data file, or the Viva Insights admin can set a single number as a default.<br>
- -  **Reclassify external domains**. Viva Insights provides insights on how employees use domain information to collaborate with other employees in the company (not included in the analysis population) or with external individuals. The **Reclassify external domains** setting can be used to include external domains as internal collaborators.<br><br>For example, assume your company has external contractors or consultants as members of its internal teams. In your analysis, you'll want to treat your employees' interactions with these people as internal collaboration rather than external collaboration. You can reclassify the consulting company's domain as internal with this setting. This setting for reclassifying a domain will be available after the first Microsoft 365 data extraction.
+ -  **Default time zone, Working days, and Working hours**. These settings are used to calculate employees' collaboration hours within work hours and during after hours. The system defaults are applied only if the user hasn't previously personalized their settings in Outlook.
+ -  **Hourly Rate.** This setting is used to calculate the cost of employee time (for example, the cost of time spent in "low-quality" meetings). You can customize this value at aggregate levels in the organizational data file, or the Viva Insights admin can set a single number as a default.
+ -  **Reclassify external domains**. Viva Insights provides insights on how employees use domain information to collaborate with other employees in the company (not included in the analysis population) or with external individuals. The **Reclassify external domains** setting can be used to include external domains as internal collaborators.
+    
+    For example, if your company has contractors or consultants as part of their internal teams, you'll want to include interactions with those people as internal as compared to external collaboration in your analysis. You can reclassify the consulting company's domain as internal with this setting. This setting for reclassifying a domain will be available after the first Microsoft 365 data extraction.
 
 > [!IMPORTANT]
 > You can change the system default settings at any time. Changes are applied after the next data refresh of the organizational data or Microsoft 365 collaboration data. These changes apply to data retroactively and can affect previous calculations that use historical metrics.
@@ -90,9 +92,13 @@ The following system default settings apply to the employees who are included in
 
 You can set the following privacy settings for the employees in the analysis population:
 
- -  **Minimum group size**. This setting suppresses data for groups that are smaller than the specified value (the smallest value permitted is five). This setting is applied to your application immediately and also applies retroactively.<br>
- -  **Hash subject lines**. This setting determines whether subject lines are excluded from meeting-query results. This setting also has a word-cloud feature in the Meeting Exclusion wizard. Like minimum group size, this setting applies immediately and also retroactively.<br>
- -  **Processing exclusions (domains, email addresses, and subject lines)**. Any activity that involves the excluded criteria isn't processed or measured as part of your data. These settings reduce the amount of collaboration data that's processed from employees. By doing so, it results in a reduced dataset available for analysis.<br><br>For example, let's assume you exclude sarah@contoso.com. By doing so, any collaboration with this email address (either as the sender, receiver, or meeting attendee) won't be processed or measured.<br><br>These exclusions apply to new data processed during the next data refresh and don't affect historical data.
+ -  **Minimum group size**. This setting suppresses data for groups that are smaller than the specified value (the smallest value permitted is five). This setting is applied to your application immediately and also applies retroactively.
+ -  **Hash subject lines**. This setting determines whether subject lines are excluded from meeting-query results. This setting also has a word-cloud feature in the Meeting Exclusion wizard. Like minimum group size, this setting applies immediately and also retroactively.
+ -  **Processing exclusions (domains, email addresses, and subject lines)**. Any activity that involves the excluded criteria isn't processed or measured as part of your data. These settings reduce the amount of collaboration data that's processed from employees. By doing so, it results in a reduced dataset available for analysis.
+    
+    For example, if you exclude sarah@contoso.com, any collaboration with this email address (either as the sender, receiver, or meeting attendee) won't be processed or measured.
+    
+    These exclusions apply to new data processed during the next data refresh and don't affect historical data.
 
 ### Example scenario - Configuring settings for Microsoft Viva Insights
 

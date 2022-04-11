@@ -9,10 +9,10 @@ Microsoft Viva Insights includes a **Microsoft 365 data** page that organization
 
 This view includes the following Microsoft 365 data:
 
- -  **Measured employees**. The employees to whom your Viva Insights admin assigned licenses during setup. After license assignments, Microsoft 365 data for these licensed employees is extracted by Viva Insights. This data includes meetings, email, unscheduled calls, and instant messages for these people. When the data extraction process is successful for these employees, they're included in your measured population. If extraction errors occur and Viva Insights didn't get data for a person, that person is licensed but not counted as a measured employee in Viva Insights. If you're an analyst or limited analyst, measured employees are the population that you can analyze within Viva Insights. The number of measured employees can help determine whether you have good data coverage for analysis.<br>
+ -  **Measured employees**. The employees to whom your Viva Insights admin assigned licenses during setup. After license assignments, Viva Insights extracts Microsoft 365 data about meetings, email, unscheduled calls, and instant messages for these people. When the data extraction process is successful for these employees, they're included in your measured population. If extraction errors occur and Viva Insights didn't get data for a person, that person is licensed but not counted as a measured employee in Viva Insights. If you're an analyst or limited analyst, measured employees are the population that you can analyze within Viva Insights. The number of measured employees can help determine whether you have good data coverage for analysis.
 
     > [!NOTE]
-    > Your admin can assign employees Viva Insights licenses as a group with Azure Active Directory (Azure AD). If this number seems inaccurate, confirm with your admin that only active employees are assigned licenses through Azure AD.<br>
+    > Your admin can assign employees Viva Insights licenses as a group with Azure Active Directory (Azure AD). If this number seems inaccurate, confirm with your admin that only active employees are assigned licenses through Azure AD.
 
  -  **Internal collaborators**. These people are unmeasured employees. They were included in extractions of Microsoft 365 data with whom the measured employees collaborated. These people are internal to your organization, but they aren't part of your measured population. Internal collaborators can include employees from other groups, vendors, or contractors that are working with your team. They must be included in the same internal domain as your team, but they're not in your measured population.
  -  **External collaborators**. These people are outside of your company or external to your email domain with whom your measured employees collaborated.
@@ -25,7 +25,7 @@ Hover your cursor over the **Average weekly collaboration** chart data to get mo
 
 ### Origin of data counts
 
-In **Sources &gt; Microsoft 365 data**, you can see the current count of three categories of data. Most of this data originates with people in your organization, who may or may not have Microsoft Viva Insights licenses. However, some data originates outside of your organization or comes from mailboxes of other types.
+In **Sources &gt;; Microsoft 365 data**, you can see the current count of three categories of data. Most of this data originates with people in your organization, who may or may not have Microsoft Viva Insights licenses. However, some data originates outside of your organization or comes from mailboxes of other types.
 
 Determining the origins of data also determines how to categorize it, as shown in the following flow chart.
 

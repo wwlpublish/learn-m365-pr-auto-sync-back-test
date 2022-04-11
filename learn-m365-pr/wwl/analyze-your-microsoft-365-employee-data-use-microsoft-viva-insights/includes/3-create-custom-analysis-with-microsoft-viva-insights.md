@@ -1,12 +1,12 @@
 The prior unit examined how business outcomes and associated insights can be analyzed on the Microsoft Viva Insight's **Home** page. Organizations also use Viva Insights to create custom analytical queries. The main features that support custom analysis are:
 
- -  Query designer<br>
+ -  Query designer
  -  Peer analysis
  -  Plans
  -  Data sources
  -  Exclusions
 
-The following sections examine how organizations can use these features to customize their workplace analysis.<br>
+The following sections examine how organizations can use these features to customize their workplace analysis.
 
 ### Query designer
 
@@ -22,18 +22,18 @@ Queries in the **Query designer** tool provide access to row-level data and cust
  -  **Person query**. Extracts person metrics for analysis of aggregated employee data. Each observation in a Person query represents a person, their measured collaboration, and their descriptive attributes.
  -  **Meeting query**. Extracts meeting-related metrics for analysis of aggregated meeting data. Each observation in a Meeting query represents a meeting, its attributes, and the total collaboration associated with the meeting attendees.
 
-You should complete the following steps to create a query using the Query Designer tool:<br>
+You should complete the following steps to create a query using the Query Designer tool:
 
-1.  Open the **Query designer**.<br>
-2.  Select **Get started** under **Query**, and then select the query type.<br>
-3.  Select **Start a new query**, and then select **Set up query.**<br>
-4.  Enter a name and description for the query.<br>
-5.  Select the **Group by** timeframe (day, week, or month), the applicable **Time period**, and if you want the query to **Auto-refresh**.<br>
-6.  In **Exclusions**, select the meeting and attendee exclusions to exclude any irrelevant calendar activity from this analysis.<br>
-7.  In **Select metrics**, select what metrics you want to include from the list. You can also customize one or more metrics by using filters. For example, filter for meeting hours with the word "budgeting" in the subject line.<br>
-8.  In **Select filters**, you can change the scope of the data you'd like to analyze. You can do so by limiting it to active employees and applying other filters to organizational attributes.<br>
-9.  In **Organizational data**, select which organizational attributes to include in your output, and then select **Run** to run the query.<br>
-10. In **Query designer &gt; Results**, you can select to view only your results (My results) or all query results. Select the **Download** icon to download a query's results as a .csv file or to copy the OData link for loading the data into other business intelligence apps (such as Power BI). For queries that show the **Visualization** icon, you can also visualize the results directly from this page.<br>
+1.  Open the **Query designer**.
+2.  Select **Get started** under **Query**, and then select the query type.
+3.  Select **Start a new query**, and then select **Set up query.**
+4.  Enter a name and description for the query.
+5.  Select the **Group by** timeframe (day, week, or month), the applicable **Time period**, and if you want the query to **Auto-refresh**.
+6.  In **Exclusions**, select the meeting and attendee exclusions to exclude any irrelevant calendar activity from this analysis.
+7.  In **Select metrics**, select what metrics you want to include from the list. You can also customize one or more metrics by using filters. For example, filter for meeting hours with the word "budgeting" in the subject line.
+8.  In **Select filters**, you can change the scope of the data you'd like to analyze. You can do so by limiting it to active employees and applying other filters to organizational attributes.
+9.  In **Organizational data**, select which organizational attributes to include in your output, and then select **Run** to run the query.
+10. In **Query designer &gt; Results**, you can select to view only your results (My results) or all query results. Select the **Download** icon to download a query's results as a .csv file or to copy the OData link for loading the data into other business intelligence apps (such as Power BI). For queries that show the **Visualization** icon, you can also visualize the results directly from this page.
 
 #### Business process analysis
 
@@ -47,50 +47,50 @@ To analyze a business process:
 
 Each of these steps is outlined in greater detail in the following sections.
 
-#### Define a dataset<br>
+#### Define a dataset
 
 Before you can analyze a business process, you must first create a dataset for it. The Query designer can create a query that includes only the organizational data required for this analysis.
 
 For example, the following steps define a query for meetings of a particular length that were attended by at least one sales representative.
 
-1.  Open **Business process analysis**.<br>
-2.  Select **Data sets**, and then select **Add data set**.<br>
-3.  In **New data set**, enter a name (for example, Sales data) and a description, and then select **Continue**.<br>
-4.  For **Time period**, select the start and end dates. For example, all meetings that occurred outside of a specific time period can be excluded from the dataset.<br>
-5.  For **Meeting exclusions**, specify a meeting exclusion rule or accept the default.<br>
-6.  For **Which meetings do you want to include in your query results**, define the filters to scope the dataset for the analysis. For example, to filter out specific meetings, select **Add filter**, and then select **Meeting** with a **Duration** of less than or equal to one hour. This Duration filter can be used to specify the duration that you want to analyze. If you don't define this filter, then all meeting hours will be included regardless of their duration.<br>
-7.  Select **Attendee**, and then select the group (such as Sales) for the meeting attendees.<br>
-8.  Select **Organize**r, and then select the group (such as Sales) for the meeting organizer.<br>
-9.  Select **Submit** to create the dataset that matches these criteria (and no other data). The process time for the dataset varies depending on its size.<br>
+1.  Open **Business process analysis**.
+2.  Select **Data sets**, and then select **Add data set**.
+3.  In **New data set**, enter a name (for example, Sales data) and a description, and then select **Continue**.
+4.  For **Time period**, select the start and end dates. For example, all meetings that occurred outside of a specific time period can be excluded from the dataset.
+5.  For **Meeting exclusions**, specify a meeting exclusion rule or accept the default.
+6.  For **Which meetings do you want to include in your query results**, define the filters to scope the dataset for the analysis. For example, to filter out specific meetings, select **Add filter**, and then select **Meeting** with a **Duration** of less than or equal to one hour. This Duration filter can be used to specify the duration that you want to analyze. If you don't define this filter, then all meeting hours will be included regardless of their duration.
+7.  Select **Attendee**, and then select the group (such as Sales) for the meeting attendees.
+8.  Select **Organize**r, and then select the group (such as Sales) for the meeting organizer.
+9.  Select **Submit** to create the dataset that matches these criteria (and no other data). The process time for the dataset varies depending on its size.
 
 #### Define a business process
 
 Before you can analyze a business process, you must first define it. A business process is defined by assembling a list of keywords that's typically found in the dataset that's associated with the process. An example of such a dataset would be meeting subject lines. This list defines the business-process filter.
 
 > [!NOTE]
-> Currently, you can only use English keywords for defining a business process, even when your instance of Microsoft Viva Insights is in a language other than English.<br>
+> Currently, you can only use English keywords for defining a business process, even when your instance of Microsoft Viva Insights is in a language other than English.
 
-1.  Open **Business process analysis**.<br>
-2.  Select A**dd business process**.<br>
-3.  In N**ew Business process**, enter a name and an optional description for it, such as Sales interactions, and then select **Continue**.<br>
-4.  In **Data set,** select what to use for this analysis.<br>
-5.  For **Content type**, keep **Meetings** selected, and then select **Continue**.<br>
-6.  In **Enter a search term**, enter a keyword that represents a common term about this business process. The system then uses this keyword to display related words found in the dataset.<br>
+1.  Open **Business process analysis**.
+2.  Select A**dd business process**.
+3.  In N**ew Business process**, enter a name and an optional description for it, such as Sales interactions, and then select **Continue**.
+4.  In **Data set,** select what to use for this analysis.
+5.  For **Content type**, keep **Meetings** selected, and then select **Continue**.
+6.  In **Enter a search term**, enter a keyword that represents a common term about this business process. The system then uses this keyword to display related words found in the dataset.
 7.  Optionally, you can sort the keyword columns by selecting a header in the table, such as Rank. The Rank column indicates relevance ranking.
-8.  Scan the words in the **Keyword** column to find what closely relates to this business process, such as "Sales activities." You can complete the following tasks to confirm relevance:<br>
+8.  Scan the words in the **Keyword** column to find what closely relates to this business process, such as "Sales activities." You can complete the following tasks to confirm relevance:
     
      -  **Find related keywords**. Expand the keyword by selecting the &gt; (greater-than) sign to see multiple-word phrases that include it. For each keyword, you can see the **Number of meetings** with this word in the subject line. You can also see the amount of time spent in those meetings (Attendee meeting hours).
      -  **View the meeting metadata**. Select a keyword to see a list of meetings with this word in the subject line, the number of attendees, and whether the meeting is recurring. If these meetings are relevant, select them.
-9.  After you decide which keywords are relevant, you should select the keywords. To do so, hover your cursor over each keyword's row to see and select the check box to the left of the word. After selecting the keywords, select **Add selected to**, and then select **Included keywords**.<br>
-10. After you select keywords, you'll see them in the Included keywords list to the right of the results table.<br>
-11. Optionally, you can explicitly exclude terms from the keyword list by repeating these steps and selecting **Excluded keywords** in the previous step. As you add keywords, the system becomes more context-aware. As such, it will automatically start uncovering more content that's relevant to the keywords that you've added. This content will then be displayed in the results list.<br>
+9.  After you decide which keywords are relevant, you should select the keywords. To do so, hover your cursor over each keyword's row to see and select the check box to the left of the word. After selecting the keywords, select **Add selected to**, and then select **Included keywords**.
+10. After you select keywords, you'll see them in the Included keywords list to the right of the results table.
+11. Optionally, you can explicitly exclude terms from the keyword list by repeating these steps and selecting **Excluded keywords** in the previous step. As you add keywords, the system becomes more context-aware. As such, it will automatically start uncovering more content that's relevant to the keywords that you've added. This content will then be displayed in the results list.
 12. You may already know the keywords your company uses for a business process. You should complete the following steps to manually include (or exclude) them:
     
     1.  Select **Included keywords &gt; Add** (for keywords to explicitly exclude, use the **Excluded keywords** option).
     2.  Enter the keyword (or multiple words separated with a semicolon).
     3.  Select **Enter**.
 13. Confirm the totals at the top of the page that reflect meeting hours and meetings in the entire dataset. The smaller totals reflect the number of meeting hours and meetings in the data that are associated with the currently selected keywords. These smaller numbers change as you add or delete keywords. If you're familiar with the hiring process, these numbers could indicate that your defined keywords are either too narrow (too few meetings and hours) or too broad (too many). In this situation, you can adjust accordingly by adding or deleting keywords.
-14. Select **Submit** to start the processing. This option is only available when at least one keyword is listed in **Included Keywords**. During this phase, the status will indicate **In progress.**<br>
+14. Select **Submit** to start the processing. This option is only available when at least one keyword is listed in **Included Keywords**. During this phase, the status will indicate **In progress.**
 
 #### Analyze a business process
 
@@ -117,13 +117,13 @@ Peer analysis compares the collaboration behaviors of two different groups withi
 
 To create peer analysis:
 
-1.  Open **Peer analysis**.<br>
-2.  Select **New analysis**, select your **Reference group**, enter a name and date range for this analysis, and then enter a name for the reference group.<br>
+1.  Open **Peer analysis**.
+2.  Select **New analysis**, select your **Reference group**, enter a name and date range for this analysis, and then enter a name for the reference group.
 3.  Identify the group members by selecting one of the following options:
     
      -  **Upload .csv**. This option uploads a .csv file with the email addresses of the people you want to include in the reference group.
      -  **Use filters**. This option filters by the HR (organizational) attributes in the uploaded .csv file (with the group's email addresses). It can also apply filters to the organizational data attributes.
-4.  Choose the **Other group** as the comparison group and enter a name for that group.<br>
+4.  Choose the **Other group** as the comparison group and enter a name for that group.
 5.  Identify the group members, as follows:
     
      -  **Upload .csv**. This option uploads a .csv file with the email addresses of the people you want to include in the other (comparison) group.
@@ -131,7 +131,7 @@ To create peer analysis:
 6.  Apply **Conditions** (optional) with filters that specify the attributes that should be similar for comparing the groups. For example, to compare Reference group's managers to the Other group's managers, add a conditional filter to include only managers in the output.
 7.  Select **Submit**. When the analysis is ready, select the **View** (eye) icon to see the results on the Peer analysis page.
 
-Peer analysis results include:<br>
+Peer analysis results include:
 
  -  The date range.
  -  A Highlights section with differences in the three most variant metrics between the groups.
@@ -174,7 +174,7 @@ Not all scheduled meetings are business-related. People often have personal appo
 
 Viva Insights has a built-in solution to address these issues called Exclusions. There are two types of exclusions - Meeting exclusions and Attendee exclusions. Analysts can use meeting or attendee exclusions to create specific rules that determine which meetings or attendees should be excluded from specific analysis.
 
-With meeting exclusions, you can:<br>
+With meeting exclusions, you can:
 
  -  Exclude canceled meetings.
  -  Exclude appointments (time schedule with only one attendee).
@@ -199,6 +199,6 @@ Meeting and attendee exclusions can be used to exclude meetings or attendees you
 
 #### Example scenario for exclusions
 
-You want to analyze when people are working remotely from home. The employees at your organization let their managers know they're working from home with a one-person meeting that's titled "Remote day."
+You want to analyze when people are working remotely from home. The employees at your organization let their managers know they are working from home with a one-person meeting that's titled "Remote day."
 
 Because the default meeting exclusion rule excludes these meetings, you must create a new rule. To do so, go to **Analyst settings &gt; Meeting exclusions** and select **Add exclusion**. By doing so, you can create a new meeting exclusion rule that includes meetings with only one person and with that meeting title.
