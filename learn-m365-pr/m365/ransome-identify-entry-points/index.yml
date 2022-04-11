@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn-m365.ransomware-identify-entry-points
+metadata:
+  moduleType: standard
+  title: Identify ransomware entry points
+  description: How will you know if you are a victim of ransomware? This module will cover the top ransomware families for today's threat landscape and the vectors which they use to enter and infect your organization's files and systems.
+  ms.date: 4/11/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Identify ransomware entry points
+summary: How will you know if you are a victim of ransomware? This module will cover the top ransomware families for today's threat landscape and the vectors which they use to enter and infect your organization's files and systems.
+abstract: |
+  By the end of this module, you'll be able to:
+    - "TODO learning objective 1"
+    - "TODO learning objective 2"
+    - "TODO learning objective 3 (if needed; see"
+prerequisites: |
+  - "TODO prerequisite 1"
+  - "TODO prerequisite 2"
+  - "TODO prerequisite 3 (if needed; see"
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - business-user
+products:
+- m365
+units:
+- learn-m365.ransomware-identify-entry-points.introduction
+- learn-m365.ransomware-identify-entry-points.learning-content
+- learn-m365.ransomware-identify-entry-points.exercise
+- learn-m365.ransomware-identify-entry-points.knowledge-check
+- learn-m365.ransomware-identify-entry-points.summary
+badge:
+  uid: learn-m365.ransomware-identify-entry-points.badge
