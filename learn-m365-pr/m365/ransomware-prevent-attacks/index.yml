@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn-m365.ransomware-prevent-attacks
+metadata:
+  moduleType: standard
+  title: Prevent ransomware and extortion-based attacks
+  description: "TODO: this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the module; include relevant search keywords."
+  ms.date: 4/11/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure # Edit as appropriate for your portfolio area
+title: Prevent ransomware and extortion-based attacks
+summary: "TODO: 2 sentences, 20-35 words, don't teach or motivate, avoid using 'learn', don't duplicate the title; see https://review.docs.microsoft.com/help/learn/id-guidance-introductory-summaries?branch=main"
+abstract: |
+  By the end of this module, you'll be able to:
+    - "TODO learning objective 1"
+    - "TODO learning objective 2"
+    - "TODO learning objective 3 (if needed; see https://review.docs.microsoft.com/help/learn/id-guidance-learning-objectives?branch=main)"
+prerequisites: |
+  - "TODO prerequisite 1"
+  - "TODO prerequisite 2"
+  - "TODO prerequisite 3 (if needed; see https://review.docs.microsoft.com/help/learn/id-guidance-prerequisites?branch=main"
+iconUrl: /learn/achievements/generic-badge.svg
+levels: # see level taxonomy https://review.docs.microsoft.com/help/contribute/metadata-taxonomies?branch=main#level
+  - beginner
+roles: # see role taxonomy https://review.docs.microsoft.com/help/contribute/metadata-taxonomies?branch=main#role
+  - developer
+products: # see product taxonomy https://review.docs.microsoft.com/help/contribute/metadata-taxonomies?branch=main#product
+- learning-m365
+units:
+- learn-m365.ransomware-prevent-attacks.introduction
+- learn-m365.ransomware-prevent-attacks.learning-content
+- learn-m365.ransomware-prevent-attacks.exercise
+- learn-m365.ransomware-prevent-attacks.knowledge-check
+- learn-m365.ransomware-prevent-attacks.summary
+badge:
+  uid: learn-m365.ransomware-prevent-attacks.badge
