@@ -9,7 +9,7 @@ metadata:
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
-  ms.prod: learning-azure # Edit as appropriate for your portfolio area
+  ms.prod: learning-m365
 durationInMinutes: 1
 content: |
-  [!include[](includes/5-summary.md)]
+  [!include[](includes/summary.md)]
