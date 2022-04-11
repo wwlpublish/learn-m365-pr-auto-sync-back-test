@@ -3,14 +3,14 @@ uid: learn-m365.ransomware-extortion-based-threats
 metadata:
   moduleType: standard
   title: Examine ransomware and extortion-based threats
-  description: "TODO: this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the module; include relevant search keywords."
+  description: Ransomware attacks are growing at an alarming rate. But what exactly is a ransomware attack? This module will define ransomware and describe the scope of the ransomware problem, who are ransomware victims, and will touch on a few notable ransomware "families" that everyone should know.
   ms.date: 4/8/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Examine ransomware and extortion- based threats
-summary: "TODO: 2 sentences, 20-35 words, don't teach or motivate, avoid using 'learn', don't duplicate the title"
+summary: Ransomware attacks are growing at an alarming rate. But what exactly is a ransomware attack? This module will define ransomware and describe the scope of the ransomware problem, who are ransomware victims, and will touch on a few notable ransomware "families" that everyone should know.
 abstract: |
   By the end of this module, you'll be able to:
     - "TODO learning objective 1"
