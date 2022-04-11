@@ -3,14 +3,14 @@ uid: learn-m365.ransomware-prevent-attacks
 metadata:
   moduleType: standard
   title: Prevent ransomware and extortion-based attacks
-  description: "TODO: this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the module; include relevant search keywords."
+  description: You know about the _threat_ of ransomware bu you need to know how to protect yourself too. This module will describe critical defense mechanisms against ransomware including identity protection, data backup, and restricted access.
   ms.date: 4/11/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Prevent ransomware and extortion-based attacks
-summary: "TODO: 2 sentences, 20-35 words, don't teach or motivate, avoid using 'learn', don't duplicate the title;"
+summary: You know about the _threat_ of ransomware bu you need to know how to protect yourself too. This module will describe critical defense mechanisms against ransomware including identity protection, data backup, and restricted access.
 abstract: |
   By the end of this module, you'll be able to:
     - "TODO learning objective 1"
