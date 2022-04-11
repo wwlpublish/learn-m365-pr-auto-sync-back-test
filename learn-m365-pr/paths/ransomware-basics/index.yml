@@ -18,6 +18,7 @@ levels:
 - beginner
 roles:
 - business-user
+products:
 modules:
 - learn-m365.ransomware-extortion-based-threats
 - learn-m365.ransomware-identify-entry-points
