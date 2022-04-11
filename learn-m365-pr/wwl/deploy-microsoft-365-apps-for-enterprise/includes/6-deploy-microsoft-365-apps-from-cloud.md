@@ -15,7 +15,7 @@ The CDN fetches your assets from a location called an *origin*. An origin can be
 
 You can choose to have both public or private origins for your organization. Most organizations will choose to implement a combination of the two. Both public and private options provide similar performance gains, but each has unique attributes and advantages.
 
-Both public and private options provide similar performance gains, but each has unique attributes and advantages.<br>
+Both public and private options provide similar performance gains, but each has unique attributes and advantages.
 
  -  **Public origins**. Public origins within the Office 365 CDN are accessible anonymously. Hosted assets can be accessed by anyone who has the URL to the asset. As such, you should only use public origins to cache non-sensitive generic content such as JavaScript files, scripts, icons and images.
  -  **Private origins**. Private origins within the Office 365 CDN provide private access to user content. These assets include SharePoint Online document libraries, sites, and proprietary images. Access to content in private origins is secured by dynamically generated tokens. As such, it can only be accessed by users with permissions to the original document library or storage location. Private origins in the Office 365 CDN can only be used for SharePoint Online content. When you access assets in private origins, they can only be accessed through redirection from your SharePoint Online tenant.
@@ -28,7 +28,7 @@ The Office Deployment Tool is a command-line tool. It can be used to download an
  -  How those products should be updated.
  -  Whether to display the install experience to your users.
 
-The ODT is intended for administrators in enterprise environments working with hundreds or thousands of computers. The ODT can be downloaded from the Microsoft 365 admin center, or directly from the Microsoft Download Center.<br>
+The ODT is intended for administrators in enterprise environments working with hundreds or thousands of computers. The ODT can be downloaded from the Microsoft 365 admin center, or directly from the Microsoft Download Center.
 
 > [!NOTE]
 > This unit covers the standard best practices and installation requirements for organizations that have chosen to deploy Semi-Annual Enterprise Channel.
@@ -39,7 +39,7 @@ The ODT is used to run the following tasks:
  -  Install or remove Click-to-Run or customize installations.
  -  Apply software update policies.
 
-Before you run the ODT, ensure your users have local admin privileges on their client devices. If they don't, then you should use your standard deployment tools and processes to install Office.<br>
+Before you run the ODT, ensure your users have local admin privileges on their client devices. If they don't, then you should use your standard deployment tools and processes to install Office.
 
 The steps in this unit are based on the following best practices:
 
@@ -66,9 +66,9 @@ The following sections describe the steps involved in deploying Microsoft 365 Ap
 
 You use the Office Deployment Tool (ODT) to deploy Office from the Office CDN. The deployment tool is run from the command line. it uses a configuration file to determine what settings to apply when deploying Office.
 
-1.  Create the shared folder **\\\\Server\\Share\\M365** and assign read permissions for your users. <br>
+1.  Create the shared folder **\\\\Server\\Share\\M365** and assign read permissions for your users. 
 2.  Download the Office Deployment Tool from the Microsoft Download Center to \\\\Server\\Share\\M365. If you've already downloaded the ODT, make sure you have the latest version.
-3.  After downloading the file, run the self-extracting executable file. This file contains the Office Deployment Tool executable (setup.exe) and a sample configuration file (configuration.xml).<br>
+3.  After downloading the file, run the self-extracting executable file. This file contains the Office Deployment Tool executable (setup.exe) and a sample configuration file (configuration.xml).
 
 ### Step 2: Create a configuration file for the pilot group
 
@@ -114,7 +114,7 @@ From the client computers for the pilot group, run the following command from a 
 \\Server\Share\M365\setup.exe /configure \\Server\Share\M365\config-pilot-SECP.xml
 
 > [!NOTE]
-> Most organizations will use this command as part of a batch file, script, or other process that automates the deployment. In those cases, you can run the script under elevated permissions. By default, the users won't need to have admin privileges on their computers.<br>
+> Most organizations will use this command as part of a batch file, script, or other process that automates the deployment. In those cases, you can run the script under elevated permissions. By default, the users won't need to have admin privileges on their computers.
 
 The Office installation should immediately start once you run this command. If you run into problems:
 

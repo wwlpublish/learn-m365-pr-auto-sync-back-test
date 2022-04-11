@@ -37,11 +37,11 @@ units:
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.introduction
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.explore-functionality
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.explore-app-compatibility-using-readiness-toolkit
-- learn.wwl.deploy-microsoft-365-apps-for-enterprise.complete-self-service-installation-of
+- learn.wwl.deploy-microsoft-365-apps-for-enterprise.complete-self-service-installation
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.deploy-microsoft-365-apps-with-endpoint-configuration-manager
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.deploy-microsoft-365-apps-from-cloud
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.deploy-microsoft-365-apps-from-local-source
-- learn.wwl.deploy-microsoft-365-apps-for-enterprise.manage-updates-to
+- learn.wwl.deploy-microsoft-365-apps-for-enterprise.manage-updates
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.explore-update-channels
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.manage-cloud-apps-using-microsoft-365-apps-admin-center
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.knowledge-check

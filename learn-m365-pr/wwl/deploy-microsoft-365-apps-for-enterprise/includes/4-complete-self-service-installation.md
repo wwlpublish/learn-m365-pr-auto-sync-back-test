@@ -9,7 +9,7 @@ In a user-driven deployment:
 
 The following graphic shows that Microsoft 365 Apps for enterprise and all its client applications are downloaded and installed from Microsoft. No installation media is involved.
 
-:::image type="content" source="../media/m365-apps-for-ent-download-screenshot-9a310d3c.jpg" alt-text="graphic shows that Microsoft 365 Apps for enterprise and all its client applications are downloaded and installed from Microsoft":::
+:::image type="content" source="../media/m365-apps-for-enterprise-download-screenshot-5b567d1a.jpg" alt-text="graphic shows that Microsoft 365 Apps for enterprise and all its client applications are downloaded and installed from Microsoft":::
 
 
 ### Obstacles to a successful self-service installation of Microsoft 365 Apps for enterprise
@@ -29,8 +29,8 @@ When planning a Microsoft 365 Apps for enterprise user self-deployment, it's imp
 
 Microsoft 365 includes a global Office download setting that controls the downloading of mobile and desktop apps for all users. This setting can be turned Off to prohibit users from downloading Microsoft 365 Apps for enterprise. Complete the following steps to turn off this setting:
 
-1.  In the **Microsoft 365 admin center**, select **...Show all** in the navigation pane. Select **Settings**, and then within the group, select **Org Settings**.<br>
-2.  In the **Org settings** window, the **Services** tab is displayed by default. Scroll down through the list of services and select **Office installation options**.<br>
-3.  In the **Office installation options** pane that appears, the **Feature Updates** tab is displayed by default. Select the **Installation** tab that appears next to it.<br>
+1.  In the **Microsoft 365 admin center**, select **...Show all** in the navigation pane. Select **Settings**, and then within the group, select **Org Settings**.
+2.  In the **Org settings** window, the **Services** tab is displayed by default. Scroll down through the list of services and select **Office installation options**.
+3.  In the **Office installation options** pane that appears, the **Feature Updates** tab is displayed by default. Select the **Installation** tab that appears next to it.
 4.  Under the A**pps for Windows and mobile devices** section, the **Office (includes Skype for Business)** check box is currently selected. Select this check box to clear it. Clearing this check box turns this feature Off, which prohibits users from downloading Microsoft 365 Apps for enterprise.
-5.  Select **Save**.<br>
+5.  Select **Save**.

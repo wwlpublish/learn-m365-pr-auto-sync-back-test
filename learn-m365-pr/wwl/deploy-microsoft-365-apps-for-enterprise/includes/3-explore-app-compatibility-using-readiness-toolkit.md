@@ -31,7 +31,7 @@ The following image shows the overview page of the Readiness Report Creator.
 :::image type="content" source="../media/office-readiness-report-a210c46b.png" alt-text="screenshot of the Office Readiness report":::
 
 
-The Excel spread sheet that’s created by the Readiness Toolkit includes the following workbook tabs:<br>
+The Excel spread sheet that’s created by the Readiness Toolkit includes the following workbook tabs:
 
  -  **Overview.** This tab provides access to reports that assess the results of the VBA macros and add-ins found on the company’s devices. You can review each report by selecting the View VBA/Add-in Report buttons located inside this tab.
  -  **VBA Overview.** This tab displays a pie chart of each VBA found on all scanned files, and it includes a readiness assessment. You can define the filters in this tab by Office version and bit version.
@@ -109,7 +109,7 @@ In addition, the Readiness Report Creator looks for any add-ins for Office that 
   :::column:::
     The Readiness Report Creator scans the Office documents in the folder or network share that you specify. The Readiness Report Creator automatically scans the specified location, and all the subfolders in that location.
 
-Note: With this option, the Readiness Report Creator doesn't look for add-ins installed on the computer on which the Readiness Report Creator is run.
+With this option, the Readiness Report Creator doesn't look for add-ins installed on the computer on which the Readiness Report Creator is run.
 
   :::column-end:::
   :::column:::

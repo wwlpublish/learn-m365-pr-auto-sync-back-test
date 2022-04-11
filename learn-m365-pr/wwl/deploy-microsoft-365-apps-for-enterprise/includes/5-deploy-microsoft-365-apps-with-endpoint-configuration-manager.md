@@ -93,4 +93,4 @@ To view the Office 365 Client Management dashboard in the Configuration Manager 
 In the dashboard, make sure you see the Office versions, languages, and update channels that you deployed for each collection.
 
 > [!IMPORTANT]
-> If the data isn't displaying, you may need to enable hardware inventory and select the Office 365 ProPlus Configurations hardware inventory class. For more information, see [Configure hardware inventory](/mem/configmgr/core/clients/manage/inventory/configure-hardware-inventory).<br>
+> If the data isn't displaying, you may need to enable hardware inventory and select the Office 365 ProPlus Configurations hardware inventory class. For more information, see [Configure hardware inventory](/mem/configmgr/core/clients/manage/inventory/configure-hardware-inventory).

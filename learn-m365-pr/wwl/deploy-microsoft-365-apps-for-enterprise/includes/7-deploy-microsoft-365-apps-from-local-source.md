@@ -100,7 +100,7 @@ This structure is similar to the one the Office Content Delivery Network (CDN) u
 2.  Assign **Read** permissions for your users. Installing Office from a shared folder only requires the user to have Read permission for that folder. As such, you should assign Read permission to everyone.
 
 > [!NOTE]
-> This unit uses just one shared folder on the network. However, many organizations make the Office installation files available from multiple locations. Using multiple locations can help improve availability and minimize the effect on network bandwidth. For example, if some of your users are located in a branch office, you can create a shared folder in the branch office. Those users can then install Office from the local network. You can use the Distributed File System (DFS) role service in Windows Server to create a network share that is replicated to multiple locations. For more information, see [DFS Management](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732006%28v=ws.11%29?azure-portal=true).<br>
+> This unit uses just one shared folder on the network. However, many organizations make the Office installation files available from multiple locations. Using multiple locations can help improve availability and minimize the effect on network bandwidth. For example, if some of your users are located in a branch office, you can create a shared folder in the branch office. Those users can then install Office from the local network. You can use the Distributed File System (DFS) role service in Windows Server to create a network share that is replicated to multiple locations. For more information, see [DFS Management](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732006%28v=ws.11%29?azure-portal=true).
 
 ### Step 2: Download the Office Deployment Tool
 
@@ -177,7 +177,7 @@ From the client computers for the pilot group, run the following command from a 
 \\Server\Share\M365\setup.exe /configure \\Server\Share\M365\config-pilot-SECP.xml
 
 > [!NOTE]
-> Most organizations will use this command as part of a batch file, script, or other process that automates the deployment. In those cases, you can run the script under elevated permissions. By default, the users won't need to have admin privileges on their computers.<br>
+> Most organizations will use this command as part of a batch file, script, or other process that automates the deployment. In those cases, you can run the script under elevated permissions. By default, the users won't need to have admin privileges on their computers.
 
 The Office installation should immediately start once you run this command. If you run into problems:
 
