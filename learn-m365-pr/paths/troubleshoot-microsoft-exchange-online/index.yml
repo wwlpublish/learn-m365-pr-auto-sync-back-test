@@ -1,0 +1,38 @@
+### YamlMime:LearningPath
+uid: learn.wwl.troubleshoot-microsoft-exchange-online
+metadata:
+  title: Troubleshoot Microsoft Exchange Online
+  description: Troubleshoot Microsoft Exchange Online
+  ms.date: 04/11/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot Microsoft Exchange Online
+prerequisites: |
+  - Experience with PowerShell and the Exchange PowerShell module.
+  - Significant experience deploying, managing, and troubleshooting Exchange environments.
+summary: |
+  Learn how to solve a broad range of problems that can arise in organizations using Exchange. In this learning path, you’ll troubleshoot many aspects of Exchange, including mail flow, compliance, recipient problems, and cloud/on-premises hybrid configurations.
+iconUrl: /learn/achievements/generic-trophy.svg
+levels:
+- advanced
+roles:
+- support-engineer
+products:
+- azure-active-directory
+- defender-office365
+- office-exchange-server
+- office-outlook
+- office-exchange-online
+modules:
+- learn.wwl.troubleshoot-problems-mail-flow
+- learn.wwl.troubleshoot-message-filter-inboxes-defender-for-office-365
+- learn.wwl.troubleshoot-compliance-retention-issues
+- learn.wwl.troubleshoot-encryption-audit-journal
+- learn.wwl.troubleshoot-desktop-outlook-clients
+- learn.wwl.troubleshoot-issues-mobile-devices
+- learn.wwl.troubleshoot-exchange-online-configuration-issues
+- learn.wwl.troubleshoot-hybrid-migration-issues
+trophy:
+  uid: learn.wwl.troubleshoot-microsoft-exchange-online.trophy
