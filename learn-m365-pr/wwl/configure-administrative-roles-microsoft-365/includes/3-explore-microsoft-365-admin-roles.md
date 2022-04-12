@@ -17,17 +17,17 @@ Because administrators have access to sensitive data and files, it's recommended
 :::row-end:::
 :::row:::
   :::column:::
-    Have two to four global admins
+    Only establish two to four global admins.
   :::column-end:::
   :::column:::
-    A global admin's password can only be reset by another global admin. As such, it's recommended that you have at least two global admins in your organization in the event one of the admins experiences an account lockout.
+    A global administrator's password can only be reset by another global administrator. As such, it's recommended that you have at least two global admins in your organization in the event one of the admins experiences an account lockout.
 
-The global admin has almost unlimited access to your org's settings and most of the data. As such, it's also recommended that you don't have more than four global admins due to the security threat posed from having too many global admins.
+The global administrator has almost unlimited access to your organization's settings and most of its data. As such, it's also recommended that you don't have more than four global admins due to the security threat posed from having too many global admins.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    Assign the least permissive role
+    Assign the least permissive role.
   :::column-end:::
   :::column:::
     Assigning the least permissive role means giving admins only the access they need to get the job done.
@@ -37,7 +37,7 @@ For example, if you want someone to reset employee passwords, you shouldn't assi
 :::row-end:::
 :::row:::
   :::column:::
-    Require multi-factor authentication (MFA) for admins
+    Require multi-factor authentication (MFA) for admins.
   :::column-end:::
   :::column:::
     It's a good idea to require MFA for all your users, but admins should definitely be required to use MFA to sign in. MFA makes users enter a second method of identification to verify they are who they say they are.
@@ -68,7 +68,7 @@ By default, only the most common roles that most organizations use are displayed
 :::row-end:::
 :::row:::
   :::column:::
-    Billing admin
+    Billing administrator
   :::column-end:::
   :::column:::
     Assign the Billing admin role to users who make purchases, manage subscriptions and service requests, and monitor service health.
@@ -81,7 +81,7 @@ Billing admins also can:
 :::row-end:::
 :::row:::
   :::column:::
-    Compliance admin
+    Compliance administrator
   :::column-end:::
   :::column:::
     Assign the Compliance admin role to users who are responsible for helping your organization:
@@ -97,7 +97,7 @@ Billing admins also can:
 :::row-end:::
 :::row:::
   :::column:::
-    Exchange admin
+    Exchange administrator
   :::column-end:::
   :::column:::
     Assign the Exchange admin role to users who need to view and manage your user's email mailboxes, Microsoft 365 groups, and Exchange Online. The Exchange admin is also responsible for managing message flow in Microsoft 365.
@@ -109,12 +109,12 @@ Exchange admins can also:
 \- Set up, Send As, and Send on Behalf delegates for someone's mailbox; for example, when an executive wants their assistant to have permission to send mail on the executive's behalf.
 \- Create shared mailboxes so a group of people can monitor and send email from a common email address.
 \- Set up anti-spam and malware filters for the organization.
-\- Manage Microsoft 365 Groups.When the Exchange Administrator role is assigned to a user, it's recommended that they also be assigned the Service Administrator role. This way they can see important information in the Microsoft 365 admin center, such as the health of the Exchange Online service, and change and release notifications.
+\- Manage Microsoft 365 Groups.It's recommended that users who are assigned the Exchange Administrator role should also be assigned the Service Administrator role. This way they can see important information in the Microsoft 365 admin center, such as the health of the Exchange Online service, and change and release notifications.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    Global admin
+    Global administrator
   :::column-end:::
   :::column:::
     Assign the Global admin role to users who need global access to most management features and data across Microsoft online services.
@@ -137,7 +137,7 @@ The person who signed up for Microsoft online services is automatically assigned
 :::row-end:::
 :::row:::
   :::column:::
-    Groups admin
+    Groups administrator
   :::column-end:::
   :::column:::
     Assign the groups admin role to users who need to manage all groups settings across admin centers, including the Microsoft 365 admin center and Azure Active Directory portal.
@@ -150,7 +150,7 @@ Groups admins can:
 :::row-end:::
 :::row:::
   :::column:::
-    Helpdesk admin
+    Helpdesk administrator
   :::column-end:::
   :::column:::
     Assign the Helpdesk admin role to users who must complete the following tasks:
@@ -170,7 +170,7 @@ The Helpdesk admin can only help non-admin users and users assigned the followin
 :::row-end:::
 :::row:::
   :::column:::
-    License admin
+    License administrator
   :::column-end:::
   :::column:::
     Assign the License admin role to users who need to assign and remove licenses from users and edit their usage location.
@@ -182,7 +182,7 @@ License admins also can:
 :::row-end:::
 :::row:::
   :::column:::
-    Office Apps admin
+    Office Apps administrator
   :::column-end:::
   :::column:::
     Assign the Office Apps admin role to users who must complete the following tasks:
@@ -194,7 +194,7 @@ License admins also can:
 :::row-end:::
 :::row:::
   :::column:::
-    Password admin
+    Password administrator
   :::column-end:::
   :::column:::
     Assign the Password admin role to a user who needs to reset passwords for non-administrators and Password Administrators.
@@ -214,7 +214,7 @@ License admins also can:
 :::row-end:::
 :::row:::
   :::column:::
-    Power Platform admin
+    Power Platform administrator
   :::column-end:::
   :::column:::
     Assign the Power Platform admin role to users who must complete the following tasks:
@@ -237,7 +237,7 @@ License admins also can:
 :::row-end:::
 :::row:::
   :::column:::
-    Security admin
+    Security administrator
   :::column-end:::
   :::column:::
     Assign the Security admin role to admins who control your organization's overall security. They do so by managing security policies, reviewing security analytics and reports across Microsoft 365 products, and staying up-to-speed on the threat landscape.
@@ -258,7 +258,7 @@ Security admins can also:
 :::row-end:::
 :::row:::
   :::column:::
-    Service Support admin
+    Service Support administrator
   :::column-end:::
   :::column:::
     Assign the Service Support admin role as an extra role to admins or users who must complete the following tasks besides their usual admin role:
@@ -270,7 +270,7 @@ Security admins can also:
 :::row-end:::
 :::row:::
   :::column:::
-    SharePoint admin
+    SharePoint administrator
   :::column-end:::
   :::column:::
     Assign the SharePoint admin role to users who need to access and manage the SharePoint Online admin center.
@@ -303,7 +303,7 @@ Teams administrator can also:
 :::row-end:::
 :::row:::
   :::column:::
-    User admin
+    User administrator
   :::column-end:::
   :::column:::
     Assign the User admin role to users who must complete the following tasks for all users:
