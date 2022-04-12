@@ -11,7 +11,7 @@ Organizational data contains effective dates that map to the Microsoft 365 data.
 
 ### Microsoft Viva Insights and data privacy
 
-Microsoft Viva Insights resides within the Microsoft 365 trust boundaries. These boundareis are defined by organizations for privacy safeguards and protections of individual employees. By default, only metadata is processed for generating metrics that don't include personal information. Your organization has full control over how Viva Insights is used, deployed, and the visibility it has in your organization.
+Microsoft Viva Insights resides within the Microsoft 365 trust boundaries. These boundaries are defined by organizations for privacy safeguards and protections of individual employees. By default, only metadata is processed for generating metrics that don't include personal information. Your organization has full control over how to use and deploy Viva Insights.
 
 User-specific controls in Viva Insights include:
 
@@ -50,7 +50,7 @@ The following diagram shows how the Microsoft 365 Enterprise Admin assigns licen
 
 ### Assign licenses
 
-An organization's Microsoft 365 Enterprise Admin should work with the company's business leaders to determine which users to include in the analysis population. This group consistgs of the employees whose digital collaboration patterns the company wants to evaluate.
+An organization's Microsoft 365 Enterprise Admin should work with the company's business leaders to determine which users to include in the analysis population. This group consists of the employees whose digital collaboration patterns the company wants to evaluate.
 
 The enterprise admin can use Azure Active Directory or Windows PowerShell to assign users or group-based licenses. It's important to note that assigning a Viva Insights license to a mailbox doesn't change the employee's day-to-day experience.
 

@@ -95,7 +95,7 @@ The first time that you activate Microsoft Viva Insights, you need just the five
   :::column:::
     
 
- -  sion, Department, Cost center
+ -  Division, Department, Cost center
  -  Level, Layer, Span
  -  Leader reports to
 
@@ -203,8 +203,7 @@ There are several considerations to keep in mind both the first time you create 
 
  -  Ensure fields are properly formatted for the type of data they contain (dates, text strings, or numbers).
  -  Ensure each data source or field has a unique identifier.
- -  For optional fields, if values aren't available, leave them blank or empty. (Replacing with "0" will affect average values.)
- -  
+ -  For optional fields, if values aren't available, leave them blank or empty. (Replacing with "0" will affect average values.) 
 
 
   :::column-end:::
