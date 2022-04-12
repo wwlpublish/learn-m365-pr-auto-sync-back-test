@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.analyze-your-microsoft-365-employee-data-use-microsoft-viva-insights.prepare-organizational-data-microsoft-viva-insights
+title: Prepare organizational data in Microsoft Viva Insights
+metadata:
+  title: Prepare organizational data in Microsoft Viva Insights
+  description: "Prepare organizational data in Microsoft Viva Insights"
+  ms.date: 04/12/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-prepare-organizational-data-microsoft-viva-insights.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso is creating its organizational data file to upload into Microsoft Viva Insights. In the file, the Organization attribute is used to calculate network breadth. Network breadth is the number of organizations where an employee has had meaningful interactions in the last X number of days. What's the number of days (X) used by Viva Insights to calculate network breadth?"
+    choices:
+    - content: "31 days"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the correct number of days used to calculate network breadth."
+    - content: "60 days"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the correct number of days used to calculate network breadth."
+    - content: "28 days"
+      isCorrect: true
+      explanation: "Correct. The Organization attribute is used to calculate network breadth. Network breadth is the number of organizations where an employee has had meaningful interactions in the last 28 days."
