@@ -66,7 +66,7 @@ The following sections provide examples of themed business outcomes.
 
 The following screenshot displays the **Protect employee wellbeing** view. This view can be found by selecting the **Enhance organizational resiliency** outcome.
 
-:::image type="content" source="../media/insight-example-b28b19e8.png" alt-text="screenshot of the Protect employee wellbeing view":::
+:::image type="content" source="../media/insight-example-b28b19e8.png" alt-text="screenshot of the Protect employee wellbeing view" lightboox="../media/insight-example-b28b19e8.png":::
 
 
 #### Peer analysis
