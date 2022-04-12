@@ -6,6 +6,6 @@ In this module, you'll examine the monitoring features and functionality in Micr
 
 After completing this module, you'll be able to:
 
- -  Monitor your organization's Microsoft 365 service health in the Microsoft 365 admin center
- -  Develop an incident response plan to deal with incidents that may occur with your Microsoft 365 service
- -  Request assistance from Microsoft to address technical, pre-sales, billing, and subscription support issues
+ -  Monitor your organization's Microsoft 365 service health in the Microsoft 365 admin center.
+ -  Develop an incident response plan to deal with incidents that may occur with your Microsoft 365 service.
+ -  Request assistance from Microsoft to address technical, pre-sales, billing, and subscription support issues.
