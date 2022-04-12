@@ -21,7 +21,7 @@ The Microsoft 365 Defender portal includes default role groups for the most comm
 
 The following types of roles and role groups are available in on the **Permissions &amp; roles** page in the Microsoft 365 Defender portal:
 
- -  **Azure AD roles**. Azure AD roles are central roles that assign permissions for all Microsoft 365 services. You can view the roles and assigned users in the Microsoft 365 Defender portal. However, you can only manage the roles in Azure AD.<br>
+ -  **Azure AD roles**. Azure AD roles are central roles that assign permissions for all Microsoft 365 services. You can view the roles and assigned users in the Microsoft 365 Defender portal. However, you can only manage the roles in Azure AD.
  -  **Email and collaboration roles**. The permissions that you assign here are specific to the Microsoft 365 Defender portal and the Microsoft 365 compliance center. However, they don't cover all the permissions that are needed in other Microsoft 365 workloads. Other online services such as Exchange Online and SharePoint Online have their own permission models. You'll manage these service-specific roles in their respective portals.
 
 The following screenshot displays the **Permissions &amp; roles** page in the Microsoft 365 Defender portal.

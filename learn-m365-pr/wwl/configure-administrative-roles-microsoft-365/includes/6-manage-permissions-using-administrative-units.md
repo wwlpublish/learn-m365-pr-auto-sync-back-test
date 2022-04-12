@@ -88,7 +88,7 @@ The following sections describe current support for administrative unit scenario
 |         Administrative unit-scoped management of group licensing         |               X                |        X         |                                |
 
 > [!NOTE]
-> Adding a group to an administrative unit doesn't grant scoped group administrators the ability to manage properties for individual members of that group. For example, a scoped group administrator can manage group membership. However, they can't manage authentication methods of users who are members of the group added to an administrative unit.<br><br>Let's assume you want to manage authentication methods of users who are members of the group that's added to an administrative unit. In this case, the individual group members must be directly added as users of the administrative unit. The group administrator must also be assigned a role that can manage user authentication methods.
+> Adding a group to an administrative unit doesn't grant scoped group administrators the ability to manage properties for individual members of that group. For example, a scoped group administrator can manage group membership. However, they can't manage authentication methods of users who are members of the group added to an administrative unit. Let's assume you want to manage authentication methods of users who are members of the group that's added to an administrative unit. In this case, the individual group members must be directly added as users of the administrative unit. The group administrator must also be assigned a role that can manage user authentication methods.
 
 #### Device management
 

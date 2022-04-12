@@ -104,7 +104,7 @@ ObjectId                            DisplayName              Description
 03618579-3c16-4765-9539-86d9163ee3d9 Helpdesk Administrator  Can reset passwords for non-administrators and Helpdesk Administrators.
 ```
 
-When you run the **Enable-AzureADDirectoryRole** command in step 4, it enables the role and displays its ObjectID. You'll copy and paste this ObjectID into the **Add-AzureADDirectoryRoleMember** command. In this example, the ObjectID for the newly enabled role is 03618579-3c16-4765-9539-86d9163ee3d9.<br>
+When you run the **Enable-AzureADDirectoryRole** command in step 4, it enables the role and displays its ObjectID. You'll copy and paste this ObjectID into the **Add-AzureADDirectoryRoleMember** command. In this example, the ObjectID for the newly enabled role is 03618579-3c16-4765-9539-86d9163ee3d9.
 
 Similarly, can you copy and paste in the ObjectId for Patti Fernandez's user account after you ran the **Get-AzureADUser** command. In this example, the ObjectID for Patti's user account is a4a9ed46-369c-4b69-9e47-d2ac6029485d.
 
