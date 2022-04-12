@@ -1,6 +1,6 @@
 In Microsoft 365, administrator roles are used to assign specific administrative functions to users. Each admin role maps to common business functions and gives people permissions to do specific tasks in the Microsoft 365 admin center. Admin roles can be managed in Microsoft 365 using the Microsoft 365 admin center or Windows PowerShell.
 
-Individual service administrators can administer their services on the highest level, while the Global admin role simply includes all these service admin roles. This relationship is shown in the following diagram.<br>
+Individual service administrators can administer their services on the highest level, while the Global admin role simply includes all these service admin roles. This relationship is shown in the following diagram.
 
 > [!NOTE]
 > All service admin roles are included in the Global admin role, not just the four service admin roles shown here. The following diagram illustrates the relationship between the service admin roles and the Global admin role.
@@ -31,7 +31,7 @@ To assign admin roles in Microsoft 365 admin center, you must sign in using a Gl
 
 Azure Active Directory PowerShell for Graph (Azure AD PowerShell) is the module IT Pros commonly use to manage their Azure Active Directory, including admin role assignments and maintenance. You should install the AzuerAD module and then connect to it.
 
-There's two pieces of data that are required to assign an admin role to a user:<br>
+There's two pieces of data that are required to assign an admin role to a user:
 
  -  The object ID of the user.
  -  The object ID of the role.
@@ -42,7 +42,7 @@ Once you know this information, you can then use the **Add-AzureADDirectoryRoleM
 Add-AzureADDirectoryRoleMember -ObjectID <ObjectID of the role> -RefObjectId <ObjectID of the user>
 ```
 
-You must use the **Get-AzureADUser** cmdlet to display the ObjectID of the user that you want to assign the role to. For example, you would run the following command to retrieve the ObjectID for Patti Fernandez:<br>
+You must use the **Get-AzureADUser** cmdlet to display the ObjectID of the user that you want to assign the role to. For example, you would run the following command to retrieve the ObjectID for Patti Fernandez:
 
 ```powershell
 Get-AzureADUser -ObjectID "PattF@contoso.com"
@@ -62,8 +62,8 @@ Similarly, can you copy and paste in the ObjectId for Patti Fernandez's user acc
 
 You would then enter the following command and paste in each of the ObjectId's to assign Patti to the Helpdesk Administrator role:
 
-```
-Add-AzureADDirectoryRoleMember -ObjectID "729827c3-9c14-49f7-bb1b-9608-f156-bbb8" -RefObjectId "a4a9ed46-369c-4b69-9e47-d2ac6029485d"
+```Add-AzureADDirectoryRoleMember -ObjectID
+
 ```
 
 #### Enable an admin account and then add it to a user
@@ -79,7 +79,7 @@ Get-AzureADDirectoryRoleTemplate
 ObjectId                            DisplayName              Description
 --------                            -----------              -----------
 f023fd81-a637-4b56-95fd-791ac0226033 Global Administrator    Can manage all aspects of Azure AD and Microsoft services that use Azure AD identities.
-b0f54661-2d74-4c50-afa3-1ec803f12efe Billing Administrator   Can perform common billing related tasks like payment information.
+b0f54661-2d74-4c50-afa3-1ec803f12efe Billing Administrator  Can perform common billing related tasks like payment information.
 75941009-915a-4869-abe7-691bff18279e Guest user              Default role for guest users. Can read a limited set of directory information.
 d65e02d2-0214-4674-8e5d-766fb330e2c0 User Administrator      Can manage all aspects of users and groups, including resetting passwords for limited admins.
 d405c6df-0af8-4e3b-95e4-4d06e542189e Exchange Administrator  Can manage all aspect of the Exchange product.

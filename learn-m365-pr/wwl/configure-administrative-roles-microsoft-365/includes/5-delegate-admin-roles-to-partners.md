@@ -1,4 +1,4 @@
-If an organization doesn't have in-house administrators, it can outsource its Microsoft 365 administration to a Microsoft partner. For example, if an organization is small and doesn't need specialized IT administration roles, it may rely on a Microsoft partner to provide IT administrative functionality.<br>
+If an organization doesn't have in-house administrators, it can outsource its Microsoft 365 administration to a Microsoft partner. For example, if an organization is small and doesn't need specialized IT administration roles, it may rely on a Microsoft partner to provide IT administrative functionality.
 
 Outsourcing administration to a Microsoft partner is referred to in Microsoft 365 as delegated administration. It begins by a partner sending an organization an email message requesting that it give them permission to act as an administrator on their behalf.
 

@@ -56,7 +56,7 @@ Administrative unit-scoped admins can use the Microsoft 365 admin center for bas
 Administrative units apply scope only to management permissions. They don't prevent members or administrators from using their default user permissions to browse other users, groups, or resources outside the administrative unit. In the Microsoft 365 admin center, users outside a scoped admin's administrative units are filtered out. But you can browse other users in the Azure portal, PowerShell, and other Microsoft services.
 
 > [!NOTE]
-> Only the features described in this unit are available in the Microsoft 365 admin center. No organization-level features are available for an Azure AD role with administrative unit scope.<br>
+> Only the features described in this unit are available in the Microsoft 365 admin center. No organization-level features are available for an Azure AD role with administrative unit scope.
 
 The following sections describe current support for administrative unit scenarios.
 
@@ -88,7 +88,7 @@ The following sections describe current support for administrative unit scenario
 |         Administrative unit-scoped management of group licensing         |               X                |        X         |                                |
 
 > [!NOTE]
-> Adding a group to an administrative unit doesn't grant scoped group administrators the ability to manage properties for individual members of that group. For example, a scoped group administrator can manage group membership. However, they can't manage authentication methods of users who are members of the group added to an administrative unit.<br><br>Let's assume you want to manage authentication methods of users who are members of the group that's added to an administrative unit. In this case, the individual group members must be directly added as users of the administrative unit. The group administrator must also be assigned a role that can manage user authentication methods.<br>
+> Adding a group to an administrative unit doesn't grant scoped group administrators the ability to manage properties for individual members of that group. For example, a scoped group administrator can manage group membership. However, they can't manage authentication methods of users who are members of the group added to an administrative unit.<br><br>Let's assume you want to manage authentication methods of users who are members of the group that's added to an administrative unit. In this case, the individual group members must be directly added as users of the administrative unit. The group administrator must also be assigned a role that can manage user authentication methods.
 
 #### Device management
 
