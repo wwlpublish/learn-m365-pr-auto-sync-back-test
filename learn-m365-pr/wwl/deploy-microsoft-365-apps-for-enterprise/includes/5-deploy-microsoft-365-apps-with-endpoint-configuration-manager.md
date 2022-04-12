@@ -13,7 +13,7 @@ If an organization already uses Configuration Manager, it's recommended they upg
 > [!NOTE]
 > This unit covers the standard best practices and installation requirements for organizations that have chosen to deploy Semi-Annual Enterprise Channel.
 
-If you're not familiar with Configuration Manager, see [Introduction to Microsoft Endpoint Configuration Manager](/mem/configmgr/core/understand/introduction) before continuing on with this unit.
+If you're not familiar with Configuration Manager, see [Introduction to Microsoft Endpoint Configuration Manager](/mem/configmgr/core/understand/introduction?azure-portal=true) before continuing on with this unit.
 
 The steps in this unit are based on the following best practices:
 
@@ -73,7 +73,7 @@ The Office installation packages are represented as applications in Configuratio
 6.  On the **Deployment** page, select **Yes** to deploy the application, and then select **Next**.
 7.  On the **General** page, select a collection to deploy to, and then select **Next**. The collection should match the deployment group that receives the Office application you defined.
 8.  Configure the remainder of the wizard pages as you would for a typical application deployment.
-9.  Complete the wizard. After you create and deploy Microsoft 365 Apps for enterprise using the Office 365 Installer, Configuration Manager won't manage the Office updates by default. Instead, Office will update automatically. To enable Microsoft 365 Apps for enterprise to receive updates from Configuration Manager, see [Manage updates to Microsoft 365 Apps with Microsoft Endpoint Configuration Manager](/deployoffice/manage-microsoft-365-apps-updates-configuration-manager).
+9.  Complete the wizard. After you create and deploy Microsoft 365 Apps for enterprise using the Office 365 Installer, Configuration Manager won't manage the Office updates by default. Instead, Office will update automatically. To enable Microsoft 365 Apps for enterprise to receive updates from Configuration Manager, see [Manage updates to Microsoft 365 Apps with Microsoft Endpoint Configuration Manager](/deployoffice/manage-microsoft-365-apps-updates-configuration-manager?azure-portal=true).
 
 ### Step 4 - Create and deploy the Office application to the broad group
 
@@ -93,4 +93,4 @@ To view the Office 365 Client Management dashboard in the Configuration Manager 
 In the dashboard, make sure you see the Office versions, languages, and update channels that you deployed for each collection.
 
 > [!IMPORTANT]
-> If the data isn't displaying, you may need to enable hardware inventory and select the Office 365 ProPlus Configurations hardware inventory class. For more information, see [Configure hardware inventory](/mem/configmgr/core/clients/manage/inventory/configure-hardware-inventory).
+> If the data isn't displaying, you may need to enable hardware inventory and select the Office 365 ProPlus Configurations hardware inventory class. For more information, see [Configure hardware inventory](/mem/configmgr/core/clients/manage/inventory/configure-hardware-inventory?azure-portal=true).
