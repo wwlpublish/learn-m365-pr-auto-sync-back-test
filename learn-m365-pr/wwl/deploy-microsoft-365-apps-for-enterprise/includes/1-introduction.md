@@ -26,4 +26,3 @@ After completing this module, you’ll be able to:
  -  Deploy Microsoft 365 Apps for enterprise using group policy.
  -  Describe how to manage Microsoft 365 Apps for enterprise updates.
  -  Determine which update channel and application method applies for your organization.
-

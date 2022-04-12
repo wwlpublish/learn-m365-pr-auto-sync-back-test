@@ -81,7 +81,7 @@ Five of the eight steps required to deploy Microsoft 365 Apps for enterprise fro
 :::row-end:::
 
 
-The following sections describe the steps involved in deploying Microsoft 365 Apps for enterprise from a local source.<br>
+The following sections describe the steps involved in deploying Microsoft 365 Apps for enterprise from a local source.
 
 ### Step 1: Create shared folders for Office installation files
 

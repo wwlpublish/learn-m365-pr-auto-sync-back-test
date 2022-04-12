@@ -58,7 +58,7 @@ In more complex deployments, you would use multiple deployment groups.
 
 The Office installation packages are represented as applications in Configuration Manager. For each deployment group that you defined in your deployment plan, you should create a unique Office application using the following steps:
 
-1.  In the **Configuration Manager** console, navigate to **Software Library > Overview > Office 365 Client Management**.
+1.  In the **Configuration Manager** console, navigate to **Software Library &gt; Overview &gt; Office 365 Client Management**.
 2.  Select **Office 365 Installer** in the upper-right pane. The Office 365 Client Installation Wizard opens.
 3.  On the **Application Settings** page, provide a name and description for the app, enter the download location for the files, and then select **Next**. The location must be specified as **\\\\server\\share**.
 4.  On the **Office Settings** page, select **Go to the Office Customization Tool**. Configure the desired settings for your Microsoft 365 Apps for enterprise installation. The following options are recommended:
@@ -88,7 +88,7 @@ You can use the Office 365 Client Management dashboard to ensure you deployed th
  -  Office 365 client languages
  -  Office 365 client channels
 
-To view the Office 365 Client Management dashboard in the Configuration Manager console, go to **Software Library > Overview > Office 365 Client Management**. At the top of the dashboard, use the **Collection** drop-down setting to filter the dashboard data by members of a specific collection.
+To view the Office 365 Client Management dashboard in the Configuration Manager console, go to **Software Library &gt; Overview &gt; Office 365 Client Management**. At the top of the dashboard, use the **Collection** drop-down setting to filter the dashboard data by members of a specific collection.
 
 In the dashboard, make sure you see the Office versions, languages, and update channels that you deployed for each collection.
 

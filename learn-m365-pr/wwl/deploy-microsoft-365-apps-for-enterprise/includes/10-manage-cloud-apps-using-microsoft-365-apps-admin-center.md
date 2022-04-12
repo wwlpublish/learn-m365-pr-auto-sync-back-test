@@ -36,13 +36,13 @@ From the Inventory page, you can drill down to see detailed information about a 
  -  add-ins or macros that are present on the device
  -  the last signed in user
 
-For more information, see [Overview of inventory](/deployoffice/admincenter/inventory?azure-portal=true).<br>
+For more information, see [Overview of inventory](/deployoffice/admincenter/inventory?azure-portal=true).
 
 ### Service update status
 
 You can use the security update status page in the Microsoft 365 Apps admin center to see which devices have installed the latest security updates for Office. The Security Update Status page can help organizations track their progress on getting devices up to date and secure with each security update.
 
-You can also use this page to set a security implementation goal. You can specify as your goal the percentage of devices you want to update within a given timeframe (in days). Setting a goal doesn't create any policies or changes to your devices. The goal is used only for your personal reporting on the Security Update Status page. For more information, see [Overview of the security update status](/deployoffice/admincenter/security-update-status?azure-portal=true).<br>
+You can also use this page to set a security implementation goal. You can specify as your goal the percentage of devices you want to update within a given timeframe (in days). Setting a goal doesn't create any policies or changes to your devices. The goal is used only for your personal reporting on the Security Update Status page. For more information, see [Overview of the security update status](/deployoffice/admincenter/security-update-status?azure-portal=true).
 
 ### Servicing profile
 
