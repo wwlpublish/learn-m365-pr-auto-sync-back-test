@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-administrative-roles-microsoft-365.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/13/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which administrator role in Microsoft 365 is the only admin role who can assign other admin roles?"
+    choices:
+    - content: "Enterprise Administrator"
+      isCorrect: false
+      explanation: "Incorrect. This role is a personnel position within a company, but it isn't a Microsoft 365 admin role."
+    - content: "User Management Administrator"
+      isCorrect: false
+      explanation: "Incorrect. This role can reset passwords, monitor service health, add and delete user accounts, and manage service requests. However, it can't assign other admin roles."
+    - content: "Global Administrator"
+      isCorrect: true
+      explanation: "Correct. This role is the ultimate administrator. It includes access to all administrative features in Microsoft 365. It's also the only admin role that can assign other admin roles."
+  - content: "Tailspin Toys is a small organization that doesn't have specialized IT administration roles. As such, it wants to outsource its IT administrative functionality to a Microsoft partner. The partner began by sending Tailspin Toys an email message requesting that it give them permission to act as an administrator on their behalf. What should Tailspin do next?"
+    choices:
+    - content: "Assign the Full Administration role to the delegated administrator"
+      isCorrect: false
+      explanation: "Incorrect. This action isn't the next step that Tailspin Toys should complete."
+    - content: "Assign the Limited Administration role to the delegated administrator"
+      isCorrect: false
+      explanation: "Incorrect. This action isn't the next step that Tailspin Toys should complete."
+    - content: "Accept the delegated administration offer in Microsoft 365"
+      isCorrect: true
+      explanation: "Correct. Outsourcing administration to a Microsoft partner is referred to in Microsoft 365 as delegated administration. It begins by a partner sending an organization an email message requesting that it give them permission to act as an administrator on their behalf. The organization must then accept the delegated administration offer in Microsoft 365. This offer authorizes the partner to be the organization's delegated administrator."
+  - content: "As the Global Administrator for Fabrikam, Holly Spencer assigned Patti Fernandez the Exchange Administrator role. What other role should Holly assign to Patti so that Patti can see important information in the Microsoft 365 admin center, such as the health of the Exchange Online service, and change and release notifications?"
+    choices:
+    - content: "Service Administrator"
+      isCorrect: true
+      explanation: "Correct. When the Exchange Administrator role is assigned to a user, it's recommended that they also be assigned the Service Administrator role. This way they can see important information in the Microsoft 365 admin center, such as the health of the Exchange Online service, and change and release notifications."
+    - content: "Security Administrator"
+      isCorrect: false
+      explanation: "Incorrect. This role doesn't enable the user to see important information in the Microsoft 365 admin center, such as the health of the Exchange Online service, and change and release notifications."
+    - content: "Compliance Administrator"
+      isCorrect: false
+      explanation: "Incorrect. This role doesn't enable the user to see important information in the Microsoft 365 admin center, such as the health of the Exchange Online service, and change and release notifications."
