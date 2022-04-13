@@ -4,48 +4,49 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 02/16/2021
+  ms.date: 04/13/2022
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 2
 content: |
   [!include[](includes/5-knowledge-check.md)]
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Which version of a product is the release version?"
+  - content: "Which phase of a product is the release version?"
     choices:
-    - content: "Private Preview"
+    - content: "Private preview"
       isCorrect: false
-      explanation: "That's incorrect. General Availability is the release version of a product"
-    - content: "Public Preview"
+      explanation: "Incorrect. The general availability (GA) phase is the release version of a product."
+    - content: "Public preview"
       isCorrect: false
-      explanation: "That's incorrect. General Availability is the release version of a product"
-    - content: "General Availability"
+      explanation: "Incorrect. The general availability (GA) phase is the release version of a product."
+    - content: "General availability (GA)"
       isCorrect: true
-      explanation: "That's correct. General Availability is the release version of a product"
-  - content: "What is the minimum prior notification will Microsoft give before ending support for products governed by the Modern Lifecycle Policy?"
+      explanation: "Correct. The general availability (GA) phase is the release version of a product."
+  - content: "What is the minimum amount of months Microsoft will give notice before ending support for products under the Modern Lifecycle Policy?"
     choices:
     - content: "6 months"
       isCorrect: false
-      explanation: "That's incorrect. Microsoft will provide a minimum of 12 months' prior notification before ending support for products governed by the Modern Lifecycle Policy"
+      explanation: "Incorrect. Microsoft gives a minimum of 12 months' notice before ending support for products under the Modern Lifecycle Policy."
     - content: "12 months"
       isCorrect: true
-      explanation: "That's Correct. Microsoft will provide a minimum of 12 months' prior notification before ending support for products governed by the Modern Lifecycle Policy"
+      explanation: "Correct. Microsoft gives a minimum of 12 months' notice before ending support for products under the Modern Lifecycle Policy."
     - content: "24 months"
       isCorrect: false
-      explanation: "That's incorrect. Microsoft will provide a minimum of 12 months' prior notification before ending support for products governed by the Modern Lifecycle Policy"
+      explanation: "Incorrect. Microsoft gives a minimum of 12 months' notice before ending support for products under the Modern Lifecycle Policy."
   - content: "What three phases does a feature have in the Microsoft 365 Roadmap?"
     choices:
     - content: "In development, Launched, Retired"
       isCorrect: false
-      explanation: "That's incorrect. The three phases that a feature has in the Microsoft 365 Roadmap are In development, Rolling out, and Launched"
+      explanation: "Incorrect. The three phases that a feature has in the Microsoft 365 Roadmap are In development, Rolling out, and Launched."
     - content: "In development, Rolling out, Launched"
       isCorrect: true
-      explanation: "That's Correct. The three phases that a feature has in the Microsoft 365 Roadmap are In development, Rolling out, and Launched"
+      explanation: "Correct. The three phases that a feature has in the Microsoft 365 Roadmap are In development, Rolling out, and Launched."
     - content: "In development, In testing, Launched"
       isCorrect: false
-      explanation: "That's incorrect. The three phases that a feature has in the Microsoft 365 Roadmap are In development, Rolling out, and Launched"
+      explanation: "Incorrect. The three phases that a feature has in the Microsoft 365 Roadmap are In development, Rolling out, and Launched."

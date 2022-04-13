@@ -1,14 +1,22 @@
-So that you can plan for the future, Microsoft regularly updates roadmaps for its products. Roadmaps include the status of a feature, whether it is in development, rolling out, or has launched, and the expected release date of that feature.
+Your organization can plan for the future with the **Microsoft 365 roadmap**. Microsoft regularly includes updates for its products and services in the Microsoft 365 roadmap. The roadmap is the central location for business decision makers, IT professionals, and anyone else who’s interested, to see what’s coming. It was created to help you plan, communicate changes, and take full advantage of your Microsoft 365 subscription.
+
+The roadmap displays feature cards that include the title, status, preview or version release date, product category, and cloud instance. The roadmap also groups the features into three update phases:
+
+1.  In development
+2.  Rolling out
+3.  Launched
+
+:::image type="content" source="../media/service-lifecycle-module-roadmap-unit-cec2e843.png" alt-text="service-lifecycle-module-roadmap-unit.png":::
 
 
-:::image type="content" source="../media/4-roadmap.png" alt-text="Screenshot of Microsoft 365 roadmap portal":::
+The following list describes what the Microsoft 365 Roadmap allows you to do:
 
-The Microsoft 365 Roadmap:
+ -  Search by product, keyword or feature ID.
+ -  Filter by product, release phase, cloud instance, platform, or new or updated.
+ -  Sort by general availability date or newest to oldest.
+ -  Download the current features in development as a CSV file.
+ -  View additional information about each update.
+ -  Use the RSS feed to be notified of feature updates in real-time.
+ -  Share an entire roadmap page or email a single feature.
 
-- Allows you to download the current features in development as a CSV file
-- Allows you to search by product, cloud instance, or platform
-- Allows you to view additional information about each update
-- Allows you to leverage RSS to be notified of feature updates in real time
-- Includes Windows and Azure Active Directory
-
-For more information, see [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
+To find out what features and functionality are coming, navigate to the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?azure-portal=true).

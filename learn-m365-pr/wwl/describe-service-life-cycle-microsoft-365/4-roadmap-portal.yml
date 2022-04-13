@@ -1,15 +1,16 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.describe-service-life-cycle-microsoft-365.use-roadmap-portal-to-learn-about-upcoming-features
-title: Use the Microsoft 365 roadmap portal to learn about upcoming features
+title: Utilize the Microsoft 365 roadmap portal to learn about upcoming features
 metadata:
-  title: Use the Microsoft 365 roadmap portal to learn about upcoming features
-  description: "Use the Microsoft 365 roadmap portal to learn about upcoming features"
-  ms.date: 02/16/2021
+  title: Utilize the Microsoft 365 roadmap portal to learn about upcoming features
+  description: "Utilize the Microsoft 365 roadmap portal to learn about upcoming features"
+  ms.date: 04/13/2022
   author: wwlpublish
-  ms.author: dahans
+  ms.author: asglenno
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 1
+labModal: false
+durationInMinutes: 2
 content: |
   [!include[](includes/4-roadmap-portal.md)]

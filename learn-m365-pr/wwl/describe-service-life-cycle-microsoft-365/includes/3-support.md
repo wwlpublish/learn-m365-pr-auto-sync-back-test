@@ -1,9 +1,9 @@
-Microsoft 365 is covered by the Modern Lifecycle Policy.
+Microsoft 365 is covered by the Modern Lifecycle Policy. The policy covers products and services that are serviced and supported continuously. Products and services governed by the Modern Lifecycle Policy are supported as long as the following criteria are met:
 
-Products and services governed by the Modern Lifecycle Policy are supported as long as customers stay current as per the servicing and licensing requirements published for the product or service and have the rights to use the product or service. Microsoft gives a minimum of 12 months' prior notification before ending support for products governed by the Modern Lifecycle Policy. These notifications don't include any free services, or preview releases.
+ -  Customers stay current as per the servicing and system requirements published for the product or service. Stay current means that customers accept and apply all servicing updates for their products and services.
+ -  Customers must be licensed to use the product or service.
+ -  Microsoft must currently offer support for the product or service.
 
-**Stay current** means that customers accept and apply all servicing updates for their products and services.
+Microsoft gives a minimum of 12 months' notice before ending support for products under the Modern Lifecycle Policy. These notifications don't include any free services or preview releases.
 
-For Microsoft 365, customers have the right to use the products or services as long as they have an active subscription.
-
-For more information on the Modern Lifecycle Policy, see [Modern Lifecycle Policy](https://docs.microsoft.com/lifecycle/policies/modern).
+For more information on the Modern Lifecycle Policy, see [Modern Lifecycle Policy](/lifecycle/policies/modern?azure-portal=true).

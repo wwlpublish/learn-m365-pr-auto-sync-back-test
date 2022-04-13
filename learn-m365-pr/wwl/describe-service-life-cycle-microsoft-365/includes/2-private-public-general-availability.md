@@ -1,23 +1,25 @@
-A product, or services, lifecycle typically has three phases:
+A product or service lifecycle typically has three phases:
 
-1. Private preview
-1. Public preview
-1. General Availability (GA)
+1.  Private preview
+2.  Public preview
+3.  General availability (GA)
 
-## Private preview
+When a product or a service retires, it reaches the phase end of support.
 
-A product, or service, might be released to a limited number of users in a private preview to test new features or functionality. Typically, users can sign up to be members of a private preview, but the preview release isn't made available to the general public.
+### Private preview
 
-## Public preview
+In this phase, Microsoft might release a product or service to a limited number of users to test and evaluate new features or functionality. This phase doesn't include formal support. Typically, users can sign up to be members of a private preview, but the preview release isn't made available to the public.
 
-To receive feedback from a broad range of users, Microsoft typically releases public previews of products and services before their GA release. These products and services are clearly marked as preview and include beta or pre-release features and services. Because preview features are pre-release, they aren't supported and should only be used to test upcoming functionality.
+### Public preview
 
-## General availability (GA)
+In this phase, Microsoft typically releases public previews of products and services before their GA release to receive feedback from a broad range of users. These products and services are clearly marked as preview and include beta or pre-release features and services. This phase allows users to explore and test upcoming functionality. Users may also receive some limited support depending on the product or service.
 
-When a product or service is GA, it's the release version and is fully supported. GA products and services have been through a full development and test lifecycle to ensure stability and reliability. With Microsoft 365, new features are added to the products and services periodically. It's useful for IT developers, and administrators, to be aware of preview features before they have their GA release. Organizations can then educate users about these new features and ensure products are used optimally.
+### General availability (GA)
 
-## End of support
+After the public preview is completed, Microsoft releases the product or service. The product or service becomes available to all customers with formal support, known as the release version. The products and services in this phase have been through a full development and test lifecycle to ensure stability and reliability. With Microsoft 365, new features are added to the products and services periodically. It's useful for IT developers, and administrators, to be aware of preview features before they have their general availability release. Organizations can then educate users about these new features, ensure products are used optimally and be aware of the impact on existing functionality.
 
-Eventually older products can no longer be supported and these products will reach the end of support. Once a product reaches end of support it will no longer receive updates.
+### End of support
 
-For more information on end of support, see [Overview - Product end of support](https://docs.microsoft.com/lifecycle/overview/product-end-of-support-overview).
+Eventually, older products or retired services can no longer be supported, and these products and services will reach the end of support. Once a product or service reaches end of support, it will no longer receive updates or assisted support. Customers are encouraged to migrate to the latest version of the product or service.
+
+For more information on end of support, see [Overview - Product end of support](/lifecycle/overview/product-end-of-support-overview?azure-portal=true).
