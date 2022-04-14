@@ -45,7 +45,7 @@ Once the development team have created the bot and deployed it in Azure, you nee
 1. Enter the required values.
     - Bot Handle is a unique identifier for your bot. You can choose a different Display Name for your bot in the Settings blade after bot creation.
     - Choose an Azure subscription and resource group
-    - Choose to crate a new Microsoft App ID
+    - Choose to create a new Microsoft App ID
 1. Select **Review + create**.
 1. If the validation passes, select **Create**.
 1. Select **Go to resource group**. You should see the bot and the related **Azure Key Vault** resources listed in the resource group you selected.
