@@ -24,16 +24,10 @@ Customers that need full-fledged, general purpose workflow/business process auto
     Per user
   :::column-end:::
   :::column:::
-    
-
-Per flow
-
-Minimum purchase of 5 flows
-
-
+    Per flowMinimum purchase of five flows
   :::column-end:::
   :::column:::
-    Through Microsoft 365, Dynamics 365, and Power Apps
+    Through Microsoft 365, Dynamics 365, and Power Apps.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -41,13 +35,13 @@ Minimum purchase of 5 flows
     **Description**
   :::column-end:::
   :::column:::
-    Allow individual users to create unlimited flows based on their unique needs
+    Allow individual users to create unlimited flows based on their unique needs.
   :::column-end:::
   :::column:::
-    Implement flows with reserved capacity that serve unlimited users across an organization
+    Implement flows with reserved capacity that serve unlimited users across an organization.
   :::column-end:::
   :::column:::
-    Automate business processes and workflows for Microsoft 365, Dynamics 365, and Power Apps
+    Automate business processes and workflows for Microsoft 365, Dynamics 365, and Power Apps.
 
   :::column-end:::
 :::row-end:::
@@ -78,18 +72,18 @@ Environments provide the following benefits:
 
  -  **Data locality.** When an environment is created in different region, it's bound to that geographic location. When you create a flow in an environment, that flow is routed to all datacenters in that geographic location. This design also provides a performance benefit. If your users are in Europe, create and use the environment in the Europe region. If your users are in the United States, create and use the environment in the U.S.
 
-    > [!IMPORTANT]
-    > If an environment is deleted, then all flows within that environment are also deleted. This rule applies to any items that are created in that environment, including connections, gateways, Power Apps, and more.
+> [!IMPORTANT]
+> If an environment is deleted, then all flows within that environment are also deleted. This rule applies to any items that are created in that environment, including connections, gateways, Power Apps, and more.
 
- -  **Data loss prevention.** Organizations don't want flows that get data from an internal location (such as OneDrive for Business or a SharePoint list that contains salary information) to post that data publicly (such as to Twitter). To prevent this situation, an organization should use data loss prevention policies and guidelines to control which services can share data within its Power Automate deployment. For example, the SharePoint and OneDrive for Business services can be added to a business data only policy. Any flows created in this environment can use SharePoint and OneDrive for Business services. However, they can't share data with other services that aren't included in the business data only policy.
+ -  **Data loss prevention.** Organizations don't want flows that get data from an internal location (such as OneDrive for Business or a SharePoint list that contains salary information) to post that data publicly (such as to Twitter). To prevent this situation, an organization should use data loss prevention policies and guidelines to control which services can share data within its Power Automate deployment. For example, the SharePoint and OneDrive for Business services can be added to a business data-only policy. Any flows created in this environment can use SharePoint and OneDrive for Business services. However, they can't share data with other services that aren't included in the business data-only policy.
  -  **Isolation boundary for all resources.** Any flows, gateways, connections, custom connectors, and so on, are located in a specific environment. They don't exist in any other environment.‎
- -  **Common Data Service.** The following options are available if an organization wants to create a flow that inserts data into a service:
+ -  **Microsoft Dataverse.** The following options are available if an organization wants to create a flow that inserts data into a service:
     
      -  Insert data into an Excel file, and store the Excel file in a cloud storage account, such as OneDrive.
      -  Create a SQL Database, and then store your data in it.
-     -  Use the Common Data Service to store your data.
+     -  Use Microsoft Dataverse to store your data.
 
-    > [!NOTE]
-    > Every environment can have a maximum of one database for your flows in the Common Data Service. Access to the Common Data Service depends on the license you purchased; the Common Data Service isn't included with the Free license.
+> [!NOTE]
+> Every environment can have a maximum of one database for your flows in Microsoft Dataverse. Access to Microsoft Dataverse depends on the license you purchased. Microsoft Dataverse isn't included with the Free license.
 
 Although environments provide many benefits, they also introduce new limitations. The fact that environments are an isolation boundary means that an organization can never have resources that reference resources across environments. For example, you can't create a custom connector in one environment and then create a flow that uses that custom connector in a different environment.
