@@ -164,7 +164,7 @@ Depending on your source system, see one of the following articles for assistanc
  -  [Migrate Google Workspace (formerly G Suite) mailboxes to Microsoft 365 or Office 365](/exchange/mailbox-migration/migrating-imap-mailboxes/migrate-g-suite-mailboxes).
  -  [Migrate other types of IMAP mailboxes to Microsoft 365 or Office 365](/exchange/mailbox-migration/migrating-imap-mailboxes/migrate-other-types-of-imap-mailboxes).
     
-    This article includes the instructions for the migration of CSV files for Exchange, Mirapoint, Dovecoat, and Courier IMAP.
+    This article includes the instructions for the migration of CSV files for Exchange, Mirapoint, Dovecot, and Courier IMAP.
  -  [IMAP migration in the Microsoft 365 admin center](/exchange/mailbox-migration/migrating-imap-mailboxes/imap-migration-in-the-admin-center).
 
 If the mailboxes you're migrating contain a large amount of data, you can also use the [Import service](/microsoft-365/compliance/importing-pst-files-to-office-365) to import PST files to Microsoft 365. You can use the Import Service to either ship the files or to import them across the network.

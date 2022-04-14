@@ -6,7 +6,9 @@ metadata:
   description: "Explore mail flow in Microsoft 365"
   ms.date: 04/14/2022
   author: wwlpublish
+  ms.author: tfrink
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 azureSandbox: false
 labModal: false
 durationInMinutes: 8

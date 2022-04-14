@@ -89,7 +89,7 @@ You should complete the following steps to create an organization relationship u
 
 1.  From the **Microsoft 365 admin center**, select **Exchange** in the navigation pane.
 2.  In the **Exchange admin center** navigation pane, select **organization** and then select **sharing**.
-3.  Under **Organization Sharing**, select **New+**.
+3.  Under **Organization Sharing**, select **New+.**
 4.  In **new organization relationship**, in the **Relationship name** box, type a friendly name for the organization relationship.
 5.  In the **Domains to share with** box, type the domain for the external Microsoft 365 organization or the Exchange on-premises organization that you want to create a relationship with. If you need to add more than one domain, you can do it after you create the organization relationship by editing it.
 6.  Select the **Enable calendar free/busy information sharing** check box to turn on calendar sharing with the domains you listed. Set the sharing level for calendar free/busy information and set which users can share calendar free/busy information.
