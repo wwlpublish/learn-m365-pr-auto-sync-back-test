@@ -66,14 +66,14 @@ The Azure VMs you create for Azure Virtual Desktop must be:
 
 ### Supported Remote Desktop clients
 
-The following Remote Desktop clients support Azure Virtual Desktop:
+The following [Remote Desktop clients](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients) support Azure Virtual Desktop:
 
 - Windows Desktop
 - Web
 - macOS
 - iOS
-- Android (Preview)
-- Linux
+- Android
+- Microsoft Store
 
 ### Supported VM OS images
 
