@@ -6,7 +6,7 @@ Exchange supports two types of SMTP domains: accepted domains and remote domains
 
 An accepted domain is a domain from which the Exchange organization receives and processes messages. Depending on the configuration of the accepted domain, the message may be delivered to an internal recipient or forwarded to another messaging organization.
 
-Accepted domains are another part of routing and receiving messages. Exchange Servers only accept mail that is sent to one or more of their accepted domains. Outgoing messages are checked against your accepted domains to determine if a message needs to be delivered wiithin your organization, to a partner organization, or if the recipients are external.
+Accepted domains are another part of routing and receiving messages. Exchange Servers only accept mail that is sent to one or more of their accepted domains. Outgoing messages are checked against your accepted domains to determine if a message needs to be delivered within your organization, to a partner organization, or if the recipients are external.
 
 There are three types of accepted domains: Authoritative domains, Internal relay domains, and External relay domains. Each of these accepted domain types is examined in the following sections.
 
@@ -26,7 +26,7 @@ An organization can be configured with multiple authoritative domains, which mak
 
 #### Relay domains
 
-An accepted domain should be configured as a relay domain (also known as non-authoritative domain) when some or none of the recipients in that domain exist in your Exchange organization (for example, partners or subsidiaries). Exchange isn't responsible for generating NDRs for non-existent recipients in a relay domain. Instead, you configure a Send connector with the address space of the relay domain, and you configure this Send connector to use smart host routing to relay messages to their destination (directly or to the next hop).
+An accepted domain should be configured as a relay domain (also known as non-authoritative domain) when some or none of the recipients in that domain exists in your Exchange organization (for example, partners or subsidiaries). Exchange isn't responsible for generating NDRs for non-existent recipients in a relay domain. Instead, you configure a Send connector with the address space of the relay domain, and you configure this Send connector to use smart host routing to relay messages to their destination (directly or to the next hop).
 
 You can configure a relay domain as either an internal or external relay domain. The characteristics of each are described below:
 

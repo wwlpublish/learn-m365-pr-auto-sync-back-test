@@ -27,7 +27,7 @@ quiz:
       explanation: "That's incorrect. A remote domain defines settings for message delivery to SMTP domains that are external to your Exchange Server organization."
     - content: "Relay domain"
       isCorrect: false
-      explanation: "That's incorrect. A relay domain is an accepted domain, but some or none of the recipients in that domain exist in your Exchange organization (for example, partners or subsidiaries)."
+      explanation: "That's incorrect. A relay domain is an accepted domain, but some or none of the recipients in that domain exists in your Exchange organization (for example, partners or subsidiaries)."
   - content: "Which message transport component can be configured to block automatic replies sent to SMTP domains that are external?"
     choices:
     - content: "Foreign connectors"
