@@ -6,24 +6,24 @@ The message transport process is almost the same in Exchange Server 2019 as it i
 
 The transport services use Simple Mail Transport Protocol (SMTP) to send and receive messages. SMTP is an internet standard for email that's supported by most email processing servers. The SMTP send component in one transport service delivers messages to the SMTP receive component in another transport service. Communication between transport services by using SMTP can occur within the same server or between Mailbox servers.
 
-Communication between the Mailbox Transport service and mailbox databases uses remote procedure call (RPC) and is only performed within the same server.
+Communication between the Mailbox Transport service and mailbox databases uses remote procedure call (RPC) and is only done within the same server.
 
 The following diagram shows the Exchange 2019 configuration with the transport services participating on message transport and delivery.
 
 :::image type="content" source="../media/message-transport-services-b4255bd2.png" alt-text="diagram showing the Exchange 2019 configuration with the three transport services participating on message transport and delivery.":::
 
 
-The transport services include:
+Transport services include:
 
- -  **Front-End Transport service**. This service proxies all inbound SMTP traffic from outside the Exchange organization to the Transport service. The Front-End Transport service doesn't perform any message processing or queuing. You also can use the Front-End Transport service to proxy outbound mail messages as well.
+ -  **Front-End Transport service**. This service proxies all inbound SMTP traffic from outside the Exchange organization to the Transport service. The Front-End Transport service doesn't do any message processing or queuing. You also can use the Front-End Transport service to proxy outbound mail messages as well.
  -  **Transport service**. This service is responsible for message categorization and content inspection. The Transport service delivers SMTP messages to other Mailbox servers, the Mailbox Transport service, or externally.
  -  **Mailbox Transport service**. This logical service is responsible for message delivery to and from mailbox databases. Remote procedure call (RPC) is used for communication with the mailbox database. The Mailbox Transport service is composed of two Windows services:
  -  **Mailbox Transport Delivery service**. This service is responsible for accepting messages from the Transport service and delivering them to the mailbox database.
- -  **Mailbox Transport Submission service**. This service is responsible for retrieving messages from the Outbox folder in mailboxes and delivering the messages to the Transport service.
+ -  **Mailbox Transport Submission service.** This service is responsible for retrieving messages from the Outbox folder in mailboxes and delivering the messages to the Transport service.
 
 ### Pickup and replay directories<br>
 
-Most messages enter the message transport pipeline through the SMTP Receive component, or by submission through the store driver. However, messages can also enter the message transport pipeline by being placed in the Pickup directory or Replay directory on a Mailbox server.
+Most messages enter the message transport pipeline through the SMTP Receive component, or by submission through the store driver. Messages can also enter the message transport pipeline by being placed in the Pickup directory or Replay directory on a Mailbox server.
 
 You can use the Pickup directory to submit a properly formatted text file as a message for delivery. This directory can be useful for validating mail flow in an organization, replaying specific messages, or returning recovered email to the message transport pipeline. Some legacy applications may also place messages directly into the Pickup directory for delivery, rather than communicate directly with Exchange Server SMTP Receive connectors.
 

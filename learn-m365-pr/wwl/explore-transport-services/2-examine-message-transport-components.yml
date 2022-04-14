@@ -4,7 +4,7 @@ title: Examine message transport components
 metadata:
   title: Examine message transport components
   description: "Examine message transport components"
-  ms.date: 03/09/2022
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Submission queue"
       isCorrect: false
-      explanation: "That's incorrect. When messages are received by the Transport service, they're placed in the submission queue. Messages wait in the submission queue until they're processed by the categorizer for delivery. Try again."
+      explanation: "That's incorrect. When messages are received by the Transport service, they're placed in the submission queue. Messages wait in the submission queue until they're processed by the categorizer for delivery."
     - content: "Pickup directory"
       isCorrect: false
-      explanation: "That's incorrect. Messages can enter the message transport pipeline by being placed in the Pickup directory or Replay directory on a Mailbox server. You can use the Pickup directory to submit a properly formatted text file as a message for delivery. Try again."
+      explanation: "That's incorrect. Messages can enter the message transport pipeline by being placed in the Pickup directory or Replay directory on a Mailbox server. You can use the Pickup directory to submit a properly formatted text file as a message for delivery."
     - content: "Categorizer"
       isCorrect: true
       explanation: "That's correct. The categorizer is the component that's responsible for making routing decisions. Each message is retrieved from the submission queue and processed by the categorizer to determine how a message should be delivered. Once the message delivery process has been determined, the categorizer places the message in a delivery queue."
