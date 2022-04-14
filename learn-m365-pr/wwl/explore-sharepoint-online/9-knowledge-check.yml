@@ -24,7 +24,7 @@ quiz:
       explanation: "Incorrect. This type of SharePoint site doesn't allow you to connect and organization your SharePoint sites to provide the specified features."
     - content: "Hub site"
       isCorrect: true
-      explanation: "Correct. SharePoint hub sites connect and organize sites based on organizational attributes such as project, department, division, or region. This design make it easier for users to search across all associated sites and apply common navigation, branding, and site structure across associated sites."
+      explanation: "Correct. SharePoint hub sites connect and organize sites based on organizational attributes such as project, department, division, or region. This design makes it easier for users to search across all associated sites and apply common navigation, branding, and site structure across associated sites."
     - content: "Site collection"
       isCorrect: false
       explanation: "Incorrect. This type of SharePoint site doesn't allow you to connect and organization your SharePoint sites to provide the specified features."

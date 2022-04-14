@@ -11,13 +11,13 @@ The following table identifies the features of each building block. It also offe
     
   :::column-end:::
   :::column:::
-    Team site
+    **Team site**(Collaborate)
   :::column-end:::
   :::column:::
-    Communication site
+    **Communication site**(Communicate)
   :::column-end:::
   :::column:::
-    Hub site
+    **Hub site**(Connect)
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -25,13 +25,19 @@ The following table identifies the features of each building block. It also offe
     **Primary business goal**
   :::column-end:::
   :::column:::
-    **Collaborate**Used when an organization wants to create a place where the members of a work group or project team can work together on project deliverables, plan an event, track status, or exchange ideas.Team sites are connected by default to a Microsoft 365 group. This design enables teams sites to deliver a full range of communication and collaboration tools, including Microsoft Teams and Planner.
+    Used when an organization wants to create a place where the members of a work group or project team can work together on project deliverables, plan an event, track status, or exchange ideas.
+
+Team sites are connected by default to a Microsoft 365 group. This design enables teams sites to deliver a full range of communication and collaboration tools, including Microsoft Teams and Planner.
   :::column-end:::
   :::column:::
-    **Communicate**Used when an organization wants to broadcast a message, tell a story, share content for viewing (but not editing), or showcase services or people.Communication site owners often want to include an engagement component - for example an "Ask Business Development" area on a site communicating information about business development.A communication site is a great place to connect a Yammer group.
+    Used when an organization wants to broadcast a message, tell a story, share content for viewing (but not editing), or showcase services or people.
+
+Communication site owners often want to include an engagement component - for example an "Ask Business Development" area on a site communicating information about business development.
+
+A communication site is a great place to connect a Yammer group.
   :::column-end:::
   :::column:::
-    **Connect**Used when an organization wants to create a shared experience for a family of related sites—to discover related content by rolling up site activity and news, organize related sites so that they share a common navigation, and apply a common look and feel.
+    Used when an organization wants to create a shared experience for a family of related sites—to discover related content by rolling up site activity and news, organize related sites so that they share a common navigation, and apply a common look and feel.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -45,12 +51,17 @@ The following table identifies the features of each building block. It also offe
     Small number of content authors and a much larger number of content readers or consumers.
   :::column-end:::
   :::column:::
-    The hub site owner defines the shared experiences for hub navigation and theme.Hub site members create content on the hub site as with any other SharePoint site.Owners and members of the sites associated with the parent hub create content on individual sites.
+    The hub site owner defines the shared experiences for hub navigation and theme.
+
+Hub site members create content on the hub site as with any other SharePoint site.
+
+Owners and members of the sites associated with the parent hub create content on individual sites.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    **Governance**(as allowed for an organization based on its settings in the Security &amp; Compliance center)
+    **Governance**
+(as allowed for an organization based on its settings in the Microsoft 365 compliance center)
   :::column-end:::
   :::column:::
     Norms are typically determined by the team. Practices are aligned in the best way to get work done.
@@ -59,7 +70,9 @@ The following table identifies the features of each building block. It also offe
     Policies are often determined by the organization to ensure consistency of experience and effective management of organizational information.
   :::column-end:::
   :::column:::
-    Governance is determined by each owner of the associated site based on the type of site and organizational policies.The best experience for visitors is achieved when everyone has at least Read permissions for associated sites (although it isn't required).
+    Governance is determined by each owner of the associated site based on the type of site and organizational policies.
+
+The best experience for visitors is achieved when everyone has at least Read permissions for associated sites (although it isn't required).
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -95,13 +108,27 @@ The following table identifies the features of each building block. It also offe
     **Examples**
   :::column-end:::
   :::column:::
-    Project team working together to complete deliverables and manage tasks.Holiday party planning committee planning the annual get-together with the HR performance management team.Executive committee—different leadership groups within the organization Extranet site to work with Partner A.
+    Project team working together to complete deliverables and manage tasks.
+
+Holiday party planning committee planning the annual get-together with the HR performance management team.
+
+Executive committee—different leadership groups within the organization Extranet site to work with Partner A.
   :::column-end:::
   :::column:::
-    Travel team publishing guidelines about corporate travel.Policies and procedures.Micro-site for a new corporate initiative.Resources for the sales team for a product or service.
+    Travel team publishing guidelines about corporate travel.
+
+Policies and procedures.
+
+Micro-site for a new corporate initiative.
+
+Resources for the sales team for a product or service.
   :::column-end:::
   :::column:::
-    HR hub that provides a connection and roll-up for all HR functions, such as benefits, compensation, performance management, talent acquisition, and a manager portal.Sales hub providing enterprise resources for the Sales organization and connecting regional sales team and communication sites.Location-specific hub that groups the communication and team sites for a specific location (the New York office)
+    HR hub that provides a connection and roll-up for all HR functions, such as benefits, compensation, performance management, talent acquisition, and a manager portal.
+
+Sales hub providing enterprise resources for the Sales organization and connecting regional sales team and communication sites.
+
+Location-specific hub that groups the communication and team sites for a specific location (the New York office)
   :::column-end:::
 :::row-end:::
 
