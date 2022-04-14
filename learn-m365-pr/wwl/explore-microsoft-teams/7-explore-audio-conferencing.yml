@@ -4,13 +4,12 @@ title: Explore audio conferencing
 metadata:
   title: Explore audio conferencing
   description: "Explore audio conferencing"
-  ms.date: 09/10/2021
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 6
 content: |
@@ -22,10 +21,10 @@ quiz:
     choices:
     - content: "A dynamic conference ID"
       isCorrect: true
-      explanation: "That's correct. When dynamic conference IDs are used, each meeting that a user schedules will get assigned a unique conference ID. The user will have have to remember a specific ID to assign to the meeting request."
+      explanation: "Correct. When dynamic conference IDs are used, each meeting that a user schedules will get assigned a unique conference ID. The user will have have to remember a specific ID to assign to the meeting request."
     - content: "A static conference ID"
       isCorrect: false
-      explanation: "That's incorrect. You wouldn't assign this ID type to your users when you don't want them to have to remember a specific ID. Try again."
+      explanation: "Incorrect. You wouldn't assign this ID type to your users when you don't want them to have to remember a specific ID."
     - content: "A PSTN conference ID"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't a valid conference ID type. Try again."
+      explanation: "Incorrect. This item isn't a valid conference ID type."

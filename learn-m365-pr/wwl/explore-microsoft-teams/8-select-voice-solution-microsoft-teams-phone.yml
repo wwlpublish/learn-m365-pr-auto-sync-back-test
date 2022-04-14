@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-microsoft-teams.select-voice-solution-microsoft-teams-phone
+title: Select a voice solution using Microsoft Teams Phone
+metadata:
+  title: Select a voice solution using Microsoft Teams Phone
+  description: "Select a voice solution using Microsoft Teams Phone"
+  ms.date: 04/14/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/8-select-voice-solution-microsoft-teams-phone.md)]

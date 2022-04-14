@@ -4,13 +4,12 @@ title: Analyze the Teams infrastructure
 metadata:
   title: Analyze the Teams infrastructure
   description: "Analyze the Teams infrastructure"
-  ms.date: 09/10/2021
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 5
 content: |
@@ -22,10 +21,10 @@ quiz:
     choices:
     - content: "A channel"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't what you would create in Teams to invite a select group of users to work together. Try again."
+      explanation: "Incorrect. This item isn't what you would create in Teams to invite a select group of users to work together."
     - content: "A public team"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't what you would create in Teams to invite a select group of users to work together. Try again."
+      explanation: "Incorrect. This item isn't what you would create in Teams to invite a select group of users to work together."
     - content: "A private team"
       isCorrect: true
-      explanation: "That's correct. A private team is closed to only invited users. This item is what you would create in Teams to invite a select group of users to work together."
+      explanation: "Correct. A private team is closed to only invited users. This item is what you would create in Teams to invite a select group of users to work together."

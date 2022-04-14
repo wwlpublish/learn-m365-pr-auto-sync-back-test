@@ -8,27 +8,15 @@ The following table identifies use cases for each of these applications in Micro
 
 :::row:::
   :::column:::
-    
-
-**Microsoft 365 Application**
-
-
+    **Microsoft 365 Application**
   :::column-end:::
   :::column:::
-    
-
-**Use case**
-
-
+    **Use case**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Microsoft Teams
-
-
+    Microsoft Teams
   :::column-end:::
   :::column:::
     
@@ -44,11 +32,7 @@ Microsoft Teams
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Outlook
-
-
+    Outlook
   :::column-end:::
   :::column:::
     
@@ -62,11 +46,7 @@ Outlook
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Yammer
-
-
+    Yammer
   :::column-end:::
   :::column:::
     
@@ -81,11 +61,7 @@ Yammer
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-SharePoint
-
-
+    SharePoint
   :::column-end:::
   :::column:::
     
@@ -99,13 +75,13 @@ SharePoint
 :::row-end:::
 
 
-**Additional reading.** For more information, see the [Skype for Business to Teams roadmap](https://aka.ms/skype2teamsroadmap?azure-portal=true).
+**Additional reading.** For more information, see [Skype for Business to Teams roadmap](https://aka.ms/skype2teamsroadmap?azure-portal=true).
 
 ### App permission policies
 
 ‎App permission policies control the apps are available to Microsoft Teams users. App permission policies enable an organization to allow or block all apps or specific apps published by Microsoft, third parties, and the organization itself. When a policy is created that blocks an app, users who are assigned the policy can't install the app from the Teams app store. A user must be a Global admin or a Teams service admin to manage app permission policies.
 
-When using Microsoft Teams, the tenant-wide app settings that are configured in the Microsoft 365 admin center are reflected in the **org-wide app settings** on the **Manage apps** page. If you're new to Teams and just getting started, all apps are allowed in the global policy by default. These apps include apps published by Microsoft, third parties, and your organization.
+When an organization uses Microsoft Teams, the tenant-wide app settings that are configured in the Microsoft 365 admin center are reflected in the **org-wide app settings** on the **Manage apps** page. If you're new to Teams and just getting started, all apps are allowed in the global policy by default. These apps include apps published by Microsoft, third parties, and your organization.
 
 Custom app permission policies control the apps that are available for different groups of users in an organization. Separate custom policies can be created and assigned based on whether apps are published by Microsoft, third-parties, or the organization. After a custom policy is created, it can't be changed it if third-party apps are disabled in the company's org-wide app settings.
 
@@ -128,7 +104,7 @@ Complete the following steps to add a permission policy:
 6.  If you selected the **Block specific apps and allow all others** option, search for and add the apps that you want to block, and then select **Block**.
 7.  Select **Save**.
 
-### Manage org-wide app settings for Microsoft 365<br>
+### Manage organization-wide app settings for Microsoft 365<br>
 
 The **org-wide app settings** enable an organization to control whether its users can install third-party apps. Org-wide app settings govern the behavior for all users. They also override any other app permission policies assigned to users. These settings can control malicious or problematic apps.
 
@@ -137,9 +113,9 @@ Complete the following steps to update the **org-wide app settings**:
 1.  On the **Permission policies** page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
 2.  Under **Third-party apps**, turn the following settings on or off to control access to third-party apps:
     
-     -  **Allow third-party apps.** This option controls whether users can use third-party apps. By turning off this setting, your users can't install or use any third-party apps.
+     -  **Allow third-party apps.** This option controls whether users can use third-party apps. When this setting is turned off, your users can't install or use any third-party apps.
      -  **Allow any new third-party apps published to the store by default.** This option controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
-3.  Under **Blocked apps**, add the apps you want to block across your organization. For any third-party app you want to allow in your organization, remove the app from this blocked apps list. When you block an app org-wide, the app is automatically blocked for all your users, even if it's allowed in any app permission policies.
+3.  Under **Blocked apps**, add the apps you want to block across your organization. For any third-party app you want to allow in your organization, remove the app from this blocked apps list. When you block an app org-wide, the app is automatically blocked for all your users. It's also blocked even if the app is allowed in any app permission policies.
 4.  Select **Save** for the updated org-wide app settings to take effect.
 
 **Additional Reading:** For more information related to managing app collaboration, see [Managing apps for Teams](/microsoftteams/manage-apps?azure-portal=true)**.**

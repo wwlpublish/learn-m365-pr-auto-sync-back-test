@@ -3,7 +3,7 @@ uid: learn.wwl.explore-microsoft-teams
 metadata:
   title: Explore Microsoft Teams as a Microsoft 365 Enterprise Administrator
   description: "Explore Microsoft Teams as a Microsoft 365 Enterprise Administrator"
-  ms.date: 09/10/2021
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,7 +11,7 @@ metadata:
 title: Explore Microsoft Teams as a Microsoft 365 Enterprise Administrator
 summary: This module examines the key features of Microsoft Teams and provides instruction on how to manage authentication and access to Teams, implement guest access, manage audio conferencing, and implement phone systems.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Describe basic Teams functionality and the infrastructure that supports its goals
   - Describe how Teams compares to the other collaboration apps in Microsoft 365
   - Provide Teams access by managing user licenses in the Microsoft 365 admin center and PowerShell
@@ -19,7 +19,8 @@ abstract: |
   - Describe audio conferencing functionality that is available in Microsoft Teams
   - Assign an audio conferencing license and a conference ID to each user to support audio conferencing
   - Manage user settings for audio conferencing
-  - Implement phone systems in Microsoft Teams
+  - Select a voice solution using Microsoft Teams Phone
+  - Manage your organizational settings in Microsoft Teams
 prerequisites: |
   None
 iconUrl: /learn/achievements/teams-explore.svg
@@ -30,7 +31,6 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:
@@ -41,7 +41,8 @@ units:
 - learn.wwl.explore-microsoft-teams.manage-authentication-access
 - learn.wwl.explore-microsoft-teams.implement-guest-access
 - learn.wwl.explore-microsoft-teams.explore-audio-conferencing
-- learn.wwl.explore-microsoft-teams.implement-phone-system
+- learn.wwl.explore-microsoft-teams.select-voice-solution-microsoft-teams-phone
+- learn.wwl.explore-microsoft-teams.manage-organizational-settings-microsoft-teams
 - learn.wwl.explore-microsoft-teams.knowledge-check
 - learn.wwl.explore-microsoft-teams.summary
 badge:

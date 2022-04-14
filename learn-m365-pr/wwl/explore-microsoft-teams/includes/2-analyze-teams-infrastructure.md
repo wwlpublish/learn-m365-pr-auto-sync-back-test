@@ -1,6 +1,6 @@
 Microsoft Teams brings together the full breadth and depth of Microsoft 365 to provide a true chat-based hub for teamwork. This design gives customers the opportunity to create a more open, fluid, and digital environment. Microsoft Teams is built on existing Microsoft technologies woven together by Microsoft 365 Groups.
 
-Teams provides a persistent chat capability, along with calling, meetings, easy access to other components of Microsoft 365, and a robust extensibility story. These integrated features provide a hub for teamwork that's appropriate for enterprise companies, small organizations, and everyone in between.
+Teams provides a persistent chat capability, along with calling and meetings. It also provides, easy access to other components of Microsoft 365, and a robust extensibility story. These integrated features provide a hub for teamwork that's appropriate for enterprise companies, small organizations, and everyone in between.
 
 Teams' capabilities are extended by using connectors, tabs, and bots, all of which are available as apps. These features bring external information, content, and intelligent bot interaction to Teams.
 
@@ -8,7 +8,7 @@ Teams' capabilities are extended by using connectors, tabs, and bots, all of whi
 
 Microsoft Teams can implement a Microsoft 365 group, a SharePoint Online site (complete with a document library), and an Exchange Online group mailbox. Teams uses these features to store information such as documents, videos, and other resources. A team can be created using existing Microsoft 365 Groups, allowing existing group memberships and contents stored in SharePoint Online and Exchange Online to be available within Teams.
 
-Teams also provides a meeting experience built on the next generation, cloud-based infrastructure that's also used by Skype and Skype for Business. This design enables Teams to provide a persistent chat board where informal, real-time conversations can take place. Microsoft's technology investments in this area include Azure-based cloud services for media processing and signaling, H.264 video codec, SILK and Opus audio codec, network resiliency, telemetry, and quality diagnostics.
+Teams also provides a meeting experience built on the next generation, cloud-based infrastructure that's also used by Skype and Skype for Business. This design enables Teams to provide a persistent chat board where informal, real-time conversations can take place. Microsoft's technology investments in this area include Azure-based cloud services for media processing and signaling, H.264 video codec, SILK and Opus audio codec, network resiliency, and quality diagnostics.
 
 Microsoft 365 groups use identities stored in Azure Active Directory (AD). As such, all authentication capabilities in Azure AD, such as support for multifactor authentication (MFA), are readily available for use by Teams.
 

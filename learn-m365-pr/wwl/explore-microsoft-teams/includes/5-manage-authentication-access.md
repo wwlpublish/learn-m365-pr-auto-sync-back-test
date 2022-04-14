@@ -2,18 +2,18 @@ Microsoft Teams supports all the identity models that are available with Microso
 
  -  **Cloud Identity.** In this model, a user is created and managed in Microsoft 365. The user account is stored in Azure Active Directory (AD) and only exists there. The user’s password is also verified by Azure AD.
  -  **Synchronized Identity.** In this model, the user identity is managed in an on-premises server, and the account and its password hash are synchronized to the cloud. The user enters the same password in both the on-premises server and in the cloud. At sign-in, the password is verified by Azure Active Directory. This model uses the Microsoft Azure Active Directory Connect Tool.
- -  **Federated Identity.** This model requires a synchronized identity where the user password is verified by the on-premises identity provider. With this model, the password hash isn't synchronized to Azure AD because Active Directory Federation Services (ADFS) or a third-party identity provider is used to authenticate users against the on-premises Active Directory.
+ -  **Federated Identity.** This model requires a synchronized identity where the user password is verified by the on-premises identity provider. With this model, the password hash isn't synchronized to Azure AD. It's not synchronized because Active Directory Federation Services (ADFS) or a third-party identity provider is used to authenticate users against the on-premises Active Directory.
 
 Each of these models is represented in the following graphic:
 
-:::image type="content" source="../media/m365-identity-models-cd023cf8.png" alt-text="graphic showing cloud identity, synchronized identity, and federated identity models and the main features in each as previously described":::
+:::image type="content" source="../media/m365-identity-models-cd023cf8.png" alt-text="graphic showing cloud identity, synchronized identity, and federated identity models":::
 
 
 Depending on which Microsoft 365 identity model an organization decides to use, the implementation requirements may vary. That being said, the configuration steps for implementing these models are outside the scope of this training.
 
 **Additional reading.** For more information, see [Microsoft 365 identity models and Azure Active Directory](/microsoft-365/enterprise/about-microsoft-365-identity?azure-portal=true).
 
-Ensuring the correct users are accessing an organization's system resources is critical to securing data. Access to Microsoft Teams is enabled or disabled on a per-user basis by assigning or removing the Microsoft Teams product license to a user account. Specific Microsoft Teams’ features can't be turned on or off at an individual user level.<br>
+Ensuring the correct users are accessing an organization's system resources is critical to securing data. Access to Microsoft Teams is enabled or disabled on a per-user basis. Access is configured by assigning or removing the Microsoft Teams product license to a user account. Specific Microsoft Teams’ features can't be turned on or off at an individual user level.
 
 > [!TIP]
 > It's recommended that organizations enable Microsoft Teams for all their users. This design enables teams to be formed organically for projects and other dynamic initiatives. Even if you're deciding to pilot a feature set of Teams, it may still be helpful to keep Microsoft Teams enabled for all users, but only target communications to the pilot group of users.

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-microsoft-teams.manage-organizational-settings-microsoft-teams
+title: Manage your organizational settings in Microsoft Teams
+metadata:
+  title: Manage your organizational settings in Microsoft Teams
+  description: "Manage your organizational settings in Microsoft Teams"
+  ms.date: 04/14/2022
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/9-manage-organizational-settings-microsoft-teams.md)]

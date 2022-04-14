@@ -4,7 +4,7 @@ The Microsoft Teams design is built on a new, modern infrastructure for enterpri
 
 Teams has evolved into the primary client for intelligent communications in Microsoft 365, replacing the Skype for Business client.
 
-This module examines the key features of Microsoft Teams. It provides instruction on how to manage authentication and access to Teams, implement guest access, manage audio conferencing, and implement phone systems.
+This module examines the key features of Microsoft Teams. It provides instruction on how to manage authentication and access to Teams, implement guest access, manage audio conferencing, select a voice solution using Microsoft Teams Phone, and configure organizational settings in Microsoft Teams.
 
 After completing this module, you'll be able to:
 
@@ -15,4 +15,5 @@ After completing this module, you'll be able to:
  -  Describe the functionality provided by Guess access in Microsoft Teams.
  -  Describe audio conferencing functionality that's available in Microsoft Teams.
  -  Assign an audio conferencing license and a conference ID to each user to support audio conferencing.
- -  Implement phone systems in Microsoft Teams.<br>
+ -  Select a voice solution using Microsoft Teams Phone.<br>
+ -  Configure your Microsoft Teams organizational settings.
