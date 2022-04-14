@@ -12,142 +12,103 @@ The following table identifies the features of each building block. It also offe
   :::column-end:::
   :::column:::
     Team site
-
   :::column-end:::
   :::column:::
     Communication site
-
   :::column-end:::
   :::column:::
     Hub site
-
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
     **Primary business goal**
-
   :::column-end:::
   :::column:::
-    **Collaborate**
-Used when an organization wants to create a place where the members of a work group or project team can work together on project deliverables, plan an event, track status, or exchange ideas.Team sites are connected by default to a Microsoft 365 group. This design enables teams sites to deliver a full range of communication and collaboration tools, including Microsoft Teams and Planner.
-
+    **Collaborate**Used when an organization wants to create a place where the members of a work group or project team can work together on project deliverables, plan an event, track status, or exchange ideas.Team sites are connected by default to a Microsoft 365 group. This design enables teams sites to deliver a full range of communication and collaboration tools, including Microsoft Teams and Planner.
   :::column-end:::
   :::column:::
-    **Communicate**
-Used when an organization wants to broadcast a message, tell a story, share content for viewing (but not editing), or showcase services or people.Communication site owners often want to include an engagement component - for example an "Ask Business Development" area on a site communicating information about business development.A communication site is a great place to connect a Yammer group.
-
+    **Communicate**Used when an organization wants to broadcast a message, tell a story, share content for viewing (but not editing), or showcase services or people.Communication site owners often want to include an engagement component - for example an "Ask Business Development" area on a site communicating information about business development.A communication site is a great place to connect a Yammer group.
   :::column-end:::
   :::column:::
-    **Connect**
-Used when an organization wants to create a shared experience for a family of related sites—to discover related content by rolling up site activity and news, organize related sites so that they share a common navigation, and apply a common look and feel.
-
+    **Connect**Used when an organization wants to create a shared experience for a family of related sites—to discover related content by rolling up site activity and news, organize related sites so that they share a common navigation, and apply a common look and feel.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
     **Content authors**
-
   :::column-end:::
   :::column:::
     All members are content authors who jointly create and edit content.
-
   :::column-end:::
   :::column:::
     Small number of content authors and a much larger number of content readers or consumers.
-
   :::column-end:::
   :::column:::
     The hub site owner defines the shared experiences for hub navigation and theme.Hub site members create content on the hub site as with any other SharePoint site.Owners and members of the sites associated with the parent hub create content on individual sites.
-
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    **Governance**
-(as allowed for an organization based on its settings in the Security &amp; Compliance center)
-
+    **Governance**(as allowed for an organization based on its settings in the Security &amp; Compliance center)
   :::column-end:::
   :::column:::
     Norms are typically determined by the team. Practices are aligned in the best way to get work done.
   :::column-end:::
   :::column:::
     Policies are often determined by the organization to ensure consistency of experience and effective management of organizational information.
-
   :::column-end:::
   :::column:::
     Governance is determined by each owner of the associated site based on the type of site and organizational policies.The best experience for visitors is achieved when everyone has at least Read permissions for associated sites (although it isn't required).
-
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
     **Permissions**
-
   :::column-end:::
   :::column:::
     Microsoft 365 group, plus SharePoint groups and permission levels.
-
   :::column-end:::
   :::column:::
     SharePoint group.
-
   :::column-end:::
   :::column:::
     Same as original site type. Hub sites don't alter an associated site's permissions.
-
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
     **Created by**
-
   :::column-end:::
   :::column:::
     Site owner (unless it's been disabled in your organization) or admin.
-
   :::column-end:::
   :::column:::
     Site owner (unless it's been disabled in your organization).
-
   :::column-end:::
   :::column:::
     Global admin or SharePoint admin in Microsoft 365.
-
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
     **Examples**
-
   :::column-end:::
   :::column:::
-    Project team working together to complete deliverables and manage tasks.
-Holiday party planning committee planning the annual get-together
-HR performance management team.
-Executive committee—different leadership groups within the organization
-Extranet site to work with Partner A.
-
+    Project team working together to complete deliverables and manage tasks.Holiday party planning committee planning the annual get-together with the HR performance management team.Executive committee—different leadership groups within the organization Extranet site to work with Partner A.
   :::column-end:::
   :::column:::
-    Travel team publishing guidelines about corporate travel.
-Policies and procedures.
-Micro-site for a new corporate initiative.
-Resources for the sales team for a product or service.
-
+    Travel team publishing guidelines about corporate travel.Policies and procedures.Micro-site for a new corporate initiative.Resources for the sales team for a product or service.
   :::column-end:::
   :::column:::
-    HR hub that provides a connection and roll-up for all HR functions, such as benefits, compensation, performance management, talent acquisition, and a manager portal.
-Sales hub providing enterprise resources for the Sales organization and connecting regional sales team and communication sites.
-Location-specific hub that groups the communication and team sites for a specific location (the New York office)
-
+    HR hub that provides a connection and roll-up for all HR functions, such as benefits, compensation, performance management, talent acquisition, and a manager portal.Sales hub providing enterprise resources for the Sales organization and connecting regional sales team and communication sites.Location-specific hub that groups the communication and team sites for a specific location (the New York office)
   :::column-end:::
 :::row-end:::
 
 
 ### Site collections and subsites - a look back at the past
 
-A site collection is a group of websites that have the same owner and share administrative settings, such as permissions and quotas. Site collections are created within a web application. When you create a site collection, a top-level site is automatically created in the site collection. You can then create one or more subsites below the top-level site. The entire structure of the top-level site and all its subsites is called a site collection.<br>
+A site collection is a group of websites that have the same owner and share administrative settings, such as permissions and quotas. Site collections are created within a web application. When you create a site collection, a top-level site is automatically created in the site collection. You can then create one or more subsites below the top-level site. The entire structure of the top-level site and all its subsites is called a site collection.
 
 One of the key principles of modern intranets based on Microsoft SharePoint is that each unit of work should get a separate site collection. This design helps organizations manage governance and growth over time. Each communication site and Microsoft 365 group-connected team site is created as a site collection that can have its own permissions. A hub site (most commonly created from a communication site) should also be considered its own unit of work that brings together many other sites.
 
@@ -161,9 +122,9 @@ What is the one thing that you can guarantee is going to happen in every busines
 
 This feature is a key benefit provided by SharePoint hub sites. They model relationships as links, rather than hierarchy or ownership. This design enables organizations to adapt to the changes in the way they work in a dynamic, changing world. SharePoint hub sites help you meet the needs of your organization by connecting and organizing sites based on project, department, division, region, and so on. This design makes it easier to:
 
- -  Discover related content such as news and other site activities.<br>
- -  Apply common navigation, branding, and site structure across associated sites.<br>
- -  Search across all associated sites.<br>
+ -  Discover related content such as news and other site activities.
+ -  Apply common navigation, branding, and site structure across associated sites.
+ -  Search across all associated sites.
 
 SharePoint administrators determine:
 
@@ -171,11 +132,11 @@ SharePoint administrators determine:
  -  who can associate sites with each hub site.
  -  whether associating a site to a hub requires approval.
 
-One of the biggest challenges with intranet design is figuring out how the intranet navigation should be organized. In the new world where all team and communication sites are peer site collections, information architects must think about creating experiences that enable intranet users find what they need in the following search scenarios:<br>
+One of the biggest challenges with intranet design is figuring out how the intranet navigation should be organized. In the new world where all team and communication sites are peer site collections, information architects must think about creating experiences that enable intranet users find what they need in the following search scenarios:
 
- -  I know it exists, and I know where it is.<br>
- -  I know it exists, but I don't know where it is.<br>
- -  I don't know if it exists.<br>
+ -  I know it exists, and I know where it is.
+ -  I know it exists, but I don't know where it is.
+ -  I don't know if it exists.
 
 These scenarios are enabled with a combination of navigation, search, and discovery. They should be a factor in how an organization designs and organizes its hub sites. One of the important capabilities that hub sites enable is the serendipitous discovery of information. Hub sites can surface contextually relevant content from sites that users may not follow, but that are associated with the hub. The SharePoint start page was built to support discovery and search across an entire organization's content. However, if the user already has a particular context in mind, hub sites can be helpful in narrowing those experiences down to a handful of related sites.
 
@@ -184,7 +145,7 @@ When an organization plans its hub sites, it should think about hub sites and th
  -  For larger organizations, these functions may be represented in different organizational departments or business units, such as HR, Finance, Public Relations, Legal, IT, and so on.
  -  For smaller organizations, these functions may also be combined into the role of a few people.
 
-Consider the following items when creating hub sites:<br>
+Consider the following items when creating hub sites:
 
  -  Only SharePoint administrators can create a SharePoint hub site. Site owners, however, can associate a SharePoint site with a hub site that already exists. Sites created by selecting the **Create site** link in the top-right corner of a hub site are automatically associated with that hub site.
  -  It's recommended that organizations use the modern template when selecting a communication site or a team site. If a classic team site is used, the hub site navigation will only appear on modern pages, including document libraries, lists, and site contents. Hub site settings will only appear on modern pages.

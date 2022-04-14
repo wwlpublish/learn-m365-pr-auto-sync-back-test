@@ -24,7 +24,7 @@ quiz:
       explanation: "Incorrect. This type of SharePoint site doesn't allow you to connect and organization your SharePoint sites to provide the specified features."
     - content: "Hub site"
       isCorrect: true
-      explanation: "Correct. SharePoint hub sites connect and organize sites based on organizational attributes such as project, department, division, or region. By connecting and organizing sites in this manner, SharePoint hub sites make it easier for users to search across all associated sites and apply common navigation, branding, and site structure across associated sites."
+      explanation: "Correct. SharePoint hub sites connect and organize sites based on organizational attributes such as project, department, division, or region. This design make it easier for users to search across all associated sites and apply common navigation, branding, and site structure across associated sites."
     - content: "Site collection"
       isCorrect: false
       explanation: "Incorrect. This type of SharePoint site doesn't allow you to connect and organization your SharePoint sites to provide the specified features."
@@ -32,10 +32,10 @@ quiz:
     choices:
     - content: "60 days after the item was placed in the Site Collection Recycle Bin"
       isCorrect: false
-      explanation: "Incorrect. This is the incorrect number of days and the incorrect recycle bin."
+      explanation: "Incorrect. This value is the incorrect number of days and the incorrect recycle bin."
     - content: "45 days after the item was placed in the Second-stage Recycle Bin"
       isCorrect: false
-      explanation: "Incorrect. This is the incorrect number of days and the incorrect recycle bin."
+      explanation: "Incorrect. This value is the incorrect number of days and the incorrect recycle bin."
     - content: "93 days after the item was placed in the Local Recycle Bin"
       isCorrect: true
       explanation: "Correct. Items are automatically purged from the Site Collection Recycle Bin after 93 days. The time at which 93 days begin is from the time an item is placed in the Local Recycle Bin."
