@@ -6,7 +6,9 @@ metadata:
   description: "Manage your organizational settings in Microsoft Teams"
   ms.date: 04/14/2022
   author: wwlpublish
+  ms.author: tfrink
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 azureSandbox: false
 labModal: false
 durationInMinutes: 6

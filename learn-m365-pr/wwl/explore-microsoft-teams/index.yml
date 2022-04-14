@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Explore Microsoft Teams as a Microsoft 365 Enterprise Administrator
-summary: This module examines the key features of Microsoft Teams and provides instruction on how to manage authentication and access to Teams, implement guest access, manage audio conferencing, and implement phone systems.
+summary: This module examines the key features of Microsoft Teams and provides instruction on how to manage authentication and access to Teams, implement guest access, manage audio conferencing, and implement Microsoft Teams Phone.
 abstract: |
   By the end of this module, you'll be able to:
   - Describe basic Teams functionality and the infrastructure that supports its goals

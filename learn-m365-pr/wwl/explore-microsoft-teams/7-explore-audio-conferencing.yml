@@ -21,7 +21,7 @@ quiz:
     choices:
     - content: "A dynamic conference ID"
       isCorrect: true
-      explanation: "Correct. When dynamic conference IDs are used, each meeting that a user schedules will get assigned a unique conference ID. The user will have have to remember a specific ID to assign to the meeting request."
+      explanation: "Correct. When dynamic conference IDs are used, each meeting that a user schedules will get assigned a unique conference ID. The user will have to remember a specific ID to assign to the meeting request."
     - content: "A static conference ID"
       isCorrect: false
       explanation: "Incorrect. You wouldn't assign this ID type to your users when you don't want them to have to remember a specific ID."

@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.explore-microsoft-teams.analyze-teams-infrastructure
-title: Analyze the Teams infrastructure
+title: Analyze the Microsoft Teams infrastructure
 metadata:
-  title: Analyze the Teams infrastructure
-  description: "Analyze the Teams infrastructure"
+  title: Analyze the Microsoft Teams infrastructure
+  description: "Analyze the Microsoft Teams infrastructure"
   ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Contoso, Holly Dickson is planning to implement Microsoft Teams in the next phase of Contoso's Microsoft 365 deployment. After discussing this with Contoso's senior leadership team, Holly was contacted by the VP of Manufacturing, who wants to use Microsoft Teams to invite a select group of Contoso scientists to work together on a top-secret project. Holly was asked to make this happen. What can Holly create in Microsoft Teams to support this effort?"
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson is planning to implement Microsoft Teams in the next phase of Contoso's Microsoft 365 deployment. After Holly discussed her plan with Contoso's senior leadership team, she was contacted by Allan Deyoung, who's the VP of Manufacturing. Allan who wants to use Microsoft Teams to invite a select group of Contoso scientists to work together on a top-secret project. Holly was asked to make this happen. What can Holly create in Microsoft Teams to support this effort?"
     choices:
     - content: "A channel"
       isCorrect: false
