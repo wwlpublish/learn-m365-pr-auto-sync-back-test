@@ -4,14 +4,13 @@ title: Select the right migration option for your organization
 metadata:
   title: Select the right migration option for your organization
   description: "Select the right migration option for your organization"
-  ms.date: 09/10/2021
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
-durationInMinutes: 2
+durationInMinutes: 4
 content: |
-  [!include[](includes/5-select-right-migration-option-for-your-organization.md)]
+  [!include[](includes/7-select-right-migration-option-for-your-organization.md)]

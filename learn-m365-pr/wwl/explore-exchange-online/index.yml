@@ -3,7 +3,7 @@ uid: learn.wwl.explore-exchange-online
 metadata:
   title: Explore Exchange Online as a Microsoft 365 Enterprise Administrator
   description: "Explore Exchange Online as a Microsoft 365 Enterprise Administrator"
-  ms.date: 09/10/2021
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,13 +11,14 @@ metadata:
 title: Explore Exchange Online as a Microsoft 365 Enterprise Administrator
 summary: This module examines the key features of Exchange Online, including how to create and manage recipients, anti-malware policies, and anti-spam policies, and how to migrate mailboxes in a hybrid deployment.
 abstract: |
-  By the end of this module, you will be able to:
-  - Describe the most common recipient types that are available in Exchange Online
-  - Manage anti-malware and anti-spam policies in Exchange Online
-  - Describe migration and coexistence strategies and understand the differences between them
-  - Select the right mail migration strategy for your organization
-  - Determine when you want to change the DNS MX record for a domain in a Microsoft 365 migration to point to Exchange Online
-  - Describe the different ways to migrate mailboxes to Microsoft 365 in a hybrid Exchange environment
+  By the end of this module, you'll be able to:
+  *   Describe how mail flows through a Microsoft 365 deployment
+  *   Describe the most common recipient types that are available in Exchange Online
+  *   Manage anti-malware and anti-spam policies in Exchange Online
+  *   Describe migration and coexistence strategies and understand the differences between them
+  *   Select the right mail migration strategy for your organization
+  *   Determine when you want to change the DNS MX record for a domain in a Microsoft 365 migration to point to Exchange Online
+  *   Describe the different ways to migrate mailboxes to Microsoft 365 in a hybrid Exchange environment
 prerequisites: |
   None
 iconUrl: /learn/achievements/exchange-online-explore.svg
@@ -28,14 +29,15 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:
 - learn.wwl.explore-exchange-online.introduction
+- learn.wwl.explore-exchange-online.explore-mail-flow-microsoft-365
+- learn.wwl.explore-exchange-online.examine-sharing-organization-relationships-exchange-online
 - learn.wwl.explore-exchange-online.create-manage-recipients
 - learn.wwl.explore-exchange-online.manage-anti-malware-anti-spam-policies
-- learn.wwl.explore-exchange-online.plan-migration-strategies
+- learn.wwl.explore-exchange-online.examine-email-migration-options
 - learn.wwl.explore-exchange-online.select-right-migration-option-for-your-organization
 - learn.wwl.explore-exchange-online.change-dns-mx-records-during-microsoft-365-migration
 - learn.wwl.explore-exchange-online.migrate-mailboxes-to-microsoft-365-hybrid-deployment

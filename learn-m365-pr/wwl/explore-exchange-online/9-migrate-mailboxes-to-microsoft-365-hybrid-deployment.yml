@@ -4,14 +4,13 @@ title: Migrate mailboxes to Microsoft 365 in a hybrid deployment
 metadata:
   title: Migrate mailboxes to Microsoft 365 in a hybrid deployment
   description: "Migrate mailboxes to Microsoft 365 in a hybrid deployment"
-  ms.date: 09/10/2021
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 7
 content: |
-  [!include[](includes/7-migrate-mailboxes-to-microsoft-365-hybrid-deployment.md)]
+  [!include[](includes/9-migrate-mailboxes-to-microsoft-365-hybrid-deployment.md)]

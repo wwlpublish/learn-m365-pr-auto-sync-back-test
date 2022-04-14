@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-exchange-online.examine-sharing-organization-relationships-exchange-online
+title: Examine sharing and organization relationships in Exchange Online
+metadata:
+  title: Examine sharing and organization relationships in Exchange Online
+  description: "Examine sharing and organization relationships in Exchange Online"
+  ms.date: 04/14/2022
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-examine-sharing-organization-relationships-exchange-online.md)]
