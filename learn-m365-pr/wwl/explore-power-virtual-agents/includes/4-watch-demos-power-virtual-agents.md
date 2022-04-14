@@ -1,6 +1,6 @@
 This unit provides a link to a list of short demonstrations that show how to build and maintain intelligent chatbots with Power Virtual Agents.
 
-Select this link ([Watch Microsoft Power Virtual Agents demos](https://powervirtualagents.microsoft.com/demo/?azure-portal=true)), and from this webpage you can view short demos on the following topics:
+Select this link: [Watch Microsoft Power Virtual Agents demos](https://powervirtualagents.microsoft.com/demo/?azure-portal=true). From this webpage, you can view short demos on the following topics:
 
  -  Get topic suggestions from webpages with Power Virtual Agents (02:12).<br><br>
  -  Create topics and test your bot with Power Virtual Agents (05:19).<br><br>

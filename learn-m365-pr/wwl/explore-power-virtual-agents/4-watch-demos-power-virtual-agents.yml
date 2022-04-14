@@ -4,12 +4,13 @@ title: Watch demos of Power Virtual Agents
 metadata:
   title: Watch demos of Power Virtual Agents
   description: "Watch demos of Power Virtual Agents"
-  ms.date: 07/09/2021
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 9
 content: |
   [!include[](includes/4-watch-demos-power-virtual-agents.md)]
