@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.analyze-your-microsoft-365-employee-data-use-microsoft-viva-insights
+metadata:
+  title: Analyze your Microsoft 365 workplace data using Microsoft Viva Insights
+  description: "Analyze your Microsoft 365 workplace data using Microsoft Viva Insights"
+  ms.date: 04/12/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Analyze your Microsoft 365 workplace data using Microsoft Viva Insights
+summary: This module examines the workplace analytical features of Microsoft Viva Insights, including how it works, and how it generates insights and improves collaboration within an organization.
+abstract: |
+  After completing this module, you’ll be able to:
+  - Identify how Microsoft Viva Insights can help improve collaboration behaviors in your organization.
+  - Discover the sources of data used in Microsoft Viva Insights.
+  - Explain the high-level insights available through Microsoft Viva Insights.
+  - Create custom analysis with Microsoft Viva Insights.
+  - Summarize tasks and considerations for setting up Microsoft Viva Insights and managing privacy.
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+- solution-architect
+- technology-manager
+products:
+- m365
+- office-365
+units:
+- learn.wwl.analyze-your-microsoft-365-employee-data-use-microsoft-viva-insights.introduction
+- learn.wwl.analyze-your-microsoft-365-employee-data-use-microsoft-viva-insights.examine-analytical-features-microsoft-viva-insights
+- learn.wwl.analyze-your-microsoft-365-employee-data-use-microsoft-viva-insights.create-custom-analysis-with-microsoft-viva-insights
+- learn.wwl.analyze-your-microsoft-365-employee-data-use-microsoft-viva-insights.configure-microsoft-viva-insights
+- learn.wwl.analyze-your-microsoft-365-employee-data-use-microsoft-viva-insights.examine-microsoft-365-data-sources-microsoft-viva-insights
+- learn.wwl.analyze-your-microsoft-365-employee-data-use-microsoft-viva-insights.prepare-organizational-data-microsoft-viva-insights
+- learn.wwl.analyze-your-microsoft-365-employee-data-use-microsoft-viva-insights.knowledge-check
+- learn.wwl.analyze-your-microsoft-365-employee-data-use-microsoft-viva-insights.summary
+badge:
+  uid: learn.wwl.analyze-your-microsoft-365-employee-data-using-microsoft-viva-insights.badge

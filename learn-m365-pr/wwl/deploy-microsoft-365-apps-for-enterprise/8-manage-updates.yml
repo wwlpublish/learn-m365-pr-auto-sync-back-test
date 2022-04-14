@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-microsoft-365-apps-for-enterprise.manage-updates-to
+title: Manage updates to Microsoft 365 Apps for enterprise
+metadata:
+  title: Manage updates to Microsoft 365 Apps for enterprise
+  description: "Manage updates to Microsoft 365 Apps for enterprise"
+  ms.date: 04/12/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/8-manage-updates.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "In which update model can administrators check for updated builds from an internal source?"
+    choices:
+    - content: "Automatic from cloud"
+      isCorrect: false
+      explanation: "Incorrect. This option is the default mode (typically used for home or small office installations) where updates download from the cloud."
+    - content: "Automatic from network"
+      isCorrect: true
+      explanation: "Correct. In managed deployments, administrators can specify (by using Group Policy or the configuration.xml file during setup) to check for updated builds from an internal source."
+    - content: "Rerun setup.exe by using Electronic Software Delivery (ESD)"
+      isCorrect: false
+      explanation: "Incorrect. In large organizations, using an ESD such as Configuration Manager enables even more fine-grained control of update scheduling. You can use scripts or task sequences in the ESD to re-execute setup.exe /configure."
