@@ -3,7 +3,7 @@ uid: learn-m365.deploy-wvd
 metadata:
   title: Deploy Azure Virtual Desktop
   description: Learn how to deploy Azure Virtual Desktop and customize the workspace for your users.  
-  ms.date: 12/15/2021
+  ms.date: 04/14/2022
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial
@@ -13,8 +13,10 @@ summary: Learn how to deploy Azure Virtual Desktop. Provision an Azure Virtual D
 abstract: |
   In this module, you will:
   - Learn about the key components of Azure Virtual Desktop and the deployment options 
-  - Deploy a customized workspace with a virtual desktop and remote app 
+  - Deploy a customized workspace with a virtual desktop and remote app
+  - Configure FSLogix user profiles
 prerequisites:  |
+  - An Azure account with an [active subscription](https://azure.microsoft.com/free)
   - Familiarity with server and client management concepts and tools
   - Familiarity with Windows virtualization technologies, like Remote Desktop Services
   - (Optional) Access to an Azure environment prepared for Azure Virtual Desktop: Azure Active Directory (Azure AD) configured and integrated with Active Directory Domain Services (AD DS), and an Azure Virtual Network that's connected to your domain 

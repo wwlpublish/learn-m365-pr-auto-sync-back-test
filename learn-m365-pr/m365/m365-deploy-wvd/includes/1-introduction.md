@@ -12,6 +12,7 @@ In this module, you will:
 
 ## Prerequisites
 
+- An Azure account with an [active subscription](https://azure.microsoft.com/free)
 - Familiarity with server and client management concepts and tools
 - Familiarity with Windows virtualization technologies, like Remote Desktop Services
 - (Optional) Access to an Azure environment prepared for Azure Virtual Desktop: Azure AD configured and integrated with AD DS, and an Azure Virtual Network that's connected to your domain
