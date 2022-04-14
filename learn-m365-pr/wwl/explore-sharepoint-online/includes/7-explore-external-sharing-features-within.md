@@ -1,16 +1,77 @@
-The external sharing features of SharePoint Online let users in an organization share content with people outside the organization (such as partners, vendors, clients, or customers). External sharing can also share between licensed users on multiple Microsoft 365 subscriptions if an organization has more than one subscription. Planning for external sharing should be included as part of an organization's overall permissions planning for SharePoint Online.
+The external sharing features of SharePoint Online and Microsoft OneDrive let users in an organization share content with people outside the organization (such as partners, vendors, clients, or customers). External sharing can also share between licensed users on multiple Microsoft 365 subscriptions if an organization has more than one subscription. Planning for external sharing should be included as part of an organization's overall permissions planning for SharePoint Online.
 
-> [!NOTE]
-> External sharing is turned on by default for an entire SharePoint Online environment and the sites in it. An organization may want to turn it off globally before people start using sites, or until the organization knows exactly how it wants to use the feature.
+> [!IMPORTANT]
+> External sharing for SharePoint Online and Microsoft OneDrive is controlled by an organization-level sharing setting can be maintained in either the SharePoint admin center or the Microsoft 365 admin center. SharePoint Online and Microsoft OneDrive each have their own organization-level sharing setting. The sharing setting for both services is turned on by default. While this default value turns on external sharing for an entire SharePoint Online environment, not all new sites allow external sharing by default.<br><br>External sharing is enabled by default for team sites, but not for communication sites. The default sharing setting for Microsoft 365 group-connected team sites is "New and existing guests." The default sharing setting for communication sites and classic sites is "Only people in your organization." An organization may want to turn this organization-level sharing setting off before people start using sites, or until the organization knows exactly how it wants to use the feature.
 
 ### How the external sharing settings work
 
 SharePoint Online has external sharing settings at both the organization level and the site level (previously called the "site collection" level). To allow external sharing on any site, it must be enabled at the organization level. External sharing can then be restricted for other sites. If a site's external sharing option and the organization-level sharing option don't match, the most restrictive value is always applied.
 
-Whichever option is chosen at the organization or site level, the more restrictive functionality is still available. For example, if an organization chooses to allow unauthenticated sharing using "Anyone" links (previously called "shareable" links or "anonymous access" links), users can still share with guests, who sign in, and with internal users.
+The following screenshot displays the values the organization-level sharing setting can be set to.
 
-> [!IMPORTANT]
-> Even if an organization-level setting allows external sharing, not all new sites allow it by default. The default sharing setting for Microsoft 365 group-connected team sites is "New and existing guests." The default for communication sites and classic sites is "Only people in your organization."
+:::image type="content" source="../media/external-sharing-options-e4212207.png" alt-text="screenshot of the Sharing setting options for the organization-level sharing setting in the SharePoint admin center":::
+
+
+This setting is for your organization overall. Each site has its own sharing setting that you can set independently. However, the site-level setting must be at the same or more restrictive setting as the organization. The following table provides guidance for helping an organization determine which value to choose for this setting.
+
+:::row:::
+  :::column:::
+    **Select this option:**
+  :::column-end:::
+  :::column:::
+    **If you want to:**
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Anyone
+
+  :::column-end:::
+  :::column:::
+    Allow users to share files and folders. Anyone who has access to the file or folder link can access it without authenticating. This setting also allows users to share sites with new and existing guests who authenticate. If you select this setting, you can restrict the Anyone links so that they must expire within a specific number of days, or so that they can give only View permission.
+
+[File requests](https://support.office.com/article/f54aa7f8-2589-4421-b351-d415fc3b83af) require that OneDrive is set to Anyone and edit permissions for Anyone links be enabled. OneDrive settings other than Anyone disable file requests.
+
+For more information, see [Best practices for sharing files and folders with unauthenticated users](/Office365/Enterprise/best-practices-anonymous-sharing).
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    New and existing guests
+
+  :::column-end:::
+  :::column:::
+    Require people who have received invitations to sign in with their work or school account (if their organization uses Microsoft 365) or a Microsoft account, or to provide a code to verify their identity. Users can share with guests already in your organization's directory, and they can send invitations to people who will be added to the directory if they sign in. For more information, see [Secure external sharing in SharePoint](/sharepoint/what-s-new-in-sharing-in-targeted-release).
+
+Invitations to view content can be redeemed only once. After an invitation has been accepted, it can't be shared or used by others to gain access.
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Existing guests
+
+  :::column-end:::
+  :::column:::
+    Allow sharing only with guests who are already in your directory. These guests may exist in your directory because they previously accepted sharing invitations or because they were manually added, such as through Azure B2B collaboration. (To see the guests in your organization, go to the **Guests** page in the Microsoft 365 admin center).
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Only people in your organization
+
+  :::column-end:::
+  :::column:::
+    Turn off external sharing.
+  :::column-end:::
+:::row-end:::
+
+
+This setting is for your organization overall. Each site has its own sharing setting that you can set independently. However, it must be at the same or more restrictive setting as the organization.<br>
+
+Whichever option is chosen at the organization or site level, the more restrictive functionality is still available. For example, if an organization chooses to allow unauthenticated sharing using "Anyone" links (previously called "shareable" links or "anonymous access" links), users can still share with guests who sign in, and with internal users.
 
 ### Security and privacy
 

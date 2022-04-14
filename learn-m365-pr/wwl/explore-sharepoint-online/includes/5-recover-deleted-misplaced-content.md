@@ -4,6 +4,8 @@ Organizations can use the following options to maintain and recover SharePoint O
  -  Versioning
  -  Point-in-time recovery
 
+Each of these options examined in greater detail in the following sections.
+
 ### Recycle bins
 
 Recycle bins provide a common way to recover deleted content. There are two types of Recycle bins:
@@ -24,10 +26,14 @@ Versioning is another way to manage sites, libraries, folders, and files. When v
 Versioning can be used to:
 
  -  **Track history of a version.** When versioning is enabled, an organization can see when an item or file was changed and who changed it. It can also see when properties (information about the file) were changed. For example, if someone changes the due date of a list item, that information appears in the version history. Comments people make when they check files into libraries can also be viewed.
- -  **Restore a previous version.** The current version of an item or file can be replaced with a previous one if a mistake was made in the current version, if the current version is corrupt, or a previous version is preferred over the current version. When restoring a previous version, the restored version becomes the new current version.
- -  **View a previous version.** A previous version can be viewed without overwriting the current version. When viewing version history within a Microsoft Office document, such as a Word or Excel file, a user can compare the two versions to identify the differences.
+ -  **Restore a previous version.** When an organization restores a previous version, the restored version becomes the new current version. The current version of an item or file can be replaced with a previous one if:
+    
+     -  A mistake was made in the current version.
+     -  The current version is corrupt.
+     -  A previous version is preferred over the current version.
+ -  **View a previous version.** A previous version can be viewed without overwriting the current version. When a user views version history within a Microsoft Office document, such as a Word or Excel file, they can compare the two versions to identify the differences.
 
-**Additional reading.** For more information, see [how versioning works in a SharePoint list or library](https://support.office.com/article/How-does-versioning-work-in-a-SharePoint-list-or-library-0F6CD105-974F-44A4-AADB-43AC5BDFD247?azure-portal=true).
+**Additional reading.** For more information, see [How versioning works in a SharePoint list or library](https://support.office.com/article/How-does-versioning-work-in-a-SharePoint-list-or-library-0F6CD105-974F-44A4-AADB-43AC5BDFD247?azure-portal=true).
 
 ### Point-in-time recovery
 
@@ -39,6 +45,6 @@ The request must include the following information:
  -  The full URL the organization wants to restore.
  -  An email or letter in which the organization requests a Point-in-time Recovery and accepts the Terms for this request.
 
-The submission must not exceed 14 days after the time that must be recovered. For example, if a user deletes a site on the 10th and the organization submits the Point-in-time Recovery on the 25th, then the request will be rejected because it has been more than 14 days since the item was deleted.
+The submission must not exceed 14 days after the time that must be recovered. For example, assume a user deletes a site on the 10th and the organization submits the Point-in-time Recovery on the 25th. In this scenario, the request will be rejected because it has been more than 14 days since the item was deleted.
 
 Once the request has been submitted, it can take up to 72 hours to complete. It's highly recommended that organizations should back up any documents that are currently being worked on. Because of the restore process, items may not be there once a site collection is restored back to a previous date. All versions in the site collection will also be removed.

@@ -9,4 +9,8 @@ SharePoint Online is used for many different purposes and can be managed from ei
 
 You learned in this module that SharePoint Online allows for its own independent, intranet site collections. An organization can have many intranet sites that are segregated or correlated depending on its needs. This design provides organizations with the total autonomy they need to create secure site collections.
 
-This module also examined how SharePoint Online provides anti-malware protection for files uploaded and saved to document libraries. This protection is provided by the Microsoft anti-malware engine that is also integrated into Exchange. This anti-malware service runs on all SharePoint Online web front ends.
+This module also examined how SharePoint Online provides anti-malware protection for files uploaded and saved to document libraries. This protection is provided by the Microsoft anti-malware engine that is also integrated into Exchange. This anti-malware service runs on all SharePoint Online web sites.
+
+You also explored the various components used in a SharePoint Online migration. You learned about the Microsoft Manager tool that's used for migrating file shares, and the SharePoint Migration Tool that migrates existing SharePoint Server sites and content.
+
+The module concluded by examining the requirements for a SharePoint Online hybrid deployment.

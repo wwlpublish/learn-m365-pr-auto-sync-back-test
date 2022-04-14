@@ -18,222 +18,154 @@ Permission levels play a major role, not only in creating separate sites, but in
 
 :::row:::
   :::column:::
-    
-
-**Permission level/Role**
-
-
+    **Permission level/Role**
+  :::column-end:::
+  :::column:::
+    **Description**
+  :::column-end:::
+  :::column:::
+    **Default permissions**
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    View Only
+  :::column-end:::
+  :::column:::
+    Enables users to view application pages. The View Only permission level is used for the Excel Services Viewers group.
   :::column-end:::
   :::column:::
     
 
-**Description**
-
-
-  :::column-end:::
-  :::column:::
-    
-
-**Default permissions**
+ -  View Application Pages.
+ -  View Items.
+ -  View Versions.
+ -  Create Alerts.
+ -  Use Self-Service Site Creation.
+ -  View Pages.
+ -  Browse User Information.
+ -  Use Remote Interfaces.
+ -  Use Client Integration Features.
+ -  Open.
 
 
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-View Only
-
-
+    Limited Access
+  :::column-end:::
+  :::column:::
+    Enables users to access shared resources and a specific asset. By combining Limited Access with fine-grained permissions, users can access a specific list, document library, folder, list item, or document, without requiring access to the entire site. Limited Access can't be edited or deleted.
   :::column-end:::
   :::column:::
     
 
-Enables users to view application pages. The View Only permission level is used for the Excel Services Viewers group.
-
-
-  :::column-end:::
-  :::column:::
-    
-
- -  View Application Pages
- -  View Items
- -  View Versions
- -  Create Alerts
- -  Use Self-Service Site Creation
- -  View Pages
- -  Browse User Information
- -  Use Remote Interfaces
- -  Use Client Integration Features
- -  Open
+ -  View Application Pages.
+ -  Browse User Information.
+ -  Use Remote Interfaces.
+ -  Use Client Integration Features.
+ -  Open.
 
 
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Limited Access
-
-
+    Read
   :::column-end:::
   :::column:::
-    
-
-Enables users to access shared resources and a specific asset. By combining Limited Access with fine-grained permissions, users can access a specific list, document library, folder, list item, or document, without requiring access to the entire site. Limited Access cannot be edited or deleted.
-
-
-  :::column-end:::
-  :::column:::
-    
-
- -  View Application Pages
- -  Browse User Information
- -  Use Remote Interfaces
- -  Use Client Integration Features
- -  Open
-
-
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    
-
-Read
-
-
-  :::column-end:::
-  :::column:::
-    
-
-Enables users to view pages and list items, and to download documents.
-
-
+    Enables users to view pages and list items, and to download documents.
   :::column-end:::
   :::column:::
     
 
  -  Limited Access permissions, plus:
     
-     -  View Items
-     -  Open Items
-     -  View Versions
-     -  Create Alerts
-     -  Use Self-Service Site Creation
-     -  View Pages
+     -  View Items.
+     -  Open Items.
+     -  View Versions.
+     -  Create Alerts.
+     -  Use Self-Service Site. Creation.
+     -  View Pages.
 
 
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Contribute
-
-
+    Contribute
   :::column-end:::
   :::column:::
-    
-
-Enables users to manage personal views, edit items and user information, delete versions in existing lists and document libraries, and add, remove, and update personal Web Parts.
-
-
+    Enables users to manage personal views, edit items and user information, delete versions in existing lists and document libraries, and add, remove, and update personal Web Parts.
   :::column-end:::
   :::column:::
     
 
  -  Read permissions, plus:
     
-     -  Add Items
-     -  Edit Items
-     -  Delete Items
-     -  Delete Versions
-     -  Browse Directories
-     -  Edit Personal User Information
-     -  Manage Personal Views
-     -  Add/Remove Personal Web Parts
-     -  Update Personal Web Parts
+     -  Add Items.
+     -  Edit Items.
+     -  Delete Items.
+     -  Delete Versions.
+     -  Browse Directories.
+     -  Edit Personal User Information.
+     -  Manage Personal Views.
+     -  Add/Remove Personal Web Parts.
+     -  Update Personal Web Parts.
 
 
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Edit
-
-
+    Edit
   :::column-end:::
   :::column:::
-    
-
-Enables users to manage lists.
-
-
+    Enables users to manage lists.
   :::column-end:::
   :::column:::
     
 
  -  Contribute permissions, plus:
     
-     -  Manage Lists
+     -  Manage Lists.
 
 
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Design
-
-
+    Design
   :::column-end:::
   :::column:::
-    
-
-Enables users to view, add, update, delete, approve, and customize items or pages in the website.
-
-
+    Enables users to view, add, update, delete, approve, and customize items or pages in the website.
   :::column-end:::
   :::column:::
     
 
  -  Edit permissions, plus:
     
-     -  Add and Customize Pages
-     -  Apply Themes and Borders
-     -  Apply Style Sheets
-     -  Override List Behaviors
-     -  Approve Items
+     -  Add and Customize Pages.
+     -  Apply Themes and Borders.
+     -  Apply Style Sheets.
+     -  Override List Behaviors.
+     -  Approve Items.
 
 
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Full Control
-
-
+    Full Control
+  :::column-end:::
+  :::column:::
+    Enables users to have full control of the website.
   :::column-end:::
   :::column:::
     
 
-Enables users to have full control of the website.
-
-
-  :::column-end:::
-  :::column:::
-    
-
- -  All permissions
+ -  All permissions.
 
 
   :::column-end:::

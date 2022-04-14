@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-sharepoint-online.plan-migration-sharepoint-onedrive
+title: Plan your migration strategy for SharePoint Online and OneDrive
+metadata:
+  title: Plan your migration strategy for SharePoint Online and OneDrive
+  description: "Plan your migration strategy for SharePoint Online and OneDrive"
+  ms.date: 04/14/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/4-plan-migration-sharepoint-onedrive.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson wants to run the SharePoint Migration Tool to migrate the company's SharePoint Server content to SharePoint Online. Which of the following items will the SharePoint Migration Tool migrate?"
+    choices:
+    - content: "Inaccessible documents"
+      isCorrect: false
+      explanation: "Incorrect. The SharePoint Migration Tool doesn't migrate inaccessible or corrupted documents."
+    - content: "Files under 30 GB"
+      isCorrect: false
+      explanation: "Incorrect. The SharePoint Migration Tool only migrates files under 15 GB."
+    - content: "Site, document, and folder metadata"
+      isCorrect: true
+      explanation: "Correct. The SharePoint Migration Tool migrates documents, file and folder structures, user level file and folder permissions, files under 15 GB, and metadata for sites, documents, and folders."

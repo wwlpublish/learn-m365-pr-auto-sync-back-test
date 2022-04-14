@@ -7,11 +7,12 @@ SharePoint Online is used for many different purposes and can be managed from ei
  -  Data Loss Prevention
  -  Anti- Malware Protection
 
-**Additional reading.** SharePoint Patterns and Practices (PnP) contains a library of PowerShell commands (PnP PowerShell) that enables you to do complex provisioning and artifact management actions towards SharePoint. While this PowerShell information is outside the scope of this training, see the [PnP PowerShell Overview](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?azure-portal=true) site if you're interested in learning about these cmdlets.
+After completing this module, you'll be able to:<br>
 
-After completing this module, you'll be able to:
-
- -  Determine the default permission levels that your organization should use in SharePoint Online when creating sites and segregating and restricting access to content that is considered confidential or proprietary.
- -  Describe the levels of encryption for data at rest and data in transit within SharePoint Online.
- -  Identify the options available in SharePoint Online to maintain and recover content that has either been deleted or misplaced in the intranet.
+ -  Determine the permission levels that your organization should use in SharePoint Online when creating sites and segregating and restricting access to content that's considered confidential or proprietary.
+ -  Identify the options available in SharePoint Online to maintain and recover content that has either been deleted or misplaced in the intranet.<br>
  -  Describe the different options that provide anti-malware protection in SharePoint Online.
+ -  Plan the tasks that you want to complete when migrating files shares and existing sites to SharePoint Online and OneDrive.
+ -  Recover deleted and misplaced content.
+ -  Identify the external sharing features in SharePoint Online.
+ -  Understand the requirements for creating a SharePoint hybrid environment.

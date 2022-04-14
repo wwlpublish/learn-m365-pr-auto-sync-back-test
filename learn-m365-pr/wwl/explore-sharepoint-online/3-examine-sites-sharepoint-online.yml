@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-sharepoint-online.examine-sites-sharepoint-online
+title: Examne the types of sites in SharePoint Online
+metadata:
+  title: Examne the types of sites in SharePoint Online
+  description: "Examne the types of sites in SharePoint Online"
+  ms.date: 04/14/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/3-examine-sites-sharepoint-online.md)]

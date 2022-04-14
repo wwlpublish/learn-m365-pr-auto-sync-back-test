@@ -3,7 +3,7 @@ uid: learn.wwl.explore-sharepoint-online
 metadata:
   title: Explore SharePoint Online as a Microsoft 365 Enterprise Administrator
   description: "Explore SharePoint Online as a Microsoft 365 Enterprise Administrator"
-  ms.date: 09/10/2021
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,11 +11,12 @@ metadata:
 title: Explore SharePoint Online as a Microsoft 365 Enterprise Administrator
 summary: This module examines the key features of SharePoint Online, including how it enables organizations to manage local sites and hub sites, recover deleted content, provide anti-malware protection, and facilitate external sharing.
 abstract: |
-  By the end of this module, you will be able to:
-  - Determine the out-of-the-box permission levels that your organization should use in SharePoint Online when creating sites and segregating and restricting access to content that is considered confidential or proprietary
-  - Describe the levels of encryption for data at rest and data in transit within SharePoint Online
-  - Identify the options available in SharePoint Online to maintain and recover content that has either been deleted or misplaced in your organization's intranet
-  - Describe the different options that provide anti-malware protection in SharePoint Online
+  By the end of this module, you'll be able to:
+  *   Determine the out-of-the-box permission levels that your organization should use in SharePoint Online when creating sites and segregating and restricting access to content that is considered confidential or proprietary
+  *   Plan a migration strategy to migrate file shares to SharePoint Online and OneDrive
+  *   Identify the options available in SharePoint Online to maintain and recover content that has either been deleted or misplaced in your organization's intranet
+  *   Describe the different options that provide anti-malware protection in SharePoint Online
+  *   Plan a hybrid SharePoint Online deployment
 prerequisites: |
   None
 iconUrl: /learn/achievements/sharepoint-explore.svg
@@ -26,17 +27,17 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:
 - learn.wwl.explore-sharepoint-online.introduction
 - learn.wwl.explore-sharepoint-online.manage-local-site-permission-levels
-- learn.wwl.explore-sharepoint-online.manage-hub-sites
-- learn.wwl.explore-sharepoint-online.explore-encryption-services-used-by
+- learn.wwl.explore-sharepoint-online.examine-sites-sharepoint-online
+- learn.wwl.explore-sharepoint-online.plan-migration-sharepoint-onedrive
 - learn.wwl.explore-sharepoint-online.recover-deleted-misplaced-content
 - learn.wwl.explore-sharepoint-online.explore-anti-malware-protection-provided-by
 - learn.wwl.explore-sharepoint-online.explore-external-sharing-features-within
+- learn.wwl.explore-sharepoint-online.examine-hybrid-requirements-sharepoint-online
 - learn.wwl.explore-sharepoint-online.knowledge-check
 - learn.wwl.explore-sharepoint-online.summary
 badge:

@@ -4,13 +4,12 @@ title: Manage local site permission levels
 metadata:
   title: Manage local site permission levels
   description: "Manage local site permission levels"
-  ms.date: 09/10/2021
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 5
 content: |
@@ -22,10 +21,10 @@ quiz:
     choices:
     - content: "Limited Access"
       isCorrect: true
-      explanation: "That's correct. Limited Access enables users to access shared resources and a specific asset. By combining Limited Access with fine-grained permissions, users can access a specific list, document library, folder, list item, or document, without requiring access to the entire site."
+      explanation: "Correct. Limited Access enables users to access shared resources and a specific asset. By combining Limited Access with fine-grained permissions, users can access a specific list, document library, folder, list item, or document, without requiring access to the entire site."
     - content: "Contribute"
       isCorrect: false
-      explanation: "That's incorrect. This permission level enables users to manage personal views, edit items and user information, delete versions in existing lists and document libraries, and add, remove, and update personal Web Parts. Try again."
+      explanation: "Incorrect. This permission level enables users to manage personal views, edit items and user information, delete versions in existing lists and document libraries, and add, remove, and update personal Web Parts."
     - content: "Edit"
       isCorrect: false
-      explanation: "That's incorrect. This permission level enables users to manage lists. Try again."
+      explanation: "Incorrect. This permission level enables users to manage lists."
