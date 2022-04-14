@@ -146,7 +146,7 @@ Rules with conditions that require inspection of the message's content, or actio
   :::column-end:::
   :::column:::
     Rules can always access envelope headers and process messages based on conditions that inspect those headers.
-For a rule to inspect or modify a protected message's content, your need to have transport decryption set to Mandatory or Optional (By default, Transport decryption is set to Optional), or you need to have the encryption key.
+For a rule to inspect or modify a protected message's content, your need to have transport decryption set to Mandatory or Optional (By default, Transport decryption is set to Optional), or your need to have the encryption key.
   :::column-end:::
 :::row-end:::
 :::row:::

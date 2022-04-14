@@ -19,4 +19,3 @@ After completing this module, you'll be able to:
  -  Describe how transport rules work.
  -  Configure custom transport rules.
  -  Describe how transport rules can be used for data loss prevention.
- 
