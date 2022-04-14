@@ -27,4 +27,4 @@ quiz:
       explanation: "Incorrect. Power Apps provides a rapid low-code development environment for building custom apps for business needs."
     - content: "Power Virtual Agents"
       isCorrect: true
-      explanation: "Correct. Power Virtual Agents enable anyone to create powerful chatbots using a guided, no-code graphical interface, without the need for data scientists or developers."
+      explanation: "Correct. Power Virtual Agents enables anyone to create powerful chatbots using a guided, no-code graphical interface, without the need for data scientists or developers."
