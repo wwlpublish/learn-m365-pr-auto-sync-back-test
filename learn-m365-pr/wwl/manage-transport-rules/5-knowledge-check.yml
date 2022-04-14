@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/09/2022
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,13 +21,13 @@ quiz:
     choices:
     - content: "Transport rules"
       isCorrect: false
-      explanation: "That's incorrect. Transport rules can identify and act on messages that flow through the transport pipeline in an Exchange organization. Try again."
+      explanation: "That's incorrect. Transport rules can identify and act on messages that flow through the transport pipeline in an Exchange organization."
     - content: "Edge transport rules"
       isCorrect: true
       explanation: "That's correct. Edge Transport rules are used to control the flow of messages sent to or received from the Internet."
     - content: "Inbox rules in Outlook"
       isCorrect: false
-      explanation: "That's incorrect. This feature doesn't provide the functionality Holly wants to implement. Try again."
+      explanation: "That's incorrect. This feature doesn't provide the functionality Holly wants to implement."
   - content: "Lucerne Publishing currently has one Edge Transport server. As the company's Messaging administrator, Patti Fernandez wants to expand the company's messaging infrastructure by creating additional Edge Transport servers. None of the Edge Transport servers are domain joined. How can Patti apply the company's Edge Transport rules from its existing Edge Transport server to the new Edge Transport servers?"
     choices:
     - content: "Clone the Edge Transport server configuration"
@@ -35,18 +35,18 @@ quiz:
       explanation: "That's correct. Edge Transport rules are configured on each Edge Transport server. Edge Transport rules that you create and configure on Edge Transport servers are stored in the local instance of AD LDS on the server. No automated replication of transport rules occurs on Edge Transport servers. Rules on the Edge Transport server apply only to messages that flow through the local server. If you need to apply the same set of mail flow rules on multiple Edge Transport servers, you can clone the Edge Transport server configuration, or export and import the mail flow rules."
     - content: "Enable automated replication of transport rules on the new Edge Transport servers"
       isCorrect: false
-      explanation: "That's incorrect. Edge Transport rules that you create and configure on Edge Transport servers are stored in the local instance of AD LDS on the server. No automated replication of transport rules occurs on Edge Transport servers. Try again."
+      explanation: "That's incorrect. Edge Transport rules that you create and configure on Edge Transport servers are stored in the local instance of AD LDS on the server. No automated replication of transport rules occurs on Edge Transport servers."
     - content: "Move the Edge Transport rules from the Edge Transport server to the company's mailbox servers"
       isCorrect: false
-      explanation: "That's incorrect. Because transport rules for Exchange mailbox servers are stored in Active Directory, Edge Transport servers that aren't domain joined can't access them. Lucerne's Edge Transport servers aren't domain joined, so they won't be able to access transport rules on the company's mailbox servers. Try again."
+      explanation: "That's incorrect. Because transport rules for Exchange mailbox servers are stored in Active Directory, Edge Transport servers that aren't domain joined can't access them. Lucerne's Edge Transport servers aren't domain joined, so they won't be able to access transport rules on the company's mailbox servers."
   - content: "As the Messaging administrator for Contoso, Holly Dickson has discovered that several of the company's transport rules have conditions that overlap. What should Holly do to address this situation?"
     choices:
     - content: "Modify the rules to only have one condition per rule"
       isCorrect: false
-      explanation: "That's incorrect. This task isn't what Holly should do. Try again."
+      explanation: "That's incorrect. This task isn't what Holly should do."
     - content: "Modify the rules to eliminate any overlap of conditions"
       isCorrect: false
-      explanation: "That's incorrect. This task isn't what Holly should do. Try again."
+      explanation: "That's incorrect. This task isn't what Holly should do."
     - content: "Order the rules properly"
       isCorrect: true
       explanation: "That's correct. In many cases, you must apply several transport rules in your organization. If these transport rules have conditions that can overlap in some cases, it’s important that you order them properly."
