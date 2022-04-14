@@ -4,12 +4,13 @@ title: Connect Power BI to data sources
 metadata:
   title: Connect Power BI to data sources
   description: "Connect Power BI to data sources"
-  ms.date: 07/09/2021
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/4-connect-flows-to-data-sources.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Import"
       isCorrect: false
-      explanation: "That's incorrect. With this method, the selected tables and columns from the data source are imported into Power BI Desktop. Try again."
+      explanation: "Incorrect. With this method, the selected tables and columns from the data source are imported into Power BI Desktop."
     - content: "Live Connection"
       isCorrect: false
-      explanation: "That's incorrect. With this method, a user connects to a dataset that's been shared/published to the Power BI service to create new reports. Try again."
+      explanation: "Incorrect. With this method, a user connects to a dataset that's been shared/published to the Power BI service to create new reports."
     - content: "DirectQuery"
       isCorrect: true
-      explanation: "That's correct. No data is imported or copied into Power BI Desktop when using DirectQuery. Instead, as the user creates or interacts with a visualization, Power BI Desktop queries the underlying data source. As a result, the data being viewed is always current."
+      explanation: "Correct. No data is imported or copied into Power BI Desktop when using DirectQuery. Instead, as the user creates or interacts with a visualization, Power BI Desktop queries the underlying data source. As a result, the data being viewed is always current."

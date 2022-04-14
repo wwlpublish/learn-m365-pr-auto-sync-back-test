@@ -4,12 +4,13 @@ title: Examine Power BI functionality
 metadata:
   title: Examine Power BI functionality
   description: "Examine Power BI functionality"
-  ms.date: 07/09/2021
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/2-examine-functionality.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Power BI Desktop"
       isCorrect: false
-      explanation: "That's incorrect. The Power BI Desktop is a free application that users can install on their local computers that lets them connect to, transform, and visualize their data. Try again."
+      explanation: "Incorrect. The Power BI Desktop is a free application that users can install on their local computers that lets them connect to, transform, and visualize their data."
     - content: "Mobile apps"
       isCorrect: false
-      explanation: "That's incorrect. Power BI offers a set of mobile apps for iOS, Android, and Windows 10 mobile devices. These apps enable users to connect to and interact with their cloud and on-premises data. Try again."
+      explanation: "Incorrect. Power BI offers a set of mobile apps for iOS, Android, and Windows 10 mobile devices. These apps enable users to connect to and interact with their cloud and on-premises data."
     - content: "Power BI service"
       isCorrect: true
-      explanation: "That's correct. The Power BI service is a cloud-based suite of business analytics tools. It lets users connect to, visualize, and analyze data with greater speed, efficiency, and understanding. It also connects users to a broad range of live data through easy-to-use dashboards, provides interactive reports, delivers compelling visualizations that bring data to life, and enables users to share those visualizations with others."
+      explanation: "Correct. The Power BI service is a cloud-based suite of business analytics tools. It lets users connect to, visualize, and analyze data with greater speed, efficiency, and understanding. It also connects users to a broad range of live data through easy-to-use dashboards, provides interactive reports, delivers compelling visualizations that bring data to life, and enables users to share those visualizations with others."

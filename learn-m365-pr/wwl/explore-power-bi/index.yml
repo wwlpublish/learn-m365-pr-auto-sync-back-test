@@ -3,7 +3,7 @@ uid: learn.wwl.explore-power-bi
 metadata:
   title: Create reports and dashboards as a Microsoft 365 Enterprise Administrator with Power BI
   description: "Create reports and dashboards as a Microsoft 365 Enterprise Administrator with Power BI"
-  ms.date: 07/09/2021
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,7 +11,7 @@ metadata:
 title: Create reports and dashboards as a Microsoft 365 Enterprise Administrator with Power BI
 summary: This module examines the key features of Power BI (Business Intelligence) and provides instruction on how to create reports, dashboards, and visualizations, connect Power BI to data sources, and administer and share your results.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Describe what Power BI is and how it is used by organizations
   - Describe how Power BI connects to data sources
   - Build and share a basic Power BI report and dashboard
@@ -26,7 +26,6 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:
