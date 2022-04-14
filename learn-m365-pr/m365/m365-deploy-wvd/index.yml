@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Deploy Azure Virtual Desktop
-summary: Learn how to deploy Azure Virtual Desktop. Provision an Azure Virtual Desktop connection to a remote resource. Make a desktop and apps available to users by using application groups. Customize the workspace for your users. Install Azure Virtual Desktop client for Windows and connect to the workspace.
+summary: Learn how to deploy Azure Virtual Desktop. Start with provisioning an Azure Virtual Desktop connection to a remote resource, and make a desktop and apps available to users by using application groups. You will then customize the workspace for your users and end by installing Azure Virtual Desktop client for Windows and connect to the workspace.
 abstract: |
   In this module, you will:
   - Learn about the key components of Azure Virtual Desktop and the deployment options 
