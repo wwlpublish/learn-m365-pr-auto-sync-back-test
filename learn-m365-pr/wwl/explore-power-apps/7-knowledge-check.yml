@@ -4,13 +4,12 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 09/10/2021
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 6
 content: |
@@ -22,32 +21,32 @@ quiz:
     choices:
     - content: "Canvas apps offer users a more consistent look and feel from one screen to the next without much effort by the creator"
       isCorrect: false
-      explanation: "That's incorrect. This item is a feature of model-driven apps. Try again."
-    - content: "The data used by canvas apps can come from various data sources, including the Common Data Service database"
+      explanation: "Incorrect. This item is a feature of model-driven apps."
+    - content: "The data used by canvas apps can come from various data sources, including the Microsoft Dataverse database"
       isCorrect: true
-      explanation: "That's correct. The data for canvas apps can come from various data sources, including the Common Data Service database. The data for model-driven apps must come exclusively from the Common Data Service database."
+      explanation: "Correct. The data for canvas apps can come from various data sources, including the Microsoft Dataverse database. The data for model-driven apps must come exclusively from the Microsoft Dataverse database."
     - content: "With canvas apps, the app layout, the views, and the detail screens are determined by the components and based on the data structure"
       isCorrect: false
-      explanation: "That's incorrect. This item is a feature of model-driven apps. Try again."
+      explanation: "Incorrect. This item is a feature of model-driven apps."
   - content: "As Lucerne Publishing's Enterprise Administrator, Holly Spencer is interested in having Lucerne's users create canvas apps. Which of the following controls should they use to display records from a table of data?"
     choices:
     - content: "Gallery control"
       isCorrect: true
-      explanation: "That's correct. The Gallery control is used to display records from a table of data. The display of a record is then defined by a template, which can be customized. This design enables the app creator to control which fields are displayed and how they're formatted."
+      explanation: "Correct. The Gallery control is used to display records from a table of data. The display of a record is then defined by a template, which can be customized. This design enables the app creator to control which fields are displayed and how they're formatted."
     - content: "Forms control"
       isCorrect: false
-      explanation: "That's incorrect. Forms are designed to work with a specific record. Display forms enable the app user to view detailed information for an existing record. Try again."
+      explanation: "Incorrect. Forms are designed to work with a specific record. Display forms enable the app user to view detailed information for an existing record."
     - content: "Input controls"
       isCorrect: false
-      explanation: "That's incorrect. Text inputs, buttons, dropdowns, toggles, date pickers, and sliders are a few examples of the various input controls that are available. App creators can add these controls to galleries, forms, and screens to build a functional and aesthetic experience for the app. Try again."
+      explanation: "Incorrect. Text inputs, buttons, dropdowns, toggles, date pickers, and sliders are a few examples of the various input controls that are available. App creators can add these controls to galleries, forms, and screens to build a functional and aesthetic experience for the app."
   - content: "As Lucerne Publishing's Enterprise Administrator, Holly Spencer is interested in building an app for a Test Drive solution. Holly has discovered that this process is similar to building an app in Power Apps, with one exception. What is that exception?"
     choices:
     - content: "The app-maker must use imported data from the Common Data Service database"
       isCorrect: false
-      explanation: "That's incorrect. This feature isn't the exception between building an app for a Test Drive solution and an app in Power Apps. Try again."
+      explanation: "Incorrect. This feature isn't the exception between building an app for a Test Drive solution and an app in Power Apps."
     - content: "The app-maker must use imported Excel data in table format"
       isCorrect: true
-      explanation: "That's correct. The app-maker must use embedded data (imported Excel data in table format) rather than external data connections."
+      explanation: "Correct. The app-maker must use embedded data (imported Excel data in table format) rather than external data connections."
     - content: "The app-maker must use imported SharePoint list data"
       isCorrect: false
-      explanation: "That's incorrect. This feature isn't the exception between building an app for a Test Drive solution and an app in Power Apps. Try again."
+      explanation: "Incorrect. This feature isn't the exception between building an app for a Test Drive solution and an app in Power Apps."
