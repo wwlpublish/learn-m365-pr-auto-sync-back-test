@@ -1,5 +1,8 @@
 The last step to prepare for your deployment is to authorize the Azure Virtual Desktop service provider to be used in your subscription.
 
+> [!NOTE]
+> You must have permission to register a resource provider, which requires the `*/register/action` operation. This is included if you are assigned the [contributor or owner role](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles) on your subscription.
+
 ## Register the Microsoft.DesktopVirtualization provider
 
 1. [Sign in](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true) to the Azure portal.
