@@ -4,14 +4,13 @@ title: Assign admin roles to users in Microsoft 365
 metadata:
   title: Assign admin roles to users in Microsoft 365
   description: "Assign admin roles to users in Microsoft 365"
-  ms.date: 09/10/2021
+  ms.date: 04/13/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 7
 content: |
-  [!include[](includes/3-assign-admin-roles-to-users.md)]
+  [!include[](includes/4-assign-admin-roles-to-users.md)]

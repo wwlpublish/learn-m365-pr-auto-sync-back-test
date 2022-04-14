@@ -2,8 +2,14 @@ Azure AD Privileged Identity Management (PIM) enables organizations to manage, c
 
 Azure AD Privileged Identity Management helps an organization:
 
- -  See which users are assigned privileged roles to manage Azure resources, and which users are assigned administrative roles in Azure AD.
- -  Enable on-demand, "just in time" administrative access to Microsoft Online Services like Microsoft 365 and Intune, and to Azure resources of subscriptions, resource groups, and individual resources such as Virtual Machines.
+ -  See which users are assigned privileged roles to manage Azure resources.
+ -  See which users are assigned administrative roles in Azure AD.
+ -  Enable on-demand, "just in time" administrative access to:
+    
+     -  Microsoft Online Services like Microsoft 365 and Intune
+     -  Azure resources of subscriptions
+     -  Resource groups
+     -  Individual resources such as virtual machines
  -  See a history of administrator activation, including what changes administrators made to Azure resources.
  -  Get alerts about changes in administrator assignments.
  -  Require approval to activate Azure AD privileged admin roles.
