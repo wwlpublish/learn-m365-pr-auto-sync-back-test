@@ -4,7 +4,7 @@ title: Configure connectors
 metadata:
   title: Configure connectors
   description: "Configure connectors"
-  ms.date: 03/09/2022
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,7 +24,7 @@ quiz:
       explanation: "That's correct. This role is typically used for communication with external applications, users, and mail servers outside of the Exchange organization."
     - content: "Hub Transport"
       isCorrect: false
-      explanation: "That's incorrect. This role is the backend transport role that's used for communication between servers. Try again."
+      explanation: "That's incorrect. This role is the backend transport role that's used for communication between servers."
     - content: "POP Transport"
       isCorrect: false
-      explanation: "That's incorrect. POP transport isn't a valid role that can be assigned to a receive connector. Try again."
+      explanation: "That's incorrect. POP transport isn't a valid role that can be assigned to a receive connector."

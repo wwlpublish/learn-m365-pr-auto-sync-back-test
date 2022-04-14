@@ -6,7 +6,7 @@ Exchange supports two types of SMTP domains: accepted domains and remote domains
 
 An accepted domain is a domain from which the Exchange organization receives and processes messages. Depending on the configuration of the accepted domain, the message may be delivered to an internal recipient or forwarded to another messaging organization.
 
-Accepted domains are another part of routing and receiving messages, because Exchange Servers only accept mails that are sent to one or more of their accepted domains. Outgoing messages are also checked against the configured accepted domains to determine if a message needs to be delivered inside your organization, to a partner organization, or if the recipients are external.
+Accepted domains are another part of routing and receiving messages. Exchange Servers only accept mail that is sent to one or more of their accepted domains. Outgoing messages are checked against your accepted domains to determine if a message needs to be delivered wiithin your organization, to a partner organization, or if the recipients are external.
 
 There are three types of accepted domains: Authoritative domains, Internal relay domains, and External relay domains. Each of these accepted domain types is examined in the following sections.
 
@@ -26,7 +26,7 @@ An organization can be configured with multiple authoritative domains, which mak
 
 #### Relay domains
 
-An accepted domain should be configured as a relay domain (also known as non-authoritative domain) when some or none of the recipients in that domain exist in your Exchange organization (for example, partners or subsidiaries). Exchange is not responsible for generating NDRs for non-existent recipients in a relay domain. Instead, you configure a Send connector with the address space of the relay domain, and you configure this Send connector to use smart host routing to relay messages to their destination (directly or to the next hop).
+An accepted domain should be configured as a relay domain (also known as non-authoritative domain) when some or none of the recipients in that domain exist in your Exchange organization (for example, partners or subsidiaries). Exchange isn't responsible for generating NDRs for non-existent recipients in a relay domain. Instead, you configure a Send connector with the address space of the relay domain, and you configure this Send connector to use smart host routing to relay messages to their destination (directly or to the next hop).
 
 You can configure a relay domain as either an internal or external relay domain. The characteristics of each are described below:
 
@@ -48,7 +48,7 @@ You can configure a relay domain as either an internal or external relay domain.
 
 Remote domains are different from accepted domains because they don't manage which email messages are accepted or rejected in your organization; instead, they define settings for message delivery to SMTP domains that are external to your Exchange Server organization. You can create remote domain entries to define the settings for message transfer between the Exchange Server organization and domains outside your Active Directory forest. When you create a remote domain entry, you control the types of messages that are sent to that domain. You can also apply message-format policies and acceptable character sets for messages that are sent from your organization’s users to the remote domain.
 
-There is one remote domain named Default that exists after Exchange Server is installed or your Tenant is created. This remote domain is defined for the domain name \*, which applies to all messages to external domains. You can create remote domains for other domains as required. Remote domains are often created for partner domains where you want to allow messages that are not normally allowed. For example, a remote domain for a partner organization may allow users to automatically forward messages that the Default remote domain blocks.
+There's one remote domain named Default that exists after Exchange Server is installed or your Tenant is created. This remote domain is defined for the domain name \*, which applies to all messages to external domains. You can create remote domains for other domains as required. Remote domains are often created for partner domains where you want to allow messages that aren't normally allowed. For example, a remote domain for a partner organization may allow users to automatically forward messages that the Default remote domain blocks.
 
 Some of the settings you can configure for a remote domain include:
 

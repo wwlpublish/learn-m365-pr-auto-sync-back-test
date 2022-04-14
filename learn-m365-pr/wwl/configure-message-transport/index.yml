@@ -3,7 +3,7 @@ uid: learn.wwl.configure-message-transport
 metadata:
   title: Configure message transport
   description: "Configure message transport"
-  ms.date: 03/09/2022
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -15,7 +15,6 @@ abstract: |
   - Configure the different transport options.
   - Plan and set up domains for your organization.
   - Understand how the receive and send connectors work.
-  - Describe how message moderation for different recipients work.
 prerequisites: ""
 iconUrl: /learn/achievements/2-configure-message-transport.svg
 levels:
@@ -32,7 +31,6 @@ units:
 - learn.wwl.configure-message-transport.options
 - learn.wwl.configure-message-transport.configure-smtp-domains
 - learn.wwl.configure-message-transport.configure-connectors
-- learn.wwl.configure-message-transport.examine-message-moderation
 - learn.wwl.configure-message-transport.knowledge-check
 - learn.wwl.configure-message-transport.summary
 badge:

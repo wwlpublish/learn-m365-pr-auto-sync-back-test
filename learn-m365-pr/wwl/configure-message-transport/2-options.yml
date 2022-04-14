@@ -4,7 +4,7 @@ title: Configure message transport options
 metadata:
   title: Configure message transport options
   description: "Configure message transport options"
-  ms.date: 03/09/2022
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Alan didn't update the Shadow redundancy setting"
       isCorrect: false
-      explanation: "That's incorrect. Shadow redundancy settings have nothing to do with blocked messages related to message size. Try again."
+      explanation: "That's incorrect. Shadow redundancy settings have nothing to do with blocked messages related to message size."
     - content: "Alan didn't change the maximum message size on Tailspin Toys' Send connector to 20 MB"
       isCorrect: true
       explanation: "That's correct. Even if you configure organization level settings, you may still need to configure individual services or Exchange objects. For example, if you change the maximum message size for your organization, you must also change the maximum message sizes on your receive and send connectors. Failure to do so will still block your users' messages if they’re too large."
     - content: "Alan didn't adjust the message throttling setting on the Send connector"
       isCorrect: false
-      explanation: "That's incorrect. The message throttling setting has nothing to do with blocked messages related to message size. Try again."
+      explanation: "That's incorrect. The message throttling setting has nothing to do with blocked messages related to message size."

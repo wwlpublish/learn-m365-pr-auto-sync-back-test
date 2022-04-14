@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-message-transport.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/14/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which type of SMTP domain is an accepted domain in which all recipients are hosted in the Exchange organization?"
+    choices:
+    - content: "Authoritative domain"
+      isCorrect: true
+      explanation: "That's correct. An authoritative domain is an accepted domain in which all recipients are hosted in the Exchange organization."
+    - content: "Remote domain"
+      isCorrect: false
+      explanation: "That's incorrect. A remote domain defines settings for message delivery to SMTP domains that are external to your Exchange Server organization."
+    - content: "Relay domain"
+      isCorrect: false
+      explanation: "That's incorrect. A relay domain is an accepted domain, but some or none of the recipients in that domain exist in your Exchange organization (for example, partners or subsidiaries)."
+  - content: "Which message transport component can be configured to block automatic replies sent to SMTP domains that are external?"
+    choices:
+    - content: "Foreign connectors"
+      isCorrect: false
+      explanation: "That's incorrect. Foreign connectors control outgoing mail flow to non-SMTP systems."
+    - content: "External relay domain"
+      isCorrect: false
+      explanation: "That's incorrect. An external relay domain is configured when an exchange organization must process messages for a domain, but no recipients for that domain are in the Exchange organization."
+    - content: "Remote domain"
+      isCorrect: true
+      explanation: "That's correct. A remote domain can be configured to block automatic replies sent to SMTP domains that are external to your Exchange Server organization."
+  - content: "Which type of connectors are configured for the Exchange Server organization?"
+    choices:
+    - content: "Receive connectors"
+      isCorrect: false
+      explanation: "That's incorrect. Receive connectors are configured per server in an Exchange Server organization."
+    - content: "Send connectors"
+      isCorrect: true
+      explanation: "That's correct. Send connectors are configured for the Exchange Server organization."
+    - content: "Inbound connectors"
+      isCorrect: false
+      explanation: "That's incorrect. Inbound connectors are basically receive connectors for an Exchange Online deployment."
