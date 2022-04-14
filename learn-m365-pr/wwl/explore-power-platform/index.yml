@@ -3,7 +3,7 @@ uid: learn.wwl.explore-power-platform
 metadata:
   title: Explore Microsoft Power Platform as a Microsoft 365 Enterprise Administrator
   description: "Explore Microsoft Power Platform as a Microsoft 365 Enterprise Administrator"
-  ms.date: 09/10/2021
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,7 +11,7 @@ metadata:
 title: Explore Microsoft Power Platform as a Microsoft 365 Enterprise Administrator
 summary: This module examines the key features of Microsoft's Power Platform and provides an introduction to the components that make up the Microsoft Power Platform product family.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Describe what the Microsoft Power Platform is
   - Identify the components that make up the Microsoft Power Platform product family
   - Implement the Microsoft Power Platform Center of Excellence starter kit
@@ -27,7 +27,6 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:

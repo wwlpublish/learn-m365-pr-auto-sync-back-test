@@ -4,13 +4,12 @@ title: Explore the Microsoft Power Platform product family
 metadata:
   title: Explore the Microsoft Power Platform product family
   description: "Explore the Microsoft Power Platform product family"
-  ms.date: 09/10/2021
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 5
 content: |
@@ -22,10 +21,10 @@ quiz:
     choices:
     - content: "Power Automate"
       isCorrect: false
-      explanation: "That's incorrect. Power Automate enables users to create automated workflows between applications and services. Try again."
+      explanation: "Incorrect. Power Automate enables users to create automated workflows between applications and services."
     - content: "Power Apps"
       isCorrect: false
-      explanation: "That's incorrect. Power Apps provides a rapid low-code development environment for building custom apps for business needs. Try again."
+      explanation: "Incorrect. Power Apps provides a rapid low-code development environment for building custom apps for business needs."
     - content: "Power Virtual Agents"
       isCorrect: true
-      explanation: "That's correct. Power Virtual Agents enables anyone to create powerful chatbots using a guided, no-code graphical interface, without the need for data scientists or developers."
+      explanation: "Correct. Power Virtual Agents enable anyone to create powerful chatbots using a guided, no-code graphical interface, without the need for data scientists or developers."

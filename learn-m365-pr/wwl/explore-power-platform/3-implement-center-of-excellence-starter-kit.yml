@@ -4,13 +4,12 @@ title: Implement the Microsoft Power Platform Center of Excellence starter kit
 metadata:
   title: Implement the Microsoft Power Platform Center of Excellence starter kit
   description: "Implement the Microsoft Power Platform Center of Excellence starter kit"
-  ms.date: 09/10/2021
+  ms.date: 04/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 5
 content: |
@@ -22,10 +21,10 @@ quiz:
     choices:
     - content: "Power Automate"
       isCorrect: true
-      explanation: "That's correct. The focus of the Microsoft Power Platform CoE Starter Kit is on Power Apps and Power Automate."
+      explanation: "Correct. The focus of the Microsoft Power Platform CoE Starter Kit is on Power Apps and Power Automate."
     - content: "Power BI"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't one of the Microsoft Power Platform components the Microsoft Power Platform CoE Starter Kit focuses on. Try again."
+      explanation: "Incorrect. This item isn't one of the Microsoft Power Platform components the Microsoft Power Platform CoE Starter Kit focuses on."
     - content: "Power Virtual Agents"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't one of the Microsoft Power Platform components the Microsoft Power Platform CoE Starter Kit focuses on. Try again."
+      explanation: "Incorrect. This item isn't one of the Microsoft Power Platform components the Microsoft Power Platform CoE Starter Kit focuses on."

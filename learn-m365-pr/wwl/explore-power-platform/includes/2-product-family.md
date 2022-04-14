@@ -4,7 +4,7 @@ The business applications and process automations enabled by Microsoft Power Pla
 
 Microsoft Power Platform is composed of the following four key products:<br>
 
- -  **Power Apps.** Provides a rapid low-code development environment for building custom apps for business needs. It has services, connectors, and a scalable data service and app platform (known as the Common Data Service) that enable simple integration and interaction with existing data. Power Apps enables the creation of web and mobile applications that run on all devices.<br>
+ -  **Power Apps.** Provides a rapid low-code development environment for building custom apps for business needs. It has services, connectors, and a scalable data service and app platform (known as Microsoft Dataverse) that enable simple integration and interaction with existing data. Power Apps enables the creation of web and mobile applications that run on all devices.<br>
  -  **Power Automate.** Enables users to create automated workflows between applications and services. It helps automate repetitive business processes such as communication, data collections, and decision approvals.<br>
  -  **Power BI(Business Intelligence).** Delivers insight for analyzing data through the business analytics service. It can share those insights through data visualizations in reports and dashboards, which can help users make fast, informed decisions. Consider Power BI as the analysis and insights leg of the Microsoft Power Platform. It enables users to display business data in ways that makes the most sense.
  -  **Power Virtual Agents.** Enables anyone to create powerful chatbots using a guided, no-code graphical interface, without the need for data scientists or developers.
