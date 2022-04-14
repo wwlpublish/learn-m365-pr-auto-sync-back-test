@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "What do Power Automate flows require to start?"
+  - content: "What's required to start a Power Automate flow?"
     choices:
     - content: "An action"
       isCorrect: false
