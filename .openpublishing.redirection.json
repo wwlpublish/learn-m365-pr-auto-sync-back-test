@@ -2089,6 +2089,56 @@
       "source_path": "learn-m365-pr/wwl/deploy-microsoft-365-apps-for-enterprise/11-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-microsoft-365-apps-for-enterprise/12-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-administrative-roles-microsoft-365/3-assign-admin-roles-to-users.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-administrative-roles-microsoft-365/4-assign-admin-roles-to-users",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-administrative-roles-microsoft-365/4-explore-exchange-administrator-role.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-administrative-roles-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-administrative-roles-microsoft-365/9-delegate-admin-roles-to-partners",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-administrative-roles-microsoft-365/5-delegate-admin-roles-to-partners",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-administrative-roles-microsoft-365/5-explore-sharepoint-administrator-role.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-administrative-roles-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-administrative-roles-microsoft-365/6-explore-modern-desktop-administrator-role.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-administrative-roles-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-administrative-roles-microsoft-365/10-elevate-privileges-using-azure-ad-privileged-identity-management.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-administrative-roles-microsoft-365/7-elevate-privileges-using-azure-ad-privileged-identity-management",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-administrative-roles-microsoft-365/7-explore-security-compliance-administrator-role.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-administrative-roles-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-administrative-roles-microsoft-365/8-explore-teams-administrator-role.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-administrative-roles-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-administrative-roles-microsoft-365/11-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-administrative-roles-microsoft-365/8-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-administrative-roles-microsoft-365/12-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-administrative-roles-microsoft-365/9-summary",
+      "redirect_document_id": true
     }
   ]
 }
