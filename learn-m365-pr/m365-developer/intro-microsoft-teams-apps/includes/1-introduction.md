@@ -1,4 +1,4 @@
-Microsoft Teams is an extensible platform you can create custom apps on; putting your app at the heart of your organizations collaboration platform. Apps for Microsoft Teams can be as simple or as complex as you need, from sending notifications to channels or users to complex multi-surface apps incorporating conversational bots, natural language processing, and embedded web experiences. You can build apps for an individual, your team, your organization, or for all Microsoft Teams users everywhere.
+Microsoft Teams is an extensible platform for creating custom apps in the heart of your organizations collaboration platform. Apps for Microsoft Teams can be as simple or as complex as you need, from sending notifications to channels or users to complex multi-surface apps incorporating conversational bots, natural language processing, and embedded web experiences. You can build apps for an individual, your team, your organization, or for all Microsoft Teams users everywhere.
 
 Some common scenarios that a custom Microsoft Teams app can help with are:
 
