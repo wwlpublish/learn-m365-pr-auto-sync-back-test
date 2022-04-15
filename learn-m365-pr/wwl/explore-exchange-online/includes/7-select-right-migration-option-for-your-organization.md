@@ -4,16 +4,16 @@ For migrations from an existing on-premises Exchange Server environment, you can
 
  -  Your current mail system.
  -  The number of mailboxes you want to migrate.
- -  How you plan to manage users and user access.<br>
+ -  How you plan to manage users and user access.
 
-For migration recommendations, refer to the following section that matches your source system.<br>
+For migration recommendations, refer to the following section that matches your source system.
 
 ### Your source system is Exchange 2003 or Exchange 2007
 
-If your source system is Exchange 2003 or Exchange 2007, consider the following options.<br>
+If your source system is Exchange 2003 or Exchange 2007, consider the following options.
 
 > [!WARNING]
-> The cutover migration supports moving up to 2000 mailboxes. However, due to length of time it takes to create and migrate 2000 users, it's more reasonable to migrate 150 users or less.<br>
+> The cutover migration supports moving up to 2000 mailboxes. However, due to length of time it takes to create and migrate 2000 users, it's more reasonable to migrate 150 users or less.
 
 :::row:::
   :::column:::
@@ -35,7 +35,6 @@ If your source system is Exchange 2003 or Exchange 2007, consider the following 
   :::column-end:::
   :::column:::
     **Cutover migration**
-
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -58,7 +57,6 @@ If your source system is Exchange 2003 or Exchange 2007, consider the following 
   :::column-end:::
   :::column:::
     **Staged migration**
-
 If your organization has more than 150 mailboxes, the best method to use is staged migration. This option enables you to migrate a limited number of users at a time. This option is recommended because cutover migration performance suffers when you try to migrate more than 150 mailboxes.
   :::column-end:::
 :::row-end:::
@@ -82,7 +80,7 @@ If the mailboxes you're migrating contain a large amount of data, you can also u
 
 ### Your source system is Exchange 2010, 2013 or 2016
 
-If your source system is Exchange 2010, Exchange 2013, or Exchange Server 2016, consider the following options.<br>
+If your source system is Exchange 2010, Exchange 2013, or Exchange Server 2016, consider the following options.
 
 > [!WARNING]
 > The cutover migration supports moving up to 2000 mailboxes. However, due to length of time it takes to create and migrate 2000 users, it's more reasonable to migrate 150 users or less.
@@ -153,11 +151,11 @@ If the mailboxes you're migrating contain a large amount of data, you can also u
 
 ### Your source system is Exchange Server 2000 or earlier
 
-For earlier versions of Exchange server, you have no choice but to use an I**MAP migration.**<br>
+For earlier versions of Exchange server, you have no choice but to use an I**MAP migration.**
 
 ### Your source system is another email system
 
-For other email systems that support IMAP, you can use I**MAP migrations**.<br>
+For other email systems that support IMAP, you can use I**MAP migrations**.
 
 Depending on your source system, see one of the following articles for assistance:
 

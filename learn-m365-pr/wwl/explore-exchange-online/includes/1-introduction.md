@@ -14,7 +14,7 @@ Exchange Online has many features that allow companies to adopt and adapt to tod
 
 Exchange Online standardizes each of these features in its everyday use. They're also backed by a Microsoft service level agreement (SLA) with its customers. This module provides a summarized overview of key Exchange Online features.
 
-After completing this module, you'll be able to:<br>
+After completing this module, you'll be able to:
 
  -  Describe the most common recipient types that are available in Exchange Online.
  -  Manage anti-malware and anti-spam policies in Exchange Online.

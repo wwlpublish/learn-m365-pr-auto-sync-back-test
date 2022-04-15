@@ -1,9 +1,11 @@
 Microsoft 365 provides a range of migration options that organizations must consider before moving their email data to Exchange Online. These options involve both migration and coexistence strategies. It's important to understand the difference between them.
 
  -  **Migration.** Migration is the process of moving user data from a source messaging system to Exchange Online. In a migration scenario, an organization wants to move its existing mailboxes to Exchange Online as quickly as possible, without the need to maintain a long-term coexistence.
- -  **Coexistence.** Coexistence is another term for a fully hybrid environment. It's the process of maintaining an organization's existing on-premises messaging system and Exchange Online at the same time. Unlike migration, coexistence enables an organization to move mailboxes between its on-premises mail servers and Exchange Online without its users noticing a difference. As such, coexistence provides the smoothest way to move mailboxes from the user perspective, but it also requires the most work for mail administrators.<br><br>With coexistence, on-premises server products are synchronized or integrated to cloud enterprise services. In this state, an organization can either pool resources to one location or have a mixed bag of resources located on-premises and in the cloud. For example, an organization could integrate its on-premises Exchange environment with Exchange Online. In doing so, it may need to keep some mailboxes local to its environment for proprietary purposes. However, it may have many mailboxes located in the cloud for ease of use and backup purposes.
+ -  **Coexistence.** Coexistence is another term for a fully hybrid environment. It's the process of maintaining an organization's existing on-premises messaging system and Exchange Online at the same time. Unlike migration, coexistence enables an organization to move mailboxes between its on-premises mail servers and Exchange Online without its users noticing a difference. As such, coexistence provides the smoothest way to move mailboxes from the user perspective, but it also requires the most work for mail administrators.
+    
+    With coexistence, on-premises server products are synchronized or integrated to cloud enterprise services. In this state, an organization can either pool resources to one location or have a mixed bag of resources located on-premises and in the cloud. For example, an organization could integrate its on-premises Exchange environment with Exchange Online. In doing so, it may need to keep some mailboxes local to its environment for proprietary purposes. However, it may have many mailboxes located in the cloud for ease of use and backup purposes.
 
-An organization can migrate mailboxes from an Exchange Server or from another email system.<br>
+An organization can migrate mailboxes from an Exchange Server or from another email system.
 
 ### Migrate from an on-premises Exchange Server environment
 
@@ -58,7 +60,7 @@ Once an organization has run a staged migration, the users who were migrated are
 
 An Exchange Hybrid deployment offers organizations the ability to extend the feature-rich experience and administrative control they have with their existing on-premises Microsoft Exchange organization to the cloud. A hybrid deployment provides the seamless look and feel of a single Exchange organization between an on-premises Exchange organization and Exchange Online. In addition, a hybrid deployment can serve as an intermediate step to moving completely to an Exchange Online organization.
 
-In an Exchange hybrid deployment, there are three different types of hybrid migration options:<br>
+In an Exchange hybrid deployment, there are three different types of hybrid migration options:
 
  -  **Full hybrid migration**. This migration type is best for large organizations that have several thousand mailboxes and need complete integration between their on-premises Exchange organization and Microsoft 365. Active Directory is synchronized with Microsoft 365, free/busy information can be exchanged, enhanced mail flow options become available, and more.
  -  **Minimal hybrid migration**. This migration type is best for medium-sized organizations that have a few hundred to a couple thousand mailboxes and want to finish their migration within a couple months. Like full hybrid, minimal hybrid migrations set up on-going Active Directory synchronization with Microsoft 365 to help with recipient administration. However, features like free/busy synchronization and other enhanced features aren't available.
@@ -71,7 +73,9 @@ The Hybrid Configuration Wizard (HCW) supports both Classic and Modern hybrid to
      -  Classic Full
      -  Classic Minimal
      -  Classic Express
- -  **Modern Hybrid topology**. Modern Hybrid doesn't require any inbound HTTPS connection from Exchange Online to the internal Exchange organization. Instead, the Exchange Hybrid Agent connects the on-premises Exchange organization and Exchange Online. This agent is installed on a server and runs as a service that connects to Exchange Online using an outbound HTTPS connection. The Hybrid Agent supports free/busy requests from Exchange Online to the on-premises Exchange server and mailbox migrations.<br><br>In a hybrid Exchange deployment, Modern Hybrid is the preferred option because you don't have to install extra components for incoming HTTPS connections. However, if your organization uses Microsoft Teams, you can't use this option if you want the Microsoft Teams users to continue to use their mailboxes in the company's on-premises Exchange servers. In this case, the Classic Full hybrid option is the company's only choice. The Modern Hybrid topology includes:
+ -  **Modern Hybrid topology**. Modern Hybrid doesn't require any inbound HTTPS connection from Exchange Online to the internal Exchange organization. Instead, the Exchange Hybrid Agent connects the on-premises Exchange organization and Exchange Online. This agent is installed on a server and runs as a service that connects to Exchange Online using an outbound HTTPS connection. The Hybrid Agent supports free/busy requests from Exchange Online to the on-premises Exchange server and mailbox migrations.
+    
+    In a hybrid Exchange deployment, Modern Hybrid is the preferred option because you don't have to install extra components for incoming HTTPS connections. However, if your organization uses Microsoft Teams, you can't use this option if you want the Microsoft Teams users to continue to use their mailboxes in the company's on-premises Exchange servers. In this case, the Classic Full hybrid option is the company's only choice. The Modern Hybrid topology includes:
     
      -  Modern Full
      -  Modern Minimal
@@ -81,7 +85,7 @@ The Classic Hybrid topology provides organizations with more flexibility than th
 The following table compares the options available in the Classic Hybrid topology and Modern Hybrid topology.
 
 > [!NOTE]
-> This table is an expanded version of the one that was originally published in Chapter 13 in the book, Microsoft Office 365 Administration Inside Out, 2nd Edition. Reference- Fisher, Ed; Guilmette, Aaron; Kegg, Darryl; Mandich, Lou. Microsoft Office 365 Administration Inside Out (Includes Current Book Service), 2nd ed. Pearson Education, Inc., 2017. Print.<br>
+> This table is an expanded version of the one that was originally published in Chapter 13 in the book, Microsoft Office 365 Administration Inside Out, 2nd Edition. Reference- Fisher, Ed; Guilmette, Aaron; Kegg, Darryl; Mandich, Lou. Microsoft Office 365 Administration Inside Out (Includes Current Book Service), 2nd ed. Pearson Education, Inc., 2017. Print.
 
 :::row:::
   :::column:::
@@ -558,14 +562,14 @@ To migrate email successfully, Microsoft 365 must connect and communicate with t
 
 You can use the Import service in the Microsoft 365 compliance center to quickly bulk-import PST files to Exchange Online mailboxes in your organization. There are two ways an organization can import PST files to Microsoft 365:
 
- -  **Network upload**. The organization must upload the PST files over the network to a temporary Azure Storage location in the Microsoft cloud. The organization then runs the Microsoft 365 Import service to import the PST data into its Exchange Online mailboxes.<br>
- -  **Drive shipping**. The organization must copy the PST files to a BitLocker-encrypted hard drive. It must then physically ship the drive to Microsoft. When Microsoft receives the hard drive, data center personnel upload the data to a temporary Azure Storage location in the Microsoft cloud. The organization then runs the Microsoft 365 Import service to import the data into its Exchange Online mailboxes.<br>
+ -  **Network upload**. The organization must upload the PST files over the network to a temporary Azure Storage location in the Microsoft cloud. The organization then runs the Microsoft 365 Import service to import the PST data into its Exchange Online mailboxes.
+ -  **Drive shipping**. The organization must copy the PST files to a BitLocker-encrypted hard drive. It must then physically ship the drive to Microsoft. When Microsoft receives the hard drive, data center personnel upload the data to a temporary Azure Storage location in the Microsoft cloud. The organization then runs the Microsoft 365 Import service to import the data into its Exchange Online mailboxes.
 
-An organization should consider a PST migration when:<br>
+An organization should consider a PST migration when:
 
- -  It has a large amount of mailbox data that needs to be migrated to Microsoft 365.<br>
- -  It runs IMAP/POP3 servers and its clients can export PST files (for example, using Microsoft Outlook).<br>
- -  It doesn't want to overutilize its Internet connectivity during migration.<br>
+ -  It has a large amount of mailbox data that needs to be migrated to Microsoft 365.
+ -  It runs IMAP/POP3 servers and its clients can export PST files (for example, using Microsoft Outlook).
+ -  It doesn't want to overutilize its Internet connectivity during migration.
 
 #### Third-party email migration
 
@@ -573,6 +577,6 @@ An organization should consider a third-party migration when their source email 
 
 If the third-party email system only provides POP3 protocol over which users connect to their mailboxes, the only migration option is to use a third-party migration tool or a PST migration.
 
-### Knowledge check<br>
+### Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”

@@ -15,13 +15,13 @@ The following table identifies the mail flow scenarios supported by Microsoft 36
 :::row-end:::
 :::row:::
   :::column:::
-    [Manage all mailboxes and mail flow using Microsoft 365](/exchange/mail-flow-best-practices/manage-mailboxes-using-microsoft-365-or-office-365).
+    [Manage all mailboxes and mail flow using Microsoft 365](/exchange/mail-flow-best-practices/manage-mailboxes-using-microsoft-365-or-office-365?azure-portal=true).
   :::column-end:::
   :::column:::
-    [Scenario 1](/exchange/mail-flow-best-practices/manage-mailboxes-using-microsoft-365-or-office-365#hosted-mail-flow-scenarios)
+    [Scenario 1](/exchange/mail-flow-best-practices/manage-mailboxes-using-microsoft-365-or-office-365#hosted-mail-flow-scenarios?azure-portal=true)
 I'm a new Microsoft 365 customer. All my users' mailboxes are in Microsoft 365. I want to use all filtering solutions offered by Microsoft 365.
 
-[Scenario 2](/exchange/mail-flow-best-practices/manage-mailboxes-using-microsoft-365-or-office-365#hosted-mail-flow-scenarios)
+[Scenario 2](/exchange/mail-flow-best-practices/manage-mailboxes-using-microsoft-365-or-office-365#hosted-mail-flow-scenarios?azure-portal=true)
 I'm a new Microsoft 365 customer. I have an existing email service. However, I plan to move all the existing users' mailboxes to the cloud at once. I want to use all filtering solutions offered by Microsoft 365.
   :::column-end:::
   :::column:::
@@ -30,13 +30,13 @@ I'm a new Microsoft 365 customer. I have an existing email service. However, I p
 :::row-end:::
 :::row:::
   :::column:::
-    [Manage mail flow using a third-party cloud service with Microsoft 365](/exchange/mail-flow-best-practices/manage-mail-flow-using-third-party-cloud).
+    [Manage mail flow using a third-party cloud service with Microsoft 365](/exchange/mail-flow-best-practices/manage-mail-flow-using-third-party-cloud?azure-portal=true).
   :::column-end:::
   :::column:::
-    [Scenario 1](/exchange/mail-flow-best-practices/manage-mail-flow-using-third-party-cloud#scenario-1---mx-record-points-to-third-party-spam-filtering)
+    [Scenario 1](/exchange/mail-flow-best-practices/manage-mail-flow-using-third-party-cloud#scenario-1---mx-record-points-to-third-party-spam-filtering?azure-portal=true)
 I plan to have Microsoft 365 host all of my organization's mailboxes. My organization uses (or plans to use) a third-party (mail services) cloud solution for filtering spam and malware. All email sent from the internet must be filtered by this third-party cloud service.
 
-[Scenario 2](/exchange/mail-flow-best-practices/manage-mail-flow-using-third-party-cloud#scenario-2---mx-record-points-to-third-party-solution-without-spam-filtering)
+[Scenario 2](/exchange/mail-flow-best-practices/manage-mail-flow-using-third-party-cloud#scenario-2---mx-record-points-to-third-party-solution-without-spam-filtering?azure-portal=true)
 I plan to have Microsoft 365 host all my organization's mailboxes. My organization needs to send all email to a third-party service, such as archiving or auditing. However, the third-party service doesn't provide a spam filtering solution.
   :::column-end:::
   :::column:::
@@ -45,23 +45,23 @@ I plan to have Microsoft 365 host all my organization's mailboxes. My organizati
 :::row-end:::
 :::row:::
   :::column:::
-    [Manage mail flow with mailboxes in multiple locations (Microsoft 365 and on-premises)](/exchange/mail-flow-best-practices/manage-mail-flow-for-multiple-locations).
+    [Manage mail flow with mailboxes in multiple locations (Microsoft 365 and on-premises)](/exchange/mail-flow-best-practices/manage-mail-flow-for-multiple-locations?azure-portal=true).
 
 Important: Microsoft 365 will soon be updated to reject email from unknown senders that are relayed from on-premises servers. As such, if the sender or recipient domain of a message doesn't belong to your organization, Microsoft 365 will reject the message unless you've created a connector to allow this behavior.
 
 This change will help prevent unauthorized parties from using your organization to send spam or malware through Microsoft 365. This change potentially affects your mail flow if you use any scenario in this section. Each scenario has best practices to ensure that your mail flow continues uninterrupted.
   :::column-end:::
   :::column:::
-    [Scenario 1](/exchange/mail-flow-best-practices/manage-mail-flow-for-multiple-locations#scenario-1-mx-record-points-to-microsoft-365-or-office-365-and-microsoft-365-or-office-365-filters-all-messages)
+    [Scenario 1](/exchange/mail-flow-best-practices/manage-mail-flow-for-multiple-locations#scenario-1-mx-record-points-to-microsoft-365-or-office-365-and-microsoft-365-or-office-365-filters-all-messages?azure-portal=true)
 I'm migrating my mailboxes to Microsoft 365. I want to keep some mailboxes on my organization's mail server (on-premises server). I want to use Microsoft 365 as my spam filtering solution. I would like to send my messages from my on-premises server to the internet via Microsoft 365. Microsoft 365 will send and receive all messages.
 
-[Scenario 2](/exchange/mail-flow-best-practices/manage-mail-flow-for-multiple-locations#scenario-2-mx-record-points-to-microsoft-365-or-office-365-and-mail-is-filtered-on-premises)
+[Scenario 2](/exchange/mail-flow-best-practices/manage-mail-flow-for-multiple-locations#scenario-2-mx-record-points-to-microsoft-365-or-office-365-and-mail-is-filtered-on-premises?azure-portal=true)
 I'm migrating my mailboxes to Microsoft 365. I want to keep some mailboxes on my organization's mail server (on-premises server). I want to use the filtering and compliance solutions that are already in my on-premises environment. And all messages coming from the internet to my cloud mailboxes or messages sent to the internet from my cloud mailboxes need to route through my on-premises servers.
 
-[Scenario 3](/exchange/mail-flow-best-practices/manage-mail-flow-for-multiple-locations#scenario-3-mx-record-points-to-my-on-premises-servers)
+[Scenario 3](/exchange/mail-flow-best-practices/manage-mail-flow-for-multiple-locations#scenario-3-mx-record-points-to-my-on-premises-servers?azure-portal=true)
 I'm migrating my mailboxes to Microsoft 365. I want to keep some mailboxes on my organization's mail server (on-premises server). I want to use the filtering and compliance solutions that are already in my on-premises email environment. All messages coming from the internet to my cloud mailboxes or messages sent to the internet from cloud mailboxes must route through my on-premises servers. And I need to point my domain's MX record to my on-premises server.
 
-[Scenario 4](/exchange/mail-flow-best-practices/manage-mail-flow-for-multiple-locations#scenario-4-mx-record-points-to-my-on-premises-server-which-filters-and-provides-compliance-solutions-for-your-messages-your-on-premises-server-needs-to-relay-messages-to-the-internet-through-microsoft-365-or-office-365)
+[Scenario 4](/exchange/mail-flow-best-practices/manage-mail-flow-for-multiple-locations#scenario-4-mx-record-points-to-my-on-premises-server-which-filters-and-provides-compliance-solutions-for-your-messages-your-on-premises-server-needs-to-relay-messages-to-the-internet-through-microsoft-365-or-office-365?azure-portal=true)
 I'm migrating my mailboxes to Microsoft 365. I want to keep some mailboxes on my organization's mail server (on-premises server). I want to use the filtering and compliance solutions that are already in my on-premises email environment. All messages sent from my on-premises servers must relay through Microsoft 365 to the internet. And I need to point my domain's MX record to my on-premises server.
   :::column-end:::
   :::column:::
@@ -70,10 +70,10 @@ I'm migrating my mailboxes to Microsoft 365. I want to keep some mailboxes on my
 :::row-end:::
 :::row:::
   :::column:::
-    [Manage mail flow using a third-party cloud service with mailboxes on Microsoft 365 or Office 365 and on-premises](/exchange/mail-flow-best-practices/manage-mail-flow-on-office-365-and-on-prem).
+    [Manage mail flow using a third-party cloud service with mailboxes on Microsoft 365 or Office 365 and on-premises](/exchange/mail-flow-best-practices/manage-mail-flow-on-office-365-and-on-prem?azure-portal=true).
   :::column-end:::
   :::column:::
-    [Scenario](/exchange/mail-flow-best-practices/manage-mail-flow-on-office-365-and-on-prem)
+    [Scenario](/exchange/mail-flow-best-practices/manage-mail-flow-on-office-365-and-on-prem?azure-portal=true)
 I'm migrating my mailboxes to Microsoft 365. I want to keep some mailboxes on my organization's mail server (on-premises server). I want to use a third-party cloud service to filter spam from the internet. My messages to the internet need to route through Microsoft 365 to protect my on-premises servers' IP addresses from being added to external blocklists.
   :::column-end:::
   :::column:::
@@ -82,12 +82,12 @@ I'm migrating my mailboxes to Microsoft 365. I want to keep some mailboxes on my
 :::row-end:::
 :::row:::
   :::column:::
-    [Send emails from a multifunction printer/scanner/fax/application through Microsoft 365](/exchange/mail-flow-best-practices/how-to-set-up-a-multifunction-device-or-application-to-send-email-using-microsoft-365-or-office-365).
+    [Send emails from a multifunction printer/scanner/fax/application through Microsoft 365](/exchange/mail-flow-best-practices/how-to-set-up-a-multifunction-device-or-application-to-send-email-using-microsoft-365-or-office-365?azure-portal=true).
 
 
   :::column-end:::
   :::column:::
-    [Scenario](/exchange/mail-flow-best-practices/how-to-set-up-a-multifunction-device-or-application-to-send-email-using-microsoft-365-or-office-365)
+    [Scenario](/exchange/mail-flow-best-practices/how-to-set-up-a-multifunction-device-or-application-to-send-email-using-microsoft-365-or-office-365?azure-portal=true)
 All my organization's mailboxes are hosted in Microsoft 365. I have a multifunction printer, scanner, fax machine, or an application that needs to send email.
   :::column-end:::
   :::column:::
@@ -141,15 +141,15 @@ As a domain owner, an organization can use SPF to publish a list of IP addresses
 > [!WARNING]
 > An organization can only have one SPF record per domain. Having multiple SPF records will invalidate all SPF records and cause mail flow problems.
 
-Most modern email servers look up a domain's SPF record before they accept any email from it. As such, it's important to set up a valid SPF record in DNS when you first set up mail flow. For a quick introduction to SPF and to get it configured quickly, see [Set up SPF in Microsoft 365 to help prevent spoofing](/microsoft-365/security/office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing).
+Most modern email servers look up a domain's SPF record before they accept any email from it. As such, it's important to set up a valid SPF record in DNS when you first set up mail flow. For a quick introduction to SPF and to get it configured quickly, see [Set up SPF in Microsoft 365 to help prevent spoofing](/microsoft-365/security/office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing?azure-portal=true).
 
 #### DomainKeys Identified Mail (DKIM)
 
-DKIM lets an organization attach a digital signature to the message header of emails that it sends. Email systems that receive messages containing digital signatures use the signature to determine if the incoming email is legitimate. For information about DKIM and Microsoft 365, see [Use DKIM to validate outbound email sent from your domain in Microsoft 365](/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email).
+DKIM lets an organization attach a digital signature to the message header of emails that it sends. Email systems that receive messages containing digital signatures use the signature to determine if the incoming email is legitimate. For information about DKIM and Microsoft 365, see [Use DKIM to validate outbound email sent from your domain in Microsoft 365](/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email?azure-portal=true).
 
 #### Domain-based Message Authentication, Reporting, and Conformance (DMARC)
 
-DMARC helps receiving mail systems determine what to do with messages that fail SPF or DKIM checks. By doing so, DMARC provides another level of trust for your email partners. For information on setting up DMARC, see [Use DMARC to validate email in Microsoft 365](/microsoft-365/security/office-365-security/use-dmarc-to-validate-email).
+DMARC helps receiving mail systems determine what to do with messages that fail SPF or DKIM checks. By doing so, DMARC provides another level of trust for your email partners. For information on setting up DMARC, see [Use DMARC to validate email in Microsoft 365](/microsoft-365/security/office-365-security/use-dmarc-to-validate-email?azure-portal=true).
 
 > [!TIP]
 > Organizations should use SPF, DKIM, and DMARC together for the best experience.

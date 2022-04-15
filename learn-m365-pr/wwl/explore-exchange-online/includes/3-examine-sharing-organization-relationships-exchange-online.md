@@ -66,7 +66,7 @@ Exchange Online supports the following sharing scenarios:
 
 An organization relationship is a one-to-one relationship between businesses. It enables users in each organization to view calendar availability information.
 
-For example, consider the scenario where Contoso wants to set up a one-to-one relationship with Fabrikam.<br>
+For example, consider the scenario where Contoso wants to set up a one-to-one relationship with Fabrikam.
 
  -  When Contoso sets up the organization relationship, it's responsible for setting up its side of the relationship. As such, it must specify the level of Contoso information that Fabrikam users can view.
  -  Fabrikam, on the other hand, is responsible for setting up its side of the relationship. As such, it must specify the level of Fabrikam information that's visible to Contoso users. This level may be different than the level of information defined by Contoso.
@@ -74,7 +74,7 @@ For example, consider the scenario where Contoso wants to set up a one-to-one re
 > [!IMPORTANT]
 > The organization relationship must be set up at both ends for calendar availability information to be shared. Contoso users will be able to schedule meetings and view the availability of Fabrikam users by adding Fabrikam user email addresses to meeting invitations. Likewise, Fabrikam users will also see the availability of Contoso users when scheduling meetings.
 
-Organizations can specify three levels of access to its information:<br>
+Organizations can specify three levels of access to its information:
 
  -  No access.
  -  Access to availability (free/busy) time only.
