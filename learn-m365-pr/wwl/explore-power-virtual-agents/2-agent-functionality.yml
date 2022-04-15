@@ -4,12 +4,13 @@ title: Explore Power Virtual Agent functionality
 metadata:
   title: Explore Power Virtual Agent functionality
   description: "Explore Power Virtual Agent functionality"
-  ms.date: 07/09/2021
+  ms.date: 04/15/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/2-agent-functionality.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Microsoft Teams app"
       isCorrect: false
-      explanation: "That's incorrect. You would use this app when you're an employee or member of an organization or team, and you want to create chatbots to answer common questions posed by other employees or teammates. Try again."
+      explanation: "Incorrect. You would use this app when you're an employee or member of an organization or team, and you want to create chatbots to answer common questions posed by other employees or teammates."
     - content: "Web app"
       isCorrect: true
-      explanation: "That's correct. You would use this app when you're an IT admin, and you want to create chatbots for your customers to engage with."
+      explanation: "Correct. You would use this app when you're an IT admin, and you want to create chatbots for your customers to engage with."
     - content: "Power Pro app"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't a version of Power Virtual Agents. Try again."
+      explanation: "Incorrect. This item isn't a version of Power Virtual Agents."
