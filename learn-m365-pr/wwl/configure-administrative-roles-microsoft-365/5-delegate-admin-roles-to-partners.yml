@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-administrative-roles-microsoft-365.delegate-admin-roles-to-partners
+title: Delegate admin roles to partners
+metadata:
+  title: Delegate admin roles to partners
+  description: "Delegate admin roles to partners"
+  ms.date: 04/13/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-delegate-admin-roles-to-partners.md)]

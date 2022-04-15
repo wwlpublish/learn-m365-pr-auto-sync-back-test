@@ -4,12 +4,13 @@ title: Monitor the health of your Microsoft 365 services
 metadata:
   title: Monitor the health of your Microsoft 365 services
   description: "Monitor the health of your Microsoft 365 services"
-  ms.date: 07/01/2021
+  ms.date: 04/11/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 5
 content: |
   [!include[](includes/2-monitor-health-of-your-services.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Restoring service"
       isCorrect: false
-      explanation: "That's incorrect. This status indicates the service incident is being resolved. Try again."
+      explanation: "Incorrect. This status indicates the service incident is being resolved."
     - content: "Extended recovery"
       isCorrect: true
-      explanation: "That's correct. This status indicates that steps have completed to resolve the service incident. However, it will take an extended period for service operations to return to normal. During this time, some service behaviors might take longer than normal to complete."
+      explanation: "Correct. This status indicates that steps have completed to resolve the service incident. However, it will take an extended period for service operations to return to normal. During this time, some service behaviors may take longer than normal to complete."
     - content: "Additional information"
       isCorrect: false
-      explanation: "That's incorrect. This status indicates that an incident was active during a previous day. The incident may be resolved, or it may still be active. Try again."
+      explanation: "Incorrect. This status indicates that an incident was active during a previous day. The incident may be resolved, or it may still be active."
