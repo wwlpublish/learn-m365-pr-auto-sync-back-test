@@ -1,10 +1,10 @@
-SharePoint Online provides three main building blocks to help an organization create its intranet. These building blocks enable an organization to configure experiences that align with the organization, its employees, and its readiness. Different organizations will use the building blocks in different ways. However, the building blocks themselves reflect common patterns that organizations use to get work done. These SharePoint Online building blocks include:<br>
+SharePoint Online provides three main building blocks to help an organization create its intranet. These building blocks enable an organization to configure experiences that align with the organization, its employees, and its readiness. Different organizations will use the building blocks in different ways. However, the building blocks themselves reflect common patterns that organizations use to get work done. These SharePoint Online building blocks include:
 
  -  **Team sites (collaboration)**. A SharePoint team site provides a location where you and your team can work on projects and share information from anywhere on any device. A team site includes a group of related web pages, a default document library for files, lists for data management, and web parts that you can customize to meet your needs. A Microsoft 365 group is automatically created when a user creates a team site in SharePoint Online.
  -  **Communication sites (communication)**. SharePoint communication sites are designed to inform and engage. The primary goal of a team site is to collaborate to create content with a small group. If your intention is to broadcast information out to a broad audience, a communication site is the better choice than a team site. With a communication site, typically only a small set of members contributes content that is consumed by a much larger audience.
  -  **Hub sites (connection)**. SharePoint hub sites provide an important building block for organizations that are designing their own intranets. Hub sites are the "connective tissue" a company can use when organizing families of team sites and communication sites together.
 
-The following table identifies the features of each building block. It also offers recommendations on when each type of site should be used.<br>
+The following table identifies the features of each building block. It also offers recommendations on when each type of site should be used.
 
 :::row:::
   :::column:::
@@ -185,7 +185,7 @@ Consider the following items when creating hub sites:
  -  After you associate your site to a hub site, if you decide you no longer want your site to inherit permissions from the hub, you can change the settings.
  -  PowerShell cmdlets or the SharePoint REST API can be used to automate tasks such as creating, removing, or controlling permissions for hub sites.
 
-## **Exercise – Interactive demonstration**
+## Exercise – Interactive demonstration
 
 Select the following link to complete an interactive demonstration titled: [Site management](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E2-T1/index.html?azure-portal=true).
 

@@ -176,7 +176,7 @@ Each of these permissions can be set for an item, folder, library, child site, a
 
 Another available permission level option includes setting an expiration date to access any of the options listed above. This option only allows a user a particular time frame in which to access the resource. Once that time has expired, the user no longer has access.
 
-## **Exercise – Interactive demonstration**
+## Exercise – Interactive demonstration
 
 Select the following link to complete an interactive demonstration titled: [Site management](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E2-T2/index.html?azure-portal=true).
 

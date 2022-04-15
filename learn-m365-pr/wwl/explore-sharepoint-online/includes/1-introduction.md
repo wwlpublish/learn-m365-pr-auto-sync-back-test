@@ -7,10 +7,10 @@ SharePoint Online is used for many different purposes and can be managed from ei
  -  Data Loss Prevention
  -  Anti- Malware Protection
 
-After completing this module, you'll be able to:<br>
+After completing this module, you'll be able to:
 
  -  Determine the permission levels that your organization should use in SharePoint Online when creating sites and segregating and restricting access to content that's considered confidential or proprietary.
- -  Identify the options available in SharePoint Online to maintain and recover content that has either been deleted or misplaced in the intranet.<br>
+ -  Identify the options available in SharePoint Online to maintain and recover content that has either been deleted or misplaced in the intranet.
  -  Describe the different options that provide anti-malware protection in SharePoint Online.
  -  Plan the tasks that you want to complete when migrating files shares and existing sites to SharePoint Online and OneDrive.
  -  Recover deleted and misplaced content.

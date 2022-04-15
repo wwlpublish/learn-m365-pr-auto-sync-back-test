@@ -17,7 +17,7 @@ The following diagram displays the phases that most file share migrations fall i
 :::image type="content" source="../media/migration-process-fileshare-133b634d.png" alt-text="graphic shows the five stages in a typical file share migration to SharePoint Online and OneDrive. Stages include migration planning, assess and remediate, prepare your OneDrive and SharePoint Online environment, Migrate, and user onboarding.":::
 
 
-The tasks and considerations for each of these migration stages are outlined in the following chart.<br>
+The tasks and considerations for each of these migration stages are outlined in the following chart.
 
 :::row:::
   :::column:::
@@ -81,7 +81,7 @@ Before you start your migration, it's important that you plan your outcome. To d
 
 ### What's migrated
 
-File shares that can be migrated using **Microsoft Manager** include:<br>
+File shares that can be migrated using **Microsoft Manager** include:
 
  -  Centralized file hosting on a network server or a network drive.
  -  Shared files or disks on a local computer. Often referred to as a "Z drive" on networked computers, it's a shared drive somewhere on the network.
@@ -138,7 +138,7 @@ The following chart shows what can and can't be migrated using the **SharePoint 
 :::row-end:::
 
 
-### What content goes where<br>
+### What content goes where
 
 In your planning, include how this transition to Microsoft 365 will make for a more collaborative experience for your users. Review how you use the content stored in your file shares today. Does the file belong to a single user, even though they might share it with others? If so, save it in your OneDrive. Your OneDrive is private by default, but you can share files with others. This design is useful if you aren't working as a team yet.
 
