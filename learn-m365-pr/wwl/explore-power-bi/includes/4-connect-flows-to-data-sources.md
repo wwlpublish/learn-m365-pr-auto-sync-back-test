@@ -22,7 +22,7 @@ Power BI supports custom connectors that are designed for new data sources with 
 
 In Power BI Desktop, certified third-party connectors appear along with generic and common connectors. Security settings don't need to be adjusted to use the certified connectors.
 
-To use a non-certified custom connector, the connector must be included in the Customer Connectors folder. The data extension security settings must then be modified from the default setting to enable their use.<br>
+To use a non-certified custom connector, the connector must be included in the Customer Connectors folder. The data extension security settings must then be modified from the default setting to enable their use.
 
 **Additional reading.** For more information on certified data connectors, see [Power BI data sources](/power-bi/power-bi-data-sources?azure-portal=true). For more information on data connectors, see [Connector Extensibility in Power BI](/power-bi/desktop-connector-extensibility?azure-portal=true).
 
