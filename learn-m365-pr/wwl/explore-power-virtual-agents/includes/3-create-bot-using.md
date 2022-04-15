@@ -56,8 +56,8 @@ Complete the following steps to publish a bot:
 3.  Select the demo website link under **Share your bot** to see it in action on a demo website.
 4.  A new window should open in the browser. This webpage demonstrates what the bot looks like to an end user who comes to this webpage. The bot canvas is at the bottom. The bot author can interact with it by typing into the window or by selecting a starter phrase from the provided options. This webpage demonstrates the bot in action.
 
-    > [!NOTE]
-    > If the new window fails to happen automatically, check whether a pop-up blocker has been activated. If so, allow the window to be opened. Pop-ups can usually be allowed directly from the URL field.
+> [!NOTE]
+> If the new window fails to happen automatically, check whether a pop-up blocker has been activated. If so, allow the window to be opened. Pop-ups can usually be allowed directly from the URL field.
 
 ### Step 5 - Analyze the performance of your bot
 
