@@ -3,7 +3,7 @@ uid: learn.wwl.explore-power-automate
 metadata:
   title: Create flows as a Microsoft 365 Enterprise Administrator with Power Automate
   description: "Create flows as a Microsoft 365 Enterprise Administrator with Power Automate"
-  ms.date: 09/10/2021
+  ms.date: 04/15/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,14 +11,13 @@ metadata:
 title: Create flows as a Microsoft 365 Enterprise Administrator with Power Automate
 summary: This module examines the key features of Power Platform and provides instruction on how to administer Power Platform flows, connect flows to data sources, and create and run flows.
 abstract: |
-  This module examines the key features of Power Platform and provides instruction on how to administer Power Platform flows, connect flows to data sources, and create and run flows.	&quot;By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Describe what Power Automate is and how it is used by organizations
   - Describe the types of flows you can create and the basic structure of flows
   - Administer Power Automate licensing and environments
   - Describe how flows connect to data sources
   - Build a basic flow using Power Automate
   - Run a flow in Power Automate, Teams, and SharePoint
-  &quot;
 prerequisites: |
   None
 iconUrl: /learn/achievements/power-automate-explore.svg
@@ -29,7 +28,6 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:

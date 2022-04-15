@@ -1,10 +1,10 @@
-Power Virtual Agents enables an organization to create powerful chatbots that can answer questions posed by its customers, other employees, or visitors to its website or service. These bots can be created easily and without the need for data scientists or developers. Some of the ways that Power Virtual Agents bots have been used include:
+Power Virtual Agents enables an organization to create powerful chatbots. Chatbots can be designed to answer questions posed by customers, other employees, or visitors to its website or service. These bots can be created easily and without the need for data scientists or developers. Some of the ways that Power Virtual Agents bots have been used include:
 
- -  COVID-19 infection rate and tracking information
- -  Sales help and support issues
- -  Opening hours and store information
- -  Employee health and vacation benefits
- -  Common employee questions for businesses
+ -  COVID-19 infection rate and tracking information.
+ -  Sales help and support issues.
+ -  Opening hours and store information.
+ -  Employee health and vacation benefits.
+ -  Common employee questions for businesses.
 
 ### Benefits of Power Virtual Agents
 
@@ -25,13 +25,13 @@ Power Virtual Agents can:
 
 Key features of Power Virtual Agents include:
 
- -  **Get started in seconds**. Power Virtual Agents is a software-as-a-service (SaaS) offering. It allows users to easily sign up, create a bot, and embed it into a website with just a few clicks. There's no infrastructure to maintain or complex system to deploy.
- -  **Enable your subject matter experts**. By using Power Virtual Agents, business SMEs can create bots quickly and easily using a novel, intuitive, code-free graphical interface, eliminating the need for AI expertise or teams of developers.
- -  **Enable rich, natural conversations.** Microsoft’s powerful conversational AI capabilities enable end users to have rich, multi-turn conversations that quickly guide them to the right solution. Unlike most products on the market, there's no need to retrain AI models. Users creating the bot begin by providing a few short examples of the topic they want the bot to handle. Once they build the conversation using Microsoft’s graphical editor, the bot is ready to handle customer requests. Users creating the bot can even test their changes in real time using the Test pane.
+ -  **Get started in seconds**. Power Virtual Agents is a software-as-a-service (SaaS) offering. It allows users to easily sign up, create a bot, and embed it into a website with little effort. There's no infrastructure to maintain or complex system to deploy.
+ -  **Enable your subject matter experts**. By using Power Virtual Agents, business SMEs can create bots quickly and easily using a novel, intuitive, code-free graphical interface. This design eliminates the need for AI expertise or teams of developers.
+ -  **Enable rich, natural conversations.** Microsoft’s powerful conversational AI capabilities enable end users to have rich, multi-turn conversations that quickly guide them to the right solution. Unlike most products on the market, there's no need to retrain AI models. Users creating the bot begin by providing a few short examples of the subject they want the bot to address. Once they build the conversation using Microsoft’s graphical editor, the bot is ready to handle customer requests. Users creating the bot can even test their changes in real time using the Test pane.
  -  **Enable bots to take action.** Bots that can chat with an organization's users are great, but bots that can act on their behalf are even better. With Power Virtual Agents, users creating the bot can easily integrate with services and back-end systems without having to configure the integration. They can also integrate with hundreds of easy-to-add custom connectors using Power Automate. This process makes it simple to create a bot that not only responds to the user, but also takes action on their behalf.
- -  **Monitor and improve bot performance.** Power Virtual Agents lets bot creators keep an eye on how their bots are performing using powerful metrics and AI-driven dashboards. They can easily see which topics are doing well and where the bot can be improved, and then quickly make adjustments to improve performance.
+ -  **Monitor and improve bot performance.** Power Virtual Agents lets bot creators keep an eye on how their bots are performing. This oversight is accomplished by using powerful metrics and AI-driven dashboards. The bot creators can easily see which subjects are doing well and where the bot can be improved. They can then make quick adjustments to improve performance.
 
-**Additional reading.** For more information, see [Quickstart: Create and deploy a Power Virtual Agents bot](/power-virtual-agents/fundamentals-get-started).
+**Additional reading.** For more information, see [Quickstart: Create and deploy a Power Virtual Agents bot](/power-virtual-agents/fundamentals-get-started?azure-portal=true).
 
 ### Versions of Power Virtual Agents
 
@@ -55,18 +55,14 @@ Power Virtual Agents is available as both a standalone web app and as a discrete
   :::column:::
     
 
- -  You're an IT admin and want to create bots for your customers to engage with
- -  You've used chatbot services in the past, and want to trial or test Power Virtual Agents
- -  You're familiar with advanced chatbot concepts, such as entities and variables, and want to create complex chatbots
+ -  You're an IT admin and want to create bots for your customers to engage with.
+ -  You've used chatbot services in the past, and want to trial or test Power Virtual Agents.
+ -  You're familiar with advanced chatbot concepts, such as entities and variables, and want to create complex chatbots.
 
 
   :::column-end:::
   :::column:::
-    
-
-[Get started with Power Virtual Agents web app](/power-virtual-agents/fundamentals-what-is-power-virtual-agents-portal)
-
-
+    [Get started with Power Virtual Agents web app](/power-virtual-agents/fundamentals-what-is-power-virtual-agents-portal?azure-portal=true).
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -76,18 +72,14 @@ Power Virtual Agents is available as both a standalone web app and as a discrete
   :::column:::
     
 
- -  You're an employee or member of an organization or team and want to create chatbots to answer common questions posed by other employees or teammates
- -  You want to use advanced concepts, such as entities and variables, but have the chatbot available only internally
- -  You want to create and distribute a chatbot in the shortest time possible
+ -  You're an employee or member of an organization or team and want to create chatbots to answer common questions posed by other employees or teammates.
+ -  You want to use advanced concepts, such as entities and variables, but have the chatbot available only internally.
+ -  You want to create and distribute a chatbot in the shortest time possible.
 
 
   :::column-end:::
   :::column:::
-    
-
-[Get started with Power Virtual Agents in Teams](/power-virtual-agents/teams/fundamentals-what-is-power-virtual-agents-teams)
-
-
+    [Get started with Power Virtual Agents in Teams](/power-virtual-agents/teams/fundamentals-what-is-power-virtual-agents-teams?azure-portal=true).
   :::column-end:::
 :::row-end:::
 
