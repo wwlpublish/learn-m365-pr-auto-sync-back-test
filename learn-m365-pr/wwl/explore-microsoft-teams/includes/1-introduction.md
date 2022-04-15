@@ -15,5 +15,5 @@ After completing this module, you'll be able to:
  -  Describe the functionality provided by Guess access in Microsoft Teams.
  -  Describe audio conferencing functionality that's available in Microsoft Teams.
  -  Assign an audio conferencing license and a conference ID to each user to support audio conferencing.
- -  Select a voice solution using Microsoft Teams Phone.<br>
+ -  Select a voice solution using Microsoft Teams Phone.
  -  Configure your Microsoft Teams organizational settings.

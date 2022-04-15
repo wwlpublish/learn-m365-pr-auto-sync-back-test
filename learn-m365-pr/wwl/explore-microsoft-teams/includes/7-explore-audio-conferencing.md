@@ -67,11 +67,11 @@ The following graphic shows that participants of a meeting can join through the 
 
 To configure an organization’s users for audio conferencing, a license must be assigned to each user that has Microsoft 365 Audio Conferencing turned on. The Microsoft 365 admin center must be used to assign audio conferencing licenses.
 
-Complete the following steps to assign a user with a license that has the Microsoft 365 Audio Conferencing app turned on:<br>
+Complete the following steps to assign a user with a license that has the Microsoft 365 Audio Conferencing app turned on:
 
 1.  Sign in to [Office 365](https://portal.office.com/?azure-portal=true) as an admin for your organization.
 2.  On the **Office 365 Home** page, select the **Admin** icon to open the Microsoft 365 admin center.
-3.  In the **Microsoft Teams admin center**, in the left-hand navigation pane, select **Users** and then select **Active users**.<br>
+3.  In the **Microsoft Teams admin center**, in the left-hand navigation pane, select **Users** and then select **Active users**.
 4.  On the **Active users** page, select the user that you want to maintain. A detail pane will open for the selected user.
 5.  In the user detail pane, select the **Licenses and Apps** tab.
 6.  In the **Licensing and Apps** tab, select the appropriate license(s) to be assigned to the user. Scroll down and select the **Apps** section to display the Apps associated with the assigned license(s).

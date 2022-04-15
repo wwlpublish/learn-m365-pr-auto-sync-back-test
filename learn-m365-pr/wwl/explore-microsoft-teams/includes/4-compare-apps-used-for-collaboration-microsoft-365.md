@@ -88,7 +88,7 @@ Custom app permission policies control the apps that are available for different
 Complete the following steps to add a permission policy:
 
 1.  In the left navigation of the Microsoft Teams admin center, go to **Teams apps** &gt; **Permission policies**.
-2.  Select **Add**.<br>
+2.  Select **Add**.
 3.  Enter a name and description for the policy.
 4.  Under **Microsoft apps**, **Third-party apps**, and **Custom apps**, select one of the following options:
     
@@ -104,7 +104,7 @@ Complete the following steps to add a permission policy:
 6.  If you selected the **Block specific apps and allow all others** option, search for and add the apps that you want to block, and then select **Block**.
 7.  Select **Save**.
 
-### Manage organization-wide app settings for Microsoft 365<br>
+### Manage organization-wide app settings for Microsoft 365
 
 The **org-wide app settings** enable an organization to control whether its users can install third-party apps. Org-wide app settings govern the behavior for all users. They also override any other app permission policies assigned to users. These settings can control malicious or problematic apps.
 
