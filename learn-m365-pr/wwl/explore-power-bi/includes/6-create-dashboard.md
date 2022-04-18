@@ -1,4 +1,4 @@
-A Power BI Dashboard is a selected group of visuals that originate from one or more reports. By aggregating the data, a dashboard can provide quick insight into the data being presented. A dashboard must fit on a single page, often called a canvas. Dashboards are a feature of the Power BI service.
+A Power BI Dashboard is a selected group of visuals that originate from one or more reports. Dashboards can be designed to aggregate the data. Doing so can provide quick insight into the data being presented. A dashboard must fit on a single page, often called a canvas. Dashboards are a feature of the Power BI service.
 
 To understand how to create a dashboard, it's important to understand what users see when they open the Power BI service.
 
@@ -6,7 +6,7 @@ To understand how to create a dashboard, it's important to understand what users
     
      -  **My workspace.** This object is the personal container for individual Power BI users to work with their own content. Users can share dashboards and reports from their own My Workspace.
      -  **Workspaces.** These containers are used to collaborate and share content with colleagues. Users can add colleagues to workspaces and collaborate on dashboards, reports, workbooks, and datasets.
- -  **App.** An app is a Power BI content type that combines related dashboards and reports, all in one place. An app can have one or more dashboards and one or more reports, all bundled together. Apps are created by Power BI designers who distribute and share the apps with consumers. Apps are interactive, but they cannot be edited by consumers.
+ -  **App.** An app is a Power BI content type that combines related dashboards and reports, all in one place. An app can have one or more dashboards and one or more reports, all bundled together. Apps are created by Power BI designers who distribute and share the apps with consumers. Apps are interactive, but they can't be edited by consumers.
  -  **Favorites.** This option identifies the content the user visits most frequently, and which the user tags with a yellow star for quick access.
  -  **Shared with me.** This option identifies the content that's been shared with the user by other users.
  -  **Recent.** This option identifies the content the user has most recently accessed.
@@ -22,4 +22,4 @@ The user can continue to add visuals to the dashboard. Or, the user can pin an e
 
 These basic steps enable a user to create a dashboard, which the user can then share.
 
-**Additional reading.** For more information, see [Creating a Power BI Dashboard from a report](/power-bi/service-dashboard-create).
+**Additional reading.** For more information, see [Creating a Power BI Dashboard from a report](/power-bi/service-dashboard-create?azure-portal=true).
