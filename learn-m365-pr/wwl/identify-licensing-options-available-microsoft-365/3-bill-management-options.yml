@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.identify-licensing-options-available-microsoft-365.explore-bill-management-options
+title: Explore the billing and bill management options
+metadata:
+  title: Explore the billing and bill management options
+  description: "Explore the billing and bill management options"
+  ms.date: 04/18/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/3-bill-management-options.md)]

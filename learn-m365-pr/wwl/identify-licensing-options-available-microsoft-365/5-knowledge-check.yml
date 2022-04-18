@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.identify-licensing-options-available-microsoft-365.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/18/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "With the Cloud Solution Provider (CSP) model, who provides your subscription?"
+    choices:
+    - content: "It's provided by a CSP partner"
+      isCorrect: true
+      explanation: "Correct. With the Cloud Solution Provider (CSP) model, your subscription is provided through an expert CSP partner."
+    - content: "It's provided directly from Microsoft"
+      isCorrect: false
+      explanation: "Incorrect. With the Cloud Solution Provider (CSP) model, your subscription is provided through an expert CSP partner."
+    - content: "It's provided by a retail store"
+      isCorrect: false
+      explanation: "Incorrect. With the Cloud Solution Provider (CSP) model, your subscription is provided through an expert CSP partner."
+  - content: "Which of the portals below allows modifying the payment method and frequency of a Microsoft 365 subscription?"
+    choices:
+    - content: "Microsoft 365 subscription center"
+      isCorrect: false
+      explanation: "Incorrect. You modify the payment method and frequency of your Microsoft 365 subscription in the Microsoft 365 admin center."
+    - content: "Microsoft 365 security center"
+      isCorrect: false
+      explanation: "Incorrect. You modify the payment method and frequency of your Microsoft 365 subscription in the Microsoft 365 admin center."
+    - content: "Microsoft 365 admin center"
+      isCorrect: true
+      explanation: "Correct. You modify the payment method and frequency of your Microsoft 365 subscription in the Microsoft 365 admin center."
+  - content: "Which of the following Microsoft 365 subscription plans are appropriate for companies with under 300 employees?"
+    choices:
+    - content: "Microsoft 365 Enterprise"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft 365 Enterprise is for large corporations with more than 300 employees."
+    - content: "Microsoft 365 Business"
+      isCorrect: true
+      explanation: "Correct. Microsoft 365 Business is designed for companies with under 300 employees."
+    - content: "Microsoft 365 Education"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft 365 Education can scale to small or large educational institutions."
