@@ -4,12 +4,13 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 07/09/2021
+  ms.date: 04/18/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/8-knowledge-check.md)]
@@ -20,32 +21,32 @@ quiz:
     choices:
     - content: "Power BI (free) license"
       isCorrect: false
-      explanation: "That's incorrect. A free license enables a user to consume content in a workspace assigned to a Power BI Premium capacity and access to some of the features of the Power BI service for their own personal content in their My Workspace. Try again."
+      explanation: "Incorrect. A free license enables a user to consume content in a workspace assigned to a Power BI Premium capacity and access to some of the features of the Power BI service for their own personal content in their My Workspace."
     - content: "Power BI Premium capacity license"
       isCorrect: true
-      explanation: "That's correct. Power BI Premium provides dedicated capacity to deliver more consistent performance and support larger data volumes in Power BI. Power BI Premium also enables widespread distribution of content by Power BI Pro users without requiring users who view the content to have Power BI Pro licenses."
+      explanation: "Correct. Power BI Premium provides dedicated capacity to deliver more consistent performance and support larger data volumes in Power BI. Power BI Premium also enables widespread distribution of content by Power BI Pro users without requiring users who view the content to have Power BI Pro licenses."
     - content: "Power BI Mobile App license"
       isCorrect: false
-      explanation: "That's incorrect. This isn't a valid Power BI license. Try again."
+      explanation: "Incorrect. This isn't a valid Power BI license."
   - content: "As the Enterprise Administrator for Tailspin Toys, Patti Fernandez wants to create a report in Power BI Desktop. What's the first step that Patti must complete when creating a Power BI report?"
     choices:
     - content: "Select the data source for the report"
       isCorrect: true
-      explanation: "That's correct. You start by selecting the Get Data option on the Power BI Desktop ribbon. This option enables the user to choose from the many different data sources to which Power BI Desktop can connect. Power BI then imports the data and displays it."
+      explanation: "Correct. You start by selecting the Get Data option on the Power BI Desktop ribbon. This option enables the user to choose from the many different data sources to which Power BI Desktop can connect. Power BI then imports the data and displays it."
     - content: "Create visualizations for the report"
       isCorrect: false
-      explanation: "That's incorrect. This is the second step in creating a Power BI report. Try again."
+      explanation: "Incorrect. This is the second step in creating a Power BI report."
     - content: "Select the workspace to which the report will be published"
       isCorrect: false
-      explanation: "That's incorrect. This is the final step in creating a Power BI report. Try again."
+      explanation: "Incorrect. This is the final step in creating a Power BI report."
   - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer wants to create a Power BI Dashboard. What's the first step that Holly must complete to create a dashboard?"
     choices:
     - content: "Hover over a visual on the report that will be used in the dashboard to reveal the pin icon"
       isCorrect: false
-      explanation: "That's incorrect. This action is part of the second step in creating a Power BI dashboard. Try again."
+      explanation: "Incorrect. This action is part of the second step in creating a Power BI dashboard."
     - content: "Select whether the visual on the report that will be used to create the dashboard is to be pinned to a new or existing dashboard"
       isCorrect: false
-      explanation: "That's incorrect. This action is the final step in creating a Power BI dashboard. Try again."
+      explanation: "Incorrect. This action is the final step in creating a Power BI dashboard."
     - content: "Access a report Holly either owns or has been given edit privileges to"
       isCorrect: true
-      explanation: "That's correct. To create a dashboard, the user must first access a report they either own or have been given edit privileges to."
+      explanation: "Correct. To create a dashboard, the user must first access a report they either own or have been given edit privileges to."

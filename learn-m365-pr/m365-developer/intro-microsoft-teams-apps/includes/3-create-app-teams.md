@@ -29,8 +29,6 @@ The community-based **Yeoman Generator for Microsoft Teams** (*also known as: "y
 
 The **Microsoft Teams Toolkit** enables you to create custom Teams apps directly within the **Visual Studio Code** environment. The toolkit guides you through the process and provides everything you need to build, debug, and launch your Teams app. You can learn more about the Microsoft Teams Toolkit for Visual Studio Code here: [Build apps with the Microsoft Teams Toolkit and Visual Studio Code](/microsoftteams/platform/toolkit/visual-studio-code-overview).
 
-The **Microsoft Teams Toolkit** enables you to create custom Teams apps directly within the **Visual Studio** integrated development environment (IDE). The Microsoft Teams toolkit guides you through the process and provides everything you need to build, debug, and launch your Teams app. You can learn more about the Microsoft Teams Toolkit for Visual Studio Code here: [Build apps with the Microsoft Teams Toolkit and Visual Studio](/microsoftteams/platform/toolkit/visual-studio-overview)
-
 ## Build your web services
 
 Once you've decided how users are going to interact with your app, its time to build the web services to power it. Depending on what you're creating, Teams provides various SDKs, templates, code samples, and generators to help you get started, including:
