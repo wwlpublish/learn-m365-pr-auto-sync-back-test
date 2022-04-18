@@ -4,7 +4,7 @@ title: Troubleshoot transport in coexistence
 metadata:
   title: Troubleshoot transport in coexistence
   description: "Troubleshoot transport in coexistence"
-  ms.date: 03/09/2022
+  ms.date: 04/18/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,7 +24,7 @@ quiz:
       explanation: "That's correct. When troubleshooting mail routing during coexistence, the Messaging administrator should verify that A records and PTR records are properly configured during in a coexistence scenario."
     - content: "CNAME records"
       isCorrect: false
-      explanation: "When troubleshooting mail routing during coexistence, the Messaging administrator should verify a different record type. Try again. That's incorrect."
+      explanation: "That's incorrect. When troubleshooting mail routing during coexistence, the Messaging administrator should verify a different record type."
     - content: "TXT records"
       isCorrect: false
-      explanation: "When troubleshooting mail routing during coexistence, the Messaging administrator should verify a different record type. Try again."
+      explanation: "That's incorrect. When troubleshooting mail routing during coexistence, the Messaging administrator should verify a different record type."
