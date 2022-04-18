@@ -1,15 +1,16 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.describe-support-offerings-for-microsoft-365-services.communicate-share-ideas-with-uservoice
-title: Communicate and share ideas with UserVoice
+title: Explore how organizations can share feedback on Microsoft 365 services
 metadata:
-  title: Communicate and share ideas with UserVoice
-  description: "Communicate and share ideas with UserVoice"
-  ms.date: 03/08/2021
+  title: Explore how organizations can share feedback on Microsoft 365 services
+  description: "Explore how organizations can share feedback on Microsoft 365 services"
+  ms.date: 04/18/2022
   author: wwlpublish
-  ms.author: dahans
+  ms.author: asglenno
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 2
 content: |
   [!include[](includes/5-communicate-share-ideas-uservoice.md)]

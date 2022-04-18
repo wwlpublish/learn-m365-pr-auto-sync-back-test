@@ -1,15 +1,16 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.describe-support-offerings-for-microsoft-365-services.describe-how-to-track-service-health-status
-title: Describe how to track service health status
+title: Identify how to track the service health status
 metadata:
-  title: Describe how to track service health status
-  description: "Describe how to track service health status"
-  ms.date: 03/08/2021
+  title: Identify how to track the service health status
+  description: "Identify how to track the service health status"
+  ms.date: 04/18/2022
   author: wwlpublish
-  ms.author: dahans
+  ms.author: asglenno
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/4-track-service-health-status.md)]

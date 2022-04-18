@@ -1,15 +1,16 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.describe-support-offerings-for-microsoft-365-services.explain-service-level-agreements
-title: Explain service level agreements
+title: Explain service level agreement (SLAs) concepts
 metadata:
-  title: Explain service level agreements
-  description: "Explain service level agreements"
-  ms.date: 03/08/2021
+  title: Explain service level agreement (SLAs) concepts
+  description: "Explain service level agreement (SLAs) concepts"
+  ms.date: 04/18/2022
   author: wwlpublish
-  ms.author: dahans
+  ms.author: asglenno
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 3
+labModal: false
+durationInMinutes: 6
 content: |
   [!include[](includes/3-explain-service-level-agreements.md)]

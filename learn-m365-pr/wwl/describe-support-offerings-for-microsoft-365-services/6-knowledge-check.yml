@@ -4,13 +4,14 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/08/2021
+  ms.date: 04/18/2022
   author: wwlpublish
-  ms.author: dahans
+  ms.author: asglenno
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 3
+labModal: false
+durationInMinutes: 8
 content: |
   [!include[](includes/6-knowledge-check.md)]
 quiz:
@@ -18,45 +19,45 @@ quiz:
   questions:
   - content: "How can your organization receive on-site support from Microsoft?"
     choices:
-    - content: "Through community-based support."
+    - content: "Community-based support"
       isCorrect: false
-      explanation: "That's incorrect. Community support is great for getting solutions from the experience of other users. But to get on-site support from Microsoft, your organization should use Premier Support."
-    - content: "Through Support Assistant"
+      explanation: "Incorrect. Community support is great for getting solutions from the experience of other users. To get on-site support from Microsoft, your organization should use premier support."
+    - content: "Proactive support"
       isCorrect: false
-      explanation: "That's incorrect. The Support Assistant is online bot. To get on-site support from Microsoft, your organization should use Premier Support."
-    - content: "Through Premier Support"
+      explanation: "Incorrect. Proactive support consists of installing a tool to help identify and resolve issues. To get on-site support from Microsoft, your organization should use premier support."
+    - content: "Premier support"
       isCorrect: true
-      explanation: "That's correct. Your organization can receive on-site support, a dedicated technical account manager, and access to advisory services."
-  - content: "Who is responsible for submitting a claim for Service Credit?"
+      explanation: "Correct. Your organization can receive on-site support, a dedicated technical account manager, and access to advisory services through premier support."
+  - content: "Who is responsible for submitting a claim for service credit?"
     choices:
-    - content: "The Cloud Service Provider"
+    - content: "The cloud service provider"
       isCorrect: false
-      explanation: "That's incorrect. The Cloud Service Provider isn’t responsible for filing a claim for Service Credit. Your organization should submit a claim with Microsoft."
+      explanation: "Incorrect. The cloud service provider isn’t responsible for filing a claim for service credit. Your organization should submit a claim with Microsoft."
     - content: "Your organization"
       isCorrect: true
-      explanation: "That's correct. Your organization should submit a claim with Microsoft. Microsoft will then review your claim for approval."
+      explanation: "Correct. Your organization should submit a claim with Microsoft. Microsoft will then review your claim for approval."
     - content: "Microsoft"
       isCorrect: false
-      explanation: "That's incorrect. Your organization is responsible for submitting a claim. Microsoft is responsible for reviewing your organization’s claim."
-  - content: "How can your administrators stay up to date with the health of your services when on the go?"
+      explanation: "Incorrect. Your organization is responsible for submitting a claim. Microsoft is responsible for reviewing your organization’s claim."
+  - content: "Which of the portals below can you go to view the current health status of your Microsoft 365 services and tenant?"
     choices:
-    - content: "By connecting monitoring tools to the API."
+    - content: "Microsoft 365 security center"
       isCorrect: false
-      explanation: "That's incorrect. This is good for automated monitoring, but your administrators should use the Admin App to view the health status on the go."
-    - content: "By using System Center to view the health status."
+      explanation: "Incorrect. You can view the current health status of your Microsoft 365 services and tenant through the Microsoft 365 admin center."
+    - content: "Microsoft 365 compliance center"
       isCorrect: false
-      explanation: "That's incorrect. Your administrators won’t be able to view the status on the go with System Center. Your administrators should use the Admin App instead."
-    - content: "By using the Admin App to view the health status."
+      explanation: "Incorrect. You can view the current health status of your Microsoft 365 services and tenant through the Microsoft 365 admin center."
+    - content: "Microsoft 365 admin center"
       isCorrect: true
-      explanation: "That's correct. Your administrators can use the Admin App to view and stay up to date with the health status of the services on the go."
-  - content: "Where is the best place to share ideas about how to improve a feature for Microsoft Stream?"
+      explanation: "Correct. You can view the current health status of your Microsoft 365 services and tenant through the Microsoft 365 admin center."
+  - content: "Where is the best place to share ideas about how to improve a feature for Microsoft 365 products and services?"
     choices:
-    - content: "Create a comment on the Microsoft documentation page for Microsoft Stream."
+    - content: "Make a comment on Microsoft's social media posts"
       isCorrect: false
-      explanation: "That's incorrect. While you can share ideas through the documentation page from time to time, it is better to use the UserVoice feedback forum for better collaboration."
-    - content: "Create a support ticket for Microsoft Stream using the portal."
+      explanation: "Incorrect. While you can share your thoughts through social media, it's best to use the feedback web portal for better collaboration with Microsoft."
+    - content: "Create a support ticket through the Microsoft 365 admin center"
       isCorrect: false
-      explanation: "That's incorrect. Don’t create a support ticket for new features, it’s better to use the UserVoice feedback forum."
-    - content: "Create a post in the Microsoft Stream UserVoice feedback forum."
+      explanation: "Incorrect. Don’t create a support ticket for new features, it’s best to use the feedback web portal."
+    - content: "Create a post in the feedback web portal"
       isCorrect: true
-      explanation: "That's correct. The Microsoft Stream team will see your ideas and discuss them with you."
+      explanation: "Correct. Microsoft product teams will see your ideas and discuss them with you through the feedback web portal."

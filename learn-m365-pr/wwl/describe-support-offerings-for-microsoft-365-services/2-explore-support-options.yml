@@ -4,12 +4,13 @@ title: Explore support options for Microsoft 365 services
 metadata:
   title: Explore support options for Microsoft 365 services
   description: "Explore support options for Microsoft 365 services"
-  ms.date: 03/08/2021
+  ms.date: 04/18/2022
   author: wwlpublish
-  ms.author: dahans
+  ms.author: asglenno
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 3
 content: |
   [!include[](includes/2-explore-support-options.md)]
