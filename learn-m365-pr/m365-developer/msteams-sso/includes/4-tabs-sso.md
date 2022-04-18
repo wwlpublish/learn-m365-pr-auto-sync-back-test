@@ -16,13 +16,13 @@ Let's look at how the SSO process works at runtime in Microsoft Teams tabs:
 ![Screenshot of SSO in Microsoft Teams tabs](../media/04-tabs-sso-diagram.png)
 
 1. In the tab, a JavaScript call is made to `getAuthToken()`. This tells Microsoft Teams to obtain an authentication token for the tab application.
-1. If this is the first time the current user has used your tab application, the user is prompted prompt to consent (*if consent is required*), or to handle step-up authentication (*such as two-factor authentication*).
+1. If this is the first time the current user has used your tab application, the user is prompted to consent (*if consent is required*), or to handle step-up authentication (*such as two-factor authentication*).
 1. Microsoft Teams requests the tab application token from the Azure AD endpoint for the current user.
 1. Azure AD sends the tab application token to the Microsoft Teams application.
 1. Microsoft Teams sends the tab application token to the tab as part of the result object returned by the `getAuthToken()` call.
 1. The token is parsed in the tab application using JavaScript to extract required information, such as the user's email address.
 
-### Microsoft Teams can't prompt for to consent Microsoft Graph permissions
+### Microsoft Teams can't prompt for consent of Microsoft Graph permissions
 
 The steps outlined above state that Microsoft Teams can prompt the user to consent the app permissions to sign them in. However, it's worth noting that Microsoft Teams can only prompt for consent for the OpenID `profile` scope. Microsoft Teams can't prompt the user to consent any of the Microsoft Graph permissions.
 
@@ -64,7 +64,7 @@ Also, when exposing the API permission `access_as_user`, the **Application ID UR
 
 ## Implement SSO in Microsoft Teams tabs
 
-Let's now look at the code and how to you can implement a tab the uses SSO.
+Let's now look at the code and how you can implement a tab that uses SSO.
 
 ### Associate the Azure AD app with the Microsoft Teams app
 
