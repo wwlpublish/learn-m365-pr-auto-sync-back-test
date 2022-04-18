@@ -28,7 +28,7 @@ Furthermore, by running the **Set-Eventloglevel** cmdlet, you can configure a di
 Set-Eventloglevel -Identity <ECIdParameter> -Level <Lowest | Low | Medium | High | Expert>
 ```
 
-Besides the Application Logs in the Event Viewer, Exchange Server records specific events to the crimson channel logs under **Applications and Services Logs > Microsoft > Exchange**.
+Besides the Application Logs in the Event Viewer, Exchange Server records specific events to the crimson channel logs under **Applications and Services Logs &gt; Microsoft &gt; Exchange**.
 
 Event log categories for Exchange included in the crimson channel include: ActiveMonitoring, Compliance, DxStoreHA, ESE, HighAvailability, MailboxAssisants, MailboxDatabaseFailureItems, ManagedAvailability, PushNotifications, and Troubleshooters.
 
