@@ -97,7 +97,7 @@ You can use the **Get-ExchangeDiagnostics** cmdlet that’s available in the Exc
 
 ```
 
-**Additional reading**. For more information, see [Understanding backpressure](/exchange/mail-flow/back-pressure?azure-portal=true).
+**Further reading**. For more information, see [Understanding backpressure](/exchange/mail-flow/back-pressure?azure-portal=true).
 
 ### Analyze DSN/NDR messages
 

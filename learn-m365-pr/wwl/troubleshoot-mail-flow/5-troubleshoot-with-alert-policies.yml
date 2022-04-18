@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-mail-flow.troubleshoot-with-alert-policies
+title: Troubleshoot with alert policies in Exchange Online
+metadata:
+  title: Troubleshoot with alert policies in Exchange Online
+  description: "Troubleshoot with alert policies in Exchange Online"
+  ms.date: 04/18/2022
+  author: wwlpublish
+  ms.author: maquinl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-troubleshoot-with-alert-policies.md)]

@@ -4,7 +4,7 @@ title: Troubleshoot Transport Layer Security encryption issues
 metadata:
   title: Troubleshoot Transport Layer Security encryption issues
   description: "Troubleshoot Transport Layer Security encryption issues"
-  ms.date: 03/09/2022
+  ms.date: 04/18/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "By reviewing the receive protocol log for STARTTLS events that are marked successful"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't how the Contoso mailbox server will verify the identity of the Fabrikam mailbox server. Try again."
+      explanation: "That's incorrect. This item isn't how the Contoso mailbox server will verify the identity of the Fabrikam mailbox server."
     - content: "By validating the certificate provided by the Fabrikam mailbox server"
       isCorrect: true
       explanation: "That's correct. An organization should configure mutual TLS to secure a connector to a partner organization. In this configuration, each mailbox server should verify the identity of the other server by validating the certificate the other mailbox server provides. This design is an easy way for administrators to manage secured message paths between domains over the Internet."
     - content: "By verifying the identity of the server that's stored in Fabrikam's MX record"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't how the Contoso mailbox server will verify the identity of the Fabrikam mailbox server. Try again."
+      explanation: "That's incorrect. This item isn't how the Contoso mailbox server will verify the identity of the Fabrikam mailbox server."

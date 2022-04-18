@@ -4,7 +4,7 @@ title: Troubleshoot SMTP mail flow
 metadata:
   title: Troubleshoot SMTP mail flow
   description: "Troubleshoot SMTP mail flow"
-  ms.date: 03/09/2022
+  ms.date: 04/18/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,7 +24,7 @@ quiz:
       explanation: "That's correct. There's a delivery queue for each mailbox database to which messages are destined. On a busy server, you may see a few messages in each queue. If there are many messages in a queue, the most common cause is a dismounted mailbox database."
     - content: "The categorizer is having problems processing the messages"
       isCorrect: false
-      explanation: "That's incorrect. When this issue occurs, it indicates that messages aren't moving out of the Submission queue. Try again."
+      explanation: "That's incorrect. When this issue occurs, it indicates that messages aren't moving out of the Submission queue."
     - content: "Messages can' be routed to their destination"
       isCorrect: false
-      explanation: "That's incorrect. Messages that can't be routed to their destination appear in the Unreachable queue. Try again."
+      explanation: "That's incorrect. Messages that can't be routed to their destination appear in the Unreachable queue."

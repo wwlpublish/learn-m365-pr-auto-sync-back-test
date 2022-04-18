@@ -16,6 +16,8 @@ The module then explored how to troubleshoot shared namespace environments. You 
  -  Create a new accepted domain that matches the shared SMTP domain namespace.
  -  Create a new send connector that routes messages to the shared SMTP domain.
 
-With a shared namespace in place, you were then introduced to steps that messaging administrators use to troubleshoot it.<br>
+With a shared namespace in place, you were then introduced to steps that messaging administrators use to troubleshoot it.
+
+This module also explored what Alert policies are, how to create them, and where to view them. With this feature, messaging administrators can stay on top of potential mail flow related issues.
 
 The module concluded by examining how to troubleshoot Transport Layer Security (TLS) encryption issues. You learned how to secure a connector to a partner organization. You were then introduced to various steps that can be taken to troubleshoot domain security that's configured with TLS.
