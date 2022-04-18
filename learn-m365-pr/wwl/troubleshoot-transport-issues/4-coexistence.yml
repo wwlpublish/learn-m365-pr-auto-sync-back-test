@@ -17,14 +17,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Multiple types of DNS record types are required for mail flow processing. When troubleshooting mail routing during coexistence, which record type should a Messaging administrator verify to ensure that it's configured properly?"
+  - content: "Mail flow processing requires multiple DNS record types to be configured. What record type should you verify when troubleshooting mail routing in a coexistence scenario to ensure that it's configured properly?"
     choices:
     - content: "A records"
       isCorrect: true
-      explanation: "That's correct. When troubleshooting mail routing during coexistence, the Messaging administrator should verify that A records and PTR records are properly configured during in a coexistence scenario."
+      explanation: "That's correct. When you're troubleshooting mail routing during coexistence, you should verify that A records and PTR records are properly configured in a coexistence scenario."
     - content: "CNAME records"
       isCorrect: false
-      explanation: "That's incorrect. When troubleshooting mail routing during coexistence, the Messaging administrator should verify a different record type."
+      explanation: "That's incorrect. When you're troubleshooting mail routing during coexistence, you should verify a different record type."
     - content: "TXT records"
       isCorrect: false
-      explanation: "That's incorrect. When troubleshooting mail routing during coexistence, the Messaging administrator should verify a different record type."
+      explanation: "That's incorrect. When you're troubleshooting mail routing during coexistence, you should verify a different record type."
