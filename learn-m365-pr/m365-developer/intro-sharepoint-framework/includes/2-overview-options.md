@@ -8,7 +8,7 @@ In this unit, you'll learn what the SharePoint Framework is and the extensibilit
 
 Over the years, with the evolution of Microsoft 365, development of SharePoint solutions has a new set of challenges: while on one hand IT and Tenant administrators require a new set of tools to control how data get accessed and consumed in their tenancies, developers want to programmatically control the whole lifecycle, experience, and data access capabilities of a site.
 
-Unfortunately, developers today find themselves constraint around building app parts because of iFrames, a reduced set of APIs, and no integration with cross Microsoft 365 workloads. This in turn limits their ability to develop powerful portals that extend SharePoint.
+Unfortunately, developers today find themselves constrained around building app parts because of iFrames, a reduced set of APIs, and no integration with cross Microsoft 365 workloads. This in turn limits their ability to develop powerful portals that extend SharePoint.
 
 The client-side development framework delivers capabilities that help both first party and third-party developers build powerful, rich applications and provide an enjoyable web experience in Microsoft 365 for end users that are both intuitive and simple to consume.
 
@@ -22,9 +22,9 @@ You can create server-side components, but you're going to host that yourself in
 
 SharePoint Framework components are lightweight and run in both web and mobile experiences because they're client-side solutions. We're relying on JavaScript, HTML, CSS, and images. This means they run the exact same way in the browser as it does in the mobile experiences.
 
-The SharePoint Framework is backwards compatible meaning that it works not just the modern pages, but also on classic and publishing pages as well.
+The SharePoint Framework is backwards compatible, which means that it works on both modern and classic publishing pages.
 
-The development tools and platform used in the SharePoint Framework is implemented with open-source tools and common JavaScript web frameworks like React.
+The development tools and platform used in the SharePoint Framework are implemented with open-source tools and common JavaScript web frameworks like React.
 
 ## Supported custom component types
 
@@ -45,7 +45,7 @@ They're configurable, reusable, and purpose-built components that page designers
 
 Client-side web parts are build using the SharePoint Framework that provides extra capabilities, including access to Microsoft Graph for incorporating personal and organizational information into page experiences.
 
-Web parts are also context aware, in the sense that they have access to contextual information about the current page. For instance, at runtime, the web part can get information about the current user and the current page and site the web part is currently running in.
+Web parts are also context aware, in the sense that they have access to contextual information about the current page. For instance, at runtime, the web part can get information about the current user, the current page, and the site that the web part is running in.
 
 Client-side web parts are flexible as well! Developers can use them to create single page applications (SPAs) as single page app pages, the basis for Microsoft Teams tabs and personal apps, and even as the host for Office Add-ins.
 
@@ -118,7 +118,7 @@ The other two types of components previously covered, web parts and extensions, 
 
 The library component is a developer tool that enables developers to create a single package of reusable code that's independently versioned & deployed from your other components. These reusable code packages are deployed a single time to the SharePoint Online tenant app catalog and served automatically for SharePoint Framework components.
 
-Library components give developers an alternative option to create shared code, which can be then used and referenced cross all the components in the tenant.
+Library components give developers an alternative option to create shared code, which can be then used and referenced across all the components in the tenant.
 
 > [!NOTE]
 > Library components are only supported in SharePoint Online.
