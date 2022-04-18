@@ -4,14 +4,14 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/13/2022
+  ms.date: 04/18/2022
   author: wwlpublish
-  ms.author: dahans
+  ms.author: asglenno
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
 labModal: false
-durationInMinutes: 2
+durationInMinutes: 6
 content: |
   [!include[](includes/5-knowledge-check.md)]
 quiz:
@@ -32,13 +32,13 @@ quiz:
     choices:
     - content: "6 months"
       isCorrect: false
-      explanation: "Incorrect. Microsoft gives a minimum of 12 months' notice before ending support for products under the Modern Lifecycle Policy."
+      explanation: "Incorrect. Under the Modern Lifecycle Policy, Microsoft gives a minimum of 12 months notice before ending support for products."
     - content: "12 months"
       isCorrect: true
-      explanation: "Correct. Microsoft gives a minimum of 12 months' notice before ending support for products under the Modern Lifecycle Policy."
+      explanation: "Correct. Under the Modern Lifecycle Policy, Microsoft gives a minimum of 12 months notice before ending support for products."
     - content: "24 months"
       isCorrect: false
-      explanation: "Incorrect. Microsoft gives a minimum of 12 months' notice before ending support for products under the Modern Lifecycle Policy."
+      explanation: "Incorrect. Under the Modern Lifecycle Policy, Microsoft gives a minimum of 12 months notice before ending support for products."
   - content: "What three phases does a feature have in the Microsoft 365 Roadmap?"
     choices:
     - content: "In development, Launched, Retired"

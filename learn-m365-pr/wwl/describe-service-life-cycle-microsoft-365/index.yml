@@ -3,7 +3,7 @@ uid: learn.wwl.describe-service-life-cycle-microsoft-365
 metadata:
   title: Describe the service life cycle in Microsoft 365
   description: "Describe the service life cycle in Microsoft 365"
-  ms.date: 04/13/2022
+  ms.date: 04/18/2022
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -11,12 +11,12 @@ metadata:
 title: Describe the service life cycle in Microsoft 365
 summary: Learn about how Microsoft 365 products are released through the service lifecycle and how people and organizations can plan for the future by leveraging the Microsoft 365 roadmap.
 abstract: |
-  By the end of this module, you will be able to:
-  -Describe the three phases of a product or services lifecycle
-  -Describe the Modern Lifecycle Policy and what is covered
-  -Describe the benefits of the Microsoft 365 Roadmap
+  By the end of this module, you'll be able to:
+  *   Describe the three phases of a product or services lifecycle
+  *   Describe the Modern Lifecycle Policy and what is covered
+  *   Describe the benefits of the Microsoft 365 Roadmap
 prerequisites: |
-  -Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a -Service (Saas).
+  - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a -Service (Saas).
 iconUrl: /learn/achievements/describe-the-service-life-cycle-in-microsoft-365.svg
 levels:
 - beginner

@@ -10,6 +10,7 @@ Now that you've completed this module, you can:
 
 Use the following list of resources to learn more about the units discussed in this module:
 
+ -  [Search Product and Services Lifecycle Information](/lifecycle/products/?azure-portal=true)
  -  [Overview - Product end of support](/lifecycle/overview/product-end-of-support-overview?azure-portal=true)
  -  [Modern Lifecycle Policy](/lifecycle/policies/modern?azure-portal=true)
  -  [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?azure-portal=true)

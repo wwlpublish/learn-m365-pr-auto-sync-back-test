@@ -1,10 +1,10 @@
-Your organization can plan for the future with the **Microsoft 365 roadmap**. Microsoft regularly includes updates for its products and services in the Microsoft 365 roadmap. The roadmap is the central location for business decision makers, IT professionals, and anyone else who’s interested, to see what’s coming. It was created to help you plan, communicate changes, and take full advantage of your Microsoft 365 subscription.
+Your organization can plan for the future with the **Microsoft 365 Roadmap**. Microsoft regularly includes updates for its products and services in the Microsoft 365 roadmap. The roadmap is the central location for business decision makers, IT professionals, and anyone else who’s interested to see what’s coming. It was created to help you plan, communicate changes, and take full advantage of your Microsoft 365 subscription.
 
-The roadmap displays feature cards that include the title, status, preview or version release date, product category, and cloud instance. The roadmap also groups the features into three update phases:
+The roadmap displays feature cards that include the title, status, release dates, product category, and cloud instance. The roadmap also groups the features into three update phases:
 
-1.  In development
-2.  Rolling out
-3.  Launched
+1.  **In development**
+2.  **Rolling out**
+3.  **Launched**
 
 :::image type="content" source="../media/service-lifecycle-module-roadmap-unit-cec2e843.png" alt-text="service-lifecycle-module-roadmap-unit.png":::
 
