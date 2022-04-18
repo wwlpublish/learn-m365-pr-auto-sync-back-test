@@ -41,10 +41,9 @@ By default, several system-generated Alert policies are created for you that hel
   :::column-end:::
 :::row-end:::
 
-
 ### Permissions required for the management of Alert policies
 
-Before accessing Alert policies, the messaging administrator must complete the following requirements:
+Before you can access and manage Alert policies, you must have the following permissions assigned:
 
  -  For Full access, the messaging admin must be a member of Organization Management or Security Administrator role groups.
  -  For Read-Only access, the messaging admin must be a member of the Global Reader or Security Reader role groups.
@@ -61,18 +60,19 @@ To create and Alert policy, you should complete the following steps:
      -  **Medium**
      -  **low**
 4.  From the **Trigger an alert when the following insight is generated** drop-down list, select one from the following insights:<br>
-     -  **Mail loop.** Use this insight to determine when an email loop occurs.Typically, an email loop starts when office 365 thinks a recipient doesn't exist in the service. If the MX record for the recipient's domain points to Office 365, or if the destination messaging server thinks the recipient is in Office 365, the message is delivered back to Office 365, and the process repeats itself.
+     -  **Mail loop.** Use this insight to determine when an email loop occurs. Typically, an email loop starts when office 365 thinks a recipient doesn't exist in the service. If the MX record for the recipient's domain points to Office 365, or if the destination messaging server thinks the recipient is in Office 365, the message is delivered back to Office 365, and the process repeats itself.
      -  **Slow transport rule.** A transport rule shouldn't take more than a few milliseconds to evaluate a message. Use this insight to determine if a transport rule contains inefficient conditions or actions, which could slow down mail flow.
      -  **New users forwarding.** use this insight to determine when newly created user starts forwarding emails from your organization to external domains.<br>
      -  **New domains being forwarded.** Use this insight to determine when a new remote domain starts receiving forwarded emails from your organization.
-     -  **Cert Expiry.** Mail flow connectors rely on valid certifcate for authentication and attribution. Use this insight to determine which certificates are expiring soon to avoid any potential mail service issues.
+     -  **Cert Expiry.** Mail flow connectors rely on valid certificate for authentication and attribution. Use this insight to determine which certificates are expiring soon to avoid any potential mail service issues.
 5.  Select **Next**.
 6.  Provide the name or email address of the alert notification recipients in the **Email recipients** box.
 7.  From the **Daily notification limit** drop-down list, select daily notification count.
 8.  Select **Next**.
-9.  Review the alert-policy settings and select **Create**. The alert policy is created.
+9.  Review the Alert policy settings and select **Create**. The Alert policy is now created.
 
-When creating a new alert policy, the **Category** drop-down list is disabled because **Mail flow** is the only supported category in the new Exchange admin console.
+> [!NOTE]
+> When creating a new Alert policy, the **Category** drop-down list is disabled because **Mail flow** is the only supported category in the new Exchange admin console.
 
 ### View alerts in the new Exchange admin center
 
