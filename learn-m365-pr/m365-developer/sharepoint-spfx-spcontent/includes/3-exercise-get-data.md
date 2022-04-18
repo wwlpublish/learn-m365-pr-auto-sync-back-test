@@ -145,7 +145,7 @@ Update the markup returned by the `render()` method to the following code. This 
       <div className={ styles.column }>
         <p className={ styles.title }>SharePoint Content!</p>
         <a href="#" className={ styles.button } onClick={ this.onGetListItemsClicked }>
-          <span className={ styles.label }>Get Counties</span>
+          <span className={ styles.label }>Get Countries</span>
         </a>
       </div>
     </div>
