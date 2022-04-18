@@ -10,7 +10,7 @@ This module will introduce you to extending the SharePoint user interface with e
 ## Learning objectives
 
 1. Create SPFx application customizer extensions
-1. Create SPFx field customer extensions
+1. Create SPFx field customizer extensions
 1. Create SPFx command set extensions
 
 ## Additional resources
