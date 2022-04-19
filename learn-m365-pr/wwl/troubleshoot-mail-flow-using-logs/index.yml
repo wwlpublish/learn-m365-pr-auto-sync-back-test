@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-mail-flow-using-logs
 metadata:
   title: Troubleshoot mail flow using logs
   description: "Troubleshoot mail flow using logs"
-  ms.date: 03/09/2022
+  ms.date: 04/19/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -26,6 +26,7 @@ products:
 - office
 - office-365
 - office-exchange-server
+- office-exchange-online
 units:
 - learn.wwl.troubleshoot-mail-flow-using-logs.introduction
 - learn.wwl.troubleshoot-mail-flow-using-logs.troubleshoot-message-tracking-logs
