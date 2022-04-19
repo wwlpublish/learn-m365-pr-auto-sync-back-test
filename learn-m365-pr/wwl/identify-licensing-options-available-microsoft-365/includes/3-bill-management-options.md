@@ -1,4 +1,4 @@
-Microsoft 365 billing is managed from the Microsoft 365 admin center. The admin center allows you to manage subscriptions, view billing statements, update payment methods, change your billing frequency, and more. The following list describes in further detail what can be reviewed and modified in the Microsoft 365 admin center:
+**Microsoft 365 billing** is managed from the **Microsoft 365 admin center.** The admin center allows you to manage subscriptions, view billing statements, update payment methods, change your billing frequency, and more. The following list describes in further detail what can be reviewed and modified in the Microsoft 365 admin center:
 
  -  **Upgrade, renew, reactivate or cancel subscriptions.**
  -  **View the number of purchased licenses** and how many of those licenses are assigned to individual users for each service.
