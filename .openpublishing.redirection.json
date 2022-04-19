@@ -2139,6 +2139,46 @@
       "source_path": "learn-m365-pr/wwl/configure-administrative-roles-microsoft-365/12-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/configure-administrative-roles-microsoft-365/9-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/identify-licensing-options-available-microsoft-365/2-compare-home-enterprise-business.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/identify-licensing-options-available-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/identify-licensing-options-available-microsoft-365/3-additional-capabilities-azure.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/identify-licensing-options-available-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/identify-licensing-options-available-microsoft-365/4-cloud-solution-provider-model.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/identify-licensing-options-available-microsoft-365/2-cloud-solution-provider-model",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/identify-licensing-options-available-microsoft-365/5-bill-management-options.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/identify-licensing-options-available-microsoft-365/3-bill-management-options",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/identify-licensing-options-available-microsoft-365/6-optimize-costs.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/identify-licensing-options-available-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/identify-licensing-options-available-microsoft-365/7-license-management-options.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/identify-licensing-options-available-microsoft-365/4-license-management-options",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/identify-licensing-options-available-microsoft-365/8-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/identify-licensing-options-available-microsoft-365/5-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/identify-licensing-options-available-microsoft-365/9-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/identify-licensing-options-available-microsoft-365/6-summary",
+      "redirect_document_id": true
     }
   ]
 }

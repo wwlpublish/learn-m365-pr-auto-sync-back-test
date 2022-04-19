@@ -1,13 +1,7 @@
-## Introduction
+Microsoft 365 is available through various licensing models and subscription plans for home, business, enterprise, and more. These options enable you to choose the model and plan that works best for your management and operational needs. By choosing the optimum subscription and license, you can be certain that the functionality you need is in the most cost-effective package.
 
-Microsoft 365 is available in a wide range of subscriptions for home, business, and enterprise. By choosing the optimum subscription, you can be assured of the functionality that you require in the most cost-effective package.
+After completing this module, you'll be able to:
 
-At the end of this module, you will be able to:
-
-- Identify licensing options available in Microsoft 365.
-- Describe the available licensing and management options for Microsoft 365.
-- Describe additional capabilities available when a customer purchases Azure Active Directory P1, Azure Active Directory P2, and Azure AD Basic.
-- Plan, predict, and compare pricing.
-- Describe the Cloud Solution Provider (CSP) pricing model for Windows and Microsoft cloud services.
-- Explain available billing and bill management options including billing frequency and methods of payment.
-- Optimize costs based on licensing options.
+ -  Describe the Cloud Solution Provider (CSP) pricing model for Microsoft cloud services.
+ -  Describe the available base licensing and add-on licensing options for Microsoft 365.
+ -  Describe the available billing frequency and methods of payment.
