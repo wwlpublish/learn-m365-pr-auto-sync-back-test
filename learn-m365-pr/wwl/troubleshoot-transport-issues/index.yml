@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-transport-issues
 metadata:
   title: Troubleshoot transport issues
   description: "Troubleshoot transport issues"
-  ms.date: 03/09/2022
+  ms.date: 04/19/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -27,6 +27,7 @@ products:
 - office
 - office-365
 - office-exchange-server
+- office-exchange-online
 units:
 - learn.wwl.troubleshoot-transport-issues.introduction
 - learn.wwl.troubleshoot-transport-issues.troubleshoot-network-based-issues

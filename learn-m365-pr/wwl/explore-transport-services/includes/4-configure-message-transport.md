@@ -13,7 +13,7 @@ After the least-cost route for message delivery has been selected, the Transport
 
 ### Fallback
 
-If the destination on the least-cost path cannot be contacted, then the Transport service falls back and attempts to deliver the message to the next closest site on the least-cost path. The message is queued at the next closest site until the destination is available.
+If the destination on the least-cost path can't be contacted, then the Transport service falls back and attempts to deliver the message to the next closest site on the least-cost path. The message is queued at the next closest site until the destination is available.
 
 > [!NOTE]
 > If the next closest site on the least-cost path isn't available, then the Transport service tries one hop back again. This process continues until the message can be delivered.

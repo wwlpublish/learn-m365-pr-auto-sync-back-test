@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.identify-licensing-options-available-microsoft-365.describe-cloud-solution-provider-model
+title: Explore the pricing model for Microsoft cloud services
+metadata:
+  title: Explore the pricing model for Microsoft cloud services
+  description: "Explore the pricing model for Microsoft cloud services"
+  ms.date: 04/19/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-cloud-solution-provider-model.md)]

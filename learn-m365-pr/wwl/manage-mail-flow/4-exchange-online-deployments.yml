@@ -4,7 +4,7 @@ title: Manage mail flow in Exchange Online deployments
 metadata:
   title: Manage mail flow in Exchange Online deployments
   description: "Manage mail flow in Exchange Online deployments"
-  ms.date: 03/09/2022
+  ms.date: 04/19/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,7 +24,7 @@ quiz:
       explanation: "That's incorrect. This is an Exchange Online connector setting in which the default settings are sufficient, and the Connector is not required."
     - content: "Subscribe to Exchange Online Protection for email protection services for on-premises mailboxes"
       isCorrect: false
-      explanation: "That's incorrect. You don't have on-premises mailboxes in an Exchange Online deployment. Try again."
+      explanation: "That's incorrect. You don't have on-premises mailboxes in an Exchange Online deployment."
     - content: "Configure Contoso's DNS MX record to point inbound to Exchange Online"
       isCorrect: true
       explanation: "That's correct. The only other requirement in an Exchange Online deployment is to configure the organization's DNS MX record to point inbound to Exchange Online."

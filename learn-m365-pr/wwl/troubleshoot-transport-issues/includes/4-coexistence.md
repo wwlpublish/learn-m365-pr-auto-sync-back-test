@@ -1,6 +1,6 @@
 Message transport coexistence is automatically achieved if you have multiple Exchange Servers in your deployment. Coexistence occurs because a server automatically fails over to another server if it fails.
 
-Consider the following issues when troubleshooting mail routing during coexistence:
+Consider the following issues when you are troubleshooting mail routing during coexistence:
 
  -  Send connectors are organization-wide, which means they're used by all Exchange Servers in the organization. If email isn't sent through the Send Connectors, verify the Send Connectors’ source servers are properly configured. In a coexistence scenario, Send Connectors may include both old and new versions of Exchange as source servers.
  -  Receive connectors are server-wide, which means that each server has its own set of receive connectors that must be configured separately. In a coexistence scenario, you must ensure that all receive connectors are configured properly on each Exchange Server before you switch the SMTP traffic from the old to the new versions of Exchange.

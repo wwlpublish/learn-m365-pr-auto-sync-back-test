@@ -63,17 +63,9 @@ The following table identifies how multiple conditions, condition values, except
     AND
   :::column-end:::
   :::column:::
-    
-
-Messages that match a rule's conditions get all the actions that are specified in the rule. For example, if the actions “Prepend the subject of the message with” and “Add recipients to the Bcc box” are selected, both actions are applied to the message.
-
-
+    Messages that match a rule's conditions get all the actions that are specified in the rule. For example, if the actions “Prepend the subject of the message with” and “Add recipients to the Bcc box” are selected, both actions are applied to the message.
 Keep in mind that some actions, such as the “Delete the message without notifying anyone” action, prevent later rules from being applied to a message. Other actions, such as “Forward the message,” don't allow more actions.
-
-
 You can also set an action on a rule so that when that rule is applied, later rules aren't applied to the message.
-
-
   :::column-end:::
 :::row-end:::
 
@@ -101,14 +93,8 @@ Although similar in functionality, the agents have some differences. The importa
     Transport Rule agent on Mailbox servers
   :::column-end:::
   :::column:::
-    
-
-The **OnResolvedMessage** categorizer event.
-
-
+    The **OnResolvedMessage** categorizer event.
 The Transport Rule agent was invoked on the **OnRoutedMessage** categorizer event. The change to **OnResolvedMessage** allowed new rule actions that can change how a message is routed (for example, require TLS).
-
-
   :::column-end:::
   :::column:::
     In Active Directory. Rules are available to all Mailbox servers in the Active Directory forest.
@@ -150,14 +136,8 @@ There are differences in processing different types of messages that flow throug
     S/MIME encrypted messages: Messages that are digitally signed and encrypted.
   :::column-end:::
   :::column:::
-    
-
-Rules can only access envelope headers and process messages based on conditions that inspect those headers.
-
-
+    Rules can only access envelope headers and process messages based on conditions that inspect those headers.
 Rules with conditions that require inspection of the message's content, or actions that modify the message's content can't be processed.
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -165,14 +145,8 @@ Rules with conditions that require inspection of the message's content, or actio
     RMS Protected messages: Messages that are protected by applying an Active Directory Rights Management Services (AD RMS) rights policy template.
   :::column-end:::
   :::column:::
-    
-
-Rules can always access envelope headers and process messages based on conditions that inspect those headers.
-
-
-For a rule to inspect or modify a protected message's content, your need to have transport decryption set to Mandatory or Optional (By default, Transport decryption is set to Optional), or you need to have the encryption key.
-
-
+    Rules can always access envelope headers and process messages based on conditions that inspect those headers.
+For a rule to inspect or modify a protected message's content, your need to have transport decryption set to Mandatory or Optional (By default, Transport decryption is set to Optional), or your need to have the encryption key.
   :::column-end:::
 :::row-end:::
 :::row:::

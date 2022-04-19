@@ -42,7 +42,9 @@ The following scenarios describe different ways a hybrid environment can distrib
 3.  Update the DNS records for the domains that you added in step 1. (If you're unsure how to do update the DNS records, follow the instructions on [this page](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?azure-portal=true?azure-portal=true).) The following DNS records control mail flow:
     
      -  **MX record**: Point your MX record to your on-premises server in the following format: mail.&lt;domainKey&gt;.com For example, if your domain is contoso.com, the MX record should be: .mail.contoso.com.<br>
-     -  **SPF record**: This record should list Microsoft 365 as a valid sender. It should also include any IP addresses from your on-premises servers that connect to EOP and any third parties that send email on behalf of your organization. For example, if your organization's mail server's Internet-facing IP address is 131.107.21.231, the SPF record for contoso.com should be:<br>v=spf1 ipv4: 131.107.21.231 include:spf.protection.outlook.com -all<br>
+     -  **SPF record**: This record should list Microsoft 365 as a valid sender. It should also include any IP addresses from your on-premises servers that connect to EOP and any third parties that send email on behalf of your organization. For example, if your organization's mail server's Internet-facing IP address is 131.107.21.231, the SPF record for contoso.com should be:
+        
+        v=spf1 ipv4: 131.107.21.231 include:spf.protection.outlook.com -all
 4.  In the Exchange Admin Center, use the connector wizard to [Configure mail flow using connectors in Office 365](https://technet.microsoft.com/library/ms.exch.eac.connectorselection%28v=exchg.150%29.aspx?azure-portal=true) for the following scenarios:
     
      -  Sending mail from Microsoft 365 to your organization's mail servers.

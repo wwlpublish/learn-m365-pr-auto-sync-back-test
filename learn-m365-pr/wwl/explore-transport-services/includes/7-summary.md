@@ -10,4 +10,4 @@ This module also reviewed the different ways to configure message transport in y
 2.  Least number of hops
 3.  Name of the Active Directory site closest to the destination in alphanumeric order
 
-You then examined the role of transport agents, which process email messages that pass through the transport pipeline on Transport service components. You learned that because all messages are processed by the Transport service for delivery, you’re guaranteed that all messages are evaluated by transport agents installed on the server.
+You then examined the role of transport agents, which processes email messages passing through the transport pipeline on Transport service components. You learned because all messages are processed by the Transport service for delivery, you’re guaranteed all messages are evaluated by transport agents installed on the server.
