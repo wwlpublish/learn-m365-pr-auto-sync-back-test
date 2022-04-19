@@ -9,6 +9,6 @@ In addition to the registration requirement discussed in the previous unit, emai
 
 ## Protecting your service
 
-All HTTP POST requests sent to your service by Microsoft 365 include a bearer token in the `Authorization` header. This token is a JSON Web Token (JWT) token signed by Microsoft, and it includes important claims that we should be verified by the service handling the associated request. By validating this token, you can know that the request is a valid one and that it originated from Microsoft. The token also contains the Azure Active Directory identity of the recipient who initiated the action.
+All HTTP POST requests sent to your service by Microsoft 365 include a bearer token in the `Authorization` header. This token is a JSON Web Token (JWT) signed by Microsoft, and it includes important claims that should be verified by the service handling the associated request. By validating this token, you can know that the request is a valid one and that it originated from Microsoft. The token also contains the Azure Active Directory identity of the recipient who initiated the action.
 
 Your service can also require authentication on your action endpoint. You can respond to a POST to your endpoint with an HTTP 401 status and an `ACTION-AUTHENTICATE` header, specifying a login URL. The Outlook client will use that URL to allow the user to login to your system, and your service can associate the user's Azure AD identity with your system.

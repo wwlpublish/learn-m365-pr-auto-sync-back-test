@@ -206,4 +206,4 @@ Update the URL to **https://localhost:5001/User** to navigate to the **User** co
 
 ## Summary
 
-In this unit, you learned how to create a server-side web app that allows users to sign in and grant the app permissions to act on the user's behalf. One the user has authenticated and granted the app consent to act on their behalf, the web application will use data returned from Microsoft Graph by using the OAuth 2.0 auth code grant flow.
+In this unit, you learned how to create a server-side web app that allows users to sign in and grant the app permissions to act on the user's behalf. Once the user has authenticated and granted the app consent to act on their behalf, the web application will use data returned from Microsoft Graph by using the OAuth 2.0 auth code grant flow.
