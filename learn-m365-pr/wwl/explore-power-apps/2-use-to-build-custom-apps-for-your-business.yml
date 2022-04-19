@@ -4,13 +4,12 @@ title: Use Power Apps to build custom apps for your business
 metadata:
   title: Use Power Apps to build custom apps for your business
   description: "Use Power Apps to build custom apps for your business"
-  ms.date: 09/10/2021
+  ms.date: 04/18/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 5
 content: |
@@ -22,10 +21,10 @@ quiz:
     choices:
     - content: "Canvas app"
       isCorrect: false
-      explanation: "That's incorrect. In canvas apps, the app layout and the views and detail screens aren't determined by the components, nor are they based on the data structure. Try again."
+      explanation: "Incorrect. In canvas apps, the app layout and the views and detail screens aren't determined by the components, nor are they based on the data structure."
     - content: "Model-driven app"
       isCorrect: true
-      explanation: "That's correct. Model-driven apps require a Common Data Service database and are built on top of the data modeled in that database environment. The app creator can determine the components (forms, charts, views, dashboards, and so on) to include in the app. However, the app layout and the views and detail screens are determined by the components and based on the data structure."
+      explanation: "Correct. Model-driven apps require a Microsoft Dataverse database and are built on top of the data modeled in that database environment. The app creator can determine the components (forms, charts, views, dashboards, and so on) to include in the app. However, the app layout and the views and detail screens are determined by the components and based on the data structure."
     - content: "Portal"
       isCorrect: false
-      explanation: "That's incorrect. In portal apps, the app layout and the views and detail screens aren't determined by the components, nor are they based on the data structure. Try again."
+      explanation: "Incorrect. In portal apps, the app layout and the views and detail screens aren't determined by the components, nor are they based on the data structure."
