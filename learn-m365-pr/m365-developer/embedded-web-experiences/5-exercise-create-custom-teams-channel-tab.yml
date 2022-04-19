@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Exercise - Create a custom Microsoft Teams channel or group tab
-durationInMinutes: 22
+durationInMinutes: 26
 content: >-
   [!include[](includes/5-exercise-create-custom-teams-channel-tab.md)]
 quiz:

@@ -9,6 +9,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Create a custom Microsoft Teams personal tab
-durationInMinutes: 5
+durationInMinutes: 25
 content: >-
   [!include[](includes/2-create-custom-teams-personal-tab.md)]

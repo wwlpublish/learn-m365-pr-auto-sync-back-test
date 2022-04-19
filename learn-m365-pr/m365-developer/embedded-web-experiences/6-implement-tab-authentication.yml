@@ -9,6 +9,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Implement authentication in a custom tab
-durationInMinutes: 5
+durationInMinutes: 21
 content: >-
   [!include[](includes/6-implement-tab-authentication.md)]
