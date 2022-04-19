@@ -1,4 +1,4 @@
-Administrators and users in your organization might find it difficult to resolve issues on their own. It’s helpful to know they can receive assistance for Microsoft 365 services whenever they need it through various support options.<br>
+Administrators and users in your organization might find it difficult to resolve issues on their own. It’s helpful to know they can receive assistance for Microsoft 365 services whenever they need it through various **support options.**<br>
 
 The support option chosen to deal with a particular issue depends on:
 
@@ -76,16 +76,16 @@ Your organization can get access to support in the following ways:
 
 For more information on support options, see [Compare Microsoft 365 Support Options.](https://www.microsoft.com/microsoft-365/business/microsoft-365-for-business-support-options?azure-portal=true)
 
-#### **Create a support request.**
+#### **Create a support request**
 
-If you need help with using Microsoft 365 create or view an existing support request through the Microsoft 365 admin center. The following steps describe how to create a support request as an administrator:
+If you need help with using Microsoft 365 create a support request through the Microsoft 365 admin center. You can also view existing support requests. The following steps describe how to create a support request as an administrator:
 
-1.  Sign into Microsoft 365 with your Microsoft 365 admin account
+1.  Sign into the Microsoft 365 admin center with your Microsoft 365 admin account.
 2.  In the left navigation menu, select **Show all** to expand the rest of the options.
 3.  Select **Support** to expand the support options.
-4.  Select **Create new service request**.
+4.  Select N**ew service request**.
 5.  On the right, a support window will open where you can enter your support question and view the results.
-6.  If the recommended instructions or articles don’t answer your questions, select on the **headset icon** to contact technical support.
+6.  If the recommended instructions or articles don’t answer your questions, select on the **headset icon** at the top or select **Contact support** at the bottom to contact technical support.
 7.  Fill in the required information like Title, Description, Preferred contact method, etc.
 8.  Select **Contact me** and a support agent will contact you.
 
@@ -94,5 +94,3 @@ Practice creating a support request in the Microsoft 365 admin center in the fol
 > > [!VIDEO https://mslearn.cloudguides.com/guides/Discover%20support%20options%20in%20Microsoft%20365]
 
 You’ve now learned how to use the Microsoft 365 admin center. You know how to search for support options, view existing service requests, and create new service requests.
-
-Administrators and users in your organization might find it difficult to resolve issues on their own. It’s helpful to know that users and administrators in your organization can receive assistance whenever they need it.

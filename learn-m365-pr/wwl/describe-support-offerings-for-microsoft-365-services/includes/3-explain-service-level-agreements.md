@@ -1,4 +1,4 @@
-It’s vital that organizations know that the products and services they’re using are reliable and secure. Microsoft 365 services guarantees level of service for your organization. Level of service is detailed in a legal agreement referred to as a Service Level Agreement. Microsoft details its commitment to provide and maintain agreed service levels for Microsoft 365 services through its [Microsoft Online Services Level Agreement](/office365/servicedescriptions/office-365-platform-service-description/service-level-agreement#microsoft-online-services-level-agreement?azure-portal=true).
+It’s vital that organizations know that the products and services they’re using are reliable and secure. Microsoft 365 services guarantees level of service for your organization. Level of service is detailed in a legal agreement referred to as a **Service Level Agreement.** Microsoft details its commitment to provide and maintain agreed service levels for Microsoft 365 services through its **Microsoft Online Services Agreement.** 
 
 In addition to the Microsoft Online Service Level Agreement, your organization can also take advantage of the Service Level Agreement with your Cloud Service Provider. The guarantees of service provided for Microsoft 365 services will vary between cloud service providers.
 
@@ -33,7 +33,7 @@ Microsoft’s Online Service Level Agreement introduces several concepts:
     **Downtime**
   :::column-end:::
   :::column:::
-    The definition of downtime depends on the relevant service. For example, for Microsoft Teams, any period of time where users are unable to initiate online meetings, see presence statuses, or are unable to have instant messaging conversations is considered downtime. Your downtime reduces the total time your services are functional (your uptime).
+    The definition of downtime depends on the relevant service. For example, with Microsoft Teams, any period of time where users are unable to initiate online meetings, see presence statuses, or unable to instant message is considered downtime. Your downtime reduces the total time your services are functional (your uptime).
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -41,7 +41,7 @@ Microsoft’s Online Service Level Agreement introduces several concepts:
     **Claim**
   :::column-end:::
   :::column:::
-    A claim raises information about an incident. Your organization is responsible for submitting a claim on an incident, the details about the experienced downtime, affected users, and how it was attempted to resolve the incident. Microsoft is responsible for processing the claim.
+    A claim raises information about an incident. Your organization is responsible for submitting a claim on an incident. The organization should provide the details about the experienced downtime, affected users, and how it was attempted to resolve the incident. Microsoft is responsible for processing the claim.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -49,7 +49,7 @@ Microsoft’s Online Service Level Agreement introduces several concepts:
     **Service credit**
   :::column-end:::
   :::column:::
-    Service credits are submitted by the organization’s admin. If the claim has been successfully approved by Microsoft, your organization will receive service credits as a percentage of the total monthly fees your organization has paid for the month where you experienced downtime.
+    Service credits are submitted by the organization’s admin. If the claim is successfully approved by Microsoft, your organization will receive service credits. The service credit will be the percentage of the total monthly fees your organization paid for the month where you experienced downtime.
   :::column-end:::
 :::row-end:::
 :::row:::
