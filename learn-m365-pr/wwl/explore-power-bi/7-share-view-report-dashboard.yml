@@ -4,26 +4,27 @@ title: Share and view a Power BI report and dashboard
 metadata:
   title: Share and view a Power BI report and dashboard
   description: "Share and view a Power BI report and dashboard"
-  ms.date: 07/09/2021
+  ms.date: 04/18/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 5
 content: |
   [!include[](includes/7-share-view-report-dashboard.md)]
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Contoso, Holly Dickson created a Power BI dashboard. Holly now wants to share access to this dashboard. Which of the following items is a prerequisite to Holly being able to share this dashboard?"
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson just created a Power BI dashboard. Holly now wants to share access to this dashboard. Which of the following items is a prerequisite to Holly being able to share this dashboard?"
     choices:
     - content: "Holly must select the \"Allow recipients to share your dashboard (or report)\" sharing option for the dashboard"
       isCorrect: false
-      explanation: "That's incorrect. This option allows other to reshare the dashboard or report that you shared with them. Try again."
+      explanation: "Incorrect. This option allows other to reshare the dashboard or report that you shared with them."
     - content: "Holly must have a Power BI Pro license"
       isCorrect: true
-      explanation: "That's correct. A Power BI Pro license is required to share content."
+      explanation: "Correct. A Power BI Pro license is required to share content."
     - content: "Holly must have an admin role in the workspace from which the dashboard is being shared"
       isCorrect: false
-      explanation: "That's incorrect. Users can share from other workspaces if they have the Admin, Member, or Contributor role in the workspace. Try again."
+      explanation: "Incorrect. Users can share from other workspaces if they have the Admin, Member, or Contributor role in the workspace."

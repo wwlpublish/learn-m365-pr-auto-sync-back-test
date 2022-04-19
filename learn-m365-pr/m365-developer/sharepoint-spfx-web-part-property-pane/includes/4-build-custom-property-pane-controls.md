@@ -64,7 +64,7 @@ groupFields: [
 
 ## Create custom property pane controls
 
-The `PropertyPaneCustomField` field control enables developers to define how the controls are rendered. all the code for rendering the control is in the web part where its used.
+The `PropertyPaneCustomField` field control enables developers to define how the controls are rendered. all the code for rendering the control is in the web part where it's used.
 
 While this solution will work for many one-off scenarios, you may have more complicated business requirements. In this scenario, you can create custom property pane controls that give you more control and are reusable across web part projects.
 
@@ -83,7 +83,7 @@ groupFields: [
 ]
 ```
 
-In the next unit, you'll the custom field control shown in the figure above.
+In the next unit, you'll create the custom field control shown in the figure above.
 
 ## Summary
 
