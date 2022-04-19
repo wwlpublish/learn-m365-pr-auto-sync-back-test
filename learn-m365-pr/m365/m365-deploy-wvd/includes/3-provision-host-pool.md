@@ -19,7 +19,7 @@ To complete the exercise, you'll need the Azure credentials for:
    :::image type="content" source="../media/3-create-host-pool.png" alt-text="Screenshot of the Azure Virtual Desktop create host pool basic tab.":::
 
 > [!NOTE]
-> If you want to create your host pool in a [supported region](https://docs.microsoft.com/azure/virtual-desktop/data-locations) outside the US, you'll need to re-register the resource provider. After re-registering, you should see the other regions in the drop-down for selecting the location. Learn how to re-register at our [Host pool creation](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-set-up-issues#i-only-see-us-when-setting-the-location-for-my-service-objects) troubleshooting article.
+> If you want to create your host pool in a [supported region](/azure/virtual-desktop/data-locations) outside the US, you'll need to re-register the resource provider. After re-registering, you should see the other regions in the drop-down for selecting the location. Learn how to re-register at our [Host pool creation](/azure/virtual-desktop/troubleshoot-set-up-issues#i-only-see-us-when-setting-the-location-for-my-service-objects) troubleshooting article.
 
    |Field  |Value  |
    |---------|---------|

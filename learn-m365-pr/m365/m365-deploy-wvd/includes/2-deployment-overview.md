@@ -58,7 +58,7 @@ You choose the image type Azure uses to create the virtual machine, either Galle
   - *Storage account* - You select the Azure storage account that contains your image.
 
 >[!NOTE]
->When using your own custom images, we recommend you [create a managed image of a generalized VM in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource) and [store images in an Azure Compute Gallery](https://docs.microsoft.com/en-us/azure/virtual-machines/shared-image-galleries).
+>When using your own custom images, we recommend you [create a managed image of a generalized VM in Azure](/azure/virtual-machines/windows/capture-image-resource) and [store images in an Azure Compute Gallery](/azure/virtual-machines/shared-image-galleries).
 
 ## Select virtual network
 
