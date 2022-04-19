@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-exchange-online.explore-mail-flow-microsoft-365
+title: Explore mail flow in Microsoft 365
+metadata:
+  title: Explore mail flow in Microsoft 365
+  description: "Explore mail flow in Microsoft 365"
+  ms.date: 04/19/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/2-explore-mail-flow-microsoft-365.md)]

@@ -4,17 +4,16 @@ title: Create and manage recipients
 metadata:
   title: Create and manage recipients
   description: "Create and manage recipients"
-  ms.date: 09/10/2021
+  ms.date: 04/19/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 5
 content: |
-  [!include[](includes/2-create-manage-recipients.md)]
+  [!include[](includes/4-create-manage-recipients.md)]
 quiz:
   title: "Check your knowledge"
   questions:
@@ -22,10 +21,10 @@ quiz:
     choices:
     - content: "A Dynamic Distribution Group is the most common form of a globally available distribution list for sending out one-to-many e-mail messages. A Distribution Group is commonly used to create a global company distribution list using attributes in the company address book, such as region, office, department, or roles."
       isCorrect: false
-      explanation: "That's incorrect. These descriptions are actually the opposite of the differences between the two group types. A Distribution Group is the most common form of a globally available distribution list for sending out one-to-many e-mail messages. A Dynamic Distribution Group is commonly used to create a global company distribution list using attributes in the company address book, such as region, office, department, or roles. Try again."
+      explanation: "Incorrect. These descriptions are actually the opposite of the differences between the two group types. A Distribution Group is the most common form of a globally available distribution list for sending out one-to-many e-mail messages. A Dynamic Distribution Group is commonly used to create a global company distribution list using attributes in the company address book, such as region, office, department, or roles."
     - content: "A Dynamic Distribution Group is excellent for team and department collaboration when other resources such as OneNote or OneDrive are needed. A Distribution Group provides hooks into multiple Microsoft 365 services, it can be used as a tool to aid adoption and drive business value."
       isCorrect: false
-      explanation: "That's incorrect. These items are both descriptions of a Microsoft 365 group. Try again."
+      explanation: "Incorrect. These items are both descriptions of a Microsoft 365 group."
     - content: "A Dynamic Distribution Group creates a set of users based on an LDAP query in Active Directory to distribute messages. A Distribution Group distributes messages to the list of assigned users to the group"
       isCorrect: true
-      explanation: "That's correct. A Dynamic Distribution Group dynamically creates a set of users based on an LDAP query in Active Directory to distribute messages. A Distribution Group distributes messages to the list of assigned users to the group."
+      explanation: "Correct. A Dynamic Distribution Group dynamically creates a set of users based on an LDAP query in Active Directory to distribute messages. A Distribution Group distributes messages to the list of assigned users to the group."
