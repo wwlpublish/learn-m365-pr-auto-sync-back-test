@@ -33,15 +33,13 @@ The following diagram shows an Azure Virtual Desktop workspace with two host poo
 
    :::image type="content" source="../media/2-deploy-app-groups.png" border="false" alt-text="Diagram that shows the relationship of a workspace, host pool, and application group.":::
 
-
-
 ## Configure virtual machines for host pool
 
 When you create an Azure Virtual Desktop host pool, you can choose to create new VMs or register existing VMs to a host pool.
 
 ### Number of VMs
 
-You can create up to 159 VMs when you first create your host pool. Each deployment creates four objects per VM, which you can see in your resource group, along with Azure Resource Manager objects. As a result, you can reach the 800 Azure resources per deployment limit very quickly. You can add more VMs to the host pool after you finish creating your host pool. Check the Azure VM and API limits for your resource group and subscription.
+The setup process can create up to 400 VMs while setting up your host pool. And each deployment creates four objects per VM, which you can see in your resource group, along with Azure Resource Manager objects. As a result, you can reach the 800 Azure resources per deployment limit very quickly. Since the creation process doesn't check your subscription quota, make sure the number of VMs you enter is within the Azure VM and API limits for your resource group and subscription. You can add more VMs to the host pool after you finish creating your host pool. Check the Azure VM and API limits for your resource group and subscription.
 
 ### VM sizing
 
@@ -56,11 +54,11 @@ You choose the image type Azure uses to create the virtual machine, either Galle
 - *Gallery* -  With this image type, you can select one of the recommended images from the drop-down menu like Windows 10 Enterprise multi-session + Office 365. If you don't see the image you want, select **See all images**. This lets you select an image in your gallery or another image provided by Microsoft and other publishers.  
 
 - *Storage blob* - Allows you to use your own image built through Hyper-V or on an Azure VM. You might use this option when you have an image you're using on-premises and just want to upload it and start using it in Azure immediately. When you select this option, there are some additional fields you need to complete.
-  - *Image URI* - Enter the URL to the generalized VHD from your Azure Storage account. 
+  - *Image URI* - Enter the URL to the generalized VHD from your Azure Storage account.
   - *Storage account* - You select the Azure storage account that contains your image.
 
 >[!NOTE]
->We recommend registering these images within Azure using the Azure Image Creation tool to unlock better performance and management capabilities.
+>When using your own custom images, we recommend you [create a managed image of a generalized VM in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource) and [store images in an Azure Compute Gallery](https://docs.microsoft.com/en-us/azure/virtual-machines/shared-image-galleries).
 
 ## Select virtual network
 
@@ -92,13 +90,13 @@ You can access an Azure Virtual Desktop workspace from either a web browser or b
 - Android
 - macOS
 - iOS
-- Linux
+- Web
 
 To learn more about these clients and what operating system versions they support, see the links available at the end of this module.
 
 ## Bypass subscribe to workspace step
 
-After you install the Azure Virtual Desktop client app and first launch it, you're prompted to subscribe to a workspace.
+If you're using the Windows client, after you install the Azure Virtual Desktop client app and first launch it, you're prompted to subscribe to a workspace.
 
   :::image type="content" source="../media/2-subscribe-workspace.png" alt-text="Screenshot of the subscribe to workspace form with the URL pasted in.":::
 
