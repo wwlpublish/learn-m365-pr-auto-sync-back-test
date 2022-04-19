@@ -4,7 +4,7 @@ title: Troubleshoot network-based issues
 metadata:
   title: Troubleshoot network-based issues
   description: "Troubleshoot network-based issues"
-  ms.date: 03/09/2022
+  ms.date: 04/19/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "25/TCP"
       isCorrect: false
-      explanation: "That's incorrect. This port is the default port for any SMTP mail transmission. However, it isn't the most important port used for client access. Try again."
+      explanation: "That's incorrect. This port is the default port for any SMTP mail transmission. However, it isn't the most important port used for client access."
     - content: "80/TCP"
       isCorrect: false
-      explanation: "That's incorrect. This port uses unencrypted HTTP, which is required as the Autodiscover fallback method, for Internet calendar publishing, and to access Certificate Revocation Lists. However, it isn't the most important port used for client access. Try again."
+      explanation: "That's incorrect. This port uses unencrypted HTTP, which is required as the Autodiscover fallback method, for Internet calendar publishing, and to access Certificate Revocation Lists. However, it isn't the most important port used for client access."
     - content: "443/TCP"
       isCorrect: true
       explanation: "That's correct. Most client access is tunneled over HTTPS. This port is the most important port for client access."
