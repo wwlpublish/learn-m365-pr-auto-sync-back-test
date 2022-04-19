@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Exercise - Create a custom Microsoft Teams personal tab
-durationInMinutes: 15
+durationInMinutes: 28
 content: >-
   [!include[](includes/3-exercise-create-custom-teams-personal-tab.md)]
 quiz:
