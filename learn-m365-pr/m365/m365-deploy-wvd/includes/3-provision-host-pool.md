@@ -18,15 +18,12 @@ To complete the exercise, you'll need the Azure credentials for:
 
    :::image type="content" source="../media/3-create-host-pool.png" alt-text="Screenshot of the Azure Virtual Desktop create host pool basic tab.":::
 
-> [!NOTE]
-> If you want to create your host pool in a [supported region](/azure/virtual-desktop/data-locations) outside the US, you'll need to re-register the resource provider. After re-registering, you should see the other regions in the drop-down for selecting the location. Learn how to re-register at our [Host pool creation](/azure/virtual-desktop/troubleshoot-set-up-issues#i-only-see-us-when-setting-the-location-for-my-service-objects) troubleshooting article.
-
    |Field  |Value  |
    |---------|---------|
    |Subscription     |  Subscription where you want Azure Virtual Desktop to run       |
    |Resource group     | Resource group you've created for Azure Virtual Desktop resources    |
    |Host pool name     |  wvd-host-pool-1      |
-   |Location    | Region where you want the metadata for your host pool stored        |
+   |Location    | Region where you want the metadata for your host pool stored. If you want to create your host pool in a [supported region](/azure/virtual-desktop/data-locations) outside the US, you'll need to [re-register the resource provider](/azure/virtual-desktop/troubleshoot-set-up-issues#i-only-see-us-when-setting-the-location-for-my-service-objects).       |
    |Validation environment|No|
    |Host pool type     |  Pooled  |
    |Load balancing algorithm    | Breadth-first |
