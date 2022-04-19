@@ -17,7 +17,7 @@ There are two factors that determine the order that transport agents act on mess
 
 For example, suppose you configured the following transport agents:
 
- -  Transport Agent A with a priority of 1 and Transport Agent C with a priority of 2 are registered to the OnEndOfHeaders SMTP event.
+ -  Transport Agent A with a priority of 1 and Transport Agent C with a priority of 2 are registered to the **OnEndOfHeaders** SMTP event.
  -  Transport Agent B with a priority of 4 is registered to the **OnMailCommand** SMTP event.
 
 Transport Agent B is applied to messages first because the **OnMailCommand** event receives messages before the **OnEndOfHeaders** event. When messages reach the **OnEndOfHeaders** event, Transport Agent A is applied before Transport Agent C because Transport Agent A has a higher priority (lower integer value) than Transport Agent C.
