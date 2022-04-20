@@ -3,7 +3,7 @@ uid: learn.wwl.manage-synchronized-identities
 metadata:
   title: Manage synchronized identities
   description: "Manage synchronized identities"
-  ms.date: 07/12/2021
+  ms.date: 04/20/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -27,7 +27,6 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:
@@ -35,6 +34,7 @@ units:
 - learn.wwl.manage-synchronized-identities.manage-users-with-directory-synchronization
 - learn.wwl.manage-synchronized-identities.manage-groups-with-directory-synchronization
 - learn.wwl.manage-synchronized-identities.use-azure-ad-connect-sync-security-groups
+- learn.wwl.manage-synchronized-identities.configure-object-filters-directory-synchronization
 - learn.wwl.manage-synchronized-identities.troubleshoot-directory-synchronization
 - learn.wwl.manage-synchronized-identities.knowledge-check
 - learn.wwl.manage-synchronized-identities.summary

@@ -4,15 +4,16 @@ title: Troubleshoot directory synchronization
 metadata:
   title: Troubleshoot directory synchronization
   description: "Troubleshoot directory synchronization"
-  ms.date: 07/12/2021
+  ms.date: 04/20/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 8
 content: |
-  [!include[](includes/5-troubleshoot-directory-synchronization.md)]
+  [!include[](includes/6-troubleshoot-directory-synchronization.md)]
 quiz:
   title: "Check your knowledge"
   questions:
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "The email from your Outlook client got stuck in the Outbox folder and can't be sent"
       isCorrect: false
-      explanation: "That's incorrect. This error doesn't occur during directory synchronization from your on-premises Active Directory to Microsoft 365. Try again."
+      explanation: "Incorrect. This error doesn't occur during directory synchronization from your on-premises Active Directory to Microsoft 365."
     - content: "Phone calls from your Skype for Business client have poor audio quality"
       isCorrect: false
-      explanation: "That's incorrect. This error doesn't occur during directory synchronization from your on-premises Active Directory to Microsoft 365. Try again."
+      explanation: "Incorrect. This error doesn't occur during directory synchronization from your on-premises Active Directory to Microsoft 365."
     - content: "Unexpected changes in Active Directory that affect OU scoping or attribute filtering"
       isCorrect: true
-      explanation: "That's correct. A typical error that occurs during directory synchronization from your on-premises Active Directory to Microsoft 365 is when an unexpected change in Active Directory affects OU scoping or attribute filtering."
+      explanation: "Correct. A typical error that occurs during directory synchronization from your on-premises Active Directory to Microsoft 365 is when an unexpected change in Active Directory affects OU scoping or attribute filtering."

@@ -4,15 +4,16 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 07/12/2021
+  ms.date: 04/20/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
-  [!include[](includes/6-knowledge-check.md)]
+  [!include[](includes/7-knowledge-check.md)]
 quiz:
   title: "Check your knowledge"
   questions:
@@ -20,21 +21,21 @@ quiz:
     choices:
     - content: "Microsoft 365 admin center"
       isCorrect: false
-      explanation: "That's incorrect. When directory synchronization is implemented, you can't create, modify, or desync custom user objects from the Microsoft 365 admin center. Try again."
+      explanation: "Incorrect. When directory synchronization is implemented, you can't create, modify, or desync custom user objects from the Microsoft 365 admin center."
     - content: "Local Active Directory Users and Computers snap-in in your on-premises Active Directory"
       isCorrect: true
-      explanation: "That's correct. There are actually two correct answers here. The first is your local Active Directory Users and Computers snap-in in your on-premises Active Directory. The second, which was not listed among the possible answers, is by using your local Windows PowerShell in your on-premises Active Directory."
+      explanation: "Correct. There are actually two correct answers here. The first is your local Active Directory Users and Computers snap-in in your on-premises Active Directory. The second, which was not listed among the possible answers, is by using your local Windows PowerShell in your on-premises Active Directory."
     - content: "Exchange Online admin center"
       isCorrect: false
-      explanation: "That's incorrect. When directory synchronization is implemented, you can't create, modify, or desync custom user objects from the Exchange Online admin center. Try again."
+      explanation: "Incorrect. When directory synchronization is implemented, you can't create, modify, or desync custom user objects from the Exchange Online admin center."
   - content: "As the Enterprise Administrator for Northwind Traders, you accidentally deleted a user account in your on-premises Active Directory. Since the deletion is synchronized to Microsoft 365, the user object was put in a deleted state and no longer appears in the Microsoft 365 Active Users list. How long do you have to recover the deleted account before it can no longer be restored?"
     choices:
     - content: "45 days"
       isCorrect: false
-      explanation: "That's incorrect. The length of time you have to recover the deleted account before it can no longer be restored isn't 45 days. Try again."
+      explanation: "Incorrect. The length of time you have to recover the deleted account before it can no longer be restored isn't 45 days."
     - content: "60 days"
       isCorrect: false
-      explanation: "That's incorrect. The length of time you have to recover the deleted account before it can no longer be restored isn't 60 days. Try again."
+      explanation: "Incorrect. The length of time you have to recover the deleted account before it can no longer be restored isn't 60 days."
     - content: "30 days"
       isCorrect: true
-      explanation: "That's correct. After 30 days, the soft-deleted account will be permanently deleted."
+      explanation: "Correct. After 30 days, the soft-deleted account will be permanently deleted."
