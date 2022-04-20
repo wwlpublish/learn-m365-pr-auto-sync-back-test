@@ -24,18 +24,18 @@ quiz:
       explanation: "Incorrect. This process won't provide extra servers for disaster recovery purposes."
     - content: "Install an extra Azure AD Connect server(s) in staging mode"
       isCorrect: true
-      explanation: "That's correct. ICf a disaster occurs and the primary server fails, you can fail over to the staging server that was defined in the Azure AD Connect wizard."
+      explanation: "Correct. If a disaster occurs and the primary server fails, you can fail over to the staging server that was defined in the Azure AD Connect wizard."
     - content: "Install Active Directory Federation Services"
       isCorrect: false
       explanation: "Incorrect. This process won't provide extra servers for disaster recovery purposes."
-  - content: "Tailspin Toys currently has Exchange Server 2016 installed. It plans to implement a hybrid Exchange environment with Microsoft 365. Tailspin has more than 100,000 objects. It has multiple on-premises Active Directory forests. It plans to synchronize user, group, and contact objects. It also wants to implement password hash synchronization and seamless single-sign-in. Which directory synchronization tool should Tailspin Toys choose?"
+  - content: "Fabrikam currently has Exchange Server 2016 installed. It plans to implement a hybrid Exchange environment with Microsoft 365. Fabrikam has more than 100,000 objects. It has multiple on-premises Active Directory forests. It plans to synchronize user, group, and contact objects. It also wants to implement password hash synchronization and seamless single-sign-in. Which directory synchronization tool should Fabrikam choose?"
     choices:
     - content: "DirSync"
       isCorrect: false
       explanation: "Incorrect. DirSync was the predecessor to Azure AD Connect."
     - content: "Azure AD Connect Cloud Sync"
       isCorrect: false
-      explanation: "Incorrect. Azure AD Connect Cloud Sync supports all of Tailspin Toys' requirements, except for one. It doesn't support Exchange hybrid deployments."
+      explanation: "Incorrect. Azure AD Connect Cloud Sync supports all of Fabrikam's requirements, except for one. It doesn't support Exchange hybrid deployments."
     - content: "Azure AD Connect sync"
       isCorrect: true
-      explanation: "Correct. Organizations that plan to implement an Exchange hybrid deployment must use Azure AD Connect sync. Azure AD Connect Cloud Sync doesn't support Exchange hybrid deployments."
+      explanation: "Correct. Organizations like Fabrikam that plan to implement an Exchange hybrid deployment must use Azure AD Connect sync. Azure AD Connect Cloud Sync doesn't support Exchange hybrid deployments."
