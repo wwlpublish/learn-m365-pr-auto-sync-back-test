@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-directory-synchronization-tools.configure-prerequisites
+title: Configure Azure AD Connect prerequisites
+metadata:
+  title: Configure Azure AD Connect prerequisites
+  description: "Configure Azure AD Connect prerequisites"
+  ms.date: 04/20/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/2-configure-azure-ad-connect-prerequisites.md)]

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-directory-synchronization-tools.configure-azure-ad-connect-cloud-sync
+title: Configure Azure AD Connect Cloud Sync
+metadata:
+  title: Configure Azure AD Connect Cloud Sync
+  description: "Configure Azure AD Connect Cloud Sync"
+  ms.date: 04/20/2022
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/6-configure-azure-ad-connect-cloud-sync.md)]
