@@ -104,7 +104,7 @@ In this phase, administrators enable baseline security features to create a more
     [Disable periodic password resets for cloud-based user accounts](/azure/active-directory/authentication/concept-sspr-policy#set-a-password-to-never-expire?azure-portal=true).
   :::column-end:::
   :::column:::
-    Periodic password resets encourage your users to increment their existing passwords. Use the guidelines in Microsoft's password guidance doc and mirror your on-premises policy to cloud-only users.
+    Periodic password resets encourage your users to increment their existing passwords. Follow Microsoft's guidelines in its password guidance document and mirror your on-premises policy to cloud-only users.
   :::column-end:::
   :::column:::
     Azure AD Free

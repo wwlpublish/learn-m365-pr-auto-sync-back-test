@@ -17,9 +17,9 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Contoso has completed its directory synchronization of users and groups from its on-premises Active Diretory Directory Service to Microsoft 365. What is Contoso's source of authority for user and group objects that were synchronized?"
+  - content: "Contoso has completed its directory synchronization of users and groups from its on-premises Active Directory to Microsoft 365. What is Contoso's source of authority for user and group objects that were synchronized?"
     choices:
-    - content: "Contoso's on-premises Active Directory Directory Service"
+    - content: "Contoso's on-premises Active Directory"
       isCorrect: true
       explanation: "Correct. Source of authority transfers from Microsoft 365 to an organization's on-premises directory service after an object is synchronized."
     - content: "Microsoft 365"
