@@ -11,9 +11,9 @@ metadata:
 title: Implement directory synchronization tools
 summary: This module examines the Azure AD Connect installation requirements, the options for installing and configuring the tool, and how to monitor synchronization services using Azure AD Connect Health.
 abstract: |
-  By the end of this module, you will be able to:
-  - Configure Azure AD Connect Prerequisites
-  - Set up Azure AD Connect
+  By the end of this module, you'll be able to:
+  - Configure Azure AD Connect prerequisites
+  - Set up Azure AD Connect and Azure AD Connect Cloud Sync
   - Monitor synchronization services using Azure AD Connect Health
 prerequisites: |
   None

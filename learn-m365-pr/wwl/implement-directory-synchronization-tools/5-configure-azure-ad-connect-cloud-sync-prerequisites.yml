@@ -6,7 +6,9 @@ metadata:
   description: "Configure Azure AD Connect Cloud Sync prerequisites"
   ms.date: 04/20/2022
   author: wwlpublish
+  ms.author: tfrink
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 azureSandbox: false
 labModal: false
 durationInMinutes: 6
@@ -15,14 +17,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer is completing the prerequisites to runnning Azure AD Connect Cloud Sync. As part of that process, Holly has created a user account in the Azure AD portal. What's the next step that Holly must complete to ensure that Fabrikam doesn't get locked out of its tenant?"
+  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer is completing the prerequisites to running Azure AD Connect Cloud Sync. As part of that process, Holly has created a user account in the Azure AD portal. What's the next step that Holly must complete to ensure that Fabrikam doesn't get locked out of its tenant?"
     choices:
     - content: "Add one or more custom domain names to your Azure AD tenant"
       isCorrect: false
-      explanation: "Incorrect. While this step must be completed after creating the user account, there's one other step that must be completed to ensure that Fabrikam doesn't get locked out of its tenant."
+      explanation: "Incorrect. This step must be completed after creating the user account. However, there's one other step that must be completed to ensure that Fabrikam doesn't get locked out of its tenant."
     - content: "Assign the user account hybrid identity administrator permissions on Fabrikam's Azure AD tenant"
       isCorrect: true
       explanation: "Correct. The user account that you create must be assigned hybrid identity administrator permissions on your company's Azure AD tenant. This way, you can manage the configuration of your tenant if your on-premises services fail or become unavailable. Completing this step is critical to ensure that you don't get locked out of your tenant."
     - content: "Identify an on-premises server for the provisioning agent"
       isCorrect: false
-      explanation: "Incorrect. While this step must be completed after creating the user account, there's one other step involving the user account that must be completed to ensure that Fabrikam doesn't get locked out of its tenant."
+      explanation: "Incorrect. This step must be completed after creating the user account. However, there's one other step involving the user account that must be completed to ensure that Fabrikam doesn't get locked out of its tenant."

@@ -6,7 +6,9 @@ metadata:
   description: "Configure Azure AD Connect Cloud Sync"
   ms.date: 04/20/2022
   author: wwlpublish
+  ms.author: tfrink
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 azureSandbox: false
 labModal: false
 durationInMinutes: 9

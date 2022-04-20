@@ -21,8 +21,7 @@ You should complete the following steps to install the Azure AD Connect provisio
 3.  On the menu on the left, select **Azure AD Connect**.
 4.  On the **Provision from Active Directory** window, select **Manage Azure AD cloud sync**.
 
-:::image type="content" source="../media/install-azure-ad-connect-provisioning-agent-5faabdd1.png" alt-text="screenshot of the Provision from Active Directory window showing the Manage Azure AD cloud sync option selected.":::
-
+    :::image type="content" source="../media/install-azure-ad-connect-provisioning-agent-5faabdd1.png" alt-text="screenshot of the Provision from Active Directory window showing the Manage Azure AD cloud sync option selected.":::
 
 5.  On the **Azure AD Connect cloud sync** screen, select the **Download agent** option that appears in the menu bar at the top of the page.
 6.  On the **Azure AD Provisioning Agent** window that appears, select the **Accept terms &amp; download** button.
@@ -32,8 +31,7 @@ You should complete the following steps to install the Azure AD Connect provisio
 10. Sign in with your Azure AD global administrator account.
 11. On the **Configure Service Account** page, select either **Create gMSA**, or **Use custom gMSA**.
 
-:::image type="content" source="../media/configure-gmsa-service-account-6ef48539.png" alt-text="screenshot of the Configure Service Account window showing the Create gMSA option and the Use custom gMSA option.":::
-
+    :::image type="content" source="../media/configure-gmsa-service-account-6ef48539.png" alt-text="screenshot of the Configure Service Account window showing the Create gMSA option and the Use custom gMSA option.":::
 
 12. If you allow the agent to create the account, enter the domain administrator credentials to create the group managed service account that will be used to run the agent service and then select **Next**. The account that's created will be named **provAgentgMSA$**.
 13. If you specify **Use custom gMSA**, you'll be prompted to provide this account.
@@ -53,7 +51,7 @@ Agent verification occurs in the Azure portal and on the local server that's run
 4.  On the **Azure AD Connect cloud sync** screen, select the **Review all agents** option that appears on the menu bar.
 5.  On the **On-premises provisioning agents** screen, the agents that you installed are displayed. Verify the agent you installed appears and that its **Status** is **active**.
 
-:::image type="content" source="../media/verify-provisioning-agent-51e7f6f0.png" alt-text="screenshot of the On-premises provisioning agents window dowign the newly created agent and its Active status highlighted.":::
+    :::image type="content" source="../media/verify-provisioning-agent-51e7f6f0.png" alt-text="screenshot of the On-premises provisioning agents window dowign the newly created agent and its Active status highlighted.":::
 
 
 ### Verify the agent is running
@@ -64,7 +62,7 @@ On the local server in which the agent is installed, you should then complete th
 2.  Open **Services** by going to it or by selecting **Start &gt; Run &gt; Services.msc**.
 3.  Under **Services**, verify **Microsoft Azure AD Connect Agent Updater** and M**icrosoft Azure AD Connect Provisioning Agent** are present. and that their status is **Running**.
 
-:::image type="content" source="../media/screenshot-of-services-window-a09b6169.png" alt-text="screenshot of the Services window showing the Azure AD Connect Agent and Updater services highlighted.":::
+    :::image type="content" source="../media/screenshot-of-services-window-a09b6169.png" alt-text="screenshot of the Services window showing the Azure AD Connect Agent and Updater services highlighted.":::
 
 
 ### Configure Azure AD Connect Cloud Sync provisioning
@@ -84,7 +82,7 @@ Once the agent is installed, it must be configured and enabled before it will st
     4.  **Settings**. Enter a **Notification email** address. This email will be notified when provisioning isn't healthy. It's recommended that you keep the **Prevent accidental deletion** check box selected. You should also set the **Accidental deletion threshold** to a number that you wish to be notified about.
     5.  **Deploy**. Select **Enable** to sync the users and groups that are in scope as defined in the **Scope** section.
 
-:::image type="content" source="../media/edit-cloud-sync-configuration-screen-a73b1cc6.png" alt-text="screenshot of the Edit cloud sync configuration screen.":::
+    :::image type="content" source="../media/edit-cloud-sync-configuration-screen-a73b1cc6.png" alt-text="screenshot of the Edit cloud sync configuration screen.":::
 
 
 7.  Move the selector to **Enable** and then select **Save**.
