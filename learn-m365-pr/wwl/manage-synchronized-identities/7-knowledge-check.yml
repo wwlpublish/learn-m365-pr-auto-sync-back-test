@@ -24,7 +24,7 @@ quiz:
       explanation: "Incorrect. When directory synchronization is implemented, you can't create, modify, or desync custom user objects from the Microsoft 365 admin center."
     - content: "Local Active Directory Users and Computers snap-in in your on-premises Active Directory"
       isCorrect: true
-      explanation: "Correct. There are actually two correct answers here. The first is your local Active Directory Users and Computers snap-in in your on-premises Active Directory. The second, which was not listed among the possible answers, is by using your local Windows PowerShell in your on-premises Active Directory."
+      explanation: "Correct. There are actually two correct answers here. The first is your local Active Directory Users and Computers snap-in in your on-premises Active Directory. The second, which wasn't listed among the possible answers, is by using your local Windows PowerShell in your on-premises Active Directory."
     - content: "Exchange Online admin center"
       isCorrect: false
       explanation: "Incorrect. When directory synchronization is implemented, you can't create, modify, or desync custom user objects from the Exchange Online admin center."
