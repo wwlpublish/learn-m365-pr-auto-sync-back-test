@@ -2,14 +2,14 @@ Microsoft Power Platform is a family of products that delivers innovative busine
 
 The business applications and process automations enabled by Microsoft Power Platform can quickly become part of an organization’s application environment. For this reason, it's important that enterprise administrators understand Microsoft Power Platform's feature set and how this functionality enables users to connect to the services and data that is part of the managed enterprise environment.
 
-Microsoft Power Platform is composed of the following four key products:<br>
+Microsoft Power Platform is composed of the following four key products:
 
- -  **Power Apps.** Provides a rapid low-code development environment for building custom apps for business needs. It has services, connectors, and a scalable data service and app platform (known as the Common Data Service) that enable simple integration and interaction with existing data. Power Apps enables the creation of web and mobile applications that run on all devices.<br>
- -  **Power Automate.** Enables users to create automated workflows between applications and services. It helps automate repetitive business processes such as communication, data collections, and decision approvals.<br>
+ -  **Power Apps.** Provides a rapid low-code development environment for building custom apps for business needs. It has services, connectors, and a scalable data service and app platform (known as Microsoft Dataverse) that enable simple integration and interaction with existing data. Power Apps enables the creation of web and mobile applications that run on all devices.
+ -  **Power Automate.** Enables users to create automated workflows between applications and services. It helps automate repetitive business processes such as communication, data collections, and decision approvals.
  -  **Power BI(Business Intelligence).** Delivers insight for analyzing data through the business analytics service. It can share those insights through data visualizations in reports and dashboards, which can help users make fast, informed decisions. Consider Power BI as the analysis and insights leg of the Microsoft Power Platform. It enables users to display business data in ways that makes the most sense.
  -  **Power Virtual Agents.** Enables anyone to create powerful chatbots using a guided, no-code graphical interface, without the need for data scientists or developers.
 
-The platform upon which these four key products are built includes the following components:<br>
+The platform upon which these four key products are built includes the following components:
 
  -  **Connectors.** This component enables the connection of apps, data, and devices in the cloud. Connectors are the bridge across which information and commands travel. There are more than 275 connectors for the Microsoft Power Platform, enabling data and actions to connect cohesively.
  -  **Common Data Service.** This feature is a scalable data service and app platform that enables users to securely store and manage data from multiple sources and integrate that data in business applications using a common data model.
