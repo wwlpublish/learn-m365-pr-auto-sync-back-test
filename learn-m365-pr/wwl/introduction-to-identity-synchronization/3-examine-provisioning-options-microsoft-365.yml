@@ -4,12 +4,13 @@ title: Examine provisioning options in Microsoft 365
 metadata:
   title: Examine provisioning options in Microsoft 365
   description: "Examine provisioning options in Microsoft 365"
-  ms.date: 07/12/2021
+  ms.date: 04/20/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/3-examine-provisioning-options-microsoft-365.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "On-premises"
       isCorrect: false
-      explanation: "That's incorrect. This provisioning option isn't the one that companies prefer when they want more administrative versatility and another disaster recovery backup option. Try again."
+      explanation: "Incorrect. This provisioning option isn't the one that companies prefer when they want more administrative versatility and another disaster recovery backup option."
     - content: "Cloud"
       isCorrect: false
-      explanation: "That's incorrect. This provisioning option isn't the one that companies prefer when they want more administrative versatility and another disaster recovery backup option. Try again."
+      explanation: "Incorrect. This provisioning option isn't the one that companies prefer when they want more administrative versatility and another disaster recovery backup option."
     - content: "Hybrid"
       isCorrect: true
-      explanation: "That's correct. Companies prefer the hybrid option when they want more administrative versatility and another disaster recovery backup option."
+      explanation: "Correct. Companies prefer the hybrid option when they want more administrative versatility and another disaster recovery backup option."
