@@ -1,6 +1,6 @@
 The Microsoft Teams admin center provides a unified experience to manage both Teams and Skype for Business. It provides advanced functionality, end-to-end insights, and the ability to manage Teams settings on a user level.
 
-:::image type="content" source="../media/teams-admin-center-portal-0294cf01.png" alt-text="screenshot of the Microsoft Teams admin center":::
+:::image type="content" source="../media/teams-admin-center-portal-0294cf01.png" alt-text="Screenshot of the Microsoft Teams admin center.":::
 
 
 The following sections outline the key settings that can be managed in the Microsoft Teams admin center.

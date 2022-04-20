@@ -23,7 +23,7 @@ Microsoft provides several Microsoft Teams Phone plans for organizations to choo
 
 You might want the simplest solution—Microsoft Teams Phone with Calling Plan. This option is Microsoft's all-in-the-cloud solution that provides Private Branch Exchange (PBX) functionality and calls to the Public Switched Telephone Network (PSTN), as shown in the following diagram. With this solution, Microsoft is your PSTN carrier.
 
-:::image type="content" source="../media/voice-solutions-simple-1d3ed40c.png" alt-text="graphic showing how the Microsoft Teams Phone with Calling Plan works":::
+:::image type="content" source="../media/voice-solutions-simple-1d3ed40c.png" alt-text="Graphic showing how the Microsoft Teams Phone with Calling Plan works.":::
 
 
 If you answer yes to the following, then Microsoft Teams Phone with Calling Plan is the right solution for you:
@@ -46,9 +46,9 @@ However, your situation may be more complex. For example, you may have offices i
 
 Microsoft Teams Phone provides complete PBX capabilities for your organization. However, to enable users to make calls outside your organization, you need to connect Microsoft Teams Phone to the Public Switched Telephone Network (PSTN). To connect Microsoft Teams Phone to the PSTN, you can choose one of the following options:
 
- -  [Microsoft Teams Phone with Calling Plan](https://docs.microsoft.com/microsoftteams/pstn-connectivity#phone-system-with-calling-planhttps://aka.ms/SkypeToTeamsWizard?azure-portal=true). An all-in-the-cloud solution with Microsoft as your PSTN carrier.<br>
- -  [Microsoft Teams Phone with your own PSTN carrier by using Operator Connect](https://docs.microsoft.com/microsoftteams/operator-connect-planhttps://aka.ms/SkypeToTeamsWizard?azure-portal=true). If your existing operator participates in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams.<br>
- -  [Microsoft Teams Phone with your own PSTN carrier by using Direct Routing](https://docs.microsoft.com/microsoftteams/pstn-connectivity#phone-system-with-direct-routinghttps://aka.ms/SkypeToTeamsWizard?azure-portal=true). Connects your on-premises environment to Teams.<br>
+ -  [Microsoft Teams Phone with Calling Plan](/microsoftteams/pstn-connectivity#phone-system-with-calling-plan?azure-portal=true). An all-in-the-cloud solution with Microsoft as your PSTN carrier.<br>
+ -  [Microsoft Teams Phone with your own PSTN carrier by using Operator Connect](/microsoftteams/operator-connect-plan?azure-portal=true). If your existing operator participates in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams.<br>
+ -  [Microsoft Teams Phone with your own PSTN carrier by using Direct Routing](/microsoftteams/pstn-connectivity#phone-system-with-direct-routing?azure-portal=true). Connects your on-premises environment to Teams.<br>
 
 Organizations can choose a combination of connectivity options. By doing so, an organization can design a solution for a complex environment, or manage a multi-step migration. Most Microsoft Teams Phone features are the same regardless of the PSTN connectivity option you choose. There are some differences in functionality that may affect how you configure certain Microsoft Teams Phone features, such as call routing and emergency calling.
 
