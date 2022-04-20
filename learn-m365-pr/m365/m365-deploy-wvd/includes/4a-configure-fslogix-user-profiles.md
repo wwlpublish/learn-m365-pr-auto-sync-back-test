@@ -4,9 +4,8 @@ To provide the best experience for your Azure Virtual Desktop users, use FSLogix
 
 FSLogix is a set of solutions that decouples the local user profile from a single Windows desktop and enables it to roam between multiple Windows machines.
 
-A user profile contains data elements about an individual, including configuration information like desktop settings, persistent network connections, and application settings. A remote user profile provides a partition between user data and the operating system.
+A user profile contains data elements about an individual, including configuration information like desktop settings, persistent network connections, and application settings. A remote user profile provides a partition between user data and the operating system. With FSLogix solutions you can:
 
-- With FSLogix solutions you can:
 - Maintain user context in pooled desktop environments
 - Minimize sign in times for pooled desktop environments
 - Optimize file IO between session host and remote profile store

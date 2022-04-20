@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Exercise - Implement authentication in a custom tab
-durationInMinutes: 29
+durationInMinutes: 32
 content: >-
   [!include[](includes/7-exercise-implement-tab-authentication.md)]
 quiz:
