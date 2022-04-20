@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.prepare-identity-synchronization-microsoft-365.plan-your-azure-active-directory-deployment
+title: Plan your Azure Active Directory deployment
+metadata:
+  title: Plan your Azure Active Directory deployment
+  description: "Plan your Azure Active Directory deployment"
+  ms.date: 04/20/2022
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/2-plan-your-azure-active-directory-deployment.md)]
