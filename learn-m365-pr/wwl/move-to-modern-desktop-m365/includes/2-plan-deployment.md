@@ -28,6 +28,6 @@ Peer-to-peer options help shift traffic related to Windows 10 and Microsoft 365 
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Manage Windows upgrades with Upgrade Readiness](https://docs.microsoft.com/windows/deployment/upgrade/manage-windows-upgrades-with-upgrade-readiness)
-- [The Readiness Toolkit for Office add-ins and VBA](https://docs.microsoft.com/DeployOffice/use-the-readiness-toolkit-to-assess-application-compatibility-for-office-365-pro)
+- [Manage Windows upgrades with Upgrade Readiness](/windows/deployment/upgrade/manage-windows-upgrades-with-upgrade-readiness)
+- [The Readiness Toolkit for Office add-ins and VBA](/DeployOffice/use-the-readiness-toolkit-to-assess-application-compatibility-for-office-365-pro)
 - [App Assure](/fasttrack/products-and-capabilities#app-assure)
