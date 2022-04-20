@@ -1,8 +1,10 @@
-SharePoint Online provides three main building blocks to help an organization create its intranet. These building blocks enable an organization to configure experiences that align with the organization, its employees, and its readiness. Different organizations will use the building blocks in different ways. However, the building blocks themselves reflect common patterns that organizations use to get work done. These SharePoint Online building blocks include:
+SharePoint Online provides three main building blocks to help an organization create its intranet. These building blocks enable an organization to configure experiences that align with the organization, its employees, and its readiness. Different organizations will use the building blocks in different ways. However, the building blocks themselves reflect common patterns that organizations use to get work done.
 
- -  **Team sites (collaboration)**. A SharePoint team site provides a location where you and your team can work on projects and share information from anywhere on any device. A team site includes a group of related web pages, a default document library for files, lists for data management, and web parts that you can customize to meet your needs. A Microsoft 365 group is automatically created when a user creates a team site in SharePoint Online.
- -  **Communication sites (communication)**. SharePoint communication sites are designed to inform and engage. The primary goal of a team site is to collaborate to create content with a small group. If your intention is to broadcast information out to a broad audience, a communication site is the better choice than a team site. With a communication site, typically only a small set of members contributes content that is consumed by a much larger audience.
- -  **Hub sites (connection)**. SharePoint hub sites provide an important building block for organizations that are designing their own intranets. Hub sites are the "connective tissue" a company can use when organizing families of team sites and communication sites together.
+These SharePoint Online building blocks include:
+
+ -  **Team sites (collaborate)**. A SharePoint team site provides a location where you and your team can work on projects and share information from anywhere on any device. A team site includes a group of related web pages, a default document library for files, lists for data management, and web parts that you can customize to meet your needs. A Microsoft 365 group is automatically created when a user creates a team site in SharePoint Online.
+ -  **Communication sites (communicate)**. SharePoint communication sites are designed to inform and engage. The primary goal of a team site is to collaborate to create content with a small group. If your intention is to broadcast information out to a broad audience, a communication site is the better choice than a team site. With a communication site, typically only a small set of members contributes content that is consumed by a much larger audience.
+ -  **Hub sites (connect)**. SharePoint hub sites provide an important building block for organizations that are designing their own intranets. Hub sites are the "connective tissue" a company can use when organizing families of team sites and communication sites together.
 
 The following table identifies the features of each building block. It also offers recommendations on when each type of site should be used.
 
@@ -11,13 +13,16 @@ The following table identifies the features of each building block. It also offe
     
   :::column-end:::
   :::column:::
-    **Team site**(Collaborate)
+    **Team site
+(collaborate)**
   :::column-end:::
   :::column:::
-    **Communication site**(Communicate)
+    **Communication site
+(communicate)**
   :::column-end:::
   :::column:::
-    **Hub site**(Connect)
+    **Hub site
+(connect)**
   :::column-end:::
 :::row-end:::
 :::row:::
