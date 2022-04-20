@@ -2179,6 +2179,46 @@
       "source_path": "learn-m365-pr/wwl/identify-licensing-options-available-microsoft-365/9-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/identify-licensing-options-available-microsoft-365/6-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-exchange-online/2-create-manage-recipients.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-exchange-online/4-create-manage-recipients",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-exchange-online/3-manage-anti-malware-anti-spam-policies.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-exchange-online/5-manage-anti-malware-anti-spam-policies",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-exchange-online/4-plan-migration-strategies.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-exchange-online/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-exchange-online/5-select-right-migration-option-for-your-organization.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-exchange-online/7-select-right-migration-option-for-your-organization",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-exchange-online/6-change-dns-mx-records-during-microsoft-365-migration.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-exchange-online/8-change-dns-mx-records-during-microsoft-365-migration",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-exchange-online/7-migrate-mailboxes-to-microsoft-365-hybrid-deployment.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-exchange-online/9-migrate-mailboxes-to-microsoft-365-hybrid-deployment",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-exchange-online/8-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-exchange-online/10-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-exchange-online/9-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-exchange-online/11-summary",
+      "redirect_document_id": true
     }
   ]
 }
