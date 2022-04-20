@@ -4,7 +4,7 @@ title: Troubleshoot with protocol logs
 metadata:
   title: Troubleshoot with protocol logs
   description: "Troubleshoot with protocol logs"
-  ms.date: 03/09/2022
+  ms.date: 04/19/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Protocol logs"
       isCorrect: false
-      explanation: "That's incorrect. Protocol logs are used to analyze and troubleshoot issues that are related to a specific connector. Try again."
+      explanation: "That's incorrect. Protocol logs are used to analyze and troubleshoot issues that are related to a specific connector."
     - content: "Message tracking logs"
       isCorrect: true
       explanation: "That's correct. Message tracking logs are used to analyze all message activity as mail flows through the transport pipeline on an Exchange server. If you suspect that a user can't send email to different users where email is sent over multiple connectors, then message tracking logs should be analyzed to troubleshoot the issue."
     - content: "Event logs"
       isCorrect: false
-      explanation: "That's incorrect. Event logs are used to troubleshoot transport issues related to specific events. Try again."
+      explanation: "That's incorrect. Event logs are used to troubleshoot transport issues related to specific events."

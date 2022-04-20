@@ -3,24 +3,20 @@ uid: learn.wwl.identify-licensing-options-available-microsoft-365
 metadata:
   title: Identify licensing options available in Microsoft 365
   description: "Identify licensing options available in Microsoft 365"
-  ms.date: 08/18/2021
+  ms.date: 04/19/2022
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Identify licensing options available in Microsoft 365
-summary: Learn fundamental knowledge of the licensing options available in Microsoft 365.
+summary: Learn about the pricing model for Microsoft cloud services and how Microsoft 365 is available through a variety of licensing and billing options to meet the needs of people and organizations.
 abstract: |
-  Upon completion of this module, the learner will be able to:
-  - Identify licensing options available in Microsoft 365
-  - Describe the available licensing and management options for Microsoft 365
-  - Describe additional capabilities available when a customer purchases Azure Active Directory P1, Azure Active Directory P2, and Azure AD Basic
-  - Plan, predict, and compare pricing
-  - Describe the Cloud Solution Provider (CSP) pricing model for Windows and Microsoft cloud services
-  - Explain available billing and bill management options including billing frequency and methods of payment
-  - Optimize costs based on licensing options
+  By the end of this module, you'll be able to:
+  *   Describe the Cloud Solution Provider (CSP) pricing model for Microsoft cloud services
+  *   Describe the available billing frequency and methods of payment
+  *   Describe the available base licensing and add-on licensing options for Microsoft 365
 prerequisites: |
-  None
+  - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a -Service (Saas).
 iconUrl: /learn/achievements/identify-licensing-options-available-in-microsoft-365.svg
 levels:
 - beginner
@@ -32,11 +28,8 @@ products:
 - office-365
 units:
 - learn.wwl.identify-licensing-options-available-microsoft-365.introduction
-- learn.wwl.identify-licensing-options-available-microsoft-365.compare-home,-business,-enterprise-options
-- learn.wwl.identify-licensing-options-available-microsoft-365.describe-additional-capabilities-available-with-azure
 - learn.wwl.identify-licensing-options-available-microsoft-365.describe-cloud-solution-provider-model
 - learn.wwl.identify-licensing-options-available-microsoft-365.explore-bill-management-options
-- learn.wwl.identify-licensing-options-available-microsoft-365.explain-ways-that-helps-optimize-costs
 - learn.wwl.identify-licensing-options-available-microsoft-365.license-manage-users
 - learn.wwl.identify-licensing-options-available-microsoft-365.knowledge-check
 - learn.wwl.identify-licensing-options-available-microsoft-365.summary-resources
