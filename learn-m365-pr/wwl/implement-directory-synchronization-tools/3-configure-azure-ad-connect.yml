@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-directory-synchronization-tools.configure
+title: Configure Azure AD Connect
+metadata:
+  title: Configure Azure AD Connect
+  description: "Configure Azure AD Connect"
+  ms.date: 04/21/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/3-configure-azure-ad-connect.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "During installation of Azure AD Connect, you can choose the Customized Settings option. When do companies typically use this option?"
+    choices:
+    - content: "When their users sign in with AD FS"
+      isCorrect: true
+      explanation: "Correct. Customized Settings is typically used when you want to customize your sign-in option, such as using AD FS for federation."
+    - content: "When they have a single Active Directory forest"
+      isCorrect: false
+      explanation: "Incorrect. Express Settings is typically used when you have a single AD forest."
+    - content: "When they want to use the default setup option for Azure AD Connect"
+      isCorrect: false
+      explanation: "Incorrect. The default setup option for Azure AD Connect is Express Settings."
