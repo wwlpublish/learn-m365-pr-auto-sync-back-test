@@ -16,3 +16,4 @@ After completing this module, you'll be able to:
  -  Recover deleted and misplaced content.
  -  Identify the external sharing features in SharePoint Online.
  -  Understand the requirements for creating a SharePoint hybrid environment.
+
