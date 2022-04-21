@@ -1,17 +1,16 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.explore-microsoft-teams.summary
+uid: learn.wwl.troubleshoot-mail-flow.summary
 title: Summary
 metadata:
   title: Summary
   description: "Summary"
-  ms.date: 09/10/2021
+  ms.date: 04/21/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 2
 content: |
-  [!include[](includes/10-summary.md)]
+  [!include[](includes/7-summary.md)]
