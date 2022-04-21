@@ -41,6 +41,7 @@ By default, several system-generated Alert policies are created for you that hel
   :::column-end:::
 :::row-end:::
 
+
 ### Permissions required for the management of Alert policies
 
 Before you can access and manage Alert policies, you must have the following permissions assigned:
@@ -55,12 +56,14 @@ To create and Alert policy, you should complete the following steps:
 1.  In the EAC, on the left pane select **Mail flow &gt; Alert policies** and select **New alert policy.**
 2.  Provide a name for your policy in the **Name** box, and a description for your policy in the **Description** box, then select **Next.**
 3.  From the **Severity** drop-down list, select the appropriate severity level:
+    
      -  **None**
      -  **High**
      -  **Medium**
      -  **low**
 4.  From the **Trigger an alert when the following insight is generated** drop-down list, select one from the following insights:<br>
-     -  **Mail loop.** Use this insight to determine when an email loop occurs. Typically, an email loop starts when office 365 thinks a recipient doesn't exist in the service. If the MX record for the recipient's domain points to Office 365, or if the destination messaging server thinks the recipient is in Office 365, the message is delivered back to Office 365, and the process repeats itself.
+    
+     -  **Mail loop.** Use this insight to determine when an email loop occurs.Typically, an email loop starts when office 365 thinks a recipient doesn't exist in the service. If the MX record for the recipient's domain points to Office 365, or if the destination messaging server thinks the recipient is in Office 365, the message is delivered back to Office 365, and the process repeats itself.
      -  **Slow transport rule.** A transport rule shouldn't take more than a few milliseconds to evaluate a message. Use this insight to determine if a transport rule contains inefficient conditions or actions, which could slow down mail flow.
      -  **New users forwarding.** use this insight to determine when newly created user starts forwarding emails from your organization to external domains.<br>
      -  **New domains being forwarded.** Use this insight to determine when a new remote domain starts receiving forwarded emails from your organization.
