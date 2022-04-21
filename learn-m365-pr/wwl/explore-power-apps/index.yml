@@ -3,7 +3,7 @@ uid: learn.wwl.explore-power-apps
 metadata:
   title: Create apps as a Microsoft 365 Enterprise Administrator with Power Apps
   description: "Create apps as a Microsoft 365 Enterprise Administrator with Power Apps"
-  ms.date: 09/10/2021
+  ms.date: 04/18/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -27,7 +27,6 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:

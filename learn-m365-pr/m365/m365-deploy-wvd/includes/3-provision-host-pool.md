@@ -23,7 +23,7 @@ To complete the exercise, you'll need the Azure credentials for:
    |Subscription     |  Subscription where you want Azure Virtual Desktop to run       |
    |Resource group     | Resource group you've created for Azure Virtual Desktop resources    |
    |Host pool name     |  wvd-host-pool-1      |
-   |Location    | Region where you want the metadata for your host pool stored        |
+   |Location    | Region where you want the metadata for your host pool stored. If you want to create your host pool in a [supported region](/azure/virtual-desktop/data-locations) outside the US, you'll need to [re-register the resource provider](/azure/virtual-desktop/troubleshoot-set-up-issues#i-only-see-us-when-setting-the-location-for-my-service-objects).       |
    |Validation environment|No|
    |Host pool type     |  Pooled  |
    |Load balancing algorithm    | Breadth-first |
@@ -36,7 +36,7 @@ To complete the exercise, you'll need the Azure credentials for:
 1. Select **Yes** to add virtual machines.
 1. Use the information in the following table to fill out the virtual machine tab.
 
-   :::image type="content" source="../media/3-create-host-pool-vm.png" alt-text="Screenshot of the Azure Virtual Desktop create host pool virtual machine tab.":::
+   :::image type="content" source="../media/3-create-host-pool-vm-overview.png" alt-text="Screenshot of the Azure Virtual Desktop create host pool virtual machine tab.":::
 
     Field  |Value |
    |---------|---------|
@@ -53,15 +53,35 @@ To complete the exercise, you'll need the Azure credentials for:
    |OS disk type     | Standard SSD  |
    |Use managed disks     | Yes |
    |Boot diagnostics     |  Enable with managed storage account |
+
+   :::image type="content" source="../media/3-create-host-pool-vm-network.png" alt-text="Screenshot of the Azure Virtual Desktop create host pool virtual machine network and security.":::
+
+    Field  |Value |
+   |---------|---------|
    |Virtual network     |  Virtual network that can connect to the domain controller     |
    |Network security group    | Basic       |
    |Public inbound ports     | No   |
+
+   :::image type="content" source="../media/3-create-host-pool-vm-domain.png" alt-text="Screenshot of the Azure Virtual Desktop create host pool virtual machine domain to join.":::
+
+    Field  |Value |
+   |---------|---------|
    |Select which directory you would like to join     |Active Directory    |
    |AD domain join UPN     | User name for the user account that's assigned to the Active Directory Domain administrator role      |
    |Specify domain or unit    | No   |
+
+   :::image type="content" source="../media/3-create-host-pool-vm-administrator.png" alt-text="Screenshot of the Azure Virtual Desktop create host pool virtual machine administrator.":::
+
+    Field  |Value |
+   |---------|---------|
    |Username    | Select a username for your VM administrator       |
    |Password    | Select a password for your VM administrator       |
    |Confirm    | Confirm the password      |
+
+   :::image type="content" source="../media/3-create-host-pool-vm-custom.png" alt-text="Screenshot of the Azure Virtual Desktop create host pool virtual machine custom configuration.":::
+
+    Field  |Value |
+   |---------|---------|
    |ARM template file URL    | Leave blank       |
    |ARM template parameter file URL    | Leave blank       |
 1. Select **Next: Workspace**.

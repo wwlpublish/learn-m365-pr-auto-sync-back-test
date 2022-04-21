@@ -3,7 +3,7 @@ uid: learn-m365.prepare-for-wvd
 metadata:
   title: Prepare for Azure Virtual Desktop
   description: Learn how to prepare for Azure Virtual Desktop - a cloud-based virtualization solution running on Microsoft Azure. Azure Virtual Desktop is an elastically scalable service to deliver remote desktop and remote app experiences - without having to manage the underlying server infrastructure. Review the prerequisites and tools provided by Microsoft get ready to provision your first Azure Virtual Desktop host pool.
-  ms.date: 07/20/2021
+  ms.date: 04/14/2022
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial
@@ -13,7 +13,10 @@ summary: Learn how to prepare for Azure Virtual Desktop - a cloud-based virtuali
 abstract: |
   At the end of this module, you should be able to:
   - Describe the steps involved and resources you need to prepare for Azure Virtual Desktop deployment.
-prerequisites: None
+prerequisites: |
+  - An Azure account with an [active subscription](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)
+  - Familiarity with server and client management concepts and tools
+  - Familiarity with Windows virtualization technologies, like Remote Desktop Services
 iconUrl: /learn/achievements/prepare-for-windows-virtual-desktop.svg
 ratingEnabled: true
 levels:
