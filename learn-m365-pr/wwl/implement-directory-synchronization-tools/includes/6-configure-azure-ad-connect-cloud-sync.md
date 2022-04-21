@@ -53,7 +53,6 @@ Agent verification occurs in the Azure portal and on the local server that's run
 
     :::image type="content" source="../media/verify-provisioning-agent-51e7f6f0.png" alt-text="screenshot of the On-premises provisioning agents window dowign the newly created agent and its Active status highlighted.":::
 
-
 ### Verify the agent is running
 
 On the local server in which the agent is installed, you should then complete the following steps to verify the agent is running:
@@ -63,7 +62,6 @@ On the local server in which the agent is installed, you should then complete th
 3.  Under **Services**, verify **Microsoft Azure AD Connect Agent Updater** and M**icrosoft Azure AD Connect Provisioning Agent** are present. and that their status is **Running**.
 
     :::image type="content" source="../media/screenshot-of-services-window-a09b6169.png" alt-text="screenshot of the Services window showing the Azure AD Connect Agent and Updater services highlighted.":::
-
 
 ### Configure Azure AD Connect Cloud Sync provisioning
 
@@ -83,6 +81,5 @@ Once the agent is installed, it must be configured and enabled before it will st
     5.  **Deploy**. Select **Enable** to sync the users and groups that are in scope as defined in the **Scope** section.
 
     :::image type="content" source="../media/edit-cloud-sync-configuration-screen-a73b1cc6.png" alt-text="screenshot of the Edit cloud sync configuration screen.":::
-
 
 7.  Move the selector to **Enable** and then select **Save**.
