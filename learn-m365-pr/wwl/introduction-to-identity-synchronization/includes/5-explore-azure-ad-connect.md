@@ -43,8 +43,8 @@ Azure AD Connect comes with several features that can either be turned on or are
  -  **Azure AD app and object filtering.** This feature is used when an organization wants to limit which objects are synchronized to Azure AD. By default, all users, contacts, groups, and Windows 10 computers are synchronized. The filtering can be changed based on domains, OUs, or attributes.
  -  **Password hash synchronization.** Synchronizes the Active Directory password hashes to Azure AD. The end user can use the same password on-premises and in the cloud but only manage it in one location by default. Since password hash synchronization uses an organization's on-premises Active Directory as the authority, the organization can also use its own password policy.
 
-> [!NOTE]
-> Self-service password reset can be enabled through the Azure console.
+    > [!NOTE]
+    > Self-service password reset can be enabled through the Azure console.
 
  -  **Password passthrough authentication.** This configuration validates users’ passwords directly against an organization's on-premises Active Directory using an encrypted public key. This validation occurs between Azure and the on-premises Active Directory environment without sending password hashes to Microsoft 365. For more information, see [Azure Active Directory Passthrough Authentication](/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-how-it-works?azure-portal=true).
  -  **Password writeback.** Users can change and reset their passwords in the cloud and have their organization's on-premises password policy applied.
