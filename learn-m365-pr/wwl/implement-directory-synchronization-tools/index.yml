@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn.wwl.implement-directory-synchronization-tools
+metadata:
+  title: Implement directory synchronization tools
+  description: "Implement directory synchronization tools"
+  ms.date: 04/21/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implement directory synchronization tools
+summary: This module examines the Azure AD Connect installation requirements, the options for installing and configuring the tool, and how to monitor synchronization services using Azure AD Connect Health.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Configure Azure AD Connect prerequisites
+  - Set up Azure AD Connect and Azure AD Connect Cloud Sync
+  - Monitor synchronization services using Azure AD Connect Health
+prerequisites: |
+  None
+iconUrl: /learn/achievements/azure-ad-implement.svg
+levels:
+- intermediate
+roles:
+- administrator
+- solution-architect
+- technology-manager
+products:
+- m365
+- office-365
+units:
+- learn.wwl.implement-directory-synchronization-tools.introduction
+- learn.wwl.implement-directory-synchronization-tools.configure-prerequisites
+- learn.wwl.implement-directory-synchronization-tools.configure
+- learn.wwl.implement-directory-synchronization-tools.monitor-synchronization-services-using-health
+- learn.wwl.implement-directory-synchronization-tools.configure-azure-ad-connect-cloud-sync-prerequisites
+- learn.wwl.implement-directory-synchronization-tools.configure-azure-ad-connect-cloud-sync
+- learn.wwl.implement-directory-synchronization-tools.knowledge-check
+- learn.wwl.implement-directory-synchronization-tools.summary
+badge:
+  uid: learn.wwl.implement-directory-synchronization-tools.badge
