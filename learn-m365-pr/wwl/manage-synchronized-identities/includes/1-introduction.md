@@ -13,5 +13,5 @@ The module concludes with a discussion on troubleshooting directory synchronizat
 After completing this module, you'll be able to:
 
  -  Ensure your users and groups synchronize efficiently.
- -  Use Azure AD Connect Sync Security Groups to help maintain directory synchronization.<br>
+ -  Use Azure AD Connect Sync Security Groups to help maintain directory synchronization.
  -  Troubleshoot directory synchronization using various troubleshooting tasks and tools.

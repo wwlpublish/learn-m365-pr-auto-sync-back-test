@@ -30,7 +30,7 @@ The filtering configuration is retained when you install or upgrade to a newer v
 
 If an organization has more than one forest, then it must apply the filtering configuration to every forest (assuming that it wants the same configuration for all of them).
 
-### Deleting objects through object filtering<br>
+### Deleting objects through object filtering
 
 Because filtering can remove many objects at the same time, you want to ensure that your new filters are correct before you start exporting any changes to Azure AD. After you've completed the configuration steps, it's recommended that you follow these [verification steps](/azure/active-directory/hybrid/how-to-connect-sync-configure-filtering#apply-and-verify-changes?azure-portal=true) before exporting your changes to Azure AD.
 

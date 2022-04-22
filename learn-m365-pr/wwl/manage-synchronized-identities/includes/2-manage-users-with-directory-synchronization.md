@@ -66,7 +66,7 @@ The following graphic shows how moving an out-of-sync AD user triggers directory
 :::image type="content" source="../media/soft-delete-aad-user-1bdcb359.jpg" alt-text="graphic depicts the fact that moving an out-of-sync AD user triggers Azure AD Connect to soft-delete the Azure AD user":::
 
 
-Azure AD Connect and Azure AD Connect Cloud Service offer enhanced user management features, including password writeback and device writeback.<br>
+Azure AD Connect and Azure AD Connect Cloud Service offer enhanced user management features, including password writeback and device writeback.
 
 ### Password writeback
 
@@ -84,11 +84,11 @@ To enable the password writeback feature when using Azure AD Connect, the passwo
 
 To enable SSPR writeback, you must first enable the writeback option in Azure AD Connect. From your Azure AD Connect server, complete the following steps:
 
-1.  Sign in to your Azure AD Connect server and start the **Azure AD Connect** configuration wizard.<br>
-2.  On the **Welcome** page, select **Configure**.<br>
-3.  On the **Additional tasks** page, select **Customize synchronization options**, and then select **Next**.<br>
-4.  On the **Connect to Azure AD** page, enter a global administrator credential for your Azure tenant, and then select **Next**.<br>
-5.  On the **Connect directories** and **Domain/OU filtering** pages, select **Next**.<br>
+1.  Sign in to your Azure AD Connect server and start the **Azure AD Connect** configuration wizard.
+2.  On the **Welcome** page, select **Configure**.
+3.  On the **Additional tasks** page, select **Customize synchronization options**, and then select **Next**.
+4.  On the **Connect to Azure AD** page, enter a global administrator credential for your Azure tenant, and then select **Next**.
+5.  On the **Connect directories** and **Domain/OU filtering** pages, select **Next**.
 6.  On the **Optional features** page, select the check box next to **Password writeback** and then select **Next**.
 7.  On the **Directory extensions** page, select **Next**.
 8.  On the **Ready to configure** page, select **Configure** and wait for the process to finish.
@@ -115,10 +115,10 @@ Once you've enabled password writeback in either Azure AD Connect or Azure AD Co
 
 To verify and enable password writeback in SSPR, complete the following steps:
 
-1.  Sign into the Azure portal using a global administrator account.<br>
-2.  Navigate to **Azure Active Directory**, select **Password reset**, then choose **On-premises integration**.<br>
-3.  If you selected Azure AD Connect Cloud Sync, then verify the Cloud Sync agent setup is complete.<br>
-4.  Set **Write back passwords to your on-premises directory?** to **Yes**.<br>
+1.  Sign into the Azure portal using a global administrator account.
+2.  Navigate to **Azure Active Directory**, select **Password reset**, then choose **On-premises integration**.
+3.  If you selected Azure AD Connect Cloud Sync, then verify the Cloud Sync agent setup is complete.
+4.  Set **Write back passwords to your on-premises directory?** to **Yes**.
 5.  Set **Allow users to unlock accounts without resetting their password?** to **Yes**.
 6.  When ready, select **Save**.
 
