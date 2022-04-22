@@ -14,7 +14,7 @@ Content Search isn't limited in the number of mailboxes it can search, nor is th
 A Content Search that also deletes items is known as a “search and purge.” This type of search, which is limited to 50,000 mailboxes, is accomplished by using the **New-ComplianceSearchAction -Purge** command. The purge action will fail if a Content Search that includes a purge action is run on more than 50,000 mailboxes.
 
 > [!CAUTION]
-> A single user can start up to 10 searches simultaneously. This limit is often reached when the user tries to start multiple searches by using the **Get-ComplianceSearch** \| **Start-ComplianceSearch** command in the Security &amp; Compliance Portal PowerShell. Keep this limitation in mind when planning content searches.
+> A single user can start up to 10 searches simultaneously. This limit is often reached when the user tries to start multiple searches by using the **Get-ComplianceSearch** \| **Start-ComplianceSearch** command in the Compliance Portal PowerShell. Keep this limitation in mind when planning content searches.
 
 ### Plan cloud-based mailbox searches for on-premises users
 

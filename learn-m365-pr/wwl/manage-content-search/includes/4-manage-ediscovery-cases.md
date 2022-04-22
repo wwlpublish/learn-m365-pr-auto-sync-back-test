@@ -4,7 +4,7 @@ To follow regulatory and legal requirements, the features that exist in In-place
  -  **eDiscovery case.** This feature is available in the Microsoft Purview compliance portal and serves the same purpose as eDiscovery hold, but with a different web interface. It also provides the ability to search across all Microsoft 365 services in a single, unified search operation.
 
 > [!NOTE]
-> When creating an eDiscovery case in the Microsoft Purview compliance portal, the searches you create are content searches that are only visible from inside the case you created. You can't see those content searches on the Content search page in the compliance portal.
+> When creating an eDiscovery case in the Microsoft Purview compliance portal, the searches you create are content searches that are only visible from inside the case you created. You can't see those content searches on the Content search page in the Microsoft Purview compliance portal.
 
 ### Differences for eDiscovery in Exchange deployments
 
