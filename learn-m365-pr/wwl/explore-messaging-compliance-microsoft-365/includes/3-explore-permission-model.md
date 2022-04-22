@@ -27,7 +27,7 @@ The Microsoft 365 Defender portal includes default role groups for the most comm
 The following types of roles and role groups are available in Permissions &amp; roles in the Microsoft 365 Defender portal:
 
  -  **Azure AD roles**. You can view the roles and assigned users, but you can't manage them directly in the Microsoft 365 Defender portal. Azure AD roles are central roles that assign permissions for all Microsoft 365 services.
- -  **Email &amp; collaboration roles**. The permissions that you assign to these role groups are specific to the Microsoft 365 Defender portal and the Microsoft 365 compliance center. They don't cover all of the permissions that are needed in other Microsoft 365 workloads.
+ -  **Email &amp; collaboration roles**. The permissions that you assign to these role groups are specific to the Microsoft 365 Defender portal and the Microsoft Purview compliance portal. They don't cover all of the permissions that are needed in other Microsoft 365 workloads.
 
 The following table identifies some of the key default role groups that are available in the Microsoft 365 Defender portal. When you select one of these role groups in the portal, a detail pane is displayed that indicates the individual roles assigned to the role group. When you want to grant permissions to a user that enables them to complete a compliance task, you should add the user to the appropriate Microsoft 365 Defender role group.
 
@@ -67,7 +67,7 @@ The following table identifies some of the key default role groups that are avai
  -  Create and manage eDiscovery cases.
  -  Add and remove members to a case.
  -  Create and edit Content Searches associated with a case.
- -  Access case data in Microsoft 365 Advanced eDiscovery.
+ -  Access case data in Microsoft Purview eDiscovery (Premium).
     
 
 An eDiscovery Administrator is a member of the eDiscovery Manager role group who has been assigned more permissions. Besides the tasks that an eDiscovery Manager can do, an eDiscovery Administrator can:
@@ -100,7 +100,7 @@ The primary difference between an eDiscovery Manager and an eDiscovery Administr
     Reviewer
   :::column-end:::
   :::column:::
-    The primary purpose of this role group is to allow members to view and access case data by using a limited set of analysis features in Advanced eDiscovery.Members of this role group can see only the documents that are assigned to them. They can't create, open, or manage an eDiscovery case.This role group has the most restrictive eDiscovery-related permissions.
+    The primary purpose of this role group is to allow members to view and access case data by using a limited set of analysis features in Microsoft Purview eDiscovery (Premium).Members of this role group can see only the documents that are assigned to them. They can't create, open, or manage an eDiscovery case.This role group has the most restrictive eDiscovery-related permissions.
   :::column-end:::
 :::row-end:::
 :::row:::
