@@ -1,4 +1,4 @@
-When troubleshooting directory synchronization issues, Enterprise Administrators analyze logs for errors and remediate synchronization errors with the tool itself. Typical issues that can lead to synchronization problems include:
+Enterprise Administrators must troubleshoot any directory synchronization issues that occur. In doing so, they analyze logs for errors and remediate synchronization errors with whichever synchronization tool they're using (Azure AD Connect or Azure AD Connect Cloud Sync). Typical issues that can lead to synchronization problems include:
 
  -  Authentication errors, such as using incorrect on-premises or Microsoft 365 credentials.
  -  Inadvertently deactivating directory synchronization in the Microsoft 365 admin center or through Windows PowerShell.
@@ -8,23 +8,23 @@ When troubleshooting directory synchronization issues, Enterprise Administrators
 
 Microsoft 365 Enterprise Administrators should become familiar with the following tasks and tools to successfully troubleshoot directory synchronization issues:
 
- -  Deactivate and Reactivate Directory Synchronization
- -  View directory synchronization errors in the Microsoft 365 admin center
- -  Identity synchronization and duplicate attribute resiliency
- -  Unhealthy Identity Synchronization Notification
- -  Directory Synchronization Troubleshooter
- -  Synchronization Service Manager
- -  Troubleshoot password hash synchronization with Azure AD Connect
+ -  Deactivate and Reactivate Directory Synchronization.
+ -  View directory synchronization errors in the Microsoft 365 admin center.
+ -  Identity synchronization and duplicate attribute resiliency.
+ -  Unhealthy Identity Synchronization Notification.
+ -  Directory Synchronization Troubleshooter.
+ -  Synchronization Service Manager.
+ -  Troubleshoot password hash synchronization with Azure AD Connect.
 
 ### Deactivate and reactivate directory synchronization
 
-One key area that can lead to issues unless clearly understood is when directory synchronization is deactivated and then reactivated in the Microsoft 365 admin center. When directory synchronization is deactivated, the source of authority is transferred from the on-premises Active Directory to Microsoft 365. Deactivation is required when on-premises Active Directory is no longer being used to create and manage users, groups, contacts, and mailboxes, such as after a staged Exchange migration to the cloud, where the organization no longer wants to manage objects from on-premises. Problems can occur if directory synchronization is then reactivated, with the source of authority transferred back from Microsoft 365 to the on-premises Active Directory.
+One key area that can lead to issues unless clearly understood is when directory synchronization is deactivated and then reactivated in the Microsoft 365 admin center. When directory synchronization is deactivated, the source of authority is transferred from the on-premises Active Directory to Microsoft 365. Deactivation is required when on-premises Active Directory is no longer being used to create and manage users, groups, contacts, and mailboxes. For example, such as after a staged Exchange migration to the cloud, where the organization no longer wants to manage objects from on-premises. Problems can occur if directory synchronization is then reactivated, at which time the source of authority transfers back from Microsoft 365 to the on-premises Active Directory.
 
-For example, assume an organization decided to deploy AD FS and Single Sign-On. To meet this requirement, directory synchronization must be activated and new users created on-premises. These objects were synced to Microsoft 365, and the source of authority is the on-premises Active Directory. Then, later in the year, the organization deactivated directory synchronization, resulting in the transfer of the source of authority to Microsoft 365. From this point on, objects were edited in Microsoft 365. Keep in mind that when directory synchronization is reactivated, any changes made to the Microsoft 365 objects are overwritten.
+For example, assume an organization decided to deploy AD FS and Single Sign-On. To meet this requirement, directory synchronization must be activated and new users created on-premises. These objects were synced to Microsoft 365, and the source of authority is the on-premises Active Directory. Then, later in the year, the organization deactivated directory synchronization. This results in the transfer of the source of authority to Microsoft 365. From this point on, objects were edited in Microsoft 365. Keep in mind that when directory synchronization is reactivated, any changes made to the Microsoft 365 objects are overwritten.
 
 ### View directory synchronization errors in the Microsoft 365 admin center
 
-The Microsoft 365 Admin Center provides an overview of directory synchronization errors. For example, if an organization has 10,000 objects that must be synchronized to Azure AD, there may be errors for some objects, such as attributes that must be unique, like UserPrincipalName and proxy address.
+The Microsoft 365 Admin Center provides an overview of directory synchronization errors. For example, let's assume an organization has 10,000 objects that must be synchronized to Azure AD. There may be errors for some objects, such as attributes that must be unique, like UserPrincipalName and proxy address.
 
 To view any directory synchronization errors in the Microsoft 365 admin center, complete the following steps:
 
@@ -61,7 +61,7 @@ To see a general list of attribute provisioning errors in the tenant, run the fo
 Get-MsolDirSyncProvisioningError -ErrorCategory PropertyConflict
 ```
 
-**Additional reading.** For more information, see [Identity synchronization and duplicate attribute resiliency](/azure/active-directory/connect/active-directory-aadconnectsyncservice-duplicate-attribute-resiliency).
+**Additional reading.** For more information, see [Identity synchronization and duplicate attribute resiliency](/azure/active-directory/connect/active-directory-aadconnectsyncservice-duplicate-attribute-resiliency?azure-portal=true).
 
 ### Unhealthy identity synchronization notification
 
@@ -69,7 +69,7 @@ Azure AD Connect informs the Enterprise Administrator by default through email a
 
 ### Directory synchronization troubleshooter
 
-Azure AD Connect includes a [troubleshooting task](/azure/active-directory/hybrid/tshoot-connect-objectsync) that identifies possible issues. It also provides guidance on changes that can be made to fix any synchronization issues.
+Azure AD Connect includes a [troubleshooting task](/azure/active-directory/hybrid/tshoot-connect-objectsync?azure-portal=true) that identifies possible issues. It also provides guidance on changes that can be made to fix any synchronization issues.
 
 One of the following options can be chosen when running this task:
 
@@ -102,55 +102,31 @@ Windows PowerShell can also be used to start a manual directory synchronization 
 
 :::row:::
   :::column:::
-    
-
-**Cmdlet**
-
-
+    **Cmdlet**
   :::column-end:::
   :::column:::
-    
-
-**Description**
-
-
+    **Description**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Start-ADSyncSyncCycle -PolicyType Initial
-
-
+    Start-ADSyncSyncCycle -PolicyType Initial
   :::column-end:::
   :::column:::
-    
-
-Start a full synchronization
-
-
+    Start a full synchronization.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Start-ADSyncSyncCycle -PolicyType Delta
-
-
+    Start-ADSyncSyncCycle -PolicyType Delta
   :::column-end:::
   :::column:::
-    
-
-Start a delta synchronization
-
-
+    Start a delta synchronization.
   :::column-end:::
 :::row-end:::
 
 
-**Additional reading.** For more information, see [Troubleshooting Errors during synchronization](/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-sync-errors).
+**Additional reading.** For more information, see [Troubleshooting Errors during synchronization](/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-sync-errors?azure-portal=true).
 
 ### Troubleshoot password hash synchronization with Azure AD Connect
 
@@ -160,7 +136,7 @@ An organization can get an overview of its password hash synchronization configu
 
 If you're experiencing issues with one object, ensure the **User must change password at next logon** option isn't selected for the user in Active Directory Users and Computers. This option shouldn't be selected because temporary passwords aren't synchronized to Azure AD. The **In from AD – User AccountEnabled** rule in the Azure AD Connect Synchronization Service Manager can also be checked if there's an inbound rule with PasswordSync set to True. The same must be configured for the **Out to Azure AD – User Join sync** outbound rule.
 
-**Additional reading.** For more information, see [Troubleshooting password hash synchronization with Azure AD Connect sync](/azure/active-directory/connect/active-directory-aadconnectsync-troubleshoot-password-hash-synchronization).
+**Additional reading.** For more information, see [Troubleshooting password hash synchronization with Azure AD Connect sync](/azure/active-directory/connect/active-directory-aadconnectsync-troubleshoot-password-hash-synchronization?azure-portal=true).
 
 ## Knowledge check
 
