@@ -12,7 +12,7 @@ The top bar on the card shows the total number of devices that are in the follow
 
 The lower part of this card shows settings by rule across your devices. Each bar indicates the number of devices that are set to block or audit detection or have the rule completely turned off.
 
-![Attack surface reduction rules - report.](../media/asr-report.png)
+:::image type="content" source="../media/asr-report.png" alt-text="Attack surface reduction rules - report." border="false":::
 
 The chart at the top of this screenshot shows a timeline of detections that were  blocked or audited. The table at the bottom lists the most recent detections. Use the following information on the table to understand the nature of the detections:
 
