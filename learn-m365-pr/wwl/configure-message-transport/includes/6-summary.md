@@ -4,4 +4,4 @@ You learned that some transport options that are valid for entire Exchange organ
 
 This module examined how Exchange supports two types of SMTP domains: accepted domains and remote domains. An accepted domain is a domain from which the Exchange organization receives and processes messages. A remote domain doesn't manage which email messages are accepted or rejected in your organization. Instead, they define settings for message delivery to SMTP domains that are external to your Exchange Server organization.
 
-The module then examined connectors, which are a collection of instructions that customize the way your email flows to and from your Exchange Server or Exchange Online organization. Finally, you learned about message moderation. Moderation is a feature you can activate on user mailboxes and distribution groups to implement an approval workflow for messaging.
+The module then examined connectors, which are a collection of instructions that customize the way your email flows to and from your Exchange Server or Exchange Online organization.

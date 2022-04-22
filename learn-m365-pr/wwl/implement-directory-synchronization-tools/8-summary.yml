@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.configure-message-transport.summary
+uid: learn.wwl.implement-directory-synchronization-tools.summary
 title: Summary
 metadata:
   title: Summary
   description: "Summary"
-  ms.date: 03/09/2022
+  ms.date: 04/21/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -13,4 +13,4 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 2
 content: |
-  [!include[](includes/7-summary.md)]
+  [!include[](includes/8-summary.md)]
