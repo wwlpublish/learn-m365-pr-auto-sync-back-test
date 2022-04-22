@@ -21,4 +21,3 @@ After completing this module, you'll be able to:
  -  Evaluate the different administrator roles in Microsoft 365.
  -  Plan retention policies for Exchange Online mailboxes.
  -  Create message traces to understand the mail flow in your Exchange Online organization.
- 
