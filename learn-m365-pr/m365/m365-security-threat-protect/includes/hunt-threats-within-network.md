@@ -6,14 +6,15 @@ You can use threat-hunting queries to build custom detection rules. These rules 
 
 To perform a sample threat-hunting query, in the [Microsoft 365 Defender portal](https://security.microsoft.com), select **Hunting** and then select **Advanced Hunting**. In the query field, type the following example and select Run query:
 
-![Use threat hunting queries](../media/threat-hunting-query.png)
+:::image type="content" source="../media/threat-hunting-query.png" alt-text="Use threat hunting queries." lightbox="../media/threat-hunting-query.png" border="false":::
 
 In the code above, the following filters have been applied:
-*    The first `where` returns records from the previous seven days only
-*    The second `where` filters on `FileName` to search for process file names representing the PowerShell application
-*    The third `where` filters on strings in command lines that are typically used to download files using PowerShell
-*    `project` returns the specified columns only
-*    `top` limits the number of results to 100
+
+- The first `where` returns records from the previous seven days only
+- The second `where` filters on `FileName` to search for process file names representing the PowerShell application
+- The third `where` filters on strings in command lines that are typically used to download files using PowerShell
+- `project` returns the specified columns only
+- `top` limits the number of results to 100
 
 Advanced hunting is based on the Kusto query language. The following operators are allowed:
 
@@ -27,7 +28,6 @@ Advanced hunting is based on the Kusto query language. The following operators a
 - `extend`. Create calculated columns and append them to the result set.
 - `makeset()`. Return a dynamic (JSON) array of the set of distinct values that Expr takes in the group.
 - `find`. Find rows that match a predicate across a set of tables.
-
 
 ### Best practices
 
