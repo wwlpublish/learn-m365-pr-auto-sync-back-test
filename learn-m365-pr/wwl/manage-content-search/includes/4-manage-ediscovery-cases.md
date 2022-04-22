@@ -44,10 +44,10 @@ After the search is complete, authorized users can then select one of the follow
 
 For authorized users to run In-Place eDiscovery searches, you must add them to one of the following role groups:
 
- -  In Exchange (core eDiscovery):
+ -  In Exchange:
     
      -  **Discovery Management.** This role group consists of two management roles: The Mailbox Search Role, which allows a user to run an In-Place eDiscovery search, and the Legal Hold Role, which allows a user to place a mailbox on In-Place hold and Litigation hold.
- -  In the Microsoft Purview compliance portal (eDiscovery cases):
+ -  In the Microsoft Purview compliance portal:
     
      -  **eDiscovery Manager**. Members of this role group can create and manage eDiscovery cases. For each case, they can:
         

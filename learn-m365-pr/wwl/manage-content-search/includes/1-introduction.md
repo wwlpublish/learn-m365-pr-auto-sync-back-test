@@ -1,6 +1,6 @@
 If your organization adheres to legal discovery requirements (related to organizational policy, compliance, or lawsuits), eDiscovery for Microsoft Exchange can help you conduct discovery searches for relevant content within mailboxes.
 
-In-place eDiscovery is the basic Microsoft 365 technology that's used to conduct compliance searches across your organization. When using Exchange Online, eDiscovery is implemented in a much more powerful way. It can be used to not only search Exchange recipient objects, but to also complete unified searches across all Microsoft 365 services.
+In-place eDiscovery is the basic Microsoft 365 technology that's used to conduct compliance searches across your organization. In Exchange Online, eDiscovery is implemented in a much more powerful way. It can be used to not only search Exchange recipient objects, but to also complete unified searches across all Microsoft 365 services.
 
 eDiscovery is still based on the in-place eDiscovery feature. This module examines the different types of searches that can be run in the Microsoft Purview compliance portal, including:
 
