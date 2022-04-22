@@ -48,7 +48,7 @@ When you turn external sharing off for your organization, guests typically lose 
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4yWpO?azure-portal=true) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/guides/Manage%20organization-level%20sharing%20for%20OneDrive%20in%20Microsoft%20365?azure-portal=true">![Manage organization-level sharing for OneDrive in Microsoft 365](../media/manage-organization-level-sharing.png)</a>  
+[:::image type="content" source="../media/manage-organization-level-sharing.png" alt-text="Manage organization-level sharing for OneDrive in Microsoft 3 65." border="false":::](https://mslearn.cloudguides.com/guides/Manage%20organization-level%20sharing%20for%20OneDrive%20in%20Microsoft%20365?azure-portal=true)
 
 Be sure to click the full-screen option in the video player.
 
