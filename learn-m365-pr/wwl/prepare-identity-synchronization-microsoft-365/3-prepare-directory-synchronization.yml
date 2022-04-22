@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.prepare-identity-synchronization-microsoft-365.prepare-directory-synchronization
+title: Prepare for directory synchronization
+metadata:
+  title: Prepare for directory synchronization
+  description: "Prepare for directory synchronization"
+  ms.date: 04/22/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/3-prepare-directory-synchronization.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso has completed its directory synchronization of users and groups from its on-premises Active Directory to Microsoft 365. What is Contoso's source of authority for user and group objects that were synchronized?"
+    choices:
+    - content: "Contoso's on-premises Active Directory"
+      isCorrect: true
+      explanation: "Correct. Source of authority transfers from Microsoft 365 to an organization's on-premises directory service after an object is synchronized."
+    - content: "Microsoft 365"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft 365 isn't the source of authority following directory synchronization."
+    - content: "Azure Active Directory"
+      isCorrect: false
+      explanation: "Incorrect. Azure Active Directory isn't the source of authority following directory synchronization."

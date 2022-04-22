@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.prepare-identity-synchronization-microsoft-365
+metadata:
+  title: Prepare for identity synchronization to Microsoft 365
+  description: "Prepare for identity synchronization to Microsoft 365"
+  ms.date: 04/22/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Prepare for identity synchronization to Microsoft 365
+summary: This module examines all the planning aspects that must be considered when implementing directory synchronization between on-premises Active Directory and Microsoft 365.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Identify the tasks necessary to configure your Azure Active Directory environment.
+  - Plan directory synchronization to synchronize your on-premises Active Directory objects to Azure AD.
+  - Identify the features of Azure AD Connect sync and Azure AD Connect Cloud Sync.
+  - Choose which directory synchronization best fits your environment and business needs.
+prerequisites: |
+  None
+iconUrl: /learn/achievements/azure-ad-connect-implementation.svg
+levels:
+- intermediate
+roles:
+- administrator
+- solution-architect
+- technology-manager
+products:
+- m365
+- office-365
+units:
+- learn.wwl.prepare-identity-synchronization-microsoft-365.introduction
+- learn.wwl.prepare-identity-synchronization-microsoft-365.plan-your-azure-active-directory-deployment
+- learn.wwl.prepare-identity-synchronization-microsoft-365.prepare-directory-synchronization
+- learn.wwl.prepare-identity-synchronization-microsoft-365.choose-directory-synchronization-tool
+- learn.wwl.prepare-identity-synchronization-microsoft-365.plan-azure-ad-connect
+- learn.wwl.prepare-identity-synchronization-microsoft-365.plan-azure-ad-connect-cloud-sync
+- learn.wwl.prepare-identity-synchronization-microsoft-365.knowledge-check
+- learn.wwl.prepare-identity-synchronization-microsoft-365.summary
+badge:
+  uid: learn.wwl.prepare-identity-synchronization-microsoft-365.badge
