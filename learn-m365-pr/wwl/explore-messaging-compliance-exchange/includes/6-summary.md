@@ -5,3 +5,4 @@ Compliance settings in the Microsoft Purview compliance portal only apply to mes
 The module began by examining the differences between in-place and litigation hold. Organizations apply holds to preserve electronically stored information, including email that's relevant to litigation cases. You then explored how Messaging Records Management (MRM) helps organizations manage the email lifecycle and reduce legal risks associated with email and other communications.
 
 The module concluded with an analysis of message tracking. You learned how to use message tracking for message forensics, mail flow analysis, reporting, and troubleshooting.
+
