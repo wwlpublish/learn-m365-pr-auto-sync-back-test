@@ -9,7 +9,7 @@ The following messaging policy and compliance features in Exchange Online can be
  -  **Data loss prevention (DLP).** Includes sensitive information types that are ready to use for prevention of accidental or intentional data loss in messages.
  -  **eDiscovery.** Allows you to search mailbox data across your Exchange organization and create eDiscovery cases to organize compliance relevant search operations.
 
-These features follow a unified approach that isn't limited to Exchange messaging only. While traditional messaging administrators and pure on-premises-only administrators configure most of the features in the Exchange Admin Center, you should use the Microsoft 365 Defender portal and the Microsoft Purview Compliance portal when using Microsoft 365 services. Doing so enables you to implement unified protection solutions, even if you aren't managing Exchange Online only, but also when you're responsible for Exchange hybrid solutions.
+These features follow a unified approach that isn't limited to Exchange messaging only. While traditional messaging administrators and pure on-premises-only administrators configure most of the features in the Exchange Admin Center, you should use the Microsoft 365 Defender portal and the Microsoft Purview compliance portal when using Microsoft 365 services. Doing so enables you to implement unified protection solutions, even if you aren't managing Exchange Online only, but also when you're responsible for Exchange hybrid solutions.
 
 > [!TIP]
 > There are even more features for security and compliance for Microsoft 365 services that aren't part of this messaging administrator course. Microsoft 365 is continuously being improved, existing features are being updated, and new features are being added. It's recommended that you regularly monitor the Message center in the Microsoft 365 admin center to stay updated on all the changes and new features that are being planned for release.
@@ -65,7 +65,7 @@ In Exchange Online, only certain service accounts under which the Exchange proce
     Office 365 Message Encryption
   :::column-end:::
   :::column:::
-    Office 365 Message Encryption allows email users to send encrypted email messages to anyone in- and outside your organization. Office 365 Message Encryption uses protection features from Azure Information Protection (Azure RMS). Office 365 Message Encryption works with Outlook.com, Yahoo!, Gmail, and other email services. Email message encryption helps ensure that only intended recipients can view message content. Office 365 Message Encryption uses Azure RMS to encrypt and control access to emails and attachments sent out to internal and external recipients, such as Do Not Forward protection and content encryption.
+    Office 365 Message Encryption allows email users to send encrypted email messages to anyone in- and outside your organization. Office 365 Message Encryption uses protection features from Azure Information Protection (Azure RMS).Office 365 Message Encryption works with Outlook.com, Yahoo!, Gmail, and other email services. Email message encryption helps ensure that only intended recipients can view message content. Office 365 Message Encryption uses Azure RMS to encrypt and control access to emails and attachments sent out to internal and external recipients, such as Do Not Forward protection and content encryption.
   :::column-end:::
 :::row-end:::
 :::row:::
