@@ -2234,6 +2234,31 @@
       "source_path": "learn-m365-pr/wwl/explore-microsoft-teams/10-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/explore-microsoft-teams/11-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/troubleshoot-mail-flow/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/troubleshoot-mail-flow/6-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/troubleshoot-mail-flow/6-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/troubleshoot-mail-flow/7-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-message-transport/5-examine-message-moderation.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-message-transport/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-message-transport/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-message-transport/5-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-message-transport/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-message-transport/6-summary",
+      "redirect_document_id": true
     }
   ]
 }
