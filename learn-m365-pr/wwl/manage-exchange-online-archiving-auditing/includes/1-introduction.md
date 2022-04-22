@@ -22,3 +22,4 @@ After completing this module, you'll be able to:
  -  Describe what in-place archiving is and how it works.
  -  Understand the differences between journaling and archiving.
  -  Identify how mailbox and administrator audit logs are used.
+ 
