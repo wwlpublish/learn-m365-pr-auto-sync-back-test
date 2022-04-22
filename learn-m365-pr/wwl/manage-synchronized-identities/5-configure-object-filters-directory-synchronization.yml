@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-synchronized-identities.configure-object-filters-directory-synchronization
+title: Configure object filters for directory synchronization
+metadata:
+  title: Configure object filters for directory synchronization
+  description: "Configure object filters for directory synchronization"
+  ms.date: 04/22/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-configure-object-filters-directory-synchronization.md)]

@@ -4,12 +4,13 @@ title: Manage users with directory synchronization
 metadata:
   title: Manage users with directory synchronization
   description: "Manage users with directory synchronization"
-  ms.date: 07/12/2021
+  ms.date: 04/22/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 9
 content: |
   [!include[](includes/2-manage-users-with-directory-synchronization.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Recover-MsolUser"
       isCorrect: false
-      explanation: "That's incorrect. This cmdlet won't recover the deleted user. Try again."
+      explanation: "Incorrect. This cmdlet won't recover the deleted user."
     - content: "Recycle-MsolUser"
       isCorrect: false
-      explanation: "That's incorrect. This cmdlet won't recover the deleted user. Try again."
+      explanation: "Incorrect. This cmdlet won't recover the deleted user."
     - content: "Restore-MsolUser"
       isCorrect: true
-      explanation: "That's correct. Restore-MsolUser will restore the deleted user to an active state."
+      explanation: "Correct. Restore-MsolUser will restore the deleted user to an active state."
