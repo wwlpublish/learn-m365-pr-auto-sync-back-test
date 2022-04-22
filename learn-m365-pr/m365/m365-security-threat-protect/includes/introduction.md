@@ -1,6 +1,7 @@
 Microsoft Defender for Endpoint is a platform designed to help enterprise networks prevent, detect, investigate, and respond to advanced threats on their endpoints.
 
-:::image type="content" source="../media/defender-configuration.png" alt-text="Microsoft Defender for Endpoint configuration." border="false":::
+> [!div class="centered"]
+> :::image type="content" source="../media/defender-configuration.png" alt-text="Microsoft Defender for Endpoint configuration." border="false":::
 
 The following capabilities are enabled with Microsoft Defender for Endpoint:
 

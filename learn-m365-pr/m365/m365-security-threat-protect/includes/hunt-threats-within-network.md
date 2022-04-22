@@ -6,7 +6,7 @@ You can use threat-hunting queries to build custom detection rules. These rules 
 
 To perform a sample threat-hunting query, in the [Microsoft 365 Defender portal](https://security.microsoft.com), select **Hunting** and then select **Advanced Hunting**. In the query field, type the following example and select Run query:
 
-:::image type="content" source="../media/threat-hunting-query.png" alt-text="Use threat hunting queries." border="false":::
+:::image type="content" source="../media/threat-hunting-query.png" alt-text="Use threat hunting queries." lightbox="../media/threat-hunting-query.png" border="false":::
 
 In the code above, the following filters have been applied:
 

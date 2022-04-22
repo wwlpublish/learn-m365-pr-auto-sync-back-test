@@ -16,7 +16,7 @@ It provides the following solutions to gaps across security operations, security
 
 For example, using the security recommendations present in the portal, an administrator could request an application update, which would then notify the Intune team to remediate the request.
 
-:::image type="content" source="../media/security-recommendations.png" alt-text="Security recommendations." border="false":::
+:::image type="content" source="../media/security-recommendations.png" alt-text="Security recommendations." lightbox="../media/security-recommendations.png" border="false":::
 
 ## Attack surface reduction
 
@@ -32,7 +32,7 @@ The attack surface reduction set of capabilities provides the first line of defe
 
 The  below screenshot shows a chart of detections against an attack surface reduction rule that is protecting office applications:
 
-:::image type="content" source="../media/attack-surface-reduction-rules.png" alt-text="Attack surface reduction rules." border="false":::
+:::image type="content" source="../media/attack-surface-reduction-rules.png" alt-text="Attack surface reduction rules." lightbox="../media/attack-surface-reduction-rules.png" border="false":::
 
 ## Next generation protection
 
@@ -60,17 +60,17 @@ Inspired by the "assume breach" mindset, Microsoft Defender for Endpoint continu
 
 The Security operations dashboard (below) is where the endpoint detection and response capabilities are surfaced. It provides a high-level overview of where detections were seen and highlights where response actions are needed.
 
-:::image type="content" source="../media/security-operations-dashboard.png" alt-text="Security operations dashboard." border="false":::
+:::image type="content" source="../media/security-operations-dashboard.png" alt-text="Security operations dashboard." lightbox="../media/security-operations-dashboard.png" border="false":::
 
 ## Automated investigation and remediation
 
 Microsoft Defender for Endpoint offers a wide breadth of visibility on multiple machines. With this kind of optics, the service generates a multitude of alerts. The volume of alerts generated can be challenging for a typical security operations team to individually address. To address this challenge, Microsoft Defender for Endpoint uses automated investigation and remediation capabilities to significantly reduce the volume of alerts that must be investigated individually.
 
-:::image type="content" source="../media/automated-investigations.png" alt-text="Automated investigations." border="false":::
+:::image type="content" source="../media/automated-investigations.png" alt-text="Automated investigations." lightbox="../media/automated-investigations.png" border="false":::
 
 The automated investigation feature uses various inspection algorithms, and processes used by analysts (such as playbooks) to examine alerts and take immediate remediation action to resolve breaches. This significantly reduces alert volume, allowing security operations experts to focus on more sophisticated threats and other high value initiatives. In the following investigation screenshot, we can see that malware was detected, and automatically remediated:
 
-:::image type="content" source="../media/malware-detected-remediated.png" alt-text="Malware detected and remediated." border="false":::
+:::image type="content" source="../media/malware-detected-remediated.png" alt-text="Malware detected and remediated." lightbox="../media/malware-detected-remediated.png" border="false":::
 
 ### Explore how to reduce organizational risk with Threat and Vulnerability Management
 
