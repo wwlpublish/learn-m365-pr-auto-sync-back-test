@@ -16,4 +16,3 @@ By the end of this module, you'll be able to:
  -  Plan directory synchronization to synchronize your on-premises Active Directory objects to Azure AD.
  -  Identify the features of Azure AD Connect sync and Azure AD Connect Cloud Sync.
  -  Choose which directory synchronization best fits your environment and business needs.
-
