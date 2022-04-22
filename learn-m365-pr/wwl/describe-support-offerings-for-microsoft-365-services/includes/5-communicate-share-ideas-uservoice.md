@@ -11,4 +11,4 @@ The following list describes the ways you can communicate directly with Microsof
  -  **Microsoft Store**
  -  **UserVoice forums**
 
-Take advantage of these sites to share your thoughts and help improve Microsoft products and services for your organization and other users around the world.<br>
+Take advantage of these sites to share your thoughts and help improve Microsoft products and services for your organization and other users around the world.

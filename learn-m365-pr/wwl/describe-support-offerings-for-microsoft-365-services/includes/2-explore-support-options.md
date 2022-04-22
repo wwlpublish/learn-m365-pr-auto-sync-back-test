@@ -1,4 +1,4 @@
-Administrators and users in your organization might find it difficult to resolve issues on their own. It’s helpful to know they can receive assistance for Microsoft 365 services whenever they need it through various **support options.**<br>
+Administrators and users in your organization might find it difficult to resolve issues on their own. It’s helpful to know they can receive assistance for Microsoft 365 services whenever they need it through various **support options.**
 
 The support option chosen to deal with a particular issue depends on:
 
