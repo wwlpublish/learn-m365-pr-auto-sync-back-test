@@ -65,9 +65,7 @@ The following information is available when viewing message trace results for me
     Event
   :::column-end:::
   :::column:::
-    
-
-This field provides a summarized description of what happened with the message. For example, if the message was received by the service, if it was delivered or failed to be delivered to the intended recipient, and so on. The following are examples of events that may be listed:
+    This field provides a summarized description of what happened with the message. For example, if the message was received by the service, if it was delivered or failed to be delivered to the intended recipient, and so on. The following are examples of events that may be listed:
 
  -  **RECEIVE.** The message was received by the service.
  -  **SEND.** The message was sent by the service.
@@ -130,11 +128,7 @@ Message trace results for messages that are older than seven days are provided i
     Recipient\_status
   :::column-end:::
   :::column:::
-    
-
-The status of the delivery of the message to the recipient. If the message was sent to multiple recipients, it will show all the recipients and the corresponding status against each, in the format: &lt;email address&gt;\#\#&lt;status&gt;.
-
-
+    The status of the delivery of the message to the recipient. If the message was sent to multiple recipients, it will show all the recipients and the corresponding status against each, in the format: &lt;email address&gt;\#\#&lt;status&gt;.
 Message delivery statuses include:
 
  -  **\#\#Receive, Send.** Indicates the message was received by the service and sent to the intended destination.
@@ -212,7 +206,7 @@ Message delivery statuses include:
 
 If you included routing details when running the message trace, all information from the message tracking logs is included in the .CSV file, which you can open in an application such as Microsoft Excel.
 
-**Additional reading**. For more information, see [Message tracking](/exchange/mail-flow/transport-logs/message-tracking?azure-portal=true) and [Message Trace FAQ in Exchange Online](/exchange/monitoring/trace-an-email-message/message-trace-faq?azure-portal=true).
+**Further reading**. For more information, see [Message tracking](/exchange/mail-flow/transport-logs/message-tracking?azure-portal=true) and [Message Trace FAQ in Exchange Online](/exchange/monitoring/trace-an-email-message/message-trace-faq?azure-portal=true).
 
 ## Knowledge check
 

@@ -2,14 +2,14 @@ Email has become a reliable and ubiquitous communication medium for information 
 
 Organizations must also create policies to manage email lifecycle, keep messages for the length of time based on business, legal, and regulatory requirements, preserve email records for litigation and investigation purposes, and be prepared to search and provide the required email records to fulfill eDiscovery requests.
 
-The following messaging policy and compliance features in Exchange Online can be configured in the Microsoft 365 Compliance center:
+The following messaging policy and compliance features in Exchange Online can be configured in the Microsoft Purview compliance portal:
 
  -  **In-Place Archiving.** Helps you regain control of your organization's messaging data by eliminating the need for personal store (.pst) files and allowing users to store messages in an archive mailbox accessible in Outlook and Outlook on the web.
  -  **Retention Policies.** Enables you to keep or delete mailbox content based on policies to follow regulatory and legal rules.
  -  **Data loss prevention (DLP).** Includes sensitive information types that are ready to use for prevention of accidental or intentional data loss in messages.
  -  **eDiscovery.** Allows you to search mailbox data across your Exchange organization and create eDiscovery cases to organize compliance relevant search operations.
 
-These features follow a unified approach that isn't limited to Exchange messaging only. While traditional messaging administrators and pure on-premises-only administrators configure most of the features in the Exchange Admin Center, you should use the Microsoft 365 Defender portal and the Compliance center portal when using Microsoft 365 services. Doing so enables you to implement unified protection solutions, even if you aren't managing Exchange Online only, but also when you're responsible for Exchange hybrid solutions.
+These features follow a unified approach that isn't limited to Exchange messaging only. While traditional messaging administrators and pure on-premises-only administrators configure most of the features in the Exchange Admin Center, you should use the Microsoft 365 Defender portal and the Microsoft Purview Compliance center portal when using Microsoft 365 services. Doing so enables you to implement unified protection solutions, even if you aren't managing Exchange Online only, but also when you're responsible for Exchange hybrid solutions.
 
 > [!TIP]
 > There are even more features for security and compliance for Microsoft 365 services that aren't part of this messaging administrator course. Microsoft 365 is continuously being improved, existing features are being updated, and new features are being added. It's recommended that you regularly monitor the Message center in the Microsoft 365 admin center to stay updated on all the changes and new features that are being planned for release.
@@ -56,14 +56,8 @@ Microsoft 365 Service Encryption includes an option to use customer-managed encr
     Distributed Key Manager (DKM)
   :::column-end:::
   :::column:::
-    
-
-Besides BitLocker, Microsoft also uses a technology called Distributed Key Manager. DKM is a client-side functionality that uses a set of secret keys to encrypt and decrypt information. Only members of a specific security group in Active Directory Domain Services can access those keys to decrypt the data that is encrypted by DKM.
-
-
+    Besides BitLocker, Microsoft also uses a technology called Distributed Key Manager. DKM is a client-side functionality that uses a set of secret keys to encrypt and decrypt information. Only members of a specific security group in Active Directory Domain Services can access those keys to decrypt the data that is encrypted by DKM.
 In Exchange Online, only certain service accounts under which the Exchange processes run are part of that security group. As part of standard operating procedure in the datacenter, no person is given credentials that are part of this security group. As such, no person has access to the keys that can decrypt these secrets.
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -71,13 +65,7 @@ In Exchange Online, only certain service accounts under which the Exchange proce
     Office 365 Message Encryption
   :::column-end:::
   :::column:::
-    
-
-Office 365 Message Encryption allows email users to send encrypted email messages to anyone in- and outside your organization. Office 365 Message Encryption uses protection features from Azure Information Protection (Azure RMS).
-
-Office 365 Message Encryption works with Outlook.com, Yahoo!, Gmail, and other email services. Email message encryption helps ensure that only intended recipients can view message content. Office 365 Message Encryption uses Azure RMS to encrypt and control access to emails and attachments sent out to internal and external recipients, such as Do Not Forward protection and content encryption.
-
-
+    Office 365 Message Encryption allows email users to send encrypted email messages to anyone in- and outside your organization. Office 365 Message Encryption uses protection features from Azure Information Protection (Azure RMS).Office 365 Message Encryption works with Outlook.com, Yahoo!, Gmail, and other email services. Email message encryption helps ensure that only intended recipients can view message content. Office 365 Message Encryption uses Azure RMS to encrypt and control access to emails and attachments sent out to internal and external recipients, such as Do Not Forward protection and content encryption.
   :::column-end:::
 :::row-end:::
 :::row:::

@@ -16,7 +16,7 @@ With a retention policy, you can:
  -  Apply a policy to all content or content that meets certain conditions, such as content containing specific keywords or specific types of sensitive information.
 
 > [!CAUTION]
-> The term Retention Policy is used when dealing with Message Records Management (MRM) in Exchange and in the Microsoft 365 Defender portal. However, these two sources of MRM aren't identical. Retention Policies and Retentions Tags are available in Exchange only, while Retention Policies in Microsoft 365 Defender are usable across multiple services, such as Exchange Online, SharePoint Online, Teams, and so on.
+> The term Retention Policy is used when dealing with Message Records Management (MRM) in Exchange and in the Microsoft Purview compliance portal. However, these two sources of MRM aren't identical. Retention Policies and Retentions Tags are available in Exchange only, while Retention Policies in Microsoft Purview are usable across multiple services, such as Exchange Online, SharePoint Online, Teams, and so on.
 
 ### How a retention policy works with content in place
 
@@ -54,9 +54,9 @@ As the diagram shows, the principles of retention work as a tie-breaking flow fr
 
 ### Retention policies in Exchange
 
-Retention policies created in the Microsoft 365 Defender portal can be used to manage the retention of Exchange Online mailboxes, public folders, Microsoft 365 Groups, Teams, and other services of Microsoft 365. But these policies are only able to keep the content of mailboxes that are in scope of Exchange Online. The policies can't manage the retention of content from any on-premises mailboxes. To protect Exchange Server on-premises or mailboxes still hosted on-premises in Exchange hybrid, you must combine Retention policies from Microsoft 365 Defender and Retention policies from MRM.
+Retention policies created in the Microsoft Purview compliance portal can be used to manage the retention of Exchange Online mailboxes, public folders, Microsoft 365 Groups, Teams, and other services of Microsoft 365. But these policies are only able to keep the content of mailboxes that are in scope of Exchange Online. The policies can't manage the retention of content from any on-premises mailboxes. To protect Exchange Server on-premises or mailboxes still hosted on-premises in Exchange hybrid, you must combine Retention policies from Microsoft Purview and Retention policies from MRM.
 
-If your organization is hosting its entire Exchange messaging system in Exchange Online, you should consider configuring your retention and deletion policies in the Microsoft 365 Defender portal and select all required locations. Doing so will replace the following features with retention policies that are centralized in Microsoft 365 Defender:<br>
+If your organization is hosting its entire Exchange messaging system in Exchange Online, you should consider configuring your retention and deletion policies in the Microsoft Purview compliance portal and select all required locations. Doing so will replace the following features with retention policies that are centralized in Microsoft Purview:<br>
 
  -  eDiscovery searches from the EAC (eDiscovery hold).
  -  In-Place Hold and Litigation Hold (eDiscovery hold).

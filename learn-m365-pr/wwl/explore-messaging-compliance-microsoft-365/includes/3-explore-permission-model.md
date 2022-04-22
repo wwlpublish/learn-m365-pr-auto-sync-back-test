@@ -27,7 +27,7 @@ The Microsoft 365 Defender portal includes default role groups for the most comm
 The following types of roles and role groups are available in Permissions &amp; roles in the Microsoft 365 Defender portal:
 
  -  **Azure AD roles**. You can view the roles and assigned users, but you can't manage them directly in the Microsoft 365 Defender portal. Azure AD roles are central roles that assign permissions for all Microsoft 365 services.
- -  **Email & collaboration roles**. The permissions that you assign to these role groups are specific to the Microsoft 365 Defender portal and the Microsoft 365 compliance center. They don't cover all of the permissions that are needed in other Microsoft 365 workloads.
+ -  **Email &amp; collaboration roles**. The permissions that you assign to these role groups are specific to the Microsoft 365 Defender portal and the Microsoft 365 compliance center. They don't cover all of the permissions that are needed in other Microsoft 365 workloads.
 
 The following table identifies some of the key default role groups that are available in the Microsoft 365 Defender portal. When you select one of these role groups in the portal, a detail pane is displayed that indicates the individual roles assigned to the role group. When you want to grant permissions to a user that enables them to complete a compliance task, you should add the user to the appropriate Microsoft 365 Defender role group.
 
@@ -60,9 +60,7 @@ The following table identifies some of the key default role groups that are avai
     eDiscovery Manager
   :::column-end:::
   :::column:::
-    
-
-Members can:
+    Members can:
 
  -  Conduct searches.
  -  Place holds on mailboxes, SharePoint Online sites, and OneDrive for Business locations.
@@ -78,8 +76,6 @@ An eDiscovery Administrator is a member of the eDiscovery Manager role group who
  -  Manage any eDiscovery case after they add themselves as a member of the case.
 
 The primary difference between an eDiscovery Manager and an eDiscovery Administrator is that an eDiscovery Administrator can access all cases that are listed on the eDiscovery cases page in the Microsoft 365 Defender portal. An eDiscovery manager can only access the cases they created or the cases in which they're a member.
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -87,14 +83,8 @@ The primary difference between an eDiscovery Manager and an eDiscovery Administr
     Organization Management
   :::column-end:::
   :::column:::
-    
-
-Members can manage Exchange objects and their properties in the Exchange organization. Members can also delegate role groups and management roles in the organization. This role group shouldn't be deleted.
-
-> [!NOTE]
+    Members can manage Exchange objects and their properties in the Exchange organization. Members can also delegate role groups and management roles in the organization. This role group shouldn't be deleted.> [!NOTE]
 > Microsoft 365 global admins are automatically added as members of this role group.
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -110,15 +100,7 @@ Members can manage Exchange objects and their properties in the Exchange organiz
     Reviewer
   :::column-end:::
   :::column:::
-    
-
-The primary purpose of this role group is to allow members to view and access case data by using a limited set of analysis features in Advanced eDiscovery.
-
-Members of this role group can see only the documents that are assigned to them. They can't create, open, or manage an eDiscovery case.
-
-This role group has the most restrictive eDiscovery-related permissions.
-
-
+    The primary purpose of this role group is to allow members to view and access case data by using a limited set of analysis features in Advanced eDiscovery.Members of this role group can see only the documents that are assigned to them. They can't create, open, or manage an eDiscovery case.This role group has the most restrictive eDiscovery-related permissions.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -126,16 +108,8 @@ This role group has the most restrictive eDiscovery-related permissions.
     Security Administrator
   :::column-end:::
   :::column:::
-    
-
-Membership in this role group is synchronized across services and managed centrally. This role group isn't manageable through the administrator portals. Members of this role group may include cross-service administrators, and external partner groups and Microsoft Support.
-
-By default, this group can't be assigned any roles. However, it will be a member of the Security Administrators role groups and will inherit the capabilities of that role group.
-
-
+    Membership in this role group is synchronized across services and managed centrally. This role group isn't manageable through the administrator portals. Members of this role group may include cross-service administrators, and external partner groups and Microsoft Support.By default, this group can't be assigned any roles. However, it will be a member of the Security Administrators role groups and will inherit the capabilities of that role group.
 This role group includes all the read-only permissions of the Security reader role, plus many other administrative permissions for the same services, such as Azure Information Protection, Identity Protection Center, Privileged Identity Management, Monitor Microsoft 365 Service Health, and Microsoft 365 Defender portal.
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -143,16 +117,8 @@ This role group includes all the read-only permissions of the Security reader ro
     Security Reader
   :::column-end:::
   :::column:::
-    
-
-Members have read-only access to several security features of Identity Protection Center, Privileged Identity Management, Monitor Office 365 Service Health, and Microsoft 365 Defender portal.
-
-
-Membership in this role group is synchronized across services and managed centrally. This role group isn't manageable through the administrator portals. Members of this role group may include cross-service administrators, and external partner groups and Microsoft Support.
-
-By default, this group can't be assigned any roles. However, it will be a member of the Security Reader role group and it will inherit the capabilities of that role group.
-
-
+    Members have read-only access to several security features of Identity Protection Center, Privileged Identity Management, Monitor Office 365 Service Health, and Microsoft 365 Defender portal.
+Membership in this role group is synchronized across services and managed centrally. This role group isn't manageable through the administrator portals. Members of this role group may include cross-service administrators, and external partner groups and Microsoft Support.By default, this group can't be assigned any roles. However, it will be a member of the Security Reader role group and it will inherit the capabilities of that role group.
   :::column-end:::
 :::row-end:::
 :::row:::
