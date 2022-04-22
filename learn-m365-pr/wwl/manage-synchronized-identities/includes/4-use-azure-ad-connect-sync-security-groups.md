@@ -8,91 +8,49 @@ The following table identifies the Azure AD Connect Sync Security Groups that ar
 
 :::row:::
   :::column:::
-    
-
-**Group name**
-
-
+    **Group name**
   :::column-end:::
   :::column:::
-    
-
-**Description**
-
-
+    **Description**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-**ADSyncAdmins**
-
-
+    **ADSyncAdmins**
   :::column-end:::
   :::column:::
-    
-
-**Administrators Group:** Members of this group have Full Access to do anything in the Azure AD Connect Sync Service Manager.
-
-
+    **Administrators Group:** Members of this group have Full Access to do anything in the Azure AD Connect Sync Service Manager.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-**ADSyncOperators**
-
-
+    **ADSyncOperators**
   :::column-end:::
   :::column:::
-    
-
-**Operators Group:** Members of this group have access to the operations of the Azure AD Connect Sync Service Manager, including:
+    **Operators Group:** Members of this group have access to the operations of the Azure AD Connect Sync Service Manager, including:
 
  -  Execution of Management Agents
  -  View of Synchronization Statistics for each run
  -  Ability to save the Run History (Operations Tab) to a file
 
 Members of this group must be a member of the ADSyncBrowse Group.
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-**ADSyncBrowse**
-
-
+    **ADSyncBrowse**
   :::column-end:::
   :::column:::
-    
-
-**Browse Group:** Members of this group have permission to gather information about a user’s lineage when resetting passwords.
-
-
+    **Browse Group:** Members of this group have permission to gather information about a user’s lineage when resetting passwords.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-**ADSyncPasswordSet**
-
-
+    **ADSyncPasswordSet**
   :::column-end:::
   :::column:::
-    
-
-**Password Reset Group:** Members of this group have permission to do all operations by using the password management interface.
-
-
+    **Password Reset Group:** Members of this group have permission to do all operations by using the password management interface.
 Members of this group must be a member of the ADSyncBrowse Group.
-
-
   :::column-end:::
 :::row-end:::
 
