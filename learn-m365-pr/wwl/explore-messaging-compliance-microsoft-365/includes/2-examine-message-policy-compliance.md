@@ -65,7 +65,7 @@ In Exchange Online, only certain service accounts under which the Exchange proce
     Office 365 Message Encryption
   :::column-end:::
   :::column:::
-    Office 365 Message Encryption allows email users to send encrypted email messages to anyone in- and outside your organization. Office 365 Message Encryption uses protection features from Azure Information Protection (Azure RMS).Office 365 Message Encryption works with Outlook.com, Yahoo!, Gmail, and other email services. Email message encryption helps ensure that only intended recipients can view message content. Office 365 Message Encryption uses Azure RMS to encrypt and control access to emails and attachments sent out to internal and external recipients, such as Do Not Forward protection and content encryption.
+    Office 365 Message Encryption allows email users to send encrypted email messages to anyone in- and outside your organization. Office 365 Message Encryption uses protection features from Azure Information Protection (Azure RMS). Office 365 Message Encryption works with Outlook.com, Yahoo!, Gmail, and other email services. Email message encryption helps ensure that only intended recipients can view message content. Office 365 Message Encryption uses Azure RMS to encrypt and control access to emails and attachments sent out to internal and external recipients, such as Do Not Forward protection and content encryption.
   :::column-end:::
 :::row-end:::
 :::row:::
