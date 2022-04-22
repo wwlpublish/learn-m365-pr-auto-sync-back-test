@@ -4,7 +4,7 @@ title: Plan and implement in-place archiving
 metadata:
   title: Plan and implement in-place archiving
   description: "Plan and implement in-place archiving"
-  ms.date: 03/09/2022
+  ms.date: 04/22/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Create a migration batch and perform a remote mailbox move request"
       isCorrect: false
-      explanation: "That's incorrect. Remote mailbox move requests using migration batches are used to move mailboxes between an on-premises Exchange deployment and an Exchange Online deployment. Try again."
+      explanation: "That's incorrect. Remote mailbox move requests using migration batches are used to move mailboxes between an on-premises Exchange deployment and an Exchange Online deployment."
     - content: "Create a mailbox move request"
       isCorrect: true
       explanation: "That's correct. Alan must create a mailbox move request to move the user's archive mailbox to another mailbox database on the same Mailbox server or to another server, independent of the primary mailbox."
     - content: "Create a migration endpoint for a local mailbox move"
       isCorrect: false
-      explanation: "That's incorrect. Migration endpoints are used for cross-forest mailbox moves, but not for local mailbox moves. Try again."
+      explanation: "That's incorrect. Migration endpoints are used for cross-forest mailbox moves, but not for local mailbox moves."
