@@ -1,4 +1,4 @@
-Content searches can be created within the Microsoft 365 Compliance center or through PowerShell by using the **New-ComplianceSearch** cmdlet. This cmdlet enables you to run organization-wide searches of all mailboxes and other destinations by using Windows PowerShell.
+Content searches can be created within the Microsoft Purview compliance portal or through PowerShell by using the **New-ComplianceSearch** cmdlet. This cmdlet enables you to run organization-wide searches of all mailboxes and other destinations by using Windows PowerShell.
 
 By using the Compliance Search cmdlets, you can create scripts to integrate Content Searches into your eDiscovery workflow. For example, you could regularly run a Content Search to search all mailboxes in your organization to identify those mailboxes that contain specific search results.
 
@@ -14,9 +14,9 @@ Cloning a Content Search may also be advantageous when you need to:
  -  Reenter many previously used content locations when creating a new search, which saves time and effort.
  -  Reduce the size of the search results. For example, if you have a search that returns too many results to export, you can clone the search and then add a search condition based on a date range to reduce the number of search results.
 
-Cloning a Content Search is accomplished by copying and running the script that appears in the [Clone a Content Search page in the Microsoft 365 Compliance Center](/microsoft-365/compliance/clone-a-content-search?azure-portal=true). This page includes a list of prerequisites to running the script, a copy of the script itself, and instruction on editing and running the script.
+Cloning a Content Search is accomplished by copying and running the script that appears in the [Clone a Content Search page in the Microsoft 365 Compliance Portal](/microsoft-365/compliance/clone-a-content-search?azure-portal=true). This page includes a list of prerequisites to running the script, a copy of the script itself, and instruction on editing and running the script.
 
-Once you run the script to create the clone, you can edit and run the new search in the Security &amp; Compliance Center.
+Once you run the script to create the clone, you can edit and run the new search in the Security &amp; compliance portal.
 
 ### Search for and delete email messages
 
@@ -28,11 +28,11 @@ Occasionally, you may need to find and remove potentially harmful or high-risk e
 
 You can use Content Search to search for and delete email messages from all the mailboxes in your organization.
 
-The first step is to create and run a Content Search to find the messages that you want to remove from mailboxes in your organization. You can create the search by using the Content Search feature in the Microsoft 365 Compliance center or by running the **New-ComplianceSearch** and **Start-ComplianceSearch** cmdlets. The messages that match the query for this search are deleted by running the **New-ComplianceSearchAction** cmdlet.
+The first step is to create and run a Content Search to find the messages that you want to remove from mailboxes in your organization. You can create the search by using the Content Search feature in the Microsoft Purview compliance portal or by running the **New-ComplianceSearch** and **Start-ComplianceSearch** cmdlets. The messages that match the query for this search are deleted by running the **New-ComplianceSearchAction** cmdlet.
 
 > [!IMPORTANT]
 > When you run the **New-ComplianceSearchAction** cmdlet, the content locations that are searched in the Content Search must include only mailboxes and public folders. You can't include other locations in a search that deletes emails.
 
-After you've created and refined a Content Search to return the message that you want to remove, the final step is to connect to the Microsoft 365 Security &amp; Compliance Center PowerShell and then run the **New-ComplianceSearchAction** cmdlet to delete the message. Deleted messages are moved to a user's Recoverable Items folder.
+After you've created and refined a Content Search to return the message that you want to remove, the final step is to connect to the Microsoft 365 Security &amp; compliance portal PowerShell and then run the **New-ComplianceSearchAction** cmdlet to delete the message. Deleted messages are moved to a user's Recoverable Items folder.
 
-**Additional reading**. For more information, see [Search for and delete email messages in your Microsoft 365 organization - Admin Help](/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization?azure-portal=true).
+**Further reading**. For more information, see [Search for and delete email messages in your Microsoft 365 organization - Admin Help](/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization?azure-portal=true).

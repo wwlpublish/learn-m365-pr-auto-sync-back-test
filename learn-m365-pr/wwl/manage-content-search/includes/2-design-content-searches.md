@@ -14,7 +14,7 @@ Content Search isn't limited in the number of mailboxes it can search, nor is th
 A Content Search that also deletes items is known as a “search and purge.” This type of search, which is limited to 50,000 mailboxes, is accomplished by using the **New-ComplianceSearchAction -Purge** command. The purge action will fail if a Content Search that includes a purge action is run on more than 50,000 mailboxes.
 
 > [!CAUTION]
-> A single user can start up to 10 searches simultaneously. This limit is often reached when the user tries to start multiple searches by using the **Get-ComplianceSearch** \| **Start-ComplianceSearch** command in the Security &amp; Compliance Center PowerShell. Keep this limitation in mind when planning content searches.
+> A single user can start up to 10 searches simultaneously. This limit is often reached when the user tries to start multiple searches by using the **Get-ComplianceSearch** \| **Start-ComplianceSearch** command in the Security &amp; Compliance Portal PowerShell. Keep this limitation in mind when planning content searches.
 
 ### Plan cloud-based mailbox searches for on-premises users
 
@@ -24,7 +24,7 @@ If your organization has an Exchange hybrid deployment and has enabled Microsoft
  -  For cloud-based users, their primary mailbox is in the cloud.
  -  For on-premises users, their primary mailbox is stored on-premises.
 
-This dual location of primary mailboxes originally limited searches of Teams' chat data to cloud-based users only because the Content Search tool in the Microsoft 365 Compliance center only targets cloud-based mailboxes. However, Microsoft 365 addressed this limitation by including a cloud-based storage area (called a cloud-based mailbox for on-premises users) to store Teams' chat data for on-premises users. This design lets you use the Content Search tool in the Microsoft 365 Compliance center to search and export Teams' chat data for both on-premises and cloud-based users.
+This dual location of primary mailboxes originally limited searches of Teams' chat data to cloud-based users only because the Content Search tool in the Microsoft Purview compliance portal only targets cloud-based mailboxes. However, Microsoft 365 addressed this limitation by including a cloud-based storage area (called a cloud-based mailbox for on-premises users) to store Teams' chat data for on-premises users. This design lets you use the Content Search tool in the Microsoft Purview compliance portal to search and export Teams' chat data for both on-premises and cloud-based users.
 
 Messaging administrators must consider the following items when setting up and searching cloud-based mailboxes for on-premises users:
 
@@ -37,7 +37,7 @@ Messaging administrators must consider the following items when setting up and s
 > [!NOTE]
 > Teams channel conversations are always stored in the cloud-based mailbox that's associated with the Team. This design enables organizations to use Content Search to search channel conversations without having to file a support request.
 
-Teams' chat data is indexed for search after it’s stored in the cloud-based mailbox. This design lets you use Content Search (and searches associated with eDiscovery cases) to search, preview, and export Teams' chat data for on-premises users. You can also use the **ComplianceSearch** cmdlets in the Microsoft 365 Compliance Center PowerShell to search for Teams' chat data for on-premises users.
+Teams' chat data is indexed for search after it’s stored in the cloud-based mailbox. This design lets you use Content Search (and searches associated with eDiscovery cases) to search, preview, and export Teams' chat data for on-premises users. You can also use the **ComplianceSearch** cmdlets in the Microsoft Purview compliance portal PowerShell to search for Teams' chat data for on-premises users.
 
 The following graphic shows the workflow of how Teams' chat data for on-premises users is made available for search, preview, and export.
 
@@ -57,13 +57,13 @@ Consider the following questions when designing a Content Search:
 
 Content Search is useful when you need to run large searches. It's also useful when you simply need to search for specific data in your organization without needing to apply an eDiscovery Hold on the content or create an eDiscovery case.
 
-After you run a Content Search, the number of content locations and an estimated number of search results are displayed in the details pane on the Content Search page in the Microsoft 365 Compliance center. After you run a Content Search, you can:
+After you run a Content Search, the number of content locations and an estimated number of search results are displayed in the details pane on the Content Search page in the Microsoft Purview compliance portal. After you run a Content Search, you can:
 
  -  Preview the results.
  -  Export the results to a local computer.
  -  Prepare the results for analysis.
 
-**Additional reading**. For more information, see [Limits for Content Search in the Microsoft 365 Compliance Center](/microsoft-365/compliance/limits-for-content-search?azure-portal=true).
+**Further reading**. For more information, see [Limits for Content Search in the Compliance Portal](/microsoft-365/compliance/limits-for-content-search?azure-portal=true).
 
 ## Knowledge check
 

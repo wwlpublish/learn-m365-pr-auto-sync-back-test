@@ -6,4 +6,3 @@ eDiscovery is still based on the in-place eDiscovery feature. This module examin
 
  -  Content searches
  -  eDiscovery cases
- -  Advanced eDiscovery
