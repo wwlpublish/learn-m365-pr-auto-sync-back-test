@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.describe-service-life-cycle-microsoft-365.introduction
+uid: learn.wwl.prepare-identity-synchronization-microsoft-365.introduction
 title: Introduction
 metadata:
   title: Introduction
   description: "Introduction"
   ms.date: 04/22/2022
   author: wwlpublish
-  ms.author: asglenno
+  ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
