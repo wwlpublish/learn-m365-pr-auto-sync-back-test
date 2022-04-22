@@ -28,7 +28,7 @@ Organizations use MRM to implement different strategies for message retention, d
 :::row-end:::
 :::row:::
   :::column:::
-    Remove all messages after a specified period
+    Remove all messages after a specified period.
   :::column-end:::
   :::column:::
     In this strategy, you implement a single MRM policy that removes all messages after a certain period. There's no classification of messages, so all messages are affected. You can implement this policy by creating a single default policy tag (DPT) for the mailbox. However, doing so doesn't ensure that messages are kept for the specified period. Users can still delete messages before the retention period is reached.
@@ -36,7 +36,7 @@ Organizations use MRM to implement different strategies for message retention, d
 :::row-end:::
 :::row:::
   :::column:::
-    Move messages to archive mailboxes
+    Move messages to archive mailboxes.
   :::column-end:::
   :::column:::
     In this strategy, you implement MRM policies that move items to the user's archive mailbox. An archive mailbox provides extra storage for users to maintain old and infrequently accessed content. Retention tags that move items are also known as archive policies. Within the same retention policy, you can combine DPT and personal tags to move items, and DPT, RPTs, and personal tags to delete items.
@@ -44,7 +44,7 @@ Organizations use MRM to implement different strategies for message retention, d
 :::row-end:::
 :::row:::
   :::column:::
-    Remove messages based on folder location
+    Remove messages based on folder location.
   :::column-end:::
   :::column:::
     In this strategy, you implement MRM policies based on email location. For example, you can specify that messages in the Inbox are kept for one year and messages in the Junk Email folder are kept for 60 days. You can implement this policy by using a combination of RPTs for each default folder you want to configure and a DPT for the entire mailbox. The DPT applies to all custom folders and all default folders that don't have an RPT applied.
@@ -52,10 +52,10 @@ Organizations use MRM to implement different strategies for message retention, d
 :::row-end:::
 :::row:::
   :::column:::
-    Allow users to classify messages
+    Allow users to classify messages.
   :::column-end:::
   :::column:::
-    This strategy implements MRM policies that include a baseline retention setting for all messages but allows users to classify messages based on business or regulatory requirements. As such, users become an important part of an organization's records management strategy. They often have the best understanding of a message's retention value.
+    This strategy implements MRM policies that include a baseline retention setting for all messages but allows users to classify messages based on business or regulatory requirements. As such, users become an important part of an organization's messaging records management strategy. They often have the best understanding of a message's retention value.
 Users can apply different retention settings to messages that need to be kept for a longer or shorter period. You can implement this policy using a combination of the following features:
 
  -  A DPT for the mailbox.
@@ -67,7 +67,7 @@ Users can apply different retention settings to messages that need to be kept fo
 :::row-end:::
 :::row:::
   :::column:::
-    Keep messages for eDiscovery purposes
+    Keep messages for eDiscovery purposes.
   :::column-end:::
   :::column:::
     In this strategy, you implement MRM policies that remove messages from mailboxes after a specified period but also keep them in the Recoverable Items folder for In-Place eDiscovery purposes in Exchange Server, even if the messages were deleted by the user or another process.

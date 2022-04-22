@@ -22,3 +22,4 @@ After completing this module, you'll be able to:
  -  Describe litigation and in-place holds in Exchange Server.
  -  Plan retention and deletion with Message Records Management (MRM).
  -  Analyze your Exchange organization's message tracking log.
+ 
