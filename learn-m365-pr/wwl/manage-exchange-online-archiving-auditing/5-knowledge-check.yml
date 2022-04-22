@@ -47,6 +47,6 @@ quiz:
     - content: "It stores the email message in the archive mailbox"
       isCorrect: false
       explanation: "That's incorrect. This action isn't what the journal agent does in this scenario."
-    - content: "It sends an automatic email notification to the Compliance manager that contains information from the original message"
+    - content: "It sends an automatic email notification to the Compliance Manager that contains information from the original message"
       isCorrect: false
       explanation: "That's incorrect. This action isn't what the journal agent does in this scenario."
