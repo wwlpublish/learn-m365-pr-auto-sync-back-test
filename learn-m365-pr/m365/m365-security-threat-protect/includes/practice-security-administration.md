@@ -1,6 +1,6 @@
 ## Threat and vulnerability management
 
- [![Threat and Vulnerability Management dashboard](../media/threat-vulnerability-management-dashboard.png)](../media/threat-vulnerability-management-dashboard-magnify.png#lightbox)
+:::image type="content" source="../media/threat-vulnerability-management-dashboard.png" alt-text="Threat and Vulnerability Management dashboard." lightbox="../media/threat-vulnerability-management-dashboard.png" border="false":::
 
 Effectively identifying, assessing, and remediating endpoint weaknesses is pivotal to running a healthy security program and reducing organizational risk. Threat and vulnerability management serves as an infrastructure for reducing organizational exposure, hardening endpoint surface area, and increasing organizational resilience.
 
@@ -16,9 +16,7 @@ It provides the following solutions to gaps across security operations, security
 
 For example, using the security recommendations present in the portal, an administrator could request an application update, which would then notify the Intune team to remediate the request.
 
-[![Security recommendations](../media/security-recommendations.png)](../media/security-recommendations-magnify.png#lightbox)
-
->
+:::image type="content" source="../media/security-recommendations.png" alt-text="Security recommendations." lightbox="../media/security-recommendations.png" border="false":::
 
 ## Attack surface reduction
 
@@ -34,9 +32,7 @@ The attack surface reduction set of capabilities provides the first line of defe
 
 The  below screenshot shows a chart of detections against an attack surface reduction rule that is protecting office applications:
 
- [![Attack surface reduction rules](../media/attack-surface-reduction-rules.png)](../media/attack-surface-reduction-rules-magnify.png#lightbox)
-
->
+:::image type="content" source="../media/attack-surface-reduction-rules.png" alt-text="Attack surface reduction rules." lightbox="../media/attack-surface-reduction-rules.png" border="false":::
 
 ## Next generation protection
 
@@ -64,22 +60,22 @@ Inspired by the "assume breach" mindset, Microsoft Defender for Endpoint continu
 
 The Security operations dashboard (below) is where the endpoint detection and response capabilities are surfaced. It provides a high-level overview of where detections were seen and highlights where response actions are needed.
 
- [![Security operations dashboard](../media/security-operations-dashboard.png)](../media/security-operations-dashboard-magnify.png#lightbox)
+:::image type="content" source="../media/security-operations-dashboard.png" alt-text="Security operations dashboard." lightbox="../media/security-operations-dashboard.png" border="false":::
 
 ## Automated investigation and remediation
 
 Microsoft Defender for Endpoint offers a wide breadth of visibility on multiple machines. With this kind of optics, the service generates a multitude of alerts. The volume of alerts generated can be challenging for a typical security operations team to individually address. To address this challenge, Microsoft Defender for Endpoint uses automated investigation and remediation capabilities to significantly reduce the volume of alerts that must be investigated individually.
 
- [![Automated investigations](../media/automated-investigations.png)](../media/automated-investigations-magnify.png#lightbox)
+:::image type="content" source="../media/automated-investigations.png" alt-text="Automated investigations." lightbox="../media/automated-investigations.png" border="false":::
 
 The automated investigation feature uses various inspection algorithms, and processes used by analysts (such as playbooks) to examine alerts and take immediate remediation action to resolve breaches. This significantly reduces alert volume, allowing security operations experts to focus on more sophisticated threats and other high value initiatives. In the following investigation screenshot, we can see that malware was detected, and automatically remediated:
 
- [![Malware detected and remediated](../media/malware-detected-remediated.png)](../media/malware-detected-remediated-magnify.png#lightbox)
+:::image type="content" source="../media/malware-detected-remediated.png" alt-text="Malware detected and remediated." lightbox="../media/malware-detected-remediated.png" border="false":::
 
 ### Explore how to reduce organizational risk with Threat and Vulnerability Management
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4AFt9) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/guides/Reduce%20organizational%20risk%20with%20Threat%20and%20Vulnerability%20Management">![Reduce organizational risk with Threat and Vulnerability Management](../media/reduce-organizational-risk.png)</a>  
-Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.
+[:::image type="content" source="../media/reduce-organizational-risk.png" alt-text="Reduce organizational risk with Threat and Vulnerability Management." border="false":::](https://mslearn.cloudguides.com/guides/Reduce%20organizational%20risk%20with%20Threat%20and%20Vulnerability%20Management)
 
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.
