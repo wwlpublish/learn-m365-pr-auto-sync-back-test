@@ -1,0 +1,13 @@
+**Microsoft Exchange Online** is a hosted messaging solution that delivers the capabilities of **Microsoft Exchange Server** as a cloud-based service. It gives users access to email, calendar, contacts, and tasks all in one place, from PCs, the web, and mobile devices. It integrates fully with all other Microsoft 365 workloads making administration easy.
+
+Microsoft business email and calendaring help you stay on top of your work with a clear, unified view of what matters.
+
+ -  **Stay connected.** Microsoft 365 syncs emails, calendars, and contact information across your devices, keeping you up to date wherever you are. All you need is an internet connection for a hassle-free way of keeping in touch. If you lose your phone, you can delete data remotely so that your personal information stays secure.
+ -  **Customize your email.** Create a custom format, include images, and depending on your country, use your own domain name. You can keep the emails you need, including images.
+ -  **Collaborate.** Create a public folder for shared access to provide an easy and effective way to collect, organize, and share information with other people in your workgroup or organization. Create a shared mailbox so users can access and send email messages and share a common calendar. Create distribution groups, which are a collection of two or more recipients that appears in the shared address book. When an email is sent to a distribution group, it’s received by all members in the group.
+ -  **Share your calendar.** You may need to coordinate schedules with people in different organizations or with friends and family members so that you can work together on projects or plan social events. With Microsoft 365 and Office 365, administrators can set up different levels of calendar access in Exchange Online to allow businesses to collaborate with other businesses and to let users share their schedules with others.
+ -  **Stay informed.** Get rich insights about the people you’re working with, inside and outside your organization, by connecting your LinkedIn and Microsoft 365 profiles.
+ -  **Simplified admin.** Set up new users, restore deleted accounts, and create custom scripts, and more.
+ -  **Stay secure.** Exchange has built-in anti-spam and anti-malware protection and customizable anti-spam and anti-malware policies. Defender for Office 365 can be enabled for added protection against advanced threats, like phishing, business email compromise, and malware attacks. Defender also provides spoof protection, and mailbox intelligence for all recipients.
+
+:::image type="content" source="../media/productivity-module-exchange-unit-6a7a5949.png" alt-text="productivity-module-exchange-unit.png":::

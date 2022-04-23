@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn.wwl.describe-productivity-solutions-microsoft-365
+metadata:
+  title: Describe productivity solutions in Microsoft 365
+  description: "Learn about how the productivity solutions through Microsoft 365 help optimize operations, engage customers, and empower people to perform tasks in real-time from virtually anywhere. Prepare for MS-900."
+  ms.date: 04/23/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Describe productivity solutions in Microsoft 365
+summary: Learn about how the productivity solutions through Microsoft 365 help optimize operations, engage customers, and empower people to perform tasks in real-time from virtually anywhere.
+abstract: |
+  By the end of this module, you will be able to:
+  - Describe how the core tools in Microsoft 365 can increase productivity
+  - Describe how the Microsoft 365 Apps help people craft compelling content in real-time
+  - Describe how the capabilities of the work management tools optimize operations
+  - Describe the email and calendaring features with Microsoft Exchange
+prerequisites: |
+  - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a-Service (Saas).
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-owner
+- business-user
+products:
+- m365
+- office-365
+units:
+- learn.wwl.describe-productivity-solutions-microsoft-365.introduction
+- learn.wwl.describe-productivity-solutions-microsoft-365.describe-core-productivity-tools
+- learn.wwl.describe-productivity-solutions-microsoft-365.describe-how-apps-helps-increase-productivity
+- learn.wwl.describe-productivity-solutions-microsoft-365.describe-work-management-tools
+- learn.wwl.describe-productivity-solutions-microsoft-365.describe-business-class-email-calendaring-microsoft-exchange
+- learn.wwl.describe-productivity-solutions-microsoft-365.knowledge-check
+- learn.wwl.describe-productivity-solutions-microsoft-365.summary-resources
+badge:
+  uid: learn.wwl.describe-productivity-solutions-microsoft-365.badge

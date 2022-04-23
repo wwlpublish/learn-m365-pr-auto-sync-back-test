@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.describe-productivity-solutions-microsoft-365.describe-business-class-email-calendaring-microsoft-exchange
+title: Describe business class email and calendaring with Microsoft Exchange
+metadata:
+  title: Describe business class email and calendaring with Microsoft Exchange
+  description: "Describe business class email and calendaring with Microsoft Exchange"
+  ms.date: 04/23/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-describe-business-class-email-calendaring-microsoft-exchange.md)]

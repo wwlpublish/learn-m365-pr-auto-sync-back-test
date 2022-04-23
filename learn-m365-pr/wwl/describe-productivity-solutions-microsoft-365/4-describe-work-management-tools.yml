@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.describe-productivity-solutions-microsoft-365.describe-work-management-tools
+title: Describe work management tools in Microsoft 365
+metadata:
+  title: Describe work management tools in Microsoft 365
+  description: "Describe work management tools in Microsoft 365"
+  ms.date: 04/23/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/4-describe-work-management-tools.md)]
