@@ -1,6 +1,6 @@
-If your team is constantly managing work, then they’re not actually working. You and your team need an efficient process for managing that work so you can focus on delivering quality work on time. Microsoft 365 streamlines work management through a set of purpose-built tools that add structure to all elements such as tasks, status updates, schedules, projects, etc. that go into delivering quality business results. With a more efficient approach to the process of work, your team has more time to collaborate on the work itself.
+If your team is constantly managing work, then they’re not actually working. You and your team need an efficient process for managing that work so you can focus on delivering quality work on time. **Microsoft 365** streamlines work management through a set of purpose-built tools that add structure to all elements such as tasks, status updates, schedules, projects, etc. that go into delivering quality business results. With a more efficient approach to the process of work, your team has more time to collaborate on the work itself.
 
-The **work management solutions** through Microsoft allow your teams to work the way want giving organizations the results they need. The work management tools available through Microsoft 365 include **Project, Planner**, **Bookings,** and **To Do.** Each tool is designed with different features so you can choose the best tool to help you manage your type of work.
+The **work management solutions** through Microsoft 365 allow your teams to work the way want giving organizations the results they need. The work management tools available include **Project, Planner**, **Bookings,** and **To Do.** Each tool is designed with different features so you can choose the best tool to help you manage your type of work.
 
 ### Microsoft Project
 
@@ -10,7 +10,7 @@ The **work management solutions** through Microsoft allow your teams to work the
  -  Automatically update the timeline through the powerful scheduling engine helping you reduce your time and effort.
  -  Utilize the easy-to-use views such as grid views, Kanban-style task boards, and timeline Gantt charts.
  -  Integrate with Teams to enrich collaboration across the project.
- -  Create stunning interactive dashboards in Power BI so you can visualize every aspect of each project at a glance.
+ -  Create stunning interactive dashboards in Power BI so you can visualize every aspect of the project at a glance.
  -  Extensible with other platform apps and data because Project is built on the Power Platform.
 
 :::image type="content" source="../media/productivity-module-work-management-unit-project-b8ec36d0.png" alt-text="productivity-module-work-management-unit-project.png":::
