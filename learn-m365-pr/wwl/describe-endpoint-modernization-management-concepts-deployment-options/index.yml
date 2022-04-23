@@ -11,11 +11,11 @@ metadata:
 title: Describe endpoint modernization, management concepts, and deployment options in Microsoft 365
 summary: Learn about how the business management solutions through Microsoft 365 provide people with a secure, personalized desktop experience and help organizations easily manage updates for all devices with a simplified admin experience.
 abstract: |
-  By the end of this module, you will be able to:
-  - Describe the modern management capabilities of Microsoft Endpoint Manager
-  - Describe the different capabilities of Windows 365 and Azure Virtual Desktop
-  - Describe the deployment and release models for Windows-as-a-Service
-  - Describe the deployment and servicing methods for Microsoft 365 Apps
+  By the end of this module, you'll be able to:
+  *   Describe the modern management capabilities of Microsoft Endpoint Manager
+  *   Describe the different capabilities of Windows 365 and Azure Virtual Desktop
+  *   Describe the deployment and release models for Windows-as-a-Service
+  *   Describe the deployment and servicing methods for Microsoft 365 Apps
 prerequisites: |
   - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a -Service (Saas).
 iconUrl: /learn/achievements/generic-badge.svg

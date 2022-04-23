@@ -19,13 +19,13 @@ With Windows client, there are two release types:
 
 **Servicing channels** are the first way to separate users into deployment groups for feature and quality updates. There are three servicing channels. Each channel each provides different levels of flexibility for when these updates are delivered to client computers.
 
- -  **Windows Insider Program** provides organizations with the opportunity to test and provide feedback on features that will be shipped in the next feature update. These features wil be delivered as soon as possible during the development cycle through a process called flighting. This will allow organizations to see exactly what Microsoft is developing and start their testing as soon as possible. Microsoft recommends that all organizations have at least a few devices enrolled in this program.
+ -  **Windows Insider Program** provides organizations with the opportunity to test and provide feedback on features that will be shipped in the next feature update. These features will be delivered as soon as possible during the development cycle through a process called flighting. This process will allow organizations to see exactly what Microsoft is developing and start their testing as soon as possible. Microsoft recommends that all organizations have at least a few devices enrolled in this program.
  -  **General Availability Channel** provides new functionality with feature update releases annually. Organizations can choose when to deploy updates. This model is ideal for pilot deployments and testing of feature updates. It's also ideal for users such as developers who need to work with the latest features.
  -  **Long-term servicing channel** is designed for specialist devices that don't run Office apps such as medical equipment or ATMs. This channel receives new features every two or three years.
 
 ### Deployment rings
 
-**Deployment rings** are a deployment method used to separate devices into a deployment timeline. Microsoft has found that a ring-based deployment works well. Each “ring” comprises a group of users or devices that receive a particular update together. IT administrators set criteria to control delay time or completion that should be met, before deployment to the next broader ring of devices or users can occur.
+**Deployment rings** are a deployment method used to separate devices into a deployment timeline. Microsoft has found that a ring-based deployment works well. Each “ring” comprises a group of users or devices that receive a particular update together. IT administrators set criteria to control delay time or completion that should be met before deployment to the next broader ring of devices or users can occur.
 
 A common ring structure uses three deployment groups:
 
@@ -43,7 +43,7 @@ A common ring structure uses three deployment groups:
 
 To successfully deploy Windows in your organization, it's important to understand the different ways that it can be deployed. There are three types of deployment categories or methods:
 
- -  **Modern deployment methods** embrace both traditional on-prem and cloud services to deliver a simple, streamlined, cost effective deployment experience. These methods are recommended and are supported with existing tools such as Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager.
+ -  **Modern deployment methods** embrace both traditional on-prem and cloud services to deliver a streamlined, cost effective deployment experience. These methods are recommended and are supported with existing tools such as Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager.
  -  **Dynamic deployment methods** enable you to configure applications and settings for specific use cases without having to deploy a new custom organization image to the device.
  -  **Traditional deployment methods** use existing tools to deploy operating system images.
 
@@ -66,6 +66,4 @@ To successfully deploy Windows in your organization, it's important to understan
 
 ### Manage Windows-as-a-Service
 
-In **Configuration Manager**, you can view the state of WaaS in your environment. You can create servicing plans to form deployment rings and ensure that Windows systems are kept up to date when new builds are released. You can also view alerts when Windows clients are near end of support for the build version.
-
-:::image type="content" source="../media/3-cloud-local-09f98009.png" alt-text="Cloud or local deployment":::
+In **Configuration Manager**, you can view the state of WaaS in your environment. You can create servicing plans to form deployment rings and ensure that Windows systems are up to date when new builds are released. You can also view alerts when Windows clients are near end of support for the build version.

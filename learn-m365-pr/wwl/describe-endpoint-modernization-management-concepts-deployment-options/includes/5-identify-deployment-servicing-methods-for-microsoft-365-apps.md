@@ -1,7 +1,7 @@
 **Microsoft 365 Apps** can be installed individually by users on their devices. But it's often beneficial to manage updates and deploy a customized selection of apps to users’ devices to ensure that all users have the apps they need. There are four methods to perform larger-scale deployments of Microsoft 365 Apps that we’ll discuss in the following list:
 
  -  **Deploy from a local source with Configuration Manager.** Manage your deployment with Configuration Manager, and download and deploy Office from distribution points on your network.
- -  **Deploy from the cloud with the Office Deployment Tool (ODT).** Manage your deployment with the ODT and use the **Office Customization Tool** to create a configuration file in the cloud that specifies the Microsoft 365 apps that are installed. The commands run the ODT in configure mode and with a reference to the appropriate configuration file, which defines which version of Office to install on the client computer.
+ -  **Deploy from the cloud with the Office Deployment Tool (ODT).** Manage your deployment with the ODT and use the **Office Customization Tool** to create a configuration file in the cloud that specifies the Microsoft 365 apps that are installed. The commands run the ODT in configure mode and with a reference to the appropriate configuration file, which defines the version of Office to install on the client computer.
  -  **Deploy from a local source with the Office Deployment Tool (ODT).** Manage your deployment with the ODT, and download and deploy Office from a local source on your network.
  -  **Self-install from the cloud.** Manage your deployment from the Office portal and have your users install Office on their client devices directly from the portal.
 
@@ -30,7 +30,7 @@ Here are the three primary update channels for Microsoft 365 Apps:
 
 The update channel of Microsoft 365 Apps you deploy to the users in your organization can depend on several factors, such as application compatibility testing and user readiness. Not all users in your organization need to be on the same update channel. For example, you can provide your training department with current channel so they can start learning about the new Office features, while the rest of your organization is on semi-annual enterprise channel.
 
-The update channel that you choose for Microsoft 365 Apps doesn’t have to match the update channel for Windows 10 or Windows 11. For more information about update channels for Microsoft 365 apps, see [Overview of update channels for Microsoft 365 Apps](/DeployOffice/overview-update-channels?azure-portal=true).
+The update channel that you choose for Microsoft 365 Apps doesn’t have to match the update channel for Windows client. For more information about update channels for Microsoft 365 apps, see [Overview of update channels for Microsoft 365 Apps](/DeployOffice/overview-update-channels?azure-portal=true).
 
 :::image type="content" source="../media/5-office-updates-cadfb3ff.png" alt-text="Update frequency":::
 

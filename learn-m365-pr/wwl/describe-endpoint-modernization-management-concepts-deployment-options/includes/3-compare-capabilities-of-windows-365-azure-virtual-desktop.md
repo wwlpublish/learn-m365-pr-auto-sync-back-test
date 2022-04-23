@@ -1,8 +1,8 @@
-Windows 365 and Azure Virtual Desktop (AVD) services are both virtual desktop solutions. Let's explore some of the different capabilities of each.
+**Windows 365** and **Azure Virtual Desktop** services are both virtual desktop solutions, also known as Desktop-as-a-Service. Let's explore some of the different capabilities of each.
 
 ### Windows 365
 
-**Windows 365** is a cloud-based service that automatically creates a new type of Windows virtual machine, known as Cloud PCs, for your end users. Windows 365 introduces a new way to experience Windows Client to organizations of all sizes. Securely stream the full Windows experience including, apps, data, and settings, from the Microsoft cloud to any personal or corporate device. Windows 365 provides the productivity, security, and collaboration benefits of Microsoft 365. Windows 365 is optimized for simplicity with predictable per user pricing.
+**Windows 365** is a cloud-based service that automatically creates a new type of Windows virtual machine, known as **Cloud PCs,** for your end users. Windows 365 introduces a new way to experience Windows client to organizations of all sizes. Securely stream the full Windows experience including, apps, data, and settings, from the Microsoft cloud to any personal or corporate device. Windows 365 provides the productivity, security, and collaboration benefits of Microsoft 365. Windows 365 is optimized for simplicity with predictable per user pricing.
 
 Windows 365 has the following capabilities:
 
@@ -12,7 +12,7 @@ Windows 365 has the following capabilities:
  -  Uses a local profile that is stored directly on the cloud PC.
  -  Easily set up and scale Cloud PCs to fit your needs and securely support changing workforce needs and new business scenarios.
  -  Native integration across Azure Active Directory, Microsoft Defender, Microsoft 365 applications, and Microsoft Endpoint Manager.
- -  No setup needed, provisioned for you once a license is assigned.
+ -  No setup needed, Windows 365 is provisioned for you once a license is assigned to you.
  -  Dedicated to a single user.
 
 Windows 365 is available in two subscription offerings:
@@ -24,7 +24,7 @@ Windows 365 is available in two subscription offerings:
 
 ### Azure Virtual Desktop
 
-**Azure Virtual Desktop (AVD)** is a modern and secure desktop and app virtualization solution on Azure. AVD allows users to connect to a Windows desktop running in the cloud. It's the only solution that delivers multi-session on Windows. AVD optimizes for Microsoft 365 Apps for Enterprise, simplifies management with Citrix and VMware, and supports Remote Desktop Service environments. Azure Virtual Desktop is optimized for flexibility with flexible consumption-based pricing.
+**Azure Virtual Desktop (AVD)** is a modern and secure desktop and app virtualization solution on Azure. AVD allows users to connect to a Windows desktop running in the cloud. It's the only solution that delivers multi-session on Windows. AVD optimizes for Microsoft 365 Apps for Enterprise, simplifies management with Citrix and VMware, and supports Remote Desktop Service environments. AVD is optimized for flexibility with flexible consumption-based pricing.
 
 Azure Virtual Desktop has the following capabilities:
 
@@ -46,4 +46,4 @@ Azure Virtual Desktop has the following capabilities:
 
 Find out more here: [Windows Autopilot and Surface devices.](/surface/windows-virtual-desktop-surface?azure-portal=true)
 
-To help you choose to right option for your hybrid work needs view, [Windows 365 Cloud PC](https://www.microsoft.com/windows-365?azure-portal=true) and [Azure Virtual Desktop](https://azure.microsoft.com/services/virtual-desktop/#overview?azure-portal=true).
+To help you choose to right option for your hybrid work needs view, [Windows 365 Cloud PC](https://www.microsoft.com/windows-365?azure-portal=true) and [Azure Virtual Desktop](https://azure.microsoft.com/services/virtual-desktop/#overview?azure-portal=true).<br>
