@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.describe-endpoint-modernization-management-concepts-deployment-options.identify-deployment-servicing-methods-for-microsoft-365-apps
+title: Identify deployment and servicing methods for Microsoft 365 apps
+metadata:
+  title: Identify deployment and servicing methods for Microsoft 365 apps
+  description: "Identify deployment and servicing methods for Microsoft 365 apps"
+  ms.date: 04/23/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-identify-deployment-servicing-methods-for-microsoft-365-apps.md)]

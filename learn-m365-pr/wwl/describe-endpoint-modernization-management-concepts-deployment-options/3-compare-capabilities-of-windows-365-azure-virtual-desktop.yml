@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.describe-endpoint-modernization-management-concepts-deployment-options.compare-capabilities-of-windows-365-azure-virtual-desktop
+title: Compare the capabilities of Windows 365 and Azure Virtual Desktop
+metadata:
+  title: Compare the capabilities of Windows 365 and Azure Virtual Desktop
+  description: "Compare the capabilities of Windows 365 and Azure Virtual Desktop"
+  ms.date: 04/23/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-compare-capabilities-of-windows-365-azure-virtual-desktop.md)]
