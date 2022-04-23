@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn.wwl.describe-collaboration-solutions-microsoft-365
+metadata:
+  title: Describe collaboration solutions in Microsoft 365
+  description: "Learn about how the collaboration solutions through Microsoft 365 unlock new ways of working together by helping people and teams stay connected, engaged, and ensure fluid communication across organizations. Prepare for MS-900."
+  ms.date: 04/23/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Describe collaboration solutions in Microsoft 365
+summary: Learn about how the collaboration solutions through Microsoft 365 unlock new ways of working together by helping people and teams stay connected, engaged, and ensure fluid communication across organizations.
+abstract: |
+  By the end of this module, you will be able to:
+  - Describe how Teams help people connect and collaborate to do their best work
+  - Describe how Microsoft Viva helps organizations create thriving work cultures
+  - Describe how the features of SharePoint and OneDrive provide a cohesive file-sharing experience
+  - Describe how Yammer communities can help foster connections within your organization
+prerequisites: |
+  - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a -Service (Saas).
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-owner
+- business-user
+products:
+- m365
+- office-365
+units:
+- learn.wwl.describe-collaboration-solutions-microsoft-365.introduction
+- learn.wwl.describe-collaboration-solutions-microsoft-365.workloads-of-teams-value-that-they-provide
+- learn.wwl.describe-collaboration-solutions-microsoft-365.describe-core-employee-experience-capabilities-microsoft-viva
+- learn.wwl.describe-collaboration-solutions-microsoft-365.describe-how-features-of-sharepoint-onedrive-promote-collaboration
+- learn.wwl.describe-collaboration-solutions-microsoft-365.describe-how-yammer-helps-communities-connect-grow
+- learn.wwl.describe-collaboration-solutions-microsoft-365.knowledge-check
+- learn.wwl.describe-collaboration-solutions-microsoft-365.summary-resources
+badge:
+  uid: learn.wwl.describe-collaboration-solutions-microsoft-365.badge
