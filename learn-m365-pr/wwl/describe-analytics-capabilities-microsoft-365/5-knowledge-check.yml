@@ -14,3 +14,50 @@ labModal: false
 durationInMinutes: 8
 content: |
   [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "What is Viva Insights?"
+    choices:
+    - content: "A tool that provides data-driven, privacy-protected insights, and recommendations to improve productivity and wellbeing."
+      isCorrect: true
+      explanation: "Correct. Viva Insights is a tool that helps people and businesses thrive with data-driven, privacy-protected insights, and recommendations to improve productivity and wellbeing."
+    - content: "A tool that brings together relevant news, conversations, and resources in the applications and devices you use every day."
+      isCorrect: false
+      explanation: "Incorrect. Viva Insights is a tool that helps people and businesses thrive with data-driven, privacy-protected insights, and recommendations to improve productivity and wellbeing."
+    - content: "A centralized learning hub in Microsoft Teams that lets you seamlessly integrate learning and building skills into your day."
+      isCorrect: false
+      explanation: "Incorrect. Viva Insights is a tool that helps people and businesses thrive with data-driven, privacy-protected insights, and recommendations to improve productivity and wellbeing."
+  - content: "What three areas can you view insights for within Viva Insights?"
+    choices:
+    - content: "Individuals, Human Resources, and Organizations"
+      isCorrect: false
+      explanation: "Incorrect. Viva Insights delivers insights for Individuals, Managers, and Organizations."
+    - content: "Individuals, Managers, and Organizations"
+      isCorrect: true
+      explanation: "Correct. Viva Insights delivers insights for Individuals, Managers and Organizations."
+    - content: "Managers, Frontline Workers, and Organizations"
+      isCorrect: false
+      explanation: "Incorrect. Viva Insights delivers insights for Individuals, Managers, and Organizations."
+  - content: "Which type of reports are available to view in the Microsoft 365 admin center?"
+    choices:
+    - content: "Productivity score and Security score."
+      isCorrect: false
+      explanation: "Incorrect. The two types of reports available in the Microsoft 365 admin center are Productivity score and usage reports."
+    - content: "Usage and Device health."
+      isCorrect: false
+      explanation: "Incorrect. The two types of reports available in the Microsoft 365 admin center are Productivity score and usage reports."
+    - content: "Productivity score and Usage."
+      isCorrect: true
+      explanation: "Correct. The two types of reports available in the Microsoft 365 admin center are Productivity score and usage reports."
+  - content: "Which admin center can you view activity reports of audit logs and sign-ins?"
+    choices:
+    - content: "Exchange admin center"
+      isCorrect: false
+      explanation: "Incorrect. View audit logs and sign-ins activity reports in the Azure Active Directory admin center."
+    - content: "Azure Active Directory admin center"
+      isCorrect: true
+      explanation: "Correct. View audit logs and sign-ins activity reports in the Azure Active Directory admin center."
+    - content: "Endpoint Manager admin center"
+      isCorrect: false
+      explanation: "Incorrect. View audit logs and sign-ins activity reports in the Azure Active Directory admin center."

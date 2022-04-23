@@ -17,9 +17,6 @@ Check out the video to see the Microsoft 365 admin center in action.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWfvDL]
 
-:::image type="content" source="../media/analytics-module-admin-center-unit-admin-f6aec011.png" alt-text="analytics-module-admin-center-unit-admin.png":::
-
-
 For more information on the Microsoft 365 admin center, see [Microsoft 365 admin center help](/microsoft-365/admin/?azure-portal=true).
 
 ### Microsoft 365 user portal

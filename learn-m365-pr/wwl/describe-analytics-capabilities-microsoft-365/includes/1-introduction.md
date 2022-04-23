@@ -3,6 +3,5 @@ As organizations are adapting to hybrid work environments, they're focused on en
 After completing this module, you'll be able to:
 
  -  Describe how Viva Insights help organizations build better work habits.
-
  -  Describe the capabilities of the Microsoft 365 admin center and user portal.
  -  Describe the reports available in the Microsoft 365 admin center and other admin centers.

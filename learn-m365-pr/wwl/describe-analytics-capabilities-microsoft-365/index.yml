@@ -9,12 +9,12 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Describe analytics capabilities in Microsoft 365
-summary: Learn about the pricing model for Microsoft cloud services and how Microsoft 365 is available through a variety of licensing and billing options to meet the needs of people and organizations.
+summary: Learn about how the analytics capabilities through Microsoft 365 help people build better work habits with personal insights and help business leaders improve the employee experience and business outcomes with organizational insights.
 abstract: |
-  By the end of this module, you will be able to:
-  - Describe the Cloud Solution Provider (CSP) pricing model for Microsoft cloud services
-  - Describe the available billing frequency and methods of payment
-  - Describe the available base licensing and add-on licensing options for Microsoft 365
+  By the end of this module, you'll be able to:
+  *   Describe how Viva Insights help organizations build better work habits
+  *   Describe the capabilities of the Microsoft 365 admin center and user portal
+  *   Describe the reports available in the Microsoft 365 admin center and other admin centers
 prerequisites: |
   - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a -Service (Saas).
 iconUrl: /learn/achievements/generic-badge.svg
