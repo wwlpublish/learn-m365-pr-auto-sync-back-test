@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.describe-analytics-capabilities-microsoft-365.describe-capabilities-of-viva-insights
+title: Describe the capabilities of Viva Insights
+metadata:
+  title: Describe the capabilities of Viva Insights
+  description: "Describe the capabilities of Viva Insights"
+  ms.date: 04/23/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-describe-capabilities-of-viva-insights.md)]
