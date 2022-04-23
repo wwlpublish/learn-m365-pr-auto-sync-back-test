@@ -1,6 +1,6 @@
 **Yammer** is a secure enterprise social network internal to an organization. Yammer enables leaders and coworkers to connect and engage from anywhere to share ideas, co-create culture, align on strategy, and innovate. It was designed to help you connect with people across your organization who you might not work with directly. Yammer helps facilitate community collaboration and idea-sharing for your organization. Access Yammer through your browser, or you can install Yammer on your desktop or mobile device.
 
-Yammer supports both internal and external networks to help users communicate and collaborate. An internal network is restricted to users inside the organization, while an external network is open to users outside the organization's domain. Users in external networks must be invited. External networks are considered extensions of, and are always associated with, a single internal network. Your organization can have more than one Yammer network.
+Yammer supports both internal and external networks to help users communicate and collaborate. An **internal network** is restricted to users inside the organization, while an **external network** is open to users outside the organization's domain. Users in external networks must be invited. External networks are considered extensions of, and are always associated with, a single internal network. Your organization can have more than one Yammer network.
 
 The following list describes how Yammer helps connect leaders and employees to build communities, share knowledge, and engage everyone:
 

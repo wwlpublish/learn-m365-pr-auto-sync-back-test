@@ -11,11 +11,11 @@ metadata:
 title: Describe collaboration solutions in Microsoft 365
 summary: Learn about how the collaboration solutions through Microsoft 365 unlock new ways of working together by helping people and teams stay connected, engaged, and ensure fluid communication across organizations.
 abstract: |
-  By the end of this module, you will be able to:
-  - Describe how Teams help people connect and collaborate to do their best work
-  - Describe how Microsoft Viva helps organizations create thriving work cultures
-  - Describe how the features of SharePoint and OneDrive provide a cohesive file-sharing experience
-  - Describe how Yammer communities can help foster connections within your organization
+  By the end of this module, you'll be able to:
+  *   Describe how Teams helps people connect and collaborate to do their best work
+  *   Describe how Microsoft Viva helps organizations create thriving work cultures
+  *   Describe how the features of SharePoint and OneDrive provide a cohesive file-sharing experience
+  *   Describe how Yammer communities can help foster connections within your organization
 prerequisites: |
   - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a -Service (Saas).
 iconUrl: /learn/achievements/generic-badge.svg
