@@ -52,14 +52,8 @@ Journaling in Exchange consists of the features identified in the following tabl
     Journal rules (Journal recipient)
   :::column-end:::
   :::column:::
-    
-
-The journal recipient specifies who you want to journal. Messages that are sent to or received by the journal recipient are journaled (the direction doesn't matter). You can configure a journal rule to journal messages for all senders and recipients in the Exchange organization, or you can limit a journal rule to an Exchange mailbox, group, mail user, or mail contact. If you specify a distribution group, you enable journaling for the members of the distribution group (not for the group itself).
-
-
+    The journal recipient specifies who you want to journal. Messages that are sent to or received by the journal recipient are journaled (the direction doesn't matter). You can configure a journal rule to journal messages for all senders and recipients in the Exchange organization, or you can limit a journal rule to an Exchange mailbox, group, mail user, or mail contact. If you specify a distribution group, you enable journaling for the members of the distribution group (not for the group itself).
 **Note**: Journaling can't be configured on an organization-wide basis in Exchange Online. It must be configured on a per-user basis.
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -67,9 +61,7 @@ The journal recipient specifies who you want to journal. Messages that are sent 
     Journal rules (Journal rule scope)
   :::column-end:::
   :::column:::
-    
-
-After you define who you want to journal, you need to define the scope of the messages to journal. Possible scopes are:
+    After you define who you want to journal, you need to define the scope of the messages to journal. Possible scopes are:
 
  -  **Internal messages only.** The source or destination of the message is inside your Exchange organization.
  -  **External messages only.** The source or destination of the message is outside your Exchange organization.
@@ -83,16 +75,8 @@ After you define who you want to journal, you need to define the scope of the me
     Journal rules (Journaling mailbox)
   :::column-end:::
   :::column:::
-    
-
-The journaling mailbox is used to collect journal reports. How you configure the journaling mailbox depends on your organization's policies, regulatory requirements, and legal requirements. You can specify one journaling mailbox to collect messages for all the journal rules configured in the organization, or you can use different journaling mailboxes for different journal rules or sets of journal rules.
-
-
-In Microsoft 365, you can't select an Exchange Online mailbox as a journaling mailbox. You can deliver journal reports to an on-premises archiving system or a third-party archiving service.
-
-If you're running an Exchange hybrid deployment with your mailboxes split between on-premises servers and Microsoft 365, you can select an on-premises mailbox as the journaling mailbox for your Exchange Online and on-premises mailboxes.
-
-
+    The journaling mailbox is used to collect journal reports. How you configure the journaling mailbox depends on your organization's policies, regulatory requirements, and legal requirements. You can specify one journaling mailbox to collect messages for all the journal rules configured in the organization, or you can use different journaling mailboxes for different journal rules or sets of journal rules.
+In Microsoft 365, you can't select an Exchange Online mailbox as a journaling mailbox. You can deliver journal reports to an on-premises archiving system or a third-party archiving service.If you're running an Exchange hybrid deployment with your mailboxes split between on-premises servers and Microsoft 365, you can select an on-premises mailbox as the journaling mailbox for your Exchange Online and on-premises mailboxes.
   :::column-end:::
 :::row-end:::
 

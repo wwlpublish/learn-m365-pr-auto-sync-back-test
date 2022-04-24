@@ -5,7 +5,7 @@ The following list describes the various on-premises and Azure Active Directory 
  -  **Existing forest with Azure AD Connect, new forest with cloud provisioning**. This scenario is similar to the multi-forest scenario; however. this one involves an existing Azure AD Connect environment and then bringing on a new forest using Azure AD Connect Cloud Sync. For an example of this scenario, see [Tutorial: An existing forest with a single Azure AD tenant](/azure/active-directory/cloud-sync/tutorial-existing-forest?azure-portal=true)
  -  **Piloting Azure AD Connect Cloud Sync in an existing hybrid AD forest**. The piloting scenario involves the existence of both Azure AD Connect and Azure AD Connect Cloud Sync in the same forest. In this scenario, an object should be in scope in only one of the tools. For an example of this scenario, see [Tutorial: Pilot Azure AD Connect cloud sync in an existing synced AD forest](/azure/active-directory/cloud-sync/tutorial-pilot-aadc-aadccp?azure-portal=true).
 
-Organizations should keep the following information in mind when considering these topologies:<br>
+Organizations should keep the following information in mind when considering these topologies:
 
  -  Users and groups must be uniquely identified across all forests.
  -  Matching across forests doesn't occur with Azure AD Connect Cloud Sync.
