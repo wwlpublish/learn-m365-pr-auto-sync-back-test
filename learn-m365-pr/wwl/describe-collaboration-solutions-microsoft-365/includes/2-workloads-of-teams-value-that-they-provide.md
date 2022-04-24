@@ -13,6 +13,9 @@ Teams encourages your users to organize and collaborate across projects and work
      -  **Private channels** are for selected team members.
      -  **Shared channels** can select people both inside and outside the team.
 
+:::image type="content" source="../media/2-teams-page-6be12df4.png" alt-text="2-teams-page.png":::
+
+
 ### Chat and instant messaging
 
 **Chat and instant messaging** let you work together, without cluttering up your email and keeping it clear for important messages. Instant messaging is ideal if you need to check something with a colleague or ask a quick question. You can also have a group discussion to encourage open discussion and promote thoughtful debate.
