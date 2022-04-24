@@ -1,4 +1,4 @@
-Microsoft offers various licensing programs that are channels where you can buy Microsoft 365 products and services. These programs include Microsoft Volume Licensing (VL), Cloud Solution Provider program (CSP), or Web Direct programs (MOSP). For example, in Volume Licensing, Microsoft 365 is available for customers through the Enterprise Agreement (EA). If you want a dedicated expert to provide hands-on support, Microsoft has many qualified partners in their Cloud Solution Provider (CSP) program who can help.
+Microsoft offers various licensing programs that are channels where you can buy Microsoft 365 products and services. These programs include Microsoft Volume Licensing (VL), Cloud Solution Provider program (CSP), or Web Direct programs (MOSP). For example, in Volume Licensing, Microsoft 365 is available for customers through the **Enterprise Agreement (EA).** If you want a dedicated expert to provide hands-on support, Microsoft has many qualified partners in their **Cloud Solution Provider (CSP) program** who can help.
 
 ### **Cloud Solution Provider model** 
 
@@ -12,6 +12,6 @@ You can find a suitable CSP at [I'm looking for a solution provider](https://www
 
 ### **Enterprise Agreements**
 
-The **Microsoft Enterprise Agreement (EA)** is designed for organizations that want to license software and cloud services for a minimum three-year period. The Enterprise Agreement offers the best value to organizations with 500 or more users or devices. One of the benefits of the Enterprise Agreement is that it's manageable, giving you the flexibility to buy cloud services and software licenses under a single organization-wide agreement.
+The **Microsoft Enterprise Agreement (EA)** is designed for organizations that want to license software and cloud services for a minimum three-year period. The Enterprise Agreement offers the best value to organizations with 500 or more users or devices. One of the benefits of the Enterprise Agreement is that it's manageable, giving you the flexibility to buy cloud services and software licenses under a single organization-wide agreement. Another benefit is that your organization can get 24x7 technical support, planning services, end-user and technical training, and unique technologies with Software Assurance.
 
 Learn more about the benefits of the Microsoft Enterprise Agreement at [Enterprise Agreement \| Microsoft Volume Licensing.](https://www.microsoft.com/Licensing/licensing-programs/enterprise?azure-portal=true)
