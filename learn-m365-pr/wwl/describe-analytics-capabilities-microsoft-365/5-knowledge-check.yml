@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/23/2022
+  ms.date: 04/24/2022
   author: wwlpublish
   ms.author: asglenno
   ms.topic: interactive-tutorial
@@ -28,17 +28,17 @@ quiz:
     - content: "A centralized learning hub in Microsoft Teams that lets you seamlessly integrate learning and building skills into your day."
       isCorrect: false
       explanation: "Incorrect. Viva Insights is a tool that helps people and businesses thrive with data-driven, privacy-protected insights, and recommendations to improve productivity and wellbeing."
-  - content: "What three areas can you view insights for within Viva Insights?"
+  - content: "Viva Insights provides insights for what three areas?"
     choices:
-    - content: "Individuals, Human Resources, and Organizations"
+    - content: "Personal, Teammates, and Organizations"
       isCorrect: false
-      explanation: "Incorrect. Viva Insights delivers insights for Individuals, Managers, and Organizations."
-    - content: "Individuals, Managers, and Organizations"
+      explanation: "Incorrect. Viva Insights provides personal insights, insights for managers, and organizational insights for business leaders."
+    - content: "Personal, Managers, and Organizations"
       isCorrect: true
-      explanation: "Correct. Viva Insights delivers insights for Individuals, Managers and Organizations."
+      explanation: "Correct. Viva Insights provides personal insights, insights for managers, and organizational insights for business leaders."
     - content: "Managers, Frontline Workers, and Organizations"
       isCorrect: false
-      explanation: "Incorrect. Viva Insights delivers insights for Individuals, Managers, and Organizations."
+      explanation: "Incorrect. Viva Insights provides personal insights, insights for managers, and organizational insights for business leaders."
   - content: "Which type of reports are available to view in the Microsoft 365 admin center?"
     choices:
     - content: "Productivity score and Security score."
