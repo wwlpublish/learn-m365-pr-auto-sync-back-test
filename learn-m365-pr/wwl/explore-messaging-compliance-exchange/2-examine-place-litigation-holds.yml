@@ -4,7 +4,7 @@ title: Examine In-Place and Litigation holds
 metadata:
   title: Examine In-Place and Litigation holds
   description: "Examine In-Place and Litigation holds"
-  ms.date: 03/09/2022
+  ms.date: 04/24/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "In-place hold"
       isCorrect: false
-      explanation: "That's incorrect. An In-Place Hold preserves only those items that meet the criteria of a search query that you define by using the In-Place eDiscovery tool. You can place multiple In-Place Holds on a mailbox. Try again."
+      explanation: "That's incorrect. An In-Place Hold preserves only those items that meet the criteria of a search query that you define by using the In-Place eDiscovery tool. You can place multiple In-Place Holds on a mailbox."
     - content: "Litigation hold"
       isCorrect: true
       explanation: "That's correct. Litigation Hold is either enabled or disabled for a mailbox. When Litigation Hold is enabled for a mailbox, all items in the mailbox are placed on hold."
     - content: "Discovery hold"
       isCorrect: false
-      explanation: "That's incorrect. There is no such hold as a Discovery hold. If a user is put on an In-Place hold, deleted items are moved to the DiscoveryHolds folder. Try again."
+      explanation: "That's incorrect. There is no such hold as a Discovery hold. If a user is put on an In-Place hold, deleted items are moved to the DiscoveryHolds folder."

@@ -17,7 +17,7 @@ Before an organization deploys directory synchronization to synchronize its on-p
 
  -  Active Directory preparation
  -  UPN suffixes
- -  Microsoft 365 IdFix tool<br>
+ -  Microsoft 365 IdFix tool
 
 Consider activating directory synchronization as a long-term commitment. After directory synchronization has been activated, synchronized objects can only be edited by using on-premises Active Directory management tools.
 
