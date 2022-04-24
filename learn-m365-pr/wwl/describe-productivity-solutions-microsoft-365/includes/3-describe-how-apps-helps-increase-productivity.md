@@ -6,7 +6,7 @@ Microsoft 365 Apps has the benefits of the cloud, giving you the flexibility to 
  -  **Work with apps that are always up to date.** You don't need to spend time installing updates or worrying about when features will be released because it's all done for you. You'll always be working with the most current features, and so are all your colleagues.
  -  **Work intelligently through connected experiences.** Microsoft 365 apps include intelligent features, also called connected experiences, to help you get work done faster and create amazing content. Connected experiences analyze your content to provide you with recommendations to improve your work. For example, get design recommendations through **PowerPoint Designer,** editing and proofing suggestions through **Editor** in Word, or get automatic updates to a bibliography through **Researcher** in Word. For more information, see [Connected experiences in Office](https://support.microsoft.com/office/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c?azure-portal=true).
 
-:::image type="content" source="../media/productivity-module-m365-apps-unit-apps-76ae03a1.png" alt-text="productivity-module-m365-apps-unit-apps.png":::
+:::image type="content" source="../media/productivity-module-microsoft-365-apps-unit-apps-176fa6d6.png" alt-text="productivity-module-m365-apps-unit-apps.png":::
 
 
 The following list explores some of the applications included in **Microsoft 365 Apps:**
