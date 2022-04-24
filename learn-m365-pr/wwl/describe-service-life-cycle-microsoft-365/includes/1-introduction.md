@@ -1,12 +1,7 @@
-Every product or service has a lifecycle, that includes product and services in Microsoft 365. Microsoft envisions, designs, develops, and tests everything internally. Once these features, products, and services are mature enough they're made available to test by the public in a preview release. After these tests succeed the feature, product, or service is released and becomes generally available.
+Every product or service has a lifecycle, and that includes products and services in Microsoft 365. Microsoft envisions, designs, develops and tests everything internally. Once these features, products, and services are mature enough, they're made available to evaluate and test by users in a preview release. After these tests succeed, the feature, product, or service is released and becomes generally available. Over time as more product releases take place, older products and services can no longer be supported and they'll reach the end of support. Your organization can stay current on feature, product, and service updates and releases by using the Microsoft 365 Roadmap.
 
-Products that are at General Availability (GA) are fully supported and have regular updates to ensure they're secure and fully functional. Over time as more and more product releases take place older products can no longer be supported and they'll reach the end of support.
+After completing this module, you should be able to:
 
-At the end of this module, you should be able to:
-
-- Describe the service lifecycle in Microsoft 365.
-- Describe private, public preview, and General Availability (GA) options.
-- Describe use cases and capabilities for the Microsoft 365 Roadmap portal.
-
-### Prerequisites
-- None
+ -  Describe the three phases of a product or services lifecycle.
+ -  Describe the Modern Lifecycle Policy and what is covered.
+ -  Describe the benefits of the Microsoft 365 Roadmap.
