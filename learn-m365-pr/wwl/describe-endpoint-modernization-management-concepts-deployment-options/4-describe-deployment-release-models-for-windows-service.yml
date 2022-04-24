@@ -13,4 +13,4 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 8
 content: |
-  [!include[](includes/4-describe-deployment-release-models-for-windows-as-service-waas.md)]
+  [!include[](includes/4-describe-deployment-release-models-for-windows-service.md)]
