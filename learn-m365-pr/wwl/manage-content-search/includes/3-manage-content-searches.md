@@ -14,7 +14,7 @@ Cloning a Content Search may also be advantageous when you need to:
  -  Reenter many previously used content locations when creating a new search, which saves time and effort.
  -  Reduce the size of the search results. For example, if you have a search that returns too many results to export, you can clone the search and then add a search condition based on a date range to reduce the number of search results.
 
-Cloning a Content Search is accomplished by copying and running the script that appears in the [Clone a Content Search page in the Microsoft 365 Purview compliance Portal](/microsoft-365/compliance/clone-a-content-search?azure-portal=true). This page includes a list of prerequisites to running the script, a copy of the script itself, and instruction on editing and running the script.
+Cloning a Content Search is accomplished by copying and running the script that appears in the [Clone a Content Search page in the Microsoft 365 Purview compliance portal](/microsoft-365/compliance/clone-a-content-search?azure-portal=true). This page includes a list of prerequisites to running the script, a copy of the script itself, and instruction on editing and running the script.
 
 Once you run the script to create the clone, you can edit and run the new search in the Microsoft 365 Purview compliance portal.
 
