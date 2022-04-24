@@ -49,4 +49,4 @@ quiz:
       explanation: "Incorrect. The roles the users must be assigned to access the sites are defined within the access package. However, they aren't part of an access package policy."
     - content: "Contoso's internal users who are eligible to request access"
       isCorrect: true
-      explanation: "Correct. Within each access package policy, an administrator or access package manager must define the users who are eligible to request access, the approval process, the users whocan approve or deny access, and the duration of a user's access assignment, once it's approved."
+      explanation: "Correct. Within each access package policy, an administrator or access package manager must define the users who are eligible to request access, the approval process, the users who can approve or deny access, and the duration of a user's access assignment, once it's approved."

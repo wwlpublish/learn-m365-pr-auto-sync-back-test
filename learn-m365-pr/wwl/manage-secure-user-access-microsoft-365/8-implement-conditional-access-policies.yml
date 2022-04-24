@@ -6,10 +6,12 @@ metadata:
   description: "implement-conditional-access-policies"
   ms.date: 04/24/2022
   author: wwlpublish
+  ms.author: tfrink
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 azureSandbox: false
 labModal: false
-durationInMinutes: 3
+durationInMinutes: 7
 content: |
   [!include[](includes/8-implement-conditional-access-policies.md)]
 quiz:
