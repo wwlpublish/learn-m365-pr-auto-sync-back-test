@@ -20,3 +20,4 @@ Use the following list of resources to learn more about the units discussed in t
  -  [Compare Microsoft 365 Enterprise plans.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?azure-portal=true)
  -  [Home \| Microsoft Licensing Resources](https://www.microsoft.com/licensing/default?azure-portal=true).
  -  [Microsoft 365 \| Microsoft Licensing Resources](https://www.microsoft.com/Licensing/product-licensing/microsoft-365?azure-portal=true).
+ -  [Understand billing accounts \| Microsoft Docs](/microsoft-365/commerce/manage-billing-accounts?azure-portal=true)

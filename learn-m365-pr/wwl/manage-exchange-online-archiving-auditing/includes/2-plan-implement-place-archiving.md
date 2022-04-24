@@ -36,7 +36,7 @@ Messaging administrators should consider the following issues when planning for 
  -  Access to an auto-expanding archive is only possible with Outlook 2016 and Outlook 2019.
  -  When an archive mailbox exceeds the specified archive quota, messages are no longer moved to the archive, a warning event is logged in the Application event log, and a quota message is sent to the mailbox user.
 
-**Additional reading**. For more information, see [Overview of unlimited archiving in Office 365](/microsoft-365/compliance/unlimited-archiving?azure-portal=true) and [In-Place Archiving in Exchange Server](/exchange/policy-and-compliance/in-place-archiving/in-place-archiving?azure-portal=true).
+**Further reading**. For more information, see [Overview of unlimited archiving in Office 365](/microsoft-365/compliance/unlimited-archiving?azure-portal=true) and [In-Place Archiving in Exchange Server](/exchange/policy-and-compliance/in-place-archiving/in-place-archiving?azure-portal=true).
 
 ### Move messages to the archive mailbox
 
@@ -45,7 +45,7 @@ There are several ways to move messages from a user's primary mailbox to their a
  -  **Move or copy messages manually.** Users can manually move or copy messages from their primary mailbox or a mounted (.pst) file to their archive mailbox in their Outlook client. The archive mailbox is displayed like any other mailbox in Outlook and Outlook on the web, and it supports drag and drop functionality.
  -  **Move or copy messages using Inbox rules.** Users can create Inbox rules in Outlook or Outlook on the web to automatically move messages to a folder in their archive mailbox.
  -  **Move messages using retention policies.** The default MRM retention policy moves messages to the in-place archive as soon as their creation timestamp exceeds two years. You can also apply personal tags to move messages to the archive mailbox.
- -  **Import messages from (.pst) files.** In Exchange Server, administrators can also use import requests to import messages from a (.pst) file to a user's archive or primary mailboxes. It’s also possible to import mailbox items from (.pst) files by using the Import function in the Security &amp; Compliance Center.
+ -  **Import messages from (.pst) files.** In Exchange Server, administrators can also use import requests to import messages from a (.pst) file to a user's archive or primary mailboxes. It’s also possible to import mailbox items from (.pst) files by using the Import function in the Microsoft Purview compliance portal.
 
 Archive policies with Message Records Management are implemented by creating retention tags that use the **Move to Archive** retention action.
 
@@ -66,7 +66,7 @@ The Default MRM Policy contains retention tags with various **Move to Archive** 
 :::row-end:::
 :::row:::
   :::column:::
-    Default 2 year move to archive.
+    Default 2-year move to archive.
   :::column-end:::
   :::column:::
     Default (DPT)
@@ -123,7 +123,7 @@ The Default MRM Policy contains retention tags with various **Move to Archive** 
 
 ### Manage in-place archiving
 
-To enable archive mailboxes for users that already have a primary mailbox, you can use the Exchange admin center, the Exchange Management Shell, or for Microsoft 365, the Security &amp; Compliance Center.
+To enable archive mailboxes for users that already have a primary mailbox, you can use the Exchange admin center, the Exchange Management Shell, or for Microsoft 365, the Microsoft Purview compliance portal.
 
 In Exchange, creating and managing archive mailboxes is integrated with common mailbox management tasks, such as:
 
