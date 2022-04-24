@@ -20,10 +20,10 @@ While the audit logging technology that’s used is the same for Exchange Server
  -  Administrator audit logging is always activated by default, no matter if you're working in Exchange Server or Exchange Online.
  -  Mailbox audit logging is activated by default in Exchange Online, but it must be activated manually per mailbox in Exchange Server. You can't use the Exchange admin center (EAC) to enable or disable mailbox audit logging. Instead, you must use the Exchange Management Shell to enable mailbox audit logging.
  -  If you don’t activate the mailbox audit log within the Exchange Server before you need to search it, the log file will be empty when you try to search it.
- -  Both audit logs can be searched in the Exchange Admin Center and through the Exchange Admin Shell. The unified audit log recording must be activated in the Microsoft 365 Compliance center before you can use the \***-UnifiedAuditLog** cmdlets.
+ -  Both audit logs can be searched in the Exchange Admin Center and through the Exchange Admin Shell. The unified audit log recording must be activated in the Microsoft Purview compliance portal before you can use the \***-UnifiedAuditLog** cmdlets.
  -  By default, the logs are available in Exchange Online for 90 days. However, with an Office 365 E5 license, you can extend the time to one year.
 
-**Additional reading**. For more information, see [Search the audit log within the compliance center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+**Further reading**. For more information, see [Search audit logs within Microsoft Purview.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 
 ### Audit reports in the EAC
 
