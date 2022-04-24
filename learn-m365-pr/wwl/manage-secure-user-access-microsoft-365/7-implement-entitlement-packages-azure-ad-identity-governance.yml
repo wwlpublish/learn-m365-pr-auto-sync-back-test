@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-secure-user-access-microsoft-365.implement-entitlement-packages-azure-ad-identity-governance
+title: Implement entitlement packages in Azure AD Identity Governance
+metadata:
+  title: Implement entitlement packages in Azure AD Identity Governance
+  description: "Implement entitlement packages in Azure AD Identity Governance"
+  ms.date: 04/24/2022
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-implement-entitlement-packages-azure-ad-identity-governance.md)]

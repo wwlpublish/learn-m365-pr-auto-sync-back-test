@@ -1,0 +1,48 @@
+### YamlMime:Module
+uid: learn.wwl.manage-secure-user-access-microsoft-365
+metadata:
+  title: Manage secure user access in Microsoft 365
+  description: "Manage secure user access in Microsoft 365"
+  ms.date: 04/24/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage secure user access in Microsoft 365
+summary: This module examines various password-related tasks for user and admin accounts, such as creating and configuring password policies, configuring self-service password management, configuring multi-factor authentication, and implementing entitlement packages and conditional access policies.
+abstract: |
+  By the end of this module, you'll be able to:
+  *   Manage user passwords
+  *   Describe pass-through authentication
+  *   Enable multi-factor authentication
+  *   Describe self-service password management
+  *   Implement Azure AD Smart Lockout
+  *   Implement entitlement packages in Azure AD Identity Governance
+  *   Implement conditional access policies
+  *   Create and perform an access review
+prerequisites: |
+  None
+iconUrl: /learn/achievements/microsoft-365-password-management.svg
+levels:
+- intermediate
+roles:
+- administrator
+- solution-architect
+- technology-manager
+products:
+- m365
+- office-365
+units:
+- learn.wwl.manage-secure-user-access-microsoft-365.introduction
+- learn.wwl.manage-secure-user-access-microsoft-365.manage-user-passwords
+- learn.wwl.manage-secure-user-access-microsoft-365.enable-pass-through-authentication
+- learn.wwl.manage-secure-user-access-microsoft-365.enable-multi-factor-authentication
+- learn.wwl.manage-secure-user-access-microsoft-365.explore-self-service
+- learn.wwl.manage-secure-user-access-microsoft-365.implement-azure-ad-smart-lockout
+- learn.wwl.manage-secure-user-access-microsoft-365.implement-entitlement-packages-azure-ad-identity-governance
+- learn.wwl.manage-secure-user-access-microsoft-365.implement-conditional-access-policies
+- learn.wwl.manage-secure-user-access-microsoft-365.create-perform-access-review
+- learn.wwl.manage-secure-user-access-microsoft-365.knowledge-check
+- learn.wwl.manage-secure-user-access-microsoft-365.summary
+badge:
+  uid: learn.wwl.manage-secure-user-access-microsoft-365.badge

@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-secure-user-access-microsoft-365.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/24/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/10-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Tailspin Toys, you're investigating the default password policy settings for Microsoft 365 users. Which of the following statements accurately reflects the Microsoft 365 password policy settings?"
+    choices:
+    - content: "Passwords expire after 60 days, and users receive an expiration notification 10 days before it occurs"
+      isCorrect: false
+      explanation: "Incorrect. This statement doesn't accurately reflect the Microsoft 365 password policy settings."
+    - content: "Passwords expire after 45 days, and users receive an expiration notification 7 days before it occurs"
+      isCorrect: false
+      explanation: "Incorrect. This statement doesn't accurately reflect the Microsoft 365 password policy settings."
+    - content: "Passwords expire after 90 days, and users receive an expiration notification 14 days before it occurs"
+      isCorrect: true
+      explanation: "Correct. Passwords expire after 90 days, and users receive an expiration notification 14 days before it occurs."
+  - content: "As the Enterprise Administrator for Tailspin Toys, you're interested in making self-service password reset functionality available to Tailspin's users. To implement self-service password reset, which of the following conditions must be in place?"
+    choices:
+    - content: "Password reset is only available for Microsoft 365 users with cloud identities that have passwords that aren't linked to the on-premises AD DS"
+      isCorrect: true
+      explanation: "Correct. This condition is required because a password from Microsoft 365 can't be synchronized back to on-premises AD DS without using other synchronization services."
+    - content: "Password reset enables users to reset their own password after the Password administrator starts the transaction"
+      isCorrect: false
+      explanation: "Incorrect. This condition won't enable Tailspin Toys to implement self-service password reset."
+    - content: "To reset a password, either a Global administrator or a Password administrator must first authenticate the user's identity"
+      isCorrect: false
+      explanation: "Incorrect. This condition won't enable Tailspin Toys to implement self-service password reset."
+  - content: "As Contoso's enterprise administrator, you're creating an access package within Azure AD entitlement management. This package will manage access to SharePoint Online sites for your internal users. As part of the access package, you're creating an internal user policy. Which of the following items must you define as part of the internal user policy?"
+    choices:
+    - content: "The sites that Contoso's internal users need access to"
+      isCorrect: false
+      explanation: "Incorrect. The resources (groups, apps, and sites) the users need access to are defined within the access package. However, they aren't part of an access package policy."
+    - content: "The roles that Contoso's internal users must be assigned to access the sites"
+      isCorrect: false
+      explanation: "Incorrect. The roles the users must be assigned to access the sites are defined within the access package. However, they aren't part of an access package policy."
+    - content: "Contoso's internal users who are eligible to request access"
+      isCorrect: true
+      explanation: "Correct. Within each access package policy, an administrator or access package manager must define the users who are eligible to request access, the approval process, the users whocan approve or deny access, and the duration of a user's access assignment, once it's approved."

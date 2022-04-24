@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-secure-user-access-microsoft-365.create-perform-access-review
+title: Create and run an access review
+metadata:
+  title: Create and run an access review
+  description: "Create and run an access review"
+  ms.date: 04/24/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/9-create-perform-access-review.md)]
