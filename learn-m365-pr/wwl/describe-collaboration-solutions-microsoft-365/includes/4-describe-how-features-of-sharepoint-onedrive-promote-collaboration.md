@@ -26,4 +26,4 @@ The following list describes how OneDrive empowers you and your team to collabor
  -  **Quickly find files that matter most.** Finding content in your OneDrive is simplified through the intelligence of the Microsoft Graph application programming interface. This feature simplifies finding what's important by providing file recommendations based on your relationship to other people, how you received various files, and when you last accessed them.
  -  **Protect your files with enterprise-grade security.** OneDrive has many security and compliance features, enabling you to meet some of the strictest compliance requirements out there.
 
-:::image type="content" source="../media/collaborative-module-onedrive-unit-4ba66c42.png" alt-text="collaborative-module-onedrive-unit.png":::
+:::image type="content" source="../media/collaborative-module-one-drive-unit-7655d8ac.png" alt-text="collaborative-module-onedrive-unit.png":::
