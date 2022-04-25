@@ -4,7 +4,7 @@ title: Configure workload policies and throttling
 metadata:
   title: Configure workload policies and throttling
   description: "Configure workload policies and throttling"
-  ms.date: 03/09/2022
+  ms.date: 04/25/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Workloads with an Internal Maintenance classification"
       isCorrect: false
-      explanation: "That's incorrect. Workloads with an Internal Maintenance classification aren't the first to be slowed down. Try again."
+      explanation: "That's incorrect. Workloads with an Internal Maintenance classification aren't the first to be slowed down."
     - content: "Workloads with a Discretionary classification"
       isCorrect: true
       explanation: "That's correct. If server resources are highly used, Exchange Server progressively slows down the lowest priority workloads. Priorities are defined by the classification assigned to each workload: Urgent, Customer Expectation, Internal Maintenance, and Discretionary. Urgent classification has the highest priority and Discretionary classification has the lowest priority. Because Contoso has resources running workloads with each type of classification, the Discretionary workloads are slowed down first."
     - content: "Workloads with a Customer Expectation classification"
       isCorrect: false
-      explanation: "That's incorrect. Workloads with a Customer Expectation classification aren't the first to be slowed down. Try again."
+      explanation: "That's incorrect. Workloads with a Customer Expectation classification aren't the first to be slowed down."
