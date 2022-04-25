@@ -4,7 +4,7 @@ title: Create new roles, role assignments, and scopes
 metadata:
   title: Create new roles, role assignments, and scopes
   description: "Create new roles, role assignments, and scopes"
-  ms.date: 03/09/2022
+  ms.date: 04/25/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,7 +24,7 @@ quiz:
       explanation: "That's correct. While you can use the EAC to create and manage custom role assignment policies, it doesn't allow you to assign custom roles to them. To create new user roles and assign them to role assignment policies, you must use the Exchange Management Shell."
     - content: "Holly must use the Exchange admin center (EAC)"
       isCorrect: false
-      explanation: "That's incorrect. While you can use the EAC to create and manage custom role assignment policies, it doesn't allow you to assign custom roles to them. Try again."
+      explanation: "That's incorrect. While you can use the EAC to create and manage custom role assignment policies, it doesn't allow you to assign custom roles to them."
     - content: "Holly must use the Microsoft 365 Defender portal"
       isCorrect: false
-      explanation: "That's incorrect. You can't use the Microsoft 365 Defender portal to create new user roles and assign them to role assignment policies. Try again."
+      explanation: "That's incorrect. You can't use the Microsoft 365 Defender portal to create new user roles and assign them to role assignment policies."
