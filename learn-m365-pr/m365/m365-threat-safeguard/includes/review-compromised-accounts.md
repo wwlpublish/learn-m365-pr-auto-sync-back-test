@@ -25,7 +25,7 @@ The following scenario describes an investigation into an attacker gaining admin
 
 The first alert we notice in the Defender for Cloud Apps portal shows **User and IP address reconnaissance** (SMB). Clicking into this alert, we see (under Description) that a user was able to learn the IP addresses of two accounts by enumerating SMB sessions on the domain controller.
 
-:::image type="content" source="../media/user-ip-address-reconnaissance.png" alt-text="User and I P address reconnaissance." lightbox="../media/user-ip-address-reconnaissance.png" border="false":::
+:::image type="content" source="../media/user-ip-address-reconnaissance.png" alt-text="User and I P address reconnaissance." lightbox="../media/user-ip-address-reconnaissance-magnify.png" border="false":::
 
 Within the alert, we can also find the activity log, which shows more information about the command that was run.
 
