@@ -25,7 +25,7 @@ Hover your cursor over the **Average weekly collaboration** chart data to get mo
 
 ### Origin of data counts
 
-In **Sources &gt;; Microsoft 365 data**, you can see the current count of three categories of data. Most of this data originates with people in your organization, who may or may not have Microsoft Viva Insights licenses. However, some data originates outside of your organization or comes from mailboxes of other types.
+In **Sources > Microsoft 365 data**, you can see the current count of three categories of data. Most of this data originates with people in your organization, who may or may not have Microsoft Viva Insights licenses. However, some data originates outside of your organization or comes from mailboxes of other types.
 
 Determining the origins of data also determines how to categorize it, as shown in the following flow chart.
 
