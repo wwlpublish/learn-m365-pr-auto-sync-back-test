@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Microsoft 365 Defender portal"
       isCorrect: false
-      explanation: "That's incorrect. Retention policies can't be created in the Microsoft 365 Defender portal."
+      explanation: "Incorrect. Retention policies can't be created in the Microsoft 365 Defender portal."
     - content: "Exchange admin center"
       isCorrect: false
-      explanation: "That's incorrect. Retention policies created in the EAC are available in Exchange only."
+      explanation: "Incorrect. Retention policies created in the EAC are available in Exchange only."
     - content: "Microsoft Purview compliance portal"
       isCorrect: true
-      explanation: "That's correct. Retention Policies created in Microsoft Purview are usable across multiple services, such as Exchange Online, SharePoint Online, Teams, and so on. Retention policies created in the EAC are available in Exchange only."
+      explanation: "Correct. Retention Policies created in Microsoft Purview are usable across multiple services, such as Exchange Online, SharePoint Online, Teams, and so on. Retention policies created in the EAC are available in Exchange only."
