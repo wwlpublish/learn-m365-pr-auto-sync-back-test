@@ -32,7 +32,7 @@ View 2 of the *Areas of improvement report* summarizes the key metrics that were
 
 The *Glossary* includes metrics and terminology used within the dashboard.
 
-:::image type="content" source="../media/glossary.png" alt-text="The Glossary." lightbox="../media/glossary.png" border="false":::
+:::image type="content" source="../media/glossary.png" alt-text="The Glossary." lightbox="../media/glossary-lightbox.png" border="false":::
 
 ## Learn more
 
