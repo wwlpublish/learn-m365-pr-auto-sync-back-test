@@ -4,7 +4,7 @@ title: Examine built-in management role groups
 metadata:
   title: Examine built-in management role groups
   description: "Examine built-in management role groups"
-  ms.date: 03/09/2022
+  ms.date: 04/25/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Assign the built-in role groups to the administrators and then customize the roles assigned to these role group to meet Tailspin's requirements"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't what Alan should do to address this situation. Try again."
+      explanation: "That's incorrect. This action isn't what Alan should do to address this situation."
     - content: "Create custom role groups and add roles to them"
       isCorrect: true
       explanation: "That's correct. If the built-in role groups in Exchange don't match the job function of your administrators, you can create custom role groups and add roles to them."
     - content: "Create custom roles that meet Tailspin's requirements and assign the roles to the administrators"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't what Alan should do to address this situation. Try again."
+      explanation: "That's incorrect. This action isn't what Alan should do to address this situation."

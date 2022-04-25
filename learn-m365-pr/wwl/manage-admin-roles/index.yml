@@ -3,7 +3,7 @@ uid: learn.wwl.manage-admin-roles
 metadata:
   title: Manage administrator roles
   description: "Manage administrator roles"
-  ms.date: 03/09/2022
+  ms.date: 04/25/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -28,6 +28,7 @@ products:
 - office
 - office-365
 - office-exchange-server
+- office-exchange-online
 units:
 - learn.wwl.manage-admin-roles.introduction
 - learn.wwl.manage-admin-roles.explore-role-based-access-control

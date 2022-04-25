@@ -4,7 +4,7 @@ title: Explore Role-Based Access Control
 metadata:
   title: Explore Role-Based Access Control
   description: "Explore Role-Based Access Control"
-  ms.date: 03/09/2022
+  ms.date: 04/25/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Assign a role group that includes multiple roles"
       isCorrect: false
-      explanation: "That's incorrect. Role groups are only used with administrative roles and not end-user roles. Try again."
+      explanation: "That's incorrect. Role groups are only used with administrative roles and not end-user roles."
     - content: "Through a role assignment policy"
       isCorrect: false
-      explanation: "That's incorrect. Role assignment policies aren't used for assigning roles to users. Try again."
+      explanation: "That's incorrect. Role assignment policies aren't used for assigning roles to users."
     - content: "By assigning each individual end-user role to Susie"
       isCorrect: true
       explanation: "That's correct. Holly can't assign a role group to Susie, because role groups are only used with administrative roles and not end-user roles. Holly must assign each individual end-user role to Susie."
