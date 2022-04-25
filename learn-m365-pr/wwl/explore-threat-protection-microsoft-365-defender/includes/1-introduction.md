@@ -35,3 +35,4 @@ After completing this module, you'll be able to:
  -  Describe how Microsoft Defender anti-phishing policies work.
  -  Understand the process to manage the Tenant Allow/Block list in Microsoft 365 Defender.
  -  Understand how Advanced Hunting can be used to track events in your secure messaging environment.
+ 
