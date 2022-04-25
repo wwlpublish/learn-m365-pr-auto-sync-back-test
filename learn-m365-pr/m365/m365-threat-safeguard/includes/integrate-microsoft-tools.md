@@ -4,7 +4,7 @@ The Microsoft Defender for Identity cloud service runs on Azure infrastructure a
 
 Once integrated into Microsoft Defender for Cloud Apps, you'll be able to see on-premises activities for all the users in your organization. You will also get advanced insights on your users that combine alerts and suspicious activities across your cloud and on-premises environments. Additionally, policies from Microsoft Defender for Identity will appear on the Defender for Cloud Apps policies page. The following screenshot shows Microsoft Defender for Identity reporting within Defender for Cloud Apps.
 
-:::image type="content" source="../media/azure-reporting-cloud-app-security.png" alt-text="Microsoft Defender for Identity reporting within Microsoft Defender for Cloud Apps." lightbox="../media/azure-reporting-cloud-app-security.png" border="false":::
+:::image type="content" source="../media/azure-reporting-cloud-app-security.png" alt-text="Microsoft Defender for Identity reporting within Microsoft Defender for Cloud Apps." lightbox="../media/azure-reporting-cloud-app-security-magnify.png" border="false":::
 
 >
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4CVTT]
