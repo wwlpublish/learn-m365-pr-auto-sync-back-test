@@ -49,7 +49,7 @@ Microsoft Defender for Identity has detected theft of a ticket from a domain adm
 
 In the next alert, we see that the stolen credentials were used to run a remote command on the domain controller.
 
-:::image type="content" source="../media/alert-remote-code-execution.png" alt-text="Alert showing remote code execution attemptl." lightbox="../media/alert-remote-code-execution.png" border="false":::
+:::image type="content" source="../media/alert-remote-code-execution.png" alt-text="Alert showing remote code execution attemptl." lightbox="../media/alert-remote-code-execution-magnify.png" border="false":::
 
 Looking into the Activity Log for the alert, we see that the command was to create a new user within the Administrators group.
 
