@@ -105,7 +105,7 @@ As organizations transition to digital collaboration, it might be difficult for 
 
 This view gives a population-level look at three opportunity areas to get more out of using Microsoft Teams.
 
-:::image type="content" source="../media/opportunity-areas.png" alt-text="Opportunity areas to get more out of Teams report." lightbox="../media/opportunity-areas.png" border="false":::
+:::image type="content" source="../media/opportunity-areas.png" alt-text="Opportunity areas to get more out of Teams report." lightbox="../media/opportunity-areas-lightbox.png" border="false":::
 
 **Increase channel and IM use to speed up communication** - Employees who send a lot of emails and spend a lot of hours in meetings can make communication more efficient by switching to Teams instant messages and postings to Teams channels.
 
