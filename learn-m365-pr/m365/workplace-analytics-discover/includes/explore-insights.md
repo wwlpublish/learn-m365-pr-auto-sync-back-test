@@ -8,7 +8,7 @@ At the top right, **Your organization's data** shows the date range and the numb
 
 Scroll down to see all of the themed business outcomes.
 
-![Home page](../media/home-insights.png)
+:::image type="content" source="../media/home-insights.png" alt-text="Home page." border="false":::
 
 >[!NOTE]
 >This analysis reflects a rolling window of the six most recent months of weekly collaboration data.
@@ -27,7 +27,7 @@ The following business outcomes are shown on the Home page:
 
 Select any of the business outcomes to see high-level analysis based on the key leading indicators. The following example is a glimpse into the **Develop effective managers** outcome.
 
-![Develop effective managers outcome.](../media/develop-manager.png)
+:::image type="content" source="../media/develop-manager.png" alt-text="Develop effective managers outcome." border="false":::
 
 For additional resources and analyses, you can explore the following links:
 
@@ -38,25 +38,25 @@ For additional resources and analyses, you can explore the following links:
 
 You are an HR executive at Contoso Corporation, and have been asked to work with your team to determine if managers are spending enough time developing employees in the organization. Using Workplace Analytics, you navigate to the Home page, select the **Develop effective managers** outcome, and scroll down to the **Promote coaching and development** insight. There, you find that over 60 percent of employees at Contoso get less than 15 minutes of one-on-one time with their manager in a month, indicating a need for more coaching.
 
-![Coaching scenario](../media/coaching-scenarios.png)
+:::image type="content" source="../media/coaching-scenarios.png" alt-text="Coaching scenario." border="false":::
 
 In the **Take action** section of the insight, you can select **See your insights** to see impactful next steps you can take to drive change in your organization. For example, in **Develop effective managers > Increase frequency of coaching > See your insights**, you'll see recommendations, such as scheduling recurring one-on-one meetings, and groups that could benefit the most from these recommendations. This example also provides a link to **Explore the stats** for more analysis.
 
-![Take action insights](../media/take-action.png)
+:::image type="content" source="../media/take-action.png" alt-text="Take action insights." border="false":::
 
 >[!NOTE]
 >In addition to recommendations in the **Take action** section, you might also see links to **Explore the stats**, **Explore in Power BI**, or the option to create **Plans** and track their success. The combination of these depends on the insights and your assigned role.
 
 **Explore the stats** is a quick way to look at metrics summarized by groups over time. While the Home page shows high-level insights related to business outcomes, **Explore the stats** cover a wider range of metrics.
 
-![Explore the stats](../media/explore-stats.png)
+:::image type="content" source="../media/explore-stats.png" alt-text="Explore the stats." border="false":::
 
 >[!NOTE]
 >**Explore the stats** analysis reflects a rolling window of the six most recent months of weekly collaboration data.
 
 Within the Explore the stats dashboards, you can change the filters and settings for the data shown on the page. At the top right of the page, select **Settings and filters** to open **Page settings**. In Page settings, you can change the date range of the data, how the measured employees are grouped, add filters, and change the maximum number of groups shown in the data.
 
-![Settings and filters opens the page settings](../media/settings-filters.png)
+:::image type="content" source="../media/settings-filters.png" alt-text="Settings and filters opens the page settings." border="false":::
 
 ### Explore the stats example scenario
 
@@ -64,7 +64,7 @@ As an executive on the HR team, you learned from a recent engagement survey that
 
 In **Develop effective managers** > **Promote coaching and development** > **See your insights**, you select **Explore the stats** to view the **Management and coaching** dashboard. You would like a recent snapshot of the data, so in the upper right corner of the dashboard, you confirm the date range in **Settings and filters** is set to the last three months, group by **Organization**, and select **Apply**. In the **Meeting hours with direct manager present** chart, you notice that over half of the Sales group's meeting time includes their manager, indicating an opportunity to simultaneously empower employees through delegation and free up manager time for strategic tasks.
 
-![Co-attendance scenario](../media/co-attendance-scenario.png)
+:::image type="content" source="../media/co-attendance-scenario.png" alt-text="Co-attendance scenario." border="false":::
 
 ## Learn more
 

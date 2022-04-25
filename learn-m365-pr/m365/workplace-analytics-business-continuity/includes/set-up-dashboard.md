@@ -37,7 +37,7 @@ To load the data into the template:
 6. Return to Power BI and paste the OData link in **Hourly Collaboration Query URL**.
 7. Select **Load** to load the data.
 
-![Load data into the template procedure](../media/load-data-template.png)
+:::image type="content" source="../media/load-data-template.png" alt-text="Load data into the template procedure." lightbox="../media/load-data-template.png" border="false":::
 
 The dashboard visualizations on each page of the report populate with Workplace Analytics data, starting with the **Settings** page.
 
@@ -47,7 +47,7 @@ The dashboard visualizations on each page of the report populate with Workplace 
 * Select from the list of organizational attributes you chose to include in your query. Default attributes are **Organization**, **LevelDesignation** and **TimeZone**, but the list will include any organizational attributes selected when queries were run.
 * To filter the reports further, select any of the available organizational attributes and filter values for the data you would like to include.
 
-![Settings options](../media/options-settings.png)
+:::image type="content" source="../media/options-settings.png" alt-text="Settings options." lightbox="../media/options-settings.png" border="false":::
 
 After you've selected the settings for the group you'd like to analyze, you can start using the dashboard. The populated Business continuity dashboard includes report pages on changing collaboration, work-life integration, external relationships, engagement and connectivity, evolving work patterns, and areas of improvement.
 
