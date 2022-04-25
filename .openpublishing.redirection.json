@@ -2299,6 +2299,26 @@
       "source_path": "learn-m365-pr/wwl/explore-sharepoint-online/9-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/explore-sharepoint-online/10-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-messaging-compliance-exchange/5-analyze-message-tracking.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-messaging-compliance-exchange/4-analyze-message-tracking",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-messaging-compliance-exchange/4-configure-data-loss-prevention-policies-exchange.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-messaging-compliance-exchange/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-messaging-compliance-exchange/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-messaging-compliance-exchange/5-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-messaging-compliance-exchange/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-messaging-compliance-exchange/6-summary",
+      "redirect_document_id": true
     }
   ]
 }
