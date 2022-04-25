@@ -83,8 +83,10 @@ The primary difference between an eDiscovery Manager and an eDiscovery Administr
     Organization Management
   :::column-end:::
   :::column:::
-    Members can manage Exchange objects and their properties in the Exchange organization. Members can also delegate role groups and management roles in the organization. This role group shouldn't be deleted.> [!NOTE]
-> Microsoft 365 global admins are automatically added as members of this role group.
+    Members can manage Exchange objects and their properties in the Exchange organization. Members can also delegate role groups and management roles in the organization. This role group shouldn't be deleted.
+
+    > [!NOTE]
+    > Microsoft 365 global admins are automatically added as members of this role group.
   :::column-end:::
 :::row-end:::
 :::row:::
