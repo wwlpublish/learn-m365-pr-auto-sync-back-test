@@ -1,4 +1,4 @@
-:::image type="content" source="../media/integration-architecture.png" alt-text="Integration architecture." lightbox="../media/integration-architecture.png" border="false":::
+:::image type="content" source="../media/integration-architecture.png" alt-text="Integration architecture." lightbox="../media/integration-architecture-magnify.png" border="false":::
 
 The Microsoft Defender for Identity cloud service runs on Azure infrastructure and is currently deployed in the US, Europe, and Asia. Microsoft Defender for Identity cloud service is connected to Microsoft's intelligent security graph. This enables Microsoft Defender for Identity to integrate with Microsoft Defender for Cloud Apps, as part of a Microsoft 365 Defender monitoring strategy.
 
