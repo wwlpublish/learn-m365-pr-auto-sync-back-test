@@ -29,7 +29,7 @@ The first alert we notice in the Defender for Cloud Apps portal shows **User and
 
 Within the alert, we can also find the activity log, which shows more information about the command that was run.
 
-:::image type="content" source="../media/activity-log.png" alt-text="Activity log." lightbox="../media/activity-log.png" border="false":::
+:::image type="content" source="../media/activity-log.png" alt-text="Activity log." lightbox="../media/activity-log-magnify.png" border="false":::
 
 Back in the Alerts overview, we can see a more recent alert pointing to an **overpass-the-hash attack**.
 
