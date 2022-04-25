@@ -11,7 +11,7 @@ Viva Connections offers added functionality through three primary components des
  -  **Resources.** The resources experience enables a way to navigate across platforms. It provides users with a familiar navigation structure from the SharePoint app bar and allows them to open sites, pages, news, and more.
 
 :::image type="content" source="../media/microsoft-viva-connections-7a9cb003.jpg" alt-text="microsoft-viva-connections.jpg":::
-<br>
+
 
 ### Viva Insights
 

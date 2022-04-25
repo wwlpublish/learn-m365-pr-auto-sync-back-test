@@ -1,4 +1,4 @@
-**Microsoft Teams** is a hub for teamwork. It’s an app for people and teams to come together, stay connected, and get things done, across work, home, school, and on the go. Teams helps you pull together a team and connect with colleagues through real-time messaging and engaging and inclusive meetings. You can use channels to share files and data, manage tasks, and collaborate on documents with people inside and outside your organization. All these features can be done while staying secure and compliant. Make Teams your own by adding notes, websites, and integrating with other apps and processes your team uses.<br>
+**Microsoft Teams** is a hub for teamwork. It’s an app for people and teams to come together, stay connected, and get things done, across work, home, school, and on the go. Teams helps you pull together a team and connect with colleagues through real-time messaging and engaging and inclusive meetings. You can use channels to share files and data, manage tasks, and collaborate on documents with people inside and outside your organization. All these features can be done while staying secure and compliant. Make Teams your own by adding notes, websites, and integrating with other apps and processes your team uses.
 
 Users can access Teams through their internet browser, or by installing Teams on their computer or mobile device. Teams comes with many features and functionalities to help your users connect and work together to get things done.
 
@@ -59,7 +59,7 @@ Stay connected with voice and video calling using **Microsoft Teams Phone** on y
 :::image type="content" source="../media/collaborative-module-teams-unit-meetings-share-c18ef66d.png" alt-text="collaborative-module-teams-unit-meetings-share.png":::
 
 
-### Extend Teams by using collaborative apps<br>
+### Extend Teams by using collaborative apps
 
 A **collaborative app** is a solution integrated or built into Teams that enables employees to work better together, using the tools they already know. Microsoft Teams is an extensible platform that you can create custom applications on. Apps for Teams can be as simple or as complex, as you need, from sending notifications to channels or users, to complex multi-surface apps incorporating conversational bots, natural language processing, and embedded web experiences. You can build apps for an individual, your team, your organization, or for all Microsoft Teams users everywhere.
 
