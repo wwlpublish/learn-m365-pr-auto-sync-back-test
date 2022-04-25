@@ -3,7 +3,7 @@ uid: learn.wwl.exchange-setup-using-role-based-permissions
 metadata:
   title: Analyze role-based permissions
   description: "Analyze role-based permissions"
-  ms.date: 03/09/2022
+  ms.date: 04/25/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -26,6 +26,7 @@ products:
 - office
 - office-365
 - office-exchange-server
+- office-exchange-online
 units:
 - learn.wwl.exchange-setup-using-role-based-permissions.introduction
 - learn.wwl.exchange-setup-using-role-based-permissions.explore-split-permissions
