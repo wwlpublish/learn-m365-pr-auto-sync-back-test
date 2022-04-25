@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn.wwl.plan-for-message-hygiene
 metadata:
-  title: Plan for message hygiene
-  description: "Plan for message hygiene"
-  ms.date: 03/09/2022
+  title: Plan for message security
+  description: "Plan for message security"
+  ms.date: 04/25/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Plan for message hygiene
+title: Plan for message security
 summary: Examines Exchange Online Protection features and functionality, how to plan messaging routing for this service, and the EOP reports and logs that are available to analyze message hygiene in an organization.
 abstract: |
   By the end of this module, you'll be able to:
@@ -26,6 +26,7 @@ products:
 - office
 - office-365
 - office-exchange-server
+- office-exchange-online
 units:
 - learn.wwl.plan-for-message-hygiene.introduction
 - learn.wwl.plan-for-message-hygiene.explore-exchange-online-protection
