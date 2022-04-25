@@ -45,7 +45,7 @@ The next alert shows a **Suspected identity theft (pass-the-ticket)**.
 
 Microsoft Defender for Identity has detected theft of a ticket from a domain administrator to the infiltrated PC. The Defender for Cloud Apps portal shows exactly which resources were accessed using the stolen tickets.
 
-:::image type="content" source="../media/alert-pass-ticket.png" alt-text="More information on the pass-the-ticket alert." lightbox="../media/alert-pass-ticket.png" border="false":::
+:::image type="content" source="../media/alert-pass-ticket.png" alt-text="More information on the pass-the-ticket alert." lightbox="../media/alert-pass-ticket-magnify.png" border="false":::
 
 In the next alert, we see that the stolen credentials were used to run a remote command on the domain controller.
 
