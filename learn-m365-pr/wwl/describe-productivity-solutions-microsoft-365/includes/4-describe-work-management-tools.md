@@ -26,7 +26,7 @@ The **work management solutions** through Microsoft 365 allow your teams to work
  -  Receive notifications to stay on top of deadlines.
  -  Monitor your team’s progress with colorful visual cues and built-in status reporting.
  -  Utilize the visuals such as the task board, charts page, and a schedule view to summarize the status of your entire plan and individual tasks.
- -  Integrate with Teams by adding a "Tasks by Planner" tab, use @mentions in Word, Excel, and PowerPoint to assign tasks, and add your plans to your calendar in Outlook.<br>
+ -  Integrate with Teams by adding a "Tasks by Planner" tab, use @mentions in Word, Excel, and PowerPoint to assign tasks, and add your plans to your calendar in Outlook.
 
 :::image type="content" source="../media/productivity-module-work-management-unit-planner-901f3dbb.png" alt-text="productivity-module-work-management-unit-planner.png":::
 
