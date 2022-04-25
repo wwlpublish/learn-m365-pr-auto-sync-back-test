@@ -10,7 +10,7 @@ No matter which one you choose, you can add, remove, or reorder web parts as nee
 
 Each news article and page can have its own set of comments. You can use the Yammer web part for broad discussion scenarios as well as targeted responses to engage your viewers on the sole message and content on the page.
 
-![Communication site showcase example](../media/comm-site-showcase.png)
+:::image type="content" source="../media/comm-site-showcase.png" alt-text="Communication site showcase example." border="false":::
 
 ## Site pages
 

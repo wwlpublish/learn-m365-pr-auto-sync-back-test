@@ -6,11 +6,11 @@ You're now ready to validate and test Teams Rooms to make sure all's working pro
 
 1. Create a new meeting. Select **New Meeting** on the console.
 
-   ![Select New Meeting](../media/new-meeting.png)
+   :::image type="content" source="../media/new-meeting.png" alt-text="Select New Meeting." border="false":::
 
 1. Type in the name of someone in your organization. In the following examples, we'll use Sara Perez. After typing Sara's  name, you'd select her account from the list of results and then choose **Invite** to invite her to the meeting.
 
-   ![Invite someone to the meeting](../media/meeting-invite.png)
+   :::image type="content" source="../media/meeting-invite.png" alt-text="Invite someone to the meeting." border="false":::
 
 1. We see that Sara has joined the meeting. At this point, you would work with Sara to make sure the camera and audio are working correctly and that you can see each other. You should also share a laptop into the meeting via the HDMI cable connected to the console.
 
@@ -20,7 +20,7 @@ You're now ready to validate and test Teams Rooms to make sure all's working pro
    > On the bottom left of the screen you can see **Report a problem**. This would be chosen by users if they had an issue to report. You need to set up an e-mail address in the Device sections of Teams Rooms settings for this option to appear.
    >
 
-![Hang up or Report a problem](../media/report-problem.png)
+:::image type="content" source="../media/report-problem.png" alt-text="Hang up or Report a problem." border="false":::
 
 ### Test dial-out calling
 
@@ -30,7 +30,7 @@ If your resource account is configured with a telephone number, you can test dia
 1. Test the audio to make sure you can reach the remote attendee and that you can hear each other clearly.  
 1. Once you've validated that the audio and the phone call work, you can hang up and move on to the next test.
 
-   ![Place a test call](../media/place-test-call.png)
+   :::image type="content" source="../media/place-test-call.png" alt-text="Place a test call." border="false":::
 
 ### Test dial-in calling
 
@@ -40,7 +40,7 @@ In the dial-in test, you dial the phone number of the resource account.
 1. Choose to answer with audio only, as video won't work on a public telephone call. Make sure that you can successfully answer the call and validate that audio works just as in the dial-out test.
 1. After you verify that the call worked as expected, you can hang up and move on to the next test.
 
-   ![Test dialing in](../media/dial-in-test.png)
+   :::image type="content" source="../media/dial-in-test.png" alt-text="Test dialing in." border="false":::
 
 ### Test HDMI ingest
 
@@ -50,7 +50,7 @@ The next test validates the HDMI ingest feature.
 1. If auto-sharing is enabled, the screen will change to show the **Stop presenting** icon. The front-of-room display will show the same thing that's being shown on the laptop. If auto-sharing is not enabled, you'll have to click the **Present** icon on the console.
 1. When you're done with this test, click **Stop Presenting.**
 
-   ![Stop presenting](../media/stop-presenting.png)
+   :::image type="content" source="../media/stop-presenting.png" alt-text="Stop presenting." border="false":::
 
 ### Test joining a scheduled meeting
 
@@ -62,13 +62,13 @@ The next test validates joining a scheduled meeting.
    > Learn about resource accounts and how to add one to a meeting in the module **Deploy Microsoft Teams Rooms**.
    >
 
-   ![Validate setting up a scheduled meeting](../media/validate-joining-scheduled.png)
+   :::image type="content" source="../media/validate-joining-scheduled.png" alt-text="Validate setting up a scheduled meeting." border="false":::
 
 1. Click the **Join** button to test the meeting.
 1. Teams Rooms joins the meeting and then you can test with another remote attendee (Sara in this example) to make sure audio, video, and sharing work correctly.
 1. After validating that the meeting join worked, you can hang up and leave the meeting.
 
-   ![Validate joining a scheduled meeting](../media/testing-join.png)
+   :::image type="content" source="../media/testing-join.png" alt-text="Validate joining a scheduled meeting." border="false":::
 
 After you've completed those initial tests, there may be some additional things that need to be validated.
 

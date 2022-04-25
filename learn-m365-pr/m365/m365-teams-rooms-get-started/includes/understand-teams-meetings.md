@@ -1,6 +1,6 @@
 In the world's best-performing companies, 70 percent of employees are engaged but 60 percent are unsatisfied with their meetings. Fifty-seven percent find meetings unproductive.
 
-![percentage of employees who don't find meetings productive](../media/meeting-percentages.png)
+:::image type="content" source="../media/meeting-percentages.png" alt-text="Percentage of employees who don't find meetings productive." border="false":::
 
 One of the reasons Microsoft Teams was created was to address these issues. Chats, meetings, and calls all happen in one application, so you're not dealing with different tools to have productive meetings.
 
@@ -12,13 +12,13 @@ Historically, meetings ran in three different silos. There's meeting-related act
 
 This is the Microsoft Teams meeting lifecycle.
 
-![The Microsoft Teams meeting lifecycle](../media/meeting-lifecycle.png)
+:::image type="content" source="../media/meeting-lifecycle.png" alt-text="The Microsoft Teams meeting lifecycle." border="false":::
 
 Microsoft Teams offers easy, high-quality experiences using cloud-based technologies to maximize performance using any device type. Microsoft Teams helps remove distractions by allowing you to personalize your video with custom backgrounds and background blur. And, of course, Microsoft 365 is secure and manageable, featuring compliance, security, and manageability that you can have confidence in.
 
 ## Dial into meetings with audio conferencing
 
-![Secure and reliable audio conferencing support](../media/audio-conferencing-support.png)
+:::image type="content" source="../media/audio-conferencing-support.png" alt-text="Secure and reliable audio conferencing support." border="false":::
 
 Audio conferencing allows meeting attendees to call in from a mobile or cell phone while they're traveling, or dial in using a traditional telephone if they have poor internet connectivity. Microsoft audio conferencing is available in 72 countries with dial-in numbers for 90 countries and 400 cities.
 
