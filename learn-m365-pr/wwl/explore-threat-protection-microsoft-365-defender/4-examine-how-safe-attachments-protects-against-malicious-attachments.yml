@@ -4,7 +4,7 @@ title: Examine how Safe Attachments protects against malicious attachments
 metadata:
   title: Examine how Safe Attachments protects against malicious attachments
   description: "Examine how Safe Attachments protects against malicious attachments"
-  ms.date: 03/09/2022
+  ms.date: 04/25/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Block"
       isCorrect: false
-      explanation: "That's incorrect. This option prevents messages with detected malware attachments from being delivered. Try again."
+      explanation: "That's incorrect. This option prevents messages with detected malware attachments from being delivered."
     - content: "Dynamic Delivery"
       isCorrect: false
-      explanation: "That's incorrect. This option eliminates email delays by sending the body of an email message through to the recipient with a placeholder for each email attachment. Try again."
+      explanation: "That's incorrect. This option eliminates email delays by sending the body of an email message through to the recipient with a placeholder for each email attachment."
     - content: "Replace"
       isCorrect: true
       explanation: "That's correct. This option removes detected malware attachments and notifies recipients that attachments have been removed. Messages that contain malicious attachments are quarantined."

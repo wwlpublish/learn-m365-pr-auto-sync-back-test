@@ -13,16 +13,16 @@ Microsoft Defender for Office 365 extends the protection provided by EOP by filt
 
 When integrated together, EOP and Microsoft Defender for Office 365 provide the most efficient level of protection against commodity and advanced targeted threats.
 
-This module examines how Microsoft Defender for Office 365 protects users from advanced threats through features such as safe attachments and safe links. You'll also learn about Configuration Analyzer, which reviews an organization's threat protection policies and provides suggestions for improvement. The module then explores how to manage spoof intelligence features and anti-phishing policies.
+This module examines how Microsoft Defender for Office 365 protects users from advanced threats through features such as safe attachments and safe links. You'll also learn about Configuration Analyzer, which reviews an organization's threat protection policies and provides suggestions for improvement. The module then explores how to manage spoof intelligence features and anti-phishing policies. Lastly, we'll explore how the tenant allow/block list can help you manage manual overrides to further fine-tune your secure messaging environment and take a glimpse into advanced threat queries using advanced hunting in Microsoft Defender for Office 365.
 
 ### Prerequisites
 
 This module is designed for persons who are aspiring to the Microsoft 365 Messaging Administrator role. The prerequisites for this module include:
 
- -  Ability to navigate the Microsoft 365 admin center, the Exchange admin center, and the Microsoft 365 Defender portal
- -  Ability to create Domain Name System (DNS) records at an intermediate level
- -  Familiarity with Active Directory concepts such as centralized domain management, sites, and directory-based identity-related services
- -  Ability to write PowerShell commands at an intermediate level
+ -  Ability to navigate the Microsoft 365 admin center, the Exchange admin center, and the Microsoft 365 Defender portal.
+ -  Ability to create Domain Name System (DNS) records at an intermediate level.
+ -  Familiarity with Active Directory concepts such as centralized domain management, sites, and directory-based identity-related services.
+ -  Ability to write PowerShell commands at an intermediate level.
 
 ### Learning objectives
 
@@ -33,3 +33,5 @@ After completing this module, you'll be able to:
  -  Describe the protection provided by Safe Attachment and Safe Links policies.
  -  Understand the spoof intelligence features provided by Exchange Online Protection.
  -  Describe how Microsoft Defender anti-phishing policies work.
+ -  Understand the process to manage the Tenant Allow/Block list in Microsoft 365 Defender.
+ -  Understand how Advanced Hunting can be used to track events in your secure messaging environment.

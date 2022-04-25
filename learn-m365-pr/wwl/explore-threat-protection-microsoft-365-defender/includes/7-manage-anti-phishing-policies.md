@@ -52,27 +52,13 @@ As you set up or edit your anti-phishing policies in Microsoft Defender for Offi
     Add users to protect
   :::column-end:::
   :::column:::
-    
-
-Defines which email addresses will be protected by the policy.
-
-
+    Defines which email addresses will be protected by the policy.
 **Note**: You can add up to 60 internal and external addresses that you want to protect from impersonation.
-
-
   :::column-end:::
   :::column:::
-    
-
-Ensure that mail from outside your organization isn't an impersonation of one of the users on the list of users you're protecting. Examples of users you might want to protect are high-level executives, business owners, external board members, and so on.
-
-
+    Ensure that mail from outside your organization isn't an impersonation of one of the users on the list of users you're protecting. Examples of users you might want to protect are high-level executives, business owners, external board members, and so on.
 This list of protected users is different from the list of people to which the policy applies, or rather, for which the policy is enforced. You define the list of people to which the policy applies in the Applied to section of the policy options.
-
-
 For example, if you add Jenna Glover &lt;jenglov@contoso.com&gt; as a user to protect, then apply the policy to the group “All Users”. This setting would ensure that a mail that appeared to impersonate "Jenna Glover" sent to a user in the “All Users” group would be acted on by the policy.
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -91,9 +77,7 @@ For example, if you add Jenna Glover &lt;jenglov@contoso.com&gt; as a user to pr
     Choose actions
   :::column-end:::
   :::column:::
-    
-
-Choose the action to take when Microsoft 365 detects an impersonation attempt against the users and domains you added to the policy. You can choose different actions for users and domains in the same anti-phishing policy. These actions apply to any incoming email that has been identified by Microsoft 365 as impersonating a user account or domain that is under the protection of this anti-phishing policy. The actions you can choose from include:
+    Choose the action to take when Microsoft 365 detects an impersonation attempt against the users and domains you added to the policy. You can choose different actions for users and domains in the same anti-phishing policy. These actions apply to any incoming email that has been identified by Microsoft 365 as impersonating a user account or domain that is under the protection of this anti-phishing policy. The actions you can choose from include:
 
  -  **Quarantine message.** Email will be sent to Microsoft 365 quarantine. When you choose this option, the email isn't sent to the original recipient.
  -  **Redirect message to another email address.** Email will be sent to the email address you specify. You can specify multiple email addresses. When you choose this option, the email isn't sent to the original recipient.
@@ -135,17 +119,9 @@ Choose the action to take when Microsoft 365 detects an impersonation attempt ag
     Applied to
   :::column-end:::
   :::column:::
-    
-
-Defines the recipients whose incoming email messages will be subject to the rules of the policy. You can create conditions and exceptions for the recipients associated with the policy.
-
-
+    Defines the recipients whose incoming email messages will be subject to the rules of the policy. You can create conditions and exceptions for the recipients associated with the policy.
 For example, you can create a global policy for your organization by applying the rule to all recipients in your domain.
-
-
 You can also create exception rules, such as a rule that doesn't scan email messages for a specific group of recipients.
-
-
   :::column-end:::
   :::column:::
     Each policy must be associated with a set of users, for example, users in a particular group or domain.
@@ -156,9 +132,7 @@ You can also create exception rules, such as a rule that doesn't scan email mess
     Advanced phishing thresholds
   :::column-end:::
   :::column:::
-    
-
-Defines the level of settings for how phishing messages are handled. The options include:
+    Defines the level of settings for how phishing messages are handled. The options include:
 
  -  **Standard.** Email suspected to be phishing is handled in the standard way.
  -  **Aggressive**. Email suspected to be phishing with a high or high degree of confidence are handled by the system in the same way.

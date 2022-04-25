@@ -47,15 +47,7 @@ When Safe Attachments policies are set up for your organization, there are sever
     Attachments aren't scanned for malware by Safe Attachments. Messages are still scanned for malware by anti-malware protection in EOP.
   :::column-end:::
   :::column:::
-    
-
-Turn scanning off for selected recipients.
-
-Prevent unnecessary delays in routing internal mail.
-
-This option isn't recommended for most users. You should only use this option to turn off Safe Attachments scanning for recipients who only receive messages from trusted senders.
-
-
+    Turn scanning off for selected recipients.Prevent unnecessary delays in routing internal mail.This option isn't recommended for most users. You should only use this option to turn off Safe Attachments scanning for recipients who only receive messages from trusted senders.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -63,11 +55,7 @@ This option isn't recommended for most users. You should only use this option to
     Monitor
   :::column-end:::
   :::column:::
-    Delivers messages with attachments and then tracks what happens with detected malware.
-
-Delivery of safe messages may be delayed due to Safe Attachments scanning.
-
-
+    Delivers messages with attachments and then tracks what happens with detected malware.Delivery of safe messages may be delayed due to Safe Attachments scanning.
   :::column-end:::
   :::column:::
     See where detected malware goes in your organization.
@@ -78,22 +66,10 @@ Delivery of safe messages may be delayed due to Safe Attachments scanning.
     Block
   :::column-end:::
   :::column:::
-    Prevents messages with detected malware attachments from being delivered.
-
-Messages are quarantined. By default, only admins (not users) can review, release, or delete the messages.
-
-Automatically blocks future instances of the messages and attachments.
-
-Delivery of safe messages may be delayed due to Safe Attachments scanning.
-
-
+    Prevents messages with detected malware attachments from being delivered.Messages are quarantined. By default, only admins (not users) can review, release, or delete the messages.Automatically blocks future instances of the messages and attachments.Delivery of safe messages may be delayed due to Safe Attachments scanning.
   :::column-end:::
   :::column:::
-    Protects your organization from repeated attacks using the same malware attachments.
-
-This option is the default value. It's also the recommended value in Standard and Strict preset security policies.
-
-
+    Protects your organization from repeated attacks using the same malware attachments.This option is the default value. It's also the recommended value in Standard and Strict preset security policies.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -101,15 +77,7 @@ This option is the default value. It's also the recommended value in Standard an
     Replace
   :::column-end:::
   :::column:::
-    Removes detected malware attachments.
-
-Notifies recipients that attachments have been removed.
-
-Messages that contain malicious attachments are quarantined. By default, only admins (not users) can review, release, or delete the messages.
-
-Delivery of safe messages may be delayed due to Safe Attachments scanning.
-
-
+    Removes detected malware attachments.Notifies recipients that attachments have been removed.Messages that contain malicious attachments are quarantined. By default, only admins (not users) can review, release, or delete the messages.Delivery of safe messages may be delayed due to Safe Attachments scanning.
   :::column-end:::
   :::column:::
     Raise visibility to recipients that attachments were removed because of detected malware.
