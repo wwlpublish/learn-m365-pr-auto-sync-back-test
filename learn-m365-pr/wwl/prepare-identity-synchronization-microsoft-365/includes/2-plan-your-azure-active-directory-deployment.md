@@ -79,7 +79,7 @@ In this phase, administrators enable baseline security features to create a more
 :::row-end:::
 :::row:::
   :::column:::
-    [Enable on-premises integration with Azure AD password protection](/azure/active-directory/authentication/concept-password-ban-bad-on-premises/en-us).
+    [Enable on-premises integration with Azure AD password protection](/azure/active-directory/authentication/concept-password-ban-bad-on-premises?azure-portal=true).
   :::column-end:::
   :::column:::
     Extend the banned password list to your on-premises directory. This design ensures passwords set on-premises are also in compliance with the global and tenant-specific banned password lists.
@@ -272,7 +272,7 @@ Phase 2 adds to the foundation that was created in phase 1. In phase 2, an organ
     Collaborate with guest users by letting them sign in to your apps and services with their own work, school, or social identities.
   :::column-end:::
   :::column:::
-    [Azure AD External Identities pricing](/azure/active-directory/external-identities/external-identities-pricing)
+    [Azure AD External Identities pricing](/azure/active-directory/external-identities/external-identities-pricing?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
