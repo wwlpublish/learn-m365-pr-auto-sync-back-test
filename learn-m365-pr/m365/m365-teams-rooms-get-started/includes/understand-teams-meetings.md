@@ -1,6 +1,6 @@
 In the world's best-performing companies, 70 percent of employees are engaged but 60 percent are unsatisfied with their meetings. Fifty-seven percent find meetings unproductive.
 
-:::image type="content" source="../media/meeting-percentages.png" alt-text="Percentage of employees who dont find meetings productive." border="false":::
+:::image type="content" source="../media/meeting-percentages.png" alt-text="Percentage of employees who don't find meetings productive." border="false":::
 
 One of the reasons Microsoft Teams was created was to address these issues. Chats, meetings, and calls all happen in one application, so you're not dealing with different tools to have productive meetings.
 
