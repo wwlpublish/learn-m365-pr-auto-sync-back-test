@@ -16,7 +16,7 @@ Once Microsoft Defender for Endpoint and Microsoft Defender for Identity are int
 
 Having this level of insight into system running processes allows an analyst to locate event sequences leading to a compromise of the network. In the screenshot below, there are high severity alerts pointing to malware being installed on the system.
 
-:::image type="content" source="../media/high-severity-malware-alert.png" alt-text="High severity malware alert." lightbox="../media/high-severity-malware-alert.png" border="false":::
+:::image type="content" source="../media/high-severity-malware-alert.png" alt-text="High severity malware alert." lightbox="../media/high-severity-malware-alert-magnify.png" border="false":::
 
 Clicking into the alert verifies that a Pass-The-Hash (PtH) attack occurred using the tool Mimikatz. Under actions for the alert, we can also review a timeline of events surrounding the credential theft.
 
