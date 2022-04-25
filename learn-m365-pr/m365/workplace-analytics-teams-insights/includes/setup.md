@@ -1,6 +1,6 @@
 The Microsoft Teams insights dashboard uses a prebuilt Power BI template populated by output (OData) from Workplace Analytics with Viva Insights. The following is an example report that's available in Power BI with this template.
 
-![Microsoft Teams insights example Power BI report](../media/speed-communication.png)
+:::image type="content" source="../media/speed-communication.png" alt-text="Microsoft Teams insights example Power B I report." border="false":::
 
 To set up the Power BI dashboard:
 
@@ -12,7 +12,7 @@ After the data is loaded, the dashboard reports generate automatically. This res
 
 **1. Complete the setup steps for the Microsoft Teams insights template**. The Teams insights dashboard requires output from two queries. In Query designer, under **Templates**, select the Microsoft Teams insights template and follow the on-screen instructions to run the required queries.
 
-![Query designer template for Microsoft Teams insights dashboard](../media/template-setup.png)
+:::image type="content" source="../media/template-setup.png" alt-text="Query designer template for Microsoft Teams insights dashboard." border="false":::
 
 >[!IMPORTANT]
 >Be sure to download and install the most recent version of Power BI to avoid issues setting up and loading data into the dashboard.
@@ -30,7 +30,7 @@ Some things to keep in mind when running the queries to populate the Teams insig
 
 **2. Download the Teams Insights Power BI template and load the query output**. After the queries successfully run, you can access the template and data by copying the OData URL, which is available through the **Link** option for each query in **Query designer** > **Results**.
 
-![Load the query output into the downloaded template](../media/load-data-template.png)
+:::image type="content" source="../media/load-data-template.png" alt-text="Load the query output into the downloaded template." border="false":::
 
 To load the data into the Teams insights Power BI template:
 
@@ -50,7 +50,7 @@ The dashboard visualizations on each page of the report will populate with data 
 * Select an organizational attribute to view the report by.
 * To filter for specific groups of employees, select the organizational attribute and values you'd like to filter by.
 
-![Select your settings](../media/options-settings.png)
+:::image type="content" source="../media/options-settings.png" alt-text="Select your settings." border="false":::
 
 After you've selected the settings for your population, you can start analyzing the results from the dashboard. The populated dashboard includes report pages on the state of adoption by group, how Teams is changing the ways of working, and how to speed adoption by using community influencers.
 

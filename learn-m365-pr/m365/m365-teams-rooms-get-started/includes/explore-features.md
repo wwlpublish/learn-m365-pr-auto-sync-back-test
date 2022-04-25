@@ -4,11 +4,11 @@ Microsoft Teams Rooms can also support touching and inking. You can have a touch
 
 Content cameras and intelligent capture give you the ability to share a traditional analog whiteboard into a meeting.  A specific camera is used to capture the whiteboard and to optimize the view for remote participants. The content camera will center the whiteboard and then display it to the remote attendees. If a presenter walks in front of the whiteboard, remote attendees will still be able to see the full whiteboard.
 
-![Whiteboard animated gif](../media/whiteboard-animation.gif)
+:::image type="content" source="../media/whiteboard-animation.gif" alt-text="Whiteboard animated GIF." border="false":::
 
 Teams Rooms supports the Raise Hands feature. As remote attendees raise a hand, a banner is put up on the front of room display and on the console. Users inside the room can raise and lower their hand directly on the console.
 
-![Raise hands feature animated gif](../media/raise-hands-feature.gif)
+:::image type="content" source="../media/raise-hands-feature.gif" alt-text="Raise hands feature animated GIF." border="false":::
 
 Direct Guest Join lets Teams Rooms join meetings from other vendors, such as Cisco WebEx and Zoom. Using the WebRTC protocol, Microsoft has partnered to allow Teams Rooms to have a native meeting join experience. Not all Teams Rooms features work when joining meetings hosted by other vendors. For example, content camera only works when joining a Microsoft Teams meeting. Direct Guest Join is provided as a convenience that lets you use Teams Rooms for more than just Microsoft Teams meetings.
 

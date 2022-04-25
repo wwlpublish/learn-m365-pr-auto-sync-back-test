@@ -1,5 +1,5 @@
 Microsoft Teams lets you quickly pull together a team with people inside and outside your organization, chat with others to drive fast and inclusive conversations, securely share and coauthor documents, and iterate on projects. Let's look at some of the key elements of the Teams user experience.
- 
+
 ## What are teams?
 
 A *team* is a collection of people, content, and tools surrounding different projects and outcomes within an organization. Teams can be created to be private to only invited users. Teams can also be created to be public and open and anyone within the organization can join (up to 10,000 members). You can then choose one or more of these members to be team owners with administrative privileges.

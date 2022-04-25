@@ -18,14 +18,14 @@ Self-service migrations allow the user to move files on their own and eases the 
 Administrative migrations that are not self-service are run by administrators or a migration team. For an administrative migration, all OneDrive sites need to be pre-provisioned prior to the migration. Administrative migrations options include:
 
 - **SharePoint Migration Tool**. The SharePoint Migration Tool (SPMT) is a free tool that can migrate files, folders, list items, permissions, versions, run incremental migrations, and migrate other SharePoint specific features.  You can use JSON or CSV files for bulk migrations. The reporting functionality helps manage, audit, and troubleshoot the migration. Running SPMT as an administrator, you can also utilize PowerShell to automate the migration.
- 
-   ![SharePoint Migration Tool](../media/migration-tool.png)
+
+   :::image type="content" source="../media/migration-tool.png" alt-text="Sharepoint Migration Tool." border="false":::
 - **Cloud content migrations with Mover**. Another option for migrations is the cloud content migrations solution within the SharePoint admin center, which supports migrations from over a dozen cloud service providers – including Box, Dropbox, Egnyte, and Google Drive into OneDrive.
- 
-   ![Cloud content migrations with Mover](../media/mover.png)
+
+   :::image type="content" source="../media/mover.png" alt-text="Cloud content migrations with Mover." border="false":::
 - **Migration Manager**. If files are hosted in file shares, they can be migrated to OneDrive through the Migration Manager in the SharePoint admin center. Migration Manager uses agents installed on machines and runs migration tasks created by the administrators. This uses the same technology as the SPMT but allows you to control your migrations from multiple machines through the admin center.
 
-   ![Migration Manager](../media/migration-manager.png)
+   :::image type="content" source="../media/migration-manager.png" alt-text="Migration Manager." border="false":::
 - **Third-party migration solutions**. There are many Microsoft partners that specialize in migrations and offer tools to make your move to OneDrive faster. Each tool has different capabilities, so you'll want to review the options to see which one meets your needs.
 - **Microsoft FastTrack**. FastTrack is a Microsoft service that may be included in your subscription that provides you a set of best practices, tools, resources, and experts—including OneDrive onboarding guidance, migration benefits, and adoption guidance-for helping facilitate your experience with the Microsoft Cloud. Onboarding guidance includes help with discovering what's possible, creating a plan for success, and onboarding new users and capabilities.  FastTrack is available to customers with 500 or more licenses.
 

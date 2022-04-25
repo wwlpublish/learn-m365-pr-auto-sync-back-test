@@ -2,15 +2,15 @@ Some basic reports can be viewed from the SharePoint admin center. You can see a
 
 - **Reports,** such as the number of files that have specific types of activity each day for the past 30 days and the number of total and active sites each day for the past 30 days.
 
-  ![Reports viewed from the admin center](../media/reports.png)
+  :::image type="content" source="../media/reports.png" alt-text="Reports viewed from the admin center." border="false":::
 
 - **Message center posts,** including official announcements about new and changed SharePoint features to help you manage upcoming changes. Each post gives you an overview of a change and how it may affect your users.
 
-  ![Message center posts from the admin center](../media/message-center-posts.png)
+  :::image type="content" source="../media/message-center-posts.png" alt-text="Message center posts from the admin center." border="false":::
 
 - **Service health,** including whether the SharePoint service is healthy, or if it's experiencing an active advisory or incident.
 
-  ![Service health from the admin center](../media/service-health.png)
+  :::image type="content" source="../media/service-health.png" alt-text="Service health from the admin center." border="false":::
 
 ## Learn more
 
