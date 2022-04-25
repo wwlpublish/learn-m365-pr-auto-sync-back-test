@@ -41,7 +41,7 @@ Opening the suspected overpass-the-hash-attack (Kerberos) alert, we see evidence
 
 The next alert shows a **Suspected identity theft (pass-the-ticket)**.
 
-:::image type="content" source="../media/pass-ticket-alert.png" alt-text="Pass-the-ticket alert." lightbox="../media/pass-ticket-alert.png" border="false":::
+:::image type="content" source="../media/pass-ticket-alert.png" alt-text="Pass-the-ticket alert." lightbox="../media/pass-ticket-alert-magnify.png" border="false":::
 
 Microsoft Defender for Identity has detected theft of a ticket from a domain administrator to the infiltrated PC. The Defender for Cloud Apps portal shows exactly which resources were accessed using the stolen tickets.
 
