@@ -6,12 +6,12 @@ Now that you've completed this module, you should be able to:
  -  Describe the capabilities of the Microsoft 365 admin center and user portal.
  -  Describe the reports available in the Microsoft 365 admin center and other admin centers.
 
-### Resources<br>
+### Resources
 
 Use the following list of resources to learn more about the units discussed in this module:
 
  -  [Improve Employee Wellbeing \| Microsoft Viva Insights](https://www.microsoft.com/microsoft-viva/insights?azure-portal=true)
- -  [Introduction to Viva Insights](/viva/insights/introduction?azure-portal=true)<br>
+ -  [Introduction to Viva Insights](/viva/insights/introduction?azure-portal=true)
  -  [About the Microsoft 365 admin center - Microsoft 365 admin \| Microsoft Docs](/microsoft-365/admin/admin-overview/about-the-admin-center?azure-portal=true)
  -  [Microsoft 365 Reports in the admin center](/microsoft-365/admin/activity-reports/activity-reports?azure-portal=true)
  -  [Enable Microsoft 365 usage analytics.](/microsoft-365/admin/usage-analytics/enable-usage-analytics?azure-portal=true)
