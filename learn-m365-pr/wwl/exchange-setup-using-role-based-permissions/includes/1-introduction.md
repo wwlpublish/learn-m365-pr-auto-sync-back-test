@@ -20,3 +20,4 @@ After completing this module, you'll be able to:
  -  Identify the differences between shared permissions and split permissions.
  -  Describe multi-forest permissions.
  -  Identify the differences between the permission models.
+ 
