@@ -20,4 +20,4 @@ Having this level of insight into system running processes allows an analyst to 
 
 Clicking into the alert verifies that a Pass-The-Hash (PtH) attack occurred using the tool Mimikatz. Under actions for the alert, we can also review a timeline of events surrounding the credential theft.
 
-:::image type="content" source="../media/event-timeline.png" alt-text="Review a timeline of events surrounding the credential theft." lightbox="../media/event-timeline.png" border="false":::
+:::image type="content" source="../media/event-timeline.png" alt-text="Review a timeline of events surrounding the credential theft." lightbox="../media/event-timeline-magnify.png" border="false":::
