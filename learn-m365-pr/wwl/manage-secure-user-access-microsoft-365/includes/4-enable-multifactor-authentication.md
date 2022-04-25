@@ -17,7 +17,7 @@ You can use [security defaults](/azure/active-directory/fundamentals/concept-fun
 
 For more granular controls, you can use [Conditional Access](/azure/active-directory/conditional-access/overview) policies to define events or applications that require MFA. These policies can allow regular sign-in when the user is on the corporate network or a registered device. They can also prompt for other verification factors when the user is remote or on a personal device.
 
-:::image type="content" source="../media/conditional-access-overview-cd55cc68.png" alt-text="graphic depicts the authentication process when implementing Azure AD Multi-Factor Authentication.":::
+:::image type="content" source="../media/conditional-access-overview-cd55cc68.png" alt-text="graphic depicts the authentication process when implementing Azure A D Multi-Factor Authentication.":::
 
 
 ### Enable multi-factor authentication

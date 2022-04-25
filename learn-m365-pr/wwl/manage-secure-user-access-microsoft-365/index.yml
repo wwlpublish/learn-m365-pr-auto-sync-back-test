@@ -9,12 +9,12 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage secure user access in Microsoft 365
-summary: This module examines various password-related tasks for user and admin accounts, such as creating and configuring password policies, configuring self-service password management, configuring multi-factor authentication, and implementing entitlement packages and conditional access policies.
+summary: This module examines various password-related tasks for user and admin accounts, such as creating and configuring password policies, configuring self-service password management, configuring multifactor authentication, and implementing entitlement packages and conditional access policies.
 abstract: |
   By the end of this module, you'll be able to:
   *   Manage user passwords
   *   Describe pass-through authentication
-  *   Enable multi-factor authentication
+  *   Enable multifactor authentication
   *   Describe self-service password management
   *   Implement Azure AD Smart Lockout
   *   Implement entitlement packages in Azure AD Identity Governance
@@ -36,7 +36,7 @@ units:
 - learn.wwl.manage-secure-user-access-microsoft-365.introduction
 - learn.wwl.manage-secure-user-access-microsoft-365.manage-user-passwords
 - learn.wwl.manage-secure-user-access-microsoft-365.enable-pass-through-authentication
-- learn.wwl.manage-secure-user-access-microsoft-365.enable-multi-factor-authentication
+- learn.wwl.manage-secure-user-access-microsoft-365.enable-multifactor-authentication
 - learn.wwl.manage-secure-user-access-microsoft-365.explore-self-service
 - learn.wwl.manage-secure-user-access-microsoft-365.implement-azure-ad-smart-lockout
 - learn.wwl.manage-secure-user-access-microsoft-365.implement-entitlement-packages-azure-ad-identity-governance
