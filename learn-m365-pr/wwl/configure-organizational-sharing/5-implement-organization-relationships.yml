@@ -4,7 +4,7 @@ title: Implement organization relationships
 metadata:
   title: Implement organization relationships
   description: "Implement organization relationships"
-  ms.date: 03/09/2022
+  ms.date: 04/25/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Create the organization relationship in the Exchange admin center"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't the first task that Holly must complete to create the organization relationship. Try again."
+      explanation: "That's incorrect. This item isn't the first task that Holly must complete to create the organization relationship."
     - content: "Use Autodiscover to obtain the uniform resource locator (URL) for Fabrikam's Availability Web Service"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't the first task that Holly must complete to create the organization relationship. Try again."
+      explanation: "That's incorrect. This item isn't the first task that Holly must complete to create the organization relationship."
     - content: "Create a TXT record in Contoso's public DNS that validates the Contoso domain that will be used to configure the federated trust"
       isCorrect: true
       explanation: "That's correct. When you configure the organization relationship in the Exchange admin center, the Azure AD authentication system checks your DNS zone and searches for the appropriate TXT resource record. This record must have the content for validating the domain that will be used to configure the OrgID for the federation trust. Holly must create this TXT record before creating the organization relationship."
