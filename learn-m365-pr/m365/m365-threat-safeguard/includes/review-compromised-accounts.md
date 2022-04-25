@@ -53,7 +53,7 @@ In the next alert, we see that the stolen credentials were used to run a remote 
 
 Looking into the Activity Log for the alert, we see that the command was to create a new user within the Administrators group.
 
-:::image type="content" source="../media/create-new-user.png" alt-text="Command used to create a new user." lightbox="../media/create-new-user.png" border="false":::
+:::image type="content" source="../media/create-new-user.png" alt-text="Command used to create a new user." lightbox="../media/create-new-user-magnify.png" border="false":::
 
 From all the previous alerts, we suspect that an attacker has:
 
