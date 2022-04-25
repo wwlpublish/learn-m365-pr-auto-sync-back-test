@@ -71,7 +71,7 @@ By default, the message tracking log files exist in the following path:
 
 The message tracking log stores each message event on a single line in the log. The message event information is organized by fields that are separated by commas. The field name can be descriptive enough to determine the type of information that it contains. However, some fields may be blank, or the type of information in the field may change based on the message event type and the service that recorded the event.
 
-**Additional reading.** For more information, see [Message tracking](/exchange/mail-flow/transport-logs/message-tracking?azure-portal=true) for an explanation of the general description of the fields that are used to classify each message tracking event.
+**Further reading.** For more information, see [Message tracking](/exchange/mail-flow/transport-logs/message-tracking?azure-portal=true) for an explanation of the general description of the fields that are used to classify each message tracking event.
 
 ### Configure message tracking
 

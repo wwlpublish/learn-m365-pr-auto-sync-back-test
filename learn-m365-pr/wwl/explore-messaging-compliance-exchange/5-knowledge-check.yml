@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/09/2022
+  ms.date: 04/24/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -13,7 +13,7 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 6
 content: |
-  [!include[](includes/6-knowledge-check.md)]
+  [!include[](includes/5-knowledge-check.md)]
 quiz:
   title: "Check your knowledge"
   questions:
@@ -24,29 +24,29 @@ quiz:
       explanation: "That's correct. The ability to investigate message tracking logs is only available in on-premises Exchange Server deployments. To investigate message tracking in Exchange Online, you must instead use Message traces."
     - content: "Message tracking logs"
       isCorrect: false
-      explanation: "That's incorrect. The ability to investigate message tracking logs is only available in on-premises Exchange Server deployments. Try again."
+      explanation: "That's incorrect. The ability to investigate message tracking logs is only available in on-premises Exchange Server deployments."
     - content: "Document fingerprinting"
       isCorrect: false
-      explanation: "That's incorrect. Document fingerprinting is an available feature of DLP for Exchange to detect sensitive information in standard forms. Try again."
+      explanation: "That's incorrect. Document fingerprinting is an available feature of DLP for Exchange to detect sensitive information in standard forms."
   - content: "As the new Messaging administrator for Lucerne Publishing, Patti Fernandez has discovered that several mailboxes have mailbox items that never expire. Which of the following items may have caused this situation?"
     choices:
     - content: "The mailboxes have multiple retention policies that have conflicting retention tags"
       isCorrect: false
-      explanation: "That's incorrect. A mailbox can't have more than one retention policy. Try again."
+      explanation: "That's incorrect. A mailbox can't have more than one retention policy."
     - content: "The mailboxes have a retention policy that doesn't have retention tags linked to it"
       isCorrect: true
       explanation: "That's correct. Although retention tags don't need to be linked to a retention policy, this strategy isn't recommended. If mailboxes have a retention policy that doesn't have retention tags linked to it, this situation may cause mailbox items to never expire."
     - content: "The Managed Folder Assistant wasn't scheduled"
       isCorrect: false
-      explanation: "That's incorrect. The Managed Folder Assistant is a throttle-based assistant. Throttle-based assistants are always running, and they don't need to be scheduled. Try again."
+      explanation: "That's incorrect. The Managed Folder Assistant is a throttle-based assistant. Throttle-based assistants are always running, and they don't need to be scheduled."
   - content: "As the Messaging administrator for Fabrikam, Holly Spencer wants to implement Messaging records management (MRM). What MRM feature will enable Holly to apply retention settings to an entire mailbox and default mailbox folders such as Inbox and Deleted Items?"
     choices:
     - content: "Retention policies"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't what Holly must use to apply retention settings to an entire mailbox and default mailbox folders such as Inbox and Deleted Items. Try again."
+      explanation: "That's incorrect. This item isn't what Holly must use to apply retention settings to an entire mailbox and default mailbox folders such as Inbox and Deleted Items."
     - content: "The Managed Folder Assistant"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't what Holly must use to apply retention settings to an entire mailbox and default mailbox folders such as Inbox and Deleted Items. Try again."
+      explanation: "That's incorrect. This item isn't what Holly must use to apply retention settings to an entire mailbox and default mailbox folders such as Inbox and Deleted Items."
     - content: "Retention tags"
       isCorrect: true
       explanation: "That's correct. MRM is accomplished using retention tags and retention policies. Retention tags are used to apply retention settings to an entire mailbox and default mailbox folders such as Inbox and Deleted Items. You can also create and deploy retention tags that Outlook and Outlook on the web users can use to apply to folders or individual messages."
