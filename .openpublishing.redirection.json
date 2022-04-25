@@ -2319,6 +2319,26 @@
       "source_path": "learn-m365-pr/wwl/explore-messaging-compliance-exchange/7-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/explore-messaging-compliance-exchange/6-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-messaging-compliance-microsoft-365/5-configure-data-loss-prevention-policies.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-messaging-compliance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-messaging-compliance-microsoft-365/6-run-message-trace.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-messaging-compliance-microsoft-365/5-run-message-trace",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-messaging-compliance-microsoft-365/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-messaging-compliance-microsoft-365/6-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-messaging-compliance-microsoft-365/8-summary",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-messaging-compliance-microsoft-365/7-summary",
+      "redirect_document_id": true
     }
   ]
 }
