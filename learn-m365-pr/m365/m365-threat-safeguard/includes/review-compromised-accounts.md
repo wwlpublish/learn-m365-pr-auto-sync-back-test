@@ -37,7 +37,7 @@ Back in the Alerts overview, we can see a more recent alert pointing to an **ove
 
 Opening the suspected overpass-the-hash-attack (Kerberos) alert, we see evidence that the user account was part of a lateral movement path.
 
-:::image type="content" source="../media/open-suspected-attack.png" alt-text="Open the suspected attack alert." lightbox="../media/open-suspected-attack.png" border="false":::
+:::image type="content" source="../media/open-suspected-attack.png" alt-text="Open the suspected attack alert." lightbox="../media/open-suspected-attack-magnify.png" border="false":::
 
 The next alert shows a **Suspected identity theft (pass-the-ticket)**.
 
