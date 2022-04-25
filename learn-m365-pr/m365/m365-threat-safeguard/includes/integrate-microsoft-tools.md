@@ -12,7 +12,7 @@ Once integrated into Microsoft Defender for Cloud Apps, you'll be able to see on
 Microsoft Defender for Identity also enables you to integrate Microsoft Defender for Identity with Microsoft Defender for Endpoint, for an even more complete threat protection solution. While Microsoft Defender for Identity monitors the traffic on your domain controllers, Microsoft Defender for Endpoint monitors your endpoints, together providing a single interface from which you can protect your environment.
 Once Microsoft Defender for Endpoint and Microsoft Defender for Identity are integrated, you can click on an endpoint to view Microsoft Defender for Identity alerts in the Microsoft Defender for Endpoint portal.
 
-:::image type="content" source="../media/windows-defender-security-center.png" alt-text="Windows Defender Security Center." lightbox="../media/windows-defender-security-center.png" border="false":::
+:::image type="content" source="../media/windows-defender-security-center.png" alt-text="Windows Defender Security Center." lightbox="../media/windows-defender-security-center-magnify.png" border="false":::
 
 Having this level of insight into system running processes allows an analyst to locate event sequences leading to a compromise of the network. In the screenshot below, there are high severity alerts pointing to malware being installed on the system.
 
