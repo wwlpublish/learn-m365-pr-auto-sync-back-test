@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.what-is-m365.explain-how-microsoft-365-drives-productivity-cloud
+title: Explain how Microsoft 365 drives productivity in the cloud
+metadata:
+  title: Explain how Microsoft 365 drives productivity in the cloud
+  description: "Explain how Microsoft 365 drives productivity in the cloud"
+  ms.date: 04/25/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/2-explain-how-microsoft-365-drives-productivity-cloud.md)]

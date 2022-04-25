@@ -1,15 +1,16 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.what-is-m365.4-m365-subscriptions
+uid: learn-m365.what-is-m365.explore-microsoft-365-subscription-options
 title: Explore the Microsoft 365 subscription options
 metadata:
   title: Explore the Microsoft 365 subscription options
   description: "Explore the Microsoft 365 subscription options"
-  ms.date: 02/16/2021
+  ms.date: 04/25/2022
   author: wwlpublish
-  ms.author: dahans
+  ms.author: asglenno
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 4
+labModal: false
+durationInMinutes: 2
 content: |
-  [!include[](includes/3-m365-subscriptions.md)]
+  [!include[](includes/5-explore-microsoft-365-subscription-options.md)]

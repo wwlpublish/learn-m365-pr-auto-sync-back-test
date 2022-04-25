@@ -1,15 +1,16 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.what-is-m365.2-whats-in-m365
+uid: learn-m365.what-is-m365.introduction
 title: Introduction
 metadata:
   title: Introduction
   description: "Introduction"
-  ms.date: 02/16/2021
+  ms.date: 04/25/2022
   author: wwlpublish
-  ms.author: dahans
+  ms.author: asglenno
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 1
+labModal: false
+durationInMinutes: 4
 content: |
   [!include[](includes/1-introduction.md)]
