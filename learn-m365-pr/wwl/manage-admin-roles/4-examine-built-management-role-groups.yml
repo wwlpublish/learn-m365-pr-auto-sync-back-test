@@ -19,7 +19,7 @@ quiz:
   questions:
   - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung wants to assign built-in role groups in Exchange to several administrators. However, Alan has discovered that the built-in role groups in Exchange don't match the job function of these administrators. What should Alan do?"
     choices:
-    - content: "Assign the built-in role groups to the administrators and then customize the roles assigned to these role group to meet Tailspin's requirements"
+    - content: "Assign the built-in role groups to the administrators and then customize the roles assigned to these role groups to meet Tailspin's requirements"
       isCorrect: false
       explanation: "That's incorrect. This action isn't what Alan should do to address this situation."
     - content: "Create custom role groups and add roles to them"

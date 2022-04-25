@@ -28,7 +28,7 @@ quiz:
     - content: "Specifying a predefined relative scope on a management role assignment"
       isCorrect: false
       explanation: "That's incorrect. This action won't enable Holly to add and remove permissions to sets of users without having to configure individual mailboxes."
-  - content: "As the Messaging administrator for Contoso, Holly Dickson want to define the level of impact or influence of a management role when a management role assignment is created. What feature of the RBAC permission model will enable Holly to accomplish this task?"
+  - content: "As the Messaging administrator for Contoso, Holly Dickson wants to define the level of impact or influence of a management role when a management role assignment is created. What feature of the RBAC permission model will enable Holly to accomplish this task?"
     choices:
     - content: "Management role group"
       isCorrect: false
