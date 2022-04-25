@@ -66,7 +66,7 @@ After the Microsoft Defender for Identity sensor is installed, do the following 
 1. Click **Launch** to open your browser and sign into the Microsoft Defender for Identity portal.
 2. In the Microsoft Defender for Identity portal, go to **Configuration**. Under the System section, select **Sensors**.
 
-   :::image type="content" source="../media/install-select-sensors.png" alt-text="Install steps: Select sensors in Microsoft Defender for Office 365 portal." lightbox="../media/install-select-sensors.png" border="false":::
+   :::image type="content" source="../media/install-select-sensors.png" alt-text="Install steps: Select sensors in Microsoft Defender for Office 365 portal." lightbox="../media/install-select-sensors-magnify.png" border="false":::
 
 3. Click on the sensor you want to configure and enter the following information:
 
