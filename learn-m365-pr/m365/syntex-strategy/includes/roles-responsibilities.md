@@ -35,7 +35,7 @@ The model owner owns the use of the models. They create and oversee the document
 
 Consider whether a single person in your company should act as model owner, or whether each department has their own. A single model owner offers centralized control over how documents are processed. Company information policies are easier to enforce. You might consider a content specialist who's comfortable creating models. This may be a technical writer or an administrative person with company-wide content knowledge. Alternatively, you could recommend that each department identify a model owner. Opting for different model owners for different sectors of the business enables you to create targeted models that focus on what each department needs from their content libraries.
 
-![Graphical user interface, application, Teams](../media/create-form-model.png)
+:::image type="content" source="../media/create-form-model.png" alt-text="Graphical user interface, application, Teams." border="false":::
 
 In addition to these roles and responsibilities, you need to think about who will manage security and permissions for SharePoint Syntex.
 

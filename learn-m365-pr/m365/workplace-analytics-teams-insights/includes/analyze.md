@@ -4,13 +4,13 @@ The Microsoft Teams insights Power BI dashboard provides a quick and easy way to
 
 Each report page provides data that you can act on into one of the themes laid out on the introduction page. Embedded guidance helps users to uncover useful information and ground their findings in a business context.
 
-![A view of the report pages](../media/report-pages.png)
+:::image type="content" source="../media/report-pages.png" alt-text="A view of the report pages." border="false":::
 
 ## The Introduction page
 
 The introduction page of the report helps set up the context around what questions the Teams insights dashboard addresses, as well as why it matters.
 
-![The Introduction page](../media/introduction-page.png)
+:::image type="content" source="../media/introduction-page.png" alt-text="The Introduction page." border="false":::
 
 This page provides an overview for dashboard recipients who are unfamiliar with data generated from Workplace Analytics with Viva Insights.
 
@@ -23,7 +23,7 @@ The chart on the left shows the share of inactive, low, medium, and high users b
 >[!NOTE]
 >Low Users are defined as being active on Teams one day a week. Medium Users are active two to four days a week. High Users are active on Teams at least five days a week.
 
-![What does adoption look like so far report](../media/adoption-so-far.png)
+:::image type="content" source="../media/adoption-so-far.png" alt-text="What does adoption look like so far report." border="false":::
 
 As organizations progress through Teams adoption stages, the share of Medium and High users should grow, and the share of Inactive and Low users should shrink. If the share of Medium and High users does not grow, it could be a sign that employees need more resources or training.
 
@@ -38,7 +38,7 @@ The chart on the left shows average one-on-one email and instant message (chat) 
 >[!NOTE]
 >In this report, group emails are defined as emails sent to nine or more recipients.
 
-![How can Teams help employees speed up communication report](../media/speed-communication.png)
+:::image type="content" source="../media/speed-communication.png" alt-text="How can Teams help employees speed up communication report." border="false":::
 
 Teams is a faster platform for answering short questions or confirming scheduling. Instant messages have faster response times and higher response rates than email. Employees take an average of eight hours to reply to email, but only five minutes to reply to instant messages. As employees use Teams more and more, one-on-one email hours might begin to fall.
 Group email conversations might also begin to migrate to Teams channels. Teams channels allow for efficient sharing of information to big groups around a single topic. Having all conversations in one place can allow individuals to search for information more efficiently, instead of trawling through long email chains or asking the same question multiple times.
@@ -52,7 +52,7 @@ The chart on the left plots the average internal network size (x-axis) and avera
 >[!NOTE]
 >Network size is based on meaningful interactions. A meaningful interaction is any type of collaboration with at least two collaborators and at most eight collaborators.
 
-![How does Teams help employees network and build connections report](../media/network-build-connections.png)
+:::image type="content" source="../media/network-build-connections.png" alt-text="How does Teams help employees network and build connections report." border="false":::
 
 By measuring how employees collaborate, you can get a more complete picture of their networks, both informal and formal. Highly active Teams users are more likely to have wide networks that require less time to maintain, because Teams allows them to communicate across groups quickly and easily.
 
@@ -60,7 +60,7 @@ By measuring how employees collaborate, you can get a more complete picture of t
 
 The *Target Areas for Adoption* report can help companies identify groups that lead and lag in Teams usage to optimize their Teams adoption rollout.
 
-![Where should you focus education and training for Teams adoption report](../media/focus-training-education.png)
+:::image type="content" source="../media/focus-training-education.png" alt-text="Where should you focus education and training for Teams adoption report." border="false":::
 
 This report compares groups in four categories of Teams activity:
 
@@ -85,7 +85,7 @@ The left side of the report shows the number of influencers in the organization 
 * Phase II groups have high numbers of influencers and high Teams adoption.
 * Phase III groups have low numbers of influencers and low Teams adoption.
 
-![How can community influencers help drive the adoption of Teams report](../media/community-influencers.png)
+:::image type="content" source="../media/community-influencers.png" alt-text="How can community influencers help drive the adoption of Teams report." border="false":::
 
 Community influencers are well-connected employees in your organization. Influencers can lead cultural change, including accelerating the adoption of Teams, by sharing benefits and best practices. A high influence score suggests that an employee's perspective will efficiently flow through the organization.
 
@@ -97,7 +97,7 @@ The *Protect Employee Wellbeing* report shows what Teams collaboration looks lik
 
 The chart on the left shows how activity for Teams instant messages and calls is distributed across the average day for both the 8 AM to 5 PM change in activity and the change in activity after-hours (before and after working hours). The chart on the right drills down to organizations that are spending the most time collaborating in Teams after-hours. In the example here, people in the sales group spend an average of 0.8 hours a week in after-hours scheduled calls, 0.3 hours a week in unscheduled calls, and 0.2 hours in after-hours instant messages.
 
-![Are employees working after-hours in Teams report](../media/after-hours-teams.png)
+:::image type="content" source="../media/after-hours-teams.png" alt-text="Are employees working after-hours in Teams report." border="false":::
 
 As organizations transition to digital collaboration, it might be difficult for employees to create boundaries between work and life. Use the Protect Employee Wellbeing report to assess the amount of time spent in Teams after-hours and identify areas of opportunity to establish norms to protect work-life balance and promote wellbeing.
 
@@ -105,7 +105,7 @@ As organizations transition to digital collaboration, it might be difficult for 
 
 This view gives a population-level look at three opportunity areas to get more out of using Microsoft Teams.
 
-[![Opportunity areas to get more out of Teams report](../media/opportunity-areas.png)](../media/opportunity-areas-lightbox.png#lightbox)
+:::image type="content" source="../media/opportunity-areas.png" alt-text="Opportunity areas to get more out of Teams report." lightbox="../media/opportunity-areas.png" border="false":::
 
 **Increase channel and IM use to speed up communication** - Employees who send a lot of emails and spend a lot of hours in meetings can make communication more efficient by switching to Teams instant messages and postings to Teams channels.
 

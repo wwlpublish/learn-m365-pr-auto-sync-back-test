@@ -4,11 +4,11 @@ The Business continuity template for Power BI provides quick insight about oppor
 
 View 1 of the *Areas of improvement report* gives a population-level look at five areas for potential remote work improvement.
 
-[![The Areas of improvement report View 1](../media/effectiveness-improved-1.png)](../media/effectiveness-improved-1-lightbox.png#lightbox)
+:::image type="content" source="../media/effectiveness-improved-1.png" alt-text="The Areas of improvement report View 1." lightbox="../media/effectiveness-improved-1.png" border="false":::
 
 * **Manageable work levels** - Employees with an increase of 4+ hours in both collaboration hours and workweek span might be experiencing difficulty managing their workloads and might benefit from task prioritization and workload balancing.
 * **Sustained working cadence** - Employees with a significant decrease in virtual collaboration might not be equipped with the tools (laptop, internet, or VPN) or resources and direction required to get their work done remotely. They might benefit from better tools, training, and guidance.
-* **Work-life integration** - Employees might find it difficult to create boundaries between work and home when both are taking place in the same environment. Creating team expectations around virtual collaboration norms and sharing best practices on creating boundaries might help maintain wellbeing. 
+* **Work-life integration** - Employees might find it difficult to create boundaries between work and home when both are taking place in the same environment. Creating team expectations around virtual collaboration norms and sharing best practices on creating boundaries might help maintain wellbeing.
 * **Manager guidance** - Regular manager one-on-ones are critical for establishing rapport, creating an environment of empathy and trust, and managing workloads. Employees with regular one-on-ones may see less increase in collaboration hours and workweek span in the shift to  remote work.
 * **Employee connectivity** - Studies show that remote workers are at a significant risk of isolation. Ensuring peer connectivity through small group conversations increases employee engagement and reduces the risk of isolation.
 
@@ -22,7 +22,7 @@ Take a look at the *Best practices recommendations* (on the right side of the re
 
 View 2 of the *Areas of improvement report* summarizes the key metrics that were identified in the previous report by group.  
 
-[![The Areas of improvement report View 2](../media/effectiveness-improved-2.png)](../media/effectiveness-improved-2-lightbox.png#lightbox)
+:::image type="content" source="../media/effectiveness-improved-2.png" alt-text="The Areas of improvement report View 2." lightbox="../media/effectiveness-improved-2.png" border="false":::
 
 * Use the break-outs by organizational attribute in this report to identify pockets of the organization most impacted by the opportunity areas.
 * To filter the reports by a different organizational attribute, return to the Settings page and select a new attribute from the dropdown menu. All report pages will automatically group the data by the newly selected attribute.
@@ -32,7 +32,7 @@ View 2 of the *Areas of improvement report* summarizes the key metrics that were
 
 The *Glossary* includes metrics and terminology used within the dashboard.
 
-[![The Glossary](../media/glossary.png)](../media/glossary-lightbox.png#lightbox)
+:::image type="content" source="../media/glossary.png" alt-text="The Glossary." lightbox="../media/glossary.png" border="false":::
 
 ## Learn more
 
