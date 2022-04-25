@@ -5,7 +5,7 @@ Now that the out-of-box experience is complete, there are four key actions you s
 1. **Join Active Directory (AD) or Azure Active Directory (Azure AD)**. The third change is optional, and that's to join Active Directory or Azure Active Directory. Joining Active Directory or Azure Active Directory allows you to import administrators into the local administrators group of Teams Rooms.
 1. **Update Windows**. Finally, and this is important, update Windows *after* you have updated the Teams Rooms app and rebooted. If you update Windows before you update Teams Rooms, you may end up in a scenario where you have an installed version of Windows that is unsupported by Teams Rooms. To avoid this, always update the Teams Rooms app before you update Windows.
 
-   ![Take four key actions](../media/four-key-actions.png)
+   :::image type="content" source="../media/four-key-actions.png" alt-text="Take four key actions." border="false":::
 
 ## 1. Change the Admin password
 
@@ -15,11 +15,11 @@ To change the Admin password, you need to access the Windows interface. So how d
 
 1. On the console, click **More** and then **Settings**.
 
-   ![Click More and Settings](../media/more-button-settings.png)
+   :::image type="content" source="../media/more-button-settings.png" alt-text="Click More and Settings." border="false":::
 
 1. From the Settings screen, you can click on **Windows Settings** which will close out the Teams Rooms app and bring up the familiar Windows 10 sign-in screen.
 
-   ![Click on Windows Settings](../media/windows-settings.png)
+   :::image type="content" source="../media/windows-settings.png" alt-text="Click on Windows Settings." border="false":::
 
 1. Sign in as Admin with the default password and you'll see the standard Windows 10 desktop.
 1. To change the password for the Admin account, navigate to **Windows Settings** on the console.
@@ -28,7 +28,7 @@ To change the Admin password, you need to access the Windows interface. So how d
    1. Select **Users**.
    1. You can see the Admin account listed in the screenshot here. Right-click on it and select **Set Password . . .**
 
-   ![Reset the Admin password](../media/navigate-set-admin-password.png)
+   :::image type="content" source="../media/navigate-set-admin-password.png" alt-text="Reset the Admin password." border="false":::
 
    You can also change the password using PowerShell.
 
@@ -49,15 +49,15 @@ To manually update the Teams Rooms app, follow these steps.
 1. On the console, navigate to **Windows Settings** and open the Microsoft Store.  
 1. After you open the Store, click on the ellipses at the upper right to show the menu. Then click on **Downloads and updates**.
 
-   ![Go to the Store and click on Downloads and updates.](../media/manual-teams-app-update-store.png)
+   :::image type="content" source="../media/manual-teams-app-update-store.png" alt-text="Go to the Store and click on Downloads and updates." border="false":::
 
 1. From the screen that pops up, click **Get updates** to check for any updates.
 
-   ![Downloads and updates screen](../media/store-downloads-updates.png)
+   :::image type="content" source="../media/store-downloads-updates.png" alt-text="Downloads and updates screen." border="false":::
 
 1. If there are any updates to any installed apps, they will be downloaded and installed. In the image here, there is an update underway for Skype Room System. This is the name used for the Microsoft Teams Rooms app. After the app is installed, it is recommended to reboot Teams Rooms so any new settings can be properly applied.
 
-   ![Download is underway](../media/downloads-updates-queue.png)
+   :::image type="content" source="../media/downloads-updates-queue.png" alt-text="Download is underway." border="false":::
 
 ## 3. Join Active Directory or Azure Active Directory
 
@@ -71,7 +71,7 @@ Because the Teams Rooms app blocks the installation of unsupported versions of W
 
 1. After navigating to Windows Settings on the console, type **Windows updates** in the search bar on the Windows task bar and press **Enter**.
 
-   ![Windows Updates screen](../media/windows-updates-screen.png)
+   :::image type="content" source="../media/windows-updates-screen.png" alt-text="Windows Updates screen." border="false":::
 
 2. From this screen, click on **Check for updates**. Windows will then look for any available updates and install them.
 
