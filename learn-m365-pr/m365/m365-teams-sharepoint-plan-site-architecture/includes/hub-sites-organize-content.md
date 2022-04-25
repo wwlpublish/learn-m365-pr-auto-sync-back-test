@@ -25,7 +25,7 @@ You can choose to not add every associated site to your navigation, or decide to
 
 At the top of a hub site and any associated sites, above the site navigation, is the hub site navigation bar. If you are the hub site owner, you can customize this navigation bar with links that make sense for your hub site and associated sites, and choose to use the megamenu layout.
 
-![Hub site navigation bar](../media/hub-site-navigation-bar.png)
+:::image type="content" source="../media/hub-site-navigation-bar.png" alt-text="Hub site navigation bar." border="false":::
 
 ## Search across the hub
 
