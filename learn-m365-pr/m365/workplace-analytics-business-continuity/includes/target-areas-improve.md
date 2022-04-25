@@ -22,7 +22,7 @@ Take a look at the *Best practices recommendations* (on the right side of the re
 
 View 2 of the *Areas of improvement report* summarizes the key metrics that were identified in the previous report by group.  
 
-:::image type="content" source="../media/effectiveness-improved-2.png" alt-text="The Areas of improvement report View 2." lightbox="../media/effectiveness-improved-2.png" border="false":::
+:::image type="content" source="../media/effectiveness-improved-2.png" alt-text="The Areas of improvement report View 2." lightbox="../media/effectiveness-improved-2-lightbox.png" border="false":::
 
 * Use the break-outs by organizational attribute in this report to identify pockets of the organization most impacted by the opportunity areas.
 * To filter the reports by a different organizational attribute, return to the Settings page and select a new attribute from the dropdown menu. All report pages will automatically group the data by the newly selected attribute.
