@@ -46,4 +46,4 @@ Azure Virtual Desktop has the following capabilities:
 
 Find out more here: [Windows Autopilot and Surface devices.](/surface/windows-virtual-desktop-surface?azure-portal=true)
 
-To help you choose to right option for your hybrid work needs view, [Windows 365 Cloud PC](https://www.microsoft.com/windows-365?azure-portal=true) and [Azure Virtual Desktop](https://azure.microsoft.com/services/virtual-desktop/#overview?azure-portal=true).<br>
+To help you choose to right option for your hybrid work needs view, [Windows 365 Cloud PC](https://www.microsoft.com/windows-365?azure-portal=true) and [Azure Virtual Desktop](https://azure.microsoft.com/services/virtual-desktop/#overview?azure-portal=true).
