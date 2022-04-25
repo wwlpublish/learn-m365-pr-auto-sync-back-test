@@ -41,6 +41,6 @@ This is not the complete set of detections, but it shows the breadth of detectio
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4Gq4n) of the interactive guide (captions available in more languages).
 
-[:::image type="content" source="../media/detect-suspicious-activities.png" alt-text="Detect suspicious activities and potential attacks with Microsoft Defender for Identity." border="false":::)](https://mslearn.cloudguides.com/guides/Detect%20suspicious%20activities%20and%20potential%20attacks%20with%20Microsoft%20Defender%20for%20Identity)
+[:::image type="content" source="../media/detect-suspicious-activities.png" alt-text="Detect suspicious activities and potential attacks with Microsoft Defender for Identity." border="false":::](https://mslearn.cloudguides.com/guides/Detect%20suspicious%20activities%20and%20potential%20attacks%20with%20Microsoft%20Defender%20for%20Identity)
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.
