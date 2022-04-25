@@ -31,4 +31,4 @@ When you first power on Teams Rooms, the first screens you see are the out-of-bo
 1. If you have Microsoft certified Teams Rooms equipment connected, you'll see the congratulations message. If not, you'll need to connect the center of room console to the compute module.
 1. Choose **Finish** to complete the out-of-box experience for both Windows and Microsoft Teams Rooms.
 
-   :::image type="content" source="../media/out-of-box-finish.png" alt-text="Choose Finish to complete the out-of-box experience." lightbox="../media/out-of-box-finish.png" border="false":::
+   :::image type="content" source="../media/out-of-box-finish.png" alt-text="Choose Finish to complete the out-of-box experience." lightbox="../media/out-of-box-finish-lightbox.png" border="false":::
