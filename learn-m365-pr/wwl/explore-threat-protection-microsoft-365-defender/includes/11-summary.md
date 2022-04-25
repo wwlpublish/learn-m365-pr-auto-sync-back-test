@@ -12,3 +12,4 @@ You then learned that Microsoft Defender for Office 365 extends the protection p
  -  Time-of-click protection against malicious URLs.
 
 This module examined how Microsoft Defender for Office 365 protects users from advanced threats through features such as safe attachments and safe links. You also learned about Configuration Analyzer, which reviews an organization's threat protection policies and provides suggestions for improvement. The module then explored how to manage spoof intelligence features and anti-phishing policies. Lastly, we reviewed the process you can use to fine-tune your secure messaging environment by adding tenant allows/blocks for false positive and false negative EOP message verdicts and explored Advanced Hunting queries within Microsoft 365 Defender.
+
