@@ -13,7 +13,7 @@ Microsoft Defender for Identity provides the following benefits:
 
 Microsoft Defender for Identity monitors and analyzes user activities and information across your network, such as permissions and group membership. It then creates a behavioral baseline for each user. Microsoft Defender for Identity then identifies anomalies with adaptive built-in intelligence, giving you insights into suspicious activities and events, revealing the advanced threats, compromised users, and insider threats facing your organization. Microsoft Defender for Identity's proprietary sensors monitor organizational domain controllers, providing a comprehensive view for all user activities from every device.
 
-:::image type="content" source="../media/user-activities-view.png" alt-text="Overview of user activities." lightbox="../media/user-activities-view.png" border="false":::
+:::image type="content" source="../media/user-activities-view.png" alt-text="Overview of user activities." lightbox="../media/user-activities-view-magnify.png" border="false":::
 
 ## Protect user identities and reduce the attack surface
 
