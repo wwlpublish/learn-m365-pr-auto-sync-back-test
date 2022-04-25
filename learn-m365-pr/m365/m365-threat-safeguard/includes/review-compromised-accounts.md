@@ -19,7 +19,7 @@ Each Microsoft Defender for Identity security alert includes:
 
 Alerts can also be viewed within Microsoft Defender for Cloud Apps:
 
-:::image type="content" source="../media/cloud-app-security-alerts.png" alt-text="Microsoft Defender for Cloud Apps alert." lightbox="../media/cloud-app-security-alerts.png" border="false":::
+:::image type="content" source="../media/cloud-app-security-alerts.png" alt-text="Microsoft Defender for Cloud Apps alert." lightbox="../media/cloud-app-security-alerts-magnify.png" border="false":::
 
 The following scenario describes an investigation into an attacker gaining administrator access to the domain controller and compromising the Active Directory domain and forest.
 
