@@ -15,13 +15,15 @@ There are two options to choose from to implement user account synchronization b
 
 ### Azure AD Connect sync
 
-Azure AD Connect sync is an on-premises Microsoft application that's designed to meet and accomplish your hybrid identity goals. It's typically installed on an on-premises domain-joined server, although it can be installed on a domain controller. Its only requirement is an outbound HTTPS connection to Microsoft 365 servers.<br><br>Azure AD Connect sync (formerly known as Dirsync and AD sync) was the first solution built for provisioning from on-premises AD to Azure AD. It currently has support for the most Azure AD hybrid scenarios, and it can support organizations with large directories. While Azure AD Connect sync is robust in its capabilities, it can also:
+Azure AD Connect sync is an on-premises Microsoft application that's designed to meet and accomplish your hybrid identity goals. It's typically installed on an on-premises domain-joined server, although it can be installed on a domain controller. Its only requirement is an outbound HTTPS connection to Microsoft 365 servers.
+
+Azure AD Connect sync (formerly known as Dirsync and AD sync) was the first solution built for provisioning from on-premises AD to Azure AD. It currently has support for the most Azure AD hybrid scenarios, and it can support organizations with large directories. While Azure AD Connect sync is robust in its capabilities, it can also:
 
  -  Require a heavy investment in infrastructure resources.
  -  Be complicated to configure.
  -  Result in higher maintenance costs.
 
-Azure AD Connect comes with several features you can optionally turn on or are enabled by default. Some features may require more configuration in certain scenarios and topologies.<br>
+Azure AD Connect comes with several features you can optionally turn on or are enabled by default. Some features may require more configuration in certain scenarios and topologies.
 
  -  [**Filtering**](/azure/active-directory/connect/active-directory-aadconnectsync-configure-filtering?azure-portal=true). Used when an organization wants to limit which objects are synchronized to Azure AD. By default, all users, contacts, groups, and Windows 10 computers are synchronized. The filtering can be changed based on domains, OUs, or attributes.
  -  [**Password hash synchronization**](/azure/active-directory/connect/active-directory-aadconnectsync-implement-password-hash-synchronization?azure-portal=true). Synchronizes the password hash in Active Directory to Azure AD. The end user can use the same password on-premises and in the cloud but only manage it in one location. Since password hash synchronization uses an organization's on-premises Active Directory as the authority, the organization can use its own password policy.
@@ -69,7 +71,7 @@ An organization can also deploy multiple agents to provide high availability and
 
 Azure AD Cloud Sync is also the ideal solution if you find yourself needing to provision users from multiple Active Directory forests that have no network connectivity between them. This scenario is often the case in complex business arrangements such as mergers and acquisitions. Azure AD Cloud Sync enables an organization to deploy agents into each of the isolated networks that can communicate independently between the forest and the respective network and Azure AD. And if you already have Azure AD Connect sync deployed in your environment, that doesn't exclude you from deploying Azure AD Cloud Sync to that environment as well. Azure AD Cloud Sync can be used side by side with Azure AD Connect sync.
 
-And lastly, Azure AD Cloud Sync can keep Azure AD up-to-date with greater frequency than Azure AD Connect sync. As such, organizations no longer have to wait 30 minutes for on-premises changes to be seen in Azure AD, as is the case when using Azure AD Connect sync.<br>
+And lastly, Azure AD Cloud Sync can keep Azure AD up-to-date with greater frequency than Azure AD Connect sync. As such, organizations no longer have to wait 30 minutes for on-premises changes to be seen in Azure AD, as is the case when using Azure AD Connect sync.
 
 ### Comparison between Azure AD Connect and Azure AD Connect Cloud Sync
 
