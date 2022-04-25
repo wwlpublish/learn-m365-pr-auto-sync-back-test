@@ -33,7 +33,7 @@ Within the alert, we can also find the activity log, which shows more informatio
 
 Back in the Alerts overview, we can see a more recent alert pointing to an **overpass-the-hash attack**.
 
-:::image type="content" source="../media/overpass-hash-attack.png" alt-text="Alert: Overpass-the-hash-attack." lightbox="../media/overpass-hash-attack.png" border="false":::
+:::image type="content" source="../media/overpass-hash-attack.png" alt-text="Alert: Overpass-the-hash-attack." lightbox="../media/overpass-hash-attack-magnify.png" border="false":::
 
 Opening the suspected overpass-the-hash-attack (Kerberos) alert, we see evidence that the user account was part of a lateral movement path.
 
