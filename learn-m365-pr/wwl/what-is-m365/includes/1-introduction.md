@@ -4,9 +4,9 @@ In this module, you'll learn about Microsoft 365 - the world's productivity clou
 
 **Microsoft 365** is a cloud-based subscription service consisting of an integrated portfolio of tools like Office apps, Teams, Windows client, and more, that can help you and your organization of any size. It's the future of work in this changing workplace. These Microsoft 365 tools help drive productivity, collaboration, and communication securely across many devices, whether you are at home, in the office, out in the field, or on the go. Microsoft 365 includes everyone in digital transformation while ensuring a trusted, secure and modern experience for every employee at any time, and anywhere.
 
-> [!VIDEO https://support.microsoft.com/en-us/office/what-is-microsoft-365-847caf12-2589-452c-8aca-1c009797678b]
-
 Unlike other productivity services, Microsoft 365 learns from users and collects valuable insights through the **Microsoft Graph.** Microsoft Graph is the gateway to data and intelligence in Microsoft 365. Collecting valuable insights helps to deliver enhanced experiences that continually get better over time and keep users protected.
+
+For more information on what is Microsoft 365, see [What is Microsoft 365?](https://support.microsoft.com/office/what-is-microsoft-365-847caf12-2589-452c-8aca-1c009797678b?azure-portal=true).
 
 ### What is Microsoft 365 Fundamentals?
 
@@ -14,39 +14,9 @@ Microsoft 365 fundamentals is your guide and gateway to everything Microsoft 365
 
 The following list summarizes the three learning paths:
 
-:::row:::
-  :::column:::
-    **Learning Paths**
-  :::column-end:::
-  :::column:::
-    **Description**
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Microsoft 365 Fundamentals: Describe Microsoft 365 core services and concepts.
-  :::column-end:::
-  :::column:::
-    Learn about how the productivity, collaboration, and business management solutions through Microsoft 365 empower people and organizations to achieve more.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Microsoft 365 Fundamentals: Demonstrate fundamental knowledge of Microsoft 365 security and compliance capabilities.
-  :::column-end:::
-  :::column:::
-    Learn about how the security, compliance, and identity solutions through Microsoft help people and organizations secure their entire digital estate, simplify compliance and reduce risk.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Microsoft 365 Fundamentals: Demonstrate knowledge of Microsoft 365 licensing, service and support.
-  :::column-end:::
-  :::column:::
-    Learn about how people and organizations can get the most out of their Microsoft 365 investments through adoption guidance, continuous support, and licensing options that meet their needs.
-  :::column-end:::
-:::row-end:::
-
+1.  **Microsoft 365 Fundamentals: Describe Microsoft 365 core services and concepts.** Learn about how the productivity, collaboration, and business management solutions through Microsoft 365 empower people and organizations to achieve more.
+2.  **Microsoft 365 Fundamentals: Demonstrate fundamental knowledge of Microsoft 365 security and compliance capabilities.** Learn about how the security, compliance, and identity solutions through Microsoft help people and organizations secure their entire digital estate, simplify compliance and reduce risk.
+3.  **Microsoft 365 Fundamentals: Demonstrate knowledge of Microsoft 365 licensing, service and support.** Learn about how people and organizations can get the most out of their Microsoft 365 investments through adoption guidance, continuous support, and licensing options that meet their needs.
 
 ### Learning Objectives
 
@@ -56,7 +26,3 @@ After completing this module, you should be able to:
  -  Describe the differences between Office 365, Microsoft 365, and Windows 365.
  -  Describe the Microsoft 365 subscription options.
  -  Create a Microsoft 365 trial organization.
-
-### Prerequisites
-
- -  Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a -Service (Saas).

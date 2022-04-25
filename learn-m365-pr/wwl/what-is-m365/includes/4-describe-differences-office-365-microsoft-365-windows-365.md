@@ -1,4 +1,4 @@
-### Evolution of Office 365 to Microsoft 365
+### The evolution of Office 365 to Microsoft 365
 
 Over 10 years ago Microsoft introduced **Office 365,** the software-as-a-service you may be familiar with and have used. Evolving from Microsoft’s Business Productivity Online Suite (BPOS), Office 365 was designed to bring together its existing online products to an ever up-to-date cloud service. It combined the core productivity apps such as Word, Excel, PowerPoint, OneNote, Outlook, etc., and the collaboration and communication tools such as Exchange, SharePoint, and Skype for Business. Office 365 was a way to grow its Office-centric business and expand on communication and collaboration services. First aiming at corporate users, eventually updated versions of Office 365 subscriptions were released aiming at different size businesses, consumers, and students. These versions included new features such as OneDrive.
 
