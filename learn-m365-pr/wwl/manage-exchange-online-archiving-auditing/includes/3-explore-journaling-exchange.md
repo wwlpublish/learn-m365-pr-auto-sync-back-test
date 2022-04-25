@@ -76,7 +76,7 @@ Journaling in Exchange consists of the features identified in the following tabl
   :::column-end:::
   :::column:::
     The journaling mailbox is used to collect journal reports. How you configure the journaling mailbox depends on your organization's policies, regulatory requirements, and legal requirements. You can specify one journaling mailbox to collect messages for all the journal rules configured in the organization, or you can use different journaling mailboxes for different journal rules or sets of journal rules.
-In Microsoft 365, you can't select an Exchange Online mailbox as a journaling mailbox. You can deliver journal reports to an on-premises archiving system or a third-party archiving service.If you're running an Exchange hybrid deployment with your mailboxes split between on-premises servers and Microsoft 365, you can select an on-premises mailbox as the journaling mailbox for your Exchange Online and on-premises mailboxes.
+In Microsoft 365, you can't select an Exchange Online mailbox as a journaling mailbox. You can deliver journal reports to an on-premises archiving system or a third-party archiving service. If you're running an Exchange hybrid deployment with your mailboxes split between on-premises servers and Microsoft 365, you can select an on-premises mailbox as the journaling mailbox for your Exchange Online and on-premises mailboxes.
   :::column-end:::
 :::row-end:::
 
