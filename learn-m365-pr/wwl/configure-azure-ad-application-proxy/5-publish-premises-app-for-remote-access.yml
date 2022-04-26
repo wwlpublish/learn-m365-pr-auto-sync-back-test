@@ -4,12 +4,13 @@ title: Publish an on-premises app for remote access
 metadata:
   title: Publish an on-premises app for remote access
   description: "Publish an on-premises app for remote access"
-  ms.date: 07/12/2021
+  ms.date: 04/26/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/5-publish-premises-app-for-remote-access.md)]

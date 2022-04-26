@@ -4,12 +4,13 @@ title: Explore Azure AD Application Proxy
 metadata:
   title: Explore Azure AD Application Proxy
   description: "Explore Azure AD Application Proxy"
-  ms.date: 07/12/2021
+  ms.date: 04/26/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 5
 content: |
   [!include[](includes/2-explore.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "It helps on-premises workers by publishing on-premises applications to be accessed over the internet"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't a key benefit of using Azure Active Directory Application Proxy. Try again."
+      explanation: "Incorrect. This item isn't a key benefit of using Azure Active Directory Application Proxy."
     - content: "It makes user access to company applications more secure by requiring VPN tunneling"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't a key benefit of using Azure Active Directory Application Proxy. Try again."
+      explanation: "Incorrect. This item isn't a key benefit of using Azure Active Directory Application Proxy."
     - content: "It supports remote workers by publishing on-premises applications to be accessed over the internet"
       isCorrect: true
-      explanation: "That's correct. Azure Active Directory Application Proxy helps you support remote workers by publishing on-premises applications to be accessed over the internet. You can publish these applications through the Azure portal to provide secure remote access from outside your network."
+      explanation: "Correct. Azure Active Directory Application Proxy helps you support remote workers by publishing on-premises applications to be accessed over the internet. You can publish these applications through the Azure portal to provide secure remote access from outside your network."

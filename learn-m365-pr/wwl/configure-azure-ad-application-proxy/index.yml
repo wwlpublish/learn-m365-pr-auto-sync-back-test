@@ -3,7 +3,7 @@ uid: learn.wwl.configure-azure-ad-application-proxy
 metadata:
   title: Configure Azure AD Application Proxy
   description: "Configure Azure AD Application Proxy"
-  ms.date: 07/12/2021
+  ms.date: 04/26/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,7 +11,7 @@ metadata:
 title: Configure Azure AD Application Proxy
 summary: This module examines Azure AD Application Proxy and connectors, how to install and register a connector, and how to publish an on-premises app for remote access.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Describe the benefits of Azure AD Application Proxy, the type of applications that work with it, and how it works
   - Identify Azure AD Application Proxy prerequisites
   - Install and register a connector and verify that it installed correctly
@@ -26,7 +26,6 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:
