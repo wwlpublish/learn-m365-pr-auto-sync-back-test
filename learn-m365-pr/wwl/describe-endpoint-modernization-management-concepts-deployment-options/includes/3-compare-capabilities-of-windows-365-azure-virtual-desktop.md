@@ -1,4 +1,4 @@
-**zWindows 365** and **Azure Virtual Desktop** services are both virtual desktop solutions, also known as Desktop-as-a-Service. Let's explore some of the different capabilities of each.
+**Windows 365** and **Azure Virtual Desktop** services are both virtual desktop solutions, also known as Desktop-as-a-Service. Let's explore some of the different capabilities of each.
 
 ### Windows 365
 
@@ -20,7 +20,8 @@ Windows 365 is available in two subscription offerings:
  -  **Windows 365 Business** is made specifically for smaller organizations (up to 300 seats) who want ready-to-use Cloud PCs with simple management options.
  -  **Windows 365 Enterprise** is for larger organizations who want unlimited seats for creating Cloud PCs. It includes options to create custom Cloud PCs based on device images that you create, more management options, and full integration with Microsoft Endpoint Manager.
 
-### :::image type="content" source="../media/modernization-module-window-365-unit-window-365-dcd71959.png" alt-text="modernization-module-W365-unit-W365.png"::: 
+:::image type="content" source="../media/modernization-module-window-365-unit-window-365-dcd71959.png" alt-text="modernization-module-W365-unit-W365.png":::
+
 
 ### Azure Virtual Desktop
 
