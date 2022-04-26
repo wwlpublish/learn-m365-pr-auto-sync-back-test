@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn.wwl.troubleshoot-file-sharing
 metadata:
-  title: Troubleshoot File Sharing
+  title: Troubleshoot file sharing
   description: "You will learn how to troubleshoot file sharing problems."
   ms.date: 04/26/2022
   author: wwlpublish
   ms.author: cyncarey
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Troubleshoot File Sharing
+title: Troubleshoot file sharing
 summary: You will learn how to troubleshoot file sharing problems.
 abstract: |
   After completing this module, you'll be able to:
