@@ -14,7 +14,7 @@ This three-tiered process enables you to create a robust diagnostic plan for you
 
 To achieve a result that identifies opportunities and targets the right groups for your customer focus initiative, it is important to identify business priorities and consider the scope of your analysis.
 
-![Scope analysis](../media/scope-analysis.png)
+:::image type="content" source="../media/scope-analysis.png" alt-text="Scope analysis." border="false":::
 
 ### Identify business priorities
 
@@ -59,7 +59,7 @@ Scope your project to clarify your objectives, ensure the right people are invol
 
 To create a quality customer focus analysis that will achieve the greatest impact, it is important to tailor the analysis to core business needs. This requires creating guiding questions, understanding the data requirements, and identifying the key metrics and Workplace Analytics queries you will run to get the data.
 
-![Plan analysis](../media/plan-analysis.png)
+:::image type="content" source="../media/plan-analysis.png" alt-text="Plan analysis." border="false":::
 
 ### Create guiding questions
 
@@ -110,7 +110,7 @@ For detailed guidance about queries and metrics related to specific business que
 
 After your analysis is complete, it is important to identify what actions you'll take, and establish how you'll measure, track, and share the information with your organization.
 
-![Create value](../media/create-value.png)
+:::image type="content" source="../media/create-value.png" alt-text="Create value." border="false":::
 
 ### Define next steps and create change tactics
 
