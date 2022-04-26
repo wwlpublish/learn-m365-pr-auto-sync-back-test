@@ -38,7 +38,9 @@ In the **Tenant Allow/Block Lists**, there are four tabs to select from. Refer t
     Block
   :::column-end:::
   :::column:::
-    **Sender email addresses or domains:** Enter one sender (email address or domain) per line, up to a maximum of 20. For example, "contoso.com" and "user@fabrikam.com".**Never expire:** 
+    **Sender email addresses or domains:** Enter one sender (email address or domain) per line, up to a maximum of 20. For example, "contoso.com" and "user@fabrikam.com".
+    
+    **Never expire:** 
 
  -  Verify the setting is turned off and use the Remove on box to specify the expiration date for the entries.
     **or**
@@ -55,7 +57,9 @@ In the **Tenant Allow/Block Lists**, there are four tabs to select from. Refer t
     Block
   :::column-end:::
   :::column:::
-    **Add URLs with wildcards:** Enter one URL per line, up to a maximum of 20. For example, "contoso.com/a/\*" and "1.2.3.4/\*". (For details about the syntax of URL entries, see [URL syntax for the Tenant Allow/Block List](/microsoft-365/security/office-365-security/tenant-allow-block-list?azure-portal=true#url-syntax-for-the-tenant-allowblock-list).)**Never expire:** 
+    **Add URLs with wildcards:** Enter one URL per line, up to a maximum of 20. For example, "contoso.com/a/\*" and "1.2.3.4/\*". (For details about the syntax of URL entries, see [URL syntax for the Tenant Allow/Block List](/microsoft-365/security/office-365-security/tenant-allow-block-list?azure-portal=true#url-syntax-for-the-tenant-allowblock-list).)
+    
+    **Never expire:** 
 
  -  Verify the setting is turned off and use the Remove on box to specify the expiration date for the entries.
     **or**
@@ -72,7 +76,9 @@ In the **Tenant Allow/Block Lists**, there are four tabs to select from. Refer t
     Block
   :::column-end:::
   :::column:::
-    **Add file hashes:** Enter one SHA256 hash value per line, up to a maximum of 20. For example, "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3a".**Never expire:** 
+    **Add file hashes:** Enter one SHA256 hash value per line, up to a maximum of 20. For example, "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3a".
+    
+    **Never expire:** 
 
  -  Verify the setting is turned off and use the Remove on box to specify the expiration date for the entries.
     **or**
@@ -89,7 +95,9 @@ In the **Tenant Allow/Block Lists**, there are four tabs to select from. Refer t
     Allow/Block
   :::column-end:::
   :::column:::
-    **Add new domain pairs with wildcards:** Enter one domain pair per line, up to a maximum of 20. For example, "contoso.com" and "166.22.0.0/24". (For syntax details, see [Domain pair syntax for spoofed sender entries in the Tenant Allow/Block List](/microsoft-365/security/office-365-security/tenant-allow-block-list?azure-portal=true#domain-pair-syntax-for-spoofed-sender-entries-in-the-tenant-allowblock-list))**Spoof type:** Select one of the following values:
+    **Add new domain pairs with wildcards:** Enter one domain pair per line, up to a maximum of 20. For example, "contoso.com" and "166.22.0.0/24". (For syntax details, see [Domain pair syntax for spoofed sender entries in the Tenant Allow/Block List](/microsoft-365/security/office-365-security/tenant-allow-block-list?azure-portal=true#domain-pair-syntax-for-spoofed-sender-entries-in-the-tenant-allowblock-list))
+    
+    **Spoof type:** Select one of the following values:
 
  -  Internal: The spoofed sender is in a domain that belongs to your organization (an accepted domain).
  -  External: The spoofed sender is in an external domain.
