@@ -1,15 +1,16 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.explore-solutions-for-external-access.explore-customer-lockbox
-title: Explore customer lockbox
+title: Explore Customer Lockbox
 metadata:
-  title: Explore customer lockbox
-  description: "Explore customer lockbox"
-  ms.date: 07/12/2021
+  title: Explore Customer Lockbox
+  description: "Explore Customer Lockbox"
+  ms.date: 04/26/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 5
 content: |
   [!include[](includes/6-explore-customer-lockbox.md)]

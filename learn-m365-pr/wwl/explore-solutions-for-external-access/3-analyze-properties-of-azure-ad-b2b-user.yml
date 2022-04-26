@@ -4,12 +4,13 @@ title: Analyze the properties of an Azure AD B2B user
 metadata:
   title: Analyze the properties of an Azure AD B2B user
   description: "Analyze the properties of an Azure AD B2B user"
-  ms.date: 07/12/2021
+  ms.date: 04/26/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 9
 content: |
   [!include[](includes/3-analyze-properties-of-azure-ad-b2b-user.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "UserType"
       isCorrect: true
-      explanation: "That's correct. This property indicates the relationship of the user to the host tenancy. The available options include Member and Guest."
+      explanation: "Correct. This property indicates the relationship of the user to the host tenancy. The available options include Member and Guest."
     - content: "Source"
       isCorrect: false
-      explanation: "That's incorrect. This property indicates how the user signs in. Try again."
+      explanation: "Incorrect. This property indicates how the user signs in."
     - content: "HostTenant"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't a property of an Azure AD B2B user. Try again."
+      explanation: "Incorrect. This item isn't a property of an Azure AD B2B user."
