@@ -32,7 +32,7 @@ quiz:
     choices:
     - content: "Verify Fabrikam has Microsoft Defender for Office 365 licensed"
       isCorrect: true
-      explanation: "That's correct. Before implementing Safe Links, Holly should verify that Fabrikam has Microsoft Defender for Office 365 licensed."
+      explanation: "That's correct. Holly should verify that Fabrikam has Microsoft Defender for Office 365 licensed Before implementing Safe Links."
     - content: "Verify that a default policy is in place that applies to selected domains"
       isCorrect: false
       explanation: "That's incorrect. A default policy should be in place that applies to everyone."

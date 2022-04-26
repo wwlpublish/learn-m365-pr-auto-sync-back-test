@@ -43,7 +43,7 @@ The profiles are further refined using conditions and exceptions that are requir
 
 ### Permissions required to run the Configuration Analyzer<br>
 
-Before accessing the Configuration Analyzer, the messaging administrator must complete the following requirements:
+The messaging administrator must complete the following requirements before accessing the Configuration Analyze:
 
  -  For Full access, the messaging admin must be a member of Organization Management or Security Administrator role groups.
  -  For Read-Only access, the messaging admin must be a member of the Global Reader or Security Reader role groups.

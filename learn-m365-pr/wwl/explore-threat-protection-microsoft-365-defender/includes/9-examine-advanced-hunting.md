@@ -98,7 +98,7 @@ To use a query for a custom detection rule, the query must return the following 
 
 Simple queries, such as those that don't use the project or summarize operator to customize or aggregate results, typically return these common columns.
 
-The sample query below attempts to identify potential exfiltration scenarios with querying outbound emails with large attachment sizes .
+The sample query below attempts to identify potential exfiltration scenarios with querying outbound emails with large attachment sizes.
 
 ```
 EmailEvents 
@@ -118,7 +118,7 @@ With the query in the query editor, select Create detection rule and specify the
  -  Category - type of threat component or activity, if any.
  -  MITRE ATT&amp;CK techniques - one or more attack techniques identified by the rule as documented in the MITRE ATT&amp;CK framework. This section isn't available with certain alert categories, such as malware, ransomware, suspicious activity, and unwanted software.
  -  Description - more information about the component or activity identified by the rule.
- -  Recommended actions - extra actions that responders might take in response to an alert..
+ -  Recommended actions - extra actions that responders might take in response to an alert.
 
 **3. Choose the impacted entities.**
 
