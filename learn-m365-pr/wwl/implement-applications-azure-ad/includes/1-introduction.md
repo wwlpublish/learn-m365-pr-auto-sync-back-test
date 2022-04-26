@@ -6,11 +6,13 @@ Once your application has been registered with Azure AD, it may need to be updat
 
 This module will then examine how to modify the configuration of a single-tenant application to make it a multi-tenant application. Single-tenant apps can only be accessed by users in your organization. Conversely, multi-tenant apps are accessible to users in external organizations.
 
-The module concludes opposite from where it began. Once you've learned how to register an app in Azure AD, you'll then learn how to remove an application's registration from your Azure AD tenant.
+The module concludes by examining how to manage OAuth application requests and monitor app governance for OAuth-enabled apps.
 
 After completing this module, you'll be able to:
 
- -  Register an application or service within your Azure AD tenant
- -  Update an application within the Azure AD consent framework
- -  Modify the configuration of a single-tenant application to make it a multi-tenant application
- -  Remove an application's registration from your Azure AD tenant
+ -  Describe the purpose of integrated apps in Microsoft 365.
+ -  Register an application or service within your Azure AD tenant.
+ -  Update an application within the Azure AD consent framework.
+ -  Modify the configuration of a single-tenant application to make it a multi-tenant application.
+ -  Manage OAuth application requests in the Microsoft Defender for Cloud Apps portal.
+ -  Monitor OAuth-enabled apps in the apps governance feature of Microsoft Defender for Cloud Apps.
