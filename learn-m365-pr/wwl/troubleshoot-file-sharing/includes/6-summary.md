@@ -20,5 +20,5 @@ For more information about the topics discussed in this module, see:
 - [Restrictions and limitations in OneDrive and SharePoint](https://support.microsoft.com/office/restrictions-and-limitations-in-onedrive-and-sharepoint-64883a5d-228e-48f5-b3d2-eb39e07630fa?ui=en-US&rs=en-US&ad=US#invalidcharacters)
 - [Limits and specifications for Microsoft Teams](/microsoftteams/limits-specifications-teams)
 - [Sync SharePoint and Teams files with your computer](https://support.microsoft.com/office/sync-sharepoint-and-teams-files-with-your-computer-6de9ede8-5b6e-4503-80b2-6190f3354a88)
-- [Set-CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)
+- [Set-CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)
 - [Reinstall OneDrive](https://support.microsoft.com/office/reinstall-onedrive-0660f354-6a69-46eb-b817-7f4e0d7b45b5)
