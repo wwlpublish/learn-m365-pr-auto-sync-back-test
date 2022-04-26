@@ -32,13 +32,13 @@ quiz:
     choices:
     - content: "Web developer for a tech company"
       isCorrect: true
-      explanation: "Correct. A web developer is not a frontline worker. A frontline worker is defined as those individuals that are in service or task-oriented roles. They are the first to engage customers, the first to see products and services in action, and the first to represent your brand."
+      explanation: "Correct. A web developer isn't a frontline worker. A frontline worker is defined as those individuals that are in service or task-oriented roles. They're the first to engage customers, the first to see products and services in action, and the first to represent your brand."
     - content: "Machinist at a factory"
       isCorrect: false
-      explanation: "Incorrect. A machinist is considered a frontline worker. A frontline worker is defined as those individuals that are in service or task-oriented roles. They are the first to engage customers, the first to see products and services in action, and the first to represent your brand."
+      explanation: "Incorrect. A machinist is considered a frontline worker. A frontline worker is defined as those individuals that are in service or task-oriented roles. They're the first to engage customers, the first to see products and services in action, and the first to represent your brand."
     - content: "Sales associate at a grocery store"
       isCorrect: false
-      explanation: "Incorrect. A sales associate is considered a frontline worker. A frontline worker is defined as those individuals that are in service or task-oriented roles. They are the first to engage customers, the first to see products and services in action, and the first to represent your brand."
+      explanation: "Incorrect. A sales associate is considered a frontline worker. A frontline worker is defined as those individuals that are in service or task-oriented roles. They're the first to engage customers, the first to see products and services in action, and the first to represent your brand."
   - content: "What is Microsoft 365?"
     choices:
     - content: "A cloud-based subscription service that consists of an integrated portfolio of products like Office apps, Teams, Windows, world-class security, and more."
