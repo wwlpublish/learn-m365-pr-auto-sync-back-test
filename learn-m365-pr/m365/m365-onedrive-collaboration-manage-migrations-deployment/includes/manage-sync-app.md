@@ -8,7 +8,7 @@ The OneDrive sync app is a standalone app that updates itself automatically is s
 - Production – every 2-4 weeks
 - Deferred – every 2-3 months
 
-![OneDrive sync app update process](../media/sync-app-update-process.png)
+:::image type="content" source="../media/sync-app-update-process.png" alt-text="Onedrive sync app update process." border="false":::
 
 As an admin, you can decide which ring works best for your users. We recommend that you select several people in your IT department as early adopters to join the Insiders ring and receive features early. Leave everyone else in the organization on the default Production ring to ensure they receive bug fixes and new features in a timely fashion. The Deferred ring is the slowest ring to receive performance improvements, reliability fixes, and new features, but it allows you to control when you deploy updates.
 
@@ -43,7 +43,7 @@ When managing OneDrive Group Policy objects, review how they work together. Some
 
 This is not an inclusive list of all policies, and these policies can change often.
 
-![Group Policy Management Editor](../media/group-policy-management-editor.png)
+:::image type="content" source="../media/group-policy-management-editor.png" alt-text="Group Policy Management Editor." border="false":::
 
 If you are managing devices in your organization using Intune, you can complete similar configurations using Administrative Templates. Administrative templates include hundreds of settings that control features in Microsoft Edge, Office, OneDrive, and more. This applies to Windows 10 and newer machines. The Windows settings are similar to Group Policy settings in AD. These settings are built into Windows and are ADMX backed settings.
 

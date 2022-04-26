@@ -6,7 +6,7 @@ Your admin can also assign the analyst role to other people in your organization
 
 The following system default settings apply to the employees you've included in the analysis population.
 
-![A screenshot of the system defaults for Workplace Analytics](../media/default-settings.png)
+:::image type="content" source="../media/default-settings.png" alt-text="A screenshot of the system defaults for Workplace Analytics." border="false":::
 
 - **Default time zone**, **Working days**, and **Working hours** are used to calculate employees' collaboration hours within work hours and during after hours. The system defaults are applied only if the user hasn't previously personalized their settings in Outlook.
 - Workplace Analytics uses the **Hourly Rate** to calculate the cost of employee time (for example, the cost of time spent in "low-quality" meetings). You can customize this value at aggregate levels in the organizational data file, or the Workplace Analytics admin can set a single number as a default.
@@ -21,7 +21,7 @@ The following system default settings apply to the employees you've included in 
 
 You can set the following privacy settings for the employees in the analysis population.
 
-![A screenshot of the privacy settings for Workplace Analytics](../media/privacy-settings.png)
+:::image type="content" source="../media/privacy-settings.png" alt-text="A screenshot of the privacy settings for Workplace Analytics." border="false":::
 
 - The **minimum group size** suppresses data for groups that are smaller than the specified value (the smallest value permitted is five). This setting is applied to your application immediately and also applies retroactively.
 - If **hash subject lines** is set to **Yes**, subject lines are excluded from meeting-query results. This also has a word-cloud feature in the Meeting Exclusion wizard. Like **minimum group size**, this setting applies immediately and also retroactively.

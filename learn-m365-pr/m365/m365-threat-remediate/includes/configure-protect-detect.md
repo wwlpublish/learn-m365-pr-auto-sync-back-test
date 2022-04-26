@@ -69,6 +69,6 @@ An impersonated domain might otherwise be considered legitimate (registered doma
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4GsOE) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/guides/Safeguard%20your%20organization%20with%20Microsoft%20Defender%20for%20Office%20365">![Defender for Office 365](../media/safeguard-your-organization.png)</a>  
+[:::image type="content" source="../media/safeguard-your-organization.png" alt-text="Defender for Office 365." border="false":::](https://mslearn.cloudguides.com/guides/Safeguard%20your%20organization%20with%20Microsoft%20Defender%20for%20Office%20365)
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.

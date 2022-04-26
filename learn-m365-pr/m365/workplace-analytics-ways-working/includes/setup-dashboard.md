@@ -1,6 +1,6 @@
 The Ways of working assessment dashboard uses a prebuilt Power BI template populated by output (OData) from the Ways of working assessment and Ways of working meeting queries available through the Query designer template setup steps.
 
-![Ways of working assessment template setup](../media/template-setup.png)
+:::image type="content" source="../media/template-setup.png" alt-text="Ways of working assessment template setup." border="false":::
 
 To set up the dashboard:
 
@@ -28,7 +28,7 @@ Tips when running the queries:
 
 **2. Download the template and load the query data**. After the queries successfully run, in **Query designer** > **Results**, copy the OData URL for the Ways of working assessment query results.
 
-![Download the template and load the query](../media/load-data-template.png)
+:::image type="content" source="../media/load-data-template.png" alt-text="Download the template and load the query." border="false":::
 
 To download the template and load the data into the Power BI dashboard:
 
@@ -49,7 +49,7 @@ The dashboard visualizations on each page of the report populate with Workplace 
 * Select an organizational attribute to view the report by.
 * Filter to your population of interest (if needed) along any organizational attribute.
 
-![Settings page](../media/options-settings.png)
+:::image type="content" source="../media/options-settings.png" alt-text="Settings page." border="false":::
 
 After confirming the settings for the population you want to analyze, you can start using the dashboard. This dashboard includes reports about total collaboration, after-hours work, meeting culture, multitasking behaviors, manager relationships, and more.
 
