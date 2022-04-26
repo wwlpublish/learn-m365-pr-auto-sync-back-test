@@ -2,7 +2,7 @@ In this module, you'll learn about Microsoft 365 - the world's productivity clou
 
 ### What is Microsoft 365?
 
-**Microsoft 365** is a cloud-based subscription service consisting of an integrated portfolio of tools like Office apps, Teams, Windows client, and more, that can help you and your organization of any size. It's the future of work in this changing workplace. These Microsoft 365 tools help drive productivity, collaboration, and communication securely across many devices, whether you are at home, in the office, out in the field, or on the go. Microsoft 365 includes everyone in digital transformation while ensuring a trusted, secure and modern experience for every employee at any time, and anywhere.
+**Microsoft 365** is a cloud-based subscription service that consists of an integrated portfolio of products like Office apps, Teams, Windows, world-class security, and more. Microsoft 365 can help you and your organization of any size. It's the future of work in this changing workplace. These Microsoft 365 tools help drive productivity, collaboration, and communication securely across many devices, whether you are at home, in the office, out in the field, or on the go. Microsoft 365 includes everyone in digital transformation while ensuring a trusted, secure and modern experience for every employee at any time, and anywhere.
 
 Unlike other productivity services, Microsoft 365 learns from users and collects valuable insights through the **Microsoft Graph.** Microsoft Graph is the gateway to data and intelligence in Microsoft 365. Collecting valuable insights helps to deliver enhanced experiences that continually get better over time and keep users protected.
 
