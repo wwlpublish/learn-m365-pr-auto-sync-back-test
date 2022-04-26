@@ -1,4 +1,4 @@
-**Windows 365** and **Azure Virtual Desktop** services are both virtual desktop solutions, also known as Desktop-as-a-Service. Let's explore some of the different capabilities of each.
+**zWindows 365** and **Azure Virtual Desktop** services are both virtual desktop solutions, also known as Desktop-as-a-Service. Let's explore some of the different capabilities of each.
 
 ### Windows 365
 
@@ -12,7 +12,7 @@ Windows 365 has the following capabilities:
  -  Uses a local profile that is stored directly on the cloud PC.
  -  Easily set up and scale Cloud PCs to fit your needs and securely support changing workforce needs and new business scenarios.
  -  Native integration across Azure Active Directory, Microsoft Defender, Microsoft 365 applications, and Microsoft Endpoint Manager.
- -  No setup needed, Windows 365 is provisioned for you once a license is assigned to you.
+ -  Windows 365 is provisioned for you once a license is assigned to you.
  -  Dedicated to a single user.
 
 Windows 365 is available in two subscription offerings:
@@ -38,12 +38,6 @@ Azure Virtual Desktop has the following capabilities:
  -  Dedicated to a single user or used by multiple users.
 
 > [!NOTE]
-> Azure Virtual Desktop on Surface lets you run Virtual Desktop Infrastructure (VDI) on a Surface device. AVD on Surface blurs the lines between the local desktop experience and the virtual desktop, where touch, pen, ink, and biometric authentication span both physical and virtual environments. Enjoy support for:
-
- -  Flexible form factors like 2-in-1 devices.
- -  Persistent, on-demand, and just-in-time work scenarios.
- -  Windows 10 modern device security and manageability.
-
-Find out more here: [Windows Autopilot and Surface devices.](/surface/windows-virtual-desktop-surface?azure-portal=true)
+> Azure Virtual Desktop on Surface lets you run Virtual Desktop Infrastructure (VDI) on a Surface device. AVD on Surface blurs the lines between the local desktop experience and the virtual desktop, where touch, pen, ink, and biometric authentication span both physical and virtual environments. Enjoy support for: flexible form factors like 2-in-1 devices, persistent, on-demand, and just-in-time work scenarios, Windows 10 modern device security and manageability. Find out more here: [Windows Autopilot and Surface devices.](/surface/windows-virtual-desktop-surface?azure-portal=true)
 
 To help you choose to right option for your hybrid work needs view, [Windows 365 Cloud PC](https://www.microsoft.com/windows-365?azure-portal=true) and [Azure Virtual Desktop](https://azure.microsoft.com/services/virtual-desktop/#overview?azure-portal=true).
