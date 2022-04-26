@@ -12,15 +12,15 @@ The following steps show how to implement extension dialing:
 1. Open the Teams Admin Center, expand **Voice**, and go to **Dial Plans**.
 1. Select the **Global Dial Plan** or your custom dial plan or create a new one to assign to users.
 
-    ![Create Dialing Plan](../media/6-dialling-plan.png)
+    :::image type="content" source="../media/6-dialling-plan.png" alt-text="Create Dialing Plan." border="false":::
 
 1. Under **Normalization rules**, select **Add**.
 
-    ![Screenshot of the normalization rules dialog box.](../media/6-normal-rules.png)
+    :::image type="content" source="../media/6-normal-rules.png" alt-text="Screenshot of the normalization rules dialog box." border="false":::
 
 1. Fill in the form with the correct details.
 
-    ![Screenshot of the normalization rules details box.](../media/6-extension-rule.png)
+    :::image type="content" source="../media/6-extension-rule.png" alt-text="Screenshot of the normalization rules details box." border="false":::
 
 ## Shared mailboxes
 

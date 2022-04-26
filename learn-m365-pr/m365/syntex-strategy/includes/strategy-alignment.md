@@ -37,7 +37,7 @@ An outcomes template can help you define what your company needs to achieve your
 - **Technical capability**: The technical skills and resources necessary to make your business outcome happen, such as solutions, services, applications, etc.
   - _Example_: SharePoint Syntex responsibilities and roles
 
-![A screenshot of an example business outcome template.](../media/outcome-template.png)
+:::image type="content" source="../media/outcome-template.png" alt-text="A screenshot of an example business outcome template." border="false":::
 
 ## Executive buy-in
 

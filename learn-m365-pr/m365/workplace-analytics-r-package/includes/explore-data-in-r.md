@@ -6,7 +6,7 @@ After you have loaded the person query data and completed all necessary data val
 
 All functions in `wpa` follow a similar structure and include many common arguments. The following shows the basic structure of standard analysis functions:
 
-![Function structure](../media/function-structure.png)
+:::image type="content" source="../media/function-structure.png" alt-text="Function structure." border="false":::
 
 We can explore the `sq_data` person query by using the `keymetrics_scan()` function.
 
@@ -19,7 +19,7 @@ sq_data %>% keymetrics_scan(hrvar = "Organization", return = "plot")
 
 Output:
 
-![Keymetrics scan heat map visual](../media/heatmap.png)
+:::image type="content" source="../media/heatmap.png" alt-text="Key metrics scan heat map visual." border="false":::
 
 To save the output as a plot to your working directory, run the following:
 
@@ -86,7 +86,7 @@ sq_data %>% collaboration_summary()
 
 Output:
 
-![Collaboration summary](../media/collaboration-summary.png)
+:::image type="content" source="../media/collaboration-summary.png" alt-text="Collaboration summary." border="false":::
 
 By changing the `hrvar`argument, you can change the groups being shown easily:
 
@@ -96,7 +96,7 @@ sq_data %>% collaboration_summary(hrvar = "LevelDesignation")
 
 Output:
 
-![Collaboration summary by LevelDesignation](../media/collab-summary-level.png)
+:::image type="content" source="../media/collab-summary-level.png" alt-text="Collaboration summary by LevelDesignation." border="false":::
 
 By default, all summary functions exclude groups with fewer than five individuals. This is also something that can be adjusted, using the `mingroup` argument:
 
@@ -112,7 +112,7 @@ sq_data %>% collaboration_summary(hrvar = "LevelDesignation", return = "table")
 
 Output:
 
-![Collaboration summary table](../media/collab-summary-table.png)
+:::image type="content" source="../media/collab-summary-table.png" alt-text="Collaboration summary table." border="false":::
 
 ## Other summary functions
 
@@ -134,7 +134,7 @@ sq_data %>% afterhours_summary()
 
 Output:
 
-![Afterhours summary chart](../media/after-hours-summary.png)
+:::image type="content" source="../media/after-hours-summary.png" alt-text="Afterhours summary chart." border="false":::
 
 ## Advanced functionalities for custom bar charts and tables
 
@@ -146,7 +146,7 @@ sq_data %>% create_bar(metric = "Generated_workload_email_hours")
 
 Output:
 
-![Generated workload email hours summary](../media/gen-workload-summary.png)
+:::image type="content" source="../media/gen-workload-summary.png" alt-text="Generated workload e mail hours summary." border="false":::
 
 The `create_bar()` function also accepts the `hrvar`, `return`, and `mingroup` arguments.
 
@@ -161,7 +161,7 @@ sq_data %>% collaboration_summary() + ggtitle("This is a custom title")
 
 Output:
 
-![Customize a plot example](../media/customize-plot.png)
+:::image type="content" source="../media/customize-plot.png" alt-text="Customize a plot example." border="false":::
 
 The `wpa` R package has over 150 functions with different options. See the Learn more section for details about:
 
