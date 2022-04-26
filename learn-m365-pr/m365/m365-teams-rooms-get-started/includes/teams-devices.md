@@ -1,12 +1,12 @@
 Microsoft Teams devices work in many spaces, such as at home, on the go, or in the office.
 
-![Personal and shared devices](../media/teams-devices-consistent.png)
+:::image type="content" source="../media/teams-devices-consistent.png" alt-text="Personal and shared devices." border="false":::
 
 Shared devices include devices such as collaboration bars for Microsoft Teams, Surface Hub,  and Teams Rooms.
 
 Microsoft Teams has a consistent look and feel, whether you're using a workstation, a mobile device, or Teams Rooms. All the devices have similar features such as collaborating with screen sharing, live camera, and audio.
 
-![Devices shared features](../media/devices-shared-features.png)
+:::image type="content" source="../media/devices-shared-features.png" alt-text="Devices shared features." border="false":::
 
 Mobile devices are excellent for joining Microsoft Teams meetings when you're on-the-go. They support the full Teams meeting experience with audio, video, and sharing. For example, you can take a photo on a mobile device, preview the photo, and then present it directly into a meeting.
 
