@@ -21,9 +21,9 @@ When users sign in to Microsoft 365, they'll be prompted to enter other contact 
 2.  The user enters a user ID and passes a captcha.
 3.  Azure AD runs the following checks to verify the user can use this feature:
 
-     -  Verifies the user has this feature enabled and has an Azure AD license assigned.
-     -  Verifies the user has the right authentication methods defined on their account that follow administrative policy.
-     -  Verifies whether the user’s password is managed on-premises (federated, pass-through authentication, or password hash synchronized), or if writeback is deployed and the user’s password is managed on-premises.
+ -  Verifies the user has this feature enabled and has an Azure AD license assigned.
+ -  Verifies the user has the right authentication methods defined on their account that follow administrative policy.
+ -  Verifies whether the user’s password is managed on-premises (federated, pass-through authentication, or password hash synchronized), or if writeback is deployed and the user’s password is managed on-premises.
 
 4.  If it's determined that the user can successfully reset their password, they're guided through the reset process.
 5.  If the checks aren't validated, the user is advised to contact their administrator to reset their password.
