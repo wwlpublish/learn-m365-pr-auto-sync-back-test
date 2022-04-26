@@ -1,6 +1,6 @@
 Sensitivity labels help you classify and protect your sensitive content without hampering user productivity and collaboration.
 
-![Persistent sensitivity labels travel with the document](../media/persistent-labels.png)
+:::image type="content" source="../media/persistent-labels.png" alt-text="Persistent sensitivity labels travel with the document." border="false":::
 
 Sensitivity labels are metadata tags that have the following characteristics.
 

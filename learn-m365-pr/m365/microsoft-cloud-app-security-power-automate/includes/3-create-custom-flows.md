@@ -28,6 +28,6 @@ You can explore Power Automate now using the following interactive guide to simu
 
 Click on the image to get started.
 
-[![Automate alerts management with Microsoft Power Automate and Defender for Cloud Apps](../media/power-automate-custom-flow.png)](https://aka.ms/Automate_alerts-management_with-Microsoft-Power-Automate_and-Cloud-App-Security)
+[:::image type="content" source="../media/power-automate-custom-flow.png" alt-text="Automate alerts management with Microsoft Power Automate and Defender for Cloud Apps." border="false":::](https://aka.ms/Automate_alerts-management_with-Microsoft-Power-Automate_and-Cloud-App-Security)
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.

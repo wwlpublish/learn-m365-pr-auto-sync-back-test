@@ -1,9 +1,9 @@
 
-![Diagram of common weaknesses](../media/common-threats-intro.png)
+:::image type="content" source="../media/common-threats-intro.png" alt-text="Diagram of common weaknesses." border="false":::
 
 Users face multiple threats—from credential theft to malware to phishing to infrastructure attacks. Examples of credential theft are Mimikatz, password spray, or breach harvesting. Examples of malware are viruses, ransomware, and the like. Phishing attacks use tricks or lures to get a user to reveal credentials or pay money, typically by getting them to click a link to a fake website in an email that appears genuine. Infrastructure attacks include improperly secured virtual machines and resources in Azure.
 
-![Typical attack timeline](../media/typical-attack-timeline.png)
+:::image type="content" source="../media/typical-attack-timeline.png" alt-text="Typical attack timeline." border="false":::
 
 Targeted attacks usually follow a timeline similar to the above image with:
 
