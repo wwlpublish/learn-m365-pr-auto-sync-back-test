@@ -1,7 +1,7 @@
 The Workplace Analytics app with Viva Insights provides organizational insights around the key pillars of customer focus, including: external collaboration, internal collaboration, and coaching and onboarding.
 
 > [!div class="centered"]
-> ![Customer focus categories](../media/customer-focus-categories.png)
+> :::image type="content" source="../media/customer-focus-categories.png" alt-text="Customer focus categories." border="false":::
 
 ## What questions about customer focus can you answer with Workplace Analytics?
 
@@ -21,7 +21,7 @@ More time spent with the best customer opportunities is key to sales effectivene
 
 **Do employees spend most of their time with customers or other external parties?** You can use Workplace Analytics to analyze internal and external collaboration and email by group to understand who your external-facing employees spend time with.
 
-![External time allocation](../media/external-time-allocation.png)
+:::image type="content" source="../media/external-time-allocation.png" alt-text="External time allocation." border="false":::
 
 **Why does this matter?** How an employee allocates their time across communication channels, such as meetings and emails, can indicate communication preference and provide visibility into how customer relationships are being maintained.
 
@@ -29,7 +29,7 @@ More time spent with the best customer opportunities is key to sales effectivene
 
 **How many accounts do external-facing employees actually talk to?** Sales employees often manage a portfolio of accounts. With Workplace Analytics, you can identify the number of accounts low, medium, and high performers connect with to understand how many accounts your most effective employees manage.  
 
-![Account portfolio management](../media/account-portfolio-management.png)
+:::image type="content" source="../media/account-portfolio-management.png" alt-text="Account portfolio management." border="false":::
 
 **Why does this matter?** The number of accounts employees are connected to can indicate how employees are managing their territory, and are maintaining their accounts. This can help guide resource and territory planning.
 
@@ -37,7 +37,7 @@ More time spent with the best customer opportunities is key to sales effectivene
 
 **How do employees team up to ensure success and value?** With Workplace Analytics, you can understand how the best sales teams are structured to help ensure team success.
 
-![Teaming model](../media/teaming-model.png)
+:::image type="content" source="../media/teaming-model.png" alt-text="Teaming model." border="false":::
 
 **Why does this matter?** Having the right team on each account enables effective communication and productive internal collaboration and can show how sales employees in different roles and levels work together to generate sales and maintain relationships.
 
@@ -45,7 +45,7 @@ More time spent with the best customer opportunities is key to sales effectivene
 
 **How many sales contacts do employees talk to, and are they the right contacts?** You can use CRM data to identify the number of contacts employees have by contact role to determine if sales employees are connecting with the right people.
 
-![External contact analysis](../media/external-contact-analysis.png)
+:::image type="content" source="../media/external-contact-analysis.png" alt-text="External contact analysis." border="false":::
 
 **Why does this matter?** Locating and maintaining relationships with the right contacts, based on the nature of the product or service, leads to more effective sales conversations.
 
@@ -56,7 +56,7 @@ More time spent with the best customer opportunities is key to sales effectivene
 
 **Is our CRM database up-to-date?** You can identify the number of contacts from your CRM database by contact type to ensure your CRM is up-to-date.
 
-![CRM augmentation](../media/crm-augmentation.png)
+:::image type="content" source="../media/crm-augmentation.png" alt-text="Crm augmentation." border="false":::
 
 **Why does this matter?** An up-to-date CRM database is the foundation for effective sales planning, sales projections, and coaching conversations. It is critical for smooth operations and keeping the team informed.
 
@@ -71,7 +71,7 @@ Getting the right internal support without unnecessary internal hurdles allows e
 
 **How are teams collaborating on internal activities?** With Workplace Analytics, you can learn how much time sales teams invest in collaborating with other internal organizations and assess whether they have the right allocation of internal connections.
 
-![Cross-team collaboration](../media/cross-team-collaboration.png)
+:::image type="content" source="../media/cross-team-collaboration.png" alt-text="Cross-team collaboration." border="false":::
 
 **Why does this matter?** The proportion of time internal employees spend collaborating with each other determines how much time is left to connect with customers. Effective internal collaboration provides more time for these activities and maintains internal support and connections.
 
@@ -79,7 +79,7 @@ Getting the right internal support without unnecessary internal hurdles allows e
 
 **What do meeting patterns look like for internal activities?** With Workplace Analytics, you can see time spent in meetings by length or number of attendees to learn if employees are spending too much time in unnecessarily long and large meetings.
 
-![Internal meeting culture](../media/internal-meeting-culture.png)
+:::image type="content" source="../media/internal-meeting-culture.png" alt-text="Internal meeting culture." border="false":::
 
 **Why does this matter?** Meetings are a significant part of collaboration. Meetings of the right size and length promote efficient communication and accelerate decision making. Long and large internal meetings can drain employee energy and limit time for external activities.
 
@@ -87,7 +87,7 @@ Getting the right internal support without unnecessary internal hurdles allows e
 
 **How much time is allocated to specific meeting topics?** With Workplace Analytics, you can analyze the time employee groups allocate to meetings by topic category, and find opportunities to reduce unnecessary collaboration.
 
-![Topic analysis](../media/topic-analysis.png)
+:::image type="content" source="../media/topic-analysis.png" alt-text="Topic analysis." border="false":::
 
 **Why does this matter?** Employees spend time on many business topics. How they allocate time can help identify overly complex interactions. Removing unnecessary collaboration so employees can spend time in the most important activities can improve employee productivity and engagement.
 
@@ -95,7 +95,7 @@ Getting the right internal support without unnecessary internal hurdles allows e
 
 **How are employees spending time in a specific process?** You can use email and meeting subject line keywords in Workplace Analytics to analyze collaboration hours on internal processes over time. This information helps you determine if specific internal processes can be streamlined.
 
-![Process analysis](../media/process-analysis.png)
+:::image type="content" source="../media/process-analysis.png" alt-text="Process analysis." border="false":::
 
 **Why does this matter?** Streamlining lengthy or redundant internal processes can free up employee time and leave more time for external activities such as connecting with customers.
 
@@ -107,7 +107,7 @@ Knowledge and skills are essential for sales success. A robust onboarding progra
 
 **Do employees get enough one-on-one time with their manager?** With Workplace Analytics, you can look at manager one-on-one time or meeting frequency by group to determine if employees are getting enough one-on-one time with their manager.
 
-![Manager coaching one-on-one](../media/manager-coaching-one-on-one.png)
+:::image type="content" source="../media/manager-coaching-one-on-one.png" alt-text="Manager coaching one-on-one." border="false":::
 
 **Why does this matter?** Regular check-ins between employees and their managers play an important role in driving employee engagement. Research shows these meetings provide the most value when they take place at least 60 minutes every month and occur at least once every other week.
 
@@ -118,7 +118,7 @@ Knowledge and skills are essential for sales success. A robust onboarding progra
 
 **How does manager one-on-one coaching correlate with employee engagement?** By using Workplace Analytics, you can analyze the impact of one-on-one time on employee engagement scores and other behaviors, such as the number of meaningful connections to internal individuals, or time in external collaboration.
 
-![Coaching and engagement](../media/coaching-and-engagement.png)
+:::image type="content" source="../media/coaching-and-engagement.png" alt-text="Coaching and engagement." border="false":::
 
 **Why does this matter?** Effective one-on-one coaching helps employees prioritize higher-value tasks and provides them with resources and tips on how to expand their networks and accelerate deals.
 
@@ -126,7 +126,7 @@ Knowledge and skills are essential for sales success. A robust onboarding progra
 
 **How do coaching behaviors vary by employee performance?** With Workplace Analytics, you can analyze the difference in coaching time received by performance level.
 
-![Coaching and performance](../media/coaching-and-performance.png)
+:::image type="content" source="../media/coaching-and-performance.png" alt-text="Coaching and performance." border="false":::
 
 **Why does this matter?** Understanding the relationship between manager coaching and employee performance can provide insight for future manager training and coaching initiatives.
 
@@ -134,7 +134,7 @@ Knowledge and skills are essential for sales success. A robust onboarding progra
 
 **Do new hires receive enough coaching time from their managers?** You can use Workplace Analytics to analyze one-on-one time by tenure and understand if new hires are getting the coaching time they need.
 
-![Onboarding and coaching time](../media/onboarding-and-coaching.png)
+:::image type="content" source="../media/onboarding-and-coaching.png" alt-text="Onboarding and coaching time." border="false":::
 
 **Why does this matter?** Effective coaching during onboarding can help get new hires up to speed with seasoned hires much more quickly and plays a critical role in enhancing employee engagement and performance.
 
@@ -142,7 +142,7 @@ Knowledge and skills are essential for sales success. A robust onboarding progra
 
 **From a collaboration perspective, how long does it take to onboard a new hire?** With Workplace Analytics, you can track collaboration metrics by quota attainment level to understand what it takes to fully onboard a new hire.
 
-![Onboarding and collaboration](../media/onboarding-and-collaboration.png)
+:::image type="content" source="../media/onboarding-and-collaboration.png" alt-text="Onboarding and collaboration." border="false":::
 
 **Why does this matter?** Successful onboarding extends beyond new hire training. Exploring different collaboration behaviors between top performers and other employees can reveal factors that lead to faster and more effective onboarding.
 

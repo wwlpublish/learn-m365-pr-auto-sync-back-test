@@ -10,7 +10,7 @@ Form processing models use machine learning technology from Microsoft Power Apps
 
 Example files are used to train your AI model what text needs to be extracted and how it should be organized in your SharePoint document library. Training, publishing, and using your model creates a Power Automate Flow, which means that every time a new file is added to the SharePoint document library where the form processing model was added, the information will be automatically identified and extracted.
 
-![A screenshot of a sample invoice with information fields selected that might be used to train a form processing model.](../media/invoice-image.png)
+:::image type="content" source="../media/invoice-image.png" alt-text="A screenshot of a sample invoice with information fields selected that might be used to train a form processing model." border="false":::
 
 ### What is AI Builder?
 
