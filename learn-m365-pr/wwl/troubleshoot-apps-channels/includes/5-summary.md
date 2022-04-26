@@ -23,4 +23,4 @@ For more information about the topics discussed in this module, see:
 - [Understand teams and channels in Microsoft Teams](/MicrosoftTeams/private-channels)
 - [Delete a channel in Teams](https://support.microsoft.com/office/delete-a-channel-in-teams-973f9014-53db-4165-8ab4-365021fe36b7)
 - [Private channels in Microsoft Teams](/MicrosoftTeams/private-channels) 
-- [MicrosoftTeamsPowerShell Module](/powershell/module/teams/)
+- [MicrosoftTeamsPowerShell Module](/powershell/module/teams)
