@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/25/2022
+  ms.date: 04/26/2022
   author: wwlpublish
   ms.author: asglenno
   ms.topic: interactive-tutorial
@@ -17,11 +17,11 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "You're going to write a research paper and would like help with editing, finding reliable sources and creating a biblography. Which Microsoft 365 app is most suitable?"
+  - content: "You're going to write a research paper and would like help with editing, finding reliable sources and creating a bibliography. Which Microsoft 365 app is most suitable?"
     choices:
     - content: "OneNote"
       isCorrect: false
-      explanation: "Incorrect. OneNote is digital notetaking tool allowing you to write and spellcheck your work. It does not have features to help find sources or create a bibliography."
+      explanation: "Incorrect. OneNote is digital note taking tool allowing you to write and spellcheck your work. It does not have features to help find sources or create a bibliography."
     - content: "Word"
       isCorrect: true
       explanation: "Correct. Word can help you create documents and improve your writing with built-in intelligent features like Editor to help with editing, and Researcher to help find sources and bibliography creation."
@@ -32,7 +32,7 @@ quiz:
     choices:
     - content: "Bookings"
       isCorrect: true
-      explanation: "Correct. Bookings are a web-based appointment scheduling and management system."
+      explanation: "Correct. Bookings is a web-based appointment scheduling and management system."
     - content: "Planner"
       isCorrect: false
       explanation: "Incorrect. Planner is a collaborative task management tool."
