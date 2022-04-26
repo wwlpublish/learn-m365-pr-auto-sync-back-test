@@ -11,7 +11,7 @@ Within your organization, you'll need to add appropriate users to an eDiscovery 
 
 These roles are controlled in the **Permissions** section of the compliance center. Select the **eDiscovery Manager** permission and edit either the Manager or Administrator role.
 
-:::image type="content" source="../media/ediscovery-manager.png" alt-text="Select the e Discovery Manager permission." border="false":::
+:::image type="content" source="../media/ediscovery-manager.png" alt-text="Select the e Discovery Manager permission." lightbox="../media/ediscovery-manager.png" border="false":::
 
 ## Creating cases in Microsoft 365 compliance center
 
@@ -25,16 +25,16 @@ You access the compliance center from the Microsoft 365 app launcher by selectin
 
 1. Using the navigation pane on the left, expand **Solutions**, expand **eDiscovery**, select **Advance**, and then select the **Cases** tab.
 
-   :::image type="content" source="../media/create-ediscovery-case.png" alt-text="Create an e Discovery case." border="false":::
+   :::image type="content" source="../media/create-ediscovery-case.png" alt-text="Create an e Discovery case." lightbox="../media/create-ediscovery-case.png" border="false":::
 
 2. On the Cases pane, select **Create a case**.
 3. Enter the details of the case, for example "investigating a customer complaint," then select **Save**.
 
-   :::image type="content" source="../media/new-ediscovery-case.png" alt-text="A new e Discovery case is created." border="false":::
+   :::image type="content" source="../media/new-ediscovery-case.png" alt-text="A new e Discovery case is created." lightbox="../media/new-ediscovery-case.png" border="false":::
 
 4. After the case is created, you can add information to it.
 
-   :::image type="content" source="../media/customer-complaint.png" alt-text="Customer complaint form." border="false":::
+   :::image type="content" source="../media/customer-complaint.png" alt-text="Customer complaint form." lightbox="../media/customer-complaint.png" border="false":::
 
 ## Create an in-place hold to include public folders
 
@@ -42,11 +42,11 @@ You can instantly add hold details in the case summary screen, or access the cas
 
 1. Select the **Holds** tab.
 
-   :::image type="content" source="../media/select-holds-tab.png" alt-text="Select the Holds tab from the cases pane." border="false":::
+   :::image type="content" source="../media/select-holds-tab.png" alt-text="Select the Holds tab from the cases pane." lightbox="../media/select-holds-tab.png" border="false":::
 
 2. Select **+ Create**, enter a Name and Description in the **Create a new hold** panel, then select **Next**.
 
-   :::image type="content" source="../media/create-new-hold.png" alt-text="Create a new Hold." border="false":::
+   :::image type="content" source="../media/create-new-hold.png" alt-text="Create a new Hold." lightbox="../media/create-new-hold.png" border="false":::
 
 3. On the **Choose locations** page, add the users, groups, or teams you want to include.
 4. Choose specific SharePoint sites, Team sites, or Yammer networks.
