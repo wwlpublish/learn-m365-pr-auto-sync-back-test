@@ -16,3 +16,4 @@ After completing this module, you'll be able to:
  -  Modify the configuration of a single-tenant application to make it a multi-tenant application.
  -  Manage OAuth application requests in the Microsoft Defender for Cloud Apps portal.
  -  Monitor OAuth-enabled apps in the apps governance feature of Microsoft Defender for Cloud Apps.
+
