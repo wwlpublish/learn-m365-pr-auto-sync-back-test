@@ -17,7 +17,7 @@ What happens if your Microsoft 365 tenant is based in North America, but all the
 
 No. The media will travel to the Microsoft datacenter closest to the first person who joined the meeting. In this case, that person is in Europe along with the other attendees. The geographic location of the Microsoft 365 tenant has no bearing on where the meeting will be hosted.
 
-![map of hosting locations when tenants are globally dispersed](../media/tenant-meeting-location.png)
+:::image type="content" source="../media/tenant-meeting-location.png" alt-text="Map of hosting locations when tenants are globally dispersed." border="false":::
 
 ## Learn more
 

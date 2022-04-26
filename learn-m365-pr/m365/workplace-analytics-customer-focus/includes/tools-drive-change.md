@@ -8,14 +8,14 @@ Microsoft 365 tools can assist you in driving change to improve customer focus.
 
 A Seller success plan can help sellers be more successful by showing the time spent with accounts by revenue potential, which contacts are engaged, and the number of interactions with managers in either customer or one-on-one meetings. After the plan is activated, you can track the progress of the participant group on a regular basis.
 
-![Seller success plan](../media/seller-success-plan.png)
+:::image type="content" source="../media/seller-success-plan.png" alt-text="Seller success plan." border="false":::
 
 >[!NOTE]
 >The Seller success plan requires CRM data.
 
 The Seller success plan links to Viva Insights and MyAnalytics and provides individual insights through Digest emails and in the recipient's Viva Insights and MyAnalytics dashboards. Sellers receive a monthly digest email with insights about their collaboration habits, time spent with their most important accounts, the depth of engagement with key accounts, and a snapshot of their internal network.
 
-![Seller insights](../media/seller-insights-myanalytics.png)
+:::image type="content" source="../media/seller-insights-myanalytics.png" alt-text="Seller insights." border="false":::
 
 Sellers can access their Viva Insights home page at [insights.viva.office.com](https://insights.viva.office.com) and their MyAnalytics dashboard at [myanalytics.microsoft.com](https://myanalytics.microsoft.com).
 
@@ -36,7 +36,7 @@ To create an effective customer focus change tactics worksheet, determine the fo
 
 Below is an example of a change tactics worksheet created for customer focus.
 
-![Change tactics worksheet](../media/change-tactics-worksheet.png)
+:::image type="content" source="../media/change-tactics-worksheet.png" alt-text="Change tactics worksheet." border="false":::
 
 When creating your change tactics worksheet, it helps to follow best practices and strategies for specific business outcomes. For information about best practices, see [Learn more](#learn-more).
 
@@ -50,7 +50,7 @@ One way to measure and track progress is to create a tracking board with key met
 
 The following is an example of a tracking board created in Power BI. For each group and category, the dashboard indicates if when the group meets, is below, or is significantly below the target for external collaboration hours, bloated meeting hours, and manager one-on-one hours.
 
-![Create tracking dashboard](../media/tracking-board.png)
+:::image type="content" source="../media/tracking-board.png" alt-text="Create tracking dashboard." border="false":::
 
 ### Leverage Power BI templates
 
