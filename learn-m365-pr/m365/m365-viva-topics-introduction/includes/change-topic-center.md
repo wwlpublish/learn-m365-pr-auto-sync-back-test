@@ -18,4 +18,4 @@ Update your topic center name
 1. On the Edit topic center name page, in the Topic center name box, type the new name for your topic center.
 1. Select Save.
 
-    :::image type="content" source="../media/edit-topic-name.png" alt-text="Screenshot showing the confirmation scree." border="false":::
+    :::image type="content" source="../media/edit-topic-name.png" alt-text="Screenshot showing the confirmation screen." border="false":::
