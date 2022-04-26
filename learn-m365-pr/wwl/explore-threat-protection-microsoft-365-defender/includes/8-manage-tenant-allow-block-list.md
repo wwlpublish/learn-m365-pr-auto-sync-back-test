@@ -102,8 +102,9 @@ In the **Tenant Allow/Block Lists**, there are four tabs to select from. Refer t
  -  Internal: The spoofed sender is in a domain that belongs to your organization (an accepted domain).
  -  External: The spoofed sender is in an external domain.
 
-**Action:** Select **Allow** or **Block**.**Note:** 
+**Action:** Select **Allow** or **Block**.
 
+**Note:** 
  -  Only the combination of the spoofed user and the sending infrastructure defined in the domain pair can be allowed or blocked from spoofing.
  -  When you configure an allow or block entry for a domain pair, messages from that domain pair no longer appear in the spoof intelligence insight.
  -  Entries for spoofed senders never expire.
