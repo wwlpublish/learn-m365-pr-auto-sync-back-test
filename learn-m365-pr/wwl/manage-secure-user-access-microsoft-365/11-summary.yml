@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.configure-azure-ad-application-proxy.summary
+uid: learn.wwl.manage-secure-user-access-microsoft-365.summary
 title: Summary
 metadata:
   title: Summary
@@ -11,6 +11,6 @@ metadata:
   ms.prod: learning-m365
 azureSandbox: false
 labModal: false
-durationInMinutes: 1
+durationInMinutes: 2
 content: |
-  [!include[](includes/7-summary.md)]
+  [!include[](includes/11-summary.md)]
