@@ -30,7 +30,7 @@ App governance, Azure AD, and Microsoft Defender for Cloud Apps collect and prov
 
 An organization can share information across app governance, Azure AD, and Microsoft Defender for Cloud Apps. By doing so, the organization can display aggregate information in one portal and easily link to another portal for more information. For example:
 
- -  **App sign-in information in app governance**. From the app governance portal, you can see the aggregated sign-in activity for each app and link back to the Azure Active Directory admin center for the details of sign-in events.
+ -  **App sign-in information in app governance**. From the app governance portal, you can see the aggregated sign-in activity for each app. You can also link back to the Azure Active Directory admin center for the details of sign-in events.
  -  **API usage information in the Microsoft Defender for Cloud Apps portal**. From the Microsoft Defender for Cloud Apps portal, you can see API usage level and aggregate data transfer and link to the app governance portal for the details.
 
 The following graphic displays a summary of the integration.
@@ -40,13 +40,13 @@ The following graphic displays a summary of the integration.
 
 App governance sends its alerts to Microsoft Defender for Cloud Apps and Microsoft 365 Defender. It then receives alerts from Microsoft Defender for Cloud Apps. These alerts enable more detailed analysis of app-based security incidents.
 
- -  App governance alerts appear in the Microsoft 365 Defender alerts list with the **Detection source** field set to **App Governance**.
- -  App governance alerts appear in the Microsoft Defender for Cloud Apps alerts list with the **Policy** field set to one of the following values:
+ -  **Alerts sent from App governance to Microsoft 365 Defender**. These alerts appear in Microsoft 365 Defender with the **Detection source** field set to **App Governance**.
+ -  **Alerts sent from App governance to Microsoft 365 Defender for Cloud Apps**. These alerts appear in Microsoft 365 Defender for Cloud Apps with the **Policy** field set to one of the following values:
     
      -  Microsoft 365 OAuth App Governance
      -  Microsoft 365 OAuth Phishing Detection
      -  Microsoft 365 OAuth App Reputation
- -  Microsoft Defender for Cloud Apps alerts appear in the app governance alerts list with the **Source** field set to **Defender for Cloud Apps**.
+ -  **Alerts sent from Microsoft 365 Defender for Cloud Apps to Apps governance**. These alerts appear in app governance with the **Source** field set to **Defender for Cloud Apps**.
 
 ## Knowledge check
 

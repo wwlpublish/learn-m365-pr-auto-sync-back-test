@@ -24,7 +24,7 @@ quiz:
       explanation: "Incorrect. This item is a feature of integrated apps, but not apps overseen and governed by App governance."
     - content: "They must access data through the Microsoft Graph API"
       isCorrect: true
-      explanation: "Correct. App governance is a platform-based solution that's an integral part of the Microsoft 365 app ecosystem. App governance oversees and governs OAuth-enabled apps that are registered with Azure AD and access data through the Microsoft Graph API."
-    - content: "They must be a multi-tenant appplication"
+      explanation: "Correct. App governance is a platform-based solution that's an integral part of the Microsoft 365 app ecosystem. App governance oversees and governs OAuth-enabled apps that are registered with Azure AD. These apps access data through the Microsoft Graph API."
+    - content: "They must be a multi-tenant application"
       isCorrect: false
       explanation: "Incorrect. OAuth apps don't have to be multi-tenant apps to be overseen and governed by App governance."

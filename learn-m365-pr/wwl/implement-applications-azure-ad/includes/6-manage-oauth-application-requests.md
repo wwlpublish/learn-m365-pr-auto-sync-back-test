@@ -1,8 +1,13 @@
 Many third-party productivity apps are installed by an organization's business users. These apps often request permission to access user information and data. They also request sign-in on behalf of the user in other cloud apps, such as Office 365, Google Workspace, and Salesforce. When users install these apps, they often select the Accept button without closely reviewing the details in the prompt, including granting permissions to the app. This problem is compounded by the fact that IT may not have enough insight to weigh the security risk of an application against the productivity benefit that it provides.
 
-Accepting third-party app permissions is a potential security risk to your organization. Therefore, it's critical that organizations monitor the app permissions its users grant. By doing so, organizations receive the necessary visibility and control to protect its users and its applications.
+Accepting third-party app permissions is a potential security risk to your organization. Therefore, it's critical that organizations monitor the app permissions that are granted by its users. By doing so, organizations receive the necessary visibility and control to protect its users and its applications.
 
-The Microsoft Defender for Cloud Apps app permissions enable organizations to see which user-installed OAuth applications have access to Office 365 data, Google Workspace data, and Salesforce data. Defender for Cloud Apps tells you what permissions the apps have and which users granted these apps access to their Microsoft 365, Google Workspace, and Salesforce accounts. App permissions help organizations to decide which apps they'll allow their users to access and which ones they want to ban.
+Organizations can determine which user-installed OAuth applications have access to Office 365 data, Google Workspace data, and Salesforce data. They can make this determination by analyzing the app permissions within Microsoft Defender for Cloud Apps. Microsoft Defender for Cloud Apps tells you:
+
+ -  What permissions the apps have.
+ -  Which users granted these apps access to their Microsoft 365, Google Workspace, and Salesforce accounts.
+
+App permissions help organizations decide which apps they'll allow their users to access and which ones they want to ban.
 
 > [!NOTE]
 > Defender for Cloud Apps only identifies apps that request "Delegated" permissions. For more information, see [Client app permissions](/azure/active-directory/develop/developer-glossary#permissions).<br>
@@ -206,7 +211,7 @@ Complete the following steps to query OAuth apps:
     
      -  In the **Basic** view, select values from one or multiple drop-downs to display the specific apps.
      -  In the **Advanced** view, use the **Select a filter** drop-down to narrow your search. Add operators, equals, or doesn't equal, to a selected value to complete your query.
-2.  Choose the **Add a filter** icon to add additional filters to further refine your query. The filters are applied automatically and the apps list is updated.
+2.  Choose the **Add a filter** icon to add other filters to further refine your query. The filters are applied automatically and the apps list is updated.
 3.  Choose the **Remove a filter** icon next to the filter to remove the filters.
 
 ### OAuth app auditing
@@ -216,7 +221,7 @@ Microsoft Defender for Cloud Apps audits all OAuth authorization activities. Thi
 To export the log, complete the following steps:
 
 1.  On the **OAuth apps** page, on the row where the relevant app appears, under **Authorized by**, select the link showing the number of users that authorized the app.
-2.  In the pop-up windoe that appears, select **Export**.
+2.  In the pop-up window that appears, select **Export**.
     
     :::image type="content" source="../media/oauth-export-users-291dc341.png" alt-text="Screenshot of the Export window that shows the users who authorized an app.":::
     
