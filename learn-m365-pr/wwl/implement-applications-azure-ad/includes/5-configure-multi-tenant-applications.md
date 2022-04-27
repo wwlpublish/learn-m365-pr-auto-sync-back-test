@@ -23,7 +23,7 @@ Azure AD requires the App ID URL of multi-tenant applications to be globally uni
 
 If the App ID URL doesn’t follow this pattern, setting an application as multi-tenant fails.
 
-Once external users are given access to an application, users and administrators in other organizations can grant their users the ability to sign in to your application. This design enables your application to access resources secured by their tenant.<br>
+Once external users are given access to an application, users and administrators in other organizations can grant their users the ability to sign in to your application. This design enables your application to access resources secured by their tenant.
 
 ### Supporting multi-tenant applications with the Azure AD consent framework
 

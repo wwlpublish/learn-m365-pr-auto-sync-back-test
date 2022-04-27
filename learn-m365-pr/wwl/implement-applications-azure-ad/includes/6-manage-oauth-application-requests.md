@@ -10,13 +10,13 @@ Organizations can determine which user-installed OAuth applications have access 
 App permissions help organizations decide which apps they'll allow their users to access and which ones they want to ban.
 
 > [!NOTE]
-> Defender for Cloud Apps only identifies apps that request "Delegated" permissions. For more information, see [Client app permissions](/azure/active-directory/develop/developer-glossary#permissions).<br>
+> Defender for Cloud Apps only identifies apps that request "Delegated" permissions. For more information, see [Client app permissions](/azure/active-directory/develop/developer-glossary#permissions?azure-portal=true).
 
 ### The OAuth apps page
 
 An organization can manage OAuth apps only after connecting one or more of the supported platforms - Office 365, Google Workspace, or Salesforce. Once connected, the **OAuth apps** menu option will appear under **Investigate** in the Microsoft Defender for Cloud Apps portal.
 
-The OAuth apps page provides the following information about each OAuth app that was granted permissions:<br>
+The OAuth apps page provides the following information about each OAuth app that was granted permissions:
 
 :::row:::
   :::column:::
@@ -100,7 +100,7 @@ The OAuth apps page provides the following information about each OAuth app that
     Permissions Level
   :::column-end:::
   :::column:::
-    The permissions level icon and text indicating either High, Medium, or Low. The level indicates how much access this app has to app's data. For example, Low may indicate the app only accesses user profile and name. Select the level to view more information, including permissions granted to the app, community use, or related activity in the [Governance log](/defender-cloud-apps/governance-actions).
+    The permissions level icon and text indicating either High, Medium, or Low. The level indicates how much access this app has to app's data. For example, Low may indicate the app only accesses user profile and name. Select the level to view more information, including permissions granted to the app, community use, or related activity in the [Governance log](/defender-cloud-apps/governance-actions?azure-portal=true).
   :::column-end:::
   :::column:::
     Office 365, Google Workspace
@@ -146,7 +146,7 @@ The OAuth apps page provides the following information about each OAuth app that
   :::column:::
     The name of the vendor who provided the app.
 
-Publisher verification. Publisher verification helps admins and end users understand the authenticity of application developers integrating with the Microsoft identity platform. For more information, see [Publisher verification](/azure/active-directory/develop/publisher-verification-overview).
+Publisher verification. Publisher verification helps admins and end users understand the authenticity of application developers integrating with the Microsoft identity platform. For more information, see [Publisher verification](/azure/active-directory/develop/publisher-verification-overview?azure-portal=true).
   :::column-end:::
   :::column:::
     Office 365
@@ -200,7 +200,10 @@ Complete the following steps to approve an app:
 For Google Workspace and Salesforce, it's possible to revoke permission to an app or to notify the user they should change the permission. When you revoke permission, it removes all permissions that were granted to the application under "Enterprise Applications" in Azure AD.
 
 1.  On the **OAuth apps** page, select the icon with the three vertical dots at the end of the app row. In the drop-down menu that appears, select **Notify user**.
-2.  By default, the user will be notified as follows:<br><br>*You authorized the app to access your Google Workspace account. This app conflicts with your organization's security policy. Reconsider giving or revoking the permissions you gave this app in your Google Workspace account. To revoke app access, go to: [https://security.google.com/settings/security/permissions?hl=en&amp;pli=1](https://security.google.com/settings/security/permissions?hl=en&amp;pli=1). Select the app and select 'Revoke access' on the right menu bar.*<br><br>You can customize the message that's sent.
+2.  You can customize the message that's sent to the user. If you don't customize a message, the user will be notified with the following default message:
+
+    *You authorized the app to access your Google Workspace account. This app conflicts with your organization's security policy. Reconsider giving or revoking the permissions you gave this app in your Google Workspace account. To revoke app access, go to: [https://security.google.com/settings/security/permissions?hl=en&amp;pli=1](https://security.google.com/settings/security/permissions?hl=en&amp;pli=1?azure-portal=true). Select the app and select 'Revoke access' on the right menu bar.*
+
 3.  You can also revoke permissions to use the app for the user. Select the icon with the three vertical dots at the end of the app row. In the drop-down menu that appears, select **Revoke app**.
 
 ### Query OAuth apps
