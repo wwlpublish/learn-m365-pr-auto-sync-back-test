@@ -4,12 +4,13 @@ title: Troubleshoot file sharing in person-to-person private chat
 metadata:
   title: Troubleshoot file sharing in person-to-person private chat
   description: "Troubleshoot file sharing in person-to-person private chat"
-  ms.date: 08/24/2021
+  ms.date: 04/26/2022
   author: wwlpublish
   ms.author: cyncarey
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 11
 content: |
   [!include[](includes/2-person-to-person-private-chat.md)]
