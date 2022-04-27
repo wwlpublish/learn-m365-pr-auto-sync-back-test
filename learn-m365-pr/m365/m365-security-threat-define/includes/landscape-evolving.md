@@ -7,8 +7,7 @@ There's too much to handle:
 - It takes less than 48 hours for attackers to have complete control of a network.
 - 4 million dollars is the average cost of a data breach to a company.
 
-> [!div class="centered"]
-> :::image type="complex" source="../media/intelligence-matters.png" alt-text="Infographic that shows where Microsofts cybersecurity data originates." border="false":::
+:::image type="complex" source="../media/intelligence-matters.png" alt-text="Infographic that shows where Microsofts cybersecurity data originates." border="false":::
 	Microsoft receives data from over 18 billion Bing webpage scans per month, 450 billion authentications per month, 400 billion emails are scanned for phishing and malware, and over 200 cloud services are monitored for security risks.
 :::image-end:::
 
