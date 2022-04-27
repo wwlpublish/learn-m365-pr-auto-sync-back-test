@@ -85,7 +85,7 @@ Using Exchange Online PowerShell:
         Set-OrganizationConfig -OAuth2ClientProfileEnabled $false
         ```
 
-To verify that these changes where successful, again using Exchange Online PowerShell, run the following command:
+To verify that these changes were successful, again using Exchange Online PowerShell, run the following command:
 
 ```powershell
 Get-OrganizationConfig | Format-Table Name,OAuth* -Auto
