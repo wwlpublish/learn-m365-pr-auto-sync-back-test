@@ -20,4 +20,4 @@ For more information about the topics discussed in this module, see:
 - [Get started upgrading Skype for Business to Teams](/microsoftteams/upgrade-start-here)
 - [Manage SIP federated providers for your organization](/skypeforbusiness/manage/federation-and-external-access/sip-providers/manage-sip-federated-providers-for-your-organization)
 - [Assign an external user access policy to a Skype for Business enabled user](/skypeforbusiness/manage/federation-and-external-access/external-access-policies/assign-an-external-user-access-policy)
-- [Use guest access and external access to collaborate with people outside your organization](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access)
+- [Use guest access and external access to collaborate with people outside your organization](/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access)
