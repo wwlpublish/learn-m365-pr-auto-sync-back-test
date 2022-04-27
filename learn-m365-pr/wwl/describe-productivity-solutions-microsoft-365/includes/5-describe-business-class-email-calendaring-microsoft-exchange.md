@@ -10,4 +10,4 @@ Microsoft business email and calendaring help you stay on top of your work with 
  -  **Simplified admin.** Set up new users, restore deleted accounts, and create custom scripts, and more.
  -  **Stay secure.** Exchange has built-in anti-spam and anti-malware protection and customizable anti-spam and anti-malware policies. Defender for Office 365 can be enabled for added protection against advanced threats, like phishing, business email compromise, and malware attacks. Defender also provides spoof protection, and mailbox intelligence for all recipients.
 
-:::image type="content" source="../media/productivity-module-exchange-unit-6a7a5949.png" alt-text="productivity-module-exchange-unit.png":::
+:::image type="content" source="../media/productivity-module-exchange-unit-6a7a5949.png" alt-text="Screenshot showing Exchange Online interface.":::

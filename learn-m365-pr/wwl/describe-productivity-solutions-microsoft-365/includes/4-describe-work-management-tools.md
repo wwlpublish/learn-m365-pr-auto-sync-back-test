@@ -13,7 +13,7 @@ The **work management solutions** through Microsoft 365 allow your teams to work
  -  Create stunning interactive dashboards in Power BI so you can visualize every aspect of the project at a glance.
  -  Extensible with other platform apps and data because Project is built on the Power Platform.
 
-:::image type="content" source="../media/productivity-module-work-management-unit-project-b8ec36d0.png" alt-text="productivity-module-work-management-unit-project.png":::
+:::image type="content" source="../media/productivity-module-work-management-unit-project-b8ec36d0.png" alt-text="Image showing the work management tool Project.":::
 
 
 ### Microsoft Planner
@@ -28,7 +28,7 @@ The **work management solutions** through Microsoft 365 allow your teams to work
  -  Utilize the visuals such as the task board, charts page, and a schedule view to summarize the status of your entire plan and individual tasks.
  -  Integrate with Teams by adding a "Tasks by Planner" tab, use @mentions in Word, Excel, and PowerPoint to assign tasks, and add your plans to your calendar in Outlook.
 
-:::image type="content" source="../media/productivity-module-work-management-unit-planner-901f3dbb.png" alt-text="productivity-module-work-management-unit-planner.png":::
+:::image type="content" source="../media/productivity-module-work-management-unit-planner-901f3dbb.png" alt-text="Image showing the work management tool Planner.":::
 
 
 ### Microsoft Bookings
@@ -43,7 +43,7 @@ The **work management solutions** through Microsoft 365 allow your teams to work
  -  Utilize the business-facing mobile app to view your appointments, access customer lists, and contact information, and make manual bookings on the go.
  -  Integrate with Microsoft Teams or Skype for Business to support virtual appointments and Bookings calendar management through the Bookings app in Teams.
 
-:::image type="content" source="../media/productivity-module-work-management-unit-bookings-ad4f2c2e.png" alt-text="productivity-module-work-management-unit-bookings.png":::
+:::image type="content" source="../media/productivity-module-work-management-unit-bookings-ad4f2c2e.png" alt-text="Image showing the work management tool Bookings and the ability to access it across multiple devices.":::
 
 
 ### Microsoft To Do
@@ -59,4 +59,4 @@ The **work management solutions** through Microsoft 365 allow your teams to work
  -  Schedule reminders and repeatable tasks.
  -  View your assigned tasks from Planner in To Do.
 
-:::image type="content" source="../media/productivity-module-work-management-unit-todo-8e232c09.png" alt-text="productivity-module-work-management-unit-todo.png":::
+:::image type="content" source="../media/productivity-module-work-management-unit-todo-8e232c09.png" alt-text="Image showing the work management tool To Do and the ability to access it across multiple devices.":::
