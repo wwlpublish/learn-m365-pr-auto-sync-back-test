@@ -1,7 +1,7 @@
 Microsoft Exchange Online Protection (EOP) offers many different reports that can help an organization determine its overall status and health. Protection reports are available in the Microsoft 365 Defender portal. The Reports dashboard in the Microsoft 365 Defender portal provides the following features:
 
  -  **Security reports**. Displays reports that show security trends and track the protection status of your identities, data, devices, and apps.
- -  **Email & collaboration reports**. Displays reports of Microsoft recommended actions to help improve email and collaboration security.
+ -  **Email &amp; collaboration reports**. Displays reports of Microsoft recommended actions to help improve email and collaboration security.
  -  **Manage report scheduling**. Enables administrators to manage the schedule for the reports that their security teams use to mitigate and address threats to the organization.
  -  **Reports for download**. Enables administrators to download one or more reports.
 
@@ -12,7 +12,7 @@ Complete the following steps to access the reports in the Microsoft 365 Defender
 1.  In the **Microsoft 365 admin center**, select **Show all** in the left-hand navigation pane.
 2.  Under the **Admin centers** group that appears, select **Security** to open the **Microsoft 365 Defender portal**.
 3.  In the **Microsoft 365 Defender portal**, in the left-hand navigation pane, select **Reports**.
-4.  On the **Reports** page that appears, there are two groups of reports - **General**, and **Email & collaboration**.
+4.  On the **Reports** page that appears, there are two groups of reports - **General**, and **Email &amp; collaboration**.
     
      -  Under the **General** group, select **Security report**. The Security report view enables you to view security trends and track the protection status of your identities, data, devices, and apps. The available reports in each of these groups include:
         
@@ -43,9 +43,9 @@ Complete the following steps to access the reports in the Microsoft 365 Defender
              -  Cloud app accounts for review
              -  Discovered cloud apps (categories)
              -  Cloud app activity locations
-     -  Under the **Email & collaboration** group, there are three types of report groups available for you to select:
+     -  Under the **Email &amp; collaboration** group, there are three types of report groups available for you to select:
         
-         -  **Email & collaboration reports**. Enables administrators to review Microsoft recommended actions to help improve email and collaboration security. Reports include:
+         -  **Email &amp; collaboration reports**. Enables administrators to review Microsoft recommended actions to help improve email and collaboration security. Reports include:
             
              -  Mail flow status summary
              -  Threat protection status
@@ -69,7 +69,7 @@ The Microsoft 365 Reporting web service enables developers to integrate informat
 
 **Additional resource.** For more information, see [Retrieve customer tenant reporting data with Windows PowerShell for Delegated Access Permissions (DAP) partners](/microsoft-365/enterprise/retrieve-customer-tenant-reporting-data-with-windows-powershell-for-delegated-ac?azure-portal=true).
 
-**Additional reading**. For more information, see [Office 365 Reporting web service](/office365/servicedescriptions/office-365-platform-service-description/reports?azure-portal=true).
+**Further reading**. For more information, see [Office 365 Reporting web service](/office365/servicedescriptions/office-365-platform-service-description/reports?azure-portal=true).
 
 ### Message trace
 

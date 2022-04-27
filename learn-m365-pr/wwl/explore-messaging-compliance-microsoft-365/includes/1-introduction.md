@@ -1,8 +1,8 @@
-Messaging administration has taken on high relevance in businesses of all sizes. Because of this fact, compliance has become an essential feature for every messaging administrator to master.
+Messaging administration has taken on high relevance in businesses of all sizes. Because of this fact, compliance has become an essential feature for every messaging administrator to understand.
 
 Many countries and regions have their own requirements for data protection. Besides these legal requirements, many companies must also meet regulatory requirements in their industry sector. These requirements often limit access to messages for certain business roles or require special retention periods for messages.
 
-This module examines the different compliance features in the Microsoft 365 Compliance center portal that messaging administrators can use to follow both legal and regulatory requirements.
+This module examines the different compliance features in the Microsoft Purview compliance portal that messaging administrators can use to follow both legal and regulatory requirements.
 
 ### Prerequisites
 
@@ -15,10 +15,9 @@ This module is designed for persons who are aspiring to the Microsoft 365 Messag
 
 ### Learning objectives
 
-After this completing module, you'll be able to:
+After completing this module, you'll be able to:
 
  -  Describe different policy and compliance features for messaging.
  -  Evaluate the different administrator roles in Microsoft 365.
  -  Plan retention policies for Exchange Online mailboxes.
- -  Configure data loss prevention (DLP) policies for data in Microsoft 365.
  -  Create message traces to understand the mail flow in your Exchange Online organization.
