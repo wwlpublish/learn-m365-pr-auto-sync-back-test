@@ -11,3 +11,4 @@ After completing this lesson, you'll be able to:
  -  Install and register a connector and verify that it installed correctly.
  -  Publish an on-premises app for remote access and test the published app to verify that it functions correctly.
 
+
