@@ -12,7 +12,7 @@ Individuals can gain valuable insights to improve work patterns through actionab
  -  **Daily briefing.** The daily briefing email from Viva automatically appears in your inbox near the start of the day. The email provides recommendations of documents for you to review prior to the day’s meetings. It also provides commitments from previous emails that you may want to follow up on.
  -  **Effective meetings.** Meeting organizers will be able to view personalized insights and suggestions to help improve their meeting habits, and feedback for their meetings. You'll be able to create and share meeting plans to help build shared team meeting norms. 
 
-:::image type="content" source="../media/analytics-module-viva-insights-unit-84de8cbb.png" alt-text="analytics-module-viva-insights-unit.png":::
+:::image type="content" source="../media/analytics-module-viva-insights-unit-individuals-f9e048f2.png" alt-text="analytics-module-viva-insights-unit-individuals.png":::
 
 
 ### Manager Insights
@@ -31,7 +31,8 @@ Manager insights can provide insight to foster a healthy and successful team. Un
     
      -  Prioritize team wellbeing by promoting healthy norms and boundaries, like setting shared, recurring ‘No meeting’ days or quiet hours for focused, uninterrupted work.
 
-### :::image type="content" source="../media/analytics-module-viva-insights-unit-managers-2612def6.png" alt-text="analytics-module-viva-insights-unit-managers.png"::: 
+:::image type="content" source="../media/analytics-module-viva-insights-unit-managers-2612def6.png" alt-text="Image showing the manager tab within Viva Insights for managers.":::
+
 
 ### Organizational Insights
 
@@ -47,4 +48,4 @@ Viva Insights provide organizational views to senior business leaders, CEOs, bus
  -  **Transform meeting culture.** Optimize meeting hours, examine recurring meetings and promote healthy meeting habits.
  -  **Increase customer focus.** Optimize time with customers and promote coaching and development.
 
-:::image type="content" source="../media/analytics-module-viva-insights-unit-organizations-50e861bf.png" alt-text="analytics-module-viva-insights-unit-organizations.png":::
+:::image type="content" source="../media/analytics-module-viva-insights-unit-organizations-50e861bf.png" alt-text="Image showing the organization tab within Viva Insights for business leaders.":::

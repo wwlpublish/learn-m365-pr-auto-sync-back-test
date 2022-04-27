@@ -13,7 +13,8 @@ Watch the video about how to act on Microsoft 365 usage reports.
 
 You can also use Power BI with Microsoft 365 usage analytics to get more insight into how your organization is working. For more information, see [Enable Microsoft 365 usage analytics](/microsoft-365/admin/usage-analytics/enable-usage-analytics?azure-portal=true).
 
-### :::image type="content" source="../media/analytics-module-reports-unit-admin-center-4261d9d3.png" alt-text="analytics-module-reports-unit-admin-center.png"::: 
+:::image type="content" source="../media/analytics-module-reports-unit-admin-center-4261d9d3.png" alt-text="Screenshot showing the reports available within the Microsoft 365 admin center.":::
+
 
 ### Reports in other admin centers
 
@@ -28,7 +29,7 @@ Each specialist admin center gives you more options for that specific area inclu
  -  **SharePoint.** The reports available are about data access governance. These reports help you maintain the security and compliance of your data in SharePoint. View reports on sharing links to identify potential oversharing and reports on sensitivity labels applied to files to monitor sensitive content.
  -  **Teams.** User activity and device usage reports are available so you can gain insights into the Microsoft Teams activity in your organization. Your organization can use these reports to better understand usage patterns like how users are using Teams, and what devices they use to connect to Teams. These reports can help organizations decide where to prioritize training and communication efforts.
 
-:::image type="content" source="../media/analytics-module-reports-unit-other-admin-centers-cea4872a.png" alt-text="analytics-module-reports-unit-other-admin-centers.png":::
+:::image type="content" source="../media/analytics-module-reports-unit-other-admin-centers-cea4872a.png" alt-text="Screenshot showing some of the other admin centers available.":::
 
 
 To get more details about the reports available in the Microsoft 365 admin center and other admin centers, see [Microsoft 365 Reports in the admin center](/microsoft-365/admin/activity-reports/activity-reports).

@@ -23,4 +23,4 @@ For more information on the Microsoft 365 admin center, see [Microsoft 365 admin
 
 The **Microsoft 365 user portal** is designed for users to access their email, calendar, and documents through Microsoft 365 apps like Office, Teams, Outlook, and more. Users can sign in with their email account and password through [www.office.com](https://www.office.com/?azure-portal=true). Only the apps the user has licenses for will appear. The portal allows for quick and easy viewing and editing of files saved online through OneDrive.
 
-:::image type="content" source="../media/analytics-module-admin-center-unit-user-portal-38183006.png" alt-text="analytics-module-admin-center-unit-user-portal.png":::
+:::image type="content" source="../media/analytics-module-admin-center-unit-user-portal-38183006.png" alt-text="Screenshot showing the Microsoft 365 user portal.":::
