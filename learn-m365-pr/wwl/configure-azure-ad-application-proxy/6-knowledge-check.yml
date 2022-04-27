@@ -44,7 +44,7 @@ quiz:
     - content: "Alan should deploy at least two connectors"
       isCorrect: false
       explanation: "Incorrect. Deploying at least two connectors helps support high availability."
-    - content: "Alan should verify the Microsoft AAD Application Proxy Connector service is running"
+    - content: "Alan should verify the Microsoft Azure AD Application Proxy Connector service is running"
       isCorrect: false
       explanation: "Incorrect. This service enables connectivity but does not impact load-balancing."
     - content: "There's nothing else that Alan must do"
