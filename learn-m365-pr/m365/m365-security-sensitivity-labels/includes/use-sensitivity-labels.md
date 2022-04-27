@@ -1,6 +1,8 @@
 Sensitivity labels help you classify and protect your sensitive content without hampering user productivity and collaboration.
 
-:::image type="content" source="../media/persistent-labels.png" alt-text="Persistent sensitivity labels travel with the document." border="false":::
+:::image type="complex" source="../media/persistent-labels.png" alt-text="Infographic that lists how persistent sensitivity labels travel with a document." border="false":::
+	Labels are metadata written to documents. Labels are in clear text so that other systems such as a Data Loss Prevention engine can read them. Labels travel with the document regardless of location.
+:::image-end:::
 
 Sensitivity labels are metadata tags that have the following characteristics.
 
