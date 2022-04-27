@@ -61,7 +61,7 @@ An Enterprise Administrator can enable multifactor authentication for users in t
          -  **Skip multifactor authentication for requests from following ranges of IP address subnets** (enter the IP address subnets in the provided field).
      -  verification options section
         
-         -  Select one or more multifactor authentication authentication methods that will be available for users to choose from:
+         -  Select one or more multifactor authentication methods that will be available for users to choose from:
             
              -  **Call to phone**. Users receive a phone call with instructions for the users to press the pound key. After they press the pound key, users are signed in.
              -  **Text message to phone (selected by default)**. Users receive a text message containing a six-digit code that they must enter into the Microsoft 365 portal.
