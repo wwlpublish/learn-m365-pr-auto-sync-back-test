@@ -18,8 +18,7 @@ You will also need Exchange Online or Exchange on-premises. An Exchange license 
 
 ## What are the configuration requirements?
 
-For initial configuration, Teams Rooms requires DHCP. However, once you have configured the device, you can switch from DHCP to a static IP address. 
-When using Teams or Skype for Business, be sure that all the proper ports and protocols are enabled for access via your firewalls or proxy servers.
+For initial configuration, Teams Rooms requires DHCP. However, once you have configured the device, you can switch from DHCP to a static IP address. When using Teams or Skype for Business, be sure that all the proper ports and protocols are enabled for access via your firewalls or proxy servers.
 
 ## What about licensing?
 
@@ -27,7 +26,7 @@ You should use either the Microsoft Teams Rooms Standard or Microsoft Teams Room
 
 The Teams Rooms Premium license adds a managed service component to the Teams Rooms Standard license. This managed service is run by Microsoft and will help you manage, monitor, and maintain Teams Rooms across your organization. It will help you have an optimal experience with Teams Rooms.
 
-![Standard versus premium licensing](../media/standard-premium-license.png)
+:::image type="content" source="../media/standard-premium-license.png" alt-text="Standard versus premium licensing." border="false":::
 
 ## What deployment roles are needed?
 
