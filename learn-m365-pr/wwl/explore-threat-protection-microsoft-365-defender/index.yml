@@ -3,7 +3,7 @@ uid: learn.wwl.explore-threat-protection-microsoft-365-defender
 metadata:
   title: Explore threat protection in Microsoft 365 Defender
   description: "Explore threat protection in Microsoft 365 Defender"
-  ms.date: 04/26/2022
+  ms.date: 04/27/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -12,13 +12,13 @@ title: Explore threat protection in Microsoft 365 Defender
 summary: Examines how Microsoft Defender for Office 365 integrates with EOP to extend the protection provided by EOP and provide the most efficient level of protection against commodity and advanced targeted attacks.
 abstract: |
   By the end of this module, you'll be able to:
-  - Describe the threat protection features of Microsoft Defender for Office 365.
-  - Understand how the Configuration analyzer reviews threat protection policies and provides suggestions for improvement.
-  - Describe the protection provided by Safe Attachment and Safe Links policies.
-  - Understand the spoof intelligence features provided by Exchange Online Protection.
-  - Describe how Microsoft Defender anti-phishing policies work.
-  - Understand the process to manage the tenant allow/block list in Microsoft 365 Defender.
-  - Understand how Advanced Hunting can be used to track events in your secure messaging environment.
+  *   Describe the threat protection features of Microsoft Defender for Office 365\.
+  *   Understand how the Configuration analyzer reviews threat protection policies and provides suggestions for improvement.
+  *   Describe the protection provided by Safe Attachment and Safe Links policies.
+  *   Understand the spoof intelligence features provided by Exchange Online Protection.
+  *   Describe how Microsoft Defender anti-phishing policies work.
+  *   Understand the process to manage the Tenant Allow/Block list in Microsoft 365 Defender.
+  *   Understand how Advanced Hunting can be used to track events in your secure messaging environment.
 prerequisites: ""
 iconUrl: /learn/achievements/m365-defender-threat-protection.svg
 levels:
