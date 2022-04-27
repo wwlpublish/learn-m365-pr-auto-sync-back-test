@@ -31,7 +31,5 @@ modules:
 - learn.wwl.manage-authentication-for-messaging
 - learn.wwl.configure-organizational-settings
 - learn.wwl.configure-organizational-sharing
-- learn.wwl.explore-mobile-device-mailbox-policies
-- learn.wwl.manage-mobile-device-access
 trophy:
   uid: learn.wwl.manage-your-microsoft-365-messaging-environment.trophy
