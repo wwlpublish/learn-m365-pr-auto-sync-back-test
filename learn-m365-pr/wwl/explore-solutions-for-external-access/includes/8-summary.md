@@ -9,4 +9,3 @@ You then learned why external sharing in Microsoft 365 (OneDrive, SharePoint Onl
 The module then examined how Microsoft Teams enables communication and collaboration with people outside your organization, just like Azure AD B2B collaboration. But you also learned that while they offer similar functionality, Teams provides two different ways to make that happen - through external access (federation) and guest access.
 
 The module concluded by reviewing how organizations use Microsoft's Customer Lockbox feature to control how a Microsoft support engineer accesses your data. When you need a Microsoft support engineer to help fix an issue, you can require that they first submit a Customer Lockbox request. This request enables you to control whether to give the support engineer access to your data. There's also an expiration time on the request, and content access is removed after the support engineer has fixed the issue.
-
