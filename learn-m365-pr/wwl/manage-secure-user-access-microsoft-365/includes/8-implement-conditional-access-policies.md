@@ -3,7 +3,7 @@ Conditional Access is the protection of regulated content in a system by requiri
 :::image type="content" source="../media/conditional-access-signal-decision-enforcement-36ecaa3c.png" alt-text="Graphic showing how conditional access brings signals together to make decisions and enforce organizational policies.":::
 
 
-Conditional Access policies at their simplest are if-then statements. If a user wants to access a resource, then they must complete an action. For example, consider a payroll manager who wants to access the company's payroll application. The manager is required to do multi-factor authentication to access it.
+Conditional Access policies at their simplest are if-then statements. If a user wants to access a resource, then they must complete an action. For example, consider a payroll manager who wants to access the company's payroll application. The manager is required to do multifactor authentication to access it.
 
 Administrators are faced with two primary goals:
 
@@ -22,7 +22,7 @@ Conditional Access is an Azure Active Directory capability that's included with 
  -  Application details, including requiring use of managed apps to access corporate data.
  -  Real-time and calculated risk detection, when you also use a mobile threat defense partner.
 
-:::image type="content" source="../media/conditional-access-overview-how-it-works-c535cef9.png" alt-text="Graphic showing how conditional access policies apply access controls to secure apps and data.":::
+:::image type="content" source="../media/conditional-access-overview-cd55cc68.png" alt-text="Graphic showing how conditional access policies apply access controls to secure apps and data.":::
 
 
 > [!IMPORTANT]
@@ -65,7 +65,7 @@ Common signals that Conditional Access can take into account when making a polic
      -  Users attempting to access specific applications can trigger different Conditional Access policies.
  -  Real-time and calculated risk detection
     
-     -  Signals integration with Azure AD Identity Protection allows Conditional Access policies to identify risky sign-in behavior. Policies can then force users to change their password, do multi-factor authentication to reduce their risk level, or block access until an administrator takes manual action.
+     -  Signals integration with Azure AD Identity Protection allows Conditional Access policies to identify risky sign-in behavior. Policies can then force users to change their password, do multifactor authentication to reduce their risk level, or block access until an administrator takes manual action.
  -  Microsoft Defender for Cloud Apps
     
      -  Enables user application access and sessions to be monitored and controlled in real time. This feature increases visibility and control over access to and activities done within your cloud environment.
@@ -81,7 +81,7 @@ Common decisions built into conditional access policies include:
     
      -  Least restrictive decision. It can still require one or more of the following options:
         
-         -  Require multi-factor authentication.
+         -  Require multifactor authentication.
          -  Require a device to be marked as compliant.
          -  Require a device to be Hybrid Azure AD-joined.
          -  Require an approved client app.
@@ -90,8 +90,8 @@ Common decisions built into conditional access policies include:
 
 Many organizations have common access concerns that Conditional Access policies can help with. These common conditional access policies include:
 
- -  Require multi-factor authentication for users with administrative roles.
- -  Require multi-factor authentication for Azure management tasks.
+ -  Require multifactor authentication for users with administrative roles.
+ -  Require multifactor authentication for Azure management tasks.
  -  Block sign-ins for users attempting to use legacy authentication protocols.
  -  Require Azure AD Multi-Factor Authentication for all users.
  -  Require Azure AD Multi-Factor Authentication for Azure management.
