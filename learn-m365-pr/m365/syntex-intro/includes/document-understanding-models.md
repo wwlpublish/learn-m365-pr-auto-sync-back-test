@@ -13,7 +13,7 @@ A document understanding model uses AI to _automatically_ classify documents wit
 
 For your organization, unstructured documents may include product testing reports, project documents, or any text-based content that isn't structured like a form.
 
-![A picture of a sample business letter with key fields highlighted for Document understanding model processing in SharePoint Syntex.](../media/document-example.png)
+:::image type="content" source="../media/document-example.png" alt-text="A picture of a sample business letter with key fields highlighted for Document understanding model processing in SharePoint Syntex." border="false":::
 
 ### What's a content center?
 
@@ -23,7 +23,7 @@ A default content center is created during the SharePoint admin setup process, b
 
 Content centers offer you control and clear insight into your content. Your content centers help ensure proper governance throughout your data by helping you establish the processes that adhere to the compliance and security standards in your business.
 
-![A screenshot of a content center with the Model creation page and Model monitoring & management options in the page.](../media/content-center.png)
+:::image type="content" source="../media/content-center.png" alt-text="A screenshot of a content center with the Model creation page and Model monitoring & management options in the page." border="false":::
 
 ### What's a classifier?
 
