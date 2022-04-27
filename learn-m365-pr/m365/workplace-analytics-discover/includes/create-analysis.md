@@ -17,7 +17,7 @@ The most common query types include:
 * **Person query** - Extract person metrics for analysis of aggregated **employee** data.
 * **Meeting query** - Extract meeting-related metrics for analysis of aggregated **meeting** data.
 
-![Query designer](../media/query-designer.png)
+:::image type="content" source="../media/query-designer.png" alt-text="Query designer." border="false":::
 
 Queries report the same underlying data, but the type of query determines the structure of the output. For example, each observation in a Person query represents a person, their measured collaboration, and their descriptive attributes. Each observation in a Meeting query represents a meeting, its attributes, and the total collaboration associated with the meeting attendees.
 
@@ -30,15 +30,15 @@ Queries report the same underlying data, but the type of query determines the st
 5. Select the **Group by** timeframe (day, week, or month), the applicable **Time period**, and if you want the query to **Auto-refresh**.
 6. In **Exclusions**, select the meeting and attendee exclusions to exclude any irrelevant calendar activity from this analysis.
 
-   ![Running a Person query image.](../media/person-query.png)
+   :::image type="content" source="../media/person-query.png" alt-text="Running a Person query image." border="false":::
 
 7. In **Select metrics**, select what metrics you want to include from the list. You can also customize one or more metrics by using filters. For example, the following shows how to filter for meeting hours with the word "budgeting" in the subject line.
 
-   ![Select metrics image.](../media/select-metrics.png)
+   :::image type="content" source="../media/select-metrics.png" alt-text="Select metrics image." border="false":::
 
 8. In **Select filters**, you can change the scope of the data you'd like to analyze by limiting it to active employees and applying additional filters to organizational attributes. In this view, we've applied a filter to look at the Human Resources group at Contoso. (Active employees are defined as employees who sent at least one email or Teams chat in a given week.)
 
-   ![Select filters and organizational data.](../media/select-filters.png)
+   :::image type="content" source="../media/select-filters.png" alt-text="Select filters and organizational data." border="false":::
 
 9. In **Organizational data**, select which organizational attributes to include in your output, and then select **Run** (top right) to run the query.
 10. In **Query designer** > **Results**, you can select to view only your results (My results) or all query results. Select the **Download** icon to download a query's results as a .csv file or to copy the OData link for loading the data into other business intelligence apps (such as Power BI). For queries that show the **Visualization** icon, you can also visualize the results directly from this page.
@@ -53,7 +53,7 @@ To analyze a business process:
 2. [Define a business process](#define-a-business-process) to analyze within the dataset that you defined in the preceding step.
 3. [Analyze a business process](#analyze-a-business-process) through a query where you select the business process as a parameter.
 
-![Business process analysis.](../media/business-process.png)
+:::image type="content" source="../media/business-process.png" alt-text="Business process analysis." border="false":::
 
 #### Define a dataset
 
@@ -68,7 +68,7 @@ Before you can analyze a business process, you need to create a dataset for it. 
 7. Select **Attendee**, and then select the group (such as Sales) for the meeting attendees.
 8. Select **Organizer**, and then select the group (such as Sales) for the meeting organizer.
 
-   ![Define the dataset.](../media/define-dataset.png)
+   :::image type="content" source="../media/define-dataset.png" alt-text="Define the dataset." border="false":::
 
 9. Select **Submit** to create the dataset that matches these criteria (and no other data). The process time for the dataset varies depending on its size.
 
@@ -86,7 +86,7 @@ Before you can analyze a business process, you need to define it. You do this by
 5. For **Content type**, keep **Meetings** selected, and then select **Continue**.
 6. In **Enter a search term**, enter a keyword that represents a common term about this business process. The system then uses this to show you related words found in the dataset. For example, the following shows words related to **purchase**.
 
-   ![Business process keyword example.](../media/bp-keywords.png)
+   :::image type="content" source="../media/bp-keywords.png" alt-text="Business process keyword example." border="false":::
 
 7. Optionally, you can sort the keyword columns by selecting a header in the table, such as **Rank**.
 
@@ -155,7 +155,7 @@ To create peer analysis:
 6. Apply **Conditions** (optional) with filters that specify the attributes that should be similar for comparing the groups. For example, to compare Reference group's managers to the Other group's managers, add a conditional filter to include only managers in the output.
 7. Select **Submit**. When the analysis is ready, select the **View** (eye) icon to see the results on the **Peer analysis** page.
 
-![New Peer analysis](../media/peer-analysis-new.png)
+:::image type="content" source="../media/peer-analysis-new.png" alt-text="New Peer analysis." border="false":::
 
 **Peer analysis** results include the date range, a **Highlights** section with differences in the three most variant metrics between the groups, and charts that compare raw averages for multiple metrics.
 
@@ -165,7 +165,7 @@ You would like to understand the difference in collaboration patterns between th
 
 The results show that Corporate finance employees have 22 percent larger internal networks, but their external network connections are 17 percent smaller.
 
-![Peer analysis output example.](../media/peer-analysis-output.png)
+:::image type="content" source="../media/peer-analysis-output.png" alt-text="Peer analysis output example." border="false":::
 
 ## Plans
 
@@ -173,7 +173,7 @@ You can gain a lot of information about how employees in your organization get w
 
 Enrollment in a Plan requires that an employee has access to Personal insights in Viva Insights. A Plan combines the team goal setting and tracking with useful suggestions through their personal insights with Viva Insights to help them shift their ways of working.
 
-![Plans page example.](../media/plans-page.png)
+:::image type="content" source="../media/plans-page.png" alt-text="Plans page example." border="false":::
 
 The following plans are currently available:
 
@@ -182,7 +182,7 @@ The following plans are currently available:
 * **Wellbeing plan** - Helps participants unwind and protect their personal time by disconnecting outside of work.
 * **Seller success plan** - Helps participants prioritize time, increase network quality and size, and connect with the right roles.
 
-![Available plans.](../media/available-plans.png)
+:::image type="content" source="../media/available-plans.png" alt-text="Available plans." border="false":::
 
 For each plan type, you can select **Analyze** and get answers to questions involving relevant metrics. Then select **Start plan** to create, manage, and track a specifically targeted plan for employees in your organization.
 
@@ -194,11 +194,11 @@ Workplace Analytics enables analysts and admins to check the quality of the data
 
 In **Data sources**, view the Microsoft 365 collaboration data for your measured population over time. Use this view to identify any dates or date ranges you should include or exclude from your analysis, such as scheduled holidays.
 
-![Data sources page](../media/settings-data-sources.png)
+:::image type="content" source="../media/settings-data-sources.png" alt-text="Data sources page." border="false":::
 
 You can also assess the quality and completeness (coverage) of the uploaded organizational data (HR attributes) for your measured population as the following shows.
 
-![Data sources quality](../media/data-sources-quality.png)
+:::image type="content" source="../media/data-sources-quality.png" alt-text="Data sources quality." border="false":::
 
 Additionally, if your admin has uploaded CRM data, you can also confirm the quality of join coverage (the percentage of CRM contact and sales assignment data associated with CRM accounts).
 
@@ -214,7 +214,7 @@ Not all scheduled meetings are business-related. People often have personal appo
 
 Workplace Analytics has a built-in solution to address these issues called **Exclusions**. Analysts can use meeting or attendee exclusions to create specific rules for which meetings or attendees to exclude while adding each rule to a dropdown list of rules for specific analyses.
 
-![Exclusions](../media/exclusion-types.png)
+:::image type="content" source="../media/exclusion-types.png" alt-text="Exclusions." border="false":::
 
 With meeting exclusions, you can:
 
@@ -223,7 +223,7 @@ With meeting exclusions, you can:
 * Set thresholds for attendance size and duration of meetings to include.
 * Exclude meeting subjects by topic.
 
-![Meeting exclusions](../media/meeting-exclusions.png)
+:::image type="content" source="../media/meeting-exclusions.png" alt-text="Meeting exclusions." border="false":::
 
 Workplace Analytics has a default meeting exclusion rule that excludes meetings with only one attendee, meetings longer than eight hours, meetings with 250 or more participants, and canceled meetings. This rule is used if no other meeting exclusion is selected.
 
@@ -232,7 +232,7 @@ With attendee exclusions, you can:
 * Exclude invitees who did not respond to meeting invitations.
 * Exclude invitees who accepted meeting invitations as tentative.
 
-![Attendee exclusions](../media/attendee-exclusion.png)
+:::image type="content" source="../media/attendee-exclusion.png" alt-text="Attendee exclusions." border="false":::
 
 You can use meeting and attendee exclusions to exclude meetings or attendees you don't want to include in your analysis (or include meetings excluded in the default meeting exclusion rule).
 
@@ -246,7 +246,7 @@ Because the default meeting exclusion rule excludes these meetings, you need to 
 
 You'll find the following additional resources in the upper right of the Workplace Analytics app.
 
-![Additional resources](../media/additional-resources.png)
+:::image type="content" source="../media/additional-resources.png" alt-text="Additional resources." border="false":::
 
 * Select the **New features** (megaphone) icon to get information on new feature updates and releases.
 * Select the **Notifications** (bell) icon for notifications and alerts about recent activity in Workplace Analytics. These show dates for recent data refreshes, organizational data uploads, newly created exclusions, and query auto-refreshes. They also alert you when a query finishes running.
