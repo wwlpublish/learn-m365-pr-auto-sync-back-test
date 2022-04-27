@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/09/2022
+  ms.date: 04/27/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,21 +21,21 @@ quiz:
     choices:
     - content: "REST/OData Tenant Reporting web service"
       isCorrect: false
-      explanation: "That's incorrect. The REST/OData Tenant Reporting web service is used in an Exchange Online or hybrid deployment to programmatically collect summary and detailed reports about messaging data. Try again."
+      explanation: "That's incorrect. The REST/OData Tenant Reporting web service is used in an Exchange Online or hybrid deployment to programmatically collect summary and detailed reports about messaging data."
     - content: "Message trace"
       isCorrect: true
       explanation: "That's correct. The Microsoft 365 message trace feature enables messaging administrators to follow email messages as they pass through Exchange Online Protection. This feature can help you determine whether a targeted email message was received, rejected, deferred, or delivered by the service. It also shows what actions occurred to the message before it reached its final status."
     - content: "Microsoft Remote Connectivity Analyzer"
       isCorrect: false
-      explanation: "That's incorrect. Microsoft RCA is a web-based tool that's designed to help IT administrators troubleshoot connectivity issues with their server deployments. Try again."
+      explanation: "That's incorrect. Microsoft RCA is a web-based tool that's designed to help IT administrators troubleshoot connectivity issues with their server deployments."
   - content: "Contoso has implemented an Exchange Online deployment. What extra configuration must Contoso complete to enable Exchange Online Protection?"
     choices:
     - content: "Run the Hybrid Configuration Wizard"
       isCorrect: false
-      explanation: "That incorrect. The HCW is only required when implementing a hybrid Exchange deployment. Contoso has an Exchange Online deployment. Try again."
+      explanation: "That incorrect. The HCW is only required when implementing a hybrid Exchange deployment. Contoso has an Exchange Online deployment."
     - content: "Create connectors"
       isCorrect: false
-      explanation: "That's incorrect. Connectors are not required in an Exchange Online deployment. Try again."
+      explanation: "That's incorrect. Connectors are not required in an Exchange Online deployment."
     - content: "No extra configuration is needed"
       isCorrect: true
       explanation: "That's correct. When you register for Exchange Online or Microsoft 365, EOP is automatically applied to any message that is received or sent from your online tenant. No extra configuration is needed."
@@ -46,7 +46,7 @@ quiz:
       explanation: "That's correct. This connector is a Send connector that sends all outgoing mail to EOP."
     - content: "EOP outbound connector"
       isCorrect: false
-      explanation: "That's incorrect. The EOP outbound connector delivers emails to Fabrikam's on-premises mail servers. Try again."
+      explanation: "That's incorrect. The EOP outbound connector delivers emails to Fabrikam's on-premises mail servers."
     - content: "EOP inbound connector"
       isCorrect: false
-      explanation: "That's incorrect. The EOP inbound connector accepts emails from Fabrikam's on-premises mail servers. Try again."
+      explanation: "That's incorrect. The EOP inbound connector accepts emails from Fabrikam's on-premises mail servers."
