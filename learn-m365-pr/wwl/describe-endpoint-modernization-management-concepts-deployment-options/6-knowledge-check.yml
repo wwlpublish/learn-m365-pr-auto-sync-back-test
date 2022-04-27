@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/26/2022
+  ms.date: 04/27/2022
   author: wwlpublish
   ms.author: asglenno
   ms.topic: interactive-tutorial
@@ -33,7 +33,7 @@ quiz:
     - content: "Desktop-as-a-Service"
       isCorrect: true
       explanation: "Correct. Windows 365 and Azure Virtual Desktop are both virtual desktop solutions, also known as Desktop-as-a-Service."
-    - content: "On-prem service"
+    - content: "On-premises service"
       isCorrect: false
       explanation: "Incorrect. Windows 365 and Azure Virtual Desktop are both virtual desktop solutions, also known as Desktop-as-a-Service."
     - content: "Windows-as-a-Service"

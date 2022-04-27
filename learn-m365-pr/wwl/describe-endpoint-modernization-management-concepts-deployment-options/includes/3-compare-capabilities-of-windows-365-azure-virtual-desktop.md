@@ -20,7 +20,7 @@ Windows 365 is available in two subscription offerings:
  -  **Windows 365 Business** is made specifically for smaller organizations (up to 300 seats) who want ready-to-use Cloud PCs with simple management options.
  -  **Windows 365 Enterprise** is for larger organizations who want unlimited seats for creating Cloud PCs. It includes options to create custom Cloud PCs based on device images that you create, more management options, and full integration with Microsoft Endpoint Manager.
 
-:::image type="content" source="../media/modernization-module-window-365-unit-window-365-dcd71959.png" alt-text="modernization-module-W365-unit-W365.png":::
+:::image type="content" source="../media/modernization-module-window-365-unit-window-365-dcd71959.png" alt-text="Image showing Windows 365 and it's ability to stream the Windows experience across mulitple devices.":::
 
 
 ### Azure Virtual Desktop

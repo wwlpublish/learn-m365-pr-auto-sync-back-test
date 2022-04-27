@@ -32,7 +32,7 @@ The update channel of Microsoft 365 Apps you deploy to the users in your organiz
 
 The update channel that you choose for Microsoft 365 Apps doesn’t have to match the update channel for Windows client. For more information about update channels for Microsoft 365 apps, see [Overview of update channels for Microsoft 365 Apps](/DeployOffice/overview-update-channels?azure-portal=true).
 
-:::image type="content" source="../media/5-office-updates-cadfb3ff.png" alt-text="Update frequency":::
+:::image type="content" source="../media/5-office-updates-cadfb3ff.png" alt-text="Diagram explaining the three deployment channel options for Microsoft 365 Apps.":::
 
 
 ### How updates are installed for Microsoft 365 Apps

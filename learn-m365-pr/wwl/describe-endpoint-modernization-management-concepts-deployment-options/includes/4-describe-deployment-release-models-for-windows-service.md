@@ -43,7 +43,7 @@ A common ring structure uses three deployment groups:
 
 To successfully deploy Windows in your organization, it's important to understand the different ways that it can be deployed. There are three types of deployment categories or methods:
 
- -  **Modern deployment methods** embrace both traditional on-prem and cloud services to deliver a streamlined, cost effective deployment experience. These methods are recommended and are supported with existing tools such as Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager.
+ -  **Modern deployment methods** embrace both traditional on-premises and cloud services to deliver a streamlined, cost effective deployment experience. These methods are recommended and are supported with existing tools such as Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager.
  -  **Dynamic deployment methods** enable you to configure applications and settings for specific use cases without having to deploy a new custom organization image to the device.
  -  **Traditional deployment methods** use existing tools to deploy operating system images.
 
@@ -55,7 +55,7 @@ To successfully deploy Windows in your organization, it's important to understan
 #### Dynamic deployment methods
 
  -  **Subscription activation** uses a subscription to switch from one edition of Windows to another when a licensed user signs into a device. For example, you can switch from Windows 10 Pro to Windows 10 Enterprise.
- -  **Azure Active Directory joined with automatic mobile device management (MDM) enrollment** automatically joins the device to ADD and is configured by MDM. The organization member just needs to provide their work or school user ID and password.
+ -  **Azure Active Directory (Azure AD) joined with automatic mobile device management (MDM) enrollment** automatically joins the device to Azure AD and is configured by MDM. The organization member just needs to provide their work or school user ID and password.
  -  **Provisioning package configuration** uses the Windows Imaging and Configuration Designer (ICD) tool. This tool is used to create provisioning packages that contain all the configuration, settings, and apps that can be applied to devices.
 
 #### Traditional deployment methods
