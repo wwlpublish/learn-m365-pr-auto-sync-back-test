@@ -21,7 +21,7 @@ quiz:
     choices:
     - content: "A Contoso admin with User Management permissions must create a Microsoft 365 account for the guest user"
       isCorrect: false
-      explanation: "Incorrect. A Contoso admin with User Management permissions does not have to create a Microsoft 365 account for the guest user."
+      explanation: "Incorrect. A Contoso admin with User Management permissions doesn't have to create a Microsoft 365 account for the guest user."
     - content: "An account is created for the guest user when they redeem their invitation"
       isCorrect: true
       explanation: "Correct. If the guest user doesn't have a Microsoft account or an Azure AD account, one is created for them when they redeem their invitation."
@@ -43,10 +43,10 @@ quiz:
     choices:
     - content: "Create a DLP policy that provides limited access to the support engineer once a support case is opened"
       isCorrect: false
-      explanation: "Incorrect. That's not what you should do to control the support engineer's access to your data."
-    - content: "Require the support engineer submit a customer lockbox request"
+      explanation: "Incorrect. This action isn't how you control the support engineer's access to your data."
+    - content: "Require the support engineer submit a Customer Lockbox request"
       isCorrect: true
-      explanation: "Correct. Customer lockbox requests enable you to control whether to give the support engineer access to your data for a specified period of time."
+      explanation: "Correct. Customer Lockbox requests enable you to control whether to give the support engineer access to your data for a specified period of time."
     - content: "Give the support engineer remote access to Patti's computer so that Patti can monitor every action the engineer takes"
       isCorrect: false
-      explanation: "Incorrect. That's not what you should do to control the support engineer's access to your data."
+      explanation: "Incorrect. This action isn't how you control the support engineer's access to your data."

@@ -3,7 +3,7 @@ Azure AD Business-to-Business (B2B) collaboration enables an organization to:
  -  Maintain control over its corporate data.
  -  Securely share its applications and services with guest users from another organization.
 
-This feature supports safe and secure collaboration with external partners, whatever their size. It does so even if they don't have Azure AD or an IT department. A simple invitation and redemption process lets partners use their own credentials to access a company's resources. Developers can use Azure AD Business-to-Business APIs to customize the invitation process or write applications, such as self-service sign-up portals.
+This feature supports safe and secure collaboration with external partners, whatever their size. It does so even if they don't have Azure AD or an IT department. A simple invitation and redemption process lets partners use their own credentials to access a company's resources. Developers can use Azure AD Business-to-Business APIs to customize the invitation process or write applications, such as self-service sign up portals.
 
 ### Collaborate with any partner using their identities
 
