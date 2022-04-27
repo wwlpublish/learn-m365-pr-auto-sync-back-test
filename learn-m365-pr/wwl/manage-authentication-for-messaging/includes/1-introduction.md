@@ -28,4 +28,3 @@ After completing this module, you'll be able to:
  -  Implement multifactor authentication.
  -  Plan password policies.
  -  Configure modern authentication in Exchange online.
- 
