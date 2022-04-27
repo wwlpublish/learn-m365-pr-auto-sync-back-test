@@ -17,3 +17,4 @@ After completing this module, you'll be able to:
  -  Manage OAuth application requests in the Microsoft Defender for Cloud Apps portal.
  -  Monitor OAuth-enabled apps in the apps governance feature of Microsoft Defender for Cloud Apps.
 
+
