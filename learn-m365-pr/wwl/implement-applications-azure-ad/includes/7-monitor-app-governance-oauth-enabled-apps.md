@@ -20,7 +20,7 @@ App governance is a platform-based solution that's an integral part of the Micro
 
 App governance provides organizations with application behavior controls to help strengthen the security and compliance posture of their IT infrastructure.
 
-### App governance integration with Azure AD and Defender for Cloud Apps
+### App governance integration with Azure AD and Microsoft Defender for Cloud Apps
 
 App governance, Azure AD, and Microsoft Defender for Cloud Apps collect and provide different data sets:
 
@@ -38,15 +38,15 @@ The following graphic displays a summary of the integration.
 :::image type="content" source="../media/app-governance-architecture-3d489fa6.png" alt-text="Graphic shows a summary of the integration between app governance, Azure Active Directory, and Microsoft Defender for Cloud Apps.":::
 
 
-App governance sends its alerts to Microsoft Defender for Cloud Apps and Microsoft 365 Defender. It then receives alerts from Microsoft Defender for Cloud Apps. These alerts enable more detailed analysis of app-based security incidents.
+App governance sends its alerts to Microsoft Defender for Cloud Apps and Microsoft Defender for Cloud. It then receives alerts from Microsoft Defender for Cloud Apps. These alerts enable more detailed analysis of app-based security incidents.
 
- -  **Alerts sent from App governance to Microsoft 365 Defender**. These alerts appear in Microsoft 365 Defender with the **Detection source** field set to **App Governance**.
- -  **Alerts sent from App governance to Microsoft 365 Defender for Cloud Apps**. These alerts appear in Microsoft 365 Defender for Cloud Apps with the **Policy** field set to one of the following values:
+ -  **Alerts sent from App governance to Microsoft Defender for Cloud**. These alerts appear in Microsoft Defender for Cloud with the **Detection source** field set to **App Governance**.
+ -  **Alerts sent from App governance to Microsoft Defender for Cloud Apps**. These alerts appear in Microsoft Defender for Cloud Apps with the **Policy** field set to one of the following values:
     
      -  Microsoft 365 OAuth App Governance
      -  Microsoft 365 OAuth Phishing Detection
      -  Microsoft 365 OAuth App Reputation
- -  **Alerts sent from Microsoft 365 Defender for Cloud Apps to Apps governance**. These alerts appear in app governance with the **Source** field set to **Defender for Cloud Apps**.
+ -  **Alerts sent from Microsoft Defender for Cloud Apps to Apps governance**. These alerts appear in app governance with the **Source** field set to **Defender for Cloud Apps**.
 
 ## Knowledge check
 
