@@ -9,7 +9,7 @@ However, there are better tools for sharing and collaborating on documents, like
 Public folders are supported in Exchange by specially designed mailboxes. Similar to a user's mailbox on Exchange, but with extra features, these mailboxes consist of both the hierarchy of the public folders, and the content stored inside them.
 
 > [!div class="centered"]
-> :::image type="content" source="../media/public-folder-hierarchy.png" alt-text="Public folder hierarchy." border="false":::
+> :::image type="content" source="../media/public-folder-hierarchy.png" alt-text="Infographic that shows the public folder hierarchy in Exchange: Mailbox database, primary public folder mailbox, and then secondary public folder mailbox." border="false":::
 
 When you create the first public folder mailbox, it automatically becomes the primary hierarchy mailbox. The new mailbox contains the structure of all the organization's public folders, and this replicates to all the secondary hierarchy mailboxes. Secondary hierarchy mailboxes are created automatically by Exchange Online when the primary becomes full, or you can create them manually. You might need to create secondary hierarchy mailboxes if you intend to migrate large numbers of public folders from an existing on-premises Exchange server.
 
@@ -21,7 +21,7 @@ Public folder mailboxes, therefore, contain both the hierarchy of the folders an
 
 You can access the EAC from the Microsoft 365 admin center. By default, the admin center's options are collapsed. To choose the EAC link, you'll first expand the menu by selecting **… Show all**, then selecting the **Exchange** link under **Admin centers**.
 
-:::image type="content" source="../media/access-exchange-admin-center.png" alt-text="Access the Exchange admin center." lightbox="../media/access-exchange-admin-center.png" border="false":::
+:::image type="content" source="../media/access-exchange-admin-center.png" alt-text="Screenshot of the Microsoft 3 65 admin center with the Exchange admin center highlighted." lightbox="../media/access-exchange-admin-center.png" border="false":::
 
 You could also use the direct link to the EAC in the **Learn more** section at the end of this unit.
 
@@ -29,7 +29,7 @@ You could also use the direct link to the EAC in the **Learn more** section at t
 > You might need to use a new private browsing window to access the EAC, as your existing browser will use your current credentials.
 >
 
-:::image type="content" source="../media/exchange-admin-center-dashboard.png" alt-text="Exchange admin center dashboard." lightbox="../media/exchange-admin-center-dashboard.png" border="false":::
+:::image type="content" source="../media/exchange-admin-center-dashboard.png" alt-text="Screenshot of the Exchange admin center dashboard." lightbox="../media/exchange-admin-center-dashboard.png" border="false":::
 
 > [!NOTE]
 > If you don't see the Exchange admin center, make sure your Microsoft 365 user has the Exchange admin role assigned in the Microsoft 365 admin center.
@@ -38,11 +38,11 @@ You could also use the direct link to the EAC in the **Learn more** section at t
 2. On the **public folders** page, select the **public folder mailboxes** link at the top.
 3. Select **+** to create a new public folder mailbox.
 
-   :::image type="content" source="../media/create-new-public-folder-mailbox.png" alt-text="Create a new public folder mailbox." lightbox="../media/create-new-public-folder-mailbox.png" border="false":::
+   :::image type="content" source="../media/create-new-public-folder-mailbox.png" alt-text="Screenshot of the public folders page in the Exchange admin center." lightbox="../media/create-new-public-folder-mailbox.png" border="false":::
 
 4. In the new public folder mailbox window, enter the name for your public folder, then select **Save**.
 
-   :::image type="content" source="../media/public-folder-name.png" alt-text="Enter a public folder name." border="false":::
+   :::image type="content" source="../media/public-folder-name.png" alt-text="Screenshot of the new public folder mailbox modal where public folders are named and created." lightbox="../media/public-folder-name.png" border="false":::
 
 This creates the primary public mailbox for Exchange Online. Repeat these steps to create more public folder mailboxes, which will all be secondary hierarchy public folder mailboxes.
 
