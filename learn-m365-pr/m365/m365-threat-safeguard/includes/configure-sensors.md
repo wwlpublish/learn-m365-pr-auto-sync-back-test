@@ -46,18 +46,18 @@ The Microsoft Defender for Identity sensor has the following requirements:
 1. Download and extract the sensor file. Run **Microsoft Defender for Identity sensor setup.exe** and follow the setup wizard.
 2. On the Welcome page, select your language and click **Next**.
 
-   ![Install steps: Choose Language](../media/install-choose-language.png)
+  :::image type="content" source="../media/install-choose-language.png" alt-text="Install steps: Choose Language." border="false":::
 
 3. The installation wizard automatically checks if the server is a domain controller or a dedicated server. If it's a domain controller, the Microsoft Defender for Identity sensor is installed. If it's a dedicated server, the Microsoft Defender for Identity standalone sensor is installed. For example, for a Microsoft Defender for Identity sensor, the following screen is displayed to let you know that a Microsoft Defender for Identity sensor is installed on your dedicated server:
 
-   ![Install steps: Determine server type](../media/install-server-type.png)
+   :::image type="content" source="../media/install-server-type.png" alt-text="Install steps: Determine server type." border="false":::
 
 4. Under **Configure the sensor**, enter the installation path and the access key, based on your environment:
 
    - **Installation path**: The location where the Microsoft Defender for Identity sensor is installed. By default, the path is **%programfiles%\Microsoft Defender for Identity sensor**. Leave the default value.
    - **Access key**: Retrieved from the Microsoft Defender for Identity portal.
 
-    ![Install steps: Configure the sensor](../media/install-configure-sensor.png)
+    :::image type="content" source="../media/install-configure-sensor.png" alt-text="Install steps: Configure the sensor." border="false":::
 
 5. Click **Install**.
 
@@ -66,7 +66,7 @@ After the Microsoft Defender for Identity sensor is installed, do the following 
 1. Click **Launch** to open your browser and sign into the Microsoft Defender for Identity portal.
 2. In the Microsoft Defender for Identity portal, go to **Configuration**. Under the System section, select **Sensors**.
 
-   [![Install steps: Select sensors in Microsoft Defender for Office 365 portal](../media/install-select-sensors.png)](../media/install-select-sensors-magnify.png#lightbox)
+   :::image type="content" source="../media/install-select-sensors.png" alt-text="Install steps: Select sensors in Microsoft Defender for Office 365 portal." lightbox="../media/install-select-sensors-magnify.png" border="false":::
 
 3. Click on the sensor you want to configure and enter the following information:
 
@@ -82,6 +82,6 @@ After the Microsoft Defender for Identity sensor is installed, do the following 
      - For Microsoft Defender for Identity sensors, all network adapters that are used for communication with other computers in your organization.
      - For Microsoft Defender for Identity standalone sensor on a dedicated server, select the network adapters that are configured as the destination mirror port. These network adapters receive the mirrored domain controller traffic.
 
-   ![Install steps: Enter information to configure sensor](../media/install-configure-sensor-info.png)
+   :::image type="content" source="../media/install-configure-sensor-info.png" alt-text="Install steps: Enter information to configure sensor." border="false":::
 
 4. Click **Save**.

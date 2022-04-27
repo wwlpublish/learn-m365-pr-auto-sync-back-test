@@ -2,7 +2,7 @@ When you first power on Teams Rooms, the first screens you see are the out-of-bo
 
 1. Select your region from the list and choose **Yes**. In the example here, Teams Rooms is being installed in the United States, so United States is selected and then **Yes** is chosen.
 
-   ![Initial Windows install region verification screen](../media/out-of-box-region.png)
+   :::image type="content" source="../media/out-of-box-region.png" alt-text="Initial Windows install region verification screen." border="false":::
 
 1. Select the correct keyboard layout. Scroll through the list to find the right keyboard for you and choose **Yes**.
 1. You'll be asked if you need a second keyboard layout. Make a choice if you need to.
@@ -25,10 +25,10 @@ When you first power on Teams Rooms, the first screens you see are the out-of-bo
 1. You can also enable Modern Authentication.
 1. After entering and setting the necessary values choose **Next**.
 
-   [![Choose Next after setting values](../media/out-of-box-initial-setup-options.png)](../media/out-of-box-initial-setup-options-lightbox.png#lightbox)
+   :::image type="content" source="../media/out-of-box-initial-setup-options.png" alt-text="Choose Next after setting values." lightbox="../media/out-of-box-initial-setup-options-lightbox.png" border="false":::
 
 1. The Advanced screen is meant for advanced Skype for Business configurations. Check with a Skype for Business expert if you need to fill out these values. In most cases, you can just skip this screen by choosing **Next**.
 1. If you have Microsoft certified Teams Rooms equipment connected, you'll see the congratulations message. If not, you'll need to connect the center of room console to the compute module.
 1. Choose **Finish** to complete the out-of-box experience for both Windows and Microsoft Teams Rooms.
 
-   [![Choose Finish to complete the out-of-box experience](../media/out-of-box-finish.png)](../media/out-of-box-finish-lightbox.png#lightbox)
+   :::image type="content" source="../media/out-of-box-finish.png" alt-text="Choose Finish to complete the out-of-box experience." lightbox="../media/out-of-box-finish-lightbox.png" border="false":::

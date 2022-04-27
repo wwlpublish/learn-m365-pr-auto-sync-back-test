@@ -4,7 +4,7 @@ title: Run a message trace
 metadata:
   title: Run a message trace
   description: "Run a message trace"
-  ms.date: 03/09/2022
+  ms.date: 04/27/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -13,7 +13,7 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 8
 content: |
-  [!include[](includes/6-run-message-trace.md)]
+  [!include[](includes/5-run-message-trace.md)]
 quiz:
   title: "Check your knowledge"
   questions:
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "In the Exchange admin center"
       isCorrect: false
-      explanation: "That's incorrect. This location isn't where Holly can view the message trace results. Try again."
+      explanation: "That's incorrect. This location isn't where Holly can view the message trace results."
     - content: "In the Microsoft 365 Defencer portal"
       isCorrect: false
-      explanation: "That's incorrect. This location isn't where Holly can view the message trace results. Try again."
+      explanation: "That's incorrect. This location isn't where Holly can view the message trace results."
     - content: "In a downloadable .CSV file"
       isCorrect: true
       explanation: "That's correct. Trace data is available for the past 90 days. If a message is older than seven days, you can only view the results in a downloadable .CSV file. Since the message data that Holly is investigating is over a month old, Holly must download the .CSV file that's generated from the message trace to view the results."
