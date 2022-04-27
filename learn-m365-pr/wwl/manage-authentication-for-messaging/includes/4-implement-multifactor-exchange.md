@@ -39,7 +39,9 @@ These methods are based on your Microsoft 365 plan, as outlined in the following
     All Microsoft 365 plans
   :::column-end:::
   :::column:::
-    Use security defaults, which require MFA for all user accounts.You can also configure per-user MFA on individual user accounts, but this method isn't recommended.
+    Use security defaults, which require MFA for all user accounts.
+    
+    You can also configure per-user MFA on individual user accounts, but this method isn't recommended.
   :::column-end:::
   :::column:::
     Small business
