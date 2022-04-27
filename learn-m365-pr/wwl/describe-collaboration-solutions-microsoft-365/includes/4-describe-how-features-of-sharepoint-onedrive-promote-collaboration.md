@@ -10,7 +10,7 @@ The intranet is at the core of many organizations. It's the place where employee
  -  **Communication sites** are designed to broadcast information to other teams or to an entire organization. These sites are perfect for sharing company news, announcements, events, internal cross-company campaigns, status updates, and product launches. Use communication sites to engage and inform broad audiences.
  -  **Hub sites** are used to organize families of team sites and communication sites together. It provides a connection point and central portal for these groups of related team or communication sites. Hub sites make it easier for users to discover related content such as news and other site activities.
 
-:::image type="content" source="../media/collaborative-module-sharepoint-unit-2d87a506.png" alt-text="collaborative-module-sharepoint-unit.png":::
+:::image type="content" source="../media/collaborative-module-sharepoint-unit-2d87a506.png" alt-text="Image showing a company's private communication site in Sharepoint.":::
 
 
 ### OneDrive
@@ -26,4 +26,4 @@ The following list describes how OneDrive empowers you and your team to collabor
  -  **Quickly find files that matter most.** Finding content in your OneDrive is simplified through the intelligence of the Microsoft Graph application programming interface. This feature simplifies finding what's important by providing file recommendations based on your relationship to other people, how you received various files, and when you last accessed them.
  -  **Protect your files with enterprise-grade security.** OneDrive has many security and compliance features, enabling you to meet some of the strictest compliance requirements out there.
 
-:::image type="content" source="../media/collaborative-module-one-drive-unit-7655d8ac.png" alt-text="collaborative-module-onedrive-unit.png":::
+:::image type="content" source="../media/collaborative-module-one-drive-unit-7655d8ac.png" alt-text="Image showing file storage in OneDrive.":::

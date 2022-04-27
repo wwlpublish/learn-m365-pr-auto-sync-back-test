@@ -10,7 +10,7 @@ Viva Connections offers added functionality through three primary components des
  -  **Feed.** The feed delivers updates to the right people at the right time with powerful targeting and scheduling capabilities. It’s closely integrated with Yammer, SharePoint news, and Stream to display a personalized and relevant feed, based on post-level targeting of the group's employees belong to.
  -  **Resources.** The resources experience enables a way to navigate across platforms. It provides users with a familiar navigation structure from the SharePoint app bar and allows them to open sites, pages, news, and more.
 
-:::image type="content" source="../media/microsoft-viva-connections-7a9cb003.jpg" alt-text="microsoft-viva-connections.jpg":::
+:::image type="content" source="../media/microsoft-viva-connections-7a9cb003.jpg" alt-text="Image showing the Viva Connections module within Microsoft Viva.":::
 
 
 ### Viva Insights
@@ -24,7 +24,7 @@ Viva Connections offers added functionality through three primary components des
 > [!NOTE]
 > Microsoft MyAnalytics and Workplace Analytics are part of this new feature set and are being updated to reflect the Microsoft Viva Insights branding over time.
 
-:::image type="content" source="../media/microsoft-viva-insights-35f59109.jpg" alt-text="microsoft-viva-insights.jpg":::
+:::image type="content" source="../media/microsoft-viva-insights-35f59109.jpg" alt-text="Image showing the Viva Insights module within Microsoft Viva.":::
 
 
 ### Viva Topics
@@ -40,7 +40,7 @@ The topics are displayed to users through:
  -  Search in office applications.
  -  Topic center home page.
 
-:::image type="content" source="../media/microsoft-viva-topics-9eefa004.jpg" alt-text="microsoft-viva-topics.jpg":::
+:::image type="content" source="../media/microsoft-viva-topics-9eefa004.jpg" alt-text="Image showing the Viva Topics module within Microsoft Viva.":::
 
 
 ### Viva Learning
@@ -55,4 +55,4 @@ There are three main views in the Viva Learning app:
  -  **My Learning.** Access your recommendations and assignments, as well as bookmarked, recently viewed, and completed courses.
  -  **Manage.** Track the progress of recommendations that you made.
 
-:::image type="content" source="../media/microsoft-viva-learning-81133db6.jpg" alt-text="microsoft-viva-learning.jpg":::
+:::image type="content" source="../media/microsoft-viva-learning-81133db6.jpg" alt-text="Image showing the Viva Learning module within Microsoft Viva.":::

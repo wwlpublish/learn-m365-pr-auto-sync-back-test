@@ -13,7 +13,7 @@ Teams encourages your users to organize and collaborate across projects and work
      -  **Private channels** are for selected team members.
      -  **Shared channels** can select people both inside and outside the team.
 
-:::image type="content" source="../media/2-teams-page-6be12df4.png" alt-text="2-teams-page.png":::
+:::image type="content" source="../media/2-teams-page-6be12df4.png" alt-text="Image showing channels and chat within Microsoft Teams.":::
 
 
 ### Chat and instant messaging
@@ -56,7 +56,7 @@ Meetings help teams to share status updates, brainstorm ideas, and solve issues 
 
 Stay connected with voice and video calling using **Microsoft Teams Phone** on your computer, tablet, mobile device, or desk phone. Teams Phone provides a secure, integrated calling program that unifies classic and modern calling features. You can start a call from chat, contact card, Outlook, or the Calls app, to save time and reduce costs. Teams Phone has updated cloud calling features like voicemail transcription and group call pickup to elevate your experience beyond that of traditional calls. No matter where you choose to work, your calls, voicemail, and call history move with you. Transition calls from your home Wi-Fi to your cellular service while on the go, and then to your office Wi-Fi when you arrive, all from one number using Teams Phone.
 
-:::image type="content" source="../media/collaborative-module-teams-unit-meetings-share-c18ef66d.png" alt-text="collaborative-module-teams-unit-meetings-share.png":::
+:::image type="content" source="../media/collaborative-module-teams-unit-meetings-share-c18ef66d.png" alt-text="Image showing an online meeting in action within Microsoft Teams.":::
 
 
 ### Extend Teams by using collaborative apps
