@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.describe-endpoint-modernization-management-concepts-deployment-options.describe-deployment-release-models-for-windows-as-service-waas
+title: Describe the deployment and release models for Windows-as-a-Service (WaaS)
+metadata:
+  title: Describe the deployment and release models for Windows-as-a-Service (WaaS)
+  description: "Describe the deployment and release models for Windows-as-a-Service (WaaS)"
+  ms.date: 04/27/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/4-describe-deployment-release-models-for-windows-service.md)]
