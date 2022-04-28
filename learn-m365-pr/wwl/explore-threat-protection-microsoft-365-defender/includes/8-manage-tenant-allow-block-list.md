@@ -76,7 +76,7 @@ In the **Tenant Allow/Block Lists**, there are four tabs to select from. Refer t
     Block
   :::column-end:::
   :::column:::
-    **Add file hashes:** Enter one SHA256 hash value per line, up to a maximum of 20. For example, "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3a".
+    **Add file hashes:** Enter one SHA256 hash value per line, up to a maximum of 20. For example, "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3a"
     
     **Never expire:** 
 
@@ -104,7 +104,7 @@ In the **Tenant Allow/Block Lists**, there are four tabs to select from. Refer t
 
 **Action:** Select **Allow** or **Block**.
 
-**Note:** 
+**Note that:** 
  -  Only the combination of the spoofed user and the sending infrastructure defined in the domain pair can be allowed or blocked from spoofing.
  -  When you configure an allow or block entry for a domain pair, messages from that domain pair no longer appear in the spoof intelligence insight.
  -  Entries for spoofed senders never expire.

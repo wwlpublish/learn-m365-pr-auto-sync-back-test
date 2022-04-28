@@ -78,7 +78,7 @@ Before you can manage or review detection rules, you must ensure that you have t
 
 To create detection rules:
 
-**1. Prepare the query.**
+### 1. Prepare the query
 
 In Microsoft Defender Security Center, go to Advanced hunting and select an existing query or create a new query. When using a new query, run the query to identify errors and understand possible results.
 
@@ -108,7 +108,7 @@ EmailEvents
 | where toint(FileSize) > 10000 
 ```
 
-**2. Create a new rule and provide alert details.**
+### 2. Create a new rule and provide alert details
 
 With the query in the query editor, select Create detection rule and specify the following alert details:
 
@@ -121,13 +121,13 @@ With the query in the query editor, select Create detection rule and specify the
  -  Description - more information about the component or activity identified by the rule.
  -  Recommended actions - extra actions that responders might take in response to an alert.
 
-**3. Choose the impacted entities.**
+### 3. Choose the impacted entities
 
 Identify the columns in your query results where you expect to find the main affected or impacted entity. For example, a query might return sender (SenderFromAddress or SenderMailFromAddress) and recipient (RecipientEmailAddress) addresses. Identifying which of these columns represent the main impacted entity helps the service aggregate relevant alerts, correlate incidents, and target response actions.
 
 You can select only one column for each entity type. Columns that aren't returned by your query can't be selected.
 
-**4. Specify actions.**
+### 4. Specify actions
 
 Your custom detection rule can automatically take actions on files or devices that are returned by the query.
 
@@ -148,7 +148,7 @@ Actions on users:
 
 When selected, the **Mark user as compromised** action is taken on users in the AccountObjectId, InitiatingProcessAccountObjectId, or RecipientObjectId column of the query results. This action sets the users risk level to "high" in Azure Active Directory.
 
-**5. Set the rule scope.**
+### 5. Set the rule scope
 
 Set the scope to specify which devices are covered by the rule. The scope influences rules that check devices and doesn't affect rules that check only mailboxes and user accounts or identities. You can select:
 
@@ -157,6 +157,6 @@ Set the scope to specify which devices are covered by the rule. The scope influe
 
 Only data from devices in scope will be queried. Also, actions will be taken only on those devices.
 
-**6. Review and turn on the rule.**
+### 6. Review and turn on the rule
 
 After reviewing the rule, select **Create** to save it. The custom detection rule immediately runs. It runs again based on configured frequency to check for matches, generate alerts, and take response actions.

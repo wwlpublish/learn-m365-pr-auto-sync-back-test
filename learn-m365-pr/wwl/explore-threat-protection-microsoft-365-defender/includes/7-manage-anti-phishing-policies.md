@@ -24,12 +24,12 @@ Microsoft Defender for Office 365 contains the following advanced anti-phishing 
 
 ### Managing Anti-phishing policies in Microsoft Defender for Office 365
 
-Anti-phishing is managed in the Security &amp; Compliance Center. The default policy applies to all users within the organization and is a single view where you can fine-tune anti-phishing protection. Custom policies, which can be created and configured for specific users, groups, or domains within the organization, take precedence over the default policy for the scoped users.
+The default policy applies to all users within the organization and is a single view where you can fine-tune anti-phishing protection. Custom policies, which can be created and configured for specific users, groups, or domains within the organization, take precedence over the default policy for the scoped users.
 
 There are several prerequisites to managing anti-phishing policies that you must be aware of, including:
 
  -  You must be a member of the Company administrators or Security admins role group.
- -  Most organizations typically set up multiple anti-phishing policies. Microsoft 365 enforces these policies in the order they're listed on the Anti-phishing page and ATP anti-phishing pages in the Security &amp; Compliance Center. Once you've reviewed the policy options, take some time to determine how many policies you'll need and the priority for each.
+ -  Most organizations typically set up multiple anti-phishing policies. Microsoft 365 enforces these policies in the order they're listed on the Anti-phishing page within the Microsoft 365 Defender portal. Once you've reviewed the policy options, take some time to determine how many policies you'll need and the priority for each.
  -  Allow up to 30 minutes for your new or updated policy to be propagated to all Microsoft 365 datacenters.
 
 ### Anti-phishing policy options in Microsoft Defender for Office 365
@@ -53,7 +53,7 @@ As you set up or edit your anti-phishing policies in Microsoft Defender for Offi
   :::column-end:::
   :::column:::
     Defines which email addresses will be protected by the policy.
-**Note**: You can add up to 60 internal and external addresses that you want to protect from impersonation.
+**Note that**: You can add up to 60 internal and external addresses that you want to protect from impersonation.
   :::column-end:::
   :::column:::
     Ensure that mail from outside your organization isn't an impersonation of one of the users on the list of users you're protecting. Examples of users you might want to protect are high-level executives, business owners, external board members, and so on.

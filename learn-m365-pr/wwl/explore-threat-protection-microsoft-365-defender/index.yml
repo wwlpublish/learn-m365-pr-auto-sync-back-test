@@ -19,7 +19,8 @@ abstract: |
   *   Describe how Microsoft Defender anti-phishing policies work.
   *   Understand the process to manage the Tenant Allow/Block list in Microsoft 365 Defender.
   *   Understand how Advanced Hunting can be used to track events in your secure messaging environment.
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/m365-defender-threat-protection.svg
 levels:
 - intermediate
