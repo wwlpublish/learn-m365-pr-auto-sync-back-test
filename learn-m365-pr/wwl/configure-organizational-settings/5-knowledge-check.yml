@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/09/2022
+  ms.date: 04/28/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,29 +24,29 @@ quiz:
       explanation: "That's correct. The message associated with the \"Issue warning\" quota won't be sent to the user unless the value of this setting is greater than 50% of the value specified in the \"Prohibit send\" quota. Since Alan set the \"Prohibit send\" quota to 8 MB, the \"Issue warning\" quota must be set to at least 4 MB; otherwise, the Issue warning quota message won't be sent."
     - content: "8 MB"
       isCorrect: false
-      explanation: "That's incorrect. This amount isn't the value the \"Issue warning\" quota must be set to. Try again."
+      explanation: "That's incorrect. This amount isn't the value the \"Issue warning\" quota must be set to."
     - content: "20 MB"
       isCorrect: false
-      explanation: "That's incorrect. This amount isn't the value the \"Issue warning\" quota must be set to. Try again."
+      explanation: "That's incorrect. This amount isn't the value the \"Issue warning\" quota must be set to."
   - content: "As the Messaging administrator for Lucerne Publishing, Patti Fernandez wants to prevent users from overloading the performance of the company's Exchange Server. To do this, Pattis wants Exchange Server to delay the user whenever they reach the configured limit for the defined time interval. What is this type of workload usage known as?"
     choices:
     - content: "Maximum usage"
       isCorrect: false
-      explanation: "That's incorrect. With maximum usage, Exchange Server temporarily blocks users from completing their tasks when they've reached their threshold in resource usage. Users are unblocked the moment their budget is recharged. Try again."
+      explanation: "That's incorrect. With maximum usage, Exchange Server temporarily blocks users from completing their tasks when they've reached their threshold in resource usage. Users are unblocked the moment their budget is recharged."
     - content: "Traffic shaping"
       isCorrect: true
       explanation: "That's correct. With traffic shaping, Exchange Server delays the user whenever a user reaches the configured limit for the defined time interval. This type of workload usage prevents users from overloading the performance of the server. Users’ business tasks usually aren't affected because the delays are short and almost undetectable."
     - content: "Burst allowances"
       isCorrect: false
-      explanation: "That's incorrect. With burst allowances, Exchange Server allows users to have greater resource consumption for short periods of time without throttling. Try again."
+      explanation: "That's incorrect. With burst allowances, Exchange Server allows users to have greater resource consumption for short periods of time without throttling."
   - content: "Fabrikam has a Microsoft 365 E5 subscription. As the Messaging administrator for Fabrikam, Holly Spencer wants to configure storage quotas to control the size of mailboxes and manage the growth of mailbox databases in the company's Exchange Online deployment. What's the fixed maximum storage quota for the primary mailbox in Fabrikam's Exchange Online deployment?"
     choices:
     - content: "50 GB"
       isCorrect: false
-      explanation: "That's incorrect. This value is the maximum storage quota for Microsoft 365 Business subscriptions. Try again."
+      explanation: "That's incorrect. This value is the maximum storage quota for Microsoft 365 Business subscriptions."
     - content: "100 GB"
       isCorrect: true
       explanation: "That's correct. In Microsoft 365, Exchange Online storage quotas have a fixed maximum for the primary mailbox. They also depend on subscription type, such as 50 GB for Business subscriptions and 100 GB for Enterprise subscription. Since Fabrikam has a Microsoft 365 E5 subscription, it has a 100 GB maximum storage quota."
     - content: "250 GB"
       isCorrect: false
-      explanation: "That's incorrect. This value isn't the maximum storage quota for Fabrikam. Try again."
+      explanation: "That's incorrect. This value isn't the maximum storage quota for Fabrikam."

@@ -1,0 +1,63 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.describe-productivity-solutions-microsoft-365.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/28/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "You're going to write a research paper and would like help with editing, finding reliable sources and creating a bibliography. Which Microsoft 365 app is most suitable?"
+    choices:
+    - content: "OneNote"
+      isCorrect: false
+      explanation: "Incorrect. OneNote is digital note taking tool allowing you to write and spellcheck your work. It does not have features to help find sources or create a bibliography."
+    - content: "Word"
+      isCorrect: true
+      explanation: "Correct. Word can help you create documents and improve your writing with built-in intelligent features like Editor to help with editing, and Researcher to help find sources and bibliography creation."
+    - content: "PowerPoint"
+      isCorrect: false
+      explanation: "Incorrect. PowerPoint can help you easily create polished presentations through intelligent features like Presenter Coach and PowerPoint Designer."
+  - content: "You need a way to simplify the process of scheduling and managing appointments and want to give your customers the flexibility to book their own appointments. Which Microsoft work management tool is most suitable?"
+    choices:
+    - content: "Bookings"
+      isCorrect: true
+      explanation: "Correct. Bookings is a web-based appointment scheduling and management system."
+    - content: "Planner"
+      isCorrect: false
+      explanation: "Incorrect. Planner is a collaborative task management tool."
+    - content: "Project"
+      isCorrect: false
+      explanation: "Incorrect. Project is a project management tool."
+  - content: "Which Microsoft work management tool is designed to help you plan, manage, and complete tasks on a Kanban board?"
+    choices:
+    - content: "Project"
+      isCorrect: false
+      explanation: "Incorrect. Project does have views such as Kanban-style task boards, but Project is a project management tool designed for more complex work efforts."
+    - content: "To Do"
+      isCorrect: false
+      explanation: "Incorrect. To Do is an intelligent task management app designed for personal use. It can't manage tasks on a Kanban board."
+    - content: "Planner"
+      isCorrect: true
+      explanation: "Correct. Planner is a task management tool that enables people to plan, manage, and complete tasks on a Kanban board."
+  - content: "Your organization needs to give users the ability to communicate in email, access their calendar and store contacts, all in one place. Which Microsoft product is most suitable?"
+    choices:
+    - content: "Teams"
+      isCorrect: false
+      explanation: "Incorrect. Teams is designed for collaboration through chat and online meetings. Although you can manage and view your calendar, you can't email."
+    - content: "Bookings"
+      isCorrect: false
+      explanation: "Incorrect. Bookings is an appointment scheduling and management system."
+    - content: "Exchange Online"
+      isCorrect: true
+      explanation: "Correct. Exchange Online is a hosted messaging solution that gives users the ability to communicate in email, access their calendar, and store contacts, all in one place."

@@ -3,7 +3,7 @@ uid: learn.wwl.configure-organizational-settings
 metadata:
   title: Configure organizational settings
   description: "Configure organizational settings"
-  ms.date: 03/09/2022
+  ms.date: 04/28/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -26,6 +26,7 @@ products:
 - office
 - office-365
 - office-exchange-server
+- office-exchange-online
 units:
 - learn.wwl.configure-organizational-settings.introduction
 - learn.wwl.configure-organizational-settings.configure-workload-policies-throttling

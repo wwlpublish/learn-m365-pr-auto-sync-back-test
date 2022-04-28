@@ -72,10 +72,10 @@ The administrative access doesn't include the Discovery Management role to acces
 :::row-end:::
 :::row:::
   :::column:::
-    Records Management
+    Records management
   :::column-end:::
   :::column:::
-    Users who are members of the Records Management role group can configure compliance features, such as retention policy tags, message classifications, and transport rules.
+    Users who are members of the records management role group can configure compliance features, such as retention policy tags, message classifications, and transport rules.
   :::column-end:::
   :::column:::
     Exchange Server and Exchange Online
@@ -209,7 +209,7 @@ The Global administrator role and the Organization Management role group are lin
     Billing administrator
   :::column-end:::
   :::column:::
-    No corresponding Exchange Online role group
+    No corresponding Exchange Online role group.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -217,7 +217,7 @@ The Global administrator role and the Organization Management role group are lin
     Password administrator
   :::column-end:::
   :::column:::
-    Help Desk administrator
+    Help Desk administrator.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -225,7 +225,7 @@ The Global administrator role and the Organization Management role group are lin
     Service administrator
   :::column-end:::
   :::column:::
-    No corresponding Exchange Online role group
+    No corresponding Exchange Online role group.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -233,7 +233,7 @@ The Global administrator role and the Organization Management role group are lin
     User management administrator
   :::column-end:::
   :::column:::
-    No corresponding Exchange Online role group
+    No corresponding Exchange Online role group.
   :::column-end:::
 :::row-end:::
 

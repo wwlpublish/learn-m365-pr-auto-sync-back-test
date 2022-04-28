@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/09/2022
+  ms.date: 04/28/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,21 +21,21 @@ quiz:
     choices:
     - content: "By creating an organization relationship with Fabrikam"
       isCorrect: false
-      explanation: "That's incorrect. Sharing policies are automatically available for everybody in an external organization when you configure organization relationships. Try again."
+      explanation: "That's incorrect. Sharing policies are automatically available for everybody in an external organization when you configure organization relationships."
     - content: "By creating sharing policies within Exchange that are assigned to selected users"
       isCorrect: true
       explanation: "That's correct. A sharing policy that you create in Exchange can be assigned to specific users. This design enables you to ensure that sharing policies can be granular and not automatically available for everybody in an external organization as when you configure organization relationships."
     - content: "By using the default sharing policy within Exchange"
       isCorrect: false
-      explanation: "That's incorrect. The default sharing policy in Exchange applies to all users. Try again."
+      explanation: "That's incorrect. The default sharing policy in Exchange applies to all users."
   - content: "Contoso and Fabrikam each have an Exchange Server 2019 deployment. As the new Messaging administrator for Contoso, Holly Dickson wants to configure federated sharing between the two organizations. While verifying which Azure AD authentication system instance each Exchange organization uses, Holly discovered that a federation trust already exists between the two organizations. Given this situation, what does Holly need to do to implement federated sharing with Fabrikam?"
     choices:
     - content: "Run the Federation Trust wizard to generate a new self-signed certificate"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't required to implement federated sharing with Fabrikam. Try again."
+      explanation: "That's incorrect. This action isn't required to implement federated sharing with Fabrikam."
     - content: "Change the existing federated trust relationship to reflect each organization's current domain infrastructure"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't required to implement federated sharing with Fabrikam. Try again."
+      explanation: "That's incorrect. This action isn't required to implement federated sharing with Fabrikam."
     - content: "Configure an organization relationship"
       isCorrect: true
       explanation: "That's correct. If a federation trust to the Azure AD authentication system already exists for both Exchange organizations, you don’t need to change the federation trust. Instead, you just have to configure an organization relationship or sharing policy."
@@ -46,7 +46,7 @@ quiz:
       explanation: "That's correct. Federation refers to the underlying trust infrastructure that supports federated sharing. When you configure federation, you configure a federated trust with the Microsoft Azure AD authentication system."
     - content: "The organization that you want to establish a federated trust with"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't who you configure a federated trust with. Try again."
+      explanation: "That's incorrect. This item isn't who you configure a federated trust with."
     - content: "Exchange Online or Exchange Server 2010 or higher"
       isCorrect: false
-      explanation: "That's incorrect. The organizations that want to enable collaboration with one another must have either of these Exchange environments. You do not establish federated trusts with these Exchange environments. Try again."
+      explanation: "That's incorrect. The organizations that want to enable collaboration with one another must have either of these Exchange environments. You do not establish federated trusts with these Exchange environments."

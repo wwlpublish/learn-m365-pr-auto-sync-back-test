@@ -1,17 +1,17 @@
 To follow regulatory and legal requirements, the features that exist in In-place eDiscovery and eDiscovery cases refer to the same technique of searching through multiple mailboxes, Exchange recipient objects, and even other Microsoft 365 services.
 
- -  **eDiscovery hold.** This feature is available in Microsoft 365 Compliance center and through the Exchange Management Shell. It’s used to search for certain messaging objects, put them on In-place hold, and process them for further use by exporting them.
- -  **eDiscovery case.** This feature is available in the Microsoft 365 Compliance center and serves the same purpose as eDiscovery hold, but with a different web interface. It also provides the ability to search across all Microsoft 365 services in a single, unified search operation.
+ -  **eDiscovery hold.** This feature is available in Microsoft Purview compliance portal and through the Exchange Management Shell. It’s used to search for certain messaging objects, put them on In-place hold, and process them for further use by exporting them.
+ -  **eDiscovery case.** This feature is available in the Microsoft Purview compliance portal and serves the same purpose as eDiscovery hold, but with a different web interface. It also provides the ability to search across all Microsoft 365 services in a single, unified search operation.
 
 > [!NOTE]
-> When creating an eDiscovery case in the Microsoft 365 Compliance center, the searches you create are content searches that are only visible from inside the case you created. You can't see those content searches on the Content search page in the Compliance center.
+> When creating an eDiscovery case in the Microsoft Purview compliance portal, the searches you create are content searches that are only visible from inside the case you created. You can't see those content searches on the Content search page in the Microsoft Purview compliance portal.
 
 ### Differences for eDiscovery in Exchange deployments
 
-When you're working with Exchange Online only or in hybrid deployment, you'll use the more unified eDiscovery search approach and create eDiscovery cases in the Microsoft 365 Compliance Center. This design provides a better search experience by arranging all data in search cases, and search operations can search across all Microsoft 365 services.
+When you're working with Exchange Online only or in hybrid deployment, you'll use the more unified eDiscovery search approach and create eDiscovery cases in the Microsoft Purview compliance portal. This design provides a better search experience by arranging all data in search cases, and search operations can search across all Microsoft 365 services.
 
 > [!CAUTION]
-> Organizations with Exchange Server deployments can still run eDiscovery searches with the **New-MailboxSearch** PowerShell cmdlet. However, this cmdlet is no longer available in Exchange Online. In Exchange Online deployments, you must instead use the **New-ComplianceSearch** and **New-CaseHoldPolicy** cmdlets from the Microsoft 365 Compliance center to create new eDiscovery cases.
+> Organizations with Exchange Server deployments can still run eDiscovery searches with the **New-MailboxSearch** PowerShell cmdlet. However, this cmdlet is no longer available in Exchange Online. In Exchange Online deployments, you must instead use the **New-ComplianceSearch** and **New-CaseHoldPolicy** cmdlets from the Microsoft Purview compliance portal to create new eDiscovery cases.
 
 In a hybrid deployment, some mailboxes exist on the on-premises Exchange Servers, and some mailboxes exist in Exchange Online. An organization with a hybrid deployment can run eDiscovery hold searches on its cloud-based mailboxes using its on-premises EAC. If it intends to copy messages to a discovery mailbox, it must select an on-premises discovery mailbox. Messages from cloud-based mailboxes that are returned in search results are copied to the specified on-premises discovery mailbox.
 
@@ -24,7 +24,7 @@ OAuth authentication supports the following eDiscovery scenarios in an Exchange 
 
 ### How eDiscovery works
 
-In-Place eDiscovery uses the content indexes created by Exchange Search. Role-Based Access Control (RBAC) provides the Discovery Management role group to delegate discovery tasks to non-technical personnel, without the need to provide elevated privileges that may allow a user to make any operational changes to Exchange configuration. Both the EAC for Exchange Server and the Microsoft 365 Compliance center for Exchange Online provide an easy-to-use search interface for non-technical personnel, such as legal and compliance officers, records managers, and human resources (HR) professionals.
+In-Place eDiscovery uses the content indexes created by Exchange Search. Role-Based Access Control (RBAC) provides the Discovery Management role group to delegate discovery tasks to non-technical personnel, without the need to provide elevated privileges that may allow a user to make any operational changes to Exchange configuration. Both the EAC for Exchange Server and the Microsoft Purview compliance portal for Exchange Online provide an easy-to-use search interface for non-technical personnel, such as legal and compliance officers, records managers, and human resources (HR) professionals.
 
 Authorized users can run an eDiscovery search by selecting the mailboxes and then specifying search criteria, such as:
 
@@ -44,10 +44,10 @@ After the search is complete, authorized users can then select one of the follow
 
 For authorized users to run In-Place eDiscovery searches, you must add them to one of the following role groups:
 
- -  In Exchange (core eDiscovery):
+ -  In Exchange:
     
      -  **Discovery Management.** This role group consists of two management roles: The Mailbox Search Role, which allows a user to run an In-Place eDiscovery search, and the Legal Hold Role, which allows a user to place a mailbox on In-Place hold and Litigation hold.
- -  In the Security &amp; Compliance Center (eDiscovery cases):
+ -  In the Microsoft Purview compliance portal:
     
      -  **eDiscovery Manager**. Members of this role group can create and manage eDiscovery cases. For each case, they can:
         
@@ -55,9 +55,9 @@ For authorized users to run In-Place eDiscovery searches, you must add them to o
          -  Place content locations on hold.
          -  Create and edit Content Searches associated with the case.
          -  Export the results of a Content Search.
-         -  Prepare search results for analysis in Advanced eDiscovery.
+         -  Prepare search results for analysis in eDiscovery (Premium).
      -  **eDiscovery Administrator**. This group can complete all case management tasks that an eDiscovery Manager can do. Additionally, an eDiscovery Administrator can access and manage all eDiscovery cases.
-     -  **Reviewer**. This role group has the most restrictive eDiscovery-related permissions. Members of this group can only see and open the list of cases that they're members of in the eDiscovery page of the Microsoft 365 Compliance center. They can't create cases, add members to a case, create holds, create searches, export search results, or prepare results for Advanced eDiscovery. However, members can access cases in Advanced eDiscovery to complete analysis tasks.
+     -  **Reviewer**. This role group has the most restrictive eDiscovery-related permissions. Members of this group can only see and open the list of cases that they're members of in the eDiscovery page of the Microsoft Purview compliance portal. They can't create cases, add members to a case, create holds, create searches, export search results, or prepare results for eDiscovery. However, members can access cases in eDiscovery to complete analysis tasks.
 
 By default, permissions to complete In-place eDiscovery-related tasks aren't assigned to any user or messaging administrator. Messaging administrators who are members of the Organization Management role group can add users to the Discovery Management role group and create custom role groups to narrow the scope of a discovery manager to a subset of users. The reason for this is that in most region, administrators can manage the messaging systems and mailboxes, but they can't access any content inside mailboxes.
 
@@ -110,15 +110,9 @@ To work with eDiscovery hold in your organization, you must first understand its
     The maximum number of mailboxes that can be searched in a single In-Place eDiscovery search that still allows you to view keyword statistics.
   :::column-end:::
   :::column:::
-    
-
-100
-
-
+    100
 > [!NOTE]
 > After you run an eDiscovery search estimate, you can view keyword statistics. These statistics show details about the number of items returned for each keyword used in the search query. If more than 100 source mailboxes are included in the search, an error is returned if you try to view keyword statistics.
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -164,7 +158,3 @@ To work with eDiscovery hold in your organization, you must first understand its
 | Maximum number of case holds for an organization.                                   |  10,000   |
 | Maximum number of mailboxes in a single case hold.                                  |   1,000   |
 | Maximum number of SharePoint and OneDrive for Business sites in a single case hold. |    100    |
-
-## Knowledge check
-
-Choose the best response for the following question. Then select **Check your answers**.
