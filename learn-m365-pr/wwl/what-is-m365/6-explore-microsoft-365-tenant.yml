@@ -4,12 +4,13 @@ title: Explore Microsoft 365 tenant
 metadata:
   title: Explore Microsoft 365 tenant
   description: "Explore Microsoft 365 tenant"
-  ms.date: 02/16/2021
+  ms.date: 04/28/2022
   author: wwlpublish
-  ms.author: dahans
+  ms.author: asglenno
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 5
+labModal: false
+durationInMinutes: 10
 content: |
-  [!include[](includes/3a-explore-m365-tenant.md)]
+  [!include[](includes/6-explore-microsoft-365-tenant.md)]
