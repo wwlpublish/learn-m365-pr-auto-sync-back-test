@@ -22,7 +22,7 @@ Select **Add a domain**, enter the **domain name**, and select whether it should
 
 In the following interactive exercise you will step through configuring federation policies and domain lists.
 
-[Troubleshoot federation issues interactive walkthrough](https://edxinteractivepage.blob.core.windows.net/edxpages/M365%20Troubleshoot/Troubleshoot%20federation%20issues/index.html )
+[Troubleshoot federation issues interactive walkthrough](https://edxinteractivepage.blob.core.windows.net/edxpages/M365_Troubleshoot/Troubleshoot%20federation%20issues/index.html)
 
 ## Guests and external access
 

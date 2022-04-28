@@ -1,1 +1,1 @@
-In this module you learned about making sure your end users are informed about new experiences, features, and functionalities within Windows 10 and Microsoft 365 Apps. You also learned how to drive user adoption with Microsoft-provided training, communication templates, and reporting.
+In this module, you learned about making sure your end users are informed about new experiences, features, and functionalities within Windows 10 and Microsoft 365 Apps. You also learned how to drive user adoption with Microsoft-provided training, communication templates, and reporting.

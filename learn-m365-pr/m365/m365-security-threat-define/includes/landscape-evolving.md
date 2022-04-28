@@ -7,9 +7,11 @@ There's too much to handle:
 - It takes less than 48 hours for attackers to have complete control of a network.
 - 4 million dollars is the average cost of a data breach to a company.
 
-![Intelligence matters](../media/intelligence-matters.png)
+:::image type="complex" source="../media/intelligence-matters.png" alt-text="Infographic that shows where Microsofts cybersecurity data originates." border="false":::
+	Microsoft receives data from over 18 billion Bing webpage scans per month, 450 billion authentications per month, 400 billion emails are scanned for phishing and malware, and over 200 cloud services are monitored for security risks.
+:::image-end:::
 
-Microsoft 365 Defender is an integrated, cross-domain threat detection and response solution. It provides organizations with the ability to prevent, detect, investigate, and remediate sophisticated cross-domain attacks within their Microsoft 365 environments. Microsoft 365 Defender leverages raw signal data from individual service domains - user identity, endpoints, applications, email, and collaboration tools, normalizing the data at the ingestion point. 
+Microsoft 365 Defender is an integrated, cross-domain threat detection and response solution. It provides organizations with the ability to prevent, detect, investigate, and remediate sophisticated cross-domain attacks within their Microsoft 365 environments. Microsoft 365 Defender leverages raw signal data from individual service domains - user identity, endpoints, applications, email, and collaboration tools, normalizing the data at the ingestion point.
 
 The data is analyzed and low-level signals that may otherwise be missed as well as individual alerts are correlated into incidents. This gives a complete view of an attack that can be responded to in its entirety. Powerful workflows and AI autoheal affected assets. Advanced hunting capabilities mean organizations can use their proprietary knowledge to uncover sophisticated breaches and customize their responses. But, Microsoft 365 Defender requires no specific expertise or customization, so defenders can immediately use the integrated console and combined incident views.
 
@@ -31,7 +33,7 @@ Microsoft 365 Defender suite protects:
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4GsNW) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/guides/Protect%20your%20organization%20with%20Microsoft%20365%20Defender">![Protect your organization with Microsoft 365 Defender](../media/protect-organization-microsoft-defender.png)</a>  
+[:::image type="content" source="../media/protect-organization-microsoft-defender.png" alt-text="Photo of a woman at a whiteboard. The title reads protect your organization with Microsoft 3 65 Defender." border="false":::](https://mslearn.cloudguides.com/guides/Protect%20your%20organization%20with%20Microsoft%20365%20Defender)
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.
 
