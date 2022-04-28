@@ -4,12 +4,13 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/29/2021
+  ms.date: 04/28/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/12-knowledge-check.md)]
@@ -20,32 +21,32 @@ quiz:
     choices:
     - content: "Access Control Lists"
       isCorrect: false
-      explanation: "That's incorrect. Preventing data exfiltration is ineffective when a data classification scheme is used in combination with access control lists. Try again."
+      explanation: "Incorrect. Preventing data exfiltration is ineffective when a data classification scheme is used in combination with access control lists."
     - content: "Data loss prevention policies"
       isCorrect: true
-      explanation: "That's correct. The data classification scheme that's based on risk tiers such as high, medium, and low business impact is most effective when used in combination with the Data Loss Prevention feature in Microsoft 365. This technology enables you to configure rules about how to handle data moving in and out of your tenant. It can prevent sensitive document content from being emailed to external parties, and prevent your users from sending social security numbers in email."
+      explanation: "Correct. The data classification scheme that's based on risk tiers such as high, medium, and low business impact is most effective when used in combination with the Data Loss Prevention feature in Microsoft 365. This technology enables you to configure rules about how to handle data moving in and out of your tenant. It can prevent sensitive document content from being emailed to external parties. It can also prevent your users from sending social security numbers in email."
     - content: "External sharing policies"
       isCorrect: false
-      explanation: "That's incorrect. Preventing data exfiltration is ineffective when a data classification scheme is used in combination with external sharing policies. Try again."
+      explanation: "Incorrect. Preventing data exfiltration is ineffective when a data classification scheme is used in combination with external sharing policies."
   - content: "As the Enterprise Administrator for Fabrikam, Inc., Patti Fernandez is focused on educating Fabrikam's users about the effect of spoofing campaigns on the company. Besides whaling and malware delivery, what's another common intention of a spoofing campaign that Patti must educate Fabrikam's users about?"
     choices:
     - content: "Phishing"
       isCorrect: true
-      explanation: "That's correct. Phishing is a technique a hacker uses to retrieve sensitive information such as a user’s account credentials. Once an attacker has obtained a user's credentials, the attacker can forge an email header so the message appears to recipients as having been sent from a trusted source."
+      explanation: "Correct. Phishing is a technique a hacker uses to retrieve sensitive information such as a user’s account credentials. Once an attacker has obtained a user's credentials, the attacker can forge an email header so the message appears to recipients as having been sent from a trusted source."
     - content: "Message deletion"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't a common intention of a spoofing campaign. Try again."
+      explanation: "Incorrect. This item isn't a common intention of a spoofing campaign."
     - content: "Account isolation"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't a common intention of a spoofing campaign. Try again."
+      explanation: "Incorrect. This item isn't a common intention of a spoofing campaign."
   - content: "As the Enterprise Administrator for Tailspin Toys, Allan Deyoung is worried about several recent attempts by hackers to obtain a user’s account credentials by using a password cracking tool. Which of the following strategies can Allan implement to protect against future password cracking attempts?"
     choices:
-    - content: "Enable directory controls against multiple failed sign in attempts"
+    - content: "Enable directory controls against multiple failed sign-in attempts"
       isCorrect: true
-      explanation: "That's correct. You can protect against password cracking attempts by enabling directory controls against multiple failed login attempts, such as disabling the account after three failed attempts."
+      explanation: "Correct. You can protect against password cracking attempts by enabling directory controls against multiple failed sign-in attempts. For example, you can have an account automatically disabled after three failed attempts."
     - content: "Determine a set of risk tiers and then require sites and documents to tag data in your systems with the appropriate classification."
       isCorrect: false
-      explanation: "That's incorrect. This strategy protects against data exfiltration. Try again."
+      explanation: "Incorrect. This strategy protects against data exfiltration."
     - content: "Create external sharing policies in Microsoft 365"
       isCorrect: false
-      explanation: "That's incorrect. This strategy protects against data exfiltration. Try again."
+      explanation: "Incorrect. This strategy protects against data exfiltration."
