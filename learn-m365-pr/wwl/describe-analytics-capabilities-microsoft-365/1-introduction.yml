@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.manage-anti-malware-anti-spam-policies.introduction
+uid: learn.wwl.describe-analytics-capabilities-microsoft-365.introduction
 title: Introduction
 metadata:
   title: Introduction
   description: "Introduction"
   ms.date: 04/28/2022
   author: wwlpublish
-  ms.author: tfrink
+  ms.author: asglenno
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
