@@ -35,10 +35,10 @@ In the Azure portal, sign in to the organization's tenant and navigate to **Azur
 
 On the organization's server, check the list of active services for the connector and the connector updater. If the following services don't immediately start, then turn them on:
 
- -  **Microsoft AAD Application Proxy Connector** enables connectivity.
- -  **Microsoft AAD Application Proxy Connector Updater** is an automated update service. The updater checks for new versions of the connector and updates the connector as needed.
+ -  **Microsoft Azure AD Application Proxy Connector** enables connectivity.
+ -  **Microsoft Azure AD Application Proxy Connector Updater** is an automated update service. The updater checks for new versions of the connector and updates the connector as needed.
 
-**Additional reading.** For information about connectors and how they stay up to date, see [Understand Azure AD Application Proxy connectors](/azure/active-directory/manage-apps/application-proxy-connectors).
+**Additional reading.** For information about connectors and how they stay up to date, see [Understand Azure AD Application Proxy connectors](/azure/active-directory/manage-apps/application-proxy-connectors?azure-portal=true).
 
 ### Maintain connectors
 

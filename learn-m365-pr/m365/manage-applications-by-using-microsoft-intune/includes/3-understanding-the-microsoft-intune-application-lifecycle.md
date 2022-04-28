@@ -1,6 +1,8 @@
 ﻿The Microsoft Intune app lifecycle begins when an app is added and progresses through additional phases until you remove the app. By understanding these phases, you will have the details you need to get started with app management in Intune.
 
-![Diagram showing application lifecycle.](../media/app-lifecycle.png)
+:::image type="complex" source="../media/app-lifecycle.png" alt-text="Diagram showing the Intune application lifecycle." border="false":::
+	The Intune application lifecycle begins with adding an app, deploying the app, configuring the app, protecting the app, and finally retiring the app. The cycle then begins again at adding an app.
+:::image-end:::
 
 ### Add
 
