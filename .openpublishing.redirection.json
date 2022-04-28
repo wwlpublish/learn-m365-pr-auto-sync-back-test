@@ -2464,6 +2464,11 @@
       "source_path": "learn-m365-pr/wwl/what-is-m365/5-summary-resources.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/what-is-m365/8-summary-resources",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-solutions-for-external-access/4-explore-microsoft-365-external-sharing-azure-ad-b2b-collaboration.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-solutions-for-external-access/",
+      "redirect_document_id": false
     }
   ]
 }
