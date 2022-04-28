@@ -4,12 +4,13 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/29/2021
+  ms.date: 04/28/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/6-knowledge-check.md)]
@@ -20,21 +21,21 @@ quiz:
     choices:
     - content: "Implement Data Loss Prevention policies"
       isCorrect: false
-      explanation: "That's incorrect. This action will have more affect on user productivity and take longer to implement. Try again."
-    - content: "Enable Multi-Factor Authentication on all admin accounts"
+      explanation: "Incorrect. This action will have more affect on user productivity and take longer to implement."
+    - content: "Enable multifactor authentication on all admin accounts"
       isCorrect: true
-      explanation: "That's correct. This action will have the lowest affect on user productivity while providing immediate gains."
+      explanation: "Correct. This action will have the lowest affect on user productivity while providing immediate gains."
     - content: "Enable Information Rights Management"
       isCorrect: false
-      explanation: "That's incorrect. This action will have more affect on user productivity and take longer to implement. Try again."
+      explanation: "Incorrect. This action will have more affect on user productivity and take longer to implement."
   - content: "Which of the following statements accurately reflects Secure Score functionality?"
     choices:
     - content: "All improvement actions only give points when fully completed"
       isCorrect: false
-      explanation: "That's incorrect. Some improvement actions only give points when fully completed, and some give partial points if they're completed for certain devices or users. Try again."
+      explanation: "Incorrect. Some improvement actions only give points when fully completed, and some give partial points if they're completed for certain devices or users."
     - content: "The highest ranked improvement actions have a large number of points remaining with high difficulty, user impact, and complexity"
       isCorrect: false
-      explanation: "That's incorrect. The highest ranked improvement actions have a large number of points remaining with low difficulty, user impact, and complexity. Try again."
+      explanation: "Incorrect. The highest ranked improvement actions have a large number of points remaining with low difficulty, user impact, and complexity."
     - content: "Secure Score shouldn't be interpreted as a guarantee against security breach in any manner"
       isCorrect: true
-      explanation: "That's correct. Secure Score isn't an absolute measurement of how likely your system or data will be breached. Rather, it represents the extent to which you have adopted security controls in your Microsoft 365 environment that can help offset the risk of being breached. No online service is immune from security breaches. Secure Score shouldn't be interpreted as a guarantee against security breach in any manner."
+      explanation: "Correct. Secure Score isn't an absolute measurement of how likely your system or data will be breached. Rather, it represents the extent to which you have adopted security controls in your Microsoft 365 environment that can help offset the risk of being breached. No online service is immune from security breaches. Secure Score shouldn't be interpreted as a guarantee against security breach in any manner."

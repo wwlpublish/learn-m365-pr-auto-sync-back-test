@@ -4,12 +4,13 @@ title: Examine the Secure Score Dashboard
 metadata:
   title: Examine the Secure Score Dashboard
   description: "Examine the Secure Score Dashboard"
-  ms.date: 04/29/2021
+  ms.date: 04/28/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 7
 content: |
   [!include[](includes/3-examine-dashboard.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "What the risks might look like"
       isCorrect: true
-      explanation: "That's correct. The Secure Score framework is based in part on a score relative to what the risks might look like."
+      explanation: "Correct. The Secure Score framework is based in part on a score relative to what the risks might look like."
     - content: "The roadmap of recommended actions"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't the third factor upon which the Secure Score framework is built. Try again."
+      explanation: "Incorrect. This item isn't the third factor upon which the Secure Score framework is built."
     - content: "The security recommendations that address possible attack surfaces"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't the third factor upon which the Secure Score framework is built.  Try again."
+      explanation: "Incorrect. This item isn't the third factor upon which the Secure Score framework is built."

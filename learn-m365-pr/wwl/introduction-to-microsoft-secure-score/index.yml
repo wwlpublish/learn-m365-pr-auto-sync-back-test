@@ -1,17 +1,17 @@
 ### YamlMime:Module
 uid: learn.wwl.introduction-to-microsoft-secure-score
 metadata:
-  title: Examine Microsoft Secure Score
-  description: "Examine Microsoft Secure Score"
-  ms.date: 04/29/2021
+  title: Examine Microsoft 365 Defender Secure Score
+  description: "Examine Microsoft 365 Defender Secure Score"
+  ms.date: 04/28/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Examine Microsoft Secure Score
+title: Examine Microsoft 365 Defender Secure Score
 summary: This module examines how Microsoft Secure Score helps organizations understand what they have done to reduce the risk to their data and show them what they can do to further reduce that risk.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Describe the benefits of Secure Score and what kind of services can be analyzed
   - Describe how to collect data using the Secure Score API
   - Describe how to use the tool to identify gaps between your current state and where you would like to be regarding security
@@ -28,7 +28,6 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:
