@@ -2,7 +2,7 @@ If the size of a public folder is getting larger than the mailbox containing it,
 
 You need to consider a few things before moving folders:
 
-- This action only moves the physical contents of the public folder. The command doesn't change the logical hierarchy. 
+- This action only moves the physical contents of the public folder. The command doesn't change the logical hierarchy.
 - You can only make one move request at a time, and that request might take several hours to complete, depending on the size of the contents.
 - Moving a single folder does not move the subfolders it contains.
 
