@@ -25,4 +25,4 @@ After completing this module, you should be able to:
  -  Describe how Microsoft 365 drives productivity and empowers workers.
  -  Describe the differences between Office 365, Microsoft 365, and Windows 365.
  -  Describe the Microsoft 365 subscription options.
- -  Create a Microsoft 365 trial organization.
+ -  Create a Microsoft 365 trial organization. 
