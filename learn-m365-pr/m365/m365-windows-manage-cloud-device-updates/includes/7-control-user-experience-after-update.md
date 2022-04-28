@@ -42,4 +42,4 @@ For the purpose of this demonstration, we'll configure the setting in Local Grou
 
 Click on the image below to get started.
 
-[![Interactive guide](../media/7-interactive-guide.png)](https://edxinteractivepage.blob.core.windows.net/edxpages/cloud-managed-devices-learning-module/Restrict-access-to-Windows-Update-features-through-Group-Policy/index.html)
+[:::image type="content" source="../media/7-interactive-guide.png" alt-text="Interactive guide." border="false":::](https://edxinteractivepage.blob.core.windows.net/edxpages/cloud-managed-devices-learning-module/Restrict-access-to-Windows-Update-features-through-Group-Policy/index.html)
