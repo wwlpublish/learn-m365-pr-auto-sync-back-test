@@ -3,7 +3,7 @@ uid: learn.wwl.manage-your-microsoft-365-tenant
 metadata:
   title: Manage your Microsoft 365 tenant
   description: Manage your Microsoft 365 tenant
-  ms.date: 05/14/2021
+  ms.date: 04/28/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -13,8 +13,7 @@ prerequisites: |
   - Students should have completed a role-based administrator training collection such as Messaging, Teamwork, Security and Compliance, or Collaboration.
   - Students should have a proficient understanding of DNS and basic functional experience with Microsoft 365 services.
   - Students must have a proficient understanding of general IT practices.
-summary: |
-  This learning path provides instruction on how to manage your Microsoft 365 tenant, including administrative roles, tenant health and services, Microsoft 365 Apps for enterprise, Office Telemetry, and Microsoft Analytics.
+summary: ""
 iconUrl: /learn/achievements/manage-your-microsoft-365-tenant.svg
 levels:
 - intermediate
@@ -23,12 +22,13 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 modules:
 - learn.wwl.configure-administrative-roles-microsoft-365
 - learn.wwl.manage-tenant-health-services-microsoft-365
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise
+- learn.wwl.manage-secure-user-access-microsoft-365
+- learn.wwl.analyze-your-microsoft-365-employee-data-use-microsoft-viva-insights
 trophy:
   uid: learn.wwl.manage-your-microsoft-365-tenant.trophy
