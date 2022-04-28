@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-content-search.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/28/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which Microsoft 365 feature can search across all Microsoft 365 services in a single, unified search operation?"
+    choices:
+    - content: "eDiscovery hold"
+      isCorrect: false
+      explanation: "That's incorrect. This feature is available in Microsoft Purview compliance portal and through the Exchange Management Shell. It’s used to search for certain messaging objects, put them on In-place hold, and process them for further use by exporting them."
+    - content: "eDiscovery case"
+      isCorrect: true
+      explanation: "That's correct. This feature is available in theMicrosoft Purview compliance portal and serves the same purpose as eDiscovery hold, but with a different web interface. It also provides the ability to search across all Microsoft 365 services in a single, unified search operation."
+    - content: "Litigation hold"
+      isCorrect: false
+      explanation: "That's incorrect. A Microsoft 365 litigation hold suspends any retention policy or automatic deletion for a given mailbox so that no mailbox content can be removed from the mailbox."
+  - content: "Fabrikam's Sales team has been running content searches on a large number of mailboxes and SharePoint sites. As the Messaging administrator for Fabrikam, Holly Spencer is getting frustrated with the performance of these searches. What can Holly recommend to the Sales team to help them improve the performance of their content searches?"
+    choices:
+    - content: "Buy more powerful computers"
+      isCorrect: false
+      explanation: "That's incorrect. A less expensive solution is available."
+    - content: "Run their searches using PowerShell rather than the Microsoft Purview compliance portal"
+      isCorrect: false
+      explanation: "That's incorrect. The source of the search isn't the issue."
+    - content: "Clone their content searches into multiple, smaller searches"
+      isCorrect: true
+      explanation: "That's correct. Although enhanced by scalability and performance improvements, searching a large number of mailboxes or SharePoint sites when using Content Search may still take a while to complete. Cloning a Content Search can be used to break up a large, single search into multiple, smaller searches that run more quickly."
+  - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung wants to use Content Search to find and remove high-risk email that contains sensitive data. Alan has created and refined a Content Search that returns these messages. What's the next step that Alan must complete?"
+    choices:
+    - content: "Delete the returned messages using the Microsoft 365 Defender portal"
+      isCorrect: false
+      explanation: "That's incorrect. This action isn't the next step that Alan should complete."
+    - content: "Delete the returned messages using the Microsoft Purview compliance portal"
+      isCorrect: false
+      explanation: "That's incorrect. This action isn't the next step that Alan should complete."
+    - content: "Connect to the Microsoft Compliance portal PowerShell and run the New-ComplianceSearchAction cmdlet"
+      isCorrect: true
+      explanation: "That's correct. After you've created and refined a Content Search to return the messages that you want to remove, the final step is to connect to the Microsoft Compliance portal PowerShell and then run the New-ComplianceSearchAction cmdlet to delete the messages. Deleted messages are moved to a user's Recoverable Items folder."

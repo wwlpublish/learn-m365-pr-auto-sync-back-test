@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.describe-productivity-solutions-microsoft-365.describe-how-apps-helps-increase-productivity
+title: Describe how Microsoft 365 Apps helps increase productivity
+metadata:
+  title: Describe how Microsoft 365 Apps helps increase productivity
+  description: "Describe how Microsoft 365 Apps helps increase productivity"
+  ms.date: 04/28/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-describe-how-apps-helps-increase-productivity.md)]

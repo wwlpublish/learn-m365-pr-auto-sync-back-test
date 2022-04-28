@@ -4,7 +4,7 @@ title: Configure retention policies
 metadata:
   title: Configure retention policies
   description: "Configure retention policies"
-  ms.date: 03/09/2022
+  ms.date: 04/27/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -19,12 +19,12 @@ quiz:
   questions:
   - content: "As the Messaging administrator for Contoso, Holly Dickson wants to create retention policies for Exchange Online, SharePoint Online, and Microsoft Teams. Where should Holly create these retention policies?"
     choices:
-    - content: "Microsoft 365 Compliance center"
+    - content: "Microsoft 365 Defender portal"
       isCorrect: false
-      explanation: "That's incorrect. Retention policies can't be created in the Microsoft 365 Compliance center. Try again."
+      explanation: "Incorrect. Retention policies can't be created in the Microsoft 365 Defender portal."
     - content: "Exchange admin center"
       isCorrect: false
-      explanation: "That's incorrect. Retention policies created in the EAC are available in Exchange only. Try again."
-    - content: "Microsoft 365 Defender"
+      explanation: "Incorrect. Retention policies created in the EAC are available in Exchange only."
+    - content: "Microsoft Purview compliance portal"
       isCorrect: true
-      explanation: "That's correct. Retention Policies created in Microsoft 365 Defender are usable across multiple services, such as Exchange Online, SharePoint Online, Teams, and so on. Retention policies created in the EAC are available in Exchange only."
+      explanation: "Correct. Retention Policies created in Microsoft Purview are usable across multiple services, such as Exchange Online, SharePoint Online, Teams, and so on. Retention policies created in the EAC are available in Exchange only."

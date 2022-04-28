@@ -55,4 +55,4 @@ Finally, management scopes created in each forest are also bound by the forest. 
  -  Server scope B can contain only servers that are within Exchange forest B.
  -  The recipient scope in Exchange forest B can only contain mailboxes that are within Exchange forest B.
 
-**Additional reading**. For more information, see [Cross-boundary permissions](/exchange/understanding-multiple-forest-permissions-exchange-2013-help?azure-portal=true).
+**Further reading**. For more information, see [Cross-boundary permissions](/exchange/understanding-multiple-forest-permissions-exchange-2013-help?azure-portal=true).
