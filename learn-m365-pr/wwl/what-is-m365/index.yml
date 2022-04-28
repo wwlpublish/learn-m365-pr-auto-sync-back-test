@@ -26,13 +26,13 @@ roles:
 products:
 - m365
 units:
-- learn-m365.what-is-m365.introduction
+- learn-m365.what-is-m365.2-whats-in-m365
 - learn-m365.what-is-m365.explain-how-microsoft-365-drives-productivity-cloud
-- learn-m365.what-is-m365.describe-how-icrosoft-365-enables-hybrid-flexible-work-strategies
-- learn-m365.what-is-m365.describe-differences-office 365-microsoft-365-windows-365
+- learn-m365.what-is-m365.describe-how-microsoft-365-enables-hybrid-flexible-work-strategies
+- learn-m365.what-is-m365.describe-differences-office-365-microsoft-365-windows-365
 - learn-m365.what-is-m365.explore-microsoft-365-subscription-options
 - learn-m365.what-is-m365.explore-microsoft-365-tenant
-- learn-m365.what-is-m365.knowledge-check
+- learn-m365.what-is-m365.5-summary-and-knowledge-check
 - learn-m365.what-is-m365.summary-resources
 badge:
   uid: learn-m365.what-is-m365.badge
