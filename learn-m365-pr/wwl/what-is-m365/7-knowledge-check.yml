@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/26/2022
+  ms.date: 04/28/2022
   author: wwlpublish
   ms.author: asglenno
   ms.topic: interactive-tutorial
@@ -28,17 +28,17 @@ quiz:
     - content: "A flexible work model that supports a combination of remote, in-office, onsite, and on-the-go workers."
       isCorrect: true
       explanation: "Correct. Hybrid work is a flexible work model that supports a combination of remote, in-office, onsite, and on-the-go workers."
-  - content: "Which role is NOT considered a frontline worker?"
+  - content: "Which role is considered a frontline worker?"
     choices:
     - content: "Web developer for a tech company"
+      isCorrect: false
+      explanation: "Incorrect. A web developer isn't a frontline worker. A frontline worker is defined as those individuals that are in service or task-oriented roles. They're the first to engage customers, the first to see products and services in action, and the first to represent your brand."
+    - content: "Editor for a magazine"
+      isCorrect: false
+      explanation: "Incorrect. An editor isn't a frontline worker. A frontline worker is defined as those individuals that are in service or task-oriented roles. They're the first to engage customers, the first to see products and services in action, and the first to represent your brand."
+    - content: "Sales associate for a grocery store"
       isCorrect: true
-      explanation: "Correct. A web developer isn't a frontline worker. A frontline worker is defined as those individuals that are in service or task-oriented roles. They're the first to engage customers, the first to see products and services in action, and the first to represent your brand."
-    - content: "Machinist at a factory"
-      isCorrect: false
-      explanation: "Incorrect. A machinist is considered a frontline worker. A frontline worker is defined as those individuals that are in service or task-oriented roles. They're the first to engage customers, the first to see products and services in action, and the first to represent your brand."
-    - content: "Sales associate at a grocery store"
-      isCorrect: false
-      explanation: "Incorrect. A sales associate is considered a frontline worker. A frontline worker is defined as those individuals that are in service or task-oriented roles. They're the first to engage customers, the first to see products and services in action, and the first to represent your brand."
+      explanation: "Correct. A sales associate is considered a frontline worker. A frontline worker is defined as those individuals that are in service or task-oriented roles. They're the first to engage customers, the first to see products and services in action, and the first to represent your brand."
   - content: "What is Microsoft 365?"
     choices:
     - content: "A cloud-based subscription service that consists of an integrated portfolio of products like Office apps, Teams, Windows, world-class security, and more."

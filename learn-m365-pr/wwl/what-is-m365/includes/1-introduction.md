@@ -10,7 +10,7 @@ For more information on what is Microsoft 365, see [What is Microsoft 365?](http
 
 ### What is Microsoft 365 Fundamentals?
 
-Microsoft 365 fundamentals is your guide and gateway to everything Microsoft 365. Microsoft 365 fundamentals consist of three learning paths that familiarize you with Microsoft 365 and it's many capabilities through the various products and services. The learning paths will take you step by step through the fundamentals of the Microsoft 365 platform.
+**Microsoft 365 Fundamentals** is your guide and gateway to everything Microsoft 365. Microsoft 365 fundamentals consist of three learning paths that familiarize you with Microsoft 365 and it's many capabilities through the various products and services. The learning paths will take you step by step through the fundamentals of the Microsoft 365 platform.
 
 The following list summarizes the three learning paths:
 
