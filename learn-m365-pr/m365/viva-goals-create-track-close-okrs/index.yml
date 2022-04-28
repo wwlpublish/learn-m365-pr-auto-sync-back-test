@@ -23,9 +23,11 @@ prerequisites: |
   - Access to an instance of Viva Goals
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
-  - beginner
+- beginner
 roles:
-  - admin
+- administrator
+- solutions architect
+- student
 products:
 - m365
 - viva
