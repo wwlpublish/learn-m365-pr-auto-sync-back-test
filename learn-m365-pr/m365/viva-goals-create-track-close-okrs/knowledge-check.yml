@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-goals-create-track-close-okrs.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Learn how to use Viva Goals and understand how it can enable your organization to use OKRs to their full potential.
+  ms.date: 05/01/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure # Edit as appropriate for your portfolio area
+durationInMinutes: 1
+###########################################################################
+###
+### General guidance (https://review.docs.microsoft.com/learn-docs/docs/id-guidance-knowledge-check)
+###  - Questions are complete sentences ending with a question mark
+###  - No true/false questions
+###  - 3 answers per question
+###  - All answers about the same length
+###  - Numeric answers listed in sorted order
+###  - No "All of the above" and/or "None of the above" as answer choices
+###  - No "Not" or "Except" in questions
+###  - No second person ("you") in the questions or answers
+###  - Provide a meaningful explanation for both correct and incorrect answers
+###
+###########################################################################
+content: |
+quiz:
+  questions:
+  - content: "What three elements of the OKR goal-setting framework can you create in Viva Goals?"
+    choices:
+    - content: "Initiatives, Results, Objects"
+      isCorrect: false
+      explanation: "That's incorrect. Think of what elements in Viva Goals correspond to OKRs and Projects/Key Initiatives."
+    - content: "Objectives, Key Results, Projects"
+      isCorrect: true
+      explanation: "That's correct. Objectives, Key Results and Projects are all elements of the OKR framework that can be created in Viva Goals."
+    - content: "Objects, Initials, Projects"
+      isCorrect: false
+      explanation: "That's incorrect. Think of what elements in Viva Goals correspond to OKRs and Projects/Key Initiatives."
+  - content: "What are the three ways to update the progress of your Key Results?"
+    choices:
+    - content: "Manual, Semi-Manual, Automatic"
+      isCorrect: true
+      explanation: "That's correct. Key Results can be updated and tracked on a regular basis by the user in the system (Manual), by utilizing an integrated messaging platform (Semi-Manual), or using an integration with an outside data source (Automatic)."
+    - content: "Manual, Objective, Key Results"
+      isCorrect: false
+      explanation: "That's incorrect. Key Results can be updated and tracked on a regular basis by the user in the system, by utilizing an integrated messaging platform, or using an integration with an outside data source."
+    - content: "Key Results, Projects, Semi-Manual"
+      isCorrect: false
+      explanation: "That's incorrect. Key Results can be updated and tracked on a regular basis by the user in the system, by utilizing an integrated messaging platform, or using an integration with an outside data source."
+  - content: "What should be entered in the Closing Note field when closing an OKR?"
+    choices:
+    - content: "Drafts for your OKRs for the next time period."
+      isCorrect: false
+      explanation: "That's incorrect. Learning from how you think you performed against your OKRs will be critical in writing your future OKRs."
+    - content: "Reflections on how you think you did during the OKR time period that is ending."
+      isCorrect: true
+      explanation: "That's correct. These reflections will be critical in feeding into the process of writing your OKRs for the next time period. They should include comments on why you chose the score that you did, what things went wrong, and what could have been done better to achieve your goal."
+    - content: "Reminders of actions to take."
+      isCorrect: false
+      explanation: "That's incorrect. Learning from how you think you performed against your OKRs will be critical in writing your future OKRs."
+  - content: "What are two of the types of Integrations that can be enabled in Viva Goals?"
+    choices:
+    - content: "Email Integration, Data Integration"
+      isCorrect: false
+      explanation: "That's incorrect. Integrations allow Viva Goals to work seamlessly with outside data sources and make it easy for users to engage with the system."
+    - content: "Email Integration, Telephone Integration"
+      isCorrect: false
+      explanation: "That's incorrect. Integrations allow Viva Goals to work seamlessly with outside data sources and make it easy for users to engage with the system."
+    - content: "Data Integration, Collaboration Integration"
+      isCorrect: true
+      explanation: "That's correct. Data integrations allow your Key Results to be automatically updated. You can also update and receive notifications about your OKRs via a collaboration integration."

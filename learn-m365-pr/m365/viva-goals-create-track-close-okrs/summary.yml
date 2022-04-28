@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-goals-create-track-close-okrs.summary
+title: Summary
+metadata:
+  unitType: summary
+  title: Summary
+  description: Learn how to use Viva Goals and understand how it can enable your organization to use OKRs to their full potential.
+  ms.date: 05/01/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure # Edit as appropriate for your portfolio area
+durationInMinutes: 1
+content: |
+  [!include[](includes/summary.md)]
