@@ -44,4 +44,4 @@ The following list describes how Yammer helps connect leaders and employees to b
  -  In-line video playing and auto-transcription with Microsoft Stream.
  -  Instantly translate messages in 60+ languages.
 
-:::image type="content" source="../media/collaborative-module-yammer-unit-yammer-ebb5dc86.png" alt-text="Image showing a community page for new employees within Yammer.":::
+:::image type="content" source="../media/collaborative-module-yammer-unit-yammer-ebb5dc86.png" alt-text="Screenshot showing a community page for new employees within Yammer.":::
