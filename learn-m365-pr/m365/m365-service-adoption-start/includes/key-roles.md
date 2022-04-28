@@ -1,4 +1,4 @@
-:::image type="content" source="../media/phase-1.png" alt-text="The Start phase" lightbox="../media/phase-1.png" border="false":::
+:::image type="content" source="../media/phase-1.png" alt-text="3 boxes, the first is highlighted and reads Step 1 Startup. The other boxes are grayed out." lightbox="../media/phase-1.png" border="false":::
 
 You're ready to begin your strategy and project plan. You need to quickly deliver some meaningful results as the overall project budget is not yet set. Realizing that talent is your most important asset first assess the internal resources available to help you accomplish your goals. The following skills and roles are essential to a successful project:
 
@@ -20,7 +20,7 @@ You're ready to begin your strategy and project plan. You need to quickly delive
 
 ## Key role - the executive sponsor
 
-:::image type="content" source="../media/exec-sponsors.png" alt-text="Executive sponsor" lightbox="../media/exec-sponsors.png" border="false":::
+:::image type="content" source="../media/exec-sponsors.png" alt-text="A text graphic that discusses how executive sponsors drive success. It reviews the role of the executive sponsor." lightbox="../media/exec-sponsors.png" border="false":::
 
 What we know is that most employees aren't willing to use new technology rolled out by their organization. Having an executive sponsor can help. In transformation projects where the CEO was either fairly or very visible, the project was either very successful or extremely successful. A well-defined set of financial and operational targets lead to an "extremely successful" transformation (as shown in various third-party and Microsoft-based research).
 
@@ -73,7 +73,7 @@ Through FastTrack, community forums, and your other business relationships you c
 
 ## Understanding the change curve
 
-:::image type="content" source="../media/change-curve.png" alt-text="The change curve":::
+:::image type="content" source="../media/change-curve.png" alt-text="A curved line with the different stages of change, from left to right - Denial, Resistance, Exploration, and Commitment.":::
 
 In any change program, it's important to understand the basic change curve that applies to all people. Whether personal or professional this structure applies. This training is focused on professional examples, but think about how change has happened in your own life and how you've responded to it. This helps you have empathy and compassion for those who are more resistant to change than may make you comfortable.
 
