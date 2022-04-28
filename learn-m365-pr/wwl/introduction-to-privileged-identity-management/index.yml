@@ -3,7 +3,7 @@ uid: learn.wwl.introduction-to-privileged-identity-management
 metadata:
   title: Examine Privileged Identity Management
   description: "Examine Privileged Identity Management"
-  ms.date: 04/29/2021
+  ms.date: 04/28/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,7 +11,7 @@ metadata:
 title: Examine Privileged Identity Management
 summary: This module examines how Privileged Identity Management ensures users in your organization have just the right privileges to perform the tasks they need to accomplish.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Describe how Privileged Identity Management enables you to manage, control, and monitor access to important resources in your organization
   - Configure Privileged Identity Management for use in your organization
   - Describe how Privileged Identity Management audit history enables you to see all the user assignments and activations within a given time period for all privileged roles
@@ -28,7 +28,6 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:

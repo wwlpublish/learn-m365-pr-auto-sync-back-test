@@ -4,12 +4,13 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/29/2021
+  ms.date: 04/28/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/7-knowledge-check.md)]
@@ -20,21 +21,21 @@ quiz:
     choices:
     - content: "Azure roles"
       isCorrect: false
-      explanation: "That's incorrect. These roles are linked to an Azure resource, resource group, subscription, or management group. They won't reduce or eliminate standing admin access to privileged roles. Try again."
+      explanation: "Incorrect. These roles are linked to an Azure resource, resource group, subscription, or management group. They won't reduce or eliminate standing admin access to privileged roles."
     - content: "Elevate access to the User Access Administrator role in Azure"
       isCorrect: false
-      explanation: "That's incorrect. This role enables you to view all resources and assign access in any subscription or management group in the directory. It won't reduce or eliminate standing admin access to privileged roles. Try again."
+      explanation: "Incorrect. This role enables you to view all resources and assign access in any subscription or management group in the directory. It won't reduce or eliminate standing admin access to privileged roles."
     - content: "Eligible admins"
       isCorrect: true
-      explanation: "That's correct. Eligible admins are users that need privileged access periodically, but not all-day, every day. The role is inactive until the user needs access. At that point, the user must complete an activation process and become an active admin for a predetermined amount of time. More organizations are choosing to use this approach to reduce or eliminate “standing admin access” to privileged roles."
-  - content: "As the Enterprise Administrator for Fabrikam, Inc., Holly Spencer wants to enable Privileged access Management (PAM). After Holly enables PAM at Fabrikam, its users must request just-in-time access to complete elevated and privileged tasks through an approval workflow that is highly scoped and time-bound. This process gives Fabrikam's users just-enough-access to complete the task at hand, without risking exposure of sensitive data or critical configuration settings. How will this feature benefit Fabrikam?"
+      explanation: "Correct. Eligible admins are users that need privileged access periodically, but not all-day, every day. The role is inactive until the user needs access. At that point, the user must complete an activation process and become an active admin for a predetermined amount of time. More organizations are choosing to use this approach to reduce or eliminate “standing admin access” to privileged roles."
+  - content: "As the Enterprise Administrator for Fabrikam, Inc., Holly Spencer wants to enable Microsoft Purview Privileged Access Management (PAM). After Holly enables PAM at Fabrikam, its users must request just-in-time access to complete elevated and privileged tasks through an approval workflow that is highly scoped and time-bound. This process gives Fabrikam's users just-enough-access to complete the task at hand, without risking exposure of sensitive data or critical configuration settings. How will this feature benefit Fabrikam?"
     choices:
     - content: "It can reduce legacy authentication workflows"
       isCorrect: false
-      explanation: "That's incorrect. This task is a step in preparing for passwordless authentication. Try again."
+      explanation: "Incorrect. This task is a step in preparing for passwordless authentication."
     - content: "It can operate with zero standing privileges"
       isCorrect: true
-      explanation: "That's correct. By enabling PAM in Microsoft 365, organizations can operate with zero standing privileges. This design provides a layer of defense against vulnerabilities arising because of such standing administrative access."
+      explanation: "Correct. By enabling PAM in Microsoft 365, organizations can operate with zero standing privileges. This design provides a layer of defense against vulnerabilities arising because of such standing administrative access."
     - content: "It reduces or eliminates standing admin access to privileged roles"
       isCorrect: false
-      explanation: "That's incorrect. This feature applies to eligible admins, which are users that need privileged access periodically, but not all-day, every day. Try again."
+      explanation: "Incorrect. This feature applies to eligible admins, which are users that need privileged access periodically, but not all-day, every day."
