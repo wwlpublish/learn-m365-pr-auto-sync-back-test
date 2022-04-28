@@ -4,7 +4,7 @@ Now that you've created public folder mailboxes for the organization, you can st
 
 1. Log in to the Exchange admin center and from the navigation menu on the left, select **public folders**.
 
-   ![Select public folders](../media/select-public-folders.png)
+   :::image type="content" source="../media/select-public-folders.png" alt-text="Screenshot of the public folders page in the Exchange admin center with the create new folder plus sign highlighted." lightbox="../media/select-public-folders.png" border="false":::
 
 2. To create a new public folder, select **+**.
 3. In the opened public folder window, enter the name for your public folder.
@@ -12,14 +12,14 @@ Now that you've created public folder mailboxes for the organization, you can st
 
    The new public folder appears highlighted in the Exchange admin center.
 
-   ![Create a new public folder](../media/create-new-public-folder.png)
+   :::image type="content" source="../media/create-new-public-folder.png" alt-text="Screenshot of the public folder page with the information pane open showing that the mail settings are currently disabled. The Enable button is highlighted." lightbox="../media/create-new-public-folder.png" border="false":::
 
    In the information pane on the right, Mail settings is disabled.
 
 5. Select the **Enable** link underneath.
 6. In the Warning dialog, select **Yes**.
 
-   ![Warning dialog to enable email](../media/warning-dialog.png)
+   :::image type="content" source="../media/warning-dialog.png" alt-text="Screenshot of the warning dialog box that says are you sure you want to enable e mail for the selected public folders?." lightbox="../media/warning-dialog.png" border="false":::
 
 The default email address created for public folders is in the format **folder name @ organization URL**.
 
@@ -30,7 +30,7 @@ You can add additional email addresses or change the associated email. Now that 
 1. Select the **pencil** icon to edit the properties of the General public folder.
 2. In the public folder window on the left navigation menu, select **email address**.
 
-   ![Edit public folder email address](../media/edit-email-address.png)
+   :::image type="content" source="../media/edit-email-address.png" alt-text="Screenshot of the e mail address page in the General public folder in Exchange. An e mail address is selected." lightbox="../media/edit-email-address.png" border="false":::
 
 Note that there's an existing SMTP email address. On this pane you can add additional email addresses, and edit or remove existing email addresses.
 
@@ -66,7 +66,7 @@ You control how mail is sent and received for the mail-enabled folders. The opti
 2. Select the public folder you'd like to change the settings for, then select the **pencil** icon.
 3. In the public folder window in the navigation on the left, select **delivery options**.
 
-   ![Change public folder settings](../media/change-public-folder-settings.png)
+   :::image type="content" source="../media/change-public-folder-settings.png" alt-text="Screenshot of the delivery options page in Exchange. It has two permission lists: Send As and Send on Behalf." lightbox="../media/change-public-folder-settings.png" border="false":::
 
 On this pane, you can add users to enable them to **Send As**, **Send on Behalf**, or choose users to have emails forwarded to.
 
@@ -105,7 +105,8 @@ General              Anonymous            {CreateItems}
 
 In Outlook, you'll need to use an account that has Owner permissions on the public folder. Using that account, you can change the properties of the folder, and add the **Anonymous** account to grant it **Create items** permission.
 
-![In Outlook enable outside emails](../media/outlook-enable-outside-emails.png)
+> [!div class="centered"]
+> :::image type="content" source="../media/outlook-enable-outside-emails.png" alt-text="Screenshot of the permissions tab in Outlook with Read set to None, Delete items set to None, and Write set to Create items." border="false":::
 
 ## Learn more
 

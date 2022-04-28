@@ -1,0 +1,63 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.describe-endpoint-modernization-management-concepts-deployment-options.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/27/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following statements is correct?"
+    choices:
+    - content: "Configuration Manager manages both on-premises infrastructure and cloud-based functions."
+      isCorrect: false
+      explanation: "Incorrect. Configuration Manager manages on-premises infrastructure and Intune manages cloud-based functions."
+    - content: "Windows autopilot is the new method for infrastructure management for both on-premises and cloud-based scenarios."
+      isCorrect: false
+      explanation: "Incorrect. Configuration Manager manages on-premises infrastructure and Intune manages cloud-based functions."
+    - content: "Configuration Manager manages on-premises infrastructure and Intune manages cloud-based functions."
+      isCorrect: true
+      explanation: "Correct. Configuration Manager manages on-premises infrastructure and Intune manages cloud-based functions."
+  - content: "Windows 365 and Azure Virtual desktop are both what type of service?"
+    choices:
+    - content: "Desktop-as-a-Service"
+      isCorrect: true
+      explanation: "Correct. Windows 365 and Azure Virtual Desktop are both virtual desktop solutions, also known as Desktop-as-a-Service."
+    - content: "On-premises service"
+      isCorrect: false
+      explanation: "Incorrect. Windows 365 and Azure Virtual Desktop are both virtual desktop solutions, also known as Desktop-as-a-Service."
+    - content: "Windows-as-a-Service"
+      isCorrect: false
+      explanation: "Incorrect. Windows 365 and Azure Virtual Desktop are both virtual desktop solutions, also known as Desktop-as-a-Service."
+  - content: "What is Windows-as-a-Service?"
+    choices:
+    - content: "The ability to run Windows as a virtual desktop."
+      isCorrect: false
+      explanation: "Incorrect. Windows-as-a-Service is a new model for Windows. It provides more frequent updates, for example semi-annually, instead of installing a major new release every few years."
+    - content: "Windows with regular feature updates."
+      isCorrect: true
+      explanation: "Correct. Windows-as-a-Service is a new model for Windows. Instead of a major release every three or four years, features are released more frequently, such as semi-annually."
+    - content: "Windows mobile."
+      isCorrect: false
+      explanation: "Incorrect. Windows-as-a-Service is the new model for Windows. Instead of a major release every three or four years, features are released more frequently, such as semi-annually."
+  - content: "If you require frequent feature updates for Microsoft 365 Apps on a predictable release schedule, which update channel is best?"
+    choices:
+    - content: "Current Channel"
+      isCorrect: false
+      explanation: "Incorrect. Current Channel receives feature updates at least once a month, but there's no set schedule for when those updates are released."
+    - content: "Monthly Enterprise Channel"
+      isCorrect: true
+      explanation: "Correct. Monthly Enterprise Channel receives feature updates once a month, on the second Tuesday of the month."
+    - content: "Semi-Annual Enterprise Channel"
+      isCorrect: false
+      explanation: "Incorrect. Semi-Annual Enterprise Channel receives feature updates every six months, in January and July on the second Tuesday of the month."
