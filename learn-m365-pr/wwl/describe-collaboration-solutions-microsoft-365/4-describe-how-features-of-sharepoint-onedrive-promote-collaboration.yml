@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.describe-collaboration-solutions-microsoft-365.describe-how-features-of-sharepoint-onedrive-promote-collaboration
+title: Describe how the features of SharePoint and OneDrive promote collaboration
+metadata:
+  title: Describe how the features of SharePoint and OneDrive promote collaboration
+  description: "Describe how the features of SharePoint and OneDrive promote collaboration"
+  ms.date: 04/28/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-describe-how-features-of-sharepoint-onedrive-promote-collaboration.md)]
