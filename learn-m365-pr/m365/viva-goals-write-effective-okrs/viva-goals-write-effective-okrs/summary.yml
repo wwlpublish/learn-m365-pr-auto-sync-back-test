@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.viva-goals-write-effective-okrs.summary
+title: Summary
+metadata:
+  unitType: summary
+  title: Summary
+  description: Learn the necessary elements for writing compelling OKRs by learning how to define, write, and edit your OKRs with the aid of a framework.
+  ms.date: 04/28/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/summary.md)]
