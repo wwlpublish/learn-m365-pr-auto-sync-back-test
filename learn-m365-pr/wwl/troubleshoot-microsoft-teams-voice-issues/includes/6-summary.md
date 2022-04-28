@@ -22,7 +22,7 @@ For more information about the topics discussed in this module, see:
 - [Teams voice Contoso case study](/microsoftteams/voice-case-study-emergency-calling)
 - [Plan Direct Routing](/microsoftteams/direct-routing-plan) 
 - [Dial pad in missing in Teams](/microsoftteams/troubleshoot/teams-conferencing/no-dial-pad)
-- [PowerShell cmdlets to add ports, switches, subnets, and WAPs to the LIS](https://docs.microsoft.com/MicrosoftTeams/configure-dynamic-emergency-calling#using-powershell)
+- [PowerShell cmdlets to add ports, switches, subnets, and WAPs to the LIS](/MicrosoftTeams/configure-dynamic-emergency-calling#using-powershell)
 - [Monitor and troubleshoot Direct Routing](/microsoftteams/direct-routing-monitor-and-troubleshoot)
 - [.NET Regular Expressions](/dotnet/standard/base-types/regular-expressions)
 - [Set up Audio Conferencing for Microsoft Teams](/microsoftteams/set-up-audio-conferencing-in-teams)

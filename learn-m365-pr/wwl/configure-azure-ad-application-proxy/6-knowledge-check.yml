@@ -4,12 +4,13 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 07/12/2021
+  ms.date: 04/27/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/6-knowledge-check.md)]
@@ -20,32 +21,32 @@ quiz:
     choices:
     - content: "Kerberos Constrained Delegation"
       isCorrect: false
-      explanation: "That's incorrect. If an application uses Integrated Windows Authentication, Application Proxy provides single sign-on to the app by impersonating the user using Kerberos Constrained Delegation. Kerberos Constrained Delegation isn't the lightweight agent that supports outbound connect to the Application Proxy. Try again."
+      explanation: "Incorrect. If an application uses Integrated Windows Authentication, Application Proxy provides single sign-on to the app by impersonating the user using Kerberos Constrained Delegation. Kerberos Constrained Delegation isn't the lightweight agent that supports outbound connect to the Application Proxy."
     - content: "Connector"
       isCorrect: true
-      explanation: "That's correct. The connector is a lightweight agent that sits on a Windows Server inside your network. The connector controls the traffic flow from the Application Proxy service in the cloud to your application on-premises. It only uses outbound connections, so you don't have to open any inbound ports or put anything in the perimeter network."
+      explanation: "Correct. The connector is a lightweight agent that sits on a Windows Server inside your network. The connector controls the traffic flow from the Application Proxy service in the cloud to your application on-premises. It only uses outbound connections, so you don't have to open any inbound ports or put anything in the perimeter network."
     - content: "External endpoint"
       isCorrect: false
-      explanation: "That's incorrect. An external endpoint is how your users reach your applications while outside of your network. Try again."
+      explanation: "Incorrect. An external endpoint is how your users reach your applications while outside of your network."
   - content: "As the Enterprise Administrator for Adventure Works Cycles, Holly Spencer wants to publish on-premises applications for remote access by Adventure Works' customers and partners. Because Adventure Works has a large deployment, Holly wants to improve latency for tenants that have applications hosted in different regions. Which of the following items is required when publishing on-premises applications for remote access that will achieve this goal?"
     choices:
     - content: "DNS TXT file"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't required to publish on-premises applications for remote access. Try again."
+      explanation: "Incorrect. This item isn't required to publish on-premises applications for remote access."
     - content: "Short Backend Application Timeout"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't required to publish on-premises applications for remote access.   Try again."
+      explanation: "Incorrect. This item isn't required to publish on-premises applications for remote access."
     - content: "Location-based connector groups"
       isCorrect: true
-      explanation: "That's correct. Connector groups make it easier to manage large deployments. Because location-based connector groups can be created to serve only local applications, they can improve latency for tenants that have applications hosted in different regions."
-  - content: "As the Enterprise Administrator for Northwind Traders, Allan Deyoung has implemented Azure AD Application Proxy. Doing so enables Northwind to support remote workers by publishing on-premises applications to be accessed over the internet. Allan has organized Northwind's connectors into connector groups, with each group handling traffic to specific applications. To optimize Northwind's network structure, Allan also wants to implement load-balancing. What should Allan do next to load-balance this traffic to specific applications?"
+      explanation: "Correct. Connector groups make it easier to manage large deployments. Because location-based connector groups can be created to serve only local applications, they can improve latency for tenants that have applications hosted in different regions."
+  - content: "As the Enterprise Administrator for Northwind Traders, Alan Deyoung has implemented Azure AD Application Proxy. Doing so enables Northwind to support remote workers by publishing on-premises applications to be accessed over the internet. Alan has organized Northwind's connectors into connector groups, with each group handling traffic to specific applications. To optimize Northwind's network structure, Alan also wants to implement load-balancing. What should Alan do next to load-balance this traffic to specific applications?"
     choices:
-    - content: "Allan should deploy at least two connectors"
+    - content: "Alan should deploy at least two connectors"
       isCorrect: false
-      explanation: "That's incorrect. Deploying at least two connectors helps support high availability. Try again."
-    - content: "Allan should verify the Microsoft AAD Application Proxy Connector service is running"
+      explanation: "Incorrect. Deploying at least two connectors helps support high availability."
+    - content: "Alan should verify the Microsoft Azure AD Application Proxy Connector service is running"
       isCorrect: false
-      explanation: "That's incorrect. This service enables connectivity but does not impact load-balancing. Try again."
-    - content: "There's nothing else that Allan must do"
+      explanation: "Incorrect. This service enables connectivity but does not impact load-balancing."
+    - content: "There's nothing else that Alan must do"
       isCorrect: true
-      explanation: "That's correct. No more steps are required because connectors load-balance automatically."
+      explanation: "correct. No more steps are required because connectors load-balance automatically."

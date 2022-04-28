@@ -1,4 +1,4 @@
-![Technological shifts for defenders](../media/defender-shift.png)
+:::image type="content" source="../media/defender-shift.png" alt-text="Technological shifts for defenders." border="false":::
 
 Microsoft Defender for Office 365  includes best-of-class threat investigation and response tools that enable your organization's security team to anticipate, understand, and prevent malicious attacks.
 

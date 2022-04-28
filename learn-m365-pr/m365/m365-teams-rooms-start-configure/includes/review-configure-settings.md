@@ -10,7 +10,7 @@ The initial screen is About, which shows the app version, the Windows version, t
 
 The Account and Advanced screens are the same as what is shown during the out-of-box experience.
 
-![The Settings > About, Account, and Advanced screens](../media/settings-about.png)
+:::image type="content" source="../media/settings-about.png" alt-text="The Settings > About, Account, and Advanced screens." border="false":::
 
 ### The Meetings screen
 
@@ -25,7 +25,7 @@ In Meetings, you have a few options to consider.
   - Delete Comments: False
   - Delete Subject: False
 
-   ![Settings > Meetings screen](../media/settings-meetings.png)
+   :::image type="content" source="../media/settings-meetings.png" alt-text="Settings > Meetings screen." border="false":::
 
    You can set these values via Exchange Online PowerShell with the following command:
 
@@ -44,13 +44,13 @@ The Device screen lets you set a few hardware options.
 - **Automatically accept proximity-based meeting invitations** means Teams Rooms will automatically join the meeting if it was invited via Proximity Join. If you disable this, you'll have to hit a button on the console to manually join the meeting.
 - **Send logs with feedback** allows you to send logs from the device to your Teams Rooms administrators. When in a meeting, there is a feedback button on the console. In-room attendees can select that feedback button and report any issues they encountered. That feedback, along with system logs, will then be forwarded to the e-mail address listed here.
 
-   ![The Settings > Devices screen](../media/settings-device.png)
+   :::image type="content" source="../media/settings-device.png" alt-text="The Settings > Devices screen." border="false":::
 
 ### The Coordinated meetings screen
 
 Coordinated meeting join is a unique feature of Teams Rooms and Surface Hub. Suppose you have a meeting room that has both Teams Rooms and Surface Hub in it. You can configure it so that when Teams Rooms joins a meeting, Surface Hub will automatically join that meeting. You can configure which device to use for microphone, camera, and whiteboarding. Generally, you would use Teams Rooms for audio and camera as those should be the superior audio/visual devices. Similarly, the Surface Hub would be the default device for whiteboarding. You can also use coordinated join to automatically invite another Teams Room.
 
-![The Settings > Coordinated meetings screen](../media/coordinated-meetings.png)
+:::image type="content" source="../media/coordinated-meetings.png" alt-text="The Settings > Coordinated meetings screen." border="false":::
 
 ### The Peripherals screen
 
@@ -64,13 +64,13 @@ The Content Camera option lets you select which camera you'll use for this featu
 
 The Content enhancements option is used to enable the content camera to maximize the view of analog Microsoft Whiteboards by framing the board and turning the person diagramming at the analog whiteboard transparent. Disabling this option returns the camera to its basic operation of just showing the analog whiteboard without added intelligence.
 
-![The Settings > Peripherals screen](../media/peripherals.png)
+:::image type="content" source="../media/peripherals.png" alt-text="The Settings > Peripherals screen." border="false":::
 
 ### Select a theme
 
 Teams Rooms ships with pre-installed themes. In this area, you have the chance to change the themes from the default setting to a new one. In this example, Pixel Perfect has been selected as the theme.
 
-![The Settings > Themes screen](../media/themes.png)
+:::image type="content" source="../media/themes.png" alt-text="The Settings > Themes screen." border="false":::
 
 ## Learn more
 

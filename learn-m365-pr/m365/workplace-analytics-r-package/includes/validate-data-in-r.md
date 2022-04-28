@@ -28,7 +28,7 @@ check_query(sq_data)
 
 The resulting output gives you a summary of the data, as shown in the following example:
 
-![Check query output](../media/check-query.png)
+:::image type="content" source="../media/check-query.png" alt-text="Check query output." border="false":::
 
 The following functions are helpful for initially exploring your data (the examples use the `sq_data` person query output):
 
@@ -92,7 +92,7 @@ The `hrvar_count()` function counts the distinct people by the specified HR attr
 hrvar_count(sq_data, hrvar = "LevelDesignation")
 ```
 
-![hrvar output](../media/hrvar-count.png)
+:::image type="content" source="../media/hrvar-count.png" alt-text="Hrvar output." border="false":::
 
 To run a blanket analysis for all the organizational attributes in the dataset, you can run `hrvar_count_all()` instead.
 
