@@ -4,12 +4,13 @@ title: Adopt a Zero Trust approach
 metadata:
   title: Adopt a Zero Trust approach
   description: "Adopt a Zero Trust approach"
-  ms.date: 07/05/2021
+  ms.date: 04/28/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/5-adopt-zero-trust-approach.md)]

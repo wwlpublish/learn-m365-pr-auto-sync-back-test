@@ -4,7 +4,7 @@ Instead of assuming everything behind the corporate firewall is safe, the Zero T
 
 The underlying principles that provide the foundation of the Zero Trust model include:
 
- -  **Verify explicitly.** Always authenticate and authorize based on all available data points, including user identity, location, device health, service or workload, data classification, and anomalies.
+ -  **Verify explicitly.** Always authenticate and authorize based on all available data points. For example, user identity, location, device health, service or workload, data classification, and anomalies.
  -  **Use least privileged access.** Limit user access with just-in-time (JIT) and just-enough-access (JEA), risk-based adaptive policies, and data protection to help secure both data and productivity.
  -  **Assume breach.** Minimize blast radius for breaches and prevent lateral movement by segmenting access by network, user, devices, and app awareness. Verify all sessions are encrypted from start to finish. Use analytics to get visibility and drive threat detection and improve defenses.
 
@@ -16,8 +16,8 @@ The Zero Trust model consists of the following primary components:
  -  **Devices.** Gain visibility into devices accessing the network. Ensure compliance and health status before granting access.
  -  **Applications.** Discover shadow IT applications, ensure appropriate in-app permissions and gate access based on real-time analytics, and monitor and control user actions.
  -  **Data.** Move from perimeter-based data protection to data-driven protection. Use intelligence to classify and label data. Encrypt and restrict access based on organizational policies.
- -  **Infrastructure.** Use telemetry to detect attacks and anomalies, automatically block and flag risky behavior, and employ least privilege access principles.
- -  **Network.** Ensure devices and users are not trusted just because they are on an internal network. Encrypt all internal communications, limit access by policy, and employ microsegmentation and real-time threat detection.
+ -  **Infrastructure.** Collect measurements and other types of data remotely. Use this information to detect attacks and anomalies, automatically block and flag risky behavior, and employ least privilege access principles.
+ -  **Network.** Ensure devices and users aren't trusted just because they are on an internal network. Encrypt all internal communications, limit access by policy, and employ microsegmentation and real-time threat detection.
 
 :::image type="content" source="../media/zero-trust-architecture-c4c77942.png" alt-text="Diagram showing a Zero Trust architecture":::
 <br>
