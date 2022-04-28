@@ -2419,6 +2419,21 @@
       "source_path": "learn-m365-pr/wwl/manage-mobile-device-access/8-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-messaging-environment/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-content-search/5-manage-advanced-ediscovery.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-content-search/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-content-search/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-content-search/5-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-content-search/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-content-search/6-summary",
+      "redirect_document_id": true
     }
   ]
 }
