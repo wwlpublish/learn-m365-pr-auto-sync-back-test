@@ -4,7 +4,7 @@ metadata:
   moduleType: standard
   title: viva-goals-create-track-close-okrs
   description: Learn how to use Viva Goals and understand how it can enable your organization to use OKRs to their full potential.
-  ms.date: 05/01/2022
+  ms.date: 04/28/2022
   author: rasanders
   ms.author: rasanders
   ms.topic: interactive-tutorial
@@ -27,8 +27,8 @@ levels:
 roles:
   - admin
 products:
-- M365
-- Viva
+- m365
+- viva
 units:
 - learn-m365.viva-goals-create-track-close-okrs.introduction
 - learn-m365.viva-goals-create-track-close-okrs.navigating-viva-goals
