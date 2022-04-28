@@ -8,7 +8,7 @@ After you have set up and configured the Topic center, you can change the name i
 1. On the Services tab, click Topic experiences.
 1. Select the Topic center tab. See the following sections for information about each setting.
 
-![Screenshot of the Topic center.](../media/topic-experiences.png)
+    :::image type="content" source="../media/topic-experiences.png" alt-text="Screenshot of the Microsoft 3 65 admin center. The org settings page is open with the Topic Experiences tab selected." border="false":::
 
 Update your topic center name
 
@@ -18,4 +18,4 @@ Update your topic center name
 1. On the Edit topic center name page, in the Topic center name box, type the new name for your topic center.
 1. Select Save.
 
- ![Screenshot showing the confirmation scree.](../media/edit-topic-name.png)
+    :::image type="content" source="../media/edit-topic-name.png" alt-text="Modal window for editing the topic center name." border="false":::
