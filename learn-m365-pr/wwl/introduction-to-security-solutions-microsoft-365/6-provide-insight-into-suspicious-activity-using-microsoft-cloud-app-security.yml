@@ -4,12 +4,13 @@ title: Provide insight into suspicious activity using Microsoft Cloud App Securi
 metadata:
   title: Provide insight into suspicious activity using Microsoft Cloud App Security
   description: "Provide insight into suspicious activity using Microsoft Cloud App Security"
-  ms.date: 04/28/2021
+  ms.date: 04/28/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/6-provide-insight-into-suspicious-activity-using-microsoft-cloud-app-security.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Cloud Discovery"
       isCorrect: true
-      explanation: "That's correct. Cloud App Security integrates visibility with your cloud by using Cloud Discovery to map and identify your cloud environment and the cloud apps your organization is using."
+      explanation: "Correct. Cloud App Security integrates visibility with your cloud by using Cloud Discovery to map and identify your cloud environment and the cloud apps your organization is using."
     - content: "Conditional Access App Control"
       isCorrect: false
-      explanation: "That's incorrect. This feature isn't what Cloud App Security uses to map and identify your cloud environment and the cloud apps your organization is using. Try again."
+      explanation: "Incorrect. This feature isn't what Cloud App Security uses to map and identify your cloud environment and the cloud apps your organization is using."
     - content: "App Connectors"
       isCorrect: false
-      explanation: "That's incorrect. This feature isn't what Cloud App Security uses to map and identify your cloud environment and the cloud apps your organization is using. Try again."
+      explanation: "Incorrect. This feature isn't what Cloud App Security uses to map and identify your cloud environment and the cloud apps your organization is using."
