@@ -2464,6 +2464,16 @@
       "source_path": "learn-m365-pr/wwl/what-is-m365/5-summary-resources.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/what-is-m365/8-summary-resources",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-authentication-for-messaging/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-authentication-for-messaging/7-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-authentication-for-messaging/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-authentication-for-messaging/8-summary",
+      "redirect_document_id": true
     }
   ]
 }
