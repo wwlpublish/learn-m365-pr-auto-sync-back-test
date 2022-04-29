@@ -2514,6 +2514,11 @@
       "source_path": "learn-m365-pr/wwl/implement-applications-azure-ad/7-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/implement-applications-azure-ad/9-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-solutions-for-external-access/4-explore-microsoft-365-external-sharing-azure-ad-b2b-collaboration.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-solutions-for-external-access/",
+      "redirect_document_id": false
     }
   ]
 }

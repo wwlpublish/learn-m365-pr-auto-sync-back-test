@@ -4,12 +4,13 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 07/12/2021
+  ms.date: 04/29/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/7-knowledge-check.md)]
@@ -20,32 +21,32 @@ quiz:
     choices:
     - content: "A Contoso admin with User Management permissions must create a Microsoft 365 account for the guest user"
       isCorrect: false
-      explanation: "That's incorrect. A Contoso admin with User Management permissions does not have to create a Microsoft 365 account for the guest user. Try again."
+      explanation: "Incorrect. A Contoso admin with User Management permissions doesn't have to create a Microsoft 365 account for the guest user."
     - content: "An account is created for the guest user when they redeem their invitation"
       isCorrect: true
-      explanation: "That's correct. If the guest user doesn't have a Microsoft account or an Azure AD account, one is created for them when they redeem their invitation."
+      explanation: "Correct. If the guest user doesn't have a Microsoft account or an Azure AD account, one is created for them when they redeem their invitation."
     - content: "Contoso must manage the external account and password of the guest user"
       isCorrect: false
-      explanation: "That's incorrect. With Azure AD B2B, there's no external administrative overhead required by your organization. Try again."
+      explanation: "Incorrect. With Azure AD B2B, there's no external administrative overhead required by your organization."
   - content: "Microsoft Teams enables communication and collaboration with people outside of an organization. Which of the following methods is a way in which Teams can make that happen?"
     choices:
     - content: "External access (federation)"
       isCorrect: true
-      explanation: "That's correct. Teams provides two different ways to enable communication and collaboration with people outside your organization - external access (federation) and guest access."
+      explanation: "Correct. Teams provides two different ways to enable communication and collaboration with people outside your organization - external access (federation) and guest access."
     - content: "Kerberos authentication"
       isCorrect: false
-      explanation: "That's incorrect. Kerberos authentication isn't a way in which Teams enables communication and collaboration with people outside your organization. Try again."
+      explanation: "Incorrect. Kerberos authentication isn't a way in which Teams enables communication and collaboration with people outside your organization."
     - content: "OAuth 2.0 authentication"
       isCorrect: false
-      explanation: "That's incorrect. The Consent Framework is built on OAuth 2.0 authentication. It's not a way in which Teams enables communication and collaboration with people outside your organization. Try again."
+      explanation: "Incorrect. The Consent Framework is built on OAuth 2.0 authentication. It's not a way in which Teams enables communication and collaboration with people outside your organization."
   - content: "As the Enterprise Administrator for Northwind Traders, Patti Fernandez is concerned about data security when requesting support from Microsoft. If Patti needs a Microsoft support engineer to help troubleshoot and fix an issue, the engineer will have unlimited access to Northwind's data. What can Patti do to control the support engineer's access to Northwind's data?"
     choices:
     - content: "Create a DLP policy that provides limited access to the support engineer once a support case is opened"
       isCorrect: false
-      explanation: "That's incorrect. That's not what you should do to control the support engineer's access to your data. Try again."
-    - content: "Require the support engineer submit a customer lockbox request"
+      explanation: "Incorrect. This action isn't how you control the support engineer's access to your data."
+    - content: "Require the support engineer submit a Customer Lockbox request"
       isCorrect: true
-      explanation: "That's correct. Customer lockbox requests enable you to control whether to give the support engineer access to your data for a specified period of time."
+      explanation: "Correct. Customer Lockbox requests enable you to control whether to give the support engineer access to your data for a specified period of time."
     - content: "Give the support engineer remote access to Patti's computer so that Patti can monitor every action the engineer takes"
       isCorrect: false
-      explanation: "That's incorrect. That's not what you should do to control the support engineer's access to your data.  Try again."
+      explanation: "Incorrect. This action isn't how you control the support engineer's access to your data."

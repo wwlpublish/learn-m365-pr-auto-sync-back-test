@@ -4,12 +4,13 @@ title: Compare external access and guest access in Microsoft Teams
 metadata:
   title: Compare external access and guest access in Microsoft Teams
   description: "Compare external access and guest access in Microsoft Teams"
-  ms.date: 07/12/2021
+  ms.date: 04/29/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 6
+labModal: false
+durationInMinutes: 4
 content: |
   [!include[](includes/5-compare-guest-access-microsoft-teams.md)]
