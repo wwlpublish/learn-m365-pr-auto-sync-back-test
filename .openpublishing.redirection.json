@@ -2474,6 +2474,16 @@
       "source_path": "learn-m365-pr/wwl/manage-authentication-for-messaging/7-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/manage-authentication-for-messaging/8-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-threat-protection-microsoft-365-defender/8-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-threat-protection-microsoft-365-defender/10-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-threat-protection-microsoft-365-defender/9-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-threat-protection-microsoft-365-defender/11-summary",
+      "redirect_document_id": true
     }
   ]
 }
