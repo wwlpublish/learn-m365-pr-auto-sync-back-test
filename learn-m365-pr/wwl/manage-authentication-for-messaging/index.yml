@@ -17,7 +17,8 @@ abstract: |
   *   Implement multifactor authentication.
   *   Plan password policies.
   *   Configure modern authentication in Exchange Online.
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/messaging-manage-authentication.svg
 levels:
 - intermediate

@@ -74,12 +74,12 @@ Using Exchange Online PowerShell:
 1.  Connect to Exchange Online PowerShell.
 2.  Do one of these steps:
     
-     -  Run the following command to enable modern authentication connections to Exchange Online by Outlook 2013 or later clients:<br>
+     -  Run the following command to enable modern authentication connections to Exchange Online by Outlook 2013 or later clients:
         
         ```powershell
         Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
         ```
-     -  Run the following command to prevent modern authentication connections (force the use of basic authentication connections) to Exchange Online by Outlook 2013 or later clients:<br>
+     -  Run the following command to prevent modern authentication connections (force the use of basic authentication connections) to Exchange Online by Outlook 2013 or later clients:
         
         ```powershell
         Set-OrganizationConfig -OAuth2ClientProfileEnabled $false
