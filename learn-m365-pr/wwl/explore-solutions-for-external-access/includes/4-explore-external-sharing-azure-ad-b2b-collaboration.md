@@ -1,6 +1,6 @@
 Azure Active Directory (Azure AD) B2B collaboration is a feature within External Identities that lets you invite guest users to collaborate with your organization. With B2B collaboration, you can securely share your company's applications and services with guest users from any other organization, while maintaining control over your own corporate data. Work safely and securely with external partners, large or small, even if they don't have Azure AD or an IT department.
 
-:::image type="content" source="../media/b2b-collaboration-overview-24c3069f.png" alt-text="Graphic shows Azure Active Directory B2B collaboration workflow.":::
+:::image type="content" source="../media/b2b-collaboration-overview-24c3069f.png" alt-text="Diagram shows Azure Active Directory B2B collaboration workflow.":::
 
 
 A simple invitation and redemption process lets partners use their own credentials to access your organization's resources. You can also enable self-service sign-up user flows to let external users sign up for apps or resources themselves. Once the external user has redeemed their invitation or completed sign-up, they're represented in your directory as a user object. B2B collaboration user objects are typically given a user type of "guest." They can also be identified by the \#EXT\# extension in their user principal name.

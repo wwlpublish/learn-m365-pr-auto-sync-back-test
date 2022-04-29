@@ -4,7 +4,7 @@ A user object is created for the B2B collaboration user in the same directory as
 
 The following table describes B2B collaboration users based on how they authenticate (internally or externally) and their relationship to your organization (guest or member).
 
-:::image type="content" source="../media/table-with-B2B-user-properties-9cb35dc8.png" alt-text="Graphic that describes B2B collaboration users based on how they authenticate and their relationship to an organization.":::
+:::image type="content" source="../media/table-with-b2b-user-properties-9cb35dc8.png" alt-text="Diagram that describes B2B collaboration users based on how they authenticate and their relationship to an organization.":::
 
 
 The four user types described in this graphic include:
