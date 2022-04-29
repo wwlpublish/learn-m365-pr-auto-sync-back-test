@@ -24,7 +24,7 @@ quiz:
       explanation: "Incorrect. This action isn't how Azure Identity Protection investigates risk events."
     - content: "It uses advanced machine learning to detect suspicious activities based on signals"
       isCorrect: true
-      explanation: "Correct. It uses advanced machine learning to detect suspicious activities based on signals These activities include brute force attacks, leaked credentials, sign-in from unfamiliar locations, and infected devices."
+      explanation: "Correct. It uses advanced machine learning to detect suspicious activities based on signals. These activities include brute force attacks, leaked credentials, sign-in from unfamiliar locations, and infected devices."
     - content: "It triggers Risk-Based Conditional Access policies"
       isCorrect: false
       explanation: "Incorrect. This action isn't how Azure Identity Protection investigates risk events."

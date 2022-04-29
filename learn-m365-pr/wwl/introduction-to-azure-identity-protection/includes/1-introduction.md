@@ -10,4 +10,3 @@ After completing this module, you'll be able to:
  -  Understand how to enable Azure Identity Protection.
  -  Know how to identify vulnerabilities and risk events.
  -  Plan your investigation in protecting cloud-based identities and how to protect your Azure Active Directory environment from security breaches.
-
