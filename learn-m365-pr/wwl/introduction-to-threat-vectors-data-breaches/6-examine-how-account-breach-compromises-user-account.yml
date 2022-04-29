@@ -4,12 +4,13 @@ title: Examine how an account breach compromises a user account
 metadata:
   title: Examine how an account breach compromises a user account
   description: "Examine how an account breach compromises a user account"
-  ms.date: 04/29/2021
+  ms.date: 04/28/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 2
 content: |
   [!include[](includes/6-examine-how-account-breach-compromises-user-account.md)]
