@@ -3,16 +3,16 @@ uid: learn.wwl.m365-licensing-service-support
 metadata:
   title: 'Microsoft 365 Fundamentals: Demonstrate knowledge of Microsoft 365 licensing, service and support'
   description: 'Microsoft 365 Fundamentals: Demonstrate knowledge of Microsoft 365 licensing, service and support'
-  ms.date: 11/05/2021
+  ms.date: 04/29/2022
   author: wwlpublish
-  ms.author: dahans
+  ms.author: asglenno
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: 'Microsoft 365 Fundamentals: Demonstrate knowledge of Microsoft 365 licensing, service and support'
 prerequisites: |
-  - Basic understanding of cloud computing. If you're unfamiliar with basic cloud computing concepts, we recommend you take [Cloud Concepts - Principles of cloud computing](/learn/modules/principles-cloud-computing/index)
+  - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a-Service (Saas). If you're unfamiliar with basic cloud computing concepts, we recommend you take [Discuss Azure fundamental concepts](/learn/modules/fundamental-azure-concepts/).
 summary: |
-  Learn more about Microsoft 365 licensing, service, and support options.
+  Learn about how people and organizations can get the most out of their Microsoft 365 investments through adoption guidance, continuous support, and licensing options that meet their needs.
 iconUrl: /learn/achievements/microsoft-365-licensing-service-and-support.svg
 levels:
 - beginner
@@ -23,10 +23,8 @@ products:
 - m365
 - office-365
 modules:
-- learn-m365.what-is-m365
 - learn.wwl.identify-licensing-options-available-microsoft-365
 - learn.wwl.describe-support-offerings-for-microsoft-365-services
 - learn.wwl.describe-service-life-cycle-microsoft-365
-- learn-m365.select-a-cloud-deployment-model-for-m365
 trophy:
   uid: learn.wwl.m365-licensing-service-support.trophy
