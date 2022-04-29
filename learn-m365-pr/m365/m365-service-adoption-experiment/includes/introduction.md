@@ -16,4 +16,4 @@ You'll also make six key governance decisions and configure your feedback method
 
 **Personal productivity** - Microsoft Teams and OneDrive provide secure cloud storage for documents, including your OneNote files. This is an invaluable tool for finding and retaining information. With mobile applications, you can access your information wherever you are. Post documents into a Teams channel to share them with the broader team for coauthoring. **STOP E-MAILING THAT SPREADSHEET!**
 
-These are but a few generic examples. Use [this format](https://aka.ms/AAgs1mm) along with the [Simplified Persona template](https://aka.ms/AAgs9dx) to document business scenarios for this phase.
+These are but a few generic examples. Use [this format](https://aka.ms/SimpleScenarioMap) along with the [Simplified Persona template](https://aka.ms/SimplePersonaPainPoints) to document business scenarios for this phase.
