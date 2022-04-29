@@ -4,7 +4,9 @@ title: Integrating Viva Goals with third party systems
 metadata:
   unitType: learning-content
   title: Integrating Viva Goals with third party systems
-  description: Learn how to use Viva Goals and understand how it can enable your organization to use OKRs to their full potential.
+  description: |
+  Learn how to use Viva Goals and understand how it can enable your organization to use OKRs to their full potential.
+  **IMPORTANT**: Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.] (https://go.microsoft.com/fwlink/?linkid=2189933)
   ms.date: 04/28/2022
   author: rasanders
   ms.author: rasanders
