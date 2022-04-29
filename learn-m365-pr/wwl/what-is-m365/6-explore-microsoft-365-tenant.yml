@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.what-is-m365.explore-m365-tenant
+title: Explore Microsoft 365 tenant
+metadata:
+  title: Explore Microsoft 365 tenant
+  description: "Explore Microsoft 365 tenant"
+  ms.date: 04/28/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/6-explore-microsoft-365-tenant.md)]

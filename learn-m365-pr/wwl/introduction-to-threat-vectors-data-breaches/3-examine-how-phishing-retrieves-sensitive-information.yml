@@ -4,12 +4,13 @@ title: Examine how phishing retrieves sensitive information
 metadata:
   title: Examine how phishing retrieves sensitive information
   description: "Examine how phishing retrieves sensitive information"
-  ms.date: 04/29/2021
+  ms.date: 04/28/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 5
 content: |
   [!include[](includes/3-examine-how-phishing-retrieves-sensitive-information.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Spam"
       isCorrect: false
-      explanation: "That's incorrect. This isn't a payload delivered through malware. Try again."
+      explanation: "Incorrect. This item isn't a payload delivered through malware."
     - content: "Spyware"
       isCorrect: true
-      explanation: "That's correct. Spyware is often used to gather information about internet activity, keystrokes, passwords, and other sensitive data. Spyware can also be used as adware, where the software delivers pop-up ads and tracks user behavior."
+      explanation: "Correct. Spyware is often used to gather information about internet activity, keystrokes, passwords, and other sensitive data. Spyware can also be used as adware, where the software delivers pop-up ads and tracks user behavior."
     - content: "Data exfiltration"
       isCorrect: false
-      explanation: "That's incorrect. This isn't a payload delivered through malware. Try again."
+      explanation: "Incorrect. This item isn't a payload delivered through malware."
