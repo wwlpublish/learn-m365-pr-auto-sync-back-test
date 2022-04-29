@@ -1,4 +1,4 @@
-:::image type="content" source="../media/cloud-advantage.png" alt-text="The employee benefits of moving to the cloud. The benefits include IT out of the way, Anytime, anywhere access, Technical agility, Secure experiences, and Innovation." lightbox="../media/cloud-advantage.png":::
+:::image type="content" source="../media/cloud-advantage.png" alt-text="Diagram of employee benefits of moving to the cloud." lightbox="../media/cloud-advantage.png":::
 
 Many employees are still emailing spreadsheets, storing them on their local drives or on a network share and wasting precious time looking for the "right" version of that customer presentation. This is the reality of the employee experience in every industry around the world. Collectively as change and IT professionals we have failed our employees by not imbuing them with desire for digital literacy. Now that we have accepted this fact, we can move to rectify the situation.
 
@@ -20,7 +20,7 @@ Part of your core message can be to acknowledge that your employees are fundamen
 
 ## Organizational benefits of moving the cloud
 
-:::image type="content" source="../media/org-benefits.png" alt-text="The organizational benefits of moving to the cloud. The benefits include IT as a service, Anytime, anywhere access, Technical agility, Rapid feature deployment, and Innovation." lightbox="../media/org-benefits.png":::
+:::image type="content" source="../media/org-benefits.png" alt-text="Diagram of the organizational benefits of moving to the cloud." lightbox="../media/org-benefits.png":::
 
 At the same time, you may be charged with solidifying for your stakeholders what this transition to a modern cloud experience will gain for them. Your stakeholders may also be in denial or resistance to this change. However, most stakeholders and executives realize the need for greater technical agility and innovation. They too need secure, anytime/anywhere access to corporate data and want to control costs in IT by transforming its ability to be a competitive advantage rather than a cost center.
 
@@ -32,7 +32,7 @@ Your stakeholders and executives are employees too. They may have unique needs, 
 
 ## Employee benefits of moving to the cloud
 
-:::image type="content" source="../media/employee-benefits.png" alt-text="A 4-square image that shows the benefits for 4 different personas, representing the different types of employees in the organization." border="false":::
+:::image type="content" source="../media/employee-benefits.png" alt-text="Diagram with 4 squares that show the benefits for 4 different personas." border="false":::
 
 Every employee wants to know, "What's in it for me?" when you start discussing changing the way they work. Too often we make the mistake to start talking about product features and organizational benefits instead of empathizing with their day to day struggle to collaborate, communicate, and get work done. This can easily be changed by shifting the center of gravity of the change program to be the employee experience.
 
