@@ -26,7 +26,7 @@ roles:
   - administrator
 products: 
 - m365
-- Viva
+- viva
 units:
 - learn-m365.viva-goals-write-effective-okrs.introduction
 - learn-m365.viva-goals-write-effective-okrs.writing-best-practices
