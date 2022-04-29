@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-problems-mail-flow.fix-dns-issues
+title: Troubleshoot DNS issues
+metadata:
+  title: Troubleshoot DNS issues
+  description: "Troubleshoot DNS issues"
+  ms.date: 04/08/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/4-troubleshoot-dns-issues.md)]

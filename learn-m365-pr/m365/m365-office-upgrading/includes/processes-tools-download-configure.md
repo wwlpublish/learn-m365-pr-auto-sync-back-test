@@ -1,4 +1,4 @@
-![download icon](../media/download-icon.png)
+:::image type="icon" source="../media/download-icon.png" :::
 
 All current versions of Office use the same Click-to-Run packaging and are installed and configured using the same tools and processes, including Office 2019 volume licensing editions: Office 2019 Professional Plus, and Office 2019 Standard.
 

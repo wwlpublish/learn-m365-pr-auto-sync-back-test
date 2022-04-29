@@ -46,7 +46,7 @@ Connectors are responsible for routing messages within an organization's control
 
 When EOP is implemented in a hybrid environment, it can be administered by using either the Exchange Admin Center or Windows PowerShell. However, if you're using EOP standalone, you can only use PowerShell cmdlets to configure your service.
 
-**Additional reading**. For more information, see [Set up connectors to route mail between Office 365 and your own email servers](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail?azure-portal=true).
+**Further reading**. For more information, see [Set up connectors to route mail between Office 365 and your own email servers](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail?azure-portal=true).
 
 ## Knowledge check
 

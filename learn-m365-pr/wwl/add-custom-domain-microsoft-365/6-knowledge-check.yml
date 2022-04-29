@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/29/2022
+  ms.date: 04/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,18 +24,18 @@ quiz:
       explanation: "Correct. Outlook clients use the CNAME record to locate the Autodiscover service in Microsoft 365."
     - content: "MX"
       isCorrect: false
-      explanation: "Incorrect. The MX record is a requirement for SMTP communication between Exchange Online in Microsoft 365 and mail servers on the Internet. Try again."
+      explanation: "Incorrect. The MX record is a requirement for SMTP communication between Exchange Online in Microsoft 365 and mail servers on the Internet."
     - content: "TXT"
       isCorrect: false
-      explanation: "Incorrect. The TXT record is a requirement for Sender Policy Framework (SPF) anti-spam protection and for organizations that use federation. Try again."
+      explanation: "Incorrect. The TXT record is a requirement for Sender Policy Framework (SPF) anti-spam protection and for organizations that use federation."
   - content: "As the Enterprise Administrator for Contoso, you manage the company's Microsoft 365 tenant. You have a custom domain that you want to add to Microsoft 365. However, Contoso's IT team had several key members quit over the past year. You're not sure if one of those former employees registered the domain using their personal information. How can you find out who registered the domain?"
     choices:
     - content: "Contact any of the top 10 domain name registrars"
       isCorrect: false
-      explanation: "Incorrect. This action won't help you find out who registered the domain. Try again."
+      explanation: "Incorrect. This action won't help you find out who registered the domain."
     - content: "Contact any of the top 10 DNS hosting providers"
       isCorrect: false
-      explanation: "Incorrect. This action won't help you find out who registered the domain. Try again."
+      explanation: "Incorrect. This action won't help you find out who registered the domain."
     - content: "Check the WHOIS record for that domain by using an Internet WHOIS register"
       isCorrect: true
       explanation: "Correct. Check the WHOIS record for that domain by using an Internet WHOIS register, such as who.is."
@@ -43,10 +43,10 @@ quiz:
     choices:
     - content: "Register the subdomain first and then register the root domain"
       isCorrect: false
-      explanation: "Incorrect. This action won't add these two domains to your Microsoft 365 Business Premium subscription. Try again."
+      explanation: "Incorrect. This action won't add these two domains to your Microsoft 365 Business Premium subscription."
     - content: "Register the root domain first and then register the subdomain"
       isCorrect: true
       explanation: "Correct. Root domains must be added before subdomains. So fabrikamresidences.com must be registered before you add content.fabrikamresidences.com."
     - content: "Microsoft 365 Business Premium doesn't support subdomains. Fabrikam must upgrade to Microsoft 365 Enterprise before it can register a subdomain under a root domain"
       isCorrect: false
-      explanation: "Incorrect. Both Microsoft 365 Business Premium and Enterprise plans enable you to add subdomains under a root domain. Try again."
+      explanation: "Incorrect. Both Microsoft 365 Business Premium and Enterprise plans enable you to add subdomains under a root domain."

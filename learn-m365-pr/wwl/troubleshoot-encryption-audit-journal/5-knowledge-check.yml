@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-encryption-audit-journal.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/08/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "You want to run a test to find out if a message between two email addresses will be encrypted with Office Message Encryption (OME). Which PowerShell cmdlet should you use?"
+    choices:
+    - content: "Get-TransportRule"
+      isCorrect: false
+      explanation: "That's incorrect. The Get-TransportRule cmdlet displays the details of a transport rule, which might include OME encryption, but it won't test that encryption for two recipients."
+    - content: "Test-IRMConfiguration"
+      isCorrect: true
+      explanation: "That's correct. The Test-IRMConfiguration cmdlet will test encryption between two recipients that you specify."
+    - content: "Get-IRMConfiguration"
+      isCorrect: false
+      explanation: "That's incorrect. The Get-IRMConfiguration cmdlet tells you about the setup of Information Right Management (IRM) in Exchange Online, including whether OME is enabled, but it doesn't test encryption between two recipients."
+  - content: "You want to ensure that, when administrators execute a hard delete on a mailbox, the operation is recorded in the audit log. You don't want to change the existing audit properties for the mailbox. Which command should you use?"
+    choices:
+    - content: "Set-Mailbox -Identity serena.davis@contoso.com -AuditAdmin @{Add=HardDelete}"
+      isCorrect: true
+      explanation: "That's correct. The command adds hard delete auditing for the Admin logon type without changing the existing audit settings for the mailbox."
+    - content: "Set-Mailbox -Identity serena.davis@contoso.com -AuditOwner @{Add=HardDelete}"
+      isCorrect: false
+      explanation: "That's incorrect. The command adds hard delete auditing but for the mailbox owner, not for administrators."
+    - content: "Set-Mailbox -Identity serena.davis@contoso.com -DefaultAuditSet Admin"
+      isCorrect: false
+      explanation: "That's incorrect. The command returns the audit settings to their default values. Although these settings might include hard delete auditing for administrators, you wanted to avoid changing the existing audit properties for the mailbox."
+  - content: "You've set up journaling for all messages in your Exchange Online organization but journal reports are not reaching the journal mailbox. Which value should you edit?"
+    choices:
+    - content: "The recipient email address on the journaling rule."
+      isCorrect: false
+      explanation: "That's incorrect. When an email matches the recipient email address on a journaling rule it's journaled. The recipient email address doesn't specify where journal reports are sent."
+    - content: "The alternate journaling mailbox for your organization."
+      isCorrect: false
+      explanation: "That's incorrect. The alternate journaling mailbox is a destination used when the journal email address is not available."
+    - content: "The journal email address on the journaling rule."
+      isCorrect: true
+      explanation: "That's correct. The journal email address determines where journal reports are sent. It must be the correct email address."

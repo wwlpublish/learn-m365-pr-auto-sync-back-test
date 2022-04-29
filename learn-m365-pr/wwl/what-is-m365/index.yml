@@ -2,23 +2,22 @@
 uid: learn-m365.what-is-m365
 metadata:
   title: What is Microsoft 365?
-  description: "What is Microsoft 365?"
-  ms.date: 02/16/2021
+  description: "Learn about Microsoft 365 - a productivity cloud that delivers innovative and intelligent experiences, rich organizational insights, and a trusted platform to help people and organizations get more done. Prepare for MS-900."
+  ms.date: 04/28/2022
   author: wwlpublish
-  ms.author: dahans
+  ms.author: asglenno
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: What is Microsoft 365?
-summary: In this module, you will learn about Microsoft 365 - a productivity cloud that delivers innovative and intelligent experiences, rich organizational insights, and a trusted platform to help people and organizations get more done.
+summary: Learn about Microsoft 365 - a productivity cloud that delivers innovative and intelligent experiences, rich organizational insights, and a trusted platform to help people and organizations get more done.
 abstract: |
-  In this module, you will:
-  - List the capabilities of Microsoft 365
-  - Understand the value provided by Microsoft 365 solutions
-  - Name the Microsoft 365 subscription options
-  - Create a Microsoft 365 trial organization
-  - Explore the Microsoft 365 Fundamental exam study areas and learning paths
+  By the end of this module, you'll be able to:
+  *   Describe how Microsoft 365 drives productivity and empowers workers
+  *   Describe the differences between Office 365, Microsoft 365, and Windows 365
+  *   Describe the Microsoft 365 subscription options
+  *   Create a Microsoft 365 trial organization
 prerequisites: |
-  - Basic understanding of cloud computing. If you are unfamiliar with cloud computing concepts, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/index)
+  - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a -Service (Saas).
 iconUrl: /learn/achievements/what-is-m365.svg
 levels:
 - beginner
@@ -28,10 +27,11 @@ products:
 - m365
 units:
 - learn-m365.what-is-m365.2-whats-in-m365
-- learn-m365.what-is-m365.3-connecting-clouds
+- learn-m365.what-is-m365.explain-how-microsoft-365-drives-productivity-cloud
+- learn-m365.what-is-m365.describe-how-microsoft-365-enables-hybrid-flexible-work-strategies
+- learn-m365.what-is-m365.describe-differences-office-365-microsoft-365-windows-365
 - learn-m365.what-is-m365.4-m365-subscriptions
 - learn-m365.what-is-m365.explore-m365-tenant
-- learn-m365.what-is-m365.explore-exam-areas
 - learn-m365.what-is-m365.5-summary-and-knowledge-check
 - learn-m365.what-is-m365.summary-resource
 badge:

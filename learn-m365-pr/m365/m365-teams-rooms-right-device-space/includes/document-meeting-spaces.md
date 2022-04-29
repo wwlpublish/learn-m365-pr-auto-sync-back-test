@@ -11,7 +11,7 @@ While you review your spaces, take photos of everything in the meeting space. Th
 
 This will give you an idea of how you can run cables, if you're going to need extenders, how you will need to secure the cables, where you're going to get power, and even if you can put speakers and microphones in the ceiling. If there's an existing display, take a photo of the display's make and model. Research the display to make sure it has the right connectors to match with the Teams Rooms equipment.
 
-![Room size considerations](../media/room-size-considerations.png)
+:::image type="content" source="../media/room-size-considerations.png" alt-text="Room size considerations." border="false":::
 
 You should be able to get the dimensions of the room from your facilities team. You should also do your own measurements of the items in the room. How long and wide is the table? How far away is the display from the table? How far and how close will the attendees be able to sit from the camera, speakers, and microphones?
 

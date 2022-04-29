@@ -1,4 +1,9 @@
-Azure Active Directory (Azure AD) Business-to-Business (B2B) collaboration enables an organization to maintain control over its corporate data while securely sharing its applications and services with guest users from another organization. This feature supports safe and secure collaboration with external partners, whatever their size, even if they don't have Azure AD or an IT department. A simple invitation and redemption process lets partners use their own credentials to access a company's resources. Developers can use Azure AD Business-to-Business APIs to customize the invitation process or write applications, such as self-service sign-up portals.
+Azure AD Business-to-Business (B2B) collaboration enables an organization to:
+
+ -  Maintain control over its corporate data.
+ -  Securely share its applications and services with guest users from another organization.
+
+This feature supports safe and secure collaboration with external partners, whatever their size. It does so even if they don't have Azure AD or an IT department. A simple invitation and redemption process lets partners use their own credentials to access a company's resources. Developers can use Azure AD Business-to-Business APIs to customize the invitation process or write applications, such as self-service enrollment portals.
 
 ### Collaborate with any partner using their identities
 
@@ -35,4 +40,4 @@ Administrators can easily add guest users to their organization in the Azure por
  -  The guest user immediately receives a customizable invitation that lets them sign in to their Access Panel.
  -  Guest users in the directory can be assigned to apps and groups.
 
-**Additional reading.** For more information, see [Azure Active Directory B2B collaboration licensing guidance](/azure/active-directory/b2b/licensing-guidance).
+**Additional reading.** For more information, see [Azure Active Directory B2B collaboration licensing guidance](/azure/active-directory/b2b/licensing-guidance?azure-portal=true).

@@ -1,0 +1,45 @@
+### YamlMime:Module
+uid: learn-m365.microsoft-search-connectors
+metadata:
+  title: Bring more of your data to Microsoft Search  
+  description: Explore how Microsoft Graph and federated connectors can help bring more of your organization's data to Microsoft Search. Use custom verticals, results clusters, and other customizations to enhance the search experience for your users.
+  ms.date: 04/01/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Bring more of your data to Microsoft Search 
+summary: Explore how Microsoft Graph and federated connectors can help bring more of your organization's data to Microsoft Search. Use custom verticals, results clusters, and other customizations to enhance the search experience for your users.
+abstract: |
+ Upon completion of this module, you should be able to:
+ - Explain what Microsoft Graph and federated connectors are and how they work.
+ - Awareness of the different types of Graph connectors.
+ - Customize search results using verticals, layouts, clusters, and filters.
+ - Identify the capabilities of Microsoft Graph Search APIs.
+prerequisites: | 
+  - Basic understanding of Microsoft Search
+  - Access to the Microsoft 365 admin center
+iconUrl: /learn/achievements/generic-badge.svg 
+levels:
+- beginner
+roles:
+- administrator
+- business-owner
+- functional-consultant
+- technology-manager
+products:
+- m365
+- office
+- windows
+- bing
+units:
+- learn-m365.microsoft-search-connectors.introduction
+- learn-m365.microsoft-search-connectors.microsoft-graph-connectors
+- learn-m365.microsoft-search-connectors.set-up-monitor-connectors
+- learn-m365.microsoft-search-connectors.microsoft-search-federated-connectors
+- learn-m365.microsoft-search-connectors.customize-configure-search-results
+- learn-m365.microsoft-search-connectors.microsoft-graph-search-api
+- learn-m365.microsoft-search-connectors.knowledge-check
+- learn-m365.microsoft-search-connectors.summary
+badge: 
+  uid: learn-m365.microsoft-search-connectors.badge

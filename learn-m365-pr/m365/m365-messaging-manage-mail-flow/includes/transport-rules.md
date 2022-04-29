@@ -11,7 +11,7 @@ There are four components to a mail rule:
 
 ### Conditions and exceptions
 
-Before a rule is triggered, it needs to meet  conditions that you specify. You can use conditions and exceptions to identify the messages to which you want to apply actions. These identifiers include:
+Before a rule is triggered, it needs to meet conditions that you specify. You can use conditions and exceptions to identify the messages to which you want to apply actions. These identifiers include:
 
 |Identifiers|Notes|
 |-|-|
@@ -23,7 +23,7 @@ Before a rule is triggered, it needs to meet  conditions that you specify. You c
 |Message properties|Rules match on the classification or importance of a message.|
 |Message headers|You specify that the header should include a list of words, or matches an exact string, or matches a pattern of text.|
 
-Conditions are matched first. These messages are then checked against any exceptions you've specified. The resulting messages are then passed on to have actions applied to them.  
+Conditions are matched first. These messages are then checked against any exceptions you've specified. The resulting messages are then passed on to have actions applied to them.
 
 ### Actions
 
@@ -38,7 +38,7 @@ There's a long list of actions that can be applied to the emails, as detailed in
 
 ### Properties
 
-You can control other rule settings by adjusting their properties. For instance, you might control the order in which mail rules are applied, or for how long they're valid.  
+You can control other rule settings by adjusting their properties. For instance, you might control the order in which mail rules are applied, or for how long they're valid.
 
 For example, **mode** is a common property you'll use when you create a new rule. You can choose to set a rule in test mode - conditions and exceptions are checked, but no actions are taken on the messages.
 
@@ -52,64 +52,69 @@ There are three ways you can create a mail flow rule:
 
 ### Create a DLP policy to manage a mail flow
 
-You can control data loss prevention in the Microsoft 365 compliance center.  
+You can control data loss prevention in the Microsoft 365 compliance center.
 
 1. In the compliance center, under **Solutions**, select **Data loss prevention**.
 
-   ![A screenshot shows the Data loss prevention page in the compliance center, with the Create policy action highlighted](../media/2-data-loss-prevention.png)
+   :::image type="content" source="../media/2-data-loss-prevention.png" alt-text="A screenshot shows the Data loss prevention page in the compliance center, with the Create policy action highlighted." border="false":::
 
-2. Select **Create policy**, and then select **Next**.
+1. Select **Create policy**, and then select **Next**.
 
-3. Enter a name and description for your policy. For example use "US Financial Protection" as the name, and use "Protecting US Financial data" for the description.
-4. Select **Next** on the **Choose location** page.
-5. On the **Policy settings** page, select **Find content that contains** option, and then select **Next**.  
+1. Enter a name and description for your policy. For example use "US Financial Protection" as the name, and use "Protecting US Financial data" for the description.
+1. Select **Next** on the **Choose location** page.
+1. On the **Policy settings** page, select **Find content that contains** option, and then select **Next**.
 
-   ![A screenshot shows the Customize page with the Find content that contains choice selected](../media/2-dlp-policy-settings.png)  
-6. On the **Customize types of content to protect** page, select **Add**, then select **Sensitive info types**.
-7. Search for "U.S.", and then select all the results. Select **Add**, then select **Done**.
-   ![A screenshot fo the Sensitive info page.](../media/2-sensitive-types.png)
+   :::image type="content" source="../media/2-dlp-policy-settings.png" alt-text="A screenshot shows the Customize page with the Find content that contains choice selected." border="false":::
 
-8. Select **Next** on the **What do you want to do if we detect sensitive info?** page.
-9. Select **Next** on the **Customize access and override permissions** page.
-10. Select **Next** on the **Do you want to turn on the policy or test things out first?** page.
-11. Review the settings, and then select **Create**.
+1. On the **Customize types of content to protect** page, select **Add**, then select **Sensitive info types**.
+1. Search for "U.S.", and then select all the results. Select **Add**, then select **Done**.
+
+   :::image type="content" source="../media/2-sensitive-types.png" alt-text="A screenshot fo the Sensitive info page." border="false":::
+
+1. Select **Next** on the **What do you want to do if we detect sensitive info?** page.
+1. Select **Next** on the **Customize access and override permissions** page.
+1. Select **Next** on the **Do you want to turn on the policy or test things out first?** page.
+1. Review the settings, and then select **Create**.
 
 Now you can see the new policy.
 
-![A screenshot shows the new policy settings](../media/2-review-policy.png)
+:::image type="content" source="../media/2-review-policy.png" alt-text="A screenshot shows the new policy settings." border="false":::
 
 ### Create a mail flow rule using the Exchange admin center
 
-1. In Exchange admin center, select **mail flow**.  
-   ![A screenshot shows the mail flow page of the Exchange admin center, with the plus sign highlighted](../media/2-mail-rule.png)
-2. On the **rules** tab, select **+**, then select **Create a new rule**.
-   ![A screenshot of the new rule page of the mail flow rule wizard in the Exchange admin center](../media/2-mail-rule.png)
+1. In Exchange admin center, select **mail flow**.
 
-3. Name the new rule, "Add company disclaimer."
-4. Under **Apply this rule if**, select **The recipient is located**, then select **Inside the organization.**
-5. Under **Do the following**, select **Append the disclaimer**. On the right, select **Enter text** and enter "**** Disclaimer text". Then select **Select one**, and select **Ignore**.
-6. Clear the **Audit this rule with severity level** option.
-7. Select **More options**, then add an exception. Select **Except if**, select **The subject or body includes**, then enter "**** Disclaimer text".
-8. Select **Save**.
+   :::image type="content" source="../media/2-mail-rule.png" alt-text="A screenshot shows the mail flow page of the Exchange admin center, with the plus sign highlighted." border="false":::
+
+1. On the **rules** tab, select **+**, then select **Create a new rule**.
+
+   :::image type="content" source="../media/2-mail-rule.png" alt-text="A screenshot of the new rule page of the mail flow rule wizard in the Exchange admin center." border="false":::
+
+1. Name the new rule, "Add company disclaimer."
+1. Under **Apply this rule if**, select **The recipient is located**, then select **Inside the organization.**
+1. Under **Do the following**, select **Append the disclaimer**. On the right, select **Enter text** and enter "**** Disclaimer text". Then select **Select one**, and select **Ignore**.
+1. Clear the **Audit this rule with severity level** option.
+1. Select **More options**, then add an exception. Select **Except if**, select **The subject or body includes**, then enter "**** Disclaimer text".
+1. Select **Save**.
 
 ### Create a mail flow rule using PowerShell
 
 Use the following steps to create a mail flow rule by using PowerShell cmdlets.
 
-1. On a Windows 10 PC, sign in with a user who has administration rights. Open a new PowerShell window as an administrator.  
-2. Connect to the Microsoft 365 Exchange online account by running this cmdlet:
+1. On a Windows 10 PC, sign in with a user who has administration rights. Open a new PowerShell window as an administrator.
+1. Connect to the Microsoft 365 Exchange online account by running this cmdlet:
 
    ```powershell
    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection 
    ```
 
-3. When prompted, enter your Microsoft 365 administration account credentials, then run this cmdlet:
+1. When prompted, enter your Microsoft 365 administration account credentials, then run this cmdlet:
 
    ```powershell
    Import-PSSession $Session -DisableNameChecking 
    ```
 
-4. Create a new transport rule with this cmdlet:
+1. Create a new transport rule with this cmdlet:
 
    ```powershell
    New-TransportRule -Name "Append company disclaimer" -FromScope InOrganization -ApplyHtmlDisclaimerText "<p>**** Disclaimer text</p>" 
@@ -117,13 +122,13 @@ Use the following steps to create a mail flow rule by using PowerShell cmdlets.
 
 ## View and modify mail flow rules
 
-You can view the DLP policies you've created in the compliance center. The mail rules you've created are stored and managed in Active Directory. You can view these mail rules using the Exchange admin center or PowerShell commands.  
+You can view the DLP policies you've created in the compliance center. The mail rules you've created are stored and managed in Active Directory. You can view these mail rules using the Exchange admin center or PowerShell commands.
 
 ### View or modify mail flow rules using the Exchange admin center
 
-You can view the mail flow rules in the Exchange admin center on the **mail flow** page. You'll see the list of existing mail rules. Select a rule to see its current settings. To edit an existing rule, select **edit**. You also have the option to duplicate, delete, or change the priority of the rule.  
+You can view the mail flow rules in the Exchange admin center on the **mail flow** page. You'll see the list of existing mail rules. Select a rule to see its current settings. To edit an existing rule, select **edit**. You also have the option to duplicate, delete, or change the priority of the rule.
 
-![A screenshot shows the Exchange admin center with a mail rule selected. The details of the rule are displayed on the screen.](../media/2-view-mail-rules.png)
+:::image type="content" source="../media/2-view-mail-rules.png" alt-text="A screenshot shows the Exchange admin center with a mail rule selected. The details of the rule are displayed on the screen." border="false":::
 
 ### View or modify mail flow rules using PowerShell
 
@@ -165,7 +170,7 @@ Get-TransportRuleAction
 
 The Microsoft 365 Defender portal shows all the statistics about mail flows in your organization on a dashboard. You access the dashboard in the mail flow section of the compliance center.
 
-![A screenshot shows the Mail flow insights page of the Microsoft 365 Defender portal](../media/2-monitor-mail-flows.png)
+:::image type="content" source="../media/2-monitor-mail-flows.png" alt-text="A screenshot shows the Mail flow insights page of the Microsoft 3 65 Defender portal." border="false":::
 
 ## Import or export a mail flow rule collection
 

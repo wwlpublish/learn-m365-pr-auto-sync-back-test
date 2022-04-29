@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.microsoft-search-manage-access-entry-points-feedback
+metadata:
+  title: Manage access, add entry points, and review Microsoft Search feedback
+  description: Get an overview of solutions to manage access to files and sites, add search entry points, and review feedback from your users.
+  ms.date: 04/05/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage access, add entry points, and review Microsoft Search feedback
+summary: Get an overview of solutions to manage access to files and sites, add search entry points, and review feedback from your users.
+abstract: |
+ Upon completion of this module, you should be able to:
+ - Outline the controls available to manage access to files and sites.
+ - Enable and manage other Microsoft Search entry points.
+ - Locate and review Microsoft Search user feedback.
+prerequisites: | 
+  - Basic understanding of Microsoft Search
+  - Access to the Microsoft 365 admin center
+iconUrl: /learn/achievements/generic-badge.svg 
+levels:
+- beginner
+roles:
+- administrator
+- business-owner
+- functional-consultant
+- technology-manager
+products:
+- m365
+- office
+- windows
+- bing
+units:
+- learn-m365.microsoft-search-manage-access-entry-points-feedback.introduction
+- learn-m365.microsoft-search-manage-access-entry-points-feedback.manage-access-files-sites
+- learn-m365.microsoft-search-manage-access-entry-points-feedback.easier-access
+- learn-m365.microsoft-search-manage-access-entry-points-feedback.user-feedback
+- learn-m365.microsoft-search-manage-access-entry-points-feedback.knowledge-check
+- learn-m365.microsoft-search-manage-access-entry-points-feedback.summary
+badge: 
+  uid: learn-m365.microsoft-search-manage-access-entry-points-feedback.badge

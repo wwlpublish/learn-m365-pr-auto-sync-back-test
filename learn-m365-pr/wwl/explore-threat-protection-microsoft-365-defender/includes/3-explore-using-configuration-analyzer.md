@@ -43,12 +43,12 @@ The profiles are further refined using conditions and exceptions that are requir
 
 ### Permissions required to run the Configuration Analyzer<br>
 
-Before accessing the Configuration Analyzer, the messaging administrator must complete the following requirements:
+The messaging administrator must complete the following requirements before accessing the Configuration Analyze:
 
  -  For Full access, the messaging admin must be a member of Organization Management or Security Administrator role groups.
  -  For Read-Only access, the messaging admin must be a member of the Global Reader or Security Reader role groups.
 
- **Additional reading**. For more information, see [Permissions in the Microsoft 365 Defender portal](/microsoft-365/security/office-365-security/permissions-microsoft-365-security-center?azure-portal=true).
+**Further reading**. For more information, see [Permissions in the Microsoft 365 Defender portal](/microsoft-365/security/office-365-security/permissions-microsoft-365-security-center?azure-portal=true).
 
 ### Standard and Strict recommendations in the Configuration Analyzer
 

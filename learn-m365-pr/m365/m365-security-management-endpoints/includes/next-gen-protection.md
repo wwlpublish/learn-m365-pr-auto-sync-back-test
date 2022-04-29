@@ -8,7 +8,7 @@ Windows Defender Antivirus includes:
 - Always-on scanning, using advanced file and process behavior monitoring and other heuristics (also known as "real-time protection")
 - Dedicated protection updates based on machine-learning, human and automated big-data analysis, and in-depth threat resistance research
 
-![Microsoft Defender for Endpoint protection engines](../media/atp-engines.png)
+:::image type="content" source="../media/atp-engines.png" alt-text="Microsoft Defender for Endpoint protection engines." border="false":::
 
 Always-on protection consists of real-time protection, behavior monitoring, and methods to identify malware based on known suspicious and malicious activities. These activities include events such as processes making unusual changes to existing files, modifying or creating automatic startup registry keys and startup locations (also known as auto-start extensibility points, or ASEPs), and other changes to the file system or file structure.
 

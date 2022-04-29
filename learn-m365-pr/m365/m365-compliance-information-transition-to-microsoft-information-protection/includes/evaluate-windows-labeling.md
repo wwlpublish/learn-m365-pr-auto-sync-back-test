@@ -26,8 +26,9 @@ The second way Office clients become aware of the new unified labeling support i
 ## User experience comparison
 
 The main difference the Azure Information Protection client (classic) user will see when using the unified labeling clients (either built-in or installed separately) is the "Sensitivity" button replaces the "Protect" button. The image below illustrates the differences between the classic client and the unified labeling client (and Office built-in labeling) on Windows. The experience is similar in iOS, macOS and on the web.
- 
-![Differences between the classic client and the unified labeling client (and Office built-in labeling) on Windows](../media/classic-unified-labeling-client.png)
+
+> [!div class="centered"]
+> :::image type="content" source="../media/classic-unified-labeling-client.png" alt-text="Differences between the classic client and the unified labeling client (and Office built-in labeling) on Windows." border="false":::
 
 ## Windows labeling client guidance
 
@@ -42,14 +43,16 @@ While the Office built-in labeling client is the preferred choice, it will not w
 ### Guidance for new customers
 
 Use the decision tree below to help you decide which Windows client to install if you have yet to deploy an information protection solution from Microsoft.
- 
-![Use the decision tree below to help you decide which Windows client to install if you have yet to deploy an information protection solution from Microsoft..](../media/windows-client-decision-tree.png)
+
+> [!div class="centered"]
+> :::image type="content" source="../media/windows-client-decision-tree.png" alt-text="Use the decision tree below to help you decide which Windows client to install if you have yet to deploy an information protection solution from Microsoft." border="false":::
 
 ### Guidance for existing Azure Information Protection customers
 
 Use the decision tree below to help you decide which Windows client to install if you are an existing Azure Information Protection customer transitioning to Microsoft Information Protection.
 
-![Use the decision tree below to help you decide which Windows client to install if you are an existing Azure Information Protection customer transitioning to Microsoft Information Protection...](../media/windows-client-aip-decision-tree.png)
+> [!div class="centered"]
+> :::image type="content" source="../media/windows-client-aip-decision-tree.png" alt-text="Use the decision tree below to help you decide which Windows client to install if you are an existing Azure Information Protection customer transitioning to Microsoft Information Protection." border="false":::
 
 ## Learn more
 

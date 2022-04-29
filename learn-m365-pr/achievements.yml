@@ -120,3 +120,29 @@ achievements:
   title: Embrace Zero Trust with Azure Active Directory
   summary: Embrace Zero Trust with Azure Active Directory
   iconUrl: /learn/achievements/embrace-zero-trust.svg
+- uid: learn.wwl.implement-office-telemetry.badge
+  type: badge
+  title: Implement Office Telemetry
+  summary: This module examines Office Telemetry, including how it assesses the way an organization employs its Office products, and it provides instruction on how to install and configure Office Telemetry.
+  iconUrl: /learn/achievements/implement-office-telemetry.svg
+- uid: learn.wwl.leverage-fasttrack-partner-services-to-support-microsoft-365.badge
+  type: badge
+  title: Use FastTrack and Partner Services to support Microsoft 365
+  summary: This module examines how you can use FastTrack for Microsoft 365 and Microsoft Partner Services to assist with your Microsoft 365 deployment.
+  iconUrl: /learn/achievements/leverage-fasttrack-and-partner-services-to-support-microsoft-365.svg
+- uid: learn.wwl.implement-workplace-analytics.badge
+  type: badge
+  title: Implement Microsoft Viva Insights (Workplace Analytics)
+  summary: "**Note**: The Workplace Analytics web app is being rebranded to **Viva Insights** in the next few months. As mentioned in this module, Workplace Analytics refers to the web app with advanced analysis tools and accelerators available to people who are assigned the Analyst, Limited Analyst, or Admin role.<br><br>This module examines Microsoft Viva Insights (Workplace Analytics), which provides powerful organizational analytics solutions that are generally available as an add-on to any Microsoft 365 enterprise plan."
+  iconUrl: /learn/achievements/m365-workplace-analytics.svg
+- uid: learn.wwl.explore-mobile-device-mailbox-policies.badge
+  type: badge
+  title: Explore mobile device mailbox policies
+  summary: Examines Mobile Device Management in Microsoft 365, which enables centralized and automated management of the devices used by employees, as well as how Exchange ActiveSync and mobile device mailbox policies support this effort.
+  iconUrl: /learn/achievements/mobile-devices-mailbox-policies.svg
+- uid: learn.wwl.manage-mobile-device-access.badge
+  type: badge
+  title: Manage mobile device access
+  summary: Examines how to manage and troubleshoot mobile device access, how to  configure both access and infrastructure for mobile devices, the implications of mobile device remote wipe, and alternative methods for mobile device management.
+  iconUrl: /learn/achievements/mobile-device-manage-access.svg
+

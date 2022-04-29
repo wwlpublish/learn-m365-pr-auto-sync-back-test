@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-message-filter-inboxes-defender-for-office-365.attachments
+title: Troubleshoot message attachments
+metadata:
+  title: Troubleshoot message attachments
+  description: "Troubleshoot message attachments"
+  ms.date: 04/08/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/3-attachments.md)]

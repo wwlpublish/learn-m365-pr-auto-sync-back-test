@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-adoption-usage-maintain.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Confirm what you've learned about Microsoft Search.
+  ms.date: 04/05/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 3
+quiz:
+  title: "Check your knowledge"
+  questions:
+    - content: "Which options did we suggest as effective ways to evangelize Microsoft Search?"
+      choices:
+      - content: "Sharing Microsoft Search adoption kit PDFs with your users, enlisting executive sponsors and champions, and creating a SharePoint communications site."
+        isCorrect: true
+        explanation: "That’s correct! The actions above were covered as effective ways to evangelize Microsoft Search."
+      - content: "Sending the Microsoft Search admin guide to everyone in your org."
+        isCorrect: false
+        explanation: "That’s incorrect. The Microsoft Search admin guide is targeted for admins and Search editors."
+      - content: "Wait for users to discover it on their own."
+        isCorrect: false
+        explanation: "That's incorrect. While some users will discover your new search experience on their own, they'll be unaware of the features and benefits of Microsoft Search."
+      
+    - content: "Where can you find metrics about search volume and queries?"
+      choices:
+      - content: "In the Insights section of the Microsoft 365 admin center."
+        isCorrect: true
+        explanation: "That's correct! Microsoft Search insights are in the Search & intelligence settings."
+      - content: "Power BI."
+        isCorrect: false
+        explanation: "That’s incorrect. This data isn't automatically included in Power BI reports but can be exported and added manually."
+      - content: "In the Resources section of the Microsoft 365 admin center."
+        isCorrect: false
+        explanation: "That's incorrect. It's in the Search & intelligence settings."
+
+    - content: "Why would you want to set an expiration date for a bookmark?"
+      choices:
+      - content: "Low engagement for the bookmark."
+        isCorrect: false
+        explanation: "That's incorrect. Bookmarks with low engagement should be reviewed and keywords added to boost engagement."
+      - content: "When it's about a one-time event."
+        isCorrect: true
+        explanation: "That’s correct! One-time or annual events like benefit enrollment periods or conferences are good examples of bookmarks you might want to expire."
+      - content: "To remove a page from the search index."
+        isCorrect: false
+        explanation: "That’s incorrect. Links in expired bookmarks are still accessible in search."

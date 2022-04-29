@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn-m365.microsoft-search-adoption-usage-maintain
+metadata:
+  title: Increase Microsoft Search adoption, monitor usage, and maintain answers
+  description: Evangelize Microsoft Search and maintain high-quality content to drive usage of work or school search in your organization.
+  ms.date: 04/05/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Increase Microsoft Search adoption, monitor usage, and maintain answers
+summary: Evangelize Microsoft Search and maintain high-quality content to drive usage of work or school search in your organization.
+abstract: |
+ Upon completion of this module, you should be able to:
+ - Develop a plan to evangelize Microsoft Search in your organization.
+ - Download, review, and share the Microsoft Search adoption kit and other documentation.
+ - Ensure work or school results are correct and current.
+ - Access and monitor Microsoft Search data insights and reports.
+prerequisites: | 
+  - Basic understanding of Microsoft Search
+  - Access to the Microsoft 365 admin center
+iconUrl: /learn/achievements/generic-badge.svg 
+levels:
+- beginner
+roles:
+- administrator
+- business-owner
+- functional-consultant
+- technology-manager
+products:
+- m365
+- office
+- windows
+- bing
+units:
+- learn-m365.microsoft-search-adoption-usage-maintain.introduction
+- learn-m365.microsoft-search-adoption-usage-maintain.evangelize-within-your-organization
+- learn-m365.microsoft-search-adoption-usage-maintain.review-bookmarks-keep-content-current
+- learn-m365.microsoft-search-adoption-usage-maintain.monitor-data-insights
+- learn-m365.microsoft-search-adoption-usage-maintain.knowledge-check
+- learn-m365.microsoft-search-adoption-usage-maintain.summary
+badge: 
+  uid: learn-m365.microsoft-search-adoption-usage-maintain.badge

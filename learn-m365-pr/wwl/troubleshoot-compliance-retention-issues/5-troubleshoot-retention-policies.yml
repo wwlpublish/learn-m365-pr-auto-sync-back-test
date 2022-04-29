@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-compliance-retention-issues.troubleshoot-retention-policies
+title: Troubleshoot retention policies
+metadata:
+  title: Troubleshoot retention policies
+  description: "Troubleshoot retention policies"
+  ms.date: 04/08/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-troubleshoot-retention-policies.md)]

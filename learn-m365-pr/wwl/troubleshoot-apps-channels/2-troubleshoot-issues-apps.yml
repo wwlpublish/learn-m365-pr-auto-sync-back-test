@@ -4,12 +4,13 @@ title: Troubleshoot issues with apps
 metadata:
   title: Troubleshoot issues with apps
   description: "Troubleshoot issues with apps"
-  ms.date: 08/24/2021
+  ms.date: 04/26/2022
   author: wwlpublish
   ms.author: cyncarey
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/2-troubleshoot-issues-apps.md)]

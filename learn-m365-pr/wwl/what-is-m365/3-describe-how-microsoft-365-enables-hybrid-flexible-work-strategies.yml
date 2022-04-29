@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.what-is-m365.describe-how-microsoft-365-enables-hybrid-flexible-work-strategies
+title: Describe how Microsoft 365 enables hybrid and flexible work strategies
+metadata:
+  title: Describe how Microsoft 365 enables hybrid and flexible work strategies
+  description: "Describe how Microsoft 365 enables hybrid and flexible work strategies"
+  ms.date: 04/28/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-describe-how-microsoft-365-enables-hybrid-flexible-work-strategies.md)]

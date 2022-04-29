@@ -4,11 +4,11 @@ Power BI reports can be created in either Power BI Desktop or the Power BI servi
 
 The user starts by selecting the **Get Data** option on the ribbon. This option enables the user to choose from the many different data sources to which Power BI Desktop can connect. For example, if the user selects Excel, they're prompted to provide the location of the Excel file that Power BI Desktop will connect to.
 
-Power BI Desktop then loads the workbook, reads its contents, and displays the available data using the **Navigator** window. By marking the checkboxes beside each table, the user can choose what data to load into the Power BI Desktop.
+Power BI Desktop then loads the workbook, reads its contents, and displays the available data using the **Navigator** window. The user can choose what data to load into the Power BI Desktop by selecting the check boxes beside each table.
 
 Once the user indicates which tables should be loaded, the data can be viewed in the **Fields** pane. In many cases, the data will need to be cleaned and transformed to make it more useful and user-friendly. To do so, the user can select the option to edit the data. This option opens the Power Query Editor, which enables the user model the data before loading it into the **Fields** pane.
 
-**Additional reading.** For more information, see [Query overview in Power BI Desktop](/power-bi/desktop-query-overview).
+**Additional reading.** For more information, see [Query overview in Power BI Desktop](/power-bi/desktop-query-overview?azure-portal=true).
 
 ### Step 2 – Creating visualizations
 
@@ -26,4 +26,4 @@ There are several ways to share a report created in Power BI Desktop. The report
  -  upload the .pbix file to the Power BI service.
  -  publish the .pbix file directly from the Power BI Desktop to the Power BI service.
 
-The report creator must have a Power BI account to publish or upload reports to the Power BI service. When publishing a report, the user must select the destination from the list of workspaces. Once the report is published to the Power BI Service, the report creator and the users to which the report has been shared who have edit privileges can create a Dashboard based on the report’s visuals.
+The report creator must have a Power BI account to publish or upload reports to the Power BI service. When the user publishes a report, they must select the destination from the list of workspaces. Once the report is published to the Power BI Service, the report creator and the users to which the report has been shared who have edit privileges can create a Dashboard based on the report’s visuals.

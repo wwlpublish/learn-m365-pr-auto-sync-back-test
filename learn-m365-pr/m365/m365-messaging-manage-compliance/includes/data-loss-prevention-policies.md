@@ -65,16 +65,16 @@ You can add different types of Policy Tips - notify-only, block-message, or bloc
 1. Select **Add**, and then select the sensitive information types you want the Policy Tip to flag. Select **Add**, then select **OK** and **OK** again.
 1. Set **Do the following** to **Notify the sender with a Policy Tip**. Select an option in the **Choose whether the message is blocked or can be sent** list, and then select **OK**.
 1. If you want to add additional conditions or actions, at the bottom of the window, select **More options**. You can use the following conditions with Policy Tips:
-    - **The recipient is** (SentTo)
-    - **The recipient is located** (SentToScope)
-    - **The sender is** (From)
-    - **The sender is a member of** (FromMemberOf)
-    - **The sender is located** (FromScope)  
+    - **The recipient is** (`SentTo`)
+    - **The recipient is located** (`SentToScope`)
+    - **The sender is** (`From`)
+    - **The sender is a member of** (`FromMemberOf`)
+    - **The sender is located** (`FromScope`)
 
     You *can't* use the following actions:
-    - **Reject the message and include an explanation** (RejectMessageReasonText)
-    - **Reject the message with the enhanced status code of** (RejectMessageEnhancedStatusCode)
-    - **Delete the message without notifying anyone** (DeleteMessage)
+    - **Reject the message and include an explanation** (`RejectMessageReasonText`)
+    - **Reject the message with the enhanced status code of** (`RejectMessageEnhancedStatusCode`)
+    - **Delete the message without notifying anyone** (`DeleteMessage`)
 1. In **Choose a mode for this rule list**, select whether you want the rule to be enforced. It's a good idea to test the rule first.
 1. Select **Save** to finish modifying the rule and save your changes.
 

@@ -35,7 +35,6 @@ The Content Search tool is available in the Microsoft 365 Defender portal. Use t
 
 1. Select **Submit** to save the search.
 
-
 ## Preview search results
 
 You can control how your search results are displayed. After you run a new search or open an existing search, click **Individual results** to see the preview configuration. You have two choices:

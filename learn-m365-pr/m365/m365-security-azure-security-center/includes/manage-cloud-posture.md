@@ -217,9 +217,9 @@ You select a specific resource to drill down into it, and view the recommendatio
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4GsND) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/guides/Protect%20your%20hybrid%20cloud%20with%20Azure%20Security%20Center">![Microsoft Defender for Cloud.](../media/protect-your-hybrid-cloud.png)</a>  
+[:::image type="content" source="../media/protect-your-hybrid-cloud.png" alt-text="Microsoft Defender for Cloud." border="false":::](https://mslearn.cloudguides.com/guides/Protect%20your%20hybrid%20cloud%20with%20Azure%20Security%20Center)
 
-Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.
 
 ## Learn more
 

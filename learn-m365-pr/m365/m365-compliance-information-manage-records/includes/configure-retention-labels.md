@@ -37,9 +37,9 @@ The file plan descriptors step is unique to records management. File plan descri
 
 | Name  | Description  | Example  | Prepopulated?  |
 |---|---|---|---|
-| Reference   ID  | Free form unique field that could be used to refer to your formal file plan  | 764X37-9087  | No  |
+| Reference   ID  | Freeform unique field that could be used to refer to your formal file plan  | 764X37-9087  | No  |
 |  Business function/department |  Common department names are supplied, but you can add your own; for example, select Accounting | Finance	  | Yes  |
-| Category  | A list of categories is provided, but you can add you own  | Financial statements  |  Yes |
+| Category  | A list of categories is provided, but you can add your own  | Financial statements  |  Yes |
 |  Subcategory |  This lets you add a second level of categorization |  Income statements |  Yes |
 |  Authority type | The primary justification for the label  | Regulatory  | Yes  |
 | Provision/citation  | The name of the specific regulatory or legal provision the label applies to  | Sarbanes-Oxley Act of 2002  |  Yes |
@@ -48,7 +48,7 @@ The file plan descriptors step is unique to records management. File plan descri
 
 ### Retention
 
-Turn on retention if you want to apply retention settings to this label. If you leave retention off, the label behaves like a text label. When you turn on the label, this results in additional settings relating to whether the content should be deleted or retained. 
+Turn on retention if you want to apply retention settings to this label. If you leave retention off, the label behaves like a text label. When you turn on the label, this results in additional settings relating to whether the content should be deleted or retained.
 
 When the label is applied, the content is retained and/or deleted based on the settings you configure. If retained for some time, additional options are presented to configure what you should do after the retention period expires. You can also configure what triggers the retention period clock to start ticking.
 
