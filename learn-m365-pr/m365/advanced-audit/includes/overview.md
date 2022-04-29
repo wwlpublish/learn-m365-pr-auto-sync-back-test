@@ -24,9 +24,9 @@ Admins can go to a single place and use the same tools to access audit informati
 
 Organizations are increasingly trying to do more with auditing as the security and compliance landscape evolves. Traditionally, auditing has been used primarily for reporting purposes. For example, an IT admin would use audit to identify who was using what and how often, or organizations may use audit to provide documented audit trails. That type of auditing remains important, but organizations now want to do more with the signals captured in the audit logs. For example, security operations teams want to use auditing for investigating breaches and identified threats with an eye on proactive attack detection and prevention. Compliance and privacy teams want to know the services that are being used, along with applicable regulations. Overall, organizations need more tools to investigate data breaches and respond to security and compliance events in a defensible manner.
 
-## Audit (Premium) in Microsoft 365
+## Audit (Premium)
 
-Microsoft 365 Audit (Premium) adds new auditing capabilities that can help your organization with forensic and compliance investigations. Audit (Premium) builds on Microsoft 365 auditing and extends it with the following capabilities:
+Audit (Premium) adds new auditing capabilities that can help your organization with forensic and compliance investigations. Audit (Premium) builds on Microsoft 365 auditing and extends it with the following capabilities:
 
 - Access crucial events
 - Preserve audit logs
@@ -43,13 +43,13 @@ Microsoft 365 Audit (Premium) adds new auditing capabilities that can help your 
 
 ## Access crucial events
 
-Basic Microsoft 365 auditing capabilities give you access to over 1,500 audit event types that satisfy most requirements. However, there are some situations where this may not provide enough information to determine when someone breached your environment, or what the attacker accessed. For example, if an earnings document was leaked in an email, the basic auditing events don't tell you who opened the email. This signal could make a critical difference in a forensic investigation. Without clear indicators, you must assume the worst, which can lead to higher cost and longer turnaround time to control risk.
+Basic auditing capabilities give you access to over 1,500 audit event types that satisfy most requirements. However, there are some situations where this may not provide enough information to determine when someone breached your environment, or what the attacker accessed. For example, if an earnings document was leaked in an email, the basic auditing events don't tell you who opened the email. This signal could make a critical difference in a forensic investigation. Without clear indicators, you must assume the worst, which can lead to higher cost and longer turnaround time to control risk.
 
 New crucial security and compliance events will help you investigate security breaches. The first of these crucial audit events released is the `MailItemsAccessed` mailbox auditing action. This action is triggered when mail data is accessed by mail protocols and mail clients. The `MailItemsAccessed` action can help investigators identify data breaches and determine the scope of messages that may have been compromised. If an attacker gained access to email messages, the `MailItemsAccessed` action will be triggered even if no explicit signal messages were actually read.
 
 ## Preserve audit logs
 
-The default Microsoft 365 audit log retention period is 90 days. Research indicates the time to detect a breach is about 200 days. Audit log events have sometimes already been aged out and deleted by the time many breaches have been identified, rendering the logs useless to the investigation. Additionally, once detected, breach investigations can take six months to one year, outlasting the basic audit log retention period.
+The default audit log retention period is 90 days. Research indicates the time to detect a breach is about 200 days. Audit log events have sometimes already been aged out and deleted by the time many breaches have been identified, rendering the logs useless to the investigation. Additionally, once detected, breach investigations can take six months to one year, outlasting the basic audit log retention period.
 
 Longer term audit log retention can help with ongoing forensic or compliance investigations. Audit (Premium) retains all Exchange, SharePoint, and Azure Active Directory audit records for one year. This is accomplished by a default audit log retention policy that retains any audit record containing the value of `Exchange`, `SharePoint`, or `AzureActiveDirectory` for the Workload property, indicating the service with which the audit record is associated.
 

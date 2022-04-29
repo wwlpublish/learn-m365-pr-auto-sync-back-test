@@ -51,7 +51,7 @@ quiz:
         isCorrect: true
         explanation: "View-Only Audit Logs is the minimum required permission to allow a user to search the audit log. "
       
-    - content: "Audit (Premium) in Microsoft 365 provides a default audit log retention policy for all organizations. This policy retains all Exchange, SharePoint, and Azure Active Directory audit records for one year. If you create a custom audit log retention policy for Exchange mailbox activity that had a retention period of six months, audit records for Exchange mailbox will be retained for how long? "
+    - content: "Audit (Premium) provides a default audit log retention policy for all organizations. This policy retains all Exchange, SharePoint, and Azure Active Directory audit records for one year. If you create a custom audit log retention policy for Exchange mailbox activity that had a retention period of six months, audit records for Exchange mailbox will be retained for how long? "
       choices:
       - content: "Six months"
         isCorrect: true

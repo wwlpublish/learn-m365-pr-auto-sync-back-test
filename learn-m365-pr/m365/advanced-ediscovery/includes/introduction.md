@@ -18,16 +18,16 @@ Since 2005, [EDRM](http://www.edrm.net/?azure-portal=true) has delivered standar
 
 The EDRM diagram below represents a conceptual view of the eDiscovery process, not a linear one. Organizations may engage in some of the steps outlined in the diagram or elect to carry out the steps in a different order than shown here.
 
-:::image type="content" source="../media/electronic-discovery-reference-model.png" alt-text="Electronic Discovery Reference Model.":::
+:::image type="content" source="../media/electronic-discovery-reference-model.png" alt-text="Diagram of the Electronic Discovery Reference Model.":::
 
 It's also worth noting that the same step may be repeated numerous times or you may cycle back to earlier steps in order to refine your approach as a better understanding of the data emerges or as the nature of the matter changes.
 
 ## eDiscovery in Microsoft 365
 
-The eDiscovery solution in Microsoft 365 builds on the original, core [eDiscovery](/microsoft-365/compliance/ediscovery?azure-portal=true) solution in Microsoft 365 by providing expanded capabilities that enable you to do more while the data remains in-place in your tenant.
+The eDiscovery solution provides expanded capabilities that enable you to do more while the data remains in-place in your tenant.
 
 > [!div class="centered"]
-> :::image type="content" source="../media/all-microsoft-365.png" alt-text="eDiscovery solution in Microsoft 365.":::
+> :::image type="content" source="../media/all-microsoft-365.png" alt-text="Diagram that shows the eDiscovery features in Microsoft Purview.":::
 
 By providing expanded capabilities so that you can do more things in-place to further reduce and cull your data, eDiscovery in Microsoft 365 provides a workflow aligned to the EDRM framework that is more efficient and cost effective. In addition to the efficiency and cost savings, the reduction of risk cannot be understated here – the in-place culling and reduction of data helps to keep sensitive and private data within the tenant without having to share additional copies to outside vendors unless absolutely necessary.
 
@@ -45,7 +45,7 @@ At a high level, here's how eDiscovery supports the EDRM processes and workflow:
 At Microsoft, we have seen the average volume of user-generated data grow from 4 GB per custodian 10 years ago to a current average of 81 GB – 20x growth that is represented illustrated in the chart below by the black line.
 
 > [!div class="centered"]
-> :::image type="content" source="../media/reduce-cost.png" alt-text="Microsoft's legal team found 85% reduction in cost per custodian" lightbox="../media/reduce-cost.png":::
+> :::image type="content" source="../media/reduce-cost.png" alt-text="Chart that shows the 85% reduction in cost per custodian" lightbox="../media/reduce-cost.png":::
 
 Even with this tremendous growth in data, the graph shows our cost savings we have seen with the adoption of Office 365 and in-place preservation and eDiscovery. You can see the transition from the "traditional" eDiscovery approach where we outsourced all of the processing and searching of data by sending it to our third-party eDiscovery partner represented by the left-most bar (100 percent), the use of eDiscovery (Standard) to cull in-place that saved us approximately 70 percent of our costs, and then the adoption of the eDiscovery analytics that helped to reduce our costs by an additional 50 percent for an overall average savings of nearly 85 percent.
 
@@ -67,7 +67,7 @@ For a quick look at eDiscovery in Microsoft 365, watch:
 If you've ever worked with the core eDiscovery solution in the Microsoft 365 Defender portal, you may be aware that you could further manage a case using eDiscovery by clicking **Switch to eDiscovery**. This opened the case in eDiscovery (classic) which is being retired. Its functionality has been replaced by a new version of eDiscovery in the Microsoft Purview compliance portal.
 
 > [!div class="centered"]
-> :::image type="content" source="../media/microsoft-365-compliance-center.png" alt-text="Microsoft Purview compliance portal." lightbox="../media/microsoft-365-compliance-center.png":::
+> :::image type="content" source="../media/microsoft-365-compliance-center.png" alt-text="Screenshot of the Microsoft Purview compliance portal." lightbox="../media/microsoft-365-compliance-center.png":::
 
 Version 2.0 of the eDiscovery solution in Microsoft provides all of the capabilities of the original solution, but now includes a custodian-based approach of identifying content in other Microsoft 365 services, collecting that content, and then adding it to a review set where reviewers can take advantage of fast search queries, tagging, and analytics features to help cull relevant documents. It includes improved processing and native viewers for both Microsoft and non-Microsoft file types, and provides a custodian holds management feature that lets you apply holds to content in different services, notify users of the holds, and track custodian responses, all within an eDiscovery case.
 
