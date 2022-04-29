@@ -14,4 +14,4 @@ After completing this module, you'll be able to:
  -  Explain the attributes of a collaborative user.
  -  Demonstrate Azure Active Directory B2B collaboration.
  -  Identify the differences between external access and guest access using Microsoft Teams.
- -  Describe usage scenarios for Customer Lockbox requests.
+ -  Describe usage scenarios for Customer Lockbox requests. 
