@@ -35,7 +35,7 @@ An organization can share information across app governance, Azure AD, and Micro
 
 The following graphic displays a summary of the integration.
 
-:::image type="content" source="../media/app-governance-architecture-3d489fa6.png" alt-text="Graphic shows a summary of the integration between app governance, Azure Active Directory, and Microsoft Defender for Cloud Apps.":::
+:::image type="content" source="../media/app-governance-architecture-3d489fa6.png" alt-text="Diagram shows a summary of the integration between app governance, Azure Active Directory, and Microsoft Defender for Cloud Apps.":::
 
 
 App governance sends its alerts to Microsoft Defender for Cloud Apps and Microsoft Defender for Cloud. It then receives alerts from Microsoft Defender for Cloud Apps. These alerts enable more detailed analysis of app-based security incidents.
