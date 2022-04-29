@@ -13,3 +13,9 @@ Microsoft Endpoint Manager includes the following service and capabilities:
  -  **Windows Autopilot.** Windows Autopilot sets up and pre-configures new devices, getting them ready for use. It's designed to simplify the lifecycle of Windows devices, for both IT and end-users, from initial deployment through end of life. You can use Autopilot to preconfigure devices, and automatically enroll devices in Intune. You can also integrate Autopilot with Configuration Manager and co-management for more complex device configurations (in preview).
  -  **Azure AD.** Azure AD is used by Endpoint Manager for identity of devices, users, groups, and multi-factor authentication (MFA). Azure AD Premium, which may be an extra cost, has other features to help protect devices, apps, and data, including dynamic groups, auto-enrollment, and conditional access.
  -  **Endpoint Manager admin center.** This admin center is a one-stop web site to create policies and manage your devices. It plugs-in other key device management services, including groups, security, conditional access, and reporting. This admin center also shows devices managed by Configuration Manager and Intune (in preview).
+
+#### Manage devices with Microsoft Endpoint Manager
+
+Follow the interactive walkthrough to learn how to manage and protect mobile desktop applications through Microsoft Endpoint Manager admin center.
+
+> [!VIDEO https://mslearn.cloudguides.com/guides/Manage%20devices%20with%20Microsoft%20Endpoint%20Manager]
