@@ -8,4 +8,4 @@ A common scenario in many organizations involves users who occasionally forget t
 
 The module then examined multifactor authentication, which is an optional password security feature in Microsoft 365. Multifactor authentication is a method of authentication that requires the use of more than one verification method. This design adds a second layer of security to user sign-ins and transactions.
 
-The module concluded by exploring various best practices that Messaging administrators should consider when planning password management policies.
+Next, this module explored various best practices that Messaging administrators should consider when planning password management policies. We then reviewed how to configure modern authentication and reviewed the various security functionalities it enables.

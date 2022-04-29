@@ -84,4 +84,4 @@ Additionally, set **Auto reboot before deadline** to **Yes**. This allows a devi
 
 The following interactive click-through will help you bring together what you've learned so far, and demonstrate how you can deploy updates using Microsoft's recommended values for Windows 10 update management in Microsoft Intune. Select the image below to get started.
 
-[![Interactive guide](../media/5-interactive-guide.png)](https://edxinteractivepage.blob.core.windows.net/edxpages/cloud-managed-devices-learning-module/Deploy-updates-for-Windows-10-using-Microsoft-Intune/index.html?azure-portal=true)
+[:::image type="content" source="../media/5-interactive-guide.png" alt-text="Cover for interactive guide that reads Manage Windows 10 Updates in the cloud: Deploy updates using the recommended values for Windows 10 update management in Microsoft Intune." border="false":::](https://edxinteractivepage.blob.core.windows.net/edxpages/cloud-managed-devices-learning-module/Deploy-updates-for-Windows-10-using-Microsoft-Intune/index.html?azure-portal=true)
