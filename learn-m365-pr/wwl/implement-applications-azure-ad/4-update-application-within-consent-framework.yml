@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-applications-azure-ad.update-application-within-consent-framework
+title: Update an application within the Azure AD consent framework
+metadata:
+  title: Update an application within the Azure AD consent framework
+  description: "Update an application within the Azure AD consent framework"
+  ms.date: 04/29/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-update-application-within-consent-framework.md)]
