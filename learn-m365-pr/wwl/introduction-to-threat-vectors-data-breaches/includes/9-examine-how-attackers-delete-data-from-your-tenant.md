@@ -2,9 +2,9 @@ Data deletion occurs when an attacker deletes your data, usually in a way that m
 
 Attackers are motivated by various data deletion goals, including:
 
- *  Covering the tracks of an attack.
- *  Attempting to do irreparable harm to your business.
- *  Trying to spite you or your employees.
+ -  Covering the tracks of an attack.
+ -  Attempting to do irreparable harm to your business.
+ -  Trying to spite you or your employees.
 
 ### Preventing data deletion
 
