@@ -4,12 +4,13 @@ title: Explore today's work and threat landscape
 metadata:
   title: Explore today's work and threat landscape
   description: "Explore today's work and threat landscape"
-  ms.date: 04/29/2021
+  ms.date: 04/28/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 3
 content: |
   [!include[](includes/2-explore-todays-work-threat-landscape.md)]
