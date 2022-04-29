@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As Tailspin Toys' Enterprise Administrator, Alan Deyoung wants to implement Microsoft Identity Manager to help protect Tailspin's privileged accounts. Looking towards the future, Alan wants to begin implementing passwordless authentication. Alan has enforced multifactor authentication and removed passwords. What's the next task that Alan should complete to set up passwordless authentication at Tailspin Toys?"
+  - content: "As Tailspin Toys' Enterprise Administrator, Alan Deyoung wants to implement Microsoft Identity Manager to help protect Tailspin's privileged accounts. Alan wants to begin by implementing passwordless authentication. Alan has enforced multifactor authentication and removed passwords. What's the next task that Alan should complete to set up passwordless authentication at Tailspin Toys?"
     choices:
     - content: "Reduce legacy authentication workflows"
       isCorrect: true
