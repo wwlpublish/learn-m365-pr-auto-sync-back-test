@@ -21,13 +21,13 @@ quiz:
     choices:
     - content: "Implement Data Loss Prevention policies"
       isCorrect: false
-      explanation: "Incorrect. This action will have more affect on user productivity and take longer to implement."
+      explanation: "Incorrect. This action will have more effect on user productivity and take longer to implement."
     - content: "Enable multifactor authentication on all admin accounts"
       isCorrect: true
-      explanation: "Correct. This action will have the lowest affect on user productivity while providing immediate gains."
+      explanation: "Correct. This action will have the lowest effect on user productivity while providing immediate gains."
     - content: "Enable Information Rights Management"
       isCorrect: false
-      explanation: "Incorrect. This action will have more affect on user productivity and take longer to implement."
+      explanation: "Incorrect. This action will have more effect on user productivity and take longer to implement."
   - content: "Which of the following statements accurately reflects Secure Score functionality?"
     choices:
     - content: "All improvement actions only give points when fully completed"
