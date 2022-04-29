@@ -11,3 +11,4 @@ After completing this module, you'll be able to:
  -  Describe how Privileged Identity Management audit history enables you to see all the user assignments and activations within a given time period for all privileged roles.
  -  Explain how Microsoft Identity Manager helps organizations manage the users, credentials, policies, and access within their organizations and hybrid environments.
  -  Explain how Privileged Access Management provides granular access control over privileged admin tasks in Microsoft 365.
+
