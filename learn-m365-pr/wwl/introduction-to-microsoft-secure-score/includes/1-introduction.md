@@ -11,3 +11,4 @@ After completing this module, you'll be able to:
  -  Describe how to use the tool to identify gaps between your current state and where you would like to be regarding security.
  -  Identify actions that will increase your security by mitigating risks.
  -  Explain where to look to determine the threats each action will mitigate and the effect it has on users.
+
