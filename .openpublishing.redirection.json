@@ -2474,6 +2474,46 @@
       "source_path": "learn-m365-pr/wwl/manage-authentication-for-messaging/7-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/manage-authentication-for-messaging/8-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-threat-protection-microsoft-365-defender/8-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-threat-protection-microsoft-365-defender/10-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-threat-protection-microsoft-365-defender/9-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-threat-protection-microsoft-365-defender/11-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-applications-azure-ad/2-add-application-within-your-tenant.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-applications-azure-ad/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-applications-azure-ad/3-update-application-within-consent-framework.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-applications-azure-ad/4-update-application-within-consent-framework",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-applications-azure-ad/4-configure-multi-tenant-applications.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-applications-azure-ad/5-configure-multi-tenant-applications",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-applications-azure-ad/5-remove-applications-registration-from-your-tenant.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-applications-azure-ad/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-applications-azure-ad/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-applications-azure-ad/8-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-applications-azure-ad/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-applications-azure-ad/9-summary",
+      "redirect_document_id": true
     }
   ]
 }

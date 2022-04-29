@@ -6,4 +6,4 @@ Once your application has been registered with Azure AD, it may need to be updat
 
 This module then examined how to modify the configuration of a single-tenant application to make it a multi-tenant application. Single-tenant apps can only be accessed by users in your organization. Conversely, multi-tenant apps are accessible to users in external organizations.
 
-The module concluded by showing how to remove an application's registration from your Azure AD tenant.
+The module concluded by examining how to manage OAuth application requests and monitor app governance for OAuth-enabled apps.
