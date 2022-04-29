@@ -27,4 +27,4 @@ quiz:
       explanation: "Incorrect. Cloud security analytics uses big-data, device-learning, and unique Microsoft optics across the Windows ecosystem, enterprise cloud products (such as Microsoft 365), and online assets. Behavioral signals are then translated into insights, detections, and recommended responses to advanced threats."
     - content: "Endpoint behavioral sensors"
       isCorrect: true
-      explanation: "Correct. Embedded in Windows 10, these sensors collect and process behavioral signals from the operating system. They then send this sensor data to your private, isolated, cloud instance of Microsoft Defender for Endpoint."
+      explanation: "Correct. These sensors are embedded in Windows 10. They collect and process behavioral signals from the operating system. They then send this sensor data to your private, isolated, cloud instance of Microsoft Defender for Endpoint."
