@@ -16,4 +16,3 @@ After completing this module, you'll be able to:
  -  Mitigate an account breach.
  -  Prevent an elevation of privilege attack.
  -  Prevent data exfiltration, data deletion, and data spillage.
-

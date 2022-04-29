@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Account isolation"
       isCorrect: false
-      explanation: "Incorrect. This isn't a strategy to help prevent malicious elevation of privilege attacks."
+      explanation: "Incorrect. This item isn't a strategy to help prevent malicious elevation of privilege attacks."
     - content: "Variable password mitigation"
       isCorrect: false
-      explanation: "Incorrect. This isn't a strategy to help prevent malicious elevation of privilege attacks."
+      explanation: "Incorrect. This item isn't a strategy to help prevent malicious elevation of privilege attacks."
     - content: "Azure AD Multi-Factor Authentication"
       isCorrect: true
       explanation: "Correct. To counter elevation of privilege attacks, it's recommended that you implement multi-factor authentication, especially with admin accounts or accounts with access to sensitive content."
