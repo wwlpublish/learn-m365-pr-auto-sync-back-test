@@ -25,3 +25,4 @@ After completing this module, you'll be able to:
 
 > [!NOTE]
 > Microsoft Defender for Office 365, Threat Intelligence, Advanced Security Management, and most of the Alert capabilities require a Microsoft 365 E5 subscription for your organization. If you don't have that plan and want to try these features, you can [sign up for a trial of Microsoft 365 Enterprise E5](https://go.microsoft.com/fwlink/?linkid=858586).
+
