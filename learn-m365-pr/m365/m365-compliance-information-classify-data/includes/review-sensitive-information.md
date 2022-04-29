@@ -12,7 +12,7 @@ You can complete the following tasks in the overview section:
 - Monitor risky activities associated with sensitive information to inform DLP policies.
 - Understand label utilization across Microsoft 365 to improve protection and governance policies.
 
-:::image type="content" source="../media/data-classification-overview.png" alt-text="Screenshot showing Microsoft 365 compliance center, with the Data classification overview dashboard displayed." border="false":::
+:::image type="content" source="../media/data-classification-overview.png" alt-text="Screenshot showing Microsoft Purview compliance portal, with the Data classification overview dashboard displayed." border="false":::
 
 The **Overview** page includes the following cards:
 

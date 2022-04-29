@@ -4,7 +4,7 @@ Mailbox auditing generates audit records for access to email messages so you can
 
 ## Auditing sync access
 
-Sync operations are recorded when a mailbox is accessed by a desktop version of the Outlook client for Windows or Mac. A significant number of mail items are typically downloaded from Exchange Online to the local computer during the sync operation. As a result, the audit volume generated can be substantial. Instead of generating an audit record for each synced email, Advanced Audit generates an audit event for the mail folder containing the synced items. The assumption should be made that all mail items in the synced folder have been compromised.
+Sync operations are recorded when a mailbox is accessed by a desktop version of the Outlook client for Windows or Mac. A significant number of mail items are typically downloaded from Exchange Online to the local computer during the sync operation. As a result, the audit volume generated can be substantial. Instead of generating an audit record for each synced email, Audit (Premium) generates an audit event for the mail folder containing the synced items. The assumption should be made that all mail items in the synced folder have been compromised.
 
 ## Auditing bind access
 

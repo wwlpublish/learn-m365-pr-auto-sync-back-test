@@ -46,7 +46,7 @@ If content is subject to multiple policies that delete content (with no retentio
 
  Deciding what you want to keep and for how long is at the core of information governance. Business, legal, and compliance requirements can impact your information governance strategy. Those responsible for information governance in your organization should identify the content to retain or dispose for business and legal requirements. The governance team will also need to identify the regulations that apply to your organization, many of which include information governance requirements.
 
-**Microsoft Compliance Score** maps these compliance regulations, like the US Health Insurance Portability and Accountability Act (HIPAA), to actions recommended to achieve compliance. Many of these actions can be addressed using the **Information governance** solution. The image below shows the improvement actions in the **Information governance** solution the organization can take to improve its compliance posture relative to HIPAA.
+**Compliance score** maps these compliance regulations, like the US Health Insurance Portability and Accountability Act (HIPAA), to actions recommended to achieve compliance. Many of these actions can be addressed using the **Information governance** solution. The image below shows the improvement actions in the **Information governance** solution the organization can take to improve its compliance posture relative to HIPAA.
   
 :::image type="content" source="../media/compliance-score.png" alt-text="Screenshot showing Microsoft compliance score.":::
 
@@ -54,9 +54,9 @@ One of the first steps in creating a retention label is to tell Microsoft 365 if
 
 :::image type="content" source="../media/label-settings.png" alt-text="Screenshot shows Retention label settings. The retention button is turned off.":::
 
-The instructions in the rest of this module assume you have added **Information governance** to the **Microsoft 365 compliance center** menu. This is also recommended if you are going to be working with the solution frequently. Here are the steps:
+The instructions in the rest of this module assume you have added **Information governance** to the **Microsoft Purview compliance portal** menu. This is also recommended if you are going to be working with the solution frequently. Here are the steps:
 
-1. Open [**Microsoft 365 compliance center**](https://compliance.microsoft.com?azure-portal=true) in your web browser address bar.
+1. Open [**Microsoft Purview compliance portal**](https://compliance.microsoft.com?azure-portal=true) in your web browser address bar.
 1. Click **Customize navigation**.
 1. Check the box that says **Information governance**.
 1. Click **Save**.

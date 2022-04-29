@@ -4,9 +4,9 @@ This section discusses the *Analysis* phase of the EDRM model.
 > [!div class = "centered"]
 > :::image type="content" source="../media/edrm-model-4.png" alt-text="Phase 6 of the EDRM model – Analysis." lightbox="../media/edrm-model-4.png" border="false":::
 
-When an evidence collection is large, it often includes multiple copies of the same or similar email messages or documents. Analysis tools in Advanced eDiscovery support the Analysis phase of the EDRM model by enabling you to cull data from the review set that isn't relevant to the investigation.
+When an evidence collection is large, it often includes multiple copies of the same or similar email messages or documents. Analysis tools in eDiscovery support the Analysis phase of the EDRM model by enabling you to cull data from the review set that isn't relevant to the investigation.
 
-Advanced eDiscovery is integrated with capabilities such as:
+eDiscovery is integrated with capabilities such as:
 
 - Near duplicates and email threading
 - Themes
@@ -16,11 +16,11 @@ Advanced eDiscovery is integrated with capabilities such as:
 
 By reducing the volume of relevant data, these capabilities help you save legal review costs by enabling you to organize content to make the review process easier and more efficient.
 
-To configure how data in your review set is further culled, open the case in Advanced eDiscovery and navigate to the **Settings** tab. Click **Select** under **Search & analytics**.
+To configure how data in your review set is further culled, open the case in eDiscovery and navigate to the **Settings** tab. Click **Select** under **Search & analytics**.
 
 To configure search and analytics settings for a case:
 
-1. On the **Advanced eDiscovery** page, select the case.
+1. On the **eDiscovery** page, select the case.
 1. On the **Settings** tab, under **Search & analytics**, click **Select**.
 
     :::image type="content" source="../media/analytics.png" alt-text="Configure search and analytics settings for a case." lightbox="../media/analytics.png" border="false":::
@@ -46,18 +46,18 @@ This section lets you configure the following parameters:
 
 ### Themes
 
-The Themes functionality analyzes documents with text in a review set to parse out common themes that appear across all the documents in the review set. Advanced eDiscovery assigns those themes to the documents in which they appear. It also labels each theme with the words used in the documents that are representative of the theme. Because a document can contain various types of subject matter, Advanced eDiscovery often assigns multiple themes to documents. The theme that appears most prominently in a document is designated as its dominant theme.
+The Themes functionality analyzes documents with text in a review set to parse out common themes that appear across all the documents in the review set. eDiscovery assigns those themes to the documents in which they appear. It also labels each theme with the words used in the documents that are representative of the theme. Because a document can contain various types of subject matter, eDiscovery often assigns multiple themes to documents. The theme that appears most prominently in a document is designated as its dominant theme.
 
 This section lets you set the following parameters:
 
 - **Themes**. When turned on, themes clustering is performed as part of the workflow when you run analytics on the data in a review set.
 - **Maximum number of themes**. Specifies the maximum number of themes that can be generated when you run analytics on the data in a review set.
 - **Include numbers in themes**. When turned on, numbers (that identify a theme) are included when generating themes.
-- **Adjust maximum number of themes dynamically**. In certain situations, there may not be enough documents in a review set to produce the desired number of themes. When this setting is enabled, Advanced eDiscovery adjusts the maximum number of themes dynamically rather than attempting to enforce the maximum number of themes.
+- **Adjust maximum number of themes dynamically**. In certain situations, there may not be enough documents in a review set to produce the desired number of themes. When this setting is enabled, eDiscovery adjusts the maximum number of themes dynamically rather than attempting to enforce the maximum number of themes.
 
 ### Review set query
 
-If you select the **Automatically create a For Review saved search after analytics** checkbox, Advanced eDiscovery autogenerates review set query named **For Review**.
+If you select the **Automatically create a For Review saved search after analytics** checkbox, eDiscovery autogenerates review set query named **For Review**.
 
  :::image type="content" source="../media/review-set-query.png" alt-text="Review set query named For Review." lightbox="../media/review-set-query.png" border="false":::
 
@@ -74,7 +74,7 @@ Sometimes certain text will diminish the quality of analytics, such as lengthy d
 
 ### Optical character recognition (OCR)
 
-When optical character recognition is enabled in a case, the OCR functionality automatically extracts text from images and includes the image text with the data that is added to a review set. You can view the extracted  text in the Text viewer of the selected image file in the review set. This lets you conduct further review and analysis on text in images. OCR is supported for loose files, email attachments, and embedded images. For a list of image file formats that are supported for OCR, see [Supported file types in Advanced eDiscovery](/microsoft-365/compliance/supported-filetypes-ediscovery20?azure-portal=true).
+When optical character recognition is enabled in a case, the OCR functionality automatically extracts text from images and includes the image text with the data that is added to a review set. You can view the extracted  text in the Text viewer of the selected image file in the review set. This lets you conduct further review and analysis on text in images. OCR is supported for loose files, email attachments, and embedded images. For a list of image file formats that are supported for OCR, see [Supported file types in eDiscovery](/microsoft-365/compliance/supported-filetypes-ediscovery20?azure-portal=true).
 
 > [!NOTE]
-> You have to enable OCR functionality for each case that you create in Advanced eDiscovery.
+> You have to enable OCR functionality for each case that you create in eDiscovery.

@@ -1,12 +1,12 @@
 You must be assigned the Organization Configuration role in the Microsoft 365 Defender portal to create or modify an audit log retention policy. This can be accomplished by adding the admin to the Organization Manager role group using the Microsoft 365 Defender portal or Security & Compliance Center PowerShell.
 
-Once you have the appropriate permissions, audit log retention policies can be created using the Microsoft 365 compliance center or Security & Compliance PowerShell.
+Once you have the appropriate permissions, audit log retention policies can be created using the Microsoft Purview compliance portal or Security & Compliance PowerShell.
 
 > [!NOTE]
 > Both the Exchange admin center and the Microsoft 365 Defender portal have a role group named Organization Manager. They are not the same.
 
 > [!Important]
-> The Security & Compliance Center PowerShell is the administrative interface that enables you to manage the features that are available in the Microsoft 365 Defender portal and the Microsoft 365 compliance center from the command line.
+> The Security & Compliance Center PowerShell is the administrative interface that enables you to manage the features that are available in the Microsoft 365 Defender portal and the Microsoft Purview compliance portal from the command line.
 
 ## Connect to Security & Compliance Center PowerShell
 
@@ -69,11 +69,11 @@ You must be assigned the Organization Configuration role in the Microsoft 365 De
 
     :::image type="content" source="../media/role-group.png" alt-text="User confirmation screen.":::
 
-## Create audit log retention policy in Microsoft 365 compliance center
+## Create audit log retention policy in Microsoft Purview compliance portal
 
-Audit log retention policies can be created using the Microsoft 365 compliance center.
+Audit log retention policies can be created using the Microsoft Purview compliance portal.
 
-1. Sign into the Microsoft 365 compliance center using an account with the appropriate rights.
+1. Sign into the Microsoft Purview compliance portal using an account with the appropriate rights.
 2. Open the **Audit** solution.
 3. Select **Create Policy**, then complete the **Create Retention Policy** form. The table below provides information needed to complete the form.
 
@@ -89,9 +89,9 @@ Audit log retention policies can be created using the Microsoft 365 compliance c
 
 There is no visual feedback indicating the audit retention policy is created. The list of audit log retention policies is available via the PowerShell cmdlet `Get-UnifiedAuditLogRetentionPolicy`. An example of how to use this cmdlet is provided later in this course.
 
-### Create audit log retention policy in Microsoft 365 compliance center
+### Create audit log retention policy in Microsoft Purview compliance portal
 
-Watch this video on how to create an audit log retention policy using Microsoft 365 compliance center.
+Watch this video on how to create an audit log retention policy using Microsoft Purview compliance portal.
 >
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Asf6]
 

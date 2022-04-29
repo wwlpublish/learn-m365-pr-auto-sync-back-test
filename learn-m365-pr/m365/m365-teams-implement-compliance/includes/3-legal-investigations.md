@@ -77,7 +77,7 @@ If there is a chance of litigation, you must preserve electronically stored info
 
 To put a user or a team on legal hold:
 
-1. To create a case, in the Microsoft 365 Defender portal go to **eDiscovery** or **Advanced eDiscovery** and select **+ Create a case**. When the case is created, open it.
+1. To create a case, in the Microsoft 365 Defender portal go to **eDiscovery** or **eDiscovery** and select **+ Create a case**. When the case is created, open it.
 
    :::image type="content" source="../media/3-legal-hold-1.png" alt-text="Create a case":::
 

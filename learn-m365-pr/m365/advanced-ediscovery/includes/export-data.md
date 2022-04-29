@@ -21,11 +21,11 @@ To export content from a review set, start by selecting the files you want to do
 
 ## Download export jobs using Azure Storage Explorer
 
-When you export documents from a review set in an Advanced eDiscovery case, you have the ability to either upload the documents to a Microsoft-provided Azure Storage location, or to an Azure Storage location managed by your organization.
+When you export documents from a review set in an eDiscovery case, you have the ability to either upload the documents to a Microsoft-provided Azure Storage location, or to an Azure Storage location managed by your organization.
 
 A configuration page provides you with the following options for how to export the content, enabling you to choose the settings that make the most sense in the context of your investigation:
 
-- **Metadata file**. This can be considered your "load file" that contains metadata associated with the files you export. For a list of exported fields available in the metadata file, see [Document metadata fields in Advanced eDiscovery](/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery?azure-portal=true). This file can typically be ingested by third-party tools.
+- **Metadata file**. This can be considered your "load file" that contains metadata associated with the files you export. For a list of exported fields available in the metadata file, see [Document metadata fields in eDiscovery](/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery?azure-portal=true). This file can typically be ingested by third-party tools.
 - **Tag data**. This content would be added as fields in the metadata file. It contains all the tag information applied in review sets.
 - **Text files**. Text files can be generated for each file exported from a review set. Often, these files are required by service partners as part of ingesting data into third-party tools.
 - **Redacted files**. If redacted PDF files are generated during review, these files are available during export. You can decide whether to export native files only or to replace the native files that required redaction with the PDF files that contain the actual redactions.
@@ -56,7 +56,7 @@ To export content:
 
     :::image type="content" source="../media/connect-azure-storage.png" alt-text="Export content, step 5." border="false":::
 
-1. On the **Attach with SAS URI** page, click in the URI box, and then paste the SAS URI that you copied in Step 4. Notice that a portion of the SAS URI is displayed in the **Display name** box. This will be used as the display name of the container that is created under the **Storage accounts** after you connect to the storage location. This name consists of the ID of the Advanced eDiscovery case is from and a unique identifier. You can keep the default display name or change it. If you change it, the display name must be unique.
+1. On the **Attach with SAS URI** page, click in the URI box, and then paste the SAS URI that you copied in Step 4. Notice that a portion of the SAS URI is displayed in the **Display name** box. This will be used as the display name of the container that is created under the **Storage accounts** after you connect to the storage location. This name consists of the ID of the eDiscovery case is from and a unique identifier. You can keep the default display name or change it. If you change it, the display name must be unique.
 
     :::image type="content" source="../media/attach-sas-url.png" alt-text="Export content, step 6." border="false":::
 
@@ -97,5 +97,5 @@ Root folder – Download ID
 
 ## Learn more
 
-- [Document metadata fields in Advanced eDiscovery](/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery?azure-portal=true)
+- [Document metadata fields in eDiscovery](/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery?azure-portal=true)
 - [Azure Storage Explorer tool](https://go.microsoft.com/fwlink/p/?LinkId=544842?azure-portal=true)

@@ -1,4 +1,4 @@
-This module describes Advanced eDiscovery administration in the following areas:
+This module describes eDiscovery administration in the following areas:
 
 - Permissions and licensing
 - Adding or removing members from a case
@@ -12,15 +12,15 @@ This module describes Advanced eDiscovery administration in the following areas:
 
 This section explains permissions that a user must have to manage the following:
 
-- Use Advanced eDiscovery
+- Use eDiscovery
 - View custodian audit activity
 - Load non-Microsoft 365 data
 - Set up Attorney-Client Privilege Detection
-- Access Advanced eDiscovery Reports (in Preview)
+- Access eDiscovery Reports (in Preview)
 
 ### Permissions to use eDiscovery
 
-To access Advanced eDiscovery in the Microsoft 365 compliance center, you must assign the user the appropriate permissions. Specifically, a user must be added as a member of the eDiscovery Manager or eDiscovery Administrators role group on the **Permissions** page in the Microsoft 365 Defender portal.
+To access eDiscovery in the Microsoft Purview compliance portal, you must assign the user the appropriate permissions. Specifically, a user must be added as a member of the eDiscovery Manager or eDiscovery Administrators role group on the **Permissions** page in the Microsoft 365 Defender portal.
 
 Members of these two role groups can do the following:
 
@@ -34,7 +34,7 @@ Members of these two role groups can do the following:
 
 Additionally, an eDiscovery Administrator can:
 
-- View all cases that are listed on the Advanced eDiscovery page.
+- View all cases that are listed on the eDiscovery page.
 - Manage any case in the organization after they add themselves as a member of the case.
 - Access and export case data for any case in the organization.
 
@@ -46,11 +46,11 @@ To view custodian activity in the audit log, you must be assigned the View-Only 
 
 :::image type="content" source="../media/exchange-admin-center.png" alt-text="Exchange admin center." lightbox="../media/exchange-admin-center.png":::
 
-To give a user the ability to search the Advanced eDiscovery audit log with the minimum level of privileges, you can create a custom role group in Exchange Online, add the View-Only Audit Logs or Audit Logs role, and then add the user as a member of the new role group.
+To give a user the ability to search the eDiscovery audit log with the minimum level of privileges, you can create a custom role group in Exchange Online, add the View-Only Audit Logs or Audit Logs role, and then add the user as a member of the new role group.
 
 ### Permissions to load non-Microsoft 365 data
 
-Uploading non-Microsoft 365 data using the import feature in Advanced eDiscovery requires an account that is assigned to the eDiscovery Manager role group and added as eDiscovery Administrator.
+Uploading non-Microsoft 365 data using the import feature in eDiscovery requires an account that is assigned to the eDiscovery Manager role group and added as eDiscovery Administrator.
 
 ### Permissions to set up Attorney-Client Privilege Detection
 
@@ -64,10 +64,10 @@ To run the compliance security filter cmdlets, you must be a member of the Organ
 
 Microsoft 365 E3 only provides the rights for a user to benefit from core eDiscovery features as illustrated in the table below.
 
-:::image type="content" source="../media/microsoft-365-ediscovery-features.png" alt-text="Microsoft 365 eDiscovery features by plan.":::
+:::image type="content" source="../media/microsoft-365-ediscovery-features.png" alt-text="Microsoft Purview eDiscovery features by plan.":::
 
 > [!NOTE]
-> Advanced eDiscovery is a capability included with:
+> eDiscovery is a capability included with:
 >
 > - Microsoft 365 E5
 > - Microsoft 365 E5 Compliance
@@ -77,9 +77,9 @@ Microsoft 365 E3 only provides the rights for a user to benefit from core eDisco
 
 ## Add or remove members from a case
 
-You can add or remove members to manage who can access the case. However, before a member can access and perform tasks in an Advanced eDiscovery case, you must add the user to the eDiscovery Manager role group on the **Permissions** page in the [Microsoft 365 Defender portal](https://security.microsoft.com?azure-portal=true).
+You can add or remove members to manage who can access the case. However, before a member can access and perform tasks in an eDiscovery case, you must add the user to the eDiscovery Manager role group on the **Permissions** page in the [Microsoft 365 Defender portal](https://security.microsoft.com?azure-portal=true).
 
-On the **Advanced eDiscovery** page, go to the case that you want to add a member to.
+On the **eDiscovery** page, go to the case that you want to add a member to.
 
 1. Click the **Settings** tab and then click **Select** in the **Access & permissions** tile.
 1. Click **Update.**
@@ -117,7 +117,7 @@ Compliance boundaries are defined and managed by using a combination of role gro
 
 #### Create a role group for each agency
 
-Role groups are used to control who can see the eDiscovery cases in the Microsoft 365 Compliance Center. This means that eDiscovery managers and investigators can only see the eDiscovery cases in their agency. Role groups also control who can assign members to an eDiscovery case. This means eDiscovery managers and investigators can only assign members to cases that they themselves are a member of. We recommend that you create a role group by copying the built-in eDiscovery Managers group, adding the appropriate members, and removing roles that may not be applicable to your needs.
+Role groups are used to control who can see the eDiscovery cases in the Microsoft Purview compliance portal. This means that eDiscovery managers and investigators can only see the eDiscovery cases in their agency. Role groups also control who can assign members to an eDiscovery case. This means eDiscovery managers and investigators can only assign members to cases that they themselves are a member of. We recommend that you create a role group by copying the built-in eDiscovery Managers group, adding the appropriate members, and removing roles that may not be applicable to your needs.
 
 To create the role groups, go to the **Permissions** page in the [Microsoft 365 Defender portal](https://security.microsoft.com?azure-portal=true) and create a role group for each team in each agency that will use compliance boundaries and eDiscovery cases to manage investigations.
 
@@ -168,30 +168,30 @@ When the investigation is completed, you can close or delete the case. In most i
 
 - If the case contains any content locations on hold, those holds will be turned off. This might result in content being permanently deleted or purged, either by the user or by an automated process, such as a deletion policy.
 - Closing a case only turns off the holds that are associated with that case. If other holds are placed on a content location (such as a Litigation Hold, a Preservation policy, or a hold from a different eDiscovery case) those holds will still be maintained.
-- The case is still listed on the Advanced eDiscovery page in the Microsoft 365 compliance center. The details, holds, searches, and members of a closed case are retained.
-- You can edit a case after it is closed. For example, you can add or remove members, create searches, export search results, and prepare search results for analysis in Advanced eDiscovery. The primary difference between active and closed cases is that holds are turned off when a case is closed.
+- The case is still listed on the eDiscovery page in the Microsoft Purview compliance portal. The details, holds, searches, and members of a closed case are retained.
+- You can edit a case after it is closed. For example, you can add or remove members, create searches, export search results, and prepare search results for analysis in eDiscovery. The primary difference between active and closed cases is that holds are turned off when a case is closed.
 - You can reopen a case that has been closed. However, any holds that were in place when the case was closed will not be automatically reinstated. After the case is reopened, you will have to go to the **Holds** tab and turn on the previous holds. To turn on a hold, select it to display the flyout page, and then set the **Status** toggle to **On**.
 - When you delete a case, all components associated with the case, such as the list of custodians, communications, searches, review sets, and export job are deleted.
-- When you delete a case, the case is removed from the list of cases on the **Advanced eDiscovery** page in the Microsoft 365 compliance center.
+- When you delete a case, the case is removed from the list of cases on the **eDiscovery** page in the Microsoft Purview compliance portal.
 - You cannot recover or reopen a case that has been deleted.
 
 ### Close a case
 
-1. On the **Advanced eDiscovery** page, select the case that you want to close.
+1. On the **eDiscovery** page, select the case that you want to close.
 1. On the **Settings** tab, under **Case Information**, click **Select**.
 1. Click **Close case**.
 It might take up to 60 minutes for the closing process to complete.
 
 ### Reopen a case
 
-1. On the **Advanced eDiscovery** page, select the case that you want to reopen.
+1. On the **eDiscovery** page, select the case that you want to reopen.
 1. On the **Settings** tab, under **Case Information**, click **Select**.
 1. Click **Reopen case**.
 It might take up to 60 minutes for the closing process to complete.
 
 ### Delete a case
 
-1. On the **Advanced eDiscovery** page, select the case that you want to delete.
+1. On the **eDiscovery** page, select the case that you want to delete.
 1. On the **Settings** tab, under **Case Information**, click **Select**.
 1. Click **Delete case**.
 It might take up to 60 minutes for the closing process to complete.
