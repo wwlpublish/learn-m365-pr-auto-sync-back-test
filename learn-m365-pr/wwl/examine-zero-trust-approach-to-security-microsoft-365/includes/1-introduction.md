@@ -23,4 +23,3 @@ After completing this module, you'll be able to:
  -  Describe the principles and components of the Zero Trust security model.
  -  Describe the five steps to implementing a Zero Trust security model in your organization.
  -  Explain Microsoft's story and strategy around Zero Trust networking.
-

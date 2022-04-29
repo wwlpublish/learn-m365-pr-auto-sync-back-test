@@ -33,7 +33,7 @@ quiz:
     - content: "Threat Analytics"
       isCorrect: false
       explanation: "Incorrect. Threat Analytics provides a set of reports from expert Microsoft security researchers that help you understand, prevent, and mitigate active threats. However, it isn't the policy engine at the heart of Microsoft's Zero Trust solution."
-    - content: "Microsoft 365 Insider Risk Management Analytics"
+    - content: "Microsoft Purview Insider Risk Management"
       isCorrect: false
       explanation: "Incorrect. This feature can identify potential insider risk activity within an organization and help inform policy configurations. However, it isn't the policy engine at the heart of Microsoft's Zero Trust solution."
     - content: "Azure AD Conditional Access"
@@ -43,7 +43,7 @@ quiz:
     choices:
     - content: "Azure AD Conditional Access wizard"
       isCorrect: false
-      explanation: "Incorrect. This wizard is not a valid tool that Fabrikam can use to determine where it is on its journey to implement a Zero Trust security model."
+      explanation: "Incorrect. This wizard isn't a valid tool that Fabrikam can use to determine where it is on its journey to implement a Zero Trust security model."
     - content: "Zero Trust Assessment"
       isCorrect: true
       explanation: "Correct. The Zero Trust Assessment tool will help you determine where you are in your journey across your identities, devices, apps, infrastructure, network, and data."

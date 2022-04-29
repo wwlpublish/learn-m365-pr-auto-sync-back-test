@@ -1,6 +1,6 @@
 Organizations should adopt a Zero Trust approach to security protection to meet today’s most challenging security demands. This approach covers four key areas: Identity, Security, Compliance, and Skilling.
 
-### 1. Identity: The starting point of a Zero Trust approach.
+### 1. Identity: The starting point of a Zero Trust approach
 
 Adopting a Zero Trust strategy is a journey. Every single step your organization takes will make it more secure. In today’s world, with disappearing corporate network perimeters, identity is an organization's first line of defense. Each organization's Zero Trust journey will be unique. It's recommended that you start with a strong cloud identity foundation. The most fundamental steps like strong authentication, protecting user credentials, and protecting devices are the most essential.
 
@@ -13,7 +13,7 @@ Azure Active Directory (Azure AD) is Microsoft's cloud identity solution. It pro
      -  sensitivity of data they're trying to access.
  -  **Azure AD verifiable credentials**. Verifiable credentials let organizations confirm information—like their education or the professional certifications someone provides—without collecting and storing their personal data. This design improves security and privacy. Microsoft's partnerships that integrate Azure AD verifiable credentials with leading identity verification providers will also improve verifiability and secure information exchange.
 
-### 2. Security: Simplifying the “assume breach” toolset.
+### 2. Security: Simplifying the “assume breach” toolset
 
 In today’s landscape, an organization's security approach should start with the key Zero Trust principle of assume breach. But too often, complexity and fragmentation stand in the way. Microsoft is committed to helping you solve these issues, as it builds security for all, delivered from the cloud.
 
@@ -26,20 +26,20 @@ Microsoft provides the following features to simplify the experience for defende
  -  Threat Analytics provides a set of reports from expert Microsoft security researchers. These reports will help you understand, prevent, and mitigate active threats directly within Microsoft 365 Defender.
  -  Microsoft has brought Secured-core to Windows Server and edge devices. This design will help minimize risk from firmware vulnerabilities and advanced malware in IoT and hybrid cloud environments.
 
-Microsoft continues and strengthens its commitment to deliver state-of-the-art protection, detection, and response for all clouds and all platforms. One such solution it provides is Defender for Endpoint, which is available for Android, iOS, macOS, Linux, and Windows. Microsoft also provides Azure Sentinel. Sentinel looks across your multi-cloud environments. For example, these platforms can include the likes of AWS, Google Cloud Platform, Salesforce service cloud, VMware, and Cisco Umbrella.<br>
+Microsoft continues and strengthens its commitment to deliver state-of-the-art protection, detection, and response for all clouds and all platforms. One such solution it provides is Microsoft Defender for Endpoint, which is available for Android, iOS, macOS, Linux, and Windows. Microsoft also provides Azure Sentinel. Sentinel looks across your multi-cloud environments. For example, these platforms can include the likes of AWS, Google Cloud Platform, Salesforce service cloud, VMware, and Cisco Umbrella.<br>
 
-### 3. Compliance: Protection from the inside out.
+### 3. Compliance: Protection from the inside out
 
 At Microsoft, Zero Trust isn't only the practice of protecting against *outside-in* threats, but also protecting from the *inside out*. Addressing the area of compliance includes managing risks related to data. This data is more than just the data stored in the Microsoft cloud. It also includes the data from across the breadth of clouds and platforms an organization uses. Microsoft has invested in creating that inside-out protection. It does so by extending its capabilities to third parties to help organizations reduce risk across their entire digital estate.
 
 Microsoft provides the following new innovations in compliance:
 
  -  Coauthoring of documents protected with Microsoft Purview Information Protection. This feature enables multiple users to work simultaneously on protected documents while taking advantage of the intelligent, unified, and extensible protection for documents and emails across Microsoft 365 apps.
- -  Microsoft 365 Insider Risk Management Analytics, which can identify potential insider risk activity within an organization and help inform policy configurations. With one selection, a customer can have the system run a daily scan of its tenant audit logs and historical activity. The scan can use Microsoft 365’s Insider Risk Management machine learning engine to identify potential risky activity with privacy built-in by design.
+ -  Microsoft Purview Insider Risk Management, which can identify potential insider risk activity within an organization and help inform policy configurations. With one selection, a customer can have the system run a daily scan of its tenant audit logs and historical activity. The scan can use Microsoft 365’s Insider Risk Management machine learning engine to identify potential risky activity with privacy built-in by design.
  -  Microsoft 365 now offers data loss prevention (DLP) for Chrome browsers and on-premises server-based environments such as file shares and SharePoint Server.
  -  Microsoft Purview is integrated with Microsoft Purview Information Protection. This design enables organizations to apply the same sensitivity labels defined in the Microsoft Purview compliance portal to data that's stored in other clouds or on-premises. Microsoft Purview is a unified data governance solution for on-premises, multi-cloud, and software as a service (SaaS) data. Organizations can use Microsoft Purview to scan and classify data located in AWS Simple Storage Services (S3), SAP ECC, SAP S4/HANA, and Oracle Database.
 
-### 4. Skilling: Power your future through security skilling.
+### 4. Skilling: Power your future through security skilling
 
 Many organizations continue to struggle to fill the security skills gap. For this reason, Microsoft strives to ensure organizations have the skilling and learning resources they need to keep up in today's world of complex cybersecurity attacks. Microsoft provides different ways of helping organizations skill cybersecurity professionals.
 
