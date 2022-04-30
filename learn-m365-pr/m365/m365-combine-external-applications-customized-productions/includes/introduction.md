@@ -8,16 +8,16 @@ This module includes content useful for event organizers, producers, presenters,
 
 :::row:::
     :::column:::
-        :::image type="content" source="../../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/organizer-small.png" alt-text="Icon depicting the Organizer role." border="false":::
+        :::image type="icon" source="../../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/organizer-small.png" :::
     :::column-end:::
     :::column:::
-        :::image type="content" source="../../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/producer-small.png" alt-text="Icon depicting the Producer role." border="false":::
+        :::image type="icon" source="../../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/producer-small.png" :::
     :::column-end:::
     :::column:::
-        :::image type="content" source="../../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/presenter-small.png" alt-text="Icon depicting the Presenter role." border="false":::
+        :::image type="icon" source="../../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/presenter-small.png" :::
     :::column-end:::
     :::column:::
-        :::image type="content" source="../../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/moderator-small.png" alt-text="Icon depicting the Moderator role." border="false":::
+        :::image type="icon" source="../../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/moderator-small.png" :::
     :::column-end:::
 :::row-end:::
 

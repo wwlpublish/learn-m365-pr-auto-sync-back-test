@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-applications-azure-ad.register-application-within-azure-ad-tenant
+title: Register an application within your Azure AD tenant
+metadata:
+  title: Register an application within your Azure AD tenant
+  description: "Register an application within your Azure AD tenant"
+  ms.date: 04/29/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-register-application-within-azure-ad-tenant.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson is registering a new application using the Azure portal. Which of the \"Supported account type\" options should Holly select that targets the widest set of customers?"
+    choices:
+    - content: "Accounts in any organizational directory"
+      isCorrect: false
+      explanation: "Incorrect. An organization will select this option if it wants users in any Azure AD tenant to be able to use the application. This option is appropriate if, for example, you're building a software-as-a-service (SaaS) application that you intend to provide to multiple organizations. This type of app is known as a multitenant application in the Microsoft identity platform."
+    - content: "Accounts in any organizational directory and personal Microsoft account"
+      isCorrect: true
+      explanation: "Correct. This option targets the widest set of customers. By selecting this option, you're registering a multitenant application that can also support users who have personal Microsoft accounts."
+    - content: "Accounts in this organizational directory only"
+      isCorrect: false
+      explanation: "Incorrect. An organization will select this option if it's building an application for use only by users (or guests) in its tenant. Often called a line-of-business (LOB) application, this app is a single-tenant application in the Microsoft identity platform."

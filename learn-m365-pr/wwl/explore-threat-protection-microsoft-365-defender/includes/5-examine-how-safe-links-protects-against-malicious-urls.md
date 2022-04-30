@@ -85,14 +85,8 @@ The following table identifies the policy options that apply to specific email r
     Off
   :::column-end:::
   :::column:::
-    
-
-Doesn't scan URLs in email messages.
-
-
+    Doesn't scan URLs in email messages.
 Enables you to define an exception rule, such as a rule that doesn't scan URLs in email messages for a specific group of recipients.
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -100,14 +94,8 @@ Enables you to define an exception rule, such as a rule that doesn't scan URLs i
     On
   :::column-end:::
   :::column:::
-    
-
-Rewrites URLs to route users through Safe Links protection when the users select URLs in email messages.
-
-
+    Rewrites URLs to route users through Safe Links protection when the users select URLs in email messages.
 Compares a selected URL against a list of blocked or malicious URLs.
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -131,7 +119,7 @@ Compares a selected URL against a list of blocked or malicious URLs.
     Do not track user clicks
   :::column-end:::
   :::column:::
-    When this option is selected, click data for URLs in email from external senders isn't stored. URL click tracking for links within email messages sent within the organization is currently not supported.
+    When this option is selected, click data for URLs in email from external senders isn't stored. URL clicks tracking for links within email messages sent within the organization is currently not supported.
   :::column-end:::
 :::row-end:::
 :::row:::
