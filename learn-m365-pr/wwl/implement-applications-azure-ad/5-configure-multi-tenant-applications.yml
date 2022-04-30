@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-applications-azure-ad.configure-multi-tenant-applications
+title: Configure multi-tenant applications
+metadata:
+  title: Configure multi-tenant applications
+  description: "Configure multi-tenant applications"
+  ms.date: 04/29/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-configure-multi-tenant-applications.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Tailspin Toys, Patti Fernandez has just finished creating a multi-tenant application. Patti wants to make this app available to Tailspin's customers and partners. How should Patti configure the App ID URL of the multi-tenant application so that Azure AD can find the app across all tenants?"
+    choices:
+    - content: "It must be tenant-specific"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't how the App ID URL must be configured for a multi-tenant app."
+    - content: "It must be globally unique"
+      isCorrect: true
+      explanation: "Correct. For a multi-tenant application, the App ID URL must be globally unique so that Azure AD can find the application across all tenants."
+    - content: "It must be tenant unique"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't how the App ID URL must be configured for a multi-tenant app."

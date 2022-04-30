@@ -145,4 +145,53 @@ achievements:
   title: Manage mobile device access
   summary: Examines how to manage and troubleshoot mobile device access, how to  configure both access and infrastructure for mobile devices, the implications of mobile device remote wipe, and alternative methods for mobile device management.
   iconUrl: /learn/achievements/mobile-device-manage-access.svg
-
+- uid: learn.wwl.m365-productivity-teamwork-solutions.trophy
+  type: trophy
+  title: 'Microsoft 365 Fundamentals: Demonstrate knowledge of Microsoft 365 productivity and teamwork capabilities'
+  summary: Learn about the productivity and teamwork solutions in Microsoft 365 and the capabilities that help people be more productive using Microsoft 365 - The World's Productivity Cloud.
+  iconUrl: /learn/achievements/microsoft-365-productivity-and-teamwork-solutions.svg
+- uid: learn.wwl.m365-business-management-solutions.trophy
+  type: trophy
+  title: 'Microsoft 365 Fundamentals: Demonstrate knowledge of Microsoft 365 business management capabilities'
+  summary: Learn about the business management solutions in Microsoft 365 and the capabilities that help organizations be more productive using Microsoft 365 - The World's Productivity Cloud.
+  iconUrl: /learn/achievements/microsoft-365-business-management-solutions.svg
+- uid: learn.wwl.microsoft-365-productivity-teamwork-solutions.badge
+  type: badge
+  title: Microsoft 365 productivity and teamwork solutions
+  summary: Learn about the solutions offered as a part of Microsoft 365 and how they can contribute to personal productivity.
+  iconUrl: /learn/achievements/microsoft-365-productivity-teamwork-solutions.svg
+- uid: learn.wwl.engage-employees-with-microsoft-stream-teams-yammer.badge
+  type: badge
+  title: Engage employees with Microsoft Teams, Viva, and Yammer
+  summary: Learn about the solutions offered as a part of Microsoft 365 and how they can help foster connections and engage employees.
+  iconUrl: /learn/achievements/engage-employees-with-microsoft-stream-teams-and-yammer.svg
+- uid: learn.wwl.get-more-done-with-office-across-devices.badge
+  type: badge
+  title: Get more done with Office across all devices
+  summary: Learn about the solutions offered as a part of Microsoft 365 and how they can be more productive with email, calendaring, and Office on all their devices.
+  iconUrl: /learn/achievements/email-calendaring-and-productivity-with-office-across-all-devices.svg
+- uid: learn.wwl.file-storage-sharing-with-onedrive-sharepoint.badge
+  type: badge
+  title: File storage and sharing with OneDrive and SharePoint
+  summary: Learn about the file storage and sharing solutions offered as a part of Microsoft 365.
+  iconUrl: /learn/achievements/file-storage-and-sharing-with-onedrive-and-sharepoint.svg
+- uid: learn.wwl.manage-your-business-with-microsoft-365.badge
+  type: badge
+  title: Manage your business with Microsoft 365
+  summary: Learn about the business management solutions offered as a part of Microsoft 365 and how they can contribute to organizational productivity.
+  iconUrl: /learn/achievements/manage-your-business-with-microsoft-365.svg
+- uid: learn.wwl.simplify-device-management-with-microsoft-endpoint-manager.badge
+  type: badge
+  title: Simplify device management with Microsoft Endpoint Manager
+  summary: Learn about modern management and the Microsoft Endpoint Manager and how the business management tools in Microsoft 365 can simplify management of all your devices.
+  iconUrl: /learn/achievements/simplify-device-management-with-microsoft-endpoint-manager.svg
+- uid: learn.wwl.get-done-stay-secure-with-windows-10.badge
+  type: badge
+  title: Get more done and stay secure with Windows 10
+  summary: Learn fundamental knowledge of Windows 10 in Microsoft 365 as part of a simplified business management strategy.
+  iconUrl: /learn/achievements/get-more-done-and-stay-secure-with-windows-10.svg
+- uid: learn.wwl.harness-business-intelligence-with-microsoft-365-analytics-reporting.badge
+  type: badge
+  title: Harness business intelligence with Microsoft 365 analytics and reporting
+  summary: Learn fundamental knowledge of the reporting and analytics capabilities in Microsoft 365 as part of a simplified business management strategy.
+  iconUrl: /learn/achievements/harness-business-intelligence-with-microsoft-365-analytics-and-reporting.svg

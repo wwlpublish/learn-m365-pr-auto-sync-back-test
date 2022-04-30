@@ -3,7 +3,7 @@ uid: learn.wwl.introduction-to-azure-identity-protection
 metadata:
   title: Examine Azure Identity Protection
   description: "Examine Azure Identity Protection"
-  ms.date: 08/26/2021
+  ms.date: 04/29/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,7 +11,7 @@ metadata:
 title: Examine Azure Identity Protection
 summary: This module examines how Azure Identity Protection provides organizations the same protection systems used by Microsoft to secure identities.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Describe Azure Identity Protection (AIP) and what kind of identities can be protected
   - Enable the three default protection policies in AIP
   - Identify the vulnerabilities and risk events detected by AIP
@@ -28,7 +28,6 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:

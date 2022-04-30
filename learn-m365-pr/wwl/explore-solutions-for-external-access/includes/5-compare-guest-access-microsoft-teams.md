@@ -9,12 +9,12 @@ An organization can use both external access and guest access. Using one doesn't
 
 An organization can use external access (federation) when it needs a solution that lets external users in other domains find, call, chat, and set up meetings with its users. External users have no access to an organization's teams or team resources. An organization's users should choose external access when they want to communicate with external users who are still on Skype for Business (online or on premises) or Skype.
 
-External access is turned On by default in Teams. With this option turned On, an organization can communicate with all external domains. The Teams admin can turn this option Off or specify which domains to include (or exclude). Guest access may be a more acceptable option if an organization wants external users to have access to teams and channels.
+External access is turned On by default in Teams. With this option turned on, an organization can communicate with all external domains. The Teams admin can turn this option Off or specify which domains to include (or exclude). Guest access may be a more acceptable option if an organization wants external users to have access to teams and channels.
 
 :::image type="content" source="../media/external-access-supporting-external-sharing-ee1a4798.jpg" alt-text="graphic shows how external sharing works":::
 
 
-**Additional reading.** For more information, see [Manage external access](/microsoftteams/manage-external-access).
+**Additional reading.** For more information, see [Manage external access](/microsoftteams/manage-external-access?azure-portal=true).
 
 ### Guest access
 
@@ -23,13 +23,13 @@ Guest access can be used to add an individual user to a team. The user's domain 
  -  Guests are added to an organization’s Active Directory.
  -  To communicate with a guest, the guest must be signed into Teams using their guest account. To do so, a guest may have to sign out of their own Teams account to sign into the organization's Teams account.
  -  Guest users have access to more resources in Teams - such as files, teams, and channels - than external-access (federated) users.
- -  The Teams admin controls everything that a guest can or can’t do in the Teams admin center. To learn more, read [Manage guest access](/microsoftteams/manage-guests).
+ -  The Teams admin controls everything that a guest can or can’t do in the Teams admin center. To learn more, read [Manage guest access](/microsoftteams/manage-guests?azure-portal=true).
 
-If an organization is ready to turn on guest access, start with the [Guest access checklist](/microsoftteams/guest-access-checklist).
+If an organization is ready to turn on guest access, start with the [Guest access checklist](/microsoftteams/guest-access-checklist?azure-portal=true).
 
-The following graphic shows the fact that because Guest Users are user objects in foreign tenants that reference the user in their source tenant, the user should express the connection between those two user objects.
+Guest Users are user objects in foreign tenants that reference the user in their source tenant. As such, the user should express the connection between those two user objects. This principle is configured in the following graphic.
 
 :::image type="content" source="../media/external-user-using-guest-access-to-access-team-f533b33e.jpg" alt-text="graphic shows how Guest Users are user objects in foreign tenants that reference the user in their source tenant":::
 
 
-**Additional reading.** For more information, see [Manage guest access](/microsoftteams/guest-access).
+**Additional reading.** For more information, see [Manage guest access](/microsoftteams/guest-access?azure-portal=true).
