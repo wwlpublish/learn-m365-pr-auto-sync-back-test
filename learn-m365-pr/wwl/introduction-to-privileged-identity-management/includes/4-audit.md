@@ -9,15 +9,15 @@ With Azure AD Privileged Identity Management, organizations can view activities,
 
 To see what actions a specific user took in various resources, you can view the Azure resource activity that's associated with a given activation period.
 
-1.  Open **Azure AD Privileged Identity Management**.<br>
-2.  Select **Azure resources**.<br>
-3.  Select the resource you want to view activity and activations for.<br>
+1.  Open **Azure AD Privileged Identity Management**.
+2.  Select **Azure resources**.
+3.  Select the resource you want to view activity and activations for.
 4.  Select **Roles** or **Members**.
-5.  Select a user to display a summary of the user's actions in Azure resources by date. It also shows the recent role activations over that same time period.<br><br>:::image type="content" source="../media/rbac-user-details-262535c1.png" alt-text="screenshot showing user details with resource activity summary and role activations":::
+5.  Select a user to display a summary of the user's actions in Azure resources by date. It also shows the recent role activations over that same time period. :::image type="content" source="../media/rbac-user-details-262535c1.png" alt-text="Screenshot showing user details with resource activity summary and role activations.":::
     
 6.  Select a specific role activation to see details and corresponding Azure resource activity that occurred while that user was active.
     
-    :::image type="content" source="../media/export-membership-1d4deb71.png" alt-text="screenshot showing Role activation selected and activity details":::
+    :::image type="content" source="../media/export-membership-1d4deb71.png" alt-text="Screenshot showing user details with resource activity summary and role activations.":::
     
 
 ### Navigate to audit history
@@ -26,16 +26,22 @@ From the Azure portal dashboard, select the **Azure AD Privileged Identity Manag
 
 Resource audit gives you a view of all role activity for a resource.
 
-1.  Open **Azure AD Privileged Identity Management**.<br>
-2.  Select **Azure resources**.<br>
-3.  Select the resource you want to view audit history for.<br>
-4.  Select **Resource audit**.<br>
-5.  Filter the history using a predefined date or custom range.<br><br>:::image type="content" source="../media/rbac-resource-audit-1422928c.png" alt-text="screenshot showing Resource audit list with filters":::
-    <br>
-6.  For Audit type, select **Activate (Assigned + Activated)**.<br><br>:::image type="content" source="../media/rbac-audit-activity-557d60a0.png" alt-text="screenshot showing Resource audit list filtered by Activate audit type":::
-    <br>
-7.  Under **Action**, select **(activity)** for a user to see that user's activity detail in Azure resources.<br><br>:::image type="content" source="../media/rbac-audit-activity-details-efa2fa1f.png" alt-text="screenshot showing User activity details for a particular action":::
-    <br>
+1.  Open **Azure AD Privileged Identity Management**.
+2.  Select **Azure resources**.
+3.  Select the resource you want to view audit history for.
+4.  Select **Resource audit**.
+5.  Filter the history using a predefined date or custom range.
+    
+    :::image type="content" source="../media/rbac-resource-audit-1422928c.png" alt-text="Screenshot showing user details with resource activity summary and role activations.":::
+    
+6.  For Audit type, select **Activate (Assigned + Activated)**.
+    
+    :::image type="content" source="../media/rbac-audit-activity-557d60a0.png" alt-text="Screenshot showing Resource audit list filtered by Activate audit type.":::
+    
+7.  Under **Action**, select **(activity)** for a user to see that user's activity detail in Azure resources.
+    
+    :::image type="content" source="../media/rbac-audit-activity-details-efa2fa1f.png" alt-text="Screenshot showing User activity details for a particular action.":::
+    
 
 You can use the audit history to view the total activations, max activations per day, and average activations per day in a line graph. You can also filter the data by role if there's more than one role in the audit history.
 
@@ -43,10 +49,12 @@ You can use the audit history to view the total activations, max activations per
 
 An organization may have a compliance requirement where it must provide a complete list of role assignments to auditors. PIM enables the organization to query role assignments at a specific resource, which includes role assignments for all child resources. Previously, it was difficult for administrators to get a complete list of role assignments for a subscription. As such, they had to export role assignments for each specific resource. Organizations can now use Privileged Identity Management to query for all active and eligible role assignments in a subscription, including role assignments for all resource groups and resources.
 
-1.  Open **Azure AD Privileged Identity Management**.<br>
-2.  Select **Azure resources**.<br>
-3.  Select the resource you want to export role assignments for, such as a subscription.<br>
+1.  Open **Azure AD Privileged Identity Management**.
+2.  Select **Azure resources**.
+3.  Select the resource you want to export role assignments for, such as a subscription.
 4.  Select **Members**.
 5.  Select **Export** to open the **Export membership** pane.
-6.  Select **Export all members** to export all role assignments in a CSV file.<br><br>:::image type="content" source="../media/export-csv-b8c5cb76.png" alt-text="screenshot of a csv file showing all role assignments that were exported":::
+6.  Select **Export all members** to export all role assignments in a CSV file.
+    
+    :::image type="content" source="../media/export-csv-b8c5cb76.png" alt-text="Screenshot of a csv file showing all role assignments that were exported.":::
     

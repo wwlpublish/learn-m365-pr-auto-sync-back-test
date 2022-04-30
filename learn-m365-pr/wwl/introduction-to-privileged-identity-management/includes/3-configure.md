@@ -25,7 +25,7 @@ Organizations should complete the following steps to set up PIM:
 2.  **Grant access to other personnel to manage PIM.** To delegate access to PIM, a Global Administrator can assign other users to the Privileged Role Administrator role. By default, Security administrators and Security readers have read-only access to Privileged Identity Management. To grant access to Privileged Identity Management, the first user can assign others to the Privileged Role Administrator role. The Privileged Role Administrator role is required for managing Azure AD roles only. Privileged Role Administrator permissions aren't required to manage settings for Azure resources.
 3.  **Elevate access for a Global Administrator.** This step enables you to view all resources and assign access in any subscription or management group in the directory. When you elevate your access, you'll be assigned the User Access Administrator role in Azure. This role enables you to view all resources and assign access in any subscription or management group in the directory.
 
-    :::image type="content" source="../media/global-admin-elevated-privilege-71eafced.png" alt-text="Illustration of Global admin elevated privilege.":::
+    :::image type="content" source="../media/global-admin-elevated-privilege-71eafced.png" alt-text="Diagram of Global admin elevated privilege.":::
 
 
 ### Workflow notifications

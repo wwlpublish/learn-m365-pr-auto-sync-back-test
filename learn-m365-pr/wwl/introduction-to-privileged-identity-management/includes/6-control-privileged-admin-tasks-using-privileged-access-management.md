@@ -40,4 +40,4 @@ Each of the following process flows outline the architecture of privileged acces
 3.  **Access approval**. An approval request is generated and the pending request notification is emailed to approvers. If the request is approved, the privileged access request is processed as an approval and the task is ready to be completed. If the request is denied, the task is blocked and no access is granted to the requestor. The requestor is notified of the request approval or denial through an email message.
 4.  **Access processing**. For an approved request, the task is processed by the Exchange Management runspace. The approval is checked against the privileged access policy and processed by the Microsoft 365 substrate. All activity for the task is logged in the Microsoft Purview compliance portal.
 
-:::image type="content" source="../media/privileged-access-architecture-826b89d0.jpg" alt-text="Diagram showing the process of privileged access management":::
+:::image type="content" source="../media/privileged-access-architecture-826b89d0.jpg" alt-text="Diagram showing the process of privileged access management.":::

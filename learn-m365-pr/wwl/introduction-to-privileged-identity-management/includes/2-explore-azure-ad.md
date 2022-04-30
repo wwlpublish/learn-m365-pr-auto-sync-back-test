@@ -1,4 +1,4 @@
-Azure AD Privileged Identity Management (PIM) enables an organization to manage, control, and monitor access to its resources. These resources include objects in Azure AD, Azure Resources, and other Microsoft Online Services like Microsoft 365 and Microsoft Intune. This ability to control resources doesn't eliminate the need for users to carry out privileged operations in Azure AD, Azure, Microsoft 365, and Software as a Service (SaaS) apps.<br>
+Azure AD Privileged Identity Management (PIM) enables an organization to manage, control, and monitor access to its resources. These resources include objects in Azure AD, Azure Resources, and other Microsoft Online Services like Microsoft 365 and Microsoft Intune. This ability to control resources doesn't eliminate the need for users to carry out privileged operations in Azure AD, Azure, Microsoft 365, and Software as a Service (SaaS) apps.
 
 Organizations can give users just-in-time (JIT) privileged access to Azure resources and Azure AD. Oversight is needed for what those users do with their administrator privileges. PIM helps mitigate the risk of excessive, unnecessary, or misused access rights.
 
@@ -34,7 +34,7 @@ Privileged Identity Management is set up so that users are eligible for privileg
 5.  Once the user successfully activates their role, they'll get the role for a pre-configured time period.
 6.  Administrators can view a history of all PIM activities in the audit log. They can also further secure their Azure AD organizations and meet compliance using PIM features like access reviews and alerts.
 
-To use PIM, you need one of the following paid or trial licenses:<br>
+To use PIM, you need one of the following paid or trial licenses:
 
  -  Azure AD Premium P2
  -  Enterprise Mobility + Security (EMS) E5
@@ -46,7 +46,7 @@ There are two types of roles that can be managed by PIM:
  -  **Azure AD roles**. These roles are all in Azure Active Directory (such as Global Administrator, Exchange Administrator, and Security Administrator). You can read more about the roles and their functionality in [Administrator role permissions in Azure Active Directory](/azure/active-directory/roles/permissions-reference?azure-portal=true). For help with determining which roles to assign your administrators, see [least privileged roles by task](/azure/active-directory/roles/delegate-by-task?azure-portal=true).
  -  **Azure roles**. These roles are linked to an Azure resource, resource group, subscription, or management group. PIM can provide just-in-time access to custom roles and to built-in Azure roles like Owner, User Access Administrator, and Contributor. For more information about Azure roles, see [Azure role-based access control](/azure/role-based-access-control/overview?azure-portal=true).
 
-**Additional reading:** For more information, see the following resources:<br>
+**Additional reading:** For more information, see the following resources:
 
  -  [License requirements to use Privileged Identity Management](/azure/active-directory/privileged-identity-management/subscription-requirements?azure-portal=true).
  -  [Built-in roles for Azure resources](/azure/role-based-access-control/built-in-roles?azure-portal=true).

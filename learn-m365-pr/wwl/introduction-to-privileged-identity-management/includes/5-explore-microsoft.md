@@ -14,7 +14,7 @@ Common MIM scenarios include:
  -  Integration of the contents of directories with HR systems and other sources of authority.
  -  Synchronizing identities between directories, databases, and on-premises applications through common APIs and protocols, Microsoft-delivered connectors, and partner-delivered connectors.
 
-:::image type="content" source="../media/features-of-hybrid-identities-3d18545d.jpg" alt-text="Graphic showing on-premises AD and Azure AD and hybrid identities that offer services for user and device authentication, identity and role management, and provisioning.":::
+:::image type="content" source="../media/features-of-hybrid-identities-3d18545d.jpg" alt-text="Diagram showing on-premises AD and Azure AD and hybrid identities that offer services for user and device authentication, identity and role management, and provisioning.":::
 
 
 Identity has become the common factor among many services, like Microsoft 365 and Xbox Live, where the person is the center of the service. Identity is now the security boundary, the new firewall, the control plane—whichever comparison you prefer. Your digital identity is the combination of your credentials and what you’re allowed to do. In other words:
@@ -29,7 +29,7 @@ Within Microsoft 365, Azure AD Privileged Identity Management (PIM) is recommend
 
 The following diagram displays the evolution of identity authentication.
 
-:::image type="content" source="../media/evolution-of-identities-c235048e.png" alt-text="Graphic showing the evolution of Identities from traditional identities and authentication to advanced identities and authentication to optimal identities that are passwordless.":::
+:::image type="content" source="../media/evolution-of-identities-c235048e.png" alt-text="Diagram showing the evolution of Identities from traditional identities and authentication to advanced identities and authentication to optimal identities that are passwordless.":::
 
 
 Organizations should complete the following steps to prepare for a passwordless world:
