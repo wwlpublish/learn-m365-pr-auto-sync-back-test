@@ -20,7 +20,7 @@ The Zero Trust model consists of the following primary components:
  -  **Network.** Ensure devices and users aren't trusted just because they are on an internal network. Encrypt all internal communications, limit access by policy, and employ microsegmentation and real-time threat detection.
 
 :::image type="content" source="../media/zero-trust-architecture-c4c77942.png" alt-text="Diagram showing a Zero Trust architecture":::
-<br>
+
 
 **Additional reading.** For more information on Zero Trust security, see the [Zero Trust maturity model](https://download.microsoft.com/download/f/9/2/f92129bc-0d6e-4b8e-a47b-288432bae68e/Microsoft%20Zero%20Trust%20Maturity%20Model-%20Oct%202019.pdf?azure-portal=true).
 

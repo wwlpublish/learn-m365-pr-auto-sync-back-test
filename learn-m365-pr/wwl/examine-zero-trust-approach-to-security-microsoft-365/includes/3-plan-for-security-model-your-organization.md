@@ -10,7 +10,7 @@ A successful Zero Trust strategy requires flexible access to applications, syste
 4.  **Increase your awareness**. Use auditing and logging of security-related events and related alerts to help detect patterns that may indicate internal attacks or attempted or successful external penetration of your network.
 5.  **Enable user self-help**. Reduce friction by enabling your users to stay productive, even as you remain vigilant.
 
-**Additional reading.** For more information, see [Five steps to securing your identity infrastructure](/azure/security/fundamentals/steps-secure-identity?azure-portal=true).<br>
+**Additional reading.** For more information, see [Five steps to securing your identity infrastructure](/azure/security/fundamentals/steps-secure-identity?azure-portal=true).
 
 ### Move from a model of implicit trust to one of explicit verification
 

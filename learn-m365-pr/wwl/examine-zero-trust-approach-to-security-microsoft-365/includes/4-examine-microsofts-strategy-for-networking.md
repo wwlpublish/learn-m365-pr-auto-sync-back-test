@@ -14,7 +14,7 @@ Conditional access provides a set of policies that can be configured to control 
  -  location
  -  sign-in risk
 
-These considerations are used to decide whether to:<br>
+These considerations are used to decide whether to:
 
  -  allow access
  -  deny access
