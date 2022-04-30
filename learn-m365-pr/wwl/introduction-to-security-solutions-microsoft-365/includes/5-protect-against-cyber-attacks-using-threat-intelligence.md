@@ -16,14 +16,14 @@ By using Microsoft 365 Threat Intelligence to protect, detect, and respond to th
  -  Gain visibility into top targeted users.
  -  Use dashboard components that range from global trends to investigation starting points.
 
-The Microsoft 365 Threat Intelligence service is available to Office 365 Enterprise E5 subscribers. This service:<br>
+The Microsoft 365 Threat Intelligence service is available to Office 365 Enterprise E5 subscribers. This service:
 
  -  Gives insights on advanced threats, malware, phishing, and other attacks for proactive defense.
  -  Reports on attacks that are happening in the Microsoft 365 ecosystem. It creates insights on what Microsoft 365 blocks, or stops, for instance—based on signals from the broader Microsoft ecosystem—which includes Office, Windows, Azure, and other sources.
  -  Shows how many threats were detected on a given day, how many messages were scanned, and how many threats were stopped, blocked, or removed.
  -  Integrates data from 3,500 Microsoft security specialists, who search data to detect advanced threats.
 
-### Unique features of Microsoft 365 Threat Intelligence<br>
+### Unique features of Microsoft 365 Threat Intelligence
 
 Microsoft 365 is one of the biggest enterprise email services and productivity suites in the world. To help protect information and spot patterns in Microsoft 365, Microsoft has built a vast repository of threat intelligence data. Some of the capabilities and features in Microsoft 365 Threat Intelligence include:
 
@@ -40,7 +40,7 @@ Microsoft 365 is one of the biggest enterprise email services and productivity s
      -  global threats
      -  top targeted users
 
-### Scenario: Using Microsoft 365 Threat explorer to investigate a malware threat.<br>
+### Scenario: Using Microsoft 365 Threat explorer to investigate a malware threat.
 
 Suppose you want to investigate a malware threat. Here are some examples of how you can use Threat explorer:
 

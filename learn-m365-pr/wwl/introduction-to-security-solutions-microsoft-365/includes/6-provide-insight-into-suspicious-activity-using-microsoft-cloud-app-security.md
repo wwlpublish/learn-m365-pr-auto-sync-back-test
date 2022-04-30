@@ -12,16 +12,16 @@ Microsoft Cloud App Security supports various deployment modes including log col
 
 **Additional reading**. For information about licensing, see the [Microsoft Cloud App Security licensing datasheet](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2NXYO?azure-portal=true).
 
-### The Cloud App Security framework<br>
+### The Cloud App Security framework
 
 Cloud App Security provides the following functionality:
 
- -  **Discover and control the use of Shadow IT**. Identify the cloud apps, IaaS, and PaaS services used by your organization. Investigate usage patterns, assess the risk levels and business readiness of more than 16,000 SaaS apps against more than 80 risks. Start managing them to ensure security and compliance.<br>
- -  **Protect your sensitive information anywhere in the cloud**. Understand, classify, and protect the exposure of sensitive information at rest. Use out-of-the box policies and automated processes to apply controls in real time across all your cloud apps.<br>
- -  **Protect against cyberthreats and anomalies**. Detect unusual behavior across cloud apps to identify ransomware, compromised users or rogue applications, analyze high-risk usage and remediate automatically to limit the risk to your organization.<br>
- -  **Assess the compliance of your cloud apps**. Assess if your cloud apps meet relevant compliance requirements including regulatory compliance and industry standards. Prevent data leaks to non-compliant apps, and limit access to regulated data.<br>
+ -  **Discover and control the use of Shadow IT**. Identify the cloud apps, IaaS, and PaaS services used by your organization. Investigate usage patterns, assess the risk levels and business readiness of more than 16,000 SaaS apps against more than 80 risks. Start managing them to ensure security and compliance.
+ -  **Protect your sensitive information anywhere in the cloud**. Understand, classify, and protect the exposure of sensitive information at rest. Use out-of-the box policies and automated processes to apply controls in real time across all your cloud apps.
+ -  **Protect against cyberthreats and anomalies**. Detect unusual behavior across cloud apps to identify ransomware, compromised users or rogue applications, analyze high-risk usage and remediate automatically to limit the risk to your organization.
+ -  **Assess the compliance of your cloud apps**. Assess if your cloud apps meet relevant compliance requirements including regulatory compliance and industry standards. Prevent data leaks to non-compliant apps, and limit access to regulated data.
 
-Cloud App Security integrates visibility with your cloud by:<br>
+Cloud App Security integrates visibility with your cloud by:
 
  -  Using Cloud Discovery to map and identify your cloud environment and the cloud apps your organization is using.
  -  Sanctioning and unsanctioning apps in your cloud.
