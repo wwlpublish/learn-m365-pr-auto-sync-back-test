@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-solutions-for-external-access.explore-external-sharing-azure-ad-b2b-collaboration
+title: Explore external sharing with Azure AD B2B collaboration
+metadata:
+  title: Explore external sharing with Azure AD B2B collaboration
+  description: "Explore external sharing with Azure AD B2B collaboration"
+  ms.date: 04/29/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/4-explore-external-sharing-azure-ad-b2b-collaboration.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso wants to collaborate with Fabrikam, which is another Azure AD organization. Which settings should Contoso use to manage inbound and outbound B2B collaboration with Fabrikam?"
+    choices:
+    - content: "cross-tenant access settings"
+      isCorrect: true
+      explanation: "Correct. For B2B collaboration with other Azure AD organizations, you can use cross-tenant access settings to manage inbound and outbound B2B collaboration and scope access to specific users, groups, and applications. You can set a default configuration that applies to all external organizations. You can then create individual, organization-specific settings as needed."
+    - content: "external collaboration settings"
+      isCorrect: false
+      explanation: "Incorrect. These settings aren't the ones that Contoso should use to manage inbound and outbound B2B collaboration with Fabrikam."
+    - content: "invitation redemption settings"
+      isCorrect: false
+      explanation: "Incorrect. These settings aren't the ones that Contoso should use to manage inbound and outbound B2B collaboration with Fabrikam."
