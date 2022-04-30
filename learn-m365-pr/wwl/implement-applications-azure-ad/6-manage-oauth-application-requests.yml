@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-applications-azure-ad.manage-oauth-application-requests
+title: Manage OAuth application requests
+metadata:
+  title: Manage OAuth application requests
+  description: "Manage OAuth application requests"
+  ms.date: 04/29/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/6-manage-oauth-application-requests.md)]

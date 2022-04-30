@@ -1,4 +1,4 @@
-:::image type="content" source="../media/phase-2.png" alt-text="The Experiment phase":::
+:::image type="content" source="../media/phase-2.png" alt-text="Diagram with three boxes. The middle box, Step 2, Experiment, is highlighted.":::
 
 Now that you know who's doing what, your organization's capacity for change, and the sentiment of your stakeholders, you're ready to recruit champions and pick the first scenarios to improve. Now is the time to experiment. Your early experiments are designed to:
 
@@ -8,7 +8,7 @@ Now that you know who's doing what, your organization's capacity for change, and
 
 You'll also make six key governance decisions and configure your feedback methods to capture valuable data. Use the information you got from speaking to stakeholders, your stakeholder kick-off presentation, and other end-user interviews to start forming a picture of the business processes you want to experiment with.  You can also focus on one of these standard scenarios - they normally need improvement in most organizations:
 
-:::image type="content" source="../media/core-scenarios.png" alt-text="Modernizing core scenarios":::
+:::image type="content" source="../media/core-scenarios.png" alt-text="Diagram with 3 columns lists standard scenarios, Project management, Personal productivity, and Calling & meetings.":::
 
 **Project management** - Spreadsheets in multiple versions, random sticky notes, and your memory aren't reliable ways to manage a project. Using Microsoft Teams and Planner can provide a  way to improve project planning in your organization.
 
@@ -16,4 +16,4 @@ You'll also make six key governance decisions and configure your feedback method
 
 **Personal productivity** - Microsoft Teams and OneDrive provide secure cloud storage for documents, including your OneNote files. This is an invaluable tool for finding and retaining information. With mobile applications, you can access your information wherever you are. Post documents into a Teams channel to share them with the broader team for coauthoring. **STOP E-MAILING THAT SPREADSHEET!**
 
-These are but a few generic examples. Use [this format](https://teamworktools.azurewebsites.net/certassets/SimplifiedScenarioMapping.pptx) along with the [Simplified Persona template](https://teamworktools.azurewebsites.net/certassets/SimplifiedPersonaPainPoints.pptx) to document business scenarios for this phase.
+These are but a few generic examples. Use [this format](https://aka.ms/SimpleScenarioMap) along with the [Simplified Persona template](https://aka.ms/SimplePersonaPainPoints) to document business scenarios for this phase.

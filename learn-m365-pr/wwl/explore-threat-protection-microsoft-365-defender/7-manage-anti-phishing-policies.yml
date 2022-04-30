@@ -4,7 +4,7 @@ title: Manage anti-phishing policies
 metadata:
   title: Manage anti-phishing policies
   description: "Manage anti-phishing policies"
-  ms.date: 03/09/2022
+  ms.date: 04/29/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Spoof intelligence"
       isCorrect: false
-      explanation: "That's incorrect. This feature reviews spoofed messages from senders in internal and external domains. It also allows or blocks those senders. Try again."
+      explanation: "That's incorrect. This feature reviews spoofed messages from senders in internal and external domains. It also allows or blocks those senders."
     - content: "Anti-phishing policies"
       isCorrect: true
       explanation: "That's correct. These policies turn spoof intelligence on or off, turn unauthenticated sender identification in Outlook on or off, and specify the action for blocked spoofed senders (move to Junk Email folder or quarantine)."
     - content: "Implicit email authentication"
       isCorrect: false
-      explanation: "That's incorrect. This feature enhances standard email authentication checks for inbound email (SPF, DKIM, and DMARC) with sender reputation, sender history, recipient history, behavioral analysis, and other advanced techniques to help identify forged senders. Try again."
+      explanation: "That's incorrect. This feature enhances standard email authentication checks for inbound email (SPF, DKIM, and DMARC) with sender reputation, sender history, recipient history, behavioral analysis, and other advanced techniques to help identify forged senders."
