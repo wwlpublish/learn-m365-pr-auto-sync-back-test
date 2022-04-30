@@ -16,7 +16,7 @@ The Microsoft Secure Score console enables you to select various tabs to display
 
 Organizations are assigned points for various aspects of their security framework. These points are accumulated into a final total, which is referred to as the organization's Secure Score. Microsoft 365 Global administrators can access Microsoft Secure Score, which initially displays the Dashboard tab. This tab provides a summarized view into an organization’s security posture.
 
-### Overview tab<br>
+### Overview tab
 
 The Secure Score tool provides organizations with an action roadmap. This roadmap lists tasks that an organization can complete to reduce security risks. To help you quickly find the information you need, the actions are organized into the following groups in the Overview tab:
 
@@ -48,7 +48,7 @@ The highest ranked improvement actions have a large number of points remaining w
 The Improvement actions tab displays the actions recommended by the Secure Score tool. Actions labeled as **Not Scored** aren't tracked by Microsoft Secure Score. You can still complete the suggested action, but completing them won't affect your score. If an action becomes tracked by Microsoft Secure Score in the future and you've already completed it, your secure score will automatically reflect the change.
 
 :::image type="content" source="../media/securescoreactions-2cec22d1.png" alt-text="screenshot showing actions that can be taken in secure score.":::
-<br><br>
+
 
 When you select a specific improvement action, a fly out window appears. You can select one of the following options related to the action:
 

@@ -10,7 +10,7 @@ Based on a combination of these factors, the organization should rank its goals 
 > [!IMPORTANT]
 > Planning and implementation should involve all the key stakeholders in an organization. These roles include the Chief Information Security Officer (CISO), the IT security manager, and the administrators who manage Active Directory, Exchange, networking, and so on.
 
-### Design your security upgrade plan<br>
+### Design your security upgrade plan
 
 Every organization is going to have different success criteria:
 
