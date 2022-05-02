@@ -32,23 +32,23 @@ quiz:
       choices:
       - content: "Copy policies "
         isCorrect: true
-        explanation: "Once your labels have been migrated to the Microsoft 365 compliance center, determine if you want to copy your existing policies or start over with new ones."
+        explanation: "Once your labels have been migrated to the Microsoft Purview compliance portal, determine if you want to copy your existing policies or start over with new ones."
       - content: "Activate unified labeling"
         isCorrect: false
         explanation: "Activation copies the labels from the Azure Information Protection store to the Microsoft Information Protection unified labeling store."
       - content: "Manage from compliance center "
         isCorrect: false
-        explanation: "Any policies copied in the previous step will already be published. However, you may want to edit those existing policies or create new ones. Policies are not visible until they are published, and the recommendation is to edit policies for the Microsoft 365 compliance center. "
+        explanation: "Any policies copied in the previous step will already be published. However, you may want to edit those existing policies or create new ones. Policies are not visible until they are published, and the recommendation is to edit policies for the Microsoft Purview compliance portal. "
       
-    - content: "What is a key consideration for activating unified labeling and migrating labels to the Microsoft 365 compliance center?"
+    - content: "What is a key consideration for activating unified labeling and migrating labels to the Microsoft Purview compliance portal?"
       choices:
-      - content: "If you create labels in the Microsoft 365 compliance center with the same name as your existing Azure Information Protection labels, you won't be able to migrate those labels later."
+      - content: "If you create labels in the Microsoft Purview compliance portal with the same name as your existing Azure Information Protection labels, you won't be able to migrate those labels later."
         isCorrect: true
         explanation: "To avoid conflicts, we recommend you first migrate your labels from Azure Information Protection."
       - content: "Unified labeling clients do not see any labels until you **publish** a label policy."
         isCorrect: false
         explanation: "This does not happen during unified labeling activation."
-      - content: "You must edit policies for clients using unified labeling in the Microsoft 365 compliance center. "
+      - content: "You must edit policies for clients using unified labeling in the Microsoft Purview compliance portal. "
         isCorrect: false
         explanation: "Remember, labels are not visible until they are published."
       

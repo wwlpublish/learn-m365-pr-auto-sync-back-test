@@ -56,7 +56,7 @@ After you turn on auditing, a message is displayed that says the audit log is be
 
 Once the audit log is enabled, you can start creating policy for communication compliance:
 
-1. Sign into the [Microsoft 365 compliance center](https://compliance.microsoft.com), from the left navigation, select **Show all** > **Communication compliance**.
+1. Sign into the [Microsoft Purview compliance portal](https://compliance.microsoft.com), from the left navigation, select **Show all** > **Communication compliance**.
 1. Select the **Policies** tab.
 1. Select **Create policy** to create a custom policy, or from a template.
 1. When you choose a policy template, you will:

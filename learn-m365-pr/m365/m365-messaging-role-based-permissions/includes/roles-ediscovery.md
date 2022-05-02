@@ -6,7 +6,7 @@ Microsoft 365 provides eDiscovery, or Electronic discovery, to help you identify
 
 ## Permissions and role groups
 
-Before your users can use any of the eDiscovery-related tools in the Microsoft 365 Defender portal in Office 365 or the Microsoft 365 compliance center, you have to assign them the appropriate permissions. The easiest way to do this is to add the person the appropriate role group on the **Permissions** page in the Microsoft 365 Defender portal.
+Before your users can use any of the eDiscovery-related tools in the Microsoft 365 Defender portal in Office 365 or the Microsoft Purview compliance portal, you have to assign them the appropriate permissions. The easiest way to do this is to add the person the appropriate role group on the **Permissions** page in the Microsoft 365 Defender portal.
 
 The primary eDiscovery-related role group in the Microsoft 365 Defender portal is called **eDiscovery Manager**. There are two subgroups within this role group.
 

@@ -54,9 +54,9 @@ One of the first steps in creating a retention label is to tell Microsoft 365 if
 
 :::image type="content" source="../media/label-settings.png" alt-text="Screenshot shows Retention label settings. The retention button is turned off.":::
 
-The instructions in the rest of this module assume you have added **Information governance** to the **Microsoft 365 compliance center** menu. This is also recommended if you are going to be working with the solution frequently. Here are the steps:
+The instructions in the rest of this module assume you have added **Information governance** to the **Microsoft Purview compliance portal** menu. This is also recommended if you are going to be working with the solution frequently. Here are the steps:
 
-1. Open [**Microsoft 365 compliance center**](https://compliance.microsoft.com?azure-portal=true) in your web browser address bar.
+1. Open [**Microsoft Purview compliance portal**](https://compliance.microsoft.com?azure-portal=true) in your web browser address bar.
 1. Click **Customize navigation**.
 1. Check the box that says **Information governance**.
 1. Click **Save**.

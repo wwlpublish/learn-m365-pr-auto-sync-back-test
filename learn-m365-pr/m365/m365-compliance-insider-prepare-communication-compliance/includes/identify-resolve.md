@@ -13,7 +13,7 @@ In this first phase, you identify your compliance requirements and configure com
 
 ### Investigate
 
-In the second phase, you use the Microsoft 365 compliance center to look deeper into the issues detected as matching your communication compliance policies. The communication compliance dashboard enables you to leverage the following actions:
+In the second phase, you use the Microsoft Purview compliance portal to look deeper into the issues detected as matching your communication compliance policies. The communication compliance dashboard enables you to leverage the following actions:
 
 - **Alerts**: When a message matches a policy, an alert is automatically generated. For each alert, you can see the status, the severity, the time detected, and if a case is assigned and its status. Alerts are listed in order of severity and displayed on the communication compliance home page and the **Alerts** page.
 - **Issue management**: For each alert, you can take investigative actions to help remediate the issue detected in the message.

@@ -52,7 +52,7 @@ There are three ways you can create a mail flow rule:
 
 ### Create a DLP policy to manage a mail flow
 
-You can control data loss prevention in the Microsoft 365 compliance center.
+You can control data loss prevention in the Microsoft Purview compliance portal.
 
 1. In the compliance center, under **Solutions**, select **Data loss prevention**.
 

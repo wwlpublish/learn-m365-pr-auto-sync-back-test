@@ -1,13 +1,13 @@
-The DLP-specific reports available in the Microsoft 365 compliance center include:
+The DLP-specific reports available in the Microsoft Purview compliance portal include:
 
 - DLP policy matches
 - DLP incidents
 - DLP false positives and overrides
 - Third-party DLP policy matched
 
-Navigate to **Microsoft 365 compliance center > Reports** to view the reports.
+Navigate to **Microsoft Purview compliance portal > Reports** to view the reports.
 
-The image below shows the summary cards for the reports in the Microsoft 365 compliance center.
+The image below shows the summary cards for the reports in the Microsoft Purview compliance portal.
 
 :::image type="content" source="../media/dlp-reports.png" alt-text="Screenshot of the compliance center shows the DLP reports." lightbox="../media/dlp-reports.png":::
 

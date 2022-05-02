@@ -35,7 +35,7 @@ quiz:
         explanation: "Automation at scale helps you control the data explosion by automating and applying governance policies at the organizational level. Automation at scale applies governance policies without user intervention and reduces the amount of data that needs governing."
       - content: "Streamlined administration "
         isCorrect: false
-        explanation: "Managing a set of governance policies in SharePoint, another set in Exchange, and then another for each of your line of business systems is not productive and can be redundant. Microsoft centralized the administration of policies in the Microsoft 365 compliance center and added native connectors to let you incorporate data outside Microsoft 365 to be governed by one set of policies."
+        explanation: "Managing a set of governance policies in SharePoint, another set in Exchange, and then another for each of your line of business systems is not productive and can be redundant. Microsoft centralized the administration of policies in the Microsoft Purview compliance portal and added native connectors to let you incorporate data outside Microsoft 365 to be governed by one set of policies."
       - content: "Records management"
         isCorrect: false
         explanation: "Records management is for that special set of content within your organization, which needs to be immutable."

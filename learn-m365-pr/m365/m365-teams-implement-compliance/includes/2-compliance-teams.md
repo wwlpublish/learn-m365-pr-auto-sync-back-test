@@ -23,7 +23,7 @@ You can implement these requirements by using retention policies. These policies
 > In the United States, you may be required to comply with Securities and Exchange Commission (SEC) Rule 17a-4, which requires that after a retention policy is turned on, it cannot be turned off or made less restrictive.
 
 The default configuration in Teams is to retain chat, channel, and files date indefinitely, unless it's deleted manually or by a retention policy. You can configure Teams retention policies for chat and channel messages separately and you can apply a policy to your entire organization or to specific users and groups.
-Use the Microsoft 365 Compliance Center to create and manage retention policies. Alternatively, you can create them by using the Security & Compliance Center PowerShell cmdlets.
+Use the Microsoft Purview compliance portal to create and manage retention policies. Alternatively, you can create them by using the Security & Compliance Center PowerShell cmdlets.
 
 ## Communication compliance in Microsoft Teams
 

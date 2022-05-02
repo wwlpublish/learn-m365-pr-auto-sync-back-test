@@ -3,7 +3,7 @@ Auditing plays an important role in the security and compliance strategy for man
 - User and admin activity in Exchange Online
 - Admin activity in Azure Active Directory
 - User and admin activity in SharePoint Online
-- eDiscovery activity in the Microsoft 365 compliance center
+- eDiscovery activity in the Microsoft Purview compliance portal
 - User and admin activity for sensitivity labels
 
 ## Enterprise-scale audit is essential
@@ -16,7 +16,7 @@ Enterprise-scale audit is essential to most organizations, and Microsoft dedicat
 
 Admins can go to a single place and use the same tools to access audit information from services like SharePoint Online, Exchange Online, and Microsoft Teams. A common audit activity schema makes searching a consistent experience, regardless of the event type or service. The management API enables seamless integration with other solutions, like Security Information and Event Management (SIEM) tools. Audit events are accessible in the following ways:
 
-- Microsoft 365 compliance center
+- Microsoft Purview compliance portal
 - PowerShell
 - Office 365 Management API
 

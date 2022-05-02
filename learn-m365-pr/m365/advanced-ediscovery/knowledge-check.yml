@@ -79,7 +79,7 @@ quiz:
       choices:
       - content: "The case is no longer listed on the Advanced eDiscovery page."
         isCorrect: false
-        explanation: "The case is still listed on the Advanced eDiscovery page in the Microsoft 365 Compliance Center. The details, holds, searches, and members of a closed case are retained. "
+        explanation: "The case is still listed on the Advanced eDiscovery page in the Microsoft Purview compliance portal. The details, holds, searches, and members of a closed case are retained. "
       - content: "You cannot edit a case once it is closed."
         isCorrect: false
         explanation: "You can edit a case after it is closed. For example, you can add or remove members, create searches, export search results, and prepare search results for analysis in Advanced eDiscovery."

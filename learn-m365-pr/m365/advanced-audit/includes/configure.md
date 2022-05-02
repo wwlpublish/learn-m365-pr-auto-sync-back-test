@@ -4,7 +4,7 @@ You must be assigned the Audit Logs role in Exchange Online to turn audit loggin
 
  :::image type="content" source="../media/exchange-admin-center.png" alt-text="Exchange admin center ." lightbox="../media/exchange-admin-center.png":::
 
-The table below summarizes the Exchange Online roles and the role groups containing those roles the admin must be assigned to search audit logs using Microsoft 365 compliance center or PowerShell. Each role group includes both roles.
+The table below summarizes the Exchange Online roles and the role groups containing those roles the admin must be assigned to search audit logs using Microsoft Purview compliance portal or PowerShell. Each role group includes both roles.
 
 |  Role | Role group  |
 |---|---|
@@ -13,16 +13,16 @@ The table below summarizes the Exchange Online roles and the role groups contain
 
 ## Turn on audit logging
 
-Audit logging must be turned on for activities to be recorded. Add the Audit solution to the Microsoft 365 compliance center and enable audit logging using the instructions below.
+Audit logging must be turned on for activities to be recorded. Add the Audit solution to the Microsoft Purview compliance portal and enable audit logging using the instructions below.
 
-1. Open the [**Microsoft 365 compliance center**](https://compliance.microsoft.com?azure-portal=true).
+1. Open the [**Microsoft Purview compliance portal**](https://compliance.microsoft.com?azure-portal=true).
 1. Select **Solutions** in the left nav, then select **View** under **Audit** in the **Discovery & response** section.
 1. Select **Show in navigation**.
 1. Select **Audit** in the left nav, then select **Start recording user and admin activity**.
 
-The image below shows the Audit solution in the Microsoft 365 compliance center. If you do not see the option to **Start recording user and admin activity** in your tenant, you either do not have the permissions to enable the Audit log or it has already been turned on. Once enabled, it may take a few hours to prepare the audit log before you can access it.
+The image below shows the Audit solution in the Microsoft Purview compliance portal. If you do not see the option to **Start recording user and admin activity** in your tenant, you either do not have the permissions to enable the Audit log or it has already been turned on. Once enabled, it may take a few hours to prepare the audit log before you can access it.
 
-:::image type="content" source="../media/audit.png" alt-text="Audit solution in the Microsoft 365 compliance center ." lightbox="../media/audit.png":::
+:::image type="content" source="../media/audit.png" alt-text="Audit solution in the Microsoft Purview compliance portal ." lightbox="../media/audit.png":::
 
 ## Learn more
 

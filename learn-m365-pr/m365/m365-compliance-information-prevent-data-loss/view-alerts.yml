@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-compliance-information-prevent-data-loss.manage-alerts
-title: Manage DLP alerts in the Microsoft 365 compliance center
+title: Manage DLP alerts in the Microsoft Purview compliance portal
 metadata:
-  title:  Manage DLP reports in the Microsoft 365 compliance center
-  description: Learn how to manage the DLP alerts you see in the Microsoft 365 compliance center. 
+  title:  Manage DLP reports in the Microsoft Purview compliance portal
+  description: Learn how to manage the DLP alerts you see in the Microsoft Purview compliance portal. 
   ms.date: 11/09/2021
   author: beccarobins
   ms.author: beccarobins

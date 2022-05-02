@@ -22,7 +22,7 @@ Administrators can import and archive third-party data from social media platfor
 - **Vertical industries**. Customer Relationship Management (such as Salesforce Chatter) and Financial Services (such as Bloomberg and Thomson Reuters)
 - **SMS/text messaging**. BlackBerry
 
-Microsoft provides several data connectors in the Microsoft 365 compliance center for Facebook, Twitter, LinkedIn, Instant Bloomberg and HR data. You can also work with a Microsoft partner if you have a requirement to import data from these, or other sources.
+Microsoft provides several data connectors in the Microsoft Purview compliance portal for Facebook, Twitter, LinkedIn, Instant Bloomberg and HR data. You can also work with a Microsoft partner if you have a requirement to import data from these, or other sources.
 
 ## Learn more
 

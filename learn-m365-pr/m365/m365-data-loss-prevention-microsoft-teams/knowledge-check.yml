@@ -48,7 +48,7 @@ quiz:
         explanation: "By including vectors that external users can see, such as SharePoint and OneDrive, you prevent data from being shared to them."
     - content: "Which of the following choices describes the Azure tool you would go to in order to create a new DLP policy?"
       choices:
-      - content: "Microsoft 365 compliance center."
+      - content: "Microsoft Purview compliance portal."
         isCorrect: true
         explanation: "This is the correct location to go to in order to create a new DLP policy."
       - content: "Microsoft Defender for Cloud."

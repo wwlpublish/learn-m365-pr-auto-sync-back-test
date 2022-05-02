@@ -9,4 +9,4 @@ Now that you have finished this module, you should be able to:
 ## Resources
 
 - [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager-overview?azure-portal=true)
-- [Microsoft 365 compliance center](/microsoft-365/compliance/microsoft-365-compliance-center?azure-portal=true)
+- [Microsoft Purview compliance portal](/microsoft-365/compliance/microsoft-365-compliance-center?azure-portal=true)

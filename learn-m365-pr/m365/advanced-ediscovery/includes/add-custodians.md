@@ -5,13 +5,13 @@ This section describes how Advanced eDiscovery supports the first two phases of 
 
 The first phase in the EDRM model is *Identification*. This phase involves identifying the people in the organization who are in possession of documents and communications relevant to the investigation. These individuals are the custodians of data, or just custodians, and are defined as "persons having control of a document or electronic file". For example, the custodian of an email message could be the owner of the mailbox that contains the relevant message.
 
-Once the custodians have been identified, they are added to an Advanced eDiscovery case. Creating a case is accomplished by navigating to the **Advanced eDiscovery** home page in the Microsoft 365 compliance center, navigating to the **Cases** tab, then clicking **Create a case**.
+Once the custodians have been identified, they are added to an Advanced eDiscovery case. Creating a case is accomplished by navigating to the **Advanced eDiscovery** home page in the Microsoft Purview compliance portal, navigating to the **Cases** tab, then clicking **Create a case**.
 
-:::image type="content" source="../media/advanced-ediscovery.png" alt-text="Advanced eDiscovery home page in the Microsoft 365 compliance center." lightbox="../media/advanced-ediscovery.png":::
+:::image type="content" source="../media/advanced-ediscovery.png" alt-text="Advanced eDiscovery home page in the Microsoft Purview compliance portal." lightbox="../media/advanced-ediscovery.png":::
 
 Once the case has been created, you can begin adding the persons of interest by navigating to the **Data sources** tab, select **Add data source**, and then and select **Add new custodians**.
 
-:::image type="content" source="../media/add-custodians.png" alt-text="Screenshot of the Data sources tab in Advanced eDiscovery home page in the Microsoft 365 compliance center. Showing the Add new custodians menu selected." lightbox="../media/add-custodians.png":::
+:::image type="content" source="../media/add-custodians.png" alt-text="Screenshot of the Data sources tab in Advanced eDiscovery home page in the Microsoft Purview compliance portal. Showing the Add new custodians menu selected." lightbox="../media/add-custodians.png":::
 
 > [!TIP]
 > You need to be a member of the **eDiscovery Manager** group to add custodians and see these options.

@@ -62,16 +62,16 @@ For a quick look at Advanced eDiscovery in Microsoft 365, watch:
 >
 > Please review [Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true) to identify required licenses for your organization.
 
-## Microsoft 365 Compliance Center
+## Microsoft Purview compliance portal
 
-If you've ever worked with the core eDiscovery solution in the Microsoft 365 Defender portal, you may be aware that you could further manage a case using Advanced eDiscovery by clicking **Switch to Advanced eDiscovery**. This opened the case in Advanced eDiscovery (classic) which is being retired. Its functionality has been replaced by a new version of Advanced eDiscovery in the Microsoft 365 compliance center.
+If you've ever worked with the core eDiscovery solution in the Microsoft 365 Defender portal, you may be aware that you could further manage a case using Advanced eDiscovery by clicking **Switch to Advanced eDiscovery**. This opened the case in Advanced eDiscovery (classic) which is being retired. Its functionality has been replaced by a new version of Advanced eDiscovery in the Microsoft Purview compliance portal.
 
 > [!div class="centered"]
-> :::image type="content" source="../media/microsoft-365-compliance-center.png" alt-text="Microsoft 365 compliance center." lightbox="../media/microsoft-365-compliance-center.png":::
+> :::image type="content" source="../media/microsoft-365-compliance-center.png" alt-text="Microsoft Purview compliance portal." lightbox="../media/microsoft-365-compliance-center.png":::
 
 Version 2.0 of the Advanced eDiscovery solution in Microsoft provides all of the capabilities of the original solution, but now includes a custodian-based approach of identifying content in other Microsoft 365 services, collecting that content, and then adding it to a review set where reviewers can take advantage of fast search queries, tagging, and analytics features to help cull relevant documents. It includes improved processing and native viewers for both Microsoft and non-Microsoft file types, and provides a custodian holds management feature that lets you apply holds to content in different services, notify users of the holds, and track custodian responses, all within an Advanced eDiscovery case.
 
 To access Advanced eDiscovery v2.0:
 
-1. Go to the [Microsoft 365 compliance center](https://compliance.microsoft.com/?azure-portal=true).
-1. In the left navigation pane of the Microsoft 365 compliance center, click **Show all**, and then click **eDiscovery > Advanced**.
+1. Go to the [Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true).
+1. In the left navigation pane of the Microsoft Purview compliance portal, click **Show all**, and then click **eDiscovery > Advanced**.

@@ -29,7 +29,7 @@ By default, global administrators do not have access to communication compliance
 ## Step 2 - Accessing communication compliance in Microsoft 365
 
 After configuring the permissions for communication compliance, Contoso IT administrators and compliance specialists defined in the new role group can access the communication compliance solution in Microsoft 365.
-An easy way for Contoso IT administrators and compliance specialists to access the communication compliance solution is to sign in directly to the [**Microsoft 365 compliance center**](https://compliance.microsoft.com?azure-portal=true). After signing in, users simply need to select the **Show all** control to display all the compliance solutions and then select the **Communication compliance** solution to get started.
+An easy way for Contoso IT administrators and compliance specialists to access the communication compliance solution is to sign in directly to the [**Microsoft Purview compliance portal**](https://compliance.microsoft.com?azure-portal=true). After signing in, users simply need to select the **Show all** control to display all the compliance solutions and then select the **Communication compliance** solution to get started.
 
 :::image type="content" source="../media/communication-compliance-M365.png" alt-text="Screenshot shows Communication compliance in Microsoft 365." lightbox="../media/communication-compliance-M365.png":::
 
@@ -62,7 +62,7 @@ They need to create a new group to include all Contoso employees, so they take t
 
 With all the prerequisites completed, the IT administrators and the compliance specialists for Contoso are ready to configure the communication compliance policy to monitor for offensive language. Using the new offensive language policy template, configuring this policy is simple and quick.
 
-1. The Contoso IT administrators and compliance specialists sign into the **Microsoft 365 compliance center** and select **Communication compliance** from the left navigation pane. This action opens the **Overview** dashboard that has quick links for communication compliance policy templates. They choose the **Monitor for offensive language** template by selecting **Get started** for the template.
+1. The Contoso IT administrators and compliance specialists sign into the **Microsoft Purview compliance portal** and select **Communication compliance** from the left navigation pane. This action opens the **Overview** dashboard that has quick links for communication compliance policy templates. They choose the **Monitor for offensive language** template by selecting **Get started** for the template.
 
    :::image type="content" source="../media/policy-template-wizard.png" alt-text="Screenshot displays Policy template wizard. The Monitor for offensive language template is selected." lightbox="../media/policy-template-wizard.png":::
 

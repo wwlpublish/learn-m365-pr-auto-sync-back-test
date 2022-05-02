@@ -15,7 +15,7 @@ Here are some important things to remember about retention labels.
 - Exchange public folders do not support labels.
 - Retention label policies can trigger a disposition review at the end of a retention period. Retention policies cannot.
 
-Navigate to **Microsoft 365 compliance center > Information Governance > Labels to configure retention labels**.
+Navigate to **Microsoft Purview compliance portal > Information Governance > Labels to configure retention labels**.
 
 The process of creating a retention label consists of these steps:
 

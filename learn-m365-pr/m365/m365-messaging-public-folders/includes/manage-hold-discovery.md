@@ -4,7 +4,7 @@ As public folders might also contain valuable information required for eDiscover
 
 ## Grant access to eDiscovery
 
-Within your organization, you'll need to add appropriate users to an eDiscovery Manager role. The role grants them access to the Microsoft 365 compliance center. The two roles you can use to grant this access are:
+Within your organization, you'll need to add appropriate users to an eDiscovery Manager role. The role grants them access to the Microsoft Purview compliance portal. The two roles you can use to grant this access are:
 
 - **eDiscovery Manager**.Members of this role group can view and manage their own cases. Managers can add other managers, but by default will only see cases they own.
 - **eDiscovery Administrator**. People in this role group have all the permissions of eDiscovery Managers, and they can view all cases in the organization. After assigning themselves, eDiscovery Administrators can also export case data and manage cases.
@@ -13,9 +13,9 @@ These roles are controlled in the **Permissions** section of the compliance cent
 
 :::image type="content" source="../media/ediscovery-manager.png" alt-text="Screenshot of the permissions page in the Microsoft Purview compliance portal with the e Discovery Manager selected and the assigned roles shown in an open pane." lightbox="../media/ediscovery-manager.png" border="false":::
 
-## Creating cases in Microsoft 365 compliance center
+## Creating cases in Microsoft Purview compliance portal
 
-Microsoft 365 compliance center allows you to manage your organization's compliance tasks—eDiscovery is just one of those activities. You'll create cases to control holds on information and search for content required for evidence in current or future legal cases.
+Microsoft Purview compliance portal allows you to manage your organization's compliance tasks—eDiscovery is just one of those activities. You'll create cases to control holds on information and search for content required for evidence in current or future legal cases.
 
 :::image type="content" source="../media/select-compliance-center.png" alt-text="Screenshot of the Microsoft 3 65 app launcher with Compliance highlighted." border="false":::
 
@@ -54,9 +54,9 @@ You can instantly add hold details in the case summary screen, or access the cas
 4. Choose specific SharePoint sites, Team sites, or Yammer networks.
 5. To include all the Exchange public folders, select the toggle switch, then select **Next**.
 
-You can't choose individual public folders, as Microsoft 365 compliance center only allows for all the created public folders to be included in a case.
+You can't choose individual public folders, as Microsoft Purview compliance portal only allows for all the created public folders to be included in a case.
 
 ## Learn more
 
-- [Microsoft 365 compliance center](https://compliance.microsoft.com/?azure-portal=true)
+- [Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true)
 - [Get started with Advanced eDiscovery](/microsoft-365/compliance/get-started-with-advanced-ediscovery?azure-portal=true)

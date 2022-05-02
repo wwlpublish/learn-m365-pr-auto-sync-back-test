@@ -17,7 +17,7 @@ The Azure Information Protection client was the only labeling client for Windows
 
 ## Azure Information Protection unified labeling client
 
-The Azure Information Protection unified labeling client is one of two options for Windows clients to become aware of the functionality introduced with the transition to Microsoft Information Protection framework. It replaces the Azure Information Protection client (classic). This client downloads sensitivity labels and policy settings from the Microsoft 365 compliance center. The unified labeling client is close to feature parity with the Azure Information Protection client. Like the classic client, the unified labeling client installation process is a separate installation from Office. You must download this client from the Microsoft Download Center or other preferred source.
+The Azure Information Protection unified labeling client is one of two options for Windows clients to become aware of the functionality introduced with the transition to Microsoft Information Protection framework. It replaces the Azure Information Protection client (classic). This client downloads sensitivity labels and policy settings from the Microsoft Purview compliance portal. The unified labeling client is close to feature parity with the Azure Information Protection client. Like the classic client, the unified labeling client installation process is a separate installation from Office. You must download this client from the Microsoft Download Center or other preferred source.
 
 ## Office built-in labeling client
 
