@@ -4,7 +4,7 @@ The Contoso Corporation is a fictional organization that needs to quickly config
 This case study will cover the basics for quickly configuring a communication compliance policy to monitor communications for offensive language. This guidance includes:
 
 - Step 1 - Planning for communication compliance
-- Step 2 - Accessing communication compliance in Microsoft 365
+- Step 2 - Accessing Microsoft Purview Communication Compliance
 - Step 3 - Configuring prerequisites and creating a communication compliance policy
 - Step 4 - Investigation and remediation of alerts
 
@@ -26,7 +26,7 @@ By default, global administrators do not have access to communication compliance
 
 :::image type="content" source="../media/review-your-settings.png" alt-text="Screenshot shows Review your settings page. The option of Create role group is selected." lightbox="../media/review-your-settings.png":::
 
-## Step 2 - Accessing communication compliance in Microsoft 365
+## Step 2 - Accessing Microsoft Purview Communication Compliance
 
 After configuring the permissions for communication compliance, Contoso IT administrators and compliance specialists defined in the new role group can access the communication compliance solution in Microsoft 365.
 An easy way for Contoso IT administrators and compliance specialists to access the communication compliance solution is to sign in directly to the [**Microsoft Purview compliance portal**](https://compliance.microsoft.com?azure-portal=true). After signing in, users simply need to select the **Show all** control to display all the compliance solutions and then select the **Communication compliance** solution to get started.
@@ -72,7 +72,7 @@ With all the prerequisites completed, the IT administrators and the compliance s
 
  :::image type="content" source="../media/create-policy.png" alt-text="Screenshot displays Create policy wizard. All employees group is selected under the Users or groups to supervise field and compliance specialists is selected under the Reviewers field." lightbox="../media/create-policy.png":::
 
-   For more information about getting started with communication compliance policies, see [Configure communication compliance in Microsoft 365](/microsoft-365/compliance/communication-compliance-configure?azure-portal=true).
+   For more information about getting started with communication compliance policies, see [Configure Microsoft Purview Communication Compliance](/microsoft-365/compliance/communication-compliance-configure?azure-portal=true).
 
 ## Step 4 – Investigate and remediate alerts
 
@@ -84,4 +84,4 @@ After alerts are generated, Contoso compliance specialists will be able to inves
 
 - [Enable permissions for communication compliance](/microsoft-365/compliance/communication-compliance-configure?step-1-required-enable-permissions-for-communication-compliance?azure-portal=true)
 - [Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off?azure-portal=true)
-- [Configure communication compliance in Microsoft 365](/microsoft-365/compliance/communication-compliance-configure?azure-portal=true)
+- [Configure Microsoft Purview Communication Compliance](/microsoft-365/compliance/communication-compliance-configure?azure-portal=true)

@@ -16,7 +16,7 @@ Remember that imported file plan labels still need to be published or auto-appli
 
 ## Step 1: Download the file plan template
 
-The file plan template is a comma separated value (CSV) file. You download it from the file plan page of the records management solution. Many of your stakeholders will be familiar with using Excel for file plan management. You might be able to use this template to collaborate with stakeholders during file plan and retention schedule development. The template fields won't match your organization's existing file plan and retention schedule, so you'll need to determine how to reconcile the differences. Here's a list of the fields in the file plan template:
+The file plan template is a comma separated value (CSV) file. You download it from the file plan page of the Microsoft Purview Records Management solution. Many of your stakeholders will be familiar with using Excel for file plan management. You might be able to use this template to collaborate with stakeholders during file plan and retention schedule development. The template fields won't match your organization's existing file plan and retention schedule, so you'll need to determine how to reconcile the differences. Here's a list of the fields in the file plan template:
 
 - `LabelName`
 - `Comment`
@@ -46,7 +46,7 @@ Next, you complete the file plan template. Because your goal should be to import
 
 ## Step 3: Import the file plan
 
-You upload the completed plan to Microsoft 365. After you've checked that everything looks as expected, you publish, or auto-apply, the labels to activate them. Refer to the *Information governance* module in this learning path for instructions on how to publish or auto-apply a label policy.
+You upload the completed plan to Microsoft 365. After you've checked that everything looks as expected, you publish, or auto-apply, the labels to activate them. Refer to the *Data Lifecycle Management* module in this learning path for instructions on how to publish or auto-apply a label policy.
 
 ## Learn more
 

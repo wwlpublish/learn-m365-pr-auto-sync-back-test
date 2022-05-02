@@ -1,4 +1,4 @@
-You must understand the state of your sensitive data and how to remediate potential issues. Microsoft information protection technologies offer tools that help you gather information, learn about the state of your sensitive data, and complete your organization's information protection lifecycle.
+You must understand the state of your sensitive data and how to remediate potential issues. Microsoft Purview Information Protection technologies offer tools that help you gather information, learn about the state of your sensitive data, and complete your organization's information protection lifecycle.
 
 ## Microsoft 365 Defender portal
 

@@ -2,7 +2,7 @@ The data classification overview, content explorer, and activity explorer provid
 
 Navigate to **Microsoft Purview compliance portal > Data classification**.
 
-The following cards from the overview page are relevant to information governance:
+The following cards from the overview page are relevant to Data Lifecycle Management:
 
 - Top sensitive info types
 - Top retention labels applied to content
