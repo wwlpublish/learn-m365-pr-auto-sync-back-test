@@ -45,9 +45,9 @@ quiz:
       - content: "Assessment templates"
         isCorrect: true
         explanation: "Correct. Assessment templates contain the controls and action data needed to track compliance with regulations, standards, and policies."
-      - content: "Compliance center"
+      - content: "Compliance portal"
         isCorrect: false
-        explanation: "Incorrect. Compliance center is your home for managing compliance needs using integrated solutions for information protection, information governance, insider risk management, discovery, and more."
+        explanation: "Incorrect. Compliance portal is your home for managing compliance needs using integrated solutions for information protection, Data Lifecycle Management, insider risk management, discovery, and more."
       
     - content: "An improvement action titled *Protect Data in Transit Using Encryption* is included in a Compliance Manager assessment.  What type of action is this?"
       choices:

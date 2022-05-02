@@ -17,4 +17,4 @@ This module will focus on the privacy aspects of our services and what they mean
 
 - [Privacy at Microsoft](https://privacy.microsoft.com/privacy?azure-portal=true)
 - [Service Trust Portal](https://servicetrust.microsoft.com/?azure-portal=true)
-- [Microsoft compliance offerings](/microsoft-365/compliance/offering-home?azure-portal=true)
+- [Microsoft Purivew offerings](/microsoft-365/compliance/offering-home?azure-portal=true)

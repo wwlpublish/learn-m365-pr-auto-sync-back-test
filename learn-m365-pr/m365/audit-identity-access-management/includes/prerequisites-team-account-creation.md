@@ -31,7 +31,7 @@ Training requirements are enforced by IDM. Failure to complete required training
 
 After IDM has confirmed all eligibility requirements are met, the service team account request is sent to authorized managers for review and approval. Only after the request is approved can a service team account be created.
 
-Baseline service team accounts are limited to broad system metadata read access used for regular troubleshooting. This default access is read-only, with no administrative privileges or access to customer content. Moreover, baseline service team accounts can’t request elevated access through Lockbox without specific role assignments allowing elevation requests for specific tasks and operations. These limitations are the foundation of the Microsoft 365 privileged access management strategy, which is built on the principle of Zero Standing Access.
+Baseline service team accounts are limited to broad system metadata read access used for regular troubleshooting. This default access is read-only, with no administrative privileges or access to customer content. Moreover, baseline service team accounts can’t request elevated access through Lockbox without specific role assignments allowing elevation requests for specific tasks and operations. These limitations are the foundation of the Microsoft Purview Privileged Access Management strategy, which is built on the principle of Zero Standing Access.
 
 ## Learn more
 
