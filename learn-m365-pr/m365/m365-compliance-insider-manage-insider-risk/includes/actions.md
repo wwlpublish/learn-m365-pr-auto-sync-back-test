@@ -2,11 +2,11 @@
 
 Alerts can be assigned to a case so that you can conduct a detailed investigation from the **Cases** section in the insider risk management console. You can review the individual signals that triggered the case in a timeline, review the affected content, add notes, or invite additional contributors in the investigation in order to reach a conclusion.
 
-A case investigation may end up with a notice being sent to the offending employee. Other cases might require you to create an eDiscovery case which will enable you to collect, preserve, review, analyze and export data related to the user in question in order to conclude whether there was an actual threat and its scope. In most cases, the eDiscovery case will be managed by a different person with the necessary roles and privileges to manage Advanced eDiscovery cases.
+A case investigation may end up with a notice being sent to the offending employee. Other cases might require you to create an eDiscovery case which will enable you to collect, preserve, review, analyze and export data related to the user in question in order to conclude whether there was an actual threat and its scope. In most cases, the eDiscovery case will be managed by a different person with the necessary roles and privileges to manage eDiscovery cases.
 
 Once an investigation has concluded and the necessary actions have been taken, the case can be closed by resolving the case as either benign or a confirmed policy violation with specific actions taken.
 
-To learn more about Advanced eDiscovery cases, see [Overview of Advanced eDiscovery in Microsoft 365](/microsoft-365/compliance/overview-ediscovery-20?azure-portal=true).
+To learn more about eDiscovery cases, see [Overview of eDiscovery in Microsoft 365](/microsoft-365/compliance/overview-ediscovery-20?azure-portal=true).
 
 ## Case dashboard
 
@@ -107,7 +107,7 @@ All insider risk management cases must be managed with appropriate access contro
 
 ## Case actions
 
-Risk analysts and investigators can take action on a case in one of several methods, depending on the severity of the case, the history of risk of the employee, and the risk guidelines of your organization. In some situations, you may need to escalate a case to an employee or data investigation to collaborate with other areas of your organization and to dive deeper into risk activities. Insider risk management is tightly integrated with other Microsoft 365 compliance features such as Advanced eDiscovery to help you with end-to-end resolution management.
+Risk analysts and investigators can take action on a case in one of several methods, depending on the severity of the case, the history of risk of the employee, and the risk guidelines of your organization. In some situations, you may need to escalate a case to an employee or data investigation to collaborate with other areas of your organization and to dive deeper into risk activities. Insider risk management is tightly integrated with other Microsoft Purview features such as eDiscovery to help you with end-to-end resolution management.
 
 ### Send a notice
 
@@ -116,7 +116,7 @@ It's important to remember that sending a notice to an employee *does not* resol
 
 ### Escalate for investigation
 
-Cases may need to be escalated in situations where additional legal review is needed for the employee's risk activity. This escalation opens a new Advanced eDiscovery case in your Microsoft 365 organization. Advanced eDiscovery provides an end-to-end workflow to preserve, collect, review, analyze, and export content that's responsive to your organization's internal and external legal investigations. It also lets your legal team manage the entire legal hold notification workflow to communicate with custodians involved in a case. Assigning a reviewer as a custodian in an Advanced eDiscovery case created from an insider risk management case helps your legal team take appropriate action and manage content preservation. After the insider risk management case has been escalated to a new employee investigation case, you can review the new case in the **eDiscovery> Advanced** area in the Microsoft 365 compliance center.
+Cases may need to be escalated in situations where additional legal review is needed for the employee's risk activity. This escalation opens a new eDiscovery case in your Microsoft 365 organization. eDiscovery provides an end-to-end workflow to preserve, collect, review, analyze, and export content that's responsive to your organization's internal and external legal investigations. It also lets your legal team manage the entire legal hold notification workflow to communicate with custodians involved in a case. Assigning a reviewer as a custodian in an eDiscovery case created from an insider risk management case helps your legal team take appropriate action and manage content preservation. After the insider risk management case has been escalated to a new employee investigation case, you can review the new case in the **eDiscovery> Advanced** area in the Microsoft Purview compliance portal.
 
 ### Resolve the case
 

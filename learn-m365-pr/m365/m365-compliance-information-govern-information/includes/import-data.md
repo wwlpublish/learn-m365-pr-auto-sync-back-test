@@ -14,7 +14,7 @@ You copy the PST files to a BitLocker-encrypted hard drive and send the drive to
 
 ## Import third party data
 
-Administrators can import and archive third-party data from social media platforms, instant messaging platforms, and document collaboration platforms, to Exchange Online mailboxes. After it is imported, you can apply Microsoft 365 compliance features, including retention policies to the data. Examples of third-party data sources that you can import to Microsoft 365 include the following:
+Administrators can import and archive third-party data from social media platforms, instant messaging platforms, and document collaboration platforms, to Exchange Online mailboxes. After it is imported, you can apply Microsoft Purview features, including retention policies to the data. Examples of third-party data sources that you can import to Microsoft 365 include the following:
 
 - **Social**. Facebook business pages (preview), LinkedIn company pages, Twitter (preview)
 - **Instant messaging**. Yahoo Messenger and GoogleTalk
@@ -22,7 +22,7 @@ Administrators can import and archive third-party data from social media platfor
 - **Vertical industries**. Customer Relationship Management (such as Salesforce Chatter) and Financial Services (such as Bloomberg and Thomson Reuters)
 - **SMS/text messaging**. BlackBerry
 
-Microsoft provides several data connectors in the Microsoft 365 compliance center for Facebook, Twitter, LinkedIn, Instant Bloomberg and HR data. You can also work with a Microsoft partner if you have a requirement to import data from these, or other sources.
+Microsoft provides several data connectors in the Microsoft Purview compliance portal for Facebook, Twitter, LinkedIn, Instant Bloomberg and HR data. You can also work with a Microsoft partner if you have a requirement to import data from these, or other sources.
 
 ## Learn more
 

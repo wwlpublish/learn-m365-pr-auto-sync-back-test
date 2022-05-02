@@ -29,7 +29,7 @@ Along with the Microsoft Intelligent Security Graph, you have faster access to b
 
 - **Safe Attachments** in Outlook and as part of Exchange Online goes beyond email filtering to inspect attachments. If a high-risk attachment is identified, Safe Attachments will inform the user of known malicious attachments and remove them from email.
 
-- **Message Encryption (OME)** safeguards sent email and attachments, ensuring only intended recipients can view email content. OME works seamlessly with Google, Yahoo, and Microsoft consumer account authentication, and one-time passcodes allow users of other email services to securely receive email as well.
+- **Message encryption** safeguards sent email and attachments, ensuring only intended recipients can view email content. Message encryption works seamlessly with Google, Yahoo, and Microsoft consumer account authentication, and one-time passcodes allow users of other email services to securely receive email as well.
 
 - **Windows Defender Application Control** in Windows 10 operates from an approved allowlist and blocklist of applications that Microsoft has checked for safety. It is managed by endpoint protection policies using Microsoft Intune.
 

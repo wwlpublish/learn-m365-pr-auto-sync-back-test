@@ -3,7 +3,7 @@ uid: learn-m365.compliance-discover-advanced-audit.knowledge-check
 title: Knowledge check
 metadata:
   title: Knowledge check
-  description:  Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements in Advanced Auditing in Microsoft 365 include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
+  description:  Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
   ms.date: 08/04/2021
   author: beccarobins
   ms.author: beccarobins
@@ -15,17 +15,17 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "The Advanced Audit “default audit log retention policy” retains any audit record that contains the value of which of the following choices for the Workload property?"
+    - content: "The Audit (Premium) “default audit log retention policy” retains any audit record that contains the value of which of the following choices for the Workload property?"
       choices:
       - content: "`Exchange`, `SharePoint`, `OneDrive`"
         isCorrect: false
-        explanation: "The Advanced Audit default audit log retention policy doesn't modify the retention period for OneDrive audit records."
+        explanation: "The Audit (Premium) default audit log retention policy doesn't modify the retention period for OneDrive audit records."
       - content: "`Exchange`, `SharePoint`, `AzureActiveDirectory`"
         isCorrect: true
-        explanation: "Advanced Audit retains all Exchange, SharePoint, and Azure Active Directory audit records for one year. This retention is accomplished by a default audit log retention policy that retains any audit record that contains the value of **Exchange**, **SharePoint**, or **AzureActiveDirectory** for the **Workload** property (which indicates the service in which the activity occurred) for one year. "
+        explanation: "Audit (Premium) retains all Exchange, SharePoint, and Azure Active Directory audit records for one year. This retention is accomplished by a default audit log retention policy that retains any audit record that contains the value of **Exchange**, **SharePoint**, or **AzureActiveDirectory** for the **Workload** property (which indicates the service in which the activity occurred) for one year. "
       - content: "`Exchange`, `SharePoint`, `Teams`"
         isCorrect: false
-        explanation: "The Advanced Audit default audit log retention policy doesn't modify the retention period for Teams audit records. "
+        explanation: "The Audit (Premium) default audit log retention policy doesn't modify the retention period for Teams audit records. "
 
     - content: "What user value results from moving from a publisher-level limit to a tenant-level limit?"
       choices:
@@ -51,7 +51,7 @@ quiz:
         isCorrect: true
         explanation: "View-Only Audit Logs is the minimum required permission to allow a user to search the audit log. "
       
-    - content: "Advanced Audit in Microsoft 365 provides a default audit log retention policy for all organizations. This policy retains all Exchange, SharePoint, and Azure Active Directory audit records for one year. If you create a custom audit log retention policy for Exchange mailbox activity that had a retention period of six months, audit records for Exchange mailbox will be retained for how long? "
+    - content: "Audit (Premium) provides a default audit log retention policy for all organizations. This policy retains all Exchange, SharePoint, and Azure Active Directory audit records for one year. If you create a custom audit log retention policy for Exchange mailbox activity that had a retention period of six months, audit records for Exchange mailbox will be retained for how long? "
       choices:
       - content: "Six months"
         isCorrect: true

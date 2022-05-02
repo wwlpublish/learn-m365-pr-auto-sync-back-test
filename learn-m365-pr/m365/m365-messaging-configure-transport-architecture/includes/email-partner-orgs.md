@@ -13,7 +13,7 @@ Transport Layer Security (TLS) is a protocol that is widely used on the internet
 
 Notice the following points about this protocol:
 
-- Emails are only encrypted as they are sent across the network. TLS does not ensure that emails are protected after they have been received at the destination. Think of TLS as an encrypted tunnel, through which emails are sent. When they reach the end of the tunnel, TLS no longer protects them. If you want a message to always remain encrypted, you can use a technology such as Office Message Encryption.
+- Emails are only encrypted as they are sent across the network. TLS does not ensure that emails are protected after they have been received at the destination. Think of TLS as an encrypted tunnel, through which emails are sent. When they reach the end of the tunnel, TLS no longer protects them. If you want a message to always remain encrypted, you can use a technology such as Microsoft Purview Message Encryption.
 - A certificate, that is trusted by both parties, is required on the destination server. This certificate includes a DNS domain name, and you can require that this domain matches the DNS domain name of the destination server.
 
 Another restriction you can apply to the connector is to require that all email is sent from or to a specific IP address or range of addresses. This technique is another way to prevent email address spoofing and other attacks.

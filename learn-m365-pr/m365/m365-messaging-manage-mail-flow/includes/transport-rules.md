@@ -52,11 +52,11 @@ There are three ways you can create a mail flow rule:
 
 ### Create a DLP policy to manage a mail flow
 
-You can control data loss prevention in the Microsoft 365 compliance center.
+You can control data loss prevention in the Microsoft Purview compliance portal.
 
-1. In the compliance center, under **Solutions**, select **Data loss prevention**.
+1. In the compliance portal, under **Solutions**, select **Data loss prevention**.
 
-   :::image type="content" source="../media/2-data-loss-prevention.png" alt-text="A screenshot shows the Data loss prevention page in the compliance center, with the Create policy action highlighted." border="false":::
+   :::image type="content" source="../media/2-data-loss-prevention.png" alt-text="A screenshot shows the Data loss prevention page in the compliance portal, with the Create policy action highlighted." border="false":::
 
 1. Select **Create policy**, and then select **Next**.
 
@@ -122,7 +122,7 @@ Use the following steps to create a mail flow rule by using PowerShell cmdlets.
 
 ## View and modify mail flow rules
 
-You can view the DLP policies you've created in the compliance center. The mail rules you've created are stored and managed in Active Directory. You can view these mail rules using the Exchange admin center or PowerShell commands.
+You can view the DLP policies you've created in the compliance portal. The mail rules you've created are stored and managed in Active Directory. You can view these mail rules using the Exchange admin center or PowerShell commands.
 
 ### View or modify mail flow rules using the Exchange admin center
 
@@ -168,7 +168,7 @@ Get-TransportRuleAction
 
 ## Monitor mail flow usage
 
-The Microsoft 365 Defender portal shows all the statistics about mail flows in your organization on a dashboard. You access the dashboard in the mail flow section of the compliance center.
+The Microsoft 365 Defender portal shows all the statistics about mail flows in your organization on a dashboard. You access the dashboard in the mail flow section of the compliance portal.
 
 :::image type="content" source="../media/2-monitor-mail-flows.png" alt-text="A screenshot shows the Mail flow insights page of the Microsoft 3 65 Defender portal." border="false":::
 

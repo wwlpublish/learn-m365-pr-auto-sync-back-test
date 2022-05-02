@@ -19,7 +19,7 @@ Regulatory compliance, internal governance requirements, or litigation risks may
 - Documents shared during online meetings
 - Voicemails
 
-In addition, Microsoft has developed add-on features to allow archiving of data from other sources through integration with third-party data capturing and management solutions. After third-party data is imported, customers can apply Microsoft 365 compliance features to the data, including:
+In addition, Microsoft has developed add-on features to allow archiving of data from other sources through integration with third-party data capturing and management solutions. After third-party data is imported, customers can apply Microsoft Purview features to the data, including:
 
 - Litigation Hold
 - In-Place eDiscovery and Hold

@@ -51,7 +51,7 @@ This section shows a partial list of solutions containing improvement actions th
 
 ## Dashboard filter
 
-Select **Filter** in the upper-right corner of the page to see Compliance Manager Overview filtered by the criteria you specify. You can select one or more filters based on regulations, solutions, action types, groups, and categories. You can, for example, filter the dashboard to show only the score, actions, solutions, categories, and assessments relevant to the NIST 800-53 regulation and the Records Management solution.
+Select **Filter** in the upper-right corner of the page to see Compliance Manager Overview filtered by the criteria you specify. You can select one or more filters based on regulations, solutions, action types, groups, and categories. You can, for example, filter the dashboard to show only the score, actions, solutions, categories, and assessments relevant to the NIST 800-53 regulation and the Microsoft Purview Records Management solution.
 
 The only regulation or standard appearing in the example image below is **Data Protection Baseline.** This is because no additional assessments have been added to Compliance Manager other than what is configured by default.
 
