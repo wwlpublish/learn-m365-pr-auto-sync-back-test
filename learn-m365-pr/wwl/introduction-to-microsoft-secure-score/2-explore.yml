@@ -4,12 +4,13 @@ title: Explore Microsoft Secure Score
 metadata:
   title: Explore Microsoft Secure Score
   description: "Explore Microsoft Secure Score"
-  ms.date: 04/29/2021
+  ms.date: 04/30/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/2-explore.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Secure Score displays the possible improvements you can make depending on the product licenses your organization owns"
       isCorrect: false
-      explanation: "That's incorrect. Your absolute security posture is represented by Secure Score, which stays the same no matter what product licenses your organization owns. Try again."
+      explanation: "Incorrect. Your absolute security posture is represented by Secure Score, which stays the same no matter what product licenses your organization owns."
     - content: "Secure Score isn't an absolute measurement of how likely your system or data will be breached"
       isCorrect: true
-      explanation: "That's correct. Microsoft Secure Score is a numerical summary of your security posture based on system configurations, user behavior, and other security-related measurements. It's not an absolute measurement of how likely your system or data will be breached. Rather, it represents the extent to which you have adopted security controls in your Microsoft 365 environment that can help offset the risk of being breached."
+      explanation: "Correct. Microsoft Secure Score is a numerical summary of your security posture based on system configurations, user behavior, and other security-related measurements. It's not an absolute measurement of how likely your system or data will be breached. Rather, it represents the extent to which you have adopted security controls in your Microsoft 365 environment that can help offset the risk of being breached."
     - content: "Secure Score syncs weekly to receive system data about your achieved points for each action"
       isCorrect: false
-      explanation: "That's incorrect. Secure Score syncs daily to receive system data about your achieved points for each action. Try again."
+      explanation: "Incorrect. Secure Score syncs daily to receive system data about your achieved points for each action."
