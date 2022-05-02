@@ -1,7 +1,7 @@
 ### YamlMime:Module
 uid: learn-m365.compliance-discover-advanced-audit
 metadata:
-  title: Track user and admin activity with Audit (Premium)
+  title: Track user and admin activity with Microsoft Purview Audit (Premium)
   description: Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements in Audit (Premium) include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
   ms.date: 03/10/2022
   author: beccarobins
