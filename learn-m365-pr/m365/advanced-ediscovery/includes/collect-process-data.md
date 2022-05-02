@@ -73,13 +73,13 @@ The search system is tuned for performance so you can search for content quickly
 
 Advanced indexing is the process that reprocesses unindexed and partially indexed content to make it fully searchable.
 
-The **Processing** tab in Advanced eDiscovery provides insight into the status of advanced indexing for different processing scenarios. In the **Index status** view on the **Processing** tab for a case, the graph lists the number of items added to the *hybrid index*. The hybrid index is where Advanced eDiscovery stores the reprocessed content.
+The **Processing** tab in eDiscovery (Premium) provides insight into the status of advanced indexing for different processing scenarios. In the **Index status** view on the **Processing** tab for a case, the graph lists the number of items added to the *hybrid index*. The hybrid index is where eDiscovery (Premium) stores the reprocessed content.
 
-:::image type="content" source="../media/processing.png" alt-text="The Processing tab in Advanced eDiscovery provides insight into the status of advanced indexing for different processing scenarios." lightbox="../media/processing.png":::
+:::image type="content" source="../media/processing.png" alt-text="The Processing tab in eDiscovery (Premium) provides insight into the status of advanced indexing for different processing scenarios." lightbox="../media/processing.png":::
 
 ## Error remediation
 
-Error remediation enables you to address issues that prevent Advanced eDiscovery from processing content. For example, files that are password protected cannot be processed since the files are locked or encrypted. Using error remediation, you can download files with such errors, remove the password protection, and then upload the remediated files.
+Error remediation enables you to address issues that prevent eDiscovery (Premium) from processing content. For example, files that are password protected cannot be processed since the files are locked or encrypted. Using error remediation, you can download files with such errors, remove the password protection, and then upload the remediated files.
 
 Error remediation of documents leverages an Azure AzCopy command that contains parameters with the location of where the files that you want to upload are stored and the Azure storage location that the files will be uploaded to. Therefore, before you begin the process of error remediation, it is necessary to [install the AzCopy command-line utility](/azure/storage/common/storage-use-azcopy-v10?azure-portal=true) to your local computer in the default location, which is `%ProgramFiles(x86)%\Microsoft SDKs\Azure\AzCopy`.  
 
@@ -110,7 +110,7 @@ Error remediation of documents leverages an Azure AzCopy command that contains p
 
     If multiple files are downloaded, each one is downloaded to a subfolder that is named with the file ID.
 
-1. Return to the error remediation wizard in Advanced eDiscovery, then click **Next: Upload files**. This moves to the next page where you can now upload the files.
+1. Return to the error remediation wizard in eDiscovery (Premium), then click **Next: Upload files**. This moves to the next page where you can now upload the files.
 
     :::image type="content" source="../media/download-files.png" alt-text="Download files screen." lightbox="../media/download-files.png":::
 

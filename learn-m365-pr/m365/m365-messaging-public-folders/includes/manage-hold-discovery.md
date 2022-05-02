@@ -59,4 +59,4 @@ You can't choose individual public folders, as Microsoft Purview compliance port
 ## Learn more
 
 - [Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true)
-- [Get started with Advanced eDiscovery](/microsoft-365/compliance/get-started-with-advanced-ediscovery?azure-portal=true)
+- [Get started with eDiscovery (Premium)](/microsoft-365/compliance/get-started-with-advanced-ediscovery?azure-portal=true)

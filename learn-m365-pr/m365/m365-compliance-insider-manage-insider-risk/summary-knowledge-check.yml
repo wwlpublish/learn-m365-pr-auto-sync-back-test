@@ -64,11 +64,11 @@ quiz:
         isCorrect: true
         explanation: "You can filter alerts by one of more attributes including Status, Severity, Time detected, and Policy."
 
-    - content: "Which of the case actions opens a new Advanced eDiscovery case in your Microsoft O365 investigation?"
+    - content: "Which of the case actions opens a new eDiscovery (Premium) case in your Microsoft O365 investigation?"
       choices:
       - content: "Escalate for investigation "
         isCorrect: true
-        explanation: "Escalate the case for employee investigation in situations where additional legal review is needed for the employee's risk activity. This escalation opens a new Advanced eDiscovery case in your Microsoft 365 organization. Advanced eDiscovery provides an end-to-end workflow to preserve, collect, review, analyze, and export content that's responsive to your organization's internal and external legal investigations. "
+        explanation: "Escalate the case for employee investigation in situations where additional legal review is needed for the employee's risk activity. This escalation opens a new eDiscovery (Premium) case in your Microsoft 365 organization. eDiscovery (Premium) provides an end-to-end workflow to preserve, collect, review, analyze, and export content that's responsive to your organization's internal and external legal investigations. "
       - content: "Send a notice "
         isCorrect: false
         explanation: "Sending a reminder notice to the employee via email is an effective method for documenting case review and action, as well as a method to remind employees of corporate policies or point them to refresher training.  "

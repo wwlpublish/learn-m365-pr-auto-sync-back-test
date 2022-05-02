@@ -18,26 +18,26 @@ An **eDiscovery Manager** can:
 
 - Access and manage the cases they create, but not cases created by other eDiscovery managers.
 - Use the Content Search tool to search content locations, preview, and export search results.
-- Create and manage Core eDiscovery cases and Advanced eDiscovery cases.
+- Create and manage eDiscovery (Standard) cases and eDiscovery (Premium) cases.
 - Add to a case and remove members.
 - Create case holds.
 - Run searches associated with a case.
 
 **eDiscovery Administrators** can do everything that an eDiscovery Manager can do, plus:
 
-- Access all cases that are listed on the eDiscovery and Advanced eDiscovery pages.
-- Access case data in Advanced eDiscovery for any case in the organization.
+- Access all cases that are listed on the eDiscovery and eDiscovery (Premium) pages.
+- Access case data in eDiscovery (Premium) for any case in the organization.
 - Manage any eDiscovery case after they add themselves as a member of the case.
 
 ## Licenses
 
 Users, the custodians of the data, must be assigned a Microsoft 365 E5 or Office 365 E5 license. Alternatively, you can purchase an add-on Microsoft 365 E5 Compliance or Microsoft 365 eDiscovery and Audit license for users with an Office 365 E1 or a Microsoft 365 E3 license.
 
-Administrators, compliance officers, or legal personnel who are assigned to cases as members, and use Advanced eDiscovery to collect, view, and analyze data don't need an E5 license.
+Administrators, compliance officers, or legal personnel who are assigned to cases as members, and use eDiscovery (Premium) to collect, view, and analyze data don't need an E5 license.
 
-## Create a Core eDiscovery case
+## Create a eDiscovery (Standard) case
 
-To create a core eDiscovery case:
+To create a eDiscovery (Standard) case:
 
 1. Sign into the [Microsoft Purview compliance portal](https://compliance.microsoft.com) with a user account with the appropriate eDiscovery permissions, or who is part of the Organization Management role group.
 1. From the left navigation pane, select **Show all** > **eDiscovery** > **Core**.
@@ -47,7 +47,7 @@ To create a core eDiscovery case:
 
 ## Create a hold
 
-Once you have created a Core eDiscovery case, you can add one or more holds. When you place content locations on hold, content is preserved until you either remove or delete the hold. It may take up to 24 hours for a hold to take effect. A hold may be:
+Once you have created a eDiscovery (Standard) case, you can add one or more holds. When you place content locations on hold, content is preserved until you either remove or delete the hold. It may take up to 24 hours for a hold to take effect. A hold may be:
 
 - **Infinite** - where all content in the specified locations is placed on hold.
 - **Query based** - where only the content that matches a search query is placed on hold.
@@ -93,4 +93,4 @@ You can also export the results of multiple searches - see the documentation onl
 - [Content Search](/microsoft-365/compliance/content-search)
 - [Assign eDiscovery permissions in the Microsoft 365 Defender portal](/microsoft-365/compliance/assign-ediscovery-permissions)
 - [Create an eDiscovery hold](/microsoft-365/compliance/create-ediscovery-holds)
-- [Export content from a Core eDiscovery case](/microsoft-365/compliance/export-content-in-core-ediscovery)
+- [Export content from a eDiscovery (Standard) case](/microsoft-365/compliance/export-content-in-core-ediscovery)
