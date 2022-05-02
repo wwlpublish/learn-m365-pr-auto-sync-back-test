@@ -26,7 +26,7 @@ Organizations are increasingly trying to do more with auditing as the security a
 
 ## Advanced Audit in Microsoft 365
 
-Microsoft 365 Advanced Audit adds new auditing capabilities that can help your organization with forensic and compliance investigations. Advanced Audit builds on Microsoft 365 auditing and extends it with the following capabilities:
+Microsoft Purview Audit (Premium) adds new auditing capabilities that can help your organization with forensic and compliance investigations. Advanced Audit builds on Microsoft 365 auditing and extends it with the following capabilities:
 
 - Access crucial events
 - Preserve audit logs

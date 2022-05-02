@@ -31,7 +31,7 @@ An **eDiscovery Manager** can:
 
 ## Licenses
 
-Users, the custodians of the data, must be assigned a Microsoft 365 E5 or Office 365 E5 license. Alternatively, you can purchase an add-on Microsoft 365 E5 Compliance or Microsoft 365 eDiscovery and Audit license for users with an Office 365 E1 or a Microsoft 365 E3 license.
+Users, the custodians of the data, must be assigned a Microsoft 365 E5 or Office 365 E5 license. Alternatively, you can purchase an add-on Microsoft 365 E5 Compliance or Microsoft Purview eDiscovery and Audit license for users with an Office 365 E1 or a Microsoft 365 E3 license.
 
 Administrators, compliance officers, or legal personnel who are assigned to cases as members, and use eDiscovery (Premium) to collect, view, and analyze data don't need an E5 license.
 
