@@ -36,7 +36,7 @@ This step doesn't happen until there's an occurrence of the event type. When an 
 
 ### Name
 
-Enter a name to describe the event that clearly distinguishes it, such as "Employment ended: Megan Bowen ID: 12345", or "Vendor contract CONTR_6789 closed". After the event is created, you can view its status from the Events page of the Microsoft Purview Records Management solution.
+Enter a name to describe the event that clearly distinguishes it, such as "Employment ended: Megan Bowen ID: 12345", or "Vendor contract CONTR_6789 closed". After the event is created, you can view its status from the Events page in Microsoft Purview Records Management.
 
 ### Description
 
