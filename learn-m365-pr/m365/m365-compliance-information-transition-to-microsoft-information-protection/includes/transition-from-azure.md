@@ -45,7 +45,7 @@ Here are some considerations before electing to copy policies:
 - **Immediate publishing**. Once policies are copied, they are **immediately published* to all unified labeling supported clients. All users with applications that support unified labeling will see any sensitivity labels associated with those policies. This may be what you intend, but do not copy your policies if you do not want the sensitivity labels associated with them to be visible to users.
 - **Policies not synchronized**. Unlike labels, **policies do not synchronize* between the Microsoft Purview compliance portal and the Azure Information Protection pane. Once copied, each platform's policies are independent. Classic client users will still access the Azure Information Protection store for policies. Unified labeling clients will access the Microsoft Purview compliance portal store.
 
-Selecting *Azure Information Protection > Unified labeling > Copy policies (Preview)** performs a one-time copy from the Azure Information Protection policy store to the Microsoft Purview compliance portal policy store. The policies copied to compliance center use the naming convention "AIP_\<policyname>".
+Selecting *Azure Information Protection > Unified labeling > Copy policies (Preview)** performs a one-time copy from the Azure Information Protection policy store to the Microsoft Purview compliance portal policy store. The policies copied to compliance portal use the naming convention "AIP_\<policyname>".
 
 Examples of the copy policies summary in Azure Information Protection and resulting policy in the Microsoft Purview compliance portal are shown below. Notice the "AIP_" prefix to indicate this policy was copied from Azure Information Protection.
 
@@ -57,7 +57,7 @@ The image below shows Unified labeling status in the Microsoft Purview complianc
 
 :::image type="content" source="../media/unified-label-status-compliance-center.png" alt-text="Unified labeling status in the Microsoft Purview compliance portal." border="false":::
 
-Some advanced policy settings are not available in the Microsoft Purview compliance portal but accessible via PowerShell. This is also true of policies copied using Azure Information Protection's Copy policies (preview). The policy settings are copied, but not visible in the compliance center. Instead, use the Security & Compliance PowerShell module [to update these policy settings. Here are few examples of these settings:
+Some advanced policy settings are not available in the Microsoft Purview compliance portal but accessible via PowerShell. This is also true of policies copied using Azure Information Protection's Copy policies (preview). The policy settings are copied, but not visible in the compliance portal. Instead, use the Security & Compliance PowerShell module [to update these policy settings. Here are few examples of these settings:
 
 - For email messages with attachments, apply a label that matches the highest classification of those attachments.
 - Implement pop-up messages in Outlook that warn, justify, or block emails being sent.

@@ -48,7 +48,7 @@ We'll use the *Local script (for up to 10 machines)* script to onboard devices. 
 
 Here are the instructions for onboarding a Windows device using a local script.
 
-1. On the **Device onboarding** page in the compliance center, select **Onboarding**.
+1. On the **Device onboarding** page in the compliance portal, select **Onboarding**.
 2. Select **Local script (for up to 10 machines)** under **Deployment method**.
 3. Select **Download package**, and then save the DeviceComplianceOnboardingPackage.zip file.
 4. Extract the DeviceComplianceOnboardingPackage.zip file to a location accessible from the device you want to onboard, like a network share or the local device's Desktop. (You may need to bypass any messages or errors stating that downloading the file may harm your device and is not safe.)

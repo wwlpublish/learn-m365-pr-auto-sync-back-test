@@ -133,7 +133,7 @@ You can use the audit data for bind operations in two different ways:
 ## Learn more
 
 - [Responding to a Compromised Email Account](/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account?azure-portal=true)
-- [Use Advanced Audit to investigate compromised accounts](/microsoft-365/compliance/mailitemsaccessed-forensics-investigations?azure-portal=true)
+- [Use Audit (Premium) to investigate compromised accounts](/microsoft-365/compliance/mailitemsaccessed-forensics-investigations?azure-portal=true)
 - [Exchange Online PowerShell V2](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?azure-portal=true)
 - [Search-UnifiedAuditLog PowerShell cmdlet reference](/powershell/module/exchange/policy-and-compliance-audit/Search-UnifiedAuditLog?azure-portal=true)
 - [Search-MailboxAuditLog PowerShell cmdlet reference](/powershell/module/exchange/policy-and-compliance-audit/search-mailboxauditlog?azure-portal=true)

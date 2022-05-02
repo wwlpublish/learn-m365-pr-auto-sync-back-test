@@ -36,7 +36,7 @@ Microsoft Purview compliance portal allows you to manage your organization's dat
 
 :::image type="content" source="../media/compliance-center-dashboard.png" alt-text="Screenshot of Microsoft Purview compliance portal dashboard" lightbox="../media/compliance-center-dashboard.png":::
 
-The compliance center home page displays the following sections.
+The compliance portal home page displays the following sections.
 
 - **Assess.** Shows how well your organization is doing with respect to data protection and compliance.
 - **Protect.** Contains cards that provide high-level information about labels, data loss prevention, third-party apps in use, shared files, shadow IT apps, and more.

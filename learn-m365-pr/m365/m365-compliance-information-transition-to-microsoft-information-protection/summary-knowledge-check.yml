@@ -36,7 +36,7 @@ quiz:
       - content: "Activate unified labeling"
         isCorrect: false
         explanation: "Activation copies the labels from the Azure Information Protection store to the Microsoft Information Protection unified labeling store."
-      - content: "Manage from compliance center "
+      - content: "Manage from compliance portal "
         isCorrect: false
         explanation: "Any policies copied in the previous step will already be published. However, you may want to edit those existing policies or create new ones. Policies are not visible until they are published, and the recommendation is to edit policies for the Microsoft Purview compliance portal. "
       

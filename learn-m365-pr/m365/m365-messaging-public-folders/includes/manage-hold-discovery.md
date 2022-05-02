@@ -9,7 +9,7 @@ Within your organization, you'll need to add appropriate users to an eDiscovery 
 - **eDiscovery Manager**.Members of this role group can view and manage their own cases. Managers can add other managers, but by default will only see cases they own.
 - **eDiscovery Administrator**. People in this role group have all the permissions of eDiscovery Managers, and they can view all cases in the organization. After assigning themselves, eDiscovery Administrators can also export case data and manage cases.
 
-These roles are controlled in the **Permissions** section of the compliance center. Select the **eDiscovery Manager** permission and edit either the Manager or Administrator role.
+These roles are controlled in the **Permissions** section of the compliance portal. Select the **eDiscovery Manager** permission and edit either the Manager or Administrator role.
 
 :::image type="content" source="../media/ediscovery-manager.png" alt-text="Screenshot of the permissions page in the Microsoft Purview compliance portal with the e Discovery Manager selected and the assigned roles shown in an open pane." lightbox="../media/ediscovery-manager.png" border="false":::
 
@@ -19,7 +19,7 @@ Microsoft Purview compliance portal allows you to manage your organization's com
 
 :::image type="content" source="../media/select-compliance-center.png" alt-text="Screenshot of the Microsoft 3 65 app launcher with Compliance highlighted." border="false":::
 
-You access the compliance center from the Microsoft 365 app launcher by selecting **Compliance**. After you've signed in with an account that has the correct permissions, you'll see the Compliance home page. You could also go directly to this page from the link in the **Learn more** section at the end of this unit.
+You access the compliance portal from the Microsoft 365 app launcher by selecting **Compliance**. After you've signed in with an account that has the correct permissions, you'll see the Compliance home page. You could also go directly to this page from the link in the **Learn more** section at the end of this unit.
 
 ### Create an eDiscovery case
 

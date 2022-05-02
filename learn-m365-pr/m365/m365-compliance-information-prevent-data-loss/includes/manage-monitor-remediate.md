@@ -9,7 +9,7 @@ Navigate to **Microsoft Purview compliance portal > Reports** to view the report
 
 The image below shows the summary cards for the reports in the Microsoft Purview compliance portal.
 
-:::image type="content" source="../media/dlp-reports.png" alt-text="Screenshot of the compliance center shows the DLP reports." lightbox="../media/dlp-reports.png":::
+:::image type="content" source="../media/dlp-reports.png" alt-text="Screenshot of the compliance portal shows the DLP reports." lightbox="../media/dlp-reports.png":::
 
 Click **View details** to see the data in each report.
 
