@@ -3,29 +3,17 @@ This section discusses the *Review*, or Early Case Assessment (ECA), phase of th
 > [!div class = "centered"]
 > :::image type="content" source="../media/edrm-model-3.png" alt-text="A diagram showing the fifth phase of the EDRM model – Review." lightbox="../media/edrm-model-3.png":::
 
-<<<<<<< HEAD
 After you've collected all data relevant to the case, the next step is process it for further review. In eDiscovery (Premium), the live, in-place data that you identified in the collection phase is copied offline to an Azure Storage location called a review set.
 
 Review sets are a static set of documents where you can analyze, query, view, tag, and export data in a case. Copying the data to the review set enhances the review and analysis process by providing you with advanced analytics such as themes detection, near-duplicate detection, and email thread identification.
 
 There are various methods for adding data to a review set in an eDiscovery (Premium) case, including:
-=======
-After you've collected all data relevant to the case, the next step is process it for further review. In eDiscovery, the live, in-place data that you identified in the collection phase is copied offline to an Azure Storage location called a review set.
-
-Review sets are a static set of documents where you can analyze, query, view, tag, and export data in a case. Copying the data to the review set enhances the review and analysis process by providing you with advanced analytics such as themes detection, near-duplicate detection, and email thread identification.
-
-There are various methods for adding data to a review set in an eDiscovery case, including:
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 
 - Adding search results to a review set.
 - Adding non-Office 365 data to a review set.
 - Adding data from a review set to another review set.
 
-<<<<<<< HEAD
-:::image type="content" source="../media/add-data.png" alt-text="Three methods for adding data to a review set in an eDiscovery (Premium) case.":::
-=======
 :::image type="content" source="../media/add-data.png" alt-text="Diagram describing the three methods for adding data to a review set in an eDiscovery case.":::
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 
 ## Add search results to a review set
 
@@ -33,11 +21,7 @@ After you are satisfied with the collection of custodial content, you can evalua
 
  :::image type="content" source="../media/add-results.png" alt-text="Screenshot of the Search for Custodian Data flyout." lightbox="../media/add-results.png" border="false":::
 
-<<<<<<< HEAD
 Adding the results of your search to a review set triggers eDiscovery (Premium) to collect all the content from your search results. It then processes all that content by extracting the text and metadata and places the results in a centralized index. These results from the sources you selected can then be searched and analyzed through one interface.
-=======
-Adding the results of your search to a review set triggers eDiscovery to collect all the content from your search results. It then processes all that content by extracting the text and metadata and places the results in a centralized index. These results from the sources you selected can then be searched and analyzed through one interface.
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 
 > [!NOTE]
 > Adding data to a review set is a long-running process. This process includes gathering items from the original data sources in Microsoft 365 (for example, from mailboxes and sites), copying them to the Azure Storage location, and then re-indexing the items. You can track the progress on the Jobs tab or on the Searches tab by monitoring the status in the Added data to review set column.
@@ -46,17 +30,10 @@ After the review set processing is completed, you can click the Review sets tab 
 
 ## Load non-Microsoft 365 data into a review set
 
-<<<<<<< HEAD
 Not all content that you need to analyze in eDiscovery (Premium) is in Microsoft 365. If you want to add data from a source other than Office 365 into your search – including data from an on-premises environment - a process is provided to add that data after you complete your initial search. With the non-Microsoft 365 data import feature in eDiscovery (Premium), you can upload documents that aren't located in Microsoft 365 to a review set. 
 
 > [!NOTE]
 > Non-Microsoft 365 data must be a file type that is supported by eDiscovery (Premium). For more information, see [Supported file types in eDiscovery (Premium)](/microsoft-365/compliance/supported-filetypes-ediscovery20?azure-portal=true).
-=======
-Not all content that you need to analyze in eDiscovery is in Microsoft 365. If you want to add data from a source other than Office 365 into your search – including data from an on-premises environment - a process is provided to add that data after you complete your initial search. With the non-Microsoft 365 data import feature in eDiscovery, you can upload documents that aren't located in Microsoft 365 to a review set. 
-
-> [!NOTE]
-> Non-Microsoft 365 data must be a file type that is supported by eDiscovery. For more information, see [Supported file types in eDiscovery](/microsoft-365/compliance/supported-filetypes-ediscovery20?azure-portal=true).
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 
 ### Before you begin
 
@@ -72,11 +49,7 @@ The files to be uploaded must be located in subfolders, where each subfolder is 
 
 ## Upload non-Microsoft 365 data
 
-<<<<<<< HEAD
 1. In eDiscovery (Premium), navigate to the **Review sets** tab, then select the review set to upload the non-Microsoft 365 data to.
-=======
-1. In eDiscovery, navigate to the **Review sets** tab, then select the review set to upload the non-Microsoft 365 data to.
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 1. In the review set, click **Manage review set**, and then click **View uploads** on the **Non-Microsoft 365 data** tile.
 1. Click **Upload files** to start the data import wizard.
 
@@ -93,11 +66,7 @@ The files to be uploaded must be located in subfolders, where each subfolder is 
 
     :::image type="content" source="../media/process-files-2.png" alt-text="Screenshot of a command prompt that shows the result of running the command." lightbox="../media/process-files-2.png":::
 
-<<<<<<< HEAD
 1. Return to the data import wizard in eDiscovery (Premium) and click **Next: Process files**. This initiates processing, text extraction, and indexing of the non-Microsoft 365 files that were uploaded to the Azure Storage location.
-=======
-1. Return to the data import wizard in eDiscovery and click **Next: Process files**. This initiates processing, text extraction, and indexing of the non-Microsoft 365 files that were uploaded to the Azure Storage location.
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 1. After the processing is finished, you can close the wizard.
 
     > [!NOTE]

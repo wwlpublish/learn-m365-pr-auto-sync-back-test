@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 The eDiscovery (Premium) dashboard enables you to view reporting and eDiscovery data in a visual format. This is especially helpful when you have a large volume of documents and email messages that need to be reviewed.
-=======
-The eDiscovery dashboard enables you to view reporting and eDiscovery data in a visual format. This is especially helpful when you have a large volume of documents and email messages that need to be reviewed.
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 
 By creating widgets, you can quickly analyze your data to identify trends or key statistics that will help you develop your review strategy. The dashboard is customizable so you can add, remove, and configure widgets appropriate to your case and drill down into your content through the visuals.
 
@@ -52,11 +48,7 @@ Once you specify the sender domain, you can use this to create your search and s
 
 ## Review data using source, text, and annotate views
 
-<<<<<<< HEAD
 eDiscovery (Premium) displays content via several viewers each with different purposes. The various viewers can be used by clicking on any document within a review set.
-=======
-eDiscovery displays content via several viewers each with different purposes. The various viewers can be used by clicking on any document within a review set.
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 
 ### Source view
 
@@ -64,11 +56,7 @@ The Source viewer displays the richest view of a document. It supports hundreds 
 
  :::image type="content" source="../media/source-view.png" alt-text="Screenshot of the Source viewer being used to view a document.":::
 
-<<<<<<< HEAD
 If the file is supported in eDiscovery (Premium), it will also be supported for text extraction, including Optical Character Recognition or OCR text extraction for image files, and will be viewable in the Source viewer and the Annotate viewer in eDiscovery (Premium).
-=======
-If the file is supported in eDiscovery, it will also be supported for text extraction, including Optical Character Recognition or OCR text extraction for image files, and will be viewable in the Source viewer and the Annotate viewer in eDiscovery.
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 
 ### Text view
 
@@ -111,11 +99,7 @@ To create and run a query on the documents in a review set, click **New query** 
 
  :::image type="content" source="../media/new-query.png" alt-text="Screenshot of the New query screen in a review set." border="false":::
 
-<<<<<<< HEAD
 After you name your query, you can create it by using a combination of conditions and query language in the Keywords condition card. You can also group conditions together as a block (called a **condition group**) to build a more complex query. For a list and description of metadata properties that you can search, see [Document metadata fields in eDiscovery (Premium)](/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery?azure-portal=true).
-=======
-After you name your query, you can create it by using a combination of conditions and query language in the Keywords condition card. You can also group conditions together as a block (called a **condition group**) to build a more complex query. For a list and description of metadata properties that you can search, see [Document metadata fields in eDiscovery](/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery?azure-portal=true).
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 
  :::image type="content" source="../media/new-query-2.png" alt-text="Screenshot that shows the Condition group in building a query.":::
 
@@ -131,11 +115,7 @@ In addition to queries that you can save, you can use filters to quickly apply a
 
 ## Tag documents in a review set
 
-<<<<<<< HEAD
 When compliance officers, attorneys, or other users review content in a review set, their opinions related to the content can be captured by using tags. For example, if the intent is to cull unnecessary content, a user can tag documents with a tag such as "Non-responsive". After content has been reviewed and tagged, a review set search can be created to exclude any content tagged as "Non-responsive", which removes this content from the next steps in the eDiscovery (Premium) workflow.
-=======
-When compliance officers, attorneys, or other users review content in a review set, their opinions related to the content can be captured by using tags. For example, if the intent is to cull unnecessary content, a user can tag documents with a tag such as "Non-responsive". After content has been reviewed and tagged, a review set search can be created to exclude any content tagged as "Non-responsive", which removes this content from the next steps in the eDiscovery workflow.
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 
  :::image type="content" source="../media/manage-tags.png" alt-text="Screenshot that shows the Manage tags screen in review set." lightbox="../media/manage-tags.png" border="false":::
 
@@ -147,11 +127,7 @@ When viewing a single document in a review set, you can display the tags that a 
 
 ## Attorney-client privilege detection using machine learning
 
-<<<<<<< HEAD
 eDiscovery (Premium) recently introduced a new smart tag for detecting attorney-client privileged communications. The smart tag capability leverages a pre-trained machine learning (ML) model that analyzes documents and lets you instantly search, identify, and tag potentially privileged documents.
-=======
-eDiscovery recently introduced a new smart tag for detecting attorney-client privileged communications. The smart tag capability leverages a pre-trained machine learning (ML) model that analyzes documents and lets you instantly search, identify, and tag potentially privileged documents.
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 
 To take full advantage of the attorney-client privilege detection model, it is recommended that you submit a list of attorneys for your organization when you set up attorney-client privilege detection in your tenant. The model then compares the participants of the document with the attorney list to determine if a document has at least one attorney participant. The ML model also uses machine learning to determine the likelihood that the document contains content that is legal in nature. The analysis of this combination produces three properties for each document that ultimately determines whether or not privileged communications were detected:
 
@@ -165,13 +141,9 @@ These properties and their corresponding values are searchable within a review s
 
 ### Set up attorney-client privilege detection
 
-<<<<<<< HEAD
 1. To enable attorney-client privilege detection in your tenant, navigate to the **Cases** tab in eDiscovery (Premium) and click **Configure global analytics settings**.
 
     :::image type="content" source="../media/advanced-ediscovery.png" alt-text="Setting up Configure global analytics settings, part 1.":::
-=======
-1. To enable attorney-client privilege detection in your tenant, navigate to the **Cases** tab in eDiscovery and click **Configure global analytics settings**.
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 
 1. On the **Analytics settings** tab, click **Manage attorney-client privilege setting**.
 1. On the **Attorney-client privilege** flyout page, use the toggle to turn on the feature and then select **Save**.
@@ -183,11 +155,7 @@ These properties and their corresponding values are searchable within a review s
 To take full advantage the privilege detection model, you need to upload a list of email addresses for the lawyers and legal personnel who work for your organization.
 
 1. Create a .csv file (without a header row) and add the email address for each appropriate person on a separate line. Save this file to your local computer.
-<<<<<<< HEAD
 1. Navigate to the **Cases** tab in eDiscovery (Premium) and click **Configure global analytics settings**.
-=======
-1. Navigate to the **Cases** tab in eDiscovery and click **Configure global analytics settings**.
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 1. On the **Analytics settings** tab, click **Manage attorney-client privilege setting**.
 1. On the **Attorney-client privilege** flyout page, click **Choose File** and then find and select the .csv file that you created in step 1.
 1. Click **Save** to upload the attorney list.

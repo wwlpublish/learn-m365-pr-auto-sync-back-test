@@ -1,15 +1,10 @@
-<<<<<<< HEAD
 This section describes how eDiscovery (Premium) supports the first two phases of the EDRM model – Identification and Preservation.
-=======
-This section describes how eDiscovery supports the first two phases of the EDRM model – Identification and Preservation.
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 
 > [!div class="centered"]
 > :::image type="content" source="../media/edrm-model.png" alt-text="A diagram showing the first two phases of the EDRM model – Identification and Preservation." border="false":::
 
 The first phase in the EDRM model is *Identification*. This phase involves identifying the people in the organization who are in possession of documents and communications relevant to the investigation. These individuals are the custodians of data, or just custodians, and are defined as "persons having control of a document or electronic file". For example, the custodian of an email message could be the owner of the mailbox that contains the relevant message.
 
-<<<<<<< HEAD
 Once the custodians have been identified, they are added to an eDiscovery (Premium) case. Creating a case is accomplished by navigating to the **eDiscovery (Premium)** home page in the Microsoft Purview compliance portal, navigating to the **Cases** tab, then clicking **Create a case**.
 
 :::image type="content" source="../media/advanced-ediscovery.png" alt-text="eDiscovery (Premium) home page in the Microsoft Purview compliance portal." lightbox="../media/advanced-ediscovery.png":::
@@ -17,15 +12,6 @@ Once the custodians have been identified, they are added to an eDiscovery (Premi
 Once the case has been created, you can begin adding the persons of interest by navigating to the **Data sources** tab, select **Add data source**, and then and select **Add new custodians**.
 
 :::image type="content" source="../media/add-custodians.png" alt-text="Screenshot of the Data sources tab in eDiscovery (Premium) home page in the Microsoft Purview compliance portal. Showing the Add new custodians menu selected." lightbox="../media/add-custodians.png":::
-=======
-Once the custodians have been identified, they are added to an eDiscovery case. Creating a case is accomplished by navigating to the **eDiscovery** home page in the Microsoft Purview compliance portal, navigating to the **Cases** tab, then clicking **Create a case**.
-
-:::image type="content" source="../media/advanced-ediscovery.png" alt-text="eDiscovery home page in the Microsoft Purview compliance portal." lightbox="../media/advanced-ediscovery.png":::
-
-Once the case has been created, you can begin adding the persons of interest by navigating to the **Data sources** tab, select **Add data source**, and then and select **Add new custodians**.
-
-:::image type="content" source="../media/add-custodians.png" alt-text="Screenshot of the Data sources tab in eDiscovery home page in the Microsoft Purview compliance portal. Showing the Add new custodians menu selected." lightbox="../media/add-custodians.png":::
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 
 > [!TIP]
 > You need to be a member of the **eDiscovery Manager** group to add custodians and see these options.
@@ -116,11 +102,7 @@ On the **Set Notifications – Required** page, you can define if this is a new 
 
 :::image type="content" source="../media/set-notifications.png" alt-text="Screenshot of the Set Notifications - Required page." lightbox="../media/set-notifications.png":::
 
-<<<<<<< HEAD
 On the **Set Notifications – Optional** page, you have the ability to create reminders and escalation notifications and add links to ensure that custodians acknowledge receiving this information. Since eDiscovery (Premium) is integrated with Azure Active Directory, you can even escalate the notification to the custodian's manager to remind the custodian to take action.
-=======
-On the **Set Notifications – Optional** page, you have the ability to create reminders and escalation notifications and add links to ensure that custodians acknowledge receiving this information. Since eDiscovery is integrated with Azure Active Directory, you can even escalate the notification to the custodian's manager to remind the custodian to take action.
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 
 After selecting the custodians you want to notify, you can review your settings, then choose to select either **Send** or **Cancel**.
 
