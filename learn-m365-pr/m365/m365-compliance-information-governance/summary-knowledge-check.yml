@@ -60,7 +60,7 @@ quiz:
       - content: "Microsoft Purview Data Lifecycle Management "
         isCorrect: false
         explanation: "Data Lifecycle Management manages your content lifecycle using solution to import, store, and classify business critical data. Governance policies can be configured to work automatically and applied organization-wide, if desired. For example, the system can be configured to delete obsolete or irrelevant data without user intervention, reducing the amount of data to govern. "
-      - content: "Microsoft Purview Information Protection solution"
+      - content: "Microsoft Purview Information Protection"
         isCorrect: true
         explanation: "Customers typically want to apply some level of protection to the most sensitive information to prevent it from getting into the wrong hands. This solution helps you discover, classify, and protect sensitive and business critical content throughout its lifecycle across your organization."
               
