@@ -26,11 +26,7 @@ Organizations are increasingly trying to do more with auditing as the security a
 
 ## Audit (Premium)
 
-<<<<<<< HEAD
 Microsoft Purview Audit (Premium) adds new auditing capabilities that can help your organization with forensic and compliance investigations. Audit (Premium) builds on Microsoft 365 auditing and extends it with the following capabilities:
-=======
-Audit (Premium) adds new auditing capabilities that can help your organization with forensic and compliance investigations. Audit (Premium) builds on Microsoft 365 auditing and extends it with the following capabilities:
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 
 - Access crucial events
 - Preserve audit logs
@@ -47,21 +43,13 @@ Audit (Premium) adds new auditing capabilities that can help your organization w
 
 ## Access crucial events
 
-<<<<<<< HEAD
-Basic Microsoft 365 auditing capabilities give you access to over 1,500 audit event types that satisfy most requirements. However, there are some situations where this may not provide enough information to determine when someone breached your environment, or what the attacker accessed. For example, if an earnings document was leaked in an email, the standard auditing events don't tell you who opened the email. This signal could make a critical difference in a forensic investigation. Without clear indicators, you must assume the worst, which can lead to higher cost and longer turnaround time to control risk.
-=======
 Basic auditing capabilities give you access to over 1,500 audit event types that satisfy most requirements. However, there are some situations where this may not provide enough information to determine when someone breached your environment, or what the attacker accessed. For example, if an earnings document was leaked in an email, the basic auditing events don't tell you who opened the email. This signal could make a critical difference in a forensic investigation. Without clear indicators, you must assume the worst, which can lead to higher cost and longer turnaround time to control risk.
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 
 New crucial security and compliance events will help you investigate security breaches. The first of these crucial audit events released is the `MailItemsAccessed` mailbox auditing action. This action is triggered when mail data is accessed by mail protocols and mail clients. The `MailItemsAccessed` action can help investigators identify data breaches and determine the scope of messages that may have been compromised. If an attacker gained access to email messages, the `MailItemsAccessed` action will be triggered even if no explicit signal messages were actually read.
 
 ## Preserve audit logs
 
-<<<<<<< HEAD
-The default Microsoft 365 audit log retention period is 90 days. Research indicates the time to detect a breach is about 200 days. Audit log events have sometimes already been aged out and deleted by the time many breaches have been identified, rendering the logs useless to the investigation. Additionally, once detected, breach investigations can take six months to one year, outlasting the standard audit log retention period.
-=======
 The default audit log retention period is 90 days. Research indicates the time to detect a breach is about 200 days. Audit log events have sometimes already been aged out and deleted by the time many breaches have been identified, rendering the logs useless to the investigation. Additionally, once detected, breach investigations can take six months to one year, outlasting the basic audit log retention period.
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 
 Longer term audit log retention can help with ongoing forensic or compliance investigations. Audit (Premium) retains all Exchange, SharePoint, and Azure Active Directory audit records for one year. This is accomplished by a default audit log retention policy that retains any audit record containing the value of `Exchange`, `SharePoint`, or `AzureActiveDirectory` for the Workload property, indicating the service with which the audit record is associated.
 
@@ -71,15 +59,9 @@ Audit records not covered by the default audit log retention policy in Audit (Pr
 - Specific audited activities
 - The user performing an audited activity
 
-<<<<<<< HEAD
 Custom audit log retention policies have priority over the default audit log retention policy. You can also set the audit log retention policy priority level so specific policies will take priority over others. A situation where this could apply is if you want to retain Exchange, SharePoint, or Azure Active Directory audit records for less than a year for some or all users in your organization. You can have a maximum of 50 custom audit log retention policies in your organization. The table below summarizes the key differences between standard audit logging and Audit (Premium) retention.
 
 |  Feature | Audit (Standard)  |  Audit (Premium) |
-=======
-Custom audit log retention policies have priority over the default audit log retention policy. You can also set the audit log retention policy priority level so specific policies will take priority over others. A situation where this could apply is if you want to retain Exchange, SharePoint, or Azure Active Directory audit records for less than a year for some or all users in your organization. You can have a maximum of 50 custom audit log retention policies in your organization. The table below summarizes the key differences between basic audit logging and Audit (Premium) retention.
-
-|  Feature | Basic audit  |  Audit (Premium) |
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 |---|---|---|
 |  Turn audit log on/off |  Yes | Yes  |
 |  Custom retention period | No  |  Yes |
