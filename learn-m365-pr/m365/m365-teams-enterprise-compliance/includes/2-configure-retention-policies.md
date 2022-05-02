@@ -15,11 +15,11 @@ By default, Teams chat, channel, and files data are retained indefinitely. Use T
 
 To create a retention policy:
 
-1. Sign into the [Microsoft Purview compliance portal](https://compliance.microsoft.com), from the left navigation, select **Information governance** under **Solutions**..
-1. On the **Information governance** page, select the **Retention policies** tab.
+1. Sign into the [Microsoft Purview compliance portal](https://compliance.microsoft.com), from the left navigation, select **Data Lifecycle Management** under **Solutions**..
+1. On the **Data Lifecycle Management** page, select the **Retention policies** tab.
 1. Select **+ New retention policy** to create a new retention policy.
 
-    :::image type="content" source="../media/create-new-retention-policies.png" alt-text="Screenshot of the Microsoft Purview compliance portal, showing the information governance page, highlighting the retention policies tab, with the + New retention button highlighted." lightbox="../media/create-new-retention-policies.png":::
+    :::image type="content" source="../media/create-new-retention-policies.png" alt-text="Screenshot of the Microsoft Purview compliance portal, showing the Data Lifecycle Management page, highlighting the retention policies tab, with the + New retention button highlighted." lightbox="../media/create-new-retention-policies.png":::
 
 1. On the **Name your policy** page, enter a **name** and optionally a **description**. Then select **Next**.
 1. On the **Choose the type of retention policy to create​** page, specify the kind of policy, either **Adaptive** or **Static**, then select **Next**.

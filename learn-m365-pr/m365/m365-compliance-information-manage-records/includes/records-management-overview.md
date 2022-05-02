@@ -1,4 +1,4 @@
-Many principles of the solution for information governance also apply for records management, but there are some differences. Those differences include file plan, record declaration, and record versioning.
+Many principles of the solution for Data Lifecycle Management also apply for records management, but there are some differences. Those differences include file plan, record declaration, and record versioning.
 
 > [!NOTE]
 > Records management is included with Microsoft 365 E5/A5/G5, Microsoft 365 E5/A5/G5/F5 Compliance and F5 Security & Compliance, Microsoft 365 Information Protection and Governance E5/A5/G5, and Office 365 E5/A5/G5.

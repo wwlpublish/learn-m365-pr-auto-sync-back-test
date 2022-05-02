@@ -46,7 +46,7 @@ Next, you complete the file plan template. Because your goal should be to import
 
 ## Step 3: Import the file plan
 
-You upload the completed plan to Microsoft 365. After you've checked that everything looks as expected, you publish, or auto-apply, the labels to activate them. Refer to the *Information governance* module in this learning path for instructions on how to publish or auto-apply a label policy.
+You upload the completed plan to Microsoft 365. After you've checked that everything looks as expected, you publish, or auto-apply, the labels to activate them. Refer to the *Data Lifecycle Management* module in this learning path for instructions on how to publish or auto-apply a label policy.
 
 ## Learn more
 

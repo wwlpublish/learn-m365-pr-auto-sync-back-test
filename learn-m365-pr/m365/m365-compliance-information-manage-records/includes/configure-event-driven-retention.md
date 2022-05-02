@@ -26,7 +26,7 @@ Refer to the retention label configuration unit in this module for the instructi
 
 ## Step 2: Publish or auto-apply the label
 
-Labels don't do anything unless they're published or auto-applied by a policy. Refer to the information governance module in this learning path for instructions on how to publish or auto-apply a label policy. When the label is published, it will be applied to email messages and documents. Remember that the documents the label is being applied to must have a column that's used as an Asset ID.  
+Labels don't do anything unless they're published or auto-applied by a policy. Refer to the Data Lifecycle Management module in this learning path for instructions on how to publish or auto-apply a label policy. When the label is published, it will be applied to email messages and documents. Remember that the documents the label is being applied to must have a column that's used as an Asset ID.  
 
 ## Step 3: Create an event
 

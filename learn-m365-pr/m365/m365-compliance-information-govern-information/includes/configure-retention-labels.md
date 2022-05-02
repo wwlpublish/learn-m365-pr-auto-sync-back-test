@@ -1,6 +1,6 @@
 When published, retention labels appear in users' apps, such as Outlook, SharePoint, and OneDrive. When a label is applied to email or documents (automatically or by the user), the content is retained based on the settings you configure. For example, you can create labels that retain content for a certain time or delete content automatically when it reaches a certain age. They are used in the following information protection and governance solutions:
 
-- Information governance
+- Data Lifecycle Management
 - Records management
 
 In some instances, you may ask your users to add retention labels to their own content, especially emails. In other cases, you might want the system to automatically add retention labels to specific types of data, like contracts.
@@ -15,7 +15,7 @@ Here are some important things to remember about retention labels.
 - Exchange public folders do not support labels.
 - Retention label policies can trigger a disposition review at the end of a retention period. Retention policies cannot.
 
-Navigate to **Microsoft Purview compliance portal > Information Governance > Labels to configure retention labels**.
+Navigate to **Microsoft Purview compliance portal > Data Lifecycle Management > Labels to configure retention labels**.
 
 The process of creating a retention label consists of these steps:
 
