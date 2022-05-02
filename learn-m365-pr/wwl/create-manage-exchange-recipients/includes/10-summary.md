@@ -13,4 +13,4 @@ Managing recipients is a crucial day-to-day task for Exchange and Microsoft 365 
  -  Create a new e-mail address when a new employee joins a team.
  -  Add a new e-mail address for users when their organization starts a new marketing campaign.
  -  Create a new contact that's available throughout the organization.
- -  Create a a new public folder for shared collaboration.
+ -  Create a new public folder for shared collaboration.
