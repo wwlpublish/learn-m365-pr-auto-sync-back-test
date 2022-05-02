@@ -27,7 +27,7 @@ quiz:
         isCorrect: false
         explanation: "Risk management compliance helps identify and manage potential legal exposure and can help minimize risks before they can damage corporate operations."
 
-    - content: "The workflow for identifying and resolving compliance issues with communication compliance in Microsoft 365 can be broken down into four phases. In which phase do you review user activity history?"
+    - content: "The workflow for identifying and resolving compliance issues with Microsoft Purview Communication Compliance can be broken down into four phases. In which phase do you review user activity history?"
       choices:
       - content: "Remediate"
         isCorrect: false

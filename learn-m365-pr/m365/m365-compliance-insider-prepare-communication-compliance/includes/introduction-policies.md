@@ -71,7 +71,7 @@ Supervision policies in Microsoft 365 will be fully replaced by the communicatio
 - Both solutions may be used side by side in your organization, but policies used in each solution must have *unique* policy names. Groups and custom keyword dictionaries can be shared between solutions during a transition period.
 - Messages saved in supervision policy matches cannot be moved or shared into communication compliance.
 - It is recommended that you create new policies in communication compliance that have the same *conditions* as existing supervision policies to use the new investigation and remediation improvements.
-- When transitioning to communication compliance in Microsoft 365, you should plan to export reporting data from supervision in Office 365 if you have internal compliance retention policy requirements.
+- When transitioning to Microsoft Purview Communication Compliance, you should plan to export reporting data from supervision in Office 365 if you have internal compliance retention policy requirements.
 
 ## Learn more
 

@@ -1,6 +1,6 @@
 When published, retention labels appear in users' apps, such as Outlook, SharePoint, and OneDrive. When a label is applied to email or documents (automatically or by the user), the content is retained based on the settings you configure. For example, you can create labels that retain content for a certain time or delete content automatically when it reaches a certain age. They are used in the following information protection and governance solutions:
 
-- Information governance
+- Data Lifecycle Management
 - Records management
 
 In some instances, you may ask your users to add retention labels to their own content, especially emails. In other cases, you might want the system to automatically add retention labels to specific types of data, like contracts.
@@ -15,7 +15,7 @@ Here are some important things to remember about retention labels.
 - Exchange public folders do not support labels.
 - Retention label policies can trigger a disposition review at the end of a retention period. Retention policies cannot.
 
-Navigate to **Microsoft Purview compliance portal > Information Governance > Labels to configure retention labels**.
+Navigate to **Microsoft Purview compliance portal > Data Lifecycle Management > Labels to configure retention labels**.
 
 The process of creating a retention label consists of these steps:
 
@@ -74,7 +74,7 @@ You need to determine when you want the clock to start on the deletion or retent
 
 If you choose **when it was created, last modified,** or **labeled**, content in email messages will be retained or deleted based on when the message was sent or received, documents when created or last modified, or when the label was applied. You will not be able to change the retention period if you elect to retain or delete content based on when it was labeled.
 
-Basing the label on an event means the content will be retained forever until the event trigger is started. When there is a specific occurrence of the event type, you create the event to trigger the process using the event page or via an API. An example of an event would be an employee leaving the organization. Event-driven retention configuration is covered in the records management module in this learning path.
+Basing the label on an event means the content will be retained forever until the event trigger is started. When there is a specific occurrence of the event type, you create the event to trigger the process using the event page or via an API. An example of an event would be an employee leaving the organization. Event-driven retention configuration is covered in the Microsoft Purview Records Management module in this learning path.
 
 ## Step 3: Review your settings
 

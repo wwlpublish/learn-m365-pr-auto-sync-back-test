@@ -26,7 +26,7 @@ Organizations are increasingly trying to do more with auditing as the security a
 
 ## Audit (Premium)
 
-Audit (Premium) adds new auditing capabilities that can help your organization with forensic and compliance investigations. Audit (Premium) builds on Microsoft 365 auditing and extends it with the following capabilities:
+Microsoft Purview Audit (Premium) adds new auditing capabilities that can help your organization with forensic and compliance investigations. Audit (Premium) builds on Microsoft 365 auditing and extends it with the following capabilities:
 
 - Access crucial events
 - Preserve audit logs
@@ -59,9 +59,9 @@ Audit records not covered by the default audit log retention policy in Audit (Pr
 - Specific audited activities
 - The user performing an audited activity
 
-Custom audit log retention policies have priority over the default audit log retention policy. You can also set the audit log retention policy priority level so specific policies will take priority over others. A situation where this could apply is if you want to retain Exchange, SharePoint, or Azure Active Directory audit records for less than a year for some or all users in your organization. You can have a maximum of 50 custom audit log retention policies in your organization. The table below summarizes the key differences between basic audit logging and Audit (Premium) retention.
+Custom audit log retention policies have priority over the default audit log retention policy. You can also set the audit log retention policy priority level so specific policies will take priority over others. A situation where this could apply is if you want to retain Exchange, SharePoint, or Azure Active Directory audit records for less than a year for some or all users in your organization. You can have a maximum of 50 custom audit log retention policies in your organization. The table below summarizes the key differences between standard audit logging and Audit (Premium) retention.
 
-|  Feature | Basic audit  |  Audit (Premium) |
+|  Feature | Audit (Standard)  |  Audit (Premium) |
 |---|---|---|
 |  Turn audit log on/off |  Yes | Yes  |
 |  Custom retention period | No  |  Yes |
@@ -84,4 +84,4 @@ Each organization gets their own fully allocated bandwidth to access auditing da
 - [Office 365 Management APIs](/office/office-365-management-api/?azure-portal=true)
 - [Audited Activities](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#audited-activities?azure-portal=true)
 - [Detailed properties in the audit log](/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log?azure-portal=true)
-- [Microsoft 365 licensing guidance for advanced audit](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-audit?azure-portal=true)
+- [Microsoft 365 licensing guidance for Audit (Premium)](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-audit?azure-portal=true)

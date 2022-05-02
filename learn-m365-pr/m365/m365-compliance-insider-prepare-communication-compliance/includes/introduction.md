@@ -6,7 +6,7 @@ Code of conduct violations such as the one described above often slip through th
 
 Communication compliance monitors outbound and inbound communication across Exchange email, Microsoft Teams chats and channels (including attachments), Skype for Business conversations and third-party platform communications such as Bloomberg, Facebook, and Twitter. It automatically detects, captures, and alerts reviewers of inappropriate communication across these channels based on policies you define. Pre-defined and custom policies allow you to scan communications for policy matches so they can be examined by designated reviewers. Reviewers can investigate scanned communications in your organization and take appropriate remediation actions to make sure they're compliant with your organization's messaging standards.
 
-Watch the video below to learn more about Communication Compliance in Microsoft 365.  
+Watch the video below to learn more about Microsoft Purview Communication Compliance.  
 >
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xlaF]
 
