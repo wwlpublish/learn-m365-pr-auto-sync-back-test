@@ -74,7 +74,7 @@ You need to determine when you want the clock to start on the deletion or retent
 
 If you choose **when it was created, last modified,** or **labeled**, content in email messages will be retained or deleted based on when the message was sent or received, documents when created or last modified, or when the label was applied. You will not be able to change the retention period if you elect to retain or delete content based on when it was labeled.
 
-Basing the label on an event means the content will be retained forever until the event trigger is started. When there is a specific occurrence of the event type, you create the event to trigger the process using the event page or via an API. An example of an event would be an employee leaving the organization. Event-driven retention configuration is covered in the records management module in this learning path.
+Basing the label on an event means the content will be retained forever until the event trigger is started. When there is a specific occurrence of the event type, you create the event to trigger the process using the event page or via an API. An example of an event would be an employee leaving the organization. Event-driven retention configuration is covered in the Microsoft Purview Records Management module in this learning path.
 
 ## Step 3: Review your settings
 

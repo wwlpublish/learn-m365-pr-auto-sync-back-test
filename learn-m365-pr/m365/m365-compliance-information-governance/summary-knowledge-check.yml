@@ -36,9 +36,9 @@ quiz:
       - content: "Streamlined administration "
         isCorrect: false
         explanation: "Managing a set of governance policies in SharePoint, another set in Exchange, and then another for each of your line of business systems is not productive and can be redundant. Microsoft centralized the administration of policies in the Microsoft Purview compliance portal and added native connectors to let you incorporate data outside Microsoft 365 to be governed by one set of policies."
-      - content: "Records management"
+      - content: "Microsoft Purview Microsoft Purview Records Management"
         isCorrect: false
-        explanation: "Records management is for that special set of content within your organization, which needs to be immutable."
+        explanation: "Microsoft Purview Records Management is for that special set of content within your organization, which needs to be immutable."
 
     - content: "Information protection and governance is a dynamic process. It is continuous. If you are at the stage where the organization is asking why this particular data is a risk, which stage are you in the process?"
       choices:
@@ -71,7 +71,7 @@ quiz:
         explanation: "Data Lifecycle Management manages your content lifecycle using solution to import, store, and classify business critical data. Governance policies can be configured to work automatically and applied organization-wide, if desired. For example, the system can be configured to delete obsolete or irrelevant data without user intervention, reducing the amount of data to govern."
       - content: "Microsoft Microsoft Purview Microsoft Purview Microsoft Purview Records Management "
         isCorrect: true
-        explanation: "Records management uses intelligent classification to automate and simplify the retention schedule for regulatory, legal, and business critical records in your organization. Governance policies can be configured to work automatically and applied organization-wide, if desired. For example, the system can be configured to delete obsolete or irrelevant data without user intervention, reducing the amount of data to govern."
+        explanation: "Microsoft Purview Records Management uses intelligent classification to automate and simplify the retention schedule for regulatory, legal, and business critical records in your organization. Governance policies can be configured to work automatically and applied organization-wide, if desired. For example, the system can be configured to delete obsolete or irrelevant data without user intervention, reducing the amount of data to govern."
       - content: "Microsoft Purview Information Protection solution	"
         isCorrect: false
         explanation: "Customers typically want to apply some level of protection to the most sensitive information to prevent it from getting into the wrong hands. This solution helps you discover, classify, and protect sensitive and business critical content throughout its lifecycle across your organization.  Question: Once you know your data and mapped your data estate, you can take steps to protect it. Which solution helps you discover, classify, and protect sensitive and business critical content throughout its lifecycle across your organization?"

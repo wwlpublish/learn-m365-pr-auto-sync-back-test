@@ -28,7 +28,7 @@ Here are some common scenarios that Microsoft's records management solution can 
 
 Careful planning should be a part of each information protection and governance solution, and this is especially true of records management. This section includes general guidance on where to start with records management. It isn't meant to be a substitute for developing a more thorough plan that involves subject matter experts and stakeholders.
 
-Many organizations already have a file plan that includes a retention schedule. They'll make this   the first step to get started with records management in Microsoft 365. Organizations that don't have a file plan should start by developing one. Microsoft includes a template and wizard that simplifies the process of importing your file plan into Microsoft 365.
+Many organizations already have a file plan that includes a retention schedule. They'll make this   the first step to get started with Microsoft Purview Records Management. Organizations that don't have a file plan should start by developing one. Microsoft includes a template and wizard that simplifies the process of importing your file plan into Microsoft 365.
 
 Here are some common items a typical file plan includes:
 
@@ -42,7 +42,7 @@ Here are some common items a typical file plan includes:
 
 ## Learn more
 
-- [Records management in Microsoft 365](/microsoft-365/compliance/records-management)
+- [Microsoft Purview Records Management](/microsoft-365/compliance/records-management)
 - [Overview of records](/microsoft-365/compliance/records-management)
 - [Microsoft 365 security & compliance licensing guidance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 - [Records management licensing guidance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management)
