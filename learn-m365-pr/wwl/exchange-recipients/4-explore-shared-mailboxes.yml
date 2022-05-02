@@ -25,6 +25,6 @@ quiz:
     - content: "A shared mailbox can have its own username and password"
       isCorrect: false
       explanation: "This answer is incorrect. A shared mailbox doesn't have its own username and password like a User mailbox does. You can't use Outlook, Outlook Web App, Exchange ActiveSync, Exchange Web Services (EWS), or any other Exchange protocol to sign into a shared mailbox. Instead, you must be granted permission to the shared mailbox, at which point you can access it by using Outlook or Outlook Web App."
-    - content: "A shared mailboxe requires a Microsoft 365 license"
+    - content: "A shared mailbox requires a Microsoft 365 license"
       isCorrect: false
       explanation: "This answer is incorrect. Shared mailboxes do not require a Microsoft 365 license unless you plan on using advanced functionality such as in-place archive or in-place hold."

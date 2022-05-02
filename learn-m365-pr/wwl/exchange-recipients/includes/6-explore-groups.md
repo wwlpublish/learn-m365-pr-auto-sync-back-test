@@ -26,7 +26,7 @@ The following table identifies the different types of groups that you can create
     These groups can only be used to distribute messages to a set of recipients.
   :::column-end:::
   :::column:::
-    Configure if owner approval is required to join the group (open, closed, or owner approval)
+    Configure if owner approval is required to join the group (open, closed, or owner approval).
   :::column-end:::
 :::row-end:::
 :::row:::
