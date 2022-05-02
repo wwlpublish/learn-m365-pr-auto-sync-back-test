@@ -1,6 +1,6 @@
 In this exercise, you'll add and interact with SharePoint Framework-based client-side web parts in a SharePoint Online modern site collection.
 
-Open a browser and navigate to the developer site you created in the first exercise. If prompted, log in using your Work or School credentials.
+Open a browser and navigate to the developer site you created in the first exercise. If prompted, sign in using your Work or School credentials.
 
 Select the **Pages** link in the left-hand Quick Launch navigation menu.
 
@@ -35,13 +35,13 @@ Select **Save as draft** to see the page as your users will see it.
 ## Verify your developer environment is properly configured
 
 > [!NOTE]
-> The instructions below assume you're using v1.13.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info)
 
-Use the tools installed in the second exercise to create a new SharePoint Framework component and test it using the local workbench.
+Use the tools installed in the second exercise to create a new SharePoint Framework component and test it using the SharePoint Online hosted workbench.
 
 Open a command prompt and change to an empty folder where you want to store the files for the project.
 
-Run the SharePoint Yeoman generator by executing the following command:
+Run the SharePoint Framework Yeoman generator by executing the following command:
 
 ```console
 yo @microsoft/sharepoint
@@ -50,14 +50,9 @@ yo @microsoft/sharepoint
 Use the following to complete the prompt that is displayed:
 
 * **What is your solution name?**: HelloWorld
-* **Only SharePoint Online (latest) is supported.  For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator**: SharePoint Online only (latest)
-* **Where do you want to place the files?**: Use the current folder
-* **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
-* **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No
 * **Which type of client-side component to create?**: WebPart
 * **What is your Web part name?**: HelloWorld
-* **What is your Web part description?**: HelloWorld description
-* **Which framework would you like to use?**: No JavaScript framework
+* **Which framework would you like to use?**: No framework
 
 After provisioning the folders required for the project, the generator will install all the dependency packages using NPM.
 
@@ -79,7 +74,7 @@ Wait for the **reload** subtask to finish executing. At this point, the web part
 
 ![Screenshot of the gulp serve output](../media/07-testing-01.png)
 
-Open a browser and navigate to the developer site you created in the first exercise. If prompted, log in using your Work or School credentials. Append the following to the end of the site's URL: **/_layouts/workbench.aspx**. This is the SharePoint Online hosted workbench.
+Open a browser and navigate to the developer site you created in the first exercise. If prompted, sign in using your Work or School credentials. Append the following to the end of the site's URL: **/_layouts/workbench.aspx**. This is the SharePoint Online hosted workbench.
 
 ![Screenshot of the SharePoint Workbench](../media/07-testing-02.png)
 
