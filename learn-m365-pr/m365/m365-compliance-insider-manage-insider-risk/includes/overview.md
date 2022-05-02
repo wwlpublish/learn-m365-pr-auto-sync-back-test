@@ -57,7 +57,7 @@ The insider risk management solution in Microsoft 365 can help you detect, inves
 
 Using policy templates with pre-defined conditions and comprehensive activity signaling across the Microsoft 365 service, you can use actionable insights to quickly identify and resolve risky behavior.
 
-Identifying and resolving internal risk activities and compliance issues with insider risk management in Microsoft 365 uses the following workflow:
+Identifying and resolving internal risk activities and compliance issues with Microsoft Purview Insider Risk Management uses the following workflow:
 
 :::image type="content" source="../media/insider-risk-management-workflow.png" alt-text="Insider risk management workflow" lightbox="../media/insider-risk-management-workflow.png":::
 

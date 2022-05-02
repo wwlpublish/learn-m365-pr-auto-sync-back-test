@@ -8,4 +8,4 @@ Now that you have completed this module, you should be able to:
 - Name the tools and technologies used to control access within Microsoft 365 environments.
 - Explain mandatory prerequisites for granting service team accounts.
 - Describe Microsoft 365 service teams' privileged access management process.
-- Explain the process for using Microsoft 365 Customer Lockbox.
+- Explain the process for using Microsoft Purview Customer Lockbox.

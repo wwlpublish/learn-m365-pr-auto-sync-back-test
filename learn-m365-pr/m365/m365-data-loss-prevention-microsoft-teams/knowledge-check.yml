@@ -39,7 +39,7 @@ quiz:
       choices:
       - content: "Ensure that users are licensed for Office 365 Advanced Compliance."
         isCorrect: false
-        explanation: "You need users licensed for Office 365 DLP, which is included in Office 365 E3."
+        explanation: "You need users licensed for Microsoft Purview Data Loss Prevention, which is included in Office 365 E3."
       - content: "Ensure that the setting that enables users to communicate with other Skype for Business and Teams users is on."
         isCorrect: false
         explanation: "This is a setting not related to this issue. Users must be in a Teams Only mode."
