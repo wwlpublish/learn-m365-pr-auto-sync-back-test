@@ -4,7 +4,7 @@ title: Explore shared mailboxes
 metadata:
   title: Explore shared mailboxes
   description: "Explore shared mailboxes"
-  ms.date: 03/09/2022
+  ms.date: 05/02/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,7 +24,7 @@ quiz:
       explanation: "This answer is correct. Shared mailboxes provide a generic email address, such as marketing@contoso.com or sales@contoso.com, to field customer inquiries."
     - content: "A shared mailbox can have its own username and password"
       isCorrect: false
-      explanation: "This answer is incorrect. A shared mailbox doesn't have its own username and password like a User mailbox does. You can't use Outlook, Outlook Web App, Exchange ActiveSync, Exchange Web Services (EWS), or any other Exchange protocol to sign into a shared mailbox. Instead, you must be granted permission to the shared mailbox, at which point you can access it by using Outlook or Outlook Web App. Try again."
-    - content: "Shared mailboxes are supported on mobile devices"
+      explanation: "This answer is incorrect. A shared mailbox doesn't have its own username and password like a User mailbox does. You can't use Outlook, Outlook Web App, Exchange ActiveSync, Exchange Web Services (EWS), or any other Exchange protocol to sign into a shared mailbox. Instead, you must be granted permission to the shared mailbox, at which point you can access it by using Outlook or Outlook Web App."
+    - content: "A shared mailboxe requires a Microsoft 365 license"
       isCorrect: false
-      explanation: "This answer is incorrect. Shared mailboxes aren't supported on mobile devices. To access a shared mailbox from a mobile device, you must use Outlook on the Web. Once a user is granted permission to the shared mailbox, it will automatically be added to the user’s Outlook profile and opened alongside the user’s primary mailbox. Try again."
+      explanation: "This answer is incorrect. Shared mailboxes do not require a Microsoft 365 license unless you plan on using advanced functionality such as in-place archive or in-place hold."

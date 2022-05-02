@@ -58,7 +58,7 @@ The following table identifies the different types of groups that you can create
     Microsoft 365 groups
   :::column-end:::
   :::column:::
-    These groups are available in Microsoft 365 only. They provide distribution list team collaboration functionality for small to medium teams when the requirements include functionality such as conversations, co-authoring of documents, a shared OneNote notebook, or task-based planning.
+    These groups are available in Microsoft 365 only. They provide distribution list team collaboration functionality for small to medium teams when the requirements include functionality such as conversations, coauthoring of documents, a shared OneNote notebook, or task-based planning.
   :::column-end:::
   :::column:::
     Membership is managed by the administrator or self-managed. This design enables users to search for a Microsoft 365 group and join it. Dynamic group membership is possible but requires an Azure AD Premium license.
@@ -66,7 +66,7 @@ The following table identifies the different types of groups that you can create
 :::row-end:::
 
 
-**Additional reading.** For more information, see [What to create: Office 365 groups, shared mailboxes, security groups, and distribution lists](/microsoft-365/admin/create-groups/compare-groups?azure-portal=true).
+**Further reading.** For more information, see [What to create: Office 365 groups, shared mailboxes, security groups, and distribution lists](/microsoft-365/admin/create-groups/compare-groups?azure-portal=true).
 
 ## Knowledge check
 

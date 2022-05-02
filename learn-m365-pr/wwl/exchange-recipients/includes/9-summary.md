@@ -4,6 +4,7 @@ This module examined the different types of recipients that are available in Exc
  -  Microsoft 365 groups
  -  Resources
  -  Contacts
+ -  Public folders
 
 You learned how these recipient types differ from each other, and how recipients can be grouped together to improve collaboration.
 

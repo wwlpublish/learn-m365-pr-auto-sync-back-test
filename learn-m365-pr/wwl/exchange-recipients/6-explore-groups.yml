@@ -4,7 +4,7 @@ title: Explore groups
 metadata:
   title: Explore groups
   description: "Explore groups"
-  ms.date: 03/09/2022
+  ms.date: 05/02/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Distribution list"
       isCorrect: false
-      explanation: "This answer is incorrect. A distribution list is a group that can only be used to distribute messages to a set of recipients. Try again."
+      explanation: "This answer is incorrect. A distribution list is a group that can only be used to distribute messages to a set of recipients."
     - content: "Microsoft 365 group"
       isCorrect: false
-      explanation: "This answer is incorrect. A Microsoft 365 group provides distribution list team collaboration functionality for small to medium teams when the requirements include functionality such as conversations, co-authoring of documents, a shared OneNote notebook, or task-based planning. Try again."
+      explanation: "This answer is incorrect. A Microsoft 365 group provides distribution list team collaboration functionality for small to medium teams when the requirements include functionality such as conversations, co-authoring of documents, a shared OneNote notebook, or task-based planning."
     - content: "Mail-enabled security group"
       isCorrect: true
       explanation: "This answer is correct. Mail-enabled security groups can be used to distribute messages and to provide access to resources, such as control access to OneDrive and SharePoint."
