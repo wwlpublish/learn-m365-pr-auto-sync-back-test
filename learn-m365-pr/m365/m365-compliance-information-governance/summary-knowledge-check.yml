@@ -69,7 +69,7 @@ quiz:
       - content: "Microsoft Purview Data Lifecycle Management "
         isCorrect: false
         explanation: "Data Lifecycle Management manages your content lifecycle using solution to import, store, and classify business critical data. Governance policies can be configured to work automatically and applied organization-wide, if desired. For example, the system can be configured to delete obsolete or irrelevant data without user intervention, reducing the amount of data to govern."
-      - content: "Microsoft Microsoft Purview Microsoft Purview Records Management "
+      - content: "Microsoft Purview Records Management "
         isCorrect: true
         explanation: "Microsoft Purview Records Management uses intelligent classification to automate and simplify the retention schedule for regulatory, legal, and business critical records in your organization. Governance policies can be configured to work automatically and applied organization-wide, if desired. For example, the system can be configured to delete obsolete or irrelevant data without user intervention, reducing the amount of data to govern."
       - content: "Microsoft Purview Information Protection solution	"
