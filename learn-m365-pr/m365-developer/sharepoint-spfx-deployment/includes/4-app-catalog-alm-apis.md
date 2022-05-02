@@ -30,7 +30,7 @@ The site collection App Catalog is a special document library in the site collec
 
 #### Create site collection App Catalogs with SharePoint Online PowerShell
 
-The [SharePoint Online PowerShell](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell) contains cmdlets that you can use to create and remove App Catalogs to and from site collections. First, connect to your SharePoint Online tenant by signing into your Tenant Admin Center and then use the `Add-SPOSiteCollectionAppCatalog` cmdlet to add a site collection App Catalog to the specified site collection.
+The [SharePoint Online PowerShell]/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell) contains cmdlets that you can use to create and remove App Catalogs to and from site collections. First, connect to your SharePoint Online tenant by signing into your Tenant Admin Center and then use the `Add-SPOSiteCollectionAppCatalog` cmdlet to add a site collection App Catalog to the specified site collection.
 
 ```powershell
 PS> Connect-SPOService -Url https://contoso-admin.sharepoint.com

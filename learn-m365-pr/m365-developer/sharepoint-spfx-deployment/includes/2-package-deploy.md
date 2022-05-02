@@ -109,7 +109,7 @@ When the value of `skipFeatureDeployment` is set to **true**, the administrator 
 
 When the value of `skipFeatureDeployment` is set to **false**, the administrator deploying the package to the app catalog doesn't have the option described above. The app contained in the package must be manually added to each site where the components will be used.
 
-![Screenshot of the classic trust dialog](../media/02-enable-apps-panel.png)
+![Screenshot of the modern trust dialog](../media/02-enable-apps-panel.png)
 
 ![Screenshot of the classic trust dialog](../media/02-classic-trust-dialog.png)
 
