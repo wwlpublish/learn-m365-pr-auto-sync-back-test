@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-microsoft-defender-for-office-365.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 05/02/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/9-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer wants to apply an outbound spam policy that applies to all senders in the organization. What must Holly do to complete this requirement?"
+    choices:
+    - content: "Create an outbound spam policy in the Microsoft 365 Defender portal"
+      isCorrect: false
+      explanation: "Incorrect. Holly doesn't need to create an outbound spam policy in the Microsoft 365 Defender portal"
+    - content: "Create an outbound spam policy in PowerShell"
+      isCorrect: false
+      explanation: "Incorrect. Holly doesn't need to create an outbound spam policy in PowerShell."
+    - content: "Holly doesn't have to do anything"
+      isCorrect: true
+      explanation: "Correct. Every organization has a built-in outbound spam policy named Default. The policy is applied to all senders in the organization. This process occurs even though there's no outbound spam filter rule (sender filters) associated with the policy. Creating custom policies with stricter settings than the Default policy enables organizations to increase the effectiveness of its outbound spam filtering. However, creating custom polilcies isn't required if organizations are comfortable with the Default policy settings."
+  - content: "What does URL detonation do?"
+    choices:
+    - content: "If the URL is malicious, it redirects the user to a secure server where the site can be safely viewed"
+      isCorrect: false
+      explanation: "That's incorrect. This action isn't what URL detonation does. Try again."
+    - content: "If the URL is malicious, it quarantines the URL so that any future links to that URL blow up and return an error"
+      isCorrect: false
+      explanation: "That's incorrect. This action isn't what URL detonation does. Try again."
+    - content: "Protects users in the event a URL points to a malicious file on a web site"
+      isCorrect: true
+      explanation: "That's correct. URL detonation combines elements of Safe Links and Safe Attachments into a single feature. This feature is designed to protect users in the event a URL points to a malicious file on a web site."
+  - content: "Patti Fernandez was just hired as the new Enterprise Admin for Lucerne Publishing. Upon reviewing the company's Microsoft 365 deployment, Patti discovered that a number of users appeared on the Restricted users page in the Microsoft 365 Defender portal. What was the likely cause of these users being blocked from sending email?"
+    choices:
+    - content: "They were using the company's Exchange Online service to send out personal emails"
+      isCorrect: false
+      explanation: "Incorrect. This item wasn't the likely cause for blocking these users."
+    - content: "They exceeded one of the company's outbound sending limits"
+      isCorrect: true
+      explanation: "Correct. Blocked users are potentially compromised users. They may have exceeded one of their company's outbound sending limits. Or, they may have exceeded the sending limits in their company's outbound spam policies. Sending limits apply to the number of recipients, number of messages, and number of recipients per message that a user can send from their Exchange Online account."
+    - content: "They sent out emails containing personal photographs"
+      isCorrect: false
+      explanation: "Incorrect. This item wasn't the likely cause for blocking these users."

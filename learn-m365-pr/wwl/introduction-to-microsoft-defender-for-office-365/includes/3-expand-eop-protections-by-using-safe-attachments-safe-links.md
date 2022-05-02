@@ -5,4 +5,4 @@ As email is received by an organization that's running Microsoft 365, the messag
 
 The following image illustrates what happens as mail flows through the EOP and Microsoft Defender for Office 365 anti-malware pipeline.
 
-:::image type="content" source="../media/mail-flow-through-safe-attachments-and-safe-links-305003ee.png" alt-text="graphic that illustrates what happens as mail flows through the EOP and Defender for Office 365 anti-malware pipeline when safe attachments and safe links are implemented":::
+:::image type="content" source="../media/mail-flow-through-safe-attachments-and-safe-links-305003ee.png" alt-text="Diagram shows what happens as mail flows through the EOP and Microsoft Defender for Office 365 anti-malware pipeline.":::

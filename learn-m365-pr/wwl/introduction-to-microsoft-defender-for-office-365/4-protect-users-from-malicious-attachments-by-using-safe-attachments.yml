@@ -4,15 +4,16 @@ title: Protect users from malicious attachments by using Safe Attachments
 metadata:
   title: Protect users from malicious attachments by using Safe Attachments
   description: "Protect users from malicious attachments by using Safe Attachments"
-  ms.date: 05/10/2021
+  ms.date: 05/02/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
-  [!include[](includes/3-protect-users-from-malicious-attachments-by-using-safe-attachments.md)]
+  [!include[](includes/4-protect-users-from-malicious-attachments-by-using-safe-attachments.md)]
 quiz:
   title: "Check your knowledge"
   questions:
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "The attachment is executed on the company's mail server and analyzed by the company's security team to determine if it's malicious"
       isCorrect: false
-      explanation: "That's incorrect. This process isn't how email attachments are tested with Safe Attachments. Try again."
+      explanation: "Incorrect. This process isn't how email attachments are tested with Safe Attachments."
     - content: "The attachment is executed in a virtual environment and analyzed by the company's security team to determine if it's malicious"
       isCorrect: false
-      explanation: "That's incorrect. This process isn't how email attachments are tested with Safe Attachments. Try again."
+      explanation: "Incorrect. This process isn't how email attachments are tested with Safe Attachments."
     - content: "The attachment is executed in a virtual environment and undergoes behavioral analysis to determine if it's malicious"
       isCorrect: true
-      explanation: "That's correct. Attachments are tested in virtual environments that run different versions of the Windows operating system and applications. The attachments are executed, or \"detonated\". They then undergo behavioral analysis to determine if the file executes malicious behavior."
+      explanation: "Correct. Attachments are tested in virtual environments that run different versions of the Windows operating system and applications. The attachments are executed, or \"detonated\". They then undergo behavioral analysis to determine if the file executes malicious behavior."

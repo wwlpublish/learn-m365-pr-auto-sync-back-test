@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-microsoft-defender-for-office-365.manage-spoof-intelligence
+title: Manage spoof intelligence
+metadata:
+  title: Manage spoof intelligence
+  description: "Manage spoof intelligence"
+  ms.date: 05/02/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/6-manage-spoof-intelligence.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "The spoof intelligence insight shows how many days worth of data?"
+    choices:
+    - content: "10 days in the Microsoft 365 Defender portal"
+      isCorrect: false
+      explanation: "Incorrect. The spoof intelligence insight shows seven days worth of data in the Microsoft 365 Defender portal."
+    - content: "30 days when using PowerShell"
+      isCorrect: true
+      explanation: "Correct. The Get-SpoofIntelligenceInsight PowerShell cmdlet shows 30 days worth of data."
+    - content: "20 days in the Exchange admin center"
+      isCorrect: false
+      explanation: "Incorrect. The Exchange admin center doesn't display spoof intelligence insight."

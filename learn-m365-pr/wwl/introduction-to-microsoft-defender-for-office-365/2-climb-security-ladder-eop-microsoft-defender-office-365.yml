@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-microsoft-defender-for-office-365.climb-security-ladder-eop-microsoft-defender-office-365
+title: Climb the security ladder from EOP to Microsoft Defender for Office 365
+metadata:
+  title: Climb the security ladder from EOP to Microsoft Defender for Office 365
+  description: "Climb the security ladder from EOP to Microsoft Defender for Office 365"
+  ms.date: 05/02/2022
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/2-climb-security-ladder-eop-microsoft-defender-office-365.md)]

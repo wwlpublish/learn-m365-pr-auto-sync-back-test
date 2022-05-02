@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-microsoft-defender-for-office-365.configure-outbound-spam-filtering-policies
+title: Configure outbound spam filtering policies
+metadata:
+  title: Configure outbound spam filtering policies
+  description: "Configure outbound spam filtering policies"
+  ms.date: 05/02/2022
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/7-configure-outbound-spam-filtering-policies.md)]
