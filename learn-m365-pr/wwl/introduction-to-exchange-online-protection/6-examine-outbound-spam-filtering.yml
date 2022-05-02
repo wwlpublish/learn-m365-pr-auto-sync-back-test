@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-exchange-online-protection.examine-outbound-spam-filtering
+title: Examine outbound spam filtering
+metadata:
+  title: Examine outbound spam filtering
+  description: "Examine outbound spam filtering"
+  ms.date: 05/02/2022
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/6-examine-outbound-spam-filtering.md)]

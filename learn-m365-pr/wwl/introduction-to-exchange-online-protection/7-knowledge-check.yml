@@ -4,12 +4,13 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 05/10/2021
+  ms.date: 05/02/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 8
 content: |
   [!include[](includes/7-knowledge-check.md)]
@@ -20,43 +21,43 @@ quiz:
     choices:
     - content: "DomainKeys Identified Mail (DKIM)"
       isCorrect: false
-      explanation: "That's incorrect. DKIM is an email authentication method designed to detect forged sender addresses in email (email spoofing), a technique often used in phishing and email spam. Try again."
+      explanation: "Incorrect. DKIM is an email authentication method designed to detect forged sender addresses in email (email spoofing), a technique often used in phishing and email spam."
     - content: "Zero-hour Auto Purge (ZAP)"
       isCorrect: true
-      explanation: "That's correct. Zero-hour Auto Purge (ZAP) is an email protection feature in EOP. ZAP detects messages with spam or malware that previously went undetected and were delivered to users' inboxes. ZAP's ability to detect infected messages is usually because of evolving heuristic and delivery patterns, and content that's weaponized after being delivered to users."
-    - content: "Domain-based Message Authentication, Reporting & Conformance (DMARC)"
+      explanation: "Correct. Zero-hour Auto Purge (ZAP) is an email protection feature in EOP. ZAP detects messages with spam or malware that previously went undetected and were delivered to users' inboxes. ZAP's ability to detect infected messages is usually because of evolving heuristic and delivery patterns, and content that's weaponized after being delivered to users."
+    - content: "Domain-based Message Authentication, Reporting &amp; Conformance (DMARC)"
       isCorrect: false
-      explanation: "That's incorrect. DMARC is an email authentication protocol. It's designed to give email domain owners the ability to protect their domain from email spoofing.  Try again."
+      explanation: "Incorrect. DMARC is an email authentication protocol. It's designed to give email domain owners the ability to protect their domain from email spoofing."
   - content: "Which mechanism in the anti-malware pipeline is effective in catching up to 80% of commodity malware coming into the Microsoft 365 network?"
     choices:
     - content: "Signature-based anti-virus scanners"
       isCorrect: true
-      explanation: "That's correct. Once mail passes through the first entry point in Microsoft 365, it's scanned by multiple signature-based anti-virus scanners. This process alone is effective in catching up to 80% of commodity malware coming into the network."
+      explanation: "Correct. Once mail passes through the first entry point in Microsoft 365, it's scanned by multiple signature-based anti-virus scanners. This process alone is effective in catching up to 80% of commodity malware coming into the network."
     - content: "Sender reputation"
       isCorrect: false
-      explanation: "That's incorrect. Sender reputation is part of the Exchange antispam functionality that blocks messages according to many characteristics of the sender. Try again."
+      explanation: "Incorrect. Sender reputation is part of the Exchange antispam functionality that blocks messages according to many characteristics of the sender."
     - content: "DomainKeys Identified Mail (DKIM)"
       isCorrect: false
-      explanation: "That's incorrect. DKIM is an email authentication method designed to detect forged sender addresses in email (email spoofing), a technique often used in phishing and email spam. Try again."
+      explanation: "Incorrect. DKIM is an email authentication method designed to detect forged sender addresses in email (email spoofing), a technique often used in phishing and email spam."
   - content: "Once mail enters the Microsoft 365 network, EOP compares file attachments with the results of scans that were previously completed throughout Microsoft 365. It then checks to see if there are specific files – or pieces of files – that were previously identified as malicious that appear to match something in an incoming message. What is this name of this technique?"
     choices:
     - content: "Machine Learning model"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't the name of this technique. Try again."
+      explanation: "Incorrect. This item isn't the name of this technique."
     - content: "Reputation block"
       isCorrect: true
-      explanation: "That's correct. Once mail enters the Microsoft 365 network, EOP scans individual files using a technique called reputation block. With reputation block, EOP compares file attachments with the results of scans that were previously completed throughout Microsoft 365. It then checks to see if there are specific files – or pieces of files – that were previously identified as malicious that appear to match something in an incoming message."
+      explanation: "Correct. Once mail enters the Microsoft 365 network, EOP scans individual files using a technique called reputation block. With reputation block, EOP compares file attachments with the results of scans that were previously completed throughout Microsoft 365. It then checks to see if there are specific files – or pieces of files – that were previously identified as malicious that appear to match something in an incoming message."
     - content: "Zero-hour auto purge"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't the name of this technique. Try again."
+      explanation: "Incorrect. This item isn't the name of this technique."
   - content: "What technique is used to identify mail as suspicious based on an analysis of delivery patterns?"
     choices:
     - content: "Sender reputation"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't the name of this technique. Try again."
+      explanation: "Incorrect. This item isn't the name of this technique."
     - content: "Reputation block"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't the name of this technique. Try again."
+      explanation: "Incorrect. This item isn't the name of this technique."
     - content: "Heuristic clustering"
       isCorrect: true
-      explanation: "That's correct. This technique is used to identify mail as suspicious based on an analysis of delivery patterns. When this process occurs, a sample from a cluster is sent to a hypervisor sandbox environment where the file is opened for further analysis."
+      explanation: "Correct. This technique is used to identify mail as suspicious based on an analysis of delivery patterns. When this process occurs, a sample from a cluster is sent to a hypervisor sandbox environment where the file is opened for further analysis."

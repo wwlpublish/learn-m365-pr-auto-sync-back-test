@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-exchange-online-protection.explore-anti-spoofing-exchange-online-protection
+title: Explore anti-spoofing protection provided by Exchange Online Protection
+metadata:
+  title: Explore anti-spoofing protection provided by Exchange Online Protection
+  description: "Explore anti-spoofing protection provided by Exchange Online Protection"
+  ms.date: 05/02/2022
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/4-explore-anti-spoofing-exchange-online-protection.md)]
