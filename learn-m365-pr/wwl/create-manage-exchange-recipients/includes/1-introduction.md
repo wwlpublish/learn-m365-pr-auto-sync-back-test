@@ -12,6 +12,7 @@ This module examines the various tasks that require messaging administrators to 
  -  Mail contacts and mail users
  -  Recipient permissions
  -  Groups
+ -  Public folders
 
 ### Prerequisites
 
@@ -31,3 +32,4 @@ After completing this module, you'll be able to:
  -  Create and manage mail contacts and mail users.
  -  Manage permissions for recipients.
  -  Create and manage groups.
+ -  Create and manage public folders.

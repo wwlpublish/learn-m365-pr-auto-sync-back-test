@@ -6,9 +6,11 @@ This module examined the various tasks that require messaging administrators to 
  -  Mail contacts and mail users
  -  Recipient permissions
  -  Groups
+ -  Public folders
 
 Managing recipients is a crucial day-to-day task for Exchange and Microsoft 365 administrators. This module examined several typical tasks that must be completed, including:
 
  -  Create a new e-mail address when a new employee joins a team.
  -  Add a new e-mail address for users when their organization starts a new marketing campaign.
  -  Create a new contact that's available throughout the organization.
+ -  Create a a new public folder for shared collaboration.

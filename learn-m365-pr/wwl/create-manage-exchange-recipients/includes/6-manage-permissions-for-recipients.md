@@ -1,6 +1,6 @@
 Microsoft Exchange enables users and groups to receive and respond to messages and meeting requests on another user's behalf. As a messaging administrator, you can use the Exchange admin center (EAC) or the Exchange Management Shell to assign permissions to users and groups to provide this functionality.
 
-Users or groups who receive permission to act on behalf of someone else are commonly referred to as delegates. You can also grant additional permissions that allow delegates to read, create, or have more control over items in your Exchange Server mailbox. For example, department managers may delegate permissions to their assistants to read mail, respond to email on the manager’s behalf, or manage the manager’s calendar.
+Users or groups who receive permission to act on behalf of someone else are commonly referred to as delegates. You can also grant other permissions that allow delegates to read, create, or have more control over items in your Exchange Server mailbox. For example, department managers may delegate permissions to their assistants to read mail, respond to email on the manager’s behalf, or manage the manager’s calendar.
 
 Permissions can be assigned to user mailboxes, linked mailboxes, resource mailboxes, and shared mailboxes. You can also assign permissions to distribution groups, dynamic distribution groups, and mail-enabled security groups to allow delegates to send messages on behalf of the group.
 
