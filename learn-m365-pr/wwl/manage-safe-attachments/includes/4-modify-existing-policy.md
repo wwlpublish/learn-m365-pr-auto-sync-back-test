@@ -1,8 +1,8 @@
 To modify an existing Safe Attachments policy, complete the following steps:
 
 1.  In the **Microsoft 365 admin center**, select **Show All** in the left-hand navigation pane, and then under **Admin centers**, select **Security**.<br>
-2.  In **Microsoft 365 Defender**, select **Policies & rules** in the left-hand navigation pane.<br>
-3.  On the **Policies & rules** page, select **Threat policies**.<br>
+2.  In **Microsoft 365 Defender**, select **Policies &amp; rules** in the left-hand navigation pane.<br>
+3.  On the **Policies &amp; rules** page, select **Threat policies**.<br>
 4.  On the **Threat policies** page, under the **Policies** section, select **Safe Attachments.**
 5.  On the **Safe Attachments** page, select a policy from the list and select on it (don't select the check box).
 6.  In the policy details pane that appears, edit the settings for each section that must be changed.
