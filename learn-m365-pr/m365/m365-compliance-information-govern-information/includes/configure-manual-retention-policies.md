@@ -5,7 +5,7 @@ Here are some important things to remember about published retention labels.
 - Published retention labels can take one day to appear in SharePoint Online and OneDrive.
 - Published retention labels can take seven days to appear in Exchange Online and the mailbox must contain 10 MB of data.
 
-Navigate to **Microsoft Purview compliance portal > Information Governance > Label policies > Publish labels to publish labels for manual application.**
+Navigate to **Microsoft Purview compliance portal > Data Lifecycle Management > Label policies > Publish labels to publish labels for manual application.**
 
 Creating a retention label policy to publish labels for manual application consists of these steps:
 

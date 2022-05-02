@@ -1,4 +1,4 @@
-To comply with business standards and industry regulations, organizations must protect sensitive items and prevent its inadvertent disclosure. Sensitive items can include financial data or personal information such as credit card numbers, social security numbers, or health records. You can secure content in OneDrive using Microsoft 365 solutions such as Data Loss Prevention (DLP) and sensitivity labels.
+To comply with business standards and industry regulations, organizations must protect sensitive items and prevent its inadvertent disclosure. Sensitive items can include financial data or personal information such as credit card numbers, social security numbers, or health records. You can secure content in OneDrive using Microsoft Purview solutions such as Data Loss Prevention (DLP) and sensitivity labels.
 
 ## Data Loss Prevention (DLP) for OneDrive
 

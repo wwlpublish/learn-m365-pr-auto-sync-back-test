@@ -10,7 +10,7 @@ Use the following checklist to create a champions program:
 4. Ensure a regular rhythm for discussions with the Champions on what's working and what's not.
 5. Design a program to engage and recognize their effort, such as providing privileged access to relevant events or speaking engagements.
 6. Communicate to individuals about the champions role and where they can be found – remember, they're not an IT support function but business representatives.
-7. Incorporate Microsoft's Microsoft 365 training resources and Custom Learning for O365 solution into your own internal training site.
+7. Incorporate Microsoft 365 training resources and Custom Learning for Office 365 solutions into your own internal training site.
 8. Create a contest (like a scavenger hunt or giveaway) between departments to encourage people to interact with Microsoft Teams.
 9. Encourage internal champions to sign up for the public [Modern Workplace Teamwork Champion program](https://aka.ms/O365Champions) to continue to build their skills.
 
