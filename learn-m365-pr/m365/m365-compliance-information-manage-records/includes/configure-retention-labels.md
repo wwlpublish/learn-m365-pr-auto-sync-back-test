@@ -1,6 +1,6 @@
 The information governance and records management solutions both use retention labels. You can create your own retention labels or edit the ones produced during the file plan import process. One additional step is added, and another is modified during the retention label configuration process in records management. The additional step provides the opportunity to add additional records management-specific metadata. The modified step enables the label to be used to declare records.
 
-Navigate to **Microsoft 365 compliance center > Records management > File plan** to configure retention labels for records management
+Navigate to **Microsoft Purview compliance portal > Records management > File plan** to configure retention labels for records management
 
 The process of creating a retention label consists of these steps:
 
