@@ -53,7 +53,7 @@ You can also use a list of specific mailboxes, or you can filter mailboxes by di
     Remove-AddressBookPolicy -Identity "ABP Address Book Policy A"
     ```
 
-**Additional reading.** For more information, see [Address book policies in Exchange Online](/exchange/address-books/address-book-policies/address-book-policies?azure-portal=true).
+**Further reading.** For more information, see [Address book policies in Exchange Online](/exchange/address-books/address-book-policies/address-book-policies?azure-portal=true).
 
 ## Knowledge check
 

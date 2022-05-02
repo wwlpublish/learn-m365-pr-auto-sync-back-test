@@ -15,7 +15,7 @@ The basic components of an email address policy are:
 
 An email address template contains the address type and the address format. An email address policy can contain multiple email address templates. One template must define the primary (reply) SMTP email address, and there can be only one primary SMTP email address defined in the policy (it's the Reply-To: email address for recipients). Other email address templates in the policy define the extra or *proxy* addresses for recipients.
 
-**Additional reading.** For more information on email address templates, address types, and address formats, see [Email address policies in Exchange Server](/Exchange/email-addresses-and-address-books/email-address-policies/email-address-policies?azure-portal=true).
+**Further reading.** For more information on email address templates, address types, and address formats, see [Email address policies in Exchange Server](/Exchange/email-addresses-and-address-books/email-address-policies/email-address-policies?azure-portal=true).
 
 ### Recipient filters
 
@@ -125,7 +125,7 @@ Each time a recipient object is modified and saved, Exchange enforces the correc
 
 Exchange Server always ensures the email address that's assigned to a mailbox is unique. For example, if two users have the same first name and last name, Exchange Server appends a number to the local part of the second user’s email address when the email address policy assigns an email address to the mailbox and the email address is based on the user’s first name and last name.
 
-**Additional reading.** For more information, see [Accepted domains in Exchange Server](/Exchange/mail-flow/accepted-domains/accepted-domains?view=exchserver-2019).
+**Further reading.** For more information, see [Accepted domains in Exchange Server](/Exchange/mail-flow/accepted-domains/accepted-domains?view=exchserver-2019).
 
 ### Create an email address policy
 
