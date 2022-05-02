@@ -4,13 +4,12 @@ title: Examine the end-user experience with Safe Links
 metadata:
   title: Examine the end-user experience with Safe Links
   description: "Examine the end-user experience with Safe Links"
-  ms.date: 09/15/2021
+  ms.date: 05/02/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 5
 content: |
@@ -22,10 +21,10 @@ quiz:
     choices:
     - content: "Warns the user the URL is malicious"
       isCorrect: true
-      explanation: "That's correct. When a user selects a link in an email and the target web site is later identified as malicious, the Safe Links process automatically warns the user."
+      explanation: "Correct. When a user selects a link in an email and the target web site is later identified as malicious, the Safe Links process automatically warns the user."
     - content: "Removes all links in the message"
       isCorrect: false
-      explanation: "That's incorrect. The Safe Links process will only remove malicious links in the message. It won't remove legitimate links. Try again."
+      explanation: "Incorrect. The Safe Links process will only remove malicious links in the message. It won't remove legitimate links."
     - content: "Navigates to the target web site"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't what the Safe Links process automatically does when a user selects a link in an email and the target web site is later identified as malicious. Try again."
+      explanation: "Incorrect. This action isn't what the Safe Links process automatically does when a user selects a link in an email and the target web site is later identified as malicious."

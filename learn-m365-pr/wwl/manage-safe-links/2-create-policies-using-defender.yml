@@ -1,16 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.manage-safe-links.create-policies-scc
-title: Create Safe Links policies using Microsoft 365 Defender
+title: Create Safe Links policies using Microsoft Defender for Office 365
 metadata:
-  title: Create Safe Links policies using Microsoft 365 Defender
-  description: "Create Safe Links policies using Microsoft 365 Defender"
-  ms.date: 09/15/2021
+  title: Create Safe Links policies using Microsoft Defender for Office 365
+  description: "Create Safe Links policies using Microsoft Defender for Office 365"
+  ms.date: 05/02/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 6
 content: |
@@ -18,14 +17,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Lucerne Publishing, Allan Deyoung wants to implement Safe Links in Microsoft Defender for Office 365. Allan prefers to use the Security and Compliance Center rather than PowerShell to implement Safe Links. Using the SCC, what must Allan do to get Safe Links scanning of URLs at Lucerne Publishing?"
+  - content: "As the Enterprise Administrator for Lucerne Publishing, Allan Deyoung wants to implement Safe Links in Microsoft Defender for Office 365. Allan prefers to use the Microsoft 365 Defender portal rather than PowerShell to implement Safe Links. Using the Microsoft 365 Defender portal, what must Allan do to implement Safe Links scanning of URLs at Lucerne Publishing?"
     choices:
     - content: "Create a Safe Links rule"
       isCorrect: false
-      explanation: "That's incorrect. When you create a Safe Links policy in the SCC, you're actually creating a safe links rule and the associated safe links policy at the same time using the same name for both. You don't create a Safe Links rule separately from the Safe Links policy. Try again."
+      explanation: "Incorrect. When you create a Safe Links policy in the SCC, you're actually creating a safe links rule and the associated safe links policy at the same time using the same name for both. You don't create a Safe Links rule separately from the Safe Links policy."
     - content: "Enable the ATP Safe Links option in the org-wide settings page of the SCC"
       isCorrect: false
-      explanation: "That's incorrect. No such setting exists. Try again."
+      explanation: "Incorrect. No such setting exists."
     - content: "Create at least one Safe Links policy"
       isCorrect: true
-      explanation: "That's correct. To get Safe Links scanning of URLs, you must create one or more Safe Links policies."
+      explanation: "Correct. To implement Safe Links scanning of URLs, you must create one or more Safe Links policies."

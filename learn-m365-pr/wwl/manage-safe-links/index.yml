@@ -3,7 +3,7 @@ uid: learn.wwl.manage-safe-links
 metadata:
   title: Manage Safe Links
   description: "Manage Safe Links"
-  ms.date: 09/15/2021
+  ms.date: 05/02/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,7 +11,7 @@ metadata:
 title: Manage Safe Links
 summary: This module examines how to manage Safe Links in your tenant by creating and configuring policies and using transport rules to disable a policy from taking effect in certain scenarios.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Create and modify a Safe Links policy using Microsoft 365 Defender
   - Create a Safe Links policy using PowerShell
   - Configure a Safe Links policy
@@ -28,7 +28,6 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:

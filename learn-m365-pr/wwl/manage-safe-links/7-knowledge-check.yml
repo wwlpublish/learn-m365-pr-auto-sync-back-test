@@ -4,13 +4,12 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 09/15/2021
+  ms.date: 05/02/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 4
 content: |
@@ -22,21 +21,21 @@ quiz:
     choices:
     - content: "Use the New-SafeLinksRule cmdlet to create a Safe Links rule"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't the first thing Allan should do. Try again."
+      explanation: "Incorrect. This action isn't the first thing Allan should do."
     - content: "Use the New-SafeLinksPolicy cmdlet to create a Safe Links policy"
       isCorrect: true
-      explanation: "That's correct. When using PowerShell to create a policy, you must create the policy before the rule. The policy must be created first so that you can later assign it to the rule. If you create the rule first, you won't have a policy to assign to it."
+      explanation: "Correct. When using PowerShell to create a policy, you must create the policy before the rule. The policy must be created first so that you can later assign it to the rule. If you create the rule first, you won't have a policy to assign to it."
     - content: "Use the Set-SafeLinksPolicy cmdlet to update the Safe Links policy settings"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't the first thing Allan should do. Try again."
+      explanation: "Incorrect. This action isn't the first thing Allan should do."
   - content: "What does URL detonation do?"
     choices:
     - content: "Protects users in the event a URL points to a malicious file on a web site"
       isCorrect: true
-      explanation: "That's correct. URL detonation combines elements of Safe Links and Safe Attachments into a single feature. This feature is designed to protect users in the event a URL points to a malicious file on a web site."
+      explanation: "Correct. URL detonation combines elements of Safe Links and Safe Attachments into a single feature. This feature is designed to protect users in the event a URL points to a malicious file on a web site."
     - content: "If the URL is malicious, it redirects the user to a secure server where the site can be safely viewed"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't what URL detonation does. Try again."
+      explanation: "Incorrect. This action isn't what URL detonation does."
     - content: "If the URL is malicious, it quarantines the URL so that any future links to that URL blow up and return an error"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't what URL detonation does. Try again."
+      explanation: "Incorrect. This action isn't what URL detonation does."
