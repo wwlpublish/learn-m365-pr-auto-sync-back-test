@@ -4,7 +4,7 @@ This module introduced you to several features in Microsoft 365 that can:
  -  detect when a user or computer has been compromised.
  -  monitor organizations for suspicious activities.
 
-The feature areas that were discussed in this training included:<br>
+The feature areas that were discussed in this training included:
 
  -  Exchange Online Protection
  -  Microsoft Defender for Office 365
