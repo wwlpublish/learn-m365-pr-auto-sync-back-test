@@ -3,7 +3,7 @@ Now that you understand what DLP is and how you can use it in Teams, let's creat
 > [!NOTE]
 > When creating a policy for use with Teams, you must include other technologies that Teams uses; Exchange email, SharePoint sites, and OneDrive accounts as you will see in this section.
 
-Account information: For all of the walkthroughs in this learning path, you will need to open a browser and connect to <https://compliance.microsoft.com>. Sign in to the Compliance Center using your own admin account. You will need proper licensing to access the Compliance Center.
+Account information: For all of the walkthroughs in this learning path, you will need to open a browser and connect to <https://compliance.microsoft.com>. Sign in to the compliance portal using your own admin account. You will need proper licensing to access the compliance portal.
 
 ## Create a new policy using an existing template
 

@@ -84,4 +84,4 @@ Each organization gets their own fully allocated bandwidth to access auditing da
 - [Office 365 Management APIs](/office/office-365-management-api/?azure-portal=true)
 - [Audited Activities](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#audited-activities?azure-portal=true)
 - [Detailed properties in the audit log](/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log?azure-portal=true)
-- [Microsoft 365 licensing guidance for advanced audit](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-audit?azure-portal=true)
+- [Microsoft 365 licensing guidance for Audit (Premium)](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-audit?azure-portal=true)

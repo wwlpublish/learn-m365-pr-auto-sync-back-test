@@ -46,9 +46,9 @@ If content is subject to multiple policies that delete content (with no retentio
 
  Deciding what you want to keep and for how long is at the core of Data Lifecycle Management. Business, legal, and compliance requirements can impact your Data Lifecycle Management strategy. Those responsible for Data Lifecycle Management in your organization should identify the content to retain or dispose for business and legal requirements. The governance team will also need to identify the regulations that apply to your organization, many of which include Data Lifecycle Management requirements.
 
-**Microsoft Compliance Score** maps these compliance regulations, like the US Health Insurance Portability and Accountability Act (HIPAA), to actions recommended to achieve compliance. Many of these actions can be addressed using the **Data Lifecycle Management** solution. The image below shows the improvement actions in the **Data Lifecycle Management** solution the organization can take to improve its compliance posture relative to HIPAA.
+**Compliance score** maps these compliance regulations, like the US Health Insurance Portability and Accountability Act (HIPAA), to actions recommended to achieve compliance. Many of these actions can be addressed using the **Data Lifecycle Management** solution. The image below shows the improvement actions in the **Data Lifecycle Management** solution the organization can take to improve its compliance posture relative to HIPAA.
   
-:::image type="content" source="../media/compliance-score.png" alt-text="Screenshot showing Microsoft compliance score.":::
+:::image type="content" source="../media/compliance-score.png" alt-text="Screenshot showing Compliance score.":::
 
 One of the first steps in creating a retention label is to tell Microsoft 365 if you want to apply retention settings. You may want to consider keeping this setting **Off** when creating and publishing (or auto-applying) a new label. You can then modify the retention label settings to add a retention period once you are satisfied it is working correctly. The image below shows the step during the retention label creation process where you specify if you want the label to apply retention. It may take as long as seven days for new retention labels to take effect after you publish or auto-apply them, so plan accordingly.
 
