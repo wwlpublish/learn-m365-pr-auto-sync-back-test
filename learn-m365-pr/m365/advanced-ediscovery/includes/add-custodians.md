@@ -7,7 +7,7 @@ The first phase in the EDRM model is *Identification*. This phase involves ident
 
 Once the custodians have been identified, they are added to an eDiscovery (Premium) case. Creating a case is accomplished by navigating to the **eDiscovery (Premium)** home page in the Microsoft Purview compliance portal, navigating to the **Cases** tab, then clicking **Create a case**.
 
-:::image type="content" source="../media/advanced-ediscovery.png" alt-text="eDiscovery (Premium) home page in the Microsoft Purview compliance portal." lightbox="../media/advanced-ediscovery.png":::
+:::image type="content" source="../media/advanced-ediscovery.png" alt-text="Screenshot of the eDiscovery (Premium) home page in the Microsoft Purview compliance portal." lightbox="../media/advanced-ediscovery.png":::
 
 Once the case has been created, you can begin adding the persons of interest by navigating to the **Data sources** tab, select **Add data source**, and then and select **Add new custodians**.
 
