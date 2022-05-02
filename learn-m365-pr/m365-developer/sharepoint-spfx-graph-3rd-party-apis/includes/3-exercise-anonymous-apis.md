@@ -3,7 +3,7 @@ In this exercise, you'll create a new SharePoint Framework project with a single
 ## Create the SharePoint Framework solution
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.13.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
 
 Open a command prompt and change to the folder where you want to create the project. Run the SharePoint Yeoman generator by executing the following command:
 
@@ -11,15 +11,11 @@ Open a command prompt and change to the folder where you want to create the proj
 yo @microsoft/sharepoint
 ```
 
-Use the following to complete the prompt that is displayed (*if additional options are presented, accept the default answer)*:
+Use the following to complete the prompt that is displayed (*if more options are presented, accept the default answer)*:
 
 - **What is your solution name?**: SPFxHttpClient
-- **Only SharePoint Online (latest) is supported. For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
-- **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
-- **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No
 - **Which type of client-side component to create?**: WebPart
 - **What is your Web part name?**: SPFxHttpClient
-- **What is your Web part description?**: SPFxHttpClient description
 - **Which framework would you like to use?**: React
 
 After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, open the project in **Visual Studio Code**.
@@ -31,79 +27,42 @@ Locate and open the file **./src/webparts/spFxHttpClient/components/ISpFxHttpCli
 Update the interface to replace the existing `description` property with a property that will hold a custom object. This object is complex and, while you could create an interface to represent it, in this lab you'll set that complexity aside and focus on consuming an untyped TypeScript object.
 
 ```typescript
-export interface ISpFxHttpClientDemoProps {
+export interface ISpFxHttpClientProps {
   apolloMissionImage: any;
+  isDarkTheme: boolean;
+  environmentMessage: string;
+  hasTeamsContext: boolean;
+  userDisplayName: string;
 }
 ```
 
 ## Implement the user interface for the web part
 
-Locate and open the file **./src/webparts/spFxHttpClient/components/SpFxHttpClient.module.scss**.
-
-Add the following classes to the bottom of the file, immediately before the closing `}`:
-
-```scss
-.list {
-  color: $ms-color-themeDark;
-  background-color: $ms-color-themeLight;
-  font-family: 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  box-sizing: border-box;
-  margin: 0 0;
-  padding: 10px 0 100px 0;
-  line-height: 50px;
-  list-style-type: none;
-}
-
-.item {
-  color: $ms-color-themeDark;
-  background-color: $ms-color-themeLighterAlt;
-  vertical-align: center;
-  font-family: 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  box-shadow: none;
-  *zoom: 1;
-  padding: 0 15px;
-  position: relative;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
-}
-```
-
 Locate and open the file **./src/webparts/spFxHttpClient/components/SpFxHttpClient.tsx**.
 
-Update the markup returned by the `render()` method to the following code. This will create a list using the CSS classes where each item displays an image, the title of the image, and a list of keywords associated with the image.
+Update the contents of the `render()` method to the following code. This will display an image, the title of the image, and a list of keywords associated with the image.
 
 ```tsx
-<div className={ styles.spFxHttpClient }>
-  <div className={ styles.container }>
-    <div className={ styles.row }>
-      <div className={ styles.column }>
-        <span className={ styles.title }>HttpClient Demo</span>
+public render(): React.ReactElement<ISpFxHttpClientProps> {
+  return (
+    <section className={`${styles.spFxHttpClient} ${this.props.hasTeamsContext ? styles.teams : ''}`}>
+      <div>
+        <img src={this.props.apolloMissionImage.links[0].href} />
+        <div><strong>Title:</strong> {this.props.apolloMissionImage.data[0].title}</div>
+        <div><strong>Keywords:</strong></div>
+        <ul>
+          {this.props.apolloMissionImage &&
+            this.props.apolloMissionImage.data[0].keywords.map((keyword) =>
+              <li key={keyword}>
+                {keyword}
+              </li>
+            )
+          }
+        </ul>
       </div>
-    </div>
-
-    <div className={ styles.row }>
-      <img src={ this.props.apolloMissionImage.links[0].href } />
-      <div><strong>Title:</strong> { this.props.apolloMissionImage.data[0].title }</div>
-      <div><strong>Keywords:</strong></div>
-      <ul className={ styles.list }>
-        { this.props.apolloMissionImage &&
-          this.props.apolloMissionImage.data[0].keywords.map( (keyword) =>
-            <li key={ keyword} className={ styles.item }>
-              { keyword }
-            </li>
-          )
-        }
-      </ul>
-    </div>
-
-  </div>
-</div>
+    </section>
+  );
+}
 ```
 
 ## Implement the web part logic
@@ -136,7 +95,7 @@ private _getApolloImage(): Promise<any> {
 }
 ```
 
-This method uses the `HttpClient` available from the current SharePoint context and issues an HTTP GET request to the NASA Image REST API with the query equal to **Apollo 4**. After processing the response to JSON, its returned to the caller as an untyped `any` object.
+This method uses the `HttpClient` available from the current SharePoint context and issues an HTTP GET request to the NASA Image REST API with the query equal to **Apollo 4**. After processing the response to JSON, it's returned to the caller as an untyped `any` object.
 
 Update the contents of the `render()` method to the following code:
 
@@ -148,7 +107,11 @@ public render(): void {
         const element: React.ReactElement<ISpFxHttpClientProps > = React.createElement(
           SpFxHttpClient,
           {
-            apolloMissionImage: response.collection.items[0]
+            apolloMissionImage: response.collection.items[0],
+            isDarkTheme: this._isDarkTheme,
+            environmentMessage: this._environmentMessage,
+            hasTeamsContext: !!this.context.sdks.microsoftTeams,
+            userDisplayName: this.context.pageContext.user.displayName
           }
         );
 
@@ -170,14 +133,11 @@ In the **serve.json** file, locate the `initialPage` setting. It's currently con
 "initialPage": "https://enter-your-SharePoint-site/_layouts/workbench.aspx",
 ```
 
-Update the `initialPage` setting to open the hosted workbench:
+Replace **https://enter-your-SharePoint-site** with the URL of a SharePoint Online site in your tenant. This will form a valid URL that will open the hosted workbench. The following is an example that would work in the **contoso** tenant:
 
 ```json
 "initialPage": "https://contoso.sharepoint.com/sites/mySite/_layouts/workbench.aspx",
 ```
-
-> [!NOTE]
-> Ensure you enter the proper URL of a SharePoint Online site collection you have access to.
 
 Execute the following command to build, start the local web server, and test the web part in the hosted workbench:
 
