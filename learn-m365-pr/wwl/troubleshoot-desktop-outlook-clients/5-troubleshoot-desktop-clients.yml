@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-desktop-outlook-clients.troubleshoot-desktop-clients
+title: Troubleshoot desktop Outlook clients
+metadata:
+  title: Troubleshoot desktop Outlook clients
+  description: "Troubleshoot desktop Outlook clients"
+  ms.date: 05/02/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 11
+content: |
+  [!include[](includes/5-troubleshoot-desktop-clients.md)]

@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-desktop-outlook-clients
 metadata:
   title: Troubleshoot desktop Outlook clients
   description: "Investigate and diagnose problems that desktop and laptop computer users have when connecting their Outlook client to Exchange Online. MS-220"
-  ms.date: 04/08/2022
+  ms.date: 05/02/2022
   author: wwlpublish
   ms.author: dawnhopper
   ms.topic: interactive-tutorial
@@ -34,6 +34,7 @@ units:
 - learn.wwl.troubleshoot-desktop-outlook-clients.troubleshoot-outlook-connections-to-exchange
 - learn.wwl.troubleshoot-desktop-outlook-clients.fix-outlook-authentication-issues
 - learn.wwl.troubleshoot-desktop-outlook-clients.troubleshoot-calendars
+- learn.wwl.troubleshoot-desktop-outlook-clients.troubleshoot-desktop-clients
 - learn.wwl.troubleshoot-desktop-outlook-clients.knowledge-check
 - learn.wwl.troubleshoot-desktop-outlook-clients.summary
 badge:
