@@ -10,7 +10,7 @@ Also, we recommend an internal campaign to educate your users about how to prope
 
 **Define and apply data classifications** that restrict access to all files classified as business sensitive. Sample data will need to be collected to help train new classifiers. For details about prerequisites and permissions, see [Learn about data classification](/microsoft-365/compliance/data-classification-overview).
 
-**Use information barrier policies** to restrict file and site sharing between groups. For example, a finance team that manages confidential projects with a marketing team. These barriers also prevent other aspects of communication and collaboration in Microsoft Teams, SharePoint, and OneDrive. For details, see [Learn about information barriers in Microsoft 365](/microsoft-365/compliance/information-barriers).
+**Use information barrier policies** to restrict file and site sharing between groups. For example, a finance team that manages confidential projects with a marketing team. These barriers also prevent other aspects of communication and collaboration in Microsoft Teams, SharePoint, and OneDrive. For details, see [Learn about Microsoft Purview Information Barriers](/microsoft-365/compliance/information-barriers).
 
 **Prevent recent files from appearing** in a user’s profile to minimize file oversharing. Recent files can be disabled on an individual, group (executives or HR, for example), or organization level. To learn more, see [Customizing item insights privacy in Microsoft Graph](/graph/insights-customize-item-insights-privacy) and [Control access to Delve](/sharepoint/delve-for-office-365-admins#control-access-to-delve).
 

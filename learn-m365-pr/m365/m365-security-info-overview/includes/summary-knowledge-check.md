@@ -1,4 +1,4 @@
-It's critical to protect sensitive files and data as they travel between multiple devices and locations. Microsoft information protection solutions help ensure that wherever the data or file roams, it remains encrypted from end to end with IT governance and oversight.
+It's critical to protect sensitive files and data as they travel between multiple devices and locations. Microsoft Purview Information Protection solutions help ensure that wherever the data or file roams, it remains encrypted from end to end with IT governance and oversight.
 
 In your company of legal advisors, you were concerned to ensure that your handling of clients' information was secure and compliant with data protection regulations from several different countries. By learning about the lifecycle of files in your organization, you've begun the process of protecting your data. You've also seen how Microsoft technologies can help secure data at different stages in the lifecycle.
 
