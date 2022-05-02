@@ -62,7 +62,7 @@ DLP for external chat sessions only works if both the sender and the receiver ar
 ## Sensitive information in documents
 
 If a Microsoft Teams user attempts to share sensitive information in a document with guests, either in a Teams channel or chat, and a DLP policy is defined to prevent this happening, the document won't open for those users. The DLP policy must include SharePoint and OneDrive because they're used by Teams to share the document.
-Users must have a license for Microsoft 365 DLP, which is included in Microsoft 365 E3. However, users don't require a license for Microsoft 365 Advanced Compliance.
+Users must have a license for Microsoft 365 DLP, which is included in Microsoft 365 E3. However, users don't require a license for Microsoft Purview.
 
 ## Policy tips
 

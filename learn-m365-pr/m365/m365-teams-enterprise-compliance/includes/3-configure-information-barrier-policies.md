@@ -18,7 +18,7 @@ To use information barriers, you must have one of the following subscriptions:
 
 - Microsoft or Office 365 E5/A5
 - Office 365 Advanced Compliance
-- Microsoft 365 Compliance E5/A
+- compliance E5/A
 - Microsoft 365 Insider Risk Management
 
 Assign the **IB Compliance Management** or **Compliance administrator** role to the person responsible for managing information barriers.

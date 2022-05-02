@@ -30,19 +30,19 @@ Azure Information Protection analytics helps you track adoption of your data cla
 
 :::image type="content" source="../media/aip-usage-report.png" alt-text="Screenshot of Azure information protection usage report" lightbox="../media/aip-usage-report.png":::
 
-## Microsoft 365 compliance center
+## Microsoft Purview compliance portal
 
-Microsoft 365 compliance center allows you to manage your organization's data protection posture. It shows how well your cloud service complies with regulations such as the General Data Protection Regulation (GDPR), Health Insurance Portability and Accountability Act (HIPAA), and the ISO-27001 information security standard. This dashboard links directly to the Defender for Cloud Apps Portal, Azure Information Protection (AIP) Analytics, and the Microsoft 365 Defender portal.
+Microsoft Purview compliance portal allows you to manage your organization's data protection posture. It shows how well your cloud service complies with regulations such as the General Data Protection Regulation (GDPR), Health Insurance Portability and Accountability Act (HIPAA), and the ISO-27001 information security standard. This dashboard links directly to the Defender for Cloud Apps Portal, Azure Information Protection (AIP) Analytics, and the Microsoft 365 Defender portal.
 
-:::image type="content" source="../media/compliance-center-dashboard.png" alt-text="Screenshot of Microsoft 365 compliance center dashboard" lightbox="../media/compliance-center-dashboard.png":::
+:::image type="content" source="../media/compliance-center-dashboard.png" alt-text="Screenshot of Microsoft Purview compliance portal dashboard" lightbox="../media/compliance-center-dashboard.png":::
 
-The compliance center home page displays the following sections.
+The compliance portal home page displays the following sections.
 
 - **Assess.** Shows how well your organization is doing with respect to data protection and compliance.
 - **Protect.** Contains cards that provide high-level information about labels, data loss prevention, third-party apps in use, shared files, shadow IT apps, and more.
 - **Respond.** Surfaces alerts and pending dispositions for review and possible action.
 
- Other areas of the Microsoft 365 compliance center can help you gain further insights and protect your data.
+ Other areas of the Microsoft Purview compliance portal can help you gain further insights and protect your data.
 
 - **Alerts** to view and resolve alerts
 - **Reports** to view data about label usage and retention, DLP policy matches and overrides, shared files, third-party apps in use, and more.
