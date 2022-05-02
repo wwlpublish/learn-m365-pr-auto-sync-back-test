@@ -1,4 +1,4 @@
-The Data Lifecycle Management and records management solutions both use retention labels. You can create your own retention labels or edit the ones produced during the file plan import process. One additional step is added, and another is modified during the retention label configuration process in records management. The additional step provides the opportunity to add additional records management-specific metadata. The modified step enables the label to be used to declare records.
+The Data Lifecycle Management and Microsoft Purview Records Managements both use retention labels. You can create your own retention labels or edit the ones produced during the file plan import process. One additional step is added, and another is modified during the retention label configuration process in records management. The additional step provides the opportunity to add additional records management-specific metadata. The modified step enables the label to be used to declare records.
 
 Navigate to **Microsoft Purview compliance portal > Records management > File plan** to configure retention labels for records management
 
@@ -33,7 +33,7 @@ This appears when users hover over the label in some apps. If left blank, a defa
 
 ## Step 2: File plan descriptors
 
-The file plan descriptors step is unique to records management. File plan descriptors are metadata common to many file plans, and help you to manage records. Most descriptors are prepopulated with common selections, but you can add your own. None of these fields are required. You can add your own values to the prepopulated choices. The following table provides more information about each descriptor.
+The file plan descriptors step is unique to Microsoft Purview Records Management. File plan descriptors are metadata common to many file plans, and help you to manage records. Most descriptors are prepopulated with common selections, but you can add your own. None of these fields are required. You can add your own values to the prepopulated choices. The following table provides more information about each descriptor.
 
 | Name  | Description  | Example  | Prepopulated?  |
 |---|---|---|---|
@@ -75,7 +75,7 @@ Basing the label on an event means content will be retained forever until you cr
 
 ### Label classification
 
-This configuration option is unique to the records management solution. If selected, the label will be used to classify the content as a record. Users won't be able to edit or delete the content, or change or remove the label. However, they can still edit the content's metadata. If you classify content as a record, it becomes immutable.
+This configuration option is unique to the Microsoft Purview Records Management solution. If selected, the label will be used to classify the content as a record. Users won't be able to edit or delete the content, or change or remove the label. However, they can still edit the content's metadata. If you classify content as a record, it becomes immutable.
 
 ## Step 4: Review your settings
 

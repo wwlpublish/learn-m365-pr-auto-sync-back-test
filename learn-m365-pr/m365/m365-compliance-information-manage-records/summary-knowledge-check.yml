@@ -40,11 +40,11 @@ quiz:
         isCorrect: true
         explanation: "Use event-based retention when you want the retention period to be based on when a specific type of event occurs, rather than when the content was created, last modified, or labeled."
     
-    - content: "Many organizations have different types of content that require different actions taken on them in order to comply with industry regulations and internal policies. Which feature of records management can help you take the right actions on the right content type?"
+    - content: "Many organizations have different types of content that require different actions taken on them in order to comply with industry regulations and internal policies. Which feature of Microsoft Purview Records Management can help you take the right actions on the right content type?"
       choices:
       - content: "File plan descriptors"
         isCorrect: false
-        explanation: "The file plan descriptors step is unique to records management. File plan descriptors are metadata common to many file plans and facilitate the management of records."
+        explanation: "The file plan descriptors step is unique to Microsoft Purview Records Management. File plan descriptors are metadata common to many file plans and facilitate the management of records."
       - content: "Retention labels"
         isCorrect: true
         explanation: "With retention labels, you can classify data across your organization for governance, and enforce retention rules based on that classification."

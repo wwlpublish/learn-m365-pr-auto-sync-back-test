@@ -2,8 +2,8 @@ All types of organization need a solution to manage regulatory, legal, and busin
 
 Now you've completed this module, you should be able to:
 
-- Discuss the records management solution and its benefits.
-- List the customer scenarios the records management solution addresses.
+- Discuss the Microsoft Purview Records Management and its benefits.
+- List the customer scenarios the Microsoft Purview Records Management addresses.
 - Describe the records management configuration process.
 - Explain what users will experience when the solution is implemented.
 - Articulate deployment and adoption best practices.

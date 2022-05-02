@@ -1,4 +1,4 @@
-Many principles of the solution for Data Lifecycle Management also apply for records management, but there are some differences. Those differences include file plan, record declaration, and record versioning.
+Many principles of the solution for Data Lifecycle Management also apply for Microsoft Purview Records Management, but there are some differences. Those differences include file plan, record declaration, and record versioning.
 
 > [!NOTE]
 > Records management is included with Microsoft 365 E5/A5/G5, Microsoft 365 E5/A5/G5/F5 Compliance and F5 Security & Compliance, Microsoft 365 Information Protection and Governance E5/A5/G5, and Office 365 E5/A5/G5.
@@ -11,7 +11,7 @@ Records management introduces the concept of a file plan. A file plan specifies 
 
 ## Record declaration
 
-How you declare an item as a record  is at the heart of records management. You can determine where, when, and how your records are retained, and attend to new and pending disposition alerts. An item declared as a record becomes immutable and cannot be modified (except for the name and metadata in SharePoint Online and OneDrive), or deleted until after the retention period.
+How you declare an item as a record  is at the heart of Microsoft Purview Records Management. You can determine where, when, and how your records are retained, and attend to new and pending disposition alerts. An item declared as a record becomes immutable and cannot be modified (except for the name and metadata in SharePoint Online and OneDrive), or deleted until after the retention period.
 
 ## Record versioning
 
@@ -19,14 +19,14 @@ Record versioning in SharePoint Online and OneDrive lets you work on a document,
 
 ## Customer scenarios
 
-Here are some common scenarios that Microsoft's records management solution can address:
+Here are some common scenarios that Microsoft Purview Records Management can address:
 
 - Delete employee reviews 10 years after the employee has left the organization.
 - Declare a contract as a record to prevent it from being changed.  
 
-## Getting started with records management
+## Getting started with Microsoft Purview Records Management
 
-Careful planning should be a part of each information protection and governance solution, and this is especially true of records management. This section includes general guidance on where to start with records management. It isn't meant to be a substitute for developing a more thorough plan that involves subject matter experts and stakeholders.
+Careful planning should be a part of each information protection and governance solution, and this is especially true of Microsoft Purview Records Management. This section includes general guidance on where to start with records management. It isn't meant to be a substitute for developing a more thorough plan that involves subject matter experts and stakeholders.
 
 Many organizations already have a file plan that includes a retention schedule. They'll make this   the first step to get started with Microsoft Purview Records Management. Organizations that don't have a file plan should start by developing one. Microsoft includes a template and wizard that simplifies the process of importing your file plan into Microsoft 365.
 
