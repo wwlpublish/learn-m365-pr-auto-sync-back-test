@@ -29,7 +29,7 @@ The eDiscovery (Premium) solution builds on the original, core [eDiscovery](/mic
 > [!div class="centered"]
 > :::image type="content" source="../media/all-microsoft-365.png" alt-text="Diagram that shows the eDiscovery features in Microsoft Purview.":::
 
-By providing expanded capabilities so that you can do more things in-place to further reduce and cull your data, eDiscovery (Premium) in Microsoft 365 provides a workflow aligned to the EDRM framework that is more efficient and cost effective. In addition to the efficiency and cost savings, the reduction of risk cannot be understated here – the in-place culling and reduction of data helps to keep sensitive and private data within the tenant without having to share additional copies to outside vendors unless absolutely necessary.
+By providing expanded capabilities so that you can do more things in-place to further reduce and cull your data, eDiscovery (Premium) provides a workflow aligned to the EDRM framework that is more efficient and cost effective. In addition to the efficiency and cost savings, the reduction of risk cannot be understated here – the in-place culling and reduction of data helps to keep sensitive and private data within the tenant without having to share additional copies to outside vendors unless absolutely necessary.
 
 At a high level, here's how eDiscovery (Premium) supports the EDRM processes and workflow:
 
