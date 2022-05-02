@@ -1,26 +1,16 @@
 ### YamlMime:Module
 uid: learn-m365.compliance-discover-advanced-audit
 metadata:
-<<<<<<< HEAD
   title: Track user and admin activity with Audit (Premium)
   description: Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements in Audit (Premium) include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
-=======
-  title: Track user and admin activity with Microsoft Purview Audit
-  description: Microsoft Purview Audit delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
   ms.date: 03/10/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ms.custom: intro-internal
-<<<<<<< HEAD
 title: Track user and admin activity with Audit (Premium)
 summary: Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements in Audit (Premium) include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
-=======
-title: Track user and admin activity with Microsoft Purview Audit
-summary: Microsoft Purview Audit delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
->>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 abstract: |
   Upon completion of this module, you should be able to: 
   - Describe the preservation improvements that have been made in Audit (Premium).
