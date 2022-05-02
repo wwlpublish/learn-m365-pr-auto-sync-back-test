@@ -168,7 +168,6 @@ When the investigation is completed, you can close or delete the case. In most i
 
 - If the case contains any content locations on hold, those holds will be turned off. This might result in content being permanently deleted or purged, either by the user or by an automated process, such as a deletion policy.
 - Closing a case only turns off the holds that are associated with that case. If other holds are placed on a content location (such as a Litigation Hold, a Preservation policy, or a hold from a different eDiscovery case) those holds will still be maintained.
-
 - The case is still listed on the eDiscovery (Premium) page in the Microsoft Purview compliance portal. The details, holds, searches, and members of a closed case are retained.
 - You can edit a case after it is closed. For example, you can add or remove members, create searches, export search results, and prepare search results for analysis in eDiscovery (Premium). The primary difference between active and closed cases is that holds are turned off when a case is closed.
 - You can reopen a case that has been closed. However, any holds that were in place when the case was closed will not be automatically reinstated. After the case is reopened, you will have to go to the **Holds** tab and turn on the previous holds. To turn on a hold, select it to display the flyout page, and then set the **Status** toggle to **On**.
