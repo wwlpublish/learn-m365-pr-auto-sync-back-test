@@ -98,7 +98,22 @@ When SharePoint receives the request with these query string parameters, it will
 
 ## Deployment
 
-The deployment of command set extensions is similar to other types of SharePoint Frameworks extensions. The existing SharePoint Feature framework is used to provision command set buttons into a SharePoint environment using the `<CustomAction>` element.
+The deployment of command set extensions is similar to other types of SharePoint Frameworks extensions.
+
+SharePoint Framework command set extensions, like application customizers, support tenant wide deployment. When tenant wide deployment is enabled for the deployed package, the deployment process uses the **ClientSideInstance.xml** file within your SharePoint package to add an entry to the **Tenant Wide Extensions** list in the tenant's **App Catalog** site. The **ClientSideInstance.xml** file can be found in the **./sharepoint/assets** folder in your project.
+
+```xml
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="CommandSetDemo"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ListTemplateId="100"
+        Properties="{&quot;sampleTextOne&quot;:&quot;One item is selected in the list.&quot;, &quot;sampleTextTwo&quot;:&quot;This command is always visible.&quot;}"
+        ComponentId="3be2fc87-25c0-4ab1-a66c-10667d5912f6" />
+</Elements>
+```
+
+When tenant wide deployment isn't enabled for the deployed package, the SharePoint Feature framework is used to provision command set buttons into a SharePoint environment using a custom action. The custom action is defined in **./sharepoint/assets/elements.xml** file.
 
 ```xml
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
@@ -113,7 +128,24 @@ The deployment of command set extensions is similar to other types of SharePoint
 </Elements>
 ```
 
-SharePoint Framework command set extensions, like application customizers, support tenant-wide deployment. This means the presence of the **ClientSideInstance.xml** file within your SharePoint package will add an entry to the **Tenant Wide Extensions** list in the tenants **App Catalog** site when the package is deployed.
+The files referenced above are elements of a feature. The definition of the Feature is part of the `solution` object in the **./config/package-solution.json** file.
+
+```json
+"features": [
+  {
+    "title": "Application Extension - Deployment of custom action",
+    "description": "Deploys a custom action with ClientSideComponentId association",
+    "id": "3e349cf8-f870-404e-bfa7-431ae3e8b1dc",
+    "version": "1.0.0.0",
+    "assets": {
+      "elementManifests": [
+        "elements.xml",
+        "ClientSideInstance.xml"
+      ]
+    }
+  }
+]
+```
 
 ## Summary
 
