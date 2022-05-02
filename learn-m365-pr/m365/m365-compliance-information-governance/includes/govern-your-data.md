@@ -22,4 +22,4 @@ Retention policies are flexible including the capability to create custom events
 ## Learn more
 
 - [Information governance](/microsoft-365/compliance/manage-information-governance?azure-portal=true)
-- [Records Management](/microsoft-365/compliance/records-management?azure-portal=true)
+- [Microsoft Purview Records Management](/microsoft-365/compliance/records-management?azure-portal=true)
