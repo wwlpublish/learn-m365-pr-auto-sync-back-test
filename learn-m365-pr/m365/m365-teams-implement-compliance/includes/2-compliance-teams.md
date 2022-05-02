@@ -40,4 +40,4 @@ Because Microsoft Teams is built on Microsoft 365, communications compliance pol
 - [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies)
 - [Information barriers in Microsoft Teams](/microsoftteams/information-barriers-in-teams)
 - [Retention policies in Microsoft Teams](/microsoftteams/retention-policies)
-- [Communication compliance in Microsoft 365](/microsoft-365/compliance/communication-compliance)
+- [Microsoft Purview Communication Compliance](/microsoft-365/compliance/communication-compliance)

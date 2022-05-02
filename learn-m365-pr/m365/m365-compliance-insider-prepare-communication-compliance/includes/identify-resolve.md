@@ -1,4 +1,4 @@
-The workflow for identifying and resolving compliance issues with communication compliance in Microsoft 365 can be broken down into four phases:
+The workflow for identifying and resolving compliance issues with Microsoft Purview Communication Compliance can be broken down into four phases:
 
 1. Configure communication compliance policies.
 1. Investigate issues detected as matching your communication compliance policies.
