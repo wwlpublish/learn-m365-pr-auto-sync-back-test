@@ -107,7 +107,7 @@ All insider risk management cases must be managed with appropriate access contro
 
 ## Case actions
 
-Risk analysts and investigators can take action on a case in one of several methods, depending on the severity of the case, the history of risk of the employee, and the risk guidelines of your organization. In some situations, you may need to escalate a case to an employee or data investigation to collaborate with other areas of your organization and to dive deeper into risk activities. Insider risk management is tightly integrated with other Microsoft 365 compliance features such as eDiscovery (Premium) to help you with end-to-end resolution management.
+Risk analysts and investigators can take action on a case in one of several methods, depending on the severity of the case, the history of risk of the employee, and the risk guidelines of your organization. In some situations, you may need to escalate a case to an employee or data investigation to collaborate with other areas of your organization and to dive deeper into risk activities. Insider risk management is tightly integrated with other Microsoft Purview features such as eDiscovery (Premium) to help you with end-to-end resolution management.
 
 ### Send a notice
 

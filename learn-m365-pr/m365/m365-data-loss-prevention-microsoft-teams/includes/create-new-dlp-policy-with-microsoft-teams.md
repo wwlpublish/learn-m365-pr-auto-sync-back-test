@@ -7,7 +7,7 @@ Account information: For all of the walkthroughs in this learning path, you will
 
 ## Create a new policy using an existing template
 
-1. In the left navigation of the Microsoft 365 Compliance, at the bottom of the page under Solutions, select **Show all**.
+1. In the left navigation of the Microsoft Purview, at the bottom of the page under Solutions, select **Show all**.
 :::image type="content" source="../media/5-show-all-inline.png" lightbox="../media/5-show-all-expanded.png" alt-text="Show all.":::
 1. Under **Solutions** select **Data loss prevention**, and then select **+ Create policy**.
 :::image type="content" source="../media/5-data-loss-prevention-inline.png" lightbox="../media/5-data-loss-prevention-expanded.png" alt-text="Create policy.":::
