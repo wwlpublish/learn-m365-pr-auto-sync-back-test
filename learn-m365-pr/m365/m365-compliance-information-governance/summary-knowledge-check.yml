@@ -36,7 +36,7 @@ quiz:
       - content: "Streamlined administration "
         isCorrect: false
         explanation: "Managing a set of governance policies in SharePoint, another set in Exchange, and then another for each of your line of business systems is not productive and can be redundant. Microsoft centralized the administration of policies in the Microsoft Purview compliance portal and added native connectors to let you incorporate data outside Microsoft 365 to be governed by one set of policies."
-      - content: "Microsoft Purview Microsoft Purview Records Management"
+      - content: "Microsoft Purview Records Management"
         isCorrect: false
         explanation: "Microsoft Purview Records Management is for that special set of content within your organization, which needs to be immutable."
 
@@ -69,7 +69,7 @@ quiz:
       - content: "Microsoft Purview Data Lifecycle Management "
         isCorrect: false
         explanation: "Data Lifecycle Management manages your content lifecycle using solution to import, store, and classify business critical data. Governance policies can be configured to work automatically and applied organization-wide, if desired. For example, the system can be configured to delete obsolete or irrelevant data without user intervention, reducing the amount of data to govern."
-      - content: "Microsoft Microsoft Purview Microsoft Purview Microsoft Purview Records Management "
+      - content: "Microsoft Microsoft Purview Microsoft Purview Records Management "
         isCorrect: true
         explanation: "Microsoft Purview Records Management uses intelligent classification to automate and simplify the retention schedule for regulatory, legal, and business critical records in your organization. Governance policies can be configured to work automatically and applied organization-wide, if desired. For example, the system can be configured to delete obsolete or irrelevant data without user intervention, reducing the amount of data to govern."
       - content: "Microsoft Purview Information Protection solution	"
