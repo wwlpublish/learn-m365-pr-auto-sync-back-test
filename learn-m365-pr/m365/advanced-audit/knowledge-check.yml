@@ -3,7 +3,7 @@ uid: learn-m365.compliance-discover-advanced-audit.knowledge-check
 title: Knowledge check
 metadata:
   title: Knowledge check
-  description:  Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements in Audit (Premium) include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
+  description:  Microsoft Purview Audit (Premium) delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements in Audit (Premium) include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
   ms.date: 08/04/2021
   author: beccarobins
   ms.author: beccarobins
