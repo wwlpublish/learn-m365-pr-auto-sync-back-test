@@ -1,4 +1,4 @@
-The Data Lifecycle Management and Microsoft Purview Records Managements both use retention labels. You can create your own retention labels or edit the ones produced during the file plan import process. One additional step is added, and another is modified during the retention label configuration process in records management. The additional step provides the opportunity to add additional records management-specific metadata. The modified step enables the label to be used to declare records.
+Microsoft Purview Data Lifecycle Management and Records Managements both use retention labels. You can create your own retention labels or edit the ones produced during the file plan import process. One additional step is added, and another is modified during the retention label configuration process in records management. The additional step provides the opportunity to add additional records management-specific metadata. The modified step enables the label to be used to declare records.
 
 Navigate to **Microsoft Purview compliance portal > Records management > File plan** to configure retention labels for records management
 
