@@ -3,7 +3,7 @@ uid: learn-m365.m365-compliance-information-transition-to-microsoft-information-
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Learn the key considerations for transitioning your organization from using Azure Information Protection to Microsoft Information Protection. 
+  description: Learn the key considerations for transitioning your organization from using Azure Information Protection to Microsoft Purview Information Protection. 
   ms.date: 07/08/2021
   author: beccarobins
   ms.author: beccarobins
@@ -35,7 +35,7 @@ quiz:
         explanation: "Once your labels have been migrated to the Microsoft Purview compliance portal, determine if you want to copy your existing policies or start over with new ones."
       - content: "Activate unified labeling"
         isCorrect: false
-        explanation: "Activation copies the labels from the Azure Information Protection store to the Microsoft Information Protection unified labeling store."
+        explanation: "Activation copies the labels from the Azure Information Protection store to the Microsoft Purview Information Protection unified labeling store."
       - content: "Manage from compliance portal "
         isCorrect: false
         explanation: "Any policies copied in the previous step will already be published. However, you may want to edit those existing policies or create new ones. Policies are not visible until they are published, and the recommendation is to edit policies for the Microsoft Purview compliance portal. "

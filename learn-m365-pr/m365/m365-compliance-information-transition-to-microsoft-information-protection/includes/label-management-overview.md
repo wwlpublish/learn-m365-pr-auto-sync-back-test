@@ -8,21 +8,21 @@ Based on customer feedback, the decision was made to integrate Azure Information
 
 The following changes were needed to make that decision a reality.
 
-- **Microsoft Information Protection Software Development Kit released**. The Microsoft Information Protection SDK brings the classification, labeling, and protection capabilities of Microsoft Information Protection into a simple, lightweight, cross-platform software development kit that enables any application to label and protect information.
+- **Microsoft Purview Information Protection Software Development Kit released**. The Microsoft Purview Information Protection SDK brings the classification, labeling, and protection capabilities of Microsoft Purview Information Protection into a simple, lightweight, cross-platform software development kit that enables any application to label and protect information.
 - **Administrative experience changes**. The Microsoft 365 Defender portal and Microsoft Purview compliance portal were extended to incorporate information protection label management, a feature previously only available in Azure Information Protection.
 - **Azure Information Protection labels renamed sensitivity labels**. One kind of label, retention labels, already existed as part of Advanced Data Governance. The development team concluded introducing another capability called "labels" into Microsoft 365 administrator experience could cause confusion. The decision was made to refer to what were called "labels" in Azure Information Protection labels as "sensitivity labels" going forward to differentiate them from retention labels.
 
-These changes resulted in the creation of a new unified label management experience, client support based on the Microsoft Information Protection SDK, and the availability of sensitivity labels across Microsoft 365.
+These changes resulted in the creation of a new unified label management experience, client support based on the Microsoft Purview Information Protection SDK, and the availability of sensitivity labels across Microsoft 365.
 
-## Microsoft Information Protection value for Azure Information Protection customers
+## Microsoft Purview Information Protection value for Azure Information Protection customers
 
-Microsoft recommends organizations plan for the transition to the new information protection solution. Here are some reasons to consider migrating to Microsoft Information Protection:
+Microsoft recommends organizations plan for the transition to the new information protection solution. Here are some reasons to consider migrating to Microsoft Purview Information Protection:
 
 - **Built-in Office client**. Windows users running Microsoft 365 Apps for enterprise (formerly known as Office 365 ProPlus) version 1910 or higher on Windows may not need to install an Office Add-in. Unified labeling support is built into the client.
 - **Unified experience**. The same sensitivity labels can be used across Microsoft 365 applications and services. Sensitivity label capabilities can also be extended into other applications from Microsoft and third parties. Examples include the sensitivity label integration added to Microsoft Power BI and the work Adobe has done to support the framework in PDF documents.
-- **Innovation**. All future innovation and development will use the Microsoft Information Protection framework.
+- **Innovation**. All future innovation and development will use the Microsoft Purview Information Protection framework.
 
 ## Learn more
 
-- [Microsoft Information Protection (MIP) SDK setup and configuration](/information-protection/develop/setup-configure-mip?azure-portal=true)
-- [PDF readers that support Microsoft Information Protection](/azure/information-protection/rms-client/protected-pdf-readers?azure-portal=true)
+- [Microsoft Purview Information Protection (MIP) SDK setup and configuration](/information-protection/develop/setup-configure-mip?azure-portal=true)
+- [PDF readers that support Microsoft Purview Information Protection](/azure/information-protection/rms-client/protected-pdf-readers?azure-portal=true)

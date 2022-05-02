@@ -12,7 +12,7 @@ DLP detects sensitive items by using deep content analysis (not just a simple te
 
 ## Sensitivity labels in OneDrive
 
-Sensitivity labels from the Microsoft Information Protection (MIP) framework let you classify and protect your organization's data, while making sure that user productivity and their ability to collaborate isn't hindered. Sensitivity labels enforce protection on files themselves regardless of where they are stored such as OneDrive, SharePoint, or on a local computer. They work differently from DLP in that they allow users to protect their own documents by applying functionality like encryption or watermarks. For example, when a user applies a Confidential label to a document or email, that label might encrypt the content and apply a "Confidential" watermark, depending on the label options that you configure. Sensitivity labels work across Microsoft 365 apps and different platforms and devices.
+Sensitivity labels from the Microsoft Purview Information Protection (MIP) framework let you classify and protect your organization's data, while making sure that user productivity and their ability to collaborate isn't hindered. Sensitivity labels enforce protection on files themselves regardless of where they are stored such as OneDrive, SharePoint, or on a local computer. They work differently from DLP in that they allow users to protect their own documents by applying functionality like encryption or watermarks. For example, when a user applies a Confidential label to a document or email, that label might encrypt the content and apply a "Confidential" watermark, depending on the label options that you configure. Sensitivity labels work across Microsoft 365 apps and different platforms and devices.
 
 With a sensitivity label you can:
 

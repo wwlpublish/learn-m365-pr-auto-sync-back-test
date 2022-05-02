@@ -1,15 +1,15 @@
-Transitioning from Azure Information Protection to Microsoft Information Protection consists of the following steps:
+Transitioning from Azure Information Protection to Microsoft Purview Information Protection consists of the following steps:
 
 - Activate unified labeling and migrate labels to the Microsoft Purview compliance portal.
 - Copy existing Azure Information Protection policies or create new policies in Microsoft Purview compliance portal.
 - Manage labels with label policies from the Microsoft Purview compliance portal.
 - Download and install the latest unified labeling client if necessary.
 
-:::image type="content" source="../media/transition-to-microsoft-information-protection.png" alt-text="Transition to Microsoft Information Protection." border="false":::
+:::image type="content" source="../media/transition-to-microsoft-information-protection.png" alt-text="Transition to Microsoft Purview Information Protection." border="false":::
 
 ## Activate unified labeling and migrate labels to the Microsoft Purview compliance portal
 
-If you create labels in the Microsoft Purview compliance portal with the same name as your existing Azure Information Protection labels, you won't be able to migrate those labels later. To avoid conflicts, we recommend you first migrate your labels from Azure Information Protection. Activation migrates the labels from the Azure Information Protection store to the Microsoft Information Protection unified labeling store. Once activated, both services use the unified store for **labels**. This transition has no impact on users with the Azure Information Protection client (classic). It only makes the policies originally defined in Azure Information Protection visible and configurable in the Microsoft Purview compliance portal. Unified labeling clients do not see any labels until you **publish** a label policy, which does not happen during unified labeling activation.
+If you create labels in the Microsoft Purview compliance portal with the same name as your existing Azure Information Protection labels, you won't be able to migrate those labels later. To avoid conflicts, we recommend you first migrate your labels from Azure Information Protection. Activation migrates the labels from the Azure Information Protection store to the Microsoft Purview Information Protection unified labeling store. Once activated, both services use the unified store for **labels**. This transition has no impact on users with the Azure Information Protection client (classic). It only makes the policies originally defined in Azure Information Protection visible and configurable in the Microsoft Purview compliance portal. Unified labeling clients do not see any labels until you **publish** a label policy, which does not happen during unified labeling activation.
 
 If you create labels in the Microsoft Purview compliance portal with the same name as your existing Azure Information Protection labels, you won't be able to migrate those labels later. To avoid conflicts, we recommend you first migrate your labels from Azure Information Protection.
 

@@ -57,7 +57,7 @@ quiz:
       - content: "Microsoft data loss prevention solution"
         isCorrect: false
         explanation: "The Microsoft data loss prevention solution detects sensitive content as it is used and shared throughout your organization, in the cloud and on devices, and helps prevent accidental data loss. "
-      - content: "Microsoft information governance "
+      - content: "Microsoft Purview Data Lifecycle Management "
         isCorrect: false
         explanation: "Information governance manages your content lifecycle using solution to import, store, and classify business critical data. Governance policies can be configured to work automatically and applied organization-wide, if desired. For example, the system can be configured to delete obsolete or irrelevant data without user intervention, reducing the amount of data to govern. "
       - content: "Microsoft information protection solution"
@@ -66,7 +66,7 @@ quiz:
               
     - content: "Governing your data is about keeping what you need and deleting what you do not. Which solution uses intelligent classification to automate and simplify the retention schedule for regulatory, legal, and business critical records in your organization?"
       choices:
-      - content: "Microsoft information governance "
+      - content: "Microsoft Purview Data Lifecycle Management "
         isCorrect: false
         explanation: "Information governance manages your content lifecycle using solution to import, store, and classify business critical data. Governance policies can be configured to work automatically and applied organization-wide, if desired. For example, the system can be configured to delete obsolete or irrelevant data without user intervention, reducing the amount of data to govern."
       - content: "Microsoft records management "
