@@ -28,7 +28,7 @@ Data can also be classified via trainable classifiers. Trainable classifiers use
 
 ### Labels
 
-A label can be thought of as a stamp on a document. For example, your organization might create a label named "Confidential" to indicate data that should not be widely shared or that it should be retained for a specific time period. Labels can, but do not have to, use sensitive information types to classify email messages, documents, sites, and more. Microsoft Purview Information Protection and governance solutions use two forms of labels, sensitivity labels and retention labels. You can prevent users from changing labels by applying encryption to the content.
+A label can be thought of as a stamp on a document. For example, your organization might create a label named "Confidential" to indicate data that should not be widely shared or that it should be retained for a specific time period. Labels can, but do not have to, use sensitive information types to classify email messages, documents, sites, and more. Microsoft Purview Information Protection and Data Lifecycle Management use two forms of labels, sensitivity labels and retention labels. You can prevent users from changing labels by applying encryption to the content.
 
 With sensitivity labels, you can classify and help protect your sensitive content. Protection options include adding watermarks or encryption to the content. Sensitivity labels persist wherever your document is stored or sent.
 
