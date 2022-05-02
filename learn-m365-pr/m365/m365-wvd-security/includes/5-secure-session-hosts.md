@@ -2,7 +2,7 @@ Customers can take several actions and use multiple tools to help secure their A
 
 |**Best practice**| **Result**                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|Enable Azure Security Center for its cloud security posture management (CSPM) features| Use the CSPM feature of the security score to improve your overall security.|
+|Enable Microsoft Defender for Cloud for its cloud security posture management (CSPM) features| Use the CSPM feature of the security score to improve your overall security.|
 |Require multifactor authentication|Enhance user authentication.|
 |Enable Conditional Access|Manage risks before you grant users access.|
 |Collect audit logs|Review user and administrator activity.|

@@ -19,7 +19,7 @@ The Content Search tool is available in the Microsoft 365 Defender portal. Use t
 1. Go to the Microsoft 365 Defender portal at <https://compliance.microsoft.com/>, and sign in using your Microsoft 365 credentials.
 1. Select **Content search**.
 
-    :::image type="content" source="../media/m365-compliance-portal-content-search.png" alt-text="A screenshot of the Microsoft Purview compliance portal with the Content search menu selected." lightbox="../media/m365-compliance-portal-content-search.png":::
+    :::image type="content" source="../media/m365-compliance-portal-content-search.png" alt-text="A screenshot of the compliance portal with the Content search menu selected." lightbox="../media/m365-compliance-portal-content-search.png":::
 
 1. On the **Content search** page, select **+ New search**.
 

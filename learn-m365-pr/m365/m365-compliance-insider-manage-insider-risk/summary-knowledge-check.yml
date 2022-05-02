@@ -30,7 +30,7 @@ quiz:
 
     - content: "Configuring a Microsoft Human Resources (HR) data connector is a dependency for which insider risk management template?"
       choices:
-      - content: "Departing employee’s data theft template"
+      - content: "Departing employee's data theft template"
         isCorrect: true
         explanation: "If you configure a policy using the Departing employee data theft template, you'll need to configure a Microsoft 365 HR data connector so that you can import user and log data from 3rd-party risk management and human resources platforms. HR connectors allow you to pull in human resources data from CSV files, including user termination and last employment dates. "
       - content: "Data leaks "

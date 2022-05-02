@@ -3,7 +3,11 @@ uid: learn-m365.compliance-discover-advanced-audit.configure
 title: Configure audit log settings
 metadata:
   title: Configure audit log settings
+<<<<<<< HEAD
   description: Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements in Audit (Premium) include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
+=======
+  description: Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
+>>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
   ms.date: 02/10/2022
   author: beccarobins
   ms.author: beccarobins

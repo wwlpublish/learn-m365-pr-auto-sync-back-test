@@ -2,7 +2,7 @@
 In this section, we discuss the *Collection* and *Processing* phases of the EDRM model.
 
 > [!div class="centered"]
-> :::image type="content" source="../media/edrm-model-2.png" alt-text="Third and fourth phases of the EDRM model – Collection and Processing.":::
+> :::image type="content" source="../media/edrm-model-2.png" alt-text="Diagram that shows the third and fourth phases of the EDRM model – Collection and Processing.":::
 
 After creating the case, adding the custodians and their associated data sources, the next step typically involves searching for and collecting relevant content to build out the case. You can quickly do this by creating a search.  
 
@@ -10,19 +10,19 @@ The process of creating a search begins from the **Searches** tab in your case, 
 
 1. Enter a name and description (optional).
 
-    :::image type="content" source="../media/name-description.png" alt-text="Name and description fields.":::
+    :::image type="content" source="../media/name-description.png" alt-text="Screenshot of the Name and description fields.":::
 
 1. Add the custodians relevant to the search.
 
-    :::image type="content" source="../media/custodians.png" alt-text="Custodian field.":::
+    :::image type="content" source="../media/custodians.png" alt-text="Screenshot of the Custodian field with example names.":::
 
 1. Select the locations to search, including any additional locations that weren't exposed during the hold process.
 
-    :::image type="content" source="../media/locations.png" alt-text="Locations field." lightbox="../media/locations.png":::
+    :::image type="content" source="../media/locations.png" alt-text="Screenshot of the Locations field, where you specify where to search." lightbox="../media/locations.png":::
 
 1. Enter keywords and/or add conditions to narrow search results.
 
-    :::image type="content" source="../media/search-criteria.png" alt-text="Keywords and conditions fields." lightbox="../media/search-criteria.png" border="false":::
+    :::image type="content" source="../media/search-criteria.png" alt-text="Screenshot of setting keywords or conditions to narrow the search." lightbox="../media/search-criteria.png" border="false":::
 
 ## Build search queries and add conditions
 
@@ -45,23 +45,23 @@ Conditions are granular parameters such as dates, authors, or email recipients t
 
 After executing a search, you can use **Statistics** and **Preview** options to verify the search you created is collecting the type of data you need.
 
-:::image type="content" source="../media/search-custodian-data.png" alt-text="Statistics and Preview options verify the search." lightbox="../media/search-custodian-data.png" border="false":::
+:::image type="content" source="../media/search-custodian-data.png" alt-text="Screenshot that shows how to use Statistics and Preview options to verify the search." lightbox="../media/search-custodian-data.png" border="false":::
 
 Statistics on the retrieved items lets you validate your search results and make sure they align with your expectations. You can see things such as the locations that had the most items that matched the search query, and the number of and size of unindexed items. To learn more about statistics, see [Search statistics](/microsoft-365/compliance/search-statistics?azure-portal=true).
 
-:::image type="content" source="../media/search-statistics.png" alt-text="Statistics on the retrieved items lets you validate your search results and make sure they align with your expectations." lightbox="../media/search-statistics.png":::
+:::image type="content" source="../media/search-statistics.png" alt-text="Screenshot of the Statistics on the retrieved items that let you validate your search results and make sure they align with your expectations." lightbox="../media/search-statistics.png":::
 
 Preview generates a sampling of the various data sources and provides another view for early validation that you are on the right track.
 
-:::image type="content" source="../media/search-results.png" alt-text="Preview generates a sampling of the various data sources." lightbox="../media/search-results.png":::
+:::image type="content" source="../media/search-results.png" alt-text="Screenshot that shows how Preview generates a sampling of the various data sources." lightbox="../media/search-results.png":::
 
 You can also generate your own sample from a search.
 
-:::image type="content" source="../media/sample.png" alt-text="You can also generate your own sample from a search." border="false":::
+:::image type="content" source="../media/sample.png" alt-text="Screenshot that shows a sample generated from a search." border="false":::
 
 Generating a sample lets you use parameters such as confidence level and confidence interval.
 
-:::image type="content" source="../media/sampling-parameters.png" alt-text="Generating a sample lets you use parameters such as confidence level and confidence interval.":::
+:::image type="content" source="../media/sampling-parameters.png" alt-text="Screenshots that shows using parameters such as confidence level and confidence interval.":::
 
 ## Content indexing of data
 
@@ -73,6 +73,7 @@ The search system is tuned for performance so you can search for content quickly
 
 Advanced indexing is the process that reprocesses unindexed and partially indexed content to make it fully searchable.
 
+<<<<<<< HEAD
 The **Processing** tab in eDiscovery (Premium) provides insight into the status of advanced indexing for different processing scenarios. In the **Index status** view on the **Processing** tab for a case, the graph lists the number of items added to the *hybrid index*. The hybrid index is where eDiscovery (Premium) stores the reprocessed content.
 
 :::image type="content" source="../media/processing.png" alt-text="The Processing tab in eDiscovery (Premium) provides insight into the status of advanced indexing for different processing scenarios." lightbox="../media/processing.png":::
@@ -80,18 +81,25 @@ The **Processing** tab in eDiscovery (Premium) provides insight into the status 
 ## Error remediation
 
 Error remediation enables you to address issues that prevent eDiscovery (Premium) from processing content. For example, files that are password protected cannot be processed since the files are locked or encrypted. Using error remediation, you can download files with such errors, remove the password protection, and then upload the remediated files.
+=======
+The **Processing** tab in eDiscovery provides insight into the status of advanced indexing for different processing scenarios. In the **Index status** view on the **Processing** tab for a case, the graph lists the number of items added to the *hybrid index*. The hybrid index is where eDiscovery stores the reprocessed content.
+
+:::image type="content" source="../media/processing.png" alt-text="Screenshot of the Processing tab, which provides insight into the status of advanced indexing for different processing scenarios." lightbox="../media/processing.png":::
+
+## Error remediation
+
+Error remediation enables you to address issues that prevent eDiscovery from processing content. For example, files that are password protected cannot be processed since the files are locked or encrypted. Using error remediation, you can download files with such errors, remove the password protection, and then upload the remediated files.
+>>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 
 Error remediation of documents leverages an Azure AzCopy command that contains parameters with the location of where the files that you want to upload are stored and the Azure storage location that the files will be uploaded to. Therefore, before you begin the process of error remediation, it is necessary to [install the AzCopy command-line utility](/azure/storage/common/storage-use-azcopy-v10?azure-portal=true) to your local computer in the default location, which is `%ProgramFiles(x86)%\Microsoft SDKs\Azure\AzCopy`.  
 
 1. To begin the process of error remediation, select **Errors** in the **View** drop-down menu on the **Processing** tab and then select a case or review set from the **Scope** drop-down menu. This section displays all errors from the case or error from a specific review set. In the example below, an error was found in the Investigation – 01234 case.
 
-    :::image type="content" source="../media/new-error-remediation.png" alt-text="Error remediation screen." lightbox="../media/new-error-remediation.png":::
+    :::image type="content" source="../media/new-error-remediation.png" alt-text="Screenshot of the error remediation screen." lightbox="../media/new-error-remediation.png":::
 
 1. To remediate the password protected file, select the radio button next to the file type, then click **New error remediation**. The error remediation process begins with a preparation stage where the files with errors are copied to a Microsoft-provided Azure Storage location so that you can download them to your local computer to remediate.
 
 1. After the preparation is complete, click **Next: Download files** to proceed with the download.
-
-    :::image type="content" source="../media/new-remediation.png" alt-text="Click Next: Download files to download." lightbox="../media/new-remediation.png":::
 
 1. To download files, specify the **Destination path for download**. This is a path to the parent folder on your local computer where the file will be downloaded. The default path, %USERPROFILE%\Downloads\errors, points to the local user's download folder and can be changed if desired. For performance reasons, it is recommended that you do not use a remote network path.
 
@@ -99,7 +107,7 @@ Error remediation of documents leverages an Azure AzCopy command that contains p
 
 1. Copy the predefined command by clicking **Copy to clipboard**, then open a Windows command prompt (Run as administrator), paste the AzCopy command, and then press **Enter**.
 
-    :::image type="content" source="../media/command-prompt.png" alt-text="Paste the AzCopy command into the Windows command prompt and then press Enter." lightbox="../media/command-prompt.png":::
+    :::image type="content" source="../media/command-prompt.png" alt-text="Screenshot of the command window showing the AzCopy command." lightbox="../media/command-prompt.png":::
 
     The files that you selected are downloaded to the location that you specified in step 5. In the parent folder (for example, **C:\Remediation**), the following subfolder structure is automatically created:
 
@@ -110,21 +118,23 @@ Error remediation of documents leverages an Azure AzCopy command that contains p
 
     If multiple files are downloaded, each one is downloaded to a subfolder that is named with the file ID.
 
+<<<<<<< HEAD
 1. Return to the error remediation wizard in eDiscovery (Premium), then click **Next: Upload files**. This moves to the next page where you can now upload the files.
 
     :::image type="content" source="../media/download-files.png" alt-text="Download files screen." lightbox="../media/download-files.png":::
+=======
+1. Return to the error remediation wizard in eDiscovery, then click **Next: Upload files**. This moves to the next page where you can now upload the files.
+>>>>>>> d7be7c8b7d942a59c970dbc16ba987f86ecf275b
 
 1. Specify the parent folder where the remediated files are located in the **Path to location of files** text box. The parent folder must have the same subfolder structure that was created when you downloaded the files. The path to the parent folder is automatically added to the AzCopy command as the value of the **/Source** parameter.
 
-    :::image type="content" source="../media/upload-files.png" alt-text="Upload files screen." lightbox="../media/upload-files.png":::
+    :::image type="content" source="../media/upload-files.png" alt-text="Screenshot that shows the Upload files screen." lightbox="../media/upload-files.png":::
 
 1. Copy the predefined command by clicking **Copy to clipboard**. Open a Windows command prompt (Run as administrator), paste the AzCopy command, and then press **Enter** to upload the files.
 
-    :::image type="content" source="../media/process-files.png" alt-text="Command prompt with AzCopy command." lightbox="../media/process-files.png":::
+    :::image type="content" source="../media/process-files.png" alt-text="Screenshot that shows the command prompt with the AzCopy command." lightbox="../media/process-files.png":::
 
 1. After you run the AzCopy command, click Next: **Process files**.
-
-    :::image type="content" source="../media/process-files-2.png" alt-text="After you run the AzCopy command, click Next: Process files." lightbox="../media/process-files-2.png":::
 
     When processing is complete, you can go to the review set and view the remediated files.
 

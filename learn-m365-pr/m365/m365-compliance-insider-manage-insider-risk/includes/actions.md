@@ -58,7 +58,7 @@ The **Case details** pane summarizes the case details for risk analysts and inve
 
 ### Alerts
 
-The **Alerts** tab summarizes the status, severity, and time detected for current alerts included in the case. New alerts may be added to an existing case and added to the **Alert** queue as they are assigned. 
+The **Alerts** tab summarizes the status, severity, and time detected for current alerts included in the case. New alerts may be added to an existing case and added to the **Alert** queue as they are assigned.
 Selecting an alert from the queue displays the **Alert detail** page.
 The **Search** control can be used to search alert names for specific text while the **Filter** control can be used to sort cases by the following attributes:
 
