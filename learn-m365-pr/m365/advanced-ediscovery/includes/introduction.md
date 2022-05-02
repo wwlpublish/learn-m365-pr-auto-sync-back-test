@@ -24,7 +24,7 @@ It's also worth noting that the same step may be repeated numerous times or you 
 
 ## eDiscovery (Premium) in Microsoft 365
 
-The eDiscovery (Premium) solution in Microsoft 365 builds on the original, core [eDiscovery](/microsoft-365/compliance/ediscovery?azure-portal=true) solution in Microsoft 365 by providing expanded capabilities that enable you to do more while the data remains in-place in your tenant.
+The eDiscovery (Premium) solution builds on the original, core [eDiscovery](/microsoft-365/compliance/ediscovery?azure-portal=true) solution by providing expanded capabilities that enable you to do more while the data remains in-place in your tenant.
 
 > [!div class="centered"]
 > :::image type="content" source="../media/all-microsoft-365.png" alt-text="Diagram that shows the eDiscovery features in Microsoft Purview.":::
