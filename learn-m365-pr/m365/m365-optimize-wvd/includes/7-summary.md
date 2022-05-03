@@ -1,6 +1,4 @@
-In this module you learned how you can optimize your Azure Virtual Desktop environment by:
-
-- Scaling session hosts by using Autoscale
+In this module you learned how you can optimize your Azure Virtual Desktop environment by scaling session hosts by using Autoscale.
 
 ## Learn more
 
