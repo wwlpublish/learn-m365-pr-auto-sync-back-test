@@ -28,7 +28,7 @@ quiz:
     - content: "Use the Set-SafeAttachmentPolicy cmdlet to update the Safe Attachments policy settings"
       isCorrect: false
       explanation: "Incorrect. This action isn't the first thing Allan should do."
-  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer wants to protect users from opening unsafe attachments. Holly doesn't want to create policies that block or replace attachments. Instead, Holly wants to avoid message delivery delays so that Fabrikam's users remain productive. When creating a Safe Attachments policy, what action should Holly select to implement this business requirement?"
+  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer wants to protect users from opening unsafe attachments. Holly doesn't want to create policies that block or replace attachments. Instead, Holly wants to avoid message delivery delays so that Fabrikam's users remain productive. When Holly creates a Safe Attachments policy, what action should she select to implement this business requirement?"
     choices:
     - content: "Dynamic delivery"
       isCorrect: true
