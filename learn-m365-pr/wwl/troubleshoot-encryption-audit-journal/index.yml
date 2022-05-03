@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-encryption-audit-journal
 metadata:
   title: Troubleshoot encryption, auditing, and journaling
   description: "Investigate and diagnose misconfigured encryption, auditing, and journaling in your Exchange Online organization. MS-220"
-  ms.date: 04/08/2022
+  ms.date: 05/03/2022
   author: wwlpublish
   ms.author: dawnhopper
   ms.topic: interactive-tutorial
@@ -16,8 +16,8 @@ abstract: |
   - Ensure that sensitive actions on items and mailboxes create a secure audit log.
   - Discover why items are not reaching the Exchange Online journal.
 prerequisites: |
-  Experience with PowerShell and the Exchange PowerShell module.
-  Significant experience deploying, managing, and troubleshooting Exchange environments.
+  - Experience with PowerShell and the Exchange PowerShell module.
+  - Significant experience deploying, managing, and troubleshooting Exchange environments.
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - advanced
@@ -34,6 +34,7 @@ units:
 - learn.wwl.troubleshoot-encryption-audit-journal.diagnose-encryption-problems
 - learn.wwl.troubleshoot-encryption-audit-journal.troubleshoot-mailbox-auditing
 - learn.wwl.troubleshoot-encryption-audit-journal.troubleshoot-journaling
+- learn.wwl.troubleshoot-encryption-audit-journal.troubleshoot-encryption-auditing-journaling
 - learn.wwl.troubleshoot-encryption-audit-journal.knowledge-check
 - learn.wwl.troubleshoot-encryption-audit-journal.summary
 badge:
