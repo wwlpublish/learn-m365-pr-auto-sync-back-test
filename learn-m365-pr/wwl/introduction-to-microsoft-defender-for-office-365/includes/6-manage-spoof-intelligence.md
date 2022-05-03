@@ -27,7 +27,7 @@ To modify the spoof intelligence policy or enable or disable spoof intelligence,
  -  Security Administrator and either View-Only Configuration or View-Only Organization Management.
  -  For read-only access to the spoof intelligence policy, you must be a member of the Global Reader or Security Reader role groups.
 
-Spoof intelligence can be enabled or disabled in anti-phishing policies in EOP and Microsoft Defender for Office 365. Spoof intelligence is enabled by default. To view the recommended settings for spoof intelligence, see [EOP anti-phishing policy settings](/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp?view=o365-worldwide#eop-anti-phishing-policy-settings?azure-portal=true).
+Spoof intelligence can be enabled or disabled in anti-phishing policies in EOP and Microsoft Defender for Office 365. Spoof intelligence is enabled by default. To view the recommended settings for spoof intelligence, see [EOP anti-phishing policy settings](/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp?azure-portal=true).
 
 Complete the following steps to open the spoof intelligence insight in the Microsoft 365 Defender portal:
 
@@ -65,7 +65,7 @@ The **Spoof intelligence insight** pageppears after you select **View spoofing a
      -  **External**. The spoofed sender is in an external domain.
  -  **Action**. One of the following values:
     
-     -  **Allowed**. The domain failed explicit email authentication checks SPF, DKIM, and DMARC. However, the domain passed our implicit email authentication checks ([composite authentication](/microsoft-365/security/office-365-security/email-validation-and-authentication?view=o365-worldwide#composite-authentication?azure-portal=true)). As a result, no anti-spoofing action was taken on the message.
+     -  **Allowed**. The domain failed explicit email authentication checks SPF, DKIM, and DMARC. However, the domain passed our implicit email authentication checks ([composite authentication](/microsoft-365/security/office-365-security/email-validation-and-authentication?azure-portal=true)). As a result, no anti-spoofing action was taken on the message.
      -  **Blocked**. Messages from the combination of the spoofed domain *and* sending infrastructure are marked as bad by spoof intelligence. The action that's taken on the spoofed messages is controlled by the default anti-phishing policy or custom anti-phishing policies. The default value is **Move message to Junk Email folder**. For more information, see [Configure anti-phishing policies in Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/configure-mdo-anti-phishing-policies?azure-portal=true).
 
 To filter the results, you have the following options:

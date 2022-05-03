@@ -4,9 +4,11 @@ title: Configure outbound spam filtering policies
 metadata:
   title: Configure outbound spam filtering policies
   description: "Configure outbound spam filtering policies"
-  ms.date: 05/02/2022
+  ms.date: 05/03/2022
   author: wwlpublish
+  ms.author: tfrink
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 azureSandbox: false
 labModal: false
 durationInMinutes: 8
