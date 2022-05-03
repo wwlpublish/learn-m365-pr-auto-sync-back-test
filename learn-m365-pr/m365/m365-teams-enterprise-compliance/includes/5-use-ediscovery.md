@@ -18,26 +18,26 @@ An **eDiscovery Manager** can:
 
 - Access and manage the cases they create, but not cases created by other eDiscovery managers.
 - Use the Content Search tool to search content locations, preview, and export search results.
-- Create and manage eDiscovery (Standard) cases and eDiscovery cases.
+- Create and manage eDiscovery (Standard) cases and eDiscovery (Premium) cases.
 - Add to a case and remove members.
 - Create case holds.
 - Run searches associated with a case.
 
 **eDiscovery Administrators** can do everything that an eDiscovery Manager can do, plus:
 
-- Access all cases that are listed on the eDiscovery and eDiscovery pages.
-- Access case data in eDiscovery for any case in the organization.
+- Access all cases that are listed on the eDiscovery and eDiscovery (Premium) pages.
+- Access case data in eDiscovery (Premium) for any case in the organization.
 - Manage any eDiscovery case after they add themselves as a member of the case.
 
 ## Licenses
 
-Users, the custodians of the data, must be assigned a Microsoft 365 E5 or Office 365 E5 license. Alternatively, you can purchase an add-on Microsoft 365 E5 Compliance or Microsoft Purview license for users with an Office 365 E1 or a Microsoft 365 E3 license.
+Users, the custodians of the data, must be assigned a Microsoft 365 E5 or Office 365 E5 license. Alternatively, you can purchase an add-on Microsoft 365 E5 Compliance or Microsoft Purview eDiscovery and Audit license for users with an Office 365 E1 or a Microsoft 365 E3 license.
 
-Administrators, compliance officers, or legal personnel who are assigned to cases as members, and use eDiscovery to collect, view, and analyze data don't need an E5 license.
+Administrators, compliance officers, or legal personnel who are assigned to cases as members, and use eDiscovery (Premium) to collect, view, and analyze data don't need an E5 license.
 
 ## Create a eDiscovery (Standard) case
 
-To create a core eDiscovery case:
+To create a eDiscovery (Standard) case:
 
 1. Sign into the [Microsoft Purview compliance portal](https://compliance.microsoft.com) with a user account with the appropriate eDiscovery permissions, or who is part of the Organization Management role group.
 1. From the left navigation pane, select **Show all** > **eDiscovery** > **Core**.
