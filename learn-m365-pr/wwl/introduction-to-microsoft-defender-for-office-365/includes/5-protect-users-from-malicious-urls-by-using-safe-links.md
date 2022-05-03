@@ -5,7 +5,7 @@ Safe Links is a feature in Microsoft Defender for Office 365 that provides:
 
 Safe Links scanning occurs in addition to the regular anti-spam and anti-malware protection in inbound email messages in Exchange Online Protection (EOP). Safe Links scanning can help protect your organization from malicious links that are used in phishing and other attacks.
 
-When an email with an embedded URL is delivered to a recipient, the web page or attachment on the other side of the link may be safe to view at the time of delivery. However, it may not be safe when the user opens the email and selects the link. Safe Links protects the user by rewriting the link in the message body so that the link is checked at the time it’s selected, instead of when the message is delivered.
+When an email with an embedded URL is delivered to a recipient, the web page or attachment on the other side of the link may be safe to view at the time of delivery. However, it may not be safe when the user opens the email and selects the link. Safe Links protects the user by rewriting the link in the message body. By doing so, the link is checked at the time it’s selected, rather than when the message is delivered.
 
 When a user selects a link in a message or document, Safe Links checks to see if the link is malicious. It does so by redirecting the URL to a secure server in the Microsoft 365 environment that checks the URL against a blocklist of known malicious web sites.
 
@@ -28,7 +28,7 @@ Safe Links protection is available in the following locations:
 
  -  **Email messages**. Similar to Safe Attachments, there's no default Safe Links policy. However, the **Built-in protection** preset security policy provides Safe Links protection to all recipients (users who aren't defined in custom Safe Links policies). Organizations can also create Safe Links policies that apply to specific users, group, or domains.
  -  **Microsoft Teams**. Safe Links protection for links in Teams conversations, group chats, or from channels also controlled by Safe Links policies.
- -  **Office 365 apps**. Safe Links protection for Office 365 apps is available in supported desktop, mobile, and web apps. You configure Safe Links protection for Office 365 apps in the global setting that are outside of Safe Links policies. Safe Links protection for Office 365 apps is applied to all users in the organization who are licensed for Microsoft Defender for Office 365, regardless of whether the users are included in active Safe Links policies or not.
+ -  **Office 365 apps**. Safe Links protection for Office 365 apps is available in supported desktop, mobile, and web apps. You configure Safe Links protection for Office 365 apps in the global setting that are outside of Safe Links policies. Safe Links protection for Office 365 apps is applied to all users in the organization who are licensed for Microsoft Defender for Office 365. This protection applies even if the users aren't included in active Safe Links policies.
 
 ### URL detonation
 
@@ -73,7 +73,7 @@ Jean is included in a Safe Links policy. Safe Links protection for Office 365 ap
     Chris' Microsoft 365 E5 organization has no Safe Links policies configured. Chris receives an email from an external sender that contains a URL to a malicious website that he ultimately selects.
   :::column-end:::
   :::column:::
-    Chris isn't protected by Safe Links.An admin must create at least one Safe Links policy for anyone to get Safe Links protection in inbound email messages. Chris must be included in the conditions of a policy to get Safe Links protection.
+    Chris isn't protected by Safe Links.At least one Safe Links policy must be created for anyone to get Safe Links protection in inbound email messages. Chris must be included in the conditions of a policy to get Safe Links protection.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -81,7 +81,7 @@ Jean is included in a Safe Links policy. Safe Links protection for Office 365 ap
     In Pat's organization, no admins have created any Safe Links policies. However, Safe Links protection for Office 365 apps is turned on. Pat opens a Word document and selects a URL in the file.
   :::column-end:::
   :::column:::
-    Pat isn't protected by Safe Links.Although Safe Links protection for Office 365 apps is turned on globally, Pat isn't included in any active Safe Links policies. As such, the protection can't be applied.
+    Pat isn't protected by Safe Links.Safe Links protection for Office 365 apps is turned on globally. However, at least one Safe Links policy must be created for anyone to get Safe Links protection. Since no Safe Links policies have been created, Pat isn't eligible for Safe Links protection.
   :::column-end:::
 :::row-end:::
 :::row:::

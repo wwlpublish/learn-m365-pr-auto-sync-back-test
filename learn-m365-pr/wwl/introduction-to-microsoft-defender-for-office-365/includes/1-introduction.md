@@ -26,4 +26,3 @@ After completing this module, you'll be able to:
  -  Describe how the Safe Links feature in Microsoft Defender for Office 365 protects users from malicious URLs embedded in email and documents that point to malicious websites.
  -  Create outbound spam filtering policies.
  -  Unblock users who violated spam filtering policies so they can resume sending emails.
-

@@ -27,19 +27,19 @@ quiz:
       explanation: "Incorrect. Holly doesn't need to create an outbound spam policy in PowerShell."
     - content: "Holly doesn't have to do anything"
       isCorrect: true
-      explanation: "Correct. Every organization has a built-in outbound spam policy named Default. The policy is applied to all senders in the organization. This process occurs even though there's no outbound spam filter rule (sender filters) associated with the policy. Creating custom policies with stricter settings than the Default policy enables organizations to increase the effectiveness of its outbound spam filtering. However, creating custom polilcies isn't required if organizations are comfortable with the Default policy settings."
+      explanation: "Correct. Every organization has a built-in outbound spam policy named Default. The policy is applied to all senders in the organization. This process occurs even though there's no outbound spam filter rule (sender filters) associated with the policy. Creating custom policies with stricter settings than the Default policy enables organizations to increase the effectiveness of its outbound spam filtering. However, creating custom policies isn't required if organizations are comfortable with the Default policy settings."
   - content: "What does URL detonation do?"
     choices:
     - content: "If the URL is malicious, it redirects the user to a secure server where the site can be safely viewed"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't what URL detonation does. Try again."
+      explanation: "Incorrect. This action isn't what URL detonation does."
     - content: "If the URL is malicious, it quarantines the URL so that any future links to that URL blow up and return an error"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't what URL detonation does. Try again."
+      explanation: "Incorrect. This action isn't what URL detonation does."
     - content: "Protects users in the event a URL points to a malicious file on a web site"
       isCorrect: true
-      explanation: "That's correct. URL detonation combines elements of Safe Links and Safe Attachments into a single feature. This feature is designed to protect users in the event a URL points to a malicious file on a web site."
-  - content: "Patti Fernandez was just hired as the new Enterprise Admin for Lucerne Publishing. Upon reviewing the company's Microsoft 365 deployment, Patti discovered that a number of users appeared on the Restricted users page in the Microsoft 365 Defender portal. What was the likely cause of these users being blocked from sending email?"
+      explanation: "Correct. URL detonation combines elements of Safe Links and Safe Attachments into a single feature. This feature is designed to protect users in the event a URL points to a malicious file on a web site."
+  - content: "Patti Fernandez was recently hired as the new Enterprise Admin for Lucerne Publishing. Upon reviewing the company's Microsoft 365 deployment, Patti discovered that several users appeared on the Restricted users page in the Microsoft 365 Defender portal. What was the likely cause of these users being blocked from sending email?"
     choices:
     - content: "They were using the company's Exchange Online service to send out personal emails"
       isCorrect: false
