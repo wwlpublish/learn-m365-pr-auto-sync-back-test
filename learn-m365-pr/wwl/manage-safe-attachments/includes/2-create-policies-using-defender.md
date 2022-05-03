@@ -27,9 +27,9 @@ To create, modify, and delete Safe Attachments policies, you must be a member of
 
 Creating a custom Safe Attachments policy in Microsoft 365 Defender creates the safe attachment rule and the associated safe attachment policy at the same time using the same name for both.
 
-1.  In the **Microsoft 365 admin center**, select **Show All** in the left-hand navigation pane, and then under **Admin centers**, select **Security**.<br>
-2.  In **Microsoft 365 Defender**, select **Policies &amp; rules** in the left-hand navigation pane.<br>
-3.  On the **Policies &amp; rules** page, select **Threat policies**.<br>
+1.  In the **Microsoft 365 admin center**, select **Show All** in the left-hand navigation pane, and then under **Admin centers**, select **Security**.
+2.  In **Microsoft 365 Defender**, select **Policies &amp; rules** in the left-hand navigation pane.
+3.  On the **Policies &amp; rules** page, select **Threat policies**.
 4.  On the **Threat policies** page, under the **Policies** section, select **Safe Attachments.**
 5.  On the **Safe Attachments** page, select **Create**.
 6.  The **New Safe Attachments policy** wizard opens. On the **Name your policy** page, configure the following settings:

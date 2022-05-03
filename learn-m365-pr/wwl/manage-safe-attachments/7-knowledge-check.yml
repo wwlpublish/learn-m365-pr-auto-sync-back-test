@@ -35,10 +35,10 @@ quiz:
       explanation: "Correct. While ensuring the user is protected, dynamic delivery enables the user to remain productive. It does so by allowing the user to read and respond to the email while the attachment is being scanned."
     - content: "Block"
       isCorrect: false
-      explanation: "Incorrect. Policies configured to block attachments often result in delivery delays that may annoy end users and impact their productivity."
+      explanation: "Incorrect. Policies configured to block attachments often result in delivery delays that may annoy end users and affect their productivity."
     - content: "Replace"
       isCorrect: false
-      explanation: "Incorrect. Policies configured to replace attachments often result in delivery delays that may annoy end users and impact their productivity."
+      explanation: "Incorrect. Policies configured to replace attachments often result in delivery delays that may annoy end users and affect their productivity."
   - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer created a Safe Attachments policy and set the action to \"Dynamic delivery\". What will happen when an email message is received that has an infected attachment?"
     choices:
     - content: "The message is updated with an attachment that tells the recipient the original attachment was infected with malware"
