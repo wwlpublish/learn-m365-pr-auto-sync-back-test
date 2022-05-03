@@ -92,9 +92,9 @@ For example, consider this SMTP transcript:
 
 S: Helo woodgrovebank.com
 S: Mail from: phish@phishing.contoso.com
-S: Rcpt to: astobes@tailspintoys.com
+S: Rcpt to: pfernandez@tailspintoys.com
 S: data
-S: To: "Andrew Stobes" <astobes@tailspintoys.com>
+S: To: "Patti Fernandez" <pfernandez@tailspintoys.com>
 S: From: "Woodgrove Bank Security" <security@woodgrovebank.com>
 S: Subject: Woodgrove Bank - Action required
 S:
