@@ -65,7 +65,9 @@ The following table describes common scenarios for Safe Links in Microsoft 365 a
   :::column:::
     Jean is protected by Safe Links.
 
-Jean is included in a Safe Links policy. Safe Links protection for Office 365 apps is also turned on.For more information about the requirements for Safe Links protection in Office 365 apps, see [Safe Links settings for Office 365 apps](/microsoft-365/security/office-365-security/safe-links?azure-portal=true).
+Jean is included in a Safe Links policy. Safe Links protection for Office 365 apps is also turned on.
+
+For more information about the requirements for Safe Links protection in Office 365 apps, see [Safe Links settings for Office 365 apps](/microsoft-365/security/office-365-security/safe-links?azure-portal=true).
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -73,7 +75,9 @@ Jean is included in a Safe Links policy. Safe Links protection for Office 365 ap
     Chris' Microsoft 365 E5 organization has no Safe Links policies configured. Chris receives an email from an external sender that contains a URL to a malicious website that he ultimately selects.
   :::column-end:::
   :::column:::
-    Chris isn't protected by Safe Links. At least one Safe Links policy must be created for anyone to get Safe Links protection in inbound email messages. Chris must be included in the conditions of a policy to get Safe Links protection.
+    Chris isn't protected by Safe Links. 
+
+At least one Safe Links policy must be created for anyone to get Safe Links protection in inbound email messages. Chris must be included in the conditions of a policy to get Safe Links protection.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -81,7 +85,9 @@ Jean is included in a Safe Links policy. Safe Links protection for Office 365 ap
     In Pat's organization, no admins have created any Safe Links policies. However, Safe Links protection for Office 365 apps is turned on. Pat opens a Word document and selects a URL in the file.
   :::column-end:::
   :::column:::
-    Pat isn't protected by Safe Links. Safe Links protection for Office 365 apps is turned on globally. However, at least one Safe Links policy must be created for anyone to get Safe Links protection. Since no Safe Links policies have been created, Pat isn't eligible for Safe Links protection.
+    Pat isn't protected by Safe Links. 
+    
+Safe Links protection for Office 365 apps is turned on globally. However, at least one Safe Links policy must be created for anyone to get Safe Links protection. Since no Safe Links policies have been created, Pat isn't eligible for Safe Links protection.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -89,7 +95,9 @@ Jean is included in a Safe Links policy. Safe Links protection for Office 365 ap
     In Lee's organization, https://tailspintoys.com is configured in the **Block the following URLs** list in the global settings for Safe Links. A Safe Links policy that includes Lee already exists. Lee receives an email message that contains the URL https://tailspintoys.com/aboutus/trythispage. Lee selects the URL.
   :::column-end:::
   :::column:::
-    The URL may be automatically blocked for Lee; it depends on the URL entry in the list and the email client Lee used. For more information, see ["Block the following URLs" list for Safe Links](/microsoft-365/security/office-365-security/safe-links?azure-portal=true).
+    The URL may be automatically blocked for Lee; it depends on the URL entry in the list and the email client Lee used. 
+    
+For more information, see ["Block the following URLs" list for Safe Links](/microsoft-365/security/office-365-security/safe-links?azure-portal=true).
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -97,7 +105,9 @@ Jean is included in a Safe Links policy. Safe Links protection for Office 365 ap
     Jamie and Julia both work for contoso.com. A long time ago, admins configured Safe Links policies that apply to both Jamie and Julia. Jamie sends an email to Julia, not knowing the email contains a malicious URL.
   :::column-end:::
   :::column:::
-    Julia is protected by Safe Links if the Safe Links policy that applies to her is configured to apply to messages between internal recipients. For more information, see [Safe Links settings for email messages](/microsoft-365/security/office-365-security/safe-links?azure-portal=true).
+    Julia is protected by Safe Links if the Safe Links policy that applies to her is configured to apply to messages between internal recipients. 
+    
+For more information, see [Safe Links settings for email messages](/microsoft-365/security/office-365-security/safe-links?azure-portal=true).
   :::column-end:::
 :::row-end:::
 
