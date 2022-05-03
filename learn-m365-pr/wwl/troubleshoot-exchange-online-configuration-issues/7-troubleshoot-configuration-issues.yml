@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-exchange-online-configuration-issues.troubleshoot-configuration-issues
+title: Troubleshoot Exchange Online configuration issues
+metadata:
+  title: Troubleshoot Exchange Online configuration issues
+  description: "Troubleshoot Exchange Online configuration issues"
+  ms.date: 05/03/2022
+  author: wwlpublish
+  ms.author: dawnhoppe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/7-troubleshoot-configuration-issues.md)]
