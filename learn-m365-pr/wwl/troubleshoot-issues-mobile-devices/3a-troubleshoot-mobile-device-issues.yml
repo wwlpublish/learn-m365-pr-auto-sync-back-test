@@ -13,4 +13,4 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 7
 content: |
-  [!include[](includes/4-troubleshoot-mobile-device-issues.md)]
+  [!include[](includes/3a-troubleshoot-mobile-device-issues.md)]
