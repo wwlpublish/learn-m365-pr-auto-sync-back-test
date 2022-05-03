@@ -54,7 +54,7 @@ Creating a custom Safe Links policy in Microsoft 365 Defender creates the safe l
         
          -  Safe Links scanning is enabled in Outlook (C2R) on Windows.
          -  URLs are rewritten and users are routed through Safe Links protection when they select URLs in messages.
-         -  When selected, URLs are checked against a list of known malicious URLs and the ["Block the following URLs" list](/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide#block-the-following-urls-list-for-safe-links?azure-portal=true).
+         -  When selected, URLs are checked against a list of known malicious URLs and the ["Block the following URLs" list](/microsoft-365/security/office-365-security/safe-links?azure-portal=true).
          -  URLs that don't have a valid reputation are detonated asynchronously in the background.
         
         The following settings are available only if Safe Links scanning is on in email messages:
@@ -69,10 +69,10 @@ Creating a custom Safe Links policy in Microsoft 365 Defender creates the safe l
      -  **Track user clicks**. Enables or disables storing Safe Links selection data for URLs that are selected in email messages. The recommend value is to leave this setting selected (track user clicks).
         
         URL selection tracking for links in email messages sent between internal senders and internal recipients is currently not supported.
-     -  **Let users click through to the original URL**. Allows or blocks users from clicking through the [warning page](/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide#warning-pages-from-safe-links?azure-portal=true) to the original URL. The recommend value is disabled.
+     -  **Let users click through to the original URL**. Allows or blocks users from clicking through the [warning page](/microsoft-365/security/office-365-security/safe-links?azure-portal=true) to the original URL. The recommend value is disabled.
      -  **Display the organization branding on notification and warning pages**. This option shows your organization's branding on warning pages. Branding helps users identify legitimate warnings, because default Microsoft warning pages are often used by attackers. For more information about customized branding, see [Customize the Microsoft 365 theme for your organization](/microsoft-365/admin/setup/customize-your-organization-theme?azure-portal=true).
         
-        For more information about the recommended values for Standard and Strict policy settings for Safe Links policies, see [Safe Links policy settings](/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365?view=o365-worldwide#safe-links-policy-settings?azure-portal=true).
+        For more information about the recommended values for Standard and Strict policy settings for Safe Links policies, see [Safe Links policy settings](/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365?azure-portal=true).
      -  **Recipient filters**. You need to specify the recipient conditions and exceptions that determine who the policy applies to. You can use these properties for conditions and exceptions:
         
          -  **The recipient is.**
