@@ -20,8 +20,8 @@ The following anti-spoofing technologies are available in EOP:
      -  Turn unauthenticated sender identification in Outlook on or off.
      -  Specify the action for blocked spoofed senders.
     
-    Anti-phishing policies in Microsoft Defender for Office 365 contain other protections, including impersonation protection. For more information, see [Exclusive settings in anti-phishing policies in Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/set-up-anti-phishing-policies?view=o365-worldwide#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365?azure-portal=true).<br>
- -  **Spoof detections report**. For more information, see [Spoof Detections report](/microsoft-365/security/office-365-security/view-email-security-reports?view=o365-worldwide#spoof-detections-report?azure-portal=true).
+    Anti-phishing policies in Microsoft Defender for Office 365 contain other protections, including impersonation protection. For more information, see [Exclusive settings in anti-phishing policies in Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/set-up-anti-phishing-policies?azure-portal=true).<br>
+ -  **Spoof detections report**. For more information, see [Spoof Detections report](/microsoft-365/security/office-365-security/view-email-security-reports?azure-portal=true).
     
     Microsoft Defender for Office 365 organizations can also use Real-time detections (Plan 1) or Threat Explorer (Plan 2) to view information about phishing attempts. For more information, see [Microsoft 365 threat investigation and response](/microsoft-365/security/office-365-security/office-365-ti?azure-portal=true).
 
@@ -77,7 +77,7 @@ Microsoft differentiates between two different types of spoofed messages:
         
         Spaces are used in the email addresses to prevent spambot harvesting.
     
-    Messages that fail [composite authentication](/microsoft-365/security/office-365-security/email-validation-and-authentication?view=o365-worldwide#composite-authentication?azure-portal=true) due to intra-org spoofing contain the following header values:
+    Messages that fail [composite authentication](/microsoft-365/security/office-365-security/email-validation-and-authentication?azure-portal=true) due to intra-org spoofing contain the following header values:
     
     Authentication-Results: ... compauth=fail reason=6xx
 X-Forefront-Antispam-Report: ...CAT:SPOOF;...SFTY:9.11
