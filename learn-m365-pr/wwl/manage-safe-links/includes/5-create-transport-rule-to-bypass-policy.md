@@ -1,8 +1,8 @@
 You can create a transport rule to bypass Safe Links just like you could to bypass Safe Attachments. To understand how you create a transport rule that bypasses scanning, review the following steps:
 
 1.  Open a browser and navigate to the Microsoft 365 portal.
-2.  On the **Microsoft 365 Home** page, select the **Admin** icon to open the Microsoft 365 Admin center.
-3.  On the **Microsoft 365 Admin center**, in the left-hand navigation pane, select **Show all.**
+2.  On the **Microsoft 365 Home** page, select the **Admin** icon to open the Microsoft 365 admin center.
+3.  In the **Microsoft 365 admin center**, in the left-hand navigation pane, select **Show all.**
 4.  In the left-hand navigation pane, under the **Admin centers** group, select **Exchange**.
 5.  In the **Exchange admin center (EAC),** select **mail flow** in the left-hand navigation pane.
 6.  On the **mail flow** page, the **rules** tab is displayed by default.
