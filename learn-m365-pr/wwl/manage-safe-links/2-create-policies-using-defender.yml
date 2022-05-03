@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Lucerne Publishing, Allan Deyoung wants to implement Safe Links in Microsoft Defender for Office 365. Allan prefers to use the Microsoft 365 Defender portal rather than PowerShell to implement Safe Links. Using the Microsoft 365 Defender portal, what must Allan do to implement Safe Links scanning of URLs at Lucerne Publishing?"
+  - content: "As the Enterprise Administrator for Lucerne Publishing, Allan Deyoung wants to implement Safe Links in Microsoft Defender for Office 365. Allan plans to use the Microsoft 365 Defender portal to implement Safe Links. What must Allan do to implement Safe Links scanning of URLs at Lucerne Publishing?"
     choices:
     - content: "Create a Safe Links rule"
       isCorrect: false
