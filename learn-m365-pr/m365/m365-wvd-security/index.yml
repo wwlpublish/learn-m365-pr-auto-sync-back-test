@@ -9,12 +9,13 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: "Secure an Azure Virtual Desktop deployment"
-summary: Introduction to Microsoft security capabilities that can help keep your applications and data secure in your Azure Virtual Desktop deployment.
+summary: Learn about the Microsoft security capabilities that help keep your applications and data secure in your Microsoft Azure Virtual Desktop deployment.
 abstract: |
   After completing this module, you'll be able to:
   - Secure the user identity that can access the Azure Virtual Desktop environment.
   - Use AppLocker to secure the accessed desktop.
 prerequisites: |
+  - An Azure account with an [active subscription](https://azure.microsoft.com/free)
   - Intermediate knowledge of Microsoft Azure services such as core Azure compute, storage, networking, and virtualization technologies.
   - Intermediate knowledge of Azure operational concepts, such as monitoring, logging, and alerting.
   - Familiarity with Azure Virtual Desktop.
