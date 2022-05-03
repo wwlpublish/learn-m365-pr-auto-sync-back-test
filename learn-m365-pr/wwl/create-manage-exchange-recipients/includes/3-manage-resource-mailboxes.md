@@ -60,7 +60,7 @@ When managing a resource mailbox through the EAC, you can configure the followin
     Contact information
   :::column-end:::
   :::column:::
-    Add street, Zip/post code, city, and so on if necessary.
+    Add street, Zip/post code, city, and so on, if necessary.
   :::column-end:::
 :::row-end:::
 :::row:::
