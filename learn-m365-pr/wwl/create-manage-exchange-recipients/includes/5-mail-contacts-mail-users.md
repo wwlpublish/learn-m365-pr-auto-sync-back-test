@@ -169,7 +169,7 @@ Import-Csv .\ExternalContacts.csv| foreach{New-MailContact -Name $\_.Name -Displ
 
 If you want to create mail users, you must exchange the **New-MailContact** cmdlet with **New-MailUser**.
 
-**Additional reading.** For detailed instructions on how to bulk import contacts and to view a sample CSV file that you can use to import contacts, see [Bulk import external contacts to Exchange](/microsoft-365/compliance/bulk-import-external-contacts?azure-portal=true).
+**Further reading.** For detailed instructions on how to bulk import contacts and to view a sample CSV file that you can use to import contacts, see [Bulk import external contacts to Exchange](/microsoft-365/compliance/bulk-import-external-contacts?azure-portal=true).
 
 ### Hide contacts
 
