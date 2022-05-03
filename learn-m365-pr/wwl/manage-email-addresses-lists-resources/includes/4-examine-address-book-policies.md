@@ -10,12 +10,12 @@ In Exchange, you can use address-book policies (ABPs) to configure GAL segmentat
  -  One room list
  -  One or more address lists
 
-You can then assign the address-book policy to mailbox users. By doing so, the users can only see the objects in the GAL that are part of their policy.<br>
+You can then assign the address-book policy to mailbox users. By doing so, the users can only see the objects in the GAL that are part of their policy.
 
 > [!WARNING]
 > ABPs provide a virtual GAL segmentation and not a legal separation. As such, users may sometimes be aware of other recipients in the organization that aren't part of their address-book policy. For example, a distribution group that's included in the ABP may include recipients from another ABP. If one of those recipients has an out-of-office message configured, the out-of-office message will be sent to anyone who sends an email to the distribution group.
 
-The following diagram shows how ABPs work. The user is assigned “Address Book Policy A”, which has the following components: Global address list “GAL1”, OAB “OAB B”, Room address list “RMAL1” and Address lists “AL1”, “AL2”, “AL5” and “AL6”.<br>
+The following diagram shows how ABPs work. The user is assigned “Address Book Policy A”, which has the following components: Global address list “GAL1”, OAB “OAB B”, Room address list “RMAL1” and Address lists “AL1”, “AL2”, “AL5” and “AL6”.
 
 When the ABP is created and assigned to the user, the ABP becomes the scope of the address lists that the user can view. APBs take effect when a user connects to their Exchange Mailbox. If you modify an ABP, the updated APB will be applied to a user when the user restarts or reconnects their email client app.
 
@@ -40,7 +40,7 @@ ABP configuration tasks include the following steps that can be completed in eit
     Set-Mailbox -Identity laura@contoso.com -AddressBookPolicy " Address Book Policy A"
     ```
 
-You can also use a list of specific mailboxes, or you can filter mailboxes by different attributes to assign an ABP to multiple user mailboxes.<br>
+You can also use a list of specific mailboxes, or you can filter mailboxes by different attributes to assign an ABP to multiple user mailboxes.
 
  -  Change an ABP's settings. For example, if you want to replace the “OAB B” address book with “OAB A” in ABP “Address Book Policy A”, you would run the following command:
     
