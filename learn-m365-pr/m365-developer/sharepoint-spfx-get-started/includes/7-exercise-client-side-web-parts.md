@@ -54,12 +54,12 @@ Use the following to complete the prompt that is displayed:
 * **What is your Web part name?**: HelloWorld
 * **Which framework would you like to use?**: No framework
 
-After provisioning the folders required for the project, the generator will install all the dependency packages using NPM.
+After provisioning the folders required for the project, the generator will install all the dependency packages using npm.
 
-When NPM completes downloading all dependencies, install the developer certificate by executing the following command:
+When npm completes downloading all dependencies, install the developer certificate by executing the following command:
 
 ```console
-gulp trust-dev-cert
+gulp trust-dev-certnpm
 ```
 
 Run the project by executing the following command:
