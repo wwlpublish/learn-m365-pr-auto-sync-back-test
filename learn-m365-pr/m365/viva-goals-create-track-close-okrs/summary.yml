@@ -4,12 +4,12 @@ title: Summary
 metadata:
   unitType: summary
   title: Summary
-  description: ""
+  description: OKR's can help to create and align objectives, key results and projects.
   ms.date: 04/28/2022
   author: rasanders
   ms.author: rasanders
   ms.topic: interactive-tutorial
-  ms.prod: learning-azure # Edit as appropriate for your portfolio area
+  ms.prod: learning-m365
 durationInMinutes: 1
 content: |
   [!include[](includes/summary.md)]
