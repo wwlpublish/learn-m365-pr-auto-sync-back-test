@@ -126,7 +126,7 @@ To uninstall an extension from tenant wide deployment, delete the extension's en
 |        Column        |  Type   |                                                        Description                                                         |
 | -------------------: | :-----: | -------------------------------------------------------------------------------------------------------------------------- |
 |                Title | string  | Title of the entry. Can be descriptive entry for the registration. Doesn't have to match anything, just for your reference |
-|         Component ID |  GUID   | Manifest ID of the component. Has to be in GUID format and component must exists in the App Catalog.                       |
+|         Component ID |  GUID   | Manifest ID of the component. Has to be in GUID format and component must exist in the App Catalog.                       |
 | Component Properties | string  | Optional component properties.                                                                                             |
 |         Web Template | string  | Can be used to target extension only to specific web templates.                                                            |
 |        List Template |   int   | List type as a number.                                                                                                     |
