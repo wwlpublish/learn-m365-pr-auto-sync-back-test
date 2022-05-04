@@ -16,7 +16,7 @@ Use the following to complete the prompt that is displayed (*if more options are
 - **What is your Web part name?**: Deployment Demo
 - **Which framework would you like to use?**: No framework
 
-After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, open the project folder in **Visual Studio Code**.
+After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When npm completes downloading all dependencies, open the project folder in **Visual Studio Code**.
 
 ## Disable tenant wide deployment
 
@@ -24,7 +24,7 @@ For the exercises in this module, you'll be manually adding the app contained in
 
 Locate and open the **./config/package-solution.json** file. Verify the `solution` object has a property named `skipFeatureDeployment` and ensure that the value of this property is set to **false**.
 
-## Create a deployment package for the project
+## Crnpme a deployment package for the project
 
 Build the project by running the following command on the command line from the root of the project:
 
