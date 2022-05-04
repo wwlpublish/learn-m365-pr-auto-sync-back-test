@@ -7,3 +7,4 @@ This module also examined how Outlook users can download an offline copy of the 
 The module also explored how address book policies (ABPs) allow you to segment users and provide customized views of the organization's global address list. ABPs are used in scenarios when two separate companies work in a single Exchange organization, and each of those two companies need to access only their own address lists. ABPs may be also used in schools, where students in each class need to see only the other students in their own class, including the teacher and the principal.
 
 Because many messaging systems host multiple SMTP domains, messaging administrators must manage the email addresses assigned to the Exchange recipients. Because each recipient must have the appropriate email addresses, you can configure multiple domains in Exchange Server and create and apply email address policies that define the email address’ format.
+
