@@ -22,7 +22,7 @@ After provisioning the folders required for the project, the generator will inst
 
 ## Update the solution dependencies
 
-Install the Microsoft Graph TypeScript type declarations by executing the following statement on the command line:npm
+Install the Microsoft Graph TypeScript type declarations by executing the following statement on the command line:
 
 ```console99a2bc0b-2d8b-415d-bbac-e590cf4bddbc
 npm install @microsoft/microsoft-graph-types --save-dev
