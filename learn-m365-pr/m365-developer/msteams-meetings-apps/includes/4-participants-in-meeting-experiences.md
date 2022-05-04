@@ -8,11 +8,11 @@ In this unit, learn how to use the Microsoft Teams SDK to determine the current 
 
 Developers can conditionally show different content in custom meeting apps based on the current lifecycle of the meeting. The different lifecycle options include:
 
-- **pre-meeting**: This experience is shown in the meeting details as a tab before the meeting starts or concludes.
-- **in-meeting**: This experience is shown in the meeting's side-panel or stage as a tab when a meeting is in process.
-- **post-meeting**: This experience is shown in the meeting details as a tab after the meeting starts or concludes.
+- **pre-meeting**: The pre-meeting experience is shown in the meeting details as a tab before the meeting starts or concludes.
+- **in-meeting**: The in-meeting experience is shown in the meeting's side-panel or stage as a tab when a meeting is in process.
+- **post-meeting**: The post-meeting experience is shown in the meeting details as a tab after the meeting starts or concludes.
 
-The **in-meeting** lifecycle is only implemented in the meetings side-panel or meeting stage as those are only available when the meeting is currently in process.
+The **in-meeting** lifecycle is only implemented in the meetings side-panel or meeting stage that are only available when the meeting is currently in process.
 
 However, the **pre-meeting** and **post-meeting** experiences are determined by checking the time of the meeting.
 
@@ -44,7 +44,7 @@ Meeting apps can be rendered in the following locations:
 
 The current meeting context is available to developers using the Microsoft Teams `context` object that's passed into custom apps. The `context` object contains a property, `frameContext`, that's set to one of the three values for meeting apps.
 
-The Yeoman generator for Microsoft Teams includes the NPM package [msteams-react-base-component](https://www.npmjs.com/package/msteams-react-base-component) that contains a React hook `useTeams()` based on the Microsoft Teams JavaScript SDK.
+The Yeoman generator for Microsoft Teams includes the npm package [msteams-react-base-component](https://www.npmjs.com/package/msteams-react-base-component) that contains a React hook `useTeams()` based on the Microsoft Teams JavaScript SDK.
 
 In your meeting app tab, use this React hook to get the tab's current context:
 

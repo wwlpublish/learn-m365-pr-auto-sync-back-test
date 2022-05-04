@@ -3,7 +3,7 @@ uid: learn-m365.msteams-meetings-apps.7-exercise-post-meeting-experience
 metadata:
   title: Exercise - Implement a post-meeting experience for attendees
   description: In this exercise, you'll improve on the existing Microsoft Teams meetings app by implementing the post-meeting experience. The tab in the meeting will display the presentations delivered during the meeting and include the resources for each of the presentations that were submitted by the presenter in the pre-meeting experience.
-  ms.date: 02/04/2022
+  ms.date: 05/04/2022
   author: andrewconnell-msft
   ms.author: v-johnco
   ms.topic: interactive-tutorial
@@ -31,7 +31,7 @@ quiz:
       explanation: "Correct!"
   - content: "Why would you use a bot in a meeting app?"
     choices:
-    - content: "Bots can be used to determine the current meeting context, where tabs cannot."
+    - content: "Bots can be used to determine the current meeting context, where tabs can't."
       isCorrect: false
       explanation: "This isn't correct because tabs can use the current Microsoft Teams context using the Microsoft Teams JavaScript SDK."
     - content: "Bots can be used to respond to specific meeting events, such as when a meeting starts or ends."

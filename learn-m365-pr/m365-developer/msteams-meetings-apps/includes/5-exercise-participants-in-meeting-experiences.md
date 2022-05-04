@@ -62,7 +62,7 @@ const toggleStandupTopicStatus = (targetTopicId: string): void => {
 
 ### Update the user experience
 
-Let's now update the user experience. When the user isn't the meeting organizer, the current experience will not change.
+Let's now update the user experience. When the user isn't the meeting organizer, the current experience won't change.
 
 However, if the current user is the organizer, when they select a single topic from the list, they should see a new toolbar action to toggle the status of the topic.
 
