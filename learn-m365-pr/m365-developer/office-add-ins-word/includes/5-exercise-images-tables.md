@@ -447,7 +447,7 @@ Complete the following steps to define the image that you'll insert into the doc
     }
     ```
 
-1. Within the `insertTable()` function, replace `TODO1` with the following code. This line uses the `ParagraphCollection.getFirst()` method to get a reference ot the first paragraph and then uses the `Paragraph.getNext()` method to get a reference to the second paragraph.
+1. Within the `insertTable()` function, replace `TODO1` with the following code. This line uses the `ParagraphCollection.getFirst()` method to get a reference to the first paragraph and then uses the `Paragraph.getNext()` method to get a reference to the second paragraph.
 
     ```javascript
     var secondParagraph = context.document.body.paragraphs.getFirst().getNext();
