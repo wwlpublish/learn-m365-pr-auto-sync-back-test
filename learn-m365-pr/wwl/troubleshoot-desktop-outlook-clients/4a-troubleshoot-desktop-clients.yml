@@ -13,4 +13,4 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 11
 content: |
-  [!include[](includes/5-troubleshoot-desktop-clients.md)]
+  [!include[](includes/4a-troubleshoot-desktop-clients.md)]
