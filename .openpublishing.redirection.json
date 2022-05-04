@@ -2884,6 +2884,26 @@
       "source_path": "learn-m365-pr/wwl/harness-business-intelligence-with-microsoft-365-analytics-reporting/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/describe-analytics-capabilities-microsoft-365/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/troubleshoot-exchange-online-configuration-issues/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/troubleshoot-exchange-online-configuration-issues/8-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/troubleshoot-exchange-online-configuration-issues/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/troubleshoot-exchange-online-configuration-issues/9-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/troubleshoot-problems-mail-flow/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/troubleshoot-problems-mail-flow/7-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/troubleshoot-problems-mail-flow/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/troubleshoot-problems-mail-flow/8-summary",
+      "redirect_document_id": true
     }
   ]
 }
