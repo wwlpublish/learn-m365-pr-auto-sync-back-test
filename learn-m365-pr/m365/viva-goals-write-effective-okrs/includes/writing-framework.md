@@ -1,4 +1,4 @@
-The formula for a solid OKR framework is: I will **OBJECTIVE** as measured by **KEY RESULTS** via **KEY INITIATIVES AND PROJECTS**.
+The formula for a solid OKR framework is: I will *OBJECTIVE* as measured by *KEY RESULTS* via *KEY INITIATIVES AND PROJECTS*.
 
 :::image type="content" source="../media/okr-formula.jpg" alt-text="Image showing the formula for a solid OKR framework.":::
 
