@@ -132,7 +132,7 @@ Custom components can access the following properties on the page context:
 - web title
 - web absolute URL
 - web server-relative URL
-- current user sign in name
+- current user sign-in name
 
 ![Figure showing the page context](../media/05-web-part-01.png)
 
