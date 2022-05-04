@@ -1,4 +1,4 @@
-When an organization moves mailboxes or public folders, the back-end process that handles the data move is the Mailbox Replication Service (MRS). MRS also handles importing and exporting of .PST files. Organizations typically troubleshoot MRS when they have issues moving mailboxes or public folders. They may also troubleshoot MRS when move performance is poor.<br>
+When an organization moves mailboxes or public folders, the back-end process that handles the data move is the Mailbox Replication Service (MRS). MRS also handles importing and exporting of .PST files. Organizations typically troubleshoot MRS when they have issues moving mailboxes or public folders. They may also troubleshoot MRS when move performance is poor.
 
 The default MRS settings are sufficient for most organizations. The default settings enable Exchange Server to lower the priority for mailbox and public folder moves, mostly when the server is under heavy load from other activities. In some cases, MRS can stop all current mailbox and public folder moves until the server has adequate resources to handle the moves.
 
@@ -8,7 +8,7 @@ Message throttling refers to a group of limits that are set on the number of mes
 
 Exchange Server uses dynamic message throttling. However, you can disable dynamic throttling and instead customize message throttling by adjusting several settings, which are maintained in the MRS config file, MsExchangeMailboxReplication.exe.config.
 
-The following screenshot displays the MsExchangeMailboxReplication.exe.config file. This file is stored in the %ExchangeInstallPath%\\Bin folder.<br>
+The following screenshot displays the MsExchangeMailboxReplication.exe.config file. This file is stored in the %ExchangeInstallPath%\\Bin folder.
 
 :::image type="content" source="../media/exchange-mailbox-replication-2ea72e58.png" alt-text="Screenshot displaying the file that controls the throttling settings. The file is named Microsoft Exchange Mailbox Replication dot exe dot config.":::
 
