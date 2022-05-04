@@ -297,11 +297,11 @@ gulp package-solution --ship
 
 In the browser, navigate to your SharePoint Online's tenant **App Catalog** site.
 
-Microsoft is in the process of transitioning from the classic app catalog user experience to a modern app catalog user experience. If you see the classic app catalog, you can select the **Try the new Manage Apps page** link displayed at the top of the page, or you can add **/_layouts/15/tenantAppCatalog.aspx** to the end of the app catalog site URL. Either option should take you to the modern app catalog (i.e. the **Manage Apps** page).
+Microsoft is in the process of transitioning from the classic app catalog user experience to a modern app catalog user experience. If you see the classic app catalog, you can select the **Try the new Manage Apps page** link displayed at the top of the page, or you can add **/_layouts/15/tenantAppCatalog.aspx** to the end of the app catalog site URL. Either option should take you to the modern app catalog (that is, the **Manage Apps** page).
 
-![Screenshot of the classic app catalog](../media/03-classic-app-catalog.png)
+![Screenshot of the classic app catalog.](../media/03-classic-app-catalog.png)
 
-![Screenshot of the modern app catalog](../media/03-modern-app-catalog.png)
+![Screenshot of the modern app catalog.](../media/03-modern-app-catalog.png)
 
 Drag the generated **./sharepoint/solution/sp-fx-app-customizer.sppkg** file into the **Apps for SharePoint** list.
 
@@ -315,7 +315,7 @@ Select **More features** in the left-hand navigation and then select the **Open*
 
 Notice the application customizer is present, with the specified properties, in the list:
 
-![Screenshot displaying the Tenant Wide Extensions list](../media/03-application-customizer-tenant-wide-deploy-02.png)
+![Screenshot displaying the Tenant Wide Extensions list.](../media/03-application-customizer-tenant-wide-deploy-02.png)
 
 In a separate browser window, navigate to any modern page in any modern site within your SharePoint Online tenant. You should see the extension appear in the tenant.
 
