@@ -61,8 +61,8 @@ The following steps explain a default message transfer between Exchange Server a
 5.  The Exchange server uses the Default SERVERNAME connector to receive the message.
 6.  The Exchange server then delivers the message to the appropriate Mailbox database.
 
-> [!NOTE]
-> You can modify the default message flow by creating other SMTP connectors. For example, you may need to create a new SMTP Send connector to send email to a specific destination domain. To do so, you must create a new Send connector, and then configure the destination domain name as the address space for the connector. You must then configure the connector to support the unique message-routing requirements for messages sent to the domain.
+       > [!NOTE]
+       > You can modify the default message flow by creating other SMTP connectors. For example, you may need to create a new SMTP Send connector to send email to a specific destination domain. To do so, you must create a new Send connector, and then configure the destination domain name as the address space for the connector. You must then configure the connector to support the unique message-routing requirements for messages sent to the domain.
 
 ### Mail flow for hybrid deployments
 
