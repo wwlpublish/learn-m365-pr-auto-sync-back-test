@@ -30,9 +30,9 @@ Let's look at how requests to Azure AD secured resources are handled by the Shar
 
 Permission requests to REST APIs, also known as *resources*, are granted to an Azure AD app provisioned in every SharePoint Online tenant: **SharePoint Online Client Extensibility Web Application Principal**.
 
-When you grant a permission request for a specific resource, such as Microsoft Graph, to the **SharePoint Online Client Extensibility Web Application Principal** app, you're granting that entire SharePoint Online tenant the permission. Its important to understand that this permission grant isn't unique to the site or to the SharePoint Framework component; the permission grant applies to the *entire SharePoint Online tenant*.
+When you grant a permission request for a specific resource, such as Microsoft Graph, to the **SharePoint Online Client Extensibility Web Application Principal** app, you're granting that entire SharePoint Online tenant the permission. It's important to understand that this permission grant isn't unique to the site or to the SharePoint Framework component; the permission grant applies to the *entire SharePoint Online tenant*.
 
-Also, its important to understand that permissions aren't tied to SharePoint Framework apps. SharePoint Framework solutions and apps can be deployed, installed, added, and removed to or from pages without approving or revoking permission requests.
+Also, it's important to understand that permissions aren't tied to SharePoint Framework apps. SharePoint Framework solutions and apps can be deployed, installed, added, and removed to or from pages without approving or revoking permission requests.
 
 ### Grant permissions to SharePoint Online
 
@@ -78,7 +78,7 @@ After SharePoint Framework package has been added to the App Catalog, let's look
 
 At the bottom of the figure above, the tenant administrator grants the permissions (also known as *scopes*), to the SharePoint Online tenant. This is done from the API Management page in the SharePoint Admin Center.
 
-Once the permission request is granted, the SharePoint Framework component will ask SharePoint Online for an access token for the specified resource. The SharePoint Online, in conjunction with Azure AD, will validate the permission for the specified resource has been granted to that SharePoint Online tenant and return an access token. The SharePoint Framework will then submit a request to the REST API and include the access token in the `authorization` HTTP request header.
+Once the permission request is granted, the SharePoint Framework component will ask SharePoint Online for an access token for the specified resource. The SharePoint Online, with Azure AD, will validate the permission for the specified resource has been granted to that SharePoint Online tenant and return an access token. The SharePoint Framework will then submit a request to the REST API and include the access token in the `authorization` HTTP request header.
 
 The Azure AD secured resource will verify the `authorization` HTTP request header before passing to the REST API. From this point, the HTTP request continues like normal, processing the request and sending the response back to the SharePoint Framework component.
 
@@ -120,19 +120,22 @@ aadClient.get(endpoint, AadHttpClient.configurations.v1)
 
 ## Add SharePoint packages to the SharePoint App Catalog
 
-When an administrator deploys the SharePoint Framework component to the tenant App Catalog, they're presented with an additional message in the trust dialog prompt:
+> [!NOTE]
+> What's been referred to as **permission** requests above, are referred to as **API access** requests in the user interface for the app catalog and the SharePoint Admin Center. You can consider permission requests and API access requests to be synonymous. The term API access requests will be used for the remainder of this unit.
 
-![Screenshot of the trust dialog](../media/05-azure-ad-add-package-01.png)
+When an administrator deploys the SharePoint Framework component to the tenant App Catalog, they're presented with information about API access requests in the **Enable app** panel:
 
-This message instructs the administrator this solution contains permission requests that should be reviewed and approved or rejected. Recall that permissions aren't tied to the SharePoint Framework package. Approving or rejecting the permissions is a separate step that must be done in order for the SharePoint Framework component to work.
+![Screenshot of the trust dialog](../media/05-enable-app-01.png)
 
-### Approve or reject permission requests from the SharePoint Admin Center
+This section of the panel lists the API access requests that should be reviewed and approved or rejected. Recall that API access requests aren't tied to the SharePoint Framework package. Approving or rejecting the API access requests is a separate step that must be done in order for the SharePoint Framework component to work.
 
-To approve or reject permission requests, navigate to the **API access** page in the **SharePoint Admin Center**. Here you'll find a list of permission requests pending approval or rejection:
+### Approve or reject API access requests from the SharePoint Admin Center
 
-![Screencast of the API management page in the SharePoint Admin Center](../media/sharepoint-admin-portal-01.png)
+To approve or reject API access requests, navigate to the **API access** page in the SharePoint Admin Center. Here you'll find a list of API access requests pending approval or rejection:
 
-Select the permission request to view its details and use the buttons at the bottom of the panel to approve or reject the request:
+![Screencast of the API management page in the SharePoint Admin Center](../media/sharepoint-admin-portal-02.png)
+
+Select the API access request to view its details and use the buttons at the bottom of the panel to approve or reject the request:
 
 ![Screencast of the API management page in the SharePoint Admin Center - Approve/Decline access request dialog](../media/sharepoint-admin-portal-03.png)
 
