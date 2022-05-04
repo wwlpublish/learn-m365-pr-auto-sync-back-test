@@ -1,21 +1,21 @@
 The formula for a solid OKR framework is: I will **OBJECTIVE** as measured by **KEY RESULTS** via **KEY INITIATIVES AND PROJECTS**.
 
-:::image type="content" source="../media/OKR-Formula.jpg" alt-text="Image showing the formula for a solid OKR framework.":::
+:::image type="content" source="../media/okr-formula.jpg" alt-text="Image showing the formula for a solid OKR framework.":::
 
 To establish a strong framework and propel your business in new, exciting directions, you need to master each element; the Objective, Key Result, and Key Initiatives/Projects. Each element has unique traits designed to unlock focus, alignment, tracking, transparency, and stretch.
 
-We like to think that writing great OKRs is a little like writing a great book. It's a 2-part process.
+We like to think that writing great OKRs is a little like writing a great book. It's a two-part process.
 
 - Step 1 is to write
 - Step 2 is to edit
 
 To make things easier, while you're writing, you can start with a simple formula, and while you're editing, it's about asking the right questions.
 
-### Writing
+## Writing
 
 This is a process that requires patience and writing great OKRs gets easier over time. In fact, it might take several quarters to get right, and that is okay.
 
-#### Writing Objectives
+### Writing objectives
 
 Let's start with an Objective. Remember that Objectives ask, "Where do I want to go?" and the answers should be actionable, aspirational, and meaningful. To make things easier, while you're writing an Objective, you can start with a simple formula, such as the one below created by Paul Niven.
 
@@ -29,36 +29,36 @@ The verb is your **action**, what you're going to do is your **aspiration**, and
 
 A filled-out formula for an Objective may look like this:
 
-:::image type="content" source="../media/Objectives-Traits-Example.jpg" alt-text="Image showing the completed formula for an Objective.":::
+:::image type="content" source="../media/objectives-traits.jpg" alt-text="Image showing the completed formula for an Objective.":::
 
 - Expand into Latin America in order to increase our product market share.
   - **Action**: Expand.
   - **Aspiration**: Latin America.
   - **Meaning**: Increase our product market share.
 
-#### Writing Key Results
+### Writing key results
 
 Now let's write some Key Results. Remember that Key Results ask, "How will we know we're getting there?" Key Results are outcomes and should be focused, measurable, and ambitious. To make things easier, while you're writing a Key Result, you can start with a formula, such as the one below also created by Paul Niven.
 
 - Verb + what you want to track or count + from X to Y = Key Result
 
-The verb is your action, what you are going to track or count is your area of **focus**, the X to Y is your **measure**, and the difference between the X and Y is the level of **ambition** you are trying to achieve.
+The verb is your action, what you are going to track or count is your area of **focus**, the X to Y is your **measure**, and the difference between the X and Y is the level of **ambition** you're trying to achieve.
 
-- **Focus**: The metric you want to measure. Examples include: CSAT score, new hires, knowledge base articles, video views, etc..
-- **Measure**: The starting point and ending point you are hoping to achieve. Examples include: increasing from 80% to 95%, decreasing from 10 to 5, etc.
+- **Focus**: The metric you want to measure. Examples include: CSAT score, new hires, knowledge base articles, video views, etc.
+- **Measure**: The starting point and ending point you're hoping to achieve. Examples include: increasing from 80% to 95%, decreasing from 10 to 5, etc.
 - **Ambition**: The amount of stretch being applied to this metric. The level of ambition is based on the difference between your starting measure and ending measure.
-  - **Note about ambition**: the level of ambition is very contextual. Something that may be a stretch for one department might not be a stretch for another. A good rule of thumb here is that you should feel scared/uncertain that you can reach 100% of this stretch.
+  - **Note about ambition**: the level of ambition is contextual. Something that may be a stretch for one department might not be a stretch for another. A good rule of thumb here's that you should feel scared/uncertain that you can reach 100% of this stretch.
 
 A filled-out formula for Key Result may look like:
 
-:::image type="content" source="../media/Key-Results-Traits-Example.jpg" alt-text="Image showing the completed formula for Key Result.":::
+:::image type="content" source="../media/key-results-traits.jpg" alt-text="Image showing the completed formula for Key Result.":::
 
 - Increase our CSAT score from 80% to 95%
   - **Focus**: CSAT Score.
   - **Measure**: 80% to 95%.
   - **Ambition**: 15% difference.
 
-#### Writing Key Initiatives/Projects
+### Writing Key Initiatives/Projects
 
 To wrap things up, let's write some Key Initiatives/Projects. Remember that Key Initiatives/Projects ask, "What do we have to do to get there?" Key Initiatives/Projects are outputs and result in a list of tasks that need to be completed.
 
@@ -69,11 +69,11 @@ The verb + output is name of your **Key Initiative/Project**, and the X, Y, Z is
 To achieve my Key Result, I need to do a **Key Initiative/Project** which is comprised of tasks **A, B, C, etc.**
 
 - **Key Initiative/Project**: Title for the group of tasks that need to be completed. Examples include: Launch a mobile version of our product, Create new video content, etc.
-- **A, B, C, etc**: The list of activities that need to happen. Examples include: Write, Record, Edit, Review, Submit, etc.
+- **A, B, C, etc.**: The list of activities that need to happen. Examples include: Write, Record, Edit, Review, Submit, etc.
 
 A filled-out checklist for a Key Initiative/Project may look like:
 
-:::image type="content" source="../media/OKR-Example.jpg" alt-text="Image showing a completed checklist for a Key Initiative/Project.":::
+:::image type="content" source="../media/example-okr.jpg" alt-text="Image showing a completed checklist for a Key Initiative/Project.":::
 
 - **O**: Empower customers to use Viva Goals to easily and effectively manage their OKRs
   - **KR**: Increase users who go through digital training from 0 to 3000
@@ -84,7 +84,7 @@ A filled-out checklist for a Key Initiative/Project may look like:
       - Render video
       - Upload to LMS
 
-### Editing
+## Editing
 
 Now that you've got your creative juices flowing, and after you've sketched out a first draft of your OKRs, here are our suggested editing tips:
 
@@ -94,11 +94,11 @@ Now that you've got your creative juices flowing, and after you've sketched out 
 
 Once again, we have two steps to follow: review the OKR superpowers and perform the "Necessary and Sufficient" test.
 
-#### OKR superpowers
+### OKR superpowers
 
 Look at your OKRs and make sure they adhere to the 5 OKR superpowers.
 
-:::image type="content" source="../media/OKR-Superpowers.jpg" alt-text="Image showing the OKR superpowers.":::
+:::image type="content" source="../media/okr-superpowers.jpg" alt-text="Image showing the OKR superpowers - Focus, alignment, tracking, transparency, and stretch.":::
 
 - **Focus**: What OKRs can be eliminated?
 - **Alignment**: Who are the stakeholders you might have forgotten?
@@ -133,17 +133,17 @@ To help answer these questions, let's apply our formula: verb + what you're goin
 
 With this Objective we now have a better understanding of the how, the what, and the why in pursuing this goal. While it still holds on to the intent of making more money, it focuses on one avenue of making money, which will propel us in a specific direction.
 
-Now let's look at 3 Key Results that span multiple departments:
+Now let's look at three Key Results that span multiple departments:
 
-- Increase new product sales from $100k to $1.5m.
+- Increase new product sales from $100K to $1.5M.
 - Increase social media views from 5,000 to 15,000.
 - Increase qualified leads via web form from 50 to 3,000.
 
 Ask - Are these focused, measurable, and ambitious? Yes!
 
 - Each one has a focus: new product sales, social media views, and qualified leads.
-- Each one has a measure: $100k to $1.5m, 5,000 to 15,000, and 50 to 3,000.
-- Each one is ambitious: 3x growth from 5k to 15k, and even more for 100K to 1.5m and 50 to 3,000.
+- Each one has a measure: $100K to $1.5M, 5,000 to 15,000, and 50 to 3,000.
+- Each one is ambitious: 3x growth from 5k to 15k, and even more for $100K to $1.5M and 50 to 3,000.
 
 Next you can look to see if they line up with the OKR superpowers.
 
@@ -159,7 +159,7 @@ Next, we'll move on to the Necessary and Sufficient Test.
 
 - Are all these Key Results *necessary* to achieve our goal?
 
-When we think hard, we realize that increasing our social media views is not necessary to meeting our Objective, so let's remove that one.
+When we think hard, we realize that increasing our social media views isn't necessary to meeting our Objective, so let's remove that one.
 
 - Will accomplishing my Key Results be *sufficient* enough to achieve my Objective?"
 

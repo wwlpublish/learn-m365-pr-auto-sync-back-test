@@ -8,11 +8,9 @@ Let's sum things up.
 
 And remember, this is a process that requires patience, and writing great OKRs gets easier over time.
 
-In this module you learned about how to craft meaningful OKRs that will help propel your organization forward. Now that you have completed this module, you should be able to:
+In this module, you learned about how to craft meaningful OKRs that will help propel your organization forward. Now that you've completed this module, you should be able to:
 
 - Define an Objective, Key Result, and Key Initiative/Project.
 - Identify best practices and common pitfalls when writing OKRs.
 - Learn the framework for crafting an Objective, Key Result, and Key Initiative/Project.
 - Apply the framework to your own Objective, Key Result, and Key Initiative/Project.
-
-**IMPORTANT**: Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.] (https://go.microsoft.com/fwlink/?linkid=2189933)

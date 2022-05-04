@@ -2,15 +2,15 @@
 uid: learn-m365.viva-goals-write-effective-okrs
 metadata:
   moduleType: standard
-  title: viva-goals-write-effective-okrs
-  description: ""
+  title: Write effective OKRs with Viva Goals
+  description: Learn the necessary elements for writing compelling OKRs by learning how to define, write, and edit your OKRs with the aid of a framework.
   ms.date: 04/28/2022
   author: rasanders
   ms.author: rasanders
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: viva-goals-write-effective-okrs
-summary: Learn the necessary elements for writing compelling OKRs by learning how to define, write, and edit your OKRs with the aid of a framework.
+title: Write effective OKRs with Viva Goals
+summary: Learn the necessary elements for writing compelling OKRs by learning how to define, write, and edit your OKRs with the aid of a framework.<br><br>**IMPORTANT** - Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 abstract: |
   By the end of this module, you'll be able to:
     - Define an Objective, Key Result, and Key Initiative/Project
