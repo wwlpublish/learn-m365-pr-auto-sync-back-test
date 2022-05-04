@@ -12,7 +12,7 @@ OAuth connectivity can be tested by running the following PowerShell command:
 Test-OAuthConnectivity -Service EWS -TargetUri https://outlook.office365.com/ews/exchange.asmx -Mailbox <on-prem>
 ```
 
-Once an organization has satisfied the prerequisites, it must complete the following steps to enable the ability to store attachments from an on-premises mailbox on OneDrive for Business:<br>
+Once an organization has satisfied the prerequisites, it must complete the following steps to enable the ability to store attachments from an on-premises mailbox on OneDrive for Business:
 
 1.  Decide which OWA mailbox policy will be used for this configuration.
 2.  Run the following PowerShell command (this example uses the default OWA mailbox policy):

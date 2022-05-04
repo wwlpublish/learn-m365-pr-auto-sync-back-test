@@ -19,4 +19,3 @@ After completing this module, you'll be able to:
  -  Describe when you must configure Public Folder coexistence with Microsoft 365.
  -  Explain how to configure Oauth for a mixed Exchange environment.
  -  Describe how to configure OneDrive attachments for on-premises mailboxes.
-
