@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-goals-okr-essentials.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: Introduction
+  description: ""
+  ms.date: 04/28/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/introduction.md)]

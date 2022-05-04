@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365.viva-goals-okr-essentials
+metadata:
+  moduleType: standard
+  title: viva-goals-okr-essentials
+  description: ""
+  ms.date: 04/28/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: viva-goals-okr-essentials
+summary: Learn the key components of OKRs, their framework, and the benefits they provide to users in various roles.
+abstract: |
+  By the end of this module, you'll be able to:
+    - Define the key components of an OKR and articulate how they fit together in the OKR framework.
+    - Identify the 5 OKR Superpowers and how to leverage them.
+    - Explain the Emotional Cycle of Change and identify where you are in the process.
+prerequisites: |
+  None
+iconUrl: /learn/achievements/generic-badge.svg
+levels: 
+  - beginner
+roles: 
+  - administrator
+  - student
+products: 
+- m365
+- viva
+units:
+- learn-m365.viva-goals-okr-essentials.introduction
+- learn-m365.viva-goals-okr-essentials.what-are-okrs
+- learn-m365.viva-goals-okr-essentials.why-okrs
+- learn-m365.viva-goals-okr-essentials.what-to-expect
+- learn-m365.viva-goals-okr-essentials.knowledge-check
+- learn-m365.viva-goals-okr-essentials.summary
+badge:
+  uid: learn-m365.viva-goals-okr-essentials.badge
