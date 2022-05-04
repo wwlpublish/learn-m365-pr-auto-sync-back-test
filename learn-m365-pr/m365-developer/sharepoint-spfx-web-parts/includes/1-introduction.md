@@ -1,4 +1,4 @@
-This module will introduce you to creating client-side web parts using the SharePoint Framework. You'll also see how to leverage the SharePoint-hosted Workbench and use different parts of the SharePoint Framework API.
+This module will introduce you to creating client-side web parts using the SharePoint Framework. You'll also see how to use the SharePoint-hosted Workbench and use different parts of the SharePoint Framework API.
 
 ## Prerequisites
 
@@ -15,6 +15,6 @@ This module will introduce you to creating client-side web parts using the Share
 
 ## Additional resources
 
-Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Developing with the SharePoint Framework: Web Parts](https://github.com/SharePoint/sp-dev-training-spfx-web-parts).
+Refer to the following repository for more resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Developing with the SharePoint Framework: Web Parts](https://github.com/SharePoint/sp-dev-training-spfx-web-parts).
 
 This module is also available as a screencast: [SharePoint Framework Training - Developing with the SharePoint Framework: Web Parts](https://www.youtube.com/watch?v=m1l_sgSwKek&list=PLR9nK3mnD-OV-RPXQ3Lco845qoEy7VJoc)
