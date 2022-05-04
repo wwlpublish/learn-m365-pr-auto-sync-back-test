@@ -50,15 +50,15 @@ In a browser, navigate to your SharePoint tenant's App Catalog site.
 
 Microsoft is in the process of transitioning from the classic app catalog user experience to a modern app catalog user experience. If you see the classic app catalog, you can select the **Try the new Manage Apps page** link displayed at the top of the page, or you can add **/_layouts/15/tenantAppCatalog.aspx** to the end of the app catalog site URL. Either option should take you to the modern app catalog (i.e. the **Manage Apps** page).
 
-![Screenshot of the classic app catalog](../media/classic-app-catalog.png)
+![Screenshot of the classic app catalog.](../media/classic-app-catalog.png)
 
-![Screenshot of the modern app catalog](../media/modern-app-catalog.png)
+![Screenshot of the modern app catalog.](../media/modern-app-catalog.png)
 
 Drag the package created in the previous steps, located in the project's **./sharepoint/solution/deployment-demo.sppkg**, into the **Apps for SharePoint** library.
 
 In the **Enable app** panel, select **Enable app**:
 
-![Screenshot of Enable app panel](../media/03-deploy-step-01.png)
+![Screenshot of Enable app panel.](../media/03-deploy-step-01.png)
 
 In the **This app has been enabled** panel, select **Close**.
 
@@ -164,7 +164,7 @@ Select the deployed package and then select **Delete** from the command bar:
 
 Select **More features** from the left-hand navigation, then select **Open** under **Site contents**.
 
-![Screenshot of the More features page](../media/03-more-features-01.png)
+![Screenshot of the More features page.](../media/03-more-features-01.png)
 
 Select **Recycle bin** in the command bar. Delete the SharePoint package **deployment-demo.sppkg** from both the first and second-stage recycle bins using the same steps described above.
 

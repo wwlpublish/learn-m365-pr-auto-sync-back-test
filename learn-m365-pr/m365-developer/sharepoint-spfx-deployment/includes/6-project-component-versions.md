@@ -28,7 +28,7 @@ The package version is used for documentation and to trigger the SharePoint app 
 
 The version number of components is set in the component's manifest file. The `version` property is set to a string as shown in the following figure:
 
-![Screenshot of a component manifest version](../media/06-component-version.png)
+![Screenshot of a component manifest version.](../media/06-component-version.png)
 
 If this value is set to `*`, the `version` property from the project's **package.json** file is used.
 

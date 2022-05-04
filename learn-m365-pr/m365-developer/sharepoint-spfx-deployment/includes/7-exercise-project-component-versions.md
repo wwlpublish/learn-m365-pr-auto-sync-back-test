@@ -10,7 +10,7 @@ In a browser, navigate to the site collection where you previously deployed the 
 
 Select the **Apps for SharePoint** link in the left-hand navigation.
 
-![Screenshot of the site collection app catalog](../media/07-examine-package-version-01.png)
+![Screenshot of the site collection app catalog.](../media/07-examine-package-version-01.png)
 
 Notice the value of the **App version** property is **1.0.0.0**. This is the package version.
 
@@ -18,7 +18,7 @@ Locate and open the **./config/package-solution.json** file.
 
 The package version is defined by the `version` property of the `solution` object in the **./config/package-solution.json** file.
 
-![Screenshot of package-solution.json](../media/07-examine-package-version-02.png)
+![Screenshot of package-solution.json.](../media/07-examine-package-version-02.png)
 
 #### Add the web part to a page
 
@@ -28,17 +28,17 @@ Put it in edit mode by selecting the **Edit** button in the top-right portion of
 
 Select the web part icon button to open the list of available web parts:
 
-![Screenshot of adding the web part to the page - web part gallery](../media/03-deploy-step-05.png)
+![Screenshot of adding the web part to the page - web part gallery.](../media/03-deploy-step-05.png)
 
 Select the **Sort and filter** dropdown under the **Search** box, and select **Advanced** under **Filter by category**.
 
 Select the **Deployment Demo** web part in the **Advanced** section:
 
-![Screenshot of adding the web part to the page - selecting web part from the toolbox](../media/03-deploy-step-06.png)
+![Screenshot of adding the web part to the page - selecting web part from the toolbox.](../media/03-deploy-step-06.png)
 
 Notice the existing web part user interface.
 
-![Screenshot of the initial web part](../media/07-add-web-part-01.png)
+![Screenshot of the initial web part.](../media/07-add-web-part-01.png)
 
 ### Make a code change
 
@@ -91,7 +91,7 @@ Drag the package created in the previous steps, located in the project's **./sha
 
 SharePoint will launch a dialog asking if you want to trust the package:
 
-![Screenshot of deployment confirmation](../media/05-deploy-step-01.png)
+![Screenshot of deployment confirmation.](../media/05-deploy-step-01.png)
 
 Select **Deploy**.
 
@@ -103,7 +103,7 @@ Navigate to the page where you previously added the web part and refresh.
 
 Notice that the web part user interface has changed.
 
-![Screenshot of the web part without the image](../media/07-add-web-part-02.png)
+![Screenshot of the web part without the image.](../media/07-add-web-part-02.png)
 
 When a package is redeployed, all existing code files are automatically overwritten with the new files regardless of whether the package version number changed or not.
 
@@ -121,7 +121,7 @@ Use the following to complete the prompt that is displayed (*if more options are
 - **What is your Web part name?**: Second Deployment Demo
 - **Which framework would you like to use?**: No framework
 
-![Screenshot of adding a new component with the generator](../media/07-new-web-part-01.png)
+![Screenshot of adding a new component with the generator.](../media/07-new-web-part-01.png)
 
 Locate the web part file **src/webparts/secondDeploymentDemo/SecondDeploymentDemoWebPart.ts**.
 
@@ -156,11 +156,11 @@ Select the web part icon button to open the list of available web parts.
 
 Search for **deployment**. Select the **Second Deployment Demo** web part:
 
-![Screenshot of adding the web part to the page - selecting web part](../media/07-new-web-part-02.png)
+![Screenshot of adding the web part to the page - selecting web part.](../media/07-new-web-part-02.png)
 
 Notice the new web part user interface.
 
-![Screenshot of the second web part](../media/07-new-web-part-03.png)
+![Screenshot of the second web part.](../media/07-new-web-part-03.png)
 
 When a package is redeployed, any web parts added to the package are immediately available regardless of whether the package version number changed or not.
 
@@ -183,7 +183,7 @@ Use the following to complete the prompt that is displayed (*if more options are
 - **Which type of client-side extension to create?**: ListView Command Set
 - **What is your Command Set name?**: Third Deployment Demo
 
-![Screenshot of adding a second component](../media/07-new-extension-01.png)
+![Screenshot of adding a second component.](../media/07-new-extension-01.png)
 
 Locate and open the **./sharepoint/assets/elements.xml** file. Update the `RegistrationId` property on the `<CustomAction>` element to **101** to associate this custom action with document libraries:
 
@@ -211,7 +211,7 @@ Navigate to a document library in the site collection where you deployed the pac
 
 Notice that there aren't any custom command set buttons in the command bar.
 
-![Screenshot of the document library command bar](../media/07-new-extension-02.png)
+![Screenshot of the document library command bar.](../media/07-new-extension-02.png)
 
 For the new extension to be activated, you need to update both the package version number and the version number of the Feature that provisions the custom action. You then need to deploy the updated package and update the app contained within it.
 
@@ -264,7 +264,7 @@ Update the deployment package and redeploy the package to the site collection ap
 
 After the package has been deployed, notice the package version is now **1.2.0.0**.
 
-![Screenshot of the site collection app catalog with updated package version](../media/07-update-package-step-01.png)
+![Screenshot of the site collection app catalog with updated package version.](../media/07-update-package-step-01.png)
 
 ### Upgrade the installed app
 
@@ -294,7 +294,7 @@ Navigate to a document library in the site collection where you deployed the pac
 
 Notice that the custom command set buttons now appear in the command bar.
 
-![Screenshot of the updated document library command bar](../media/07-new-extension-03.png)
+![Screenshot of the updated document library command bar.](../media/07-new-extension-03.png)
 
 ## Working with the component versions
 
@@ -325,7 +325,7 @@ Navigate to the page where you previously added the web parts.
 
 Notice that both web parts are now showing that their component version is **0.0.5**.
 
-![Screenshot of the web parts](../media/07-update-component-version-01.png)
+![Screenshot of the web parts.](../media/07-update-component-version-01.png)
 
 ## Summary
 
