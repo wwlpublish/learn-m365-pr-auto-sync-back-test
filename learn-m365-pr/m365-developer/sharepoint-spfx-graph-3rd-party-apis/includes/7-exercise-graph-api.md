@@ -3,7 +3,7 @@ In this exercise, you'll create a new SharePoint Framework project with a single
 ## Create the Persona SharePoint Framework solution
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.13.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
 
 Open a command prompt and change to the folder where you want to create the project. Run the SharePoint Yeoman generator by executing the following command:
 
@@ -11,18 +11,14 @@ Open a command prompt and change to the folder where you want to create the proj
 yo @microsoft/sharepoint
 ```
 
-Use the following to complete the prompt that is displayed (*if additional options are presented, accept the default answer)*:
+Use the following to complete the prompt that is displayed (*if more options are presented, accept the default answer)*:
 
 - **What is your solution name?**: MSGraphSPFx
-- **Only SharePoint Online (latest) is supported. For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
-- **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
-- **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No
 - **Which type of client-side component to create?**: WebPart
 - **What is your Web part name?**: GraphPersona
-- **What is your Web part description?**: Display current user's persona details in a Fabric React Persona card
 - **Which framework would you like to use?**: React
 
-After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, open the project in **Visual Studio Code**.
+After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When npm completes downloading all dependencies, open the project in **Visual Studio Code**.
 
 ## Update the solution dependencies
 
@@ -54,7 +50,11 @@ this.context.msGraphClientFactory.getClient()
   const element: React.ReactElement<IGraphPersonaProps> = React.createElement(
     GraphPersona,
     {
-      graphClient: client
+      graphClient: client,
+      isDarkTheme: this._isDarkTheme,
+      environmentMessage: this._environmentMessage,
+      hasTeamsContext: !!this.context.sdks.microsoftTeams,
+      userDisplayName: this.context.pageContext.user.displayName
     }
   );
 
@@ -78,6 +78,10 @@ import { MSGraphClient } from '@microsoft/sp-http';
 
 export interface IGraphPersonaProps {
   graphClient: MSGraphClient;
+  isDarkTheme: boolean;
+  environmentMessage: string;
+  hasTeamsContext: boolean;
+  userDisplayName: string;
 }
 ```
 
@@ -147,7 +151,7 @@ constructor(props: IGraphPersonaProps) {
 }
 ```
 
-Add the Fabric React Persona card to the `render()` method's return statement:
+Update the contents of the `render()` method to the following code. This will display the Fabric React Persona card:
 
 ```typescript
 public render(): React.ReactElement<IGraphPersonaProps> {
@@ -250,33 +254,30 @@ gulp package-solution --ship
 
 In the browser, navigate to your SharePoint Online Tenant App Catalog.
 
-> [!NOTE]
-> Creation of the Tenant App Catalog site is one of the steps in the **[Getting Started > Set up Office 365 Tenant](/sharepoint/dev/spfx/set-up-your-developer-tenant)** setup documentation.
+Microsoft is in the process of transitioning from the classic app catalog user experience to a modern app catalog user experience. If you see the classic app catalog, you can select the **Try the new Manage Apps page** link displayed at the top of the page, or you can add **/_layouts/15/tenantAppCatalog.aspx** to the end of the app catalog site URL. Either option should take you to the modern app catalog (i.e. the **Manage Apps** page).
 
-Select the **Apps for SharePoint** link in the navigation:
+![Screenshot of the classic app catalog](../media/classic-app-catalog.png)
 
-![Screenshot of the navigation in the SharePoint Online Tenant App Catalog](../media/tenant-app-catalog-01.png)
+![Screenshot of the modern app catalog](../media/modern-app-catalog.png)
 
 Drag the generated SharePoint package from **/sharepoint/solution/ms-graph-sp-fx.sppkg** into the **Apps for SharePoint** library.
 
-In the **Do you trust ms-graph-sp-fx-client-side-solution?** dialog, select **Deploy**.
+In the **Enable app** panel, make note of the section that lists the API access requests that should be reviewed. You may need to approve or reject these requests in the next step. Ensure the **Enable this app and add it to all sites** radio button is selected and then select **Enable app**.
 
-![Screenshot of trusting a SharePoint package](../media/07-tenant-app-catalog-02.png)
+![Screenshot of Enable app panel](../media/07-enable-app-01.png)
+
+In the **Approve access so this app works as designed** panel, select **Go to API access page**. This will take you to the **API access** page in the **SharePoint admin center**.
+
+![Screenshot of Approve access panel](../media/05-enable-app-02.png)
 
 ## Approve the API permission request
 
 > [!NOTE]
 > If you completed the exercise **Call Azure AD secured REST APIs** in this module, you've already approved the permission request for **User.ReadBasic.All** so you may skip this step and move to testing the web part.
 
-Navigate to the SharePoint Admin Portal located at **https://{{REPLACE_WITH_YOUR_TENANTID}}-admin.sharepoint.com/_layouts/15/online/AdminHome.aspx**, replacing the domain with your SharePoint Online's administration tenant URL.
-
-In the navigation, select **Advanced > API access**:
-
-![Screenshot of the SharePoint Online admin portal](../media/sharepoint-admin-portal-01.png)
-
 Select the **Pending approval** for the **Microsoft Graph** permission **User.ReadBasic.All**.
 
-![Screenshot of the SharePoint Online admin portal API Management page](../media/sharepoint-admin-portal-02.png)
+![Screenshot of the SharePoint Online admin portal API Management page](../media/sharepoint-admin-portal-01.png)
 
 Select the **Approve or Reject** button, followed by selecting **Approve**.
 
@@ -286,16 +287,6 @@ Select the **Approve or Reject** button, followed by selecting **Approve**.
 > The SharePoint Framework includes a SharePoint-hosted workbench for testing custom solutions. However, the workbench will not work the first time when testing solutions that utilize Microsoft Graph due to nuances with how the workbench operates and authentication requirements. Therefore, the first time you test a Microsoft Graph enabled SPFx solution, you will need to test it in a real modern page.
 >
 > Once this has been done and your browser has been cookied by the Azure AD authentication process, you can leverage local webserver and SharePoint-hosted workbench for testing the solution.
-
-### Add the web part to your site collection
-
-In a browser, navigate to a SharePoint Online site.
-
-In the Office 365 gear, select **Add an App**.
-
-In site navigation, select **From my organization**.
-
-Select the **Add** button in the **ms-graph-sp-fx-client-side-solution** tile to add your web part.
 
 ### Test the web part on a SharePoint Online modern page
 
