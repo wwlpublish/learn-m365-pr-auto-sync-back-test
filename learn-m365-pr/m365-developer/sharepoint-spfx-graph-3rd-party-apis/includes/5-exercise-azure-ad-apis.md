@@ -18,7 +18,7 @@ Use the following to complete the prompt that is displayed (*if more options are
 - **What is your Web part name?**: SPFxAadHttpClient
 - **Which framework would you like to use?**: React
 
-After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, open the project in **Visual Studio Code**.
+After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When npm completes downloading all dependencies, open the project in **Visual Studio Code**.
 
 ## Create an interface that reflects the results of the query
 
