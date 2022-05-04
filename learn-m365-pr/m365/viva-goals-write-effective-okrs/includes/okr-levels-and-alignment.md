@@ -6,7 +6,7 @@ To begin thinking about alignment, we need to be aware of the different levels o
 - **Team**: The efforts of a group or groups of people.
 - **Individual**: The efforts assigned to a single person.
 
-:::image type="content" source="../media/company-okr-alignment.jpg" alt-text="Image showing the Company, Team, and Individual objectives.":::
+:::image type="content" source="../media/okr-alignment.jpg" alt-text="Image showing the Company, Team, and Individual objectives.":::
 
 ## Company level
 
