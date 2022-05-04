@@ -43,7 +43,7 @@ quiz:
       explanation: "That's incorrect. Tasks are elements that make up a Key Initiative/Project and help you use more diverse tactics for achieving your Key Results."
     - content: "Outcome vs Output"
       isCorrect: true
-      explanation: "That's correct. Key Results are the level of success you are trying to achieve, the outcome. Key Initiatives/Projects are the list of tasks that need to be completed in order to achieve it, the outputs."
+      explanation: "That's correct. Key Results are the level of success you're trying to achieve, the outcome. Key Initiatives/Projects are the list of tasks that need to be completed in order to achieve it, the outputs."
     - content: "Actionable vs Measurable"
       isCorrect: false
       explanation: "That's incorrect. Tasks are elements that make up a Key Initiative/Project and help you use more diverse tactics for achieving your Key Results."
