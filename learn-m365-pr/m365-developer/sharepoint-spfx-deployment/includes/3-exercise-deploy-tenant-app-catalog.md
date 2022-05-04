@@ -1,7 +1,7 @@
 In this exercise, you'll create a SharePoint Framework (SPFx) client-side web part that will be used to try different deployment configurations.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.13.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
 
 Open a command prompt and change to the folder where you want to create the project. Run the SharePoint Yeoman generator by executing the following command:
 
@@ -9,22 +9,24 @@ Open a command prompt and change to the folder where you want to create the proj
 yo @microsoft/sharepoint
 ```
 
-Use the following to complete the prompt that is displayed (*if additional options are presented, accept the default answer)*:
+Use the following to complete the prompt that is displayed (*if more options are presented, accept the default answer)*:
 
 - **What is your solution name?**: DeploymentDemo
-- **Only SharePoint Online (latest) is supported. For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
-- **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
-- **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No
 - **Which type of client-side component to create?**: WebPart
 - **What is your Web part name?**: Deployment Demo
-- **What is your Web part description?**: Deployment Demo description
-- **Which framework would you like to use?**: No JavaScript framework
+- **Which framework would you like to use?**: No framework
 
-After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically.
+After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When npm completes downloading all dependencies, open the project folder in **Visual Studio Code**.
 
-## Create a deployment package for the project
+## Disable tenant wide deployment
 
-When NPM completes downloading all dependencies, build the project by running the following command on the command line from the root of the project:
+For the exercises in this module, you'll be manually adding the app contained in the SharePoint package to the sites where it will be used. That is, you don't want to give the administrator the option to immediately enable the app and add it to all sites when they upload the package to the app catalog. This can be done by setting the value of the `skipFeatureDeployment` property in the **./config/package-solution.json** file to **false**.
+
+Locate and open the **./config/package-solution.json** file. Verify the `solution` object has a property named `skipFeatureDeployment` and ensure that the value of this property is set to **false**.
+
+## Crnpme a deployment package for the project
+
+Build the project by running the following command on the command line from the root of the project:
 
 ```console
 gulp build
@@ -46,15 +48,19 @@ gulp package-solution --ship
 
 In a browser, navigate to your SharePoint tenant's App Catalog site.
 
-Select the **Apps for SharePoint** link in the left-hand navigation.
+Microsoft is in the process of transitioning from the classic app catalog user experience to a modern app catalog user experience. If you see the classic app catalog, you can select the **Try the new Manage Apps page** link displayed at the top of the page, or you can add **/_layouts/15/tenantAppCatalog.aspx** to the end of the app catalog site URL. Either option should take you to the modern app catalog (i.e. the **Manage Apps** page).
+
+![Screenshot of the classic app catalog.](../media/classic-app-catalog.png)
+
+![Screenshot of the modern app catalog.](../media/modern-app-catalog.png)
 
 Drag the package created in the previous steps, located in the project's **./sharepoint/solution/deployment-demo.sppkg**, into the **Apps for SharePoint** library.
 
-SharePoint will launch a dialog asking if you want to trust the package:
+In the **Enable app** panel, select **Enable app**:
 
-![Screenshot of Do you trust dialog](../media/03-deploy-step-01.png)
+![Screenshot of Enable app panel.](../media/03-deploy-step-01.png)
 
-Select **Deploy**.
+In the **This app has been enabled** panel, select **Close**.
 
 ## Install the SharePoint package in a site collection
 
@@ -140,7 +146,7 @@ Select **deployment-demo-client-side-solution** and select **Delete** in the com
 
 ![Screenshot of the first-stage recycle bin](../media/03-recycle-bin-02.png)
 
-Select **Second-stage recycle bin** at the bottom of the page to navigate to the second-stage recycle bin. 
+Select **Second-stage recycle bin** at the bottom of the page to navigate to the second-stage recycle bin.
 
 Select **deployment-demo-client-side-solution** and select **Delete** in the command bar. Select **Delete** in the pop-up dialog to confirm you wish to delete the file.
 
@@ -148,15 +154,19 @@ Select **deployment-demo-client-side-solution** and select **Delete** in the com
 
 ### Retract the SharePoint package
 
-Navigate back to the tenant's **App Catalog** site.
+Navigate back to the tenant's modern **App Catalog**.
 
-Select the **Apps for SharePoint** option from the left-hand navigation.
-
-Select the menu for the deployed package, open the extra actions, and then select **Delete** as shown in the following figure:
+Select the deployed package and then select **Delete** from the command bar:
 
 ![Screenshot of retracting the SharePoint app package](../media/03-remove-step-05.png)
 
-Delete the SharePoint package from both the first and second-stage recycle bins.
+### Delete the SharePoint package from the recycle bin
+
+Select **More features** from the left-hand navigation, then select **Open** under **Site contents**.
+
+![Screenshot of the More features page.](../media/03-more-features-01.png)
+
+Select **Recycle bin** in the command bar. Delete the SharePoint package **deployment-demo.sppkg** from both the first and second-stage recycle bins using the same steps described above.
 
 ## Summary
 
