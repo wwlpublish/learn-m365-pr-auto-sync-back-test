@@ -18,43 +18,43 @@ quiz:
     choices:
     - content: "Make more money next year"
       isCorrect: false
-      explanation: "That's incorrect. This statement does not contain the traits of an Objective."
+      explanation: "That's incorrect. This statement doesn't contain the traits of an Objective."
     - content: "Increase new product sales from $15k to $25k"
       isCorrect: false
-      explanation: "That's incorrect. This statement does not contain the traits of an Objective."
+      explanation: "That's incorrect. This statement doesn't contain the traits of an Objective."
     - content: "Empower customers to use Viva Goals in order to easily and effectively manage their OKRs"
       isCorrect: true
-      explanation: "That's correct. Well written Objectives include the how (action), what (aspiration), and why (meaning)."
+      explanation: "That's correct. Well-written Objectives include the how (action), what (aspiration), and why (meaning)."
   - content: "Which statement contains the traits of Key Result?"
     choices:
     - content: "Increase our bilingual sales staff from 2 to 5"
       isCorrect: true
-      explanation: "That's correct. Well written Key Results should be focused, measurable, and ambitious."
+      explanation: "That's correct. Well-written Key Results should be focused, measurable, and ambitious."
     - content: "Complete event calendar by creating event, sending invites, and documenting attendance"
       isCorrect: false
-      explanation: "That's incorrect. This statement does not contain the traits of a Key Result."
+      explanation: "That's incorrect. This statement doesn't contain the traits of a Key Result."
     - content: "Double revenue in order to increase profits"
       isCorrect: false
-      explanation: "That's incorrect. This statement does not contain the traits of a Key Result."
+      explanation: "That's incorrect. This statement doesn't contain the traits of a Key Result."
   - content: "What is the difference between a Key Result and a Key Initiative/Project?"
     choices:
     - content: "Tasks vs Tactics"
       isCorrect: false
-      explanation: "That's incorrect. Tasks are elements that make up a Key Initiative/Project and help you execute more diverse tactics for achieving your Key Results."
+      explanation: "That's incorrect. Tasks are elements that make up a Key Initiative/Project and help you use more diverse tactics for achieving your Key Results."
     - content: "Outcome vs Output"
       isCorrect: true
       explanation: "That's correct. Key Results are the level of success you are trying to achieve, the outcome. Key Initiatives/Projects are the list of tasks that need to be completed in order to achieve it, the outputs."
     - content: "Actionable vs Measurable"
       isCorrect: false
-      explanation: "That's incorrect. Tasks are elements that make up a Key Initiative/Project and help you execute more diverse tactics for achieving your Key Results."
+      explanation: "That's incorrect. Tasks are elements that make up a Key Initiative/Project and help you use more diverse tactics for achieving your Key Results."
   - content: "What are the three OKR Levels?"
     choices:
     - content: "Objectives, Key Results, Key Initiatives/Projects"
       isCorrect: false
-      explanation: "That's incorrect. OKRs can be conducted on different cadences, but the different time periods do not represent the different levels of effort."
+      explanation: "That's incorrect. OKRs can be conducted on different cadences, but the different time periods don't represent the different levels of effort."
     - content: "Company, Team, Individual"
       isCorrect: true
       explanation: "That's correct. OKRs can be the effort of your entire company, the effort of a specific team, or the effort of an individual."
     - content: "Annual, Semester, Quarter"
       isCorrect: false
-      explanation: "That's incorrect. OKRs can be conducted on different cadences, but the different time periods do not represent the different levels of effort."
+      explanation: "That's incorrect. OKRs can be conducted on different cadences, but the different time periods don't represent the different levels of effort."
