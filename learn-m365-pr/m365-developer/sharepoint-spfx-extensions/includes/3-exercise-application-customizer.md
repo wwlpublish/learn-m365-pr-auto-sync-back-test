@@ -18,7 +18,7 @@ Use the following to complete the prompt that is displayed (*if more options are
 - **What type of client-side extension to create?**: Application Customizer
 - **What is your Application Customizer name?**: HelloAppCustomizer
 
-After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, test the default project provisioned by the generator.
+After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When npm completes downloading all dependencies, test the default project provisioned by the generator.
 
 Unlike web parts, which can be tested in the hosted workbench, extensions must be tested in a modern SharePoint page. Special query string parameters are included with the request to indicate that the extension should be loaded from the local development web server.
 
