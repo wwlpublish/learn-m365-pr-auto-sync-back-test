@@ -4,7 +4,7 @@ title: Troubleshoot transport with Exchange Online
 metadata:
   title: Troubleshoot transport with Exchange Online
   description: "Troubleshoot transport with Exchange Online"
-  ms.date: 03/09/2022
+  ms.date: 05/04/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Port 25"
       isCorrect: false
-      explanation: "This answer is incorrect. TCP port 25 is used for mail flow. Try again."
+      explanation: "This answer is incorrect. TCP port 25 is used for mail flow."
     - content: "Port 443"
       isCorrect: true
       explanation: "This answer is correct. TCP port 443 is used for free/busy information and mailbox migrations."
     - content: "Port 80"
       isCorrect: false
-      explanation: "This answer is incorrect. TCP port 80 is used by web servers. Try again."
+      explanation: "This answer is incorrect. TCP port 80 is used by web servers."
