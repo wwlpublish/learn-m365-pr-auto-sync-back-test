@@ -11,7 +11,7 @@ In the following diagram, every public folder is associated with a Public folder
 > [!CAUTION]
 > A public folder can't span across two public folder mailboxes. As such, the aggregate size of all public folders in a public folder mailbox can't exceed the total size of the public folder mailbox.
 
-Some public folders can be locked down to a specific group of users or a department, such as the Sales department using Public Folder permissions. Other folders can be open to all employees, such as folders containing HR, travel, and benefits information.<br>
+Some public folders can be locked down to a specific group of users or a department, such as the Sales department using Public Folder permissions. Other folders can be open to all employees, such as folders containing HR, travel, and benefits information.
 
 ### Public folder usage limitations
 
