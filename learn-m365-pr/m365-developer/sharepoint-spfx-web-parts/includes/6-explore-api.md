@@ -132,7 +132,7 @@ Custom components can access the following properties on the page context:
 - web title
 - web absolute URL
 - web server-relative URL
-- current user login name
+- current user sign-in name
 
 ![Figure showing the page context](../media/05-web-part-01.png)
 
@@ -148,7 +148,7 @@ import {
 
 const environmentType : string = (Environment.type === EnvironmentType.ClassicSharePoint)
   ? 'You are running in a classic page'
-  : 'You are running in a modern page';  
+  : 'You are running in a modern page';
 ```
 
 The `EnvironmentType` enumeration has the following options:
@@ -195,7 +195,7 @@ When your component needs to programmatically load an external JavaScript or CSS
 
 `SPComponentLoader` contains two methods: `loadScript()` and `loadCss()`. Both methods accept a string parameter of the URL of the file to load and return a JavaScript promise once the file has been loaded.
 
-The `loadScript()` method accepts a second parameter that you can use to specify the object that the script should be assigned to when its exported.
+The `loadScript()` method accepts a second parameter that you can use to specify the object that the script should be assigned to when it's exported.
 
 ```typescript
 import { SPComponentLoader } from "@microsoft/sp-loader";
