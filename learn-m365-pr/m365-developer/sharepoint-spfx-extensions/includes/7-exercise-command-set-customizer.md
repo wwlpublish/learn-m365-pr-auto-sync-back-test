@@ -1,7 +1,7 @@
 In this exercise, you'll create a SharePoint Framework (SPFx) command set extension that will display custom buttons in a SharePoint list.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.13.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
 
 Open a command prompt and change to the folder where you want to create the project.
 
@@ -11,16 +11,12 @@ Run the SharePoint Yeoman generator by executing the following command:
 yo @microsoft/sharepoint
 ```
 
-Use the following to complete the prompt that is displayed (*if additional options are presented, accept the default answer)*:
+Use the following to complete the prompt that is displayed (*if more options are presented, accept the default answer)*:
 
 - **What is your solution name?**: SPFxCommandSet
-- **Only SharePoint Online (latest) is supported. For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
-- **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
-- **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No
 - **Which type of client-side component to create?**: Extension
 - **What type of client-side extension to create?**: ListView Command Set
 - **What is your Command Set name?**: CommandSetDemo
-- **What is your Command Set description?**: CommandSetDemo description
 
 After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, open the project folder in **Visual Studio Code**.
 
@@ -103,9 +99,7 @@ ClientSideComponentProperties="{&quot;messagePrefix&quot;:&quot;[command_set_pre
 
 ## Test the command set
 
-In a browser, navigate to a SharePoint Online modern site collection where you want to test the field customizer.
-
-Select the **Site contents** link in the left-hand navigation. Select the list **Work Status** you created in a previous exercise:
+In a browser, navigate to a SharePoint Online site collection where you created the **Work Status** list in the previous exercise. Select the **Site contents** link in the left-hand navigation. Select the **Work Status** list:
 
 ![Screenshot of sample data in a list](../media/05-field-customizer-setup-list-04.png)
 
@@ -131,7 +125,7 @@ gulp serve
 
 When prompted, select the **Load debug scripts** button.
 
-Notice a new button in the toolbar after the page loads. When the **Always On** button is selected, a dialog appears that displays the message prefix defined in the public properties and the total number of items selected. If the buttons are not added to the toolbar, switch back to the command prompt, wait for the **reload** subtask to finish executing, and then refresh.
+Notice a new button in the toolbar after the page loads. When the **Always On** button is selected, a dialog appears that displays the message prefix defined in the public properties and the total number of items selected. If the buttons aren't added to the toolbar, switch back to the command prompt, wait for the **reload** subtask to finish executing, and then refresh.
 
 ![Screenshot of the command set Always On button](../media/07-command-set-test-01.png)
 
