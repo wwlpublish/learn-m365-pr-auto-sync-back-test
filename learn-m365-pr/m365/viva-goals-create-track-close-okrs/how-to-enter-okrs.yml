@@ -4,12 +4,12 @@ title: How to enter OKRs
 metadata:
   unitType: learning-content
   title: How to enter OKRs
-  description: ""
+  description: Learn how to enter OKR's into Viva Goals.
   ms.date: 04/28/2022
   author: rasanders
   ms.author: rasanders
   ms.topic: interactive-tutorial
-  ms.prod: learning-azure # Edit as appropriate for your portfolio area
+  ms.prod: learning-m365
 durationInMinutes: 5
 content: |
   [!include[](includes/how-to-enter-okrs.md)]
