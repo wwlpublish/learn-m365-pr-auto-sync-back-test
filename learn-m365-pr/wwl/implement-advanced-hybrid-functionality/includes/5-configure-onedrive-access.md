@@ -34,7 +34,7 @@ Optionally, you can run **Restart-WebAppPool MSExchangeOWAAppPool** on your loca
 > [!NOTE]
 > If you're running a multi-geo Microsoft 365 tenant, you may need to create OWA Mailbox Policies for users aligned to the preferred location in which their data is stored. When doing so, you must provide the specific geo-related URL when configuring this feature.
 
-**Additional reading.** For more information, see [Configure document collaboration with OneDrive for Business and Exchange on-premises](/exchange/hybrid-deployment/set-up-document-collaboration?azure-portal=true).
+**Further reading.** For more information, see [Configure document collaboration with OneDrive for Business and Exchange on-premises](/exchange/hybrid-deployment/set-up-document-collaboration?azure-portal=true).
 
 ## Knowledge check
 
