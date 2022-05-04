@@ -4,7 +4,7 @@ title: Prepare to run the Hybrid Configuration Wizard
 metadata:
   title: Prepare to run the Hybrid Configuration Wizard
   description: "Prepare to run the Hybrid Configuration Wizard"
-  ms.date: 03/09/2022
+  ms.date: 05/04/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Fabrikam must use Exchange Classic Hybrid"
       isCorrect: false
-      explanation: "This answer is incorrect. Exchange Classic Hybrid doesn't support self-signed certificates. Try again."
+      explanation: "This answer is incorrect. Exchange Classic Hybrid doesn't support self-signed certificates."
     - content: "Fabrikam must install Trusted Digital Certificates for HTTPS services"
       isCorrect: false
-      explanation: "This answer is incorrect. If you plan to implement Exchange Classic Hybrid for an Exchange Modern Hybrid deployment, you must install Digital Certificates for HTTPS services that you purchase from a trusted public certification authority (CA). However, Fabrikam wants to use self-signed certificates. Try again."
+      explanation: "This answer is incorrect. If you plan to implement Exchange Classic Hybrid for an Exchange Modern Hybrid deployment, you must install Digital Certificates for HTTPS services that you purchase from a trusted public certification authority (CA). However, Fabrikam wants to use self-signed certificates."
     - content: "Fabrikam must use Exchange Modern Hybrid"
       isCorrect: true
       explanation: "This answer is correct. If you use self-signed certificates for Exchange Servers, you must use Exchange Modern Hybrid because Exchange Classic Hybrid doesn't support self-signed certificates."
