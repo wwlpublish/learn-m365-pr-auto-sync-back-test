@@ -4,7 +4,7 @@ title: Examine Edge Transport servers
 metadata:
   title: Examine Edge Transport servers
   description: "Examine Edge Transport servers"
-  ms.date: 03/09/2022
+  ms.date: 05/04/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Through the Edge Transport role in Exchange Server 2019"
       isCorrect: false
-      explanation: "This answer is incorrect. Exchange Server 2019’s Edge Transport role doesn't include anti-malware agents. Try again,"
+      explanation: "This answer is incorrect. Exchange Server 2019’s Edge Transport role doesn't include anti-malware agents."
     - content: "Through Azure IoT Edge Transport rules"
       isCorrect: false
-      explanation: "This answer is incorrect. Edge Transport rules control the flow of messages that are sent to, or received from, the Internet. They don't provide anti-malware protection. Try again."
+      explanation: "This answer is incorrect. Edge Transport rules control the flow of messages that are sent to, or received from, the Internet. They don't provide anti-malware protection."
     - content: "Through Exchange Online Protection"
       isCorrect: true
       explanation: "This answer is correct. Exchange Server 2019’s Edge Transport role doesn't include anti-malware agents. If you don't want to rely upon Exchange 2019 Mailbox servers to provide anti-malware protection, you must use either Microsoft products such as Exchange Online Protection, or third-party software that integrates with Exchange Server 2019 to provide anti-malware protection."

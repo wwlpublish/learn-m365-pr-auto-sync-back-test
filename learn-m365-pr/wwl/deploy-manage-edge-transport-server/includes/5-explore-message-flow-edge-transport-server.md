@@ -80,4 +80,4 @@ Messages sent from the Exchange Online organization to recipients in the on-prem
 :::image type="content" source="../media/mail-flow-hybrid-deployment-cf1a69b8.png" alt-text="Diagram that shows how messages sent from recipients in Exchange on-premises flow from the Exchange Server through the Edge Transport server to Exchange Online.":::
 
 
-**Additional reading.** For more information, see [Edge Transport servers with hybrid deployments](https://aka.ms/AA3qvpd?azure-portal=true).
+**Further reading.** For more information, see [Edge Transport servers with hybrid deployments](https://aka.ms/AA3qvpd?azure-portal=true).
