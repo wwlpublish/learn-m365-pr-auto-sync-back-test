@@ -19,18 +19,19 @@ The tools used in compiling, debugging, and packaging SharePoint Framework proje
 >
 > If a version number is returned, you already have Node.js. The version(s) of Node.js you may use depends on the environment(s) you'll be targeting.
 >
-> If you are building projects for SharePoint 2016, then you need to use the SharePoint Framework v1.1.0 due to the server-side version dependencies. This means you should install Node.js v6.x. For more information on SharePoint Framework development with SharePoint 2016, please refer to [SharePoint Framework development with SharePoint Server 2016 Feature Pack 2](/sharepoint/dev/spfx/sharepoint-2016-support).
+> If you are building projects for SharePoint 2016, then you need to use the SharePoint Framework v1.1.0 due to the server-side version dependencies. This means you should install Node.js v6.x. For more information on SharePoint Framework development with SharePoint 2016, please refer to [SharePoint Framework development with SharePoint Server 2016 Feature Pack 2](/sharepoint/dev/spfx/sharepoint-2016-support). Please also refer to [SharePoint Framework development for SharePoint Server 2016 with Feature Pack 2](https://www.voitanos.io/blog/how-to-setup-sharepoint-framework-development-environment-for-multiple-sharepoint-server-deployments/#sharepoint-framework-development-for-sharepoint-server-2016-with-feature-pack-2) for information about how to address a versioning issue with one of Yeoman's dependencies.
 >
 > If you are building projects for SharePoint 2019, then you need to use the SharePoint Framework v1.4.1 because of the server-side version dependencies. This means you should install Node.js v6.x or v8.x. For more information on SharePoint Framework development with SharePoint 2019, please refer to [SharePoint Framework development with SharePoint Server 2019](/sharepoint/dev/spfx/sharepoint-2019-support).
 >
-> If you are building projects for SharePoint Online, then it is recommended that you install the latest version of Node.js v14.x and the latest version of the SharePoint Framework, which is currently v1.13.0.
+> If you are building projects for SharePoint Online, then it is recommended that you install the latest version of Node.js v14.x and the latest version of the SharePoint Framework, which is currently v1.14.0.
 
 ### SharePoint Framework / Node.js / SharePoint Version Compatibility
 
 | SPFx    | Node.js                         | SP 2016 | SP 2019 | SP Online |
 | ------- | ------------------------------- | ------- | ------- | --------- |
-| v1.13.1 | v10.13.0+, v12.13.0+, v14.15.0+ |         |         |     X     |
-| v1.13.0 | v10.13.0+, v12.13.0+, v14.15.0+ |         |         |     X     |
+| v1.14.0 | v12.13.0+, v14.15.0+            |         |         |     X     |
+| v1.13.1 | v12.13.0+, v14.15.0+            |         |         |     X     |
+| v1.13.0 | v12.13.0+, v14.15.0+            |         |         |     X     |
 | v1.12.1 | v10.13.0+, v12.13.0+, v14.15.0+ |         |    X    |     X     |
 | v1.11.0 | v10.x                           |         |    X    |     X     |
 | v1.10.0 | v8.x, v10.x                     |    X    |    X    |     X     |
@@ -75,6 +76,9 @@ Download the appropriate installer or binary for the platform you're using.
 
 Run the installer, accepting all the default options. This will install Node.js and NPM (*a package manager that Node.js uses, similar to .NET's NuGet*).
 
+> [!IMPORTANT]
+> The remainder of the material in this module, and the all the material in the other modules in this learning path, assume that you are building projects for SharePoint Online.
+
 ## Install required tools
 
 The SharePoint Framework development experience uses a set of tools built on Node.js that are popular among web developers. These tools are built on Node.js, which means they can be used on any platform and will work the same way. This includes Windows, macOS, and Linux.
@@ -89,18 +93,28 @@ Open a command prompt / terminal window and execute the following command to ins
 npm install --global yo
 ```
 
-### Install Gulp
+### Install Gulp CLI
 
 Gulp is a task runner utility. It's similar to MSBuild, a tool used by .NET developers and Visual Studio to compile projects, package solutions, and start a debugging experience.
 
-Open a command prompt / terminal window and execute the following command to install Gulp globally with NPM:
+Gulp comes in two parts: the Gulp CLI (command line utility) that is installed globally on your computer, and then local Gulp packages included in each individual project.
 
-```console
-npm install --global gulp
-```
+Prior to the release of SharePoint Framework v1.13.1, Microsoft's guidance was to install Gulp globally. Around the time of the release of SharePoint Framework v1.13.1, that guidance changed to installing Gulp CLI globally. Doing so enables you to have some projects that use Gulp v3 and other projects that use Gulp v4.
 
 > [!IMPORTANT]
-> If you're using Node.js v12.x or higher, you must use Gulp v4.x. If you're using a version of Node.js lower than v12.x, you must use Gulp v3.x. For more information, see: [SharePoint Framework v1.12.1 release notes | Gulp versions & Node.js v12+](/sharepoint/dev/spfx/release-1.12.1#gulp-versions--nodejs-v12).
+> If you previously installed Gulp globally, you need to uninstall it before installing Gulp CLI.
+
+To uninstall Gulp, open a command prompt / terminal window and execute the following command:
+
+```console
+npm uninstall --global gulp
+```
+
+To install Gulp CLI, open a command prompt / terminal window and execute the following command:
+
+```console
+npm install --global gulp-cli
+```
 
 ### Install the SharePoint Framework Yeoman generator
 

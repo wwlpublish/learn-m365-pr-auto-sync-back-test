@@ -24,9 +24,9 @@ When the new page opens, select **App Catalog**.
 >
 > ![Screenshot of the app catalog creation options](../media/03-app-catalog-05.png)
 
-You have two options to create an app catalog. You can have it created for you automatically or you can create it manually. The manual option enables you to configure the app catalog site settings prior to the site creation.  
+You have two options to create an app catalog. You can have it created for you automatically or you can create it manually. The manual option enables you to configure the app catalog site settings prior to the site creation.
 
-If you want to have the app catalog created for you automatically, select the **Automatically create a new app catalog site** option and select the **OK** button. 
+If you want to have the app catalog created for you automatically, select the **Automatically create a new app catalog site** option and select the **OK** button.
 
 If you want to create the app catalog manually, select the **Create a new app catalog site** option and select the **OK** button. Then on the **Create App Catalog Site Collection** page, enter the following details, and select **OK**.
 

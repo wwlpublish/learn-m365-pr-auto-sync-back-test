@@ -47,7 +47,7 @@ To use these APIs, reference them on the Office.js content delivery network (CDN
 
 Along with adding your preferred CDN link, all Office Add-ins require an `Office.onReady()` call. You put your add-in code in this method, and it gets called once the Office.js library has initialized. Inside the `onReady()` method, you can determine which host your add-in is running in by checking the `Office.HostType` enum value (for example, `Excel` or `Word`). You can check which platform your add-in is running on with an `Office.PlatformType` enum value (for example, `PC` or `Mac`).
 
-If you're using additional JavaScript frameworks that include their own initialization handler or tests, they should be placed within the response to `Office.onReady()`. For example, you would reference jQuery's `$(document).ready()` function as shown in the following code example.
+If you're using other JavaScript frameworks that include their own initialization handler or tests, they should be placed within the response to `Office.onReady()`. For example, you would reference jQuery's `$(document).ready()` function as shown in the following code example.
 
 ```javascript
 Office.onReady(function() {
