@@ -52,7 +52,7 @@ Let's look at the folders in a newly created and built SharePoint Framework proj
 - **dist**: This folder contains the files generated when you bundle your project, regardless of which switch you use. The unminified JavaScript files and source maps contained in this folder are used when you run in debug mode.
 - **lib**: This folder, created automatically when you build the project, contains the temporary files generated from the compilation and transpilation of TypeScript to JavaScript and SCSS to CSS files.
 - **node_modules**: This folder is created automatically when installing package dependencies using the `npm install` command.
-- **release**: This folder contains a subfolder named **assets** that contains the files generated when you bundle your project using the `ship` or `production` switch. These files are deployed to the CDN. This folder also contains two additional subfolders that contain manifest files.
+- **release**: This folder contains a subfolder named **assets** that contains the files generated when you bundle your project using the `ship` or `production` switch. These files are deployed to the CDN. This folder also contains two more subfolders that contain manifest files.
 - **src**: This folder contains all the source code for your project.
 - **temp**: This folder, created automatically when you test the project, contains files used by the local development web server.
 
@@ -126,7 +126,7 @@ To uninstall an extension from tenant wide deployment, delete the extension's en
 |        Column        |  Type   |                                                        Description                                                         |
 | -------------------: | :-----: | -------------------------------------------------------------------------------------------------------------------------- |
 |                Title | string  | Title of the entry. Can be descriptive entry for the registration. Doesn't have to match anything, just for your reference |
-|         Component ID |  GUID   | Manifest ID of the component. Has to be in GUID format and component must exists in the App Catalog.                       |
+|         Component ID |  GUID   | Manifest ID of the component. Has to be in GUID format and component must exist in the App Catalog.                       |
 | Component Properties | string  | Optional component properties.                                                                                             |
 |         Web Template | string  | Can be used to target extension only to specific web templates.                                                            |
 |        List Template |   int   | List type as a number.                                                                                                     |
