@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.create-manage-exchange-recipients.create-and-manage-public-folders
+title: Create and manage public folders
+metadata:
+  title: Create and manage public folders
+  description: "Create and manage public folders"
+  ms.date: 05/03/2022
+  author: wwlpublish
+  ms.author: maquinl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/8-public-folders.md)]
