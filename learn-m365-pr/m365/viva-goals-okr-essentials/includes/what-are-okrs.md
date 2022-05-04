@@ -18,7 +18,7 @@ From there, goals are broken down into a more manageable time period, such as qu
 
 Key Initiatives/Projects are added on an as-needed basis to support the work that needs to be completed.
 
-:::image type="content" source="../media/Generic-OKRS-Product-View.jpg" alt-text="Image showing how Key Initiatives/Projects are added on an as-needed basis to support the work that needs to be completed":::
+:::image type="content" source="../media/okrs-product-view.jpg" alt-text="Screenshot showing how Key Initiatives/Projects are added on an as-needed basis to support the work that needs to be completed.":::
 
 Learn more about each of these components and get practice writing them:
 

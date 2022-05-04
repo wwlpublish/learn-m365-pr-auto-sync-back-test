@@ -12,7 +12,7 @@ In this story, while all three bricklayers were technically doing the same "job,
 
 While this parable is hundreds of years old, companies today have a similar goal: drive focus, purpose, and alignment to create more engaged employees and achieve amazing results.
 
-### Company Struggles
+### Company struggles
 
 Companies today face several challenges:
 
@@ -23,9 +23,9 @@ Companies today face several challenges:
 
 Fortunately, OKRs help address these issues, and provide a modern business framework for high-growth companies.
 
-:::image type="content" source="../media/Work-Remote-High-Tech.jpg" alt-text="A picture of a person using a tablet":::
+:::image type="content" source="../media/high-tech-remote.jpg" alt-text="A picture of a person using a tablet while on a video call with coworkers.":::
 
-### OKR Benefits
+### OKR benefits
 
 While Andy Grove is considered the "Father of OKRs," an employee that worked for him named John Doerr helped the framework gain popularity in the tech world and beyond. In his book *Measure What Matters*, Doerr built on the OKR framework and developed the "Five Superpowers," which highlight the benefits OKRs bring to employees and companies. They can generally be summarized as:
 

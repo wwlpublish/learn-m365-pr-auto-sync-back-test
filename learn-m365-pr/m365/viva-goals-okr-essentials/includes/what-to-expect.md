@@ -2,9 +2,9 @@ While the OKR framework and its implementation is relatively straightforward, in
 
 Fortunately, companies often share a common journey. This unit will outline what to expect as people navigate change in their daily work rhythms and offer tips for successfully getting started with a new OKR program.
 
-### Emotional Cycle of Change
+## Emotional Cycle of Change
 
-:::image type="content" source="../media/Emotional-Cycle-of-Change-V1.jpg" alt-text="Diagram showing the emotional cycle of change.":::
+:::image type="content" source="../media/emotional-cycle-change.jpg" alt-text="Diagram that shows the emotional cycle of change.":::
 
 Changes are rarely as straightforward as we imagine they will be. Think back to a major change that has happened in your own life, like moving to a new city, changing jobs or getting a new pet. Adjusting to these changes can often feel chaotic or random, which is unsettling and makes it harder to adapt.
 
@@ -22,11 +22,11 @@ There are five stages within the Emotional Cycle of Change.
 
 Understanding the Emotional Cycle of Change prepares you for what's to come and increases resilience when you or your team experiences challenges along the way. Remembering that OKRs are a journey that takes time reduces the pressure people may feel to become immediate OKR experts. A good reminder: no one jumps from Uniformed Optimism to Success and Fulfillment.
 
-### 5 Best Practices for Getting Started
+## 5 best practices for getting started
 
-#### 1. Begin with the end in mind
+### 1. Begin with the end in mind
 
-:::image type="content" source="../media/Finish-Line.jpg" alt-text="A picture showing a group of people running on a track.":::
+:::image type="content" source="../media/finish-line.jpg" alt-text="A picture showing a group of people running on a track.":::
 
 One of the best ways to create clear and lasting change is to be clear about why OKRs are important to your organization and what your ultimate goal is.
 
@@ -41,9 +41,9 @@ Being clear on your "why" will help galvanize your employees as you kick off you
 
 Take a moment to jot down what success looks like to you. A year from now, how will you know if you've achieved your goals?
 
-#### 2. Define your team
+### 2. Define your team
 
-:::image type="content" source="../media/Orchestra.jpg" alt-text="A picture of a group of people playing instruments.":::
+:::image type="content" source="../media/orchestra.jpg" alt-text="A picture of a group of people playing instruments.":::
 
 Much like an orchestra, a successful OKR rollout requires a solid team working together in concert to have a great performance. Here are the key OKR stakeholders and what they do:
 
@@ -56,9 +56,9 @@ Much like an orchestra, a successful OKR rollout requires a solid team working t
 > [!NOTE]
 > In smaller companies, these positions often overlap. For example, the OKR Champion could also be a senior leader, or the admin might also handle technical implementation.
 
-#### 3. Communicate Clearly
+### 3. Communicate clearly
 
-:::image type="content" source="../media/Speaker.jpg" alt-text="A picture containing person presenting to a group.":::
+:::image type="content" source="../media/speaker.jpg" alt-text="A picture containing person presenting to a group.":::
 
 We've found that the most successful rollouts have full support and clear communication from upper management.  
 
@@ -71,13 +71,13 @@ It's critical that senior leaders:
 
 This is especially critical when you consider the transparent nature of OKRs. Senior leaders should lead by example with regular OKR check-ins and program adoption.
 
-#### 4. Leverage the Right Tools
+### 4. Leverage the right tools
 
 Skill yourself in all that Viva Goals has to offer! Familiarizing yourself with the basics will ensure you are off to a great start, but taking a moment now to learn about features like Integrations or Dashboards can exponentially increase the effectiveness of your OKR program.  
 
-#### 5. Be Patient
+### 5. Be patient
 
-:::image type="content" source="../media/Patience.jpg" alt-text="A picture showing a sapling.":::
+:::image type="content" source="../media/patience.jpg" alt-text="A photograph showing a sapling growing out of the ground.":::
 
 Implementing OKRs will likely take several quarters (if not years) to become truly proficient. This is normal and expected. Adjust your expectations now to a long-term learning curve and cultivate patience with yourself and your team to gain these skills.
 
