@@ -18,9 +18,9 @@ Use the following to complete the prompt that is displayed:
 - **What is your Web part name?**: HelloWorld
 - **Which framework would you like to use?**: No framework
 
-After the generator scaffolds the folders required for the project, the generator will install all the dependency packages using NPM.
+After the generator scaffolds the folders required for the project, the generator will install all the dependency packages using npm.
 
-When NPM completes downloading all dependencies, ensure the developer certificate is installed by executing the following command:
+When npm completes downloading all dependencies, ensure the developer certificate is installed by executing the following command:
 
 ```console
 gulp trust-dev-cert
