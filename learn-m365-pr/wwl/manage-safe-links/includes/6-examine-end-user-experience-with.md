@@ -14,7 +14,7 @@ Now consider the scenario when a user receives a message from an external sender
 2.  The organization’s Safe Links policy detects the link and redirects it to the secure server in Microsoft 365. The secure server determines the URL is malicious.
 3.  Because the link is malicious, the user is redirected to a protective shell. The shell alerts the user about the classification of the URL (see the following graphic).
     
-    :::image type="content" source="../media/malicious-website-warning-cc2435da.png" alt-text="Sreenshot of warning message saying the website is malicious.":::
+    :::image type="content" source="../media/malicious-website-warning-cc2435da.png" alt-text="Screenshot of warning message saying the website is malicious.":::
     
 4.  The policy is selective enough to remove only the malicious link. When the user selects the link to **www.bing.com**, the user is successfully able to navigate to Bing.com as expected.
 

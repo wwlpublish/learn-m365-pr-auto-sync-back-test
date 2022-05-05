@@ -39,8 +39,8 @@ To create, modify, and delete Safe Links policies, you must be a member of:
 Creating a custom Safe Links policy in Microsoft 365 Defender creates the safe links rule and the associated safe links policy at the same time using the same name for both.
 
 1.  In the **Microsoft 365 admin center**, select **Show All** in the left-hand navigation pane, and then under **Admin centers**, select **Security**.
-2.  In **Microsoft 365 Defender**, select **Policies &amp; rules** in the left-hand navigation pane.
-3.  On the **Policies &amp; rules** page, select **Threat policies**.
+2.  In **Microsoft 365 Defender**, select **Policies and rules** in the left-hand navigation pane.
+3.  On the **Policies and rules** page, select **Threat policies**.
 4.  On the **Threat policies** page, under the **Policies** section, select **Safe Links.**
 5.  On the **Safe Links** page, select **Create**.
 6.  The **New Safe Links policy** wizard opens. On the **Name your policy** page, configure the following settings and then select **Next**:
@@ -79,7 +79,7 @@ Creating a custom Safe Links policy in Microsoft 365 Defender creates the safe l
          -  **The recipient domain is.**
          -  **The recipient is a member of.**
         
-        You can only use a condition or exception once, but the condition or exception can contain multiple values. Multiple values of the same condition or exception use OR logic (for example, *&lt;recipient1&gt;* or *&lt;recipient2&gt;*). Different conditions or exceptions use AND logic (for example, *&lt;recipient1&gt;* and *&lt;member of group 1&gt;*).
+        You can only use a condition or exception once, but the condition or exception can contain multiple values. Multiple values of the same condition or exception use OR logic (for example, \[recipient1\] or \[recipient2\]). Different conditions or exceptions use AND logic (for example, \[recipient1\] and \[member of group1\]).
      -  **Priority**. If you create multiple policies, you can specify the order that they're applied. No two policies can have the same priority, and policy processing stops after the first policy is applied.
         
         For more information about the order of precedence and how multiple policies are evaluated and applied, see [Order and precedence of email protection](/microsoft-365/security/office-365-security/how-policies-and-protections-are-combined?azure-portal=true).
