@@ -34,7 +34,7 @@ You may be accustomed to seeing these three components discussed in this way:
 
 But in terms of architecture, let's start by thinking of each piece as cumulative layers of security, each with a security emphasis. More like this:
 
-:::image type="content" source="../media/office-365-security-41046e7a.png" alt-text="Diagram showing how Office 365 security progresses from EOP to the two Microsoft Defender for Office 365 plans.":::
+:::image type="content" source="../media/office-365-security-41046e7a.png" alt-text="Diagram showing how Office 365 security progresses from E O P to the two Microsoft Defender for Office 365 plans.":::
 
 
 Each of these services emphasizes a goal from among Protect, Detect, Investigate, and Respond. However, *all* the services can carry out *any* of the goals of protecting, detecting, investigating, and responding.

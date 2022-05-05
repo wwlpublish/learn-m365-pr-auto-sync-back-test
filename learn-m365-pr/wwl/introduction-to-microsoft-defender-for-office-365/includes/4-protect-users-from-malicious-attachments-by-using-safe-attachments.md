@@ -11,8 +11,8 @@ Let’s examine how Safe Attachments works:
 1.  **Selecting attachments to test.** Safe Attachments works on email attachments that are received from both senders within an organization and external senders who are outside the organization. The feature protects an organization according to policies that are set by its Microsoft 365 Enterprise or security administrators. When a Safe Attachments policy is in place and someone covered by that policy views their email in Microsoft 365, their email attachments are checked. Appropriate actions are then taken based on the organization’s Safe Attachments policies.
 2.  **Attachment testing.** Attachments are tested in virtual environments that run different versions of the Windows operating system and applications. The attachments are executed, or "detonated". They then undergo behavioral analysis to determine if the file executes malicious behavior. For example, a malicious attachment may install a Trojan horse. Or, it may install a virus that makes changes to the registry or system settings. These types of viruses result in the system and network being more vulnerable to attack.
 
-    > [!NOTE]
-    > Safe Attachments scanning takes place in the same region where your Microsoft 365 data resides.
+> [!NOTE]
+> Safe Attachments scanning takes place in the same region where your Microsoft 365 data resides.
 
 Safe Attachments protection for email messages is controlled by Safe Attachments policies. There's no default Safe Attachments policy. However, the Built-in protection preset security policy provides Safe Attachments protection to all recipients (users who aren't defined in custom Safe Attachments policies). You can also create Safe Attachments policies that apply to specific users, group, or domains.
 
