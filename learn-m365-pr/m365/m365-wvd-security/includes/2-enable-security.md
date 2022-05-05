@@ -58,8 +58,8 @@ Security processes and components contribute to this Azure AD identity as a serv
 
 The following load-balancing methods are available in Azure Virtual Desktop. Breadth-first load balancing and depth-first load balancing permit the customization for Azure Virtual Desktop host pools to match your deployment needs.
 
-- Breadth-first is the default configuration that distributes new user sessions throughout the hosts in a host pool. The breadth-first load-balancing method allows you to distribute user connections to optimize for this scenario. This method is ideal for organizations that want to provide the best experience for users connecting to their pooled virtual desktop environment.
-- Depth-first connects new user sessions to a multiple-session host until the maximum connections are reached. This configuration is typically used to reduce cost.
+- Breadth-first is the default configuration that evenly distributes user sessions throughout the session hosts in a host pool. The breadth-first load-balancing method allows you to distribute user connections to optimize for this scenario. This method is ideal for organizations that want to provide the best experience for users connecting to their pooled virtual desktop environment.
+- Depth-first connects new user sessions to a multiple-session host until the maximum connections are reached. This method allows you to saturate one session host at a time to optimize for scale down scenarios. Depth-first load-balancing is typically used to reduce cost and enable more granular control on the number of virtual machines allocated for a host pool.
 
 Several Remote Desktop clients and the most popular partner OS devices include support for Azure Virtual Desktop. Windows Desktop and Microsoft Store Client are two Remote Desktop clients that include this support. You can:
 
