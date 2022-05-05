@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.ensuring-okr-program-success.summary
+title: Summary
+metadata:
+  unitType: summary
+  title: Summary
+  description: Understand how OKR Champions can help ensure the long-term success of the OKR program 
+  ms.date: 05/05/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/summary.md)] <br><br>**IMPORTANT** - Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
