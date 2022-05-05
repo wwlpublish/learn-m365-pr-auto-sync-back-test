@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.role-of-champion.how-to-communicate-effectively-with-your-team
+title: How to communicate effectively with your team
+metadata:
+  unitType: learning-content
+  title: How to communicate effectively with your team
+  description: Learn how effective communication is a key component of being an OKR Champion
+  ms.date: 05/05/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/how-to-communicate-effectively-with-your-team.md)]
