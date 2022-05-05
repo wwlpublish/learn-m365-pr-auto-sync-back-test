@@ -27,7 +27,7 @@ quiz:
       explanation: "This answer is incorrect. Running Azure AD Connect is a prerequisite to configuring Public Folder coexistence. Since Holly has satisfied the Public Folder coexistence requirements, this task is already complete."
     - content: "Enable the Exchange Online organization to access the on-premises Public Folder mailboxes by pointing to the company's Public Folder mailboxes"
       isCorrect: true
-      explanation: "This answer is correct. For Exchange Server 2013 or later, you must enable the Exchange Online organization to access the on-premises Public Folders by pointing to to your Public Folder mailboxes."
+      explanation: "This answer is correct. For Exchange Server 2013 or later, you must enable the Exchange Online organization to access the on-premises Public Folders by pointing to your Public Folder mailboxes."
   - content: "When must an organization manually configure OAuth?"
     choices:
     - content: "When the hybrid deployment uses federated delegation"
