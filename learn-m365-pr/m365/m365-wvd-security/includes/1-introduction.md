@@ -14,7 +14,7 @@ In this module, you'll learn how to:
 > [!NOTE]
 > If you perform the exercise in this module, you might incur costs in your Azure subscription. To estimate the costs, see [Windows Virtual Machines pricing](https://azure.microsoft.com/pricing/details/virtual-machines/windows/?azure-portal=true).
 
-## Prerequisits
+## Prerequisites
 
 - An Azure account with an [active subscription](https://azure.microsoft.com/free)
 - Intermediate knowledge of Microsoft Azure services such as core Azure compute, storage, networking, and virtualization technologies.
