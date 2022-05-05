@@ -2,7 +2,7 @@ Users are quick to report when Azure AD Connect pass-through authentication (PTA
 
 ### Pass-through authentication troubleshooting
 
-Pass-through authentication (PTA) enables an organization's premises domain controllers to authenticate users when they access Azure cloud services such as Exchange Online. When pass-through authentication isn’t working, users are still prompted to input their credentials. However, there will often be a long pause during validation, and it will fail with an error message.
+Pass-through authentication (PTA) enables an organization's on-premises domain controllers to authenticate users when they access Azure cloud services such as Exchange Online. When pass-through authentication isn’t working, users are still prompted to input their credentials. However, there will often be a long pause during validation, and it will fail with an error message.
 
 Let’s walk through a couple of common pass-through authentication failure scenarios:
 
