@@ -46,7 +46,7 @@ There are 2 types of **Projects**:
 
 - **Integrated Projects** - These are Projects whose progress is managed via an integration with an outside project management tool.
 
-Projects can either created directly underneath the Key Result they're supporting or as a standalone effort. To add a **Project** as a standalone effort, select the **Projects** tab for the entity for which the Project is being created.
+Projects can be created directly underneath the Key Result they're supporting or as a standalone effort. To add a **Project** as a standalone effort, select the **Projects** tab for the entity for which the Project is being created.
 
 1. Select **+ Add Project** and follow the same steps as listed below.
 1. To add a **Project** that is aligned to the Key Result it's supporting, navigate to that **Key Result**.

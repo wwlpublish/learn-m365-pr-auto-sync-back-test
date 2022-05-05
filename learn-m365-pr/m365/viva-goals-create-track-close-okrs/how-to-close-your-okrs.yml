@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.viva-goals-create-track-close-okrs.close---how-to-close-your-okrs
+uid: learn-m365.viva-goals-create-track-close-okrs.how-to-close-your-okrs
 title: Close - How to close your OKRs
 metadata:
   unitType: learning-content
@@ -12,4 +12,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 2
 content: |
-  [!include[](includes/close---how-to-close-your-okrs.md)]
+  [!include[](includes/how-to-close-your-okrs.md)]
