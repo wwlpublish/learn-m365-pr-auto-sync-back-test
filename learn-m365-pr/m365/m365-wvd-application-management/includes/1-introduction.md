@@ -8,7 +8,7 @@ Contoso is considering using the new Microsoft application delivery technology, 
 
 At the end of this module, you'll be able to:
 
-- Describe the benefits of MSIX and MSIX app attach
+- Describe the benefits of MSIX and MSIX app attach.
 - Deploy MSIX app attach.
 - Transform existing applications by using the MSIX packaging tool.
 
