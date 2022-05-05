@@ -21,7 +21,7 @@ prerequisites: |
     - Server and client management concepts and tools.
     - Windows virtualization technologies, such as Remote Desktop Services.
     - Common Windows Server management tools.
-    - Core Microsoft compute, storage, networking, and virtualization technologies.
+    - Microsoft compute, storage, networking, and virtualization technologies.
   - Beginner-level experience with Application deployment and Azure Virtual Desktop.
   - Windows 10 Enterprise and Windows 10 Enterprise multi-session, version 2004 or later.
 iconUrl: /learn/achievements/wvd-msix-app-attach.svg
