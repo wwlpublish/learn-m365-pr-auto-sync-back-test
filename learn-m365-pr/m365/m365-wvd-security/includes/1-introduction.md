@@ -18,8 +18,7 @@ In this module, you'll learn how to:
 
 - An Azure account with an [active subscription](https://azure.microsoft.com/free)
 - Intermediate knowledge of Microsoft Azure services such as core Azure compute, storage, networking, and virtualization technologies.
-  - Intermediate knowledge of Azure operational concepts, such as monitoring, logging, and alerting.
-  - Familiarity with Azure Virtual Desktop.
-  - Knowledge of security concepts at a fundamental level.
-  - An Azure subscription to enable a Azure Virtual Desktop deployment by using setup scripts. 
-  - The Remote Desktop app for Windows. If you're using an operating system other than Windows, download the appropriate Remote Desktop client by using the links in the [Remote Desktop clients](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients) article.
+- Intermediate knowledge of Azure operational concepts, such as monitoring, logging, and alerting.
+- Familiarity with Azure Virtual Desktop.
+- Knowledge of security concepts at a fundamental level. 
+- The Remote Desktop app for Windows. If you're using an operating system other than Windows, download the appropriate Remote Desktop client by using the links in the [Remote Desktop clients](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients) article.
