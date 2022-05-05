@@ -6,4 +6,4 @@ OKRs are a strategy execution program that lets you layer up to your organizatio
 
 :::image type="content" source="../media/connect-work-mission.jpg" alt-text="Image showing how OKRs help connect the work you do to the mission of your organization.":::
 
-By the end of this module, you will be able to define the key components of an OKR and how they fit together in the OKR framework, describe the five OKR superpowers, and explain the Emotional Cycle of Change.
+By the end of this module, you'll be able to define the key components of an OKR and how they fit together in the OKR framework, describe the five OKR superpowers, and explain the Emotional Cycle of Change.
