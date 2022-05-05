@@ -23,7 +23,7 @@ The **New View** area will start to display all the OKR data in Viva Goals. To b
 1. Select **+ Add filter**.
 1. Select the relevant data point(s) then follow the steps required to choose your parameters.
     1. You can carry on adding filters until you have the View that meets your needs.
-1. When you are ready to save, select **Save as new**.
+1. When you're ready to save, select **Save as new**.
 1. Enter a name for the View in the **View name** field.
 1. Set your privacy settings.
     1. If you want your View to be available to everyone in your organization, select **Public**.
@@ -59,7 +59,7 @@ The screen will now be displaying OKRs that have not been updated for more than 
 - **Team**: Standups and Bi-weekly progress updates
 - **Individual**: One on Ones
 
-You can create a number of **Panels** within the Review Dashboard. Panels can be designed to focus on a particular subject or area of interest. To these you can add **Widgets** that will display a set of data you have selected. The data displayed in Review Dashboards is not exportable.
+You can create a number of **Panels** within the Review Dashboard. Panels can be designed to focus on a particular subject or area of interest. To these you can add **Widgets** that will display a set of data you've selected. The data displayed in Review Dashboards is not exportable.
 
 Your colleagues can at any time review the data displayed in the Review Dashboard, fostering collaboration, and allowing you to identify potential bottlenecks or areas of duplication.
 
@@ -90,7 +90,7 @@ You can add any number of Widgets to a Panel.
 
 1. When you are ready to create a new Panel, select **Save** to save the current one.
 1. Then select **+ Add another panel to the dashboard** and begin adding Widgets.
-1. If at any point you wish to change a Panel you have created, select the **More actions** button on the Panel.
+1. If at any point you wish to change a Panel you've created, select the **More actions** button on the Panel.
 
 When your **Review Dashboard** is complete, you can choose to make the Dashboard only viewable by you, viewable by a particular group of users, or available to all your colleagues in the organization.
 

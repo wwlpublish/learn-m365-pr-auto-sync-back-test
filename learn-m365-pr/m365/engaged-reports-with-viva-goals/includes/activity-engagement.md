@@ -13,7 +13,7 @@ To **Follow** a Team or Individual:
 1. Select the required Team.
 1. At the Team Level, select the **Follow** icon.
 
-When successfully selected, an icon will show you are **Following** the Team. You will now receive regular updates on that Team's progress based on a default schedule. You can adjust when you get these notifications by selecting the gear icon.
+When successfully selected, an icon will show you're **Following** the Team. You will now receive regular updates on that Team's progress based on a default schedule. You can adjust when you get these notifications by selecting the gear icon.
 
 ## Bookmark
 
@@ -24,7 +24,7 @@ To **Bookmark** a Team or Individual, navigate to the required entity by clickin
 1. Select the appropriate Team or Individual.
 1. Select the **Bookmark** icon.
 
-When successfully selected, the icon will show you have **Bookmarked** them. Along with Teams and Individuals, you can also **Bookmark** reports in the **Explorer** tab. Your bookmarked **Team**, **Individual** or **Explorer View** will now appear in the **Bookmarks** tab.
+When successfully selected, the icon will show you've **Bookmarked** them. Along with Teams and Individuals, you can also **Bookmark** reports in the **Explorer** tab. Your bookmarked **Team**, **Individual** or **Explorer View** will now appear in the **Bookmarks** tab.
 
 ## Like
 
@@ -33,7 +33,7 @@ To show support for your colleagues, you can **Like** activities they perform wi
 To **Like** an activity within the Feed:
 
 1. Select the **Feed** tab.
-    1. The **Activity** section will display activity from across your organization, as well as from Teams and People you have followed.
+    1. The **Activity** section will display activity from across your organization, as well as from Teams and People you've followed.
     1. Each activity will display a **Like** and **Comment** icon.
 1. Select the **Like** icon to show your approval or acknowledgment of an activity.
 
@@ -44,7 +44,7 @@ To engage with your colleagues and foster collaboration, you can **Comment** on 
 To **Comment** on an activity, select the **Comment** icon.
 
 1. Select the **Feed** tab.
-    1. The **Activity** section will display activity from across your organization, as well as from Teams and People you have followed.
+    1. The **Activity** section will display activity from across your organization, as well as from Teams and People you've followed.
     1. Each activity will display a **Like** and **Comment** icon.
 1. Select the **Comment** icon.
     1. This will open the comment box where you can enter your text. There are some formatting options such as **Bold**, **Italic**, and **Lists**.
@@ -52,6 +52,6 @@ To **Comment** on an activity, select the **Comment** icon.
         1. To do this, type **@**, then start to type your colleague's name.
         1. Suggested individuals will be auto-populated in the dropdown menu.
         1. Select the appropriate individual.
-1. When you are ready to publish your comment, select the **Comment** button.
+1. When you're ready to publish your comment, select the **Comment** button.
 
-Your comment will now appear in the **Feed** under the relevant activity. Any individuals you have **@** mentioned will receive an alert in the **Notification** tab. They will also receive a notification outside of the Viva Goals platform either via email or their collaboration platform, based on their settings.
+Your comment will now appear in the **Feed** under the relevant activity. Any individuals you've **@** mentioned will receive an alert in the **Notification** tab. They'll also receive a notification outside of the Viva Goals platform either via email or their collaboration platform, based on their settings.
