@@ -1,7 +1,7 @@
 In this exercise, you'll create a SharePoint Framework (SPFx) field customizer extension that will display a colored bar in a column with a percentage of the bar filled depending on the value in the field.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.13.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
 
 Open a command prompt and change to the folder where you want to create the project.
 
@@ -11,19 +11,15 @@ Run the SharePoint Yeoman generator by executing the following command:
 yo @microsoft/sharepoint
 ```
 
-Use the following to complete the prompt that is displayed (*if additional options are presented, accept the default answer)*:
+Use the following to complete the prompt that is displayed (*if more options are presented, accept the default answer)*:
 
 - **What is your solution name?**: SPFxFieldCustomizer
-- **Only SharePoint Online (latest) is supported. For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
-- **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
-- **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No
 - **Which type of client-side component to create?**: Extension
 - **What type of client-side extension to create?**: Field Customizer
 - **What is your Field Customizer name?**: HelloFieldCustomizer
-- **What is your Field Customizer description?**: HelloFieldCustomizer description
-- **Which framework would you like to use?**: No JavaScript Framework
+- **Which framework would you like to use?**: No framework
 
-After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, open the project folder in **Visual Studio Code**.
+After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When npm completes downloading all dependencies, open the project folder in **Visual Studio Code**.
 
 ## Update the SCSS styles
 
@@ -109,7 +105,7 @@ When the list loads, select the **Add column > Number** to create a new column.
 
 ![Screenshot modifying existing SharePoint list](../media/05-field-customizer-setup-list-03.png)
 
-In the **Create a column** dialog, set Name to **PercentComplete** and select **Save**.
+In the **Create a column** panel, set Name to **PercentComplete** and select **Save**.
 
 Add a few items to the list, such as the following figure:
 
@@ -174,7 +170,7 @@ gulp serve
 
 When prompted, select the **Load debug scripts** button.
 
-When the page loads, notice how the rendering has changed according to the code in your field customizer. If the PercentComplete field values do not render, switch back to the command prompt, wait for the **reload** subtask to finish executing, and then refresh.
+When the page loads, notice how the rendering has changed according to the code in your field customizer. If the PercentComplete field values don't render, switch back to the command prompt, wait for the **reload** subtask to finish executing, and then refresh.
 
 ![Screenshot of the field customizer](../media/05-field-customizer-test.png)
 

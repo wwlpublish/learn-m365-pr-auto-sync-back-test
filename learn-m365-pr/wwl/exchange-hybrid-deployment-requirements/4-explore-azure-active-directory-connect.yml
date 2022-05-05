@@ -4,7 +4,7 @@ title: Explore Azure Active Directory Connect
 metadata:
   title: Explore Azure Active Directory Connect
   description: "Explore Azure Active Directory Connect"
-  ms.date: 03/09/2022
+  ms.date: 05/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "New user objects in on-premises AD DS are added to Microsoft 365, and Microsoft 365 licenses are automatically assigned to these objects"
       isCorrect: false
-      explanation: "This answer is incorrect. Microsoft 365 licenses aren't automatically assigned to these objects. Try again."
+      explanation: "This answer is incorrect. Microsoft 365 licenses aren't automatically assigned to these objects."
     - content: "Attributes of existing user, group, or contact objects that are modified in on-premises AD DS are modified in Microsoft 365; however, not all on-premises AD DS attributes are synchronized to Microsoft 365"
       isCorrect: true
       explanation: "This answer is correct. Attributes of existing user, group, or contact objects that are modified in on-premises AD DS are modified in Microsoft 365. However, not all on-premises AD DS attributes are synchronized to Microsoft 365."
     - content: "Existing user objects that are disabled on-premises are disabled in Microsoft 365, and licenses of the disabled objects are automatically unassigned"
       isCorrect: false
-      explanation: "This answer is incorrect. Licenses aren't automatically unassigned. Try again."
+      explanation: "This answer is incorrect. Licenses aren't automatically unassigned."

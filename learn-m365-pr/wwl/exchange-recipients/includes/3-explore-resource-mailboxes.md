@@ -9,13 +9,13 @@ A user mailbox is the most common type of recipient because one is created for e
 
 A user can use their mailbox to:
 
- -  Send and receive messages
- -  Store messages
- -  Schedule meetings and appointments
- -  Maintain task lists
- -  Write notes
- -  Store documents
- -  Manage contacts
+ -  Send and receive messages.
+ -  Store messages.
+ -  Schedule meetings and appointments.
+ -  Maintain task lists.
+ -  Write notes.
+ -  Store documents.
+ -  Manage contacts.
 
 User mailboxes can be accessed from different types of clients, such as Outlook, Outlook on the Web, Outlook Mobile, and third-party clients.
 

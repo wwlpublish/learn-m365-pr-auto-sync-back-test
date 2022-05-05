@@ -3,7 +3,7 @@ In this exercise, you'll create a new SharePoint Framework project with a single
 ## Create the SharePoint Framework solution
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.13.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
 
 Open a command prompt and change to the folder where you want to create the project. Run the SharePoint Yeoman generator by executing the following command
 
@@ -11,18 +11,14 @@ Open a command prompt and change to the folder where you want to create the proj
 yo @microsoft/sharepoint
 ```
 
-Use the following to complete the prompt that is displayed (*if additional options are presented, accept the default answer)*:
+Use the following to complete the prompt that is displayed (*if more options are presented, accept the default answer)*:
 
 - **What is your solution name?**: SPFxAadHttpClient
-- **Only SharePoint Online (latest) is supported. For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
-- **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
-- **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No
 - **Which type of client-side component to create?**: WebPart
 - **What is your Web part name?**: SPFxAadHttpClient
-- **What is your Web part description?**: SPFxAadHttpClient description
 - **Which framework would you like to use?**: React
 
-After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, open the project in **Visual Studio Code**.
+After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When npm completes downloading all dependencies, open the project in **Visual Studio Code**.
 
 ## Create an interface that reflects the results of the query
 
@@ -53,75 +49,61 @@ import { IUserItem } from '../../../models/IUserItem';
 
 export interface ISpFxAadHttpClientProps {
   userItems: IUserItem[];
+  isDarkTheme: boolean;
+  environmentMessage: string;
+  hasTeamsContext: boolean;
+  userDisplayName: string;
 }
 ```
 
 Locate and open the file **./src/webparts/spFxAadHttpClient/components/SpFxAadHttpClient.module.scss**.
 
-Add the following classes to the bottom of the file, immediately before the closing `}`:
+Add the following to the bottom of the file:
 
 ```scss
-.list {
-  color: $ms-color-themeDark;
-  background-color: $ms-color-themeLight;
-  font-family: 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  box-sizing: border-box;
-  margin: 0 0;
-  padding: 10px 0 100px 0;
-  line-height: 50px;
-  list-style-type: none;
-}
-
-.item {
-  color: $ms-color-themeDark;
-  background-color: $ms-color-themeLighterAlt;
-  vertical-align: center;
-  font-family: 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  box-shadow: none;
-  *zoom: 1;
-  padding: 0 15px;
-  position: relative;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+.mail {
+  padding-top: 20px;
 }
 ```
 
 Locate and open the file **./src/webparts/spFxAadHttpClient/components/SpFxAadHttpClient.tsx**.
 
-Update the markup returned by the `render()` method to the following code. This will create a list using the CSS classes with each item displaying the properties of a user returned from the call to Microsoft Graph:
+Update the contents of the `render()` method to the following code. This will create a list with each item displaying the properties of a user returned from the call to Microsoft Graph:
 
 ```tsx
-<div className={ styles.spFxAadHttpClient }>
-  <div className={ styles.container }>
-    <div className={ styles.row }>
-      <div className={ styles.column }>
-        <span className={ styles.title }>AadHttpClient Demo</span>
+public render(): React.ReactElement<ISpFxAadHttpClientProps> {
+  const {
+    userItems,
+    isDarkTheme,
+    environmentMessage,
+    hasTeamsContext,
+    userDisplayName
+  } = this.props;
+
+  return (
+    <section className={`${styles.spFxAadHttpClient} ${hasTeamsContext ? styles.teams : ''}`}>
+      <div className={styles.welcome}>
+        <img alt="" src={isDarkTheme ? require('../assets/welcome-dark.png') : require('../assets/welcome-light.png')} className={styles.welcomeImage} />
+        <h2>Well done, {escape(userDisplayName)}!</h2>
+        <div>{environmentMessage}</div>
       </div>
-    </div>
-
-    <div className={ styles.row }>
-      <div><strong>Mail:</strong></div>
-      <ul className={ styles.list }>
-        { this.props.userItems &&
-          this.props.userItems.map((user) =>
-            <li key={ user.id } className={ styles.item }>
-              <strong>ID:</strong> { user.id }<br />
-              <strong>Email:</strong> { user.mail }<br />
-              <strong>DisplayName:</strong> { user.displayName }
-            </li>
-          )
-        }
-      </ul>
-    </div>
-
-  </div>
-</div>
+      <div className={styles.mail}>
+        <div><strong>Mail:</strong></div>
+        <ul>
+          {this.props.userItems &&
+            this.props.userItems.map((user) =>
+              <li key={user.id}>
+                <strong>ID:</strong> {user.id}<br />
+                <strong>Email:</strong> {user.mail}<br />
+                <strong>DisplayName:</strong> {user.displayName}
+              </li>
+            )
+          }
+        </ul>
+      </div>
+    </section>
+  );
+}
 ```
 
 ## Call Microsoft Graph
@@ -172,15 +154,19 @@ public render(): void {
   if (!this.renderedOnce) {
     this._getUsers()
       .then((results: IUserItem[]) => {
-        const element: React.ReactElement<ISpFxAadHttpClientProps > = React.createElement(
+        const element: React.ReactElement<ISpFxAadHttpClientProps> = React.createElement(
           SpFxAadHttpClient,
           {
-            userItems: results
+            userItems: results,
+            isDarkTheme: this._isDarkTheme,
+            environmentMessage: this._environmentMessage,
+            hasTeamsContext: !!this.context.sdks.microsoftTeams,
+            userDisplayName: this.context.pageContext.user.displayName
           }
-      );
+        );
 
-      ReactDom.render(element, this.domElement);
-    });
+        ReactDom.render(element, this.domElement);
+      });
   }
 }
 ```
@@ -228,32 +214,29 @@ gulp package-solution --ship
 
 In the browser, navigate to your SharePoint Online Tenant App Catalog.
 
-> [!TIP]
-> Creation of the Tenant App Catalog site is one of the steps in the **[Getting Started > Set up Office 365 Tenant](/sharepoint/dev/spfx/set-up-your-developer-tenant)** setup documentation.
+Microsoft is in the process of transitioning from the classic app catalog user experience to a modern app catalog user experience. If you see the classic app catalog, you can select the **Try the new Manage Apps page** link displayed at the top of the page, or you can add **/_layouts/15/tenantAppCatalog.aspx** to the end of the app catalog site URL. Either option should take you to the modern app catalog (i.e. the **Manage Apps** page).
 
-Select the **Apps for SharePoint** link in the navigation:
+![Screenshot of the classic app catalog](../media/classic-app-catalog.png)
 
-![Screenshot of the navigation in the SharePoint Online Tenant App Catalog](../media/tenant-app-catalog-01.png)
+![Screenshot of the modern app catalog](../media/modern-app-catalog.png)
 
 Drag the generated SharePoint package from **/sharepoint/solution/sp-fx-aad-http-client.sppkg** into the **Apps for SharePoint** library.
 
-In the **Do you trust sp-fx-aad-http-client-side-solution?** dialog, select **Deploy**.
+In the **Enable app** panel, make note of the section that lists the API access requests that should be reviewed. You'll need to approve or reject these requests in the next step. Ensure the **Enable this app and add it to all sites** radio button is selected and then select **Enable app**.
 
-![Screenshot of trusting a SharePoint package](../media/05-azure-ad-add-package-01.png)
+![Screenshot of Enable app panel](../media/05-enable-app-01.png)
+
+In the **Approve access so this app works as designed** panel, select **Go to API access page**. This will take you to the **API access** page in the **SharePoint admin center**.
+
+![Screenshot of Approve access panel](../media/05-enable-app-02.png)
 
 ## Approve the API permission request
 
-Navigate to the SharePoint Admin Portal located at **https://{{REPLACE_WITH_YOUR_TENANTID}}-admin.sharepoint.com/_layouts/15/online/AdminHome.aspx**, replacing the domain with your SharePoint Online's administration tenant URL.
-
-In the navigation, select **Advanced > API access**:
-
-![Screenshot of the API management page](../media/sharepoint-admin-portal-01.png)
-
 Select the **Pending approval** for the **Microsoft Graph** permission **User.ReadBasic.All**.
 
-![Screenshot of the permission requests pending approval](../media/sharepoint-admin-portal-02.png)
+![Screenshot of the permission requests pending approval](../media/sharepoint-admin-portal-01.png)
 
-Select the **Approve** button, then select the **Approve** button in the **Approve access** dialog.
+Select the **Approve** button, then select the **Approve** button in the **Approve access** panel.
 
 ## Test the web part
 
@@ -261,18 +244,6 @@ Select the **Approve** button, then select the **Approve** button in the **Appro
 > The SharePoint Framework includes a SharePoint-hosted workbench for testing custom solutions. However, the workbench will not work the first time when testing solutions that utilize Microsoft Graph due to nuances with how the workbench operates and authentication requirements. Therefore, the first time you test a Microsoft Graph enabled SPFx solution, you will need to test it in a real modern page.
 >
 > Once this has been done and your browser has been cookied by the Azure AD authentication process, you can leverage local webserver and SharePoint-hosted workbench for testing the solution.
-
-### Add the web part to your site collection
-
-In a browser, navigate to a SharePoint Online site.
-
-In the Office 365 gear, select **Add an app**.
-
-In site navigation, select **From my organization**.
-
-Select the **Add** button in the **sp-fx-aad-http-client-side-solution** tile to add your web part.
-
-![Screenshot of the Apps you can add dialog](../media/05-add-app.png)
 
 ### Test the web part on a SharePoint Online modern page
 
