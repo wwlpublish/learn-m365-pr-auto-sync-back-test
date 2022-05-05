@@ -14,7 +14,7 @@ durationInMinutes: 4
 content: |
 quiz:
   questions:
-  - content: "What is the definition of an Objective?"
+  - content: "What's the definition of an Objective?"
     choices:
     - content: "The mission statement of your company."
       isCorrect: false
@@ -24,12 +24,12 @@ quiz:
       explanation: "That's incorrect. Remember that the purpose of Objectives is to provide clarify and specificity in order to help you achieve your goals."
     - content: "What you want to accomplish."
       isCorrect: true
-      explanation: "That's correct. Objectives are the goals that the individual, team or company wants to accomplish."
-  - content: "What is the definition of a Key Result?"
+      explanation: "Correct. Objectives are the goals that the individual, team or company wants to accomplish."
+  - content: "What's the definition of a Key Result?"
     choices:
-    - content: "How you will measure success (outcome)"
+    - content: "How you'll measure success (outcome)"
       isCorrect: true
-      explanation: "That's correct. Key Results are the specific metrics you will use to ensure you meet your Objective."
+      explanation: "Correct. Key Results are the specific metrics you'll use to ensure you meet your Objective."
     - content: "A group of tasks oriented toward long-term success."
       isCorrect: false
       explanation: "That's incorrect. Remember that Key Results are specific to your Objective and ensure that you can achieve your goal."
@@ -43,22 +43,22 @@ quiz:
       explanation: "That's incorrect. Remember that Projects are a particular production related to achieving the Objective."
     - content: "Focused efforts (outputs) that help you achieve Key Results."
       isCorrect: true
-      explanation: "That's correct. Projects or Key Indicators are something produced in order to fulfill the Key Result."
+      explanation: "Correct. Projects or Key Indicators are something produced in order to fulfill the Key Result."
     - content: "A weighted Objective that is prioritized across the entire company."
       isCorrect: false
       explanation: "That's incorrect. Remember that Projects are a particular production related to achieving the Objective."
-  - content: "What are the 6 OKR Superpowers?"
+  - content: "What are the six OKR superpowers?"
     choices:
     - content: "Collaboration, Networking, Personal Success, Transparency, Purpose, Focus."
       isCorrect: false
       explanation: "That's incorrect. Remember that the Superpowers are related to a goal-setting system that empower the entire company."
-    - content: "That's correct. Focus, Alignment, Tracking, Transparency, Stretch, Integrated Evolution."
+    - content: "Correct. Focus, Alignment, Tracking, Transparency, Stretch, Integrated Evolution."
       isCorrect: true
-      explanation: "These 6 Superpowers are what makes the OKR framework an effective system for achieving goals."
+      explanation: "These six superpowers are what makes the OKR framework an effective system for achieving goals."
     - content: "Stretch, Scheduling, Intuition, Evolution, Adaptation, Alignment."
       isCorrect: false
       explanation: "That's incorrect. Remember that the Superpowers are related to a goal-setting system that empower the entire company."
-  - content: "What is the Emotional Cycle of Change?"
+  - content: "What's the Emotional Cycle of Change?"
     choices:
     - content: "The cycle from anger to acceptance that people experience in the first meeting when change is introduced."
       isCorrect: false
@@ -68,4 +68,4 @@ quiz:
       explanation: "That's incorrect. Remember that the Emotional Cycle of change has multiple stages and can take some time for people to move through."
     - content: "The journey from Uninformed Optimism to Success & Fulfillment that people experience as they process change."
       isCorrect: true
-      explanation: "That's correct. The Emotional Cycle of Change outlines the 5 stages most common in navigating a new experience."
+      explanation: "Correct. The Emotional Cycle of Change outlines the five stages most common in navigating a new experience."
