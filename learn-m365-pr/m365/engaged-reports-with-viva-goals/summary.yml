@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.Engaged reports with Viva Goals.summary
+title: Summary
+metadata:
+  unitType: summary
+  title: Summary
+  description: Viva Goals has different ways to interact with the data that lives inside of Viva Goals.
+  ms.date: 05/05/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/summary.md)] 
