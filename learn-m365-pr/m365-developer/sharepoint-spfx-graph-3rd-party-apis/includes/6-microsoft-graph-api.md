@@ -91,7 +91,7 @@ client.api('/me')
 
 ## Use the Microsoft Graph in SharePoint Framework solutions
 
-You can use Microsoft Graph in your custom SharePoint Framework solutions. Microsoft Graph is a service that is secured with Azure AD. The SharePoint Framework leverages the same infrastructure for requesting and granting permissions to Azure AD secured APIs as it does for custom Azure AD secured APIs. The unit on **Call Azure AD secured third-party REST APIs** explains how the SharePoint Framework API can be used to call Azure AD secured endpoints.
+You can use Microsoft Graph in your custom SharePoint Framework solutions. Microsoft Graph is a service that is secured with Azure AD. The SharePoint Framework uses the same infrastructure for requesting and granting permissions to Azure AD secured APIs as it does for custom Azure AD secured APIs. The unit on **Call Azure AD secured third-party REST APIs** explains how the SharePoint Framework API can be used to call Azure AD secured endpoints.
 
 The SharePoint Framework API includes the Microsoft Graph JavaScript SDK and also handles the initialization of the client. This is handled using the existing Azure AD support to obtain an access token.
 
@@ -134,21 +134,24 @@ Each request must include the name of the REST API (`resource`) and the permissi
 
 ## Add SharePoint packages to the SharePoint App Catalog
 
-When an administrator deploys the SharePoint Framework component to the tenant App Catalog, they're presented with an additional message in the trust dialog prompt:
+> [!NOTE]
+> What's been referred to as **permission** requests above, are referred to as **API access** requests in the user interface for the app catalog and the SharePoint Admin Center. You can consider permission requests and API access requests to be synonymous. The term API access requests will be used for the remainder of this unit.
 
-![Screenshot of the trust dialog](../media/07-tenant-app-catalog-02.png)
+When an administrator deploys the SharePoint Framework component to the tenant App Catalog, they're presented with information about API access requests in the **Enable app** panel:
 
-This message instructs the administrator this solution contains permission requests that should be reviewed and approved or rejected. Recall that permissions aren't tied to the SharePoint Framework package. Approving or rejecting the permissions is a separate step that must be done in order for the SharePoint Framework component to work.
+![Screenshot of the trust dialog](../media/07-enable-app-01.png)
 
-### Approve or reject permission requests from the SharePoint Admin Center
+This section of the panel lists the API access requests that should be reviewed and approved or rejected. Recall that API access requests aren't tied to the SharePoint Framework package. Approving or rejecting the API access requests is a separate step that must be done in order for the SharePoint Framework component to work.
 
-To approve or reject permission requests, navigate to the **API Management** page in the **SharePoint Admin Center**. Here you'll find a list of permission requests pending approval or rejection:
+### Approve or reject API access requests from the SharePoint Admin Center
 
-![Screencast of the API management page in the SharePoint Admin Center](../media/sharepoint-admin-portal-01.png)
+To approve or reject API access requests, navigate to the **API access** page in the SharePoint Admin Center. Here you'll find a list of API access requests pending approval or rejection:
 
-Select the permission request to view its details and use the buttons at the bottom of the panel to approve or reject the request:
+![Screencast of the API management page in the SharePoint Admin Center](../media/sharepoint-admin-portal-02.png)
 
-![Screencast of the API management page in the SharePoint Admin Center - Approve/decline access request dialog](../media/sharepoint-admin-portal-03.png)
+Select the API access request to view its details and use the buttons at the bottom of the panel to approve or reject the request:
+
+![Screencast of the API management page in the SharePoint Admin Center - Approve/Decline access request dialog](../media/sharepoint-admin-portal-03.png)
 
 ## Summary
 

@@ -32,7 +32,7 @@ When building client-side applications, developers commonly use web frameworks. 
 
 You'll also want to get a code editor to develop your project. Most developers are use Visual Studio Code by Microsoft. It's a lightweight version of Visual Studio and is just a text editor that understands TypeScript and can be customized using extensions.
 
-However, you aren't limited to Visual Studio Code. You can choose a different editor if you wanted to. Something as simple as notepad, Atom, Sublime, or WebStorm will work as well. It doesn't matter what you use as all development is done though text editors.
+However, you aren't limited to Visual Studio Code. You can choose a different editor if you wanted to. Something as simple as notepad, Atom, Sublime, or WebStorm will work as well. It doesn't matter what you use as all development is done through text editors.
 
 ## Server-side tool comparison
 
@@ -50,18 +50,18 @@ Let's look at each of the tools used in the SharePoint Framework development and
 
 ### Node.js
 
-Node.js is a JavaScript runtime for running JavaScript on devices outside of the browser. Its a wrapper to the V8 JavaScript engine from the Chromium open-source browser project with some extra APIs that allow the V8 engine to run outside of the browser. This enables JavaScript to run on desktops, laptops, servers, and other devices.
+Node.js is a JavaScript runtime for running JavaScript on devices outside of the browser. It's a wrapper to the V8 JavaScript engine from the Chromium open-source browser project with some extra APIs that allow the V8 engine to run outside of the browser. This enables JavaScript to run on desktops, laptops, servers, and other devices.
 
 > [!NOTE]
-> Chromium is the project both of the browsers Google Chrome and Microsoft Edge are based on.
+> Chromium is the project that Google Chrome and Microsoft Edge are based on.
 
-In the context of the SharePoint Framework, Node.js is needed as its the runtime for the development and build tools previously covered. The SharePoint Framework doesn't require you to become a Node.js developer, but you need to install it so the apps in the development and build toolchain will run.
+In the context of the SharePoint Framework, Node.js is needed as it's the runtime for the development and build tools previously covered. The SharePoint Framework doesn't require you to become a Node.js developer, but you need to install it so the apps in the development and build toolchain will run.
 
 When compared to the server-side toolchain, Node.js serves the same role as the .NET Framework.
 
 ### NPM: Node Package Manager
 
-NPM is a package manager for Node.js-based projects and is included with the Node.js installation. Its one of many package managers that can download and install packages from the npmjs.org registry.
+NPM is a package manager for Node.js-based projects and is included with the Node.js installation. It's one of many package managers that can download and install packages from the npmjs.org registry.
 
 When compared to the server-side toolchain, NPM serves the same role as NuGet.
 
@@ -77,7 +77,7 @@ Microsoft provides a generator to scaffold SharePoint Framework projects, both n
 
 ### Gulp
 
-Gulp is the task runner we use to do different tasks in our development and build process. Gulp executes tasks that are written in JavaScript. You'll use gulp to do things like building your project and transpiling the SASS files to CSS and TypeScript to JavaScript. You'll use other tasks to combine the resulting files into bundles and package the resulting files into a SharePoint package file used for deployment.
+Gulp is the task runner we use to do different tasks in our development and build process. Gulp executes tasks that are written in JavaScript. You'll use gulp to do things like building your project and transpiling the SAAS files to CSS and TypeScript to JavaScript. You'll use other tasks to combine the resulting files into bundles and package the resulting files into a SharePoint package file used for deployment.
 
 When compared to the server-side toolchain, Gulp serves the same role as MSBuild.
 
@@ -87,7 +87,7 @@ TypeScript is the language that you're going to write your SharePoint Framework 
 
 If you aren't familiar with JavaScript or you're not familiar with TypeScript, think of it as like a C# flavor to JavaScript. TypeScript's most popular features are type checking, the ability to use classes, and future features coming to JavaScript but not yet implemented or available except in preview.
 
-Similar to C# based projects, you don't deploy TypeScript to production. Rather its used to create intermediate files. The output of TypeScript is JavaScript, similar to how the output of C# is intermediate language (IL).
+Similar to C# based projects, you don't deploy TypeScript to production. Rather it's used to create intermediate files. The output of TypeScript is JavaScript, similar to how the output of C# is intermediate language (IL).
 
 When compared to the server-side toolchain, TypeScript serves the same role as C#.
 
