@@ -1,4 +1,4 @@
-Before we talk about entering and managing your OKRs within Viva Goals, it is helpful to familiarize yourself with the look of the system and how it is structured. Below we will look at the main features on the Viva Goals screen and how to navigate the system.
+Before we talk about entering and managing your OKRs within Viva Goals, it's helpful to familiarize yourself with the look of the system and how it's structured. Below we'll look at the main features on the Viva Goals screen and how to navigate the system.
 
 :::image type="content" source="../media/navigation.jpg" alt-text="Screenshot showing the Viva Goals screen.":::
 
@@ -8,7 +8,7 @@ The first key component to focus on is the **Time Period Selector (1)**.
 
 Selecting the relevant time period will help determine what OKR content is displayed in the main section of the screen.
 
-The time period(s) available to choose from can be customized depending on the needs of your organization. There is also the option to have multiple time periods selected at the same time.
+The time period(s) available to choose from can be customized depending on the needs of your organization. There's also the option to have multiple time periods selected at the same time.
 
 ## Navigation Sidebar (2)
 
@@ -16,7 +16,7 @@ Along the left of the screen is the Navigation Sidebar (2). This is where you ca
 
 ### OKR Entities
 
-There are 3 standard entities within Viva Goals: Individual, Team, Organization.
+There are three standard entities within Viva Goals: Individual, Team, Organization.
 
 These represent the different levels at which OKRs can be created.
 
@@ -26,7 +26,7 @@ These represent the different levels at which OKRs can be created.
 
 ### Bookmarks
 
-Select the **Bookmark** tab in the **Navigation Sidebar** to easily find Objective Explorer Views, Teams, and Individuals that you have previously bookmarked
+Select the **Bookmark** tab in the **Navigation Sidebar** to easily find Objective Explorer Views, Teams, and Individuals that you've previously bookmarked
 
 ### Explorer
 
