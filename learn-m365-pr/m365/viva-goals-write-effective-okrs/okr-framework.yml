@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.viva-goals-write-effective-okrs.writing-framework
+uid: learn-m365.viva-goals-write-effective-okrs.okr-framework
 title: Writing framework
 metadata:
   unitType: learning-content
@@ -12,4 +12,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 8
 content: |
-  [!include[](includes/writing-framework.md)]
+  [!include[](includes/okr-framework.md)]

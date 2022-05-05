@@ -29,9 +29,9 @@ products:
 - viva
 units:
 - learn-m365.viva-goals-write-effective-okrs.introduction
-- learn-m365.viva-goals-write-effective-okrs.writing-best-practices
-- learn-m365.viva-goals-write-effective-okrs.writing-framework
-- learn-m365.viva-goals-write-effective-okrs.okr-levels-and-alignment
+- learn-m365.viva-goals-write-effective-okrs.okr-best-practices
+- learn-m365.viva-goals-write-effective-okrs.okr-framework
+- learn-m365.viva-goals-write-effective-okrs.okr-levels-alignment
 - learn-m365.viva-goals-write-effective-okrs.knowledge-check
 - learn-m365.viva-goals-write-effective-okrs.summary
 badge:

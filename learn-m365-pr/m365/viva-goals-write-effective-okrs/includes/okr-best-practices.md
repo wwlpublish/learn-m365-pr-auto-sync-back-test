@@ -65,17 +65,19 @@ There are a few things to keep in mind as you begin or expand upon your OKR jour
 
 ### Best practices
 
-1. **Top down, bottom up**
+- **Top down, bottom up**
 
     Before you even get to your OKRs, you should be starting with your company's overall Mission, Vision, and Values. What is your company's reason for being? What motivates and inspires you? What is your sense of purpose? Being clear on this will help inform the strategy and direction you want to take.
 
     From there, senior leadership should start with a top-down approach, taking ownership and defining annual Objectives. These will then cascade down through Key Results throughout the organization.
 
     However, at a certain point you need to incorporate bottom-up input to fuel the specifics of your business. These individual employees are vital to communicating the critical day-to-day Key Results or Key Initiatives/Projects that will contribute back up to the overall mission of the company.
-1. **Think long term, then short term**
+
+- **Think long term, then short term**
 
     The most common time frame for goal setting is to first set long term goals to allow for a broader, more aspirational focus. Then, break out those goals into shorter segments to give enough time for projects that will take more than a few weeks, but are short enough to allow real progress to be made.
-1. **Keep it simple**
+
+- **Keep it simple**
 
     At every point in the OKR process, we urge you to keep things as simple as possible. Companies that struggle are the ones that try to do too much, too fast. Brainstorm the top 12 - 15 ideas you'd like to get accomplished, but then ruthlessly cut the list in half, and if possible, cut some more, limiting yourself to 3-5 Objectives, and 3-5 Key Results for each one.
 
