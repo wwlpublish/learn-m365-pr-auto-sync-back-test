@@ -195,3 +195,33 @@ achievements:
   title: Harness business intelligence with Microsoft 365 analytics and reporting
   summary: Learn fundamental knowledge of the reporting and analytics capabilities in Microsoft 365 as part of a simplified business management strategy.
   iconUrl: /learn/achievements/harness-business-intelligence-with-microsoft-365-analytics-and-reporting.svg
+- uid: learn-m365.select-a-cloud-deployment-model-for-m365.badge
+  type: badge
+  title: Select a cloud deployment model
+  summary: In this module, you’ll see how the cloud-only and hybrid deployments require different approaches and how an organization approaches migrating systems with older versions of Office, Windows, and Office Server to Microsoft 365.
+  iconUrl: /learn/achievements/select-a-cloud-deployment-model.svg
+- uid: learn.wwl.describe-identity-access-management-capabilities-of-microsoft-365.badge
+  type: badge
+  title: Describe the identity and access management capabilities of Microsoft 365
+  summary: Simplify and protect access to devices and apps with intelligent identity and access management to increase security and productivity with Microsoft 365.
+  iconUrl: /learn/achievements/describe-the-identity-and-access-management-capabilities-of-microsoft-365.svg
+- uid: learn.wwl.describe-threat-protection-capabilities-of-microsoft-365.badge
+  type: badge
+  title: Describe the threat protection capabilities of Microsoft 365
+  summary: Microsoft threat protection tools work together to help business secure their email, data, devices, and identities against the growing, increasingly costly risk of cyber threats.
+  iconUrl: /learn/achievements/describe-the-threat-protection-capabilities-of-microsoft-365.svg
+- uid: learn.wwl.describe-cloud-security-capabilities-of-microsoft-365.badge
+  type: badge
+  title: Describe the cloud security capabilities of Microsoft 365
+  summary: Learn about the comprehensive cloud security Microsoft has built to protect every layer of the cloud across IaaS, PaaS, and SaaS—regardless of which cloud or cloud apps you use.
+  iconUrl: /learn/achievements/describe-the-cloud-security-capabilities-of-microsoft-365.svg
+- uid: learn.wwl.describe-information-protection-governance-capabilities-of-microsoft-365.badge
+  type: badge
+  title: Describe the information protection and governance capabilities of Microsoft 365
+  summary: This module will cover how enterprises can protect and govern data wherever it lives with Microsoft 365.
+  iconUrl: /learn/achievements/describe the-information-protection-and-governance-capabilities-of-microsoft-365.svg
+- uid: learn.wwl.reduce-risk-simplify-discovery-audit-process.badge
+  type: badge
+  title: Reduce risk and simplify the discovery and audit process
+  summary: Keeping and protecting important information includes how internal and external entities view, use, and access your organization's data. Microsoft 365 provides tools, services, and features that can help enterprises mitigate or prevent insider risk.
+  iconUrl: /learn/achievements/reduce-risk-and-simplify-the-discovery-and-audit-process.svg
