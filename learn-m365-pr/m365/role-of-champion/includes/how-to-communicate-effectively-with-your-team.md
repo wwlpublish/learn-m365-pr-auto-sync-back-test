@@ -6,13 +6,14 @@ One of the most important tools in effective communication is knowing your audie
 
 ### Professional role
 
-The information we give and how we give it should be influenced by who we are speaking to. This allows us to address needs or concerns specific to their role. For example, the content of a presentation and how it is delivered would change if it was given to a group of executives versus an engineering team. When we consider someone's role, we can connect the information directly to them.
+The information we give and how we give it should be influenced by who we're speaking to. This allows us to address needs or concerns specific to their role. For example, the content of a presentation and how it's delivered would change if it was given to a group of executives versus an engineering team. When we consider someone's role, we can connect the information directly to them.
 
 A helpful way to begin tailoring information to your audience is to consider what is expected of them on a daily basis. How will introducing OKRs help them? What potential blockers or concerns might they have? How strapped is their bandwidth? Can you create space in their schedules so they can feel there is time to learn and adjust to the change being asked of them?
 
 Being aware of what their individual concerns and needs might be will help your team feel more secure and that there is a reasonable path forward for them. This also encourages curiosity, openness, and a growth mindset.
 
 *Learning styles: inclusive communication*
+
 Understanding how to communicate inclusively is the second avenue for knowing your audience. Everyone retains information differently. Some people do best by seeing information, some remember by engaging with stories, or by making task-lists that highlight action items.
 
 Effective communication requires us to teach toward difference, and not only in the way we ourselves learn. This requires both social intelligence and empathy. Put differently, effective communication is inclusive communication that strives to be open and accessible to everyone.
@@ -35,10 +36,10 @@ In studying how people respond to expectations, change, and new information, Rub
 
 :::image type="content" source="../media/venn-diagram-four-personalities.jpg" alt-text="Diagram of the four personality tendencies: Questioner, Upholder, Obliger, Rebel.":::
 
-**Questioners** want justifications and are information hounds. Questioners wake up and think, "What needs to get done today?" They're motivated by executing things they endorse and understand. Once you have their buy-in, Questioners are powerful allies and advocates. Conversely, they really don't like spending time and effort on activities they don't agree with. Don't be intimidated by their questions; if they are pressing you, it is likely because they are trying to get on board by making sure they agree with and understand what you are asking.
+**Questioners** want justifications and are information hounds. Questioners wake up and think, "What needs to get done today?" They're motivated by executing things they endorse and understand. Once you have their buy-in, Questioners are powerful allies and advocates. Conversely, they really don't like spending time and effort on activities they don't agree with. Don't be intimidated by their questions; if they're pressing you, it's likely because they're trying to get on board by making sure they agree with and understand what you're asking.
 
 - **Strategies**:
-  - Schedule regular office hours; this will likely minimize work for you as they will realize there is a set time/place for them to ask any questions that come up.
+  - Schedule regular office hours; this will likely minimize work for you as they'll realize there is a set time/place for them to ask any questions that come up.
   - Provide contact info for who they can reach out to with questions outside of the classroom.
 
 **Upholders** want to know what should be done. Upholders wake up and think, "What's on the schedule and the to-do list for today?" They're very motivated by getting things done. They really don't like making mistakes, getting blamed, or failing to follow through (if it's on the to-do list, it will get done!). As long as the training was on their schedule, Upholders will most likely be ready to learn and apply new information and practices.
@@ -47,13 +48,13 @@ In studying how people respond to expectations, change, and new information, Rub
   - Provide all the resources they may need (pdfs, links, decks, etc.).
   - Be clear about asks and action items for them.
 
-**Obligers** are motivated by expectations and rules. Obligers wake up and think, "What must I do today?" They are very motivated by accountability. They really don't like being reprimanded or letting others down. Succeeding with Obligers means setting clear expectations and having built-in accountability.
+**Obligers** are motivated by expectations and rules. Obligers wake up and think, "What must I do today?" They're very motivated by accountability. They really don't like being reprimanded or letting others down. Succeeding with Obligers means setting clear expectations and having built-in accountability.
 
 - **Strategies**:
   - Set guardrails to ensure they stretch themselves (be prepared to need to push them a bit).
   - Schedule regular check-ins to make sure they are on board.
 
-**Rebels** want freedom to do things their own way. They resist most all rules. Rebels wake up and think, "What do I want to do today?" They're very motivated by a sense of freedom and self-determination. You may have a tough time getting buy-in with rebels, but as they are often innovators and leaders, once they adopt it, they will often lead others to do the same. Perseverance is key. Rebels flourish with independence. Honoring this is a great way to keep them on board.
+**Rebels** want freedom to do things their own way. They resist most all rules. Rebels wake up and think, "What do I want to do today?" They're very motivated by a sense of freedom and self-determination. You may have a tough time getting buy-in with rebels, but as they're often innovators and leaders, once they adopt it, they'll often lead others to do the same. Perseverance is key. Rebels flourish with independence. Honoring this is a great way to keep them on board.
 
 - **Strategies**:
   - Honor their need for independence by asking for their input.

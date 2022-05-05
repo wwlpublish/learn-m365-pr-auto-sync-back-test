@@ -6,9 +6,9 @@ In large organizations, having a dedicated subculture of OKR Champions who have 
 
 While the role can extend to many different responsibilities, there are four key responsibilities for all OKR Champions.
 
-1. Be the communications center for all things OKR-related.
-1. Set organizational expectations for OKRs.
-1. Set up training opportunities and hold teams accountable.
-1. Celebrate OKR wins.
+- Be the communications center for all things OKR-related.
+- Set organizational expectations for OKRs.
+- Set up training opportunities and hold teams accountable.
+- Celebrate OKR wins.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4WQBT]
