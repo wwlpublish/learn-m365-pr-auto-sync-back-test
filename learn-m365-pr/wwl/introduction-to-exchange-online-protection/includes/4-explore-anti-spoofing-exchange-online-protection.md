@@ -20,7 +20,7 @@ The following anti-spoofing technologies are available in EOP:
      -  Turn unauthenticated sender identification in Outlook on or off.
      -  Specify the action for blocked spoofed senders.
     
-    Anti-phishing policies in Microsoft Defender for Office 365 contain other protections, including impersonation protection. For more information, see [Exclusive settings in anti-phishing policies in Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/set-up-anti-phishing-policies?azure-portal=true).<br>
+    Anti-phishing policies in Microsoft Defender for Office 365 contain other protections, including impersonation protection. For more information, see [Exclusive settings in anti-phishing policies in Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/set-up-anti-phishing-policies?azure-portal=true).
  -  **Spoof detections report**. For more information, see [Spoof Detections report](/microsoft-365/security/office-365-security/view-email-security-reports?azure-portal=true).
     
     Microsoft Defender for Office 365 organizations can also use Real-time detections (Plan 1) or Threat Explorer (Plan 2) to view information about phishing attempts. For more information, see [Microsoft 365 threat investigation and response](/microsoft-365/security/office-365-security/office-365-ti?azure-portal=true).
@@ -40,7 +40,7 @@ Spoofing messages have the following negative implications for users:
     
     The following message is an example of BEC that uses the spoofed email domain contoso.com:
     
-    :::image type="content" source="../media/phishing-example-using-spoofed-emaI-domain-0f2f5c01.jpg" alt-text="Screenshot of a phishing message using a spoofed email domain.":::
+    :::image type="content" source="../media/phishing-example-using-spoofed-emaiI-domain-4e01032e.jpg" alt-text="Screenshot of a phishing message using a spoofed email domain.":::
     
     
     The message looks legitimate, but the sender is spoofed.
@@ -88,7 +88,9 @@ X-Forefront-Antispam-Report: ...CAT:SPOOF;...SFTY:9.11
      -  **SFTY** is the safety level of the message. 9 indicates phishing, .11 indicates intra-org spoofing.
  -  **Cross-domain spoofing.** The sender and recipient domains are different, and have no relationship to each other (also known as external domains). For example:
     
-    From: chris@contoso.com<br>To: michelle@tailspintoys.com
+    From: chris@contoso.com
+    
+    To: michelle@tailspintoys.com
     
     Messages that fail composite authentication due to cross-domain spoofing contain the following headers values:
     
@@ -109,40 +111,50 @@ Mailing lists (also known as discussion lists) are known to have problems with a
 
 For example, Holly Dickson is interested in bird watching. Holly joins the mailing list birdwatchers@fabrikam.com, and sends the following message to the list:
 
-From: "Holly Dickson" <hollyd@contoso.com>
-To: Bird watcher's Discussion List <birdwatchers@fabrikam.com>
+:::row:::
+  :::column:::
+    From: "Holly Dickson" &lt;hollyd@contoso.com&gt;
+To: Bird watcher's Discussion List &lt;birdwatchers@fabrikam.com&gt;
 Subject: Great viewing of blue jays at the top of Mt. Rainier this week
 
 Does anyone want to check out the viewing this week from Mt. Rainier?
+  :::column-end:::
+:::row-end:::
+
 
 The mailing list server receives the message, modifies its content, and replays it to the members of the mailing list. The replayed message has the same From address (hollyd@contoso.com), but the following changes have been applied:
 
  -  A tag (BIRD WATCHERS) is added to the subject line.
  -  A footer ("This message was sent to the Bird Watchers Discussion List. You can unsubscribe at any time.") is added to the bottom of the message. This type of modification is common in mailing lists, and may result in false positives for spoofing.
 
-From: "Holly Dickson" <hollyd@contoso.com>
-To: Bird watcher's Discussion List <birdwatchers@fabrikam.com>
-Subject: [BIRD WATCHERS] Great viewing of blue jays at the top of Mt. Rainier this week
+:::row:::
+  :::column:::
+    From: "Holly Dickson" &lt;hollyd@contoso.com&gt;
+To: Bird watcher's Discussion List &lt;birdwatchers@fabrikam.com&gt;
+Subject: \[BIRD WATCHERS\] Great viewing of blue jays at the top of Mt. Rainier this week
 
 Does anyone want to check out the viewing this week from Mt. Rainier?
 
 This message was sent to the Bird Watchers Discussion List. You can unsubscribe at any time.
+  :::column-end:::
+:::row-end:::
+
 
 ### Pass anti-spoofing checks for mailing list messages
 
 To help mailing list messages pass anti-spoofing checks, complete the following steps based on who controls the mailing list:
 
- -  **Your organization owns the mailing list**:
+ -  **Your organization owns the mailing list**:C<br>
     
      -  Check the FAQ at DMARC.org: [I operate a mailing list and I want to interoperate with DMARC, what should I do?](https://dmarc.org/wiki/FAQ#I_operate_a_mailing_list_and_I_want_to_interoperate_with_DMARC.2C_what_should_I_do.3F?azure-portal=true)
-     -  Read the instructions at this blog post: [A tip for mailing list operators to interoperate with DMARC to avoid failures](/archive/blogs/tzink/a-tip-for-mailing-list-operators-to-interoperate-with-dmarc-to-avoid-failures?azure-portal=true).
+     -  Read the instructions at this blog post: [A tip for mailing list operators to interoperate with DMARC to avoid failures](/archive/blogs/tzink/a-tip-for-mailing-list-operators-to-interoperate-with-dmarc-to-avoid-failures?azure-portal=true).<br>
      -  Consider installing updates on your mailing list server to support Authenticated Received Chain (ARC). See [ARC Specification for Email](http://arc-spec.org?azure-portal=true).
- -  **Your organization doesn't own the mailing list**:
+ -  **Your organization doesn't own the mailing** **list**:
     
      -  Ask the maintainer of the mailing list to configure email authentication for the domain that the mailing list is relaying from.
-        
-        When enough senders reply back to domain owners about setting up email authentication records, it spurs them into taking action. While Microsoft also works with domain owners to publish the required records, it helps even more when individual users request it.
+     -  When enough senders reply back to domain owners about setting up email authentication records, it spurs them into taking action. While Microsoft also works with domain owners to publish the required records, it helps even more when individual users request it.
      -  Create inbox rules in your email client to move messages to the Inbox. You can also ask your admins to configure overrides as described in [Spoof intelligence insight in EOP](/microsoft-365/security/office-365-security/learn-about-spoof-intelligence?azure-portal=true) and [Manage the Tenant Allow/Block List](/microsoft-365/security/office-365-security/tenant-allow-block-list?azure-portal=true).
      -  Use the Tenant Allow/Block List to create an override for the mailing list to treat it as legitimate. For more information, see [Add allows in the Tenant Allow/Block List](/microsoft-365/security/office-365-security/manage-tenant-allows?azure-portal=true).
 
-If all else fails, you can report the message as a false positive to Microsoft.
+> [!TIP]
+> If all else fails, you can report the message as a false positive to Microsoft.<br>

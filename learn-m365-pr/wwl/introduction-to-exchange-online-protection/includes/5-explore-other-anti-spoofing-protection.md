@@ -90,12 +90,14 @@ SPF uses a DNS TXT record to provide a list of authorized sending IP addresses f
 
 For example, consider this SMTP transcript:
 
-S: Helo woodgrovebank.com
+:::row:::
+  :::column:::
+    S: Helo woodgrovebank.com
 S: Mail from: phish@phishing.contoso.com
 S: Rcpt to: pfernandez@tailspintoys.com
 S: data
-S: To: "Patti Fernandez" <pfernandez@tailspintoys.com>
-S: From: "Woodgrove Bank Security" <security@woodgrovebank.com>
+S: To: "Patti Fernandez" &lt;pfernandez@tailspintoys.com&gt;
+S: From: "Woodgrove Bank Security" &lt;security@woodgrovebank.com&gt;
 S: Subject: Woodgrove Bank - Action required
 S:
 S: Greetings User,
@@ -108,6 +110,9 @@ S:
 S: Thank you,
 S: Woodgrove Bank
 S: .
+  :::column-end:::
+:::row-end:::
+
 
 In this transcript, the sender addresses are as follows:
 

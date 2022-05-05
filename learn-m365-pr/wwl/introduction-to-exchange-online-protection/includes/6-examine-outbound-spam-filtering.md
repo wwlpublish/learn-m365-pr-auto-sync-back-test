@@ -67,8 +67,8 @@ Organizations can apply the following best practices to help prevent good email 
      -  **Verify the Outlook 'Safe Lists Only' setting is disabled.** When this setting is enabled, only messages from senders in the user's Safe Senders list or Safe Recipients list are delivered to the Inbox. Email from everyone else is automatically moved to the Junk Email folder.
      -  **Verify the Outlook Junk Email Filter is disabled**. When the Outlook Junk Email Filter is set to the default value **No automatic filtering**, Outlook doesn't attempt to classify messages as spam. When it's set to **Low** or **High**, the Outlook Junk Email Filter uses its own SmartScreen filter technology to identify and move spam to the Junk Email folder. As a result, you could get false positives.
 
-        > [!WARNING]
-        > Microsoft stopped producing spam definition updates for the SmartScreen filters in Exchange and Outlook in November 2016. The existing SmartScreen spam definitions were left in place, but their effectiveness has likely degraded over time.
+> [!WARNING]
+> Microsoft stopped producing spam definition updates for the SmartScreen filters in Exchange and Outlook in November 2016. The existing SmartScreen spam definitions were left in place, but their effectiveness has likely degraded over time.
 
  -  **Use the available safe sender lists**. For information, see [Create safe sender lists](/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365?azure-portal=true).
  -  **Verify users are within the sending and receiving limits**. See [Receiving and sending limits](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits?azure-portal=true) in the Exchange Online service description.

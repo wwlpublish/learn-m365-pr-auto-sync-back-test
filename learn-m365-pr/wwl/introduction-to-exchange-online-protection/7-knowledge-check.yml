@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 05/03/2022
+  ms.date: 05/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -25,7 +25,7 @@ quiz:
     - content: "Zero-hour Auto Purge (ZAP)"
       isCorrect: true
       explanation: "Correct. Zero-hour Auto Purge (ZAP) is an email protection feature in EOP. ZAP detects messages with spam or malware that previously went undetected and were delivered to users' inboxes. ZAP's ability to detect infected messages is usually because of evolving heuristic and delivery patterns, and content that's weaponized after being delivered to users."
-    - content: "Domain-based Message Authentication, Reporting &amp; Conformance (DMARC)"
+    - content: "Domain-based Message Authentication, Reporting, and Conformance (DMARC)"
       isCorrect: false
       explanation: "Incorrect. DMARC is an email authentication protocol. It's designed to give email domain owners the ability to protect their domain from email spoofing."
   - content: "Which mechanism in the anti-malware pipeline is effective in catching up to 80% of commodity malware coming into the Microsoft 365 network?"
