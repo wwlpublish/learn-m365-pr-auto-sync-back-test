@@ -2,7 +2,7 @@ Messaging administrators must understand the available recipient types, such as 
 
 Most users in an organization will use Exchange mailboxes, although Exchange also provides various other mailbox options that administrators can configure. For an example, you can use a shared mailbox if you want your users to monitor and use one mailbox to receive and send emails (such as info@contoso.com). Or you can use a room mailbox if you want to allow your Outlook users to book a conference room from their calendar.
 
-This module examines the different types of Exchange Server recipients, including mailboxes, Microsoft 365 groups, resources, and contacts. It also analyzes how these recipient types differ from each other. You'll also learn how recipients can be grouped together to improve collaboration.
+This module examines the different types of Exchange Server recipients, including mailboxes, Microsoft 365 groups, resources, contacts, and public folders. It also analyzes how these recipient types differ from each other. You'll also learn how recipients can be grouped together to improve collaboration.
 
 ### Prerequisites
 
@@ -21,3 +21,4 @@ After completing this module, you'll be able to:
  -  Examine how organizations use resource mailboxes.
  -  Compare shared mailboxes to linked mailboxes.
  -  Describe how recipients can be grouped together to improve collaboration.
+ -  Examine how organizations use public folders.

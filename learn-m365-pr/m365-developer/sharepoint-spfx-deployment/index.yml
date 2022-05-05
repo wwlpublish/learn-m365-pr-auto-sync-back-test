@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-deployment
 metadata:
   title: Deploy SharePoint Framework components to production
   description: Learn how to deploy your SharePoint Framework customizations to production environments.
-  ms.date: 09/13/2021
+  ms.date: 05/02/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

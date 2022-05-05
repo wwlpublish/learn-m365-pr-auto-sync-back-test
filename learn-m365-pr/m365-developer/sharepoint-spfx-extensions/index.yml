@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-extensions
 metadata:
   title: Extend the SharePoint user interface with SharePoint Framework extensions
   description: Learn how to extend the SharePoint user interface with SharePoint Framework extensions.
-  ms.date: 09/13/2021
+  ms.date: 05/02/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -13,7 +13,7 @@ summary: This module will introduce you to extending the SharePoint user interfa
 abstract: |
   By the end of this module, you'll be able to:
   - Demonstrate how to create SPFx application customizer extensions
-  - Demonstrate how to create SPFx field customer extensions
+  - Demonstrate how to create SPFx field customizer extensions
   - Demonstrate how to create SPFx command set extensions
 prerequisites: |
   - Experience using SharePoint Online at the intermediate level

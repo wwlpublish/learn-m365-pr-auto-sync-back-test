@@ -15,6 +15,6 @@ This module will introduce you to using external APIs in your SharePoint Framewo
 
 ## Additional resources
 
-Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Leverage Microsoft Graph & third party APIs](https://github.com/SharePoint/sp-dev-training-spfx-graph-3rdpartyapis).
+Refer to the following repository for more resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Use Microsoft Graph & third party APIs](https://github.com/SharePoint/sp-dev-training-spfx-graph-3rdpartyapis).
 
-This module is also available as a screencast: [SharePoint Framework Training - Developing with the SharePoint Framework: Leverage Microsoft Graph & third party APIs](https://www.youtube.com/watch?v=0zVtDn0ckBM&list=PLR9nK3mnD-OV-RPXQ3Lco845qoEy7VJoc)
+This module is also available as a screencast: [SharePoint Framework Training - Developing with the SharePoint Framework: Use Microsoft Graph & third party APIs](https://www.youtube.com/watch?v=0zVtDn0ckBM&list=PLR9nK3mnD-OV-RPXQ3Lco845qoEy7VJoc)
