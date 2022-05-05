@@ -111,15 +111,7 @@ Mailing lists (also known as discussion lists) are known to have problems with a
 
 For example, Holly Dickson is interested in bird watching. Holly joins the mailing list birdwatchers@fabrikam.com, and sends the following message to the list:
 
-:::row:::
-  :::column:::
-    From: "Holly Dickson" &lt;hollyd@contoso.com&gt;
-To: Bird watcher's Discussion List &lt;birdwatchers@fabrikam.com&gt;
-Subject: Great viewing of blue jays at the top of Mt. Rainier this week
-
-Does anyone want to check out the viewing this week from Mt. Rainier?
-  :::column-end:::
-:::row-end:::
+:::image type="content" source="../media/mailing-list-example1-cae4d928.png" alt-text="Example of a normal mailing list message .":::
 
 
 The mailing list server receives the message, modifies its content, and replays it to the members of the mailing list. The replayed message has the same From address (hollyd@contoso.com), but the following changes have been applied:
@@ -127,17 +119,7 @@ The mailing list server receives the message, modifies its content, and replays 
  -  A tag (BIRD WATCHERS) is added to the subject line.
  -  A footer ("This message was sent to the Bird Watchers Discussion List. You can unsubscribe at any time.") is added to the bottom of the message. This type of modification is common in mailing lists, and may result in false positives for spoofing.
 
-:::row:::
-  :::column:::
-    From: "Holly Dickson" &lt;hollyd@contoso.com&gt;
-To: Bird watcher's Discussion List &lt;birdwatchers@fabrikam.com&gt;
-Subject: \[BIRD WATCHERS\] Great viewing of blue jays at the top of Mt. Rainier this week
-
-Does anyone want to check out the viewing this week from Mt. Rainier?
-
-This message was sent to the Bird Watchers Discussion List. You can unsubscribe at any time.
-  :::column-end:::
-:::row-end:::
+:::image type="content" source="../media/mailing-list-example2-8113c1ad.png" alt-text="Example of the same mailing list message, but this time wtih a subject line tag and a footer that were applied by the mailing list server.":::
 
 
 ### Pass anti-spoofing checks for mailing list messages

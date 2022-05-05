@@ -90,28 +90,7 @@ SPF uses a DNS TXT record to provide a list of authorized sending IP addresses f
 
 For example, consider this SMTP transcript:
 
-:::row:::
-  :::column:::
-    S: Helo woodgrovebank.com
-S: Mail from: phish@phishing.contoso.com
-S: Rcpt to: pfernandez@tailspintoys.com
-S: data
-S: To: "Patti Fernandez" &lt;pfernandez@tailspintoys.com&gt;
-S: From: "Woodgrove Bank Security" &lt;security@woodgrovebank.com&gt;
-S: Subject: Woodgrove Bank - Action required
-S:
-S: Greetings User,
-S:
-S: We need to verify your banking details.
-S: Please select the following link to verify that Microsoft has the right information for your account.
-S:
-S: https://short.url/woodgrovebank/updateaccount/12-121.aspx
-S:
-S: Thank you,
-S: Woodgrove Bank
-S: .
-  :::column-end:::
-:::row-end:::
+:::image type="content" source="../media/example-of-smtp-transcript-2ecb485b.png" alt-text="Example of the SMTP transcript described in the training content.":::
 
 
 In this transcript, the sender addresses are as follows:
