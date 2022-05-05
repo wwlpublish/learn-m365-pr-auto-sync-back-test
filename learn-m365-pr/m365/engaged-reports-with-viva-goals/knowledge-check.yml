@@ -32,18 +32,18 @@ quiz:
     choices:
     - content: "The time period selector"
       isCorrect: false
-      explanation: "That's incorrect. You can bookmark different entities and reports in Viva Goals. This allows you to quickly find them in the future using the Bookmark tab."
+      explanation: "That's incorrect. You can bookmark different entities and reports in Viva Goals, so they can be found quickly in the future."
     - content: "Explorer"
       isCorrect: false
-      explanation: "That's incorrect. You can bookmark different entities and reports in Viva Goals. This allows you to quickly find them in the future using the Bookmark tab."
+      explanation: "That's incorrect. You can bookmark different entities and reports in Viva Goals, so they can be found quickly in the future."
     - content: "Teams, Individuals, Views"
       isCorrect: true
-      explanation: "That's correct. You are able to follow Team, Individuals and Views in Viva Goals. This allows you to quickly find them in the future using the Bookmark tab."
+      explanation: "That's correct. You are able to follow Team, Individuals and Views in Viva Goals, so they can be found quickly in the future."
   - content: "Where are you able to Like or Comment an activity?"
     choices:
     - content: "The Feed, the page where the activity is being displayed, the activity tab"
       isCorrect: true
-      explanation: "That's correct. To engage with your colleagues and foster collaboration, you can Like or Comment on their activities performed within Viva Goals. This can be done in the Feed tab or on any page where the activity is being displayed."
+      explanation: "That's correct. To engage with your colleagues and foster collaboration, you can Like or Comment on their activities performed within Viva Goals on any page where the activity is being displayed or on the Feed tab."
     - content: "The Support tab"
       isCorrect: false
       explanation: "That's incorrect. You can Like or comment on an activity either in a central location, or at relevant points throughout Viva Goals."
