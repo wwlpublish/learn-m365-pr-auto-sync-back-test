@@ -106,7 +106,7 @@ The `ExecuteFunction` action allows an add-in command to execute some script in 
 
 Let's explore how the different elements in the add-in manifest map to the rendered elements in the Excel user experience.
 
-The following image includes contains a screenshot of an Office client application on the left and a condensed version of an add-in manifest file on the right:
+The following image is a screenshot of an Office client application on the left and a condensed version of an add-in manifest file on the right:
 
 ![Screenshot of an Office application next to an add-in manifest excerpt.](../media/04-manifest-01.png)
 

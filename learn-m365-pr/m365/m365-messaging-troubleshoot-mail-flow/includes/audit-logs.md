@@ -20,7 +20,7 @@ On the **Auditing** page, select the report you want to run:
 
 ## Configure audit logging
 
-Mailbox audit logging is enabled by default for all Exchange Online organizations. As an admin, you can access and run any report on the **Auditing** page. However, other users, such as a records manager or legal staff, have to be assigned the necessary permissions. The easiest way to give users access is to add them to the Records Management role group.
+Mailbox audit logging is enabled by default for all Exchange Online organizations. As an admin, you can access and run any report on the **Auditing** page. However, other users, such as a records manager or legal staff, have to be assigned the necessary permissions. The easiest way to give users access is to add them to the Microsoft Purview Records Management role group.
 
 When you export the mailbox audit log or administrator audit log, Exchange Online attaches the audit log, in XML format, to an email message. However, Outlook on the web (formerly known as Outlook Web App) blocks XML attachments by default. If you want to use Outlook on the web to access these audit logs, you need to configure Outlook on the web to allow XML attachments.
 

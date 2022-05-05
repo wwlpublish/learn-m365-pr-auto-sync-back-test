@@ -18,7 +18,7 @@ When creating address lists, you should consider the following recommendations:
  -  Use a naming convention and location hierarchy for your address lists so users can easily determine which recipients are included in the list.
  -  Remind users that they can find anyone in their organization by using the GAL.
 
-**Additional reading.** For more information, see [Address lists in Exchange Online](/exchange/address-books/address-lists/address-lists?azure-portal=true).
+**Further reading.** For more information, see [Address lists in Exchange Online](/exchange/address-books/address-lists/address-lists?azure-portal=true).
 
 ## Knowledge check
 

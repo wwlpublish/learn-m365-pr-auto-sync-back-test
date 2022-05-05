@@ -20,146 +20,74 @@ The following table identifies EOP cmdlets that can be used to create and manage
 
 :::row:::
   :::column:::
-    
-
-**If you want to do this task:**
-
-
+    **If you want to do this task:**
   :::column-end:::
   :::column:::
-    
-
-**Use this cmdlet:**
-
-
+    **Use this cmdlet:**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-View your Safe Attachments policy settings.
-
-
+    View your Safe Attachments policy settings.
   :::column-end:::
   :::column:::
-    
-
-[Get-SafeAttachmentPolicy](/powershell/module/exchange/get-safeattachmentpolicy?azure-portal=true)
-
-
+    [Get-SafeAttachmentPolicy](/powershell/module/exchange/get-safeattachmentpolicy?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Edit an existing Safe Attachments policy.
-
-
+    Edit an existing Safe Attachments policy.
   :::column-end:::
   :::column:::
-    
-
-[Set-SafeAttachmentPolicy](/powershell/module/exchange/set-safeattachmentpolicy?azure-portal=true)
-
-
+    [Set-SafeAttachmentPolicy](/powershell/module/exchange/set-safeattachmentpolicy?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Create a new custom Safe Attachments policy.
-
-
+    Create a new custom Safe Attachments policy.
   :::column-end:::
   :::column:::
-    
-
-[New-SafeAttachmentPolicy](/powershell/module/exchange/new-safeattachmentpolicy?azure-portal=true)
-
-
+    [New-SafeAttachmentPolicy](/powershell/module/exchange/new-safeattachmentpolicy?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Delete a custom Safe Attachments policy.
-
-
+    Delete a custom Safe Attachments policy.
   :::column-end:::
   :::column:::
-    
-
-[Remove-SafeAttachmentPolicy](/powershell/module/exchange/remove-safeattachmentpolicy?azure-portal=true)
-
-
+    [Remove-SafeAttachmentPolicy](/powershell/module/exchange/remove-safeattachmentpolicy?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-View your Safe Attachments rule settings.
-
-
+    View your Safe Attachments rule settings.
   :::column-end:::
   :::column:::
-    
-
-[Get-SafeAttachmentRule](/powershell/module/exchange/get-safeattachmentrule?azure-portal=true)
-
-
+    [Get-SafeAttachmentRule](/powershell/module/exchange/get-safeattachmentrule?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Edit an existing attachments link rule.
-
-
+    Edit an existing attachments link rule.
   :::column-end:::
   :::column:::
-    
-
-[Set-SafeAttachmentRule](/powershell/module/exchange/set-safeattachmentrule?azure-portal=true)
-
-
+    [Set-SafeAttachmentRule](/powershell/module/exchange/set-safeattachmentrule?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Create a new custom Safe Attachments rule.
-
-
+    Create a new custom Safe Attachments rule.
   :::column-end:::
   :::column:::
-    
-
-[New-SafeAttachmentRule](/powershell/module/exchange/new-safeattachmentrule?azure-portal=true)
-
-
+    [New-SafeAttachmentRule](/powershell/module/exchange/new-safeattachmentrule?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Delete a custom Safe Attachments rule.
-
-
+    Delete a custom Safe Attachments rule.
   :::column-end:::
   :::column:::
-    
-
-[Remove-SafeAttachmentRule](/powershell/module/exchange/remove-safeattachmentrule?azure-portal=true)
-
-
+    [Remove-SafeAttachmentRule](/powershell/module/exchange/remove-safeattachmentrule?azure-portal=true)
   :::column-end:::
 :::row-end:::
 

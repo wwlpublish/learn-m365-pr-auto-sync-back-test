@@ -61,7 +61,7 @@ There are a few different ways to classify improvement actions, including whethe
 
 Actions can be managed by your organization or by Microsoft. Microsoft completes the actions it manages on your behalf and provides details on how the action was implemented. Of course, your organization is responsible for taking the steps necessary to complete your actions.
 
-*Technical actions* are implemented by interacting with technology. For example, *Create customized DLP policies for Company Sensitive Information* would be considered a technical action you would be responsible for completing in the Data Loss Prevention solution in the Microsoft 365 compliance center.
+*Technical actions* are implemented by interacting with technology. For example, *Create customized DLP policies for Company Sensitive Information* would be considered a technical action you would be responsible for completing in the Data Loss Prevention solution in the Microsoft Purview compliance portal.
 
 *Non-technical actions* are implemented in some way other than interacting with technology. An action with the name *Conduct exit interview upon termination* is a non-technical action. The act of conducting an exit interview, while it may involve the use of technology like Microsoft Teams, can be accomplished without using it. 
 

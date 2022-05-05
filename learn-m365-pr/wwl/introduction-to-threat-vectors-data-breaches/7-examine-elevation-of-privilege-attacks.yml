@@ -4,12 +4,13 @@ title: Examine elevation of privilege attacks
 metadata:
   title: Examine elevation of privilege attacks
   description: "Examine elevation of privilege attacks"
-  ms.date: 04/29/2021
+  ms.date: 04/29/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/7-examine-elevation-of-privilege-attacks.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Account isolation"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't a strategy to help prevent malicious elevation of privilege attacks. Try again."
+      explanation: "Incorrect. This item isn't a strategy to help prevent malicious elevation of privilege attacks."
     - content: "Variable password mitigation"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't a strategy to help prevent malicious elevation of privilege attacks. Try again."
-    - content: "Azure AD multi-factor authentication"
+      explanation: "Incorrect. This item isn't a strategy to help prevent malicious elevation of privilege attacks."
+    - content: "Azure AD Multi-Factor Authentication"
       isCorrect: true
-      explanation: "That's correct. To counter elevation of privilege attacks, it's recommended that you implement multi-factor authentication, especially with admin accounts or accounts with access to sensitive content."
+      explanation: "Correct. To counter elevation of privilege attacks, it's recommended that you implement multi-factor authentication, especially with admin accounts or accounts with access to sensitive content."

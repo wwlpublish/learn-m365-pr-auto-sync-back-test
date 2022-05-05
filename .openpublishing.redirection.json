@@ -9,52 +9,52 @@
       "source_path": "learn-m365-pr/m365/endpoint-manager/setup-tenant-attach-using-configuration-manager/1-introduction.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/setup-tenant-attach-using-configuration-manager/1-introduction",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "learn-m365-pr/m365/endpoint-manager/setup-tenant-attach-using-configuration-manager/2-understand-tenant-attach.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/setup-tenant-attach-using-configuration-manager/2-understand-tenant-attach",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "learn-m365-pr/m365/endpoint-manager/setup-tenant-attach-using-configuration-manager/3-confirm-tenant-attach-prerequisites.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/setup-tenant-attach-using-configuration-manager/3-confirm-tenant-attach-prerequisites",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "learn-m365-pr/m365/endpoint-manager/setup-tenant-attach-using-configuration-manager/4-enable-internet-endpoints.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/setup-tenant-attach-using-configuration-manager/4-enable-internet-endpoints",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "learn-m365-pr/m365/endpoint-manager/setup-tenant-attach-using-configuration-manager/5-enable-device-upload.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/setup-tenant-attach-using-configuration-manager/5-enable-device-upload",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "learn-m365-pr/m365/endpoint-manager/setup-tenant-attach-using-configuration-manager/6-display-the-connector-status.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/setup-tenant-attach-using-configuration-manager/6-display-the-connector-status",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "learn-m365-pr/m365/endpoint-manager/setup-tenant-attach-using-configuration-manager/7-perform-device-actions.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/setup-tenant-attach-using-configuration-manager/7-perform-device-actions",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "learn-m365-pr/m365/endpoint-manager/setup-tenant-attach-using-configuration-manager/8-view-on-premises-devices.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/setup-tenant-attach-using-configuration-manager/8-view-on-premises-devices",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "learn-m365-pr/m365/endpoint-manager/setup-tenant-attach-using-configuration-manager/9-knowledge-check.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/setup-tenant-attach-using-configuration-manager/9-knowledge-check",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "learn-m365-pr/m365/endpoint-manager/setup-tenant-attach-using-configuration-manager/10-summary.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/setup-tenant-attach-using-configuration-manager/10-summary",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "learn-m365-pr/m365/endpoint-manager/understand-co-management/index.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/understand-co-management",
@@ -64,32 +64,32 @@
       "source_path": "learn-m365-pr/m365/endpoint-manager/understand-co-management/1-introduction.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/understand-co-management/1-introduction",
       "redirect_document_id": false
-    }, 
+    },
     {
       "source_path": "learn-m365-pr/m365/endpoint-manager/understand-co-management/2-understand-co-management.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/understand-co-management/2-understand-co-management",
       "redirect_document_id": false
-    }, 
+    },
     {
       "source_path": "learn-m365-pr/m365/endpoint-manager/understand-co-management/3-learn-about-co-management-prerequisites.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/understand-co-management/3-learn-about-co-management-prerequisites",
       "redirect_document_id": false
-    }, 
+    },
     {
       "source_path": "learn-m365-pr/m365/endpoint-manager/understand-co-management/4-learn-about-paths-to-co-management.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/understand-co-management/4-learn-about-paths-to-co-management",
       "redirect_document_id": false
-    }, 
+    },
     {
       "source_path": "learn-m365-pr/m365/endpoint-manager/understand-co-management/5-knowledge-check.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/understand-co-management/5-knowledge-check",
       "redirect_document_id": false
-    }, 
+    },
     {
       "source_path": "learn-m365-pr/m365/endpoint-manager/understand-co-management/6-summary.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/understand-co-management/6-summary",
       "redirect_document_id": false
-    }, 
+    },
     {
       "source_path": "learn-m365-pr/m365/m365-compliance-information-prevent-data-loss/configure-data-loss-prevention-policy.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-compliance-information-prevent-data-loss/define-policy-settings",
@@ -1599,7 +1599,7 @@
       "source_path": "learn-m365-pr/m365/m365-identity-provisioning/proactive-identity-governance.md",
       "redirect_url": "https://docs.microsoft.com/azure/active-directory/cloud-sync/what-is-provisioning",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "learn-m365-pr/m365/m365-identity-provisioning/define-right-access.md",
       "redirect_url": "https://docs.microsoft.com/azure/active-directory/cloud-sync/what-is-provisioning",
@@ -1746,19 +1746,19 @@
       "redirect_document_id": false
     },
     {
-    "source_path": "learn-m365-pr/paths/m365-identity/index.md",
-    "redirect_url": "https://docs.microsoft.com/learn/paths/manage-identity-and-access/",
-    "redirect_document_id": false
+      "source_path": "learn-m365-pr/paths/m365-identity/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-identity-and-access/",
+      "redirect_document_id": false
     },
     {
-    "source_path": "learn-m365-pr/wwl/manage-safe-links/2-create-policies-security-compliance-center.md",
-    "redirect_url": "https://docs.microsoft.com/learn/modules/manage-safe-links/2-create-policies-using-defender",
-    "redirect_document_id": true
+      "source_path": "learn-m365-pr/wwl/manage-safe-links/2-create-policies-security-compliance-center.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-safe-links/2-create-policies-using-defender",
+      "redirect_document_id": true
     },
     {
-    "source_path": "learn-m365-pr/wwl/manage-safe-attachments/2-create-safe-attachment-policies-security-compliance-center.md",
-    "redirect_url": "https://docs.microsoft.com/learn/modules/manage-safe-attachments/2-create-policies-using-defender",
-    "redirect_document_id": true
+      "source_path": "learn-m365-pr/wwl/manage-safe-attachments/2-create-safe-attachment-policies-security-compliance-center.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-safe-attachments/2-create-policies-using-defender",
+      "redirect_document_id": true
     },
     {
       "source_path": "learn-m365-pr/m365/m365-optimize-wvd/2-fslogix-overview.md",
@@ -1774,8 +1774,8 @@
       "source_path": "learn-m365-pr/m365/m365-optimize-wvd/4-migrate-files.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-deploy-wvd/4a-configure-fslogix-user-profiles",
       "redirect_document_id": false
-      },
-      {
+    },
+    {
       "source_path": "learn-m365-pr/m365-developer/sharepoint-spfx-spcontent/6-use-sample-data-mocks.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/sharepoint-spfx-spcontent/6-upload-file",
       "redirect_document_id": true
@@ -2298,6 +2298,611 @@
     {
       "source_path": "learn-m365-pr/wwl/explore-sharepoint-online/9-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/explore-sharepoint-online/10-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-messaging-compliance-exchange/5-analyze-message-tracking.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-messaging-compliance-exchange/4-analyze-message-tracking",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-messaging-compliance-exchange/4-configure-data-loss-prevention-policies-exchange.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-messaging-compliance-exchange/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-messaging-compliance-exchange/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-messaging-compliance-exchange/5-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-messaging-compliance-exchange/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-messaging-compliance-exchange/6-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-messaging-compliance-microsoft-365/5-configure-data-loss-prevention-policies.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-messaging-compliance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-messaging-compliance-microsoft-365/6-run-message-trace.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-messaging-compliance-microsoft-365/5-run-message-trace",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-messaging-compliance-microsoft-365/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-messaging-compliance-microsoft-365/6-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-messaging-compliance-microsoft-365/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-messaging-compliance-microsoft-365/7-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-mobile-device-mailbox-policies/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-messaging-environment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-mobile-device-mailbox-policies/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-messaging-environment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-mobile-device-mailbox-policies/2-examine-how-exchange-activesync-works.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-messaging-environment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-mobile-device-mailbox-policies/3-configure-mailbox-policies-mobile-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-messaging-environment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-mobile-device-mailbox-policies/4-examine-management-microsoft-365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-messaging-environment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-mobile-device-mailbox-policies/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-messaging-environment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-mobile-device-mailbox-policies/6-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-messaging-environment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-mobile-device-access/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-messaging-environment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-mobile-device-access/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-messaging-environment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-mobile-device-access/2-configure-access-mobile-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-messaging-environment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-mobile-device-access/3-configure-infrastructure-mobile-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-messaging-environment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-mobile-device-access/4-protect-company-data-using-remote-wipe.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-messaging-environment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-mobile-device-access/5-examine-alternatives-management.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-messaging-environment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-mobile-device-access/6-troubleshoot.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-messaging-environment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-mobile-device-access/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-messaging-environment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-mobile-device-access/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-messaging-environment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-content-search/5-manage-advanced-ediscovery.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-content-search/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-content-search/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-content-search/5-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-content-search/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-content-search/6-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/what-is-m365/2-personal-organizational-productivity.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/what-is-m365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/what-is-m365/3b-explore-exam-areas.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/what-is-m365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/what-is-m365/3-m365-subscriptions.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/what-is-m365/5-explore-microsoft-365-subscription-options",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/what-is-m365/3a-explore-m365-tenant.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/what-is-m365/6-explore-microsoft-365-tenant",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/what-is-m365/4-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/what-is-m365/7-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/what-is-m365/5-summary-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/what-is-m365/8-summary-resources",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-authentication-for-messaging/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-authentication-for-messaging/7-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-authentication-for-messaging/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-authentication-for-messaging/8-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-threat-protection-microsoft-365-defender/8-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-threat-protection-microsoft-365-defender/10-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-threat-protection-microsoft-365-defender/9-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-threat-protection-microsoft-365-defender/11-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-applications-azure-ad/2-add-application-within-your-tenant.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-applications-azure-ad/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-applications-azure-ad/3-update-application-within-consent-framework.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-applications-azure-ad/4-update-application-within-consent-framework",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-applications-azure-ad/4-configure-multi-tenant-applications.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-applications-azure-ad/5-configure-multi-tenant-applications",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-applications-azure-ad/5-remove-applications-registration-from-your-tenant.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-applications-azure-ad/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-applications-azure-ad/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-applications-azure-ad/8-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-applications-azure-ad/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-applications-azure-ad/9-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-solutions-for-external-access/4-explore-microsoft-365-external-sharing-azure-ad-b2b-collaboration.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-solutions-for-external-access/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/paths/m365-productivity-teamwork-solutions/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/describe-microsoft-365-core-services-concepts/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/paths/m365-business-management-solutions/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/describe-microsoft-365-core-services-concepts/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/microsoft-365-productivity-teamwork-solutions/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/microsoft-365-productivity-teamwork-solutions/10-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/microsoft-365-productivity-teamwork-solutions/11-summary-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/microsoft-365-productivity-teamwork-solutions/2-personal-productivity.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/microsoft-365-productivity-teamwork-solutions/3-engage-employees.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/microsoft-365-productivity-teamwork-solutions/4-instant-message-chat.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/microsoft-365-productivity-teamwork-solutions/5-online-meetings.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/microsoft-365-productivity-teamwork-solutions/6-email-calendar.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/microsoft-365-productivity-teamwork-solutions/7-office-across-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/microsoft-365-productivity-teamwork-solutions/8-file-storage-share.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/microsoft-365-productivity-teamwork-solutions/9-accessibility.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/microsoft-365-productivity-teamwork-solutions/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/engage-employees-with-microsoft-stream-teams-yammer/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-collaboration-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/engage-employees-with-microsoft-stream-teams-yammer/2-chat-collaborate-teams.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-collaboration-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/engage-employees-with-microsoft-stream-teams-yammer/3-online-meetings-teams.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-collaboration-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/engage-employees-with-microsoft-stream-teams-yammer/3a-employee-experience-viva.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-collaboration-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/engage-employees-with-microsoft-stream-teams-yammer/4-connect-yammer.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-collaboration-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/engage-employees-with-microsoft-stream-teams-yammer/5-use-stream-engagement.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-collaboration-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/engage-employees-with-microsoft-stream-teams-yammer/6-extend-teams-power-platform-apps.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-collaboration-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/engage-employees-with-microsoft-stream-teams-yammer/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-collaboration-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/engage-employees-with-microsoft-stream-teams-yammer/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-collaboration-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/engage-employees-with-microsoft-stream-teams-yammer/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-collaboration-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/get-more-done-with-office-across-devices/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/get-more-done-with-office-across-devices/2-microsoft-365-apps-outlook-word-excel-powerpoint.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/get-more-done-with-office-across-devices/3-deployment-methods.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/get-more-done-with-office-across-devices/4-updates-service.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/get-more-done-with-office-across-devices/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/get-more-done-with-office-across-devices/6-summary-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/get-more-done-with-office-across-devices/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/file-storage-sharing-with-onedrive-sharepoint/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-collaboration-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/file-storage-sharing-with-onedrive-sharepoint/2-onedrive-for-business.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-collaboration-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/file-storage-sharing-with-onedrive-sharepoint/3-sharepoint-online.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-collaboration-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/file-storage-sharing-with-onedrive-sharepoint/4-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-collaboration-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/file-storage-sharing-with-onedrive-sharepoint/5-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-collaboration-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/file-storage-sharing-with-onedrive-sharepoint/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-collaboration-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-your-business-with-microsoft-365/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-your-business-with-microsoft-365/10-summary-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-your-business-with-microsoft-365/2-organizational-productivity.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-your-business-with-microsoft-365/3-simplified-management.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-your-business-with-microsoft-365/4-business-process-automation.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-your-business-with-microsoft-365/5-extensibility.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-your-business-with-microsoft-365/6-forms-workflow-management.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-your-business-with-microsoft-365/7-business-intelligence.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-your-business-with-microsoft-365/8-work-management.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-your-business-with-microsoft-365/9-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-your-business-with-microsoft-365/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-productivity-solutions-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/simplify-device-management-with-microsoft-endpoint-manager/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/simplify-device-management-with-microsoft-endpoint-manager/2-modern-management.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/simplify-device-management-with-microsoft-endpoint-manager/3-integrated-solutions.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/simplify-device-management-with-microsoft-endpoint-manager/4-intune.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/simplify-device-management-with-microsoft-endpoint-manager/5-configuration-manager.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/simplify-device-management-with-microsoft-endpoint-manager/6-autopilot-zero-touch-deployment.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/simplify-device-management-with-microsoft-endpoint-manager/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/simplify-device-management-with-microsoft-endpoint-manager/8-summary-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/simplify-device-management-with-microsoft-endpoint-manager/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/get-done-stay-secure-with-windows-10/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/get-done-stay-secure-with-windows-10/2-windows-service.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/get-done-stay-secure-with-windows-10/3-deployment-methods.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/get-done-stay-secure-with-windows-10/4-windows-updates.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/get-done-stay-secure-with-windows-10/5-release-models.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/get-done-stay-secure-with-windows-10/6-windows-virtual-desktop.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/get-done-stay-secure-with-windows-10/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/get-done-stay-secure-with-windows-10/8-summary-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/get-done-stay-secure-with-windows-10/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-endpoint-modernization-management-concepts-deployment-options/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/harness-business-intelligence-with-microsoft-365-analytics-reporting/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-analytics-capabilities-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/harness-business-intelligence-with-microsoft-365-analytics-reporting/2-workplace-analytics.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-analytics-capabilities-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/harness-business-intelligence-with-microsoft-365-analytics-reporting/3-microsoft-365-admin-center.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-analytics-capabilities-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/harness-business-intelligence-with-microsoft-365-analytics-reporting/4-service-specific-admin-centers.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-analytics-capabilities-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/harness-business-intelligence-with-microsoft-365-analytics-reporting/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-analytics-capabilities-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/harness-business-intelligence-with-microsoft-365-analytics-reporting/6-summary-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-analytics-capabilities-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/harness-business-intelligence-with-microsoft-365-analytics-reporting/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-analytics-capabilities-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/troubleshoot-exchange-online-configuration-issues/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/troubleshoot-exchange-online-configuration-issues/8-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/troubleshoot-exchange-online-configuration-issues/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/troubleshoot-exchange-online-configuration-issues/9-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/troubleshoot-problems-mail-flow/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/troubleshoot-problems-mail-flow/7-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/troubleshoot-problems-mail-flow/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/troubleshoot-problems-mail-flow/8-summary",
       "redirect_document_id": true
     }
   ]

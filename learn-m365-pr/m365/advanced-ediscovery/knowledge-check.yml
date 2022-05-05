@@ -3,7 +3,7 @@ uid: learn-m365.compliance-discover-advanced-ediscovery.knowledge-check
 title: Knowledge check
 metadata:
   title: Knowledge check
-  description:  eDiscovery offers built-in tools such as Content Search to help identify data used as evidence in legal cases. Content Search helps identify relevant data directly in Microsoft 365, reducing the amount of data that customers need to prepare and export to their third-party compliance tools. Advanced eDiscovery builds on the core eDiscovery solution, helping organizations respond more quickly with a streamlined end-to-end eDiscovery workflow, intelligent search capabilities to decrease manual work, and save on third-party storage costs.
+  description:  eDiscovery offers built-in tools such as Content Search to help identify data used as evidence in legal cases. Content Search helps identify relevant data directly in Microsoft 365, reducing the amount of data that customers need to prepare and export to their third-party compliance tools. eDiscovery (Premium) builds on the eDiscovery (Standard) solution, helping organizations respond more quickly with a streamlined end-to-end eDiscovery workflow, intelligent search capabilities to decrease manual work, and save on third-party storage costs.
   ms.date: 07/19/2021
   author: beccarobins
   ms.author: beccarobins
@@ -58,31 +58,31 @@ quiz:
         explanation: "All files that are uploaded to a review set must be located in folders, where each folder is associated with a specific custodian. The names for these folders must use the following naming format: `alias@domainname`."
       - content: "Specific eDiscovery case"
         isCorrect: false
-        explanation: "You must have an existing Advanced eDiscovery case before uploading data into a review set. "
+        explanation: "You must have an existing eDiscovery (Premium) case before uploading data into a review set. "
       - content: "Specific file formats"
         isCorrect: false
-        explanation: "Non-Microsoft 365 data must be a file type that's supported by Advanced eDiscovery."
+        explanation: "Non-Microsoft 365 data must be a file type that's supported by eDiscovery (Premium)."
       
-    - content: "Which analysis feature in Advanced eDiscovery attempts to mimic how humans reason about documents?"
+    - content: "Which analysis feature in eDiscovery (Premium) attempts to mimic how humans reason about documents?"
       choices:
       - content: "Email threading"
         isCorrect: false
         explanation: "Email threading parses each email in a thread, deconstructs it into individual messages, then analyzes those messages for unique content."
       - content: "Themes"
         isCorrect: true
-        explanation: "The Themes functionality in Advanced eDiscovery attempts to mimic how humans reason about documents, by analyzing the themes that are discussed in a review set and assigning a theme to documents in the review set."
+        explanation: "The Themes functionality in eDiscovery (Premium) attempts to mimic how humans reason about documents, by analyzing the themes that are discussed in a review set and assigning a theme to documents in the review set."
       - content: "Optical character recognition"
         isCorrect: false
         explanation: "When optical character recognition is enabled in a case, the OCR functionality automatically extracts text from images and includes the image text with the data that is added to a review set."
       
     - content: "What is the primary difference between active and closed cases?"
       choices:
-      - content: "The case is no longer listed on the Advanced eDiscovery page."
+      - content: "The case is no longer listed on the eDiscovery (Premium) page."
         isCorrect: false
-        explanation: "The case is still listed on the Advanced eDiscovery page in the Microsoft 365 Compliance Center. The details, holds, searches, and members of a closed case are retained. "
+        explanation: "The case is still listed on the eDiscovery (Premium) page in the Microsoft Purview compliance portal. The details, holds, searches, and members of a closed case are retained. "
       - content: "You cannot edit a case once it is closed."
         isCorrect: false
-        explanation: "You can edit a case after it is closed. For example, you can add or remove members, create searches, export search results, and prepare search results for analysis in Advanced eDiscovery."
+        explanation: "You can edit a case after it is closed. For example, you can add or remove members, create searches, export search results, and prepare search results for analysis in eDiscovery (Premium)."
       - content: "Holds that are associated with a closed case are turned off."
         isCorrect: true
         explanation: "Closing a case only turns off the holds that are associated with that case. If other holds are place on a content location (such as a Litigation Hold. a Preservation Policy, or a hold from a different eDiscovery case) those holds will still be maintained."

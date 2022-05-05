@@ -1,6 +1,6 @@
 ## Investigating alerts
 
-The first step to investigate issues detected by your policies is to review alerts generated in the Microsoft 365 compliance center. Depending on your preference, you can sign into the [**Communication compliance** home page](https://compliance.microsoft.com/supervisoryreview?azure-portal=true) and view alerts in the following locations:
+The first step to investigate issues detected by your policies is to review alerts generated in the Microsoft Purview compliance portal. Depending on your preference, you can sign into the [**Communication compliance** home page](https://compliance.microsoft.com/supervisoryreview?azure-portal=true) and view alerts in the following locations:
 
 - **Overview tab**: The home page URL defaults to opening the **Overview** tab which displays the communication compliance dashboard. Here you'll see:
 

@@ -4,7 +4,7 @@ title: Manage shared mailboxes
 metadata:
   title: Manage shared mailboxes
   description: "Manage shared mailboxes"
-  ms.date: 03/09/2022
+  ms.date: 05/03/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Through the Exchange admin center"
       isCorrect: false
-      explanation: "This answer is incorrect. This method isn't how Alan can configure this permission. Try again."
+      explanation: "This answer is incorrect. This method isn't how Alan can configure this permission."
     - content: "Through Exchange PowerShell"
       isCorrect: true
       explanation: "This answer is correct. The Send on Behalf of permission is only configurable through PowerShell."
     - content: "Through either the Exchange admin center or Exchange PowerShell"
       isCorrect: false
-      explanation: "This answer is incorrect. This method isn't how Alan can configure this permission. Try again."
+      explanation: "This answer is incorrect. This method isn't how Alan can configure this permission."

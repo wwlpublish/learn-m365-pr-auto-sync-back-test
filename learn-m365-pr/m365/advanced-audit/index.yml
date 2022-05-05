@@ -1,19 +1,19 @@
 ### YamlMime:Module
 uid: learn-m365.compliance-discover-advanced-audit
 metadata:
-  title: Track user and admin activity with Advanced Audit
-  description: Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements in Advanced Auditing in Microsoft 365 include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
+  title: Track user and admin activity with Microsoft Purview Audit (Premium)
+  description: Microsoft Purview Audit (Premium) delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements in Audit (Premium) include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
   ms.date: 03/10/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ms.custom: intro-internal
-title: Track user and admin activity with Advanced Audit
-summary: Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements in Advanced Auditing in Microsoft 365 include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
+title: Track user and admin activity with Microsoft Purview Audit (Premium)
+summary: Microsoft Purview Audit (Premium) delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements in Audit (Premium) include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
 abstract: |
   Upon completion of this module, you should be able to: 
-  - Describe the preservation improvements that have been made in advanced auditing.
+  - Describe the preservation improvements that have been made in Audit (Premium).
   - Describe the bandwidth improvements that have been made in auditing.
   - Describe the new *MailItemsAccessed* mailbox auditing action and how it can help investigators better understand and identify the scope of compromises to specific mail items that may have been compromised.
 

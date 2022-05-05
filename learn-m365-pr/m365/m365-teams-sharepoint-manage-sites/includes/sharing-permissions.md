@@ -4,11 +4,11 @@ As a SharePoint or global administrator in Microsoft 365, you can control access
 
 SharePoint has external sharing settings at both the organization and the site level (previously called the "site collection" level). To allow external sharing on any site, you must allow it at the organization level.
 
-![External sharing permission levels](../media/external-sharing.png)
+:::image type="content" source="../media/external-sharing.png" alt-text="External sharing permission levels." lightbox="../media/external-sharing.png" border="false":::
 
 You can then restrict external sharing for sites. If a site's external and the organization-level sharing option don't match, the most restrictive value will always be applied.
 
-![Sharing options](../media/sharing-options.png)
+:::image type="content" source="../media/sharing-options.png" alt-text="Sharing options." lightbox="../media/sharing-options.png" border="false":::
 
 Whichever option you choose at the organization or site level, the more restrictive functionality is still available. For example, if you choose to allow sharing using **Anyone** links (previously called *shareable* or *anonymous access* links), users can still share with guests who sign in, and with internal users.
 
@@ -18,7 +18,7 @@ Additional controls are available for the administrator to control guest sharing
 - Choosing the link permissions (view or edit).
 - Choosing to have anonymous access links (**Anyone** links) expire after a specified period.
 
-![Default file and folder links](../media/default-file-folder-links.png)
+:::image type="content" source="../media/default-file-folder-links.png" alt-text="Default file and folder links." lightbox="../media/default-file-folder-links.png" border="false":::
 
 By using these controls, you can give your users the sharing option they need while maintaining a secure environment for your sensitive data.
 
@@ -33,7 +33,7 @@ You can block or limit access for:
 
 **Limiting access** is a less restrictive option that allows users to remain productive while addressing the risk of accidental data loss on unmanaged devices. When you limit access, users on most managed devices will have full access. Users on unmanaged devices will have browser-only access with no ability to download, print, sync files, or access content through apps, including the Microsoft Office desktop apps. You can choose to allow or block editing files in the browser.
 
-![Unmanaged devices settings](../media/unmanaged-devices.png)
+:::image type="content" source="../media/unmanaged-devices.png" alt-text="Unmanaged devices settings." border="false":::
 
 ## Control access to SharePoint data based on network location
 

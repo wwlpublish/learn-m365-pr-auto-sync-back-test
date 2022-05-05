@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-web-parts.7-exercise-api
 metadata:
   title: Exercise - Exploring the SharePoint Framework API
   description: In this exercise, you'll explore a few different APIs available to you in the SharePoint Framework that are useful in many scenarios.
-  ms.date: 03/07/2022
+  ms.date: 05/02/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -20,7 +20,7 @@ quiz:
     - content: "The SharePoint package is a rewritten version that fixes incompatibilities in the Lodash library."
       isCorrect: false
       explanation: "The SharePoint package isn't rewritten, it includes only a subset of the methods available in the Lodash library."
-    - content: "The SharePoint package includes only a subset of the methods available in the Lodash library. It also includes additional SharePoint-specific utilities."
+    - content: "The SharePoint package includes only a subset of the methods available in the Lodash library. It also includes more SharePoint-specific utilities."
       isCorrect: false
       explanation: "The SharePoint package doesn't include any special methods; all the methods it includes are from the Lodash library."
     - content: "The SharePoint package includes only a subset of the methods available in the Lodash library."

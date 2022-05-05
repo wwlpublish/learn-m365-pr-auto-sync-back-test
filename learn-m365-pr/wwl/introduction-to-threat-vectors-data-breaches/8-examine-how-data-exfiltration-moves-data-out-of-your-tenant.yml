@@ -4,12 +4,13 @@ title: Examine how data exfiltration moves data out of your tenant
 metadata:
   title: Examine how data exfiltration moves data out of your tenant
   description: "Examine how data exfiltration moves data out of your tenant"
-  ms.date: 04/29/2021
+  ms.date: 04/29/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 3
 content: |
   [!include[](includes/8-examine-how-data-exfiltration-moves-data-out-of-your-tenant.md)]

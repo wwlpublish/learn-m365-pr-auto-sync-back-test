@@ -26,7 +26,7 @@ Refer to the retention label configuration unit in this module for the instructi
 
 ## Step 2: Publish or auto-apply the label
 
-Labels don't do anything unless they're published or auto-applied by a policy. Refer to the information governance module in this learning path for instructions on how to publish or auto-apply a label policy. When the label is published, it will be applied to email messages and documents. Remember that the documents the label is being applied to must have a column that's used as an Asset ID.  
+Labels don't do anything unless they're published or auto-applied by a policy. Refer to the Data Lifecycle Management module in this learning path for instructions on how to publish or auto-apply a label policy. When the label is published, it will be applied to email messages and documents. Remember that the documents the label is being applied to must have a column that's used as an Asset ID.  
 
 ## Step 3: Create an event
 
@@ -36,7 +36,7 @@ This step doesn't happen until there's an occurrence of the event type. When an 
 
 ### Name
 
-Enter a name to describe the event that clearly distinguishes it, such as "Employment ended: Megan Bowen ID: 12345", or "Vendor contract CONTR_6789 closed". After the event is created, you can view its status from the Events page of the records management solution.
+Enter a name to describe the event that clearly distinguishes it, such as "Employment ended: Megan Bowen ID: 12345", or "Vendor contract CONTR_6789 closed". After the event is created, you can view its status from the Events page in Microsoft Purview Records Management.
 
 ### Description
 

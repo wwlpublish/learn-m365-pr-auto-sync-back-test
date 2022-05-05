@@ -4,7 +4,7 @@ title: Design content searches
 metadata:
   title: Design content searches
   description: "Design content searches"
-  ms.date: 03/09/2022
+  ms.date: 04/28/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Compliance Data Administrator"
       isCorrect: false
-      explanation: "That's incorrect. This role group doesn't provide permissions to run searches and to preview and export search results in the Content Search page. Try again."
+      explanation: "That's incorrect. This role group doesn't provide permissions to run searches and to preview and export search results in the Content Search page."
     - content: "Compliance Administrator"
       isCorrect: false
-      explanation: "That's incorrect. This role group doesn't provide permissions to run searches and to preview and export search results in the Content Search page. Try again."
+      explanation: "That's incorrect. This role group doesn't provide permissions to run searches and to preview and export search results in the Content Search page."
     - content: "eDiscovery Manager"
       isCorrect: true
       explanation: "That's correct. You must be a member of the eDiscovery Manager role group in the Microsoft 365 Defender portal to run searches and to preview and export search results in the Content Search page. You don't have to assign other search permissions in Exchange Online."

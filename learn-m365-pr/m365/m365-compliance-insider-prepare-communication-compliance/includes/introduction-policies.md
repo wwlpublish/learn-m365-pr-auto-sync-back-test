@@ -1,12 +1,12 @@
 ## Communication compliance policies
 
-Communication compliance policies define which communications and users are subject to review in your organization, define the conditions the communications must meet, and specifies who should do reviews. Users included in the **Supervisory Review Administrator** role group can set up policies, and anyone who has this role assigned can access the **Communication compliance** page in the Microsoft 365 compliance center. If needed, you can export the history of modifications made to a policy to a .csv file that also includes the status of alerts pending review, escalated items, and resolved items. Policies cannot be renamed but can be deleted when no longer needed.
+Communication compliance policies define which communications and users are subject to review in your organization, define the conditions the communications must meet, and specifies who should do reviews. Users included in the **Supervisory Review Administrator** role group can set up policies, and anyone who has this role assigned can access the **Communication compliance** page in the Microsoft Purview compliance portal. If needed, you can export the history of modifications made to a policy to a .csv file that also includes the status of alerts pending review, escalated items, and resolved items. Policies cannot be renamed but can be deleted when no longer needed.
 
-You create communication compliance policies for Microsoft 365 organizations in the Microsoft 365 compliance center. Using PowerShell to create and manage communication compliance policies is not supported.
+You create communication compliance policies for Microsoft 365 organizations in the Microsoft Purview compliance portal. Using PowerShell to create and manage communication compliance policies is not supported.
 
 ### Policy templates
 
-Policy templates contain pre-defined policy settings that you can use to quickly create policies to address common compliance scenarios. Each of these templates has differences in conditions and scope, and all the templates use the same types of scanning signals. You can choose from the following policy templates in the Microsoft 365 compliance center:
+Policy templates contain pre-defined policy settings that you can use to quickly create policies to address common compliance scenarios. Each of these templates has differences in conditions and scope, and all the templates use the same types of scanning signals. You can choose from the following policy templates in the Microsoft Purview compliance portal:
 
 - **Offensive language and anti-harassment**: Use this template to quickly create a policy that uses the threat, profanity, and harassment language classifiers to automatically detect content that may be considered abusive or offensive.
 - **Sensitive information**: Use this template to create a policy to scan communications containing defined sensitive information types or keywords to help make sure that important data isn't shared with people that shouldn't have access.
@@ -71,7 +71,7 @@ Supervision policies in Microsoft 365 will be fully replaced by the communicatio
 - Both solutions may be used side by side in your organization, but policies used in each solution must have *unique* policy names. Groups and custom keyword dictionaries can be shared between solutions during a transition period.
 - Messages saved in supervision policy matches cannot be moved or shared into communication compliance.
 - It is recommended that you create new policies in communication compliance that have the same *conditions* as existing supervision policies to use the new investigation and remediation improvements.
-- When transitioning to communication compliance in Microsoft 365, you should plan to export reporting data from supervision in Office 365 if you have internal compliance retention policy requirements.
+- When transitioning to Microsoft Purview Communication Compliance, you should plan to export reporting data from supervision in Office 365 if you have internal compliance retention policy requirements.
 
 ## Learn more
 

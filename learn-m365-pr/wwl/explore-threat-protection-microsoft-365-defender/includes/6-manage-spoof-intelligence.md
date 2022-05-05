@@ -49,16 +49,12 @@ You can review the senders who are spoofing your domain, or external domains, an
     Spoofed user
   :::column-end:::
   :::column:::
-    
-
-The user account that is being spoofed by the sender.
+    The user account that is being spoofed by the sender.
 
  -  **Internal tab only**. This field contains a single email address, or if the sender is spoofing multiple user accounts, it contains more than one.
  -  **External tab only**. External domains only contain a sending domain, and don't contain a full email address.
 
-**Note**: The spoofed user is the “From (5322.From)” address that is also the address displayed as the "From" address by the mail client. This value is sometimes called the “header.from” address. The validity of this address is not checked by SPF.
-
-
+**Note**: The spoofed user is the “From (5322.From)” address that is also the address displayed as the "From" address by the mail client. This value is sometimes called the “header.from” address. The validity of this address isn't checked by SPF.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -82,9 +78,7 @@ The user account that is being spoofed by the sender.
     Authentication result
   :::column-end:::
   :::column:::
-    
-
-This value is:
+    This value is:
 
  -   **Passed**. The sender passed Exchange Online Protection (EOP) sender authentication checks, such as SPF or DKIM.
  -  **Failed**. The sender failed EOP sender authentication checks.
@@ -114,16 +108,12 @@ This value is:
     Allowed to spoof?
   :::column-end:::
   :::column:::
-    
-
-Displays whether this sender can send email for the spoofed user. Possible values include:
+    Displays whether this sender can send email for the spoofed user. Possible values include:
 
  -  **Yes.** All spoofed addresses from this spoofing sender will be allowed to spoof your organization.
  -  **No.** Spoofed addresses from this spoofing sender won't be allowed to spoof your organization. Instead, messages from this sender will be marked as spam by Microsoft 365.
 
 If a sender is spoofing multiple users, some spoofed addresses from this sender will be allowed to spoof your organization; the rest will be marked as spam. Use the **Detailed** tab to see the specific addresses.
-
-
   :::column-end:::
 :::row-end:::
 :::row:::

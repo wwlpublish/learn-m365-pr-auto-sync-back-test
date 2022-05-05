@@ -80,7 +80,7 @@ Options to customize the text displayed include font size, font color and alignm
 
 ## Step 4: Site and group settings (preview)
 
-When you create sensitivity labels in the Microsoft 365 compliance center, you can now apply them to the following containers:
+When you create sensitivity labels in the Microsoft Purview compliance portal, you can now apply them to the following containers:
 
 - Microsoft 365 groups
 - SharePoint sites
