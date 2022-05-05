@@ -3,7 +3,7 @@ uid: learn.wwl.deploy-manage-edge-transport-server
 metadata:
   title: Provide a gateway for Internet email using Edge Transport servers
   description: "Provide a gateway for Internet email using Edge Transport servers"
-  ms.date: 03/09/2022
+  ms.date: 05/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -27,6 +27,7 @@ products:
 - office
 - office-365
 - office-exchange-server
+- office-exchange-online
 units:
 - learn.wwl.deploy-manage-edge-transport-server.introduction
 - learn.wwl.deploy-manage-edge-transport-server.examine-edge-transport-servers
