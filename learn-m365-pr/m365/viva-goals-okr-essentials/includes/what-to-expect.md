@@ -26,7 +26,7 @@ Understanding the Emotional Cycle of Change prepares you for what's to come and 
 
 ### 1. Begin with the end in mind
 
-:::image type="content" source="../media/finish-line.jpg" alt-text="A picture showing a group of people running on a track.":::
+:::image type="content" source="../media/finishline.jpg" alt-text="A picture showing a group of people running on a track.":::
 
 One of the best ways to create clear and lasting change is to be clear about why OKRs are important to your organization and what your ultimate goal is.
 
@@ -43,7 +43,7 @@ Take a moment to jot down what success looks like to you. A year from now, how w
 
 ### 2. Define your team
 
-:::image type="content" source="../media/orchestra.jpg" alt-text="A picture of a group of people playing instruments.":::
+:::image type="content" source="../media/symphony.jpg" alt-text="A picture of a group of people playing instruments.":::
 
 Much like an orchestra, a successful OKR rollout requires a solid team working together in concert to have a great performance. Here are the key OKR stakeholders and what they do:
 
@@ -58,7 +58,7 @@ Much like an orchestra, a successful OKR rollout requires a solid team working t
 
 ### 3. Communicate clearly
 
-:::image type="content" source="../media/speaker.jpg" alt-text="A picture containing person presenting to a group.":::
+:::image type="content" source="../media/presenter.jpg" alt-text="A picture containing person presenting to a group.":::
 
 We've found that the most successful rollouts have full support and clear communication from upper management.  
 
@@ -77,7 +77,7 @@ Skill yourself in all that Viva Goals has to offer! Familiarizing yourself with 
 
 ### 5. Be patient
 
-:::image type="content" source="../media/patience.jpg" alt-text="A photograph showing a sapling growing out of the ground.":::
+:::image type="content" source="../media/patience-sapling.jpg" alt-text="A photograph showing a sapling growing out of the ground.":::
 
 Implementing OKRs will likely take several quarters (if not years) to become truly proficient. This is normal and expected. Adjust your expectations now to a long-term learning curve and cultivate patience with yourself and your team to gain these skills.
 
