@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.engaged-reports-with-viva-goals.reports
+title: Reports
+metadata:
+  unitType: learning-content
+  title: Reports
+  description: Learn how Viva Goals allows you to manage and sort all the OKR data
+  ms.date: 05/05/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/reports.md)]
