@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-encryption-audit-journal.troubleshoot-encryption-auditing-journaling
+title: Troubleshoot encryption, auditing, and journaling
+metadata:
+  title: Troubleshoot encryption, auditing, and journaling
+  description: "Troubleshoot encryption, auditing, and journaling"
+  ms.date: 05/04/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/4a-troubleshoot-encryption-auditing-journaling.md)]

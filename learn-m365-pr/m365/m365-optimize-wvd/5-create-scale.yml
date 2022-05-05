@@ -2,9 +2,9 @@
 uid: learn-m365.optimize-wvd.create-scale
 title: Create a Scaling Plan
 metadata:
-  title: Create a scaling [lan
+  title: Create a scaling plan
   description: Learn how to configure automatic depth and breadth scaling for Azure Virtual Desktop host pools.
-  ms.date: 02/02/2022
+  ms.date: 05/02/2022
   author: lizap
   ms.author: nedelgad
   ms.topic: interactive-tutorial

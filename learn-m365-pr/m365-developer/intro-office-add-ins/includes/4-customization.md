@@ -90,10 +90,6 @@ Microsoft Graph REST APIs provide a way for your add-in to access the user's dat
 - Windows 10 services
 - Dynamics 365
 
-![Diagram of Microsoft Graph.](../media/04-microsoft-graph.png)
-
-*Microsoft Graph*
-
 ### How to authorize to Microsoft Graph
 
 To connect to and use Microsoft Graph, your add-in needs to:
@@ -103,7 +99,7 @@ To connect to and use Microsoft Graph, your add-in needs to:
 
 #### Authentication
 
-The add-in can get an access token from Azure Active Directory (Azure AD) when the user has signed in. Azure AD doesn't allow its sign in page to open in an iframe, and the add-in task pane is an iframe when the add-in is launched in Office on the Web. So, use the Office JavaScript Dialog API to display the Azure AD sign in form. If your add-in includes custom functions that need authorization to Microsoft Graph, use the custom functions Dialog API to display the sign in form.
+The add-in can get an access token from Azure Active Directory (Azure AD) when the user has signed in. Azure AD doesn't allow its sign-in page to open in an iframe, and the add-in task pane is an iframe when the add-in is launched in Office on the Web. So, use the Office JavaScript Dialog API to display the Azure AD sign-in form. If your add-in includes custom functions that need authorization to Microsoft Graph, use the custom functions Dialog API to display the sign-in form.
 
 #### Authorization
 

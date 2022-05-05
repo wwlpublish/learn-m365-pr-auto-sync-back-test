@@ -8,7 +8,7 @@ Microsoft provides developers page to test SharePoint Framework projects. The **
 
 The local workbench is included with the SharePoint Framework version 1.12.1 and earlier. It runs on https://localhost that has no SharePoint context. It's simply an HTML page that loads the SharePoint Framework in the browser.
 
-The local workbench is not included with current versions of the SharePoint Framework, thus it is not covered in the modules in this learning path.
+The local workbench isn't included with current versions of the SharePoint Framework, thus it isn't covered in the modules in this learning path.
 
 ### SharePoint-hosted workbench
 
@@ -50,15 +50,21 @@ Select the web part from the gallery to add it to the page.
 
 ![Figure showing the Web Part Gallery (Classic site)](../media/04-add-web-part-classic-page-02.png)
 
+Select the **Save and Publish** button in the ribbon to put the page back into read mode.
+
 ![Figure showing the Web Part on a classic page](../media/04-add-web-part-classic-page-03.png)
 
-To edit the web part's properties, you must select the web part and then select **Edit web part** from the web part's context menu while the page is in edit mode. This means that while a classic page can be in edit mode, the web part can be in either presentation or edit mode.
+Put the page back into edit mode. Notice that even though the page is in edit mode, the web part is still in read mode.
 
-![Figure showing the classic page in edit mode](../media/04-add-web-part-classic-page-04.png)
+![Figure showing the classic page in read mode](../media/04-add-web-part-classic-page-04.png)
+
+Select **Edit web part** from the web part's context menu. Notice that the web part is now in edit mode.
+
+![Figure showing the classic page in edit mode](../media/04-add-web-part-classic-page-05.png)
 
 ### Test web parts on modern pages
 
-There are small differences between a classic and modern pages when testing web parts.
+There are small differences between classic and modern pages when testing web parts.
 
 Similar to the classic experience, create a new page or edit an existing one. Modern pages have a horizontal line with a **+** image that you use to open the web part toolbox.
 
@@ -66,11 +72,11 @@ Similar to the classic experience, create a new page or edit an existing one. Mo
 
 ![Figure showing the Web Part Toolbox (Modern site)](../media/04-add-web-part-modern-page-02.png)
 
+Select the **Publish** or **Republish** button to put the page back into read mode.
+
 ![Figure showing the Web Part on a modern page](../media/04-add-web-part-modern-page-03.png)
 
-To open the web part's property pane, select the **pencil** edit icon to the left of the web part when you hover the mouse of the web part.
-
-Unlike the classic experience, the web part's mode always matches the mode of the page. If the page is in edit mode, so is the web part.
+Put the page back into edit mode. Unlike the classic experience, the web part's mode always matches the mode of the page. If the page is in edit mode, so is the web part.
 
 ![Figure showing the modern page in edit mode](../media/04-add-web-part-modern-page-04.png)
 

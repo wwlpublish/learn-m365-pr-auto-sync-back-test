@@ -23,4 +23,4 @@ You should complete the following steps to manually configure OAuth:
 8.  Configure an AvailabilityAddressSpace for any pre-Exchange 2013 SP1 servers.
 9.  Test your OAuth implementation using the Test-OAuthConnectivity cmdlet.
 
-**Additional reading.** For more information, see [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help?azure-portal=true).
+**Further reading.** For more information, see [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help?azure-portal=true).

@@ -45,7 +45,7 @@ While not required, when registering the app, as the administrator you can pre-c
 
 ### Expose an API
 
-Your app must expose it's own permissions to Azure AD and Office clients. On the **Expose an API** blade, set the **Application ID URI**. By default, this is `api://<APP_ID>`, but you should update it to include the domain where your add-in codebase is hosted.
+Your app must expose its own permissions to Azure AD and Office clients. On the **Expose an API** blade, set the **Application ID URI**. By default, this is `api://<APP_ID>`, but you should update it to include the domain where your add-in codebase is hosted.
 
 Include the URL before the `<APP_ID>` part of the URI. For example: `api://addin.contoso.com/<APP_UD>`. This domain must match the domain where all the resources defined in your add-in's **manifest.xml** file are served from.
 
@@ -76,7 +76,7 @@ Microsoft recommends the following when creating Office Add-ins that implement S
 
 ### Use `allowConsentPrompt` if you only need the user's profile
 
-In some scenarios, your Office Add-in may use SSO only to obtain the user's profile. In these cases, consider overriding the default behavior of the sign in process by passing the `{ allowConsentPrompt: true }` option when calling `getAccessToken()` in the Office.js SDK.
+In some scenarios, your Office Add-in may use SSO only to obtain the user's profile. In these cases, consider overriding the default behavior of the sign-in process by passing the `{ allowConsentPrompt: true }` option when calling `getAccessToken()` in the Office.js SDK.
 
 The default value of this property is `false`. This property enables Office to silently obtain an access token or through an interactive consent if one is required. When the property is set to `false`, if Office fails to get a token because the user hasn't consented, it will receive a descriptive error.
 
