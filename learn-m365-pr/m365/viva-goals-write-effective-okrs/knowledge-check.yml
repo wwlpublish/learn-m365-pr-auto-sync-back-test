@@ -1,0 +1,60 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-goals-write-effective-okrs.knowledge-check
+title: Check your knowledge
+metadata:
+  unitType: knowledge_check
+  title: Check your knowledge
+  description: Check what you've learned about writing effective OKRs.
+  ms.date: 04/28/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+quiz:
+  questions:
+  - content: "Which statement contains the traits of an Objective?"
+    choices:
+    - content: "Make more money next year"
+      isCorrect: false
+      explanation: "That's incorrect. This statement doesn't contain the traits of an Objective."
+    - content: "Increase new product sales from $15,000 to $25,000"
+      isCorrect: false
+      explanation: "That's incorrect. This statement doesn't contain the traits of an Objective."
+    - content: "Empower customers to use Viva Goals in order to easily and effectively manage their OKRs"
+      isCorrect: true
+      explanation: "Correct. Well-written Objectives include the how (action), what (aspiration), and why (meaning)."
+  - content: "Which statement contains the traits of Key Result?"
+    choices:
+    - content: "Increase our bilingual sales staff from 2 to 5"
+      isCorrect: true
+      explanation: "Correct. Well-written Key Results should be focused, measurable, and ambitious."
+    - content: "Complete event calendar by creating event, sending invites, and documenting attendance"
+      isCorrect: false
+      explanation: "That's incorrect. This statement doesn't contain the traits of a Key Result."
+    - content: "Double revenue in order to increase profits"
+      isCorrect: false
+      explanation: "That's incorrect. This statement doesn't contain the traits of a Key Result."
+  - content: "What is the difference between a Key Result and a Key Initiative/Project?"
+    choices:
+    - content: "Tasks vs Tactics"
+      isCorrect: false
+      explanation: "That's incorrect. Tasks are elements that make up a Key Initiative/Project and help you use more diverse tactics for achieving your Key Results."
+    - content: "Outcome vs Output"
+      isCorrect: true
+      explanation: "Correct. Key Results are the level of success you're trying to achieve, the outcome. Key Initiatives/Projects are the list of tasks that need to be completed in order to achieve it, the outputs."
+    - content: "Actionable vs Measurable"
+      isCorrect: false
+      explanation: "That's incorrect. Tasks are elements that make up a Key Initiative/Project and help you use more diverse tactics for achieving your Key Results."
+  - content: "What are the three OKR Levels?"
+    choices:
+    - content: "Objectives, Key Results, Key Initiatives/Projects"
+      isCorrect: false
+      explanation: "That's incorrect. OKRs can be conducted on different cadences, but the different time periods don't represent the different levels of effort."
+    - content: "Company, Team, Individual"
+      isCorrect: true
+      explanation: "Correct. OKRs can be the effort of your entire company, the effort of a specific team, or the effort of an individual."
+    - content: "Annual, Semester, Quarter"
+      isCorrect: false
+      explanation: "That's incorrect. OKRs can be conducted on different cadences, but the different time periods don't represent the different levels of effort."
