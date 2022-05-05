@@ -48,7 +48,7 @@ The **end stage** occurs when a team has concluded its useful lifecycle, normall
 
 This diagram visualizes a team lifecycle using PowerShell and Graph API automation tools.
 
-![Lifecycle stages using PowerShell and Graph API automation tools](../media/lifecycle-automation-tools.png)
+:::image type="content" source="../media/lifecycle-automation-tools.png" alt-text="Lifecycle stages using PowerShell and Graph A P I automation tools." border="false":::
 
 ## Learn more
 

@@ -1,7 +1,7 @@
 In this exercise, you'll create a SharePoint Framework (SPFx) application customizer extension.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.13.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
 
 Open a command prompt and change to the folder where you want to create the project.
 
@@ -11,18 +11,14 @@ Run the SharePoint Yeoman generator by executing the following command:
 yo @microsoft/sharepoint
 ```
 
-Use the following to complete the prompt that is displayed (*if additional options are presented, accept the default answer)*:
+Use the following to complete the prompt that is displayed (*if more options are presented, accept the default answer)*:
 
 - **What is your solution name?**: SPFxAppCustomizer
-- **Only SharePoint Online (latest) is supported. For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
-- **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: Yes
-- **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No
 - **Which type of client-side component to create?**: Extension
 - **What type of client-side extension to create?**: Application Customizer
 - **What is your Application Customizer name?**: HelloAppCustomizer
-- **What is your Application Customizer description?**: HelloAppCustomizer description
 
-After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, test the default project provisioned by the generator.
+After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When npm completes downloading all dependencies, test the default project provisioned by the generator.
 
 Unlike web parts, which can be tested in the hosted workbench, extensions must be tested in a modern SharePoint page. Special query string parameters are included with the request to indicate that the extension should be loaded from the local development web server.
 
@@ -277,7 +273,7 @@ gulp serve
 
 When prompted, select the **Load debug scripts** button.
 
-Notice when the page loads, the text defined in the public properties is displayed in the header and footer of the page. If the header and footer do not show on the page, switch back to the command prompt, wait for the **reload** subtask to finish executing, and then refresh.
+Notice when the page loads, the text defined in the public properties is displayed in the header and footer of the page. If the header and footer don't show on the page, switch back to the command prompt, wait for the **reload** subtask to finish executing, and then refresh.
 
 ![Screenshot displaying the application customizer placeholders](../media/03-application-customizer-test-placeholders.png)
 
@@ -301,27 +297,25 @@ gulp package-solution --ship
 
 In the browser, navigate to your SharePoint Online's tenant **App Catalog** site.
 
-Select the **Apps for SharePoint** list in the left-hand navigation.
+Microsoft is in the process of transitioning from the classic app catalog user experience to a modern app catalog user experience. If you see the classic app catalog, you can select the **Try the new Manage Apps page** link displayed at the top of the page, or you can add **/_layouts/15/tenantAppCatalog.aspx** to the end of the app catalog site URL. Either option should take you to the modern app catalog (i.e. the **Manage Apps** page).
+
+![Screenshot of the classic app catalog](../media/03-classic-app-catalog.png)
+
+![Screenshot of the modern app catalog](../media/03-modern-app-catalog.png)
 
 Drag the generated **./sharepoint/solution/sp-fx-app-customizer.sppkg** file into the **Apps for SharePoint** list.
 
-In the **Do you trust spfx-app-customizer-client-side-solution?** dialog:
-
-- Select the checkbox: **Make this solution available to all sites in the organization**
-- Review the message: **This package contains an extension which will be automatically enabled across sites...**
-- Select **Deploy**
+In the **Enable app** panel, select the **Enable this app and add it to all sites** radio button and then select **Enable app**.
 
 ![Screenshot deploying the extension to the entire tenant](../media/03-application-customizer-tenant-wide-deploy-01.png)
 
-Select **Site contents** in the left-hand navigation.
+In the **This app has been enabled** panel, select **Close**.
 
-Select **Tenant Wide Extensions**. Depending on when your tenant was created the **Tenant Wide Extensions** list may be hidden. If you don't see the list in the Site Contents, then you'll have to navigate to it manually by appending `/Lists/TenantWideExtensions/AllItems.aspx` to the URL of the App Catalog site.
-
-![Screenshot displaying the App catalog site contents](../media/03-application-customizer-tenant-wide-deploy-02.png)
+Select **More features** in the left-hand navigation and then select the **Open** button under **Tenant wide extensions**.
 
 Notice the application customizer is present, with the specified properties, in the list:
 
-![Screenshot displaying the Tenant Wide Extensions list](../media/03-application-customizer-tenant-wide-deploy-03.png)
+![Screenshot displaying the Tenant Wide Extensions list](../media/03-application-customizer-tenant-wide-deploy-02.png)
 
 In a separate browser window, navigate to any modern page in any modern site within your SharePoint Online tenant. You should see the extension appear in the tenant.
 

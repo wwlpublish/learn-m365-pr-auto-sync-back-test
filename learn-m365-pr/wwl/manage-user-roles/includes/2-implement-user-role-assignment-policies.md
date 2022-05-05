@@ -1,4 +1,4 @@
-An organization's Exchange environment includes built-in management role groups. It also includes default role assignment policies and built-in user roles for managing end user activities within Exchange.
+An organization's Exchange environment includes built-in management role groups. It also includes default role assignment policies and built-in user roles for managing end-user activities within Exchange.
 
 The following table identifies the built-in user roles that are available in RBAC to support an organization's Exchange environment.
 

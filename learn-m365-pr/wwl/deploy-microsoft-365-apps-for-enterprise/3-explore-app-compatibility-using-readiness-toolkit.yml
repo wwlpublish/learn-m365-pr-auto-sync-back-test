@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-microsoft-365-apps-for-enterprise.explore-app-compatibility-using-readiness-toolkit
+title: Explore your app compatibility by using the Readiness Toolkit
+metadata:
+  title: Explore your app compatibility by using the Readiness Toolkit
+  description: "Explore your app compatibility by using the Readiness Toolkit"
+  ms.date: 04/12/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/3-explore-app-compatibility-using-readiness-toolkit.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Northwind Traders, you're planning the deployment of Microsoft 365 Apps for enterprise throughout the organization. You want to begin by installing the Readiness Toolkit to identify any compatibility issues with your Microsoft Visual Basic for Applications (VBA) macros and add-ins that you currently use with Office. Which of the following statements about the Readiness Toolkit is True?"
+    choices:
+    - content: "When creating an advanced Readiness report, make sure the computer on which you're running the Readiness Toolkit has access to the Internet"
+      isCorrect: true
+      explanation: "Correct. If you're creating an advanced Readiness report, the computer on which you're running the Readiness Toolkit must have access to the Internet. The Readiness Toolkit calls a publicly available web-service, so a specific set of URLs must be allowlisted in your firewall."
+    - content: "You can use the Readiness Toolkit to repair or fix the code in your VBA macros"
+      isCorrect: false
+      explanation: "Incorrect. If you create an advanced Readiness report, the report provides guidance, when available, for remediating your VBA macro code. However, you can't use the Readiness Toolkit to repair or fix the code in your VBA macros."
+    - content: "You must uninstall an older version of the Readiness Toolkit that you previously installed before installing the most current version"
+      isCorrect: false
+      explanation: "Incorrect. The Readiness Toolkit checks if you're using the most current version when you run a report, and it will prompt you to download the most current version if necessary. You don't have to uninstall the older version of the Readiness Toolkit before installing the most current version."

@@ -6,7 +6,7 @@ This module began by examining the different types of flows in Power Automate:
  -  Instant flows
  -  Scheduled flows
  -  Business process flows
- -  UI flows (preview)
+ -  Desktop flows
 
 The module then examined how Power Automate uses connectors to attach flows to data. When creating flows, you learned how to create a blank flow from scratch. You also learned how to define the triggers and actions that drive flows.
 

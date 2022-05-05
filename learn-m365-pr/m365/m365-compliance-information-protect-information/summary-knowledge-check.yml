@@ -16,7 +16,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which capability of Microsoft information protection defines health service numbers or credit card numbers by patterns?"
+    - content: "Which capability of Microsoft Purview Information Protection defines health service numbers or credit card numbers by patterns?"
       choices:
       - content: "Sensitive information types "
         isCorrect: true

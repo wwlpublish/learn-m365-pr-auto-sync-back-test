@@ -11,8 +11,8 @@ Federation refers to the underlying trust infrastructure that supports federated
 
 Each Exchange organization must develop federated trusts using the business instance of the Microsoft Azure AD authentication system. The following Exchange organizations use the business instance of the Microsoft Azure AD authentication system:
 
- -  Exchange Online
- -  Exchange Server 2010 or later organizations that run the Federated Trust Wizard
+ -  Exchange Online.
+ -  Exchange Server 2010 or later organizations that run the Federated Trust Wizard.
 
 > [!NOTE]
 > Microsoft no longer supports federation trust support for the consumer instance of the Microsoft Federation Gateway, which was used in Exchange 2010 and earlier implementations.

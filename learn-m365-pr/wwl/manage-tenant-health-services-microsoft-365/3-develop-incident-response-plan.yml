@@ -4,12 +4,13 @@ title: Develop an incident response plan
 metadata:
   title: Develop an incident response plan
   description: "Develop an incident response plan"
-  ms.date: 07/01/2021
+  ms.date: 04/11/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/3-develop-incident-response-plan.md)]

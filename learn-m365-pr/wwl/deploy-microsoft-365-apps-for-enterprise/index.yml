@@ -3,7 +3,7 @@ uid: learn.wwl.deploy-microsoft-365-apps-for-enterprise
 metadata:
   title: Deploy Microsoft 365 Apps for enterprise
   description: "Deploy Microsoft 365 Apps for enterprise"
-  ms.date: 07/02/2021
+  ms.date: 04/12/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,16 +11,16 @@ metadata:
 title: Deploy Microsoft 365 Apps for enterprise
 summary: This module examines how to implement the Microsoft 365 Apps for enterprise productivity suite in both user-driven and centralized deployments.
 abstract: |
-  By the end of this module, you will be able to:
-  - Describe the Microsoft 365 Apps for enterprise functionality
-  - Configure the Readiness Toolkit
-  - Plan a deployment strategy for Microsoft 365 Apps for enterprise
-  - Complete a user-driven installation of Microsoft 365 Apps for enterprise
-  - Identify the mechanisms for managing centralized deployments of Microsoft 365 Apps for enterprise
-  - Deploy Microsoft 365 Apps for enterprise with the Office Deployment Toolkit
-  - Deploy Microsoft 365 Apps for enterprise using group policy
-  - Describe how to manage Microsoft 365 Apps for enterprise updates
-  - Determine which update channel and application method applies for your organization
+  By the end of this module, you'll be able to:
+  - Describe the Microsoft 365 Apps for enterprise functionality.
+  - Configure the Readiness Toolkit.
+  - Plan a deployment strategy for Microsoft 365 Apps for enterprise.
+  - Complete a user-driven installation of Microsoft 365 Apps for enterprise.
+  - Identify the mechanisms for managing centralized deployments of Microsoft 365 Apps for enterprise.
+  - Deploy Microsoft 365 Apps for enterprise with the Office Deployment Toolkit.
+  - Deploy Microsoft 365 Apps for enterprise using group policy.
+  - Describe how to manage Microsoft 365 Apps for enterprise updates.
+  - Determine which update channel and application method applies for your organization.
 prerequisites: |
   None
 iconUrl: /learn/achievements/deploy-microsoft-365-apps-for-enterprise.svg
@@ -31,19 +31,19 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.introduction
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.explore-functionality
-- learn.wwl.deploy-microsoft-365-apps-for-enterprise.explore-your-app-readiness
+- learn.wwl.deploy-microsoft-365-apps-for-enterprise.explore-app-compatibility-using-readiness-toolkit
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.complete-self-service-installation-of
-- learn.wwl.deploy-microsoft-365-apps-for-enterprise.plan-centralized-deployment-of
-- learn.wwl.deploy-microsoft-365-apps-for-enterprise.with-office-deployment-tool
-- learn.wwl.deploy-microsoft-365-apps-for-enterprise.use-group-policy
+- learn.wwl.deploy-microsoft-365-apps-for-enterprise.deploy-microsoft-365-apps-with-endpoint-configuration-manager
+- learn.wwl.deploy-microsoft-365-apps-for-enterprise.deploy-microsoft-365-apps-from-cloud
+- learn.wwl.deploy-microsoft-365-apps-for-enterprise.deploy-microsoft-365-apps-from-local-source
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.manage-updates-to
-- learn.wwl.deploy-microsoft-365-apps-for-enterprise.explore-update-options-for
+- learn.wwl.deploy-microsoft-365-apps-for-enterprise.explore-update-channels
+- learn.wwl.deploy-microsoft-365-apps-for-enterprise.manage-cloud-apps-using-microsoft-365-apps-admin-center
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.knowledge-check
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.summary
 badge:

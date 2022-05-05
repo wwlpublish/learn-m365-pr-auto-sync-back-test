@@ -80,7 +80,7 @@ Here are the values used in the example:
 
 Here are the results of running the `Search-UnifiedAuditLog` command. Megan Bowen's mailbox (`meganb`) had one sync activity during the dates specified. The next step is to determine if the sync activity came from Megan Bowen (`meganb`) or the attacker.
 
- :::image type="content" source="../media/search-unifiedauditlog.png" alt-text="**Search-UnifiedAuditLog** command results" lightbox="../media/search-unifiedauditlog.png":::
+ :::image type="content" source="../media/search-unifiedauditlog.png" alt-text="Screenshot of the **Search-UnifiedAuditLog** command results." lightbox="../media/search-unifiedauditlog.png":::
 
 ## Check sync activity context
 
@@ -109,7 +109,7 @@ Here are the values used in the example:
 
 Here is the result of running the PowerShell command shown above. The `ClientIPAddress` and `ClientInfoString` details help to determine if the sync activity came from a legitimate source.
 
- :::image type="content" source="../media/search-mailboxauditlog.png" alt-text="The PowerShell command results from checking the sync activity context showing that user meganb accessed mail through Microsoft Exchange." lightbox="../media/search-mailboxauditlog.png":::
+ :::image type="content" source="../media/search-mailboxauditlog.png" alt-text="Screenshot of the results from checking the sync activity context showing that user meganb accessed mail through Microsoft Exchange." lightbox="../media/search-mailboxauditlog.png":::
 
 ## Check for bind activities
 
@@ -121,7 +121,7 @@ Search-MailboxAuditLog -StartDate 05/13/2020 -EndDate 05/14/2020 -Identity megan
 
 Here is the result of running the PowerShell command shown above:
 
- :::image type="content" source="../media/search-unifiedauditlog-2.png" alt-text="The PowerShell command results from checking for bind activities showing all the times user meganb accessed mail through Microsoft Exchange on the specified date." lightbox="../media/search-unifiedauditlog-2.png":::
+ :::image type="content" source="../media/search-unifiedauditlog-2.png" alt-text="Screenshot of the results from checking for bind activities showing all the times user meganb accessed mail through Microsoft Exchange on the specified date." lightbox="../media/search-unifiedauditlog-2.png":::
 
 Email messages that were accessed are identified by their `InternetMessageId` value. You can also check to see if any audit records have the same context as those records already associated with other attacker activity.
 
@@ -133,7 +133,7 @@ You can use the audit data for bind operations in two different ways:
 ## Learn more
 
 - [Responding to a Compromised Email Account](/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account?azure-portal=true)
-- [Use Advanced Audit to investigate compromised accounts](/microsoft-365/compliance/mailitemsaccessed-forensics-investigations?azure-portal=true)
+- [Use Audit (Premium) to investigate compromised accounts](/microsoft-365/compliance/mailitemsaccessed-forensics-investigations?azure-portal=true)
 - [Exchange Online PowerShell V2](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?azure-portal=true)
 - [Search-UnifiedAuditLog PowerShell cmdlet reference](/powershell/module/exchange/policy-and-compliance-audit/Search-UnifiedAuditLog?azure-portal=true)
 - [Search-MailboxAuditLog PowerShell cmdlet reference](/powershell/module/exchange/policy-and-compliance-audit/search-mailboxauditlog?azure-portal=true)

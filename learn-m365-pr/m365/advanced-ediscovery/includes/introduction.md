@@ -14,26 +14,26 @@ In today's digital workplace, the sheer volume of electronically stored informat
 
 Many organizations maintain an exorbitant amount of data in the form of email messages and electronic documents, social data, instant messages, and webpages. By 2025, IDC says worldwide data will grow 61 percent to 175 zettabytes, with as much of the data stored in the cloud as in data centers. With legal review costs up to $150 per gigabyte, there is strong incentive to filter the massive volume of data that is analyzed so the results sent for review are the most relevant to an investigation. The process of gathering and analyzing electronic information so that a large volume of data is filtered down to what is most relevant is commonly referred to as EDRM, or the [Electronic Discovery Reference Model](https://www.edrm.net/resources/frameworks-and-standards/edrm-model/?azure-portal=true?).
 
-Since 2005, [EDRM](http://www.edrm.net/?azure-portal=true) has delivered standards, tools, guides, and test datasets to improve eDiscovery, privacy, and security best practices throughout the world. A relatively recent addition to the EDRM model was Information Governance, which is about getting your electronic house in order to mitigate risk and expenses should it become necessary to use eDiscovery.
+Since 2005, [EDRM](http://www.edrm.net/?azure-portal=true) has delivered standards, tools, guides, and test datasets to improve eDiscovery, privacy, and security best practices throughout the world. A relatively recent addition to the EDRM model was Data Lifecycle Management, which is about getting your electronic house in order to mitigate risk and expenses should it become necessary to use eDiscovery.
 
 The EDRM diagram below represents a conceptual view of the eDiscovery process, not a linear one. Organizations may engage in some of the steps outlined in the diagram or elect to carry out the steps in a different order than shown here.
 
-:::image type="content" source="../media/electronic-discovery-reference-model.png" alt-text="Electronic Discovery Reference Model.":::
+:::image type="content" source="../media/electronic-discovery-reference-model.png" alt-text="Diagram of the Electronic Discovery Reference Model.":::
 
 It's also worth noting that the same step may be repeated numerous times or you may cycle back to earlier steps in order to refine your approach as a better understanding of the data emerges or as the nature of the matter changes.
 
-## Advanced eDiscovery in Microsoft 365
+## eDiscovery (Premium) in Microsoft 365
 
-The Advanced eDiscovery solution in Microsoft 365 builds on the original, core [eDiscovery](/microsoft-365/compliance/ediscovery?azure-portal=true) solution in Microsoft 365 by providing expanded capabilities that enable you to do more while the data remains in-place in your tenant.
+The eDiscovery (Premium) solution builds on the original, core [eDiscovery](/microsoft-365/compliance/ediscovery?azure-portal=true) solution by providing expanded capabilities that enable you to do more while the data remains in-place in your tenant.
 
 > [!div class="centered"]
-> :::image type="content" source="../media/all-microsoft-365.png" alt-text="Advanced eDiscovery solution in Microsoft 365.":::
+> :::image type="content" source="../media/all-microsoft-365.png" alt-text="Diagram that shows the eDiscovery features in Microsoft Purview.":::
 
-By providing expanded capabilities so that you can do more things in-place to further reduce and cull your data, Advanced eDiscovery in Microsoft 365 provides a workflow aligned to the EDRM framework that is more efficient and cost effective. In addition to the efficiency and cost savings, the reduction of risk cannot be understated here – the in-place culling and reduction of data helps to keep sensitive and private data within the tenant without having to share additional copies to outside vendors unless absolutely necessary.
+By providing expanded capabilities so that you can do more things in-place to further reduce and cull your data, eDiscovery (Premium) provides a workflow aligned to the EDRM framework that is more efficient and cost effective. In addition to the efficiency and cost savings, the reduction of risk cannot be understated here – the in-place culling and reduction of data helps to keep sensitive and private data within the tenant without having to share additional copies to outside vendors unless absolutely necessary.
 
-At a high level, here's how Advanced eDiscovery supports the EDRM processes and workflow:
+At a high level, here's how eDiscovery (Premium) supports the EDRM processes and workflow:
 
-1. **Identification**. Adding persons of interest as custodians to an Advanced eDiscovery case. Custodians are the individuals who are under investigation.
+1. **Identification**. Adding persons of interest as custodians to an eDiscovery (Premium) case. Custodians are the individuals who are under investigation.
 1. **Preservation**. Placing a legal hold on custodial and non-custodial data with the ability to send legal hold notifications to custodians and track their acknowledgments.
 1. **Collection**. Searching for and collecting live data from the custodial data sources (and non-custodial data sources, if applicable) that may be relevant to a case.
 1. **Processing**. Copying the data identified in the collection phase to an Azure Storage location (called a review set) which provides a static view of the data for review and analysis.
@@ -45,11 +45,11 @@ At a high level, here's how Advanced eDiscovery supports the EDRM processes and 
 At Microsoft, we have seen the average volume of user-generated data grow from 4 GB per custodian 10 years ago to a current average of 81 GB – 20x growth that is represented illustrated in the chart below by the black line.
 
 > [!div class="centered"]
-> :::image type="content" source="../media/reduce-cost.png" alt-text="Microsoft's legal team found 85% reduction in cost per custodian" lightbox="../media/reduce-cost.png":::
+> :::image type="content" source="../media/reduce-cost.png" alt-text="Chart that shows the 85% reduction in cost per custodian" lightbox="../media/reduce-cost.png":::
 
-Even with this tremendous growth in data, the graph shows our cost savings we have seen with the adoption of Office 365 and in-place preservation and eDiscovery. You can see the transition from the "traditional" eDiscovery approach where we outsourced all of the processing and searching of data by sending it to our third-party eDiscovery partner represented by the left-most bar (100 percent), the use of Core eDiscovery to cull in-place that saved us approximately 70 percent of our costs, and then the adoption of the Advanced eDiscovery analytics that helped to reduce our costs by an additional 50 percent for an overall average savings of nearly 85 percent.
+Even with this tremendous growth in data, the graph shows our cost savings we have seen with the adoption of Office 365 and in-place preservation and eDiscovery. You can see the transition from the "traditional" eDiscovery approach where we outsourced all of the processing and searching of data by sending it to our third-party eDiscovery partner represented by the left-most bar (100 percent), the use of eDiscovery (Standard) to cull in-place that saved us approximately 70 percent of our costs, and then the adoption of the eDiscovery (Premium) analytics that helped to reduce our costs by an additional 50 percent for an overall average savings of nearly 85 percent.
 
-For a quick look at Advanced eDiscovery in Microsoft 365, watch:
+For a quick look at eDiscovery (Premium), watch:
 >
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Asf4]
 
@@ -62,16 +62,16 @@ For a quick look at Advanced eDiscovery in Microsoft 365, watch:
 >
 > Please review [Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true) to identify required licenses for your organization.
 
-## Microsoft 365 Compliance Center
+## Microsoft Purview compliance portal
 
-If you've ever worked with the core eDiscovery solution in the Microsoft 365 Defender portal, you may be aware that you could further manage a case using Advanced eDiscovery by clicking **Switch to Advanced eDiscovery**. This opened the case in Advanced eDiscovery (classic) which is being retired. Its functionality has been replaced by a new version of Advanced eDiscovery in the Microsoft 365 compliance center.
+If you've ever worked with the eDiscovery (Standard) solution in the Microsoft 365 Defender portal, you may be aware that you could further manage a case using eDiscovery (Premium) by clicking **Switch to eDiscovery (Premium)**. This opened the case in eDiscovery (Premium) (classic) which is being retired. Its functionality has been replaced by a new version of eDiscovery (Premium) in the Microsoft Purview compliance portal.
 
 > [!div class="centered"]
-> :::image type="content" source="../media/microsoft-365-compliance-center.png" alt-text="Microsoft 365 compliance center." lightbox="../media/microsoft-365-compliance-center.png":::
+> :::image type="content" source="../media/microsoft-365-compliance-center.png" alt-text="Screenshot of the Microsoft Purview compliance portal." lightbox="../media/microsoft-365-compliance-center.png":::
 
-Version 2.0 of the Advanced eDiscovery solution in Microsoft provides all of the capabilities of the original solution, but now includes a custodian-based approach of identifying content in other Microsoft 365 services, collecting that content, and then adding it to a review set where reviewers can take advantage of fast search queries, tagging, and analytics features to help cull relevant documents. It includes improved processing and native viewers for both Microsoft and non-Microsoft file types, and provides a custodian holds management feature that lets you apply holds to content in different services, notify users of the holds, and track custodian responses, all within an Advanced eDiscovery case.
+Version 2.0 of the eDiscovery (Premium) solution in Microsoft provides all of the capabilities of the original solution, but now includes a custodian-based approach of identifying content in other Microsoft 365 services, collecting that content, and then adding it to a review set where reviewers can take advantage of fast search queries, tagging, and analytics features to help cull relevant documents. It includes improved processing and native viewers for both Microsoft and non-Microsoft file types, and provides a custodian holds management feature that lets you apply holds to content in different services, notify users of the holds, and track custodian responses, all within an eDiscovery (Premium) case.
 
-To access Advanced eDiscovery v2.0:
+To access eDiscovery (Premium) v2.0:
 
-1. Go to the [Microsoft 365 compliance center](https://compliance.microsoft.com/?azure-portal=true).
-1. In the left navigation pane of the Microsoft 365 compliance center, click **Show all**, and then click **eDiscovery > Advanced**.
+1. Go to the [Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true).
+1. In the left navigation pane of the Microsoft Purview compliance portal, click **Show all**, and then click **eDiscovery > Advanced**.

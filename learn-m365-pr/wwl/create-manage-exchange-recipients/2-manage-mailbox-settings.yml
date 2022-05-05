@@ -4,7 +4,7 @@ title: Manage mailbox settings
 metadata:
   title: Manage mailbox settings
   description: "Manage mailbox settings"
-  ms.date: 03/09/2022
+  ms.date: 05/03/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,7 +24,7 @@ quiz:
       explanation: "This answer is correct. When a mailbox is disabled, all Exchange attributes are removed from the associated user account in Active Directory."
     - content: "Patti's disabled mailbox is still visible"
       isCorrect: false
-      explanation: "This answer is incorrect. When a mailbox is disabled, the disabled mailbox is then hidden and marked for removal. Try again."
+      explanation: "This answer is incorrect. When a mailbox is disabled, the disabled mailbox is then hidden and marked for removal."
     - content: "Patti's AD user account is disabled and Patti can't sign into the domain"
       isCorrect: false
-      explanation: "This answer is incorrect. When a mailbox is disabled, the user in Active Directory isn't disabled and can still sign into the domain. Try again."
+      explanation: "This answer is incorrect. When a mailbox is disabled, the user in Active Directory isn't disabled and can still sign into the domain."

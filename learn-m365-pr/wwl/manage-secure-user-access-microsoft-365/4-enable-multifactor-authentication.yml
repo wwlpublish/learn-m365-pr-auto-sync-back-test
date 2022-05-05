@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-secure-user-access-microsoft-365.enable-multifactor-authentication
+title: Enable multifactor authentication
+metadata:
+  title: Enable multifactor authentication
+  description: "Enable multifactor authentication"
+  ms.date: 04/27/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/4-enable-multifactor-authentication.md)]

@@ -4,13 +4,12 @@ title: Create a transport rule to bypass a Safe Attachments policy
 metadata:
   title: Create a transport rule to bypass a Safe Attachments policy
   description: "Create a transport rule to bypass a Safe Attachments policy"
-  ms.date: 09/15/2021
+  ms.date: 05/03/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 4
 content: |
@@ -22,10 +21,10 @@ quiz:
     choices:
     - content: "Create a transport rule and set the \"Select the action for unknown malware in attachments\" option to Monitor"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't what Holly should do to implement this business requirement. Try again."
+      explanation: "Incorrect. This action isn't what Holly should do to implement this business requirement."
     - content: "Create a transport rule and don't select the \"Redirect attachment on detection\" option"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't what Holly should do to implement this business requirement. Try again."
+      explanation: "Incorrect. This action isn't what Holly should do to implement this business requirement."
     - content: "Create a transport rule that bypasses Safe Attachments scanning"
       isCorrect: true
-      explanation: "That's correct. If an organization wants to implement a policy to allow mail with attachments to flow without delay from internal senders, it can create a mail flow rule in the Exchange admin center. The purpose of this rule would be to bypass Safe Attachments scanning."
+      explanation: "Correct. If an organization wants to implement a policy to allow mail with attachments to flow without delay from internal senders, it can create a mail flow rule in the Exchange admin center. The purpose of this rule would be to bypass Safe Attachments scanning."

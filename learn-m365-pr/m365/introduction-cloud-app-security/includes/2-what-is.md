@@ -104,7 +104,7 @@ Office 365 Cloud App Security provides a subset of the features of Microsoft Def
 |                                | Cloud  usage analytics per app, user, IP address     | Yes                                                 |                                                              |
 |                                | Ongoing analytics & reporting                        | Yes                                                 |                                                              |
 |                                | Anomaly  detection for discovered apps               | Yes                                                 |                                                              |
-| Information Protection         | Data Loss Prevention (DLP) support                   | Cross-SaaS DLP and data sharing  control            | Uses existing Office DLP (available  in Office E3 and above) |
+| Information Protection         | Data Loss Prevention (DLP) support                   | Cross-SaaS DLP and data sharing  control            | Uses existing Microsoft Purview Data Loss Prevention (available  in Office E3 and above) |
 |                                | App  permissions and ability to revoke access        | Yes                                                 | Yes                                                          |
 |                                | Policy setting and enforcement                       | Yes                                                 |                                                              |
 |                                | Integration  with Azure Information Protection       | Yes                                                 |                                                              |

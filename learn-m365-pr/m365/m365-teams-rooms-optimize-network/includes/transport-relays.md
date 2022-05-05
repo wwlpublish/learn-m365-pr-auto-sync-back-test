@@ -4,7 +4,7 @@ However, in situations such as the bottom half of the diagram below where somebo
 
 If there are five people on the call and four people can connect via UDP and the fifth can only connect via TCP, that TCP connection has no direct impact on the other four attendees. The other four continue to use the optimal UDP and the fifth attendee will use TCP. TCP is a slower protocol that is not as efficient for real-time audio and video, so that fifth attendee may have a potentially poorer audio and video experience.
 
-![Transport relays are more efficient](../media/transport-relays.png)
+:::image type="content" source="../media/transport-relays.png" alt-text="Transport relays are more efficient." border="false":::
 
 How do we find a transport relay?
 

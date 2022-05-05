@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.describe-collaboration-solutions-microsoft-365.describe-core-employee-experience-capabilities-microsoft-viva
+title: Describe the core employee experience capabilities in Microsoft Viva
+metadata:
+  title: Describe the core employee experience capabilities in Microsoft Viva
+  description: "Describe the core employee experience capabilities in Microsoft Viva"
+  ms.date: 04/28/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/3-describe-core-employee-experience-capabilities-microsoft-viva.md)]

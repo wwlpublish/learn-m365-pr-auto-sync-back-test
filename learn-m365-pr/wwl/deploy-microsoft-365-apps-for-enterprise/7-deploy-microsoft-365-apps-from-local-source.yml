@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-microsoft-365-apps-for-enterprise.deploy-microsoft-365-apps-from-local-source
+title: Deploy Microsoft 365 Apps for enterprise from a local source
+metadata:
+  title: Deploy Microsoft 365 Apps for enterprise from a local source
+  description: "Deploy Microsoft 365 Apps for enterprise from a local source"
+  ms.date: 04/12/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/7-deploy-microsoft-365-apps-from-local-source.md)]

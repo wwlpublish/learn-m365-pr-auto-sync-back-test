@@ -21,7 +21,7 @@ Privileged access management complements other data and access feature protectio
 
 :::image type="content" source="../media/layers-of-protection.png" alt-text="Layers of protection." border="false":::
 
-Privileged access management in Microsoft 365 is defined and scoped at the *task* level, while Azure AD Privileged Identity Management applies protection at the *role* level with the ability to execute multiple tasks. Azure AD Privileged Identity Management primarily allows managing accesses for AD roles and role groups, while privileged access management in Microsoft 365 applies only at the task level.
+Microsoft Purview Privileged Access Management is defined and scoped at the *task* level, while Azure AD Privileged Identity Management applies protection at the *role* level with the ability to execute multiple tasks. Azure AD Privileged Identity Management primarily allows managing accesses for AD roles and role groups, while privileged access management in Microsoft 365 applies only at the task level.
 
 - **Enabling privileged access management while already using Azure AD Privileged Identity Management**: Adding privileged access management in Microsoft 365 provides another granular layer of protection and audit capabilities for privileged access to Microsoft 365 data.
 - **Enabling Azure AD Privileged Identity Management while already using privileged access management**: Adding Azure AD Privileged Identity Management to privileged access management can extend privileged access to data outside of Microsoft 365 that's primarily defined by user roles or identity.

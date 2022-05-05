@@ -39,7 +39,7 @@ quiz:
       choices:
       - content: "Ensure that users are licensed for Office 365 Advanced Compliance."
         isCorrect: false
-        explanation: "You need users licensed for Office 365 DLP, which is included in Office 365 E3."
+        explanation: "You need users licensed for Microsoft Purview Data Loss Prevention, which is included in Office 365 E3."
       - content: "Ensure that the setting that enables users to communicate with other Skype for Business and Teams users is on."
         isCorrect: false
         explanation: "This is a setting not related to this issue. Users must be in a Teams Only mode."
@@ -48,7 +48,7 @@ quiz:
         explanation: "By including vectors that external users can see, such as SharePoint and OneDrive, you prevent data from being shared to them."
     - content: "Which of the following choices describes the Azure tool you would go to in order to create a new DLP policy?"
       choices:
-      - content: "Microsoft 365 compliance center."
+      - content: "Microsoft Purview compliance portal."
         isCorrect: true
         explanation: "This is the correct location to go to in order to create a new DLP policy."
       - content: "Microsoft Defender for Cloud."

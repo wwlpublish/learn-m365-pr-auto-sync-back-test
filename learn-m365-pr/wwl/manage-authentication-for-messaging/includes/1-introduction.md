@@ -8,7 +8,7 @@ A common scenario in many organizations involves users who occasionally forget t
 
 The module then examines multifactor authentication, which is an optional password security feature in Microsoft 365. Multifactor authentication is a method of authentication that requires the use of more than one verification method. This design adds a second layer of security to user sign-ins and transactions.
 
-The module concludes by exploring various best practices that Messaging administrators should consider when planning password management policies.
+The module concludes by exploring various best various that Messaging administrators should consider when planning password management policies. We then reviewed how to configure modern authentication and reviewed the various security functionalities it enables.
 
 ### Prerequisites
 
@@ -27,3 +27,4 @@ After completing this module, you'll be able to:
  -  Configure self-service password management.
  -  Implement multifactor authentication.
  -  Plan password policies.
+ -  Configure modern authentication in Exchange online.

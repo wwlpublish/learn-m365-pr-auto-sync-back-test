@@ -4,12 +4,13 @@ title: Troubleshoot issues with public and private channels
 metadata:
   title: Troubleshoot issues with public and private channels
   description: "Troubleshoot issues with public and private channels"
-  ms.date: 08/24/2021
+  ms.date: 04/26/2022
   author: wwlpublish
   ms.author: cyncarey
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 10
 content: |
   [!include[](includes/3-troubleshoot-issues-public-private-channels.md)]

@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-secure-user-access-microsoft-365.implement-conditional-access-policies
+title: Implement Conditional Access policies
+metadata:
+  title: Implement Conditional Access policies
+  description: "Implement Conditional Access policies"
+  ms.date: 04/27/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/8-implement-conditional-access-policies.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso has chosen to implement Conditional Access policies. Conditional Acccess will enable it to protect the company's regulated content by requiring certain criteria be met before granting access to the content. What prerequisite must Contoso complete to implement Conditional Access policies?"
+    choices:
+    - content: "Install Microsoft Intune"
+      isCorrect: false
+      explanation: "Incorrect. Intune isn't a Conditional Access prerequisite. Organizations can optionally use Conditional Access with Microsoft Intune compliance policies. This combination can control the devices and apps that connect to your email and company resources. However, Microsoft Intune isn't a requirement for implementing Conditional Access policies."
+    - content: "Purchase an Azure AD Premium license"
+      isCorrect: true
+      explanation: "Correct. Conditional Access is an Azure Active Directory capability that's included with an Azure Active Directory Premium license."
+    - content: "Implement Azure AD Identity Governance"
+      isCorrect: false
+      explanation: "Incorrect. Implementing Azure AD Identity Governance isn't a Conditional Access prerequisite."

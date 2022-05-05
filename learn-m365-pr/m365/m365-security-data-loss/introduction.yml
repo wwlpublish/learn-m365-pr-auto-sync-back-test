@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-security-data-loss.introduction
-title: Introduction to Microsoft 365 data loss prevention
+title: Introduction to Microsoft Purview Data Loss Prevention
 metadata:
-  title: Introduction to Microsoft 365 data loss prevention
+  title: Introduction to Microsoft Purview Data Loss Prevention
   description: Learn how information protection helps organizations protect data to prevent data loss or theft.
   ms.date: 10/28/2019
   author: beccarobins
