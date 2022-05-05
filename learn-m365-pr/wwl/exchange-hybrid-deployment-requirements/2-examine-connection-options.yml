@@ -4,7 +4,7 @@ title: Examine the connection options for Exchange to Microsoft 365
 metadata:
   title: Examine the connection options for Exchange to Microsoft 365
   description: "Examine the connection options for Exchange to Microsoft 365"
-  ms.date: 03/09/2022
+  ms.date: 05/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,7 +24,7 @@ quiz:
       explanation: "This answer is correct. Cutover migration isn't a real coexistence. It provides migration of the user account information and mailbox data. However, no mail routing coexistence is required. Organizations just need to switch their DNS."
     - content: "Hybrid deployment"
       isCorrect: false
-      explanation: "This answer is incorrect. Hybrid deployment requires directory synchronization using Azure AD Connect and mail routing between on-premises Exchange and Exchange Online. Try again."
+      explanation: "This answer is incorrect. Hybrid deployment requires directory synchronization using Azure AD Connect and mail routing between on-premises Exchange and Exchange Online."
     - content: "Staged migration"
       isCorrect: false
-      explanation: "This answer is incorrect. Staged migration requires directory synchronization to be in place and mail routing between on-premises Exchange and Exchange Online. Try again."
+      explanation: "This answer is incorrect. Staged migration requires directory synchronization to be in place and mail routing between on-premises Exchange and Exchange Online."
