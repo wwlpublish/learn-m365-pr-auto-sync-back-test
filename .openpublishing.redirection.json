@@ -2904,6 +2904,236 @@
       "source_path": "learn-m365-pr/wwl/troubleshoot-problems-mail-flow/7-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/troubleshoot-problems-mail-flow/8-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/select-a-cloud-deployment-model/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-licensing-service-support/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/select-a-cloud-deployment-model/2-hybrid-model.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-licensing-service-support/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/select-a-cloud-deployment-model/3-which-model-to-choose.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-licensing-service-support/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/select-a-cloud-deployment-model/4-migration-m365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-licensing-service-support/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/select-a-cloud-deployment-model/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-licensing-service-support/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/select-a-cloud-deployment-model/6-summary-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-licensing-service-support/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/select-a-cloud-deployment-model/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-licensing-service-support/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-identity-access-management-capabilities-of-microsoft-365/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-identity-access-management-capabilities-of-microsoft-365/2-learn-identity-access-management-microsoft-zero-trust-model.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-identity-access-management-capabilities-of-microsoft-365/3-manage-identities-access-with-azure-active-directory.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-identity-access-management-capabilities-of-microsoft-365/4-multi-factor-authentication.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-identity-access-management-capabilities-of-microsoft-365/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-identity-access-management-capabilities-of-microsoft-365/6-summary-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-identity-access-management-capabilities-of-microsoft-365/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-threat-protection-capabilities-of-microsoft-365/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-threat-protection-capabilities-of-microsoft-365/2-identify-common-security-threats.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-threat-protection-capabilities-of-microsoft-365/3-prevent-detect-respond-to-threats.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-threat-protection-capabilities-of-microsoft-365/4-understand-security-posture.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-threat-protection-capabilities-of-microsoft-365/5-describe-value-intelligent-security-graph.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-threat-protection-capabilities-of-microsoft-365/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-threat-protection-capabilities-of-microsoft-365/7-summary-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-threat-protection-capabilities-of-microsoft-365/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-cloud-security-capabilities-of-microsoft-365/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-cloud-security-capabilities-of-microsoft-365/2-take-control-of-cloud-environment.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-cloud-security-capabilities-of-microsoft-365/3-explore-microsoft-cloud-app-security-integration.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-cloud-security-capabilities-of-microsoft-365/4-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-cloud-security-capabilities-of-microsoft-365/5-summary-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-cloud-security-capabilities-of-microsoft-365/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-information-protection-governance-capabilities-of-microsoft-365/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-information-protection-governance-capabilities-of-microsoft-365/2-discover-identify-important-information.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-information-protection-governance-capabilities-of-microsoft-365/3-protect-sensitive-data.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-information-protection-governance-capabilities-of-microsoft-365/4-govern-data.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-information-protection-governance-capabilities-of-microsoft-365/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-information-protection-governance-capabilities-of-microsoft-365/6-summary-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-information-protection-governance-capabilities-of-microsoft-365/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/reduce-risk-simplify-discovery-audit-process/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/reduce-risk-simplify-discovery-audit-process/10-summary-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/reduce-risk-simplify-discovery-audit-process/2-manage-insider-risk.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/reduce-risk-simplify-discovery-audit-process/3-manage-communications-compliance.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/reduce-risk-simplify-discovery-audit-process/4-restrict-communications-with-information-barriers.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/reduce-risk-simplify-discovery-audit-process/5-control-privileged-admin-access.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/reduce-risk-simplify-discovery-audit-process/6-increase-control-with-customer-lockbox.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/reduce-risk-simplify-discovery-audit-process/7-investigate-with-advanced-audit.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/reduce-risk-simplify-discovery-audit-process/8-manage-compliance-legal-investigations-with-advanced-ediscovery.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/reduce-risk-simplify-discovery-audit-process/9-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/reduce-risk-simplify-discovery-audit-process/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-security-compliance-capabilities/",
+      "redirect_document_id": false
     }
   ]
 }
