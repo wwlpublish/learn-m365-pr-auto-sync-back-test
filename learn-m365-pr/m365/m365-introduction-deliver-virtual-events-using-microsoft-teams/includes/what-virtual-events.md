@@ -12,8 +12,8 @@ To scale up the production of a virtual event to the level of broadcasting to th
 
 ## Event scenarios
 
-:::image type="complex" source="../media/scenarios.png" alt-text="Alt text" border="false":::
-A diagram that has five columns. The first shows complexity with simple at the top and an arrow pointing to down to complex. The second column is titled event scenario and lists Team meetings, webinars, virtual conferences, leadership townhall, and public broadcasts. The third column is production level, and lists webcams, could be custom production, and custom production only. The fourth column is attendees with the top value up to 10,000 and the bottom value up to 100,000. The last column is solution, and it lists Live event in Teams, then Live event in Yammer, and the lowest item is Live event in Stream.
+:::image type="complex" source="../media/scenarios.png" alt-text="Diagram that covers complexity, scenarios, production levels, attendees, and solutions for virtual events." border="false":::
+	A diagram that has five columns. The first shows complexity with simple at the top and an arrow pointing to down to complex. The second column is titled event scenario and lists Team meetings, webinars, virtual conferences, leadership townhall, and public broadcasts. The third column is production level, and lists webcams, could be custom production, and custom production only. The fourth column is attendees with the top value up to 10,000 and the bottom value up to 100,000. The last column is solution, and it lists Live event in Teams, then Live event in Yammer, and the lowest item is Live event in Stream.
 :::image-end:::
 
 The virtual event formats supported in Microsoft 365 range in complexity, based on what you need:
@@ -30,8 +30,7 @@ To create a great virtual event, you need a great event team. The roles you'll w
 
 :::row:::
     :::column:::
-
-        :::image type="content" source="../media/attendee-small.png" alt-text="Attendee icon" border="false":::
+        :::image type="icon" source="../media/attendee-small.png" :::
 
     :::column-end:::
     :::column span="3":::
@@ -42,7 +41,7 @@ To create a great virtual event, you need a great event team. The roles you'll w
 
 :::row:::
     :::column:::
-        :::image type="content" source="../media/moderator-small.png" alt-text="Moderator icon" border="false":::
+        :::image type="icon" source="../media/moderator-small.png" :::
     :::column-end:::
     :::column span="3":::
         <br/><br/>
@@ -53,7 +52,7 @@ To create a great virtual event, you need a great event team. The roles you'll w
 
 :::row:::
     :::column:::
-        :::image type="content" source="../media/organizer-small.png" alt-text="Organizer icon" border="false":::
+        :::image type="icon" source="../media/organizer-small.png" :::
     :::column-end:::
     :::column span="3":::
         <br/><br/>
@@ -63,7 +62,7 @@ To create a great virtual event, you need a great event team. The roles you'll w
 
 :::row:::
     :::column:::
-        :::image type="content" source="../media/presenter-small.png" alt-text="Presenter icon" border="false":::
+        :::image type="icon" source="../media/presenter-small.png":::
     :::column-end:::
     :::column span="3":::
         <br/>
@@ -74,7 +73,7 @@ To create a great virtual event, you need a great event team. The roles you'll w
 
 :::row:::
     :::column:::
-        :::image type="content" source="../media/producer-small.png" alt-text="Producer icon" border="false":::
+        :::image type="icon" source="../media/producer-small.png":::
     :::column-end:::
     :::column span="3":::
         <br/>

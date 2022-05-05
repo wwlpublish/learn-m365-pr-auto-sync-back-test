@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-authentication-for-messaging.explore-modern-authentication
+title: Explore modern authentication
+metadata:
+  title: Explore modern authentication
+  description: "Explore modern authentication"
+  ms.date: 04/29/2022
+  author: wwlpublish
+  ms.author: maquinl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/6-modern-authentication.md)]

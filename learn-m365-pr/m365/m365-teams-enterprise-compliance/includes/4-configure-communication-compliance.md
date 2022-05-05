@@ -32,7 +32,7 @@ To manage communication policies and alerts, create one or more admin role group
 |---------|---------|
 |Communication Compliance Admin     |   Permissions to create, read, update, and delete communication compliance policies, global settings, and role group assignments. No permissions to view message alerts.      |
 |Communication Compliance Analysis    | Permissions to view policies where they are assigned as Reviewers, view message metadata, but not message content, escalate to additional reviewers, or send notifications to users. No permissions to resolve pending alerts.   |
-|Communication Compliance Investigation    |  Permissions to view message metadata and content, escalate to additional reviewers, escalate to an Advanced eDiscovery case, send notifications to users, and resolve the alert.    |
+|Communication Compliance Investigation    |  Permissions to view message metadata and content, escalate to additional reviewers, escalate to an eDiscovery (Premium) case, send notifications to users, and resolve the alert.    |
 |Communication Compliance Viewer     |    Permissions to access all reporting widgets on the communication compliance home page and view all communication compliance reports.     |
 |Communication Compliance Case Management     |  Permissions to manage cases and act on alerts. Required when creating custom role groups for administrators, analysts, and investigators. Custom groups for viewers do not need this role assigned.       |
 | | |
@@ -56,7 +56,7 @@ After you turn on auditing, a message is displayed that says the audit log is be
 
 Once the audit log is enabled, you can start creating policy for communication compliance:
 
-1. Sign into the [Microsoft 365 compliance center](https://compliance.microsoft.com), from the left navigation, select **Show all** > **Communication compliance**.
+1. Sign into the [Microsoft Purview compliance portal](https://compliance.microsoft.com), from the left navigation, select **Show all** > **Communication compliance**.
 1. Select the **Policies** tab.
 1. Select **Create policy** to create a custom policy, or from a template.
 1. When you choose a policy template, you will:

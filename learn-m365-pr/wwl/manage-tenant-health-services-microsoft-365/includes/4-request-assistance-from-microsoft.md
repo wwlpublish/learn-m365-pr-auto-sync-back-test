@@ -2,31 +2,17 @@ Microsoft Support provides global technical, pre-sales, billing, and subscriptio
 
 Technical support for Microsoft 365 subscriptions aids with basic installation, setup, and general technical usage. Some examples of these issues are listed in the following table.
 
-### 
-
 :::row:::
   :::column:::
-    
-
-**Support Category** 
-
-
+    **Support Category** 
   :::column-end:::
   :::column:::
-    
-
-**Examples** 
-
-
+    **Examples** 
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Installation and setup
-
-
+    Installation and setup
   :::column-end:::
   :::column:::
     
@@ -50,11 +36,7 @@ Installation and setup
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Configuration
-
-
+    Configuration
   :::column-end:::
   :::column:::
     
@@ -78,41 +60,21 @@ Microsoft assigns a severity level to a case when it’s opened, based on an ass
 
 :::row:::
   :::column:::
-    
-
-**Severity Level** 
-
-
+    **Severity Level** 
   :::column-end:::
   :::column:::
-    
-
-**Operations and Support Description** 
-
-
+    **Operations and Support Description** 
   :::column-end:::
   :::column:::
-    
-
-**Examples** 
-
-
+    **Examples** 
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Sev A (Critical)
-
-
+    Sev A (Critical)
   :::column-end:::
   :::column:::
-    
-
-One or more services aren’t accessible or are unusable. Production, operations, or deployment deadlines are severely affected, or there will be a severe impact on production or profitability. Multiple users or services are affected.
-
-
+    One or more services aren’t accessible or are unusable. Production, operations, or deployment deadlines are severely affected, or there will be a severe impact on production or profitability. Multiple users or services are affected.
 
   :::column-end:::
   :::column:::
@@ -127,18 +89,10 @@ One or more services aren’t accessible or are unusable. Production, operations
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Sev B (High)
-
-
+    Sev B (High)
   :::column-end:::
   :::column:::
-    
-
-The service is usable but in an impaired fashion. The situation has moderate business impact and can be dealt with during business hours. A single user, customer, or service is partially affected.
-
-
+    The service is usable but in an impaired fashion. The situation has moderate business impact and can be dealt with during business hours. A single user, customer, or service is partially affected.
 
   :::column-end:::
   :::column:::
@@ -152,18 +106,10 @@ The service is usable but in an impaired fashion. The situation has moderate bus
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Sev C (Non-critical)
-
-
+    Sev C (Non-critical)
   :::column-end:::
   :::column:::
-    
-
-The situation has minimal business impact. The issue is important but doesn't have a significant current service or productivity impact for the customer. A single user is experiencing partial disruption, but an acceptable workaround exists.
-
-
+    The situation has minimal business impact. The issue is important but doesn't have a significant current service or productivity impact for the customer. A single user is experiencing partial disruption, but an acceptable workaround exists.
 
   :::column-end:::
   :::column:::
@@ -179,7 +125,7 @@ The situation has minimal business impact. The issue is important but doesn't ha
 
 ### Administrator role and responsibilities
 
-People with Microsoft 365 administrator roles are the only ones in the customer’s organization authorized to access the Admin section of the Microsoft 365 portal and to communicate directly with Microsoft about Microsoft 365 service requests.
+The only people who can access the Microsoft 365 admin center are users who have been assigned Microsoft 365 admin roles. They're also the only ones who can communicate directly with Microsoft about Microsoft 365 service requests.
 
 With Microsoft 365 Enterprise and Microsoft 365 Business plans, you can choose several types of administrators who serve different functions. This service description uses the generic title administrator to refer to all categories of administrators.
 

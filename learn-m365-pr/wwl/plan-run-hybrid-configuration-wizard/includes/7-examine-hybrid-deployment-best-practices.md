@@ -7,4 +7,4 @@ Messaging administrators should consider the following best practices when imple
  -  **Don't change the MX resource record at first.** Change it only after you've verified the hybrid deployment works.
  -  **Use multiple MRS Proxy endpoints where possible.** The Mailbox Replication service (MRS) has a proxy endpoint that is required for cross-forest mailbox moves and remote move migrations between your on-premises Exchange organization and Microsoft 365. Depending on your organization’s Internet connection, it's wise to have multiple MRS proxy endpoints if you also have multiple Internet inbound connections and certificates.
 
-**Additional reading.** For more information, see [Office 365 Mail Flow best practices](/exchange/mail-flow-best-practices/mail-flow-best-practices?azure-portal=true).
+**Further reading.** For more information, see [Office 365 Mail Flow best practices](/exchange/mail-flow-best-practices/mail-flow-best-practices?azure-portal=true).

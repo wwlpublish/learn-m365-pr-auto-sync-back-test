@@ -5,11 +5,11 @@ A vulnerability is a weakness that can be exploited by an attacker to do unautho
 
 The following sections provide an overview of the vulnerabilities reported by Azure Identity Protection, along with recommendations on how to address those issues.
 
-### Multi-factor authentication registration not configured
+### Multifactor authentication registration not configured
 
-This vulnerability can affect the deployment of Azure AD Multi-Factor Authentication (MFA) in your organization. MFA provides a second layer of security to user authentication. It helps safeguard access to data and applications while meeting user demand for a simple sign-in process. MFA delivers strong authentication through a range of easy verification options, such as phone call, text message, mobile app notification, verification code, and third-party OATH tokens.
+This vulnerability can affect the deployment of Azure AD Multi-Factor Authentication in an organization. Multifactor authentication provides a second layer of security to user authentication. It helps safeguard access to data and applications while meeting user demand for a simple sign-in process. Multifactor authentication delivers strong authentication through a range of easy verification options, such as phone call, text message, mobile app notification, verification code, and third-party OATH tokens.
 
-**Recommended Action:** It's recommended that you require Azure AD Multi-Factor Authentication for user sign-in attempts. MFA plays a key role in risk-based Conditional Access policies available through Azure Identity Protection.
+**Recommended Action:** It's recommended that you require Azure AD Multi-Factor Authentication for user sign-in attempts. Multifactor authentication plays a key role in risk-based conditional access policies available through Azure Identity Protection.
 
 ### Unmanaged cloud apps
 
@@ -19,9 +19,9 @@ This vulnerability helps you identify unmanaged cloud apps in your organization.
 
 ### Security alerts from Privileged Identity Management
 
-This vulnerability helps you discover and resolve alerts about privileged identities in your organization. To enable users to carry out privileged operations, organizations need to grant users temporary or permanent privileged access in Azure AD, Azure or Office 365 resources, or other SaaS apps. Each of these privileged users increases the attack surface of your organization. This vulnerability helps you identify users with unnecessary privileged access and take appropriate action to reduce or eliminate the risk they pose.
+This vulnerability helps you discover and resolve alerts about privileged identities in your organization. To enable users to carry out privileged operations, organizations must grant users temporary or permanent privileged access in Azure AD, Azure or Microsoft 365 resources, or other SaaS apps. Each of these privileged users increases the attack surface for an organization. This vulnerability helps organizations identify users with unnecessary privileged access. By doing so, organizations can take appropriate action to reduce or eliminate the risk these users pose.
 
-**Recommended Action:** Microsoft recommends that your organization use Azure AD Privileged Identity Management to manage, control, and monitor privileged identities. Use PIM to manage access of these identities to resources in Azure AD and other Microsoft online services, such as Microsoft 365 and Microsoft Intune.
+**Recommended Action:** Microsoft recommends that organizations use Azure AD Privileged Identity Management to manage, control, and monitor privileged identities. PIM can manage access of these identities to resources in Azure AD and other Microsoft online services, such as Microsoft 365 and Microsoft Intune.
 
 ### Azure Active Directory risk events
 
@@ -43,114 +43,58 @@ The parameters that define each risk event type are outlined in the following ta
 
 :::row:::
   :::column:::
-    
-
-**Detection Type**
-
-
+    **Detection Type**
   :::column-end:::
   :::column:::
-    
-
-**Reporting Latency**
-
-
+    **Reporting Latency**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Real-time
-
-
+    Real-time
   :::column-end:::
   :::column:::
-    
-
-5 to 10 minutes
-
-
+    5 to 10 minutes
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Offline
-
-
+    Offline
   :::column-end:::
   :::column:::
-    
-
-2 to 4 hours
-
-
+    2 to 4 hours
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-**Risk Level**
-
-
+    **Risk Level**
   :::column-end:::
   :::column:::
-    
-
-**Description**
-
-
+    **Description**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-High
-
-
+    High
   :::column-end:::
   :::column:::
-    
-
-High confidence and high severity risk events. These events are strong indicators that the user’s identity has been compromised, and any affected user accounts should be remediated.
-
-
+    High confidence and high severity risk events. These events are strong indicators that the user’s identity has been compromised, and any affected user accounts should be remediated.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Medium
-
-
+    Medium
   :::column-end:::
   :::column:::
-    
-
-High severity and lower confidence risk event, or low severity and high confidence risk event. These events are potentially risky, and any affected user accounts should be remediated.
-
-
+    High severity and lower confidence risk event, or low severity and high confidence risk event. These events are potentially risky, and any affected user accounts should be remediated.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Low
-
-
+    Low
   :::column-end:::
   :::column:::
-    
-
-Low confidence and low severity risk event. This event may not require an immediate action, but when combined with other risk events, may provide a strong indication that the identity is compromised.
-
-
+    Low confidence and low severity risk event. This event may not require an immediate action, but when combined with other risk events, may provide a strong indication that the identity is compromised.
   :::column-end:::
 :::row-end:::
 
@@ -162,14 +106,19 @@ The risk event type is an identifier for the suspicious action a risk event reco
 
 ### Users with leaked credentials
 
-Cybercriminals often share credentials when they compromise valid passwords of legitimate users. Criminals share credentials by posting them publicly on the dark web or paste sites or by trading or selling the credentials on the black market. The Microsoft Leaked Credentials Service acquires username / password pairs by monitoring public and dark web sites and by working with:
+Cybercriminals often share credentials when they compromise valid passwords of legitimate users. Criminals share credentials by:
+
+ -  Posting them publicly on the dark web or paste sites.
+ -  Trading or selling the credentials on the black market.
+
+The Microsoft Leaked Credentials Service acquires username / password pairs by monitoring public and dark web sites and by working with:
 
  -  Researchers
  -  Law enforcement
  -  Security teams at Microsoft
  -  Other trusted sources
 
-When the service acquires username/password pairs, they're checked against the Azure AD users' current credentials. If a match is found, it means that a user's password has been compromised, and a *leaked credentials risk event* is created.
+When the service acquires username/password pairs, they're checked against the Azure AD users' current credentials. If a match is found, it means that a user's password has been compromised. As a result, the service creates a leaked credentials risk event.
 
 ### Sign-ins from anonymous IP address
 
@@ -177,19 +126,24 @@ This risk event type identifies users who have successfully signed in from an IP
 
 ### Impossible travel to atypical locations
 
-This risk event type identifies two sign-in attempts that originate from geographically distant locations, where at least one of the locations may also be atypical for the user, given past behavior. Among several other factors, this machine learning algorithm considers the time between the two sign-in attempts and the time it would have taken for the user to travel from the first location to the second, indicating that a different user is using the same credentials.
+This risk event type identifies two sign-in attempts that originate from geographically distant locations. At least one of the locations may also be atypical for the user, given past behavior. Among several other factors, this machine learning algorithm considers:
 
-The algorithm ignores obvious "false positives" contributing to the impossible travel conditions, such as VPNs and locations regularly used by other users in the organization. The system has an initial learning period of 14 days during which it learns a new user’s sign-in behavior.
+ -  The time between the two sign-in attempts.
+ -  The time it would have taken for the user to travel from the first location to the second.
+
+The risk event type can compare these two values and determine whether it's possible that a different user used the same credentials in the second sign-in attempt.
+
+The algorithm ignores obvious "false positives" contributing to the impossible travel conditions. For example, VPNs and locations regularly used by other users in the organization. The system has an initial learning period of 14 days. During this time, it's able to learn a new user’s sign-in behavior.
 
 ### Sign in from unfamiliar locations
 
-This risk event type considers past sign-in locations (IP, Latitude/Longitude, and ASN) to determine new or unfamiliar locations. The system stores information about previous locations from which a user has signed in and considers these “familiar” locations. The risk event is triggered when the sign-in occurs from a location that's not already in the list of familiar locations. The system has an initial learning period of 30 days. During this time, the system doesn't flag any new locations as unfamiliar locations. The system also ignores sign in attempts from familiar devices, and locations that are geographically close to a familiar location.
+This risk event type considers past sign-in locations (IP, Latitude/Longitude, and ASN) to determine new or unfamiliar locations. The system stores information about previous locations from which a user has signed in and considers these “familiar” locations. The risk event is triggered when the sign-in occurs from a location that's not already in the list of familiar locations. The system has an initial learning period of 30 days. During this time, the system doesn't flag any new locations as unfamiliar locations. The system also ignores sign in attempts from familiar devices, and locations that are close to a familiar location.
 
 Azure Identity Protection also detects sign in attempts from unfamiliar locations for basic authentication/legacy protocols. Because these protocols don't have modern familiar features such as client ID, there aren't enough measurements to reduce false positives. To reduce the number of detected risk events, you should move to modern authentication.
 
 ### Sign in attempts from infected devices
 
-This risk event type identifies sign in attempts from devices infected with malware that are known to actively communicate with a bot server. This event is determined by correlating IP addresses of the user’s device against IP addresses that were in contact with a bot server.
+This risk event type identifies sign-in attempts from devices infected with malware that are known to actively communicate with a bot server. This event is determined by correlating IP addresses of the user’s device against IP addresses that were in contact with a bot server.
 
 ### Sign in attempts from IP addresses with suspicious activity
 

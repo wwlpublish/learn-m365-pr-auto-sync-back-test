@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn.wwl.describe-analytics-capabilities-microsoft-365
+metadata:
+  title: Describe analytics capabilities in Microsoft 365
+  description: "Learn about the pricing model for Microsoft cloud services and how Microsoft 365 is available through a variety of licensing and billing options to meet the needs of people and organizations. Prepare for MS-900."
+  ms.date: 04/28/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Describe analytics capabilities in Microsoft 365
+summary: Learn about how the analytics capabilities through Microsoft 365 help people build better work habits with personal insights and help business leaders improve the employee experience and business outcomes with organizational insights.
+abstract: |
+  By the end of this module, you'll be able to:
+  *   Describe how Viva Insights help organizations build better work habits
+  *   Describe the capabilities of the Microsoft 365 admin center and user portal
+  *   Describe the reports available in the Microsoft 365 admin center and other admin centers
+prerequisites: |
+  - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a -Service (Saas).
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-owner
+- business-user
+products:
+- m365
+- office-365
+units:
+- learn.wwl.describe-analytics-capabilities-microsoft-365.introduction
+- learn.wwl.describe-analytics-capabilities-microsoft-365.describe-capabilities-of-viva-insights
+- learn.wwl.describe-analytics-capabilities-microsoft-365.describe-capabilities-of-admin-center-user-portal
+- learn.wwl.describe-analytics-capabilities-microsoft-365.describe-reports-available-admin-center-other-admin-centers
+- learn.wwl.describe-analytics-capabilities-microsoft-365.knowledge-check
+- learn.wwl.describe-analytics-capabilities-microsoft-365.summary-resources
+badge:
+  uid: learn.wwl.describe-analytics-capabilities-microsoft-365.badge

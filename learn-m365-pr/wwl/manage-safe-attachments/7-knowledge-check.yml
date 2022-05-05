@@ -4,13 +4,12 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 09/15/2021
+  ms.date: 05/03/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 6
 content: |
@@ -22,32 +21,32 @@ quiz:
     choices:
     - content: "Use the New-SafeAttachmentRule cmdlet to create a Safe Attachments rule"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't the first thing Allan should do. Try again."
+      explanation: "Incorrect. This action isn't the first thing Allan should do."
     - content: "Use the New-SafeAttachmentPolicy cmdlet to create a Safe Attachments policy"
       isCorrect: true
-      explanation: "That's correct. When using PowerShell to create a policy, you must create the policy before the rule. The policy must be created first so that you can later assign it to the rule. If you create the rule first, you won't have a policy to assign to it."
+      explanation: "Correct. When using PowerShell to create a policy, you must create the policy before the rule. The policy must be created first so that you can later assign it to the rule. If you create the rule first, you won't have a policy to assign to it."
     - content: "Use the Set-SafeAttachmentPolicy cmdlet to update the Safe Attachments policy settings"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't the first thing Allan should do. Try again."
-  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer wants to protect users from opening unsafe attachments. Holly doesn't want to create policies that block or replace attachments. Instead, Holly wants to avoid message delivery delays so that Fabrikam's users remain productive. When creating a Safe Attachments policy, what action should Holly select to implement this business requirement?"
+      explanation: "Incorrect. This action isn't the first thing Allan should do."
+  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer wants to protect users from opening unsafe attachments. Holly doesn't want to create policies that block or replace attachments. Instead, Holly wants to avoid message delivery delays so that Fabrikam's users remain productive. When Holly creates a Safe Attachments policy, what action should she select to implement this business requirement?"
     choices:
     - content: "Dynamic delivery"
       isCorrect: true
-      explanation: "That's correct. While ensuring the user is protected, dynamic delivery enables the user to remain productive. It does so by allowing the user to read and respond to the email while the attachment is being scanned."
+      explanation: "Correct. While ensuring the user is protected, dynamic delivery enables the user to remain productive. It does so by allowing the user to read and respond to the email while the attachment is being scanned."
     - content: "Block"
       isCorrect: false
-      explanation: "That's incorrect. Policies configured to block attachments often result in delivery delays that may annoy end users and impact their productivity. Try again."
+      explanation: "Incorrect. Policies configured to block attachments often result in delivery delays that may annoy end users and affect their productivity."
     - content: "Replace"
       isCorrect: false
-      explanation: "That's incorrect. Policies configured to replace attachments often result in delivery delays that may annoy end users and impact their productivity. Try again."
+      explanation: "Incorrect. Policies configured to replace attachments often result in delivery delays that may annoy end users and affect their productivity."
   - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer created a Safe Attachments policy and set the action to \"Dynamic delivery\". What will happen when an email message is received that has an infected attachment?"
     choices:
     - content: "The message is updated with an attachment that tells the recipient the original attachment was infected with malware"
       isCorrect: true
-      explanation: "That's correct. Dynamic delivery allows the user to read and respond to the email while the attachment is being scanned. The user receives the email, but in place of the attachment that was originally sent, the user receives a placeholder attachment, which notifies the user the original attachment is currently being scanned. If the scanned attachment is considered infected, the message is updated with an attachment that tells the recipient the original attachment was infected with malware."
+      explanation: "Correct. Dynamic delivery allows the user to read and respond to the email while the attachment is being scanned. The user receives the email, but in place of the attachment that was originally sent, the user receives a placeholder attachment, which notifies the user the original attachment is currently being scanned. If the scanned attachment is considered infected, the message is updated with an attachment that tells the recipient the original attachment was infected with malware."
     - content: "The attachment will be included with the original message in the user’s inbox along with a warning message indicating the attachment is infected"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't what happens when a Safe Attachments policy is set to Dynamic delivery. Try again."
+      explanation: "Incorrect. This action isn't what happens when a Safe Attachments policy is set to Dynamic delivery."
     - content: "The message is sent to the user's inbox with no attachment"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't what happens when a Safe Attachments policy is set to Dynamic delivery. Try again."
+      explanation: "Incorrect. This action isn't what happens when a Safe Attachments policy is set to Dynamic delivery."

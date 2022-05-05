@@ -8,7 +8,7 @@ Insider risk management uses audit logs for user insights and activities configu
 
 ### Assign permissions
 
-A global administrator will need to assign you and other compliance officers to the **Insider Risk Management** or **Insider Risk Management Admin** role group by using the **Permissions** module in the Microsoft 365 compliance center. Once you have been assigned to one of these roles, you have the ability to assign additional users to specific role groups to manage different sets of insider risk management features.
+A global administrator will need to assign you and other compliance officers to the **Insider Risk Management** or **Insider Risk Management Admin** role group by using the **Permissions** module in the Microsoft Purview compliance portal. Once you have been assigned to one of these roles, you have the ability to assign additional users to specific role groups to manage different sets of insider risk management features.
 
 Depending on the structure of your compliance management team, you have options to assign users to specific role groups to manage different sets of insider risk management features. You have the ability to choose from the following role group options when configuring insider risk management:
 
@@ -35,7 +35,7 @@ The following requirements must be met before you can set up an HR connector:
   Briefly, the steps for creating the connector involve the following:
   1. Creating an app in Azure Active Directory.
   1. Generating the CSV file from your organization's HR system.
-  1. Creating an HR connector in the Microsoft 365 compliance center.
+  1. Creating an HR connector in the Microsoft Purview compliance portal.
   1. Running a script that will upload the HR data in the CSV file to the Microsoft cloud.
 
   For more details, see the [Set up a connector to import HR data](/microsoft-365/compliance/import-hr-data?azure-portal=true) topic.
@@ -51,7 +51,7 @@ Insider risk management supports using DLP policies to help identify the intenti
 
 Insider risk management policies include assigned users and define which types of risk indicators are configured for alerts. Before activities can trigger alerts, a policy must be configured.
 
-To create a new insider risk management policy, you use the policy wizard in the **Insider risk management** solution in the Microsoft 365 compliance center. Briefly, you create a new policy by stepping through the policy wizard and policy settings to configure the following items:
+To create a new insider risk management policy, you use the policy wizard in the **Insider risk management** solution in the Microsoft Purview compliance portal. Briefly, you create a new policy by stepping through the policy wizard and policy settings to configure the following items:
 
 - **Policy template**
 - **Users or groups** the policy will apply to (optionally, assign higher risk scores to detected activity based on where the related content is located, what sensitive info is included, and what sensitivity labels are applied)

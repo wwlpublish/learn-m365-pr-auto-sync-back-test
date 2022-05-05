@@ -4,12 +4,13 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 07/05/2021
+  ms.date: 04/30/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/6-knowledge-check.md)]
@@ -20,32 +21,32 @@ quiz:
     choices:
     - content: "Implement multi-factor authentication"
       isCorrect: false
-      explanation: "That's incorrect. Implementing MFA is actually part of strengthening your credentials. Try again."
+      explanation: "Incorrect. Implementing MFA is actually part of strengthening your credentials."
     - content: "Reducing the time criminals have to embed themselves into your environment"
       isCorrect: false
-      explanation: "That's incorrect. This strategy is actually part of automating your threat response. Try again."
+      explanation: "Incorrect. This strategy is actually part of automating your threat response."
     - content: "Reduce your attack surface area"
       isCorrect: true
-      explanation: "That's correct. To make life harder for hackers, reduce your attack surface area by eliminating using older, less secure protocols, limiting access entry points, and exercising more significant control of administrative access to resources."
+      explanation: "Correct. To make life harder for hackers, reduce your attack surface area by eliminating using older, less secure protocols, limiting access entry points, and exercising more significant control of administrative access to resources."
   - content: "As the Enterprise Administrator for Adventure Works Cycles, Patti Fernandez wants to adopt a Zero Trust approach to security protection throughout the organization. Which of the following features is the policy engine at the heart of Microsoft's Zero Trust solution?"
     choices:
     - content: "Threat Analytics"
       isCorrect: false
-      explanation: "That's incorrect. Threat Analytics provides a set of reports from expert Microsoft security researchers that help you understand, prevent, and mitigate active threats. However, it isn't the policy engine at the heart of Microsoft's Zero Trust solution. Try again."
-    - content: "Microsoft 365 Insider Risk Management Analytics"
+      explanation: "Incorrect. Threat Analytics provides a set of reports from expert Microsoft security researchers that help you understand, prevent, and mitigate active threats. However, it isn't the policy engine at the heart of Microsoft's Zero Trust solution."
+    - content: "Microsoft Purview Insider Risk Management"
       isCorrect: false
-      explanation: "That's incorrect. This feature can identify potential insider risk activity within an organization and help inform policy configurations. However, it isn't the policy engine at the heart of Microsoft's Zero Trust solution. Try again."
+      explanation: "Incorrect. This feature can identify potential insider risk activity within an organization and help inform policy configurations. However, it isn't the policy engine at the heart of Microsoft's Zero Trust solution."
     - content: "Azure AD Conditional Access"
       isCorrect: true
-      explanation: "That's correct. This feature is the policy engine at the heart of Microsoft's Zero Trust solution. It uses authentication context to enforce even more granular policies based on user actions within the app they're using or sensitivity of data they're trying to access. This design helps organizations protect important information without unduly restricting access to less sensitive content."
+      explanation: "Correct. This feature is the policy engine at the heart of Microsoft's Zero Trust solution. It uses authentication context to enforce even more granular policies based on user actions within the app they're using or sensitivity of data they're trying to access. This design helps organizations protect important information without unduly restricting access to less sensitive content."
   - content: "As the Enterprise Administrator for Fabrikam, Inc., Allan Deyoung wants to implement a Zero Trust security model across the organization. What tool can Allan use to help determine where Fabrikam is in its journey across its identities, devices, apps, infrastructure, network, and data?"
     choices:
     - content: "Azure AD Conditional Access wizard"
       isCorrect: false
-      explanation: "That's incorrect. This wizard is not a valid tool that Fabrikam can use to determine where it is on its journey to implement a Zero Trust security model. Try again."
+      explanation: "Incorrect. This wizard isn't a valid tool that Fabrikam can use to determine where it is on its journey to implement a Zero Trust security model."
     - content: "Zero Trust Assessment"
       isCorrect: true
-      explanation: "That's correct. The Zero Trust Assessment tool will help you determine where you are in your journey across your identities, devices, apps, infrastructure, network, and data."
+      explanation: "Correct. The Zero Trust Assessment tool will help you determine where you are in your journey across your identities, devices, apps, infrastructure, network, and data."
     - content: "Microsoft Defender for Office 365"
       isCorrect: false
-      explanation: "That's incorrect. Microsoft Defender for Office 365 safeguards your organization against malicious threats posed by email messages, links (URLs), and collaboration tools. However, it isn't the tool that can be used to help implement a Zero Trust security model. Try again."
+      explanation: "Incorrect. Microsoft Defender for Office 365 safeguards your organization against malicious threats posed by email messages, links (URLs), and collaboration tools. However, it isn't the tool that can be used to help implement a Zero Trust security model."

@@ -3,13 +3,13 @@ A hybrid Exchange deployment also supports coexistence with on-premises Public F
  -  **Legacy Public Folders.** Public Folders on Exchange Server 2007 or 2010 that are located in a Public Folder database.
  -  **Modern Public Folders.** Public Folders on Exchange Server 2013 or later that are located in a Public Folder mailbox.
 
-For Public Folder coexistence with Microsoft 365, an organization must configure Exchange Online to access its on-premises Public Folders that are located on its Exchange servers. Outlook clients with mailboxes located in Exchange Online can access the on-premises Public Folders using the local Autodiscovery process and the Outlook Anywhere protocol.<br>
+For Public Folder coexistence with Microsoft 365, an organization must configure Exchange Online to access its on-premises Public Folders that are located on its Exchange servers. Outlook clients with mailboxes located in Exchange Online can access the on-premises Public Folders using the local Autodiscovery process and the Outlook Anywhere protocol.
 
 The Public Folder proxy mailbox SMTP addresses will be returned by Exchange Online to the Outlook client. The client then uses the Autodiscover process to find and establish a direct connection to Public Folders hosted in the on-premises Exchange environment.
 
 ### Prerequisites for Public Folder coexistence
 
-An organization must satisfy the following requirements to configure Public Folder coexistence with Microsoft 365:<br>
+An organization must satisfy the following requirements to configure Public Folder coexistence with Microsoft 365:
 
  -  Azure AD Connect must provide directory synchronization between the organization's on-premises environment and Microsoft 365.
  -  A hybrid Exchange deployment is required to enable email forwarding between on-premises Exchange Server and Exchange Online, and for all other functionality.
@@ -56,8 +56,11 @@ Once the prerequisites are satisfied, Public Folder coexistence can be configure
     ```
     
     The SMTP of this mailbox is returned by AutoDiscover as the DefaultPublicFolderMailbox SMTP, so that when you resolve, the SMTP client can reach the legacy exchange server for Public Folder access.
-4.  Repeat the preceding steps for every Public Folder server in your organization.<br>
-5.  The final step in this procedure is to configure the Exchange Online organization and to allow access to the legacy on-premises Public Folders. It's important that the previously created proxy Public Folder mailboxes have been synchronized to Exchange Online by directory synchronization.<br><br>To enable the Exchange Online organization to access the on-premises Public Folders, you must point to all the proxy Public Folder mailboxes that you created for Exchange Server 2010, or to your Public Folder mailboxes located on Exchange 2013 or later. You should run the following PowerShell command in Exchange Online to complete this task:
+4.  Repeat the preceding steps for every Public Folder server in your organization.
+
+5.  The final step in this procedure is to configure the Exchange Online organization and to allow access to the legacy on-premises Public Folders. It's important that the previously created proxy Public Folder mailboxes have been synchronized to Exchange Online by directory synchronization.
+
+    To enable the Exchange Online organization to access the on-premises Public Folders, you must point to all the proxy Public Folder mailboxes that you created for Exchange Server 2010, or to your Public Folder mailboxes located on Exchange 2013 or later. You should run the following PowerShell command in Exchange Online to complete this task:
     
     ```powershell
     Set-OrganizationConfig -PublicFoldersEnabled Remote -RemotePublicFolderMailboxes PFMailbox1, PFMailbox2 ,…

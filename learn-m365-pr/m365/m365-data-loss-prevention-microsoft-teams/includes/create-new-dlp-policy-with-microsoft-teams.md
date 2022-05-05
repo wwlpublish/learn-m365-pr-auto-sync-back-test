@@ -3,11 +3,11 @@ Now that you understand what DLP is and how you can use it in Teams, let's creat
 > [!NOTE]
 > When creating a policy for use with Teams, you must include other technologies that Teams uses; Exchange email, SharePoint sites, and OneDrive accounts as you will see in this section.
 
-Account information: For all of the walkthroughs in this learning path, you will need to open a browser and connect to <https://compliance.microsoft.com>. Sign in to the Compliance Center using your own admin account. You will need proper licensing to access the Compliance Center.
+Account information: For all of the walkthroughs in this learning path, you will need to open a browser and connect to <https://compliance.microsoft.com>. Sign in to the compliance portal using your own admin account. You will need proper licensing to access the compliance portal.
 
 ## Create a new policy using an existing template
 
-1. In the left navigation of the Microsoft 365 Compliance, at the bottom of the page under Solutions, select **Show all**.
+1. In the left navigation of the Microsoft Purview, at the bottom of the page under Solutions, select **Show all**.
 :::image type="content" source="../media/5-show-all-inline.png" lightbox="../media/5-show-all-expanded.png" alt-text="Show all.":::
 1. Under **Solutions** select **Data loss prevention**, and then select **+ Create policy**.
 :::image type="content" source="../media/5-data-loss-prevention-inline.png" lightbox="../media/5-data-loss-prevention-expanded.png" alt-text="Create policy.":::

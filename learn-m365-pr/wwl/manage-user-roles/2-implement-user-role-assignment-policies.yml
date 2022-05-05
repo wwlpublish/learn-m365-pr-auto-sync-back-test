@@ -4,7 +4,7 @@ title: Implement user roles for role assignment policies
 metadata:
   title: Implement user roles for role assignment policies
   description: "Implement user roles for role assignment policies"
-  ms.date: 03/09/2022
+  ms.date: 04/28/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "MyDiagnostics"
       isCorrect: false
-      explanation: "That's incorrect. This built-in role enables end users to complete basic diagnostics on their mailbox. Try again."
+      explanation: "That's incorrect. This built-in role enables end users to complete basic diagnostics on their mailbox."
     - content: "MyBaseOptions"
       isCorrect: true
       explanation: "That's correct. This built-in role enables end users to view and modify basic configuration and access settings for Outlook on the web."
     - content: "MyProfileInformation"
       isCorrect: false
-      explanation: "That's incorrect. This built-in role enables end users to change their name and display name. Try again."
+      explanation: "That's incorrect. This built-in role enables end users to change their name and display name."

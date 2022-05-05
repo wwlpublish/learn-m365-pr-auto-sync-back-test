@@ -10,7 +10,7 @@ Select **Advanced permissions** settings to view the SharePoint permissions page
 
 In the following interactive exercise you will start from the Teams client, and a public channel. You will learn how to get troubleshooting information by verifying file access permissions. 
 
-[Troubleshoot file sharing interactive walkthrough](https://edxinteractivepage.blob.core.windows.net/edxpages/M365%20Troubleshoot/Troubleshooting%20files/index.html)
+[Troubleshoot file sharing interactive walkthrough](https://edxinteractivepage.blob.core.windows.net/edxpages/M365_Troubleshoot/Troubleshooting%20files/index.html)
 
 ## Determine whether the name for a channel or team has been changed
 

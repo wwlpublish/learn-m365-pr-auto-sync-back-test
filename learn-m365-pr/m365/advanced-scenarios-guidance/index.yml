@@ -12,11 +12,11 @@ title: Configure advanced scenarios in Microsoft Defender for Cloud Apps
 summary: Use advanced features of Microsoft Defender for Cloud Apps to protect more devices, integrate with other products, and customize security tools.
 abstract: | 
   After completing this module, you’ll be able to:
-  -	Create a custom indicator of compromise in Microsoft Cloud App Security.
-  -	Observe security threats detected by Microsoft Cloud App Security in the Microsoft 365 Defender portal.
-  -	Block apps and websites on iOS devices by using Defender for Endpoint and Microsoft Cloud App Security.
-  -	Ensure that a log collector can communicate with Microsoft Cloud App Security from behind a proxy server.
-  -	Interact with Microsoft Cloud App Security by using the REST API.
+  -	Create a custom indicator of compromise in Microsoft Defender for Cloud Apps.
+  -	Observe security threats detected by Microsoft Defender for Cloud Apps in the Microsoft 365 Defender portal.
+  -	Block apps and websites on iOS devices by using Defender for Endpoint and Microsoft Defender for Cloud Apps.
+  -	Ensure that a log collector can communicate with Microsoft Defender for Cloud Apps from behind a proxy server.
+  -	Interact with Microsoft Defender for Cloud Apps by using the REST API.
 prerequisites: | 
   - Experience working with Microsoft 365 services
   - Experience working with Azure 

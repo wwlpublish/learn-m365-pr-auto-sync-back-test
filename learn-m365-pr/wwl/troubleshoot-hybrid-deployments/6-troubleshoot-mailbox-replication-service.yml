@@ -4,7 +4,7 @@ title: Troubleshoot the Mailbox Replication service
 metadata:
   title: Troubleshoot the Mailbox Replication service
   description: "Troubleshoot the Mailbox Replication service"
-  ms.date: 03/09/2022
+  ms.date: 05/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,7 +24,7 @@ quiz:
       explanation: "This answer is correct. After you make changes to the MRS config file, you must restart the Microsoft Exchange Mailbox Replication service."
     - content: "Run the Remote Connectivity Analyzer tool"
       isCorrect: false
-      explanation: "This answer is incorrect. This task isn't the next step that you must complete after making changes to the MRS config file. Try again."
+      explanation: "This answer is incorrect. This task isn't the next step that you must complete after making changes to the MRS config file."
     - content: "Update the company's SPF and DKIM records in DNS"
       isCorrect: false
-      explanation: "This answer is incorrect. This task isn't the next step that you must complete after making changes to the MRS config file. Try again."
+      explanation: "This answer is incorrect. This task isn't the next step that you must complete after making changes to the MRS config file."

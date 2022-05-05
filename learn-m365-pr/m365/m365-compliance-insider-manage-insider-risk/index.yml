@@ -2,17 +2,17 @@
 uid: learn-m365.m365-compliance-insider-manage-insider-risk
 metadata:
   title: Manage insider risk in Microsoft 365
-  description: Insider risk management in Microsoft 365 helps organizations address internal risks, such as IP theft, fraud, and sabotage. Learn about insider risk management and how Microsoft technologies can help you detect, investigate, and take action on risky activities in your organization. 
-  ms.date: 03/29/2022
+  description: Microsoft Purview Insider Risk Management helps organizations address internal risks, such as IP theft, fraud, and sabotage. Learn about insider risk management and how Microsoft technologies can help you detect, investigate, and take action on risky activities in your organization. 
+  ms.date: 04/06/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage insider risk in Microsoft 365
-summary: Insider risk management in Microsoft 365 helps organizations address internal risks, such as IP theft, fraud, and sabotage. Learn about insider risk management and how Microsoft technologies can help you detect, investigate, and take action on risky activities in your organization. 
+summary: Microsoft Purview Insider Risk Management helps organizations address internal risks, such as IP theft, fraud, and sabotage. Learn about insider risk management and how Microsoft technologies can help you detect, investigate, and take action on risky activities in your organization. 
 abstract: |
   Upon completion of this module, you should be able to: 
-  - Explain how insider risk management in Microsoft 365 can help prevent, detect, and contain internal risks in an organization. 
+  - Explain how Microsoft Purview Insider Risk Management can help prevent, detect, and contain internal risks in an organization. 
   - Describe the types of built-in, pre-defined policy templates. 
   - List the prerequisites that need to be met before creating insider risk policies.
   - Explain the types of actions you can take on an insider risk management case.
