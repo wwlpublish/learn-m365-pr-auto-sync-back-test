@@ -29,7 +29,7 @@ Before you can configure a hybrid deployment with Exchange Server using the HCW,
  -  **Edge Synchronization (for Edge Transport).** If the on-premises organization has Edge Transport servers and you want to configure the Edge Transport servers for hybrid secure mail transport, Edge Synchronization must be configured before you configure the hybrid environment. With Edge Synchronization, you can automatically configure the Edge Transport servers from the Exchange Admin Center.
  -  **Unified Messaging-enabled (UM) mailboxes.** If you have UM-enabled mailboxes and you want to move them to Microsoft 365, you need Lync Server 2010, Lync Server 2013, or Skype for Business Server 2015 or later integrated with your on-premises telephony system or Skype for Business Online integrated with your on-premises telephony system or a traditional on-premises PBX or IP-PBX solution.
 
-**Additional reading.** For more information, see [Hybrid deployment prerequisites](/exchange/hybrid-deployment-prerequisites?azure-portal=true).
+**Further reading.** For more information, see [Hybrid deployment prerequisites](/exchange/hybrid-deployment-prerequisites?azure-portal=true).
 
 ## Knowledge check
 
