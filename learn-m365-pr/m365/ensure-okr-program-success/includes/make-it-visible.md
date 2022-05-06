@@ -14,7 +14,7 @@ In team and one-on-one meetings, OKR Champions should use dashboards to keep age
 
 While it may seem an obvious strategy, it's one worth mentioning! Use reminders to build muscle memory and drive repetitive behavior. Once something is committed to muscle memory, it doesn't take up the same mental bandwidth or effort to sustain the new behavior. You can help yourself build this by setting a nudge to remind you and your team to update your OKRs at the same time each week.
 
-## Habit-Stacking
+## Habit-stacking
 
 Habit-stacking is a strategy for implementing new behavior that groups together small activities and links them to an established habit. If someone wanted to start drinking more water, for example, and they already had a morning routine of drinking coffee, they could stack a new habit of drinking one glass of water while they make their coffee.
 
