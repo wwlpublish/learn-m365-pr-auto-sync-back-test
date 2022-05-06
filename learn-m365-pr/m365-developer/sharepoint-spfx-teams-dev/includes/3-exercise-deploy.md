@@ -20,7 +20,7 @@ After provisioning the folders required for the project, the generator will inst
 
 ![Screenshot of the SharePoint Framework Project.](../media/03-create-project-02.png)
 
-## Enable the web part to be used in Microsoft Teamsnpm
+## Enable the web part to be used in Microsoft Teams
 
 Locate and open the file **./src/webparts/spFxTeamsTogether/SpFxTeamsTogetherWebPart.manifest.json**:
 
