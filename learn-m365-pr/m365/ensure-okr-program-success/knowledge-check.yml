@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.ensuring-okr-program-success.knowledge-check
+uid: learn-m365.ensure-okr-program-success.knowledge-check
 title: Knowledge check
 metadata:
   unitType: knowledge_check
   title: Knowledge check
-  description: Check you understanding of the module
+  description: Check your understanding of the module
   ms.date: 05/05/2022
   author: rasanders
   ms.author: rasanders
@@ -46,10 +46,10 @@ quiz:
       explanation: "That's correct. Normalizing intelligent failure creates a safe atmosphere to set stretch goals and celebrating small wins creates a more positive atmosphere where people are recognized for their work."
     - content: "Reward OKR success with bonuses and only talk about OKR successes."
       isCorrect: false
-      explanation: "That's incorrect. Remember that people need to feel like it is safe to fail in order to be willing to take risks (and risk-taking is essential to OKRs)."
+      explanation: "That's incorrect. Remember that people need to feel like it's safe to fail in order to be willing to take risks (and risk-taking is essential to OKRs)."
     - content: "Increase vacation time and incentivize competition for successful OKRs."
       isCorrect: false
-      explanation: "That's incorrect. Remember that people need to feel like it is safe to fail in order to be willing to take risks (and risk-taking is essential to OKRs)."
+      explanation: "That's incorrect. Remember that people need to feel like it's safe to fail in order to be willing to take risks (and risk-taking is essential to OKRs)."
   - content: "What are the three stages that create the OKR framework and help make OKRs a part of daily business rhythms?"
     choices:
     - content: "Immature, intermediate, mature"

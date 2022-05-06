@@ -1,16 +1,16 @@
 ### YamlMime:Module
-uid: learn-m365.ensuring-okr-program-success
+uid: learn-m365.ensure-okr-program-success
 metadata:
   moduleType: standard
   title: Ensuring OKR Program Success
-  description: Learn how to use Viva Goals to engage with others and leverage the data that exists within your instance.
+  description: Learn how to launch Viva Goals successfully.
   ms.date: 05/05/2022
   author: rasanders
   ms.author: rasanders
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Ensuring OKR Program Success
-summary: Learn how to use Viva Goals to engage with others and leverage the data that exists within your instance.
+summary: Learn how to launch Viva Goals successfully.
 abstract: |
   By the end of this module, you'll be able to:
     - Engage with activity within Viva Goals
@@ -27,11 +27,11 @@ products:
 - m365
 - viva
 units:
-- learn-m365.ensuring-okr-program-success.introduction
-- learn-m365.ensuring-okr-program-success.create-psychological-safety
-- learn-m365.ensuring-okr-program-success.establish-business-rhythms
-- learn-m365.ensuring-okr-program-success.make-it-visible
-- learn-m365.ensuring-okr-program-success.knowledge-check
-- learn-m365.ensuring-okr-program-success.summary
+- learn-m365.ensure-okr-program-success.introduction
+- learn-m365.ensure-okr-program-success.create-psychological-safety
+- learn-m365.ensure-okr-program-success.establish-business-rhythms
+- learn-m365.ensure-okr-program-success.make-it-visible
+- learn-m365.ensure-okr-program-success.knowledge-check
+- learn-m365.ensure-okr-program-success.summary
 badge:
-  uid: learn-m365.ensuring-okr-program-success.badge
+  uid: learn-m365.ensure-okr-program-success.badge
