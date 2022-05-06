@@ -18,9 +18,11 @@ When integrated together, EOP and Microsoft Defender for Office 365 represent th
 
 This module focuses on Microsoft Defender for Office 365. This product protects users from advanced threats through features such as Safe Attachments and Safe Links. It also generates reports that provide administrators with insight into attacks targeting their tenants through email.
 
-In this module, you'll be introduced to the Microsoft Defender for Office 365 feature set. These products include Safe Attachments, Safe Links, and capabilities such as Dynamic Delivery and URL Detonation.
+In this module, you'll be introduced to the Microsoft Defender for Office 365 feature set. These products include Safe Attachments, Safe Links, and creating outbound spam filters. Spam filters enable organizations to set email sending limits. Users who exceed these sending limits can then be blocked from sending email. You can unblock the users in the Microsoft 365 Defender portal.
 
 After completing this module, you'll be able to:
 
  -  Describe how the Safe Attachments feature in Microsoft Defender for Office 365 blocks zero-day malware in email attachments and documents.
  -  Describe how the Safe Links feature in Microsoft Defender for Office 365 protects users from malicious URLs embedded in email and documents that point to malicious websites.
+ -  Create outbound spam filtering policies.
+ -  Unblock users who violated spam filtering policies so they can resume sending emails.

@@ -39,15 +39,15 @@ When the SharePoint page loads, SharePoint will prompt you to load the debug scr
 
 Select the **Load debug scripts** button.
 
-![Screenshot of Allow debug scripts dialog](../media/app-customizer-load-debug-scripts.png)
+![Screenshot of Allow debug scripts dialog.](../media/app-customizer-load-debug-scripts.png)
 
 If you see this warning, switch back to the command prompt, wait for the **reload** subtask to finish executing, and then refresh the page:
 
-![Screenshot of the load manifest warning](../media/load-manifest-warning.png)
+![Screenshot of the load manifest warning.](../media/load-manifest-warning.png)
 
 Once the page loads, a SharePoint alert dialog will be shown:
 
-![Screenshot of SharePoint Alert dialog](../media/03-app-customizer-test.png)
+![Screenshot of SharePoint Alert dialog.](../media/03-app-customizer-test.png)
 
 This alert dialog is shown by the application customizer. Open the application customizer file located at **./src/extensions/helloAppCustomizer/HelloAppCustomizerApplicationCustomizer.ts** and find the `OnInit()` method. Notice the following line in the method that is triggering the dialog to appear.
 
@@ -275,7 +275,7 @@ When prompted, select the **Load debug scripts** button.
 
 Notice when the page loads, the text defined in the public properties is displayed in the header and footer of the page. If the header and footer don't show on the page, switch back to the command prompt, wait for the **reload** subtask to finish executing, and then refresh.
 
-![Screenshot displaying the application customizer placeholders](../media/03-application-customizer-test-placeholders.png)
+![Screenshot displaying the application customizer placeholders.](../media/03-application-customizer-test-placeholders.png)
 
 Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the command prompt.
 
@@ -307,7 +307,7 @@ Drag the generated **./sharepoint/solution/sp-fx-app-customizer.sppkg** file int
 
 In the **Enable app** panel, select the **Enable this app and add it to all sites** radio button and then select **Enable app**.
 
-![Screenshot deploying the extension to the entire tenant](../media/03-application-customizer-tenant-wide-deploy-01.png)
+![Screenshot deploying the extension to the entire tenant.](../media/03-application-customizer-tenant-wide-deploy-01.png)
 
 In the **This app has been enabled** panel, select **Close**.
 
