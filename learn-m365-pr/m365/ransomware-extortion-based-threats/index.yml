@@ -4,7 +4,7 @@ metadata:
   moduleType: standard
   title: Examine ransomware and extortion-based threats
   description: Ransomware attacks are growing at an alarming rate. But what exactly is a ransomware attack? This module will define ransomware, determine the scope of the ransomware problem, describe who ransomware victims are, and will touch on a few notable ransomware "families" that everyone should know.
-  ms.date: 4/8/2022
+  ms.date: 5/5/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -13,23 +13,26 @@ title: Examine ransomware and extortion-based threats
 summary: Ransomware attacks are growing at an alarming rate. But what exactly is a ransomware attack? This module will define ransomware, determine the scope of the ransomware problem, describe who ransomware victims are, and will touch on a few notable ransomware "families" that everyone should know.
 abstract: |
   By the end of this module, you'll be able to:
-    - "TODO learning objective 1"
-    - "TODO learning objective 2"
-    - "TODO learning objective 3"
+    - Define ransomware. 
+    - Identify different attack types. 
+    - Explain what a ransomware family is. 
+    - Describe a real-life ransomware attack. 
 prerequisites: |
-  None
+  - None
 iconUrl: /learn/achievements/generic-badge.svg
-levels:
+levels: 
   - beginner
-roles:
-  - business-user
-products:
+roles: 
+  - developer
+products: 
 - m365
 units:
 - learn-m365.ransomware-extortion-based-threats.introduction
-- learn-m365.ransomware-extortion-based-threats.learning-content
-- learn-m365.ransomware-extortion-based-threats.exercise
+- learn-m365.ransomware-extortion-based-threats.overview-ransomware
+- learn-m365.ransomware-extortion-based-threats.scale-ransomware-problem
+- learn-m365.ransomware-extortion-based-threats.types-attack
+- learn-m365.ransomware-extortion-based-threats.ransomware-families
 - learn-m365.ransomware-extortion-based-threats.knowledge-check
 - learn-m365.ransomware-extortion-based-threats.summary
 badge:
-  uid: learn-m365.ransomware-extortion-based-threats.badge
+  uid: learn-m365-pr.ransomware-extortion-based-security.badge
