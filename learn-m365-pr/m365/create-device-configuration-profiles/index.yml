@@ -3,13 +3,13 @@ uid: learn.create-device-configuration
 metadata:
   moduleType: standard
   title: Create device configuration profiles using Microsoft Endpoint Manager
-  description: By completing this module, you will understand the capabilities of device configuration profiles available in Microsoft Endpoint Manager. In addition, you will create a new configuration profile and assign it to a group of users.
+  description: By completing this module, you'll understand the capabilities of device configuration profiles available in Microsoft Endpoint Manager. In addition, you'll create a new configuration profile and assign it to a group of users.
   ms.date: 05/06/2022
   author: Erikre
   ms.author: erikre
   ms.topic: interactive-tutorial
 title: Create device configuration profiles using Microsoft Endpoint Manager
-summary: Microsoft Endpoint Manager helps you protect devices that the people at your organization use to be productive. By completing this module, you will understand the capabilities of device configuration profiles available in Microsoft Endpoint Manager. In addition, you will create new configuration profiles.
+summary: Microsoft Endpoint Manager helps you protect devices that the people at your organization use to be productive. By completing this module, you'll understand the capabilities of device configuration profiles available in Microsoft Endpoint Manager. In addition, you'll create new configuration profiles.
 abstract: | 
   In this module, you will:
     - Learn about device configuration concepts
