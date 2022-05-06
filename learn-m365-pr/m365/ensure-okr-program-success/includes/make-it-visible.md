@@ -8,7 +8,7 @@ OKR Champions should lead by example, demonstrating how to emerge in daily work 
 
 In team and one-on-one meetings, OKR Champions should use dashboards to keep agendas and check in on OKR progress. This keeps everyone regularly exposed to the Viva Goals, sets the expectation that they'll be regularly using it, and increases familiarity on how it can be used.
 
-:::image type="content" source="../media/dashboard-screenshot.png" alt-text="Screenshot of a typical Viva Goals dashboard.":::
+:::image type="content" source="../media/dashboard-screenshot.png" alt-text="Screenshot of a typical Viva Goals dashboard." lightbox="../media/dashboard-screenshot.png":::
 
 ## Using reminders
 
