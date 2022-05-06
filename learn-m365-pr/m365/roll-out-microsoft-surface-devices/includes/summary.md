@@ -14,9 +14,9 @@ Now that you've completed this module, you should be able to:
 
 Follow these links to find out more about each topic:
 
-- [Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/admin-overview/admin-center-overview?view=o365-worldwide)
-- [Microsoft Surface documentation hub](https://docs.microsoft.com/surface/)
-- [Microsoft Surface Management Portal](https://docs.microsoft.com/mem/intune/fundamentals/surface-management-portal)
-- [Microsoft Endpoint Manager](https://docs.microsoft.com/mem/endpoint-manager-overview)
-- [Windows Autopilot User-Driven Mode](https://docs.microsoft.com/mem/autopilot/user-driven)
-- [Windows Autopilot for pre-provisioned deployment](https://docs.microsoft.com/mem/autopilot/pre-provision)
+- [Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview?view=o365-worldwide)
+- [Microsoft Surface documentation hub](/surface/)
+- [Microsoft Surface Management Portal](/mem/intune/fundamentals/surface-management-portal)
+- [Microsoft Endpoint Manager](/endpoint-manager-overview)
+- [Windows Autopilot User-Driven Mode](/mem/autopilot/user-driven)
+- [Windows Autopilot for pre-provisioned deployment](/mem/autopilot/pre-provision)
