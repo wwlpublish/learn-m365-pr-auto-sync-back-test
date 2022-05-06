@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.ensuring-okr-program-success.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Check you understanding of the module
+  ms.date: 05/05/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+###########################################################################
+###
+### General guidance (https://review.docs.microsoft.com/learn-docs/docs/id-guidance-knowledge-check)
+###  - Questions are complete sentences ending with a question mark
+###  - No true/false questions
+###  - 3 answers per question
+###  - All answers about the same length
+###  - Numeric answers listed in sorted order
+###  - No "All of the above" and/or "None of the above" as answer choices
+###  - No "Not" or "Except" in questions
+###  - No second person ("you") in the questions or answers
+###  - Provide a meaningful explanation for both correct and incorrect answers
+###
+###########################################################################
+content: |
+quiz:
+  questions:
+  - content: "What are three ways OKR Champions can help ensure program success?"
+    choices:
+    - content: "Plan OKRs, execute OKRs, close OKRs."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that ensuring program success extends beyond the mechanics of OKRs and must also focus on people and company culture."
+    - content: "Create psychological safety, establish business rhythms, and make it visible."
+      isCorrect: true
+      explanation: "That's correct. These three strategies create a safe place for change that intentionally builds muscle memory and familiarity."
+    - content: "Focus primarily on profit, product, and people."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that ensuring program success extends beyond the mechanics of OKRs and must also focus on people and company culture."
+  - content: "What are two ways OKR Champions can cultivate psychological safety?"
+    choices:
+    - content: "Normalize intelligent failure and celebrate small wins."
+      isCorrect: true
+      explanation: "That's correct. Normalizing intelligent failure creates a safe atmosphere to set stretch goals and celebrating small wins creates a more positive atmosphere where people are recognized for their work."
+    - content: "Reward OKR success with bonuses and only talk about OKR successes."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that people need to feel like it is safe to fail in order to be willing to take risks (and risk-taking is essential to OKRs)."
+    - content: "Increase vacation time and incentivize competition for successful OKRs."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that people need to feel like it is safe to fail in order to be willing to take risks (and risk-taking is essential to OKRs)."
+  - content: "What are the three stages that create the OKR framework and help make OKRs a part of daily business rhythms?"
+    choices:
+    - content: "Immature, intermediate, mature"
+      isCorrect: false
+      explanation: "That's incorrect. Remember that the three stages correspond to a time period, but also refer to the actions taken along the way that build OKR muscle memory."
+    - content: "Week, month, year"
+      isCorrect: false
+      explanation: "That's incorrect. Remember that the three stages correspond to a time period, but also refer to the actions taken along the way that build OKR muscle memory."
+    - content: "Create, check-in, close"
+      isCorrect: true
+      explanation: "That's correct. Each of these stages are a crucial part of the OKR cycle that are essential for the long-term success of the OKR program."
+  - content: "What is habit stacking?"
+    choices:
+    - content: "A strategy for implementing new behavior that groups small activities and links them to an established habit."
+      isCorrect: true
+      explanation: "That's correct. Habit stacking connects a new action to one that already established."
+    - content: "A method for organizing tasks to make sure they all get completed."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that habit stacking helps ensure program success by using existing behaviors to help add new ones."
+    - content: "A mathematical approach to adding a new habit that doubles the action and halves the time."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that habit stacking helps ensure program success by using existing behaviors to help add new ones."
