@@ -126,10 +126,10 @@ The mailing list server receives the message, modifies its content, and replays 
 
 To help mailing list messages pass anti-spoofing checks, complete the following steps based on who controls the mailing list:
 
- -  **Your organization owns the mailing list**:C<br>
+ -  **Your organization owns the mailing list**:C
     
      -  Check the FAQ at DMARC.org: [I operate a mailing list and I want to interoperate with DMARC, what should I do?](https://dmarc.org/wiki/FAQ#I_operate_a_mailing_list_and_I_want_to_interoperate_with_DMARC.2C_what_should_I_do.3F?azure-portal=true)
-     -  Read the instructions at this blog post: [A tip for mailing list operators to interoperate with DMARC to avoid failures](/archive/blogs/tzink/a-tip-for-mailing-list-operators-to-interoperate-with-dmarc-to-avoid-failures?azure-portal=true).<br>
+     -  Read the instructions at this blog post: [A tip for mailing list operators to interoperate with DMARC to avoid failures](/archive/blogs/tzink/a-tip-for-mailing-list-operators-to-interoperate-with-dmarc-to-avoid-failures?azure-portal=true).
      -  Consider installing updates on your mailing list server to support Authenticated Received Chain (ARC). See [ARC Specification for Email](http://arc-spec.org?azure-portal=true).
  -  **Your organization doesn't own the mailing** **list**:
     
@@ -139,4 +139,4 @@ To help mailing list messages pass anti-spoofing checks, complete the following 
      -  Use the Tenant Allow/Block List to create an override for the mailing list to treat it as legitimate. For more information, see [Add allows in the Tenant Allow/Block List](/microsoft-365/security/office-365-security/manage-tenant-allows?azure-portal=true).
 
 > [!TIP]
-> If all else fails, you can report the message as a false positive to Microsoft.<br>
+> If all else fails, you can report the message as a false positive to Microsoft.
