@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.roll-out-microsoft-surface-devices.summary
+title: Summary
+metadata:
+  unitType: summary
+  title: Summary
+  description: ""
+  ms.date: 05/06/2022
+  author: temanteleary
+  ms.author: temanteleary
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/summary.md)]

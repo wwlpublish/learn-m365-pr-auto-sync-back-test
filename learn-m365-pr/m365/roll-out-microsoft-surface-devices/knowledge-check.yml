@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.roll-out-microsoft-surface-devices.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: ""
+  ms.date: 05/06/2022
+  author: temanteleary
+  ms.author: temanteleary
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+
+content: |
+quiz:
+  questions:
+  - content: "When you create the hardware hash CSV file, which of the following is correct?"
+    choices:
+    - content: "You can add more than 1,000 rows to the CSV file to import multiple devices"
+      isCorrect: false
+      explanation: "That's incorrect. You can only add 500 rows to import multiple devices."
+    - content: "You can add an optional user or a group tag information for the device"
+      isCorrect: true
+      explanation: "That's correct. You can choose to add optional user and group tag data to a generated CSV file."
+    - content: "You can edit the file in Excel to amend the information created"
+      isCorrect: false
+      explanation: "That's incorrect. You need to keep the CSV file in ANSI format, so you can't edit, and then save it in Excel."
+  - content: "Which admin center would your administration team use to enable passwordless sign-in?"
+    choices:
+    - content: "Azure Active Directory"
+      isCorrect: true
+      explanation: "That's correct. You would use the Azure Active Directory admin portal to enable the combined security information registration experience. You'd then select Microsoft Authenticator as the authentication method."
+    - content: "Microsoft Endpoint Manager"
+      isCorrect: false
+      explanation: "That's incorrect. MEM allows administrators to manage devices. Passwordless sign-in is set at the user level."
+    - content: "Microsoft 365 admin center"
+      isCorrect: false
+      explanation: "That's incorrect. The Microsoft 365 admin center is where you manage business in the cloud. It's where you get access to all the other admin centers and manage users."
+  - content: "Which Windows Autopilot deployment should you choose for the Surface device you're sending to your CEO?"
+    choices:
+    - content: "User-driven deployment"
+      isCorrect: false
+      explanation: "That's incorrect. User-driven deployment could be used, but your CEO would have some additional steps to complete before the Surface device was business ready."
+    - content: "Application policy deployment"
+      isCorrect: false
+      explanation: "That's incorrect. Application deployment isn't a type of Windows Autopilot deployment."
+    - content: "Pre-provisioned deployment"
+      isCorrect: true
+      explanation: "That's correct. To save your CEO time, you should pre-provision their Surface device so that it's business ready when they receive it."
