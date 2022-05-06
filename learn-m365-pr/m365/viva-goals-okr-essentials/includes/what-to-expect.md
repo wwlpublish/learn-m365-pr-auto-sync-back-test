@@ -26,7 +26,7 @@ Understanding the Emotional Cycle of Change prepares you for what's to come and 
 
 ### 1. Begin with the end in mind
 
-:::image type="content" source="../media/finishline.jpg" alt-text="A picture showing a group of people running on a track.":::
+:::image type="content" source="../media/finish.jpg" alt-text="A picture showing a group of people running on a track.":::
 
 One of the best ways to create clear and lasting change is to be clear about why OKRs are important to your organization and what your ultimate goal is.
 
