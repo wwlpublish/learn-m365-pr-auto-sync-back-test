@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn-m365.ensure-okr-program-success
+metadata:
+  moduleType: standard
+  title: Ensure OKR program success
+  description: Learn how to launch Viva Goals successfully.
+  ms.date: 05/05/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Ensure OKR program success
+summary: Learn how to launch Viva Goals successfully. <br><br>**IMPORTANT** - Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+abstract: |
+  By the end of this module, you'll be able to:
+    - Engage with activity within Viva Goals
+    - Find OKRs that meet a certain set of criteria
+prerequisites: |
+  - Basic understanding of the Viva Goals environment
+  - Access to an instance of Viva Goals
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - administrator
+products:
+- m365
+- viva
+units:
+- learn-m365.ensure-okr-program-success.introduction
+- learn-m365.ensure-okr-program-success.create-psychological-safety
+- learn-m365.ensure-okr-program-success.establish-business-rhythms
+- learn-m365.ensure-okr-program-success.make-it-visible
+- learn-m365.ensure-okr-program-success.knowledge-check
+- learn-m365.ensure-okr-program-success.summary
+badge:
+  uid: learn-m365.ensure-okr-program-success.badge
