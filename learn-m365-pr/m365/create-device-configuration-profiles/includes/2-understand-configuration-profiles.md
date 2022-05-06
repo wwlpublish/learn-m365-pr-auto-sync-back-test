@@ -20,7 +20,7 @@ When creating a new device configuration profile, you must first select the plat
 
 ## Profile types
 
-A profile type is a device configuration area, feature, or capability that contains specific device settings. As mentioned above, each platform has a unique set of available device configuration settings. To select a setting, you start by selecting the a **Platform** and then a **Profile type**. For instance, if you choose **iOS/iPadOS** as the platform, you can select **Templates** for the profile type. Next, you can select a template name from the provided list. For instance, you can select the **Email** template to configure an email server, SSL communication, and other built-in email settings. Because capabilities are different for each platform, your available profile types and templates are also different.
+A profile type is a device configuration area, feature, or capability that contains specific device settings. As mentioned above, each platform has a unique set of available device configuration settings. To select a setting, you start by selecting a **Platform** and then a **Profile type**. For instance, if you choose **iOS/iPadOS** as the platform, you can select **Templates** for the profile type. Next, you can select a template name from the provided list. For instance, you can select the **Email** template to configure an email server, SSL communication, and other built-in email settings. Because capabilities are different for each platform, your available profile types and templates are also different.
 
 ## Device credentials
 
