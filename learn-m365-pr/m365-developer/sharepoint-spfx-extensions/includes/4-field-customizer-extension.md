@@ -10,7 +10,7 @@ A field customizer enables a developer to define through code how a specific col
 - make renderings interactive
 - add React component to a field rendering.
 
-![Screenshot of the field customizer](../media/05-field-customizer-test.png)
+![Screenshot of the field customizer.](../media/05-field-customizer-test.png)
 
 ## Field customizer class
 
