@@ -3144,6 +3144,26 @@
       "source_path": "learn-m365-pr/wwl/exchange-recipients/8-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/exchange-recipients/9-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-exchange-online-protection/2-examine-anti-malware-pipeline-microsoft-365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-exchange-online-protection/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-exchange-online-protection/4-explore-phishing-spoofing-protection-provided-by-eop.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-exchange-online-protection/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-exchange-online-protection/5-explore-spoofing-protection-provided-by-eop.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-exchange-online-protection/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-exchange-online-protection/6-manage-spoof-intelligence-microsoft-365-security-compliance-center.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-exchange-online-protection/",
+      "redirect_document_id": false
     }
   ]
 }
