@@ -11,3 +11,5 @@ This module focused on two primary products within Microsoft Defender for Office
  -  Safe Links protects users from malicious URLs embedded in email and documents that point to malicious websites.
 
 Within Safe Links, you learned how URL Detonation combines elements of Safe Links and Safe Attachments into a single feature. This feature protects users in the event a link points to a malicious file on a web server.
+
+The module concluded by introducing you to outbound spam filtering policies. You learned that organizations can set email sending limits within such policies. Users who exceed these sending limits can then be blocked from sending email. You can unblock the users by removing them from the **Restricted users** page in the Microsoft 365 Defender portal.
