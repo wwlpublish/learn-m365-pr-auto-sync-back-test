@@ -8,45 +8,34 @@ Your component can use the page's context, accessible from the `this.context.pag
 
 Microsoft introduced a new context in the SharePoint Framework v1.8 release when they added support for deploying client-side web parts as Microsoft Teams tabs. The `this.context.sdks.microsoftTeams` object is a reference of the `microsoftTeams` object available in the **\@microsoft/teams-js** package.
 
-A client-side web part can detect if its running in SharePoint or Microsoft Teams by checking if the `microsoftTeams` object is set to a value or is undefined. If its `undefined`, then the component isn't running in Microsoft Teams.
+A client-side web part can detect if it's running in SharePoint or Microsoft Teams by checking if the `microsoftTeams` object is set to a value or is undefined. If it's `undefined`, then the component isn't running in Microsoft Teams.
 
 ## Work with the Microsoft Teams context
 
 Let's look at how your component can work with the Microsoft Teams context.
 
-First, you need to import a reference for the **\@microsoft/teams-js** package.
-
-Next, check to see if the component is running within Microsoft Teams and if so, get a reference to the Microsoft Teams context. This is best done in the component's `onInit()` method when it's added to the page. In this code, notice how the `onInit()` method checks if the `this.context.sdks.microsoftTeams` object is defined. If it's, it calls the `getContext()` method to request the Microsoft Teams context. This method passes the populated Microsoft Teams context into a callback that we can make a copy of.
-
-Finally, using the context, your code can check if the web part is running in SharePoint or Microsoft Teams and display the current site or team name depending on the scenario.
+The code sample below contains a method that constructs a message indicating whether the web part is running in SharePoint or Teams, it also uses the appropriate context object to include the name of the team or SharePoint site where the web part is currently running.
 
 ```typescript
-import * as microsoftTeams from '@microsoft/teams-js';
+private _getEnvironmentMessage(): string {
+  let message: string = "";
 
-...
+  if (!!this.context.sdks.microsoftTeams) { // running in Teams
+    message = this.context.isServedFromLocalhost ?
+      strings.AppLocalEnvironmentTeams :
+      strings.AppTeamsTabEnvironment;
 
-private teamsContext: microsoftTeams.Context;
+    message += ". Team name: " + this.context.sdks.microsoftTeams.context.teamName;
+  } else {
+    message = this.context.isServedFromLocalhost ?
+      strings.AppLocalEnvironmentSharePoint :
+      strings.AppSharePointEnvironment;
 
-...
+    message += ". Site name: " + this.context.pageContext.web.title;
+  }
 
-protected onInit(): Promise<void> {
-  return new Promise<void>((resolve, reject) => {
-    if (this.context.sdks.microsoftTeams) {
-      this.teamsContext = this.context.sdks.microsoftTeams.context;
-    }
-    resolve();
-  });
+  return message;
 }
-
-...
-
-let title: string = (this.teamsContext)
-  ? 'Teams'
-  : 'SharePoint';
-
-let currentLocation: string = (this.teamsContext)
-  ? `Team: ${ this.teamsContext.teamName }`
-  : `Site collection: ${ this.context.pageContext.web.title }`;
 ```
 
 ## Summary

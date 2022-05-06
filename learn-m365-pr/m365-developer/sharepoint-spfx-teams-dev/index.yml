@@ -3,13 +3,13 @@ uid: learn-m365.sharepoint-spfx-teams-dev
 metadata:
   title: Build Microsoft Teams customization using the SharePoint Framework
   description: Learn how to use your SharePoint Framework customizations with in Microsoft Teams.
-  ms.date: 09/13/2021
+  ms.date: 05/02/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Build Microsoft Teams customization using the SharePoint Framework
-summary: This module will introduce you to leveraging your SharePoint Framework customizations in Microsoft Teams.
+summary: This module will introduce you to using your SharePoint Framework customizations in Microsoft Teams.
 abstract: |
   By the end of this module, you'll be able to:
   - Create a SharePoint Framework web part as a Microsoft Teams tab
