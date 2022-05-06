@@ -4,7 +4,7 @@ In this unit, you'll see how to navigate between the various admin centers and p
 
 ## Microsoft 365 admin center
 
-To locate the Microsoft 365 admin center, you can go to <https://portal.microsoft.com> or, if you're logged into [office.com](../To%20and%20from%20copy%20edit/Copy%20edit%20complete/office.com), from the app launcher menu, select **Admin**.
+To locate the Microsoft 365 admin center, you can go to https://portal.microsoft.com or, if you're logged into office.com, from the app launcher menu, select **Admin**.
 
 :::image type="content" source="../media/office-portal.png" alt-text="Screenshot of the Office portal, with the Admin option selected.":::
 

@@ -14,7 +14,7 @@ Now that you've completed this module, you should be able to:
 
 Follow these links to find out more about each topic:
 
-- [Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview?view=o365-worldwide)
+- [Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview?view=o365-worldwide&preserve-view=true)
 - [Microsoft Surface documentation hub](/surface/)
 - [Microsoft Surface Management Portal](/mem/intune/fundamentals/surface-management-portal)
 - [Microsoft Endpoint Manager](/endpoint-manager-overview)
