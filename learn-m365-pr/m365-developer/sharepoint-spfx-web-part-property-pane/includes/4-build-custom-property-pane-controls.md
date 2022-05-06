@@ -83,7 +83,7 @@ groupFields: [
 ]
 ```
 
-In the next unit, you'll the custom field control shown in the figure above.
+In the next unit, you'll use the custom field control shown in the figure above.
 
 ## Summary
 

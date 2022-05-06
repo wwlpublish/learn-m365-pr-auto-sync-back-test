@@ -20,7 +20,7 @@ Use the following to complete the prompt that is displayed (*if more options are
 - **What is your Web part name?:** HelloPnPControls
 - **Which framework would you like to use?:** No framework
 
-After provisioning the folders required for the project, the generator will install all the dependency packages using NPM.
+After provisioning the folders required for the project, the generator will install all the dependency packages using npm.
 
 ## Install the PnP SPFx reusable property pane controls
 
