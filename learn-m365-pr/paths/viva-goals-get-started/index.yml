@@ -2,14 +2,14 @@
 uid: learn-m365-pr.viva-goals-get-started
 metadata:
   title: Get started with Microsoft Viva Goals
-  description: 
+  description: This learning path will get you started with OKR framework, writing, and software through Viva Goals.
   ms.date: 05/09/2022
   author: rasanders
   ms.author: rasanders
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Get started with Microsoft Viva Goals
-summary: Viva Goals is a service included in the Microsoft Viva suite (an employee experience platform. This learning path will get you started with OKR framework, writing, and software through Viva Goals.<br><br>**IMPORTANT** - Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+summary: Viva Goals is a service included in the Microsoft Viva suite (an employee experience platform). This learning path will get you started with OKR framework, writing, and software through Viva Goals.<br><br>**IMPORTANT** - Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 prerequisites: |
   - Familiarity with Microsoft 365 Apps and Microsoft Teams
   - Familiarity with permissions and access settings in Microsoft 365 and the Microsoft 365 admin center
