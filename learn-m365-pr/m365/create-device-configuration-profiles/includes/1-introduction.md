@@ -1,17 +1,17 @@
-Microsoft Endpoint Manager helps you by providing a single, modern, integrated management platform for managing, protecting, and monitoring all of your organization's endpoints. Endpoints include tablets, smartphones, desktops, laptops computers, and apps that an organization uses whether they connect over the internet (cloud-based) or are on-premises. Both Microsoft Intune and Microsoft Endpoint Configuration Manager are part of Microsoft Endpoint Manager.
+Microsoft Endpoint Manager helps you by providing a single, modern, integrated management platform for managing, protecting, and monitoring all of your organization's endpoints. Endpoints include tablets, smartphones, desktops, laptops computers, and apps that an organization uses, whether they connect over the internet (cloud-based) or are on-premises. Both Microsoft Intune and Microsoft Endpoint Configuration Manager are part of Microsoft Endpoint Manager.
 
-Before you enroll devices to be managed by Microsoft Endpoint Manager and used by members of your organization, you should create device configuration profiles, device compliance policies, and conditional access policies needed by your organization. By first creating your device profiles and policies, you'll be ready to apply them to protect your organization immediately.
+Before you enroll devices to be managed by Microsoft Endpoint Manager and used by members of your organization, you should create device configuration profiles, device compliance policies, and conditional access policies needed by your organization. By first creating your device profiles and policies, you'll be ready to apply them to protect your organization immediately upon enrolling devices.
 
-This module helps you understand and implement device configuration profiles that using Microsoft Endpoint Manager.
+This module helps you understand and implement device configuration profiles that are using Microsoft Endpoint Manager.
 
 ## Learning objectives
 
 In this module, you will:
 
 - Learn about device configuration concepts
-- Understand basic, standard, and complex device configuration profiles
-- Create and assign a new device configuration profile
-- View the device configuration profiles
+- Understand fundamental, protective, and comprehensive device configuration profiles 
+- Create and assign new device configuration profiles
+- View device configuration profiles
 
 ## Prerequisites
 

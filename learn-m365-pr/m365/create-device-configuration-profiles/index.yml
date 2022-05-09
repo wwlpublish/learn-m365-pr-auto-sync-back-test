@@ -13,9 +13,9 @@ summary: Microsoft Endpoint Manager helps you protect devices that the people at
 abstract: | 
   In this module, you will:
     - Learn about device configuration concepts
-    - Create and assign new device configuration profiles
-    - View the device configuration profile
     - Understand fundamental, protective, and comprehensive device configuration profiles 
+    - Create and assign new device configuration profiles
+    - View device configuration profiles
 prerequisites: | 
   - Basic knowledge of Microsoft Endpoint Manager and endpoint management concepts, see [Microsoft Endpoint Manager fundamentals](/learn/paths/endpoint-manager-fundamentals?azure-portal=true).
   - Understand your endpoint management objectives, device inventory considerations, licensing needs, infrastructure objectives, and rollout plans, see [Determine your endpoint management implementation](/learn/modules/determine-endpoint-implementation?azure-portal=true).

@@ -1,5 +1,8 @@
 Device configuration profiles are groups of settings that enable or disable different device capabilities. These capabilities are used to configure the devices used in your organization so that users and devices can access the right resources and data, safely and securely. Assigning device configuration profiles to user's devices help those users become productive quickly.
 
+> [!NOTE]
+> If you currently manage on-premises devices using Microsoft Endpoint Configuration Manager, consider implementing co-management to cloud attach your on-premises devices. Co-management allows you to concurrently manage Windows 10 or Windows 11 devices with both Configuration Manager and Microsoft Intune. Once you implement co-management, you can create the device profiles and policies you need in Intune based on those you currently have in Configuration Manager. For more information about co-management, see [Understand co-management using Microsoft Endpoint Configuration Manager](/learn/modules/understand-co-management/). For related information, see [Prepare Intune for co-management](/mem/configmgr/core/get-started/capabilities-in-technical-preview-1709#prepare-intune-for-co-management).
+
 Once you create a configuration profile in Intune, you can assign it to users or devices at your organization. Often times, configuration profiles will relate to a specific area, feature, or capability. For instance, a device configuration profile might focus on email settings, VPN access, or Wi-Fi settings that are specific to your organization. There are many options you use to configure different devices in just the way that your organization needs or requires.
 
 You determine the specific capabilities and apply the unique settings for your organization. You also determine the groups of users and devices that require these capabilities and settings. It is common to have many device profiles for each supported platform, ranging from device anti-virus settings, to custom settings that aren't built into Intune as templates yet.
@@ -68,7 +71,7 @@ Microsoft Intune includes many built-in settings to control different features o
 
 ### Prepare Intune for co-management
 
-Before you switch workloads from Microsoft Endpoint Configuration Manager to Microsoft Intune, create the profiles and policies you need in Intune to ensure your devices continue to be protected. You can create objects in Intune based on the objects that you have in Configuration Manager. For related information, see [Prepare Intune for co-management](/mem/configmgr/core/get-started/capabilities-in-technical-preview-1709#prepare-intune-for-co-management). For more information about co-management, see [Understand co-management using Microsoft Endpoint Configuration Manager](/learn/modules/understand-co-management/).
+As mention above, if you currently use Configuration Manager to manage on-premises devices, consider implementing co-management. You can create the profiles and policies you need in Intune based on the compliance settings you have in Configuration Manager. This will ensure your devices continue to be protected. For related information, see [Prepare Intune for co-management](/mem/configmgr/core/get-started/capabilities-in-technical-preview-1709#prepare-intune-for-co-management). For more information about co-management, see [Understand co-management using Microsoft Endpoint Configuration Manager](/learn/modules/understand-co-management/).
 
 ### Refresh cycle times
 
