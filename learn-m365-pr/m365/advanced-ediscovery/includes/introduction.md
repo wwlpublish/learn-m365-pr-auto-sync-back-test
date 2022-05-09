@@ -22,7 +22,7 @@ The EDRM diagram below represents a conceptual view of the eDiscovery process, n
 
 It's also worth noting that the same step may be repeated numerous times or you may cycle back to earlier steps in order to refine your approach as a better understanding of the data emerges or as the nature of the matter changes.
 
-## eDiscovery (Premium) in Microsoft 365
+## eDiscovery (Premium) in Microsoft Purview
 
 The eDiscovery (Premium) solution builds on the original, core [eDiscovery](/microsoft-365/compliance/ediscovery?azure-portal=true) solution by providing expanded capabilities that enable you to do more while the data remains in-place in your tenant.
 

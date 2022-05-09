@@ -30,7 +30,7 @@ Now that you have completed this module, you will be able to:
 - [Mark new files as sensitive by default](/sharepoint/sensitive-by-default)
 - [View the reports for data loss prevention](/microsoft-365/compliance/view-the-dlp-reports)
 - [Form a query to find sensitive data stored on sites](/microsoft-365/compliance/form-a-query-to-find-sensitive-data-stored-on-sites)
-- [eDiscovery in Microsoft 365](/microsoft-365/compliance/ediscovery)
+- [eDiscovery in Microsoft Purview](/microsoft-365/compliance/ediscovery)
 - [Content Search](/microsoft-365/compliance/content-search)
 - [Sensitive information type entity definitions](/microsoft-365/compliance/sensitive-information-type-entity-definitions)
 - [Create a DLP policy from a template](/microsoft-365/compliance/create-a-dlp-policy-from-a-template)

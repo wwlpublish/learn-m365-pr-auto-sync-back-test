@@ -28,7 +28,7 @@ By default, global administrators do not have access to communication compliance
 
 ## Step 2 - Accessing Microsoft Purview Communication Compliance
 
-After configuring the permissions for communication compliance, Contoso IT administrators and compliance specialists defined in the new role group can access the communication compliance solution in Microsoft 365.
+After configuring the permissions for communication compliance, Contoso IT administrators and compliance specialists defined in the new role group can access the communication compliance solution in Microsoft Purview.
 An easy way for Contoso IT administrators and compliance specialists to access the communication compliance solution is to sign in directly to the [**Microsoft Purview compliance portal**](https://compliance.microsoft.com?azure-portal=true). After signing in, users simply need to select the **Show all** control to display all the compliance solutions and then select the **Communication compliance** solution to get started.
 
 :::image type="content" source="../media/communication-compliance-M365.png" alt-text="Screenshot shows Microsoft Purview Communication Compliance." lightbox="../media/communication-compliance-M365.png":::

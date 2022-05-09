@@ -43,7 +43,7 @@ quiz:
       choices:
       - content: "Audit Logs role "
         isCorrect: false
-        explanation: "You must be assigned the Audit Logs role in Exchange Online to turn audit logging on or off in Microsoft 365. "
+        explanation: "You must be assigned the Audit Logs role in Exchange Online to turn audit logging on or off. "
       - content: "Organizational Management role group "
         isCorrect: false
         explanation: "By default, the Audit Logs role is assigned to the Compliance Management and Organization Management role groups in the Exchange admin center."
@@ -70,7 +70,7 @@ quiz:
         explanation: "Compliance Management isn't the correct role group."
       - content: "Organization Management"
         isCorrect: true
-        explanation: "This can be accomplished by adding the user to the Organization Management role group in Microsoft 365 Defender portal. This is a different role group than the Organization Management role group in the Exchange admin center. "
+        explanation: "This can be accomplished by adding the user to the Organization Management role group in the Microsoft 365 Defender portal. This is a different role group than the Organization Management role group in the Exchange admin center. "
       - content: "Security Administrator"
         isCorrect: false
         explanation: "Security Administrator isn't the correct role group."
