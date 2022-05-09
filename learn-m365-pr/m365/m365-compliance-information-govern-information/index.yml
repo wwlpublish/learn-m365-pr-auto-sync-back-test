@@ -8,7 +8,7 @@ metadata:
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Govern information in Microsoft Purview
+title: Manage the data lifecycle in Microsoft Purview
 summary:  Learn how to manage your content lifecycle using solutions to import, store, and classify business-critical data so you can keep what you need and delete what you don't. 
 abstract: |
   Upon completion of this module, you should be able to: 
