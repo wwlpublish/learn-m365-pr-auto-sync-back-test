@@ -1,0 +1,31 @@
+### YamlMime:LearningPath
+uid: learn-m365-pr.okr-leadership
+metadata:
+  title: OKR leadership program
+  description: The OKR Leadership Program is an intensive training intended for OKR Champions to become familiar with the elements of the OKR framework including writing, software, and program success.
+  ms.date: 05/09/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: OKR Leadership Program
+summary: The OKR Leadership Program is an intensive training intended for OKR Champions to become familiar with the elements of the OKR framework including writing, software, and program success.
+prerequisites: |
+  - None
+iconUrl: /learn/achievements/generic.svg
+levels: 
+- beginner
+roles:
+- administrator
+products: 
+- m365
+- viva
+modules:
+- learn-m365.role-of-champion
+- learn-m365.viva-goals-okr-essentials
+- learn-m365.viva-goals-create-track-close-okrs
+- learn-m365.viva-goals-write-effective-okrs
+- learn-m365.engaged-reports-with-viva-goals
+- learn-m365.ensure-okr-program-success
+trophy: 
+  uid: learn-m365-pr.okr-leadership.trophy
