@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-windows-startup.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/11-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "In an effort to protect your organization's data, you enabled System Restore points on users' Windows 11 computers. Windows will automatically create System Restore points when which of the following actions occur?"
+    choices:
+    - content: "You install a new application or driver"
+      isCorrect: true
+      explanation: "Correct. After you enable System Restore points, Windows creates them automatically when any of the following actions occurs: 1) You install a new application or driver, 2) You install certain programs, or 3) You install updates."
+    - content: "You change your password"
+      isCorrect: false
+      explanation: "Incorrect. Windows doesn't automatically create restore points when this action occurs. Try again."
+    - content: "You perform a backup"
+      isCorrect: false
+      explanation: "Incorrect. Windows doesn't automatically create restore points when this action occurs. Try again."
+  - content: "You are troubleshooting a Windows 10 computer. You decide to use the Reset this PC tool. Which of the following items is a characteristic of the \"Just remove my files\" and \"Fully clean the drive\" options?"
+    choices:
+    - content: "These options remove all of your Windows Store apps, desktop apps, and the apps that the default Windows 10 installation includes"
+      isCorrect: false
+      explanation: "Incorrect. The apps that the default Windows 10 installation includes aren't removed. Try again,"
+    - content: "These options require special permissions to use"
+      isCorrect: false
+      explanation: "Incorrect. You don't need any special permissions to use these options. Try again."
+    - content: "Your files, settings, and computer configuration settings are set to their initial, post-installation state"
+      isCorrect: true
+      explanation: "Correct. Your files, settings, and computer configuration settings are set to their initial, post-installation state. For example, a computer will have the name DESKTOP- name, and it will be in a workgroup."
+  - content: "Which of the following recovery tools should only be used if other methods of recovery are unsuccessful, because this recovery method is intrusive and overwrites everything on the computer?"
+    choices:
+    - content: "Startup Repair"
+      isCorrect: false
+      explanation: "Incorrect. The Startup Repair tool in Windows RE provides a simple and effective way for you to resolve most common startup problems. Try again."
+    - content: "System Image Recovery tool"
+      isCorrect: true
+      explanation: "Correct. The System Image Recovery tool replaces your computer’s current operating system with a complete computer backup that you created previously, and which you stored as a system image. You can use this tool only if you have made a recovery drive of your computer. You should use this tool only if other methods of recovery are unsuccessful, because this recovery method is intrusive and overwrites everything on the computer."
+    - content: "System Restore"
+      isCorrect: false
+      explanation: "Incorrect. System Restore doesn't replace the current operating system. Using System Restore doesn't affect user data. Try again."
+  - content: "You added a new hard disk to your Windows computer and changed the logical drive numbering. You now want to use BCDEdit to modify the Boot Configuration Data (BCD) store to account for this change in logical drive numbering. What's the first thing you should do?"
+    choices:
+    - content: "Update the logical drive number parameters in the Boot.ini file"
+      isCorrect: false
+      explanation: "Incorrect. You don't need to modify the Boot.ini file. Windows replaced the boot.ini file with the BCD store. Try again."
+    - content: "Make a complete image backup of all drives with BCD partitions on them"
+      isCorrect: true
+      explanation: "Correct. Never use BCDEdit without first making a complete image backup of all drives with BCD partitions on them. It's also important that you build a recovery disk that you can boot from in the event your boot drive fails, following any changes you make to the BCD. If this happens, you can boot to the recovery disk and use it to restore the backup image that you first created. This will enable you to at least get your computer back up and running, even if it's with the pre-modified version of the BCD."
+    - content: "Update the logical drive number parameters in the Non-Volatile Random Access Memory (NVRAM) entries in the Windows operating system"
+      isCorrect: false
+      explanation: "Incorrect. You don't need to modify the NVRAM entries. Windows replaced NVRAM with the BCD store. Try again."
+  - content: "A user reports a system failure with a computer. You need to return the computer to an earlier state without re-installing the operating system or causing data loss. Which of the Windows RE recovery tools can you use to achieve this?"
+    choices:
+    - content: "Reset this PC"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't a Windows RE recovery tool. Try again."
+    - content: "System Restore"
+      isCorrect: true
+      explanation: "Correct. System Restore restores your computer to a previous point in time (restore point), so that it doesn't replace your computer's current operating system. System Restore also provides protection against accidental deletion of programs. When you add or remove programs, System Restore creates restore points, and keeps copies of application programs (file names with an .exe or .dll extension). If you accidentally delete an executable (.exe) file, you can use System Restore to recover the file by selecting a recent restore point prior to when you deleted the program."
+    - content: "System Image Recovery"
+      isCorrect: false
+      explanation: "Incorrect. The System Image Recovery tool replaces your computer’s current operating system with a complete computer backup that you created previously, and which you stored as a system image. Try again."

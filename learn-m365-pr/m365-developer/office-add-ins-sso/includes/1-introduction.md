@@ -21,6 +21,6 @@ By the end of this module, you'll be able to:
 
 ## Additional resources
 
-Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Using Single Sign-On (SSO) with Office Add-ins](https://github.com/OfficeDev/TrainingContent/tree/master/OfficeAddin/06%20Using%20Single%20Sign-On%20with%20Office%20Add-ins).
+Refer to the following repository for more resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Using Single Sign-On (SSO) with Office Add-ins](https://github.com/OfficeDev/TrainingContent/tree/master/OfficeAddin/06%20Using%20Single%20Sign-On%20with%20Office%20Add-ins).
 
 This module is also available as the screencast [Using Single Sign-On (SSO) with Office Add-ins](https://www.youtube.com/watch?v=kf_VMt_Eh0M).

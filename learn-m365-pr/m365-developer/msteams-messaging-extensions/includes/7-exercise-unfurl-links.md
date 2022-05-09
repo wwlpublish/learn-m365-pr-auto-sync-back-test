@@ -11,30 +11,6 @@ In a previous exercise, you created an action messaging extension that enabled a
 
 In this section, you'll add the link unfurling ability to the app
 
-### Use the Yeoman Generator to add a search messaging extension
-
-In the folder containing the solution from the previous exercise, run the Yeoman Generator for Microsoft Teams by running the following command:
-
-```console
-yo teams
-```
-
-Yeoman will launch and ask you a series of questions. Answer the questions with the following values:
-
-- **You are running the generator on an already existing project, "Planet Messaging", are you sure you want to continue?**: Yes
-- **Do you want to change the current manifest version (1.10)?**: No
-- **Quick scaffolding**: Yes
-- **What features do you want to add to your project?**: A Message Extension Command
-- **Where is your message extension hosted?**: In a bot or Messaging Extension already defined in this project
-- **Choose which bot**: {{MICROSOFT_APP_ID}}
-- **What type of messaging extension command?**: Link unfurling messaging extension
-- **Would you like a Settings option for the messaging extension?**: No
-- **What is the name of your Message Extension command?**: PlanetLinkMessageExtension
-- **Describe your Message Extension command?**: Expand planet links
-- **Provide a comma separated list of domains for your Message Extension Link Unfurling**: *.wikipedia.org
-
-The generator will prompt for overwriting files. Enter `y` for each prompt.
-
 ### Update the app's configuration
 
 You must increment the version of the app to upgrade an existing installed version. Use the following command to increment the version:
@@ -60,29 +36,25 @@ Locate and open the **./src/manifest/manifest.json** file. Locate the `composeEx
 
 Next, locate the `validDomains` property. Add the following domain to the array of valid domains: `"*.wikipedia.org"`
 
-### Update the bot's code to support link unfurling
+### Add the link query command handler to the bot
 
-The next step is to update the bot's code.
+The next step is to implement the link query command handler using a well-known method in the bot. 
 
-Locate and open the bot in the file **./src/server/planetLinkMessageExtension/PlanetLinkMessageExtension.ts**.
+Locate and open the bot in the file **./src/server/planetBot/PlanetBot.ts**.
 
 Update the `import` statement for the **botbuilder** package to include the object `AppBasedLinkQuery`:
 
 ```typescript
 import {
-  TeamsActivityHandler,
-  TurnContext,
-  MessageFactory,
-  CardFactory, MessagingExtensionAction, MessagingExtensionActionResponse, MessagingExtensionAttachment,
-  MessagingExtensionQuery, MessagingExtensionResponse,
+  // ... existing imports
   AppBasedLinkQuery
 } from "botbuilder";
 ```
 
-The scaffolded project has a default implementation of the query link handler, in the `onQueryLink` method in the `PlanetLinkMessageExtension` class. In this exercise, that implementation is not used. Remove the contents of the `onQueryLink` method and replace with the following:
+Next, add the following method to the `PlanetBot` class:
 
 ```typescript
-public async onQueryLink(context: TurnContext, query: AppBasedLinkQuery): Promise<MessagingExtensionResult> {
+protected handleTeamsAppBasedLinkQuery(context: TurnContext, query: AppBasedLinkQuery): Promise<MessagingExtensionResponse> {
   // load planets
   const planets: any = require("../planets.json");
   // get the selected planet
@@ -94,7 +66,7 @@ public async onQueryLink(context: TurnContext, query: AppBasedLinkQuery): Promis
     type: "result",
     attachmentLayout: "list",
     attachments: [heroCard]
-  } as MessagingExtensionResult);
+  } as MessagingExtensionResponse);
 }
 ```
 

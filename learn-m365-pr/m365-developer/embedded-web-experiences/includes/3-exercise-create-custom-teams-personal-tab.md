@@ -17,9 +17,9 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 
 - [Node.js](https://nodejs.org/) - v12.\* (or higher)
 - NPM (installed with Node.js) - v6.\* (or higher)
-- [Gulp](https://gulpjs.com/) - v4.\* (or higher)
+- [Gulp-cli](https://gulpjs.com/) - v2.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.2.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.
@@ -42,7 +42,7 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project**: Learn MSTeams Tabs
 - **Your (company) name (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.9
+- **Which manifest version would you like to use?**: v1.11hul
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A tab
 - **The URL where you will host this solution?**: (Accept the default option)
@@ -90,7 +90,7 @@ In the app bar on the left, select the **More added apps** button. Then select *
 
 ![Screenshot of More added apps dialog box in Microsoft Teams](../media/03-yo-teams-05.png)
 
-On the **Get more done with apps!** page, select **Upload a custom app** > **Upload for me or my teams**.
+On the **Get more done with apps!** page, select **Manage your apps** > **Upload a custom app**.
 
 ![Screenshot of available apps and services page in Microsoft Teams](../media/03-yo-teams-05a.png)
 

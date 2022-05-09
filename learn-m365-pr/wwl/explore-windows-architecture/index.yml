@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn.wwl.explore-windows-architecture
+metadata:
+  title: Explore Windows architecture
+  description: "This module provides information about the operating system’s architecture and supported devices. It also describes the desktop support environment and troubleshooting terminology."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore Windows architecture
+summary: This module provides information about the operating system’s architecture and supported devices. It also describes the desktop support environment and troubleshooting terminology.
+abstract: |
+  After completing this module, you will be able to:
+  *   Describe how different form factors and hardware options affect supporting the device.
+  *   Explain the Windows operating system architecture.
+  *   Describe the Windows registry
+  *   Use the Registry Editor tool to change Windows settings.
+prerequisites: |
+  * Students should have a basic understanding of computer networks and hardware concepts.
+  * Students should have a basic understanding of OS and Application concepts.
+  * Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.explore-windows-architecture.introduction
+- learn.wwl.explore-windows-architecture.compare-windows-client-devices
+- learn.wwl.explore-windows-architecture.examine-windows-client-architecture
+- learn.wwl.explore-windows-architecture.examine-windows-registry
+- learn.wwl.explore-windows-architecture.use-windows-registry-editor
+- learn.wwl.explore-windows-architecture.knowledge-check
+- learn.wwl.explore-windows-architecture.summary
+badge:
+  uid: learn.wwl.explore-windows-architecture.badge

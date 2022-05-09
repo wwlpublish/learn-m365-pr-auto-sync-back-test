@@ -38,6 +38,6 @@ You complete the following steps to integrate Microsoft Sentinel with Microsoft 
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4GnLf) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/guides/Modernize%20your%20security%20options%20with%20Microsoft%20Azure%20Sentinel">![Microsoft Sentinel.](../media/modernize-your-security-options.png)</a>  
+[:::image type="content" source="../media/modernize-your-security-options.png" alt-text="Microsoft Sentinel." border="false":::](https://mslearn.cloudguides.com/guides/Modernize%20your%20security%20options%20with%20Microsoft%20Azure%20Sentinel)
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.

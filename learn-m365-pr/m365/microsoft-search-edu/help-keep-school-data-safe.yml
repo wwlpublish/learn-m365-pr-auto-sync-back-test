@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-edu.help-keep-school-data-safe
+title: Help keep your school's content safe
+metadata:
+  title: Help keep your school's content safe
+  description: Important points to remember on how Microsoft Search in Bing helps protect your users and school data.
+  ms.date: 03/30/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/help-keep-school-data-safe.md)]

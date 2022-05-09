@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-support-diagnostic-tools.examine-event-viewer
+title: Examine Event Viewer
+metadata:
+  title: Examine Event Viewer
+  description: "Examine Event Viewer"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-examine-event-viewer.md)]

@@ -24,6 +24,8 @@ products:
 - windows
 - m365
 - windows-19044
+- windows-10
+- m365-apps-admin-center
 units:
 - learn-m365.windows-deploy.introduction
 - learn-m365.windows-deploy.outline-deploy-phase

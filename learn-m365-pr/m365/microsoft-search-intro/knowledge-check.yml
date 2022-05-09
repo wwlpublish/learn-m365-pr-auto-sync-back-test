@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-intro.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Confirm what you've learned about Microsoft Search.
+  ms.date: 01/11/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 3
+quiz:
+  title: "Check your knowledge"
+  questions:
+    - content: "What is Microsoft Search?"
+      choices:
+      - content: "Microsoft Search is a service for building, testing, deploying, and managing work applications and services through Microsoft-managed data centers."
+        isCorrect: false
+        explanation: "That’s incorrect. Microsoft Search isn't designed to build, test, deploy, or manage applications."
+      - content: "Microsoft Search is an enterprise search experience that increases productivity and saves time by making it easier to find Microsoft 365 content within your organization."
+        isCorrect: true
+        explanation: "That's correct. The definition above best describes Microsoft Search."
+      - content: "Microsoft Search is a collection of third-party software services and connectors that work together to turn your unrelated sources of data into coherent results."
+        isCorrect: false
+        explanation: "That’s incorrect. This definition doesn't accurately describe Microsoft Search."
+
+    - content: "What type of information can users find with Microsoft Search?"
+      choices:
+      - content: "People, shared files, bookmarks, acronyms, and floor plans."
+        isCorrect: true
+        explanation: "That's correct. All of these results are available in Microsoft Search."
+      - content: "Bookmarks, SharePoint sites, content shared by other organizations, acronyms, and org charts."
+        isCorrect: false
+        explanation: "That’s incorrect. Microsoft Search only shows results for your organization, results from other organizations will never appear."
+      - content: "Facebook posts, groups, a colleague’s free/busy time, and office floor plans."
+        isCorrect: false
+        explanation: "That’s incorrect. Microsoft Search doesn't include info from social media."
+      
+    - content: "Where are the Search & intelligence settings for Microsoft Search found?"
+      choices:
+      - content: "In the Settings and quick links section of the Microsoft Bing homepage."
+        isCorrect: false
+        explanation: "That's incorrect. The Settings section of the Microsoft Bing homepage is designed for individual users to customize their homepage."
+      - content: "Any user can get to the Search and intelligence settings using the Microsoft 365 admin center."
+        isCorrect: false
+        explanation: "That’s incorrect. While the Search & intelligence settings are found in the Microsoft 365 admin center, only Search admins or Search editors can access them."
+      - content: "Using admin credentials, go to the Microsoft 365 admin center and select Search & intelligence from the left navigation menu."
+        isCorrect: true
+        explanation: "That's correct. The Search & intelligence settings can be accessed by Search admins or editors in the Microsoft 365 admin center."   

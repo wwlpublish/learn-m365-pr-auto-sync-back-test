@@ -1,0 +1,49 @@
+### YamlMime:Module
+uid: learn.wwl.enroll-devices-use-microsoft-intune
+metadata:
+  title: Enroll devices using Microsoft Intune
+  description: "Students will learn how to configure and setup Intune to more easily manage Windows, Android and iOS devices."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Enroll devices using Microsoft Intune
+summary: Students will learn how to configure and setup Intune to more easily manage Windows, Android, and iOS devices.
+abstract: |
+  After completing this module, you will be able to:
+  - Prepare Microsoft Intune for device enrollment.
+  - Configure Microsoft Intune for automatic enrollment.
+  - Explain how to enroll Windows, Android and iOS devices in Intune.
+  - Explain when and how to use Intune Enrollment Manager.
+  - Understand how to monitor and perform remote actions on enrolled devices.
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later.
+  - Strong understanding of computer networking, client security, and application concepts.
+  - Experience using Active Directory Domain Services.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.enroll-devices-use-microsoft-intune.introduction
+- learn.wwl.enroll-devices-use-microsoft-intune.manage-mobile-devices-with-intune
+- learn.wwl.enroll-devices-use-microsoft-intune.enable-mobile-device-management
+- learn.wwl.enroll-devices-use-microsoft-intune.explain-considerations-device-enrollment
+- learn.wwl.enroll-devices-use-microsoft-intune.manage-corporate-enrollment-policy
+- learn.wwl.enroll-devices-use-microsoft-intune.enroll-windows-devices-intune
+- learn.wwl.enroll-devices-use-microsoft-intune.enroll-android-devices-intune
+- learn.wwl.enroll-devices-use-microsoft-intune.enroll-ios-devices-intune
+- learn.wwl.enroll-devices-use-microsoft-intune.explore-device-enrollment-manager
+- learn.wwl.enroll-devices-use-microsoft-intune.monitor-device-enrollment
+- learn.wwl.enroll-devices-use-microsoft-intune.manage-devices-remotely
+- learn.wwl.enroll-devices-use-microsoft-intune.knowledge-check
+- learn.wwl.enroll-devices-use-microsoft-intune.summary
+badge:
+  uid: learn.wwl.enroll-devices-use-microsoft-intune.badge

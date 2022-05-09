@@ -6,7 +6,7 @@ Here, you'll learn about provisioning packages, share PC mode policies, creation
 
 ## Benefits of using provisioning packages
 
-Provisioning packages allow you to quickly configure a new school device without the need to create a new image each time. Also, a provisioning package reduces the time taken to deploy to multiple devices since the same provisioning package can be used multiple times. Provisioning packages can also be applied to BOYD devices, where you don't have an existing mobile device management (MDM) infrastructure. Finally, provisioning packages can be deployed without the need for a network, or any network connection, as they can be deployed from a USB drive.
+Provisioning packages allow you to quickly configure a new school device without the need to create a new image each time. Also, a provisioning package reduces the time taken to deploy to multiple devices since the same provisioning package can be used multiple times. Provisioning packages can also be applied to BYOD devices, where you don't have an existing mobile device management (MDM) infrastructure. Finally, provisioning packages can be deployed without the need for a network, or any network connection, as they can be deployed from a USB drive.
 
 Provisioning packages can be distributed in multiple ways:
 

@@ -1,4 +1,4 @@
-Endpoint data loss prevention (Endpoint DLP) extends the activity monitoring and protection capabilities of DLP to sensitive items on Windows devices. Once devices are onboarded into the Microsoft 365 compliance center, the information about what activities (like copying to USB devices or printing) users perform on sensitive items is visible to those who have access to activity explorer in the Microsoft 365 compliance center. You can also take the extra step of auditing or restricting those activities via data loss prevention policies.
+Endpoint data loss prevention (Endpoint DLP) extends the activity monitoring and protection capabilities of DLP to sensitive items on Windows devices. Once devices are onboarded into the Microsoft Purview compliance portal, the information about what activities (like copying to USB devices or printing) users perform on sensitive items is visible to those who have access to activity explorer in the Microsoft Purview compliance portal. You can also take the extra step of auditing or restricting those activities via data loss prevention policies.
 
 This unit walks you through the additional steps required to use Endpoint DLP:
 
@@ -38,7 +38,7 @@ Onboarding and offboarding are handled via scripts you download from the **Devic
 - Mobile Device Management/Microsoft Intune
 - VDI onboarding scripts for non-persistent machines
 
-In the Microsoft 365 compliance center, select **Settings**, then select **Device Onboarding** to view a list of monitored devices and download the packages used to onboard or offboard devices using your preferred deployment method.
+In the Microsoft Purview compliance portal, select **Settings**, then select **Device Onboarding** to view a list of monitored devices and download the packages used to onboard or offboard devices using your preferred deployment method.
 
 :::image type="content" source="../media/device-onboarding.png" alt-text="Screenshot shows the Device Onboarding page with the Local script selected as the deployment method." lightbox="../media/device-onboarding.png":::
 
@@ -48,7 +48,7 @@ We'll use the *Local script (for up to 10 machines)* script to onboard devices. 
 
 Here are the instructions for onboarding a Windows device using a local script.
 
-1. On the **Device onboarding** page in the compliance center, select **Onboarding**.
+1. On the **Device onboarding** page in the compliance portal, select **Onboarding**.
 2. Select **Local script (for up to 10 machines)** under **Deployment method**.
 3. Select **Download package**, and then save the DeviceComplianceOnboardingPackage.zip file.
 4. Extract the DeviceComplianceOnboardingPackage.zip file to a location accessible from the device you want to onboard, like a network share or the local device's Desktop. (You may need to bypass any messages or errors stating that downloading the file may harm your device and is not safe.)
@@ -60,7 +60,7 @@ Here are the instructions for onboarding a Windows device using a local script.
 
 Global Endpoint DLP settings apply to all existing and new DLP policies that protect content on Windows devices. But these settings only apply to content impacted by DLP policies, not every item in, for example, the user's Documents folder.
 
-In the Microsoft 365 compliance center left menu, go to **Data loss prevention** > **Endpoint DLP settings** to configure global settings.
+In the Microsoft Purview compliance portal left menu, go to **Data loss prevention** > **Endpoint DLP settings** to configure global settings.
 
 Here are the settings available to you:
 
@@ -98,4 +98,4 @@ Here are the settings available to you:
 - [Learn about Microsoft 365 Endpoint data loss prevention | Microsoft Docs](/microsoft-365/compliance/endpoint-dlp-learn-about)
 - [Get started with Endpoint data loss prevention | Microsoft Docs](/microsoft-365/compliance/endpoint-dlp-getting-started)
 - [Using Endpoint data loss prevention | Microsoft Docs](/microsoft-365/compliance/endpoint-dlp-using)
-- [Data loss prevention device onboarding | Microsoft Docs](/microsoft-365/compliance/dlp-configure-endpoints)
+- [Data loss prevention device onboarding | Microsoft Docs](/microsoft-365/compliance/device-onboarding-overview)

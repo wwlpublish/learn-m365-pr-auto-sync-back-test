@@ -20,9 +20,9 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 
 - [Node.js](https://nodejs.org/) - v12.\* (or higher)
 - NPM (installed with Node.js) - v6.\* (or higher)
-- [Gulp](https://gulpjs.com/) - v4.\* (or higher)
+- [Gulp-cli](https://gulpjs.com/) - v2.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.2.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -68,6 +68,8 @@ In the **Create an Azure Bot** blade, enter the following values and then select
 - **Subscription**: _Select the subscription you selected previously when creating the resource group_
 - **Resource group**: _Select the resource group you created previously_
 - **Pricing tier**: _Select a preferred pricing tier; the F0 tier is free_
+- **Type of App**: _Select Multi Tenant_
+- **Creation type**: _Select Create new Microsoft App ID_
 
 Select **Review + create**, then select **Create**.
 
@@ -81,7 +83,7 @@ In order for the bot to interact with Microsoft Teams, you must enable the Teams
 
 From the bot resource in Azure, select **Channels** in the left-hand navigation.
 
-On the **Connect to channels** pane, select the Microsoft Teams channel, then select **Save** to confirm the action.
+On the **Connect to channels** pane, select the Microsoft Teams channel, then select **Apply** to confirm the action.
 
 ![Screenshot enabling the Microsoft Teams channel](../media/03-azure-bot-registration-04.png)
 
@@ -141,7 +143,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: Conversational Bot
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.9
+- **Which manifest version would you like to use?**: v1.11
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A bot
 - **The URL where you will host this solution?**: (Accept the default option)
@@ -266,7 +268,7 @@ At this point, your bot is ready to test!
 From the command line, navigate to the root folder for the project and execute the following command:
 
 ```console
-gulp ngrok-serve
+gulp ngrok-serve --debug
 ```
 
 This gulp task will run many other tasks all displayed within the command-line console. The **ngrok-serve** task builds your project and starts a local web server (http://localhost:3007). It then starts ngrok with a random subdomain that creates a secure URL to your local webserver.
@@ -300,7 +302,7 @@ Now let's install the app in Microsoft Teams. In the browser, navigate to **http
 > [!NOTE]
 > Microsoft Teams is available for use as a web client, desktop client and a mobile client. In this module, we will use the web client but any of the clients can be used.
 
-Using the app bar navigation menu, select the **More added apps** button. Then select **Browse all apps** followed by **Upload for me or my teams**.
+Using the app bar navigation menu, select the **More added apps** button. Then select **More apps**. On the Apps page, select **Manage your apps** followed by **Upload a custom app**.
 
 ![Screenshot of More added apps dialog in Microsoft Teams](../media/03-test-02.png)
 

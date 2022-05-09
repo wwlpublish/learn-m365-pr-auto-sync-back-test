@@ -3,7 +3,7 @@ uid: learn.wwl.manage-drivers-device-peripherals
 metadata:
   title: Manage drivers and device peripherals
   description: "This module introduces device drivers. Student will learn how drivers work and the tools used to manage common peripheral devices such as printers."
-  ms.date: 02/23/2022
+  ms.date: 03/31/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -25,7 +25,6 @@ prerequisites: |
   *   Students should have a basic understanding of OS and Application concepts.
   *   Students should have experience with using Windows 10 or later.
 iconUrl: /learn/achievements/generic-badge.svg
-hidden: true
 levels:
 - beginner
 roles:

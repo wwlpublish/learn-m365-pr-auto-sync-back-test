@@ -25,10 +25,10 @@ Organizations must consider the following infrastructure requirements when plann
 
  -  A single on-premises deployment of Skype for Business Server or Lync Server that's deployed in a supported topology. See the next section on Topology requirements.
  -  A Microsoft 365 tenant with Skype for Business Online enabled.
- -  Azure Active Directory Connect to synchronize your on-premises directory with Microsoft 365. For more information, see [Azure AD Connect: Accounts and permissions](https://aka.ms/AA4jz5u?azure-portal=true).
+ -  Azure Active Directory Connect to synchronize your on-premises directory with Microsoft 365. For more information, see [Azure AD Connect: Accounts and permissions](/azure/active-directory/hybrid/reference-connect-accounts-permissions?azure-portal=true).
  -  Skype for Business Server administrative tools, which are required to move users from on-premises to the cloud. These tools must be installed on a server with access to both on-premises deployment and the internet.
- -  The Teams admin center or Windows PowerShell can be used to manage Teams and Skype for Business Online. To use PowerShell to manage either Teams or Skype for Business Online, download and install the [Skype for Business Online Connector](https://aka.ms/AA4jz6e?azure-portal=true).
- -  Shared SIP address space must be enabled, and the organization's on-premises deployment must be configured to use Microsoft 365 as a hosting provider. For more information about the steps required to configure hybrid connectivity, see [Configure hybrid connectivity between Skype for Business Server and Microsoft 365](https://aka.ms/AA4jz5w?azure-portal=true).
+ -  The Teams admin center or Windows PowerShell can be used to manage Teams and Skype for Business Online. To use PowerShell to manage either Teams, see [Install Microsoft Teams PowerShell Module](/microsoftteams/teams-powershell-install?azure-portal=true).
+ -  Shared SIP address space must be enabled, and the organization's on-premises deployment must be configured to use Microsoft 365 as a hosting provider. For more information about the steps required to configure hybrid connectivity, see [Configure hybrid connectivity between Skype for Business Server and Teams](/skypeforbusiness/hybrid/configure-hybrid-connectivity?azure-portal=true).
 
 ### Topology requirements
 
@@ -43,7 +43,7 @@ Organizations must implement one of the following topology scenarios when config
      -  Lync Server 2013 and Skype for Business Server 2019
      -  Lync Server 2013 and Skype for Business Server 2015
 
-If hybrid voice is required in any topology, both the edge server that's selected as the Federation Edge and the pool associated with SIP federation must run Skype for Business 2015 or later. Users can remain on a Lync 2013 Pool if one exists. For more information, see [Plan Phone System in Office 365 with on-premises PSTN Connectivity in Skype for Business Server](https://aka.ms/AA4jz6m?azure-portal=true).
+If hybrid voice is required in any topology, both the edge server that's selected as the Federation Edge and the pool associated with SIP federation must run Skype for Business 2015 or later. Users can remain on a Lync 2013 Pool if one exists. For more information, see [Plan Phone System in Office 365 with on-premises PSTN Connectivity in Skype for Business Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity?azure-portal=true).
 
 Topologies that include Lync Server 2010 aren't supported for hybrid voice or Teams. The following topologies that include Lync Server 2010 are supported with Skype for Business Online for instant messaging and meetings:
 
@@ -58,7 +58,7 @@ Microsoft supports the following multi-forest hybrid scenarios:
  -  **Resource forest topology.** In this kind of topology, there's one forest that hosts Skype for Business Server (the resource forest), and there are one or more other forests that host account identities. These identities access the Skype for Business Server in the resource forest. In general, users can access Skype for Business functionality in another forest if the following requirements are met:
     
      -  Users are properly synchronized into the forest that hosts Skype for Business. In hybrid configurations, users must be synchronized as disabled user objects.
-     -  The forest hosting Skype for Business must trust the forest containing the users. For details on resource forest hybrid scenarios, see [Deploy a resource forest topology](https://aka.ms/AA4jrtp?azure-portal=true).
+     -  The forest hosting Skype for Business must trust the forest containing the users. For details on resource forest hybrid scenarios, see [Deploy a resource forest topology](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-a-multi-forest-environment-for-hybrid#:~:text=%20Deploy%20a%20resource%20forest%20topology%20%201,the%20resource%20forests%20hosting%20Skype%20for...%20More%20?azure-portal=true).
  -  **Multiple deployments of Skype for Business Server in multiple forests**. This configuration can be found in more complex enterprises, and in deployments that are the result of mergers and acquisitions. Consolidation of all users from on-premises to the cloud in a single Microsoft 365 tenant can be achieved for any organization with multiple Skype for Business deployments when the following key requirements are met:
     
      -  There can't be more than one Microsoft 365 tenant involved. Consolidation in scenarios with more than one Microsoft 365 tenant isn't supported.
@@ -66,7 +66,7 @@ Microsoft supports the following multi-forest hybrid scenarios:
 
 Customers with deployments of Skype for Business in multiple forests must first fully migrate each Skype for Business forest individually into the Microsoft 365 tenant using split-domain (Shared SIP Address Space) functionality. Once that is complete, they can then disable hybrid with the on-premises deployment, and then move on to migrate the next on-premises Skype for Business deployment.
 
-Before they're migrated to the cloud, on-premises users remain in a federated state with any users that aren't represented in the same user’s on-premises directory. For more information, see [Cloud consolidation for Teams and Skype for Business](https://aka.ms/AA4jrup?azure-portal=true).
+Before they're migrated to the cloud, on-premises users remain in a federated state with any users that aren't represented in the same user’s on-premises directory. For more information, see [Cloud consolidation for Teams and Skype for Business](/skypeforbusiness/hybrid/cloud-consolidation?azure-portal=true).
 
 ### Port and protocol requirements
 
@@ -74,358 +74,162 @@ Besides the port requirements for internal communication, an organization must a
 
 :::row:::
   :::column:::
-    
-
-**Protocol**
-
-
+    **Protocol**
   :::column-end:::
   :::column:::
-    
-
-**TCP or UDP**
-
-
+    **TCP or UDP**
   :::column-end:::
   :::column:::
-    
-
-**Source IP**
-
-
+    **Source IP**
   :::column-end:::
   :::column:::
-    
-
-**Destination IP**
-
-
+    **Destination IP**
   :::column-end:::
   :::column:::
-    
-
-**Source Port**
-
-
+    **Source Port**
   :::column-end:::
   :::column:::
-    
-
-**Destination Port**
-
-
+    **Destination Port**
   :::column-end:::
   :::column:::
-    
-
-**Notes**
-
-
+    **Notes**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-SIP (MTLS)
-
-
+    SIP (MTLS)
   :::column-end:::
   :::column:::
-    
-
-TCP
-
-
+    TCP
   :::column-end:::
   :::column:::
-    
-
-Access Edge
-
-
+    Access Edge
   :::column-end:::
   :::column:::
-    
-
-Microsoft 365
-
-
+    Microsoft 365
   :::column-end:::
   :::column:::
-    
-
-Any
-
-
+    Any
   :::column-end:::
   :::column:::
-    
-
-5061
-
-
+    5061
   :::column-end:::
   :::column:::
-    
-
-Signaling
-
-
+    Signaling
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-SIP (MTLS)
-
-
+    SIP (MTLS)
   :::column-end:::
   :::column:::
-    
-
-TCP
-
-
+    TCP
   :::column-end:::
   :::column:::
-    
-
-Microsoft 365
-
-
+    Microsoft 365
   :::column-end:::
   :::column:::
-    
-
-Access Edge
-
-
+    Access Edge
   :::column-end:::
   :::column:::
-    
-
-Any
-
-
+    Any
   :::column-end:::
   :::column:::
-    
-
-5061
-
-
+    5061
   :::column-end:::
   :::column:::
-    
-
-Signaling
-
-
+    Signaling
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-STUN
-
-
+    STUN
   :::column-end:::
   :::column:::
-    
-
-TCP
-
-
+    TCP
   :::column-end:::
   :::column:::
-    
-
-A/V Edge
-
-
+    A/V Edge
   :::column-end:::
   :::column:::
-    
-
-Microsoft 365
-
-
+    Microsoft 365
   :::column-end:::
   :::column:::
-    
-
-50000-59999
-
-
+    50000-59999
   :::column-end:::
   :::column:::
-    
-
-443
-
-
+    443
   :::column-end:::
   :::column:::
-    
-
-Open for audio, video, application sharing sessions
-
-
+    Open for audio, video, application sharing sessions
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-STUN
-
-
+    STUN
   :::column-end:::
   :::column:::
-    
-
-TCP
-
-
+    TCP
   :::column-end:::
   :::column:::
-    
-
-Microsoft 365
-
-
+    Microsoft 365
   :::column-end:::
   :::column:::
-    
-
-A/V Edge
-
-
+    A/V Edge
   :::column-end:::
   :::column:::
-    
-
-50000-59999
-
-
+    50000-59999
   :::column-end:::
   :::column:::
-    
-
-443
-
-
+    443
   :::column-end:::
   :::column:::
-    
-
-Open for audio, video, application sharing sessions
-
-
+    Open for audio, video, application sharing sessions
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-STUN
-
-
+    STUN
   :::column-end:::
   :::column:::
-    
-
-UDP
-
-
+    UDP
   :::column-end:::
   :::column:::
-    
-
-A/V Edge
-
-
+    A/V Edge
   :::column-end:::
   :::column:::
-    
-
-Microsoft 365
-
-
+    Microsoft 365
   :::column-end:::
   :::column:::
-    
-
-3478
-
-
+    3478
   :::column-end:::
   :::column:::
-    
-
-3478
-
-
+    3478
   :::column-end:::
   :::column:::
-    
-
-Open for audio, video sessions
-
-
+    Open for audio, video sessions
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-STUN
-
-
+    STUN
   :::column-end:::
   :::column:::
-    
-
-UDP
-
-
+    UDP
   :::column-end:::
   :::column:::
-    
-
-Microsoft 365
-
-
+    Microsoft 365
   :::column-end:::
   :::column:::
-    
-
-A/V Edge
-
-
+    A/V Edge
   :::column-end:::
   :::column:::
-    
-
-3478
-
-
+    3478
   :::column-end:::
   :::column:::
-    
-
-3478
-
-
+    3478
   :::column-end:::
   :::column:::
-    
-
-Open for audio, video sessions
-
-
+    Open for audio, video sessions
   :::column-end:::
 :::row-end:::

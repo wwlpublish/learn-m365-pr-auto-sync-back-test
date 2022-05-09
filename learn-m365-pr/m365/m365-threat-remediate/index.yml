@@ -28,6 +28,7 @@ products:
 - m365
 - office-365
 - m365-threat-protection
+- defender-office365
 units:
 - learn-m365.m365-threat-remediate.introduction
 - learn-m365.m365-threat-remediate.automate-investigate-remediate

@@ -1,6 +1,6 @@
 Depending on its Microsoft 365 license, an organization has various client packages to choose from. While Microsoft 365 Apps for enterprise (formerly Office 365 ProPlus) is included in several subscriptions, it's the license assigned to the user that determines what's available for download and use.
 
-‎Microsoft 365 Apps for enterprise is a downloadable version of Microsoft's Office productivity suite. It includes the following products:<br>
+‎Microsoft 365 Apps for enterprise is a downloadable version of Microsoft's Office productivity suite. It includes the following products:
 
  -  Microsoft Word
  -  Microsoft Excel

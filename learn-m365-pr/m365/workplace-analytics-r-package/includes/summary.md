@@ -6,21 +6,21 @@ The `wpa` R package is an easy way to incorporate more advanced collaboration an
 
 Now that you have finished this module, you should be able to:
 
-* Explain what the `wpa` R package is, and how to use it to analyze Workplace Analytics data.
-* Install R and set up the `wpa` R package.
-* Use the `wpa` R package to validate and explore Workplace Analytics data.
-* Run quick-start reports and use the functions in the `wpa` R package to create your own analysis.
+- Explain what the `wpa` R package is, and how to use it to analyze Workplace Analytics data.
+- Install R and set up the `wpa` R package.
+- Use the `wpa` R package to validate and explore Workplace Analytics data.
+- Run quick-start reports and use the functions in the `wpa` R package to create your own analysis.
 
 The `wpa` R package is continuously evolving and integrating more new features and functions. Check the package website often to ensure you have the latest features. As an open-source project, `wpa` also welcomes and relies on contributions from you, such as:
 
-* A feature request
-* To report a bug
-* Documentation edits
+- A feature request
+- To report a bug
+- Documentation edits
 
 You are welcome to submit an issue or create a pull request directly in GitHub. See the links in [Learn more](#learn-more) to find new features, submit issues, or create new pull requests.
 
 ## Learn more
 
-* [Find new `wpa` R package features](https://microsoft.github.io/wpa/)
-* [Submit an issue with the `wpa` R package](https://github.com/microsoft/wpa/issues)
-* [Create a GitHub pull request for the `wpa` R package](https://github.com/microsoft/wpa/)
+- [Find new `wpa` R package features](https://microsoft.github.io/wpa/)
+- [Submit an issue with the `wpa` R package](https://github.com/microsoft/wpa/issues)
+- [Create a GitHub pull request for the `wpa` R package](https://github.com/microsoft/wpa/)

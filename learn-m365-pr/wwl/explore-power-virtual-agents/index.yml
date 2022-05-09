@@ -3,7 +3,7 @@ uid: learn.wwl.explore-power-virtual-agents
 metadata:
   title: Create chatbots as a Microsoft 365 Enterprise Administrator with Power Virtual Agents
   description: "Create chatbots as a Microsoft 365 Enterprise Administrator with Power Virtual Agents"
-  ms.date: 07/09/2021
+  ms.date: 04/15/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,7 +11,7 @@ metadata:
 title: Create chatbots as a Microsoft 365 Enterprise Administrator with Power Virtual Agents
 summary: This module introduces the key features of Power Virtual Agents and provides instruction on how to create powerful bots using Power Virtual Agents' guided, no-code graphical user interface.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Explain the purpose of Power Virtual Agents within the Power Platform.
   - Explain how Power Agents enable teams to easily create powerful bots.
   - Describe key features of Power Virtual Agents.
@@ -26,7 +26,6 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:

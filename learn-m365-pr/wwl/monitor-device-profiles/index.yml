@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn.wwl.monitor-device-profiles
+metadata:
+  title: Monitor device profiles
+  description: "This module introduces students to monitoring profiles to ensure correct assignments and resolving conflicts when multiple profiles are applied."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Monitor device profiles
+summary: This module introduces students to monitoring profiles to ensure correct assignments and resolving conflicts when multiple profiles are applied.
+abstract: |
+  After completing this module, you will be able to:
+  - Monitor the assignments of profiles.
+  - Understand how profiles are synchronized and how to manually force synchronization.
+  - Use PowerShell to execute and monitor scripts on devices.
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later.
+  - Strong understanding of computer networking, client security, and application concepts.
+  - Experience using Active Directory Domain Services.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.monitor-device-profiles.introduction
+- learn.wwl.monitor-device-profiles.monitor-device-profiles-intune
+- learn.wwl.monitor-device-profiles.manage-device-sync-intune
+- learn.wwl.monitor-device-profiles.manage-devices-intune-using-scripts
+- learn.wwl.monitor-device-profiles.knowledge-check
+- learn.wwl.monitor-device-profiles.summary
+badge:
+  uid: learn.wwl.monitor-device-profiles.badge

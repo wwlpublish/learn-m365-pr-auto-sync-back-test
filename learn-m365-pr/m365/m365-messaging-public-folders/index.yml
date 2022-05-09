@@ -27,6 +27,7 @@ products:
 - m365
 - office-365
 - office-exchange-server
+- office-exchange-online
 units:
 - learn-m365.m365-messaging-public-folders.introduction
 - learn-m365.m365-messaging-public-folders.implement-folder-hierarchies

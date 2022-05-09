@@ -9,7 +9,7 @@ The overall process for creating a tenant account for Microsoft 365 includes:
 
 1.  **Decide which Microsoft 365 plan(s) meet your organization’s requirements.** An organization can mix different Microsoft 365 plans according to its business needs. For example, an organization can purchase 200 Business Essentials seats, 200 Business Premium seats, and 200 Office 365 E3 seats on a single tenant.
 2.  **Inventory the current environment in the organization.** This step involves identifying the number of user accounts and the number and size of mailboxes, as well as collecting client versions and configurations, detailed file storage information, intranet sites to migrate, and online meeting and Instant Messaging systems to migrate.
-3.  **Make key deployment decisions.** Determine how you will create or synchronize accounts, handle user authentication, data migration, and whether you want hybrid integration.
+3.  **Make key deployment decisions.** Determine how you'll create or synchronize accounts, handle user authentication, data migration, and whether you want hybrid integration.
 4.  **Fix potential deployment blockers and clean up your organization.** Clean up user accounts, get data and the network ready for migration, update client software.
 5.  **Configure the Microsoft 365 subscription.** Verify the domains that you plan to use with the tenant, configure application settings, directory synchronization, and single sign-on.
 6.  **Set up accounts and mailboxes.** Assign the appropriate license types to users and migrate email and files to the subscription.

@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn.wwl.manage-device-authentication
+metadata:
+  title: Manage device authentication
+  description: "In this module, you will learn about device authentication and management in Azure Active Directory."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage device authentication
+summary: In this module, you will learn about device authentication and management in Azure Active Directory.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe Azure AD join.
+  - Describe Azure AD join prerequisites, limitations and benefits.
+  - Join device to Azure AD.
+  - Manage devices joined to Azure AD.
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later.
+  - Strong understanding of computer networking, client security, and application concepts.
+  - Experience using Active Directory Domain Services.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.manage-device-authentication.introduction
+- learn.wwl.manage-device-authentication.describe-azure-ad-join
+- learn.wwl.manage-device-authentication.examine-azure-ad-join-prerequisites-limitations-benefits
+- learn.wwl.manage-device-authentication.join-devices-azure-ad
+- learn.wwl.manage-device-authentication.manage-devices-joined-azure-ad
+- learn.wwl.manage-device-authentication.knowledge-check
+- learn.wwl.manage-device-authentication.summary
+badge:
+  uid: learn.wwl.manage-device-authentication.badge

@@ -1,0 +1,46 @@
+### YamlMime:Module
+uid: learn.wwl.explore-application-troubleshooting
+metadata:
+  title: Explore application troubleshooting
+  description: "This module explores the methods and tools used for troubleshooting application deployment issues."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore application troubleshooting
+summary: This module explores the methods and tools used for troubleshooting application deployment issues.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe desktop app deployment methods.
+  - Discuss desktop app deployment issues.
+  - Describe Microsoft 365.
+  - Describe the difference between Microsoft 365 apps and desktop apps.
+  - Resolve desktop app deployment issues.
+  - Troubleshoot Windows Installer issues.
+  - Describe how to use AppLocker to control apps.
+  - Control desktop app installation with AppLocker policies.
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.explore-application-troubleshooting.introduction
+- learn.wwl.explore-application-troubleshooting.troubleshoot-windows-installer-issues
+- learn.wwl.explore-application-troubleshooting.resolve-desktop-app-deployment-issues
+- learn.wwl.explore-application-troubleshooting.identify-issues-related-desktop-app-operations
+- learn.wwl.explore-application-troubleshooting.resolve-issues-related-desktop-app-operations
+- learn.wwl.explore-application-troubleshooting.resolve-issues-related-universal-windows-platform-apps
+- learn.wwl.explore-application-troubleshooting.troubleshoot-common-microsoft-365-app-issues
+- learn.wwl.explore-application-troubleshooting.explore-application-compatibility-toolkit
+- learn.wwl.explore-application-troubleshooting.knowledge-check
+- learn.wwl.explore-application-troubleshooting.summary
+badge:
+  uid: learn.wwl.explore-application-troubleshooting.badge

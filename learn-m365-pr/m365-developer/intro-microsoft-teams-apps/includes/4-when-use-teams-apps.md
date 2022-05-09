@@ -12,7 +12,7 @@ Apps that focus on encouraging social interactions between team members also wor
 
 ### Starting & helping common business processes
 
-Teams can be an effective platform for launching, and helping the completion of, common business processes. Things like creating and sharing a sales call report, tracking your time against a project, reserving common resources, submitting help desk requests and more can make for effective Teams apps. Often there is already some other system responsible for completing these actions. In those cases, using Teams as a bridge to start the process, and for communicating during the process can create an effective hybrid app.
+Teams can be an effective platform for launching, and helping the completion of, common business processes. Things like creating and sharing a sales call report, tracking your time against a project, reserving common resources, submitting help desk requests and more can make for effective Teams apps. Often there's already some other system responsible for completing these actions. In those cases, using Teams as a bridge to start the process, and for communicating during the process can create an effective hybrid app.
 
 ### Surfacing some (or all) of your existing app
 

@@ -26,7 +26,7 @@ You can set the retention time for OneDrive accounts in the OneDrive admin cente
 
 ## Microsoft 365 retention and OneDrive
 
-There are other options for retaining content in OneDrive that are administered at the Microsoft 365 level and affect applications such as Exchange, SharePoint, OneDrive, and Teams. Using the Microsoft 365 compliance center, you can create retention policies for OneDrive sites and create retention labels to apply to files in OneDrive.
+There are other options for retaining content in OneDrive that are administered at the Microsoft 365 level and affect applications such as Exchange, SharePoint, OneDrive, and Teams. Using the Microsoft Purview compliance portal, you can create retention policies for OneDrive sites and create retention labels to apply to files in OneDrive.
 
 Retention policies allow you to proactively just retain, just delete, or retain then delete content in OneDrive. A single policy can be applied to the entire organization's applications like Exchange, SharePoint, and OneDrive, or just OneDrive, or individual OneDrive sites. Policies can also be applied to content that contains specific keywords or is a specific sensitive information type. If the content is edited or deleted, a copy is saved to a secure location so all versions of a document are retained.
 

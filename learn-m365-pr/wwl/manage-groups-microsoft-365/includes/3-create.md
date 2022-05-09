@@ -36,7 +36,7 @@ Windows PowerShell can also be used to create security groups for Microsoft 365 
 
 ### Determining group types
 
-The Microsoft 365 admin center must be used to determine the different types of groups used by an organization. When viewing groups in the Microsoft 365 admin center, the **Type** column displays the group type for your reference. The **Get-MsolGroup \| Select DisplayName, GroupType** command can also be used in the Azure AD module for Windows PowerShell to display group type information.
+The Microsoft 365 admin center must be used to determine the different types of groups used by an organization. When you view groups in the Microsoft 365 admin center, the **Type** column displays the group type for your reference. The **Get-MsolGroup \| Select DisplayName, GroupType** command can also be used in the Azure AD module for Windows PowerShell to display group type information.
 
 ### Nesting groups
 
@@ -63,7 +63,7 @@ Select the following links to complete these interactive demonstrations:
  -  [Create and manage groups](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M2-L1-E2-T2/index.html?azure-portal=true)
  -  [Recover groups using PowerShell](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M2-L1-E2-T3/index.html?azure-portal=true)
 
-The first simulation guides you through the steps to create a Microsoft 365 group and a security group for the fictitious Adatum Corporation. You will also complete the steps to delete a group. In the second simulation, you will use Windows PowerShell to recover a deleted group.
+The first simulation guides you through the steps to create a Microsoft 365 group and a security group for the fictitious Adatum Corporation. You'll also complete the steps to delete a group. In the second simulation, you'll use Windows PowerShell to recover a deleted group.
 
 ## Knowledge check
 

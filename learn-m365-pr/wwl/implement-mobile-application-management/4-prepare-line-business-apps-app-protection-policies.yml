@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-mobile-application-management.prepare-line-business-apps-app-protection-policies
+title: Prepare line-of-business apps for app protection policies
+metadata:
+  title: Prepare line-of-business apps for app protection policies
+  description: "Prepare line-of-business apps for app protection policies"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-prepare-line-business-apps-app-protection-policies.md)]

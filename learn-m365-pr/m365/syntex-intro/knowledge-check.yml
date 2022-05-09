@@ -33,7 +33,7 @@ quiz:
         explanation: "Incorrect. An explanation accompanies your classifier model and the extractor so that the models know what information to use for classification or what needs to be extracted. Explanations do not directly ensure that a document will be kept or removed."
       - content: "Retention labels"
         isCorrect: true
-        explanation: "Correct. Retention labels are created in the Microsoft 365 Compliance Center but can be added to a document understanding model so that documents within your SharePoint document library are either retained or removed for a designated period of time."
+        explanation: "Correct. Retention labels are created in the Microsoft Purview compliance portal but can be added to a document understanding model so that documents within your SharePoint document library are either retained or removed for a designated period of time."
       - content: "Classifier"
         isCorrect: false
         explanation: "Incorrect. A classifier model may include retention labels but the model itself will not have retention set up unless the labels are added."

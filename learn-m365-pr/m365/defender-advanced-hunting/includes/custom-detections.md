@@ -39,7 +39,7 @@ Simple queries, such as those that don't use the project or summarize operator t
 
 ### Prepare the query
 
-Here's a sample query that counts the number of unique *DeviceId's* with antivirus detections. It uses this count to find only the devices with more than five detections. To return the latest Timestamp and the corresponding `ReportId`, it uses the summarize function with the *arg_max()* function.
+Here's a sample query that counts the number of unique `DeviceId` values with antivirus detections. It uses this count to find only the devices with more than five detections. To return the latest Timestamp and the corresponding `ReportId`, it uses the summarize function with the `arg_max()` function.
 
 ```PowerShell
 DeviceEvents

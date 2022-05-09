@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-windows-startup.explore-additional-recovery-tools-windows-recovery-environment
+title: Explore additional recovery tools in Windows Recovery Environment
+metadata:
+  title: Explore additional recovery tools in Windows Recovery Environment
+  description: "Explore additional recovery tools in Windows Recovery Environment"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/8-explore-additional-recovery-tools-windows-recovery-environment.md)]

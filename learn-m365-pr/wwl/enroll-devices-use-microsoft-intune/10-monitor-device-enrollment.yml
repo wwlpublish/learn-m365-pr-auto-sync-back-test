@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.enroll-devices-use-microsoft-intune.monitor-device-enrollment
+title: Monitor device enrollment
+metadata:
+  title: Monitor device enrollment
+  description: "Monitor device enrollment"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/10-monitor-device-enrollment.md)]

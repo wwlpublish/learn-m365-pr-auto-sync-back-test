@@ -3,7 +3,7 @@ uid: learn.wwl.explore-common-configuration-options
 metadata:
   title: Explore common configuration options
   description: "This module discusses configuring and customizing some of the common default settings in Windows clients."
-  ms.date: 02/18/2022
+  ms.date: 03/31/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -24,7 +24,6 @@ prerequisites: |
   *   Students should have a basic understanding of OS and Application concepts.
   *   Students should have experience with using Windows 10 or later.
 iconUrl: /learn/achievements/generic-badge.svg
-hidden: true
 levels:
 - beginner
 roles:

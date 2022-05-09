@@ -8,6 +8,10 @@ metadata:
   ms.author: wmastyka
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - wmastyka-10212021
 title: Knowledge check
 durationInMinutes: 3
 content: |

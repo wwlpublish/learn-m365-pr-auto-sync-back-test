@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-update-applications.obtain-apps-based-on-your-licensing-model
+title: Obtain apps based on your licensing model
+metadata:
+  title: Obtain apps based on your licensing model
+  description: "Obtain apps based on your licensing model"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/11-obtain-apps-based-your-licensing-model.md)]

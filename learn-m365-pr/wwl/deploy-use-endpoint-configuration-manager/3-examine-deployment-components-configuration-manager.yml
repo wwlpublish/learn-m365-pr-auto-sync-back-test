@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-use-endpoint-configuration-manager.examine-deployment-components-configuration-manager
+title: Examine deployment components of Configuration Manager
+metadata:
+  title: Examine deployment components of Configuration Manager
+  description: "Examine deployment components of Configuration Manager"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-examine-deployment-components-configuration-manager.md)]

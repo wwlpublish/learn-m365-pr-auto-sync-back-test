@@ -8,6 +8,10 @@ metadata:
   ms.author: dwahlin
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - dwahlin-09302021
 title: Exercise - Connect an ASP.NET Core app to Microsoft 365
 durationInMinutes: 5
 content: |

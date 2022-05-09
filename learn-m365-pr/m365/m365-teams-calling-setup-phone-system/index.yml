@@ -24,6 +24,7 @@ roles:
 products: 
 - office-teams
 - m365
+- microsoft-teams-phone
 units:
 - learn-m365-pr.m365-teams-calling-setup-phone-system-for-teams.introduction
 - learn-m365-pr.m365-teams-calling-setup-phone-system-for-teams.process-setup-phone-system

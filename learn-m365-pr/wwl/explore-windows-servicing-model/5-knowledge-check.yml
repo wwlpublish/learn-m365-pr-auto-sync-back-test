@@ -1,0 +1,63 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-windows-servicing-model.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Your organization has a number of custom applications. You need additional time to test application compatibility before deployment of the next Windows build. Which Windows servicing option provides the ability to do this?"
+    choices:
+    - content: "Windows Insider Program"
+      isCorrect: true
+      explanation: "Correct. For many IT pros, gaining visibility into feature updates early—before they’re available to the General Availability Channel—can be both intriguing and valuable for future end-user communications as well as provide the means to test for application compatibility and any other issues on the next General Availability Channel release. Feature flighting enables Windows Insiders to consume and deploy preproduction code to their test machines, gaining early visibility into the next build."
+    - content: "General Availability Channel"
+      isCorrect: false
+      explanation: "Incorrect. In the General Availability servicing channel, feature updates are available as soon as Microsoft releases them. This model doesn't provide for early visibility and testing prior to release of the next build. Try again."
+    - content: "Long-Term Servicing Channel"
+      isCorrect: false
+      explanation: "Incorrect. Long-term Servicing channel is not intended for deployment on most or all the PCs in an organization; it should be used only for special-purpose devices. Try again."
+  - content: "Contoso recently deployed the latest upgrade to the Windows operating system. However, the company later discovered a significant compatibility issue between the latest Windows upgrade and one of their Sales apps. Contoso wants to roll back this upgrade to the previous Windows operating system version. By default, what's the default grace period that Contoso has to roll back to the previous Windows version?"
+    choices:
+    - content: "10 days"
+      isCorrect: true
+      explanation: "Correct. With Windows, you can roll back an upgrade to the previous Windows operating system version. This can be helpful if unforeseen circumstances occur after updating. There is a default 10-day grace period to roll back to the previous version, however this can be changed with the DISM image tool. When rolling back, any changes will be lost, including installed apps, and it’s recommended that user data be backed up prior to a rollback."
+    - content: "20 days"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the default grace period to roll back to the previous version. Try again."
+    - content: "30 days"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the default grace period to roll back to the previous version. Try again."
+  - content: "Which Windows Service Channel isn't intended for deployment on most or all the PCs in an organization and should only be used for special-purpose devices?"
+    choices:
+    - content: "Windows Insider Program"
+      isCorrect: false
+      explanation: "Incorrect. Windows Insider provides visibility into feature updates early, before they’re available to the General Availability Channel. This channel is intended for deployment on most or all the PCs in an organization. Try again."
+    - content: "Long-Term Servicing Channel"
+      isCorrect: true
+      explanation: "Correct. Windows Enterprise LTSC is a separate Long-Term Servicing Channel version. Long-term Servicing channel is not intended for deployment on most or all the PCs in an organization; it should be used only for special-purpose devices. As a general guideline, a PC with Microsoft Office installed is a general-purpose device, typically used by an information worker, and therefore it is better suited for the General Availability channel."
+    - content: "General Availability Channel"
+      isCorrect: false
+      explanation: "Incorrect. In the General Availability servicing channel, feature updates are available as soon as Microsoft releases them. This channel is intended for deployment on most or all the PCs in an organization. Try again."
+  - content: "As the Desktop Administrator for Fabrikam, Holly Spencer wants to obtain the updates that Windows Update determines are applicable to the devices at Fabrikam, perform additional testing and evaluation on the updates, and select the updates that Fabrikam wants to install. Which Microsoft feature provides Holly with this functionality?"
+    choices:
+    - content: "Windows Update for Business"
+      isCorrect: false
+      explanation: "Incorrect. This servicing tool includes control over update deferment and provides centralized management using either Group Policy or Microsoft Intune. Try again."
+    - content: "Windows Server Update Services"
+      isCorrect: true
+      explanation: "Correct. Windows Server Update Services (WSUS) provides extensive control over Windows updates and is natively available in the Windows Server operating system. In addition to the ability to defer updates, organizations can add an approval layer for updates and choose to deploy them to specific computers or groups of computers whenever ready. WSUS also provides IT administrators with an all or nothing way to specify when they want an approved update to be installed. Because IT administrators ultimately select and install most updates identified by Windows Update, the role of WSUS in many enterprises is to provide IT administrators with the additional time they need to gain confidence in the quality of updates prior to deployment."
+    - content: "Configuration Manager"
+      isCorrect: false
+      explanation: "Incorrect. Configuration Manager enables IT pros to defer updates, approve them, and have multiple options for targeting deployments and managing bandwidth usage and deployment times. Try again."

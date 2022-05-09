@@ -70,7 +70,7 @@ Recommended components you can use in your add-in are as follows:
 - Toggle
 
 > [!TIP]
-> You can use the Yeoman generator for Office Add-ins to create a project that references Fabric React. An available project type is **Office add-in Task Pane project using React framework**.
+> You can use the Yeoman generator for Office Add-ins to create a project that references Fabric React. An available project type is **Office Add-in Task Pane project using React framework**.
 
 ## Understand when and how to use Microsoft Graph in Office Add-ins
 
@@ -89,10 +89,6 @@ Microsoft Graph REST APIs provide a way for your add-in to access the user's dat
 - Enterprise Mobility and Security services
 - Windows 10 services
 - Dynamics 365
-
-![Microsoft Graph](../media/04-microsoft-graph.png)
-
-*Microsoft Graph*
 
 ### How to authorize to Microsoft Graph
 

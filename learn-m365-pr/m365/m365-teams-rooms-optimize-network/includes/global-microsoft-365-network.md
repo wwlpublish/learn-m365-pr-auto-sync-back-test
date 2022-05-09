@@ -4,13 +4,13 @@ The Microsoft network is optimized for media. Optimization is done in several wa
 
 In the image below, you can see how you generally connect to a website such as LinkedIn or MSN. You have full control and full responsibility for your network until you route to the internet.  The internet offers limited control. You can only choose your Internet Service Provider (ISP) and maybe a DNS provider. Even though the internet can be a little wild, it works well. Your users can get to LinkedIn or MSN fine.
 
-![Corporate network to internet data flow](../media/corporate-internet-data-flow.png)
+:::image type="content" source="../media/corporate-internet-data-flow.png" alt-text="Corporate network to internet data flow." border="false":::
 
 However, when you go to Microsoft 365 things change in a meaningful way. The reliance on the internet shrinks, and the Microsoft network picks up much of the connection. You still start your connection on your corporate network and you're still going to Microsoft 365.
 
 But because the way the Microsoft network is designed, placing edge sites as close as possible to users around the world, the time you spend on the internet is greatly reduced. By reducing the amount of time your traffic spends on the open internet, you minimize things like jitter, latency, and packet loss, all of which can impact Microsoft Teams meeting quality. The Microsoft network has been designed to focus on Microsoft-specific technologies and not the general-purpose internet.
 
-![Corporate network to internet to Microsoft network data flow](../media/corporate-internet-microsoft-data-flow.png)
+:::image type="content" source="../media/corporate-internet-microsoft-data-flow.png" alt-text="Corporate network to internet to Microsoft network data flow." border="false":::
 
 What if you could reduce the corporate network traffic and get your traffic onto that low jitter, low loss, low latency Microsoft network even faster?
 
@@ -32,7 +32,7 @@ You also want to minimize your time transmitting data on the internet. The inter
 - You can't control much!
 
 The less time you spend on the internet connecting to Microsoft 365, the better your performance will be. Similarly, the more time you spend on the Microsoft network, the better your performance will be.
- 
+
 The way to do that is to introduce local internet breakouts where it makes sense. Local internet breakouts, also known as internet egress points, are locations where your local network traffic exits to the internet. There's a lot to discuss and a lot to decide regarding where you should have local internet breakouts.
 
 - Where should you place your local internet breakouts?
@@ -41,7 +41,7 @@ The way to do that is to introduce local internet breakouts where it makes sense
 
 You'll need to decide if every office or every location needs to have a local internet breakout. But if you're a regional, national, or global corporation, you should certainly consider local breakouts. Passing your traffic halfway across the country or across the globe just to get to the internet doesn't make sense when dealing with Microsoft 365 in general and Microsoft Teams media specifically.
 
-![Local internet breakouts](../media/local-internet-breakout.png)
+:::image type="content" source="../media/local-internet-breakout.png" alt-text="Local internet breakouts." border="false":::
 
 ## What is a peering point?
 
@@ -53,7 +53,7 @@ If you have the choice, choose an ISP that peers directly with Microsoft. This h
 
 Do you need to increase bandwidth when implementing Microsoft 365? To help you answer that question, there is a network planner in the Teams admin center. It gives you estimates of how much bandwidth is going to be needed at any given location and helps guide you to make sure you have enough bandwidth for Microsoft Teams.
 
-![Bandwidth impact](../media/bandwidth-impact.png)
+:::image type="content" source="../media/bandwidth-impact.png" alt-text="Bandwidth impact." border="false":::
 
 ## Learn more
 

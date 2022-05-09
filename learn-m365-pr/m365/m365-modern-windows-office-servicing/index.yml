@@ -3,7 +3,7 @@ uid: learn-m365.modern-windows-office-servicing
 metadata:
   title: Learn about Windows and Microsoft 365 Apps servicing in Microsoft 365
   description: Review how to stay current with updates and learn about the new servicing model.
-  ms.date: 07/21/2021
+  ms.date: 04/08/2022
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
@@ -28,6 +28,8 @@ products:
 - windows
 - office-365
 - windows-19044
+- windows-10
+- m365-apps-for-business
 units:
 - learn-m365.modern-windows-office-servicing.1-introduction
 - learn-m365.modern-windows-office-servicing.2-overview-servicing-models

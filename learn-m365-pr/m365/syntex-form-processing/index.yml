@@ -27,6 +27,7 @@ roles:
 - business-user
 products:
 - m365
+- sharepoint-syntex
 units:
 - learn-m365.syntex-form-processing.introduction
 - learn-m365.syntex-form-processing.initial-state

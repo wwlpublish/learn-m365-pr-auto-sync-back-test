@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn.wwl.implement-device-compliance-policies
+metadata:
+  title: Implement device compliance policies
+  description: "This module describes how to use compliance and conditional access policies to help protect access to organizational resources."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implement device compliance policies
+summary: This module describes how to use compliance and conditional access policies to help protect access to organizational resources.
+abstract: |
+  After this module, you should be able to:
+  - Describe device compliance policy
+  - Deploy a device compliance policy
+  - Describe conditional access
+  - Create conditional access policies
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.implement-device-compliance-policies.introduction
+- learn.wwl.implement-device-compliance-policies.protect-access-resources-using-intune
+- learn.wwl.implement-device-compliance-policies.explore-device-compliance-policy
+- learn.wwl.implement-device-compliance-policies.deploy-device-compliance-policy
+- learn.wwl.implement-device-compliance-policies.explore-conditional-access
+- learn.wwl.implement-device-compliance-policies. create-conditional-access-policies
+- learn.wwl.implement-device-compliance-policies.knowledge-check
+- learn.wwl.implement-device-compliance-policies.summary
+badge:
+  uid: learn.wwl.implement-device-compliance-policies.badge

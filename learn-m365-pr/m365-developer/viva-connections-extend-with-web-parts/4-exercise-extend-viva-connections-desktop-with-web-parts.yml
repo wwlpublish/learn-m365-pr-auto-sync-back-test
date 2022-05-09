@@ -9,6 +9,10 @@ metadata:
   ms.author: wmastyka
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - wmastyka-10192021
 durationInMinutes: 13
 content: |
   [!include[](includes/4-exercise-extend-viva-connections-desktop-with-web-parts.md)]

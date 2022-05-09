@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-create-customize-answers.locations-floor-plans
+title: Create location and floor plan answers
+metadata:
+  title: Create location and floor plan answers
+  description: Find out how to add locations and floor plans to help users find buildings, meeting rooms and workspaces.
+  ms.date: 03/30/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/locations-floor-plans.md)]

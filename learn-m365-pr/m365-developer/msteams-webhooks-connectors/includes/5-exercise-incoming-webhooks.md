@@ -4,7 +4,7 @@ In this exercise, you’ll learn how to register an incoming webhook in a Micros
 
 ## Register a new incoming webhook
 
-Now let's add the outgoing webhook to a team in Microsoft Teams. In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
+Now let's add an incoming webhook to a team in Microsoft Teams. In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
 
 Once you're signed in, select a channel in a team you want to add the webhook to. From the channel's page, select the **+** in the top navigation:
 

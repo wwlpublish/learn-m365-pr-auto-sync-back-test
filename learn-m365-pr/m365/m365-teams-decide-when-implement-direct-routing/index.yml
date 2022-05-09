@@ -25,6 +25,7 @@ roles:
 - administrator
 products:
 - office-teams
+- microsoft-teams-phone
 units:
 - learn-m365.teams.decide-when-implement-direct-routing.1-introduction
 - learn-m365.teams.decide-when-implement-direct-routing.2-expand-voice-capabilities-teams

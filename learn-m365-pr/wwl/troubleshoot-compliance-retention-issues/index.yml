@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn.wwl.troubleshoot-compliance-retention-issues
+metadata:
+  title: Troubleshoot compliance and retention issues
+  description: "Investigate and diagnose problems with compliance and item retention in your Exchange Online organization, including incorrect retention policies, problems with eDiscovery, and inappropriate holds. MS-220"
+  ms.date: 04/08/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot compliance and retention issues
+summary: Investigate and diagnose problems with compliance and item retention in your Exchange Online organization, including incorrect retention policies, problems with eDiscovery, and inappropriate holds.
+abstract: |
+  After completing this module, you'll be able to:
+  - Determine why eDiscovery doesn’t return the items you intended.
+  - Diagnose which in-place and eDiscovery holds apply to a specific item.
+  - Delete and purge items throughout an Exchange Online organization.
+  - Determine why items are not retained as intended.
+  - Troubleshoot Messaging Records management.
+prerequisites: |
+  Experience with PowerShell and the Exchange PowerShell module.
+  Significant experience deploying, managing, and troubleshooting Exchange environments.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- advanced
+roles:
+- support-engineer
+products:
+- azure-active-directory
+- defender-office365
+- office-exchange-server
+- office-outlook
+- office-exchange-online
+units:
+- learn.wwl.troubleshoot-compliance-retention-issues.introduction
+- learn.wwl.troubleshoot-compliance-retention-issues.troubleshoot-ediscovery
+- learn.wwl.troubleshoot-compliance-retention-issues.troubleshoot-holds
+- learn.wwl.troubleshoot-compliance-retention-issues.manage-item-deletion
+- learn.wwl.troubleshoot-compliance-retention-issues.troubleshoot-retention-policies
+- learn.wwl.troubleshoot-compliance-retention-issues.troubleshoot-mail-records-management
+- learn.wwl.troubleshoot-compliance-retention-issues.knowledge-check
+- learn.wwl.troubleshoot-compliance-retention-issues.summary
+badge:
+  uid: learn.wwl.troubleshoot-compliance-retention-issues.badge

@@ -3,9 +3,9 @@ uid: learn-m365.workplace-analytics-ways-working
 metadata:
   title: Analyze collaboration and engagement using the Ways of working assessment dashboard in Power BI
   description: Learn to evaluate collaboration culture and employee experience with a Power BI template by using Viva Insights data in Workplace Analytics.
-  ms.date: 02/02/2022
-  author: madehmer
-  ms.author: helayne
+  ms.date: 03/15/2022
+  author: maggierui
+  ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Analyze collaboration and engagement using the Ways of working assessment dashboard in Power BI
@@ -32,6 +32,7 @@ products:
 - m365
 - m365-workplace-analytics
 - power-bi
+- viva-insights
 
 units:
 - learn-m365.workplace-analytics-ways-working.introduction

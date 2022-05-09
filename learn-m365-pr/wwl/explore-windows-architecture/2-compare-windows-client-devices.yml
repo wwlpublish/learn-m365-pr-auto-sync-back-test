@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-windows-architecture.compare-windows-client-devices
+title: Compare Windows client devices
+metadata:
+  title: Compare Windows client devices
+  description: "Compare Windows client devices"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-compare-windows-client-devices.md)]

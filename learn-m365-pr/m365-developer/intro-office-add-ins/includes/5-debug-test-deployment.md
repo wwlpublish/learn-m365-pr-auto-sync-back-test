@@ -1,8 +1,8 @@
 In this unit, you'll explore testing, debugging, and deployment options for Office Add-ins. By the end of this unit, you should know how to sideload your add-in to test it, how to use Visual Studio, Visual Studio Code, or the browser developer tools to debug your add-in, and the different options available for deployment.
 
-## Choose the best deployment option for your Office add-in
+## Choose the best deployment option for your Office Add-in
 
-As you develop your Office add-in and prepare to make it available to your users, you need to decide which deployment option is best. The following table lists factors you should consider.
+As you develop your Office Add-in and prepare to make it available to your users, you need to decide which deployment option is best. The following table lists factors you should consider.
 
 |              Consider...              |                     Examples                      |
 | ------------------------------------- | ------------------------------------------------- |
@@ -62,7 +62,7 @@ For Microsoft Edge, install and use Microsoft Edge DevTools. For Internet Explor
 
 An available option to debug task pane add-ins in Office 2016 or later is to attach a debugger. Where the **Attach Debugger** is available through the Personality menu, as shown in the following image, the supported tool is Visual Studio 2015 Update 3 or later. This tool only enables JavaScript debugging.
 
-![Personality menu displaying **Attach Debugger** item in Excel on Windows](../media/05-attach-debugger.png)
+![Screenshot of personality menu displaying **Attach Debugger** item in Excel on Windows.](../media/05-attach-debugger.png)
 
 *Personality menu displaying **Attach Debugger** item*
 

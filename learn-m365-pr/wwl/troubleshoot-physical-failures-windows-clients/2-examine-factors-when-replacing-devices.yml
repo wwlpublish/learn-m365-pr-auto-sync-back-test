@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-physical-failures-windows-clients.examine-factors-when-replacing-devices
+title: Examine factors when replacing devices
+metadata:
+  title: Examine factors when replacing devices
+  description: "Examine factors when replacing devices"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-examine-factors-when-replacing-devices.md)]

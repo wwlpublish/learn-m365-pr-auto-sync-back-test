@@ -1,6 +1,6 @@
 An app protection policy is a collection of rules that govern how data, assets, and resources are accessed.  Typically, an app protection policy is applied to a specific application to govern how the app will interact with your organizations data.
 
-In an ideal world, an app protection policy would be applied to a device managed by your IT department that is either enrolled in Microsoft Intune, or through a third-party Mobile device management (MDM) solution.  However, there is a trend towards employees using their own devices, typically called bring your own device (BOYD) which aren't managed or enrolled with Microsoft Intune or a MDM solution.  App protection policies can be applied to managed/enrolled and BOYD devices.
+In an ideal world, an app protection policy would be applied to a device managed by your IT department that is either enrolled in Microsoft Intune, or through a third-party Mobile device management (MDM) solution.  However, there is a trend towards employees using their own devices, typically called bring your own device (BYOD) which aren't managed or enrolled with Microsoft Intune or a MDM solution.  App protection policies can be applied to managed/enrolled and BYOD devices.
 
 ### Benefits of using app protection policies
 

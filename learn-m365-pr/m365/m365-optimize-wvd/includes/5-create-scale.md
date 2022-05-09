@@ -10,7 +10,7 @@ A scaling plan is an Azure Virtual Desktop object that acts as a container for y
 
 To create a scaling plan:
 
-1. Sign into the Azure portal at [https://portal.azure.com](https://portal.azure.com)
+1. Sign into the [Azure portal](https://portal.azure.com)
 1. Go to **Azure Virtual Desktop** > **Scaling Plans**, then select **Create**.
 1. In the Basics tab, look under Project details and select the name of the subscription you will assign the scaling plan to.
 1. If you want to make a new resource group, select Create new. If you want to use an existing resource group, select its name from the drop-down menu.

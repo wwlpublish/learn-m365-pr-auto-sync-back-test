@@ -26,6 +26,7 @@ products:
 - m365
 - office-365
 - office-teams
+- m365-apps-admin-center
 units:
 - learn-m365.m365-teams-collab-apps-bots-connectors.introduction
 - learn-m365.m365-teams-collab-apps-bots-connectors.customize-apps-settings

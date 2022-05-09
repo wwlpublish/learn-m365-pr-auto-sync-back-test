@@ -56,9 +56,9 @@ quiz:
     - content: From the eDiscovery case Export tab
       isCorrect: false
       explanation: "That's incorrect. The eDiscovery case does not have an Export tab."
-    - content: Select Export from the Microsoft 365 Compliance center menu
+    - content: Select Export from the Microsoft Purview compliance portal menu
       isCorrect: false
-      explanation: "That's incorrect. The Microsoft 365 Compliance center menu does not have an Export option."
+      explanation: "That's incorrect. The Microsoft Purview compliance portal menu does not have an Export option."
     - content: From the eDiscovery case Searches tab
       isCorrect: true
       explanation: "That's correct. The eDiscovery case Searches tab includes an export option."

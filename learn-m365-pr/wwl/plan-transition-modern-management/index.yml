@@ -1,0 +1,46 @@
+### YamlMime:Module
+uid: learn.wwl.plan-transition-modern-management
+metadata:
+  title: Plan a transition to modern management
+  description: "Explore considerations and review the planning of transitioning to modern management, focusing on migration and newly provisioned devices."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Plan a transition to modern management
+summary: Explore considerations and review the planning of transitioning to modern management, focusing on migration and newly provisioned devices.
+abstract: |
+  After completing this module, you should be able to:
+  - Identify usage scenarios for Azure AD join.
+  - Identify workloads that you can transition to Intune.
+  - Identify prerequisites for co-management.
+  - Identify considerations for transitioning to modern management.
+  - Plan a transition to modern management using existing technologies.
+  - Plan a transition to modern management using Microsoft Intune.
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.plan-transition-modern-management.introduction
+- learn.wwl.plan-transition-modern-management.explore-using-co-management-transition-modern-management
+- learn.wwl.plan-transition-modern-management.examine-prerequisites-co-management
+- learn.wwl.plan-transition-modern-management.evaluate-modern-management-considerations
+- learn.wwl.plan-transition-modern-management.evaluate-upgrades-migrations-modern-transitioning
+- learn.wwl.plan-transition-modern-management.migrate-data-when-modern-transitioning
+- learn.wwl.plan-transition-modern-management.migrate-workloads-when-modern-transitioning
+- learn.wwl.plan-transition-modern-management.knowledge-check
+- learn.wwl.plan-transition-modern-management.summary
+badge:
+  uid: learn.wwl.plan-transition-modern-management.badge

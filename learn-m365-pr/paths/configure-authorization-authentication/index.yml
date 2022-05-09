@@ -3,7 +3,7 @@ uid: learn.wwl.configure-authorization-authentication
 metadata:
   title: Configure authorization and authentication
   description: Configure authorization and authentication
-  ms.date: 02/23/2022
+  ms.date: 03/31/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -16,7 +16,6 @@ prerequisites: |
 summary: |
   This learning path introduces the tools and features of Windows for authorizing access to Windows clients. Students will learn about methods for how users sign-in to Windows, User Account Control, and account types.
 iconUrl: /learn/achievements/generic-trophy.svg
-hidden: true
 levels:
 - beginner
 roles:

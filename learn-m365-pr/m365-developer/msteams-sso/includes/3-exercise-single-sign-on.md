@@ -35,7 +35,7 @@ On the **My Teams SSO App** page, copy the value of the **Application (client) I
 
 Next, configure the app's authentication settings. Select **Manage > Authentication** from the left-hand navigation.
 
-In the **Implicit grant and hybrid flows** section, select both of the following options, and then select **Save** at the top of the screen:
+In the **Implicit grant and hybrid flows** section, select both of the following options, and then select **Save** at the bottom of the screen:
 
 ![Screenshot of the app's authentication settings](../media/03-azure-ad-app-registration-04.png)
 

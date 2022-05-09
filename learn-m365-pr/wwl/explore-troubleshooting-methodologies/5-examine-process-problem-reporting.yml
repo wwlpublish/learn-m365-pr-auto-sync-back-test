@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-troubleshooting-methodologies.examine-process-problem-reporting
+title: Examine the process of problem reporting
+metadata:
+  title: Examine the process of problem reporting
+  description: "Examine the process of problem reporting"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-examine-process-problem-reporting.md)]

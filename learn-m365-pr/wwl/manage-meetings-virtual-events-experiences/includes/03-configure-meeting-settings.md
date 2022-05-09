@@ -16,6 +16,8 @@ Anonymous participants are users who can join a meeting without logging in, as l
 
 * **Anonymous users can join a meeting** - With anonymous join, anyone can join the meeting as an anonymous user by selecting the link in the meeting invitation.
 
+	You can use either policy, organization-wide (meeting setting) or per-organizer(meeting policy), to manage anonymous join. We recommend that you implement the per-organizer policy. The organization-wide policy setting will be deprecated in the future and the per-organizer policy will be the only way to control anonymous join.
+
 * **Anonymous users can interact with apps in meetings** - Anonymous users inherit the user-level global default permission policy. This control enables anonymous users to interact with apps in Teams meetings as long as the user-level permission policy has enabled the app. 
 	
 > [!NOTE]

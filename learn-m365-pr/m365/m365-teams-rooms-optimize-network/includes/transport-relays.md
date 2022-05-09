@@ -4,7 +4,7 @@ However, in situations such as the bottom half of the diagram below where somebo
 
 If there are five people on the call and four people can connect via UDP and the fifth can only connect via TCP, that TCP connection has no direct impact on the other four attendees. The other four continue to use the optimal UDP and the fifth attendee will use TCP. TCP is a slower protocol that is not as efficient for real-time audio and video, so that fifth attendee may have a potentially poorer audio and video experience.
 
-![Transport relays are more efficient](../media/transport-relays.png)
+:::image type="content" source="../media/transport-relays.png" alt-text="Transport relays are more efficient." border="false":::
 
 How do we find a transport relay?
 
@@ -12,7 +12,7 @@ An *Anycast IP address* is a single IP address assigned to geographically disper
 
 By default, Microsoft Teams media uses 3478/udp for all media. That is controlled by an on-off switch found in the Teams admin center.
 
-![UDP ports](../media/udp-ports.png)
+:::image type="content" source="../media/udp-ports.png" alt-text="Screenshot of the Meeting settings pane that shows the Q O S toggle as On, which configures the client to mark traffic using D S C P." border="false":::
 
 If you leave it off, everything stays on 3478/udp. If you turn on this switch, you'll see that Teams will use 3478/udp for media negotiation and discovery, 3479/udp for audio, 3480/udp for video, and 3481/udp for sharing.
 

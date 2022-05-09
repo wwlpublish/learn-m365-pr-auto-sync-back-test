@@ -13,15 +13,15 @@ By default, the mail flow in Exchange is fully automated and employs the followi
  -  Least-cost route is calculated.
  -  Messages are sent directly to their destination.
 
-To send a message to a remote delivery group, Exchange calculates the least-cost routing path. The cost of routing paths is calculated by adding the cost of IP site links that need to be crossed to reach the destination. In cases where there are multiple paths with the same cost, the path with the lowest number of hops is preferred. Finally, if there are multiple sites with the same cost and the same number of hops, then the name of the Active Directory site is used to determine the path. The lowest alphanumeric name is preferred.
+To send a message to a remote delivery group, Exchange calculates the least-cost routing path. The cost of a routing path is calculated by adding the cost of IP site links that need to be crossed to reach the destination. In cases where there are multiple paths with the same cost, the path with the lowest number of hops is preferred. Finally, if there are multiple sites with the same cost and the same number of hops, then the name of the Active Directory site is used to determine the path. The lowest alphanumeric name is preferred.
 
-Delivery groups can span multiple Active Directory sites. For example, a DAG can have members in multiple Active Directory sites. In such a case, all Active Directory sites containing DAG members are evaluated and the Active Directory site with the lowest routing cost is selected as the primary site for message delivery.
+Delivery groups can span multiple Active Directory sites. For example, a DAG can have members in multiple Active Directory sites. In this case, all Active Directory sites containing DAG members are evaluated and the Active Directory site with the lowest routing cost is selected as the primary site for message delivery.
 
 After the least-cost route for message delivery has been determined, the Transport service in the source delivery group attempts to deliver the message directly to the destination delivery group. If the least-cost route includes multiple Active Directory sites, message delivery doesn't hop through each site. Other Active Directory sites on the least-cost path are used only if there's a delivery error or you've configured a modification.
 
 Calculating the least-cost routing path takes into account the following mail flow modifications:
 
- -  **Fallback.** If the final destination on the least-cost path cannot be contacted, then the Transport service falls back and attempts to deliver the message to the next closest site on the least-cost path. The message is queued at the next closest site until the final destination is available. If the next closest site on the least-cost path isn't available, then the Transport service tries one hop back again. This process continues until the message can be delivered.
+ -  **Fallback.** If the final destination on the least-cost path can't be contacted, then the Transport service falls back and attempts to deliver the message to the next closest site on the least-cost path. The message is queued at the next closest site until the final destination is available. If the next closest site on the least-cost path isn't available, then the Transport service tries one hop back again. This process continues until the message can be delivered.
  -  **Hub sites.** You can configure one or more Active Directory sites in your organization as hub sites. When a hub site exists along the least-cost routing path between two Mailbox servers, the messages are routed to a Mailbox server in the hub site for processing before they're relayed to the destination server. The Transport service routes a message through a hub site only if it exists along the least-cost routing path. The originating Mailbox server always calculates the lowest-cost route first, and then checks if any of the sites on the route are hub sites. If the lowest-cost route doesn't include a hub site, the Hub Transport service attempts a direct connection.
     
      -  Run the following PowerShell command to configure a site as hub site:
@@ -75,10 +75,10 @@ You manage the mail flow to and from your Exchange organization using Send Conne
 :::row-end:::
 :::row:::
   :::column:::
-    Receive connector
+    Receive connector.
   :::column-end:::
   :::column:::
-    Exchange Server requires an SMTP Receive connector to accept any SMTP email. An SMTP Receive connector enables an Exchange Transport service to receive mail from any other SMTP sources, including SMTP mail programs such as Windows Mail, POP3 and IMAP4 clients, SMTP servers on the Internet, Exchange Edge Transport servers, and other Exchange Server servers.
+    Exchange Server requires an SMTP Receive connector to accept any SMTP email. An SMTP Receive connector enables an Exchange Transport service to receive mail from any other SMTP sources. This includes SMTP mail programs such as Windows Mail, POP3 and IMAP4 clients, SMTP servers on the Internet, Exchange Edge Transport servers, and other Exchange Server servers.
   :::column-end:::
 :::row-end:::
 
@@ -117,14 +117,8 @@ The following table identifies the variety of tools available to manage mail flo
     Message tracking
   :::column-end:::
   :::column:::
-    
-
-Message tracking logs provide much more detailed information about message delivery than delivery reports. Each server maintains its own set of message tracking logs that are kept by default for 30 days, with a maximum size for all message tracking logs of 1 gigabyte (GB). These logs contain detailed information about how messages were processed on the local server.
-
-
+    Message tracking logs provide much more detailed information about message delivery than delivery reports. Each server maintains its own set of message tracking logs that are kept by default for 30 days, with a maximum size for all message tracking logs of 1 gigabyte (GB). These logs contain detailed information about how messages were processed on the local server.
 There's no graphical tool for viewing the message tracking logs. Instead, you use the **Get-MessageTrackingLog** cmdlet with filtering to identify the log events you wish to review.
-
-
   :::column-end:::
   :::column:::
     You can use message tracking to make sure the mail flow is using the correct Exchange servers and connectors.

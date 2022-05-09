@@ -3,7 +3,7 @@ uid: learn.wwl.configure-your-microsoft-365-tenant
 metadata:
   title: Configure your Microsoft 365 tenant
   description: Configure your Microsoft 365 tenant
-  ms.date: 04/07/2021
+  ms.date: 03/29/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -23,7 +23,6 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 modules:
@@ -32,6 +31,5 @@ modules:
 - learn.wwl.manage-groups-microsoft-365
 - learn.wwl.add-custom-domain-microsoft-365
 - learn.wwl.configure-client-aconnectivity-to-microsoft-365
-- learn.wwl.leverage-fasttrack-partner-services-to-support-microsoft-365
 trophy:
   uid: learn.wwl.configure-your-microsoft-365-tenant.trophy

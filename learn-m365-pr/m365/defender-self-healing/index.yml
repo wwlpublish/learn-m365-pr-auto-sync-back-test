@@ -28,6 +28,7 @@ products:
   - m365
   - m365-ems-cloud-app-security
   - m365-security-center
+  - m365-threat-protection
 units:
 - learn-m365-pr.defender-self-healing.introduction
 - learn-m365-pr.defender-self-healing.automated-self-healing

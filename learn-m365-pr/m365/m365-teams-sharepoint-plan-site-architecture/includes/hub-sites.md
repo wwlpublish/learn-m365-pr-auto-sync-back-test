@@ -19,7 +19,7 @@ These scenarios are enabled with a combination of navigation, search, and discov
 
 Using a guiding principle of creating a site for each unit of work, the example below shows a Human Resources (HR) family of sites that includes seven HR functional sites plus a home hub, connecting the related sites for an overall HR experience.
 
-![Example of a Human Resources hub site](../media/hub-site-hr-family.png)
+:::image type="content" source="../media/hub-site-hr-family.png" alt-text="Example of a Human Resources hub site." border="false":::
 
 You don't have to have a hub site for every function. However, when a function provides multiple logically different services (as in the HR example), it's a good practice to create a hub site to provide a single starting place for your users. A site can only associate with a hub family. However, hub families can be connected to one another using links either on the page or in hub navigation.
 

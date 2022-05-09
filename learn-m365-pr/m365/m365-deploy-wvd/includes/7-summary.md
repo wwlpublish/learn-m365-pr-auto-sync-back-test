@@ -15,13 +15,14 @@ Connect to Azure Virtual Desktop with client:
 - [Connect with the Android client](/azure/virtual-desktop/connect-android)
 - [Connect with the macOS client](/azure/virtual-desktop/connect-macos)
 - [Connect with the iOS client](/azure/virtual-desktop/connect-ios)
+- [Connect with Microsoft Store client](/azure/virtual-desktop/user-documentation/connect-microsoft-store)
 
 Other resources:
 
 - [What is FSLogix?](/fslogix/overview)
 - [Storage options for FSLogix profile containers in Azure Virtual Desktop](/azure/virtual-desktop/store-fslogix-profile)
 - [Set up MSIX app attach](/azure/virtual-desktop/app-attach)
-- [Enable AD DS authentication for your Azure file shares](/azure/storage/files/storage-files-identity-as-ds-enable)
+- [Enable AD DS authentication for your Azure file shares](/azure/storage/files/storage-files-identity-ad-ds-enable)
 - [Download and Install FSLogix](/fslogix/install-ht)
 - [Planning for an Azure File Sync deployment](/azure/storage/files/storage-sync-files-planning)
 - [Azure subscription and service limits, quotas, and constraints](/azure/azure-resource-manager/management/azure-subscription-service-limits)

@@ -8,6 +8,10 @@ metadata:
   ms.author: wmastyka
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - wmastyka-03262021
 title: Summary
 durationInMinutes: 1
 content: |

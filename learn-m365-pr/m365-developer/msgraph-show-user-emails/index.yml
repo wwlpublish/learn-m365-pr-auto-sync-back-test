@@ -8,6 +8,10 @@ metadata:
   ms.author: wmastyka
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - wmastyka-04142021
 title: Show a user's emails in a JavaScript app with Microsoft Graph
 summary: Learn how to show a user's emails in JavaScript apps with Microsoft Graph. Also, learn how to optimize Microsoft Graph queries and page through large datasets.
 abstract: |

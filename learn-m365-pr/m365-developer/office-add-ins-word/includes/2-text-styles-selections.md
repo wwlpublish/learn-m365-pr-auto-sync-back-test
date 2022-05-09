@@ -10,13 +10,13 @@ Developers customize pages in SharePoint Server and SharePoint online using the 
 
 Office clients, such as Word, Excel, PowerPoint, OneNote, and Outlook can also be extended to implement custom task panes, actions, and other customizations using add-ins.
 
-![Screenshot overview of the Microsoft 365 Platform](../media/02-office-365-platform.png)
+![Overview diagram of the Microsoft 365 Platform.](../media/02-office-365-platform.png)
 
 ## Anatomy of Office.js add-in for Microsoft Word
 
 We'll start by looking at an anatomy of an Office.js for Microsoft Word:
 
-![Screenshot of the anatomy of an Office.js add-in](../media/02-office-js-anatomy.png)
+![Outline of the anatomy of an Office.js add-in.](../media/02-office-js-anatomy.png)
 
 - All Office Add-ins must call off the `Office.initialize()` method when a page first loads the add-in.
 - If you're using a newer Office.js capability in your add-in, it's important to check if the client supports those extensions using the `requirements` API.
@@ -30,7 +30,7 @@ We'll start by looking at an anatomy of an Office.js for Microsoft Word:
 
 Word add-in developers should understand a Word document's hierarchy and how that relates to the objects in Office.js.
 
-![Word document hierarchy](../media/02-word-document-anatomy.png)
+![Diagram showing Word document hierarchy.](../media/02-word-document-anatomy.png)
 
 Office.js provides context to a Word document through Word.run and the `context.document` property.
 The document contains a body, which contains many collections, including paragraphs, tables, and more.
@@ -113,7 +113,7 @@ The following code snippets demonstrate working examples of working text and par
 
 Styles and formatting are what make an attractive document. Office.js allows you to easily work with styles and formatting from your custom Word add-in.
 
-![Styles and formatting controls in the Word ribbon](../media/02-styles-formatting-ribbon.png)
+![Screenshot of styles and formatting controls in the Word ribbon.](../media/02-styles-formatting-ribbon.png)
 
 ### Styles
 
@@ -169,7 +169,7 @@ When working with Office Add-ins, developers will often hear the term *range*. A
 
 Ranges can be established through many ways, including search, selection, or through a conversion. For example, the `paragraph.getRange()` method will return the paragraph as a range.
 
-![Screenshot of Microsoft Word with selected text](../media/02-selection-range.png)
+![Screenshot of Microsoft Word with selected text.](../media/02-selection-range.png)
 
 *Selections* allow you to manipulate both the content and location of focus in a document.
 

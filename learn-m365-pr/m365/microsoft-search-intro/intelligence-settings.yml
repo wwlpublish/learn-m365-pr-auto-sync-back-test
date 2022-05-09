@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-intro.intelligence-settings
+title: Search and intelligence settings
+metadata:
+  title: Search and intelligence settings
+  description: Find out how to access Search & intelligence settings in the Microsoft 365 admin center.
+  ms.date: 01/11/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/intelligence-settings.md)]

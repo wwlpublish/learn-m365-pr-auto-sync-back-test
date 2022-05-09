@@ -10,7 +10,7 @@ When you try to intercept attacks against your network, it's essential to spot m
 Common indicators of compromise include:
 
 - Virus signatures.
-- Blacklisted IP addresses.
+- Blocklisted IP addresses.
 - MD5 hashes of known malware files.
 
 Microsoft Defender for Cloud Apps includes a broad set of indicators for well-known viruses, IP addresses, and malware, and you can define the actions taken when each indicator of compromise is detected on your network. For example, you could delete a detected malware file or send it to a quarantine folder.

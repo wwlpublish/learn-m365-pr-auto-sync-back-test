@@ -3,7 +3,7 @@ uid: learn-m365.msteams-webhooks-connectors.4-incoming-webhooks
 metadata:
   title: Use incoming webhooks as Connectors
   description: In this unit, you’ll learn how to register an incoming webhook in a Microsoft Teams channel and post a message to it.
-  ms.date: 09/13/2021
+  ms.date: 03/08/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

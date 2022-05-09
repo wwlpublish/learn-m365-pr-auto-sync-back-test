@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-physical-failures-windows-clients.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Tailspin Toys had several laptops that experienced system memory degradation due to static electricity issues. As the Desktop Administrator for Tailspin Toys, Alan Deyoung wants to implement static electricity guidelines for the company's IT staff to follow. These guidelines include initiating compulsory maintenance procedures and ensuring that staff use antistatic kits. What other step can Alan require when IT staff works with sensitive components?"
+    choices:
+    - content: "They wear lead-free radiation aprons"
+      isCorrect: false
+      explanation: "Incorrect. While lead-free radiation aprons are effective in dental offices, they won't protect IT staff from electrostatic discharge when working with sensitive components. Try again."
+    - content: "They wear flak jackets"
+      isCorrect: false
+      explanation: "Incorrect. While flak jackets may help security personnel, they won't protect IT staff from electrostatic discharge when working with sensitive components. Try again."
+    - content: "They wear grounding straps"
+      isCorrect: true
+      explanation: "Correct. As a best practice, you should ensure that IT staff wears grounding straps when working with sensitive components. Grounding straps play a critical role in not only the well being of electrical devices, but also in the safety of the people operating those devices. Ground straps protect you from getting shocked by electrostatic discharge, like that of lightning and static electricity, that's emitted from electrical devices that don't have proper grounding. Grounding straps also protect the equipment itself from damage, especially with components like circuits. Ground straps prevent things such as short circuiting, overheated wires, system memory damage, and more."
+  - content: "As the Desktop Administrator for Fabrikam, Holly Spencer is investigating a laptop that has been experiencing program crashes that she feels are related to memory issues. When these crashes occur, Windows fails to start, and unpredictable Stop errors appear on blue screens. Holly has been unable to reproduce the issues, so the memory problems have been difficult to identify. What tool can Holly use to monitor this computer for defective memory and determine whether defective physical memory is causing the program crashes?"
+    choices:
+    - content: "The Windows Memory Diagnostics tool"
+      isCorrect: true
+      explanation: "Correct. The Windows Memory Diagnostics tool monitors computers for defective memory. It also determines whether defective physical memory is causing program crashes. If the Windows Memory Diagnostics tool identifies a memory problem, Windows avoids using the affected part of the physical memory, so that the operating system can start successfully and avoid app failures."
+    - content: "The System Configuration tool (MSConfig.exe)"
+      isCorrect: false
+      explanation: "Incorrect. MSConfig.exe is an advanced tool that enables you to select startup options. Try again."
+    - content: "The Boot Configuration Data Editing tool (BCDEdit.exe)"
+      isCorrect: false
+      explanation: "Incorrect. You can use BCDEdit to configure boot options for debugging, testing, and troubleshooting your driver on computers running Windows 7 and later, and Windows Server 2008 and 2012. Try again."
+  - content: "As the Desktop Administrator for Contoso, Holly Dickson wants to implement disk technology that enables the operating system to monitor the hard disk proactively, checking for reliability issues before they can result in data loss. What's the name of this technology?"
+    choices:
+    - content: "NTFS"
+      isCorrect: false
+      explanation: "Incorrect. NTFS is a type of file system. Try again."
+    - content: "SMART"
+      isCorrect: true
+      explanation: "Correct. Some disks implement Self-Monitoring, Analysis, and Reporting Technology (SMART). This technology enables the operating system to monitor the hard disk proactively, checking for reliability issues before they can result in data loss."
+    - content: "MTBF"
+      isCorrect: false
+      explanation: "Incorrect. This acronym stands for mean time between failures. It's the average time interval, usually expressed in thousands or tens of thousands of hours, before a component fails and requires service. Try again."
+  - content: "As the Desktop Administrator for Lucerne Publishing, Patti Fernandez has a disk in a mirrored volume that failed. Patti wants to reestablish the redundancy in the mirrored volume by replacing the failed disk. What Windows tool can Patti use to remove the failed disk from the mirror and replace it with a new disk?"
+    choices:
+    - content: "Windows RE Startup Repair"
+      isCorrect: false
+      explanation: "Incorrect. This tool is used to fix boot loading problems. Try again."
+    - content: "the disk and partition management tool (Diskpart.exe)"
+      isCorrect: false
+      explanation: "Incorrect. Diskpart.exe is a command line disk partitioning utility. Try again."
+    - content: "the Disk Management tool"
+      isCorrect: true
+      explanation: "Correct. You can create several types of redundant storage in Windows, including using the Disk Management tool to create mirrored volumes and parity. The Disk Management tool can be used to remove a failed drive and replace it with a new drive."
+  - content: "Hard disk drives can fail for a variety of reasons. What's the least severe type of failure that a hard disk drive can experience?"
+    choices:
+    - content: "Logical failure"
+      isCorrect: true
+      explanation: "Correct. Examples of logical failures include invalid entries in a file allocation table (FAT) or master file table (MFT) on the NTFS file system volume. Logical failures are the least severe type of failure."
+    - content: "Firmware failure"
+      isCorrect: false
+      explanation: "Incorrect. If the firmware becomes corrupt or unreadable, the computer could be unable to communicate with the disk. Try again."
+    - content: "Bad sector"
+      isCorrect: false
+      explanation: "Incorrect. Disk sector damage, if bad enough, can result in lost data. Try again."

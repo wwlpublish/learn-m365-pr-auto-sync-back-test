@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-physical-hardware-troubleshooting.troubleshoot-usb-devices
+title: Troubleshoot USB devices
+metadata:
+  title: Troubleshoot USB devices
+  description: "Troubleshoot USB devices"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-troubleshoot-usb-devices.md)]

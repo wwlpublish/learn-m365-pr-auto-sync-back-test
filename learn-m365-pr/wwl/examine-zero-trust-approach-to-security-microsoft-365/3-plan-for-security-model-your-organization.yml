@@ -4,12 +4,13 @@ title: Plan for a Zero Trust security model in your organization
 metadata:
   title: Plan for a Zero Trust security model in your organization
   description: "Plan for a Zero Trust security model in your organization"
-  ms.date: 07/05/2021
+  ms.date: 04/30/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/3-plan-for-security-model-your-organization.md)]

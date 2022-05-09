@@ -12,8 +12,8 @@ While the checklist will be unique to each organization per its deployment requi
  -  Has your company established proper governance policies for mobile devices?
  -  Have the DNS records been updated and published globally?
  -  If Azure Active Directory Connect is in place, is the connector properly configured?
- -  If multifactor authentication is employed, has it been properly configured?
+ -  If multi-factor authentication is employed, has it been properly configured?
  -  Are the mailing policies in place to protect inbound and outbound mail flow?
  -  Is the Organizational profile set up with the correct information?
 
-These questions help organizations determine if the basic setup has been completed and configured correctly. When they feel their environment is ready to go-live, they can use tools such as the Remote Connectivity Analyzer and the Support and Recovery Assistant (SARA) to confirm their readiness. These tools check DNS records and mail flow to test whether mailing policies are working properly. They also test local connectivity from Outlook and other Office apps.
+These questions help organizations determine if the basic setup has been completed and configured correctly. When an organization feels that its environment is ready to go-live, it can use tools such as the Remote Connectivity Analyzer and the Support and Recovery Assistant (SARA) to confirm its readiness. These tools check DNS records and mail flow to test whether mailing policies are working properly. They also test local connectivity from Outlook and other Office apps.

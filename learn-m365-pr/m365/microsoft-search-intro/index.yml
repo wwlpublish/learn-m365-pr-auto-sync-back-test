@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.microsoft-search-intro
+metadata:
+  title: Introduction to Microsoft Search   
+  description: Discover how to use Microsoft Search, the different types of results available, and get an introduction to the Search & intelligence settings. 
+  ms.date: 01/11/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction to Microsoft Search   
+summary: Discover how to use Microsoft Search, the different types of results available, and get an introduction to the Search & intelligence settings. 
+abstract: |
+ Upon completion of this module, you should be able to:
+ - Summarize Microsoft Search and its features.
+ - Identify the entry points for Microsoft Search.
+ - List the different types of results users can find.
+ - Locate the Search & intelligence settings in the Microsoft 365 admin center.
+prerequisites: None
+iconUrl: /learn/achievements/microsoft-search-intro.svg 
+levels:
+- beginner
+roles:
+- administrator
+- business-owner
+- functional-consultant
+- technology-manager
+products:
+- m365
+- office
+- windows
+- bing
+units:
+- learn-m365.microsoft-search-intro.introduction
+- learn-m365.microsoft-search-intro.search-experiences
+- learn-m365.microsoft-search-intro.results-answers
+- learn-m365.microsoft-search-intro.intelligence-settings
+- learn-m365.microsoft-search-intro.knowledge-check
+- learn-m365.microsoft-search-intro.summary
+badge: 
+  uid: learn-m365.microsoft-search-intro.badge

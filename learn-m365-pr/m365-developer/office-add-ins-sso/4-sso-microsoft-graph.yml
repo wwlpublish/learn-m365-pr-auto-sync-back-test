@@ -3,7 +3,7 @@ uid: learn-m365.office-add-ins-sso.4-sso-microsoft-graph
 metadata:
   title: Use Single Sign-On (SSO) in Office Add-ins with Microsoft Graph
   description: In this unit, you'll learn how to implement SSO in an Office Add-in to submit requests and retrieve information from Microsoft Graph.
-  ms.date: 06/17/2021
+  ms.date: 03/01/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

@@ -8,6 +8,10 @@ metadata:
   ms.author: wmastyka
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - wmastyka-06182021
 title: Load a user's emails in batches
 durationInMinutes: 2
 content: |

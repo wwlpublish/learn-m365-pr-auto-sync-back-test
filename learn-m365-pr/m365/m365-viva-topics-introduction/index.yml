@@ -32,6 +32,7 @@ roles:
 - solution-architect
 products:
 - m365
+- viva
 - viva-topics
 units:
 - learn-m365.viva-topics-intro.introduction

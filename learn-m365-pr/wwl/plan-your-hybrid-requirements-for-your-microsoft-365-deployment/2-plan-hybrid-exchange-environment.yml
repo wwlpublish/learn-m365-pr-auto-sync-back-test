@@ -4,12 +4,13 @@ title: Plan a hybrid Exchange environment
 metadata:
   title: Plan a hybrid Exchange environment
   description: "Plan a hybrid Exchange environment"
-  ms.date: 06/29/2021
+  ms.date: 04/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 10
 content: |
   [!include[](includes/2-plan-hybrid-exchange-environment.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Mailboxes will be on-premises and in Microsoft 365"
       isCorrect: true
-      explanation: "That's correct. Mailboxes will be on-premises only before the hybrid deployment, and they will be on-premises and in Microsoft 365 after the hybrid deployment."
+      explanation: "Correct. Mailboxes will be on-premises before the hybrid deployment. After the hybrid deployment, they'll be on-premises and in Microsoft 365."
     - content: "On-premises Mailbox servers receive all Outlook on the web requests and displays mailbox information"
       isCorrect: false
-      explanation: "That's incorrect. This is the configuration of Outlook on the web before the hybrid deployment. Try again."
+      explanation: "Incorrect. This configuration describes Outlook on the web before the hybrid deployment."
     - content: "Free/busy sharing between on-premises users only"
       isCorrect: false
-      explanation: "That's incorrect. This is the configuration of free/busy sharing before the hybrid deployment. Try again."
+      explanation: "Incorrect. This configuration describes free/busy sharing before the hybrid deployment."

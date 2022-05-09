@@ -3,7 +3,7 @@ uid: learn-m365.m365-security-management-mail
 metadata:
   title: Protect mail with Microsoft Defender for Office 365
   description: Learn how Microsoft Defender for Office 365 helps safeguard your organization against unknown malware, viruses, and harmful email links and attachments.
-  ms.date: 07/15/2021
+  ms.date: 03/02/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -26,6 +26,7 @@ products:
 - m365
 - office-365
 - m365-threat-protection
+- defender-office365
 units:
 - learn-m365.m365-security-management-mail.introduction
 - learn-m365.m365-security-management-mail.atp-policy-examples

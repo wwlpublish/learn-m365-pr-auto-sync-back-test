@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn.wwl.explore-desktop-analytics
+metadata:
+  title: Explore Desktop Analytics
+  description: "Use Desktop Analytics to evaluate clients health information to plan an update deployment."
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore Desktop Analytics
+summary: Use Desktop Analytics to evaluate clients health information to plan an update deployment.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe the benefits of Desktop Analytics.
+  - Describe how Desktop Analytics is configured.
+  - Explain how Desktop Analytics can assess compatibility and monitor health.
+  - Describe how Desktop Analytics can be used to create a deployment plan.
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.explore-desktop-analytics.introduction
+- learn.wwl.explore-desktop-analytics.explore-desktop-analytics
+- learn.wwl.explore-desktop-analytics.configure-desktop-analytics
+- learn.wwl.explore-desktop-analytics.explore-compatibility-assessment
+- learn.wwl.explore-desktop-analytics.monitor-health-status
+- learn.wwl.explore-desktop-analytics.monitor-updates
+- learn.wwl.explore-desktop-analytics.prepare-deployment-plans
+- learn.wwl.explore-desktop-analytics.knowledge-check
+- learn.wwl.explore-desktop-analytics.summary
+badge:
+  uid: learn.wwl.explore-desktop-analytics.badge

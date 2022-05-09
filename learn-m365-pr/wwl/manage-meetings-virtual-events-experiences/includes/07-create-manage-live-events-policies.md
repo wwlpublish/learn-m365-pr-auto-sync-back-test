@@ -29,7 +29,7 @@ The Teams administrator should complete the following steps to create a Live eve
 	- **Live events scheduling** - Select the toggle to turn this option **On** or **Off**.
 	- **Transcription for attendees** - Select the toggle to turn this option **On** or **Off**.
 	- **Who can join scheduled Live events** - Choose from **Everyone**, **Everyone in the organization**, and **Specific users or groups**.
-	- **Who can record an event** - Choose from **Always record**, **Never record,** and **Organizer can record**.
+	- **Record an event** - Choose from **Always record**, **Never record,** and **Organizer can record**.
 
 5. Select **Save** to save your new policy.  
 ‎

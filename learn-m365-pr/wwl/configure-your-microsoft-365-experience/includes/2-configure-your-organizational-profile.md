@@ -16,10 +16,19 @@ The **Organization information** group contains the basic company information, s
 > [!WARNING]
 > There's one issue concerning the **Preferred language** field that you should be aware of. The preferred language determines the language for all communications that are sent from Microsoft to your organization. When you sign up, this setting also determines the language used by SharePoint Online, which your users see on your team site. If you change the Preferred language after you sign up, all future communications will be sent in the most recent language selected. However, the language used by SharePoint Online will remain in the original language selected because it can't be changed.
 
-The **Organization information** group also contains the country or region for your subscription. The value of this field can't be changed. That's because the country or region where your organization is headquartered determines which services are available to you, along with the taxes and billing currency and the location of the Microsoft data center.
+The **Organization information** group also contains the country or region for your subscription.
+
+> [!WARNING]
+> The value of the country/region field can't be changed.
+
+The reason for this restriction is that the country or region where your organization is headquartered determines:
+
+ -  Which services are available to you.
+ -  The taxes and billing currency.
+ -  The location of the Microsoft data center that supports the organization.
 
 > [!IMPORTANT]
-> To change your organization's country or region, you must sign up for a new account, choose the required country or region, and purchase a new subscription.
+> Because the value in the country/region field can't be changed, it's VERY important that you select the correct value when setting up your organization profile. **If you enter an incorrect value, or if your organization's country or region actually does change, you must sign up for a new account, choose the new country or region, and purchase a new subscription.**
 
 ## **Exercise – Interactive demonstration**
 

@@ -32,7 +32,7 @@ quiz:
 
     - content: "What three steps does Microsoft recommend when defining sensitivity labels?"
       choices:
-      - content: "Define what each labels does – Identify who will see each label – Define the naming convention."
+      - content: "Define what each label does – Identify who will see each label – Define the naming convention."
         isCorrect: false
         explanation: "Microsoft recommends that you first define your naming convention for labels."
       - content: "Identify who will see each label – Define the naming convention – Define what each label does."
@@ -54,7 +54,7 @@ quiz:
       - content: "Personal, Public, Business, Confidential, Highly Confidential"
         isCorrect: false
         explanation: "Microsoft makes suggestions that you can use to create your own sensitivity labels. “Business” is a custom sensitivity label."
-      - content: "Microsoft does not provide default sensitivity labels"
+      - content: "Public, General, Confidential and Highly confidential"
         isCorrect: true
-        explanation: "Correct. Microsoft makes suggestions that you can use to create your own sensitivity labels."
+        explanation: "Correct. Microsoft makes suggestions that you can use to create your own sensitivity labels and these default labels can be modified."
       

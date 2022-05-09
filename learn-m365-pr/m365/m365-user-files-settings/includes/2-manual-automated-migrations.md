@@ -1,6 +1,7 @@
-![Step 4 highlighted on the deployment wheel](../media/step-4-wheel.png)
+> [!div class="centered"]
+> :::image type="icon" source="../media/step-4-wheel.png" :::
 
-![Step 4 icon](../media/step-4-icon.png)
+:::image type="icon" source="../media/step-4-icon.png" :::
 
 ## Migrate user data manually
 
@@ -23,7 +24,7 @@ If you're performing a PC refresh and not reformatting the primary Windows parti
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE44AMa) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/guides/Migrate%20user%20state%20data">![Migrate user state data](../media/lab-user-state.png)</a>  
+[:::image type="content" source="../media/lab-user-state.png" alt-text="Photo of man with a laptop. The title reads migrate user state data." border="false":::](https://mslearn.cloudguides.com/guides/Migrate%20user%20state%20data)
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.
 
@@ -41,7 +42,7 @@ Authentication for OneDrive is powered by Azure Active Directory, so for extra s
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE44AMz) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/guides/Migrate%20Windows%20known%20folders%20to%20OneDrive">![Migrate Windows known folders to OneDrive](../media/lab-known-folders.png)</a>  
+[:::image type="content" source="../media/lab-known-folders.png" alt-text="Photo of two woman looking at a computer. The title reads Migrate Windows known folders to OneDrive." border="false":::](https://mslearn.cloudguides.com/guides/Migrate%20Windows%20known%20folders%20to%20OneDrive)
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.
 

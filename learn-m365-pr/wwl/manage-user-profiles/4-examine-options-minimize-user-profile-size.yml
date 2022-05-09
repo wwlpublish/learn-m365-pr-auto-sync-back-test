@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-user-profiles.examine-options-minimizing-user-profile-size
+title: Examine options for minimizing user profile size
+metadata:
+  title: Examine options for minimizing user profile size
+  description: "Examine options for minimizing user profile size"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-examine-options-minimize-user-profile-size.md)]

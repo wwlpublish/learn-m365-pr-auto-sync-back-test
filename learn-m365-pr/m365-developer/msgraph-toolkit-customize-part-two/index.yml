@@ -8,6 +8,10 @@ metadata:
   ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom:
+  - team=cloud_advocates
+  ms.contributors:
+  - aycabas-04232021
 title: Customize the presentation of Microsoft Graph Toolkit components by using templates
 summary: Microsoft Graph Toolkit components are flexible for customization. You can change the presentation of Microsoft Graph Toolkit components by using templates and learn troubleshooting techniques for rendering.
 abstract: |

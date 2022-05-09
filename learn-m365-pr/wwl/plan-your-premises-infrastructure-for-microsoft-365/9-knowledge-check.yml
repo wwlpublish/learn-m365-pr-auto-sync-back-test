@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/05/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/9-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "You're the Enterprise Administrator for Fabrikam, Inc. You're reviewing the different identity strategies that Microsoft 365 provides for companies to authenticate into its services. As part of your review, you're looking for the strategy that has the least setup requirements. Which of the following identity strategies meets this Fabrikam business requirement?"
+    choices:
+    - content: "Password Hash Synchronization"
+      isCorrect: false
+      explanation: "Incorrect. This strategy has more setup requirements than the correct answer."
+    - content: "Cloud Only"
+      isCorrect: true
+      explanation: "Correct. This strategy has the least setup compared to the other identity strategies. All that's needed is a subscription and a sign-in account."
+    - content: "Azure AD Pass-Through Authentication"
+      isCorrect: false
+      explanation: "Incorrect. This strategy has more setup requirements than the correct answer."
+  - content: "Tailspin Toys wants to remediate Active Directory identity issues when onboarding to Microsoft 365. It wants to focus specifically on the Windows Server Active Directory errors reported by Azure AD Connect Cloud Sync. Tailspin plans to use Azure AD Connect Cloud Sync as its directory synchronization tool. What should Tailspin Toys do to help clean up its Active Directory?"
+    choices:
+    - content: "Run Azure AD Smart Lockout"
+      isCorrect: false
+      explanation: "Incorrect. Organizations run Azure AD Smart Lockout to protect on-premises accounts against brute force password attacks in the cloud."
+    - content: "Run Azure AD Connect"
+      isCorrect: false
+      explanation: "Incorrect. Azure AD Connect sync is a directory synchronization tool and not an AD clean-up tool."
+    - content: "Run IdFix"
+      isCorrect: true
+      explanation: "Correct. IdFix enables organizations remediating the Windows Server Active Directory errors reported by Microsoft's directory synchronization tools, Azure AD Connect sync and Azure AD Connect Cloud Sync. The IdFix tool provides organizations with the ability to query, identify, and remediate the majority of object synchronization errors in their Window’s Server AD forests in preparation for deployment to Microsoft 365."
+  - content: "As Fabrikam's Enterprise Administrator, you're planning a migration to Microsoft 365. You plan to authenticate all users in Azure Active Directory. As part of this process, the hashes of your users’ passwords must be replicated between Fabrikam's on-premises environment and Microsoft 365. Which of the following identity types should you use?"
+    choices:
+    - content: "Cloud Only"
+      isCorrect: false
+      explanation: "Incorrect. This strategy does not replicate hashes of user passwords from on-premises Active Directory to Azure AD."
+    - content: "Federated identity"
+      isCorrect: false
+      explanation: "Incorrect. This strategy does not replicate hashes of user passwords from on-premises Active Directory to Azure AD."
+    - content: "Synchronized identity"
+      isCorrect: true
+      explanation: "Correct. With synchronized identities, hashes of user passwords are replicated from on-premises Active Directory to Azure AD. When passwords are changed or reset on-premises, the new password hashes are immediately synchronized to Azure AD. This design enables users to use the same password for cloud resources and on-premises resources."

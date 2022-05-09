@@ -15,6 +15,6 @@ This module will introduce you to working with SharePoint content in SharePoint 
 
 ## Additional resources
 
-Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Developing with the SharePoint Framework: Working with SharePoint Content](https://github.com/SharePoint/sp-dev-training-spfx-spcontent).
+Refer to the following repository for more resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Developing with the SharePoint Framework: Working with SharePoint Content](https://github.com/SharePoint/sp-dev-training-spfx-spcontent).
 
 This module is also available as a screencast: [SharePoint Framework Training - Developing with the SharePoint Framework: Working with SharePoint Content](https://www.youtube.com/watch?v=0OiC7AzoCVI&list=PLR9nK3mnD-OV-RPXQ3Lco845qoEy7VJoc)

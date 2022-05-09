@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-defender-endpoint.explore-windows-defender-application-control-device-guard
+title: Explore Windows Defender Application Control and Device Guard
+metadata:
+  title: Explore Windows Defender Application Control and Device Guard
+  description: "Explore Windows Defender Application Control and Device Guard"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/4-explore-windows-defender-application-control-device-guard.md)]

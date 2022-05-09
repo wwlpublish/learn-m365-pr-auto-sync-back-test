@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-assign-admin-plan.assign-admin
+title: Assign admin and editor roles
+metadata:
+  title: Assign admin and editor roles
+  description: Get an overview of admin permissions used for Microsoft Search and the steps to assign them. 
+  ms.date: 01/12/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/assign-admin.md)]

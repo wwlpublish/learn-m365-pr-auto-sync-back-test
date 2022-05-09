@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-support-diagnostic-tools.examine-resource-monitor
+title: Examine Resource Monitor
+metadata:
+  title: Examine Resource Monitor
+  description: "Examine Resource Monitor"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/3-examine-resource-monitor.md)]

@@ -3,7 +3,7 @@ uid: learn.wwl.explore-solutions-for-external-access
 metadata:
   title: Explore solutions for external access
   description: "Explore solutions for external access"
-  ms.date: 07/12/2021
+  ms.date: 04/29/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,13 +11,13 @@ metadata:
 title: Explore solutions for external access
 summary: This module examines how to enable external access across various solutions, including Azure Active Directory Business to Business (B2B) collaboration, Microsoft 365, Microsoft Teams, and Customer Lockbox.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Identify the features of external access with Azure Active Directory B2B collaboration.
   - Explain the difference between Microsoft 365 external access and Azure Active Directory B2B collaboration.
   - Explain the attributes of a collaborative user.
   - Demonstrate Azure Active Directory B2B collaboration.
   - Identify the differences between external access and guest access using Microsoft Teams.
-  - Describe usage scenarios for customer lockbox requests.
+  - Describe usage scenarios for Customer Lockbox requests.
 prerequisites: |
   None
 iconUrl: /learn/achievements/azure-active-directory-external-access.svg
@@ -28,14 +28,13 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 units:
 - learn.wwl.explore-solutions-for-external-access.introduction
 - learn.wwl.explore-solutions-for-external-access.explore-azure-ad-b2b-guest-user-access
 - learn.wwl.explore-solutions-for-external-access.analyze-properties-of-azure-ad-b2b-user
-- learn.wwl.explore-solutions-for-external-access.explore-microsoft-365-external-sharing-azure-ad-b2b-collaboration
+- learn.wwl.explore-solutions-for-external-access.explore-external-sharing-azure-ad-b2b-collaboration
 - learn.wwl.explore-solutions-for-external-access.compare-guest-access-microsoft-teams
 - learn.wwl.explore-solutions-for-external-access.explore-customer-lockbox
 - learn.wwl.explore-solutions-for-external-access.knowledge-check

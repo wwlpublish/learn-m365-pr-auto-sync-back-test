@@ -1,21 +1,21 @@
 ### YamlMime:Module
 uid: learn-m365.m365-compliance-information-transition-to-microsoft-information-protection
 metadata:
-  title: Transition from Azure Information Protection to Microsoft Information Protection 
-  description: Learn the key considerations for transitioning your organization from using Azure Information Protection to Microsoft Information Protection. 
-  ms.date: 02/11/2022
+  title: Transition from Azure Information Protection to Microsoft Purview Information Protection 
+  description: Learn the key considerations for transitioning your organization from using Azure Information Protection to Microsoft Purview Information Protection. 
+  ms.date: 04/06/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Transition from Azure Information Protection to Microsoft Information Protection 
-summary: Learn the key considerations for transitioning your organization from using Azure Information Protection to Microsoft Information Protection. 
+title: Transition from Azure Information Protection to Microsoft Purview Information Protection 
+summary: Learn the key considerations for transitioning your organization from using Azure Information Protection to Microsoft Purview Information Protection. 
 abstract: |
   Upon completion of this module, you should be able to: 
-  - Articulate the importance of transitioning to Microsoft Information Protection. 
-  - List benefits of transitioning to Microsoft Information Protection.
+  - Articulate the importance of transitioning to Microsoft Purview Information Protection. 
+  - List benefits of transitioning to Microsoft Purview Information Protection.
   - Explain the key considerations for making the transition. 
-  - Identify steps for transitioning to Microsoft Information Protection. 
+  - Identify steps for transitioning to Microsoft Purview Information Protection. 
 
 prerequisites: | 
    - Cloud computing concepts

@@ -1,0 +1,32 @@
+### YamlMime:LearningPath
+uid: learn.wwl.configure-threat-protection
+metadata:
+  title: Configure threat protection
+  description: Configure threat protection
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Configure threat protection
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+summary: |
+  This learning path introduces students to protecting devices from external threats. This path will teach students about using encryption, firewalls, and IPSec to help protect against threats.
+iconUrl: /learn/achievements/generic-trophy.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+modules:
+- learn.wwl.explore-malware-threat-protection
+- learn.wwl.explore-microsoft-defender
+- learn.wwl.explore-device-encryption-features
+- learn.wwl.explore-connection-security-rules
+- learn.wwl.explore-advanced-protection-methods
+trophy:
+  uid: learn.wwl.configure-threat-protection.trophy

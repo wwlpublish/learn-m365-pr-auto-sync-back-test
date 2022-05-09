@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-windows-client-file-systems.examine-resilient-file-system
+title: Examine the Resilient file system
+metadata:
+  title: Examine the Resilient file system
+  description: "Examine the Resilient file system"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-examine-resilient-file-system.md)]

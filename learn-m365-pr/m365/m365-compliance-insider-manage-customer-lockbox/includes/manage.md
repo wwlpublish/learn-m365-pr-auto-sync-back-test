@@ -4,9 +4,9 @@ You can turn on Customer Lockbox controls in the Microsoft 365 admin center. Whe
 
 1. To turn on Customer Lockbox, anyone with a work or school account who has been granted the global administrator role or someone assigned the Customer Lockbox access approver admin role signs in to the [Microsoft 365 admin center](https://admin.microsoft.com?azure-portal=true) and selects **Settings > Settings > Security & privacy**.
 
-:::image type="content" source="../media/customer-lockbox-settings.png" alt-text="Customer lockbox settings." border="false":::
+    :::image type="content" source="../media/customer-lockbox-settings.png" alt-text="Customer lockbox settings." border="false":::
 
-2. Selecting Customer lockbox opens the Customer lockbox flyout page where you can toggle the setting to be On or Off by using the Require approval for all data requests checkbox and clicking Save changes.
+1. Selecting Customer lockbox opens the Customer lockbox flyout page where you can toggle the setting to be On or Off by using the Require approval for all data requests checkbox and clicking Save changes.
 
 :::image type="content" source="../media/require-approvals.png" alt-text="Require approvals." border="false":::
 
@@ -14,19 +14,19 @@ You can turn on Customer Lockbox controls in the Microsoft 365 admin center. Whe
 
 1. To approve or deny a Customer Lockbox request from Microsoft, someone with a work or school account who has been granted the global administrator role or has been assigned the Customer Lockbox access approver role signs in to the [Microsoft 365 admin center](https://admin.microsoft.com?azure-portal=true) and selects **Support > Customer Lockbox Requests**.
 
-   ![Customer lockbox requests.](../media/customer-lockbox-requests.png) 
+   :::image type="content" source="../media/customer-lockbox-requests.png" alt-text="Customer lockbox requests." border="false":::
 
 1. To display a list of Customer Lockbox requests, the customer selects **Customer Lockbox Requests** from the **Support** menu. The customer can then select the appropriate request and choose either **Approve** or **Deny**.
 
-    ![Screenshot of an individual request highlighting the "Approve" and "Deny" buttons.](../media/approval-denial.png)
+    :::image type="content" source="../media/approval-denial.png" alt-text="Screenshot of an individual request highlighting the Approve and Deny buttons." border="false":::
 
 1. A confirmation message about the approval of the Customer Lockbox request is displayed.
 
-    ![Screenshot of the confirmation shown after a request has been either approved or denied..](../media/confirmation.png)
+    :::image type="content" source="../media/confirmation.png" alt-text="Screenshot of the confirmation shown after a request has been either approved or denied.." border="false":::
 
 ## Auditing Customer Lockbox requests
 
-Actions related to accepting or denying a Customer Lockbox request and actions performed by Microsoft engineers (when access requests are approved) are logged in the audit log. You can access these logs by using the audit log search tool in the Microsoft 365 Defender portal. 
+Actions related to accepting or denying a Customer Lockbox request and actions performed by Microsoft engineers (when access requests are approved) are logged in the audit log. You can access these logs by using the audit log search tool in the Microsoft 365 Defender portal.
 
 ### Audit record for a Customer Lockbox access request
 

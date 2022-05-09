@@ -3,7 +3,7 @@ uid: learn-m365.msteams-conversation-bots.3-exercise-conversation-bots
 metadata:
   title: Exercise - Creating conversational bots for Microsoft Teams
   description: In this exercise, you’ll learn how to create and add a new bot to a Microsoft Teams app and interact with it from the Microsoft Teams client.
-  ms.date: 12/08/2021
+  ms.date: 03/08/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

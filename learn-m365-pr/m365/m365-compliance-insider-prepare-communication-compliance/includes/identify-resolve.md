@@ -1,4 +1,4 @@
-The workflow for identifying and resolving compliance issues with communication compliance in Microsoft 365 can be broken down into four phases:
+The workflow for identifying and resolving compliance issues with Microsoft Purview Communication Compliance can be broken down into four phases:
 
 1. Configure communication compliance policies.
 1. Investigate issues detected as matching your communication compliance policies.
@@ -13,7 +13,7 @@ In this first phase, you identify your compliance requirements and configure com
 
 ### Investigate
 
-In the second phase, you use the Microsoft 365 compliance center to look deeper into the issues detected as matching your communication compliance policies. The communication compliance dashboard enables you to leverage the following actions:
+In the second phase, you use the Microsoft Purview compliance portal to look deeper into the issues detected as matching your communication compliance policies. The communication compliance dashboard enables you to leverage the following actions:
 
 - **Alerts**: When a message matches a policy, an alert is automatically generated. For each alert, you can see the status, the severity, the time detected, and if a case is assigned and its status. Alerts are listed in order of severity and displayed on the communication compliance home page and the **Alerts** page.
 - **Issue management**: For each alert, you can take investigative actions to help remediate the issue detected in the message.
@@ -30,7 +30,7 @@ The third phase is to remediate communication compliance issues you've investiga
 - **Notify the user**: Users often violate a communication compliance policy by accident or without intent. You can use the notify feature to provide a warning notice to the user and to resolve the issue.
 - **Escalate to another reviewer**: Sometimes, the initial reviewer of an issue needs input from other reviewers to help resolve the incident. You can easily escalate message issues to reviewers in other areas of your organization as part of the resolution process.
 - **Mark as a false positive**: Messages incorrectly detected as matches of compliance policies will occasionally slip through to the review process. You can mark these types of alerts as false positives which automatically resolves the issue.
-- **Create a case**: In the most serious situations, you may need to share communication compliance information with other reviewers in your organization. Communication compliance is tightly integrated with other Microsoft 365 compliance features to help you with end-to-end risk resolution. For example, escalating a case for investigation allows you to transfer data and management of the case to Advanced eDiscovery in Microsoft 365. Advanced eDiscovery provides an end-to-end workflow to preserve, collect, review, analyze, and export content that's responsive to your organization's internal and external investigations. It allows legal teams to manage the entire legal hold notification workflow. To learn more about Advanced eDiscovery cases, see [Overview of Advanced eDiscovery in Microsoft 365](/microsoft-365/compliance/overview-ediscovery-20?azure-portal=true).
+- **Create a case**: In the most serious situations, you may need to share communication compliance information with other reviewers in your organization. Communication compliance is tightly integrated with other Microsoft Purview features to help you with end-to-end risk resolution. For example, escalating a case for investigation allows you to transfer data and management of the case to eDiscovery (Premium) in Microsoft 365. eDiscovery (Premium) provides an end-to-end workflow to preserve, collect, review, analyze, and export content that's responsive to your organization's internal and external investigations. It allows legal teams to manage the entire legal hold notification workflow. To learn more about eDiscovery (Premium) cases, see [Overview of eDiscovery (Premium) in Microsoft 365](/microsoft-365/compliance/overview-ediscovery-20?azure-portal=true).
 
 ### Monitor
 

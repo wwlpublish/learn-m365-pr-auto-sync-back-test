@@ -6,7 +6,7 @@ After you have loaded the person query data and completed all necessary data val
 
 All functions in `wpa` follow a similar structure and include many common arguments. The following shows the basic structure of standard analysis functions:
 
-![Function structure](../media/function-structure.png)
+:::image type="content" source="../media/function-structure.png" alt-text="Function structure." border="false":::
 
 We can explore the `sq_data` person query by using the `keymetrics_scan()` function.
 
@@ -19,7 +19,7 @@ sq_data %>% keymetrics_scan(hrvar = "Organization", return = "plot")
 
 Output:
 
-![Keymetrics scan heat map visual](../media/heatmap.png)
+:::image type="content" source="../media/heatmap.png" alt-text="Key metrics scan heat map visual." border="false":::
 
 To save the output as a plot to your working directory, run the following:
 
@@ -42,11 +42,11 @@ Note the use of the pipe operator `%>%` in these exercises. It's roughly used fo
 
 If at any point you want to understand more about the functions, you can:
 
-* Enter a question mark in the console followed by the function name and run it.
+- Enter a question mark in the console followed by the function name and run it.
 For example: `?keymetrics_scan`
-* View the underlying source code of the function with `View()`.
+- View the underlying source code of the function with `View()`.
 For example: `View(keymetrics_scan)`
-* Visit the function reference page online through the link in [Learn more](#learn-more).
+- Visit the function reference page online through the link in [Learn more](#learn-more).
 
 ## Explore data with reports
 
@@ -60,17 +60,17 @@ See the **Learn more** section for example output for a collaboration report.
 
 When you run a report, an HTML file (opened with a web browser, like a website) is written to your working directory. For example, the collaboration report does the following:
 
-* Embeds plots and tables on the corresponding subject. For `collaboration_report()`, the subject is collaboration.
-* Stands alone as portable output You can share the HTML file through email that does not require server hosting and is viewable offline.
-* Does not embed raw data. Because the report is effectively a static web page, only the plots and tables are exposed (as HTML and JavaScript).
-* Contains interactive tables that you can use to export values, such as a PDF, a .csv for Excel, or paste to a clipboard.
+- Embeds plots and tables on the corresponding subject. For `collaboration_report()`, the subject is collaboration.
+- Stands alone as portable output You can share the HTML file through email that does not require server hosting and is viewable offline.
+- Does not embed raw data. Because the report is effectively a static web page, only the plots and tables are exposed (as HTML and JavaScript).
+- Contains interactive tables that you can use to export values, such as a PDF, a .csv for Excel, or paste to a clipboard.
 
 The following are some examples of quick start reports you can use for baseline analysis:
 
-* `collaboration_report()` - Summary and analysis on collaboration metrics such as email and meeting hours.
-* `capacity_report()` - Summary and analysis on capacity metrics, such as length of week and time in after-hours.
-* `coaching_report()` - Summary and analysis relating to coaching metrics in relation to time spent between managers and direct reports.
-* `connectivity_report()` - Summary and analysis related to connectivity, including internal and external network size and breadth.
+- `collaboration_report()` - Summary and analysis on collaboration metrics such as email and meeting hours.
+- `capacity_report()` - Summary and analysis on capacity metrics, such as length of week and time in after-hours.
+- `coaching_report()` - Summary and analysis relating to coaching metrics in relation to time spent between managers and direct reports.
+- `connectivity_report()` - Summary and analysis related to connectivity, including internal and external network size and breadth.
 
 See the links [Learn more](#learn-more) for more information on quick start reports.
 
@@ -86,7 +86,7 @@ sq_data %>% collaboration_summary()
 
 Output:
 
-![Collaboration summary](../media/collaboration-summary.png)
+:::image type="content" source="../media/collaboration-summary.png" alt-text="Collaboration summary." border="false":::
 
 By changing the `hrvar`argument, you can change the groups being shown easily:
 
@@ -96,7 +96,7 @@ sq_data %>% collaboration_summary(hrvar = "LevelDesignation")
 
 Output:
 
-![Collaboration summary by LevelDesignation](../media/collab-summary-level.png)
+:::image type="content" source="../media/collab-summary-level.png" alt-text="Collaboration summary by LevelDesignation." border="false":::
 
 By default, all summary functions exclude groups with fewer than five individuals. This is also something that can be adjusted, using the `mingroup` argument:
 
@@ -112,17 +112,17 @@ sq_data %>% collaboration_summary(hrvar = "LevelDesignation", return = "table")
 
 Output:
 
-![Collaboration summary table](../media/collab-summary-table.png)
+:::image type="content" source="../media/collab-summary-table.png" alt-text="Collaboration summary table." border="false":::
 
 ## Other summary functions
 
 The package includes a wide range of summary functions that create bar plots for specific metrics, including the following:
 
-* `email_summary()` - Summarizes email hours grouped by the selected HR attribute.
-* `meeting_summary()` - Summarizes meeting hours grouped by the selected HR attribute.
-* `one2one_summary()` - Summarizes manager one-to-one meeting hours, grouped by the selected HR attribute.
-* `workloads_summary()` - Summarizes workweek span grouped by the selected HR attribute.
-* `afterhours_summary()` - Summarizes after-hours collaboration hours grouped by the selected HR attribute.
+- `email_summary()` - Summarizes email hours grouped by the selected HR attribute.
+- `meeting_summary()` - Summarizes meeting hours grouped by the selected HR attribute.
+- `one2one_summary()` - Summarizes manager one-to-one meeting hours, grouped by the selected HR attribute.
+- `workloads_summary()` - Summarizes workweek span grouped by the selected HR attribute.
+- `afterhours_summary()` - Summarizes after-hours collaboration hours grouped by the selected HR attribute.
 
 These functions are equivalent to the `collaboration_summary()` function because they use person query data as the input, and accept the `hrvar`, `return`, and `mingroup` arguments.
 
@@ -134,7 +134,7 @@ sq_data %>% afterhours_summary()
 
 Output:
 
-![Afterhours summary chart](../media/after-hours-summary.png)
+:::image type="content" source="../media/after-hours-summary.png" alt-text="Afterhours summary chart." border="false":::
 
 ## Advanced functionalities for custom bar charts and tables
 
@@ -146,7 +146,7 @@ sq_data %>% create_bar(metric = "Generated_workload_email_hours")
 
 Output:
 
-![Generated workload email hours summary](../media/gen-workload-summary.png)
+:::image type="content" source="../media/gen-workload-summary.png" alt-text="Generated workload e mail hours summary." border="false":::
 
 The `create_bar()` function also accepts the `hrvar`, `return`, and `mingroup` arguments.
 
@@ -161,23 +161,23 @@ sq_data %>% collaboration_summary() + ggtitle("This is a custom title")
 
 Output:
 
-![Customize a plot example](../media/customize-plot.png)
+:::image type="content" source="../media/customize-plot.png" alt-text="Customize a plot example." border="false":::
 
 The `wpa` R package has over 150 functions with different options. See the Learn more section for details about:
 
-* What each function does.
-* Required and available arguments and parameters for each function.
-* Output returned when you use each function.
+- What each function does.
+- Required and available arguments and parameters for each function.
+- Output returned when you use each function.
 
 For a guided tour on the available visualization functions, see the following link for the `wpa` R package introduction.
 
 ## Learn more
 
-* [`wpa` R package introduction](https://microsoft.github.io/wpa/analyst_guide.html)
-* [`wpa` R package function reference](https://microsoft.github.io/wpa/reference/index.html)
-* [`wpa` R package summary functions](https://microsoft.github.io/wpa/analyst_guide_summary.html)
-* [Collaboration demo report](https://microsoft.github.io/wpa/report-demo/collaboration-report.html)
-* [Capacity demo report](https://microsoft.github.io/wpa/report-demo/capacity-report.html)
-* [Coaching demo report](https://microsoft.github.io/wpa/report-demo/coaching-report.html)
-* [Connectivity demo report](https://microsoft.github.io/wpa/report-demo/connectivity-report.html)
-* [Information on the ggplot2 package](https://ggplot2.tidyverse.org/e)
+- [`wpa` R package introduction](https://microsoft.github.io/wpa/analyst_guide.html)
+- [`wpa` R package function reference](https://microsoft.github.io/wpa/reference/index.html)
+- [`wpa` R package summary functions](https://microsoft.github.io/wpa/analyst_guide_summary.html)
+- [Collaboration demo report](https://microsoft.github.io/wpa/report-demo/collaboration-report.html)
+- [Capacity demo report](https://microsoft.github.io/wpa/report-demo/capacity-report.html)
+- [Coaching demo report](https://microsoft.github.io/wpa/report-demo/coaching-report.html)
+- [Connectivity demo report](https://microsoft.github.io/wpa/report-demo/connectivity-report.html)
+- [Information on the ggplot2 package](https://ggplot2.tidyverse.org/e)

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-virtual-desktops.explore-windows-365
+title: Explore Windows 365
+metadata:
+  title: Explore Windows 365
+  description: "Explore Windows 365"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-explore-windows-365.md)]

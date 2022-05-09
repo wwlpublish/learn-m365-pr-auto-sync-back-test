@@ -24,7 +24,7 @@ Queries against the REST API are usually formulated in code, however you can use
 
 A REST API call usually includes these parts:
 
-- An operation such a GET, for obtaining data, or POST, for sending data to the service.
+- An operation such a `GET`, for obtaining data, or `POST`, for sending data to the service.
 - An authorization token for authenticating with the service.
 - A URL that specifies the data you want to see or change. The URL is in the form `https://<portal_url>/api/<endpoint>`.
 
@@ -36,13 +36,13 @@ For example, to list all the activities defined in your Defender for Cloud Apps 
 curl -XGET -H "Authorization:Token <your_token_key>" "https://<portal_url>/api/v1/activites"
 ```
 
-To get a list of continuous Cloud Discovery reports, use a curl command like this:
+To get a list of continuous Cloud Discovery reports, use a `curl` command like this:
 
 ```bash
 curl -XGET -H "Authorization:Token <your_token_key>" "https://<portal_url>/api/discovery/streams/"
 ```
 
-To list all alerts, use a curl command like this:
+To list all alerts, use a `curl` command like this:
 
 ```bash
 curl -XPOST -H "Authorization:Token <your_token_key>" "https://<portal_url>/api/v1/alerts/"

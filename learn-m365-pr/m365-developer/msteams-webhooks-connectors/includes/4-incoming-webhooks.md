@@ -57,9 +57,6 @@ When the incoming webhook sends a message to the registered endpoint, Microsoft 
 
 ![Screenshot of rendered message](../media/05-test-09.png)
 
-> [!IMPORTANT]
-> If you include a card in a message sent to an incoming webhook, it must be an Office 365 Connector Cards; adaptive cards aren't supported when sending messages to incoming webhooks.
-
 ## Summary
 
 In this unit, you learned how to register an incoming webhook in a Microsoft Teams channel and post a message to it.

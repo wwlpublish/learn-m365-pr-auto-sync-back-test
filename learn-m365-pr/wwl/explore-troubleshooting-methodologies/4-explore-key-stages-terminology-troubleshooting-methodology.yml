@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-troubleshooting-methodologies.explore-key-stages-terminology-troubleshooting-methodology
+title: Explore key stages and terminology of a troubleshooting methodology
+metadata:
+  title: Explore key stages and terminology of a troubleshooting methodology
+  description: "Explore key stages and terminology of a troubleshooting methodology"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-explore-key-stages-terminology-troubleshooting-methodology.md)]

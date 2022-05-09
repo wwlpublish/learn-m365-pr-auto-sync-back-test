@@ -1,0 +1,33 @@
+### YamlMime:LearningPath
+uid: learn.wwl.explore-application-management
+metadata:
+  title: Explore application management
+  description: Explore application management
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore application management
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
+  - Strong understanding of computer networking, client security, and application concepts
+  - Experience using Active Directory Domain Services
+summary: |
+  Students will examine application management methods using on-premise and cloud-based solutions.
+iconUrl: /learn/achievements/generic-trophy.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+modules:
+- learn.wwl.implement-mobile-application-management
+- learn.wwl.deploy-update-applications
+- learn.wwl. administer-applications
+trophy:
+  uid: learn.wwl.explore-application-management.trophy

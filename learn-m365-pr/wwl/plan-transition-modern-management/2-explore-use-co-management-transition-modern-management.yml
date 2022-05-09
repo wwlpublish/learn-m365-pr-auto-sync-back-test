@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-transition-modern-management.explore-using-co-management-transition-modern-management
+title: Explore using co-management to transition to modern management
+metadata:
+  title: Explore using co-management to transition to modern management
+  description: "Explore using co-management to transition to modern management"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/2-explore-use-co-management-transition-modern-management.md)]

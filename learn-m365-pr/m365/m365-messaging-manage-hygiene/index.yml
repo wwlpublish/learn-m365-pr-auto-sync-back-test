@@ -3,7 +3,7 @@ uid: learn-m365.m365-messaging-manage-hygiene
 metadata:
   title: Manage message hygiene using Exchange Online and Microsoft Defender for Office 365
   description: Learn how to plan, implement, and configure policies to protect your organization from malware, spam, and phishing. 
-  ms.date: 11/24/2021
+  ms.date: 04/06/2022
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
@@ -29,6 +29,7 @@ products:
 - m365
 - office-365
 - office-exchange-server
+- office-exchange-online
 units:
 - learn-m365.m365-messaging-manage-hygiene.introduction
 - learn-m365.m365-messaging-manage-hygiene.understand-features

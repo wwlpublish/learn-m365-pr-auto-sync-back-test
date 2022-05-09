@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.enroll-devices-use-microsoft-intune.explain-considerations-device-enrollment
+title: Explain considerations for device enrollment
+metadata:
+  title: Explain considerations for device enrollment
+  description: "Explain considerations for device enrollment"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-explain-considerations-device-enrollment.md)]

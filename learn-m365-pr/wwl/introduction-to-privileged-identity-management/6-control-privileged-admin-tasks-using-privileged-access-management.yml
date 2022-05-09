@@ -4,12 +4,13 @@ title: Control privileged admin tasks using Privileged Access Management
 metadata:
   title: Control privileged admin tasks using Privileged Access Management
   description: "Control privileged admin tasks using Privileged Access Management"
-  ms.date: 04/29/2021
+  ms.date: 04/30/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/6-control-privileged-admin-tasks-using-privileged-access-management.md)]

@@ -4,7 +4,7 @@ In this unit, you'll learn what content controls are and how you can use them in
 
 Content controls are bounded in a document that serve as containers for specific types of content (similar to a field). Authors can label content controls to indicate to consumers how to use the content.
 
-![Screenshot of a content control in a Word document](../media/06-content-controls.png)
+![Screenshot of a content control in a Word document.](../media/06-content-controls.png)
 
 Content controls are used to add structure to an otherwise unstructured range on text. They're especially useful in document templates.
 

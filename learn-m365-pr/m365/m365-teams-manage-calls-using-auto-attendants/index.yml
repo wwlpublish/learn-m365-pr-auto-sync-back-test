@@ -28,6 +28,7 @@ roles:
 - administrator
 products:
 - office-teams
+- microsoft-teams-phone
 units:
 - learn-m365.teams.manage-calls-using-auto-attendants.1-introduction
 - learn-m365.teams.manage-calls-using-auto-attendants.2-when-to-use-attendants-and-call-queues

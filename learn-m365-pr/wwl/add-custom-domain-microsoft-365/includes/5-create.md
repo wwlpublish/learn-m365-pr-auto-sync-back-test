@@ -1,4 +1,4 @@
-If an organization has a domain name that it wants to add to Microsoft 365, the administrator or Microsoft partner should complete the following steps:
+When an organization has a domain name that it wants to add to Microsoft 365, the administrator or Microsoft partner should complete the following steps:
 
 1.  Verify the organization owns the domain. Domain ownership can sometimes be problematic, particularly if a former employee registered the domain with their personal information and has now left the organization. To find out who originally registered the domain, check the WHOIS record for that domain by using an Internet WHOIS register, such as who.is.
 2.  Verify the organization has administrative access to manage DNS for the domain. Different DNS hosting providers grant varying levels of access to DNS records for a hosted domain.
@@ -31,7 +31,7 @@ Complete the following steps to set up a custom domain using the Microsoft 365 a
      -  If your domain is registered at GoDaddy or 1&amp;1, choose **Sign in** and Microsoft 365 [will set up your records automatically](https://support.office.com/article/will-set-up-your-records-automatically-ec6f4bd8-5996-4505-ba68-afaf8a141fb9?azure-portal=true).
      -  You can have an email sent to the registered contact for the domain with a verification code. If you don't recognize or have access to the email on record, you can use the next option to use a TXT record to verify your domain.
      -  You can use a TXT record to verify your domain. Select this option and then select **Next** to see instructions on how to add this DNS record to your registrar's website. This process can take up to 30 minutes to verify once you've added the record.<br>
-5.  Choose how you want to make the DNS changes required for Microsoft 365 to use your domain.<br>
+5.  Choose how you want to make the DNS change required for Microsoft 365 to use your domain.<br>
 6.  If you chose to add DNS records yourself, select **Next** and you'll see a page with all the records you need to add to your registrar’s website to set up your domain.
     
      -  If the portal doesn't recognize your registrar, you can [follow these general instructions](https://support.office.com/article/follow-these-general-instructions-7b7b075d-79f9-4e37-8a9e-fb60c1d95166?azure-portal=true).
