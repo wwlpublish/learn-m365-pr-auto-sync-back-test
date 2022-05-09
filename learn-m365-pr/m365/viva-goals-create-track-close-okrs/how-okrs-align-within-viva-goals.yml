@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-goals-create-track-close-okrs.how-okrs-align-within-viva-goals
+title: How OKRs align within Viva Goals
+metadata:
+  unitType: learning-content
+  title: How OKRs align within Viva Goals
+  description: Learn how OKRs show objectives, key results, and projects and can cascade from one level to another.
+  ms.date: 04/28/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/how-okrs-align-within-viva-goals.md)]
