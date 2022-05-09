@@ -4,7 +4,7 @@ Microsoft's comprehensive solutions enable you to protect and govern your data, 
 
 Now that you have completed this module, you should be able to:
 
-- Discuss information protection and governance and why it's important.
-- Describe Microsoft's approach to information protection and governance.
-- Define key terms associated with Microsoft's information protection and governance solutions.
-- Identify the solutions that comprise information and governance in Microsoft 365.
+- Discuss information protection and data lifecycle management and why it's important.
+- Describe Microsoft's approach to information protection and data lifecycle management.
+- Define key terms associated with Microsoft's information protection and data lifecycle management solutions.
+- Identify the solutions that comprise information and data lifecycle management in Microsoft Purview.
