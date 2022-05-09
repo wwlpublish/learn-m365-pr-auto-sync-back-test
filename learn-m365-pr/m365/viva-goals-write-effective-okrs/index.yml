@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365.viva-goals-write-effective-okrs
+metadata:
+  moduleType: standard
+  title: Write effective OKRs with Viva Goals
+  description: Learn the necessary elements for writing compelling OKRs by learning how to define, write, and edit your OKRs with the aid of a framework.
+  ms.date: 04/28/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Write effective OKRs with Viva Goals
+summary: Learn the necessary elements for writing compelling OKRs by learning how to define, write, and edit your OKRs with the aid of a framework.<br><br>**IMPORTANT** - Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+abstract: |
+  By the end of this module, you'll be able to:
+    - Define an Objective, Key Result, and Key Initiative/Project
+    - Identify best practices and common pitfalls when writing OKRs
+    - Learn the framework for crafting an Objective, Key Result, and Key Initiative/Project
+    - Apply the framework to your own Objective, Key Result, and Key Initiative/Project
+prerequisites: |
+  None
+iconUrl: /learn/achievements/generic-badge.svg
+levels: 
+  - beginner
+roles: 
+  - administrator
+products: 
+- m365
+- viva
+units:
+- learn-m365.viva-goals-write-effective-okrs.introduction
+- learn-m365.viva-goals-write-effective-okrs.okr-best-practices
+- learn-m365.viva-goals-write-effective-okrs.okr-framework
+- learn-m365.viva-goals-write-effective-okrs.okr-levels-alignment
+- learn-m365.viva-goals-write-effective-okrs.knowledge-check
+- learn-m365.viva-goals-write-effective-okrs.summary
+badge:
+  uid: learn-m365.viva-goals-write-effective-okrs.badge

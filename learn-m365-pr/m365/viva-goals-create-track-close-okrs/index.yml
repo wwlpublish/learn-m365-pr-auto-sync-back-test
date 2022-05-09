@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn-m365.viva-goals-create-track-close-okrs
+metadata:
+  moduleType: standard
+  title: Create, track, and close your OKRs with Viva Goals
+  description: Learn how to use Viva Goals and understand how it can enable your organization to use OKRs to their full potential.
+  ms.date: 04/28/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Create, track, and close your OKRs with Viva Goals
+summary: Learn how to use Viva Goals and understand how it can enable your organization to use OKRs to their full potential.<br><br>**IMPORTANT** - Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+abstract: |
+  By the end of this module, you'll be able to:
+    - Navigate your way around Viva Goals
+    - Understand how Objectives, Key Results and Projects align within the system
+    - Create Objectives, Key Results and Projects
+    - Know the different ways that progress can be tracked
+    - Close your OKRs at the end of the relevant time period
+    - Understand the different types of systems that can integrate with Viva Goals and their uses
+prerequisites: |
+  - Access to an instance of Viva Goals
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+- student
+products:
+- m365
+- viva
+units:
+- learn-m365.viva-goals-create-track-close-okrs.introduction
+- learn-m365.viva-goals-create-track-close-okrs.navigate-viva-goals
+- learn-m365.viva-goals-create-track-close-okrs.how-okrs-align-within-viva-goals
+- learn-m365.viva-goals-create-track-close-okrs.how-to-enter-okrs
+- learn-m365.viva-goals-create-track-close-okrs.how-to-track-okr-progress
+- learn-m365.viva-goals-create-track-close-okrs.how-to-close-your-okrs
+- learn-m365.viva-goals-create-track-close-okrs.integrate-viva-goals-with-third-party-systems
+- learn-m365.viva-goals-create-track-close-okrs.knowledge-check
+- learn-m365.viva-goals-create-track-close-okrs.summary
+badge:
+  uid: learn-m365.viva-goals-create-track-close-okrs.badge
