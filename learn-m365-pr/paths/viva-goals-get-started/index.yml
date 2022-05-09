@@ -1,0 +1,30 @@
+### YamlMime:LearningPath
+uid: learn-m365-pr.viva-goals-get-started
+metadata:
+  title: Get started with Microsoft Viva Goals
+  description: 
+  ms.date: 05/06/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Get started with Microsoft Viva Goals
+summary: 
+prerequisites: |
+  - Familiarity with Microsoft 365 Apps and Microsoft Teams
+  - Familiarity with permissions and access settings in Microsoft 365 and the Microsoft 365 admin center
+iconUrl: /learn/achievements/get-started-viva-topics.svg
+levels: 
+- beginner
+roles:
+- administrator
+products: 
+- m365
+modules:
+- learn-m365.viva-topics-intro
+- learn-m365-pr.viva-topics-planning
+- learn-m365-pr.viva-topics-prepare
+- learn-m365-pr.viva-topics-implement
+- learn-m365-pr.viva-topics-knowledge
+trophy: 
+  uid: learn-m365-pr.viva-topics.trophy
