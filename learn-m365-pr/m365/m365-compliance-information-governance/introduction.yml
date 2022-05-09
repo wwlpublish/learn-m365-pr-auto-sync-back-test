@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-compliance-information-governance.introduction
-title: Introduction to information and governance in Microsoft 365
+title: Introduction to information and governance in Microsoft Purview
 metadata:
-  title:  Introduction to information and governance in Microsoft 365
-  description: Learn how Microsoft 365 information protection and governance solutions help you protect and govern your data, throughout its lifecycle – wherever it lives, or wherever it travels. 
+  title:  Introduction to information and governance in Microsoft Purview
+  description: Learn how Microsoft Purview information protection and governance solutions help you protect and govern your data, throughout its lifecycle – wherever it lives, or wherever it travels. 
   ms.date: 02/11/2022
   author: beccarobins
   ms.author: beccarobins

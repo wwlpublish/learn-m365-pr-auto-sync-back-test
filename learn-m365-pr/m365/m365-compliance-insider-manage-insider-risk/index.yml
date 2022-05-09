@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365.m365-compliance-insider-manage-insider-risk
 metadata:
-  title: Manage insider risk in Microsoft 365
+  title: Manage insider risk in Microsoft Purview
   description: Microsoft Purview Insider Risk Management helps organizations address internal risks, such as IP theft, fraud, and sabotage. Learn about insider risk management and how Microsoft technologies can help you detect, investigate, and take action on risky activities in your organization. 
   ms.date: 04/06/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Manage insider risk in Microsoft 365
+title: Manage insider risk in Microsoft Purview
 summary: Microsoft Purview Insider Risk Management helps organizations address internal risks, such as IP theft, fraud, and sabotage. Learn about insider risk management and how Microsoft technologies can help you detect, investigate, and take action on risky activities in your organization. 
 abstract: |
   Upon completion of this module, you should be able to: 

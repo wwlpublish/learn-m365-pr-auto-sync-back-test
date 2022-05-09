@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365.m365-compliance-information-prevent-data-loss
 metadata:
-  title: Prevent data loss in Microsoft 365
+  title: Prevent data loss in Microsoft Purview
   description: Learn how to discover, classify, and protect sensitive and business-critical content throughout its lifecycle across your organization. 
   ms.date: 03/16/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Prevent data loss in Microsoft 365
+title: Prevent data loss in Microsoft Purview
 summary: Learn how to discover, classify, and protect sensitive and business-critical content throughout its lifecycle across your organization. 
 abstract: |
   When you finish with this module, you'll be able to: 

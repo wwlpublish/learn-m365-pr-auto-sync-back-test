@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365.m365-compliance-information-manage-records
 metadata:
-  title: Manage records in Microsoft 365
+  title: Manage records in Microsoft Purview
   description:  Learn how to use intelligent classification to automate and simplify the retention schedule for regulatory, legal, and business-critical records in your organization.  
   ms.date: 04/01/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Manage records in Microsoft 365
+title: Manage records in Microsoft Purview
 summary:  Learn how to use intelligent classification to automate and simplify the retention schedule for regulatory, legal, and business-critical records in your organization.  
 abstract: |
   Upon completion of this module, you should be able to: 
