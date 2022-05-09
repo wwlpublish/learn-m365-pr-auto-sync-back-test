@@ -3,9 +3,9 @@ Before you enroll devices to be managed by Microsoft Endpoint Manager and used b
 In this module, you've learned about device configuration profiles so that you can apply these configuration profiles when you enroll your organization's devices into Microsoft Intune. The goals of this module included the following:
 
 - Learn about device configuration concepts
-- Understand basic, standard, and complex device configuration profiles
-- Create and assign a new device configuration profile
-- View the device configuration profiles
+- Understand fundamental, protective, and comprehensive device configuration profiles 
+- Create and assign new device configuration profiles
+- View device configuration profiles
 
 ## Next steps
 
