@@ -1,4 +1,4 @@
-After you have created a device configuration profile and enrolled your organization's devices into Intune, you can assign the profile to your user or device groups. When the device configuration profile is assigned, the users and devices receive the profile, and the settings you entered are applied.
+After you've created a device configuration profile and enrolled your organization's devices into Intune, you can assign the profile to your user or device groups. When the device configuration profile is assigned, the users and devices receive the profile, and the settings you entered are applied.
 
 > [!NOTE]
 > This modules explains how to create device configuration profiles before enrolling devices into Microsoft Intune.

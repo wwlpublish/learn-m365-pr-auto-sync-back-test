@@ -9,7 +9,7 @@ In this module, you've learned about device configuration profiles so that you c
 
 ## Next steps
 
-Now that you have learned more about device configuration profiles, consider learning about protecting data and devices with Intune. For more information, see the following resources:
+Now that you've learned more about device configuration profiles, consider learning about protecting data and devices with Intune. For more information, see the following resources:
 
 - [Protect data and devices with Microsoft Intune](/mem/intune/protect/device-protect)
 

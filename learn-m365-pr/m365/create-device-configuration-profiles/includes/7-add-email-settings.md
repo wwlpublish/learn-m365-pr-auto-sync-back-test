@@ -45,7 +45,7 @@ Use the following steps to create a new Windows 11 email configuration profile.
 8. Click **Next**.
 
 ## Step 4: Assign profile to group
-For this device configuration profile, you can skip assigning this profile to any groups, users, or devices until you have created users and enrolled devices.
+For this device configuration profile, you can skip assigning this profile to any groups, users, or devices until you've created users and enrolled devices.
 1. Click **Next**.
 
 ## Step 5: Set applicability Rules
@@ -56,4 +56,4 @@ For this device configuration profile, you can skip specifying how to apply this
 1. Review the values and settings for this configuration profile.
 2. Click **Create**.
 
-You have now created a new device configuration profile named "Windows 11 email settings". You can see the new configuration profile in the list by selecting **Devices** > **Configuration profiles**. For more information about email configuration settings in Intune, see [Email profile settings for devices running Windows 10/11 in Microsoft Intune](/mem/intune/configuration/email-settings-windows-10).
+You've now created a new device configuration profile named "Windows 11 email settings". You can see the new configuration profile in the list by selecting **Devices** > **Configuration profiles**. For more information about email configuration settings in Intune, see [Email profile settings for devices running Windows 10/11 in Microsoft Intune](/mem/intune/configuration/email-settings-windows-10).

@@ -44,7 +44,7 @@ Use the following steps to create a new iOS/iPadOS configuration profile.
 12. Select **Next**.
 
 ## Step 4: Assign profile to group
-For this device configuration profile, you can skip assigning this profile to any groups, users, or devices until you have created users and enrolled devices.
+For this device configuration profile, you can skip assigning this profile to any groups, users, or devices until you've created users and enrolled devices.
 1. Click **Next**.
 
 ## Step 5: Review + create
@@ -54,4 +54,4 @@ For this device configuration profile, you can skip assigning this profile to an
 > [!TIP]
 > If you use certificate based authentication for your Wi-Fi profile, deploy the Wi-Fi profile, certificate profile, and trusted root profile to the same groups to ensure that each device can recognize the legitimacy of your certificate authority.  For more information, see [How to configure certificates with Microsoft Intune](/mem/intune/protect/certificates-configure).
 
-You have now created a new device configuration profile named "Wi-Fi - iOS/iPadOS". You can see the new configuration profile in the list by selecting **Devices** > **Configuration profiles**. For more information about iOS/iPadOS Wi-Fi configuration settings in Intune, see [Add Wi-Fi settings for iOS and iPadOS devices in Microsoft Intune](/mem/intune//configuration/wi-fi-settings-ios).
+You've now created a new device configuration profile named "Wi-Fi - iOS/iPadOS". You can see the new configuration profile in the list by selecting **Devices** > **Configuration profiles**. For more information about iOS/iPadOS Wi-Fi configuration settings in Intune, see [Add Wi-Fi settings for iOS and iPadOS devices in Microsoft Intune](/mem/intune//configuration/wi-fi-settings-ios).

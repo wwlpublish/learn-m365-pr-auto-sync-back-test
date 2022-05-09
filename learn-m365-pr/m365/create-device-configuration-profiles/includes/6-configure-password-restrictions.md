@@ -39,11 +39,11 @@ Use the following steps to create a new iOS/iPadOS device configuration profile 
 4. Click **Next**.
 
 ## Step 4: Assign profile to group
-For this device configuration profile, you can skip assigning this profile to any groups, users, or devices until you have created users and enrolled devices.
+For this device configuration profile, you can skip assigning this profile to any groups, users, or devices until you've created users and enrolled devices.
 1. Click **Next**.
 
 ## Step 5: Review + create
 1. Review the values and settings for this configuration profile.
 2. Click **Create**.
 
-You have now created a new device configuration profile named "Require device password". You can see the new configuration profile in the list by selecting **Devices** > **Configuration profiles**. For related information, see [iOS and iPadOS device settings to allow or restrict features using Intune](/mem/intune/configuration/device-restrictions-ios).
+You've now created a new device configuration profile named "Require device password". You can see the new configuration profile in the list by selecting **Devices** > **Configuration profiles**. For related information, see [iOS and iPadOS device settings to allow or restrict features using Intune](/mem/intune/configuration/device-restrictions-ios).

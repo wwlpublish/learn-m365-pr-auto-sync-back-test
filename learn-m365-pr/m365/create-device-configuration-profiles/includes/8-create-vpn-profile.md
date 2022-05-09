@@ -39,7 +39,7 @@ Use the following steps to create a new Android Enterprise VPN configuration pro
 5. Click **Next**.
 
 ## Step 4: Assign profile to group
-For this device configuration profile, you can skip assigning this profile to any groups, users, or devices until you have created users and enrolled devices.
+For this device configuration profile, you can skip assigning this profile to any groups, users, or devices until you've created users and enrolled devices.
 1. Click **Next**.
 
 ## Step 5: Set applicability Rules
@@ -50,7 +50,7 @@ For this device configuration profile, you can skip specifying how to apply this
 1. Review the values and settings for this configuration profile.
 2. Click **Create**.
 
-You have now created a new device configuration profile named "VPN settings - Android Enterprise - Personally-Owned Work Profile". You can see the new configuration profile in the list by selecting **Devices** > **Configuration profiles**. For more information about Android Enterprise device configuration settings in Intune, see [Android Enterprise device settings to configure VPN in Intune](/mem/intune/configuration/vpn-settings-android-enterprise).
+You've now created a new device configuration profile named "VPN settings - Android Enterprise - Personally-Owned Work Profile". You can see the new configuration profile in the list by selecting **Devices** > **Configuration profiles**. For more information about Android Enterprise device configuration settings in Intune, see [Android Enterprise device settings to configure VPN in Intune](/mem/intune/configuration/vpn-settings-android-enterprise).
 
 ## VPN certificates
 
