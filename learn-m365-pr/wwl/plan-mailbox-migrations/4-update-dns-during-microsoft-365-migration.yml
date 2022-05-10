@@ -4,7 +4,7 @@ title: Update DNS during a Microsoft 365 migration
 metadata:
   title: Update DNS during a Microsoft 365 migration
   description: "Update DNS during a Microsoft 365 migration"
-  ms.date: 03/09/2022
+  ms.date: 05/10/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Staged migration"
       isCorrect: false
-      explanation: "This answer is incorrect. In a staged migration, your DNS MX record must point to the on-premises environment for the entirety of the migration. This action is required because Azure AD Connect synchronizes your Active Directory to Microsoft 365. The DNS MX record shouldn't be changed to point to Microsoft 365 until after all your migration batches are complete. Try again."
+      explanation: "This answer is incorrect. In a staged migration, your DNS MX record must point to the on-premises environment for the entirety of the migration. This action is required because Azure AD Connect synchronizes your Active Directory to Microsoft 365. The DNS MX record shouldn't be changed to point to Microsoft 365 until after all your migration batches are complete."
     - content: "Cutover migration"
       isCorrect: true
       explanation: "This answer is correct. When running a cutover migration, you must change the DNS MX record before your final synchronization run. Doing so will ensure that no mail will be routed to your on-premises Exchange server after the mailbox migration is complete."
     - content: "IMAP migration"
       isCorrect: false
-      explanation: "This answer is incorrect. With this method, you must pre-stage your mailboxes in Microsoft 365 and then synchronize mail between the two systems. Once your mail is synchronized and you want to make the switch, you should change the DNS MX records to point towards Microsoft 365. Once this change has been propagated, you can then stop the synchronization. Try again."
+      explanation: "This answer is incorrect. With this method, you must pre-stage your mailboxes in Microsoft 365 and then synchronize mail between the two systems. Once your mail is synchronized and you want to make the switch, you should change the DNS MX records to point towards Microsoft 365. Once this change has been propagated, you can then stop the synchronization."
