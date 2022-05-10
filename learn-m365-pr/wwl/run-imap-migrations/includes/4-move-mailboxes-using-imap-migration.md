@@ -37,7 +37,7 @@ Complete the following steps to run an IMAP migration in the Exchange Admin Cent
 3.  Stop the email synchronization. After your sync is completed, you must change the DNS MX record of all your domains to point to Microsoft 365. This step can take up to a day to synchronize to all other DNS servers on the Internet. You can verify the change since no new messages should be sent to your old IMAP server.
 4.  To finish the migration, allow either 72 hours for the final delta-synchronization to complete or manually start the migration batch again. Once you're sure that all messages are migrated, you should remove the migration batch.
 
-**Additional reading.** For more information, see [Migrate other types of IMAP mailboxes to Microsoft 365](/Exchange/mailbox-migration/migrating-imap-mailboxes/migrate-other-types-of-imap-mailboxes?azure-portal=true).
+**Further reading.** For more information, see [Migrate other types of IMAP mailboxes to Microsoft 365](/Exchange/mailbox-migration/migrating-imap-mailboxes/migrate-other-types-of-imap-mailboxes?azure-portal=true).
 
 ## Knowledge check
 
