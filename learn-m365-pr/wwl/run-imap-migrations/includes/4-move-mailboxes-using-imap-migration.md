@@ -20,7 +20,7 @@ Complete the following steps to run an IMAP migration in the Exchange Admin Cent
     6.  On the **IMAP migration configuration** page, enter your source IMAP server name and configure the required access settings such as authentication, encryption, and port. Then select **Next**. The migration service uses the settings to test the connection to your email server.
     7.  On the **Enter general information** page, type a Migration endpoint name, such as **IMAP-endpoint**. Leave the other two boxes blank to use the default values. Select **New**.
 
-:::image type="content" source="../media/migration-endpoint-wizard-623e3efe.png" alt-text="screenshot of page to create new migration endpoint in the Migration Endpoint Wizard":::
+        :::image type="content" source="../media/migration-endpoint-wizard-623e3efe.png" alt-text="screenshot of page to create new migration endpoint in the Migration Endpoint Wizard":::
 
 
 2.  Create your migration batch and migrate your mailboxes by completing the following steps:
