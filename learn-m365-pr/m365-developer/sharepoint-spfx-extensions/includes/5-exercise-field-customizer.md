@@ -95,21 +95,21 @@ In a browser, navigate to a SharePoint Online modern site collection where you w
 
 Select the **Site contents** link in the left-hand navigation and then select **New > List** in the toolbar. Select the **Blank list** template.
 
-![Screenshot creating new SharePoint list - Select blank list template](../media/05-field-customizer-setup-list-01.png)
+![Screenshot creating new SharePoint list - Select blank list template.](../media/05-field-customizer-setup-list-01.png)
 
 Set the list name to **Work Status** and select **Create**.
 
-![Screenshot creating new SharePoint list - Dialog completing new list name](../media/05-field-customizer-setup-list-02.png)
+![Screenshot creating new SharePoint list - Dialog completing new list name.](../media/05-field-customizer-setup-list-02.png)
 
 When the list loads, select the **Add column > Number** to create a new column.
 
-![Screenshot modifying existing SharePoint list](../media/05-field-customizer-setup-list-03.png)
+![Screenshot modifying existing SharePoint list.](../media/05-field-customizer-setup-list-03.png)
 
 In the **Create a column** panel, set Name to **PercentComplete** and select **Save**.
 
 Add a few items to the list, such as the following figure:
 
-![Screenshot of sample data in a list](../media/05-field-customizer-setup-list-04.png)
+![Screenshot of sample data in a list.](../media/05-field-customizer-setup-list-04.png)
 
 ## Update the testing and deployment configuration
 
@@ -172,7 +172,7 @@ When prompted, select the **Load debug scripts** button.
 
 When the page loads, notice how the rendering has changed according to the code in your field customizer. If the PercentComplete field values don't render, switch back to the command prompt, wait for the **reload** subtask to finish executing, and then refresh.
 
-![Screenshot of the field customizer](../media/05-field-customizer-test.png)
+![Screenshot of the field customizer.](../media/05-field-customizer-test.png)
 
 Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the command prompt.
 

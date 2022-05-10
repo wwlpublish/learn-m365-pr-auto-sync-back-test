@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-microsoft-defender-for-office-365.unblock-users-from-sending-email
+title: Unblock users from sending email
+metadata:
+  title: Unblock users from sending email
+  description: "Unblock users from sending email"
+  ms.date: 05/06/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/8-unblock-users-from-sending-email.md)]

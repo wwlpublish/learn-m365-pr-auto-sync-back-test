@@ -1,4 +1,4 @@
-This module will introduce you to leveraging your SharePoint Framework customizations in Microsoft Teams.
+This module will introduce you to using your SharePoint Framework customizations in Microsoft Teams.
 
 ## Prerequisites
 
@@ -15,6 +15,6 @@ This module will introduce you to leveraging your SharePoint Framework customiza
 
 ## Additional resources
 
-Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Build Microsoft Teams customization using the SharePoint Framework](https://github.com/SharePoint/sp-dev-training-spfx-teams-dev).
+Refer to the following repository for more resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Build Microsoft Teams customization using the SharePoint Framework](https://github.com/SharePoint/sp-dev-training-spfx-teams-dev).
 
 This module is also available as a screencast: [SharePoint Framework Training - Build Microsoft Teams customization using the SharePoint Framework](https://www.youtube.com/watch?v=Yfs3-qawJfA&list=PLR9nK3mnD-OV-RPXQ3Lco845qoEy7VJoc)

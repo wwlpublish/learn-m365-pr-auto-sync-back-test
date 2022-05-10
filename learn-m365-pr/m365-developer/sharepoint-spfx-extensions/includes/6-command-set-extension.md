@@ -4,7 +4,7 @@ In this unit, you'll learn about another type of SharePoint Framework extension 
 
 A SharePoint Framework command set extension enables developers to add buttons to modern lists and library toolbars and context menus.
 
-![Screenshot of example command set](../media/06-command-set-example.png)
+![Screenshot of example command set.](../media/06-command-set-example.png)
 
 Each button's visibility state is controlled using a single boolean property that developers can set. This property enables developers to conditionally show or hide buttons from the toolbar or context menus on an item. These command set extensions are similar to the SharePoint classic experience customizations of custom actions. The classic mode custom action customizations don't work in the modern experience and command sets will only work in the modern experience.
 
@@ -90,7 +90,7 @@ To test a command set extension, you include special query string parameters to 
 - load the SharePoint Framework on the page if it isn't already present
 - the location of the **manifest.js** file from the local web server that tells SharePoint what custom components can be put on the page
 - which component the SharePoint Framework should load and put on the page
-- additional properties specific to each component
+- extra properties specific to each component
 
 The Yeoman generator for the SharePoint Framework simplifies this process fo you by creating a configuration that the **gulp serve** task uses to create the debugging URL. These settings are defined in the **./config/serve.json** file.
 

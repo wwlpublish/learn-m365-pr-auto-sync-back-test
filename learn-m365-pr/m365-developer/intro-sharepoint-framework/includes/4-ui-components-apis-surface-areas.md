@@ -1,12 +1,12 @@
 Custom SharePoint Framework solutions can incorporate data from external resources by calling APIs including the SharePoint REST API, Microsoft Graph, and third-party APIs that are open to anonymous requests or secured with Azure AD.
 
-In this unit, you'll learn how the SharePoint Framework enables developers to incorporate data from external systems, surface customizations in other experiences like Microsoft Teams, and incorporate UI components with the Office UI Fabric (Fluent UI).
+In this unit, you'll learn how the SharePoint Framework enables developers to incorporate data from external systems, surface customizations in other experiences like Microsoft Teams, and incorporate UI components with the Fluent UI.
 
-## Create appealing solutions with the Office UI Fabric (Fluent UI)
+## Create appealing solutions with the Fluent UI
 
-Office UI Fabric React is the front-end framework for building experiences for Office and Microsoft 365. It includes a robust collection of responsive, mobile-first components that make it easy for you to create web experiences by using the Office Design Language.
+Fluent UI React is the front-end framework for building experiences for Office and Microsoft 365. It includes a robust collection of responsive, mobile-first components that make it easy for you to create web experiences by using the Office Design Language.
 
-The new modern experiences in SharePoint use Office UI Fabric (Fluent UI) and Office UI Fabric React as the default front-end framework for building the new experiences. As a result, SharePoint Framework ships with a default version of Office UI Fabric (Fluent UI) and Fabric React that matches the version available in SharePoint. This ensures that the web part you're building uses the right version of the Fabric styles and components when deployed to SharePoint.
+The new modern experiences in SharePoint use Fluent UI and Fluent UI React as the default front-end framework for building the new experiences. As a result, SharePoint Framework ships with a default version of Fluent UI and Fluent UI React that matches the version available in SharePoint. This ensures that the web part you're building uses the right version of the Fluent UI styles and components when deployed to SharePoint.
 
 ```typescript
 public render(): JSX.Element {
@@ -39,9 +39,9 @@ public render(): JSX.Element {
 }
 ```
 
-If you select React as the web framework when creating a new project using the SharePoint Framework Yeoman generator, the project will be provisioned with the correct version of Office UI Fabric React. You can then directly import the Fabric components in your react components without any extra work.
+If you select React as the web framework when creating a new project using the SharePoint Framework Yeoman generator, the project will be provisioned with the correct version of Fluent UI React. You can then directly import the Fabric components in your react components without any extra work.
 
-![Screenshot of the Office UI Fabric (Fluent UI) card control](../media/04-office-iu-fabric.png)
+![Screenshot of the Fluent UI card control](../media/04-office-iu-fabric.png)
 
 ## Incorporate enterprise data with APIs
 
