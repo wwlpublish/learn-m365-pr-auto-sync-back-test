@@ -4,8 +4,8 @@ Based on the type of mail migration that you employ, you should consider the fol
 
  -  **Cutover Migration**. When running a cutover migration, you must change the DNS MX record before your final synchronization run. Doing so will ensure that no mail will be routed to your on-premises Exchange server after the mailbox migration is complete.
 
-> [!NOTE]
-> The DNS MX record may have a high TTL of 24 hours. For migration purposes, it's recommended that you set the TTL of your DNS MX record to 60 minutes when starting the migration. This setting will help propagate the change much faster.
+      > [!NOTE]
+      > The DNS MX record may have a high TTL of 24 hours. For migration purposes, it's recommended that you set the TTL of your DNS MX record to 60 minutes when starting the migration. This setting will help propagate the change much faster.
 
  -  **Staged Migration.** Because Azure AD Connect synchronizes your Active Directory to Microsoft 365, your DNS MX record must point to the on-premises environment for the entirety of the migration. You should NOT change the DNS MX record to point to Microsoft 365 until after all your migration batches are complete.
  -  **Full or Minimal Hybrid Configuration.** Because the Hybrid Configuration Wizard configures the mail flow to be seamless between Exchange on-premises and Exchange Online, you can decide when to switch the DNS MX record to Microsoft 365. While this scenario commonly occurs once most of the mailboxes have been migrated, you may need to switch earlier. For example, when you want to use Exchange Online Protection (EOP) to scan messages on your on-premises servers. However, you may decide not to switch the DNS MX record. For example, if you have a required third-party mail-archiving system on-premises.
