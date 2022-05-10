@@ -10,8 +10,8 @@ You should consider the following requirements when exporting your PST files and
  -  To access the **Microsoft 365 import** page and view import jobs in the Microsoft Purview compliance portal, you must either be a member of the Global Administrators role in your Microsoft 365 tenant, or a member of the Mail Recipients role in Exchange Online.
  -  To create import jobs for a mailbox, your account must be assigned to the Mailbox Import Export role in Exchange Online.
 
-> [!WARNING]
-> By default, this role isn't assigned to any role group in Exchange Online.
+      > [!WARNING]
+      > By default, this role isn't assigned to any role group in Exchange Online.
 
  -  Your exported PST files must be located on a file server or shared folder within your on-premises environment.
  -  In Exchange hybrid deployments, you can outsource PST file data to Exchange Online archive mailboxes that have already been migrated or were newly created. On-premises mailboxes can access the imported data within the Exchange Online archive mailbox.

@@ -21,13 +21,13 @@ quiz:
     choices:
     - content: "Store the public folders on an encrypted hard drive and physically ship the drive to Microsoft"
       isCorrect: false
-      explanation: "This answer is incorrect. This item item isn't what Holly should do to migrate Contoso's on-premises public folders to Microsoft 365 Groups."
+      explanation: "This answer is incorrect. This item isn't what Holly should do to migrate Contoso's on-premises public folders to Microsoft 365 Groups."
     - content: "Set up an Exchange hybrid environment"
       isCorrect: true
       explanation: "This answer is correct. If your public folders are on-premises, you must have an Exchange hybrid environment set up before you can migrate the public folder data to Microsoft Groups."
     - content: "Upload the public folders to the Import service using your existing Internet connection"
       isCorrect: false
-      explanation: "This answer is incorrect. This item item isn't what Holly should do to migrate Contoso's on-premises public folders to Microsoft 365 Groups."
+      explanation: "This answer is incorrect. This item isn't what Holly should do to migrate Contoso's on-premises public folders to Microsoft 365 Groups."
   - content: "Fabrikam recently merged with Contoso. As the Messaging administrator for Contoso, Holly Dickson must move the Fabrikam users' Exchange Online mailboxes into Contoso's Microsoft 365 tenant. How can Holly accomplish this task?"
     choices:
     - content: "Using the Microsoft Exchange Mailbox Replication Service (MRS)"
