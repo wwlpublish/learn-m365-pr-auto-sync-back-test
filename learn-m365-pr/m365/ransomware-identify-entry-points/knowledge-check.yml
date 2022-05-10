@@ -4,82 +4,46 @@ title: Knowledge check
 metadata:
   unitType: knowledge_check
   title: Knowledge check
-  description: "TODO: this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the unit; include relevant search keywords."
-  ms.date: 4/11/2022
+  description: ""
+  ms.date: 5/9/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
-  ms.prod: learning-m365 # Edit as appropriate for your portfolio area
-durationInMinutes: 1
-###########################################################################
-###
-### General guidance (https://review.docs.microsoft.com/learn-docs/docs/id-guidance-knowledge-check)
-###  - Questions are complete sentences ending with a question mark
-###  - No true/false questions
-###  - 3 answers per question
-###  - All answers about the same length
-###  - Numeric answers listed in sorted order
-###  - No "All of the above" and/or "None of the above" as answer choices
-###  - No "Not" or "Except" in questions
-###  - No second person ("you") in the questions or answers
-###  - Provide a meaningful explanation for both correct and incorrect answers
-###
-###########################################################################
+  ms.prod: learning-m365
+durationInMinutes: 4
 content: |
 quiz:
   questions:
-  - content: ""
+  - content: What factors would influence or change the threat landscape faced by you or an organization?
     choices:
-    - content: ""
+    - content: "The release of new software, upgrades, or updates."
       isCorrect: true
-      explanation: ""
-    - content: ""
+      explanation: "That's correct. Cybercriminals will look to exploit vulnerabilities and weaknesses caused by an upgrade or update. When this happens, it's often called a zero-day exploit."
+    - content: "A news report of a new malware doing the rounds."
       isCorrect: false
-      explanation: ""
-    - content: ""
+      explanation: "That's incorrect. New malware is released almost every week. Only detected and identified threats would have an impact."
+    - content: "Someone leaving your organization."
       isCorrect: false
-      explanation: ""
-  - content: ""
+      explanation: "That's incorrect. While someone who is leaving might want to install malicious software, good security processes and protocols would mitigate any possible action."
+  - content: "What does the term entry point mean in a ransomware attack?"
     choices:
-    - content: ""
+    - content: "The entry point is the method used by a cybercriminal to try to gain access to your network or computer."
+      isCorrect: false
+      explanation: "That's incorrect. The entry point for the attack occurs after a vulnerability has been exposed."
+    - content: "The entry point for any cybercrime is when the cybercriminal decides to attack your security defenses."
+      isCorrect: false
+      explanation: "That's incorrect. The entry point occurs once a vulnerability has been found and can be exploited."
+    - content: "The entry point for any cyberattack is the point at which an attack breaches your security defenses."
       isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
+      explanation: "That's correct. The entry point is where a successful cyberattack occurred."
+  - content: "In what instance would a cybercriminal use an initial access broker?"
     choices:
-    - content: ""
+    - content: "To purchase the right ransomware for the target system."
+      isCorrect: false
+      explanation: "That's incorrect. Ransomware has made it lucrative for hackers to sell information to cybercriminals on how to access the target system."
+    - content: "To purchase access credentials to the target system."
       isCorrect: true
-      explanation: ""
-    - content: ""
+      explanation: "That's correct. Initial Access Brokers look for ways into your systems and then sell them to the highest bidder."
+    - content: "To facilitate joining a Ransomware-as-a-Service syndicate."
       isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
-    choices:
-    - content: ""
-      isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
-    choices:
-    - content: ""
-      isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
+      explanation: "That's incorrect. The Initial Access Broker's role isn't to facilitate joining a ransomware syndicate."
