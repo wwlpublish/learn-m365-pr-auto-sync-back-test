@@ -60,14 +60,14 @@ Complete the following high-level steps to prepare the target (destination) tena
 19. Under **Client secrets**, select **new client secre**t.
 20. In the **Add a client secret** window, enter a description, and configure your planned expiration settings.
 
-    > [!IMPORTANT]
-    > This password will be used when creating your migration endpoint. It's important that you copy this password to your clipboard or copy this password to a secure/secret password safe location. This moment is the only time you can see this password! If you do somehow lose it or need to reset it, you can sign back into our Azure portal, go to **App registrations**, find your migration app, select **Secrets &amp; certificates**, and create a new secret for your app.
+> [!IMPORTANT]
+> This password will be used when creating your migration endpoint. It's important that you copy this password to your clipboard or copy this password to a secure/secret password safe location. This moment is the only time you can see this password! If you do somehow lose it or need to reset it, you can sign back into our Azure portal, go to **App registrations**, find your migration app, select **Secrets &amp; certificates**, and create a new secret for your app.
 
 21. Now that you've successfully created the migration application and secret, you'll need to consent to the application. To consent to the application, go back to the **Azure Active Directory** landing page, select **Enterprise applications** in the left navigation, find the migration app you created, select it, and select **Permissions** on the left navigation.
 22. Select the **Grant admin consent for \[your tenant\]** button.
 23. A new browser window will open. Select **Accept**.
 24. You can go back to your portal window and select **Refresh** to confirm your acceptance.
-25. Formulate the URL to send to your trusted partner (source tenant admin) so they can also accept the application to enable mailbox migration. Here is an example of the URL to provide to them you will need the application ID of the app you just created:
+25. Formulate the URL to send to your trusted partner (source tenant admin) so they can also accept the application to enable mailbox migration. Here's an example of the URL to provide to them you'll need the application ID of the app you created:
     
     ```powershell
     https://login.microsoftonline.com/sourcetenant.onmicrosoft.com/adminconsent?client_id=[application_id_of_the_app_you_just_created]&redirect_uri=https://office.com
@@ -88,8 +88,8 @@ To prepare the target tenant by creating the Exchange Online migration endpoint 
  -  The password (the secret) you configured during this process.
  -  Depending on the Microsoft 365 Cloud Instance you use, your endpoint may be different.
 
-    > [!NOTE]
-    > Refer to the [Microsoft 365 endpoints](/microsoft-365/enterprise/microsoft-365-endpoints?azure-portal=true) page and select the correct instance for your tenant. Then review the Exchange Online Optimize Required address and replace as appropriate in the following steps.<br>
+> [!NOTE]
+> Refer to the [Microsoft 365 endpoints](/microsoft-365/enterprise/microsoft-365-endpoints?azure-portal=true) page and select the correct instance for your tenant. Then review the Exchange Online Optimize Required address and replace as appropriate in the following steps.<br>
 
 Complete the following steps to prepare the target tenant by creating the Exchange Online migration endpoint and organization relationship:
 
@@ -153,8 +153,8 @@ Complete the following high-level steps to prepare the source (current mailbox l
     }
     ```
 
-    > [!NOTE]
-    > The tenant ID that you enter as the $sourceTenantId and $targetTenantId is the GUID and not the tenant domain name. For an example of a tenant ID and information about finding your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id?azure-portal=true).
+> [!NOTE]
+> The tenant ID that you enter as the $sourceTenantId and $targetTenantId is the GUID and not the tenant domain name. For an example of a tenant ID and information about finding your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id?azure-portal=true).
 
 ### Verify whether the cross-tenant migration worked
 

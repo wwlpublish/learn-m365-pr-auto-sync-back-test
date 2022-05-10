@@ -4,7 +4,7 @@ title: Prepare source objects for a cross-tenant migration
 metadata:
   title: Prepare source objects for a cross-tenant migration
   description: "Prepare source objects for a cross-tenant migration"
-  ms.date: 03/09/2022
+  ms.date: 05/10/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,7 +24,7 @@ quiz:
       explanation: "This answer is correct. If the target MailUser was previously licensed for or had an ExchangeGuid that doesn't match the Source ExchangeGuid, you must complete a cleanup of the cloud mail end user."
     - content: "Synchronize the correct ExchangeGuid to the target mail user"
       isCorrect: false
-      explanation: "This answer is incorrect. This action isn't what Holly should do to correct this situation. Try again."
+      explanation: "This answer is incorrect. This action isn't what Holly should do to correct this situation."
     - content: "Apply a new Exchange Online license to the target MailUser"
       isCorrect: false
-      explanation: "This answer is incorrect. This action isn't what Holly should do to correct this situation. Try again."
+      explanation: "This answer is incorrect. This action isn't what Holly should do to correct this situation."
