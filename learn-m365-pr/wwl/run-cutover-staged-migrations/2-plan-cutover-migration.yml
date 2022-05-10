@@ -4,7 +4,7 @@ title: Plan a cutover migration
 metadata:
   title: Plan a cutover migration
   description: "Plan a cutover migration"
-  ms.date: 03/09/2022
+  ms.date: 05/10/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "A cutover migration migrates Outlook Cached-Mode OST files"
       isCorrect: false
-      explanation: "This answer is incorrect. Outlook Cached-Mode OST files aren't migrated in a cutover migration. Try again."
+      explanation: "This answer is incorrect. Outlook Cached-Mode OST files aren't migrated in a cutover migration."
     - content: "Unified messaging must be enabled on the mailboxes before you migrate them"
       isCorrect: false
-      explanation: "This answer is incorrect. If the mailboxes you're migrating are enabled for Unified Messaging (UM), you must disable UM on the mailboxes before you migrate them. You can enable UM on the mailboxes after the migration is complete. Try again."
+      explanation: "This answer is incorrect. If the mailboxes you're migrating are enabled for Unified Messaging (UM), you must disable UM on the mailboxes before you migrate them. You can enable UM on the mailboxes after the migration is complete."
     - content: "A cutover migration doesn't migrate security groups and system mailboxes"
       isCorrect: true
       explanation: "This answer is correct. A cutover migration only moves mailboxes, mail users, mail contacts, and mail-enabled groups. Security Groups and system mailboxes aren't migrated."
