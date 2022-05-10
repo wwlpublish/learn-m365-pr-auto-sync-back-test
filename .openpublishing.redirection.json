@@ -3194,6 +3194,126 @@
       "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-defender-for-office-365/8-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-defender-for-office-365/10-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-password-management-microsoft-365/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-password-management-microsoft-365/2-manage-user-passwords.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-password-management-microsoft-365/3-explore-pass-through-authentication.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-password-management-microsoft-365/4-enable-multi-factor-authentication.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-password-management-microsoft-365/5-explore-self-service.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-password-management-microsoft-365/6-implement-azure-ad-smart-lockout.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-password-management-microsoft-365/7-create-perform-access-review.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-password-management-microsoft-365/8-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-password-management-microsoft-365/9-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-password-management-microsoft-365/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-azure-ad-connect-implementation/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-identity-synchronization-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-azure-ad-connect-implementation/2-plan-directory-synchronization.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-identity-synchronization-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-azure-ad-connect-implementation/3-plan-for-azure-ad-connect.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-identity-synchronization-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-azure-ad-connect-implementation/4-plan-for-multi-forest-scenarios.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-identity-synchronization-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-azure-ad-connect-implementation/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-identity-synchronization-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-azure-ad-connect-implementation/6-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-identity-synchronization-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-azure-ad-connect-implementation/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-identity-synchronization-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-azure-ad-connect/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-directory-synchronization-tools/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-azure-ad-connect/2-configure-prerequisites.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-directory-synchronization-tools/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-azure-ad-connect/3-configure.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-directory-synchronization-tools/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-azure-ad-connect/4-monitor-synchronization-services-using-health.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-directory-synchronization-tools/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-azure-ad-connect/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-directory-synchronization-tools/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-azure-ad-connect/6-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-directory-synchronization-tools/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-azure-ad-connect/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-directory-synchronization-tools/",
+      "redirect_document_id": false
     }
   ]
 }
