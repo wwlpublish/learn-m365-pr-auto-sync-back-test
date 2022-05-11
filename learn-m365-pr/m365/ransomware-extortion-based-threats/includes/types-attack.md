@@ -29,7 +29,7 @@ Symptoms of an attack are likely to be:
 - Websites taking very long times to load.
 - Websites not loading or being unavailable.
 
-**Example:** A European gambling company was hit by the biggest and most complex attack ever recorded, luckily it was stopped before any ransom was paid, but in another case a high-profile on-line shopping site was subject to an attack, which lasted three days.
+**Example:** A European gambling company was hit by the biggest and most complex attack ever recorded, luckily it was stopped before any ransom was paid, but in another case a high-profile online shopping site was subject to an attack, which lasted three days.
 
 ## Encryption and locking malware attacks
 
