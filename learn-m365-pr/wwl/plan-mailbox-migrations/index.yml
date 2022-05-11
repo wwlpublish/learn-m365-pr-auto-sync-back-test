@@ -3,19 +3,18 @@ uid: learn.wwl.plan-mailbox-migrations
 metadata:
   title: Plan mailbox migrations
   description: "Plan mailbox migrations"
-  ms.date: 03/09/2022
+  ms.date: 05/11/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Plan mailbox migrations
-summary: Examines the options that are available for migrating email to Exchange Online, such as completing a migration or using FastTrack, and summarizes the migration and coexistence options and recommends when to use which option.
+summary: Examines the options that are available for migrating email to Exchange Online, such as completing a migration, summarizes the migration and coexistence options, and recommends when to use which option.
 abstract: |
   By the end of this module, you'll be able to:
   *   Describe the migration and coexistence strategies with Exchange Online.
   *   Describe considerations that affect which migration option to use.
   *   Determine whether DNS MX records must be changed during a mailbox migration.
-  *   Use FastTrack to move mailboxes.
 prerequisites: |
   None
 iconUrl: /learn/achievements/generic-badge.svg
@@ -28,12 +27,12 @@ products:
 - office
 - office-365
 - office-exchange-server
+- office-exchange-online
 units:
 - learn.wwl.plan-mailbox-migrations.introduction
 - learn.wwl.plan-mailbox-migrations.explore-migration-options-exchange-online
 - learn.wwl.plan-mailbox-migrations.determine-migration-option
 - learn.wwl.plan-mailbox-migrations.update-dns-during-microsoft-365-migration
-- learn.wwl.plan-mailbox-migrations.use-fasttrack-center
 - learn.wwl.plan-mailbox-migrations.knowledge-check
 - learn.wwl.plan-mailbox-migrations.summary
 badge:
