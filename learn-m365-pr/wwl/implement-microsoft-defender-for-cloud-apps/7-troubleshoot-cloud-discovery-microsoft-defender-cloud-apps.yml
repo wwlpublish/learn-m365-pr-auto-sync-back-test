@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-microsoft-defender-for-cloud-apps.troubleshoot-cloud-discovery-microsoft-defender-cloud-apps
+title: Troubleshoot Cloud Discovery in Microsoft Defender for Cloud Apps
+metadata:
+  title: Troubleshoot Cloud Discovery in Microsoft Defender for Cloud Apps
+  description: "Troubleshoot Cloud Discovery in Microsoft Defender for Cloud Apps"
+  ms.date: 05/11/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-troubleshoot-cloud-discovery-microsoft-defender-cloud-apps.md)]

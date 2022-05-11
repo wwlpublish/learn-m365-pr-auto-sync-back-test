@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-microsoft-defender-for-cloud-apps.manage-alerts-microsoft-defender-cloud-apps
+title: Manage and respond to alerts in Microsoft Defender for Cloud Apps
+metadata:
+  title: Manage and respond to alerts in Microsoft Defender for Cloud Apps
+  description: "Manage and respond to alerts in Microsoft Defender for Cloud Apps"
+  ms.date: 05/11/2022
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-manage-alerts-microsoft-defender-cloud-apps.md)]

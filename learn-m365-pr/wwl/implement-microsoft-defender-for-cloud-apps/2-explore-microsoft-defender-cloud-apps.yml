@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-microsoft-defender-for-cloud-apps.explore-microsoft-defender-cloud-apps
+title: Explore Microsoft Defender for Cloud Apps
+metadata:
+  title: Explore Microsoft Defender for Cloud Apps
+  description: "Explore Microsoft Defender for Cloud Apps"
+  ms.date: 05/11/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/2-explore-microsoft-defender-cloud-apps.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following Microsoft Defender for Cloud Apps tools uses traffic logs to dynamically discover and analyze the cloud apps that a company's employees use?"
+    choices:
+    - content: "Cloud Discovery"
+      isCorrect: true
+      explanation: "Correct. Cloud Discovery uses your traffic logs to dynamically discover and analyze the cloud apps that your organization uses. To create a snapshot report of your organization's cloud use, you can manually upload log files from your firewalls or proxies for analysis. To set up continuous reports, use Cloud App Security log collectors to periodically forward your logs."
+    - content: "App connectors"
+      isCorrect: false
+      explanation: "Incorrect. App connectors use APIs from cloud app providers to integrate the Cloud App Security cloud with other cloud apps."
+    - content: "Conditional Access App Control"
+      isCorrect: false
+      explanation: "Incorrect. The Conditional Access App Control feature uses reverse proxy architecture to give you the tools needed to have real-time visibility and control over access to and activities completed within your cloud environment."
