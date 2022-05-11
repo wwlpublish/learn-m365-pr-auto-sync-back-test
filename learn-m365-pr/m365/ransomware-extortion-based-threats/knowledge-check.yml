@@ -26,7 +26,7 @@ quiz:
     - content: "Malicious code that blocks access to a computer and/or its files and demands a ransom for the release of the files."
       isCorrect: true
       explanation: "That's correct. The files are encrypted, and access is blocked until the ransom is paid."
-  - content: "If a user opens an email and select on a link, which turns out to be malicious, what type of attack is this called?"
+  - content: "If a user opens an email and selects a link, which turns out to be malicious, what type of attack is this called?"
     choices:
     - content: "Phishing Attack"
       isCorrect: true
