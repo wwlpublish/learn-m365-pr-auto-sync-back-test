@@ -84,7 +84,7 @@ The Widgets available are:
 
 Selecting the relevant widget button will take you through the steps needed to set up the Widget, and the data you wish to display.
 
-For more information about how each Widget operates, refer to our **Components of a Dashboard** article LINK TO ARTICLE IN DOCS current URL <https://help.ally.io/articles/4362733-components-of-a-dashboard#h_fd582b99eb>
+For more information about how each Widget operates, refer to our [Review Dashboard](/viva/goals/review-dashboard) article.
 
 You can add any number of Widgets to a Panel.
 
