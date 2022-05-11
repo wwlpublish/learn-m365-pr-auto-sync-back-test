@@ -36,7 +36,7 @@ Up to 60% of small business failed within six months of an attack due to a combi
 
 ## Who is most at risk?
 
-As is to be expected the most targeted countries are those with the highest density of population and the highest density of online users, meaning the USA and Europe experience the most attacks. Large and small companies, as well as individuals, are at risk.
+Unsurprisingly, the most frequently targeted countries are those with the highest population density and the highest density of online users, meaning the USA and Europe experience the most attacks. Large and small companies, as well as individuals, are at risk.
 
 The most targeted industries are shown below with the energy, financial and healthcare sectors being the most at risk.
 
