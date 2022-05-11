@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/09/2022
+  ms.date: 05/11/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -13,7 +13,7 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 6
 content: |
-  [!include[](includes/6-knowledge-check.md)]
+  [!include[](includes/5-knowledge-check.md)]
 quiz:
   title: "Check your knowledge"
   questions:
@@ -21,21 +21,21 @@ quiz:
     choices:
     - content: "Before the final synchronization run"
       isCorrect: false
-      explanation: "This answer is incorrect. When running a cutover migration, you must change the DNS MX record before your final synchronization run. Try again."
+      explanation: "This answer is incorrect. When running a cutover migration, you must change the DNS MX record before your final synchronization run."
     - content: "After all migration batches are complete"
       isCorrect: true
       explanation: "This answer is correct. In a Staged migration, your DNS MX record must point to the on-premises environment for the entirety of the migration because Azure AD Connect synchronizes your Active Directory to Microsoft 365. As such, you should not change the DNS MX record to point to Microsoft 365 until after all your migration batches are complete."
     - content: "Tailspin doesn't need to change the MX record"
       isCorrect: false
-      explanation: "This answer is incorrect. Organizations must switch their MX records to Exchange Online, unless they have a required third-party mail-archiving system on-premises. Try again."
+      explanation: "This answer is incorrect. Organizations must switch their MX records to Exchange Online, unless they have a required third-party mail-archiving system on-premises."
   - content: "Northwind Traders has an Exchange 2007 deployment with over 2,500 users. It's currently planning to migrate its user's mailboxes to Exchange Online. Which migration option should Northwind use?"
     choices:
     - content: "Cutover migration"
       isCorrect: false
-      explanation: "This answer is incorrect. A cutover migration is only recommended when an organization has Exchange 2007 or later and has fewer than 2,000 users. Try again."
+      explanation: "This answer is incorrect. A cutover migration is only recommended when an organization has Exchange 2007 or later and has fewer than 2,000 users."
     - content: "Full hybrid configuration"
       isCorrect: false
-      explanation: "This answer is incorrect. A full hybrid configuration migration requires Exchange 2010 or later. Try again."
+      explanation: "This answer is incorrect. A full hybrid configuration migration requires Exchange 2010 or later."
     - content: "Staged migration"
       isCorrect: true
       explanation: "This answer is correct. Both staged and cutover migrations can be used with Exchange 2007 deployments. However, cutover migrations are recommended for organizations with fewer than 2,000 users, while staged migrations are recommended for organizations with more than 2,000 users."
@@ -46,7 +46,7 @@ quiz:
       explanation: "This answer is correct. If the organization has Exchange but doesn't want long-term coexistence, the deciding factor is the number of users. If there are fewer than 2000 users, the recommended solution is an Exchange cutover migration."
     - content: "Staged migration"
       isCorrect: false
-      explanation: "This answer is incorrect. This migration option isn't the recommended approach given Lucerne's requirements. Try again."
+      explanation: "This answer is incorrect. This migration option isn't the recommended approach given Lucerne's requirements."
     - content: "Full hybrid configuration"
       isCorrect: false
-      explanation: "This answer is incorrect. This migration option isn't the recommended approach given Lucerne's requirements. Try again."
+      explanation: "This answer is incorrect. This migration option isn't the recommended approach given Lucerne's requirements."

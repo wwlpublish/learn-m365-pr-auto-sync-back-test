@@ -3314,6 +3314,21 @@
       "source_path": "learn-m365-pr/wwl/implement-azure-ad-connect/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/implement-directory-synchronization-tools/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-mailbox-migrations/5-use-fasttrack-center.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-mailbox-migrations/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-mailbox-migrations/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-mailbox-migrations/5-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-mailbox-migrations/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-mailbox-migrations/6-summary",
+      "redirect_document_id": true
     }
   ]
 }
