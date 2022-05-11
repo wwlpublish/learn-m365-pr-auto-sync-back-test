@@ -14,7 +14,7 @@ We tend to think that large organizations are at risk, but individuals can be in
 The following list highlights areas you might not have considered to be indirect targets:
 
 - Personal devices such as pacemakers, insulin devices, smartphones, smartwatches, body cameras, and fitness monitors using cloud technology.
-- Cars are increasingly using security software, which uses on-line technology to both secure and monitor any defects on the car.
+- Cars are increasingly using security software, which uses online technology to both secure and monitor any defects on the car.
 
 ## Recovering from a ransomware attack
 
