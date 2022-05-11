@@ -46,7 +46,7 @@ With the change from dial up services to broadband, many more users were using t
 
 The invention of Bitcoin introduced a way for criminals to easily hide money and the number of ransomware cases has steadily increased from this point onwards. The severity of attacks started to increase with whole systems being locked down instead of just user files.
 
-### 2012 - Ransomware-as-a-Service
+### 2012 - Ransomware-as-a-service
 
 Within the criminal environment, ransomware started to become available to purchase via a license, a process called Ransomware-as-a-Service (RaaS) meaning other criminals without the same degree of technical ability could also start launching attacks. This led to an increase in large scale attacks and introduced some malware that is still around today such as CryptoWall and Locky, which keep evolving, making it harder to detect, and maximizing the impact on the victim.
 
