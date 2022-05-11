@@ -6,9 +6,9 @@ To help its customers focus on breach prevention and spend less on breach recove
 
 Threat intelligence in Microsoft 365 is powered by the Microsoft Intelligent Security Graph, which:
 
- -  consumes 6.5 trillion signals daily across the Microsoft 365 network. Signals is a term meaning information traffic.
- -  uses advanced analytics consisting of artificial intelligence and machine learning capabilities.
- -  integrates this data across Microsoft's threat detection and response capabilities to address different attack scenarios.<br>
+ -  Consumes 6.5 trillion signals daily across the Microsoft 365 network. A signal is a term meaning information traffic.
+ -  Uses advanced analytics consisting of artificial intelligence and machine learning capabilities.
+ -  Integrates this data across Microsoft's threat detection and response capabilities to address different attack scenarios.<br>
 
 The signals are obtained from the Intelligent Security Graph, plus other third-party feeds, including teams of experts hunting for malicious activities around the globe. Machine learning models and artificial intelligence analyze vast security signals to identify vulnerabilities and threats. The massive scope of signals enables Microsoft to understand the full context of an event to power quick threat detection and automated response.
 

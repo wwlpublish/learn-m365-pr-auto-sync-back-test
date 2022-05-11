@@ -43,10 +43,10 @@ quiz:
     choices:
     - content: "Microsoft AI"
       isCorrect: false
-      explanation: "That's incorrect. Microsoft AI crunches the massive amounts of security data that's captured from across Microsoft’s portfolio, but it doesn't power Threat Intelligence in Microsoft 365. Try again."
+      explanation: "Incorrect. Microsoft AI crunches the massive amounts of security data that's captured from across Microsoft’s portfolio, but it doesn't power Threat Intelligence in Microsoft 365."
     - content: "Microsoft Threat Management"
       isCorrect: false
-      explanation: "That's incorrect. Microsoft Threat Management doesn't power Threat Intelligence in Microsoft 365. Try again."
+      explanation: "Incorrect. Microsoft Threat Management doesn't power Threat Intelligence in Microsoft 365."
     - content: "Microsoft Intelligent Security Graph"
       isCorrect: true
-      explanation: "That's correct. Threat intelligence in Microsoft 365 is powered by the Microsoft Intelligent Security Graph. It consumes billions of packets of information traffic across the Microsoft 365 network, uses artificial intelligence and machine learning capabilities, and integrates this data across different security products to address different attack scenarios."
+      explanation: "Correct. Threat intelligence in Microsoft 365 is powered by the Microsoft Intelligent Security Graph. It consumes billions of packets of information traffic across the Microsoft 365 network, uses artificial intelligence and machine learning capabilities, and integrates this data across different security products to address different attack scenarios."

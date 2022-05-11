@@ -76,7 +76,7 @@ The second method of opening an Investigation Details page is by opening an inci
 1.  Go to Microsoft 365 Defender portal and sign in.
 2.  In the navigation pane, select **Incidents &amp; alerts**, and then select **Incidents**.
 3.  On the **Incidents** page, select an item in the list, and then select **Open incident page**.
-4.  Select the **Investigations** tab, and then select an investigation in the list. A detail pane appears for the investigation..
+4.  Select the **Investigations** tab, and then select an investigation in the list. A detail pane appears for the investigation.
 5.  On the detail pane, select O**pen investigation page.**
 
 #### Investigation details

@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Microsoft AI"
       isCorrect: false
-      explanation: "That's incorrect. Microsoft AI crunches the massive amounts of threat intelligence and security data that's captured from across Microsoft’s portfolio. Try again."
+      explanation: "Incorrect. Microsoft AI crunches the massive amounts of threat intelligence and security data that's captured from across Microsoft’s portfolio."
     - content: "Microsoft Intelligent Security Graph"
       isCorrect: true
-      explanation: "That's correct. Intelligent Security Graph generates meaningful alerts, identifying threat components and activities that automated investigation and response (AIR) capabilities can remediate."
+      explanation: "Correct. The Intelligent Security Graph generates meaningful alerts. These alerts identify threat components and activities that automated investigation and response (AIR) capabilities can remediate."
     - content: "Microsoft Threat Management"
       isCorrect: false
-      explanation: "That's incorrect. Microsoft Threat Management doesn't generate meaningful alerts that identify threat components and activities that automated investigation and response (AIR) capabilities can remediate. Try again."
+      explanation: "Incorrect. Microsoft Threat Management doesn't generate meaningful alerts that identify threat components and activities that automated investigation and response (AIR) capabilities can remediate."
