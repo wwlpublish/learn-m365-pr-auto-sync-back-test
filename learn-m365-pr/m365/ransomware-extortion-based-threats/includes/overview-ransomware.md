@@ -35,7 +35,7 @@ As the Internet has become more accessible so the potential for installing ranso
 
 The first recorded ransomware attack occurred as far back as 1989 when 20,000 floppy disks containing a healthcare program for AIDS patients were distributed to attendees at a conference. The disks were infected with malware, which only activated after users had used the program 90 times; at that point the system locked, and a ransom demand was displayed on the screen.
 
-### Turn of the Century
+### Turn of the century
 
 With the change from dial up services to broadband, many more users were using the internet opening new opportunities for criminals wanting to exploit vulnerable people and companies. Several notable cases hit the headlines which either:
 
