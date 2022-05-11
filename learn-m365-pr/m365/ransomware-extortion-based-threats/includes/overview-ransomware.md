@@ -48,7 +48,7 @@ The invention of Bitcoin introduced a way for criminals to easily hide money and
 
 ### 2012 - Ransomware-as-a-service
 
-Within the criminal environment, ransomware started to become available to purchase via a license, a process called Ransomware-as-a-Service (RaaS) meaning other criminals without the same degree of technical ability could also start launching attacks. This led to an increase in large scale attacks and introduced some malware that is still around today such as CryptoWall and Locky, which keep evolving, making it harder to detect, and maximizing the impact on the victim.
+Within the criminal environment, ransomware started to become available to purchase via a license, a process called Ransomware-as-a-service (RaaS) meaning other criminals without the same degree of technical ability could also start launching attacks. This led to an increase in large scale attacks and introduced some malware that is still around today such as CryptoWall and Locky, which keep evolving, making it harder to detect, and maximizing the impact on the victim.
 
 ### Current Landscape
 
