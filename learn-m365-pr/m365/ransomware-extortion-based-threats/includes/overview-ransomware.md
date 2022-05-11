@@ -13,7 +13,7 @@ Ransomware attacks take different forms and can include any or all of the follow
 The impact on users and companies is significant:
 
 - Attacks on hospitals can put lives at risk if records can't be accessed.
-- With the ongoing use of wireless devices, attacks on healthcare organizations can put lives at risk due to the increasing number of wireless devices that help sustain life such as pacemakers, insulin pumps.
+- Attacks on healthcare organizations can put lives at risk due to the increasing number of wireless devices that help sustain life such as pacemakers and insulin pumps.
 - An attack on an educational institution can prevent access to important educational resources.
 
 If you also consider the potential impact of the release of patient or pupil records, or the risk to life, the damage can be devastating for the business or individual that is being targeted.  The negative publicity surrounding a company not being able to trade can have huge financial implications for its reputation.
