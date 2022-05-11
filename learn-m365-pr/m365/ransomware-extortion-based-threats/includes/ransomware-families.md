@@ -41,7 +41,7 @@ The following key facts are known about Conti:
 - The ransom for stolen data can sometimes be more than the original data.
 - The virus enters the system via phishing emails with attachments. When the attachment is opened, the virus runs and encrypts the system.
 
-### REvil Facts
+### REvil
 
 The following key facts are known about the group
 
