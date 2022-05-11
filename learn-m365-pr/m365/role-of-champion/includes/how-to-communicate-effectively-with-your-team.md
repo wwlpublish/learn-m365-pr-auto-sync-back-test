@@ -81,7 +81,7 @@ Your goals define the outcome you want and enable you to measure the success of 
 It's essential that you get full participation from stakeholders in defining your OKRs to help ensure they feel a sense of ownership and align these measures of success to defined project tasks. OKRs should include a mix of technical and user-focused success.
 
 ## Train and adopt 
-We cover everything you need to know about writing great OKRs in the  [Write effective OKRs with Viva Goals](viva-goals-write-effective-okrs) module and incorporating OKRs into your business rhythms in the [Ensure OKR program success](ensure-okr-program-success) module.   
+We cover everything you need to know about writing great OKRs in the  [Write effective OKRs with Viva Goals](/modules/viva-goals-write-effective-okrs) module and incorporating OKRs into your business rhythms in the [Ensure OKR program success](/modules/ensure-okr-program-success) module.   
 
 ## Customize your communication plan 
 
