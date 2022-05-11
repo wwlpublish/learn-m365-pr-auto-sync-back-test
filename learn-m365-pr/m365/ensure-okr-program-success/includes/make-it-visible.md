@@ -12,7 +12,7 @@ In team and one-on-one meetings, OKR Champions should use dashboards to keep age
 
 ## Use reminders
 
-Leverage the nudge feature in Viva Goals. Reminders drive repetitive behavior and encourage long-term usage. Help your team adopt Viva Goals by setting a nudge to remind you and your team to update your OKRs at the same time each week.
+Leverage the [nudge feature](https://docs.microsoft.com/viva/goals/nudge-users-to-check-in?azure-portal=true) in Viva Goals. Reminders drive repetitive behavior and encourage long-term usage. Help your team adopt Viva Goals by setting a nudge to remind you and your team to update your OKRs at the same time each week.
 
 ## Stack habits
 

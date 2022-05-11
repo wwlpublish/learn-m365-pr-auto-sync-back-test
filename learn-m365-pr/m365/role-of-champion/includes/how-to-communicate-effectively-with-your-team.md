@@ -122,7 +122,14 @@ Inclusive communication is ongoing work that OKR Champions should consistently c
 
 The last element to consider in knowing your audience is to consider their personality type. Bestselling author Gretchen Rubin has provided one framework called "The Four Tendencies" that proves helpful for professional audiences, especially when introducing change and new information. As OKR Champions do both, this is a particularly powerful framework to know.
 
-In studying how people respond to expectations, change, and new information, Rubin found that there were four broad categories of people: the questioner, the upholder, the obliger and the rebel. Knowing the basics of each personality type and strategies that can be used when working with them helps OKR Champions communicate effectively and keep the team together.
+In studying how people respond to expectations, change, and new information, Rubin found that there were four broad categories of people: 
+
+- Questioner
+- Upholder 
+- Obliger
+- Rebel 
+ 
+Knowing the basics of each personality type and strategies that can be used when working with them helps OKR Champions communicate effectively and keep the team together.
 
 :::image type="content" source="../media/venn-diagram-four-personalities.jpg" alt-text="Diagram of the four personality tendencies: Questioner, Upholder, Obliger, Rebel.":::
 
