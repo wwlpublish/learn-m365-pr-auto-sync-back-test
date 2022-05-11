@@ -76,7 +76,7 @@ Individuals are often the weak link that allows someone to gain access to a comp
 
 Any ransomware has the potential to be exploit any gaps in security. Just as a house can have a door left unlocked or a window not securely fastened, cybercriminals are looking to find ways into systems that haven't been locked properly, which is why it's important to install any security updates on any hardware or software.
 
-**Example:** In 2021, an attack was made on a major software company that affected up to 60,000 private companies and nine government agencies in the United States, and thousands more globally as attackers exploited a vulnerability on its system.
+**Example:** In 2021, an attack was made on a major software company that affected up to 60,000 private companies and nine government agencies in the United States, and thousands more globally as attackers exploited a vulnerability in its system.
 
 ## Leakware attacks
 
