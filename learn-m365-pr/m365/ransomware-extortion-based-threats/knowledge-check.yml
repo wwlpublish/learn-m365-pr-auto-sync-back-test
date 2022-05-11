@@ -48,7 +48,7 @@ quiz:
     - content: "Licensed ransomware that criminals can purchase from other cybercriminals."
       isCorrect: false
       explanation: "That's incorrect. This is known as ransomware-as-a-service and allows criminals who aren't technical to also run attacks."
-  - content: "If an attacker managed to gain control of the computer system of a Water Supply Company and then change the level of additives in the drinking water, what type of attack would this be?"
+  - content: "If an attacker managed to gain control of the computer system of a water supply company and then change the level of additives in the drinking water, what type of attack would this be?"
     choices:
     - content: "Commodity ransomware"
       isCorrect: false
