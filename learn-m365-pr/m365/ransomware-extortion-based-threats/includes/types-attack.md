@@ -37,7 +37,7 @@ Encryption ransomware attacks are where the cybercriminal adds extra code to fil
 
 When files are encrypted, they're locked down by the cybercriminal and can't be opened until the ransom is paid.
 
-The ransomware can be downloaded onto a system via several different routes
+The ransomware can be downloaded onto a system via multiple routes:
 
 - Social engineering attacks
 - Security vulnerabilities
