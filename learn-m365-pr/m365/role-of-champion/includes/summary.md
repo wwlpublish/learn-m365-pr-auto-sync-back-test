@@ -3,4 +3,4 @@ In this module, you were introduced to the role of the OKR Champion. This includ
 - Define what an OKR Champion is and does.
 - Name and describe the four key responsibilities of an OKR Champion.
 - Identify three strategies for effective communication as an OKR Champion.
-- Identify the three timeframes for sending out resources and where to find them.
+- Identify the three timeframes for sending out resources and where to find these resources.

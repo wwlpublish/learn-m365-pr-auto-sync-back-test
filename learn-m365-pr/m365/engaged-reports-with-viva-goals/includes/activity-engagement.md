@@ -4,7 +4,7 @@ You can keep track of people, teams, and reports within Viva Goals by choosing t
 
 To keep track of people and teams within Viva Goals, you can **Follow** them. Following an individual or team will automatically begin sending you updates about their OKR progress.
 
-For example, if you collaborate with a particular team on a regular basis, you can choose to follow them and receive automatic updates about their performance.
+For example, if you collaborate with a particular team regularly, you can choose to follow them and receive automatic updates about their performance.
 
 To **Follow** a Team or Individual:
 
@@ -13,7 +13,7 @@ To **Follow** a Team or Individual:
 1. Select the required Team.
 1. At the Team Level, select the **Follow** icon.
 
-When successfully selected, an icon will show you're **Following** the Team. You will now receive regular updates on that Team's progress based on a default schedule. You can adjust when you get these notifications by selecting the gear icon.
+When successfully selected, an icon will show you're **Following** the Team. You'll now receive regular updates on that Team's progress based on a default schedule. You can adjust when you get these notifications by selecting the gear icon.
 
 ## Bookmark
 
