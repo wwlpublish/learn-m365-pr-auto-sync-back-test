@@ -21,7 +21,7 @@ Ransom distributed denial-of-services (DDoS) attack is when legitimate users can
 - Smurf Attack.
 - SYN Flood.
 
-In essence, they all work by flooding a company with spurious requests to the network until the service is overwhelmed. A ransom would then be demanded to enable the company to use its systems. Sometimes, just preventing a company from carrying out its legitimate work can be enough of a reward.
+In essence, they all work by flooding a company with spurious requests to the network until the service is overwhelmed. A ransom would then be demanded to enable the company to use its systems. Sometimes, just preventing a company from carrying out its legitimate work is enough of a reward for the cybercriminal.
 
 Symptoms of a ransom DDoS attack are likely to be:
 
