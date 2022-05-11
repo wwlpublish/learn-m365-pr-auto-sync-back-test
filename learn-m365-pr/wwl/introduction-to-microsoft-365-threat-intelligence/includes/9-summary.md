@@ -7,10 +7,10 @@ You also learned that Microsoft 365 hosts one of the largest networks in the wor
 
 To proactively find and eliminate threats, Microsoft 365 Threat Intelligence provides a collection of these insights. Microsoft 365 Threat Intelligence is available with Microsoft 365 Enterprise E5. If your organization is using another Microsoft 365 Enterprise subscription, Threat Intelligence can be purchased as an add-on.
 
-In this module, you learned about the Microsoft Intelligent Security Graph. This feature powers threat intelligence in Microsoft 365 by consuming billions of signals across the Microsoft 365 network from sources such as user activity, authentication, email, compromised PCs, and security incidents.<br>
+In this module, you learned about the Microsoft Intelligent Security Graph. This feature powers threat intelligence in Microsoft 365 by consuming trillions of signals daily across the Microsoft 365 network from sources such as user activity, authentication, email, compromised PCs, and security incidents.<br>
 
-You were also introduced to the two main features of threat intelligence in Microsoft 365, the Security Dashboard and Threat Explorer. These tools provide admins with evidence-based knowledge and actionable advice. Admins can use this information to make informed decisions about protecting and responding to cyber-attacks against their tenant.
+You then examined how Microsoft 365 Defender uses alerts. Alerts indicate the occurrence of malicious or suspicious events in your environment. They're typically part of a broader attack and provide clues about an incident.
 
-This module also introduced you to Attack simulation training, which provides realistic attack scenarios to help organizations identify vulnerable users before a real attack happens. The goal of Attack simulation training is to make employees aware of various threat attacks and change their behavior so they learn what not to do when receiving email with links and attachments and so on.
+You then saw how alerts are the trigger mechanism for Automated investigation and response (AIR) capabilities in Microsoft 365 Defender. You learned how AIR enables organizations to run automated investigation processes in response to well-known threats that exist today.
 
 The module concluded with an introduction to threat hunting in Microsoft Threat Protection and advanced hunting in Microsoft 365 Defender. Threat hunting enables security operators to identify cybersecurity threats. Advanced hunting in Microsoft 365 Defender proactively inspects events in your network using Kusto-based queries to locate threat indicators and entities.

@@ -1,6 +1,6 @@
-Cyber security breaches are a huge expenditure in today’s internet-based world. As such, it’s important that organizations invest in prevention rather than just recovery from a security breach. The average cost of recovering from a typical cyber-security breach is so high because organizations rarely spend much money on the preparation or ability to execute action plans BEFORE (or during) a cyberattack. Rather, most organizations spend the bulk of this money on remediation costs AFTER the attack has occurred. These costs typically stem from litigation, brand damage, and even loss of business.
+Cyber security breaches are a huge expenditure in today’s internet-based world. As such, it’s important that organizations invest in prevention rather than just recovery from a security breach. It's often expensive for organizations to recover from a typical cyber-security breach. The reason why is because most organizations rarely spend much money on preparing for attacks. Rather, they spend the bulk of their money on remediation costs AFTER the attack has occurred. These costs typically stem from litigation, brand damage, and even loss of business.
 
-One of the aspects of today’s cyberthreat landscape is its scale. The reach of cyberthreat tentacles is so widespread throughout an organization that it makes it hard to absorb the extensive and incessant pool of information, and then understand which information is most relevant among the noise.
+One of the aspects of today’s cyberthreat landscape is its scale. The reach of cyberthreat tentacles is widespread throughout most organization. This reach makes it hard to absorb the extensive and incessant pool of information. It also makes it difficult to understand which information is most relevant among the noise.
 
 Since Microsoft 365 hosts one of the largest networks in the world and manages content created on millions of devices, it's built:
 
@@ -14,20 +14,18 @@ Microsoft 365 Threat Intelligence is a collection of these insights, which can h
 
 So, what exactly is threat intelligence? Gartner’s definition reads as follows: ***Threat intelligence is evidence-based knowledge, including context, mechanisms, indicators, implications and actionable advice, about an existing or emerging menace or hazard to assets that can be used to inform decisions about the subject’s response to that menace or hazard.***
 
-In this module, you'll learn about the Microsoft Intelligent Security Graph. This feature powers threat intelligence in Microsoft 365 by consuming billions of signals across the Microsoft 365 network from sources such as user activity, authentication, email, compromised PCs, and security incidents.
+In this module, you'll learn about the Microsoft Intelligent Security Graph. This feature powers threat intelligence in Microsoft 365. It does so by consuming trillions of signals daily across the Microsoft 365 network. These signals come from sources such as user activity, authentication, email, compromised PCs, and security incidents.
 
-You'll also be introduced to the two main features of threat intelligence in Microsoft 365, the Security Dashboard and Threat Explorer. These tools provide admins with evidence-based knowledge and actionable advice. Admins can use this information to make informed decisions about protecting and responding to cyber-attacks against their tenant.
+You'll then examine how Microsoft 365 Defender uses alerts. Alerts indicate the occurrence of malicious or suspicious events in your environment. They're typically part of a broader attack and provide clues about an incident.
 
-This module also introduces you to Attack simulation training, which provides realistic attack scenarios to help organizations identify vulnerable users before a real attack happens. The goal of Attack simulation training is to make employees aware of various threat attacks and change their behavior so they learn what not to do when receiving email with links and attachments and so on.
+The module then examines how alerts are the trigger mechanism for Automated investigation and response (AIR) capabilities in Microsoft 365 Defender. AIR enables organizations to run automated investigation processes in response to well-known threats that exist today. AIR can help an organization's security operations team operate more efficiently and effectively.
 
-The module concludes with an introduction to threat hunting in Microsoft Threat Protection and advanced hunting in Microsoft 365 Defender. Threat hunting enables security operators to identify cybersecurity threats. Advanced hunting in Microsoft 365 Defender proactively inspects events in your network using Kusto-based queries to locate threat indicators and entities.
+The module concludes with an introduction to threat hunting. It examines Microsoft Threat Protection and advanced hunting in Microsoft 365 Defender. Threat hunting enables security operators to identify cybersecurity threats. Advanced hunting in Microsoft 365 Defender proactively inspects events in your network using Kusto-based queries to locate threat indicators and entities.<br>
 
 After completing this module, you'll be able to:
 
  -  Describe how threat intelligence in Microsoft 365 is powered by the Microsoft Intelligent Security Graph.
- -  Describe how the threat dashboard can benefit C-level security officers.
- -  Understand how Threat Explorer can be used to investigate threats and help to protect your tenant.
- -  Describe the Threat Tracker widgets and views that provide you with intelligence on different cybersecurity issues that might impact your company.
- -  Run realistic attack scenarios using Attack Simulator to help identify vulnerable users before a real attack impacts your organization
- -  Describe how threat hunting enables security operators to identify cybersecurity threats.
+ -  Create alerts that can identify malicious or suspicious events.
+ -  Understand how the Microsoft 365 Defender's Automated investigation and response process works.
+ -  Describe how threat hunting enables security operators to identify cybersecurity threats.<br>
  -  Describe how Advanced hunting in Microsoft 365 Defender proactively inspects events in your network to locate threat indicators and entities.

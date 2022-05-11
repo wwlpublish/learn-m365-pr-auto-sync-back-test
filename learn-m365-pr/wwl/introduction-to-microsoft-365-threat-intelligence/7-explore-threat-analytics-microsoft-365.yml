@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-microsoft-365-threat-intelligence.explore-threat-analytics-microsoft-365
+title: Explore threat analytics in Microsoft 365
+metadata:
+  title: Explore threat analytics in Microsoft 365
+  description: "Explore threat analytics in Microsoft 365"
+  ms.date: 05/11/2022
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/7-explore-threat-analytics-microsoft-365.md)]

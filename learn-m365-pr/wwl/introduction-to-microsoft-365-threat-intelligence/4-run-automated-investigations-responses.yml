@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-microsoft-365-threat-intelligence.run-automated-investigations-responses
+title: Run automated investigations and responses
+metadata:
+  title: Run automated investigations and responses
+  description: "Run automated investigations and responses"
+  ms.date: 05/11/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-run-automated-investigations-responses.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso wants to implement Microsoft 365 Defender's automated investigation and response capability. When it does so, which of the following items will trigger the start of an automated investigation?"
+    choices:
+    - content: "An incident"
+      isCorrect: true
+      explanation: "Correct. An alert creates an incident. An incident, in turn, can start an automated investigation. The automated investigation results in a verdict for each piece of evidence."
+    - content: "An alert"
+      isCorrect: false
+      explanation: "Incorrect. An alert doesn't start an automated investigation."
+    - content: "A verdict"
+      isCorrect: false
+      explanation: "Incorrect. An automated investigation results in a verdict."
