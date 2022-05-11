@@ -80,7 +80,7 @@ Any ransomware has the potential to be exploit any gaps in security. Just as a h
 
 ## Leakware attacks
 
-Also known as **exfiltration attacks**, these attacks combine a standard attack, which encrypts data, with the theft of data. Normally, very specific companies or individuals are targeted where the threat of data being made public could be very damaging. The cybercriminals will also start emailing the clients, business partners or other individuals who could be affected if the data were to be made public to put extra pressure on the victim to pay.
+Also known as **exfiltration attacks**, these attacks combine a standard attack, which encrypts data, with the theft of data. Normally, very specific companies or individuals are targeted where the threat of data being made public could be very damaging. The cybercriminals will also start emailing the clients, business partners, or other individuals who could be affected if the data were to be made public to put extra pressure on the victim to pay.
 
 Even if payment is made, it's doubtful whether all information is returned, as data could be sold in the black market and used to hold the victim ransom again.
 
