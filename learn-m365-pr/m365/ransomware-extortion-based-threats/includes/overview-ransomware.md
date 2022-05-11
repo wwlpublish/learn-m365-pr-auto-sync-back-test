@@ -44,7 +44,7 @@ With the change from dial up services to broadband, many more users were using t
 
 ### 2008
 
-The invention of Bitcoin introduced a way for criminals to easily hide money and the number of ransomware cases has steadily increased from this point onwards. The severity of attacks started to increase with whole systems being locked down instead of just user files.
+The invention of Bitcoin introduced a way for criminals to easily hide money and the number of ransomware cases has steadily increased since. The severity of attacks started to increase with whole systems being locked down instead of just user files.
 
 ### 2012 - Ransomware-as-a-service
 
