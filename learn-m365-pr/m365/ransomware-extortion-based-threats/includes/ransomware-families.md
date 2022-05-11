@@ -47,7 +47,7 @@ The following key facts are known about the group
 
 - REvil are a group of ransomware hackers also known by the name Sodinokibi.
 - It's understood that most of its members are Russian or from former Soviet Union countries.
-- The ransom demands have been getting increasing larger as they become more targeted in their approach.
+- The ransom demands have been getting increasingly larger as they become more targeted in their approach.
 - They have made announcements that the agricultural sector is going to be a major target for this group.
 - They often threaten to auction off data if ransom demands aren't met.
 - REvil operate under a licensing model (Ransomware as a Service).
