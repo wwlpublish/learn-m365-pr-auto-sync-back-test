@@ -55,7 +55,7 @@ These methods are outlined in the following sections.
 
 #### Select an item in the Action center
 
-The Action center in the Microsoft 365 Defender portal brings together remediation actions across your devices, email and collaboration content, and identities. Listed actions include remediation actions that were taken automatically or manually. In the Action center, you can view actions that are awaiting approval and actions that were already approved or completed. You can also navigate to more details, such as an investigation page. You must have [proper permissions](/microsoft-365/security/defender/m365d-action-center?view=o365-worldwide#required-permissions-for-action-center-tasks?azure-portal=true) to approve, reject, or undo actions.
+The Action center in the Microsoft 365 Defender portal brings together remediation actions across your devices, email and collaboration content, and identities. Listed actions include remediation actions that were taken automatically or manually. In the Action center, you can view actions that are awaiting approval and actions that were already approved or completed. You can also navigate to more details, such as an investigation page. You must have [proper permissions](/microsoft-365/security/defender/m365d-action-center?azure-portal=true) to approve, reject, or undo actions.
 
 Complete the following steps to select an item in the Action center:
 
@@ -117,7 +117,7 @@ You can select an item on the graph to view more details. For example, selecting
     Devices
   :::column-end:::
   :::column:::
-    Lists all devices included in the investigation, along with their remediation level. Remediation levels correspond to [the automation level for device groups](/microsoft-365/security/defender/m365d-configure-auto-investigation-response?view=o365-worldwide#review-or-change-the-automation-level-for-device-groups?azure-portal=true).
+    Lists all devices included in the investigation, along with their remediation level. Remediation levels correspond to [the automation level for device groups](/microsoft-365/security/defender/m365d-configure-auto-investigation-response?azure-portal=true).
   :::column-end:::
 :::row-end:::
 :::row:::
