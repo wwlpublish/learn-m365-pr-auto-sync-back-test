@@ -2,7 +2,7 @@ Ransomware is where a criminal installs software onto your computer, which preve
 
 You'll also hear the term malware mentioned in the module. Malware is ransomware that is downloaded onto computers or the computer system that prevents access.  To summarize, malware locks the computer and by demanding a ransom the attack becomes a ransomware attack.
 
-Another term you'll read about or hear in the news is **ransomware actors,** which refers to the cybercriminals or groups that use ransomware to disrupt and then extort money from individuals or organizations; in this document we'll use the term **cybercriminal**.
+Another term you'll read about or hear in the news is **ransomware actors,** which refers to the cybercriminals or groups that use ransomware to disrupt and then extort money from individuals or organizations; in this module we'll use the term **cybercriminal**.
 
 Ransomware attacks take different forms and can include any or all of the following:
 
