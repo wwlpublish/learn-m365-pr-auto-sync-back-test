@@ -52,6 +52,6 @@ Within the criminal environment, ransomware started to become available to purch
 
 ### Current landscape
 
-Extracting ransom via cyber-attacks is now a complete business model, where criminal organizations run large call-centers to handle ransom payments, and target large businesses and high-profile individuals to maximize payouts. Small businesses and individuals are still targeted so no-one is safe from attack. The Covid pandemic has pushed many users to remote working meaning more companies are at risk as more traffic goes through the Internet. It's vitally important that all businesses ensure they follow all recommendations to minimize any threat of attack.
+Extracting ransom via cyberattacks is now a complete business model, where criminal organizations run large call centers to handle ransom payments, and target large businesses and high-profile individuals to maximize payouts. Small businesses and individuals are still targeted so no one is safe from attack. The Covid pandemic has pushed many users to remote working meaning more companies are at risk as more traffic goes through the Internet. It's vitally important that all businesses ensure they follow all recommendations to minimize any threat of attack.
 
 However, the continued increase in the number and scale of attacks has brought the issue more to the attention of law enforcement agencies who are spending more on targeting the attackers and having some very limited success.
