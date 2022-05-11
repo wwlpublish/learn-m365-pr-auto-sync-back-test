@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Tending trackers"
       isCorrect: false
-      explanation: "That's incorrect. Trending trackers highlight new threats that haven't been seen in an organization's email in the past week. Try again."
+      explanation: "Incorrect. Trending trackers highlight new threats that haven't been seen in an organization's email in the past week."
     - content: "Tracked queries"
       isCorrect: false
-      explanation: "That's incorrect. Tracked queries use an organization's saved queries to periodically assess its Microsoft 365 activity. Try again."
+      explanation: "Incorrect. Tracked queries use an organization's saved queries to periodically assess its Microsoft 365 activity."
     - content: "Noteworthy trackers"
       isCorrect: true
-      explanation: "That's correct. Noteworthy trackers display large and small threats and risks that Microsoft thinks an organization should be aware of. Noteworthy trackers help organizations find whether these issues exist in their Microsoft 365 environments."
+      explanation: "Correct. Noteworthy trackers display large and small threats and risks that Microsoft thinks an organization should be aware of. Noteworthy trackers help organizations find whether these issues exist in their Microsoft 365 environments."

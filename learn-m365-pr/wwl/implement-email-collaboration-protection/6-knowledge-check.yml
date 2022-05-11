@@ -32,21 +32,21 @@ quiz:
     choices:
     - content: "Link to malware"
       isCorrect: false
-      explanation: "That's incorrect. In a Link to malware simulation, an attacker sends the recipient a message that contains a link to an attachment on a well-known file sharing site, such as SharePoint Online or Dropbox. When the recipient selects the URL, the attachment opens, and then arbitrary code, such as a macro, is run on the user's device to help the attacker install more code or further entrench themselves. Try again."
+      explanation: "Incorrect. In a Link to malware simulation, an attacker sends the recipient a message that contains a link to an attachment on a well-known file sharing site, such as SharePoint Online or Dropbox. When the recipient selects the URL, the attachment opens, and then arbitrary code, such as a macro, is run on the user's device to help the attacker install more code or further entrench themselves."
     - content: "Credential harvest"
       isCorrect: true
-      explanation: "That's correct. In a Credential harvest simulation, an attacker sends the recipient a message that contains a URL. When the recipient selects the URL, they're taken to a website that typically shows a dialog box that asks the user for their username and password. The destination page is themed to represent a well-known website. By displaying what appears to be a well-known website, the goal of the phishing attack is to have the user actually believe they've accessed a real site."
+      explanation: "Correct. In a Credential harvest simulation, an attacker sends the recipient a message that contains a URL. When the recipient selects the URL, they're taken to a website that typically shows a dialog box that asks the user for their username and password. The destination page is themed to represent a well-known website. By displaying what appears to be a well-known website, the goal of the phishing attack is to have the user actually believe they've accessed a real site."
     - content: "Drive-by-url"
       isCorrect: false
-      explanation: "That's incorrect. In a Drive-by-url simulation, an attacker sends the recipient a message that contains a URL. When the recipient selects the URL, they're taken to a website that tries to run background code. This background code attempts to gather information about the recipient or deploy arbitrary code on their device. Try again."
+      explanation: "Incorrect. In a Drive-by-url simulation, an attacker sends the recipient a message that contains a URL. When the recipient selects the URL, they're taken to a website that tries to run background code. This background code attempts to gather information about the recipient or deploy arbitrary code on their device."
   - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer is searching for a product that will provide a powerful report that enables Fabrikam's Security Operations team to effectively and efficiently investigate and respond to threats. This report should allow the Security Operations team to drill down and understand details related to threats targeting Fabrikam's Microsoft 365 tenant. Which of the following Microsoft products will provide Fabrikam with this functionality?"
     choices:
     - content: "Microsoft Threat Explorer"
       isCorrect: true
-      explanation: "That's correct. Threat Explorer provides a powerful report that enables an organization's Security Operations team to effectively and efficiently investigate and respond to threats. Where the Threat Dashboard provides C-level executives a broad view of the threat landscape, Threat Explorer enables security analysts and admins to drill down and understand details related to threats targeting their tenant."
+      explanation: "Correct. Threat Explorer provides a powerful report that enables an organization's Security Operations team to effectively and efficiently investigate and respond to threats. Where the Threat Dashboard provides C-level executives a broad view of the threat landscape, Threat Explorer enables security analysts and admins to drill down and understand details related to threats targeting their tenant."
     - content: "Microsoft Threat Dashboard"
       isCorrect: false
-      explanation: "That's incorrect. Threat Dashboard provides C-level executives a broad view of the threat landscape, but it doesn't provide the detailed information Holly is seeking. Try again."
+      explanation: "Incorrect. Threat Dashboard provides C-level executives a broad view of the threat landscape, but it doesn't provide the detailed information Holly is seeking."
     - content: "Microsoft Threat Protection"
       isCorrect: false
-      explanation: "That's incorrect. Microsoft Threat Protection provides threat hunting features. It doesn't provide the information Holly is seeking. Try again."
+      explanation: "Incorrect. Microsoft Threat Protection provides threat hunting features. It doesn't provide the information Holly is seeking."

@@ -28,14 +28,6 @@ roles:
 products:
 - m365
 - office-365
-subjects:
-- cloud-computing
-- cloud-security
-- collaboration
-- communication
-- information-protection-governance
-- security
-- threat-protection
 units:
 - learn.wwl.implement-email-collaboration-protection.introduction
 - learn.wwl.implement-email-collaboration-protection.explore-microsoft-defender-office-365-protection-stack
