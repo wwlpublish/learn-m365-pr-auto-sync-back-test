@@ -24,7 +24,6 @@ For more information and information, see [Welcome to the Microsoft 365 Develope
 4.  On your profile page, choose **Go to subscription** and sign in with your user ID (for example, username@domain.onmicrosoft.com) and the password that you specified for your developer subscription.
 5.  Use the app launcher to go to the **Microsoft 365 admin center.**
 6.  On the admin center home page, choose **Go to guided setup.** It will take you to the **Microsoft 365 E5 Developer Setup** page.
-7.  Install your Office apps by selecting **Continue** and follow the steps.
 
 For more information and information, see [Set up a Microsoft 365 developer sandbox subscription \| Microsoft Docs.](/office/developer-program/microsoft-365-developer-program-get-started?azure-portal=true)
 
