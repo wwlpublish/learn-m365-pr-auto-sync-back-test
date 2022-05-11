@@ -8,15 +8,15 @@ Microsoft Defender for Cloud Apps can help you take advantage of the benefits of
 > Microsoft Defender for Cloud Apps is a security tool and therefore doesn't require Office 365 productivity suite licenses. For Office 365 Cloud App Security (Microsoft Defender for Cloud Apps only for Office 365), see [Office 365 Cloud App Security licensing](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#office-365-cloud-app-security?azure-portal=true).
 
  -  After you have a license for Microsoft Defender for Cloud Apps, you'll receive an email with activation information and a link to the Microsoft Defender for Cloud Apps portal.
- -  To set up Microsoft Defender for Cloud Apps, you must be a Global Administrator or a Security Administrator in either Azure Active Directory or Microsoft 365. A user who's assigned an admin role will have the same permissions across all the cloud apps that your organization has subscribed to, regardless of whether you assign the role in the Microsoft 365 admin center, or in the Azure classic portal, or by using the Azure AD module for Windows PowerShell.
+ -  To set up Microsoft Defender for Cloud Apps, you must be a Global Administrator or a Security Administrator in either Azure Active Directory or Microsoft 365. A user who's assigned an admin role will have the same permissions across all the cloud apps that your organization has subscribed to. This situation occurs regardless of where the role is assigned, whether it be in the Microsoft 365 admin center, or in the Azure classic portal, or by using the Azure AD module for Windows PowerShell.
  -  To run the Microsoft Defender for Cloud Apps portal, use Internet Explorer 11, Microsoft Edge (latest), Google Chrome (latest), Mozilla Firefox (latest), or Apple Safari (latest).
 
 ### Access the Defender for Cloud Apps portal
 
 You can access the **Microsoft Defender for Cloud Apps** portal in either of two ways - through the Microsoft 365 admin center, or by navigating directly to [https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com/).
 
-1.  In the **Microsoft 365 admin center**, select **Show all** in the navigation pane, and then under the **Admin centers** section, select **Security**. This opens the **Microsoft 365 Defender** page.
-2.  In the **Microsoft 365 Defender** page, select **More resources** at the bottom of the navigation pane, and then select the **Open** button in the **Defender for Cloud Apps** tile.
+1.  In the **Microsoft 365 admin center**, select **Show all** in the navigation pane, and then under the **Admin centers** section, select **Security**. The **Microsoft 365 Defender** portal should open.
+2.  In the **Microsoft 365 Defender** portal, select **More resources** at the bottom of the navigation pane, and then select the **Open** button in the **Defender for Cloud Apps** tile.
     
     :::image type="content" source="../media/access-defender-for-cloud-apps-cc07651d.png" alt-text="Screenshot of the Microsoft 365 Defender portal with the Microsoft Defender for Cloud Apps feature highlighted.":::
     
@@ -26,7 +26,7 @@ You can access the **Microsoft Defender for Cloud Apps** portal in either of two
     :::image type="content" source="../media/microsoft-defender-for-cloud-apps-portal-a663888b.png" alt-text="Screenshot of the Microsoft 365 Defender for Cloud Apps portal.":::
     
 
-Organizations should complete the following steps to deploy Microsoft Defender for Cloud Apps. There are several required steps, and several recommended steps that organizations should also consider completing.
+Organizations should complete the following steps to deploy Microsoft Defender for Cloud Apps. Some of the steps are required, and some are recommended.
 
 1.  **Required**. Set instant visibility, protection, and governance actions for your apps.
 2.  **Recommended**. Protect sensitive information with DLP policies.
@@ -94,7 +94,7 @@ This step is a **required** task. Complete the following steps to enable Microso
 3.  On the **Microsoft Defender for Cloud Apps** portal, select the **Settings** icon (the cog icon) in the upper right corner of the screen. In the menu that appears, select **Settings**.
 4.  On the **Settings** page, under the **Cloud Discovery** section on the navigation pane, select **Automatic log upload**.
 5.  On the **Automatic log upload** page, the **Data sources** tab is selected by default. Under this tab, select **+Add data source**.
-6.  On the **Add data sour**ce window, enter the data source **Name**, select the **Source** and **Receiver** type, and then select **Add**.
+6.  On the **Add data source** window, enter the data source **Name**, select the **Source** and **Receiver** type, and then select **Add**.
 7.  On the **Automatic log upload** page, select **+Add log collector** on the menu bar.
 8.  On the **Create log collector** window, enter the log collector **Name**, the **Host IP address or FQDN** (fully qualified domain name), and the **Data source**. Select **Create**.
 9.  You're now ready to create either a snapshot Cloud Discovery report or a continuous Cloud Discovery report. To achieve full coverage, create a continuous Cloud Discovery report. On the **Settings** page, under the **Cloud Discovery** section on the navigation pane, select either **Snapshot reports** or **Continuous reports,** and then complete the steps as directed.
@@ -152,7 +152,7 @@ Complete the following steps to provide a better experience for your users with 
 
 Complete the following steps to customize the notifications that you want to receive:
 
-1.  On the **Microsoft Defender for Cloud Apps** portal, select your usericon in the upper right corner of the screen (to the right of the **Settings** (gear) icon). A box appears displaying your username. Select the **User settings** (gear) icon that appears to the right of your username.
+1.  On the **Microsoft Defender for Cloud Apps** portal, select your user icon in the upper right corner of the screen (to the right of the **Settings** (gear) icon). A box appears displaying your username. Select the **User settings** (gear) icon that appears to the right of your username.
 2.  On the **User settings** page, select **Notifications** in the navigation pane.
 3.  On the **Notifications** page, configure the methods you want to set for system notifications for your user account.
 4.  Select **Save**.

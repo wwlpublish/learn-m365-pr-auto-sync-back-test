@@ -16,7 +16,7 @@ Organizations can generate the following types of reports in Cloud Discovery:
          -  [Corrata integration](/defender-cloud-apps/corrata-integration?azure-portal=true)
          -  [Menlo Security integration](/defender-cloud-apps/menlo-integration?azure-portal=true)
 
-        Together, Microsoft Defender for Cloud Apps and a Secure Web Gateway provide seamless deployment of Cloud Discovery, automatic blocking of unsanctioned apps, and risk assessment directly in the SWG's portal.
+        When Microsoft Defender for Cloud Apps and a Secure Web Gateway are integrated together, they provide seamless deployment of Cloud Discovery, automatic blocking of unsanctioned apps, and risk assessment directly in the SWG's portal.
 
  -  **Reports created using the Cloud Discovery API**. Use the Cloud Discovery API to automate traffic log upload and generate an automated Cloud Discovery report and risk assessment. You can also use the API to [generate block scripts](/defender-cloud-apps/api-discovery-script?azure-portal=true) and streamline app controls directly to your network appliance.
 
