@@ -66,7 +66,7 @@ Vishing uses voice communications to deceive a victim. The caller may pretend to
 
 #### Smishing
 
-Smishing uses text messaging to try to exploit people. The messages contain links to sites, which open onto fraudulent sites imitating legitimate sites. Although often used to extract money from users, links on site can entice users to download files, which can then run ransomware, which can lead to a ransomware attack.
+Smishing uses text messaging to try to exploit people. The messages contain links to sites, which open fraudulent sites imitating legitimate sites. Although often used to extract money from users, links on the site can entice users to download files, which can then run ransomware and lead to a ransomware attack.
 
 Individuals are often the weak link that allows someone to gain access to a computer and from there gain access to an entire system.
 
