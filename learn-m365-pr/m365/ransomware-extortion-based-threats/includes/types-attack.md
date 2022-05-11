@@ -12,7 +12,7 @@ In general attacks are becoming:
 
 **Example** - A human-operated attack occurred in the US, where a cyber-criminal managed to gain control of the computer system controlling the drinking water of a major city and was able to increase the levels of sodium hydroxide in the water to dangerous levels.
 
-The following will explain the main types of attack, how they work, and typical symptoms.
+The following will explain the main types of attacks, how they work, and typical symptoms.
 
 ## Ransom distributed denial of service attacks
 
