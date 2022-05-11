@@ -19,7 +19,7 @@ The following will explain the main types of attack, how they work, and typical 
 Ransom distributed denial-of-services (DDoS) attack is when legitimate users can't access their normal systems because the system has been flooded with spurious traffic from a cybercriminal. The actor keeps sending requests to the target or network until the system effectively crashes. There are variations of the simple Denial-of-Service attack so you may hear terms such as:
 
 - Smurf Attack.
-- SYN Flood.
+- SYN Flood
 
 In essence, they all work by flooding a company with spurious requests to the network until the service is overwhelmed. A ransom would then be demanded to enable the company to use its systems. Sometimes, just preventing a company from carrying out its legitimate work is enough of a reward for the cybercriminal.
 
