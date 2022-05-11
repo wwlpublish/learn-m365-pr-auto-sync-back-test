@@ -1,6 +1,6 @@
 When ransomware attacks are mentioned in the news, various terms will be mentioned. Having an awareness of some of these key headline terms is useful to gain a better insight into what has happened.
 
-## Human / Commodity Ransomware
+## Human-operated and commodity ransomware
 
 Traditionally all ransomware relied on lapses of judgment to trick people into opening files, which installed malicious software (malware) on machines and the intended target was not known, this is known as **commodity ransomware**. As ransomware attacks have become a complete business for criminals, they're seeking to maximize their income, so they're actively attacking _specific_ businesses who are either in a position to pay a large ransom or are in an industry where they can't afford client information to be in the public domain, this type of ransomware is known as **human-operated ransomware**.
 
