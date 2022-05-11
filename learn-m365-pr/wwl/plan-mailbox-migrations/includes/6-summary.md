@@ -11,4 +11,4 @@ To support this effort, this module examined the options that are available for 
  -  Cross-tenant migration
  -  Third-party migration
 
-This module summarized each of these migration and coexistence options. It also recommended the appropriate scenarios in which each option should be used. The module concluded by introducing you to the Microsoft FastTrack Center and how to use FastTrack to move mailboxes to Exchange Online.
+This module summarized each of these migration and coexistence options. It also recommended the appropriate scenarios in which each option should be used.
