@@ -6,7 +6,7 @@ This module describes eDiscovery (Premium) administration in the following areas
 - Closing or deleting a case
 
 > [!NOTE]
-> The Security & Compliance Center is now Microsoft 365 Defender
+> The Security & Compliance Center is now split between the Microsoft 365 Defender portal and the Microsoft Purview compliance portal.
 
 ## Permissions and licensing
 
