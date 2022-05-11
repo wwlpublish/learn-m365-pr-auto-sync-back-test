@@ -70,7 +70,7 @@ Smishing uses text messaging to try to exploit people. The messages contain link
 
 Individuals are often the weak link that allows someone to gain access to a computer and from there gain access to an entire system.
 
-**Example: Simple** texts pretending to be from delivery companies, claiming that they've tried to deliver a parcel and demanding a payment to redeliver the parcel. Simple tricks like this are easy to fall prey to if you genuinely are expecting a parcel and could have missed the delivery
+**Example:** Simple texts pretending to be from delivery companies, claiming that they've tried to deliver a parcel and demanding a payment to redeliver the parcel. Simple tricks like this are easy to fall prey to if you genuinely are expecting a parcel and could have missed the delivery
 
 ### Security vulnerabilities
 
