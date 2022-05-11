@@ -7,7 +7,7 @@ Additionally, each of the Defender products has its own portal that lets you con
 |Microsoft Defender Security Center|[`securitycenter.windows.com`](https://securitycenter.microsoft.com/)|
 |Microsoft Defender for Identity portal|[`portal.atp.azure.com`](https://portal.atp.azure.com/)|
 |Defender for Cloud Apps portal|[`portal.cloudappsecurity.com`](https://portal.cloudappsecurity.com/)|
-|Office 365 Security and Compliance Center|[`protection.office.com`](https://protection.office.com)|
+|Office 365 Security & Compliance Center|[`protection.office.com`](https://protection.office.com)|
 
 ## Manage access to Microsoft 365 Defender
 

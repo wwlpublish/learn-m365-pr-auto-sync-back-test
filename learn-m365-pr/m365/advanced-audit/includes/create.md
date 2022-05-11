@@ -59,7 +59,7 @@ You must be assigned the Organization Configuration role in the Microsoft 365 De
     Add-RoleGroupMember -Identity "Organization Management" -Member AlexW
     ```
 
-1. Confirm the user has been added to the Organization Management group in Security & Compliance Center. Here is an example:
+1. Confirm the user has been added to the Organization Management group. Here is an example:
 
     ```PowerShell
     Get-RoleGroupMember -Identity "Organization Management"
