@@ -8,7 +8,7 @@ Ransomware attacks take different forms and can include any or all of the follow
 
 - Ransomware is downloaded onto a machine and extracts data; the criminal then demands a ransom to prevent confidential information being released to the public.
 - Ransomware is downloaded and changes file names so users can't open files, which prevents normal day-to-day jobs being carried out. A ransom is demanded to obtain access to the files.
-- Ransomware is downloaded which locks users out of their computers completely making any work impossible and effectively shuts down a company. A ransom is demanded to allow the company to continue to operate.
+- Ransomware is downloaded that locks users out of their computers completely making any work impossible and effectively shuts down a company. A ransom is demanded to allow the company to continue to operate.
 
 The impact on users and companies is significant:
 
