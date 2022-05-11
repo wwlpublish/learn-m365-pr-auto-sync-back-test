@@ -40,7 +40,7 @@ When files are encrypted, they're locked down by the cybercriminal and can't be 
 The ransomware can be downloaded onto a system via several different routes
 
 - Social Engineering Attacks.
-- Security vulnerabilities.
+- Security vulnerabilities
 
 ### Social engineering attacks
 
