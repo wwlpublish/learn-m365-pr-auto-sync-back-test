@@ -33,7 +33,7 @@ Symptoms of an attack are likely to be:
 
 ## Encryption and locking malware attacks
 
-Encryption ransomware attacks are where the cybercriminal adds extra code to files to prevent them being accessed on the users IT system; this is known as encryption. Once the ransomware has downloaded a message will appear on the screen informing the user of the ransom demand.
+Encryption ransomware attacks are where the cybercriminal adds extra code to files to prevent them being accessed on the user's IT system; this is known as encryption. Once the ransomware has downloaded a message will appear on the screen informing the user of the ransom demand.
 
 When files are encrypted, they're locked down by the cybercriminal and can't be opened until the ransom is paid.
 
