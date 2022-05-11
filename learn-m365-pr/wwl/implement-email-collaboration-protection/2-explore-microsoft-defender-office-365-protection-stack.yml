@@ -1,0 +1,28 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-email-collaboration-protection.explore-microsoft-defender-office-365-protection-stack
+title: Explore the Microsoft Defender for Office 365 protection stack
+metadata:
+  title: Explore the Microsoft Defender for Office 365 protection stack
+  description: "Explore the Microsoft Defender for Office 365 protection stack"
+  ms.date: 05/11/2022
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-explore-microsoft-defender-office-365-protection-stack.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which layer in the Microsoft Defender for Office 365 protection stack looks for suspicious message structure and word frequency, hyperlinks, and attachments?"
+    choices:
+    - content: "Edge protection layer"
+      isCorrect: false
+      explanation: "Incorrect. The Edge protection layer is the first point of contact for an inbound message. It's made up of edge blocks that run automatically. Each edge block handles a different aspect of protection - from network and IP reputation throttling through directory-based edge filtering and backscatter detection."
+    - content: "Content filtering layer"
+      isCorrect: true
+      explanation: "Correct. The primary focus of the Content filtering layer is to check the content of the mail. In doing so, it looks for suspicious message structure and word frequency, hyperlinks, and attachments. Each email is subject to several checks, from mail flow rules to heuristics and machine learning models."
+    - content: "Post-delivery protection layer"
+      isCorrect: false
+      explanation: "Incorrect. The Post-delivery protection layer manages how users interact with files and links not just in their mailboxes, but across other collaborative tools like Microsoft Teams."

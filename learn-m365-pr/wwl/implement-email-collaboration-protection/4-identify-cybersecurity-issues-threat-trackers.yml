@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-email-collaboration-protection.identify-cybersecurity-issues-threat-trackers
+title: Identify cybersecurity issues by using Threat Trackers
+metadata:
+  title: Identify cybersecurity issues by using Threat Trackers
+  description: "Identify cybersecurity issues by using Threat Trackers"
+  ms.date: 05/11/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-identify-cybersecurity-issues-threat-trackers.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Holly Dickson is the Enterprise Administrator for Contoso. Holly wants Contoso's security operations team to have visibility into the large and small threats and risks that Microsoft thinks an organization should be aware of. Which Threat Tracker feature will provide this information for Contoso?"
+    choices:
+    - content: "Tending trackers"
+      isCorrect: false
+      explanation: "That's incorrect. Trending trackers highlight new threats that haven't been seen in an organization's email in the past week. Try again."
+    - content: "Tracked queries"
+      isCorrect: false
+      explanation: "That's incorrect. Tracked queries use an organization's saved queries to periodically assess its Microsoft 365 activity. Try again."
+    - content: "Noteworthy trackers"
+      isCorrect: true
+      explanation: "That's correct. Noteworthy trackers display large and small threats and risks that Microsoft thinks an organization should be aware of. Noteworthy trackers help organizations find whether these issues exist in their Microsoft 365 environments."

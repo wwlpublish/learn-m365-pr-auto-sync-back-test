@@ -1,0 +1,48 @@
+### YamlMime:Module
+uid: learn.wwl.implement-email-collaboration-protection
+metadata:
+  title: Implement threat protection by using Microsoft Defender for Office 365
+  description: "Implement threat protection by using Microsoft Defender for Office 365"
+  ms.date: 05/11/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implement threat protection by using Microsoft Defender for Office 365
+summary: This module examines the Microsoft Defender for Office 365 protection stack and its corresponding threat intelligence features, including Threat Explorer, Threat Trackers, and Attack simulation training.
+abstract: |
+  After completing this module, you'll be able to:
+  - Describe the protection stack provided by Microsoft Defender for Office 365.
+  - Understand how Threat Explorer can be used to investigate threats and help to protect your tenant.
+  - Describe the Threat Tracker widgets and views that provide you with intelligence on different cybersecurity issues that might affect your company.
+  - Run realistic attack scenarios using Attack Simulator to help identify vulnerable users before a real attack impacts your organization.
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+- security-engineer
+- solution-architect
+- technology-manager
+products:
+- m365
+- office-365
+subjects:
+- cloud-computing
+- cloud-security
+- collaboration
+- communication
+- information-protection-governance
+- security
+- threat-protection
+units:
+- learn.wwl.implement-email-collaboration-protection.introduction
+- learn.wwl.implement-email-collaboration-protection.explore-microsoft-defender-office-365-protection-stack
+- learn.wwl.implement-email-collaboration-protection.investigate-security-attacks-threat-explorer
+- learn.wwl.implement-email-collaboration-protection.identify-cybersecurity-issues-threat-trackers
+- learn.wwl.implement-email-collaboration-protection.prepare-attack-simulation-training
+- learn.wwl.implement-email-collaboration-protection.knowledge-check
+- learn.wwl.implement-email-collaboration-protection.summary
+badge:
+  uid: learn.wwl.implement-email-collaboration-protection.badge
