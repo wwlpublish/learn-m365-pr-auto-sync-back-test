@@ -16,7 +16,7 @@ The impact on users and companies is significant:
 - Attacks on healthcare organizations can put lives at risk due to the increasing number of wireless devices that help sustain life such as pacemakers and insulin pumps.
 - Attacks on educational institutions can prevent access to important educational resources.
 
-If you also consider the potential impact of the release of patient or pupil records, or the risk to life, the damage can be devastating for the business or individual that is being targeted.  The negative publicity surrounding a company not being able to trade can have huge financial implications for its reputation.
+If you also consider the potential impact of the release of patient or pupil records, or the risk to life, the damage can be devastating for the business or individual that is being targeted.  The negative publicity surrounding a company not being able to trade can have huge financial implications.
 
 Companies are faced with stark and difficult decisions, they either pay the ransomware and hope they get all their data back or risk negative implications such as:
 
