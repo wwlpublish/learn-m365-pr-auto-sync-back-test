@@ -29,7 +29,7 @@ It's important to remember that you're dealing with cybercriminals so there are 
 
 ## The growth of ransomware as an industry
 
-As the Internet has become more accessible so the potential for installing ransomware has also increased, but the problem isn't a new one and started when computers were first being used.
+As the internet has become more accessible so the potential for installing ransomware has also increased, but the problem isn't a new one and started when computers were first being used.
 
 ### 1989 - AIDS Trojan
 
