@@ -42,7 +42,7 @@ The ransomware can be downloaded onto a system via several different routes
 - Social Engineering Attacks.
 - Security vulnerabilities.
 
-### Social Engineering Attacks
+### Social engineering attacks
 
 Social engineering attacks rely on users to activate the attack. Although not strictly ransomware attacks, they can cause a user to download suspicious files that could contain malicious ransomware, which could lead to a ransomware attack.
 
