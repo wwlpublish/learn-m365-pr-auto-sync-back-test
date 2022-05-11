@@ -1,4 +1,4 @@
-Ransomware has now developed into a complete business model called Ransomware as a Service (RaaS) where cyber criminals license out “off the shelf” products. These products share common characteristics just as a family would, which makes that recognizable. In September 2021 in an analysis of over 12.7 million malware detections made by a key antivirus company, over 220 ransomware families were identified.
+Ransomware has now developed into a complete business model called Ransomware as a Service (RaaS) where cyber criminals license out "off the shelf" products. These products share common characteristics just as a family would, which makes that recognizable. In September 2021, in an analysis of over 12.7 million malware detections made by a key antivirus company, over 220 ransomware families were identified.
 
 The top 10 families will change, but some notable ones are:
 
