@@ -20,7 +20,7 @@ Complete the following steps to run an IMAP migration in the Exchange Admin Cent
     6.  On the **IMAP migration configuration** page, enter your source IMAP server name and configure the required access settings such as authentication, encryption, and port. Then select **Next**. The migration service uses the settings to test the connection to your email server.
     7.  On the **Enter general information** page, type a Migration endpoint name, such as **IMAP-endpoint**. Leave the other two boxes blank to use the default values. Select **New**.
 
-:::image type="content" source="../media/migration-endpoint-wizard-623e3efe.png" alt-text="screenshot of page to create new migration endpoint in the Migration Endpoint Wizard":::
+        :::image type="content" source="../media/migration-endpoint-wizard-623e3efe.png" alt-text="screenshot of page to create new migration endpoint in the Migration Endpoint Wizard":::
 
 
 2.  Create your migration batch and migrate your mailboxes by completing the following steps:
@@ -37,7 +37,7 @@ Complete the following steps to run an IMAP migration in the Exchange Admin Cent
 3.  Stop the email synchronization. After your sync is completed, you must change the DNS MX record of all your domains to point to Microsoft 365. This step can take up to a day to synchronize to all other DNS servers on the Internet. You can verify the change since no new messages should be sent to your old IMAP server.
 4.  To finish the migration, allow either 72 hours for the final delta-synchronization to complete or manually start the migration batch again. Once you're sure that all messages are migrated, you should remove the migration batch.
 
-**Additional reading.** For more information, see [Migrate other types of IMAP mailboxes to Microsoft 365](/Exchange/mailbox-migration/migrating-imap-mailboxes/migrate-other-types-of-imap-mailboxes?azure-portal=true).
+**Further reading.** For more information, see [Migrate other types of IMAP mailboxes to Microsoft 365](/Exchange/mailbox-migration/migrating-imap-mailboxes/migrate-other-types-of-imap-mailboxes?azure-portal=true).
 
 ## Knowledge check
 
