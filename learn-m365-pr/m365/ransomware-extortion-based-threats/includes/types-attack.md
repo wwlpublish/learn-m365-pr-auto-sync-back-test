@@ -25,7 +25,7 @@ In essence, they all work by flooding a company with spurious requests to the ne
 
 Symptoms of an attack are likely to be:
 
-- Taking a long time to open files.
+- Files taking a long time to open.
 - Websites taking very long times to load.
 - Websites not loading or being unavailable.
 
