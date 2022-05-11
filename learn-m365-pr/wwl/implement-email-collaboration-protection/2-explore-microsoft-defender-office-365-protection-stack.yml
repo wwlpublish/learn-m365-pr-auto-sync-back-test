@@ -6,7 +6,9 @@ metadata:
   description: "Explore the Microsoft Defender for Office 365 protection stack"
   ms.date: 05/11/2022
   author: wwlpublish
+  ms.author: tfrink
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 azureSandbox: false
 labModal: false
 durationInMinutes: 3

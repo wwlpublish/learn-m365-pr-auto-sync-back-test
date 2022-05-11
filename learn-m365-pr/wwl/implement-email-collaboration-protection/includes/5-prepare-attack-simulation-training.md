@@ -71,7 +71,7 @@ Now it's time to select this simulation's audience. You can choose to include al
 
 #### Step 4 - Assign training
 
-It's recommended that you assign training for each simulation. Why? Becauses employees who go through training are less susceptible to similar attacks. You can either choose to have training assigned for your organization, or you can select training courses and modules yourself.
+It's recommended that you assign training for each simulation. Why? Because employees who go through training are less susceptible to similar attacks. You can either choose to have training assigned for your organization, or you can select training courses and modules yourself.
 
 Select the **training due date** to ensure employees finish their training to meet the organization's goals.
 
