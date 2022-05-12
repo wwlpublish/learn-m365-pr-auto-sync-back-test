@@ -37,4 +37,4 @@ Successfully breaking into a computer system undetected is complex and challengi
 
 Whether for good or bad, developing any software takes time, effort, and money. With the success of the Software-as-a-Service model, where users pay an ongoing subscription to use a company's software, a new type of business model has evolved called Ransomware-as-a-Service. Broadly, Ransomware-as-a-Service may also be discussed using the term RaaS. Ransomware-as-a-Service requires the cybercriminal to pay a subscription and provides them with access to the latest ransomware products and a guaranteed percentage of any successful ransom payment.
 
-In the last few years, the volume of ransomware attacks that came from Ransomware-as-a-Service was over 60% and is set to grow in the future since RaaS requires no technical knowledge to use.
+In the last few years, the volume of ransomware attacks that came from Ransomware-as-a-Service was over 60% and is set to grow in the future since ransomware-as-a-service requires no technical knowledge to use.
