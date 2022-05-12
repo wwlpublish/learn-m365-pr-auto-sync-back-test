@@ -27,7 +27,7 @@ It’s important to determine how receptive your users will likely be to changin
 - What are you trying to accomplish with Viva Goals? 
 - What does success look like with Viva Goals? Be specific. What do you hope to increase and decrease, and by how much? Describe your future state. You can even use the OKR framework to define success for Viva Goals, and assign yourself or your team this OKR.
 
-:::image type="content" source="./media/success-criteria.png" alt-text="Diagram showing three sucess criteria - objectives, key results, and projects.":::
+:::image type="content" source="../media/success-criteria.png" alt-text="Diagram showing three sucess criteria - objectives, key results, and projects.":::
 
 ### Identify key results and milestones
 - Your key results should improve based on adoption and will show leadership the impact of Viva Goals on your business 
@@ -45,7 +45,7 @@ Your end goal is to have Viva Goals operating across your entire organization so
 
 However, as we navigate the OKR Maturity model and change management associated with deployment, we recommend easing your organization into OKRs with a user pilot.
 
-:::image type="content" source="./media/maturity-model.jpg" alt-text="Diagram showing the 5 stages of the maturity model.":::
+:::image type="content" source="../media/maturity-model.jpg" alt-text="Diagram showing the 5 stages of the maturity model.":::
 
 The benefits of a user pilot are two-fold: first, you’ll quickly learn how the methodology works within your organizational culture and gain insight into the challenges and opportunities. Second, your pilot group can act as an example for the rest of the organization. Their success in achieving their objectives will serve as a motivator for more groups to get on board. 
 
@@ -95,7 +95,7 @@ One of the most important parts of being an OKR Champion is effectively communic
 
 Take a phased approach to your communications and make sure the right communications are happening at the right time so that all team members feel included and supported. 
 
-:::image type="content" source="./media/communication-phases.png" alt-text="Diagram showing the different phases of communication on a timeline.":::
+:::image type="content" source="../media/communication-phases.png" alt-text="Diagram showing the different phases of communication on a timeline.":::
 
 ### Customize your communication plan by audience 
 For an OKR Champion, there are three aspects of your audience to consider: their professional role, how they learn, and their personality type.

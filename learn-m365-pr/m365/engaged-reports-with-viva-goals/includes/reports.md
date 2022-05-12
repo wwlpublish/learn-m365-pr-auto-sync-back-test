@@ -3,7 +3,8 @@ Viva Goals allows you to manage and sort all the OKR data and deliver that infor
 - **Explorer** - Answers the question, "How do I find OKRs that meet a certain set of criteria?"
 - **Review Dashboard** - Answers the question, "How do I share information that matters with teams and individuals?"
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4WQBT]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4VFLB]
+
 
 ## Explorer
 
