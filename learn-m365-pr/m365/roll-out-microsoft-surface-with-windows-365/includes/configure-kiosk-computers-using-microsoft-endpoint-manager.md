@@ -12,7 +12,7 @@ There are several tasks to complete to configure and deploy a kiosk surface devi
 
 You'll use Microsoft Endpoint Manager admin center to create the Autopilot deployment profile.
 
-1. To begin, open <http://endpoint.microsoft.com/> in a private browser window and sign in with your administrator credentials.
+1. To begin, open <https://endpoint.microsoft.com/> in a private browser window and sign in with your administrator credentials.
 1. From the Microsoft Endpoint Manager admin center home page, select **Devices** from the left navigation.
 1. From the **Devices | Overview** page, under **device enrollment**, select **Enroll Device**.
 1. From the **Enroll devices | Windows enrollment** page, select **Deployment Profiles** under **Windows Autopilot Deployment Program**.
