@@ -28,6 +28,10 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- device-management
+- migration
+- cloud-computing
 units:
 - learn.wwl.upgrade-migrate-windows-clients.introduction
 - learn.wwl.upgrade-migrate-windows-clients.examine-process-upgrade-windows-clients

@@ -32,6 +32,8 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- compliance
 units:
 - learn.wwl.search-for-content-security-compliance-center.introduction
 - learn.wwl.search-for-content-security-compliance-center.explore-content-search-functionality

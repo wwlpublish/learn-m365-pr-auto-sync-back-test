@@ -25,6 +25,8 @@ roles:
 - administrator
 products:
 - m365
+subjects:
+- compliance
 units:
 - learn-m365.compliance-m365.2-common-compliance
 - learn-m365.compliance-m365.3-assess-your-compliance

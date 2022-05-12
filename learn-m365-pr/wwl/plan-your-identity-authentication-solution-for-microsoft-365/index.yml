@@ -29,6 +29,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- identity-access
+- cloud-security
 units:
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.introduction
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.determine-your-cloud-identity-model

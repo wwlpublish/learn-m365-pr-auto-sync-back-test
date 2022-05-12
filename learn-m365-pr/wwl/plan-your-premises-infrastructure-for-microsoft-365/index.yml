@@ -28,6 +28,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- infrastructure
 units:
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.introduction
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.prepare-your-organizations-enterprise

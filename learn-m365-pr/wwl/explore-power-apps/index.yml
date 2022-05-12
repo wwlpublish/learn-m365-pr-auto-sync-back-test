@@ -29,6 +29,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- custom-app-development
 units:
 - learn.wwl.explore-power-apps.introduction
 - learn.wwl.explore-power-apps.use-to-build-custom-apps-for-your-business

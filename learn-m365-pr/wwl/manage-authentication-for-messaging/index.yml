@@ -30,6 +30,11 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- identity-access
+- communication
+- compliance
+- device-management
 units:
 - learn.wwl.manage-authentication-for-messaging.introduction
 - learn.wwl.manage-authentication-for-messaging.examine-password-policy-options

@@ -26,6 +26,10 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- process-workflow
+- finance-accounting
+- cloud-computing
 units:
 - learn.wwl.identify-licensing-options-available-microsoft-365.introduction
 - learn.wwl.identify-licensing-options-available-microsoft-365.describe-cloud-solution-provider-model

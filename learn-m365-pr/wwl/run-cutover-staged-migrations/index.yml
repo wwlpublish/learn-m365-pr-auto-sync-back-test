@@ -27,6 +27,8 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- migration
 units:
 - learn.wwl.run-cutover-staged-migrations.introduction
 - learn.wwl.run-cutover-staged-migrations.plan-cutover-migration

@@ -28,6 +28,8 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- communication
 units:
 - learn.wwl.implement-advanced-hybrid-functionality.introduction
 - learn.wwl.implement-advanced-hybrid-functionality.manage-hybrid-deployment

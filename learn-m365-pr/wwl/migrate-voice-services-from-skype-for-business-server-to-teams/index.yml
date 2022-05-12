@@ -29,6 +29,8 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- migration
 units:
 - learn.wwl.migrate-voice-services-from-skype-for-business-server-to-teams.introduction
 - learn.wwl.migrate-voice-services-from-skype-for-business-server-to-teams.understand-how-skype-teams-interact

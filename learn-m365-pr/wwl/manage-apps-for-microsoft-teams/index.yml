@@ -29,6 +29,10 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
+- collaboration
+- productivity
 units:
 - learn.wwl.manage-apps-for-microsoft-teams.introduction
 - learn.wwl.manage-apps-for-microsoft-teams.explore-apps

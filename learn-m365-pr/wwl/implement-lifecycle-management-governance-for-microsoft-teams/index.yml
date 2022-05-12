@@ -29,6 +29,9 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
+- compliance
 units:
 - learn.wwl.implement-lifecycle-management-governance-for-microsoft-teams.introduction
 - 'learn.wwl.implement-lifecycle-management-governance-for-microsoft-teams.plan-teams-lifecycle '

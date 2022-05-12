@@ -29,6 +29,9 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- process-workflow
+- identity-access
 units:
 - learn.wwl.enable-organizational-access.introduction
 - learn.wwl.enable-organizational-access.enable-access-organization-resources
