@@ -16,7 +16,7 @@ Microsoft Defender for Cloud Apps can monitor any file type based on more than 2
  -  Automated actions for governance and remediation.
 
     > [!NOTE]
-    > The only governance action that's guaranteed to be applied is the action of the first triggered policy. For example, if a file policy has already applied a sensitivity label to a file, a second file policy can't apply another sensitivity label to it. For more information, see [Control](/defender-cloud-apps/control).
+    > The only governance action that's guaranteed to be applied is the action of the first triggered policy. For example, if a file policy has already applied a sensitivity label to a file, a second file policy can't apply another sensitivity label to it. For more information, see [Control](/defender-cloud-apps/control?azure-portal=true).
 
 Once an organization enables a policy, the policy continuously:
 
@@ -309,8 +309,6 @@ File policy matches are files that are suspected to violate the policy. To view 
 2.  On the **Policies** page, in the **Filters** section at the top of the page, select the **Type** filter to display the list of policy types. Select the appropriate type.
 3.  For more information about the matches for a specific policy, select the policy.
 4.  The "Matching now" files for the policy are displayed. Select the **History** tab to view the last six months of files that matched the policy.
-
-### <br>
 
 ## Knowledge check
 
