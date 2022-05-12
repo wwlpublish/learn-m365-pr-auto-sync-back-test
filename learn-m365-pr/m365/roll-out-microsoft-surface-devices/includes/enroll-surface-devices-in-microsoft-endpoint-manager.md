@@ -98,4 +98,4 @@ To import the Surface device in the Microsoft Endpoint Manager, follow these ste
 
 Now that you've learned the steps to enroll a Surface device using Microsoft Endpoint Manager, you can follow this interactive to do them for yourself.
 
-[![Interactive guide](../media/interactive-placeholder-image.png)](https://edxinteractivepage.blob.core.windows.net/edxpages/Security%20fundamentals/LP03M02%20-%20Use%20Azure%20secure%20score%20to%20improve%20your%20security%20posture/index.html?azure-portal=true)
+[![Interactive guide](../media/interactive-placeholder-image.png)](https://edxinteractivepage.blob.core.windows.net/edxpages/manage-surface-across-the-device-lifecycle/a18-lp01m02-roll-out-microsoft-surface-with-windows-365/index.html?azure-portal=true)
