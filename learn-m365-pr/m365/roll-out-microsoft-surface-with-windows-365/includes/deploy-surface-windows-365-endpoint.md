@@ -79,4 +79,5 @@ For the best experience, you should access your Cloud PC using the remote deskto
 
 In this interactive guide, you'll create and deploy a cloud configuration profile using a Microsoft Endpoint Manager (<https://endpoint.microsoft.com>) guided scenario. Select the image to open the interactive guide in a new tab. When you've finished, close the new tab to return here.
 
-\<\<Insert Image and Click Link to the published Interactive here>>
+[![Interactive guide](../media/interactive-placeholder-image.png)](https://edxinteractivepage.blob.core.windows.net/edxpages/manage-surface-across-the-device-lifecycle/a18-lp01m02-roll-out-microsoft-surface-with-windows-365/index.html?azure-portal=true)
+
