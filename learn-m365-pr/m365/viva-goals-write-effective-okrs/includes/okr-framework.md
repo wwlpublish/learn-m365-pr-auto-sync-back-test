@@ -31,11 +31,6 @@ A filled-out formula for an Objective may look like this:
 
 :::image type="content" source="../media/objectives-traits.jpg" alt-text="Image showing the completed formula for an Objective.":::
 
-- Expand into Latin America in order to increase our product market share.
-  - **Action**: Expand.
-  - **Aspiration**: Latin America.
-  - **Meaning**: Increase our product market share.
-
 ### Writing key results
 
 Now let's write some Key Results. Remember that Key Results ask, "How will we know we're getting there?" Key Results are outcomes and should be focused, measurable, and ambitious. To make things easier, while you're writing a Key Result, you can start with a formula, such as the one below also created by Paul Niven.
@@ -47,16 +42,11 @@ The verb is your action, what you are going to track or count is your area of **
 - **Focus**: The metric you want to measure. Examples include: CSAT score, new hires, knowledge base articles, video views, etc.
 - **Measure**: The starting point and ending point you're hoping to achieve. Examples include: increasing from 80% to 95%, decreasing from 10 to 5, etc.
 - **Ambition**: The amount of stretch being applied to this metric. The level of ambition is based on the difference between your starting measure and ending measure.
-  - **Note about ambition**: the level of ambition is contextual. Something that may be a stretch for one department might not be a stretch for another. A good rule of thumb here's that you should feel scared/uncertain that you can reach 100% of this stretch.
+  - **Note about ambition**: the level of ambition is contextual. Something that may be a stretch for one department might not be a stretch for another. A good rule of thumb here is that you should feel scared/uncertain that you can reach 100% of this stretch.
 
 A filled-out formula for Key Result may look like:
 
 :::image type="content" source="../media/key-results-traits.jpg" alt-text="Image showing the completed formula for Key Result.":::
-
-- Increase our CSAT score from 80% to 95%
-  - **Focus**: CSAT Score.
-  - **Measure**: 80% to 95%.
-  - **Ambition**: 15% difference.
 
 ### Writing Key Initiatives/Projects
 
@@ -66,23 +56,12 @@ To wrap things up, let's write some Key Initiatives/Projects. Remember that Key 
 
 The verb + output is name of your **Key Initiative/Project**, and the X, Y, Z is your list of tasks **A, B, and C.**
 
-To achieve my Key Result, I need to do a **Key Initiative/Project** which is comprised of tasks **A, B, C, etc.**
-
 - **Key Initiative/Project**: Title for the group of tasks that need to be completed. Examples include: Launch a mobile version of our product, Create new video content, etc.
 - **A, B, C, etc.**: The list of activities that need to happen. Examples include: Write, Record, Edit, Review, Submit, etc.
 
-A filled-out checklist for a Key Initiative/Project may look like:
+A filled-out checklist for a Key Initiative/Project may look like this:
 
 :::image type="content" source="../media/example-okr.jpg" alt-text="Image showing a completed checklist for a Key Initiative/Project.":::
-
-- **O**: Empower customers to use Viva Goals to easily and effectively manage their OKRs
-  - **KR**: Increase users who go through digital training from 0 to 3000
-    - **Key initiative/Project**: Create dynamic video content
-      - Write the script
-      - Record audio
-      - Collect visual assets
-      - Render video
-      - Upload to LMS
 
 ## Editing
 
@@ -96,15 +75,9 @@ Once again, we have two steps to follow: review the OKR superpowers and perform 
 
 ### OKR superpowers
 
-Look at your OKRs and make sure they adhere to the 5 OKR superpowers.
+Look at your OKRs and make sure they adhere to the five OKR superpowers.
 
 :::image type="content" source="../media/okr-superpowers.jpg" alt-text="Image showing the OKR superpowers - Focus, alignment, tracking, transparency, and stretch.":::
-
-- **Focus**: What OKRs can be eliminated?
-- **Alignment**: Who are the stakeholders you might have forgotten?
-- **Tracking**: Ask yourself, if we have this conversation next month, can we track if we were successful?
-- **Transparency**: Where are there unseen implications or bottlenecks?
-- **Stretch**: Are my OKRs propelling the business forward?
 
 Now let's take the necessary and sufficient test.
 
@@ -117,7 +90,7 @@ Now let's take the necessary and sufficient test.
 
 ## Apply the framework
 
-OK, now let's apply the framework to a real-world business example.
+Now let's apply the framework to a real-world business example.
 
 - **Poor Objective**: Make more money.
 
@@ -167,8 +140,8 @@ What you realize is that you won't be able to sufficiently achieve your goal wit
 
 Our final OKR list looks like this:
 
-- Objective: Expand into Latin America in order to increase product market share.
-  - KR1: Increase new product sales from $100k to $1.5m.
-  - KR2: Increase qualified leads via web form from 50 to 3,000.
-  - KR3: Launch Spanish-language version of the product and grow users from 0 to 10,000.
-  - KR4: Increase bilingual sales staff from 2 to 5.
+- **Objective:** Expand into Latin America in order to increase product market share.
+  - **KR1:** Increase new product sales from $100k to $1.5m.
+  - **KR2:** Increase qualified leads via web form from 50 to 3,000.
+  - **KR3:** Launch Spanish-language version of the product and grow users from 0 to 10,000.
+  - **KR4:** Increase bilingual sales staff from 2 to 5.
