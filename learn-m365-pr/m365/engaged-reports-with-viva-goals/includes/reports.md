@@ -3,7 +3,8 @@ Viva Goals allows you to manage and sort all the OKR data and deliver that infor
 - **Explorer** - Answers the question, "How do I find OKRs that meet a certain set of criteria?"
 - **Review Dashboard** - Answers the question, "How do I share information that matters with teams and individuals?"
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4WQBT]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4VFLB]
+
 
 ## Explorer
 
@@ -23,7 +24,7 @@ The **New View** area will start to display all the OKR data in Viva Goals. To b
 1. Select **+ Add filter**.
 1. Select the relevant data point(s) then follow the steps required to choose your parameters.
     1. You can carry on adding filters until you have the View that meets your needs.
-1. When you're ready to save, select **Save as new**.
+1. When you're ready to save, select **Save View**.
 1. Enter a name for the View in the **View name** field.
 1. Set your privacy settings.
     1. If you want your View to be available to everyone in your organization, select **Public**.
@@ -38,9 +39,9 @@ To export the data from your view:
 1. Select the **fields** that you wish to be included in the report and any **Additional options**.
 1. Select **Export**.
 
-You will receive an email with the data.
+You'll receive an email with the data.
 
-As an example, imagine you wanted to create a view showing all OKR data that has not been updated for two weeks.
+As an example, imagine you wanted to create a view showing all OKR data that hasn't been updated for two weeks.
 
 1. Select "Create New View" from the navigation side bar.
 1. Select **+ Add filter**.
@@ -49,7 +50,7 @@ As an example, imagine you wanted to create a view showing all OKR data that has
 1. Enter **14** into the **days** textbox.
 1. Select another point on the screen to close the dropdown menu.
 
-The screen will now be displaying OKRs that have not been updated for more than two weeks.
+The screen will now be displaying OKRs that haven't been updated for more than two weeks.
 
 ### Review Dashboard
 
@@ -59,7 +60,7 @@ The screen will now be displaying OKRs that have not been updated for more than 
 - **Team**: Standups and Bi-weekly progress updates
 - **Individual**: One on Ones
 
-You can create a number of **Panels** within the Review Dashboard. Panels can be designed to focus on a particular subject or area of interest. To these you can add **Widgets** that will display a set of data you've selected. The data displayed in Review Dashboards is not exportable.
+You can create a number of **Panels** within the Review Dashboard. Panels can be designed to focus on a particular subject or area of interest. To these you can add **Widgets** that will display a set of data you've selected. The data displayed in Review Dashboards isn't exportable.
 
 Your colleagues can at any time review the data displayed in the Review Dashboard, fostering collaboration, and allowing you to identify potential bottlenecks or areas of duplication.
 
@@ -82,13 +83,13 @@ The Widgets available are:
 - **Image** - Embed an image in the context of OKRs.
 - **Project List** - Track status updates of multiple projects in one place.
 
-Selecting the relevant widget button will take you through the steps needed to setup the Widget, and the data you wish to display.
+Selecting the relevant widget button will take you through the steps needed to set up the Widget, and the data you wish to display.
 
-For more information about how each Widget operates, please refer to our **Components of a Dashboard** article LINK TO ARTICLE IN DOCS current URL <https://help.ally.io/articles/4362733-components-of-a-dashboard#h_fd582b99eb>
+For more information about how each Widget operates, refer to our [Review Dashboard](/viva/goals/review-dashboard) article.
 
 You can add any number of Widgets to a Panel.
 
-1. When you are ready to create a new Panel, select **Save** to save the current one.
+1. When you're ready to create a new Panel, select **Save** to save the current one.
 1. Then select **+ Add another panel to the dashboard** and begin adding Widgets.
 1. If at any point you wish to change a Panel you've created, select the **More actions** button on the Panel.
 

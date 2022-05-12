@@ -66,7 +66,7 @@ quiz:
     - content: "Initiation, sign-up, creation."
       isCorrect: false
       explanation: "That's incorrect. Remember that the three timeframes encompass the entire OKR cycle introducing OKRs, to understanding their daily rhythms, to improving for the future."
-    - content: "Program kickoff, program mechanics, and future state."
+    - content: "Program kickoff, the OKR cycle, and future state."
       isCorrect: true
       explanation: "That's correct. Individuals need communication and instruction at three stages of the OKR cycle that help them through the whole process and keep them growing in maturity."
     - content: "Program information, roles, and expectations."
