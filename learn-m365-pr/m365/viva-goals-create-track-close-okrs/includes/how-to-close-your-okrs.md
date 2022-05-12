@@ -3,9 +3,7 @@
 
 The last of the **4Cs** is **Close**. At the end of the relevant OKR time period, you'll close your Key Results and score them based on your judgment of the progress made. You'll also be prompted to provide a **Closing Note** based on your reflections and learnings. These reflections will be critical in feeding into the process of writing your OKRs for the next time period.
 
-:::image type="content" source="../media/scoring-scale.png" alt-text="Image showing the scoring scale for OKRs based on stretch goals.":::
-
-Scoring is between 0 - 1. Between 0.7 - 0.9 is considered successful since OKRs should be based on stretch goals, which drive you and your team towards innovation and collaboration.
+Scoring is between 0-1. Between 0.7-0.9 is considered successful since OKRs should be based on stretch goals, which drive you and your team towards innovation and collaboration.
 
 Here's how to close your OKRs in Viva Goals:
 

@@ -15,4 +15,4 @@ The four main actions that you'll perform in the system are known as the **4Cs**
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4VlFg]
 
-By the end of this module you'll understand the **4Cs** and be able to create, track, and close your OKRs by using Viva Goals.
+By the end of this module, you'll understand the **4Cs** and be able to create, track, and close your OKRs by using Viva Goals.

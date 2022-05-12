@@ -1,6 +1,6 @@
 The next of the **4Cs** is **Create**. This is how to enter your OKRs into Viva Goals. During this process you can specify at what level OKRs are being set, who owns them, and how their progress will be tracked.
 
-## Objective
+## Objectives
 
 :::image type="content" source="../media/objective.png" alt-text="Screenshot that shows objectives in Viva Goals.":::
 
@@ -18,7 +18,7 @@ Information in the **Details** section will be set by default depending on the e
 1. To finally create your **Objective**, select the **Create** button.
 1. The **Objective** you've created will now appear in the main screen section.
 
-## Key Result
+## Key Results
 
 :::image type="content" source="../media/kr.png" alt-text="Screenshot that shows key results in Viva Goals.":::
 
