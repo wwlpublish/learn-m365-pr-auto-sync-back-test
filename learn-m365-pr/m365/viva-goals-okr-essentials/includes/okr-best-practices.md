@@ -93,7 +93,7 @@ Changes are rarely as straightforward as we imagine they'll be. Think back to a 
 
 Psychologists Don Kelley and Daryl Connor found that the path through change is actually quite predictable. They call it the Emotional Cycle of Change, and it consists of five stages: uninformed optimism, informed pessimism, the valley of despair, informed optimism, and success and fulfillment.
 
-:::image type="content" source="../media/emotional-cycle-change.png" alt-text="Diagram showing the emotional cycle of change.":::
+:::image type="content" source="../media/emotional-cycle-change.jpg" alt-text="Diagram showing the emotional cycle of change.":::
 
 Having a framework for this cycle will equip you to navigate this change more successfully and support your team to do the same.
 

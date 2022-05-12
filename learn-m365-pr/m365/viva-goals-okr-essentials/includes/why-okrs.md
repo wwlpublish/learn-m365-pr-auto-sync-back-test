@@ -23,8 +23,6 @@ OKRs help organizations solve many problems, including ones that are newly emerg
 
 Fortunately, OKRs help address these issues, and provide a modern business framework for high-growth companies.
 
-:::image type="content" source="../media/high-tech-remote.jpg" alt-text="A picture of a person using a tablet while on a video call with coworkers.":::
-
 ## OKR benefits
 
 In his book *Measure What Matters*, John Doerr developed the "Five Superpowers," which highlight the benefits that OKRs bring to employees and organizations as they navigate the challenges mentioned in the section above.
