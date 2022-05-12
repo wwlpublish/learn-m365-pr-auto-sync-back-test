@@ -32,6 +32,8 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- compliance
 units:
 - learn.wwl.implement-sensitivity-labels.introduction
 - learn.wwl.implement-sensitivity-labels.examine-how-to-create-sensitivity-label

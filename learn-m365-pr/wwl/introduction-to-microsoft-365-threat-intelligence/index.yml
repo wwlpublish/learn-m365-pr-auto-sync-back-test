@@ -30,6 +30,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- threat-protection
 units:
 - learn.wwl.introduction-to-microsoft-365-threat-intelligence.introduction
 - learn.wwl.introduction-to-microsoft-365-threat-intelligence.explore-microsoft-intelligent-security-graph

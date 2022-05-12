@@ -29,6 +29,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- business-applications
+- threat-protection
 units:
 - learn.wwl.introduction-to-microsoft-defender-for-office-365.introduction
 - learn.wwl.introduction-to-microsoft-defender-for-office-365.climb-security-ladder-eop-microsoft-defender-office-365

@@ -27,6 +27,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- identity-access
 units:
 - learn.wwl.introduction-to-identity-synchronization.introduction
 - learn.wwl.introduction-to-identity-synchronization.examine-authentication-options-microsoft-365

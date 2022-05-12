@@ -27,6 +27,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- business-applications
+- device-management
 units:
 - learn.wwl.describe-endpoint-modernization-management-concepts-deployment-options.introduction
 - learn.wwl.describe-endpoint-modernization-management-concepts-deployment-options.management-capabilities-of-microsoft-365

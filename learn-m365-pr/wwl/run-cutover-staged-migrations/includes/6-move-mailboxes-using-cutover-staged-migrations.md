@@ -15,7 +15,7 @@ The following steps explain how to create a migration endpoint:
 5.  Microsoft 365 tests the connection to the source server and displays the connection settings. If Microsoft 365 was unable to detect your settings, you need to type an Exchange server name that you plan to use for migration, the RPC proxy server name, authentication, and your mailbox permission. Then select **Next**.
 6.  On the **Enter general information** page, enter a Migration endpoint name, the maximum concurrent migrations (max. 300), and the maximum incremental syncs (max. 300). Then select **New** to create the migration endpoint.
 
-    :::image type="content" source="../media/migration-endpoint-c7e032f8.png" alt-text="screenshot of new migration endpoint page to enter general information":::
+     :::image type="content" source="../media/migration-endpoint-c7e032f8.png" alt-text="Screenshot of new migration endpoint page to enter general information.":::
 
 
 ### Move mailboxes using a cutover migration
@@ -26,7 +26,7 @@ The following steps describe how to create a migration batch and migrate mailbox
 2.  On the menu bar, select the **plus (+) sign** icon and then select **Migrate to Exchange Online**.
 3.  On **new migration batch** page, select **Cutover migration**, and then select **Next**.
 
-    :::image type="content" source="../media/new-migration-batch-f8d564a3.png" alt-text="screenshot of new migration endpoint page to select the migration type":::
+     :::image type="content" source="../media/new-migration-batch-f8d564a3.png" alt-text="Screenshot of new migration endpoint page to select the migration type.":::
 
 
 4.  On the next page, you can either select a migration endpoint if you previously created one, or you can have the wizard create a new one for you. Then select **Next**.
@@ -40,7 +40,7 @@ The following steps describe how to create a migration batch and migrate mailbox
 
 Once the migration batch is created, you must complete the following tasks to finish the cutover migration:‎.
 
-1.  **Verify the migration is working.** While the migration is in progress, you can follow the batch’s synchronization status on the migration dashboard. If there are errors, you can view a log file that provides more information about each error. You can also verify whether the users were created in the Office 365 admin center as the migration proceeds. After the migration is done, the sync status is set to **Synced**.
+1.  **Verify the migration is working.** While the migration is in progress, you can follow the batch’s synchronization status on the migration dashboard. If there are errors, you can view a log file that provides more information about each error. You can also verify whether the users were created in the Microsoft 365 admin center as the migration proceeds. After the migration is done, the sync status is set to **Synced**.
 2.  **Delete the migration batch.** After you change the MX record and verify that all email is being routed to Microsoft 365 mailboxes, notify the users that their mail is going to Microsoft 365. At this point, you can delete the cutover migration batch. When you delete a cutover migration batch, the migration service cleans up any records related to the migration batch and then deletes the migration batch. Complete the following steps to delete a cutover migration batch from the list of migration batches on the migration dashboard:
     
     1.  In the EAC, navigate to **recipients** &gt; **migration**.

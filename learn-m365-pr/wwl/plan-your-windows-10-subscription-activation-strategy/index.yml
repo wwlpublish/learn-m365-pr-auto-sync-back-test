@@ -29,6 +29,8 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- device-management
 units:
 - learn.wwl.plan-your-windows-10-subscription-activation-strategy.introduction
 - learn.wwl.plan-your-windows-10-subscription-activation-strategy.explore-enterprise-e3-availability-through-cloud-service-provider-channel

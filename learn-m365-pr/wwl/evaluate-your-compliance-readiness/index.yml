@@ -30,6 +30,8 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- compliance
 units:
 - learn.wwl.evaluate-your-compliance-readiness.introduction
 - learn.wwl.evaluate-your-compliance-readiness.plan-for-security-compliance-microsoft-365

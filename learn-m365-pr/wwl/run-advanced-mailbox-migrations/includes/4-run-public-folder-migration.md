@@ -44,7 +44,7 @@ Modern public folders are public folders stored on Exchange Server 2013 or later
      -  Exchange Server 2019
  -  You don't need to configure a hybrid deployment to migrate modern public folders.
 
-**Additional reading.** For more information, see [Use batch migration to migrate Exchange Server public folders to Exchange Online](/exchange/collaboration-exo/public-folders/batch-migration-of-legacy-public-folders?azure-portal=true).
+**Further reading.** For more information, see [Use batch migration to migrate Exchange Server public folders to Exchange Online](/exchange/collaboration-exo/public-folders/batch-migration-of-legacy-public-folders?azure-portal=true).
 
 ### Migrate legacy and modern public folders to Exchange Online
 
@@ -65,7 +65,7 @@ Complete the following steps to migrate legacy and modern public folders to Exch
 7.  **Complete the public folder migration**. This step includes the final delta-synchronization and completes the public folder migration batch. At this point, the on-premises public folders and the public folders in Exchange Online are identical.
 8.  **Test and unlock the public folder migration**. After you complete the migration, you must run tests to ensure the migration was successful. Once that step is complete, unlock the public folders so all mailboxes in Exchange Online can access those folders.
 
-**Additional reading.** The public folder migration steps were simplified for this unit. However, for detailed information, see [Use batch migration to migrate legacy public folders to Office 365 and Exchange Online](/exchange/collaboration-exo/public-folders/batch-migration-of-legacy-public-folders?azure-portal=true).
+**Further reading.** The public folder migration steps were simplified for this unit. However, for detailed information, see [Use batch migration to migrate legacy public folders to Office 365 and Exchange Online](/exchange/collaboration-exo/public-folders/batch-migration-of-legacy-public-folders?azure-portal=true).
 
 ### Migrate public folders to Microsoft 365 Groups
 

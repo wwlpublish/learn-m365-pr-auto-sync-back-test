@@ -27,6 +27,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- business-applications
 units:
 - learn.wwl.explore-windows-client-file-systems.introduction
 - learn.wwl.explore-windows-client-file-systems.examine-file-allocation-table-file-system

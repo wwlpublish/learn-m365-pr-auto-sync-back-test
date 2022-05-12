@@ -30,6 +30,9 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- device-management
+- data-analytics
 units:
 - learn.wwl.explore-desktop-analytics.introduction
 - learn.wwl.explore-desktop-analytics.explore-desktop-analytics
