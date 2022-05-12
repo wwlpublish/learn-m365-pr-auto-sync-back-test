@@ -11,7 +11,7 @@ In both instances, the cybercriminal restricts or blocks access to critical and 
 
 ## Growth of ransomware families
 
-A family is typically any group of related entities, and ransomware is no different. In this case, a ransomware family is created when several different types of ransomware share some or all of an earlier successful ransomware version but have been adapted or modified to meet a specific need. In 2021, three ransomware families accounted for over 55 percent of all cyberattacks detected. The increased use of ransomware families has one benefit. It makes them easier to detect, which can help to limit the damage from, or help prevent, an attack.
+A family is typically any group of related entities, and ransomware is no different. In this case, a ransomware family is created when several different types of ransomware share some or all of an earlier successful ransomware version but have been adapted or modified to meet a specific need. In 2021, three ransomware families accounted for over 55% of all cyberattacks detected. The increased use of ransomware families has one benefit: families make ransomware easier to detect, which can help to limit the damage from, or help prevent, an attack.
 
 By the end of 2021, the top ransomware families were:
 
