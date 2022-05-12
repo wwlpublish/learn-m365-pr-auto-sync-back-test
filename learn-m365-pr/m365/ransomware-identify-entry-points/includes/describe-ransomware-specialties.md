@@ -2,7 +2,7 @@ Ransomware has been around for a long time, skulking in the background, waiting 
 
 ## Locker vs. crypto
 
-While the objective of ransomware is to make an individual or organization pay a ransom, how it goes about that differs. Two of the more common versions are called locker and crypto.
+While the objective of ransomware is to make an individual or organization pay a ransom, how it goes about that differs. Two of the more common versions of ransomware are called locker and crypto.
 
 - **Locker ransomware** tends to bar access to a computer or service by stopping the device from booting or preventing access to the device.
 - **Crypto ransomware** can vary from encrypting sensitive or essential files to encrypting everything stored on the computer or server, effectively rendering it meaningless.
