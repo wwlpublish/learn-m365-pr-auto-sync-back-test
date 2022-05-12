@@ -33,7 +33,7 @@ There are dozens of different types of social engineering attacks, and the outco
 The following outlines the attack:
 
 - The **target** was a private acute care hospital in the United States.
-- **The attackers**, the group responsible were never identified, and no one claimed responsibility.
+- The **attackers** responsible were never identified and no one claimed responsibility.
 - **Entry Point**, the attackers used a phishing attack to gain credentials to the hospital systems, allowing the ransomware to be installed.
 - **The impact** of the attack stopped the day-to-day running of the hospital because all patient data and critical administrative systems were unavailable to doctors and nurses.
 - **To resolve the situation**, the hospital paid a ransom of $3.4M in Bitcoin because it was the most efficient way to restore their administrative systems and restore the regular operation of the hospital and the patients in its care.
