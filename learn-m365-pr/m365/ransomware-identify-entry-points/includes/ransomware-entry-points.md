@@ -16,7 +16,7 @@ Another attack vector used by cybercriminals is wireless networks. A cybercrimin
 
 ### Remote access services
 
-With an increase in the number of people working from home, cybercriminals have been targeting services that allow remote access to secure networks, for example, using remote desktop (RDP) software to access another computer or virtual private networks (VPN) to provide a secure connection to your work servers.
+With an increase in the number of people working from home, cybercriminals have been targeting services that allow remote access to secure networks, for example, using remote desktop protocol (RDP) software to access another computer or virtual private networks (VPN) to provide a secure connection to your work servers.
 
 ### Insiders
 
