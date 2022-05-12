@@ -51,15 +51,7 @@ With that baseline, let's also look at what OKRs are NOT.
 - They're not so overly specific as to be constraining and inflexible based on new information.
 
 > [!NOTE]
-> The difference between Key Initiatives and Projects is that Key Initiatives tend to come directly from the top of the organization, as a way to help shape the Objectives for departments and ensure alignment to leadership’s mission and vision. Projects occur at every level of an organization—they are the everyday work that each team does to contribute to OKRs.
-
-> Let’s say an organization-level Objective is Build a world-class company culture to attract and retain the best employees. 
-
-> The Key Result attached to this Objective is *Reduce voluntary attrition of our employees from 25% to 10%*. The big Key Initiative put in place to support this Key Result and, ultimately, Objective, is: *We are committed to increase diversity through recruitment at universities in 3 new geographic regions.* 
-
-> Since the Human Resources department is in charge of this Key Initiative, they build an OKR of their own: *Launch a comprehensive diversity and inclusion program in order to enhance our culture.* Nested beneath that are the Key Results and Projects which will ensure the success of the HR OKR and, in the end, the organization’s Key Initiative.  
-
-> :::image type="content" source="../media/ki-project-example.png" alt-text="Diagram that shows the Key Initiatives and Projects from the example.":::
+> The difference between Key Initiatives and Projects is that Key Initiatives tend to come directly from the top of the organization, as a way to help shape the Objectives for departments and ensure alignment to leadership’s mission and vision. Projects occur at every level of an organization—they are the everyday work that each team does to contribute to OKRs.<br><br>Let’s say an organization-level Objective is **Build a world-class company culture to attract and retain the best employees.** <br><br> The Key Result attached to this Objective is *Reduce voluntary attrition of our employees from 25% to 10%*. The big Key Initiative put in place to support this Key Result and, ultimately, Objective, is: *We are committed to increase diversity through recruitment at universities in 3 new geographic regions.* <br><br> Since the Human Resources department is in charge of this Key Initiative, they build an OKR of their own: *Launch a comprehensive diversity and inclusion program in order to enhance our culture.* Nested beneath that are the Key Results and Projects which will ensure the success of the HR OKR and, in the end, the organization’s Key Initiative.  <br><br> :::image type="content" source="../media/ki-project-example.png" alt-text="Diagram that shows the Key Initiatives and Projects from the example.":::
 
 ## Best practices for writing OKRs
 There are three core best practices to keep in mind as you write OKRs:
