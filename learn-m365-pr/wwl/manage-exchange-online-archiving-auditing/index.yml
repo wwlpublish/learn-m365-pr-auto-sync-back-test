@@ -27,6 +27,10 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- data-management
+- storage
+- communication
 units:
 - learn.wwl.manage-exchange-online-archiving-auditing.introduction
 - learn.wwl.manage-exchange-online-archiving-auditing.plan-implement-place-archiving

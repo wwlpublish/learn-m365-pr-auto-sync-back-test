@@ -28,6 +28,9 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- device-management
+- threat-protection
 units:
 - learn.wwl.troubleshoot-physical-failures-windows-clients.introduction
 - learn.wwl.troubleshoot-physical-failures-windows-clients.examine-factors-when-replacing-devices

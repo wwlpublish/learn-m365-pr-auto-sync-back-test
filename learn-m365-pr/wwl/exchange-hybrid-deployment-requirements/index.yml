@@ -29,6 +29,9 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- device-management
+- cloud-computing
 units:
 - learn.wwl.explore-exchange-hybrid-deployment-requirements.introduction
 - learn.wwl.explore-exchange-hybrid-deployment-requirements.examine-connection-options

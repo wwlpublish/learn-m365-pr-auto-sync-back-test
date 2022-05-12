@@ -28,6 +28,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- cloud-computing
 units:
 - learn.wwl.manage-universal-windows-platform-apps.introduction
 - learn.wwl.manage-universal-windows-platform-apps.compare-microsoft-store-microsoft-store-business

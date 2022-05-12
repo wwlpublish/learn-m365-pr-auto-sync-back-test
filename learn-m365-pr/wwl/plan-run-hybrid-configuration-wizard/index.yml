@@ -30,6 +30,9 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- device-management
+- communication
 units:
 - learn.wwl.plan-configure-hybrid-deployment-using-hybrid-configuration-wizard.introduction
 - learn.wwl.plan-configure-hybrid-deployment-using-hybrid-configuration-wizard.plan-exchange-hybrid-configuration

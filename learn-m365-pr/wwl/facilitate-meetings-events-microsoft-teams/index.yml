@@ -29,6 +29,8 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- collaboration
 units:
 - learn.wwl.facilitate-meetings-events-with-microsoft-teams.introduction
 - learn.wwl.facilitate-meetings-events-with-microsoft-teams.manage-meetings-appointments

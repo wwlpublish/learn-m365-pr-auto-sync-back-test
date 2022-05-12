@@ -34,6 +34,9 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- device-management
+- cloud-computing
 units:
 - learn.wwl.implement-windows-autopilot.introduction
 - learn.wwl.implement-windows-autopilot.explore

@@ -29,6 +29,8 @@ products:
 - office
 - office-365
 - office-exchange-server
+subjects:
+- communication
 units:
 - learn.wwl.manage-email-addresses,-lists,-resources.introduction
 - learn.wwl.manage-email-addresses,-lists,-resources.explore-address-lists

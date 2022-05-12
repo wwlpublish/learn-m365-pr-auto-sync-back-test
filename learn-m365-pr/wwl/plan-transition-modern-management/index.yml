@@ -32,6 +32,10 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- change-management
+- migration
+- cloud-computing
 units:
 - learn.wwl.plan-transition-modern-management.introduction
 - learn.wwl.plan-transition-modern-management.explore-using-co-management-transition-modern-management

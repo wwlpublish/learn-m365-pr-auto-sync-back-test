@@ -29,6 +29,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- security
 units:
 - learn.wwl.introduction-to-exchange-online-protection.introduction
 - learn.wwl.introduction-to-exchange-online-protection.examine-anti-malware-pipeline

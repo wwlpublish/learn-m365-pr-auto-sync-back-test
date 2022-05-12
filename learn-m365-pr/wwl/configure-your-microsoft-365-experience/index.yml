@@ -28,6 +28,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- productivity
 units:
 - learn.wwl.configure-your-microsoft-365-experience.introduction
 - learn.wwl.configure-your-microsoft-365-experience.configure-your-organizational-profile

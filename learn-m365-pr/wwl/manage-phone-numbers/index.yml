@@ -28,6 +28,8 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
 units:
 - learn.wwl.manage-phone-numbers.introduction
 - learn.wwl.manage-phone-numbers.evaluate-microsoft-teams-calling-solutions
