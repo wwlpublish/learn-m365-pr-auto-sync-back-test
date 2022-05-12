@@ -36,7 +36,7 @@ quiz:
     - content: "The entry point for any cyberattack is the point at which an attack breaches your security defenses."
       isCorrect: true
       explanation: "That's correct. The entry point is where a successful cyberattack occurred."
-  - content: "In what instance would a cybercriminal use an initial access broker?"
+  - content: "In what instance would a cybercriminal use an Initial Access Broker?"
     choices:
     - content: "To purchase the right ransomware for the target system."
       isCorrect: false
