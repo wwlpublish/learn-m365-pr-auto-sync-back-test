@@ -27,6 +27,10 @@ roles:
 - administrator
 products:
 - m365-ems-cloud-app-security
+subjects:
+- process-workflow
+- identity-access
+- cross-development
 units:
 - learn-m365.enable-conditional-access-app-control-third-party-apps.1-introduction
 - learn-m365.enable-conditional-access-app-control-third-party-apps.2-protect-apps-cloud-app-security-conditional-access-app-control

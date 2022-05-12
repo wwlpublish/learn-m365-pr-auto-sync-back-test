@@ -27,6 +27,9 @@ roles:
 products:
   - m365
   - ms-graph
+subjects:
+- identity-access
+- data-management
 units:
   - learn-m365.msgraph-user-photo-information.1-introduction
   - learn-m365.msgraph-user-photo-information.2-access-user-profile-photo

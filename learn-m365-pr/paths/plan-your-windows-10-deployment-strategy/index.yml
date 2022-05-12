@@ -27,6 +27,8 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- device-management
 modules:
 - learn.wwl.examine-windows-10-deployment-scenarios
 - learn.wwl.implement-windows-autopilot

@@ -21,6 +21,8 @@ roles:
 products: 
 - m365
 - azure
+subjects:
+- security
 modules:
 - learn.azure-security.secure-aad-users-with-mfa
 - learn-m365.audit-identity-access-management

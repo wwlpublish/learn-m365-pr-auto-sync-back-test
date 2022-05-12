@@ -25,6 +25,9 @@ products:
 - m365
 - viva
 - viva-topics
+subjects:
+- knowledge-management
+- employee-engagement
 units:
 - learn-m365-pr.viva-topics-planning.introduction
 - learn-m365-pr.viva-topics-planning.organization-roles

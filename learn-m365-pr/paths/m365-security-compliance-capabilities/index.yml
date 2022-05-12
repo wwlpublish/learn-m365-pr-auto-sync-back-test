@@ -21,6 +21,10 @@ roles:
 - business-user
 products:
 - m365
+subjects:
+- compliance
+- threat-protection
+- cloud-security
 modules:
 - learn.wwl.describe-security-concepts-methodologies
 - learn.wwl.describe-identity-principles-concepts

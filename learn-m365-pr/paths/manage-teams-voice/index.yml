@@ -23,6 +23,8 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
 modules:
 - learn.wwl.configure-manage-voice-users
 - learn.wwl.configure-deploy-manage-teams-devices

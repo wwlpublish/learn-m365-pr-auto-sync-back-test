@@ -28,6 +28,8 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
 units:
 - learn-m365.m365-teams-rooms-optimize-network.introduction
 - learn-m365.m365-teams-rooms-optimize-network.global-microsoft-365-network

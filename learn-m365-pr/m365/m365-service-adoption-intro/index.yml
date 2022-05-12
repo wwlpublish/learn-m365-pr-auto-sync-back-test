@@ -21,6 +21,10 @@ roles:
 - administrator
 products:
 - m365
+subjects:
+- business-applications
+- collaboration
+- modern-work
 units:
 - learn-m365.service-adoption-intro.introduction
 - learn-m365.service-adoption-intro.service-adoption-framework

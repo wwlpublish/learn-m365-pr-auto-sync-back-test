@@ -28,6 +28,8 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- security
 modules:
 - learn.wwl.explore-exchange-hybrid-deployment-requirements
 - learn.wwl.plan-configure-hybrid-deployment-using-hybrid-configuration-wizard

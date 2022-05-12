@@ -32,6 +32,9 @@ products:
 - m365
 - mem
 - mem-configuration-manager
+subjects:
+- business-applications
+- device-management
 units:
 - learn.setup-tenant-attach-using-configuration-manager.introduction
 - learn.setup-tenant-attach-using-configuration-manager.understand-tenant-attach

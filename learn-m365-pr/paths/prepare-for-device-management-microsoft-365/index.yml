@@ -27,6 +27,9 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- device-management
+- cloud-computing
 modules:
 - learn.wwl.introduction-to-co-management-of-windows-10-devices
 - learn.wwl.prepare-your-windows-10-devices-for-co-management

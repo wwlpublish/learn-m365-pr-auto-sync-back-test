@@ -25,6 +25,10 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- process-workflow
+- identity-access
+- cloud-security
 modules:
 - learn.wwl.introduction-to-identity-synchronization
 - learn.wwl.prepare-identity-synchronization-microsoft-365

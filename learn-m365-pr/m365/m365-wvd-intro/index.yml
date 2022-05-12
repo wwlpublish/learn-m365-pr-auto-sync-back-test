@@ -27,6 +27,8 @@ products:
 - m365
 - azure
 - azure-virtual-desktop
+subjects:
+- remote-hybrid-work
 units:
 - learn-m365.wvd-intro.introduction
 - learn-m365.wvd-intro.what-is-wvd

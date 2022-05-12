@@ -30,6 +30,10 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- cloud-computing
+- migration
+- information-protection-governance
 units:
 - learn-m365.m365-compliance-information-transition-to-microsoft-information-protection.label-management-overview
 - learn-m365.m365-compliance-information-transition-to-microsoft-information-protection.evaluate-windows-labeling

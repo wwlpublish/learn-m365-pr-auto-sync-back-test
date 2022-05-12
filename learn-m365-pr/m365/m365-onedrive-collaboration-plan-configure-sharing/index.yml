@@ -30,6 +30,9 @@ products:
 - m365
 - office-365
 - office-onedrive
+subjects:
+- business-applications
+- cloud-computing
 units:
 - learn-m365.m365-onedrive-collaboration-plan-configure-sharing.introduction
 - learn-m365.m365-onedrive-collaboration-plan-configure-sharing.configure-sharing

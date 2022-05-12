@@ -24,6 +24,10 @@ roles:
 - administrator
 products:
 - office-teams
+subjects:
+- device-management
+- collaboration
+- communication
 units:
 - learn-m365.teams.rollout-using-advisor.1-introduction
 - learn-m365.teams.rollout-using-advisor.2-start-deployment-teams-advisor

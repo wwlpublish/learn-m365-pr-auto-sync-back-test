@@ -29,6 +29,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- communication
+- compliance
 units:
 - learn-m365.m365-compliance-insider-prepare-communication-compliance.introduction
 - learn-m365.m365-compliance-insider-prepare-communication-compliance.identify-resolve
