@@ -20,4 +20,4 @@ The following troubleshooting steps often help find the problem for client acces
  -  **Test a new profile setup in Outlook.** This test indirectly validates Autodiscover and initial connectivity to the mailbox server. It also validates credential and permissions to the mailbox.
  -  **Run the Remote Connectivity Analyzer tool.** The [RCA tool](https://testconnectivity.microsoft.com/tests/o365?azure-portal=true), which is useful in many client access scenarios, can help pinpoint configuration issues by automating a series of connectivity and discovery requests.
 
-**Additional reading.** For more information, see [Troubleshoot a hybrid deployment](/exchange/hybrid-deployment/troubleshoot-a-hybrid-deployment?azure-portal=true).
+**Further reading.** For more information, see [Troubleshoot a hybrid deployment](/exchange/hybrid-deployment/troubleshoot-a-hybrid-deployment?azure-portal=true).

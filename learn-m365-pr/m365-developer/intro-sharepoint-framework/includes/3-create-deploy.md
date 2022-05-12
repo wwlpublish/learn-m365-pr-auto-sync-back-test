@@ -101,9 +101,10 @@ Let's look at the folders in a newly created and built SharePoint Framework proj
 
 - **.vscode**: This folder contains Visual Studio Code specific files.
 - **config**: This folder contains configuration files used by the project's various build tasks. You'll edit these files as necessary depending on the types of components you're creating and for specific situations, such as the site to test extensions or adding references to external libraries.
-- **dist**: This folder, created automatically when you bundle the project, contains the JavaScript bundle and manifest created by the build process that will be used in deployment.
+- **dist**: This folder contains the files generated when you bundle your project, regardless of which switch you use. The unminified JavaScript files and source maps contained in this folder are used when you run in debug mode.
 - **lib**: This folder, created automatically when you build the project, contains the temporary files generated from the compilation and transpilation of TypeScript to JavaScript and SCSS to CSS files.
 - **node_modules**: This folder is created automatically when installing package dependencies using the `npm install` command.
+- **release**: This folder contains a subfolder named **assets** that contains the files generated when you bundle your project using the `ship` or `production` switch. These files are deployed to the CDN. This folder also contains two additional subfolders that contain manifest files.
 - **src**: This folder contains all the source code for your project.
 - **temp**: This folder, created automatically when you test the project, contains files used by the local development web server.
 

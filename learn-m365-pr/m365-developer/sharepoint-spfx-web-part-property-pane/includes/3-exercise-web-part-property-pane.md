@@ -3,7 +3,7 @@ In this exercise, you'll manipulate the property pane for a SharePoint Framework
 ## Create a new SharePoint Framework solution and web part
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.13.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
 
 Open a command prompt and change to the folder where you want to create the project.
 
@@ -13,22 +13,18 @@ Run the SharePoint Framework Yeoman generator by executing the following command
 yo @microsoft/sharepoint
 ```
 
-Use the following to complete the prompt that is displayed (*if additional options are presented, accept the default answer*):
+Use the following to complete the prompt that is displayed (*if more options are presented, accept the default answer*):
 
 - **What is your solution name?:** HelloPropertyPane
-- **Only SharePoint Online (latest) is supported. For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.** SharePoint Online only (latest)
-- **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?:** No
-- **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?:** No
 - **Which type of client-side component to create?:** WebPart
 - **What is your Web part name?:** HelloPropertyPane
-- **What is your Web part description?:** HelloPropertyPane description
-- **Which framework would you like to use?:** No JavaScript framework
+- **Which framework would you like to use?:** No framework
 
-After provisioning the folders required for the project, the generator will install all the dependency packages using NPM.
+After provisioning the folders required for the project, the generator will install all the dependency packages using npm.
 
-When NPM completes downloading all dependencies, ensure the developer certificate is installed by executing the following command:
+When npm completes downloading all dependencies, ensure the developer certificate is installed by executing the following command:
 
-```console
+```consolenpm
 gulp trust-dev-cert
 ```
 
@@ -44,14 +40,11 @@ In the **serve.json** file, locate the `initialPage` setting. It's currently con
 "initialPage": "https://enter-your-SharePoint-site/_layouts/workbench.aspx",
 ```
 
-Update the `initialPage` setting to open the hosted workbench:
+Replace **https://enter-your-SharePoint-site** with the URL of a SharePoint Online site in your tenant. This will form a valid URL that will open the hosted workbench. The following is an example that would work in the **contoso** tenant:
 
 ```json
 "initialPage": "https://contoso.sharepoint.com/sites/mySite/_layouts/workbench.aspx",
 ```
-
-> [!NOTE]
-> Ensure you enter the proper URL of a SharePoint Online site collection you have access to.
 
 Execute the following command to build, start the local web server, and test the web part in the hosted workbench:
 
@@ -59,7 +52,7 @@ Execute the following command to build, start the local web server, and test the
 gulp serve
 ```
 
-If you see a warning dialog in the hosted workbench, switch back to the command prompt, wait for the **reload** subtask to finish executing, and then refresh the hosted workbench. 
+If you see a warning dialog in the hosted workbench, switch back to the command prompt, wait for the **reload** subtask to finish executing, and then refresh the hosted workbench.
 
 ![Screenshot of the gulp serve warning](../media/gulp-serve-warning.png)
 
@@ -71,13 +64,13 @@ Select the **HelloPropertyPane** web part to add the web part to the page:
 
 ![Screenshot of HelloPropertyPane web part in the SharePoint Workbench](../media/03-test-webpart-02.png)
 
-Open the property pane by selecting the pencil (edit) icon in the toolbar to the left of the web part:
+You can access the web part property pane by selecting the pencil (edit) icon in the toolbar to the left of the web part:
 
 ![Screenshot of HelloPropertyPane's property pane](../media/03-test-webpart-03.png)
 
 ## Add New Properties to the web part
 
-With a working web part, the next step is to customize the property pane experience. Create two new properties that will be used in the web part and property pane. 
+With a working web part, the next step is to customize the property pane experience. Create two new properties that will be used in the web part and property pane.
 
 Open the file **.\src\webparts\helloPropertyPane\HelloPropertyPaneWebPart.ts**. Locate the interface `IHelloPropertyPaneWebPartProps` after the `import` statements. Add the following two properties to the interface:
 
@@ -89,17 +82,17 @@ numContinentsVisited: number;
 Update the web part rendering to display the values of these two properties. Within the `HelloPropertyPaneWebPart` class, locate the `render()` method and find the following line in the HTML output:
 
 ```html
-<p class="${ styles.description }">${escape(this.properties.description)}</p>
+<div>Web part property value: <strong>${escape(this.properties.description)}</strong></div>
 ```
 
 Add the following two lines after the line you located:
 
 ```html
-<p class="${ styles.description }">Continent where I reside: ${escape(this.properties.myContinent)}</p>
-<p class="${ styles.description }">Number of continents I've visited: ${this.properties.numContinentsVisited}</p>
+<div>Continent where I reside: <strong>${escape(this.properties.myContinent)}</strong></div>
+<div>Number of continents I've visited: <strong>${this.properties.numContinentsVisited}</strong></div>
 ```
 
-Wait a few seconds for the project to rebuild, and then refresh the hosted workbench. The web part will render a blank string and **undefined** for these two fields as nothing is present in their values:
+Wait a few seconds for the project to rebuild, and then refresh the hosted workbench. The web part will render a blank string and **undefined** for these two properties as neither has been assigned a value:
 
 ![Screenshot of HelloPropertyPane with no values](../media/03-edit-property-pane-add-property-01.png)
 

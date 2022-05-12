@@ -1,4 +1,4 @@
-In this module, you'll learn about Microsoft 365 - the world's productivity cloud that delivers innovative and intelligent experiences, rich organizational insights, and a trusted platform to help people and organizations get more done. Microsoft 365, evolving from Office 365, offers much more than just the traditional office apps you may be familiar with. Explore how the capabilities of Microsoft 365 drive productivity and enables hybrid and flexible working strategies across all organizations. Everyone has a unique set of needs and so Microsoft 365 has a subscription for everyone. Sign up for your own trial environment so you can experience how Microsoft 365 empowers people and organizations to do their best work.
+In this module, you'll learn about Microsoft 365 - the world's productivity cloud that delivers innovative and intelligent experiences, rich organizational insights, and a trusted platform to help people and organizations get more done. Microsoft 365, evolving from Office 365, offers much more than just the traditional office apps you may be familiar with. Explore how the capabilities of Microsoft 365 drive productivity and enables hybrid and flexible working strategies across all organizations. Every organization has a unique set of needs and so Microsoft 365 has a subscription for everyone. Sign up for your own trial environment so you can experience how Microsoft 365 empowers people and organizations to do their best work.
 
 ### What is Microsoft 365?
 
@@ -25,4 +25,4 @@ After completing this module, you should be able to:
  -  Describe how Microsoft 365 drives productivity and empowers workers.
  -  Describe the differences between Office 365, Microsoft 365, and Windows 365.
  -  Describe the Microsoft 365 subscription options.
- -  Create a Microsoft 365 trial organization. 
+ -  Create a Microsoft 365 trial organization.

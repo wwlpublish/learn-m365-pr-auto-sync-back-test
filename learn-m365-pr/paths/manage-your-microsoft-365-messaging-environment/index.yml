@@ -3,7 +3,7 @@ uid: learn.wwl.manage-your-microsoft-365-messaging-environment
 metadata:
   title: Manage your Microsoft 365 messaging environment
   description: Manage your Microsoft 365 messaging environment
-  ms.date: 03/09/2022
+  ms.date: 05/11/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ prerequisites: |
   - Familiarity with Active Directory concepts such as centralized domain management, sites, and directory-based identity-related services
   - Ability to write PowerShell commands at an intermediate level
 summary: |
-  Examines how to manage your messaging environment in Microsoft 365, including authentication for messaging, configuring organizational settings and sharing, and implementing Mobile Device Management to manage mobile device access and mailbox policies.
+  Examines how to manage your messaging environment in Microsoft 365, including authentication for messaging, configuring organizational settings, and configuring organizational settings.
 iconUrl: /learn/achievements/m365-messaging-environment.svg
 levels:
 - intermediate
@@ -27,6 +27,7 @@ products:
 - office
 - office-365
 - office-exchange-server
+- office-exchange-online
 modules:
 - learn.wwl.manage-authentication-for-messaging
 - learn.wwl.configure-organizational-settings

@@ -18,7 +18,7 @@ Use the following to complete the prompt that is displayed (*if more options are
 - **What type of client-side extension to create?**: Application Customizer
 - **What is your Application Customizer name?**: HelloAppCustomizer
 
-After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, test the default project provisioned by the generator.
+After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When npm completes downloading all dependencies, test the default project provisioned by the generator.
 
 Unlike web parts, which can be tested in the hosted workbench, extensions must be tested in a modern SharePoint page. Special query string parameters are included with the request to indicate that the extension should be loaded from the local development web server.
 
@@ -39,15 +39,15 @@ When the SharePoint page loads, SharePoint will prompt you to load the debug scr
 
 Select the **Load debug scripts** button.
 
-![Screenshot of Allow debug scripts dialog](../media/app-customizer-load-debug-scripts.png)
+![Screenshot of Allow debug scripts dialog.](../media/app-customizer-load-debug-scripts.png)
 
 If you see this warning, switch back to the command prompt, wait for the **reload** subtask to finish executing, and then refresh the page:
 
-![Screenshot of the load manifest warning](../media/load-manifest-warning.png)
+![Screenshot of the load manifest warning.](../media/load-manifest-warning.png)
 
 Once the page loads, a SharePoint alert dialog will be shown:
 
-![Screenshot of SharePoint Alert dialog](../media/03-app-customizer-test.png)
+![Screenshot of SharePoint Alert dialog.](../media/03-app-customizer-test.png)
 
 This alert dialog is shown by the application customizer. Open the application customizer file located at **./src/extensions/helloAppCustomizer/HelloAppCustomizerApplicationCustomizer.ts** and find the `OnInit()` method. Notice the following line in the method that is triggering the dialog to appear.
 
@@ -275,7 +275,7 @@ When prompted, select the **Load debug scripts** button.
 
 Notice when the page loads, the text defined in the public properties is displayed in the header and footer of the page. If the header and footer don't show on the page, switch back to the command prompt, wait for the **reload** subtask to finish executing, and then refresh.
 
-![Screenshot displaying the application customizer placeholders](../media/03-application-customizer-test-placeholders.png)
+![Screenshot displaying the application customizer placeholders.](../media/03-application-customizer-test-placeholders.png)
 
 Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the command prompt.
 
@@ -297,17 +297,17 @@ gulp package-solution --ship
 
 In the browser, navigate to your SharePoint Online's tenant **App Catalog** site.
 
-Microsoft is in the process of transitioning from the classic app catalog user experience to a modern app catalog user experience. If you see the classic app catalog, you can select the **Try the new Manage Apps page** link displayed at the top of the page, or you can add **/_layouts/15/tenantAppCatalog.aspx** to the end of the app catalog site URL. Either option should take you to the modern app catalog (i.e. the **Manage Apps** page).
+Microsoft is in the process of transitioning from the classic app catalog user experience to a modern app catalog user experience. If you see the classic app catalog, you can select the **Try the new Manage Apps page** link displayed at the top of the page, or you can add **/_layouts/15/tenantAppCatalog.aspx** to the end of the app catalog site URL. Either option should take you to the modern app catalog (that is, the **Manage Apps** page).
 
-![Screenshot of the classic app catalog](../media/03-classic-app-catalog.png)
+![Screenshot of the classic app catalog.](../media/03-classic-app-catalog.png)
 
-![Screenshot of the modern app catalog](../media/03-modern-app-catalog.png)
+![Screenshot of the modern app catalog.](../media/03-modern-app-catalog.png)
 
 Drag the generated **./sharepoint/solution/sp-fx-app-customizer.sppkg** file into the **Apps for SharePoint** list.
 
 In the **Enable app** panel, select the **Enable this app and add it to all sites** radio button and then select **Enable app**.
 
-![Screenshot deploying the extension to the entire tenant](../media/03-application-customizer-tenant-wide-deploy-01.png)
+![Screenshot deploying the extension to the entire tenant.](../media/03-application-customizer-tenant-wide-deploy-01.png)
 
 In the **This app has been enabled** panel, select **Close**.
 
@@ -315,7 +315,7 @@ Select **More features** in the left-hand navigation and then select the **Open*
 
 Notice the application customizer is present, with the specified properties, in the list:
 
-![Screenshot displaying the Tenant Wide Extensions list](../media/03-application-customizer-tenant-wide-deploy-02.png)
+![Screenshot displaying the Tenant Wide Extensions list.](../media/03-application-customizer-tenant-wide-deploy-02.png)
 
 In a separate browser window, navigate to any modern page in any modern site within your SharePoint Online tenant. You should see the extension appear in the tenant.
 

@@ -18,7 +18,7 @@ Use the following to complete the prompt that is displayed (*if more options are
 - **What type of client-side extension to create?**: ListView Command Set
 - **What is your Command Set name?**: CommandSetDemo
 
-After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, open the project folder in **Visual Studio Code**.
+After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When npm completes downloading all dependencies, open the project folder in **Visual Studio Code**.
 
 ## Define the command set buttons
 
@@ -101,7 +101,7 @@ ClientSideComponentProperties="{&quot;messagePrefix&quot;:&quot;[command_set_pre
 
 In a browser, navigate to a SharePoint Online site collection where you created the **Work Status** list in the previous exercise. Select the **Site contents** link in the left-hand navigation. Select the **Work Status** list:
 
-![Screenshot of sample data in a list](../media/05-field-customizer-setup-list-04.png)
+![Screenshot of sample data in a list.](../media/05-field-customizer-setup-list-04.png)
 
 Locate and open the **./config/serve.json** file.
 
@@ -127,15 +127,15 @@ When prompted, select the **Load debug scripts** button.
 
 Notice a new button in the toolbar after the page loads. When the **Always On** button is selected, a dialog appears that displays the message prefix defined in the public properties and the total number of items selected. If the buttons aren't added to the toolbar, switch back to the command prompt, wait for the **reload** subtask to finish executing, and then refresh.
 
-![Screenshot of the command set Always On button](../media/07-command-set-test-01.png)
+![Screenshot of the command set Always On button.](../media/07-command-set-test-01.png)
 
 Select one item in the list. Notice a new button appears. Select the button and notice how the dialog has changed:
 
-![Screenshot of the command set One Item Selected button](../media/07-command-set-test-02.png)
+![Screenshot of the command set One Item Selected button.](../media/07-command-set-test-02.png)
 
 Select a second item in the list. Notice a new button appears. Select the button and notice how the dialog has changed:
 
-![Screenshot of the command set Two Item Selected button](../media/07-command-set-test-03.png)
+![Screenshot of the command set Two Item Selected button.](../media/07-command-set-test-03.png)
 
 Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the command prompt.
 
