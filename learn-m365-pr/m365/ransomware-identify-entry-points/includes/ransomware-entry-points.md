@@ -10,7 +10,7 @@ By strengthening and bolstering the most common entry points, you can plug the h
 
 The most common attack vector is email. A cybercriminal sends a seemingly legitimate email resulting in the recipient taking action. These actions might include selecting a link that allows the device to be compromised or unwittingly downloading ransomware.
 
-### Wireless Networks
+### Wireless networks
 
 Another attack vector used by cybercriminals is wireless networks. A cybercriminal will find an unsecured wireless network, for example, at an airport or conference, and use it to exploit vulnerabilities in any devices that access the wireless network.
 
