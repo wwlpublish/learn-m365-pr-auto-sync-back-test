@@ -31,7 +31,7 @@ Access to the best ransomware doesn't guarantee immediate success. An up-to-date
 
 Initial Access Brokers use various techniques, including social engineering, phishing, and brute force to access your systems. But their aim isn't to disrupt or steal but to obtain the highest level of user credentials available. Once the Initial Access Broker has this information, it's then auctioned or sold to the highest bidder on the dark web.
 
-Successfully breaking into a computer system undetected is complex and challenging, and the capability is beyond the means of most would-be criminals. However, successful Initial Access Brokers have removed these barriers by doing all the hard work. Thereby making it easier for non-technical cybercriminals to circumvent your security, steal sensitive data and install ransomware.
+Successfully breaking into a computer system undetected is complex and challenging, and the capability is beyond the means of most would-be criminals. However, successful Initial Access Brokers have removed these barriers by doing all the hard work. Thereby making it easier for non-technical cybercriminals to circumvent your security, steal sensitive data, and install ransomware.
 
 ### Ransomware as a service
 
