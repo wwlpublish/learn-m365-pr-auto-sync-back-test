@@ -37,4 +37,4 @@ Phishing is among the most commonly used forms of cyberattacks. It relies on the
 
 ### Malware
 
-Malware is designed to intentionally harm your computer, networks, and servers. It's used to deliver viruses, worms, and even ransomware. Malware usually gets into your systems through an email attack like phishing but can come from other sources.
+Malware is designed to intentionally harm your computer, networks, and servers. It's used to deliver viruses, worms, and even ransomware. Malware usually gets into your systems through an email attack, like phishing, but can come from other sources.
