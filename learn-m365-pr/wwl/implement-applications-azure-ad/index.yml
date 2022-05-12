@@ -29,6 +29,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- development-tools
+- identity-access
 units:
 - learn.wwl.implement-applications-azure-ad.introduction
 - learn.wwl.implement-applications-azure-ad.examine-integrated-apps-microsoft-365

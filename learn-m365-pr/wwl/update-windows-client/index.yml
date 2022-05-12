@@ -31,6 +31,9 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- business-applications
+- device-management
 units:
 - learn.wwl.update-windows-client.introduction
 - learn.wwl.update-windows-client.compare-windows-client-servicing-options-channels

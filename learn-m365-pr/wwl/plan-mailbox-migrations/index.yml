@@ -28,6 +28,9 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- communication
+- migration
 units:
 - learn.wwl.plan-mailbox-migrations.introduction
 - learn.wwl.plan-mailbox-migrations.explore-migration-options-exchange-online

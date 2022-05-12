@@ -31,6 +31,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- device-management
 units:
 - learn.wwl.manage-drivers-device-peripherals.introduction
 - learn.wwl.manage-drivers-device-peripherals.examine-device-drivers

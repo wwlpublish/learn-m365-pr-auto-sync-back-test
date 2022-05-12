@@ -30,6 +30,8 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- communication
 units:
 - learn.wwl.exchange-recipients.introduction
 - learn.wwl.exchange-recipients.explore-recipient-types

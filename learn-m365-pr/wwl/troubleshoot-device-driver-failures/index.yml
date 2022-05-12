@@ -27,6 +27,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- device-management
 units:
 - learn.wwl.troubleshoot-device-driver-failures.introduction
 - learn.wwl.troubleshoot-device-driver-failures.examine-tools-managing-troubleshooting-device-drivers

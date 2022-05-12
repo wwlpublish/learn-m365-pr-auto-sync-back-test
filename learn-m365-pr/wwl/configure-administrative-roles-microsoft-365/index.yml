@@ -30,6 +30,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- identity-access
 units:
 - learn.wwl.configure-administrative-roles-microsoft-365.introduction
 - learn.wwl.configure-administrative-roles-microsoft-365.explore-permission-model

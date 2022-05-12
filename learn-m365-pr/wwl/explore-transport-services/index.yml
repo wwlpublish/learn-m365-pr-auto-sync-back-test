@@ -28,6 +28,9 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- communication
+- device-management
 units:
 - learn.wwl.explore-transport-services.introduction
 - learn.wwl.explore-transport-services.examine-message-transport-components

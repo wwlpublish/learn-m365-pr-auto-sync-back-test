@@ -29,6 +29,9 @@ products:
 - office
 - office-365
 - office-exchange-server
+subjects:
+- data-management
+- data-visualization
 units:
 - learn.wwl.design-your-public-folder-hierarchy.introduction
 - learn.wwl.design-your-public-folder-hierarchy.explore-public-folders-exchange

@@ -28,6 +28,10 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- device-management
+- communication
+- collaboration
 units:
 - learn.wwl.plan-deploy-microsoft-teams.introduction
 - learn.wwl.plan-deploy-microsoft-teams.designate-teams-admin-roles

@@ -27,6 +27,9 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- communication
+- cloud-computing
 units:
 - learn.wwl.configure-message-transport.introduction
 - learn.wwl.configure-message-transport.options

@@ -31,6 +31,9 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- identity-access
+- threat-protection
 units:
 - learn.wwl.implement-microsoft-defender-for-identity.introduction
 - learn.wwl.implement-microsoft-defender-for-identity.explore

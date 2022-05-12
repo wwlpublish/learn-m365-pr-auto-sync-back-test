@@ -31,6 +31,10 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- communication
+- identity-access
+- cloud-security
 units:
 - learn.wwl.explore-office-365-message-encryption.introduction
 - learn.wwl.explore-office-365-message-encryption.explore-office-365-message-encryption

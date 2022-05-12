@@ -32,6 +32,8 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- device-management
 units:
 - learn.wwl.resolve-windows-10-upgrade-errors.introduction
 - learn.wwl.resolve-windows-10-upgrade-errors.identify-resolutions-to-common-upgrade-errors

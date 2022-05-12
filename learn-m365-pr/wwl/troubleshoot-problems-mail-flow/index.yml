@@ -30,6 +30,9 @@ products:
 - office-exchange-server
 - office-outlook
 - office-exchange-online
+subjects:
+- device-management
+- communication
 units:
 - learn.wwl.troubleshoot-problems-mail-flow.introduction
 - learn.wwl.troubleshoot-problems-mail-flow.investigate-problematic-messages
