@@ -27,7 +27,7 @@ It’s important to determine how receptive your users will likely be to changin
 - What are you trying to accomplish with Viva Goals? 
 - What does success look like with Viva Goals? Be specific. What do you hope to increase and decrease, and by how much? Describe your future state. You can even use the OKR framework to define success for Viva Goals, and assign yourself or your team this OKR.
 
-:::image type="content" source="../media/success-criteria.png" alt-text="Diagram showing three sucess criteria - objectives, key results, and projects.":::
+:::image type="content" source="../media/success-criteria.png" alt-text="Diagram showing three success criteria - objectives, key results, and projects.":::
 
 ### Identify key results and milestones
 - Your key results should improve based on adoption and will show leadership the impact of Viva Goals on your business 
@@ -40,12 +40,26 @@ Examples include employee NPS, internal survey data, and user data from Viva Goa
 ### Assemble your core team 
 Adopting new technology and methodology requires buy-in and support from across the business. Below are key groups and team members who can help bridge the technology and business outcomes that matter to your organization. Each group or member has a specific role in implementation and adoption and should be engaged early and often.
 
+|Role|Responsibilities|
+|----|----------------|
+|**Executive sponsor**|Communicate high-level vision and values of Viva Goals company-wide|
+|**Super champion**|Ensure the business goals are realized from adoption of Viva Goals|
+|**Champions**|Help evangelize Viva Goals and manage objection handling|
+|**Project lead**|Oversee Viva Goals deployment process and logistics|
+|**Tenant admin (IT specialist)**|Oversee all technical aspects of the Viva Goals deployment and rollout|
+|**Department leads (stakeholders)**|Identify how departments will use Viva Goals and encourage engagement|
+|**Early adopters**|Use Viva Goals early on and provide feedback to help smooth out any issues ahead of broad launch to entire organization|
+|**Employee training lead**|Manage and communicate training content about Viva Goals|
+|**OKR community / L&D leader**|Owns the creation and management of an internal community focused around OKRs, enabling broad discussion, and coordinating learning opportunities across the company.|
+
+
+
 ## 3. Deploy 
 Your end goal is to have Viva Goals operating across your entire organization so that you can connect the daily work of every team member to business outcomes.
 
 However, as we navigate the OKR Maturity model and change management associated with deployment, we recommend easing your organization into OKRs with a user pilot.
 
-:::image type="content" source="../media/maturity-model.jpg" alt-text="Diagram showing the 5 stages of the maturity model.":::
+:::image type="content" source="../media/maturity-model.jpg" alt-text="Diagram showing the five stages of the maturity model.":::
 
 The benefits of a user pilot are two-fold: first, you’ll quickly learn how the methodology works within your organizational culture and gain insight into the challenges and opportunities. Second, your pilot group can act as an example for the rest of the organization. Their success in achieving their objectives will serve as a motivator for more groups to get on board. 
 
@@ -83,6 +97,11 @@ No matter which path you choose, it’s important to find out what works best fo
 Your goals define the outcome you want and enable you to measure the success of your Viva Goals rollout.
 
 It's essential that you get full participation from stakeholders in defining your OKRs to help ensure they feel a sense of ownership and align these measures of success to defined project tasks. OKRs should include a mix of technical and user-focused success.
+
+|Objective|Key Results|To Do|
+|-|-|-|
+|**Implement Viva Goals in FY22 so we can improve focus and grow our business**|KR1: 100% of SLT add OKR in Q1 <br><br>KR2: Onboard and train 500 users in Q2.<br><br>KR3: 100% of users added ORKs to Viva Goals in Q3.|- Identify pilot users<br><br>- Create a pilot test plan<br><br>- Enable pilot users on Teams<br><br>- Implement the pilot<br><br>- Run a pilot feedback survey<br><br>- Measure pilot success|
+|**Build a rhythm of business on Viva Goals so we can embed OKRs into our daily work life**|FY22 Q2 SLT business review conducted and completed in Viva Goals<br><br>KR1: Increase use of Viva Goals dashboard in all-hands meetings from 1x to 3x in Q2.<br><br>KR2: Increase Teams dashboard usage from 1x month to 2x per month.<br><br>KR3: 100% of team managers complete one check-in per month.|- Company OKRs added in Viva Goals.<br><br>- Managers complete at least one check-in.<br><br>Create a compelling review dashboard.|
 
 ## 4. Train and adopt 
 We cover everything you need to know about writing great OKRs in the  [Write effective OKRs with Viva Goals](/modules/viva-goals-write-effective-okrs) module and incorporating OKRs into your business rhythms in the [Ensure OKR program success](/modules/ensure-okr-program-success) module.   
