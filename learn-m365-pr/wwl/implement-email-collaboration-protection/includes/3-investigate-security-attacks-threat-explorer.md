@@ -2,18 +2,18 @@ In Microsoft Defender for Office 365, there are two subscription plans—Plan 1 
 
 Defender for Office 365 Plan 1 uses **Real-time detections.** This feature is a subset of the **Threat Explorer** hunting tool in Plan 2.
 
- -  The **Real-time detections** report displays detections in real time. Threat Explorer provides this same feature, but it includes extra details for a given attack, such as highlighting attack campaigns. It also gives security operations teams the ability to remediate threats. This ability includes triggering an [Automated Investigation and Response investigation](/microsoft-365/security/office-365-security/automated-investigation-response-office?azure-portal=true).<br>
+ -  The **Real-time detections** report displays detections in real time. Threat Explorer provides this same feature, but it includes extra details for a given attack, such as highlighting attack campaigns. It also gives security operations teams the ability to remediate threats. This ability includes triggering an [Automated Investigation and Response investigation](/microsoft-365/security/office-365-security/automated-investigation-response-office?azure-portal=true).
  -  An **All email** view is available in Threat Explorer. It isn't included in the Real-time detections report.
  -  Rich filtering capabilities and remediation actions are included in Threat Explorer. For more information, see [Microsoft Defender for Office 365 Service Description: Feature availability across Defender for Office 365 plans](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans?azure-portal=true).
 
-Threat Explorer provides a powerful report that enables an organization's Security Operations team to effectively and efficiently investigate and respond to threats. The Threat Dashboard provides C-level executives a broad view of the threat landscape. In contrast, Threat Explorer enables security analysts and admins to drill down and understand details related to threats targeting their tenant.<br>
+Threat Explorer provides a powerful report that enables an organization's Security Operations team to effectively and efficiently investigate and respond to threats. The Threat Dashboard provides C-level executives a broad view of the threat landscape. In contrast, Threat Explorer enables security analysts and admins to drill down and understand details related to threats targeting their tenant.
 
 With Threat Explorer, organizations can:
 
  -  See malware detected by Microsoft 365 security features.
  -  View data about phishing URLs and selection verdict.
  -  Start an automated investigation and response process from a view in Explorer.
- -  Preview email header and download email body.<br>
+ -  Preview email header and download email body.
  -  View Email timeline.
  -  Export URL selection data.
  -  Find and investigate malicious email that was delivered.

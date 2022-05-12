@@ -12,6 +12,6 @@ You'll then be introduced to Attack simulation training. This training feature p
 After completing this module, you'll be able to:
 
  -  Describe the protection stack provided by Microsoft Defender for Office 365.
- -  Understand how Threat Explorer can be used to investigate threats and help to protect your tenant.<br>
+ -  Understand how Threat Explorer can be used to investigate threats and help to protect your tenant.
  -  Describe the Threat Tracker widgets and views that provide you with intelligence on different cybersecurity issues that might affect your company.
  -  Run realistic attack scenarios using Attack Simulator to help identify vulnerable users before a real attack impacts your organization.

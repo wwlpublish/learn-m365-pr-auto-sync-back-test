@@ -2,7 +2,7 @@ Organizations that have Microsoft 365 E5 or Microsoft Defender for Office 365 Pl
 
 Attack simulation training in Microsoft Defender for Office 365 lets an organization run benign cyberattack simulations to test its security policies and practices. It's also used to train employees to increase their awareness and reduce their susceptibility to attacks.
 
-To access Attack simulation traIning, navigate to the Microsoft 365 Defender portal and select **Email and collaboration &gt; Attack simulation training**.<br>
+To access Attack simulation traIning, navigate to the Microsoft 365 Defender portal and select **Email and collaboration &gt; Attack simulation training**.
 
 An organization must meet the following prerequisites to run Attack simulation training:
 
@@ -11,7 +11,7 @@ An organization must meet the following prerequisites to run Attack simulation t
     
      -  **Attack Simulator Administrators.** Create and manage all aspects of attack simulation campaigns.
      -  **Attack Simulator Payload Authors.** Create attack payloads that an admin can start later.
- -  The organization's email is hosted in Exchange Online. Attack simulation training isn't available for on-premises email servers.<br>
+ -  The organization's email is hosted in Exchange Online. Attack simulation training isn't available for on-premises email servers.
  -  Attack simulation data and training-related data are stored with other customer data for Microsoft 365 services. For more information, see: [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations?azure-portal=true).
 
 ### Understanding user behavior
@@ -25,12 +25,12 @@ The graph depicts:
  -  **Actual compromise rate.** Reflects the percentage of employees that fell for the simulation.
  -  **Predicted compromise rate.** Reflects the average compromise rate for simulations using the same type of payload across other Microsoft 365 tenants that use Attack simulation training.
 
-:::image type="content" source="../media/attack-simulation-training-graph-b3d01db9.png" alt-text="screenshot of the attack simulation training graph":::
+:::image type="content" source="../media/attack-simulation-training-graph-b3d01db9.png" alt-text="Screenshot of the attack simulation training graph.":::
 
 
 ### Running Attack simulation training
 
-Attack simulation training consists of the following steps, each of which is described in detail in the following sections:<br>
+Attack simulation training consists of the following steps, each of which is described in detail in the following sections:
 
 1.  Select a social engineering (simulation) technique.
 2.  Select a payload.
@@ -44,9 +44,9 @@ Phishing is a generic term for email attacks that try to steal sensitive informa
 
 In Attack simulation training, you can select from the following social engineering (simulation) techniques:
 
- -  **Credential harvest.** An attacker sends the recipient a message that contains a URL. When the recipient selects the URL, they're taken to a website that typically shows a dialog box that asks the user for their username and password. The destination page is themed to represent a well-known website. By displaying what appears to be a well-known website, the goal of the phishing attack is to have the user actually believe they've accessed a real site.<br>
- -  **Malware attachment.** An attacker sends the recipient a message that contains an attachment. When the recipient opens the attachment, arbitrary code (for example, a macro) is run on the user's device. This code helps the attacker install more code or further entrench themselves.<br>
- -  **Link in attachment.** This simulation is a hybrid of a credential harvest. An attacker sends the recipient a message that contains a URL within an attachment. When the recipient opens the attachment and selects the URL, they're taken to a website that typically shows a dialog box that asks the user for their username and password. By displaying what appears to be a well-known website, the goal of the phishing attack is to have the user actually believe they've accessed a real site.<br>
+ -  **Credential harvest.** An attacker sends the recipient a message that contains a URL. When the recipient selects the URL, they're taken to a website that typically shows a dialog box that asks the user for their username and password. The destination page is themed to represent a well-known website. By displaying what appears to be a well-known website, the goal of the phishing attack is to have the user actually believe they've accessed a real site.
+ -  **Malware attachment.** An attacker sends the recipient a message that contains an attachment. When the recipient opens the attachment, arbitrary code (for example, a macro) is run on the user's device. This code helps the attacker install more code or further entrench themselves.
+ -  **Link in attachment.** This simulation is a hybrid of a credential harvest. An attacker sends the recipient a message that contains a URL within an attachment. When the recipient opens the attachment and selects the URL, they're taken to a website that typically shows a dialog box that asks the user for their username and password. By displaying what appears to be a well-known website, the goal of the phishing attack is to have the user actually believe they've accessed a real site.
  -  **Link to malware.** An attacker sends the recipient a message that contains a link to an attachment on a well-known file sharing site (for example, SharePoint Online or Dropbox). When the recipient selects the URL, the attachment opens, and then arbitrary code, such as a macro, is run on the user's device. This code helps the attacker install more code or further entrench themselves.
  -  **Drive-by-url.** An attacker sends the recipient a message that contains a URL. When the recipient selects the URL, they're taken to a website that tries to run background code. This background code attempts to gather information about the recipient or deploy arbitrary code on their device. Typically, the destination website is a well-known website that has been compromised or is a clone of a well-known website. Familiarity with the website helps convince the user that the link is safe to select. This technique is also known as a watering hole attack.
 
