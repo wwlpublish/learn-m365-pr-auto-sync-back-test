@@ -38,6 +38,6 @@ The following outlines the attack:
 - The **impact** of the attack stopped the day-to-day running of the hospital because all patient data and critical administrative systems were unavailable to doctors and nurses.
 - The **resolution** was the hospital paid a ransom of $3.4M in Bitcoin because it was the most efficient way to restore their administrative systems and restore the regular operation of the hospital and the patients in its care.
 
-The response:
+The **response**:
 
 - The hospital reported the incident to the Federal Bureau of Investigations and the local state police department, who began an investigation into the attack. At the time, the FBI recommended that the hospital not pay the ransom.
