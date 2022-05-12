@@ -28,7 +28,7 @@ Social engineering uses deception to manipulate users into revealing private and
 
 There are dozens of different types of social engineering attacks, and the outcome is the same in each. To elicit or obtain information that allows the cybercriminal to continue their attack.
 
-## Case Study -- A private hospital
+## Case study - a private hospital
 
 The following outlines the attack:
 
