@@ -4,7 +4,7 @@ Cybercriminals will exploit any advantage they can find to bypass your security 
 
 A threat landscape represents all current cybersecurity threats and possible attacks that an organization or an individual could be exposed to. It's broadly defined by the state of an organization or individual's cybersecurity, how valuable the data in an organization or industry sector is, and the current flavor of malware used by cybercriminals.
 
-For example, suppose the staff in an organization moves to hybrid or remote working. In that case, it could see a shift in its threat landscape as more cybercriminals target remote-access tools.
+For example, suppose the staff in an organization moves to hybrid or remote working. In that case, the organization could see a shift in its threat landscape as more cybercriminals target remote-access tools.
 
 Factors that can influence a shift in the threat landscape include:
 
