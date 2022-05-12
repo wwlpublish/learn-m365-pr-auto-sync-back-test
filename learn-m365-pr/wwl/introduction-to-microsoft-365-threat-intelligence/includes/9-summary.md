@@ -7,7 +7,7 @@ You also learned that Microsoft 365 hosts one of the largest networks in the wor
 
 To proactively find and eliminate threats, Microsoft 365 Threat Intelligence provides a collection of these insights. Microsoft 365 Threat Intelligence is available with Microsoft 365 Enterprise E5. If your organization is using another Microsoft 365 Enterprise subscription, Threat Intelligence can be purchased as an add-on.
 
-In this module, you learned about the Microsoft Intelligent Security Graph. This feature powers threat intelligence in Microsoft 365 by consuming trillions of signals daily across the Microsoft 365 network from sources such as user activity, authentication, email, compromised PCs, and security incidents.<br>
+In this module, you learned about the Microsoft Intelligent Security Graph. This feature powers threat intelligence in Microsoft 365 by consuming trillions of signals daily across the Microsoft 365 network from sources such as user activity, authentication, email, compromised PCs, and security incidents.
 
 You then examined how Microsoft 365 Defender uses alerts. Alerts indicate the occurrence of malicious or suspicious events in your environment. They're typically part of a broader attack and provide clues about an incident.
 

@@ -1,6 +1,6 @@
 Advanced hunting in Microsoft 365 Defender is a query-based threat-hunting tool that lets you explore up to 30 days of raw data. You can proactively inspect events in your network to locate threat indicators and entities. The flexible access to data enables unconstrained hunting for both known and potential threats.
 
-Advanced hunting enables you to proactively hunt for threats across:<br>
+Advanced hunting enables you to proactively hunt for threats across:
 
  -  Devices managed by Microsoft Defender for Endpoint.
  -  Emails processed by Microsoft 365.
@@ -26,7 +26,7 @@ It's recommended that you complete several steps to quickly get started with adv
 5.  **Optimize queries and handle errors.** Understand how to create efficient and error-free queries.
 6.  Create custom detection rules. Understand how you can use advanced hunting queries to trigger alerts and take response actions automatically.
 
-Advanced hunting data can be categorized into two distinct types, each consolidated differently.<br>
+Advanced hunting data can be categorized into two distinct types, each consolidated differently.
 
  -  **Event or activity data.** Populates tables about alerts, security events, system events, and routine assessments. Advanced hunting receives this data almost immediately after the sensors that collect them successfully transmit them to the corresponding cloud services. For example, you can query event data from healthy sensors on workstations or domain controllers almost immediately after they're available on Microsoft Defender for Endpoint and Microsoft Defender for Identity.
  -  **Entity data.** Populates tables with information about users and devices. This data comes from both relatively static data sources and dynamic sources, such as Active Directory entries and event logs. To provide fresh data, tables are updated with any new information every 15 minutes, adding rows that might not be fully populated. Every 24 hours, data is combined to insert a record that contains the latest, most comprehensive data set about each entity.
@@ -44,7 +44,7 @@ The syntax of the tabular expression statement has tabular data flow from one ta
 
 For example, consider the following query statement that queries the number of storms that occurred in the state of Florida over a give time period. The following Kusto query has a single statement, which is a tabular expression statement. The statement starts with a reference to a table called StormEvents (the database that host this table is implicit here, and part of the connection information). The data (rows) for that table are then filtered by the value of the StartTime column, and then filtered by the value of the State column. The query then returns the count of "surviving" rows.
 
-:::image type="content" source="../media/kusto-query-example-2-1b734494.png" alt-text="example of a basic Kusto query statement with a tabular expression statement":::
+:::image type="content" source="../media/kusto-query-example-2-1b734494.png" alt-text="Screenshot of a basic Kusto query that's a tabular expression statement.":::
 
 
 The following operators are allowed:
@@ -67,10 +67,10 @@ The following screenshot shows an advanced hunting query using the Kusto query l
  -  Filter on the **ProcessCommandLine**.
  -  Project only the columns you're interested in exploring and limit the results to **100**.
 
-:::image type="content" source="../media/kusto-query-example-3c4f01c7.png" alt-text="screenshot showing an advanced hunting query using the Kusto query language":::
+:::image type="content" source="../media/kusto-query-example-3c4f01c7.png" alt-text="Screenshot showing an advanced hunting query using the Kusto query language.":::
 
 
-The following best practices can be followed to ensure query performance:<br>
+The following best practices can be followed to ensure query performance:
 
  -  Apply filters first - Kusto is highly optimized to use time filters.
  -  Use the "**has"** keyword rather than "**contains"** when looking for full tokens.
@@ -80,7 +80,7 @@ The following best practices can be followed to ensure query performance:<br>
 
 Here's an example of a Kusto advanced hunting query. This query searches for file creation events where the files that were created had suspicious file extensions:
 
-:::image type="content" source="../media/kusto-example-with-bad-file-endings-a576357e.png" alt-text="example of a Kusto query for process creation with suspicious file ending":::
+:::image type="content" source="../media/kusto-example-with-bad-file-endings-a576357e.png" alt-text="Screenshot of a Kusto query for process creation with suspicious file ending.":::
 
 
 ## Knowledge check

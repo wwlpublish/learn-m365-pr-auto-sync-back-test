@@ -27,12 +27,7 @@ You can filter alerts according to these criteria:
 
 ### Analyze an alert
 
-To see the main alert page, select the name of the alert. Here's an example.
-
-:::image type="content" source="../media/main-alert-page-1293b9a6.png" alt-text="Screenshot of the main alerts page for a selected alert in the Microsoft 365 Defender portal.":::
-
-
-An alert page is composed of these sections:
+To see the main alert page, select the name of the alert. An alert page is composed of these sections:
 
  -  Alert story. This section describes the chain of events and alerts related to this alert in chronological order.
  -  Summary details
@@ -141,9 +136,6 @@ The Manage alert pane allows you to view or specify:
  -  A comment on the alert.
 
 To manage a set of alerts similar to a specific alert, select **View similar alerts** in the **INSIGHT** box in the summary details section of the alert page.
-
-:::image type="content" source="../media/view-similar-alerts-option-6da6b2c8.png" alt-text="Screenshot of the alert details pane with the View Similar Alerts option highlighted.":::
-
 
 From the **Manage alerts** pane, you can then classify all of the related alerts at the same time. Here's an example.
 

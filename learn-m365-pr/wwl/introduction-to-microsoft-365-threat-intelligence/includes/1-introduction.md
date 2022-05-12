@@ -20,12 +20,12 @@ You'll then examine how Microsoft 365 Defender uses alerts. Alerts indicate the 
 
 The module then examines how alerts are the trigger mechanism for Automated investigation and response (AIR) capabilities in Microsoft 365 Defender. AIR enables organizations to run automated investigation processes in response to well-known threats that exist today. AIR can help an organization's security operations team operate more efficiently and effectively.
 
-The module concludes with an introduction to threat hunting. It examines Microsoft Threat Protection and advanced hunting in Microsoft 365 Defender. Threat hunting enables security operators to identify cybersecurity threats. Advanced hunting in Microsoft 365 Defender proactively inspects events in your network using Kusto-based queries to locate threat indicators and entities.<br>
+The module concludes with an introduction to threat hunting. It examines Microsoft Threat Protection and advanced hunting in Microsoft 365 Defender. Threat hunting enables security operators to identify cybersecurity threats. Advanced hunting in Microsoft 365 Defender proactively inspects events in your network using Kusto-based queries to locate threat indicators and entities.
 
 After completing this module, you'll be able to:
 
  -  Describe how threat intelligence in Microsoft 365 is powered by the Microsoft Intelligent Security Graph.
  -  Create alerts that can identify malicious or suspicious events.
  -  Understand how the Microsoft 365 Defender's Automated investigation and response process works.
- -  Describe how threat hunting enables security operators to identify cybersecurity threats.<br>
+ -  Describe how threat hunting enables security operators to identify cybersecurity threats.
  -  Describe how Advanced hunting in Microsoft 365 Defender proactively inspects events in your network to locate threat indicators and entities.

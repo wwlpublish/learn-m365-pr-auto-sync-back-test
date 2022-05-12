@@ -64,7 +64,7 @@ The **Overview** tab provides a preview of the detailed analyst report. It also 
 :::image type="content" source="../media/overview-section-threat-analytics-page-3a6ec605.png" alt-text="Screenshot of the overview section of the threat analytics report.":::
 
 
-Each report includes charts designed to provide information about the organizational impact of a threat:<br>
+Each report includes charts designed to provide information about the organizational impact of a threat:
 
  -  **Related incidents**. Provides an overview of the impact of the tracked threat to the organization with the following data:
     
@@ -74,7 +74,7 @@ Each report includes charts designed to provide information about the organizati
  -  **Impacted assets**. Shows the number of distinct devices and email accounts (mailboxes) that currently have at least one active alert associated with the tracked threat. Alerts are triggered for mailboxes that received threat emails. Organizations should review both org- and user-level policies for overrides that cause the delivery of threat emails.
  -  **Prevented email attempts**. Shows the number of emails from the past seven days that were either blocked before delivery or delivered to the junk mail folder.
 
-Each report includes charts that provide an overview of how resilient the organization is against a given threat:<br>
+Each report includes charts that provide an overview of how resilient the organization is against a given threat:
 
  -  **Secure configuration status**. Shows the number of devices with misconfigured security settings. Organizations should apply the recommended security settings to help mitigate the threat. Devices are considered Secure if they've applied *all* the tracked settings.
  -  **Vulnerability patching status**. Shows the number of vulnerable devices. Organizations should apply security updates or patches to address vulnerabilities exploited by the threat.

@@ -8,15 +8,15 @@ Threat intelligence in Microsoft 365 is powered by the Microsoft Intelligent Sec
 
  -  Consumes 6.5 trillion signals daily across the Microsoft 365 network. A signal is a term meaning information traffic.
  -  Uses advanced analytics consisting of artificial intelligence and machine learning capabilities.
- -  Integrates this data across Microsoft's threat detection and response capabilities to address different attack scenarios.<br>
+ -  Integrates this data across Microsoft's threat detection and response capabilities to address different attack scenarios.
 
 The signals are obtained from the Intelligent Security Graph, plus other third-party feeds, including teams of experts hunting for malicious activities around the globe. Machine learning models and artificial intelligence analyze vast security signals to identify vulnerabilities and threats. The massive scope of signals enables Microsoft to understand the full context of an event to power quick threat detection and automated response.
 
 These signals are fed into Microsoft’s three major platforms: Windows, Azure, and Microsoft 365. Microsoft then integrates these signals so that security services in one platform can communicate with security services in one of the other platforms.
 
-As a result, any threat seen in Windows is automatically and quickly added to the set of threats that Microsoft 365 views. This design provides deep insight into the evolving cyber threat landscape.<br>
+As a result, any threat seen in Windows is automatically and quickly added to the set of threats that Microsoft 365 views. This design provides deep insight into the evolving cyber threat landscape.
 
-:::image type="content" source="../media/microsoft-intelligent-security-graph-0ed4d5c7.png" alt-text="Graphic of statistics involving the Microsoft Intelligent Security Graph":::
+:::image type="content" source="../media/microsoft-intelligent-security-graph-0ed4d5c7.png" alt-text="Diagram showing statistics involving the Microsoft Intelligent Security Graph.":::
 
 
 ### Microsoft Graph Security API

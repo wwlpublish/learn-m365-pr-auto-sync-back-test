@@ -12,12 +12,12 @@ As security alerts are triggered, it's up to your security operations team to lo
 
 In Microsoft 365 Defender, automated investigation and response with self-healing capabilities works across your devices, email &amp; content, and identities.
 
-Automated investigation and response capabilities enable an organization's security operations team to dramatically increase the company's capacity to deal with security alerts and incidents. With automated investigation and response, you can reduce the cost of dealing with investigation and response activities. You can also get the most out of your threat protection suite. Automated investigation and response capabilities help your security operations team by:
+Automated investigation and response capabilities enable an organization's security operations team to dramatically increase the company's capacity to deal with security alerts and incidents. With automated investigation and response, you can reduce the cost of dealing with investigation and response activities. You can also get the most out of your threat protection suite. Automated investigation and response capabilities help your security operations team complete the following steps:
 
-1.  Determining whether a threat requires action.
-2.  Taking (or recommending) any necessary remediation actions.
-3.  Determining whether and what other investigations should occur.
-4.  Repeating the process as necessary for other alerts.
+1.  Determine whether a threat requires action.
+2.  Take (or recommend) any necessary remediation actions.
+3.  Determine whether and what other investigations should occur.
+4.  Repeat the process as necessary for other alerts.
 
 An alert creates an incident, which can start an automated investigation. The automated investigation results in a verdict for each piece of evidence. Verdicts can be:
 

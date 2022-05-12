@@ -2,7 +2,7 @@ While well-funded and highly organized security operations teams often have the 
 
 ### What is threat hunting?
 
-Cyberthreat hunting, or simply threat hunting, is a proactive cybersecurity activity. Its goal is to find threats that are either buried under massive quantities of security signals and alert data, or aren't flagged by security products. It's generally a manual process, although as we'll discuss in a moment, Microsoft Threat Protection can make the process much less tedious and time-consuming.<br>
+Cyberthreat hunting, or simply threat hunting, is a proactive cybersecurity activity. Its goal is to find threats that are either buried under massive quantities of security signals and alert data, or aren't flagged by security products. It's generally a manual process, although as we'll discuss in a moment, Microsoft Threat Protection can make the process much less tedious and time-consuming.
 
 During threat hunting, security operations practitioners apply threat intelligence takeaways, whether from their own internal research or external research. With this information in hand, they then devise ingenious ways to determine the existence of an otherwise undetected threat. To do that, they need efficient access to comprehensive data about events and entities in their network. They also need a good, quantifiable understanding of normal states or baselines.
 
@@ -18,7 +18,7 @@ Effective threat hunting relies on:
 
 ### Threat hunting example
 
-Let’s look at what Jessica, Contoso's Security Operations admin, might go through:<br>
+Let’s look at what Jessica, Contoso's Security Operations admin, might go through:
 
 1.  Jessica learns about a new vulnerability that affects one of the product suites in Contoso's environment. In this case, the attacks are against a known web content management system (CMS).
 2.  After doing some more research, Jessica is unable to determine how attackers will use this vulnerability. Because the release of this vulnerability is so recent, there's no historical data Jessica can analyze to determine how attackers may use this threat in Contoso's environment. Contoso's situation is made even more arduous by the fact that a patch to remedy the issue isn't yet available.
@@ -34,7 +34,7 @@ The threat hunting capabilities in Microsoft Threat Protection enable you to fin
 
 Microsoft Threat Protection itself is made possible by the power of the Azure cloud coupled with insights from the Microsoft Intelligent Security Graph. At the most basic level, the Intelligent Security Graph collects all the security-related data from every Microsoft application. It then crunches this massive amount of threat intelligence and security data from across Microsoft’s portfolio against indicators, expert human rules, and machine learning (ML) algorithms in Microsoft AI. Intelligent Security Graph then generates meaningful alerts, identifying threat components and activities that automated investigation and response (AIR) capabilities can remediate.
 
-For example, Microsoft Threat Protection distinguishes between malicious and normal attempts to write to the system registry. It does so by looking at millions of examples of registry writes and their contexts. These contexts include the files or processes involved, file pedigrees, whatever was written to the registry, the time the writes were completed, and so on. With this much baseline information, Microsoft AI can confidently raise alerts and start conducting remediation activities, rapidly placing harmful registry modifications and associated files in quarantine.<br>
+For example, Microsoft Threat Protection distinguishes between malicious and normal attempts to write to the system registry. It does so by looking at millions of examples of registry writes and their contexts. These contexts include the files or processes involved, file pedigrees, whatever was written to the registry, the time the writes were completed, and so on. With this much baseline information, Microsoft AI can confidently raise alerts and start conducting remediation activities, rapidly placing harmful registry modifications and associated files in quarantine.
 
 Microsoft AI and other automated systems are effective at finding threats. However, human intuition and flexibility can still beat them when dealing with highly specialized or unusual scenarios. Microsoft Threat Protection's threat hunting capabilities provide the tools needed by human analysts to let them:
 
