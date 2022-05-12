@@ -23,6 +23,8 @@ roles:
 - auditor
 products: 
 - m365
+subjects:
+- search-ads-news
 modules:
 - learn-m365.compliance-discover-advanced-ediscovery
 - learn-m365.compliance-discover-advanced-audit

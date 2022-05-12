@@ -29,6 +29,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- information-protection-governance
+- communication
 units:
 - learn-m365.m365-compliance-insider-plan-information-barriers.introduction
 - learn-m365.m365-compliance-insider-plan-information-barriers.information-barriers

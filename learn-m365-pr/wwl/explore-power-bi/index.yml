@@ -28,6 +28,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- data-visualization
 units:
 - learn.wwl.explore-power-bi.introduction
 - learn.wwl.explore-power-bi.examine-functionality

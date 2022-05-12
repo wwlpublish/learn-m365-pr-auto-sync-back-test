@@ -19,6 +19,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- custom-app-development
+- collaboration
 modules:
 - learn-m365.sharepoint-spfx-get-started
 - learn-m365.sharepoint-spfx-web-parts

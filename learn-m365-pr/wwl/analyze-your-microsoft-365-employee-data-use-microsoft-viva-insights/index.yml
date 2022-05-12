@@ -28,6 +28,10 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- data-analytics
+- collaboration
+- employee-engagement
 units:
 - learn.wwl.analyze-your-microsoft-365-employee-data-use-microsoft-viva-insights.introduction
 - learn.wwl.analyze-your-microsoft-365-employee-data-use-microsoft-viva-insights.examine-analytical-features-microsoft-viva-insights

@@ -29,6 +29,9 @@ roles:
 - administrator
 products:
 - m365-ems-cloud-app-security
+subjects:
+- device-management
+- cloud-security
 units:
 - learn-m365.advanced-scenarios-guidance.introduction
 - learn-m365.advanced-scenarios-guidance.configure-custom-indicators-compromise

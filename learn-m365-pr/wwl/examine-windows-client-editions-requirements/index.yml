@@ -26,6 +26,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- device-management
 units:
 - learn.wwl.examine-windows-client-editions-requirements.introduction
 - learn.wwl.examine-windows-client-editions-requirements.examine-windows-client-editions-capabilities

@@ -29,6 +29,8 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- migration
 units:
 - learn.wwl.run-advanced-mailbox-migrations.introduction
 - learn.wwl.run-advanced-mailbox-migrations.plan-pst-migration

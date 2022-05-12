@@ -27,6 +27,9 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- device-management
+- identity-access
 units:
 - learn.wwl.explore-name-resolution.introduction
 - learn.wwl.explore-name-resolution.explain-how-name-resolution-works

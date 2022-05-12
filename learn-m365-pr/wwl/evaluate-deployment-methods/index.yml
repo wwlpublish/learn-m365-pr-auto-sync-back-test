@@ -27,6 +27,9 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- development-tools
+- device-management
 units:
 - learn.wwl.evaluate-deployment-methods.introduction
 - learn.wwl.evaluate-deployment-methods.examine-deployment-options-windows-client

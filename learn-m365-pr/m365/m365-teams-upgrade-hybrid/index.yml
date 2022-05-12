@@ -30,6 +30,8 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
 units:
 - learn-m365.m365-teams-upgrade-hybrid.introduction
 - learn-m365.m365-teams-upgrade-hybrid.requirements

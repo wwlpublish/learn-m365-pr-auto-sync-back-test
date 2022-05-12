@@ -30,6 +30,9 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- threat-protection
+- cloud-security
 units:
 - learn.wwl.implement-microsoft-cloud-application-security.introduction
 - learn.wwl.implement-microsoft-cloud-application-security.explore-cloud-app-security

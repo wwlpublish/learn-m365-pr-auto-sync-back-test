@@ -33,6 +33,10 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- cloud-computing
+- identity-access
+- communication
 units:
 - learn.wwl.explore-microsoft-teams.introduction
 - learn.wwl.explore-microsoft-teams.analyze-teams-infrastructure

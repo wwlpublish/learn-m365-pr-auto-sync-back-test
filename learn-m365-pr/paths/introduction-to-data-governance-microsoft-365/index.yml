@@ -27,6 +27,8 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- information-protection-governance
 modules:
 - learn.wwl.explore-archiving-microsoft-365
 - learn.wwl.explore-retention-microsoft-365

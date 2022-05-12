@@ -31,6 +31,8 @@ products:
 - m365
 - azure
 - azure-virtual-desktop
+subjects:
+- virtual-machine
 units:
 - learn-m365.deploy-wvd.introduction
 - learn-m365.deploy-wvd.wvd-deployment-overview

@@ -29,6 +29,8 @@ products:
 - office-exchange-server
 - office-outlook
 - office-exchange-online
+subjects:
+- migration
 units:
 - learn.wwl.troubleshoot-hybrid-migration-issues.introduction
 - learn.wwl.troubleshoot-hybrid-migration-issues.troubleshoot-setup-mail-flow-hybrid-configurations

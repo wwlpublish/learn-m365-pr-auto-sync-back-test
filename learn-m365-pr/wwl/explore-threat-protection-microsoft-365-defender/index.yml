@@ -32,6 +32,9 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- threat-protection
+- cloud-security
 units:
 - learn.wwl.explore-threat-protection-microsoft-365-defender.introduction
 - learn.wwl.explore-threat-protection-microsoft-365-defender.examine-threat-protection

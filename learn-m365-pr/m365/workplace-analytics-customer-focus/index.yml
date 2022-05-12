@@ -33,6 +33,10 @@ products:
 - m365-workplace-analytics
 - viva
 - viva-insights
+subjects:
+- data-analytics
+- customer-relationship-management
+- employee-engagement
 units:
 - learn-m365.workplace-analytics-customer-focus.introduction
 - learn-m365.workplace-analytics-customer-focus.why-user-focus

@@ -27,6 +27,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- information-protection-governance
 units:
 - learn-m365.m365-security-sensitivity-labels.introduction
 - learn-m365.m365-security-sensitivity-labels.use-sensitivity-labels

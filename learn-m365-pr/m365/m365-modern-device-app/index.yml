@@ -27,6 +27,8 @@ products:
 - windows
 - windows-19044
 - windows-10
+subjects:
+- device-management
 units:
 - learn-m365.modern-device-app.1-introduction
 - learn-m365.modern-device-app.2-readiness-assessment-tools

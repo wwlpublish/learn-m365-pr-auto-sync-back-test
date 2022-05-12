@@ -31,6 +31,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- information-protection-governance
+- knowledge-management
 units:
 - learn-m365.m365-compliance-information-govern-information.overview
 - learn-m365.m365-compliance-information-govern-information.configure-retention-policies

@@ -28,6 +28,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- identity-access
+- cloud-computing
 units:
 - learn.wwl.prepare-identity-synchronization-microsoft-365.introduction
 - learn.wwl.prepare-identity-synchronization-microsoft-365.plan-your-azure-active-directory-deployment

@@ -31,6 +31,10 @@ products:
 - office-exchange-server
 - office-outlook
 - office-exchange-online
+subjects:
+- communication
+- compliance
+- information-protection-governance
 units:
 - learn.wwl.troubleshoot-compliance-retention-issues.introduction
 - learn.wwl.troubleshoot-compliance-retention-issues.troubleshoot-ediscovery

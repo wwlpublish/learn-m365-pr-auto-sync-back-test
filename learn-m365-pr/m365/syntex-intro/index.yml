@@ -28,6 +28,8 @@ roles:
 products:
 - m365
 - sharepoint-syntex
+subjects:
+- collaboration
 units:
 - learn-m365.syntex-intro.introduction
 - learn-m365.syntex-intro.what-is-sharepoint-syntex

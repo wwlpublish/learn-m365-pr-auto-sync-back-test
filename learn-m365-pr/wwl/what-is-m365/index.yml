@@ -25,6 +25,8 @@ roles:
 - administrator
 products:
 - m365
+subjects:
+- cloud-computing
 units:
 - learn-m365.what-is-m365.2-whats-in-m365
 - learn-m365.what-is-m365.explain-how-microsoft-365-drives-productivity-cloud

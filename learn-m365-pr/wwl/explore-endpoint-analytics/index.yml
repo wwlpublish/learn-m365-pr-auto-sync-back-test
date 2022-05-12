@@ -30,6 +30,8 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- data-analytics
 units:
 - learn.wwl.explore-endpoint-analytics.introduction
 - learn.wwl.explore-endpoint-analytics.enroll-devices-endpoint-analytics

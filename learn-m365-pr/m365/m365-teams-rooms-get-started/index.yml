@@ -27,6 +27,9 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- device-management
+- collaboration
 units:
 - learn-m365.m365-teams-rooms-get-started.introduction
 - learn-m365.m365-teams-rooms-get-started.understand-teams-meetings

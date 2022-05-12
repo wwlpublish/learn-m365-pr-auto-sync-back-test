@@ -31,6 +31,10 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- process-workflow
+- data-management
+- communication
 units:
 - learn.wwl.create-manage-exchange-recipients.introduction
 - learn.wwl.create-manage-exchange-recipients.manage-mailbox-settings

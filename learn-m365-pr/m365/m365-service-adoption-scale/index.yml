@@ -23,6 +23,9 @@ roles:
 - administrator
 products:
 - m365
+subjects:
+- productivity
+- change-management
 units:
 - learn-m365.service-adoption-scale.introduction
 - learn-m365.service-adoption-scale.scenarios

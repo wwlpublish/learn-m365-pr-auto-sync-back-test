@@ -31,6 +31,8 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- identity-access
 units:
 - learn.wwl.protect-identities-azure-ad.introduction
 - learn.wwl.protect-identities-azure-ad.explore-windows-hello-business

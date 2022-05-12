@@ -31,6 +31,10 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- storage
+- data-management
+- device-management
 units:
 - learn.wwl.maintain-disks-volumes.introduction
 - learn.wwl.maintain-disks-volumes.monitor-storage-usage

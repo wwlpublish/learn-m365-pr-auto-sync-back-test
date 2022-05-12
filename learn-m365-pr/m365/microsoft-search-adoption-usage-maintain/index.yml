@@ -32,6 +32,8 @@ products:
 - office
 - windows
 - bing
+subjects:
+- search-ads-news
 units:
 - learn-m365.microsoft-search-adoption-usage-maintain.introduction
 - learn-m365.microsoft-search-adoption-usage-maintain.evangelize-within-your-organization

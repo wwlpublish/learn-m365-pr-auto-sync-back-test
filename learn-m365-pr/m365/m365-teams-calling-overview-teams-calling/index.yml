@@ -26,6 +26,8 @@ products:
 - office-teams
 - m365
 - microsoft-teams-phone
+subjects:
+- communication
 units:
 - learn-m365-pr.m365-teams-calling-overview.introduction
 - learn-m365-pr.m365-teams-calling-overview.teams-calling-architecture

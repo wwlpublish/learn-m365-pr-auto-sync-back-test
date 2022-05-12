@@ -35,6 +35,11 @@ products:
 - power-bi
 - viva
 - viva-insights
+subjects:
+- collaboration
+- data-analytics
+- cloud-computing
+- employee-engagement
 units:
 - learn-m365.workplace-analytics-teams-insights.introduction
 - learn-m365.workplace-analytics-teams-insights.setup

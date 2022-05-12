@@ -30,6 +30,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- compliance
 units:
 - learn-m365.compliance-discover-advanced-audit.overview
 - learn-m365.compliance-discover-advanced-audit.monitor

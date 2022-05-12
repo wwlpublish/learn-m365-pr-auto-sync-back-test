@@ -35,6 +35,10 @@ products:
 - viva
 - viva-insights
 
+subjects:
+- data-analytics
+- change-management
+- employee-engagement
 units:
 - learn-m365.workplace-analytics-ways-working-action.introduction
 - learn-m365.workplace-analytics-ways-working-action.enable-change

@@ -24,6 +24,9 @@ roles:
 - administrator
 products:
 - m365
+subjects:
+- cloud-computing
+- productivity
 units:
 - learn-m365.m365-core-services.3-exchange-online
 - learn-m365.m365-core-features.4-sharepoint-online

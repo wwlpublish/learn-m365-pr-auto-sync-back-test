@@ -29,6 +29,9 @@ products:
 - office-exchange-server
 - office-outlook
 - office-exchange-online
+subjects:
+- communication
+- threat-protection
 units:
 - learn.wwl.troubleshoot-encryption-audit-journal.introduction
 - learn.wwl.troubleshoot-encryption-audit-journal.diagnose-encryption-problems
