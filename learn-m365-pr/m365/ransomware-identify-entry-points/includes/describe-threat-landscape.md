@@ -33,7 +33,7 @@ Ransomware aims to make your computer or your data inaccessible unless you pay a
 
 ### Phishing
 
-Phishing is among the most commonly used form of cyberattack. It relies on the recipient of the message being tricked into taking action or steps that seem innocuous and safe on the surface. It can take the form of a security warning or alert from a seemingly trusted source and will usually have a time limit or urgency.
+Phishing is among the most commonly used forms of cyberattacks. It relies on the recipient of the message being tricked into taking action or steps that seem innocuous and safe on the surface. It can take the form of a security warning or alert from a seemingly trusted source and will usually have a time limit or urgency.
 
 ### Malware
 
