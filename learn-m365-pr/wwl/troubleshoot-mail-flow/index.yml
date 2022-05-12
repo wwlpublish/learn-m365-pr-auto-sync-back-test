@@ -28,6 +28,8 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- communication
 units:
 - learn.wwl.troubleshoot-mail-flow.introduction
 - learn.wwl.troubleshoot-mail-flow.troubleshoot-smtp

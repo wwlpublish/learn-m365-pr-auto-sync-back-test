@@ -31,6 +31,10 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- cloud-security
+- threat-protection
+- networking
 units:
 - learn.wwl.manage-microsoft-defender-windows-client.introduction
 - learn.wwl.manage-microsoft-defender-windows-client.explore-windows-security-center

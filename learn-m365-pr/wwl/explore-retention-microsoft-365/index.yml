@@ -32,6 +32,9 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- compliance
+- information-protection-governance
 units:
 - learn.wwl.explore-retention-microsoft-365.introduction
 - learn.wwl.explore-retention-microsoft-365.manage-retention-by-using-retention-policies

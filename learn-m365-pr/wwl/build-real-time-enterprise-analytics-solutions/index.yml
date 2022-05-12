@@ -31,6 +31,8 @@ products:
 - azure-machine-learning
 - power-bi
 - azure-synapse-analytics
+subjects:
+- data-analytics
 units:
 - learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.introduction
 - learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.understand

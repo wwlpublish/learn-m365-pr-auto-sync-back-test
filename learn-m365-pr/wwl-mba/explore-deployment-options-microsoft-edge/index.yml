@@ -23,6 +23,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- device-management
 units:
 - learn.wwl.explore-deployment-options-microsoft-edge.introduction
 - learn.wwl.explore-deployment-options-microsoft-edge.discover-general-deployment-optionspackages-channels

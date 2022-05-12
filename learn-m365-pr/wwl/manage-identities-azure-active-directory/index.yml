@@ -31,6 +31,8 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- identity-access
 units:
 - learn.wwl.manage-identities-azure-active-directory.introduction
 - learn.wwl.manage-identities-azure-active-directory.examine-rbac-user-roles-azure-ad

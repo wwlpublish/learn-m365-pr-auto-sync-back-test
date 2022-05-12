@@ -30,6 +30,10 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- threat-protection
+- information-protection-governance
+- compliance
 units:
 - learn.wwl.create-dlp-policy-to-protect-documents.introduction
 - learn.wwl.create-dlp-policy-to-protect-documents.explore-protect-documents

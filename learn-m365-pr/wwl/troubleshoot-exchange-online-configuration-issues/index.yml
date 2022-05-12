@@ -31,6 +31,8 @@ products:
 - office-exchange-server
 - office-outlook
 - office-exchange-online
+subjects:
+- cloud-computing
 units:
 - learn.wwl.troubleshoot-exchange-online-configuration-issues.introduction
 - learn.wwl.troubleshoot-exchange-online-configuration-issues.provision-objects-without-problems

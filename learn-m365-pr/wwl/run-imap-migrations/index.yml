@@ -27,6 +27,8 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- migration
 units:
 - learn.wwl.run-imap-migrations.introduction
 - learn.wwl.run-imap-migrations.plan-imap-migration

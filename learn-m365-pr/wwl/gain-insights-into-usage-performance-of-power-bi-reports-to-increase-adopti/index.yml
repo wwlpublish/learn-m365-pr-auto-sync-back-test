@@ -28,6 +28,8 @@ roles:
 - data-analyst
 products:
 - power-bi
+subjects:
+- data-visualization
 units:
 - learn.wwl.gain-insights-into-usage-performance-of-your-power-bi-reports-to-increase-adopti.introduction
 - learn.wwl.gain-insights-into-usage-performance-of-your-power-bi-reports-to-increase-adopti.sensitivity-labels

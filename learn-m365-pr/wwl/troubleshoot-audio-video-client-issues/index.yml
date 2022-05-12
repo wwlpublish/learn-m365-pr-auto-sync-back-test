@@ -27,6 +27,8 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
 units:
 - learn.wwl.troubleshoot-audio-video-client-issues.introduction
 - learn.wwl.troubleshoot-audio-video-client-issues.troubleshoot-teams

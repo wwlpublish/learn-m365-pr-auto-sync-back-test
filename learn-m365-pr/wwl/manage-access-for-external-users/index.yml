@@ -30,6 +30,9 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- identity-access
+- collaboration
 units:
 - learn.wwl.manage-access-for-external-users.introduction
 - learn.wwl.manage-access-for-external-users.understand-features-azure-active-directory

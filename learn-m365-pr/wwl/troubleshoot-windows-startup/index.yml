@@ -32,6 +32,9 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- architecture
+- device-management
 units:
 - learn.wwl.troubleshoot-windows-startup.introduction
 - learn.wwl.troubleshoot-windows-startup.explore-windows-client-startup-architecture

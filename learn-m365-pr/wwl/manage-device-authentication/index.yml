@@ -30,6 +30,9 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- device-management
+- identity-access
 units:
 - learn.wwl.manage-device-authentication.introduction
 - learn.wwl.manage-device-authentication.describe-azure-ad-join
