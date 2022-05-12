@@ -5,11 +5,11 @@ metadata:
   unitType: summary
   title: Summary
   description: ""
-  ms.date: 29/04/2022
-  author: RaSanders-MSFT
-  ms.author: rasanders
+  ms.date: 05/12/2022
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
-  ms.prod: learning-azure # Edit as appropriate for your portfolio area
+  ms.prod: learning-m365
 durationInMinutes: 1
 content: |
   [!include[](includes/summary.md)]
