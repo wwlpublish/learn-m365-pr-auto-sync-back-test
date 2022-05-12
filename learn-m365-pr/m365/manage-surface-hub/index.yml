@@ -1,0 +1,35 @@
+### YamlMime:Module
+uid: learn-m365-pr.manage-surface-hub
+metadata:
+  moduleType: standard
+  title: Manage Surface Hub
+  description: In this module, you will learn how to use Teams admin center to review and manage Surface Hub devices. You'll then see how to use Microsoft Endpoint Manager to create, deploy and manage configuration policies.
+  ms.date: 05/12/2022
+  author: temanteleary
+  ms.author: teleary
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage Surface Hub
+summary: In this module, you will learn how to use Teams admin center to review and manage Surface Hub devices. You'll then see how to use Microsoft Endpoint Manager to create, deploy and manage configuration policies.
+abstract: |
+  By the end of this module, you'll be able to:
+    - Describe how to manage Surface Hub devices using Teams admin center.
+    - Describe some of the features of Teams admin center.
+    - Describe how to create configuration policies for Surface Hub using Microsoft Endpoint Manager.
+prerequisites: |
+  - None.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - developer
+products:
+- m365
+units:
+- learn-m365-pr.manage-surface-hub.introduction
+- learn-m365-pr.manage-surface-hub.manage-surface-hub-with-teams-admin-center
+- learn-m365-pr.manage-surface-hub.manage-surface-hub-with-microsoft-endpoint-manager
+- learn-m365-pr.manage-surface-hub.knowledge-check
+- learn-m365-pr.manage-surface-hub.summary
+badge:
+  uid: learn-m365-pr.manage-surface-hub.badge
