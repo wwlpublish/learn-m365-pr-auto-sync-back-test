@@ -9,6 +9,8 @@ This unit outlines what to expect as you navigate change in daily work rhythms a
 
 ### 1. Begin with the end in mind
 
+#### If you're leading the OKR rollout at your organization
+
 One of the best ways to create clear and lasting change is to be clear about why OKRs are important to your organization and to define the goal of your program with OKRs and Viva Goals.
 
 #### Why are you implementing OKRs and Viva Goals?

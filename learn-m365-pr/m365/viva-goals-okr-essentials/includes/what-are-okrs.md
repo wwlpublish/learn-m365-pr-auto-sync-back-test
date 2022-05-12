@@ -19,8 +19,6 @@ Once organization-level OKRs have been agreed upon, the following steps are take
 
 Key Initiatives and Projects are added on an as-needed basis to reflect the work that needs to be completed, either manually or by using integrations.
 
-Learn more about each of these components and practice writing them in the [How to write effective OKRs by using Viva Goals](/viva/goals/integrations-overview) article.
-
 ## History of OKRs
 
 OKRs have a long history that can be traced back to 1954 when Peter Drucker developed a strategic planning process called Management by Objectives (MBO). Management by Objectives revolutionized performance management and gained popularity, inspiring business managers and leaders at companies like HP and Xerox, leaders who later attributed their success to the adoption of Ducker’s framework. 
