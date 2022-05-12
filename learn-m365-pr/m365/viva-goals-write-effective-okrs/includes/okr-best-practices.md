@@ -59,7 +59,7 @@ With that baseline, let's also look at what OKRs are NOT.
 
 > Since the Human Resources department is in charge of this Key Initiative, they build an OKR of their own: *Launch a comprehensive diversity and inclusion program in order to enhance our culture.* Nested beneath that are the Key Results and Projects which will ensure the success of the HR OKR and, in the end, the organization’s Key Initiative.  
 
-> :::image type="content" source="../media/ki-project.png" alt-text="Diagram that shows the Key Initiatives and Projects from the example.":::
+> :::image type="content" source="../media/ki-project-example.png" alt-text="Diagram that shows the Key Initiatives and Projects from the example.":::
 
 ## Best practices for writing OKRs
 There are three core best practices to keep in mind as you write OKRs:
