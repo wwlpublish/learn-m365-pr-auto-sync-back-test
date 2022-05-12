@@ -13,7 +13,7 @@ title: Identify vulnerabilities that ransomware can exploit
 summary: How will you know if you are a victim of ransomware? This module will cover the top ransomware families for today's threat landscape and the vectors they use to enter and infect your organization's files and systems.
 abstract: |
   By the end of this module, you'll be able to:
-    - Describe the nature of a threat landscape and attack vector 
+    - Describe the nature of the threat landscape and an attack vector 
     - Describe different entry points and how they are used to breach your security 
     - Describe the specialization of ransomware 
 prerequisites: |
