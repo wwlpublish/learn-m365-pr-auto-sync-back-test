@@ -1,6 +1,6 @@
 Before we talk about entering and managing your OKRs within Viva Goals, it's helpful to familiarize yourself with the look of the system and how it's structured. Below we'll look at the main features on the Viva Goals screen and how to navigate the system.
 
-:::image type="content" source="../media/navigation.jpg" alt-text="Screenshot showing the Viva Goals screen.":::
+:::image type="content" source="../media/navigation.png" alt-text="Screenshot showing the Viva Goals screen.":::
 
 ## Time Period Selector (1)
 
@@ -26,7 +26,7 @@ These represent the different levels at which OKRs can be created.
 
 ### Bookmarks
 
-Select the **Bookmark** tab in the **Navigation Sidebar** to easily find Objective Explorer Views, Teams, and Individuals that you've previously bookmarked
+Select the **Bookmark** tab in the **Navigation Sidebar** to easily find Objective Explorer Views, Teams, and Individuals that you've previously bookmarked. This tab appears after you add your first bookmark.
 
 ### Explorer
 
@@ -44,9 +44,9 @@ The **All Users** tab allows you to search for a specific colleague. By going to
 
 Your **Feed** will display the activity that is going on in your organization. You can **Like** and **Comment** on the activity to increase engagement with your colleagues.
 
-### Support Center
+### Help
 
-If you ever need more information on a particular Viva Goals feature or piece of functionality, the **Support Center** tab provides access to help and learning content.
+If you ever need more information on a particular Viva Goals feature or piece of functionality, the **Help** tab provides access to help and learning content.
 
 ## OKR Lists (3)
 

@@ -1,15 +1,17 @@
-The next of the **4Cs** is Create. This is how to enter your OKRs into Viva Goals. During this process you can specify at what level OKRs are being set, who owns them, and how their progress will be tracked.
+The next of the **4Cs** is **Create**. This is how to enter your OKRs into Viva Goals. During this process you can specify at what level OKRs are being set, who owns them, and how their progress will be tracked.
 
 ## Objective
 
-To create an **Objective**, select the **Add Objective** button and enter your objective in the **Title** textbox.
+:::image type="content" source="../media/objective.png" alt-text="Screenshot that shows objectives in Viva Goals.":::
+
+To create an **Objective**, select the **New Objective** plus sign and enter your objective in the **Title (1)** textbox.
 
 Information in the **Details** section will be set by default depending on the entity you're currently viewing, and the time period selected.
 
 1. To change the entity and time period, or to add a co-owner of the **Objective**, select the **Type**, **Owner**, and **When** fields.
 1. **Outcome** will be measured as a percentage completion.
 1. The default selection in the **Progress** section will be **Automatic via rollup from key results**. This means that the progress of the **Key Results** aligned to this **Objective** will be responsible for moving the overall progress. If you wish to mark the progress of the Objective yourself, select **Manually** from the dropdown menu.
-1. To choose how to align your Objective, select **Align Objective** from the **Alignment** section.
+1. To choose how to align your Objective, select **Align Objective (2)** from the **Alignment** section.
 1. You can find a particular Objective using the search box and/or by using the **Time Period** and **Entities** filters.
 1. Select the desired **Objective**.
 1. Select **Save**. Your **Objective** is now aligned.
@@ -18,13 +20,15 @@ Information in the **Details** section will be set by default depending on the e
 
 ## Key Result
 
+:::image type="content" source="../media/kr.png" alt-text="Screenshot that shows key results in Viva Goals.":::
+
 To add a **Key Result**, navigate to the **Objective** to which it will be aligned.
 
 1. Select the **More Actions** menu.
 1. Select **Add Key Result**.
-1. Enter the metric you'll be tracking in the **Metric** field.
-1. Add the **Target** and the **Starting** point for this metric to the relevant fields and choose whether it's a number or a percentage using the **Unit** dropdown menu.
-1. The **Title** field will have automatically populated. Adjust as necessary.
+1. Enter the metric you'll be tracking in the **Metric (1)** field.
+1. Add the **Target** and the **Starting from** point for this metric to the relevant fields and choose whether it's a number or a percentage using the **Unit** dropdown menu.
+1. The **Title (2)** field will have automatically populated. Adjust as necessary.
 1. Under the **Progress** section, you'll be able to choose whether the progress of this metric will be manually or automatically updated.
     1. **Manually** - The user will update the progress of the **Key Result** themselves.
     1. **Automatically from a data source** - The progress of the **Key Result** can be updated automatically via an integration with an outside data source. This integration must have first been enabled by your Admin to be available.
@@ -38,7 +42,7 @@ To add a **Key Result**, navigate to the **Objective** to which it will be align
 
 ## Projects/Key Initiatives
 
-**Projects**/**Key Initiatives** are a list of tasks or focused outputs that underpin the Key Results. In Viva Goals these tasks are captured using **Projects.**
+**Projects**/**Key Initiatives** are a list of tasks or focused outputs that underpin the Key Results. In Viva Goals, these tasks are captured using **Projects.**
 
 There are 2 types of **Projects**:
 
@@ -46,7 +50,7 @@ There are 2 types of **Projects**:
 
 - **Integrated Projects** - These are Projects whose progress is managed via an integration with an outside project management tool.
 
-Projects can be created directly underneath the Key Result they're supporting or as a standalone effort. To add a **Project** as a standalone effort, select the **Projects** tab for the entity for which the Project is being created.
+Projects can be created directly underneath the Key Result they're supporting or as a standalone effort. To add a **Project** as a standalone effort, select the **Projects** tab of the entity for which the Project is being created.
 
 1. Select **+ Add Project** and follow the same steps as listed below.
 1. To add a **Project** that is aligned to the Key Result it's supporting, navigate to that **Key Result**.

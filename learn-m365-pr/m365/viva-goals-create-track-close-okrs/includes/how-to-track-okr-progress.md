@@ -1,4 +1,4 @@
-The next of the **4Cs** is Check-in. This is updating the progress of your OKRs in Viva Goals and this should be done on an ongoing basis. This can either be on a regular schedule decided by your organization, such as every week, or by integrating Viva Goals with an outside data source.
+The next of the **4Cs** is **Check-in**. This is updating the progress of your OKRs in Viva Goals and this should be done on an ongoing basis. This can either be on a regular schedule decided by your organization, such as every week, or by integrating Viva Goals with an outside data source.
 
 There are three ways to update the progress of OKRs in Viva Goals.
 
@@ -23,7 +23,7 @@ To check in and update the progress of your **Key Result** navigate to the requi
 1. You can adjust the **Status** using your own judgment based on all the applicable factors.
 1. If you aren't **On Track**, the guidance is that the **Status** should be **At Risk** if you're off target and don't have a plan to catch up.
 1. The **Status** should be **Behind** if you're off target and do have a plan to catch up.
-1. The **Include a note** field can be completed with comments giving context on the progress of the **Key Result**. You can **Upload an attachment** for further context and evidence.
+1. The **Add a note** field can be completed with comments giving context on the progress of the **Key Result**. You can **Upload an attachment** for further context and evidence.
 1. When you're ready, select the **Check-in** button.
 
 The progress of your **Key Result** will be updated. This will roll up and update the progress of the **Objective** it's aligned to.
@@ -34,7 +34,7 @@ It's possible for you to update the progress of your **Key Result** via certain 
 
 Once these integrations have been enabled and connected, it's possible for you enter the latest figure for your **Key Result** metric into the collaboration platform, and this will be reflected in Viva Goals.
 
-For a full description of all Viva Goals integrations and how to enable and connect them, see **Introduction to Viva Goals Integrations**. \[INSERT LINK HERE\]
+For a full description of all Viva Goals integrations and how to enable and connect them, see [Introduction to Viva Goals Integrations](/viva/goals/integrations-overview).
 
 ## Automatic Check-in
 
