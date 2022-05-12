@@ -1,6 +1,6 @@
 Effective communication is a key component of being an OKR Champion and significantly influences the success of the OKR program. As OKR Champions are in charge of training, driving adoption and helping their teams navigate change, the ability to communicate clearly and effectively is crucial.
 
-## Assess readiness
+## 1. Assess readiness
 
 It’s important to determine how receptive your users will likely be to changing the way they work and adopting new technology. Your rollout plan should reflect the readiness of your organization.
 
@@ -21,11 +21,13 @@ It’s important to determine how receptive your users will likely be to changin
 >[!TIP]
 > Run a detailed analysis and identify readiness by team and user group; we recommend piloting Viva Goals on one team first to identify and address any issues in an early, controlled environment.
 
-## Plan
+## 2. Plan
 
 ### Define success criteria 
 - What are you trying to accomplish with Viva Goals? 
 - What does success look like with Viva Goals? Be specific. What do you hope to increase and decrease, and by how much? Describe your future state. You can even use the OKR framework to define success for Viva Goals, and assign yourself or your team this OKR.
+
+:::image type="content" source="./media/success-criteria.png" alt-text="Diagram showing three sucess criteria - objectives, key results, and projects.":::
 
 ### Identify key results and milestones
 - Your key results should improve based on adoption and will show leadership the impact of Viva Goals on your business 
@@ -38,10 +40,12 @@ Examples include employee NPS, internal survey data, and user data from Viva Goa
 ### Assemble your core team 
 Adopting new technology and methodology requires buy-in and support from across the business. Below are key groups and team members who can help bridge the technology and business outcomes that matter to your organization. Each group or member has a specific role in implementation and adoption and should be engaged early and often.
 
-## Deploy 
+## 3. Deploy 
 Your end goal is to have Viva Goals operating across your entire organization so that you can connect the daily work of every team member to business outcomes.
 
 However, as we navigate the OKR Maturity model and change management associated with deployment, we recommend easing your organization into OKRs with a user pilot.
+
+:::image type="content" source="./media/maturity-model.jpg" alt-text="Diagram showing the 5 stages of the maturity model.":::
 
 The benefits of a user pilot are two-fold: first, you’ll quickly learn how the methodology works within your organizational culture and gain insight into the challenges and opportunities. Second, your pilot group can act as an example for the rest of the organization. Their success in achieving their objectives will serve as a motivator for more groups to get on board. 
 
@@ -71,7 +75,7 @@ Here’s how it goes:
 ### Another option: The Big Bang Theory
 While we subscribe to a “crawl-walk-run" approach to pilot your OKR program, mature companies that can efficiently and effectively lead the organization through change may choose to launch OKRs organization-wide all at once. 
 
-The advantage of this “Big Bang” approach is that companies are able to leverage the momentum of the initial kickoff, and realize the benefits of OKRs more quickly across the entire organization. However, this approach often requires more resources, and thus is most successful when company leadership is fully bought in, communication is clear, and rollout is supported by the Get Started with Viva Goals learning path. 
+The advantage of this “Big Bang” approach is that companies are able to leverage the momentum of the initial kickoff, and realize the benefits of OKRs more quickly across the entire organization. However, this approach often requires more resources, and thus is most successful when company leadership is fully bought in, communication is clear, and rollout is supported by the [Get Started with Viva Goals learning path](/paths/viva-goals-get-started). 
 
 No matter which path you choose, it’s important to find out what works best for your organization. Be patient, as it usually takes a few quarters to get comfortable with change. Soon you'll get into a solid rhythm and your OKR program will grow, mature and transform your organization in the process.
 
@@ -80,10 +84,10 @@ Your goals define the outcome you want and enable you to measure the success of 
 
 It's essential that you get full participation from stakeholders in defining your OKRs to help ensure they feel a sense of ownership and align these measures of success to defined project tasks. OKRs should include a mix of technical and user-focused success.
 
-## Train and adopt 
+## 4. Train and adopt 
 We cover everything you need to know about writing great OKRs in the  [Write effective OKRs with Viva Goals](/modules/viva-goals-write-effective-okrs) module and incorporating OKRs into your business rhythms in the [Ensure OKR program success](/modules/ensure-okr-program-success) module.   
 
-## Customize your communication plan 
+## 5. Customize your communication plan 
 
 One of the most important parts of being an OKR Champion is effectively communicating about your OKR program with Viva Goals. 
 
@@ -91,10 +95,12 @@ One of the most important parts of being an OKR Champion is effectively communic
 
 Take a phased approach to your communications and make sure the right communications are happening at the right time so that all team members feel included and supported. 
 
-## Customize your communication plan by audience 
+:::image type="content" source="./media/communication-phases.png" alt-text="Diagram showing the different phases of communication on a timeline.":::
+
+### Customize your communication plan by audience 
 For an OKR Champion, there are three aspects of your audience to consider: their professional role, how they learn, and their personality type.
 
-### Professional role
+#### Professional role
 
 The information we give and how we give it should be influenced by who we're speaking to. This allows us to address needs or concerns specific to their role. For example, the content of a presentation and how it's delivered would change if it was given to a group of executives versus an engineering team. When we consider someone's role, we can connect the information directly to them.
 
@@ -107,18 +113,18 @@ The information we give and how we give it should be influenced by who we're spe
 
 Being aware of what their individual concerns and needs might be will help your team feel more secure and that there's a reasonable path forward for them. This also encourages curiosity, openness, and a growth mindset.
 
-### Learning styles
+#### Learning styles
 OKR Champions should work with their teammates to develop effective communication strategies and should model flexibility when responding to different needs. There's no one-size-fits-all for communicating. This doesn't mean, however, that there aren't useful strategies that help people communicate inclusively.
 
 **Key strategies for inclusive communication include**:
 
-- Vary your method. Use different approaches when possible. Schedule interactive collaborative time with an alternate option for independent working hours, provide visual assets to accompany oral meetings, record meetings and turn on live transcription.
-- Follow accessibility guidelines. Take actions like checking documents for reading order, turning on live captions in meetings, and adding alternate text to images. Using tools like Microsoft's Accessibility Checker will ensure your documents are up to industry standards.
-- Leverage your colleagues. We all explain things in ways that make sense to our own brains; this means there are often communication breakdowns and struggles in learning new material. Ask your colleagues to put your teaching in their own words. This checks for understanding and widens communication lanes.
+- **Vary your method.** Use different approaches when possible. Schedule interactive collaborative time with an alternate option for independent working hours, provide visual assets to accompany oral meetings, record meetings and turn on live transcription.
+- **Follow accessibility guidelines.** Take actions like checking documents for reading order, turning on live captions in meetings, and adding alternate text to images. Using tools like Microsoft's Accessibility Checker will ensure your documents are up to industry standards.
+- **Leverage your colleagues.** We all explain things in ways that make sense to our own brains; this means there are often communication breakdowns and struggles in learning new material. Ask your colleagues to put your teaching in their own words. This checks for understanding and widens communication lanes.
 
 Inclusive communication is ongoing work that OKR Champions should consistently check.
 
-### Personality types
+#### Personality types
 
 The last element to consider in knowing your audience is to consider their personality type. Bestselling author Gretchen Rubin has provided one framework called "The Four Tendencies" that proves helpful for professional audiences, especially when introducing change and new information. As OKR Champions do both, this is a particularly powerful framework to know.
 

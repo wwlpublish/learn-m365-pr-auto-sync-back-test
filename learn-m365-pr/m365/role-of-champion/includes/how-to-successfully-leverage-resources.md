@@ -1,12 +1,12 @@
 There are many resources available to OKR Champions and having a sense of what these are and when to deploy them creates a stronger program. 
 
-Generally, resources fall into three buckets: pre-program kickoff, program mechanics and future state.
+Generally, resources fall into three buckets: pre-program kickoff, the OKR cycle, and future state.
 
 ## Pre-program kickoff
 
 Before you kick off your OKR program with Viva Goals, be sure to read our [Viva Goals Adoption Guide](https://go.microsoft.com/fwlink/?linkid=2193441). This guide provides guidance on how to roll out a pilot program successfully, including communication templates.
 
-## The OKR Cycle
+## The OKR cycle
 
 **At the beginning of the OKR program** once users have their accounts set up, Champions should direct their teams to the [Get Started with Viva Goals](/paths/viva-goals-get-started) learning path. This course introduces OKRs as a goal-setting framework, shows how to write great OKRs, and provides software basics for using the platform. 
 
