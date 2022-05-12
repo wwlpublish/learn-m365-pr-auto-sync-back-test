@@ -27,6 +27,9 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- device-management
+- customer-relationship-management
 units:
 - learn.wwl.explore-troubleshooting-methodologies.introduction
 - learn.wwl.explore-troubleshooting-methodologies.examine-enterprise-desktop-support-technician-role

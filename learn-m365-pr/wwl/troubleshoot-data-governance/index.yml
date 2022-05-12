@@ -31,6 +31,9 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- information-protection-governance
+- threat-protection
 units:
 - learn.wwl.troubleshoot-data-governance.introduction
 - learn.wwl.troubleshoot-data-governance.examine-how-retention-age-is-calculated

@@ -28,6 +28,9 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- architecture
+- networking
 units:
 - learn.wwl.troubleshoot-transport-issues.introduction
 - learn.wwl.troubleshoot-transport-issues.troubleshoot-network-based-issues

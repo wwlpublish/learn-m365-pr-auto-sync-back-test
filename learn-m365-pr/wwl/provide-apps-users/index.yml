@@ -26,6 +26,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- device-management
 units:
 - learn.wwl.provide-apps-users.introduction
 - learn.wwl.provide-apps-users.explore-types-windows-apps

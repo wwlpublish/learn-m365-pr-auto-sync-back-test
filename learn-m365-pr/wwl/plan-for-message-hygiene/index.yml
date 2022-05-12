@@ -27,6 +27,8 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- security
 units:
 - learn.wwl.plan-for-message-hygiene.introduction
 - learn.wwl.plan-for-message-hygiene.explore-exchange-online-protection

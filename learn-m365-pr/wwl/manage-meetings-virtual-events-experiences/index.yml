@@ -30,6 +30,10 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- remote-hybrid-work
+- communication
+- collaboration
 units:
 - learn.wwl.manage-meetings-virtual-events-experiences.introduction
 - learn.wwl.manage-meetings-virtual-events-experiences.explore-microsoft-teams

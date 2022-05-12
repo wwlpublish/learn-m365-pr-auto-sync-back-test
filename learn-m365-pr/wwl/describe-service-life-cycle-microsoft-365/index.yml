@@ -26,6 +26,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- business-applications
 units:
 - learn.wwl.describe-service-life-cycle-microsoft-365.introduction
 - learn.wwl.describe-service-life-cycle-microsoft-365.describe-private,-public-preview,-general-availability-releases

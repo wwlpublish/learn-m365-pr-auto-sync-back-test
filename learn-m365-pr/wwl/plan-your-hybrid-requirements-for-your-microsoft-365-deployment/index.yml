@@ -28,6 +28,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- remote-hybrid-work
+- cloud-computing
 units:
 - learn.wwl.plan-your-hybrid-requirements-for-your-microsoft-365-deployment.introduction
 - learn.wwl.plan-your-hybrid-requirements-for-your-microsoft-365-deployment.plan-hybrid-exchange-environment

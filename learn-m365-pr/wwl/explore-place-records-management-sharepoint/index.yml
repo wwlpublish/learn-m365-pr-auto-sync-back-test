@@ -31,6 +31,10 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- knowledge-management
+- storage
+- compliance
 units:
 - learn.wwl.explore-place-records-management-sharepoint.introduction
 - learn.wwl.explore-place-records-management-sharepoint.explore-in-place-records-management-sharepoint

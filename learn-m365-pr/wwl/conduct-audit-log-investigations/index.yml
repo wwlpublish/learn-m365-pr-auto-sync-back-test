@@ -31,6 +31,9 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- finance-accounting
+- threat-protection
 units:
 - learn.wwl.conduct-audit-log-investigations.introduction
 - learn.wwl.conduct-audit-log-investigations.explore-searching-microsoft-365

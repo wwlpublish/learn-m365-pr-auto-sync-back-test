@@ -30,6 +30,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- identity-access
 units:
 - learn.wwl.manage-synchronized-identities.introduction
 - learn.wwl.manage-synchronized-identities.manage-users-with-directory-synchronization

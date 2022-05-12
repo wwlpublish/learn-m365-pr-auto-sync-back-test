@@ -30,6 +30,9 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- device-management
+- compliance
 units:
 - learn.wwl.manage-device-compliance.introduction
 - learn.wwl.manage-device-compliance.plan-for

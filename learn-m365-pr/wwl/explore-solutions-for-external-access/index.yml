@@ -30,6 +30,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- collaboration
 units:
 - learn.wwl.explore-solutions-for-external-access.introduction
 - learn.wwl.explore-solutions-for-external-access.explore-azure-ad-b2b-guest-user-access

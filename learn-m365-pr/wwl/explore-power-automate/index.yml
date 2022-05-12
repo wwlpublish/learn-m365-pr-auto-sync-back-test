@@ -30,6 +30,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- process-workflow
+- cloud-computing
 units:
 - learn.wwl.explore-power-automate.introduction
 - learn.wwl.explore-power-automate.examine-functionality

@@ -33,6 +33,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- productivity
+- device-management
 units:
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.introduction
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.explore-functionality
