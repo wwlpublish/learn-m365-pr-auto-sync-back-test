@@ -10,7 +10,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Identify vulnerabilities that ransomware can exploit
-summary: How will you know if you are a victim of ransomware? This module will cover the top ransomware families for today's threat landscape and the vectors which they use to enter and infect your organization's files and systems.
+summary: How will you know if you are a victim of ransomware? This module will cover the top ransomware families for today's threat landscape and the vectors they use to enter and infect your organization's files and systems.
 abstract: |
   By the end of this module, you'll be able to:
     - Describe the nature of a threat landscape and attack vector 
