@@ -29,7 +29,7 @@ products:
 - windows
 subjects:
 - threat-protection
-- device-protection
+- device-management
 - cloud-security
 units:
 - learn.wwl.explore-advanced-protection-methods.introduction
