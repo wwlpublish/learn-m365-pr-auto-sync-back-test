@@ -23,7 +23,7 @@ An attack vector may be exploited automatically, manually, or through both types
 
 Attack vectors have changed over the years in response to improvements in the overall security of the technology we use on a day-to-day basis. In the early days of cybercrime, when networks were small, the most used attack vector was to get malware onto a target device by downloading software from a malicious website or a disk. The intention was to obtain data and cause disruption. While present at that time, ransomware wasn't a common attack vector.
 
-With the rapid growth of the Internet and the widespread uptake of broadband, more and more devices are now connected by one network or another. Nowadays, there are better and more profitable attack vectors available, ranging from Phishing to Denial of Service. With almost every device able to seamlessly connect with the Internet, ransomware is now a significant attack vector.
+With the rapid growth of the internet and the widespread uptake of broadband, more and more devices are now connected by one network or another. Nowadays, there are better and more profitable attack vectors available, ranging from phishing to denial-of-service. With almost every device able to seamlessly connect with the internet, ransomware is now a significant attack vector.
 
 Some of the common attack vectors identified in 2021 include email links and attachments, ransomware, malware, phishing, denial of service, and social engineering.
 
