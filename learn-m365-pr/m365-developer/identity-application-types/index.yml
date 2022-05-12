@@ -29,6 +29,9 @@ roles:
 products:
 - m365
 - azure-active-directory
+subjects:
+- identity-access
+- custom-app-development
 units:
 - learn-m365.identity-application-types.1-introduction
 - learn-m365.identity-application-types.2-single-page-applications

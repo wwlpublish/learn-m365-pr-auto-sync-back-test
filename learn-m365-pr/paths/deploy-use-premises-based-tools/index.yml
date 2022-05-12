@@ -26,6 +26,8 @@ products:
 - mem-intune
 - windows
 - microsoft-deployment-toolkit
+subjects:
+- device-management
 modules:
 - learn.wwl.assess-deployment-readiness
 - learn.wwl.deploy-use-microsoft-deployment-toolkit

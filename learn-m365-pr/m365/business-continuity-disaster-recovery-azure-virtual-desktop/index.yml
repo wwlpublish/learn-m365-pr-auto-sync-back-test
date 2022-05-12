@@ -34,6 +34,8 @@ roles:
 products:
 - azure
 - azure-virtual-desktop
+subjects:
+- virtual-machine
 units:
 - learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.introduction
 - learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.identify-components-to-protect

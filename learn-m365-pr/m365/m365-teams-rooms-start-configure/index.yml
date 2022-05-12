@@ -30,6 +30,9 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
+- collaboration
 units:
 - learn-m365.m365-teams-rooms-start-configure.introduction
 - learn-m365.m365-teams-rooms-start-configure.out-of-box-experience

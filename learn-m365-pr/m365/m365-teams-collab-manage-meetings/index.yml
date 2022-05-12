@@ -28,6 +28,9 @@ products:
 - m365
 - office-365
 - office-teams
+subjects:
+- communication
+- collaboration
 units:
 - learn-m365.m365-teams-collab-manage-meetings.introduction
 - learn-m365.m365-teams-collab-manage-meetings.meeting-conferencing-deployment

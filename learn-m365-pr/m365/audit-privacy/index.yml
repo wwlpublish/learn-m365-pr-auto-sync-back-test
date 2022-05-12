@@ -33,6 +33,9 @@ roles:
 - privacy-manager
 products:
 - m365
+subjects:
+- security
+- compliance
 units:
 - learn-m365.audit-privacy.introduction
 - learn-m365.audit-privacy.key-privacy-terms

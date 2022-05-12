@@ -1,4 +1,4 @@
-﻿### YamlMime:Module
+### YamlMime:Module
 uid: learn-m365-pr.automate-windows-deployments-by-using-windows-autopilot
 metadata:
   title: Automate Windows deployments by using Windows Autopilot
@@ -25,6 +25,10 @@ products:
 - m365
 - windows-19044
 - windows-10
+subjects:
+- process-workflow
+- it-management-monitoring
+- device-management
 units:
 - learn-m365-pr.automate-windows-deployments-by-using-windows-autopilot.1-windows-autopilot-overview
 - learn-m365-pr.automate-windows-deployments-by-using-windows-autopilot.2-windows-autopilot-deployment-modes

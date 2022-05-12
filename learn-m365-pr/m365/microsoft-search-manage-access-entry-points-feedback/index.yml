@@ -31,6 +31,9 @@ products:
 - office
 - windows
 - bing
+subjects:
+- data-management
+- identity-access
 units:
 - learn-m365.microsoft-search-manage-access-entry-points-feedback.introduction
 - learn-m365.microsoft-search-manage-access-entry-points-feedback.manage-access-files-sites

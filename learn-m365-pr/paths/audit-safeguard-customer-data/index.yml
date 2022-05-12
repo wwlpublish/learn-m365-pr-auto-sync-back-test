@@ -20,6 +20,10 @@ roles:
 - risk-practitioner
 products: 
 - m365
+subjects:
+- security
+- compliance
+- information-protection-governance
 modules:
 - learn-m365.audit-governance
 - learn-m365.audit-risk-management

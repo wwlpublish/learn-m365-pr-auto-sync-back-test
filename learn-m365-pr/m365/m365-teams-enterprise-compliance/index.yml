@@ -25,6 +25,9 @@ roles:
 products:
 - office-teams
 - m365-compliance-center
+subjects:
+- compliance
+- information-protection-governance
 units:
 - learn-m365.teams.enterprise-compliance.1-introduction
 - learn-m365.teams.enterprise-compliance.2-configure-retention-policies

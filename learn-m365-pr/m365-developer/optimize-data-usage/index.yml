@@ -29,6 +29,9 @@ roles:
 products:
   - ms-graph
   - m365
+subjects:
+- development-tools
+- data-analytics
 units:
   - learn-m365.optimize-data-usage.1-introduction
   - learn-m365.optimize-data-usage.2-microsoft-graph-query-parameters

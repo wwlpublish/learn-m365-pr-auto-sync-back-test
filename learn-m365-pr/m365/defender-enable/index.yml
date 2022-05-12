@@ -29,6 +29,10 @@ products:
 - m365-ems-cloud-app-security
 - m365-security-center
 - m365-threat-protection
+subjects:
+- device-management
+- threat-protection
+- cloud-security
 units:
 - learn-m365-pr.defender-enable.introduction
 - learn-m365-pr.defender-enable.roll-out

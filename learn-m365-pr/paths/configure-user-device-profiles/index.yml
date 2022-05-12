@@ -25,6 +25,9 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- device-management
+- identity-access
 modules:
 - learn.wwl.implement-device-profiles
 - learn.wwl.monitor-device-profiles

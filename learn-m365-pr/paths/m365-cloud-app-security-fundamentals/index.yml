@@ -21,6 +21,8 @@ roles:
 products: 
 - m365
 - m365-ems-cloud-app-security
+subjects:
+- cloud-security
 modules:
   - learn-m365.introduction-to-microsoft-cloud-app-security
   - learn-m365.mcas-casbs

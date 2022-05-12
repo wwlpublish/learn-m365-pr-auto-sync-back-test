@@ -25,6 +25,9 @@ roles:
 - administrator
 products:
 - office-teams
+subjects:
+- compliance
+- collaboration
 units:
 - learn-m365.teams.implement-compliance.1-introduction
 - learn-m365.teams.implement-compliance.2-compliance-teams

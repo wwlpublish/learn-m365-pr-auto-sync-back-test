@@ -31,6 +31,9 @@ products:
 - office-365
 - office-sp
 - sharepoint-online
+subjects:
+- cloud-computing
+- collaboration
 units:
 - learn-m365.m365-teams-sharepoint-plan-sharepoint.introduction
 - learn-m365.m365-teams-sharepoint-plan-sharepoint.administer-sharepoint
