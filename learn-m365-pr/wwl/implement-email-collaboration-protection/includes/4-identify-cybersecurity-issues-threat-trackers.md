@@ -6,7 +6,7 @@ Most threat tracker pages include:
  -  Widgets that identify which issues are the biggest or have grown the most.
  -  A quick link in the **Actions** column that takes you to Threat Explorer, where you can view more detailed information.
 
-To view and use Threat Trackers, go to the **Microsoft 365 Defender portal,** and then under the **Email and collaboration** section in the navigation pane, select **Threat tracker**.
+To view and use Threat Trackers, go to the **Microsoft 365 Defender portal**, and then under the **Email and collaboration** section in the navigation pane, select **Threat tracker**.
 
 > [!NOTE]
 > To use Threat Trackers, you must be a global administrator, security administrator, or security reader.
@@ -32,7 +32,7 @@ Noteworthy trackers will typically be posted for just a couple of weeks when Mic
 
 Trending trackers (formerly called Campaigns) highlight new threats that haven't been seen in an organization's email in the past week. Trending trackers provide visibility into new threats that organizations should review. In doing so, organizations can ensure their broader corporate environment is prepared against attacks.
 
-:::image type="content" source="../media/trending-trackers-5015c77e.png" alt-text="Screenshot showing the Trending Trackers view.":::
+:::image type="content" source="../media/trend-trackers-7b564652.png" alt-text="Screenshot showing the Trending Trackers view.":::
 
 
 Trending trackers give organizations an idea of new threats they should review to ensure their broader corporate environment is prepared against attacks.
