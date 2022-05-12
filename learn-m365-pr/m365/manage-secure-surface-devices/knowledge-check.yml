@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.manage-secure-surface-devices.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: ""
+  ms.date: 05/12/2022
+  author: temanteleary
+  ms.author: teleary
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+
+content: |
+quiz:
+  questions:
+  - content: "What admin center would you use to gain insights into your organization's Surface devices?"
+    choices:
+    - content: "Azure Active Directory portal"
+      isCorrect: false
+      explanation: "That's incorrect. Azure Active Directory portal is used to provision user access."
+    - content: "Microsoft Endpoint Manager admin center"
+      isCorrect: true
+      explanation: "That's correct. Microsoft Endpoint Manager allows you to gain insights into enrolled devices, report on compliance, manage warranty, and control support requests."
+    - content: "Microsoft 365 admin center"
+      isCorrect: false
+      explanation: "That's incorrect. Microsoft 365 admin center is used to manage users, teams, and apps. It provides access to the other admin centers."
+  - content: "When using a DFCI policy, what is required to allow it to be deployed?"
+    choices:
+    - content: "The Surface device UEFI must be disabled for the DFCI policy to be deployed"
+      isCorrect: false
+      explanation: "That's incorrect. All Surface devices have UEFI built in and it cannot be disabled."
+    - content: "The user profile must have the correct policy settings to enable DFCI policy deployment"
+      isCorrect: false
+      explanation: "That's incorrect. The ability to deploy DFCI policies is linked to the device, not to a user profile."
+    - content: "The Surface device needs to have been enrolled with Windows Autopilot"
+      isCorrect: true
+      explanation: "That's correct. Before you can deploy a DFCI policy, the Surface device must be enrolled using Windows Autopilot."
+  - content: "What is the name of the in-house developed firmware that is present on all Surface devices?"
+    choices:
+    - content: "Unified Extensible Firmware Interface"
+      isCorrect: true
+      explanation: "That's correct. The UEFI is the built-in firmware model developed by Microsoft to improve the security of Surface devices."
+    - content: "Device Firmware Configuration Interface"
+      isCorrect: false
+      explanation: "That's incorrect. The DFCI uses the UEFI to apply security policies to the Surface device."
+    - content: "Mobile Device Management Interface"
+      isCorrect: false
+      explanation: "That's incorrect. There is no such thing as a Mobile Device Management Interface."

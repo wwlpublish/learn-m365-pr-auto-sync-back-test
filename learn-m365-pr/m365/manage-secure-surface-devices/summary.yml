@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.manage-secure-surface-devices.summary
+title: Summary
+metadata:
+  unitType: summary
+  title: Summary
+  description: ""
+  ms.date: 29/04/2022
+  author: RaSanders-MSFT
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure # Edit as appropriate for your portfolio area
+durationInMinutes: 1
+content: |
+  [!include[](includes/summary.md)]
