@@ -4,7 +4,7 @@ title: Plan a staged migration
 metadata:
   title: Plan a staged migration
   description: "Plan a staged migration"
-  ms.date: 03/09/2022
+  ms.date: 05/12/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Batches can only have up to 1,000 user mailboxes"
       isCorrect: false
-      explanation: "This answer is incorrect. Batches can have up to 2,000 users in a staged migration. Try again."
+      explanation: "This answer is incorrect. Batches can have up to 2,000 users in a staged migration."
     - content: "Lucerne's Exchange environment doesn't support staged migrations"
       isCorrect: true
       explanation: "This answer is correct. A staged migration can only be run in Exchange 2003 and 2007 environments. Staged migrations aren't supported in organizations running Exchange 2010 or later. Since Lucerne Publishing is running Exchange 2013, Patti can't run a staged migration."
     - content: "Directory synchronization isn't supported in a staged migration"
       isCorrect: false
-      explanation: "This answer is incorrect. Directory synchronization is not only supported, but is required, in a staged migration. Try again."
+      explanation: "This answer is incorrect. Directory synchronization is not only supported, but is required, in a staged migration."
