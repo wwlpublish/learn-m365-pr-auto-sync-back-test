@@ -8,7 +8,7 @@ By strengthening and bolstering the most common entry points, you can plug the h
 
 ### Email
 
-The most common attack vector is email. A cybercriminal sends a seemingly legitimate email resulting in the recipient taking action. These actions might include selecting a link that allows the device to be compromised or unwittingly downloading ransomware.
+The most common attack vector is email. A cybercriminal sends a seemingly legitimate email resulting in the recipient taking action. These actions might include selecting a link that allows the device to be compromised or unwittingly download ransomware.
 
 ### Wireless networks
 
