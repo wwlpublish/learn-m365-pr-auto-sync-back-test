@@ -15,8 +15,8 @@ Microsoft Defender for Cloud Apps can monitor any file type based on more than 2
      -  other customizable attributes
  -  Automated actions for governance and remediation.
 
-    > [!NOTE]
-    > The only governance action that's guaranteed to be applied is the action of the first triggered policy. For example, if a file policy has already applied a sensitivity label to a file, a second file policy can't apply another sensitivity label to it. For more information, see [Control](/defender-cloud-apps/control?azure-portal=true).
+> [!NOTE]
+> The only governance action that's guaranteed to be applied is the action of the first triggered policy. For example, if a file policy has already applied a sensitivity label to a file, a second file policy can't apply another sensitivity label to it. For more information, see [Control](/defender-cloud-apps/control?azure-portal=true).
 
 Once an organization enables a policy, the policy continuously:
 
