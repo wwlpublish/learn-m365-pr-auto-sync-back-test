@@ -25,6 +25,9 @@ roles:
 - administrator
 products:
 - office-teams
+subjects:
+- cloud-computing
+- communication
 units:
 - learn-m365.teams.plan-direct-routing.1-introduction
 - learn-m365.teams.plan-direct-routing.2-plan-direct-routing

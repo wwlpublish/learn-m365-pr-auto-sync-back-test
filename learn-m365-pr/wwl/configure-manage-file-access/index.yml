@@ -30,6 +30,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- information-protection-governance
 units:
 - learn.wwl.configure-manage-file-access.introduction
 - learn.wwl.configure-manage-file-access.explore-tools-used-managing-files-folders

@@ -32,6 +32,8 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- device-management
 units:
 - learn.wwl.deploy-new-devices.introduction
 - learn.wwl.deploy-new-devices.use-autopilot-modern-deployment

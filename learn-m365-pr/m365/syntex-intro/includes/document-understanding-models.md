@@ -57,7 +57,7 @@ Sensitivity labels let you apply encryption, sharing, and Conditional Access pol
 
 ### What are retention labels?
 
-Retention labels give you the option to apply retention settings to your documents. Retention settings are policies defining how documents are kept or deleted. Retention labels enforce _who_ may delete documents and _when_ they may delete them. They are created in the Microsoft 365 compliance center but will appear as part of the compliance section of your model once they're created in the compliance center.
+Retention labels give you the option to apply retention settings to your documents. Retention settings are policies defining how documents are kept or deleted. Retention labels enforce _who_ may delete documents and _when_ they may delete them. They are created in the Microsoft Purview compliance portal but will appear as part of the compliance section of your model once they're created in the compliance portal.
 
 Retention labels can be helpful when dealing with any sensitive information within your SharePoint document library that should be retained for records purposes. For instance, at Contoso Electronics, there may be letters received from the government regarding regulatory standards and compliance requirements. A retention label titled _Legal_ could be added to these documents to ensure any document with this label is never deleted and is retained in your library forever. That way, if a team member attempts to delete the labeled document at some point, they won't be able to.
 

@@ -18,7 +18,7 @@ You know that new viruses and other threats appear all the time and the tight co
 
 - **Behavior-based machine learning**. New threats are identified from sequences of suspicious behavior.
 - **Metadata-based machine learning**. New threats are identified by associating metadata on files with patterns from earlier malware.
-- **File classification machine learning**. New threats are identified by using neural networks to classify files and comparing them to know threat patterns.
+- **File classification machine learning**. New threats are identified by using neural networks to classify files and comparing them to known threat patterns.
 - **Smart rules**. New threats are blocked by using rules written by security experts.
 - **Detonation-based machine learning**. New threats are identified by detonating unknown files.
 

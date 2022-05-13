@@ -23,7 +23,7 @@ You can implement these requirements by using retention policies. These policies
 > In the United States, you may be required to comply with Securities and Exchange Commission (SEC) Rule 17a-4, which requires that after a retention policy is turned on, it cannot be turned off or made less restrictive.
 
 The default configuration in Teams is to retain chat, channel, and files date indefinitely, unless it's deleted manually or by a retention policy. You can configure Teams retention policies for chat and channel messages separately and you can apply a policy to your entire organization or to specific users and groups.
-Use the Microsoft 365 Compliance Center to create and manage retention policies. Alternatively, you can create them by using the Security & Compliance Center PowerShell cmdlets.
+Use the Microsoft Purview compliance portal to create and manage retention policies. Alternatively, you can create them by using the Security & Compliance Center PowerShell cmdlets.
 
 ## Communication compliance in Microsoft Teams
 
@@ -31,7 +31,7 @@ If you want to recruit and keep the best employees from all communities, it's es
 
 Inappropriate communications can also bring your company into disrepute if they're obtained by the news media and published.
 
-To help prevent inappropriate communications in your company, Microsoft built communications compliance into Microsoft 365. You can use pre-defined compliance policies supplied by Microsoft or create your own custom policies to scan internal and external communications in Microsoft 365. Items that match policies are forwarded to reviewers so that they can take action to mitigate the problem. For example, the reviewer might delete the item and instruct the user to undertake a compliance training course.
+To help prevent inappropriate communications in your company, Microsoft built communications compliance into Microsoft Purview. You can use pre-defined compliance policies supplied by Microsoft or create your own custom policies to scan internal and external communications in Microsoft Purview. Items that match policies are forwarded to reviewers so that they can take action to mitigate the problem. For example, the reviewer might delete the item and instruct the user to undertake a compliance training course.
 
 Because Microsoft Teams is built on Microsoft 365, communications compliance policies automatically apply to Teams content including one-on-one or group chats.
 
@@ -40,4 +40,4 @@ Because Microsoft Teams is built on Microsoft 365, communications compliance pol
 - [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies)
 - [Information barriers in Microsoft Teams](/microsoftteams/information-barriers-in-teams)
 - [Retention policies in Microsoft Teams](/microsoftteams/retention-policies)
-- [Communication compliance in Microsoft 365](/microsoft-365/compliance/communication-compliance)
+- [Microsoft Purview Communication Compliance](/microsoft-365/compliance/communication-compliance)

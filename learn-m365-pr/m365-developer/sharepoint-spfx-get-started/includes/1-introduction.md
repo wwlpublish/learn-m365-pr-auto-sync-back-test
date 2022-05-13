@@ -15,6 +15,6 @@ This module will introduce you to the SharePoint Framework and walk you through 
 
 ## Additional resources
 
-Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Developing with the SharePoint Framework: Getting Started with the SharePoint Framework](https://github.com/SharePoint/sp-dev-training-spfx-getting-started).
+Refer to the following repository for more resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Developing with the SharePoint Framework: Getting Started with the SharePoint Framework](https://github.com/SharePoint/sp-dev-training-spfx-getting-started).
 
 This module is also available as a screencast: [SharePoint Framework Training - Developing with the SharePoint Framework: Getting Started with the SharePoint Framework](https://www.youtube.com/watch?v=_Pt5cnU4MpU&list=PLR9nK3mnD-OV-RPXQ3Lco845qoEy7VJoc)

@@ -30,6 +30,8 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
 units:
 - learn.wwl.monitor-troubleshoot-teams-phone-system.introduction
 - learn.wwl.monitor-troubleshoot-teams-phone-system.diagnose-troubleshoot-phone-number-assignment

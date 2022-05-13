@@ -46,7 +46,7 @@ A one-time scan must be completed before creating any custom trainable classifie
 
 **Step 1: Prepare sample data**. Prepare content to seed your predictive model consisting of known positive samples of the content you want to classify and store it in a SharePoint Online document library or folder. You will need at least 50 and as many as 500 samples that strongly represent the type of content you want the trainable classifier to detect.
 
-**Step 2: Create trainable classifier.** Create the classifier by navigating to **Microsoft 365 compliance center > Data classification > Trainable classifiers > Create trainable classifier**. You will give the classifier a name, a description, and provide the location of the seed content. The image below shows the **Provide seed content from SharePoint** page in the **Create new classifier** wizard.
+**Step 2: Create trainable classifier.** Create the classifier by navigating to **Microsoft Purview compliance portal > Data classification > Trainable classifiers > Create trainable classifier**. You will give the classifier a name, a description, and provide the location of the seed content. The image below shows the **Provide seed content from SharePoint** page in the **Create new classifier** wizard.
 
  :::image type="content" source="../media/provide-seed-content.png" alt-text="Screenshot shows Provide seed content from SharePoint screen." lightbox="../media/provide-seed-content.png":::  
 

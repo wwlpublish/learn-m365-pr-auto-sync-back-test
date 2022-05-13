@@ -22,6 +22,9 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
+- collaboration
 modules:
 - learn.wwl.create-manage-teams
 - learn.wwl.manage-collaboration-experiences-for-chat-channels

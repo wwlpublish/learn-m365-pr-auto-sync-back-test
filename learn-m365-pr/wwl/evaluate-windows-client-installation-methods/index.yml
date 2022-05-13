@@ -26,6 +26,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- device-management
 units:
 - learn.wwl.evaluate-windows-client-installation-methods.introduction
 - learn.wwl.evaluate-windows-client-installation-methods.explore-windows-client-installation-methods

@@ -3,8 +3,8 @@ uid: learn-m365.m365-compliance-information-transition-to-microsoft-information-
 title: Evaluate Windows labeling client alternatives
 metadata:
   title:  Evaluate Windows labeling client alternatives
-  description: Learn the key considerations for transitioning your organization from using Azure Information Protection to Microsoft Information Protection. 
-  ms.date: 04/06/2022
+  description: Learn the key considerations for transitioning your organization from using Azure Information Protection to Microsoft Purview Information Protection. 
+  ms.date: 04/29/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

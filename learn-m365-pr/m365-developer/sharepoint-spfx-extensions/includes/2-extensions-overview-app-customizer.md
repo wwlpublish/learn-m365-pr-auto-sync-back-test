@@ -21,7 +21,7 @@ Application customizers enable you to do two things:
 - add script to all pages in a site collection
 - set the HTML on two well known `<div>` elements on the page that serve as headers and footers
 
-![Screenshot of application customizer placeholders](../media/03-application-customizer-test-placeholders.png)
+![Screenshot of application customizer placeholders.](../media/03-application-customizer-test-placeholders.png)
 
 ### Field customizer
 
@@ -29,7 +29,7 @@ The next type of extension is the field customizer. This extension is intended t
 
 Field customizers enable you to define the HTML within a cell in a list view. In the following screenshot, notice the **Percent Complete** column is rendered with custom colored bars instead of plain text:
 
-![Screenshot of the field customizer](../media/05-field-customizer-test.png)
+![Screenshot of the field customizer.](../media/05-field-customizer-test.png)
 
 ### Command sets
 
@@ -37,7 +37,7 @@ The last type of extension is the command set. This extension is intended to be 
 
 Command sets enable you to add buttons to list and library toolbars or to the context menu of items within a list.
 
-![Screenshot of the command set](../media/07-command-set-test-01.png)
+![Screenshot of the command set.](../media/07-command-set-test-01.png)
 
 ## Project structure
 
@@ -45,14 +45,14 @@ The Yeoman generator for the SharePoint Framework creates the scaffolding (*fold
 
 Let's look at the folders in a newly created and built SharePoint Framework project:
 
-![Screenshot of a SharePoint Framework project in VS Code](../media/02-project-structure.png)
+![Screenshot of a SharePoint Framework project in VS Code.](../media/02-project-structure.png)
 
 - **.vscode**: This folder contains Visual Studio Code specific files.
 - **config**: This folder contains configuration files used by the project's various build tasks. You'll edit these files as necessary depending on the types of components you're creating and for specific situations, such as the site to test extensions or adding references to external libraries.
 - **dist**: This folder contains the files generated when you bundle your project, regardless of which switch you use. The unminified JavaScript files and source maps contained in this folder are used when you run in debug mode.
 - **lib**: This folder, created automatically when you build the project, contains the temporary files generated from the compilation and transpilation of TypeScript to JavaScript and SCSS to CSS files.
 - **node_modules**: This folder is created automatically when installing package dependencies using the `npm install` command.
-- **release**: This folder contains a subfolder named **assets** that contains the files generated when you bundle your project using the `ship` or `production` switch. These files are deployed to the CDN. This folder also contains two additional subfolders that contain manifest files.
+- **release**: This folder contains a subfolder named **assets** that contains the files generated when you bundle your project using the `ship` or `production` switch. These files are deployed to the CDN. This folder also contains two more subfolders that contain manifest files.
 - **src**: This folder contains all the source code for your project.
 - **temp**: This folder, created automatically when you test the project, contains files used by the local development web server.
 
@@ -76,7 +76,7 @@ The Yeoman generator for the SharePoint Framework simplifies this process fo you
 
 When SharePoint receives the request with these query string parameters, it will first prompt the user to confirm they want to load debugging scripts. SharePoint does this same technique could be used in a phishing attack. So, you should only load the debugging scripts if you're sure you started the request.
 
-![Screenshot of the debugging scripts confirmation](../media/app-customizer-load-debug-scripts.png)
+![Screenshot of the debugging scripts confirmation.](../media/app-customizer-load-debug-scripts.png)
 
 ## Deployment
 

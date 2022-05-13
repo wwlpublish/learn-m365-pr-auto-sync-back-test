@@ -3,7 +3,7 @@ uid: learn-m365.optimize-wvd
 metadata:
   title: Optimize Costs with Azure Virtual Desktops Autoscale
   description: Learn how to optimize deployment and infrastructure costs using Azure Virtual Desktops native scaling tool Autoscale. Learn how to configure Autoscale so that session host VMs are only running when you need them to be.   
-  ms.date: 02/03/2022
+  ms.date: 05/02/2022
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial
@@ -15,6 +15,7 @@ abstract: |
   - Configure automatic scaling of session hosts with Autoscale
 
 prerequisites: |
+  - An Azure account with an [active subscription](https://azure.microsoft.com/free)
   - Familiarity with Windows virtualization technologies, like Remote Desktop Services
   - Familiarity with server and client management concepts and tools 
   - Azure Active Directory Domain Services is already configured 
@@ -30,6 +31,10 @@ products:
 - m365
 - azure
 - azure-virtual-desktop
+subjects:
+- cloud-computing
+- finance-accounting
+- remote-hybrid-work
 units:
 - learn-m365.optimize-wvd.introduction
 - learn-m365.optimize-wvd.configure-automation

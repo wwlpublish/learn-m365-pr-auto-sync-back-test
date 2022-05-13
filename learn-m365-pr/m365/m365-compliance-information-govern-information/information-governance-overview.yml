@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-compliance-information-govern-information.overview
-title: Information governance overview
+title: Data Lifecycle Management overview
 metadata:
-  title: Information governance overview
+  title: Data Lifecycle Management overview
   description: Learn how to manage your content lifecycle using solutions to import, store, and classify business-critical data so you can keep what you need and delete what you don't. 
-  ms.date: 10/28/2021
+  ms.date: 05/02/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

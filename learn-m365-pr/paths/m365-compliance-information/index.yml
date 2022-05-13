@@ -22,6 +22,8 @@ roles:
 - auditor
 products: 
 - m365
+subjects:
+- information-protection-governance
 modules:
 - learn-m365.m365-compliance-information-governance
 - learn-m365.m365-compliance-information-classify-data

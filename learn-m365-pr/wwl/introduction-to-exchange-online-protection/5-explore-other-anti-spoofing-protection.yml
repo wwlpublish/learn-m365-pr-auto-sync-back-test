@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-exchange-online-protection.explore-other-anti-spoofing-protection
+title: Explore other anti-spoofing protection
+metadata:
+  title: Explore other anti-spoofing protection
+  description: "Explore other anti-spoofing protection"
+  ms.date: 05/06/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/5-explore-other-anti-spoofing-protection.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Because EOP sometimes can't determine the validity of the spoofing attempt, it supports three email authentication techniques to aid in detecting legitimate cases of spoofing while preventing unwanted spoofing and phishing. Two of these techniques are Domain Keys Identified Mail (DKIM) and Domain-based Message and Reporting Compliance (DMARC). What is the third technique that EOP uses to help prevent unwanted spoofing and phishing?"
+    choices:
+    - content: "Zero-Hour Auto Purge"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the third technique that EOP uses to help prevent unwanted spoofing and phishing."
+    - content: "Reputation block"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the third technique that EOP uses to help prevent unwanted spoofing and phishing."
+    - content: "Sender Policy Framework (SPF)"
+      isCorrect: true
+      explanation: "Correct. A Sender Policy Framework TXT record is a DNS record that helps to prevent spoofing and phishing. It does so by verifying the domain name from which email messages are sent. SPF validates the origin of email messages by verifying the IP address of the sender against the supposed owner of the sending domain. This process enables SPF to determine if a sender is permitted to send on behalf of a domain."

@@ -27,6 +27,9 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- infrastructure
+- communication
 units:
 - learn.wwl.configure-organizational-settings.introduction
 - learn.wwl.configure-organizational-settings.configure-workload-policies-throttling

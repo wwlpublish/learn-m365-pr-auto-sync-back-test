@@ -22,6 +22,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- threat-protection
 modules:
 - learn.wwl.explore-malware-threat-protection
 - learn.wwl.explore-microsoft-defender

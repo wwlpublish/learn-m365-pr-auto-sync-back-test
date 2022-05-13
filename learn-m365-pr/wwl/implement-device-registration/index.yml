@@ -28,6 +28,10 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- device-management
+- identity-access
+- cloud-computing
 units:
 - learn.wwl.implement-device-registration.introduction
 - learn.wwl.implement-device-registration.understand-challenges-data-access-multiple-device-types

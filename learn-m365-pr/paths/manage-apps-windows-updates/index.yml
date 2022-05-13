@@ -22,6 +22,9 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- device-management
+- cloud-computing
 modules:
 - learn.wwl.provide-apps-users
 - learn.wwl.manage-universal-windows-platform-apps

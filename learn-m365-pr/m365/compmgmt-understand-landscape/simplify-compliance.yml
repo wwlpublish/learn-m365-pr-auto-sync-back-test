@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.compmgmt-understand-landscape.simplify-compliance
-title: Simplify compliance with Microsoft Compliance Manager
+title: Simplify compliance with Microsoft Purview Compliance Manager
 metadata:
-  title:  Simplify compliance with Microsoft Compliance Manager
+  title:  Simplify compliance with Microsoft Purview Compliance Manager
   description: In this module, you will learn why compliance management has become so important and be introduced to Microsoft’s solution for compliance management. 
-  ms.date: 07/01/2021
+  ms.date: 04/29/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

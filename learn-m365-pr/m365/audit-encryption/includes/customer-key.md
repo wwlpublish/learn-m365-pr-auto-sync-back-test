@@ -23,6 +23,6 @@ Microsoft protects availability keys in access-controlled, internal secret store
 
 ## Learn more
 
-- [Service encryption with Customer Key](/microsoft-365/compliance/customer-key-overview?azure-portal=true)
+- [service encryption with Microsoft Purview Customer Key](/microsoft-365/compliance/customer-key-overview?azure-portal=true)
 - [Learn about the availability key for Customer Key](/microsoft-365/compliance/customer-key-availability-key-understand?azure-portal=true)
 - [Online Services Terms (OST)](https://aka.ms/OST?azure-portal=true)

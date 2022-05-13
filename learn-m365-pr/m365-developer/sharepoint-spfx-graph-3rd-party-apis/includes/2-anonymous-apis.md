@@ -2,7 +2,7 @@ In this unit, you'll learn how to call anonymous third-party REST APIs using the
 
 ## Consume REST APIs in SharePoint Framework projects
 
-A common requirement for SharePoint Framework projects is that they display or interact with data external to the web part. This data can reside in SharePoint lists and libraries, or it may be accessible via Microsoft Graph. Maybe the data is external to SharePoint and Microsoft 365 and your project will need to request data from a third-party REST API that may support anonymous requests or only support authorized requests because its protected with Azure AD.
+A common requirement for SharePoint Framework projects is that they display or interact with data external to the web part. This data can reside in SharePoint lists and libraries, or it may be accessible via Microsoft Graph. Maybe the data is external to SharePoint and Microsoft 365 and your project will need to request data from a third-party REST API that may support anonymous requests or only support authorized requests because it's protected with Azure AD.
 
 The SharePoint Framework includes multiple APIs you can use that address the different scenarios depending where the data is and the specifics around the HTTP API you'll need to call. There are three different APIs you'll use for specific scenarios.
 
@@ -12,7 +12,7 @@ The `MSGraphClient` API is used to call the Microsoft Graph REST API in the same
 
 The `AADHttpClient` API extends the `HttpClient` API that is used to call Azure AD secured APIs. You'll use the Azure AD HTTP client API to obtain an instance of the `HttpClient` that includes an `authorization` HTTP request header with the value set to an access token used to authorize calls to an Azure AD secured HTTP endpoint.
 
-None of these related HTTP request APIs require developers to install additional clients or libraries; the default SharePoint Framework project includes everything you'll need in your project to submit requests to REST APIs.
+None of these related HTTP request APIs require developers to install more clients or libraries; the default SharePoint Framework project includes everything you'll need in your project to submit requests to REST APIs.
 
 ## Call third-party APIs with the `HttpClient` API
 

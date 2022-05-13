@@ -30,6 +30,9 @@ products:
 - power-automate
 - power-bi
 - power-virtual-agents
+subjects:
+- data-management
+- cross-development
 units:
 - learn.wwl.connect-power-apps-automate-virtual-agent-bi-with-common-data-service.introduction
 - learn.wwl.connect-power-apps-automate-virtual-agent-bi-with-common-data-service.build-low-code,-power-apps-within-microsoft-teams

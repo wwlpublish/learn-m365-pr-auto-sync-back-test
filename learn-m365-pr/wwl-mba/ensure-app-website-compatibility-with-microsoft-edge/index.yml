@@ -27,6 +27,9 @@ products:
 - office-365
 - microsoft-edge
 - internet-explorer
+subjects:
+- productivity
+- modern-work
 units:
 - learn.wwl.ensure-app-website-compatibility-with-microsoft-edge.introduction
 - learn.wwl.ensure-app-website-compatibility-with-microsoft-edge.use-internet-explorer-mode-for-legacy-sites

@@ -23,7 +23,7 @@ Add items to the list by entering the names of different countries as shown in t
 Open a command prompt and change to the folder where you want to create the project.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.13.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
 
 Run the SharePoint Yeoman generator by executing the following command:
 
@@ -31,22 +31,18 @@ Run the SharePoint Yeoman generator by executing the following command:
 yo @microsoft/sharepoint
 ```
 
-Use the following to complete the prompt that is displayed (*if additional options are presented, accept the default answer)*:
+Use the following to complete the prompt that is displayed (*if more options are presented, accept the default answer)*:
 
-- **What is your solution name?**: SpFxHttpClientDemo
-- **Only SharePoint Online (latest) is supported.  For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
-- **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
-- **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No
+- **What is your solution name?**: SPFxHttpClientDemo
 - **Which type of client-side component to create?**: Web Part
 - **What is your Web Part name?**: SPFxHttpClientDemo
-- **What is your Web Part description?**: SPFxHttpClientDemo description
 - **Which framework would you like to use?** React
 
-After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, open the project in **Visual Studio Code**.
+After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When npm completes downloading all dependencies, open the project in **Visual Studio Code**.
 
 ### Create an interface for the SharePoint list items
 
-Locate the **./src** folder in the project. Create a new subfolder **models** in the **src** folder.
+Locate the **./src** folder in the project. Create a new subfolder **models** in the **src** folder.npm
 
 Create a new file **ICountryListItem.ts** in the **models** folder and add the following code to it:
 
@@ -93,6 +89,10 @@ Update the interface to replace the existing `description` property to be a coll
 export interface ISpFxHttpClientDemoProps {
   spListItems: ICountryListItem[];
   onGetListItems?: ButtonClickedCallback;
+  isDarkTheme: boolean;
+  environmentMessage: string;
+  hasTeamsContext: boolean;
+  userDisplayName: string;
 }
 ```
 
@@ -100,76 +100,61 @@ export interface ISpFxHttpClientDemoProps {
 
 Locate and open the file **./src/webparts/spFxHttpClientDemo/components/SpFxHttpClientDemo.module.scss**.
 
-Add the following classes to the bottom of the file, immediately before the closing `}`:
+Add the following to the bottom of the file:
 
 ```scss
-.list {
-  color: $ms-color-themeDark;
-  background-color: $ms-color-themeLight;
-  font-family: 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  box-sizing: border-box;
-  margin: 0 0;
-  padding: 10px 0 100px 0;
-  line-height: 50px;
-  list-style-type: none;
-}
-
-.item {
-  color: $ms-color-themeDark;
-  background-color: $ms-color-themeLighterAlt;
-  vertical-align: center;
-  font-family: 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  box-shadow: none;
-  *zoom: 1;
-  padding: 0 15px;
-  position: relative;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+.buttons {
+  padding-top: 20px;
+  > button {
+    margin-right: 10px;
+  }
 }
 ```
 
 Locate and open the file **./src/webparts/spFxHttpClientDemo/components/SpFxHttpClientDemo.tsx**.
 
-Update the markup returned by the `render()` method to the following code. This will create a list displaying the data contained in the `spListItems` property rendered using the CSS classes added in the previous step. Also notice that there's an anchor tag `<a>` that acts as a button and has an `onClick` handler wired up to it.
+Locate the `render()` method and replace it with the following code. This will create a list displaying the data contained in the `spListItems` property. Also notice that there's a button that has an `onClick` handler wired up to it.
 
 ```html
-<div className={ styles.spFxHttpClientDemo }>
-  <div className={ styles.container }>
-    <div className={ styles.row }>
-      <div className={ styles.column }>
-        <p className={ styles.title }>SharePoint Content!</p>
-        <a href="#" className={ styles.button } onClick={ this.onGetListItemsClicked }>
-          <span className={ styles.label }>Get Countries</span>
-        </a>
-      </div>
-    </div>
+public render(): React.ReactElement<ISpFxHttpClientDemoProps> {
+  const {
+    spListItems,
+    onGetListItems,
+    isDarkTheme,
+    environmentMessage,
+    hasTeamsContext,
+    userDisplayName
+  } = this.props;
 
-    <div className={ styles.row }>
-      <ul className={ styles.list }>
-        { this.props.spListItems &&
-          this.props.spListItems.map((list) =>
-            <li key={list.Id} className={styles.item}>
+  return (
+    <section className={`${styles.spFxHttpClientDemo} ${hasTeamsContext ? styles.teams : ''}`}>
+      <div className={styles.welcome}>
+        <img alt="" src={isDarkTheme ? require('../assets/welcome-dark.png') : require('../assets/welcome-light.png')} className={styles.welcomeImage} />
+        <h2>Well done, {escape(userDisplayName)}!</h2>
+        <div>{environmentMessage}</div>
+      </div>
+      <div className={styles.buttons}>
+        <button type="button" onClick={this.onGetListItemsClicked}>Get Countries</button>
+      </div>
+      <div>
+        <ul>
+          {spListItems && spListItems.map((list) =>
+            <li key={list.Id}>
               <strong>Id:</strong> {list.Id}, <strong>Title:</strong> {list.Title}
             </li>
           )
-        }
-      </ul>
-    </div>
-
-  </div>
-</div>
+          }
+        </ul>
+      </div>
+    </section>
+  );
+}
 ```
 
 Add the following event handler to the `SpFxHttpClientDemo` class to handle the click event on the button. This code will prevent the default action of the `<a>` element from navigating away from (or refreshing) the page and call the callback set on the public property, notifying the consumer of the component an event occurred.
 
 ```typescript
-private onGetListItemsClicked = (event: React.MouseEvent<HTMLAnchorElement>): void => {
+private onGetListItemsClicked = (event: React.MouseEvent<HTMLButtonElement>): void => {
   event.preventDefault();
 
   this.props.onGetListItems();
@@ -193,11 +178,11 @@ Locate the class `SpFxHttpClientDemoWebPart` and add the following private membe
 private _countries: ICountryListItem[] = [];
 ```
 
-Locate the `render()` method. Notice that this method is creating an instance of the component `SpFxHttpClientDemo` and then setting its public properties. The default code sets the `description` property, however this was removed from the interface `ISpFxHttpClientDemoProps` in the previous steps. Update the properties to set the list of countries to the private member added above and attach to the event handler:
+Locate the `render()` method. Notice that this method is creating an instance of the component `SpFxHttpClientDemo` and then setting its public properties. The default code sets the `description` property, however this was removed from the interface `ISpFxHttpClientDemoProps` in the previous steps. Remove the `description` property and add the following properties to set the list of countries to the private member added above and attach to the event handler:
 
 ```typescript
 spListItems: this._countries,
-onGetListItems: this._onGetListItems
+onGetListItems: this._onGetListItems,
 ```
 
 Add the following method as an event handler to the `SpFxHttpClientDemoWebPart` class. This method calls another method (*that you'll add in the next step*) that returns a collection of list items. Once those items are returned via a JavaScript Promise, the method updates the internal `_countries` member and re-renders the web part. This will bind the collection of countries returned by the `_getListItems()` method to the public property on the React component that will render the items.

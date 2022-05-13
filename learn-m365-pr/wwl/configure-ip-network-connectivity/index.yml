@@ -32,6 +32,9 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- networking
+- device-management
 units:
 - learn.wwl.configure-ip-network-connectivity.introduction
 - learn.wwl.configure-ip-network-connectivity.explore-windows-network-configuration

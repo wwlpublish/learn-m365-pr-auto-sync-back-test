@@ -2,53 +2,44 @@ In this exercise, you'll update the SharePoint Framework web part from the previ
 
 Locate and open the file **./src/webparts/spFxTeamsTogether/SpFxTeamsTogetherWebPart.ts**.
 
-Add the following `import` statement to the existing `import` statements at the top of the file:
+Locate the `_getEnvironmentMessage()` method in the `SpFxTeamsTogetherWebPart` class. This code constructs a message indicating whether the web part is running in SharePoint or Teams by checking the value of `this.context.sdks.microsoftTeams`. If the `microsoftTeams` object has a value, then the web part is running in Teams. If the `microsoftTeams` object is `undefined`, then the web part isn't running in Teams:
 
 ```typescript
-import * as microsoftTeams from '@microsoft/teams-js';
-```
+private _getEnvironmentMessage(): string {
+  if (!!this.context.sdks.microsoftTeams) { // running in Teams
+    return this.context.isServedFromLocalhost ?
+      strings.AppLocalEnvironmentTeams :
+      strings.AppTeamsTabEnvironment;
+  }
 
-Add the following private member to the class `SpFxTeamsTogetherWebPart`. This will store the Microsoft Teams context in the case where the web part is running within a Microsoft Teams team:
-
-```typescript
-private teamsContext: microsoftTeams.Context;
-```
-
-Add the following method to the `SpFxTeamsTogetherWebPart` class to run when the web part is loaded on a page:
-
-```typescript
-protected onInit(): Promise<void> {
-  return new Promise<void>((resolve, reject) => {
-    if (this.context.sdks.microsoftTeams) {
-      this.teamsContext = this.context.sdks.microsoftTeams.context;
-    }
-    resolve();
-  });
+  return this.context.isServedFromLocalhost ?
+    strings.AppLocalEnvironmentSharePoint :
+    strings.AppSharePointEnvironment;
 }
 ```
 
-Locate the `render()` method in the `SpFxTeamsTogetherWebPart` class. Add the following two members to set the title and current location depending on whether the web part is running in a SharePoint or Microsoft Teams context. Notice how using the necessary context property, you can get the name of the team or SharePoint site where the web part is currently running:
+Replace the implementation of `_getEnvironmentMessage()` method with the following code. It not only constructs a message indicating whether the web part is running in SharePoint or Teams, it also uses the appropriate context object to include the name of the team or SharePoint site where the web part is currently running:
 
 ```typescript
-let title: string = (this.teamsContext)
-  ? 'Teams'
-  : 'SharePoint';
-let currentLocation: string = (this.teamsContext)
-  ? `Team: ${this.teamsContext.teamName}`
-  : `site collection ${this.context.pageContext.web.title}`;
-```
+private _getEnvironmentMessage(): string {
+  let message: string = "";
 
-Finally, update the HTML written to the page. Replace the existing `<div class="${ styles.column }">` with the following markup:
+  if (!!this.context.sdks.microsoftTeams) { // running in Teams
+    message = this.context.isServedFromLocalhost ?
+      strings.AppLocalEnvironmentTeams :
+      strings.AppTeamsTabEnvironment;
 
-```tsx
-<div class="${ styles.column }">
-  <span class="${ styles.title }">Welcome to ${ title }!</span>
-  <p class="${ styles.subTitle }">Currently in the context of the following ${ currentLocation }</p>
-  <p class="${ styles.description }">${escape(this.properties.description)}</p>
-  <a href="https://aka.ms/spfx" class="${ styles.button }">
-    <span class="${ styles.label }">Learn more</span>
-  </a>
-</div>
+    message += ". Team name: " + this.context.sdks.microsoftTeams.context.teamName;
+  } else {
+    message = this.context.isServedFromLocalhost ?
+      strings.AppLocalEnvironmentSharePoint :
+      strings.AppSharePointEnvironment;
+
+    message += ". Site name: " + this.context.pageContext.web.title;
+  }
+
+  return message;
+}
 ```
 
 ## Package and deploy the web part
@@ -71,13 +62,17 @@ Finally, create a deployment package of the project by running the following com
 gulp package-solution --ship
 ```
 
+Navigate to the modern tenant app catalog (that is, the **Manage Apps** page).
+
 Locate the file created by the gulp task, found in the **./sharepoint/solution** folder with the name **\*.sppkg**.
 
-Drag this file into the **Apps for SharePoint** library in the browser. When prompted, select **Replace It**.
+Drag this file into the **Apps for SharePoint** library in the browser. When prompted, select **Replace**.
 
-![Screenshot dragging the SharePoint package into the Apps for SharePoint library](../media/05-upload-solution.png)
+![Screenshot dragging the SharePoint package into the Apps for SharePoint library.](../media/05-upload-solution.png)
 
-In the **Do you trust spfxteams-client-side-solution?** dialog, ensure the checkbox **Make this solution available to all sites in the organization** is selected and then select **Deploy**.
+In the **Enable app** panel, ensure the **Enable this app and add it to all sites** radio button is selected and then select **Enable app**.
+
+In the **This app has been enabled** panel, select **Close**.
 
 ## Test the changes
 
@@ -85,11 +80,11 @@ Navigate back to the SharePoint page where you added the web part in the previou
 
 Notice how the page shows that it's currently in the SharePoint context and displays the current SharePoint site name:
 
-![Screenshot of the SPFx solution in SharePoint](../media/05-test-different-contexts-01.png)
+![Screenshot of the SPFx solution in SharePoint.](../media/05-test-different-contexts-01.png)
 
 Now go back into the Microsoft Teams team and select the tab that you previously added. Notice how the message says you're currently in Teams and the name of the team:
 
-![Screenshot of the SPFx solution in Microsoft Teams](../media/05-test-different-contexts-02.png)
+![Screenshot of the SPFx solution in Microsoft Teams.](../media/05-test-different-contexts-02.png)
 
 ## Summary
 

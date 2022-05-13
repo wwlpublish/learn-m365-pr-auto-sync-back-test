@@ -33,6 +33,9 @@ roles:
 products:
   - m365
   - ms-graph
+subjects:
+- data-visualization
+- custom-app-development
 units:
   - learn-m365.msgraph-toolkit-customize-part-two.1-introduction
   - learn-m365.msgraph-toolkit-customize-part-two.2-change-presentation-using-templates

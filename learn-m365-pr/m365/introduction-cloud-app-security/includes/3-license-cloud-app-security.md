@@ -19,10 +19,10 @@ The following table describes the most common licensing options.
 | Microsoft 365 E5 Security                                    | Includes Office 365 ATP Plan 2, Microsoft Defender for Cloud Apps, Azure Advanced Threat Protection (Azure ATP), Azure AD Premium 2 (P2), and Microsoft Defender Advanced Threat Protection. |
 | Microsoft 365 E5 Compliance                                  | Includes Information Protection & Governance, Insider Risk Management and eDiscovery & Audit solutions. Customers also get the complete Microsoft Defender for Cloud Apps offering, including Office 365 Cloud App Security and Cloud App Discovery. |
 | Enterprise Mobility & Security E5                            | Includes the complete Microsoft Cloud App  Security offering, including Office 365 Cloud App Security and Cloud App Discovery. |
-| Microsoft Cloud App Security + Enterprise Mobility & Security E3 | Extends the capabilities of Microsoft Defender for Cloud Apps to include Conditional Access App Control (reverse proxy capabilities) for real-time session controls, and automatic data classification and labeling. |
-| Microsoft Cloud App Security (standalone license)           | A per-user license that includes an unlimited number of apps to be connected and protected for each licensed user. Customers get the complete Microsoft Defender for Cloud Apps offering, including Office 365 Cloud App Security and Cloud App Discovery. |
-| Microsoft 365 Education A3                                   | Available to educational institutions and includes Microsoft Cloud App Security. |
-| Microsoft 365 Education A5                                   | Available to educational institutions and includes Microsoft Cloud App Security. |
+| Microsoft Defender for Cloud Apps + Enterprise Mobility & Security E3 | Extends the capabilities of Microsoft Defender for Cloud Apps to include Conditional Access App Control (reverse proxy capabilities) for real-time session controls, and automatic data classification and labeling. |
+|Microsoft Defender for Cloud Apps (standalone license)           | A per-user license that includes an unlimited number of apps to be connected and protected for each licensed user. Customers get the complete Microsoft Defender for Cloud Apps offering, including Office 365 Cloud App Security and Cloud App Discovery. |
+| Microsoft 365 Education A3                                   | Available to educational institutions and includes Microsoft Defender for Cloud Apps. |
+| Microsoft 365 Education A5                                   | Available to educational institutions and includes Microsoft Defender for Cloud Apps. |
 
 Alternatively, you can opt to use the following licensing plans:
 

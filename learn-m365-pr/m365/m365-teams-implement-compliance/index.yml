@@ -3,7 +3,7 @@ uid: learn-m365.teams.implement-compliance
 metadata:
   title: Implement compliance in Teams
   description: Learn how you can extend your organization's compliance and regulatory requirements into Teams.
-  ms.date: 06/23/2021
+  ms.date: 05/02/2022
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
@@ -25,6 +25,9 @@ roles:
 - administrator
 products:
 - office-teams
+subjects:
+- compliance
+- collaboration
 units:
 - learn-m365.teams.implement-compliance.1-introduction
 - learn-m365.teams.implement-compliance.2-compliance-teams

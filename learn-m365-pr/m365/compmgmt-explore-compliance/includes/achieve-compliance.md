@@ -10,7 +10,7 @@ Some improvement actions can be assigned to users in your organization to implem
 
   :::image type="content" source="../media/sensitivity-labels.png" alt-text="Apply Sensitivity Labels to Protect Sensitive or Critical Data view." lightbox="../media/sensitivity-labels.png":::
 
-For improvement actions not monitored automatically, Microsoft Compliance Manager includes workflow functionality to help manage the improvement action to completion. Generally speaking, the workflow can be broken down into an implementation phase and a test phase, both of which are managed by clicking **Edit status** on the improvement action's details page. Each user assigned to the improvement action must have the permissions required to view and edit their assignment, and only one user can be assigned to an improvement action at a time. Anyone with editing permissions can edit the action, not just the user assigned. Here are the tasks broken down by phases.
+For improvement actions not monitored automatically, Microsoft Purview Compliance Manager includes workflow functionality to help manage the improvement action to completion. Generally speaking, the workflow can be broken down into an implementation phase and a test phase, both of which are managed by clicking **Edit status** on the improvement action's details page. Each user assigned to the improvement action must have the permissions required to view and edit their assignment, and only one user can be assigned to an improvement action at a time. Anyone with editing permissions can edit the action, not just the user assigned. Here are the tasks broken down by phases.
 
 ### Implementation phase
 

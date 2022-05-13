@@ -201,7 +201,7 @@ New-DistributionGroup -Name "Finance Department" -Alias FDep -Type security
 Dynamic distribution groups change their membership depending on a query against account types and additional criteria.
 
 > [!IMPORTANT]
-> Because dynamic distribution lists can be quite large, it's essential that they be designed correctly.
+> Because dynamic distribution lists can become large, it's essential that they be designed correctly.
 
 Creating dynamic distribution lists in the EAC is similar to a distribution list, except for setting up the criteria. When selecting Members, you can select one, some, or all of the following options:
 
