@@ -11,7 +11,7 @@ Once the custodians have been identified, they are added to an eDiscovery (Premi
 
 Once the case has been created, you can begin adding the persons of interest by navigating to the **Data sources** tab, select **Add data source**, and then and select **Add new custodians**.
 
-:::image type="content" source="../media/add-custodians.png" alt-text="Screenshot of the Data sources tab in e Discovery (Premium) home page in the Microsoft Purview compliance portal. Showing the Add new custodians menu selected." lightbox="../media/add-custodians.png" border="false":::
+:::image type="content" source="../media/add-custodians.png" alt-text="Screenshot of the Data sources tab in e Discovery (Premium) home page in the Purview compliance portal with the Add new custodians menu selected." lightbox="../media/add-custodians.png" border="false":::
 
 > [!TIP]
 > You need to be a member of the **eDiscovery Manager** group to add custodians and see these options.
