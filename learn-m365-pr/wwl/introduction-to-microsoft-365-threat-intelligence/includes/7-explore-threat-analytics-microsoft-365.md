@@ -10,7 +10,7 @@ Threat analytics is our in-product threat intelligence solution from expert Micr
 
 You can access the **Threat analytics** dashboard from the navigation pane in the Microsoft 365 Defender portal. You can also access it from a dedicated dashboard card that shows the top threats to your organization, both in terms of effect, and in terms of exposure. The following image of the Microsoft 365 Defender home page highlights both methods of selection.
 
-:::image type="content" source="../media/threat-analytics-page-6374e5c6.png" alt-text="Screenshot of the Microsoft 365 Defender portal with the Threat Analytics access options highlighted.":::
+:::image type="content" source="../media/threat-analytics-page-6374e5c6.png" alt-text="Screenshot of the Microsoft 365 Defender portal with the Threat Analytics access options highlighted." lightbox="../media/threat-analytics-page-6374e5c6.png":::
 
 
 High impact threats have the greatest potential to cause harm. High exposure threats are the ones that your assets are most vulnerable to. Getting visibility on active or ongoing campaigns and knowing what to do through threat analytics can help equip your security operations team with informed decisions.
@@ -38,7 +38,7 @@ The threat analytics dashboard highlights the reports that are most relevant to 
 
 Select a threat from the dashboard to view the report for that threat. You can also select the **Search** field to enter a keyword that's related to the threat analytics report you would like to see.
 
-:::image type="content" source="../media/threat-analytics-dashboard-0afd0936.png" alt-text="Screenshot of the Threat Analytics dashboard in the Microsoft 365 Defender portal.":::
+:::image type="content" source="../media/threat-analytics-dashboard-0afd0936.png" alt-text="Screenshot of the Threat Analytics dashboard in the Microsoft 365 Defender portal." lightbox="../media/threat-analytics-dashboard-0afd0936.png":::
 
 
 ### View a threat analytics report
@@ -50,7 +50,7 @@ Each threat analytics report provides information in several tabs:
  -  Related incidents
  -  Impacted assets
  -  Prevented email attempts
- -  Exposure &amp; mitigations
+ -  Exposure & mitigations
 
 Each of these tabs is examined in greater detail in the following sections.
 
@@ -61,7 +61,7 @@ The **Overview** tab provides a preview of the detailed analyst report. It also 
  -  The impact of the threat to your organization.
  -  Your exposure through misconfigured and unpatched devices.
 
-:::image type="content" source="../media/overview-section-threat-analytics-page-3a6ec605.png" alt-text="Screenshot of the overview section of the threat analytics report.":::
+:::image type="content" source="../media/overview-section-threat-analytics-page-3a6ec605.png" alt-text="Screenshot of the overview section of the threat analytics report." lightbox="../media/overview-section-threat-analytics-page-3a6ec605.png":::
 
 
 Each report includes charts designed to provide information about the organizational impact of a threat:
@@ -100,7 +100,7 @@ The Microsoft Threat Intelligence team has added threat tags to each threat repo
 
 #### Analyst report tab: Get expert insight from Microsoft security researchers
 
-The **Analyst report** tab includes detailed expert analysis on the threat. Most reports provide detailed descriptions of attack chains, including tactics and techniques mapped to the MITRE ATT&amp;CK framework, exhaustive lists of recommendations, and powerful [threat hunting](/microsoft-365/security/defender/advanced-hunting-overview?azure-portal=true) guidance.
+The **Analyst report** tab includes detailed expert analysis on the threat. Most reports provide detailed descriptions of attack chains, including tactics and techniques mapped to the MITRE ATT&CK framework, exhaustive lists of recommendations, and powerful [threat hunting](/microsoft-365/security/defender/advanced-hunting-overview?azure-portal=true) guidance.
 
 **Additional reading**. For more information, see [Learn more about the analyst report](/microsoft-365/security/defender/threat-analytics-analyst-reports?azure-portal=true).
 
@@ -108,7 +108,7 @@ The **Analyst report** tab includes detailed expert analysis on the threat. Most
 
 The **Related incidents** tab provides the list of all incidents related to the tracked threat. You can assign incidents or manage alerts linked to each incident.
 
-:::image type="content" source="../media/related-incidents-section-threat-analytics-report-bee37b17.png" alt-text="Screenshot of the related incidents section of a threat analytics report.":::
+:::image type="content" source="../media/related-incidents-section-threat-analytics-report-bee37b17.png" alt-text="Screenshot of the related incidents section of a threat analytics report." lightbox="../media/related-incidents-section-threat-analytics-report-bee37b17.png":::
 
 
 #### Impacted assets tab: Get list of impacted devices and mailboxes
@@ -118,7 +118,7 @@ An asset is considered impacted if it's affected by an active, unresolved alert.
  -  **Devices**. Endpoints that have unresolved Microsoft Defender for Endpoint alerts. These alerts typically fire on sightings of known threat indicators and activities.
  -  **Mailboxes**. Mailboxes that have received email messages that have triggered Microsoft Defender for Office 365 alerts. While most messages that trigger alerts are typically blocked, user- or org-level policies can override filters.
 
-:::image type="content" source="../media/impacted-assets-section-threat-analytics-report-0d7b74f3.png" alt-text="Screenshot of the impacted assets section of a threat analytics report.":::
+:::image type="content" source="../media/impacted-assets-section-threat-analytics-report-0d7b74f3.png" alt-text="Screenshot of the impacted assets section of a threat analytics report." lightbox="../media/impacted-assets-section-threat-analytics-report-0d7b74f3.png":::
 
 
 #### Prevented email attempts tab: View blocked or junked threat emails
@@ -143,7 +143,7 @@ In the **Exposure and mitigations** section, an organization should review the l
 
 Mitigation information in this tab incorporates data from [threat and vulnerability management](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt?azure-portal=true). This feature also provides detailed drill-down information from various links in the report.
 
-:::image type="content" source="../media/mitigation-section-secure-details-7c51e9f1.png" alt-text="Screenshot of the mitigation section showing secure configuration details.":::
+:::image type="content" source="../media/mitigation-section-secure-details-7c51e9f1.png" alt-text="Screenshot of the mitigation section showing secure configuration details." lightbox="../media/mitigation-section-secure-details-7c51e9f1.png":::
 
 
 :::image type="content" source="../media/mitigation-section-vulnerability-details-3b8044f4.png" alt-text="Screenshot of the mitigation section showing vulnerability details.":::

@@ -2,7 +2,7 @@ Alerts are the basis of all incidents and indicate the occurrence of malicious o
 
 In Microsoft 365 Defender, related alerts are aggregated together to form [incidents](/microsoft-365/security/defender/incidents-overview?azure-portal=true). Incidents will always provide the broader context of an attack. However, analyzing alerts can be valuable when deeper analysis is required.
 
-The Alerts queue shows the current set of alerts. You get to the alerts queue from **Incidents &amp; alerts &gt; Alerts** on the navigation pane in the Microsoft 365 Defender portal.
+The Alerts queue shows the current set of alerts. You get to the alerts queue from **Incidents & alerts > Alerts** on the navigation pane in the Microsoft 365 Defender portal.
 
 :::image type="content" source="../media/alerts-page-in-microsoft-365-defender-fcf6f72e.png" alt-text="Screenshot of the Alerts page in the Microsoft 365 Defender portal.":::
 

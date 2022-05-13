@@ -10,7 +10,7 @@ As security alerts are triggered, it's up to your security operations team to lo
 
 **Additional viewing**. Select the following link to watch a video titled: [Automated self-healing](https://www.microsoft.com/videoplayer/embed/RE4BzwB?postJsllMsg=true?azure-portal=true).
 
-In Microsoft 365 Defender, automated investigation and response with self-healing capabilities works across your devices, email &amp; content, and identities.
+In Microsoft 365 Defender, automated investigation and response with self-healing capabilities works across your devices, email & content, and identities.
 
 Automated investigation and response capabilities enable an organization's security operations team to dramatically increase the company's capacity to deal with security alerts and incidents. With automated investigation and response, you can reduce the cost of dealing with investigation and response activities. You can also get the most out of your threat protection suite. Automated investigation and response capabilities help your security operations team complete the following steps:
 
@@ -60,7 +60,7 @@ The Action center in the Microsoft 365 Defender portal brings together remediati
 Complete the following steps to select an item in the Action center:
 
 1.  Go to the Microsoft 365 Defender portal and sign in.
-2.  In the navigation pane, select **Actions &amp; submissions**, and then select **Action center**.
+2.  In the navigation pane, select **Actions & submissions**, and then select **Action center**.
 3.  On the **Action center** pane, the **Pending** tab is displayed by default. Select either the **Pending** or **History** tab and then select an item. A detail pane is displayed for the selected item.
 4.  Review the information in the details pane, and then take one of the following steps:
     
@@ -74,7 +74,7 @@ Complete the following steps to select an item in the Action center:
 The second method of opening an Investigation Details page is by opening an incident in the Microsoft 365 Defender portal. Doing so enables you to view detailed information about an incident, including alerts that were triggered, and information about any affected devices, user accounts, or mailboxes.
 
 1.  Go to Microsoft 365 Defender portal and sign in.
-2.  In the navigation pane, select **Incidents &amp; alerts**, and then select **Incidents**.
+2.  In the navigation pane, select **Incidents & alerts**, and then select **Incidents**.
 3.  On the **Incidents** page, select an item in the list, and then select **Open incident page**.
 4.  Select the **Investigations** tab, and then select an investigation in the list. A detail pane appears for the investigation.
 5.  On the detail pane, select O**pen investigation page.**
