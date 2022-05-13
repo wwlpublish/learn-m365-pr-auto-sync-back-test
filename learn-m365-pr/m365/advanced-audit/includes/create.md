@@ -67,15 +67,15 @@ You must be assigned the Organization Configuration role in the Microsoft 365 De
 
     The image below is an example of the confirmation received that `AlexW` user is a member of the Organization Management role group. `AlexW` can now create or modify audit log retention policies.
 
-    :::image type="content" source="../media/role-group.png" alt-text="Screenshot of the user confirmation screen.":::
+    :::image type="content" source="../media/role-group.png" alt-text="Screenshot of the PowerShell terminal showing the output of the Get-RoleGroupMember -Identity Organization Management command." border="false":::
 
 ## Create audit log retention policy in Microsoft Purview compliance portal
 
 Audit log retention policies can be created using the Microsoft Purview compliance portal.
 
 1. Sign into the Microsoft Purview compliance portal using an account with the appropriate rights.
-2. Open the **Audit** solution.
-3. Select **Create Policy**, then complete the **Create Retention Policy** form. The table below provides information needed to complete the form.
+1. Open the **Audit** solution.
+1. Select **Create Policy**, then complete the **Create Retention Policy** form. The table below provides information needed to complete the form.
 
 |  Field |  Description |
 |---|---|
@@ -100,7 +100,7 @@ Watch this video on how to create an audit log retention policy using Microsoft 
 Audit log retention policies can be created using the Security & Compliance Center PowerShell.
 
 1. Connect to Security & Compliance PowerShell.
-2. Run the PowerShell command which will create an audit log retention policy. The sample provided uses the settings below.
+1. Run the PowerShell command, which will create an audit log retention policy. The sample provided uses the settings below.
 
     ```PowerShell
     New-UnifiedAuditLogRetentionPolicy -Name "Microsoft Teams Audit Policy" -Description "Six-month retention policy for all Microsoft Teams activities" -RecordTypes MicrosoftTeams -RetentionDuration SixMonths -Priority 10
@@ -122,7 +122,7 @@ Watch this demonstration of how to create an audit log retention policy in Power
 
 ## View audit log retention policies using PowerShell
 
-Custom audit log retention policies are viewed using the `Get-UnifiedAuditRetentionPolicy` cmdlet in Security & Compliance Center PowerShell. There is no way to view the default audit log retention policy. Here is a sample PowerShell command to view the settings for the audit log retention policies in your organization. This command sorts the policies from the highest to lowest priority.
+Custom audit log retention policies are viewed using the `Get-UnifiedAuditRetentionPolicy` cmdlet in Security & Compliance Center PowerShell. There's no way to view the default audit log retention policy. Here is a sample PowerShell command to view the settings for the audit log retention policies in your organization. This command sorts the policies from the highest to lowest priority.
 
 ```PowerShell
 Get-UnifiedAuditLogRetentionPolicy | Sort-Object -Property Priority -Descending | FL Priority,Name,Description,RecordTypes,Operations,UserIds,RetentionDuration 
