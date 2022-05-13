@@ -100,7 +100,7 @@ Watch this video on how to create an audit log retention policy using Microsoft 
 Audit log retention policies can be created using the Security & Compliance Center PowerShell.
 
 1. Connect to Security & Compliance PowerShell.
-2. Run the PowerShell command, which will create an audit log retention policy. The sample provided uses the settings below.
+1. Run the PowerShell command, which will create an audit log retention policy. The sample provided uses the settings below.
 
     ```PowerShell
     New-UnifiedAuditLogRetentionPolicy -Name "Microsoft Teams Audit Policy" -Description "Six-month retention policy for all Microsoft Teams activities" -RecordTypes MicrosoftTeams -RetentionDuration SixMonths -Priority 10
