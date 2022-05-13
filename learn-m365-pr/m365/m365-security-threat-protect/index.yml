@@ -27,6 +27,9 @@ products:
 - m365
 - office-365
 - m365-threat-protection
+subjects:
+- threat-protection
+- cloud-security
 units:
 - learn-m365.m365-security-threat-protect.introduction
 - learn-m365.m365-security-threat-protect.practice-security-administration

@@ -27,6 +27,10 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- compliance
+- information-protection-governance
+- cloud-computing
 units:
 - learn-m365.compmgmt-learn-concepts.introduction
 - learn-m365.compmgmt-learn-concepts.explain-model

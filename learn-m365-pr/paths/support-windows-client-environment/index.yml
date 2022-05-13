@@ -22,6 +22,10 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- architecture
+- cloud-computing
+- device-management
 modules:
 - learn.wwl.explore-troubleshooting-methodologies
 - learn.wwl.explore-windows-architecture

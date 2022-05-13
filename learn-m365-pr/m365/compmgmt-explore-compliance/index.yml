@@ -28,6 +28,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- compliance
+- cloud-computing
 units:
 - learn-m365.compmgmt-explore-compliance.introduction
 - learn-m365.compmgmt-explore-compliance.configure-permissions

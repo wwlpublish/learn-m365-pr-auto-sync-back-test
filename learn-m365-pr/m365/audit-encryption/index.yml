@@ -28,6 +28,10 @@ roles:
 - privacy-manager
 products:
 - m365
+subjects:
+- information-protection-governance
+- threat-protection
+- compliance
 units:
 - learn-m365.audit-encryption.introduction
 - learn-m365.audit-encryption.data-at-rest-encryption

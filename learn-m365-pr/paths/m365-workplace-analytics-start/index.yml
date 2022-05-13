@@ -24,6 +24,10 @@ products:
 - m365
 - m365-workplace-analytics
 - power-bi
+subjects:
+- collaboration
+- data-analytics
+- employee-engagement
 modules:
 - learn-m365.workplace-analytics-discover
 - learn-m365.workplace-analytics-onboard

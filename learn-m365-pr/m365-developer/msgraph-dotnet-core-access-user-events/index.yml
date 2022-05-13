@@ -33,6 +33,8 @@ products:
   - m365
   - ms-graph
   - dotnet-core
+subjects:
+- development-tools
 units:
   - learn-m365.msgraph-dotnet-core-access-user-events.1-introduction
   - learn-m365.msgraph-dotnet-core-access-user-events.2-exercise-configure-azure-ad-app

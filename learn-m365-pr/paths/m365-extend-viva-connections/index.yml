@@ -28,6 +28,10 @@ roles:
 - developer
 products: 
 - m365
+subjects:
+- custom-app-development
+- development-tools
+- employee-engagement
 modules:
 - learn-m365.viva-connections-get-started
 - learn-m365.viva-connections-extend-with-web-parts

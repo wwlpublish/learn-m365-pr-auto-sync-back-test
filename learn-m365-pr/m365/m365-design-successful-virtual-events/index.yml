@@ -36,6 +36,10 @@ roles: # user input: add roles from role taxonomy (https://review.docs.microsoft
 products:
   - office-teams
   - office-yammer
+subjects:
+- remote-hybrid-work
+- communication
+- collaboration
 units:
 - learn-m365-pr.design-successful-virtual-event-using-microsoft-365.introduction
 - learn-m365-pr.design-successful-virtual-event-using-microsoft-365.move-from-real-meetings-virtual-meetings

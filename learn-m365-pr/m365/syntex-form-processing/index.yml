@@ -28,6 +28,9 @@ roles:
 products:
 - m365
 - sharepoint-syntex
+subjects:
+- data-modeling
+- collaboration
 units:
 - learn-m365.syntex-form-processing.introduction
 - learn-m365.syntex-form-processing.initial-state

@@ -31,6 +31,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- compliance
+- information-protection-governance
 units:
 - learn-m365.compliance-discover-advanced-ediscovery.introduction
 - learn-m365.compliance-discover-advanced-ediscovery.add-custodians

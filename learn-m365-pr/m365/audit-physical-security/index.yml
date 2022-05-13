@@ -31,6 +31,8 @@ roles:
 - privacy-manager
 products:
 - m365
+subjects:
+- security
 units:
 - learn-m365.audit-physical-security.introduction
 - learn-m365.audit-physical-security.architecture-infrastructure

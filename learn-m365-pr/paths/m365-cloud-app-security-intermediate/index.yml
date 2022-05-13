@@ -22,6 +22,9 @@ roles:
 products: 
 - m365
 - m365-ems-cloud-app-security
+subjects:
+- cloud-security
+- threat-protection
 modules:
   - learn-m365.implement-mcas-cloud-discovery
   - learn-m365.information-protection-real-time-controls

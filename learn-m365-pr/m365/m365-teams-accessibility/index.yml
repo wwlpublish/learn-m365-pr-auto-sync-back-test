@@ -25,6 +25,9 @@ roles:
 - administrator
 products:
 - office-teams
+subjects:
+- communication
+- accessibility
 units:
 - learn-m365.m365-teams-accessibility.introduction
 - learn-m365.m365-teams-accessibility.implement-captions-transcripts-meetings-calls

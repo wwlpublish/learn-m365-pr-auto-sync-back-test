@@ -22,6 +22,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- device-management
 modules:
 - learn.wwl.troubleshoot-device-driver-failures
 - learn.wwl.explore-physical-hardware-troubleshooting

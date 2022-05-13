@@ -28,6 +28,9 @@ roles:
 products:
 - m365
 - sharepoint-syntex
+subjects:
+- data-analytics
+- collaboration
 units:
 - learn-m365.syntex-setup.introduction
 - learn-m365.syntex-setup.prepare-system

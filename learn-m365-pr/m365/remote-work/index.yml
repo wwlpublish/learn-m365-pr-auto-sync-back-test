@@ -30,6 +30,8 @@ products:
 - m365
 - office-teams
 - office-onedrive
+subjects:
+- remote-hybrid-work
 units:
 - learn-m365.remote-work.introduction
 - learn-m365.remote-work.get-started-office

@@ -33,6 +33,9 @@ products:
 - m365
 - office-365
 - office-onedrive
+subjects:
+- migration
+- cloud-computing
 units:
 - learn-m365.m365-onedrive-collaboration-manage-migrations-deployment.introduction-onedrive-deployment
 - learn-m365.m365-onedrive-collaboration-manage-migrations-deployment.configure-device-management

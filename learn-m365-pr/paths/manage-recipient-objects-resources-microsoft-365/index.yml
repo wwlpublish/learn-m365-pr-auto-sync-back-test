@@ -28,6 +28,9 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- communication
+- data-management
 modules:
 - learn.wwl.exchange-recipients
 - learn.wwl.create-manage-exchange-recipients
