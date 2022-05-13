@@ -27,6 +27,10 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- device-management
+- collaboration
+- communication
 units:
 - learn-m365.m365-teams-rooms-right-device-space.introduction
 - learn-m365.m365-teams-rooms-right-device-space.analyze-spaces

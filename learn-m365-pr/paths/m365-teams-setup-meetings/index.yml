@@ -20,6 +20,10 @@ roles:
 - administrator
 products: 
 - office-teams
+subjects:
+- communication
+- collaboration
+- cloud-computing
 modules:
 - learn-m365.teams.plan-meeting-deployment 
 - learn-m365.teams.deploy-meetings 

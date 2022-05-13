@@ -21,6 +21,8 @@ products:
 - m365
 - windows
 - office-365
+subjects:
+- device-management
 modules:
 - learn-m365.get-modern-intro
 - learn-m365.modern-device-app

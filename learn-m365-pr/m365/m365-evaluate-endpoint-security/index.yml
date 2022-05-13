@@ -30,6 +30,9 @@ products:
   - m365-ems-cloud-app-security
   - m365-threat-protection
   - mdatp
+subjects:
+- cloud-security
+- threat-protection
 units:
 - learn-m365-pr.m365-evaluate-endpoint-security.introduction
 - learn-m365-pr.m365-evaluate-endpoint-security.understand-evaluation-lab

@@ -28,6 +28,9 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
+- collaboration
 units:
 - learn-m365.m365-teams-rooms-deploy.introduction
 - learn-m365.m365-teams-rooms-deploy.standardize-deployment

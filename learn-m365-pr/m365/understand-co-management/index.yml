@@ -29,6 +29,10 @@ products:
 - m365
 - mem
 - mem-configuration-manager
+subjects:
+- device-management
+- data-management
+- threat-protection
 units:
 - learn.set-up-co-management.introduction
 - learn.set-up-co-management.understand-co-management

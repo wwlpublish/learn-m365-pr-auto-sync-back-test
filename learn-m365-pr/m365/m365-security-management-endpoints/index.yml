@@ -27,6 +27,9 @@ products:
 - m365
 - windows
 - windows-10
+subjects:
+- device-management
+- cloud-security
 units:
 - learn-m365.m365-security-management-endpoints.introduction
 - learn-m365.m365-security-management-endpoints.attack-surface-reduction

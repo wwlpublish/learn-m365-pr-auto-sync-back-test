@@ -21,6 +21,8 @@ roles:
 - administrator
 products: 
 - m365
+subjects:
+- cloud-security
 modules:
   - learn-m365.cloud-app-security
   - learn-m365.sci-asc

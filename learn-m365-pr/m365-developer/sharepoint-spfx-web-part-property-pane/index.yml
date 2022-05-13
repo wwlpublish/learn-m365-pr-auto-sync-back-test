@@ -28,6 +28,8 @@ roles:
 products:
   - m365
   - office-sp-framework
+subjects:
+- development-tools
 units:
   - learn-m365.sharepoint-spfx-web-part-property-pane.1-introduction
   - learn-m365.sharepoint-spfx-web-part-property-pane.2-property-pane-overview

@@ -30,6 +30,10 @@ roles:
 - privacy-manager
 products:
 - m365
+subjects:
+- architecture
+- threat-protection
+- cloud-computing
 units:
 - learn-m365.audit-architecture.introduction
 - learn-m365.audit-architecture.security-principles

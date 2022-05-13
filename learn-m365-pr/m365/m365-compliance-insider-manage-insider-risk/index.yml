@@ -29,6 +29,10 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- data-management
+- insider-risk
+- threat-protection
 units:
 - learn-m365.m365-compliance-insider-manage-insider-risk.overview
 - learn-m365.m365-compliance-insider-manage-insider-risk.introduction

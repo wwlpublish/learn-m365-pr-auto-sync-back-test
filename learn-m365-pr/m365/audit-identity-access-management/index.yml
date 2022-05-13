@@ -29,6 +29,9 @@ roles:
 - risk-practitioner
 products:
 - m365
+subjects:
+- identity-access
+- information-protection-governance
 units:
 - learn-m365.audit-identity-access-management.introduction
 - learn-m365.audit-identity-access-management.recognize-managed-account-types

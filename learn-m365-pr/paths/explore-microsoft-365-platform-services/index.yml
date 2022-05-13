@@ -26,6 +26,10 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- collaboration
+- device-management
+- cloud-computing
 modules:
 - learn.wwl.explore-exchange-online
 - learn.wwl.explore-sharepoint-online

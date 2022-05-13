@@ -25,6 +25,10 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- cloud-security
+- threat-protection
+- data-management
 modules:
 - learn.wwl.implement-device-data-protection
 - learn.wwl.manage-microsoft-defender-endpoint

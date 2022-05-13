@@ -1,4 +1,4 @@
-﻿### YamlMime:Module
+### YamlMime:Module
 uid: learn-m365-pr.introduction-to-modern-management-in-microsoft-365
 metadata:
   title: Introduction to modern management in Microsoft 365
@@ -23,6 +23,9 @@ roles:
 - administrator
 products:
 - m365
+subjects:
+- device-management
+- cloud-computing
 units:
 - learn-m365-pr.introduction-to-modern-management-in-microsoft-365.1-introduction
 - learn-m365-pr.introduction-to-modern-management-in-microsoft-365.2-benefits-modern-management

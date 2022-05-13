@@ -28,6 +28,8 @@ products:
 - m365
 - azure
 - m365-threat-protection
+subjects:
+- identity-access
 units:
 - learn-m365.m365-threat-safeguard.introduction
 - learn-m365.m365-threat-safeguard.configure-sensors
@@ -37,4 +39,3 @@ units:
 
 badge: 
   uid: learn-m365.m365-threat-safeguard.badges
-  

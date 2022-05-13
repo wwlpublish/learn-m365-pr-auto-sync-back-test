@@ -30,6 +30,9 @@ products:
 - office
 - windows
 - bing
+subjects:
+- identity-access
+- data-management
 units:
 - learn-m365.microsoft-search-assign-admin-plan.introduction
 - learn-m365.microsoft-search-assign-admin-plan.assign-admin
