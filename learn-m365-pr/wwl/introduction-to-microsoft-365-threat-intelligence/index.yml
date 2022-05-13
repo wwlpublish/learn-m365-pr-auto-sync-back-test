@@ -1,24 +1,22 @@
 ### YamlMime:Module
 uid: learn.wwl.introduction-to-microsoft-365-threat-intelligence
 metadata:
-  title: Explore threat intelligence in Microsoft 365
-  description: "Explore threat intelligence in Microsoft 365"
-  ms.date: 09/16/2021
+  title: Explore threat intelligence in Microsoft 365 Defender
+  description: "Explore threat intelligence in Microsoft 365 Defender"
+  ms.date: 05/13/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Explore threat intelligence in Microsoft 365
+title: Explore threat intelligence in Microsoft 365 Defender
 summary: This module examines how Microsoft 365 Threat Intelligence provides admins with evidence-based knowledge and actionable advice that can be used to make informed decisions about protecting and responding to cyber-attacks against their tenants.
 abstract: |
-  By the end of this module, you will be able to:
-  - Describe how threat intelligence in Microsoft 365 is powered by the Microsoft Intelligent Security Graph
-  - Describe how the threat dashboard can benefit C-level security officers
-  - Understand how Threat Explorer can be used to investigate threats and help to protect your tenant
-  - Describe the Threat Tracker widgets and views that provide you with intelligence on different cybersecurity issues that might impact your company
-  - Run realistic attack scenarios using Attack simulation training to help identify vulnerable users before a real attack impacts your organization
-  - Describe how threat hunting in Microsoft Threat Protection enables security operators to identify cybersecurity threats
-  - Describe how Advanced hunting in Microsoft 365 Defender proactively inspects events in your network to locate threat indicators and entities
+  By the end of this module, you'll be able to:
+  *   Describe how threat intelligence in Microsoft 365 is powered by the Microsoft Intelligent Security Graph.
+  *   Create alerts that can identify malicious or suspicious events.
+  *   Understand how the Microsoft 365 Defender's Automated investigation and response process works.
+  *   Describe how threat hunting enables security operators to identify cybersecurity threats.
+  *   Describe how Advanced hunting in Microsoft 365 Defender proactively inspects events in your network to locate threat indicators and entities.
 prerequisites: |
   None
 iconUrl: /learn/achievements/explore-m365-threat-intelligence.svg
@@ -30,21 +28,23 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 subjects:
+- cloud-security
+- identity-access
+- information-protection-governance
+- insider-risk
+- security
 - threat-protection
 units:
 - learn.wwl.introduction-to-microsoft-365-threat-intelligence.introduction
 - learn.wwl.introduction-to-microsoft-365-threat-intelligence.explore-microsoft-intelligent-security-graph
-- learn.wwl.introduction-to-microsoft-365-threat-intelligence.examine-security-dashboard-security-compliance-center
-- learn.wwl.introduction-to-microsoft-365-threat-intelligence.investigate-security-attacks-by-using-threat-explorer
-- learn.wwl.introduction-to-microsoft-365-threat-intelligence.identify-cybersecurity-issues-by-using-threat-trackers
-- learn.wwl.introduction-to-microsoft-365-threat-intelligence.run-realistic-attack-scenarios-by-using-attack-simulator
+- learn.wwl.introduction-to-microsoft-365-threat-intelligence.explore-alert-policies-microsoft-365
 - learn.wwl.introduction-to-microsoft-365-threat-intelligence.run-automated-investigations-responses
 - learn.wwl.introduction-to-microsoft-365-threat-intelligence.explore-threat-hunting-with-microsoft-threat-protection
 - learn.wwl.introduction-to-microsoft-365-threat-intelligence.explore-advanced-threat-hunting-defender
+- learn.wwl.introduction-to-microsoft-365-threat-intelligence.explore-threat-analytics-microsoft-365
 - learn.wwl.introduction-to-microsoft-365-threat-intelligence.knowledge-check
 - learn.wwl.introduction-to-microsoft-365-threat-intelligence.summary
 badge:
