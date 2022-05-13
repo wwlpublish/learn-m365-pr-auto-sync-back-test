@@ -3329,6 +3329,51 @@
       "source_path": "learn-m365-pr/wwl/plan-mailbox-migrations/7-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/plan-mailbox-migrations/6-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-365-threat-intelligence/3-examine-security-dashboard-security-compliance-center.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-365-threat-intelligence/4-investigate-security-attacks-by-using-threat-explorer.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-365-threat-intelligence/5-identify-cybersecurity-issues-by-using-threat-trackers.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-365-threat-intelligence/6-run-realistic-attack-scenarios-by-using-attack-simulator.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-365-threat-intelligence/7-run-automated-investigations-responses.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-365-threat-intelligence/4-run-automated-investigations-responses",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-365-threat-intelligence/8-explore-threat-hunting-with-microsoft-threat-protection.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-365-threat-intelligence/5-explore-threat-hunting-with-microsoft-threat-protection",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-365-threat-intelligence/9-explore-advanced-threat-hunting-defender.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-365-threat-intelligence/6-explore-advanced-threat-hunting-defender",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-365-threat-intelligence/10-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-365-threat-intelligence/8-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-365-threat-intelligence/11-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-365-threat-intelligence/9-summary",
+      "redirect_document_id": true
     }
   ]
 }
