@@ -46,6 +46,9 @@ roles:
 products:
   - office-teams
   - office-yammer
+subjects:
+- communication
+- collaboration
 units:
 - learn-m365-pr.combine-external-applications-customized-productions.introduction
 - learn-m365-pr.combine-external-applications-customized-productions.network-device-interface-custom-layouts
@@ -54,4 +57,4 @@ units:
 - learn-m365-pr.combine-external-applications-customized-productions.knowledge-check
 - learn-m365-pr.combine-external-applications-customized-productions.summary
 badge:
-  uid: learn-m365-pr.combine-external-applications-customized-productions.badge 
+  uid: learn-m365-pr.combine-external-applications-customized-productions.badge

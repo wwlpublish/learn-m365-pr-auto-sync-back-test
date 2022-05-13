@@ -29,6 +29,10 @@ products:
 - m365
 - office-365
 - office-teams
+subjects:
+- communication
+- cloud-computing
+- collaboration
 units:
 - learn-m365.m365-teams-upgrade-coexistence-interoperability.introduction
 - learn-m365.m365-teams-upgrade-coexistence-interoperability.coexistence-teams-skype-business

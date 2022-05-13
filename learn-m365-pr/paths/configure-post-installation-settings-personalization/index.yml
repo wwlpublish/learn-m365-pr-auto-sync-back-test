@@ -22,6 +22,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- development-tools
 modules:
 - learn.wwl.explore-common-configuration-options
 - learn.wwl.explore-advanced-configuration-methods

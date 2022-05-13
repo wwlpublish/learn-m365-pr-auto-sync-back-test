@@ -25,6 +25,8 @@ products:
 - office
 - windows
 - bing
+subjects:
+- search-ads-news
 modules:
 - learn-m365.microsoft-search-intro
 - learn-m365.microsoft-search-assign-admin-plan

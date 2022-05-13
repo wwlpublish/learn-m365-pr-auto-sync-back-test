@@ -31,6 +31,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- information-protection-governance
+- threat-protection
 units:
 - learn-m365.m365-compliance-information-governance.introduction
 - learn-m365.m365-compliance-information-governance.know-your-data

@@ -24,6 +24,9 @@ roles:
 - administrator
 products:
 - m365
+subjects:
+- information-protection-governance
+- threat-protection
 units:
 - learn-m365.m365-security-info-overview.introduction
 - learn-m365.m365-security-info-overview.info-protection-lifecycle

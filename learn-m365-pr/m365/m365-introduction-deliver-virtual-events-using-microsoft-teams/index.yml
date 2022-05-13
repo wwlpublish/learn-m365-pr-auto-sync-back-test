@@ -34,6 +34,10 @@ products:
   - office-teams
   - office-yammer
 
+subjects:
+- collaboration
+- remote-hybrid-work
+- cloud-computing
 units:
 - learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365.introduction
 - learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365.what-virtual-events

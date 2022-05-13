@@ -26,6 +26,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- it-management-monitoring
+- device-management
 units:
 - learn-m365-office.m365-office-it-overview.introduction
 - learn-m365-office.m365-office-it-overview.understanding-office

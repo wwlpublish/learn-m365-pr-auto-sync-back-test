@@ -22,6 +22,9 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- device-management
+- threat-protection
 modules:
 - learn.wwl.employ-file-recovery-windows-client
 - learn.wwl.explore-application-troubleshooting

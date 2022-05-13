@@ -21,6 +21,8 @@ products:
 - m365
 - office-365
 - office-exchange-server
+subjects:
+- communication
 modules:
 - learn-m365.m365-messaging-manage-org-settings
 - learn-m365.m365-messaging-manage-client-access

@@ -31,6 +31,9 @@ roles:
 products:
   - office-teams
   - office-yammer
+subjects:
+- modern-work
+- collaboration
 units:
 - learn-m365-pr.bringing-all-together-engaging-virtual-events.introduction
 - learn-m365-pr.bringing-all-together-engaging-virtual-events.produce-virtual-event
@@ -40,4 +43,4 @@ units:
 - learn-m365-pr.bringing-all-together-engaging-virtual-events.knowledge-check
 - learn-m365-pr.bringing-all-together-engaging-virtual-events.summary
 badge:
-  uid: learn-m365-pr.bringing-all-together-engaging-virtual-events.badge 
+  uid: learn-m365-pr.bringing-all-together-engaging-virtual-events.badge

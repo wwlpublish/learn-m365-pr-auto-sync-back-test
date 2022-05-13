@@ -28,6 +28,8 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- data-management
 modules:
 - learn.wwl.explore-transport-services
 - learn.wwl.configure-message-transport

@@ -27,6 +27,10 @@ products:
 - m365-workplace-analytics
 - viva
 - viva-insights
+subjects:
+- device-management
+- data-analytics
+- employee-engagement
 units:
 - learn-m365.workplace-analytics-onboard.introduction
 - learn-m365.workplace-analytics-onboard.roles-responsibilities

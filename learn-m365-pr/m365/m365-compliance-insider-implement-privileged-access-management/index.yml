@@ -28,6 +28,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- identity-access
+- data-management
 units:
 - learn-m365.m365-compliance-insider-implement-privileged-access-management.introduction
 - learn-m365.m365-compliance-insider-implement-privileged-access-management.case-study

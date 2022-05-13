@@ -28,6 +28,9 @@ products:
   - m365
   - m365-security-center
   - mdatp
+subjects:
+- threat-protection
+- cloud-security
 units:
 - learn-m365-pr.reduce-potential-attack-areas-with-microsoft-defender-for-endpoint.introduction
 - learn-m365-pr.reduce-potential-attack-areas-with-microsoft-defender-for-endpoint.minimize-potential-attack-areas

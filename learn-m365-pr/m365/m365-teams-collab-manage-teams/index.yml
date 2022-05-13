@@ -28,6 +28,10 @@ products:
 - m365
 - office-365
 - office-teams
+subjects:
+- communication
+- collaboration
+- productivity
 units:
 - learn-m365.m365-teams-collab-manage-teams.introduction
 - learn-m365.m365-teams-collab-manage-teams.organization-wide-team
