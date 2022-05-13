@@ -24,6 +24,9 @@ roles:
 - administrator
 products:
 - m365
+subjects:
+- productivity
+- change-management
 units:
 - learn-m365.service-adoption-start.key-roles
 - learn-m365.service-adoption-start.cloud-advantage

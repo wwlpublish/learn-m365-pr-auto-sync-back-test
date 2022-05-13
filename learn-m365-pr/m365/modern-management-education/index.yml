@@ -27,6 +27,8 @@ roles:
 - administrator
 products:
 - m365
+subjects:
+- business-applications
 units:
 - learn-m365.modern-management-education.introduction
 - learn-m365.modern-management-education.identity

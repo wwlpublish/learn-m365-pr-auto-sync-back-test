@@ -30,6 +30,9 @@ products:
 - office
 - windows
 - bing
+subjects:
+- artificial-intelligence
+- cloud-computing
 units:
 - learn-m365.microsoft-search-intro.introduction
 - learn-m365.microsoft-search-intro.search-experiences

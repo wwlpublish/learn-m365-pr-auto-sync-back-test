@@ -34,6 +34,10 @@ products:
 - m365
 - viva
 - viva-topics
+subjects:
+- modern-work
+- employee-engagement
+- collaboration
 units:
 - learn-m365.viva-topics-intro.introduction
 - learn-m365.viva-topics-intro.ai-interaction

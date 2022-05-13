@@ -32,6 +32,8 @@ roles:
 products:
   - m365
   - ms-graph
+subjects:
+- productivity
 units:
   - learn-m365.msgraph-intro-overview.1-introduction
   - learn-m365.msgraph-intro-overview.2-what-is-microsoft-graph

@@ -25,6 +25,8 @@ products:
 - m365
 - office-365
 - office-teams
+subjects:
+- communication
 units:
 - learn-m365.m365-teams-collab-deploy-clients.introduction
 - learn-m365.m365-teams-collab-deploy-clients.desktop-clients

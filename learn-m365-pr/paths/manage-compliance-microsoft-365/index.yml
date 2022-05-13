@@ -28,6 +28,10 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- data-management
+- compliance
+- communication
 modules:
 - learn.wwl.explore-messaging-compliance-microsoft-365
 - learn.wwl.explore-messaging-compliance-exchange

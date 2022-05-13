@@ -28,6 +28,9 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- data-management
+- communication
 modules:
 - learn.wwl.manage-authentication-for-messaging
 - learn.wwl.configure-organizational-settings

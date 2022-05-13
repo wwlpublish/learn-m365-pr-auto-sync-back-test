@@ -32,6 +32,9 @@ products:
 - m365
 - office-365
 - office-onedrive
+subjects:
+- device-management
+- storage
 units:
 - learn-m365.m365-onedrive-collaboration-manage.manage-storage-retention
 - learn-m365.m365-onedrive-collaboration-manage.secure-onedrive

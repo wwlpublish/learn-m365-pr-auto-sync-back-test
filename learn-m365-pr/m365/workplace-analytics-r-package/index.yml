@@ -32,6 +32,9 @@ products:
 - m365-workplace-analytics
 - viva
 - viva-insights
+subjects:
+- development-tools
+- data-analytics
 units:
 - learn-m365.workplace-analytics-r-package.introduction
 - learn-m365.workplace-analytics-r-package.r-package

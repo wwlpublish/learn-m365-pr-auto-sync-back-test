@@ -30,6 +30,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- information-protection-governance
 units:
 - learn-m365.m365-compliance-information-classify-data.data-classification-overview
 - learn-m365.m365-compliance-information-classify-data.using-sensitive-information-types

@@ -26,6 +26,9 @@ products:
 - mem-intune
 - windows-19044
 - windows-10
+subjects:
+- device-management
+- cloud-computing
 units:
 - learn-m365-pr.m365-windows.manage-windows-updates-cloud.1-introduction
 - learn-m365-pr.m365-windows.manage-windows-updates-cloud.2-get-updates-windows-devices

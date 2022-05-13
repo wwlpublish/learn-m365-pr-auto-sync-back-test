@@ -32,6 +32,10 @@ products:
 - office
 - windows
 - bing
+subjects:
+- data-management
+- device-management
+- cloud-computing
 units:
 - learn-m365.microsoft-search-connectors.introduction
 - learn-m365.microsoft-search-connectors.microsoft-graph-connectors
