@@ -84,41 +84,9 @@ The following graphic shows EOP and the primary Microsoft Defender for Office 36
 
 Two plans are available for Microsoft Defender for Office 365. The following table summarizes what's included in each plan.
 
-:::row:::
-  :::column:::
-    **Defender for Office 365 Plan 1**
-  :::column-end:::
-  :::column:::
-    **Defender for Office 365 Plan 2**
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Configuration, protection, and detection capabilities:
-
- -  Safe Attachments
- -  Safe Links
- -  Safe Attachments for SharePoint, OneDrive, and Microsoft Teams
- -  Anti-phishing protection in Defender for Office 365
- -  Real-time detections
-
-
-  :::column-end:::
-  :::column:::
-    Defender for Office 365 Plan 1 capabilities\--- plus ---Automation, investigation, remediation, and education capabilities:
-
- -  Threat Trackers
- -  Threat Explorer
- -  Automated investigation and response
- -  Attack simulation training
- -  Proactively hunt for threats with advanced hunting in Microsoft 365 Defender
- -  Investigate incidents in Microsoft 365 Defender
- -  Investigate alerts in Microsoft 365 Defender
-
-
-  :::column-end:::
-:::row-end:::
-
+|                                                                                                                **Defender for Office 365 Plan 1**                                                                                                                |                                                                                                                                                                                                                 **Defender for Office 365 Plan 2**                                                                                                                                                                                                                  |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Configuration, protection, and detection capabilities:<br><br><br>\- Safe Attachments<br>\- Safe Links<br>\- Safe Attachments for SharePoint, OneDrive, and Microsoft Teams<br>\- Anti-phishing protection in Defender for Office 365<br>\- Real-time detections | Defender for Office 365 Plan 1 capabilities<br><br>\--- plus ---<br><br>Automation, investigation, remediation, and education capabilities:<br><br>\- Threat Trackers<br>\- Threat Explorer<br>\- Automated investigation and response<br>\- Attack simulation training<br>\- Proactively hunt for threats with advanced hunting in Microsoft 365 Defender<br>\- Investigate incidents in Microsoft 365 Defender<br>\- Investigate alerts in Microsoft 365 Defender |
 
 #### Use threat investigation and response capabilities
 
