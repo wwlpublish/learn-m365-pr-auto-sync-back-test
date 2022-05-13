@@ -6,7 +6,7 @@ There are two main steps involved with setting up an integration.
 
 - **Connect** - For data integrations, once the connection has been enabled, you'll need to connect the outside data source to the **Key Result** or **Project** that is to be automatically updated.
 
-## Data Integrations
+## Data integrations
 
 Connections to outside data sources such as Azure Dev Ops and Excel allow Viva Goals to pull data from these systems.
 
@@ -16,7 +16,7 @@ Viva Goals will sync every hour with the outside data source to ensure that you 
 
 To manually sync with the outside data source to receive the most up-to-date figure, select that icon and choose **Sync now**.
 
-## Collaboration Integrations
+## Collaboration integrations
 
 Integrations with Collaboration platforms such as Microsoft Teams allows users to directly interact with Viva Goals.
 
@@ -24,4 +24,4 @@ You can receive your reminders to check in via the collaboration platform and yo
 
 This is called **Semi-Manual** check-in and eliminates the need for you to directly log into the system.
 
-For a full description of all Viva Goals integrations and how to enable and connect them, see **Introduction to Viva Goals Integrations**. \[INSERT LINK HERE\]
+For a full description of all Viva Goals integrations and how to enable and connect them, see [Introduction to Viva Goals Integrations](/viva/goals/integrations-overview).

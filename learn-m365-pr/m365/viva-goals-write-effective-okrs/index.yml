@@ -4,7 +4,7 @@ metadata:
   moduleType: standard
   title: Write effective OKRs with Viva Goals
   description: Learn the necessary elements for writing compelling OKRs by learning how to define, write, and edit your OKRs with the aid of a framework.
-  ms.date: 04/28/2022
+  ms.date: 05/12/2022
   author: rasanders
   ms.author: rasanders
   ms.topic: interactive-tutorial
@@ -15,7 +15,7 @@ abstract: |
   By the end of this module, you'll be able to:
     - Define an Objective, Key Result, and Key Initiative/Project
     - Identify best practices and common pitfalls when writing OKRs
-    - Learn the framework for crafting an Objective, Key Result, and Key Initiative/Project
+    - Explain the framework for crafting an Objective, Key Result, and Key Initiative/Project
     - Apply the framework to your own Objective, Key Result, and Key Initiative/Project
 prerequisites: |
   None

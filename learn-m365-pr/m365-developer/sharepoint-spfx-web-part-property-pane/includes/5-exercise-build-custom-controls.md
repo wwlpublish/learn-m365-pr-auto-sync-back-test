@@ -1,5 +1,13 @@
 In this exercise, you'll extend the property pane by creating your own custom field control.
 
+## Update the solution dependencies
+
+Custom property pane controls should be created using React and Fabric React to look and feel like native controls. Install the React TypeScript type declarations by executing the following statement on the command line:
+
+```console
+npm install @types/react --save-dev
+```
+
 ## Create folders to contain the files for the control and associated React component
 
 Open **Visual Studio Code** and then open the SharePoint Framework web part project you created in the previous exercise. Locate the **src** folder and create a subfolder named **controls**.
@@ -10,7 +18,7 @@ Create a new subfolder **components** within the **PropertyPaneContinentSelector
 
 ## Create the React component that implements the user interface for the control
 
-Custom property pane controls should be created using React and Fabric React to look and feel like native controls. The files that implement the React component will go in the **components** folder.
+The files that implement the React component will go in the **components** folder.
 
 ### Create an interface for the component properties
 

@@ -47,14 +47,14 @@ quiz:
     - content: "A weighted Objective that is prioritized across the entire company."
       isCorrect: false
       explanation: "That's incorrect. Remember that Projects are a particular production related to achieving the Objective."
-  - content: "What are the six OKR superpowers?"
+  - content: "What are the five OKR superpowers?"
     choices:
     - content: "Collaboration, Networking, Personal Success, Transparency, Purpose, Focus."
       isCorrect: false
       explanation: "That's incorrect. Remember that the Superpowers are related to a goal-setting system that empower the entire company."
-    - content: "Correct. Focus, Alignment, Tracking, Transparency, Stretch, Integrated Evolution."
+    - content: "Correct. Focus, Alignment, Tracking, Transparency, and Stretch."
       isCorrect: true
-      explanation: "These six superpowers are what makes the OKR framework an effective system for achieving goals."
+      explanation: "These five superpowers are what makes the OKR framework an effective system for achieving goals."
     - content: "Stretch, Scheduling, Intuition, Evolution, Adaptation, Alignment."
       isCorrect: false
       explanation: "That's incorrect. Remember that the Superpowers are related to a goal-setting system that empower the entire company."
