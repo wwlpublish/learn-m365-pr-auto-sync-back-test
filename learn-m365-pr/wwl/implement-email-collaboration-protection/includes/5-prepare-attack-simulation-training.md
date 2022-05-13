@@ -2,7 +2,7 @@ Organizations that have Microsoft 365 E5 or Microsoft Defender for Office 365 Pl
 
 Attack simulation training in Microsoft Defender for Office 365 lets an organization run benign cyberattack simulations to test its security policies and practices. It's also used to train employees to increase their awareness and reduce their susceptibility to attacks.
 
-To access Attack simulation traIning, navigate to the Microsoft 365 Defender portal and select **Email and collaboration &gt; Attack simulation training**.
+To access Attack simulation traIning, navigate to the Microsoft 365 Defender portal and select **Email and collaboration > Attack simulation training**.
 
 An organization must meet the following prerequisites to run Attack simulation training:
 
