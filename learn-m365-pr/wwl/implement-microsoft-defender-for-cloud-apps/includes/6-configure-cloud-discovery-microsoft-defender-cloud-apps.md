@@ -51,10 +51,10 @@ Cloud Discovery can't show or analyze attributes that aren't included in your lo
 
 To successfully generate a Cloud Discovery report, your traffic logs must meet the following conditions:
 
-1.  [Data source is supported](/defender-cloud-apps/set-up-cloud-discovery#supported-firewalls-and-proxies?azure-portal=true).
-2.  Log format matches the expected standard format (format checked upon upload by the Log tool).
-3.  Events aren't more than 90 days old.
-4.  The log file is valid and includes outbound traffic information.
+ -  [Data source is supported](/defender-cloud-apps/set-up-cloud-discovery#supported-firewalls-and-proxies?azure-portal=true).
+ -  Log format matches the expected standard format (format checked upon upload by the Log tool).
+ -  Events aren't more than 90 days old.
+ -  The log file is valid and includes outbound traffic information.
 
 ### Create snapshot Cloud Discovery reports
 
@@ -62,36 +62,40 @@ It's important to upload a log manually and let Microsoft Defender for Cloud App
 
 You should download a sample log file if you don't have a log yet, and you want to see an example of what your log should look like. Follow the procedure below to see what your log should look like.
 
-To create a snapshot report:
+You must complete the following steps to create a snapshot report:
 
-1.  Collect log files from your firewall and proxy, through which users in your organization access the Internet. Make sure to gather logs during times of peak traffic that are representative of all user activity in your organization.
+1.  Collect log files from your firewall and proxy, through which users in your organization access the Internet.
+
+    > [!IMPORTANT]
+    > Make sure to gather logs during times of peak traffic that are representative of all user activity in your organization.
+
 2.  In the **Microsoft Defender for Cloud Apps** portal, select **Discover** in the navigation pane, and then select **Create snapshot report**.
 3.  On the **Create new Cloud Discovery snapshot report** page, enter a **Report Name** and an optional **Description.**
     
-    :::image type="content" source="../media/new-snapshot-report-59f843b2.png" alt-text="Screenshot of the New Snapshot Report window.":::
+    :::image type="content" source="../media/new-snapshot-report-59f843b2.png" alt-text="Screenshot of the Create New Cloud Discovery Snapshot Report wizard showing the page to enter the report details.":::
     
 4.  Select the **Source** from which you want to upload the log files.
 5.  Verify your log format to make sure that it's formatted properly according to the sample log you can download. Under **Verify your log format**, select **View log format** then select **Download sample log**. Compare your log with the sample provided to make sure it's compatible.
     
-    :::image type="content" source="../media/cloud-discovery-verify-log-file-c6731b8c.png" alt-text="Screenshot of the Verify your log format window.":::
+    :::image type="content" source="../media/cloud-discovery-verify-log-file-c6731b8c.png" alt-text="Screenshot of the Create New Cloud Discovery Snapshot Report wizard showing the Verify your log format page.":::
     
     
     The FTP sample format is supported in snapshots and automated upload. In comparison, syslog is supported in automated upload only. Downloading a sample log will download a sample FTP log.
 6.  Upload traffic logs that you want to upload. You can upload up to 20 files at once. Compressed and zipped files are also supported.
     
-    :::image type="content" source="../media/upload-traffic-logs-1b2674f7.png" alt-text="Screenshot of the Upload traffic logs window.":::
+    :::image type="content" source="../media/upload-traffic-logs-1b2674f7.png" alt-text="Screenshot of the Create New Cloud Discovery Snapshot Report wizard showing the Upload your traffic logs page.":::
     
 7.  Select **Upload logs**.
 8.  After the upload finishes, the status message will appear at the top-right corner of your screen letting you know that your log was successfully uploaded.
 9.  After you upload your log files, it will take some time for them to be parsed and analyzed. After processing of your log files completes, you'll receive an email to notify you that it's done.
 10. A notification banner will appear in the status bar at the top of the Cloud Discovery dashboard. The banner updates you with the processing status of your log files.
     
-    :::image type="content" source="../media/notification-banner-cloud-discovery-3ef9ec14.png" alt-text="Screenshot of the notification banner.":::
+    :::image type="content" source="../media/notification-banner-cloud-discovery-3ef9ec14.png" alt-text="Screenshot of the Create New Cloud Discovery Snapshot Report wizard showing the notification banner.":::
     
 11. After the logs are uploaded successfully, you should see a notification letting you know that the log file processing completed successfully. At this point, you can view the report either by selecting the link in the status bar, or by selecting the **Settings (cog) i**con in the upper right corner of the screen, and then selecting **Settings** in the menu that appears.
 12. On the **Settings** page, under **Cloud Discovery** in the navigation pane, select **Snapshot reports**, and then select the desired snapshot report.
     
-    :::image type="content" source="../media/snapshot-report-management-3bfd9b34.png" alt-text="Screenshot of the Snapshot reports view.":::
+    :::image type="content" source="../media/snapshot-report-management-3bfd9b34.png" alt-text="Screenshot of the Snapshot reports view that shows all the snapshot reports that have been created.":::
     
 
 ### Configure automatic log upload for continuous reports

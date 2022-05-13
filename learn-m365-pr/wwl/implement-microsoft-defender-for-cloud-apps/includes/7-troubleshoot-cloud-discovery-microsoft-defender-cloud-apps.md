@@ -66,12 +66,7 @@ You can track the processing of Cloud Discovery logs using the governance log. T
     The log format you uploaded didn't match the expected log format for this data source.
   :::column-end:::
   :::column:::
-    Complete the following steps:
-
-1.  Verify the log isn't corrupt.
-2.  Compare and match your log to the sample format shown in the upload page.
-
-
+    Complete the following steps:1. Verify the log isn't corrupt.2. Compare and match your log to the sample format shown in the upload page.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -124,12 +119,7 @@ You can track the processing of Cloud Discovery logs using the governance log. T
     Couldn't connect to the log collector over FTP.
   :::column-end:::
   :::column:::
-    Complete the following steps:
-
-1.  Verify that you're using FTP credentials and not SSH credentials.
-2.  Verify the FTP client you're using isn't set to SFTP.
-
-
+    Complete the following steps:1. Verify that you're using FTP credentials and not SSH credentials.2. Verify the FTP client you're using isn't set to SFTP.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -137,12 +127,7 @@ You can track the processing of Cloud Discovery logs using the governance log. T
     Failed updating collector configuration.
   :::column-end:::
   :::column:::
-    Complete the following steps:
-
-1.  Verify that you entered the latest access token.
-2.  Verify in your firewall the log collector is allowed to initiate outbound traffic on port 443.
-
-
+    Complete the following steps:1. Verify that you entered the latest access token.2. Verify in your firewall the log collector is allowed to initiate outbound traffic on port 443.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -150,23 +135,7 @@ You can track the processing of Cloud Discovery logs using the governance log. T
     Logs sent to the collector don't appear in the portal.
   :::column-end:::
   :::column:::
-    Complete the following steps:
-
-1.  Check to see if there are failed parsing tasks in the Governance log.
-    
-     -  If so, troubleshoot the error with the Log Parsing error table above.
-     -  If not, check the data sources and Log collector configuration in the portal.
-        
-        1.  In the **Data source** page, verify that the name of data source is **NSS** and that it's configured correctly.
-        2.  In the **Log collectors** page, verify that the data source is linked to the right log collector.
-2.  Check the local configuration of the on-premises log collector machine.
-    
-    1.  Sign-in to the log collector over SSH and run the **collector\_config** utility.
-    2.  Confirm that your firewall or proxy is sending logs to the log collector using the protocol you defined (Syslog/TCP, Syslog/UDP or FTP). Then verify that it's sending them to the correct port and directory.
-    3.  Run netstat on the machine and verify that it receives incoming connections from your firewall or proxy.
-3.  Verify that the log collector is allowed to initiate outbound traffic on port 443.
-
-
+    Complete the following steps:1. Check to see if there are failed parsing tasks in the Governance log.\- If so, troubleshoot the error with the Log Parsing error table above.\- If not, complete the following steps to check the data sources and Log collector configuration in the portal:a. In the **Data source** page, verify that the name of data source is **NSS** and that it's configured correctly.b. In the **Log collectors** page, verify that the data source is linked to the right log collector.2. Check the local configuration of the on-premises log collector machine by completing the following steps:a. Sign-in to the log collector over SSH and run the **collector\_config** utility.b. Confirm that your firewall or proxy is sending logs to the log collector using the protocol you defined (Syslog/TCP, Syslog/UDP or FTP). Then verify that it's sending them to the correct port and directory.c. Run netstat on the machine and verify that it receives incoming connections from your firewall or proxy.3. Verify that the log collector is allowed to initiate outbound traffic on port 443.
   :::column-end:::
 :::row-end:::
 :::row:::

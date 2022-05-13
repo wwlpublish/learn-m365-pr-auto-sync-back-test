@@ -4,8 +4,8 @@ Microsoft Defender for Cloud Apps can help you take advantage of the benefits of
 
  -  An organization must be in compliance for licensing Microsoft Defender for Cloud Apps. To do so, it must obtain a license for every user protected by Microsoft Defender for Cloud Apps.
 
-> [!NOTE]
-> Microsoft Defender for Cloud Apps is a security tool and therefore doesn't require Office 365 productivity suite licenses. For Office 365 Cloud App Security (Microsoft Defender for Cloud Apps only for Office 365), see [Office 365 Cloud App Security licensing](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#office-365-cloud-app-security?azure-portal=true).
+    > [!NOTE]
+    > Microsoft Defender for Cloud Apps is a security tool and therefore doesn't require Office 365 productivity suite licenses. For Office 365 Cloud App Security (Microsoft Defender for Cloud Apps only for Office 365), see [Office 365 Cloud App Security licensing](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#office-365-cloud-app-security?azure-portal=true).
 
  -  After you have a license for Microsoft Defender for Cloud Apps, you'll receive an email with activation information and a link to the Microsoft Defender for Cloud Apps portal.
  -  To set up Microsoft Defender for Cloud Apps, you must be a Global Administrator or a Security Administrator in either Azure Active Directory or Microsoft 365. A user who's assigned an admin role will have the same permissions across all the cloud apps that your organization has subscribed to. This situation occurs regardless of where the role is assigned, whether it be in the Microsoft 365 admin center, or in the Azure classic portal, or by using the Azure AD module for Windows PowerShell.
