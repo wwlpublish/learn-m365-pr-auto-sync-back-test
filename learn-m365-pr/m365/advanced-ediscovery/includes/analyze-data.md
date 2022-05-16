@@ -1,4 +1,3 @@
-
 This section discusses the *Analysis* phase of the EDRM model.
 
 > [!div class = "centered"]
