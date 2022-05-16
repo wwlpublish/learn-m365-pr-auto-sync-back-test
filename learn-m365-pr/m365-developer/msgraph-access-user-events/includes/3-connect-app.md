@@ -12,7 +12,7 @@ This diagram shows the access token flow between Microsoft identity, your app, a
 
 :::image type="content" source="../media/3-access-flow-events.png" alt-text="Diagram showing access flow for events in Microsoft Graph.":::
 
-## Connect to Microsoft 365 by using SDKs
+## Connect to Microsoft 365 using SDKs
 
 Both Azure AD and Microsoft Graph are REST services, so in theory everything in this module *could* be accomplished with direct HTTP requests. To make it easier, Microsoft offers two software development kits (SDKs) that handle the requests for you. These SDKs take care of building requests and handling exceptions, which allows you to focus on building your app.
 
@@ -21,7 +21,7 @@ Both Azure AD and Microsoft Graph are REST services, so in theory everything in 
 | Azure Active Directory | Microsoft Authentication Library |
 | Microsoft Graph        | Microsoft Graph SDK              |
 
-The Microsoft Authentication Library handles the details of the OAuth protocol with Azure AD. By using the Microsoft Authentication Library, your application lets users sign in with their Microsoft 365 account and consent to any permissions your application needs. After they're signed in, the Microsoft Authentication Library provides the access token that you need to communicate with Microsoft Graph.
+The Microsoft Authentication Library handles the details of the OAuth protocol with Azure AD. Using the Microsoft Authentication Library, your application lets users sign in with their Microsoft 365 account and consent to any permissions your application needs. After they're signed in, the Microsoft Authentication Library provides the access token that you need to communicate with Microsoft Graph.
 
 ## Next steps
 
