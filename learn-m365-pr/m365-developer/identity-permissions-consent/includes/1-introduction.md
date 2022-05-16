@@ -12,10 +12,10 @@ In this module, you'll learn the different types of permissions supported in Azu
 
 ## Learning objectives
 
-1. Compare and contrast different permission types supported by the Microsoft Identity platform
-1. Compare and contrast the difference between static and dynamic consent in user permissions
-1. Create an app that implements dynamic consent for incrementally obtaining permissions as needed from users
-1. Create an app that requests application permissions to gain direct access to resources without a signed in user present.
+- Compare and contrast different permission types supported by the Microsoft Identity platform
+- Compare and contrast the difference between static and dynamic consent in user permissions
+- Create an app that implements dynamic consent for incrementally obtaining permissions as needed from users
+- Create an app that requests application permissions to gain direct access to resources without a signed in user present.
 
 ## Additional resources
 
