@@ -4,8 +4,8 @@ metadata:
   title: Connect Security Information and Event Management solutions to Microsoft Defender for Cloud Apps
   description: Learn how to connect Microsoft Sentinel and other SIEM solutions to Microsoft Defender for Cloud Apps.
   ms.date: 04/01/2022
-  author: beccarobins
-  ms.author: beccarobins
+  author: dcurwin
+  ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Microsoft Defender for Cloud Apps SIEM integration

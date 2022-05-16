@@ -4,8 +4,8 @@ metadata:
   title: Implement information protection using Microsoft Defender for Cloud Apps
   description: Learn how to connect apps to Microsoft Defender for Cloud Apps and deploy Conditional App Access Control.
   ms.date: 01/18/2022
-  author: beccarobins
-  ms.author: beccarobins
+  author: dcurwin
+  ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Implement information protection using Microsoft Defender for Cloud Apps
