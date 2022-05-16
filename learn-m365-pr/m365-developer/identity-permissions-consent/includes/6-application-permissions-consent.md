@@ -44,4 +44,4 @@ When you build an application that uses the admin consent endpoint, the app shou
 
 When you sign the user into your app, you can identify the organization to which the admin belongs before asking them to approve the necessary permissions. Although not strictly necessary, it can help you create a more intuitive experience for your organizational users. To sign the user in, follow our Microsoft identity platform protocol tutorials.
 
-## Summary
+
