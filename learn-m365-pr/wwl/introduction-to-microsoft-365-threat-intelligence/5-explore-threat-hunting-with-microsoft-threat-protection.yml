@@ -4,17 +4,16 @@ title: Explore threat hunting with Microsoft Threat Protection
 metadata:
   title: Explore threat hunting with Microsoft Threat Protection
   description: "Explore threat hunting with Microsoft Threat Protection"
-  ms.date: 09/16/2021
+  ms.date: 05/13/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 5
 content: |
-  [!include[](includes/8-explore-threat-hunting-with-microsoft-threat-protection.md)]
+  [!include[](includes/5-explore-threat-hunting-with-microsoft-threat-protection.md)]
 quiz:
   title: "Check your knowledge"
   questions:
@@ -22,10 +21,10 @@ quiz:
     choices:
     - content: "Microsoft AI"
       isCorrect: false
-      explanation: "That's incorrect. Microsoft AI crunches the massive amounts of threat intelligence and security data that's captured from across Microsoft’s portfolio. Try again."
+      explanation: "Incorrect. Microsoft AI crunches the massive amounts of threat intelligence and security data that's captured from across Microsoft’s portfolio."
     - content: "Microsoft Intelligent Security Graph"
       isCorrect: true
-      explanation: "That's correct. Intelligent Security Graph generates meaningful alerts, identifying threat components and activities that automated investigation and response (AIR) capabilities can remediate."
+      explanation: "Correct. The Intelligent Security Graph generates meaningful alerts. These alerts identify threat components and activities that automated investigation and response (AIR) capabilities can remediate."
     - content: "Microsoft Threat Management"
       isCorrect: false
-      explanation: "That's incorrect. Microsoft Threat Management doesn't generate meaningful alerts that identify threat components and activities that automated investigation and response (AIR) capabilities can remediate. Try again."
+      explanation: "Incorrect. Microsoft Threat Management doesn't generate meaningful alerts that identify threat components and activities that automated investigation and response (AIR) capabilities can remediate."

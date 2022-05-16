@@ -10,7 +10,9 @@ Auditing plays an important role in the security and compliance strategy for man
 
 Enterprise-scale audit is essential to most organizations, and Microsoft dedicates substantial resources to support your audit requirements. Microsoft audits over 1,500 unique event types spanning Microsoft 365 services and beyond, and processes approximately 15 billion records per day. In addition, Microsoft customers run 60 million user activity searches every day against Microsoft 365 services.  
 
-:::image type="content" source="../media/enterprise-scale-audit.png" alt-text="Enterprise-scale audit is essential to modern organizations.":::
+:::image type="complex" source="../media/enterprise-scale-audit.png" alt-text="Infographic with facts that show Enterprise-scale audit is essential to modern organizations." border="false":::
+	There are 60 million user activity searches per day against Microsoft 365, 15 billion records are processed per day, and there are more than 1500 unique event types.
+:::image-end:::
 
 ## Comprehensive and unified logs
 
@@ -49,11 +51,11 @@ New crucial security and compliance events will help you investigate security br
 
 ## Preserve audit logs
 
-The default audit log retention period is 90 days. Research indicates the time to detect a breach is about 200 days. Audit log events have sometimes already been aged out and deleted by the time many breaches have been identified, rendering the logs useless to the investigation. Additionally, once detected, breach investigations can take six months to one year, outlasting the basic audit log retention period.
+The default audit log retention period is 90 days. Research indicates the time to detect a breach is about 200 days. Audit log events have sometimes already been aged out and deleted by the time many breaches have been identified, rendering the logs useless to the investigation. Additionally, once detected, breach investigations can take six months to one year, outlasting the Audit (Standard) log retention period.
 
 Longer term audit log retention can help with ongoing forensic or compliance investigations. Audit (Premium) retains all Exchange, SharePoint, and Azure Active Directory audit records for one year. This is accomplished by a default audit log retention policy that retains any audit record containing the value of `Exchange`, `SharePoint`, or `AzureActiveDirectory` for the Workload property, indicating the service with which the audit record is associated.
 
-Audit records not covered by the default audit log retention policy in Audit (Premium) are retained for 90 days. However, you can create custom policies to retain these audit activities for up to ten years, based on one or more of the following parameters:
+Audit records not covered by the default audit log retention policy in Audit (Premium) are retained for 90 days. However, you can create custom policies to retain these audit activities for up to 10 years, based on one or more of the following parameters:
 
 - Microsoft 365 service where the audited activities occur
 - Specific audited activities
@@ -72,11 +74,11 @@ Custom audit log retention policies have priority over the default audit log ret
 
 ## High-bandwidth access to data
 
-Audit log generation and consumption is a bandwidth-intensive activity. The bandwidth required to consume audit events, especially via the Office 365 Management Activity API, could become a bottleneck due to a number of factors, including the sheer volume of audit log activity.
+Audit log generation and consumption are bandwidth-intensive activities. The bandwidth required to consume audit events, especially via the Office 365 Management Activity API, could become a bottleneck due to a number of factors, including the sheer volume of audit log activity.
 
 Audit (Premium) changes the way bandwidth is allocated to enable faster access to audit events. Prior to the release of Audit (Premium), organizations accessing audit logs through the Office 365 Management Activity API were restricted by throttling limits at the publisher level. The limit for a publisher pulling data on behalf of multiple customers was shared by all those customers. This negatively impacted independent software vendors (ISVs) that built solutions like Security Information and Event Management (SIEM) systems that used the API, along with the customers of those solutions. With Audit (Premium), the publisher-level limit is now a tenant-level limit, which helps to alleviate this bottleneck.
 
-Each organization gets their own fully allocated bandwidth to access auditing data. The bandwidth is not a static predefined limit but is modeled on a combination of factors. All organizations are initially allocated a baseline of 2,000 requests per minute. This limit will dynamically increase depending on an organization's seat count and their licensing subscription. Organizations licensed for Audit (Premium) will get approximately twice as much bandwidth as those that are not. There will also be a cap on the maximum bandwidth to protect the health of the service.
+Each organization gets their own fully allocated bandwidth to access auditing data. The bandwidth is not a statically predefined limit but is modeled on a combination of factors. All organizations are initially allocated a baseline of 2,000 requests per minute. This limit will dynamically increase depending on an organization's seat count and their licensing subscription. Organizations licensed for Audit (Premium) will get approximately twice as much bandwidth as those that are not. There will also be a cap on the maximum bandwidth to protect the health of the service.
 
 ## Learn more
 
