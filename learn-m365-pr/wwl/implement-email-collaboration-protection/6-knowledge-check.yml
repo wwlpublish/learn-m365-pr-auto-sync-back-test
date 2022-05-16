@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-email-collaboration-protection.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 05/16/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which layer of the Microsoft Defender for Office 365 protection stack includes the following features: Safe Links, Zero-hour auto purge, and the Report Message and Report phishing add-ins?"
+    choices:
+    - content: "Post-delivery protection layer"
+      isCorrect: true
+      explanation: "Correct. The last layer in the protection stack is Post-delivery protection. This persistent layer manages how users interact with files and links not just in their mailboxes, but across other collaborative tools like Microsoft Teams. It includes features such as Safe Links, Zero-hour auto-purge, and the Report Message and Report Phishing add-ins."
+    - content: "Content filtering layer"
+      isCorrect: false
+      explanation: "Incorrect. The Content filtering layer checks the content of email. In doing so, it looks for suspicious message structure and word frequency, hyperlinks, and attachments."
+    - content: "Edge protection layer"
+      isCorrect: false
+      explanation: "Incorrect. The Edge protection layer is the first point of contact for an inbound message. It's made up of edge blocks that run automatically. Each edge block handles a different aspect of protection - from network and IP reputation throttling through directory-based edge filtering and backscatter detection."
+  - content: "In Attack simulation training, which social engineering (simulation) technique provides a phishing attack that sends the recipient a message containing a URL, directs the user to a login site when the recipient selects the link, then displays what appears to be a well-known website so that the user believes they've accessed a real site?"
+    choices:
+    - content: "Link to malware"
+      isCorrect: false
+      explanation: "Incorrect. In a Link to malware simulation, an attacker sends the recipient a message that contains a link to an attachment on a well-known file sharing site, such as SharePoint Online or Dropbox. When the recipient selects the URL, the attachment opens, and then arbitrary code, such as a macro, is run on the user's device to help the attacker install more code or further entrench themselves."
+    - content: "Credential harvest"
+      isCorrect: true
+      explanation: "Correct. In a Credential harvest simulation, an attacker sends the recipient a message that contains a URL. When the recipient selects the URL, they're taken to a website that typically shows a dialog box that asks the user for their username and password. The destination page is themed to represent a well-known website. By displaying what appears to be a well-known website, the goal of the phishing attack is to have the user actually believe they've accessed a real site."
+    - content: "Drive-by-url"
+      isCorrect: false
+      explanation: "Incorrect. In a Drive-by-url simulation, an attacker sends the recipient a message that contains a URL. When the recipient selects the URL, they're taken to a website that tries to run background code. This background code attempts to gather information about the recipient or deploy arbitrary code on their device."
+  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer is searching for a product that will provide a powerful report that enables Fabrikam's Security Operations team to effectively and efficiently investigate and respond to threats. This report should allow the Security Operations team to drill down and understand details related to threats targeting Fabrikam's Microsoft 365 tenant. Which of the following Microsoft products will provide Fabrikam with this functionality?"
+    choices:
+    - content: "Microsoft Threat Explorer"
+      isCorrect: true
+      explanation: "Correct. Threat Explorer provides a powerful report that enables an organization's Security Operations team to effectively and efficiently investigate and respond to threats. Where the Threat Dashboard provides C-level executives a broad view of the threat landscape, Threat Explorer enables security analysts and admins to drill down and understand details related to threats targeting their tenant."
+    - content: "Microsoft Threat Dashboard"
+      isCorrect: false
+      explanation: "Incorrect. Threat Dashboard provides C-level executives a broad view of the threat landscape, but it doesn't provide the detailed information Holly is seeking."
+    - content: "Microsoft Threat Protection"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Threat Protection provides threat hunting features. It doesn't provide the information Holly is seeking."

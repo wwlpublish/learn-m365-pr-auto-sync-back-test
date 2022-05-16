@@ -33,19 +33,19 @@ Let's say you want to change the appearance of the button content for the **Logi
     <head>
       <style>
         body {
-          background-color:black;
+          background-color: black;
         }
         mgt-login {
           --padding: 30px ;
-          --button-color--hover:grey;
-          --button-background-color:slategrey;
-          --popup-color:slategrey;
+          --button-color--hover: grey;
+          --button-background-color: slategrey;
+          --popup-color: slategrey;
         }
-        mgt-agenda{
-          --agenda-header-font-size:24px;
-          --event-padding:20px;
-          --event-background-color:slategrey;
-          --event-box-shadow:grey;
+        mgt-agenda {
+          --agenda-header-font-size: 24px;
+          --event-padding: 20px;
+          --event-background-color: slategrey;
+          --event-box-shadow: grey;
         }
       </style>
     </head>
@@ -78,15 +78,15 @@ The final version of the **index.html** file will look like this example:
     }
     mgt-login {
       --padding: 30px ;
-      --button-color--hover:grey;
-      --button-background-color:slategrey;
-      --popup-color:slategrey;
+      --button-color--hover: grey;
+      --button-background-color: slategrey;
+      --popup-color: slategrey;
     }
-    mgt-agenda{
-      --agenda-header-font-size:24px;
-      --event-padding:20px;
-      --event-background-color:slategrey;
-      --event-box-shadow:grey;
+    mgt-agenda {
+      --agenda-header-font-size: 24px;
+      --event-padding: 20px;
+      --event-background-color: slategrey;
+      --event-box-shadow: grey;
     }
   </style>
 </head>
