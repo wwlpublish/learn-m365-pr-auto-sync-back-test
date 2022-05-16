@@ -2,14 +2,14 @@
 uid: learn-m365-pr.viva-goals-get-started
 metadata:
   title: Get started with Microsoft Viva Goals
-  description: This learning path will introduce you to the OKR framework, teach you how to write great OKRs, and show you how to use Viva Goals software.
+  description: Viva Goals is a goal-setting and management solution that aligns teams to your organization’s strategic priorities, driving results and a thriving business with OKRs. This learning path will introduce you to the OKR framework, teach you how to write great OKRs, and show you how to use Viva Goals software.
   ms.date: 05/12/2022
   author: rasanders
   ms.author: rasanders
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Get started with Microsoft Viva Goals
-summary: This learning path will introduce you to the OKR framework, teach you how to write great OKRs, and show you how to use Viva Goals software.<br><br>**IMPORTANT** - Viva Goals is currently available only for preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+summary: Viva Goals is a goal-setting and management solution that aligns teams to your organization’s strategic priorities, driving results and a thriving business with OKRs. This learning path will introduce you to the OKR framework, teach you how to write great OKRs, and show you how to use Viva Goals software.<br><br>**IMPORTANT** - Viva Goals is currently available only for preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 prerequisites: |
   - None
 iconUrl: /learn/achievements/generic-trophy.svg
