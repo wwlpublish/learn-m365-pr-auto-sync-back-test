@@ -18,11 +18,12 @@ Create a new Azure Active Directory application registration by following these 
 
     :::image type="content" source="../media/exercise-register-aad-application/new-registration.png" alt-text="Screenshot showing trending documents around the user." lightbox="../media/exercise-register-aad-application/new-registration.png":::
 
-1. Under **Name**, enter a name for your application such as **spa-aad-app**.
-1. Under **Supported account types**, select **Accounts in this organizational directory only (Single tenant)**.
-1. Under **Redirect URI (optional)**, select **Single page application (SPA)**.
-1. Under **Redirect URI (optional)**, enter `http://localhost:8080`.
-1. Select **Register**.
+1. On the **Register an application** screen, enter the following values:
+
+    - **Name**: enter the name for your application.
+    - **Supported account types**: select **Accounts in this organizational directory only (Single tenant)**.
+    - **Redirect URI (optional)**: select **Single page application (SPA)** and enter `http://localhost:8080`.
+    - Select **Register**.
 
     :::image type="content" source="../media/exercise-register-aad-application/register-app.png" alt-text="Screenshot showing how to register app to Azure Active Directory." lightbox="../media/exercise-register-aad-application/register-app.png":::
 
