@@ -19,7 +19,7 @@ In this module, you will:
 
 Your company is building a custom web application that helps salespeople work with customers. The overall goal of the application is to give relevant customer data to salespeople so they can make better decisions and close more sales.
 
-The sales application will support assigning a customer to a salesperson and provide a detailed history about interactions between the two. By using the application, a salesperson can view:
+The sales application will support assigning a customer to a salesperson and provide a detailed history about interactions between the two. Using the application, a salesperson can view:
 
 - Messages sent (chat and email)
 - Meetings attended
