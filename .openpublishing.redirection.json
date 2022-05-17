@@ -3379,6 +3379,16 @@
       "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-365-threat-intelligence/11-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-365-threat-intelligence/9-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-security-solutions-microsoft-365/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-security-solutions-microsoft-365/8-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-security-solutions-microsoft-365/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-security-solutions-microsoft-365/9-summary",
+      "redirect_document_id": true
     }
   ]
 }
