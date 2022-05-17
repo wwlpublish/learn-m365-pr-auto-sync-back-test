@@ -14,7 +14,7 @@ EOP is included in all Microsoft 365 organizations with Exchange Online mailboxe
 
 The following graphic displays how EOP processes incoming email:
 
-:::image type="content" source="../media/eop-processing-steps-f6b3e247.png" alt-text="Graphic of email from the internet or Customer feedback passing into E O P and through the Connection, Anti-malware, Mail flow Rules-slash-Policy Filtering, and Content Filtering, before the verdict of either junk mail or quarantine, or end user mail delivery.":::
+:::image type="content" source="../media/eop-processing-steps-f6b3e247.png" alt-text="Diagram showing how Exchange Online Protection processes incoming email.":::
 
 
 1.  When an incoming message enters EOP, it initially passes through connection filtering, which checks the sender's reputation. Most spam is stopped at this point and rejected by EOP. For more information, see [Configure connection filtering](/microsoft-365/security/office-365-security/configure-the-connection-filter-policy?azure-portal=true).
@@ -77,7 +77,7 @@ Key features in Microsoft Defender for Office 365 include:
 
 The following graphic shows EOP and the primary Microsoft Defender for Office 365 features against threats that are incoming through email.
 
-:::image type="content" source="../media/eop-acting-on-email-threats-cb0cb391.jpg" alt-text="graphic shows EOP acting against threats that are incoming through email":::
+:::image type="content" source="../media/eop-acting-on-email-threats-cb0cb391.jpg" alt-text="Diagram showing how Exchange Online Protection acts against threats that are incoming through email.":::
 
 
 ### Microsoft Defender for Office 365 Plan 1 and Plan 2
