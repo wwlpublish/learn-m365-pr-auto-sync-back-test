@@ -4,7 +4,7 @@
 
 Microsoft Graph is designed to handle a high volume of requests. If an overwhelming number of requests occurs, throttling helps maintain optimal performance and reliability of the Microsoft Graph service. Throttling limits the number of concurrent calls to a service to prevent overuse of resources.
 
-Throttling limits vary based on the scenario. For example, if you're doing a large volume of writes, its more likely they'll be throttled than if you're only doing reads.
+Throttling limits vary based on the scenario. For example, if you're doing a large volume of writes, it's more likely they'll be throttled than if you're only doing reads.
 
 Many developers ask: *“what are the throttling limits per hour or per day”*. This question isn't easy to answer. Microsoft Graph is a proxy service that provides access to multiple Microsoft resources. Each of these services has their own process for calculating when requests should be throttled.
 
@@ -45,7 +45,7 @@ Error status codes are in the ranges of 400-499 & 500-599. Common failed status 
 - 401 and 403: usually a permission or auth issue
 - 404: used for a not found request
 
-Another status code you may receive is 503, service unavailable. Microsoft Graph returns the service unavailable code when the service is unhealthy and isn't related to throttling or traffic from a specific application or request. It is recommended your application handle this response code, but there is no action your application can take to avoid it.
+Another status code you may receive is 503, service unavailable. Microsoft Graph returns the service unavailable code when the service is unhealthy and isn't related to throttling or traffic from a specific application or request. It's recommended your application handle this response code, but there's no action your application can take to avoid it.
 
 ### Throttled requests = HTTP 429
 
@@ -55,7 +55,7 @@ Keep in mind, Microsoft Graph is a proxy service to multiple Microsoft services.
 
 Each of these services has their own rules and calculations for when limits are exceeded and future requests will be throttled.
 
-Many, but not all, of these endpoints will also return an additional value in the response’s HTTP headers that the requester can use to determine how long they should wait before submitting another request.
+Many, but not all, of these endpoints will also return an extra value in the response’s HTTP headers that the requester can use to determine how long they should wait before submitting another request.
 
 ### Inspect the Retry-After HTTP header
 
@@ -81,8 +81,8 @@ Here are a few examples of scenarios that can experience throttled requests:
 
 A large number of requests across multiple endpoints in a tenant or a large number of requests from a specific application across all tenants.
 
-A large number of requests for large data responses. Consider a request that uses the `$expand` query operator. `$expand` tells Microsoft Graph to get additional data and include it in the request. If the request isn't using data limiting query parameters such as `$select`, `$top`, or `$skip` for instance, the service must work harder to retrieve and include larger data sets in the response. The request would be much more expensive than asking for the names, emails, and IDs of users.
+A large number of requests for large data responses. Consider a request that uses the `$expand` query operator. `$expand` tells Microsoft Graph to get more data and include it in the request. If the request isn't using data limiting query parameters such as `$select`, `$top`, or `$skip` for instance, the service must work harder to retrieve and include larger data sets in the response. The request would be much more expensive than asking for the names, emails, and IDs of users.
 
-A large number of complex requests. Similar to the previous example, consider a request that is forcing Microsoft Graph to not only retrieve additional data (such as the case when the `$expand` query operator is used), but also to do conditional checks on the data, such as using the `$filter` query parameter to limit the data results.
+A large number of complex requests. Similar to the previous example, consider a request that is forcing Microsoft Graph to not only retrieve extra data (such as the case when the `$expand` query operator is used), but also to do conditional checks on the data, such as using the `$filter` query parameter to limit the data results.
 
-Consider how expensive a request is: the more expensive its and the more of these requests you send, the more likely its these requests will eventually be throttled.
+Consider how expensive a request is: the more expensive it is and the more of these requests you send, the more likely it's these requests will eventually be throttled.
