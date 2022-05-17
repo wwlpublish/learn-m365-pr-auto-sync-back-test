@@ -15,11 +15,11 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v12.\* (or higher)
-- [npm](https://www.npmjs.com/package/npm) (installed with Node.js) - v6.\* (or higher)
-- [Gulp-cli](https://www.npmjs.com/package/gulp-cli) - v2.3.\* (or higher)
-- [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.\* (or higher)
+- [Node.js](https://nodejs.org/) - v12.\*
+- [npm](https://www.npmjs.com/package/npm) (installed with Node.js) - v6.\*
+- [Gulp-cli](https://www.npmjs.com/package/gulp-cli) - v2.3.\*
+- [Yeoman](https://yeoman.io/) - v3.\*
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.\*
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.*
