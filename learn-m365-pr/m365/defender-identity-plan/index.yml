@@ -10,7 +10,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Plan for Microsoft Defender for Identity
-summary: Get an overview of the concepts and tools that will help you implement Microsoft Defender git for Identity in your organization including components, such as the sensors, the portal, capacity planning, the setup process, and more.
+summary: Get an overview of the concepts and tools that will help you implement Microsoft Defender for Identity in your organization including components, such as the sensors, the portal, capacity planning, the setup process, and more.
 abstract: | 
   By the end of this module, you'll be able to:
   -	Understand the architecture of Microsoft Defender for Identity.
