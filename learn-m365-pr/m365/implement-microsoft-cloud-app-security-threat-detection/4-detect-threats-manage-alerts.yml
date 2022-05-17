@@ -4,7 +4,7 @@ metadata:
   title: Detect threats and manage alerts
   description: Defender for Cloud Apps alerts are your entry point into identifying potential security threats and other issues within your apps
   ms.date: 02/11/2022
-  author: beccarobins
+  author: dcurwin
   ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

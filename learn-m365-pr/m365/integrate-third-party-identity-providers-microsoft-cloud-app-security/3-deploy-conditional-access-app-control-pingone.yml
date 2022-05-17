@@ -4,7 +4,7 @@ metadata:
   title: Deploy Conditional Access App Control with PingOne as the identity provider
   description: Configure session controls in Microsoft Defender for Cloud Apps to work with any web app using third-party identity providers
   ms.date: 11/03/2021
-  author: beccarobins
+  author: dcurwin
   ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

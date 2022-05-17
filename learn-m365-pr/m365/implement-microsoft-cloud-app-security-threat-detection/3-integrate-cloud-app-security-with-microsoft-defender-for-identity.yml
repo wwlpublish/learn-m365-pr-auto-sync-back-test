@@ -4,7 +4,7 @@ metadata:
   title: Integrate Defender for Cloud Apps with Microsoft Defender for Identity
   description: Microsoft Defender for Identity integrates with your on-premises AD DS environment to help you detect, investigate, and identify advanced threats, compromised identities, and other malicious actions
   ms.date: 11/03/2021
-  author: beccarobins
+  author: dcurwin
   ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

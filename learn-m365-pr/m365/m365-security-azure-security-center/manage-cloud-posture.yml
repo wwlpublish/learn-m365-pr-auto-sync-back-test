@@ -6,7 +6,7 @@ metadata:
   description: Learn how you can improve your cloud security posture with Microsoft Defender for Cloud.
   ms.date: 04/22/2022
   ms.author: dacurwin
-  author: beccarobins
+  author: dcurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 30

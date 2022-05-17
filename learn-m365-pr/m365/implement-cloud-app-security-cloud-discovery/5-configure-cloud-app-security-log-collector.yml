@@ -4,7 +4,7 @@ metadata:
   title: Configure the Defender for Cloud Apps log collector
   description: You can use Defender for Cloud Apps log collector to help automate log upload from your corporate network
   ms.date: 11/03/2021
-  author: beccarobins
+  author: dcurwin
   ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

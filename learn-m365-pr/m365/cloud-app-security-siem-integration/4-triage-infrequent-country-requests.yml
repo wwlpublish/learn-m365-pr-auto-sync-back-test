@@ -4,7 +4,7 @@ metadata:
   title: Triage infrequent country requests with Microsoft Defender for Cloud Apps and Microsoft Sentinel
   description: Learn how to triage infrequent country requests with Microsoft Defender for Cloud Apps and Microsoft Sentinel
   ms.date: 04/01/2022
-  author: beccarobins
+  author: dcurwin
   ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
