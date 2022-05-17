@@ -6,16 +6,16 @@ This module walks you through the planning process – from what it takes to mov
 
 :::row:::
     :::column:::
-        :::image type="content" source="../../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/organizer-small.png" alt-text="Icon for the Organizer role." border="false":::
+        :::image type="icon" source="../../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/organizer-small.png" :::
     :::column-end:::
     :::column:::
-        :::image type="content" source="../../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/producer-small.png" alt-text="Icons for the Producer role." border="false":::
+        :::image type="icon" source="../../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/producer-small.png" :::
     :::column-end:::
     :::column:::
-        :::image type="content" source="../../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/presenter-small.png" alt-text="Icons for the Presenter role." border="false":::
+        :::image type="icon" source="../../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/presenter-small.png" :::
     :::column-end:::
     :::column:::
-        :::image type="content" source="../../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/moderator-small.png" alt-text="Icons for the Moderator role." border="false":::
+        :::image type="icon" source="../../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/moderator-small.png" :::
     :::column-end:::
 :::row-end:::
 

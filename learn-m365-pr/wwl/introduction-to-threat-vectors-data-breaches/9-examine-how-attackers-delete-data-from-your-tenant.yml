@@ -4,12 +4,13 @@ title: Examine how attackers delete data from your tenant
 metadata:
   title: Examine how attackers delete data from your tenant
   description: "Examine how attackers delete data from your tenant"
-  ms.date: 04/29/2021
+  ms.date: 04/29/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/9-examine-how-attackers-delete-data-from-your-tenant.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Back up critical data to online stores"
       isCorrect: false
-      explanation: "That's incorrect. This strategy won't minimize the impact of data deletion. Try again."
+      explanation: "Incorrect. This strategy won't minimize the impact of data deletion."
     - content: "Build redundancies into data management processes"
       isCorrect: true
-      explanation: "That's correct. Organizations typically focus their initial data protection mechanisms on preventing account breaches and elevation of privilege. They should then enhance their core prevention strategy by ensuring they have sufficient redundancies built into their data management processes to minimize the impact of data deletion."
+      explanation: "Correct. Organizations typically focus their initial data protection mechanisms on preventing account breaches and elevation of privilege. They should then enhance their core prevention strategy by ensuring they have sufficient redundancies built into their data management processes to minimize the impact of data deletion."
     - content: "Implement role-based delegation"
       isCorrect: false
-      explanation: "That's incorrect. This strategy won't minimize the impact of data deletion. Try again."
+      explanation: "Incorrect. This strategy won't minimize the impact of data deletion."

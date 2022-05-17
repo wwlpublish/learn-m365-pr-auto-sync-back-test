@@ -28,6 +28,10 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- architecture
+- communication
+- cloud-computing
 units:
 - learn.wwl.explore-teams.introduction
 - learn.wwl.explore-teams.explore-teams

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-azure-active-directory.examine-azure-ad-as-directory-service-cloud-apps
+title: Examine Azure AD as a directory service for cloud apps
+metadata:
+  title: Examine Azure AD as a directory service for cloud apps
+  description: "Examine Azure AD as a directory service for cloud apps"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/4-examine-azure-active-directory-service-cloud-apps.md)]

@@ -31,6 +31,10 @@ products:
   - m365-ems-cloud-app-security
   - m365-threat-protection
   - mdatp
+subjects:
+- cloud-security
+- threat-protection
+- data-analytics
 units:
 - learn-m365-pr.m365-gain-insights-reporting-defender-endpoint.introduction
 - learn-m365-pr.m365-gain-insights-reporting-defender-endpoint.use-threat-protection-vulnerabilities-health-reports

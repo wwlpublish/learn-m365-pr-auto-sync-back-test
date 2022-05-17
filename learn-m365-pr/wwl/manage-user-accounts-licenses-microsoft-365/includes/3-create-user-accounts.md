@@ -17,7 +17,7 @@ Using the Microsoft 365 admin center is the simplest method for creating one or 
 4.  On the **Set up the basics** page, enter the required user and password information. Verify you select the correct domain for the Username.
 5.  On the **Assign product licenses** page, select the product license(s) that should be assigned to the user.
 6.  On the **Optional settings** page, select the role(s) you want to assign to this user.
-7.  On the **Review and finish** page, review the information you entered, and if necessary, correct any information that was entered incorrectly. When all information is correct, select the **Finish adding** button to add the user account.
+7.  On the **Review and finish** page, review the information you entered. If necessary, correct any information that was entered incorrectly. When all information is correct, select the **Finish adding** button to add the user account.
 
 ### Creating users with the Import multiple users option
 
@@ -31,31 +31,23 @@ The **Add multiple users** option in the Microsoft 365 admin center can be used 
 
 ### Creating users with Windows PowerShell
 
-Some enterprise administrators prefer to use Windows PowerShell rather than the Microsoft 365 admin center to complete user administrative functions. In PowerShell, you can use the **New-MsolUser** cmdlet to create a user account in Microsoft 365.
+Some enterprise administrators prefer to use Windows PowerShell rather than the Microsoft 365 admin center to complete user administrative functions. After installing and connecting to the Azure Active Directory PowerShell module, you can use the **New-AzureADUser** cmdlet to create a user account in Microsoft 365.
 
 ```
-New-MsolUser -UserPrincipalName username@domainname –DisplayName “Firstname Lastname” –FirstName “Firstname” –LastName “Lastname”
+New-AzureADUser -UserPrincipalName username@domainname –DisplayName “Firstname Lastname” –FirstName “Firstname” –LastName “Lastname”
 ```
 
 For example, the following cmdlet creates a user account for Patti Fernandez:
 
 ```
-New-MsolUser –UserPrincipalName PattiF@Adatum.onmicrosoft.com –DisplayName “Patti Fernandez” – FirstName “Patti” –LastName “Fernandez”
-```
-
-This cmdlet can also assign a user license at the same time so that the user can start accessing online services. To assign a Microsoft 365 license during user creation, use the **-UsageLocation** and **-LicenseAssginment** parameters with the **New-MsolUser** cmdlet.
-
-For example, the following cmdlet creates a user account for Patti Fernandez and assigns a Microsoft 365 Enterprise Premium (E5) license to the new account:
-
-```
-New-MsolUser –UserPrincipalName PattiF@Adatum.onmicrosoft.com –DisplayName “Patti Fernandez” – FirstName “Patti” –LastName “Fernandez” –UsageLocation “US” –LicenseAssignment “Adatum: ENTERPRISEPREMIUM”
+New-AzureADUser –UserPrincipalName PattiF@Adatum.onmicrosoft.com –DisplayName “Patti Fernandez” – FirstName “Patti” –LastName “Fernandez”
 ```
 
 ## **Exercise – Interactive demonstration**
 
 Select the following link to complete an interactive demonstration titled: [Create a user account for Adatum's Enterprise Administrator](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M2-L1-E2-T1/index.html?azure-portal=true).
 
-This simulation guides you through the steps to create a Microsoft 365 user account and assign it the Global Administrator role. This demonstration is centered around the fictitious Adatum Corporation. You will create a user account for the equally fictitious Holly Dickson, who is Adatum's new Enterprise Administrator. You will then assign Holly the Microsoft 365 Global Administrator role.
+This simulation guides you through the steps to create a Microsoft 365 user account and assign it the Global Administrator role. This demonstration is centered around the fictitious Adatum Corporation. You'll create a user account for the equally fictitious Holly Dickson, who is Adatum's new Enterprise Administrator. You'll then assign Holly the Microsoft 365 Global Administrator role.
 
 ## Knowledge check
 

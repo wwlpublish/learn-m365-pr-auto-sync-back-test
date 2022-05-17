@@ -39,13 +39,11 @@ quiz:
         isCorrect: false
         explanation: "Incorrect. User-set would allow the end user to classify the document manually to a level other than classified."
       - content: "Recommended"
-        isCorrect: true
-        explanation: "Correct. Recommended allows the end user to change the document to a level other than classified or remove the label."
-      - content: "Reclassification"
         isCorrect: false
-        explanation: "Incorrect. Reclassification would allow the end user to reclassify the data, or worse remove the label."
-        
-      
+        explanation: "Incorrect. Recommended policies automatically classify and label documents according to the data they contain."
+      - content: "Reclassification"
+        isCorrect: true
+        explanation: "Correct. Reclassification allows the end user to reclassify the data or remove the label. Policy can optionally require users to provide a justification; it is audited."
     - content: "Which department should you first work with to identify data protection standards, regulations, and requirements?"
       choices:
       - content: "IT"

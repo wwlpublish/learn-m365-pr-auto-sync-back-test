@@ -11,7 +11,7 @@ For any mailbox moving from a source organization, you must configure a mail use
 
 You can't add legacy smtp proxy addresses from the source mailbox to the target MailUser. For example, you can't maintain contoso.com on the mail end user in fabrikam.onmicrosoft.com tenant objects. Domains are associated with one Azure AD or Exchange Online tenant only.
 
-Users in the target organization must be licensed with appropriate Exchange Online subscriptions applicable for the organization. You may apply a license in advance of a mailbox move, but ONLY once the target MailUser is properly set up with ExchangeGUID and proxy addresses. Applying a license before the ExchangeGUID is applied will result in a new mailbox provisioned in target organization.
+Users in the target organization must be licensed with appropriate Exchange Online subscriptions applicable for the organization. You may apply a license in advance of a mailbox move, but ONLY once the target MailUser is properly set up with an ExchangeGUID and proxy addresses. Applying a license before the ExchangeGUID is applied will result in a new mailbox provisioned in the target organization.
 
 > [!NOTE]
 > When you apply a license on a Mailbox or MailUser object, all SMTP type proxyAddresses are scrubbed to ensure only verified domains are included in the Exchange EmailAddresses array.
@@ -132,11 +132,6 @@ The following table displays an example target MailUser object.
     SMTP:Lara.Newton@northwind.com
   :::column-end:::
 :::row-end:::
-:::row:::
-  :::column:::
-    
-  :::column-end:::
-:::row-end:::
 
 
 ### Example of a source MailUser object
@@ -231,17 +226,9 @@ The following table displays an example source MailUser object.
     SMTP:Lara.Newton@contoso.com
   :::column-end:::
 :::row-end:::
-:::row:::
-  :::column:::
-    
-  :::column-end:::
-  :::column:::
-    
-  :::column-end:::
-:::row-end:::
 
 
-The following attributes may be included in Exchange hybrid write-back already. If not, they should be included.
+The following attributes may be included in Exchange hybrid write-back:
 
  -  **msExchBlockedSendersHash**. Writes back online safe and blocked sender data from clients to on-premises Active Directory.<br>
  -  **msExchSafeRecipientsHash**. Writes back online safe and blocked sender data from clients to on-premises Active Directory.
@@ -253,9 +240,9 @@ If the source mailbox is on LitigationHold and the source mailbox Recoverable It
 
 You can update the target MailUser object to transition the ELC mailbox flags from the source environment to the target. This action triggers the target system to expand the quota of the MailUser to 100 GB. This expansion allows the move to the target.
 
-**Additional reading**. For a sample script that completes this update, see [Cross-tenant mailbox migration (preview)](/microsoft-365/enterprise/cross-tenant-mailbox-migration?azure-portal=true).
+**Further reading**. For a sample script that completes this update, see [Cross-tenant mailbox migration (preview)](/microsoft-365/enterprise/cross-tenant-mailbox-migration?azure-portal=true).
 
-Non-hybrid target tenants can modify the quota on the Recoverable Items folder for the MailUsers before migration by running the following command to enable Litigation Hold on the MailUser object and increasing the quota to 100 GB (this command won't work for hybrid tenants):
+Non-hybrid target tenants can modify the quota on the Recoverable Items folder for the MailUsers before migration. This is done by running the following command to enable Litigation Hold on the MailUser object and increasing the quota to 100 GB (this command won't work for hybrid tenants):
 
 ```powershell
 Set-MailUser -EnableLitigationHoldForMigration
@@ -263,7 +250,7 @@ Set-MailUser -EnableLitigationHoldForMigration
 
 ### ExchangeGUID conflicts
 
-You must ensure the target MailUser has no previous ExchangeGuid that doesn't match the Source ExchangeGuid. This situation can occur if the target mail end user was previously licensed for Exchange Online and provisioned a mailbox. If the target MailUser was previously licensed for or had an ExchangeGuid that doesn't match the Source ExchangeGuid, you must complete a cleanup of the cloud mail end user.
+You must ensure the target MailUser has no previous ExchangeGUID that doesn't match the Source ExchangeGUID. This situation can occur if the target mail end user was previously licensed for Exchange Online and provisioned a mailbox. If the target MailUser was previously licensed for or had an ExchangeGuid that doesn't match the Source ExchangeGUID, you must complete a cleanup of the cloud mail end user.
 
 For these cloud mail end users, you can run the following command:
 

@@ -25,6 +25,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- security
+- productivity
 modules:
 - learn.wwl.configure-your-microsoft-365-experience
 - learn.wwl.manage-user-accounts-licenses-microsoft-365

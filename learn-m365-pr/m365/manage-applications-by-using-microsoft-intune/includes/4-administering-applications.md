@@ -1,6 +1,8 @@
 Intune application deployment procedures entail several considerations and settings to ensure that a deployment is successful. No matter what type of app you are deploying with Intune, the overall process is the same.
 
-![A diagram showing application lifecycle.](../media/deployment-lifecycle.png)
+:::image type="complex" source="../media/deployment-lifecycle.png" alt-text="Diagram showing application deployment procedures." border="false":::
+	Diagram shows the order of the deployment procedures as a series of steps: is the app supported? Create a user or a device group. Add the app to Intune. Assign the app to a group. Configure policies. Monitor results.
+:::image-end:::
 
 To deploy an app from Intune, perform the following steps:
 

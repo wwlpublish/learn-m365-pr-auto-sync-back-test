@@ -4,7 +4,7 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Learn how to manage your content lifecycle using solutions to import, store, and classify business-critical data so you can keep what you need and delete what you don't. 
-  ms.date: 07/07/2021
+  ms.date: 05/02/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -16,14 +16,14 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of the following describes the most comprehensive approach to information governance and its benefits?"
+    - content: "Which of the following describes the most comprehensive approach to Data Lifecycle Management and its benefits?"
       choices:
       - content: "Securing sensitive data and access."
         isCorrect: false
-        explanation: "This is one benefit of information governance."
+        explanation: "This is one benefit of Data Lifecycle Management."
       - content: "Ensuring your data is defensible and retained."
         isCorrect: false
-        explanation: "This is one benefit of information governance "
+        explanation: "This is one benefit of Data Lifecycle Management "
       - content: "Managing the end-to-end lifecycle of all content across your digital estate. "
         isCorrect: true
         explanation: "A comprehensive approach across all content in your digital estate helps protect confidential information and prevent incidents that could disrupt your business."

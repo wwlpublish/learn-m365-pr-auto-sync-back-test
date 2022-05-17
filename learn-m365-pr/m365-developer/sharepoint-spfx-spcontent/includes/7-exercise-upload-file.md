@@ -8,7 +8,7 @@ In this exercise, you'll create a new web part that someone can use to select a 
 Open a command prompt and change to the folder where you want to create the project.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.13.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
 
 Run the SharePoint Yeoman generator by executing the following command:
 
@@ -16,19 +16,26 @@ Run the SharePoint Yeoman generator by executing the following command:
 yo @microsoft/sharepoint
 ```
 
-Use the following to complete the prompt that is displayed (*if additional options are presented, accept the default answer)*:
+Use the following to complete the prompt that is displayed (*if more options are presented, accept the default answer)*:
 
 - **What is your solution name?**: FileUpload
-- **Only SharePoint Online (latest) is supported.  For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
-- **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
-- **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No- **Which type of client-side component to create?**: Web Part
+- **Which type of client-side component to create?**: Web Part
 - **What is your Web Part name?**: FileUpload
-- **What is your Web Part description?**: FileUpload description
-- **Which framework would you like to use?** No JavaScript Framework
+- **Which framework would you like to use?** No framework
 
-After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, open the project in **Visual Studio Code**.
+After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When npm completes downloading all dependencies, open the project in **Visual Studio Code**.
 
 ## Update the web part's user interface
+npm
+Locate and open the file **./src/webparts/fileUpload/FileUploadWebPart.module.scss**.
+
+Add the following to the bottom of the file:
+
+```scss
+.inputs {
+  padding-top: 20px;
+}
+```
 
 With the web part created, update the user interface to include a control to select a file from the user's computer and a button to trigger the upload process.
 
@@ -39,16 +46,17 @@ Locate the existing `render()` method in the **FileUploadWebPart** class. Replac
 ```typescript
 public render(): void {
   this.domElement.innerHTML = `
-    <div class="${styles.fileUpload}">
-      <div class="${styles.container}">
-        <div class="${styles.row}">
-          <div class="${styles.column}">
-            <input class="${styles.fileUpload}-fileUpload" type="file" /><br />
-            <input class="${styles.fileUpload}-uploadButton" type="button" value="Upload" />
-          </div>
-        </div>
-      </div>
-    </div>`;
+  <section class="${styles.fileUpload} ${!!this.context.sdks.microsoftTeams ? styles.teams : ''}">
+    <div class="${styles.welcome}">
+      <img alt="" src="${this._isDarkTheme ? require('./assets/welcome-dark.png') : require('./assets/welcome-light.png')}" class="${styles.welcomeImage}" />
+      <h2>Well done, ${escape(this.context.pageContext.user.displayName)}!</h2>
+      <div>${this._environmentMessage}</div>
+    </div>
+    <div class="${styles.inputs}">
+      <input class="${styles.fileUpload}-fileUpload" type="file" /><br />
+      <input class="${styles.fileUpload}-uploadButton" type="button" value="Upload" />
+    </div>
+  </section>`;
 
   // TODO 1
 
@@ -173,9 +181,9 @@ gulp serve --nobrowser
 
 The SharePoint Framework's gulp **serve** task will build the project, start a local web server.
 
-Open a browser and navigate to a SharePoint site's hosted workbench to test the project, such as `https://{{REPLACE-THIS}}.sharepoint.com/sites/{{REPLACE-THIS}}/_layouts/workbench.aspx`.
+Open a browser and navigate to any SharePoint site in your tenant. Append the following to the end of the site's URL: **/_layouts/workbench.aspx** to navigate to the SharePoint-hosted workbench.
 
-Select the plus icon on the page to open the toolbox and select the **FileUpload** web part.
+Select the web part icon button to open the list of available web parts and select the **FileUpload** web part.
 
 ![SharePoint hosted workbench web part toolbox](../media/07-add-webpart-01.png)
 
@@ -191,7 +199,7 @@ Go back to the browser window/tab that contains the web part.
 
 Select the **Choose File** button and select a file from your computer, then select the **Upload** button. You should see an alert appear saying the file was uploaded.
 
-Finally, verify the file was uploaded by switching back ot the browser window/tab with the **Documents** library. Refresh the page to see the file if it doesn't show automatically:
+Finally, verify the file was uploaded by switching back to the browser window/tab with the **Documents** library. Refresh the page to see the file if it doesn't show automatically:
 
 ![Documents library with the added file](../media/07-document-library-02.png)
 

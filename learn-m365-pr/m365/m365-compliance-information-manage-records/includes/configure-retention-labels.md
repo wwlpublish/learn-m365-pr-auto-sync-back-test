@@ -1,6 +1,6 @@
-The information governance and records management solutions both use retention labels. You can create your own retention labels or edit the ones produced during the file plan import process. One additional step is added, and another is modified during the retention label configuration process in records management. The additional step provides the opportunity to add additional records management-specific metadata. The modified step enables the label to be used to declare records.
+Microsoft Purview Data Lifecycle Management and Records Managements both use retention labels. You can create your own retention labels or edit the ones produced during the file plan import process. One additional step is added, and another is modified during the retention label configuration process in records management. The additional step provides the opportunity to add additional records management-specific metadata. The modified step enables the label to be used to declare records.
 
-Navigate to **Microsoft 365 compliance center > Records management > File plan** to configure retention labels for records management
+Navigate to **Microsoft Purview compliance portal > Records management > File plan** to configure retention labels for records management
 
 The process of creating a retention label consists of these steps:
 
@@ -33,13 +33,13 @@ This appears when users hover over the label in some apps. If left blank, a defa
 
 ## Step 2: File plan descriptors
 
-The file plan descriptors step is unique to records management. File plan descriptors are metadata common to many file plans, and help you to manage records. Most descriptors are prepopulated with common selections, but you can add your own. None of these fields are required. You can add your own values to the prepopulated choices. The following table provides more information about each descriptor.
+The file plan descriptors step is unique to Microsoft Purview Records Management. File plan descriptors are metadata common to many file plans, and help you to manage records. Most descriptors are prepopulated with common selections, but you can add your own. None of these fields are required. You can add your own values to the prepopulated choices. The following table provides more information about each descriptor.
 
 | Name  | Description  | Example  | Prepopulated?  |
 |---|---|---|---|
-| Reference   ID  | Free form unique field that could be used to refer to your formal file plan  | 764X37-9087  | No  |
+| Reference   ID  | Freeform unique field that could be used to refer to your formal file plan  | 764X37-9087  | No  |
 |  Business function/department |  Common department names are supplied, but you can add your own; for example, select Accounting | Finance	  | Yes  |
-| Category  | A list of categories is provided, but you can add you own  | Financial statements  |  Yes |
+| Category  | A list of categories is provided, but you can add your own  | Financial statements  |  Yes |
 |  Subcategory |  This lets you add a second level of categorization |  Income statements |  Yes |
 |  Authority type | The primary justification for the label  | Regulatory  | Yes  |
 | Provision/citation  | The name of the specific regulatory or legal provision the label applies to  | Sarbanes-Oxley Act of 2002  |  Yes |
@@ -48,7 +48,7 @@ The file plan descriptors step is unique to records management. File plan descri
 
 ### Retention
 
-Turn on retention if you want to apply retention settings to this label. If you leave retention off, the label behaves like a text label. When you turn on the label, this results in additional settings relating to whether the content should be deleted or retained. 
+Turn on retention if you want to apply retention settings to this label. If you leave retention off, the label behaves like a text label. When you turn on the label, this results in additional settings relating to whether the content should be deleted or retained.
 
 When the label is applied, the content is retained and/or deleted based on the settings you configure. If retained for some time, additional options are presented to configure what you should do after the retention period expires. You can also configure what triggers the retention period clock to start ticking.
 
@@ -75,7 +75,7 @@ Basing the label on an event means content will be retained forever until you cr
 
 ### Label classification
 
-This configuration option is unique to the records management solution. If selected, the label will be used to classify the content as a record. Users won't be able to edit or delete the content, or change or remove the label. However, they can still edit the content's metadata. If you classify content as a record, it becomes immutable.
+This configuration option is unique to the Microsoft Purview Records Management solution. If selected, the label will be used to classify the content as a record. Users won't be able to edit or delete the content, or change or remove the label. However, they can still edit the content's metadata. If you classify content as a record, it becomes immutable.
 
 ## Step 4: Review your settings
 

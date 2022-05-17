@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-connectors.microsoft-graph-search-api
+title: Microsoft Graph Search API
+metadata:
+  title: Microsoft Graph Search API
+  description: Learn about the benefits of using Microsoft Search APIs and where you can get more information about them.
+  ms.date: 04/01/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/microsoft-graph-search-api.md)]

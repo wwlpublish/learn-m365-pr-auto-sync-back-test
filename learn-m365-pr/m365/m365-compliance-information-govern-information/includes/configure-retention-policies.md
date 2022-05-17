@@ -1,6 +1,6 @@
 Email, documents, Skype for Business, and Teams conversations. Your users generate a lot of content every day. Take control of it by setting up retention policies to keep what you want and get rid of what you don't. Users can continue to edit and work with the content when it is subject to a retention policy, because the content is retained in place, in its original location. If someone edits or deletes content subject to the policy, a copy is saved to a secure location where it is retained while the policy is in effect.
 
-Navigate to **Microsoft 365 compliance center > Information Governance > Retention to configure retention policies**.
+Navigate to **Microsoft Purview compliance portal > Data Lifecycle Management > Retention to configure retention policies**.
 
 Creating a retention policy consists of these steps.
 
@@ -104,7 +104,7 @@ The final step in the process is to review your settings and make any necessary 
 
 ### Retention policy status
 
-Retention policy status is available by selecting the policy on the retention tab of the Information governance solution in the Microsoft 365 compliance center. Here is a summary of the states the policy might be in:
+Retention policy status is available by selecting the policy on the retention tab of the Data Lifecycle Management solution in the Microsoft Purview compliance portal. Here is a summary of the states the policy might be in:
 
 | Status  |  Description |
 |---|---|

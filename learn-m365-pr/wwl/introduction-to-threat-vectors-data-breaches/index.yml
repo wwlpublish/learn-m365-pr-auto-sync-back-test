@@ -3,7 +3,7 @@ uid: learn.wwl.introduction-to-threat-vectors-data-breaches
 metadata:
   title: Examine threat vectors and data breaches
   description: "Examine threat vectors and data breaches"
-  ms.date: 04/29/2021
+  ms.date: 04/29/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,7 +11,7 @@ metadata:
 title: Examine threat vectors and data breaches
 summary: This module examines the types of threat vectors and their potential outcomes that organizations must deal with on a daily basis and how users can enable hackers to access targets by unwittingly executing malicious content.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Describe techniques hackers use to compromise user accounts through email
   - Describe techniques hackers use to gain control over resources
   - Describe techniques hackers use to compromise data
@@ -29,9 +29,11 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
+subjects:
+- threat-protection
+- data-management
 units:
 - learn.wwl.introduction-to-threat-vectors-data-breaches.introduction
 - learn.wwl.introduction-to-threat-vectors-data-breaches.explore-todays-work-threat-landscape

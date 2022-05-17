@@ -9,7 +9,7 @@ metadata:
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 10
+durationInMinutes: 5
 content: |
   [!include[](includes/summary.md)]
 quiz:
@@ -42,105 +42,7 @@ quiz:
         explanation: "No, it's not just listening to feedback from employees. Try again."
       - content: "All of the above."
         isCorrect: true
-        explanation: "Yes, these are all elements you'll have to balance as a Service Adoption Specialist."
-    - content: "Healthy service usage refers to the ability to achieve which of the following?"
-      choices:
-      - content: "Employees' ability to use business and technical capabilities to deliver business outcomes."
-        isCorrect: true
-        explanation: "Yes, this is the definition of 'healthy service usage.'"
-      - content: "Employees correctly using technology based on your training."
-        isCorrect: false
-        explanation: "No, 'healthy service usage' isn't about successful training. Try again."
-      - content: "Employees having secure technology available."
-        isCorrect: false
-        explanation: "No, 'healthy service usage' isn't about secure technology. Try again."
-      - content: "Employees not sharing data about consumers."
-        isCorrect: false
-        explanation: "No, 'healthy service usage' isn't about sharing data. Try again."
-    - content: "The process that an organization has to go through to change its strategies, processes, culture, or technology is referred to as what?"
-      choices:
-      - content: "Business management."
-        isCorrect: false
-        explanation: "No, this isn't what business management refers to. Try again."
-      - content: "Organizational strategy."
-        isCorrect: false
-        explanation: "No, this isn't what organizational strategy refers to. Try again."
-      - content: "Process improvement."
-        isCorrect: false
-        explanation: "No, this isn't what process improvement refers to. Try again."
-      - content: "Organizational change."
-        isCorrect: true
-        explanation: "Yes, this process is referred to as 'organizational change.'"        
-    - content: "What is one stated positive outcome of improving the culture of a company?"
-      choices:
-      - content: "Fewer layoffs."
-        isCorrect: false
-        explanation: "No, but this could be a side effect not stated as an outcome. Try again."
-      - content: "Product and service improvement."
-        isCorrect: true
-        explanation: "Yes, improving your company culture will help improve your products and services."
-      - content: "Better financial performance."
-        isCorrect: false
-        explanation: "No, but this could be a side effect not stated as an outcome. Try again."
-      - content: "Less executive turnover."
-        isCorrect: false
-        explanation: "No, but this could be a side effect not stated as an outcome. Try again."        
-    - content: "A successful commercial organization places whose needs at the top of the priority list?"
-      choices:
-      - content: "Industry thought leaders."
-        isCorrect: false
-        explanation: "No, but you should consider their input. Try again."
-      - content: "Executives."
-        isCorrect: false
-        explanation: "No, but it is important to consider their needs. Try again."
-      - content: "Employees."
-        isCorrect: false
-        explanation: "No, but it is important to consider their needs. Try again."
-      - content: "Customers."
-        isCorrect: true
-        explanation: "Yes, your customers' needs should be your top priority."        
-    - content: "The ability to have the depth of knowledge to apply specific technology to achieve a desired business outcome is referred to as what?"
-      choices:
-      - content: "Technical acumen."
-        isCorrect: false
-        explanation: "No, this isn't what technical acumen refers to. Try again."
-      - content: "Technical competence."
-        isCorrect: true
-        explanation: "Yes, this is technical competence."
-      - content: "IT management."
-        isCorrect: false
-        explanation: "No, this isn't what IT management refers to. Try again."
-      - content: "Technology capabilities."
-        isCorrect: false
-        explanation: "No, this isn't what technology capabilities refers to. Try again."        
-    - content: "To be a successful Service Adoption Specialist, you should have a degree in what area?"
-      choices:
-      - content: "Computer science."
-        isCorrect: false
-        explanation: "No, you don't need a Computer Science degree to succeed as a Service Adoption Specialist. Try again."
-      - content: "Organizational psychology."
-        isCorrect: false
-        explanation: "No, you don't need an Organizational Psychology degree to succeed as a Service Adoption Specialist. Try again."
-      - content: "Business administration."
-        isCorrect: false
-        explanation: "No, you don't need a Business Administration degree to succeed as a Service Adoption Specialist. Try again."
-      - content: "None of the above."
-        isCorrect: true
-        explanation: "Correct, there's no one specific degree you need to succeed as a Service Adoption Specialist."        
-    - content: "Which of the following best defines a tactic of omni-directional marketing?"
-      choices:
-      - content: "Multiple methods must be simultaneously used to communicate to employees at regular intervals."
-        isCorrect: true
-        explanation: "Yes, this is one of the omni-directional marketing tactics."
-      - content: "Communications must cross regions or offices."
-        isCorrect: false
-        explanation: "No, this isn't one of the omni-directional marketing tactics. Try again."
-      - content: "Email announcement should come from multiple leaders simultaneously."
-        isCorrect: false
-        explanation: "No, this isn't one of the omni-directional marketing tactics. Try again."
-      - content: "Templates can be given to employees to use how they see fit for their groups."
-        isCorrect: false
-        explanation: "No, this isn't one of the omni-directional marketing tactics. Try again."        
+        explanation: "Yes, these are all elements you'll have to balance as a Service Adoption Specialist."                                        
     - content: "Which individual item is NOT a part of the marketing communications area for Service Adoption Specialists?"
       choices:
       - content: "Key messages for employee campaigns."
@@ -165,18 +67,4 @@ quiz:
         explanation: "Yes, breaking the framework into phases lets different units adopt it at different rates."
       - content: "Provides a structure for teaching the framework to others."
         isCorrect: false
-        explanation: "No, although it does provide a structure for teaching, three phases allows for a specific outcome. Try again."
-    - content: "Which of the following items is NOT emphasized in the service adoption framework process?"
-      choices:
-      - content: "Light business process mapping"
-        isCorrect: false
-        explanation: "Incorrect, light business process mapping is emphasized in the service adoption framework process. Try again." 
-      - content: "Frequent feedback loops"
-        isCorrect: false
-        explanation: "Incorrect, frequent feedback loops are emphasized in the service adoption framework process. Try again." 
-      - content: "Identified success measures"
-        isCorrect: false
-        explanation: "Incorrect, identified success measures are emphasized in the service adoption framework process. Try again." 
-      - content: "Workforce talent reviews"
-        isCorrect: true
-        explanation: "Correct, workforce talent reviews are NOT emphasized in the service adoption framework process."   
+        explanation: "No, although it does provide a structure for teaching, three phases allows for a specific outcome. Try again." 

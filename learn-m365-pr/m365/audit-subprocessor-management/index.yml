@@ -29,6 +29,10 @@ roles:
 - privacy-manager
 products:
 - m365
+subjects:
+- threat-protection
+- cloud-security
+- data-management
 units:
 - learn-m365.audit-subprocessor-management.introduction
 - learn-m365.audit-subprocessor-management.subprocessor-requirement

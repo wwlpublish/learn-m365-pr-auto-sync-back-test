@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-problems-mail-flow.troubleshoot-problems-mail-flow
+title: Troubleshoot problems with mail flow
+metadata:
+  title: Troubleshoot problems with mail flow
+  description: "Troubleshoot problems with mail flow"
+  ms.date: 05/03/2022
+  author: wwlpublish
+  ms.author: dawnhopper
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 11
+content: |
+  [!include[](includes/6-troubleshoot-problems-mail-flow.md)]

@@ -4,7 +4,7 @@ metadata:
   moduleType: standard
   title: Apply next-generation protection with Microsoft Defender for Endpoint
   description: Learn about next-generation protection in Microsoft Defender for Endpoint including behavior-based, heuristic, and real-time antivirus protection, cloud-delivered protection, dedicated protection and product updates, and more.
-  ms.date: 11/03/2021
+  ms.date: 05/11/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -27,6 +27,8 @@ products:
   - m365
   - m365-security-center
   - mdatp
+subjects:
+- information-protection-governance
 units:
 - learn-m365-pr.apply-next-generation-protection-with-microsoft-defender-for-endpoint.introduction
 - learn-m365-pr.apply-next-generation-protection-with-microsoft-defender-for-endpoint.intelligent-protections

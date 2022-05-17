@@ -3,19 +3,20 @@ uid: learn.wwl.implement-applications-azure-ad
 metadata:
   title: Implement applications in Azure AD
   description: "Implement applications in Azure AD"
-  ms.date: 07/12/2021
+  ms.date: 04/29/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Implement applications in Azure AD
-summary: This module provides instruction on how to add applications in Azure AD, and how to update applications, configure multi-tenant applications, and remove applications.
+summary: This module provides instruction on how to register applications in Azure AD, update applications within the Azure AD consent framework, configure multi-tenant applications, manage OAuth application requests, and monitor app governance.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Register an application or service within your Azure AD tenant
   - Update an application within the Azure AD consent framework
   - Modify the configuration of a single-tenant application to make it a multi-tenant application
-  - Remove an application's registration from your Azure AD tenant
+  - Manage OAuth application requests
+  - Monitor app governance for OAuth-enabled apps
 prerequisites: |
   None
 iconUrl: /learn/achievements/azure-ad-implement-applications.svg
@@ -26,15 +27,19 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
+subjects:
+- development-tools
+- identity-access
 units:
 - learn.wwl.implement-applications-azure-ad.introduction
-- learn.wwl.implement-applications-azure-ad.add-application-within-your-tenant
+- learn.wwl.implement-applications-azure-ad.examine-integrated-apps-microsoft-365
+- learn.wwl.implement-applications-azure-ad.register-application-within-azure-ad-tenant
 - learn.wwl.implement-applications-azure-ad.update-application-within-consent-framework
 - learn.wwl.implement-applications-azure-ad.configure-multi-tenant-applications
-- learn.wwl.implement-applications-azure-ad.remove-applications-registration-from-your-tenant
+- learn.wwl.implement-applications-azure-ad.manage-oauth-application-requests
+- learn.wwl.implement-applications-azure-ad.monitor-app-governance-oauth-enabled-apps
 - learn.wwl.implement-applications-azure-ad.knowledge-check
 - learn.wwl.implement-applications-azure-ad.summary
 badge:

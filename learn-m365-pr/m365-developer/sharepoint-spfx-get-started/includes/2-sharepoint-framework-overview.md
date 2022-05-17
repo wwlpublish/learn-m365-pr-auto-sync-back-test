@@ -59,7 +59,7 @@ Modern pages are mobile optimized and will render both in the client if you're u
 
 Modern site pages enable users to easily create beautiful looking pages. They help you communicate ideas and information using an improved authoring canvases and a gallery of web parts. Some of the different building blocks that are available to page authors include a page canvas. This canvas and web parts and these are all built using client-side HTML and JavaScript.
 
-Mobile support is built in from the start, which means that page reflows across different device sizes. Pages are fast and fluid. Modern pages get better with Microsoft Graph because authors can leverage Microsoft Graph to surface relevant pages to the people that need to read them.
+Mobile support is built in from the start, which means that page reflows across different device sizes. Pages are fast and fluid. Modern pages get better with Microsoft Graph because authors can use Microsoft Graph to surface relevant pages to the people that need to read them.
 
 ### SharePoint client-side development
 

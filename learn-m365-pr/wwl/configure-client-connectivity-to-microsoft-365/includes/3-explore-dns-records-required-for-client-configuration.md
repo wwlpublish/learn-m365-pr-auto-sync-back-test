@@ -7,88 +7,44 @@ The following table identifies the Autodiscover records that Outlook clients nee
 
 :::row:::
   :::column:::
-    
-
-**DNS record**
-
-
+    **DNS record**
   :::column-end:::
   :::column:::
-    
-
-**Purpose**
-
-
+    **Purpose**
   :::column-end:::
   :::column:::
-    
-
-**Value to use**
-
-
+    **Value to use**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-**CNAME**
-
-
+    **CNAME**
 **(Exchange Online)**
-
-
   :::column-end:::
   :::column:::
-    
-
-The Autodiscover service configures Outlook for users.
-
-
+    The Autodiscover service configures Outlook for users.
   :::column-end:::
   :::column:::
-    
-
-**Alias:** Autodiscover
-
-
+    **Alias:** Autodiscover
 **Target:** autodiscover.outlook.com
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-**CNAME**
-
-
+    **CNAME**
 **(Exchange federation)**
-
-
   :::column-end:::
   :::column:::
-    
-
-The Autodiscover service configures Outlook for users in Exchange federation scenarios. This record is optional, and it's needed when you deploy Exchange in a hybrid configuration with Microsoft 365.
-
-
+    The Autodiscover service configures Outlook for users in Exchange federation scenarios. This record is optional, and it's needed when you deploy Exchange in a hybrid configuration with Microsoft 365.
   :::column-end:::
   :::column:::
-    
-
-**Alias:** For example, Autodiscover.service.adatum.com
-
-
+    **Alias:** For example, Autodiscover.service.adatum.com
 **Target:** autodiscover.outlook.com
-
-
   :::column-end:::
 :::row-end:::
 
 
-The following graphic shows that the domain suffix of a user's email address is resolved against DNS and redirected to Exchange Online, which then delivers the correct Autodiscover.xml file back to the Outlook client, which contains all configuration information.
+The following graphic shows that the domain suffix of a user's email address is resolved against DNS. It's then redirected to Exchange Online, which in turn delivers the correct Autodiscover.xml file back to the Outlook client. This file contains all the configuration information.
 
 :::image type="content" source="../media/domain-suffix-resolved-to-dns-877a81c1.jpg" alt-text="graphic shows that the domain suffix of a user's email address is resolved against DNS and redirected to Exchange Online, which then delivers the correct Autodiscover.xml file back to the Outlook client":::
 
@@ -97,88 +53,44 @@ The following table identifies the DNS records that are needed for VOIP Services
 
 :::row:::
   :::column:::
-    
-
-**DNS record**
-
-
+    **DNS record**
   :::column-end:::
   :::column:::
-    
-
-**Purpose**
-
-
+    **Purpose**
   :::column-end:::
   :::column:::
-    
-
-**Value to use**
-
-
+    **Value to use**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-**CNAME**
-
-
+    **CNAME**
 **(VOIP Services)**
-
-
   :::column-end:::
   :::column:::
-    
-
-Used originally by the Skype for Business clients to find the Skype for Business Online service in Microsoft 365 and sign in, it's now used by the Teams client.
-
-
+    This record was originally used by the Skype for Business clients to find the Skype for Business Online service in Microsoft 365 and sign in. It's now used by the Microsoft Teams client.
   :::column-end:::
   :::column:::
-    
-
-**Alias:** sip
-
-
+    **Alias:** sip
 **Target:** sipdir.online.lync.com
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-**CNAME**
-
-
+    **CNAME**
 **(VOIP Services)**
-
-
   :::column-end:::
   :::column:::
-    
-
-Used originally by the Skype for Business clients to find the Skype for Business Online service in Microsoft 365 and sign in, it's now used by the Teams client.
-
-
+    This record was originally used by the Skype for Business clients to find the Skype for Business Online service in Microsoft 365 and sign in. It's now used by the Microsoft Teams client.
   :::column-end:::
   :::column:::
-    
-
-**Alias:** Lyncdiscover
-
-
+    **Alias:** Lyncdiscover
 **Target:** webdir.online.lync.com
-
-
   :::column-end:::
 :::row-end:::
 
 
-Fortunately, the Microsoft 365 portal provides the administrator who is doing the initial configuration of Microsoft 365 with all the DNS records that are required for proper name resolution. For some DNS providers such as GoDaddy, Microsoft 365 can automatically create all necessary records.
+The Microsoft 365 portal provides the administrator who's doing the initial Microsoft 365 configuration with all the DNS records that are required for proper name resolution. For some DNS providers such as GoDaddy, Microsoft 365 can automatically create all necessary records.
 
 ## Knowledge check
 

@@ -61,14 +61,8 @@ The Recoverable Items folder contains the following subfolders. These subfolders
     Deletions
   :::column-end:::
   :::column:::
-    
-
-Items removed from the Deleted Items folder or soft-deleted from other folders are moved to the Deletions subfolder and are visible to the user when using the Recover Deleted Items feature in Outlook and Outlook on the web.
-
-
+    Items removed from the Deleted Items folder or soft-deleted from other folders are moved to the Deletions subfolder and are visible to the user when using the Recover Deleted Items feature in Outlook and Outlook on the web.
 By default, items stay in this folder until the deleted item retention period configured for the mailbox database or the mailbox expires.
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -76,23 +70,11 @@ By default, items stay in this folder until the deleted item retention period co
     Purges
   :::column-end:::
   :::column:::
-    
-
-When a user deletes an item from the Recoverable Items folder (by using the Recover Deleted Items tool in Outlook and Outlook on the web), the item is moved to the Purges folder.
-
-
+    When a user deletes an item from the Recoverable Items folder (by using the Recover Deleted Items tool in Outlook and Outlook on the web), the item is moved to the Purges folder.
 Items that exceed the deleted item retention period configured on the mailbox database or the mailbox are also moved to the Purges folder.
-
-
 Items in this folder aren't visible to users if they use the Recover Deleted Items tool.
-
-
 When the mailbox assistant processes the mailbox, items in the Purges folder are purged from the mailbox database.
-
-
 When you place the mailbox user on Litigation hold, the mailbox assistant doesn't purge items in this folder.
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -100,17 +82,9 @@ When you place the mailbox user on Litigation hold, the mailbox assistant doesn'
     DiscoveryHolds
   :::column-end:::
   :::column:::
-    
-
-If a user is put on an In-Place hold, deleted items are moved to this folder.
-
-
+    If a user is put on an In-Place hold, deleted items are moved to this folder.
 When the mailbox assistant processes the mailbox, it evaluates messages in this folder. Items that match the In-Place hold query are kept until the hold period specified in the query. If no hold period is specified, items are held indefinitely or until the user is removed from the hold.
-
-
 If you put a user who was already on an In-Place hold on Litigation hold, the Litigation hold takes preference. As a result, deleted items are moved to the Purges folder instead.
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -118,16 +92,8 @@ If you put a user who was already on an In-Place hold on Litigation hold, the Li
     Versions
   :::column-end:::
   :::column:::
-    
-
-When a user is put on In-Place hold or Litigation hold, mailbox items must be protected from tampering or modification by the user or by a process. This action is accomplished by using a copy-on-write process.
-
-When a user or a process changes specific properties of a mailbox item, a copy of the original item is saved in the Versions folder before the change is committed. This process is repeated for later changes.
-
-
+    When a user is put on In-Place hold or Litigation hold, mailbox items must be protected from tampering or modification by the user or by a process. This action is accomplished by using a copy-on-write process.When a user or a process changes specific properties of a mailbox item, a copy of the original item is saved in the Versions folder before the change is committed. This process is repeated for later changes.
 Items captured in the Versions folder are also indexed and returned in In-Place eDiscovery searches. After the hold is removed, copies in the Versions folder are removed by the Managed Folder Assistant.
-
-
   :::column-end:::
 :::row-end:::
 

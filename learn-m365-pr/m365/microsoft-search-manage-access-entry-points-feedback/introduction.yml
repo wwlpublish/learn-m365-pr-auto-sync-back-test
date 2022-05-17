@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-manage-access-entry-points-feedback.introduction
+title: Manage access, add entry points, and review feedback
+metadata:
+  title: Manage access, add entry points, and review feedback
+  description: Get information about managing access to files and sites, enabling search entry points, and reviewing user feedback.
+  ms.date: 04/05/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/introduction.md)]

@@ -30,6 +30,9 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- device-management
+- cloud-computing
 units:
 - learn.wwl.explore-advanced-configuration-methods.introduction
 - learn.wwl.explore-advanced-configuration-methods.explore-windows-activation

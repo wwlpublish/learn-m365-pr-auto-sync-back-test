@@ -4,26 +4,27 @@ title: Explore Microsoft Identity Manager
 metadata:
   title: Explore Microsoft Identity Manager
   description: "Explore Microsoft Identity Manager"
-  ms.date: 04/29/2021
+  ms.date: 04/30/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 5
 content: |
   [!include[](includes/5-explore-microsoft.md)]
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As Tailspin Toys' Enterprise Administrator, Allan Deyoung wants to implement Microsoft Identity Manager to help protect Tailspin's privileged accounts. Looking towards the future, Allan wants to begin implementing passwordless authentication. Allan has enforced MFA and removed passwords. What's the next task that Allan should complete to set up passwordless authentication at Tailspin Toys?"
+  - content: "As Tailspin Toys' Enterprise Administrator, Alan Deyoung wants to implement Microsoft Identity Manager to help protect Tailspin's privileged accounts. Alan wants to begin by implementing passwordless authentication. Alan has enforced multifactor authentication and removed passwords. What's the next task that Alan should complete to set up passwordless authentication at Tailspin Toys?"
     choices:
     - content: "Reduce legacy authentication workflows"
       isCorrect: true
-      explanation: "That's correct. Allan should place apps that require passwords into a separate user access portal and migrate users to modern authentication flows."
+      explanation: "Correct. Alan should place apps that require passwords into a separate user access portal and migrate users to modern authentication flows."
     - content: "Run Azure AD Connect to make the users and permissions available in Azure AD for Microsoft 365 and cloud-hosted apps"
       isCorrect: false
-      explanation: "That's incorrect. This task isn't the next step that Allan should complete to set up passwordless authentication. Try again."
+      explanation: "Incorrect. This task isn't the next step that Alan should complete to set up passwordless authentication."
     - content: "Run the Discovery and Insights tool"
       isCorrect: false
-      explanation: "That's incorrect. This task isn't the next step that Allan should complete to set up passwordless authentication. Try again."
+      explanation: "Incorrect. This task isn't the next step that Alan should complete to set up passwordless authentication."

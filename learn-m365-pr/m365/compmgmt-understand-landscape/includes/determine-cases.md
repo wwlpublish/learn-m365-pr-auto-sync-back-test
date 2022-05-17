@@ -1,4 +1,4 @@
-Here are some of the most common use cases for Microsoft Compliance Manager:
+Here are some of the most common use cases for Microsoft Purview Compliance Manager:
 
 - **Data protection baseline:** Get started by implementing technical, procedural, and people controls to protect your data using the data protection baseline assessment.
 - **IT risk management:** If managing IT risks is part of your responsibility, you can leverage Compliance Manager to start assessing and monitoring controls that can help reduce risks.

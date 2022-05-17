@@ -27,6 +27,9 @@ roles:
 - administrator
 products:
 - m365
+subjects:
+- cloud-computing
+- productivity
 units:
 - learn-m365.manage-m365.1-introduction
 - learn-m365.manage-m365.1-manage-licenses

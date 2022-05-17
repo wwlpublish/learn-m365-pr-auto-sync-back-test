@@ -8,7 +8,7 @@ The financial impact of insider threats is substantial, as companies suffer mark
 
 Traditional approaches to identifying insider risks such as user behavior analytics, monitoring user activity, and data loss prevention can suffer from limitations such as complex deployment scenarios, limited insights, and a lack of workload integration beyond SecOps.
 
-The insider risk management solution in Microsoft 365 leverages the Microsoft Graph, security services and connectors to human resources (HR) systems like SAP, to obtain real-time native signals such as file activity, communications sentiment, abnormal user behaviors, and resignation date. A set of configurable policy templates tailored specifically for risks – such as digital IP theft, confidentiality breach, and HR violations – use machine learning and intelligence to correlate these signals to identify hidden patterns and risks that traditional or manual methods might miss. These built-in policy templates allow you to identify and mitigate risky activities while balancing employee privacy versus organization risk with privacy-by-design architecture. Finally, end-to-end integrated workflows ensure that the right people across security, HR, legal, and compliance are involved to quickly investigate and take action once a risk has been identified.
+The insider risk management solution in Microsoft Purview leverages the Microsoft Graph, security services and connectors to human resources (HR) systems like SAP, to obtain real-time native signals such as file activity, communications sentiment, abnormal user behaviors, and resignation date. A set of configurable policy templates tailored specifically for risks – such as digital IP theft, confidentiality breach, and HR violations – use machine learning and intelligence to correlate these signals to identify hidden patterns and risks that traditional or manual methods might miss. These built-in policy templates allow you to identify and mitigate risky activities while balancing employee privacy versus organization risk with privacy-by-design architecture. Finally, end-to-end integrated workflows ensure that the right people across security, HR, legal, and compliance are involved to quickly investigate and take action once a risk has been identified.
 
 Watch the video below to learn how insider risk management can help your organization prevent, detect, and contain risks while prioritizing your organization values, culture, and employee experience:
 >
@@ -47,7 +47,7 @@ The path leading to a malicious insider risk varies. It may be an employee who h
 
 ## Common insider risk scenarios
 
-The insider risk management solution in Microsoft 365 can help you detect, investigate, and take action to mitigate internal risks in your organization in common scenarios, such as:
+The insider risk management solution in Microsoft Purview can help you detect, investigate, and take action to mitigate internal risks in your organization in common scenarios, such as:
 
 - **Data theft by departing employee.** When employees leave an organization, either voluntarily or as the result of termination, there is often legitimate concerns that company, customer, and employee data are at risk. Employees may innocently assume that project data isn't proprietary, or they may be tempted to take company data for personal gain and in violation of company policy and legal standards.
 - **Leak of sensitive or confidential information.** In most cases, employees try their best to properly handle sensitive or confidential information. But occasionally employees make mistakes and information is accidentally shared outside your organization or in violation of your information protection policies. Sometimes employees may intentionally leak or share sensitive and confidential information with malicious intent and for potential personal gain.
@@ -57,7 +57,7 @@ The insider risk management solution in Microsoft 365 can help you detect, inves
 
 Using policy templates with pre-defined conditions and comprehensive activity signaling across the Microsoft 365 service, you can use actionable insights to quickly identify and resolve risky behavior.
 
-Identifying and resolving internal risk activities and compliance issues with insider risk management in Microsoft 365 uses the following workflow:
+Identifying and resolving internal risk activities and compliance issues with Microsoft Purview Insider Risk Management uses the following workflow:
 
 :::image type="content" source="../media/insider-risk-management-workflow.png" alt-text="Insider risk management workflow" lightbox="../media/insider-risk-management-workflow.png":::
 

@@ -4,13 +4,12 @@ title: Create Safe Links policies using PowerShell
 metadata:
   title: Create Safe Links policies using PowerShell
   description: "Create Safe Links policies using PowerShell"
-  ms.date: 09/15/2021
+  ms.date: 05/06/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 9
 content: |
@@ -18,14 +17,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Contoso, Holly Dickson created a Safe Links policy using Exchange Online PowerShell. After navigating to the ATP Safe Links page in the Security and Compliance Center, Holly couldn't find the Safe Links policy. What prevented the Safe Links policy that Holly created in PowerShell from appearing in the SCC?"
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson created a Safe Links policy using Exchange Online PowerShell. After Holly navigated to the Safe Links page in the Microsoft 365 Defender portal, she couldn't find the Safe Links policy. What prevented the Safe Links policy that Holly created in PowerShell from appearing in the Microsoft 365 Defender portal?"
     choices:
-    - content: "Holly didn't create a safe links rule in the SCC"
+    - content: "Holly didn't create a safe links rule in the Microsoft 365 Defender portal"
       isCorrect: false
-      explanation: "That's incorrect. You don't create separate safe links rules in the SCC. Try again."
+      explanation: "Incorrect. You don't create separate safe links rules in the Microsoft 365 Defender portal."
     - content: "Holly didn't assign the policy to a safe links rule in PowerShell"
       isCorrect: true
-      explanation: "That's correct. A new safe links policy that you create in PowerShell isn't visible in the Security &amp; Compliance Center until you assign the policy to a safe links rule in PowerShell."
+      explanation: "Correct. A new safe links policy that you create in PowerShell isn't visible in the Microsoft 365 Defender portal until you assign the policy to a safe links rule in PowerShell."
     - content: "Holly should have created a Safe Links rule before creating the Safe Links policy in PowerShell"
       isCorrect: false
-      explanation: "That's incorrect. In PowerShell, you must create a Safe Links policy first and then create a Safe Links rule and assign it to the policy. Try again."
+      explanation: "Incorrect. In PowerShell, you must create a Safe Links policy first and then create a Safe Links rule and assign it to the policy."

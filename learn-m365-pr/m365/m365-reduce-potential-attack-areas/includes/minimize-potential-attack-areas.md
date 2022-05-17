@@ -8,7 +8,7 @@ To get business done, almost all users, including yourself, interact with extern
 
 - access an internet site and download an executable program.
 - insert a USB drive to transfer data, documents, or applications.
-- install an app from a trusted on non-trusted source.
+- install an app from a trusted or non-trusted source.
 - select a link in an email.
 
 Any of these interactions might be a legitimate business activity, but they might also be part of malicious attacks. It's challenging to differentiate one from the other.

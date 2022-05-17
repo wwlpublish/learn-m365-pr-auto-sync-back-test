@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-deployment.7-exercise-project-component-versions
 metadata:
   title: Exercise - Version numbers in SharePoint Framework projects, packages, and components
   description: In this exercise, you'll learn how to change the various version numbers in SharePoint Framework components, packages, and how this impacts your deployments.
-  ms.date: 03/08/2022
+  ms.date: 05/02/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -26,14 +26,14 @@ quiz:
     - content: "JavaScript files are automatically updated when you upload a new version of the SharePoint package regardless if the version numbers changed from a previous deployment."
       isCorrect: true
       explanation: "Correct!"
-  - content: "Why would a new client-side web part added to a SharePoint Framework package not appear in the toolbox after uploading and updating a new version of an existing SharePoint Framework package?"
+  - content: "What impact does changing the version property in the package.json file have on the project?"
     choices:
-    - content: "The SharePoint Framework package version wasn't incremented and installed instances weren't upgraded. You must do this to force a feature reactivation to provision the web part definition to the Web Part Gallery."
+    - content: "There's no impact to changing this property. Neither the SharePoint Framework nor SharePoint reference this property."
       isCorrect: true
       explanation: "Correct!"
-    - content: "You can't add new components to a previously deployed SharePoint Framework package. You must instead upload the package with a new name and ID."
+    - content: "Changing the value of the version property in the package.json file has the same effect as changing the version property in the component's manifest file's version property."
       isCorrect: false
-      explanation: "You can add components to existing SharePoint Framework packages."
-    - content: "The SharePoint Framework package's installed instances weren't upgraded. You must do this to force a feature reactivation to provision the web part definition to the Web Part Gallery."
+      explanation: "The version property in the package.json file has zero impact on the project."
+    - content: "Changing the value of the version property in the package.json file has the same effect as changing the version property in the solution's manifest file's version property."
       isCorrect: false
-      explanation: "You must increment the SharePoint Framework package's version must be incremented in order for SharePoint to offer an upgrade option on installed instances."
+      explanation: "The version property in the package.json file has zero impact on the project."

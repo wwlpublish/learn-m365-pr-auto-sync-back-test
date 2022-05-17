@@ -2,7 +2,7 @@ Insider threats and risks from illegal, inappropriate, unauthorized, or unethica
 
 Now that you have completed this module, you should be able to:
 
-- Explain how insider risk management in Microsoft 365 can help prevent, detect, and contain internal risks in an organization
+- Explain how Microsoft Purview Insider Risk Management can help prevent, detect, and contain internal risks in an organization
 - Describe the types of built-in, pre-defined policy templates.
 - List the prerequisites that need to be met before creating insider risk policies.
 - Explain the types of actions you can take on an insider risk management case.

@@ -22,6 +22,9 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
+- collaboration
 modules:
 - learn.wwl.explore-teams
 - learn.wwl.plan-deploy-microsoft-teams

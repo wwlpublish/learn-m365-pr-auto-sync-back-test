@@ -1,9 +1,8 @@
-
 In addition to providing proactive end-user communications, you might also consider using deployment rings to control the rate of release within your organization. With a phased deployment and deployment rings, you start deploying to small groups and then broaden the deployment in a measured way over time. As you prepare a communication and training plan, form deployment rings and include them in your plan. This way you can reduce potential risk and validate your approach as you open the deployment valve or pause activities as needed, if, for example, you see more helpdesk calls than expected.
 
 It's best to create deployment rings in cooperation with business units and managers. Buy-in from stakeholders can make it easier to get users on-board and comfortable with any changes coming their way.
 
-![SCCM phased deployment screen](../media/step-8-2-50.png)
+:::image type="content" source="../media/step-8-2-50.png" alt-text="Sccm phased deployment screen." border="false":::
 
 ## Phase 1: The IT team and early adopters
 
@@ -15,7 +14,7 @@ It's important to have engaged members in this initial phase to ensure they're d
 
 For this phase, it is especially important to communicate changes and help users take advantage of new features. Users often de-prioritize or ignore email or other comms coming from IT –you might want to meet with management to get their help in communicating the changes and drive adoption. You'll also want to identify time frames to avoid (based on end-user feedback) to minimize user disruption. For example, the finance team might be particularly busy at the end of the fiscal quarter, which can mean a lower tolerance of changes.
 
-![planning communication types](../media/step-8-3-50.png)
+:::image type="content" source="../media/step-8-3-50.png" alt-text="Planning communication types." border="false":::
 
 ## Phase 3: Broad production deployment
 

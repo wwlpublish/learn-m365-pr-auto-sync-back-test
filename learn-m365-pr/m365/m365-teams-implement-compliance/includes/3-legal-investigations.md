@@ -1,4 +1,4 @@
-Large corporations are sometimes required to submit all electronically stored information (ESI) as part of legal proceedings. The process by which you identify and locate information that pertains to a case is called eDiscovery. eDiscovery investigations in Microsoft 365 can include content generated in Microsoft Teams.
+Large corporations are sometimes required to submit all electronically stored information (ESI) as part of legal proceedings. The process by which you identify and locate information that pertains to a case is called eDiscovery. eDiscovery investigations in Microsoft Purview can include content generated in Microsoft Teams.
 
 Suppose that Contoso has been taken to court by a disgruntled employee who claims harassment. You suspect that the content of Teams chats and meeting recordings can exonerate the company. You want to find out how to locate this data and place a hold on it to prevent any tampering.
 Here, you will learn how to execute eDiscovery searches and holds on Teams content.
@@ -51,7 +51,7 @@ To locate information from audit logs during eDiscovery, follow these steps:
 
 ### Content Search
 
-Content Search is an eDiscovery tool in Microsoft 365 that you can use to locate information, relevant to a legal action, in:
+Content Search is an eDiscovery tool in Microsoft Purview that you can use to locate information, relevant to a legal action, in:
 
 - Microsoft Teams
 - Exchange Online mailboxes
@@ -77,7 +77,7 @@ If there is a chance of litigation, you must preserve electronically stored info
 
 To put a user or a team on legal hold:
 
-1. To create a case, in the Microsoft 365 Defender portal go to **eDiscovery** or **Advanced eDiscovery** and select **+ Create a case**. When the case is created, open it.
+1. To create a case, in the Microsoft 365 Defender portal go to **eDiscovery** or **eDiscovery (Premium)** and select **+ Create a case**. When the case is created, open it.
 
    :::image type="content" source="../media/3-legal-hold-1.png" alt-text="Create a case":::
 

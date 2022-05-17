@@ -27,6 +27,9 @@ products:
 - m365
 - office-365
 - office-exchange-server
+- office-exchange-online
+subjects:
+- communication
 units:
 - learn-m365.m365-messaging-manage-recipient-resources.introduction
 - learn-m365.m365-messaging-manage-recipient-resources.manage-mail-users

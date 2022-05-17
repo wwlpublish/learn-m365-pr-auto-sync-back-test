@@ -60,6 +60,7 @@ The following table provides an overview of existing management scopes.
   :::column-end:::
   :::column:::
     **Organization** to create or modify recipient objects across the Exchange organization.
+
 **OrganizationConfig** to create or modify any server or database configuration object across the Exchange organization.
   :::column-end:::
 :::row-end:::
@@ -83,6 +84,7 @@ The following table provides an overview of existing management scopes.
   :::column-end:::
   :::column:::
     **Self** to modify only the properties of the current user's mailbox.
+
 **MyDistributionGroups** to create or modify distribution list objects owned by the current user.
   :::column-end:::
 :::row-end:::
@@ -95,7 +97,9 @@ The following table provides an overview of existing management scopes.
   :::column-end:::
   :::column:::
     **OU scope** to modify only recipient objects within an OU.
+
 **Recipient filter** scope to manage only a certain recipient type or other recipient properties such as department, manager, location, and more.
+
 **Configuration scope** to target specific servers based on server lists or filterable properties that can be defined on servers, such as an Active Directory site or a server role.
   :::column-end:::
 :::row-end:::

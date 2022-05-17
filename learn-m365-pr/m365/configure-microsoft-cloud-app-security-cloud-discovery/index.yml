@@ -3,7 +3,7 @@ uid: learn-m365.configure-microsoft-cloud-app-security-cloud-discovery
 metadata:
   title: Configure Microsoft Defender for Cloud Apps cloud discovery
   description: Learn to use the Cloud Discovery Dashboard to see how your org uses cloud apps, to review app risk scores and determine risk mitigations, and to discover and connect to cloud apps.
-  ms.date: 02/11/2022
+  ms.date: 03/31/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -28,6 +28,8 @@ roles:
 products:
 - m365-ems-cloud-app-security
 - defender-for-cloud-apps
+subjects:
+- security
 units:
 - learn-m365.configure-microsoft-cloud-app-security-cloud-discovery.1-introduction
 - learn-m365.configure-microsoft-cloud-app-security-cloud-discovery.2-use-cloud-discovery-dashboard

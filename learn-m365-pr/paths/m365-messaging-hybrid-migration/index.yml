@@ -22,6 +22,10 @@ products:
 - m365
 - office-365
 - office-exchange-server
+subjects:
+- storage
+- communication
+- migration
 modules:
 - learn-m365.m365-messaging-hybrid-environment
 - learn-m365.m365-messaging-migration

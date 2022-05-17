@@ -82,7 +82,7 @@ To enable a client-side web part to be used as a tab in Microsoft Teams, you'll 
 
 When you use a client-side web part as the host for a Microsoft Teams tab, the URL for the tab is a page in SharePoint Online that contains a single canvas on the page. The URL parameters tell the SharePoint page which web part to load into the canvas. This URL is used to in the Iframe that implements the tab.
 
-The tab, or client-side web part, executes in the context of the underlying SharePoint site behind the team that the tab is added to. The implication of hosting the tab in SharePoint means developers can leverage the SharePoint Framework API in their custom tabs. For example, because the client-side web part is running in SharePoint Online, you can access the SharePoint REST API, Microsoft Graph, and Azure AD secured endpoints all from the SharePoint Framework API without needing to force the user to authenticate again.
+The tab, or client-side web part, executes in the context of the underlying SharePoint site behind the team that the tab is added to. The implication of hosting the tab in SharePoint means developers can use the SharePoint Framework API in their custom tabs. For example, because the client-side web part is running in SharePoint Online, you can access the SharePoint REST API, Microsoft Graph, and Azure AD secured endpoints all from the SharePoint Framework API without needing to force the user to authenticate again.
 
 ### How to surface SharePoint Framework web parts as Microsoft Teams tabs
 
@@ -98,11 +98,11 @@ The Microsoft Teams app manifest tells Microsoft Teams about your custom app. It
 
 When you use a SharePoint Framework client-side web part as a tab, you can create the app manifest yourself, or let SharePoint create it for you.
 
-After uploading and deploying the SharePoint package to the SharePoint App Catalog, you'll notice a **Sync to Teams** button in the ribbon when you select the package.
+After uploading and deploying the SharePoint package to the SharePoint App Catalog, you'll notice a **Add to Teams** button in the command bar when you select the package.
 
-![Screenshot of the App Catalog with Sync to Teams button](../media/03-sync-to-teams.png)
+![Screenshot of the App Catalog with Sync to Teams button](../media/03-add-to-teams.png)
 
-When you select the **Sync to Teams** button, SharePoint will look for a custom Teams app package named **TeamsSPFxApp.zip** in the **./teams** folder of your project. If SharePoint doesn't find this file, then it will dynamically create the Teams app manifest and package. SharePoint will then deploy the Teams app package (custom or generated) to the tenant's Teams app store. For more information, see the documentation: [Deployment options for SharePoint Framework solutions for Microsoft Teams](/sharepoint/dev/spfx/deployment-spfx-teams-solutions).
+When you select the **Add to Teams** button, SharePoint will look for a custom Teams app package named **TeamsSPFxApp.zip** in the **./teams** folder of your project. If SharePoint doesn't find this file, then it will dynamically create the Teams app manifest and package. SharePoint will then deploy the Teams app package (custom or generated) to the tenant's Teams app store. For more information, see the documentation: [Deployment options for SharePoint Framework solutions for Microsoft Teams](/sharepoint/dev/spfx/deployment-spfx-teams-solutions).
 
 The following code contains the default template for the **manifest.json** file that you can use as a template if you create your own manifest:
 

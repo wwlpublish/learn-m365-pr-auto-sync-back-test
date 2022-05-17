@@ -28,6 +28,8 @@ roles:
 products:
   - m365
   - azure-active-directory
+subjects:
+- identity-access
 units:
   - learn-m365.identity-users-groups-approles.1-introduction
   - learn-m365.identity-users-groups-approles.2-users-groups

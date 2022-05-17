@@ -24,6 +24,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- search-ads-news
 units:
 - learn.wwl.explore-microsoft-search-user-experience.introduction
 - learn.wwl.explore-microsoft-search-user-experience.explore-microsoft-search

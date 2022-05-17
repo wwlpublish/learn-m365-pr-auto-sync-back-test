@@ -151,7 +151,7 @@ Any column in a table can be filtered using Office.js.
 
 ![Screenshot of Excel with a table of data.](../media/02-excel-workbook-01.png)
 
-Filter a column by first getting a reference ot the column and then use the `applyValuesFilter()` method to filter on specific values.
+Filter a column by first getting a reference to the column and then use the `applyValuesFilter()` method to filter on specific values.
 
 The following code filters a table's **Category** column by the values **Education** and **Groceries**:
 
