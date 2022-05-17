@@ -30,8 +30,6 @@ roles:
 products:
 - m365
 - ms-graph
-subjects:
-- cross-development
 units:
 - learn-m365.msgraph-access-file-data.1-introduction
 - learn-m365.msgraph-access-file-data.2-access-files-onedrive

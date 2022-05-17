@@ -43,21 +43,10 @@ In this section, you'll update the .NET console app to upload a small file to th
 
 Create a text file named **smallfile.txt** and fill it with a few paragraphs of text. Save this file to the root of the .NET Core console app's folder.
 
-Locate the **Program.cs** file from the application you created in a previous unit in this module.
-
-First, update the permission requests to include the new permission added to the app. Locate the `CreateAuthorizationProvider` method. In this method, add the new permission as another scope to the list of existing scopes:
+Locate the **Program.cs** file from the application you created in a previous unit in this module. Within the `Main` method, locate the following line:
 
 ```csharp
-List<string> scopes = new List<string>();
-scopes.Add("User.Read");
-scopes.Add("Files.Read");
-scopes.Add("Files.ReadWrite");
-```
-
-Within the `Main` method, locate the following line:
-
-```csharp
-var client = GetAuthenticatedGraphClient(config, userName, userPassword);
+Console.WriteLine("Hello " + profileResponse.DisplayName);
 ```
 
 Delete all code within the `Main` method after the above line.
@@ -89,7 +78,9 @@ dotnet build
 dotnet run
 ```
 
-After entering the username and password of a user, the path to the new file will be written to the console:
+You now need to authenticate with Azure Active Directory. A new tab in your default browser should open to a page asking you to sign in. After you've logged in successfully, you'll be redirected to a page displaying the message, **"Authentication complete. You can return to the application. Feel free to close this browser tab"**. You may now close the browser tab and switch back to the console application.
+
+The path to the uploaded file will be written to the console:
 
 ![Screenshot of the console application showing the uploaded file from the user's OneDrive](../media/05-app-run-01.png)
 
@@ -99,7 +90,7 @@ Open a browser and navigate to the URL written to the console, except omit the f
 
 ## Update .NET Core console application to upload a large file
 
-In this section, update the console app upload a large file. 
+In this section, update the console app upload a large file.
 
 Obtain a large file, one at least 5 MB, and copy it to the root of the .NET Core console app's folder. Name the file **largefile.zip**.
 
@@ -173,7 +164,7 @@ dotnet build
 dotnet run
 ```
 
-After entering the username and password of a user, the console app will write the progress of uploading the file until it's complete:
+After you've signed in, the console app will write the progress of uploading the file until it's complete:
 
 ![Screenshot of the console application showing uploading files to the user's OneDrive](../media/05-app-run-03.png)
 

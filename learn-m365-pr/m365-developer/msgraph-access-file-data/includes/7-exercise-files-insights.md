@@ -41,22 +41,10 @@ In the **Configured Permissions** panel, select the button **Grant admin consent
 
 In this section, you'll update the .NET console app display all files trending around the currently signed in user.
 
-Locate the **Program.cs** file from the application you created in a previous unit in this module.
-
-First, update the permission requests to include the new permission added to the app. Locate the `CreateAuthorizationProvider` method. In this method, add the new permission as another scope to the list of existing scopes:
+Locate the **Program.cs** file from the application you created in a previous unit in this module. Within the `Main` method, locate the following line:
 
 ```csharp
-List<string> scopes = new List<string>();
-scopes.Add("User.Read");
-scopes.Add("Files.Read");
-scopes.Add("Files.ReadWrite");
-scopes.Add("Sites.Read.All");
-```
-
-Within the `Main` method, locate the following line:
-
-```csharp
-var client = GetAuthenticatedGraphClient(config, userName, userPassword);
+Console.WriteLine("Hello " + profileResponse.DisplayName);
 ```
 
 Delete all code within the `Main` method after the above line.
@@ -86,7 +74,9 @@ dotnet build
 dotnet run
 ```
 
-After entering the username and password of a user, the console app will display a list of files trending around the current user. Notice they're stored in descending order by their relative weight property:
+You now need to authenticate with Azure Active Directory. A new tab in your default browser should open to a page asking you to sign in. After you've logged in successfully, you'll be redirected to a page displaying the message, **"Authentication complete. You can return to the application. Feel free to close this browser tab"**. You may now close the browser tab and switch back to the console application.
+
+The console app will display a list of files trending around the current user. Notice they're sorted in descending order by their relative weight property:
 
 ![Screenshot of the console application displaying the files trending around the currently signed in user](../media/07-app-run-01.png)
 
@@ -123,7 +113,7 @@ dotnet build
 dotnet run
 ```
 
-After entering the username and password of a user, the console app will display a list of files recently accessed and modified by the current user:
+After you've signed in, the console app will display a list of files recently accessed and modified by the current user:
 
 ![Screenshot of the console application displaying recently used files](../media/07-app-run-02.png)
 
