@@ -19,6 +19,8 @@ roles:
 products:
 - m365
 - office-add-ins
+subjects:
+- productivity
 modules:
 - learn-m365.office-add-ins-word
 - learn-m365.office-add-ins-excel

@@ -17,33 +17,27 @@ Locate and open the **./src/webparts/spFxHttpClientDemo/components/SpFxHttpClien
 Within the `render()` method in the `SpFxHttpClientDemo` class, locate the button **Get Countries**. Add the following markup to add three more buttons to the user interface:
 
 ```html
-<a href="#" className={ styles.button } onClick={ this.onAddListItemClicked }>
-  <span className={ styles.label }>Add List Item</span>
-</a>
-<a href="#" className={ styles.button } onClick={ this.onUpdateListItemClicked }>
-  <span className={ styles.label }>Update List Item</span>
-</a>
-<a href="#" className={ styles.button } onClick={ this.onDeleteListItemClicked }>
-  <span className={ styles.label }>Delete List Item</span>
-</a>
+<button type="button" onClick={this.onAddListItemClicked}>Add List Item</button>
+<button type="button" onClick={this.onUpdateListItemClicked}>Update List Item</button>
+<button type="button" onClick={this.onDeleteListItemClicked}>Delete List Item</button>
 ```
 
 Add the following event handlers to the `SpFxHttpClientDemo` class:
 
 ```typescript
-private onAddListItemClicked = (event: React.MouseEvent<HTMLAnchorElement>): void => {
+private onAddListItemClicked = (event: React.MouseEvent<HTMLButtonElement>): void => {
   event.preventDefault();
 
   this.props.onAddListItem();
 }
 
-private onUpdateListItemClicked = (event: React.MouseEvent<HTMLAnchorElement>): void => {
+private onUpdateListItemClicked = (event: React.MouseEvent<HTMLButtonElement>): void => {
   event.preventDefault();
 
   this.props.onUpdateListItem();
 }
 
-private onDeleteListItemClicked = (event: React.MouseEvent<HTMLAnchorElement>): void => {
+private onDeleteListItemClicked = (event: React.MouseEvent<HTMLButtonElement>): void => {
   event.preventDefault();
 
   this.props.onDeleteListItem();
@@ -57,7 +51,11 @@ Within the `render()` method in the `SpFxHttpClientDemoWebPart` class, locate th
 ```typescript
 {
   spListItems: this._countries,
-  onGetListItems: this._onGetListItems
+  onGetListItems: this._onGetListItems,
+  isDarkTheme: this._isDarkTheme,
+  environmentMessage: this._environmentMessage,
+  hasTeamsContext: !!this.context.sdks.microsoftTeams,
+  userDisplayName: this.context.pageContext.user.displayName
 }
 ```
 
@@ -69,7 +67,11 @@ Update the public properties to add handlers for the events when buttons are pre
   onGetListItems: this._onGetListItems,
   onAddListItem: this._onAddListItem,
   onUpdateListItem: this._onUpdateListItem,
-  onDeleteListItem: this._onDeleteListItem
+  onDeleteListItem: this._onDeleteListItem,
+  isDarkTheme: this._isDarkTheme,
+  environmentMessage: this._environmentMessage,
+  hasTeamsContext: !!this.context.sdks.microsoftTeams,
+  userDisplayName: this.context.pageContext.user.displayName
 }
 ```
 

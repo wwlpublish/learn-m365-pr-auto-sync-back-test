@@ -3,8 +3,8 @@ uid: learn-m365.m365-compliance-information-governance.govern-your-data
 title: Govern your data 
 metadata:
   title: Govern your data
-  description: Learn how Microsoft 365 information protection and governance solutions help you protect and govern your data, throughout its lifecycle – wherever it lives, or wherever it travels. 
-  ms.date: 07/20/2021
+  description: Learn how Microsoft Purview information protection and data lifecycle management solutions help you protect and govern your data, throughout its lifecycle – wherever it lives, or wherever it travels. 
+  ms.date: 05/02/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

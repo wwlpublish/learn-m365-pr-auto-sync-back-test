@@ -28,6 +28,8 @@ products:
 - azure
 - azure-virtual-machines
 - azure-migrate
+subjects:
+- migration
 units:
 - learn-m365.m365-azure-migrate-replicate-virtual-servers.introduction
 - learn-m365.m365-azure-migrate-replicate-virtual-servers.replicate-virtual-machines

@@ -15,6 +15,7 @@ Connect to Azure Virtual Desktop with client:
 - [Connect with the Android client](/azure/virtual-desktop/connect-android)
 - [Connect with the macOS client](/azure/virtual-desktop/connect-macos)
 - [Connect with the iOS client](/azure/virtual-desktop/connect-ios)
+- [Connect with Microsoft Store client](/azure/virtual-desktop/user-documentation/connect-microsoft-store)
 
 Other resources:
 

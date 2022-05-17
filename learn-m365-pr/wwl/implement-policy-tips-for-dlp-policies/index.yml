@@ -29,6 +29,9 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- security
+- compliance
 units:
 - learn.wwl.implement-policy-tips-for-dlp-policies.introduction
 - learn.wwl.implement-policy-tips-for-dlp-policies.examine-policy-tips

@@ -29,6 +29,9 @@ products:
 - m365
 - office-365
 - office-teams
+subjects:
+- communication
+- device-management
 units:
 - learn-m365.m365-teams-upgrade-getting-started.introduction
 - learn-m365.m365-teams-upgrade-getting-started.why-move

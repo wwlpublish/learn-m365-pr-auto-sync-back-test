@@ -2,7 +2,7 @@ You work as an Exchange Server Administrator. Your company wants to ensure a smo
 
 To prepare, you need a better understanding of how those transport rules will be implemented, and how you can manage the domains during and after the transition.
 
-When you finish this module, you should be able to:  
+When you finish this module, you should be able to:
 
 - Explain transport rules
 - Explain domains

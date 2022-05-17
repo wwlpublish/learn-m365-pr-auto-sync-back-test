@@ -10,7 +10,7 @@ The image below shows the body of an email produced and sent to `johannal@<tenan
 
 :::image type="content" source="../media/high-severity.png" alt-text="Screenshot shows a high severity alert." lightbox="../media/high-severity.png":::
 
-When you click **View Alert Details** in the notification, you see the DLP Alerts (preview) view in the compliance center. Select the event that prompted the alert. (You can also get to the alerts by going to **Data loss prevention** > **Alerts (preview).**)
+When you click **View Alert Details** in the notification, you see the DLP Alerts (preview) view in the compliance portal. Select the event that prompted the alert. (You can also get to the alerts by going to **Data loss prevention** > **Alerts (preview).**)
 
 In this case, we see that the event was a file that included a high volume of U.K. financial data was copied to the cloud. While not shown in the image below, the administrator can initiate a workflow to manage each alert to resolution and/or send an email to another user informing them of the DLP policy violation.
 

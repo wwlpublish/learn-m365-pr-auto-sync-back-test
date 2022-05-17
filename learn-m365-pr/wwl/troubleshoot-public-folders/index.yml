@@ -27,6 +27,8 @@ products:
 - office
 - office-365
 - office-exchange-server
+subjects:
+- identity-access
 units:
 - learn.wwl.troubleshoot-public-folders.introduction
 - learn.wwl.troubleshoot-public-folders.monitor-public-folders

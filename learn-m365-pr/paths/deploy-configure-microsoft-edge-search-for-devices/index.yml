@@ -21,6 +21,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- device-management
+- cloud-computing
 modules:
 - learn.wwl.explore-deployment-options-microsoft-edge
 - learn.wwl.protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge

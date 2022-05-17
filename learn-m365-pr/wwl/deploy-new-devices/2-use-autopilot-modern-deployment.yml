@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-new-devices.use-autopilot-modern-deployment
+title: Use Autopilot for modern deployment
+metadata:
+  title: Use Autopilot for modern deployment
+  description: "Use Autopilot for modern deployment"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-use-autopilot-modern-deployment.md)]

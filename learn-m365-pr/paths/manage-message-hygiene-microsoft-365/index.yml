@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.manage-message-hygiene-microsoft-365
 metadata:
-  title: Manage message hygiene in Microsoft 365
-  description: Manage message hygiene in Microsoft 365
-  ms.date: 03/09/2022
+  title: Manage message security in Microsoft 365
+  description: Manage message security in Microsoft 365
+  ms.date: 04/27/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Manage message hygiene in Microsoft 365
+title: Manage message security in Microsoft 365
 prerequisites: |
   This module is designed for persons who are aspiring to the Microsoft 365 Messaging Administrator role. The prerequisites for this module include:
   - Ability to navigate the Microsoft 365 admin center, the Exchange admin center, and the Microsoft 365 Defender portal
@@ -27,6 +27,9 @@ products:
 - office
 - office-365
 - office-exchange-server
+- office-exchange-online
+subjects:
+- security
 modules:
 - learn.wwl.plan-for-message-hygiene
 - learn.wwl.manage-anti-malware-anti-spam-policies

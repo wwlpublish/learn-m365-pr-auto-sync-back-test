@@ -30,6 +30,9 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- communication
+- compliance
 units:
 - learn.wwl.manage-retention-email.introduction
 - learn.wwl.manage-retention-email.apply-personal-retention-tags-to-messages-folders

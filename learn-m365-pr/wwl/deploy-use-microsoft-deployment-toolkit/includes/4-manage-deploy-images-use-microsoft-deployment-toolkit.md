@@ -39,7 +39,7 @@ Import-MDTApplication -Path "DS001:\Applications\Microsoft" -Enable "True" -Name
 
 ### Deploy a reference image with a task sequence
 
-To create a capture and then deploy Windows 10 or later with MDT, you'll create a task sequence. A task sequence is a sequential set of steps that will reference various components imported into MDT up to this point (OS images, applications etc.) When you create these using the MDT wizard, you are presented with various templates to help with each scenario. For this lesson, we will focus on a deployment task sequence.
+To create a capture and then deploy Windows 10 or later with MDT, you'll create a task sequence. A task sequence is a sequential set of steps that will reference various components imported into MDT up to this point (OS images, applications etc.) When you create these using the MDT wizard, you are presented with various templates to help with each scenario. For this lesson, we'll focus on a deployment task sequence.
 
 Some of the key steps in the development task sequence and their role in delivering an automated delivery of Windows include:
 

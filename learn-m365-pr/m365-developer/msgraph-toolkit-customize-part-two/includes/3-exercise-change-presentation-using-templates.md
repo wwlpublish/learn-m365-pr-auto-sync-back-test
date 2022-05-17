@@ -10,7 +10,7 @@ For this module, you'll need an application with the following settings:
 
 - **Name**: My app
 - **Platform**: Single Page Application (SPA)
-- **Supported account types**: Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)
+- **Supported account types**: Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (for example, Skype, Xbox)
 - **Redirect URIs**: http://localhost:3000
 
 To create this application, follow these steps:
@@ -36,7 +36,6 @@ To create this application, follow these steps:
           <mgt-agenda></mgt-agenda>
         </body>
     </html>
-
     ```
 
 1. Add a folder named **.vscode** into the root of your project folder.
@@ -88,7 +87,6 @@ The final version of **index.html** will look like this example:
     </mgt-agenda>
   </body>
 </html>
-
 ```
 
 ## Test your app in the browser

@@ -4,7 +4,7 @@ title: Implement admin roles for management role assignments
 metadata:
   title: Implement admin roles for management role assignments
   description: "Implement admin roles for management role assignments"
-  ms.date: 03/09/2022
+  ms.date: 04/28/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Create new roles directly from scratch for each manager"
       isCorrect: false
-      explanation: "That's incorrect. It's recommended that you never create new roles directly from scratch. Try again."
+      explanation: "That's incorrect. It's recommended that you never create new roles directly from scratch."
     - content: "Assign roles to a universal security group (USG)"
       isCorrect: false
-      explanation: "That's incorrect. A USG is a role assignee, similar to a role group, role assignment policy, and user. Assigning a role to a USG would be similar to what Patti did by assigning roles to the new users. Try again."
+      explanation: "That's incorrect. A USG is a role assignee, similar to a role group, role assignment policy, and user. Assigning a role to a USG would be similar to what Patti did by assigning roles to the new users."
     - content: "Use role groups and role assignment policies to give permissions to users"
       isCorrect: true
       explanation: "That's correct. While you can also assign roles directly to users, it increases the complexity of your permissions model. For this reason, it's recommended that you use role groups and role assignment policies to give permissions to your users. You can assign the roles to a role group or role assignment policy, and then just add or remove members of the role group or change role assignment policies as needed."

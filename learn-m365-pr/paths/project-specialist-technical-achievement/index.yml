@@ -23,6 +23,10 @@ products:
 - power-apps
 - power-automate
 - power-platform
+subjects:
+- compliance
+- communication
+- cloud-security
 modules:
 - learn-m365.intro-teamwork-in-m365
 - learn-bizapps.get-data-power-bi

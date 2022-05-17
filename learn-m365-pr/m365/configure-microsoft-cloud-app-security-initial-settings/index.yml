@@ -26,6 +26,8 @@ roles:
 products:
 - m365-ems-cloud-app-security
 - defender-for-cloud-apps
+subjects:
+- security
 units:
 - learn-m365.configure-microsoft-cloud-app-security-initial-settings.1-introduction
 - learn-m365.configure-microsoft-cloud-app-security-initial-settings.2-configure-ip-address-ranges

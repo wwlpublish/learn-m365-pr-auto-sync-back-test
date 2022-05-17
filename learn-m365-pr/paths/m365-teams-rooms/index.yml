@@ -20,6 +20,8 @@ roles:
 products: 
 - m365
 - office-teams
+subjects:
+- collaboration
 modules:
 - learn-m365.m365-teams-rooms-get-started
 - learn-m365.m365-teams-rooms-optimize-network

@@ -34,6 +34,9 @@ products:
   - m365
   - ms-graph
   - dotnet-core
+subjects:
+- development-tools
+- communication
 units:
   - learn-m365.msgraph-dotnet-core-show-user-emails.1-introduction
   - learn-m365.msgraph-dotnet-core-show-user-emails.2-exercise-configure-azure-ad-app

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.assess-deployment-readiness.plan-pilot
+title: Plan a pilot
+metadata:
+  title: Plan a pilot
+  description: "Plan a pilot"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/7-plan-pilot.md)]

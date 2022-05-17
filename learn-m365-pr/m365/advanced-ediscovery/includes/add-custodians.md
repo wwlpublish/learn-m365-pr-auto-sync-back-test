@@ -1,17 +1,17 @@
-This section describes how Advanced eDiscovery supports the first two phases of the EDRM model – Identification and Preservation.
+This section describes how eDiscovery (Premium) supports the first two phases of the EDRM model – Identification and Preservation.
 
 > [!div class="centered"]
-> :::image type="content" source="../media/edrm-model.png" alt-text="A diagram showing the first two phases of the EDRM model – Identification and Preservation." border="false":::
+> :::image type="content" source="../media/edrm-model.png" alt-text="Diagram showing the first two phases of the Electronic Discovery Reference Model model: identification and preservation." border="false":::
 
 The first phase in the EDRM model is *Identification*. This phase involves identifying the people in the organization who are in possession of documents and communications relevant to the investigation. These individuals are the custodians of data, or just custodians, and are defined as "persons having control of a document or electronic file". For example, the custodian of an email message could be the owner of the mailbox that contains the relevant message.
 
-Once the custodians have been identified, they are added to an Advanced eDiscovery case. Creating a case is accomplished by navigating to the **Advanced eDiscovery** home page in the Microsoft 365 compliance center, navigating to the **Cases** tab, then clicking **Create a case**.
+Once the custodians have been identified, they are added to an eDiscovery (Premium) case. Creating a case is accomplished by navigating to the **eDiscovery (Premium)** home page in the Microsoft Purview compliance portal, navigating to the **Cases** tab, then clicking **Create a case**.
 
-:::image type="content" source="../media/advanced-ediscovery.png" alt-text="Advanced eDiscovery home page in the Microsoft 365 compliance center." lightbox="../media/advanced-ediscovery.png":::
+:::image type="content" source="../media/advanced-ediscovery.png" alt-text="Screenshot of the e Discovery (Premium) home page in the Microsoft Purview compliance portal." lightbox="../media/advanced-ediscovery.png" border="false":::
 
 Once the case has been created, you can begin adding the persons of interest by navigating to the **Data sources** tab, select **Add data source**, and then and select **Add new custodians**.
 
-:::image type="content" source="../media/add-custodians.png" alt-text="Screenshot of the Data sources tab in Advanced eDiscovery home page in the Microsoft 365 compliance center. Showing the Add new custodians menu selected." lightbox="../media/add-custodians.png":::
+:::image type="content" source="../media/add-custodians.png" alt-text="Screenshot of the Data sources tab in e Discovery (Premium) home page in the Purview compliance portal with the Add new custodians menu selected." lightbox="../media/add-custodians.png" border="false":::
 
 > [!TIP]
 > You need to be a member of the **eDiscovery Manager** group to add custodians and see these options.
@@ -21,7 +21,7 @@ When you add a custodian, the system automatically identifies and places a hold 
 > [!NOTE]
 > All Yammer networks are required to be in [Native Mode](/yammer/configure-your-yammer-network/overview-native-mode?azure-portal=true) for Yammer content to be discovered in eDiscovery.
 
-:::image type="content" source="../media/select-additional-locations.png" alt-text="Screenshot of the New custodian dialog, allowing you to select additional locations for a custodian." lightbox="../media/select-additional-locations.png":::
+:::image type="content" source="../media/select-additional-locations.png" alt-text="Screenshot of the New custodian dialog, allowing you to select additional locations for a custodian." lightbox="../media/select-additional-locations.png" border="false":::
 
 The final step when adding a custodian to a case is to place the custodian on hold. When you place a custodian on hold, all the content from the locations you've selected that are associated with the custodian is preserved until you remove the hold or release the custodian from the case.
 
@@ -29,7 +29,7 @@ The final step when adding a custodian to a case is to place the custodian on ho
 
 When custodians are placed on hold, the users and their selected data sources are automatically added to a custodian hold policy. Hold policies can be viewed and modified by navigating to the **Holds** tab in the case.
 
-:::image type="content" source="../media/create-holds.png" alt-text="Hold policies can be viewed and modified by navigating to the Holds tab in the case." lightbox="../media/create-holds.png":::
+:::image type="content" source="../media/create-holds.png" alt-text="Screenshot of the Holds tab in the case, where you can view and edit holds." lightbox="../media/create-holds.png" border="false":::
 
 Holds enable organizations to immutably preserve mailbox items and documents for discovery and other compliance needs by keeping those items within the infrastructures of Exchange and SharePoint. Data is preserved in a way that is tamper-proof and discoverable.
 
@@ -50,17 +50,17 @@ When you place a SharePoint Online site on hold, the content in that site remain
 Holds are applied at the site level. When you place a site on hold, a Preservation Hold library is created, if one does not already exist. Most users cannot view the Preservation Hold library because it is only visible to site collection owners. If a person attempts to change or delete content in a site that is on hold, the hold policy first checks whether the content has been changed since the hold was applied. If this is the first change since the hold was applied, the hold policy copies the content to the Preservation Hold library and then allows the person to change or delete the original content.
 
 > [!div class="centered"]
-> :::image type="content" source="../media/sharepoint-holds-1.png" alt-text="A flow diagram showing the process for placing SharePoint Online sites on hold." lightbox="../media/sharepoint-holds-1.png" border="false":::
+> :::image type="content" source="../media/sharepoint-holds-1.png" alt-text="Diagram showing the process for placing SharePoint Online sites on hold." border="false":::
   
 ### Place a hold on Microsoft Teams
 
 Channel conversations that are part of a Microsoft Teams channel are stored in the mailbox that is associated with the Team. On the other hand, files that team members share in a channel are stored on the SharePoint site associated with the Microsoft Team. Therefore, if you need to retain conversations and files in a channel you must place the Microsoft Team mailbox and SharePoint site on hold by adding Teams content to the custodial hold. Consider the following example:
 
-:::image type="content" source="../media/choose-teams.png" alt-text="Example of placing a hold on Microsoft Teams." lightbox="../media/choose-teams.png":::
+:::image type="content" source="../media/choose-teams.png" alt-text="Screenshot of placing a hold on Microsoft Teams." lightbox="../media/choose-teams.png":::
 
 When you click **Choose teams** (then click **Choose teams** again on the flyout page) a list of Microsoft Teams that the custodian is currently a member of will be displayed.
 
-:::image type="content" source="../media/flyout-page.png" alt-text="Choose teams flyout page." lightbox="../media/flyout-page.png":::
+:::image type="content" source="../media/flyout-page.png" alt-text="Screenshot of the Choose teams flyout page." lightbox="../media/flyout-page.png":::
 
 When you select the Team (or Teams) associated with the custodian, the system will automatically identify and select
 the associated SharePoint site and mailbox associated with that Microsoft Team.
@@ -88,27 +88,27 @@ Using the Communications tool, legal teams can systematically send, collect, and
 
 The first step to create a hold notification is to open the case in question and navigate to the **Communications** tab, then click **New communication**.
 
-:::image type="content" source="../media/new-communication.png" alt-text="Step 1 to create a hold notification is to open the case in question and navigate to the Communications tab, then click New communication." lightbox="../media/new-communication.png":::
+:::image type="content" source="../media/new-communication.png" alt-text="Screenshot of opening the case in question, navigating to the Communications tab, then clicking New communication." lightbox="../media/new-communication.png":::
 
 The next step is to enter a descriptive name and select the Issuing Officer on the **Name communication** page.
 
-:::image type="content" source="../media/name-communication.png" alt-text="Step 2 is to enter a descriptive name and select the Issuing Officer on the Name communication page." lightbox="../media/name-communication.png":::
+:::image type="content" source="../media/name-communication.png" alt-text="Screenshot of entering a descriptive name and selecting the Issuing Officer on the Name communication page." lightbox="../media/name-communication.png":::
 
-After clicking **Next**, you can use the rich text editor to create the Hold Notice and variables such as display name are available that can be used to create the notice.
+After clicking **Next**, you can use the rich text editor to create the Hold Notice and set variables such as display name.
 
-:::image type="content" source="../media/define-portal-content.png" alt-text="Step 3 is using the rich text editor to create the Hold Notice and variables such as display name are available that can be used to create the notice." lightbox="../media/define-portal-content.png":::
+:::image type="content" source="../media/define-portal-content.png" alt-text="Screenshot of using the rich text editor to create the Hold Notice and set variables such as display name" lightbox="../media/define-portal-content.png":::
 
 On the **Set Notifications – Required** page, you can define if this is a new issuance, reissue, or release of hold for the communication and define the content within the hold as well as utilize common variables such as display name, acknowledgment link, and more.
 
-:::image type="content" source="../media/set-notifications.png" alt-text="Set Notifications - Required page." lightbox="../media/set-notifications.png":::
+:::image type="content" source="../media/set-notifications.png" alt-text="Screenshot of the Set Notifications - Required page." lightbox="../media/set-notifications.png":::
 
-On the **Set Notifications – Optional** page, you have the ability to create reminders and escalation notifications and add links to ensure that custodians acknowledge receiving this information. Since Advanced eDiscovery is integrated with Azure Active Directory, you can even escalate the notification to the custodian's manager to remind the custodian to take action.
+On the **Set Notifications – Optional** page, you have the ability to create reminders and escalation notifications and add links to ensure that custodians acknowledge receiving this information. Since eDiscovery (Premium) is integrated with Azure Active Directory, you can even escalate the notification to the custodian's manager to remind the custodian to take action.
 
 After selecting the custodians you want to notify, you can review your settings, then choose to select either **Send** or **Cancel**.
 
 In turn, custodians receiving hold notifications will receive something like the sample below and are able to acknowledge receipt of the notice by clicking one of the three buttons near the bottom of the message:
 
-:::image type="content" source="../media/issuance-hold-notification.png" alt-text="Issuance of hold notification." lightbox="../media/issuance-hold-notification.png":::
+:::image type="content" source="../media/issuance-hold-notification.png" alt-text="Screenshot of an email version of an issuance of hold notification." lightbox="../media/issuance-hold-notification.png":::
 
 ## Manage custodian details
 
@@ -116,13 +116,13 @@ After you add custodians to a case, details about each custodian are automatical
 
 To view the details, click the custodian from the list on the **Custodians** tab. A flyout page like the one below is displayed which contains details about the custodian and the types of data on hold.
 
-:::image type="content" source="../media/update-index.png" alt-text="View details by clicking the custodian from the list." lightbox="../media/update-index.png":::
+:::image type="content" source="../media/update-index.png" alt-text="Screenshot of the details available by selecting the custodian from the list." lightbox="../media/update-index.png":::
 
 The flyout page also enables you to do the following:
 
 - *Edit a custodian*. As the case progresses, you may discover that there may be additional data sources relevant to a specific custodian. Alternatively, you may want to remove certain data sources that have been reviewed and deemed as not relevant. Clicking the **Edit** button lets you add or remove data sources.
 
-  :::image type="content" source="../media/data-sources.png" alt-text="Click the Edit button to add or remove data sources.":::
+  :::image type="content" source="../media/data-sources.png" alt-text="Screenshot of the data sources you can add or remove by clicking Edit.":::
 
 - *Re-index custodian data*. During the lifetime of a case, new data sources might be associated with a custodian while some data remains partially indexed. Clicking **Update index** lets you re-index the custodian's data, remediate any partially indexed items and update the index for the custodian's data.
 - *View custodian audit activity*. Clicking **View activity** lets you search the audit log for activities performed by a custodian, such as when they viewed a specific document or purged an item from their mailbox.
@@ -134,13 +134,13 @@ The **Custodian activities** page is displayed when you click **View activity**.
 
 After a custodian is selected you can click the **Activities** drop-down list to display the activities that you can search for. After you run the search, only the audit records for the selected activities are displayed.
 
-:::image type="content" source="../media/activities.png" alt-text="Activities drop down list." lightbox="../media/activities.png":::
+:::image type="content" source="../media/activities.png" alt-text="Screenshot of the Activities drop down list." lightbox="../media/activities.png":::
 
 The last step is to select a date and time range to display the events that occurred within that period. Note, the last seven days are selected by default and the maximum date range that you can specify is one year.
 
 The results of an audit log search are displayed under **Results** on the **Custodian activities** page as illustrated below:
 
-:::image type="content" source="../media/custodian-activities.png" alt-text="Custodian activities search page." lightbox="../media/custodian-activities.png":::
+:::image type="content" source="../media/custodian-activities.png" alt-text="Screenshot of the custodian activities search page." lightbox="../media/custodian-activities.png":::
 
 The results contain the following information about each event returned by the search.
 

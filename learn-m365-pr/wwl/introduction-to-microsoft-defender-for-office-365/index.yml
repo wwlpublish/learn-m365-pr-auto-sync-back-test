@@ -3,7 +3,7 @@ uid: learn.wwl.introduction-to-microsoft-defender-for-office-365
 metadata:
   title: Examine Microsoft Defender for Office 365
   description: "Examine Microsoft Defender for Office 365"
-  ms.date: 05/10/2021
+  ms.date: 05/06/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,9 +11,11 @@ metadata:
 title: Examine Microsoft Defender for Office 365
 summary: This module examines how Microsoft Defender for Office 365 extends EOP protection by filtering targeted attacks such as zero-day attacks in email attachments and Office documents, and time-of-click protection against malicious URLs.
 abstract: |
-  By the end of this module, you will be able to:
-  - Describe how the Safe Attachments feature in Microsoft Defender for Office 365 blocks zero-day malware in email attachments and documents.
-  - Describe how the Safe Links feature in Microsoft Defender for Office 365 protects users from malicious URLs embedded in email and documents that point to malicious websites.
+  By the end of this module, you'll be able to:
+  *   Describe how the Safe Attachments feature in Microsoft Defender for Office 365 blocks zero-day malware in email attachments and documents.
+  *   Describe how the Safe Links feature in Microsoft Defender for Office 365 protects users from malicious URLs embedded in email and documents that point to malicious websites.
+  *   Create outbound spam filtering policies.
+  *   Unblock users who violated spam filtering policies so they can resume sending emails.
 prerequisites: |
   None
 iconUrl: /learn/achievements/office-365-defender.svg
@@ -25,16 +27,20 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
+subjects:
+- business-applications
+- threat-protection
 units:
 - learn.wwl.introduction-to-microsoft-defender-for-office-365.introduction
+- learn.wwl.introduction-to-microsoft-defender-for-office-365.climb-security-ladder-eop-microsoft-defender-office-365
 - learn.wwl.introduction-to-microsoft-defender-for-office-365.expand-eop-protections-by-using-safe-attachments-safe-links
 - learn.wwl.introduction-to-microsoft-defender-for-office-365.protect-users-from-malicious-attachments-by-using-safe-attachments
-- learn.wwl.introduction-to-microsoft-defender-for-office-365.configure-safe-attachment-policy-options
 - learn.wwl.introduction-to-microsoft-defender-for-office-365.protect-users-from-malicious-urls-by-using-safe-links
-- learn.wwl.introduction-to-microsoft-defender-for-office-365.configure-safe-links-policy-options
+- learn.wwl.introduction-to-microsoft-defender-for-office-365.manage-spoof-intelligence
+- learn.wwl.introduction-to-microsoft-defender-for-office-365.configure-outbound-spam-filtering-policies
+- learn.wwl.introduction-to-microsoft-defender-for-office-365.unblock-users-from-sending-email
 - learn.wwl.introduction-to-microsoft-defender-for-office-365.knowledge-check
 - learn.wwl.introduction-to-microsoft-defender-for-office-365.summary
 badge:

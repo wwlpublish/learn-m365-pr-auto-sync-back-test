@@ -29,6 +29,10 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- device-management
+- collaboration
+- communication
 units:
 - learn.wwl.configure-manage-microsoft-teams-devices.introduction
 - learn.wwl.configure-manage-microsoft-teams-devices.plan-for-teams-rooms-deployment

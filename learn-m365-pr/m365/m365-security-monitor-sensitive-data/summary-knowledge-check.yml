@@ -41,18 +41,18 @@ quiz:
       - content: "Data loss prevention false positives report"
         isCorrect: false
         explanation: "Although the Microsoft 365 Defender portal provides reporting on DLP false positives and overrides of the DLP Polices, these do not address unclassified documents."
-      - content: "Microsoft 365 compliance center"
+      - content: "Microsoft Purview compliance portal"
         isCorrect: false
-        explanation: "Microsoft 365 compliance center is a specialized workspace for managing compliance, privacy, and risk management."
+        explanation: "Microsoft Purview compliance portal is a specialized workspace for managing compliance, privacy, and risk management."
       
     - content: "Where are data loss prevention and retention policies found?"
       choices:
       - content: "Microsoft Secure Score"
         isCorrect: false
         explanation: "Microsoft Secure Score helps generate visibility, controls, and guidance administrators need to drive maximum security posture improvements in the organization."
-      - content: "Microsoft 365 compliance center"
+      - content: "Microsoft Purview compliance portal"
         isCorrect: true
-        explanation: "Correct. Microsoft 365 compliance center helps protect and govern your data with sensitivity and retention labels."
+        explanation: "Correct. Microsoft Purview compliance portal helps protect and govern your data with sensitivity and retention labels."
       - content: "Microsoft 365 admin center"
         isCorrect: false
         explanation: "Microsoft 365 admin center is a central control pane that you can use for user and license management."

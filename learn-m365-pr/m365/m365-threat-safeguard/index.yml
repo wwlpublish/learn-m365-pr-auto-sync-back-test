@@ -3,7 +3,7 @@ uid: learn-m365.m365-threat-safeguard
 metadata:
   title: Safeguard your environment with Microsoft Defender for Identity
   description: Learn about the Microsoft Defender for Identity component of Microsoft 365 Defender. 
-  ms.date: 11/05/2021
+  ms.date: 04/25/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -28,6 +28,8 @@ products:
 - m365
 - azure
 - m365-threat-protection
+subjects:
+- identity-access
 units:
 - learn-m365.m365-threat-safeguard.introduction
 - learn-m365.m365-threat-safeguard.configure-sensors
@@ -37,4 +39,3 @@ units:
 
 badge: 
   uid: learn-m365.m365-threat-safeguard.badges
-  

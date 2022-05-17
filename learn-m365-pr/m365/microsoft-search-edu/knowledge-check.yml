@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-edu.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Confirm what you've learned about Microsoft Search.
+  ms.date: 03/30/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 4
+quiz:
+  title: "Check your knowledge"
+  questions:
+    - content: "Which account type is needed to see school results and answers?"
+      choices:
+      - content: "A personal Microsoft account."
+        isCorrect: false
+        explanation: "Try again. School results and answers don't appear when using a personal Microsoft account."
+      - content: "No account is needed."
+        isCorrect: false
+        explanation: "Try again. A user must be signed in to see school results and answers."
+      - content: "A school account."
+        isCorrect: true
+        explanation: "That's correct! A school account is needed to see school results and answers."
+
+    - content: "Where can teachers or students find class and assignment answers?"
+      choices:
+      - content: "Bing"
+        isCorrect: true
+        explanation: "That’s correct! Class and assignment answers can be found by searching on Bing (both desktop and mobile), Windows Search, and Microsoft Edge."
+      - content: "SharePoint"
+        isCorrect: false
+        explanation: "Try again. Class and assignment answers aren't currently available on SharePoint."
+      - content: "Office.com"
+        isCorrect: false
+        explanation: "Try again. Class and assignment answers aren't currently available on Office.com."
+        
+    - content: "Which learning management system (LMS) is natively supported with Microsoft Search?"
+      choices:
+      - content: "Schoology"
+        isCorrect: false
+        explanation: "Try again. While its content and data can be indexed using a connector, Schoology isn't natively supported with Microsoft Search in Bing."
+      - content: "Microsoft Teams"
+        isCorrect: true
+        explanation: "That’s correct! Only Microsoft Teams is natively supported with Microsoft Search."
+      - content: "Canvas"
+        isCorrect: false
+        explanation: "Try again. Canvas isn't natively supported with Microsoft Search."              

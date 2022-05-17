@@ -4,12 +4,13 @@ title: Administer permissions, licensing, and row level security in Power BI
 metadata:
   title: Administer permissions, licensing, and row level security in Power BI
   description: "Administer permissions, licensing, and row level security in Power BI"
-  ms.date: 07/09/2021
+  ms.date: 04/18/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 5
 content: |
   [!include[](includes/3-administer-licensing-environments.md)]

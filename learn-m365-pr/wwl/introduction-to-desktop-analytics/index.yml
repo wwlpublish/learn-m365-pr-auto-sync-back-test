@@ -31,6 +31,8 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- data-analytics
 units:
 - learn.wwl.introduction-to-desktop-analytics.introduction
 - learn.wwl.introduction-to-desktop-analytics.explore-windows-10-diagnostic-data

@@ -1,1 +1,1 @@
-In this module you learned about the processes, channels, and tools for upgrading Office. You also learned about the three-step process to **Prepare > Upgrade > Manage** your Office applications at scale.
+In this module, you learned about the processes, channels, and tools for upgrading Office. You also learned about the three-step process to **Prepare > Upgrade > Manage** your Office applications at scale.

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-adoption-usage-maintain.review-bookmarks-keep-content-current
+title: Review bookmarks and keep content current
+metadata:
+  title: Review bookmarks and keep content current
+  description: How to review suggested bookmarks and keep other internal answers current.
+  ms.date: 04/05/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/review-bookmarks-keep-content-current.md)]

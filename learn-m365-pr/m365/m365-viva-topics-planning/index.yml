@@ -3,7 +3,7 @@ uid: learn-m365-pr.viva-topics-planning
 metadata:
   title: Plan roles, automation, and training for Viva Topics
   description: Learn about the Viva Topics roles you'll need for your organization. Identify opportunities for automation. Make a plan to train your users on how to get the most from Viva Topics. 
-  ms.date: 02/14/2022
+  ms.date: 04/29/2022
   author: maggierui
   ms.author: ruihu
   ms.topic: interactive-tutorial
@@ -23,7 +23,11 @@ roles:
 - administrator
 products: 
 - m365
+- viva
 - viva-topics
+subjects:
+- knowledge-management
+- employee-engagement
 units:
 - learn-m365-pr.viva-topics-planning.introduction
 - learn-m365-pr.viva-topics-planning.organization-roles

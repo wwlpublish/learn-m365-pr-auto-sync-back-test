@@ -1,4 +1,4 @@
-![download icon](../media/download-icon.png)
+:::image type="icon" source="../media/download-icon.png" :::
 
 In this unit, we'll build a Microsoft 365 Apps package using the Office 365 Installer application packaging process in Configuration Manager. This process is similar to the standalone web tool found in the Office 365 Client Configuration Service.
 
@@ -10,7 +10,7 @@ To get started in Configuration Manager, access the Office 365 Installer through
 1. Give it a name, description and content location – an empty folder.
 1. Open the integrated Office Customization Tool.
 
-![Screenshot of the Office Customization Tool](../media/office-customization-tool.png)
+:::image type="content" source="../media/office-customization-tool.png" alt-text="Screenshot of the Office Customization Tool." border="false":::
 
 1. In the Office Customization Tool in Configuration Manager:
 
@@ -27,7 +27,7 @@ To get started in Configuration Manager, access the Office 365 Installer through
     11. When finished, you'll see a summary for your Office application package.
     12. Now the process downloads the Office installation files from the Content Delivery Network (CDN) and puts them into the folder you specified in the first step.
 
-![Screenshot of the Client Installation Wizard](../media/client-installation-wizard.png)
+:::image type="content" source="../media/client-installation-wizard.png" alt-text="Screenshot of the Client Installation Wizard." border="false":::
 
 If you haven't already chosen to deploy in the earlier step, you're ready to deploy as you normally would using other application packages.
 

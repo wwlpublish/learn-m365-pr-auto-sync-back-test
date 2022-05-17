@@ -31,6 +31,10 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- device-management
+- collaboration
+- communication
 units:
 - learn-m365.m365-teams-upgrade-plan-upgrade.introduction
 - learn-m365.m365-teams-upgrade-plan-upgrade.assess-current-environment

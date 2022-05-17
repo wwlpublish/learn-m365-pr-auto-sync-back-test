@@ -1,5 +1,7 @@
 In this exercise, you'll learn how to enable a site collection-scoped App Catalog and deploy an app to it.
 
+As mentioned previously, Microsoft is in the process of transitioning from the classic app catalog user experience to a modern app catalog user experience. However, at this time, this only applies to the tenant app catalog. Site collection app catalogs still use the classic user experience.
+
 ## Enable a site collection App Catalog
 
 Navigate to an existing site collection and select **Site Contents** from the left-hand navigation.
@@ -47,7 +49,7 @@ Drag the ***.sppkg** created in the previous steps, into the **Apps for SharePoi
 
 SharePoint will launch a dialog asking if you want to trust the package:
 
-![Screenshot of the Do you trust dialog](../media/03-deploy-step-01.png)
+![Screenshot of the Do you trust dialog](../media/05-deploy-step-01.png)
 
 Select **Deploy**.
 

@@ -4,13 +4,12 @@ title: Examine Power Automate functionality
 metadata:
   title: Examine Power Automate functionality
   description: "Examine Power Automate functionality"
-  ms.date: 09/10/2021
+  ms.date: 04/15/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 5
 content: |
@@ -22,10 +21,10 @@ quiz:
     choices:
     - content: "The user was attempting to create a UI flow"
       isCorrect: false
-      explanation: "That's incorrect. The flow type wouldn't explain why the user can't create this flow. Try again."
+      explanation: "Incorrect. The flow type wouldn't explain why the user can't create this flow."
     - content: "Automated daily data uploads can only be made to Exchange"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't a valid reason as to why the user couldn't create the flow. Try again."
+      explanation: "Incorrect. This item isn't a valid reason as to why the user couldn't create the flow."
     - content: "The user doesn't have permission to schedule an automated daily data upload to SharePoint"
       isCorrect: true
-      explanation: "That's correct. Power Automate doesn't circumvent security in any way. If the user doesn't have permission to do a certain action, the user can't build a flow to do that same action."
+      explanation: "Correct. Power Automate doesn't circumvent security in any way. If the user doesn't have permission to do a certain action, the user can't build a flow to do that same action."

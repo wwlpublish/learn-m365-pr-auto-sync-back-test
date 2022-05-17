@@ -32,6 +32,8 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- information-protection-governance
 units:
 - learn.wwl.explore-sensitivity-labels.introduction
 - learn.wwl.explore-sensitivity-labels.manage-data-protection-sensitivity-labels

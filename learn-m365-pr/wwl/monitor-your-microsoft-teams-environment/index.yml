@@ -28,6 +28,10 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- data-visualization
+- collaboration
+- communication
 units:
 - learn.wwl.monitor-your-microsoft-teams-environment.introduction
 - learn.wwl.monitor-your-microsoft-teams-environment.monitor-usage-reports

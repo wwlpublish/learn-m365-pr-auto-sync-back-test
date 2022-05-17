@@ -38,7 +38,7 @@ You can set filters to customize how you monitor application usage. Filters incl
 
 This interactive guide walks you through the steps to configure an anomaly detection policy:
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4FkTv]
+[:::image type="content" source="../media/detect-threats.png" alt-text="Detect threats and manage alerts with Microsoft Defender for Cloud Apps." border="false":::](https://aka.ms/DetectThreats-ManageAlerts-MCAS_InteractiveGuide)
 
 ### Fine-tune anomaly detection policies for suppression or surfacing alerts
 

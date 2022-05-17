@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn.wwl.describe-endpoint-modernization-management-concepts-deployment-options
+metadata:
+  title: Describe endpoint modernization, management concepts, and deployment options in Microsoft 365
+  description: "Learn about how the business management solutions through Microsoft 365 provide people with a secure, personalized desktop experience and help organizations easily manage updates for all devices with a simplified admin experience. Prepare for MS-900."
+  ms.date: 04/29/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Describe endpoint modernization, management concepts, and deployment options in Microsoft 365
+summary: Learn about how the business management solutions through Microsoft 365 provide people with a secure, personalized desktop experience and help organizations easily manage updates for all devices with a simplified admin experience.
+abstract: |
+  By the end of this module, you'll be able to:
+  *   Describe the modern management capabilities of Microsoft Endpoint Manager
+  *   Describe the different capabilities of Windows 365 and Azure Virtual Desktop
+  *   Describe the deployment and release models for Windows-as-a-Service
+  *   Describe the deployment and servicing methods for Microsoft 365 Apps
+prerequisites: |
+  - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a -Service (Saas).
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-owner
+- business-user
+products:
+- m365
+- office-365
+subjects:
+- business-applications
+- device-management
+units:
+- learn.wwl.describe-endpoint-modernization-management-concepts-deployment-options.introduction
+- learn.wwl.describe-endpoint-modernization-management-concepts-deployment-options.management-capabilities-of-microsoft-365
+- learn.wwl.describe-endpoint-modernization-management-concepts-deployment-options.compare-capabilities-of-windows-365-azure-virtual-desktop
+- learn.wwl.describe-endpoint-modernization-management-concepts-deployment-options.describe-deployment-release-models-for-windows-as-service-waas
+- learn.wwl.describe-endpoint-modernization-management-concepts-deployment-options.identify-deployment-servicing-methods-for-microsoft-365-apps
+- learn.wwl.describe-endpoint-modernization-management-concepts-deployment-options.knowledge-check
+- learn.wwl.describe-endpoint-modernization-management-concepts-deployment-options.summary-resources
+badge:
+  uid: learn.wwl.describe-endpoint-modernization-management-concepts-deployment-options.badge

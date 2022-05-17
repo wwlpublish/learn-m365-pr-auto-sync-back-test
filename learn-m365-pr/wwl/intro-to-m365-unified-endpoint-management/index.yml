@@ -26,6 +26,10 @@ roles:
 - administrator
 products:
 - m365
+subjects:
+- productivity
+- information-protection-governance
+- device-management
 units:
 - learn-m365.unified-endpoint-management.1-what-is-uem
 - learn-m365.unified-endpoint-management.2-device-management-challenges

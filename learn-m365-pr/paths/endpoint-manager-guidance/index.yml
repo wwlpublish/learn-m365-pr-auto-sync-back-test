@@ -23,6 +23,8 @@ roles:
 products:
 - m365
 - mem
+subjects:
+- device-management
 modules:
 - learn.paths-to-modern-endpoint-management
 - learn.determine-endpoint-management-implementation

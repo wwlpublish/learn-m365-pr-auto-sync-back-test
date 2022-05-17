@@ -77,7 +77,7 @@ The documents returned include those found in OneDrive for Business and SharePoi
 To get a list of the documents recently modified or accessed by the current user, submit the following HTTP request to Microsoft Graph:
 
 ```http
-HTTP GET https://graph.microsoft/com/v1.0/me/insights/used
+HTTP GET https://graph.microsoft.com/v1.0/me/insights/used
 ```
 
 This request will return a similar response to the `trending` endpoint except each item returned doesn't include a weight and in the collection will include a `lastused` object with two properties:

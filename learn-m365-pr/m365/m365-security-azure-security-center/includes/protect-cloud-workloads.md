@@ -213,7 +213,7 @@ Alerts will show up in Microsoft Defender for Cloud when a suspicious event occu
 Microsoft Defender for Cloud helps you protect your data and storage. Microsoft Defender for Cloud will detect threats to your data and storage resources, alert you, and suggest remediation steps to deal with those threats. With Microsoft Defender for Cloud, you don't have to be an expert, and you don't need to learn multiple security monitoring systems to keep your data and storage secure. Microsoft Defender for Cloud helps you protect different data and storage resources and services including:
 
 - Azure Storage
-- Azure CosmosDB
+- Azure Cosmos DB
 - Azure Key Vault
 - SQL Database
 

@@ -4,7 +4,7 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Check your understanding of the concepts presented in this module. 
-  ms.date: 11/03/2021
+  ms.date: 05/02/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -42,14 +42,14 @@ quiz:
         isCorrect: false
         explanation: "That's incorrect. Windows Mobile Information Protection does not exist within the information protection stack."
       
-    - content: "Microsoft Information Protection allows for document sharing and protection to third-party cloud services by using which of the following?"
+    - content: "Microsoft Purview Information Protection allows for document sharing and protection to third-party cloud services by using which of the following?"
       choices:
       - content: "Microsoft Defender for Cloud Apps"
         isCorrect: true
         explanation: "Correct. Microsoft Defender for Cloud Apps applies policies based on the data’s labels in third-party cloud applications."
       - content: "Azure Third-Party Information Protection"
         isCorrect: false
-        explanation: "That's incorrect. Azure Third-Party Information Protection does not exist within the Microsoft information protection stack; Defender for Cloud Apps is used instead."
+        explanation: "That's incorrect. Azure Third-Party Information Protection does not exist within the Microsoft Purview Information Protection stack; Defender for Cloud Apps is used instead."
       - content: "Privileged Identity Management"
         isCorrect: false
         explanation: "That's incorrect. PIM is an identity and access management solution for controlling elevated user access."

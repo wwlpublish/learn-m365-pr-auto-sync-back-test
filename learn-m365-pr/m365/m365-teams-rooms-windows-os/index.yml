@@ -30,6 +30,9 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- device-management
+- communication
 units:
 - learn-m365.m365-teams-rooms-windows-os.introduction
 - learn-m365.m365-teams-rooms-windows-os.management-concepts

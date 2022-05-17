@@ -21,6 +21,10 @@ roles:
 products: 
 - m365
 - office-365
+subjects:
+- compliance
+- threat-protection
+- information-protection-governance
 modules:
 - learn-m365.compmgmt-understand-landscape
 - learn-m365.compmgmt-learn-concepts

@@ -30,6 +30,10 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- collaboration
+- communication
+- data-management
 units:
 - learn.wwl.create-manage-teams.introduction
 - learn.wwl.create-manage-teams.create-teams

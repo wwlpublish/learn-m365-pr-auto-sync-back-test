@@ -11,7 +11,7 @@ Now that you have completed this module, you are able to:
 For more information about the topics discussed in this module, see:
 
 - [Unable to share OneDrive files](https://support.microsoft.com/office/unable-to-share-onedrive-files-18755580-24f3-408d-afda-bd8d0f7ed5a2)
-- [Manage sharing in OneDrive](/onedrive/manage-sharing)
+- [Manage sharing in OneDrive](/onedrive/manage-sharing?redirectSourcePath=%252farticle%252fee8b91c5-05ec-44c2-9796-78fa27ec8425)
 - [Share OneDrive files and folders](https://support.microsoft.com/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07?ui=en-us&rs=en-gb&ad=gb)
 - [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off)
 - [Share files in Teams](https://support.microsoft.com/office/share-files-in-teams-0c4d34ee-5dd8-46d5-ab35-0d227b5e6eb5)

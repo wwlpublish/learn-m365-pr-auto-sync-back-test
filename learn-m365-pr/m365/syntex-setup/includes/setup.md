@@ -5,7 +5,7 @@ Contoso has decided to set up and activate SharePoint Syntex for the Human Resou
 1. Select **Automate content and understanding**.
 1. Select **Get started**.
 
-![A screenshot of the Automate content understanding page with Get started and the AI Builder credits highlighted for reference.](../media/automate-content-understanding.png)
+:::image type="content" source="../media/automate-content-understanding.png" alt-text="A screenshot of the Automate content understanding page with Get started and the A I Builder credits highlighted for reference." border="false":::
 
 > [!NOTE]
 > Available AI Builder credits, if you have them, are listed under **At a glance** in the Automate content understanding section.
@@ -19,7 +19,7 @@ Contoso has decided to set up and activate SharePoint Syntex for the Human Resou
     - **Libraries in selected SharePoint sites** – this option allows you to select which sites you want to use to create forms processing models. Accommodates up to 50 sites
     - **No SharePoint libraries** – used if you prefer not to create form processing models right away. This setting can be changes after setup is complete.
 
-![A screenshot of the configure form processing page with Libraries in all SharePoint sites selected.](../media/configure-form-processing.png)
+:::image type="content" source="../media/configure-form-processing.png" alt-text="A screenshot of the configure form processing page with Libraries in all SharePoint sites selected." border="false":::
 
 > [!NOTE]
 > Removing a site after it has been included does not affect existing models applied to the libraries in that site or the ability to apply document understanding models to a library.
@@ -33,7 +33,7 @@ For **Power Platform**, you can select:
 - **Use the default environment**.
 - **Use a custom environment** to use a custom environment.
 
-    ![A screenshot of the Power Platform environment window showing the options that exist if more than one Power Platform environment exists.](../media/power-platform.png)
+    :::image type="content" source="../media/power-platform.png" alt-text="A screenshot of the Power Platform environment window showing the options that exist if more than one Power Platform environment exists." border="false":::
 
 - Select **Next**.
 
@@ -46,7 +46,7 @@ In this step, the _default_ content center is created. A content center is the m
   - The **Site address** shows the URL for the site, based on what was selected for the site name.
   - To change the name, select **Edit**.
 
-    ![A screenshot of the Create a content center window with the Content center name box highlighted.](../media/create-content-center.png)
+    :::image type="content" source="../media/create-content-center.png" alt-text="A screenshot of the Create a content center window with the Content center name box highlighted." border="false":::
 
 - Select **Next**.
 
@@ -75,7 +75,7 @@ To assign licenses, return to the Microsoft 365 admin center.
 1. Select **Show apps for SharePoint Syntex**.
 1. Under **Apps**, select _all three_ license types: **Common Data Service for SharePoint Syntex**, **SharePoint Syntex**, and **SharePoint Syntex - SPO type**.
 
-    ![A screenshot of the licensing window with all options selected.](../media/licenses.png)
+    :::image type="content" source="../media/licenses.png" alt-text="A screenshot of the licensing window with all options selected." border="false":::
 
 1. Select **Save changes**.
 

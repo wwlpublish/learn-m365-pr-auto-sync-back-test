@@ -4,7 +4,7 @@ title: Plan for Exchange hybrid configuration
 metadata:
   title: Plan for Exchange hybrid configuration
   description: "Plan for Exchange hybrid configuration"
-  ms.date: 03/09/2022
+  ms.date: 05/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Full Hybrid Configuration"
       isCorrect: false
-      explanation: "This answer is incorrect. Full hybrid configuration isn't the best approach for quick onboarding during acquisition scenarios. Try again."
+      explanation: "This answer is incorrect. Full hybrid configuration isn't the best approach for quick onboarding during acquisition scenarios."
     - content: "Minimal Hybrid Configuration"
       isCorrect: true
       explanation: "This answer is correct. Minimal hybrid configuration is intended for small or medium-sized organizations that need a seamless migration experience for their users. Typically, this option is used in scenarios where hybrid is used as a migration option that doesn't require enhanced features. The minimal hybrid configuration is also an excellent solution for a quick onboarding during merger and acquisition scenarios."
     - content: "Exchange Modern Hybrid"
       isCorrect: false
-      explanation: "This answer is incorrect. This configuration option is one of two approaches to a Full Hybrid Configuration. Try again."
+      explanation: "This answer is incorrect. This configuration option is one of two approaches to a Full Hybrid Configuration."

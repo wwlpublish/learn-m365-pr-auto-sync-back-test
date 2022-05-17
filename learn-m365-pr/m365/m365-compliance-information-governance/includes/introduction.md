@@ -101,7 +101,7 @@ From a process perspective, here are the major phases you should follow for a su
 
 ### Technology
 
-Lastly, you need a technology partner with the right solutions to meet your needs. In this course we will explore the unique capabilities Microsoft delivers to meet your data classification, information protection, and information governance requirements.
+Lastly, you need a technology partner with the right solutions to meet your needs. In this course we will explore the unique capabilities Microsoft delivers to meet your data classification, information protection, and Data Lifecycle Management requirements.
 
 ## Know your data, protect your data, prevent data loss, and govern your data
 

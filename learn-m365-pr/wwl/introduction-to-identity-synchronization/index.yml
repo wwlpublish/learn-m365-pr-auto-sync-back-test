@@ -3,7 +3,7 @@ uid: learn.wwl.introduction-to-identity-synchronization
 metadata:
   title: Explore identity synchronization
   description: "Explore identity synchronization"
-  ms.date: 07/12/2021
+  ms.date: 04/21/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -25,9 +25,10 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
+subjects:
+- identity-access
 units:
 - learn.wwl.introduction-to-identity-synchronization.introduction
 - learn.wwl.introduction-to-identity-synchronization.examine-authentication-options-microsoft-365

@@ -2,11 +2,11 @@ In this module, you'll show a user’s events retrieved from Microsoft 365 using
 
 To start, you need to register your Microsoft 365 application. You can do that by creating an application registration in Azure Active Directory (Azure AD). For this module, you'll need an application with the following settings:
 
-- **Name:** ASP.NET Core MS Graph App
-- **Platform:** Web
-- **Supported account types:** Accounts in any organizational directory (Any Azure AD directory - Multitenant)
-- **Redirect URIs:** `https://localhost:5001` and `https://localhost:5001/signin-oidc`
-- **Logout URL:** `https://localhost:5001/signout-oidc`
-- **API permissions:** Microsoft Graph `User.Read` (delegated)
+- **Name**: ASP.NET Core MS Graph App
+- **Platform**: Web
+- **Supported account types**: Accounts in any organizational directory (Any Azure AD directory - Multitenant)
+- **Redirect URIs**: `https://localhost:5001` and `https://localhost:5001/signin-oidc`
+- **Logout URL**: `https://localhost:5001/signout-oidc`
+- **API permissions**: Microsoft Graph `User.Read` (delegated)
 
 [!INCLUDE [Register Azure AD application](../../../includes/exercise-register-m365-dotnet-core-azure-ad-application.md)]

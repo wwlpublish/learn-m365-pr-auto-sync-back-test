@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.update-clients-use-windows-update-business.explore-windows-update-business
+title: Explore Windows Update for Business
+metadata:
+  title: Explore Windows Update for Business
+  description: "Explore Windows Update for Business"
+  ms.date: 03/31/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/2-explore-windows-update-business.md)]

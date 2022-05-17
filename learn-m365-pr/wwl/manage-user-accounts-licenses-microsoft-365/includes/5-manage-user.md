@@ -3,7 +3,7 @@ One of the most basic tasks for Microsoft 365 Enterprise Administrators is user 
 Only members of the Microsoft 365 Global admin and User Management admin roles can assign or remove licenses. A license can be assigned or removed for single or multiple users.
 
 > [!IMPORTANT]
-> When a license is removed from a user, any service data that's associated with that user is deleted. You then have a 30-day grace period in which you can recover that data, but after the grace period, the data isn't recoverable.
+> When a license is removed from a user, any service data that's associated with that user is deleted. You then have a 30-day grace period in which you can recover that data. After the grace period, the data isn't recoverable.
 
 ### Assigning a license
 
@@ -11,18 +11,40 @@ Both the Microsoft 365 admin center and Windows PowerShell can be used to assign
 
 1.  In the Microsoft 365 admin center, in the left-hand navigation pane, select **Users** and then select **Active users**.
 2.  Select the users that you want to assign or remove licenses, and then in the menu bar, select the **ellipsis (More actions)** icon. In the drop-down menu that appears, select **Manage product licenses**.
-3.  On the **Manage product licenses** page, you must first specify whether to replace or add to existing licenses, and then you can change the user location and select the services that you want to modify.
+3.  On the **Manage product licenses** page, you must first specify whether to replace or add to existing licenses. You can change the user location and select the services that you want to modify.
 
-If you prefer to use Windows PowerShell, the **Set-MsolUserLicense** cmdlet enables you to add user licenses, remove user licenses, and update licensing options. To add a license to a user, at the command prompt, type the following command, and then press Enter:
+### Using Azure Active Directory PowerShell to assign a usage location and license
 
+Users can't use any Microsoft 365 services until their account has been assigned a license from a licensing plan. However, to do so, you must first assign the user a usage location. Assigning a user license within Azure AD PowerShell is a two step process.
+
+#### Step 1 - Assign the usage location
+
+You can assign the location at the same time that you create the user account by using the **-UsageLocation** parameter with the **New-AzureADUser** cmdlet. For existing accounts without a location, you can use the **-UsageLocation** parameter with the **Set-AzureADUser** cmdlet. Once the location is assigned, you can then assign the user license.
+
+For example, the following cmdlet creates a user account for Patti Fernandez and assigns Patti's usage location to the US.
+
+```powershell
+New-AzureADUser –UserPrincipalName PattiF@Adatum.onmicrosoft.com –DisplayName “Patti Fernandez” – FirstName “Patti” –LastName “Fernandez” –UsageLocation “US” –LicenseAssignment “Adatum: ENTERPRISEPREMIUM”
 ```
-Set-MsolUserLicense -UserPrincipalName username@domainname –AddLicenses “license”
+
+If Patti's user account already existed but it didn't have a usage location, you could assign a location by running the following command:
+
+```powershell
+Set-AzureADUser –ObjectId PattiF@Adatum.onmicrosoft.com –UsageLocation “US”
 ```
 
-For example, to add an Enterprise Premium license for Patti Fernandez at Adatum Corp., you would run the following command:
+#### Step 2 - Assign the license
 
-```
-Set-MsolUserLicense –UserPrincipalName PattiF@Adatum.onmicrosoft.com –AddLicenses "Adatum:ENTERPRISEPREMIUM"
+Once the user account is created and the usage location is assigned, you can then assign the user a license by running the following commands:<br>
+
+```powershell
+$userUPN="<user sign-in name (UPN)>"
+$planName="<license plan name from the list of license plans>"
+$License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
+$License.SkuId = (Get-AzureADSubscribedSku | Where-Object -Property SkuPartNumber -Value $planName -EQ).SkuID
+$LicensesToAssign = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
+$LicensesToAssign.AddLicenses = $License
+Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
 ```
 
 ### View license information

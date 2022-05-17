@@ -25,6 +25,9 @@ roles:
 products: 
 - m365
 - ms-graph
+subjects:
+- data-management
+- communication
 modules:
 - learn-m365.msgraph-show-user-emails
 - learn-m365.msgraph-access-user-events

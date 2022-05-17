@@ -2,184 +2,86 @@ Groups can be used to manage sets of users at the same time. For example, if a t
 
 :::row:::
   :::column:::
-    
-
-**Group Type**
-
-
+    **Group Type**
   :::column-end:::
   :::column:::
-    
-
-**Description**
-
-
+    **Description**
   :::column-end:::
   :::column:::
-    
-
-**When to use?**
-
-
+    **When to use?**
   :::column-end:::
   :::column:::
-    
-
-**Where to create it?**
-
-
+    **Where to create it?**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Microsoft 365 group
-
-
+    Microsoft 365 group
   :::column-end:::
   :::column:::
-    
-
-This is the recommended group type. It is similar to distribution groups in that it has its own mailbox and its members receive email messages that are sent to the group. However, it differs from distribution groups in that it allows teams to collaborate by providing them a shared workspace for email, conversations, files, and calendar events.
-
-
+    This option is the recommended group type. It's similar to distribution groups because it has its own mailbox and its members receive email messages that are sent to the group. However, it differs from distribution groups in that it allows teams to collaborate by providing them a shared workspace for email, conversations, files, and calendar events.
   :::column-end:::
   :::column:::
-    
-
-When you want to provide distribution list capabilities and other collaboration features. The best option for team work.
-
-
+    When you want to provide distribution list capabilities and other collaboration features. The best option for team work.
   :::column-end:::
   :::column:::
-    
-
-Microsoft 365 admin center, Microsoft 365 admin app, Groups app, Exchange admin center, and Outlook
-
-
+    Microsoft 365 admin center, Microsoft 365 admin app, Groups app, Exchange admin center, and Outlook
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Distribution group
-
-
+    Distribution group
   :::column-end:::
   :::column:::
-    
-
-Can only be used for sending email. An email sent to a distribution list is sent to all members of the group.
-
-In Exchange, this group type is called distribution group.
-
-
+    Can only be used for sending email. An email sent to a distribution list is sent to all members of the group.In Exchange, this group type is called distribution group.
   :::column-end:::
   :::column:::
-    
-
-When you want to distribute messages using the group only.
-
-
+    When you want to distribute messages using the group only.
   :::column-end:::
   :::column:::
-    
-
-Microsoft 365 admin center, Microsoft 365 admin app, or Exchange admin center
-
-
+    Microsoft 365 admin center, Microsoft 365 admin app, or Exchange admin center
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Mail-enabled security group
-
-
+    Mail-enabled security group
   :::column-end:::
   :::column:::
-    
-
-Can be used for sending email. However, you can also assign group permissions; for example, to Exchange Public Folders or OneDrive.
-
-
+    Can be used for sending email. However, you can also assign group permissions; for example, to Exchange Public Folders or OneDrive.
   :::column-end:::
   :::column:::
-    
-
-When you want to use the group for both permissions and mail distribution.
-
-
+    When you want to use the group for both permissions and mail distribution.
   :::column-end:::
   :::column:::
-    
-
-Microsoft 365 admin center, Microsoft 365 admin app, or Exchange admin center
-
-
+    Microsoft 365 admin center, Microsoft 365 admin app, or Exchange admin center
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Security group
-
-
+    Security group
   :::column-end:::
   :::column:::
-    
-
-Can be used to grant access permissions to resources such as OneDrive.
-
-
+    Can be used to grant access permissions to resources such as OneDrive.
   :::column-end:::
   :::column:::
-    
-
-When you only require a group to grant permissions.
-
-
+    When you only require a group to grant permissions.
   :::column-end:::
   :::column:::
-    
-
-Microsoft 365 admin center or Microsoft 365 admin app
-
-
+    Microsoft 365 admin center or Microsoft 365 admin app
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Dynamic distribution group (Exchange only)
-
-
+    Dynamic distribution group (Exchange only)
   :::column-end:::
   :::column:::
-    
-
-Can use recipient filters and conditions that you define to dynamically determine membership. These groups do not have a predefined member list.
-
-
+    Can use recipient filters and conditions that you define to dynamically determine membership. These groups don't have a predefined member list.
   :::column-end:::
   :::column:::
-    
-
-When you want to have a flexible distribution list that changes membership automatically.
-
-
+    When you want to have a flexible distribution list that changes membership automatically.
   :::column-end:::
   :::column:::
-    
-
-Exchange admin center
-
-
+    Exchange admin center
   :::column-end:::
 :::row-end:::
 

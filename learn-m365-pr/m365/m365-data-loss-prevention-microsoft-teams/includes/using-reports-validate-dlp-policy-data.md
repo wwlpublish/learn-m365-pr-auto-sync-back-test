@@ -1,4 +1,4 @@
-You can verify that your DLP policies are working properly by reviewing organizational data reports in the Microsoft 365 compliance center. From the Reports dashboard you can view the following:
+You can verify that your DLP policies are working properly by reviewing organizational data reports in the Microsoft Purview compliance portal. From the Reports dashboard you can view the following:
 
 - DLP Policy Matches
 - DLP Incidents
@@ -6,7 +6,7 @@ You can verify that your DLP policies are working properly by reviewing organiza
 
 All DLP reports can show data from the most recent four-month time period. The most recent data can take up to 24 hours to appear in the reports.
 
-To view these reports, open the Microsoft 365 compliance center and from the left menu select **Reports**. From the **Reports** page, scroll down to **Organizational data**.
+To view these reports, open the Microsoft Purview compliance portal and from the left menu select **Reports**. From the **Reports** page, scroll down to **Organizational data**.
 
 :::image type="content" source="../media/8-reports-dashboard-inline.png" lightbox="../media/8-reports-dashboard-expanded.png" alt-text="Reports dashboard.":::
 

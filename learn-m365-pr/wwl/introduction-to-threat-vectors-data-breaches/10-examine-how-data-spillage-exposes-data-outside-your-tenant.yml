@@ -4,12 +4,13 @@ title: Examine how data spillage exposes data outside your tenant
 metadata:
   title: Examine how data spillage exposes data outside your tenant
   description: "Examine how data spillage exposes data outside your tenant"
-  ms.date: 04/29/2021
+  ms.date: 04/29/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/10-examine-how-data-spillage-exposes-data-outside-your-tenant.md)]

@@ -29,6 +29,9 @@ roles:
 products:
 - m365
 - ms-graph
+subjects:
+- development-tools
+- data-management
 units:
 - learn-m365.msgraph-access-group-data.1-introduction
 - learn-m365.msgraph-access-group-data.2-working-groups
