@@ -4,12 +4,13 @@ title: Protect your enterprise network against advanced threats using Microsoft 
 metadata:
   title: Protect your enterprise network against advanced threats using Microsoft Defender for Endpoint
   description: "Protect your enterprise network against advanced threats using Microsoft Defender for Endpoint"
-  ms.date: 04/28/2021
+  ms.date: 05/17/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 8
 content: |
   [!include[](includes/4-protect-your-enterprise-network-against-advanced-threats.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Threat intelligence"
       isCorrect: false
-      explanation: "That's incorrect. Threat intelligence enables Defender for Endpoint to identify attacker tools, techniques, and procedures, and generate alerts when they're observed in collected sensor data. Try again."
+      explanation: "Incorrect. Threat intelligence enables Defender for Endpoint to identify attacker tools, techniques, and procedures, and generate alerts when they're observed in collected sensor data."
     - content: "Cloud security analytics"
       isCorrect: false
-      explanation: "That's incorrect. Cloud security analytics uses big-data, device-learning, and unique Microsoft optics across the Windows ecosystem, enterprise cloud products (such as Microsoft 365), and online assets. Behavioral signals are then translated into insights, detections, and recommended responses to advanced threats. Try again."
+      explanation: "Incorrect. Cloud security analytics uses big-data, device-learning, and unique Microsoft optics across the Windows ecosystem, enterprise cloud products (such as Microsoft 365), and online assets. Behavioral signals are then translated into insights, detections, and recommended responses to advanced threats."
     - content: "Endpoint behavioral sensors"
       isCorrect: true
-      explanation: "That's correct. Embedded in Windows 10, these sensors collect and process behavioral signals from the operating system and send this sensor data to your private, isolated, cloud instance of Microsoft Defender for Endpoint."
+      explanation: "Correct. These sensors are embedded in Windows 10. They collect and process behavioral signals from the operating system. They then send this sensor data to your private, isolated, cloud instance of Microsoft Defender for Endpoint."
