@@ -1,7 +1,7 @@
 {
   "redirections": [
     {
-      "source_path": "learn-m365-pr/paths/okr-champion/index.md",
+      "source_path": "learn-m365-pr/paths/okr-champions/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/okr-leadership",
       "redirect_document_id": false
     },
