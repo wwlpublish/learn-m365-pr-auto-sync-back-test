@@ -72,7 +72,7 @@ Once you have the initial app on your machine, follow these steps to get the app
     > [!TIP]
     > If you use Microsoft 365 in your daily work and plan to do this exercise in a development tenant (which is suggested), you may find it useful to work in private or “incognito” mode in the browser. You may even choose to use a different browser or browser profile than you normally use in production.
 
-1. Sign in with your Microsoft 365 account.
+1. Sign-in with your Microsoft 365 account.
 1. After successfully signing in, you'll be prompted to give consent for the required permissions. Select the checkbox to consent to the permissions for your organization and then select the **Accept** button.
 1. You should see the app display a welcome message with your username and profile picture.
 1. Close your browser and press <kbd>CTRL</kbd>+<kbd>C</kbd> in the terminal window to stop the server.
