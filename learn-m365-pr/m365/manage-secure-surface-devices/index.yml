@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-m365-pr.manage-secure-surface-devices
+metadata:
+  moduleType: standard
+  title: Manage and secure Surface devices
+  description: You'll explore the features of both the new Surface management portal and Microsoft Endpoint Manager. You'll follow the journey of a Surface device through this learning path, and see how to secure and manage the Surface devices in use inside your organization.
+  ms.date: 05/12/2022
+  author: temanteleary
+  ms.author: teleary
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage and secure Surface devices
+summary: You'll explore the features of both the new Surface management portal and Microsoft Endpoint Manager. You'll follow the journey of a Surface device through this learning path, and see how to secure and manage the Surface devices in use inside your organization.
+abstract: |
+  By the end of this module, you'll be able to:
+    - Manage Surface devices.
+    - Secure Surface devices.
+    - End the lifecycle of Surface devices.
+prerequisites: |
+  - None.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - developer
+products:
+- m365
+units:
+- learn-m365-pr.manage-secure-surface-devices.introduction
+- learn-m365-pr.manage-secure-surface-devices.manage-surface-devices
+- learn-m365-pr.manage-secure-surface-devices.secure-surface-devices
+- learn-m365-pr.manage-secure-surface-devices.end-the-lifecycle-of-surface-devices
+- learn-m365-pr.manage-secure-surface-devices.knowledge-check
+- learn-m365-pr.manage-secure-surface-devices.summary
+badge:
+  uid: learn-m365-pr.manage-secure-surface-devices.badge
