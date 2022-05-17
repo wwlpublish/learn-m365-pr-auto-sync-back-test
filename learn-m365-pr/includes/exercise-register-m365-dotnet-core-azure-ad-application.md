@@ -42,7 +42,7 @@ Create a new Azure Active Directory application registration by following these 
     - **Implicit grant and hybrid flows**: select **ID tokens**.
     - Select **Save** on the toolbar.
 
-        :::image type="content" source="../media/exercise-register-m365-dotnet-core-azure-ad-application/azure-ad-app-registration-authentication.png" alt-text="Screenshot showing how to redirect URIs and select ID tokens." lightbox="../media/exercise-register-m365-dotnet-core-azure-ad-application/azure-ad-app-registration-authentication.png":::
+        :::image type="content" source="../media/exercise-register-m365-dotnet-core-azure-ad-application/azure-ad-app-registration-authentication.png" alt-text="Screenshot showing how to redirect U R I's and select I D tokens." lightbox="../media/exercise-register-m365-dotnet-core-azure-ad-application/azure-ad-app-registration-authentication.png":::
 
 1. **Select Certificates & secrets** under **Manage**.
 1. Select **New client secret**. Enter a value of **App Client Secret** in the **Description** and select any of the options for **Expires**. Select **Add** to create the secret.
