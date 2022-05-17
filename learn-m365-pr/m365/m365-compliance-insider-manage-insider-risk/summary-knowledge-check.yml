@@ -3,8 +3,8 @@ uid: learn-m365.m365-compliance-insider-manage-insider-risk.summary-knowledge-ch
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Insider risk management in Microsoft 365 helps organizations address internal risks, such as IP theft, fraud, and sabotage. Learn about insider risk management and how Microsoft technologies can help you detect, investigate, and take action on risky activities in your organization. 
-  ms.date: 07/08/2021
+  description: Microsoft Purview Insider Risk Management helps organizations address internal risks, such as IP theft, fraud, and sabotage. Learn about insider risk management and how Microsoft technologies can help you detect, investigate, and take action on risky activities in your organization. 
+  ms.date: 05/02/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -30,7 +30,7 @@ quiz:
 
     - content: "Configuring a Microsoft Human Resources (HR) data connector is a dependency for which insider risk management template?"
       choices:
-      - content: "Departing employee’s data theft template"
+      - content: "Departing employee's data theft template"
         isCorrect: true
         explanation: "If you configure a policy using the Departing employee data theft template, you'll need to configure a Microsoft 365 HR data connector so that you can import user and log data from 3rd-party risk management and human resources platforms. HR connectors allow you to pull in human resources data from CSV files, including user termination and last employment dates. "
       - content: "Data leaks "
@@ -64,11 +64,11 @@ quiz:
         isCorrect: true
         explanation: "You can filter alerts by one of more attributes including Status, Severity, Time detected, and Policy."
 
-    - content: "Which of the case actions opens a new Advanced eDiscovery case in your Microsoft O365 investigation?"
+    - content: "Which of the case actions opens a new eDiscovery (Premium) case in your Microsoft O365 investigation?"
       choices:
       - content: "Escalate for investigation "
         isCorrect: true
-        explanation: "Escalate the case for employee investigation in situations where additional legal review is needed for the employee's risk activity. This escalation opens a new Advanced eDiscovery case in your Microsoft 365 organization. Advanced eDiscovery provides an end-to-end workflow to preserve, collect, review, analyze, and export content that's responsive to your organization's internal and external legal investigations. "
+        explanation: "Escalate the case for employee investigation in situations where additional legal review is needed for the employee's risk activity. This escalation opens a new eDiscovery (Premium) case in your Microsoft 365 organization. eDiscovery (Premium) provides an end-to-end workflow to preserve, collect, review, analyze, and export content that's responsive to your organization's internal and external legal investigations. "
       - content: "Send a notice "
         isCorrect: false
         explanation: "Sending a reminder notice to the employee via email is an effective method for documenting case review and action, as well as a method to remind employees of corporate policies or point them to refresher training.  "

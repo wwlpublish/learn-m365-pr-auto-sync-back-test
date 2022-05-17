@@ -58,4 +58,4 @@ The article seeks to answer the question:
 You can review the content in this blog here: [Security Admins, Defender for Cloud Apps, and BLOCK]( https://techcommunity.microsoft.com/t5/microsoft-security-and/security-admins-mcas-and-block/ba-p/1777167?azure-portal=true).
 
 > [!TIP]
-> You can locate additional articles that relate to Microsoft Defender for Cloud Apps by visiting the [Microsoft Security and Compliance](https://techcommunity.microsoft.com/t5/microsoft-security-and/bg-p/MicrosoftSecurityandCompliance?azure-portal=true) website, and selecting **Filter by label** and choosing **Microsoft Defender for Cloud Apps**.
+> You can locate additional articles that relate to Microsoft Defender for Cloud Apps by visiting the [Microsoft Security, Compliance, and Identity Blog](https://techcommunity.microsoft.com/t5/microsoft-security-and/bg-p/MicrosoftSecurityandCompliance?azure-portal=true) website, and selecting **Filter by label** and choosing **Microsoft Defender for Cloud Apps**.

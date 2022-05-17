@@ -125,7 +125,7 @@ You've now extended your app to show some of the user's files by using Microsoft
 1. Your browser should point to `http://localhost:8080`.
 1. Select the **Sign in with Microsoft** button to sign in with your Microsoft 365 account.
 
-    :::image type="content" source="../media/3-sign-in-button.png" alt-text="Screenshot of the sign in button.":::
+    :::image type="content" source="../media/3-sign-in-button.png" alt-text="Screenshot of the sign-in button.":::
 
 1. Sign in by using an account in the same Microsoft 365 developer tenant where you registered the Azure AD application.
 1. After you're signed in successfully, confirm that a welcome message and a button to show a profile photo appear.

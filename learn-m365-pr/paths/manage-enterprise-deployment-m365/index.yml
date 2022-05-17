@@ -20,6 +20,9 @@ roles:
 - administrator
 products: 
 - m365
+subjects:
+- device-management
+- cloud-security
 modules:
 - learn-m365-pr.introduction-to-modern-management-in-microsoft-365
 - learn-m365-pr.automate-windows-deployments-by-using-windows-autopilot

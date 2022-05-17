@@ -29,6 +29,9 @@ roles:
 products:
 - power-bi
 - azure-synapse-analytics
+subjects:
+- data-analytics
+- productivity
 units:
 - learn.wwl.advance-power-bi-premium-for-enterprise-analytics-market-beyond.introduction
 - learn.wwl.advance-power-bi-premium-for-enterprise-analytics-market-beyond.understand-evolution-of

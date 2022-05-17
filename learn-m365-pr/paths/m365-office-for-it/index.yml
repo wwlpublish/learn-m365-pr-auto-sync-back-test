@@ -22,6 +22,8 @@ products:
 - m365
 - office
 - office-365
+subjects:
+- device-management
 modules:
 - learn-m365-office.m365-office-it-overview
 - learn-m365.m365-office-it-prepare

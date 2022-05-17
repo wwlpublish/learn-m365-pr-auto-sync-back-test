@@ -27,6 +27,10 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- information-protection-governance
+- compliance
+- cloud-security
 modules:
 - learn.wwl.evaluate-your-compliance-readiness
 - learn.wwl.implement-compliance-solutions

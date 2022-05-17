@@ -15,7 +15,7 @@ Here are some important things to remember about published retention labels.
 - Users do not need to be trained on your classifications or governance policies and can focus on their work.
 - You do not need to rely on users to classify their content correctly.
 
-Navigate to **Microsoft 365 compliance center > Information Governance > Label policies > Auto-apply a label to auto-apply retention labels**.
+Navigate to **Microsoft Purview compliance portal > Data Lifecycle Management > Label policies > Auto-apply a label to auto-apply retention labels**.
 
 Creating an auto-apply retention label policy consists of these steps:
 

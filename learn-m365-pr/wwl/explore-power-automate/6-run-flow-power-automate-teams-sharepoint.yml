@@ -4,13 +4,12 @@ title: Run a flow in Power Automate, Teams, and SharePoint
 metadata:
   title: Run a flow in Power Automate, Teams, and SharePoint
   description: "Run a flow in Power Automate, Teams, and SharePoint"
-  ms.date: 09/10/2021
+  ms.date: 04/15/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 5
 content: |

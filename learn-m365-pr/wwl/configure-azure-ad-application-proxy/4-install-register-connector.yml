@@ -4,12 +4,13 @@ title: Install and register a connector
 metadata:
   title: Install and register a connector
   description: "Install and register a connector"
-  ms.date: 07/12/2021
+  ms.date: 04/27/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/4-install-register-connector.md)]

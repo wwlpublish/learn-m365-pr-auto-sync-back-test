@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-directory-synchronization-tools.monitor-synchronization-services-using-health
+title: Monitor Azure AD Connect synchronization services using Azure AD Connect Health
+metadata:
+  title: Monitor Azure AD Connect synchronization services using Azure AD Connect Health
+  description: "Monitor Azure AD Connect synchronization services using Azure AD Connect Health"
+  ms.date: 04/21/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-monitor-synchronization-services-using-health.md)]

@@ -44,7 +44,7 @@ quiz:
       
     - content: "Which of the following statements is accurate?"
       choices:
-      - content: "Files sent between users in Microsoft 365 are encrypted using BitLocker."
+      - content: "Files sent between users in Microsoft Purview are encrypted using BitLocker."
         isCorrect: false
         explanation: "Microsoft 365 encrypts data-in-transit using TLS."
       - content: "Microsoft 365 uses service encryption to encrypt customer data at the application layer."

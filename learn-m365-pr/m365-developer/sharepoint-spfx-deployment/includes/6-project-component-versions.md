@@ -2,25 +2,17 @@ In this unit, you'll learn how versioning works in SharePoint Framework solution
 
 ## Understand version numbers in SharePoint Framework projects
 
-SharePoint Framework projects have two different things that you can version.
+SharePoint Framework projects have three things that you can version. You can assign a version to each component, such as a web part or an extension, in the package. You can assign a version to the Features in the package. And you can assign a version the package itself.
 
-In a SharePoint Framework project, you can assign a version to the component itself, such as a web part or an extension. You can also version the entire SharePoint Framework package.
+Versioning of components is exclusively used for documentation purposes. Versioning of Features and the package is also used for documentation purposes, however there are scenarios where you may be required to increment the version number for one or more Features and/or the package version number to see the effects of your changes.
 
-When updating a component or package, it isn't required to increment the version numbers, versioning is mostly used for documentation purposes. However there are some scenarios that require you to increment the versions of packages and components.
+When you change the code for a SharePoint Framework component, you'll need to rebuild, bundle, package, and redeploy the solution to SharePoint. When the package is redeployed, all existing code files are automatically overwritten with the new files regardless of whether the package version number changed or not.
 
-When you change the code for a SharePoint Framework component, you'll need to rebuild, bundle, package, and redeploy the solution to SharePoint. When the package is redeployed, all existing code files are automatically overwritten with the new files regardless if the version number changed or not.
+When you add new web parts to a SharePoint Framework project, you'll need to rebuild, bundle, package, and redeploy the solution to SharePoint. When the package is redeployed, the new web parts will be immediately available regardless of whether the package version number changed or not.
 
-The only time a version number can impact updating a SharePoint package or component is when you increment the package version. When SharePoint detects a new version number for an updated package, it will trigger SharePoint's app upgrade process. Nothing happens automatically, but the app can now be upgraded.
+When you add new extensions to a SharePoint Framework project, you don't need to increment any version numbers for the new extensions to be available after you rebuild, bundle, package, and redeploy the solution to SharePoint.
 
-## Update SharePoint Framework components and incrementing versions
-
-The version number of components is set in the component's manifest file. The `version` property is set to a string as shown in the following figure:
-
-![Screenshot of a component manifest version](../media/06-component-version.png)
-
-If this value is set to `*`, the `version` property from the project's **package.json** file is used.
-
-By setting the version number in each component manifest, different components in the resulting SharePoint package can each share the same version number or they can have unique version numbers.
+If you don't enable tenant wide deployment, you'll need to increment both the package version and the version number of the Feature or Features that provision resources associated with the extensions. Then you need to rebuild, bundle, package, and redeploy the solution to SharePoint. Incrementing the package version enables you to update the app in site collections where it's been added. Incrementing the Feature version indicates to SharePoint that the Feature needs to be updated during the app update process.
 
 ## Update the SharePoint Framework package version
 
@@ -30,26 +22,17 @@ The version number for the package is defined in the **./config/package-solution
 
 If you deploy an updated SharePoint package without changing the version numbers, SharePoint will still update the existing deployed component runtime files, including the JavaScript bundles.
 
-The package version is used for documentation and to trigger the SharePoint app upgrade process. The app upgrade process is required when you want to add a new component to your project.
+The package version is used for documentation and to trigger the SharePoint app upgrade process. The app upgrade process may be required when new components are added to a project.
 
-Consider the following example of a **./config/package-solution.json** file:
+## Update SharePoint Framework components and incrementing versions
 
-```json
-{
-  "solution": {
-    "name": "deployment-demo-client-side-solution",
-    "id": "c07d1ae7-7e7c-4e4b-a920-3492d034ceae",
-    "version": "1.0.0.0",
-    "includeClientSideAssets": true,
-    "isDomainIsolated": false
-  },
-  "paths": {
-    "zippedPackage": "solution/deployment-demo.sppkg"
-  }
-}
-```
+The version number of components is set in the component's manifest file. The `version` property is set to a string as shown in the following figure:
 
-The package is version 1.0.0.0. If I added a new SharePoint Framework component to this package, I would need to increment this version for SharePoint to give site owners the ability to upgrade any existing app instances of this package. Otherwise, the SharePoint feature that provisions the new web part's definition file to the Web Part Gallery can't get reactivated.
+![Screenshot of a component manifest version.](../media/06-component-version.png)
+
+If this value is set to `*`, the `version` property from the project's **package.json** file is used.
+
+By setting the version number in each component manifest, different components in the resulting SharePoint package can each share the same version number or they can have unique version numbers.
 
 ## Update the version in the package.json file
 

@@ -26,6 +26,10 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- productivity
+- storage
+- data-management
 modules:
 - learn.wwl.plan-your-tenant-microsoft-365
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365

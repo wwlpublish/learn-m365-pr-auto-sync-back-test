@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-administrative-roles-microsoft-365.elevate-privileges-using-azure-ad-privileged-identity-management
+title: Elevate privileges using Azure AD Privileged Identity Management
+metadata:
+  title: Elevate privileges using Azure AD Privileged Identity Management
+  description: "Elevate privileges using Azure AD Privileged Identity Management"
+  ms.date: 04/13/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/7-elevate-privileges-using-azure-ad-privileged-identity-management.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following items describes the eligible admin process?"
+    choices:
+    - content: "The Global Admin must assign an eligible user standing admin access to become an active admin"
+      isCorrect: false
+      explanation: "Incorrect. This item doesn't describe how a user can become an eligible admin."
+    - content: "An eligible user must sign up to become an active admin for a specific date"
+      isCorrect: false
+      explanation: "Incorrect. This item doesn't describe how a user can become an eligible admin."
+    - content: "A user with an inactive role must complete an activation process to activate the role for a predetermined amount of time"
+      isCorrect: true
+      explanation: "Correct. Eligible admins are users that need privileged access periodically, but not all-day, every day. The role is inactive until the user needs access. At that point, the user must complete an activation process to become an active admin for a predetermined amount of time."

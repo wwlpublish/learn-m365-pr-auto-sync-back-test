@@ -21,5 +21,6 @@ At the end of this module, you should be able to:
 
 ## Prerequisites
 
+- An Azure account with an [active subscription](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)
 - Familiarity with server and client management concepts and tools
 - Familiarity with Windows virtualization technologies, like Remote Desktop Services

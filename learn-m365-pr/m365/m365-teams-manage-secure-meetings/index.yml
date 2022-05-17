@@ -25,6 +25,10 @@ roles:
 - administrator
 products:
 - office-teams
+subjects:
+- data-management
+- communication
+- cloud-security
 units:
 - learn-m365.teams.manage-secure-meetings.1-introduction
 - learn-m365.teams.manage-secure-meetings.2-address-threats-teams-meetings

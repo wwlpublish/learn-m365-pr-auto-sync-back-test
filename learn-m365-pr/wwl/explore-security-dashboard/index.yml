@@ -31,6 +31,10 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- threat-protection
+- data-visualization
+- cloud-security
 units:
 - learn.wwl.explore-security-dashboard.introduction
 - learn.wwl.explore-security-dashboard.examine-threat-detections

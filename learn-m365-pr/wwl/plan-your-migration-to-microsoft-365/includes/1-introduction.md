@@ -1,4 +1,10 @@
-When you move an enterprise organization to Microsoft 365, it's important to plan exactly what steps you want to take, when to complete them, and who will complete them. This module examines the key steps involved in planning such a move by reviewing the Deployment Planning Checklist for Microsoft 365 that's provided by Microsoft.
+When you move an enterprise organization to Microsoft 365, it's important to plan exactly:
+
+ -  The steps you want to take.
+ -  When you want to complete each step.
+ -  The users who will complete each step.
+
+This module examines the key steps involved in planning such a move by reviewing the Deployment Planning Checklist for Microsoft 365 that's provided by Microsoft.
 
 Once you've completed this module, you should have a greater understanding of what is required to design a plan that defines your company’s migration needs.
 

@@ -3,7 +3,7 @@ uid: learn-m365.m365-security-monitor-sensitive-data
 metadata:
   title: Monitor and analyze sensitive data
   description: Learn how to use information protection analytics and reporting to maximize data governance and protection.
-  ms.date: 01/13/2022
+  ms.date: 05/02/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -14,8 +14,8 @@ abstract: |
   At the end of this module, you should be able to:
   - Monitor data classifications and sensitivity labels
   - Use Microsoft analytics and reporting tools 
-  - Use the Microsoft 365 compliance center for organizational security
-  - Navigate the Microsoft 365 compliance center for compliance with standards and regulations
+  - Use the Microsoft Purview compliance portal for organizational security
+  - Navigate the Microsoft Purview compliance portal for compliance with standards and regulations
 
 prerequisites: | 
  - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/learn/paths/m365-fundamentals/)
@@ -30,6 +30,8 @@ products:
 - office-365
 - m365-security-center
 - m365-information-protection
+subjects:
+- information-protection-governance
 units:
 - learn-m365.m365-security-monitor-sensitive-data.introduction
 - learn-m365.m365-security-monitor-sensitive-data.monitor-sensitive-data

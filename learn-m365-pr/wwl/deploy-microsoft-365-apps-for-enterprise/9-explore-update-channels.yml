@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-microsoft-365-apps-for-enterprise.explore-update-channels
+title: Explore the update channels for Microsoft 365 Apps for enterprise
+metadata:
+  title: Explore the update channels for Microsoft 365 Apps for enterprise
+  description: "Explore the update channels for Microsoft 365 Apps for enterprise"
+  ms.date: 04/12/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/9-explore-update-channels.md)]

@@ -1,12 +1,12 @@
 Site management takes place in the SharePoint admin center.  The **Active sites** page of the SharePoint admin center lets you view the SharePoint sites in your organization, including communication sites and sites that belong to Microsoft 365 Groups. It also lets you sort and filter sites, search for a site, and create new sites.
 
-![SharePoint admin center Active sites screen](../media/admin-center-active-sites.png)
+:::image type="content" source="../media/admin-center-active-sites.png" alt-text="Sharepoint admin center Active sites screen." border="false":::
 
 From the admin center, you can:
 
 - **Create a site.** From here, you can create a team site (which will create a Microsoft 365 Group) or a communication site.
 
-  ![Create a site in the SharePoint admin center](../media/admin-center-create-site.png)
+  :::image type="content" source="../media/admin-center-create-site.png" alt-text="Create a site in the SharePoint admin center." border="false":::
 
 - **Delete a site.** Global administrators and SharePoint administrators can delete sites. Deleting sites that are associated with a Microsoft 365 Group will delete the group and all its resources, including the Outlook mailbox and calendar, and any Teams channels.
 - **Add or remove owners.** For a group-connected team site, you can add and remove group owners. For other sites, you can change the primary administrator and add or remove other administrators.

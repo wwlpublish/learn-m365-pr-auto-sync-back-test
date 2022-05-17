@@ -2,14 +2,14 @@
 uid: learn-m365.m365-security-digital-estate
 metadata:
   title: Information protection and the growing digital estate 
-  description: Learn how Microsoft Information Protection helps your organization meet standards and requirements through supporting classification methods for end users. 
+  description: Learn how Microsoft Purview Information Protection helps your organization meet standards and requirements through supporting classification methods for end users. 
   ms.date: 02/11/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Information protection and the growing digital estate  
-summary: Learn how Microsoft Information Protection helps your organization meet standards and requirements through supporting classification methods for end users.
+summary: Learn how Microsoft Purview Information Protection helps your organization meet standards and requirements through supporting classification methods for end users.
 abstract: |
   At the end of this module, you should be able to:
   - Explain the growing digital estate of data
@@ -26,6 +26,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- information-protection-governance
 units:
 - learn-m365.m365-security-digital-estate.introduction
 - learn-m365.m365-security-digital-estate.growing-digital-estate

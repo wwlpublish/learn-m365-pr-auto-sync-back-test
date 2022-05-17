@@ -22,6 +22,9 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- identity-access
+- communication
 modules:
 - learn.wwl.manage-access-for-external-users
 - learn.wwl.implement-security-for-microsoft-teams

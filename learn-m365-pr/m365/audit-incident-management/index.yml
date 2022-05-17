@@ -31,6 +31,9 @@ roles:
 - risk-practitioner
 products:
 - m365
+subjects:
+- cloud-security
+- threat-protection
 units:
 - learn-m365.audit-incident-management.introduction
 - learn-m365.audit-incident-management.incident-response-phase-one

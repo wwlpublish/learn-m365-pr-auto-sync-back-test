@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-assign-admin-plan.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Confirm what you've learned about Microsoft Search.
+  ms.date: 01/12/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 4
+quiz:
+  title: "Check your knowledge"
+  questions:
+    - content: "Who can assign and edit Search admin and Search editor roles?"
+      choices:
+      - content: "Global admin."
+        isCorrect: true
+        explanation: "That's correct. Only a Global admin can assign the roles of Search admin or Search editor."
+      - content: "Any user with access to the Microsoft 365 admin center."
+        isCorrect: false
+        explanation: "That’s incorrect. While Microsoft Search roles are administered from the Microsoft 365 admin center, only a Global admin can assign and edit admin roles."
+      - content: "Admins who manage Office 365 Group settings."
+        isCorrect: false
+        explanation: That’s incorrect. Search roles aren't managed from Office 365 Groups settings."
+
+    - content: "Where can top search queries and other usage data be reviewed?"
+      choices:
+      - content: "From SharePoint search reports."
+        isCorrect: false
+        explanation: "That's incorrect. Top queries and usage data for Microsoft Search aren't available from SharePoint reports."
+      - content: "From the Search & intelligence section of the Microsoft 365 admin center."
+        isCorrect: true
+        explanation: "That’s correct. Search admins can access usage data from the Search & intelligence section of the Microsoft 365 admin center."
+      - content: "Any user can search for ‘top queries’ using Microsoft Search."
+        isCorrect: false
+        explanation: "That’s incorrect. Only Search admins can see an organization’s top search queries and other usage data."
+
+    - content: "An organization wants to implement Microsoft Search. Which of the following steps can help it understand the information its users want and need?"
+      choices:
+      - content: "Use subject matter experts (SMEs) in its organization, analyze search logs, support or help desk data, and user surveys and feedback."
+        isCorrect: true
+        explanation: "That’s correct. These are a few ways to understand the work info users want and need."
+      - content: "Publish content and answers, then reach out to users for suggestions."
+        isCorrect: false
+        explanation: "That’s incorrect. We recommend reaching out to users for content suggestions early in the adoption process."
+      - content: "Work with the SharePoint admin team to determine what info is needed. Wait to hear from other teams after deployment."
+        isCorrect: false
+        explanation: "That's incorrect. We suggest working with teams across your org when planning content." 

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-threat-protection-microsoft-365-defender.manage-the-tenant-allow-and-block-list-in-microsoft-365-defender
+title: Manage the Tenant Allow/Block list in Microsoft 365 Defender
+metadata:
+  title: Manage the Tenant Allow/Block list in Microsoft 365 Defender
+  description: "Manage the Tenant Allow/Block list in Microsoft 365 Defender"
+  ms.date: 04/29/2022
+  author: wwlpublish
+  ms.author: maquinl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/8-manage-tenant-allow-block-list.md)]

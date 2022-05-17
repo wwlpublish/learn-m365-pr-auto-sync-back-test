@@ -28,6 +28,9 @@ products:
 - m365
 - m365-security-center
 - m365-threat-protection
+subjects:
+- cloud-security
+- threat-protection
 units:
 - learn-m365-pr.defender-investigate-incidents.introduction
 - learn-m365-pr.defender-investigate-incidents.working-incidents

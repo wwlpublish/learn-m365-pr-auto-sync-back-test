@@ -15,7 +15,7 @@ content: |
 quiz:
   title: Test your knowledge
   questions:
-  - content: "Simple file uploads differ from large file uploads differ in all except which of the following ways?"
+  - content: "Simple file uploads differ from large file uploads in all except which of the following ways?"
     choices:
     - content: "Large file uploads allow you to upload multiple chunks of a file in a resumable session, while simple file uploads involve a single request."
       isCorrect: false

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.microsoft-search-create-customize-answers.bookmarks-questions-answers
+title: Create bookmark and Q&A answers
+metadata:
+  title: Create bookmarks and Q&A answers
+  description: How to add bookmarks and Q&As, review the default suggested bookmarks, and where recommended bookmarks appear in the admin center.
+  ms.date: 03/30/2022
+  author: dawholl
+  ms.author: dawholl
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/bookmarks-questions-answers.md)]

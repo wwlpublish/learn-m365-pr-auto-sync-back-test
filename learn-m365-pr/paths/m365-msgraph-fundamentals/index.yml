@@ -24,6 +24,9 @@ roles:
 products: 
 - m365
 - ms-graph
+subjects:
+- custom-app-development
+- data-management
 modules:
 - learn-m365.msgraph-intro-overview
 - learn-m365.msgraph-javascript-app

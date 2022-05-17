@@ -3,9 +3,9 @@ uid: learn-m365.workplace-analytics-teams-insights
 metadata:
   title: Measure Teams collaboration with the Microsoft Teams insights dashboard in Power BI through Workplace Analytics with Viva Insights
   description: Learn how to prepare and generate actionable data by using Workplace Analytics with Viva Insights and the Teams insights dashboard in Power BI.  Analyze Microsoft Teams adoption trends from the populated Power BI reports.   
-  ms.date: 02/02/2022
-  author: madehmer
-  ms.author: helayne
+  ms.date: 04/25/2022
+  author: maggierui
+  ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Measure Teams collaboration with the Microsoft Teams insights dashboard in Power BI through Workplace Analytics with Viva Insights
@@ -33,6 +33,13 @@ products:
 - m365-workplace-analytics
 - office-teams
 - power-bi
+- viva
+- viva-insights
+subjects:
+- collaboration
+- data-analytics
+- cloud-computing
+- employee-engagement
 units:
 - learn-m365.workplace-analytics-teams-insights.introduction
 - learn-m365.workplace-analytics-teams-insights.setup

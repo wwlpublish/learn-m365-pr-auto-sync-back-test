@@ -101,7 +101,7 @@ You can also check the status of a new user in the Microsoft admin center. From 
 
 In the following interactive exercise you will learn how to navigate to the new user status screen and find useful troubleshooting information.
 
-[Troubleshoot channels and apps interactive walkthrough](https://edxinteractivepage.blob.core.windows.net/edxpages/M365%20Troubleshoot/Troubleshooting%20channels%20and%20apps/index.html )
+[Troubleshoot channels and apps interactive walkthrough](https://edxinteractivepage.blob.core.windows.net/edxpages/M365_Troubleshoot/Troubleshooting%20channels%20and%20apps/index.html)
 
 ## Troubleshoot deletion issues in teams and channels
 

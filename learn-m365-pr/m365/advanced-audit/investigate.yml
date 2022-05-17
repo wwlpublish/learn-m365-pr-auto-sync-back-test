@@ -3,8 +3,8 @@ uid: learn-m365.compliance-discover-advanced-audit.investigate
 title: Investigate compromised email accounts
 metadata:
   title: Investigate compromised email accounts
-  description: Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements in Advanced Auditing in Microsoft 365 include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
-  ms.date: 03/10/2022
+  description: Microsoft Purview Audit (Premium) delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements in Audit (Premium) include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
+  ms.date: 04/29/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

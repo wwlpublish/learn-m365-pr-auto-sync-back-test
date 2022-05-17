@@ -3,7 +3,7 @@ uid: learn-m365.mcas-siem-integration.2-connect-azure-sentinel
 metadata:
   title: Connect Microsoft Sentinel to Microsoft Defender for Cloud Apps
   description: Learn how to connect Microsoft Sentinel to Microsoft Defender for Cloud Apps
-  ms.date: 02/11/2022
+  ms.date: 04/01/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

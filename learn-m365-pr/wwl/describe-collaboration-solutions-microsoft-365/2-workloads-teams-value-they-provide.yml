@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.describe-collaboration-solutions-microsoft-365.workloads-of-teams-value-that-they-provide
+title: Describe the collaboration workloads of Teams and the value that they provide
+metadata:
+  title: Describe the collaboration workloads of Teams and the value that they provide
+  description: "Describe the collaboration workloads of Teams and the value that they provide"
+  ms.date: 04/28/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/2-workloads-teams-value-they-provide.md)]

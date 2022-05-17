@@ -1,6 +1,6 @@
-:::image type="icon" source="../media/step-3-office-and-lob-app-delivery-wheel-main.png" border="false" alt-text="Step 3 - Deliver Office and business apps is highlighted on the deployment wheel.":::
+:::image type="icon" source="../media/step-3-office-and-lob-app-delivery-wheel-main.png" :::
 
-:::image type="icon" source="../media/step-3-icon.png" border="false" alt-text="Icon for the Deliver Office and business apps step.":::
+:::image type="icon" source="../media/step-3-icon.png" :::
 
 You can deploy Microsoft 365 Apps using several methods:
 
@@ -12,14 +12,13 @@ Microsoft 365 Apps and Office 2019 are both installed using **Click-to-Run,** wh
 
 Office applications are delivered and managed via the **Office Deployment Tool** (also known as the Office Customization Tool), which is the Office setup engine needed to download, configure, and customize your Office apps. With this tool, you can set the applications and languages to be installed, the method for updating the applications, application preferences, and installation experience settings.
 
-
-:::image type="content" source="../media/step-3-office-and-lob-app-delivery-media-7-50.png" alt-text="Screenshot of the Office Customization Tool.":::
+:::image type="content" source="../media/step-3-office-and-lob-app-delivery-media-7-50.png" alt-text="Screenshot of the Office Customization Tool the in Office Client with the Deployment settings page open. Sections in the page include Architecture and Products." lightbox="../media/step-3-office-and-lob-app-delivery-media-7-50.png" border="false":::
 
 ## Deploy Office with the Microsoft Endpoint Configuration Manager
 
 If you use Configuration Manager, you can use it for broad deployment of Microsoft 365 Apps. Configuration Manager has native support for the updated Office Customization Tool, package customization for Click-to-Run at install time, and native support for software update management after installation.
 
-:::image type="content" source="../media/step-3-office-and-lob-app-delivery-media-6-50.png" alt-text="Screenshot of the Microsoft Endpoint Configuration Manager highlighting the Office 365 Installer and Microsoft 365 native support." lightbox="../media/step-3-office-and-lob-app-delivery-media-6-50.png":::
+:::image type="content" source="../media/step-3-office-and-lob-app-delivery-media-6-50.png" alt-text="Screenshot of the Microsoft Endpoint Configuration Manager highlighting the Office 365 Installer and Microsoft 3 65 native support." lightbox="../media/step-3-office-and-lob-app-delivery-media-6-50.png" border="false":::
 
 ## Deploy Office using Intune
 
@@ -32,7 +31,7 @@ If your organization uses Microsoft Intune, you can assign Microsoft 365 Apps ap
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE44vA8) of the interactive guide (captions available in more languages).
 
-[ ![Slide showing a play button for the Deploy Microsoft 365 Apps in your organization interactive guide.](../media/lab-deploy-office.png)](https://mslearn.cloudguides.com/guides/Deploy%20Office%20365%20ProPlus%20in%20your%20organization)
+[:::image type="content" source="../media/lab-deploy-office.png" alt-text="Slide showing a play button for the Deploy Microsoft 3 65 Apps in your organization interactive guide." border="false":::](https://mslearn.cloudguides.com/guides/Deploy%20Office%20365%20ProPlus%20in%20your%20organization)
 
 > [!NOTE]
 > The video uses "Office 365 ProPlus" instead of "Microsoft 365 Apps." The video will be updated to use the current brand.

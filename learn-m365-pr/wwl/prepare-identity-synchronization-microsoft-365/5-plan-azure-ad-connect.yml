@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.prepare-identity-synchronization-microsoft-365.plan-azure-ad-connect
+title: Plan for directory synchronization using Azure AD Connect
+metadata:
+  title: Plan for directory synchronization using Azure AD Connect
+  description: "Plan for directory synchronization using Azure AD Connect"
+  ms.date: 04/24/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/5-plan-azure-ad-connect.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Tailspin Toys, you're planning to use Azure AD Connect as your directory synchronization tool. Tailspin's Active Directory has less than 100,000 objects. Where should you install Azure AD Connect?"
+    choices:
+    - content: "You must plan for another SQL Server to manage the database and load"
+      isCorrect: false
+      explanation: "Incorrect. You must plan for another SQL Server to manage the database and load only when your AD has more than 100,000 objects."
+    - content: "You can use more than one Azure AD Connect server connected to a single Azure AD"
+      isCorrect: false
+      explanation: "Incorrect. You can't use more than one Azure AD Connect server connected to a single Azure AD. However, that has no bearing on where to install Azure AD Connect."
+    - content: "You can use the light version of SQL Server Express that will be installed on the Azure AD Connect server"
+      isCorrect: true
+      explanation: "Correct. When you have less than 100,000 objects in your AD, you can use the light version of SQL Server Express that will be installed on the Azure AD Connect server."

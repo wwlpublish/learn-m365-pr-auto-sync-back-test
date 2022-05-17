@@ -23,7 +23,11 @@ roles:
 - administrator
 products: 
 - m365
+- viva
 - viva-topics
+subjects:
+- modern-work
+- employee-engagement
 units:
 - learn-m365-pr.viva-topics-prepare.introduction
 - learn-m365-pr.viva-topics-prepare.plan

@@ -50,7 +50,7 @@ The following interactive exercise guides you though using the Call Quality Dash
 
 Once you have completed this exercise you will know how to access the Call Quality Dashboard and be ready to explore the available reports.
 
-[Troubleshooting voice issues interactive walkthrough](https://edxinteractivepage.blob.core.windows.net/edxpages/M365%20Troubleshoot/Troubleshooting%20voice%20issues/index.html)
+[Troubleshooting voice issues interactive walkthrough](https://edxinteractivepage.blob.core.windows.net/edxpages/M365_Troubleshoot/Troubleshooting%20voice%20issues/index.html)
 
 ## Troubleshoot call drops
 

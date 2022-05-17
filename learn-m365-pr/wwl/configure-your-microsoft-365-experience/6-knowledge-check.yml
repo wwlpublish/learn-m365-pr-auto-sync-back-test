@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/29/2022
+  ms.date: 04/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "The language used by Exchange Online will still be French"
       isCorrect: false
-      explanation: "Incorrect. This item isn't the aspect of your Microsoft 365 deployment that will still be in French. Try again."
+      explanation: "Incorrect. This item isn't the aspect of your Microsoft 365 deployment that will still be in French."
     - content: "The language used by Outlook will still be French"
       isCorrect: false
-      explanation: "Incorrect. This item isn't the aspect of your Microsoft 365 deployment that will still be in French. Try again."
+      explanation: "Incorrect. This item isn't the aspect of your Microsoft 365 deployment that will still be in French."
     - content: "The language used by SharePoint Online will still be French"
       isCorrect: true
       explanation: "Correct. If you change the Preferred language after you sign up, the language used by SharePoint Online will remain in the original language selected. The language used by SharePoint Online can't be changed."
@@ -32,10 +32,10 @@ quiz:
     choices:
     - content: "Microsoft Message Analyzer"
       isCorrect: false
-      explanation: "Incorrect. This tool is used to troubleshoot network issues. Try again."
+      explanation: "Incorrect. This tool is used to troubleshoot network issues."
     - content: "Support and Recovery Assistant"
       isCorrect: true
       explanation: "Correct. The SARA tool will check DNS records and mail flow to test whether your mailing policies are working properly."
     - content: "Azure AD Connect"
       isCorrect: false
-      explanation: "Incorrect. This tool is used to synchronize on-premises Active Directory users and groups with Azure AD in Microsoft 365. Try again."
+      explanation: "Incorrect. This tool is used to synchronize on-premises Active Directory users and groups with Azure AD in Microsoft 365."

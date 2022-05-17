@@ -3,7 +3,7 @@ uid: learn.wwl.manage-synchronized-identities
 metadata:
   title: Manage synchronized identities
   description: "Manage synchronized identities"
-  ms.date: 07/12/2021
+  ms.date: 04/22/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,11 +11,12 @@ metadata:
 title: Manage synchronized identities
 summary: This module examines how to manage user identities when Azure AD Connect is configured, how to manage users and groups in Microsoft 365 with Azure AD Connect, and how to maintain directory synchronization.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   *   Ensure your users synchronize efficiently
   *   Deploy Azure AD Connect
   *   Manage groups with directory synchronization
   *   Use Azure AD Connect Sync Security Groups to help maintain directory synchronization
+  *   Configure object filters for directory synchronization
   *   Troubleshoot directory synchronization using various troubleshooting tasks and tools
 prerequisites: |
   None
@@ -27,14 +28,16 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
+subjects:
+- identity-access
 units:
 - learn.wwl.manage-synchronized-identities.introduction
 - learn.wwl.manage-synchronized-identities.manage-users-with-directory-synchronization
 - learn.wwl.manage-synchronized-identities.manage-groups-with-directory-synchronization
 - learn.wwl.manage-synchronized-identities.use-azure-ad-connect-sync-security-groups
+- learn.wwl.manage-synchronized-identities.configure-object-filters-directory-synchronization
 - learn.wwl.manage-synchronized-identities.troubleshoot-directory-synchronization
 - learn.wwl.manage-synchronized-identities.knowledge-check
 - learn.wwl.manage-synchronized-identities.summary

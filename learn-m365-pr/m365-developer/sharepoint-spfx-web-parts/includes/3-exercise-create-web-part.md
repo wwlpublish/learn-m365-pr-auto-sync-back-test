@@ -1,7 +1,7 @@
 In this exercise, you'll create a SharePoint Framework client-side web part.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.13.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
 
 Open a command prompt and change to the folder where you want to create the project.
 
@@ -14,17 +14,13 @@ yo @microsoft/sharepoint
 Use the following to complete the prompt that is displayed:
 
 - **What is your solution name?**: HelloWorld
-- **Only SharePoint Online (latest) is supported.  For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
-- **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
-- **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?** No
 - **Which type of client-side component to create?**: WebPart
 - **What is your Web part name?**: HelloWorld
-- **What is your Web part description?**: HelloWorld description
-- **Which framework would you like to use?**: No JavaScript framework
+- **Which framework would you like to use?**: No framework
 
-After provisioning the folders required for the project, the generator will install all the dependency packages using NPM.
+After the generator scaffolds the folders required for the project, the generator will install all the dependency packages using npm.
 
-When NPM completes downloading all dependencies, ensure the developer certificate is installed by executing the following command:
+When npm completes downloading all dependencies, ensure the developer certificate is installed by executing the following command:
 
 ```console
 gulp trust-dev-cert
@@ -42,7 +38,7 @@ Wait for the **reload** subtask to finish executing. At this point, the web part
 
 ![Screenshot of the gulp serve output](../media/03-testing-01.png)
 
-Open a browser and navigate to the developer site you created in the first exercise. If prompted, log in using your Work or School credentials. Append the following to the end of the site's URL: **/_layouts/workbench.aspx**. This is the SharePoint-hosted workbench.
+Open a browser and navigate to any SharePoint site in your tenant. If prompted, sign in using your Work or School credentials. Append the following to the end of the site's URL: **/_layouts/workbench.aspx**. This is the SharePoint-hosted workbench.
 
 ![Screenshot of the SharePoint Workbench](../media/03-testing-02.png)
 
@@ -68,22 +64,31 @@ Next, update the code in the `render()` method to add a button that responds to 
 
 Locate and open the file **src/webparts/helloWorld/HelloWorldWebPart.ts**.
 
-Within this file, locate the `render()` method. Locate the following line:
+Within this file, locate the `render()` method. Locate the following lines:
 
 ```html
-<a href="https://aka.ms/spfx" class="${ styles.button }">
+<h4>Learn more about SPFx development:</h4>
+<ul class="${styles.links}">
+  <li><a href="https://aka.ms/spfx" target="_blank">SharePoint Framework Overview</a></li>
+  <li><a href="https://aka.ms/spfx-yeoman-graph" target="_blank">Use Microsoft Graph in your solution</a></li>
+  <li><a href="https://aka.ms/spfx-yeoman-teams" target="_blank">Build for Microsoft Teams using SharePoint Framework</a></li>
+  <li><a href="https://aka.ms/spfx-yeoman-viva" target="_blank">Build for Microsoft Viva Connections using SharePoint Framework</a></li>
+  <li><a href="https://aka.ms/spfx-yeoman-store" target="_blank">Publish SharePoint Framework applications to the marketplace</a></li>
+  <li><a href="https://aka.ms/spfx-yeoman-api" target="_blank">SharePoint Framework API reference</a></li>
+  <li><a href="https://aka.ms/m365pnp" target="_blank">Microsoft 365 Developer Community</a></li>
+</ul>
 ```
 
-...and replace the URL with a simple hash symbol:
+Replace them with the following:
 
 ```html
-<a href="#" class="${ styles.button }">
+<button type="button">Show welcome message</button>
 ```
 
-Next, add the following code to the end of the `render()` method. This will wire up some code to the **click** event on the anchor tag and display an alert on the page.
+Next, add the following code to the end of the `render()` method. This will wire up some code to the **click** event on the button and display an alert on the page.
 
 ```typescript
-this.domElement.getElementsByClassName(`${ styles.button }`)[0]
+this.domElement.getElementsByTagName("button")[0]
   .addEventListener('click', (event: any) => {
     event.preventDefault();
     alert('Welcome to the SharePoint Framework!');
@@ -92,7 +97,7 @@ this.domElement.getElementsByClassName(`${ styles.button }`)[0]
 
 Save your changes. Wait a few seconds for the gulp **serve** task to rebuild your project, and then refresh the SharePoint Workbench so that you can test them.
 
-Select the **Learn More** button.
+Select the **Show welcome message** button.
 
 Notice the button triggers a JavaScript alert displaying the message you added in the above code.
 

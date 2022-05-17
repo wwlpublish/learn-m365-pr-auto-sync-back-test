@@ -13,6 +13,6 @@ Customers can validate Microsoft's TLS configurations by going to Qualys SSL Lab
 ## Learn more
 
 - [Encryption for Data-in-Transit](/microsoft-365/compliance/office-365-encryption-for-data-in-transit?azure-portal=true)
-- [Email encryption in Microsoft 365](/microsoft-365/compliance/email-encryption?azure-portal=true)
+- [Email encryption in Microsoft Purview](/microsoft-365/compliance/email-encryption?azure-portal=true)
 - [Technical reference details about encryption](/microsoft-365/compliance/technical-reference-details-about-encryption?azure-portal=true)
 - [Qualys SSL Labs](https://www.ssllabs.com/ssltest/?azure-portal=true)

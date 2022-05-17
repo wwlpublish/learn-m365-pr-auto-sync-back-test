@@ -26,6 +26,8 @@ roles:
 products:
   - m365-ems
   - defender-identity
+subjects:
+- identity-access
 units:
 - learn-m365-pr.defender-identity-plan.introduction
 - learn-m365-pr.defender-identity-plan.overview-architecture

@@ -86,7 +86,7 @@ It's time to see your application run locally.
     npm start
     ```
 
-1. If the app is configured correctly, you'll see a sign in button.
+1. If the app is configured correctly, you'll see a sign-in button.
 
     :::image type="content" source="../media/6-sign-in-button.png" alt-text="Screenshot showing the Sign-in with Microsoft button.":::
 

@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-security-solutions-microsoft-365.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 05/17/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As hackers around the globe launch increasingly sophisticated attacks, organizations need tools that provide extra protection. A typical outbreak consists of two parts. The first part is a zero-day attack that consists of malware with unknown signatures. What is the second part of the attack?"
+    choices:
+    - content: "A lateral move inside the network to gain further control of sensitive users"
+      isCorrect: false
+      explanation: "Incorrect. This action isn't the second part of the attack in a typical outbreak."
+    - content: "An elongated period of attack"
+      isCorrect: true
+      explanation: "Correct. Once the zero-day attack occurs, the next step is an elongated period of attack."
+    - content: "Compromising user credentials using brute force attacks, user group membership changes, and other methods"
+      isCorrect: false
+      explanation: "Incorrect. This action isn't the second part of the attack in a typical outbreak."
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson has been researching a Microsoft product that will monitor and analyze user activities and information across Contoso's network. This product will then create a behavioral baseline for each Consoto user, which the product will use to identify user anomalies with adaptive built-in intelligence. What is the product that will provide these features for Contoso?"
+    choices:
+    - content: "Microsoft Defender for Identity"
+      isCorrect: true
+      explanation: "Correct. Microsoft Defender for Identity monitors and analyzes user activities and information across your network. This analysis creates a behavioral baseline for each user. Defender for Identity then uses these behavioral baselines to help identify user anomalies with adaptive built-in intelligence. This reporting provides organizations with insights into suspicious activities and events, revealing the advanced threats, compromised users, and insider threats that they face."
+    - content: "Microsoft Defender for Endpoint"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Defender for Endpoint is a cloud delivered endpoint security solution that includes risk-based vulnerability management and assessment, attack surface reduction, behavioral based and cloud-powered next generation protection, endpoint detection and response, automatic investigation and remediation, managed hunting services, rich APIs, and unified security management."
+    - content: "Microsoft Defender for Office 365"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Defender for Office 365 safeguards your organization against malicious threats posed by email messages, links, and collaboration tools."
+  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer has been researching a Microsoft product that will provide Fabrikam's security analysts with reports and graphical views of the threat landscape in Fabrikam's tenant. This product provides actionable insights and recommendations on policy and enforcement. What is the product that will provide these features for Fabrikam?"
+    choices:
+    - content: "Microsoft Cloud App Security"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Cloud App Security provides insight into suspicious activity in Microsoft 365. This information gives organizations enhanced visibility and control over your Microsoft 365 tenant."
+    - content: "Microsoft Defender for Endpoint"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Defender for Endpoint is a cloud delivered endpoint security solution that includes risk-based vulnerability management and assessment, attack surface reduction, behavioral based and cloud-powered next generation protection, endpoint detection and response, automatic investigation and remediation, managed hunting services, rich APIs, and unified security management."
+    - content: "Microsoft 365 Threat explorer"
+      isCorrect: true
+      explanation: "Correct. Threat explorer provides security analysts with reports and graphical views of the threat landscape in their tenant. It provides actionable insights and recommendations on policy and enforcement. Threat explorer also provides details about threat families, global threats, top targeted users, and links to security analyst reports on malware families that summarize the threat."

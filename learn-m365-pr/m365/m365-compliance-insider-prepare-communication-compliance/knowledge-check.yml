@@ -3,7 +3,7 @@ uid: learn-m365.m365-compliance-insider-prepare-communication-compliance.knowled
 title: Knowledge check
 metadata:
   title: Knowledge check
-  description: Communication compliance in Microsoft 365 is a solution that helps organizations address code-of-conduct policy violations in company communications, while also assisting organizations in regulated industries meet specific supervisory compliance requirements. Communication Compliance uses machine learning to intelligently detect violations across different communication channels such as Microsoft Teams, Exchange Online, or Yammer messages.
+  description: Microsoft Purview Communication Compliance is a solution that helps organizations address code-of-conduct policy violations in company communications, while also assisting organizations in regulated industries meet specific supervisory compliance requirements. Communication Compliance uses machine learning to intelligently detect violations across different communication channels such as Microsoft Teams, Exchange Online, or Yammer messages.
   ms.date: 07/19/2021
   author: beccarobins
   ms.author: beccarobins
@@ -27,7 +27,7 @@ quiz:
         isCorrect: false
         explanation: "Risk management compliance helps identify and manage potential legal exposure and can help minimize risks before they can damage corporate operations."
 
-    - content: "The workflow for identifying and resolving compliance issues with communication compliance in Microsoft 365 can be broken down into four phases. In which phase do you review user activity history?"
+    - content: "The workflow for identifying and resolving compliance issues with Microsoft Purview Communication Compliance can be broken down into four phases. In which phase do you review user activity history?"
       choices:
       - content: "Remediate"
         isCorrect: false

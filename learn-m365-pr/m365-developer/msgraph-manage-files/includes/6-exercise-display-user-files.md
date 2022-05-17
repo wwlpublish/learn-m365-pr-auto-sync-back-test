@@ -28,7 +28,7 @@ Start by adding the Microsoft Graph call to the application.
 Next, add HTML that will display the list of files.
 
 1. In your code editor, open the **index.html** file.
-1. Extend the `content` block with a horizontal rule, label, and unordered list, as shown next.
+1. Extend the `content` block with a horizontal rule, label, and unordered list, as follows:
 
     ```html
     <div id="content" style="display: none;">
