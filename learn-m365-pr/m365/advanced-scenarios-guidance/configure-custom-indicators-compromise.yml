@@ -4,8 +4,8 @@ metadata:
   title: Configure custom indicators of compromise
   description: Advanced scenarios and guidance with Microsoft Defender for Cloud Apps
   ms.date: 03/11/2022
-  author: beccarobins
-  ms.author: beccarobins
+  author: dcurwin
+  ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Configure custom indicators of compromise
