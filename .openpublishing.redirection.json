@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "learn-m365-pr/paths/okr-champion/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/okr-leadership",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "learn-m365-pr/m365/endpoint-manager/setup-tenant-attach-using-configuration-manager/index.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/setup-tenant-attach-using-configuration-manager",
       "redirect_document_id": false

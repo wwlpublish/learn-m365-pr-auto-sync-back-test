@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-toolkit-improve-performance.4-optimize-graph-queries
 metadata:
   title: Optimize Microsoft Graph queries with the mgt-get component
   description: Learn how to optimize Microsoft Graph queries by using the Get component.
-  ms.date: 04/09/2021
+  ms.date: 05/04/2022
   author: aycabas
   ms.author: aycabas
   ms.topic: interactive-tutorial

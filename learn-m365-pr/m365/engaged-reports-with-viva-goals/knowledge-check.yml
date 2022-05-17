@@ -1,0 +1,63 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.engaged-reports-with-viva-goals.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Test your knowledge of OKRs
+  ms.date: 05/05/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+###########################################################################
+###
+### General guidance (https://review.docs.microsoft.com/learn-docs/docs/id-guidance-knowledge-check)
+###  - Questions are complete sentences ending with a question mark
+###  - No true/false questions
+###  - 3 answers per question
+###  - All answers about the same length
+###  - Numeric answers listed in sorted order
+###  - No "All of the above" and/or "None of the above" as answer choices
+###  - No "Not" or "Except" in questions
+###  - No second person ("you") in the questions or answers
+###  - Provide a meaningful explanation for both correct and incorrect answers
+###
+###########################################################################
+content: |
+quiz:
+  questions:
+  - content: "What are you able to Bookmark in Viva Goals?"
+    choices:
+    - content: "The time period selector"
+      isCorrect: false
+      explanation: "That's incorrect. You can bookmark different entities and reports in Viva Goals, so they can be found quickly in the future."
+    - content: "Explorer"
+      isCorrect: false
+      explanation: "That's incorrect. You can bookmark different entities and reports in Viva Goals, so they can be found quickly in the future."
+    - content: "Teams, Individuals, Views"
+      isCorrect: true
+      explanation: "That's correct. You're able to follow Team, Individuals and Views in Viva Goals, so they can be found quickly in the future."
+  - content: "Where are you able to Like or Comment an activity?"
+    choices:
+    - content: "The Feed, the page where the activity is being displayed, the activity tab"
+      isCorrect: true
+      explanation: "That's correct. To engage with your colleagues and foster collaboration, you can Like or Comment on their activities performed within Viva Goals on any page where the activity is being displayed or on the Feed tab."
+    - content: "The Support tab"
+      isCorrect: false
+      explanation: "That's incorrect. You can Like or comment on an activity either in a central location, or at relevant points throughout Viva Goals."
+    - content: "Review Dashboard"
+      isCorrect: false
+      explanation: "That's incorrect. You can Like or comment on an activity either in a central location, or at relevant points throughout Viva Goals."
+  - content: "What are three Widgets that you can add to a Panel in Review Dashboard?"
+    choices:
+    - content: "Objectives, Key Results, Projects"
+      isCorrect: false
+      explanation: "That's incorrect. Widgets are available to display a set of data you've created. These give details and lists of relevant areas in the system."
+    - content: "Explorer, Review Dashboard, Objective"
+      isCorrect: false
+      explanation: "That's incorrect. Widgets are available to display a set of data you've created. These give details and lists of relevant areas in the system."
+    - content: "OKR Detail, Project List, Custom Embed"
+      isCorrect: true
+      explanation: "That's correct. The OKR Detail widget allows you to focus on OKR trends, recent updates and status over time. Project List tracks status updates of multiple projects in one place. Custom Embed enables you to embed a URL in the context of OKRs."
