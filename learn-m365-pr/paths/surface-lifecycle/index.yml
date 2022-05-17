@@ -2,14 +2,14 @@
 uid: learn-m365.surface-lifecycle
 metadata:
   title: Manage Surface across the device lifecycle
-  description: The latest Surface devices are cloud enabled and ready for deployment. This learning path will show you how to roll out Surface devices across your organization, the benefits of using a Windows 365 as an endpoint on a Surface device, how to manage security on your Surface devices and lastly, how to get the best from your surface hub. 
+  description: The latest Surface devices are cloud enabled and ready for automated deployment across your organization. This learning path will show you how to roll out Surface devices across your organization, the benefits of using a Windows 365 as an endpoint on a Surface device, how to manage security on your Surface devices and lastly, how to get the best from your surface hub. 
   ms.date: 05/17/2022
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage Surface across the device lifecycle
-summary: The latest Surface devices are cloud enabled and ready for deployment. This learning path will show you how to roll out Surface devices across your organization, the benefits of using a Windows 365 as an endpoint on a Surface device, how to manage security on your Surface devices and lastly, how to get the best from your surface hub. 
+summary: The latest Surface devices are cloud enabled and ready for automated deployment across your organization. This learning path will show you how to roll out Surface devices across your organization, the benefits of using a Windows 365 as an endpoint on a Surface device, how to manage security on your Surface devices and lastly, how to get the best from your surface hub. 
 prerequisites: None
 iconUrl: /learn/achievements/generic-trophy.svg
 levels: 
