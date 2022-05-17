@@ -5,7 +5,7 @@ metadata:
   description: Learn how to enrich incidents in Microsoft Sentinel with playbooks
   ms.date: 11/03/2021
   author: beccarobins
-  ms.author: beccarobins
+  ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Enrich incidents in Microsoft Sentinel with playbooks

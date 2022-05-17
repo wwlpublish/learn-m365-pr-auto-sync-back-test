@@ -6,7 +6,7 @@ metadata:
   description: Learn how to go about finding which apps are accessing your data, how to classify which information is sensitive, how to protect it from illegal access, and how to monitor and report on the overall health of your environment.
   ms.date: 11/03/2021
   author: beccarobins
-  ms.author: beccarobins
+  ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 7

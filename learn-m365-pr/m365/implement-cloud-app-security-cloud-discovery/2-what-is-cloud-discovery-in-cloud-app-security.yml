@@ -5,7 +5,7 @@ metadata:
   description: Use Cloud Discovery in Microsoft Defender for Cloud Apps to learn about the apps being used in your organization
   ms.date: 11/03/2021
   author: beccarobins
-  ms.author: beccarobins
+  ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: What is Cloud Discovery in Defender for Cloud Apps?

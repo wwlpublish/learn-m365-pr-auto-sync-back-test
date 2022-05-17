@@ -5,7 +5,7 @@ metadata:
   description: Use Microsoft Defender for Cloud Apps to implement access and session controls with any supported identity provider
   ms.date: 11/03/2021
   author: beccarobins
-  ms.author: beccarobins
+  ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Describe how to protect apps with Defender for Cloud Apps Conditional Access App Control
