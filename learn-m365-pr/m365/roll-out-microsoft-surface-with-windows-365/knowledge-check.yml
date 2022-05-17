@@ -1,0 +1,63 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.roll-out-microsoft-surface-with-windows-365.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: ""
+  ms.date: 05/12/2022
+  author: temanteleary
+  ms.author: teleary
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+###########################################################################
+###
+### General guidance (https://review.docs.microsoft.com/learn-docs/docs/id-guidance-knowledge-check)
+###  - Questions are complete sentences ending with a question mark
+###  - No true/false questions
+###  - 3 answers per question
+###  - All answers about the same length
+###  - Numeric answers listed in sorted order
+###  - No "All of the above" and/or "None of the above" as answer choices
+###  - No "Not" or "Except" in questions
+###  - No second person ("you") in the questions or answers
+###  - Provide a meaningful explanation for both correct and incorrect answers
+###
+###########################################################################
+content: |
+quiz:
+  questions:
+  - content: "You have some proprietary design software that you need to make available to your 10-strong design team, but don't want it to be installed natively on their computers. To improve collaboration, they also require access to all their regular tools, such as email and Teams. What solution would enable this?"
+    choices:
+    - content: "Create a server and allow all users to access it via remote desktop"
+      isCorrect: false
+      explanation: "That's incorrect. While you can configure the server to accept multiple remote desktop connections, this is not a robust solution."
+    - content: "Provide a VPN to a server where the application can be run remotely"
+      isCorrect: false
+      explanation: "That's incorrect. You would not use a VPN to access a computer remotely."
+    - content: "Use a Windows 365 Cloud PC with the required software installed, and grant the user access"
+      isCorrect: true
+      explanation: "That's correct. If you create a Cloud PC for each user in the design team, they can access the resources they need and work collaboratively without any change in working practices."
+  - content: "Which tool would you use to manage your organization's Surface devices?"
+    choices:
+    - content: "Microsoft Endpoint Manager"
+      isCorrect: true
+      explanation: "That's correct. Microsoft Endpoint Manager brings together all the tools to manage your Surface devices in one place."
+    - content: "Windows 365 portal"
+      isCorrect: false
+      explanation: "That's incorrect. The Windows 365 portal controls access to a Windows 365 Cloud PC. It would not be used to manage Surface devices."
+    - content: "Azure Active Directory"
+      isCorrect: false
+      explanation: "That's incorrect. Among other things, Microsoft Azure Active Directory is responsible for managing identity and conditional access. It's not responsible for the direct management of Surface devices."
+  - content: "Microsoft Endpoint Manager unifies device management and control by bringing together four services: Microsoft InTune, Configuration Manager, Azure Active Directory, and what other service?"
+    choices:
+    - content: "Windows 365 Cloud PC"
+      isCorrect: false
+      explanation: "That's incorrect. While you can provision and deploy Windows 365 Cloud PCs using Microsoft Endpoint Manager, it's not one of the core services."
+    - content: "Windows Autopilot"
+      isCorrect: true
+      explanation: "That's correct. Windows Autopilot is essential in the provision and management of Surface and other devices."
+    - content: "Windows 365 Endpoint"
+      isCorrect: false
+      explanation: "That's incorrect. A Windows 365 endpoint represents a virtual machine running on a network. It's not a core service of Microsoft Endpoint Manager."

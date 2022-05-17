@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.roll-out-microsoft-surface-with-windows-365.deploy-surface-windows-365-endpoint
+title: Deploy Surface as a Windows 365 endpoint
+metadata:
+  unitType: learning-content
+  title: Deploy Surface as a Windows 365 endpoint
+  description: ""
+  ms.date: 05/12/2022
+  author: temanteleary
+  ms.author: teleary
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/deploy-surface-windows-365-endpoint.md)]
