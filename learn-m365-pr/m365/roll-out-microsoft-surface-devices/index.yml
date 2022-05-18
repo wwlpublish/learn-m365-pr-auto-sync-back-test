@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-m365-pr.roll-out-microsoft-surface-devices
+metadata:
+  moduleType: standard
+  title: Roll out Microsoft Surface devices
+  description: In this module, you'll explore the features of both the Microsoft 365 admin center and Microsoft Endpoint Manager. You'll follow the journey of a Surface device and see how to use Intune and Windows Autopilot to improve the out-of-box experience for your employees.
+  ms.date: 05/06/2022
+  author: temanteleary
+  ms.author: teleary
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Roll out Microsoft Surface devices
+summary: In this module, you'll explore the features of both the Microsoft 365 admin center and Microsoft Endpoint Manager. You'll follow the journey of a Surface device and see how to use Intune and Windows Autopilot to improve the out-of-box experience for your employees.
+abstract: |
+  By the end of this module, you'll be able to:
+    - Navigate the Microsoft 365 admin center.
+    - Enroll Surface devices in Microsoft Endpoint Manager.
+    - Deploy Surface devices with Microsoft Endpoint Manager.
+prerequisites: |
+  - None.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - developer
+products:
+- m365
+units:
+- learn-m365-pr.roll-out-microsoft-surface-devices.introduction
+- learn-m365-pr.roll-out-microsoft-surface-devices.navigate-the-microsoft-365-admin-center
+- learn-m365-pr.roll-out-microsoft-surface-devices.enroll-surface-devices-in-microsoft-endpoint-manager
+- learn-m365-pr.roll-out-microsoft-surface-devices.deploy-surface-devices-with-microsoft-endpoint-manager
+- learn-m365-pr.roll-out-microsoft-surface-devices.knowledge-check
+- learn-m365-pr.roll-out-microsoft-surface-devices.summary
+badge:
+  uid: learn-m365-pr.roll-out-microsoft-surface-devices.badge
