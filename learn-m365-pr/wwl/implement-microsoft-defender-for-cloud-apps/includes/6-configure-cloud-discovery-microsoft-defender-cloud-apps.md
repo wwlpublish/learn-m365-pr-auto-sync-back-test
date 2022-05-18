@@ -63,10 +63,9 @@ You should download a sample log file if you don't have a log yet, and you want 
 You must complete the following steps to create a snapshot report:
 
 1.  Collect log files from your firewall and proxy, through which users in your organization access the Internet.
-
+    
     > [!IMPORTANT]
     > Make sure to gather logs during times of peak traffic that are representative of all user activity in your organization.
-
 2.  In the **Microsoft Defender for Cloud Apps** portal, select **Discover** in the navigation pane, and then select **Create snapshot report**.
 3.  On the **Create new Cloud Discovery snapshot report** page, enter a **Report Name** and an optional **Description.**
     

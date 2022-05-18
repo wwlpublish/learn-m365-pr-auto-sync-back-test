@@ -145,8 +145,19 @@ If the policy is accurate, the alert is warranted, and it's a violation you want
     This alert is an alert about Shadow IT. A new app was detected by Cloud Discovery.
   :::column-end:::
   :::column:::
-    For sanctioned apps:1. Assess the risk of the service based on the app catalog.2. Drill down into the activity to understand usage patterns and prevalence.3. Decide whether to sanction or unsanction the app.For unsanctioned apps:
-1. You may want to block use in your proxy or firewall.2. If you have an unsanctioned app and a sanctioned app in the same category, you can export a list of users of the unsanctioned app. Then, contact them to migrate them to the sanctioned app.
+    For sanctioned apps:
+
+1. Assess the risk of the service based on the app catalog.
+
+2. Drill down into the activity to understand usage patterns and prevalence.
+
+3. Decide whether to sanction or unsanction the app.
+
+For unsanctioned apps:
+
+1. You may want to block use in your proxy or firewall.
+
+2. If you have an unsanctioned app and a sanctioned app in the same category, you can export a list of users of the unsanctioned app. Then, contact them to migrate them to the sanctioned app.
   :::column-end:::
 :::row-end:::
 :::row:::
