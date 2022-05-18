@@ -70,7 +70,7 @@ With all the prerequisites completed, the IT administrators and the compliance s
 
 1. Since the policy wizard has already suggested a name for the policy, the IT administrators and compliance specialists decide to keep the suggested name and focus on the remaining fields. They select the All employees group for the **Users or groups to supervise** field and select the compliance specialists that should investigate and remediate policy alerts for the **Reviewers** field. The last step to configure the policy and start gathering alert information is to select Create policy.
 
- :::image type="content" source="../media/create-policy.png" alt-text="Screenshot displays Create policy wizard. All employees group is selected under the Users or groups to supervise field and compliance specialists is selected under the Reviewers field." lightbox="../media/create-policy.png":::
+ :::image type="content" source="../media/create-policy.png" alt-text="Screenshot of the Create policy wizard. The All employees group is added to Users or groups to supervise and specific compliance specialists are added to the Reviewers field." lightbox="../media/create-policy.png":::
 
    For more information about getting started with communication compliance policies, see [Configure Microsoft Purview Communication Compliance](/microsoft-365/compliance/communication-compliance-configure?azure-portal=true).
 
