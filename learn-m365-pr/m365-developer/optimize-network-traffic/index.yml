@@ -29,9 +29,6 @@ roles:
 products:
   - ms-graph
   - m365
-subjects:
-- networking
-- data-visualization
 units:
   - learn-m365.optimize-network-traffic.1-introduction
   - learn-m365.optimize-network-traffic.2-understand-throttling-microsoft-graph
