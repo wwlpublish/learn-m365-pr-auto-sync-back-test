@@ -16,18 +16,14 @@ For each alert, you need to investigate and determine the nature of the violatio
  -  Select a specific alert. Depending on what type of alert it is, you'll see various actions that can be taken before resolving the alerts.
  -  You can filter based on App. The apps listed are ones for which Microsoft Defender for Cloud Apps detected activities.
  -  There are three types of violations you'll need to deal with when investigating alerts:
-    
      -  **Serious violations**. Require immediate response. Examples include:
-        
          -  For a suspicious activity alert, you might want to suspend the account until the user changes their password.
          -  For a data leak you might want to restrict permissions or quarantine the file.
          -  If a new app is discovered, you might want to block access to the service on your proxy or firewall.
      -  **Questionable violations**. Require further investigation. Examples include:
-        
          -  You can contact the user or the user's manager about the nature of the activity.
          -  Leave the activity open until you have more information.
      -  **Authorized violations or anomalous behavior**. Can result from legitimate use.
-        
          -  You can dismiss the alert.
 
 When you dismiss an alert, it's helpful if you submit feedback about why you're dismissing the alert. The Microsoft Defender for Cloud Apps team uses this feedback as an indication of the accuracy of the alert. It also uses this information to fine-tune our machine learning models for future alerts. If you select the **It's OK to contact me about this alert** box, in select cases Microsoft may contact you for additional information.
@@ -35,11 +31,9 @@ When you dismiss an alert, it's helpful if you submit feedback about why you're 
 You can follow these guidelines in deciding how to categorize the alert:
 
  -  If legitimate use triggered the alert and it isn't a security issue, it could be one of these types:
-    
      -  **Benign positive**. The alert is accurate but the activity is legitimate. You can dismiss the alert and set the reason to **Actual severity is lower** or **Not interesting**.
      -  **False positive**. The alert is inaccurate. Dismiss the alert and set the reason to **Alert is not accurate**.
  -  If any use triggered the alert and it's a security issue, then it will be:
-    
      -  **True positive**. If the alert is related to an actual risky event that was either committed maliciously or unintentionally by an insider or outsider, you should set the event to **Resolve** after all appropriate action has been taken to remediate the event.
  -  If there's too much noise to determine the legitimacy and accuracy of an alert, dismiss it and set the reason to **Too many similar alerts**.
 
@@ -151,11 +145,7 @@ If the policy is accurate, the alert is warranted, and it's a violation you want
     This alert is an alert about Shadow IT. A new app was detected by Cloud Discovery.
   :::column-end:::
   :::column:::
-    
-
-For sanctioned apps:
-
-1. Assess the risk of the service based on the app catalog.2. Drill down into the activity to understand usage patterns and prevalence.3. Decide whether to sanction or unsanction the app.For unsanctioned apps:
+    For sanctioned apps:1. Assess the risk of the service based on the app catalog.2. Drill down into the activity to understand usage patterns and prevalence.3. Decide whether to sanction or unsanction the app.For unsanctioned apps:
 1. You may want to block use in your proxy or firewall.2. If you have an unsanctioned app and a sanctioned app in the same category, you can export a list of users of the unsanctioned app. Then, contact them to migrate them to the sanctioned app.
   :::column-end:::
 :::row-end:::

@@ -12,7 +12,6 @@ The Microsoft Defender for Cloud Apps framework provides the following threat in
  -  **Discover and control the use of Shadow IT**. Identifies the cloud apps and the IaaS and PaaS services used by organizations. Investigates usage patterns and assesses the risk levels and business readiness of more than 25,000 SaaS apps against more than 80 risks. In turn, organizations can manage them to ensure security and compliance.
  -  **Protect your sensitive information anywhere in the cloud**. Understands, classifies, and protects the exposure of sensitive information at rest. Uses out-of-the box policies and automated processes to apply controls in real time across all the cloud apps in an organization.
  -  **Protect against cyberthreats and anomalies**. Analyzes high-risk usage and remediates issues automatically to limit the risk to organizations. Detects unusual behavior across cloud apps to identify:
-    
      -  ransomware,
      -  compromised users
      -  rogue applications

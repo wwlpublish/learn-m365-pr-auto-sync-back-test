@@ -6,7 +6,6 @@ Microsoft Defender for Cloud Apps can monitor any file type based on more than 2
 
  -  Content scan based on preset templates or custom expressions.
  -  Context filters, including:
-    
      -  user roles
      -  file metadata
      -  sharing level
@@ -270,28 +269,22 @@ Complete the following steps to create a new file policy:
 2.  On the **Policies** page, the **All policies** tab is displayed by default. Select the **Information protection** tab.
 3.  In the **Information protection** tab, select **+Create policy** on the menu bar. In the drop-down menu that appears, select **File policy**.
 4.  On the **Create file policy** page, you should configure the following information for the policy:
-    
      -  **Policy template**. If you want to base your policy on a template, select this field to display a list of predefined templates and then select the corresponding template. If you want to create a customized policy, select **No template**. For more information on policy templates, see [Control cloud apps with policies](/defender-cloud-apps/control-cloud-apps-with-policies?azure-portal=true).
      -  **Policy name**. Assign the policy a name.
      -  **Policy severity**. If you have set Defender for Cloud Apps to send you notifications on policy matches for a specific policy severity level, this level is used to determine whether the policy's matches trigger a notification.
      -  **Category**. Link the policy to the most appropriate risk type. This field is informative only. The risk may already be preselected according to the category for which you chose to create the policy. By default, **File policies** are set to **DLP**, although you can select a different value if necessary.
      -  **Description**. Enter an optional description of the policy.
      -  **Files matching all of the following (filters)**. Create a filter for the files this policy will act on to set which discovered apps trigger this policy. Narrow down the policy filters until you reach an accurate set of files you wish to act upon. Be as restrictive as possible to avoid false positives. For example, if you wish to remove public permissions, remember to add the Public filter. Or, if you wish to remove an external user, use the "External" filter. When a policy filter is used, the **Contains** clause searches only for full words that must be separated by commas, dots, spaces, or underscores. For example:
-        
          -  If you search for the words "malware" or "virus":
-            
              -  It finds **virus\_malware\_file.exe.**
              -  It doesn't find **malwarevirusfile.exe**.
          -  If you search for **malware.exe:**
-            
              -  It finds ALL files with either **malware** or **exe** in their filename.
          -  If you search for "malware.exe" (with the quotation marks):
-            
              -  It finds only files that contain exactly "malware.exe". **Equals** searches only for the complete string. For example if you search for malware.exe, it finds malware.exe but not malware.exe.txt.
      -  **Apply to**. For this filter, select either **all files**, **all files excluding selected folders**, or **selected folders**. You can enforce your file policy over all files on the app or on specific folders. You're redirected to sign in the cloud app, and then add the relevant folders.
      -  **Select user groups**. Select either **all file owners**, **file owners from selected user groups,** or **all file owners excluding selected groups**. Then select the relevant user groups to determine which users and groups should be included in the policy.
      -  **Inspection method.** You can select either the [Built-in DLP](/defender-cloud-apps/content-inspection-built-in?azure-portal=true) or [Data Classification Services](/defender-cloud-apps/content-inspection?azure-portal=true) method. **Data Classification Services** is the recommended method. Once content inspection is enabled, you can:
-        
          -  Choose to use preset expressions or to search for other customized expressions.
          -  Specify a regular expression to exclude a file from the results. This option is highly useful if you have an inner classification keyword standard that you want to exclude from the policy.
          -  Set the minimum number of content violations that you want to match before the file is considered a violation. For example, you can choose 10 if you want to be alerted on files with at least 10 credit card numbers found within its content.

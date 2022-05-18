@@ -108,7 +108,6 @@ This step is a **recommended** task. Complete the following steps to deploy Cond
 1.  Configure your IdP to work with Microsoft Defender for Cloud Apps. If you have Azure AD, you can use inline controls such as **Monitor only** and **Block downloads**. These controls work for any catalog app out of the box.
 2.  Next, you must onboard apps to access and session controls. On the **Microsoft Defender for Cloud Apps** portal, select the **Settings** icon (the cog icon) in the upper right corner of the screen. In the menu that appears, select **Conditional Access App Control**.
 3.  On the **Connected apps** page, the **Conditional Access App Control apps** tab is displayed by default. To enable Conditional Access App Control capabilities on your apps, follow the [deployment instructions](/defender-cloud-apps/proxy-deployment-aad?azure-portal=true). These instructions are outside the scope of this training. However, you should review them to become familiar with the steps involved, which include:
-    
      -  **Step 1:** Configure Azure AD to work with Defender for Cloud Apps.
      -  **Step 2:** Sign in to each app using a user scoped to the policy.
      -  **Step 3:** Verify the apps are configured to use access and session controls.
@@ -133,14 +132,11 @@ Complete the following steps to provide a better experience for your users with 
 1.  On the **Microsoft Defender for Cloud Apps** portal, select the **Settings** icon (the cog icon) in the upper right corner of the screen. In the menu that appears, select **Settings**.
 2.  On the **Settings** page, under the **System** section on the navigation pane, select **Mail settings.**
 3.  On the **Mail settings** page, under **Email sender identity**, select either:
-    
      -  **Default settings**. This option uses the following option settings:
-        
          -  **Display name**. Microsoft Defender for Cloud Apps
          -  **"From" email address**. no-reply@cloudappssecurity.com
          -  **Reply-to email address**. no-reply@cloudappssecurity.com
      -  **Custom settings**. This option enables you to enter custom values for:
-        
          -  **Display name**
          -  **"From" email address**
          -  **Reply-to email address**
