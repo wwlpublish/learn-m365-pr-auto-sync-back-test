@@ -30,7 +30,7 @@ quiz:
     choices:
     - content: "The Retry-After header value instructs the requestor the date and time when to resubmit their request."
       isCorrect: true
-      explanation: "This statement isn't correct. The Retry-After header value isn't a timestamp; its the number of seconds the requestor should wait before resubmitting the request."
+      explanation: "This statement isn't correct. The Retry-After header value isn't a timestamp; it's the number of seconds the requestor should wait before resubmitting the request."
     - content: "The Retry-After HTTP header instructs the requester to not resubmit the request before the specified number of seconds has elapsed."
       isCorrect: false
       explanation: "This statement is true. The Retry-After value is the number of seconds the requester should delay resubmitting the request to Microsoft Graph."
