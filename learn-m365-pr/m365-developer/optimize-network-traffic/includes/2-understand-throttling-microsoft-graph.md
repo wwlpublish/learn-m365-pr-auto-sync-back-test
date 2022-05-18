@@ -85,4 +85,4 @@ A large number of requests for large data responses. Consider a request that use
 
 A large number of complex requests. Similar to the previous example, consider a request that is forcing Microsoft Graph to not only retrieve extra data (such as the case when the `$expand` query operator is used), but also to do conditional checks on the data, such as using the `$filter` query parameter to limit the data results.
 
-Consider how expensive a request is: the more expensive it is and the more of these requests you send, the more likely it's these requests will eventually be throttled.
+Consider how expensive a request is: the more expensive it is and the more of these requests you send, the more likely it is that these requests will eventually be throttled.
