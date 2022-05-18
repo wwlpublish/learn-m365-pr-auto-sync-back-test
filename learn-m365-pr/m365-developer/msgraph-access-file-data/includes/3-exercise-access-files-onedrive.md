@@ -26,34 +26,34 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Select **Manage > App registrations** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
+  ![Screenshot of the App registrations.](../media/azure-ad-portal-home.png)
 
 On the **App registrations** page, select **New registration**.
 
-  ![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
+  ![Screenshot of App Registrations page.](../media/azure-ad-portal-new-app-00.png)
 
 On the **Register an application** page, set the values as follows:
 
 - **Name**: Graph Console App
 - **Supported account types**: Accounts in this organizational directory only (Contoso only - Single tenant)
 
-    ![Screenshot of the Register an application page](../media/azure-ad-portal-new-app-01.png)
+    ![Screenshot of the Register an application page.](../media/azure-ad-portal-new-app-01.png)
 
     Select **Register**.
 
 On the **Graph Console App** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID**; you'll need these in the application.
 
-  ![Screenshot of the application ID of the new app registration](../media/azure-ad-portal-new-app-details.png)
+  ![Screenshot of the application ID of the new app registration.](../media/azure-ad-portal-new-app-details.png)
 
 Select **Manage > Authentication**.
 
 In the **Platform configurations** section, select the **Add a platform** button. Then in the **Configure platforms** panel, select the **Mobile and desktop applications** button:
 
-![Screenshot of the Platform configurations section](../media/azure-ad-portal-new-app-02.png)
+![Screenshot of the Platform configurations section.](../media/azure-ad-portal-new-app-02.png)
 
 In the **Redirect URIs** section of the **Configure Desktop + devices** panel, select the checkbox that ends with **nativeclient**, set **Custom redirect URIs** to **http://localhost**, and then select the **Configure** button:
 
-![Screenshot of the Configure Desktop + devices panel](../media/azure-ad-portal-new-app-03.png)
+![Screenshot of the Configure Desktop + devices panel.](../media/azure-ad-portal-new-app-03.png)
 
 ### Grant Azure AD application permissions to Microsoft Graph
 
@@ -61,19 +61,19 @@ After creating the application, you need to grant it the necessary permissions t
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/azure-ad-portal-new-app-permissions-01.png)
+![Screenshot of the API Permissions navigation item.](../media/azure-ad-portal-new-app-permissions-01.png)
 
 Select the **Add a permission** button.
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
-![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-02.png)
+![Screenshot of Microsoft Graph in the Request API permissions panel.](../media/azure-ad-portal-new-app-permissions-02.png)
 
 When prompted for the type of permission, select **Delegated permissions**.
 
 Enter **Files.R** in the **Select permissions** search box and select the **Files.Read** permission, followed by the **Add permission** button at the bottom of the panel.
 
-![Screenshot of the Files.Read permission in the Request API permissions panel](../media/03-azure-ad-portal-new-app-permissions-03.png)
+![Screenshot of the Files.Read permission in the Request API permissions panel.](../media/03-azure-ad-portal-new-app-permissions-03.png)
 
 In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Yes** button in the consent dialog to grant all users in your organization this permission.
 
@@ -355,7 +355,7 @@ You now need to authenticate with Azure Active Directory. A new tab in your defa
 
 The application will display all files in the currently signed-in user's OneDrive root folder.
 
-![Screenshot of the console application showing all files in the currently signed-in user's OneDrive root folder](../media/03-app-run-01.png)
+![Screenshot of the console application showing all files in the currently signed-in user's OneDrive root folder.](../media/03-app-run-01.png)
 
 ## Display a specific file
 
@@ -389,7 +389,7 @@ dotnet run
 
 After you've signed in, you'll see the details of a specific file from the user's OneDrive written to the console.
 
-![Screenshot of the console application showing a specific file from the user's OneDrive](../media/03-app-run-02.png)
+![Screenshot of the console application showing a specific file from the user's OneDrive.](../media/03-app-run-02.png)
 
 ## Download a file from the user's OneDrive
 
@@ -423,7 +423,7 @@ dotnet run
 
 After you've signed in, you'll see the console app display a message where the file was saved to your local machine.
 
-![Screenshot of the console application showing the saved file from the user's OneDrive](../media/03-app-run-03.png)
+![Screenshot of the console application showing the saved file from the user's OneDrive.](../media/03-app-run-03.png)
 
 ## Summary
 
