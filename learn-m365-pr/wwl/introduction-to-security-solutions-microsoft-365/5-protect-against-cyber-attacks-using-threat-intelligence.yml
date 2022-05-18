@@ -4,12 +4,13 @@ title: Protect against cyber attacks using Microsoft 365 Threat Intelligence
 metadata:
   title: Protect against cyber attacks using Microsoft 365 Threat Intelligence
   description: "Protect against cyber attacks using Microsoft 365 Threat Intelligence"
-  ms.date: 04/28/2021
+  ms.date: 05/17/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/5-protect-against-cyber-attacks-using-threat-intelligence.md)]

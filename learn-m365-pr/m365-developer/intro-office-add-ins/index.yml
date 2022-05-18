@@ -28,14 +28,14 @@ products:
   - m365
   - office-add-ins
 subjects:
-- custom-app-development
-- cloud-computing
+  - custom-app-development
+  - cloud-computing
 units:
-- learn-m365.intro-office-add-ins.1-introduction
-- learn-m365.intro-office-add-ins.2-fundamentals
-- learn-m365.intro-office-add-ins.3-apis
-- learn-m365.intro-office-add-ins.4-customization
-- learn-m365.intro-office-add-ins.5-debug-test-deployment
-- learn-m365.intro-office-add-ins.6-summary
+  - learn-m365.intro-office-add-ins.1-introduction
+  - learn-m365.intro-office-add-ins.2-fundamentals
+  - learn-m365.intro-office-add-ins.3-apis
+  - learn-m365.intro-office-add-ins.4-customization
+  - learn-m365.intro-office-add-ins.5-debug-test-deployment
+  - learn-m365.intro-office-add-ins.6-summary
 badge:
   uid: learn-m365.intro-office-add-ins.badge

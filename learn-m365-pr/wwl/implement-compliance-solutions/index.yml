@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Implement compliance solutions
-summary: This module examines the compliance solutions that are available in the Microsoft 365 Compliance center, including insider risk management policies and alerts, communication compliance policies, Service Trust portal, and Compliance Manager.
+summary: This module examines the compliance solutions that are available in the Microsoft Purview compliance portal, including insider risk management policies and alerts, communication compliance policies, Service Trust portal, and Compliance Manager.
 abstract: |
   By the end of this module, you'll be able to:
   - Describe insider risk management functionality in Microsoft 365
