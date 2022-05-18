@@ -29,6 +29,15 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- cloud-security
+- collaboration
+- communication
+- identity-access
+- information-protection-governance
+- insider-risk
+- security
+- threat-protection
 units:
 - learn.wwl.implement-endpoint-protection-use-microsoft-defender.introduction
 - learn.wwl.implement-endpoint-protection-use-microsoft-defender.explore-microsoft-defender-endpoint
