@@ -25,7 +25,7 @@ Another capability of security groups is that while they can contain users like 
 
 ## Dynamic membership
 
-All types of groups can have dynamic membership rules that automatically add or remove members from a group based on the user's properties. This provides additional flexibility in managing group membership in that users don't have to be manually added or removed from a group. Attribute-based rules derived from user properties enable administrators to specify, for example, all users in the marketing department should have access to the group.
+All types of groups can have dynamic membership rules that automatically add or remove members from a group based on the user's properties. This provides more flexibility in managing group membership in that users don't have to be manually added or removed from a group. Attribute-based rules derived from user properties enable administrators to specify, for example, all users in the marketing department should have access to the group.
 
 Developers can use Microsoft Graph to manage dynamic membership on groups through the group's properties `membershipRule` and `membershipRuleProcessingState`. For example, the following HTTP request uses the Microsoft Graph API to enable a group for dynamic membership and to set the membership criteria:
 

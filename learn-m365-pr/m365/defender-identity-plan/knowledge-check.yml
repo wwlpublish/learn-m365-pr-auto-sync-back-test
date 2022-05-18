@@ -6,8 +6,8 @@ metadata:
   title: Knowledge check
   description: Knowledge check for Plan Microsoft Defender for Identity installation
   ms.date: 04/22/2021
-  author: beccarobins
-  ms.author: beccarobins
+  author: dcurwin
+  ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 3

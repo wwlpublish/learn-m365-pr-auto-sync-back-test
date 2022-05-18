@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-endpoint-protection-use-microsoft-defender.configure-microsoft-defender-endpoint-intune
+title: Configure Microsoft Defender for Endpoint in Microsoft Intune
+metadata:
+  title: Configure Microsoft Defender for Endpoint in Microsoft Intune
+  description: "Configure Microsoft Defender for Endpoint in Microsoft Intune"
+  ms.date: 05/18/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/3-configure-microsoft-defender-endpoint-intune.md)]
