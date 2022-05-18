@@ -21,7 +21,7 @@ Windows 365 enables you to:
 
 The lifecycle of a Cloud PC is very similar to that of a regular desktop, with the exception that there's no physical machine to procure and ship. The following image shows the typical lifecycle of a Cloud PC:
 
-:::image type="content" source="../media/lifecycle-stages.png" alt-text="Image showing the typical lifecycle of a Cloud PC.":::
+:::image type="content" source="../media/lifecycle-stages.png" alt-text="Image showing the typical lifecycle of a Cloud P C.":::
 
 ### Provision
 

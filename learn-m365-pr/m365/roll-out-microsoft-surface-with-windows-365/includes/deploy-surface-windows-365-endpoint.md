@@ -4,7 +4,7 @@ In this unit, you'll learn about the provisioning and deployment process of a Su
 
 ## How to take a Surface device from factory to user with Windows Autopilot
 
-Windows Autopilot, accessed via Microsoft Endpoint Management (MDM) admin center (<https://endpoint.microsoft.com>), lets you manage device policies, applications, and settings. When combined with Azure AD's identity services, it ensures users can access the applications and data they need.
+Windows Autopilot, accessed via Microsoft Endpoint Management (MDM) admin center (https://endpoint.microsoft.com), lets you manage device policies, applications, and settings. When combined with Azure AD's identity services, it ensures users can access the applications and data they need.
 
 Every Surface device is shipped from the factory with a clutter-free image of Windows, and a preinstalled full version of Office, ready for Autopilot configuration when turned on. At the factory, when a Surface device is allocated to the customer order, the device ID is automatically retrieved and stored in the Cloud.
 
@@ -71,7 +71,7 @@ After you've provisioned a Windows 365 Cloud PC and assigned the user a Windows 
 
     This image shows access to a Windows 10 Cloud PC through the browser, with Teams and Office preinstalled.
 
-    :::image type="content" source="../media/windows-365-browser.png" alt-text="This image shows access to a Windows 10 Cloud PC through the browser.":::
+    :::image type="content" source="../media/windows-365-browser.png" alt-text="This image shows access to a Windows 10 Cloud P C through the browser.":::
 
 For the best experience, you should access your Cloud PC using the remote desktop application.
 

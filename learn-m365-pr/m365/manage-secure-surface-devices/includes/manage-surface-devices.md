@@ -4,7 +4,7 @@ Any access point is a possible threat vector, none more so than a device that's 
 
 This five-minute video shows how you can use Microsoft Endpoint Manager to control all your Surface devices from a single portal.
 
-![Icon indicating play video](../media/surface-management-portal-overview.png)   Watch this video to see an overview of the Surface management portal and where it fits into Microsoft Endpoint Manager.
+> [!VIDEO https://www.youtube.com/embed/_MmutkqNudk]
 
 ## Managing Surface devices with Microsoft Endpoint Manager
 
@@ -78,4 +78,4 @@ Here are the steps to create a DFCI profile for a Surface device:
 
 In this 20-second video, you'll see how the DFCI policy is applied to a Surface device:
 
-> [!VIDEO https://labclient.labondemand.com/Instructions/Video/108850/?url=https%3A%2F%2Flabondemand.blob.core.windows.net%2Fcontent%2Flab108850%2Fuefi-dfci.mp4]
+> [!VIDEO https://labondemand.blob.core.windows.net/content/lab108850/uefi-dfci.mp4]

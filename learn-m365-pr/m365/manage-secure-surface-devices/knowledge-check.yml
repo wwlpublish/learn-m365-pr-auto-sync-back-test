@@ -30,7 +30,7 @@ quiz:
     choices:
     - content: "The Surface device UEFI must be disabled for the DFCI policy to be deployed"
       isCorrect: false
-      explanation: "That's incorrect. All Surface devices have UEFI built in and it cannot be disabled."
+      explanation: "That's incorrect. All Surface devices have UEFI built in and it can't be disabled."
     - content: "The user profile must have the correct policy settings to enable DFCI policy deployment"
       isCorrect: false
       explanation: "That's incorrect. The ability to deploy DFCI policies is linked to the device, not to a user profile."
@@ -47,4 +47,4 @@ quiz:
       explanation: "That's incorrect. The DFCI uses the UEFI to apply security policies to the Surface device."
     - content: "Mobile Device Management Interface"
       isCorrect: false
-      explanation: "That's incorrect. There is no such thing as a Mobile Device Management Interface."
+      explanation: "That's incorrect. There's no such thing as a Mobile Device Management Interface."

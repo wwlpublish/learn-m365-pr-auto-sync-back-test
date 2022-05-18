@@ -22,15 +22,15 @@ quiz:
       explanation: "That's correct. Surface Hub only supports a few configuration policy templates, including PKCS certificate, PKCS imported certificate, SCEP certificate, and trusted certificates."
     - content: "Device restrictions, Microsoft Defender for Endpoint, PEKS certificates"
       isCorrect: false
-      explanation: "That's incorrect. Surface Hub only supports a few of the configuration policy templates. PEKS certificate is not a valid template."
+      explanation: "That's incorrect. Surface Hub only supports a few of the configuration policy templates. PEKS certificate isn't a valid template."
     - content: "Device restrictions, Microsoft Defender for Endpoint, PSEC certificates"
       isCorrect: false
-      explanation: "That's incorrect. Surface Hub only supports a few of the configuration policy templates. PSEC certificate is not a valid template."
+      explanation: "That's incorrect. Surface Hub only supports a few of the configuration policy templates. PSEC certificate isn't a valid template."
   - content: "When you create a reboot schedule on a Surface Hub, what are the three elements you need to complete?"
     choices:
     - content: "Timezone, date, and time"
       isCorrect: false
-      explanation: "That's incorrect. When you create a reboot schedule, you have already selected the device. It's important to know when the reboot should occur."
+      explanation: "That's incorrect. When you create a reboot schedule, you've already selected the device. It's important to know when the reboot should occur."
     - content: "Time, policy, and timezone"
       isCorrect: true
       explanation: "That's correct. When you create a reboot schedule for a specific device, you need to identify the timezone for the device, the date when the reboot should occur, and what time the device will reboot."
@@ -41,10 +41,10 @@ quiz:
     choices:
     - content: "Microsoft 365 global admin, teams service admin, Surface device admin"
       isCorrect: false
-      explanation: "That's incorrect. Surface device admin is not a valid role."
+      explanation: "That's incorrect. Surface device admin isn't a valid role."
     - content: "Microsoft 365 global admin, teams service admin, teams device admin"
       isCorrect: true
       explanation: "That's correct. To manage Surface devices using the Teams admin center, you must use one of these roles."
     - content: "Microsoft 365 global admin, Teams global admin, Teams device admin"
       isCorrect: false
-      explanation: "That's incorrect. Teams global admin is not a valid role."
+      explanation: "That's incorrect. Teams global admin isn't a valid role."

@@ -90,7 +90,7 @@ There's another option if you have employees who need to have their device busin
 
 The first step is to create a new deployment profile. Follow the steps above but, at the OOBE tab step, next to the **Allow pre-provisioned deployment**, select **Yes**.
 
-:::image type="content" source="../media/windows-autopilot-preprovisioned-profile-settings.png" alt-text="Screenshot showing the OOBE tab with Allow pre-provisioned deployment as Yes and Language set to User select.":::
+:::image type="content" source="../media/windows-autopilot-preprovisioned-profile-settings.png" alt-text="Screenshot showing the O O B E tab with Allow pre-provisioned deployment as Yes and Language set to User select.":::
 
 To allow for easier access to the pre-provisioning mode, select **User select** for the **Language (Region)**.
 
@@ -99,7 +99,7 @@ To complete the pre-provisioning on each Surface device, follow these steps:
 1. Boot the device.
 1. On the first OOBE screen, press the Windows key five times.
 1. Choose **Windows Autopilot provisioning**, then select **Continue**.
-   :::image type="content" source="../media/windows-autopilot-provisioning.png" alt-text="Screenshot of the OOBE window on a Surface device showing the Windows Autopilot provisioning option selected.":::
+   :::image type="content" source="../media/windows-autopilot-provisioning.png" alt-text="Screenshot of the O O B E window on a Surface device showing the Windows Autopilot provisioning option selected.":::
 1. Validate the information displayed. If any changes are needed, make the changes, and then select **Refresh** to download the updated Autopilot profile details again.
 1. Select **Provision** to begin the provisioning process.
 1. A green status screen appears with information about the device, including the same details presented previously. For example, Autopilot profile, organization name, assigned user, and QR code. The elapsed time for the pre-provisioning steps is also provided.

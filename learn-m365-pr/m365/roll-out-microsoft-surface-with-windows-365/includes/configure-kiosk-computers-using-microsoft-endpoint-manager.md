@@ -2,13 +2,13 @@ As an IT administrator, you've received a request from the marketing team to use
 
 There are several tasks to complete to configure and deploy a kiosk surface device. You'll see how to:
 
-1. Create a kiosk Autopilot deployment profile.
-1. Create a kiosk configuration profile.
+- Create a kiosk Autopilot deployment profile.
+- Create a kiosk configuration profile.
 
 ## Create a kiosk Autopilot deployment profile
 
 > [!NOTE]
-> It is assumed that you have already created a kiosk user account.
+> It's assumed that you have already created a kiosk user account.
 
 You'll use Microsoft Endpoint Manager admin center to create the Autopilot deployment profile.
 
