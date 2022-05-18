@@ -5,7 +5,7 @@ In this exercise, you'll use the Azure AD application and .NET console applicati
 > [!IMPORTANT]
 > This exercise assumes you have created the Azure AD application and .NET console application from the previous unit in this module. You'll edit the existing Azure AD application and .NET console application created in that exercise in this exercise.
 
-## Add more permission the Azure AD application
+## Add more permissions the Azure AD application
 
 In this exercise, you'll update the application to get a list of all the users in the tenant. To do this task, the Azure AD application needs more permissions.
 
