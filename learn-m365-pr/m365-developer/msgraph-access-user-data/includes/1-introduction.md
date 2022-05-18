@@ -20,6 +20,6 @@ By the end of this module, you'll be able to:
 
 ## Additional resources
 
-Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [MicrosoftGraph/msgraph-access-user-data](https://github.com/microsoftgraph/msgraph-access-user-data).
+Refer to the following repository for more resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [MicrosoftGraph/msgraph-access-user-data](https://github.com/microsoftgraph/msgraph-access-user-data).
 
 This module is also available as a screencast: [Access User Data from Microsoft Graph](https://youtube.com/playlist?list=PLWZJrkeLOrbZ-6xotSATX-FFP5BLQFUNm)

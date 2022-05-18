@@ -6,7 +6,7 @@ Users are the representation of an Azure Active Directory (Azure AD) work or sch
 
 ## Develop user-centric applications
 
-You can use Microsoft Graph to access the relationships, documents, contacts, and preferences that are contextually relevant to the signed-in user. The user resource provides straightforward way for you to access and manipulate user resources without having to do additional calls, look up specific authentication information, and directly issue queries against other Microsoft Graph resources.
+You can use Microsoft Graph to access the relationships, documents, contacts, and preferences that are contextually relevant to the signed-in user. The user resource provides straightforward way for you to access and manipulate user resources without having to do extra calls, look up specific authentication information, and directly issue queries against other Microsoft Graph resources.
 
 ## What can you do with the Microsoft Graph user resource
 
@@ -92,7 +92,7 @@ For example, if you're creating, editing or deleting a user, one of the *write* 
   - Directory.ReadWrite.All
   - Directory.AccessAsUser.All
 
-Each user resource has additional referenced resources such as their email messages (`/messages`), calendar items (`/events`), and files in OneDrive Consumer or OneDrive for Business (`/drive`).
+Each user resource has more referenced resources such as their email messages (`/messages`), calendar items (`/events`), and files in OneDrive Consumer or OneDrive for Business (`/drive`).
 
 ### Accessing all users in the organization
 
