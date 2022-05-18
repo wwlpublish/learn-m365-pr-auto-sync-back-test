@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-email-collaboration-protection.investigate-security-attacks-threat-explorer
+title: Investigate security attacks by using Threat Explorer
+metadata:
+  title: Investigate security attacks by using Threat Explorer
+  description: "Investigate security attacks by using Threat Explorer"
+  ms.date: 05/16/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-investigate-security-attacks-threat-explorer.md)]

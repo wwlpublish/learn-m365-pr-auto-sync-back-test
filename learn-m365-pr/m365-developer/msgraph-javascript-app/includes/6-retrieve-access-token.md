@@ -1,6 +1,6 @@
-At this point, you have a basic understanding of what an access token is. You've also seen how to register your application with the Microsoft identity platform by using Azure Active Directory. Now you'll learn how to retrieve an access token so your team can use it to build the customer application. 
+At this point, you have a basic understanding of what an access token is. You've also seen how to register your application with the Microsoft identity platform by using Azure Active Directory. Now you'll learn how to retrieve an access token so your team can use it to build the customer application.
 
-Token interaction can be challenging if you don't use a library to abstract away the protocol details, validation, token caching, and security. Fortunately, you can use a library called *Microsoft Authentication Library (MSAL) 2.0* to simplify this process.  
+Token interaction can be challenging if you don't use a library to abstract away the protocol details, validation, token caching, and security. Fortunately, you can use a library called *Microsoft Authentication Library (MSAL) 2.0* to simplify this process.
 
 MSAL enables developers to acquire tokens from the Microsoft identity platform to authenticate users and access secured web APIs like Microsoft Graph. MSAL is also available in other platforms such as .NET, iOS, and Android.
 
@@ -19,4 +19,4 @@ One of the authentication flows for the application that uses MSAL, which we'll 
 
 The following diagram shows the authentication flow:
 
-:::image type="content" source="../media/6-auth-flow.png" alt-text="Diagram of the authentication flow."::: 
+:::image type="content" source="../media/6-auth-flow.png" alt-text="Diagram of the authentication flow.":::

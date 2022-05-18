@@ -9,10 +9,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Evaluate your compliance readiness
-summary: This module examines the tools provided by Microsoft 365 to ensure an organization's regulatory compliance, with a special focus on the Microsoft 365 Compliance Center and formulating an organization's compliance score.
+summary: This module examines the tools provided by Microsoft 365 to ensure an organization's regulatory compliance, with a special focus on the Microsoft Purview compliance portal and formulating an organization's compliance score.
 abstract: |
   By the end of this module, you will be able to:
-  - Describe the Microsoft 365 Compliance Center and how to access it
+  - Describe the Microsoft Purview compliance portal and how to access it
   - Describe the purpose and function of the Microsoft Compliance Score
   - Explain how an organization's compliance score is determined
   - Explain how assessments are used to formulate compliance scores

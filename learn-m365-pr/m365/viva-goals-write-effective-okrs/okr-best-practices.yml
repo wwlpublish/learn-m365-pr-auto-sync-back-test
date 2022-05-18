@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-goals-write-effective-okrs.okr-best-practices
+title: Review best practices for writing OKRs
+metadata:
+  unitType: learning-content
+  title: Review best practices for writing OKRs
+  description: Learn best practices for writing OKRs.
+  ms.date: 04/28/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/okr-best-practices.md)]
