@@ -1,6 +1,6 @@
 The Microsoft identity platform implements the OAuth 2.0 authorization protocol. This protocol is a method that a third-party app can use to access web-hosted resources on behalf of a user. The web-hosted resources can define a set of permissions that can be used to implement functionality in smaller chunks.
 
-In this unit, you’ll learn about the different types of permissions supported by the Microsoft identity platform and the consent experience that users and admins must go through to grant permission requests to apps.
+In this unit, you’ll learn about the different types of permissions supported by the Microsoft identity platform and best practices for requesting for permissions.
 
 ## Types of permissions
 
@@ -21,7 +21,7 @@ For delegated permissions, the effective permissions of your app are the interse
 
 ![Screenshot of application and effective permissions.](../media/02-permissions-02.png)
 
-For example, assume your app has been granted the **User.ReadWrite.All** delegated permission. This permission enables your app to be used to read and update the profile of every user in an organization. If the signed-in user is a global administrator, your app can update the profile of every user in the organization. However, if the signed-in user isn't in an administrator role, your app can update only the profile of the signed-in user. It can't update the profiles of other users in the organization because the user that it has permission to act on behalf of does not have those privileges.
+For example, assume your app has been granted the **User.ReadWrite.All** delegated permission. This permission enables your app to be used to read and update the profile of every user in an organization. If the signed-in user is a global administrator, your app can update the profile of every user in the organization. However, if the signed-in user isn't in an administrator role, your app can update only the profile of the signed-in user. It can't update the profiles of other users in the organization because the user that it has permission to act on behalf of doesn't have those privileges.
 
 For application permissions, the effective permissions of your app will be the full level of privileges implied by the permission. For example, an app that has the **User.ReadWrite.All** application permission can update the profile of every user in the organization.
 
@@ -43,8 +43,6 @@ The scope parameter is a space-separated list of delegated permissions that the 
 
 After the user signs in, the Microsoft identity platform endpoint checks for a matching record of user consent. If the user hasn't consented to any of the requested permissions in the past, nor has an administrator consented to these permissions on behalf of the entire organization, the Microsoft identity platform endpoint prompts the user to grant the requested permissions.
 
-![Screenshot on the user sign-in and consent experience](../media/03-test-02.png)
-
 When the user approves the permission request, consent is recorded and the user doesn't have to consent again on later sign-ins to the application.
 
 ## Requesting consent for an entire tenant
@@ -61,8 +59,6 @@ GET https://login.microsoftonline.com/{tenant}/v2.0/adminconsent?
   &state=12345
 ```
 
-![Screenshot of the consent experience with optional admin consent](../media/03-test-03.png)
-
 ## Best practices for requesting permissions
 
 When building an app that uses Azure AD to provide sign-in and access tokens for secured endpoints, there are a few good practices you should follow.
@@ -70,7 +66,3 @@ When building an app that uses Azure AD to provide sign-in and access tokens for
 - Only ask for the permissions required for implemented app functionality. Don't request user consent for permissions that you haven't yet implemented for your application.
 - In addition, when requesting permissions for app functionality, you should request the least-privileged access. For example, if an app analyzes a user's email but takes no action on the mailbox, you shouldn't request the more permissive **Mail.ReadWrite** when **Mail.Read** will work.
 - Apps should gracefully handle scenarios where the user doesn't grant consent to the app when permissions are requested. In the case where an app doesn't receive an access token with the required permissions, it should explain the situation to the user with options on how to remedy the issue.
-
-## Summary
-
-In this unit, you learned about the different types of permissions supported by the Microsoft identity platform and the consent experience that users and admins must go through to grant permission requests to apps.
