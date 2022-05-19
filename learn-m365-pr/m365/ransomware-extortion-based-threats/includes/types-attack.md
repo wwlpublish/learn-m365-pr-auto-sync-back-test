@@ -27,7 +27,7 @@ A ransom distributed denial-of-service (DDoS) attack occurs when legitimate user
 
 In essence, they all work by flooding a company with spurious requests to the network until the service is overwhelmed. A ransom is then demanded to enable the company to use its systems. Sometimes, just preventing a company from carrying out its legitimate work can be enough of a reward.
 
-Symptoms of an attack are likely to be:
+Symptoms of a ransom DDoS attack are likely to be:
 
 - Files take a long time to open.
 - Websites take very long times to load.

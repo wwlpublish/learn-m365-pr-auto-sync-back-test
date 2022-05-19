@@ -56,6 +56,6 @@ quiz:
     - content: "Ransom distributed denial-of-service attack"
       isCorrect: false
       explanation: "That's incorrect. A distributed denial-of-service attack works by flooding the system with so much information that it effectively grinds to a halt, and stops legitimate work being carried out."
-    - content: "•	Human-operated ransomware"
+    - content: "Human-operated ransomware"
       isCorrect: true
       explanation: "That's correct. The attacker is specifically targeting a business to maximize the impact on the company and the general public."

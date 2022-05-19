@@ -40,7 +40,7 @@ The first recorded ransomware attack occurred as far back as 1989 when 20,000 fl
 With the change from dial-up services to broadband, many more people began using the internet, creating new opportunities for cybercriminals to exploit vulnerable individuals and companies. Several notable cases hit the headlines. For example, these actions:
 
 - Prevented access to files on a user's device and forced them to purchase items at an online store in return for the code to unlock their files.
-- Infected computers when users opened an email attachment that pretended to be a job application.
+- Infected computers when users opened an email attachment that presented as a job application.
 
 ### 2008
 
