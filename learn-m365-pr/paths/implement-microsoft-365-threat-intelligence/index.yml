@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.implement-microsoft-365-threat-intelligence
 metadata:
-  title: Implement threat intelligence in Microsoft 365
-  description: Implement threat intelligence in Microsoft 365
-  ms.date: 06/10/2021
+  title: Implement threat protection by using Microsoft 365 Defender
+  description: Implement threat protection by using Microsoft 365 Defender
+  ms.date: 05/19/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Implement threat intelligence in Microsoft 365
+title: Implement threat protection by using Microsoft 365 Defender
 prerequisites: |
   - Students should have completed a role-based administrator collection such as Messaging, Teamwork, Security and Compliance, or Collaboration.
   - Students should have a proficient understanding of DNS and basic functional experience with Microsoft 365 services.
@@ -24,15 +24,24 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 subjects:
+- business-applications
+- cloud-computing
+- cloud-security
+- collaboration
+- communication
+- development-tools
+- identity-access
+- information-protection-governance
+- insider-risk
+- security
 - threat-protection
 modules:
 - learn.wwl.introduction-to-microsoft-365-threat-intelligence
-- learn.wwl.explore-security-dashboard
-- learn.wwl.implement-microsoft-defender-for-identity
-- learn.wwl.implement-microsoft-cloud-application-security
+- learn.wwl.implement-microsoft-defender-for-cloud-apps
+- learn.wwl.implement-endpoint-protection-use-microsoft-defender
+- learn.wwl.implement-email-collaboration-protection
 trophy:
   uid: learn.wwl.implement-microsoft-365-threat-intelligence.trophy
