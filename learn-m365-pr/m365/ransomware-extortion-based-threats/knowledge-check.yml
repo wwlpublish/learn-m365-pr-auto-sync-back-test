@@ -28,13 +28,13 @@ quiz:
       explanation: "That's correct. The files are encrypted, and access is blocked until the ransom is paid."
   - content: "If a user opens an email and select a link that turns out to be malicious, what type of attack is this?"
     choices:
-    - content: "Phishing Attack"
+    - content: "Phishing attack"
       isCorrect: true
       explanation: "That's correct. Phishing is a social engineering attack, where the attacker relies on a user to select a link without properly checking it's valid."
-    - content: "Smishing Attack"
+    - content: "Smishing attack"
       isCorrect: false
       explanation: "That's incorrect. A smishing attack uses text messages that contain links to fraudulent sites."
-    - content: "Vishing Attack"
+    - content: "Vishing attack"
       isCorrect: false
       explanation: "That's incorrect. Vishing relies on the power of voice to trick a user into divulging information useful to the attacker."
   - content: "Which explanation best describes a ransomware family?"
