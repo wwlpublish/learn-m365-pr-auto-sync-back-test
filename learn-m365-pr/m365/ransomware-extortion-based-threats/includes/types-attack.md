@@ -2,11 +2,11 @@ When ransomware attacks are reported in the news, various terms will be mentione
 
 ## Commodity ransomware
 
-Commodity ransomware has helped low-skilled and potential cybercriminals quickly deploy attacks. This type of ransomware is usually developed by a cybercriminal organization and made for sale on the dark web. These kits can be quickly configured and deployed by individual cybercriminals, or smaller groups of threat actors. Traditionally, these ransomware attacks rely on lapses of judgement to trick people into opening files that install malicious software (malware) on devices.
+Commodity ransomware has helped low-skilled and potential cybercriminals quickly deploy attacks. This type of ransomware is usually developed by a cybercriminal organization and made for sale on the dark web. These kits can be quickly configured and deployed by individual cybercriminals, or smaller groups of threat actors. Traditionally, these ransomware attacks rely on lapses of judgment to trick people into opening files that install malicious software (malware) on devices.
 
 ## Human-operated ransomware
 
-As ransomware attacks have become a complete business for cybercriminals, they are seeking to maximize their income. They actively attack specific businesses who are either in a position to pay a large ransom or are in an industry where they cannot afford client information to be in the public domain. This is known as **human-operated ransomware**.
+As ransomware attacks have become a complete business for cybercriminals, they're seeking to maximize their income. They actively attack specific businesses who are either in a position to pay a large ransom or are in an industry where they can't afford client information to be in the public domain. This is known as **human-operated ransomware**.
 
 In general, attacks are becoming:
 
@@ -20,7 +20,7 @@ The following section explains the main types of attacks, and how they work, and
 
 ## Ransom distributed denial-of-service attacks
 
-A ransom distributed denial-of-service (DDoS) attack occurs when legitimate users cannot access their normal system because it has been flooded with spurious traffic from a cybercriminal. The actor keeps sending requests to the target or network until the system effectively crashes. There are variations of the DDoS attack so you may hear terms such as:
+A ransom distributed denial-of-service (DDoS) attack occurs when legitimate users can't access their normal system because it has been flooded with spurious traffic from a cybercriminal. The actor keeps sending requests to the target or network until the system effectively crashes. There are variations of the DDoS attack so you may hear terms such as:
 
 - Smurf attack
 - SYN flood
@@ -31,15 +31,15 @@ Symptoms of a ransom DDoS attack are likely to be:
 
 - Files take a long time to open.
 - Websites take very long times to load.
-- Websites do not load or are not available.
+- Websites don't load or aren't available.
 
-**Example**: A European gambling company was hit by the biggest and most complex attack ever recorded. Luckily, the attack was stopped before any ransom was paid, but in another case, a high-profile online shopping site was subjected to an attack which lasted three days.
+**Example**: A European gambling company was hit by the biggest and most complex attack ever recorded. Luckily, the attack was stopped before any ransom was paid, but in another case, a high-profile online shopping site was subjected to an attack that lasted three days.
 
 ## Encryption and locking malware attacks
 
 Encryption ransomware attacks are where the cybercriminal adds extra code to files to prevent them being accessed on the users’ IT system; this is known as encryption. When the ransomware has downloaded, a message will appear on the screen informing the user of the ransom demand. 
 
-When files are encrypted, they are locked down by the cybercriminal and cannot be opened until the ransom is paid.
+When files are encrypted, they're locked down by the cybercriminal and can't be opened until the ransom is paid.
 
 The ransomware can be downloaded onto a system via several different routes. For example:
 
@@ -66,7 +66,7 @@ Phishing uses email or websites to solicit personal information from individuals
 
 Vishing uses voice communications to deceive a victim. The caller may pretend to be from a legitimate organization and come across as sincere and believable to extract sensitive information. They may encourage someone to phone a fake number to verify account or other security information. This method is unlikely to lead to a ransomware attack but is commonly used to trick people into revealing bank account information to extract funds.
 
-**Example**: A caller may say you are due a tax rebate but before it can be processed, it’s necessary to verify your account details. When you have divulged your personal details, the account will then be emptied.
+**Example**: A caller may say you're due a tax rebate but before it can be processed, it’s necessary to verify your account details. When you've divulged your personal details, the account will then be emptied.
 
 #### Smishing
 
@@ -78,7 +78,7 @@ Individuals are often the weak link that allows someone to gain access to a comp
 
 ### Security vulnerabilities
 
-Any ransomware has the potential to exploit gaps in security. Just as a house can have a door left unlocked or a window not securely fastened, cybercriminals are looking to find ways into systems that have not been locked properly. That’s why it’s important to install security updates on any hardware or software.
+Any ransomware has the potential to exploit gaps in security. Just as a house can have a door left unlocked or a window not securely fastened, cybercriminals are looking to find ways into systems that haven't been locked properly. That’s why it’s important to install security updates on any hardware or software.
 
 **Example**: In 2021, an attack was made on a major software company in the United States. It affected up to 60,000 private companies, nine government agencies, and thousands more globally as attackers exploited a vulnerability on the organization’s system.
 
@@ -86,6 +86,6 @@ Any ransomware has the potential to exploit gaps in security. Just as a house ca
 
 These are also known as **exfiltration attacks** and combine a standard attack, which encrypts data, with the theft of data. Normally, specific companies or individuals are targeted where the threat of data being made public could be very damaging. To put additional pressure on the victim to pay, cybercriminals will also start emailing clients, business partners or other individuals who could be affected if the data were made public.
 
-Even if payment is made, it is doubtful whether all information will be returned, as data could be sold on the black market and used to hold the victim to ransom again.
+Even if payment is made, it's doubtful whether all information will be returned, as data could be sold on the black market and used to hold the victim to ransom again.
 
 **Example**: A major computer hardware company was attacked by a cybercriminal group called REvil. This resulted in data being leaked into the public domain and $50 million in ransom being paid.
