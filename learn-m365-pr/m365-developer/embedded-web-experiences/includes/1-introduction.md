@@ -19,6 +19,6 @@ In this module, you'll learn how to create both types of tabs for use within Mic
 
 ## Additional resources
 
-See the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [30 Create embedded web experiences with tabs for Microsoft Teams](https://github.com/officedev/TrainingContent/tree/master/Teams/30%20Create%20Embedded%20Web%20Experiences%20with%20Tabs%20for%20Microsoft%20Teams).
+See the following repository for extra resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [30 Create embedded web experiences with tabs for Microsoft Teams](https://github.com/officedev/TrainingContent/tree/master/Teams/30%20Create%20Embedded%20Web%20Experiences%20with%20Tabs%20for%20Microsoft%20Teams).
 
 This module is also available as the screencast [Create embedded web experiences with tabs for Microsoft Teams](https://youtube.com/playlist?list=PLWZJrkeLOrbY8HkTBBvyx-uyZ3cCdl1VM).
