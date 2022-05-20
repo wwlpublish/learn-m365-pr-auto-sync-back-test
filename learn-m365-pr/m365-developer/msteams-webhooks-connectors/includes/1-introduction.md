@@ -17,6 +17,6 @@ In this module, you'll learn about webhooks and connectors and how to implement 
 
 ## Additional resources
 
-Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [60 Webhooks & Office 365 Connectors](https://github.com/officedev/TrainingContent/tree/master/Teams/60%20Webhooks%20O365%20Connectors).
+Refer to the following repository for extra resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [60 Webhooks & Office 365 Connectors](https://github.com/officedev/TrainingContent/tree/master/Teams/60%20Webhooks%20O365%20Connectors).
 
 This module is also available as the screencast [Webhooks & Office 365 Connectors](https://youtube.com/playlist?list=PLWZJrkeLOrbYpR_lEOXV62G6B1WeZ-SE8).
