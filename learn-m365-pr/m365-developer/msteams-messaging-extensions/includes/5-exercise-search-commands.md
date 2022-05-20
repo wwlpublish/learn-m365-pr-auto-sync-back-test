@@ -39,7 +39,7 @@ Locate and open the **./src/manifest/manifest.json** file. Find the `composeExte
 
 ### Add the query command handler to the bot
 
-The next step is to implement the query command messaging extension using a well-known method in the bot. 
+The next step is to implement the query command messaging extension using a well-known method in the bot.
 
 Locate and open the bot in the file **./src/server/planetBot/planetBot.ts**.
 
@@ -48,7 +48,7 @@ Update the `import` statement for the **botbuilder** package to include the `Mes
 ```typescript
 import {
   // ... existing imports
-  MessagingExtensionQuery, 
+  MessagingExtensionQuery,
   MessagingExtensionResponse
 } from "botbuilder";
 ```
@@ -133,7 +133,7 @@ After updating the app, go back to the 1:1 chat where you tested the messaging e
 
 Enter the string **outer** in the search box and wait a few seconds. Microsoft Teams will execute the search and return the results:
 
-![Screenshot of a search messaging extension](../media/05-test-02.png)
+![Screenshot of a search messaging extension.](../media/05-test-02.png)
 
 ## Summary
 

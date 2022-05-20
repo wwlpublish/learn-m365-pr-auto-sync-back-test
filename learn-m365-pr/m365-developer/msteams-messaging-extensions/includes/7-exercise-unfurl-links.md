@@ -7,7 +7,7 @@ In this exercise, you’ll learn how to add link unfurling to your Microsoft Tea
 
 ## Add a new search messaging extension to the Teams app
 
-In a previous exercise, you created an action messaging extension that enabled a user to add the details of a planet to a message as well as search for a planet.
+In a previous exercise, you created an action messaging extension that enabled a user to add the details of a planet to a message and search for a planet.
 
 In this section, you'll add the link unfurling ability to the app
 
@@ -38,7 +38,7 @@ Next, locate the `validDomains` property. Add the following domain to the array 
 
 ### Add the link query command handler to the bot
 
-The next step is to implement the link query command handler using a well-known method in the bot. 
+The next step is to implement the link query command handler using a well-known method in the bot.
 
 Locate and open the bot in the file **./src/server/planetBot/PlanetBot.ts**.
 
@@ -87,7 +87,7 @@ First, update the existing installed version of the bot.
 
 After updating the app, go back to the 1:1 chat where you tested the messaging extension in the previous exercise. Copy and paste the URL of one of the planets from the **planets.json** file into the compose box. Notice the message has been updated to include the card, which is also included when you send the message:
 
-![Screenshot of a working link unfurling messaging extension](../media/07-test-01.png)
+![Screenshot of a working link unfurling messaging extension.](../media/07-test-01.png)
 
 ## Summary
 
