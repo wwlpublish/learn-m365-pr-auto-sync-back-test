@@ -6,17 +6,17 @@ In this unit, you’ll learn how to use task modules with bots in Microsoft Team
 
 ## Overview
 
-So far in this module, you've learned how to create task modules as HTML web pages and Adaptive Cards. You've learned how to use these task modules from tabs as well as invoking them using Microsoft Teams' support for deep links.
+So far in this module, you've learned how to create task modules as HTML web pages and Adaptive Cards. You've learned how to use these task modules from tabs and invoking them using Microsoft Teams' support for deep links.
 
 Another way you can use task modules is from bots. Bots present a unique challenge in that there's no user interface to interact with a bot, rather all communication is typically done using conversations.
 
-![Screenshot of the MentionMe bot action](../media/07-test-bot-04.png)
+![Screenshot of the MentionMe bot action.](../media/07-test-bot-04.png)
 
 Microsoft's Bot Framework and the Microsoft Teams SDKs have added support for not only invoking task modules, but also to handle the **Action.Submit** event in the case where task modules submit information back to the bot.
 
-![Screenshot of the Specific Video button in the Hero card](../media/07-adaptive-card-01.png)
+![Screenshot of the Specific Video button in the Hero card.](../media/07-adaptive-card-01.png)
 
-![Screenshot of the player task module with the specified video](../media/07-adaptive-card-02.png)
+![Screenshot of the player task module with the specified video.](../media/07-adaptive-card-02.png)
 
 ## Invoking task modules from bots
 
@@ -28,7 +28,7 @@ One option is to use a deep link that is included in the message posted to the *
 
 The other option is to send a special type of message to the Bot Framework and therefore, to Microsoft Teams. This message can be sent from a card action or from the bot itself.
 
-![Screenshot of the process of invoking a task module from a bot](../media/06-task-module-01.png)
+![Screenshot of the process of invoking a task module from a bot.](../media/06-task-module-01.png)
 
 To create the message, set a button's type to `invoke`. The `value.type` property of the button should be set to `task/fetch`, or `Action.Submit` for cards.
 

@@ -8,7 +8,7 @@ Task modules allow you to create modal popup experiences in your Teams applicati
 
 Task modules build on the foundation of Microsoft Teams tabs; they're essentially a tab inside a popup window. They use the same SDK, so if you've built a tab you're already 90% of the way to creating a task module.
 
-![Screenshot of the YouTube Player task module](../media/03-yo-teams-10.png)
+![Screenshot of the YouTube Player task module.](../media/03-yo-teams-10.png)
 
 Task modules can be invoked in three ways:
 
