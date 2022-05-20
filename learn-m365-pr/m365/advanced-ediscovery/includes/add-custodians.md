@@ -60,7 +60,7 @@ Channel conversations that are part of a Microsoft Teams channel are stored in t
 
 When you click **Choose teams** (then click **Choose teams** again on the flyout page) a list of Microsoft Teams that the custodian is currently a member of will be displayed.
 
-:::image type="content" source="../media/flyout-page.png" alt-text="Screenshot of the Choose teams flyout page." lightbox="../media/flyout-page.png":::
+:::image type="content" source="../media/flyout-page.png" alt-text="Screenshot of the Choose teams flyout page where you can either search for teams by name or browse through a list of available teams by name, e mail, or site." lightbox="../media/flyout-page.png" border="false":::
 
 When you select the Team (or Teams) associated with the custodian, the system will automatically identify and select
 the associated SharePoint site and mailbox associated with that Microsoft Team.
@@ -134,7 +134,7 @@ The **Custodian activities** page is displayed when you click **View activity**.
 
 After a custodian is selected you can click the **Activities** drop-down list to display the activities that you can search for. After you run the search, only the audit records for the selected activities are displayed.
 
-:::image type="content" source="../media/activities.png" alt-text="Screenshot of the Activities drop down list." lightbox="../media/activities.png":::
+:::image type="content" source="../media/activities.png" alt-text="Screenshot of the Activities drop down list where activities are categorized by type: file and page activities or folder activities. Activities can also be searched." lightbox="../media/activities.png" border="false":::
 
 The last step is to select a date and time range to display the events that occurred within that period. Note, the last seven days are selected by default and the maximum date range that you can specify is one year.
 

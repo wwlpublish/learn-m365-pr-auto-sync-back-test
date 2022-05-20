@@ -80,7 +80,7 @@ Microsoft Graph can also access OneDrive accounts for more than just users. For 
 
 ### Accessing OneDrive files and folders
 
-OneDrive resources are returned as either a `Drive` or `DriveItem` object. A `DriveItem` represents either a folder or a file. Images are considered special types of files and have additional properties such as a `height` and `width`.
+OneDrive resources are returned as either a `Drive` or `DriveItem` object. A `DriveItem` represents either a folder or a file. Images are considered special types of files and have more properties such as a `height` and `width`.
 
 You can determine the specific resource type of a `DriveItem` by the presence of a `folder`, `file`, or `image` property on the returned `DriveItem` object.
 

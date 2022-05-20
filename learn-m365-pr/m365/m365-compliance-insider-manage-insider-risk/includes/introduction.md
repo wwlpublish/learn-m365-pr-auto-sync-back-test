@@ -13,7 +13,9 @@ The **Policy dashboard** allows you to quickly see the policies in your organiza
 - **Policy effectiveness:** The percentage determined by total confirmed alerts divided by total actions taken on alerts (which is the sum of alerts that were confirmed or dismissed over the past year).
 - **Active:** The status of the policy.
 
-:::image type="content" source="../media/policy-template.png" alt-text="Policy template" lightbox="../media/policy-template.png":::
+:::image type="complex" source="../media/policy-template.png" alt-text="Screenshot of the Policies tab where new policies can be created." lightbox="../media/policy-template.png" border="false":::
+	The Policies tab lists existing policies and the number active alerts, number confirmed alerts, number of actions taken, and effectiveness percentage for each policy.
+:::image-end:::
 
 ## Policy templates
 
@@ -38,13 +40,15 @@ Protecting the privacy of users that have policy matches is important and can he
 - **Show anonymized versions of usernames:** Usernames are anonymized to prevent admins, data investigators, and reviewers from seeing who is associated with policy alerts. For example, a user 'Grace Taylor' would appear with a randomized pseudonym such as 'AnonIS8-988' in all areas of the insider risk management experience. Choosing this setting anonymizes all users with current and past policy matches and applies to all policies. If you choose to turn off this setting, usernames and user profile information will be displayed for all users that have current or past policy matches.
 - **Do not show anonymized versions of usernames:** Usernames and user profile information such as name, title, alias, and organization or department is displayed for the user for all insider risk management alerts and cases.
 
-:::image type="content" source="../media/privacy-setting.png" alt-text="Privacy setting" lightbox="../media/privacy-setting.png":::
+:::image type="content" source="../media/privacy-setting.png" alt-text="Screenshot of the Privacy tab in Settings. The option Show anonymized versions of usernames is checked and Do not show anonymized versions of usernames is unchecked." lightbox="../media/privacy-setting.png" border="false":::
 
 ### Indicators
 
 Each policy template is based on specific indicators that correspond to particular risk activities and alerts are triggered by policies when users perform activities related to these indicators. To define the indicators that are enabled in all policies, navigate to **Settings> Indicators** and select one or more indicators. You must select one or more indicators before you can receive alerts for risky activity defined in your policies.
 
-:::image type="content" source="../media/indicator-setting.png" alt-text="Indicator setting" lightbox="../media/indicator-setting.png":::
+:::image type="complex" source="../media/indicator-setting.png" alt-text="Screenshot of the Indicators tab in Settings." lightbox="../media/indicator-setting.png" border="false":::
+	Select all is chosen, which includes the following settings: sharing files from SharePoint Online, Sharing folders from SharePoint Online, Sharing SharePoint Online sites, Downloading content from SharePoint Online, Emailing outside the organization, Copying sensitive or classified files to USB, Copying sensitive or classified files to cloud, Printing sensitive or classified documents, Use of offensive language in email, Past policy violations, and Measure anomalous activity.
+:::image-end:::
 
 ### Policy timeframes
 
@@ -53,7 +57,7 @@ Policy timeframes allow you to define past and future review periods that are tr
 - **Activation window:** The number of days, 1 to 30, that the window activates *after* a triggering event occurs for any user assigned to the policy. For example, assume you've configured an insider risk management policy and set the **Activation window** to 30 days. Several months have passed since you configured the policy and a triggering event occurs for one of the users included in the policy. The triggering event activates the Activation window and the policy is active for that user for the next 30 days.
 - **Past activity detection:** The number of days, 0 to 180, that the window activates *before* a triggering event occurs for any user assigned to the policy. For example, assume you've configured an insider risk management policy and set the Past activity detection to 90 days. Several months have passed since you configured the policy and a triggering event occurs for one of the users included in the policy. The triggering event activates the Past activity detection and the policy gathers historic activities for that user for 90 days prior to the triggering event.
 
-:::image type="content" source="../media/policy-timeframe-setting.png" alt-text="Policy timeframe setting" lightbox="../media/policy-timeframe-setting.png":::
+:::image type="content" source="../media/policy-timeframe-setting.png" alt-text="Screenshot of the Policy timeframes tab in Settings. It shows the activation window is set to 30 days and past activity detection is set to 90 days." lightbox="../media/policy-timeframe-setting.png" border="false":::
 
 ### Intelligent detections
 
@@ -74,4 +78,6 @@ To adjust the sensitivity of the offensive language classifier for policies usin
 - **Medium:** The mid-level sensitivity level with a balanced range for detection offensive language and sentiment. The probability of false positives for offensive language matching is average.
 - **High:** The highest sensitivity level with a narrow range for detection offensive language and sentiment. The probability of false positives for offensive language matching is low.
 
-:::image type="content" source="../media/intelligent-decisions-setting.png" alt-text="Intelligent decisions setting" lightbox="../media/intelligent-decisions-setting.png":::
+:::image type="complex" source="../media/intelligent-decisions-setting.png" alt-text="Screenshot of the Intelligent detections tab in Settings." lightbox="../media/intelligent-decisions-setting.png" border="false":::
+	It includes a file type exclusions field, a numeric file volume cut off limits setting, and an offensive language detection slider that is set to high.
+:::image-end:::

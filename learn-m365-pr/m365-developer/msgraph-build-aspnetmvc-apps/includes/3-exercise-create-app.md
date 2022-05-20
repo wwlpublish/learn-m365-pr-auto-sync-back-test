@@ -35,7 +35,7 @@ Press **F5** or select **Debug > Start Debugging**. If everything is working, yo
 
 ## Add NuGet packages
 
-Before moving on, update the **bootstrap** NuGet package, and install some additional NuGet packages that you'll use later:
+Before moving on, update the **bootstrap** NuGet package, and install some more NuGet packages that you'll use later:
 
 - [Microsoft.Owin.Host.SystemWeb](https://www.nuget.org/packages/Microsoft.Owin.Host.SystemWeb/) to enable the [OWIN](http://owin.org/) interfaces in the ASP.NET application.
 - [Microsoft.Owin.Security.OpenIdConnect](https://www.nuget.org/packages/Microsoft.Owin.Security.OpenIdConnect/) for doing OpenID Connect authentication with Azure.
@@ -52,8 +52,8 @@ Update-Package bootstrap -Version 4.6.0
 Install-Package Microsoft.Owin.Host.SystemWeb
 Install-Package Microsoft.Owin.Security.OpenIdConnect
 Install-Package Microsoft.Owin.Security.Cookies
-Install-Package Microsoft.Identity.Client -Version 4.41.0
-Install-Package Microsoft.Graph -Version 4.18.0
+Install-Package Microsoft.Identity.Client -Version 4.43.2
+Install-Package Microsoft.Graph -Version 4.28.0
 ```
 
 ## Design the app
@@ -262,7 +262,7 @@ Save all of your changes and restart the server. Now, the app should look differ
 
 In this section, you'll create a new Azure AD web application registration using the Azure Active Directory admin center.
 
-Determine your ASP.NET app's SSL URL. In Visual Studio's **Solution Explorer**, select the **graph-tutorial** project. In the **Properties** window, find the value of **SSL URL**. Copy this value.
+Determine your ASP.NET app's HTTPS URL. In Visual Studio's **Solution Explorer**, select the **graph-tutorial** project. In the **Properties** window, find the value of **SSL URL**. Copy this value.
 
 ![Screenshot of the Visual Studio Properties window](../media/03-vs-project-url.png)
 

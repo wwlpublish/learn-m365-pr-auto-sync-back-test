@@ -1,6 +1,6 @@
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Oycq]
 
-In this exercise, you'll modify the existing Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and use Microsoft Graph to manage the lifecycle of Office 365 groups. You'll also learn how to provision a Microsoft Teams team from an existing Office 365 group.
+In this exercise, you'll modify the existing Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and use Microsoft Graph to manage the lifecycle of Office 365 groups. You'll also learn how to create a Microsoft Teams team from an existing Office 365 group.
 
 > [!IMPORTANT]
 > This exercise assumes you have created the Azure AD application and .NET console application from the previous unit in this module. You'll edit the existing Azure AD application and .NET console application created in that exercise in this exercise.
@@ -12,37 +12,16 @@ In previous exercises, you created a .NET console application that retrieved and
 In the **Program.cs** file, locate the following line in the `Main` method:
 
 ```csharp
-var client = GetAuthenticatedGraphClient(config, userName, userPassword);
+Console.WriteLine("Hello " + profileResponse.DisplayName);
 ```
 
 Delete or comment out all the code in the `Main` method after the above line.
 
 ## Create an Office 365 group
 
-In this section, you'll create a new Office 365 group. This requires an additional permission that the existing Azure AD application and .NET console app don't yet have. The first step is to grant the applications those permissions:
+In this section, you'll create a new Office 365 group. This requires an extra permission that the existing Azure AD application and .NET console app don't yet have. The first step is to grant the applications those permissions:
 
-### Update permissions requested by the console app
-
-An application must be granted specific permissions to get access to groups in Office 365. The existing console application is missing the necessary permission to do this.
-
-Within the **Program.cs** file, locate the method `CreateAuthorizationProvider()`, and locate the following code:
-
-```csharp
-List<string> scopes = new List<string>();
-scopes.Add("User.Read");
-scopes.Add("Group.Read.All");
-scopes.Add("Directory.Read.All");
-```
-
-These permissions need to be updated for the code you added in the last section. Remove the permission **Directory.Read.All** and request the permission **Group.ReadWrite.All**. The result should now look like the following code:
-
-```csharp
-List<string> scopes = new List<string>();
-scopes.Add("User.Read");
-scopes.Add("Group.ReadWrite.All");
-```
-
-### Grant additional permissions to the Azure AD application
+### Grant more permissions to the Azure AD application
 
 The next step is to update and grant the new permission **Group.ReadWrite.All** to the Azure AD application.
 
@@ -148,7 +127,9 @@ dotnet build
 dotnet run
 ```
 
-After entering the username and password of a user, you'll see the console app display the new task's ID = 1. Let's see the group in Office 365.
+You now need to authenticate with Azure Active Directory. A new tab in your default browser should open to a page asking you to sign-in. After you've logged in successfully, you'll be redirected to a page displaying the message, **"Authentication complete. You can return to the application. Feel free to close this browser tab"**. You may now close the browser tab and switch back to the console application.
+
+The application will display the new group's ID. Let's see the group in Office 365.
 
 Within a browser, navigate to https://www.outlook.com and sign-in with the same account you used to run the console app.
 
@@ -156,7 +137,7 @@ In the primary navigation, select **Groups > Manage Groups**.
 
 ![Screenshot of Outlook.com's navigation](../media/07-app-run-01.png)
 
-On the next screen, select **Groups > Owner** and locate the group you created. It may take a minute or two to appear while Office 365 provisions all the resources for the group.
+On the next screen, select **Groups > Owner** and locate the group you created. It may take a minute or two to appear while Office 365 creates all the resources for the group.
 
 After selecting the group, select the **Members** pivot to see a list of all users that have been added to the group. You should see both the owner(s) and member(s) you specified when creating the group:
 
@@ -231,7 +212,7 @@ dotnet build
 dotnet run
 ```
 
-After entering the username and password of a user, you'll see the console app display the new team ID. Let's see the team in Microsoft Teams.
+After you've logged in, you'll see the console app display the new team ID. Let's see the team in Microsoft Teams.
 
 Within a browser, navigate to https://teams.microsoft.com and sign-in with the same account you used to run the console app.
 
@@ -277,7 +258,7 @@ dotnet build
 dotnet run
 ```
 
-After entering the username and password of a user, the console app will display a message that the group has been deleted.
+After you've logged in, the console app will display a message that the group has been deleted.
 
 Confirm this by repeating the process from a previous section to find the group within Outlook.com. When looking at a list of groups, you'll notice the group is no longer present:
 
@@ -285,4 +266,4 @@ Confirm this by repeating the process from a previous section to find the group 
 
 ## Summary
 
-In this exercise, you modified the existing Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and used Microsoft Graph to manage the lifecycle of Office 365 groups. You also learned how to provision a Microsoft Teams team from an existing Office 365 group.
+In this exercise, you modified the existing Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and used Microsoft Graph to manage the lifecycle of Office 365 groups. You also learned how to create a Microsoft Teams team from an existing Office 365 group.
