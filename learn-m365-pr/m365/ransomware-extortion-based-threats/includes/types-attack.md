@@ -1,4 +1,4 @@
-When ransomware attacks are reported in the news, various terms will be mentioned. Having an awareness of some of these key headline terms is useful to gain a better insight into what has happened.
+Ransomware, like all specialized products and tools have a lexicon of terms, like commodity ransomware, or human operated ransomware. Knowing some of these key headline terms is useful to gain a better insight into what type of ransomware attack is taking place and how you can start addressing it.
 
 ## Commodity ransomware
 
@@ -37,7 +37,7 @@ Symptoms of a ransom DDoS attack are likely to be:
 
 ## Encryption and locking malware attacks
 
-Encryption ransomware attacks are where the cybercriminal adds extra code to files to prevent them being accessed on the users’ IT system; this is known as encryption. When the ransomware has downloaded, a message will appear on the screen informing the user of the ransom demand. 
+Encryption ransomware attacks are where the cybercriminal adds extra code to files to prevent them being accessed on the users’ IT system; this is known as encryption. When the ransomware has downloaded, a message will appear on the screen informing the user of the ransom demand.
 
 When files are encrypted, they're locked down by the cybercriminal and can't be opened until the ransom is paid.
 
@@ -60,7 +60,7 @@ There are three main types of social engineering attacks:
 
 Phishing uses email or websites to solicit personal information from individuals that then allows the cybercriminal to gain access to unauthorized areas, such as bank accounts or other sensitive fields. The email or website used will look very professional and often pretend to come from legitimate organizations, taking advantage of current events to play on public sympathies. Although phishing is often used to extract money from users by trickery, the emails can contain attachments which, once opened, lead to a ransomware attack. It’s estimated that 90 percent of all data breaches are due to a phishing attack, highlighting the fact that the weakest link in any IT system is the user.
 
-**Example**: In 2016, a hacker organization started sending emails with a Word attachment which, when opened, encouraged users to enable macros. In turn, this installed the malicious ransomware and launched a virus called Locky, which encrypted files. A link then took users to a website which demanded payment via Bitcoin to release the files.
+**Example**: In 2016, a hacker organization started sending emails with a Word attachment which, when opened, encouraged users to enable macros. In turn, this installed the malicious ransomware and launched a virus called Locky, which encrypted files. A link then took users to a website that demanded payment via Bitcoin to release the files.
 
 #### Vishing
 
@@ -71,8 +71,6 @@ Vishing uses voice communications to deceive a victim. The caller may pretend to
 #### Smishing
 
 Smishing uses text messaging to try and exploit people. The messages contain links which lead to fraudulent sites that imitate legitimate sites. Although these links are often used to extract money from users, they can also entice people to download files which can then run ransomware and lead to an attack.
-
-Individuals are often the weak link that allows someone to gain access to a computer and an entire system.
 
 **Example**: Texts pretending to be from rogue companies, claiming that they’ve tried to deliver a parcel and demanding a payment to redeliver it. Simple tricks like this are easy to fall prey to if you genuinely are expecting a parcel and could have missed the delivery.
 

@@ -1,4 +1,4 @@
-Vast amounts of money are involved, with major companies handing over huge sums to recover data quickly and minimize impact. It’s suspected that the biggest payout was made by one insurance company, who reportedly paid more than $40 million to unlock data and restore its network. The company hasn't officially confirmed or denied this. 
+When a ransomware attack occurs, most companies hand over huge sums to recover data quickly and minimize impact. It’s suspected that the biggest payout was made by one insurance company, who reportedly paid more than $40 million to unlock data and restore its network. The company hasn't officially confirmed or denied this. 
 
 Here’s an indication of the scale of the problem:  
 
@@ -9,7 +9,7 @@ Here’s an indication of the scale of the problem:
 
 ## Indirect targets
 
-We tend to think that only large organizations are at risk, but individuals can be indirect targets too. We don't always appreciate that many personal devices have wireless capabilities, which means they receive information directly from the computer systems held at the main organization. If this organization is attacked, then the personal device is also affected.  
+We tend to think that only large organizations are at risk of a cyberattack, but individuals can be indirect targets too. Almost every device we use in our day to day lives has the capability to access the internet or to connect to our work servers and networks. This makes them susceptible to both direct and indirect attacks.
 
 The following list highlights areas you might not have considered to be indirect targets:
 
@@ -18,12 +18,12 @@ The following list highlights areas you might not have considered to be indirect
 
 ## Recovering from a ransomware attack
 
-Average payouts can range from $6,000 for a small business to as much as $225,000 for a large company, so the financial demands are high. By giving money to the attackers, you’re helping to increase the problem, so the advice is always not to pay.
+Typically, there are only two ways to recover from a ransomware attack. Pay the ransom, or rely on your IT department to find a way to restore your systems. Many companies opt for the first choice, where the ransom costs vary depending on the size of your business and how valuable the data can be. Typical costs range from as little as $6,000 dollars for a small business to millions of dollars for larger corporations. By giving money to the attackers, you’re helping to increase the problem, so the advice is always not to pay.
 
-Of businesses that paid a ransom:
+When a business pays a ransom:
 
-- Only 65 percent of stolen data has ever been returned.
-- Approximately 80 percent were attacked a second time.
+- Only 65% of stolen data is ever returned.
+- There's an 80% chance it will get attacked again.
 
 Up to 60 percent of small businesses failed within six months of an attack, due to a combination of:
 

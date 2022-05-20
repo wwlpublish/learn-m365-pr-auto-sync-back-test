@@ -1,4 +1,4 @@
-Ransomware is where a cybercriminal installs software onto your computer to prevent you from using it. They then demand money before you can access your computer again. The ransomware can be installed so that it locks an entire company out of some or all of its systems, or prevents access to certain files. Some ransomware takes extracts of data that a cybercriminal can then threaten to make public should a ransom not be paid.
+Ransomware is where a cybercriminal installs software onto your computer to prevent you from using it. They then demand money before you can access your computer again. The ransomware can be installed so that it locks an entire company out of some or all of its systems, or prevents access to certain files. A recent escalation has seen cybercriminals take copies of sensitive data which they threaten to make public should a ransom not be paid.
 
 In this module, you'll also hear the term malware mentioned. Malware is ransomware that is downloaded onto computers or a computer system to prevent access. To summarize, malware locks the computer and, by demanding a ransom, this becomes a ransomware attack.
 
@@ -29,7 +29,7 @@ It’s important to remember that you’re dealing with cybercriminals, so there
 
 ## The growth of ransomware as an industry
 
-As the internet has become more accessible, so the potential for installing ransomware has also increased. However the problem isn't new—it started when computers were first being used.
+As the internet has become more accessible, so the potential for installing ransomware has also increased. However the problem isn't new—it started when computers were first used.
 
 ### 1989 – AIDS Trojan
 
@@ -54,4 +54,4 @@ Within the cybercriminal environment, ransomware started to become available to 
 
 Extracting money via cyberattacks is now a complete business model, where cybercriminal organizations run large call centers to handle ransom payments. They target large businesses and high-profile individuals to maximize payouts. But small businesses and individuals are still targeted, so no-one is safe from attack. The COVID-19 pandemic has pushed many users to remote working, meaning more companies are at risk as extra traffic goes through the internet. It’s vitally important that every business ensures they follow all recommendations to minimize any threat of attack.
 
-However, the continued increase in the number and scale of attacks has brought the issue more to the attention of law enforcement agencies, who are now spending more on targeting the attackers and having some very limited success.
+As the scale of ransomware and extortion based attacks increases, law enforcement agencies around the world are now starting to take increased interest in tracking down these criminals.

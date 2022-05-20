@@ -1,4 +1,4 @@
-Ransomware has now developed into a complete business model called ransomware-as-a- service where cybercriminals license out “off-the-shelf” products. Just like a family, these products share common characteristics which make them recognizable. In September 2021, in an analysis of more than 12.7 million malware detections made by a key antivirus company, more than 220 ransomware families were identified.
+Ransomware has now developed into a complete business model called ransomware-as-a-service where cybercriminals license out “off-the-shelf” products. Just like a family, these products share common characteristics which make them recognizable to anti-malware security solutions. In September 2021, in an analysis of more than 12.7 million malware detections made by a key antivirus company, more than 220 ransomware families were identified.
 
 The top 10 families will change, but some notable ones are:
 
@@ -68,7 +68,7 @@ The following outlines the attack:
 
 The government response:
 
-- The scale of the attack prompted the United States to act and offer a reward of up to $10 million for any information that would lead to the gang members.
+- The scale of the attack prompted the United States to act and offer a reward of up to $10 million for any information that would lead to the cybercriminals arrest.
 - In an act of cooperation, the Russian intelligence bureau arrested the group and seized more than $560,000 of crypto currency and more than 20 premium cars bought with the “proceeds of crime”.
 - The ransomware did disappear for a while but has since reemerged and once again is a major threat.
 

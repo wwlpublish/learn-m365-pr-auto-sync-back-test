@@ -23,7 +23,9 @@ iconUrl: /learn/achievements/generic-badge.svg
 levels: 
   - beginner
 roles: 
-  - developer
+  - business-user
+  - student
+  - administrator
 products: 
 - m365
 units:
