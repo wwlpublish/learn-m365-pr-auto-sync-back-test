@@ -13,7 +13,7 @@ Factors that can influence a shift in the threat landscape include:
 - Exploitable vulnerabilities discovered by cybercriminals in existing software and hardware.
 - A mass change in the way people and businesses work and engage with each other.
 
-Because of these factors, the threat landscape is in a constant state of flux since some threats apply to all, while others are more specific to an industry sector or group, for example, the finance sector.
+Because of these factors, the threat landscape is in a constant state of flux.
 
 ## What is an attack vector?
 

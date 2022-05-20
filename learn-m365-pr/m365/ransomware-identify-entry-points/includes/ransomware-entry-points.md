@@ -1,6 +1,6 @@
-The entry point for any cyberattack is where it breaches your security defenses. Until then, the cybercriminal is just probing your security, looking for a weakness.
-
 The high-reward, low-risk nature of ransomware has seen an escalation in the number of cybercriminals looking to get rich quickly by seeking out and exploiting your security vulnerabilities, increasing the volume of attacks.
+
+Every attack has a point of entry. The entry point for any cyberattack is where it breaches your security defenses. Until then, the cybercriminal is just probing your security, looking for a weakness.
 
 By strengthening and bolstering the most common entry points, you can plug the holes to improve your overall security position and prevent attacks. The diagram below shows some of the more common entry points a cybercriminal may look to attack.
 
