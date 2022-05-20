@@ -2,11 +2,11 @@ In this exercise, you'll use Adaptive Cards to implement custom task modules in 
 
 One is a standard HTML page that accepts the ID of a video on YouTube. When the task module is invoked, it will display the video using the YouTube embedded player in an HTML page. This task module will get the video ID from the query string, but it won't need to return any information back to the tab.
 
-![Screenshot of the YouTube Player task module](../media/07-test-rendered-task-module.png)
+![Screenshot of the YouTube Player task module.](../media/07-test-rendered-task-module.png)
 
 The other task module is implemented with an Adaptive Card. This task module enables the user to specify the ID of the YouTube video to display. Once changed, when the user saves their changes, it will use the callback to close submit the new ID back to the tab.
 
-![Screenshot of the Adaptive Card rendered in a task module](../media/07-test-rendered-adaptive-card.png)
+![Screenshot of the Adaptive Card rendered in a task module.](../media/07-test-rendered-adaptive-card.png)
 
 ## Prerequisites
 
@@ -21,11 +21,11 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v10.\* (or higher)
-- NPM (installed with Node.js) - v6.\* (or higher)
-- [Gulp](https://gulpjs.com/) - v4.\* (or higher)
-- [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.5.0 (or higher)
+- [Node.js](https://nodejs.org/) - v14.19.*
+- npm (installed with Node.js) - v6.14.*
+- [Gulp CLI](https://gulpjs.com/) - v2.3.*
+- [Yeoman](https://yeoman.io/) - v4.3.*
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -40,7 +40,7 @@ Run the Yeoman Generator for Microsoft Teams by running the following command:
 yo teams
 ```
 
-![Screenshot of the Yeoman Generator for Microsoft Teams](../media/07-yo-teams-01.png)
+![Screenshot of the Yeoman Generator for Microsoft Teams.](../media/07-yo-teams-01.png)
 
 Yeoman will launch and ask you a series of questions. Answer the questions with the following values:
 
@@ -53,7 +53,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **What features do you want to add to your project?**: A Tab
 - **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like to show a loading indicator when your app/tab loads?** No
-- **Default Tab name? (max 16 characters)**: YouTube Player 
+- **Default Tab name? (max 16 characters)**: YouTube Player
 - **What kind of Tab would you like to create?**: Personal (static)
 - **Do you require Azure AD Single-Sign-On support for the tab?** No
 
@@ -85,18 +85,18 @@ This gulp task will run many other tasks all displayed within the command-line c
 > [!NOTE]
 > Microsoft Teams requires all content displayed within a tab be loaded from an HTTPS request. In development, can be done using the tool [ngrok](https://www.ngrok.com) that creates a secure rotatable URL to your local HTTP webserver. Ngrok is included as a dependency within the project so there is nothing to setup or configure.
 
-![Screenshot of gulp ngrok-serve](../media/07-yo-teams-02.png)
+![Screenshot of gulp ngrok-serve.](../media/07-yo-teams-02.png)
 
 Open a browser and navigate to the ngrok URL displayed in the console:
 
 > [!IMPORTANT]
 > The first part of the URL displayed in the console will change each time Ngrok is started. The address shown in the previous and following screenshots will be different when you run it.
 
-![Screenshot of the local web app hosting the Teams tab project](../media/07-yo-teams-03.png)
+![Screenshot of the local web app hosting the Teams tab project.](../media/07-yo-teams-03.png)
 
 Update the URL in the browser to load the tab created by the scaffolding process. Here you can see the page can determine that it isn't running within the Microsoft Teams client.
 
-![Screenshot of the local web app hosting the Teams tab project, display the tab](../media/07-yo-teams-04.png)
+![Screenshot of the local web app hosting the Teams tab project, display the tab.](../media/07-yo-teams-04.png)
 
 Now let's load the tab in Microsoft Teams. In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
 
@@ -105,9 +105,12 @@ Now let's load the tab in Microsoft Teams. In the browser, navigate to **https:/
 
 Using the app bar navigation menu, select the **More added apps** button. Then select **More apps**.
 
-![Screenshot of More added apps dialog in Microsoft Teams](../media/07-yo-teams-05.png)
+![Screenshot of More added apps dialog in Microsoft Teams.](../media/07-yo-teams-05.png)
 
-On the **Apps** page, select **Manage your apps** > **Upload a custom app**.
+On the **Apps** page, select **Manage your apps** > **Publish an app** > **Upload a custom app**.
+
+> [!NOTE]
+> If Developer Preview is turned on for Teams, the button is labelled **Upload an app** instead of **Publish an app**.
 
 In the file dialog that appears, select the Microsoft Teams package in your project. This app package is a ZIP file that can be found in the project's **./package** folder.
 
@@ -119,15 +122,15 @@ In the file dialog that appears, select the Microsoft Teams package in your proj
 
 Once the package is uploaded, Microsoft Teams will display a summary of the app. Here you can see some "todo" items to address. *None of these "todo" items are important to this exercise, so you'll leave them as is.*
 
-![Screenshot of Microsoft Teams app](../media/07-yo-teams-06.png)
+![Screenshot of Microsoft Teams app.](../media/07-yo-teams-06.png)
 
 Select the **Add** button to install the app, adding a new personal tab to your **More added apps** dialog:
 
-![Screenshot of the installed Microsoft Teams app in the More added apps dialog](../media/07-yo-teams-07.png)
+![Screenshot of the installed Microsoft Teams app in the More added apps dialog.](../media/07-yo-teams-07.png)
 
 Select the app to navigate to the new tab:
 
-![Screenshot of the installed Microsoft Teams app personal tab](../media/07-yo-teams-08.png)
+![Screenshot of the installed Microsoft Teams app personal tab.](../media/07-yo-teams-08.png)
 
 Notice that when the content page is loaded in a tab within the Microsoft Teams client, it's displaying the value of the `entityId` property of the tab, not the message "This isn't hosted in Microsoft Teams" as you saw when viewing the content page in the browser. The tab can detect if it's loaded within the Microsoft Teams client using the Microsoft Teams JavaScript SDK.
 
@@ -162,7 +165,7 @@ const [youTubeVideoId, setYouTubeVideoId] = useState<string | undefined>("jugBQq
 Add the following methods to the `YouTubePlayerTab` component. These methods will handle updating the state when specific events happen on the form you'll add to the component:
 
 ```typescript
-const onChangeVideo = (): void => { 
+const onChangeVideo = (): void => {
 };
 
 const onShowVideo = ():  void => {
@@ -212,13 +215,14 @@ From the command line, navigate to the root folder for the project and execute t
 gulp ngrok-serve --debug
 ```
 
-The ngrok subdomain will change when the ngrok process is restarted. Re-add the app to Teams, following the same steps as before:
+The ngrok subdomain will change when the ngrok process is restarted. Repeat the process of adding the app to Teams, following the same steps as before:
+
 - Using the app bar navigation menu, select the **More added apps** button. Then select **More apps**.
-- On the **Apps** page, select **Manage your apps** > **Upload a custom app**. In the file dialog that appears, select the Microsoft Teams package in your project. (This app package is a ZIP file that can be found in the project's **./package** folder.)
+- On the **Apps** page, select **Manage your apps** > **Publish an app** > **Upload a custom app**. In the file dialog that appears, select the Microsoft Teams package in your project. (This app package is a ZIP file that can be found in the project's **./package** folder.)
 - Once the package is uploaded, Microsoft Teams will display a summary of the app. Select the **Add** button to install the app, adding a new personal tab to your **More added apps** dialog.
 - Select the app to navigate to the new tab.
 
-![Screenshot of the updated YouTube Player tab](../media/07-yo-teams-09.png)
+![Screenshot of the updated YouTube Player tab.](../media/07-yo-teams-09.png)
 
 Now you can update the project and add task modules to the custom Microsoft Teams app.
 
@@ -322,9 +326,9 @@ From the command line, navigate to the root folder for the project and execute t
 gulp ngrok-serve --debug
 ```
 
-Re-add the app as above. Select the **Show video** button. Microsoft Teams will load the video player task module with the specified video loaded in the embedded player:
+Repeat the process of adding the app to Teams again. Select the **Show video** button. Microsoft Teams will load the video player task module with the specified video loaded in the embedded player:
 
-![Screenshot of the YouTube Player task module](../media/07-test-rendered-task-module.png)
+![Screenshot of the YouTube Player task module.](../media/07-test-rendered-task-module.png)
 
 Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console to stop the running process.
 
@@ -446,7 +450,7 @@ gulp ngrok-serve --debug
 
 Refresh the Microsoft Teams interface and select the button **Change Video ID**. Microsoft Teams will open a task module with the rendered Adaptive Card:
 
-![Screenshot of the Adaptive Card rendered in a task module](../media/07-test-rendered-adaptive-card.png)
+![Screenshot of the Adaptive Card rendered in a task module.](../media/07-test-rendered-adaptive-card.png)
 
 Replace the video ID in the input box and select **Update**. Notice the video ID displayed in the tab is updated to reflect this new value.
 
