@@ -25,15 +25,15 @@ quiz:
     - content: "Someone leaving your organization."
       isCorrect: false
       explanation: "That's incorrect. While someone who is leaving might want to install malicious software, good security processes and protocols would mitigate any possible action."
-  - content: "What does the term entry point mean in a ransomware attack?"
+  - content: "What does the term 'entry point' mean in a ransomware attack?"
     choices:
-    - content: "The entry point is the method used by a cybercriminal to try to gain access to your network or computer."
+    - content: "The entry point is the method used by a cybercriminal to try and gain access to your network or computer."
       isCorrect: false
       explanation: "That's incorrect. The entry point for the attack occurs after a vulnerability has been exposed."
     - content: "The entry point for any cybercrime is when the cybercriminal decides to attack your security defenses."
       isCorrect: false
-      explanation: "That's incorrect. The entry point occurs once a vulnerability has been found and can be exploited."
-    - content: "The entry point for any cyberattack is the point at which an attack breaches your security defenses."
+      explanation: "That's incorrect. The entry point occurs after a vulnerability has been found and can be exploited."
+    - content: "The entry point for any cyberattack is the point at which an attack breaches your security defenses. "
       isCorrect: true
       explanation: "That's correct. The entry point is where a successful cyberattack occurred."
   - content: "In what instance would a cybercriminal use an Initial Access Broker?"
@@ -41,9 +41,9 @@ quiz:
     - content: "To purchase the right ransomware for the target system."
       isCorrect: false
       explanation: "That's incorrect. Ransomware has made it lucrative for hackers to sell information to cybercriminals on how to access the target system."
-    - content: "To purchase access credentials to the target system."
+    - content: "To purchase access credentials for the target system."
       isCorrect: true
-      explanation: "That's correct. Initial Access Brokers look for ways into your systems and then sell them to the highest bidder."
-    - content: "To facilitate joining a Ransomware-as-a-Service syndicate."
+      explanation: "That's correct. Initial Access Brokers look for ways into your systems, and then sell them to the highest bidder."
+    - content: "To facilitate joining a ransomware-as-a-service syndicate."
       isCorrect: false
       explanation: "That's incorrect. The Initial Access Broker's role isn't to facilitate joining a ransomware syndicate."
