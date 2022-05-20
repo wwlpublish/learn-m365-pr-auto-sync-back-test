@@ -106,7 +106,7 @@ Groups are large objects, so you may want to use the `$select` query parameter t
 GET https://graph.microsoft.com/v1.0/groups?$select=id,resourceProvisioningOptions
 ```
 
-To get details on a specific team, use the `/groups` endpoint and specify the group by it's ID:
+To get details on a specific team, use the `/groups` endpoint and specify the group by its ID:
 
 ```http
 GET https://graph.microsoft.com/v1.0/teams/{group-id}
@@ -117,7 +117,7 @@ GET https://graph.microsoft.com/v1.0/teams/{group-id}
 
 ### List all teams the current user has joined
 
-You can also use Microsoft Graph to obtain a list of all teams the the current user has joined.
+You can also use Microsoft Graph to obtain a list of all teams the current user has joined.
 
 ```http
 GET https://graph.microsoft.com/v1.0/me/joinedTeams
