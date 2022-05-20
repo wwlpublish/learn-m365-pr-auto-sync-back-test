@@ -13,7 +13,7 @@ In this unit, learn how SSO works and how to create a Microsoft Teams tab that u
 
 Let's look at how the SSO process works at runtime in Microsoft Teams tabs:
 
-![Screenshot of SSO in Microsoft Teams tabs](../media/04-tabs-sso-diagram.png)
+![Screenshot of SSO in Microsoft Teams tabs.](../media/04-tabs-sso-diagram.png)
 
 1. In the tab, a JavaScript call is made to `getAuthToken()`. This tells Microsoft Teams to obtain an authentication token for the tab application.
 1. If this is the first time the current user has used your tab application, the user is prompted to consent (*if consent is required*), or to handle step-up authentication (*such as two-factor authentication*).
@@ -40,11 +40,11 @@ All Microsoft Teams app that implement SSO must also have an associated Azure AD
 - **permissions**: this is a list of the API permissions your app needs the user to consent to, such as **User.Read** or **Mail.Read**
 - **obtain tokens with the OAuth2 implicit flow**: Microsoft Teams must be able to obtain the access tokens and ID tokens
 
-    ![Screenshot of Azure AD app registration and implicit flow settings](../media/03-azure-ad-app-registration-04.png)
+    ![Screenshot of Azure AD app registration and implicit flow settings.](../media/03-azure-ad-app-registration-04.png)
 
 - **`access_as_user` permission**: this permission exposed by the app registration is used to grant apps, such as Microsoft Teams, to act on the user's behalf:
 
-    ![Screenshot of the Expose an API - Add a scope dialog in Azure AD](../media/03-azure-ad-app-registration-08.png)
+    ![Screenshot of the Expose an API - Add a scope dialog in Azure AD.](../media/03-azure-ad-app-registration-08.png)
 
 - **preauthorize Microsoft Teams clients to act on the user's behalf**: this setting removes the requirement for users to explicitly consenting to allow Microsoft Teams to act on the user's behalf
 
@@ -56,11 +56,11 @@ Microsoft Teams tabs have some unique characteristics because they're a web-base
 
 For example, the **Redirect URI** for the app should point to the URL where the tab implementation is hosted:
 
-![Screenshot of the app's Redirect URL](../media/04-azure-ad-app-redirect-url.png)
+![Screenshot of the app's Redirect URL.](../media/04-azure-ad-app-redirect-url.png)
 
 Also, when exposing the API permission `access_as_user`, the **Application ID URI** should include the domain where the tab implementation is hosted as well:
 
-![Screenshot of the application ID URI](../media/03-azure-ad-app-registration-07.png)
+![Screenshot of the application ID URI.](../media/03-azure-ad-app-registration-07.png)
 
 ## Implement SSO in Microsoft Teams tabs
 
