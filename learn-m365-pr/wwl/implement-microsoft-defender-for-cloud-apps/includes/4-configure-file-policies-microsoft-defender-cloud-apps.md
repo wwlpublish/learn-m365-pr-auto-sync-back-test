@@ -31,117 +31,17 @@ When you look at the Policy page in the Microsoft Defender for Cloud Apps portal
 
 The following table describes the types of policies can be created.
 
-:::row:::
-  :::column:::
-    **Policy type**
-  :::column-end:::
-  :::column:::
-    **Category**
-  :::column-end:::
-  :::column:::
-    **Use**
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Activity policy
-  :::column-end:::
-  :::column:::
-    Threat detection
-  :::column-end:::
-  :::column:::
-    Activity policies allow you to enforce a wide range of automated processes using the app provider's APIs. These policies enable you to monitor specific activities carried out by various users, or follow unexpectedly high rates of a certain type of activity. [Learn more](/defender-cloud-apps/user-activity-policies?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Anomaly detection policy
-  :::column-end:::
-  :::column:::
-    Threat detection
-  :::column-end:::
-  :::column:::
-    Anomaly detection policies enable you to look for unusual activities on your cloud. Detection is based on the risk factors you set to alert you when something happens that is different from the baseline of your organization or from the user's regular activity. [Learn more](/defender-cloud-apps/anomaly-detection-policy?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    OAuth app policy
-  :::column-end:::
-  :::column:::
-    Threat detection
-  :::column-end:::
-  :::column:::
-    OAuth app policies enable you to investigate which permissions each OAuth app requested and automatically approve or revoke it. These built-in policies come with Defender for Cloud Apps and can't be created. [Learn more](/defender-cloud-apps/app-permission-policy?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Malware detection policy
-  :::column-end:::
-  :::column:::
-    Threat detection
-  :::column-end:::
-  :::column:::
-    Malware detection policies enable you to identify malicious files in your cloud storage and automatically approve or revoke it. This built-in policy comes with Defender for Cloud Apps and can't be created. [Learn more](/defender-cloud-apps/anomaly-detection-policy#malware-detection?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    File policy
-  :::column-end:::
-  :::column:::
-    Information protection
-  :::column-end:::
-  :::column:::
-    File policies enable you to scan your cloud apps for specified files or file types (shared, shared with external domains), data (proprietary information, personal data, credit card information, and other types of data) and apply governance actions to the files (governance actions are cloud-app specific). [Learn more](/defender-cloud-apps/data-protection-policies?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Access policy
-  :::column-end:::
-  :::column:::
-    Conditional access
-  :::column-end:::
-  :::column:::
-    Access policies provide you with real-time monitoring and control over user logins to your cloud apps. [Learn more](/defender-cloud-apps/access-policy-aad?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Session policy
-  :::column-end:::
-  :::column:::
-    Conditional access
-  :::column-end:::
-  :::column:::
-    Session policies provide you with real-time monitoring and control over user activity in your cloud apps. [Learn more](/defender-cloud-apps/session-policy-aad?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    App discovery policy
-  :::column-end:::
-  :::column:::
-    Shadow IT
-  :::column-end:::
-  :::column:::
-    App discovery policies enable you to set alerts that notify you when new apps are detected within your organization. [Learn more](/defender-cloud-apps/cloud-discovery-policies?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Cloud Discovery anomaly detection policy
-  :::column-end:::
-  :::column:::
-    Shadow IT
-  :::column-end:::
-  :::column:::
-    Cloud Discovery anomaly detection policies look at the logs you use for discovering cloud apps and search for unusual occurrences. For example, when a user who never used Dropbox before suddenly uploads 600 GB to Dropbox, or when there are a lot more transactions than usual on a particular app. [Learn more](/defender-cloud-apps/cloud-discovery-anomaly-detection-policy?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-
+| **Policy type**                          | **Category**           | **Use**                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| ---------------------------------------- | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Activity policy                          | Threat detection       | Activity policies allow organizations to enforce a wide range of automated processes using app providers' APIs. These policies enable you to monitor specific activities carried out by various users, or follow unexpectedly high rates of a certain type of activity. [Learn more](/defender-cloud-apps/user-activity-policies?azure-portal=true).                                                                |
+| Anomaly detection policy                 | Threat detection       | Anomaly detection policies enable an organization to look for unusual activities on its cloud. Detection is based on the risk factors you set to alert you when something happens that is different from the baseline of your organization or from the user's regular activity. [Learn more](/defender-cloud-apps/anomaly-detection-policy?azure-portal=true).                                                      |
+| OAuth app policy                         | Threat detection       | OAuth app policies enable an organization to investigate which permissions each OAuth app requested and automatically approve or revoke it. These built-in policies come with Defender for Cloud Apps and can't be created. [Learn more](/defender-cloud-apps/app-permission-policy?azure-portal=true).                                                                                                             |
+| Malware detection policy                 | Threat detection       | Malware detection policies enable an organization to identify malicious files in its cloud storage and then automatically approve or revoke it. This built-in policy comes with Defender for Cloud Apps and can't be created. [Learn more](/defender-cloud-apps/anomaly-detection-policy#malware-detection?azure-portal=true).                                                                                      |
+| File policy                              | Information protection | File policies enable an organization to scan its cloud apps for specified files or file types (shared, shared with external domains), data (proprietary information, personal data, credit card information, and other types of data) and apply governance actions to the files (governance actions are cloud-app specific). [Learn more](/defender-cloud-apps/data-protection-policies?azure-portal=true).         |
+| Access policy                            | Conditional access     | Access policies provide an organization with real-time monitoring and control over user logins to its cloud apps. [Learn more](/defender-cloud-apps/access-policy-aad?azure-portal=true).                                                                                                                                                                                                                           |
+| Session policy                           | Conditional access     | Session policies provide an organization with real-time monitoring and control over user activity in its cloud apps. [Learn more](/defender-cloud-apps/session-policy-aad?azure-portal=true).                                                                                                                                                                                                                       |
+| App discovery policy                     | Shadow IT              | App discovery policies enable an organization to set alerts that notify it when new apps are detected. [Learn more](/defender-cloud-apps/cloud-discovery-policies?azure-portal=true).                                                                                                                                                                                                                               |
+| Cloud Discovery anomaly detection policy | Shadow IT              | Cloud Discovery anomaly detection policies look at the logs an organization uses for discovering cloud apps and search for unusual occurrences. For example, when a user who never used Dropbox before suddenly uploads 600 GB to Dropbox, or when there are a lot more transactions than usual on a particular app. [Learn more](/defender-cloud-apps/cloud-discovery-anomaly-detection-policy?azure-portal=true). |
 
 ### Identifying risk
 
@@ -149,106 +49,16 @@ Defender for Cloud Apps helps you mitigate different risks in the cloud. You can
 
 The following table describes the types of risks that can be identified.
 
-:::row:::
-  :::column:::
-    **Risk**
-  :::column-end:::
-  :::column:::
-    **What should you consider?**
-  :::column-end:::
-  :::column:::
-    **Description**
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Access control
-  :::column-end:::
-  :::column:::
-    Who accesses what from where?
-  :::column-end:::
-  :::column:::
-    Continuously monitor behavior and detect anomalous activities, including high-risk insider and external attacks, and apply a policy to alert, block, or require identity verification for any app or specific action within an app. Enables on-premises and mobile access control policies based on user, device, and geography with coarse blocking and granular view, edit, and block. Detect suspicious sign-in events, including multifactor authentication failures, disabled account sign-in failures, and impersonation events.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Compliance
-  :::column-end:::
-  :::column:::
-    Are your compliance requirements breached?
-  :::column-end:::
-  :::column:::
-    Catalog and identify sensitive or regulated data, including sharing permissions for each file, stored in file-sync services to ensure compliance with regulations such as PCI, SOX, and HIPAA.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Configuration control
-  :::column-end:::
-  :::column:::
-    Are unauthorized changes being made to your configuration?
-  :::column-end:::
-  :::column:::
-    Monitor configuration changes including remote configuration manipulation.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Cloud Discovery
-  :::column-end:::
-  :::column:::
-    Are new apps being used in your organization?
-  :::column-end:::
-  :::column:::
-    Do you have a problem of Shadow IT apps being used that you don't know about? Rate overall risk for each cloud app based on regulatory and industry certifications and best practices. Enables you to monitor the number of users, activities, traffic volume, and typical usage hours for each cloud application.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    DLP
-  :::column-end:::
-  :::column:::
-    Are proprietary files being shared publicly?
-  :::column-end:::
-  :::column:::
-    Do you need to quarantine files? On-premises DLP integration provides integration and closed-loop remediation with existing on-premises DLP solutions.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Privileged accounts
-  :::column-end:::
-  :::column:::
-    Do you need to monitor admin accounts?
-  :::column-end:::
-  :::column:::
-    Real-time activity monitoring and reporting of privileged users and admins.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Sharing control
-  :::column-end:::
-  :::column:::
-    How is data being shared in your cloud environment?
-  :::column-end:::
-  :::column:::
-    Inspect the content of files and content in the cloud, and enforce internal and external sharing policies. Monitor collaboration and enforce sharing policies, such as blocking files from being shared outside your organization.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Threat detection
-  :::column-end:::
-  :::column:::
-    Are there suspicious activities threatening your cloud environment?
-  :::column-end:::
-  :::column:::
-    Receive real-time notifications for any policy violation or activity threshold via text message or email. By applying machine learning algorithms, Defender for Cloud Apps enables you to detect behavior that could indicate that a user is misusing data.
-  :::column-end:::
-:::row-end:::
-
+| **Risk**              | **What should you consider?**                                       | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| --------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Access control        | Who accesses what from where?                                       | Continuously monitor behavior and detect anomalous activities, including high-risk insider and external attacks. You can then apply a policy to alert, block, or require identity verification for any app or specific action within an app. Enables on-premises and mobile access control policies based on user, device, and geography with coarse blocking and granular view, edit, and block. Detect suspicious sign-in events, including multifactor authentication failures, disabled account sign-in failures, and impersonation events. |
+| Compliance            | Are your compliance requirements breached?                          | Catalog and identify sensitive or regulated data, including sharing permissions for each file, stored in file-sync services to ensure compliance with regulations such as PCI, SOX, and HIPAA.                                                                                                                                                                                                                                                                                                                                                  |
+| Configuration control | Are unauthorized changes being made to your configuration?          | Monitor configuration changes including remote configuration manipulation.                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Cloud Discovery       | Are new apps being used in your organization?                       | Do you have a problem of Shadow IT apps being used that you don't know about? Rate overall risk for each cloud app based on regulatory and industry certifications and best practices. Enables you to monitor the number of users, activities, traffic volume, and typical usage hours for each cloud application.                                                                                                                                                                                                                              |
+| DLP                   | Are proprietary files being shared publicly?                        | Do you need to quarantine files? On-premises DLP integration provides integration and closed-loop remediation with existing on-premises DLP solutions.                                                                                                                                                                                                                                                                                                                                                                                          |
+| Privileged accounts   | Do you need to monitor admin accounts?                              | Real-time activity monitoring and reporting of privileged users and admins.                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Sharing control       | How is data being shared in your cloud environment?                 | Inspect the content of files and content in the cloud, and enforce internal and external sharing policies. Monitor collaboration and enforce sharing policies, such as blocking files from being shared outside your organization.                                                                                                                                                                                                                                                                                                              |
+| Threat detection      | Are there suspicious activities threatening your cloud environment? | Receive real-time notifications for any policy violation or activity threshold via text message or email. By applying machine learning algorithms, Defender for Cloud Apps enables you to detect behavior that could indicate that a user is misusing data.                                                                                                                                                                                                                                                                                     |
 
 ### Examples of different file policies
 

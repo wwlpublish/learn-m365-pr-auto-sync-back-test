@@ -1,4 +1,4 @@
-Alerts are the entry points to understanding your cloud environment more deeply. You might want to create new policies based on what you find. For example, you might see an administrator signing in from Greenland, and no one in your organization ever signed in from Greenland before. You can create a policy that automatically suspends an admin account when it's used to sign in from that location.
+Alerts are the entry points to understanding your cloud environment more deeply. You might want to create new policies based on what you find. For example, you may see an administrator signing in from Greenland, and no one in your organization ever signed in from Greenland before. You can create a policy that automatically suspends an admin account when it's used to sign in from that location.
 
 ### Monitor alerts
 
@@ -41,146 +41,15 @@ You can follow these guidelines in deciding how to categorize the alert:
 
 The following table provides a list of the types of alerts that can be triggered and recommends ways you can resolve them.
 
-:::row:::
-  :::column:::
-    **Alert type**
-  :::column-end:::
-  :::column:::
-    **Description**
-  :::column-end:::
-  :::column:::
-    **Recommended resolution**
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Activity policy violation
-  :::column-end:::
-  :::column:::
-    This type of alert is the result of a policy you created.
-  :::column-end:::
-  :::column:::
-    To work with this type of alert in bulk, it's recommended that you work in the **Policy** center to mitigate them.
-
-Fine-tune the policy to exclude noisy entities by adding more filters and more granular controls.
-
-If the policy is accurate, the alert is warranted, and it's a violation you want to stop immediately, then consider adding automatic remediation in the policy.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    File policy violation
-  :::column-end:::
-  :::column:::
-    This type of alert is the result of a policy you created.
-  :::column-end:::
-  :::column:::
-    To work with this type of alert in bulk, it's recommended that you work in the **Policy** center to mitigate them.
-
-Fine-tune the policy to exclude noisy entities by adding more filters and more granular controls.
-
-If the policy is accurate, the alert is warranted, and it's a violation you want to stop immediately, then consider adding automatic remediation in the policy.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Compromised account
-  :::column-end:::
-  :::column:::
-    This type of alert is triggered when Microsoft Defender for Cloud Apps identifies an account that was compromised. A compromised account means there's a high probability the account was used in an unauthorized way.
-  :::column-end:::
-  :::column:::
-    it's recommended that you suspend the account until you can reach the user and verify they change their password.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Inactive account
-  :::column-end:::
-  :::column:::
-    This alert is triggered when an account hasn't been used in 60 days in one of your connected cloud apps.
-  :::column-end:::
-  :::column:::
-    Contact the user and the user's manager to determine whether the account is still active. If not, suspend the user and terminate the license for the app.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    New admin user
-  :::column-end:::
-  :::column:::
-    Alerts you to changes in your privileged accounts for connected apps.
-  :::column-end:::
-  :::column:::
-    Confirm the new admin permissions are required for the user. If they aren't, recommend revoking admin privileges to reduce exposure.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    New admin location
-  :::column-end:::
-  :::column:::
-    Alerts you to changes in your privileged accounts for connected apps.
-  :::column-end:::
-  :::column:::
-    Confirm the sign-in from this anomalous location was legitimate. If it isn't, recommend revoking admin permissions or suspending the account to reduce exposure.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    New location
-  :::column-end:::
-  :::column:::
-    An informative alert about access to a connected app from a new location. It's triggered only once per country/region.
-  :::column-end:::
-  :::column:::
-    Investigate the specific user's activity.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    New discovered service
-  :::column-end:::
-  :::column:::
-    This alert is an alert about Shadow IT. A new app was detected by Cloud Discovery.
-  :::column-end:::
-  :::column:::
-    For sanctioned apps:
-
-1. Assess the risk of the service based on the app catalog.
-
-2. Drill down into the activity to understand usage patterns and prevalence.
-
-3. Decide whether to sanction or unsanction the app.
-
-For unsanctioned apps:
-
-1. You may want to block use in your proxy or firewall.
-
-2. If you have an unsanctioned app and a sanctioned app in the same category, you can export a list of users of the unsanctioned app. Then, contact them to migrate them to the sanctioned app.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Suspicious activity
-  :::column-end:::
-  :::column:::
-    This alert lets you know that anomalous activity has been detected that isn't aligned with expected activities or users in your organization.
-  :::column-end:::
-  :::column:::
-    Investigate the behavior and confirm it with the user.
-
-This type of alert is a great place to start learning more about your environment and creating new policies with these alerts. For example, let's assume someone suddenly uploads a large amount of data to one of your connected apps. You can set a rule to govern that type of anomalous behavior.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Use of personal account
-  :::column-end:::
-  :::column:::
-    This alert lets you know that a new personal account has access to resources in your connected apps.
-  :::column-end:::
-  :::column:::
-    Remove the user's collaborations in the external account.
-  :::column-end:::
-:::row-end:::
+| **Alert type**            | **Description**                                                                                                                                                                                                        | **Recommended resolution**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Activity policy violation | This type of alert is the result of a policy you created.                                                                                                                                                              | To work with this type of alert in bulk, it's recommended that organizations work in the **Policy** center to mitigate them.<br><br>Fine-tune the policy to exclude noisy entities by adding more filters and more granular controls.<br><br>If the policy is accurate, the alert is warranted, and it's a violation you want to stop immediately, then consider adding automatic remediation in the policy.                                                                                                                                |
+| File policy violation     | This type of alert is the result of a policy you created.                                                                                                                                                              | To work with this type of alert in bulk, it's recommended that organizations work in the **Policy** center to mitigate them.<br><br>Fine-tune the policy to exclude noisy entities by adding more filters and more granular controls.<br><br>If the policy is accurate, the alert is warranted, and it's a violation you want to stop immediately, then consider adding automatic remediation in the policy.                                                                                                                                |
+| Compromised account       | This type of alert is triggered when Microsoft Defender for Cloud Apps identifies an account that was compromised. A compromised account means there's a high probability the account was used in an unauthorized way. | It's recommended that an organization suspend the account until it can reach the user and verify they changed their password.                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Inactive account          | This alert is triggered when an account hasn't been used in 60 days in one of your connected cloud apps.                                                                                                               | Contact the user and the user's manager to determine whether the account is still active. If not, suspend the user and terminate the license for the app.                                                                                                                                                                                                                                                                                                                                                                                   |
+| New admin user            | Alerts you to changes in your privileged accounts for connected apps.                                                                                                                                                  | Confirm the new admin permissions are required for the user. If they aren't, recommend revoking admin privileges to reduce exposure.                                                                                                                                                                                                                                                                                                                                                                                                        |
+| New admin location        | Alerts you to changes in your privileged accounts for connected apps.                                                                                                                                                  | Confirm the sign-in from this anomalous location was legitimate. If it isn't, recommend revoking admin permissions or suspending the account to reduce exposure.                                                                                                                                                                                                                                                                                                                                                                            |
+| New location              | An informative alert about access to a connected app from a new location. It's triggered only once per country/region.                                                                                                 | Investigate the specific user's activity.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| New discovered service    | This alert is an alert about Shadow IT. A new app was detected by Cloud Discovery.                                                                                                                                     | For sanctioned apps:<br><br>1. Assess the risk of the service based on the app catalog.<br><br>2. Drill down into the activity to understand usage patterns and prevalence.<br><br>3. Decide whether to sanction or unsanction the app.<br><br>For unsanctioned apps:<br><br>1. You may want to block use in your proxy or firewall.<br><br>2. If you have an unsanctioned app and a sanctioned app in the same category, you can export a list of users of the unsanctioned app. Then, contact them to migrate them to the sanctioned app. |
+| Suspicious activity       | This alert lets you know that anomalous activity has been detected that isn't aligned with expected activities or users in your organization.                                                                          | Investigate the behavior and confirm it with the user.<br><br>This type of alert is a great place to start learning more about your environment and creating new policies with these alerts. For example, let's assume someone suddenly uploads a large amount of data to one of your connected apps. You can set a rule to govern that type of anomalous behavior.                                                                                                                                                                         |
+| Use of personal account   | This alert lets you know that a new personal account has access to resources in your connected apps.                                                                                                                   | Remove the user's collaborations in the external account.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |

@@ -2,7 +2,7 @@ This unit provides a list of Cloud Discovery errors and resolution recommendatio
 
 ### Microsoft Defender for Endpoint integration
 
-Organizations often integrate Microsoft Defender for Endpoint with Microsoft Defender for Cloud Apps. When an organization integrates these two Microsoft 365 Defender services and it doesn't see the results of the integration, it should refer to the following table. This table provides resolution actions to be taken for each error that can occur.
+Organizations often integrate Microsoft Defender for Endpoint with Microsoft Defender for Cloud Apps. When an organization integrates these two Microsoft 365 Defender services and it doesn't see the results of the integration, it should refer to the following table. This table provides resolution actions to be taken for the following errors that may occur.
 
 |                       **Issue**                        |                                                                                     **Resolution**                                                                                     |
 |:------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
