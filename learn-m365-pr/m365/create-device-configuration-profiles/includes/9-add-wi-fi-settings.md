@@ -24,7 +24,7 @@ Use the following steps to create a new iOS/iPadOS configuration profile.
 3. Click **Next**.
 
 ## Step 3: Add configuration settings
-1. Next to **Wif-Fi type**, select **Basic**.
+1. Next to **Wi-Fi type**, select **Basic**.
 2. Next to **Network name**, enter "iOS/iPadOS Wi-Fi settings". 
 3. Next to **SSID**, enter the name of your organization.<br>
    The Service Set Identifier (SSID) is the name of the Wi-Fi connection.
