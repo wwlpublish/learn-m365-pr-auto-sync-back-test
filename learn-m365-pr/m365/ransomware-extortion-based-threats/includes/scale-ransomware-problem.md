@@ -41,7 +41,6 @@ As would be expected, the most targeted countries are those with the highest den
 
 The most targeted industries are shown below with the energy, financial and healthcare sectors being the most at risk.
 
-> [!div class="centered"]
-> :::image type="complex" source="../media/ransomware-attacks-industry-usa-2021.png" alt-text="Chart shows the estimated number of industry cyberattacks in the year 2021." border="false":::
+:::image type="complex" source="../media/ransomware-attacks-industry-usa-2021.png" alt-text="Chart shows the estimated number of industry cyberattacks in the year 2021." border="false":::
 	The Energy, Media, Healthcare and Financial sectors each experienced approximately 13 percent of all attacks. This accounts for more than half of the attacks.
 :::image-end:::
