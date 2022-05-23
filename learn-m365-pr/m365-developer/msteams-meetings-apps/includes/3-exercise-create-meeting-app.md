@@ -15,10 +15,10 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v12.\*
-- [npm](https://www.npmjs.com/package/npm) (installed with Node.js) - v6.\*
+- [Node.js](https://nodejs.org/) - v14.\*
+- [npm](https://www.npmjs.com/package/npm) (installed with Node.js) - v7.\*
 - [Gulp-cli](https://www.npmjs.com/package/gulp-cli) - v2.3.\*
-- [Yeoman](https://yeoman.io/) - v3.\*
+- [Yeoman](https://yeoman.io/) - v4.3.\*
 - [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.\*
 - [Visual Studio Code](https://code.visualstudio.com)
 
@@ -206,7 +206,7 @@ Let's make a few changes to these environment variables.
     - **MICROSOFT_APP_ID**: this is the *Application (client) ID*
     - **MICROSOFT_APP_PASSWORD**: this is the *client secret*
 
-1. Verify the URL of the ID listed in the **TAB_APP_ID** property matches the value of the **MICROSOFT_APP_ID** property.
+1. Verify the ID listed in the **TAB_APP_ID** property matches the value of the **MICROSOFT_APP_ID** property.
 1. Verity the full **TAB_APP_URI** matches the Azure AD application ID URI you specified when exposing the API for the Azure AD application.
 
 ## Update app manifest
@@ -529,7 +529,7 @@ import { orderBy, sortBy } from "lodash";
 
 These add React controls from the Fluent UI library, the Microsoft Teams UI Kit library, and other utilities we'll use to implement the user experience.
 
-Next, add the following interfaces after the `imports` statements, but before the `class` declaration, to define new object types for the stand-up meeting topic submissions:
+Next, add the following interfaces after the `imports` statements, but before the `export const` statement, to define new object types for the stand-up meeting topic submissions:
 
 ```typescript
 interface IStandupPresenter {
