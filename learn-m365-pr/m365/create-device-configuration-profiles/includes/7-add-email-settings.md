@@ -29,9 +29,9 @@ Use the following steps to create a new Windows 11 email configuration profile.
    - **Email server**: Enter the Exchange location (URL) of your email Exchange server. For example, enter `outlook.office365.com`.
    - **Account name**: Enter the display name for the email account. This name is shown to users on their devices.
 2. For **Username attribute from AAD**, select **Primary SMTP address**.<br>
-   The **Username attribute from AAD** is an attribute Intune gets from Azure Active Directory (AAD). Intune dynamically generates the username that's used by this profile. The **Primary SMTP address** is the name in email address format, such as `user1@contoso.com`.
+   The **Username attribute from AAD** is an attribute Intune gets from Azure Active Directory. Intune dynamically generates the username that's used by this profile. The **Primary SMTP address** is the name in email address format, such as `user1@contoso.com`.
 3. For **Email address attribute from AAD**, select **Primary SMTP address**. <br>
-   Intune gets the email address attribute from Azure Active Directory (AAD). Uses the primary SMTP address to sign in to Exchange, such as `user1@contoso.com`. Make sure your users have email addresses that match the attribute you select. Your options:
+   Intune gets the email address attribute from Azure Active Directory. Uses the primary SMTP address to sign in to Exchange, such as `user1@contoso.com`. Make sure your users have email addresses that match the attribute you select. Your options:
 
     :::image type="content" source="../media/create-device-configuration-profiles-02.png" alt-text="Device configuration profile email settings":::
 
