@@ -13,19 +13,19 @@ We tend to think that only large organizations are at risk of a cyberattack, but
 
 The following list highlights areas you might not have considered to be indirect targets:
 
-- Personal items such as heart pacemakers, insulin devices, smartphones, smartwatches, body cameras and fitness monitors that use cloud technology.
+- Personal items such as heart pacemakers, insulin devices, smartphones, smartwatches, body cameras, and fitness monitors that use cloud technology.
 - Cars are increasingly using security software with online technology to secure and monitor any defects.
 
 ## Recovering from a ransomware attack
 
-Typically, there are only two ways to recover from a ransomware attack. Pay the ransom, or rely on your IT department to find a way to restore your systems. Many companies opt for the first choice, where the ransom costs vary depending on the size of your business and how valuable the data can be. Typical costs range from as little as $6,000 dollars for a small business to millions of dollars for larger corporations. By giving money to the attackers, you’re helping to increase the problem, so the advice is always not to pay.
+Typically, there are only two ways to recover from a ransomware attack. Pay the ransom, or rely on your IT department to find a way to restore your systems. Many companies opt for the first choice, where the ransom costs vary depending on the size of your business and how valuable the data can be. Typical costs range from as little as $6,000 for a small business to millions of dollars for larger corporations. By giving money to the attackers, you’re helping to increase the problem, so the advice is always not to pay.
 
 When a business pays a ransom:
 
 - Only 65% of stolen data is ever returned.
 - There's an 80% chance it will get attacked again.
 
-Up to 60 percent of small businesses failed within six months of an attack, due to a combination of:
+Up to 60% of small businesses failed within six months of an attack, due to a combination of:
 
 - Lack of skilled IT resources.
 - Being unable to pay out/fight violations of privacy claims.
