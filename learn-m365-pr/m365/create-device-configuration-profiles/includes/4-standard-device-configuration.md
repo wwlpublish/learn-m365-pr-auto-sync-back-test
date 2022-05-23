@@ -1,4 +1,4 @@
-In addition to the fundemental configuration profiles, you should consider adding more involved device configuration profiles. The following information describes these types of protective device configuration profiles. Unlike the fundemental configuration profiles that most organizations will add, these profiles should be added as needed.
+In addition to the fundamental configuration profiles, you should consider adding more involved device configuration profiles. The following information describes these types of protective device configuration profiles. Unlike the fundamental configuration profiles that most organizations will add, these profiles should be added as needed.
 
 ## Derived credentials
 
