@@ -32,7 +32,8 @@ Up to 60 percent of small businesses failed within six months of an attack, due 
 - The impact of regulatory fines.
 - Damage to the reputation of the company.
 
-:::image type="content" source="../media/global-ransomware-attack-trends-2021.png" alt-text="Chart shows the U S has approximately 53 percent of global attacks followed by Europe with 32 percent, and the remaining 15 percent spread throughout the rest of the world.":::
+> [!div class="centered"]
+> :::image type="content" source="../media/global-ransomware-attack-trends-2021.png" alt-text="Chart shows the U S has approximately 53 percent of global attacks followed by Europe with 32 percent, and the remaining 15 percent spread throughout the rest of the world." border="false":::
 
 ## Who is most at risk?
 
@@ -40,4 +41,7 @@ As would be expected, the most targeted countries are those with the highest den
 
 The most targeted industries are shown below with the energy, financial and healthcare sectors being the most at risk.
 
-:::image type="content" source="../media/ransomware-attacks-industry-usa-2021.png" alt-text="Chart shows the estimated number of industry cyberattacks, with the Energy, Media, Healthcare and Financial sectors each taking approximately 13 percent of all attacks. This accounts for more than half of the attacks.":::
+> [!div class="centered"]
+> :::image type="complex" source="../media/ransomware-attacks-industry-usa-2021.png" alt-text="Chart shows the estimated number of industry cyberattacks in the year 2021." border="false":::
+	The Energy, Media, Healthcare and Financial sectors each experienced approximately 13 percent of all attacks. This accounts for more than half of the attacks.
+:::image-end:::
