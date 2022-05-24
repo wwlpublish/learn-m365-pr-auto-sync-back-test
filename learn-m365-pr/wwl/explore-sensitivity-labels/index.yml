@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Explore sensitivity labels
-summary: This module examines how sensitivity labels from the Microsoft Information Protection solution let you classify and protect your organization's data, while making sure that user productivity and collaboration isn't hindered.
+summary: This module examines how sensitivity labels from the Microsoft Purview Information Protection solution let you classify and protect your organization's data, while making sure that user productivity and collaboration isn't hindered.
 abstract: |
   By the end of this module, you will be able to:
   - Describe how sensitivity labels let you classify and protect your organization's data
