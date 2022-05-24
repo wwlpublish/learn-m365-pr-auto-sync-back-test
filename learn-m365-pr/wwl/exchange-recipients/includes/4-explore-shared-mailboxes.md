@@ -6,9 +6,7 @@ Shared mailboxes provide:
  -  A way for teams or departments that provide centralized services, such as helpdesks or support, to respond to requests from employees or customers.
  -  Support for multiple users to monitor and reply to external or internal email addresses.
 
-A shared mailbox doesn't have its own username and password like a User mailbox does. You can't use Outlook, Outlook Web App, Exchange ActiveSync, Exchange Web Services (EWS), or any other Exchange protocol to sign into a shared mailbox. Instead, you must be granted permission to the shared mailbox, at which point you can access it by using Outlook or Outlook Web App.
-
-Shared mailboxes aren't supported on mobile devices. To access a shared mailbox from a mobile device, you must use Outlook on the Web. Once a user is granted permission to the shared mailbox, it will automatically be added to the user’s Outlook profile and opened alongside the user’s primary mailbox.
+A shared mailbox doesn't have its own username and password like a User mailbox does. You can't use Outlook, Outlook Web App, Exchange ActiveSync, Exchange Web Services (EWS), or any other Exchange protocol to sign into a shared mailbox. Instead, you must be granted permission to the shared mailbox, at which point you can access it by using Outlook, Outlook Web App, or Outlook Mobile.
 
 Shared mailboxes are a good solution for groups of people that need to share a common email identity and set of messages, including a mailbox folder structure they can work in. When a user replies to a message sent to a shared mailbox, the reply appears to come from the shared mailbox address. Also, all users who have access to that shared mailbox can see the messages that have been sent to that account.
 

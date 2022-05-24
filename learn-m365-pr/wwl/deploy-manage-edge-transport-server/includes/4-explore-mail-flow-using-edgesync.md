@@ -2,7 +2,7 @@ It's recommended that organizations use the Edge Subscription process to establi
 
 An Edge Transport server doesn't have direct access to Active Directory. As such, they can't directly access the Exchange Server organization configuration or recipient information that's stored in Active Directory. Instead, the configuration and recipient information the Edge Transport server uses to process messages is stored locally in AD LDS. Creating an Edge Subscription establishes secure, automatic replication of information from Active Directory to AD LDS.
 
-**Additional reading.** For more information, see [Edge Subscriptions](/exchange/architecture/edge-transport-servers/edge-subscriptions?azure-portal=true).
+**Further reading.** For more information, see [Edge Subscriptions](/exchange/architecture/edge-transport-servers/edge-subscriptions?azure-portal=true).
 
 ### The EdgeSync service
 

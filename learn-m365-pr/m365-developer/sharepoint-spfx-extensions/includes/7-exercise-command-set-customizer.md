@@ -18,7 +18,7 @@ Use the following to complete the prompt that is displayed (*if more options are
 - **What type of client-side extension to create?**: ListView Command Set
 - **What is your Command Set name?**: CommandSetDemo
 
-After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, open the project folder in **Visual Studio Code**.
+After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When npm completes downloading all dependencies, open the project folder in **Visual Studio Code**.
 
 ## Define the command set buttons
 

@@ -1,0 +1,29 @@
+### YamlMime:LearningPath
+uid: learn-m365.ransomware-basics
+metadata:
+  title: Basics of ransomware
+  description: In this learning path, you will learn fundamental ransomware concepts including types of ransomware attacks and ransomware families, how to prevent a ransomware attack, how to determine whether you've fallen victim to a ransomware attack, and how to recover from a ransomware attack.
+  ms.date: 04/11/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Basics of ransomware
+prerequisites: |
+  None
+summary: |
+  In this learning path, you will learn fundamental ransomware concepts including types of ransomware attacks and ransomware families, how to prevent a ransomware attack, how to determine whether you've fallen victim to a ransomware attack, and how to recover from a ransomware attack.
+iconUrl: /learn/achievements/generic-trophy.svg
+levels:
+- beginner
+roles:
+- business-user
+products:
+- m365
+modules:
+- learn-m365.ransomware-extortion-based-threats
+- learn-m365.ransomware-identify-entry-points
+- learn-m365.ransomware-prevent-attacks
+- learn-m365.ransomware-recover
+trophy:
+  uid: learn-m365.ransomware-basics.trophy

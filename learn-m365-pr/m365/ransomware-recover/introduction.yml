@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.ransomware-recover.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: introduction
+  description: "TODO: this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the unit; include relevant search keywords."
+  ms.date: 4/11/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

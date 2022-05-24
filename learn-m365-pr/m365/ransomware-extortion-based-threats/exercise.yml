@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.ransomware-extortion-based-threats.exercise
+title: Enter exercise title
+metadata:
+  unitType: exercise
+  title: exercise
+  description: "TODO: this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the unit; include relevant search keywords."
+  ms.date: 4/8/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/exercise.md)]

@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn-m365.ransomware-prevent-attacks
+metadata:
+  moduleType: standard
+  title: Prevent ransomware and extortion-based attacks
+  description: You know about the _threat_ of ransomware bu you need to know how to protect yourself too. This module will describe critical defense mechanisms against ransomware including identity protection, data backup, and restricted access.
+  ms.date: 4/11/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Prevent ransomware and extortion-based attacks
+summary: You know about the _threat_ of ransomware bu you need to know how to protect yourself too. This module will describe critical defense mechanisms against ransomware including identity protection, data backup, and restricted access.
+abstract: |
+  By the end of this module, you'll be able to:
+    - "TODO learning objective 1"
+    - "TODO learning objective 2"
+    - "TODO learning objective 3"
+prerequisites: |
+  - "TODO prerequisite 1"
+  - "TODO prerequisite 2"
+  - "TODO prerequisite 3"
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - business-user
+products:
+- m365
+units:
+- learn-m365.ransomware-prevent-attacks.introduction
+- learn-m365.ransomware-prevent-attacks.learning-content
+- learn-m365.ransomware-prevent-attacks.exercise
+- learn-m365.ransomware-prevent-attacks.knowledge-check
+- learn-m365.ransomware-prevent-attacks.summary
+badge:
+  uid: learn-m365.ransomware-prevent-attacks.badge
