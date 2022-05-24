@@ -27,6 +27,10 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- business-continuity
+- migration
+- storage
 units:
 - learn.wwl.manage-tenant-health-services-microsoft-365.introduction
 - learn.wwl.manage-tenant-health-services-microsoft-365.monitor-health-of-your-services

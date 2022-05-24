@@ -28,6 +28,9 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- communication
+- cloud-computing
 units:
 - learn.wwl.deploy-manage-edge-transport-server.introduction
 - learn.wwl.deploy-manage-edge-transport-server.examine-edge-transport-servers

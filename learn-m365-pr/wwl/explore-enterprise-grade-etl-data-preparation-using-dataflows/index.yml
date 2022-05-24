@@ -30,6 +30,8 @@ products:
 - power-bi
 - azure-log-analytics
 - azure-synapse-analytics
+subjects:
+- data-analytics
 units:
 - learn.wwl.explore-enterprise-grade-etl-data-preparation-using-dataflows.introduction
 - learn.wwl.explore-enterprise-grade-etl-data-preparation-using-dataflows.rich-data-connectivity-with-power-query

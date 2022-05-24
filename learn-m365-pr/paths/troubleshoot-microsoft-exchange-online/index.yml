@@ -25,6 +25,9 @@ products:
 - office-exchange-server
 - office-outlook
 - office-exchange-online
+subjects:
+- device-management
+- communication
 modules:
 - learn.wwl.troubleshoot-problems-mail-flow
 - learn.wwl.troubleshoot-message-filter-inboxes-defender-for-office-365

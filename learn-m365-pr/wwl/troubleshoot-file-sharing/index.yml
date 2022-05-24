@@ -27,6 +27,9 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- collaboration
+- communication
 units:
 - learn.wwl.troubleshoot-file-sharing.introduction
 - learn.wwl.troubleshoot-file-sharing.person-to-person-private-chat

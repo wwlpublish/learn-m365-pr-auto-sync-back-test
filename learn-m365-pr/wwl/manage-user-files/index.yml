@@ -28,6 +28,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- data-management
 units:
 - learn.wwl.manage-user-files.introduction
 - learn.wwl.manage-user-files.understand-windows-libraries

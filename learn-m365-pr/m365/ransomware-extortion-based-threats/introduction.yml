@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.ransomware-extortion-based-threats.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: Introduction
+  description: "Learn about the different types of ransomware and the various attack methods that can take place."
+  ms.date: 5/5/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

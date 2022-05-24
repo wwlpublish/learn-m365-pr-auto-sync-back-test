@@ -29,6 +29,9 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- device-management
+- identity-access
 units:
 - learn.wwl.implement-device-profiles.introduction
 - learn.wwl.implement-device-profiles.explore-intune-device-profiles

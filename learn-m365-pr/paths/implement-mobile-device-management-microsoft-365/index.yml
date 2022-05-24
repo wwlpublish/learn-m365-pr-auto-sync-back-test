@@ -27,6 +27,8 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- device-management
 modules:
 - learn.wwl.introduction-to-mobile-device-management
 - learn.wwl.deploy-mobile-device-management

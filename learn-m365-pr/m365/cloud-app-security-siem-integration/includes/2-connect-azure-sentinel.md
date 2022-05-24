@@ -35,7 +35,7 @@ To connect Microsoft Sentinel to Microsoft Defender for Cloud Apps, perform the 
 
     :::image type="content" source="../media/2-defender-for-cloud-apps-data-connector.png" alt-text="Microsoft Defender for Cloud Apps data connector.":::
 
-1. select **Open connector page**.
+1. Select **Open connector page**.
 1. Select **Alerts** and **Cloud Discovery Logs**.
 1. Select **Apply Changes**.
 1. Ensure that **Create incidents** is **Enabled**.

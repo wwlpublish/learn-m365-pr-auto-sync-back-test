@@ -22,6 +22,10 @@ products:
 - m365
 - office-365
 - office-exchange-server
+subjects:
+- communication
+- compliance
+- cloud-security
 modules:
 - learn-m365.m365-messaging-role-based-permissions
 - learn-m365.m365-messaging-manage-hygiene

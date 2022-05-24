@@ -31,6 +31,8 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- information-protection-governance
 units:
 - learn.wwl.implement-device-data-protection.introduction
 - learn.wwl.implement-device-data-protection.explore-windows-information-protection

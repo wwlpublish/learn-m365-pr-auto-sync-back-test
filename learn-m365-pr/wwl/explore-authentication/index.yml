@@ -27,6 +27,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- identity-access
 units:
 - learn.wwl.explore-authentication.introduction
 - learn.wwl.explore-authentication.explore-authentication-authorization

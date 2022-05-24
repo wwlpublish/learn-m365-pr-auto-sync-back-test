@@ -22,6 +22,8 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
 modules:
 - learn.wwl.manage-meetings-virtual-events-experiences
 - learn.wwl.configure-manage-microsoft-teams-devices

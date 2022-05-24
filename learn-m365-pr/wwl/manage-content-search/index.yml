@@ -26,6 +26,8 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- search-ads-news
 units:
 - learn.wwl.manage-content-search.introduction
 - learn.wwl.manage-content-search.design-content-searches

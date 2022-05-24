@@ -6,7 +6,7 @@ This module describes eDiscovery (Premium) administration in the following areas
 - Closing or deleting a case
 
 > [!NOTE]
-> The Security & Compliance Center is now Microsoft 365 Defender
+> The Security & Compliance Center is now split between the Microsoft 365 Defender portal and the Microsoft Purview compliance portal.
 
 ## Permissions and licensing
 
@@ -196,4 +196,4 @@ It might take up to 60 minutes for the closing process to complete.
 1. Click **Delete case**.
 It might take up to 60 minutes for the closing process to complete.
 
-:::image type="content" source="../media/close-delete.png" alt-text="Screenshot that shows case information.":::
+:::image type="content" source="../media/close-delete.png" alt-text="Screenshot that shows case information in the settings tabs with the case name and case number fields completed. The options save, close case, and delete case are highlighted." border="false":::

@@ -8,7 +8,7 @@ Profile photos can be set on user accounts, groups, and contacts in Office 365. 
 
 Profile photos are stored as binary data that developers can convert to different formats in different use cases, such as base-64 for use in a web environment.
 
-To do user operations, you'll need one of the following permissions. The specific permission required will depend on the operation you want to do. For example, if you are creating, editing or deleting a user, one of the *write* permissions is required. Some permissions can be granted by a user while others must be granted to the app by an administrator:
+To do user operations, you'll need one of the following permissions. The specific permission required will depend on the operation you want to do. For example, if you're creating, editing or deleting a user, one of the *write* permissions is required. Some permissions can be granted by a user while others must be granted to the app by an administrator:
 
 - Delegated Permissions (granted by users)
   - **User** resource type
@@ -78,7 +78,7 @@ resultUserPhotoFile.CopyTo(profilePhotoFile);
 
 ## Working with user's related resources: the user's manager
 
-Each user resource has additional referenced resources such as their email messages (`/messages`), calendar items (`/events`), and files in OneDrive Consumer or OneDrive for Business (`/drive`).
+Each user resource has more referenced resources such as their email messages (`/messages`), calendar items (`/events`), and files in OneDrive Consumer or OneDrive for Business (`/drive`).
 
 One of the resources linked off the user resource is the user's manager. The `/manager` property on a user resource is returned as a `DirectoryObject` type. If you're using one of the native Microsoft Graph SDKs, it should automatically convert the type to a `User` object, but if not, you can always cast it as a user:
 

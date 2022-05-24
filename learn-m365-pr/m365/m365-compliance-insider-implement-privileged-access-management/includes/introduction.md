@@ -1,8 +1,8 @@
-Privileged access management allows granular access control over privileged admin tasks in Microsoft 365, specifically in Exchange Online. It can help protect your organization from breaches that use existing privileged admin accounts with standing access to sensitive data or access to critical configuration settings.
+Privileged access management allows granular access control over privileged admin tasks in Microsoft Purview, specifically in Exchange Online. It can help protect your organization from breaches that use existing privileged admin accounts with standing access to sensitive data or access to critical configuration settings.
 
-Privileged access management is based on the principle of Zero Standing Access, which requires users to request just-in-time access to complete elevated and privileged tasks and access requests must be approved by an authorized set of approvers. This configuration gives users just-enough-access to perform the task at hand, without risking exposure of sensitive data or critical configuration settings. Enabling privileged access management in Microsoft 365 allows your organization to operate with zero standing privileges and provide a layer of defense against standing administrative access vulnerabilities in Exchange Online.
+Privileged access management is based on the principle of Zero Standing Access, which requires users to request just-in-time access to complete elevated and privileged tasks and access requests must be approved by an authorized set of approvers. This configuration gives users just-enough-access to perform the task at hand, without risking exposure of sensitive data or critical configuration settings. Enabling privileged access management in Microsoft Purview allows your organization to operate with zero standing privileges and provide a layer of defense against standing administrative access vulnerabilities in Exchange Online.
 
-Watch the video below for a quick overview of privileged access management in Microsoft 365.
+Watch the video below for a quick overview of privileged access management in Microsoft Purview.
 >
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xqtC]
 >
@@ -21,9 +21,9 @@ Privileged access management complements other data and access feature protectio
 
 :::image type="content" source="../media/layers-of-protection.png" alt-text="Layers of protection." border="false":::
 
-Microsoft Purview Privileged Access Management is defined and scoped at the *task* level, while Azure AD Privileged Identity Management applies protection at the *role* level with the ability to execute multiple tasks. Azure AD Privileged Identity Management primarily allows managing accesses for AD roles and role groups, while privileged access management in Microsoft 365 applies only at the task level.
+Microsoft Purview Privileged Access Management is defined and scoped at the *task* level, while Azure AD Privileged Identity Management applies protection at the *role* level with the ability to execute multiple tasks. Azure AD Privileged Identity Management primarily allows managing accesses for AD roles and role groups, while privileged access management in Microsoft Purview applies only at the task level.
 
-- **Enabling privileged access management while already using Azure AD Privileged Identity Management**: Adding privileged access management in Microsoft 365 provides another granular layer of protection and audit capabilities for privileged access to Microsoft 365 data.
+- **Enabling privileged access management while already using Azure AD Privileged Identity Management**: Adding privileged access management in Microsoft Purview provides another granular layer of protection and audit capabilities for privileged access to Microsoft 365 data.
 - **Enabling Azure AD Privileged Identity Management while already using privileged access management**: Adding Azure AD Privileged Identity Management to privileged access management can extend privileged access to data outside of Microsoft 365 that's primarily defined by user roles or identity.
 
 ## Privileged access management architecture and approval workflow

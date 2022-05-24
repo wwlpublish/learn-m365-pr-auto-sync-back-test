@@ -11,9 +11,9 @@ To create a policy to block unauthorized browsers from accessing corporate web a
 
 3. Follow the steps from a previous unit in this module to create a policy with a **Category** of **Access control**.
 4. In **ACTIVITIES MATCHING ALL OF THE FOLLOWING** add the following filters:
-    a.  Add an **App** filter and select all of the web apps that you want to apply the policy to.
-    b.  Add a **Client app** filter and select **Browser**.
-    c.  Add a **User agent string** filter and select **does not contain** and then the user agent string of the approved browser.
+    1. Add an **App** filter and select all of the web apps that you want to apply the policy to.
+    1. Add a **Client app** filter and select **Browser**.
+    1. Add a **User agent string** filter and select **does not contain** and then the user agent string of the approved browser.
 
     :::image type="content" source="../media/6-edit-access-policy.png" alt-text="User agent string.":::
 

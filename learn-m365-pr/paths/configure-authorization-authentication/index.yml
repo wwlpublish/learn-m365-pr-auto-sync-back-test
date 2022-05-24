@@ -22,6 +22,9 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- identity-access
+- cloud-computing
 modules:
 - learn.wwl.explore-authentication
 - learn.wwl.manage-users-groups

@@ -28,6 +28,10 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- cloud-computing
+- remote-hybrid-work
+- identity-access
 units:
 - learn.wwl.configure-azure-ad-application-proxy.introduction
 - learn.wwl.configure-azure-ad-application-proxy.explore

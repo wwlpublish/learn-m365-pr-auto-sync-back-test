@@ -28,6 +28,9 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- collaboration
+- communication
 units:
 - learn.wwl.manage-collaboration-experiences-for-chat-channels.introduction
 - learn.wwl.manage-collaboration-experiences-for-chat-channels.manage-public-private-channels
