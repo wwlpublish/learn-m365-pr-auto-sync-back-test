@@ -1,4 +1,4 @@
-Modern authentication is really an umbrella term for multiple authentication and authorization methods between a client and a server. Modern Authentication is based on Open Authentication (OAuth) 2.0 and the Active Directory Authentication Library (ADAL). In Exchange Online, if modern authentication has been disabled, client connections to Exchange Online will revert to using basic authentication (legacy) which is a less secure. Some security measures rely on modern authentication such as:
+Modern authentication is really an umbrella term for multiple authentication and authorization methods between a client and a server. Modern Authentication is based on Open Authentication (OAuth) 2.0 and the Active Directory Authentication Library (ADAL). In Exchange Online, if modern authentication has been disabled, client connections to Exchange Online will revert to using basic authentication (legacy) which is less secure. Some security measures rely on modern authentication such as:
 
  -  **Authentication methods** \- Multifactor authentication (MFA), smart card authentication, client certificate-based authentication and third-party SAML identity providers.
  -  **Authorization methods** \- Microsoft's implementation of Open Authorization (OAuth).
@@ -21,7 +21,7 @@ The following clients support the use of modern authentication:
     Outlook 2013 and later
   :::column-end:::
   :::column:::
-    MAPI over
+    MAPI over HTTP
   :::column-end:::
 :::row-end:::
 :::row:::
