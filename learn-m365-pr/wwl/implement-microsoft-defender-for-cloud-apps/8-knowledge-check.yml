@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-microsoft-defender-for-cloud-apps.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 05/24/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "A user who never used Dropbox before suddenly uploads 600 GB to Dropbox. Which cloud app policy type would detect this type of activity?"
+    choices:
+    - content: "Cloud Discovery anomaly detection policy"
+      isCorrect: true
+      explanation: "Correct. Cloud Discovery anomaly detection policies look at the logs you use for discovering cloud apps and search for unusual occurrences, such as when the number of transactions on a particular app are higher than usual. For example, a user who never used Dropbox before suddenly uploads 600 GB to Dropbox."
+    - content: "App discovery policy"
+      isCorrect: false
+      explanation: "Incorrect. App discovery policies enable you to set alerts that notify you when new apps are detected within your organization."
+    - content: "Anomaly detection policy"
+      isCorrect: false
+      explanation: "Incorrect. Anomaly detection policies enable you to look for unusual activities on your cloud based on the risk factors you set to alert you when something happens that is different from either the baseline of your organization or from the user's regular activity."
+  - content: "Contoso received an alert in which: the alert is accurate, the activity is legitimate but not a security issue. How should Contoso categorize the alert?"
+    choices:
+    - content: "True positive"
+      isCorrect: false
+      explanation: "Incorrect. A true positive alert is a security issue, even if the activity is illegitimate."
+    - content: "False positive"
+      isCorrect: false
+      explanation: "Incorrect. A false positive alert is inaccurate."
+    - content: "Benign positive"
+      isCorrect: true
+      explanation: "Correct. A benign positive alert is one in which the alert is accurate, the activity is legitimate, but it isn't a security issue."
+  - content: "As the Enterprise Administrator for Lucerne Publishing, Allan Deyoung wants to deploy Microsoft Defender for Cloud Apps. Which of the following actions is a prerequisite that Allan must complete before deploying Microsoft Defender for Cloud Apps?"
+    choices:
+    - content: "Obtain a license for every user protected by Microsoft Defender for Cloud Apps"
+      isCorrect: true
+      explanation: "Correct. An organization must be in compliance for licensing Microsoft Defender for Cloud Apps. To do so, it must obtain a license for every user protected by Microsoft Defender for Cloud Apps."
+    - content: "Set instant visibility, protection, and governance actions for the company's apps"
+      isCorrect: false
+      explanation: "Incorrect. This item is the first step in deploying Microsoft Defender for Cloud Apps."
+    - content: "Protect sensitive information with DLP policies"
+      isCorrect: false
+      explanation: "Incorrect. This item is the second step in deploying Microsoft Defender for Cloud Apps."
