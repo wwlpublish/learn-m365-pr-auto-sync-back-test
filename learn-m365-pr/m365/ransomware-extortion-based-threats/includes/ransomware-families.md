@@ -1,4 +1,4 @@
-Ransomware has now developed into a complete business model called ransomware-as-a-service where cybercriminals license out “off-the-shelf” products. Just like a family, these products share common characteristics which make them recognizable to anti-malware security solutions. In September 2021, in an analysis of more than 12.7 million malware detections made by a key antivirus company, more than 220 ransomware families were identified.
+Ransomware has now developed into a complete business model called ransomware-as-a-service where cybercriminals license out “off-the-shelf” products. Just like a family, these products share common characteristics that make them recognizable to anti-malware security solutions. In September 2021, in an analysis of more than 12.7 million malware detections made by a key antivirus company, more than 220 ransomware families were identified.
 
 The top 10 families will change, but some notable ones are:
 
@@ -14,7 +14,7 @@ The following key facts are known about WannaCryptor:
 - It targets Windows operating devices.
 - It demands payment via Bitcoin.
 - It relies on vulnerabilities in the system to gain access.
-- It's known as a crypto worm because, when it gets inside a system, it can spread by itself.
+- It's known as a crypto worm because when it gets inside a system, it can spread by itself.
 - In 2017, it was part of a global attack that brought disruption to more than 185,000 devices across 100 countries.
 - It's also known as Wannacrypt, Wanna Decryptor, Wana Decrypt0r 2.0, and WanaCrypt0r 2.0.
 - It's believed to have originated in North Korea.
@@ -28,7 +28,8 @@ The following key facts are known about Stop/DJVU:
 - Stop/DJVU is also known as STOP Ransomware, STOP (DJVU), or DJVU virus, and has 374 active variants.
 - It mainly targets Windows operating systems.
 - It's extremely difficult to decrypt files infected with this ransomware.
-- It isn't known which country or countries the cybercriminals work from.
+
+It isn't known which country or countries the cybercriminals work from.
 
 ### Conti
 
@@ -62,9 +63,9 @@ In 2021, two very high-profile attacks by the REvil and DarkSide ransomware fami
 The following outlines the attack:
 
 - In June 2021, the **target** was a major US meat packing corporation.
-- **The attackers**, the REvil group, downloaded malicious code that affected operations in Australia and North America, and was described as very sophisticated.
-- **The impact** on the company involved halting cattle slaughtering in all US plants and suspending food production in Australia and North America.
-- **To resolve the situation**, the company paid a $11 million Bitcoin ransom, stating they had done so to protect customers.
+- The **attackers**, the REvil group, downloaded malicious code that affected operations in Australia and North America, and was described as very sophisticated.
+- The **impact** on the company involved halting cattle slaughtering in all US plants and suspending food production in Australia and North America.
+- To **resolve the situation**, the company paid a $11 million Bitcoin ransom, stating they had done so to protect customers.
 
 The government response:
 
@@ -77,9 +78,9 @@ The government response:
 The following outlines the attack:
 
 - In April, 2021, the **target** was a major oil distribution plant.
-- **The attackers**, the DarkSide group, downloaded malicious code that affected the company’s network on the Eastern Seaboard of the United States.
+- The **attackers**, the DarkSide group, downloaded malicious code that affected the company’s network on the Eastern Seaboard of the United States.
 - **The impact** of the attack hit companies and drivers as fuel deliveries were halted, leading to panic buying throughout the affected area.
-- **To resolve the situation**, the fuel distribution company paid a Bitcoin ransom of $4.4 million, stating that they didn’t know the extent of the intrusion, or how long it would take to restore operations.
+- To **resolve the situation**, the fuel distribution company paid a Bitcoin ransom of $4.4 million, stating that they didn’t know the extent of the intrusion, or how long it would take to restore operations.
 
 The government response:
 
