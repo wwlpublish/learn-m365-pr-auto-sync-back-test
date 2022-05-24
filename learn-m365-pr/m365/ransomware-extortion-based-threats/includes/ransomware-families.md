@@ -56,7 +56,7 @@ The following key facts are known about the REvil group:
 - In 2019, they were linked to 24 local government attacks in Texas.
 - Despite a high-profile announcement that agencies in Russia had shut down the group, there are still reports of attacks using that name.
 
-In 2021, two very high-profile attacks by the REvil and DarkSide ransomware families were reported in the media.
+In 2021, two high-profile attacks by the REvil and DarkSide ransomware families were reported in the media.
 
 ## Case study 1 – meat processing company
 
@@ -77,7 +77,7 @@ The government response:
 
 The following outlines the attack:
 
-- In April, 2021, the **target** was a major oil distribution plant.
+- In April  2021, the **target** was a major oil distribution plant.
 - The **attackers**, the DarkSide group, downloaded malicious code that affected the company’s network on the Eastern Seaboard of the United States.
 - **The impact** of the attack hit companies and drivers as fuel deliveries were halted, leading to panic buying throughout the affected area.
 - To **resolve the situation**, the fuel distribution company paid a Bitcoin ransom of $4.4 million, stating that they didn’t know the extent of the intrusion, or how long it would take to restore operations.

@@ -1,4 +1,4 @@
-When a ransomware attack occurs, most companies hand over huge sums to recover data quickly and minimize impact. It’s suspected that the biggest payout was made by one insurance company, who reportedly paid more than $40 million to unlock data and restore its network. The company hasn't officially confirmed or denied this. 
+When a ransomware attack occurs, most companies hand over huge sums to recover data quickly and minimize impact. It’s suspected that the biggest payout was made by one insurance company, who reportedly paid more than $40 million to unlock data and restore its network. The company hasn't officially confirmed or denied this.
 
 Here’s an indication of the scale of the problem:  
 

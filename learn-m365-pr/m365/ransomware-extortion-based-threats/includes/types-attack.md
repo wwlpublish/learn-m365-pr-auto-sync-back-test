@@ -58,7 +58,7 @@ There are three main types of social engineering attacks:
 
 #### Phishing
 
-Phishing uses email or websites to solicit personal information from individuals that then allows the cybercriminal to gain access to unauthorized areas, such as bank accounts or other sensitive fields. The email or website used will look very professional and often pretend to come from legitimate organizations, taking advantage of current events to play on public sympathies. Although phishing is often used to extract money from users by trickery, the emails can contain attachments which, once opened, lead to a ransomware attack. It’s estimated that 90 percent of all data breaches are due to a phishing attack, highlighting the fact that the weakest link in any IT system is the user.
+Phishing uses email or websites to solicit personal information from individuals that then allows the cybercriminal to gain access to unauthorized areas, such as bank accounts or other sensitive fields. The email or website used will look very professional and often pretend to come from legitimate organizations, taking advantage of current events to play on public sympathies. Although phishing is often used to extract money from users by trickery, the emails can contain attachments that, once opened, lead to a ransomware attack. It’s estimated that 90 percent of all data breaches are due to a phishing attack, highlighting the fact that the weakest link in any IT system is the user.
 
 **Example**: In 2016, a hacker organization started sending emails with a Word attachment which, when opened, encouraged users to enable macros. In turn, this installed the malicious ransomware and launched a virus called Locky, which encrypted files. A link then took users to a website that demanded payment via Bitcoin to release the files.
 
@@ -70,7 +70,7 @@ Vishing uses voice communications to deceive a victim. The caller may pretend to
 
 #### Smishing
 
-Smishing uses text messaging to try and exploit people. The messages contain links which lead to fraudulent sites that imitate legitimate sites. Although these links are often used to extract money from users, they can also entice people to download files which can then run ransomware and lead to an attack.
+Smishing uses text messaging to try to exploit people. The messages contain links that lead to fraudulent sites that imitate legitimate sites. Although these links are often used to extract money from users, they can also entice people to download files, which can then run ransomware and lead to an attack.
 
 **Example**: Texts pretending to be from rogue companies, claiming that they’ve tried to deliver a parcel and demanding a payment to redeliver it. Simple tricks like this are easy to fall prey to if you genuinely are expecting a parcel and could have missed the delivery.
 
