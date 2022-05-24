@@ -30,6 +30,8 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- virtual-machine
 units:
 - learn.wwl.manage-virtual-desktops.introduction
 - learn.wwl.manage-virtual-desktops.examine-windows-virtual-desktop

@@ -1,6 +1,4 @@
-Application permissions are the other type of permission supported by the Microsoft identity platform. Application permissions are used by apps that run without a signed-in user present such as services or daemon processes.
-
-In this exercise, you'll learn about application permissions, how to define them and how to grant them using a different type of consent flow in your apps.
+In this exercise, you'll create a .NET 5 console application and an Azure AD application to test how application permissions work. The app will obtain tokens without user interaction to either act on behalf of a user or perform tasks as the app's identity.
 
 ## Create an Azure AD application
 
@@ -10,18 +8,12 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Select **Manage > App registrations** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
-
 On the **App registrations** page, select **New registration**.
-
-  ![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
 
 On the **Register an application** page, set the values as follows:
 
 - **Name**: Identity Daemon
 - **Supported account types**: Accounts in this organizational directory only (Contoso only - Single tenant)
-
-    ![Screenshot of the Register an application page](../media/07-azure-ad-portal-new-app-01.png)
 
     Select **Register**.
 
@@ -39,8 +31,6 @@ In the **Platform configurations** section, select the **Add a platform** button
 
 In the **Redirect URIs** section of the **Configure Desktop + devices** panel, select the entry that ends with **nativeclient**, and then select the **Configure** button:
 
-![Screenshot of the Configure Desktop + devices panel](../media/07-azure-ad-portal-new-app-authentication-02.png)
-
 Select **Save** in the top menu to save your changes.
 
 ### Create a client secret for the app
@@ -55,13 +45,9 @@ Select the **New client secret** button:
 
 When prompted, give the secret a description and select one of the expiration duration options provided and select **Add**. *What you enter and select doesn't matter for the exercise.*
 
-![Screenshot of creating a new client secret](../media/07-azure-ad-portal-new-app-secret-02.png)
-
-The **Certificate & Secrets** page will display the new secret. Its important you copy this value as its only shown this one time; if you leave the page and come back, it will only show as a masked value.
+The **Certificate & Secrets** page will display the new secret. It's important you copy the value of the secret as it's only shown this one time; if you leave the page and come back, it will only show as a masked value.
 
 ![Screenshot showing the new secret](../media/07-azure-ad-portal-new-app-secret-03.png)
-
-Copy the value of the secret as you'll need it later.
 
 ### Grant Azure AD application permissions to Microsoft Graph
 
@@ -71,11 +57,7 @@ Select **API Permissions** in the left-hand navigation panel.
 
 From the **Identity Daemon - API Permissions** page, select the **Add a permission** button.
 
-![Screenshot of the API Permissions page](../media/07-azure-ad-portal-new-app-permissions-01.png)
-
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
-
-![Screenshot of Microsoft Graph in the Request API permissions panel](../media/07-azure-ad-portal-new-app-permissions-02.png)
 
 When prompted for the type of permission, select **Application permissions**.
 
@@ -92,9 +74,11 @@ On the **Identity Daemon - API Permissions** panel, select the button **Grant ad
 ## Create a headless application
 
 > [!NOTE]
-> The instructions below assume you are using .NET 5. They were last tested using v5.0.202 of the .NET 5 SDK.
+> The instructions below assume you are using .NET 5. However, they still apply for v6.0.202 of the .NET 6 SDK.
 
 You'll use a .NET 5 console application to run as a service. This app can then be configured to run on a defined schedule with no user involvement.
+
+Before you begin, ensure you've downloaded and installed the .NET 5 SDK or .NET 6 SDK and you've set the environment path variables.
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 
@@ -364,7 +348,3 @@ dotnet run
 After a moment, the app will display a list of all the specified user's emails obtained using the Microsoft Graph .NET SDK.
 
 ![Screenshot of the All Users page in the console](../media/07-test-02.png)
-
-## Summary
-
-In this exercise, you learned how to create apps that obtain tokens without user interaction to either act on behalf of a user or perform tasks as the app's identity.

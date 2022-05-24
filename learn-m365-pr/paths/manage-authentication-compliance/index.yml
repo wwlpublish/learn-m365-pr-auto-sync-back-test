@@ -26,6 +26,10 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- identity-access
+- compliance
+- device-management
 modules:
 - learn.wwl.protect-identities-azure-ad
 - learn.wwl.enable-organizational-access

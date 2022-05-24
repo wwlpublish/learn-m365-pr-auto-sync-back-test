@@ -29,6 +29,9 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- custom-app-development
+- collaboration
 units:
 - learn-m365.intro.microsoft.teams.apps.1-introduction
 - learn-m365.intro.microsoft.teams.apps.2-what-are-microsoft-teams-apps

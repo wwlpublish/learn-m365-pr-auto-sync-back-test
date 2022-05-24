@@ -30,6 +30,10 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- device-management
+- compliance
+- identity-access
 units:
 - learn.wwl.implement-device-compliance-policies.introduction
 - learn.wwl.implement-device-compliance-policies.protect-access-resources-using-intune

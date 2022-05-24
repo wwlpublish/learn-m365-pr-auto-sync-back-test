@@ -6,8 +6,8 @@ metadata:
   title: Use Microsoft Defender for Identity to identify attacks
   description: Learn how to use Microsoft Defender for Identity to identify attacks.
   ms.date: 09/09/2021
-  author: beccarobins
-  ms.author: beccarobins
+  author: dcurwin
+  ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5

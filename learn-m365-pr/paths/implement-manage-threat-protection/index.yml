@@ -23,6 +23,8 @@ roles:
 products:
 - defender-identity
 - defender-office365
+subjects:
+- threat-protection
 modules:
 - learn.wwl.implement-microsoft-defender-for-identity
 - learn-m365.m365-security-threat-protect

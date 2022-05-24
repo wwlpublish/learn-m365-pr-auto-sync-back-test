@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-microsoft-defender-for-cloud-apps.configure-file-policies-microsoft-defender-cloud-apps
+title: Configure file policies in Microsoft Defender for Cloud Apps
+metadata:
+  title: Configure file policies in Microsoft Defender for Cloud Apps
+  description: "Configure file policies in Microsoft Defender for Cloud Apps"
+  ms.date: 05/24/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/4-configure-file-policies-microsoft-defender-cloud-apps.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following policies looks at the logs you use for discovering cloud apps and searches for unusual occurrences, such as when the number of transactions on a particular app are higher than usual?"
+    choices:
+    - content: "Anomaly detection policy"
+      isCorrect: false
+      explanation: "Incorrect. Anomaly detection policies enable you to look for unusual activities on your cloud based on the risk factors you set to alert you when something happens that is different from either the baseline of your organization or from the user's regular activity."
+    - content: "App discovery policy"
+      isCorrect: false
+      explanation: "Incorrect. App discovery policies enable you to set alerts that notify you when new apps are detected within your organization."
+    - content: "Cloud Discovery anomaly detection policy"
+      isCorrect: true
+      explanation: "Correct. Cloud Discovery anomaly detection policies look at the logs you use for discovering cloud apps and search for unusual occurrences, such as when the number of transactions on a particular app are higher than usual."

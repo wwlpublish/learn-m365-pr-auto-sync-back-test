@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-goals-create-track-close-okrs.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: Introduction
+  description: Understand what OKRs are and how they can help align objectives and key results
+  ms.date: 05/12/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/introduction.md)]

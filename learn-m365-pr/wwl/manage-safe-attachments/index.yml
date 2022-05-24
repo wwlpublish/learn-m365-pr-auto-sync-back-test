@@ -30,6 +30,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- cloud-security
+- information-protection-governance
 units:
 - learn.wwl.manage-safe-attachments.introduction
 - learn.wwl.manage-safe-attachments.create-safe-attachment-policies-scc

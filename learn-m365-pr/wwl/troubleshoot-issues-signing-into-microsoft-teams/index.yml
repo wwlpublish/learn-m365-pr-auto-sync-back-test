@@ -27,6 +27,10 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- identity-access
+- communication
+- cloud-computing
 units:
 - learn.wwl.troubleshoot-issues-signing-into-microsoft-teams.introduction
 - learn.wwl.troubleshoot-issues-signing-into-microsoft-teams.validate-network-configuration

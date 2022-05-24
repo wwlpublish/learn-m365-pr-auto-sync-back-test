@@ -31,6 +31,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- threat-protection
+- data-management
 units:
 - learn.wwl.introduction-to-threat-vectors-data-breaches.introduction
 - learn.wwl.introduction-to-threat-vectors-data-breaches.explore-todays-work-threat-landscape

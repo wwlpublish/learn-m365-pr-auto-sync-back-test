@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-endpoint-protection-use-microsoft-defender.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 05/18/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Admin for Lucerne Publishing, Patti Fernandez wants to implement a device discovery mode that enables endpoints to actively find devices in the company's network. Patti wants to implement a mode that enriches the collected data for devices and finds more devices than any other mode. Which device discovery mode should Patti implement to achieve these goals?"
+    choices:
+    - content: "Basic discovery"
+      isCorrect: false
+      explanation: "Incorrect. In this mode, endpoints passively collect events in a network and extract device information from them."
+    - content: "Enhanced discovery"
+      isCorrect: false
+      explanation: "Incorrect. Enhanced discovery isn't an actual device discovery mode."
+    - content: "Standard discovery"
+      isCorrect: true
+      explanation: "Correct. This mode enables endpoints to actively find devices in a network to enrich collected data and discover more devices. This process helps organizations build a reliable and coherent device inventory. This process finds even more devices than Basic mode. Standard mode uses smart, active probing to discover more information about observed devices to enrich existing device information."
+  - content: "As the Enterprise Admin for Tailspin Toys, Allan Deyoung wants to shorten the time to mitigate or remediate vulnerabilities and drive compliance. What should Allan do to achieve this goal?"
+    choices:
+    - content: "Communicate with peers and management about the effect of security efforts"
+      isCorrect: false
+      explanation: "Incorrect. While this action is something Tailspin Toys' enterprise and security administrators should do, it won't help Allan achieve his goal."
+    - content: "Prioritize security recommendations"
+      isCorrect: true
+      explanation: "Correct. Cybersecurity weaknesses identified in an organization are mapped to actionable security recommendations and prioritized by their effect. Prioritized recommendations help shorten the time to mitigate or remediate vulnerabilities and drive compliance. Remediating issues based on prioritized security recommendations also enable organizations to lower their threat and vulnerability exposure."
+    - content: "Create exceptions for security recommendations"
+      isCorrect: false
+      explanation: "Incorrect. The purpose of this action isn't to shorten the time to mitigate or remediate vulnerabilities and drive compliance. It's an alternative to a remediation request when a recommendation isn't relevant at the moment."
+  - content: "As the Enterprise Admin for Fabrikam, Holly Spencer is running a pilot project to implement Microsoft Defender for Endpoint. As part of the pilot, Holly has onboarded several devices. What should Holly do next to verify the devices are properly onboarded to the service?"
+    choices:
+    - content: "Run a detection test"
+      isCorrect: true
+      explanation: "Correct. After onboarding devices to the Microsoft Defender for Endpoint service, you can optionally run a detection test to verify the devices are properly onboarded and reporting to the service."
+    - content: "Use the appropriate management tool for the devices"
+      isCorrect: false
+      explanation: "Incorrect. This item is one of the steps involved in onboarding devices to the Microsoft Defender for Endpoint service."
+    - content: "Correlate EDR insights with endpoint vulnerabilities and process them"
+      isCorrect: false
+      explanation: "Incorrect. This item is a capability of the Threat and Vulnerability Management module. It isn't used to verify the devices are properly onboarded to the Microsoft Defender for Endpoint service."

@@ -27,6 +27,8 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- security
 modules:
 - learn.wwl.introduction-to-exchange-online-protection
 - learn.wwl.introduction-to-microsoft-defender-for-office-365

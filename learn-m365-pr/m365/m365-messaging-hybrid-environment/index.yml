@@ -30,6 +30,10 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- remote-hybrid-work
+- migration
+- cloud-computing
 units:
 - learn-m365.m365-messaging-hybrid-environment.introduction
 - learn-m365.m365-messaging-hybrid-environment.configure-hybrid-access

@@ -25,6 +25,9 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- cloud-computing
+- identity-access
 modules:
 - learn.wwl.manage-device-authentication
 - learn.wwl.enroll-devices-using-microsoft-endpoint-configuration-manager

@@ -30,6 +30,8 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- productivity
 units:
 - learn.wwl.introduction-to-microsoft-store-for-business.introduction
 - learn.wwl.introduction-to-microsoft-store-for-business.explore

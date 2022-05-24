@@ -27,6 +27,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- architecture
 units:
 - learn.wwl.explore-windows-architecture.introduction
 - learn.wwl.explore-windows-architecture.compare-windows-client-devices

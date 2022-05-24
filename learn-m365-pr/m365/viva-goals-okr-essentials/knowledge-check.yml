@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-goals-okr-essentials.knowledge-check
+title: Check your knowledge
+metadata:
+  unitType: knowledge_check
+  title: Check your knowledge
+  description: Check your knowledge of OKRs.
+  ms.date: 04/28/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+quiz:
+  questions:
+  - content: "What's the definition of an Objective?"
+    choices:
+    - content: "The mission statement of your company."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that the purpose of Objectives is to provide clarify and specificity in order to help you achieve your goals."
+    - content: "A framework for developing performance metrics."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that the purpose of Objectives is to provide clarify and specificity in order to help you achieve your goals."
+    - content: "What you want to accomplish."
+      isCorrect: true
+      explanation: "Correct. Objectives are the goals that the individual, team or company wants to accomplish."
+  - content: "What's the definition of a Key Result?"
+    choices:
+    - content: "How you'll measure success (outcome)"
+      isCorrect: true
+      explanation: "Correct. Key Results are the specific metrics you'll use to ensure you meet your Objective."
+    - content: "A group of tasks oriented toward long-term success."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that Key Results are specific to your Objective and ensure that you can achieve your goal."
+    - content: "The most important results that demonstrate success."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that Key Results are specific to your Objective and ensure that you can achieve your goal."
+  - content: "What are Key Initiatives/Projects?"
+    choices:
+    - content: "Collection of unrelated Objectives held in one folder."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that Projects are a particular production related to achieving the Objective."
+    - content: "Focused efforts (outputs) that help you achieve Key Results."
+      isCorrect: true
+      explanation: "Correct. Projects or Key Indicators are something produced in order to fulfill the Key Result."
+    - content: "A weighted Objective that is prioritized across the entire company."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that Projects are a particular production related to achieving the Objective."
+  - content: "What are the five OKR superpowers?"
+    choices:
+    - content: "Collaboration, Networking, Personal Success, Transparency, Purpose, Focus."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that the Superpowers are related to a goal-setting system that empower the entire company."
+    - content: "Correct. Focus, Alignment, Tracking, Transparency, and Stretch."
+      isCorrect: true
+      explanation: "These five superpowers are what makes the OKR framework an effective system for achieving goals."
+    - content: "Stretch, Scheduling, Intuition, Evolution, Adaptation, Alignment."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that the Superpowers are related to a goal-setting system that empower the entire company."
+  - content: "What's the Emotional Cycle of Change?"
+    choices:
+    - content: "The cycle from anger to acceptance that people experience in the first meeting when change is introduced."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that the Emotional Cycle of change has multiple stages and can take some time for people to move through."
+    - content: "The emotional five step process employees go through when onboarding at a new company or reporting to a new manager."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that the Emotional Cycle of change has multiple stages and can take some time for people to move through."
+    - content: "The journey from Uninformed Optimism to Success & Fulfillment that people experience as they process change."
+      isCorrect: true
+      explanation: "Correct. The Emotional Cycle of Change outlines the five stages most common in navigating a new experience."

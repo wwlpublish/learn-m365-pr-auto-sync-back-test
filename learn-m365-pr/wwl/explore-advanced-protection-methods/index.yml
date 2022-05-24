@@ -27,6 +27,10 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- threat-protection
+- device-management
+- cloud-security
 units:
 - learn.wwl.explore-advanced-protection-methods.introduction
 - learn.wwl.explore-advanced-protection-methods.explore-security-compliance-toolkit

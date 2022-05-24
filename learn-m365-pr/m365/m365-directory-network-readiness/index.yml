@@ -24,6 +24,8 @@ roles:
 products:
 - m365
 - windows
+subjects:
+- development-tools
 units:
 - learn-m365.directory-network-readiness.1-introduction
 - learn-m365.directory-network-readiness.2-adding-azure-ad

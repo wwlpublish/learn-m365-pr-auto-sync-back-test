@@ -98,7 +98,7 @@ var emails = await _graphServiceClient.Me.Messages
 
 When retrieving data from Microsoft Graph, you should always retrieve only the data that you need. Minimizing the amount of data that Microsoft Graph needs to retrieve and transfer over the wire to your app will help you significantly improve your app’s performance.
 
-You can limit the amount of data retrieved from Microsoft 365 in 2 ways:
+You can limit the amount of data retrieved from Microsoft 365 in two ways:
 
 - Select how many items you want to get.
 - Select the specific information that should be included.

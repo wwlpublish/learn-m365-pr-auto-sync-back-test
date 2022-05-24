@@ -26,6 +26,9 @@ products:
 - m365
 - m365-security-center
 - m365-threat-protection
+subjects:
+- security
+- threat-protection
 units:
 - learn-m365.m365-security-management-center.introduction
 - learn-m365.m365-security-management-center.m365-security-center

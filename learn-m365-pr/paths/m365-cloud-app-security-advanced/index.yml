@@ -4,8 +4,8 @@ metadata:
   title: Configure Microsoft Defender for Cloud Apps for advanced scenarios
   description: This learning path investigates Microsoft Defender for Cloud Apps integration and advanced scenarios and guidance at an advanced level.  
   ms.date: 02/12/2021
-  author: beccarobins
-  ms.author: beccarobins
+  author: dcurwin
+  ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Configure Microsoft Defender for Cloud Apps for advanced scenarios
@@ -22,6 +22,9 @@ roles:
 products: 
 - m365
 - m365-ems-cloud-app-security
+subjects:
+- threat-protection
+- cloud-security
 modules:
   - learn-m365.mcas-power-automate
   - learn-m365.integrate-third-party-identity-providers-mcas

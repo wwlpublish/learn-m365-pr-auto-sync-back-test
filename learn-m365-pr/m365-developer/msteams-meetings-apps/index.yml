@@ -30,6 +30,10 @@ roles:
 products:
   - m365
   - office-teams
+subjects:
+- custom-app-development
+- communication
+- cloud-computing
 units:
   - learn-m365.msteams-meetings-apps.1-introduction
   - learn-m365.msteams-meetings-apps.2-understand-meeting-apps

@@ -46,11 +46,11 @@ If there are multiple pages of data returned, the delta link will be present in 
 
 Your apps can use change notifications and track changes both together to create a robust, reliable, and performant experience.
 
-Change notifications are going to notify your app when something changes with a collection supported by Microsoft Graph. When Microsoft Graph notifies your application that something changed, instead of your app requesting all the information from Microsoft Graph on the entity that triggered the notification, instead it can use the delta query retrieve all changes that have happened since the last request.
+Change notifications are going to notify your app when something changes with a collection supported by Microsoft Graph. When Microsoft Graph notifies your application that something changed, instead of your app requesting all the information from Microsoft Graph on the entity that triggered the notification, instead it can use the delta query to retrieve all changes that have happened since the last request.
 
 With this pattern, your app could first, create a change notification subscription for changes to the `/users` endpoint in Microsoft Graph. Then, immediately after creating the subscription, the application can request all users from Microsoft Graph as a delta query. After processing all the users in the response, your app would save the delta query link.
 
-In the future, change notifications are used to notify your application that something changed. You can use this as a trigger to resubmit the delta query for all changes that have happened since the first request, or one of the later requests. This way, your application can be assured to not miss any changes that happen even if there's when a subscription expires or there's an unforeseen error in the processing of, or sending, the change notification.
+In the future, change notifications are used to notify your application that something changed. You can use this as a trigger to resubmit the delta query for all changes that have happened since the first request, or one of the later requests. This way, your application can be assured to not miss any changes that happen even when a subscription expires or there's an unforeseen error in the processing of, or sending, the change notification.
 
 To make the application as fault tolerant as possible, it's recommended to have a scheduled process check for a valid subscription and renew it if the expiration time is coming up soon. It's also recommended to schedule a delta query request to occur on regular intervals to cover the scenario where there was a gap in an active subscription and or where a notification of a change wasn't received for some unknown reason.
 

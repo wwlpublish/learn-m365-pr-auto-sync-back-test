@@ -31,6 +31,8 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- development-tools
 units:
 - learn.wwl.assess-deployment-readiness.introduction
 - learn.wwl.assess-deployment-readiness.examine-deployment-guidelines

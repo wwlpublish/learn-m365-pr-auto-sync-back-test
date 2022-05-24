@@ -3,9 +3,9 @@ uid: learn-m365.sci-asc
 metadata:
   title: Improve your cloud security posture with Microsoft Defender for Cloud
   description: Learn how you can strengthen your security posture through Microsoft Defender for Cloud.
-  ms.date: 04/06/2022
-  author: beccarobins
-  ms.author: beccarobins
+  ms.date: 04/22/2022
+  author: dcurwin
+  ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Improve your cloud security posture with Microsoft Defender for Cloud
@@ -30,6 +30,9 @@ products:
 - azure-security-center
 - azure-sentinel
 - m365-admin-center
+subjects:
+- cloud-security
+- threat-protection
 units:
 - learn-m365.sci-asc.introduction
 - learn-m365.sci-asc.gain-insights

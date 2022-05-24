@@ -32,6 +32,8 @@ products:
 - mem-intune
 - windows
 - microsoft-deployment-toolkit
+subjects:
+- it-management-monitoring
 units:
 - learn.wwl.examine-enterprise-desktop.introduction
 - learn.wwl.examine-enterprise-desktop.examine-benefits-modern-management

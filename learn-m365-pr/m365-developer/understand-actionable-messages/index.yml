@@ -26,6 +26,8 @@ products:
   - office-outlook
   - office-adaptive-cards
   - m365
+subjects:
+- communication
 units:
 - learn-m365-pr.understand-actionable-messages.1-introduction
 - learn-m365-pr.understand-actionable-messages.2-format

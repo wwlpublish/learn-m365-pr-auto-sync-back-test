@@ -29,6 +29,8 @@ roles:
 products:
 - m365
 - ms-graph
+subjects:
+- development-tools
 units:
 - learn-m365.msgraph-changenotifications-trackchanges.1-introduction
 - learn-m365.msgraph-changenotifications-trackchanges.2-graph-overview-create-app

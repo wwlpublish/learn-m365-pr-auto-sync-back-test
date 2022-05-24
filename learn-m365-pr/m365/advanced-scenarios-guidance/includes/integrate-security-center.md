@@ -14,7 +14,7 @@ For example, a threatening malware executable might have multiple potential rout
 - In uploads to Azure Storage accounts.
 - Attached to messages in a mobile social media app.
 
-These incursions might be detected and mitigated by Microsoft Defender for Cloud Apps, Microsoft 365 Defender on Windows or mobile operating systems, or Azure Advanced Threat Protection. To observe and investigate these events, it's necessary to log into several different portals and it's difficult to integrate that information into a single report.
+These incursions might be detected and mitigated by Microsoft Defender for Cloud Apps, Microsoft 365 Defender on Windows or mobile operating systems, or Microsoft Defender for Identity. To observe and investigate these events, it's necessary to log into several different portals and it's difficult to integrate that information into a single report.
 
 The Microsoft 365 Defender portal integrates with many different Microsoft Security products and provides a single location where events can be investigated and diagnosed. In the Microsoft 365 Defender portal, you can view and analyze security events from across your organization's identities, data, devices, apps, and infrastructure.
 
@@ -25,7 +25,7 @@ You can access the Microsoft 365 Defender portal at <https://security.microsoft.
 
 ## Prerequisites
 
-You must have a valid license to access the Defender for Cloud. If you have any of these licenses, you can access the Microsoft 365 Defender portal at no extra cost:
+You must have a valid license to access Microsoft 365 Defender. If you have any of these licenses, you can access the Microsoft 365 Defender portal at no extra cost:
 
 - Microsoft 365 E5 or A5
 - Microsoft 365 E5 Security or A5 Security

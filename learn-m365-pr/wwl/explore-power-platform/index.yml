@@ -29,6 +29,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- device-management
+- cloud-computing
 units:
 - learn.wwl.explore-power-platform.introduction
 - learn.wwl.explore-power-platform.product-family

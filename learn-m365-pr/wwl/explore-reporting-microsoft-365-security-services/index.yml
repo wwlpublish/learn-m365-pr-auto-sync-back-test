@@ -29,6 +29,8 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- security
 units:
 - learn.wwl.explore-reporting-microsoft-365-security-services.introduction
 - learn.wwl.explore-reporting-microsoft-365-security-services.examine-threat-protection-status-report

@@ -27,6 +27,8 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
 units:
 - learn.wwl.plan-teams-phone-system.introduction
 - learn.wwl.plan-teams-phone-system.plan-usage-scenarios-services-users

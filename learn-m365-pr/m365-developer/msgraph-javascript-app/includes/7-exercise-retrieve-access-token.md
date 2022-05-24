@@ -6,7 +6,7 @@ In this exercise, you'll set up your own application. The application will call 
 
 This exercise gets you started with running an application that signs in a user to Azure Active Directory (Azure AD) and makes a call to Microsoft Graph. You'll access a GitHub repository and then configure the application to run locally on your machine.
 
-1. Open a terminal window on your computer and go to the folder where you want to save the app.
+1. Open a console on your computer and go to the folder where you want to save the app.
 1. To get the source code, visit the [GitHub repository](https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart) and choose one of the following options:
     - If you use Git, clone the project by using the `git clone` command:
 
@@ -61,7 +61,7 @@ For this procedure, make sure you have Node.js installed on your machine.
 
 It's time to see your application run locally.
 
-1. In the terminal window, go to the project folder where the source code is located.
+1. In the console, go to the project folder where the source code is located.
 1. Run the following script on the command line. The script will start your app locally and open `http://localhost:8080` in the browser.
 
     ```console

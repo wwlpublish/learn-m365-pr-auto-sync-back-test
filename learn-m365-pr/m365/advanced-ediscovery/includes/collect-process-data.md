@@ -1,4 +1,3 @@
-
 In this section, we discuss the *Collection* and *Processing* phases of the EDRM model.
 
 > [!div class="centered"]
@@ -61,7 +60,7 @@ You can also generate your own sample from a search.
 
 Generating a sample lets you use parameters such as confidence level and confidence interval.
 
-:::image type="content" source="../media/sampling-parameters.png" alt-text="Screenshots that shows using parameters such as confidence level and confidence interval.":::
+:::image type="content" source="../media/sampling-parameters.png" alt-text="Screenshot that shows parameters such as confidence level and confidence interval." border="false":::
 
 ## Content indexing of data
 
@@ -85,7 +84,7 @@ Error remediation of documents leverages an Azure AzCopy command that contains p
 
 1. To begin the process of error remediation, select **Errors** in the **View** drop-down menu on the **Processing** tab and then select a case or review set from the **Scope** drop-down menu. This section displays all errors from the case or error from a specific review set. In the example below, an error was found in the Investigation – 01234 case.
 
-    :::image type="content" source="../media/new-error-remediation.png" alt-text="Screenshot of the error remediation screen." lightbox="../media/new-error-remediation.png":::
+    :::image type="content" source="../media/new-error-remediation.png" alt-text="Screenshot of the processing tab for case 01234." lightbox="../media/new-error-remediation.png" border="false":::
 
 1. To remediate the password protected file, select the radio button next to the file type, then click **New error remediation**. The error remediation process begins with a preparation stage where the files with errors are copied to a Microsoft-provided Azure Storage location so that you can download them to your local computer to remediate.
 
@@ -110,7 +109,7 @@ Error remediation of documents leverages an Azure AzCopy command that contains p
 
 1. Return to the error remediation wizard in eDiscovery (Premium), then click **Next: Upload files**. This moves to the next page where you can now upload the files.
 
-    :::image type="content" source="../media/download-files.png" alt-text="Screenshot of the download files screen." lightbox="../media/download-files.png":::
+    :::image type="content" source="../media/download-files.png" alt-text="Screenshot of the download files tab in a new remediation. Fields include destination path for download and copy this command and run in a Windows command prompt." lightbox="../media/download-files.png" border="false":::
 
 1. Specify the parent folder where the remediated files are located in the **Path to location of files** text box. The parent folder must have the same subfolder structure that was created when you downloaded the files. The path to the parent folder is automatically added to the AzCopy command as the value of the **/Source** parameter.
 

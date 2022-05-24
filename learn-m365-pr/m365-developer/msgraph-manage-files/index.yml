@@ -33,6 +33,10 @@ roles:
 products:
   - m365
   - ms-graph
+subjects:
+- data-analytics
+- data-visualization
+- development-tools
 units:
   - learn-m365.msgraph-manage-files.1-introduction
   - learn-m365.msgraph-manage-files.2-exercise-configure-azure-active-directory-app

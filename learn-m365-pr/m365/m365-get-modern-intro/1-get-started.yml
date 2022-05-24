@@ -9,6 +9,6 @@ metadata:
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 12
+durationInMinutes: 1
 content: |
   [!include[](includes/1-get-started-w10-o365pp.md)]

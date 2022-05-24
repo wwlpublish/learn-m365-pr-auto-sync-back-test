@@ -24,6 +24,9 @@ roles:
 - administrator
 products:
 - office-teams
+subjects:
+- communication
+- device-management
 units:
 - learn-m365.teams.monitor-troubleshoot-investigate.1-introduction
 - learn-m365.teams.monitor-troubleshoot-investigate.2-monitor-call-quality

@@ -4,7 +4,7 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Learn how Microsoft 365 implements the principle of Zero Standing Access (ZSA) to protect production environments and customer data using Just-In-Time (JIT) and Just-Enough-Access (JEA).
-  ms.date: 07/19/2021
+  ms.date: 05/02/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -49,7 +49,7 @@ quiz:
         explanation: "Correct. Service team accounts are used by individual Microsoft personnel charged with developing, maintaining, and repairing core Microsoft 365 services."
       - content: "Customer accounts"
         isCorrect: false
-        explanation: "Customer accounts are provisioned by the customer for users in the customer’s organization."
+        explanation: "Customer accounts are provisioned by the customer for users in the customer's organization."
 
     - content: "What access control tool in Microsoft requires engineers to specify the privileged role, resources, and time required to complete an administrative task as part of requesting JIT access?"
       choices:
