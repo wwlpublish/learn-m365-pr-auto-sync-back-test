@@ -3,7 +3,7 @@ uid: learn.wwl.implement-microsoft-defender-for-cloud-apps
 metadata:
   title: Implement app protection by using Microsoft Defender for Cloud Apps
   description: "Implement app protection by using Microsoft Defender for Cloud Apps"
-  ms.date: 05/20/2022
+  ms.date: 05/24/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -30,13 +30,6 @@ roles:
 products:
 - m365
 - office-365
-subjects:
-- business-applications
-- cloud-security
-- device-management
-- information-protection-governance
-- security
-- threat-protection
 units:
 - learn.wwl.implement-microsoft-defender-for-cloud-apps.introduction
 - learn.wwl.implement-microsoft-defender-for-cloud-apps.explore-microsoft-defender-cloud-apps
