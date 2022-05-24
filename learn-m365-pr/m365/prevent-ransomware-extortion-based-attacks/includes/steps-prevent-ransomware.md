@@ -9,7 +9,7 @@ They can be categorized as follows:
 - **Enabling and maintaining security and monitoring tools**: For example, keeping software, including antimalware software and firewalls, up-to-date.
 - **Good device hygiene**: Including only installing software from trusted sources and official websites.
 - **Maintaining good user practices**: Avoid using administrator accounts with specialized access and permissions for everyday business. Use strong passwords and regularly reset them.
-- **Maintaining safe data practices**: Such as limiting or avoiding sharing personal information whenever possible.
+- **Maintaining safe data practices**: Limit or avoid sharing personal information whenever possible.
 - **Safe peripheral usage**: For example, refrain from connecting unprotected removable devices to computers, laptops, and even mobile devices.
 
 ### For businesses

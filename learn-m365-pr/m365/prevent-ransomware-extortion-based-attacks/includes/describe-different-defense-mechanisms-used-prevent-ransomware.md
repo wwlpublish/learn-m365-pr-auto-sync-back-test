@@ -13,7 +13,7 @@ Research shows that almost all organizations are at risk of identity theft. Even
 - Multi-factor authentication (MFA)
 - Passwords
 
-### Multi-factor authentication (MFA)
+### Multi-factor authentication
 
 Multi-factor authentication (MFA) is a security measure that helps ensure that only an authorized person can sign into an account. The MFA process requires you to implement the following steps:
 
@@ -25,9 +25,9 @@ This technique adds an extra layer of security as it evaluates the identity of a
 
 ### Passwords
 
-Traditionally, using passwords has been the most important layer of security when obtaining access to a device or an account. However, with the advancement of technology, it's now possible to eliminate usernames and passwords from the user experience and consider passwordless authentication instead. Passwordless authentication makes the process quick and simple for users and enhances security. For this, you need to first install an Authenticator app and link it to your phone or personal account.
+Traditionally, using passwords has been the most important layer of security when obtaining access to a device or an account. However, with the advancement of technology, it's now possible to eliminate usernames and passwords from the user experience and consider passwordless authentication instead. Passwordless authentication makes the process quick and simple for users and enhances security. For this, you need to first install an authenticator app and link it to your phone or personal account.
 
-You must ensure that strong passwords are used to sign into a device or account. Ineffective passwords are vulnerable entry points for ransomware attacks. You can create a security plan within your organization and encourage employees to change passwords frequently. They must also ensure that passwords aren't shared between admins and employees, and that they aren't reused for different websites or accounts. Also, make certain that the privileged or administrator accounts' passwords are not left exposed.
+If passwords are required, you must ensure that **strong** passwords are used to sign into a device or account. Ineffective passwords are vulnerable entry points for ransomware attacks. You can create a security plan within your organization and encourage employees to change passwords frequently. They must also ensure that passwords aren't shared between admins and employees, and that they aren't reused for different websites or accounts. Also, make certain that the privileged or administrator accounts' passwords are not left exposed.
 
 ## Back up critical data
 

@@ -25,8 +25,8 @@ quiz:
       explanation: "That's correct. You use encryption to obscure the existence of your email messages or files. The recipient must use a special code or password to access the information."
     - content: "Linking the email to a device or an app."
       isCorrect: false
-      explanation: "That's incorrect. Linking your email or registering your personal device is a step required in the MFA process."
-  - content: "What are the key principles of a Zero Trust security framework?"
+      explanation: "That's incorrect. Linking your email or registering your personal device is a step required in multi-factor authentication."
+  - content: "What are the key principles of the Zero Trust security framework?"
     choices:
     - content: "To verify identity, limit access, and assume breach."
       isCorrect: true
@@ -52,7 +52,7 @@ quiz:
     choices:
     - content: "It's a process where anti-virus tools delete system files that are infected with virus."
       isCorrect: false
-      explanation: "That's incorrect. An anti-virus program quarantines the infected system files as deleting such files will cause further damage to the device or application."
+      explanation: "That's incorrect. An anti-virus program quarantines the infected system files; deleting such files will cause further damage to the device or application."
     - content: "It's a process where anti-virus tools backup data and files."
       isCorrect: false
       explanation: "That's incorrect. An anti-virus tool doesn't back up data and files."
