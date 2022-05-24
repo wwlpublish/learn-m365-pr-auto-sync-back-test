@@ -14,7 +14,7 @@ Microsoft Defender for Cloud Apps file policies continually monitor files to pro
 
 To manage policies, perform the following steps:
 
-1. Navigate to [[https://portal.cloudappsecurity.com]{.ul}](https://portal.cloudappsecurity.com).
+1. Navigate to [https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com).
 2. Select **Control** and select **Policies**.
 
     :::image type="content" source="../media/4-microsoft-cloud-app-security-policies.png" alt-text="Policies.":::

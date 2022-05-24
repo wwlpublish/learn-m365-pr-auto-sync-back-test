@@ -1,4 +1,4 @@
-Many organizations have Already implemented an event management (SIEM) solution and they are unlikely to want to replace this solution purely for Microsoft Defender for Cloud Apps connectivity. Fortunately, when connecting Microsoft Defender for Cloud Apps to a SIEM solution you are not obliged to use Microsoft Sentinel and can connect to other, 3rd party, SIEM solutions as long as they use Common Event Format (CEF).
+Many organizations have Already implemented an event management (SIEM) solution and they are unlikely to want to replace this solution purely for Microsoft Defender for Cloud Apps connectivity. Fortunately, when connecting Microsoft Defender for Cloud Apps to a SIEM solution you are not obliged to use Microsoft Sentinel and can connect to other non-Microsoft SIEM solutions as long as they use Common Event Format (CEF).
 
 ## Prerequisites
 
