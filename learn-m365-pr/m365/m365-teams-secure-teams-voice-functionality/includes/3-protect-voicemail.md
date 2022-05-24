@@ -16,9 +16,9 @@ To set up protected voicemail, do the following:
 1. Sign into the [Teams admin center](https://admin.teams.microsoft.com) using an account with global administrator permissions.
 1. Select **Show all** and then go to **Admin centers** > **Exchange**.
 1. In the Exchange Admin Center, select **Mail flow** > **Rules**.
-1. Select **+ Add**, and then select **Apply Microsoft Purview message encryption and rights protection to messages**.
+1. Select **+ Add**, and then select **Apply Microsoft Purview Message Encryption and rights protection to messages**.
 1. Provide a name for the new mail flow rule and then under **Apply this rule if**, select **The message properties** > **Include the message type** >**Voice mail**. Select **OK**.
-1. Under **Do the following**, select **Apply Microsoft Purview message encryption and rights protection to the message with** and then select **Select one**. Under **RMS template**, select **Do not forward**. Select **OK** and then **Save**.
+1. Under **Do the following**, select **Apply Microsoft Purview Message Encryption and rights protection to the message with** and then select **Select one**. Under **RMS template**, select **Do not forward**. Select **OK** and then **Save**.
 
 > [!NOTE]
 > If the **RMS template** list is empty, you need to set up Message Encryption. For more information about setting up Message Encryption, see the following articles. Links can be found in the **Learn more** section below:
