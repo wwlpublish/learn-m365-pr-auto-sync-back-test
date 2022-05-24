@@ -4,82 +4,58 @@ title: Knowledge check
 metadata:
   unitType: knowledge_check
   title: Knowledge check
-  description: "TODO: this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the unit; include relevant search keywords."
-  ms.date: 4/8/2022
+  description: "Check your knowledge"
+  ms.date: 5/5/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
-  ms.prod: learning-m365 
-durationInMinutes: 1
-###########################################################################
-###
-### General guidance (https://review.docs.microsoft.com/learn-docs/docs/id-guidance-knowledge-check)
-###  - Questions are complete sentences ending with a question mark
-###  - No true/false questions
-###  - 3 answers per question
-###  - All answers about the same length
-###  - Numeric answers listed in sorted order
-###  - No "All of the above" and/or "None of the above" as answer choices
-###  - No "Not" or "Except" in questions
-###  - No second person ("you") in the questions or answers
-###  - Provide a meaningful explanation for both correct and incorrect answers
-###
-###########################################################################
+  ms.prod: learning-m365
+durationInMinutes: 5
+
 content: |
 quiz:
   questions:
-  - content: ""
+  - content: "Which is the correct definition of ransomware?"
     choices:
-    - content: ""
+    - content: "Malicious code that steals data and auctions it off to the highest bidder."
+      isCorrect: false
+      explanation: "That's incorrect. Although data is often stolen, it can be sold to the highest bidder whether the ransom is paid or not."
+    - content: "Malicious code that allows files to be accessed, but important parts are missing until a ransom is paid."
+      isCorrect: false
+      explanation: "That's incorrect. Ransomware doesn't leave files partially encrypted."
+    - content: "Malicious code that blocks access to a computer and/or its files, and demands a ransom for their release."
       isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
+      explanation: "That's correct. The files are encrypted, and access is blocked until the ransom is paid."
+  - content: "If a user opens an email and select a link that turns out to be malicious, what type of attack is this?"
     choices:
-    - content: ""
+    - content: "Phishing attack"
       isCorrect: true
-      explanation: ""
-    - content: ""
+      explanation: "That's correct. Phishing is a social engineering attack, where the attacker relies on a user to select a link without properly checking it's valid."
+    - content: "Smishing attack"
       isCorrect: false
-      explanation: ""
-    - content: ""
+      explanation: "That's incorrect. A smishing attack uses text messages that contain links to fraudulent sites."
+    - content: "Vishing attack"
       isCorrect: false
-      explanation: ""
-  - content: ""
+      explanation: "That's incorrect. Vishing relies on the power of voice to trick a user into divulging information useful to the attacker."
+  - content: "Which explanation best describes a ransomware family?"
     choices:
-    - content: ""
+    - content: "Cybercriminals who use ransomware to disrupt and extort money."
+      isCorrect: false
+      explanation: "That's incorrect. The alternative term for cybercriminals is ransomware actors."
+    - content: "Ransomware code that works in a similar way to other ransomware code."
       isCorrect: true
-      explanation: ""
-    - content: ""
+      explanation: "That's correct. Certain attacks work in a similar way and have comparable code characteristics, which is why they're called ransomware families."
+    - content: "Licensed ransomware that cybercriminals can purchase from each other."
       isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
+      explanation: "That's incorrect. This is known as ransomware-as-a-service and allows cybercriminals who aren't necessarily technically aware to run attacks."
+  - content: "If an attacker managed to gain control of a water supply company's computer system and changed the level of additives in the drinking water, what type of attack would this be?"
     choices:
-    - content: ""
+    - content: "Commodity ransomware"
+      isCorrect: false
+      explanation: "That's incorrect. Commodity ransomware relies on a lapse of judgment from an individual to help the attacker, either by clicking on a file that contains malicious code, or by giving away information."
+    - content: "Ransom distributed denial-of-service attack"
+      isCorrect: false
+      explanation: "That's incorrect. A distributed denial-of-service attack works by flooding the system with so much information that it effectively grinds to a halt, and stops legitimate work being carried out."
+    - content: "Human-operated ransomware"
       isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
-    choices:
-    - content: ""
-      isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
+      explanation: "That's correct. The attacker is specifically targeting a business to maximize the impact on the company and the general public."
