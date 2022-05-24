@@ -1,4 +1,4 @@
-Ransomware is where a cybercriminal installs software onto your computer to prevent you from using it. They then demand money before you can access your computer again. The ransomware can be installed so that it locks an entire company out of some or all of its systems, or prevents access to certain files. A recent escalation has seen cybercriminals take copies of sensitive data which they threaten to make public should a ransom not be paid.
+Ransomware is where a cybercriminal installs software onto your computer to prevent you from using it. They then demand money before you can access your computer again. The ransomware can be installed so that it locks an entire company out of some or all of its systems, or prevents access to certain files. A recent escalation has seen cybercriminals take copies of sensitive data that they threaten to make public should a ransom not be paid.
 
 In this module, you'll also hear the term malware mentioned. Malware is ransomware that is downloaded onto computers or a computer system to prevent access. To summarize, malware locks the computer and, by demanding a ransom, this becomes a ransomware attack.
 
