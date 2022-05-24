@@ -1,4 +1,4 @@
-You've learned about the signs of a ransomware attack, and how to detect them. But what can be done if a ransomware attack has been spotted? It's important not to panic should the situation arise. Organizations and individuals can deal with the attack by investigating it first, and then respond appropriately.
+You've learned about the signs of a ransomware attack, and how to detect them. But what can be done if a ransomware attack has been spotted? It's important not to panic should the situation arise. Organizations and individuals can deal with the attack by investigating it first, and then responding appropriately.
 
 ## Investigate the attack
 
@@ -58,7 +58,7 @@ This will ensure that the attack doesn't continue to propagate itself. It also p
 
 Going back to our example organization, when the security team has isolated the compromised entities, they can try to reset or wipe them safely.
 
-For entities like user accounts, they'll need to reset their credentials, and maybe even replace the accounts if necessary. For devices, they should follow the standard guidance for resetting or wiping. Devices like computers and mobile phones will come with tools that help to completely remove everything on the device, reinstall the operating system, or reset to *factory default* settings. Factory default is the state your device was in when you first bought it.
+For entities like user accounts, they'll need to reset their credentials, and maybe even replace the accounts if necessary. For devices, they should follow the standard guidance for resetting or wiping. Devices like computers and mobile phones will come with tools that help to completely remove everything on the device, reinstall the operating system, or reset to *factory default* settings. Factory default is the state your device was in when it was first purchased.
 
 However, before the security team resets or erases anything, they'll need to make sure they have a working backup that is also free from any malware. We'll cover this next.
 
