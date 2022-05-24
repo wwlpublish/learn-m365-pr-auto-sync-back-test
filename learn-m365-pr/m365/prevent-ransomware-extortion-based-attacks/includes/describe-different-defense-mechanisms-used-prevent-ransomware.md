@@ -93,6 +93,6 @@ Common red flags to look for include:
 - **Requests for private information**
   - The email might ask the user to provide personal details, payment information, or credentials.
 
-## Training employees to reduce the risk of ransomware attacks
+## Train employees to reduce risk
 
 Employees play an important part in safeguarding an organization against cyberattacks including ransomware, or any extortion-based attacks. Security awareness can help to thwart ransomware attacks. You can train members of your organization to spot phishing and potentially risky behavior. They should report suspicious links and emails, avoid disclosing personal information, steer away from malicious attachments, and so on.
