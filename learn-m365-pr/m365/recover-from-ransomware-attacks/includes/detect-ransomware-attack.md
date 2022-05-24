@@ -4,7 +4,8 @@ Ransomware attacks, like all malware attacks, engage in certain activities that 
 
 The appearance of files or folders that you don't recognize, or changes to them, can be signs of an attack. This is because any of these can affect the confidentiality, integrity, or availability of your device.
 
-:::image type="content" source="../media/suspicious-file-nested.png" alt-text="Diagram that shows a suspicious file nested between other files":::
+> [!div class="centered"]
+> :::image type="content" source="../media/suspicious-file-nested.png" alt-text="Diagram that shows a suspicious file nested between other file." border="false":::
 
 Ransomware attacks often use files with common extensions such as .pdf, .jpeg, .docx, and more, as part of their attack routines. They may also use files with extensions you're not familiar with, or files without an extension.
 
