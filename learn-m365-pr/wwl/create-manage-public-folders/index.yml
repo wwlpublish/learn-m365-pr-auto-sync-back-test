@@ -29,6 +29,9 @@ products:
 - office
 - office-365
 - office-exchange-server
+subjects:
+- identity-access
+- storage
 units:
 - learn.wwl.create-manage-public-folders.introduction
 - learn.wwl.create-manage-public-folders.explore-public-folder-considerations

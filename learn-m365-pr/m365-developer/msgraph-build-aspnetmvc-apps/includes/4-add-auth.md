@@ -26,7 +26,7 @@ The v2 endpoint also supports the OpenID Connect standard of including an **ID t
 
 ![Azure AD app registration](../media/04-app-reg.png)
 
-All apps that need to be granted permissions to use other apps must be registered in Azure AD. App registration is done through the Azure AD admin center at **https://aad.portal.azure.com**. The Azure AD admin center doesn't require users have a paid Azure subscription to manage users and apps. A user must have access to read and edit users, groups, app, or manage the directory. The admin center unifies various app management portals previously available to developers and administrators under one site. From this portal, you can manage apps that were created to use the v1 and v2 Microsoft identity endpoints.
+All apps that need to be granted permissions to use other apps must be registered in Azure AD. App registration is done through the Azure AD admin center at **https://aad.portal.azure.com**. The Azure AD admin center doesn't require users to have a paid Azure subscription to manage users and apps. A user must have access to read and edit users, groups, apps, or manage the directory. The admin center unifies various app management portals previously available to developers and administrators under one site. From this portal, you can manage apps that were created to use the v1 and v2 Microsoft identity endpoints.
 
 Custom applications can use one of the authentication libraries provided by Microsoft. Each of the two libraries is made available through various SDKs for each of the platforms and languages supported by Microsoft identity.
 

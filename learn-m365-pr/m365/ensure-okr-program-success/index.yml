@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365.ensure-okr-program-success
+metadata:
+  moduleType: standard
+  title: Ensure OKR program success
+  description: Learn how to set your OKR program up for success by creating psychological safety, establishing business rhythms, and making the OKR change visible to your team.
+  ms.date: 05/11/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Ensure OKR program success
+summary: Learn how to set your OKR program up for success by creating psychological safety, establishing business rhythms, and making the OKR change visible to your team.   <br><br>**IMPORTANT** - Viva Goals is currently available only for preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+abstract: |
+  By the end of this module, you'll be able to:
+  - Define the growth mindset, psychological safety, and how to cultivate this kind of environment on your team as you roll out OKRs. 
+  - Identify the three cycles of the OKR business rhythm and know how to execute them. 
+  - Identify three ways to make OKRs visible in your daily work patterns.
+prerequisites: |
+  - Basic understanding of the Viva Goals environment
+  - •	Basic understanding of OKR methodology and the role of an OKR Champion
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - administrator
+products:
+- m365
+- viva
+units:
+- learn-m365.ensure-okr-program-success.introduction
+- learn-m365.ensure-okr-program-success.cultivate-growth-mindset
+- learn-m365.ensure-okr-program-success.establish-business-rhythms
+- learn-m365.ensure-okr-program-success.make-it-visible
+- learn-m365.ensure-okr-program-success.knowledge-check
+- learn-m365.ensure-okr-program-success.summary
+badge:
+  uid: learn-m365.ensure-okr-program-success.badge

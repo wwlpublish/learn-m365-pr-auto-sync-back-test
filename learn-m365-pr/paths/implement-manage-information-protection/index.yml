@@ -22,6 +22,8 @@ roles:
 - technology-manager
 products:
 - office-365
+subjects:
+- information-protection-governance
 modules:
 - learn.wwl.create-manage-sensitive-information-types
 - learn.wwl.apply-manage-sensitivity-labels

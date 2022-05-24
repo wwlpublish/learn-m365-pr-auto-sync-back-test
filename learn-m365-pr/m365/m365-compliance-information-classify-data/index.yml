@@ -3,7 +3,7 @@ uid: learn-m365.m365-compliance-information-classify-data
 metadata:
   title: Classify data for protection and governance
   description:  Learn about the information available to help you understand your data landscape and know your data.
-  ms.date: 11/17/2021
+  ms.date: 05/09/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -30,6 +30,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- information-protection-governance
 units:
 - learn-m365.m365-compliance-information-classify-data.data-classification-overview
 - learn-m365.m365-compliance-information-classify-data.using-sensitive-information-types

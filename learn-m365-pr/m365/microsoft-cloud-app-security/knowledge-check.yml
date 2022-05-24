@@ -5,8 +5,8 @@ metadata:
   title: Knowledge check
   description: Review what you've learned about Microsoft Defender for Cloud Apps.
   ms.date: 08/05/2021
-  author: beccarobins
-  ms.author: beccarobins
+  author: dcurwin
+  ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5

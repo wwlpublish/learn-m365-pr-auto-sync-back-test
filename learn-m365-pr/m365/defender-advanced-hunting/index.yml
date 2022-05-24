@@ -28,6 +28,8 @@ products:
   - m365
   - m365-security-center
   - m365-threat-protection
+subjects:
+- threat-protection
 units:
 - learn-m365-pr.defender-advanced-hunting.introduction
 - learn-m365-pr.defender-advanced-hunting.kusto

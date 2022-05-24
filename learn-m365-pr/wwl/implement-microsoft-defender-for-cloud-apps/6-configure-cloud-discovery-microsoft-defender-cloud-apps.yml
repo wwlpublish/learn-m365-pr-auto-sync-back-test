@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-microsoft-defender-for-cloud-apps.configure-cloud-discovery-microsoft-defender-cloud-apps
+title: Configure Cloud Discovery in Microsoft Defender for Cloud Apps
+metadata:
+  title: Configure Cloud Discovery in Microsoft Defender for Cloud Apps
+  description: "Configure Cloud Discovery in Microsoft Defender for Cloud Apps"
+  ms.date: 05/24/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-configure-cloud-discovery-microsoft-defender-cloud-apps.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Cloud Discovery uses the event data in an organization's traffic logs to generate a Cloud Discovery report. What's the maximum age a traffic log event can be to appear on a Cloud Discovery report?"
+    choices:
+    - content: "30 days old"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the maximum age an event can be to appear on a Cloud Discovery report."
+    - content: "60 days old"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the maximum age an event can be to appear on a Cloud Discovery report."
+    - content: "90 days old"
+      isCorrect: true
+      explanation: "Correct. For a traffic log event to appear on a Cloud Discovery report, it can't be more than 90 days old."

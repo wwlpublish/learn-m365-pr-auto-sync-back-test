@@ -26,6 +26,9 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- collaboration
+- storage
 units:
 - learn.wwl.configure-manage-shared-folders.introduction
 - learn.wwl.configure-manage-shared-folders.explore-shared-folders

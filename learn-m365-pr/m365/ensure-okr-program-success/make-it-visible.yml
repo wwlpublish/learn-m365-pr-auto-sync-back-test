@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.ensure-okr-program-success.make-it-visible
+title: Make it visible
+metadata:
+  unitType: learning-content
+  title: Make it visible
+  description: Learn how promoting Viva Goals keeps OKRs top of mind for new users and increases familiarity 
+  ms.date: 05/11/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/make-it-visible.md)]

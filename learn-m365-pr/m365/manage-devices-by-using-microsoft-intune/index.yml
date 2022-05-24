@@ -1,4 +1,4 @@
-﻿### YamlMime:Module
+### YamlMime:Module
 uid: learn-m365-pr.manage-devices-by-using-microsoft-intune
 metadata:
   title: Manage devices by using Microsoft Intune
@@ -23,6 +23,9 @@ roles:
 products:
 - m365
 - mem-intune
+subjects:
+- device-management
+- cloud-computing
 units:
 - learn-m365-pr.manage-devices-by-using-microsoft-intune.1-modern-management-options
 - learn-m365-pr.manage-devices-by-using-microsoft-intune.2-managing-windows-devices-with-intune

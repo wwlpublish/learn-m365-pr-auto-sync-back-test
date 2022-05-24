@@ -27,6 +27,9 @@ products:
 - office
 - office-365
 - office-exchange-server
+subjects:
+- data-management
+- cloud-computing
 modules:
 - learn.wwl.design-your-public-folder-hierarchy
 - learn.wwl.create-manage-public-folders

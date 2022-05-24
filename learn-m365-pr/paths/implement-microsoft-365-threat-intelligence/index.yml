@@ -27,6 +27,8 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- threat-protection
 modules:
 - learn.wwl.introduction-to-microsoft-365-threat-intelligence
 - learn.wwl.explore-security-dashboard

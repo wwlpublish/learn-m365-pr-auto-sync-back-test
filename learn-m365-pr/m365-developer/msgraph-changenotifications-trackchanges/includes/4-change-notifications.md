@@ -22,7 +22,7 @@ When a subscription is created, Microsoft Graph immediately submits an HTTP POST
 
 ### Manage the subscription lifecycle
 
-Change notification subscriptions will be good for a specified amount of time. For most resources, the maximum subscription length is three days, but you should check with each resource for the supported subscription maximum length. After that time, the subscription is automatically be purged from Microsoft Graph. This means if your application does nothing after creating the subscription, it will only receive notifications up to the expiration time specified when the subscription is created.
+Change notification subscriptions will be good for a specified amount of time. For most resources, the maximum subscription length is three days, but you should check with each resource for the supported subscription maximum length. After that time, the subscription is automatically purged from Microsoft Graph. This means if your application does nothing after creating the subscription, it will only receive notifications up to the expiration time specified when the subscription is created.
 
 You should have a process that is going to monitor the subscriptions to ensure that it isn't expired or isn't going to expire in a certain amount of time.
 

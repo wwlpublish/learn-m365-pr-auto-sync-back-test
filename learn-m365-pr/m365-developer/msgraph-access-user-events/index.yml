@@ -28,6 +28,10 @@ roles:
 products:
   - m365
   - ms-graph
+subjects:
+- process-workflow
+- data-management
+- development-tools
 units:
   - learn-m365.msgraph-access-user-events.1-introduction
   - learn-m365.msgraph-access-user-events.2-exercise-configure-app

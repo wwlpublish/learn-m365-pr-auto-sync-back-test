@@ -31,6 +31,9 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
+- collaboration
 units:
 - learn.wwl.collaborate-teams-channels-with-microsoft-teams.introduction
 - learn.wwl.collaborate-teams-channels-with-microsoft-teams.communicate-channels

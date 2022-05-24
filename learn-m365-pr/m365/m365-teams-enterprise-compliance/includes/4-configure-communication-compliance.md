@@ -68,7 +68,7 @@ Once the audit log is enabled, you can start creating policy for communication c
     - Give the policy a **name** and optional description. Policy names can't be changed once the policy is created.
     - Select **users or groups to supervise**, including users or groups you'd like to exclude.
     - Select the **reviewers** for the policy. Reviewers are individuals with a mailbox hosted on Exchange Online.
-    - Select the **communication channels** to scan, including Exchange, Microsoft Teams, Yammer, or Skype for Business. You'll also choose to scan third-party sources if you've configured a connector in Microsoft 365.
+    - Select the **communication channels** to scan, including Exchange, Microsoft Teams, Yammer, or Skype for Business. You'll also choose to scan third-party sources if you've configured a connector in Microsoft Purview.
     - Select the **communication direction**, including inbound, outbound, or internal communications.
     - Define the communication compliance **policy conditions**. You can choose from message address, keyword, file types, and size match conditions.
     - Select whether to include default or custom sensitive information types. Pick from existing custom sensitive information types or use the custom keyword dictionaries.

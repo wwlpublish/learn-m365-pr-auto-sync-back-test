@@ -3,7 +3,7 @@ uid: learn-m365.compmgmt-understand-landscape
 metadata:
   title: Understand today’s compliance landscape
   description: In this module, you will learn why compliance management has become so important and be introduced to Microsoft’s solution for compliance management. 
-  ms.date: 02/11/2022
+  ms.date: 04/29/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -30,6 +30,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- compliance
 units:
 - learn-m365.compmgmt-understand-landscape.introduction
 - learn-m365.compmgmt-understand-landscape.harness-explosion

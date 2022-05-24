@@ -29,6 +29,8 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- device-management
 units:
 - learn.wwl.deploy-use-endpoint-configuration-manager.introduction
 - learn.wwl.deploy-use-endpoint-configuration-manager.explore-client-deployment-using-configuration-manager

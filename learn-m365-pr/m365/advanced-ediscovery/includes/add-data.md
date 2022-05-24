@@ -1,7 +1,7 @@
 This section discusses the *Review*, or Early Case Assessment (ECA), phase of the EDRM model.
 
-> [!div class = "centered"]
-> :::image type="content" source="../media/edrm-model-3.png" alt-text="A diagram showing the fifth phase of the EDRM model – Review." lightbox="../media/edrm-model-3.png":::
+> [!div class="centered"]
+> :::image type="content" source="../media/edrm-model-3.png" alt-text="Diagram showing the fifth phase of the Electronic Discovery Reference Model model: review." border="false":::
 
 After you've collected all data relevant to the case, the next step is process it for further review. In eDiscovery (Premium), the live, in-place data that you identified in the collection phase is copied offline to an Azure Storage location called a review set.
 
@@ -30,7 +30,7 @@ After the review set processing is completed, you can click the Review sets tab 
 
 ## Load non-Microsoft 365 data into a review set
 
-Not all content that you need to analyze in eDiscovery (Premium) is in Microsoft 365. If you want to add data from a source other than Office 365 into your search – including data from an on-premises environment - a process is provided to add that data after you complete your initial search. With the non-Microsoft 365 data import feature in eDiscovery (Premium), you can upload documents that aren't located in Microsoft 365 to a review set. 
+Not all content that you need to analyze in eDiscovery (Premium) is in Microsoft Purview. If you want to add data from a source other than Office 365 into your search – including data from an on-premises environment - a process is provided to add that data after you complete your initial search. With the non-Microsoft 365 data import feature in eDiscovery (Premium), you can upload documents that aren't located in Microsoft 365 to a review set.
 
 > [!NOTE]
 > Non-Microsoft 365 data must be a file type that is supported by eDiscovery (Premium). For more information, see [Supported file types in eDiscovery (Premium)](/microsoft-365/compliance/supported-filetypes-ediscovery20?azure-portal=true).

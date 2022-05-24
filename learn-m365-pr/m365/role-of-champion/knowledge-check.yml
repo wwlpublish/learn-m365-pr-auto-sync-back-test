@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.role-of-champion.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Test your knowledge of how champions can help with a successful OKR rollout
+  ms.date: 05/05/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+###########################################################################
+###
+### General guidance (https://review.docs.microsoft.com/learn-docs/docs/id-guidance-knowledge-check)
+###  - Questions are complete sentences ending with a question mark
+###  - No true/false questions
+###  - 3 answers per question
+###  - All answers about the same length
+###  - Numeric answers listed in sorted order
+###  - No "All of the above" and/or "None of the above" as answer choices
+###  - No "Not" or "Except" in questions
+###  - No second person ("you") in the questions or answers
+###  - Provide a meaningful explanation for both correct and incorrect answers
+###
+###########################################################################
+content: |
+quiz:
+  questions:
+  - content: "What is the definition of an OKR Champion?"
+    choices:
+    - content: "OKR Champions are individuals who are enthusiastic about OKRs and push their teams to be the same."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that OKR Champions have a key leadership role that involves specific responsibilities."
+    - content: "OKR Champions are executives who decide to implement an OKR program, but are not involved in the specific mechanics of the process."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that OKR Champions have a key leadership role that involves specific responsibilities."
+    - content: "OKR Champions are the point of contact and the driving force for the OKR program. They mentor and coach people on the team, ensuring that everyone understands the program and actively participates."
+      isCorrect: true
+      explanation: "That's correct. OKR Champions are the point person for the entire OKR program and help the support the team on its OKR journey."
+  - content: "What are the four key responsibilities of the OKR Champion?"
+    choices:
+    - content: "Communicate, set expectations, train, and celebrate."
+      isCorrect: true
+      explanation: "That's correct. OKR Champions are the communication center for all things OKR related, set expectations for the organization, lead trainings on how to use OKRs, and celebrate OKR wins along the way."
+    - content: "Cascade, create, check-in, close."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that OKR Champions help lead and implement the program, not run it by themselves."
+    - content: "Articulate, Argue, Accelerate, Achieve."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that OKR Champions help lead and implement the program, not run it by themselves."
+  - content: "What are three strategies for effective communication?"
+    choices:
+    - content: "Repetition, redundancy, and refutation"
+      isCorrect: false
+      explanation: "That's incorrect. Try again. Remember that effective communication requires knowing who you are communicating with and varying your approach to their needs."
+    - content: "Being an expert, maintaining one communication style, and holding a hard line on expectations."
+      isCorrect: false
+      explanation: "That's incorrect. Try again. Remember that effective communication requires knowing who you are communicating with and varying your approach to their needs."
+    - content: "Knowing your audience's professional role, learning style, and personality type."
+      isCorrect: true
+      explanation: "That's correct. Effective communication requires knowing your audience so that you can attune the way you communicate to their needs."
+  - content: "What are the three timeframe buckets when OKR Champions should leverage resources for their team?"
+    choices:
+    - content: "Initiation, sign-up, creation."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that the three timeframes encompass the entire OKR cycle introducing OKRs, to understanding their daily rhythms, to improving for the future."
+    - content: "Program kickoff, the OKR cycle, and future state."
+      isCorrect: true
+      explanation: "That's correct. Individuals need communication and instruction at three stages of the OKR cycle that help them through the whole process and keep them growing in maturity."
+    - content: "Program information, roles, and expectations."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that the three timeframes encompass the entire OKR cycle introducing OKRs, to understanding their daily rhythms, to improving for the future."

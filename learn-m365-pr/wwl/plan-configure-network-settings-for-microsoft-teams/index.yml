@@ -29,6 +29,10 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- networking
+- communication
+- collaboration
 units:
 - learn.wwl.plan-configure-network-settings-for-microsoft-teams.introduction
 - learn.wwl.plan-configure-network-settings-for-microsoft-teams.examine-network-requirements

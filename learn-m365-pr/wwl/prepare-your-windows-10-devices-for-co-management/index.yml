@@ -29,6 +29,8 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- device-management
 units:
 - learn.wwl.prepare-your-windows-10-devices-for-co-management.introduction
 - learn.wwl.prepare-your-windows-10-devices-for-co-management.explore-prerequisites-for-using

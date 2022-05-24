@@ -27,6 +27,8 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- security
 modules:
 - learn.wwl.introduction-to-threat-vectors-data-breaches
 - learn.wwl.examine-zero-trust-approach-to-security-microsoft-365

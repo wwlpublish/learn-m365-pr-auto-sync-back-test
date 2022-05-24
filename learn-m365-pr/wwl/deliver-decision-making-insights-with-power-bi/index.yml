@@ -31,6 +31,8 @@ products:
 - office-teams
 - power-bi
 - power-platform
+subjects:
+- data-analytics
 units:
 - learn.wwl.deliver-decision-making-insights-with-power-bi.introduction
 - learn.wwl.deliver-decision-making-insights-with-power-bi.do-more-with-your-data

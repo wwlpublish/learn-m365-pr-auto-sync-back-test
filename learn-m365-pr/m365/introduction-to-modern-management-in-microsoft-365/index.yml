@@ -1,9 +1,9 @@
-﻿### YamlMime:Module
+### YamlMime:Module
 uid: learn-m365-pr.introduction-to-modern-management-in-microsoft-365
 metadata:
   title: Introduction to modern management in Microsoft 365
   description: Throughout this module, you will learn about the key concepts and benefits of modern management with Microsoft 365.  We will explore the four key pillars to modern management, and how they can help your organization manage all their devices in a modern way that is easy to deploy, up-to-date, secure and intelligent.
-  ms.date: 03/02/2022
+  ms.date: 04/28/2022
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
@@ -23,6 +23,9 @@ roles:
 - administrator
 products:
 - m365
+subjects:
+- device-management
+- cloud-computing
 units:
 - learn-m365-pr.introduction-to-modern-management-in-microsoft-365.1-introduction
 - learn-m365-pr.introduction-to-modern-management-in-microsoft-365.2-benefits-modern-management

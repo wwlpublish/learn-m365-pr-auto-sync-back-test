@@ -14,15 +14,11 @@ Some high-privilege permissions in the Microsoft ecosystem can be set to admin-r
 
 Although a consumer user might grant an application access to this kind of data, organizational users are restricted from granting access to the same set of sensitive company data. If your application requests access to one of these permissions from an organizational user, the user receives an error message that says they're not authorized to consent to your app's permissions.
 
-![Screenshot of Azure AD popup consent prompting for admin action](../media/06-admin-consent-required-02.png)
-
 If your app requires access to admin-restricted scopes for organizations, you should request them directly from a company administrator. This can be done using the admin consent endpoint.
 
 When the application is requesting application permissions and an administrator grants these permissions via the admin consent endpoint, this grant isn't done on behalf of any specific user. Instead, the client application is granted permissions directly. These types of permissions are only used by daemon services and other non-interactive applications that run in the background.
 
 When an organization administrator uses your application and is directed to the authorize endpoint, the Microsoft identity platform will detect the user's role and ask them if they would like to consent on behalf of the entire tenant for the permissions you've requested.
-
-![Screenshot of Azure AD popup sign-in experience](../media/03-test-03.png)
 
 ## Admin consent
 
@@ -48,6 +44,4 @@ When you build an application that uses the admin consent endpoint, the app shou
 
 When you sign the user into your app, you can identify the organization to which the admin belongs before asking them to approve the necessary permissions. Although not strictly necessary, it can help you create a more intuitive experience for your organizational users. To sign the user in, follow our Microsoft identity platform protocol tutorials.
 
-## Summary
 
-In this unit, you learned about application permissions, how to define them and how to grant them using a different type of consent flow in your apps.

@@ -1,0 +1,7 @@
+### YamlMime:AchievementDetail
+achievementUid: learn-m365.msgraph-access-user-events.badge
+metadata:
+  title: >-
+    Microsoft Badge: Access a user's calendar events in a JavaScript app with
+    Microsoft Graph was issued by Microsoft
+socialImageUrl: /learn/achievements/graph-calendar-events-social.png

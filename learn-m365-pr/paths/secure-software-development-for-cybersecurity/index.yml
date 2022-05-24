@@ -21,6 +21,8 @@ roles:
 products: 
 - m365
 - azure
+subjects:
+- threat-protection
 modules:
 - learn.azure-well-architected-security
 - learn.get-started-with-devops

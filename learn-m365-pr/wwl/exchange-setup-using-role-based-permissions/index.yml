@@ -27,6 +27,8 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- identity-access
 units:
 - learn.wwl.exchange-setup-using-role-based-permissions.introduction
 - learn.wwl.exchange-setup-using-role-based-permissions.explore-split-permissions

@@ -30,6 +30,10 @@ products:
 - office-exchange-server
 - office-outlook
 - office-exchange-online
+subjects:
+- device-management
+- communication
+- threat-protection
 units:
 - learn.wwl.troubleshoot-message-filter-inboxes-defender-for-office-365.introduction
 - learn.wwl.troubleshoot-message-filter-inboxes-defender-for-office-365.fix-inbox-rules

@@ -22,6 +22,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- development-tools
 modules:
 - learn.wwl.explore-windows-client-file-systems
 - learn.wwl.configure-manage-file-access

@@ -22,6 +22,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- device-management
 modules:
 - learn.wwl.explore-windows-client
 - learn.wwl.examine-windows-client-editions-requirements

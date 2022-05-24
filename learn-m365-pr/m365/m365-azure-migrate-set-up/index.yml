@@ -27,6 +27,10 @@ products:
 - azure
 - azure-virtual-machines
 - azure-migrate
+subjects:
+- process-workflow
+- migration
+- cloud-computing
 units:
 - learn-m365.m365-azure-migrate-set-up.introduction
 - learn-m365.m365-azure-migrate-set-up.set-up-prerequisites

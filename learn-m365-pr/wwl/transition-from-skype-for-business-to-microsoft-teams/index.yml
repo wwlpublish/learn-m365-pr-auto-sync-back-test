@@ -27,6 +27,10 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
+- collaboration
+- cloud-computing
 units:
 - learn.wwl.transition-from-skype-for-business-to-microsoft-teams.introduction
 - learn.wwl.transition-from-skype-for-business-to-microsoft-teams.understand-upgrade-process

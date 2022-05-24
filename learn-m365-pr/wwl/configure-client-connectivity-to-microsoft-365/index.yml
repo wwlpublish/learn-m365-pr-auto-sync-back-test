@@ -28,6 +28,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- communication
+- cloud-computing
 units:
 - learn.wwl.configure-client-aconnectivity-to-microsoft-365.introduction
 - learn.wwl.configure-client-aconnectivity-to-microsoft-365.examine-how-automatic-client-configuration-works

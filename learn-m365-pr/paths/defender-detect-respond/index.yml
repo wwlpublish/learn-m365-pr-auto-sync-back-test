@@ -21,6 +21,10 @@ roles:
 - security-engineer
 products: 
 - m365
+subjects:
+- process-workflow
+- threat-protection
+- cloud-security
 modules:
 - learn-m365-pr.defender-introduction
 - learn-m365-pr.defender-enable

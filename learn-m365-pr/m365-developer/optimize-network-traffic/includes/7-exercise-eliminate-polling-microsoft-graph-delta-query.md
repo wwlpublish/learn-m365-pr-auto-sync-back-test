@@ -1,13 +1,13 @@
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO3E]
 
-In this exercise, you'll use the Azure AD application and .NET console application you previously created and modify them to demonstrate using the delta query feature of Microsoft Graph. An application can leverage the delta query feature to avoid costly requests to poll for changes in Microsoft Graph that can trigger requests to be throttled.
+In this exercise, you'll use the Azure AD application and .NET console application you previously created and modify them to demonstrate using the delta query feature of Microsoft Graph. An application can use the delta query feature to avoid costly requests to poll for changes in Microsoft Graph that can trigger requests to be throttled.
 
 > [!IMPORTANT]
 > This exercise assumes you have created the Azure AD application and .NET console application from the previous unit in this module. You'll edit the existing Azure AD application and .NET console application created in that exercise in this exercise.
 
-## Add an additional permission the Azure AD application
+## Add more permissions the Azure AD application
 
-In this exercise, you'll update the application to get a list of all the users in the tenant. To do this task, the Azure AD application needs additional permissions.
+In this exercise, you'll update the application to get a list of all the users in the tenant. To do this task, the Azure AD application needs more permissions.
 
 Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in using a **Work or School Account**.
 
@@ -104,9 +104,9 @@ The next method will be used to check for new and changed users. The first time 
 Add the following method to the `Program` class:
 
 ```csharp
-private static void CheckForUpdates(IConfigurationRoot config, string userName, SecureString userPassword)
+private static void CheckForUpdates(IConfigurationRoot config)
 {
-  var graphClient = GetAuthenticatedGraphClient(config, userName, userPassword);
+  var graphClient = GetAuthenticatedGraphClient(config);
 
   // get a page of users
   var users = GetUsers(graphClient, _deltaLink);
@@ -140,24 +140,28 @@ if (users.AdditionalData.TryGetValue("@odata.deltaLink", out deltaLink))
 Locate the following code in the `Main` method:
 
 ```csharp
-var userName = ReadUsername();
-var userPassword = ReadPassword();
+var config = LoadAppSettings();
+if (config == null)
+{
+  Console.WriteLine("Invalid appsettings.json file.");
+  return;
+}
 ```
 
-Remove all the existing code in this method after these two lines.
+Remove all the existing code in this method after these lines.
 
 Next, add the following code to after the previous two lines above. This will use the `CheckForUpdates` method to get a list of all users. It will then go into an infinite loop, sleeping for 10 seconds, and issue the same request again:
 
 ```csharp
 Console.WriteLine("All users in tenant:");
-CheckForUpdates(config, userName, userPassword);
+CheckForUpdates(config);
 Console.WriteLine();
 while (true)
 {
   Console.WriteLine("... sleeping for 10s - press CTRL+C to terminate");
   System.Threading.Thread.Sleep(10 * 1000);
   Console.WriteLine("> Checking for new/updated users since last query...");
-  CheckForUpdates(config, userName, userPassword);
+  CheckForUpdates(config);
 }
 ```
 
@@ -177,7 +181,9 @@ Run the following command to run the console application:
 dotnet run
 ```
 
-After entering the username and password for the current user, the application will write all the users in the tenant to the console:
+You now need to authenticate with Azure Active Directory. A new tab in your default browser should open to a page asking you to sign-in. After you've logged in successfully, you'll be redirected to a page displaying the message, **"Authentication complete. You can return to the application. Feel free to close this browser tab"**. You may now close the browser tab and switch back to the console application.
+
+The application will write all the users in the tenant to the console:
 
 ![Screenshot of the console displaying all users](../media/07-app-run-01.png)
 
@@ -207,4 +213,4 @@ Press <kbd>CTRL</kbd>+<kbd>C</kbd> to stop the application.
 
 ## Summary
 
-In this exercise, you used the Azure AD application and .NET console application you previously created and modified them to demonstrate using the delta query feature of Microsoft Graph. An application can leverage the delta query feature to avoid costly requests to poll for changes in Microsoft Graph that can trigger requests to be throttled.
+In this exercise, you used the Azure AD application and .NET console application you previously created and modified them to demonstrate using the delta query feature of Microsoft Graph. An application can use the delta query feature to avoid costly requests to poll for changes in Microsoft Graph that can trigger requests to be throttled.

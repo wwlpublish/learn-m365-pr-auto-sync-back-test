@@ -28,6 +28,9 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- it-management-monitoring
+- device-management
 units:
 - learn.wwl.update-windows-clients.introduction
 - learn.wwl.update-windows-clients.examine-windows-update-settings-windows-clients

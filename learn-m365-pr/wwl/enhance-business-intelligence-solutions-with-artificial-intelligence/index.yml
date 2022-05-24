@@ -27,6 +27,9 @@ roles:
 - data-analyst
 products:
 - power-bi
+subjects:
+- artificial-intelligence
+- data-analytics
 units:
 - learn.wwl.enhance-your-business-intelligence-solutions-with-artificial-intelligence.introduction
 - learn.wwl.enhance-your-business-intelligence-solutions-with-artificial-intelligence.extend-integrate-ai-with-power-bi

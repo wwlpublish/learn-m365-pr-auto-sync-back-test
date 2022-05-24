@@ -1,17 +1,17 @@
 This section describes how eDiscovery (Premium) supports the first two phases of the EDRM model – Identification and Preservation.
 
 > [!div class="centered"]
-> :::image type="content" source="../media/edrm-model.png" alt-text="Diagram showing the first two phases of the EDRM model – Identification and Preservation." border="false":::
+> :::image type="content" source="../media/edrm-model.png" alt-text="Diagram showing the first two phases of the Electronic Discovery Reference Model model: identification and preservation." border="false":::
 
 The first phase in the EDRM model is *Identification*. This phase involves identifying the people in the organization who are in possession of documents and communications relevant to the investigation. These individuals are the custodians of data, or just custodians, and are defined as "persons having control of a document or electronic file". For example, the custodian of an email message could be the owner of the mailbox that contains the relevant message.
 
 Once the custodians have been identified, they are added to an eDiscovery (Premium) case. Creating a case is accomplished by navigating to the **eDiscovery (Premium)** home page in the Microsoft Purview compliance portal, navigating to the **Cases** tab, then clicking **Create a case**.
 
-:::image type="content" source="../media/advanced-ediscovery.png" alt-text="Screenshot of the eDiscovery (Premium) home page in the Microsoft Purview compliance portal." lightbox="../media/advanced-ediscovery.png":::
+:::image type="content" source="../media/advanced-ediscovery.png" alt-text="Screenshot of the e Discovery (Premium) home page in the Microsoft Purview compliance portal." lightbox="../media/advanced-ediscovery.png" border="false":::
 
 Once the case has been created, you can begin adding the persons of interest by navigating to the **Data sources** tab, select **Add data source**, and then and select **Add new custodians**.
 
-:::image type="content" source="../media/add-custodians.png" alt-text="Screenshot of the Data sources tab in eDiscovery (Premium) home page in the Microsoft Purview compliance portal. Showing the Add new custodians menu selected." lightbox="../media/add-custodians.png":::
+:::image type="content" source="../media/add-custodians.png" alt-text="Screenshot of the Data sources tab in e Discovery (Premium) home page in the Purview compliance portal with the Add new custodians menu selected." lightbox="../media/add-custodians.png" border="false":::
 
 > [!TIP]
 > You need to be a member of the **eDiscovery Manager** group to add custodians and see these options.
@@ -21,7 +21,7 @@ When you add a custodian, the system automatically identifies and places a hold 
 > [!NOTE]
 > All Yammer networks are required to be in [Native Mode](/yammer/configure-your-yammer-network/overview-native-mode?azure-portal=true) for Yammer content to be discovered in eDiscovery.
 
-:::image type="content" source="../media/select-additional-locations.png" alt-text="Screenshot of the New custodian dialog, allowing you to select additional locations for a custodian." lightbox="../media/select-additional-locations.png":::
+:::image type="content" source="../media/select-additional-locations.png" alt-text="Screenshot of the New custodian dialog, allowing you to select additional locations for a custodian." lightbox="../media/select-additional-locations.png" border="false":::
 
 The final step when adding a custodian to a case is to place the custodian on hold. When you place a custodian on hold, all the content from the locations you've selected that are associated with the custodian is preserved until you remove the hold or release the custodian from the case.
 
@@ -29,7 +29,7 @@ The final step when adding a custodian to a case is to place the custodian on ho
 
 When custodians are placed on hold, the users and their selected data sources are automatically added to a custodian hold policy. Hold policies can be viewed and modified by navigating to the **Holds** tab in the case.
 
-:::image type="content" source="../media/create-holds.png" alt-text="Screenshot of the Holds tab in the case, where you can view and edit holds." lightbox="../media/create-holds.png":::
+:::image type="content" source="../media/create-holds.png" alt-text="Screenshot of the Holds tab in the case, where you can view and edit holds." lightbox="../media/create-holds.png" border="false":::
 
 Holds enable organizations to immutably preserve mailbox items and documents for discovery and other compliance needs by keeping those items within the infrastructures of Exchange and SharePoint. Data is preserved in a way that is tamper-proof and discoverable.
 
@@ -50,7 +50,7 @@ When you place a SharePoint Online site on hold, the content in that site remain
 Holds are applied at the site level. When you place a site on hold, a Preservation Hold library is created, if one does not already exist. Most users cannot view the Preservation Hold library because it is only visible to site collection owners. If a person attempts to change or delete content in a site that is on hold, the hold policy first checks whether the content has been changed since the hold was applied. If this is the first change since the hold was applied, the hold policy copies the content to the Preservation Hold library and then allows the person to change or delete the original content.
 
 > [!div class="centered"]
-> :::image type="content" source="../media/sharepoint-holds-1.png" alt-text="A flow diagram showing the process for placing SharePoint Online sites on hold." lightbox="../media/sharepoint-holds-1.png" border="false":::
+> :::image type="content" source="../media/sharepoint-holds-1.png" alt-text="Diagram showing the process for placing SharePoint Online sites on hold." border="false":::
   
 ### Place a hold on Microsoft Teams
 
@@ -60,7 +60,7 @@ Channel conversations that are part of a Microsoft Teams channel are stored in t
 
 When you click **Choose teams** (then click **Choose teams** again on the flyout page) a list of Microsoft Teams that the custodian is currently a member of will be displayed.
 
-:::image type="content" source="../media/flyout-page.png" alt-text="Screenshot of the Choose teams flyout page." lightbox="../media/flyout-page.png":::
+:::image type="content" source="../media/flyout-page.png" alt-text="Screenshot of the Choose teams flyout page where you can either search for teams by name or browse through a list of available teams by name, e mail, or site." lightbox="../media/flyout-page.png" border="false":::
 
 When you select the Team (or Teams) associated with the custodian, the system will automatically identify and select
 the associated SharePoint site and mailbox associated with that Microsoft Team.
@@ -134,7 +134,7 @@ The **Custodian activities** page is displayed when you click **View activity**.
 
 After a custodian is selected you can click the **Activities** drop-down list to display the activities that you can search for. After you run the search, only the audit records for the selected activities are displayed.
 
-:::image type="content" source="../media/activities.png" alt-text="Screenshot of the Activities drop down list." lightbox="../media/activities.png":::
+:::image type="content" source="../media/activities.png" alt-text="Screenshot of the Activities drop down list where activities are categorized by type: file and page activities or folder activities. Activities can also be searched." lightbox="../media/activities.png" border="false":::
 
 The last step is to select a date and time range to display the events that occurred within that period. Note, the last seven days are selected by default and the maximum date range that you can specify is one year.
 

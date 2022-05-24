@@ -19,6 +19,9 @@ roles:
 - administrator
 products: 
 - m365
+subjects:
+- business-applications
+- cloud-computing
 modules:
 - learn-m365.m365-onedrive-collaboration-use-onedrive
 - learn-m365.m365-onedrive-collaboration-manage-migrations-deployment

@@ -31,6 +31,9 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- device-management
+- storage
 units:
 - learn.wwl.manage-storage-windows-clients.introduction
 - learn.wwl.manage-storage-windows-clients.understand-storage-options

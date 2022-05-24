@@ -4,7 +4,7 @@ If you're working with content that conflicts with a DLP policy, a policy tip ca
 
 To perform this task, you must be assigned a role that has permissions to edit DLP policies. Members of your compliance team who will create DLP policies need permissions to the Microsoft 365 Defender portal. By default, your tenant admin will have access to this location and can give compliance officers and other people access to the Microsoft 365 Defender portal, without giving them all of the permissions of a tenant admin. To do this, we recommend:
 
-1. Create a group in Microsoft 365 and add compliance officers to it.
+1. Create a group and add compliance officers to it.
 1. Create a role group on the Permissions page of the Microsoft 365 Defender portal.
 1. While creating the role group, use the Choose Roles section to add the following role to the Role Group: DLP Compliance Management.
 1. Use the Choose Members section to add the Microsoft 365 group you created before to the role group.

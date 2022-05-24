@@ -1,4 +1,4 @@
-In this exercise you'll work with an ASP.NET Core application and connect it to Microsoft 365. You'll use a .NET Core assembly named `Microsoft.Identity.Web` to allow users to sign in to your app with their Microsoft 365 account. Their name and profile picture will then be shown using the Microsoft Graph .NET Core SDK.
+In this exercise, you'll work with an ASP.NET Core application and connect it to Microsoft 365. You'll use a .NET Core assembly named `Microsoft.Identity.Web` to allow users to sign in to your app with their Microsoft 365 account. Their name and profile picture will then be shown using the Microsoft Graph .NET Core SDK.
 
 ## Configure and run the sample app
 

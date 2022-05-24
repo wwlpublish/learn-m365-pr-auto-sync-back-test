@@ -28,6 +28,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- migration
+- cloud-computing
 units:
 - learn.wwl.plan-your-migration-to-microsoft-365.introduction
 - learn.wwl.plan-your-migration-to-microsoft-365.create-deployment-planning-checklist-for-migrating

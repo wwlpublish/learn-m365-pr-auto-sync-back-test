@@ -30,6 +30,10 @@ products:
 - m365-security-score
 - m365-threat-protection
 - m365-admin-center
+subjects:
+- threat-protection
+- cloud-security
+- communication
 units:
 - learn-m365.m365-security-management-secure-score.introduction
 - learn-m365.m365-security-management-secure-score.how-secure-score-works
