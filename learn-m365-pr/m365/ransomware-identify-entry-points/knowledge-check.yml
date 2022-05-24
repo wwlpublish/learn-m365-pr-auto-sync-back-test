@@ -40,7 +40,7 @@ quiz:
     choices:
     - content: "To purchase the right ransomware for the target system."
       isCorrect: false
-      explanation: "That's incorrect. Ransomware-as-a-service has made it lucrative for hackers to sell information to cybercriminals on how to access the target system."
+      explanation: "That's incorrect. This describes ransomware-as-a-service, which has made it lucrative for hackers to sell information to cybercriminals on how to access the target system."
     - content: "To purchase access credentials for the target system."
       isCorrect: true
       explanation: "That's correct. Initial Access Brokers look for ways into your systems, and then sell them to the highest bidder."
