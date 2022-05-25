@@ -20,6 +20,6 @@ In this module, you'll learn how to create engaging messages with Adaptive Cards
 
 ## Additional resources
 
-Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Create engaging messages with Adaptive Cards](https://github.com/OfficeDev/TrainingContent/tree/master/ConnectorActionableMsgs/Engaging%20messages%20for%20Outlook%20and%20Teams).
+Refer to the following repository for more resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Create engaging messages with Adaptive Cards](https://github.com/OfficeDev/TrainingContent/tree/master/ConnectorActionableMsgs/Engaging%20messages%20for%20Outlook%20and%20Teams).
 
 This module is also available as the screencast [Create engaging messages with Adaptive Cards](https://youtu.be/cl9c1AXdtS8).
