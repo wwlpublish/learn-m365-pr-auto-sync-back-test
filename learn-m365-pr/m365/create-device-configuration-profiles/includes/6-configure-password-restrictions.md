@@ -34,7 +34,7 @@ Use the following steps to create a new iOS/iPadOS device configuration profile 
 2. Select **Yes** next to **Require password**.
 3. Select **Yes** next to **Block simple passwords**.
 
-    :::image type="content" source="../media/create-device-configuration-profiles-01.png" alt-text="Device configuration profile password settings":::
+    :::image type="content" source="../media/create-device-configuration-profiles-01.png" alt-text="Screenshot of device configuration profile password settings":::
 
 4. Click **Next**.
 

@@ -33,7 +33,7 @@ Use the following steps to create a new Windows 11 email configuration profile.
 3. For **Email address attribute from AAD**, select **Primary SMTP address**. <br>
    Intune gets the email address attribute from Azure Active Directory. Uses the primary SMTP address to sign in to Exchange, such as `user1@contoso.com`. Make sure your users have email addresses that match the attribute you select. Your options:
 
-    :::image type="content" source="../media/create-device-configuration-profiles-02.png" alt-text="Device configuration profile email settings":::
+    :::image type="content" source="../media/create-device-configuration-profiles-02.png" alt-text="Screenshot of device configuration profile email settings":::
 
 4. Select **Enable** next to **SSL** to use Secure Sockets Layer (SSL) communication to securely send emails, receive emails, and communicate with the Exchange server.
 5. In the synchronization section, select **One Week** next to **Amount of email to synchronize**.<br> 

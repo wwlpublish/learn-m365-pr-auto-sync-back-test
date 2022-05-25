@@ -31,7 +31,7 @@ In an environment where smart cards are required for authentication or encryptio
 
 ## Device restrictions
 
-Device restrictions controls security, hardware, data sharing, and related settings on the devices. There are many device restriction settings that you can enable. For example, you could create a device restriction profile that manages access to the App store or restricts certain apps from being installed on the device. Other examples include restricting device users from viewing corporate documents in unmanged apps, requiring a password to access the device, or requiring devices to use only Wi-Fi networks set up via configuration profiles.
+Device restrictions controls security, hardware, data sharing, and related settings on the devices. There are many device restriction settings that you can enable. For example, you could create a device restriction profile that manages access to the App store or restricts certain apps from being installed on the device. Other examples include restricting device users from viewing corporate documents in unmanaged apps, requiring a password to access the device, or requiring devices to use only Wi-Fi networks set up via configuration profiles.
 
 ### Security baselines
 
@@ -71,7 +71,7 @@ Microsoft Intune includes many built-in settings to control different features o
 
 ### Prepare Intune for co-management
 
-As mention above, if you currently use Configuration Manager to manage on-premises devices, consider implementing co-management. You can create the profiles and policies you need in Intune based on the compliance settings you have in Configuration Manager. This will ensure your devices continue to be protected. For related information, see [Prepare Intune for co-management](/mem/configmgr/core/get-started/capabilities-in-technical-preview-1709#prepare-intune-for-co-management). For more information about co-management, see [Understand co-management using Microsoft Endpoint Configuration Manager](/learn/modules/understand-co-management/).
+As mentioned above, if you currently use Configuration Manager to manage on-premises devices, consider implementing co-management. You can create the profiles and policies you need in Intune based on the compliance settings you have in Configuration Manager. This will ensure your devices continue to be protected. For related information, see [Prepare Intune for co-management](/mem/configmgr/core/get-started/capabilities-in-technical-preview-1709#prepare-intune-for-co-management). For more information about co-management, see [Understand co-management using Microsoft Endpoint Configuration Manager](/learn/modules/understand-co-management/).
 
 ### Refresh cycle times
 
