@@ -4,8 +4,8 @@ metadata:
   title: Detect threats and protect information in cloud apps using Microsoft Defender for Cloud Apps
   description: This learning path investigates Microsoft Defender for Cloud Apps, discovery, information protection and threat detection at an intermediate level.  
   ms.date: 05/12/2021
-  author: beccarobins
-  ms.author: beccarobins
+  author: dcurwin
+  ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Detect threats and protect information in cloud apps using Microsoft Defender for Cloud Apps
@@ -22,6 +22,9 @@ roles:
 products: 
 - m365
 - m365-ems-cloud-app-security
+subjects:
+- cloud-security
+- threat-protection
 modules:
   - learn-m365.implement-mcas-cloud-discovery
   - learn-m365.information-protection-real-time-controls

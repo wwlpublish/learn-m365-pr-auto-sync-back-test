@@ -28,6 +28,9 @@ products:
   - m365-ems-cloud-app-security
   - m365-threat-protection
   - mdatp
+subjects:
+- security
+- threat-protection
 units:
 - learn-m365-pr.automated-investigation-remediation-microsoft-defender-endpoint.introduction
 - learn-m365-pr.automated-investigation-remediation-microsoft-defender-endpoint.get-overview-automated-investigation-remediation

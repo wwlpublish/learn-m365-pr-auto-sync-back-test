@@ -26,6 +26,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- identity-access
 units:
 - learn.wwl.configure-user-account-control.introduction
 - learn.wwl.configure-user-account-control.explore-user-account-control

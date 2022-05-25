@@ -13,7 +13,7 @@ You'll use the .NET SDK to create custom Microsoft Graph app in this module. The
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [.NET SDK](https://dotnet.microsoft.com/) - v5.\* (or higher)
+- [.NET SDK](https://dotnet.microsoft.com/) - v5.\*
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -51,15 +51,9 @@ In the **Platform configurations** section, select the **Add a platform** button
 
 ![Screenshot of the Platform configurations section](../media/azure-ad-portal-new-app-02.png)
 
-In the **Redirect URIs** section of the **Configure Desktop + devices** panel, select the entry that ends with **nativeclient**, and then select the **Configure** button:
+In the **Redirect URIs** section of the **Configure Desktop + devices** panel, select the checkbox that ends with **nativeclient**, set **Custom redirect URIs** to **http://localhost**, and then select the **Configure** button:
 
 ![Screenshot of the Configure Desktop + devices panel](../media/azure-ad-portal-new-app-03.png)
-
-In the **Authentication** page, scroll down to the **Allow public client flows** section and set the toggle to **Yes**.
-
-![Screenshot of the Default client type section](../media/azure-ad-portal-new-app-04.png)
-
-Select **Save** in the top menu to save your changes.
 
 ### Grant Azure AD application permissions to Microsoft Graph
 
@@ -86,7 +80,7 @@ In the **Configured Permissions** panel, select the button **Grant admin consent
 ![Screenshot of the Configured permissions panel](../media/azure-ad-portal-new-app-permissions-04.png)
 
 > [!NOTE]
-> The option to **Grant admin consent** here in the Azure AD admin center is pre-consenting the permissions to the users in the tenant to simplify the exercise. This approach allows the console application to use the [resource owner password credential grant](/azure/active-directory/develop/v2-oauth-ropc), so the user isn't prompted to grant consent to the application that simplifies the process of obtaining an OAuth access token. You could elect to implement alternative options such as the [device code flow](/azure/active-directory/develop/v2-oauth2-device-code) to utilize dynamic consent as another option.
+> The option to **Grant admin consent** in the Azure AD admin center simplifies the exercise by pre-consenting the permissions to the users in the tenant.
 
 ## Create .NET Core console application
 
@@ -119,11 +113,11 @@ If Visual Studio code displays a dialog box asking if you want to add required a
 
 ### Update the console app to enable nullable reference types
 
-Nullable reference types refers to a group of features introduced in C# 8.0 that you can use to minimize the likelihood that your code causes the runtime to throw System.NullReferenceException.
+Nullable reference types refer to a group of features introduced in C# 8.0 that you can use to minimize the likelihood that your code causes the runtime to throw System.NullReferenceException.
 
-Nullable reference types are enabled by default in .NET 6 projects, they are disabled by default in .NET 5 projects.
+Nullable reference types are enabled by default in .NET 6 projects, they're disabled by default in .NET 5 projects.
 
-Ensuring that nullable reference types are enabled is not related to the use of Microsoft Graph, it just ensures the exercises in this module can contain a single set of code that will compile without warnings when using either .NET 5 or .NET 6.
+Ensuring that nullable reference types are enabled isn't related to the use of Microsoft Graph, it just ensures the exercises in this module can contain a single set of code that will compile without warnings when using either .NET 5 or .NET 6.
 
 Open the **graphconsoleapp.csproj** file and ensure the `<PropertyGroup>` element contains the following child element:
 
@@ -154,9 +148,6 @@ Create a new folder **Helpers** in the project.
 Create a new file **AuthHandler.cs** in the **Helpers** folder and add the following code:
 
 ```csharp
-using System.Net.Http;
-using System.Threading;
-using System.Threading.Tasks;
 using Microsoft.Graph;
 
 namespace Helpers
@@ -183,10 +174,7 @@ namespace Helpers
 Create a new file **MsalAuthenticationProvider.cs** in the **Helpers** folder and add the following code:
 
 ```csharp
-using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Security;
-using System.Threading.Tasks;
 using Microsoft.Identity.Client;
 using Microsoft.Graph;
 
@@ -197,24 +185,20 @@ namespace Helpers
     private static MsalAuthenticationProvider? _singleton;
     private IPublicClientApplication _clientApplication;
     private string[] _scopes;
-    private string _username;
-    private SecureString _password;
     private string? _userId;
 
-    private MsalAuthenticationProvider(IPublicClientApplication clientApplication, string[] scopes, string username, SecureString password)
+    private MsalAuthenticationProvider(IPublicClientApplication clientApplication, string[] scopes)
     {
       _clientApplication = clientApplication;
       _scopes = scopes;
-      _username = username;
-      _password = password;
       _userId = null;
     }
 
-    public static MsalAuthenticationProvider GetInstance(IPublicClientApplication clientApplication, string[] scopes, string username, SecureString password)
+    public static MsalAuthenticationProvider GetInstance(IPublicClientApplication clientApplication, string[] scopes)
     {
       if (_singleton == null)
       {
-        _singleton = new MsalAuthenticationProvider(clientApplication, scopes, username, password);
+        _singleton = new MsalAuthenticationProvider(clientApplication, scopes);
       }
 
       return _singleton;
@@ -244,7 +228,7 @@ namespace Helpers
         catch (MsalUiRequiredException) { }
       }
 
-      var result = await _clientApplication.AcquireTokenByUsernamePassword(_scopes, _username, _password).ExecuteAsync();
+      var result = await _clientApplication.AcquireTokenInteractive(_scopes).ExecuteAsync();
       _userId = result.Account.HomeAccountId.Identifier;
       return result.AccessToken;
     }
@@ -267,6 +251,7 @@ using System.Threading.Tasks;
 using Microsoft.Identity.Client;
 using Microsoft.Graph;
 using Microsoft.Extensions.Configuration;
+using System.Text.Json;
 using Helpers;
 
 namespace graphconsoleapp
@@ -311,68 +296,34 @@ private static IConfigurationRoot? LoadAppSettings()
 Add the following method `CreateAuthorizationProvider` to the `Program` class. The method will create an instance of the clients used to call Microsoft Graph.
 
 ```csharp
-private static IAuthenticationProvider CreateAuthorizationProvider(IConfigurationRoot config, string userName, SecureString userPassword)
+private static IAuthenticationProvider CreateAuthorizationProvider(IConfigurationRoot config)
 {
   var clientId = config["applicationId"];
   var authority = $"https://login.microsoftonline.com/{config["tenantId"]}/v2.0";
 
   List<string> scopes = new List<string>();
-  scopes.Add("User.Read");
-  scopes.Add("Mail.Read");
+  scopes.Add("https://graph.microsoft.com/.default");
 
   var cca = PublicClientApplicationBuilder.Create(clientId)
                                           .WithAuthority(authority)
+                                          .WithDefaultRedirectUri()
                                           .Build();
-  return MsalAuthenticationProvider.GetInstance(cca, scopes.ToArray(), userName, userPassword);
+  return MsalAuthenticationProvider.GetInstance(cca, scopes.ToArray());
 }
 ```
 
 Add the following method `GetAuthenticatedHTTPClient` to the `Program` class. The method creates an instance of the `HttpClient` object.
 
 ```csharp
-private static HttpClient GetAuthenticatedHTTPClient(IConfigurationRoot config, string userName, SecureString userPassword)
+private static HttpClient GetAuthenticatedHTTPClient(IConfigurationRoot config)
 {
-  var authenticationProvider = CreateAuthorizationProvider(config, userName, userPassword);
+  var authenticationProvider = CreateAuthorizationProvider(config);
   var httpClient = new HttpClient(new AuthHandler(authenticationProvider, new HttpClientHandler()));
   return httpClient;
 }
 ```
 
-Add the following method `ReadPassword` to the `Program` class. The method prompts the user for their password:
-
-```csharp
-private static SecureString ReadPassword()
-{
-  Console.WriteLine("Enter your password");
-  SecureString password = new SecureString();
-  while (true)
-  {
-    ConsoleKeyInfo c = Console.ReadKey(true);
-    if (c.Key == ConsoleKey.Enter)
-    {
-      break;
-    }
-    password.AppendChar(c.KeyChar);
-    Console.Write("*");
-  }
-  Console.WriteLine();
-  return password;
-}
-```
-
-Add the following method `ReadUsername` to the `Program` class. The method prompts the user for their username:
-
-```csharp
-private static string ReadUsername()
-{
-  string? username;
-  Console.WriteLine("Enter your username");
-  username = Console.ReadLine();
-  return username ?? "";
-}
-```
-
-Locate the `Main` method in the `Program` class. Add the following code to the end of the `Main` method to load the configuration settings from the **appsettings.json** file:
+Locate the `Main` method in the `Program` class. Replace the contents of the `Main` method with the following code that loads the configuration settings from the **appsettings.json** file:
 
 ```csharp
 var config = LoadAppSettings();
@@ -383,13 +334,20 @@ if (config == null)
 }
 ```
 
-Add the following code to the end of the `Main` method, just after the code added in the last step. This code will obtain an authenticated instance of the `HttpClient` and submit a request for the current user's email:
+Add the following code to the end of the `Main` method, just after the code added in the last step. This code will obtain an authenticated instance of the `HttpClient`:
 
 ```csharp
-var userName = ReadUsername();
-var userPassword = ReadPassword();
+var client = GetAuthenticatedHTTPClient(config);
+```
 
-var client = GetAuthenticatedHTTPClient(config, userName, userPassword);
+Add the following code to the end of the `Main` method, just after the code added in the last step. This code will submit a request for the current user's profile so it can display a welcome message to the user:
+
+```csharp
+var profileResponse = client.GetAsync("https://graph.microsoft.com/v1.0/me").Result;
+var profileJson = profileResponse.Content.ReadAsStringAsync().Result;
+var profileObject = JsonDocument.Parse(profileJson);
+var displayName = profileObject.RootElement.GetProperty("displayName").GetString();
+Console.WriteLine("Hello " + displayName);
 ```
 
 Add the following code to issue many requests to Microsoft Graph. This code will create a collection of tasks to request a specific Microsoft Graph endpoint. When a task succeeds, it will write a dot to the console while failed request will write an `X` to the console. The most recent failed request's status code and headers are saved.
@@ -457,14 +415,13 @@ Run the following command to run the console application:
 dotnet run
 ```
 
-> [!TIP]
-> The console app may take a one or two minutes to complete the process of authenticating and obtaining an access token from Azure AD and issuing the requests to Microsoft Graph.
+You now need to authenticate with Azure Active Directory. A new tab in your default browser should open to a page asking you to sign-in. After you've logged in successfully, you'll be redirected to a page displaying the message, **"Authentication complete. You can return to the application. Feel free to close this browser tab"**. You may now close the browser tab and switch back to the console application.
 
-After entering the username and password of a user, you'll see the results written to the console:
+The console app may take a one or two minutes to complete the process issuing the requests to Microsoft Graph. When this process is complete, you'll see the results written to the console:
 
 ![Screenshot of the console application with no query parameters](../media/03-app-run-01.png)
 
-There's a mix of success and failure indicators in the console. The summary states only 39% of the requests were successful.
+There's a mix of success and failure indicators in the console. The summary indicates the number of requests that were successful.
 
 After the results, the console has two lines that begin with **Failed response**. Notice the code states **TooManyRequests** that is the representation of the HTTP status code 429. This status code is the indication that your requests are being throttled.
 

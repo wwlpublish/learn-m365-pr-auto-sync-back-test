@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-microsoft-defender-for-cloud-apps.deploy-microsoft-defender-cloud-apps
+title: Deploy Microsoft Defender for Cloud Apps
+metadata:
+  title: Deploy Microsoft Defender for Cloud Apps
+  description: "Deploy Microsoft Defender for Cloud Apps"
+  ms.date: 05/24/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/3-deploy-microsoft-defender-cloud-apps.md)]

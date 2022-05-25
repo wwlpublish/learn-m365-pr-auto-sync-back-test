@@ -31,6 +31,8 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- device-management
 units:
 - learn.wwl. administer-applications.introduction
 - learn.wwl. administer-applications.manage-apps-intune

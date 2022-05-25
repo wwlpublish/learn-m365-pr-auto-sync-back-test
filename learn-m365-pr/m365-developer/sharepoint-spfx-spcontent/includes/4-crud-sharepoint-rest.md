@@ -4,7 +4,7 @@ In this unit, you'll extend what you learned in a previous unit from just readin
 
 The operations referred to when reading and writing data is simplified to CRUD operations. CRUD stands for **create, read, update, and delete**. A previous unit covered reading data from SharePoint lists. To request data from SharePoint's REST API, you use the `get()` method on the `SPHttpClient` API from the SharePoint Framework API.
 
-When writing data to SharePoint lists and libraries, you most submit HTTP POST requests. This is done using the `post()` method on the `SPHttpClient` API. The `get()` and `post()` methods have the exact same arguments, although each scenario may require additional steps.
+When writing data to SharePoint lists and libraries, you most submit HTTP POST requests. This is done using the `post()` method on the `SPHttpClient` API. The `get()` and `post()` methods have the exact same arguments, although each scenario may require more steps.
 
 For example, when updating or deleting an item in a SharePoint list, you should include the `IF-MATCH` HTTP request header. You should also include the `X-HTTP-METHOD` when updating and deleting SharePoint list items as well. These two request headers are covered in more detail in the sections on updating and deleting items later in this unit.
 
@@ -72,7 +72,7 @@ The challenge with the HTTP MERGE method is that not all networking equipment an
 
 When you update an item, you need to be sure that you're updating same version of the item that is on the server. In other words, you don't want to update an item that has changed since you previously retrieved it, otherwise you would overwrite another user's changes.
 
-To protect against this scenario, use the `IF-MATCH` HTTP request header and set it's value to the **etag** of the current item. The etag is a unique string for the specific version of the item. If the etag matches the etag of the item on the server, the update is applied. If the etags don't match, the SharePoint REST API will return an HTTP error code 419 indicating the expected etag didn't match.
+To protect against this scenario, use the `IF-MATCH` HTTP request header and set its value to the **etag** of the current item. The etag is a unique string for the specific version of the item. If the etag matches the etag of the item on the server, the update is applied. If the etags don't match, the SharePoint REST API will return an HTTP error code 419 indicating the expected etag didn't match.
 
 The following TypeScript method demonstrates how to update an item in a SharePoint list. After first obtaining an item from a list, it then modifies the returned object's `Title` property. Next, the two HTTP request headers `IF-MATCH` and `X-HTTP-METHOD` are added as previously discussed.
 

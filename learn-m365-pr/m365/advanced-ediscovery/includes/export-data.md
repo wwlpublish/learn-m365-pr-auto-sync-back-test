@@ -38,7 +38,9 @@ To export content:
 1. Select the files you want to export from the review set, then click **Export** under the **Action** menu. It may take several minutes or longer before the content is ready. You can check the status on the **Jobs** page.
 1. Select your settings on the **Export options** configuration page, then click **Export**. In this example, the Microsoft-provided storage container is selected.
 
-    :::image type="content" source="../media/export-options.png" alt-text="Screenshot that shows the Export options." lightbox="../media/export-options.png":::
+    :::image type="complex" source="../media/export-options.png" alt-text="Screenshot of the Export options dialog box that has several sections." lightbox="../media/export-options.png" border="false":::
+	Export name is a required field while providing a description is optional. Other sections include export these documents; you can toggle between selected documents only and all documents in the review set. Load file and tags can be added metadata. Native files can be added in the content section with the option of choosing between conversation files or individual chat messages. The options section can add text files and or replace redacted natives with converted PDFs. The last section is export file location and you can choose between Microsoft-provided Azure Blob storage or Azure Blob storage container; the latter requires the container URL and SAS token.
+:::image-end:::
 
     A message appears to inform you that a job has been created and that you can track its status on the **Jobs** tab.
 

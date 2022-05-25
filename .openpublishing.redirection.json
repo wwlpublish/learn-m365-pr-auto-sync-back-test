@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "learn-m365-pr/paths/okr-champions/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/okr-leadership",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "learn-m365-pr/m365/endpoint-manager/setup-tenant-attach-using-configuration-manager/index.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/setup-tenant-attach-using-configuration-manager",
       "redirect_document_id": false
@@ -3143,6 +3148,246 @@
     {
       "source_path": "learn-m365-pr/wwl/exchange-recipients/8-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/exchange-recipients/9-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-exchange-online-protection/2-examine-anti-malware-pipeline-microsoft-365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-exchange-online-protection/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-exchange-online-protection/4-explore-phishing-spoofing-protection-provided-by-eop.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-exchange-online-protection/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-exchange-online-protection/5-explore-spoofing-protection-provided-by-eop.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-exchange-online-protection/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-exchange-online-protection/6-manage-spoof-intelligence-microsoft-365-security-compliance-center.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-exchange-online-protection/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-defender-for-office-365/4-configure-safe-attachment-policy-options.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-defender-for-office-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-defender-for-office-365/2-expand-eop-protections-by-using-safe-attachments-safe-links.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-defender-for-office-365/3-expand-eop-protections-by-using-safe-attachments-safe-links",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-defender-for-office-365/3-protect-users-from-malicious-attachments-by-using-safe-attachments.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-defender-for-office-365/4-protect-users-from-malicious-attachments-by-using-safe-attachments",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-defender-for-office-365/6-configure-safe-links-policy-options.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-defender-for-office-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-defender-for-office-365/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-defender-for-office-365/9-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-defender-for-office-365/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-defender-for-office-365/10-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-password-management-microsoft-365/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-password-management-microsoft-365/2-manage-user-passwords.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-password-management-microsoft-365/3-explore-pass-through-authentication.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-password-management-microsoft-365/4-enable-multi-factor-authentication.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-password-management-microsoft-365/5-explore-self-service.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-password-management-microsoft-365/6-implement-azure-ad-smart-lockout.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-password-management-microsoft-365/7-create-perform-access-review.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-password-management-microsoft-365/8-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-password-management-microsoft-365/9-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-password-management-microsoft-365/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-azure-ad-connect-implementation/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-identity-synchronization-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-azure-ad-connect-implementation/2-plan-directory-synchronization.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-identity-synchronization-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-azure-ad-connect-implementation/3-plan-for-azure-ad-connect.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-identity-synchronization-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-azure-ad-connect-implementation/4-plan-for-multi-forest-scenarios.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-identity-synchronization-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-azure-ad-connect-implementation/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-identity-synchronization-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-azure-ad-connect-implementation/6-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-identity-synchronization-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-azure-ad-connect-implementation/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-identity-synchronization-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-azure-ad-connect/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-directory-synchronization-tools/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-azure-ad-connect/2-configure-prerequisites.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-directory-synchronization-tools/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-azure-ad-connect/3-configure.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-directory-synchronization-tools/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-azure-ad-connect/4-monitor-synchronization-services-using-health.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-directory-synchronization-tools/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-azure-ad-connect/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-directory-synchronization-tools/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-azure-ad-connect/6-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-directory-synchronization-tools/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-azure-ad-connect/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-directory-synchronization-tools/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-mailbox-migrations/5-use-fasttrack-center.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-mailbox-migrations/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-mailbox-migrations/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-mailbox-migrations/5-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-mailbox-migrations/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-mailbox-migrations/6-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-365-threat-intelligence/3-examine-security-dashboard-security-compliance-center.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-365-threat-intelligence/4-investigate-security-attacks-by-using-threat-explorer.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-365-threat-intelligence/5-identify-cybersecurity-issues-by-using-threat-trackers.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-365-threat-intelligence/6-run-realistic-attack-scenarios-by-using-attack-simulator.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-365-threat-intelligence/7-run-automated-investigations-responses.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-365-threat-intelligence/4-run-automated-investigations-responses",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-365-threat-intelligence/8-explore-threat-hunting-with-microsoft-threat-protection.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-365-threat-intelligence/5-explore-threat-hunting-with-microsoft-threat-protection",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-365-threat-intelligence/9-explore-advanced-threat-hunting-defender.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-365-threat-intelligence/6-explore-advanced-threat-hunting-defender",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-365-threat-intelligence/10-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-365-threat-intelligence/8-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-365-threat-intelligence/11-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-microsoft-365-threat-intelligence/9-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-security-solutions-microsoft-365/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-security-solutions-microsoft-365/8-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-security-solutions-microsoft-365/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-security-solutions-microsoft-365/9-summary",
       "redirect_document_id": true
     }
   ]

@@ -30,6 +30,10 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- device-management
+- storage
+- cloud-security
 units:
 - learn.wwl.employ-file-recovery-windows-client.introduction
 - learn.wwl.employ-file-recovery-windows-client.explain-importance-file-recovery

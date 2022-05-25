@@ -28,6 +28,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- development-tools
 units:
 - learn.wwl.add-custom-domain-microsoft-365.introduction
 - learn.wwl.add-custom-domain-microsoft-365.plan-custom-domain-for-your-deployment

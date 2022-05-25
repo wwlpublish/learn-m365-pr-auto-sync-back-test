@@ -28,6 +28,9 @@ roles:
 products:
   - m365
   - office-add-ins
+subjects:
+  - process-workflow
+  - custom-app-development
 units:
   - learn-m365.office-add-ins-word.1-introduction
   - learn-m365.office-add-ins-word.2-text-styles-selections

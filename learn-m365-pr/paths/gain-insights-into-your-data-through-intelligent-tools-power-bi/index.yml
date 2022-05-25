@@ -25,6 +25,10 @@ roles:
 products:
 - power-bi
 - azure-synapse-analytics
+subjects:
+- data-analytics
+- data-visualization
+- cloud-computing
 modules:
 - learn.wwl.deliver-decision-making-insights-with-power-bi
 - learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure

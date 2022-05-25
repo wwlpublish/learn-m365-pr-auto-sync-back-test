@@ -82,12 +82,6 @@ httpResponseTask.Wait();
 
 If there's a successful response, return the deserialized response back to the caller to display the messages.
 
-Add the following lines to the top of the **Program.cs** file to update the `using` statements:
-
-```csharp
-using System.Text.Json;
-```
-
 Add the following code before the `// add code here` comment:
 
 ```csharp
@@ -186,13 +180,13 @@ private static Message? GetMessageDetail(HttpClient client, string messageId, in
 
 The next step is to update the `Main` method to use the new method so the application will use an intelligent throttling strategy.
 
-Locate the following line that obtains an instance of an authenticated **HttpClient** object in the `Main` method. Delete all code in the `Main` method after this line:
+Locate the following line in the `Main` method. Delete all code in the `Main` method after this line:
 
 ```csharp
-var client = GetAuthenticatedHTTPClient(config, userName, userPassword);
+Console.WriteLine("Hello " + userDisplayName);
 ```
 
-Add the following code after obtaining the **HttpClient** object. This code will request the top 100 messages from the current user's mailbox and deserialize the response into a typed object you previously created:
+Add the following code to the end of the `Main` method. This code will request the top 100 messages from the current user's mailbox and deserialize the response into a typed object you previously created:
 
 ```csharp
 var stopwatch = new System.Diagnostics.Stopwatch();
@@ -228,7 +222,7 @@ foreach (var graphMessage in items)
 }
 ```
 
-Next, add the following code to execute all tasks in parallel and wait for them to complete. 
+Next, add the following code to execute all tasks in parallel and wait for them to complete.
 
 ```csharp
 // do all work in parallel & wait for it to complete
@@ -237,7 +231,7 @@ try
 {
   allWork.Wait();
 }
- catch {}
+catch {}
 ```
 
 With all work, complete write the results to the console:
@@ -262,7 +256,9 @@ Run the following command to run the console application:
 dotnet run
 ```
 
-After entering the username and password for the current user, the application will write multiple log entries to the console like the following figure:
+You now need to authenticate with Azure Active Directory. A new tab in your default browser should open to a page asking you to sign-in. After you've logged in successfully, you'll be redirected to a page displaying the message, **"Authentication complete. You can return to the application. Feel free to close this browser tab"**. You may now close the browser tab and switch back to the console application.
+
+The application will write multiple log entries to the console like the following figure:
 
 ![Screenshot of .NET console application logging messages](../media/05-app-run-01.png)
 
@@ -308,16 +304,33 @@ Locate the **Messages.cs** file in the project. Delete this file or comment all 
 Next, within the `Main` method, locate the following line:
 
 ```csharp
-var client = GetAuthenticatedHTTPClient(config, userName, userPassword);
+var client = GetAuthenticatedHTTPClient(config);
 ```
 
 Update the method called in that line to use the method you updated, `GetAuthenticatedGraphClient`:
 
 ```csharp
-var client = GetAuthenticatedGraphClient(config, userName, userPassword);
+var client = GetAuthenticatedGraphClient(config);
 ```
 
-The next few lines used the **HttpClient** to call the Microsoft Graph REST endpoint to get a list of all messages. Find these lines, as shown below, and remove them:
+Locate the lines of code in the `Main` method that show the welcome message to the user:
+
+```csharp
+var profileResponse = client.GetAsync("https://graph.microsoft.com/v1.0/me").Result;
+var profileJson = profileResponse.Content.ReadAsStringAsync().Result;
+var profileObject = JsonDocument.Parse(profileJson);
+var displayName = profileObject.RootElement.GetProperty("displayName").GetString();
+Console.WriteLine("Hello " + displayName);
+```
+
+Replace these lines with the following code:
+
+```csharp
+var profileResponse = client.Me.Request().GetAsync().Result;
+Console.WriteLine("Hello " + profileResponse.DisplayName);
+```
+
+Locate the lines of code in the `Main` method that used the **HttpClient** to call the Microsoft Graph REST endpoint to get a list of all messages:
 
 ```csharp
 var clientResponse = client.GetAsync("https://graph.microsoft.com/v1.0/me/messages?$select=id&$top=100").Result;
@@ -328,7 +341,7 @@ var graphMessages = JsonConvert.DeserializeObject<Messages>(httpResponseTask.Res
 var items = graphMessages == null ? Array.Empty<Message>() : graphMessages.Items;
 ```
 
-Replace those lines with the following code to request the same information using the microsoft Graph SDK:
+Replace these lines with the following code to request the same information using the microsoft Graph SDK:
 
 ```csharp
 var clientResponse = client.Me.Messages
@@ -344,19 +357,14 @@ var items = clientResponse.CurrentPage;
 
 The last step is to modify the `GetMessageDetail` method that retrieved the message details for each message. Recall from previous section in this unit, you had to write the code to detect when requests were throttled. In the case they were throttled, you added code to retry the request after a specified delay. Fortunately, the Microsoft Graph SDK has this logic included in it.
 
-Locate the `GetMessageDetail()` method.
-
-Update the signature of the method so the first parameter expects an instance of the `GraphServiceClient`, not the `HttpClient`, and remove the last parameter of a default delay. The method signature should now look like the following:
+Locate the `GetMessageDetail()` method. Replace it with the following code:
 
 ```csharp
 private static Message GetMessageDetail(GraphServiceClient client, string messageId)
-```
-
-Next, remove all code within this method and replace it with this single line:
-
-```csharp
-// submit request to Microsoft Graph & wait to process response
-return client.Me.Messages[messageId].Request().GetAsync().Result;
+{
+  // submit request to Microsoft Graph & wait to process response
+  return client.Me.Messages[messageId].Request().GetAsync().Result;
+}
 ```
 
 ### Build and test the application
@@ -373,7 +381,7 @@ Run the following command to run the console application:
 dotnet run
 ```
 
-After entering the username and password for the current user, the application will write multiple log entries to the console like the following:
+After you've logged in, the application will write multiple log entries to the console like the following:
 
 ![Screenshot of .NET console application logging email subjects](../media/05-app-run-03.png)
 

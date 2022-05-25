@@ -20,9 +20,9 @@ Audit logging must be turned on for activities to be recorded. Add the Audit sol
 1. Select **Show in navigation**.
 1. Select **Audit** in the left nav, then select **Start recording user and admin activity**.
 
-The image below shows the Audit solution in the Microsoft Purview compliance portal. If you do not see the option to **Start recording user and admin activity** in your tenant, you either do not have the permissions to enable the Audit log or it has already been turned on. Once enabled, it may take a few hours to prepare the audit log before you can access it.
+The image below shows the Audit solution in the Microsoft Purview compliance portal. If you don't see the option to **Start recording user and admin activity** in your tenant, you either do not have the permissions to enable the Audit log or it has already been turned on. Once enabled, it may take a few hours to prepare the audit log before you can access it.
 
-:::image type="content" source="../media/audit.png" alt-text="Screenshot of the Audit solution in the Microsoft Purview compliance portal ." lightbox="../media/audit.png":::
+:::image type="content" source="../media/audit.png" alt-text="Screenshot of the Audit solution in the Microsoft Purview compliance portal." lightbox="../media/audit.png":::
 
 ## Learn more
 

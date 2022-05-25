@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-microsoft-365-threat-intelligence.explore-alert-policies-microsoft-365
+title: Explore alert policies in Microsoft 365
+metadata:
+  title: Explore alert policies in Microsoft 365
+  description: "Explore alert policies in Microsoft 365"
+  ms.date: 05/13/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/3-explore-alert-policies-microsoft-365.md)]

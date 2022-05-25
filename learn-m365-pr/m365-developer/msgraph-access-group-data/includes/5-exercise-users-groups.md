@@ -12,7 +12,7 @@ In a previous exercise, you created a .NET console application that retrieved an
 In the **Program.cs** file, locate the following line in the `Main` method:
 
 ```csharp
-var client = GetAuthenticatedGraphClient(config, userName, userPassword);
+Console.WriteLine("Hello " + profileResponse.DisplayName);
 ```
 
 Delete or comment out all the code in the `Main` method after the above line.
@@ -49,33 +49,11 @@ foreach (var groupDirectoryObject in resultsGroupsMemberOf)
 }
 ```
 
-You may notice this code is checking if the object returned by the query is a `Group` or `DirectoryRole`. The reason for this is that the `MemberOf` collection in the Microsoft Graph .NET SDK, which maps to the `/memberOf` Microsoft Graph API, returns both Office 365 groups as well as security groups.
+You may notice this code is checking if the object returned by the query is a `Group` or `DirectoryRole`. The reason for this is that the `MemberOf` collection in the Microsoft Graph .NET SDK, which maps to the `/memberOf` Microsoft Graph API, returns both Office 365 groups and security groups.
 
 Security groups are represented as objects of type `DirectoryRole`. This code first tries to cast the returned object as both objects and then checks if the objects are null to display the correct one.
 
-### Update permissions requested by the console app
-
-An application must be granted specific permissions to get access to groups in Office 365. The existing console application is missing the necessary permission to do this.
-
-Within the **Program.cs** file, locate the method `CreateAuthorizationProvider()`, and locate the following code:
-
-```csharp
-List<string> scopes = new List<string>();
-scopes.Add("User.Read");
-scopes.Add("Group.Read.All");
-scopes.Add("User.ReadBasic.All");
-```
-
-These permissions need to be updated for the code you added in the last section. Remove the permission **User.ReadBasic.All** and request the permission **Directory.Read.All**. The result should now look like the following code:
-
-```csharp
-List<string> scopes = new List<string>();
-scopes.Add("User.Read");
-scopes.Add("Group.Read.All");
-scopes.Add("Directory.Read.All");
-```
-
-### Grant additional permissions to the Azure AD application
+### Grant extra permissions to the Azure AD application
 
 The next step is to update and grant the new permission **Directory.Read.All** to the Azure AD application.
 
@@ -110,7 +88,9 @@ dotnet build
 dotnet run
 ```
 
-After entering the username and password of a user, you'll see the results of all groups in the organization the current user is a member of:
+You now need to authenticate with Azure Active Directory. A new tab in your default browser should open to a page asking you to sign-in. After you've logged in successfully, you'll be redirected to a page displaying the message, **"Authentication complete. You can return to the application. Feel free to close this browser tab"**. You may now close the browser tab and switch back to the console application.
+
+The application will display the groups in the organization of which the current user is a member:
 
 ![Screenshot of the console application showing all groups the user is a member of](../media/05-app-run-01.png)
 
@@ -120,7 +100,7 @@ In addition to getting a list of all groups a user is a member of, Microsoft Gra
 
 The Microsoft Graph .NET SDK exposes this with the `OwnedObjects` collection on the **User** resource. This collection maps to the `/ownedObjects` Microsoft Graph API endpoint.
 
-Locate the code you added above for `// request 1 - all groups member of` and comment it out so it doesn't continue to execute. 
+Locate the code you added above for `// request 1 - all groups member of` and comment it out so it doesn't continue to execute.
 
 Add the following code to the end of the `Main` method. This code will get a list of all objects owned by the currently signed-in user. Using the same process as above, it will then write the results of the query to the console:
 
@@ -155,7 +135,7 @@ dotnet build
 dotnet run
 ```
 
-After entering the username and password of a user, you'll see the results of all groups in the organization the current user owns:
+After you've logged in, you'll see the results of all groups in the organization the current user owns:
 
 ![Screenshot of the console application showing all groups the user owns](../media/05-app-run-02.png)
 

@@ -3,7 +3,7 @@ uid: learn.wwl.manage-mailbox-migrations
 metadata:
   title: Manage mailbox migrations
   description: Manage mailbox migrations
-  ms.date: 03/09/2022
+  ms.date: 05/11/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -27,6 +27,9 @@ products:
 - office
 - office-365
 - office-exchange-server
+- office-exchange-online
+subjects:
+- migration
 modules:
 - learn.wwl.plan-mailbox-migrations
 - learn.wwl.run-imap-migrations

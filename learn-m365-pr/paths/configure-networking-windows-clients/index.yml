@@ -22,6 +22,9 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- networking
+- cloud-computing
 modules:
 - learn.wwl.configure-ip-network-connectivity
 - learn.wwl.explore-name-resolution

@@ -19,6 +19,9 @@ roles:
 products:
   - m365
   - office-teams
+subjects:
+- custom-app-development
+- communication
 modules:
   - learn-m365.intro-microsoft-teams-apps
   - learn-m365.msteams-messaging-extensions

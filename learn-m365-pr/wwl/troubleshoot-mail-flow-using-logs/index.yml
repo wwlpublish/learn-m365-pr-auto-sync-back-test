@@ -27,6 +27,8 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- communication
 units:
 - learn.wwl.troubleshoot-mail-flow-using-logs.introduction
 - learn.wwl.troubleshoot-mail-flow-using-logs.troubleshoot-message-tracking-logs

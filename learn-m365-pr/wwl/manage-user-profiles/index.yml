@@ -32,6 +32,9 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- identity-access
+- storage
 units:
 - learn.wwl.manage-user-profiles.introduction
 - learn.wwl.manage-user-profiles.examine-user-profile

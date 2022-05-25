@@ -30,6 +30,10 @@ roles:
 products:
   - m365
   - viva-connections
+subjects:
+- custom-app-development
+- data-analytics
+- employee-engagement
 units:
 - learn-m365.viva-connections-extend-with-app-customizers.introduction
 - learn-m365.viva-connections-extend-with-app-customizers.exercise-install-development-tools-for-extending-viva-connections

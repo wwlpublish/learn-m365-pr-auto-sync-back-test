@@ -29,6 +29,10 @@ roles:
 - privacy-manager
 products:
 - m365
+subjects:
+- information-protection-governance
+- cloud-security
+- threat-protection
 units:
 - learn-m365.audit-risk-management.introduction
 - learn-m365.audit-risk-management.enterprise-risk-management

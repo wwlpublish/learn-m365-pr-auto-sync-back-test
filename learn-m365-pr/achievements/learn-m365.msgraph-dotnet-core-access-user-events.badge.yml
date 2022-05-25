@@ -1,0 +1,7 @@
+### YamlMime:AchievementDetail
+achievementUid: learn-m365.msgraph-dotnet-core-access-user-events.badge
+metadata:
+  title: >-
+    Microsoft Badge: Access a user's calendar events in an ASP.NET Core app with
+    Microsoft Graph was issued by Microsoft
+socialImageUrl: /learn/achievements/graph-calendar-events-social.png

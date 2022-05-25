@@ -80,10 +80,10 @@ Microsoft introduced extensions in the SharePoint Framework to allow customers t
 - Client-side rendering (CSR) and `JSLink`
 - Custom actions
 
-Because they only run in the modern experience, you can only use SharePoint Framework extensions in SharePoint Server 2019 and SharePoint Online.
+Because they only run in the modern experience, you can only use SharePoint Framework extensions in SharePoint Server 2019, SharePoint Server Subscription Edition (SE), and SharePoint Online.
 
 > [!NOTE]
-> Extensions are supported in all environments supported by the SharePoint Framework that also support the modern page experience, including SharePoint Server 2019 and SharePoint Online.
+> Extensions are supported in all environments supported by the SharePoint Framework that also support the modern page experience, including SharePoint Server 2019, SharePoint Server Subscription Edition (SE), and SharePoint Online.
 
 #### Application customizers
 
@@ -150,7 +150,7 @@ The SharePoint Framework is supported in both SharePoint Server 2016 and SharePo
 
 SharePoint Server 2016 supports the SharePoint Framework v1.1.0, which is the initial version that introduced client-side web parts to SharePoint. This version of SharePoint doesn't support the extensions component type because extensions have a dependency on the modern experience. The modern experience wasn't added to SharePoint Server until SharePoint Server 2019.
 
-SharePoint Server 2019 supports the SharePoint Framework v1.4.0 and all previous versions. This version includes support for client-side web parts and extensions.
+SharePoint Server 2019 and SharePoint Server Subscription Edition (SE) support the SharePoint Framework v1.4.0 and all previous versions. This version includes support for client-side web parts and extensions.
 
 ## Summary
 

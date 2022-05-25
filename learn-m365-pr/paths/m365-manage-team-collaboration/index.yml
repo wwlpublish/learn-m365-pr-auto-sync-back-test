@@ -20,6 +20,8 @@ products:
 - m365
 - office-teams
 - office-365
+subjects:
+- collaboration
 modules:
 - learn-m365.m365-teams-collab-prepare-deployment
 - learn-m365.m365-teams-collab-deploy-clients

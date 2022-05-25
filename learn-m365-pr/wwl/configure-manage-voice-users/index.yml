@@ -26,6 +26,8 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
 units:
 - learn.wwl.configure-manage-voice-users.introduction
 - learn.wwl.configure-manage-voice-users.enable-users-teams-phone

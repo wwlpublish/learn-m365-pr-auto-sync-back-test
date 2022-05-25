@@ -26,6 +26,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- business-applications
 units:
 - learn.wwl.plan-your-tenant-microsoft-365.introduction
 - learn.wwl.plan-your-tenant-microsoft-365.review-subscription-options

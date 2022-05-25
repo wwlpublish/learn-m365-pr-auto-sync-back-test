@@ -3,7 +3,7 @@ uid: learn-m365.teams.protect-information
 metadata:
   title: Protect information in Microsoft Teams
   description: Protect information in Microsoft Teams across your organization.
-  ms.date: 06/23/2021
+  ms.date: 05/02/2022
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
@@ -25,6 +25,9 @@ roles:
 - administrator
 products:
 - office-teams
+subjects:
+- information-protection-governance
+- threat-protection
 units:
 - learn-m365.teams.protect-information.1-introduction
 - learn-m365.teams.protect-information.2-configure-data-loss-prevention

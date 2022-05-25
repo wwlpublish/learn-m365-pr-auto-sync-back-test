@@ -59,9 +59,9 @@ You could use the following procedure:
 3. Select the + symbol to add another condition, and then set **Compliance risk factor** for **ISO 27001** equals **True**.
 4. Add three further conditions:
 
-    a. Select **Security risk factor** for **Data-at-rest-encryption** doesn't equal **Not supported** and **N/A**.
-    b. Select **Security risk factor** for **Admin audit trail** equals **True**.
-    c. Select **Security risk factor** for **User audit trail** equals **True**.
+    1. Select **Security risk factor** for **Data-at-rest-encryption** doesn't equal **Not supported** and **N/A**.
+    1. Select **Security risk factor** for **Admin audit trail** equals **True**.
+    1. Select **Security risk factor** for **User audit trail** equals **True**.
 
 With each additional condition in your filter, the number of returned apps is reduced. You can then investigate the remaining apps – that is, those that meet your security and compliance criteria.
 

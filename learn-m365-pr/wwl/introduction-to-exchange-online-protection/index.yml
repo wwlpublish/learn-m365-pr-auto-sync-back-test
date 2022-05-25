@@ -3,7 +3,7 @@ uid: learn.wwl.introduction-to-exchange-online-protection
 metadata:
   title: Examine Exchange Online Protection
   description: "Examine Exchange Online Protection"
-  ms.date: 05/10/2021
+  ms.date: 05/06/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -12,10 +12,10 @@ title: Examine Exchange Online Protection
 summary: This module examines how Exchange Online Protection (EOP) protects organizations from phishing and spoofing. It also explores how EOP blocks spam, bulk email, and malware before they arrive in users’ mailboxes.
 abstract: |
   By the end of this module, you'll be able to:
-  - Describe how Exchange Online Protection (EOP) analyzes email to provide anti-malware pipeline protection
-  - List several mechanisms used by EOP to filter spam and malware
-  - Describe other solutions administrators may implement to provide extra protection against phishing and spoofing
-  - Describe the benefits of the Spoof Intelligence feature in the Security &amp; Compliance Center
+  *   Describe how Exchange Online Protection analyzes email to provide anti-malware pipeline protection.
+  *   List several mechanisms used by Exchange Online Protection to filter spam and malware.
+  *   Describe other solutions administrators may implement to provide extra protection against phishing and spoofing.
+  *  Understand how EOP provides protection against outbound spam.
 prerequisites: |
   None
 iconUrl: /learn/achievements/exchange-online-protection.svg
@@ -27,16 +27,17 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
+subjects:
+- security
 units:
 - learn.wwl.introduction-to-exchange-online-protection.introduction
-- learn.wwl.introduction-to-exchange-online-protection.examine-anti-malware-pipeline-microsoft-365
+- learn.wwl.introduction-to-exchange-online-protection.examine-anti-malware-pipeline
 - learn.wwl.introduction-to-exchange-online-protection.detect-messages-with-spam-malware-using-zero-hour-auto-purge
-- learn.wwl.introduction-to-exchange-online-protection.explore-phishing-spoofing-protection-provided-by-eop
-- learn.wwl.introduction-to-exchange-online-protection.explore-spoofing-protection-provided-by-eop
-- learn.wwl.introduction-to-exchange-online-protection.manage-spoof-intelligence-microsoft-365-security-compliance-center
+- learn.wwl.introduction-to-exchange-online-protection.explore-anti-spoofing-exchange-online-protection
+- learn.wwl.introduction-to-exchange-online-protection.explore-other-anti-spoofing-protection
+- learn.wwl.introduction-to-exchange-online-protection.examine-outbound-spam-filtering
 - learn.wwl.introduction-to-exchange-online-protection.knowledge-check
 - learn.wwl.introduction-to-exchange-online-protection.summary
 badge:

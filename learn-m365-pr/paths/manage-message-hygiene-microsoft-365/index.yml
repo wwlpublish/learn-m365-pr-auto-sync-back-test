@@ -28,6 +28,8 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- security
 modules:
 - learn.wwl.plan-for-message-hygiene
 - learn.wwl.manage-anti-malware-anti-spam-policies

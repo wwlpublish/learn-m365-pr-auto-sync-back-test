@@ -21,6 +21,9 @@ roles:
 products: 
 - m365
 - office-365
+subjects:
+- cloud-computing
+- collaboration
 modules:
 - learn-m365.m365-teams-sharepoint-plan-sharepoint
 - learn-m365.m365-teams-sharepoint-plan-site-architecture
