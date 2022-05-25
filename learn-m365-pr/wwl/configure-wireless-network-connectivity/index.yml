@@ -26,6 +26,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- networking
 units:
 - learn.wwl.configure-wireless-network-connectivity.introduction
 - learn.wwl.configure-wireless-network-connectivity.examine-wireless-network-technologies

@@ -30,6 +30,9 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- device-management
+- cloud-computing
 units:
 - learn.wwl.examine-windows-10-deployment-scenarios.introduction
 - learn.wwl.examine-windows-10-deployment-scenarios.explore-windows-as-service

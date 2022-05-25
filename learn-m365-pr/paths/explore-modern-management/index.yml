@@ -26,6 +26,9 @@ products:
 - mem-intune
 - windows
 - microsoft-deployment-toolkit
+subjects:
+- modern-work
+- infrastructure
 modules:
 - learn.wwl.examine-enterprise-desktop
 - learn.wwl.explore-azure-active-directory

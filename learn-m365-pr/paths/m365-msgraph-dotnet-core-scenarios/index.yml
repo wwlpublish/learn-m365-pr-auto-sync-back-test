@@ -30,6 +30,8 @@ products:
 - m365
 - ms-graph
 - dotnet-core
+subjects:
+- development-tools
 modules:
 - learn-m365.msgraph-dotnet-core-show-user-emails
 - learn-m365.msgraph-dotnet-core-access-user-events

@@ -22,6 +22,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- business-applications
 modules:
 - learn.wwl.identify-licensing-options-available-microsoft-365
 - learn.wwl.describe-support-offerings-for-microsoft-365-services

@@ -28,6 +28,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- chatbot
+- artificial-intelligence
 units:
 - learn.wwl.explore-power-virtual-agents.introduction
 - learn.wwl.explore-power-virtual-agents.agent-functionality

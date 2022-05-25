@@ -27,6 +27,10 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
+- collaboration
+- compliance
 units:
 - learn.wwl.extend-teams-phone-system-additional-services.introduction
 - learn.wwl.extend-teams-phone-system-additional-services.understand-how-teams-interacts

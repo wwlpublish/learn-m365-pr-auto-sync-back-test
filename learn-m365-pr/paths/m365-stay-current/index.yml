@@ -21,6 +21,9 @@ products:
 - m365
 - windows
 - office-365
+subjects:
+- device-management
+- cloud-computing
 modules:
 - learn-m365.windows-plan
 - learn-m365.windows-prepare

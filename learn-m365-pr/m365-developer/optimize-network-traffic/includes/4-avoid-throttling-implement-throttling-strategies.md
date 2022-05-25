@@ -38,7 +38,7 @@ Another option is to limit the number of operations per request. A query that in
 
 Keep in mind these aren't perfect strategies where you can ensure your applications are never throttled. Your application could experience a burst in traffic and usage that makes it impossible to completely avoid some requests from being throttled.
 
-Its a good practice to collect detailed telemetry from your application for all instances of throttled requests. You should log enough detail to let you identify in what cases throttling occurred so you can use that information to change the calling patterns to avoid or reduce such instances in the future. You'll then be able to optimize and adjust your application to operate within the service limits applicable to your scenarios.
+It's a good practice to collect detailed telemetry from your application for all instances of throttled requests. You should log enough detail to let you identify in what cases throttling occurred so you can use that information to change the calling patterns to avoid or reduce such instances in the future. You'll then be able to optimize and adjust your application to operate within the service limits applicable to your scenarios.
 
 ## Implement throttling strategies
 
@@ -50,7 +50,7 @@ The first step is to identify when requests are throttled. Identifying throttlin
 
 ## HTTP header Retry-After
 
-Many responses include an HTTP header `Retry-After` that specifies the number of seconds the client should wait before submitting another request. This includes repeating the same request, or additional requests.
+Many responses include an HTTP header `Retry-After` that specifies the number of seconds the client should wait before submitting another request. This includes repeating the same request, or more requests.
 
 Consider that not all endpoints in Microsoft Graph include the `Retry-After` header value. Your application should have a default delay number it uses. Also consider implementing an exponential back-off strategy for later requests.
 

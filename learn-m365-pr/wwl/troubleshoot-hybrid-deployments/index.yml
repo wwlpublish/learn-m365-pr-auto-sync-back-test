@@ -30,6 +30,8 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- security
 units:
 - learn.wwl.troubleshoot-hybrid-deployments.introduction
 - learn.wwl.troubleshoot-hybrid-deployments.troubleshoot-directory-synchronization

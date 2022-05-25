@@ -13,7 +13,7 @@ Open a browser and navigate to the [Azure Active Directory admin center (https:/
 
 Select **Azure Active Directory** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
+  ![Screenshot of the App registrations.](../media/azure-ad-portal-home.png)
 
 Select **Manage > App registrations** in the left-hand navigation.
 
@@ -23,17 +23,17 @@ Select **API Permissions** in the left-hand navigation panel.
 
 Select the **Add a permission** button.
 
-![Screenshot of the Add permission button](../media/07-azure-ad-portal-new-app-permissions-02.png)
+![Screenshot of the Add permission button.](../media/07-azure-ad-portal-new-app-permissions-02.png)
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
-![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-03.png)
+![Screenshot of Microsoft Graph in the Request API permissions panel.](../media/azure-ad-portal-new-app-permissions-03.png)
 
 When prompted for the type of permission, select **Delegated permissions**.
 
 Enter **Sites.R** in the **Select permissions** search box and select the **Sites.Read.All** permission, followed by the **Add permission** button at the bottom of the panel.
 
-![Screenshot of the Files.ReadWrite permission in the Request API permissions panel](../media/07-azure-ad-portal-new-app-permissions-04.png)
+![Screenshot of the Files.ReadWrite permission in the Request API permissions panel.](../media/07-azure-ad-portal-new-app-permissions-04.png)
 
 In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Yes** button in the consent dialog to grant all users in your organization this permission.
 
@@ -41,22 +41,10 @@ In the **Configured Permissions** panel, select the button **Grant admin consent
 
 In this section, you'll update the .NET console app display all files trending around the currently signed in user.
 
-Locate the **Program.cs** file from the application you created in a previous unit in this module.
-
-First, update the permission requests to include the new permission added to the app. Locate the `CreateAuthorizationProvider` method. In this method, add the new permission as another scope to the list of existing scopes:
+Locate the **Program.cs** file from the application you created in a previous unit in this module. Within the `Main` method, locate the following line:
 
 ```csharp
-List<string> scopes = new List<string>();
-scopes.Add("User.Read");
-scopes.Add("Files.Read");
-scopes.Add("Files.ReadWrite");
-scopes.Add("Sites.Read.All");
-```
-
-Within the `Main` method, locate the following line:
-
-```csharp
-var client = GetAuthenticatedGraphClient(config, userName, userPassword);
+Console.WriteLine("Hello " + profileResponse.DisplayName);
 ```
 
 Delete all code within the `Main` method after the above line.
@@ -86,9 +74,11 @@ dotnet build
 dotnet run
 ```
 
-After entering the username and password of a user, the console app will display a list of files trending around the current user. Notice they're stored in descending order by their relative weight property:
+You now need to authenticate with Azure Active Directory. A new tab in your default browser should open to a page asking you to sign in. After you've logged in successfully, you'll be redirected to a page displaying the message, **"Authentication complete. You can return to the application. Feel free to close this browser tab"**. You may now close the browser tab and switch back to the console application.
 
-![Screenshot of the console application displaying the files trending around the currently signed in user](../media/07-app-run-01.png)
+The console app will display a list of files trending around the current user. Notice they're sorted in descending order by their relative weight property:
+
+![Screenshot of the console application displaying the files trending around the currently signed in user.](../media/07-app-run-01.png)
 
 ## List files accessed and used by the current user
 
@@ -123,9 +113,9 @@ dotnet build
 dotnet run
 ```
 
-After entering the username and password of a user, the console app will display a list of files recently accessed and modified by the current user:
+After you've signed in, the console app will display a list of files recently accessed and modified by the current user:
 
-![Screenshot of the console application displaying recently used files](../media/07-app-run-02.png)
+![Screenshot of the console application displaying recently used files.](../media/07-app-run-02.png)
 
 ## Summary
 

@@ -28,6 +28,10 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- it-management-monitoring
+- identity-access
+- compliance
 units:
 - learn-m365.m365-compliance-insider-manage-customer-lockbox.introduction
 - learn-m365.m365-compliance-insider-manage-customer-lockbox.manage

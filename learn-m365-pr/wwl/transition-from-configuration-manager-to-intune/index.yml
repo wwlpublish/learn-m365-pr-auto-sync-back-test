@@ -30,6 +30,8 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- device-management
 units:
 - learn.wwl.transition-from-configuration-manager-to-intune.introduction
 - learn.wwl.transition-from-configuration-manager-to-intune.modify-your-co-management-settings

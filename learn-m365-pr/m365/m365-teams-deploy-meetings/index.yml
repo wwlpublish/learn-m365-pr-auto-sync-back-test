@@ -25,6 +25,9 @@ roles:
 - administrator
 products:
 - office-teams
+subjects:
+- communication
+- collaboration
 units:
 - learn-m365.teams.deploy-meetings.1-introduction
 - learn-m365.teams.deploy-meetings.2-set-up-users

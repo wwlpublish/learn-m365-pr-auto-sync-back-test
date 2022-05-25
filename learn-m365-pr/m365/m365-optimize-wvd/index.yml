@@ -31,6 +31,10 @@ products:
 - m365
 - azure
 - azure-virtual-desktop
+subjects:
+- cloud-computing
+- finance-accounting
+- remote-hybrid-work
 units:
 - learn-m365.optimize-wvd.introduction
 - learn-m365.optimize-wvd.configure-automation

@@ -28,6 +28,9 @@ roles:
 products:
   - m365
   - office-sp-framework
+subjects:
+- cloud-computing
+- collaboration
 units:
   - learn-m365.sharepoint-spfx-extensions.1-introduction
   - learn-m365.sharepoint-spfx-extensions.2-extensions-overview-app-customizer

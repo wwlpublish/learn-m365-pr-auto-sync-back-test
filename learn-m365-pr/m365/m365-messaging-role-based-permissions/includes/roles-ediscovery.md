@@ -2,7 +2,7 @@ In this unit, you'll learn what eDiscovery is and how it is implemented in Excha
 
 ## What is eDiscovery?
 
-Microsoft 365 provides eDiscovery, or Electronic discovery, to help you identify and deliver electronic information that can be used as evidence in legal cases. You can use eDiscovery in Microsoft 365 to search for content in Exchange Online mailboxes, Microsoft 365 Groups, Microsoft Teams, SharePoint Online and OneDrive for Business sites, Skype for Business conversations, and Yammer teams. You can search for mailboxes and sites in the same eDiscovery search by using the Content Search tool in the Microsoft 365 Defender portal. And you can use eDiscovery cases in the Microsoft 365 Defender portal to identify, hold, and export content found in mailboxes and sites.
+Microsoft Purview provides eDiscovery, or Electronic discovery, to help you identify and deliver electronic information that can be used as evidence in legal cases. You can use eDiscovery in Microsoft Purview to search for content in Exchange Online mailboxes, Microsoft 365 Groups, Microsoft Teams, SharePoint Online and OneDrive for Business sites, Skype for Business conversations, and Yammer teams. You can search for mailboxes and sites in the same eDiscovery search by using the Content Search tool in the Microsoft 365 Defender portal. And you can use eDiscovery cases in the Microsoft 365 Defender portal to identify, hold, and export content found in mailboxes and sites.
 
 ## Permissions and role groups
 

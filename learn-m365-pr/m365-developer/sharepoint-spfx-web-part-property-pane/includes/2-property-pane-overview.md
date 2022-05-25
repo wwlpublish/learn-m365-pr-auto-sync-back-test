@@ -30,6 +30,9 @@ The label control is used to display text, while the other controls are used as 
 
 Developers can also create custom property pane field controls, or use third-party controls, when one of the existing controls doesn't meet the business requirements.
 
+> [!NOTE]
+> In this module and in the SharePoint Framework documentation on property pane controls, you will see the terms **property pane field**, **property pane field control**, and **property pane control** all used to refer to property pane controls. You can consider these terms to be synonymous.
+
 ## Implementing the header, groups, and fields
 
 The property pane is defined by your web part using a specific method. The SharePoint Framework will call the `getPropertyPaneConfiguration()` method on your web part to retrieve an object that implements the `IPropertyPaneConfiguration` interface.
@@ -145,7 +148,7 @@ export default class HelloPropertyPaneWebPart extends BaseClientSideWebPart<IHel
 
 In the case where you're using React to implement client-side web parts, you'll likely want to handle the case when properties are changed if you're using the web part's properties in the React control.
 
-Let's start with a simple React client-side web part. The properties on the web part, in this case the `description` property is set on the public property of the React control:
+Let's start with a simple React client-side web part. The properties on the web part, in this case, the `description` property is set on the public property of the React control:
 
 ```typescript
 public render(): void {

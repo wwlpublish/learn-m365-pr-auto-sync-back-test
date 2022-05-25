@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-endpoint-protection-use-microsoft-defender.onboard-devices-microsoft-defender-endpoint
+title: Onboard devices in Microsoft Defender for Endpoint
+metadata:
+  title: Onboard devices in Microsoft Defender for Endpoint
+  description: "Onboard devices in Microsoft Defender for Endpoint"
+  ms.date: 05/18/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/4-onboard-devices-microsoft-defender-endpoint.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the enterprise administrator for Fabrikam, Holly Spencer is considering whether to create both a device configuration policy and an endpoint detection and response policy to manage the same device setting - in this case, onboarding devices to Microsoft Defender for Endpoint. What could happen if Holly creates these policies?"
+    choices:
+    - content: "Fabrikam's devices will report their risk levels to Microsoft Defender for Endpoint"
+      isCorrect: false
+      explanation: "Incorrect. This action occurs when an organization deploys Intune's onboarding configuration package from Microsoft Defender for Endpoint to its Windows devices."
+    - content: "Fabrikam could end up with policy conflicts for devices"
+      isCorrect: true
+      explanation: "Correct. Some organizations use multiple policies or policy types to manage the same device settings (such as onboarding to Microsoft Defender for Endpoint). For example, they may use both a device configuration policy and an endpoint detection and response policy. This practice can result in policy conflicts for devices."
+    - content: "Device threat levels will be assessed, and devices that don’t meet an acceptable level will either be blocked or selectively wiped."
+      isCorrect: false
+      explanation: "Incorrect. This action occurs if you create an app protection policy for any protected app."

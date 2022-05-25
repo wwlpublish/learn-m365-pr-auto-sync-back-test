@@ -30,6 +30,9 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- cloud-computing
+- device-management
 units:
 - learn.wwl.implement-dynamic-deployment-methods.introduction
 - learn.wwl.implement-dynamic-deployment-methods.examine-subscription-activation

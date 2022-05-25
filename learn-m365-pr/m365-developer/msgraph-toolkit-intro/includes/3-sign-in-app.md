@@ -14,12 +14,12 @@ You can use this component in your app, and forget about writing and maintaining
 
 Providers simplify how you implement authentication in your application, and handle making calls to Microsoft Graph by using the JavaScript client SDK. You initialize a provider before using any toolkit components. It's also possible to use providers on their own, in an application to handle authentication. There are several different providers you can use, depending on the platform you're targeting with the toolkit components:
 
-- Microsoft Authentication Library (MSAL) provider: For general use by single-page applications that authenticate from the browser. Uses the OAuth implicit flow.
-- Microsoft Authentication Library (MSAL) v2 provider: Recommended for use by single-page applications that authenticate from the browser. Uses the OAuth Authorization Code Flow with PKCE which is considered more secure than the OAuth implicit flow.
-- Electron provider: For use in Electron apps.
-- Proxy provider: For use by web applications that authenticate on the server.
-- SharePoint provider: For use in the SharePoint Framework.
-- Microsoft Teams provider: For use by single-page applications that run as Teams tabs.
-- Custom provider: Allows you to build your own authentication.
+- **Microsoft Authentication Library (MSAL) provider**: For general use by single-page applications that authenticate from the browser. Uses the OAuth implicit flow.
+- **Microsoft Authentication Library (MSAL) v2 provider**: Recommended for use by single-page applications that authenticate from the browser. Uses the OAuth Authorization Code Flow with PKCE that's considered more secure than the OAuth2 implicit flow.
+- **Electron provider**: For use in Electron apps.
+- **Proxy provider**: For use by web applications that authenticate on the server.
+- **SharePoint provider**: For use in the SharePoint Framework.
+- **Microsoft Teams provider**: For use by single-page applications that run as Teams tabs.
+- **Custom provider**: Allows you to build your own authentication.
 
 In the next exercise, you'll learn how to use the toolkit's Login component. You do so with the MSAL provider, which is the most widely used provider in the toolkit.

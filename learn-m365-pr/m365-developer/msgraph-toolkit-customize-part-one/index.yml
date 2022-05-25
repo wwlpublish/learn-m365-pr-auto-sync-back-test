@@ -18,7 +18,6 @@ abstract: |
   In this module, you'll:
   - Change the behavior of Microsoft Graph Toolkit components by using attributes.
   - Customize Microsoft Graph Toolkit component styling by using CSS custom properties.
-
 prerequisites: |
   - Global administrator access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-16105-cxa)
   - Basic understanding of Microsoft Graph Toolkit components
@@ -26,8 +25,6 @@ prerequisites: |
   - Basic understanding of HTML
   - [Visual Studio Code](https://code.visualstudio.com/)
   - [Visual Studio Code Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-
-
 iconUrl: /learn/achievements/msgraph-toolkit-customize-part-one.svg
 levels:
   - beginner
@@ -36,6 +33,10 @@ roles:
 products:
   - m365
   - ms-graph
+subjects:
+- process-workflow
+- development-tools
+- custom-app-development
 units:
   - learn-m365.msgraph-toolkit-customize-part-one.1-introduction
   - learn-m365.msgraph-toolkit-customize-part-one.2-change-behavior-attributes

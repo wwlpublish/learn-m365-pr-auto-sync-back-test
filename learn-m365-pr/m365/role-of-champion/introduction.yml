@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.role-of-champion.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: Introduction
+  description: Learn how OKR champions can be vital to a successful OKR rollout
+  ms.date: 05/12/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

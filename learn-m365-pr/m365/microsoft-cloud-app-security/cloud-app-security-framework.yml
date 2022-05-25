@@ -5,8 +5,8 @@ metadata:
   title: Understand the Defender for Cloud Apps Framework
   description: Learn about cloud access security brokers and the Defender for Cloud Apps Framework.
   ms.date: 11/05/2021
-  author: beccarobins
-  ms.author: beccarobins
+  author: dcurwin
+  ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 2

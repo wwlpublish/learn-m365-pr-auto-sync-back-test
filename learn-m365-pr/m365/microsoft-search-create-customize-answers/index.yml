@@ -30,6 +30,9 @@ products:
 - office
 - windows
 - bing
+subjects:
+- process-workflow
+- customer-relationship-management
 units:
 - learn-m365.microsoft-search-create-customize-answers.introduction
 - learn-m365.microsoft-search-create-customize-answers.bookmarks-questions-answers

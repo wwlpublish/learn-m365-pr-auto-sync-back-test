@@ -29,6 +29,9 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- data-management
+- communication
 units:
 - learn-m365.m365-messaging-manage-org-settings.introduction
 - learn-m365.m365-messaging-manage-org-settings.manage-global-address-list

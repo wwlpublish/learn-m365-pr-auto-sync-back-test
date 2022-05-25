@@ -23,7 +23,7 @@ Developers can use the SharePoint REST API to upload a file to a SharePoint libr
 
 You can use the endpoint listed above to do this, but you need to customize the request that's sent to the REST API to provide the file contents as part of the request. By default, the SharePoint Framework API will set all the common properties needed to make a successful call to the SharePoint REST API using the `SPHttpClient.configurations.v1`. Developers can start with that and then override some of the properties.
 
-To override the properties, create an additional request object to override two parts in the request. Specifically, set the `content-length` header to the string value of the length of content we're sending to the REST API, and set the body of the request to the contents of the file:
+To override the properties, create an more request object to override two parts in the request. Specifically, set the `content-length` header to the string value of the length of content you're sending to the REST API, and set the body of the request to the contents of the file:
 
 ```typescript
 const fileData = /* */;
@@ -51,7 +51,7 @@ Another way to upload files to SharePoint libraries is to use the Microsoft Grap
 
 To upload a file using the Microsoft Graph, you need to specify the endpoint where to upload the file. For example, assuming you want to upload a file to the same URL as listed above, the Microsoft Graph endpoint would be: `https://graph.microsoft.com/v1/sites/{{SITE_ID}}/drive/root:/sample.png:/content`.
 
-Assuming you've read the file into memory as you would using the SharePoint REST API, to upload the file using the SharePoint Framework API for Microsoft Graph, use the following code:
+Assuming you've read the file into memory as you would when using the SharePoint REST API, to upload the file using the SharePoint Framework API for Microsoft Graph, use the following code:
 
 ```typescript
 const fileData = /* */;

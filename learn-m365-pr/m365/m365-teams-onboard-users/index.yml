@@ -24,6 +24,9 @@ roles:
 - administrator
 products:
 - office-teams
+subjects:
+- change-management
+- employee-engagement
 units:
 - learn-m365.teams.onboard-users.1-introduction
 - learn-m365.teams.onboard-users.2-plan-how-drive-adoption-of-teams

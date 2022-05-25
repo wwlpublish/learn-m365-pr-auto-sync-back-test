@@ -23,6 +23,8 @@ roles:
 - administrator
 products: 
 - m365
+subjects:
+- communication
 modules:
 - learn-m365-pr.m365-teams-calling-overview
 - learn-m365-pr.teams-calling-plan-teams-calling-solution

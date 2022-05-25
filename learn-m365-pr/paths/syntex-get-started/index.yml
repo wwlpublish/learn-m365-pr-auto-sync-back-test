@@ -19,6 +19,9 @@ roles:
 - business-user
 products: 
 - m365
+subjects:
+- employee-engagement
+- collaboration
 modules:
 - learn-m365.syntex-intro
 - learn-m365.syntex-strategy

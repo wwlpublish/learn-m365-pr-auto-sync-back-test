@@ -27,6 +27,8 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
 units:
 - learn.wwl.troubleshoot-microsoft-teams-meetings-live-events-messaging.introduction
 - learn.wwl.troubleshoot-microsoft-teams-meetings-live-events-messaging.troubleshoot-meeting-creation

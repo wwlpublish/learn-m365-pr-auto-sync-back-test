@@ -28,6 +28,10 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- business-continuity
+- communication
+- collaboration
 units:
 - learn.wwl.troubleshoot-microsoft-teams-voice-issues.introduction
 - learn.wwl.troubleshoot-microsoft-teams-voice-issues.explore-audio-video-quality-issues

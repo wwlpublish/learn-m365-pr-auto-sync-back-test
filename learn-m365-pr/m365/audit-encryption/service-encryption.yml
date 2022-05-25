@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.audit-encryption.service-encryption
-title: Understand service encryption in Microsoft 365
+title: Understand service encryption in Microsoft Purview
 metadata:
-  title: Understand service encryption in Microsoft 365
+  title: Understand service encryption in Microsoft Purview
   description: Learn how Microsoft 365 encrypts data at rest and in transit, securely manages encryption keys, and provides key management options to customers to meet their business needs and compliance obligations.
   ms.date: 02/11/2022
   author: beccarobins

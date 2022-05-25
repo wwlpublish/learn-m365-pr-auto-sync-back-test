@@ -22,6 +22,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- storage
 modules:
 - learn.wwl.manage-storage-windows-clients
 - learn.wwl.maintain-disks-volumes

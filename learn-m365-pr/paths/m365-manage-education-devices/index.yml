@@ -20,6 +20,8 @@ roles:
 products: 
 - m365
 - mem-intune
+subjects:
+- device-management
 modules:
 - learn-m365-pr.introduction-to-modern-management-in-microsoft-365
 - learn-m365.edu-manage-devices

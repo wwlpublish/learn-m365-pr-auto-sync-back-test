@@ -18,6 +18,8 @@ roles:
 - administrator
 products: 
 - m365
+subjects:
+- business-applications
 modules:
 - learn-m365.service-adoption-intro
 - learn-m365.service-adoption-start

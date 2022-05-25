@@ -66,7 +66,7 @@ With communication compliance policies, you can choose to scan messages in one o
 
 ## Transitioning from Supervision Policies in Microsoft 365
 
-Supervision policies in Microsoft 365 will be fully replaced by the communication compliance solution. Organizations using Supervision policies and planning to transition to communication compliance policies in Microsoft 365 need to understand these important points:
+Supervision policies in Microsoft 365 will be fully replaced by the communication compliance solution. Organizations using Supervision policies and planning to transition to communication compliance policies in Microsoft Purview need to understand these important points:
 
 - Both solutions may be used side by side in your organization, but policies used in each solution must have *unique* policy names. Groups and custom keyword dictionaries can be shared between solutions during a transition period.
 - Messages saved in supervision policy matches cannot be moved or shared into communication compliance.

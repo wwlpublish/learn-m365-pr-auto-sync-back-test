@@ -27,6 +27,9 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- device-management
+- communication
 units:
 - learn.wwl.troubleshoot-apps-channels.introduction
 - learn.wwl.troubleshoot-apps-channels.troubleshoot-issues-with-apps

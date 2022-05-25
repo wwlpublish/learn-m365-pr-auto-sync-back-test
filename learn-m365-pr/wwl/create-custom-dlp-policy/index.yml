@@ -31,6 +31,9 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- compliance
+- information-protection-governance
 units:
 - learn.wwl.create-custom-dlp-policy.introduction
 - learn.wwl.create-custom-dlp-policy.edit-rule

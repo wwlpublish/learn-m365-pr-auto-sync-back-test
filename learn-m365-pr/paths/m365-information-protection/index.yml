@@ -23,6 +23,9 @@ products:
 - office-365
 - m365-information-protection
 - m365-security-center
+subjects:
+- threat-protection
+- information-protection-governance
 modules:
 - learn-m365.m365-security-info-overview
 - learn-m365.m365-security-digital-estate

@@ -26,6 +26,10 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- remote-hybrid-work
+- cloud-computing
+- device-management
 units:
 - learn.wwl.employ-remote-management.introduction
 - learn.wwl.employ-remote-management.examine-remote-desktop
