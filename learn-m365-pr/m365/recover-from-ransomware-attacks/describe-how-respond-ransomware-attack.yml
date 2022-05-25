@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.recover-from-ransomware-attacks.describe-how-respond-ransomware-attack
+title: Describe how to respond to a ransomware attack
+metadata:
+  unitType: learning-content
+  title: Describe how to respond to a ransomware attack
+  description: You've learned about the signs of a ransomware attack, and how to detect them.
+  ms.date: 05/20/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 7
+content: |
+  [!include[](includes/describe-how-respond-ransomware-attack.md)]

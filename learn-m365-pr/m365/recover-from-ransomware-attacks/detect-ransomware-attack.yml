@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.recover-from-ransomware-attacks.detect-ransomware-attack
+title: Detect a ransomware attack
+metadata:
+  unitType: learning-content
+  title: Detect a ransomware attack
+  description: Ransomware attacks, like all malware attacks, engage in certain activities that can indicate to you that an attack has occurred or is in progress.
+  ms.date: 05/20/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/detect-ransomware-attack.md)]
