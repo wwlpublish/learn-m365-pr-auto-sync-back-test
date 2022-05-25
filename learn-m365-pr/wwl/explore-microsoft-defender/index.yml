@@ -28,6 +28,9 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- threat-protection
+- cloud-security
 units:
 - learn.wwl.explore-microsoft-defender.introduction
 - learn.wwl.explore-microsoft-defender.explain-microsoft-defender-antivirus

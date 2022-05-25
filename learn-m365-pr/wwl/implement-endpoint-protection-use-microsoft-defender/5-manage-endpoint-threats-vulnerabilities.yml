@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-endpoint-protection-use-microsoft-defender.manage-endpoint-threats-vulnerabilities
+title: Manage endpoint threats and vulnerabilities
+metadata:
+  title: Manage endpoint threats and vulnerabilities
+  description: "Manage endpoint threats and vulnerabilities"
+  ms.date: 05/18/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-manage-endpoint-threats-vulnerabilities.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso has some devices that haven't been active for the past two months. What effect will this situation have on Contoso's threat and vulnerability management functionality?"
+    choices:
+    - content: "The devices will be ignored during the periodic scans conducted by the Threat and Vulnerability Management module"
+      isCorrect: false
+      explanation: "Incorrect. The Threat and Vulnerability Management module doesn't conduct periodic scans."
+    - content: "The devices won't be factored in on the data that's reflected in Contoso's exposure score"
+      isCorrect: true
+      explanation: "Correct. Devices must be active in the last 30 days to be factored in on the data that reflects an organization's threat and vulnerability management exposure score and Microsoft Secure Score for Devices."
+    - content: "The devices won't be included as part of the high-value assets that are protected by the Threat and Vulnerability Management module"
+      isCorrect: false
+      explanation: "Incorrect. High value assets must be exposed by the organization. They're not automatically determined based on their latest activity."

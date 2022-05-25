@@ -22,6 +22,10 @@ roles:
 products:
 - m365
 - azure-active-directory
+subjects:
+- identity-access
+- threat-protection
+- cloud-security
 modules:
 - learn-m365.getting-started-identity
 - learn-m365.identity-application-types

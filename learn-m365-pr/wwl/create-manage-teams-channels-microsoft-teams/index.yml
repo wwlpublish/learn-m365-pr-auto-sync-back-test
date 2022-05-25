@@ -30,6 +30,10 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
+- collaboration
+- custom-app-development
 units:
 - learn.wwl.create-manage-teams-channels-with-microsoft-teams.introduction
 - learn.wwl.create-manage-teams-channels-with-microsoft-teams.plan-your-team

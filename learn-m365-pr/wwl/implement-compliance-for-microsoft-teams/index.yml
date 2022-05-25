@@ -32,6 +32,10 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- compliance
+- collaboration
+- communication
 units:
 - learn.wwl.implement-compliance-for-microsoft-teams.introduction
 - learn.wwl.implement-compliance-for-microsoft-teams.create-manage-sensitivity-labels

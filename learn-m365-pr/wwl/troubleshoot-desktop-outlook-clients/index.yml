@@ -29,6 +29,8 @@ products:
 - office-exchange-server
 - office-outlook
 - office-exchange-online
+subjects:
+- device-management
 units:
 - learn.wwl.troubleshoot-desktop-outlook-clients.introduction
 - learn.wwl.troubleshoot-desktop-outlook-clients.troubleshoot-outlook-connections-to-exchange

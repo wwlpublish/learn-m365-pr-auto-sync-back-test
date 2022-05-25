@@ -29,6 +29,9 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
+- collaboration
 units:
 - learn.wwl.configure-auto-attendants-call-queues.introduction
 - learn.wwl.configure-auto-attendants-call-queues.design-call-flows-auto-attendants-call-queues

@@ -29,6 +29,9 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- infrastructure
+- communication
 units:
 - learn.wwl.configure-organizational-sharing.introduction
 - learn.wwl.configure-organizational-sharing.examine-exchange-federated-delegation-features

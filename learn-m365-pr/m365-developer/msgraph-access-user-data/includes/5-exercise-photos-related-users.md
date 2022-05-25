@@ -12,7 +12,7 @@ Locate the **Program.cs** file from the application you created in a previous un
 Within the `Main` method, locate the following line:
 
 ```csharp
-var client = GetAuthenticatedGraphClient(config, userName, userPassword);
+var client = GetAuthenticatedGraphClient(config);
 ```
 
 Delete all code within the `Main` method after the above line.
@@ -51,7 +51,9 @@ dotnet build
 dotnet run
 ```
 
-After entering the username and password of a user, you'll see the details of the user's profile photo:
+You now need to authenticate with Azure Active Directory. A new tab in your default browser should open to a page asking you to sign-in. After you've logged in successfully, you'll be redirected to a page displaying the message, **"Authentication complete. You can return to the application. Feel free to close this browser tab"**. You may now close the browser tab and switch back to the console application.
+
+The application will display the details of the user's profile photo:
 
 ![Screenshot of the console application showing a specific user](../media/05-app-run-01.png)
 
@@ -90,7 +92,7 @@ dotnet build
 dotnet run
 ```
 
-After entering the username and password of a user, you'll find a file **profilePhoto_{{XXXX}}.jpg** in the root folder of the .NET Core console application project.
+After you've logged in, you'll find a file **profilePhoto_{{XXXX}}.jpg** in the root folder of the .NET Core console application project.
 
 ## Get a user's manager
 
@@ -155,7 +157,7 @@ dotnet build
 dotnet run
 ```
 
-After entering the username and password of a user, the specified user and their manager details are displayed on the console:
+After you've logged in, the details of the logged in user and their manager are displayed to the console:
 
 ![Screenshot of the running application](../media/05-app-run-02.png)
 

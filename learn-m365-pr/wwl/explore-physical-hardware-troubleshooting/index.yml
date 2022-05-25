@@ -29,6 +29,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- device-management
 units:
 - learn.wwl.explore-physical-hardware-troubleshooting.introduction
 - learn.wwl.explore-physical-hardware-troubleshooting.identify-hardware-related-problems

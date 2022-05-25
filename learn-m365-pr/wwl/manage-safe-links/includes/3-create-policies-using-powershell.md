@@ -20,146 +20,74 @@ The following table identifies EOP cmdlets that can be used to create and manage
 
 :::row:::
   :::column:::
-    
-
-**If you want to do this task:**
-
-
+    **If you want to do this task:**
   :::column-end:::
   :::column:::
-    
-
-**Use this cmdlet:**
-
-
+    **Use this cmdlet:**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-View your Safe Links policy settings.
-
-
+    View your Safe Links policy settings.
   :::column-end:::
   :::column:::
-    
-
-[Get-SafeLinksPolicy](/powershell/module/exchange/get-safelinkspolicy?azure-portal=true)
-
-
+    [Get-SafeLinksPolicy](/powershell/module/exchange/get-safelinkspolicy?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Edit an existing Safe Links policy.
-
-
+    Edit an existing Safe Links policy.
   :::column-end:::
   :::column:::
-    
-
-[Set-SafeLinksPolicy](/powershell/module/exchange/set-safelinkspolicy?azure-portal=true)
-
-
+    [Set-SafeLinksPolicy](/powershell/module/exchange/set-safelinkspolicy?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Create a new custom Safe Links policy.
-
-
+    Create a new custom Safe Links policy.
   :::column-end:::
   :::column:::
-    
-
-[New-SafeLinksPolicy](/powershell/module/exchange/new-safelinkspolicy?azure-portal=true)
-
-
+    [New-SafeLinksPolicy](/powershell/module/exchange/new-safelinkspolicy?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Remove a custom Safe Links policy.
-
-
+    Remove a custom Safe Links policy.
   :::column-end:::
   :::column:::
-    
-
-[Remove-SafeLinksPolicy](/powershell/module/exchange/remove-safelinkspolicy?azure-portal=true)
-
-
+    [Remove-SafeLinksPolicy](/powershell/module/exchange/remove-safelinkspolicy?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-View your Safe Links rule settings.
-
-
+    View your Safe Links rule settings.
   :::column-end:::
   :::column:::
-    
-
-[Get-SafeLinksRule](/powershell/module/exchange/get-safelinksrule?azure-portal=true)
-
-
+    [Get-SafeLinksRule](/powershell/module/exchange/get-safelinksrule?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Edit an existing Safe Links rule.
-
-
+    Edit an existing Safe Links rule.
   :::column-end:::
   :::column:::
-    
-
-[Set-SafeLinksRule](/powershell/module/exchange/set-safelinksrule?azure-portal=true)
-
-
+    [Set-SafeLinksRule](/powershell/module/exchange/set-safelinksrule?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Create a new custom Safe Links rule.
-
-
+    Create a new custom Safe Links rule.
   :::column-end:::
   :::column:::
-    
-
-[New-SafeLinksRule](/powershell/module/exchange/new-safelinksrule?azure-portal=true)
-
-
+    [New-SafeLinksRule](/powershell/module/exchange/new-safelinksrule?azure-portal=true)
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-Remove a custom Safe Links rule.
-
-
+    Remove a custom Safe Links rule.
   :::column-end:::
   :::column:::
-    
-
-[Remove-SafeLinksRule](/powershell/module/exchange/remove-safelinksrule?azure-portal=true)
-
-
+    [Remove-SafeLinksRule](/powershell/module/exchange/remove-safelinksrule?azure-portal=true)
   :::column-end:::
 :::row-end:::
 
@@ -171,12 +99,12 @@ Creating a Safe Links policy in PowerShell is a two-step process:
 
 You can create a new safe links rule and assign an existing, unassociated safe links policy to it. A safe links rule can't be associated with more than one safe links policy.
 
-You can configure the following settings on new safe links policies in PowerShell that aren't available in Microsoft 365 Defender until after you create the policy:
+You can configure the following settings on new safe links policies in PowerShell that aren't available in the Microsoft 365 Defender portal until after you create the policy:
 
  -  Create the new policy as disabled (**Enabled $false** on the **New-SafeLinksRule** cmdlet).
  -  Set the priority of the policy during creation (**Priority** &lt;Number&gt;) on the **New-SafeLinksRule** cmdlet).
 
-A new safe links policy that you create in PowerShell isn't visible in Microsoft 365 Defender until you assign the policy to a safe links rule.
+A new safe links policy that you create in PowerShell isn't visible in the Microsoft 365 Defender portal until you assign the policy to a safe links rule.
 
 ### Step 1 - Create a safe links policy using PowerShell<br>
 

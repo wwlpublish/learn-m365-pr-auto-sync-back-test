@@ -11,7 +11,7 @@ Once you specify the sender domain, you can use this to create your search and s
 1. Open the case under investigation and navigate to the **Review Sets** tab, then select a review set.
 1. In the **Individual results** dropdown list, click **Search profile view**.
 
-     :::image type="content" source="../media/search-profile-view.png" alt-text="Screenshot of the Search profile view screen." lightbox="../media/search-profile-view.png" border="false":::
+     :::image type="content" source="../media/search-profile-view.png" alt-text="Screenshot of the review set 1 for case 01234. Search profile view is highlighted in the Individual results dropdown on the far right." lightbox="../media/search-profile-view.png" border="false":::
 
 1. When the Search profile view page is displayed, you will see several default widgets.
 
@@ -66,7 +66,7 @@ The Text viewer provides a view of the extracted text of a file. It ignores any 
 - Search hit highlighting that will highlight keywords within the document as well as the scrollbar
 - Differential view provides a comparison view that highlights textual differences when viewing Near Duplicate documents
 
-:::image type="content" source="../media/text-view.png" alt-text="Screenshot of a document in the text viewer.":::
+:::image type="content" source="../media/text-view.png" alt-text="Screenshot of the text viewer with lines numbered on the left, a keyword highlighted, and a zoomed out view on the right that identifies where highlighted keywords are located." border="false":::
 
 :::image type="content" source="../media/text-view-2.png" alt-text="Screenshot of a differential view in the text viewer.":::
 

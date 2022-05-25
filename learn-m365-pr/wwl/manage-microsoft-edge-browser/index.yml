@@ -27,6 +27,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- business-applications
 units:
 - learn.wwl.manage-microsoft-edge-browser.introduction
 - learn.wwl.manage-microsoft-edge-browser.examine-microsoft-edge-browser

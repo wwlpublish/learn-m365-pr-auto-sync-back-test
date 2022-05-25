@@ -24,14 +24,14 @@ Follow these steps to consume the Get component, to display a user's notebooks i
     </html>
     ```
 
-2. Add the `resource` and `scopes` attributes to the **Get** component, as follows:
+1. Add the `resource` and `scopes` attributes to the **Get** component, as follows:
 
     ```html
     <mgt-get resource="me/onenote/notebooks" scopes="Notes.Read, Notes.Read.All">
     </mgt-get>
     ```
 
-3. To get a list of OneNote notebooks and display them in the app, perform the following tasks:
+1. To get a list of OneNote notebooks and display them in the app, perform the following tasks:
     - Add `<template></template>` between the `<mgt-get></mgt-get>` tags.
     - Add `<div></div>` between the `<template></template>` tags.
     - Add a `data-for` attribute on the `<div>` to loop through each notebook in the list of notebooks. Set the `data-for` attribute to `note in value`.
@@ -45,13 +45,13 @@ Follow these steps to consume the Get component, to display a user's notebooks i
     </mgt-get>
     ```
 
-4. You'll now have a list of notebooks’ data in your app. To display the list of notebook names with their associated URLs, add the following line inside of the `<div></div>` tags:
+1. You'll now have a list of notebooks’ data in your app. To display the list of notebook names with their associated URLs, add the following line inside of the `<div></div>` tags:
 
     ```html
     <a href="{{ note.links.oneNoteWebUrl.href}}"> {{ note.displayName }} </a>
     ```
 
-5. To display the person’s profile who last modified the notebook, and the notebook’s last modified date and time, add the following code snippet inside of the `<div></div>` tags. Add it after the `<a></a>` tag.
+1. To display the person’s profile who last modified the notebook, and the notebook’s last modified date and time, add the following code snippet inside of the `<div></div>` tags. Add it after the `<a></a>` tag.
 
     ```html
     <h4> Last modified by:
@@ -60,9 +60,9 @@ Follow these steps to consume the Get component, to display a user's notebooks i
     <h5>Last modified date: {{note.lastModifiedDateTime}}</h5>
     ```
 
-6. To make your Get component look more professional, create an **index.css** file in the **performance-mgt** folder.
+1. To make your Get component look more professional, create an **index.css** file in the **performance-mgt** folder.
 
-7. Add the following CSS snippet into **index.css**:
+1. Add the following CSS snippet into **index.css**:
 
     ```css
     .note {
@@ -98,13 +98,13 @@ Follow these steps to consume the Get component, to display a user's notebooks i
     }
     ```
 
-8. Add the following line in your **index.html** file, between the `<head></head>` tags:
+1. Add the following line in your **index.html** file, between the `<head></head>` tags:
 
     ```html
     <link rel='stylesheet' href='index.css'>
     ```
 
-9. The **index.html** file should look like the following when you're done:
+1. The **index.html** file should look like the following when you're done:
 
     ```html
     <!DOCTYPE html>

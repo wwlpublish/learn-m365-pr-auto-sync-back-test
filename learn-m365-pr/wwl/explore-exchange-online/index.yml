@@ -31,6 +31,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- communication
+- cloud-security
 units:
 - learn.wwl.explore-exchange-online.introduction
 - learn.wwl.explore-exchange-online.explore-mail-flow-microsoft-365

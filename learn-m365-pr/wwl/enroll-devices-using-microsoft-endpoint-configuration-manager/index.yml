@@ -31,6 +31,9 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- device-management
+- cloud-computing
 units:
 - learn.wwl.enroll-devices-using-microsoft-endpoint-configuration-manager.introduction
 - learn.wwl.deploy-microsoft-endpoint-configuration-manager-client

@@ -30,6 +30,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- identity-access
 units:
 - learn.wwl.introduction-to-privileged-identity-management.introduction
 - learn.wwl.introduction-to-privileged-identity-management.explore-azure-ad

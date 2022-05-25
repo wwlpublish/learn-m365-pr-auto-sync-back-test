@@ -3,7 +3,7 @@ uid: learn-m365.m365-teams-rooms-right-device-space
 metadata:
   title: Choose the right device for the right space with Microsoft Teams
   description: Learn about the necessary hardware components and how to choose them when designing Microsoft Teams Rooms.
-  ms.date: 07/16/2021
+  ms.date: 04/25/2022
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
@@ -27,6 +27,10 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- device-management
+- collaboration
+- communication
 units:
 - learn-m365.m365-teams-rooms-right-device-space.introduction
 - learn-m365.m365-teams-rooms-right-device-space.analyze-spaces

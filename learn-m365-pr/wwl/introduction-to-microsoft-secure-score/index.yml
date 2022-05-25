@@ -30,6 +30,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- threat-protection
 units:
 - learn.wwl.introduction-to-microsoft-secure-score.introduction
 - learn.wwl.introduction-to-microsoft-secure-score.explore

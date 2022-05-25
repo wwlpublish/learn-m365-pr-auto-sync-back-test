@@ -1,4 +1,4 @@
-In this module, you’ll learn how Microsoft 365 controls the access of service team engineers to protect customer data in the Microsoft 365 cloud environment.
+In this module, you'll learn how Microsoft 365 controls the access of service team engineers to protect customer data in the Microsoft 365 cloud environment.
 
 The access controls used by Microsoft for operating Microsoft 365 fall into three categories:
 

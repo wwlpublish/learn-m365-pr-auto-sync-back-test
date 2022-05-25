@@ -26,6 +26,9 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- identity-access
+- remote-hybrid-work
 units:
 - learn.wwl.explore-remote-access.introduction
 - learn.wwl.explore-remote-access.explore-virtual-private-networks

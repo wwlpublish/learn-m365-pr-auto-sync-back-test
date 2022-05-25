@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-microsoft-365-threat-intelligence.explore-advanced-threat-hunting-defender
+title: Explore advanced threat hunting in Microsoft 365 Defender
+metadata:
+  title: Explore advanced threat hunting in Microsoft 365 Defender
+  description: "Explore advanced threat hunting in Microsoft 365 Defender"
+  ms.date: 05/13/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/6-explore-advanced-threat-hunting-defender.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "How many days of raw data can you explore up to in an advanced threat hunting query?"
+    choices:
+    - content: "30 days"
+      isCorrect: true
+      explanation: "Correct. Advanced hunting in Microsoft 365 Defender is a query-based threat-hunting tool that lets you explore up to 30 days of raw data."
+    - content: "60 days"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the correct number of days."
+    - content: "90 days"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the correct number of days."

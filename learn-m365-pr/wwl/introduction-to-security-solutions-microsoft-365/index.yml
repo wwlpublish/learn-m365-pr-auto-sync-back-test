@@ -1,17 +1,17 @@
 ### YamlMime:Module
 uid: learn.wwl.introduction-to-security-solutions-microsoft-365
 metadata:
-  title: Explore security solutions in Microsoft 365
-  description: "Explore security solutions in Microsoft 365"
-  ms.date: 04/28/2021
+  title: Explore security solutions in Microsoft 365 Defender
+  description: "Explore security solutions in Microsoft 365 Defender"
+  ms.date: 05/17/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Explore security solutions in Microsoft 365
+title: Explore security solutions in Microsoft 365 Defender
 summary: This module introduces you to several features in Microsoft 365 that can help protect your organization against cyberthreats, detect when a user or computer has been compromised, and monitor your organization for suspicious activities.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Identify the features of Microsoft Defender for Office 365 that enhance email security in a Microsoft 365 deployment
   - Explain how Microsoft Defender for Identity identifies, detects, and investigates advanced threats, compromised identities, and malicious insider actions directed at your organization
   - Explain how Microsoft Defender for Endpoint helps enterprise networks prevent, detect, investigate, and respond to advanced threats
@@ -28,9 +28,14 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
+subjects:
+- cloud-security
+- information-protection-governance
+- insider-risk
+- security
+- threat-protection
 units:
 - learn.wwl.introduction-to-security-solutions-microsoft-365.introduction
 - learn.wwl.introduction-to-security-solutions-microsoft-365.enhance-your-email-security-using-microsoft-defender-for-office-365
@@ -38,6 +43,7 @@ units:
 - learn.wwl.introduction-to-security-solutions-microsoft-365.protect-your-enterprise-network-against-advanced-threats
 - learn.wwl.introduction-to-security-solutions-microsoft-365.protect-against-cyber-attacks-using-threat-intelligence
 - learn.wwl.introduction-to-security-solutions-microsoft-365.provide-insight-into-suspicious-activity-using-microsoft-cloud-app-security
+- learn.wwl.introduction-to-security-solutions-microsoft-365.review-security-reports-microsoft-365-defender
 - learn.wwl.introduction-to-security-solutions-microsoft-365.knowledge-check
 - learn.wwl.introduction-to-security-solutions-microsoft-365.summary
 badge:

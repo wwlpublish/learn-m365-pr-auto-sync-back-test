@@ -1,0 +1,7 @@
+### YamlMime:AchievementDetail
+achievementUid: learn-m365.msgraph-dotnet-core-show-user-emails.badge
+metadata:
+  title: >-
+    Microsoft Badge: Show a user's emails in an ASP.NET Core app with Microsoft
+    Graph was issued by Microsoft
+socialImageUrl: /learn/achievements/graph-user-email-social.png

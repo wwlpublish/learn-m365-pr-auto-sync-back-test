@@ -29,6 +29,9 @@ roles:
 products:
   - m365
   - office-teams
+subjects:
+- communication
+- collaboration
 units:
   - learn-m365.msteams-conversation-bots.1-introduction
   - learn-m365.msteams-conversation-bots.2-conversation-bots

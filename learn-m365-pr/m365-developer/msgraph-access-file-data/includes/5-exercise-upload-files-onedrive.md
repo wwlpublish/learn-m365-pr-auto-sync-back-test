@@ -13,7 +13,7 @@ Open a browser and navigate to the [Azure Active Directory admin center (https:/
 
 Select **Azure Active Directory** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
+  ![Screenshot of the App registrations.](../media/azure-ad-portal-home.png)
 
 Select **Manage > App registrations** in the left-hand navigation.
 
@@ -23,17 +23,17 @@ Select **API Permissions** in the left-hand navigation panel.
 
 Select the **Add a permission** button.
 
-![Screenshot of the Add permission button](../media/05-azure-ad-portal-new-app-permissions-02.png)
+![Screenshot of the Add permission button.](../media/05-azure-ad-portal-new-app-permissions-02.png)
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
-![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-03.png)
+![Screenshot of Microsoft Graph in the Request API permissions panel.](../media/azure-ad-portal-new-app-permissions-03.png)
 
 When prompted for the type of permission, select **Delegated permissions**.
 
 Enter **Files.ReadWrite** in the **Select permissions** search box and select the **Files.ReadWrite** permission, followed by the **Add permission** button at the bottom of the panel.
 
-![Screenshot of the Files.ReadWrite permission in the Request API permissions panel](../media/05-azure-ad-portal-new-app-permissions-04.png)
+![Screenshot of the Files.ReadWrite permission in the Request API permissions panel.](../media/05-azure-ad-portal-new-app-permissions-04.png)
 
 In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Yes** button in the consent dialog to grant all users in your organization this permission.
 
@@ -43,21 +43,10 @@ In this section, you'll update the .NET console app to upload a small file to th
 
 Create a text file named **smallfile.txt** and fill it with a few paragraphs of text. Save this file to the root of the .NET Core console app's folder.
 
-Locate the **Program.cs** file from the application you created in a previous unit in this module.
-
-First, update the permission requests to include the new permission added to the app. Locate the `CreateAuthorizationProvider` method. In this method, add the new permission as another scope to the list of existing scopes:
+Locate the **Program.cs** file from the application you created in a previous unit in this module. Within the `Main` method, locate the following line:
 
 ```csharp
-List<string> scopes = new List<string>();
-scopes.Add("User.Read");
-scopes.Add("Files.Read");
-scopes.Add("Files.ReadWrite");
-```
-
-Within the `Main` method, locate the following line:
-
-```csharp
-var client = GetAuthenticatedGraphClient(config, userName, userPassword);
+Console.WriteLine("Hello " + profileResponse.DisplayName);
 ```
 
 Delete all code within the `Main` method after the above line.
@@ -89,17 +78,19 @@ dotnet build
 dotnet run
 ```
 
-After entering the username and password of a user, the path to the new file will be written to the console:
+You now need to authenticate with Azure Active Directory. A new tab in your default browser should open to a page asking you to sign in. After you've logged in successfully, you'll be redirected to a page displaying the message, **"Authentication complete. You can return to the application. Feel free to close this browser tab"**. You may now close the browser tab and switch back to the console application.
 
-![Screenshot of the console application showing the uploaded file from the user's OneDrive](../media/05-app-run-01.png)
+The path to the uploaded file will be written to the console:
+
+![Screenshot of the console application showing the uploaded file from the user's OneDrive.](../media/05-app-run-01.png)
 
 Open a browser and navigate to the URL written to the console, except omit the filename from the URL. After signing in using the same credentials used when testing the console app, you'll see the file listed in the user's OneDrive:
 
-![Screenshot of the user's OneDrive account with 'smallfile.txt' highlighted](../media/05-app-run-02.png)
+![Screenshot of the user's OneDrive account with 'smallfile.txt' highlighted.](../media/05-app-run-02.png)
 
 ## Update .NET Core console application to upload a large file
 
-In this section, update the console app upload a large file. 
+In this section, update the console app upload a large file.
 
 Obtain a large file, one at least 5 MB, and copy it to the root of the .NET Core console app's folder. Name the file **largefile.zip**.
 
@@ -173,13 +164,13 @@ dotnet build
 dotnet run
 ```
 
-After entering the username and password of a user, the console app will write the progress of uploading the file until it's complete:
+After you've signed in, the console app will write the progress of uploading the file until it's complete:
 
-![Screenshot of the console application showing uploading files to the user's OneDrive](../media/05-app-run-03.png)
+![Screenshot of the console application showing uploading files to the user's OneDrive.](../media/05-app-run-03.png)
 
 Open a browser and navigate to the user's OneDrive account to see the large file that has been uploaded:
 
-![Screenshot of the user's OneDrive account with 'largefile.zip' highlighted](../media/05-app-run-04.png)
+![Screenshot of the user's OneDrive account with 'largefile.zip' highlighted.](../media/05-app-run-04.png)
 
 ## Summary
 

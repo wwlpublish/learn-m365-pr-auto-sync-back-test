@@ -3,7 +3,7 @@ uid: learn-m365.m365-security-threat-protect
 metadata:
   title: Protect against threats with Microsoft Defender for Endpoint
   description: Learn how Microsoft Defender for Endpoint can help your organization stay secure.
-  ms.date: 04/06/2022
+  ms.date: 04/22/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -27,6 +27,9 @@ products:
 - m365
 - office-365
 - m365-threat-protection
+subjects:
+- threat-protection
+- cloud-security
 units:
 - learn-m365.m365-security-threat-protect.introduction
 - learn-m365.m365-security-threat-protect.practice-security-administration

@@ -21,6 +21,8 @@ roles:
 products: 
 - m365
 - azure
+subjects:
+- information-protection-governance
 modules:
 - learn-m365.m365-compliance-information-governance
 - learn-m365.m365-compliance-information-prevent-data-loss

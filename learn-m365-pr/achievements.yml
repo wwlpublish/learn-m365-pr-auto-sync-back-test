@@ -225,3 +225,18 @@ achievements:
   title: Reduce risk and simplify the discovery and audit process
   summary: Keeping and protecting important information includes how internal and external entities view, use, and access your organization's data. Microsoft 365 provides tools, services, and features that can help enterprises mitigate or prevent insider risk.
   iconUrl: /learn/achievements/reduce-risk-and-simplify-the-discovery-and-audit-process.svg
+- uid: learn.wwl.explore-password-management-microsoft-365.badge
+  type: badge
+  title: Explore password management in Microsoft 365
+  summary: This module examines various password-related tasks for user and admin accounts, such as creating and configuring password policies, configuring self-service password management, and configuring multifactor authentication.
+  iconUrl: /learn/achievements/microsoft-365-password-management.svg
+- uid: learn.wwl.plan-for-azure-ad-connect-implementation.badge
+  type: badge
+  title: Plan for Azure AD Connect implementation
+  summary: This module examines all the planning aspects that must be considered when running Azure AD Connect to implement directory synchronization with Microsoft 365.
+  iconUrl: /learn/achievements/azure-ad-connect-implementation.svg
+- uid: learn.wwl.implement-azure-ad-connect.badge
+  type: badge
+  title: Implement Azure AD Connect
+  summary: This module examines the Azure AD Connect installation requirements, the options for installing and configuring the tool, and how to monitor synchronization services using Azure AD Connect Health.
+  iconUrl: /learn/achievements/azure-ad-implement.svg

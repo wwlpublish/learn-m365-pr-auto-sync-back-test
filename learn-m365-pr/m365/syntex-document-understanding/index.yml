@@ -29,6 +29,9 @@ roles:
 products:
 - m365
 - sharepoint-syntex
+subjects:
+- classification-analysis
+- productivity
 units:
 - learn-m365.syntex-document-understanding.introduction
 - learn-m365.syntex-document-understanding.create-model

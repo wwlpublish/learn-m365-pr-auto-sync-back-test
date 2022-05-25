@@ -3,9 +3,9 @@ Using `MailItemsAccessed` audit records for forensic purposes is typically perfo
 Once you connect to the Exchange Online PowerShell, you can follow the steps below for using `MailItemsAccessed` audit records to investigate a compromised email account.
 
 1. Identify throttled mailboxes.
-2. Check for sync activities.
-3. Check sync activity context.
-4. Check for bind activities.
+1. Check for sync activities.
+1. Check sync activity context.
+1. Check for bind activities.
 
 ## Connect to Exchange Online PowerShell
 
@@ -27,8 +27,8 @@ To connect to the Exchange Online PowerShell V2, open Windows PowerShell and fol
     $UserCredential = Get-Credential
     ```
 
-2. Type the **`username`** and **`password`** when the Windows PowerShell credential request dialog box appears.
-3. Run the following command after providing your credentials:
+1. Type the **`username`** and **`password`** when the Windows PowerShell credential request dialog box appears.
+1. Run the following command after providing your credentials:
 
     ```PowerShell
     Connect-ExchangeOnline -Credential $UserCredential -ShowProgress $true
@@ -36,7 +36,7 @@ To connect to the Exchange Online PowerShell V2, open Windows PowerShell and fol
 
 Here you can see a successful connection to Exchange Online PowerShell V2.
 
- :::image type="content" source="../media/exchange-online.png" alt-text="Successful connection to Exchange Online PowerShell V2.":::
+:::image type="content" source="../media/exchange-online.png" alt-text="Screenshot of the PowerShell terminal showing a successful connection to Exchange Online PowerShell V2." border="false":::
 
 ### Accounts with multifactor authentication enabled
 
@@ -80,7 +80,7 @@ Here are the values used in the example:
 
 Here are the results of running the `Search-UnifiedAuditLog` command. Megan Bowen's mailbox (`meganb`) had one sync activity during the dates specified. The next step is to determine if the sync activity came from Megan Bowen (`meganb`) or the attacker.
 
- :::image type="content" source="../media/search-unifiedauditlog.png" alt-text="Screenshot of the **Search-UnifiedAuditLog** command results." lightbox="../media/search-unifiedauditlog.png":::
+:::image type="content" source="../media/search-unifiedauditlog.png" alt-text="Screenshot of the PowerShell terminal showing the results of the Search-UnifiedAuditLog command." border="false":::
 
 ## Check sync activity context
 
@@ -109,7 +109,7 @@ Here are the values used in the example:
 
 Here is the result of running the PowerShell command shown above. The `ClientIPAddress` and `ClientInfoString` details help to determine if the sync activity came from a legitimate source.
 
- :::image type="content" source="../media/search-mailboxauditlog.png" alt-text="Screenshot of the results from checking the sync activity context showing that user meganb accessed mail through Microsoft Exchange." lightbox="../media/search-mailboxauditlog.png":::
+ :::image type="content" source="../media/search-mailboxauditlog.png" alt-text="Screenshot of the PowerShell terminal showing the results from checking the sync activity context showing that user meganb accessed mail through Microsoft Exchange." lightbox="../media/search-mailboxauditlog.png" border="false":::
 
 ## Check for bind activities
 
@@ -121,7 +121,7 @@ Search-MailboxAuditLog -StartDate 05/13/2020 -EndDate 05/14/2020 -Identity megan
 
 Here is the result of running the PowerShell command shown above:
 
- :::image type="content" source="../media/search-unifiedauditlog-2.png" alt-text="Screenshot of the results from checking for bind activities showing all the times user meganb accessed mail through Microsoft Exchange on the specified date." lightbox="../media/search-unifiedauditlog-2.png":::
+ :::image type="content" source="../media/search-unifiedauditlog-2.png" alt-text="Screenshot of PowerShell terminal results from checking for bind activities showing all the times user meganb accessed mail through Microsoft Exchange on the specified date." lightbox="../media/search-unifiedauditlog-2.png" border="false":::
 
 Email messages that were accessed are identified by their `InternetMessageId` value. You can also check to see if any audit records have the same context as those records already associated with other attacker activity.
 

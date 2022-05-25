@@ -33,6 +33,9 @@ roles:
 products:
   - m365
   - ms-graph
+subjects:
+- custom-app-development
+- data-management
 units:
   - learn-m365.mgt-intro.1-introduction
   - learn-m365.mgt-intro.2-what-graph-toolkit

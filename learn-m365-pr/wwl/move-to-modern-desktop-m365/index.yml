@@ -25,6 +25,9 @@ roles:
 - administrator
 products:
 - m365
+subjects:
+- change-management
+- cloud-computing
 units:
 - learn-m365.move-to-modern-desktop-m365.1-introduction
 - learn-m365.move-to-modern-desktop-m365.2-plan-for-deployment

@@ -27,6 +27,9 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
+- collaboration
 units:
 - learn.wwl.configure-deploy-direct-routing.introduction
 - learn.wwl.configure-deploy-direct-routing.design-call-flows
