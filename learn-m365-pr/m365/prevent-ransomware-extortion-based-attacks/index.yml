@@ -1,5 +1,5 @@
 ### YamlMime:Module
-uid: learn-m365.prevent-ransomware-extortion-based-attacks
+uid: learn-m365.ransomware-prevent-attacks
 metadata:
   moduleType: standard
   title: Prevent ransomware and extortion-based attacks
@@ -31,11 +31,11 @@ products:
 subjects:
 - cloud-computing
 units:
-- learn-m365.prevent-ransomware-extortion-based-attacks.introduction
-- learn-m365.prevent-ransomware-extortion-based-attacks.describe-different-defense-mechanisms-used-prevent-ransomware
-- learn-m365.prevent-ransomware-extortion-based-attacks.steps-prevent-ransomware
-- learn-m365.prevent-ransomware-extortion-based-attacks.describe-how-antivirus-antimalware-tools-work
-- learn-m365.prevent-ransomware-extortion-based-attacks.knowledge-check
-- learn-m365.prevent-ransomware-extortion-based-attacks.summary
+- learn-m365.ransomware-prevent-attacks.introduction
+- learn-m365.ransomware-prevent-attacks.describe-different-defense-mechanisms
+- learn-m365.ransomware-prevent-attacks.steps-prevent-ransomware
+- learn-m365.ransomware-prevent-attacks.describe-antivirus-antimalware-tools
+- learn-m365.ransomware-prevent-attacks.knowledge-check
+- learn-m365.ransomware-prevent-attacks.summary
 badge:
-  uid: learn-m365.prevent-ransomware-extortion-based-attacks.badge
+  uid: learn-m365.ransomware-prevent-attacks.badge
