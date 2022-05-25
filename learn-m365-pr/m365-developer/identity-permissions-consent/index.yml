@@ -7,6 +7,8 @@ metadata:
   author: andrewconnell
   ms.author: suzanz
   ms.topic: interactive-tutorial
+  ms.custom:
+  - event-tier1-build-2022
   ms.prod: learning-m365
 title: Permissions and Consent Framework
 summary: The Microsoft identity platform implements the OAuth 2.0 authorization protocol. This protocol is a method that a third-party app can access web-hosted resources on behalf of a user. The web-hosted resources can define a set of permissions that you can use to implement functionality in smaller chunks. Developers can leverage one of two types of permissions supported by the Microsoft identity platform depending on the app scenario. In this module, you'll learn the different types of permissions and consent framework models for obtaining permissions from users to use them in apps.
@@ -29,12 +31,10 @@ roles:
 products:
 - m365
 - azure-active-directory
-subjects:
-- identity-access
 units:
 - learn-m365.identity-permissions-consent.1-introduction
 - learn-m365.identity-permissions-consent.2-understand-permissions-consent
-- learn-m365.identity-permissions-consent.3-exercise-understand-permissions-consent
+- learn-m365.identity-permissions-consent.3-exercise-create-a-single-page-app
 - learn-m365.identity-permissions-consent.4-delegated-permissions-consent
 - learn-m365.identity-permissions-consent.5-exercise-delegated-permissions-consent
 - learn-m365.identity-permissions-consent.6-application-permissions-consent

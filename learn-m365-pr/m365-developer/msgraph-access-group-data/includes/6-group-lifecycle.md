@@ -1,6 +1,6 @@
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO2X]
 
-In this unit, you’ll learn how to manage the lifecycle of groups including how to provision a Microsoft Teams team from an existing group.
+In this unit, you’ll learn how to manage the lifecycle of groups including how to create a Microsoft Teams team from an existing group.
 
 You can use Microsoft Graph to manage the complete lifecycle of groups, including Office 365 groups and security groups. This includes creating, updating, and deleting. You can even use Microsoft Graph to create a Microsoft Teams team from an Office 365 group.
 
@@ -122,4 +122,4 @@ private static async Task<Microsoft.Graph.Team> TeamifyGroupAsync(GraphServiceCl
 
 ## Summary
 
-In this unit, you learned how to manage the lifecycle of groups including how to provision a Microsoft Teams team from an existing group.
+In this unit, you learned how to manage the lifecycle of groups including how to create a Microsoft Teams team from an existing group.

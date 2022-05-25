@@ -12,7 +12,7 @@ Locate the **Program.cs** file from the application you created in a previous un
 Within the `Main` method, locate the following line
 
 ```csharp
-var client = GetAuthenticatedGraphClient(config, userName, userPassword);
+var client = GetAuthenticatedGraphClient(config);
 ```
 
 Delete all code within the `Main` method after the above line.
@@ -59,12 +59,6 @@ Update the `{{REPLACE_YOUR_ORG_DOMAIN}}` string with the domain of your organiza
 
 ![Screenshot of the Azure AD admin portal home](../media/azure-ad-portal-home-00.png)
 
-The last step is to update the permissions requested when the application runs. Locate the method `CreateAuthorizationProvider()`. Within this method, locate the code that creates a collection of scopes. Add the following permission request to the scopes collection:
-
-```csharp
-scopes.Add("User.ReadWrite.All");
-```
-
 ### Update the Azure AD application's permissions
 
 The last step is to grant the application the necessary permission to create a new user.
@@ -106,7 +100,9 @@ dotnet build
 dotnet run
 ```
 
-After entering the username and password of a user, you'll see the ID of the new user. Verify the user was created by going back to the Azure Active Directory admin center, selecting **Manage > Users** and finding the new user:
+You now need to authenticate with Azure Active Directory. A new tab in your default browser should open to a page asking you to sign-in. After you've logged in successfully, you'll be redirected to a page displaying the message, **"Authentication complete. You can return to the application. Feel free to close this browser tab"**. You may now close the browser tab and switch back to the console application.
+
+The application will display the ID of the new user. Verify the user was created by going back to the Azure Active Directory admin center, selecting **Manage > Users** and finding the new user:
 
 ![Screenshot of the Azure AD admin center showing the new user](../media/07-app-run-01.png)
 
@@ -161,7 +157,7 @@ dotnet build
 dotnet run
 ```
 
-After entering the username and password of a user, you'll see the ID of the updated user. Verify the user was updated by going back to the Azure Active Directory admin center, selecting **Manage > Users** and finding the user. Select the user and examine the **Mobile phone** property. It may take a moment to reflect the change, so be patient and keep refreshing the page:
+After you've logged in, you'll see the ID of the updated user. Verify the user was updated by going back to the Azure Active Directory admin center, selecting **Manage > Users** and finding the user. Select the user and examine the **Mobile phone** property. It may take a moment to reflect the change, so be patient and keep refreshing the page:
 
 ![Screenshot of the Azure AD admin center showing the updated user](../media/07-app-run-02.png)
 
@@ -194,7 +190,7 @@ dotnet build
 dotnet run
 ```
 
-After entering the username and password of a user, you'll see the application exit without error. Verify the user was deleted by going back to the Azure Active Directory admin center, selecting **Manage > Users** and trying to find the user. They shouldn't be present in the search results:
+After you've logged in, you'll see the application exit without error. Verify the user was deleted by going back to the Azure Active Directory admin center, selecting **Manage > Users** and trying to find the user. They shouldn't be present in the search results:
 
 ![Screenshot of the Azure AD admin center showing the missing user](../media/07-app-run-03.png)
 
