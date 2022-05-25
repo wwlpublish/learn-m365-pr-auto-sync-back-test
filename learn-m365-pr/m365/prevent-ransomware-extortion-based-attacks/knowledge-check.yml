@@ -1,0 +1,61 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.ransomware-prevent-attacks.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Check your knowledge of the module
+  ms.date: 05/20/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+
+content: |
+quiz:
+  questions:
+  - content: "How would you safeguard sensitive information that is being delivered via email?"
+    choices:
+    - content: "Email filtering."
+      isCorrect: false
+      explanation: "That's incorrect. Email filtering is a measure that lowers the possibility of malicious emails reaching employees."
+    - content: "Encrypt email messages and attachments."
+      isCorrect: true
+      explanation: "That's correct. You use encryption to obscure the existence of your email messages or files. The recipient must use a special code or password to access the information."
+    - content: "Linking the email to a device or an app."
+      isCorrect: false
+      explanation: "That's incorrect. Linking your email or registering your personal device is a step required in multi-factor authentication."
+  - content: "What are the key principles of the Zero Trust security framework?"
+    choices:
+    - content: "To verify identity, limit access, and assume breach."
+      isCorrect: true
+      explanation: "That's correct. The Zero Trust approach suggests never trust and always verify a user's identity before allowing access to the resources."
+    - content: "To scan, block, and eliminate malware."
+      isCorrect: false
+      explanation: "That's incorrect. These aren't the main principles of a Zero Trust model. An antimalware tool scans, blocks, and eliminates malware."
+    - content: "To flag malicious links, identify attackers, and assume breach."
+      isCorrect: false
+      explanation: "That's incorrect. These aren't the key principles of a Zero Trust framework."
+  - content: "How can you close security gaps within your organization?"
+    choices:
+    - content: "With the continuous practice of sandboxing."
+      isCorrect: false
+      explanation: "That's incorrect. Sandboxing is a technique used by an antimalware program to isolate malicious files."
+    - content: "By continuously assessing vulnerabilities."
+      isCorrect: true
+      explanation: "That's correct. Vulnerability management is the routine process of scanning, identifying, monitoring, and reporting on any security vulnerabilities that the attackers tend to exploit."
+    - content: "Ignoring security loopholes routinely."
+      isCorrect: false
+      explanation: "That's incorrect. Timely detection of security loopholes and implementation of strategies to combat ransomware is crucial to closing security gaps."
+  - content: "What is a quarantine process used by malware removal tools?"
+    choices:
+    - content: "It's a process where anti-virus tools delete system files that are infected with virus."
+      isCorrect: false
+      explanation: "That's incorrect. An anti-virus program quarantines the infected system files; deleting such files will cause further damage to the device or application."
+    - content: "It's a process where anti-virus tools backup data and files."
+      isCorrect: false
+      explanation: "That's incorrect. An anti-virus tool doesn't back up data and files."
+    - content: "It's a process where anti-virus tools detect, relocate, and isolate files that are infected with virus."
+      isCorrect: true
+      explanation: "That's correct. Quarantining a file means relocating and isolating the file for the purpose of cleaning it and making it virus free."
