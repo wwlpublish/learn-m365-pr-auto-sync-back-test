@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.prevent-ransomware-extortion-based-attacks.describe-different-defense-mechanisms-used-prevent-ransomware
+title: Describe different defense mechanisms used to prevent ransomware
+metadata:
+  unitType: learning-content
+  title: Describe different defense mechanisms used to prevent ransomware
+  description: Identifying vulnerabilities enables you to focus on defense mechanisms you can employ to prevent ransomware.
+  ms.date: 05/20/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 7
+content: |
+  [!include[](includes/describe-different-defense-mechanisms-used-prevent-ransomware.md)]
