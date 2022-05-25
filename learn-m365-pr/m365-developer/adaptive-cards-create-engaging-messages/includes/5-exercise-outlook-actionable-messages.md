@@ -484,7 +484,7 @@ Run the following command to run the console application:
 dotnet run
 ```
 
-After entering the username and password of a user, you'll see a message than an email was sent.
+After entering the username and password of a user, you'll see a message that an email was sent.
 
 ![Screenshot of the console application confirming the email was sent.](../media/05-send-mail-test-01.png)
 
