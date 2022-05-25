@@ -27,7 +27,7 @@ To propagate the attack, the cybercriminal might have snooped around the device 
 
 Nowadays, we're surrounded by so many devices, user accounts, and networks that it would be difficult to manually identify a complete attack trajectory. This problem is exacerbated for organizations, because they rely on a much larger scale of devices, users, and complex networks. Fortunately, there are clever antimalware tools that can identify the attack trajectory from entry points, along with any suspected attack related activities, mapped across all affected devices. A trajectory could look like this:
 
-:::image type="content" source="../media/potential-trajectory.png" alt-text="Diagram that shows a map of devices and users in a path." border="false":::
+:::image type="content" source="../media/potential-trajectory.png" alt-text="Diagram that shows a map of devices and users in a path." lightbox="../media/potential-trajectory.png" border="false":::
 
 This diagram shows how a potential trajectory could be mapped out. It represents how an attacker could get to a key user in an organization, like a global manager.
 
