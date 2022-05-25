@@ -81,6 +81,7 @@ You can use antiphishing and antispam protection tools to defend yourself and yo
 
 Ransomware attacks will often rely on phishing campaigns where the attacker sends out emails that appear legitimate, but contain malicious attachments, instructions, or links. The following video shows what a typical suspicious email might look like, and what to do if you spot one:
 
+> [!div class="centered"]
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4EIXC]
 
 Common red flags to look for include:
