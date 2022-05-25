@@ -20,6 +20,9 @@ roles:
 - administrator
 products: 
 - m365
+subjects:
+- modern-work
+- employee-engagement
 modules:
 - learn-m365.viva-topics-intro
 - learn-m365-pr.viva-topics-planning

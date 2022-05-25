@@ -28,6 +28,9 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- modern-work
+- infrastructure
 units:
 - learn.wwl.explore-windows-client.introduction
 - learn.wwl.explore-windows-client.describe-windows-client

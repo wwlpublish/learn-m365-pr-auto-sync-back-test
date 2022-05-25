@@ -10,7 +10,7 @@ Microsoft Graph provides access to data stored across Microsoft 365 services. Cu
 
 ## Learning objectives
 
-In this module, you will:
+In this module, you'll:
 
 - Use Microsoft Graph to integrate a user photo into an application
 

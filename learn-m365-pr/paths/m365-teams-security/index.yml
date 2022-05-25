@@ -19,6 +19,9 @@ roles:
 - administrator
 products: 
 - office-teams
+subjects:
+- compliance
+- collaboration
 modules:
 - learn-m365.teams.securing-environment
 - learn-m365.teams.protect-identity-access

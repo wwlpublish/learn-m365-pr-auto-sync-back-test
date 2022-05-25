@@ -18,6 +18,6 @@ By the end of this module, you'll be able to:
 
 ## Additional resources
 
-Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [MicrosoftGraph/msgraph-access-group-data](https://github.com/microsoftgraph/msgraph-access-group-data).
+Refer to the following repository for more resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [MicrosoftGraph/msgraph-access-group-data](https://github.com/microsoftgraph/msgraph-access-group-data).
 
 This module is also available as a screencast: [Manage Group Lifecycle with Microsoft Graph](https://youtube.com/playlist?list=PLWZJrkeLOrbaZFI_u92HB27amaNbTFZne)

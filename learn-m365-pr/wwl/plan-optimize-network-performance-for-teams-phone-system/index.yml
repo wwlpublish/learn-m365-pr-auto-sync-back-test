@@ -32,6 +32,10 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
+- networking
+- productivity
 units:
 - learn.wwl.plan-optimize-network-performance-for-teams-phone-system.introduction
 - learn.wwl.plan-optimize-network-performance-for-teams-phone-system.understand-teams-network-requirements

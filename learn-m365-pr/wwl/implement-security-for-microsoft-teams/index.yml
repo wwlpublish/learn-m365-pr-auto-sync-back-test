@@ -28,6 +28,9 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- security
+- collaboration
 units:
 - learn.wwl.implement-security-for-microsoft-teams.introduction
 - learn.wwl.implement-security-for-microsoft-teams.configure-conditional-access-multifactor-authentication

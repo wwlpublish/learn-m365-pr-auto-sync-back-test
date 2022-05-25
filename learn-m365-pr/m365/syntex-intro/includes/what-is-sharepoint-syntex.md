@@ -24,4 +24,4 @@ At Contoso, form processing could handle items such as sales contracts. These co
 
 Understanding your content allows for better organization. Organization increases management and governance options for all your data. When content is properly tagged and labeled, you have better control over your data and can follow regulations more easily. Being able to correctly process data is key to ensuring that it is secure and accurate.  
 
-Contoso receives and handles sensitive client information. Being able to easily locate and dispose of this data when appropriate will the company and its clients up for compliance and data governance success and help Accounting meet their deadline.
+Contoso receives and handles sensitive client information. Being able to easily locate and dispose of this data when appropriate will set the company and its clients up for compliance and data governance success and help Accounting meet their deadline.

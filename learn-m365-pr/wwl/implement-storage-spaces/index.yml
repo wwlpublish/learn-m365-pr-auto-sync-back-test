@@ -27,6 +27,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- storage
 units:
 - learn.wwl.implement-storage-spaces.introduction
 - learn.wwl.implement-storage-spaces.explore-storage-spaces

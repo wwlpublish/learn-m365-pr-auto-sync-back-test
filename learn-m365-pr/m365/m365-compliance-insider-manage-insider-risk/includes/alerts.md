@@ -9,7 +9,7 @@ The insider risk Alert dashboard allows you to view and take action on alerts ge
   - Average time to resolve medium severity alerts, listed in hours, days, or months.
   - Average time to resolve low severity alerts, listed in hours, days, or months.
 
-:::image type="content" source="../media/resolve-alerts.png" alt-text="Resolve alerts" lightbox="../media/resolve-alerts.png":::
+:::image type="content" source="../media/resolve-alerts.png" alt-text="Screenshot of the Alerts tab that shows 3 alerts currently need review in addition to a chart of the open alerts over the past 30 days, and a list of each alert." lightbox="../media/resolve-alerts.png" border="false":::
 
 > [!NOTE]
 > Insider risk management uses built-in alert throttling to help protect and optimize your risk investigation and review experience. This throttling guards against issues that might result in an overload of policy alerts, such as misconfigured data connectors or DLP policies. As a result, there might be a delay in displaying new alerts for a user.

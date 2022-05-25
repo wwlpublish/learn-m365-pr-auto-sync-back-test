@@ -30,6 +30,10 @@ roles:
 products:
 - office-teams
 - microsoft-teams-phone
+subjects:
+- communication
+- device-management
+- migration
 units:
 - learn-m365.teams.migrate-direct-routing.1-introduction
 - learn-m365.teams.migrate-direct-routing.2-prepare-migrate-direct-routing

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.engaged-reports-with-viva-goals.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: Introduction
+  description: Learn how Viva Goals provides visibility on a wide range of data
+  ms.date: 05/11/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

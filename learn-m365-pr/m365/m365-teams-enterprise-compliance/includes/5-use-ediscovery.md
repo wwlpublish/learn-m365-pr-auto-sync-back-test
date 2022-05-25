@@ -2,7 +2,7 @@ If there's a possibility of legal action involving your company, you must be abl
 
 In your firm of legal advisors, you have occasionally had conflicts with customers or other interested parties and have had to submit materials as evidence in legal actions. You want to make sure that, when such problems arise, you can locate and hold data from Teams such as files and chat items.
 
-Here, you'll learn how to use eDiscovery features in Microsoft 365 to capture information from Teams communications.
+Here, you'll learn how to use eDiscovery features in Microsoft Purview to capture information from Teams communications.
 
 ## What is eDiscovery?
 
@@ -89,7 +89,7 @@ You can also export the results of multiple searches - see the documentation onl
 
 ## Learn more
 
-- [eDiscovery in Microsoft 365](/microsoft-365/compliance/ediscovery)
+- [eDiscovery in Microsoft Purview](/microsoft-365/compliance/ediscovery)
 - [Content Search](/microsoft-365/compliance/content-search)
 - [Assign eDiscovery permissions in the Microsoft 365 Defender portal](/microsoft-365/compliance/assign-ediscovery-permissions)
 - [Create an eDiscovery hold](/microsoft-365/compliance/create-ediscovery-holds)

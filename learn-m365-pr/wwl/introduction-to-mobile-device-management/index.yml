@@ -30,6 +30,9 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- device-management
+- knowledge-management
 units:
 - learn.wwl.introduction-to-mobile-device-management.introduction
 - learn.wwl.introduction-to-mobile-device-management.explore

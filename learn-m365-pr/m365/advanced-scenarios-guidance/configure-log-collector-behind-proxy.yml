@@ -4,8 +4,8 @@ metadata:
   title: Configure a log collector to connect to Microsoft Defender for Cloud Apps from behind a proxy
   description: Advanced scenarios and guidance with Microsoft Defender for Cloud Apps
   ms.date: 03/11/2022
-  author: beccarobins
-  ms.author: beccarobins
+  author: dcurwin
+  ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Configure a log collector to connect to Microsoft Defender for Cloud Apps from behind a proxy

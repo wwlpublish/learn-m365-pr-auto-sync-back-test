@@ -31,6 +31,8 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- identity-access
 units:
 - learn.wwl.explore-azure-active-directory.introduction
 - learn.wwl.explore-azure-active-directory.examine-azure-active-directory

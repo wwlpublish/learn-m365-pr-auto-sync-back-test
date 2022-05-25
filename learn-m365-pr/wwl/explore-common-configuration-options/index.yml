@@ -30,6 +30,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- modern-work
 units:
 - learn.wwl.explore-common-configuration-options.introduction
 - learn.wwl.explore-common-configuration-options.customize-user-interface

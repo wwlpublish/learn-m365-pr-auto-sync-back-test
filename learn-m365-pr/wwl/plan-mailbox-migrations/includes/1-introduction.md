@@ -29,4 +29,3 @@ After completing this module, you'll be able to:
  -  Describe the migration and coexistence strategies with Exchange Online.
  -  Describe considerations that affect which migration option to use.
  -  Determine whether DNS MX records must be changed during a mailbox migration.
- -  Use FastTrack to move mailboxes.

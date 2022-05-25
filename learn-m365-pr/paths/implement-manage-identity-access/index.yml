@@ -22,12 +22,14 @@ roles:
 - technology-manager
 products:
 - azure-active-directory
+subjects:
+- identity-access
 modules:
 - learn.wwl.create-configure-manage-identities
 - learn.wwl.introduction-to-identity-synchronization
 - learn.wwl.implement-manage-hybrid-identity
 - learn.wwl.implement-manage-external-identities
-- learn.wwl.explore-password-management-microsoft-365
+- learn.wwl.manage-secure-user-access-microsoft-365
 - learn.wwl.manage-user-authentication
 - learn.wwl.plan-implement-administer-conditional-access
 - learn.wwl.plan-implement-privileged-access

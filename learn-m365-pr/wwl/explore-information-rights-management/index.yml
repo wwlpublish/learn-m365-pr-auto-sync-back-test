@@ -32,6 +32,8 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- information-protection-governance
 units:
 - learn.wwl.explore-information-rights-management.introduction
 - learn.wwl.explore-information-rights-management.identify-encryption-options-available-microsoft-365

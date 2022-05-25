@@ -31,6 +31,10 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- it-management-monitoring
+- security
+- device-management
 units:
 - learn.wwl.enroll-devices-use-microsoft-intune.introduction
 - learn.wwl.enroll-devices-use-microsoft-intune.manage-mobile-devices-with-intune

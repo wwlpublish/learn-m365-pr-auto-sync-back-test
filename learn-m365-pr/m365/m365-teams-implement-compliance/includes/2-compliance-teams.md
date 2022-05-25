@@ -31,7 +31,7 @@ If you want to recruit and keep the best employees from all communities, it's es
 
 Inappropriate communications can also bring your company into disrepute if they're obtained by the news media and published.
 
-To help prevent inappropriate communications in your company, Microsoft built communications compliance into Microsoft 365. You can use pre-defined compliance policies supplied by Microsoft or create your own custom policies to scan internal and external communications in Microsoft 365. Items that match policies are forwarded to reviewers so that they can take action to mitigate the problem. For example, the reviewer might delete the item and instruct the user to undertake a compliance training course.
+To help prevent inappropriate communications in your company, Microsoft built communications compliance into Microsoft Purview. You can use pre-defined compliance policies supplied by Microsoft or create your own custom policies to scan internal and external communications in Microsoft Purview. Items that match policies are forwarded to reviewers so that they can take action to mitigate the problem. For example, the reviewer might delete the item and instruct the user to undertake a compliance training course.
 
 Because Microsoft Teams is built on Microsoft 365, communications compliance policies automatically apply to Teams content including one-on-one or group chats.
 

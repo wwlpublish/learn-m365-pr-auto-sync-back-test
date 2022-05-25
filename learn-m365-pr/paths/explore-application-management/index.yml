@@ -25,6 +25,8 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- development-tools
 modules:
 - learn.wwl.implement-mobile-application-management
 - learn.wwl.deploy-update-applications

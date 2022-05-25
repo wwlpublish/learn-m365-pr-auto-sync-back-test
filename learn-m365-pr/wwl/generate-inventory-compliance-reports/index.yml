@@ -30,6 +30,8 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- compliance
 units:
 - learn.wwl.generate-inventory-compliance-reports.introduction
 - learn.wwl.generate-inventory-compliance-reports.report-enrolled-devices-inventory-intune
