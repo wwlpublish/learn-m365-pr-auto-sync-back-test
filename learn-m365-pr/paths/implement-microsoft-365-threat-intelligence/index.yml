@@ -3,7 +3,7 @@ uid: learn.wwl.implement-microsoft-365-threat-intelligence
 metadata:
   title: Implement threat protection by using Microsoft 365 Defender
   description: Implement threat protection by using Microsoft 365 Defender
-  ms.date: 05/19/2022
+  ms.date: 05/25/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -27,16 +27,6 @@ products:
 - m365
 - office-365
 subjects:
-- business-applications
-- cloud-computing
-- cloud-security
-- collaboration
-- communication
-- development-tools
-- identity-access
-- information-protection-governance
-- insider-risk
-- security
 - threat-protection
 modules:
 - learn.wwl.introduction-to-microsoft-365-threat-intelligence
