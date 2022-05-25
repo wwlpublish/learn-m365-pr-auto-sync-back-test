@@ -25,7 +25,7 @@ Companies are faced with stark and difficult decisions. They either pay the rans
 - The risk of a leak of confidential data into the public domain.
 - Potential loss of life if wireless data is disrupted.
 
-It’s important to remember that you’re dealing with cybercriminals, so there are no guarantees. Often, some data remains inaccessible or is sold on the black market even though a ransom has been paid.
+It's important to remember that you're dealing with cybercriminals, so there are no guarantees. Often, some data remains inaccessible or is sold on the black market even though a ransom has been paid.
 
 ## The growth of ransomware as an industry
 
@@ -52,6 +52,6 @@ Within the cybercriminal environment, ransomware started to become available to 
 
 ### Current landscape
 
-Extracting money via cyberattacks is now a complete business model, where cybercriminal organizations run large call centers to handle ransom payments. They target large businesses and high-profile individuals to maximize payouts. But small businesses and individuals are still targeted, so no-one is safe from attack. The COVID-19 pandemic has pushed many users to remote working, meaning more companies are at risk as extra traffic goes through the internet. It’s vitally important that every business ensures they follow all recommendations to minimize any threat of attack.
+Extracting money via cyberattacks is now a complete business model, where cybercriminal organizations run large call centers to handle ransom payments. They target large businesses and high-profile individuals to maximize payouts. But small businesses and individuals are still targeted, so no-one is safe from attack. The COVID-19 pandemic has pushed many users to remote working, meaning more companies are at risk as extra traffic goes through the internet. It's vitally important that every business ensures they follow all recommendations to minimize any threat of attack.
 
 As the scale of ransomware and extortion based attacks increases, law enforcement agencies around the world are now starting to take increased interest in tracking down these criminals.
