@@ -1,0 +1,45 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-sso.3-why-transact-apps
+metadata:
+  title: Why transact Microsoft Teams apps
+  description: In this unit, you'll learn how you can get your apps into the hands of customers with the Microsoft Commercial Marketplace.
+  ms.date: 05/25/2022
+  author: andrewconnell-msft
+  ms.author: suzanz
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Why transact Microsoft Teams apps
+durationInMinutes: 9
+content: |
+  [!include[](includes/3-why-transact-apps.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "How can users purchase and acquire your monetized Microsoft Teams app and transactable SaaS offer?"
+    choices:
+    - content: "Direct via Microsoft AppSource"
+      isCorrect: false
+      explanation: "While correct, the other options are also correct."
+    - content: "Direct via the Microsoft Teams App Store"
+      isCorrect: false
+      explanation: "While correct, the other options are also correct."
+    - content: "Through one of Microsoft's Cloud Solution Providers"
+      isCorrect: false
+      explanation: "While correct, the other options are also correct."
+    - content: "Through one of Microsoft's field sales"
+      isCorrect: false
+      explanation: "While correct, the other options are also correct."
+    - content: "All of these are valid options"
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "How do ISVs make a transactable SaaS offer available for purchase?"
+    choices:
+    - content: "By publishing it via the Microsoft Partner Center website"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "By publishing it to the Microsoft Teams App Store"
+      isCorrect: false
+      explanation: "This isn't correct because offers must be published through Partner Center that makes the offer available from Microsoft Teams App Store."
+    - content: "By publishing it to the Microsoft AppSource"
+      isCorrect: false
+      explanation: "This isn't correct because offers must be published through Partner Center that makes the offer available from Microsoft AppSource."

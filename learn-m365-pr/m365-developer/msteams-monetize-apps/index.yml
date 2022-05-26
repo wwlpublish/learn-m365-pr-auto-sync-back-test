@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-m365.msteams-sso
+metadata:
+  title: Build and sell Microsoft Teams apps in Microsoft AppSource and the Microsoft Teams store
+  description: In this module, you'll learn how to monetize your Microsoft Teams apps by selling them through Microsoft AppSource and the Microsoft Teams store.
+  ms.date: 05/25/2022
+  author: andrewconnell-msft
+  ms.author: suzanz
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Build and sell Microsoft Teams apps in Microsoft AppSource and the Microsoft Teams store
+summary: In this module, you'll learn how to monetize your Microsoft Teams apps by selling them through Microsoft AppSource and the Microsoft Teams store.
+abstract: |
+  At the end of this module, you should be able to:
+  - Publish a Microsoft Teams app to the Microsoft
+  - Use Partner Center to publish a transactable SaaS offer
+  - Publish a transactable SaaS offer for a Microsoft Teams app to the Microsoft Teams App Store
+  - Publish a transactable SaaS offer for a Microsoft Teams app to Microsoft AppSource
+prerequisites: |
+  - Experience creating Microsoft Teams apps
+  - Access to a Microsoft 365 tenant
+  - Access to a Partner Center account
+iconUrl: /learn/achievements/msteams-monetize-apps.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - m365
+  - office-teams
+units:
+  - learn-m365.msteams-monetize-apps.1-introduction
+  - learn-m365.msteams-monetize-apps.2-monetization-overview
+  - learn-m365.msteams-monetize-apps.3-why-transact-apps
+  - learn-m365.msteams-monetize-apps.4-technical-requirements
+  - learn-m365.msteams-monetize-apps.5-validation-guidance
+  - learn-m365.msteams-monetize-apps.6-summary
+badge:
+  uid: learn-m365.msteams-monetize-apps.badge

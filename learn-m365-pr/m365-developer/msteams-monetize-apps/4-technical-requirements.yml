@@ -1,0 +1,66 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-sso.4-technical-requirements
+metadata:
+  title: Technical requirements
+  description: In this unit, you'll learn what the technical requirements for creating a Microsoft Teams app you can monetize.
+  ms.date: 05/25/2022
+  author: andrewconnell-msft
+  ms.author: suzanz
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Technical requirements
+durationInMinutes: 27
+content: |
+  [!include[](includes/4-technical-requirements.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "ISVs must create a Microsoft Teams app and publish it in order to sell it to customers."
+    choices:
+    - content: "True"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "False"
+      isCorrect: false
+      explanation: "This answer isn't correct because the statement is accurate."
+  - content: "ISVs must create a transactable SaaS offer and publish it in Partner Center in order to sell it to customers."
+    choices:
+    - content: "True"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "False"
+      isCorrect: false
+      explanation: "This answer isn't correct because the statement is accurate."
+  - content: "In order to associate a Microsoft Teams apps with a transactable SaaS offers, which of the following statements is correct?"
+    choices:
+    - content: "ISVs must upload the Microsoft Teams app package to the specified offer in Partner Center in order to sell it to customers. This will link the app to the offer and publish it to the various distribution channels."
+      isCorrect: false
+      explanation: "The Microsoft Teams app package is uploaded to Partner Center as part of the validation process, but that the app must also be published to Microsoft AppSource."
+    - content: "ISVs must publish the SaaS offer in Partner Center, the Microsoft Teams app in Microsoft AppSource, and link the app to the offer with the ISVs Publisher ID and Offer ID either in the app's manifest file or in the Microsoft Teams Developer Portal."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "ISVs must publish the SaaS offer in Partner Center, the Microsoft Teams app in Microsoft AppSource, and link the app to the offer with the ISVs Publisher ID and Offer SKU either in the app's manifest file or in the Microsoft Teams Developer Portal."
+      isCorrect: false
+      explanation: "This isn't correct because the offer ID, not the SKU, must be linked to the Microsoft Teams app."
+  - content: "What types of transactable SaaS offers are supported for selling Microsoft Teams apps?"
+    choices:
+    - content: "Per-user license monthly subscription"
+      isCorrect: false
+      explanation: "While this type of license is supported, so are all the other ones."
+    - content: "Per-user license annual subscription"
+      isCorrect: false
+      explanation: "While this type of license is supported, so are all the other ones."
+    - content: "Flat-rate license purchased annually"
+      isCorrect: false
+      explanation: "While this type of license is supported, so are all the other ones."
+    - content: "All the above"
+      isCorrect: true
+      explanation: "Correct!"
+  - choice: "Partners must create multiple offers for different SKUs they support for their transactable SaaS offer."
+    choices:
+    - content: "False"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "True"
+      isCorrect: false
+      explanation: "This answer isn't correct because a partner can create multiple SKUs for an individual offer."
