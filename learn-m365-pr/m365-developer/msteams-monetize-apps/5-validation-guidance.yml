@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.msteams-sso.5-validation-guidance
+uid: learn-m365.msteams-monetize-apps.5-validation-guidance
 metadata:
   title: Validation guidance and common monetization scenarios
   description: In this unit, we'll cover policies and include some guidance on the app, offer verification process, and look at some common scenarios for creating a Microsoft Teams app and a transactable SaaS offer.

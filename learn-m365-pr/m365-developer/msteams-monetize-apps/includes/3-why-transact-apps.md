@@ -36,7 +36,7 @@ Let's look the benefits of using the different Microsoft marketplaces to distrib
 
 You can reach millions of Microsoft customers through Microsoft AppSource or the Microsoft Teams App Store.
 
-Microsoft has over 90,000 CSPs and field sales people who have visibility into of your app to promote and sell it to existing Microsoft customers. These apps can be purchased by customers in over 140 geographies and transactions can be completed in 17 different currencies. for more information, see [Geographic availability and currency support for the commercial marketplace](https://docs.microsoft.com/azure/marketplace/marketplace-geo-availability-currencies).
+Microsoft has over 90,000 CSPs and field sales people who have visibility into of your app to promote and sell it to existing Microsoft customers. These apps can be purchased by customers in over 140 geographies and transactions can be completed in 17 different currencies. for more information, see [Geographic availability and currency support for the commercial marketplace](/azure/marketplace/marketplace-geo-availability-currencies).
 
 ### Accelerate business
 

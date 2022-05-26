@@ -8,7 +8,7 @@ It's OK to call out that a feature may require a paid subscription but your Micr
 
 This policy is similar to other popular mobile app store policies.
 
-This is defined in the policy [1140.4.8 Mobile experience](https://docs.microsoft.com/legal/marketplace/certification-policies#114048-mobile-experience).
+This is defined in the policy [1140.4.8 Mobile experience](/legal/marketplace/certification-policies#114048-mobile-experience).
 
 ## Common reasons for validation failures
 
@@ -16,7 +16,7 @@ Let's look at some of the common reasons for validation failures.
 
 ### Missed Policy Requirements
 
-Review and ensure your transactable SaaS offer adheres to [Microsoft’s Commercial marketplace listing policies for SaaS offers](https://docs.microsoft.com/legal/marketplace/certification-policies#1000-software-as-a-service-saas).
+Review and ensure your transactable SaaS offer adheres to [Microsoft’s Commercial marketplace listing policies for SaaS offers](/legal/marketplace/certification-policies#1000-software-as-a-service-saas).
 
 ### Unsupported License Models
 
@@ -83,16 +83,16 @@ When you're building your transactable SaaS offer, Microsoft's Partner Center is
 
 ### Self-service support for your partners via Partner Center
 
-Partners in need of support should always begin by submitting a support ticket through [Partner Center Support](http://aka.ms/partnercentersupport).
+Partners in need of support should always begin by submitting a support ticket through [Partner Center Support](https://aka.ms/partnercentersupport).
 
 Once received, the partner will receive a ticket/case number, and the operations team will triage the ticket and assign to the respective subject matter expert.
 
-For more information on how to contact support, see: [Get support for the commercial marketplace program in Partner Center](https://docs.microsoft.com/azure/marketplace/support).
+For more information on how to contact support, see: [Get support for the commercial marketplace program in Partner Center](/azure/marketplace/support).
 
 ### Self-service support for your partners for Teams app submissions
 
 Partners in need of support for their Microsoft Teams app submissions should reach out to teamsubm@microsoft.com after they've submitted their application and heard from the team.
 
-For more information, see [Resolve issues with your store submission](https://docs.microsoft.com/microsoftteams/platform/concepts/deploy-and-publish/appsource/resolve-submission-issues).
+For more information, see [Resolve issues with your store submission](/microsoftteams/platform/concepts/deploy-and-publish/appsource/resolve-submission-issues).
 
 In this unit, we covered policies and include some guidance on the app, reviewed the  verification process, and looked at some common scenarios for creating a Microsoft Teams app and a transactable SaaS offer.

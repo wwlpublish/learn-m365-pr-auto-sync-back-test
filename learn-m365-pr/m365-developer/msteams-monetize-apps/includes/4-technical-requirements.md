@@ -32,7 +32,7 @@ Microsoft AppSource requires ISVs to create and publish a landing page. This is 
 
 The landing page is where people are going to end up and be presented with information about how to provision their services.
 
-For more information, see [Build the landing page for your transactable SaaS offer in the commercial marketplace](https://docs.microsoft.com/azure/marketplace/azure-ad-transactable-saas-landing-page).
+For more information, see [Build the landing page for your transactable SaaS offer in the commercial marketplace](/azure/marketplace/azure-ad-transactable-saas-landing-page).
 
 ### Create & publish a webhook to handle marketplace requests
 
@@ -42,8 +42,8 @@ For example, consider if the customer of the app has a billing change, or a cred
 
 For more information on creating the webhook, see:
 
-- [Azure AD and transactable SaaS offers in the commercial marketplace](https://docs.microsoft.com/azure/marketplace/azure-ad-saas)
-- [Commercial marketplace general listing and offer policies](https://docs.microsoft.com/legal/marketplace/certification-policies)
+- [Azure AD and transactable SaaS offers in the commercial marketplace](/azure/marketplace/azure-ad-saas)
+- [Commercial marketplace general listing and offer policies](/legal/marketplace/certification-policies)
 
 ### Understand the landing page and webhook in the app acquisition and provisioning process
 
@@ -211,7 +211,7 @@ When defining the pricing details, you configure the offer to charge one price f
 The offer pricing also supports billing users on a monthly or annually, all subscription money is collected at the time of purchase, and you can elect to offer a free trial for your app.
 
 > [!NOTE]
-> For more information on the transaction fee Microsoft charges for SaaS offers, see [Plan a SaaS offer for the commercial marketplace: SaaS billing](https://docs.microsoft.com/azure/marketplace/plan-saas-offer#saas-billing)
+> For more information on the transaction fee Microsoft charges for SaaS offers, see [Plan a SaaS offer for the commercial marketplace: SaaS billing](/azure/marketplace/plan-saas-offer#saas-billing)
 
 ### Best practices - selling flat-rate transactable offers
 
@@ -228,9 +228,9 @@ Once the Microsoft Teams marketplace supports flat-rate pricing, you can update 
 
 For more information, see:
 
-- [Create a SaaS offer](https://docs.microsoft.com/azure/marketplace/create-new-saas-offer)
-- [Configure SaaS offer properties](https://docs.microsoft.com/azure/marketplace/create-new-saas-offer-properties)
-- [How to test and publish a SaaS offer to the commercial marketplace](https://docs.microsoft.com/azure/marketplace/test-publish-saas-offer)
+- [Create a SaaS offer](/azure/marketplace/create-new-saas-offer)
+- [Configure SaaS offer properties](/azure/marketplace/create-new-saas-offer-properties)
+- [How to test and publish a SaaS offer to the commercial marketplace](/azure/marketplace/test-publish-saas-offer)
 
 ### Publish app offer in the marketplace
 
@@ -306,8 +306,8 @@ This is done from the **Offer Setup** page Partner Center.
 
 For more information on linking your app to the offer, see:
 
-- [Include a SaaS offer with your Microsoft Teams app: Configure your app for the SaaS offer](https://docs.microsoft.com/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/include-saas-offer#configure-your-app-for-the-saas-offer)
-- [Include a SaaS offer with your Microsoft Teams app: Link published Microsoft 365 App consumption clients](https://docs.microsoft.com/azure/marketplace/create-new-saas-offer#link-published-microsoft-365-app-consumption-clients)
+- [Include a SaaS offer with your Microsoft Teams app: Configure your app for the SaaS offer](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/include-saas-offer#configure-your-app-for-the-saas-offer)
+- [Include a SaaS offer with your Microsoft Teams app: Link published Microsoft 365 App consumption clients](/azure/marketplace/create-new-saas-offer#link-published-microsoft-365-app-consumption-clients)
 
 ## Step 5 - Submit for validation & publication
 
@@ -328,7 +328,7 @@ This is a good place to include a link to a video or an explanation that you'd l
 Finally, select the **Publish** button to start the verification process.
 
 
-- [Publish your app to the Microsoft Teams store (Overview)](https://docs.microsoft.com/microsoftteams/platform/concepts/deploy-and-publish/appsource/publish)
+- [Publish your app to the Microsoft Teams store (Overview)](/microsoftteams/platform/concepts/deploy-and-publish/appsource/publish)
 - [Publish your apps to the Microsoft Teams store (Microsoft 365 Developer Blog)](https://devblogs.microsoft.com/microsoft365dev/publish-your-apps-to-the-microsoft-teams-store/)
 
 In this unit, you learned what the technical requirements for creating a Microsoft Teams app you can monetize.
