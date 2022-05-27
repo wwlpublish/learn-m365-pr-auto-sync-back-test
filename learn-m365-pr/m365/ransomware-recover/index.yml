@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.ransomware-recover
+metadata:
+  moduleType: standard
+  title: Recover from ransomware attacks
+  description: Any organization or individual runs the risk of a ransomware attack. As such, the ability to promptly spot and respond to an attack remains essential for successful recovery. In this module, you'll learn how to detect, and recover from a ransomware attack.
+  ms.date: 05/20/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Recover from ransomware attacks
+summary: Any organization or individual runs the risk of a ransomware attack. As such, the ability to promptly spot and respond to an attack remains essential for successful recovery. In this module, you'll learn how to detect, and recover from a ransomware attack.
+abstract: |
+  By the end of this module, you'll be able to:
+    - Describe the different indicators of a ransomware attack.
+    - Describe the different measures used to identify an attack.
+    - Describe how to investigate a ransomware attack.
+    - Describe how to recover from a ransomware attack.
+prerequisites: |
+  - None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - student
+  - business-user
+  - business-owner
+  - administrator
+products:
+  - m365
+subjects:
+- cloud-computing
+units:
+- learn-m365.ransomware-recover.introduction
+- learn-m365.ransomware-recover.detect-ransomware-attack
+- learn-m365.ransomware-recover.describe-how-respond-ransomware-attack
+- learn-m365.ransomware-recover.knowledge-check
+- learn-m365.ransomware-recover.summary
+badge:
+  uid: learn-m365.ransomware-recover.badge
