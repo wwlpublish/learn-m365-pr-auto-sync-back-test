@@ -23,6 +23,8 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
 modules:
 - learn.wwl.introduce-troubleshooting-microsoft-teams
 - learn.wwl.troubleshoot-microsoft-teams-voice-issues

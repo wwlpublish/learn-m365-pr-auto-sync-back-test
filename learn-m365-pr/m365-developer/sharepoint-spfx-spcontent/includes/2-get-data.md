@@ -2,7 +2,7 @@ In this unit, you'll learn how to use the SharePoint Framework API to retrieve l
 
 ## SharePoint REST API
 
-The SharePoint REST API is the primary API for accessing data in a SharePoint site. The API is available to both client-side and server-side solutions. Client-side solutions mean its available to SharePoint Framework components and server-side solutions are those that run on a server but external to your SharePoint environment, such as an Azure Function or web app.
+The SharePoint REST API is the primary API for accessing data in a SharePoint site. The API is available to both client-side and server-side solutions. Client-side solutions mean it's available to SharePoint Framework components and server-side solutions are those that run on a server but external to your SharePoint environment, such as an Azure Function or web app.
 
 There are many different SDKs and libraries that developers can use to consume the SharePoint REST API, including the SharePoint client-side object model (CSOM) and the SharePoint Patterns and Practices (PnP) PnPJS library.
 
@@ -18,7 +18,7 @@ HTTP request headers are used not just for authorization, but to control the ODa
 
 ### OData Query Operators
 
-Here is an example of what an OData request looks like:
+Here's an example of what an OData request looks like:
 
 ```http
 https://{{sharepoint-site}}/sites/site/_api/web/lists/getbytitle('Countries')/items?

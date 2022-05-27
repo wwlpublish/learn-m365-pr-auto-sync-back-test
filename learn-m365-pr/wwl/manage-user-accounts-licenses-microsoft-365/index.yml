@@ -28,6 +28,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- data-management
+- identity-access
 units:
 - learn.wwl.manage-user-accounts-licenses-microsoft-365.introduction
 - learn.wwl.manage-user-accounts-licenses-microsoft-365.determine-user-identity-model-for-your-organization

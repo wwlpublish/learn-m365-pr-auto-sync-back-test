@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-microsoft-365-threat-intelligence.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 05/13/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "What's the basis of all incidents and indicate the occurrence of malicious or suspicious events in your environment?"
+    choices:
+    - content: "Alerts"
+      isCorrect: true
+      explanation: "Correct. Alerts are the basis of all incidents and indicate the occurrence of malicious or suspicious events in your environment. Alerts are typically part of a broader attack and provide clues about an incident. In Microsoft 365 Defender, related alerts are aggregated together to form incidents. Incidents will always provide the broader context of an attack. However, analyzing alerts can be valuable when deeper analysis is required."
+    - content: "Automated investigations"
+      isCorrect: false
+      explanation: "Incorrect. Automated investigations enable an organization's security operations team to dramatically increase the company's capacity to deal with security alerts and incidents."
+    - content: "Alert story"
+      isCorrect: false
+      explanation: "Incorrect. The alert story displays all assets or entities related to the alert in a process tree view."
+  - content: "What's advanced threat hunting based upon?"
+    choices:
+    - content: "Event or activity data"
+      isCorrect: false
+      explanation: "Incorrect. Event or activity data is a distinct type of advanced hunting data."
+    - content: "Kusto query language"
+      isCorrect: true
+      explanation: "Correct. Advanced hunting is based on the Kusto query language. A Kusto query is a read-only request to process data and return results. The request is stated in plain text, using a data-flow model designed to make the syntax easy to read, author, and automate. The query uses schema entities that are organized in a hierarchy similar to SQL Server's schema design: databases, tables, and columns."
+    - content: "Threat Analytics dashboard"
+      isCorrect: false
+      explanation: "Incorrect. The Threat Analytics dashboard displays a summary of the threats facing an organization. It isn't used as the basis of advanced threat hunting."
+  - content: "Which of the following Microsoft products powers Threat Intelligence in Microsoft 365?"
+    choices:
+    - content: "Microsoft AI"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft AI crunches the massive amounts of security data that's captured from across Microsoft’s portfolio, but it doesn't power Threat Intelligence in Microsoft 365."
+    - content: "Microsoft Threat Management"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Threat Management doesn't power Threat Intelligence in Microsoft 365."
+    - content: "Microsoft Intelligent Security Graph"
+      isCorrect: true
+      explanation: "Correct. Threat intelligence in Microsoft 365 is powered by the Microsoft Intelligent Security Graph. It consumes billions of packets of information traffic across the Microsoft 365 network, uses artificial intelligence and machine learning capabilities, and integrates this data across different security products to address different attack scenarios."

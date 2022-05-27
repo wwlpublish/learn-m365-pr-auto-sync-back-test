@@ -12,7 +12,7 @@ OAuth connectivity can be tested by running the following PowerShell command:
 Test-OAuthConnectivity -Service EWS -TargetUri https://outlook.office365.com/ews/exchange.asmx -Mailbox <on-prem>
 ```
 
-Once an organization has satisfied the prerequisites, it must complete the following steps to enable the ability to store attachments from an on-premises mailbox on OneDrive for Business:<br>
+Once an organization has satisfied the prerequisites, it must complete the following steps to enable the ability to store attachments from an on-premises mailbox on OneDrive for Business:
 
 1.  Decide which OWA mailbox policy will be used for this configuration.
 2.  Run the following PowerShell command (this example uses the default OWA mailbox policy):
@@ -34,7 +34,7 @@ Optionally, you can run **Restart-WebAppPool MSExchangeOWAAppPool** on your loca
 > [!NOTE]
 > If you're running a multi-geo Microsoft 365 tenant, you may need to create OWA Mailbox Policies for users aligned to the preferred location in which their data is stored. When doing so, you must provide the specific geo-related URL when configuring this feature.
 
-**Additional reading.** For more information, see [Configure document collaboration with OneDrive for Business and Exchange on-premises](/exchange/hybrid-deployment/set-up-document-collaboration?azure-portal=true).
+**Further reading.** For more information, see [Configure document collaboration with OneDrive for Business and Exchange on-premises](/exchange/hybrid-deployment/set-up-document-collaboration?azure-portal=true).
 
 ## Knowledge check
 

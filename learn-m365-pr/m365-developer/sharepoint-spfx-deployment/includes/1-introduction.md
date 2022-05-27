@@ -15,6 +15,6 @@ This module will address the topic of deploying your SharePoint Framework custom
 
 ## Additional resources
 
-Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Deploying SharePoint Framework components to production](https://github.com/SharePoint/sp-dev-training-spfx-deployment).
+Refer to the following repository for more resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Deploying SharePoint Framework components to production](https://github.com/SharePoint/sp-dev-training-spfx-deployment).
 
 This module is also available as a screencast: [SharePoint Framework Training - Developing with the SharePoint Framework: Deploying SharePoint Framework components to production](https://www.youtube.com/watch?v=DLi6ZviEIJ8&list=PLR9nK3mnD-OV-RPXQ3Lco845qoEy7VJoc)

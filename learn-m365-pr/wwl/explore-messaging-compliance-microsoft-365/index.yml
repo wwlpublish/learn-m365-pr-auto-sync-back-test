@@ -28,6 +28,9 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- compliance
+- communication
 units:
 - learn.wwl.explore-messaging-compliance-microsoft-365.introduction
 - learn.wwl.explore-messaging-compliance-microsoft-365.examine-message-policy-compliance

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.manage-secure-surface-devices.manage-surface-devices
+title: Manage Surface devices
+metadata:
+  unitType: learning-content
+  title: Manage Surface devices
+  description: ""
+  ms.date: 05/12/2022
+  author: temanteleary
+  ms.author: teleary
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/manage-surface-devices.md)]

@@ -54,7 +54,7 @@ quiz:
       - content: "Personal, Public, Business, Confidential, Highly Confidential"
         isCorrect: false
         explanation: "Microsoft makes suggestions that you can use to create your own sensitivity labels. “Business” is a custom sensitivity label."
-      - content: "Public, General, Confidential and Highly confidential"
+      - content: "Personal, Public, General, Confidential and Highly confidential"
         isCorrect: true
         explanation: "Correct. Microsoft makes suggestions that you can use to create your own sensitivity labels and these default labels can be modified."
       

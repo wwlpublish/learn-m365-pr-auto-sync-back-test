@@ -12,8 +12,10 @@ Now consider the scenario when a user receives a message from an external sender
 
 1.  The user selects the `www.spamlink.contoso.com` link. The user doesn't know that this URL is a phishing link that was previously identified by the service as malicious.
 2.  The organization’s Safe Links policy detects the link and redirects it to the secure server in Microsoft 365. The secure server determines the URL is malicious.
-3.  Because the link is malicious, the user is redirected to a protective shell. The shell alerts the user about the classification of the URL (see the following graphic).<br><br>:::image type="content" source="../media/malicious-website-warning-message-4bab9b14.png" alt-text="screenshot of warning message saying the website is malicious":::
-    <br><br>
+3.  Because the link is malicious, the user is redirected to a protective shell. The shell alerts the user about the classification of the URL (see the following graphic).
+    
+    :::image type="content" source="../media/malicious-website-warning-cc2435da.png" alt-text="Screenshot of warning message saying the website is malicious.":::
+    
 4.  The policy is selective enough to remove only the malicious link. When the user selects the link to **www.bing.com**, the user is successfully able to navigate to Bing.com as expected.
 
 > [!NOTE]
@@ -25,7 +27,7 @@ URL detonation combines elements of Safe Links and Safe Attachments into a singl
 
 When you select the link, the file is downloaded into the Safe Attachments sandbox environment and detonated just like an attachment. During this process, the recipient is redirected to a warning page like the one in the following screenshot, which lets the user know the file is being scanned.
 
-:::image type="content" source="../media/link-being-scanned-warning-message-d6484fab.png" alt-text="screenshot of warning message saying the link is being scanned":::
+:::image type="content" source="../media/link-being-scanned-warning-message-d6484fab.png" alt-text="Screenshot of warning message saying the link is being scanned.":::
 
 
 If the file is ultimately determined to be malicious, the user is redirected to the warning page like the one in the previous screenshot. The warning page advises the user the site is malicious.

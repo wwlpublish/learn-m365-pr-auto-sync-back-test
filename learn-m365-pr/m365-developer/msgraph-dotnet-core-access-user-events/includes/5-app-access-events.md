@@ -86,7 +86,6 @@ To show calendar events for the upcoming week, you need to define the start of w
 // Configure a calendar view for the current week
 var startOfWeek = DateTime.Now;
 var endOfWeek = startOfWeek.AddDays(7);
-
 ```
 
 These dates are then added to a `QueryOption` list that defines the range of events to select.
@@ -97,7 +96,6 @@ var viewOptions = new List<QueryOption>
   new QueryOption("startDateTime", startOfWeek.ToString("o")),
   new QueryOption("endDateTime", endOfWeek.ToString("o"))
 };
-
 ```
 
 A **GraphServiceClient** object (injected into the constructor of the Razor Page’s model class) is then used to call `Me.CalendarView` and the `viewOptions` list is passed into the `Request` method to limit the results. The code also includes the user’s preferred time zone by calling the `Header` method.

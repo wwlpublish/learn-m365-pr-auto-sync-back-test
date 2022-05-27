@@ -29,6 +29,8 @@ products:
 - azure
 - azure-virtual-machines
 - azure-migrate
+subjects:
+- migration
 units:
 - learn-m365.m365-azure-migrate-discover-assess.introduction
 - learn-m365.m365-azure-migrate-discover-assess.prepare-virtual-machine-discovery
@@ -38,4 +40,3 @@ units:
 
 badge: 
   uid: learn-m365.m365-azure-migrate-discover-assess.badges
-  

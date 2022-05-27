@@ -1,4 +1,4 @@
-This module will introduce you to leveraging the property pane for client-side web parts created with the SharePoint Framework.
+This module will introduce you to using the property pane for client-side web parts created with the SharePoint Framework.
 
 ## Prerequisites
 
@@ -15,6 +15,6 @@ This module will introduce you to leveraging the property pane for client-side w
 
 ## Additional resources
 
-Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Developing with the SharePoint Framework: Working with the Web Part Property Pane](https://github.com/SharePoint/sp-dev-training-spfx-webpart-proppane).
+Refer to the following repository for more resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Developing with the SharePoint Framework: Working with the Web Part Property Pane](https://github.com/SharePoint/sp-dev-training-spfx-webpart-proppane).
 
 This module is also available as a screencast: [SharePoint Framework Training - Developing with the SharePoint Framework: Working with the Web Part Property Pane](https://www.youtube.com/watch?v=4QLY6z3RGug&list=PLR9nK3mnD-OV-RPXQ3Lco845qoEy7VJoc)

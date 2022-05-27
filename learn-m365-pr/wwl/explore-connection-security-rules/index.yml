@@ -28,6 +28,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- security
 units:
 - learn.wwl.explore-connection-security-rules.introduction
 - learn.wwl.explore-connection-security-rules.explain-ipsec

@@ -25,6 +25,10 @@ roles:
 products:
   - m365-ems
   - defender-identity
+subjects:
+- threat-protection
+- cloud-security
+- identity-access
 units:
 - learn-m365-pr.defender-identity-defend-attacks.introduction
 - learn-m365-pr.defender-identity-defend-attacks.identify-attacks

@@ -27,6 +27,9 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
+- collaboration
 units:
 - learn.wwl.introduce-troubleshooting-microsoft-teams.introduction
 - learn.wwl.introduce-troubleshooting-microsoft-teams.describe-teams

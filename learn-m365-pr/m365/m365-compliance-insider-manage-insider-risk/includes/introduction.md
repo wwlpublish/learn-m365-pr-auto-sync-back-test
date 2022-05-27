@@ -1,6 +1,6 @@
 ## Components of a policy
 
-Insider risk management policies are created using pre-defined templates and policy conditions. The conditions define the risk indicators that correspond to particular risk activities that can be identified and examined in Microsoft 365 feature areas. These conditions also include the users added to the policy, which services are prioritized, and the monitoring time period.
+Insider risk management policies are created using pre-defined templates and policy conditions. The conditions define the risk indicators that correspond to particular risk activities that can be identified and examined in Microsoft Purview feature areas. These conditions also include the users added to the policy, which services are prioritized, and the monitoring time period.
 
 ## Policy dashboard
 

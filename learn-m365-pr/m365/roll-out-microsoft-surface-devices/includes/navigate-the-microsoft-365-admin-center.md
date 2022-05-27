@@ -16,8 +16,6 @@ You can configure the home page to show the information that's most relevant to 
 
 :::image type="content" source="../media/admin-center-home-page-cards.png" alt-text="Screenshot of the home page, showing five cards.":::
 
-!\[Icon indicating play video\](../media/overview-microsoft-365-admin-center.png)   Watch this video to see an example of changing cards and common tasks like adding users.
-
 ## Azure Active Directory
 
 In the next units, you'll see how to use Azure Active Directory (Azure AD) to control security features for users in your organization. For example, this is where you can enable a combined security registration experience and passwordless sign-in with Microsoft Authenticator. There are two links from the Microsoft 365 admin center, or you can go to [https://aad.portal.azure.com](https://aad.portal.azure.com/) in your browser.

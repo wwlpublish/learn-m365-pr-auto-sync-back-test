@@ -21,6 +21,9 @@ products:
 - office-teams
 - office-sp-framework
 - office-add-ins
+subjects:
+- custom-app-development
+- cloud-computing
 modules:
 - learn-m365-pr.understand-actionable-messages
 - learn-m365.intro-microsoft-teams-apps

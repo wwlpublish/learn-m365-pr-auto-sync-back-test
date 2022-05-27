@@ -2,8 +2,8 @@
 uid: learn-m365.sharepoint-spfx-teams-dev.5-exercise-conditional-logic
 metadata:
   title: Exercise - Add conditional logic for SharePoint or Microsoft Teams
-  description: In this exercise, you'll update the SharePoint Framework web part from the previous exercise to display different information depending on whether its running within a SharePoint or Microsoft Teams context.
-  ms.date: 03/07/2022
+  description: In this exercise, you'll update the SharePoint Framework web part from the previous exercise to display different information depending on whether it's running within a SharePoint or Microsoft Teams context.
+  ms.date: 05/02/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -20,17 +20,17 @@ quiz:
     - content: "You can't. Microsoft Teams renders tabs in Iframes, so the web part just knows it's loaded in the browser."
       isCorrect: false
       explanation: "The SharePoint Framework API includes a `microsoftTeams` property on the `this.context` object that is undefined if it's running in SharePoint. If it's running in Microsoft Teams, the property is populated."
-    - content: "Use the `this.context.microsoftTeams` object to determine if the web part is running in Microsoft Teams or SharePoint Online."
+    - content: "Use the `this.context.sdks.microsoftTeams` object to determine if the web part is running in Microsoft Teams or SharePoint Online."
       isCorrect: true
       explanation: "Correct!"
     - content: "Use the `this.context.isTeams` and `this.context.isSharePoint` properties to determine if the web part is running in Microsoft Teams or SharePoint Online."
       isCorrect: false
       explanation: "The `isTeams` and `isSharePoint` properties aren't valid properties."
-  - content: "Do you need to do any additional steps to SharePoint client-side web parts to access Microsoft Teams related information?"
+  - content: "Do you need to do any more steps to SharePoint client-side web parts to access Microsoft Teams related information?"
     choices:
     - content: "No, the web part has everything it needs to access properties like the current team name."
-      isCorrect: false
-      explanation: "To access Microsoft Teams context data, you need to import the @microsoft/teams-js package."
-    - content: "Yes, you need to import the @microsoft/teams-js package."
       isCorrect: true
       explanation: "Correct!"
+    - content: "Yes, you need to import the @microsoft/teams-js package."
+      isCorrect: false
+      explanation: "The @microsoft/teams-js package is included with all SPFx projects starting with v1.14."

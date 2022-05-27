@@ -29,6 +29,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- cloud-computing
+- collaboration
 units:
 - learn.wwl.explore-sharepoint-online.introduction
 - learn.wwl.explore-sharepoint-online.manage-local-site-permission-levels

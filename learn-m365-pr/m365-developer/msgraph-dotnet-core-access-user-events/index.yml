@@ -23,7 +23,7 @@ prerequisites: |
   - Basic understanding of [authentication and authorization](/learn/modules/getting-started-identity/?WT.mc_id=m365-30352-cxa) on Microsoft 365
   - Basic understanding of HTML, C#, and [ASP.NET Core](/aspnet/core/razor-pages/?WT.mc_id=m365-30352-cxa)
   - Basic understanding of [Microsoft Graph](/learn/modules/msgraph-intro-overview/?WT.mc_id=m365-30352-cxa)
-  - [.NET Core 5 (or higher) SDK installed](https://dot.net?WT.mc_id=m365-30352-cxa)
+  - [.NET Core 5 SDK installed](https://dot.net?WT.mc_id=m365-30352-cxa)
 iconUrl: /learn/achievements/graph-calendar-events.svg
 levels:
   - intermediate
@@ -33,6 +33,8 @@ products:
   - m365
   - ms-graph
   - dotnet-core
+subjects:
+- development-tools
 units:
   - learn-m365.msgraph-dotnet-core-access-user-events.1-introduction
   - learn-m365.msgraph-dotnet-core-access-user-events.2-exercise-configure-azure-ad-app

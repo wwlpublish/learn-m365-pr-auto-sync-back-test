@@ -25,6 +25,9 @@ products:
 - mem-configuration-manager
 - mem-intune
 - windows
+subjects:
+- business-applications
+- device-management
 modules:
 - learn.wwl.deploy-new-devices
 - learn.wwl.implement-dynamic-deployment-methods

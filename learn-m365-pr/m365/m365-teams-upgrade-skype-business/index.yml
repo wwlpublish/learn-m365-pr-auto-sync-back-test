@@ -26,6 +26,9 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- device-management
+- communication
 units:
 - learn-m365.m365-teams-upgrade-skype-business.introduction
 - learn-m365.m365-teams-upgrade-skype-business.upgrade-skype-online

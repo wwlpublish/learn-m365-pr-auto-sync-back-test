@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn-m365-pr.roll-out-microsoft-surface-with-windows-365
+metadata:
+  moduleType: standard
+  title: Roll out Microsoft Surface with Windows 365
+  description: In this module, you'll explore Windows 365 and learn how to create and use a virtualized cloud desktop on your Surface devices. Next, you'll learn how to use Microsoft Endpoint Manager to manage all your Surface devices at scale. Finally, you'll use Microsoft Endpoint Manager to configure and set up a Surface device to operate as a kiosk.
+  ms.date: 05/12/2022
+  author: temanteleary
+  ms.author: teleary
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Roll out Microsoft Surface with Windows 365
+summary: In this module, you'll explore Windows 365 and learn how to create and use a virtualized cloud desktop on your Surface devices. Next, you'll learn how to use Microsoft Endpoint Manager to manage all your Surface devices at scale. Finally, you'll use Microsoft Endpoint Manager to configure and set up a Surface device to operate as a kiosk.
+abstract: |
+  By the end of this module, you'll be able to:
+    - Describe the features and benefits of Windows 365.
+    - Describe a Surface device using Windows 365 Endpoint.
+    - Describe how to configure a device as a kiosk using Microsoft Endpoint Manager.
+prerequisites: |
+  - None.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - developer
+products:
+- m365
+units:
+- learn-m365-pr.roll-out-microsoft-surface-with-windows-365.introduction
+- learn-m365-pr.roll-out-microsoft-surface-with-windows-365.overview-windows-365
+- learn-m365-pr.roll-out-microsoft-surface-with-windows-365.why-use-surface-device-windows-365-endpoint
+- learn-m365-pr.roll-out-microsoft-surface-with-windows-365.configure-kiosk-computers-using-microsoft-endpoint-manager
+- learn-m365-pr.roll-out-microsoft-surface-with-windows-365.deploy-surface-windows-365-endpoint
+- learn-m365-pr.roll-out-microsoft-surface-with-windows-365.knowledge-check
+- learn-m365-pr.roll-out-microsoft-surface-with-windows-365.summary
+badge:
+  uid: learn-m365-pr.roll-out-microsoft-surface-with-windows-365.badge

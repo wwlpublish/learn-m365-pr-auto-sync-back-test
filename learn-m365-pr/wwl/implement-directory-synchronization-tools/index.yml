@@ -27,6 +27,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- cloud-computing
 units:
 - learn.wwl.implement-directory-synchronization-tools.introduction
 - learn.wwl.implement-directory-synchronization-tools.configure-prerequisites

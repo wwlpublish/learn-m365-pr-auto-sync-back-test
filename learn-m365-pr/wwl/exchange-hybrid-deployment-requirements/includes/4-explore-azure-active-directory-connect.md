@@ -51,7 +51,7 @@ Azure AD Connect supports the following mailbox migration scenarios:
 
 In hybrid scenarios, Azure AD Connect allows mail routing between on-premises and Microsoft 365 with a shared SMTP domain namespace or to use archive mailboxes stored in Exchange Online for on-premises mailboxes. This scenario allows on-premises/cloud coexistence for both Exchange Server 2019 or later, Skype for Business Server 2015, or Lync Server 2013.
 
-**Additional reading.** For more information, see [Hybrid identity documentation](/azure/active-directory/hybrid?azure-portal=true).
+**Further reading.** For more information, see [Hybrid identity documentation](/azure/active-directory/hybrid?azure-portal=true).
 
 ## Knowledge check
 

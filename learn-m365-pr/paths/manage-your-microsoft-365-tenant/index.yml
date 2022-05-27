@@ -25,6 +25,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- cloud-computing
+- productivity
 modules:
 - learn.wwl.configure-administrative-roles-microsoft-365
 - learn.wwl.manage-tenant-health-services-microsoft-365

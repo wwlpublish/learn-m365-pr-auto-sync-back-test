@@ -1,4 +1,3 @@
-
 In this section, we discuss the *Collection* and *Processing* phases of the EDRM model.
 
 > [!div class="centered"]
@@ -61,7 +60,7 @@ You can also generate your own sample from a search.
 
 Generating a sample lets you use parameters such as confidence level and confidence interval.
 
-:::image type="content" source="../media/sampling-parameters.png" alt-text="Screenshots that shows using parameters such as confidence level and confidence interval.":::
+:::image type="content" source="../media/sampling-parameters.png" alt-text="Screenshot that shows parameters such as confidence level and confidence interval." border="false":::
 
 ## Content indexing of data
 

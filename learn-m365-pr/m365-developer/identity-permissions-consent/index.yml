@@ -29,6 +29,8 @@ roles:
 products:
 - m365
 - azure-active-directory
+subjects:
+- identity-access
 units:
 - learn-m365.identity-permissions-consent.1-introduction
 - learn-m365.identity-permissions-consent.2-understand-permissions-consent

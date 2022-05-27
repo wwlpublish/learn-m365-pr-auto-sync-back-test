@@ -27,6 +27,10 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- information-protection-governance
+- compliance
+- identity-access
 modules:
 - learn.wwl.manage-retention-email
 - learn.wwl.troubleshoot-data-governance

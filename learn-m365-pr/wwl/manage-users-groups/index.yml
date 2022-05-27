@@ -28,6 +28,8 @@ roles:
 - administrator
 products:
 - windows
+subjects:
+- cloud-computing
 units:
 - learn.wwl.manage-users-groups.introduction
 - learn.wwl.manage-users-groups.explore-active-directory

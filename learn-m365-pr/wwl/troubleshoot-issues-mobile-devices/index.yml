@@ -28,6 +28,8 @@ products:
 - office-exchange-server
 - office-outlook
 - office-exchange-online
+subjects:
+- device-management
 units:
 - learn.wwl.troubleshoot-issues-mobile-devices.introduction
 - learn.wwl.troubleshoot-issues-mobile-devices.troubleshoot-that-access-exchange-online
