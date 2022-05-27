@@ -16,11 +16,11 @@ If you are using your Surface Hub in a kiosk or public setting, you will want to
 1. Select **Create**.
 1. Add a name, and then select **Next**.
 1. You can now browse and choose from preset device restriction settings for Surface Hub across the following categories:
-    1. Apps and experience
-    1. Azure operational insights
-    1. Maintenance
-    1. Session
-    1. Wireless projection
+    - Apps and experience
+    - Azure operational insights
+    - Maintenance
+    - Session
+    - Wireless projection
 
 ## Configuration policy template restrictions for Surface Hub
 
