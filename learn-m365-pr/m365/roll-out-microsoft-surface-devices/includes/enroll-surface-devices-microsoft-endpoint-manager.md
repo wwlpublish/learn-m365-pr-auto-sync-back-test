@@ -94,7 +94,7 @@ To import the Surface device in the Microsoft Endpoint Manager, follow these ste
 1. In the **Devices | Overview (Preview)** pane, select **All devices**.
 1. The device is listed if it has been successfully imported.
 
-## Interactive Guide
+## Interactive guide
 
 Now that you've learned the steps to enroll a Surface device using Microsoft Endpoint Manager, you can follow this interactive to do them for yourself.
 
