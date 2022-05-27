@@ -10,7 +10,7 @@ You'll use Node.js to create the custom Outlook add-in in this module. The exerc
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
 - [Node.js](https://nodejs.org/) (*the latest [LTS](https://nodejs.org/about/releases) version*)
-- NPM v6.x or higher (installed with Node.js)
+- npm v6.x or higher (installed with Node.js)
 - [Yeoman](https://yeoman.io/) (v3.x or higher) and [Yeoman generator for Office Add-ins](/office/dev/add-ins/develop/yeoman-generator-overview) (v1.8.x or higher). To install these tools globally, run the following command via the command prompt.
 
   ```console
@@ -81,13 +81,13 @@ The add-in that you'll create in this tutorial will read [gists](https://gist.gi
     ```
 
     > [!NOTE]
-    > When you run the `yo office` command, you may receive prompts about the data collection policies of Yeoman and the Office Add-in CLI tools. Use the information that's provided to respond to the prompts as you see fit.
+    > When you run the **yo office** command, you may receive prompts about the data collection policies of Yeoman and the Office Add-in CLI tools. Use the information that's provided to respond to the prompts as you see fit.
 
-    When prompted, provide the following information to create your add-in project.
-    - **Choose a project type** - `Office Add-in Task Pane project`
-    - **Choose a script type** - `JavaScript`
-    - **What do you want to name your add-in?** - `Git the gist`
-    - **Which Office client application would you like to support?** - `Outlook`
+    When prompted, provide the following information to create your add-in project:
+    - **Choose a project type** - Office Add-in Task Pane project
+    - **Choose a script type** - JavaScript
+    - **What do you want to name your add-in?** - Git the gist
+    - **Which Office client application would you like to support?** - Outlook
 
     ![Screenshot of the prompts and answers for the Yeoman generator.](../media/03-yeoman-prompts-2.png)
 
@@ -117,7 +117,7 @@ The add-in that you'll create in this tutorial will read [gists](https://gist.gi
 1. Open your project in VS Code or your preferred code editor.
 
    > [!TIP]
-   > On Windows, you can navigate to the root directory of the project via the command line and then enter `code .` to open that folder in VS Code. On Mac, you'll need to [add the code command to the path](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) before you can use that command to open the project folder in VS Code.
+   > On Windows, you can navigate to the root directory of the project via the command line and then enter **code .** to open that folder in VS Code. On macOS, you'll need to [add the code command to the path](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) before you can use that command to open the project folder in VS Code.
 
 ### Update the manifest
 
@@ -125,7 +125,7 @@ The manifest for an add-in influences how it appears in Outlook. It defines the 
 
 #### Specify basic information
 
-Make the following updates in the **manifest.xml** file to specify some basic information about the add-in.
+Make the following updates in the **manifest.xml** file to specify some basic information about the add-in:
 
 1. Locate the `ProviderName` element and replace the default value with your company name.
 
