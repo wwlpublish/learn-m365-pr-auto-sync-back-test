@@ -18,7 +18,7 @@ Developers must specify in the manifest that the task pane supports pinning and 
 
 ## Implement a pinnable task pane
 
-To implement a pinnable task pane, add the `SupportsPinning` element to your add-in manifest.
+To implement a pinnable task pane, add the `SupportsPinning` element to your add-in manifest:
 
 ```javascript
 <Action xsi:type="ShowTaskpane">
