@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.ransomware-prevent-attacks
+metadata:
+  moduleType: standard
+  title: Prevent ransomware and extortion-based attacks
+  description: Prevention against ransomware is essential because such an attack can lead to major disruption for you or your business. In this module, you'll learn about best practices to protect yourself against ransomware and other extortion-based attacks.
+  ms.date: 05/20/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Prevent ransomware and extortion-based attacks
+summary: Prevention against ransomware is essential because such an attack can lead to major disruption for you or your business. In this module, you'll learn about best practices to protect yourself against ransomware and other extortion-based attacks.
+abstract: |
+  By the end of this module, you'll be able to:
+    - Describe different defense mechanisms used to prevent ransomware.
+    - List the steps to prevent ransomware.
+    - Describe how antivirus/antimalware tools work.
+prerequisites: |
+  - None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - administrator
+  - student
+  - business-owner
+  - business-user
+products:
+  - m365
+subjects:
+- cloud-computing
+units:
+- learn-m365.ransomware-prevent-attacks.introduction
+- learn-m365.ransomware-prevent-attacks.describe-different-defense-mechanisms
+- learn-m365.ransomware-prevent-attacks.steps-prevent-ransomware
+- learn-m365.ransomware-prevent-attacks.describe-antivirus-antimalware-tools
+- learn-m365.ransomware-prevent-attacks.knowledge-check
+- learn-m365.ransomware-prevent-attacks.summary
+badge:
+  uid: learn-m365.ransomware-prevent-attacks.badge

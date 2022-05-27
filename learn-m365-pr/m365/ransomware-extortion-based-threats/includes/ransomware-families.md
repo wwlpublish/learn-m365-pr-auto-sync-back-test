@@ -1,4 +1,4 @@
-Ransomware has now developed into a complete business model called ransomware-as-a-service where cybercriminals license out “off-the-shelf” products. Just like a family, these products share common characteristics that make them recognizable to anti-malware security solutions. In September 2021, in an analysis of more than 12.7 million malware detections made by a key antivirus company, more than 220 ransomware families were identified.
+Ransomware has now developed into a complete business model called ransomware-as-a-service where cybercriminals license out "off-the-shelf" products. Just like a family, these products share common characteristics that make them recognizable to anti-malware security solutions. In September 2021, in an analysis of more than 12.7 million malware detections made by a key antivirus company, more than 220 ransomware families were identified.
 
 The top 10 families will change, but some notable ones are:
 
@@ -24,7 +24,7 @@ The following key facts are known about WannaCryptor:
 The following key facts are known about Stop/DJVU:
 
 - It's introduced to a system, either via spam email or by taking advantage of software vulnerabilities.
-- When it’s introduced, it will run a file that loads the software onto your device to target documents, spreadsheets, images, videos, databases, and other similar data. It then blocks access to the files and demands a ransom.
+- When it's introduced, it will run a file that loads the software onto your device to target documents, spreadsheets, images, videos, databases, and other similar data. It then blocks access to the files and demands a ransom.
 - Stop/DJVU is also known as STOP Ransomware, STOP (DJVU), or DJVU virus, and has 374 active variants.
 - It mainly targets Windows operating systems.
 - It's extremely difficult to decrypt files infected with this ransomware.
@@ -52,7 +52,7 @@ The following key facts are known about the REvil group:
 - They've announced that the agricultural sector is going to be a major target for this group.
 - They often threaten to auction off data if ransom demands aren't met.
 - REvil operate under the ransomware-as-a-service licensing model.
-- If demands aren't met, they threaten to post sensitive documents on its website, known as the “Happy Blog”.
+- If demands aren't met, they threaten to post sensitive documents on its website, known as the "Happy Blog".
 - In 2019, they were linked to 24 local government attacks in Texas.
 - Despite a high-profile announcement that agencies in Russia had shut down the group, there are still reports of attacks using that name.
 
@@ -70,7 +70,7 @@ The following outlines the attack:
 The government response:
 
 - The scale of the attack prompted the United States to act and offer a reward of up to $10 million for any information that would lead to the cybercriminals arrest.
-- In an act of cooperation, the Russian intelligence bureau arrested the group and seized more than $560,000 of crypto currency and more than 20 premium cars bought with the “proceeds of crime”.
+- In an act of cooperation, the Russian intelligence bureau arrested the group and seized more than $560,000 of crypto currency and more than 20 premium cars bought with the "proceeds of crime".
 - The ransomware did disappear for a while but has since reemerged and once again is a major threat.
 
 ## Case study 2 – major fuel distribution company
@@ -78,10 +78,10 @@ The government response:
 The following outlines the attack:
 
 - In April  2021, the **target** was a major oil distribution plant.
-- The **attackers**, the DarkSide group, downloaded malicious code that affected the company’s network on the Eastern Seaboard of the United States.
+- The **attackers**, the DarkSide group, downloaded malicious code that affected the company's network on the Eastern Seaboard of the United States.
 - **The impact** of the attack hit companies and drivers as fuel deliveries were halted, leading to panic buying throughout the affected area.
-- To **resolve the situation**, the fuel distribution company paid a Bitcoin ransom of $4.4 million, stating that they didn’t know the extent of the intrusion, or how long it would take to restore operations.
+- To **resolve the situation**, the fuel distribution company paid a Bitcoin ransom of $4.4 million, stating that they didn't know the extent of the intrusion, or how long it would take to restore operations.
 
 The government response:
 
-US investigators recovered millions in cryptocurrency as they targeted DarkSide, the company responsible for the attack. It was later revealed that DarkSide had been under surveillance for more than a year and the fuel distribution company were following the investigators’ instructions so they could track the ransom payment to a cryptocurrency wallet used by the hackers. Despite this government success, the DarkSide ransomware is still active and affecting other users.
+US investigators recovered millions in cryptocurrency as they targeted DarkSide, the company responsible for the attack. It was later revealed that DarkSide had been under surveillance for more than a year and the fuel distribution company were following the investigators' instructions so they could track the ransom payment to a cryptocurrency wallet used by the hackers. Despite this government success, the DarkSide ransomware is still active and affecting other users.

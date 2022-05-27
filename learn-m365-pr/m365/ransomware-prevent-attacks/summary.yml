@@ -1,11 +1,11 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.ransomware-identify-entry-points.summary
+uid: learn-m365.ransomware-prevent-attacks.summary
 title: Summary
 metadata:
   unitType: summary
   title: Summary
-  description: Summarize what you have learned.
-  ms.date: 5/9/2022
+  description: Summary of the module
+  ms.date: 05/20/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

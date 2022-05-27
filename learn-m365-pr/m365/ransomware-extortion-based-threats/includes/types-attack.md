@@ -37,7 +37,7 @@ Symptoms of a ransom DDoS attack are likely to be:
 
 ## Encryption and locking malware attacks
 
-Encryption ransomware attacks are where the cybercriminal adds extra code to files to prevent them being accessed on the users’ IT system; this is known as encryption. When the ransomware has downloaded, a message will appear on the screen informing the user of the ransom demand.
+Encryption ransomware attacks are where the cybercriminal adds extra code to files to prevent them being accessed on the users' IT system; this is known as encryption. When the ransomware has downloaded, a message will appear on the screen informing the user of the ransom demand.
 
 When files are encrypted, they're locked down by the cybercriminal and can't be opened until the ransom is paid.
 
@@ -58,7 +58,7 @@ There are three main types of social engineering attacks:
 
 #### Phishing
 
-Phishing uses email or websites to solicit personal information from individuals that then allows the cybercriminal to gain access to unauthorized areas, such as bank accounts or other sensitive fields. The email or website used will look very professional and often pretend to come from legitimate organizations, taking advantage of current events to play on public sympathies. Although phishing is often used to extract money from users by trickery, the emails can contain attachments that, once opened, lead to a ransomware attack. It’s estimated that 90 percent of all data breaches are due to a phishing attack, highlighting the fact that the weakest link in any IT system is the user.
+Phishing uses email or websites to solicit personal information from individuals that then allows the cybercriminal to gain access to unauthorized areas, such as bank accounts or other sensitive fields. The email or website used will look very professional and often pretend to come from legitimate organizations, taking advantage of current events to play on public sympathies. Although phishing is often used to extract money from users by trickery, the emails can contain attachments that, once opened, lead to a ransomware attack. It's estimated that 90 percent of all data breaches are due to a phishing attack, highlighting the fact that the weakest link in any IT system is the user.
 
 **Example**: In 2016, a hacker organization started sending emails with a Word attachment which, when opened, encouraged users to enable macros. In turn, this installed the malicious ransomware and launched a virus called Locky, which encrypted files. A link then took users to a website that demanded payment via Bitcoin to release the files.
 
@@ -66,19 +66,19 @@ Phishing uses email or websites to solicit personal information from individuals
 
 Vishing uses voice communications to deceive a victim. The caller may pretend to be from a legitimate organization and come across as sincere and believable to extract sensitive information. They may encourage someone to phone a fake number to verify account or other security information. This method is unlikely to lead to a ransomware attack but is commonly used to trick people into revealing bank account information to extract funds.
 
-**Example**: A caller may say you're due a tax rebate but before it can be processed, it’s necessary to verify your account details. When you've divulged your personal details, the account will then be emptied.
+**Example**: A caller may say you're due a tax rebate but before it can be processed, it's necessary to verify your account details. When you've divulged your personal details, the account will then be emptied.
 
 #### Smishing
 
 Smishing uses text messaging to try to exploit people. The messages contain links that lead to fraudulent sites that imitate legitimate sites. Although these links are often used to extract money from users, they can also entice people to download files, which can then run ransomware and lead to an attack.
 
-**Example**: Texts pretending to be from rogue companies, claiming that they’ve tried to deliver a parcel and demanding a payment to redeliver it. Simple tricks like this are easy to fall prey to if you genuinely are expecting a parcel and could have missed the delivery.
+**Example**: Texts pretending to be from rogue companies, claiming that they've tried to deliver a parcel and demanding a payment to redeliver it. Simple tricks like this are easy to fall prey to if you genuinely are expecting a parcel and could have missed the delivery.
 
 ### Security vulnerabilities
 
-Any ransomware has the potential to exploit gaps in security. Just as a house can have a door left unlocked or a window not securely fastened, cybercriminals are looking to find ways into systems that haven't been locked properly. That’s why it’s important to install security updates on any hardware or software.
+Any ransomware has the potential to exploit gaps in security. Just as a house can have a door left unlocked or a window not securely fastened, cybercriminals are looking to find ways into systems that haven't been locked properly. That's why it's important to install security updates on any hardware or software.
 
-**Example**: In 2021, an attack was made on a major software company in the United States. It affected up to 60,000 private companies, nine government agencies, and thousands more globally as attackers exploited a vulnerability on the organization’s system.
+**Example**: In 2021, an attack was made on a major software company in the United States. It affected up to 60,000 private companies, nine government agencies, and thousands more globally as attackers exploited a vulnerability on the organization's system.
 
 ## Leakware attacks
 
