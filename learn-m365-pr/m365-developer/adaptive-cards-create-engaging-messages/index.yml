@@ -33,9 +33,6 @@ products:
   - office-adaptive-cards
   - office-outlook
   - office-teams
-subjects:
-- development-tools
-- communication
 units:
   - learn-m365.adaptive-cards-create-engaging-messages.1-introduction
   - learn-m365.adaptive-cards-create-engaging-messages.2-overview-create-cards

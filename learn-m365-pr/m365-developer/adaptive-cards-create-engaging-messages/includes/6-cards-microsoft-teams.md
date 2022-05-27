@@ -14,7 +14,7 @@ Developers building custom apps for Microsoft Teams can use adaptive cards in va
 
 Microsoft Teams offers developers App Studio, a personal app they can install in their Microsoft Teams client.
 
-![Screenshot of App Studio](../media/06-app-studio.png)
+![Screenshot of App Studio.](../media/06-app-studio.png)
 
 Developers can use the **Card editor** tab in App Studio to design Adaptive Cards used in Microsoft Teams. This isn't a replacement to the Adaptive Card designer hosted on the Adaptive Card site, but rather it's another Adaptive Card authoring option.
 
@@ -25,7 +25,7 @@ Task modules are dialogs in Microsoft Teams. Developers can implement task modul
 - **IFramed web page**: A task module can point to a URL of an HTML page that is rendered in an Iframe in the task module popup window.
 - **Adaptive Card**: A task module can render an Adaptive Card in the contents of the task module popup window.
 
-![Screenshot of the Adaptive Card rendered in a task module](../media/06-task-module.png)
+![Screenshot of the Adaptive Card rendered in a task module.](../media/06-task-module.png)
 
 Using Adaptive Cards in task modules follows nearly all the same requirements as a HTML-based task module.
 
@@ -41,7 +41,7 @@ Conversational bots in Microsoft Teams are implemented using the Microsoft Bot F
 
 Your custom web service that sends replies and messages to Microsoft Teams can send text-based messages or messages as Adaptive Cards. The message is sent via the Bot Framework to Microsoft Teams that knows how to render each type of message.
 
-![Screenshot of a reply from a bot using Adaptive Cards](../media/06-bot.png)
+![Screenshot of a reply from a bot using Adaptive Cards.](../media/06-bot.png)
 
 The following code demonstrates sending a message to a newly created channel when the channel is created:
 
@@ -84,7 +84,7 @@ Adaptive Cards can be used in both types of messaging extension command types.
 
 Search commands are used from the compose box at the bottom of the Microsoft Teams client. Either through an @mention, or by selecting the extension's icon, the user can search an external system. The search results are returned as Adaptive Cards:
 
-![Screenshot of a search command](../media/06-messaging-extension.png)
+![Screenshot of a search command.](../media/06-messaging-extension.png)
 
 ### Respond to search command queries
 
