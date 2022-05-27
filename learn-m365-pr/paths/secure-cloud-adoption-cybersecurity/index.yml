@@ -21,6 +21,9 @@ roles:
 products: 
 - m365
 - azure
+subjects:
+- cloud-computing
+- cloud-security
 modules:
 - learn.azure.cloud-adoption-framework-getting-started
 - learn.azure.build-cloud-governance-strategy-azure

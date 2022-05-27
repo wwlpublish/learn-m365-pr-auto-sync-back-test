@@ -29,6 +29,9 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- threat-protection
+- information-protection-governance
 units:
 - learn.wwl.implement-windows-information-protection.introduction
 - learn.wwl.implement-windows-information-protection.explore

@@ -1,7 +1,7 @@
 After you have finished culling your data in a review set to the content that is most relevant, you can download or export content for presentation or external review. This is the *Export data* phase of the EDRM workflow.
 
 > [!div class = "centered"]
-> :::image type="content" source="../media/edrm-model-5.png" alt-text="Seventh phase of the EDRM model – Export data." lightbox="../media/edrm-model-5.png":::
+> :::image type="content" source="../media/edrm-model-5.png" alt-text="Diagram that shows the seventh phase of the EDRM model – Export data." lightbox="../media/edrm-model-5.png":::
 
 ### Download documents from a review set
 
@@ -9,7 +9,7 @@ In some cases, you may just need to download a few documents from a case for a s
 
 To download content from a review set, start by selecting the files you want to download then click **Download** under the **Action** menu.
 
-:::image type="content" source="../media/download.png" alt-text="Download content screen from a review set." lightbox="../media/download.png" border="false":::
+:::image type="content" source="../media/download.png" alt-text="Screenshot of the Download content screen from a review set." lightbox="../media/download.png" border="false":::
 
 ### Export documents from a review set
 
@@ -17,15 +17,15 @@ For bigger volumes, you can use the **Export** option. Export lets you customize
 
 To export content from a review set, start by selecting the files you want to download then click **Export** under the **Action** menu.
 
- :::image type="content" source="../media/export.png" alt-text="Export content screen from a review set." lightbox="../media/export.png" border="false":::
+ :::image type="content" source="../media/export.png" alt-text="Screenshot of the Export content screen from a review set." lightbox="../media/export.png" border="false":::
 
 ## Download export jobs using Azure Storage Explorer
 
-When you export documents from a review set in an Advanced eDiscovery case, you have the ability to either upload the documents to a Microsoft-provided Azure Storage location, or to an Azure Storage location managed by your organization.
+When you export documents from a review set in an eDiscovery (Premium) case, you have the ability to either upload the documents to a Microsoft-provided Azure Storage location, or to an Azure Storage location managed by your organization.
 
 A configuration page provides you with the following options for how to export the content, enabling you to choose the settings that make the most sense in the context of your investigation:
 
-- **Metadata file**. This can be considered your "load file" that contains metadata associated with the files you export. For a list of exported fields available in the metadata file, see [Document metadata fields in Advanced eDiscovery](/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery?azure-portal=true). This file can typically be ingested by third-party tools.
+- **Metadata file**. This can be considered your "load file" that contains metadata associated with the files you export. For a list of exported fields available in the metadata file, see [Document metadata fields in eDiscovery (Premium)](/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery?azure-portal=true). This file can typically be ingested by third-party tools.
 - **Tag data**. This content would be added as fields in the metadata file. It contains all the tag information applied in review sets.
 - **Text files**. Text files can be generated for each file exported from a review set. Often, these files are required by service partners as part of ingesting data into third-party tools.
 - **Redacted files**. If redacted PDF files are generated during review, these files are available during export. You can decide whether to export native files only or to replace the native files that required redaction with the PDF files that contain the actual redactions.
@@ -38,41 +38,41 @@ To export content:
 1. Select the files you want to export from the review set, then click **Export** under the **Action** menu. It may take several minutes or longer before the content is ready. You can check the status on the **Jobs** page.
 1. Select your settings on the **Export options** configuration page, then click **Export**. In this example, the Microsoft-provided storage container is selected.
 
-    :::image type="content" source="../media/export-options.png" alt-text="Export content, step 1." lightbox="../media/export-options.png":::
+    :::image type="complex" source="../media/export-options.png" alt-text="Screenshot of the Export options dialog box that has several sections." lightbox="../media/export-options.png" border="false":::
+	Export name is a required field while providing a description is optional. Other sections include export these documents; you can toggle between selected documents only and all documents in the review set. Load file and tags can be added metadata. Native files can be added in the content section with the option of choosing between conversation files or individual chat messages. The options section can add text files and or replace redacted natives with converted PDFs. The last section is export file location and you can choose between Microsoft-provided Azure Blob storage or Azure Blob storage container; the latter requires the container URL and SAS token.
+:::image-end:::
 
     A message appears to inform you that a job has been created and that you can track its status on the **Jobs** tab.
 
-    :::image type="content" source="../media/ok.png" alt-text="Export content, step 2.":::
-
 1. When the documents have been successfully uploaded to the Azure storage container, the **Jobs** tab will display the Status of the job as Successful along with the time stamp for when the job completed.
 
-    :::image type="content" source="../media/status.png" alt-text="Export content, step 3." lightbox="../media/status.png" border="false":::
+    :::image type="content" source="../media/status.png" alt-text="Screenshot of the Jobs tab displaying the Successful status." lightbox="../media/status.png" border="false":::
 
 1. The next step is to obtain the shared access signature (SAS) URI that is generated when you created the export job. On the **Exports** tab, click the export job that you want to download. On the flyout page, under **Locations**, copy the SAS URI that is displayed to the clipboard, then click **Close**.
 
-    :::image type="content" source="../media/sas-url.png" alt-text="Export content, step 4." lightbox="../media/sas-url.png" border="false":::
+    :::image type="content" source="../media/sas-url.png" alt-text="Screenshot that shows the SAS URI to copy to the clipboard." lightbox="../media/sas-url.png" border="false":::
 
 1. Open the Azure Storage Explorer tool that you installed in Step 1, then select **Use a shared access signature (SAS) URI**. Click **Next**.
 
-    :::image type="content" source="../media/connect-azure-storage.png" alt-text="Export content, step 5." border="false":::
+    :::image type="content" source="../media/connect-azure-storage.png" alt-text="Screenshot that shows the Connect to Azure Storage screen, with the URI option highlighted." border="false":::
 
-1. On the **Attach with SAS URI** page, click in the URI box, and then paste the SAS URI that you copied in Step 4. Notice that a portion of the SAS URI is displayed in the **Display name** box. This will be used as the display name of the container that is created under the **Storage accounts** after you connect to the storage location. This name consists of the ID of the Advanced eDiscovery case is from and a unique identifier. You can keep the default display name or change it. If you change it, the display name must be unique.
+1. On the **Attach with SAS URI** page, click in the URI box, and then paste the SAS URI that you copied in Step 4. Notice that a portion of the SAS URI is displayed in the **Display name** box. This will be used as the display name of the container that is created under the **Storage accounts** after you connect to the storage location. This name consists of the ID of the eDiscovery (Premium) case is from and a unique identifier. You can keep the default display name or change it. If you change it, the display name must be unique.
 
-    :::image type="content" source="../media/attach-sas-url.png" alt-text="Export content, step 6." border="false":::
+    :::image type="content" source="../media/attach-sas-url.png" alt-text="Screenshot that shows the Display name and URI fields filled in on the Attach with SAS URI page." border="false":::
 
 1. Click **Next** to display the **Connection summary** page.
 
-    :::image type="content" source="../media/connect-summary.png" alt-text="Export content, step 7." lightbox="../media/connect-summary.png" border="false":::
+    :::image type="content" source="../media/connect-summary.png" alt-text="Screenshot that shows the connection summary." lightbox="../media/connect-summary.png" border="false":::
 
 1. On the **Connection summary** page, review the connection information, then click **Connect**.
 
     The **Blob containers** node (under **Storage Accounts > Attached Containers**) is opened to a container with the display name from step 7. This container contains a folder for each export job that you have created. The folders are named with an ID that corresponds to the ID of the export job.
 
-    :::image type="content" source="../media/containers-1.png" alt-text="Export content, step 8." lightbox="../media/containers-1.png" border="false":::
+    :::image type="content" source="../media/containers-1.png" alt-text="Screenshot that shows the folder structure for the container you specified in the previous step." lightbox="../media/containers-1.png" border="false":::
 
 1. Double-click the export job folder to open it and display the list of folders and export reports.
 
-    :::image type="content" source="../media/containers-2.png" alt-text="Export content, step 9." lightbox="../media/containers-2.png" border="false":::
+    :::image type="content" source="../media/containers-2.png" alt-text="Screenshot that shows the folders and export reports in the container." lightbox="../media/containers-2.png" border="false":::
 
 1. To export all contents in the export, select the export folder, and then click **Download**.
 
@@ -97,5 +97,5 @@ Root folder – Download ID
 
 ## Learn more
 
-- [Document metadata fields in Advanced eDiscovery](/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery?azure-portal=true)
+- [Document metadata fields in eDiscovery (Premium)](/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery?azure-portal=true)
 - [Azure Storage Explorer tool](https://go.microsoft.com/fwlink/p/?LinkId=544842?azure-portal=true)

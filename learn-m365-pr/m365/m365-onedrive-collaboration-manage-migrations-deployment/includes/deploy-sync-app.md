@@ -1,6 +1,6 @@
 When the OneDrive sync app for Windows or Mac is installed, users can work with their OneDrive files in File Explorer or Finder. Users can easily save files to OneDrive from within the programs they use. The OneDrive sync app also supports SharePoint Server 2019.  Deploying the sync app is the first step in deploying OneDrive sync in the "ideal state". This sync state includes:
 
-![The sync state includes](../media/configuration-tools-deployment.png)
+:::image type="content" source="../media/configuration-tools-deployment.png" alt-text="The sync state includes." border="false":::
 
 ## Configuration tools for deployment
 

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-exchange-online.migrate-mailboxes-to-microsoft-365-hybrid-deployment
+title: Migrate mailboxes to Microsoft 365 in a hybrid deployment
+metadata:
+  title: Migrate mailboxes to Microsoft 365 in a hybrid deployment
+  description: "Migrate mailboxes to Microsoft 365 in a hybrid deployment"
+  ms.date: 04/19/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/9-migrate-mailboxes-to-microsoft-365-hybrid-deployment.md)]

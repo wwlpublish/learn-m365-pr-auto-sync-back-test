@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-compliance-information-govern-information.manage-monitor-remediate
-title: Manage, monitor, and remediate information governance
+title: Manage, monitor, and remediate Data Lifecycle Management
 metadata:
-  title: Manage, monitor, and remediate information governance
+  title: Manage, monitor, and remediate Data Lifecycle Management
   description:  Learn how to manage your content lifecycle using solutions to import, store, and classify business-critical data so you can keep what you need and delete what you don't. 
-  ms.date: 07/19/2021
+  ms.date: 05/02/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

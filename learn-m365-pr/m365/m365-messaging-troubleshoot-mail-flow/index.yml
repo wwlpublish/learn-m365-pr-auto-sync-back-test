@@ -3,7 +3,7 @@ uid: learn-m365.m365-messaging-troubleshoot-mail-flow
 metadata:
   title: Troubleshoot mail flow with Exchange Online
   description: Troubleshoot mail flow issues in Exchange Online using reports, transport logs, and validation.
-  ms.date: 07/19/2021
+  ms.date: 04/29/2022
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
@@ -30,6 +30,8 @@ products:
 - office-365
 - office-exchange-server
 - office-exchange-online
+subjects:
+- communication
 units:
 - learn-m365.m365-messaging-troubleshoot-mail-flow.introduction
 - learn-m365.m365-messaging-troubleshoot-mail-flow.validate-mail-flow

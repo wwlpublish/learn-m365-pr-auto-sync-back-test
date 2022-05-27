@@ -37,7 +37,7 @@ The next step is to enter the SSO details from your app into Defender for Cloud 
 1. In the **Assertion consumer service URL**, enter the login URL you recorded earlier and then select **Next**. Pause at this point.
 
     > [!NOTE]
-    > If your app provides a SAML certificate, select **Use <app_name> SAML certificate** and upload the certificate file you downloaded earlier. 
+    > If your app provides a SAML certificate, select **Use <app_name> SAML certificate** and upload the certificate file you downloaded earlier.
 
 ### Create a custom app in PingOne
 
@@ -61,7 +61,7 @@ To create the custom app:
 1. On the **Application Configuration** page, complete the following settings:
 
     1. In the **Single sign-on service URL** field, enter the **Salesforce Login URL** you noted earlier.
-    1. In the **Entity ID** field, enter a unique ID starting with **https://**. This address must not be the same as the exiting Salesforce PingOne app's configuration.
+    1. In the **Entity ID** field, enter a unique ID starting with **https://**. This address must not be the same as the existing Salesforce PingOne app's configuration.
     1. Record the **Entity ID** for use later.
 
 1. Select **Continue to Next Step**.

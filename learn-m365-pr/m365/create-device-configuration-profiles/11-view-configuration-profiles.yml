@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.create-device-configuration.view-configuration-profiles
+title: View configuration profiles
+metadata:
+  unitType: learning-content
+  title: View configuration profiles
+  description: View configuration profiles
+  ms.date: 05/06/2022 
+  author: Erikre 
+  ms.author: erikre 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-endpoint-manager
+durationInMinutes: 6
+content: |
+  [!include[](includes/11-view-configuration-profiles.md)]

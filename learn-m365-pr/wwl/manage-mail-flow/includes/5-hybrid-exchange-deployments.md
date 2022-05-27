@@ -22,4 +22,4 @@ Like inbound email flow, you can configure outbound email flow from your domain 
 
 Email flow between Exchange Online and an Exchange Server on-premises organization uses SMTP send and receive connectors that the HCW configures automatically. The connectors enforce the requirement that messages be encrypted by using the Transport Layer Security (TLS) protocol.
 
-**Additional reading**. For more information, see [Manage mail flow with mailboxes in multiple locations (Exchange Online and on-premises)](/exchange/mail-flow-best-practices/manage-mail-flow-for-multiple-locations?azure-portal=true).
+**Further reading**. For more information, see [Manage mail flow with mailboxes in multiple locations (Exchange Online and on-premises)](/exchange/mail-flow-best-practices/manage-mail-flow-for-multiple-locations?azure-portal=true).

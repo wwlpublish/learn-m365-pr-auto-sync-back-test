@@ -4,12 +4,13 @@ title: Explore Microsoft 365 Apps for enterprise functionality
 metadata:
   title: Explore Microsoft 365 Apps for enterprise functionality
   description: "Explore Microsoft 365 Apps for enterprise functionality"
-  ms.date: 07/02/2021
+  ms.date: 04/12/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/2-explore-functionality.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Maintain a permanent connection to the Internet"
       isCorrect: false
-      explanation: "That's incorrect. Users don't have to connect to the Internet permanently to maintain the full functionality of Microsoft 365 Apps for enterprise. Try again."
+      explanation: "Incorrect. Users don't have to connect to the Internet permanently to maintain the full functionality of Microsoft 365 Apps for enterprise."
     - content: "Access at least one Microsoft 365 Apps for enterprise product every 45 days"
       isCorrect: false
-      explanation: "That's incorrect. This item is not a requirement for users to maintain the full functionality of Microsoft 365 Apps for enterprise on their devices. Try again."
+      explanation: "Incorrect. This item is not a requirement for users to maintain the full functionality of Microsoft 365 Apps for enterprise on their devices."
     - content: "Connect to the Internet at least every 30 days"
       isCorrect: true
-      explanation: "That's correct. Users must connect to the Internet at least every 30 days to automatically validate their Microsoft 365 license."
+      explanation: "Correct. Users must connect to the Internet at least every 30 days to automatically validate their Microsoft 365 license."

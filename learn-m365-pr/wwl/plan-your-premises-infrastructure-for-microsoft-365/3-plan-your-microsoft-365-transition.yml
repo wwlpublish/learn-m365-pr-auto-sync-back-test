@@ -4,7 +4,7 @@ title: Plan your transition to Microsoft 365
 metadata:
   title: Plan your transition to Microsoft 365
   description: "Plan your transition to Microsoft 365"
-  ms.date: 03/30/2022
+  ms.date: 04/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Collect details about any intranet sites that you plan to migrate"
       isCorrect: false
-      explanation: "Incorrect. This task would be performed when you inventory your current environment. Try again."
+      explanation: "Incorrect. This task would be performed when you inventory your current environment."
     - content: "Prepare for directory synchronization"
       isCorrect: false
-      explanation: "Incorrect. This task would be performed when you set up Microsoft 365 services to work for your organization. Try again."
+      explanation: "Incorrect. This task would be performed when you set up Microsoft 365 services to work for your organization."
     - content: "Update client software versions"
       isCorrect: true
       explanation: "Correct. After you determine your deployment goals and take inventory of your current environment, the next step in the sample deployment planning checklist provided in this training is to fix potential deployment blockers. Updating client software versions is one of the tasks that should be completed within this step."

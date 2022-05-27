@@ -4,7 +4,7 @@ title: Prepare your organization's infrastructure for Microsoft 365 Enterprise
 metadata:
   title: Prepare your organization's infrastructure for Microsoft 365 Enterprise
   description: "Prepare your organization's infrastructure for Microsoft 365 Enterprise"
-  ms.date: 03/30/2022
+  ms.date: 04/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Change myaddress@lucerne publishing.com to myaddress@lucernepublishing.com"
       isCorrect: false
-      explanation: "Incorrect. This error is an example of a domain part error. Try again."
+      explanation: "Incorrect. This error is an example of a domain part error."
     - content: "Change myaddress@lucernepublishing.local to myaddress@lucernepublishing.com"
       isCorrect: true
       explanation: "Correct. This error is an example of a topleveldomain error, which can be fixed by changing the \".local\" value to an internet routable domain such as .COM or .NET."
     - content: "Change my”work”address@lucernepublishing.com to myworkaddress@lucernepublishing.com"
       isCorrect: false
-      explanation: "Incorrect. This error is an example of a domainpart_localpart error. Try again."
+      explanation: "Incorrect. This error is an example of a domainpart_localpart error."

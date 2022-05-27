@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.manage-surface-hub.manage-surface-hub-with-teams-admin-center
+title: Manage Surface Hub with Teams admin center
+metadata:
+  unitType: learning-content
+  title: Manage Surface Hub with Teams admin center
+  description: ""
+  ms.date: 05/12/2022
+  author: temanteleary
+  ms.author: teleary
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/manage-surface-hub-with-teams-admin-center.md)]

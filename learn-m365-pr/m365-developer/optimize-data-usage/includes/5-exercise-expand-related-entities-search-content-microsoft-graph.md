@@ -75,25 +75,25 @@ This example focuses on using the Microsoft Graph .NET SDK to create queries. In
 
 The Graph Explorer enables developers to create and test queries using the Microsoft Graph REST API. You'll use the Graph Explorer to create and test a query that uses the `$search` query parameter
 
-Open a browser and navigate to https://developer.microsoft.com/graph/graph-explorer
+Open a browser and navigate to <https://developer.microsoft.com/graph/graph-explorer>
 
 ![Screenshot of the Graph Explorer](../media/graph-explorer-01.png)
 
 The Graph Explorer will execute the query entered at the top of the page and display the results in the lower half of the page.
 
-Select the **Run Query** button to execute the default query **https://graph.microsoft.com/v1.0/me/**:
+Select the **Run Query** button to execute the default query `https://graph.microsoft.com/v1.0/me/`:
 
 ![Screenshot of the Graph Explorer displaying results from the default query](../media/graph-explorer-02.png)
 
 Without logging in, the Graph Explorer will query a sample data collection.
 
-The `$search` query parameter is supported on the **people** endpoint. Enter the following endpoint into the Graph Explorer and select **Run Query**: **https://graph.microsoft.com/v1.0/me/people**.
+The `$search` query parameter is supported on the **people** endpoint. Enter the following endpoint into the Graph Explorer and select **Run Query**: `https://graph.microsoft.com/v1.0/me/people`.
 
 Notice you can scroll through many results in the **Response Preview** window after executing the query.
 
-Now enter the following query that will search for a user with the name *"wilke"* and select the **Run Query** button. This time the query will only return a single user: **https://graph.microsoft.com/v1.0/me/people?$search="wilke"**.
+Now enter the following query that will search for a user with the name *"wilke"* and select the **Run Query** button. This time the query will only return a single user: `https://graph.microsoft.com/v1.0/me/people?$search="wilke"`.
 
-The `$search` query parameter also supports wildcards. Execute the following query to see many more people were found in the same data collection: **https://graph.microsoft.com/v1.0/me/people?$search="wil&ast;"**.
+The `$search` query parameter also supports wildcards. Execute the following query to see many more people were found in the same data collection: `https://graph.microsoft.com/v1.0/me/people?$search="wil"`.
 
 ## Summary
 

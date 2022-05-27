@@ -5,7 +5,7 @@ The primary GUI tools for Teams management are:
 - Microsoft Teams admin center
 - Azure Active Directory admin center
 - Microsoft 365 admin center
-- Microsoft 365 Defender portal and Microsoft 365 compliance center
+- Microsoft 365 Defender portal and Microsoft Purview compliance portal
 
 Command-line and automation tools include:
 
@@ -32,9 +32,9 @@ External apps are provided by third parties. You can configure the following set
 - Allow any new third-party apps published to the store by default
 - Allow interaction with custom apps
 
-## Microsoft 365 Defender portal and Microsoft 365 compliance center
+## Microsoft 365 Defender portal and Microsoft Purview compliance portal
 
-The Microsoft 365 Defender portal and Microsoft 365 compliance center are designed to help you manage compliance features across Microsoft 365 for your organization, including Teams. Links to existing SharePoint and Exchange compliance features bring together compliance capabilities across Microsoft 365. To use the Microsoft 365 Defender portal, you must either be assigned the global administrator role or have been assigned to one or more Microsoft 365 Defender portal role groups by a global administrator.
+The Microsoft 365 Defender portal and Microsoft Purview compliance portal are designed to help you manage compliance features across Microsoft 365 for your organization, including Teams. Links to existing SharePoint and Exchange compliance features bring together compliance capabilities across Microsoft 365. To use the Microsoft 365 Defender portal, you must either be assigned the global administrator role or have been assigned to one or more Microsoft 365 Defender portal role groups by a global administrator.
 
 ## PowerShell
 

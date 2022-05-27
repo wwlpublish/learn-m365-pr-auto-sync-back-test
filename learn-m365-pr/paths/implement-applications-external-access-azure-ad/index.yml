@@ -26,6 +26,9 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- security
+- identity-access
 modules:
 - learn.wwl.implement-applications-azure-ad
 - learn.wwl.configure-azure-ad-application-proxy

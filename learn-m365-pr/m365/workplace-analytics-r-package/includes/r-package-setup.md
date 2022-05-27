@@ -10,7 +10,7 @@ Go to [www.r-project.org](https://www.r-project.org), and when prompted, select 
 
 The CRAN is a network of servers distributed around the world that are used to distribute R software and packages. Don't select a mirror that is close to you geographically. Instead, select the cloud mirror, which automatically detects the optimal mirror for you.
 
-![Install R](../media/get-r.png)
+:::image type="content" source="../media/get-r.png" alt-text="Install R." border="false":::
 
 You can also download and install an integrated development environment (IDE) to improve your programming experience. IDEs provide useful features such as code auto-complete, syntax checks, and viewing panels not available with a plain text notepad. RStudio is a commonly used IDE for R.
 
@@ -59,11 +59,11 @@ To complete the exercise:
 1. Enter `print("Hello World!")`
 1. Select **Ctrl**+**R** or select the button to **Run line or selection**.
 
-![Create a script in R](../media/hello-world.png)
+:::image type="content" source="../media/hello-world.png" alt-text="Create a script in R." border="false":::
 
 After you run the script, you'll be able to see the output in the console:
 
-![Hello World output](../media/hello-world-2.png)
+:::image type="content" source="../media/hello-world-2.png" alt-text="Hello World output." border="false":::
 
 Now that you have downloaded and installed R and loaded the `wpa` R package, you are ready to analyze Workplace Analytics data. The `wpa` R package has multiple built-in sample datasets, including the `sq_data` person query output and the `mt_data` meeting query output. You'll see these sample datasets demonstrated in many of the `wpa` R package functions in the following units.
 

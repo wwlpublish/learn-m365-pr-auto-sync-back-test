@@ -23,6 +23,10 @@ roles:
 products: 
 - m365
 - mem-intune
+subjects:
+- identity-access
+- cloud-computing
+- device-management
 units:
 - learn-m365.edu-manage-admin.introduction
 - learn-m365.edu-manage-admin.implement-rbac

@@ -50,7 +50,9 @@ Access control in Active Directory defines how different users can use Active Di
 
 #### Cloud deployments
 
-You must create an account for every user who will access a Microsoft cloud service. You can also change user accounts or delete them when you no longer need them. By default, users don't have administrator permissions, but administrators can optionally assign them.<br><br>One of the major features in Microsoft Azure Active Directory (Azure AD) is its ability to manage access to resources. These resources can be part of the directory. For example, when:
+You must create an account for every user who will access a Microsoft cloud service. You can also change user accounts or delete them when you no longer need them. By default, users don't have administrator permissions, but administrators can optionally assign them.
+
+One of the major features in Microsoft Azure Active Directory (Azure AD) is its ability to manage access to resources. These resources can be part of the directory. For example, when:
 
  -  Roles in the directory are used to assign permissions to manage objects.
  -  Resources that are external to the directory, such as software as a service (SaaS) applications, Azure services, and Microsoft SharePoint sites or on-premises resources.
@@ -68,10 +70,9 @@ Depending on an organization's business needs and technical requirements, the hy
 
 There are two types of authentication when using the hybrid identity model:
 
- -  **Managed authentication**. Azure AD handles the authentication process by using a locally stored hashed version of the password or sends the credentials to an on-premises software agent to be authenticated by the on-premises AD DS. There are two types of managed authentication:<br>
-    
-     -  **Password hash synchronization (PHS)**. Azure AD completes the authentication itself.<br>
-     -  **Pass-through authentication (PTA)**. Azure AD has AD DS complete the authentication.<br>
- -  **Federated authentication**. Azure AD redirects the client computer requesting authentication to another identity provider.<br>
+ -  **Managed authentication**. Azure AD handles the authentication process by using a locally stored hashed version of the password or sends the credentials to an on-premises software agent to be authenticated by the on-premises AD DS. There are two types of managed authentication:
+     -  **Password hash synchronization (PHS)**. Azure AD completes the authentication itself.
+     -  **Pass-through authentication (PTA)**. Azure AD has AD DS complete the authentication.
+ -  **Federated authentication**. Azure AD redirects the client computer requesting authentication to another identity provider.
 
-**Additional reading.** For more information, see [Hybrid identity and directory synchronization for Microsoft 365](/microsoft-365/enterprise/plan-for-directory-synchronization?azure-portal=true).<br>
+**Further reading.** For more information, see [Hybrid identity and directory synchronization for Microsoft 365](/microsoft-365/enterprise/plan-for-directory-synchronization?azure-portal=true).

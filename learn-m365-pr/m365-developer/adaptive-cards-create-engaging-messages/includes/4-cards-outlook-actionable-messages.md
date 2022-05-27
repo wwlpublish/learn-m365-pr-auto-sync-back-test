@@ -10,20 +10,20 @@ In this scenario, Adaptive Cards are used to send Outlook actionable messages to
 
 A Contoso employee submits a request to join a private Office 365 group. Office 365 sends an Actionable Message to the person who owns the group to approve or decline the request. The card included in the message contains all the information the approver might need to quickly understand who submitted the request and any message they included to explain their request. It also includes Approve and Decline actions that can be taken right from Outlook. The owner approves the request, and the card updates to indicate the outcome.
 
-![Screenshot of Outlook actionable messages demo - step 1](../media/04-outlook-demo-step-01.png)
+![Screenshot of Outlook actionable messages demo - step 1.](../media/04-outlook-demo-step-01.png)
 
-The new member of the group submits a second request to add her team members to the group. Office 365 sends an Actionable Message to the owner with clear information about who submitted the request and the new members to add. The recipient can approve all, some, or none of the proposed new members. The owner approves one new member, and the card updates to indicate the outcome. The approved member is no longer selectable, while the remaining member remains selectable.
+The new member of the group submits a second request to add their team members to the group. Office 365 sends an Actionable Message to the owner with clear information about who submitted the request and the new members to add. The recipient can approve all, some, or none of the proposed new members. The owner approves one new member, and the card updates to indicate the outcome. The approved member is no longer selectable, while the remaining member remains selectable.
 
-![Screenshot of Outlook actionable messages demo - step 2](../media/04-outlook-demo-step-02.png)
+![Screenshot of Outlook actionable messages demo - step 2.](../media/04-outlook-demo-step-02.png)
 
 The owner declines the other requested new member, and the card updates to indicate the outcome. Both members are no longer selectable, and the action buttons are removed.
 
-![Screenshot of Outlook actionable messages demo - step 3](../media/04-outlook-demo-step-03.png)
+![Screenshot of Outlook actionable messages demo - step 3.](../media/04-outlook-demo-step-03.png)
 
 Notice the important points in this scenario:
 
 - the group owner can process the group membership request decisions entirely through email
-- each time the group owner does an action, the card is refreshed without receiving additional emails
+- each time the group owner does an action, the card is refreshed without receiving extra emails
 - the group owner can do all necessary actions without leaving Outlook
 
 ## Outlook Actionable Messages with Adaptive Cards
@@ -79,7 +79,7 @@ To use signed cards, you must register your public key in the email developer da
 
 Let's now look at the lifecycle of an Outlook Actionable Message.
 
-![Image showing the lifecycle process of Outlook Actionable Messages](../media/04-actionable-messages-lifecycle-01.png)
+![Image showing the lifecycle process of Outlook Actionable Messages.](../media/04-actionable-messages-lifecycle-01.png)
 
 Action processing requires a publicly reachable endpoint that is pre-registered using the **Actionable Email Developer Dashboard** (https://aka.ms/publishoam).
 
@@ -98,7 +98,7 @@ Action processing requires a publicly reachable endpoint that is pre-registered 
 
 Your Action URLs won't work until the URL is registered in the **Actionable Email Developer Dashboard**.
 
-![Screenshot of the Actionable Email Developer Dashboard](../media/04-actionable-email-developer-dashboard.png)
+![Screenshot of the Actionable Email Developer Dashboard.](../media/04-actionable-email-developer-dashboard.png)
 
 Your service must be registered to make Outlook aware the following aspects of your Actionable Message:
 
@@ -127,7 +127,7 @@ If you're registering an Actionable Message for **Global** scope, your service m
 
 Office 365 will call your configured URL, passing an `authentication` header with a value of `bearer` plus a signed, encoded token. Your API should validate the token is issued by Microsoft by checking the digital signature,
 
-You can inspect the bearer token and use the **Microsoft.O365.ActionableMessages.Utilities** NuGet package for .NET Framework v4.6 projects. This package contains a class, `ActionableMessageTokenValidator`, that contains the method `ValidateTokenAsync()` that can be used to validate the token. This method will verify:
+You can inspect the bearer token and use the **Microsoft.O365.ActionableMessages.Utilities** NuGet package for .NET Framework v4.6 projects. This package contains a class, `ActionableMessageTokenValidator` that contains the method `ValidateTokenAsync()` that can be used to validate the token. This method will verify:
 
 - The token is issued by Microsoft and its digital signature is valid.
 - The token hasn't expired.
@@ -143,7 +143,7 @@ var result = await validator.ValidateTokenAsync(
 
 ## Validating the sender
 
-The bearer token also contains additional properties your API can and should use to do additional verification checks.
+The bearer token also contains other properties your API can and should use to do extra verification checks.
 
 The email address of the email sender that included the Actionable Message can be found in the **sender** claim. The email address of the person who received the email and did the action in the Actionable Message can be found in the **sub** claim.
 
@@ -175,7 +175,7 @@ Your API should check both of these claims to ensure the correct email address s
 
 When your API receives an HTTP POST request from the action performer, it responds to the HTTP request indicating success or failure along with a message.
 
-The success or failure status is indicated by returning an HTTP 200 (success) or HTTP 400-499 (failure) status code. You can include an additional message to the user by including it in the `CARD-ACTION-STATUS` HTTP response header.
+The success or failure status is indicated by returning an HTTP 200 (success) or HTTP 400-499 (failure) status code. You can include an extra message to the user by including it in the `CARD-ACTION-STATUS` HTTP response header.
 
 ```csharp
 private HttpResponseMessage CreateCardResponse(HttpStatusCode code, string cardStatus)

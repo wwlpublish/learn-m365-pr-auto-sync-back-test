@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-exchange-online.select-right-migration-option-for-your-organization
+title: Select the right migration option for your organization
+metadata:
+  title: Select the right migration option for your organization
+  description: "Select the right migration option for your organization"
+  ms.date: 04/19/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/7-select-right-migration-option-for-your-organization.md)]

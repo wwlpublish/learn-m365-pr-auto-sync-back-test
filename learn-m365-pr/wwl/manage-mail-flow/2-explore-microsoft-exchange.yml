@@ -4,7 +4,7 @@ title: Explore mail flow in Microsoft Exchange
 metadata:
   title: Explore mail flow in Microsoft Exchange
   description: "Explore mail flow in Microsoft Exchange"
-  ms.date: 03/09/2022
+  ms.date: 04/19/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,7 +24,7 @@ quiz:
       explanation: "That's correct. The servers configured in your MX record are your perimeter servers that are the first to accept external messages and often scan them for spam and malware."
     - content: "External mail servers"
       isCorrect: false
-      explanation: "That's incorrect. External mail servers are outside your Exchange deployment. They use your company's MS record to determine where to transport external messages for your organization. Try again."
+      explanation: "That's incorrect. External mail servers are outside your Exchange deployment. They use your company's MS record to determine where to transport external messages for your organization."
     - content: "Mailbox servers"
       isCorrect: false
-      explanation: "That's incorrect. Mailbox servers host the user mailbox or recipient. They are the final servers to receive external email messages. Try again."
+      explanation: "That's incorrect. Mailbox servers host the user mailbox or recipient. They are the final servers to receive external email messages."

@@ -39,8 +39,8 @@ These two lines determine the current mode of the page and environment in which 
 Display the value of these two members by adding the following lines to the HTML for the web part. Add the lines just after the line that displays the site title:
 
 ```html
-<p class="${ styles.subTitle }"><strong>Page mode:</strong> ${ pageMode }</p>
-<p class="${ styles.subTitle }"><strong>Environment:</strong> ${ environmentType }</p>
+<div>Page mode: <strong>${escape(pageMode)}</strong></div>
+<div>Environment: <strong>${escape(environmentType)}</strong></div>
 ```
 
 Test the web part to see the effect of the changes. Start the local web server using the provided gulp **serve** task:
@@ -53,7 +53,7 @@ When the browser loads the hosted workbench, add the web part to the page. Notic
 
 ![Screenshot of the SharePoint hosted workbench](../media/07-web-part-01.png)
 
-## Leverage the SharePoint Framework Logging API
+## Use the SharePoint Framework Logging API
 
 The SharePoint Framework also provides a way to log messages to the developer dashboard with more information than the traditional `console.log()`.
 
@@ -70,7 +70,7 @@ import {
 } from '@microsoft/sp-core-library';
 ```
 
-Add an additional reference to `Log` the existing list so it looks like this:
+Add another reference to `Log` the existing list so it looks like this:
 
 ```typescript
 import {
@@ -93,7 +93,7 @@ Log.verbose('HelloWorld', 'VERBOSE message', this.context.serviceScope);
 
 Wait a few seconds for the project to rebuild, and then refresh the hosted workbench.
 
-Open the developer dashboard by by pressing <kbd>CTRL</kbd>+<kbd>F12</kbd>
+Open the developer dashboard by pressing <kbd>CTRL</kbd>+<kbd>F12</kbd>
 
 There will be many messages logged to the developer dashboard, so set the Source filter to the name of your web part, **HelloWorld**.
 
@@ -103,7 +103,7 @@ Notice in the following image that each message is prefixed with the unique name
 
 ## Addressing delayed loading web parts
 
-Your web part may have a number of calculations to do or have a delay in fetching data before it renders the first time. Thankfully the SharePoint Framework provides an API you can use to address this.
+Your web part may have many calculations to do or have a delay in fetching data before it renders the first time. Thankfully the SharePoint Framework provides an API you can use to address this.
 
 Locate the web part file **src/webparts/helloWorld/HelloWorldWebPart.ts**.
 
@@ -137,33 +137,34 @@ public render(): void {
   const pageMode: string = (this.displayMode === DisplayMode.Edit)
     ? 'You are in edit mode'
     : 'You are in read mode';
-  const environmentType : string = (Environment.type === EnvironmentType.ClassicSharePoint)
+  const environmentType: string = (Environment.type === EnvironmentType.ClassicSharePoint)
     ? 'You are running in a classic page'
     : 'You are running in a modern page';
 
   this.context.statusRenderer.displayLoadingIndicator(this.domElement, "message");
   setTimeout(() => {
     this.context.statusRenderer.clearLoadingIndicator(this.domElement);
-
     this.domElement.innerHTML = `
-      <div class="${ styles.helloWorld }">
-        <div class="${ styles.container }">
-          <div class="${ styles.row }">
-            <div class="${ styles.column }">
-              <span class="${ styles.title }">Welcome to SharePoint!</span>
-              <p class="${styles.subTitle}"><strong>Site title:</strong> ${siteTitle}</p>
-              <p class="${ styles.subTitle }"><strong>Page mode:</strong> ${ pageMode }</p>
-              <p class="${ styles.subTitle }"><strong>Environment:</strong> ${ environmentType }</p>
-              <p class="${ styles.description }">${escape(this.properties.description)}</p>
-              <a href="#" class="${ styles.button }">
-                <span class="${ styles.label }">Learn more</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>`;
+    <section class="${styles.helloWorld} ${!!this.context.sdks.microsoftTeams ? styles.teams : ''}">
+      <div class="${styles.welcome}">
+        <img alt="" src="${this._isDarkTheme ? require('./assets/welcome-dark.png') : require('./assets/welcome-light.png')}" class="${styles.welcomeImage}" />
+        <h2>Well done, ${escape(this.context.pageContext.user.displayName)}!</h2>
+        <div>${this._environmentMessage}</div>
+        <div>Web part property value: <strong>${escape(this.properties.description)}</strong></div>
+        <div>Site title: <strong>${escape(siteTitle)}</strong></div>
+        <div>Page mode: <strong>${escape(pageMode)}</strong></div>
+        <div>Environment: <strong>${escape(environmentType)}</strong></div>
+      </div>
+      <div>
+        <h3>Welcome to SharePoint Framework!</h3>
+        <p>
+        The SharePoint Framework (SPFx) is a extensibility model for Microsoft Viva, Microsoft Teams and SharePoint. It's the easiest way to extend Microsoft 365 with automatic Single Sign On, automatic hosting and industry standard tooling.
+        </p>
+        <button type="button">Show welcome message</button>
+      </div>
+    </section>`;
 
-    this.domElement.getElementsByClassName(`${styles.button}`)[0]
+    this.domElement.getElementsByTagName("button")[0]
       .addEventListener('click', (event: any) => {
         event.preventDefault();
         alert('Welcome to the SharePoint Framework!');

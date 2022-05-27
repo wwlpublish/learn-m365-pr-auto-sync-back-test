@@ -26,6 +26,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- communication
+- collaboration
 units:
 - learn.wwl.configure-troubleshoot-microsoft-teams-clients-services.introduction
 - learn.wwl.configure-troubleshoot-microsoft-teams-clients-services.install-update-teams-client-software

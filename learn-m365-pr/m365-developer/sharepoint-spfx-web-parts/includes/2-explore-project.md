@@ -13,7 +13,7 @@ Let's look at the folders in a newly created and built SharePoint Framework proj
 - **dist**: This folder contains the files generated when you bundle your project, regardless of which switch you use. The unminified JavaScript files and source maps contained in this folder are used when you run in debug mode.
 - **lib**: This folder, created automatically when you build the project, contains the temporary files generated from the compilation and transpilation of TypeScript to JavaScript and SCSS to CSS files.
 - **node_modules**: This folder is created automatically when installing package dependencies using the `npm install` command.
-- **release**: This folder contains a subfolder named **assets** that contains the files generated when you bundle your project using the `ship` or `production` switch. These files are deployed to the CDN. This folder also contains two additional subfolders that contain manifest files.
+- **release**: This folder contains a subfolder named **assets** that contains the files generated when you bundle your project using the `ship` or `production` switch. These files are deployed to the CDN. This folder also contains two more subfolders that contain manifest files.
 - **src**: This folder contains all the source code for your project.
 - **temp**: This folder, created automatically when you test the project, contains files used by the local development web server.
 
@@ -39,13 +39,13 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
 }
 ```
 
-This file defines the main entry point for the web part and extend the `BaseClientSideWebPart` class. All client-side web parts must extend from this base class.
+This file defines the main entry point for the web part and extends the `BaseClientSideWebPart` class. All client-side web parts must extend from this base class.
 
-The web part file will contain both the web part class and in interface. The interface defines the non-standard public properties on the web part that are persisted when the web part is saved or published from edit mode.
+The web part file will contain both the web part class and an interface. The interface defines the non-standard public properties on the web part that are persisted when the web part is saved or published from edit mode.
 
 ### Web Part manifest
 
-The web part manifest file, **\*.manifest.json**, is located in the same folder as the web part class. It contains metadata for the web part that include things such as the web part's ID, alias, the type of component, and its version.
+The web part manifest file, **\*.manifest.json**, is located in the same folder as the web part class. It contains metadata for the web part that includes things such as the web part's ID, alias, the type of component, and its version.
 
 ```typescript
 {
@@ -72,7 +72,7 @@ The web part manifest file, **\*.manifest.json**, is located in the same folder 
 }
 ```
 
-Web parts will also contain a section for `preconfiguredEntries` that are the default values for the public properties set on the web part when its added to a new page.
+Web parts will also contain a section for `preconfiguredEntries` that are the default values for the public properties set on the web part when it's added to a new page.
 
 ### CSS Modules
 
@@ -87,15 +87,14 @@ You define your classes in a SASS file. The class names can use **camelCasing** 
 ```typescript
 public render(): void {
   this.domElement.innerHTML = `
-    <div class="${ styles.helloWorld }">
-      <div class="${ styles.container }">
-        <div class="${ styles.row }">
-          <div class="${ styles.column }">
-            <span class="${ styles.title }">Welcome to SharePoint!</span>
-          </div>
-        </div>
-      </div>
-    </div>`;
+  <section class="${styles.helloWorld} ${!!this.context.sdks.microsoftTeams ? styles.teams : ''}">
+    <div class="${styles.welcome}">
+      <img src="${require('./assets/welcome-light.png')}" class="${styles.welcomeImage}" />
+      <h2>Well done, ${escape(this.context.pageContext.user.displayName)}!</h2>
+      <div>${this._environmentMessage}</div>
+      <div>Web part property value: <strong>${escape(this.properties.description)}</strong></div>
+    </div>
+  </section>`;
 }
 ```
 
@@ -156,9 +155,9 @@ The SharePoint Framework development and build toolchain includes many tasks dev
 - **bundle**: This ask will run the **build** task and then create JavaScript bundle(s) with Webpack using the files from the build task.
 - **dev-deploy** and **deploy-azure-storage**: These tasks upload the production manifest and JavaScript bundles to the Azure Storage blob specified in the **./config/deploy-azure-storage.json** configuration file when you've selected to use the Azure CDN to host and serve your files.
 - **package-solution**: This task will create a **\*.sppkg** SharePoint package file using the output from the **bundle** task.
-- **serve**: The serve task will will build the project and start the local web server.
+- **serve**: The serve task will build the project and start the local web server.
 - **test**: This task will run the **build** task and then run all unit tests defined in the project.
-- **trust-dev-cert** and **untrust-dev-cert**: These two tasks are used to trust and untrust the self-signed development SSL certificate on your local development environment. The local web server started up by the **serve** task uses this self-signed certificate. The SSL certificate must be added to your development environment's trust root authority for the browser to accept the request.
+- **trust-dev-cert** and **untrust-dev-cert**: These two tasks are used to trust and untrust the self-signed development certificate on your local development environment. The local web server started up by the **serve** task uses this self-signed certificate. The certificate must be added to your development environment's trust root authority for the browser to accept the request.
 
 ## Solution packaging
 
@@ -179,7 +178,7 @@ They're configurable, reusable, and purpose-built components that page designers
 
 ![Screenshot of client-side web parts](../media/02-client-side-web-parts.png)
 
-Client-side web parts are build using the SharePoint Framework that provides additional capabilities, including access to Microsoft Graph for incorporating personal and organizational information into page experiences.
+Client-side web parts are build using the SharePoint Framework that provides extra capabilities, including access to Microsoft Graph for incorporating personal and organizational information into page experiences.
 
 Web parts are also context aware, in the sense that they have access to contextual information about the current page. For instance, at runtime, the web part can get information about the current user and the current page and site the web part is currently running in.
 

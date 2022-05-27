@@ -3,7 +3,7 @@ uid: learn.wwl.manage-authentication-for-messaging
 metadata:
   title: Manage authentication for messaging
   description: "Manage authentication for messaging"
-  ms.date: 03/09/2022
+  ms.date: 05/27/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -12,11 +12,13 @@ title: Manage authentication for messaging
 summary: Examines how messaging administrators can ensure that user accounts are well protected and secure without deploying security features that introduce unnecessary complexity in your users’ everyday work.
 abstract: |
   By the end of this module, you'll be able to:
-  - Configure password policy options.
-  - Configure self-service password management.
-  - Implement multifactor authentication.
-  - Plan password policies.
-prerequisites: ""
+  *   Configure password policy options.
+  *   Configure self-service password management.
+  *   Implement multifactor authentication.
+  *   Plan password policies.
+  *   Configure modern authentication in Exchange Online.
+prerequisites: |
+  None
 iconUrl: /learn/achievements/messaging-manage-authentication.svg
 levels:
 - intermediate
@@ -27,12 +29,19 @@ products:
 - office
 - office-365
 - office-exchange-server
+- office-exchange-online
+subjects:
+- communication
+- compliance
+- device-management
+- identity-access
 units:
 - learn.wwl.manage-authentication-for-messaging.introduction
 - learn.wwl.manage-authentication-for-messaging.examine-password-policy-options
 - learn.wwl.manage-authentication-for-messaging.explore-self-service-password-management
 - learn.wwl.manage-authentication-for-messaging.implement-multifactor-exchange
 - learn.wwl.manage-authentication-for-messaging.plan-password-policies
+- learn.wwl.manage-authentication-for-messaging.explore-modern-authentication
 - learn.wwl.manage-authentication-for-messaging.knowledge-check
 - learn.wwl.manage-authentication-for-messaging.summary
 badge:

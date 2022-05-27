@@ -22,6 +22,9 @@ roles:
 products: 
 - m365
 - mdatp
+subjects:
+- threat-protection
+- cloud-security
 modules:
   - learn-m365-pr.introduction-to-microsoft-defender-for-endpoint
   - learn-m365-pr.m365-evaluate-endpoint-security

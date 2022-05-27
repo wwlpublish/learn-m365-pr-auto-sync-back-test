@@ -7,7 +7,7 @@ SkypeSettings.xml is a file that can be used to configure Teams Rooms settings. 
 Finally, you were introduced to the capabilities that Teams admin center brings to Teams Rooms. Teams admin center is a powerful tool for inventorying, managing, and troubleshooting Teams Rooms.
 
 Now that you have finished this module, you should be able to:
-  
+
 - Differentiate between the available management options.
 - Understand which tools to use and when to use them.
 - Troubleshoot poor participant audio in a Teams Rooms meeting.

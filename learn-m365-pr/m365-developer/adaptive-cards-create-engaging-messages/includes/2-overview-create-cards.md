@@ -6,7 +6,7 @@ In this unit, you’ll learn about Adaptive Cards, where they can be used and ho
 
 Adaptive Cards are platform-agnostic snippets of UI, authored in JSON, that apps and services can openly exchange. When delivered to a specific app, the JSON is transformed into native UI that automatically adapts to its surroundings. It helps design and integrate light-weight UI for all major platforms and frameworks.
 
-![Screenshot showing different renderings of Adaptive Cards](../media/02-adaptive-cards.png)
+![Screenshot showing different renderings of Adaptive Cards.](../media/02-adaptive-cards.png)
 
 The cards are created using an open card exchange format enabling developers to exchange UI content in a common and consistent way. Adaptive Cards can be rendered natively in a host application such as Outlook, Microsoft Teams, Microsoft Windows, and even custom applications.
 
@@ -88,7 +88,7 @@ The basic structure of a card is as follows:
 }
 ```
 
-Additional properties include:
+Extra properties include:
 
 - `body`: The card elements to show in the primary card region.
 - `actions`: The Actions to show in the card’s action bar.
@@ -112,7 +112,7 @@ The container category contains elements used to group multiple elements togethe
 
 - `ActionSet`: Displays a set of actions.
 - `Container`: Containers group items together.
-- `ColumnSet` and `Column`: ColumnSet divides a region into Columns, allowing elements to sit side by side. 
+- `ColumnSet` and `Column`: ColumnSet divides a region into Columns, allowing elements to sit side by side.
 - `FactSet` and `Fact`: The FactSet element displays a series of facts (for example, name/value pairs) in a tabular form.
 - `ImageSet`: The ImageSet displays a collection of Images similar to a gallery.
 
@@ -143,13 +143,13 @@ The Adaptive Card Designer provides a rich, interactive design-time experience f
 
 The designer is available at the following URL: https://adaptivecards.io/designer.
 
-![Screenshot of the Adaptive Card designer](../media/02-adaptive-card-designer.jpg)
+![Screenshot of the Adaptive Card designer.](../media/02-adaptive-card-designer.jpg)
 
 ## Adaptive Cards in Outlook
 
 Whether you're filling out a survey, approving an expense report, or updating a CRM sales opportunity, Actionable Messages enable you to take quick actions right from within Outlook. Developers can now embed Adaptive Cards in their emails or notifications, elevating user engagement with their services and increasing organizational productivity.
 
-![Screenshot of the rendered email with an Adaptive Card](../media/05-send-mail-test-02.png)
+![Screenshot of the rendered email with an Adaptive Card.](../media/05-send-mail-test-02.png)
 
 ## Adaptive Cards in Microsoft Teams
 
@@ -157,7 +157,7 @@ Microsoft Teams supports the latest version of the Adaptive Card schema in multi
 
 Developers can use Adaptive Cards in messages from bots, in messaging extensions and also in task modules.
 
-![Screenshot of the Adaptive Card rendered in a task module](../media/07-test-rendered-adaptive-card.png)
+![Screenshot of the Adaptive Card rendered in a task module.](../media/07-test-rendered-adaptive-card.png)
 
 ## Summary
 

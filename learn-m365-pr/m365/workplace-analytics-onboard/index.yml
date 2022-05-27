@@ -3,9 +3,9 @@ uid: learn-m365.workplace-analytics-onboard
 metadata:
   title: Onboard to Microsoft Viva Insights (Workplace Analytics)
   description: Learn how to onboard to Microsoft Viva Insights (Workplace Analytics), from the administrator perspective.  
-  ms.date: 02/02/2022
-  author: madehmer
-  ms.author: helayne
+  ms.date: 04/25/2022
+  author: maggierui
+  ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Onboard to Microsoft Viva Insights (Workplace Analytics)
@@ -27,6 +27,10 @@ products:
 - m365-workplace-analytics
 - viva
 - viva-insights
+subjects:
+- device-management
+- data-analytics
+- employee-engagement
 units:
 - learn-m365.workplace-analytics-onboard.introduction
 - learn-m365.workplace-analytics-onboard.roles-responsibilities

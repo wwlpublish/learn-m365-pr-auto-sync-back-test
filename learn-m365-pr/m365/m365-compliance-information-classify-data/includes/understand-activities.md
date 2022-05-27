@@ -43,9 +43,9 @@ Understanding the activities users are performing on sensitive information helps
 - Ability to filter to see all the details for a specific label including file types, users, and activities.
 - Understand a broad-spectrum of sensitivity label activities across Microsoft 365.
 
-### Data classification in the compliance center
+### Data classification in the compliance portal
 
-Watch this video on Data classification in the compliance center.
+Watch this video on Data classification in the compliance portal.
 >
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vx8x]
 

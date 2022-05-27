@@ -5,9 +5,9 @@ metadata:
   unitType: learning-content
   title: Investigate attacks with Microsoft Defender for Identity
   description: Learn how to investigate attacks with Microsoft Defender for Identity.
-  ms.date: 02/11/2022
-  author: beccarobins
-  ms.author: beccarobins
+  ms.date: 03/29/2022
+  author: dcurwin
+  ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 20

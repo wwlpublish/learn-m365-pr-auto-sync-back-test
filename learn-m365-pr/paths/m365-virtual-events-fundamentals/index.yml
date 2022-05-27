@@ -21,6 +21,9 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- communication
+- remote-hybrid-work
 modules:
 - learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365
 - learn-m365-pr.design-successful-virtual-event-using-microsoft-365

@@ -3,7 +3,7 @@ uid: learn.wwl.configure-your-microsoft-365-experience
 metadata:
   title: Configure your Microsoft 365 experience
   description: "Configure your Microsoft 365 experience"
-  ms.date: 03/29/2022
+  ms.date: 04/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -28,6 +28,8 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- productivity
 units:
 - learn.wwl.configure-your-microsoft-365-experience.introduction
 - learn.wwl.configure-your-microsoft-365-experience.configure-your-organizational-profile

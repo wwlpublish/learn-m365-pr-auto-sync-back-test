@@ -32,6 +32,9 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- device-management
+- identity-access
 units:
 - learn.wwl.enroll-devices-to-mobile-device-management.introduction
 - learn.wwl.enroll-devices-to-mobile-device-management.enroll-windows-10-android-devices

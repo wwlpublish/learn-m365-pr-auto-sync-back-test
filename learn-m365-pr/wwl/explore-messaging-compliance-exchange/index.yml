@@ -3,7 +3,7 @@ uid: learn.wwl.explore-messaging-compliance-exchange
 metadata:
   title: Explore messaging compliance in Exchange
   description: "Explore messaging compliance in Exchange"
-  ms.date: 03/09/2022
+  ms.date: 04/24/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -12,10 +12,9 @@ title: Explore messaging compliance in Exchange
 summary: Examines the compliance features available in the Exchange Admin Center for Exchange Server and Exchange hybrid deployments.
 abstract: |
   By the end of this module, you'll be able to:
-  - Describe litigation and in-place holds in Exchange Server.
-  - Plan retention and deletion with Message Records Management (MRM).
-  - Protect your mail flow with data loss prevention policies in Exchange Server.
-  - Analyze your Exchange organization's message tracking log.
+  *   Describe litigation and in-place holds in Exchange Server.
+  *   Plan retention and deletion with Message Records Management (MRM).
+  *   Analyze your Exchange organization's message tracking log.
 prerequisites: ""
 iconUrl: /learn/achievements/exchange-messaging-compliance.svg
 levels:
@@ -27,11 +26,14 @@ products:
 - office
 - office-365
 - office-exchange-server
+- office-exchange-online
+subjects:
+- communication
+- compliance
 units:
 - learn.wwl.explore-messaging-compliance-exchange.introduction
 - learn.wwl.explore-messaging-compliance-exchange.examine-place-litigation-holds
 - learn.wwl.explore-messaging-compliance-exchange.configure-messaging-records-management
-- learn.wwl.explore-messaging-compliance-exchange.configure-data-loss-prevention-policies-exchange
 - learn.wwl.explore-messaging-compliance-exchange.analyze-message-tracking
 - learn.wwl.explore-messaging-compliance-exchange.knowledge-check
 - learn.wwl.explore-messaging-compliance-exchange.summary

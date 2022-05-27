@@ -24,6 +24,9 @@ roles:
 - administrator
 products:
 - office-teams
+subjects:
+- identity-access
+- threat-protection
 units:
 - learn-m365.teams.protect-identity-access.1-introduction
 - learn-m365.teams.protect-identity-access.2-simplify-access-and-identity-provisioning

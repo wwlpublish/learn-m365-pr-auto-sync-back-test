@@ -4,7 +4,7 @@ metadata:
   moduleType: standard
   title: Reduce potential attack areas with Microsoft Defender for Endpoint
   description: Learn how to reduce potential attack surfaces across your environment with Microsoft Defender for Endpoint. Capabilities include application control, network protection, hardware-based isolation, controlled folder access, and web protection. 
-  ms.date: 11/08/2021
+  ms.date: 05/02/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -28,6 +28,9 @@ products:
   - m365
   - m365-security-center
   - mdatp
+subjects:
+- threat-protection
+- cloud-security
 units:
 - learn-m365-pr.reduce-potential-attack-areas-with-microsoft-defender-for-endpoint.introduction
 - learn-m365-pr.reduce-potential-attack-areas-with-microsoft-defender-for-endpoint.minimize-potential-attack-areas

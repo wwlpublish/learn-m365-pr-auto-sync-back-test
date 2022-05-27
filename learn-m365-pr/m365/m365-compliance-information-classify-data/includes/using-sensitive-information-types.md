@@ -57,7 +57,7 @@ Sensitive information types can be used on their own to classify data. They can 
 |---|---|
 |Information protection   |Sensitivity label auto-labeling policies   |
 |Data loss prevention (DLP) |  DLP policies |
-|Information governance  | Retention policies and Retention label auto-apply policies  |
+|Data Lifecycle Management  | Retention policies and Retention label auto-apply policies  |
 |Records management | Retention label auto-apply policies  |
 
 A policy template contains a group of related sensitive information types. You can use policy templates to simplify policy creation. Policy template selection is an optional part of all the policy processes listed above. Microsoft 365 includes 42 policy templates divided into three categories: financial, medical and health, and privacy. You can also filter the templates by a specific country or region.

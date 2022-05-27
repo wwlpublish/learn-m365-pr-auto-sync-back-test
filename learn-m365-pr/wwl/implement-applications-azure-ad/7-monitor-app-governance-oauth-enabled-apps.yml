@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-applications-azure-ad.monitor-app-governance-oauth-enabled-apps
+title: Monitor app governance for OAuth-enabled apps
+metadata:
+  title: Monitor app governance for OAuth-enabled apps
+  description: "Monitor app governance for OAuth-enabled apps"
+  ms.date: 04/29/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/7-monitor-app-governance-oauth-enabled-apps.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "App governance oversees and governs OAuth-enabled apps that are registered with Azure AD. What other characteristic must OAuth-enabled apps have to be overseen and governed by App governance?"
+    choices:
+    - content: "They must be line-of-business apps developed by Microsoft partners"
+      isCorrect: false
+      explanation: "Incorrect. This item is a feature of integrated apps, but not apps overseen and governed by App governance."
+    - content: "They must access data through the Microsoft Graph API"
+      isCorrect: true
+      explanation: "Correct. App governance is a platform-based solution that's an integral part of the Microsoft 365 app ecosystem. App governance oversees and governs OAuth-enabled apps that are registered with Azure AD. These apps access data through the Microsoft Graph API."
+    - content: "They must be a multi-tenant application"
+      isCorrect: false
+      explanation: "Incorrect. OAuth apps don't have to be multi-tenant apps to be overseen and governed by App governance."

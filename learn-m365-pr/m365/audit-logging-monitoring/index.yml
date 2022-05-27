@@ -28,6 +28,10 @@ roles:
 - risk-practitioner
 products:
 - m365
+subjects:
+- compliance
+- finance-accounting
+- cloud-security
 units:
 - learn-m365.audit-logging-monitoring.introduction
 - learn-m365.audit-logging-monitoring.microsoft365-log-collection

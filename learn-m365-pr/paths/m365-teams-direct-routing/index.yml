@@ -21,6 +21,9 @@ roles:
 - administrator
 products: 
 - office-teams
+subjects:
+- communication
+- collaboration
 modules:
 - learn-m365.teams.decide-when-implement-direct-routing
 - learn-m365.teams.plan-direct-routing

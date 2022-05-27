@@ -4,9 +4,9 @@ title: Walk through discovery and access control with Microsoft Defender for Clo
 metadata:
   title: Walk through discovery and access control with Microsoft Defender for Cloud Apps
   description: See how Cloud Discovery and Conditional Access App Control work in the Defender for Cloud Apps portal.  
-  ms.date: 11/03/2021
-  author: beccarobins
-  ms.author: beccarobins
+  ms.date: 03/30/2022
+  author: dcurwin
+  ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 26

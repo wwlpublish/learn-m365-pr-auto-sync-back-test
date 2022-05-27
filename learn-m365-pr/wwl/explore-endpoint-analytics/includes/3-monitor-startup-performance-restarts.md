@@ -26,9 +26,9 @@ Frequent restarts can be just as impactful to the user experience since a device
 
  -  **Abnormal shutdowns**. Where the shutdown or restart didn't go through the normal Windows shutdown process. They include the following:
     
-     -  **Stop errors.** Blue screen errors. Stop errors should be infrequent, less than 2 per device per year is typical.
-     -  **Long power button press.** When an end user holds the power button down to force a restart. These shutdowns should be less frequent than Stop errors.
-     -  **Unknown.** Any abnormal shutdown that isn't one of the above shutdowns.
+     -  **Stop errors**. Blue screen errors. Stop errors should be infrequent, less than 2 per device per year is typical.
+     -  **Long power button press**. When an end user holds the power button down to force a restart. These shutdowns should be less frequent than Stop errors.
+     -  **Unknown**.Any abnormal shutdown that isn't one of the above shutdowns.
  -  **Normal shutdowns**. Where the shutdown or restart went through the normal Windows shutdown process. They include the following:
     
      -  **Update**. The restart was done to finish installation of a Windows update. Ideally there should be around one of these restarts per device per month. Less than once per month is problematic since it indicates devices aren't getting patched. More than once per month is also problematic as it indicates users are enduring more update restarts than is typically necessary.

@@ -23,6 +23,8 @@ roles:
 - student
 products:
 - office-teams
+subjects:
+- collaboration
 modules:
 - learn.wwl.introduction-to-collaborating-with-microsoft-teams
 - learn.wwl.create-manage-teams-channels-with-microsoft-teams

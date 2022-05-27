@@ -27,6 +27,9 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- data-management
+- compliance
 modules:
 - learn.wwl.search-for-content-security-compliance-center
 - learn.wwl.conduct-audit-log-investigations

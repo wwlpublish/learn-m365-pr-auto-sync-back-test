@@ -1,6 +1,6 @@
 On the home page of a team site, you can view links to important team files, apps, and web pages, as well as recent site activity in the activity feed.
 
-![Team site product launch event example](../media/team-site-product-launch.png)
+:::image type="content" source="../media/team-site-product-launch.png" alt-text="Team site product launch event example." border="false":::
 
 The team site home page contains:
 

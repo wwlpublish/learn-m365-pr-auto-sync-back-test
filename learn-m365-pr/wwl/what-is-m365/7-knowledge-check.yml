@@ -1,0 +1,63 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.what-is-m365.5-summary-and-knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 05/11/2022
+  author: wwlpublish
+  ms.author: asglenno
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "What is hybrid work?"
+    choices:
+    - content: "A work model that only supports in-office workers."
+      isCorrect: false
+      explanation: "Incorrect. Hybrid work is a flexible work model that supports a combination of remote, in-office, onsite, and on-the-go workers."
+    - content: "A work model that just supports remote and on-the-go workers."
+      isCorrect: false
+      explanation: "Incorrect. Hybrid work is a flexible work model that supports a combination of remote, in-office, onsite, and on-the-go workers."
+    - content: "A flexible work model that supports a combination of remote, in-office, onsite, and on-the-go workers."
+      isCorrect: true
+      explanation: "Correct. Hybrid work is a flexible work model that supports a combination of remote, in-office, onsite, and on-the-go workers."
+  - content: "Which role is considered a frontline worker?"
+    choices:
+    - content: "Web developer for a tech company"
+      isCorrect: false
+      explanation: "Incorrect. A web developer isn't a frontline worker. A frontline worker is defined as those individuals that are in service or task-oriented roles. They're the first to engage customers, the first to see products and services in action, and the first to represent your brand."
+    - content: "Editor for a magazine"
+      isCorrect: false
+      explanation: "Incorrect. An editor isn't a frontline worker. A frontline worker is defined as those individuals that are in service or task-oriented roles. They're the first to engage customers, the first to see products and services in action, and the first to represent your brand."
+    - content: "Sales associate for a grocery store"
+      isCorrect: true
+      explanation: "Correct. A sales associate is considered a frontline worker. A frontline worker is defined as those individuals that are in service or task-oriented roles. They're the first to engage customers, the first to see products and services in action, and the first to represent your brand."
+  - content: "What is Microsoft 365?"
+    choices:
+    - content: "A cloud-based subscription service that consists of an integrated portfolio of products like Office apps, Teams, Windows, world-class security, and more."
+      isCorrect: true
+      explanation: "Correct. Microsoft 365 is a cloud-based subscription service that consists of an integrated portfolio of products like Office apps, Teams, Windows, world-class security, and more."
+    - content: "A subscription service for organizations that allows you to create and run PCs remotely."
+      isCorrect: false
+      explanation: "Incorrect. This subscription is referring to Windows 365. Microsoft 365 is a cloud-based subscription service that consists of an integrated portfolio of products like Office apps, Teams, Windows, world-class security, and more."
+    - content: "A one-time purchase for innovative Office apps to install on one computer."
+      isCorrect: false
+      explanation: "Incorrect. This one-time purchase is for Office 2021. Microsoft 365 is a cloud-based subscription service that consists of an integrated portfolio of products like Office apps, Teams, Windows, world-class security, and more."
+  - content: "Which of the following Microsoft 365 subscriptions is designed for large organizations?"
+    choices:
+    - content: "Microsoft 365 Enterprise"
+      isCorrect: true
+      explanation: "Correct. Microsoft 365 Enterprise is designed for large organizations."
+    - content: "Microsoft 365 for Business"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft 365 Business is designed for small to medium-sized organizations."
+    - content: "Microsoft 365 Education"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft 365 Education can scale to small or large educational institutions."

@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-microsoft-teams-voice-issues
 metadata:
   title: Troubleshoot Microsoft Teams Voice Issues
   description: "We will look at how to monitor and troubleshoot audio and video quality issues, together with emergency calling and direct routing issues."
-  ms.date: 09/13/2021
+  ms.date: 04/26/2022
   author: wwlpublish
   ms.author: cyncarey
   ms.topic: interactive-tutorial
@@ -28,6 +28,10 @@ roles:
 products:
 - m365
 - office-teams
+subjects:
+- business-continuity
+- communication
+- collaboration
 units:
 - learn.wwl.troubleshoot-microsoft-teams-voice-issues.introduction
 - learn.wwl.troubleshoot-microsoft-teams-voice-issues.explore-audio-video-quality-issues

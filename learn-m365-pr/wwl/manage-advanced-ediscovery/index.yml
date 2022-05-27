@@ -30,6 +30,10 @@ products:
 - azure-active-directory
 - m365
 - office-365
+subjects:
+- compliance
+- data-management
+- data-analytics
 units:
 - learn.wwl.manage-advanced-ediscovery.introduction
 - learn.wwl.manage-advanced-ediscovery.explore

@@ -1,18 +1,18 @@
 ### YamlMime:Module
 uid: learn-m365.m365-compliance-insider-manage-insider-risk
 metadata:
-  title: Manage insider risk in Microsoft 365
-  description: Insider risk management in Microsoft 365 helps organizations address internal risks, such as IP theft, fraud, and sabotage. Learn about insider risk management and how Microsoft technologies can help you detect, investigate, and take action on risky activities in your organization. 
-  ms.date: 11/08/2021
+  title: Manage insider risk in Microsoft Purview
+  description: Microsoft Purview Insider Risk Management helps organizations address internal risks, such as IP theft, fraud, and sabotage. Learn about insider risk management and how Microsoft technologies can help you detect, investigate, and take action on risky activities in your organization. 
+  ms.date: 05/18/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Manage insider risk in Microsoft 365
-summary: Insider risk management in Microsoft 365 helps organizations address internal risks, such as IP theft, fraud, and sabotage. Learn about insider risk management and how Microsoft technologies can help you detect, investigate, and take action on risky activities in your organization. 
+title: Manage insider risk in Microsoft Purview
+summary: Microsoft Purview Insider Risk Management helps organizations address internal risks, such as IP theft, fraud, and sabotage. Learn about insider risk management and how Microsoft technologies can help you detect, investigate, and take action on risky activities in your organization. 
 abstract: |
   Upon completion of this module, you should be able to: 
-  - Explain how insider risk management in Microsoft 365 can help prevent, detect, and contain internal risks in an organization. 
+  - Explain how Microsoft Purview Insider Risk Management can help prevent, detect, and contain internal risks in an organization. 
   - Describe the types of built-in, pre-defined policy templates. 
   - List the prerequisites that need to be met before creating insider risk policies.
   - Explain the types of actions you can take on an insider risk management case.
@@ -29,6 +29,10 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- data-management
+- insider-risk
+- threat-protection
 units:
 - learn-m365.m365-compliance-insider-manage-insider-risk.overview
 - learn-m365.m365-compliance-insider-manage-insider-risk.introduction

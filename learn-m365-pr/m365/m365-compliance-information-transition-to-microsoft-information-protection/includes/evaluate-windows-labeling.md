@@ -1,6 +1,6 @@
 Applications like Word, Excel, PowerPoint, and Outlook deliver the user experience and underlying logic to add sensitivity labels to email, documents, or other content the organization wants to protect. The required labeling capabilities are built into the latest Office and Outlook clients for macOS, iOS, Android, and the web. Once labels are published, users on non-Windows platforms can manually label content. No further action is needed.
 
-The story is different for Windows clients. During the transition to Microsoft Information Protection, the three options to enable labeling are:
+The story is different for Windows clients. During the transition to Microsoft Purview Information Protection, the three options to enable labeling are:
 
 - Azure Information Protection client (classic)
 - Azure Information Protection unified labeling client
@@ -10,14 +10,14 @@ Each client integrates with Office and Outlook, but the classic client and unifi
 
 ## Azure Information Protection client (classic)
 
-The Azure Information Protection client was the only labeling client for Windows prior to the introduction of the new Microsoft Information Protection framework and unified labeling. This client is commonly referred to as the Azure Information Protection client (classic), or just the classic client. This client downloads labels and policy settings from Azure and you configure the Azure Information Protection policy from the Azure portal. As previously noted, installation of this client is separate from your Office installation.
+The Azure Information Protection client was the only labeling client for Windows prior to the introduction of the new Microsoft Purview Information Protection framework and unified labeling. This client is commonly referred to as the Azure Information Protection client (classic), or just the classic client. This client downloads labels and policy settings from Azure and you configure the Azure Information Protection policy from the Azure portal. As previously noted, installation of this client is separate from your Office installation.
 
 > [!NOTE]
 > The Azure Information Protection client (classic) is scheduled to be deprecated on March 31, 2021.
 
 ## Azure Information Protection unified labeling client
 
-The Azure Information Protection unified labeling client is one of two options for Windows clients to become aware of the functionality introduced with the transition to Microsoft Information Protection framework. It replaces the Azure Information Protection client (classic). This client downloads sensitivity labels and policy settings from the Microsoft 365 compliance center. The unified labeling client is close to feature parity with the Azure Information Protection client. Like the classic client, the unified labeling client installation process is a separate installation from Office. You must download this client from the Microsoft Download Center or other preferred source.
+The Azure Information Protection unified labeling client is one of two options for Windows clients to become aware of the functionality introduced with the transition to Microsoft Purview Information Protection framework. It replaces the Azure Information Protection client (classic). This client downloads sensitivity labels and policy settings from the Microsoft Purview compliance portal. The unified labeling client is close to feature parity with the Azure Information Protection client. Like the classic client, the unified labeling client installation process is a separate installation from Office. You must download this client from the Microsoft Download Center or other preferred source.
 
 ## Office built-in labeling client
 
@@ -26,8 +26,9 @@ The second way Office clients become aware of the new unified labeling support i
 ## User experience comparison
 
 The main difference the Azure Information Protection client (classic) user will see when using the unified labeling clients (either built-in or installed separately) is the "Sensitivity" button replaces the "Protect" button. The image below illustrates the differences between the classic client and the unified labeling client (and Office built-in labeling) on Windows. The experience is similar in iOS, macOS and on the web.
- 
-![Differences between the classic client and the unified labeling client (and Office built-in labeling) on Windows](../media/classic-unified-labeling-client.png)
+
+> [!div class="centered"]
+> :::image type="content" source="../media/classic-unified-labeling-client.png" alt-text="Differences between the classic client and the unified labeling client (and Office built-in labeling) on Windows." border="false":::
 
 ## Windows labeling client guidance
 
@@ -42,14 +43,16 @@ While the Office built-in labeling client is the preferred choice, it will not w
 ### Guidance for new customers
 
 Use the decision tree below to help you decide which Windows client to install if you have yet to deploy an information protection solution from Microsoft.
- 
-![Use the decision tree below to help you decide which Windows client to install if you have yet to deploy an information protection solution from Microsoft..](../media/windows-client-decision-tree.png)
+
+> [!div class="centered"]
+> :::image type="content" source="../media/windows-client-decision-tree.png" alt-text="Use the decision tree below to help you decide which Windows client to install if you have yet to deploy an information protection solution from Microsoft." border="false":::
 
 ### Guidance for existing Azure Information Protection customers
 
-Use the decision tree below to help you decide which Windows client to install if you are an existing Azure Information Protection customer transitioning to Microsoft Information Protection.
+Use the decision tree below to help you decide which Windows client to install if you are an existing Azure Information Protection customer transitioning to Microsoft Purview Information Protection.
 
-![Use the decision tree below to help you decide which Windows client to install if you are an existing Azure Information Protection customer transitioning to Microsoft Information Protection...](../media/windows-client-aip-decision-tree.png)
+> [!div class="centered"]
+> :::image type="content" source="../media/windows-client-aip-decision-tree.png" alt-text="Use the decision tree below to help you decide which Windows client to install if you are an existing Azure Information Protection customer transitioning to Microsoft Purview Information Protection." border="false":::
 
 ## Learn more
 

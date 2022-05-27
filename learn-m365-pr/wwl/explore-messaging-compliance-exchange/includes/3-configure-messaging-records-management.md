@@ -28,7 +28,7 @@ Organizations use MRM to implement different strategies for message retention, d
 :::row-end:::
 :::row:::
   :::column:::
-    Remove all messages after a specified period
+    Remove all messages after a specified period.
   :::column-end:::
   :::column:::
     In this strategy, you implement a single MRM policy that removes all messages after a certain period. There's no classification of messages, so all messages are affected. You can implement this policy by creating a single default policy tag (DPT) for the mailbox. However, doing so doesn't ensure that messages are kept for the specified period. Users can still delete messages before the retention period is reached.
@@ -36,7 +36,7 @@ Organizations use MRM to implement different strategies for message retention, d
 :::row-end:::
 :::row:::
   :::column:::
-    Move messages to archive mailboxes
+    Move messages to archive mailboxes.
   :::column-end:::
   :::column:::
     In this strategy, you implement MRM policies that move items to the user's archive mailbox. An archive mailbox provides extra storage for users to maintain old and infrequently accessed content. Retention tags that move items are also known as archive policies. Within the same retention policy, you can combine DPT and personal tags to move items, and DPT, RPTs, and personal tags to delete items.
@@ -44,7 +44,7 @@ Organizations use MRM to implement different strategies for message retention, d
 :::row-end:::
 :::row:::
   :::column:::
-    Remove messages based on folder location
+    Remove messages based on folder location.
   :::column-end:::
   :::column:::
     In this strategy, you implement MRM policies based on email location. For example, you can specify that messages in the Inbox are kept for one year and messages in the Junk Email folder are kept for 60 days. You can implement this policy by using a combination of RPTs for each default folder you want to configure and a DPT for the entire mailbox. The DPT applies to all custom folders and all default folders that don't have an RPT applied.
@@ -52,14 +52,10 @@ Organizations use MRM to implement different strategies for message retention, d
 :::row-end:::
 :::row:::
   :::column:::
-    Allow users to classify messages
+    Allow users to classify messages.
   :::column-end:::
   :::column:::
-    
-
-This strategy implements MRM policies that include a baseline retention setting for all messages but allows users to classify messages based on business or regulatory requirements. As such, users become an important part of an organization's records management strategy. They often have the best understanding of a message's retention value.
-
-
+    This strategy implements MRM policies that include a baseline retention setting for all messages but allows users to classify messages based on business or regulatory requirements. As such, users become an important part of an organization's messaging records management strategy. They often have the best understanding of a message's retention value.
 Users can apply different retention settings to messages that need to be kept for a longer or shorter period. You can implement this policy using a combination of the following features:
 
  -  A DPT for the mailbox.
@@ -71,7 +67,7 @@ Users can apply different retention settings to messages that need to be kept fo
 :::row-end:::
 :::row:::
   :::column:::
-    Keep messages for eDiscovery purposes
+    Keep messages for eDiscovery purposes.
   :::column-end:::
   :::column:::
     In this strategy, you implement MRM policies that remove messages from mailboxes after a specified period but also keep them in the Recoverable Items folder for In-Place eDiscovery purposes in Exchange Server, even if the messages were deleted by the user or another process.
@@ -84,7 +80,7 @@ You can meet this requirement by using a combination of retention policies and I
 Optionally, you can use RPTs and personal tags to allow users to clean up their mailboxes. However, both an In-Place hold and a Litigation hold continue to keep the deleted messages until the hold period expires.
 
 > [!NOTE]
-> MRM retention policies and retentions tags are equally available in Exchange Server and Exchange Online. However, in Exchange Online you should primarily use them for clean-up purpose to move user messages to their in-place archive and use Retention Policies in the Microsoft 365 Compliance center for retention and compliance purposes. In Exchange Server, they serve both tasks - the clean-up for performance and retention for compliance reasons.
+> MRM retention policies and retentions tags are equally available in Exchange Server and Exchange Online. However, in Exchange Online you should primarily use them for clean-up purpose to move user messages to their in-place archive and use Retention Policies in the Microsoft Purview compliance portal for retention and compliance purposes. In Exchange Server, they serve both tasks - the clean-up for performance and retention for compliance reasons.
 
 ### Configure retention policies and retention tags
 
@@ -111,14 +107,8 @@ The following tables describe the available actions for retention tags and how t
     Move to archive
   :::column-end:::
   :::column:::
-    
-
-Moves the message to the user's archive mailbox.
-
-
+    Moves the message to the user's archive mailbox.
 Only available for DPTs and personal tags.
-
-
   :::column-end:::
   :::column:::
     If the user doesn't have an archive mailbox, no action is taken.
@@ -129,17 +119,9 @@ Only available for DPTs and personal tags.
     Delete and allow recovery
   :::column-end:::
   :::column:::
-    
-
-Emulates the behavior when the user empties the Deleted Items folder.
-
-
+    Emulates the behavior when the user empties the Deleted Items folder.
 Items are moved to the Recoverable Items folder in Exchange Server in the mailbox and preserved until the deleted item retention period.
-
-
 Provides the user a second chance to recover the item using the Recover Deleted Items dialog box in Outlook or Outlook on the web.
-
-
   :::column-end:::
   :::column:::
     If you have set the deleted item retention period to zero days, items are permanently deleted.
@@ -150,14 +132,8 @@ Provides the user a second chance to recover the item using the Recover Deleted 
     Permanently delete
   :::column-end:::
   :::column:::
-    
-
-Permanently deletes messages.
-
-
+    Permanently deletes messages.
 You can't recover messages after they're permanently deleted.
-
-
   :::column-end:::
   :::column:::
     If the mailbox is placed on In-Place hold and Litigation hold in Exchange Server or Litigation hold, items are preserved in the Recoverable Items folder based on the hold parameters. In-Place eDiscovery in Exchange Server will still return these items in search results.
@@ -194,27 +170,13 @@ The following table describes the different types of retention tags that are ava
     Default policy tag (DPT)
   :::column-end:::
   :::column:::
-    
-
-Automatically to entire mailbox.
-
-
+    Automatically to entire mailbox.
 A DPT applies to untagged items, which are mailbox items that don't have a retention tag applied directly or by inheritance from the folder.
-
-
   :::column-end:::
   :::column:::
-    
-
-Move to archive.
-
-
+    Move to archive.
 Delete and allow recovery.
-
-
 Permanently delete.
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -222,24 +184,12 @@ Permanently delete.
     Retention policy tag (RPT)
   :::column-end:::
   :::column:::
-    
-
-Automatically to a default folder.
-
-
+    Automatically to a default folder.
 Default folders are folders created automatically in all mailboxes. For example, Inbox, Deleted Items, and Sent Items.
-
-
   :::column-end:::
   :::column:::
-    
-
-Delete and allow recovery.
-
-
+    Delete and allow recovery.
 Permanently delete.
-
-
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -247,27 +197,13 @@ Permanently delete.
     Personal tag
   :::column-end:::
   :::column:::
-    
-
-Manually to items and folders.
-
-
+    Manually to items and folders.
 Users can automate tagging by using Inbox rules to either move a message to a folder that has a particular tag or to apply a personal tag to the message.
-
-
   :::column-end:::
   :::column:::
-    
-
-Move to archive.
-
-
+    Move to archive.
 Delete and allow recovery.
-
-
 Permanently delete.
-
-
   :::column-end:::
 :::row-end:::
 
@@ -285,7 +221,7 @@ You can also use the **Start-ManagedFolderAssistant** cmdlet to manually trigger
 
 ### Retention policies in Exchange hybrid
 
-MRM retention policies are invaluable for managing the message lifecycle and retention in Exchange Server, but they only apply to messages that are stored in the same Exchange organization. As such, in Exchange hybrid you must manage retention policies in Exchange Server and Exchange Online simultaneously. While you use Retention Policies in the Microsoft 365 Compliance center for Exchange Online, you must still manage retention in Exchange Server with MRM.
+MRM retention policies are invaluable for managing the message lifecycle and retention in Exchange Server, but they only apply to messages that are stored in the same Exchange organization. As such, in Exchange hybrid you must manage retention policies in Exchange Server and Exchange Online simultaneously. While you use Retention Policies in the Microsoft Purview compliance portal for Exchange Online, you must still manage retention in Exchange Server with MRM.
 
 > [!NOTE]
 > When planning your retention strategy, consider the limits of retention policies and how to ensure message retention and deletion across your on-premises and your Exchange Online organizations.
@@ -295,4 +231,4 @@ Retention policies and retention tags aren't synchronized between your organizat
  -  When running the Hybrid Configuration Wizard (HCW), you can use the Organization Configuration Transfer (OCT) feature to transfer all retention policies and tags to Exchange Online.
  -  You can use the Exchange scripts **Export-RetentionTags.ps1** and **Import-RetentionTags.ps1** from your Exchange installation directory to export and then import all MRM configuration of your organization.
 
-**Additional reading**. For more information, see [Export and import retention tags](/exchange/export-and-import-retention-tags-exchange-2013-help?azure-portal=true).
+**Further reading**. For more information, see [Export and import retention tags](/exchange/export-and-import-retention-tags-exchange-2013-help?azure-portal=true).

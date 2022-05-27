@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.ransomware-identify-entry-points.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: Introduction
+  description: Learn about the threat landscape and how cybercriminals exploit weaknesses and vulnerabilities in your security infrastructure.
+  ms.date: 5/9/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

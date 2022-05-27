@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-access-file-data.5-exercise-upload-files-onedrive
 metadata:
   title: Exercise - Upload files to OneDrive
   description: In this exercise, you’ll learn how to upload files to OneDrive using Microsoft Graph, including both small and large files.
-  ms.date: 09/13/2021
+  ms.date: 05/17/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -15,7 +15,7 @@ content: |
 quiz:
   title: Test your knowledge
   questions:
-  - content: "Simple file uploads differ from large file uploads differ in all except which of the following ways?"
+  - content: "Simple file uploads differ from large file uploads in all except which of the following ways?"
     choices:
     - content: "Large file uploads allow you to upload multiple chunks of a file in a resumable session, while simple file uploads involve a single request."
       isCorrect: false

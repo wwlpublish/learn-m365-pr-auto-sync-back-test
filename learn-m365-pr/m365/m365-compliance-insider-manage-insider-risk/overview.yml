@@ -3,8 +3,8 @@ uid: learn-m365.m365-compliance-insider-manage-insider-risk.overview
 title: Insider risk management overview
 metadata:
   title: Insider risk management overview
-  description: Insider risk management in Microsoft 365 helps organizations address internal risks, such as IP theft, fraud, and sabotage. Learn about insider risk management and how Microsoft technologies can help you detect, investigate, and take action on risky activities in your organization. 
-  ms.date: 11/08/2021
+  description: Microsoft Purview Insider Risk Management helps organizations address internal risks, such as IP theft, fraud, and sabotage. Learn about insider risk management and how Microsoft technologies can help you detect, investigate, and take action on risky activities in your organization. 
+  ms.date: 05/18/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

@@ -4,7 +4,7 @@ title: Implement multifactor authentication for Exchange
 metadata:
   title: Implement multifactor authentication for Exchange
   description: "Implement multifactor authentication for Exchange"
-  ms.date: 03/09/2022
+  ms.date: 05/27/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Conditional Access policies weren't enabled"
       isCorrect: false
-      explanation: "That's incorrect. This item wouldn't be the cause of the MFA option being disabled. Try again."
+      explanation: "That's incorrect. This item wouldn't be the cause of the MFA option being disabled."
     - content: "Security defaults weren't enabled"
       isCorrect: false
-      explanation: "That's incorrect. This item wouldn't be the cause of the MFA option being disabled. Try again."
+      explanation: "That's incorrect. This item wouldn't be the cause of the MFA option being disabled."
     - content: "Holly was not a Global admin"
       isCorrect: true
       explanation: "That's correct. To configure multifactor authentication in Microsoft 365, you must be a Microsoft 365 Global administrator."

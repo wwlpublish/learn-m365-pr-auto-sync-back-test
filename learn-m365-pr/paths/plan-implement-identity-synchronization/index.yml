@@ -3,7 +3,7 @@ uid: learn.wwl.plan-implement-identity-synchronization
 metadata:
   title: Plan and implement identity synchronization
   description: Plan and implement identity synchronization
-  ms.date: 04/16/2021
+  ms.date: 05/05/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -23,14 +23,16 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
+subjects:
+- process-workflow
+- identity-access
+- cloud-security
 modules:
 - learn.wwl.introduction-to-identity-synchronization
-- learn.wwl.plan-for-azure-ad-connect-implementation
-- learn.wwl.implement-azure-ad-connect
+- learn.wwl.prepare-identity-synchronization-microsoft-365
+- learn.wwl.implement-directory-synchronization-tools
 - learn.wwl.manage-synchronized-identities
-- learn.wwl.explore-password-management-microsoft-365
 trophy:
   uid: learn.wwl.plan-implement-identity-synchronization.trophy

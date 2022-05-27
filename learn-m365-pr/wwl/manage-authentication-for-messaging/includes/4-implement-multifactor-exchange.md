@@ -39,7 +39,9 @@ These methods are based on your Microsoft 365 plan, as outlined in the following
     All Microsoft 365 plans
   :::column-end:::
   :::column:::
-    Use security defaults, which require MFA for all user accounts.You can also configure per-user MFA on individual user accounts, but this method isn't recommended.
+    Use security defaults, which require MFA for all user accounts.
+    
+    You can also configure per-user MFA on individual user accounts, but this method isn't recommended.
   :::column-end:::
   :::column:::
     Small business
@@ -109,9 +111,9 @@ For small businesses with Microsoft 365 Business Premium, you can easily use Con
 2.  Enable the **Require MFA for global admins** policy.
 3.  Create a group-based Conditional Access policy with these settings:
     
-     -  **Assignments > Users and groups**: The name of your group from Step 1 above.
-     -  **Assignments > Cloud apps or actions**: All cloud apps.
-     -  **Access controls > Grant > Grant access > Require multi-factor authentication**.
+     -  **Assignments &gt; Users and groups**: The name of your group from Step 1 above.
+     -  **Assignments &gt; Cloud apps or actions**: All cloud apps.
+     -  **Access controls &gt; Grant &gt; Grant access &gt; Require multi-factor authentication**.
 4.  Enable the policy.
 5.  Add a user account to the group created in Step 1 above and test.
 6.  To require MFA for more user accounts, add them to the group created in Step 1.

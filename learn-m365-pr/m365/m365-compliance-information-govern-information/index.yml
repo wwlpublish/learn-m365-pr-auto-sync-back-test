@@ -1,20 +1,20 @@
 ### YamlMime:Module
 uid: learn-m365.m365-compliance-information-govern-information
 metadata:
-  title: Govern information in Microsoft 365
+  title: Manage the data lifecycle in Microsoft Purview
   description:  Learn how to manage your content lifecycle using solutions to import, store, and classify business-critical data so you can keep what you need and delete what you don't. 
-  ms.date: 10/29/2021
+  ms.date: 05/02/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Govern information in Microsoft 365
+title: Manage the data lifecycle in Microsoft Purview
 summary:  Learn how to manage your content lifecycle using solutions to import, store, and classify business-critical data so you can keep what you need and delete what you don't. 
 abstract: |
   Upon completion of this module, you should be able to: 
-  - Discuss the information governance solution and its benefits.
-  - List the customer scenarios the information governance solution addresses. 
-  - Describe the information governance configuration process. 
+  - Discuss the Data Lifecycle Management solution and its benefits.
+  - List the customer scenarios the Data Lifecycle Management solution addresses. 
+  - Describe the Data Lifecycle Management configuration process. 
   - Explain what users will experience when the solution is implemented.
   - Articulate deployment and adoption best practices. 
 
@@ -31,6 +31,9 @@ roles:
 products:
 - m365
 - office-365
+subjects:
+- information-protection-governance
+- knowledge-management
 units:
 - learn-m365.m365-compliance-information-govern-information.overview
 - learn-m365.m365-compliance-information-govern-information.configure-retention-policies

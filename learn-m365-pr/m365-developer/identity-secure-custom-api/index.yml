@@ -27,6 +27,8 @@ roles:
 products:
   - m365
   - azure-active-directory
+subjects:
+- identity-access
 units:
   - learn-m365.identity-secure-custom-api.1-introduction
   - learn-m365.identity-secure-custom-api.2-secure-api-microsoft-identity

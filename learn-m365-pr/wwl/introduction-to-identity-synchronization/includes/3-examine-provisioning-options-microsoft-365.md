@@ -4,13 +4,18 @@ Provisioning options in Microsoft 365 fall into three categories – On-Premises
 
 With Active Directory, an organization can create a scalable, secure, and manageable infrastructure for user and resource management. It can also provide support for directory-enabled applications such as Microsoft Exchange Server.
 
-Administrators can use access control to manage user access to shared resources for security purposes. Access control is administered in Active Directory at the object level by setting different levels of access, or permissions, to objects. For example, permissions may include Full Control, Read, Write, or No Access. Access control in Active Directory defines how different users can use Active Directory objects. Permissions on objects in Active Directory are set to the most secure setting by default.
+Administrators can use access control to manage user access to shared resources for security purposes. Access control is administered in Active Directory at the object level. It does so by setting different levels of access, or permissions, to objects. For example, permissions may include Full Control, Read, Write, or No Access. Access control in Active Directory defines how different users can use Active Directory objects. Permissions on objects in Active Directory are set to the most secure setting by default.
 
 ### Cloud
 
 An account must be created for every user who accesses a Microsoft cloud service. User accounts can also be changed, and they can be deleted when they're no longer needed. By default, users don't have administrator permissions, but they can be optionally assigned.
 
-One of the major features of Microsoft Azure Active Directory (Azure AD) is the ability to manage access to resources. These resources can be part of the directory, such as permissions to manage objects through roles in the directory. These resources may also be external to the directory, such as software as a service (SaaS) applications, Azure services, Microsoft SharePoint sites, and on-premises resources.
+One of the major features of Microsoft Azure Active Directory (Azure AD) is the ability to manage access to resources. These resources can be part of the directory, such as permissions to manage objects through roles in the directory. These resources may also be external to the directory, such as:
+
+ -  Software as a Service (SaaS) applications
+ -  Azure services
+ -  Microsoft SharePoint sites
+ -  On-premises resources
 
 The Azure AD access management solution is designed around Role Base Access Control (RBAC) and security groups. The resource owner (or the administrator of the directory) can assign a group to provide certain access rights to the resources they own. The members of the group will be provided access, and the resource owner can delegate the rights to manage the group’s members list to someone else—such as a department manager or a help-desk administrator.
 

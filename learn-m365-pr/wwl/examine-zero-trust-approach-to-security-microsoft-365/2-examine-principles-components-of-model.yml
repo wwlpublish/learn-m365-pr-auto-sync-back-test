@@ -4,12 +4,13 @@ title: Examine the principles and components of the Zero Trust model
 metadata:
   title: Examine the principles and components of the Zero Trust model
   description: "Examine the principles and components of the Zero Trust model"
-  ms.date: 07/05/2021
+  ms.date: 04/30/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 5
 content: |
   [!include[](includes/2-examine-principles-components-of-model.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Implicit trust"
       isCorrect: false
-      explanation: "That's incorrect. Implementing Zero Trust requires you to move from an implicit trust model to one of verifying explicitly. Try again."
+      explanation: "Incorrect. Implementing Zero Trust requires you to move from an implicit trust model to one of verifying explicitly."
     - content: "Use most privileged access"
       isCorrect: false
-      explanation: "That's incorrect. Use least (not most) privileged access is actually one of the underlying principles that's part of the foundation of the Zero Trust model. Try again."
+      explanation: "Incorrect. Use least (not most) privileged access is actually one of the underlying principles that's part of the foundation of the Zero Trust model."
     - content: "Assume breach"
       isCorrect: true
-      explanation: "That's correct. Minimize blast radius for breaches and prevent lateral movement by segmenting access by network, user, devices, and app awareness. Verify all sessions are encrypted from start to finish. Use analytics to get visibility and drive threat detection and improve defenses."
+      explanation: "Correct. Minimize blast radius for breaches and prevent lateral movement by segmenting access by network, user, devices, and app awareness. Verify all sessions are encrypted from start to finish. Use analytics to get visibility and drive threat detection and improve defenses."

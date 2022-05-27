@@ -1,6 +1,6 @@
 Microsoft Teams is your hub for teamwork in Microsoft 365. Teams is a chat-based workspace that brings together chat, meetings, calling, and Microsoft 365, all-in-one. And it's built on the trust of Microsoft security and compliance that's crucial for today's businesses.
 
-![Teams is a teamwork hub](../media/intro.png)
+:::image type="content" source="../media/intro.png" alt-text="Teams is a teamwork hub." border="false":::
 
 Teams delivers in four core areas to create a digital workspace for high-performing teams: Communicate, Collaborate, Customize, and Work with confidence.
 
@@ -12,7 +12,7 @@ Teams meets the communication needs of a diverse workforce by providing a comple
 
 When it comes to collaboration, the deep integration of Teams with Microsoft 365 enables today's multigenerational workforce to use the Office apps they are familiar with—Word, Excel, PowerPoint, OneNote, SharePoint, Planner, even Power BI—right within the context of Teams. Teams brings all the services together so that you can easily share and co-author files.
 
-![Collaboration apps](../media/intro-collaborate.png)
+:::image type="content" source="../media/intro-collaborate.png" alt-text="Collaboration apps." border="false":::
 
 ## Customize
 

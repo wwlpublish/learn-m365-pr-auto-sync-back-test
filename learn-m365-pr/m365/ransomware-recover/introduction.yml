@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.ransomware-recover.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: Introduction
+  description: Ransomware is the latest in a long line of tools used by cybercriminals to cause maximum disruption at a low cost, with high rewards. In this high-stakes game, both individuals and organizations fall victim to these attacks. But how do you know whether an attack is happening?
+  ms.date: 05/20/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

@@ -1,13 +1,22 @@
 Attacks through email are one of the most common methods used by hackers to gain entry into a network. Users’ computers and account credentials can become compromised through methods such as phishing, spoofing, and malware. Once a hacker can compromise a user’s computer or credentials, it becomes easy for the hacker to threaten the security of an organization.
 
-Phishing is a technique a hacker uses to retrieve sensitive information such as a user’s account credentials or credit card number. For example, a user receives an email that appears to have been sent from a trustworthy source such as a bank or the user’s IT administrator. Phishing attempts often entice users to select a link to a malicious website that looks legitimate except for the URL of the website in question. Upon entering the site, users may be directed to enter personal information that hackers can then use to their advantage. Another possibility is that the site is infected with malware, which infects the user’s computer with a payload such as:
+Phishing is a technique a hacker uses to retrieve sensitive information such as a user’s account credentials or credit card number. For example, a user receives an email that appears to have been sent from a trustworthy source such as a bank or the user’s IT administrator. Phishing attempts often entice users to select a link to a malicious website that looks legitimate except for the URL of the website in question. When users enter the site, they may be prompted to enter personal information that hackers can then use to their advantage. Another possibility is the site is infected with malware. Malware can infect the user’s computer with a payload such as:
 
- *  **Virus.** A computer virus is a type of malicious software program, or "malware." When executed, the virus replicates itself by modifying other computer programs and inserting its own code, infecting files or even the boot sector of the hard drive.
- *  **Trojan horse.** A trojan horse typically acts as a backdoor that enables a hacker to control or use the infected computer to the hacker's advantage. Depending on its design, a trojan horse can accomplish many tasks, some of which include blocking anti-virus software, installing applications, stealing passwords and credit card numbers, and infecting other computers and devices connected to the same network.
- *  **Rootkit.** A rootkit is a type of malware designed to provide a hacker with administrative access to a computer without being detected. When used, a rootkit can provide a hacker with full access to the computer. This access can lead to stealing or falsifying documents, the ability to hide other malware such as password-stealing key loggers and viruses, and using the computer for attacks on other computers.
- *  **Spyware.** Spyware is often used to gather information about internet activity, keystrokes, passwords, and other sensitive data. Spyware can also be used as adware, where the software delivers pop-up ads and tracks user behavior.
+ -  **Virus.** A computer virus is a type of malicious software program, or "malware." When executed, the virus replicates itself by modifying other computer programs and inserting its own code. This process infects files or even the boot sector of the hard drive.
+ -  **Trojan horse.** A trojan horse typically acts as a backdoor that enables a hacker to control or use the infected computer to the hacker's advantage. Depending on its design, a trojan horse can accomplish many tasks, including:
+    
+     -  Blocking anti-virus software.
+     -  Installing applications.
+     -  Stealing passwords and credit card numbers.
+     -  Infecting other computers and devices connected to the same network.
+ -  **Rootkit.** A rootkit is a type of malware designed to provide a hacker with administrative access to a computer without being detected. When used, a rootkit can provide a hacker with full access to the computer. This access can lead to:
+    
+     -  Stealing or falsifying documents.
+     -  Hiding other malware such as password-stealing key loggers and viruses.
+     -  Using the computer for attacks on other computers.
+ -  **Spyware.** Spyware is often used to gather information about internet activity, keystrokes, passwords, and other sensitive data. Spyware can also be used as adware, where the software delivers pop-up ads and tracks user behavior.
 
-Spear phishing is a type of phishing attack directed at specific individuals. Spear phishing, or whaling, typically targets senior executives and other high-profile individuals, usually for financial gain. Spear phishing often masquerades as a legitimate email prompting the user to respond with sensitive information or select a link that installs malware that infects the user’s computer with some type of payload.
+Spear phishing is a type of phishing attack directed at specific individuals. Spear phishing, or whaling, typically targets senior executives and other high-profile individuals, usually for financial gain. Spear phishing often masquerades as a legitimate email. It may prompt the user to respond with sensitive information. It may also prompt the user to select a link that installs malware that infects the user’s computer with some type of payload.
 
 Phishing emails usually contain branding and URLs that, on the surface, appear legitimate. They also typically convey a sense of urgency to persuade the user to act quickly.
 

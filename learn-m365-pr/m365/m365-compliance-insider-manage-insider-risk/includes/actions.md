@@ -2,11 +2,11 @@
 
 Alerts can be assigned to a case so that you can conduct a detailed investigation from the **Cases** section in the insider risk management console. You can review the individual signals that triggered the case in a timeline, review the affected content, add notes, or invite additional contributors in the investigation in order to reach a conclusion.
 
-A case investigation may end up with a notice being sent to the offending employee. Other cases might require you to create an eDiscovery case which will enable you to collect, preserve, review, analyze and export data related to the user in question in order to conclude whether there was an actual threat and its scope. In most cases, the eDiscovery case will be managed by a different person with the necessary roles and privileges to manage Advanced eDiscovery cases.
+A case investigation may end up with a notice being sent to the offending employee. Other cases might require you to create an eDiscovery case which will enable you to collect, preserve, review, analyze and export data related to the user in question in order to conclude whether there was an actual threat and its scope. In most cases, the eDiscovery case will be managed by a different person with the necessary roles and privileges to manage eDiscovery (Premium) cases.
 
 Once an investigation has concluded and the necessary actions have been taken, the case can be closed by resolving the case as either benign or a confirmed policy violation with specific actions taken.
 
-To learn more about Advanced eDiscovery cases, see [Overview of Advanced eDiscovery in Microsoft 365](/microsoft-365/compliance/overview-ediscovery-20?azure-portal=true).
+To learn more about eDiscovery (Premium) cases, see [Overview of eDiscovery (Premium) in Microsoft Purview](/microsoft-365/compliance/overview-ediscovery-20?azure-portal=true).
 
 ## Case dashboard
 
@@ -26,7 +26,9 @@ The case queue lists all active and closed cases for your organization, in addit
 - **Last updated:** The time that has passed since there has been an added case note or change in the case state.
 - **Last updated by:** The name of the insider risk management analyst or investigator that last updated the case.
 
-:::image type="content" source="../media/active-cases.png" alt-text="Active cases" lightbox="../media/active-cases.png":::
+:::image type="complex" source="../media/active-cases.png" alt-text="Screenshot of the Case tabs in Insider Risk Management." lightbox="../media/active-cases.png" border="false":::
+	The Case tab shows 2 currently active cases, the number of active and closed cases over the past 30 days, and a list of each case including its name, status, the user, the time opened, and the total number of policy alerts.
+:::image-end:::
 
 The Search control is used to search case names for specific text and use the case filter to sort cases by the following attributes:
 
@@ -58,7 +60,7 @@ The **Case details** pane summarizes the case details for risk analysts and inve
 
 ### Alerts
 
-The **Alerts** tab summarizes the status, severity, and time detected for current alerts included in the case. New alerts may be added to an existing case and added to the **Alert** queue as they are assigned. 
+The **Alerts** tab summarizes the status, severity, and time detected for current alerts included in the case. New alerts may be added to an existing case and added to the **Alert** queue as they are assigned.
 Selecting an alert from the queue displays the **Alert detail** page.
 The **Search** control can be used to search alert names for specific text while the **Filter** control can be used to sort cases by the following attributes:
 
@@ -70,7 +72,7 @@ The **Search** control can be used to search alert names for specific text while
 
 The **User activity** tab is one of the most powerful tools for internal risk analysis and investigation for cases in the insider risk management solution. This tab is structured to enable quick review of a case, including a historical timeline of all alerts, alerts details, the current risk score for the user in the case, and controls to take effective action to contain the risks in the case.
 
-:::image type="content" source="../media/user-activity.png" alt-text="User activity" lightbox="../media/user-activity.png":::
+:::image type="content" source="../media/user-activity.png" alt-text="Screenshot of the User activity tab that shows a timeline of activities, case details, and user details." lightbox="../media/user-activity.png" border="false":::
 
 - **Date and window time filters:** By default, the last six months of alerts confirmed in the case are displayed in the User activity chart. You can filter the chart view with either the slider controls at both ends of the chart window, or by defining specific start and end dates in the chart filter control.
 - **Risk alert activity and details:** Risk activities are displayed as colored bubbles in the User activity chart. Bubbles are created for different categories of risk and the bubble size is proportional to the number of risk activities for the category. Selecting a bubble displays the following details for each risk activity:
@@ -86,7 +88,7 @@ The **User activity** tab is one of the most powerful tools for internal risk an
 
 The **Content explorer** tab allows risk analysts and investigators to review copies of all individual files and email messages associated with risk alerts. For example, if an alert is created when an employee downloads hundreds of files from SharePoint Online to a USB device and the activity triggers a policy alert, all the downloaded files for the alert are captured and copied to the insider risk management case from original storage sources.
 
-:::image type="content" source="../media/content-explorer.png" alt-text="Content explorer" lightbox="../media/content-explorer.png":::
+:::image type="content" source="../media/content-explorer.png" alt-text="Screenshot of the Content explorer tab that lists the emails and files flagged by the policy alert as well as an overview of case details in a pane on the far right." lightbox="../media/content-explorer.png" border="false":::
 
 **Content explorer** is a powerful tool with basic and advanced search and filtering features. To learn more about using the content explorer, see [Insider risk management content explorer](/microsoft-365/compliance/insider-risk-management-content-explorer?azure-portal=true).
 
@@ -107,7 +109,7 @@ All insider risk management cases must be managed with appropriate access contro
 
 ## Case actions
 
-Risk analysts and investigators can take action on a case in one of several methods, depending on the severity of the case, the history of risk of the employee, and the risk guidelines of your organization. In some situations, you may need to escalate a case to an employee or data investigation to collaborate with other areas of your organization and to dive deeper into risk activities. Insider risk management is tightly integrated with other Microsoft 365 compliance features such as Advanced eDiscovery to help you with end-to-end resolution management.
+Risk analysts and investigators can take action on a case in one of several methods, depending on the severity of the case, the history of risk of the employee, and the risk guidelines of your organization. In some situations, you may need to escalate a case to an employee or data investigation to collaborate with other areas of your organization and to dive deeper into risk activities. Insider risk management is tightly integrated with other Microsoft Purview features such as eDiscovery (Premium) to help you with end-to-end resolution management.
 
 ### Send a notice
 
@@ -116,7 +118,7 @@ It's important to remember that sending a notice to an employee *does not* resol
 
 ### Escalate for investigation
 
-Cases may need to be escalated in situations where additional legal review is needed for the employee's risk activity. This escalation opens a new Advanced eDiscovery case in your Microsoft 365 organization. Advanced eDiscovery provides an end-to-end workflow to preserve, collect, review, analyze, and export content that's responsive to your organization's internal and external legal investigations. It also lets your legal team manage the entire legal hold notification workflow to communicate with custodians involved in a case. Assigning a reviewer as a custodian in an Advanced eDiscovery case created from an insider risk management case helps your legal team take appropriate action and manage content preservation. After the insider risk management case has been escalated to a new employee investigation case, you can review the new case in the **eDiscovery> Advanced** area in the Microsoft 365 compliance center.
+Cases may need to be escalated in situations where additional legal review is needed for the employee's risk activity. This escalation opens a new eDiscovery (Premium) case in your Microsoft 365 organization. eDiscovery (Premium) provides an end-to-end workflow to preserve, collect, review, analyze, and export content that's responsive to your organization's internal and external legal investigations. It also lets your legal team manage the entire legal hold notification workflow to communicate with custodians involved in a case. Assigning a reviewer as a custodian in an eDiscovery (Premium) case created from an insider risk management case helps your legal team take appropriate action and manage content preservation. After the insider risk management case has been escalated to a new employee investigation case, you can review the new case in the **eDiscovery> Advanced** area in the Microsoft Purview compliance portal.
 
 ### Resolve the case
 
@@ -131,7 +133,7 @@ After risk analysts and investigators have completed their review and investigat
 
 The **Notices templates dashboard** displays a list of configured notice templates and allows you to create new notice templates. The notice templates are listed in reverse date order with the most recent notice template listed first.
 
-:::image type="content" source="../media/notice-templates.png" alt-text="Notice templates" lightbox="../media/notice-templates.png":::
+:::image type="content" source="../media/notice-templates.png" alt-text="Screenshot of the Notice templates tab that shows two existing templates: Employee code of conduct reminder and Confidentiality obligation reminder." lightbox="../media/notice-templates.png" border="false":::
 
 If you'd like to create more than a simple text-based email message for notifications, you can create a more detailed message by [using the HTML in the message body field](/microsoft-365/compliance/insider-risk-management-notices?html-for-notices?azure-portal=true) of a notice template.
 
@@ -141,6 +143,6 @@ If you'd like to create more than a simple text-based email message for notifica
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4yghe?azure-portal=true) of the interactive guide (captions available in more languages).
 
-[![Minimize internal risks with insider risk management in Microsoft 365.](../media/minimize-internal-risks-with-insider-risk-management-in-microsoft-365.png)](https://mslearn.cloudguides.com/guides/Minimize%20internal%20risks%20with%20insider%20risk%20management%20in%20Microsoft%20365?azure-portal=true)
+[:::image type="content" source="../media/minimize-internal-risks-with-insider-risk-management-in-microsoft-365.png" alt-text="Cover for an interactive guide that says Minimize internal risks with Microsoft Purview Insider Risk Management." border="false":::](https://mslearn.cloudguides.com/guides/Minimize%20internal%20risks%20with%20insider%20risk%20management%20in%20Microsoft%20365?azure-portal=true)
 
 Be sure to click the full-screen option in the video player.

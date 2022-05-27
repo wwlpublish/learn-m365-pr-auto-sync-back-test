@@ -26,6 +26,8 @@ roles:
 - administrator
 products:
 - m365
+subjects:
+- security
 units:
 - learn-m365.security-m365.introduction
 - learn-m365.security-m365.identity-and-access

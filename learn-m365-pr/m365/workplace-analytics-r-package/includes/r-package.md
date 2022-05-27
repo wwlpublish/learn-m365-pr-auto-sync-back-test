@@ -2,7 +2,7 @@ An R package is a collection of functions, data, and documentation that extends 
 
 The `wpa` R package is a set of tools and functions to analyze and visualize data from Viva Insights through the Workplace Analytics app.
 
-![wpa package in R](../media/r-package-wpa.png)
+:::image type="content" source="../media/r-package-wpa.png" alt-text="Wpa package in R." border="false":::
 
 The functions in the `wpa` R package provide low-code, pre-built analyses. These functions are designed to help analysts customize their analysis and go beyond the insights gained from the Power BI templates and dashboards that are available through the Query designer in Workplace Analytics.
 
@@ -23,7 +23,7 @@ The `wpa` R package includes a number of essential and advanced functions and fe
 
 The package currently includes over 160 different functions, as shown in the following graphic. These include essential features that analysts can use for a wide range of analyses and more advanced features that make use of advanced data science capabilities in R.
 
- ![Summary of wpa functions](../media/wpa-function-summary.png)
+ :::image type="content" source="../media/wpa-function-summary.png" alt-text="Summary of wpa functions." border="false":::
 
 The `wpa` R package includes the following essential and advanced features:
 

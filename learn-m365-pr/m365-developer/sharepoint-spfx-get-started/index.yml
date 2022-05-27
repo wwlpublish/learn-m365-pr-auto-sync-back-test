@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-get-started
 metadata:
   title: Get started with the SharePoint Framework
   description: Learn what the SharePoint Framework is and how to get started creating custom solutions.
-  ms.date: 09/13/2021
+  ms.date: 05/02/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -28,6 +28,9 @@ roles:
 products:
   - m365
   - office-sp-framework
+subjects:
+- custom-app-development
+- development-tools
 units:
   - learn-m365.sharepoint-spfx-get-started.1-introduction
   - learn-m365.sharepoint-spfx-get-started.2-sharepoint-framework-overview

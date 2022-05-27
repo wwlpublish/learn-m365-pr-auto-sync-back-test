@@ -4,8 +4,8 @@ metadata:
   title: Configure Defender for Cloud Apps in Microsoft Defender for Endpoint
   description: Microsoft Defender for Cloud Apps integrates with Microsoft Defender for Endpoint to help simplify cloud discovery
   ms.date: 02/11/2022
-  author: beccarobins
-  ms.author: beccarobins
+  author: dcurwin
+  ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Configure Defender for Cloud Apps in Microsoft Defender for Endpoint
