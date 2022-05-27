@@ -8,7 +8,7 @@ Launch the designer by navigating to the following page in a browser: [https://a
 
 The designer contains multiple panels that serve different purposes, as shown in the following image:
 
-![Screenshot of the Adaptive Card Designer](../media/03-adaptive-card-designer-01.png)
+![Screenshot of the Adaptive Card Designer.](../media/03-adaptive-card-designer-01.png)
 
 1. **Card Elements**: List of all elements available for use within Adaptive Cards
 1. **Rendered Card**: Preview rendering of the card as it would appear in the currently selected host app.
@@ -23,15 +23,15 @@ The designer has sample cards you can open and customize to get comfortable with
 
 Select the **New card** button in the top navigation. Select one of the available samples.
 
-![Screenshot selecting a sample card](../media/03-designer-select-sample-01.png)
+![Screenshot selecting a sample card.](../media/03-designer-select-sample-01.png)
 
-![Screenshot of the flight itinerary sample card](../media/03-designer-select-sample-02.png)
+![Screenshot of the flight itinerary sample card.](../media/03-designer-select-sample-02.png)
 
 Repeat the process to select the sample card **Activity update**. Let's make some changes to this card and see how it impacts both the source and rendering of the card.
 
-In the **Card Structure** panel, select the **TextBlock** control with the person's name listed in the panel. In the **Card Payload Editor** panel, scroll down to the JSON that represents this control. It should be on or around lines 27-33. Notice the contents of the control are displayed in the **Text** property in the **Element Properties** panel:
+In the **Card Structure** panel, select the **TextBlock** control with the person's name listed in the panel. In the **Card Payload Editor** panel, scroll down to the JSON that represents this control. It should be on or around lines 31-36. Notice the contents of the control are displayed in the **Text** property in the **Element Properties** panel:
 
-![Screenshot of the activity update card](../media/03-activity-update-card-01.png)
+![Screenshot of the activity update card.](../media/03-activity-update-card-01.png)
 
 In the **Element Properties** panel, apply the following changes:
 
@@ -40,7 +40,7 @@ In the **Element Properties** panel, apply the following changes:
 
 Notice how the card has been immediately updated throughout the designer:
 
-![Screenshot of the updated card](../media/03-activity-update-card-02.png)
+![Screenshot of the updated card.](../media/03-activity-update-card-02.png)
 
 ### Preview the card
 
@@ -52,21 +52,21 @@ Notice the **Card Structure** and **Element Properties** panels change when the 
 
 Next, select the **Set due date** button in the card to see how it will behave when rendered in the selected host app:
 
-![Animated screenshot showing the interaction of a card](../media/03-activity-update-card-03.gif)
+![Animated screenshot showing the interaction of a card.](../media/03-activity-update-card-03.gif)
 
 Preview the card rendering in different host apps. By default, the **Bot Framework WebChat** app is currently selected. Use the selector in the top navigation to try a few other rendering options as shown in the following figures:
 
 #### Activity Card rendered in Outlook
 
-![Screenshot of the Activity Card sample rendered in Outlook](../media/03-activity-update-card-outlook.png)
+![Screenshot of the Activity Card sample rendered in Outlook.](../media/03-activity-update-card-outlook.png)
 
 #### Activity Card rendered in Microsoft Teams
 
-![Screenshot of the Activity Card sample rendered in Microsoft Teams](../media/03-activity-update-card-teams.png)
+![Screenshot of the Activity Card sample rendered in Microsoft Teams.](../media/03-activity-update-card-teams.png)
 
 #### Activity Card rendered in Windows Notifications
 
-![Screenshot of the Activity Card sample rendered in Windows](../media/03-activity-update-card-windows.png)
+![Screenshot of the Activity Card sample rendered in Windows.](../media/03-activity-update-card-windows.png)
 
 ## Create a new Adaptive Card
 
@@ -176,7 +176,7 @@ Replace the contents of the **Card Payload Editor** with the following JSON:
 
 Notice the preview card changes to display the new card with the specified data:
 
-![Screenshot of the planet Adaptive Card](../media/03-mars-adaptive-card-01.png)
+![Screenshot of the planet Adaptive Card.](../media/03-mars-adaptive-card-01.png)
 
 ## Implement Adaptive Card Templating
 
@@ -292,7 +292,7 @@ Replace the existing card layout in the **Card Payload Editor** panel with the f
 
 Notice the preview of the card displays broken links and placeholders surrounded by `${}` from the card:
 
-![Screenshot of the template planet card with no data specified](../media/03-mars-adaptive-card-02.png)
+![Screenshot of the template planet card with no data specified.](../media/03-mars-adaptive-card-02.png)
 
 Replace the contents of the **Sample Data Editor** using the following JSON to represent the planet Mars:
 
@@ -312,7 +312,7 @@ Replace the contents of the **Sample Data Editor** using the following JSON to r
 
 Select the **Preview mode** button in the navigation to apply the data to the template. Notice Mars is rendered in the designer:
 
-![Screenshot of Mars rendered from the Adaptive Card template](../media/03-templated-adaptive-card-mars.png)
+![Screenshot of Mars rendered from the Adaptive Card template.](../media/03-templated-adaptive-card-mars.png)
 
 Next, replace the contents of the **Sample Data Editor** using the following JSON to represent the planet Saturn:
 
@@ -330,7 +330,7 @@ Next, replace the contents of the **Sample Data Editor** using the following JSO
 }
 ```
 
-![Screenshot of Saturn rendered from the Adaptive Card template](../media/03-templated-adaptive-card-saturn.png)
+![Screenshot of Saturn rendered from the Adaptive Card template.](../media/03-templated-adaptive-card-saturn.png)
 
 ## Summary
 

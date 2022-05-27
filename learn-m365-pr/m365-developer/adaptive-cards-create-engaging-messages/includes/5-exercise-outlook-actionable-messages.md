@@ -5,7 +5,7 @@ You'll create two separate projects during this exercise and register your app i
 1. You'll start by first creating an Azure AD application that will be used to send an email with Microsoft Graph.
 1. Next, you'll use the Azure AD app in a .NET Core Console app that will send the email using Microsoft Graph that contains the adaptive card in the message.
 
-    ![Screenshot of the rendered email with an Adaptive Card](../media/05-send-mail-test-02.png)
+    ![Screenshot of the rendered email with an Adaptive Card.](../media/05-send-mail-test-02.png)
 
 1. The Adaptive Card in the rendered email will submit the form results to an API to record the user's feedback and update the card in the email. The next step is to create the API that receives the form submission and responds with an updated card that Outlook will use to update the existing message.
 1. To submit the form to an API, you'll need to register the service in the Outlook Actionable Email Developer Dashboard.
@@ -20,7 +20,7 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Select **Manage > App registrations** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/05-azure-ad-portal-home-appreg-01.png)
+  ![Screenshot of the App registrations.](../media/05-azure-ad-portal-home-appreg-01.png)
 
 On the **App registrations** page, select **New registration**.
 
@@ -29,27 +29,27 @@ On the **Register an application** page, set the values as follows:
 - **Name**: Adaptive Card Mailer
 - **Supported account types**: Accounts in this organizational directory only (Contoso only - Single tenant)
 
-  ![Screenshot of App Registrations page](../media/05-azure-ad-portal-new-app-00.png)
+  ![Screenshot of App Registrations page.](../media/05-azure-ad-portal-new-app-00.png)
 
     Select **Register**.
 
 On the **Adaptive Card Mailer** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID**; you'll need these in the application.
 
-  ![Screenshot of the application ID of the new app registration](../media/05-azure-ad-portal-new-app-details.png)
+  ![Screenshot of the application ID of the new app registration.](../media/05-azure-ad-portal-new-app-details.png)
 
 Select **Manage > Authentication**.
 
 In the **Platform configurations** section, select the **Add a platform** button. Then in the **Configure platforms** panel, select the **Mobile and desktop applications** button:
 
-![Screenshot of the Platform configurations section](../media/05-azure-ad-portal-new-app-02.png)
+![Screenshot of the Platform configurations section.](../media/05-azure-ad-portal-new-app-02.png)
 
-In the **Redirect URIs** section of the **Configure Desktop + devices** panel, select the entry that ends with **nativeclient**, and then select the **Configure** button:
+In the **Redirect URIs** section of the **Configure Desktop + devices** panel, select the entry that ends with **native client**, and then select the **Configure** button:
 
-![Screenshot of the Configure Desktop + devices panel](../media/05-azure-ad-portal-new-app-02a.png)
+![Screenshot of the Configure Desktop + devices panel.](../media/05-azure-ad-portal-new-app-02a.png)
 
 In the **Authentication** panel, scroll down to the **Advanced settings** section and set the toggle for **Allow public client flows** to **Yes**.
 
-![Screenshot of the Default client type section](../media/05-azure-ad-portal-new-app-03.png)
+![Screenshot of the Default client type section.](../media/05-azure-ad-portal-new-app-03.png)
 
 Select **Save** in the top menu to save your changes.
 
@@ -59,19 +59,19 @@ After creating the application, you need to grant it the necessary permissions t
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/05-azure-ad-portal-new-app-permissions-01.png)
+![Screenshot of the API Permissions navigation item.](../media/05-azure-ad-portal-new-app-permissions-01.png)
 
 Select the **Add a permission** button.
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
-![Screenshot of Microsoft Graph in the Request API permissions panel](../media/05-azure-ad-portal-new-app-permissions-02.png)
+![Screenshot of Microsoft Graph in the Request API permissions panel.](../media/05-azure-ad-portal-new-app-permissions-02.png)
 
 When prompted for the type of permission, select **Delegated permissions**.
 
 Enter **Mail.S** in the **Select permissions** search box and select the **Mail.Send** permission, followed by the **Add permission** button at the bottom of the panel.
 
-![Screenshot of the Mail.Send permission in the Request API permissions panel](../media/05-azure-ad-portal-new-app-permissions-03.png)
+![Screenshot of the Mail.Send permission in the Request API permissions panel.](../media/05-azure-ad-portal-new-app-permissions-03.png)
 
 In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Yes** button in the consent dialog to grant all users in your organization this permission.
 
@@ -139,12 +139,12 @@ namespace Helpers
 {
   public class MsalAuthenticationProvider : IAuthenticationProvider
   {
-    private static MsalAuthenticationProvider _singleton;
+    private static MsalAuthenticationProvider? _singleton;
     private IPublicClientApplication _clientApplication;
     private string[] _scopes;
     private string _username;
     private SecureString _password;
-    private string _userId;
+    private string? _userId;
 
     private MsalAuthenticationProvider(IPublicClientApplication clientApplication, string[] scopes, string username, SecureString password)
     {
@@ -199,6 +199,18 @@ namespace Helpers
 
 ### Incorporate Microsoft Graph into the console app
 
+> Note: If your computer has the .Net 6 SDK, the **Program.cs** file will contain a single statement that writes "Hello, World" to the console. This minimal style is not compatible with the code in this exercise. Delete the existing statement and add the following to define the Program class.
+
+> ```cs
+> class Program
+> {
+>   static void Main(string[] args)
+>   {
+>     Console.WriteLine("Hello World!");
+>   }
+> }
+> ```
+
 Open the **Program.cs** file and add the following `using` statements to the top of the file:
 
 ```csharp
@@ -214,7 +226,7 @@ using Helpers;
 Add the following method `LoadAppSettings` to the `Program` class. The method retrieves the configuration details from the **appsettings.json** file previously created:
 
 ```csharp
-private static IConfigurationRoot LoadAppSettings()
+private static IConfigurationRoot? LoadAppSettings()
 {
   try
   {
@@ -296,9 +308,9 @@ private static SecureString ReadPassword()
 Add the following method `ReadUsername` to the `Program` class. The method prompts the user for their username:
 
 ```csharp
-private static string ReadUsername()
+private static string? ReadUsername()
 {
-  string username;
+  string? username;
   Console.WriteLine("Enter your username");
   username = Console.ReadLine();
   return username;
@@ -358,6 +370,8 @@ Add the following code to the end of the `Main` method, just after the code adde
 ```csharp
 var userName = ReadUsername();
 var userPassword = ReadPassword();
+
+if (userName == null) return;
 
 var client = GetAuthenticatedGraphClient(config, userName, userPassword);
 
@@ -470,15 +484,15 @@ Run the following command to run the console application:
 dotnet run
 ```
 
-After entering the username and password of a user, you'll see a message than an email was sent.
+After entering the username and password of a user, you'll see a message that an email was sent.
 
-![Screenshot of the console application confirming the email was sent](../media/05-send-mail-test-01.png)
+![Screenshot of the console application confirming the email was sent.](../media/05-send-mail-test-01.png)
 
 Open a browser and navigate to the Outlook web client: https://mail.office365.com. Sign in using the **Work or School Account** that you used when you tested the console app.
 
 You should see an email with the subject **Webinar followup feedback request**. Select it to see the rendered Adaptive Card:
 
-![Screenshot of the rendered email with the Adaptive Card](../media/05-send-mail-test-02.png)
+![Screenshot of the rendered email with the Adaptive Card.](../media/05-send-mail-test-02.png)
 
 Delete the email.
 
@@ -567,7 +581,7 @@ PORT=3007
 
 Set the values of the `ALLOWED_SENDER` and `ACTION_PERFORMER_DOMAIN` equal to the values for your test account. These should make the test account you'll use for this lab.
 
-For example, in our test, we'll use the user **Megan Bowen (meganb@M365x285179.onmicrosoft.com)**, to send the email to herself. In this example, the values should be set to:
+For example, in our test, we'll use the user **Megan Bowen (meganb@M365x285179.onmicrosoft.com)**, to send the email to themself. In this example, the values should be set to:
 
 ```ini
 ALLOWED_SENDER=meganb@M365x285179.onmicrosoft.com
@@ -1019,7 +1033,7 @@ ngrok http 3007
 
 This will start ngrok and will tunnel requests from an external ngrok url to your development machine on port 3007.
 
-Copy the https forwarding address. In the following sample output, that is **https://787b8292.ngrok.io**.
+Copy the https forwarding address. In the following sample output that is **https://787b8292.ngrok.io**.
 
 ```console
 ngrok by @inconshreveable
@@ -1049,9 +1063,9 @@ Open a browser and navigate to the [Actionable Email Developer Dashboard](https:
 
 Select the **New Provider** link:
 
-![Screenshot of the Actionable Email Developer Dashboard homepage](../media/05-actionable-email-developer-dashboard-01.png)
+![Screenshot of the Actionable Email Developer Dashboard homepage.](../media/05-actionable-email-developer-dashboard-01.png)
 
-Enter the following values in the corresponding fields. Leave any additional fields set to their default values:
+Enter the following values in the corresponding fields. Leave any extra fields set to their default values:
 
 - **Friendly Name**: Adaptive Card Responder
 - **Sender email address from which actionable emails will originate**: *enter the email address you'll use to test. For example, our test will use **meganb@M365x285179.onmicrosoft.com***.
@@ -1061,7 +1075,7 @@ Enter the following values in the corresponding fields. Leave any additional fie
 
 Select the **I accept the terms and conditions of the App Developer Agreement** and select the **Save** button.
 
-![Screenshot of the Actionable Email Developer Dashboard submission](../media/05-actionable-email-developer-dashboard-02.png)
+![Screenshot of the Actionable Email Developer Dashboard submission.](../media/05-actionable-email-developer-dashboard-02.png)
 
 ## Test the complete process
 
@@ -1136,11 +1150,11 @@ Open a browser and navigate to the Outlook web client: https://mail.office365.co
 
 You should see an email with the subject **Webinar followup feedback request**. Select it to see the rendered Adaptive Card:
 
-![Screenshot of the rendered email with the Adaptive Card](../media/05-send-mail-test-02.png)
+![Screenshot of the rendered email with the Adaptive Card.](../media/05-send-mail-test-02.png)
 
 Select one of the rating values and enter some comments into the field. Then select the **Submit Feedback** button. After a few seconds, you'll see Outlook refresh the email with the new refreshed Adaptive Card received from your Node.js service:
 
-![Screenshot of the refreshed email with the refreshed Adaptive Card](../media/05-send-mail-test-03.png)
+![Screenshot of the refreshed email with the refreshed Adaptive Card.](../media/05-send-mail-test-03.png)
 
 You can now stop the ngrok process and Node.js web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in each console.
 
