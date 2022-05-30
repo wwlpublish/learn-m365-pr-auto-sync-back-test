@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.manage-surface-hub.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: Introduction
+  description: ""
+  ms.date: 05/12/2022
+  author: temanteleary
+  ms.author: teleary
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

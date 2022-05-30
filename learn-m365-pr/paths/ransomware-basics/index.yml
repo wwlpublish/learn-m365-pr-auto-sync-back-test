@@ -1,0 +1,29 @@
+### YamlMime:LearningPath
+uid: learn-m365.ransomware-basics
+metadata:
+  title: Examine ransomware and extortion-based threats 
+  description: Ransomware and extortion-based attacks are a high-reward, low-cost business that has escalated from extorting money from individuals to targeting businesses and organizations. The modules in this learning path will provide you with insights and information to help you better understand this threat, including a broad look at ransomware and extortion-based threats, how cybercriminals exploit security weaknesses to gain access to your computers and devices, some of the steps you can take prevent ransomware threats, and finally, how to recover from an attack. 
+  ms.date: 04/11/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Examine ransomware and extortion-based threats
+prerequisites: |
+  None
+summary: |
+  Ransomware and extortion-based attacks are a high-reward, low-cost business that has escalated from extorting money from individuals to targeting businesses and organizations. The modules in this learning path will provide you with insights and information to help you better understand this threat, including a broad look at ransomware and extortion-based threats, how cybercriminals exploit security weaknesses to gain access to your computers and devices, some of the steps you can take prevent ransomware threats, and finally, how to recover from an attack. 
+iconUrl: /learn/achievements/generic-achievement.svg
+levels:
+- beginner
+roles:
+- business-user
+products:
+- m365
+modules:
+- learn-m365.ransomware-extortion-based-threats
+- learn-m365.ransomware-identify-entry-points
+- learn-m365.ransomware-prevent-attacks
+- learn-m365.ransomware-recover
+trophy:
+  uid: learn-m365.ransomware-basics.trophy
