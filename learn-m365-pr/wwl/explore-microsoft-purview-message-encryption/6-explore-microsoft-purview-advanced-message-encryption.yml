@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-microsoft-purview-message-encryption.explore-microsoft-purview-advanced-message-encryption
+title: Explore Microsoft Purview Advanced Message Encryption
+metadata:
+  title: Explore Microsoft Purview Advanced Message Encryption
+  description: "Explore Microsoft Purview Advanced Message Encryption"
+  ms.date: 05/31/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/6-explore-microsoft-purview-advanced-message-encryption.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Office 365 Advanced Message Encryption offers extra capabilities on top of the standard Office 365 Message Encryption capabilities. Which of the following items is a feature of Office 365 Advanced Message Encryption?"
+    choices:
+    - content: "Recipients must view and reply to secure mail through the OME portal"
+      isCorrect: true
+      explanation: "That's correct. To use the capabilities of Office 365 Advanced Message Encryption, recipients must view and reply to secure mail through the OME portal."
+    - content: "Message revocation and expiration only work for emails that users send to recipients inside their Microsoft 365 organization"
+      isCorrect: false
+      explanation: "That's incorrect. Message revocation and expiration only work for emails that users send to recipients outside their Microsoft 365 organization. Try again."
+    - content: "Organizations can revoke messages and apply expiration dates to any messages that users receive"
+      isCorrect: false
+      explanation: "That's incorrect. Organizations can only revoke messages and apply expiration dates to messages that users receive that have a custom branding template applied. Try again."

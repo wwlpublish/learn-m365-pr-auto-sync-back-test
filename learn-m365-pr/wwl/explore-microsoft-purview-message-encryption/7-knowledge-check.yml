@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-microsoft-purview-message-encryption.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 05/31/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Microsoft Purview Message Encryption is an online service that's built on Microsoft Azure Rights Management (Azure RMS). Together, Microsoft Purview Message Encryption and Azure RMS provide encryption, identity, and authorization policies to help secure an organization's email. Microsoft Purview Message Encryption enables organizations to encrypt messages by using rights management templates, the Do Not Forward option, and the encrypt-only option. What does Azure RMS do?"
+    choices:
+    - content: "It encrypts inbound mail from senders outside of your organization"
+      isCorrect: false
+      explanation: "Incorrect. You can't encrypt inbound mail from senders outside of your organization."
+    - content: "It updates an organization's existing mail flow rules so that it can use Microsoft Purview Message Encryption with Azure Information Protection"
+      isCorrect: false
+      explanation: "Incorrect. This task isn't something that Azure RMS does. It's something an organization must do if it recently migrated from Active Directory RMS to Azure Information Protection."
+    - content: "It enables administrators to define transport rules that determine the conditions for encryption"
+      isCorrect: true
+      explanation: "Correct. With Azure RMS set up for an organization, administrators can enable message encryption by defining transport rules that determine the conditions for encryption."
+  - content: "Microsoft Purview Advanced Message Encryption offers extra capabilities on top of the standard Microsoft Purview Message Encryption capabilities. Which of the following items is one of these advanced capabilities?"
+    choices:
+    - content: "Using right management templates to encrypt messages"
+      isCorrect: false
+      explanation: "Incorrect. This is a feature of Microsoft Purview Message Encryption and not one of the advanced capabilities in Microsoft Purview Advanced Message Encryption."
+    - content: "Message revocation"
+      isCorrect: true
+      explanation: "Correct. The advanced capabilities found in Microsoft Purview Advanced Message Encryption include message revocation, message expiration, and multiple branding templates."
+    - content: "Do Not Forward option"
+      isCorrect: false
+      explanation: "Incorrect. This is a feature of Microsoft Purview Message Encryption. It isn't one of the advanced capabilities in Microsoft Purview Advanced Message Encryption."
+  - content: "Microsoft Purview Advanced Message Encryption enables administrators to control sensitive emails shared outside the organization. An administrator can do so with the use of which of the following items?"
+    choices:
+    - content: "Automatic policies that detect sensitive information types"
+      isCorrect: true
+      explanation: "Correct. Administrators can control sensitive emails shared outside the organization. They can do so by using automatic policies that detect sensitive information types, such as financial or health information."
+    - content: "Third-party applications that scan and modify mail"
+      isCorrect: false
+      explanation: "Incorrect. Third-party applications that scan and modify mail can prevent Microsoft Purview Message Encryption branding from being applied correctly."
+    - content: "Active Directory RMS"
+      isCorrect: false
+      explanation: "Incorrect. If you use Active Directory Rights Management Service (Active Directory RMS) with Exchange Online, you must migrate to Azure Information Protection before you can use message encryption. Microsoft Purview Message Encryption isn't compatible with Active Directory RMS."

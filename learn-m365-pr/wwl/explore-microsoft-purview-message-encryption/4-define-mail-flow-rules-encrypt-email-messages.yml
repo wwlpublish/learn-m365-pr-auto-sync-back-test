@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-microsoft-purview-message-encryption.define-mail-flow-rules-encrypt-email-messages
+title: Define mail flow rules to encrypt email messages
+metadata:
+  title: Define mail flow rules to encrypt email messages
+  description: "Define mail flow rules to encrypt email messages"
+  ms.date: 05/31/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-define-mail-flow-rules-encrypt-email-messages.md)]
