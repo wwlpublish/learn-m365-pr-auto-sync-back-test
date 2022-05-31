@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-retention-microsoft-365.explore-retention-policies-retention-labels
+title: Explore retention by using retention policies and retention labels
+metadata:
+  title: Explore retention by using retention policies and retention labels
+  description: "Explore retention by using retention policies and retention labels"
+  ms.date: 05/31/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/2-explore-retention-policies-retention-labels.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator at Fabrikam, Holly Spencer wants to specify retention settings that enforce actions at the item level. Specifically, Holly wants to retain press materials for a specific period and then permently delete them. She also wants to retain project plans for a minimum period of time. How should Holly assign these retention settings?"
+    choices:
+    - content: "Holly must use retention policies"
+      isCorrect: false
+      explanation: "Incorrect. Retention policies can't be used to specify retention settings at the item level."
+    - content: "Holly must use retention labels"
+      isCorrect: true
+      explanation: "Correct. When you need to specify retention settings at the item level, retention labels must be used. Unlike retention policies, retention settings from retention labels travel with the content if it's moved to a different location within a company's Microsoft 365 tenant."
+    - content: "Holly must use multiple auto-apply retention policies"
+      isCorrect: false
+      explanation: "Incorrect. Retention policies can't be used to specify retention settings at the item level."

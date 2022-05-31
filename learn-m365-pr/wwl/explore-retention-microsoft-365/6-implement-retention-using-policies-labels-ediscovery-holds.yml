@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-retention-microsoft-365.implement-retention-using-policies-labels-ediscovery-holds
+title: Implement retention using retention policies, retention labels, and eDiscovery holds
+metadata:
+  title: Implement retention using retention policies, retention labels, and eDiscovery holds
+  description: "Implement retention using retention policies, retention labels, and eDiscovery holds"
+  ms.date: 05/31/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/6-implement-retention-using-policies-labels-ediscovery-holds.md)]

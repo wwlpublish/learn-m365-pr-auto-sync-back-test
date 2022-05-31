@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-retention-microsoft-365.compare-capabilities-retention-policies-retention-labels
+title: Compare capabilities in retention policies and retention labels
+metadata:
+  title: Compare capabilities in retention policies and retention labels
+  description: "Compare capabilities in retention policies and retention labels"
+  ms.date: 05/31/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-compare-capabilities-retention-policies-retention-labels.md)]

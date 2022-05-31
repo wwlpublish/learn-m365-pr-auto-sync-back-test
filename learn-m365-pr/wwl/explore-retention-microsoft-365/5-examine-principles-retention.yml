@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-retention-microsoft-365.examine-principles-retention
+title: Examine the principles of retention
+metadata:
+  title: Examine the principles of retention
+  description: "Examine the principles of retention"
+  ms.date: 05/31/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-examine-principles-retention.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "An email message for Holly Dickson at Contoso is subject to two retention policies. The first retention policy is unscoped and deletes items after five years. The second retention policy is scoped to specific mailboxes, including Holly's mailbox. It deletes items after three years. What happens to the email message?"
+    choices:
+    - content: "The emal message is permanently deleted after five years"
+      isCorrect: false
+      explanation: "Incorrect. This action isn't the outcome for this scenario."
+    - content: "The emal message is permanently deleted after three years"
+      isCorrect: true
+      explanation: "Correct. The email message is permanently deleted after three years. Why? Because the deletion action from the scoped retention policy takes precedence over the org-wide retention policy."
+    - content: "When this document will be permanently deleted can't be determined at this level"
+      isCorrect: false
+      explanation: "incorrect. The outcome of this scenario can be determined because one of the retention policies is scoped for a specific instance and the other isn't."

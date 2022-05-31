@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-retention-microsoft-365.define-scope-retention-policy
+title: Define the scope of a retention policy
+metadata:
+  title: Define the scope of a retention policy
+  description: "Define the scope of a retention policy"
+  ms.date: 05/31/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/4-define-scope-retention-policy.md)]
