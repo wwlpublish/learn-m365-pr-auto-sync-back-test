@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.examine-governance-compliance-solutions-microsoft-purview.explore-microsoft-purview-ediscovery-solutions
+title: Explore Microsoft Purview eDiscovery solutions
+metadata:
+  title: Explore Microsoft Purview eDiscovery solutions
+  description: "Explore Microsoft Purview eDiscovery solutions"
+  ms.date: 05/31/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/6-explore-microsoft-purview-ediscovery-solutions.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which dDiscovery capability helps organizations manage the people they've identified as people of interest in a case?"
+    choices:
+    - content: "Custodian management"
+      isCorrect: true
+      explanation: "Correct. Custodian management is managing the people that you've identified as people of interest in a case (called custodians) and other data sources that may not be associated with a custodian. When you add custodians and non-custodial data sources to a case, you can place a legal hold on these data sources, communicate with custodians by using the legal hold notification process, and search custodian and non-custodial data sources to collect content relevant to the case."
+    - content: "Case management"
+      isCorrect: false
+      explanation: "Incorrect. Case management associates specific searches and exports with a specific investigation. You can also assign members to a case to control who can access the case and view the contents of the case."
+    - content: "Tagging"
+      isCorrect: false
+      explanation: "Incorrect. Tagging helps organizations remove non-relevant content and identify the most relevant content."

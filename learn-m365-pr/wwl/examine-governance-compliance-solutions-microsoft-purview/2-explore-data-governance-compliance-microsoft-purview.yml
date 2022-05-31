@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.examine-governance-compliance-solutions-microsoft-purview.explore-data-governance-compliance-microsoft-purview
+title: Explore data governance and compliance in Microsoft Purview
+metadata:
+  title: Explore data governance and compliance in Microsoft Purview
+  description: "Explore data governance and compliance in Microsoft Purview"
+  ms.date: 05/31/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/2-explore-data-governance-compliance-microsoft-purview.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "The compliance solution provided by Microsoft 365 is built upon three core pillars. Which pillar ensures that users have the tools available to import, store, preserve, retire, and expire data as it leaves an organization’s data retention windows?"
+    choices:
+    - content: "eDiscovery"
+      isCorrect: false
+      explanation: "Incorrect. eDiscovery finds information quickly and ensures that it's relevant to the request that was made."
+    - content: "Auditing"
+      isCorrect: false
+      explanation: "Incorrect. Auditing enables organizations to monitor and investigate all the actions taken within the compliance solution and on their data to ensure that nothing outside the norm is happening."
+    - content: "Data governance"
+      isCorrect: true
+      explanation: "Correct. Data governance ensures that users have the tools available to import, store, preserve, retire, and expire data as it leaves an organization’s data retention windows."
