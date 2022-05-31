@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.ransomware-prevent-attacks.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: Introduction
+  description: Ransomware attacks are growing at a fast pace, it's crucial to understand the risks to your business, organization, or personal information. 
+  ms.date: 05/20/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

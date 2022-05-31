@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.manage-surface-hub.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: ""
+  ms.date: 05/12/2022
+  author: temanteleary
+  ms.author: teleary
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+
+content: |
+quiz:
+  questions:
+  - content: "When you create a configuration policy using a template, which templates are supported for use with a Surface Hub?"
+    choices:
+    - content: "Device restrictions, Microsoft Defender for Endpoint, PKCS certificates"
+      isCorrect: true
+      explanation: "That's correct. Surface Hub only supports a few configuration policy templates, including PKCS certificate, PKCS imported certificate, SCEP certificate, and trusted certificates."
+    - content: "Device restrictions, Microsoft Defender for Endpoint, PEKS certificates"
+      isCorrect: false
+      explanation: "That's incorrect. Surface Hub only supports a few of the configuration policy templates. PEKS certificate isn't a valid template."
+    - content: "Device restrictions, Microsoft Defender for Endpoint, PSEC certificates"
+      isCorrect: false
+      explanation: "That's incorrect. Surface Hub only supports a few of the configuration policy templates. PSEC certificate isn't a valid template."
+  - content: "When you create a reboot schedule on a Surface Hub, what are the three elements you need to complete?"
+    choices:
+    - content: "Timezone, date, and time"
+      isCorrect: false
+      explanation: "That's incorrect. When you create a reboot schedule, you've already selected the device. It's important to know when the reboot should occur."
+    - content: "Time, policy, and timezone"
+      isCorrect: true
+      explanation: "That's correct. When you create a reboot schedule for a specific device, you need to identify the timezone for the device, the date when the reboot should occur, and what time the device will reboot."
+    - content: "Device, timezone, and time"
+      isCorrect: false
+      explanation: "That's incorrect. When you create a reboot schedule, you need to know when it should be applied."
+  - content: "To manage your Surface devices using Teams admin center, which three roles can you use?"
+    choices:
+    - content: "Microsoft 365 global admin, teams service admin, Surface device admin"
+      isCorrect: false
+      explanation: "That's incorrect. Surface device admin isn't a valid role."
+    - content: "Microsoft 365 global admin, teams service admin, teams device admin"
+      isCorrect: true
+      explanation: "That's correct. To manage Surface devices using the Teams admin center, you must use one of these roles."
+    - content: "Microsoft 365 global admin, Teams global admin, Teams device admin"
+      isCorrect: false
+      explanation: "That's incorrect. Teams global admin isn't a valid role."
