@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-archiving-microsoft-365.explore-records-management-microsoft-365
+title: Explore records management in Microsoft 365
+metadata:
+  title: Explore records management in Microsoft 365
+  description: "Explore records management in Microsoft 365"
+  ms.date: 05/31/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/4-explore-records-management-microsoft-365.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise administrator for Fabrikam, Holly Spencer wants to give some of the company's executive personnel read-only access to Microsoft 365 records management features. What should Holly do to assign this permission?"
+    choices:
+    - content: "Create a new role group and add the View-Only Record Management role to this group"
+      isCorrect: true
+      explanation: "Correct. For a read-only role, you can create a new role group and add the View-Only Record Management role to this group."
+    - content: "Add the users to the Records Management admin role group"
+      isCorrect: false
+      explanation: "Incorrect. This action oesn't provide read-only only access. It grants permissions for all administrative features related to records management, including disposition review and verification."
+    - content: "Create a new role group and add the Records Management role to this group"
+      isCorrect: false
+      explanation: "Incorrect. This action oesn't provide read-only only access. It grants permissions for all administrative features related to records management, including disposition review and verification."

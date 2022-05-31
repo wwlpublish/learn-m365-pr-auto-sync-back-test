@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-archiving-microsoft-365.implement-records-management-microsoft-365
+title: Implement records management in Microsoft 365
+metadata:
+  title: Implement records management in Microsoft 365
+  description: "Implement records management in Microsoft 365"
+  ms.date: 05/31/2022
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-implement-records-management-microsoft-365.md)]

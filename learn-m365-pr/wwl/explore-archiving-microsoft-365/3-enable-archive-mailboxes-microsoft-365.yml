@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-archiving-microsoft-365.enable-archive-mailboxes-microsoft-365
+title: Enable archive mailboxes in Microsoft 365
+metadata:
+  title: Enable archive mailboxes in Microsoft 365
+  description: "Enable archive mailboxes in Microsoft 365"
+  ms.date: 05/31/2022
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/3-enable-archive-mailboxes-microsoft-365.md)]

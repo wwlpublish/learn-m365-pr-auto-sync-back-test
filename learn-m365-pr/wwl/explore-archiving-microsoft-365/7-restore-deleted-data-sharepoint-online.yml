@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-archiving-microsoft-365.restore-deleted-data-sharepoint-online
+title: Restore deleted data in SharePoint Online
+metadata:
+  title: Restore deleted data in SharePoint Online
+  description: "Restore deleted data in SharePoint Online"
+  ms.date: 05/31/2022
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-restore-deleted-data-sharepoint-online.md)]

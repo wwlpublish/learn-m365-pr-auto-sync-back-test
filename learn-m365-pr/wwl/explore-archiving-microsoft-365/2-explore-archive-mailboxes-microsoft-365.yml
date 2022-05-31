@@ -1,18 +1,19 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.explore-archiving-microsoft-365.explore-place-archiving-exchange
-title: Explore in-place archiving in Exchange
+uid: learn.wwl.explore-archiving-microsoft-365.explore-archive-mailboxes-microsoft-365
+title: Explore archive mailboxes in Microsoft 365
 metadata:
-  title: Explore in-place archiving in Exchange
-  description: "Explore in-place archiving in Exchange"
-  ms.date: 06/16/2021
+  title: Explore archive mailboxes in Microsoft 365
+  description: "Explore archive mailboxes in Microsoft 365"
+  ms.date: 05/31/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
-  [!include[](includes/4-explore-place-archiving-exchange.md)]
+  [!include[](includes/2-explore-archive-mailboxes-microsoft-365.md)]
 quiz:
   title: "Check your knowledge"
   questions:
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "The user's archive mailbox wasn't cached on the laptop"
       isCorrect: true
-      explanation: "That's correct. Even if Outlook is configured in cached mode, the archive mailbox isn't cached on the client computer. This process reduces the amount of space required for caching on the client. It also means the user can access the archive mailbox content only when connected to Exchange."
+      explanation: "Correct. Even if Outlook is configured in cached mode, the archive mailbox isn't cached on the client computer. This process reduces the amount of space required for caching on the client. It also means the user can access the archive mailbox content only when connected to Exchange."
     - content: "By configuring Outlook in cached mode, the user's mail content was stored in a .pst file on the laptop"
       isCorrect: false
-      explanation: "That's incorrect. By configuring Outlook in cached mode on the laptop, the user's mail content is NOT stored in a .pst file on the laptop. Try again."
+      explanation: "Incorrect. By configuring Outlook in cached mode on the laptop, the user's mail content is NOT stored in a .pst file on the laptop."
     - content: "When you use cached mode for your primary mailbox, a local index is created on your computer"
       isCorrect: false
-      explanation: "That's incorrect. While this item is true, it's not what caused the two issues that Holly experienced on the laptop. Try again."
+      explanation: "Incorrect. While this item is true, it's not what caused the two issues that Holly experienced on the laptop."
