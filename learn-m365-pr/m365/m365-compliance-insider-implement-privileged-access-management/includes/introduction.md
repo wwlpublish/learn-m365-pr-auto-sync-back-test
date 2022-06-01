@@ -19,7 +19,10 @@ Watch the video below for a quick overview of privileged access management in Mi
 
 Privileged access management complements other data and access feature protections within the Microsoft 365 security architecture. Including privileged access management as part of an integrated and layered approach to security provides a security model that maximizes protection of sensitive information and Microsoft 365 configuration settings. As shown in the diagram, privileged access management builds on the protection provided with native encryption of Microsoft 365 data and the role-based access control security model of Microsoft 365 services. When used with [Azure AD Privileged Identity Management](/azure/active-directory/active-directory-privileged-identity-management-configure?azure-portal=true), these two features provide access control with just-in-time access at different scopes.
 
-:::image type="content" source="../media/layers-of-protection.png" alt-text="Layers of protection." border="false":::
+> [!div class="centered"]
+> :::image type="complex" source="../media/layers-of-protection.png" alt-text="Diagram showing the layers of protection in privileged access management." lightbox="../media/layers-of-protection.png" border="false":::
+	> The diagram shows concentric circles as layers, starting from the outside, they are: encryption (to prevent unauthorized access), RBAC and then conditional access (which are part of role and risk-based standing access),  and lastly, Azure AD privileged identity management, privileged access management in Office 365, and data storage and configuration settings, which together make up just-in-time and just-enough-access).
+> :::image-end:::
 
 Microsoft Purview Privileged Access Management is defined and scoped at the *task* level, while Azure AD Privileged Identity Management applies protection at the *role* level with the ability to execute multiple tasks. Azure AD Privileged Identity Management primarily allows managing accesses for AD roles and role groups, while privileged access management in Microsoft Purview applies only at the task level.
 

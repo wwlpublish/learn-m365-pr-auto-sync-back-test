@@ -33,7 +33,7 @@ Once loaded, the data is automatically pulled in and you can begin to build your
 
 For example, if your query pulls information containing device location from devices, you can use a map to visualize the locations of devices across your organization.
 
-:::image type="content" source="../media/3-map-tool.png" alt-text="A screenshot showing a map of devices.":::
+:::image type="content" source="../media/3-map-tool.png" alt-text="Map showing device locations across the globe with the highest concentration of devices in the United States followed by the United Kingdom." lightbox="../media/3-map-tool.png" border="false":::
 
 Or you can visualize information on devices that are active or inactive based on their operating system.
 
