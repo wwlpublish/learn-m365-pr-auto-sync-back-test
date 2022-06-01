@@ -4,7 +4,7 @@ title: Explore retention by using retention policies and retention labels
 metadata:
   title: Explore retention by using retention policies and retention labels
   description: "Explore retention by using retention policies and retention labels"
-  ms.date: 05/31/2022
+  ms.date: 06/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator at Fabrikam, Holly Spencer wants to specify retention settings that enforce actions at the item level. Specifically, Holly wants to retain press materials for a specific period and then permently delete them. She also wants to retain project plans for a minimum period of time. How should Holly assign these retention settings?"
+  - content: "As the Enterprise Administrator at Fabrikam, Holly Spencer wants to specify retention settings that enforce actions at the item level. Specifically, Holly wants to retain press materials for a specific period and then permanently delete them. She also wants to retain project plans for a minimum period of time. How should Holly assign these retention settings?"
     choices:
     - content: "Holly must use retention policies"
       isCorrect: false
