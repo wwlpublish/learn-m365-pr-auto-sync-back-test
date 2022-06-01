@@ -3,7 +3,7 @@ uid: learn.wwl.employ-remote-management
 metadata:
   title: Employ remote management
   description: "This module demonstrates the various tools for connecting remotely to a Windows client."
-  ms.date: 03/31/2022
+  ms.date: 06/01/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -19,7 +19,7 @@ prerequisites: |
   - Students should have a basic understanding of computer networks and hardware concepts.
   - Students should have a basic understanding of OS and Application concepts.
   - Students should have experience with using Windows 10 or later.
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/remote-management-employ.svg
 levels:
 - beginner
 roles:
@@ -27,9 +27,9 @@ roles:
 products:
 - windows
 subjects:
-- remote-hybrid-work
 - cloud-computing
 - device-management
+- remote-hybrid-work
 units:
 - learn.wwl.employ-remote-management.introduction
 - learn.wwl.employ-remote-management.examine-remote-desktop
