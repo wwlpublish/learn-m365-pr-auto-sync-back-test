@@ -1,4 +1,4 @@
-DLP policies detect sensitive information with more than a simple scanning of the text. Deep content analysis uses keyword matches, dictionary matches, the evaluation of regular expressions, internal functions, and other methods to detect content that matches your DLP policies. DLP policies are stored in a central policy store and then synchronized to the following content sources:
+Data loss prevention policies detect sensitive information with more than a simple scanning of the text. Deep content analysis uses keyword matches, dictionary matches, the evaluation of regular expressions, internal functions, and other methods to detect content that matches your DLP policies. DLP policies are stored in a central policy store and then synchronized to the following content sources:
 
 - Microsoft Teams channels and chat messages.
 - Exchange Online, and from there to Outlook on the web and Outlook.
@@ -20,7 +20,10 @@ As users add or change documents, the search engine scans the content and update
 
 Each DLP policy that has been turned on runs in the background looking for content that patches a policy and applies actions to protect it from inadvertent leaks.
 
-:::image type="content" source="../media/3-asynchronous-dlp-policy-evaluation.png" alt-text="Asynchronous DLP policy evaluation.":::
+> [!div class="centered"]
+> :::image type="complex" source="../media/3-asynchronous-dlp-policy-evaluation.png" alt-text="Diagram of asynchronous D L P policy evaluation showing a cycle of evaluation." border="false":::
+>	First, content is created or changed, then the search crawls new or changed content, then the search index is updated, then DLP policies query the search index, and finally DLP policies take action on any results before content is again created or changed.
+> :::image-end:::
 
 Content can be added to a document that can conflict with a DLP policy and conversely, content can be removed from a document to make it compliant with a DLP policy. For example, if a DLP policy was created to block the release of personal data, and a person's health record was added to a document, access to that document would be blocked. If the person's health data was removed, then the DLP policy would no longer block access.
 
