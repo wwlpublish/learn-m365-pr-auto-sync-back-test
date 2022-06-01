@@ -87,7 +87,7 @@ Complete the following steps to restore an item from SharePoint Online's Site Co
 
 1.  On modern team sites and classic sites (subsites), in the navigation pane, select **Recycle bin**.
     
-    :::image type="content" source="../media/classic-sharepoint-sites-page-with-recycle-bin-fed1abd6.jpg" alt-text="Screenshot of the Recycle bin page with items selected and the Restore button on the menu bar.":::
+    :::image type="content" source="../media/classic-sharepoint-sites-page-with-recycle-bin-fed1abd6.jpg" alt-text="Screenshot of the navigation pane on the modern teams sites page and the Recycle bin option highlighted.":::
     
 2.  On modern communication sites, select **Site contents**, and then select **Recycle bin** in the top navigation bar. If you don't see the Recycle Bin, follow these steps:
     1.  Select **Settings** (the gear icon in the upper right corner of the screen) and then select **Site settings**. If you don't see **Site settings**, select **Site information** and then select **View all site settings**. Some pages may require you to select **Site contents** and then **Site settings**.

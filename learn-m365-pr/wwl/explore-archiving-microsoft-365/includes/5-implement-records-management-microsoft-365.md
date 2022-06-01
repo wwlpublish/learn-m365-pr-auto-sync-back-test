@@ -58,7 +58,7 @@ Set-RegulatoryComplianceUI -Enabled $false
 
 ### Configure retention labels to declare records
 
-When you create a retention label from the Records Management solution in the Microsoft Purview compliance portal, you have the option to mark items as a record. If you ran the PowerShell command from the previous section, you can alternatively mark an item as a regulatory record, as seen in the following screenshot.
+When you create a retention label from the Records Management solution in the Microsoft Purview compliance portal, you can mark items as a record. If you ran the PowerShell command from the previous section, you can alternatively mark an item as a regulatory record, as seen in the following screenshot.
 
 :::image type="content" source="../media/declare-records-b2a02c83.png" alt-text="Screenshot of records management in the Microsoft Purview compliance center and the option to declare content as a record or regulatory record.":::
 

@@ -3,7 +3,7 @@ uid: learn.wwl.explore-archiving-microsoft-365
 metadata:
   title: Explore archiving and records management in Microsoft 365
   description: "Explore archiving and records management in Microsoft 365"
-  ms.date: 05/31/2022
+  ms.date: 06/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,7 +11,7 @@ metadata:
 title: Explore archiving and records management in Microsoft 365
 summary: This module examines how Microsoft 365 supports data governance by enabling organizations to archive content by using archive mailboxes, and manage their high-value content for legal, business, or regulatory obligations by implementing records management.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   *   Enable and disable an archive mailbox in the Microsoft Purview compliance portal and through Windows PowerShell.
   *   Run diagnostic tests on an archive mailbox.
   *   Learn how retention labels can be used to allow or block actions when documents and emails are declared records.

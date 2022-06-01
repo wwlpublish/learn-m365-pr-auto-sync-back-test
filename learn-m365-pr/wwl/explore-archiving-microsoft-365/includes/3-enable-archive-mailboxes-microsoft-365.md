@@ -19,7 +19,7 @@ Complete the following steps to enable an archive mailbox in the Microsoft Purvi
     A warning message is displayed saying that if you enable the archive mailbox, items in the user's mailbox that are older than the archiving policy assigned to the mailbox will be moved to the new archive mailbox.
     
     > [!WARNING]
-    > The default archive policy that's part of the retention policy assigned to Exchange Online mailboxes moves items to the archive mailbox two years after the date the item was delivered to the mailbox or created by the user. For more information, see [Learn about archive mailboxes](/microsoft-365/compliance/archive-mailboxes?view=o365-worldwide).
+    > The default archive policy that's part of the retention policy assigned to Exchange Online mailboxes moves items to the archive mailbox two years after the date the item was delivered to the mailbox or created by the user. For more information, see [Learn about archive mailboxes](/microsoft-365/compliance/archive-mailboxes?azure-portal=true).
 6.  Select **Enable** to confirm.
     
     > [!NOTE]
@@ -41,7 +41,7 @@ Exchange Online PowerShell can also be used to enable archive mailboxes.
 > [!TIP]
 > The primary reason to use PowerShell is that you can quickly enable the archive mailbox for all users in your organization.
 
-When using PowerShell, you must first [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell). After you're connected to the Exchange Online PowerShell module, you can run the commands in the following sections to enable or disable archive mailboxes.
+When using PowerShell, you must first [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?azure-portal=true). After you're connected to the Exchange Online PowerShell module, you can run the commands in the following sections to enable or disable archive mailboxes.
 
 #### Enable archive mailboxes
 

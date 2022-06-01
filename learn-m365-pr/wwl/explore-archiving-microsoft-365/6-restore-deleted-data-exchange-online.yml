@@ -4,9 +4,11 @@ title: Restore deleted data in Exchange Online
 metadata:
   title: Restore deleted data in Exchange Online
   description: "Restore deleted data in Exchange Online"
-  ms.date: 05/31/2022
+  ms.date: 06/01/2022
   author: wwlpublish
+  ms.author: tfrink
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 azureSandbox: false
 labModal: false
 durationInMinutes: 3
@@ -17,7 +19,7 @@ quiz:
   questions:
   - content: "By default, how long does Exchange Online keep deleted items?"
     choices:
-    - content: "7 days"
+    - content: "10 days"
       isCorrect: false
       explanation: "Incorrect. This value isn't the correct number of days that Exchange Online keeps deleted items."
     - content: "14 days"

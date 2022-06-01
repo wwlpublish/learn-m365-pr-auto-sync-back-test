@@ -4,7 +4,7 @@ title: Explore records management in Microsoft 365
 metadata:
   title: Explore records management in Microsoft 365
   description: "Explore records management in Microsoft 365"
-  ms.date: 05/31/2022
+  ms.date: 06/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,7 +24,7 @@ quiz:
       explanation: "Correct. For a read-only role, you can create a new role group and add the View-Only Record Management role to this group."
     - content: "Add the users to the Records Management admin role group"
       isCorrect: false
-      explanation: "Incorrect. This action oesn't provide read-only only access. It grants permissions for all administrative features related to records management, including disposition review and verification."
+      explanation: "Incorrect. This action doesn't provide read-only access. It grants permissions for all administrative features related to records management, including disposition review and verification."
     - content: "Create a new role group and add the Records Management role to this group"
       isCorrect: false
-      explanation: "Incorrect. This action oesn't provide read-only only access. It grants permissions for all administrative features related to records management, including disposition review and verification."
+      explanation: "Incorrect. This action doesn't provide read-only access. It grants permissions for all administrative features related to records management, including disposition review and verification."
