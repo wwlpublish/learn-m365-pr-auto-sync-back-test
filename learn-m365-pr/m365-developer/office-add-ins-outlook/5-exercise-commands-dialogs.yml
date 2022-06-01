@@ -3,7 +3,7 @@ uid: learn-m365.office-add-ins-outlook.5-exercise-commands-dialogs
 metadata:
   title: Exercise - Add buttons and commands
   description: In this exercise, you'll add more functionality to the add-in you created in a previous exercise. You'll create two new buttons that insert a specific gist or a default gist into a message. You'll also implement a first-run experience, prompting the user for their credentials to authenticate with GitHub to retrieve your gists.
-  ms.date: 05/03/2022
+  ms.date: 05/27/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
