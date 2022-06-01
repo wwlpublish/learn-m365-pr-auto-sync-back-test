@@ -1,4 +1,4 @@
-øExchange Online has versatile features for encrypting emails to ensure that messages can only be read by the intended recipient. However, if the system is incorrectly configured, messages might not be protected, or users might be unable to open encrypted messages.
+Exchange Online has versatile features for encrypting emails to ensure that messages can only be read by the intended recipient. However, if the system is incorrectly configured, messages might not be protected, or users might be unable to open encrypted messages.
 
 In your company that helps disadvantaged youth, emails often include personal information about your clients. It's vital that this information is protected against interception by third parties, both to protect your client's privacy and identity and to comply with data protection legislation. Recently, you've noticed that some emails that contain personal data aren't encrypted as you expect. Also, some emails that have been encrypted by using Secure Multipurpose Mail Extensions (S/MIME) can't be opened. You need to troubleshoot these problems as quickly as possible.
 
@@ -122,7 +122,9 @@ Set-ActiveSyncOrganizationSettings -AllowRMSSupportForUnenlightenedApps $true
 ```
 
 > [!NOTE]
-> On Android, non-Outlook clients behave differently to the iOS Mail client and don't require you to enable service-side decryption. Some clients, such as Gmail, provide a link to the protected message and require you to enter your email account credentials. Other clients show a single-use code and direct you to a page where you can enter it and view the protected message. As for iOS, the most seamless way to support protected message in Android is to deploy Outlook for Android.
+> On Android, non-Microsoft email clients behave differently by not requiring you to enable service-side decryption. Some clients, such as Gmail, provide a link to the protected message and require you to enter your email account credentials. Other clients show a single-use code and direct you to a page where you can enter it and view the protected message. Although the most seamless way to support protected messages on mobile devices is to install Microsoft Outlook for iOS and Android via the native mobile device app store or Microsoft Endpoint Manager (Intune MDM).
+ 
+
 
 ### Expire and Revoke email with Advanced Message Encryption
 
