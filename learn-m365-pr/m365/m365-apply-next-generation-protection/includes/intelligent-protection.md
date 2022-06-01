@@ -22,7 +22,7 @@ You know that new viruses and other threats appear all the time and the tight co
 - **Smart rules**. New threats are blocked by using rules written by security experts.
 - **Detonation-based machine learning**. New threats are identified by detonating unknown files.
 
-:::image type="content" source="../media/next-generation-protection-engines.png" alt-text="Diagram showing the next generation protection engines on clients and in the cloud in Microsoft Defender Antivirus." lightbox="../media/next-generation-protection-engines.png":::
+:::image type="content" source="../media/next-generation-protection-engines.png" alt-text="Diagram showing the next generation protection engines on clients and in the cloud in Microsoft Defender Antivirus." lightbox="../media/next-generation-protection-engines.png" border="false":::
 
 These next-generation cloud-delivered protection services are also known as the Microsoft Advanced Protection Service (MAPS).
 
