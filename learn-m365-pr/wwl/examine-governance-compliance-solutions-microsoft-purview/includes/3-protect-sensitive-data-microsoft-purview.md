@@ -16,7 +16,7 @@ The following diagram outlines the steps that organizations must take when imple
 
 The following sections outline these capabilities and how to get started with each one. However, if you're looking for a guided deployment, see [Deploy an information protection solution with Microsoft Purview](/microsoft-365/compliance/information-protection-solution?azure-portal=true).
 
-### Know your data<br>
+### Know your data
 
 To understand your data landscape and identify sensitive data across your hybrid environment, use the capabilities that are outlined in the following table.
 
