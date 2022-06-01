@@ -25,7 +25,7 @@ These features are examined in the following sections:
 
 ### Multiple branding templates
 
-With Microsoft Purview Advanced Message Encryption, you're not limited to a single branding template. Instead, you can create and use multiple branding templates. Adding custom branding also lets you enable tracking a revocation of encrypted messages. When you use custom branding, external recipients receive a notification email that contains a link to the messae encryption portal. The mail flow rule determines which branding template is used by the notification email and message encryption portal. This way, your secure content isn't sent outside your organization.
+With Microsoft Purview Advanced Message Encryption, you're not limited to a single branding template. Instead, you can create and use multiple branding templates. Adding custom branding also lets you enable tracking a revocation of encrypted messages. When you use custom branding, external recipients receive a notification email that contains a link to the message encryption portal. The mail flow rule determines which branding template is used by the notification email and message encryption portal. This way, your secure content isn't sent outside your organization.
 
 If you have Microsoft Purview Advanced Message Encryption, you can create custom branding templates for your organization by using the **New-OMEConfiguration** cmdlet. Once you've created the template, you modify the template by using the **Set-OMEConfiguration** cmdlet. You can create multiple templates.
 
