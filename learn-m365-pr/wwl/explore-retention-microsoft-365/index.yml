@@ -43,9 +43,9 @@ units:
 - learn.wwl.explore-retention-microsoft-365.compare-capabilities-retention-policies-retention-labels
 - learn.wwl.explore-retention-microsoft-365.define-scope-retention-policy
 - learn.wwl.explore-retention-microsoft-365.examine-principles-retention
+- learn.wwl.explore-retention-microsoft-365.implement-retention-using-policies-labels-ediscovery-holds
 - learn.wwl.explore-retention-microsoft-365.restrict-retention-changes-using-preservation-lock
 - learn.wwl.explore-retention-microsoft-365.knowledge-check
 - learn.wwl.explore-retention-microsoft-365.summary
-- learn.wwl.explore-retention-microsoft-365.implement-retention-using-policies-labels-ediscovery-holds
 badge:
   uid: learn.wwl.explore-retention-microsoft-365.badge
