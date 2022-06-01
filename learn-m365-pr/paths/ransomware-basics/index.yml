@@ -18,6 +18,7 @@ levels:
 - beginner
 roles:
 - business-user
+- student
 products:
 - m365
 modules:
