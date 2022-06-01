@@ -20,7 +20,8 @@ A rule is created to enforce a specific protection requirement. A DLP policy is 
 
 For example, imagine a set of rules designed to meet the Health Insurance Portability and Accountability Act (HIPAA) across all SharePoint Online sites and all OneDrive for Business sites. The policy looks for any document containing sensitive information that is shared with people outside your organization (the conditions) and then blocks access to document (the actions).
 
-:::image type="content" source="../media/2-data-loss-prevention-policy.png" alt-text="Data loss prevention policy.":::
+> [!div class="centered"]
+> :::image type="content" source="../media/2-data-loss-prevention-policy.png" alt-text="Diagram that shows the general steps for a data loss prevention policy including the conditions and actions for each rule and the location where those rules are applied." lightbox="../media/2-data-loss-prevention-policy.png" border="false":::
 
 ## Types of sensitive information
 
