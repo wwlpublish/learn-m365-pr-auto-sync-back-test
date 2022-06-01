@@ -57,7 +57,7 @@ Whether a recipient receives a link-based experience or an inline experience dep
 
 Admins and message senders can revoke messages that are encrypted using encryption applied directly from Outlook on the web. For example, messages encrypted with the Encrypt Only option appear similar to the following screenshot.
 
-:::image type="content" source="../media/ad-hoc-encryption-revoke-3b31f73f.png" alt-text="Screenshot showing Encrypt Only option in Outlook on the web.":::
+:::image type="content" source="../media/encryption-revoke-a3e4471b.png" alt-text="Screenshot showing Encrypt Only option in Outlook on the web.":::
 
 
 #### How to revoke an encrypted message that you sent
@@ -72,7 +72,7 @@ To revoke an encrypted message that you sent, complete the following steps:
 2.  If the mail is revocable, you'll see the **Remove external access** link at the top of the message. Select this link to revoke the message.
 3.  The message shows that its status is revoked.
     
-    :::image type="content" source="../media/ad-hoc-encryption-revoked-message-7e4c3768.png" alt-text="Screenshot showing revoked encrypted message in Outlook on the web.":::
+    :::image type="content" source="../media/encryption-revoked-message-07fcfef0.png" alt-text="Screenshot showing revoked encrypted message in Outlook on the web.":::
     
 
 #### Recipient experience for revoked encrypted emails
