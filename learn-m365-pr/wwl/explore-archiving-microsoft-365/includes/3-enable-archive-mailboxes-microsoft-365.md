@@ -11,7 +11,7 @@ Complete the following steps to enable an archive mailbox in the Microsoft Purvi
     
     > [!NOTE]
     > The Archive page shows a maximum of 500 users. Use the search box if you can't immediately see the name of the user you want.
-5.  In the list of mailboxes, select the user whose mailbox you want to archive. Then select the **Enable Archive** option.
+5.  In the list of mailboxes, select the user whose mailbox you want to archive. Then select the **Enable archive** option on the menu bar.
     
     :::image type="content" source="../media/enable-archive-mailboxes-ff68f2dc.png" alt-text="Screenshot of the Data lifecycle management page with the Enable archive option highlighted.":::
     
