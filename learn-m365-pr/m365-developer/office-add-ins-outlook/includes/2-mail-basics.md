@@ -74,7 +74,7 @@ Module extension add-ins appear in the Outlook navigation bar alongside mail, ta
 
 ### On send add-ins
 
-The *on send* feature for Outlook add-ins provides a way to handle email or block email users from certain actions, and allows an add-in to set certain items on send
+The *on send* feature for Outlook add-ins provides a way to handle email or block email users from certain actions, and allows an add-in to set certain items on send.
 
 ## Provisioning add-ins
 
@@ -88,4 +88,4 @@ Office Add-ins must be hosted using HTTPS, and both these project provisioning m
 
 ## Summary
 
-In this unit, you'll learn the basics of an Outlook mail add-in.
+In this unit, you learned the basics of an Outlook mail add-in.
