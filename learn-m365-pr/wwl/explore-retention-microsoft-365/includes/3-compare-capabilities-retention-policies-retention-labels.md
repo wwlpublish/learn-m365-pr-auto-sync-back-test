@@ -187,7 +187,7 @@ No
     No
   :::column-end:::
   :::column:::
-    Yes \*
+    Yes (1)
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -211,7 +211,7 @@ Yes
 
 **Footnote:**
 
-\* Some retention labels don't mark the content as a record or regulatory record. With these labels, auditing events are limited to when an item in SharePoint or OneDrive has a label applied, changed, or removed. For auditing details for retention labels, see the upcoming unit that examines auditing retention configuration and actions.
+(1) Some retention labels don't mark the content as a record or regulatory record. With these labels, auditing events are limited to when an item in SharePoint or OneDrive has a label applied, changed, or removed. For auditing details for retention labels, see the upcoming unit that examines auditing retention configuration and actions.
 
 ### Combining retention policies and retention labels
 
@@ -223,27 +223,27 @@ For more information about how retention policies and retention labels work toge
 
 #### Example for users to override automatic deletion
 
-**Scenario:** By default, Contoso wants the content in every user's OneDrive account to be automatically deleted after five years. However, users must be able to override this event for specific documents.
+**Scenario:** By default, Contoso wants the content in every user's OneDrive account to be automatically deleted after five years. However, users must be able to override this event for specific documents. Possible solutions include:
 
-1.  Contoso creates and configures a retention policy that automatically deletes content five years after it's last modified. It then applies the policy to all of its OneDrive accounts.
-2.  Contoso creates and configures a retention label that keeps content forever. it then adds this retention label to a label policy that it publishes to all of its OneDrive accounts. Contoso explains to users how to manually apply this label to specific documents that should be excluded from automatic deletion if they weren't modified after five years.
+ -  Contoso creates and configures a retention policy that automatically deletes content five years after it's last modified. It then applies the policy to all of its OneDrive accounts.
+ -  Contoso creates and configures a retention label that keeps content forever. it then adds this retention label to a label policy that it publishes to all of its OneDrive accounts. Contoso explains to users how to manually apply this label to specific documents that should be excluded from automatic deletion if they weren't modified after five years.
 
 #### **Example to retain items for a period longer than the default**
 
-**Scenario:** By default, Contoso wants SharePoint items to be automatically retained and then deleted after five years. However, it wants documents in specific libraries to be retained for 10 years.
+**Scenario:** By default, Contoso wants SharePoint items to be automatically retained and then deleted after five years. However, it wants documents in specific libraries to be retained for 10 years. Possible solutions include:
 
-1.  Contoso creates and configures a retention policy that automatically retains and then deletes content after five years. It then applies the policy to all SharePoint and Microsoft 365 Groups instances.
-2.  Contoso creates and configures a retention label that automatically retains content for 10 years. It then publishes this label to SharePoint site admins. By doing so, they can apply it as a default label to be inherited by all items in specific document libraries.
+ -  Contoso creates and configures a retention policy that automatically retains and then deletes content after five years. It then applies the policy to all SharePoint and Microsoft 365 Groups instances.
+ -  Contoso creates and configures a retention label that automatically retains content for 10 years. It then publishes this label to SharePoint site admins. By doing so, they can apply it as a default label to be inherited by all items in specific document libraries.
 
 #### Example to delete items in a shorter time period
 
-**Scenario:** By default, Contoso automatically deletes emails after 10 years. However, emails related to a specific project that has a prerelease code name must be automatically deleted after one year.
+**Scenario:** By default, Contoso automatically deletes emails after 10 years. However, emails related to a specific project that has a prerelease code name must be automatically deleted after one year. Possible solutions include:
 
-1.  Contoso creates and configures a retention policy that automatically deletes content after 10 years. It then applies the policy to all Exchange recipients.
-2.  Contoso creates and configures a retention label that automatically deletes content after one year. Options for applying this label to relevant emails include:
-    1.  Contoso creates an auto-labeling policy that identifies content. It does so by using the project code name as the keyword. It then applies the policy to all Exchange recipients.
-    2.  Contoso publishes the label and instructs users involved in the project on how to create an automatic rule in Outlook that applies this label.
-    3.  Contoso publishes the label and instructs users to create a folder in Outlook for all emails related to the project. The users apply the published label to the folder, and then create an Outlook rule to move all project-related emails to this folder.
+ -  Contoso creates and configures a retention policy that automatically deletes content after 10 years. It then applies the policy to all Exchange recipients.
+ -  Contoso creates and configures a retention label that automatically deletes content after one year. Options for applying this label to relevant emails include:
+     -  Contoso creates an auto-labeling policy that identifies content. It does so by using the project code name as the keyword. It then applies the policy to all Exchange recipients.
+     -  Contoso publishes the label and instructs users involved in the project on how to create an automatic rule in Outlook that applies this label.
+     -  Contoso publishes the label and instructs users to create a folder in Outlook for all emails related to the project. The users apply the published label to the folder, and then create an Outlook rule to move all project-related emails to this folder.
 
 ### How long it takes for retention policies to take effect
 
@@ -254,12 +254,10 @@ You can always check the distribution status of the retention policy by selectin
 1.  [Connect to Security &amp; Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell?azure-portal=true).
 2.  Run one of the following commands:
      -  For the policy locations: **Teams private channel messages**, **Yammer user messages**,and **Yammer community messages**:
-    
-    ```powershell
-    Set-AppRetentionCompliancePolicy -Identity <policy name> -RetryDistribution
-    ```
-    
-    
+        
+        ```powershell
+        Set-AppRetentionCompliancePolicy -Identity <policy name> -RetryDistribution
+        ```
      -  For all other policy locations, such as: **Exchange email**, **SharePoint sites**, and **Teams channel messages**:
         
         ```powershell

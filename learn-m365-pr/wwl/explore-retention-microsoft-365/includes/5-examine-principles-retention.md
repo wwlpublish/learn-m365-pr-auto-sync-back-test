@@ -62,12 +62,12 @@ The following list provides an explanation for each principle of retention:
 3.  **Explicit wins over implicit for deletions**. With conflicts now resolved for retention, only conflicts for deletions remain:
     
     
-    1.  A retention label (regardless of how it was applied) provides explicit retention in comparison with retention policies. It does so because the retention settings are applied to an individual item rather than implicitly assigned from a container. This design means that a delete action from a retention label always takes precedence over a delete action from any retention policy.
+     -  A retention label (regardless of how it was applied) provides explicit retention in comparison with retention policies. It does so because the retention settings are applied to an individual item rather than implicitly assigned from a container. This design means that a delete action from a retention label always takes precedence over a delete action from any retention policy.
         
         **Example:** A document at Contoso is subject to two retention policies that have a delete action of 5 years and 10 years, respectively. It's also subject to a retention label that has a delete action of seven years.
         
         **Outcome:** The document is permanently deleted after seven years. Why? Because the delete action from the retention label takes precedence.
-    2.  When you have retention policies only: If a retention policy for a location uses an adaptive scope or a static scope that includes specific instances (such as specific users for Exchange email), that retention policy takes precedence over a static scope that's configured for all instances for the same location.
+     -  When you have retention policies only: If a retention policy for a location uses an adaptive scope or a static scope that includes specific instances (such as specific users for Exchange email), that retention policy takes precedence over a static scope that's configured for all instances for the same location.
         
         A static scope that's configured for all instances for a location is sometimes referred to as an **org-wide policy**. For example, Exchange email and the default setting of **All recipients**. Or, SharePoint sites and the default setting of **All sites**. When retention policies aren't org-wide but have been configured with an adaptive scope or a static scope that includes specific instances, they have equal precedence at this level.
         
@@ -93,7 +93,7 @@ Items subject to eDiscovery hold also fall under the first principle of retentio
 
 The following examples are more complex. They illustrate the principles of retention when different retain and delete actions are combined. To make the examples easier to follow, all retention policies and labels use the default setting of starting the retention period when the item is created. By doing so, the end of the retention period is the same for the item.
 
-1.  **Example:** An item has the following retention settings applied to it:
+ -  **Example:** An item has the following retention settings applied to it:
     
     
      -  A retention policy for delete-only after five years.
@@ -103,7 +103,7 @@ The following examples are more complex. They illustrate the principles of reten
     **Outcome:** The item is retained for seven years. Why? Because retention takes precedence over deletion. As such, the seven year retention period is the longest retention period for the item. At the end of this retention period, the item is permanently deleted because of the delete action from the retention policies.
     
     Although the two retention policies have different dates for the delete actions, the earliest the item can be permanently deleted is at the end of the longest retention period, which is longer than both deletion dates.
-2.  **Example:** An item has the following retention settings applied to it:
+ -  **Example:** An item has the following retention settings applied to it:
     
     
      -  An org-wide retention policy that deletes-only after 10 years.

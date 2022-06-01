@@ -37,7 +37,7 @@ These secure locations and the retained content aren't visible to most people. I
 
  -  [Learn about retention for SharePoint and OneDrive](/microsoft-365/compliance/retention-policies-sharepoint?azure-portal=true).
  -  [Learn about retention for Microsoft Teams](/microsoft-365/compliance/retention-policies-teams?azure-portal=true).
- -  Learn about retention for Yammer.
+ -  [Learn about retention for Yammer](/microsoft-365/compliance/retention-policies-yammer?azure-portal=true).
  -  [Learn about retention for Exchange](/microsoft-365/compliance/retention-policies-exchange?azure-portal=true).
 
 ### Retention policies and retention labels
