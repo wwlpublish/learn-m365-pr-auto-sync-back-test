@@ -3,7 +3,7 @@ uid: learn.wwl.explore-microsoft-defender
 metadata:
   title: Explore Microsoft Defender
   description: "The module explains how Microsoft Defender can be used to protect against malware and reduce exposure to attacks using a firewall."
-  ms.date: 03/31/2022
+  ms.date: 06/01/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -21,7 +21,7 @@ prerequisites: |
   - Students should have a basic understanding of computer networks and hardware concepts.
   - Students should have a basic understanding of OS and Application concepts.
   - Students should have experience with using Windows 10 or later.
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/microsoft-defender-explore.svg
 levels:
 - beginner
 roles:
@@ -29,8 +29,8 @@ roles:
 products:
 - windows
 subjects:
-- threat-protection
 - cloud-security
+- threat-protection
 units:
 - learn.wwl.explore-microsoft-defender.introduction
 - learn.wwl.explore-microsoft-defender.explain-microsoft-defender-antivirus
