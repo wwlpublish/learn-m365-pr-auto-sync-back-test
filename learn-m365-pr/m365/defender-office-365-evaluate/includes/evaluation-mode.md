@@ -28,7 +28,7 @@ From the navigation pane on the left-hand side, you can select either:
 - **Policies & rules** > **Threat policies**
 - **Reports** > **Email & collaboration reports**
 
-:::image type="content" source="../media/2-defender-office-card.png" alt-text="Fragment of a screenshot, showing the Defender for Office 365 evaluate card.":::
+:::image type="content" source="../media/2-defender-office-card.png" alt-text="Screenshot showing the Defender for Office 365 evaluate card." border="false":::
 
 Once you have found the card, start with the evaluation by selecting **Evaluate**.
 
