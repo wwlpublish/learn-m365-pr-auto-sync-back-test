@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.examine-governance-compliance-solutions-microsoft-purview.protect-sensitive-data-with-microsoft-purview
+uid: learn.wwl.examine-governance-compliance-solutions-microsoft-purview.protect-sensitive-data-microsoft-purview
 title: Protect sensitive data with Microsoft Purview Information Protection
 metadata:
   title: Protect sensitive data with Microsoft Purview Information Protection
@@ -13,4 +13,4 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 7
 content: |
-  [!include[](includes/3-protect-sensitive-data-with-microsoft-purview.md)]
+  [!include[](includes/3-protect-sensitive-data-microsoft-purview.md)]

@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.examine-governance-compliance-solutions-microsoft-purview.govern-organizational-data-using-microsoft-purview
+uid: learn.wwl.examine-governance-compliance-solutions-microsoft-purview.govern-organizational-data-use-microsoft-purview
 title: Govern organizational data using Microsoft Purview Data Lifecycle Management
 metadata:
   title: Govern organizational data using Microsoft Purview Data Lifecycle Management
@@ -13,7 +13,7 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 8
 content: |
-  [!include[](includes/4-govern-organizational-data-using-microsoft-purview.md)]
+  [!include[](includes/4-govern-organizational-data-use-microsoft-purview.md)]
 quiz:
   title: "Check your knowledge"
   questions:

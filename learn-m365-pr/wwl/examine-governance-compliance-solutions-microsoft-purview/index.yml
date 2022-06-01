@@ -31,9 +31,9 @@ products:
 units:
 - learn.wwl.examine-governance-compliance-solutions-microsoft-purview.introduction
 - learn.wwl.examine-governance-compliance-solutions-microsoft-purview.explore-data-governance-compliance-microsoft-purview
-- learn.wwl.examine-governance-compliance-solutions-microsoft-purview.protect-sensitive-data-with-microsoft-purview
-- learn.wwl.examine-governance-compliance-solutions-microsoft-purview.govern-organizational-data-using-microsoft-purview
-- learn.wwl.examine-governance-compliance-solutions-microsoft-purview.minimize-internal-risks-with-microsoft-purview
+- learn.wwl.examine-governance-compliance-solutions-microsoft-purview.protect-sensitive-data-microsoft-purview
+- learn.wwl.examine-governance-compliance-solutions-microsoft-purview.govern-organizational-data-use-microsoft-purview
+- learn.wwl.examine-governance-compliance-solutions-microsoft-purview.minimize-internal-risks-microsoft-purview
 - learn.wwl.examine-governance-compliance-solutions-microsoft-purview.explore-microsoft-purview-ediscovery-solutions
 - learn.wwl.examine-governance-compliance-solutions-microsoft-purview.knowledge-check
 - learn.wwl.examine-governance-compliance-solutions-microsoft-purview.summary
