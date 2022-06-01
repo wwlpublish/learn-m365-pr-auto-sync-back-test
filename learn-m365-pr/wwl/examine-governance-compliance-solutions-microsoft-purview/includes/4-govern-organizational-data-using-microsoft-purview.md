@@ -36,7 +36,7 @@ When an organization is ready to start governing its data by retaining the conte
     When organizations must support archive mailboxes, they should:
     
     
-     -  [Enable auto-expanding archiving](/microsoft-365/compliance/enable-autoexpanding-archiving?azure-portal=true) for mailboxes that need more than 100-GB of storage.
+     -  [Enable auto-expanding archiving](/microsoft-365/compliance/enable-autoexpanding-archiving?azure-portal=true) for mailboxes that need more than 100 GB of storage.
      -  Use [retention tags with a retention policy from messaging records management (MRM)](/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes?azure-portal=true) if you either need to:
          -  Customize how emails are automatically moved from a user's primary mailbox to their archive mailbox.
          -  Specify retention and deletion settings for specific folders rather than the whole mailbox.
@@ -45,7 +45,7 @@ When an organization is ready to start governing its data by retaining the conte
 
 ### Subscription and licensing requirements
 
-Many different subscriptions support data lifecycle management capabilities. To see the options for licensing your users to benefit from Microsoft Purview features, see the [Microsoft 365 licensing guidance for security &amp; compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guid?azure-portal=trueance).
+Many different subscriptions support data lifecycle management capabilities. To see the options for licensing your users to benefit from Microsoft Purview features, see the Microsoft 365 licensing guidance for security &amp; compliance.
 
 ### Permissions
 

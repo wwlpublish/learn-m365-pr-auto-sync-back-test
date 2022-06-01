@@ -38,7 +38,7 @@ Insider risk analytics enables organizations to conduct an evaluation of potenti
 
 ### Get started with recommended actions (preview)
 
-Whether an organization is setting up insider risk management for the first time or getting started with creating new policies, the new [recommended actions](/microsoft-365/compliance/insider-risk-management-configure?view=o365-worldwide#recommended-actions-preview?azure-portal=true) experience can help it get the most out of insider risk management capabilities. Recommended actions include setting up permissions, choosing policy indicators, creating a policy, and more.
+Whether an organization is setting up insider risk management for the first time or getting started with creating new policies, the new [recommended actions](/microsoft-365/compliance/insider-risk-management-configure?azure-portal=true) experience can help it get the most out of insider risk management capabilities. Recommended actions include setting up permissions, choosing policy indicators, creating a policy, and more.
 
 ### Workflow
 
@@ -59,15 +59,15 @@ The following diagram show how an organization can use insider risk management w
 
 You can select from the following policy templates to quickly get started with insider risk management:
 
- -  [Data theft by departing users](/microsoft-365/compliance/insider-risk-management-policies?view=o365-worldwide#data-theft-by-departing-users?azure-portal=true)
- -  [General data leaks](/microsoft-365/compliance/insider-risk-management-policies?view=o365-worldwide#general-data-leaks?azure-portal=true)
- -  [Data leaks by priority users (preview)](/microsoft-365/compliance/insider-risk-management-policies?view=o365-worldwide#data-leaks-by-priority-users-preview?azure-portal=true)
- -  [Data leaks by disgruntled users (preview)](/microsoft-365/compliance/insider-risk-management-policies?view=o365-worldwide#data-leaks-by-disgruntled-users-preview?azure-portal=true)
- -  [General security policy violations (preview)](/microsoft-365/compliance/insider-risk-management-policies?view=o365-worldwide#general-security-policy-violations-preview?azure-portal=true)
- -  [General patient data misuse (preview)](/microsoft-365/compliance/insider-risk-management-policies?view=o365-worldwide#general-patient-data-misuse-preview?azure-portal=true)
- -  [Security policy violations by departing users (preview)](/microsoft-365/compliance/insider-risk-management-policies?view=o365-worldwide#security-policy-violations-by-departing-users-preview?azure-portal=true)
- -  [Security policy violations by priority users (preview)](/microsoft-365/compliance/insider-risk-management-policies?view=o365-worldwide#security-policy-violations-by-priority-users-preview?azure-portal=true)
- -  [Security policy violations by disgruntled users (preview)](/microsoft-365/compliance/insider-risk-management-policies?view=o365-worldwide#security-policy-violations-by-disgruntled-users-preview?azure-portal=true)
+ -  [Data theft by departing users](/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true)
+ -  [General data leaks](/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true)
+ -  [Data leaks by priority users (preview)](/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true)
+ -  [Data leaks by disgruntled users (preview)](/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true)
+ -  [General security policy violations (preview)](/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true)
+ -  [General patient data misuse (preview)](/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true)
+ -  [Security policy violations by departing users (preview)](/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true)
+ -  [Security policy violations by priority users (preview)](/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true)
+ -  [Security policy violations by disgruntled users (preview)](/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true)
 
 :::image type="content" source="../media/insider-risk-policy-dashboard-dfd8444e.png" alt-text="Screenshot showing the Policies tab in the insider risk management dashboard.":::
 
@@ -113,7 +113,7 @@ Using alert filters, it's easy to quickly identify alerts by status, severity, o
 
 #### Investigate
 
-Organizations can quickly investigate all activities for a selected user with [User activity reports (preview)](/microsoft-365/compliance/insider-risk-management-activities?view=o365-worldwide#user-activity-reports-preview?azure-portal=true). These reports enable investigators in an organization to examine activities for specific users for a defined time period. They can do so without having to temporarily or explicitly assign them to an insider risk management policy. After investigators examine activities for a user, they can:
+Organizations can quickly investigate all activities for a selected user with [User activity reports (preview)](/microsoft-365/compliance/insider-risk-management-activities?azure-portal=true). These reports enable investigators in an organization to examine activities for specific users for a defined time period. They can do so without having to temporarily or explicitly assign them to an insider risk management policy. After investigators examine activities for a user, they can:
 
  -  Dismiss individual activities as benign.
  -  Share or email a link to the report with other investigators.
@@ -165,8 +165,8 @@ In most cases, users try their best to properly handle sensitive or confidential
 Data leaks policy templates automatically detect activities typically associated with sharing sensitive or confidential information. Insider risk management policies can be created using the following data leaks templates:
 
  -  [General data leaks](/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true)
- -  [Data leaks by priority users (preview)](/microsoft-365/compliance/insider-risk-management-policies?view=o365-worldwide#data-leaks-by-priority-users-preview?azure-portal=true)
- -  [Data leaks by disgruntled users (preview)](/microsoft-365/compliance/insider-risk-management-policies?view=o365-worldwide#data-leaks-by-disgruntled-users-preview?azure-portal=true)
+ -  [Data leaks by priority users (preview)](/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true)
+ -  [Data leaks by disgruntled users (preview)](/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true)
 
 ### Intentional or unintentional security policy violations (preview)
 
@@ -174,10 +174,10 @@ Users typically have a large degree of control when managing their devices in th
 
 To help identity these risky security activities, the following insider risk management security policy violation templates score security risk indicators. They also use Microsoft Defender for Endpoint alerts to provide insights for security-related activities:
 
- -  [General security policy violations (preview)](/microsoft-365/compliance/insider-risk-management-policies?view=o365-worldwide#general-security-policy-violations-preview?azure-portal=true)
- -  [Security policy violations by departing users (preview)](/microsoft-365/compliance/insider-risk-management-policies?view=o365-worldwide#security-policy-violations-by-departing-users-preview?azure-portal=true)
- -  [Security policy violations by priority users (preview)](/microsoft-365/compliance/insider-risk-management-policies?view=o365-worldwide#security-policy-violations-by-priority-users-preview?azure-portal=true)
- -  [Security policy violations by disgruntled users (preview)](/microsoft-365/compliance/insider-risk-management-policies?view=o365-worldwide#security-policy-violations-by-disgruntled-users-preview?azure-portal=true)
+ -  [General security policy violations (preview)](/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true)
+ -  [Security policy violations by departing users (preview)](/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true)
+ -  [Security policy violations by priority users (preview)](/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true)
+ -  [Security policy violations by disgruntled users (preview)](/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true)
 
 ### Policies for users based on position, access level, or risk history (preview)
 
@@ -189,8 +189,8 @@ Users in an organization may have different levels of risk depending on their po
 
 In these circumstances, closer inspection and more aggressive risk scoring are important to help surface alerts for investigation and quick action. To help identify risky activities for these types of users, organizations can create priority user groups and create policies from the following policy templates:
 
- -  [Security policy violations by priority users (preview)](/microsoft-365/compliance/insider-risk-management-policies?view=o365-worldwide#security-policy-violations-by-priority-users-preview?azure-portal=true)
- -  [Data leaks by priority users (preview)](/microsoft-365/compliance/insider-risk-management-policies?view=o365-worldwide#data-leaks-by-priority-users-preview?azure-portal=true)
+ -  [Security policy violations by priority users (preview)](/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true)
+ -  [Data leaks by priority users (preview)](/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true)
 
 ### Actions and behaviors by disgruntled users (preview)
 
@@ -198,5 +198,5 @@ Stressful employment events can affect user behavior in several ways that relate
 
 To help identity these types of risky activities, the following insider risk management policy templates score risk indicators relating to behaviors that may occur near stressful employment events:
 
- -  [Data leaks by disgruntled users (preview)](/microsoft-365/compliance/insider-risk-management-policies?view=o365-worldwide#data-leaks-by-disgruntled-users-preview?azure-portal=true)
- -  [Security policy violations by disgruntled users (preview)](/microsoft-365/compliance/insider-risk-management-policies?view=o365-worldwide#security-policy-violations-by-disgruntled-users-preview?azure-portal=true)
+ -  [Data leaks by disgruntled users (preview)](/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true)
+ -  [Security policy violations by disgruntled users (preview)](/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true)
