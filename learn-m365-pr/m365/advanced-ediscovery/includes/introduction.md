@@ -18,7 +18,7 @@ Since 2005, [EDRM](http://www.edrm.net/?azure-portal=true) has delivered standar
 
 The EDRM diagram below represents a conceptual view of the eDiscovery process, not a linear one. Organizations may engage in some of the steps outlined in the diagram or elect to carry out the steps in a different order than shown here.
 
-:::image type="content" source="../media/electronic-discovery-reference-model.png" alt-text="Diagram of the Electronic Discovery Reference Model.":::
+:::image type="content" source="../media/electronic-discovery-reference-model.png" alt-text="Diagram of the Electronic Discovery Reference Model." lightbox="../media/electronic-discovery-reference-model.png" border="false":::
 
 It's also worth noting that the same step may be repeated numerous times or you may cycle back to earlier steps in order to refine your approach as a better understanding of the data emerges or as the nature of the matter changes.
 
