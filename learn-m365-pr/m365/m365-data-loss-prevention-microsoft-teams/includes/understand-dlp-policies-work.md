@@ -1,4 +1,4 @@
-DLP policies detect sensitive information with more than a simple scanning of the text. Deep content analysis uses keyword matches, dictionary matches, the evaluation of regular expressions, internal functions, and other methods to detect content that matches your DLP policies. DLP policies are stored in a central policy store and then synchronized to the following content sources:
+Data loss prevention policies detect sensitive information with more than a simple scanning of the text. Deep content analysis uses keyword matches, dictionary matches, the evaluation of regular expressions, internal functions, and other methods to detect content that matches your DLP policies. DLP policies are stored in a central policy store and then synchronized to the following content sources:
 
 - Microsoft Teams channels and chat messages.
 - Exchange Online, and from there to Outlook on the web and Outlook.
