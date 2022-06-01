@@ -190,7 +190,7 @@ Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $false
 ### Create an Exchange mail flow rule that applies your custom branding to encrypted emails
 
 > [!WARNING]
-> Third-party applications that scan and modify mail can prevent Microsoft Purview Message Encryption branding from being applied correctly.<br>
+> Third-party applications that scan and modify mail can prevent Microsoft Purview Message Encryption branding from being applied correctly.
 
 After you've either modified the default template or created new branding templates, you can create Exchange mail flow rules to apply your custom branding based on certain conditions. Most importantly, the email must be encrypted. Such a rule will apply custom branding in the following scenarios:
 

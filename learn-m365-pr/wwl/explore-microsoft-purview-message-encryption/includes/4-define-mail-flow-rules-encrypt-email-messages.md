@@ -61,7 +61,7 @@ The list of templates includes all default templates and options. It also includ
 2.  On the **Office 365 Home** page, select the **Admin** tile.
 3.  In the **Microsoft 365 admin center**, select **Admin centers** in the navigation pane, and then select **Exchange**.
 4.  In the **Exchange admin center**, in the navigation pane, select **Mail flow**, and then select **Rules**.
-5.  In the list of mail flow rules, select the rule you want to modify to use with Microsoft Purview Message Encryption and then select **Edit** (the pencil icon).<br>
+5.  In the list of mail flow rules, select the rule you want to modify to use with Microsoft Purview Message Encryption and then select **Edit** (the pencil icon).
 6.  To enable encryption using Microsoft Purview Message Encryption, from **Do the following**, select **Modify the message security**, and then select **Apply Office 365 Message Encryption and rights protection**. Select an RMS template from the list, select **Save**, and then select **OK**.
     
     The list of templates includes all default templates and options. It also includes any custom templates you've created for use by Microsoft 365. If the list is empty, ensure that you've set up Microsoft Purview Message Encryption as described in a previous unit in this training.
