@@ -5,7 +5,7 @@ metadata:
   unitType: knowledge_check
   title: Check your knowledge
   description: Check what you've learned about writing effective OKRs.
-  ms.date: 04/28/2022
+  ms.date: 06/01/2022
   author: rasanders
   ms.author: rasanders
   ms.topic: interactive-tutorial
@@ -19,7 +19,7 @@ quiz:
     - content: "Make more money next year"
       isCorrect: false
       explanation: "That's incorrect. This statement doesn't contain the traits of an Objective."
-    - content: "Increase new product sales from $ 15,000 to $ 25,000"
+    - content: "Increase new product sales from $15,000 to $25,000"
       isCorrect: false
       explanation: "That's incorrect. This statement doesn't contain the traits of an Objective."
     - content: "Empower customers to use Viva Goals in order to easily and effectively manage their OKRs"
