@@ -3,7 +3,7 @@ uid: learn.wwl.explore-microsoft-purview-message-encryption
 metadata:
   title: Explore Microsoft Purview Message Encryption
   description: "Explore Microsoft Purview Message Encryption"
-  ms.date: 05/31/2022
+  ms.date: 06/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,12 +11,12 @@ metadata:
 title: Explore Microsoft Purview Message Encryption
 summary: This module introduces Microsoft Purview Message Encryption, an online service that’s built on Microsoft Azure Rights Management and includes encryption, identity, and authorization policies to help organizations secure their email.
 abstract: |
-  By the end of this module, you will be able to:
-  - Describe the features of Microsoft Purview Message Encryption.
-  - Explain how Microsoft Purview Message Encryption works and how to set it up.
-  - Define mail flow rules that apply branding and encryption templates to encrypt email messages.
-  - Add organizational branding to encrypted email messages.
-  - Explain the extra capabilities provided by Microsoft Purview Advanced Message Encryption.
+  By the end of this module, you'll be able to:
+  *   Describe the features of Microsoft Purview Message Encryption.
+  *   Explain how Microsoft Purview Message Encryption works and how to set it up.
+  *   Define mail flow rules that apply branding and encryption templates to encrypt email messages.
+  *   Add organizational branding to encrypted email messages.
+  *   Explain the extra capabilities provided by Microsoft Purview Advanced Message Encryption.
 prerequisites: ""
 iconUrl: /learn/achievements/generic-badge.svg
 levels:

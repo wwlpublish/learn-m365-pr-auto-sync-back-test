@@ -4,7 +4,7 @@ Microsoft Purview Message Encryption is an online service that's built on Micros
  -  **Do Not Forward option**. When this option is applied to an email, the email is encrypted and recipients must be authenticated. Then, the recipients can't forward it, print it, or copy from it.
  -  **Encrypt-only option**. This option enables organizations to encrypt data without other restrictions. The recipients have all usage rights except **Save As**, **Export** and **Full Control**. This combination of usage rights means the recipients have no restrictions except that they can't remove the protection.
 
-**Additional reading**. For more information on these encryption features, including the permissions assigned to ights Management templates, see [Configure usage rights for Azure Information Protection](/azure/information-protection/configure-usage-rights?azure-portal=true).
+**Additional reading**. For more information on these encryption features, including the permissions assigned to Rights Management templates, see [Configure usage rights for Azure Information Protection](/azure/information-protection/configure-usage-rights?azure-portal=true).
 
 Users can encrypt email messages and various attachments by using these options. Administrators can define mail flow rules to apply this protection. For example, an administrator can create mail flow rules that:
 
@@ -25,15 +25,15 @@ All Microsoft 365 end users that use Outlook clients to read mail will receive n
  -  Outlook mobile on iOS and Android
  -  Outlook on the web (formerly known as Outlook Web App)
 
-Recipients of encrypted messages who receive encrypted or rights-protected mail sent to their Outlook.com, Gmail, and Yahoo accounts receive a wrapper mail that directs them to the OME Portal where they can easily authenticate using a Microsoft account, Gmail, or Yahoo credentials.
+Recipients of encrypted messages who receive encrypted or rights-protected mail sent to their Outlook.com, Gmail, and Yahoo accounts receive a wrapper mail that directs them to the message encryption portal where they can easily authenticate using a Microsoft account, Gmail, or Yahoo credentials.
 
-End users that read encrypted or rights-protected mail on clients other than Outlook also use the OME portal to view encrypted and rights-protected messages that they receive.
+End users that read encrypted or rights-protected mail on clients other than Outlook also use the message encryption portal to view encrypted and rights-protected messages that they receive.
 
 ### Sending, viewing, and replying to encrypted email messages
 
 With Microsoft Purview Message Encryption, users can send encrypted email from Outlook and Outlook on the web clients. Additionally, admins can set up mail flow rules in Microsoft 365 to automatically encrypt emails based on keyword matching or other conditions.
 
-Recipients of encrypted messages who are in organizations will be able to read those messages seamlessly in any version Outlook, including Outlook for PC, Outlook for Mac, Outlook on the web, Outlook for iOS, and Outlook for Android. Users that receive encrypted messages on other email clients can view the messages in the OME portal.
+Recipients of encrypted messages who are in organizations will be able to read those messages seamlessly in any version Outlook, including Outlook for PC, Outlook for Mac, Outlook on the web, Outlook for iOS, and Outlook for Android. Users that receive encrypted messages on other email clients can view the messages in the message encryption portal.
 
 For detailed guidance about how to send and view encrypted messages, see the following articles.
 

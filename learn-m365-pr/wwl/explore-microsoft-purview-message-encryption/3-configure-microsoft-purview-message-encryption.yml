@@ -4,7 +4,7 @@ title: Configure Microsoft Purview Message Encryption
 metadata:
   title: Configure Microsoft Purview Message Encryption
   description: "Configure Microsoft Purview Message Encryption"
-  ms.date: 05/31/2022
+  ms.date: 06/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,7 +21,7 @@ quiz:
     choices:
     - content: "Migrate to Azure Information Protection"
       isCorrect: false
-      explanation: "Incorrect. If you use Active Directory Rights Management service (AD RMS) with Exchange Online, you must migrate to Azure Information Protection before you can use message encryption. Fabrikam will use Azure RMS and not AD RMS, because Microsoft Purview Message Encryption isn't compatible with AD RMS.. Therefore, there's no need to migrate to Azure Information Protection."
+      explanation: "Incorrect. If you use Active Directory Rights Management service (AD RMS) with Exchange Online, you must migrate to Azure Information Protection before you can use message encryption. Fabrikam will use Azure RMS and not AD RMS, because Microsoft Purview Message Encryption isn't compatible with AD RMS. Therefore, there's no need to migrate to Azure Information Protection."
     - content: "Activate Azure RMS in Fabrikam's tenant"
       isCorrect: true
       explanation: "Correct. The only prerequisite for an organization to use Microsoft Purview Message Encryption is that Azure RMS must be activated in its tenant. If Azure RMS is activated, Microsoft 365 activates message encryption automatically and you don't need to do anything."

@@ -55,7 +55,7 @@ An organization can use Exchange Online PowerShell to verify that its Microsoft 
     
      -  For sender and recipient, use the email address of any user in your Microsoft 365 tenant. Your results should be similar to the following example:
         
-        Results :
+        Results:
 Acquiring RMS Templates ...
 - PASS: RMS Templates acquired. Templates available: Contoso - Confidential View Only, Contoso - Confidential, Do Not Forward.
 Verifying encryption ...

@@ -3,9 +3,9 @@ You can apply your company branding to customize the look of your organization's
  -  Introductory text.
  -  Disclaimer text.
  -  URL for Your organization's privacy statement.
- -  Text in the OME portal.
- -  Logo that appears in the email message and OME portal, or whether to use a logo at all.
- -  Background color in the email message and OME portal.
+ -  Text in the message encryption portal.
+ -  Logo that appears in the email message and encryption portal, or whether to use a logo at all.
+ -  Background color in the email message and encryption portal.
 
 You can also revert back to the default look and feel at any time.
 
@@ -52,7 +52,11 @@ Organizations must use Windows PowerShell to modify one branding template at a t
     Background color:
   :::column-end:::
   :::column:::
-    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -BackgroundColor "&lt;\#RRGGBB hexadecimal color code or name value&gt;"**Example:Set-OMEConfiguration -Identity "Branding Template 1" -BackgroundColor "\#ffffff"For more information about background colors, see [Background colors](/microsoft-365/compliance/add-your-organization-brand-to-encrypted-messages?azure-portal=true).
+    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -BackgroundColor "&lt;\#RRGGBB hexadecimal color code or name value&gt;"**Example:
+
+Set-OMEConfiguration -Identity "Branding Template 1" -BackgroundColor "\#ffffff"
+
+For more information about background colors, see [Background colors](/microsoft-365/compliance/add-your-organization-brand-to-encrypted-messages?azure-portal=true).
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -60,7 +64,17 @@ Organizations must use Windows PowerShell to modify one branding template at a t
     Logo:
   :::column-end:::
   :::column:::
-    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -Image &lt;Byte\[\]&gt;**Example:Set-OMEConfiguration -Identity "Branding Template 1" -Image (\[System.IO.File\]::ReadAllBytes('C:\\Temp\\contosologo.png'))Supported file formats: .png, .jpg, .bmp, or .tiffOptimal size of logo file: less than 40 KBOptimal size of logo image: 170x70 pixels. If your image exceeds these dimensions, the service resizes your logo for display in the portal. The service doesn't modify the graphic file itself. For best results, use the optimal size.
+    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -Image &lt;Byte\[\]&gt;**
+
+Example:
+
+Set-OMEConfiguration -Identity "Branding Template 1" -Image (\[System.IO.File\]::ReadAllBytes('C:\\Temp\\contosologo.png'))
+
+Supported file formats: .png, .jpg, .bmp, .tiff
+
+Optimal size of logo file: less than 40 KB
+
+Optimal size of logo image: 170x70 pixels. If your image exceeds these dimensions, the service resizes your logo for display in the portal. The service doesn't modify the graphic file itself. For best results, use the optimal size.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -68,7 +82,11 @@ Organizations must use Windows PowerShell to modify one branding template at a t
     Text next to the sender's name and email address:
   :::column-end:::
   :::column:::
-    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -IntroductionText "&lt;String up to 1024 characters&gt;"**Example:Set-OMEConfiguration -Identity "Branding Template 1" -IntroductionText "has sent you a secure message."
+    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -IntroductionText "&lt;String up to 1024 characters&gt;"**
+
+Example:
+
+Set-OMEConfiguration -Identity "Branding Template 1" -IntroductionText "has sent you a secure message."
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -76,7 +94,11 @@ Organizations must use Windows PowerShell to modify one branding template at a t
     Text that appears on the "Read Message" button:
   :::column-end:::
   :::column:::
-    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -ReadButtonText "&lt;String up to 1024 characters&gt;"**Example:Set-OMEConfiguration -Identity "OME Configuration" -ReadButtonText "Read Secure Message"
+    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -ReadButtonText "&lt;String up to 1024 characters&gt;"**
+
+Example:
+
+Set-OMEConfiguration -Identity "OME Configuration" -ReadButtonText "Read Secure Message"
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -84,7 +106,11 @@ Organizations must use Windows PowerShell to modify one branding template at a t
     Text that appears below the "Read Message" button:
   :::column-end:::
   :::column:::
-    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -EmailText "&lt;String up to 1024 characters&gt;"**Example:Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system."
+    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -EmailText "&lt;String up to 1024 characters&gt;"**
+
+Example:
+
+Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system."
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -92,7 +118,11 @@ Organizations must use Windows PowerShell to modify one branding template at a t
     URL for the Privacy Statement link:
   :::column-end:::
   :::column:::
-    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -PrivacyStatementURL "&lt;URL&gt;"**Example:Set-OMEConfiguration -Identity "Branding Template 1" -PrivacyStatementURL "https://contoso.com/privacystatement.html"
+    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -PrivacyStatementURL "&lt;URL&gt;"**
+
+Example:
+
+Set-OMEConfiguration -Identity "Branding Template 1" -PrivacyStatementURL "https://contoso.com/privacystatement.html"
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -100,7 +130,11 @@ Organizations must use Windows PowerShell to modify one branding template at a t
     Disclaimer statement in the email that contains the encrypted message:
   :::column-end:::
   :::column:::
-    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -DisclaimerText "&lt;Disclaimer statement. String of up to 1024 characters.&gt;"**Example:Set-OMEConfiguration -Identity "Branding Template 1" -DisclaimerText "This message is confidential for the use of the addressee only."
+    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -DisclaimerText "&lt;Disclaimer statement. String of up to 1024 characters.&gt;"**
+
+Example:
+
+Set-OMEConfiguration -Identity "Branding Template 1" -DisclaimerText "This message is confidential for the use of the addressee only."
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -108,7 +142,11 @@ Organizations must use Windows PowerShell to modify one branding template at a t
     Text that appears at the top of the encrypted mail viewing portal:
   :::column-end:::
   :::column:::
-    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -PortalText "&lt;Text for your portal. String of up to 128 characters.&gt;"**Example:Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal"
+    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -PortalText "&lt;Text for your portal. String of up to 128 characters.&gt;"**
+
+Example:
+
+Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal"
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -116,9 +154,17 @@ Organizations must use Windows PowerShell to modify one branding template at a t
     To enable or disable authentication with a one-time pass code for this custom template:
   :::column-end:::
   :::column:::
-    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -OTPEnabled &lt;$true\|$false&gt;**Examples:
+    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -OTPEnabled &lt;$true\|$false&gt;**
 
-To enable one-time passcodes for this custom template:Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $trueTo disable one-time passcodes for this custom template:Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $false
+Examples:
+
+To enable one-time passcodes for this custom template:
+
+Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $true
+
+To disable one-time passcodes for this custom template:
+
+Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $false
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -126,9 +172,17 @@ To enable one-time passcodes for this custom template:Set-OMEConfiguration -Iden
     To enable or disable authentication with Microsoft, Google, or Yahoo identities for this custom template:
   :::column-end:::
   :::column:::
-    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -SocialIdSignIn &lt;$true\|$false&gt;**Examples:
+    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -SocialIdSignIn &lt;$true\|$false&gt;**
 
-To enable social IDs for this custom template:Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $trueTo disable social IDs for this custom template:Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $false
+Examples:
+
+To enable social IDs for this custom template:
+
+Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $true
+
+To disable social IDs for this custom template:
+
+Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $false
   :::column-end:::
 :::row-end:::
 
@@ -140,13 +194,13 @@ To enable social IDs for this custom template:Set-OMEConfiguration -Identity "Br
 
 After you've either modified the default template or created new branding templates, you can create Exchange mail flow rules to apply your custom branding based on certain conditions. Most importantly, the email must be encrypted. Such a rule will apply custom branding in the following scenarios:
 
- -  If the email was manually encrypted by the end user using Outlook or Outlook on the web (formerly Outlook Web App).
- -  If the email was automatically encrypted by an Exchange mail flow rule or a Microsoft Purview Data Loss Prevention policy.
+ -  The email was manually encrypted by the end user using Outlook or Outlook on the web (formerly Outlook Web App).
+ -  The email was automatically encrypted by an Exchange mail flow rule or a Microsoft Purview Data Loss Prevention policy.
 
 To ensure Microsoft Purview Message Encryption applies your custom branding, set up a mail flow rule to encrypt your email messages. The priority of the encryption rule should be higher than the branding rule. By doing so, the encryption rule is processed first. By default, if you create the encryption rule before the branding rule, then the encryption rule will have a higher priority.
 
 1.  In a web browser, using a work or school account that has been granted global administrator permissions, sign in to Microsoft 365.
-2.  On the Office 365 Home page, select the Admin tile.
+2.  On the **Office 365 Home** page, select the **Admin** tile.
 3.  In the **Microsoft 365 admin center**, select **Admin centers** in the navigation pane, and then select **Exchange**.
 4.  In the **Exchange admin center**, in the navigation pane, select **Mail flow**, and then select **Rules**.
 5.  On the **Rules** page, select **New+**, then select **Create a new rule** from the drop-down list**.**
@@ -166,8 +220,6 @@ To ensure Microsoft Purview Message Encryption applies your custom branding, set
 
  -  For more information on how to create an Exchange mail flow rule that applies encryption, see [Define mail flow rules to encrypt email messages in Office 365](/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email?azure-portal=true).
  -  For more information on setting the priority of a mail flow rule, see [Manage mail flow rules](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#set-the-priority-of-a-mail-flow-rule?azure-portal=true).
-
-## 
 
 ## Knowledge check
 

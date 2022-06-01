@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 05/31/2022
+  ms.date: 06/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -32,13 +32,13 @@ quiz:
     choices:
     - content: "Using right management templates to encrypt messages"
       isCorrect: false
-      explanation: "Incorrect. This is a feature of Microsoft Purview Message Encryption and not one of the advanced capabilities in Microsoft Purview Advanced Message Encryption."
+      explanation: "Incorrect. This item is a feature of Microsoft Purview Message Encryption and not one of the advanced capabilities in Microsoft Purview Advanced Message Encryption."
     - content: "Message revocation"
       isCorrect: true
       explanation: "Correct. The advanced capabilities found in Microsoft Purview Advanced Message Encryption include message revocation, message expiration, and multiple branding templates."
     - content: "Do Not Forward option"
       isCorrect: false
-      explanation: "Incorrect. This is a feature of Microsoft Purview Message Encryption. It isn't one of the advanced capabilities in Microsoft Purview Advanced Message Encryption."
+      explanation: "Incorrect. This item is a feature of Microsoft Purview Message Encryption. It isn't one of the advanced capabilities in Microsoft Purview Advanced Message Encryption."
   - content: "Microsoft Purview Advanced Message Encryption enables administrators to control sensitive emails shared outside the organization. An administrator can do so with the use of which of the following items?"
     choices:
     - content: "Automatic policies that detect sensitive information types"
