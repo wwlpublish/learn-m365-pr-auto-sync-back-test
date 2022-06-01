@@ -21,7 +21,7 @@ Privileged access management complements other data and access feature protectio
 
 > [!div class="centered"]
 > :::image type="complex" source="../media/layers-of-protection.png" alt-text="Diagram showing the layers of protection in privileged access management." lightbox="../media/layers-of-protection.png" border="false":::
->	The diagram shows concentric circles as layers, starting from the outside, they are: encryption (to prevent unauthorized access), RBAC and then conditional access (which are part of role and risk-based standing access),  and lastly, Azure AD privileged identity management, privileged access management in Office 365, and data storage and configuration settings, which together make up just-in-time and just-enough-access).
+>	   The diagram shows concentric circles as layers, starting from the outside, they are: encryption (to prevent unauthorized access), RBAC and then conditional access (which are part of role and risk-based standing access),  and lastly, Azure AD privileged identity management, privileged access management in Office 365, and data storage and configuration settings, which together make up just-in-time and just-enough-access).
 > :::image-end:::
 
 Microsoft Purview Privileged Access Management is defined and scoped at the *task* level, while Azure AD Privileged Identity Management applies protection at the *role* level with the ability to execute multiple tasks. Azure AD Privileged Identity Management primarily allows managing accesses for AD roles and role groups, while privileged access management in Microsoft Purview applies only at the task level.
