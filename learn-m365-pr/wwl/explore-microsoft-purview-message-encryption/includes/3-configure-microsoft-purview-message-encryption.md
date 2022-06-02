@@ -55,17 +55,19 @@ An organization can use Exchange Online PowerShell to verify that its Microsoft 
     
      -  For sender and recipient, use the email address of any user in your Microsoft 365 tenant. Your results should be similar to the following example:
         
+        ```Raw
         Results:
-Acquiring RMS Templates ...
-- PASS: RMS Templates acquired. Templates available: Contoso - Confidential View Only, Contoso - Confidential, Do Not Forward.
-Verifying encryption ...
-- PASS: Encryption verified successfully.
-Verifying decryption ...
-- PASS: Decryption verified successfully.
-Verifying IRM is enabled ...
-- PASS: IRM verified successfully.
-
-OVERALL RESULT: PASS
+        Acquiring RMS Templates ...
+        - PASS: RMS Templates acquired. Templates available: Contoso - Confidential View Only, Contoso - Confidential, Do Not Forward.
+        Verifying encryption ...
+        - PASS: Encryption verified successfully.
+        Verifying decryption ...
+        - PASS: Decryption verified successfully.
+        Verifying IRM is enabled ...
+        - PASS: IRM verified successfully.
+        
+        OVERALL RESULT: PASS
+        ```
      -  In this example, your organization name will replace **Contoso**.
      -  The default template names may be different from those names displayed above. For more information, see [Configuring and managing templates for Azure Information Protection](/azure/information-protection/configure-policy-templates?azure-portal=true).
 4.  Run the **Remove-PSSession** cmdlet to disconnect from the Rights Management service.
@@ -74,7 +76,6 @@ OVERALL RESULT: PASS
     Remove-PSSession $session
     ```
 
-## 
 
 ## Knowledge check
 
