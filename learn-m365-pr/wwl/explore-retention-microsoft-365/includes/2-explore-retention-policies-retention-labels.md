@@ -142,47 +142,12 @@ You can also create one or more auto-apply retention label policies, each with a
 
 Retention labels can be published to different locations, depending on what the retention label does.
 
-:::row:::
-  :::column:::
-    **If the retention label is...**
-  :::column-end:::
-  :::column:::
-    **Then the label policy can be applied to...**
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Published to admins and end users.
-  :::column-end:::
-  :::column:::
-    Exchange, SharePoint, OneDrive, Microsoft 365 Groups
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Auto-applied based on sensitive information types or trainable classifiers.
-  :::column-end:::
-  :::column:::
-    Exchange, SharePoint, OneDrive
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Auto-applied based on keywords or a query.
-  :::column-end:::
-  :::column:::
-    Exchange, SharePoint, OneDrive, Microsoft 365 Groups
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Auto-applied to cloud attachments.
-  :::column-end:::
-  :::column:::
-    SharePoint, OneDrive, Microsoft 365 Groups
-  :::column-end:::
-:::row-end:::
-
+| **If the retention label is...**                                            | **Then the label policy can be applied to...**       |
+| --------------------------------------------------------------------------- | ---------------------------------------------------- |
+| Published to admins and end users.                                          | Exchange, SharePoint, OneDrive, Microsoft 365 Groups |
+| Auto-applied based on sensitive information types or trainable classifiers. | Exchange, SharePoint, OneDrive                       |
+| Auto-applied based on keywords or a query.                                  | Exchange, SharePoint, OneDrive, Microsoft 365 Groups |
+| Auto-applied to cloud attachments.                                          | SharePoint, OneDrive, Microsoft 365 Groups           |
 
 Exchange public folders, Skype, Teams, and Yammer messages don't support retention labels. To retain and delete content from these locations, retention policies must be used.
 

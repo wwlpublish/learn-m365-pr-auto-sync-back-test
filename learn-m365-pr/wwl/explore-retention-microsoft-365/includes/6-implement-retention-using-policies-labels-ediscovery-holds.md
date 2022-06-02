@@ -5,84 +5,14 @@ Retention settings and [holds that you create with an eDiscovery case](/microsof
 
 The following table provides a summarized comparison of retention settings versus eDiscovery holds.
 
-:::row:::
-  :::column:::
-    **Consideration**
-  :::column-end:::
-  :::column:::
-    **Retention**
-  :::column-end:::
-  :::column:::
-    **eDiscovery holds**
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Business need:
-  :::column-end:::
-  :::column:::
-    Compliance
-  :::column-end:::
-  :::column:::
-    Legal
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Time scope:
-  :::column-end:::
-  :::column:::
-    Long-term
-  :::column-end:::
-  :::column:::
-    Short-term
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Focus:
-  :::column-end:::
-  :::column:::
-    Broad, content-based
-  :::column-end:::
-  :::column:::
-    Specific, user-based
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Start and end date configurable:
-  :::column-end:::
-  :::column:::
-    Yes
-  :::column-end:::
-  :::column:::
-    No
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Content deletion:
-  :::column-end:::
-  :::column:::
-    Yes (optional)
-  :::column-end:::
-  :::column:::
-    No
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Administrative overheads:
-  :::column-end:::
-  :::column:::
-    Low
-  :::column-end:::
-  :::column:::
-    High
-  :::column-end:::
-:::row-end:::
-
+| **Consideration**                | **Retention**        | **eDiscovery holds** |
+| -------------------------------- | -------------------- | -------------------- |
+| Business need:                   | Compliance           | Legal                |
+| Time scope:                      | Long-term            | Short-term           |
+| Focus:                           | Broad, content-based | Specific, user-based |
+| Start and end date configurable: | Yes                  | No                   |
+| Content deletion:                | Yes (optional)       | No                   |
+| Administrative overheads:        | Low                  | High                 |
 
 > [!IMPORTANT]
 > If content is subject to both retention settings and an eDiscovery hold, preserving content for the eDiscovery hold always takes precedence. In this way, the principles of retention expand to eDiscovery holds because they preserve data until an administrator manually releases the hold. However, despite this precedence, organizations shouldn't use eDiscovery holds for long-term data lifecycle management. If you're concerned about automatic deletion of data, you can configure retention settings to retain items forever, or use [disposition review with retention labels](/microsoft-365/compliance/disposition?azure-portal=true).
