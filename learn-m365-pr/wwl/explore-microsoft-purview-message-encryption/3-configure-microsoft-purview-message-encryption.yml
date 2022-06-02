@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-microsoft-purview-message-encryption.configure-microsoft-purview-message-encryption
+title: Configure Microsoft Purview Message Encryption
+metadata:
+  title: Configure Microsoft Purview Message Encryption
+  description: "Configure Microsoft Purview Message Encryption"
+  ms.date: 06/02/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-configure-microsoft-purview-message-encryption.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer wants to implement Microsoft Purview Message Encryption to apply the protection features in Azure Rights Management Services (Azure RMS). As part of the company's Exchange Online deployment, Holly wants to protect emails and documents through encryption and access controls. Fabrikam plans to use the default settings in Azure Information Protection related to its root key. What must Holly do to implement Microsoft Purview Message Encryption?"
+    choices:
+    - content: "Migrate to Azure Information Protection"
+      isCorrect: false
+      explanation: "Incorrect. If you use Active Directory Rights Management service (AD RMS) with Exchange Online, you must migrate to Azure Information Protection before you can use message encryption. Fabrikam will use Azure RMS and not AD RMS, because Microsoft Purview Message Encryption isn't compatible with AD RMS. Therefore, there's no need to migrate to Azure Information Protection."
+    - content: "Activate Azure RMS in Fabrikam's tenant"
+      isCorrect: true
+      explanation: "Correct. The only prerequisite for an organization to use Microsoft Purview Message Encryption is that Azure RMS must be activated in its tenant. If Azure RMS is activated, Microsoft 365 activates message encryption automatically and you don't need to do anything."
+    - content: "Generate and manage its own root key"
+      isCorrect: false
+      explanation: "Incorrect. Fabrikam plans to use the default settings in Azure Information Protection related to its root key. As such, it doesn't need to generate and manage its own root key."

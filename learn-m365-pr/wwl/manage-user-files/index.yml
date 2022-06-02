@@ -3,7 +3,7 @@ uid: learn.wwl.manage-user-files
 metadata:
   title: Manage user files
   description: "The module examines the various options that enable administrators to protect user files against data loss."
-  ms.date: 03/31/2022
+  ms.date: 06/02/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -21,7 +21,7 @@ prerequisites: |
   *   Students should have a basic understanding of computer networks and hardware concepts.
   *   Students should have a basic understanding of OS and Application concepts.
   *   Students should have experience with using Windows 10 or later.
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/user-files-manage.svg
 levels:
 - beginner
 roles:
