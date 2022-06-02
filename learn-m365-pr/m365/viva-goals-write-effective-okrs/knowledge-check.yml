@@ -19,7 +19,7 @@ quiz:
     - content: "Make more money next year"
       isCorrect: false
       explanation: "That's incorrect. This statement doesn't contain the traits of an Objective."
-    - content: "Increase new product sales from /$15,000 to /$25,000"
+    - content: "Increase new product sales from {$}15,000 to {$}25,000"
       isCorrect: false
       explanation: "That's incorrect. This statement doesn't contain the traits of an Objective."
     - content: "Empower customers to use Viva Goals in order to easily and effectively manage their OKRs"
