@@ -16,7 +16,8 @@ abstract: |
   *   Govern organizational data using Microsoft Purview Data Lifecycle Management.
   *   Minimize internal risks with Microsoft Purview Insider Risk Management.
   *   Explain the Microsoft Purview eDiscovery solutions.
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate

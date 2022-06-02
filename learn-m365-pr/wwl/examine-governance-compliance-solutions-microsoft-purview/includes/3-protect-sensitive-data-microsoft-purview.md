@@ -20,272 +20,41 @@ The following sections outline these capabilities and how to get started with ea
 
 To understand your data landscape and identify sensitive data across your hybrid environment, use the capabilities that are outlined in the following table.
 
-:::row:::
-  :::column:::
-    **Capability**
-  :::column-end:::
-  :::column:::
-    **What problems does it solve?**
-  :::column-end:::
-  :::column:::
-    **Get started documentation**
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    [Sensitive information types](/microsoft-365/compliance/sensitive-information-type-learn-about?azure-portal=true)
-  :::column-end:::
-  :::column:::
-    Identifies sensitive data by using built-in or custom regular expressions or a function. Corroborative evidence includes keywords, confidence levels, and proximity.
-  :::column-end:::
-  :::column:::
-    [Customize a built-in sensitive information type](/microsoft-365/compliance/customize-a-built-in-sensitive-information-type?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    [Trainable classifiers](/microsoft-365/compliance/classifier-learn-about?azure-portal=true)
-  :::column-end:::
-  :::column:::
-    Identifies sensitive data by using examples of the data you're interested in rather than identifying elements in the item (pattern matching). You can use built-in classifiers or train a classifier with your own content.
-  :::column-end:::
-  :::column:::
-    [Get started with trainable classifiers](/microsoft-365/compliance/classifier-get-started-with?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    [Data classification](/microsoft-365/compliance/data-classification-overview?azure-portal=true)
-  :::column-end:::
-  :::column:::
-    A graphical identification of items in your organization that have a sensitivity label, a retention label, or have been classified. You can also use this information to gain insights into the actions that your users are taking on these items.
-  :::column-end:::
-  :::column:::
-    [Get started with content explorer](/microsoft-365/compliance/data-classification-content-explorer?azure-portal=true).[Get started with activity explorer](/microsoft-365/compliance/data-classification-activity-explorer?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-
+| **Capability**                                                                                                                              | **What problems does it solve?**                                                                                                                                                                                                                   | **Get started documentation**                                                                                                                                                                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Sensitive information types](/microsoft-365/compliance/sensitive-information-type-learn-about?azure-portal=true) | Identifies sensitive data by using built-in or custom regular expressions or a function. Corroborative evidence includes keywords, confidence levels, and proximity.                                                                               | [Customize a built-in sensitive information type](/microsoft-365/compliance/customize-a-built-in-sensitive-information-type?azure-portal=true).                                                                                                                          |
+| [Trainable classifiers](/microsoft-365/compliance/classifier-learn-about?azure-portal=true)                       | Identifies sensitive data by using examples of the data you're interested in rather than identifying elements in the item (pattern matching). You can use built-in classifiers or train a classifier with your own content.                        | [Get started with trainable classifiers](/microsoft-365/compliance/classifier-get-started-with?azure-portal=true).                                                                                                                                                       |
+| [Data classification](/microsoft-365/compliance/data-classification-overview?azure-portal=true)                   | A graphical identification of items in your organization that have a sensitivity label, a retention label, or have been classified. You can also use this information to gain insights into the actions that your users are taking on these items. | [Get started with content explorer](/microsoft-365/compliance/data-classification-content-explorer?azure-portal=true).[Get started with activity explorer](/microsoft-365/compliance/data-classification-activity-explorer?azure-portal=true). |
 
 ### Protect your data
 
 To apply flexible protection actions that include encryption, access restrictions, and visual markings, use the capabilities that are outlined in the following table.
 
-:::row:::
-  :::column:::
-    **Capability**
-  :::column-end:::
-  :::column:::
-    **What problems does it solve?**
-  :::column-end:::
-  :::column:::
-    **Get started documentation**
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    [Sensitivity labels](/microsoft-365/compliance/sensitivity-labels?azure-portal=true)
-  :::column-end:::
-  :::column:::
-    A single labeling solution across apps, services, and devices to protect your data as it travels inside and outside your organization.
-
-Example scenarios:
-\- [Manage sensitivity labels for Office apps](/microsoft-365/compliance/sensitivity-labels-office-apps?azure-portal=true)
-\- [Encrypt documents and emails](/microsoft-365/compliance/encryption-sensitivity-labels?azure-portal=true)
-\- [Apply and view labels in Power BI](/power-bi/admin/service-security-apply-data-sensitivity-labels?azure-portal=true)
-
-For a comprehensive list of supported scenarios for sensitivity labels, see the **Get started** documentation.
-  :::column-end:::
-  :::column:::
-    [Get started with sensitivity labels](/microsoft-365/compliance/get-started-with-sensitivity-labels?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    [Azure Information Protection unified labeling client](/azure/information-protection/rms-client/aip-clientv2?azure-portal=true)
-  :::column-end:::
-  :::column:::
-    For Windows computers, extends labeling to File Explorer and PowerShell, with extra features for Office apps if needed.
-  :::column-end:::
-  :::column:::
-    [Azure Information Protection unified labeling client administrator guide](/azure/information-protection/rms-client/clientv2-admin-guide?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    [Double Key Encryption](/microsoft-365/compliance/double-key-encryption?azure-portal=true)
-  :::column-end:::
-  :::column:::
-    Under all circumstances, only your organization can ever decrypt protected content or for regulatory requirements, you must hold encryption keys within a geographical boundary.
-  :::column-end:::
-  :::column:::
-    [Deploy Double Key Encryption](/microsoft-365/compliance/double-key-encryption?azure-portal=true#deploy-dke?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    [Office 365 Message Encryption (OME)](/microsoft-365/compliance/ome?azure-portal=true)
-  :::column-end:::
-  :::column:::
-    Encrypts email messages and attached documents that are sent to any user on any device, so only authorized recipients can read emailed information.
-
-Example scenario: [Revoke email encrypted by Advanced Message Encryption](/microsoft-365/compliance/revoke-ome-encrypted-mail?azure-portal=true).
-  :::column-end:::
-  :::column:::
-    [Set up new Message Encryption capabilities](/microsoft-365/compliance/set-up-new-message-encryption-capabilities?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    [Service encryption with Microsoft Purview Customer Key](/microsoft-365/compliance/customer-key-overview?azure-portal=true)
-  :::column-end:::
-  :::column:::
-    Protects against viewing of data by unauthorized systems or personnel, and complements BitLocker disk encryption in Microsoft datacenters.
-  :::column-end:::
-  :::column:::
-    [Set up Customer Key for Office 365](/microsoft-365/compliance/customer-key-set-up?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    [SharePoint Information Rights Management (IRM)](/microsoft-365/compliance/set-up-irm-in-sp-admin-center?azure-portal=true#irm-enable-sharepoint-document-libraries-and-lists?azure-portal=true)
-  :::column-end:::
-  :::column:::
-    Protects SharePoint lists and libraries so that when a user checks out a document, the downloaded file is protected. As such, only authorized people can view and use the file according to policies that you specify.
-  :::column-end:::
-  :::column:::
-    [Set up Information Rights Management (IRM) in SharePoint admin center](/microsoft-365/compliance/set-up-irm-in-sp-admin-center?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    [Rights Management connector](/azure/information-protection/deploy-rms-connector?azure-portal=true)
-  :::column-end:::
-  :::column:::
-    Protection-only for existing on-premises deployments that use Exchange or SharePoint Server, or file servers that run Windows Server and File Classification Infrastructure (FCI).
-  :::column-end:::
-  :::column:::
-    [Steps to deploy the RMS connector](/azure/information-protection/deploy-rms-connector#steps-to-deploy-the-rms-connector?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    [Azure Information Protection unified labeling scanner](/azure/information-protection/deploy-aip-scanner?azure-portal=true)
-  :::column-end:::
-  :::column:::
-    Discovers, labels, and protects sensitive information that resides in data stores that are on premises.
-  :::column-end:::
-  :::column:::
-    [Configuring and installing the Azure Information Protection unified labeling scanner](/azure/information-protection/deploy-aip-scanner-configure-install?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    [Microsoft Defender for Cloud Apps](/cloud-app-security/what-is-cloud-app-security?azure-portal=true)
-  :::column-end:::
-  :::column:::
-    Discovers, labels, and protects sensitive information that resides in data stores that are in the cloud.
-  :::column-end:::
-  :::column:::
-    [Discover, classify, label, and protect regulated and sensitive data stored in the cloud](/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    [Microsoft Purview Data Map](/azure/purview/overview?azure-portal=true)
-  :::column-end:::
-  :::column:::
-    Identifies sensitive data and applies automatic labeling to content in Microsoft Purview Data Map assets. Content includes files in storage such as Azure Data Lake and Azure Files, and schematized data such as columns in Azure SQL DB, and Cosmos DB.
-  :::column-end:::
-  :::column:::
-    [Labeling in Microsoft Purview Data Map](/azure/purview/create-sensitivity-label?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    [Microsoft Purview Information Protection SDK](/information-protection/develop/overview#microsoft-information-protection-sdk?azure-portal=true)
-  :::column-end:::
-  :::column:::
-    Extends sensitivity labels to third-party apps and services.
-
-Example scenario: [Set and get a sensitivity label (C++)](/information-protection/develop/quick-file-set-get-label-cpp?azure-portal=true).
-  :::column-end:::
-  :::column:::
-    [Microsoft Purview Information Protection SDK setup and configuration](/information-protection/develop/setup-configure-mip?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-
+| **Capability**                                                                                                                                                                                                             | **What problems does it solve?**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | **Get started documentation**                                                                                                                                                                                                                                   |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Sensitivity labels](/microsoft-365/compliance/sensitivity-labels?azure-portal=true)                                                                                                             | A single labeling solution across apps, services, and devices to protect your data as it travels inside and outside your organization.<br><br>Example scenarios:<br>\- [Manage sensitivity labels for Office apps](/microsoft-365/compliance/sensitivity-labels-office-apps?azure-portal=true)<br>\- [Encrypt documents and emails](/microsoft-365/compliance/encryption-sensitivity-labels?azure-portal=true)<br>\- [Apply and view labels in Power BI](/power-bi/admin/service-security-apply-data-sensitivity-labels?azure-portal=true)<br><br>For a comprehensive list of supported scenarios for sensitivity labels, see the **Get started** documentation. | [Get started with sensitivity labels](/microsoft-365/compliance/get-started-with-sensitivity-labels?azure-portal=true).                                                                                                               |
+| [Azure Information Protection unified labeling client](/azure/information-protection/rms-client/aip-clientv2?azure-portal=true)                                                                  | For Windows computers, extends labeling to File Explorer and PowerShell, with extra features for Office apps if needed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | [Azure Information Protection unified labeling client administrator guide](/azure/information-protection/rms-client/clientv2-admin-guide?azure-portal=true).                                                                          |
+| [Double Key Encryption](/microsoft-365/compliance/double-key-encryption?azure-portal=true)                                                                                                       | Under all circumstances, only your organization can ever decrypt protected content or for regulatory requirements, you must hold encryption keys within a geographical boundary.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | [Deploy Double Key Encryption](/microsoft-365/compliance/double-key-encryption?azure-portal=true#deploy-dke?azure-portal=true).                                                                                                       |
+| [Office 365 Message Encryption (OME)](/microsoft-365/compliance/ome?azure-portal=true)                                                                                                           | Encrypts email messages and attached documents that are sent to any user on any device, so only authorized recipients can read emailed information.<br><br>Example scenario: [Revoke email encrypted by Advanced Message Encryption](/microsoft-365/compliance/revoke-ome-encrypted-mail?azure-portal=true).                                                                                                                                                                                                                                                                                                                                                                                                         | [Set up new Message Encryption capabilities](/microsoft-365/compliance/set-up-new-message-encryption-capabilities?azure-portal=true).                                                                                                 |
+| [Service encryption with Microsoft Purview Customer Key](/microsoft-365/compliance/customer-key-overview?azure-portal=true)                                                                      | Protects against viewing of data by unauthorized systems or personnel, and complements BitLocker disk encryption in Microsoft datacenters.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | [Set up Customer Key for Office 365](/microsoft-365/compliance/customer-key-set-up?azure-portal=true).                                                                                                                                |
+| [SharePoint Information Rights Management (IRM)](/microsoft-365/compliance/set-up-irm-in-sp-admin-center?azure-portal=true#irm-enable-sharepoint-document-libraries-and-lists?azure-portal=true) | Protects SharePoint lists and libraries so that when a user checks out a document, the downloaded file is protected. As such, only authorized people can view and use the file according to policies that you specify.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | [Set up Information Rights Management (IRM) in SharePoint admin center](/microsoft-365/compliance/set-up-irm-in-sp-admin-center?azure-portal=true).                                                                                   |
+| [Rights Management connector](/azure/information-protection/deploy-rms-connector?azure-portal=true)                                                                                              | Protection-only for existing on-premises deployments that use Exchange or SharePoint Server, or file servers that run Windows Server and File Classification Infrastructure (FCI).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | [Steps to deploy the RMS connector](/azure/information-protection/deploy-rms-connector#steps-to-deploy-the-rms-connector?azure-portal=true).                                                                                          |
+| [Azure Information Protection unified labeling scanner](/azure/information-protection/deploy-aip-scanner?azure-portal=true)                                                                      | Discovers, labels, and protects sensitive information that resides in data stores that are on premises.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | [Configuring and installing the Azure Information Protection unified labeling scanner](/azure/information-protection/deploy-aip-scanner-configure-install?azure-portal=true).                                                         |
+| [Microsoft Defender for Cloud Apps](/cloud-app-security/what-is-cloud-app-security?azure-portal=true)                                                                                            | Discovers, labels, and protects sensitive information that resides in data stores that are in the cloud.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | [Discover, classify, label, and protect regulated and sensitive data stored in the cloud](/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud?azure-portal=true). |
+| [Microsoft Purview Data Map](/azure/purview/overview?azure-portal=true)                                                                                                                          | Identifies sensitive data and applies automatic labeling to content in Microsoft Purview Data Map assets. Content includes files in storage such as Azure Data Lake and Azure Files, and schematized data such as columns in Azure SQL DB, and Cosmos DB.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | [Labeling in Microsoft Purview Data Map](/azure/purview/create-sensitivity-label?azure-portal=true).                                                                                                                                  |
+| [Microsoft Purview Information Protection SDK](/information-protection/develop/overview#microsoft-information-protection-sdk?azure-portal=true)                                                  | Extends sensitivity labels to third-party apps and services.<br><br>Example scenario: [Set and get a sensitivity label (C++)](/information-protection/develop/quick-file-set-get-label-cpp?azure-portal=true).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | [Microsoft Purview Information Protection SDK setup and configuration](/information-protection/develop/setup-configure-mip?azure-portal=true).                                                                                        |
 
 ### Prevent data loss
 
 To help prevent accidental oversharing of sensitive information, use the capabilities that are outlined in the following table.
 
-:::row:::
-  :::column:::
-    **Capability**
-  :::column-end:::
-  :::column:::
-    **What problems does it solve?**
-  :::column-end:::
-  :::column:::
-    **Get started documentation**
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    [Microsoft Purview Data Loss Prevention](/microsoft-365/compliance/dlp-learn-about-dlp?azure-portal=true)
-  :::column-end:::
-  :::column:::
-    Helps prevent unintentional sharing of sensitive items.
-  :::column-end:::
-  :::column:::
-    [Get started with the default DLP policy](/microsoft-365/compliance/get-started-with-the-default-dlp-policy?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    [Endpoint data loss prevention](/microsoft-365/compliance/endpoint-dlp-learn-about?azure-portal=true)
-  :::column-end:::
-  :::column:::
-    Extends DLP capabilities to items that are used and shared on Windows 10 or later computers.
-  :::column-end:::
-  :::column:::
-    [Get started with Endpoint data loss prevention](/microsoft-365/compliance/endpoint-dlp-getting-started?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    [Microsoft Compliance Extension](/microsoft-365/compliance/dlp-chrome-learn-about?azure-portal=true)
-  :::column-end:::
-  :::column:::
-    Extends DLP capabilities to the Chrome browser
-  :::column-end:::
-  :::column:::
-    [Get started with the Microsoft Compliance Extension](/microsoft-365/compliance/dlp-chrome-get-started?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    [Microsoft Purview Data Loss Prevention on-premises scanner (preview)](/microsoft-365/compliance/dlp-on-premises-scanner-learn?azure-portal=true)
-  :::column-end:::
-  :::column:::
-    Extends DLP monitoring of file activities and protective actions for those files to on-premises file shares and SharePoint folders and document libraries.
-  :::column-end:::
-  :::column:::
-    [Get started with Microsoft Purview Data Loss Prevention on-premises scanner (preview)](/microsoft-365/compliance/dlp-on-premises-scanner-get-started?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    [Protect sensitive information in Microsoft Teams chat and channel messages](/microsoft-365/compliance/dlp-microsoft-teams?azure-portal=true)
-  :::column-end:::
-  :::column:::
-    Extends some DLP functionality to Teams chat and channel messages
-  :::column-end:::
-  :::column:::
-    [Learn about the default data loss prevention policy in Microsoft Teams (preview)](/microsoft-365/compliance/dlp-teams-default-policy?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-
+| **Capability**                                                                                                                                                              | **What problems does it solve?**                                                                                                                           | **Get started documentation**                                                                                                                                                                       |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Microsoft Purview Data Loss Prevention](/microsoft-365/compliance/dlp-learn-about-dlp?azure-portal=true)                                         | Helps prevent unintentional sharing of sensitive items.                                                                                                    | [Get started with the default DLP policy](/microsoft-365/compliance/get-started-with-the-default-dlp-policy?azure-portal=true).                                           |
+| [Endpoint data loss prevention](/microsoft-365/compliance/endpoint-dlp-learn-about?azure-portal=true)                                             | Extends DLP capabilities to items that are used and shared on Windows 10 or later computers.                                                               | [Get started with Endpoint data loss prevention](/microsoft-365/compliance/endpoint-dlp-getting-started?azure-portal=true).                                               |
+| [Microsoft Compliance Extension](/microsoft-365/compliance/dlp-chrome-learn-about?azure-portal=true)                                              | Extends DLP capabilities to the Chrome browser                                                                                                             | [Get started with the Microsoft Compliance Extension](/microsoft-365/compliance/dlp-chrome-get-started?azure-portal=true).                                                |
+| [Microsoft Purview Data Loss Prevention on-premises scanner (preview)](/microsoft-365/compliance/dlp-on-premises-scanner-learn?azure-portal=true) | Extends DLP monitoring of file activities and protective actions for those files to on-premises file shares and SharePoint folders and document libraries. | [Get started with Microsoft Purview Data Loss Prevention on-premises scanner (preview)](/microsoft-365/compliance/dlp-on-premises-scanner-get-started?azure-portal=true). |
+| [Protect sensitive information in Microsoft Teams chat and channel messages](/microsoft-365/compliance/dlp-microsoft-teams?azure-portal=true)     | Extends some DLP functionality to Teams chat and channel messages                                                                                          | [Learn about the default data loss prevention policy in Microsoft Teams (preview)](/microsoft-365/compliance/dlp-teams-default-policy?azure-portal=true).                 |
 
 ### Licensing requirements
 
