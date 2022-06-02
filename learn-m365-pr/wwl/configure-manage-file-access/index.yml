@@ -3,7 +3,7 @@ uid: learn.wwl.configure-manage-file-access
 metadata:
   title: Configure and manage file access
   description: "This module describes how to control access to files and folders using permissions."
-  ms.date: 03/31/2022
+  ms.date: 06/02/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -23,7 +23,7 @@ prerequisites: |
   *   Students should have a basic understanding of computer networks and hardware concepts.
   *   Students should have a basic understanding of OS and Application concepts.
   *   Students should have experience with using Windows 10 or later.
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/configure-manage-file-access.svg
 levels:
 - beginner
 roles:
