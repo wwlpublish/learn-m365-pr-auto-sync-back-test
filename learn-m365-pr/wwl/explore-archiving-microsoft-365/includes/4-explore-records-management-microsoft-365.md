@@ -35,133 +35,22 @@ An organization should use the following table to help map its business requirem
 > [!TIP]
 > Need to comply with a specific industry regulation? Check [Regulatory requirements for data lifecycle management and records management](/microsoft-365/compliance/retention-regulatory-requirements?azure-portal=true) for regulation-specific guidance.
 
-:::row:::
-  :::column:::
-    **I want to ...**
-  :::column-end:::
-  :::column:::
-    **Documentation**
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Declare a record.
-  :::column-end:::
-  :::column:::
-    [Declare records by using retention labels](/microsoft-365/compliance/declare-records?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Update a record.
-  :::column-end:::
-  :::column:::
-    [Use record versioning to update records stored in SharePoint or OneDrive](/microsoft-365/compliance/record-versioning?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Let admins and users manually apply retain and delete actions for documents and emails:
-\- SharePoint
-\- OneDrive
-\- Outlook and Outlook on the web
-  :::column-end:::
-  :::column:::
-    [Publish retention labels and apply them in apps](/microsoft-365/compliance/create-apply-retention-labels?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Let site admins set default retain and delete actions for all content in a SharePoint library, folder, or document set.
-  :::column-end:::
-  :::column:::
-    [Publish retention labels and apply them in apps](/microsoft-365/compliance/create-apply-retention-labels?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Let users automatically apply retain and delete actions to emails by using Outlook rules.
-  :::column-end:::
-  :::column:::
-    [Publish retention labels and apply them in apps](/microsoft-365/compliance/create-apply-retention-labels?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Let admins apply retain and delete actions to a document understanding model. By doing so, these actions are automatically applied to identified documents in a SharePoint library.
-  :::column-end:::
-  :::column:::
-    [Publish retention labels and apply them in apps](/microsoft-365/compliance/create-apply-retention-labels?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Automatically apply retain and delete actions to documents and emails.
-  :::column-end:::
-  :::column:::
-    [Apply a retention label to content automatically](/microsoft-365/compliance/apply-retention-labels-automatically?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Start the retention period when an event occurs, such as:
-\- Employees leave the organization.
-\- Contracts expire.
-\- End of product lifetime.
-  :::column-end:::
-  :::column:::
-    [Start retention when an event occurs](/microsoft-365/compliance/event-driven-retention?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Restrict changes to policies to help meet regulatory requirements or safeguard against rogue administrators.
-  :::column-end:::
-  :::column:::
-    [Use Preservation Lock to restrict changes to retention policies and retention label policies](/microsoft-365/compliance/retention-preservation-lock?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Manage the lifecycle of different document types in SharePoint.
-  :::column-end:::
-  :::column:::
-    [Use retention labels to manage the lifecycle of documents stored in SharePoint](/microsoft-365/compliance/auto-apply-retention-labels-scenario?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Apply a retention label to a file when I receive an alert that content containing personal data is being stored or remains untouched for too long.
-  :::column-end:::
-  :::column:::
-    [Investigate and remediate alerts in Privacy Risk Management](/privacy/priva/risk-management-alerts?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Make sure somebody reviews and approves before content is deleted at the end of its retention period.
-  :::column-end:::
-  :::column:::
-    [Disposition reviews](/microsoft-365/compliance/disposition?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Have proof of disposition for content that is permanently deleted at the end of its retention period.
-  :::column-end:::
-  :::column:::
-    [Disposition of records](/microsoft-365/compliance/disposition?azure-portal=true#disposition-of-records?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Monitor how and where retain and delete settings are applied to items.
-  :::column-end:::
-  :::column:::
-    [Monitoring retention labels](/microsoft-365/compliance/retention?azure-portal=true#monitoring-retention-labels?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-
+| **I want to ...**                                                                                                                                                                   | **Documentation**                                                                                                                                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Declare a record.                                                                                                                                                                   | [Declare records by using retention labels](/microsoft-365/compliance/declare-records?azure-portal=true).                                                                |
+| Update a record.                                                                                                                                                                    | [Use record versioning to update records stored in SharePoint or OneDrive](/microsoft-365/compliance/record-versioning?azure-portal=true).                               |
+| Let admins and users manually apply retain and delete actions for documents and emails:<br>\- SharePoint<br>\- OneDrive<br>\- Outlook and Outlook on the web                        | [Publish retention labels and apply them in apps](/microsoft-365/compliance/create-apply-retention-labels?azure-portal=true).                                            |
+| Let site admins set default retain and delete actions for all content in a SharePoint library, folder, or document set.                                                             | [Publish retention labels and apply them in apps](/microsoft-365/compliance/create-apply-retention-labels?azure-portal=true).                                            |
+| Let users automatically apply retain and delete actions to emails by using Outlook rules.                                                                                           | [Publish retention labels and apply them in apps](/microsoft-365/compliance/create-apply-retention-labels?azure-portal=true).                                            |
+| Let admins apply retain and delete actions to a document understanding model. By doing so, these actions are automatically applied to identified documents in a SharePoint library. | [Publish retention labels and apply them in apps](/microsoft-365/compliance/create-apply-retention-labels?azure-portal=true).                                            |
+| Automatically apply retain and delete actions to documents and emails.                                                                                                              | [Apply a retention label to content automatically](/microsoft-365/compliance/apply-retention-labels-automatically?azure-portal=true).                                    |
+| Start the retention period when an event occurs, such as:<br>\- Employees leave the organization.<br>\- Contracts expire.<br>\- End of product lifetime.                            | [Start retention when an event occurs](/microsoft-365/compliance/event-driven-retention?azure-portal=true).                                                              |
+| Restrict changes to policies to help meet regulatory requirements or safeguard against rogue administrators.                                                                        | [Use Preservation Lock to restrict changes to retention policies and retention label policies](/microsoft-365/compliance/retention-preservation-lock?azure-portal=true). |
+| Manage the lifecycle of different document types in SharePoint.                                                                                                                     | [Use retention labels to manage the lifecycle of documents stored in SharePoint](/microsoft-365/compliance/auto-apply-retention-labels-scenario?azure-portal=true).      |
+| Apply a retention label to a file when I receive an alert that content containing personal data is being stored or remains untouched for too long.                                  | [Investigate and remediate alerts in Privacy Risk Management](/privacy/priva/risk-management-alerts?azure-portal=true).                                                  |
+| Make sure somebody reviews and approves before content is deleted at the end of its retention period.                                                                               | [Disposition reviews](/microsoft-365/compliance/disposition?azure-portal=true).                                                                                          |
+| Have proof of disposition for content that is permanently deleted at the end of its retention period.                                                                               | [Disposition of records](/microsoft-365/compliance/disposition?azure-portal=true#disposition-of-records?azure-portal=true).                                              |
+| Monitor how and where retain and delete settings are applied to items.                                                                                                              | [Monitoring retention labels](/microsoft-365/compliance/retention?azure-portal=true#monitoring-retention-labels?azure-portal=true).                                      |
 
 ### End-user documentation
 
