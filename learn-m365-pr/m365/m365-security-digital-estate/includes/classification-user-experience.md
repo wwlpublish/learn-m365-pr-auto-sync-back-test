@@ -1,8 +1,7 @@
 When a user creates or views a document with information protection enabled, they see four data classification options.
 
 > [!div class="centered"]
-> :::image type="content" source="../media/classification-user-experiences.png" alt-text="Diagram shows Four user classification experiences - Automatic, Recommended, Reclassification, and User set.":::
-
+> :::image type="content" source="../media/classification-user-experiences.png" alt-text="Diagram shows Four user classification experiences - Automatic, Recommended, Reclassification, and User set." border="true":::
 
 - **Automatic**
 
