@@ -5,15 +5,15 @@ Azure Active Directory single sign-on can be combined with either the Password H
 :::image type="content" source="../media/aad-sso-for-contoso-fa78179b.png" alt-text="graphic of Azure Active Directory Seamless Single Sign-On for Contoso":::
 
 
-Azure Active Directory single sign-on creates Azure AD Connect trace log files, which can contain personal data. User privacy for seamless single sign-on can be improved in two ways:
+Azure Active Directory single sign-on creates trace log files, which can contain personal data. User privacy for seamless single sign-on can be improved in two ways:
 
  -  Upon request, extract data for a person and remove data from that person from the installations.
  -  Ensure no data is kept beyond 48 hours.
 
-The second option is recommended as it's easier to implement and maintain. To ensure that no data is kept beyond 48 hours, check the contents of the %ProgramData%\\AADConnect folder and delete the trace log contents (trace-\*.log files) of this folder within 48 hours of installing or upgrading Azure AD Connect or modifying seamless single sign-on configuration.
+The second option is recommended as it's easier to implement and maintain. To ensure that no data is kept beyond 48 hours, check the contents of the %ProgramData%\\AADConnect folder and delete the trace log contents (trace-\*.log files) of this folder within 48 hours of installing or upgrading Azure AD Connect or Azure AD Connect Cloud Sync or modifying seamless single sign-on configuration.
 
 > [!IMPORTANT]
-> Do **NOT** delete the **PersistedState.xml** file in this folder. This file maintains the state of the previous installation of Azure AD Connect, and it's used when an upgrade installation is run. This file never contains any data about a person, and it should never be deleted.
+> Do **NOT** delete the **PersistedState.xml** file in this folder. This file maintains the state of the previous installation of Azure AD Connect or Azure AD Connect Cloud Sync. IT's then used when an upgrade installation is run. This file never contains any data about a person, and it should never be deleted.
 
 Trace log files can be reviewed and deleted using Windows Explorer. The following PowerShell script can also be used to complete the necessary actions:
 
