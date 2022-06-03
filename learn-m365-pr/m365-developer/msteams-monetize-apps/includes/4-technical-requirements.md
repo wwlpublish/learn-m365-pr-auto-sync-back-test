@@ -247,7 +247,7 @@ The next part of the technical requirements in creating a transactable offer for
 
 There are two steps required to link your offer to your Microsoft Teams app:
 
-1. Microsoft Teams Developer Portal
+1. Update offer setup in Partner Center
 1. Microsoft Teams app manifest
 
 > [!IMPORTANT]
