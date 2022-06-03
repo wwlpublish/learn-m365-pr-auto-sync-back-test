@@ -5,7 +5,8 @@ The workflow for identifying and resolving compliance issues with Microsoft Purv
 1. Remediate the compliance issues you've investigated.
 1. Monitor to continually evaluate and improve your compliance posture.
 
-:::image type="content" source="../media/communication-compliance-workflow.png" alt-text="Diagram displays Communication compliance workflow.":::
+> [!div class="centered"]
+> :::image type="content" source="../media/communication-compliance-workflow.png" alt-text="Diagram displays Communication compliance workflow." border="false":::
 
 ### Configure
 

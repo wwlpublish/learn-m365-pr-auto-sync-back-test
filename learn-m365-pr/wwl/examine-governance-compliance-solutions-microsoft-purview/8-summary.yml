@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.introduction
-title: Introduction
+uid: learn.wwl.examine-governance-compliance-solutions-microsoft-purview.summary
+title: Summary
 metadata:
-  title: Introduction
-  description: "Introduction"
+  title: Summary
+  description: "Summary"
   ms.date: 06/02/2022
   author: wwlpublish
   ms.author: tfrink
@@ -13,4 +13,4 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 1
 content: |
-  [!include[](includes/1-introduction.md)]
+  [!include[](includes/8-summary.md)]

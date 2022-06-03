@@ -2,7 +2,7 @@ First, you'll need to define your organization's current security architecture. 
 
 Here you'll identify an architecture that is the closest to your current organization, review and then identify the tools that you can use.
 
-:::image type="content" source="../media/plan-table-contents.png" alt-text="A diagram showing the three topics covered in this unit, architecture, tools, and capabilities.":::
+:::image type="content" source="../media/plan-table-contents.png" alt-text="Diagram showing the three topics covered in this unit: architecture, deployment tools, and the phases of onboarding." lightbox="../media/plan-table-contents.png" border="false":::
 
 ## Identify architecture
 
@@ -45,7 +45,9 @@ Next, you need to define deployment rings. Using deployment rings, you onboard a
 
 The recommended deployment ring structure to use with Microsoft Defender for Endpoint is as follows:
 
-:::image type="content" source="../media/4-deployment-rings.png" alt-text="A diagram that shows the Deployment rings." border="false":::
+:::image type="complex" source="../media/4-deployment-rings.png" alt-text="Diagram that shows the three deployment rings Microsoft uses for products, features, and services." border="true":::
+	The innermost deployment ring is evaluate, which is used for product discovery and includes fewer than 50 endpoints. The middle deployment ring is pilot, which is the phase tests are done in production. The pilot ring includes between 50 to 100 endpoints. The final deployment ring is full deployment, which is the broad deployment of a product, feature, or service to more than 100 endpoints.
+:::image-end:::
 
 Each ring represents a group of devices. The rings work like this:
 

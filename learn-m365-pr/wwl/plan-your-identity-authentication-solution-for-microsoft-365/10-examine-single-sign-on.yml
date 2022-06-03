@@ -4,7 +4,7 @@ title: Examine how Azure AD single sign-on simplifies user access
 metadata:
   title: Examine how Azure AD single sign-on simplifies user access
   description: "Examine how Azure AD single sign-on simplifies user access"
-  ms.date: 04/05/2022
+  ms.date: 06/02/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -13,4 +13,4 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 3
 content: |
-  [!include[](includes/11-examine-single-sign-on.md)]
+  [!include[](includes/10-examine-single-sign-on.md)]
