@@ -2,7 +2,7 @@
 uid: learn-m365.msteams-monetize-apps.4-technical-requirements
 metadata:
   title: Technical requirements
-  description: In this unit, you'll learn what the technical requirements for creating a Microsoft Teams app you can monetize.
+  description: In this unit, you'll learn the technical requirements for creating a Microsoft Teams app you can monetize.
   ms.date: 05/25/2022
   author: andrewconnell-msft
   ms.author: suzanz
@@ -31,17 +31,17 @@ quiz:
     - content: "False"
       isCorrect: false
       explanation: "This answer isn't correct because the statement is accurate."
-  - content: "In order to associate a Microsoft Teams apps with a transactable SaaS offers, which of the following statements is correct?"
+  - content: "In order to associate a Microsoft Teams app with a transactable SaaS offer, which of the following statements is correct?"
     choices:
     - content: "ISVs must upload the Microsoft Teams app package to the specified offer in Partner Center in order to sell it to customers. This will link the app to the offer and publish it to the various distribution channels."
       isCorrect: false
-      explanation: "The Microsoft Teams app package is uploaded to Partner Center as part of the validation process, but that the app must also be published to Microsoft AppSource."
-    - content: "ISVs must publish the SaaS offer in Partner Center, the Microsoft Teams app in Microsoft AppSource, and link the app to the offer with the ISVs Publisher ID and Offer ID either in the app's manifest file or in the Microsoft Teams Developer Portal."
+      explanation: "The Microsoft Teams app package is uploaded to Partner Center, but the app must also be linked in Teams Developer Portal (or app manifest) and the offer setup updated in Partner Center."
+    - content: "ISVs must publish the SaaS offer in Partner Center, link the app to the offer with the ISVs Publisher ID and Offer ID in the Microsoft Teams Developer Portal (or app manifest), and link the AppSource link in the offer setup in Partner Center."
       isCorrect: true
       explanation: "Correct!"
-    - content: "ISVs must publish the SaaS offer in Partner Center, the Microsoft Teams app in Microsoft AppSource, and link the app to the offer with the ISVs Publisher ID and Offer SKU either in the app's manifest file or in the Microsoft Teams Developer Portal."
+    - content: "ISVs must publish the SaaS offer in Partner Center and link the app to the offer with the ISVs Publisher ID and Plan SKU either in the app's manifest file or in the Microsoft Teams Developer Portal."
       isCorrect: false
-      explanation: "This isn't correct because the offer ID, not the SKU, must be linked to the Microsoft Teams app."
+      explanation: "This isn't correct because the Offer ID, not the SKU, must be linked to the Microsoft Teams app."
   - content: "What types of transactable SaaS offers are supported for selling Microsoft Teams apps?"
     choices:
     - content: "Per-user license monthly subscription"
@@ -50,17 +50,17 @@ quiz:
     - content: "Per-user license annual subscription"
       isCorrect: false
       explanation: "While this type of license is supported, so are all the other ones."
-    - content: "Flat-rate license purchased annually"
+    - content: "Flat-rate license purchased annually via AppSource"
       isCorrect: false
       explanation: "While this type of license is supported, so are all the other ones."
     - content: "All the above"
       isCorrect: true
       explanation: "Correct!"
-  - content: "Partners must create multiple offers for different SKUs they support for their transactable SaaS offer."
+  - content: "Partners must create multiple offers for different plans (SKUs) they support for their transactable SaaS offer."
     choices:
     - content: "False"
       isCorrect: true
-      explanation: "Correct!"
+      explanation: "Correct! You can only create one offer per Teams app, but that offer can contain multiple plans (SKUs)."
     - content: "True"
       isCorrect: false
-      explanation: "This answer isn't correct because a partner can create multiple SKUs for an individual offer."
+      explanation: "This answer isn't correct because a partner can create multiple plans (SKUs) for an individual offer."

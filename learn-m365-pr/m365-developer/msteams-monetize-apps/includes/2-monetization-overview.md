@@ -8,9 +8,7 @@ Most users are familiar with apps they can get from the Microsoft Teams App Stor
 
 Initially when Microsoft Teams was released, developers could publish apps to [Microsoft AppSource](https://appsource.microsoft.com/) as a *transactable* software-as-a-service (SaaS) offer where apps could be purchased on a subscription basis. These are web apps that developers, partners, and independent software vendors (ISVs) create.
 
-Microsoft AppSource is for business solutions, such as software as a service (SaaS) applications, and also apps that extend directly into Dynamics 365, Microsoft 365, and Microsoft Power Platform. AppSource consulting services are professional services offerings that help customers get started with or accelerate usage of Dynamics 365 and Power BI.
-
-Since then, Microsoft has unified this process where today monetized apps in the Teams Store are added though Partner Center. Once an app is published from Partner Center, it's added to the Teams App Store. So now, users don't have the purchase apps through App Source and then install them through the Microsoft Teams App Store; now users can purchase and install Microsoft Teams apps from the Teams App Store.
+Since then, Microsoft has unified this process where today monetized apps published through Partner Center are discoverable and transactable through additional surface areas. Once an app is published from Partner Center and its transactable SaaS offer is linked, it's added to the Teams App Store and Teams Admin Center.
 
 ![Diagram of the relationship between the Microsoft Teams App Store & Microsoft AppSource.](../media/02-teams-app-store-appsource.png)
 
@@ -25,9 +23,9 @@ The Microsoft Teams app is the starting point. When planning and building your a
 Today, Microsoft Teams supports a per-user model, meaning that it doesn't support a flat-rate price. But Microsoft AppSource does support flat-rate offers.
 
 > [!NOTE]
-> Support for site-wide or tenant license will be supported and available in the future.
+> Support for site-wide and flat-rate pricing models will be supported and available in the future.
 
-This doesn't mean that you're unable to publish a Teams app with a flat-rate offer that you want to monetize. It means your users won't be able to purchase the app from the Teams App Store. Instead, users will have to purchase and download it for installation from Microsoft AppSource instead of the Teams App Store.
+This doesn't mean that you're unable to publish a Teams app with a flat-rate offer that you want to monetize. It means your users won't be able to purchase the subscription from the Teams App Store. Instead, users will have to download and install the Teams app, and then purchase the subscription from Microsoft AppSource.
 
 ### Free vs. paid in-app experiences
 

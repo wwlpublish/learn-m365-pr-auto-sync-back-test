@@ -26,16 +26,16 @@ If your SaaS offer is built with another method, you should indicate this in “
 
 ### Mismatched Details Between Offer, App and/or Publisher
 
-Ensure your publisher and offer described in Partner Center clearly match the description and details of the app to which you're linking.
+Ensure your publisher name and offer described in Partner Center clearly match the description and details of the app to which you're linking.
 
-Ensure you've published your offer in Partner Center (that is, it’s live in the marketplace) before submitting app for validation.
+Ensure you've published your offer in Partner Center (that is, it’s live in the marketplace) before submitting your Teams app for validation.
 
 ### Insufficient Details to Set up App Environment and Test
 
 If setup of your app for testing purposes is complex or non-intuitive, please provide an end-to-end functional document, linked SaaS offer configuration steps, and instructions for license and user management as part of your “Notes for Certification”.
 
 > [!TIP]
-> Add a video recording of how your app and license management works to assist the team for testing.
+> Add a link to a video recording of how your app and license management works to assist the team for testing.
 
 ### Offers That Have Potential to Confuse Users
 
@@ -53,29 +53,29 @@ But what are some of the common scenarios for Microsoft Teams apps and transacta
 
 You'll need to submit an updated Microsoft Teams manifest with the SaaS Offer ID included. This will trigger full functional validation for monetization workflows and existing app workflows.
 
-In parallel, you can also link transactable SaaS offer with the Microsoft Teams app.
+In parallel, you can also link the transactable SaaS offer with the Microsoft Teams app.
 
 ### Scenario: Partner has an existing Teams app and NO existing transactable SaaS offer
 
 You can create a new SaaS offer and publish it to AppSource. This will trigger validation of SaaS offer.
 
-After the SaaS offer goes live, you'll need to submit an updated Microsoft Teams manifest with SaaS offer ID included. This will trigger full functional validation for monetization workflows and existing app workflows.
+After the SaaS offer goes live, you'll need to submit an updated Microsoft Teams manifest with the SaaS offer ID included. This will trigger full functional validation for monetization workflows and existing app workflows.
 
 In parallel, you can also link the transactable SaaS offer with the Microsoft Teams app.
 
 ### Scenario: Partner has NO existing Teams app and an existing transactable SaaS offer
 
-You can create a new Microsoft Teams app and publish it to Microsoft Teams App Store along with SaaS offer ID included in manifest. This will trigger full functional validation for monetization workflows and all app workflows.
+You can create a new Microsoft Teams app and publish it to Microsoft Teams App Store along with the SaaS offer ID included in the manifest. This will trigger full functional validation for monetization workflows and all app workflows.
 
-In parallel, you can also link transactable SaaS offer with Teams app.
+In parallel, you can also link the transactable SaaS offer with Teams app.
 
 ### Scenario: Partner has NO existing Teams app and NO existing transactable SaaS offer
 
 You can create a new SaaS offer and publish it to AppSource. This will trigger validation of SaaS offer monetization workflows.
 
-After the SaaS offer goes live, you can create a new Microsoft Teams app and publish it to the Microsoft Teams app store along with SaaS offer ID included in manifest.
+After the SaaS offer goes live, you can create a new Microsoft Teams app and publish it to the Microsoft Teams app store along with the SaaS offer ID included in manifest.
 
-In parallel, you can also link transactable SaaS offer with Teams app.
+In parallel, you can also link the transactable SaaS offer with Teams app.
 
 ## Support channels
 

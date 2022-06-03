@@ -20,13 +20,13 @@ quiz:
     - content: "Direct via Microsoft AppSource"
       isCorrect: false
       explanation: "While correct, the other options are also correct."
-    - content: "Direct via the Microsoft Teams App Store"
+    - content: "Direct via the Microsoft Teams App Store or Teams Admin Center"
       isCorrect: false
       explanation: "While correct, the other options are also correct."
     - content: "Through one of Microsoft's Cloud Solution Providers"
       isCorrect: false
       explanation: "While correct, the other options are also correct."
-    - content: "Through one of Microsoft's field sales"
+    - content: "Through one of Microsoft's field sales teams"
       isCorrect: false
       explanation: "While correct, the other options are also correct."
     - content: "All of these are valid options"
@@ -42,4 +42,4 @@ quiz:
       explanation: "This isn't correct because offers must be published through Partner Center that makes the offer available from Microsoft Teams App Store."
     - content: "By publishing it to the Microsoft AppSource"
       isCorrect: false
-      explanation: "This isn't correct because offers must be published through Partner Center that makes the offer available from Microsoft AppSource."
+      explanation: "This isn't correct because offers must be published through Partner Center that makes the offer available in Microsoft AppSource"

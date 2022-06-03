@@ -1,4 +1,4 @@
-In this unit, you'll learn what the technical requirements for creating a Microsoft Teams app you can monetize.
+In this unit, you'll learn the technical requirements for creating a Microsoft Teams app you can monetize.
 
 There are five steps in order for you to monetize your Microsoft Teams app.
 
@@ -12,7 +12,7 @@ There are five steps in order for you to monetize your Microsoft Teams app.
 
 ![Step 1 of 5 - process to monetize a Teams app.](../media/04-step-01-monetize-teams-app.png)
 
-The first step of monetization is to have a free Microsoft Teams app. If you already have an app, then you can start from there, or you can create a new app.
+The first step of monetization is to have a free Microsoft Teams app. If you already have an app, then you can start from there, or you can create a new app. For additional information on how to get started building a Microsoft Teams app, see: [Microsoft Teams developer documentation: Get started](/microsoftteams/platform/get-started/get-started-overview).
 
 The rest of this unit assumes you've already created a Microsoft Teams app.
 
@@ -28,9 +28,9 @@ ISVs must complete two requirements for creating a transactable SaaS offering.
 
 ### Create & publish a landing page
 
-Microsoft AppSource requires ISVs to create and publish a landing page. This is where Microsoft will send people to when they've purchased, or transacted, the offer. For example, when a customer has checked out and entered their credit card or billing information, Microsoft AppSource will send the customer to this landing page.
+Microsoft AppSource requires ISVs to create and publish a landing page. This is where Microsoft will send people to when they've purchased, or transacted, the offer. For example, when a customer has checked out and entered their credit card or billing information, Microsoft will send the customer to this landing page.
 
-The landing page is where people are going to end up and be presented with information about how to provision their services.
+The landing page is where subscribers go post-purchase to provision and setup their subscription.
 
 For more information, see [Build the landing page for your transactable SaaS offer in the commercial marketplace](/azure/marketplace/azure-ad-transactable-saas-landing-page).
 
@@ -51,15 +51,15 @@ Let's look at how the landing page and webhook fit into the app acquisition proc
 
 ![App landing page and webhook.](../media/04-landing-page-webhook-process.png)
 
-From the user's perspective, the user completes the purchase and is redirected to the landing page (#1 in the figure above). Part of that redirection includes a token that the ISV can use to submit requests to the Microsoft commerce APIs to receive details about the purchase (#2 in the figure above).
+From the user's perspective, the user completes the purchase and is redirected to the landing page (#1 in the figure above). Part of that redirection includes a token that the ISV uses to request details about the purchase from Microsoft (#2 in the figure above).
 
 The landing page is where you can include instructions to your customer what they need to do in order to use the app. For example, maybe the tenant admin needs to consent to certain permissions for the app to connect to the SaaS offer.
 
-Once this process has completed, you as the publisher will internally provision the subscription and notify Microsoft's commerce APIs that the onboarding process has been completed so Microsoft can begin the billing process for the app (#3 in the figure above).
+Once this process has completed, you as the publisher will internally provision the subscription and notify Microsoft's commerce APIs that the onboarding process has been completed so Microsoft can begin the billing process for the app subscription (#3 in the figure above).
 
-After the app has been provisioned by the publisher and Microsoft has begun the billing the customer, the user is redirected back to the marketplace to resume the flow (#4 in the figure above) by redirecting them to the app.
+After the app has been provisioned by the publisher and Microsoft has received the request to begin billing, the user is redirected back to their place of purchase to resume the flow (#4 in the figure above) by redirecting them to the app.
 
-This means that the customer isn't either going to download the app or they'll repeat the process of signing-in via single sign-on (SSO) and complete any extra requirements for the subscription. This done either through the Microsoft Admin Center or through your webhook (#5 in the figure above).
+This means that the customer is either going to download the app or they'll repeat the process of signing-in via single sign-on (SSO) and complete any extra requirements for the subscription inside your app.
 
 ### Thoroughly validate the end-to-end experience before submitting for approval
 
@@ -67,7 +67,7 @@ While the APIs required to implement the webhook can be deceptively simple, ISVs
 
 For example, the license management component only supports the per-user license at this time. Microsoft requires ISVs have a license management component where end users are able to have licenses assigned to them.
 
-Admins can assign, remove, or reassign licenses as necessary.
+Subscribers can assign, remove, or reassign licenses as necessary.
 
 The first step in creating the webhook is to provide a landing URL for the market place to pass the token:
 
@@ -129,7 +129,7 @@ The first step is when the user purchases one or more licenses through the Micro
 
 Consider the following best practices when you create the landing page:
 
-- Microsoft Teams monetization capabilities are designed to support per-user assigned licenses; site-wide/tenant licenses will require extra work/logic implementation on behalf of the ISV and aren't recommended at this time.
+- Microsoft Teams monetization capabilities are designed to support per-user assigned licenses; site-wide and flat-rate licenses are not yet fully supported in Teams.
 - Multiple users who purchase subscriptions should be able to assign licenses and manage subscriptions for individual users within their tenant.
 - ISVs should support the ability for multiple users to assign license as part of the same tenant (multiple admins).
 - ISVs can provide the opportunity for the user to cancel their subscription via the ISV portal (and submits call to MarketplaceAPI to cancel the subscription via commerce systems).
@@ -142,16 +142,16 @@ Consider the following best practices on the landing page:
 
 - Provide introduction to subscriber on how to use the product.
 - Allow the subscriber to assign licenses.
-- Provide way to engage with support for issues (FAQ, knowledgebase, and/or email address).
+- Provide a way to engage with support for issues (FAQ, knowledgebase, and/or email address).
 
 ![Landing page best practices - step 3.](../media/04-landing-page-best-practices-03.png)
 
 Consider the following best practices when the user is assigning app licenses to their users:
 
-- Validate users don’t already have license assigned via another user.
+- Validate users don’t already have license assigned via another user (or another subscription).
 - If different license types are available, subscribers should be able to manage and assign appropriately.
 - Alert users they've been assigned a license (including how to add the app to Teams and get started) via Teams chat bot and/or email.
-- Provide link back to the license management page for subscriber to manage in the future.
+- Provide a link back to the license management page for subscriber to manage in the future within your Teams app.
 
 ## Step 3 - Create the transactable SaaS offer
 
@@ -176,15 +176,15 @@ Next, configure discoverability properties of the SaaS offer, such as the catego
 
 ![Configure SaaS offers in Partner Center - Step 2.](../media/04-partner-center-configure-offer-step-02.png)
 
-The third step of configuring your offer is where you start to bring your app to life, using iconography, and using descriptions. These are areas that are going to be searchable in the Microsoft Teams App Store and Microsoft AppSource.
+The third step of configuring your offer is where you start to bring your app to life, using iconography and descriptions. These are areas that are going to be searchable in the Teams App Store and Microsoft AppSource.
 
 Be sure to use specific keywords that will help users find your app.
 
 ![Configure SaaS offers in Partner Center - Step 3.](../media/04-partner-center-configure-offer-step-03.png)
 
-ISVs can also specify the preview audience for the SaaS offer. The **Preview Audience** page of a SaaS offer is where you can add users who can access the app as a preview once the app has been published. Only the users listed on this page, either with their Work and School or Microsoft Account email addresses, will be able to access the app as a preview.
+ISVs can specify the preview audience for the SaaS offer. The **Preview Audience** page of a SaaS offer is where you can add users who can access the app as a preview as you work to publish your application. Only the users listed on this page, either with their Work and School or Microsoft Account email addresses, will be able to transact against this offer until it's fully live.
 
-The preview audience enables you to test and validate the app without having to create an offer with a $0 price just to test the app and license management flow. Setting the price of the offer to $0 would make that price available to everyone, so this preview audience is the preferred way to test your app.
+The preview audience enables you to test and validate the app without exposing your offer to the public. For example, creating a test plan with a $0 price allows you to test the app and license management flow with only the defined audience. Setting a live, public offer with a $0 price would make that price available to everyone, so this preview audience is the preferred way to test your app.
 
 ![Configure SaaS offers in Partner Center - Step 4.](../media/04-landing-page-best-practices-04.jpg)
 
@@ -194,21 +194,21 @@ Recall the landing page is where users will be directed to by the marketplace fo
 
 ![Configure SaaS offers in Partner Center - Step 5.](../media/04-landing-page-best-practices-05.png)
 
-If your offer is available under multiple SKUs, you'll define them in the next step. Even if your app is available as a single license where it's available as an all-or-nothing, you'll configure it on this page.
+Next, you'll define the plans (or SKUs) of your offer.
 
 ISVs can elect to offer different licenses, such as a basic, professional or enterprise license. Partner Center and the offer configuration support this capability.
 
 ![Configure SaaS offers in Partner Center - Step 6.](../media/04-landing-page-best-practices-06.png)
 
-As part of the offer SKU, you can define different price points, if you offer trials, and which markets the SKU is available within:
+As part of your offer's plan, you can define different price points, if you offer trials, and which markets the plans are available within.
 
-As part of the market selection, notice some markets include an icon next to the name. Microsoft can remit tax on your behalf on these indicated markets and Microsoft will cover everything related to tax remittance for these markets and included. The costs for this processing are included as part of the transaction fee Microsoft charges.
+As part of the market selection, notice some markets include an icon next to the name. Microsoft will automatically collect and remit tax on your behalf on these indicated markets. The costs for this processing are included as part of the transaction fee Microsoft charges. Please note that you are responsible for identifying whether you need to collect and remit tax in the other markets.
 
 ![Configure SaaS offers in Partner Center - Step 7.](../media/04-landing-page-best-practices-07.png)
 
-When defining the pricing details, you configure the offer to charge one price for one user limit and a different price for another user limit. For example, you might charge one price for 1-99 licenses but offer a better pricing for 100-500 licenses.
+When defining the pricing details, you can configure the plan to charge one price for one set of license limits and a different price for another set. For example, you might charge one price for 1-99 licenses but offer a reduced price for 100-500 licenses.
 
-The offer pricing also supports billing users on a monthly or annually, all subscription money is collected at the time of purchase, and you can elect to offer a free trial for your app.
+The offer pricing also supports billing users on a monthly or annual basis, and you can elect to offer a free 30-day trial for your subscription.
 
 > [!NOTE]
 > For more information on the transaction fee Microsoft charges for SaaS offers, see [Plan a SaaS offer for the commercial marketplace: SaaS billing](/azure/marketplace/plan-saas-offer#saas-billing)
@@ -224,13 +224,10 @@ To do this, first create a flat-rate transactable SaaS offer and publish it to M
 
 Next, to promote the flat-rate offer in Microsoft AppSource, consider adding in-app messaging in the app that a subscription is needed and provides a hyperlink to the transactable SaaS offer in Microsoft AppSource.
 
-Once the Microsoft Teams marketplace supports flat-rate pricing, you can update your app manifest with your Office ID and Publisher ID and submit it for validation.
+Once the Microsoft Teams marketplace supports flat-rate pricing, you can update your app manifest with your Offer ID and Publisher ID and re-submit it for validation. Make sure to remove your in-app messaging that redirects users to your AppSource listing.
 
-For more information, see:
-
-- [Create a SaaS offer](/azure/marketplace/create-new-saas-offer)
-- [Configure SaaS offer properties](/azure/marketplace/create-new-saas-offer-properties)
-- [How to test and publish a SaaS offer to the commercial marketplace](/azure/marketplace/test-publish-saas-offer)
+> [!NOTE]
+> Please ensure any marketplace links do not appear on mobile and tablet devices to honor third-party app store policies. For more information on thisvpolicy, see [Commercial marketplace certification policies: 1140.4.8 Mobile experience](/legal/marketplace/certification-policies#114048-mobile-experience).
 
 ### Publish app offer in the marketplace
 
@@ -248,17 +245,17 @@ That's the next part of the process.
 
 The next part of the technical requirements in creating a transactable offer for Microsoft Teams apps is to link the offer to the Microsoft Teams app.
 
-There are two ways to link an offer to a Microsoft Teams app:
+There are two steps required to link your offer to your Microsoft Teams app:
 
 1. Microsoft Teams Developer Portal
 1. Microsoft Teams app manifest
 
 > [!IMPORTANT]
-> The following steps assume you've already uplaoded your Microsoft Teams app to the Microsoft Teams Developer Portal site.
+> The following steps assume you've already uploaded your Microsoft Teams app to the Microsoft Teams Developer Portal site.
 
 ### Microsoft Teams Developer Portal: link offer to apps
 
-The first option ISVs can use to link their approved transactable SaaS offer to a Microsoft Teams app is using the [Microsoft Teams Developer Portal](https://dev.teams.microsoft.com/).
+The first step is to link your approved transactable SaaS offer to a Microsoft Teams app is using the [Microsoft Teams Developer Portal](https://dev.teams.microsoft.com/).
 
 Once you sign-in to the Microsoft Teams Developer Portal, locate the Microsoft Teams app and open its configuration.
 
@@ -266,9 +263,7 @@ From the **Plans and Pricing** page, connect the app to your Publisher ID and th
 
 Once you've entered these two values, you can preview the offer to ensure the correct offer details were loaded from Microsoft Partner Center.
 
-### Microsoft Teams app manifest: link offer to apps
-
-The second option ISVs can use to link their approved transactable SaaS offer to a Microsoft Teams app is by specifying the Publisher ID and Offer ID within the Microsoft Teams app's manifest.
+Alternatively, ISVs can link their approved transactable SaaS offer to a Microsoft Teams app is by specifying the Publisher ID and Offer ID within the Microsoft Teams app's manifest directly.
 
 In the Microsoft Teams manifest, you need to create a string that contains both your Publisher ID and Offer ID separated by a dot. For example, if your Publisher ID is `abcd12345` and the Offer ID is `my_offer`, you would add the following to the `subscriptionOffer` object in the app manifest:
 
@@ -291,6 +286,8 @@ In the Microsoft Teams manifest, you need to create a string that contains both 
   "permissions": [ .. ]
 }
 ```
+
+### Update offer setup in Partner Center: link offer to Teams app
 
 Once you add this to your app manifest, you need to go into Partner Center and update the offer.
 
