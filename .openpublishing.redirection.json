@@ -3389,6 +3389,46 @@
       "source_path": "learn-m365-pr/wwl/introduction-to-security-solutions-microsoft-365/8-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/introduction-to-security-solutions-microsoft-365/9-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-identity-authentication-solution-for-microsoft-365/11-examine-single-sign-on.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-identity-authentication-solution-for-microsoft-365/10-examine-single-sign-on",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-identity-authentication-solution-for-microsoft-365/12-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-identity-authentication-solution-for-microsoft-365/11-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-identity-authentication-solution-for-microsoft-365/13-summary.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-identity-authentication-solution-for-microsoft-365/12-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-identity-authentication-solution-for-microsoft-365/7-choose-authentication-method.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-identity-authentication-solution-for-microsoft-365/6-choose-authentication-method",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-identity-authentication-solution-for-microsoft-365/6-choose-directory-synchronization-tool.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-identity-authentication-solution-for-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-identity-authentication-solution-for-microsoft-365/8-explore-password-hash-synchronization.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-identity-authentication-solution-for-microsoft-365/7-explore-password-hash-synchronization",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-identity-authentication-solution-for-microsoft-365/9-explore-pass-through-authentication.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-identity-authentication-solution-for-microsoft-365/8-explore-pass-through-authentication",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-identity-authentication-solution-for-microsoft-365/10-explore-federated-authentication.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-identity-authentication-solution-for-microsoft-365/9-explore-federated-authentication",
+      "redirect_document_id": true
     }
   ]
 }
