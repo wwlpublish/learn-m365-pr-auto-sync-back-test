@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.examine-governance-compliance-solutions-microsoft-purview.minimize-internal-risks-microsoft-purview
+title: Minimize internal risks with Microsoft Purview Insider Risk Management
+metadata:
+  title: Minimize internal risks with Microsoft Purview Insider Risk Management
+  description: "Minimize internal risks with Microsoft Purview Insider Risk Management"
+  ms.date: 06/03/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/5-minimize-internal-risks-microsoft-purview.md)]

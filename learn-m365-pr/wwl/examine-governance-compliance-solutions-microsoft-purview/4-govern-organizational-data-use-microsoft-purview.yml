@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.examine-governance-compliance-solutions-microsoft-purview.govern-organizational-data-use-microsoft-purview
+title: Govern organizational data using Microsoft Purview Data Lifecycle Management
+metadata:
+  title: Govern organizational data using Microsoft Purview Data Lifecycle Management
+  description: "Govern organizational data using Microsoft Purview Data Lifecycle Management"
+  ms.date: 06/03/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/4-govern-organizational-data-use-microsoft-purview.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Fabrikam is ready to start governing its data by retaining the content that it must keep and deleting the content that it doesn't. As part of this project, it's following guidance from Microsoft Purview Data Lifecycle Management. Fabrikam has determined that it must support archive mailboxes. What should it do for mailboxes that need more than 100 GB of storage?"
+    choices:
+    - content: "Use retention labels with records management rather than data lifecycle management"
+      isCorrect: false
+      explanation: "Incorrect. This item is guidance for organizations that manage high-value items for business, legal, or regulatory record-keeping requirements."
+    - content: "Create and configure retention policies"
+      isCorrect: false
+      explanation: "Incorrect. This item should be implemented when you want to efficiently retain or delete data for Microsoft 365 services."
+    - content: "Enable auto-expanding archiving"
+      isCorrect: true
+      explanation: "Correct. When organizations must support archive mailboxes for mailboxes that need more than 100 GB of storage, they should enable auto-expanding archiving."

@@ -3,7 +3,7 @@ uid: learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365
 metadata:
   title: Plan your identity and authentication solution for Microsoft 365
   description: "Plan your identity and authentication solution for Microsoft 365"
-  ms.date: 04/05/2022
+  ms.date: 06/02/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -30,15 +30,14 @@ products:
 - m365
 - office-365
 subjects:
-- identity-access
 - cloud-security
+- identity-access
 units:
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.introduction
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.determine-your-cloud-identity-model
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.examine-modern-authentication-for-office-apps
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.evaluate-multifactor-authentication-for-your-deployment
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.plan-authentication-within-multiple-forest-deployments
-- learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.choose-directory-synchronization-tool
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.choose-authentication-method
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.explore-password-hash-synchronization
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.implement-azure-ad-connect-pass-through-authentication
