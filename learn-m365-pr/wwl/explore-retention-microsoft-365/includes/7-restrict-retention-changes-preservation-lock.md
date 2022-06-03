@@ -35,7 +35,7 @@ You must use PowerShell to implement the Preservation Lock feature in Microsoft 
 
 All policies for retention and with any configuration support Preservation Lock.
 
-1.  [Connect to Security &amp; Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell?azure-portal=true).
+1.  [Connect to Security and Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell?azure-portal=true).
 2.  Find the name of the policy that you want to lock by running **Get-RetentionCompliancePolicy**. For example:
     
     :::image type="content" source="../media/retention-policy-preservation-lock-get-retentioncompliancepolicy-9c5e1522.png" alt-text="Screenshot of a Security and Compliance Center PowerShell session that shows the results of running the Get Retention Compliance Policy command.":::

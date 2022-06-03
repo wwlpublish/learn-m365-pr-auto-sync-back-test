@@ -60,7 +60,7 @@ When you create and submit a retention policy, it can take up to seven days for 
 
 You can always check the distribution status of the retention policy by selecting it from the **Retention policies** page in the **Microsoft Purview compliance** portal. From the flyout pane, if you see **(Error)** included in the status, and if you see a message in the details for the locations that indicates it's taking longer than expected to deploy the policy or to try redeploying the policy, try running the **Set-AppRetentionCompliancePolic**y or **Set-RetentionCompliancePolicy** PowerShell command to retry the policy distribution:
 
-1.  [Connect to Security &amp; Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell?azure-portal=true).
+1.  [Connect to Security and Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell?azure-portal=true).
 2.  Run one of the following commands:
      -  For the policy locations: **Teams private channel messages**, **Yammer user messages**,and **Yammer community messages**:
         
@@ -79,7 +79,7 @@ When you auto-apply retention labels based on sensitive information, keywords or
 
 If the expected labels don't appear after seven days, check the **Status** of the auto-apply policy by selecting it from the **Label policies** page in the **Microsoft Purview compliance** portal. If you see the status of see **Off (Error)** included in the status, and if you see a message in the details for the locations that indicates it's taking longer than expected to deploy the policy (for SharePoint) or to try redeploying the policy (for OneDrive), try running the **Set-RetentionCompliancePolicy** PowerShell command to retry the policy distribution:
 
-1.  [Connect to Security &amp; Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell?azure-portal=true).
+1.  [Connect to Security and Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell?azure-portal=true).
 2.  Run the following command:
     
     ```powershell
