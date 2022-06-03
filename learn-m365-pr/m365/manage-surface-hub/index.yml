@@ -4,7 +4,7 @@ metadata:
   moduleType: standard
   title: Manage Surface Hub
   description: In this module, you'll learn how to use Teams admin center to review and manage Surface Hub devices. You'll then see how to use Microsoft Endpoint Manager to create, deploy and manage configuration policies.
-  ms.date: 05/12/2022
+  ms.date: 05/27/2022
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
