@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.explore-retention-microsoft-365.restrict-retention-changes-using-preservation-lock
+uid: learn.wwl.explore-retention-microsoft-365.restrict-retention-changes-preservation-lock
 title: Restrict retention changes by using preservation lock
 metadata:
   title: Restrict retention changes by using preservation lock
@@ -13,7 +13,7 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 7
 content: |
-  [!include[](includes/7-restrict-retention-changes-using-preservation-lock.md)]
+  [!include[](includes/7-restrict-retention-changes-preservation-lock.md)]
 quiz:
   title: "Check your knowledge"
   questions:
