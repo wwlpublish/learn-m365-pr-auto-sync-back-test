@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/05/2022
+  ms.date: 06/02/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -13,7 +13,7 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 5
 content: |
-  [!include[](includes/12-knowledge-check.md)]
+  [!include[](includes/11-knowledge-check.md)]
 quiz:
   title: "Check your knowledge"
   questions:
@@ -32,7 +32,7 @@ quiz:
     choices:
     - content: "Azure AD Connect Health"
       isCorrect: true
-      explanation: "Correct. Azure AD Connect Health provides robust health monitoring and a central location in the Azure portal to view this activity."
+      explanation: "Correct. The Azure AD Connect Health component provides robust health monitoring. It also provides a central location in the Azure portal to view this activity."
     - content: "Azure AD Federation service"
       isCorrect: false
       explanation: "Incorrect. This item isn't the second primary component of Azure AD Connect."
