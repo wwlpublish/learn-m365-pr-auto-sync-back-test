@@ -14,30 +14,30 @@ This is defined in the policy [1140.4.8 Mobile experience](/legal/marketplace/ce
 
 Let's look at some of the common reasons for validation failures.
 
-### Missed Policy Requirements
+### Missed policy requirements
 
 Review and ensure your transactable SaaS offer adheres to [Microsoft’s Commercial marketplace listing policies for SaaS offers](/legal/marketplace/certification-policies#1000-software-as-a-service-saas).
 
-### Unsupported License Models
+### Unsupported license models
 
 Microsoft Teams monetization was designed to support licenses assigned on a named, per-user basis.
 
 If your SaaS offer is built with another method, you should indicate this in “Notes for Certification” for your submission.
 
-### Mismatched Details Between Offer, App and/or Publisher
+### Mismatched details between offer, app and/or publisher
 
 Ensure your publisher name and offer described in Partner Center clearly match the description and details of the app to which you're linking.
 
 Ensure you've published your offer in Partner Center (that is, it’s live in the marketplace) before submitting your Teams app for validation.
 
-### Insufficient Details to Set up App Environment and Test
+### Insufficient details to set up app environment and test
 
 If setup of your app for testing purposes is complex or non-intuitive, please provide an end-to-end functional document, linked SaaS offer configuration steps, and instructions for license and user management as part of your “Notes for Certification”.
 
 > [!TIP]
 > Add a link to a video recording of how your app and license management works to assist the team for testing.
 
-### Offers That Have Potential to Confuse Users
+### Offers that have potential to confuse users
 
 Ensure any annual price listed is calculated for 12 months, not a reduced price per month.
 

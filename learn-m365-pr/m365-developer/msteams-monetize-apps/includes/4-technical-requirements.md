@@ -26,15 +26,15 @@ Integration with these APIs by publishers is required to allow the subscription 
 
 ISVs must complete two requirements for creating a transactable SaaS offering.
 
-### Create & publish a landing page
+### Create and publish a landing page
 
 Microsoft AppSource requires ISVs to create and publish a landing page. This is where Microsoft will send people to when they've purchased, or transacted, the offer. For example, when a customer has checked out and entered their credit card or billing information, Microsoft will send the customer to this landing page.
 
-The landing page is where subscribers go post-purchase to provision and setup their subscription.
+The landing page is where subscribers go post-purchase to provision and set up their subscription.
 
 For more information, see [Build the landing page for your transactable SaaS offer in the commercial marketplace](/azure/marketplace/azure-ad-transactable-saas-landing-page).
 
-### Create & publish a webhook to handle marketplace requests
+### Create and publish a webhook to handle marketplace requests
 
 The second requirement is to create and publish a webhook. This webhook is how Microsoft will communicate with you, the app provider, after the customer has purchased the app.
 
@@ -80,7 +80,7 @@ public async Task<HttpResponseMessage> Signup(string token) {
   // here is where publisher would need to integrate with their own license management systems to configure, provision
   await ActivateSubscription(resolve.subscription.id, resolve.subscription.planId, resolve.quantity);
 
-  return Request.CreateResponse(System.Net.HttpStatusCode.OK, "Subscription setup complete");
+  return Request.CreateResponse(System.Net.HttpStatusCode.OK, "Subscription set up complete");
 }
 ```
 
@@ -247,7 +247,7 @@ The next part of the technical requirements in creating a transactable offer for
 
 There are two steps required to link your offer to your Microsoft Teams app:
 
-1. Update offer setup in Partner Center
+1. Update offer set up in Partner Center
 1. Microsoft Teams app manifest
 
 > [!IMPORTANT]
@@ -287,7 +287,7 @@ In the Microsoft Teams manifest, you need to create a string that contains both 
 }
 ```
 
-### Update offer setup in Partner Center: link offer to Teams app
+### Update offer set up in Partner Center: link offer to Teams app
 
 Once you add this to your app manifest, you need to go into Partner Center and update the offer.
 
@@ -295,11 +295,11 @@ First, get the link to the app from either from within the Microsoft Teams clien
 
 ![Link Microsoft Teams app to SaaS offers in Partner Center - Step 1.](../media/04-partner-center-configure-offer-step-04.png)
 
-Next, in Partner Center, select the offer and select the **Offer Setup** page. Select the **Yes, I have published Teams apps. Office add-ins, or SharePoint Framework solutions that I would like to link to this SaaS Offer** option and paste in the link to the Microsoft Teams app you copied in the previous step
+Next, in Partner Center, select the offer and select the **Offer set up** page. Select the **Yes, I have published Teams apps. Office add-ins, or SharePoint Framework solutions that I would like to link to this SaaS Offer** option and paste in the link to the Microsoft Teams app you copied in the previous step
 
 ![Link Microsoft Teams app to SaaS offers in Partner Center - Step 2.](../media/04-partner-center-configure-offer-step-05.png)
 
-This is done from the **Offer Setup** page Partner Center.
+This is done from the **Offer set up** page Partner Center.
 
 For more information on linking your app to the offer, see:
 
@@ -323,7 +323,6 @@ During this phase you can also include notes for the certification process.
 This is a good place to include a link to a video or an explanation that you'd like the app reviewers to be aware of when reviewing your app. For example, maybe your app requires some sort of a certification provisioning process, or a particular section that requires extra details, or a service the test team would need to validate the service.
 
 Finally, select the **Publish** button to start the verification process.
-
 
 - [Publish your app to the Microsoft Teams store (Overview)](/microsoftteams/platform/concepts/deploy-and-publish/appsource/publish)
 - [Publish your apps to the Microsoft Teams store (Microsoft 365 Developer Blog)](https://devblogs.microsoft.com/microsoft365dev/publish-your-apps-to-the-microsoft-teams-store/)

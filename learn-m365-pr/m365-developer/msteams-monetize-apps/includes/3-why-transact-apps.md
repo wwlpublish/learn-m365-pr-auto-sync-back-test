@@ -22,8 +22,7 @@ A Cloud Solution Provider (CSP) is a company that provides businesses with cloud
 
 Microsoft's CSPs sell Microsoft 365 and Microsoft Azure licenses and can resell your Microsoft Teams apps that you've published through Partner Center without you having to package the apps in a different format.
 
-There are additional steps you will need to take to enable reselling via CSPs. Once you have published your monetized Teams app, to get started, see: [Guide to Microsoft Teams 
-App Monetization](https://aka.ms/TeamsMonetization/ISVChannelReadinessGuide).
+There are additional steps you will need to take to enable reselling via CSPs. Once you have published your monetized Teams app, to get started, see: [Guide to Microsoft Teams App Monetization](https://aka.ms/TeamsMonetization/ISVChannelReadinessGuide).
 
 ### Microsoft field
 

@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.msteams-monetize-apps.3-why-transact-apps
 metadata:
-  title: Why transact Microsoft Teams apps
+  title: Why transact Microsoft Teams apps?
   description: In this unit, you'll learn how you can get your apps into the hands of customers with the Microsoft Commercial Marketplace.
   ms.date: 05/25/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Why transact Microsoft Teams apps
+title: Why transact Microsoft Teams apps?
 durationInMinutes: 9
 content: |
   [!include[](includes/3-why-transact-apps.md)]
