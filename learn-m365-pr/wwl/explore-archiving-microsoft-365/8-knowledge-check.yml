@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-archiving-microsoft-365.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 06/06/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Admin for Tailspin Toys, Allan Deyoung disabled a user's archive mailbox. If Allan wants to reconnect the archive mailbox to the user's primary mailbox, how many days does Allan have to reconnect it from the date on which it was disabled?"
+    choices:
+    - content: "30 days"
+      isCorrect: true
+      explanation: "Correct. After you disable an archive mailbox, you can reconnect it to the user's primary mailbox within 30 days of disabling it. In this case, the original contents of the archive mailbox are restored."
+    - content: "45 days"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the correct number of days in which an archive mailbox can be reconnected after it was disabled."
+    - content: "60 days"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the correct number of days in which an archive mailbox can be reconnected after it was disabled."
+  - content: "As the Enterprise Admin for Tailspin Toys, Allan Deyoung disabled a user's archive mailbox. Three months later, Allan re-enabled the archive mailbox. What was the result of this action?"
+    choices:
+    - content: "The contents of the archive mailbox were soft-deleted and could be recovered"
+      isCorrect: false
+      explanation: "Incorrect. After 30 days of being disabled, the contents of the archive mailbox are permanently deleted and can't be recovered."
+    - content: "The original archive mailbox was able to be reconnected to the user's primary mailbox"
+      isCorrect: false
+      explanation: "Incorrect. You can reconnect a disabled archive mailbox within 30 days of being disabled."
+    - content: "A new archive mailbox was created"
+      isCorrect: true
+      explanation: "Correct. After you disable an archive mailbox, you can reconnect it to the user's primary mailbox within 30 days of disabling it. In this case, the original contents of the archive mailbox are restored. After 30 days, the contents of the original archive mailbox are permanently deleted and can't be recovered. So if you re-enable the archive more than 30 days after disabling it, a new archive mailbox is created."
+  - content: "The default archive policy that's part of the retention policy assigned to Exchange Online mailboxes moves items to the archive mailbox how many years after the date the item was delivered to the mailbox or created by the user?"
+    choices:
+    - content: "One year"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the correct number of years."
+    - content: "Two years"
+      isCorrect: true
+      explanation: "Correct. The default archive policy that's part of the retention policy assigned to Exchange Online mailboxes moves items to the archive mailbox two years after the date the item was delivered to the mailbox or created by the user."
+    - content: "Three years"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the correct number of years."
