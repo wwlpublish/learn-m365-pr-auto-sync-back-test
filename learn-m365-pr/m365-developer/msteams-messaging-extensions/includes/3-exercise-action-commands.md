@@ -3,7 +3,7 @@
 In this exercise, you'll create an action command messaging extension for a custom Microsoft Teams app. Action commands allow you to present your users with a modal popup to collect or display information, then process their interaction and send information back to Teams.
 
 > [!NOTE]
-> This exercise requires a valid Azure subscription in order to create a bot using Bot Framework. However, if you do not have an Azure subscription, you can use the legacy Bot Framework Registration Portal. Refer to the following docs for more information: [Create a bot for Microsoft Teams](/microsoftteams/platform/bots/how-to/create-a-bot-for-teams)
+> This exercise requires a valid Azure subscription in order to create a bot using Bot Framework. However, if you do not have an Azure subscription, you can use the legacy Bot Framework Registration Portal. For more information, see [Create a bot for Microsoft Teams](/microsoftteams/platform/bots/how-to/create-a-bot-for-teams).
 
 ## Prerequisites
 
@@ -18,11 +18,11 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v12.\* (or higher)
-- NPM (installed with Node.js) - v6.\* (or higher)
-- [Gulp-cli](https://gulpjs.com/) - v2.\* (or higher)
-- [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0 (or higher)
+- [Node.js](https://nodejs.org/) - v14.\*
+- npm (installed with Node.js) - v7.\*
+- [Gulp CLI](https://gulpjs.com/) - v2.3.\*
+- [Yeoman](https://yeoman.io/) - v4.3.\*
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -40,27 +40,27 @@ Open a browser and navigate to the [Azure portal](https://portal.azure.com). Sig
 
 Select **Create a resource** in the left-hand navigation:
 
-![Screenshot of the primary Azure navigation](../media/03-azure-portal-01.png)
+![Screenshot of the primary Azure navigation.](../media/03-azure-portal-01.png)
 
 Enter **resource group** in the **Search the marketplace** input box, and select **Resource group**.
 
-![Screenshot of creating a resource group - create a resource menu item](../media/03-azure-portal-02.png)
+![Screenshot of creating a resource group - create a resource menu item.](../media/03-azure-portal-02.png)
 
 On the **Resource Group** page, select the **Create** button to create a new resource group.
 
 Select a valid subscription, enter a name for the resource group, and select the wanted region. *None of these choices will impact the bot registration and are up to you.*
 
-![Screenshot of creating a resource group - search for resource group](../media/03-azure-portal-03.png)
+![Screenshot of creating a resource group - search for resource group.](../media/03-azure-portal-03.png)
 
 Complete the wizard to create the resource group. Once Azure has completed the resource group creation process, navigate to the resource group.
 
 From the resource group, select the **Add** or **Create resources** button.
 
-![Screenshot of creating a new resource - create resource group](../media/03-azure-bot-registration-01.png)
+![Screenshot of creating a new resource - create resource group.](../media/03-azure-bot-registration-01.png)
 
 Enter **bot** in the **Search the marketplace** input box, and select **Azure Bot** from the list of resources returned. Then select **Create** on the next page to start the process of registering a new bot resource:
 
-![Screenshot of searching for the Azure Bot resource](../media/03-azure-bot-registration-02.png)
+![Screenshot of searching for the Azure Bot resource.](../media/03-azure-bot-registration-02.png)
 
 In the **Create an Azure Bot** blade, enter the following values and then select **Review + create**:
 
@@ -75,21 +75,17 @@ Select **Create**.
 
 Azure will start to provision the new resource. This will take a moment or two. Once it's finished, navigate to the bot resource in the resource group.
 
-![Screenshot of the created bot channel registration resource](../media/03-azure-bot-registration-03.png)
+![Screenshot of the created bot channel registration resource.](../media/03-azure-bot-registration-03.png)
 
 ### Enable the Microsoft Teams channel for the bot
 
 In order for the bot to interact with Microsoft Teams, you must enable the Teams channel.
 
-From the bot resource in Azure, select **Channels** in the left-hand navigation.
-
-On the **Connect to channels** pane, select the Microsoft Teams channel, then select **Save** to confirm the action.
-
-![Screenshot enabling the Microsoft Teams channel](../media/03-azure-bot-registration-04.png)
+From the bot resource in Azure, select **Channels** in the left-hand navigation. On the **Channels** pane, select the Microsoft Teams channel. Select **Microsoft Teams Commercial** then select **Apply** to confirm the action.
 
 Once this process is complete, you should see both the **Web Chat** and **Microsoft Teams** listed in your enabled channels:
 
-![Screenshot of the enabled bot channels](../media/03-azure-bot-registration-05.png)
+![Screenshot of the enabled bot channels.](../media/03-azure-bot-registration-05.png)
 
 ### Set Messaging Endpoint and retrieve the bot app ID and password
 
@@ -105,7 +101,7 @@ Copy the ID of the bot as you'll need it later.
 
 Select **Manage** to navigate to the Azure AD app blade:
 
-![Screenshot of the bot's settings page](../media/03-azure-bot-registration-06.png)
+![Screenshot of the bot's settings page.](../media/03-azure-bot-registration-06.png)
 
 ### Create a client secret for the app
 
@@ -115,19 +111,19 @@ Select **Certificates & secrets** from the left-hand navigation panel.
 
 Select the **New client secret** button:
 
-![Screenshot of the Certificates & Secrets page in the Azure AD admin center](../media/03-azure-bot-registration-07.png)
+![Screenshot of the Certificates & Secrets page in the Azure AD admin center.](../media/03-azure-bot-registration-07.png)
 
 When prompted, give the secret a description and select one of the expiration duration options provided and select **Add**. *What you enter and select doesn't matter for the exercise.*
 
 The **Certificate & Secrets** page will display the new secret. It's important you copy this value as it's only shown this one time; if you leave the page and come back, it will only show as a masked value.
 
-![Screenshot showing the new secret](../media/03-azure-bot-registration-08.png)
+![Screenshot showing the new secret.](../media/03-azure-bot-registration-08.png)
 
 Copy the value of the secret as you'll need it later.
 
 ## Create Microsoft Teams app
 
-In this section, you will create a new Node.js project.
+In this section, you'll create a new Node.js project.
 
 Open your command prompt, navigate to a directory where you want to save your work, create a new folder **learn-msteams-msgext**, and change directory into that folder.
 
@@ -655,7 +651,7 @@ private getPlanetDetailCard(selectedPlanet: any): MessagingExtensionAttachment {
 From the command line, navigate to the root folder for the project and execute the following command:
 
 ```console
-gulp ngrok-serve
+gulp ngrok-serve --debug
 ```
 
 This gulp task will run many other tasks all displayed within the command-line console. The **ngrok-serve** task builds your project and starts a local web server (http://localhost:3007). It then starts ngrok with a random subdomain that creates a secure URL to your local webserver.
@@ -663,7 +659,7 @@ This gulp task will run many other tasks all displayed within the command-line c
 > [!NOTE]
 > Microsoft Teams requires all content displayed within a tab be loaded from an HTTPS request. In development, can be done using the tool [ngrok](https://www.ngrok.com) that creates a secure rotatable URL to your local HTTP webserver. Ngrok is included as a dependency within the project so there is nothing to setup or configure.
 
-![Screenshot of gulp ngrok-serve](../media/03-test-01.png)
+![Screenshot of gulp ngrok-serve.](../media/03-test-01.png)
 
 Note the URL of the ngrok URL displayed in the console. In the previous screenshot, ngrok has created the temporary URL **ec7d937d.ngrok.io** that will map to our locally running web server. In order for the Bot Framework to route messages from Microsoft Teams to our locally running bot, you need to update the bot's messaging endpoint in the Azure portal.
 
@@ -689,35 +685,32 @@ Now let's install the app in Microsoft Teams. In the browser, navigate to **http
 
 Using the app bar navigation menu, select the **More added apps** button. Then select **More apps**.
 
-![Screenshot of More added apps dialog in Microsoft Teams](../media/03-test-02.png)
+![Screenshot of More added apps dialog in Microsoft Teams.](../media/03-test-02.png)
 
-On the Apps page, select **Manage your apps** followed by **Upload a custom app**.
+On the **Apps** page, select **Manage your apps** > **Publish an app** > **Upload a custom app**.
+
+> [!NOTE]
+> If Developer Preview is turned on for Teams, the button is labelled **Upload an app** instead of **Publish an app**.
 
 In the file dialog that appears, select the Microsoft Teams package in your project. This app package is a ZIP file that can be found in the project's **./package** folder.
 
-> [!NOTE]
-> If the **./package** folder is not present, this means you are affected by a bug in the yoteams-deploy package. To resolve the issue:
-> - Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
-> - Install the preview version of the **yoteams-deploy** package using the command `npm install yoteams-deploy@preview`
-> - Restart the server process: `gulp ngrok-serve`
-
 Once the package is uploaded, Microsoft Teams will display a summary of the app. Here you can see some "todo" items to address. *None of these "todo" items are important to this exercise, so you'll leave them as is.*
 
-![Screenshot of Microsoft Teams app](../media/03-test-03.png)
+![Screenshot of Microsoft Teams app.](../media/03-test-03.png)
 
 Select the **Add** button to install the app.
 
 After installing the app, navigate to a 1:1 chat. In the compose box in the chat, select either the **Planet Messaging** icon or the **...** icon below the chat box. If you select the **...** icon, enter **planet** in the search box and select the **Planet Messaging** extension:
 
-![Screenshot of the installed Microsoft Teams messaging extension](../media/03-test-05.png)
+![Screenshot of the installed Microsoft Teams messaging extension.](../media/03-test-05.png)
 
 When the messaging extension's task module is displayed, select a planet and then select the **Insert selected planet** button. The messaging extension's submit action handler is called which will add the updated Adaptive Card to the compose box:
 
-![Screenshot of messaging extension in the compose message box - step 1](../media/03-test-06.png)
+![Screenshot of messaging extension in the compose message box - step 1.](../media/03-test-06.png)
 
 You can also trigger the messaging extension from an existing message in the chat using the **...** menu in the upper-right corner of the message. Select **Mode actions** and then select the **Planet Expander** option.
 
-![Screenshot of messaging extension in the compose message box - step 2](../media/03-test-07.png)
+![Screenshot of messaging extension in the compose message box - step 2.](../media/03-test-07.png)
 
 ## Summary
 

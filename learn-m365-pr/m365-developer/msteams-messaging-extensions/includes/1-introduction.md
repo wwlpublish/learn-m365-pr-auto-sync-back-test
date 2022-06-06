@@ -18,6 +18,6 @@ In this module, you'll learn how to create different types of messaging extensio
 
 ## Additional resources
 
-Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [20 Task-oriented interactions in Microsoft Teams with messaging extensions](https://github.com/officedev/TrainingContent/tree/master/Teams/20%20Messaging%20Extensions).
+Refer to the following repository for extra resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [20 Task-oriented interactions in Microsoft Teams with messaging extensions](https://github.com/officedev/TrainingContent/tree/master/Teams/20%20Messaging%20Extensions).
 
 This module is also available as the screencast [Task-oriented interactions in Microsoft Teams with messaging extensions](https://youtube.com/playlist?list=PLWZJrkeLOrbZesnsH8axkPMnXdle7UqTa).

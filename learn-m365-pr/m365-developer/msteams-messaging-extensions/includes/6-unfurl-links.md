@@ -8,7 +8,7 @@ In this unit, you’ll learn how to add link unfurling to your Microsoft Teams a
 
 With link unfurling your app can register to receive an `invoke` activity when URLs with a particular domain are pasted into the compose message area. The `invoke` will contain the full URL that was pasted into the compose message area, and you can respond with a card the user can unfurl, providing additional information or actions. This works similarly to a search command, with the URL serving as the search term.
 
-![Screenshot of link unfurling](../media/07-test-01.png)
+![Screenshot of link unfurling.](../media/07-test-01.png)
 
 ## Developing link unfurling
 
