@@ -6,13 +6,13 @@ In this unit, you'll learn how to create tabs in Microsoft Teams apps.
 
 Microsoft Teams enables developers to create custom experiences for users. For the best and most extensible option for adding your service into Teams, create a Microsoft Teams app.
 
-![Screenshot of a Microsoft Teams app](../media/02-01.png)
+![Screenshot of a Microsoft Teams app.](../media/02-01.png)
 
 A Microsoft Teams app is a package of services that you host. The services can be distributed through the Microsoft Teams product or uploaded by owners. These apps can consist of custom tabs, bots, messaging extensions, or web hooks and connectors.
 
-![Screenshot of a custom bot](../media/02-02.png)
+![Screenshot of a custom bot.](../media/02-02.png)
 
-For quick one-off integration of your existing web hook, you can take advantage of the custom bot feature. You can use this ad-hoc extensibility option to set up web hooks or notifications in a specific team, with no additional coding required.
+For quick one-off integration of your existing web hook, you can take advantage of the custom bot feature. You can use this ad-hoc extensibility option to set up web hooks or notifications in a specific team, with no extra coding required.
 
 ### What is a Microsoft Teams app?
 
@@ -24,7 +24,7 @@ You declare precisely which capabilities you support, in which scopes, via your 
 
 How do you create a custom Microsoft Teams app?
 
-![Diagram of three pillars to create an app](../media/02-03.png)
+![Diagram of three pillars to create an app.](../media/02-03.png)
 
 First, you develop the components that support your Microsoft Teams app. Microsoft Teams apps are web applications that can be created by using HTML, TypeScript, or JavaScript, client-side web frameworks such as React, or any server-side framework such as .NET.
 
@@ -60,7 +60,7 @@ Developers of Microsoft Teams tabs also can communicate with the hosting Microso
 
 Teams determines where a tab can be used based on its scope. Scope is set in the app manifest and can be one of three values:
 
-![Screenshot showing different placement of apps in tab navigation or app bar](../media/02-04.png)
+![Screenshot showing different placement of apps in tab navigation or app bar.](../media/02-04.png)
 
 - **Team scope**: Tabs in channels can be used by teams to interact with your shared experience. These tabs are referred to as channel tabs and were previously known as configurable tabs. When these tabs are added to a team, a user configures the content of your tab experience when the tab is first added to a channel.
 
@@ -78,7 +78,7 @@ This section addresses the process of creating custom tabs for Microsoft Teams.
 
 Let's look at what's involved in building a Microsoft Teams tab.
 
-![Diagram of three steps to building an app](../media/02-05.png)
+![Diagram of three steps to building an app.](../media/02-05.png)
 
 Microsoft design guidelines for creating custom tabs include the following points:
 
@@ -120,21 +120,21 @@ Microsoft provides you with multiple tools to create custom Microsoft Teams apps
 
 With App Studio, you can create or integrate your own Microsoft Teams apps, whether you develop custom apps for your enterprise or SaaS applications for teams around the world by streamlining the creation of the manifest and package for your app and providing useful tools like the Card Editor and a React control library. App Studio is a Teams app that's available in the Teams store. App Studio helps developers preview the rendering of cards and visually edit the manifest file for a Teams app.
 
-![Screenshot of App Studio](../media/02-06.png)
+![Screenshot of App Studio.](../media/02-06.png)
 
 You have two options to create the project and resources necessary to implement Microsoft Teams tabs: Node.js or .NET.
 
-![Screenshot of a console and creating a custom Microsoft Teams app](../media/02-07.png)
+![Screenshot of a console and creating a custom Microsoft Teams app.](../media/02-07.png)
 
-To create a Node.js-based project, use the Microsoft Teams Yeoman Generator. After you answer multiple questions related to the project you want to create, the generator creates the scaffolding for your project. This option requires Git, Node.js, NPM, and a text editor such as Visual Studio Code.
+To create a Node.js-based project, use the Microsoft Teams Yeoman Generator. After you answer multiple questions related to the project you want to create, the generator creates the scaffolding for your project. This option requires Git, Node.js, npm, and a text editor such as Visual Studio Code.
 
-![Screenshot of Visual Studio and creating a custom Microsoft Teams app](../media/02-08.png)
+![Screenshot of Visual Studio and creating a custom Microsoft Teams app.](../media/02-08.png)
 
 To create a .NET-based project, use tooling provided in Visual Studio 2017 or later. Similar to the Node.js option, after you select the project type and answer multiple questions, Visual Studio generates the scaffolding for your project. This option requires only Git and Visual Studio.
 
 ### Get context within Teams tabs
 
-Your Microsoft Teams tab might require contextual information to display relevant content. Or it might need basic information about the user, team, or company. The tab also might need locale and theme information. Or it might need to read `entityId` or `subEntityId` to identify what's in this tab for additional context.
+Your Microsoft Teams tab might require contextual information to display relevant content. Or it might need basic information about the user, team, or company. The tab also might need locale and theme information. Or it might need to read `entityId` or `subEntityId` to identify what's in this tab for extra context.
 
 Microsoft Teams offers two ways to obtain context on the current user or from within Microsoft Teams. When Microsoft Teams loads the content page for a tab, it can include placeholder values on the URL that the web application can use to obtain context. After the web app is loaded within Microsoft Teams, it can use the Microsoft Teams JavaScript SDK.
 

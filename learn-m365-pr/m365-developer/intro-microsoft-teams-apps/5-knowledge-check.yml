@@ -3,7 +3,7 @@ uid: learn-m365.intro.microsoft.teams.apps.5-knowledge-check
 metadata:
   title: Knowledge check
   description: Check your knowledge.
-  ms.date: 12/01/2019
+  ms.date: 05/03/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -43,7 +43,7 @@ quiz:
       explanation: "You should only submit your app for publication to the public app store if you believe it's relevant for all Teams users everywhere."
     - content: "Distribute your app package for users to install directly."
       isCorrect: false
-      explanation: "Although technically possible, this would be a inefficient method of distribution for an entire organization."
+      explanation: "Although technically possible, this would be an inefficient method of distribution for an entire organization."
     - content: "Publish to the organizational app catalog."
       isCorrect: true
       explanation: "Apps in an organization app catalog can be installed by any user in that company with the correct permissions."

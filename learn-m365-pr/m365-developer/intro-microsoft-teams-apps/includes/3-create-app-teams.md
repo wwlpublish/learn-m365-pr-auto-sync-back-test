@@ -31,7 +31,7 @@ The **Microsoft Teams Toolkit** enables you to create custom Teams apps directly
 
 ## Build your web services
 
-Once you've decided how users are going to interact with your app, its time to build the web services to power it. Depending on what you're creating, Teams provides various SDKs, templates, code samples, and generators to help you get started, including:
+Once you've decided how users are going to interact with your app, it's time to build the web services to power it. Depending on what you're creating, Teams provides various SDKs, templates, code samples, and generators to help you get started, including:
 
 - Bot Framework SDK for messaging extensions and conversational bots
 - Teams JavaScript client SDK for tabs and other content pages
@@ -47,7 +47,7 @@ Remember, you'll need to host your web services in a way that makes them publicl
 
 Web services up and running, you'll need to create an app package that can be distributed and installed in Microsoft Teams. The app package contains two icons and a JSON manifest file describing the metadata for your app, the extension points your app is using, and pointers to the services powering those extension points.
 
-When creating your app package you can choose to create it manually, or use App Studio, which is an app inside Teams that helps you make Teams apps (we know, meta). App Studio will guide you through creating your app manifest, and can help you register your bot with the Bot Framework. It also contains a card designer to help you visually create cards and card actions, and send examples to yourself in Teams.
+When creating your app package you can choose to create it manually, or use App Studio, which is an app inside Teams that helps you make Teams apps. App Studio will guide you through creating your app manifest, and can help you register your bot with the Bot Framework. It also contains a card designer to help you visually create cards and card actions, and send examples to yourself in Teams.
 
 ## Distribute your app
 

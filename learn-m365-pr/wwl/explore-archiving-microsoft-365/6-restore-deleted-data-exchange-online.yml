@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-archiving-microsoft-365.restore-deleted-data-exchange-online
+title: Restore deleted data in Exchange Online
+metadata:
+  title: Restore deleted data in Exchange Online
+  description: "Restore deleted data in Exchange Online"
+  ms.date: 06/06/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-restore-deleted-data-exchange-online.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "By default, how long does Exchange Online keep deleted items?"
+    choices:
+    - content: "10 days"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the correct number of days that Exchange Online keeps deleted items."
+    - content: "14 days"
+      isCorrect: true
+      explanation: "Correct. An Exchange Online mailbox keeps deleted items for 14 days by default. However, Exchange Online administrators can change this setting to increase the period up to a maximum of 30 days. Users can recover, or purge, deleted items before the retention time for a deleted item expires."
+    - content: "21 days"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the correct number of days that Exchange Online keeps deleted items."

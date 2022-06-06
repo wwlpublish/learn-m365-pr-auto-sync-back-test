@@ -4,13 +4,13 @@ The Microsoft Teams activity feed enables users to see a list of relevant items 
 
 In this unit, you'll learn how to use Microsoft Graph to submit notifications to the Microsoft Teams activity feed.
 
-![Screenshot of an activity feed notification](../media/07-test-03.png)
+![Screenshot of an activity feed notification.](../media/07-test-03.png)
 
 ## Understanding the basics of activity feed notification
 
 Activity feed notifications in Microsoft Teams are composed of multiple bits of information, displayed together, as shown in the following image.
 
-![Screenshot breakdown of an activity feed notification](../media/06-activity-feed-notification.png)
+![Screenshot breakdown of an activity feed notification.](../media/06-activity-feed-notification.png)
 
 The notification object contains the following components, as shown in the image above:
 

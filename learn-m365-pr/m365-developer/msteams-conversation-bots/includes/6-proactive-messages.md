@@ -6,19 +6,19 @@ In this unit, you’ll learn how to send proactive messages from your bot.
 
 ## Creating proactive messages
 
-You may want your bot to start a conversation for a number of reasons, including:
+You may want your bot to start a conversation for many reasons, including:
 
 - Welcome messages for personal bot conversations
 - Poll responses
 - External event notifications
 
-A bot that sends a message to start a new conversation thread is different than sending a message in response to an existing conversation. When your bot starts a new a conversation, there's no pre-existing conversation to post the message to.
+A bot that sends a message to start a new conversation thread is different than sending a message in response to an existing conversation. When your bot starts a new conversation, there's no pre-existing conversation to post the message to.
 
 ### Consider when to use proactive messages
 
-Sending proactive messages to users can be an effective way to communicate with your users. However, from their perspective this message can appear to come to them completely unprompted. Welcome messages will be the first time they've interacted with your app.
+Sending proactive messages to users can be an effective way to communicate with your users. However, from their perspective, this message can appear to come to them completely unprompted. Welcome messages will be the first time they've interacted with your app.
 
-It is important to use this functionality sparingly. Provide them with enough information to let them understand why they're being messaged.
+It's important to use this functionality sparingly. Provide them with enough information to let them understand why they're being messaged.
 
 Proactive messages generally fall into one of two categories: welcome messages or notifications.
 

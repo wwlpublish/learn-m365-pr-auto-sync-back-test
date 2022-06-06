@@ -15,11 +15,11 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v12.\* (or higher)
-- [NPM](https://www.npmjs.com/package/npm) (installed with Node.js) - v6.\* (or higher)
-- [Gulp-cli](https://www.npmjs.com/package/gulp-cli) - v2.3.\* (or higher)
-- [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.\* (or higher)
+- [Node.js](https://nodejs.org/) - v14.\*
+- [npm](https://www.npmjs.com/package/npm) (installed with Node.js) - v7.\*
+- [Gulp-cli](https://www.npmjs.com/package/gulp-cli) - v2.3.\*
+- [Yeoman](https://yeoman.io/) - v4.3.\*
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.\*
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.*
@@ -206,7 +206,7 @@ Let's make a few changes to these environment variables.
     - **MICROSOFT_APP_ID**: this is the *Application (client) ID*
     - **MICROSOFT_APP_PASSWORD**: this is the *client secret*
 
-1. Verify the URL of the ID listed in the **TAB_APP_ID** property matches the value of the **MICROSOFT_APP_ID** property.
+1. Verify the ID listed in the **TAB_APP_ID** property matches the value of the **MICROSOFT_APP_ID** property.
 1. Verity the full **TAB_APP_URI** matches the Azure AD application ID URI you specified when exposing the API for the Azure AD application.
 
 ## Update app manifest
@@ -506,12 +506,13 @@ Now that the Azure AD app is registered with the necessary permissions, the proj
 
 Let's start by installing a few dependencies that we'll use to implement the user experience.
 
-This includes installing the React components implemented with Fluent UI released as part of the Microsoft Teams UI Kit. We will also use Lodash to simplify sorting of the data returned from our REST API.
+This includes installing the React components implemented with Fluent UI released as part of the Microsoft Teams UI Kit. We'll also use Lodash to simplify sorting of the data returned from our REST API.
 
 From the command prompt, run the following two commands from the root folder of your project (*the same folder where the **package.json** file is located*):
 
 ```console
-npm install @fluentui/react-teams@6.0.0 lodash@4.17.21 -SE
+npm install @fluentui/react-teams@6.0.0 -SE --legacy-peer-deps
+npm install lodash@4.17.21 -SE
 npm install @types/lodash@4.14.178 -DE
 ```
 
@@ -528,7 +529,7 @@ import { orderBy, sortBy } from "lodash";
 
 These add React controls from the Fluent UI library, the Microsoft Teams UI Kit library, and other utilities we'll use to implement the user experience.
 
-Next, add the following interfaces after the `imports` statements, but before the `class` declaration, to define new object types for the stand-up meeting topic submissions:
+Next, add the following interfaces after the `imports` statements, but before the `export const` statement, to define new object types for the stand-up meeting topic submissions:
 
 ```typescript
 interface IStandupPresenter {
@@ -907,7 +908,7 @@ With the meetings created, now you can install the meeting app. Repeat the follo
 
 1. When prompted to configure the tab, ignore the input and select **Save**. We didn't do anything with the configuration page for this app.
 
-Now, when you are editing the meeting, you can select the new **Stand-Up Agenda** tab to launch the app:
+Now, when you're editing the meeting, you can select the new **Stand-Up Agenda** tab to launch the app:
 
 ![Screenshot of the Stand-up Agenda - empty list.](../media/03-edit-meeting-05.png)
 

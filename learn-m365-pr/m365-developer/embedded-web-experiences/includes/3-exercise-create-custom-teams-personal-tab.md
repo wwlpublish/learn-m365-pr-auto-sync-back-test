@@ -15,11 +15,11 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v12.\* (or higher)
-- NPM (installed with Node.js) - v6.\* (or higher)
-- [Gulp-cli](https://gulpjs.com/) - v2.\* (or higher)
-- [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0 (or higher)
+- [Node.js](https://nodejs.org/) - v14.\*
+- npm (installed with Node.js) - v7.\*
+- [Gulp CLI](https://gulpjs.com/) - v2.3.\*
+- [Yeoman](https://yeoman.io/) - v4.3.\*
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.
@@ -90,17 +90,15 @@ In the app bar on the left, select the **More added apps** button. Then select *
 
 ![Screenshot of More added apps dialog box in Microsoft Teams](../media/03-yo-teams-05.png)
 
-On the **Get more done with apps!** page, select **Manage your apps** > **Upload a custom app**.
+On the **Apps** page, select **Manage your apps** > **Publish an app** > **Upload a custom app**.
+
+> [!NOTE]
+> If Developer Preview is turned on for Teams, the button is labelled **Upload an app** instead of **Publish an app**.
 
 ![Screenshot of available apps and services page in Microsoft Teams](../media/03-yo-teams-05a.png)
 
 In the file dialog box that appears, select the Microsoft Teams package in your project. This app package is a zip file in the project's **./package** folder.
 
-> [!NOTE]
-> If the **./package** folder is not present, this means you are affected by a bug in the yoteams-deploy package. To resolve the issue:
-> - Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
-> - Install the preview version of the **yoteams-deploy** package using the command `npm install yoteams-deploy@preview`
-> - Restart the server process: `gulp ngrok-serve`
 
 After the package is uploaded, select it to display a summary of the app. Here you can see some todo items to address. You'll update the todo items later in the exercise.
 

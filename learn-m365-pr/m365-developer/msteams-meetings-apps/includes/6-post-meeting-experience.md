@@ -20,7 +20,7 @@ This same experience could even be used as the post-meeting experience:
 
 In our scenario, this works because the meeting stage is used to show the current presentation status of all approved stand-up topics submitted by the meeting attendees.
 
-The conditional logic to display the same view can simply reuse the two user interfaces:
+The conditional logic to display the same view can reuse the two user interfaces:
 
 ```tsx
 let mainContentElement: JSX.Element | JSX.Element[] | null = null;

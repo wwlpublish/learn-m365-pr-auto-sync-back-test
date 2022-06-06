@@ -39,15 +39,15 @@ Your incoming webhook will submit its HTTP POST request to a unique endpoint pro
 
 Navigate to the channel where you want to add the webhook and select the *More Options* menu, or add the app to the team's installed apps.
 
-![Screenshot installing an incoming webhook](../media/05-test-03.png)
+![Screenshot installing an incoming webhook.](../media/05-test-03.png)
 
 The next configuration screen prompts you for the channel where you want to register the incoming webhook.
 
-![Screenshot selecting the channel to add the incoming webhook to](../media/05-test-04.png)
+![Screenshot selecting the channel to add the incoming webhook to.](../media/05-test-04.png)
 
 After registering the incoming webhook, a dialog will display the unique endpoint your web service will submit HTTP POST requests to:
 
-![Screenshot of the unique webhook endpoint URL](../media/05-test-06.png)
+![Screenshot of the unique webhook endpoint URL.](../media/05-test-06.png)
 
 Finally, update the web service to submit its request to this endpoint.
 
@@ -55,7 +55,7 @@ Finally, update the web service to submit its request to this endpoint.
 
 When the incoming webhook sends a message to the registered endpoint, Microsoft Teams will add it to the **Conversations** tab in the configured channel:
 
-![Screenshot of rendered message](../media/05-test-09.png)
+![Screenshot of rendered message.](../media/05-test-09.png)
 
 ## Summary
 
