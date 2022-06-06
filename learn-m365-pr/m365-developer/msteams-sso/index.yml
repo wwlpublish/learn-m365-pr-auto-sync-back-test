@@ -28,9 +28,6 @@ roles:
 products:
   - m365
   - office-teams
-subjects:
-- identity-access
-- collaboration
 units:
   - learn-m365.msteams-sso.1-introduction
   - learn-m365.msteams-sso.2-authentication-single-sign-on
