@@ -12,7 +12,7 @@ Bots in Microsoft Teams can be part of a one-to-one conversation, a group chat, 
 
 Channels contain threaded conversations between multiple people. This potentially gives your bot massive reach, but individual interactions need to be concise. Traditional multi-turn interactions probably won't work well. Instead, look to use interactive cards or task modules, or potentially move the conversation to a one-to-one conversation if you need to collect lots of information.
 
-Your bot only has access to messages where it's @mentioned directly. You can retrieve additional messages from the conversation using Microsoft Graph.
+Your bot only has access to messages where it's @mentioned directly. You can retrieve extra messages from the conversation using Microsoft Graph.
 
 Some scenarios where bots excel in a channel include:
 
@@ -138,9 +138,9 @@ Before deploying your Microsoft Teams app and custom bot to Microsoft Teams, you
 
 You can use App Studio to add a bot to the app's manifest file. App Studio can create a new app manifest file, or you can import an existing one to add a bot to it:
 
-![Screenshot of App Studio](../media/03-app-studio-01.png)
+![Screenshot of App Studio.](../media/03-app-studio-01.png)
 
-The following JSON is taken from the app's manifest for the bot you'll create in the next unit of this module. This bot defines a new command, **MentionMe**, that is displayed to users who want to interact with it. Listing all the supported commands isn't required, but it does make your bot more user-friendly.
+The following JSON is taken from the app's manifest for the bot you'll create in the next unit of this module. This bot defines a new command, **MentionMe** that is displayed to users who want to interact with it. Listing all the supported commands isn't required, but it does make your bot more user-friendly.
 
 ```json
 "bots": [

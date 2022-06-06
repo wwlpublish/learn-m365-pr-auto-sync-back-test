@@ -18,11 +18,11 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v12.\* (or higher)
-- NPM (installed with Node.js) - v6.\* (or higher)
-- [Gulp-cli](https://gulpjs.com/) - v2.\* (or higher)
-- [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0 (or higher)
+- [Node.js](https://nodejs.org/) - v14.\*
+- npm (installed with Node.js) - v7.\*
+- [Gulp CLI](https://gulpjs.com/) - v2.\*
+- [Yeoman](https://yeoman.io/) - v4.3.\*
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -65,7 +65,7 @@ After answering the generator's questions, the generator will create the scaffol
 
 Let's explore a few parts of the project created by the Yeoman Generator for Microsoft Teams in Visual Studio Code.
 
-![Screenshot of the custom Teams app project](../media/05-vs-code-create-project-01.png)
+![Screenshot of the custom Teams app project.](../media/05-vs-code-create-project-01.png)
 
 ### Client-side web app
 
@@ -91,7 +91,7 @@ This file exports a single functional component that returns the React component
 
 The default tab is implemented using [React hooks](https://reactjs.org/docs/hooks-intro.html). The `useEffect()` hook performs side effects when a component mounts or when React changes the DOM. The default tab contains two of these hooks.
 
-The job of the first hook runs after the component has rendered and first checks to see if it is running within Microsoft Teams. If it is, it calls the `getAuthToken()` method on the Microsoft Teams JavaScript SDK to obtain an ID token from Microsoft Teams.
+The job of the first hook runs after the component has rendered and first checks to see if it's running within Microsoft Teams. If it is, it calls the `getAuthToken()` method on the Microsoft Teams JavaScript SDK to obtain an ID token from Microsoft Teams.
 
 When this method is called, it triggers Microsoft Teams to obtain an ID token from Azure AD's token endpoint for the currently signed in user. Once received, the success callback decodes the token to extract the current user's name. It then sets the React component's state property `name` to the name in the ID token using the `setName()` method.
 
@@ -145,7 +145,7 @@ This gulp task will run many other tasks all displayed within the command-line c
 > [!IMPORTANT]
 > Each time ngrok starts, it generates a new dynamic subdomain for the URL. If you have to restart ngrok, you will need to repackage and and update the app in Microsoft Teams to make the installed app aware of the new URL. The optional licensed version of ngrok allows you to define and reuse the same subdomain.
 
-![Screenshot of gulp ngrok-serve](../media/05-ngrok-dynamic-url.png)
+![Screenshot of gulp ngrok-serve.](../media/05-ngrok-dynamic-url.png)
 
 Before testing the Microsoft Teams app, you need to update all locations where you entered the URL `REPLACE.ngrok.io` in both your project and the Azure AD app you registered. For example:
 
@@ -161,7 +161,7 @@ Select a team that you want to install and test your custom teams app in and the
 
 Next, select the plus icon to the right of the existing tabs to add a new tab:
 
-![Screenshot selecting a team and channel](../media/05-add-tab-01.png)
+![Screenshot selecting a team and channel.](../media/05-add-tab-01.png)
 
 The app containing our new tab isn't installed yet, so in the **Add a tab** dialog, select **Manage apps** in the lower-right corner.
 
@@ -177,17 +177,17 @@ Locate and select the Microsoft Teams app package, found in the **./package** fo
 
 Microsoft Teams will display the details of the app in a dialog. Select the **Add** button to install the app into the current team:
 
-![Screenshot installing a new tab, step 2](../media/05-add-tab-03.png)
+![Screenshot installing a new tab, step 2.](../media/05-add-tab-03.png)
 
 After installing the app, select the team's **General** channel, and then the plus icon to the right of the existing tabs in the channel. When prompted to select the tab, select the **SSO Teams Tab**:
 
-![Screenshot installing a new tab, step 3](../media/05-add-tab-04.png)
+![Screenshot installing a new tab, step 3.](../media/05-add-tab-04.png)
 
 When you select the tab to add to the channel, Microsoft Teams will present the tab's configuration screen. Enter anything into the provided input box and select **Save** to add the tab.
 
 When the tab loads, it will initiate the SSO process with Azure AD and obtain an ID token. This token contains the basic identification information about the current user. The current user's display name is included in this token and is displayed in the tab:
 
-![Screenshot installing a new tab, step 5](../media/05-add-tab-05.png)
+![Screenshot installing a new tab, step 5.](../media/05-add-tab-05.png)
 
 ## Add support to submit requests to Microsoft Graph
 
@@ -296,7 +296,7 @@ express.get("/exchangeSsoTokenForOboToken", async (req, res) => {
 
 ### Update the SSO tab to exchange the ID token for an access token
 
-With the server-side API updated, we can now update the SSO tab to exchange the ID token obtained by Microsoft Teams and it's SSO support for an access token that can be used to authenticate requests for Microsoft Graph.
+With the server-side API updated, we can now update the SSO tab to exchange the ID token obtained by Microsoft Teams and its SSO support for an access token that can be used to authenticate requests for Microsoft Graph.
 
 Locate and open the file **./src/client/ssoTab/SsoTab.tsx**.
 
@@ -378,7 +378,7 @@ Add a new permission by selecting **Add a permission**.
 
 On the **Select an API** screen, select **Microsoft Graph**, then select **Delegated permissions**. Search for and select permission **Mail.Read** and select **Add permissions**.
 
-![Screenshot adding the Mail.Read permission](../media/05-azure-ad-add-permission-01.png)
+![Screenshot adding the Mail.Read permission.](../media/05-azure-ad-add-permission-01.png)
 
 Next, select the **Grant admin consent for Contoso** followed by accepting the confirmation prompt by selecting **Yes**.
 
@@ -481,4 +481,4 @@ Go back to the browser and navigate back to the tab you added earlier in this ex
 >
 > In addition, you'll need to reinstall your app package because the Microsoft Teams app manifest contains the URL. To do this, you'll first need to increment the `version` property in the app's **./manifest/manifest.json** file. This value is dynamically set using the `version` property from the **./package.json** file. When you repeat the installation process of the app, it will update the existing installation.
 
-![Screenshot displaying the list emails the user recently received](../media/05-test-recent-emails.png)
+![Screenshot displaying the list emails the user recently received.](../media/05-test-recent-emails.png)

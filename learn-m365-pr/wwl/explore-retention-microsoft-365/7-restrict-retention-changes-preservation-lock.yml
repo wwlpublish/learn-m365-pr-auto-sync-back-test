@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-retention-microsoft-365.restrict-retention-changes-preservation-lock
+title: Restrict retention changes by using preservation lock
+metadata:
+  title: Restrict retention changes by using preservation lock
+  description: "Restrict retention changes by using preservation lock"
+  ms.date: 06/06/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/7-restrict-retention-changes-preservation-lock.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Because Contoso is a financial securities broker, it must comply with the Securities and Exchange Commission rule 17a-4. This rule outlines requirements for data retention, indexing, and accessibility for companies such as Contoso that deal in the trade or brokering of financial securities. This type of retention functionality is called a preservation lock, which is a lock that can be applied to a retention policy. Which of the following restrictions is associated with a retention policy that has a preservation lock applied to it?"
+    choices:
+    - content: "The content that’s subject to the locked retention policy can only be modified or deleted during the retention period"
+      isCorrect: false
+      explanation: "Incorrect. With preservation lock, the content that’s subject to the retention policy can't be modified or deleted during the retention period."
+    - content: "Only a Global administrator can make a locked retention policy less restrictive"
+      isCorrect: false
+      explanation: "Incorrect. With preservation lock, you can lock the policy so that no one, including the global administrator, can make it less restrictive."
+    - content: "The preservation lock can never be removed from a retention policy once it's been applied"
+      isCorrect: true
+      explanation: "Correct. Preservation Lock locks a retention policy or retention label policy so that no one—not even an administrator—can turn off the policy, delete the policy, or make it less restrictive."

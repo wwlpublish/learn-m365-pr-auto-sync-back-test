@@ -105,6 +105,14 @@ switch (frameContext) {
 Add the following `case` statement to the `switch` to create our new side-panel experience when appropriate:
 
 ```typescript
+case microsoftTeams.FrameContexts.meetingStage:
+  mainContentElement = getMeetingStageUX();
+  break;
+```
+
+The switch statement should now look like the following code:
+
+```typescript
 let mainContentElement: JSX.Element | JSX.Element[] | null = null;
 switch (frameContext) {
   case microsoftTeams.FrameContexts.content:
@@ -133,8 +141,8 @@ switch (frameContext) {
   case microsoftTeams.FrameContexts.content:
     if (onlineMeeting.startDateTime) {
       mainContentElement = ((new Date(onlineMeeting.startDateTime as string)).getTime() < Date.now())
-        ? getPreMeetingUX()
-        : getMeetingStageUX();
+        ? getMeetingStageUX()
+        : getPreMeetingUX();
     }
     break;
   case microsoftTeams.FrameContexts.sidePanel:

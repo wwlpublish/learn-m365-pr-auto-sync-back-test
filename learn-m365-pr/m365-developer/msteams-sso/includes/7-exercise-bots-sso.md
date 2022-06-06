@@ -21,11 +21,11 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v12.\* (or higher)
-- NPM (installed with Node.js) - v6.\* (or higher)
-- [Gulp-cli](https://gulpjs.com/) - v2.\* (or higher)
-- [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0 (or higher)
+- [Node.js](https://nodejs.org/) - v14.\*
+- npm (installed with Node.js) - v7.\*
+- [Gulp CLI](https://gulpjs.com/) - v2.\*
+- [Yeoman](https://yeoman.io/) - v4.3.\*
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -45,27 +45,27 @@ Open a browser and navigate to the [Azure portal](https://portal.azure.com). Sig
 
 Select **Create a resource** in the left-hand navigation:
 
-![Screenshot of the primary Azure navigation](../media/07-azure-portal-01.png)
+![Screenshot of the primary Azure navigation.](../media/07-azure-portal-01.png)
 
 Enter **resource group** in the **Search the marketplace** input box, and select **Resource group**.
 
-![Screenshot of creating a resource group - create a resource menu item](../media/07-azure-portal-02.png)
+![Screenshot of creating a resource group - create a resource menu item.](../media/07-azure-portal-02.png)
 
 On the **Resource Group** page, select the **Create** button to create a new resource group.
 
 Select a valid subscription, enter a name for the resource group, and select your preferred region. *None of these choices will affect the bot registration and are up to you.*
 
-![Screenshot of creating a resource group - search for the resource group option](../media/07-azure-portal-03.png)
+![Screenshot of creating a resource group - search for the resource group option.](../media/07-azure-portal-03.png)
 
 Complete the wizard to create the resource group. Once Azure has completed the resource group creation process, navigate to the resource group.
 
 From the resource group, select the **Add** or **Create resources** button.
 
-![Screenshot of creating a new resource](../media/07-azure-bot-registration-01.png)
+![Screenshot of creating a new resource.](../media/07-azure-bot-registration-01.png)
 
 Enter **bot** in the **Search the marketplace** input box, and select **Azure Bot** from the list of resources returned. Then select **Create** on the next page to start the process of registering a new bot resource:
 
-![Screenshot of searching for the bot registration resource](../media/07-azure-bot-registration-02.png)
+![Screenshot of searching for the bot registration resource.](../media/07-azure-bot-registration-02.png)
 
 In the **Create an Azure Bot** blade, enter the following values and then select **Review + create**:
 
@@ -82,7 +82,7 @@ Azure will start to provision the new resource. This will take a moment or two. 
 
 After the bot has been provisioned, select it from within the new resource group you previously created. Select **Configuration** from the left-hand navigation. Copy the Microsoft App ID of the bot as you'll need it later.
 
-![Screenshot of the bot's settings page](../media/07-azure-bot-registration-02a.png)
+![Screenshot of the bot's settings page.](../media/07-azure-bot-registration-02a.png)
 
 ## Update the Azure AD app
 
@@ -116,7 +116,7 @@ api://botid-415a87e6-993f-4181-871b-02f4a7ea173e
 
 Notice that the values of the **Scopes defined by this API** and **Authorized client applications** will now reflect this change as well:
 
-![Screenshot of updated expose API settings](../media/07-azure-ad-app-expose-api-01.png)
+![Screenshot of updated expose API settings.](../media/07-azure-ad-app-expose-api-01.png)
 
 With the Azure AD app configuration updated, the next step is to configure the bot service connection to the app.
 
@@ -126,7 +126,7 @@ Navigate to the Azure portal and select the bot registered above. Then select **
 
 Select the **Add OAuth Connection Settings** button on the **Configuration** screen.
 
-![Screenshot of the bot configuration page](../media/07-azure-bot-registration-05.png)
+![Screenshot of the bot configuration page.](../media/07-azure-bot-registration-05.png)
 
 Use the following values to create a new connection setting, and then select **Save**:
 
@@ -139,7 +139,7 @@ Use the following values to create a new connection setting, and then select **S
 - **Scopes**: Mail.Read openid profile User.Read
   - *This is a space-delimited list of all permissions the bot needs that have also been added to the Azure AD app you previously. The list contains a subset of the permissions listed in the Azure AD app from the exercises in this module that the bot will use.*
 
-![Screenshot of the connection setting form](../media/07-azure-bot-registration-06.png)
+![Screenshot of the connection setting form.](../media/07-azure-bot-registration-06.png)
 
 ### Enable the Microsoft Teams channel for the bot
 
@@ -147,13 +147,13 @@ In order for the bot to interact with Microsoft Teams, you must enable the Teams
 
 From the bot resource in Azure, select **Channels** in the left-hand navigation.
 
-On the **Connect to channels** pane, select the Microsoft Teams channel, then select **Save** to confirm the action.
+On the **Connect to channels** pane, select the Microsoft Teams channel, then select **Apply** to confirm the action.
 
-![Screenshot enabling the Microsoft Teams channel](../media/07-azure-bot-registration-07.png)
+![Screenshot enabling the Microsoft Teams channel.](../media/07-azure-bot-registration-07.png)
 
 Once this process is complete, you should see both the **Web Chat** and **Microsoft Teams** listed in your enabled channels:
 
-![Screenshot of the enabled bot channels](../media/07-azure-bot-registration-08.png)
+![Screenshot of the enabled bot channels.](../media/07-azure-bot-registration-08.png)
 
 ## Create your Microsoft Teams app project
 
@@ -755,11 +755,11 @@ This gulp task will run many other tasks all displayed within the command-line c
 > [!NOTE]
 > Microsoft Teams requires all content displayed within a tab be loaded from an HTTPS request. In development, can be done using the tool [ngrok](https://www.ngrok.com) that creates a secure rotatable URL to your local HTTP webserver. Ngrok is included as a dependency within the project so there is nothing to setup or configure.
 
-![Screenshot of gulp ngrok-serve](../media/07-test-01.png)
+![Screenshot of gulp ngrok-serve.](../media/07-test-01.png)
 
 Note the URL of the ngrok URL displayed in the console. In the previous screenshot, ngrok has created the temporary URL `5f1f02998d18.ngrok.io` that will map to our locally running web server. In order for the Bot Framework to route messages from Microsoft Teams to our locally running bot, you need to the bot's **messaging endpoint** URL in the bot's registration. This property can be found on the **Configuration** screen:
 
-![Screenshot of the bot configuration page](../media/07-azure-bot-registration-05.png)
+![Screenshot of the bot configuration page.](../media/07-azure-bot-registration-05.png)
 
 ### Install the custom app in Microsoft Teams
 
@@ -768,9 +768,13 @@ Now let's install the app in Microsoft Teams. In the browser, navigate to **http
 > [!NOTE]
 > Microsoft Teams is available for use as a web client, desktop client and a mobile client. In this module, we will use the web client but any of the clients can be used.
 
-Using the app bar navigation menu, select the **More added apps** button. Then select **Browse all apps** followed by **Upload for me or my teams**.
+Using the app bar navigation menu, select the **More added apps** button. Then select **More apps**.
+On the **Apps** page, select **Manage your apps** > **Publish an app** > **Upload a custom app**.
 
-![Screenshot of More added apps dialog in Microsoft Teams](../media/07-test-02.png)
+> [!NOTE]
+> If Developer Preview is turned on for Teams, the button is labelled **Upload an app** instead of **Publish an app**.
+
+
 
 In the file dialog that appears, select the Microsoft Teams package in your project. This app package is a ZIP file that can be found in the project's **./package** folder.
 
@@ -782,27 +786,27 @@ In the file dialog that appears, select the Microsoft Teams package in your proj
 
 Once the package is uploaded, Microsoft Teams will display a summary of the app. Here you can see some "todo" items to address. _None of these "todo" items are important to this exercise, so you'll leave them as is._
 
-![Screenshot of Microsoft Teams app](../media/07-test-03.png)
+![Screenshot of Microsoft Teams app.](../media/07-test-03.png)
 
 Select the **Add** button to install the app, adding a new personal tab to your **More added apps** dialog:
 
-![Screenshot of the installed Microsoft Teams app in the More added apps dialog](../media/07-test-04.png)
+![Screenshot of the installed Microsoft Teams app in the More added apps dialog.](../media/07-test-04.png)
 
 After a few seconds, you should see the bot post its introductory message
 
-![Screenshot of the working Microsoft Teams app](../media/07-test-05.png)
+![Screenshot of the working Microsoft Teams app.](../media/07-test-05.png)
 
-Start the sign in process by entering any message, such as **hello**. The bot will prompt you to sign in:
+Start the sign-in process by entering any message, such as **hello**. The bot will prompt you to sign in:
 
-![Screenshot of the signin prompt](../media/07-test-06.png)
+![Screenshot of the signin prompt.](../media/07-test-06.png)
 
-Select the **Continue** button to accept the sign in process. After a moment, you should see the bot display information about the currently signed in user. This information was retrieved using the SSO support in Microsoft Teams to obtain an ID token for the currently signed in user, exchanging this ID token for an access token, and using that to submit requests to Microsoft Graph:
+Select the **Continue** button to accept the sign-in process. After a moment, you should see the bot display information about the currently signed in user. This information was retrieved using the SSO support in Microsoft Teams to obtain an ID token for the currently signed in user, exchanging this ID token for an access token, and using that to submit requests to Microsoft Graph:
 
-![Screenshot of the bot displaying user details from Microsoft Graph](../media/07-test-07.png)
+![Screenshot of the bot displaying user details from Microsoft Graph.](../media/07-test-07.png)
 
 Finally, enter **logout** to start the sign-out process:
 
-![Screenshot of the bot displaying the logout process](../media/07-test-08.png)
+![Screenshot of the bot displaying the logout process.](../media/07-test-08.png)
 
 ## Summary
 

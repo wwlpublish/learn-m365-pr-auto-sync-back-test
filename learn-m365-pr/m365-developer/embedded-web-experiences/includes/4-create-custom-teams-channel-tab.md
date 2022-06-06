@@ -16,7 +16,7 @@ The content displayed within a personal tab is specific to an individual user an
 
  A channel tab has one characteristic that differs from a personal tab. Channel tabs display a configuration experience to the user when the tab is added to a channel. You can use the configuration page defined in the manifest to collect any configuration information the web app might need to customize the information shown in the tab.
 
-![Screenshot of a tab configuration page](../media/04-01.png)
+![Screenshot of a tab configuration page.](../media/04-01.png)
 
 For example, consider a channel tab that displays the contents of a SharePoint list. The configuration page can collect the SharePoint site and list from the user. It can then use that information to retrieve and display the correct list data in the tab.
 
@@ -24,7 +24,7 @@ The configuration page is another web app that you must create. With the Microso
 
 You can set the tab's `contentUrl` and `entityId` properties from this save method, based on the options specified on the configuration page.
 
-![Screenshot of a tab content page](../media/04-02.png)
+![Screenshot of a tab content page.](../media/04-02.png)
 
 Similar to a personal tab, the content displayed in a channel tab is displayed in an `<iframe>`. The URL loaded in the `<iframe>` is defined by the `contentUrl` property that's specified on the configuration page. The web app can then use the Microsoft Teams JavaScript SDK to obtain the `entityId` or `subEntityId` properties to determine the content to display. These properties can be used to implement tab-to-tab communication by using deep linking.
 
@@ -69,11 +69,11 @@ You might decide that a tab's configuration can or can't be changed after it's a
 
 Here's an example of the channel tab configuration page experience.
 
-![Screenshot of a tab configuration page to select a map provider](../media/04-03.png)
+![Screenshot of a tab configuration page to select a map provider.](../media/04-03.png)
 
 This image is the configuration page that prompts the user for the mapping site to use in the custom tab.
 
-![Screenshot of reopening a configuration page](../media/04-04.png)
+![Screenshot of reopening a configuration page.](../media/04-04.png)
 
 This image shows the tab context menu. If the channel tab doesn't have the `canUpdateConfiguration` property set to false, the **Settings** option is displayed in the menu. Selecting this menu option displays the configuration page again.
 

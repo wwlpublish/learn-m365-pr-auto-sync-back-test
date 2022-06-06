@@ -10,7 +10,7 @@ In this section, learn how SSO works and how to create a conversational bot for 
 
 Let's look at how the SSO process works at runtime in bots:
 
-![Screenshot of SSO in bots](../media/06-bots-sso-diagram.png)
+![Screenshot of SSO in bots.](../media/06-bots-sso-diagram.png)
 
 1. The bot sends a message with an OAuthCard that contains the `tokenExchangeResource` property. It tells Microsoft Teams to obtain an authentication token for the bot application. The user receives messages at all the active user endpoints.
 
@@ -25,7 +25,7 @@ Let's look at how the SSO process works at runtime in bots:
     - Provide consent, if necessary.
     - Handle step-up authentication, such as two-factor authentication.
 
-    ![Screenshot of Microsoft Teams prompting the user to consent](../media/07-test-02.png)
+    ![Screenshot of Microsoft Teams prompting the user to consent.](../media/07-test-02.png)
 
 1. Microsoft Teams requests the bot application token from the Azure AD endpoint for the current user.
 1. Azure AD sends the bot application token to the Microsoft Teams application.
@@ -40,11 +40,11 @@ All Microsoft Teams app that implement SSO must also have an associated Azure AD
 - **permissions**: this is a list of the API permissions your app needs the user to consent to, such as **User.Read** or **Mail.Read**
 - **obtain tokens with the OAuth2 implicit flow**: Microsoft Teams must be able to obtain the access tokens and ID tokens
 
-    ![Screenshot of Azure AD app registration and implicit flow settings](../media/03-azure-ad-app-registration-04.png)
+    ![Screenshot of Azure AD app registration and implicit flow settings.](../media/03-azure-ad-app-registration-04.png)
 
 - **`access_as_user` permission**: this permission exposed by the app registration is used to grant apps, such as Microsoft Teams, to act on the user's behalf:
 
-    ![Screenshot of the Expose an API - Add a scope dialog in Azure AD](../media/03-azure-ad-app-registration-08.png)
+    ![Screenshot of the Expose an API - Add a scope dialog in Azure AD.](../media/03-azure-ad-app-registration-08.png)
 
 - **preauthorize Microsoft Teams clients to act on the user's behalf**: this setting removes the requirement for users to explicitly consenting to allow Microsoft Teams to act on the user's behalf
 
@@ -60,11 +60,11 @@ Also, when exposing the API permission `access_as_user`, the **Application ID UR
 
 ## Configure the bot's OAuth connection settings
 
-For a bot to support SSO, you must update it's OAuth connection settings. This process associates the bots with the authentication provider (Azure AD), the Azure AD application associated with the bot, the application's ID URI and the permissions the bot needs to obtain an access token for.
+For a bot to support SSO, you must update its OAuth connection settings. This process associates the bots with the authentication provider (Azure AD), the Azure AD application associated with the bot, the application's ID URI and the permissions the bot needs to obtain an access token for.
 
 This is done within the bot's settings screen in the Azure Bot Framework:
 
-![Screenshot of the bot configuration page](../media/07-azure-bot-registration-05.png)
+![Screenshot of the bot configuration page.](../media/07-azure-bot-registration-05.png)
 
 ## Implement SSO in a bot for Microsoft Teams
 
@@ -88,13 +88,13 @@ There are two parts of this section that must be updated for your application:
 
 ### Code the bot to request and receive an access token
 
-The request to get access token involves submitting an HTTP POST message request using the existing message schema. Its included in the attachments of an *OAuthCard*. The schema for the [OAuthCard](/dotnet/api/microsoft.bot.schema.oauthcard) class is defined in Microsoft Bot Schema 4.0 and its similar to a sign-in card.
+The request to get access token involves submitting an HTTP POST message request using the existing message schema. It's included in the attachments of an *OAuthCard*. The schema for the [OAuthCard](/dotnet/api/microsoft.bot.schema.oauthcard) class is defined in Microsoft Bot Schema 4.0 and it's similar to a sign-in card.
 
 Microsoft Teams treats the request as a silent token acquisition if the `TokenExchangeResource` property is populated on the card. For Microsoft Teams channels, only the `ID` property, which uniquely identifies a token request, is honored.
 
 When the user sends a message to the bot for the first time, they must first consent to the application. Microsoft Teams displays this consent experience above the message box:
 
-![Screenshot of Microsoft Teams prompting the user to consent on first use](../media/07-test-02.png)
+![Screenshot of Microsoft Teams prompting the user to consent on first use.](../media/07-test-02.png)
 
 When the user selects **Continue**, the following events occur:
 
@@ -130,7 +130,7 @@ public async promptStep(stepContext: WaterfallStepContext): Promise<DialogTurnRe
 }
 ```
 
-Next, the login step will attempt to obtain an access token using the bot's authentication support. If successful, it uses the access token obtained in the OAuth process to submit a request to Microsoft Graph to display information returned from Microsoft Graph:
+Next, the sign-in step will attempt to obtain an access token using the bot's authentication support. If successful, it uses the access token obtained in the OAuth process to submit a request to Microsoft Graph to display information returned from Microsoft Graph:
 
 ```typescript
 public async displayMicrosoftGraphDataStep(stepContext: WaterfallStepContext): Promise<DialogTurnResult> {
@@ -155,14 +155,14 @@ public async displayMicrosoftGraphDataStep(stepContext: WaterfallStepContext): P
 
 When you run the bot, the first time the user interacts with the bot, they'll be prompted to consent to a sign-in experience:
 
-![Screenshot of the sign in prompt](../media/07-test-06.png)
+![Screenshot of the sign in prompt.](../media/07-test-06.png)
 
 Once they consent by selecting the **Continue** button, the bot will display information about the currently signed in user.
 
 This information was retrieved using the SSO support in Microsoft Teams to obtain an ID token for the currently signed in user, exchanging this ID token for an access token, and using that to submit requests to Microsoft Graph:
 
-![Screenshot of the bot displaying the user's information](../media/07-test-07.png)
+![Screenshot of the bot displaying the user's information.](../media/07-test-07.png)
 
 Finally, when the user submits the message **logout**, it will complete the sign-out process:
 
-![Screenshot of the bot displaying the logout process](../media/07-test-08.png)
+![Screenshot of the bot displaying the logout process.](../media/07-test-08.png)
