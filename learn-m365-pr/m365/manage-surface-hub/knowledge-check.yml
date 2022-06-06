@@ -29,10 +29,10 @@ quiz:
   - content: "When you create a reboot schedule on a Surface Hub, what are the three elements you need to complete?"
     choices:
     - content: "Timezone, date, and time"
-      isCorrect: false
+      isCorrect: true
       explanation: "That's incorrect. When you create a reboot schedule, you've already selected the device. It's important to know when the reboot should occur."
     - content: "Time, policy, and timezone"
-      isCorrect: true
+      isCorrect: false
       explanation: "That's correct. When you create a reboot schedule for a specific device, you need to identify the timezone for the device, the date when the reboot should occur, and what time the device will reboot."
     - content: "Device, timezone, and time"
       isCorrect: false
