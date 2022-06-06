@@ -40,7 +40,7 @@ By using retention labels to declare records, you can implement a single and con
 
 By default, the retention label option to mark content as a regulatory record isn't displayed in the retention label wizard. To display this option, you must first run a PowerShell command:
 
-1.  [Connect to Security &amp; Compliance Center PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+1.  [Connect to Security & Compliance Center PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 2.  Run the following command:
     
     ```powershell
@@ -88,9 +88,9 @@ A standard retention label has retention settings and actions. However, it doesn
 
 **Footnotes:**
 
-1. Editing properties for a locked record is allowed by default but can be blocked by a tenant setting in the Microsoft Purview compliance portal. Navigate to **Records management &gt; Records management settings &gt; Retention labels &gt; Allow editing of record properties**.
+1. Editing properties for a locked record is allowed by default but can be blocked by a tenant setting in the Microsoft Purview compliance portal. Navigate to **Records management > Records management settings > Retention labels > Allow editing of record properties**.
 
-2. Deleting labeled items in SharePoint and OneDrive can be blocked as a tenant setting in the **Microsoft Purview compliance** portal. Navigate to **Records management &gt; Records management settings &gt; Retention labels &gt; Deletion of items**. When you apply a retention label to a list item that has a document attachment, that document doesn't inherit the retention settings. The document can also be deleted from the list item. In comparison, if that list item was declared a record with a retention label, the document attachment would inherit the retention settings and couldn't be deleted.
+2. Deleting labeled items in SharePoint and OneDrive can be blocked as a tenant setting in the **Microsoft Purview compliance** portal. Navigate to **Records management > Records management settings > Retention labels > Deletion of items**. When you apply a retention label to a list item that has a document attachment, that document doesn't inherit the retention settings. The document can also be deleted from the list item. In comparison, if that list item was declared a record with a retention label, the document attachment would inherit the retention settings and couldn't be deleted.
 
 3. Containers include SharePoint document libraries, OneDrive accounts, and Exchange mailboxes.
 

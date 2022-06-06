@@ -32,7 +32,7 @@ While deleted items are in the Site recycle bin, you can restore them to their o
 
 You can restore items that you delete and items other people delete (as long as you have edit permissions). Complete the following steps to restore deleted items from the Site recycle bin:
 
-1.  Go to the SharePoint site where the items were deleted from. (In Microsoft Teams, from the **Files** tab at the top of your channel, select **More &gt; Open in SharePoint**.)
+1.  Go to the SharePoint site where the items were deleted from. (In Microsoft Teams, from the **Files** tab at the top of your channel, select **More > Open in SharePoint**.)
 2.  In the **Quick Launch** navigation bar on the bottom left of the screen, select **Recycle bin**.
     
     If you don't see the **Recycle bin** on the **Quick Launch** bar, follow these steps:
