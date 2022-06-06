@@ -3429,6 +3429,36 @@
       "source_path": "learn-m365-pr/wwl/plan-your-identity-authentication-solution-for-microsoft-365/10-explore-federated-authentication.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-identity-authentication-solution-for-microsoft-365/9-explore-federated-authentication",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-retention-microsoft-365/2-manage-retention-by-using-retention-policies.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-retention-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-retention-microsoft-365/3-examine-messaging-records-management-exchange.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-retention-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-retention-microsoft-365/4-apply-retention-tags-exchange.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-retention-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-retention-microsoft-365/5-policies-security-compliance-center.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-retention-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-retention-microsoft-365/6-create-retention-policy.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-retention-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-retention-microsoft-365/7-manage-retention-policy.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-retention-microsoft-365/",
+      "redirect_document_id": false
     }
   ]
 }
