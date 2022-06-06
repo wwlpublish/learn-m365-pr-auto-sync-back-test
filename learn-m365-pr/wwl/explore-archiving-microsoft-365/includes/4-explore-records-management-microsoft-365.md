@@ -1,4 +1,4 @@
-The records management solution in Microsoft 365 enables organizations to manage their high-value content for legal, business, or regulatory obligations. These organizations should use the following guidance to get started:
+The records management solution in Microsoft 365 enables organizations to manage their high-value content for legal, business, or regulatory obligations. Organizations that plan to implement the Microsoft 365 records management solution should complete the following steps to get started:
 
 1.  Understand how retention and deletion works in Microsoft 365. Then identify whether you must use retention policies to supplement retention labels that manage documents and emails at the item level. If necessary, create retention policies for baseline governance of data across Microsoft 365 workloads.
 2.  Understand the records management solution. Learn how retention labels can be used to allow or block actions when documents and emails are declared records.
