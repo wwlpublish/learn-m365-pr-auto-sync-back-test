@@ -27,10 +27,6 @@ roles:
 products:
   - m365
   - office-teams
-subjects:
-- communication
-- collaboration
-- device-management
 units:
   - learn-m365.embedded-web-experiences.1-introduction
   - learn-m365.embedded-web-experiences.2-create-custom-teams-personal-tab
