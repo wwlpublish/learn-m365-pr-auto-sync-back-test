@@ -17,10 +17,10 @@ quiz:
   questions:
   - content: "The Azure AD application registered for a Microsoft Teams SSO enabled app automatically trust that of the Microsoft Teams clients to call it?"
     choices:
-      - content: "The Microsoft Teams web client is automatically trusted by the Azure AD application because its a hosted web application maintained by Microsoft."
+      - content: "The Microsoft Teams web client is automatically trusted by the Azure AD application because it's a hosted web application maintained by Microsoft."
         isCorrect: false
         explanation: "This isn't correct - none of the Microsoft Teams clients are automatically trusted by the app."
-      - content: "The Microsoft Teams web client is automatically trusted by the Azure AD application because its a hosted web application maintained by Microsoft."
+      - content: "The Microsoft Teams web client is automatically trusted by the Azure AD application because it's a hosted web application maintained by Microsoft."
         isCorrect: false
         explanation: "This isn't correct - none of the Microsoft Teams clients are automatically trusted by the app."
       - content: "All Microsoft Teams clients, including the web client, desktop clients, and mobile clients, are automatically trusted by the Azure AD application."
