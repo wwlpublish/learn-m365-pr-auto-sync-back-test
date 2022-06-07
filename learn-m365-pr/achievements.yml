@@ -240,3 +240,18 @@ achievements:
   title: Implement Azure AD Connect
   summary: This module examines the Azure AD Connect installation requirements, the options for installing and configuring the tool, and how to monitor synchronization services using Azure AD Connect Health.
   iconUrl: /learn/achievements/azure-ad-implement.svg
+- uid: learn.wwl.explore-security-dashboard.badge
+  type: badge
+  title: Explore the Security Dashboard
+  summary: Explore the Security Dashboard
+  iconUrl: /learn/achievements/m365-security-dashboard.svg
+- uid: learn.wwl.implement-microsoft-cloud-application-security.badge
+  type: badge
+  title: Implement Microsoft Cloud Application Security
+  summary: Implement Microsoft Cloud Application Security
+  iconUrl: /learn/achievements/cloud-security-implement.svg
+- uid: learn.wwl.implement-microsoft-defender-for-identity.badge
+  type: badge
+  title: Implement Microsoft Defender for Identity
+  summary: Implement Microsoft Defender for Identity
+  iconUrl: /learn/achievements/defender-implement-identity.svg
