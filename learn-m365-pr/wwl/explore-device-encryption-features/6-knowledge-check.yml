@@ -57,7 +57,7 @@ quiz:
       explanation: "Incorrrect. BitLocker doesn't require a TPM chip. However, only a computer with a TPM can provide the additional security of prestartup system-integrity verification that would have prevented the attack on Tailspin Toys' computers. Try again."
     - content: "BitLocker doesn't allow the system to start when it's been tampered with"
       isCorrect: true
-      explanation: "Correct. BitLocker uses a Trusted Platform Module (TPM) chip to verify the integrity of the startup proces. It does so by locking the system when it is tampered with. If anyone has tampered with monitored files, the system does not start. This alerts the user to the tampering because the system fails to start as usual. In the event that system lockout occurs, BitLocker offers a simple recovery process."
+      explanation: "Correct. BitLocker uses a Trusted Platform Module (TPM) chip to verify the integrity of the startup process. It does so by locking the system when it is tampered with. If anyone has tampered with monitored files, the system does not start. This alerts the user to the tampering because the system fails to start as usual. In the event that system lockout occurs, BitLocker offers a simple recovery process."
     - content: "BitLocker requires a recovery password to enter recovery mode"
       isCorrect: false
       explanation: "Incorrect. While BitLocker does require a recovery password to enter recovery mode, this would not have prevented the attacks that Tailspin Toys experienced. BitLocker has another feature that would have prevented those attacks. Try again."
