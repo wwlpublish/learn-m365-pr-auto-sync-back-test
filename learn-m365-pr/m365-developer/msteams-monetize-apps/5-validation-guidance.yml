@@ -1,0 +1,56 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-monetize-apps.5-validation-guidance
+metadata:
+  title: Validation guidance and common monetization scenarios
+  description: In this unit, we'll cover policies and include some guidance on the app, offer verification process, and look at some common scenarios for creating a Microsoft Teams app and a transactable SaaS offer.
+  ms.date: 05/25/2022
+  author: andrewconnell-msft
+  ms.author: suzanz
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Validation guidance and common monetization scenarios
+durationInMinutes: 11
+content: |
+  [!include[](includes/5-validation-guidance.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "What does the mobile experience policy 1140.8 define?"
+    choices:
+    - content: "That your app shouldn't include direct links to subscription purchases within the mobile or tablet Microsoft Teams app."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "That your app shouldn't promote the iOS version of the Microsoft Teams app."
+      isCorrect: false
+      explanation: "This isn't correct. The policy states the app shouldn't include links to subscription purchases."
+    - content: "That your app shouldn't promote the Android version of the Microsoft Teams app."
+      isCorrect: false
+      explanation: "This isn't correct. The policy states the app shouldn't include links to subscription purchases."
+    - content: "That your app shouldn't promote the Windows version of the Microsoft Teams app."
+      isCorrect: false
+      explanation: "This isn't correct. The policy states the app shouldn't include links to subscription purchases."
+    - content: "That your app shouldn't promote the macOS version of the Microsoft Teams app."
+      isCorrect: false
+      explanation: "This isn't correct. The policy states the app shouldn't include links to subscription purchases."
+  - content: "How can ISVs communicate special instructions to the reviewers when they submit their app for approval to the marketplaces?"
+    choices:
+    - content: "Include a description or link to a video in the 'Notes for Certification' field when submitting the approval request."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Wait to see if the first review fails and if so, email the reviewers with the address provided in the feedback."
+      isCorrect: false
+      explanation: "This isn't correct; you should include notes to the reviewers in the provided field when submitting the app for approval."
+    - content: "Wait until you see the reviewer assigned to the review process appear in the publishing status pages & email that person with specific instructions."
+      isCorrect: false
+      explanation: "This isn't correct; you should include notes to the reviewers in the provided field when submitting the app for approval."
+  - content: "How are offers and Microsoft Teams app publication submissions reviewed?"
+    choices:
+    - content: "Both with automatic checks and with a manual review"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Only with automated checks using the offer created in Partner Center and the Microsoft Teams app."
+      isCorrect: false
+      explanation: "This isn't correct because both automated and manual reviews are part of the review process."
+    - content: "Only with manual reviews where the app submission triggers the assignment of a team of reviewers to check your offer and Microsoft Teams app."
+      isCorrect: false
+      explanation: "This isn't correct because both automated and manual reviews are part of the review process."
