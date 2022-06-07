@@ -38,7 +38,10 @@ Within Microsoft 365, responsibilities for security incident response are shared
 
 Our incident response strategy, which is based on the NIST 800-61 response management phases, proceeds through four phases of interconnected activity: preparation; detection and analysis; containment, eradication, and recovery; and post-incident activity.
 
-:::image type="content" source="../media/assurance-sim-phases.png" alt-text="A visual diagram of NIST phases." border="false":::
+> [!div class="centered"]
+> :::image type="complex" source="../media/assurance-sim-phases.png" alt-text="Diagram of NIST phases: preparation; detection and analysis; containment, eradication, and recovery; and finally post-incident activity before the cycle starts again." border="false":::
+>	The diagram indicates that the detection and analysis and containment, eradication, and recovery phases iterate loop until the incident is resolved.
+> :::image-end:::
 
 Each phase of the response management process is important for effective incident response.
 
