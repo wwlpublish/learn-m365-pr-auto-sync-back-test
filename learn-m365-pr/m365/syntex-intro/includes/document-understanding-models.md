@@ -50,24 +50,21 @@ Explanations types include:
 
 ### What's a sensitivity label?
 
-Sensitivity labels let you apply encryption, sharing, and Conditional Access policies to the documents that your models identify. For example, you want your model to not only identify financial documents that contain bank account numbers or credit card numbers that are uploaded to your document library, but also to apply an _Encryption_ sensitivity label to them to restrict who can access that content. SharePoint Syntex models honor the label order rules and do not overwrite an existing label that was manually applied by a user to the file.
-
-> [!NOTE]
-> At this time, sensitivity labels are available only for document understanding models. Support for sensitivity labels for form processing will be available shortly.
+Sensitivity labels let you apply encryption, sharing, and Conditional Access policies to the documents that your models identify. For example, you want your model to not only identify financial documents that contain bank account numbers or credit card numbers that are uploaded to your document library, but also to apply an _Encryption_ sensitivity label to them to restrict who can access that content. SharePoint Syntex models honor the label order rules and don't overwrite an existing label that was manually applied by a user to the file.
 
 ### What are retention labels?
 
-Retention labels give you the option to apply retention settings to your documents. Retention settings are policies defining how documents are kept or deleted. Retention labels enforce _who_ may delete documents and _when_ they may delete them. They are created in the Microsoft Purview compliance portal but will appear as part of the compliance section of your model once they're created in the compliance portal.
+Retention labels give you the option to apply retention settings to your documents. Retention settings are policies defining how documents are kept or deleted. Retention labels enforce _who_ may delete documents and _when_ they may delete them. They're created in the Microsoft Purview compliance portal but will appear as part of the compliance section of your model once they're created in the compliance portal.
 
 Retention labels can be helpful when dealing with any sensitive information within your SharePoint document library that should be retained for records purposes. For instance, at Contoso Electronics, there may be letters received from the government regarding regulatory standards and compliance requirements. A retention label titled _Legal_ could be added to these documents to ensure any document with this label is never deleted and is retained in your library forever. That way, if a team member attempts to delete the labeled document at some point, they won't be able to.
 
 ## How do the parts of the document understanding model work together?
 
-When creating a document understanding model, it helps to understand how each of the parts flow into one another and inform each other.
+When you create a document understanding model, it helps to understand how each of the parts flow into and inform each other.
 
 - **Content center** – This is where you'll begin, where you'll create your model. You can either use a default content center or create a new content model, based on the needs of your organization.
 - **Classifier** – This is the document understanding model type you'll create within a content center.
-- **Extractor** – Creating an extractor is not mandatory. It can be created before or after you build your document understanding model. If you already know the information that you want to extract, create the extractor beforehand, or, if you don't, wait until you have a better understanding of your model.
+- **Extractor** – Creating an extractor isn't mandatory. It can be created before or after you build your document understanding model. If you already know the information that you want to extract, create the extractor beforehand, or, if you don't, wait until you have a better understanding of your model.
 - **Explanation** – Explanations are part of your classifier model and must be included so that the model knows exactly what it's looking for and how it's classifying the documents.
 - **Sensitivity label** - Sensitivity labels can be used to apply encryption, sharing, and Conditional Access policies to documents.
 - **Retention label** – This is optional but can be applied to any document understanding model. It can even be added to a document library that has already had the document understanding model applied.
