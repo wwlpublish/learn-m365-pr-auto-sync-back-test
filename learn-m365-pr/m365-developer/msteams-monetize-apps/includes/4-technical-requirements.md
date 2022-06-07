@@ -170,41 +170,41 @@ In Partner Center, start by creating a new **Software as a Service** (SaaS) offe
 
 The next step is to configure the offer in Partner Center. In the first part of configuring the offer, make sure you select the option **Yes, I would like to sell through Microsoft and have Microsoft host transactions on my behalf**.
 
-![Configure SaaS offers in Partner Center - Step 1.](../media/04-partner-center-configure-offer-step-01.png)
+[![Configure SaaS offers in Partner Center - Step 1.](../media/04-partner-center-configure-offer-step-01.png)](../media/04-partner-center-configure-offer-step-01.png#lightbox)
 
 Next, configure discoverability properties of the SaaS offer, such as the category and industry or vertical that's most appropriate for your app:
 
-![Configure SaaS offers in Partner Center - Step 2.](../media/04-partner-center-configure-offer-step-02.png)
+[![Configure SaaS offers in Partner Center - Step 2.](../media/04-partner-center-configure-offer-step-02.png)](../media/04-partner-center-configure-offer-step-02.png#lightbox)
 
 The third step of configuring your offer is where you start to bring your app to life, using iconography and descriptions. These are areas that are going to be searchable in the Teams App Store and Microsoft AppSource.
 
 Be sure to use specific keywords that will help users find your app.
 
-![Configure SaaS offers in Partner Center - Step 3.](../media/04-partner-center-configure-offer-step-03.png)
+[![Configure SaaS offers in Partner Center - Step 3.](../media/04-partner-center-configure-offer-step-03.png)](../media/04-partner-center-configure-offer-step-03.png#lightbox)
 
 ISVs can specify the preview audience for the SaaS offer. The **Preview Audience** page of a SaaS offer is where you can add users who can access the app as a preview as you work to publish your application. Only the users listed on this page, either with their Work and School or Microsoft Account email addresses, will be able to transact against this offer until it's fully live.
 
 The preview audience enables you to test and validate the app without exposing your offer to the public. For example, creating a test plan with a $0 price allows you to test the app and license management flow with only the defined audience. Setting a live, public offer with a $0 price would make that price available to everyone, so this preview audience is the preferred way to test your app.
 
-![Configure SaaS offers in Partner Center - Step 4.](../media/04-landing-page-best-practices-04.jpg)
+[![Configure SaaS offers in Partner Center - Step 4.](../media/04-landing-page-best-practices-04.png)](../media/04-landing-page-best-practices-04.png#lightbox)
 
 The next step is where you'll define the URLs for the landing page of your app, the app's webhook that has been previously covered in this module, the Azure AD app details such as the tenant ID and app ID (also known as the *client ID*).
 
 Recall the landing page is where users will be directed to by the marketplace for license assignment and configuration. The webhook is used to handle marketplace requests such as changes to the subscription or cancellations.
 
-![Configure SaaS offers in Partner Center - Step 5.](../media/04-landing-page-best-practices-05.png)
+[![Configure SaaS offers in Partner Center - Step 5.](../media/04-landing-page-best-practices-05.png)](../media/04-landing-page-best-practices-05.png#lightbox)
 
 Next, you'll define the plans (or SKUs) of your offer.
 
 ISVs can elect to offer different licenses, such as a basic, professional or enterprise license. Partner Center and the offer configuration support this capability.
 
-![Configure SaaS offers in Partner Center - Step 6.](../media/04-landing-page-best-practices-06.png)
+[![Configure SaaS offers in Partner Center - Step 6.](../media/04-landing-page-best-practices-06.png)](../media/04-landing-page-best-practices-06.png#lightbox)
 
 As part of your offer's plan, you can define different price points, if you offer trials, and which markets the plans are available within.
 
 As part of the market selection, notice some markets include an icon next to the name. Microsoft will automatically collect and remit tax on your behalf on these indicated markets. The costs for this processing are included as part of the transaction fee Microsoft charges. Please note that you are responsible for identifying whether you need to collect and remit tax in the other markets.
 
-![Configure SaaS offers in Partner Center - Step 7.](../media/04-landing-page-best-practices-07.png)
+[![Configure SaaS offers in Partner Center - Step 7.](../media/04-landing-page-best-practices-07.png)](../media/04-landing-page-best-practices-07.png#lightbox)
 
 When defining the pricing details, you can configure the plan to charge one price for one set of license limits and a different price for another set. For example, you might charge one price for 1-99 licenses but offer a reduced price for 100-500 licenses.
 
@@ -233,7 +233,7 @@ Once the Microsoft Teams marketplace supports flat-rate pricing, you can update 
 
 The last step in Partner Center is to publish your offer. When you're ready to submit your offer, it will go through a series of manual and automated validation checks. The status of all these checks is displayed on the **Offer Overview** page:
 
-![Configure SaaS offers in Partner Center - Step 8 - Publish offer.](../media/04-landing-page-best-practices-08.png)
+[![Configure SaaS offers in Partner Center - Step 8 - Publish offer.](../media/04-landing-page-best-practices-08.png)](../media/04-landing-page-best-practices-08.png#lightbox)
 
 Once you complete the review process of publishing an offer, while the offer is live in the marketplace, it's not yet linked to the actual Microsoft Teams app.
 
@@ -293,11 +293,11 @@ Once you add this to your app manifest, you need to go into Partner Center and u
 
 First, get the link to the app from either from within the Microsoft Teams client or from the Microsoft AppSource site when you published it:
 
-![Link Microsoft Teams app to SaaS offers in Partner Center - Step 1.](../media/04-partner-center-configure-offer-step-04.png)
+[![Link Microsoft Teams app to SaaS offers in Partner Center - Step 1.](../media/04-partner-center-configure-offer-step-04.png)](../media/04-partner-center-configure-offer-step-04.png#lightbox)
 
 Next, in Partner Center, select the offer and select the **Offer set up** page. Select the **Yes, I have published Teams apps. Office add-ins, or SharePoint Framework solutions that I would like to link to this SaaS Offer** option and paste in the link to the Microsoft Teams app you copied in the previous step
 
-![Link Microsoft Teams app to SaaS offers in Partner Center - Step 2.](../media/04-partner-center-configure-offer-step-05.png)
+[![Link Microsoft Teams app to SaaS offers in Partner Center - Step 2.](../media/04-partner-center-configure-offer-step-05.png)](../media/04-partner-center-configure-offer-step-05.png#lightbox)
 
 This is done from the **Offer set up** page Partner Center.
 
