@@ -3489,6 +3489,126 @@
       "source_path": "learn-m365-pr/wwl/explore-archiving-microsoft-365/7-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/explore-archiving-microsoft-365/9-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-security-dashboard/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-security-dashboard/4-examine-alerts.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-security-dashboard/6-examine-global-threat-detections.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-security-dashboard/3-examine-security-malware-trends.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-security-dashboard/2-examine-threat-detections.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-security-dashboard/5-explore-built-alert-policies-microsoft-365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-security-dashboard/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-security-dashboard/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-security-dashboard/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-microsoft-cloud-application-security/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-microsoft-defender-for-cloud-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-microsoft-cloud-application-security/4-control-your-cloud-apps-with-policies.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-microsoft-defender-for-cloud-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-microsoft-cloud-application-security/3-deploy-cloud-app-security.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-microsoft-defender-for-cloud-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-microsoft-cloud-application-security/2-explore-cloud-app-security.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-microsoft-defender-for-cloud-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-microsoft-cloud-application-security/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-microsoft-defender-for-cloud-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-microsoft-cloud-application-security/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-microsoft-defender-for-cloud-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-microsoft-cloud-application-security/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-microsoft-defender-for-cloud-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-microsoft-cloud-application-security/5-troubleshoot-app-security.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-microsoft-defender-for-cloud-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-microsoft-defender-for-identity/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-microsoft-defender-for-identity/3-create-your-instance.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-microsoft-defender-for-identity/2-explore.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-microsoft-defender-for-identity/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-microsoft-defender-for-identity/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-microsoft-defender-for-identity/6-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-microsoft-defender-for-identity/4-work-with-portal.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-microsoft-365-threat-intelligence/",
+      "redirect_document_id": false
     }
   ]
 }
