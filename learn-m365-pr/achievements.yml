@@ -255,3 +255,8 @@ achievements:
   title: Implement Microsoft Defender for Identity
   summary: Implement Microsoft Defender for Identity
   iconUrl: /learn/achievements/defender-implement-identity.svg
+- uid: learn.wwl.explore-reporting-microsoft-365-security-services.badge
+  type: badge
+  title: Explore reporting in the Microsoft 365 security services
+  summary: Explore reporting in the Microsoft 365 security services
+  iconUrl: /learn/achievements/microsoft-365-security-services.svg
