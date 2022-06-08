@@ -26,7 +26,6 @@ subjects:
 - compliance
 - information-protection-governance
 modules:
-- learn.wwl.explore-reporting-microsoft-365-security-services
 - learn-m365.m365-messaging-manage-compliance
 - learn.wwl.manage-advanced-ediscovery
 - learn-m365.compmgmt-explore-compliance

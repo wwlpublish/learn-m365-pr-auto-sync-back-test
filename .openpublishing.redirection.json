@@ -3609,6 +3609,71 @@
       "source_path": "learn-m365-pr/wwl/implement-microsoft-defender-for-identity/4-work-with-portal.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/implement-microsoft-365-threat-intelligence/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-reporting-microsoft-365-security-services/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-security-services/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-reporting-microsoft-365-security-services/3-examine-atp-message-disposition-report.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-security-services/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-reporting-microsoft-365-security-services/4-examine-file-type-disposition-report.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-security-services/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-reporting-microsoft-365-security-services/5-examine-malware-detections-report.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-security-services/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-reporting-microsoft-365-security-services/10-examine-sent-received-email-report.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-security-services/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-reporting-microsoft-365-security-services/9-examine-spam-detections-report.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-security-services/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-reporting-microsoft-365-security-services/8-examine-spoof-mail-report.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-security-services/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-reporting-microsoft-365-security-services/2-examine-threat-protection-status-report.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-security-services/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-reporting-microsoft-365-security-services/6-examine-top-malware-report.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-security-services/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-reporting-microsoft-365-security-services/7-examine-top-senders-recipients-report.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-security-services/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-reporting-microsoft-365-security-services/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-security-services/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-reporting-microsoft-365-security-services/11-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-security-services/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-reporting-microsoft-365-security-services/12-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-security-services/",
+      "redirect_document_id": false
     }
   ]
 }
