@@ -4,4 +4,7 @@ Organizations face all kinds of risks, including financial, legal, people, IT, a
 
 When it comes to managing risks, research indicates risk identification and assessment is the most time-consuming task. Many organizations are still tracking their data protection controls manually and relying on point-in-time assessments, like annual audits, to identify and assess risks.
 
-:::image type="content" source="../media/managing-data-compliance.png" alt-text="Managing data and compliance risks is challenging." border="false":::
+> [!div class="centered"]
+> :::image type="complex" source="../media/managing-data-compliance.png" alt-text="Slide titled Managing data and compliance risks is challenging." lightbox="../media/managing-data-compliance.png" border="false":::
+>	The slides lists statistics about managing compliance risks. There are more than 220 updates per day from 1000 regulatory bodies. More than 50 percent of organizations state that IT and cybersecurity risks are their biggest concern among risks. Identifying and assessing risks is the most time-consuming task in risk management.
+> :::image-end:::

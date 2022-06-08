@@ -8,4 +8,7 @@ Here are some of the issues we are seeing due to the dynamic nature of the compl
 
 **Complexity across IT environments hinders adoption.** Understanding how to integrate the many solutions available and configure each one to minimize compliance risks can be difficult. This is especially true in organizations with solutions sourced from multiple vendors that often have overlapping functionality. Decision makers want simple step-by-step guidance on how to make the tools work for the industry standards and regulations they are subject to.
 
-:::image type="content" source="../media/companies-need-tools.png" alt-text="Companies need tools and guidance." border="false":::
+> [!div class="centered"]
+> :::image type="complex" source="../media/companies-need-tools.png" alt-text="Slide titles Companies need tools and guidance." lightbox="../media/companies-need-tools.png" border="false":::
+>	The slide has the following bullet points: keeping up with new and frequently updated regulations is an ongoing struggle; point-in-time assessments fail to identify risks between audits, a huge blindsight in a digital world; collaboration on risk and compliance management is inefficient and siloed, and guidance is lacking to help with designing and implementing effective controls. The slide also has a quote from an IT decision maker: I describe my role a lot of times like playing whack-a-mole at the county fair and I'm knocking down one mole's head which is Sarbanes-Oxley and then PCI pops up, and I knock that one down, then something else pops up. So trying to keep everything going in the right direction and making sure something doesn't pop up and come back to bite us is extremely challenging.
+> :::image-end:::
