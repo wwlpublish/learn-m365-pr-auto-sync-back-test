@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-monetize-apps.2-monetization-overview
+metadata:
+  title: Monetization Overview
+  description: Custom Microsoft Teams apps that incorporate user data protected by Azure AD will need to implement an authentication process. Single sign-on (SSO) provides a seamless way for your Microsoft Teams apps to authenticate users. In this unit, you'll learn what a monetized Microsoft Teams app is.
+  ms.date: 05/25/2022
+  author: andrewconnell-msft
+  ms.author: suzanz
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Monetization Overview
+durationInMinutes: 4
+content: |
+  [!include[](includes/2-monetization-overview.md)]
