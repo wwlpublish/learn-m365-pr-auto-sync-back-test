@@ -12,7 +12,7 @@ If you do not already have them, to purchase a Phone System add-on license and C
 
 1. Below **View by category**, select **Add-ons**.
 
-1. Select **See all ‎Add-ons‎ products** to extend the list.
+1. Select **See all Add-ons products** to extend the list.
 
 1. Navigate to **Microsoft 365 Domestic Calling Plan** and select **Details**.
 
@@ -100,7 +100,7 @@ Each port must be for numbers with a single provider. You also must submit separ
 
 ### Information needed for a port request
 
-As part of your port request, you need to fill out and upload a Letter of Authorization ‎(‎LOA)‎. The person authorized on the account must sign it, scan it (or take a good photo with one of those "scanning apps"), and sent it to Microsoft.
+As part of your port request, you need to fill out and upload a Letter of Authorization (LOA). The person authorized on the account must sign it, scan it (or take a good photo with one of those "scanning apps"), and sent it to Microsoft.
 
 To complete a port, you need the following information:
 
@@ -152,14 +152,14 @@ For all countries/regions other than the United Kingdom, United States, and Cana
 
 To manually submit a new port order, you must do the following steps in order:
 
-1. Download the Letter of Authorization ‎(‎LOA) for the country/region. Available from Microsoft docs. Link in the resources section.
+1. Download the Letter of Authorization (LOA) for the country/region. Available from Microsoft docs. Link in the resources section.
 
 1. Complete the form.
 
 1. Send it to the Microsoft PSTN service desk.
 
 > [!NOTE]
-> There's a tick box to specify if you're porting user vs. service numbers. Each port must only be for one number type.
+> There's a check box to specify if you're porting user vs. service numbers. Each port must only be for one number type.
 
 To contact the PSTN service desk, perform the following steps:
 
