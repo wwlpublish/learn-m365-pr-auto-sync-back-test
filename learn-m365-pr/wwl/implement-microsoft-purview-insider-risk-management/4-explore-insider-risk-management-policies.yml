@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-microsoft-purview-insider-risk-management.explore-insider-risk-management-policies
+title: Explore insider risk management policies
+metadata:
+  title: Explore insider risk management policies
+  description: "Explore insider risk management policies"
+  ms.date: 06/10/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-explore-insider-risk-management-policies.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "How many policies does insider risk management support for each policy template?"
+    choices:
+    - content: "3"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the correct number of policies that's supported for each policy template."
+    - content: "5"
+      isCorrect: true
+      explanation: "Correct. Insider risk management supports up to five policies for each policy template. When you create a new insider risk policy with the policy wizard, you must choose from one of the policy templates."
+    - content: "10"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the correct number of policies that's supported for each policy template."
