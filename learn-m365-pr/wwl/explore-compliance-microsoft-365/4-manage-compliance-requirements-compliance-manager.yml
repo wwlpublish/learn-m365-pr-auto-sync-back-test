@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-compliance-microsoft-365.manage-compliance-requirements-compliance-manager
+title: Manage your compliance requirements with Compliance Manager
+metadata:
+  title: Manage your compliance requirements with Compliance Manager
+  description: "Manage your compliance requirements with Compliance Manager"
+  ms.date: 06/10/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/4-manage-compliance-requirements-compliance-manager.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which element of Compliance Manager defines how an organization assesses and manages system configuration, organizational process, and the people responsible for meeting a specific requirement of a regulation, standard, or policy?"
+    choices:
+    - content: "Control"
+      isCorrect: true
+      explanation: "Correct. A control is a requirement of a regulation, standard, or policy. It defines how an organization assesses and manages system configuration, organizational process, and the people responsible for meeting a specific requirement of a regulation, standard, or policy."
+    - content: "Assessment"
+      isCorrect: false
+      explanation: "Incorrect. An assessment is grouping of controls from a specific regulation, standard, or policy. Completing the actions within an assessment help organizations meet the requirements of a standard, regulation, or law."
+    - content: "Improvement actions"
+      isCorrect: false
+      explanation: "Incorrect. Improvement actions help centralize an organization's compliance activities. Each improvement action provides recommended guidance that’s intended to help the organization align with data protection regulations and standards."

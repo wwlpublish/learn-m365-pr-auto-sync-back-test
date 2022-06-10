@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-compliance-microsoft-365.analyze-microsoft-compliance-score
+title: Analyze the Microsoft compliance score
+metadata:
+  title: Analyze the Microsoft compliance score
+  description: "Analyze the Microsoft compliance score"
+  ms.date: 06/10/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/6-analyze-microsoft-compliance-score.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "When a company uses Compliance Manager for the first time, what's its initial compliance score based upon?"
+    choices:
+    - content: "The completion of Microsoft-managed actions and customer-managed actions"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't what the initial compliance score is based upon."
+    - content: "The sum of the company's control scores"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't what the initial compliance score is based upon."
+    - content: "Microsoft 365 data protection baseline"
+      isCorrect: true
+      explanation: "Correct. Compliance Manager gives an organization an initial score based on the Microsoft 365 data protection baseline. This baseline is a set of controls that includes key regulations and standards for data protection and general data governance."

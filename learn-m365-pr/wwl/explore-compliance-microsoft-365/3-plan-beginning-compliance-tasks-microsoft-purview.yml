@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-compliance-microsoft-365.plan-beginning-compliance-tasks-microsoft-purview
+title: Plan your beginning compliance tasks in Microsoft Purview
+metadata:
+  title: Plan your beginning compliance tasks in Microsoft Purview
+  description: "Plan your beginning compliance tasks in Microsoft Purview"
+  ms.date: 06/10/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/3-plan-beginning-compliance-tasks-microsoft-purview.md)]
