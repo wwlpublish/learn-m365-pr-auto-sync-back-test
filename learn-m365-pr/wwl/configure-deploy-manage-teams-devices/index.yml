@@ -3,7 +3,7 @@ uid: learn.wwl.configure-deploy-manage-teams-devices
 metadata:
   title: Configure, deploy, and manage Teams devices
   description: "Teams devices provide a familiar experience and are essential for a hybrid workspace. Learn how to provision and manage devices, and associated device accounts."
-  ms.date: 12/29/2021
+  ms.date: 06/10/2022
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -29,8 +29,8 @@ products:
 - m365
 - office-teams
 subjects:
-- communication
 - collaboration
+- communication
 units:
 - learn.wwl.configure-deploy-manage-teams-devices.introduction
 - learn.wwl.configure-deploy-manage-teams-devices.manage-microsoft-teams-phones

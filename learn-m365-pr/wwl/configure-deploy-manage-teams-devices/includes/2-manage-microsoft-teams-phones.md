@@ -1,6 +1,6 @@
 Microsoft Teams Phones are designed for users who require a traditional phone experience. 
 
-Teams-certified phones provide the best experience with Microsoft Teams and support the broadest range of features. In addition to Teams-certified phones, you can choose lower-cost phone designed for Teams or utilize generic SIP phones via a gateway.
+Teams-certified phones provide the best experience with Microsoft Teams and support the broadest range of features. In addition to Teams-certified phones, you can choose lower-cost phones designed for Teams or utilize a SIP compatible device through a SIP Gateway.
 
 In the picture below, you can see the difference between different types of Teams Phones. Teams-certified phones, shown on the left, provide a Teams app experience for calling and meetings. A SIP phone via a gateway offers no specific Teams functionality and will usually have a traditional LCD display for calling. Low-cost Teams phones, shown on the right-hand side, do not offer the full range of capabilities of Teams-certified phones, but benefit from the ability to connect directly to Microsoft Teams.
 
@@ -75,3 +75,7 @@ After creating a configuration profile for a Teams device type, assign it to one
 The devices in scope of a configuration profile will be automatically configured with the setting defined. This may take several hours to take effect.
 
 To validate the configuration has applied, select the device within the Endpoint Manager admin center, then choose **Device Configuration** to and examine the **State**.
+
+## Configure SIP Gateway
+
+Before using SIP compatible devices with Teams, you must configure the SIP Gateway, devices, and users to allow SIP devices.  For more information, see [Configure SIP Gateway](/microsoftteams/sip-gateway-configure)

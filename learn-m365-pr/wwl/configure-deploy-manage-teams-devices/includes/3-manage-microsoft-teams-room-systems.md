@@ -49,7 +49,7 @@ Microsoft Teams Rooms Premium consists of several features such as inventory man
 
 The Microsoft Teams Rooms managed service is for organizations wanting to improve their meeting room experience and rapidly scale their footprint by offering proactive management for Microsoft Teams Rooms devices.
 
-| **Responsibilities**| **Teams Admin Center**| **Teams Rooms Managed Services**|
+| **Responsibilities**| **Teams Admin Center**| **Teams Rooms Managed Services**|
 | :--- | :--- | :--- |
 | Intelligent room planning recommendations | Customer| Microsoft|
 | Room deployment validation & intelligent config management| Customer| Microsoft|
@@ -57,7 +57,7 @@ The Microsoft Teams Rooms managed service is for organizations wanting to improv
 | Real-time intervention and automatic remediation| Customer| Microsoft|
 | Intelligent, managed updates| Customer| Customer + Microsoft|
 | Best practices applied to remote remediations and guidance on in-person remediations| Customer| Customer + Microsoft|
-| Correlated insights across your eco-system| Customer| Microsoft|
+| Correlated insights across your eco-system| Customer| Microsoft|
 | Threat detection and security KBs| Customer| Microsoft|
 
 ## Creating room accounts
@@ -85,7 +85,17 @@ These properties represent the minimum configuration for a device account to wor
 | Skype for Business is enabled| Skype for Business must be enabled to use various conferencing features, like video calls, IM, and screen-sharing. Both Skype for Business Online and Skype for Business Server are supported.|
 | Password-enabled| The device account must be enabled with a password, or it cannot authenticate with either Exchange or Skype for Business Server.|
 
-The easiest way to set up device accounts is to configure them using remote Windows PowerShell. It’s a commonly used Best Practice not to create custom scripts, but use the Microsoft provided and managed script [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105). This script will help create new device accounts or validate existing resource accounts you have to help you turn them into compatible Microsoft Teams Rooms device accounts.
+Microsoft 365 resource accounts can be created in the Microsoft 365 admin center or Exchange PowerShell. The steps to create the resource account include:
+
+1. Create a new resource account. Or, if a room mailbox already exists and you want to convert it to a resource account, you can modify an existing Exchange room mailbox.
+
+1. Configure your account for Teams Meetings.
+
+1. If the resource account is going to be associated with a shared device, such as Teams displays with hot-desking, turn off password expiration.
+
+1. Lastly, assign a meeting room license so the account can access Microsoft Teams.
+
+For more information, see [Create and configure resource accounts for rooms and shared Teams devices](/microsoftteams/rooms/with-office-365?tabs=m365-admin-center%2Cazure-active-directory2-password%2Cactive-directory2-license#create-a-resource-account).
 
 ## Enabling Voice for Microsoft Teams Room Systems
 
@@ -93,21 +103,14 @@ As an optional step, after creation of a Microsoft Teams Room device account, co
 
 A standard or premium Meeting Room system license includes a Phone System license, however, unless Direct Routing is in use, a Calling Plan license will also need to be applied.
 
-To enable voice services, use remote Windows PowerShell with the same Microsoft Teams PowerShell module used for the device account creation. Enable Enterprise Voice for the device account using the Set-CsMeetingRoom cmdlet as follows:
+To enable voice services, use remote Windows PowerShell with the same Microsoft Teams PowerShell module used for the device account creation. Enable Enterprise Voice for the device account using the Set-CsPhoneNumberAssignment cmdlet as follows:
 
 ```powershell
-Set-CsMeetingRoom -Identity "MicrosoftTeamsRoom@contoso.com" -EnterpriseVoiceEnabled:$True
+Set-CsPhoneNumberAssignment -Identity "MicrosoftTeamsRoom@contoso.com" -EnterpriseVoiceEnabled $true -PhoneNumberType CallingPlan -PhoneNumber "+14255551010"
 
 ```
 
 The cmdlet does not provide any output if activation is successful.
-
-Use the following cmdlet to control, if the “EnterpriseVoiceEnabled” attribute is now true:
-
-```powershell
-Get-CsMeetingRoom -Identity "MicrosoftTeamsRoom@contoso.com" | Format-List EnterpriseVoiceEnabled
-
-```
 
 After enabling voice services for a device account the Microsoft Teams Room will display a dial-pad. This will allow the user to dial in to a third-party PSTN conference bridge from the Microsoft Teams Room or perform direct calls to individual subscribers.
 
@@ -609,6 +612,3 @@ Yes
 
 :::column-end:::
 :::row-end:::
-
-
-
