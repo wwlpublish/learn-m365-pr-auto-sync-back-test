@@ -46,7 +46,7 @@ quiz:
       explanation: "Incorrect. These policies will help Tailspin Toys identify permissions abuse by administrators, malware activity, potential internal and external threats, and information governance risks. However, they aren't the first thing it should do to determine its current state of compliance."
     - content: "Classify and protect sensitive data with sensitivity labels"
       isCorrect: false
-      explanation: "Incorrect. Sensitivity labels help classify and protect sensitive data by enforcing message encryption and usage retrictions, applying visual markings, and protecting information across platforms and devices. However, they aren't the first thing it should do to determine its current state of compliance."
+      explanation: "Incorrect. Sensitivity labels help classify and protect sensitive data by enforcing message encryption and usage restrictions, applying visual markings, and protecting information across platforms and devices. However, they aren't the first thing it should do to determine its current state of compliance."
     - content: "Check its compliance score in Compliance Manager"
       isCorrect: true
       explanation: "Correct. It’s difficult to know where to go if you don’t know where you are. To meet its compliance needs, an organization must understand its current level of risk. It can do so by checking its compliance score in Compliance Manager. Once it knows its compliance posture given its compliance score, it can then complete actions to help reduce risks around data protection and regulatory standards, such as deploying Microsoft's built-in alert policies and creating sensitivity labels."
