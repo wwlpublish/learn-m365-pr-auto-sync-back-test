@@ -45,37 +45,37 @@ Connect-MicrosoftTeams
 
 ```
 
-You will typically enable Enterprise Voice functionality and assign a number available to you from your voice provider. As you enable this for a user, you can also enable voicemail at the same time.
+You will typically enable Teams Phone functionality and assign a number available to you from your voice provider. As you enable this for a user, voicemail will be automatically enabled at the same time.
 
-To enable a user for Enterprise Voice functionality, configure a phone number for the user and enable voicemail, use the following cmdlet:
+To enable a user for Teams Phone functionality and assign a Microsoft Calling Plan phone number, use the following cmdlet:
 
 ```powershell
-Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>
+Set-CsPhoneNumberAssignment -Identity "<User name>" -PhoneNumber "<phone number>" -PhoneNumberType CallingPlan
 
 ```
 
-It's recommended, but not required, that the phone number used is configured as a full E.164 phone number with country/region code.
+Supports E.164 format like +12065551234 and non-E.164 format like 12065551234. The phone number can not have "tel:" prefixed.
 
-It is supported to configure phone numbers with extensions, which will be used to look up users when the lookup against the base number returns more than one result. This allows companies to configure phone numbers with the same base number and unique extensions.
+Direct Routing numbers with extensions using the formats +1206555000;ext=1234 or 1206555000;ext=1234 are supported, but such phone numbers are not supported to be assigned to a resource account.
 
-The example below shows how to assign a user the number with a unique extension:
+The example below shows how to assign  Direct Routing number with a unique extension to the user:
 
 ```powershell
-Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1001" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255551234;ext=1001" -PhoneNumberType DirectRouting
 
 ```
 
 The following cmdlet shows how to assign the same number with a different extension to another user:
 
 ```powershell
-Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1002" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsPhoneNumberAssignment -Identity "stacy.quinn@contoso.com" -PhoneNumber "+14255551234;ext=1002" -PhoneNumberType DirectRouting
 
 ```
 
-If the user’s phone number is managed on premises, use on-premises Skype for Business Management Shell or Control Panel to configure the user's phone number. Then enable the user for enterprise voice services and voicemail using the following cmdlet:
+If a user or resource account has a phone number set in Active Directory on-premises and synched into Microsoft 365, you can't use Set-CsPhoneNumberAssignment to set the phone number. You will have to clear the phone number from the on-premises Active Directory and let that change sync into Microsoft 365 first.Then enable the user for enterprise voice services and voicemail using the following cmdlet:
 
 ```powershell
-Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsPhoneNumberAssignment -Identity "<User name>" -EnterpriseVoiceEnabled $true
 
 ```
 

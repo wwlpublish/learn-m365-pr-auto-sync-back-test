@@ -119,10 +119,11 @@ Get-CsOnlineLisLocation -ValidationStatus Validated
 
 ```
 
-After selecting a phone number and emergency location, use the “Set-CsOnlineVoiceUser” cmdlet in a format like the one shown below to enable the user for Teams Voice:
+After selecting a phone number and emergency location, use the **Set-CsPhoneNumberAssignment** cmdlet in a format like the one shown below to enable the user for Teams Phone:
 
 ```powershell
-Set-CsOnlineVoiceUser -Identity "<User name>" -TelephoneNumber +15555037311 -LocationID d8c4a18a-00d7-37b0-9ddb-3383d29d606b
+$locID = Get-CsOnlineLisLocation -City "<City Name>"
+Set-CsPhoneNumberAssignment -Identity "<User name>" -PhoneNumber +15555037311 -LocationID $locID.LocationID
 
 ```
 

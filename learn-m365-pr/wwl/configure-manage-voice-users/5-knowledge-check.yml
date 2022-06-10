@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 12/29/2021
+  ms.date: 06/10/2022
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -17,17 +17,17 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Which PowerShell cmdlet should be used to enable a licensed user for Teams Phone using Calling Plans?"
+  - content: "Which PowerShell cmdlet should be used to configure a phone number for a user licensed for Teams Phone using Calling Plans?"
     choices:
-    - content: "Set-CsUser"
+    - content: "Set-CsUserVoiceUser"
       isCorrect: false
-      explanation: "Instead, use the Set-CsOnlineVoiceUser cmdlet to the telephone user and location ID for emergency calling."
-    - content: "Set-CsOnlineVoiceUser"
+      explanation: "This isn't a valid cmdlet. Instead, use the Set-CsPhoneNumberAssignment cmdlet to assign a telephone number to the user."
+    - content: "Set-CsPhoneNumberAssignment"
       isCorrect: true
-      explanation: "Use the Set-CsOnlineVoiceUser cmdlet to the telephone user and location ID for emergency calling."
+      explanation: "Use the Set-CsPhoneNumberAssignment cmdlet to assign a telephone number to the user."
     - content: "Enable-CsOnlineVoiceUser"
       isCorrect: false
-      explanation: "This isn't a valid cmdlet. Use the Set-CsOnlineVoiceUser cmdlet to the telephone user and location ID for emergency calling."
+      explanation: "This isn't a valid cmdlet. Instead, use the Set-CsPhoneNumberAssignment cmdlet to the telephone user and location ID for emergency calling."
   - content: "Which licenses need to be applied to a user before enabling a user to use Direct Routing?"
     choices:
     - content: "Microsoft Teams, Teams Phone, and Calling Plan licenses"
