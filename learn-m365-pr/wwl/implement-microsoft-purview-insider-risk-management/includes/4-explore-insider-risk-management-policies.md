@@ -35,7 +35,7 @@ Insider risk analytics enables organizations to conduct an evaluation of potenti
  -  Identify potential areas of higher user risk.
  -  Determine the type and scope of insider risk management policies it may consider configuring.
 
-**Additional reading**. To learn more about insider risk analytics and policy recommendations, see [Insider risk management settings: Analytics](/microsoft-365/compliance/insider-risk-management-settingsPolicy%20recommendations%20from%20analytics).
+**Additional reading**. To learn more about insider risk analytics and policy recommendations, see Insider risk management settings: Analytics.
 
 ### Policy templates
 
@@ -102,11 +102,11 @@ When organizations create or modify DLP policies for use with insider risk manag
 
 Protecting data and preventing data leaks for users in an organization may depend on their position, level of access to sensitive information, or risk history. Data leaks can include accidental oversharing of highly sensitive information outside an organization or data theft with malicious intent. With an assigned data loss prevention (DLP) policy as a triggering event option, this template starts scoring real-time detections of suspicious activity. It results in an increased likelihood of insider risk alerts and alerts with higher severity levels. Priority users are defined in [priority user groups](/microsoft-365/compliance/insider-risk-management-settings?azure-portal=true). These groups are configured in the insider risk management **Settings** area.
 
-As with the General data leaks template, an organization can choose a DLP policy to trigger indicators in the insider risk policy for high severity alerts. When an organization uses this template, its should follow the Data leaks policy guidelines for DLP policies (see the earlier section in this unit) when creating a policy with the DLP option. Organizations can also choose to assign selected indicators as triggering events for a policy. This flexibility and customization helps scope the policy to only the activities covered by the indicators. Organizations must also assign priority user groups created in **Insider risk management &gt; Settings &gt; Priority user groups** to the policy.
+As with the General data leaks template, an organization can choose a DLP policy to trigger indicators in the insider risk policy for high severity alerts. When an organization uses this template, it should follow the Data leaks policy guidelines for DLP policies (see the earlier section in this unit) when creating a policy with the DLP option. Organizations can also choose to assign selected indicators as triggering events for a policy. This flexibility and customization helps scope the policy to only the activities covered by the indicators. Organizations must also assign priority user groups created in **Insider risk management &gt; Settings &gt; Priority user groups** to the policy.
 
 #### Data leaks by disgruntled users template
 
-When users experience employment stressors, they may become disgruntled, which may increase the chances of insider risk activity. This template starts scoring user activity when an indicator associated with disgruntlement is identified. Examples include performance improvement notifications, poor performance reviews, or changes to job level status. Data leaks for disgruntled users may include downloading files from SharePoint Online and copying data to personal cloud messaging and storage services near employment stressor events.
+When users experience stressful work events, they may become disgruntled, which may increase the chances of insider risk activity. This template starts scoring user activity when an indicator associated with disgruntlement is identified. Examples include performance improvement notifications, poor performance reviews, or changes to job level status. Data leaks for disgruntled users may include downloading files from SharePoint Online and copying data to personal cloud messaging and storage services near stressful work events.
 
 When an organization uses this template, it must also configure a Microsoft 365 HR connector to periodically import performance improvement notifications, poor performance review status, or job level change information for its users. For step-by-step guidance to configure the Microsoft 365 HR connector, see [Import data with the HR connector](/microsoft-365/compliance/import-hr-data?azure-portal=true).
 
@@ -138,7 +138,7 @@ To use this template, an organization must first configure Microsoft Defender fo
 
 #### Security policy violations by disgruntled users template
 
-Users that experience employment stressors may be at a higher risk for inadvertent or malicious security policy violations. These stressors may include:
+Users that experience stressful work events may be at a higher risk for inadvertent or malicious security policy violations. These stressful work events may include:
 
  -  The user being placed on a performance improvement plan.
  -  Poor performance review status.
