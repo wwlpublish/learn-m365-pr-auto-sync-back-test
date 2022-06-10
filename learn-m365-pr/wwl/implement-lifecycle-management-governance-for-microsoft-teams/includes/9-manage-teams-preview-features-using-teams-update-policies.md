@@ -27,7 +27,7 @@ Once you created the custom policy, you need to assign the policy to specific us
 
 1. Go to **Teams admin center** > **Teams** > **Teams update policies**.
 2. Select the custom Update policy. 
-3. Select **Manage Users**.
+3. Select **Assign users**.
 4. Search and select **Add** next to the users.
 5. Select **Apply**.
 
@@ -37,7 +37,7 @@ You can also set the policy with PowerShell using the `Set-CsTeamsUpdateManageme
 
 ## Enable public preview in Teams clients
 
-Depends on the assigned policy, users will need to switch to public preview from their Teams clients. 
+Depending on the assigned policy, users will need to switch to public preview from their Teams clients. 
 
 * Users who are assigned the update policy with **"Not enabled"** option will not see Teams preview features.
 

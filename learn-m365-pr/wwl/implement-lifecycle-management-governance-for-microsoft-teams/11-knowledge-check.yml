@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 10/27/2021
+  ms.date: 06/10/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -17,6 +17,28 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
+  - content: "John is  the Teams Administrator in Contoso Ltd. Which Windows PowerShell cmdlet should John use to create Microsoft 365 groups?"
+    choices:
+    - content: "New-DistributionGroup"
+      isCorrect: false
+      explanation: "That's incorrect. The cmdlet \"New-DistributionGroup\" is to create distribution groups and mail-enabled security groups."
+    - content: "New-UnifiedGroup"
+      isCorrect: true
+      explanation: "That's correct. Use the cmdlet \"New-UnifiedGroup\" to create a new Microsoft 365 group."
+    - content: "New-AzureADGroup"
+      isCorrect: false
+      explanation: "That's incorrect. The cmdlet \"New-AzureADGroup\" is to create a security group in Azure Active Directory (AD)."
+  - content: "Amy is the Teams Administrator in Contoso Ltd. Amy received a business request to prevent customer service representatives from using GIF files and sharing their screen in Teams. Which of the following PowerShell commands should Amy use with minimal administrative effort?"
+    choices:
+    - content: "New-CsGroupPolicyAssignment"
+      isCorrect: false
+      explanation: "That's incorrect. The New-CsGroupPolicyAssignment cmdlet only assigns a policy to a group."
+    - content: "Grant-CsGroupPolicyPackageAssignment"
+      isCorrect: true
+      explanation: "That's correct. Use the Grant-CsGroupPolicyPackageAssignment cmdlet to assign a policy package to a group."
+    - content: "New-CsBatchPolicyAssignmentOperation"
+      isCorrect: false
+      explanation: "That's incorrect. The New-CsBatchPolicyAssignmentOperation cmdlet only assigns a policy to a batch of users."
   - content: "Andrew is the Teams Administrator in Contoso Ltd. Which of the following admin center should Andrew use to configure the naming policy for Microsoft 365 Groups?"
     choices:
     - content: "Microsoft 365 admin center"
