@@ -26,4 +26,4 @@ To use Phone System features, your organization must have a Phone System license
 | Call blocking| This lets users add (PSTN) phone numbers to a blocked list so that the next call from that number is blocked from ringing the user.|
 | Common Area Phones| A common area phone is typically placed in an area like a lobby or conference room making it available to multiple people. Common area phones are set up as devices rather than users and can automatically sign into a network.|
 | Media bypass support| For better performance, media is kept between the Session Border Controller (SBC) and the client instead of sending it via the Microsoft Phone System.|
-
+| SIP Gateway| SIP Gateway connects compatible SIP devices to Teams to help your users migrate seamlessly to Teams telephony. Compatible devices can be Skype for Business IP phones with standard SIP firmware, Cisco IP phones with multi-platform SIP firmware, or SIP devices from vendors such as Poly, Yealink, and AudioCodes.|
