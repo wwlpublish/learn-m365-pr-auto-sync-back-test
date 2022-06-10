@@ -4,26 +4,13 @@ title: Examine Data Loss Prevention
 metadata:
   title: Examine Data Loss Prevention
   description: "Examine Data Loss Prevention"
-  ms.date: 06/10/2021
+  ms.date: 06/10/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 8
+labModal: false
+durationInMinutes: 6
 content: |
   [!include[](includes/2-examine-data-loss-prevention.md)]
-quiz:
-  title: "Check your knowledge"
-  questions:
-  - content: "What is document fingerprinting?"
-    choices:
-    - content: "It's a process that warns users when sensitive data is identified in email and documents"
-      isCorrect: false
-      explanation: "That's incorrect. This item isn't document fingerprinting. Instead, DLP policies can be configured to do this action. Try again."
-    - content: "It's the process of identifying the unique word pattern in a document"
-      isCorrect: false
-      explanation: "That's incorrect. This item isn't a feature of document fingerprinting. Microsoft 365 Data Loss Prevention identifies the unique word pattern in the document. Try again."
-    - content: "It's a DLP feature that converts a document's unique work pattern into a sensitive information type that can then be used DLP policy rules"
-      isCorrect: true
-      explanation: "That's correct. Document fingerprinting is a Data Loss Prevention feature that converts a standard form into a sensitive information type. These types can later be used in the rules of your DLP policies."

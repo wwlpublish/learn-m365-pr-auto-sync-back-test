@@ -3,7 +3,7 @@ uid: learn.wwl.explore-data-loss-prevention-microsoft-365
 metadata:
   title: Explore Data Loss Prevention in Microsoft 365
   description: "Explore Data Loss Prevention in Microsoft 365"
-  ms.date: 06/10/2021
+  ms.date: 06/10/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,16 +11,12 @@ metadata:
 title: Explore Data Loss Prevention in Microsoft 365
 summary: This module examines the data loss prevention features in Microsoft 365 that help organizations identify, monitor, report, and protect sensitive data through deep content analysis while helping users understand and manage data risks.
 abstract: |
-  By the end of this module, you will be able to:
-  - Describe how Data Loss Prevention (DLP) is managed in Microsoft 365
-  - Understand how DLP in Microsoft 365 uses sensitive information types and search patterns
-  - Describe what a DLP policy is and what it contains
-  - Recognize how actions and conditions work together for DLP
-  - Explain how actions contain functions to send emails on matches
-  - Create policy tips for users when a DLP rule applies
-  - Use policy templates to implement DLP policies for commonly used information
-  - Explain document fingerprinting
-  - Describe how DLP protects documents in Windows Server FCI
+  By the end of this module, you'll be able to:
+  *   Describe how Data Loss Prevention (DLP) is managed in Microsoft 365
+  *   Understand how DLP in Microsoft 365 uses sensitive information types and search patterns
+  *   Describe how Microsoft Endpoint DLP extends the DLP activity monitoring and protection capabilities.
+  *   Describe what a DLP policy is and what it contains
+  *   View DLP policy results using both queries and reports
 prerequisites: |
   None
 iconUrl: /learn/achievements/explore-data-loss-prevention-in-microsoft-365.svg
@@ -32,19 +28,22 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 subjects:
+- cloud-computing
+- cloud-security
+- compliance
 - data-management
+- information-protection-governance
+- productivity
 units:
 - learn.wwl.explore-data-loss-prevention-microsoft-365.introduction
 - learn.wwl.explore-data-loss-prevention-microsoft-365.examine-data-loss-prevention
+- learn.wwl.explore-data-loss-prevention-microsoft-365.explore-endpoint-data-loss-prevention
 - learn.wwl.explore-data-loss-prevention-microsoft-365.examine-policies
-- learn.wwl.explore-data-loss-prevention-microsoft-365.configure-email-notifications
-- learn.wwl.explore-data-loss-prevention-microsoft-365.configure-policy-tips
-- learn.wwl.explore-data-loss-prevention-microsoft-365.create-policy-from-policy-template
-- learn.wwl.explore-data-loss-prevention-microsoft-365.integrate-microsoft-policies-with-windows-server-properties
+- learn.wwl.explore-data-loss-prevention-microsoft-365.view-policy-results
+- learn.wwl.explore-data-loss-prevention-microsoft-365.explore-reports
 - learn.wwl.explore-data-loss-prevention-microsoft-365.knowledge-check
 - learn.wwl.explore-data-loss-prevention-microsoft-365.summary
 badge:

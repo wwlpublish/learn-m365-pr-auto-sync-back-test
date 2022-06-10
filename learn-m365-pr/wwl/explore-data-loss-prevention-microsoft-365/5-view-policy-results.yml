@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-data-loss-prevention-microsoft-365.view-policy-results
+title: View DLP policy results
+metadata:
+  title: View DLP policy results
+  description: "View DLP policy results"
+  ms.date: 06/10/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-view-policy-results.md)]

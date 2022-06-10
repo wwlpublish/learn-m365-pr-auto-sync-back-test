@@ -1,0 +1,41 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-data-loss-prevention-microsoft-365.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 06/10/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso plans to use Endpoint data loss prevention to extend the activity monitoring and protection capabilities of DLP policies to sensitive items that are physically stored on its Windows 10 and Windows 11 devices. What's the time lag that Contoso must plan for when DLP policies and policy updates are distributed to individual devices?"
+    choices:
+    - content: "One hour"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the correct time lag."
+    - content: "24 hours"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the correct time lag."
+    - content: "There's no time lag"
+      isCorrect: true
+      explanation: "Correct. In Microsoft Purview, DLP policy evaluation of sensitive items occurs centrally. As such, there's no time lag for policies and policy updates to be distributed to individual devices. When a policy is updated in the Microsoft Purview compliance portal, it generally takes about an hour for those updates to be synchronized across the service. Once policy updates are synchronized, items on targeted devices are automatically reevaluated the next time they're accessed or modified."
+  - content: "As the Enterprise Administrator for Tailspin Toys, Patti Fernandez created a DLP policy. Which of the following actions can Patti do next to the policy?"
+    choices:
+    - content: "Activate the policy and run it in test mode"
+      isCorrect: false
+      explanation: "Incorrect. The policy can't be activated to run it in test mode."
+    - content: "Choose not to activate the policy and instead run it in test mode"
+      isCorrect: true
+      explanation: "Correct. After Patti creates a DLP policy, she can choose to run it in test mode rather than activate it. Test mode enables an organization to review the DLP reports for any possible activity without interfering with the company's production environment."
+    - content: "Activate the policy and configure it to display policy tips for user training"
+      isCorrect: false
+      explanation: "Incorrect. Test mode can be configured to display policy tips for user training. But to run in test mode, the policy can't be activated."
