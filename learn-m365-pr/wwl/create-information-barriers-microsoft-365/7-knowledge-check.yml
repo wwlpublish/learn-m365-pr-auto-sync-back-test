@@ -4,48 +4,60 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/10/2021
+  ms.date: 06/10/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 6
+labModal: false
+durationInMinutes: 8
 content: |
   [!include[](includes/7-knowledge-check.md)]
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "What type of license must target users be assigned for information barrier policies to work?"
+  - content: "As the Enterprise Admin for Lucerne Publishing, Patti Fernandez wants to enable information barriers for SharePoint Online and OneDrive. What should Patti do?"
     choices:
-    - content: "A Microsoft 365 Insider Risk Management license"
+    - content: "Enable information barriers in separate actions; first for SharePoint, and then OneDrive"
       isCorrect: false
-      explanation: "That's incorrect. This license isn't what target users must be assigned for information barrier policies to work. Try again."
-    - content: "A Microsoft 365 Compliance E5/A5 license"
+      explanation: "Incorrect. This process isn't how you enable information barriers for SharePoint Online and OneDrive."
+    - content: "Enable information barriers in separate actions; first for OneDrive, and then SharePoint"
       isCorrect: false
-      explanation: "That's incorrect. This license isn't what target users must be assigned for information barrier policies to work. Try again."
-    - content: "An Exchange Online license"
+      explanation: "Incorrect. This process isn't how you enable information barriers for SharePoint Online and OneDrive."
+    - content: "Enable information barriers for SharePoint and OneDrive in a single action"
       isCorrect: true
-      explanation: "That's correct. Information barrier policies work only if the target users have been assigned an Exchange Online license."
-  - content: "As the Enterprise Administrator for Contoso, Holly Dickson wants to define and apply information barrier policies. What's the first thing Holly must do before creating any information barrier policies?"
+      explanation: "Correct. Enabling information barriers for SharePoint and OneDrive are configured in a single action. Information barriers for the services can’t be enabled separately."
+  - content: "What happens if the segments associated with a user's OneDrive don't match the segment applied to the user?"
     choices:
-    - content: "Ensure Exchange address book policies are in place"
-      isCorrect: false
-      explanation: "That's incorrect. You must ensure that no Exchange address book policies are in place. Try again."
-    - content: "Have at least an Office 365 E3 license"
-      isCorrect: false
-      explanation: "That's incorrect. The minimum license needed to configure an information barrier policy is Office 365 E5/A5. Try again."
-    - content: "Enable scoped directory search in Microsoft Teams"
+    - content: "The user won't be able to access their OneDrive"
       isCorrect: true
-      explanation: "That's correct. Before an organization defines its first information barrier policy, it must enable scoped directory search in Microsoft Teams. It must then wait at least 24 hours after enabling scoped directory search before it sets up or defines information barrier policies."
-  - content: "As the Enterprise Administrator for Tailspin Toys, Allan Deyoung wants to create an ethical wall in Exchange Online. Allan plans to create a transport rule to prohibit the Marketing and Finance teams from communicating with one another. In doing so, which option should Allan select when creating the transport rule that will reject messages sent between these two teams and return non-delivery reports (NDR) to the sender?"
+      explanation: "Correct. If the segments associated with a user's OneDrive don't match the segment applied to the user, the user won't be able to access their OneDrive. Be careful not to associate any segments with the OneDrive of a non-segment user."
+    - content: "Any changes you make will be overwritten"
+      isCorrect: false
+      explanation: "Incorrect. This item will result if the user's segment changes, but not when the segments associated with a user's OneDrive don't match the segment applied to the user."
+    - content: "The IB mode of the OneDrive is automatically updated to Open"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the result when the segments associated with a user's OneDrive don't match the segment applied to the user."
+  - content: "What does it mean when the information barrier mode for a SharePoint site is set to Open?"
     choices:
-    - content: "Block"
+    - content: "The SharePoint site is used for collaboration between incompatible segments moderated by the site owner"
+      isCorrect: false
+      explanation: "Incorrect. This item is the description of a SharePoint site whose IB mode is set to Owner Moderator."
+    - content: "The SharePont site doesn't have segments"
       isCorrect: true
-      explanation: "That's correct. This option will reject the message and return an NDR report to the sender. This option also allows you to enter customized text that explains why the message was rejected. This text is displayed in the NDR that is returned to the sender."
-    - content: "Moderate"
+      explanation: "Correct. When a SharePoint site doesn't have segments, the site's IB mode is automatically set as Open. An example of this mode is a Team site that's created for the company's annual picnic."
+    - content: "The SharePoint site is provisioned by Microsoft Teams"
       isCorrect: false
-      explanation: "That's incorrect. This option will send the message to a moderator for approval. Try again."
-    - content: "Reject/Notify"
+      explanation: "Incorrect. This item is the description of a SharePoint site whose IB mode set to Explicit."
+  - content: "How many segments can a user be in?"
+    choices:
+    - content: "1"
+      isCorrect: true
+      explanation: "Correct. A user can only be in one segment. As such, organizations should plan their segments carefully. Also, each segment can have only one information barrier policy applied."
+    - content: "3"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't a valid transport rule option. Try again."
+      explanation: "Incorrect. This value isn't the maximum number of segments that a user can be in."
+    - content: "5"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the maximum number of segments that a user can be in."

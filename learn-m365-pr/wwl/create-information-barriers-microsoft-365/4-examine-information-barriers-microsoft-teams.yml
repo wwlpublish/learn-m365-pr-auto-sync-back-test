@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.create-information-barriers-microsoft-365.examine-information-barriers-microsoft-teams
+title: Examine information barriers in Microsoft Teams
+metadata:
+  title: Examine information barriers in Microsoft Teams
+  description: "Examine information barriers in Microsoft Teams"
+  ms.date: 06/10/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/4-examine-information-barriers-microsoft-teams.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "When the Information Barriers policy administrator makes changes to a policy, what service automatically searches the members to ensure their membership in the team doesn't violate any policies?"
+    choices:
+    - content: "Mictrosoft Purview compliance service"
+      isCorrect: false
+      explanation: "Incorrect. There is no such service that deals with information barriers."
+    - content: "Microsoft Teams Information Barriers service"
+      isCorrect: false
+      explanation: "Incorrect. There is no such service that deals with information barriers."
+    - content: "Information Barrier Policy Evaluation service"
+      isCorrect: true
+      explanation: "Correct. When the IB policy administrator makes changes to a policy, or when a policy change is activated because of a change to a user's profile (such as for a job change), the Information Barrier Policy Evaluation Service automatically searches the members to ensure their membership in the team doesn't violate any policies."

@@ -1,8 +1,10 @@
-Some of the most common issues that businesses struggle with are conflicts of interest and insider trading with intercommunication and collaborations between certain groups within the organization. Microsoft 365 addresses these types of issues by implementing information barriers.
+Microsoft 365 enables communication and collaboration across groups and organizations. It also supports ways to restrict communication and collaboration among specific groups of users when necessary. Why would organizations want to restrict communication and collaboration? Well, some of the most common issues that businesses struggle with are conflicts of interest and insider trading with intercommunication and collaborations between certain groups within the organization. This may include situations when an organization needs to restrict collaboration between certain employees to safeguard internal information.
+
+Microsoft 365 addresses these types of issues by implementing information barriers. Specifically, with Microsoft Purview Information Barriers (IB).
 
 ### What are information barriers?
 
-Information barriers (IB) are policies that restrict communication between certain groups within an organization. Information barrier policies only apply to SharePoint Online, Microsoft Teams, and OneDrive services. Information barrier policies can be used in different kinds of scenarios, including:
+Microsoft Purview Information Barriers is supported in Microsoft Teams, SharePoint Online, and OneDrive for Business. A compliance administrator or IB administrator can define policies to allow or prevent communications between groups of users in Microsoft Teams. IB policies can be used for situations like these:
 
  -  Prohibiting communication or file sharing between users on different teams.
  -  Prohibiting calling or online chat between users in certain groups within the organization<br>
@@ -45,12 +47,6 @@ In SharePoint Online and OneDrive, information barrier policies determine and pr
  -  Accessing site or content by a user.
  -  Sharing site or content with another user.
  -  Searching a site.
-
-### Using segments in information barriers<br>
-
-Segments are attributes that an administrator uses to define the IB policy for a group. These attributes are taken from the list of attributes that a group is part of. For example, a segment called HR is defined using a value in the Department attribute. Defining segments doesn't affect users. It just sets the stage for defining and applying information barrier policies.
-
-**Additional reading.** For more information, see [Attributes for information barrier policies](/microsoft-365/compliance/information-barriers-attributes).
 
 ## Knowledge check
 
