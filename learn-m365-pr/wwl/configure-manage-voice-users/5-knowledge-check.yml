@@ -21,32 +21,32 @@ quiz:
     choices:
     - content: "Set-CsUserVoiceUser"
       isCorrect: false
-      explanation: "This isn't a valid cmdlet. Instead, use the Set-CsPhoneNumberAssignment cmdlet to assign a telephone number to the user."
+      explanation: "This option isn't a valid cmdlet. Instead, use the Set-CsPhoneNumberAssignment cmdlet to assign a telephone number to the user."
     - content: "Set-CsPhoneNumberAssignment"
       isCorrect: true
       explanation: "Use the Set-CsPhoneNumberAssignment cmdlet to assign a telephone number to the user."
     - content: "Enable-CsOnlineVoiceUser"
       isCorrect: false
-      explanation: "This isn't a valid cmdlet. Instead, use the Set-CsPhoneNumberAssignment cmdlet to the telephone user and location ID for emergency calling."
+      explanation: "This option isn't a valid cmdlet. Instead, use the Set-CsPhoneNumberAssignment cmdlet to the telephone user and location ID for emergency calling."
   - content: "Which licenses need to be applied to a user before enabling a user to use Direct Routing?"
     choices:
     - content: "Microsoft Teams, Teams Phone, and Calling Plan licenses"
       isCorrect: false
-      explanation: "Calling Plan licenses are not required to use Direct Routing. Additionally, to enable Enterprise Voice functionality, a Skype for Business Plan 2 license must be assigned."
+      explanation: "Calling Plan licenses aren't required to use Direct Routing. Additionally, to enable Enterprise Voice functionality, a Skype for Business Plan 2 license must be assigned."
     - content: "Microsoft Teams, Teams Phone, Skype for Business Plan 2 and Audio Conferencing licenses"
       isCorrect: false
-      explanation: "Audio Conferencing is not required to enable Direct Routing, but can optionally be added on to allow a user to schedule meetings with a dial-in conferencing bridge number."
+      explanation: "Audio Conferencing isn't required to enable Direct Routing, but can optionally be added on to allow a user to schedule meetings with a dial-in conferencing bridge number."
     - content: "Microsoft Teams, Teams Phone, and Skype for Business Plan 2 licenses"
       isCorrect: true
-      explanation: "A Microsoft 365 E5 or Office 365 E5 SKU including Teams Phone licenses, or individual add-on licenses provide can be used to apply the above licenses. Calling Plan functionality is not required to use Direct Routing."
+      explanation: "A Microsoft 365 E5 or Office 365 E5 SKU including Teams Phone licenses, or individual add-on licenses provide can be used to apply the above licenses. Calling Plan functionality isn't required to use Direct Routing."
   - content: "When should an organization consider assigning a custom dial plan to a user?"
     choices:
     - content: "To assign a plan that grants the ability for the Dial Pad to be shown in the Teams Client."
       isCorrect: false
       explanation: "Enabling Teams Voice services for a user enables the Dial Pad functionality in the client. The Dial Plan translates dialed numbers, via normalization, into a format that is recognized by Teams and matches call authorization and voice routing rules."
-    - content: "To ensure a user follows a specified format when dialing numbers, so that incorrectly formatted numbers cannot be dialed."
+    - content: "To ensure a user follows a specified format when dialing numbers, so that incorrectly formatted numbers can't be dialed."
       isCorrect: false
-      explanation: "A dial plan allows a user to enter numbers in format they are most familiar with using local conventions rather than enforce a particular format (such as E.164). The dial plan normalizes and translates the number dialed into a format that matches call authorization and voice routing rules."
-    - content: "To enable a user to dial out using local format they are familiar with and translate the number into an alternate format."
+      explanation: "A dial plan allows a user to enter numbers in format they're most familiar with using local conventions rather than enforce a particular format (such as E.164). The dial plan normalizes and translates the number dialed into a format that matches call authorization and voice routing rules."
+    - content: "To enable a user to dial out using the local format they're familiar with and translate the number into an alternate format."
       isCorrect: true
       explanation: "A dial plan is a named set of normalization rules that translate dialed phone numbers by an individual user into an alternate format (typically E.164) for purposes of call authorization and voice routing. They describe how phone numbers expressed in various formats are translated to an alternate format."
