@@ -91,7 +91,7 @@ There are no limits to the number of users, mailboxes, or sites that a retention
 
 ### Task 7: Configure sensitive information and offensive language policies
 
-Protecting sensitive information and detecting and acting on workplace harassment incidents is an important part of compliance with internal policies and standards. Communication compliance in Microsoft 365 helps minimize these risks by helping organizations quickly detect, capture, and take remediation actions for email and Microsoft Teams communications. These risks include:
+Protecting sensitive information and detecting and acting on workplace harassment incidents is an important part of compliance with internal policies and standards. Communication compliance helps minimize these risks by helping organizations quickly detect, capture, and take remediation actions for email and Microsoft Teams communications. These risks include:
 
  -  Inappropriate communications containing profanity, threats, and harassment.
  -  Communications that share sensitive information inside and outside of the organization.
