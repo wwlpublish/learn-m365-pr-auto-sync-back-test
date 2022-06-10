@@ -2,11 +2,21 @@ Several countries/regions around the world have specific regulations and policie
 
 A Public Safety Answering Point (PSAP) is a call center where emergency calls are routed. They will talk to the caller and displace the appropriate services, like police, fire brigade or ambulance.
 
-Microsoft Teams supports "emergency calling," which ties a specific static address to a phone number, and "dynamic emergency calling," which provides the capability to provide the current location of the user based on the network they are currently connected to.
+Microsoft Teams supports "emergency calling," which ties a specific static address to a phone number, and "dynamic emergency calling," which provides the capability to provide the current location of the user based on location services of the operating system or an end-user confirmed address.
 
 We are looking at configuring Emergency Calling addresses first in this module as a phone number must be aligned to an emergency calling address. How this is configured varies by country/region. In the United States, you need to associate an emergency location when you assign the phone number to the user. In Europe, you need to associate an emergency location to the phone number when you acquire the phone numbers from Microsoft or your Operator Connect provider.
 
 ## Define emergency calling addresses
+
+Emergency addresses for Teams can be categorized by different types. The following list shows the location precedence used when an emergency number is dialed:
+
+1. A dynamically acquired address defined by the tenant administer in the Location Information Service.
+
+1. An address the end user confirmed, edited, or manually entered which is associated to the local network the Teams client is connected to.
+
+1. An address automatically suggested by the operating system.
+
+1. An address the administrator statically assigns to the user.
 
 To add phone numbers to Teams, the first step is to configure emergency addresses. To Assign Calling plan numbers successfully in many European countries/regions such as Belgium, France, Germany, Ireland, Netherlands, and Spain, the emergency address must match the area code of the phone number area code of the number ordered from Microsoft.
 
@@ -115,7 +125,7 @@ After performing the described steps, you have configured your emergency calling
 
 Dynamic emergency calling provides the capability to configure and route emergency calls, provide the correct emergency calling address, and optionally notify security personnel (via emergency calling policies) based on the current network location of the Teams client.
 
-For Microsoft Calling Plan users, dynamic location for routing emergency calls is only supported in the United States.
+Although this information applies to emergency 911 calling in the United States, user-entered locations will be conveyed to the screening center in Canada as well.
 
 This works by the Teams voice administrator populating a database that maps specific network address to physical locations/addresses. Location Information Service (LIS) is the service that provides the correct details to the Teams client.
 
@@ -170,3 +180,26 @@ This is configured by following these steps:
 
 After performing the described steps, you have mapped a network to an emergency address location.
 
+## Enable end users to configure their emergency address
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Voice > Emergency policies**.
+
+1. Select **Add**.
+
+1. Enter a name for the emergency calling policy, for example, "E911WFH".
+
+1. Turn on **External location lookup mode**.
+
+1. Select **Apply**.
+
+1. Grant the new emergency calling policy using the same methods discussed earlier.
+
+After enabling this feature for your end users, from the Calls tab, the user can add, edit, or confirm an emergency address and display the address after it is set. Keep the following in mind:
+
+1. The work-from-home experience described is for Teams desktop on Windows and Mac.
+
+1. Teams phones do not support the work-from-home experience.
+
+1. Teams mobile supports automatic location detection but not the user entered experience described.
+
+1. Privacy settings can conflict with automatic location detection - Mobile Device Management systems can be used.
