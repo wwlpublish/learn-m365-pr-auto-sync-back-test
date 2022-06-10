@@ -19,12 +19,12 @@ quiz:
   questions:
   - content: "When the Information Barriers policy administrator makes changes to a policy, what service automatically searches the members to ensure their membership in the team doesn't violate any policies?"
     choices:
-    - content: "Mictrosoft Purview compliance service"
+    - content: "Microsoft Purview information compliance service"
       isCorrect: false
-      explanation: "Incorrect. There is no such service that deals with information barriers."
+      explanation: "Incorrect. There's no such service that deals with information barriers."
     - content: "Microsoft Teams Information Barriers service"
       isCorrect: false
-      explanation: "Incorrect. There is no such service that deals with information barriers."
+      explanation: "Incorrect. There's no such service that deals with information barriers."
     - content: "Information Barrier Policy Evaluation service"
       isCorrect: true
       explanation: "Correct. When the IB policy administrator makes changes to a policy, or when a policy change is activated because of a change to a user's profile (such as for a job change), the Information Barrier Policy Evaluation Service automatically searches the members to ensure their membership in the team doesn't violate any policies."

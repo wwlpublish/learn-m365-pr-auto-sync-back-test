@@ -44,7 +44,7 @@ quiz:
     - content: "The SharePoint site is used for collaboration between incompatible segments moderated by the site owner"
       isCorrect: false
       explanation: "Incorrect. This item is the description of a SharePoint site whose IB mode is set to Owner Moderator."
-    - content: "The SharePont site doesn't have segments"
+    - content: "The SharePoint site doesn't have segments"
       isCorrect: true
       explanation: "Correct. When a SharePoint site doesn't have segments, the site's IB mode is automatically set as Open. An example of this mode is a Team site that's created for the company's annual picnic."
     - content: "The SharePoint site is provisioned by Microsoft Teams"
