@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-data-loss-prevention-policies.configure-email-notifications-for-dlp-policies
+title: Configure email notifications for DLP policies
+metadata:
+  title: Configure email notifications for DLP policies
+  description: "Configure email notifications for DLP policies"
+  ms.date: 06/10/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/6-configure-email-notifications-for-dlp-policies.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for World Wide Importers, Allan Deyoung wants to create a DLP policy to identify, monitor, and protect sensitive information across the company's Microsoft 365 tenant. As part of the DLP policy, Allan wants to configure it to send both user notifications and policy tips. Which of the following items is an action that Allan can configure when sending an email notification or a policy tip?"
+    choices:
+    - content: "Send email notifications to groups"
+      isCorrect: false
+      explanation: "Incorrect. Email notifications can only be sent to individual recipients. Notifications can't be sent to groups or distribution lists."
+    - content: "Send policy tips when editing existing content"
+      isCorrect: true
+      explanation: "Correct. Only new content will trigger an email notification. Editing existing content will trigger policy tips, but not email notifications."
+    - content: "Send email notifications to external senders"
+      isCorrect: false
+      explanation: "Incorrect. External senders don't receive notifications. Notifications go only to internal users."

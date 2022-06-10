@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-data-loss-prevention-policies.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 06/10/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Designing a DLP policy typically involves which of the following actions?"
+    choices:
+    - content: "Identify your stakeholders"
+      isCorrect: false
+      explanation: "Incorrect. This action should be completed when planning your Microsoft Purview DLP implementation."
+    - content: "Identify the categories of sensitive information to protect"
+      isCorrect: false
+      explanation: "Incorrect. This action should be completed when planning your Microsoft Purview DLP implementation."
+    - content: "Clearly define your business needs"
+      isCorrect: true
+      explanation: "Correct. Designing a DLP policy typically involves clearly defining your business needs. Once its business needs are defined, an organization should then document them in a policy intent statement, and then map those needs to its policy configuration."
+  - content: "When using a policy tip to override a rule, the option to override is per rule. As such, it overrides all the actions in the rule, with one exception. Which of the following actions is the one exception?"
+    choices:
+    - content: "Sending a notification"
+      isCorrect: true
+      explanation: "Correct. The option to override is per rule. It overrides all the actions in the rule, with one exception. The Sending a notification action can't be overridden."
+    - content: "Block access to the content"
+      isCorrect: false
+      explanation: "Incorrect. This action can be overridden."
+    - content: "Restrict copying a sensitive item to a removeable USB device"
+      isCorrect: false
+      explanation: "Incorrect. This action isn't the one exception."
+  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer was a bit confused as to how a notice appeared on the Microsoft Purview compliance portal's Home page that indicated someone had sent an email containing a credit card number. Fabrikam's DLP project team, which Holly was leading, had yet to create its first DLP policy. Without a custom DLP policy in place, how could this DLP violation have been caught?"
+    choices:
+    - content: "Microsoft Purview DLP includes multiple templates that are constantly checking for specific violations"
+      isCorrect: false
+      explanation: "Incorrect. DLP does include templates, but they're used for creating custom DLP policies. They're not actively checking for DLP violations."
+    - content: "Microsoft Purview DLP has a default policy that's in-place and running"
+      isCorrect: true
+      explanation: "Correct. Before an organization even creates its first Microsoft Purview Data Loss Prevention (DLP) policy, DLP is helping to protect its sensitive information with a default policy. The default policy helps keep an organization's sensitive content secure by notifying it when email or documents containing a credit card number are shared with someone outside the organization. This recommendation is displayed in a tile on the Home page of the Microsoft Purview compliance portal."
+    - content: "Exchange Online has a built-in DLP policy that checks for emails containing sensitive data"
+      isCorrect: false
+      explanation: "Incorrect. Exchange Online doesn't include a built-in DLP policy checking for sensitive data."

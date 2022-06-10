@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-data-loss-prevention-policies.configure-policy-tips-for-dlp-policies
+title: Configure policy tips for DLP policies
+metadata:
+  title: Configure policy tips for DLP policies
+  description: "Configure policy tips for DLP policies"
+  ms.date: 06/10/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/7-configure-policy-tips-for-dlp-policies.md)]
