@@ -11,177 +11,17 @@ In Microsoft Purview, DLP policy evaluation of sensitive items occurs centrally.
 
 Endpoint DLP enables organizations to audit and manage the following types of activities users take on sensitive items that are physically stored Windows 10, Windows 11, or macOS devices.
 
-:::row:::
-  :::column:::
-    **Activity**
-  :::column-end:::
-  :::column:::
-    **Description**
-  :::column-end:::
-  :::column:::
-    **Windows 10 1809 and later/ Windows 11**
-  :::column-end:::
-  :::column:::
-    **macOS Catalina 10.15**
-  :::column-end:::
-  :::column:::
-    **Auditable/restrictable**
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Upload to cloud service, or access by unallowed browsers.
-  :::column-end:::
-  :::column:::
-    Detects when a user attempts to upload an item to a restricted service domain or access an item through a browser. If they're using a browser that'is listed in Microsoft Purview DLP as an unallowed browser, the upload activity will be blocked and the user's redirected to use Microsoft Edge. Microsoft Edge will then either allow or block the upload or access based on the DLP policy configuration.
-  :::column-end:::
-  :::column:::
-    Supported
-  :::column-end:::
-  :::column:::
-    Supported
-  :::column-end:::
-  :::column:::
-    Auditable and restrictable
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Copy to another app, process, or item.
-  :::column-end:::
-  :::column:::
-    Detects when a user attempts to copy information from a protected item and then paste it into another app, process, or item. This activity doesn't detect copying and pasting of information within the same app, process, or item.
-  :::column-end:::
-  :::column:::
-    Supported
-  :::column-end:::
-  :::column:::
-    Supported
-  :::column-end:::
-  :::column:::
-    Auditable and restrictable
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Copy to USB removable media.
-  :::column-end:::
-  :::column:::
-    Detects when a user attempts to copy an item or information to removable media or USB device.
-  :::column-end:::
-  :::column:::
-    Supported
-  :::column-end:::
-  :::column:::
-    Supported
-  :::column-end:::
-  :::column:::
-    Auditable and restrictable
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Copy to a network share.
-  :::column-end:::
-  :::column:::
-    Detects when a user attempts to copy an item to a network share or mapped network drive.
-  :::column-end:::
-  :::column:::
-    Supported
-  :::column-end:::
-  :::column:::
-    Supported
-  :::column-end:::
-  :::column:::
-    Auditable and restrictable
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Print a document.
-  :::column-end:::
-  :::column:::
-    Detects when a user attempts to print a protected item to a local or network printer.
-  :::column-end:::
-  :::column:::
-    Supported
-  :::column-end:::
-  :::column:::
-    Supported
-  :::column-end:::
-  :::column:::
-    Auditable and restrictable
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Copy to a remote session.
-  :::column-end:::
-  :::column:::
-    Detects when a user attempts to copy an item to a remote desktop session.
-  :::column-end:::
-  :::column:::
-    Supported
-  :::column-end:::
-  :::column:::
-    Not supported
-  :::column-end:::
-  :::column:::
-    Auditable and restrictable
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Copy to a Bluetooth device.
-  :::column-end:::
-  :::column:::
-    Detects when a user attempts to copy an item to an unallowed Bluetooth app (as defined in the list of unallowed Bluetooth apps in the Endpoint DLP settings).
-  :::column-end:::
-  :::column:::
-    Supported
-  :::column-end:::
-  :::column:::
-    Not supported
-  :::column-end:::
-  :::column:::
-    Auditable and restrictable
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Create an item.
-  :::column-end:::
-  :::column:::
-    Detects when a user creates an item.
-  :::column-end:::
-  :::column:::
-    Supported
-  :::column-end:::
-  :::column:::
-    
-  :::column-end:::
-  :::column:::
-    Auditable
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Rename an item.
-  :::column-end:::
-  :::column:::
-    Detects when a user renames an item.
-  :::column-end:::
-  :::column:::
-    Supported
-  :::column-end:::
-  :::column:::
-    
-  :::column-end:::
-  :::column:::
-    Auditable
-  :::column-end:::
-:::row-end:::
-
+| **Activity**                                              | **Description**                                                                                                                                                                                                                                                                                                                                                                                                | **Windows 10 1809 and later/ Windows 11** | **macOS Catalina 10.15** | **Auditable/restrictable** |
+| --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | ------------------------ | -------------------------- |
+| Upload to cloud service, or access by unallowed browsers. | Detects when a user attempts to upload an item to a restricted service domain or access an item through a browser. If they're using a browser that'is listed in Microsoft Purview DLP as an unallowed browser, the upload activity will be blocked and the user's redirected to use Microsoft Edge. Microsoft Edge will then either allow or block the upload or access based on the DLP policy configuration. | Supported                                 | Supported                | Auditable and restrictable |
+| Copy to another app, process, or item.                    | Detects when a user attempts to copy information from a protected item and then paste it into another app, process, or item. This activity doesn't detect copying and pasting of information within the same app, process, or item.                                                                                                                                                                            | Supported                                 | Supported                | Auditable and restrictable |
+| Copy to USB removable media.                              | Detects when a user attempts to copy an item or information to removable media or USB device.                                                                                                                                                                                                                                                                                                                  | Supported                                 | Supported                | Auditable and restrictable |
+| Copy to a network share.                                  | Detects when a user attempts to copy an item to a network share or mapped network drive.                                                                                                                                                                                                                                                                                                                       | Supported                                 | Supported                | Auditable and restrictable |
+| Print a document.                                         | Detects when a user attempts to print a protected item to a local or network printer.                                                                                                                                                                                                                                                                                                                          | Supported                                 | Supported                | Auditable and restrictable |
+| Copy to a remote session.                                 | Detects when a user attempts to copy an item to a remote desktop session.                                                                                                                                                                                                                                                                                                                                      | Supported                                 | Not supported            | Auditable and restrictable |
+| Copy to a Bluetooth device.                               | Detects when a user attempts to copy an item to an unallowed Bluetooth app (as defined in the list of unallowed Bluetooth apps in the Endpoint DLP settings).                                                                                                                                                                                                                                                  | Supported                                 | Not supported            | Auditable and restrictable |
+| Create an item.                                           | Detects when a user creates an item.                                                                                                                                                                                                                                                                                                                                                                           | Supported                                 |                          | Auditable                  |
+| Rename an item.                                           | Detects when a user renames an item.                                                                                                                                                                                                                                                                                                                                                                           | Supported                                 |                          | Auditable                  |
 
 ### Best practice for endpoint DLP policies
 
@@ -224,73 +64,13 @@ If an organization only wants monitoring data from policy matches, it can turn o
 
 File Types are a grouping of file formats. Each file type is utilized to protect specific workflows or areas of business. Organizations can use one or more File types as conditions in their DLP policies.
 
-:::row:::
-  :::column:::
-    **File type**
-  :::column-end:::
-  :::column:::
-    **App**
-  :::column-end:::
-  :::column:::
-    **Monitored file extensions**
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    word processing
-  :::column-end:::
-  :::column:::
-    Word, PDF
-  :::column-end:::
-  :::column:::
-    .doc, .docx, .docm, .dot, .dotx, .dotm, .docb, .pdf
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    spreadsheet
-  :::column-end:::
-  :::column:::
-    Excel, CSV, TSV
-  :::column-end:::
-  :::column:::
-    .xls, .xlsx, .xlt, .xlm, .xlsm, .xltx, .xltm, .xlsb, .xlw, .csv, .tsv
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    presentation
-  :::column-end:::
-  :::column:::
-    PowerPoint
-  :::column-end:::
-  :::column:::
-    .ppt, .pptx, .pos, .pps, .pptm, .potx, .potm, .ppam, .ppsx
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    archive
-  :::column-end:::
-  :::column:::
-    file archive and compression tools
-  :::column-end:::
-  :::column:::
-    .zip, .zipx, .rar, .7z, .tar, .gz
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    email
-  :::column-end:::
-  :::column:::
-    Outlook
-  :::column-end:::
-  :::column:::
-    .pst, .ost, .msg
-  :::column-end:::
-:::row-end:::
-
+| **File type**   | **App**                            | **Monitored file extensions**                                         |
+| --------------- | ---------------------------------- | --------------------------------------------------------------------- |
+| word processing | Word, PDF                          | .doc, .docx, .docm, .dot, .dotx, .dotm, .docb, .pdf                   |
+| spreadsheet     | Excel, CSV, TSV                    | .xls, .xlsx, .xlt, .xlm, .xlsm, .xltx, .xltm, .xlsb, .xlw, .csv, .tsv |
+| presentation    | PowerPoint                         | .ppt, .pptx, .pos, .pps, .pptm, .potx, .potm, .ppam, .ppsx            |
+| archive         | file archive and compression tools | .zip, .zipx, .rar, .7z, .tar, .gz                                     |
+| email           | Outlook                            | .pst, .ost, .msg                                                      |
 
 If the File types don't cover the file extensions an organization needs to list as a condition in a policy, it can use file extensions separated by commas instead.<br>
 

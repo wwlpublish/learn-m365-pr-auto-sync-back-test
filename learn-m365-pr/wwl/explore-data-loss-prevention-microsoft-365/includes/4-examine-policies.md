@@ -50,73 +50,17 @@ Organizations have flexibility in how they create and configure their DLP polici
      -  A custom policy uses the available sensitive information types, retention labels, and sensitivity labels.
 2.  **Choose where you want to monitor**. Organizations can pick one or more locations they want DLP to monitor for sensitive information. The following table displays the list of locations that can be monitored.
     
-    :::row:::
-      :::column:::
-        **Location**
-      :::column-end:::
-      :::column:::
-        **Include/Exclude by:**
-      :::column-end:::
-    :::row-end:::
-    :::row:::
-      :::column:::
-        Exchange email
-      :::column-end:::
-      :::column:::
-        distribution groups
-      :::column-end:::
-    :::row-end:::
-    :::row:::
-      :::column:::
-        SharePoint sites
-      :::column-end:::
-      :::column:::
-        sites
-      :::column-end:::
-    :::row-end:::
-    :::row:::
-      :::column:::
-        OneDrive accounts
-      :::column-end:::
-      :::column:::
-        accounts or distribution groups
-      :::column-end:::
-    :::row-end:::
-    :::row:::
-      :::column:::
-        Teams chat and channel messages
-      :::column-end:::
-      :::column:::
-        account or distribution group
-      :::column-end:::
-    :::row-end:::
-    :::row:::
-      :::column:::
-        Windows 10, Windows 11, and macOS (Catalina 10.15 and higher) devices
-      :::column-end:::
-      :::column:::
-        user or group
-      :::column-end:::
-    :::row-end:::
-    :::row:::
-      :::column:::
-        Microsoft Cloud App Security
-      :::column-end:::
-      :::column:::
-        instance
-      :::column-end:::
-    :::row-end:::
-    :::row:::
-      :::column:::
-        On-premises repositories
-      :::column-end:::
-      :::column:::
-        repository file path
-      :::column-end:::
-    :::row-end:::
-    
+    | **Location**                                                          | **Include/Exclude by:**         |
+    | --------------------------------------------------------------------- | ------------------------------- |
+    | Exchange email                                                        | distribution groups             |
+    | SharePoint sites                                                      | sites                           |
+    | OneDrive accounts                                                     | accounts or distribution groups |
+    | Teams chat and channel messages                                       | account or distribution group   |
+    | Windows 10, Windows 11, and macOS (Catalina 10.15 and higher) devices | user or group                   |
+    | Microsoft Cloud App Security                                          | instance                        |
+    | On-premises repositories                                              | repository file path            |
 3.  **Choose the conditions that must be matched for a policy to be applied to an item**. Organizations can accept pre-configured conditions or define custom conditions. Some examples are:
-     -  The Item contains a specified kind of sensitive information that is being used in a certain context. For example, 95 social security numbers being emailed to a recipient outside the organization.
+     -  The Item contains sensitive information that's used in a certain context. For example, 95 social security numbers being emailed to a recipient outside the organization.
      -  The item has a specified sensitivity label.
      -  The item with sensitive information is shared either internally or externally.
 4.  **Choose the action to take when the policy conditions are met**. The actions depend on the location where the activity is happening. Some examples are:
