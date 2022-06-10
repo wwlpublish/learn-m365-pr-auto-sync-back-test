@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Implement Data Loss Prevention policies
-summary: This module examines how organizations can use Microsoft Purview data loss prevention to help protect sensitive data and define the protective actions that organizations can take when a DLP rule is violated.
+summary: This module examines how organizations can use Microsoft Purview Data Loss Prevention to help protect sensitive data and define the protective actions that organizations can take when a DLP rule is violated.
 abstract: |
   By the end of this module, you'll be able to:
   *  Create a data loss prevention implementation plan.
