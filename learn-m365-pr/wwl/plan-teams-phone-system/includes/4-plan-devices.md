@@ -1,5 +1,6 @@
-Microsoft Teams supports a portfolio of desk phones for users who require a traditional phone experience. This unit provides an overview of Teams phones and can help in planning, delivering, and managing Microsoft Teams phones as part of your Microsoft Phone System solution.
-To deliver a high-quality and reliable Microsoft Teams experience on phones, we are partnering and actively working with Yealink, Crestron, Lenovo, Polycom, and AudioCodes to develop and certify a wide portfolio of desk phones and conference room audio devices. To manage phones, you need to be a Global admin, Teams Service admin, or Teams Device admin.
+Microsoft Teams supports a portfolio of desk phones for users who require a traditional phone experience. This unit provides an overview of Teams phones and can help in planning, delivering, and managing Microsoft Teams Phone devices as part of your Microsoft Phone solution.
+
+To deliver a high-quality and reliable Microsoft Teams experience on phones, we're partnering with Yealink, Crestron, Lenovo, Poly, and AudioCodes to develop and certify a wide portfolio of desk phones and conference room audio devices. To manage phones, you need to be a Global admin, Teams Service admin, or Teams Device admin.
 
 ## Features supported by Teams phones
 
@@ -40,8 +41,8 @@ For more information and a list of compatible devices, see [Plan for SIP Gateway
 
 If you have a 3PIP or SIP device, you must have:
 
-- A license for Phone System (via E5 or a standalone license)
+- A license for Teams Phone (via E5 or a standalone license)
 
-- PSTN enablement (i.e., a phone number) via a Microsoft Teams Calling Plan, Direct Routing, or Operator Connect
+- PSTN enablement (that is, a phone number) via a Microsoft Teams Calling Plan, Direct Routing, or Operator Connect
 
 - A Common Area Phone license for any common area devices

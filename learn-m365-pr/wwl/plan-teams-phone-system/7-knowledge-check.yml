@@ -21,21 +21,21 @@ quiz:
     choices:
     - content: "Teams Phone"
       isCorrect: false
-      explanation: "That isn't correct. This is a generic term used to describe multiple technologies."
+      explanation: "That option isn't correct. Teams Phone describes the set of telephony features, but not how it will connect to the PSTN."
     - content: "Teams Phone with Direct Routing"
       isCorrect: true
-      explanation: "That is correct. Teams Phone with Direct Routing works through Session Border Controllers."
+      explanation: "That option is correct. Teams Phone with Direct Routing works through Session Border Controllers."
     - content: "Teams Phone with Calling Plan"
       isCorrect: false
-      explanation: "That isn't correct. Teams Phone with Calling Plans is a technology that does not make use of Session Border Controllers."
+      explanation: "That option isn't correct. Teams Phone with Calling Plans is a technology that doesn't make use of Session Border Controllers."
   - content: "What is the name of the feature that allows for users to share their phone line so that another user can make and receive calls on their behalf?"
     choices:
     - content: "Shared Line Appearance"
       isCorrect: true
-      explanation: "That is correct. Shared line appearance feature allows for users to share their phone line so that another user can make and receive calls on their behalf."
+      explanation: "That option is correct. Shared line appearance feature allows for users to share their phone line so that another user can make and receive calls on their behalf."
     - content: "Device Switching"
       isCorrect: false
-      explanation: "That isn't correct. Device switching lets users play a call or meeting on another HID device that is connected to Teams; for example, switching from their PC speakers to a headset."
+      explanation: "That option isn't correct. Device switching lets users play a call or meeting on another HID device that is connected to Teams; for example, switching from their PC speakers to a headset."
     - content: "Federated Calling"
       isCorrect: false
-      explanation: "That isn't correct. Federated Calling lets users securely connect, communicate, and collaborate with users in federated tenants."
+      explanation: "That option isn't correct. Federated Calling lets users securely connect, communicate, and collaborate with users in federated tenants."
