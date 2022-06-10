@@ -11,14 +11,14 @@ metadata:
 title: Configure, deploy, and manage Teams devices
 summary: Teams devices provide a familiar experience and are essential for a hybrid workspace. Learn how to provision and manage devices, and associated device accounts.
 abstract: |
-  At the end of this module, you will be able to:
+  At the end of this module, you'll be able to:
   - Understand scenarios for using Teams Phones, Teams Displays, and Microsoft Teams Rooms with voice services.
   - Differentiate between the different options for deployment and management of devices.
   - Deploy Teams Phones and Teams Displays.
   - Configure voice services for Microsoft Teams Rooms.
   - Manage Teams Devices in the Teams Admin Center.
 prerequisites: |
-  - Familiarity with Microsoft Teams voice services
+  - Familiarity with Microsoft Teams Phone
   - Understanding of the Teams Admin Center and PowerShell
 iconUrl: /learn/achievements/2-configure-deploy-and-manage-teams-devices.svg
 levels:

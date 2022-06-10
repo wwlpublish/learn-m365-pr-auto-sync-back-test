@@ -1,7 +1,16 @@
-Microsoft Teams Rooms are the native meeting room system solution for Teams. These include functionality to support traditional meeting rooms experiences, such as audio, video, and screen sharing. Microsoft Teams Rooms also support advanced capabilities including multi-screen support, meeting transcription, smart room speakers that identify who is speaking, and meeting views, such as Together Mode and receive regular updates to functionality from Microsoft. 
-Microsoft Teams Rooms scale to different room sizes. Teams Rooms use a wide variety of certified audio and video peripherals based on the size and use of the room. By selecting the right core device and console, combined with microphones, speakers, cameras, and displays appropriate for the space, you can deploy Microsoft Teams Rooms into spaces of any size from small huddle spaces up through large conference spaces and boardrooms. 
+Microsoft Teams Rooms are the native meeting room system solution for Teams. These devices include functionality to support traditional meeting room experiences, such as audio, video, and screen sharing. Microsoft Teams Rooms also support advanced capabilities, such as multi-screen support, meeting transcription, smart room speakers that identify active speakers, and meeting views, such as Together-Mode and receive regular updates to functionality from Microsoft.
 
-In the following picture, you can see the key benefits of deploying Microsoft Teams Rooms. These include the ability to transform existing meeting rooms by adding Teams, fit into different spaces from huddle rooms, personal offices to large event and board rooms, simple management with integration into the Teams Admin Center, and the ability to connect with third-party hardware and software solutions that are certified for use.
+Microsoft Teams Rooms scale to different room sizes. Teams Rooms use a wide variety of certified audio and video peripherals based on the size and use of the room. By selecting the right core device and console, combined with microphones, speakers, cameras, and displays appropriate for the space, Microsoft Teams Rooms can be deployed into spaces of any size - from small huddle spaces to large conference spaces and boardrooms. 
+
+In the following picture, you can see the key benefits of deploying Microsoft Teams Rooms. These benefits include:
+
+- The ability to transform existing meeting rooms by adding Teams.
+
+- The ability to fit into different spaces from huddle rooms, personal offices to large event and board rooms.
+
+- Simple management with integration into the Teams Admin Center.
+
+- The ability to connect with third-party hardware and software solutions that are certified for use.
 
 > [!div class="mx-imgBorder"]
 > [ ![Key benefits of Microsoft Teams Rooms are shown in this image. Transform your meeting room with Teams, showing a room console. Make any space a Teams meeting place, showing an executive chair. Easy to deploy, simple to manage, showing a spanner and a cog. Connect with hardware and software, showing a connected mesh to signify a rich ecosystem.](../media/managing-teams-room-systems.png) ](../media/managing-teams-room-systems.png#lightbox)
@@ -10,7 +19,7 @@ Microsoft Teams devices are designed to help people maximize the power of Teams 
 
 There are two types of Microsoft Teams Room systems, Windows, and Android. Microsoft Teams Rooms on Windows (MTRoW) run Windows 10 and typically include a Surface Pro device or a certified PC device and center room touchscreen. MTRoW devices are usually designed for larger meeting spaces, such as medium and large meeting rooms and support usage with a wide range of certified Teams devices.
 
-Microsoft Teams Rooms on Android (MTRoA) devices run similar software to Microsoft Teams Phone and Displays and are managed using similar concepts. They are typically designed for smaller meeting spaces, including huddle rooms or small meetings rooms, and are also suitable for personal meeting room devices dedicated to a specific user. Like MTRoW devices, these devices can also have a center room touchscreen attached and HDMI ingest for screen sharing and support multiple screens.
+Microsoft Teams Rooms on Android (MTRoA) devices run similar software to Microsoft Teams Phone and Displays and are managed using similar concepts. They're typically designed for smaller meeting spaces, including huddle rooms or small meetings rooms, and are also suitable for personal meeting room devices dedicated to a specific user. Like MTRoW devices, these devices can also have a center room touchscreen attached and HDMI ingest for screen sharing and support multiple screens.
 
 ## Licensing requirements
 
@@ -20,7 +29,7 @@ Microsoft Teams Room Systems require a license. Two dedicated SKUs are available
 | :--- | :--- | :--- |
 | **Skype for Business**| Yes| Yes|
 | **Microsoft Teams**| Yes| Yes|
-| **Phone System**| Yes| Yes|
+| **Teams Phone**| Yes| Yes|
 | **Audio Conferencing**| Yes| Yes|
 | **Microsoft Intune**| Yes| Yes|
 | **Managed Services**| No| Yes|
@@ -40,7 +49,7 @@ The easiest way to manage Teams Rooms is to let it manage itself. When run in an
 
 By using Microsoft Endpoint Manager Configuration Manager, you can deploy operating software for Microsoft Teams Rooms to multiple devices and using Operating System Deployment (OSD) functionality, packages, and task sequences. Using this approach requires creation of defined packages, task sequences, and allows deployment of the monitoring agent to managed devices. This approach is validated for Surface Pro-based Microsoft Teams Rooms by Microsoft and requires vendor guidance for non-Surface Pro based devices.
 
-Azure Monitor allows you to leverage cloud-based integrated end-to-end management of Microsoft Teams Rooms devices, using Log Analytics within Azure Monitor to provide basic telemetry and alerts. This allows configuration of a dashboard view of device heartbeat status, hardware status, operating system details, deployed Microsoft Teams Room application software versions, application errors, and other information including device restarts.
+Azure Monitor allows you to leverage cloud-based integrated end-to-end management of Microsoft Teams Rooms devices, using Log Analytics within Azure Monitor to provide basic telemetry and alerts. Azure Monitor also allows configuration of a dashboard view of device heartbeat status, hardware status, operating system details, deployed Microsoft Teams Room application software versions, application errors, and other information including device restarts.
 
 > [!div class="mx-imgBorder"]
 > [ ![A screenshot of the Microsoft Azure portal, showing the Azure Monitor user interface. It shows connected Microsoft Teams Room systems data for 3 active devices, and shows data such as the inactive devices, devices that have experienced a hardware error and deployed operating system versions.](../media/azure-monitor-dashboard.png) ](../media/azure-monitor-dashboard.png#lightbox)
@@ -58,7 +67,7 @@ The Microsoft Teams Rooms managed service is for organizations wanting to improv
 | Intelligent, managed updates| Customer| Customer + Microsoft|
 | Best practices applied to remote remediations and guidance on in-person remediations| Customer| Customer + Microsoft|
 | Correlated insights across your eco-system| Customer| Microsoft|
-| Threat detection and security KBs| Customer| Microsoft|
+| Threat detection and security updates| Customer| Microsoft|
 
 ## Creating room accounts
 
@@ -99,7 +108,7 @@ For more information, see [Create and configure resource accounts for rooms and 
 
 ## Enabling Voice for Microsoft Teams Room Systems
 
-As an optional step, after creation of a Microsoft Teams Room device account, complete the voice configuration for the Room account by enabling voice services for the account. If you don’t enable voice services, then users will not be able to dial-out from a Microsoft Teams Room.
+As an optional step, after creation of a Microsoft Teams Room device account, complete the voice configuration for the Room account by enabling voice services for the account. If you don’t enable voice services, then users won't be able to dial-out from a Microsoft Teams Room.
 
 A standard or premium Meeting Room system license includes a Phone System license, however, unless Direct Routing is in use, a Calling Plan license will also need to be applied.
 
@@ -110,9 +119,9 @@ Set-CsPhoneNumberAssignment -Identity "MicrosoftTeamsRoom@contoso.com" -Enterpri
 
 ```
 
-The cmdlet does not provide any output if activation is successful.
+The cmdlet doesn't provide any output if activation is successful.
 
-After enabling voice services for a device account the Microsoft Teams Room will display a dial-pad. This will allow the user to dial in to a third-party PSTN conference bridge from the Microsoft Teams Room or perform direct calls to individual subscribers.
+After enabling voice services for a device account, the Microsoft Teams Room will display a dial-pad. This configuration will allow the user to dial in to a third-party PSTN conference bridge from the Microsoft Teams Room or perform direct calls to individual subscribers.
 
 ## Microsoft Teams Room policy options
 
