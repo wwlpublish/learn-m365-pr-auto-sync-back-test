@@ -10,7 +10,7 @@ There are two type of team templates.
 
     Base template types are special templates that Microsoft created for specific industries. These base templates often contain proprietary apps that aren't available in the store and team properties that are not yet supported individually in Teams templates.
 
-    Once a base template type is defined, you can extend or override these special templates with additional properties that you'd like to specify. But some base template types contain properties that can't be overridden. For the available base template types, see [base template types](https://docs.microsoft.com/microsoftteams/get-started-with-teams-templates?azure-portal=true#team-template-capabilities).
+    Once a base template type is defined, you can extend or override these special templates with additional properties that you'd like to specify. But some base template types contain properties that can't be overridden. For the available base template types, see [base template types](/microsoftteams/get-started-with-teams-templates?azure-portal=true#team-template-capabilities).
 
 * **Custom template**
 
@@ -89,13 +89,21 @@ Manage the team templates that your end users see by creating templates policies
 
 8. Select **Save**.
 
+    :::image type="content" source="../media/new-team-template-polocy.png" alt-text="Create templates policy":::
+
    Your new template policy is displayed in the **Templates Policies** list.
 
 ### Assign users to the template policies
 
-Users assigned to a policy will only be able to view the viewable templates within that policy.
+Users assigned to a policy will only be able to view the viewable templates within that policy. You can use the Teams admin center or PowerShell to assign a templates policy to:
+
+* An individual user or to a small number of users at a time
+* A batch of users or to large sets of users at a time
+
+To assign a templates policy to an individual user or to a small number of users at a time:
 
 1. From **Templates Policies**, select a policy, and then select **Manage users**.
 2. Type the users to assign to this policy.
 3. Select **Apply**.
 
+Keep in mind that it may take up to 24 hours for your new policy to take effect for your users.
