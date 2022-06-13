@@ -11,7 +11,7 @@ Policy type | Description | Policies |
 ------------|------------|---|
 Policy packages| A policy package is a collection of predefined policies and settings you can assign to users who have similar roles in your organization.| - Policy package
 Meeting policies | A meeting policy is used to control the features that are available to meeting participants for meetings scheduled by users in your organization. | - Meeting policy<br> - Live events policy| 
-Voice and calling policies| Voice and calling policies manage these settings through teams such as emergency calling, call routing, and caller ID.|- Call park policy<br> - Calling policy<br> - Caller ID policy<br> - Emergency calling policy<br> - Emergency call routing policy<br> - Dial plan<br> - Voice routing policy|
+Voice and calling policies| Voice and calling policies manage these settings through teams such as emergency calling, call routing, and caller ID.|- Calling policy<br>- Call park policy<br>- Caller ID policy<br> - Emergency policy<br> - Voice routing policy<br> - Voicemail policy <br>- Dial plan<br> |
 App policies| App policies are used to control applications in Microsoft Teams, such as allowing or blocking which apps users can install.|- App permission policy<br> - App setup policy|
 Chat, teams, and channel policies| Chat, teams, and channel policies control teams and collaboration feature availability.|- Messaging policy<br> - Templates policy<br> - Teams policy|
 Teams feature policy |Update policies are used to manage Teams and Office preview users that will see pre-release or preview features in the Teams app. |- Update policy|
@@ -61,8 +61,3 @@ A user has one effective policy for each policy type. A user's effective policy 
 > * Group policy assignments are only propagated to users who are direct members of the group. The assignments aren't propagated to members of nested groups.
 > *  If a user has a policy of a given type that was directly assigned to them, you have to remove that policy from the user before they can inherit a policy of the same type from a group.
 > * If you assign policies to batches of more than 20 users through the Microsoft Teams admin center, you can view the status of those policy assignments from the last 30 days in the Activity log (**Teams admin center** > **Dashboard** > **Activity Log**). 
-
-
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”
