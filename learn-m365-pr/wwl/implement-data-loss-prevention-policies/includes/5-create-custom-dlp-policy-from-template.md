@@ -60,7 +60,7 @@ Organizations can complete the following steps to create a DLP policy from a tem
      -  **Example 1.** To include or exclude an entire location such as all **Exchange email** or all **OneDrive accounts**, switch the **Status** of that location to **On** or **Off**.
      -  **Example 2.** To include only specific **SharePoint sites** or **OneDrive accounts**, switch the **Status** to **On**, and then select the links under **Include** to choose specific sites or accounts. When you apply a policy to a site, the rules configured in that policy are automatically applied to all subsites of that site.
     
-    In this example, to protect sensitive information stored in all OneDrive accounts, turn off the **Status** for both **Exchange email** and **SharePoint sites**, and leave the **Status** on for **OneDrive accounts**. Then select **Next**.
+    In this example, to protect sensitive information stored in all OneDrive accounts, turn off the**Status** for both **Exchange email** and **SharePoint sites**, and leave the **Status** on for **OneDrive accounts**. Then select **Next**.
     
     :::image type="content" source="../media/choose-locations-dlp-policy-wizard-998934b8.png" alt-text="Screenshot showing the choose locations to apply the policy page in the create policy wizard.":::
     
@@ -76,6 +76,6 @@ Organizations can complete the following steps to create a DLP policy from a tem
 9.  Select **Next.**
 10. On the **Test or turn on the policy** page, select whether to turn on the policy right away, or test it out first. Then select **Next**.
     
-    :::image type="content" source="../media/test-or-turn-on-policy-dlp-policy-wizard-d957e6a3.png" alt-text="Screenshot showing the test or turn on the policy page in the create policy wizard.":::
+    :::image type="content" source="../media/test-turn-on-policy-dlp-policy-wizard-5b32a8f4.png" alt-text="Screenshot showing the test or turn on the policy page in the create policy wizard.":::
     
 11. On the **Review your policy and create it** page, review the policy settings that you defined. If any options need to be changed, select the **Edit** option under the appropriate section and make the necessary changes. Once all settings are correct, select **Submit**.

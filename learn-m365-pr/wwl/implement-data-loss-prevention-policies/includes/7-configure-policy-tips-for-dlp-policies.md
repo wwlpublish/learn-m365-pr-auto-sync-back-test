@@ -51,12 +51,12 @@ When a document on a OneDrive for Business site or SharePoint Online site matche
 
 To take action on a document, you should first select an item. Then select the **Information** icon in the upper-right corner of the page to open the details pane and select the option to **View the policy tip**.
 
-:::image type="content" source="../media/view-the-policy-tip-screen-0ecbb775.png" alt-text="Screenshot of the information pane showing a policy tip with its various options.":::
+:::image type="content" source="../media/view-policy-tip-screen-8ac788bd.png" alt-text="Screenshot of the information pane showing a policy tip with its various options.":::
 
 
 The policy tip lists the issues with the content. If a policy tip is configured with these options, you can select **Resolve**. You can then select either **Override the policy tip** or **Report a false positive**.
 
-:::image type="content" source="../media/policy-tip-screen-with-resolve-and-override-options-7f18c6c2.png" alt-text="Screenshot of the policy tip screen with the resolve and override options.":::
+:::image type="content" source="../media/policy-tip-screen-resolve-override-options-872afedb.png" alt-text="Screenshot of the policy tip screen with the resolve and override options.":::
 
 
 DLP policies are synced to sites and contented is evaluated against them periodically and asynchronously. As a result, there may be a short delay between the time a DLP policy is created and the time that policy tips begin to appear. There may be a similar delay from when you resolve or override a policy tip to when the icon on the document on the site goes away.
@@ -84,17 +84,17 @@ When you compose a new email in Outlook on the web or Outlook 2013 and later, yo
 
 The policy tip appears at the top of the message, above the recipients, while the message is being composed.
 
-:::image type="content" source="../media/outlook-email-message-with-policy-tip-8b8a2825.png" alt-text="Screenshot of an email in Outlook that's displaying a sensitive data policy tip that's been highlighted.":::
+:::image type="content" source="../media/outlook-email-message-policy-tip-4f1c2ede.png" alt-text="Screenshot of an email in Outlook that's displaying a sensitive data policy tip that's been highlighted.":::
 
 
 Policy tips work whether the sensitive information appears in the message body or subject line. They also work when the sensitive information appears in a message attachment, as shown in the following screenshot.
 
-:::image type="content" source="../media/outlook-email-message-with-policy-tip-and-message-attachment-c8226139.png" alt-text="Screenshot of an email in Outlook that's displaying a sensitive data policy tip showing that an attachment conflicts with a DLP policy.":::
+:::image type="content" source="../media/outlook-email-message-policy-tip-message-attachment-5bae84f7.png" alt-text="Screenshot of an email in Outlook that's displaying a sensitive data policy tip showing that an attachment conflicts with a DLP policy.":::
 
 
 If the policy tips are configured to allow override, you can select **Show Details** and then **Override.** 
 
-:::image type="content" source="../media/outlook-email-message-with-policy-tip-and-override-option-e6d54ec8.png" alt-text="Screenshot of an email in Outlook that's displaying a sensitive data policy tip and an override button.":::
+:::image type="content" source="../media/outlook-email-message-policy-tip-override-option-53eeb168.png" alt-text="Screenshot of an email in Outlook that's displaying a sensitive data policy tip and an override button.":::
 
 
 If you select the **Override** option in the policy tip, a dialog window appears. In this window, you can enter a business justification for overriding the policy tip, or you can report a false positive. Then select the **Override** button.
@@ -146,17 +146,17 @@ Depending on how an organization configures the policy tips in the DLP policy, i
 
 Policy tips appear on the Message Bar.
 
-:::image type="content" source="../media/excel-spreadsheet-with-social-security-number-41387521.png" alt-text="Screenshot of an Excel spreadsheet displaying a policy tip with an override option.":::
+:::image type="content" source="../media/excel-spreadsheet-social-security-number-380d92f4.png" alt-text="Screenshot of an Excel spreadsheet displaying a policy tip with an override option.":::
 
 
 And policy tips also appear in the **Backstage** view (on the **File** tab).
 
-:::image type="content" source="../media/excel-spreadsheet-info-screen-with-policy-tip-2b91fd6a.png" alt-text="Screenshot of an Excel spreadsheet Info page showing a policy tip.":::
+:::image type="content" source="../media/excel-spreadsheet-information-screen-policy-tip-8a9ba2d1.png" alt-text="Screenshot of an Excel spreadsheet Info page showing a policy tip.":::
 
 
 If policy tips in the DLP policy are configured with the option to Override or Report a false positive, you can do so by selecting the **Resolve** button. In the dialog box that appears, you can select to **Override** a policy tip or **Report** a false positive.
 
-:::image type="content" source="../media/excel-spreadsheet-info-screen-with-policy-tip-override-option-675e807e.png" alt-text="Screenshot of an Excel spreadsheet Info page showing a policy tip and the override option.":::
+:::image type="content" source="../media/excel-spreadsheet-information-screen-policy-tip-override-option-bb538457.png" alt-text="Screenshot of an Excel spreadsheet Info page showing a policy tip and the override option.":::
 
 
 In each of these Office desktop programs, users can choose to turn off policy tips. If turned off, policy tips that are just notifications won't appear on the Message Bar or Backstage view. However, policy tips about blocking and overriding will still appear. Users will also receive the email notification. In addition, turning off policy tips doesn't exempt the document from any DLP policies that were applied to it.

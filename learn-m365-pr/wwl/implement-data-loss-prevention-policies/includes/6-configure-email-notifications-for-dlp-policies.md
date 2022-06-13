@@ -1,6 +1,6 @@
 Organizations can use a Microsoft Purview Data Loss Prevention (DLP) policy to identify, monitor, and protect sensitive information across Microsoft 365. An organization wants its users who work with sensitive information to stay compliant with its DLP policies. However, it doesn't want to unnecessarily block them from getting their work done. Email notifications and policy tips can help with this situation.
 
-:::image type="content" source="../media/excel-spreadsheet-with-social-security-number-41387521.png" alt-text="Screenshot of an Excel spreadsheet with a social security number that displays a policy tip message with an Override button.":::
+:::image type="content" source="../media/excel-spreadsheet-social-security-number-380d92f4.png" alt-text="Screenshot of an Excel spreadsheet with a social security number that displays a policy tip message with an Override button.":::
 
 
 When an organization creates a DLP policy, it can configure the user notifications to:
