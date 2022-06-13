@@ -3,7 +3,7 @@ uid: learn.wwl.migrate-voice-services-from-skype-for-business-server-to-teams
 metadata:
   title: Migrate voice services from Skype for Business Server to Teams
   description: "In this module, you'll learn how to plan, configure, and migrate Skype for Business Server Enterprise Voice users and devices to Microsoft Teams. Allowing you to gradually move people from on-premises to the cloud, while maintaining the ability to call internally and externally during the migration. You can also continue to make use of personal and meeting room devices."
-  ms.date: 06/10/2022
+  ms.date: 06/13/2022
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
