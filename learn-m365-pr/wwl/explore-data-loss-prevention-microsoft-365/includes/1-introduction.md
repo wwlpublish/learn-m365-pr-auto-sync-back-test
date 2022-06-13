@@ -17,4 +17,3 @@ After completing this module, you'll be able to:
  -  Describe how Microsoft Endpoint DLP extends the DLP activity monitoring and protection capabilities.
  -  Describe what a DLP policy is and what it contains.
  -  View DLP policy results using both queries and reports.
-
