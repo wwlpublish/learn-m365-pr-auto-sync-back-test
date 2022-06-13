@@ -3,7 +3,7 @@ uid: learn.wwl.support-windows-client-environment
 metadata:
   title: Support the Windows client environment
   description: Support the Windows client environment
-  ms.date: 03/31/2022
+  ms.date: 06/09/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -15,7 +15,7 @@ prerequisites: |
   - Students should have experience with using Windows 10 or later.
 summary: |
   This learning path will cover the Windows architecture and common environments. Students will be introduced to the various tools and methodologies used in maintaining Windows.
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/windows-client-support-environment.svg
 levels:
 - beginner
 roles:
