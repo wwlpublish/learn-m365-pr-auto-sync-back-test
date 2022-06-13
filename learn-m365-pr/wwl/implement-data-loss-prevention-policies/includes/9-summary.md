@@ -24,6 +24,6 @@ In this module, you learned how to plan for data loss prevention in an organizat
 
 Once an organization has its plan in place, it should consider whether to use the Microsoft 365 default DLP policy, or create its own custom policy. When an organization builds a custom policy, it can build the policy based on an existing Microsoft 365 DLP policy template, or it can create its own DLP policy from scratch. This module examined how to create a DLP policy using both methods.
 
-You also learned that DLP policy templates are built on top of rules that are a combination of conditions and actions. DLP policies support a full range of rules. An organization can modify any of the built-in DLP policy templates by configuring conditions and actions to meet its specific requirements.<br>
+You also learned that DLP policy templates are built on top of rules that are a combination of conditions and actions. DLP policies support a full range of rules. An organization can modify any of the built-in DLP policy templates by configuring conditions and actions to meet its specific requirements.
 
 The module concluded by examining how DLP policies notify users of policy violations. Notification can come in two forms - email notifications that users receive, and policy tips that are displayed in the service.
