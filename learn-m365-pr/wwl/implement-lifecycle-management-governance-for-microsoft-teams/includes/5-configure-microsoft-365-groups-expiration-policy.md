@@ -13,6 +13,8 @@ Groups that are actively in use are renewed automatically. Any of the following 
 * SharePoint - view, edit, download, move, share, or upload files. (Viewing a SharePoint page does not count as an action for automatic renewal.)
 * Outlook - join group, read or write group message from the group, and like a message (Outlook on the web).
 * Teams - visiting a teams channel.
+* Yammer - View a post within a Yammer community or an interactive email in Outlook.
+* Forms - View, create, or edit forms, or submit a response to a form.
 
 ## Configure Microsoft 365 groups expiration policy
 
