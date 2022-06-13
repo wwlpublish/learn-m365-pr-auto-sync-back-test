@@ -17,7 +17,8 @@ abstract: |
   - Manage your compliance requirements with Compliance Manager.
   - Manage compliance posture and improvement actions using the Compliance Manager dashboard.
   - Explain how an organization's compliance score is determined.
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate

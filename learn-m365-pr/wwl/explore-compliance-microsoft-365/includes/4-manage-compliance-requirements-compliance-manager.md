@@ -83,7 +83,7 @@ The Compliance Manager premium assessments trial is a great way to quickly set u
 
 An organization can start its trial directly from Compliance Manager and set up recommended assessments by following these steps:
 
-1.  On the **Compliance Manager dashboard**, the **Overview** tab displays a notification message about the premium assessments trial. Within this notification**,** select **Start trial**. Doing so initiates a trial activation wizard. This wizard asks questions to help Microsoft recommend assessments for your organization.
+1.  On the **Compliance Manager dashboard**, the **Overview** tab displays a notification message about the premium assessments trial. Within this notification, select **Start trial**. Doing so initiates a trial activation wizard. This wizard asks questions to help Microsoft recommend assessments for your organization.
 2.  On the **Activate trial** page, select **Next** to begin your free 90 day premium assessments trial and continue with creating assessments.
 3.  Select one or more industries that identify your organization, and then select **Next**.
 4.  Select one or more regions for your organization's location, and then select **Next**.

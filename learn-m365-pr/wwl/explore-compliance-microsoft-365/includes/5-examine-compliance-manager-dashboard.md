@@ -1,4 +1,4 @@
-The Compliance Manager dashboard:<br>
+The Compliance Manager dashboard:
 
  -  shows an organization's current compliance score.
  -  provides visibility into what needs attention.
