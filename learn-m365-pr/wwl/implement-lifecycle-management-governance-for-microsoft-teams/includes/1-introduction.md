@@ -5,8 +5,9 @@ In this module, you will learn the features for Teams lifecycle management and g
 After this module, you will be able to:
 
 - Describe the lifecycle management for Teams
-- Plan and configure Microsoft 365 Groups governance features for Teams.
-- Plan the Teams policy assignment for different scenarios.
-- Create and manage policy packages.
-- Control Teams preview features for users.
-- Create and manage team templates.
+- Plan governance features for Teams
+- Configure Microsoft 365 Groups governance features 
+- Plan the Teams policy assignment for different scenarios
+- Create and manage policy packages
+- Control Teams preview features for users
+- Create and manage team templates and templates policies

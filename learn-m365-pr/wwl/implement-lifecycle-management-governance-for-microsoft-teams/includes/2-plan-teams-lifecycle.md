@@ -67,7 +67,7 @@ The **end stage** occurs when a team has concluded its useful lifecycle, normall
 
 Teams are deleted with a "soft delete" that IT can reverse for up to 30 days. Deleting teams doesn't affect any chats or content that were retained in accordance with compliance policies. Channels also have a "soft delete" and can be reversed for up to 21 days after deletion. 
 
-When a group or team is deleted, most of the information in the connected services is also deleted. Understand the impacts when a team is deleted to avoid any potential data loss.
+When a group or team is deleted, most of the information in the connected services is also deleted with some exceptions. Any content protected by a retention policy remains available through eDiscovery searches. Understand the impacts when a team is deleted to avoid any potential data loss.
 
 * **Guests** - When a team is deleted, guests aren't removed from Azure Active Directory. 
 
@@ -82,6 +82,8 @@ When a group or team is deleted, most of the information in the connected servic
 * **Power BI** - Power BI data and workspaces can operate independently from groups and teams. If you need the report once the group or team is deleted, it can be copied from the existing workspace to another workspace within Power BI.
 
 * **Dataverse for Teams** - If the team is deleted, the Dataverse for Teams environment that was created will also be deleted. The Dataverse for Teams environment itself can be deleted from within the team by the team owner. To keep the data, you can upgrade a Dataverse for Teams environment to a Dataverse database environment. The upgraded environment's lifecycle will no longer be tied to the lifecycle of that team. If the team is deleted, the upgraded environment remains.
+
+* **Project** - Projects and Roadmaps created in Project for the web are associated with Microsoft 365 groups and have approaches to off-boarding similar to Power BI. You can **assign the project to another group** or **export data from the project or roadmap**.
 
 Important decision points related to the end stage include:
 
