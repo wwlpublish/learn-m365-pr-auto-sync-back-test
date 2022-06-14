@@ -135,12 +135,12 @@ If an organization is creating DLP policies with a large potential effect, it's 
     
     An organization can turn off a DLP policy at any time, which affects all rules in the policy. However, each rule can also be turned off individually by toggling its **Status** in the rule editor.
     
-    :::image type="content" source="../media/dlp-policy-status-toggle-switch-834a710e.png" alt-text="Screenshot of the advanced DLP policy rules page that highlights the status of each individual rule.":::
+    :::image type="content" source="../media/dlp-policy-status-toggle-switch-834a710e.png" alt-text="Screenshot of the advanced D L P policy rules page that highlights the status of each individual rule.":::
     
     
     An organization can also change the priority of multiple rules in a policy. To do that, open a policy for editing. In the row for a rule, select the appropriate Up or Down arrow to rearrange the order of the rules.
     
-    :::image type="content" source="../media/dlp-set-rule-priority-a8145801.png" alt-text="Screenshot of the advanced DLP policy rules page that highlights the arrows in which you can move rules up or down to change priority.":::
+    :::image type="content" source="../media/dlp-set-rule-priority-a8145801.png" alt-text="Screenshot of the advanced D L P policy rules page that highlights the arrows in which you can move rules up or down to change priority.":::
     
 
 #### End-user training

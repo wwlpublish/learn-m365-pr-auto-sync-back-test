@@ -71,7 +71,7 @@ Organizations can complete the following steps to create a DLP policy from a tem
     
     A DLP policy template contains predefined rules with conditions and actions that detect and act upon specific types of sensitive information. You can edit, delete, or turn off any of the existing rules, or add new ones. To do so, select the **Create or customize advanced DLP rules**.
     
-    :::image type="content" source="../media/customize-advanced-dlp-rules-dlp-policy-wizard-3d11004c.png" alt-text="Screenshot showing the advanced DLP rules page in the create policy wizard.":::
+    :::image type="content" source="../media/customize-advanced-dlp-rules-dlp-policy-wizard-3d11004c.png" alt-text="Screenshot showing the advanced D L P rules page in the create policy wizard.":::
     
 9.  Select **Next.**
 10. On the **Test or turn on the policy** page, select whether to turn on the policy right away, or test it out first. Then select **Next**.

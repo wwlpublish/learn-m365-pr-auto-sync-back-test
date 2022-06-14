@@ -89,7 +89,7 @@ The policy tip appears at the top of the message, above the recipients, while th
 
 Policy tips work whether the sensitive information appears in the message body or subject line. They also work when the sensitive information appears in a message attachment, as shown in the following screenshot.
 
-:::image type="content" source="../media/outlook-email-message-policy-tip-message-attachment-5bae84f7.png" alt-text="Screenshot of an email in Outlook that's displaying a sensitive data policy tip showing that an attachment conflicts with a DLP policy.":::
+:::image type="content" source="../media/outlook-email-message-policy-tip-message-attachment-5bae84f7.png" alt-text="Screenshot of an email in Outlook that's displaying a sensitive data policy tip showing that an attachment conflicts with a D L P policy.":::
 
 
 If the policy tips are configured to allow override, you can select **Show Details** and then **Override.** 
