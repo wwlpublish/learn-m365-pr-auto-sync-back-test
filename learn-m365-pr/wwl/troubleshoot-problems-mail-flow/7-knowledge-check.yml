@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 05/03/2022
+  ms.date: 06/14/2022
   author: wwlpublish
   ms.author: dawnhopper
   ms.topic: interactive-tutorial
@@ -30,7 +30,7 @@ quiz:
       explanation: "Incorrect. Status code 5.2.x relates to submission quotas."
   - content: "A user complains that when they send email to a recipient in a partner organization, the delivery fails with a message that states the 'message conflicts with a policy'. The messaging administrator reviews the Mail flow rules and can't see any rules that might be impacting delivery. What else should they check?"
     choices:
-    - content: "The administrator should also check for Microsoft 365 Data Loss Prevention rules in the compliance portal."
+    - content: "The administrator should also check for Data Loss Prevention (DLP) rules in the Microsoft Purview compliance center."
       isCorrect: true
       explanation: "Correct. DLP rules also prohibit the sending of messages that contain defined sensitive information types."
     - content: "The administrator should check for Azure AD Conditional Access policies."

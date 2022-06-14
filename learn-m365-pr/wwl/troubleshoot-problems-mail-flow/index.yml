@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-problems-mail-flow
 metadata:
   title: Troubleshoot problems with mail flow
   description: "Investigate and diagnose problems with email flow in your Exchange Online organization. Find issues caused by incorrect transport rules, DNS records, message headers, and other causes. MS-220"
-  ms.date: 05/03/2022
+  ms.date: 06/14/2022
   author: wwlpublish
   ms.author: dawnhopper
   ms.topic: interactive-tutorial
@@ -31,8 +31,8 @@ products:
 - office-outlook
 - office-exchange-online
 subjects:
-- device-management
 - communication
+- device-management
 units:
 - learn.wwl.troubleshoot-problems-mail-flow.introduction
 - learn.wwl.troubleshoot-problems-mail-flow.investigate-problematic-messages
