@@ -3,7 +3,7 @@ uid: learn.wwl.configure-teams-phone-system
 metadata:
   title: Configure Teams Phone
   description: "Teams Phone requires some configuration before users can make calls, receive calls, and use all the features. Microsoft Calling plans or Operator Connect for your PSTN must be configured before phone numbers can be assigned to users."
-  ms.date: 12/29/2021
+  ms.date: 06/14/2022
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -11,15 +11,15 @@ metadata:
 title: Configure Teams Phone
 summary: Before Microsoft Teams Phone users can make or receive calls and use advanced features, phone numbers must be assigned and Microsoft Calling plans or Operator Connect must be configured.
 abstract: |
-  At the end of this module, you will be able to:
+  At the end of this module, you'll be able to:
   - Configure Emergency Calling Addresses
   - Manage Microsoft Calling Plan Numbers
   - Configure and Manage Operator Connect Numbers
-  - Understand phone system policies and the features you need to configure them
+  - Understand Teams Phone policies and the features you need to configure them
   - Configure Audio Conferencing and Communication Credits
 prerequisites: |
-  - General knowledge of Teams Phone System and the Teams Admin Center
-  - A general understanding of Office 365
+  - General knowledge of Teams Phone and the Teams Admin Center
+  - A general understanding of Office 365 and Microsoft 365
 iconUrl: /learn/achievements/4-configure-teams-phone-system.svg
 levels:
 - advanced
@@ -30,8 +30,8 @@ products:
 - m365
 - office-teams
 subjects:
-- communication
 - collaboration
+- communication
 units:
 - learn.wwl.configure-teams-phone-system.introduction
 - learn.wwl.configure-teams-phone-system.configure-emergency-calling-plans
