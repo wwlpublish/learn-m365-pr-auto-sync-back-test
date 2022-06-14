@@ -1,16 +1,26 @@
-Several countries/regions around the world have specific regulations and policies that require phone numbers are aligned to the physical address of the user(s) so that emergency calls are routed to the correct Public Safety Answering Point (PSAP), and they are aware of the users' address to dispatch any emergency services.
+Several countries/regions around the world have specific regulations and policies that require phone numbers align to the physical address of the users so that emergency calls route to the correct Public Safety Answering Point (PSAP), and they are aware of the users' address to dispatch any emergency services.
 
-A Public Safety Answering Point (PSAP) is a call center where emergency calls are routed. They will talk to the caller and displace the appropriate services, like police, fire brigade or ambulance.
+A Public Safety Answering Point (PSAP) is a call center where emergency calls are sent. They'll talk to the caller and displace the appropriate services, like police, fire brigade or ambulance.
 
-Microsoft Teams supports "emergency calling," which ties a specific static address to a phone number, and "dynamic emergency calling," which provides the capability to provide the current location of the user based on the network they are currently connected to.
+Microsoft Teams supports "emergency calling," which ties a specific static address to a phone number, and "dynamic emergency calling," which provides the capability to provide the current location of the user based on location services of the operating system or an end-user confirmed address.
 
-We are looking at configuring Emergency Calling addresses first in this module as a phone number must be aligned to an emergency calling address. How this is configured varies by country/region. In the United States, you need to associate an emergency location when you assign the phone number to the user. In Europe, you need to associate an emergency location to the phone number when you acquire the phone numbers from Microsoft or your Operator Connect provider.
+We're looking at configuring Emergency Calling addresses first in this module as a phone number must be aligned to an emergency calling address. How this is configured varies by country/region. In the United States, you need to associate an emergency location when you assign the phone number to the user. In Europe, you need to associate an emergency location to the phone number when you acquire the phone numbers from Microsoft or your Operator Connect provider.
 
 ## Define emergency calling addresses
 
+Emergency addresses for Teams can be categorized by different types. The following list shows the location precedence used when an emergency number is dialed:
+
+1. A dynamically acquired address defined by the tenant administrator in the Location Information Service.
+
+1. An address the end user confirmed, edited, or manually entered which is associated to the local network the Teams client is connected to.
+
+1. An address automatically suggested by the operating system.
+
+1. An address the administrator statically assigns to the user.
+
 To add phone numbers to Teams, the first step is to configure emergency addresses. To Assign Calling plan numbers successfully in many European countries/regions such as Belgium, France, Germany, Ireland, Netherlands, and Spain, the emergency address must match the area code of the phone number area code of the number ordered from Microsoft.
 
-You do this by following these steps:
+You can add emergency addresses by following these steps:
 
 1. Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
 
@@ -28,7 +38,7 @@ You do this by following these steps:
     
     1. **Organization name** – Organization name is your organization name. It will be prepopulated with the tenant organization name
     
-    1. **ELIN** 1. Session Border Controllers (SBCs) can include Emergency Location Identification Number (ELIN) records. These are only relevant to Direct Routing and do not apply to Calling Plans or Operator Connect. This field can be left blank.
+    1. **ELIN** 1. Session Border Controllers (SBCs) can include Emergency Location Identification Number (ELIN) records. These records are only relevant to Direct Routing and don't apply to Calling Plans or Operator Connect. This field can be left blank.
 
 1. Select **Save** to finish creation.
 
@@ -50,7 +60,7 @@ If it can't be found, you can also toggle to input addresses manually by followi
 
     1. **Country or region** – The region of the new emergency address
     
-    1. **Input address manually** – On, to look up insert the address manually
+    1. **Input address manually** – On, to look up the address manually
     
     1. **House number/name** 1. The address of office/site
     
@@ -66,14 +76,14 @@ If it can't be found, you can also toggle to input addresses manually by followi
     
     1. **Organization name** – Organization name is your organization name. It will be prepopulated with the tenant organization name
     
-    1. **ELIN** - Session Border Controllers (SBCs) can include Emergency Location Identification Number (ELIN) records. These are only relevant to Direct Routing and do not apply to Calling Plans or Operator Connect. This field can be left blank.
+    1. **ELIN** - Session Border Controllers (SBCs) can include Emergency Location Identification Number (ELIN) records. These records are only relevant to Direct Routing and don't apply to Calling Plans or Operator Connect. This field can be left blank.
 
 1. Select **Save** to finish creation.
 
 > [!TIP]
-> When inputting an address manually, you should include Latitude and Longitude, if you do not know these, input the address into Bing maps, and when the location comes up on the map, right select the location to see the Latitude and Longitude.
+> When inputting an address manually, you should include Latitude and Longitude, if you don't know these, input the address into Bing maps, and when the location comes up on the map, right select the location to see the Latitude and Longitude.
 
-After performing the described steps, you have added an emergency calling address. Once added, the address it will show in the list. Usually addresses will show as Validated straight away, but sometimes Microsoft may need to manually validate the address. Once Validated, addresses can be used.
+After performing the described steps, you've added an emergency calling address. Once added, the address it will show in the list. Usually addresses will show as Validated straight away, but sometimes Microsoft may need to manually validate the address. Once Validated, addresses can be used.
 
 ## Configure emergency calling policies
 
@@ -83,7 +93,7 @@ The emergency calling policy allows us to notify a person in your organization, 
 
 You can assign emergency calling policies directly to users or to network sites to be inherited by the users dynamically when located on those sites. Users will automatically get the global policy unless you create and assign a custom policy, or a network site policy applies.
 
-For example, an emergency calling policy might be assigned to the "London site" so that any user that roams from home or another location is configured. Therefore, when they are on the London site, the London security team are notified and conferenced in if they dial an emergency number.
+For example, an emergency calling policy might be assigned to the "London site" so that any user that roams from home or another location is configured. Therefore, when they're on the London site, the London security team are notified and conferenced in if they dial an emergency number.
 
 Emergency calling Policies configured by following these steps:
 
@@ -109,19 +119,19 @@ Emergency calling Policies configured by following these steps:
 
 1. Select **Apply**
 
-After performing the described steps, you have configured your emergency calling policy.
+After performing the described steps, you've configured your emergency calling policy.
 
 ## Configure network locations for dynamic emergency calling
 
 Dynamic emergency calling provides the capability to configure and route emergency calls, provide the correct emergency calling address, and optionally notify security personnel (via emergency calling policies) based on the current network location of the Teams client.
 
-For Microsoft Calling Plan users, dynamic location for routing emergency calls is only supported in the United States.
+Although this information applies to emergency 911 calling in the United States, user-entered locations will be conveyed to the screening center in Canada as well.
 
-This works by the Teams voice administrator populating a database that maps specific network address to physical locations/addresses. Location Information Service (LIS) is the service that provides the correct details to the Teams client.
+Dynamic emergency calling works by the Teams Phone administrator populating a database that maps specific network address to physical locations/addresses. Location Information Service (LIS) is the service that provides the correct details to the Teams client.
 
 During startup and periodically afterward, the Teams client sends a location request that contains its network connectivity information to LIS. If there is a match, LIS will provide the correct details.
 
-To configure dynamic emergency calling, firstly we need to map the relevant Network Regions, Network sites, network subnets, and Trusted IP addresses. This is done under Locations > Network topology in the Teams Admin Center.
+To configure dynamic emergency calling, firstly we need to map the relevant Network Regions, Network sites, network subnets, and Trusted IP addresses. This configuration is done under Locations > Network topology in the Teams Admin Center.
 
 ### Adding a network site to Network Topology
 
@@ -131,7 +141,7 @@ Network Region is a collection of Network Sites; you can configure your network 
 
 ### Adding a trusted IP to Network Topology
 
-Trusted IP addresses are the enterprises public external IP addresses that a Teams user will show as routing from on the public internet. These are important as they validate that the user is on an enterprise network, and the system should check if they are on a mapped subnet. If the public IP of the user does not match a Trusted IP address, the location map will not be checked. This prevents subnets on different networks, but with the same internal subnet numbering, being accidentally mapped to the wrong emergency address. You do not need to map Trusted IPs to specific networks.
+Trusted IP addresses are the enterprises public external IP addresses that a Teams user will show as routing from on the public internet. These IPs are important as they validate that the user is on an enterprise network, and the system should check if they are on a mapped subnet. If the public IP of the user doesn't match a Trusted IP address, the location map won't be checked. This validation prevents subnets on different networks, but with the same internal subnet numbering, being accidentally mapped to the wrong emergency address. You don't need to map Trusted IPs to specific networks.
 
 ### Mapping a network to a physical location (emergency address)
 
@@ -146,11 +156,11 @@ You can map emergency location\addresses to:
 
 - Ethernet switch by Chassis ID. Each network switch is stamped with a Chassis ID that is used to identify a specific switch on a network.
 
-- Ethernet switch port, which maps both the Chassis ID and the port ID. This allows a switch that spans multiple locations to be more accurately mapped down to the port.
+- Ethernet switch port, which maps both the Chassis ID and the port ID. This mapping allows a switch that spans multiple locations to be more accurately mapped down to the port.
 
-- Subnet: Not tied to any physical equipment address, this is the network address the user has. Unlike mapped subnets in the Teams Network topology, The Location Information Service (LIS) doesn’t maintain a list of Networks and Subnet masks, it relies on the NetworkID of the subnet.
+- Subnet: Not tied to any physical equipment address, this subnet is the network address the user has. Unlike mapped subnets in the Teams Network topology, The Location Information Service (LIS) doesn’t maintain a list of Networks and Subnet masks, it relies on the NetworkID of the subnet.
 
-This is configured by following these steps:
+This subnet mapping is configured by following these steps:
 
 1. Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
 
@@ -166,7 +176,30 @@ This is configured by following these steps:
 
 1. Enter a meaningful **Description**.
 
-1. Search for and select an **Emergency Location** from one of the Emergency addresses you have already defined. Or, if you have not yet defined the emergency location you need, Select **Add an emergency location**.
+1. Search for and select an **Emergency Location** from one of the Emergency addresses you've already defined. Or, if you've not yet defined the emergency location you need, Select **Add an emergency location**.
 
-After performing the described steps, you have mapped a network to an emergency address location.
+After performing the described steps, you've mapped a network to an emergency address location.
 
+## Enable end users to configure their emergency address
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Voice > Emergency policies**.
+
+1. Select **Add**.
+
+1. Enter a name for the emergency calling policy, for example, "E911WFH".
+
+1. Turn on **External location lookup mode**.
+
+1. Select **Apply**.
+
+1. Grant the new emergency calling policy using the same methods discussed earlier.
+
+After enabling this feature for your end users, from the Calls tab, the user can add, edit, or confirm an emergency address and display the address after it's set. Keep the following tips in mind:
+
+- The work-from-home experience described is for Teams desktop on Windows and Mac.
+
+- Teams phones don't support the work-from-home experience.
+
+- Teams mobile supports automatic location detection but not the user entered experience described.
+
+- Privacy settings can conflict with automatic location detection - Mobile Device Management systems can be used.
