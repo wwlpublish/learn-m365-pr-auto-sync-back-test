@@ -4,7 +4,7 @@ While the reasons to implement security and compliance solutions depend on your 
 
 The following diagram shows all the security considerations required to protect the data inside Microsoft 365.
 
-:::image type="content" source="../media/security-considerations-to-protect-data-05cf971e.jpg" alt-text="diagram shows all the security considerations required to protect the data inside Microsoft 365.":::
+:::image type="content" source="../media/security-considerations-to-protect-data-05cf971e.jpg" alt-text="Diagram shows all the security considerations required to protect the data inside Microsoft 365.":::
 
 
 ### Plan for security and compliance in Microsoft 365
