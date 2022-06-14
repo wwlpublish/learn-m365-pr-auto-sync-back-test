@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 12/29/2021
+  ms.date: 06/13/2022
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -35,18 +35,18 @@ quiz:
       explanation: "Skype Room System (SRS) v2 devices are native Microsoft Teams Room devices when the latest updates are applied."
     - content: "Skype Room System v1 and v2 devices"
       isCorrect: false
-      explanation: "Skype Room System (SRS) v2 devices are not Microsoft Teams compatible and support ended for these devices in October 2018. SRS v2 devices can be upgraded natively to support Microsoft Teams."
+      explanation: "Skype Room System (SRS) v2 devices aren't Microsoft Teams compatible and support ended for these devices in October 2018. SRS v2 devices can be upgraded natively to support Microsoft Teams."
     - content: "All Skype for Business Certified room devices"
       isCorrect: false
-      explanation: "Certification for meeting room devices for Skype for Business server does not apply to Microsoft Teams as modern native communication protocols are used in Microsoft Teams. Validate each certified room device model separately for compatibility."
+      explanation: "Certification for meeting room devices for Skype for Business server doesn't apply to Microsoft Teams as modern native communication protocols are used in Microsoft Teams. Validate each certified room device model separately for compatibility."
   - content: "Which steps must be performed when migrating an Enterprise Voice user?"
     choices:
     - content: "<ol><li>Configure Hybrid functionality for your organization.</li><li>Assign Teams and Skype for Business licensing to a user.</li><li>Using credentials for on-premises and Microsoft Teams, use Move-CsUser to migrate a user.</li><li>Use Hybrid functionality for call routing.</li><li>Configure Teams Voice System functionality or Direct Routing</li></ol>"
       isCorrect: false
-      explanation: "You cannot use the Hybrid environment to route Enterprise Voice calls to and from Microsoft Teams. Instead, ensure Teams Phone System or Direct Routing capabilities are configured prior to migrating users, then enable Calling Plans or Direct Routing for individual users after each migration."
+      explanation: "You can't use the Hybrid environment to route Enterprise Voice calls to and from Microsoft Teams. Instead, ensure Teams Phone or Direct Routing capabilities are configured prior to migrating users, then enable Calling Plans or Direct Routing for individual users after each migration."
     - content: "<ol><li>Configure Hybrid functionality for your organization.</li><li>Configure Teams Voice System functionality or Direct Routing</li><li>Assign Teams and Skype for Business licensing to a user</li><li>Using credentials for on-premises and Microsoft Teams, use Move-CsUser to migrate a user</li><li>Enable Calling Plan or Direct Routing functionality to enable Voice Services.</li></ol>"
       isCorrect: true
       explanation: "Before migrating a user, you need to configure Hybrid, set up your organization to use Teams Voice services, and apply the appropriate licensing. After migration of the user, enable Calling Plan or Direct Routing for an individual user."
     - content: "<ol><li>Configure Hybrid functionality for your organization.</li><li>Using credentials for on-premises and Microsoft Teams, use Move-CsUser to migrate a user.</li><li>Assign Teams and Skype for Business licensing to a user.</li><li>Configure and Enable Calling Plan functionality or Direct Routing.</li></ol>"
       isCorrect: false
-      explanation: "To avoid loss of PSTN calling functionality, configure and test Teams Phone System or Direct Routing functionality prior to migration of users."
+      explanation: "To avoid loss of PSTN calling functionality, configure and test Teams Phone or Direct Routing functionality prior to migration of users."
