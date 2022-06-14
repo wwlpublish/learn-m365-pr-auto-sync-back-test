@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-compliance-microsoft-365.examine-compliance-manager-dashboard
+title: Examine the Compliance Manager dashboard
+metadata:
+  title: Examine the Compliance Manager dashboard
+  description: "Examine the Compliance Manager dashboard"
+  ms.date: 06/14/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/5-examine-compliance-manager-dashboard.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "When an organization comes to Compliance Manager for the first time, what is its initial score based on?"
+    choices:
+    - content: "Microsoft 365 data protection baseline"
+      isCorrect: true
+      explanation: "Correct. When an organization comes to Compliance Manager for the first time, its initial score is based on the Microsoft 365 data protection baseline. This baseline assessment, which is available to all organizations, is a set of controls that includes common industry regulations and standards."
+    - content: "Assessments"
+      isCorrect: false
+      explanation: "Incorrect. Assessments show the percentage of an organization's progress in managing assessments for particular compliance and data protection standards, regulations, or laws."
+    - content: "Categories"
+      isCorrect: false
+      explanation: "Incorrect. Categories show the percentage of an organization's overall score within data protection categories, such as \"protect information\" or \"manage devices.\""
