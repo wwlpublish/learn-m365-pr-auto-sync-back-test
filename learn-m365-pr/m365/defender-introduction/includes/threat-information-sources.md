@@ -1,4 +1,4 @@
-As a security analyst, you need to be able to see the full view of a security threat or attack to understand where the attack originated, what resources were affected, and how it is currently impacting your organization. You need as much information as possible assembled from different sources to get a complete picture. 
+As a security analyst, you need to be able to see the full view of a security threat or attack to understand where the attack originated, what resources were affected, and how it is currently impacting your organization. You need as much information as possible assembled from different sources to get a complete picture.
 
 Here are the security products that provide threat information for incidents in the Microsoft 365 Defender portal.
 
@@ -24,7 +24,7 @@ Watch this three-and-a-half-minute video to understand how Microsoft Defender fo
     :::column:::
     :::column-end:::
     :::column:::
-        [!Video https://www.microsoft.com/videoplayer/embed/RE4HcEU]
+       > [!Video https://www.microsoft.com/videoplayer/embed/RE4HcEU]
     :::column-end:::
     :::column:::
     :::column-end:::
