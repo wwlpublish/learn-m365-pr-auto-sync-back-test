@@ -20,8 +20,15 @@ Microsoft Defender for Identity uses signals from your on-premises Active Direct
 
 Watch this three-and-a-half-minute video to understand how Microsoft Defender for Identity integrates with Microsoft 365 Defender.
 
->
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4HcEU]
+:::row:::
+    :::column:::
+    :::column-end:::
+    :::column:::
+        [!Video https://www.microsoft.com/videoplayer/embed/RE4HcEU]
+    :::column-end:::
+    :::column:::
+    :::column-end:::
+:::row-end:::
 
 ## Microsoft Defender for Office 365
 
