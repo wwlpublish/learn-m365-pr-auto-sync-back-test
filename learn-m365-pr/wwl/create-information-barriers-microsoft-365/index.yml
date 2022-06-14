@@ -38,7 +38,7 @@ subjects:
 - threat-protection
 units:
 - learn.wwl.create-information-barriers-microsoft-365.introduction
-- learn.wwl.create-information-barriers-microsoft-365.explore-information-barriers
+- learn.wwl.create-information-barriers-microsoft-365.explore
 - learn.wwl.create-information-barriers-microsoft-365.configure-information-barriers
 - learn.wwl.create-information-barriers-microsoft-365.examine-information-barriers-microsoft-teams
 - learn.wwl.create-information-barriers-microsoft-365.examine-information-barriers-onedrive
