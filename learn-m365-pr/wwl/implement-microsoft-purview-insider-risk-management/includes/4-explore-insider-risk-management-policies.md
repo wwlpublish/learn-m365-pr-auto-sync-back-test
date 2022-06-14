@@ -89,7 +89,7 @@ When organizations create or modify DLP policies for use with insider risk manag
     Conversely, if your insider risk management policy created from the Data leaks template is scoped to only users on the Sales team and the assigned DLP policy is scoped to all users, the insider risk policy will only process high severity DLP alerts for members of the Sales team. The insider risk management policy will ignore high severity DLP alerts for all users not on the Sales team.
  -  **Ensure the Incident reports rule setting in the DLP policy that's used for this insider risk management template is configured for *High* severity level alerts**. The **High** severity level is the triggering event and insider risk management alerts won't be generated from rules in DLP policies with the Incident reports field set at **Low** or **Medium**.
     
-    :::image type="content" source="../media/insider-risk-dlp-policy-high-severity-b9c4b986.png" alt-text="Screenshot of the incident report setting for a DLP policy that shows the severity level to be used in alerts and reports for the policy.":::
+    :::image type="content" source="../media/insider-risk-dlp-policy-high-severity-b9c4b986.png" alt-text="Screenshot of the incident report setting for a D L P policy that shows the severity level to be used in alerts and reports for the policy.":::
     
     
     > [!NOTE]
