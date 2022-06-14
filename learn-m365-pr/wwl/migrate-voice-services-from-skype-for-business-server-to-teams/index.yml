@@ -2,8 +2,8 @@
 uid: learn.wwl.migrate-voice-services-from-skype-for-business-server-to-teams
 metadata:
   title: Migrate voice services from Skype for Business Server to Teams
-  description: "In this module, you'll learn how to plan, configure, and migrate Skype for Business Server Enterprise Voice users and devices to Microsoft Teams. This will allow you to gradually move people from on-premises to the cloud, while maintaining the ability to call internally and externally during the migration. You can also continue to make use of personal and meeting room devices."
-  ms.date: 12/29/2021
+  description: "In this module, you'll learn how to plan, configure, and migrate Skype for Business Server Enterprise Voice users and devices to Microsoft Teams. Allowing you to gradually move people from on-premises to the cloud, while maintaining the ability to call internally and externally during the migration. You can also continue to make use of personal and meeting room devices."
+  ms.date: 06/13/2022
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -11,7 +11,7 @@ metadata:
 title: Migrate voice services from Skype for Business Server to Teams
 summary: In this module, you'll learn how to plan, configure, and migrate Skype for Business Server Enterprise Voice users and devices to Microsoft Teams while maintaining the ability to call internally and externally during the migration.
 abstract: |
-  At the end of this module, you will be able to:
+  At the end of this module, you'll be able to:
   - Understand how Skype and Teams interact
   - Plan implementation of Skype for Business Server Hybrid
   - Describe the pre-requisites required for migration
@@ -19,7 +19,7 @@ abstract: |
   - Migrate users and devices to Teams
 prerequisites: |
   - Administrative experience of Skype for Business Server
-  - Knowledge of how to implement Microsoft Teams Phone System or Direct Routing
+  - Knowledge of how to implement Microsoft Teams Phone or Direct Routing
   - An understanding of the desired end-state for users after the migration to Microsoft Teams
 iconUrl: /learn/achievements/3-migrate-voice-services-from-skype-for-business-server-to-teams.svg
 levels:
