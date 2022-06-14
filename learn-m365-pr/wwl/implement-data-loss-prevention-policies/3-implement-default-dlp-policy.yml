@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-data-loss-prevention-policies.implement-default-dlp-policy
+title: Implement the default DLP policy
+metadata:
+  title: Implement the default DLP policy
+  description: "Implement the default DLP policy"
+  ms.date: 06/14/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-implement-default-dlp-policy.md)]
