@@ -1,4 +1,4 @@
-As a security analyst, you need to be able to see the full view of a security threat or attack to understand where the attack originated, what resources were affected, and how it is currently impacting your organization. You need as much information as possible assembled from different sources to get a complete picture.
+As a security analyst, you need to be able to see the full view of a security threat or attack to understand where the attack originated, what resources were affected, and how it's currently impacting your organization. You need as much information as possible assembled from different sources to get a complete picture.
 
 Here are the security products that provide threat information for incidents in the Microsoft 365 Defender portal.
 
@@ -36,6 +36,6 @@ With the integration of Microsoft Defender for Office 365 into Microsoft 365 Def
 
 ## Microsoft Defender for Cloud Apps
 
-Microsoft Defender for Cloud Apps provides you with visibility, control, and the analytics you need to identify and defeat security threats in Microsoft and third-party cloud services.
+Microsoft Defender for Cloud Apps provides you with visibility, control, and the analytics you need to identify and defeat security threats with Microsoft and third-party cloud services.
 
 With the integration of Defender for Cloud Apps with Microsoft 365 Defender, your security team can detect unusual behavior across cloud apps to identify compromised users or rogue applications, analyze high-risk usage, and automatically remediate to limit the risk to your organization.

@@ -1,4 +1,4 @@
-Viewing a threat within the boundaries of a single security product might lead to missed attack information. And if you use multiple products, you'll need to traverse the different products, tools, and reports, which will slow down your ability to respond to an attack. You might not discover the full scope of an attack until it's too late. Microsoft 365 Defender is a unified enterprise defense solution that automatically aggregates and analyzes signal data from multiple sources, for example, anomalous behavior from Microsoft Defender for Endpoint or a suspicious login from Microsoft Defender for Identity. It then correlates the data into an incident that represents an attack and provides easy investigation and response across endpoints, identities, email, and applications.
+Viewing a threat within the boundaries of a single security product might lead to missed attack information. And if you use multiple products, you'll need to traverse the different products, tools, and reports, which will slow down your ability to respond to an attack. You might not discover the full scope of an attack until it's too late. Microsoft 365 Defender is a unified enterprise defense solution that automatically aggregates and analyzes signal data from multiple sources, for example, anomalous behavior from Microsoft Defender for Endpoint or a suspicious sign in from Microsoft Defender for Identity. It then correlates the data into an incident that represents an attack and provides easy investigation and response across endpoints, identities, email, and applications.
 
 To fully understand the capabilities of Microsoft 365 Defender for your organization, you'll need to check your organization's current licenses or subscriptions. See [this article](/microsoft-365/security/defender/prerequisites) for more information. To maximize the scope of signal data available to Microsoft 365 Defender, you'll need to deploy the other Defender security products.
 
@@ -18,7 +18,7 @@ Some of the key features are:
 
 The Microsoft 365 Defender portal lets you monitor and manage security across your on-premises identities, data, devices, apps, and infrastructure. Here you can easily view your organization's security health, act to configure devices, users, and apps, and get alerts for suspicious activity. The home page shows a customizable set of cards that provide summary information for a quick assessment of ongoing security threats. The set of cards displayed depends on roles assigned to the signed-in user account.
 
-:::image type="content" source="../media/defender-homepage.png" alt-text="Screenshot of the welcome page in the Microsoft 365 Defender portal." lightbox="../media/defender-homepage.png":::
+:::image type="content" source="../media/defender-homepage.png" alt-text="Screenshot of the welcome page in the Microsoft 3 65 Defender portal." lightbox="../media/defender-homepage.png" border="false":::
 
 The Microsoft 365 Defender portal provides access to:
 
