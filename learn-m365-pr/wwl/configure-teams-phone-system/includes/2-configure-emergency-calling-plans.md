@@ -196,10 +196,10 @@ After performing the described steps, you've mapped a network to an emergency ad
 
 After enabling this feature for your end users, from the Calls tab, the user can add, edit, or confirm an emergency address and display the address after it's set. Keep the following tips in mind:
 
-1. The work-from-home experience described is for Teams desktop on Windows and Mac.
+- The work-from-home experience described is for Teams desktop on Windows and Mac.
 
-1. Teams phones don't support the work-from-home experience.
+- Teams phones don't support the work-from-home experience.
 
-1. Teams mobile supports automatic location detection but not the user entered experience described.
+- Teams mobile supports automatic location detection but not the user entered experience described.
 
-1. Privacy settings can conflict with automatic location detection - Mobile Device Management systems can be used.
+- Privacy settings can conflict with automatic location detection - Mobile Device Management systems can be used.
