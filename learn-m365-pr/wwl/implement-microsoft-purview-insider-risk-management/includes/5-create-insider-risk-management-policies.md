@@ -99,7 +99,7 @@ Complete the following steps to create a new policy:
      -  If you select the **User performs an exfiltration activity triggering event** option, you must select one or more of the listed indicators for the policy triggering event.
         
         > [!IMPORTANT]
-        > If you're unable to select a listed indicator, it's because they aren't enabled for your organization. To make them available to select and assign to the policy, enable the indicators in **Insider risk management &gt; Settings &gt; Policy indicators**.
+        > If you're unable to select a listed indicator, it's because they aren't enabled for your organization. To make them available to select and assign to the policy, enable the indicators in **Insider risk management > Settings > Policy indicators**.
         
         If you've selected other policy templates, custom triggering events aren't supported. The built-in policy triggering events apply and you'll continue to the final step without defining policy attributes.
 16. Select **Next** to continue.
@@ -107,10 +107,10 @@ Complete the following steps to create a new policy:
 18. Select **Next** to continue.
 19. If you've selected **Use custom thresholds for the triggering events**, for each triggering event indicator that you selected in Step 15, choose the appropriate level to generate the desired level of activity alerts.
 20. Select **Next** to continue.
-21. On the **Policy indicators** page, you'll see the indicators that you've defined as available on the **Insider risk settings &gt; Indicators** page. Select the indicators you want to apply to the policy.
+21. On the **Policy indicators** page, you'll see the indicators that you've defined as available on the **Insider risk settings > Indicators** page. Select the indicators you want to apply to the policy.
     
     > [!IMPORTANT]
-    > If indicators on this page can't be selected, you must select the indicators you want to enable for all policies. You can use the **Turn on indicators** button in the wizard or select indicators on the **Insider risk management &gt; Settings &gt; Policy indicators** page.
+    > If indicators on this page can't be selected, you must select the indicators you want to enable for all policies. You can use the **Turn on indicators** button in the wizard or select indicators on the **Insider risk management > Settings > Policy indicators** page.
     
     If you've selected at least one **Office** or ***Device*** indicator, select the **Risk score boosters** as appropriate. Risk score boosters are only applicable for selected indicators. If you've selected a **Data theft** or **Data leaks** policy template, select one or more **Sequence detection** methods and a **Cumulative exfiltration detection** method to apply to the policy.
 22. Select **Next** to continue.
@@ -135,7 +135,7 @@ Some scenarios where an organization may want to immediately start scoring user 
  -  The organization hasn't configured its HR connector yet. However, it wants to start assigning risk scores to user activities for HR events by uploading a .csv file for the users.
 
 > [!NOTE]
-> It may take several hours for new, manually added users to appear in the **Users** dashboard. Activities for the previous 90 days for these users may take up to 24 hours to display. To view activities for manually added users, navigate to the **Users** tab and select the user on the **Users** dashboard. Then open the **User activity** tab on the details pane.<br>
+> It may take several hours for new, manually added users to appear in the **Users** dashboard. Activities for the previous 90 days for these users may take up to 24 hours to display. To view activities for manually added users, navigate to the **Users** tab and select the user on the **Users** dashboard. Then open the **User activity** tab on the details pane.
 
 To manually start scoring activity for users in one or more insider risk management policies, complete the following steps:
 

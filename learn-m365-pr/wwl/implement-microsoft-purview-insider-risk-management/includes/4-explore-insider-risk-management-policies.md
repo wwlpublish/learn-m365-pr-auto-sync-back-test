@@ -30,7 +30,7 @@ The following fields are displayed on the **Policy** tab:
 :::image type="content" source="../media/insider-risk-policy-dashboard-dfd8444e.png" alt-text="Screenshot of the Insider Risk Management dashboard showing the Policy tab.":::
 
 
-Insider risk analytics enables organizations to conduct an evaluation of potential insider risks without configuring any insider risk policies. This evaluation can help an organization:<br>
+Insider risk analytics enables organizations to conduct an evaluation of potential insider risks without configuring any insider risk policies. This evaluation can help an organization:
 
  -  Identify potential areas of higher user risk.
  -  Determine the type and scope of insider risk management policies it may consider configuring.
@@ -102,7 +102,7 @@ When organizations create or modify DLP policies for use with insider risk manag
 
 Protecting data and preventing data leaks for users in an organization may depend on their position, level of access to sensitive information, or risk history. Data leaks can include accidental oversharing of highly sensitive information outside an organization or data theft with malicious intent. With an assigned data loss prevention (DLP) policy as a triggering event option, this template starts scoring real-time detections of suspicious activity. It results in an increased likelihood of insider risk alerts and alerts with higher severity levels. Priority users are defined in [priority user groups](/microsoft-365/compliance/insider-risk-management-settings?azure-portal=true). These groups are configured in the insider risk management **Settings** area.
 
-As with the General data leaks template, an organization can choose a DLP policy to trigger indicators in the insider risk policy for high severity alerts. When an organization uses this template, it should follow the Data leaks policy guidelines for DLP policies (see the earlier section in this unit) when creating a policy with the DLP option. Organizations can also choose to assign selected indicators as triggering events for a policy. This flexibility and customization helps scope the policy to only the activities covered by the indicators. Organizations must also assign priority user groups created in **Insider risk management &gt; Settings &gt; Priority user groups** to the policy.
+As with the General data leaks template, an organization can choose a DLP policy to trigger indicators in the insider risk policy for high severity alerts. When an organization uses this template, it should follow the Data leaks policy guidelines for DLP policies (see the earlier section in this unit) when creating a policy with the DLP option. Organizations can also choose to assign selected indicators as triggering events for a policy. This flexibility and customization helps scope the policy to only the activities covered by the indicators. Organizations must also assign priority user groups created in **Insider risk management > Settings > Priority user groups** to the policy.
 
 #### Data leaks by disgruntled users template
 
@@ -134,7 +134,7 @@ To use this template, an organization must first configure Microsoft Defender fo
 
 How organizations protect against security violations by their users may depend on the users' position, level of access to sensitive information, or risk history. Because security violations by priority users may have a significant effect on an organization's critical areas, this policy template starts scoring on these indicators. It also uses Microsoft Defender for Endpoint alerts to provide insights into security-related activities for these users. These activities may include the priority users installing malware or other potentially harmful applications, and disabling security features on their devices. Priority users are defined in priority user groups configured in the insider risk management settings area.
 
-To use this template, an organization must first configure Microsoft Defender for Endpoint. And to import security violation alerts, it must enable Defender for Endpoint for insider risk management integration in the Defender Security Center. For more information on configuring Defender for Endpoint for insider risk management integration, see [Configure advanced features in Defender for Endpoint](/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center?azure-portal=true). An organization must also assign priority user groups created in **Insider risk management &gt; Settings &gt; Priority user groups** to the policy.
+To use this template, an organization must first configure Microsoft Defender for Endpoint. And to import security violation alerts, it must enable Defender for Endpoint for insider risk management integration in the Defender Security Center. For more information on configuring Defender for Endpoint for insider risk management integration, see [Configure advanced features in Defender for Endpoint](/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center?azure-portal=true). An organization must also assign priority user groups created in **Insider risk management > Settings > Priority user groups** to the policy.
 
 #### Security policy violations by disgruntled users template
 
