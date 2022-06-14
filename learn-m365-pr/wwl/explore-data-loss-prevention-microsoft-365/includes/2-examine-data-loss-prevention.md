@@ -108,10 +108,3 @@ Once the policy meets all the organization's objectives, the organization should
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
-
-## Multiple Choice
-Contoso is planning to implement Microsoft Purview Data Loss Prevention. It just finished planning its business processes for DLP. It created its policies and deployed them in test mode. What's the next step that it should complete?
-( ) Apply the policies in more restrictive modes {{Incorrect. This action isn't the next step that Contoso should take as part of business process planning for DLP.}}
-( ) Use policy tips to raise awareness with its users before changing the policy enforcement from test mode to more restrictive modes {{Incorrect. This action is part of the organizational culture planning for DLP.}}
-(x) Use Activity Explorer to evaluate the effect of the policies {{Correct. In business process planning for DLP, you should plan your policies and deploy them in test mode. You should then evaluate their effect through Activity Explorer first, before applying them in more restrictive modes.}}
-

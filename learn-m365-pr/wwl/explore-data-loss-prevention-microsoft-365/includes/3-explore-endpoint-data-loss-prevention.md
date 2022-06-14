@@ -72,7 +72,7 @@ File Types are a grouping of file formats. Each file type is utilized to protect
 | archive         | file archive and compression tools | .zip, .zipx, .rar, .7z, .tar, .gz                                     |
 | email           | Outlook                            | .pst, .ost, .msg                                                      |
 
-If the File types don't cover the file extensions an organization needs to list as a condition in a policy, it can use file extensions separated by commas instead.<br>
+If the File types don't cover the file extensions an organization needs to list as a condition in a policy, it can use file extensions separated by commas instead.
 
 > [!IMPORTANT]
 > The file extensions and file types options can't be used as conditions in the same rule. If you want to use them as conditions in the same policy, they must be in separate rules.

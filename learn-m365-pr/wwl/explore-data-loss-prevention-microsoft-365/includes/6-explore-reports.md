@@ -41,6 +41,6 @@ Reports can also show insights and recommendations on how to resolve issues. An 
 
 To view DLP reports in the Microsoft Purview compliance portal, you have to be assigned one of the following roles:
 
- -  **Security Reader**. This role can be assigned in the Exchange admin center. By default, this role is assigned to the Organization Management and Security Reader role groups in the Exchange admin center.<br>
- -  **View-Only DLP Compliance Management**. This role can be assigned in the Microsoft Purview compliance portal. By default, this role is assigned to the Compliance Administrator, Organization Management, Security Administrator, and Security Reader role groups in the Microsoft Purview compliance portal.<br>
- -  **View-Only Recipients**. This role can be assigned in the Exchange admin center. By default, this role is assigned to the Compliance Management, Organization Management, and View-Only Organization Management role groups in the Exchange admin center.<br>
+ -  **Security Reader**. This role can be assigned in the Exchange admin center. By default, this role is assigned to the Organization Management and Security Reader role groups in the Exchange admin center.
+ -  **View-Only DLP Compliance Management**. This role can be assigned in the Microsoft Purview compliance portal. By default, this role is assigned to the Compliance Administrator, Organization Management, Security Administrator, and Security Reader role groups in the Microsoft Purview compliance portal.
+ -  **View-Only Recipients**. This role can be assigned in the Exchange admin center. By default, this role is assigned to the Compliance Management, Organization Management, and View-Only Organization Management role groups in the Exchange admin center.

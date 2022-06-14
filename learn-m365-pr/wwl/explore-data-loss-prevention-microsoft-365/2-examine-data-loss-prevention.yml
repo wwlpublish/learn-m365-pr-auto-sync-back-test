@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.explore-data-loss-prevention-microsoft-365.examine-data-loss-prevention
-title: Examine Data Loss Prevention
+title: Examine data loss prevention
 metadata:
-  title: Examine Data Loss Prevention
-  description: "Examine Data Loss Prevention"
-  ms.date: 06/13/2022
+  title: Examine data loss prevention
+  description: "Examine data loss prevention"
+  ms.date: 06/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -14,3 +14,17 @@ labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/2-examine-data-loss-prevention.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso is planning to implement Microsoft Purview Data Loss Prevention. It just finished planning its business processes for DLP. It created its policies and deployed them in test mode. What's the next step that it should complete?"
+    choices:
+    - content: "Apply the policies in more restrictive modes"
+      isCorrect: false
+      explanation: "Incorrect. This action isn't the next step that Contoso should take as part of business process planning for DLP."
+    - content: "Use policy tips to raise awareness with its users before changing the policy enforcement from test mode to more restrictive modes"
+      isCorrect: false
+      explanation: "Incorrect. This action is part of the organizational culture planning for DLP."
+    - content: "Use Activity Explorer to evaluate the effect of the policies"
+      isCorrect: true
+      explanation: "Correct. In business process planning for DLP, you should plan your policies and deploy them in test mode. You should then evaluate their effect through Activity Explorer first, before applying them in more restrictive modes."
