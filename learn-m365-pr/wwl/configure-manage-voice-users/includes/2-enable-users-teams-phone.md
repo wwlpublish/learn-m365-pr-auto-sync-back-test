@@ -1,10 +1,10 @@
-After you have set up your organization's configuration for Teams Phone System with Calling Plans or configured a partnership with your provider using Operator Connect, you then need to enable users to make and receive PSTN phone calls.
+After you have set up your organization's configuration for Teams Phone with Calling Plans or configured a partnership with your provider using Operator Connect, you then need to enable users to make and receive PSTN phone calls.
 
-This allows you to selectively enable Teams Voice services for only users who need the functionality or gradually enable voice services as you train users or deploy devices.
+This ability allows you to selectively enable Teams Phone services for only users who need the functionality or gradually enable voice services as you train users or deploy devices.
 
-To enable Teams Phone system for users, we'll need to perform the following tasks:
+To enable Teams Phone for users, we'll need to perform the following tasks:
 
-1. Assign Teams Phone System licensing
+1. Assign Teams Phone licensing
 
 1. Assign a Teams Domestic or International Calling Plan license
 
@@ -18,17 +18,17 @@ To enable Teams Phone system for users, we'll need to perform the following task
 
 ## Assign Teams Licenses
 
-To use Teams Phone System, you'll first need to assign the following licenses to a user:
+To use Teams Phone, you'll first need to assign the following licenses to a user:
 
 - Microsoft Teams
 
-- Microsoft 365 Phone System
+- Microsoft 365 Teams Phone
 
 - Optionally, Audio Conferencing, or Audio Conferencing Pay Per Minute
 
-    - These licenses are including in Microsoft Enterprise E5 (with Phone System) and Microsoft Business Voice SKUs.
+    - These licenses are including in Microsoft Enterprise E5 (with Teams Phone) and Microsoft Business Voice SKUs.
 
-You will also need to assign a Calling Plan license. Plans are available with inclusive minutes:
+You'll also need to assign a Calling Plan license. Plans are available with inclusive minutes:
 
 - Domestic Calling Plan (3000 minutes per user/month for US/PR/CA, 1200 minutes per user/month for EU countries/regions)
 
@@ -36,32 +36,32 @@ You will also need to assign a Calling Plan license. Plans are available with in
 
 - Domestic Calling Plan (240 minutes per user/month for each country/region - this plan isn't available in the United States)
 
-Instead of a Calling Plan license, you can instead use Communications Credits, allowing users to consume calling minutes as needed. This must be configured before assigning it to users, following the procedures shown in the module **Configure Teams Phone System**. When you use Communication Credits, you'll need to assign the following licenses:
+Instead of a Calling Plan license, you can instead use Communications Credits, allowing users to consume calling minutes as needed. Communication Credits must be configured before assigning it to users, following the procedures shown in the module **Configure Teams Phone**. When you use Communication Credits, you'll need to assign the following licenses:
 
 - Domestic and International Calling Plan
 
 - Communications Credits
 
-Alternatively, you can use Operator Connect. Operator Connect is another option for providing Public Switched Telephone Network (PSTN) connectivity with Teams and Phone System. You do not require Calling Plan or Communications Credits licenses when using this option, but you will need to license users with Microsoft Teams and Microsoft 365 Phone System.
+Alternatively, you can use Operator Connect. Operator Connect is another option for providing Public Switched Telephone Network (PSTN) connectivity with Teams Phone. You don't require Calling Plans or Communications Credits licenses when using this option, but you'll need to license users with Teams Phone.
 
 You can use the Microsoft 365 admin center or PowerShell to assign licenses to users in your organization. You must be a Global admin or User management admin to manage licenses. To assign licenses through the Microsoft 365 admin center, follow these steps:
 
 1. Navigate to the Microsoft 365 admin center at [https://admin.microsoft.com/](https://admin.microsoft.com/) and sign in as a Global Administrator or User Management Administrator.
 
-1. In the left navigation, select **Users** and **Active users.**
+1. In the left navigation, select **Users** and **Active users**.
 
 1. Select the user you want to assign the license to.
 
 1. In the edit pane, select **Licenses and apps** and then select the Calling Plan and the necessary licenses as listed above.
 
-1. Select **Save changes.**
+1. Select **Save changes**.
 
 > [!WARNING]
 > After assigning licenses, you will need to wait before assigning numbers to users. Because of the latency between Microsoft 365 and Microsoft Teams, it can take up to 24 hours for a user to be assigned a Calling Plan after you assign a license.
 
 ## Assign phone numbers and emergency locations to users
 
-After assigning licenses to users for Teams Phone System, you'll then need to assign phone numbers and emergency locations.
+After assigning licenses to users for Teams Phone, you'll then need to assign phone numbers and emergency locations.
 
 In European countries/regions, the emergency location is associated with the phone number when you get it from Microsoft 365 or Office 365 or when you transfer a phone number over to Microsoft 365 or Office 365. In the United States, the emergency location is associated with the phone number when it's assigned to the user. The emergency address can be changed if the user that it's assigned to moves to a new location.
 
@@ -81,7 +81,7 @@ To assign a phone number in the Teams Admin Center, perform the following steps 
 
 1. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
 
-1. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
+1. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this option is turned on.
 
 1. Select **Save**
 
@@ -103,7 +103,7 @@ Connect-MicrosoftTeams
 
 ```
 
-Before assigning a phone number and emergency location, you can retrieve a list of phone numbers and locations available. This makes it easier to find free numbers to assign and ensure you specify the correct location ID for emergency services.
+Before assigning a phone number and emergency location, you can retrieve a list of phone numbers and locations available. This list makes it easier to find free numbers to assign and ensure you specify the correct location ID for emergency services.
 
 To retrieve a list of phone numbers and their respective activation state, use the following cmdlet:
 
@@ -119,10 +119,11 @@ Get-CsOnlineLisLocation -ValidationStatus Validated
 
 ```
 
-After selecting a phone number and emergency location, use the “Set-CsOnlineVoiceUser” cmdlet in a format like the one shown below to enable the user for Teams Voice:
+After selecting a phone number and emergency location, use the **Set-CsPhoneNumberAssignment** cmdlet in a format like the one shown below to enable the user for Teams Phone:
 
 ```powershell
-Set-CsOnlineVoiceUser -Identity "<User name>" -TelephoneNumber +15555037311 -LocationID d8c4a18a-00d7-37b0-9ddb-3383d29d606b
+$locID = Get-CsOnlineLisLocation -City "<City Name>"
+Set-CsPhoneNumberAssignment -Identity "<User name>" -PhoneNumber +15555037311 -LocationID $locID.LocationID
 
 ```
 
