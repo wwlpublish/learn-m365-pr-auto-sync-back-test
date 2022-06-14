@@ -110,7 +110,7 @@ For more information, see [Create and configure resource accounts for rooms and 
 
 As an optional step, after creation of a Microsoft Teams Room device account, complete the voice configuration for the Room account by enabling voice services for the account. If you don’t enable voice services, then users won't be able to dial-out from a Microsoft Teams Room.
 
-A standard or premium Meeting Room system license includes a Phone System license, however, unless Direct Routing is in use, a Calling Plan license will also need to be applied.
+A standard or premium Meeting Room system license includes a Teams Phone license, however, unless Direct Routing is in use, a Calling Plan license will also need to be applied.
 
 To enable voice services, use remote Windows PowerShell with the same Microsoft Teams PowerShell module used for the device account creation. Enable Enterprise Voice for the device account using the Set-CsPhoneNumberAssignment cmdlet as follows:
 
