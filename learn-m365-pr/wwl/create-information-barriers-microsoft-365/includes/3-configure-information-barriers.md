@@ -43,7 +43,7 @@ When determining how to segment the groups, create a list of policies for each o
 
 Use the following steps to configure information barriers for your organization.
 
-:::image type="content" source="../media/configure-information-barriers-4ed133be.png" alt-text="Diagram showing the steps required to configure information barriers that are covered in the following table":::
+:::image type="content" source="../media/configure-information-barriers-4ed133be.png" alt-text="Diagram showing the steps required to configure information barriers that are covered in the following table.":::
 
 
 The following table provides a summarized view of each step along with other resources.
