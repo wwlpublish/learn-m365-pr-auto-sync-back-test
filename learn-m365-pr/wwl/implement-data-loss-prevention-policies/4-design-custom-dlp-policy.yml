@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-data-loss-prevention-policies.design-custom-dlp-policy
+title: Design a custom DLP policy
+metadata:
+  title: Design a custom DLP policy
+  description: "Design a custom DLP policy"
+  ms.date: 06/14/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/4-design-custom-dlp-policy.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Tailspin Toys, Allan Deyoung wants to rename a DLP policy whose purpose has changed since he originally created the company's overall DLP strategy. What should Allan do?"
+    choices:
+    - content: "Rename the policy"
+      isCorrect: false
+      explanation: "Incorrect. Policies can't be renamed once they're created."
+    - content: "Create a new one with the desired name and then retire the old one"
+      isCorrect: true
+      explanation: "Correct. Policies can't be renamed once they're created. If you must rename a policy, you'll have to create a new one with the desired name and then retire the old one. So decide on the naming structure that all your policies will use now."
+    - content: "Create a new one with the desired name and leave the old one in place"
+      isCorrect: false
+      explanation: "Incorrect. You must retire the old policy."
