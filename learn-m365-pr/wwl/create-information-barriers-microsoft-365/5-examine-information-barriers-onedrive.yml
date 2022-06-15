@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.create-information-barriers-microsoft-365.examine-information-barriers-onedrive
+title: Examine information barriers in OneDrive
+metadata:
+  title: Examine information barriers in OneDrive
+  description: "Examine information barriers in OneDrive"
+  ms.date: 06/14/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/5-examine-information-barriers-onedrive.md)]
