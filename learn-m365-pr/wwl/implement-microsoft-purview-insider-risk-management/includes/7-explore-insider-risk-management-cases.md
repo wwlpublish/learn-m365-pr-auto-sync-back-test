@@ -172,7 +172,7 @@ To escalate a case to a user investigation:
 5.  Review the notice fields and update as appropriate. The values entered here will override the values on the template.
 6.  Select **Confirm** to create the user investigation case. Or, select **Cancel** to close the dialog without creating a new user investigation case.
 
-After the insider risk management case has been escalated to a new user investigation case, investigators and risk analysis can review the new case in the **eDiscovery > Advanced** area in the **Microsoft Purview compliance** portal.
+After the insider risk management case has been escalated to a new user investigation case, investigators and risk analysis can review the new case in the **eDiscovery &gt; Advanced** area in the **Microsoft Purview compliance** portal.
 
 ### Resolve the case
 

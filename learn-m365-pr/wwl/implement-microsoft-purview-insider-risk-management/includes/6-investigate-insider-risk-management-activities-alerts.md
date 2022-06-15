@@ -23,7 +23,7 @@ After investigators examine activities for a user, they can:
 
 Users must be assigned to the **Insider Risk Management Investigators** role group to view the **User activity reports** page.
 
-:::image type="content" source="../media/insider-risk-user-activity-report-overview-cab556cd.png" alt-text="Screenshot of the Insider risk management user activity reports page showing multiple user activity reports." lightbox="../media/insider-risk-user-activity-report-overview-cab556cd.png":::
+:::image type="content" source="../media/insider-risk-user-activity-report-overview-cab556cd.png" alt-text="Screenshot of the Insider risk management user activity reports page showing multiple user activity reports.":::
 
 
 An organization can get started by selecting **Manage reports** in the **Investigate user activity** section on the insider risk management **Overview** page. To view activities for a user, first select **Create user activity report**. Thencomplete the following fields in the **New user activity report** pane:
