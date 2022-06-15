@@ -27,7 +27,7 @@ The following fields are displayed on the **Policy** tab:
  -  **Actions taken on alerts**. The total number of alerts that were confirmed or dismissed for the last 365 days.
  -  **Policy alert effectiveness**. The percentage of alert effectiveness. It's calculated by dividing the total confirmed alerts by the total actions taken on alerts (which is the sum of alerts that were confirmed or dismissed over the past year).
 
-:::image type="content" source="../media/insider-risk-policy-dashboard-dfd8444e.png" alt-text="Screenshot of the Insider Risk Management dashboard showing the Policy tab.":::
+:::image type="content" source="../media/insider-risk-policy-dashboard-dfd8444e.png" alt-text="Screenshot of the Insider Risk Management dashboard showing the Policy tab." lightbox="../media/insider-risk-policy-dashboard-dfd8444e.png":::
 
 
 Insider risk analytics enables organizations to conduct an evaluation of potential insider risks without configuring any insider risk policies. This evaluation can help an organization:
