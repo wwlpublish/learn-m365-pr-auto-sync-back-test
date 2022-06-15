@@ -84,9 +84,7 @@ The **User activity** tab is one of the most powerful tools for internal risk an
 
 ### Content explorer
 
-The **Content explorer** tab grants users with two roles access;
-- **Content Explorer List viewer**: Membership in this role group allows you to see each item and its location in list view. The data classification **list viewer** role is pre-assigned to this role group.  
-- **Content Explorer Content viewer**: Membership in this role group allows you to view the contents of each item in the list. The data classification **content viewer** role is pre-assigned to this role group to review copies of all individual files and email messages associated with risk alerts. For example, if an alert is created when an employee downloads hundreds of files from SharePoint Online to a USB device and the activity triggers a policy alert, all the downloaded files for the alert are captured and copied to the insider risk management case from original storage sources.
+The **Content explorer** tab grants users with two roles access: The **Content Explorer List viewer** membership allows you to see each item and its location in list view and the data classification **list viewer** role is pre-assigned to this role group. The **Content Explorer Content viewer** membership on the otherhand allows you to view the contents of each item in the list. The data classification **content viewer** role is pre-assigned to this role group to review copies of all individual files and email messages associated with risk alerts. For example, if an alert is created when an employee downloads hundreds of files from SharePoint Online to a USB device and the activity triggers a policy alert, all the downloaded files for the alert are captured and copied to the insider risk management case from original storage sources.
 
 :::image type="content" source="../media/content-explorer.png" alt-text="Content explorer" lightbox="../media/content-explorer.png":::
 
