@@ -20,21 +20,21 @@ All DLP reports can show data from the most recent four-month time period. The m
 
 You can find these reports in the DLP reports dashboard by navigating to **Microsoft Purview compliance portal &gt; Reports &gt; Dashboard**.
 
-:::image type="content" source="../media/dlp-policy-match-report-71f03236.png" alt-text="Screenshot of the DLP policy matches report that shows the count of DLP policy matches over time.":::
+:::image type="content" source="../media/dlp-policy-match-report-71f03236.png" alt-text="Screenshot of the D L P policy matches report that shows the count of DLP policy matches over time.":::
 
 
 ### View the justification submitted by a user for an override
 
 If an organization's DLP policy allows users to override it, the organization can use the **DLP False Positives and Overrides** report to view the text submitted by users in the policy tip.
 
-:::image type="content" source="../media/user-override-justification-2428d62c.png" alt-text="Screenshot of the Justification field within the details of the DLP False Positive and Override report.":::
+:::image type="content" source="../media/user-override-justification-2428d62c.png" alt-text="Screenshot of the Justification field within the details of the D L P False Positive and Override report.":::
 
 
 ### Take action on insights and recommendations
 
 Reports can also show insights and recommendations on how to resolve issues. An administrator can select the red warning icon to see details about potential issues and take possible remedial action.
 
-:::image type="content" source="../media/dlp-policy-matches-report-with-insights-icon-for-actions-c8e6db58.png" alt-text="Screenshot of the DLP Policy Matches report showing the insights icon and remedial actions to take.":::
+:::image type="content" source="../media/dlp-policy-matches-report-with-insights-icon-for-actions-c8e6db58.png" alt-text="Screenshot of the D L P Policy Matches report showing the insights icon and remedial actions to take.":::
 
 
 ### Permissions for DLP reports
