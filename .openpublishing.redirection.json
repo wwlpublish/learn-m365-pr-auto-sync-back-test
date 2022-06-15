@@ -3674,6 +3674,31 @@
       "source_path": "learn-m365-pr/wwl/explore-reporting-microsoft-365-security-services/12-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-security-services/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-information-barriers-microsoft-365/2-explore.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/create-information-barriers-microsoft-365/2-explore-information-barriers",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-information-barriers-microsoft-365/3-define-information-barrier-policies.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/create-information-barriers-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-information-barriers-microsoft-365/4-explore-ethical-walls-exchange-online.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/create-information-barriers-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-information-barriers-microsoft-365/5-create-ethical-wall-using-distribution-groups.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/create-information-barriers-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-information-barriers-microsoft-365/6-examine-best-practices-for-building-ethical-walls.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/create-information-barriers-microsoft-365/",
+      "redirect_document_id": false
     }
   ]
 }

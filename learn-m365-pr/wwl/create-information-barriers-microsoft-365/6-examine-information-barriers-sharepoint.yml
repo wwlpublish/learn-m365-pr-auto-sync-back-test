@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.create-information-barriers-microsoft-365.examine-information-barriers-sharepoint
+title: Examine information barriers in SharePoint
+metadata:
+  title: Examine information barriers in SharePoint
+  description: "Examine information barriers in SharePoint"
+  ms.date: 06/14/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/6-examine-information-barriers-sharepoint.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "What's the maximum number of compatible segments that can be associated with a site?"
+    choices:
+    - content: "100"
+      isCorrect: true
+      explanation: "Correct. Up to 100 compatible segments can be associated with a site. The segments are associated at the site level (previously called site collection level)."
+    - content: "200"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the maximum number of compatible segments that can be associated with a site."
+    - content: "250"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the maximum number of compatible segments that can be associated with a site."

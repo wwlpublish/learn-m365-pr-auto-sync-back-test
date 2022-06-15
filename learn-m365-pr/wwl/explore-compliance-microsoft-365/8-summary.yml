@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.create-information-barriers-microsoft-365.summary
+uid: learn.wwl.explore-compliance-microsoft-365.summary
 title: Summary
 metadata:
   title: Summary
@@ -11,6 +11,6 @@ metadata:
   ms.prod: learning-m365
 azureSandbox: false
 labModal: false
-durationInMinutes: 1
+durationInMinutes: 2
 content: |
   [!include[](includes/8-summary.md)]
