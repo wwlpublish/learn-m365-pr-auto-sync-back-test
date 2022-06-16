@@ -7,7 +7,7 @@ OneDrive provides users:
 - **Anywhere access to their files**. Users can easily store, access, and discover individual and shared work files in Microsoft 365, including Microsoft Teams, from all their devices. Offline edits will automatically sync the next time they connect.
 - **Seamless collaboration with files**. Users can work faster and smarter with people inside or outside your organization. They can securely share files and work together in real time using Word, Excel, and PowerPoint across web, mobile, and desktop.
 - **Untethered mobility**. Users can create, view, edit, and share files on the go with the OneDrive mobile app. They can easily capture whiteboards and scan work receipts, business cards, and other paper documents for safekeeping.
-- **Security and protection for files**. Back up and protect files with. Easily recover files from accidental deletions or malicious attacks. Administrators can manage security policies to help keep information safe.
+- **Security and protection for files**. Back up and protect files with OneDrive. Easily recover files from accidental deletions or malicious attacks. Administrators can manage security policies to help keep information safe.
 
 OneDrive employs a sync app to manage files on your Windows PC, Mac, iOS, or Android devices.    OneDrive is included as part of your organization's subscription to Microsoft 365, Office 365, or as a standalone product. As an IT Professional, you have enhanced capabilities to provide security and compliance for those files in OneDrive.
 

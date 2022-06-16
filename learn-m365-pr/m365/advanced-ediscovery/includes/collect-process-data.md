@@ -46,7 +46,7 @@ After executing a search, you can use **Statistics** and **Preview** options to 
 
 :::image type="content" source="../media/search-custodian-data.png" alt-text="Screenshot that shows how to use Statistics and Preview options to verify the search." lightbox="../media/search-custodian-data.png" border="false":::
 
-Statistics on the retrieved items lets you validate your search results and make sure they align with your expectations. You can see things such as the locations that had the most items that matched the search query, and the number of and size of unindexed items. To learn more about statistics, see [Search statistics](/microsoft-365/compliance/search-statistics?azure-portal=true).
+Statistics on the retrieved items lets you validate your search results and make sure they align with your expectations. You can see things such as the locations that had the most items that matched the search query, and the number of and size of unindexed items. To learn more about statistics, see [Search statistics](/microsoft-365/compliance/view-keyword-statistics-for-content-search).
 
 :::image type="content" source="../media/search-statistics.png" alt-text="Screenshot of the Statistics on the retrieved items that let you validate your search results and make sure they align with your expectations." lightbox="../media/search-statistics.png":::
 
