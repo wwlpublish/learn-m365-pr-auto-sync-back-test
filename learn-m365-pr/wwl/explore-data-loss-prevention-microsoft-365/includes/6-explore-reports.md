@@ -20,7 +20,7 @@ All DLP reports can show data from the most recent four-month time period. The m
 
 You can find these reports in the DLP reports dashboard by navigating to **Microsoft Purview compliance portal &gt; Reports &gt; Dashboard**.
 
-:::image type="content" source="../media/dlp-policy-match-report-71f03236.png" alt-text="Screenshot of the D L P policy matches report that shows the count of DLP policy matches over time.":::
+:::image type="content" source="../media/dlp-policy-match-report-71f03236.png" alt-text="Screenshot of the D L P policy matches report that shows the count of D L P policy matches over time.":::
 
 
 ### View the justification submitted by a user for an override
