@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-sensitivity-labels.remove-delete-sensitivity-labels
+title: Remove and delete sensitivity labels
+metadata:
+  title: Remove and delete sensitivity labels
+  description: "Remove and delete sensitivity labels"
+  ms.date: 06/16/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/6-remove-delete-sensitivity-labels.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer deleted a sensitivity label that applied encryption for Highly Confidential documents. Holly later used the desktop version of Word to open a highly confidential document the label had been applied to. What happened when Holly opened the document?"
+    choices:
+    - content: "The label information in the metadata was removed"
+      isCorrect: false
+      explanation: "Incorrect. When opening a document using a desktop app, the label information in the metadata remains even though the label was deleted."
+    - content: "The encryption was removed"
+      isCorrect: true
+      explanation: "Correct. When you open a document using an Office for the web app, if the deleted label applied encryption and the app can process the encrypted content, the encryption is removed. In this case, Word was able to open the document, so the encryption was removed."
+    - content: "Holly was still able to see the applied label name displayed"
+      isCorrect: false
+      explanation: "Incorrect. By using a desktop app to open the document, Holly won't see the applied label name displayed."

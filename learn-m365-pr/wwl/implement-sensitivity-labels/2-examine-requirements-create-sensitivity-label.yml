@@ -1,18 +1,19 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.implement-sensitivity-labels.examine-how-to-create-sensitivity-label
+uid: learn.wwl.implement-sensitivity-labels.examine-requirements-create-sensitivity-label
 title: Examine the requirements to create a sensitivity label
 metadata:
   title: Examine the requirements to create a sensitivity label
   description: "Examine the requirements to create a sensitivity label"
-  ms.date: 06/18/2021
+  ms.date: 06/16/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 5
 content: |
-  [!include[](includes/2-examine-how-to-create-sensitivity-label.md)]
+  [!include[](includes/2-examine-requirements-create-sensitivity-label.md)]
 quiz:
   title: "Check your knowledge"
   questions:
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Publish the sensitivity labels"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't the next step that Holly should complete. Try again."
+      explanation: "Incorrect. This action isn't the next step that Holly should complete."
     - content: "Configure the protection settings associated with each label"
       isCorrect: true
-      explanation: "That's correct. After creating Contoso's sensitivity labels, Holly should define what each sensitivity label can do. This action involves configuring the protection settings that Contoso wants associated with each label."
+      explanation: "Correct. After creating Contoso's sensitivity labels, Holly should define what each sensitivity label can do. This action involves configuring the protection settings that Contoso wants associated with each label."
     - content: "Assign the sensitivity labels to a label policy"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't the next step that Holly should complete. Try again."
+      explanation: "Incorrect. This action isn't the next step that Holly should complete."
