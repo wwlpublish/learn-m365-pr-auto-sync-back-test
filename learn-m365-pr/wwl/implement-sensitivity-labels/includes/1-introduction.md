@@ -13,3 +13,4 @@ After completing this module, you'll be able to:
  -  Create and configure sensitivity labels.
  -  Publish sensitivity labels by creating a label policy.
  -  Identify the differences between removing and deleting sensitivity labels.
+
