@@ -1,3 +1,5 @@
+
+
 Managing the various aspects of Microsoft Teams can be performed using various tools. Basic tasks, such as creating and editing Teams settings, adding or removing members, and adding, removing, and configuring apps can be performed by users through one of the Teams clients. Administrative tasks must be performed with administrative roles and through the Teams Admin Center, the Teams PowerShell module, or Microsoft Graph API. 
 
  
@@ -68,7 +70,7 @@ Get-Command -Module MicrosoftTeams
 
 
 > [!NOTE]
-> The Microsoft Teams PowerShell module with version **1.1.6** or above is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management. 
+> Microsoft Teams PowerShell module versions earlier than 4.x.x are retiring. If you already installed the module with the command ```Install-Module -Name MicrosoftTeams```, you can use the command ```Update-Module MicrosoftTeams``` to get the latest version.
 
 For more information, please refer to [Teams PowerShell Overview](/MicrosoftTeams/teams-powershell-overview?azure-portal=true).
 
@@ -147,7 +149,3 @@ External apps are provided by third parties. You can configure the following set
 
 The Microsoft 365 Defender portal and Microsoft 365 compliance center are designed to help you manage compliance features across Microsoft 365 for your organization, including Teams. Links to existing SharePoint and Exchange compliance features bring together compliance capabilities across Microsoft 365. To use the Microsoft 365 Defender portal, you must either be assigned the global administrator role or have been assigned to one or more Microsoft 365 Defender portal role groups by a global administrator.
 
-
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”

@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 10/25/2021
+  ms.date: 06/16/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -17,36 +17,47 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Administrators can do a bulk deployment of which Teams client?"
+  - content: "Debra is the team owner of the AnnualEvent team. The annual event just finished. Debra wants to archive the AnnualEvent team now and make sure the files in the AnnualEvent team are read-only for team members. What should Debra do with minimal effort?"
+    choices:
+    - content: "Contact Teams administrator for help"
+      isCorrect: false
+      explanation: "That's incorrect. With minimal effort principle, team owners can archive or restore a team from Teams client."
+    - content: "Archive the team from Teams client"
+      isCorrect: true
+      explanation: "That's correct. Team owners can archive or restore a team from Teams client."
+    - content: "Contact SharePoint administrator for help"
+      isCorrect: false
+      explanation: "That's incorrect. SharePoint admin can't archive a team from the SharePoint admin center."
+  - content: "Lidia is the Teams Administrator in Contoso Ltd. Lidia is evaluating the required licenses for Teams Room deployment. Lidia wants to include Teams Rooms Managed Services. Which of the following license should Lidia choose?"
+    choices:
+    - content: "Microsoft Teams Rooms Standard"
+      isCorrect: false
+      explanation: "That's incorrect. Microsoft Teams Rooms Standard doesn't include Teams Rooms Managed Services."
+    - content: "Microsoft Teams Rooms Premium"
+      isCorrect: true
+      explanation: "That's correct. Microsoft Teams Rooms Premium includes all the licenses that come with Microsoft Teams Rooms Standard while providing additional value through Teams Rooms Managed Services."
+    - content: "Microsoft 365 Business Voice"
+      isCorrect: false
+      explanation: "That's incorrect. Business Voice is a telephony solution designed for small and medium businesses."
+  - content: "Contoso Associates, a law firm with few hundred attorneys, recently rolled out Microsoft Teams for collaboration amongst the attorneys. Tom is a Teams Administrator at Contoso Associates. He wants to use bulk deployment of Teams client to prevent users from downloading and manually installing the Teams client. Which of the following Teams client can be deployed at bulk by Tom?"
     choices:
     - content: "Microsoft Teams mobile client"
       isCorrect: false
-      explanation: "That's incorrect. Administrators cannot do a bulk deployment of the mobile client. Try again."
+      explanation: "That's incorrect. Administrators cannot do a bulk deployment of the mobile client."
     - content: "Microsoft Teams desktop client"
       isCorrect: true
       explanation: "That's correct. Administrators can do a bulk deployment of the desktop client via MSI or Microsoft 365 Apps."
     - content: "Microsoft Teams web client"
       isCorrect: false
-      explanation: "That's incorrect. Administrators cannot do a bulk deployment of the web client. Try again."
-  - content: "Which of the options below is a prerequisite for rolling out Teams?"
-    choices:
-    - content: "Advisor for Teams"
-      isCorrect: false
-      explanation: "That's incorrect. Advisor for Teams is part of the Teams admin center and isn't a prerequisite for rolling out Teams. Try again."
-    - content: "A subscription to a minimum of Microsoft 365 Business Basic"
-      isCorrect: true
-      explanation: "That's correct.  To roll out Teams, you must be subscribed to Microsoft 365 Business Basic, Business Standard, or Business Premium license, or one of the Enterprise plans."
-    - content: "At least one Teams communications support engineer"
-      isCorrect: false
-      explanation: "That's incorrect. Assigning roles isn't a prerequisite to rolling out Teams. Try again."
+      explanation: "That's incorrect. Administrators cannot do a bulk deployment of the web client."
   - content: "Following the principle of least privilege, which role should be assigned to an administrator in Teams that needs to assign telephone numbers?"
     choices:
     - content: "Teams administrator"
       isCorrect: false
-      explanation: "That's incorrect. Users assigned to this role can manage anything in Teams. But the principle of least privilege means you should select a more restricted role. Try again."
+      explanation: "That's incorrect. Users assigned to this role can manage anything in Teams. But the principle of least privilege means you should select a more restricted role."
     - content: "Teams communication admin"
       isCorrect: true
       explanation: "That's correct. Users assigned to this role can assign telephone numbers."
     - content: "Teams communication support engineer"
       isCorrect: false
-      explanation: "That's incorrect. This role cannot assign telephone numbers. Try again."
+      explanation: "That's incorrect. This role cannot assign telephone numbers."
