@@ -1,0 +1,49 @@
+### YamlMime:Module
+uid: learn.wwl.implement-microsoft-purview-insider-risk-management
+metadata:
+  title: Implement Microsoft Purview Insider Risk Management
+  description: "Implement Microsoft Purview Insider Risk Management"
+  ms.date: 06/16/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implement Microsoft Purview Insider Risk Management
+summary: This module examines how Microsoft Purview Insider Risk Management helps organizations minimize internal risks by enabling them to detect, investigate, and act on malicious and inadvertent activities.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Describe insider risk management functionality in Microsoft 365.
+  - Develop a plan to implement the Microsoft Purview Insider Risk Management solution.
+  - Create insider risk management policies.
+  - Manage insider risk management alerts and cases.
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+- security-engineer
+- solution-architect
+- technology-manager
+products:
+- m365
+- office-365
+subjects:
+- cloud-computing
+- cloud-security
+- compliance
+- information-protection-governance
+- security
+- threat-protection
+units:
+- learn.wwl.implement-microsoft-purview-insider-risk-management.introduction
+- learn.wwl.implement-microsoft-purview-insider-risk-management.explore-insider-risk-management
+- learn.wwl.implement-microsoft-purview-insider-risk-management.plan-insider-risk-management
+- learn.wwl.implement-microsoft-purview-insider-risk-management.explore-insider-risk-management-policies
+- learn.wwl.implement-microsoft-purview-insider-risk-management.create-insider-risk-management-policies
+- learn.wwl.implement-microsoft-purview-insider-risk-management.investigate-insider-risk-management-activities-alerts
+- learn.wwl.implement-microsoft-purview-insider-risk-management.explore-insider-risk-management-cases
+- learn.wwl.implement-microsoft-purview-insider-risk-management.knowledge-check
+- learn.wwl.implement-microsoft-purview-insider-risk-management.summary
+badge:
+  uid: learn.wwl.implement-microsoft-purview-insider-risk-management.badge

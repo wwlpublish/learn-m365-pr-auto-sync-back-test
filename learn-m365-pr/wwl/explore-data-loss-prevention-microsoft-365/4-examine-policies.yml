@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-data-loss-prevention-microsoft-365.examine-policies
+title: Examine DLP policies
+metadata:
+  title: Examine DLP policies
+  description: "Examine DLP policies"
+  ms.date: 06/16/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/4-examine-policies.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "A DLP policy contains one or more of which item?"
+    choices:
+    - content: "Conditions"
+      isCorrect: false
+      explanation: "Incorrect. Conditions aren't contained in a DLP policy. They're contained in a DLP rule."
+    - content: "Actions"
+      isCorrect: false
+      explanation: "Incorrect. Actions aren't contained in a DLP policy. They're contained in a DLP rule."
+    - content: "Rules"
+      isCorrect: true
+      explanation: "Correct. Rules are what enforce an organization's business requirements on the information that it stores. A policy can contain one or more rules, and each rule consists of conditions and actions."
