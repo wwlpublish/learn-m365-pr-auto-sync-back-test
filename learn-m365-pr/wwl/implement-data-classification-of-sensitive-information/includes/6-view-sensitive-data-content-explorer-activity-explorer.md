@@ -46,13 +46,13 @@ A Global admin can assign the necessary Content Explorer List Viewer and Content
 
 #### Sensitive information types
 
-A DLP policy can help protect sensitive information, which is defined as a sensitive information type. Microsoft 365 includes [definitions for many common sensitive information types](/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide) from across many different regions that are ready for organizations to use. For example, a credit card number, bank account numbers, national ID numbers, and Windows Live ID service numbers.
+A DLP policy can help protect sensitive information, which is defined as a sensitive information type. Microsoft 365 includes [definitions for many common sensitive information types](/microsoft-365/compliance/sensitive-information-type-entity-definitions?azure-portal=true) from across many different regions that are ready for organizations to use. For example, a credit card number, bank account numbers, national ID numbers, and Windows Live ID service numbers.
 
 #### Sensitivity labels
 
 A sensitivity label is simply a tag that indicates the value of the item to an organization. It can be applied manually or automatically. Once applied, the label gets embedded in the document. By doing so, it follows the document everywhere it goes. A sensitivity label enables various protective behaviors, such as mandatory watermarking or encryption.
 
-Sensitivity labels must be enabled for files that are in SharePoint and OneDrive in order for the corresponding data to surface in the **Data classification** page of the Microsoft Purview compliance portal. For more information, see [Enable sensitivity labels for Office files in SharePoint and OneDrive](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files?view=o365-worldwide).
+Sensitivity labels must be enabled for files that are in SharePoint and OneDrive in order for the corresponding data to surface in the **Data classification** page of the Microsoft Purview compliance portal. For more information, see [Enable sensitivity labels for Office files in SharePoint and OneDrive](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files?azure-portal=true).
 
 #### Retention labels
 
@@ -94,13 +94,13 @@ The scope of the search tool is displayed in the **All locations** pane. What yo
 
 You can search on:
 
-| **Value**                                              | **Example**                                    |
-| ------------------------------------------------------ | ---------------------------------------------- |
-| full site name                                         | https://contoso.onmicrosoft.com/sites/sitename |
-| file name                                              | RES\_Resume\_1234.txt                          |
-| text at the beginning of file name                     | RES                                            |
-| text after an underscore character ( \_ ) in file name | Resume or 1234                                 |
-| file extension                                         | txt                                            |
+| **Value**                                         | **Example**                                                                                             |
+| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| full site name                                    | https://contoso.onmicrosoft.com/sites/sitename                                                          |
+| file name                                         | RES\_Resume\_1234.txt<br><br>Note: Segments of this file name are the basis of the next three examples. |
+| text at the beginning of acfile name              | RES                                                                                                     |
+| text after an underscore character in a file name | Resume or 1234                                                                                          |
+| file extension                                    | txt                                                                                                     |
 
 ### Activity explorer
 
@@ -156,7 +156,7 @@ Microsoft 365 roles include:
 
 #### Activity types
 
-Activity explorer gathers activity information from the audit logs on multiple sources of activities. For more detailed information on what labeling activity makes it to Activity explorer, see [Labeling events available in Activity explorer](/microsoft-365/compliance/data-classification-activity-explorer-available-events?view=o365-worldwide).
+Activity explorer gathers activity information from the audit logs on multiple sources of activities. For more detailed information on what labeling activity makes it to Activity explorer, see [Labeling events available in Activity explorer](/microsoft-365/compliance/data-classification-activity-explorer-available-events?azure-portal=true).
 
 The source of activities includes:
 
