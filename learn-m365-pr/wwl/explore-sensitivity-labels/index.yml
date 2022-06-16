@@ -3,7 +3,7 @@ uid: learn.wwl.explore-sensitivity-labels
 metadata:
   title: Explore sensitivity labels
   description: "Explore sensitivity labels"
-  ms.date: 09/15/2021
+  ms.date: 06/16/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -29,17 +29,23 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 subjects:
+- cloud-computing
+- cloud-security
+- collaboration
+- communication
+- compliance
 - information-protection-governance
+- security
+- threat-protection
 units:
 - learn.wwl.explore-sensitivity-labels.introduction
 - learn.wwl.explore-sensitivity-labels.manage-data-protection-sensitivity-labels
-- learn.wwl.explore-sensitivity-labels.explore-what-can-do
-- learn.wwl.explore-sensitivity-labels.determine-scope
-- learn.wwl.explore-sensitivity-labels.label-policies
+- learn.wwl.explore-sensitivity-labels.explore-sensitivity-labels
+- learn.wwl.explore-sensitivity-labels.determine-sensitivity-label-scope
+- learn.wwl.explore-sensitivity-labels.explore-sensitivity-label-policies
 - learn.wwl.explore-sensitivity-labels.knowledge-check
 - learn.wwl.explore-sensitivity-labels.summary
 badge:

@@ -4,13 +4,12 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 09/15/2021
+  ms.date: 06/16/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 6
 content: |
@@ -22,32 +21,32 @@ quiz:
     choices:
     - content: "Exchange mailboxes"
       isCorrect: false
-      explanation: "That's incorrect. Retention labels are published to locations such as Exchange mailboxes. Sensitivity labels aren't published to Exchange mailboxes. Try again."
+      explanation: "Incorrect. Retention labels are published to locations such as Exchange mailboxes. Sensitivity labels aren't published to Exchange mailboxes."
     - content: "Outlook folders"
       isCorrect: false
-      explanation: "That's incorrect. Sensitivity labels aren't published to Outlook folders. Try again."
+      explanation: "Incorrect. Sensitivity labels aren't published to Outlook folders."
     - content: "Users or groups"
       isCorrect: true
-      explanation: "That's correct. Sensitivity labels are published to users or groups. Apps that support sensitivity labels can then display them to those users and groups as applied labels, or as labels that they can apply."
+      explanation: "Correct. Sensitivity labels are published to users or groups. Apps that support sensitivity labels can then display them to those users and groups as applied labels, or as labels that they can apply."
   - content: "As the Enterprise Administrator for Tailspin Toys, Patti Fernandez plans to configure a label policy. Which of the following items can Patti configure in the policy?"
     choices:
     - content: "Require a justification for changing a label"
       isCorrect: true
-      explanation: "That's correct. If a user tries to remove a label or replace it with a label that has a lower-order number, you can require the user provides a justification to complete this action."
+      explanation: "Correct. If a user tries to remove a label or replace it with a label that has a lower-order number, you can require the user provides a justification to complete this action."
     - content: "Apply a default label to a site container"
       isCorrect: false
-      explanation: "That's incorrect. Default labels can only be applied to all new documents and unlabeled emails created by the users and groups included in the label policy. Try again."
+      explanation: "Incorrect. Default labels can only be applied to all new documents and unlabeled emails created by the users and groups included in the label policy."
     - content: "Publish labels to any email-enabled and non-email-enabled security group, distribution group, or Microsoft 365 group"
       isCorrect: false
-      explanation: "That's incorrect. Labels can't be published to a non-email-enabled security group. Try again."
+      explanation: "Incorrect. Labels can't be published to a non-email-enabled security group."
   - content: "Contoso is implementing sensitivity labels in a controlled test environment. However, it isn't seeing the label or label policy setting behavior that was expected for its test groups. Which of the following actions is recommended to troubleshoot this type of issue?"
     choices:
     - content: "Make sure users don't have more than five main labels"
       isCorrect: false
-      explanation: "That's incorrect. This is a best practice for lowering administrative overheads and reducing complexity for your users. It isn't the recommended action for troubleshooting this type of issue. Try again."
+      explanation: "Incorrect. This is a best practice for lowering administrative overheads and reducing complexity for your users. It isn't the recommended action for troubleshooting this type of issue."
     - content: "Check the order of the sensitivity label policies"
       isCorrect: true
-      explanation: "That's correct. If you're not seeing the label or label policy setting behavior that you expect for a user or group, check the order of the sensitivity label policies. You may need to move a policy down."
+      explanation: "Correct. If you're not seeing the label or label policy setting behavior that you expect for a user or group, check the order of the sensitivity label policies. You may need to move a policy down."
     - content: "Change label policies to a different set of users and groups"
       isCorrect: false
-      explanation: "That's incorrect. This isn't the recommended action for troubleshooting this type of issue. Try again."
+      explanation: "Incorrect. This isn't the recommended action for troubleshooting this type of issue."
