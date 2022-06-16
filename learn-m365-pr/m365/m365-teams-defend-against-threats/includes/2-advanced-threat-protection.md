@@ -28,7 +28,7 @@ Microsoft Defender for Office 365 is available for Microsoft Teams, along with S
 
 How the affected content is managed after detection is determined by your settings in Microsoft 365. Don't consider Teams in isolation when you configure Microsoft Defender for Office 365. It's best practice to configure all applications together.
 
-**Safe attachments** is a Microsoft Defender for Office 365 feature that's designed to enhance security by checking and identifying malicious attachments. Global Admins or Security Admins create policies to prevent malicious attachments from being sent to users, clicked, or acted on. Safe attachment protection is available in SharePoint, OneDrive, and Microsoft Teams. Microsoft Defender for Endpoint Plan 1 and 2 have this capability.  
+**Safe attachments** is a Microsoft Defender for Office 365 feature that's designed to enhance security by checking and identifying malicious attachments. Global Admins or Security Admins create policies to prevent malicious attachments from being sent to users, clicked, or acted on. Safe attachment protection is available in SharePoint, OneDrive, and Microsoft Teams. Office 365 for Endpoint Plan 1 and 2 have this capability.  
 
 ## Learn more
 

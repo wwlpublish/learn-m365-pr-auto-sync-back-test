@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-microsoft-purview-insider-risk-management.investigate-insider-risk-management-activities-alerts
+title: Investigate insider risk management activities and alerts
+metadata:
+  title: Investigate insider risk management activities and alerts
+  description: "Investigate insider risk management activities and alerts"
+  ms.date: 06/16/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/6-investigate-insider-risk-management-activities-alerts.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "What does insider risk management use to help protect and optimize an organization's risk investigation and review experience?"
+    choices:
+    - content: "Alert throttling"
+      isCorrect: true
+      explanation: "Correct. Insider risk management uses built-in alert throttling to help protect and optimize an organization's risk investigation and review experience. Throttling guards against issues that may result in an overload of policy alerts. For example, misconfigured data connectors or DLP policies. As a result, there might be a delay in displaying new alerts for a user."
+    - content: "User activity reports"
+      isCorrect: false
+      explanation: "Incorrect. User activity reports allow an organization to examine activities for specific users for a defined time period. However, it doesn't help protect and optimize an organization's risk investigation and review experience."
+    - content: "Activity explorer"
+      isCorrect: false
+      explanation: "Incorrect. The Activity explorer provides risk investigators and analysts with a comprehensive analytic tool that provides detailed information about alerts. However, it doesn't help protect and optimize an organization's risk investigation and review experience."
