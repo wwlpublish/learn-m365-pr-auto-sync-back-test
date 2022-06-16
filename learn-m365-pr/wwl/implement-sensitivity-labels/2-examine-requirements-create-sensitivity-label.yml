@@ -24,7 +24,7 @@ quiz:
       explanation: "Incorrect. This action isn't the next step that Holly should complete."
     - content: "Configure the protection settings associated with each label"
       isCorrect: true
-      explanation: "Correct. After creating Contoso's sensitivity labels, Holly should define what each sensitivity label can do. This action involves configuring the protection settings that Contoso wants associated with each label."
+      explanation: "Correct. After Holly created Contoso's sensitivity labels, she should define what each sensitivity label can do. This action involves configuring the protection settings that Contoso associates with each label."
     - content: "Assign the sensitivity labels to a label policy"
       isCorrect: false
       explanation: "Incorrect. This action isn't the next step that Holly should complete."

@@ -11,7 +11,7 @@ metadata:
 title: Implement sensitivity labels
 summary: This module examines the process for implementing sensitivity labels, including applying proper administrative permissions, determining a deployment strategy, creating, configuring, and publishing labels, and removing and deleting labels.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Describe the overall process to create, configure, and publish sensitivity labels
   - Identify the administrative permissions that must be assigned to compliance team members to implement sensitivity labels
   - Develop a data classification framework that provides the foundation for your sensitivity labels

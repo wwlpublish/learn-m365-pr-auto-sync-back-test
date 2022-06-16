@@ -13,7 +13,7 @@ The following diagram shows the basic flow for deploying and applying sensitivit
 
 Many different subscriptions support sensitivity labels. The licensing requirements for users depend on the features you use.
 
-To see the options for licensing your users to benefit from Microsoft 365 compliance features, see the [Microsoft 365 licensing guidance for security &amp; compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true). For sensitivity labels, see the [Information Protection](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection?azure-portal=true) section and related PDF or Excel download.
+To see the options for licensing your users to benefit from Microsoft Purview features, see the [Microsoft 365 licensing guidance for security &amp; compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true). For sensitivity labels, see the [Information Protection](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection?azure-portal=true) section and related PDF or Excel download.
 
 ### Permissions required to create and manage sensitivity labels
 
@@ -32,7 +32,7 @@ By default, global administrators have access to the Microsoft Purview complianc
 
 Instead of using the default roles, you can create a new role group and add either Sensitivity Label Administrator or Organization Configuration roles to this group. For a read-only role, use Sensitivity Label Reader.
 
-These permissions are required only to create and configure sensitivity labels and their label policies. They aren't required to apply the labels in apps or services. If additional permissions are needed for specific configurations that relate to sensitivity labels, those permissions will be listed in their respective documentation instructions.
+These permissions are required only to create and configure sensitivity labels and their label policies. They aren't required to apply the labels in apps or services. If other permissions are needed for specific configurations that relate to sensitivity labels, those permissions will be listed in their respective documentation instructions.
 
 ## Knowledge check
 

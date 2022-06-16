@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "The label information in the metadata was removed"
       isCorrect: false
-      explanation: "Incorrect. When opening a document using a desktop app, the label information in the metadata remains even though the label was deleted."
+      explanation: "Incorrect. When you open a document using a desktop app, the label information in the metadata remains even though the label was deleted."
     - content: "The encryption was removed"
       isCorrect: true
       explanation: "Correct. When you open a document using an Office for the web app, if the deleted label applied encryption and the app can process the encrypted content, the encryption is removed. In this case, Word was able to open the document, so the encryption was removed."
     - content: "Holly was still able to see the applied label name displayed"
       isCorrect: false
-      explanation: "Incorrect. By using a desktop app to open the document, Holly won't see the applied label name displayed."
+      explanation: "Incorrect. Holly used a desktop app to open the document. As such, the applied label name won't be displayed."

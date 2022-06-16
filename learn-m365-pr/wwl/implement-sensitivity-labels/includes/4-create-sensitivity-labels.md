@@ -32,7 +32,7 @@ The global admin for an organization has full permissions to create and manage a
      -  For information about the **Schematized data assets** scope, see [Automatically label your content in Microsoft Purview Data Map](/azure/purview/create-sensitivity-label).
 6.  Follow the configuration prompts for the label settings. Several of the settings options will trigger various settings pages. As such, it's difficult to describe all the settings pages that you may encounter, since they're dependent on which options you select. For more information about the label settings, see [What sensitivity labels can do](/microsoft-365/compliance/sensitivity-labels?azure-portal=true) from the overview information and use the help in the UI for individual settings.
 7.  Repeat these steps to create more labels. However, if you want to create a sublabel, first select the parent label, then select the vertical ellipsis icon (**Actions**), and then select **Add sub label** in the menu that appears.
-8.  When you've created all the labels you need, review their order and if necessary, move them up or down. To change the order of a label, select the vertical ellipsis icon (**Actions**), and then select **Move up** or **Move down** in the menu that appears. For more information, see [Label priority (order matters)](/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#label-priority-order-matters) from the overview information.
+8.  When you've created all the labels you need, review their order and if necessary, move them up or down. To change the order of a label, select the vertical ellipsis icon (**Actions**), and then select **Move up** or **Move down** in the menu that appears. For more information, see [Label priority (order matters)](/microsoft-365/compliance/sensitivity-labels?azure-portal=true) from the overview information.
 
 ### Edit a sensitivity label
 
@@ -44,7 +44,7 @@ To edit an existing label, select it in the list of labels in the **Labels** tab
 This button starts the **Edit sensitivity label** wizard, which lets you change all the label settings.
 
 > [!CAUTION]
-> Don't delete a label unless you understand the effect on users. For more information, see [Removing and deleting labels](/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide#removing-and-deleting-labels).
+> Don't delete a label unless you understand the effect on users. For more information, see [Removing and deleting labels](/microsoft-365/compliance/create-sensitivity-labels?azure-portal=true).
 
 If you edit a label that's already been published in a label policy, no extra steps are needed when you finish the configuration. For example, you don't need to add it to a new label policy for the changes to become available to the same users. However, you should allow up to 24 hours for the changes to replicate to all apps and services.
 
