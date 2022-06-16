@@ -51,7 +51,7 @@ Presentations are at the heart of any event, in-person or virtual, so your slide
         </div>
     :::column-end:::
     :::column span="2":::
-        Use high contrast colors. The minimum contrast you should use is 4.5:1. But for larger text, use as much as 3:1. 
+        Use high contrast colors. On normal text sizes, a higher contrast is needed, at least 4.5:1. The minimum contrast used on larger text can be lower, but should be at least 3:1. 
 
 
         

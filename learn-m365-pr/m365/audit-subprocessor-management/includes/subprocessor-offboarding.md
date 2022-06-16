@@ -13,4 +13,4 @@ For printed materials containing customer information:
 
 ## Learn more
 
-- [NSA Destruction Standard](https://www.nsa.gov/resources/everyone/media-destruction/?azure-portal=true)
+- [NSA Destruction Standard](https://www.nsa.gov/Resources/Media-Destruction-Guidance)
