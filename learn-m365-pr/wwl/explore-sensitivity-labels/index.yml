@@ -11,7 +11,7 @@ metadata:
 title: Explore sensitivity labels
 summary: This module examines how sensitivity labels from the Microsoft Information Protection solution let you classify and protect your organization's data, while making sure that user productivity and collaboration isn't hindered.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Describe how sensitivity labels let you classify and protect your organization's data
   - Identify the common reasons why organizations use sensitivity labels
   - Explain what a sensitivity label is and what they can do for an organization

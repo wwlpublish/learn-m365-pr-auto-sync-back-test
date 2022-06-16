@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Organizations can tie sensitivity labels with other actions on a document. For example, an organization can configure a label, such as a \"Highly Confidential\" label, so that it encrypts the data in whatever document or email that it's applied to. By encrypting a document, what other effect can encryption have on the document?"
+  - content: "Organizations can tie sensitivity labels with other actions on a document. For example, an organization can configure a label, such as a \"Highly Confidential\" label, so that it encrypts the data in whatever document or email that it's applied to. When a document is encrypted, what other effect can encryption have on the document?"
     choices:
     - content: "It causes a watermark to be automatically displayed on the content"
       isCorrect: false
