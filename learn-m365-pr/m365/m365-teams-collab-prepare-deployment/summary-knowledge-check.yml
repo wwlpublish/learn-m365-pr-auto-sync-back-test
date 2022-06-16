@@ -27,7 +27,7 @@ quiz:
         isCorrect: false
         explanation: "That's incorrect. Chat is just one of many Teams features that can be used within a project-specific channel. You should create a new channel within a teams that include chat."
   
-    - content: "Which management tool can administrators use to access data for Teams and other Microsoft 365 services?"
+    - content: "Which management tool can administrators use to edit group and team-specific settings but not to access data from other Microsoft 365 services?"
       choices:
       - content: "Microsoft Teams PowerShell module"
         isCorrect: false
