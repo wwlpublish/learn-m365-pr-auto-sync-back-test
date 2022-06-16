@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-data-classification-of-sensitive-information.explore-data-classification-sensitive-information
+title: Explore data classification of sensitive information
+metadata:
+  title: Explore data classification of sensitive information
+  description: "Explore data classification of sensitive information"
+  ms.date: 06/16/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/2-explore-data-classification-sensitive-information.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Data classification in Microsoft 365 scans an organization's sensitive content and labeled content before the organization creates any policies. What is this process known as?"
+    choices:
+    - content: "Trainable classifiers"
+      isCorrect: false
+      explanation: "Incorrect. Trainable classifiers use machine learning to help identify categories of content in an organization."
+    - content: "Data protection baseline assessment"
+      isCorrect: false
+      explanation: "Incorrect. This item is a Compliance Manager feature that's used to calculate your initial compliance score the first time you come to Compliance Manager, before you configure any other assessments."
+    - content: "Zero change management"
+      isCorrect: true
+      explanation: "Correct. Data classification in Microsoft 365 scans an organization's sensitive content and labeled content before the organization creates any policies. This process is called zero change management. It enables an organization to see the effect that all the retention and sensitivity labels are having in its environment. It also empowers the organization to start assessing its protection and governance policy needs."
