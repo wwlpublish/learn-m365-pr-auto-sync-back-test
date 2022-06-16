@@ -1,6 +1,6 @@
 If your team is constantly managing work, then they’re not actually working. You and your team need an efficient process for managing that work so you can focus on delivering quality work on time. **Microsoft 365** streamlines work management through a set of purpose-built tools that add structure to all elements such as tasks, status updates, schedules, projects, etc. that go into delivering quality business results. With a more efficient approach to the process of work, your team has more time to collaborate on the work itself.
 
-The **work management solutions** through Microsoft 365 allow your teams to work the way want giving organizations the results they need. The work management tools available include **Project, Planner**, **Bookings,** and **To Do.** Each tool is designed with different features so you can choose the best tool to help you manage your type of work.
+The **work management solutions** through Microsoft 365 allow your teams to work the way they want, giving organizations the results they need. The work management tools available include **Project, Planner**, **Bookings,** and **To Do.** Each tool is designed with different features so you can choose the best tool to help you manage your type of work.
 
 ### Microsoft Project
 
