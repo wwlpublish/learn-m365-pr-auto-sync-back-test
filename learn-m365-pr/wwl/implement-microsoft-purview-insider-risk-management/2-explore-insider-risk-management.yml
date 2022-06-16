@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-microsoft-purview-insider-risk-management.explore-insider-risk-management
+title: Explore insider risk management
+metadata:
+  title: Explore insider risk management
+  description: "Explore insider risk management"
+  ms.date: 06/16/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-explore-insider-risk-management.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following actions is considered the heart of the insider risk management workflow?"
+    choices:
+    - content: "Automatic generation of alerts by risk indicators that match policy conditions"
+      isCorrect: false
+      explanation: "Incorrect. While alerts provide the foundation of the investigation process, they aren't considered the heart of the insider risk management workflow."
+    - content: "Creating a case"
+      isCorrect: true
+      explanation: "Correct. Selecting a case on the Case dashboard opens the case for investigation and review. This step is the heart of the insider risk management workflow. This area is where risk activities, policy conditions, alerts details, and user details are synthesized into an integrated view for reviewers."
+    - content: "Sending notices to users for violating policy conditions"
+      isCorrect: false
+      explanation: "Incorrect. If users accidentally or inadvertently violate policy conditions, a simple reminder notice can be sent to the user from notice templates that an organization can customize. These notices can serve as simple reminders. While this step is important, it isn't considered the heart of the insider risk management workflow."

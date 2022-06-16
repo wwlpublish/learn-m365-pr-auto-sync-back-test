@@ -41,7 +41,7 @@ For more information about these cmdlets, see the links in the **Learn more** se
 For this scenario, you could run the **New-CsOnlinePSTNGateway** cmdlet to create the following configuration:
 
 ```powershell
-New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules 'AddPlus1' -InboundPSTNNumberTranslationRules 'AddPlus1' -OnboundPSTNNumberTranslationRules 'AddSeattleAreaCode'  -OutboundTeamsNumberTranslationRules 'StripPlus1'
+New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules 'AddPlus1' -InboundPSTNNumberTranslationRules 'AddE164SeattleAreaCode' -OutboundTeamsNumberTranslationRules 'StripPlus1'
 ```
 
 The translation rules assigned to the SBC are summarized in the following table:

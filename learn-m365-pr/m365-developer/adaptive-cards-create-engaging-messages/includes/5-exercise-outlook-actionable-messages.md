@@ -1033,7 +1033,7 @@ ngrok http 3007
 
 This will start ngrok and will tunnel requests from an external ngrok url to your development machine on port 3007.
 
-Copy the https forwarding address. In the following sample output that is **https://787b8292.ngrok.io**.
+Copy the https forwarding address. In the following sample output that is **`https://787b8292.ngrok.io`**.
 
 ```console
 ngrok by @inconshreveable
