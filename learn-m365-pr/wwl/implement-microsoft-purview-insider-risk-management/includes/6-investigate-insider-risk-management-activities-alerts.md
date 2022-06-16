@@ -35,7 +35,7 @@ An organization can get started by selecting **Manage reports** in the **Investi
 > [!NOTE]
 > New reports typically take up to 10 hours before they're ready for review. When the report is ready, you'll see **Report ready** in the **Status** column on the **User activity report** page. Select the user to view the detailed report.
 
-:::image type="content" source="../media/insider-risk-user-activity-report-85fabbe6.png" alt-text="Screenshot of the Insider risk management user activity report showing all the user activity for a selected report.":::
+:::image type="content" source="../media/insider-risk-user-activity-report-85fabbe6.png" alt-text="Screenshot of the Insider risk management user activity report showing all the user activity for a selected report." lightbox="../media/insider-risk-user-activity-report-85fabbe6.png":::
 
 
 The **User activity report** for the selected user contains the **User activity** and **Activity explorer** tabs:

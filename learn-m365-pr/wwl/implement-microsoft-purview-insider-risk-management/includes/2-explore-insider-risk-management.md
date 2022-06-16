@@ -42,7 +42,7 @@ To enable insider risk analytics, you must be a member of the **Insider Risk Man
 Complete the following steps to enable insider risk analytics:
 
 1.  In the Microsoft Purview compliance portal, select **Insider risk management** in the navigation pane.
-2.  Select **Run scan** on the **Scan for insider risks in your organization** card on the insider risk management **Overview** tab. This action turns on analytics scanning for your organization. You can also turn on scanning in your organization by navigating to **Insider risk settings &gt; Analytics** and enabling the option titled: **Scan your tenant's user activity to identify potential insider risks**.
+2.  Select **Run scan** on the **Scan for insider risks in your organization** card on the insider risk management **Overview** tab. This action turns on analytics scanning for your organization. You can also turn on scanning in your organization by navigating to **Insider risk settings > Analytics** and enabling the option titled: **Scan your tenant's user activity to identify potential insider risks**.
 3.  On the **Analytics details** pane, select **Run scan** to start the scan for your organization. Analytics scan results may take up to 48 hours before insights are available as reports for review.
 
 After reviewing the analytics insights, choose the insider risk policies and configure the associated prerequisites that best meet your organization's insider risk mitigation strategy.
