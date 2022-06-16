@@ -74,11 +74,11 @@ quiz:
     - content: "How are users authenticated with Exchange Online if certificate-based authentication has been configured for your organization?"
       choices:
       - content: "Using a client certificate"
-        isCorrect: true
-        explanation: "Yes, users are authenticated using a client certificate."
-      - content: "Using a client certificate combined with a username and password"
         isCorrect: false
-        explanation: "No, with certificate-based authentication, users just need a client certificate."
+        explanation: "No, users are authenticated using a client certificate combined with a username and password."
+      - content: "Using a client certificate combined with a username and password"
+        isCorrect: true
+        explanation: "Yes, with certificate-based authentication, users need a client certificate combined with a username and password."
       - content: "Using a username and password"
         isCorrect: false
-        explanation: "No, with certificate-based authentication, users just need a client certificate."
+        explanation: "No, with certificate-based authentication, users need a client certificate combined with a username and password."
