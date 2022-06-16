@@ -41,7 +41,7 @@ Microsoft Teams lets you quickly pull together a team with people inside and out
 
     * **Private channels**: Private channels create focused spaces for collaboration within a team. Anyone, including guests, can be added as a member of a private channel as long as they are already members of the team. Only the users on the team who are owners or members of the private channel can access the channel. 
 
-    * **Shared channels**:Shared channels create collaboration spaces where you can invite people who are not in the team. Users can securely collaborate with users or groups across teams and organizations. (This feature is in public preview as of May 2022. For the latest status, check the roadmap with the [feature ID_70766](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=70766&azure-portal=true).)
+    * **Shared channels**: Shared channels create collaboration spaces where you can invite people who are not in the team. Users can securely collaborate with users or groups across teams and organizations. (This feature is in public preview as of May 2022. For the latest status, check the roadmap with the [feature ID_70766](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=70766&azure-portal=true).)
     
 Teams can be dynamic for project-based work (such as running projects), and ongoing, to reflect the internal structure of your organization (such as departments and office locations). 
 
