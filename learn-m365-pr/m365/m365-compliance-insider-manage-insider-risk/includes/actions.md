@@ -86,11 +86,13 @@ The **User activity** tab is one of the most powerful tools for internal risk an
 
 ### Content explorer
 
-The **Content explorer** tab allows risk analysts and investigators to review copies of all individual files and email messages associated with risk alerts. For example, if an alert is created when an employee downloads hundreds of files from SharePoint Online to a USB device and the activity triggers a policy alert, all the downloaded files for the alert are captured and copied to the insider risk management case from original storage sources.
+The **Content explorer** tab grants users with two roles access: The **Content Explorer List viewer** membership allows you to see each item and its location in list view and the data classification **list viewer** role is pre-assigned to this role group. The **Content Explorer Content viewer** membership on the otherhand allows you to view the contents of each item in the list. The data classification **content viewer** role is pre-assigned to this role group to review copies of all individual files and email messages associated with risk alerts. For example, if an alert is created when an employee downloads hundreds of files from SharePoint Online to a USB device and the activity triggers a policy alert, all the downloaded files for the alert are captured and copied to the insider risk management case from original storage sources.
 
 :::image type="content" source="../media/content-explorer.png" alt-text="Screenshot of the Content explorer tab that lists the emails and files flagged by the policy alert as well as an overview of case details in a pane on the far right." lightbox="../media/content-explorer.png" border="false":::
 
-**Content explorer** is a powerful tool with basic and advanced search and filtering features. To learn more about using the content explorer, see [Insider risk management content explorer](/microsoft-365/compliance/insider-risk-management-content-explorer?azure-portal=true).
+**Content explorer** is a powerful tool with basic and advanced search and filtering features that shows a current snapshot of the items that have a sensitivity label, a retention label or have been classified as a sensitive information type in your organization.
+
+To learn more about using the content explorer, see [Insider risk management content explorer](/microsoft-365/compliance/insider-risk-management-content-explorer?azure-portal=true).
 
 ### Case notes
 
