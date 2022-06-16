@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-data-loss-prevention-microsoft-365.explore-endpoint-data-loss-prevention
+title: Explore Endpoint data loss prevention
+metadata:
+  title: Explore Endpoint data loss prevention
+  description: "Explore Endpoint data loss prevention"
+  ms.date: 06/16/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/3-explore-endpoint-data-loss-prevention.md)]
