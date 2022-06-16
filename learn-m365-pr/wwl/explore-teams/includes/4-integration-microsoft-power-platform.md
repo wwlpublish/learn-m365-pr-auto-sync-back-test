@@ -1,8 +1,18 @@
 Today's business problems increasingly require modern digital solutions. With the integration of Microsoft Power Platform apps into Teams, organizations can streamline business processes, respond to changing business needs more rapidly to drive greater collaboration, and create and share custom solutions to be more productive.
 
-With a low-code platform, anyone with a great idea can build a digital app. Microsoft Power Platform helps users accelerate their development with low-code tools to analyze data using **Power BI**, build custom apps using **Power Apps**, automate processes using **Power Automate**, and create intelligent bots using **Power Virtual Agents** more quickly than ever. 
+With a low-code platform, anyone with a great idea can build a digital app. Microsoft Power Platform helps users accelerate their development with low-code tools. For example:
 
-Microsoft Power Platform provides many integration capabilities with Teams where you can embed **Power BI** reports in the Teams workspace, embed apps created using **Power Apps** as a tab or personal app, trigger a **Power Automate** flow from any message or use adaptive cards, and add your bot created using **Power Virtual Agents** to Teams for other members of your organization to interact with.
+* Analyze data using **Power BI**.
+* Build custom apps using **Power Apps**.
+* Automate processes using **Power Automate**.
+* Create intelligent bots using **Power Virtual Agents** more quickly than ever. 
+
+Microsoft Power Platform provides many integration capabilities with Teams. For example: 
+
+* Embed **Power BI** reports in the Teams workspace.
+* Embed apps created using **Power Apps** as a tab or personal app.
+* Trigger a **Power Automate** flow from any message or use adaptive cards.
+* Add your bot created using **Power Virtual Agents** to Teams for other members of your organization to interact with.
 
 ‎:::image type="content" source="../media/teams-power-platform.png" alt-text="The graph illustrates Microsoft Teams can combine capabilities from a wide spectrum of tools to create a fully integrated experience":::
 
@@ -85,6 +95,3 @@ The four types of Dataverse for Teams solutions are:
 
 ‎:::image type="content" source="../media/dataverse-teams.png" alt-text="Microsoft Dataverse for Teams in Teams client":::
 
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”

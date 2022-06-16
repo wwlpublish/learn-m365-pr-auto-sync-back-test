@@ -6,6 +6,7 @@ Now that you have completed this module, you should be able to:
 * Describe how Microsoft 365 integrates with Teams. 
 * Describe how Microsoft Power Platform integrates with Teams.
 * Explain the architecture of Microsoft Teams and dependent services.
+* Describe how Microsoft Teams interacts with SharePoint, One Drive and Exchange.
 * Describe Teams certified solutions.
 
 

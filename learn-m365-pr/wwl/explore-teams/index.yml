@@ -3,7 +3,7 @@ uid: learn.wwl.explore-teams
 metadata:
   title: Explore Microsoft Teams
   description: "Learn about Microsoft Teams capabilities, including Teams core workloads and integration with other Microsoft services and platforms. Understand the Teams architecture and Teams certified solutions."
-  ms.date: 11/08/2021
+  ms.date: 06/16/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -12,11 +12,12 @@ title: Explore Microsoft Teams
 summary: Learn about Microsoft Teams capabilities, including Teams core workloads and integration with other Microsoft services and platforms. Understand the Teams architecture and Teams certified solutions.
 abstract: |
   By the end of this module, you will be able to:
-  - Describe Microsoft Teams core workloads.
-  - Describe how Microsoft 365 integrates with Teams.
-  - Describe how Microsoft Power Platform integrates with Teams.
-  - Explain the architecture of Microsoft Teams and dependent services.
-  - Describe Teams certified solutions.
+  * Describe Microsoft Teams core workloads
+  * Describe how Microsoft 365 integrates with Teams
+  * Describe how Microsoft Power Platform integrates with Teams
+  * Explain the architecture of Microsoft Teams and dependent services
+  * Describe how Microsoft Teams interacts with SharePoint, One Drive and Exchange
+  * Describe Teams certified solutions
 prerequisites: |
   - A proficient understanding of basic functional experience with Microsoft 365 services.
   - A proficient understanding of general IT practices, including using PowerShell.
@@ -30,8 +31,8 @@ products:
 - office-teams
 subjects:
 - architecture
-- communication
 - cloud-computing
+- communication
 units:
 - learn.wwl.explore-teams.introduction
 - learn.wwl.explore-teams.explore-teams
