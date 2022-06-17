@@ -43,9 +43,9 @@ subjects:
 units:
 - learn.wwl.explore-sensitivity-labels.introduction
 - learn.wwl.explore-sensitivity-labels.manage-data-protection-sensitivity-labels
-- learn.wwl.explore-sensitivity-labels.explore-sensitivity-labels
-- learn.wwl.explore-sensitivity-labels.determine-sensitivity-label-scope
-- learn.wwl.explore-sensitivity-labels.explore-sensitivity-label-policies
+- learn.wwl.explore-sensitivity-labels.explore-what-can-do
+- learn.wwl.explore-sensitivity-labels.determine-scope
+- learn.wwl.explore-sensitivity-labels.label-policies
 - learn.wwl.explore-sensitivity-labels.knowledge-check
 - learn.wwl.explore-sensitivity-labels.summary
 badge:
