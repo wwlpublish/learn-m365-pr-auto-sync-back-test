@@ -30,7 +30,7 @@ Each event is recorded in the log with the logon type of the user who initiated 
 
 ## Mailbox audit logging on by default
 
-Since January 2019, mailbox logging is switched on by default in Exchange Online. This feature means that Exchange Online events reach the audit log even if you haven't made any administrative changes to the audit configuration. You don't have to enable auditing in Exchange Online, because it's already on. Audit logs are retained for 90 days by default, although you can increase this limit if you enable Advanced Audit in Microsoft 365 compliance center.
+Since January 2019, mailbox logging is switched on by default in Exchange Online. This feature means that Exchange Online events reach the audit log even if you haven't made any administrative changes to the audit configuration. You don't have to enable auditing in Exchange Online, because it's already on. Audit logs are retained for 90 days by default, although you can increase this limit if you enable Microsoft Purview Audit (Premium) compliance center.
 
 Mailbox audit logging on by default realizes the following advantages:
 
