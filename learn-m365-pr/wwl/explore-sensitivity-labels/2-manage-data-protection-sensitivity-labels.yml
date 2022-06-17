@@ -4,13 +4,12 @@ title: Manage data protection using sensitivity labels
 metadata:
   title: Manage data protection using sensitivity labels
   description: "Manage data protection using sensitivity labels"
-  ms.date: 09/15/2021
+  ms.date: 06/17/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 6
 content: |
@@ -18,14 +17,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Organizations can tie sensitivity labels with other actions on a document. For example, an organization can configure a label, such as a \"Highly Confidential\" label, so that it encrypts the data in whatever document or email that it's applied to. By encrypting a document, what other effect can encryption have on the document?"
+  - content: "Organizations can tie sensitivity labels with other actions on a document. For example, an organization can configure a label, such as a \"Highly Confidential\" label, so that it encrypts the data in whatever document or email that it's applied to. When a document is encrypted, what other effect can encryption have on the document?"
     choices:
     - content: "It causes a watermark to be automatically displayed on the content"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't the effect that encryption can have on a document. Try again."
+      explanation: "Incorrect. This action isn't the effect that encryption can have on a document."
     - content: "It can restrict what actions authorized people can take on the content"
       isCorrect: true
-      explanation: "That's correct. Encryption can also restrict what actions authorized people can take on the content."
+      explanation: "Correct. Encryption can also restrict what actions authorized people can take on the content."
     - content: "It automatically prohibits the document from being sent in emails"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't the effect that encryption can have on a document. Try again."
+      explanation: "Incorrect. This action isn't the effect that encryption can have on a document."

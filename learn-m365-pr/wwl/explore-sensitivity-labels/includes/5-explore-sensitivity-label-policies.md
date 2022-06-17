@@ -13,11 +13,9 @@ When an organization configures a label policy, it can:
     :::image type="content" source="../media/sensitivity-label-justification-required-9506ae33.png" alt-text="screenshot of sensitivity label window showing justification required option":::
     
 
- -  **Require users to apply a label with one option for email and documents, and another for containers.** Also known as mandatory labeling, these options ensure a label must be applied before users can save documents and send emails, and create new groups or sites.
-    
+ -  **Require users to apply a label with one option for email and documents, and another for containers.** These options, which are also known as mandatory labeling, ensure a label must be applied before users can save documents, send emails, and create new groups or sites.
      -  For containers, a label must be assigned at the time the group or site is created.
      -  For documents and emails, a label can be assigned:
-        
          -  manually by the user.
          -  automatically because of a condition that you configure.
          -  assigned by default (the default label option previously described).
@@ -29,8 +27,8 @@ When an organization configures a label policy, it can:
 
     Organizations should consider using this option to help increase their labeling coverage. However, without user training, these settings can result in inaccurate labeling and frustrated users. For example, unless you also set a corresponding default label, mandatory labeling can frustrate your users with the frequent prompts.
 
-    > [!NOTE]
-    > Mandatory labeling for documents and emails isn't available for all apps or all platforms. For more information, see [Require users to apply a label to their email and documents](/microsoft-365/compliance/sensitivity-labels-office-apps?azure-portal=true).
+> [!NOTE]
+> Mandatory labeling for documents and emails isn't available for all apps or all platforms. For more information, see [Require users to apply a label to their email and documents](/microsoft-365/compliance/sensitivity-labels-office-apps?azure-portal=true).
 
  -  **Provide help link to a custom help page.** If your users aren't sure what your sensitivity labels mean or how they should be used, you can provide a **Learn More** URL. This URL will appear at the bottom of the Sensitivity label menu in the Office apps.
     

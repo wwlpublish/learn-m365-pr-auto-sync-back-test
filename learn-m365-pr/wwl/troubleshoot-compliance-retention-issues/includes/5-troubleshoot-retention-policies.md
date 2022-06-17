@@ -1,8 +1,8 @@
-Microsoft 365 compliance center helps you to ensure that items are retained for long enough to comply with legislation in your operational regions.
+Microsoft Purview compliance portal helps you to ensure that items are retained for long enough to comply with legislation in your operational regions.
 
 In your newspaper office, you need most items to be retained and available for five years. However, because emails received by your journalists are often relevant to legal cases, you want to ensure that these are available for at least seven years. You've set up retention policies that implement these rules, but you want to double-check the policies that apply in each mailbox.
 
-Here, you'll learn how to investigate and diagnose the actions that are taken by retention policies created in the Microsoft 365 compliance center.
+Here, you'll learn how to investigate and diagnose the actions that are taken by retention policies created in the compliance portal.
 
 ## What are compliance center retention policies?
 
@@ -12,7 +12,7 @@ As information technology becomes more pervasive in business, and the law is upd
 - The need to reduce litigation risk by deleting old items that you're not required to keep.
 - The need to ensure that users have up-to-date and relevant items that they need to do their jobs.
 
-In the Microsoft 365 compliance center, you can use retention policies to manage automatic retention and deletion of old items to balance these requirements, and ensure compliance. Each policy selects locations by using a scope and takes one of three actions:
+In the compliance portal, you can use retention policies to manage automatic retention and deletion of old items to balance these requirements, and ensure compliance. Each policy selects locations by using a scope and takes one of three actions:
 
 - **Retain content.** Ensure that content is available for a minimum time, or forever.
 - **Delete content.** Ensure that content is purged after a specific time has expired.
@@ -24,8 +24,7 @@ You can create policies with one of two scope types:
 - **Static.** A policy with a static scope doesn't use a query and isn't evaluated after creation. For example, if a static scope is applied to members of the Directors security group, new accounts added don't have the policy applied to them. Instead, you must update the static policy to include them.
 
 > [!IMPORTANT] 
-> Compliance center retention policies are a feature of Microsoft 365 and apply to Exchange Online, SharePoint Online, Teams folders, and other storage locations. Exchange Online also has its own Messaging Records Management (MRM) technology, which remains available, but only applies to Exchange mailboxes and public folders. Exchange Online MRM is covered in Unit 6. Be sure to keep the difference between these tools in mind when you troubleshoot item retention.
-
+> Microsoft Purview Data lifecycle management and Microsoft Purview Records Management also contain retention policies and are a feature of the Microsoft Purview compliance portal and apply to Exchange Online, SharePoint Online, Teams folders, and other storage locations.
 ## Compliance center retention policies in Exchange Online mailboxes
 
 In Exchange Online, retention policies are implemented by using the **Recoverable Items** folder that you learned about in Unit 4. A timer job executes periodically and evaluates all the items in the Recoverable Items folder against the policies that have been applied.
@@ -36,11 +35,11 @@ If a **Delete content** or a **Retain and then delete** policy applies, and the 
 
 ## Diagnose the retention policies that apply
 
-You can create multiple retention policies in compliance center and apply them to different scopes. Depending on the conditions you apply, it's possible that several different retention policies might apply to a mailbox. This situation can make it difficult to assess what retention behavior should be.
+You can create multiple retention policies in the compliance portal and apply them to different scopes. Depending on the conditions you apply, it's possible that several different retention policies might apply to a mailbox. This situation can make it difficult to assess what retention behavior should be.
 
 If items aren't being retained or deleted as you expect, the first stage of troubleshooting is to determine which policies apply in the mailbox. You can diagnose these policies by using the **Policy lookup** tool:
 
-1.  In the Microsoft 365 compliance center, under **Solutions,** select **Information governance**.
+1.  In the compliance portal, under **Solutions,** select **Microsoft Purview Data Lifecycle Management**.
 1.  Select the **Policy lookup** tab.
 
     :::image type="content" source="../media/05-access-policy-lookup.png" alt-text="Screen shot showing how to access the policy lookup tool in Microsoft 365 compliance center.":::
