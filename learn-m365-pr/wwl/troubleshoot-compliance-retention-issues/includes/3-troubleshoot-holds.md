@@ -9,7 +9,7 @@ Here, you'll learn about the different hold types that can prevent item deletion
 A hold is a way you can prevent an item from being permanently deleted so that it is available as evidence for legal cases and other compliance purposes. If an item is being retained, it can be difficult to diagnose why because there are several different types of holds that can be applied to mailboxes and items in Exchange Online:
 
 - **Litigation hold.** You can place this type of hold on a mailbox to retain all its content, including deleted items, all versions of modified items, and the contents of the corresponding archive mailbox if there is one. Litigation holds can be imposed for a limited period or indefinitely.
-- **eDiscovery hold.** You can place this type of hold on mailboxes when they're included in the results of eDiscovery searches in the Microsoft 365 compliance center.
+- **eDiscovery hold.** You can place this type of hold on mailboxes when they're included in the results of eDiscovery searches in the compliance portal.
 - **In-place hold.** This type of hold has been retired. Exchange Online administrators could place them on mailboxes from the Exchange Admin Center.
 
     > [!NOTE] 
