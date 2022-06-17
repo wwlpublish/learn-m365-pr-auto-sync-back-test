@@ -26,51 +26,11 @@ After a sensitivity label is applied to an email or document, any configured pro
 
 Office apps apply content marking and encryption with a sensitivity label differently, depending on the app you use.
 
-:::row:::
-  :::column:::
-    **App**
-  :::column-end:::
-  :::column:::
-    **Content marking with a sensitivity label**
-  :::column-end:::
-  :::column:::
-    **Encryption**
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Word, Excel, PowerPoint on all platforms
-  :::column-end:::
-  :::column:::
-    Immediately
-  :::column-end:::
-  :::column:::
-    Immediately
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Outlook for PC and Mac
-  :::column-end:::
-  :::column:::
-    After Exchange Online sends the email
-  :::column-end:::
-  :::column:::
-    Immediately
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Outlook on the web, iOS, and Android
-  :::column-end:::
-  :::column:::
-    After Exchange Online sends the email
-  :::column-end:::
-  :::column:::
-    After Exchange Online sends the email
-  :::column-end:::
-:::row-end:::
-
+| **App**                                  | **Content marking with a sensitivity label** | **Encryption**                        |
+| ---------------------------------------- | -------------------------------------------- | ------------------------------------- |
+| Word, Excel, PowerPoint on all platforms | Immediately                                  | Immediately                           |
+| Outlook for PC and Mac                   | After Exchange Online sends the email        | Immediately                           |
+| Outlook on the web, iOS, and Android     | After Exchange Online sends the email        | After Exchange Online sends the email |
 
 Solutions that apply sensitivity labels to files outside Office apps do so by applying labeling metadata to the file. In this scenario, content marking from the label's configuration isn't inserted into the file but encryption is applied.
 
