@@ -61,7 +61,7 @@ An organization can improve the accuracy of custom trainable classifiers by prov
 > [!NOTE]
 > Pre-trained classifiers that were provided with your Microsoft 365 tenant can't be retrained.
 
-The following diagram shows the workflow process for retraining a trainable classifier.<br>
+The following diagram shows the workflow process for retraining a trainable classifier.
 
 :::image type="content" source="../media/classifier-retrain-workflow-571cb479.png" alt-text="Diagram showing the workflow process involved with retraining a trainable classifier.":::
 

@@ -55,8 +55,9 @@ Microsoft 365 comes with multiple pre-trained classifiers:
  -  **Resumes**. This classifier detects docx, .pdf, .rtf, and .txt items that are textual accounts of an applicant's personal, educational, professional qualifications, work experience, and other personally identifying information.
  -  **Source Code**. This classifier detects items that contain a set of instructions and statements written in the top 25 used computer programming languages on GitHub: ActionScript, C, C\#, C++, Clojure, CoffeeScript, Go, Haskell, Java, JavaScript, Lua, MATLAB, Objective-C, Perl, PHP, Python, R, Ruby, Scala, Shell, Swift, TeX, Vim Script.
     
-        > [!NOTE]
-        > The Source Code classifier is trained to detect when the bulk of the text is source code. It doesn't detect source code text that's interspersed with plain text.
+    > [!NOTE]
+    > The Source Code classifier is trained to detect when the bulk of the text is source code. It doesn't detect source code text that's interspersed with plain text.
+
  -  **Tax**. This classifier detects Tax relation content such as tax planning, tax forms, tax filing, tax regulations.
  -  **Threat**. This classifier detects a specific category of offensive language text items related to threats to commit violence or do physical harm or damage to a person or property.
 

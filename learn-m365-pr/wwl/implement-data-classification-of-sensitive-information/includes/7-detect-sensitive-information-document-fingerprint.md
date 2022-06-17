@@ -40,8 +40,8 @@ The patent template contains the blank fields "Patent title," "Inventors," and "
 1.  DLP converts this word pattern into a document fingerprint. The fingerprint is a small Unicode XML file containing a unique hash value representing the original text.
 2.  The patent fingerprint is saved as a data classification in Active Directory.
     
-        > [!NOTE]
-        > As a security measure, the original document itself isn't stored on the service; only the hash value is stored. The original document can't be reconstructed from the hash value.
+    > [!NOTE]
+    > As a security measure, the original document itself isn't stored on the service; only the hash value is stored. The original document can't be reconstructed from the hash value.
 3.  The patent fingerprint then becomes a sensitive information type the organization can associate with a DLP policy.
 4.  After the organization associates the fingerprint with a DLP policy, DLP detects any outbound emails containing documents that match the patent fingerprint. It then deals with them according to the organization's policy.
 
@@ -54,7 +54,7 @@ Document Fingerprinting supports the same file types that are supported in mail 
 > [!NOTE]
 > Mail flow rules and Document Fingerprinting don't support the .dotx file type. This situation can be confusing because .dotx is a template file in Word. When you see the word "template" in this unit, it refers to a document that an organization has established as a standard form, and not the template file type.
 
-Document Fingerprinting won't detect sensitive information in the following cases:<br>
+Document Fingerprinting won't detect sensitive information in the following cases:
 
  -  Password protected files.
  -  Files that contain only images.
