@@ -31,7 +31,7 @@ OME has the following advantages:
 - Senders don't need to remember to encrypt a sensitive message because the mail transport rules are automatically applied to matching messages.
 - You can apply your company branding to the message viewing portal.
 
-Some Microsoft 365 subscriptions also include **Advanced Message Encryption**, which is built on top of OME and grants extra capabilities to administrators:
+Some Microsoft 365 subscriptions also include **Microsoft Purview Advanced Message Encryption**, which is built on top of OME and grants extra capabilities to administrators:
 
 - You can control sensitive emails shared outside your organization with automatic policies.
 - You can add a custom email template and an expiration date to sensitive emails.
