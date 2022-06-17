@@ -11,11 +11,11 @@ When there's a threat of legal action, it's essential to locate all relevant ema
 Microsoft 365 includes the following eDiscovery solutions, which can all locate emails from Exchange Online as part of their searches:
 
 - **Content search.** Use this tool to search for emails, documents, and other content across your Microsoft 365 data, and to export the results.
-- **Core eDiscovery.** Use this tool to associate your search results with a case, and to place holds on relevant content locations.
-- **Advanced eDiscovery.** Use this tool for the highest level of functionality. Advanced features such as hold notifications, tagging, and analysis are included.
+- **Microsoft Purview eDiscovery(Standard).** Use this tool to associate your search results with a case, and to place holds on relevant content locations.
+- **Microsoft Purvuew eDiscovery(Premium).** Use this tool for the highest level of functionality. Advanced features such as hold notifications, tagging, and analysis are included.
 
 > [!NOTE] 
-> Until recently, Exchange Online included its own eDiscovery tools, which you could access through Exchange Admin Center or PowerShell. These have been retired and are no longer supported. Instead, use the Microsoft 365 eDiscovery tools described in this module including the Microsoft 365 compliance center and the corresponding PowerShell cmdlets, such as `New-ComplianceCase` and `New-ComplianceSearch`.
+> Until recently, Exchange Online included its own eDiscovery tools, which you could access through Exchange Admin Center or PowerShell. These have been retired and are no longer supported. Instead, use eDiscovery tools described in this module including the compliance center and the corresponding PowerShell cmdlets, such as `New-ComplianceCase` and `New-ComplianceSearch`.
 
 ## Troubleshoot roles for eDiscovery
 
@@ -24,9 +24,9 @@ eDiscovery involves access to emails from outside your own mailbox and documents
 - **eDiscovery Manager.** Members of this role group can perform common eDiscovery tasks such as creating cases, searching for content, and creating holds. They can only access and manage their own cases and their searches, not those created by other eDiscovery Managers.
 - **eDiscovery Administrator.** Members of this role group perform all tasks that eDiscovery Managers can complete. In addition, they can access and manage other managers' cases. For example, they can add themselves and other users as members of the case.
 
-If a user is denied access to eDiscovery tools, first check that their job requires them to run eDiscovery searches. If they should have eDiscovery access, you can correct their role membership in the Microsoft 365 compliance center:
+If a user is denied access to eDiscovery tools, first check that their job requires them to run eDiscovery searches. If they should have eDiscovery access, you can correct their role membership in the compliance portal:
 
-1.  In the Microsoft 365 compliance center, select **Permissions** and then, under **Compliance center**, select **Roles**.
+1.  In the compliance portal, select **Permissions** and then, under **Compliance portal**, select **Roles**.
 
     :::image type="content" source="../media/02-access-roles.png" alt-text="Screen shot showing how to access the role assignment tool in Microsoft 365 compliance center.":::
 
@@ -48,13 +48,13 @@ Add-RoleGroupMember "eDiscovery Manager" -Member <name of security group>
 
 ## Troubleshoot eDiscovery
 
-Let's examine some common troubleshooting techniques that you can use for eDiscovery in Microsoft 365 compliance center.
+Let's examine some common troubleshooting techniques that you can use for eDiscovery in compliance portal.
 
 ### Investigate statistics for eDiscovery searches
 
 It's a good idea to have in mind some approximate values for the size of your search results. If the actual number of results is very different from what you expected, that may indicate an incorrect set of search terms. To investigate statistics for a search, take these steps:
 
-1.  In the Microsoft 365 compliance center, locate the search. For example, if you used the **Content search** tool, under **Solutions** select **Content search,** and then select the case from the list.
+1.  In the compliance portal, locate the search. For example, if you used the **Content search** tool, under **Solutions** select **Content search,** and then select the case from the list.
 1.  In the search window, select **Search statistics**. The data is displayed under three headings:
 
     - **Search content.** Displays data about the search including the estimated number of items in each location, the number of locations with hits, and the total volume of data for items returned.
@@ -81,7 +81,7 @@ When a problem arises with an eDiscovery search, the more information you have a
 > [!NOTE] 
 > The information you collect in eDiscovery searches often includes security-sensitive material that relates to legal actions. If you are going to send the results of the following commands to Microsoft engineers, make sure you redact any sensitive data.
 
-Use the following command to gather information about a Core eDiscovery search:
+Use the following command to gather information about a Microsoft Purview eDiscovery (Standard) search:
 
 ``` powershell
 Get-ComplianceSearch "ContosoCaseSearch" | FL > "CoreSearchDetails.txt"
