@@ -74,7 +74,7 @@ A user with access to Content explorer should complete the following steps to ac
 
 The export control will create a .csv file that contains a listing of whatever the focus of the pane is.
 
-:::image type="content" source="../media/data_classification_export_control-3a5819a6.png" alt-text="Screenshot of the data classification Export control that appears on the Content explorer tab in the All locations list.":::
+:::image type="content" source="../media/data-classification-export-control-a8654641.png" alt-text="Screenshot of the data classification Export control that appears on the Content explorer tab in the All locations list.":::
 
 
 > [!NOTE]
@@ -84,7 +84,7 @@ The export control will create a .csv file that contains a listing of whatever t
 
 The Filter tool appears when you drill down into a location, such as an Exchange or Teams folder, or a SharePoint or OneDrive site.
 
-:::image type="content" source="../media/data_classification_search_tool-400e72ef.png" alt-text="Screenshot of the Content explorer search tool that appears when you drill into a location in the All locations pane.":::
+:::image type="content" source="../media/data-classification-search-tool-a811375a.png" alt-text="Screenshot of the Content explorer search tool that appears when you drill into a location in the All locations pane.":::
 
 
 The scope of the search tool is displayed in the **All locations** pane. What you can search on varies depending on the selected location.

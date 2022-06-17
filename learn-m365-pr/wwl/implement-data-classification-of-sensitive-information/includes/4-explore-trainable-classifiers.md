@@ -89,7 +89,7 @@ It's helpful to understand what's involved in creating a custom trainable classi
 
 The following diagram displays a timeline that reflects a sample deployment of trainable classifiers.
 
-:::image type="content" source="../media/trainable-classifier-deployment-timeline_border-ef712e6d.png" alt-text="Diagram showing the timeline for creating a sample deployment of trainable classifiers.":::
+:::image type="content" source="../media/trainable-classifier-deployment-timeline-border-4123aae9.png" alt-text="Diagram showing the timeline for creating a sample deployment of trainable classifiers.":::
 
 
 > [!TIP]

@@ -63,7 +63,7 @@ An organization can improve the accuracy of custom trainable classifiers by prov
 
 The following diagram shows the workflow process for retraining a trainable classifier.<br>
 
-:::image type="content" source="../media/classifier-retraining-workflow-1b724701.png" alt-text="Diagram showing the workflow process involved with retraining a trainable classifier.":::
+:::image type="content" source="../media/classifier-retrain-workflow-571cb479.png" alt-text="Diagram showing the workflow process involved with retraining a trainable classifier.":::
 
 
 Custom trainable classifiers are retrained in the **Data classification** feature in the **Microsoft Purview compliance** portal. Organizations should complete the following steps to retrain a classifier:
@@ -92,11 +92,11 @@ Custom trainable classifiers are retrained in the **Data classification** featur
 10. Select the **Trainable classifiers** tab.
 11. The classifier that was used in your Communications compliance policy will appear under the **Retraining** heading.
     
-    :::image type="content" source="../media/classifier-retraining-ac900701.png" alt-text="Screenshot of the Trainable classifiers tab on the Data classification page showing the list of Retraining classifiers.":::
+    :::image type="content" source="../media/classifier-retrain-1fb833d3.png" alt-text="Screenshot of the Trainable classifiers tab on the Data classification page showing the list of Retraining classifiers.":::
     
 12. Once retraining completes, choose the classifier to open the retraining overview.
     
-    :::image type="content" source="../media/classifier-retraining-overview-3e9a1617.png" alt-text="Screenshot of the Retraining Overview tab showing feedback on a data classifier once retraining of the classifier has completed.":::
+    :::image type="content" source="../media/classifier-retrain-overview-eac4ff89.png" alt-text="Screenshot of the Retraining Overview tab showing feedback on a data classifier once retraining of the classifier has completed.":::
     
 13. Review the recommended action and the prediction comparisons of the retrained and currently published versions of the classifier.
 14. If you satisfied with the results of the retraining, select **Republish**.

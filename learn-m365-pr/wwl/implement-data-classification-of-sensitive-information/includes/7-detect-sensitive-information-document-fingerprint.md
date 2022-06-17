@@ -32,7 +32,7 @@ This process shows why uploading a form or template creates the most effective t
 
 Organizations can use any form as the basis for creating a document fingerprint. The following example shows what happens if you create a document fingerprint based on a patent template.
 
-:::image type="content" source="../media/document-fingerprinting-diagram-bdb82b0b.png" alt-text="Diagram showing a patent document being compared to the document fingerprint of a patent template.":::
+:::image type="content" source="../media/document-fingerprint-diagram-3e64d4cf.png" alt-text="Diagram showing a patent document being compared to the document fingerprint of a patent template.":::
 
 
 The patent template contains the blank fields "Patent title," "Inventors," and "Description" and descriptions for each of those fields—**that's the word pattern**. The original patent template should be in one of the supported file types and in plain text. When the organization uploads the patent template:
