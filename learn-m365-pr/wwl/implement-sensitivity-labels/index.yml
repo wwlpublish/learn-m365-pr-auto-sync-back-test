@@ -42,7 +42,7 @@ subjects:
 - threat-protection
 units:
 - learn.wwl.implement-sensitivity-labels.introduction
-- learn.wwl.implement-sensitivity-labels.examine-requirements-create-sensitivity-label
+- learn.wwl.implement-sensitivity-labels.examine-how-to-create-sensitivity-label
 - learn.wwl.implement-sensitivity-labels.plan-deployment-strategy-sensitivity-labels
 - learn.wwl.implement-sensitivity-labels.create-sensitivity-labels
 - learn.wwl.implement-sensitivity-labels.publish-sensitivity-labels
