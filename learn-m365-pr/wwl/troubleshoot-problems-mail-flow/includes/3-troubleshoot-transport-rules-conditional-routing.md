@@ -35,7 +35,7 @@ If you suspect that a mail flow rule is the culprit of messages being inappropri
 
 - The Exchange admin center
 - The `Get-TransportRule` PowerShell cmdlet
-- The Microsoft 365 compliance portal
+- The Microsoft Purview compliance portal
 
 You can also use the Reports node in the Exchange admin center to review existing mail flow rules. In Exchange Admin center, select Mail flow, and then select the Exchange Transport Rule report. This report enables you to view matches for the mail flow rules that are set up for your organization.
 
