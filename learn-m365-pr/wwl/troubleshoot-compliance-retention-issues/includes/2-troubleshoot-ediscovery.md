@@ -15,7 +15,7 @@ Microsoft 365 includes the following eDiscovery solutions, which can all locate 
 - **Microsoft Purvuew eDiscovery(Premium).** Use this tool for the highest level of functionality. Advanced features such as hold notifications, tagging, and analysis are included.
 
 > [!NOTE] 
-> Until recently, Exchange Online included its own eDiscovery tools, which you could access through Exchange Admin Center or PowerShell. These have been retired and are no longer supported. Instead, use eDiscovery tools described in this module including the Microsoft Purview compliance center and the corresponding PowerShell cmdlets, such as `New-ComplianceCase` and `New-ComplianceSearch`.
+> Until recently, Exchange Online included its own eDiscovery tools, which you could access through Exchange Admin Center or PowerShell. These have been retired and are no longer supported. Instead, use eDiscovery tools described in this module including the compliance center and the corresponding PowerShell cmdlets, such as `New-ComplianceCase` and `New-ComplianceSearch`.
 
 ## Troubleshoot roles for eDiscovery
 
@@ -26,7 +26,7 @@ eDiscovery involves access to emails from outside your own mailbox and documents
 
 If a user is denied access to eDiscovery tools, first check that their job requires them to run eDiscovery searches. If they should have eDiscovery access, you can correct their role membership in the compliance portal:
 
-1.  In the Microsoft 365 compliance center, select **Permissions** and then, under **Compliance center**, select **Roles**.
+1.  In the compliance portal, select **Permissions** and then, under **Compliance portal**, select **Roles**.
 
     :::image type="content" source="../media/02-access-roles.png" alt-text="Screen shot showing how to access the role assignment tool in Microsoft 365 compliance center.":::
 
@@ -48,7 +48,7 @@ Add-RoleGroupMember "eDiscovery Manager" -Member <name of security group>
 
 ## Troubleshoot eDiscovery
 
-Let's examine some common troubleshooting techniques that you can use for eDiscovery in Microsoft Purview compliance center.
+Let's examine some common troubleshooting techniques that you can use for eDiscovery in compliance portal.
 
 ### Investigate statistics for eDiscovery searches
 
