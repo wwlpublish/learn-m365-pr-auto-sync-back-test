@@ -21,27 +21,27 @@ For a quick summary of the differences between Teams and Teams free, see [Differ
 
 ## Microsoft Teams add-on licenses
 
-Besides basic Teams features, there are add-on licenses for more features such as audio conferencing, phone system, calling plans, and Microsoft Teams rooms.
+Besides basic Teams features, there are add-on licenses for more features such as audio conferencing,  Teams Phone, calling plans, and Microsoft Teams rooms.
 
-* For audio conferencing, organizations will need to buy and assign an audio-conferencing license to each user who will set up dial-in meetings. 
+* For audio conferencing, organizations will need to buy and assign an audio-conferencing license to each user who will set up dial-in meetings.
 
-* For calling plans, each user will need a phone system plus a domestic or domestic and international calling plan. The table below lists the add-on licenses available for Teams:
+* For calling plans, each user will need a Teams Phone, plus a domestic or domestic and international calling plan. The add-on licensing options available to you depend on the Microsoft 365 or Office 365 plan you have.
 
-Here's a list of features that you can add with Teams add-on licenses. The add-on licensing options available to you depend on the Microsoft 365 or Office 365 plan you have.
+Here's a list of features that you can add with Teams add-on licenses. 
 
+|License|Description|
+|-------|-----------|
+|**Teams Phone with Calling Plan bundle** <br/> |The Teams Phone with Calling Plan license bundles Teams Phone System's PBX capabilities and a Domestic Calling Plan for PSTN connectivity. <br/> |
+|**Teams Phone Standard<br/>(Teams Phone System)** <br/> |[Teams Phone System](/microsoftteams/what-is-phone-system-in-office-365?azure-portal=true) is a hosted telephone service that gives you call control and Private Branch Exchange (PBX) capabilities. Teams Phone Standard licenses give you all Teams Phone System capabilities like cloud voicemail, caller ID, call park, call forwarding, auto attendants, call queues, call transfer, and caller ID. <br/> <br/>To learn more about Phone System, see [Here's what you get with Teams Phone System](/microsoftteams/here-s-what-you-get-with-phone-system?azure-portal=true). <br/> |
+|**Microsoft Teams Calling Plans** <br/> |If you want users to be able to call phone numbers outside your organization, you can purchase [Microsoft Teams Calling Plans](/microsoftteams/calling-plans-for-office-365?azure-portal=true) to connect to PSTN phone numbers with Microsoft as your PSTN provider. There are Domestic Calling Plans, International Calling Plans, and Domestic and International Calling Plans. <br/> <br/> To find out whether Teams Calling Plans is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans?azure-portal=true). |
+|**Communication Credits** | Communication Credits provide a monthly pool of minutes that can also be used for PSTN phone calls, if all your Calling Plan minutes get used before the beginning of the next month.<br/><br/> If you want toll-free numbers for Audio Conferencing, auto attendants, or call queues, you'll need to [set up Communications Credits](/microsoftteams/set-up-communications-credits-for-your-organization?azure-portal=true). <br/> |
+|**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Teams meeting instead of their computer. [Set up Audio Conferencing](/microsoftteams/set-up-audio-conferencing-in-teams?azure-portal=true) for users who schedule or lead meetings with attendees who need to call in using a phone. <br/> <br/>To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans?azure-portal=true). For pricing info, see [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>Organizations can now use a third-party operator for their Audio Conferencing numbers. For more information, see [Plan for Operator Connect Conferencing](/microsoftteams/operator-connect-conferencing-plan?azure-portal=true). <br/>|
+|**Microsoft Teams Rooms** <br/> | Microsoft Teams Room is an additional Microsoft Teams product that brings video, audio, and content sharing to conference rooms. There are two dedicated SKUs for licensing meetings and calling on a per-device basis for meeting room devices:<br/><br/>**- Microsoft Teams Rooms Standard**<br/>**- Microsoft Teams Rooms Premium**<br/><br/>**Microsoft Teams Rooms Premium** includes a remote management service that enables customers to shift the operational responsibility of managing and monitoring Microsoft Teams Rooms to Microsoft. With Microsoft Teams Rooms Premium, customers have access to intelligent software, dedicated experts, and enhanced insights. For more information, see [Teams Meeting Room Licensing](/microsoftteams/rooms/rooms-licensing?azure-portal=true).|
 
-|**Feature** <br/> |**Description** <br/> |**Small business (<300 users)**|**Large business (>300 users)**|
-|:-----|:-----|:-----|:-----|
-|**Microsoft 365 Business Voice** <br/> | [Business Voice](/microsoftteams/business-voice/whats-business-voice?azure-portal=true) is a telephony solution designed for small and medium businesses of up to 300 users that bundles Phone System, Audio Conferencing, a Domestic Calling Plan, and more. Phone System capabilities that you'll get include voicemail, caller ID, call park, call forwarding, auto attendants, and call queues. <br> To find out whether Business Voice is available in your country or region, see [Country and region availability for Business Voice](/microsoftteams/business-voice/country-region-availability?azure-portal=true). For pricing info, see [Pricing for Business Voice](https://www.microsoft.com/microsoft-teams/voice-calling?azure-portal=true). <br/> |Yes||
-|**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Teams meeting instead their computer. Set up Audio Conferencing for users who schedule or lead meetings. <br/> To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans?azure-portal=true). For pricing info, see [Pricing for Audio Conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing?azure-portal=true).  <br/> <br/>If you're a small or medium-sized business with up to 300 users and you currently don’t have Audio Conferencing licenses, you can get Audio Conferencing free for one year. Starting October 1, 2020, the free Audio Conferencing offer is available to users who have Microsoft 365 Business Basic, Business Standard, Business Premium, Enterprise E1, or Enterprise E3 licenses. |Yes|Yes|
-|**Toll free numbers** |If you want toll-free numbers for Audio Conferencing, auto attendants, or call queues, you must set up Communications Credits. <br/> |Yes|Yes|
-|**Phone System** <br/> |Phone System is a hosted telephone service that gives you call control and Private Branch Exchange (PBX) capabilities, with options for connecting to the Public Switched Telephone Network (PSTN). Phone System features include cloud voicemail, caller ID, call park, call forwarding, auto attendants, call queues, call transfer, caller ID, and more. <br>For pricing info, see [Pricing for Phone System](https://www.microsoft.com/microsoft-teams/voice-calling#Pricing?azure-portal=true).  <br/> |Yes|Yes|
-|**Calling Plans** <br/> |If you want users to be able to call phone numbers outside your organization, get a Calling Plan. There are Domestic Calling Plans and Domestic and International Calling Plans. For pricing info, see [Pricing for Calling Plans](https://www.microsoft.com/microsoft-teams/voice-calling?linkid=799761?azure-portal=true).  <br/> |Yes|Yes|
-|**Microsoft Teams Rooms** <br/>| Microsoft Teams Rooms isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See [Teams Meeting Room Licensing](/microsoftteams/rooms/rooms-licensing?azure-portal=true).  <br/> |Yes|Yes|
-|**Advanced Communications** <br/> |[Advanced Communications](/microsoftteams/teams-add-on-licensing/advanced-communications?azure-portal=true) includes advanced meetings customization and tools to manage your organization's communication policies. Other features include custom branded meeting lobby to tailor your meetings, and tools to monitor, track, and analyze data on users and devices.   |Yes|Yes|
+> [!NOTE]
+> **Microsoft 365 Business Voice** was Microsoft's voice capability bundle for small and medium businesses but will no longer be available to purchase starting on March 1, 2022. Current Business Voice subscribers can renew their Business Voice licenses until June 30, 2022. 
 
-If you're a small or medium-sized business who has a Microsoft 365 Enterprise plan, you can still buy add-on licenses for features of Phone System and Calling Plans, however, you can also consider a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business/compare-all-microsoft-365-business-products?=&activetab=tab:primaryr2&azure-portal=true) plan and [Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice?azure-portal=true).
-
+If you're a small or medium-sized business, we recommend purchasing the **Teams Phone with Calling Plan license**, if it's available in your region. Alternatively, you can purchase a Teams Phone Standard license that will allow you to connect to your preferred third-party PSTN provider. 
 
 ## Licensing for governance, security, and compliance features
 
@@ -49,7 +49,7 @@ Microsoft Teams is built on the Microsoft 365 and Office 365 hyper-scale, enterp
 
 * [Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true)
 
-* [Key governance capabilities and licensing requirements](https://docs.microsoft.com/microsoft-365/solutions/collaboration-governance-overview?azure-portal=true#key-governance-capabilities-and-licensing-requirements)
+* [Key governance capabilities and licensing requirements](/microsoft-365/solutions/collaboration-governance-overview?azure-portal=true#key-governance-capabilities-and-licensing-requirements)
 
 
 ## Licensing for guest access
@@ -60,6 +60,10 @@ Guest access is included with all Microsoft 365 Business Standard, Microsoft 365
 Due to the consequent development of Microsoft 365, available services and licenses change continuously. Teams administrators should always be ready to adopt to changes of the license requirements. For the latest update on licensing, see [Microsoft Teams service description](/microsoftteams/office-365-licensing?azure-portal=true).
 
 
-## Knowledge check
+ 
 
-Choose the best response for the following question. Then select “Check your answers.”
+
+
+
+
+
