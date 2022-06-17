@@ -84,7 +84,7 @@ There are two kinds of calls in Teams.
 
 * **Make and receive PSTN calls**: Microsoft Teams Phone allows users to make and receive Public Switched Telephone Network (PSTN) phone calls with traditional phone service. 
 
-    To enable users to make and receive PSTN calls, you need to connect Phone System to the PSTN. Users can then use the Dial Pad to call landlines or mobiles phones on the PSTN.
+    To enable users to make and receive PSTN calls, you need to connect Microsoft Teams Phone to the PSTN. Users can then use the Dial Pad to call landlines or mobiles phones on the PSTN.
 
      ‎:::image type="content" source="../media/make-switched-telephone-network-calls.png" alt-text="Make PSTN calls using the Dial Pad":::
 
@@ -95,7 +95,7 @@ There are two kinds of calls in Teams.
 Microsoft Teams provides the enterprise-grade security, compliance, and manageability. With Microsoft Teams, organizations can adopt user collaboration and communication while protecting their business data and interest on an enterprise scale. 
 
 ### Security
-Teams enforces two-factor authentication, single sign-on through Active Directory, and encryption of data in transit and at rest. The security capabilities for Teams include:
+Teams enforces two-factor authentication, single Sign-On through Active Directory, and encryption of data in transit and at rest. The security capabilities for Teams include:
 
 * Microsoft Defender for Office 365
 * Safe Links

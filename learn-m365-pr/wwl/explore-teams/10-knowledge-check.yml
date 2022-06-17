@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Patti Fernandez is the IT Admin for Contoso Ltd. The HR department wants to create an automated service to answer the frequently asked questions from employees. Which of the following tool should Patti recommend to achieve the goal?"
+  - content: "Patti Fernandez is the IT Admin for Contoso Ltd. The HR department wants to create an automated service to answer the frequently asked questions from employees. Which of the following tool should Patti recommend achieving the goal?"
     choices:
     - content: "Power Apps"
       isCorrect: false
@@ -39,7 +39,7 @@ quiz:
     - content: "A group channel in Microsoft Stream"
       isCorrect: false
       explanation: "That's incorrect. All meeting recordings saved to OneDrive or SharePoint."
-  - content: "You are the IT Admin with Contoso. Brian, a Sales manager with Contoso, wants to broadcast information to key users both inside and outside the company. He maintains a list of users who are part of different distribution groups and security groups. You need to upgrade the relevant group to Microsoft 365 group to promote collaboration.Which of the following groups can be upgraded to Microsoft 365 groups?"
+  - content: "You're the IT Admin with Contoso. Brian, a Sales manager with Contoso, wants to broadcast information to key users both inside and outside the company. He maintains a list of users who are part of different distribution groups and security groups. You need to upgrade the relevant group to Microsoft 365 group to promote collaboration.Which of the following groups can be upgraded to Microsoft 365 groups?"
     choices:
     - content: "Security groups"
       isCorrect: false
@@ -61,7 +61,7 @@ quiz:
     - content: "Create a standard channel"
       isCorrect: false
       explanation: "That's incorrect. All the members of the team can access the content shared in standard channels."
-  - content: "You are the Teams administrator with Contoso group. You received a request from a marketing manager in your company, to create a Team for Marketing department. You are aware of what gets created when creating a new team. What is a mandatory basis for a team creation?"
+  - content: "You're the Teams administrator with Contoso group. You received a request from a marketing manager in your company, to create a Team for Marketing department. You're aware of what gets created when creating a new team. What is a mandatory basis for a team creation?"
     choices:
     - content: "A Distribution group"
       isCorrect: false

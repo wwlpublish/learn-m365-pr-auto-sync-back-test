@@ -1,9 +1,9 @@
 Microsoft certification programs assure high-quality experience in Teams. There are various certified programs for different services and features in Teams.  
 
 ## Microsoft 365 App compliance program
-The Microsoft 365 App Compliance Program, is a two step approach to app security and compliance. Each tier builds upon the next – offering a layered program to give users the confidence they need while using apps in the Microsoft 365 ecosystem.
+The Microsoft 365 App Compliance Program is a two step approach to app security and compliance. Each tier builds upon the next – offering a layered program to give users the confidence they need while using apps in the Microsoft 365 ecosystem.
 
-‎:::image type="content" source="../media/app-program.png" alt-text="Microsoft 365 App compliance program":::
+‎:::image type="content" source="../media/app-program.png" alt-text="Microsoft 365 App compliance program"  type="icon":::
 
 
 1. **Publisher Verification** helps admins and users understand the authenticity of app developers integrating with the Microsoft identity platform. When an app is marked as publisher verified, the publisher has verified their identity using a Microsoft Partner Network account and associated this MPN account with their application registration.
@@ -30,9 +30,9 @@ The Connected contact center for Microsoft Teams certification program verifies 
 
 There are three models to choose from to integrate connected contact center solution into Teams: 
 
-* **The Connect model** - The Connect model uses Microsoft certified SBCs and Direct Routing to connect contact center solutions to Teams phone system infrastructure, enabling enhanced routing, configuration, and system insights.
+* **The Connect model** - The Connect model uses Microsoft certified SBCs and Direct Routing to connect contact center solutions to Microsoft Teams Phone infrastructure, enabling enhanced routing, configuration, and system insights.
 
-* **The Extend model** - The Extend model integrates with the Teams client using the Teams client platform, Teams Graph APIs and Cloud Communications API in Microsoft Graph. The Extend model also uses the Teams phone system for all contact center calls and call control experiences, and the contact center solution provider acts as a telephony carrier alongside Microsoft 365.
+* **The Extend model** - The Extend model integrates with the Teams client using the Teams client platform, Teams Graph APIs and Cloud Communications API in Microsoft Graph. The Extend model also uses the Microsoft Teams Phone for all contact center calls and call control experiences, and the contact center solution provider acts as a telephony carrier alongside Microsoft 365.
 
 * **The Power model** - The Power model enables solution providers to create native Azure-based voice applications using the Teams calling infrastructure and client platform to deliver modern, intelligent solutions for collaborative customer and agent connection. The goal of the Power model is to provide a one-app, one-screen contact center experience.
 
