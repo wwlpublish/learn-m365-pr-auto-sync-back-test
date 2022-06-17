@@ -44,9 +44,9 @@ units:
 - learn.wwl.implement-sensitivity-labels.introduction
 - learn.wwl.implement-sensitivity-labels.examine-how-to-create-sensitivity-label
 - learn.wwl.implement-sensitivity-labels.plan-deployment-strategy-sensitivity-labels
-- learn.wwl.implement-sensitivity-labels.create-sensitivity-labels
-- learn.wwl.implement-sensitivity-labels.publish-sensitivity-labels
-- learn.wwl.implement-sensitivity-labels.remove-delete-sensitivity-labels
+- learn.wwl.implement-sensitivity-labels.create
+- learn.wwl.implement-sensitivity-labels.publish
+- learn.wwl.implement-sensitivity-labels.remove-delete
 - learn.wwl.implement-sensitivity-labels.knowledge-check
 - learn.wwl.implement-sensitivity-labels.summary
 badge:
