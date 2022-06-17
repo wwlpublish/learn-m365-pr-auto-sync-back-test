@@ -3734,6 +3734,21 @@
       "source_path": "learn-m365-pr/wwl/explore-data-loss-prevention-microsoft-365/9-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/explore-data-loss-prevention-microsoft-365/8-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-sensitivity-labels/3-explore-what-can-do.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-sensitivity-labels/3-explore-sensitivity-labels",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-sensitivity-labels/4-determine-scope.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-sensitivity-labels/4-determine-sensitivity-label-scope",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-sensitivity-labels/5-label-policies.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-sensitivity-labels/5-explore-sensitivity-label-policies",
+      "redirect_document_id": true
     }
   ]
 }
