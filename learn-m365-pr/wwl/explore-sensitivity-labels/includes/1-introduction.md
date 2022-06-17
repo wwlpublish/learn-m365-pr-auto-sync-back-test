@@ -14,4 +14,3 @@ After completing this module, you'll be able to:
  -  Configure a sensitivity label's scope.
  -  Explain why the order of sensitivity labels in your admin center is important.
  -  Describe what label policies can do.
-
