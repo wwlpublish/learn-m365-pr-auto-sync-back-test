@@ -217,7 +217,3 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 
 For more information, see [Manage who can create Microsoft 365 groups](/office365/admin/create-groups/manage-creation-of-groups?azure-portal=true). 
 
-
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”

@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-data-loss-prevention-policies.plan-data-loss-prevention
+title: Plan for data loss prevention
+metadata:
+  title: Plan for data loss prevention
+  description: "Plan for data loss prevention"
+  ms.date: 06/14/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/2-plan-data-loss-prevention.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso plans to implement Microsoft Purview Data Loss Protection. Contoso's DLP project team has identified its stakeholders and the sensitive information that needs protection. Which of the following actions should Contoso complete next?"
+    choices:
+    - content: "The stakeholders can set their protection goals"
+      isCorrect: true
+      explanation: "Correct. Once an organization has identified its stakeholders and it knows which sensitive information needs protection and where it's used, the stakeholders can set their protection goals, and IT can develop an implementation plan."
+    - content: "Complete all implementation prerequisites"
+      isCorrect: false
+      explanation: "Incorrect. Before Contoso completes the DLP prerequisites, it should set its protection goals and develop an implementation plan."
+    - content: "Create a DLP policy"
+      isCorrect: false
+      explanation: "Incorrect. Before Contoso starts creating DLP policies, it should set its protection goals and develop an implementation plan."

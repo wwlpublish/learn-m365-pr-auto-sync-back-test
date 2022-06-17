@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-compliance-microsoft-365.plan-for-security-compliance-microsoft-365
+title: Plan for security and compliance in Microsoft 365
+metadata:
+  title: Plan for security and compliance in Microsoft 365
+  description: "Plan for security and compliance in Microsoft 365"
+  ms.date: 06/14/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-plan-for-security-compliance-microsoft-365.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson has finished setting up the company's Microsoft 365 subscription. Holly has also completed all the Microsoft 365 training on data compliance, data governance, and information protection in Microsoft Learn. What's the next step that Holly should complete when planning for security and compliance in Microsoft 365?"
+    choices:
+    - content: "Plan access protection for identity and devices"
+      isCorrect: false
+      explanation: "Incorrect. This action isn't the next step that Holly should perform."
+    - content: "Check Contoso's Secure Score"
+      isCorrect: true
+      explanation: "Correct. After setting up Contoso's Microsoft 365 subscription, Holly should take note of the company's starting Secure Score using the Microsoft Secure Score tool. Secure Score provides Microsoft 365 configuration suggestions that Contoso can implement to increase its score."
+    - content: "Plan data protection based on data sensitivity"
+      isCorrect: false
+      explanation: "Incorrect. This action isn't the next step that Holly should perform."

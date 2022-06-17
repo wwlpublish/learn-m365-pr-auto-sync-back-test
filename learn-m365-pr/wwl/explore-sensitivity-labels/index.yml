@@ -3,7 +3,7 @@ uid: learn.wwl.explore-sensitivity-labels
 metadata:
   title: Explore sensitivity labels
   description: "Explore sensitivity labels"
-  ms.date: 09/15/2021
+  ms.date: 06/17/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,7 +11,7 @@ metadata:
 title: Explore sensitivity labels
 summary: This module examines how sensitivity labels from the Microsoft Information Protection solution let you classify and protect your organization's data, while making sure that user productivity and collaboration isn't hindered.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Describe how sensitivity labels let you classify and protect your organization's data
   - Identify the common reasons why organizations use sensitivity labels
   - Explain what a sensitivity label is and what they can do for an organization
@@ -29,11 +29,17 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 subjects:
+- cloud-computing
+- cloud-security
+- collaboration
+- communication
+- compliance
 - information-protection-governance
+- security
+- threat-protection
 units:
 - learn.wwl.explore-sensitivity-labels.introduction
 - learn.wwl.explore-sensitivity-labels.manage-data-protection-sensitivity-labels

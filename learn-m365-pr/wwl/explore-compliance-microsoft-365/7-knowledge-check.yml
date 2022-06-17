@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-compliance-microsoft-365.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 06/14/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which Microsoft 365 feature provides an organization an at-a-glance view of its current compliance posture, and helps it to manage its compliance requirements with greater ease and convenience by providing pre-built assessments, workflows, and step-by-step guidance on suggested improvement actions?"
+    choices:
+    - content: "Compliance score"
+      isCorrect: false
+      explanation: "Incorrect. Compliance score a risk-based score that measures a company's progress toward completing recommended actions that help reduce risks around data protection and regulatory standards."
+    - content: "Microsoft Purview compliance portal"
+      isCorrect: false
+      explanation: "Incorrect. The correct answer is actually a feature in the Microsoft Purview compliance portal."
+    - content: "Compliance Manager"
+      isCorrect: true
+      explanation: "Correct. Compliance Manager is a feature in the Microsoft Purview compliance portal. Its purpose is to help organizations manage their compliance requirements with greater ease and convenience. It also simplifies compliance and reduces risk by providing pre-built assessments, workflows, step-by-step guidance on suggested improvement actions, and a risk-based compliance score."
+  - content: "Which Compliance Score component is an evaluation of a template that starts the scoring process for an organization?"
+    choices:
+    - content: "A Microsoft-managed control"
+      isCorrect: false
+      explanation: "Incorrect. For each cloud service, Microsoft implements and manages a set of controls as part of Microsoft's compliance with various standards and regulations. This item isn't an evaluation of a template that starts an organization's scoring process."
+    - content: "As assessment"
+      isCorrect: true
+      explanation: "Correct. An assessment is an evaluation of a template that starts the scoring process for an organization. Assessments group the actions necessary to meet the requirements of a standard, regulation, or law. For example, you may have an assessment that, when you complete all actions within it, brings your Microsoft 365 settings in line with ISO 27001 requirements."
+    - content: "A Customer-managed control"
+      isCorrect: false
+      explanation: "Incorrect. This item is a collection of controls that are managed by an organization. This item isn't an evaluation of a template that starts an organization's scoring process."
+  - content: "Tailspin Toys has just deployed Microsoft 365. It's now analyzing its compliance needs. As such, it's trying to determine its current state of compliance. Which of the following actions should it complete to help it understand its compliance posture?"
+    choices:
+    - content: "Deploy Microsoft's built-in alert policies"
+      isCorrect: false
+      explanation: "Incorrect. These policies will help Tailspin Toys identify permissions abuse by administrators, malware activity, potential internal and external threats, and information governance risks. However, they aren't the first thing it should do to determine its current state of compliance."
+    - content: "Classify and protect sensitive data with sensitivity labels"
+      isCorrect: false
+      explanation: "Incorrect. Sensitivity labels help classify and protect sensitive data by enforcing message encryption and usage restrictions, applying visual markings, and protecting information across platforms and devices. However, they aren't the first thing it should do to determine its current state of compliance."
+    - content: "Check its compliance score in Compliance Manager"
+      isCorrect: true
+      explanation: "Correct. It’s difficult to know where to go if you don’t know where you are. To meet its compliance needs, an organization must understand its current level of risk. It can do so by checking its compliance score in Compliance Manager. Once it knows its compliance posture given its compliance score, it can then complete actions to help reduce risks around data protection and regulatory standards, such as deploying Microsoft's built-in alert policies and creating sensitivity labels."

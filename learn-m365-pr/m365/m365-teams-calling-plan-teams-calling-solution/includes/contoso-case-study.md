@@ -1,6 +1,6 @@
 In this section, we will look at some of the aspects of a Contoso Case Study. We will look at some of the questions they had to answer and the decisions that resulted from that analysis. For more information, see **Contoso case study: Teams voice migration overview** in the **Additional resources** section in the Summary.
 
-In this case study, Contoso is a multi-national corporation, which is implementing a Teams voice solution. The goal is to migrate their on-premises users to Teams for unified communication, collaboration, and voice. Contoso migrated their Skype for Business enterprise voice users to Phone System using Microsoft Calling Plan, Direct Routing, or a combination of both.
+In this case study, Contoso is a multi-national corporation, which is implementing a Teams voice solution. The goal is to migrate their on-premises users to Teams for unified communication, collaboration, and voice.
 
 ## Phone System
 

@@ -1,0 +1,51 @@
+### YamlMime:Module
+uid: learn.wwl.implement-data-loss-prevention-policies
+metadata:
+  title: Implement Data Loss Prevention policies
+  description: "Implement Data Loss Prevention policies"
+  ms.date: 06/14/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implement Data Loss Prevention policies
+summary: This module examines how organizations can use Microsoft Purview Data Loss Prevention to help protect sensitive data and define the protective actions that organizations can take when a DLP rule is violated.
+abstract: |
+  By the end of this module, you'll be able to:
+  *  Create a data loss prevention implementation plan.
+  Implement Microsoft 365's default DLP policy.
+  *   Create a custom DLP policy from a DLP template and from scratch.
+  *   Create email notifications and policy tips for users when a DLP rule applies.
+  *   Create policy tips for users when a DLP rule applies
+  *   Configure email notifications for DLP policies
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+- security-engineer
+- solution-architect
+- technology-manager
+products:
+- m365
+- office-365
+subjects:
+- cloud-computing
+- cloud-security
+- compliance
+- information-protection-governance
+- security
+- threat-protection
+units:
+- learn.wwl.implement-data-loss-prevention-policies.introduction
+- learn.wwl.implement-data-loss-prevention-policies.plan-data-loss-prevention
+- learn.wwl.implement-data-loss-prevention-policies.implement-default-dlp-policy
+- learn.wwl.implement-data-loss-prevention-policies.design-custom-dlp-policy
+- learn.wwl.implement-data-loss-prevention-policies.create-custom-dlp-policy-from-template
+- learn.wwl.implement-data-loss-prevention-policies.configure-email-notifications-for-dlp-policies
+- learn.wwl.implement-data-loss-prevention-policies.configure-policy-tips-for-dlp-policies
+- learn.wwl.implement-data-loss-prevention-policies.knowledge-check
+- learn.wwl.implement-data-loss-prevention-policies.summary
+badge:
+  uid: learn.wwl.implement-data-loss-prevention-policies.badge

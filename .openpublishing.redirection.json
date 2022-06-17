@@ -3674,6 +3674,81 @@
       "source_path": "learn-m365-pr/wwl/explore-reporting-microsoft-365-security-services/12-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/manage-your-microsoft-365-security-services/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-information-barriers-microsoft-365/2-explore.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/create-information-barriers-microsoft-365/2-explore-information-barriers",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-information-barriers-microsoft-365/3-define-information-barrier-policies.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/create-information-barriers-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-information-barriers-microsoft-365/4-explore-ethical-walls-exchange-online.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/create-information-barriers-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-information-barriers-microsoft-365/5-create-ethical-wall-using-distribution-groups.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/create-information-barriers-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-information-barriers-microsoft-365/6-examine-best-practices-for-building-ethical-walls.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/create-information-barriers-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-data-loss-prevention-microsoft-365/4-configure-email-notifications.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-data-loss-prevention-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-data-loss-prevention-microsoft-365/3-examine-policies.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-data-loss-prevention-microsoft-365/4-examine-policies",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-data-loss-prevention-microsoft-365/5-configure-policy-tips.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-data-loss-prevention-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-data-loss-prevention-microsoft-365/6-create-policy-from-policy-template.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-data-loss-prevention-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-data-loss-prevention-microsoft-365/7-integrate-microsoft-policies-with-windows-server-properties.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-data-loss-prevention-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-data-loss-prevention-microsoft-365/8-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-data-loss-prevention-microsoft-365/7-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-data-loss-prevention-microsoft-365/9-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-data-loss-prevention-microsoft-365/8-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-sensitivity-labels/3-explore-what-can-do.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-sensitivity-labels/3-explore-sensitivity-labels",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-sensitivity-labels/4-determine-scope.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-sensitivity-labels/4-determine-sensitivity-label-scope",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-sensitivity-labels/5-label-policies.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-sensitivity-labels/5-explore-sensitivity-label-policies",
+      "redirect_document_id": true
     }
   ]
 }

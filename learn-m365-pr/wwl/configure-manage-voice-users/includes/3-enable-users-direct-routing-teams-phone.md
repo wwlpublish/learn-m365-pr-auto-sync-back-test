@@ -1,5 +1,5 @@
 
-Before you can enable Direct Routing for users, you'll need to have configured it at the organization level. This will include configuring an on-premises Session Border Controller (SBC) or using settings provided by a telephony provider offering a Direct Routing service, and then configuring voice routing, emergency calling, and if required, high-availability functionality. These configuration tasks were covered in the earlier module **Configure and deploy Direct Routing**.
+Before you can enable Direct Routing for users, you'll need to have configured it at the organization level. This will include configuring an on-premises Session Border Controller (SBC) or use settings provided by a telephony provider that offers a Direct Routing service. Followed by configuring voice routing, emergency calling, and if necessary, high-availability functionality.
 
 After configuring your organization to support Direct Routing, you will then need to perform the following tasks to enable functionality for users:
 
@@ -19,13 +19,13 @@ To use Direct Routing, you'll first need to assign the following licenses to a u
 
 - Microsoft Teams
 
-- Microsoft 365 Phone System
+- Microsoft Teams Phone
 
 - Skype for Business Plan 2
 
 - Optionally, Audio Conferencing, or Audio Conferencing Pay Per Minute
 
-These licenses are including in Microsoft Enterprise E5 (with Phone System) and Microsoft Business Voice SKUs.
+These licenses are including in Microsoft Enterprise E5 (with Teams Phone) and Microsoft Business Voice SKUs.
 
 You can use the Microsoft 365 admin center or PowerShell to assign licenses to users in your organization. You must be a Global admin or User management admin to manage licenses.
 
@@ -45,43 +45,43 @@ Connect-MicrosoftTeams
 
 ```
 
-You will typically enable Enterprise Voice functionality and assign a number available to you from your voice provider. As you enable this for a user, you can also enable voicemail at the same time.
+You will typically enable Teams Phone functionality and assign a number available to you from your voice provider. As you enable Teams Phone for a user, voicemail will be automatically enabled at the same time.
 
-To enable a user for Enterprise Voice functionality, configure a phone number for the user and enable voicemail, use the following cmdlet:
+To enable a user for Teams Phone functionality and assign a Microsoft Calling Plan phone number, use the following cmdlet:
 
 ```powershell
-Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>
+Set-CsPhoneNumberAssignment -Identity "<User name>" -PhoneNumber "<phone number>" -PhoneNumberType CallingPlan
 
 ```
 
-It's recommended, but not required, that the phone number used is configured as a full E.164 phone number with country/region code.
+Supports E.164 format like +12065551234 and non-E.164 format like 12065551234. The phone number can't have "tel:" prefixed.
 
-It is supported to configure phone numbers with extensions, which will be used to look up users when the lookup against the base number returns more than one result. This allows companies to configure phone numbers with the same base number and unique extensions.
+Direct Routing numbers with extensions using the formats +1206555000;ext=1234 or 1206555000;ext=1234 are supported, but such phone numbers can't be assigned to a resource account.
 
-The example below shows how to assign a user the number with a unique extension:
+The example below shows how to assign  Direct Routing number with a unique extension to the user:
 
 ```powershell
-Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1001" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255551234;ext=1001" -PhoneNumberType DirectRouting
 
 ```
 
 The following cmdlet shows how to assign the same number with a different extension to another user:
 
 ```powershell
-Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1002" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsPhoneNumberAssignment -Identity "stacy.quinn@contoso.com" -PhoneNumber "+14255551234;ext=1002" -PhoneNumberType DirectRouting
 
 ```
 
-If the user’s phone number is managed on premises, use on-premises Skype for Business Management Shell or Control Panel to configure the user's phone number. Then enable the user for enterprise voice services and voicemail using the following cmdlet:
+If a user or resource account has a phone number set in Active Directory on-premises and synched into Microsoft 365, you can't use Set-CsPhoneNumberAssignment to set the phone number. You will have to clear the phone number from the on-premises Active Directory and let that change sync into Microsoft 365 first. Then enable the user for enterprise voice services and voicemail using the following cmdlet:
 
 ```powershell
-Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsPhoneNumberAssignment -Identity "<User name>" -EnterpriseVoiceEnabled $true
 
 ```
 
 ## Assign a voice routing policy
 
-After configuring a phone number for the user and enabling the user for voicemail, you will then assign a voice routing policy to the user. This will provide the capability for the user to dial out and receive calls by associating them with specific Direct Routing configuration:
+After configuring a phone number for the user and enabling the user for voicemail, you will then assign a voice routing policy to the user. This policy allows the user to dial out and receive calls by associating them with specific Direct Routing configuration:
 
 ```powershell
 Grant-CsOnlineVoiceRoutingPolicy -Identity "<User name>" -PolicyName "No Restrictions”
