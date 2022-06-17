@@ -8,11 +8,25 @@ Your organization can use Teams monitoring and alerting to do the following item
 
 ## Teams monitoring rules 
 
-Here's a list of the Teams monitoring rules currently available in the Teams admin center.
+Here’s a list of the Teams monitoring rules currently available in the Teams admin center. By default, the rules are inactive. You can enable the rules by changing the **Status** to active. 
 
 |Rule  |Monitoring capability|What's monitored? |
 |---------|---------|---------|
+|App submissions|	Teams Apps|	Pro-actively monitor Teams apps if they are submitted for approval.|
 |Device health status |Teams Devices | Pro-actively monitor Teams devices if they go offline.|
+
+### App submissions
+App submissions alerts help you to proactively monitor if any Teams App is submitted for approval.
+
+|Field |Description  |
+|--------|-------------|
+|Rule type|	The app submissions rule notifies you when an app is submitted for approval.
+|Condition|	You can define the conditions under which you will be notified. |
+|Scope	|You can specify the frequency of evaluation of the above condition . By default the monitoring happens in real time.|
+|Actions > Channel alert|	In the Actions section, you can specify teams channels you want to get alerts for. Currently, a default team named "Admin Alerts and Notifications" and a channel named "App Submissions" will be created in Teams. All notifications will be sent there.|
+|Actions > Webhook|	You can also get notifications with an external webhook (optional).| 
+
+:::image type="content" source="../media/app-rule.png" alt-text="Screenshot of the Teams App submissions rule page" :::
 
 ### Device health status
 
@@ -27,7 +41,7 @@ Device health monitoring in the Microsoft Teams admin center gives you an abilit
 |**Actions** > **Channel alert**   |In the Actions section, you can specify teams channels you want to get alerts for. Currently, a default team named **Admin Alerts and Notifications** and channel named **MonitoringAlerts** will be created where notifications will be delivered to. <BR/> <BR/> Global administrators and Teams administrators in your tenant will be automatically added to this default team.|
 |**Actions** > **Webhook**   |You can also get notifications with an external webhook (optional). Specify an external public webhook URL in the webhook section where a JSON notification payload will be sent. <BR/> <BR/>  The notification payload, via webhooks, can be integrated with other systems in your organization to create custom workflows.<br/><br/> 
 
-‎:::image type="content" source="../media/device-state-rule.png" alt-text="Teams devices state rule page":::
+‎:::image type="content" source="../media/device-state-rule.png" alt-text="Screenshot of the Teams devices state rule page" :::
 
 ## Configure Teams monitoring rules
 
