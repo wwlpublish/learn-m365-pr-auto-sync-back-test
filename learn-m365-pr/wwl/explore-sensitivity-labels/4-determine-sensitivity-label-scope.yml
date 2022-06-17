@@ -4,28 +4,27 @@ title: Determine a sensitivity label's scope
 metadata:
   title: Determine a sensitivity label's scope
   description: "Determine a sensitivity label's scope"
-  ms.date: 09/15/2021
+  ms.date: 06/17/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 7
 content: |
-  [!include[](includes/4-determine-scope.md)]
+  [!include[](includes/4-determine-sensitivity-label-scope.md)]
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Contoso, Holly Dickson is creating a sensitivity label. When defining the scope for the label, Holly configured the label settings. What else can Holly define as part of the label's scope?"
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson is creating a sensitivity label. When Holly defined the scope for the label, she configured the label settings. What else can Holly define as part of the label's scope?"
     choices:
     - content: "Where the label will be visible to users"
       isCorrect: true
-      explanation: "That's correct. A label's scope determines two things - the label settings for that label and where the label will be visible to users."
+      explanation: "Correct. A label's scope determines two things - the label settings for that label and where the label will be visible to users."
     - content: "A help link to a custom help page"
       isCorrect: false
-      explanation: "That's incorrect. This action can be configured with a label policy. Try again."
+      explanation: "Incorrect. This action can be configured with a label policy."
     - content: "Choose which users and groups see the label"
       isCorrect: false
-      explanation: "That's incorrect. This action can be configured with a label policy. Try again."
+      explanation: "Incorrect. This action can be configured with a label policy."

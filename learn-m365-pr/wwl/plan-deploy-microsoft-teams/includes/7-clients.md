@@ -1,4 +1,4 @@
-Microsoft Teams has clients available for desktop (Windows, Mac, and Linux), web, and mobile (Android and iOS). There are different ways to deploy Teams clients based on devices. 
+Microsoft Teams has clients available for desktop (Windows, Mac, and Linux), web, and mobile (Android and iOS). Microsoft also offers Teams for Virtualized Desktop Infrastructure (VDI) environments. There are different ways to deploy Teams clients based on devices. 
 
 ## Deploy Teams desktop clients 
 The Microsoft Teams desktop clients provide real-time communications support (audio, video, and content sharing) for team meetings, group calling, and private one-on-one calls.
@@ -7,9 +7,10 @@ The Microsoft Teams desktop clients provide real-time communications support (au
 
 The desktop client is available for the following operating systems:
 
-- **Windows**. Windows (8.1 or later) and Windows Server (2012 R2 or later), 32-bit and 64-bit versions.
+- **Windows**. Windows (8.1 or later) and Windows Server (2012 R2 or later), 32-bit and 64-bit versions, ARM64 for Windows 10 on ARM.
 - **macOS**. the three most recent versions of macOS.
 - **Linux**. .deb and.rpm formats.
+- **Chrome OS** 
 
 As a Teams administrator, you can choose your preferred method to distribute the installation files to computers in your organization. For example, you can use Microsoft Endpoint Configuration Manager for Windows operating systems or Jamf Pro for macOS. There are several ways to deploy Teams desktop clients:
 
@@ -126,7 +127,7 @@ The web client [https://teams.microsoft.com](https://teams.microsoft.com?azure-p
 
 The web client supports Calling and Meetings by using webRTC, so there is no plug-in or download required to run Teams in a web browser. The browser must be configured to allow third-party cookies.
 
-The Teams web client is available for various different browsers, including Edge, Chrome, and Safari. For the list of supported browser, see [Web client](https://docs.microsoft.com/microsoftteams/get-clients?azure-portal=true#web-client).
+The Teams web client is available for various different browsers, including Edge, Chrome, and Safari. For the list of supported browser, see [Web client](/microsoftteams/get-clients?azure-portal=true#web-client).
 
 
 ## Client update management
