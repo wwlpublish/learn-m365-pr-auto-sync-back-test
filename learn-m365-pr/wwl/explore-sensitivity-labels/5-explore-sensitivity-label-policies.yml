@@ -4,14 +4,13 @@ title: Explore sensitivity label policies
 metadata:
   title: Explore sensitivity label policies
   description: "Explore sensitivity label policies"
-  ms.date: 09/15/2021
+  ms.date: 06/17/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 6
 content: |
-  [!include[](includes/5-label-policies.md)]
+  [!include[](includes/5-explore-sensitivity-label-policies.md)]
