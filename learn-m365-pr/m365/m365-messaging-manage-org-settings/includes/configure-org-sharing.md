@@ -47,12 +47,12 @@ If you're setting up an organization relationship with an on-premises Exchange o
 
 - The organization relationship is established with the domain fourthcoffee.com.
 - The Exchange Web Services application URL is mail.fourthcoffee.com.
-- The Autodiscover URL is <https://mail.fourthcoffee.com/autodiscover/autodiscover.svc/wssecurity>.
+- The Autodiscover URL is `<https://mail.fourthcoffee.com/autodiscover/autodiscover.svc/wssecurity>`.
 - Free/busy access is enabled.
 - Fourth Coffee sees free/busy information with the time.
 
 ```PowerShell
-New-OrganizationRelationship -Name "Fourth Coffee" -DomainNames "fourthcoffee.com" -FreeBusyAccessEnabled $true -FreeBusyAccessLevel AvailabilityOnly -TargetAutodiscoverEpr "https://mail.fourthcoffee.com/autodiscover/autodiscover.svc/wssecurity" -TargetApplicationUri "mail.fourthcoffee.com"
+New-OrganizationRelationship -Name "Fourth Coffee" -DomainNames "fourthcoffee.com" -FreeBusyAccessEnabled $true -FreeBusyAccessLevel AvailabilityOnly -TargetAutodiscoverEpr "`https://mail.fourthcoffee.com/autodiscover/autodiscover.svc/wssecurity`" -TargetApplicationUri "mail.fourthcoffee.com"
 ```
 
 ## Modify an organization relationship in Exchange Online

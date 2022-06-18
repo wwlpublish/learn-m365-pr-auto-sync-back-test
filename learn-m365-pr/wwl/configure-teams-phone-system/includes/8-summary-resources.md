@@ -54,5 +54,5 @@ Use these resources to discover more background details of the described topics 
 
 - [What are Communications Credits? - Microsoft Teams | Microsoft Docs](/microsoftteams/what-are-communications-credits)
 
-- [About the PSTN service desk - Microsoft Teams | Microsoft Docs](/microsoftteams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk)
+- [About the PSTN service desk - Microsoft Teams | Microsoft Docs](/learn/modules/manage-phone-system-for-microsoft-teams/)
 
