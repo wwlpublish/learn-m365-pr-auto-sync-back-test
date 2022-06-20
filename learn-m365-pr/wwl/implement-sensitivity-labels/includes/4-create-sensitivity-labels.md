@@ -15,7 +15,7 @@ The global admin for an organization has full permissions to create and manage a
 2.  On the **Information protection** page, select the **Labels** tab.
 3.  On the **Labels** tab, select **+ Create a label** to start the **New sensitivity label** wizard.
     
-    :::image type="content" source="../media/information-protection-page-2c9cb3ff.png" alt-text="Screenshot of the Information protection page showing the Labels tab and the Create a label option highlighted.":::
+    :::image type="content" source="../media/information-protection-page-2c9cb3ff.png" alt-text="Screenshot of the Information protection page showing the Labels tab and the Create a label option highlighted." lightbox="../media/information-protection-page-2c9cb3ff.png":::
     
     
     > [!NOTE]
@@ -23,7 +23,7 @@ The global admin for an organization has full permissions to create and manage a
 4.  In the **New sensitivity label** wizard, on the **Name and create a tooltip for your label** page, enter the label **Name**, **Display name**, **Description for users**, and optionally, the **Description for admins**.
 5.  On the **Define the scope for this label** page, the options selected determine the label's scope for the settings that you can configure and where they'll be visible when they're published:
     
-    :::image type="content" source="../media/scope-page-new-sensitivity-wizard-f5c8aa90.png" alt-text="Screenshot of the Define the scope for this label page in the new sensitivity label wizard.":::
+    :::image type="content" source="../media/scope-page-new-sensitivity-wizard-f5c8aa90.png" alt-text="Screenshot of the Define the scope for this label page in the new sensitivity label wizard." lightbox="../media/scope-page-new-sensitivity-wizard-f5c8aa90.png":::
     
     
     
