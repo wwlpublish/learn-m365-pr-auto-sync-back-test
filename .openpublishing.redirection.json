@@ -3774,6 +3774,396 @@
       "source_path": "learn-m365-pr/wwl/implement-sensitivity-labels/6-remove-delete.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/implement-sensitivity-labels/6-remove-delete-sensitivity-labels",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-custom-dlp-policy/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-custom-dlp-policy/3-customize-conditions-actions.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-custom-dlp-policy/4-customize-user-notifications.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-custom-dlp-policy/2-edit-rule.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-custom-dlp-policy/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-custom-dlp-policy/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-custom-dlp-policy/5-override-message-blocking-policy-tip.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-custom-dlp-policy/6-send-incident-report.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-custom-dlp-policy/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-dlp-policy-from-built-template/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-dlp-policy-from-built-template/2-choose-built-policy-template.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-dlp-policy-from-built-template/3-choose-locations-to-protect.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-dlp-policy-from-built-template/4-configure-rules.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-dlp-policy-from-built-template/5-enable.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-dlp-policy-from-built-template/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-dlp-policy-from-built-template/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-dlp-policy-from-built-template/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-dlp-policy-to-protect-documents/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-dlp-policy-to-protect-documents/2-explore-protect-documents.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-dlp-policy-to-protect-documents/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-dlp-policy-to-protect-documents/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-dlp-policy-to-protect-documents/4-step-3.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-dlp-policy-to-protect-documents/3-steps-1-2.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/create-dlp-policy-to-protect-documents/6-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/evaluate-your-compliance-readiness/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/evaluate-your-compliance-readiness/4-analyze-microsoft-compliance-score.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/evaluate-your-compliance-readiness/6-examine-compliance-score-assessments.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/evaluate-your-compliance-readiness/5-examine-compliance-score-components.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/evaluate-your-compliance-readiness/3-explore-microsoft-365-compliance-center.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/evaluate-your-compliance-readiness/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/evaluate-your-compliance-readiness/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/evaluate-your-compliance-readiness/2-plan-for-security-compliance-microsoft-365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/evaluate-your-compliance-readiness/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-information-rights-management/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/introduction-to-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-information-rights-management/6-apply-protection-to-documents-sharepoint.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/introduction-to-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-information-rights-management/4-apply-protection-to-email-exchange.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/introduction-to-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-information-rights-management/7-compare-protection-classification.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/introduction-to-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-information-rights-management/3-exchange.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/introduction-to-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-information-rights-management/2-identify-encryption-options-available-microsoft-365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/introduction-to-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-information-rights-management/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/introduction-to-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-information-rights-management/8-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/introduction-to-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-information-rights-management/5-sharepoint.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/introduction-to-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-information-rights-management/9-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/introduction-to-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-office-365-message-encryption/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-microsoft-purview-message-encryption/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-office-365-message-encryption/5-advanced-message-encryption.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-microsoft-purview-message-encryption/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-office-365-message-encryption/6-examine-additional-encryption-methods-microsoft-365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-microsoft-purview-message-encryption/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-office-365-message-encryption/3-examine-how-works.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-microsoft-purview-message-encryption/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-office-365-message-encryption/2-examine-office-365-message-encryption.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-microsoft-purview-message-encryption/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-office-365-message-encryption/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-microsoft-purview-message-encryption/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-office-365-message-encryption/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-microsoft-purview-message-encryption/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-office-365-message-encryption/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-microsoft-purview-message-encryption/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-office-365-message-encryption/4-work-with-encrypted-emails.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-microsoft-purview-message-encryption/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-place-records-management-sharepoint/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/introduction-to-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-place-records-management-sharepoint/5-configure.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/introduction-to-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-place-records-management-sharepoint/3-create-file-plan-to-manage-records.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/introduction-to-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-place-records-management-sharepoint/2-examine-in-place-records-management.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/introduction-to-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-place-records-management-sharepoint/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/introduction-to-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-place-records-management-sharepoint/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/introduction-to-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-place-records-management-sharepoint/4-plan-how-to-convert-active-documents-to-records.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/introduction-to-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-place-records-management-sharepoint/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/introduction-to-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-compliance-solutions/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-compliance-solutions/3-configure-insider-risk-management-policies.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-compliance-solutions/4-examine-insider-risk-management-alerts.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-compliance-solutions/5-explore-communication-compliance-compliance-center.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-compliance-solutions/6-explore-compliance-toolset.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-compliance-solutions/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-compliance-solutions/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-compliance-solutions/2-overview-of-insider-risk-management-microsoft-365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-compliance-solutions/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-policy-tips-for-dlp-policies/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-policy-tips-for-dlp-policies/4-configure-email-notifications.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-policy-tips-for-dlp-policies/3-define-policy-tips-override-rules.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-policy-tips-for-dlp-policies/2-examine-policy-tips.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-policy-tips-for-dlp-policies/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-policy-tips-for-dlp-policies/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-policy-tips-for-dlp-policies/6-policy-tips-office.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-policy-tips-for-dlp-policies/5-sharepoint-onedrive-for-business.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-policy-tips-for-dlp-policies/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
+      "redirect_document_id": false
     }
   ]
 }
