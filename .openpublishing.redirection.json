@@ -3749,6 +3749,31 @@
       "source_path": "learn-m365-pr/wwl/explore-sensitivity-labels/5-label-policies.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/explore-sensitivity-labels/5-explore-sensitivity-label-policies",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-sensitivity-labels/2-examine-how-to-create-sensitivity-label.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-sensitivity-labels/2-examine-requirements-create-sensitivity-label",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-sensitivity-labels/3-develop-data-classification.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-sensitivity-labels/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-sensitivity-labels/4-create.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-sensitivity-labels/4-create-sensitivity-labels",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-sensitivity-labels/5-publish.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-sensitivity-labels/5-publish-sensitivity-labels",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-sensitivity-labels/6-remove-delete.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-sensitivity-labels/6-remove-delete-sensitivity-labels",
+      "redirect_document_id": true
     }
   ]
 }
