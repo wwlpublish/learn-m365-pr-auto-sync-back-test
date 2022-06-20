@@ -39,7 +39,7 @@ quiz:
     - content: "A group channel in Microsoft Stream"
       isCorrect: false
       explanation: "That's incorrect. All meeting recordings saved to OneDrive or SharePoint."
-  - content: "You're the IT Admin with Contoso. Brian, a Sales manager with Contoso, wants to broadcast information to key users both inside and outside the company. He maintains a list of users who are part of different distribution groups and security groups. You need to upgrade the relevant group to Microsoft 365 group to promote collaboration.Which of the following groups can be upgraded to Microsoft 365 groups?"
+  - content: "You're the IT Admin with Contoso. Brian, a Sales manager with Contoso, wants to broadcast information to key users both inside and outside the company. He maintains a list of users who are part of different distribution groups and security groups. You need to upgrade the relevant group to Microsoft 365 group to promote collaboration. Which of the following groups can be upgraded to Microsoft 365 groups?"
     choices:
     - content: "Security groups"
       isCorrect: false
