@@ -22,7 +22,7 @@ App submissions alerts help you to proactively monitor if any Teams App is submi
 |--------|-------------|
 |Rule type|	The app submissions rule notifies you when an app is submitted for approval.
 |Condition|	You can define the conditions under which you will be notified. |
-|Scope	|You can specify the frequency of evaluation of the above condition . By default the monitoring happens in real time.|
+|Scope	|You can specify the frequency of evaluation of the above condition. By default the monitoring happens in real time.|
 |Actions > Channel alert|	In the Actions section, you can specify teams channels you want to get alerts for. Currently, a default team named "Admin Alerts and Notifications" and a channel named "App Submissions" will be created in Teams. All notifications will be sent there.|
 |Actions > Webhook|	You can also get notifications with an external webhook (optional).| 
 
