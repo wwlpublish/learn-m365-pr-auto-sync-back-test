@@ -2,7 +2,7 @@ Information workers in an organization handle many kinds of sensitive informatio
 
 ### Basic scenario for Document Fingerprinting
 
-Document Fingerprinting is a Microsoft Purview Data Loss Prevention (DLP) feature. It converts a standard form into a sensitive information type. This type can then be used in the rules of an organization's DLP policies. For example, an organization can:
+Document Fingerprinting is a Microsoft Purview Data Loss Prevention (DLP) feature. It converts a standard form into a sensitive information type. This type can then be used in the rules of an organization's DLP policies. For example, an organization can complete the following steps:
 
 1.  Create a document fingerprint based on a blank patent template.
 2.  Create a DLP policy that detects and blocks all outgoing patent templates with sensitive content filled in.

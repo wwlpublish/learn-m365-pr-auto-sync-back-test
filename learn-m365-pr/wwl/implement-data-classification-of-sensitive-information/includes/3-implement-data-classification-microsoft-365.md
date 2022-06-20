@@ -58,7 +58,7 @@ The **Data classification** page is organized into the following tabs:
      -  patterns
      -  keyword evidence such as employee number, social security number, or ID
      -  character proximity to evidence in a particular pattern
-     -  confidence levelsExact data matches
+     -  confidence levels
  -  **Exact data matches**. What should an organization do if it wants a custom sensitive information type that uses exact or nearly exact data values, instead of one that found matches based on generic patterns? Exact Data Match (EDM)-based classification enables organizations to create custom sensitive information types that refer to exact values in a database of sensitive information. The database can be refreshed daily, and contain up to 100 million rows of data. So as employees, patients, or clients come and go, and records change, an organization's custom sensitive information types remain current and applicable. It can also use EDM-based classification with policies, such as Microsoft Purview Data Loss Prevention policies or Microsoft Cloud App Security file policies. With EDM-based classification, an organization can create a custom sensitive information type that's designed to:
      -  be dynamic and easily refreshed.
      -  be more scalable.
