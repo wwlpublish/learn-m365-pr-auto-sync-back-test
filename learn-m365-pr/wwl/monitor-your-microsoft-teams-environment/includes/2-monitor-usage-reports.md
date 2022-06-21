@@ -24,11 +24,12 @@ Here's a list of the Teams reports available in the Microsoft Teams admin center
 To access the Teams usage reports, you need to have one of the following roles assigned: 
 
 * Global admin in Microsoft 365 or Office 365
-* Teams  admin
+* Global reader in Microsoft 365 or Office 365
+* Teams admin
 * Skype for Business admin
 
 
-Go to the Microsoft Teams admin center, in the left navigation, select **Analytics & reports**  > **Usage reports**, and then under **Report**, choose the report you want to run. You can select different **Data range** or **Columns** to be shown in the report. 
+Go to the Microsoft Teams admin center. In the left navigation pane, select **Analytics & reports** > **Usage reports**, and then under **Report**, choose the report you want to run. You can select different **Data range** or **Columns** to be shown in the report.  
 
 |Report  |What's measured? |Screenshot |
 |---------|---------|---------|
