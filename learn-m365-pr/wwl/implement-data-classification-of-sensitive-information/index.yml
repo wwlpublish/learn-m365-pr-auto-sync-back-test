@@ -1,0 +1,53 @@
+### YamlMime:Module
+uid: learn.wwl.implement-data-classification-of-sensitive-information
+metadata:
+  title: Implement data classification of sensitive information
+  description: "Implement data classification of sensitive information"
+  ms.date: 06/21/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implement data classification of sensitive information
+summary: This module introduces you to data classification in Microsoft 365, including how to create and train classifiers, view sensitive data using Content explorer and Activity explorer, and implement Document Fingerprinting.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Explain the benefits and pain points of creating a data classification framework.
+  - Identify how data classification of sensitive items is handled in Microsoft 365.
+  - Understand how Microsoft 365 uses trainable classifiers to protect sensitive data.
+  - Create and then retrain custom trainable classifiers.
+  - Analyze the results of your data classification efforts in Content explorer and Activity explorer.
+  - Implement Document Fingerprinting to protect sensitive information being sent through Exchange Online.
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+- security-engineer
+- solution-architect
+- technology-manager
+products:
+- m365
+- office-365
+subjects:
+- cloud-computing
+- cloud-security
+- collaboration
+- communication
+- compliance
+- information-protection-governance
+- security
+- threat-protection
+units:
+- learn.wwl.implement-data-classification-of-sensitive-information.introduction
+- learn.wwl.implement-data-classification-of-sensitive-information.explore-data-classification-sensitive-information
+- learn.wwl.implement-data-classification-of-sensitive-information.implement-data-classification-microsoft-365
+- learn.wwl.implement-data-classification-of-sensitive-information.explore-trainable-classifiers
+- learn.wwl.implement-data-classification-of-sensitive-information.create-retrain-trainable-classifier
+- learn.wwl.implement-data-classification-of-sensitive-information.view-sensitive-data-content-explorer-activity-explorer
+- learn.wwl.implement-data-classification-of-sensitive-information.detect-sensitive-information-document-fingerprint
+- learn.wwl.implement-data-classification-of-sensitive-information.knowledge-check
+- learn.wwl.implement-data-classification-of-sensitive-information.summary
+badge:
+  uid: learn.wwl.implement-data-classification-of-sensitive-information.badge
