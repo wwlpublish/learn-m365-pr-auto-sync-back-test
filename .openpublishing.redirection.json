@@ -4164,6 +4164,16 @@
       "source_path": "learn-m365-pr/wwl/implement-policy-tips-for-dlp-policies/8-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/implement-data-governance-microsoft-365-intelligence/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/monitor-your-microsoft-teams-environment/9-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/monitor-your-microsoft-teams-environment/10-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/monitor-your-microsoft-teams-environment/8-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/monitor-your-microsoft-teams-environment/9-knowledge-check",
+      "redirect_document_id": true
     }
   ]
 }

@@ -1,16 +1,23 @@
-Access to groups and applications for employees and guests changes over time. To reduce the risk associated with stale access assignments, administrators can use Azure Active Directory (Azure AD) to create access reviews for group members or application access.
+Access to groups and applications for employees and guests changes over time. To reduce the risk associated with stale access assignments, administrators can use Azure Active Directory (Azure AD) to create access reviews for group members or application access. Here are some scenarios to use access reviews:
 
-Azure Active Directory (Azure AD) access reviews enable organizations to efficiently manage group memberships without needing administrative oversight. You can ensure that users and guest have appropriate access. With Access Reviews, you can:
+* Too many users in privileged roles
+* When automation is not possible
+* When a group is used for a new purpose
+* Business critical data access
+* To maintain a policy's exception list
+* Ask group owners to confirm they still need guests in their groups
+* Have reviews recur periodically
+
+
+Azure Active Directory (Azure AD) access reviews enable organizations to efficiently manage group memberships without needing administrative oversight. You can ensure that users and guest have appropriate access. With access reviews, you can:
 
 * Schedule regular reviews or perform ad-hoc reviews to see who has access to specific resources, such as applications and groups
-
 * Track reviews for insights, compliance, or policy reasons
-
 * Delegate reviews to specific admins, business owners, or end users who can self-attest to the need for continued access
-
 * Use the insights to efficiently determine if users should continue to have access
-
 * Automate review outcomes, such as removing users’ access to resources
+* Automate review groups in Azure AD that have one or more guests as members.
+* Automate review applications connected to Azure AD that have one or more guest users assigned to it.
 
 
 ‎:::image type="content" source="../media/planning-review.png" alt-text="Diagram that shows the access reviews flow.":::
@@ -40,21 +47,21 @@ The key benefits of enabling Access Reviews are:
 
 1. Sign in to the Azure portal and open the [Identity Governance page](https://portal.azure.com/#blade/Microsoft_AAD_ERM/DashboardBlade/?azure-portal=true).
 
-2. Select **Create an access review** to create a new access review.
+2. Select **Access reviews > + New access review** to create a new access review.
 
-3. In **Step 1: Select what to review** section, select **Teams + Groups**.
+3. In **Select what to review** section, select **Teams + Groups**.
 
-4. In **Step 2: Select which Teams + Groups** section, select one of the two options: 
+4. In **Review scope** section, select one of the two options: 
 
    - **All Microsoft 365 groups with guest users** - Select this option if you would like to create recurring reviews on all your guests across all your Microsoft Teams and Microsoft 365 groups in your organization. You can choose to exclude certain groups by selecting ‘Select group(s) to exclude’.
 
    - **Select teams + groups** - Select this option if you would like to specify a finite set of teams and/or groups to review. After selecting this option, you will see a list of groups to the right to choose from.
 
-5. Next, in Step 3 you can select a scope for the review. Your options are
+5. In the **Scope** section, you can select a scope for the review. Your options are
    - **Guest users only** - Selecting this option limits the access review to just the Azure AD B2B guests in your directory.
-   - **Everyone** - Selecting this option scopes the access review to all user objects associated with the resource.
+   - **All users** - Selecting this option scopes the access review to all user objects associated with the resource.
 
-	If you selected All Microsoft 365 groups with guests in Step 2, then your only option is to review guests in Step 3.
+    If you selected All Microsoft 365 groups with guests, then your only option is to review guest users only.
 
 	‎:::image type="content" source="../media/teams-groups.png" alt-text="Teams and groups":::
 
@@ -64,7 +71,7 @@ The key benefits of enabling Access Reviews are:
 
     - **Group owner(s)** (Only available when performing a review on a Team or group)
     - **Selected user(s) or groups(s)**
-    - **Users review own access**
+    - **Users review their own access**
     - **Managers of users**.
     If you choose either **Managers of users** or **Group owners**  you also have the option to specify a fallback reviewer. Fallback reviewers are asked to do a review when the user has no manager specified in the directory or the group does not have an owner.
 
@@ -90,7 +97,7 @@ The key benefits of enabling Access Reviews are:
     - **Remove user’s membership from the resource** will remove denied user’s access to the group or application being reviewed, they will still be able to sign in to the tenant.
     - Block user from signing-in for 30 days, then remove user from the tenant will block the denied users from signing in to the tenant, regardless if they have access to other resources. If there was a mistake or if an admin decides to re-enable one’s access, they can do so within 30 days after the user has been disabled. If there is no action taken on the disabled users, they will be deleted from the tenant.
 
-11. You can send notifications to other users or groups (Preview) to receive review completion updates. This feature allows for stakeholders other than the review creator to be updated on the progress of the review. To use this feature, select **Select User(s) or Group(s)** and add an extra user or group that you want to receive the status of completion.
+11. You can send notifications to other users or groups to receive review completion updates. This feature allows for stakeholders other than the review creator to be updated on the progress of the review. To use this feature, select **Select User(s) or Group(s)** and add an extra user or group that you want to receive the status of completion.
 
 12. In the **Enable review decision helpers**, choose whether you would like your reviewer to receive recommendations during the review process.
 
@@ -135,5 +142,32 @@ You can start the Access Review process from the notification email or by going 
 	‎:::image type="content" source="../media/perform-access-review.png" alt-text="Open access review listing the users to review" lightbox="../media/perform-access-review.png":::
 
 
+## Audit logs in Azure Active Directory
 
+Besides access reviews, administrators can use audit logs to review the records of system activities for compliance, including:
+
+### User-centric view
+* What types of updates have been applied to users?
+* How many users were changed?
+* How many passwords were changed?
+* What has an administrator done in a directory?
+
+### Group-centric view
+* What are the groups that have been added?
+* Are there groups with membership changes?
+* Have the owners of group been changed?
+* What licenses have been assigned to a group or a user?
+
+### Application-centric view
+* What applications have been added or updated?
+* What applications have been removed?
+* Has a service principal for an application changed?
+* Have the names of applications been changed?
+* Who gave consent to an application?
+
+You can access the audit log from the **Monitoring** section in the Azure Active Directory admin center and use filters to locate the information. 
+
+:::image type="content" source="../media/audit-log.png" alt-text="Audit log in AAD admin center" lightbox="../media/audit-log.png":::
+
+For more information, see [Audit logs in Azure Active Directory](/azure/active-directory/reports-monitoring/concept-audit-logs?azure-portal=true).
 

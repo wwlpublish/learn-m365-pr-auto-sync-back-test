@@ -110,8 +110,3 @@ The supporting metrics for the mobility category:
 
     ‎:::image type="content" source="../media/productivity-score-mobility.png" alt-text="Mobility Productivity Score page in Reports." lightbox="../media/productivity-score-mobility.png":::
 
-
-
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”
