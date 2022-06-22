@@ -121,9 +121,9 @@ But remember that, by default, only messages from people inside your organizatio
 
 Exchange Online Archiving provides your users with the archive mailbox feature. This feature enables an archive mailbox that appears alongside a user's primary mailbox folders in Outlook or Outlook on the web. Your users can access the archive in the same way that they access their primary mailboxes.
 
-If a user cannot access their archive mailbox, then you need to figure out why. It's important to understand that an administrator must enable the archive feature for specific users. You can do this using the Microsoft 365 Compliance console. It's always worth verifying that a user's mailbox is enabled for archive. In the console, use the following procedure for verification:
+If a user cannot access their archive mailbox, then you need to figure out why. It's important to understand that an administrator must enable the archive feature for specific users. You can do this using the Microsoft Purview console. It's always worth verifying that a user's mailbox is enabled for archive. In the console, use the following procedure for verification:
 
-1. In the navigation pane, select **Information governance**.
+1. In the navigation pane, select **Microsoft Purview Data Lifecycle Management**.
 1. Then in the details pane, select the **Archive** tab.
 1. A list of users is returned, as shown in the following screenshot. The **Archive mailbox** column indicates the current archive status.
 1. For selected users, click **Enable archive**.
