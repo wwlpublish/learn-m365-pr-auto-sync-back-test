@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/21/2022
+  ms.date: 06/22/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -43,13 +43,13 @@ quiz:
     choices:
     - content: "Security groups"
       isCorrect: false
-      explanation: "Incorrect. Security groups can not be upgraded to Microsoft 365 groups."
+      explanation: "Incorrect. Security groups can't be upgraded to Microsoft 365 groups."
     - content: "Distribution groups"
       isCorrect: true
       explanation: "Correct. You can convert distribution groups to Microsoft 365 groups."
     - content: "Mail-enabled security groups"
       isCorrect: false
-      explanation: "Incorrect. Mail-enabled security groups can not be upgraded to Microsoft 365 groups."
+      explanation: "Incorrect. Mail-enabled security groups can't be upgraded to Microsoft 365 groups."
   - content: "Allan DeYoung is the Teams Administrator in Contoso Ltd. A team has been created for the new series of marketing campaigns with external vendors. The team owner wants to restrict sensitive information to only a subset of the team members, including external vendors' managers. Which solution should Allan recommend to the team owner?"
     choices:
     - content: "Create a new team"

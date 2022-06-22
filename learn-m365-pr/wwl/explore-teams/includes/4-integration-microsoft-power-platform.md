@@ -43,7 +43,7 @@ The following are examples to use Power Automate in Microsoft Teams:
 
 - Streamline approvals by aggregating and automating all team's approval processes in Teams.
 
-‎:::image  source="../media/power-automate-teams.png" alt-text="The graph illustrates Power Automate in Microsoft Teams"  type="icon":::
+‎:::image  source="../media/power-automate-teams.png" alt-text="The graph illustrates Power Automate in Microsoft Teams."  type="icon":::
 
 ## Power Virtual Agents in Teams
 
@@ -57,7 +57,7 @@ The following are examples to use Power Virtual Agents in Microsoft Teams:
 - Review and analyze the performance of the bot.
 - Have bots take actions on someone's behalf.
 
-‎:::image  source="../media/use-power-virtual-agents-teams.gif" alt-text="Use Power Virtual Agents in Microsoft Teams" lightbox="../media/use-power-virtual-agents-teams.gif"  type="icon" :::
+‎:::image  source="../media/use-power-virtual-agents-teams.gif" alt-text="The graph illustrates Power Virtual Agents in Microsoft Teams." lightbox="../media/use-power-virtual-agents-teams.gif"  type="icon" :::
 
 
 ## Power BI in Teams
@@ -72,7 +72,7 @@ The following are examples to use Power BI in Microsoft Teams:
 
 - Get notifications in Teams about activity from Power BI.
 
-‎:::image  source="../media/service-embed-report-microsoft-teams-tab-report.png" alt-text="The graph illustrates Power B I in Microsoft Teams"  type="icon":::
+‎:::image  source="../media/service-embed-report-microsoft-teams-tab-report.png" alt-text="The graph illustrates Power B I in Microsoft Teams."  type="icon":::
 
 
 ## Microsoft Dataverse for Teams
