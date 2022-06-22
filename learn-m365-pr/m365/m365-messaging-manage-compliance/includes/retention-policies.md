@@ -114,5 +114,5 @@ Get-Mailbox -ResultSize unlimited | Where-Object {$_.RetentionHoldEnabled -eq $t
 ## Learn more
 
 - [Create a Retention Policy](/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy?azure-portal=true)
-- [Video - How to enable online archiving](https://go.microsoft.com/fwlink/p/?LinkId=825854?azure-portal=true)
+- [Video - How to enable online archiving]( https://www.youtube.com/watch?v=8Rar2WJc6Ro&t=3s)
 - [PowerShell command reference library](/powershell/windows/get-started?azure-portal=true)

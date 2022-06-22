@@ -4,10 +4,11 @@ To help, here are some links that might assist you with end-user training. You c
 
 |Topic|Link|
 |---|---|
-|End-user help|aka.ms/TeamsRoomsHelp|
-|Introductory Teams Rooms video|aka.ms/TeamsRoomsVideo|
-|Interactive end-user training|aka.ms/MicrosoftTeamsRoomsDemo|
-|Teams Rooms administrator video training|aka.ms/TeamsRoomsLearning|
+|End-user help|[Teams Rooms Help](/learn/modules/m365-teams-rooms-troubleshooting/summary)|
+|Introductory Teams Rooms video| [Teams Rooms Video](/https://techcommunity.microsoft.com/t5/video-hub/microsoft-teams-rooms-intro-your-integrated-meeting-solution/ba-p/1834042)|
+|Interactive end-user training|[Teams Rooms Demo](/guides/Transform%20your%20meeting%20rooms%20with%20Microsoft%20Teams%20Rooms)|
+|Teams Rooms administrator video training|[Teams Rooms Learning](/learn/paths/m365-teams-rooms/)|
+
 
 In-room signage can be important. You can create documents like the one seen here, laminate them, and leave them in the rooms.
 
