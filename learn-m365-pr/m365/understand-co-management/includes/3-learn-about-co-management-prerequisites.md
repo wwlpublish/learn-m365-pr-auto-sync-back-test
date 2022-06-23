@@ -39,11 +39,11 @@ To check on your Azure AD Premium license, use the following steps:
 If you don't have a license for Azure AD Premium, see [Sign up for Azure Active Directory Premium editions](/azure/active-directory/fundamentals/active-directory-get-started-premium).
 
   > [!Tip]
-  > You may not need to purchase and assign individual Intune or EMS licenses to your users. For more information, see the [Product and licensing FAQ](/mem/configmgr/core/understand/product-and-licensing-faq.md#what-changes-with-licensing-for-co-management-in-microsoft-endpoint-manager-).
+  > You may not need to purchase and assign individual Intune or EMS licenses to your users. For more information, see the [Product and licensing FAQ](/learn/support/faq).
 
 ## Microsoft Endpoint Configuration Manager
 
-Enabling co-management itself doesn't require that you onboard your site with Azure AD. Internet-based Configuration Manager clients require the [cloud management gateway](/mem/configmgr/core/clients/manage/cmg/overview) (CMG). The CMG requires the site is [onboarded to Azure AD for cloud management](/mem/configmgr/core/servers/deploy/configure/azure-services-wizard.md).
+Enabling co-management itself doesn't require that you onboard your site with Azure AD. Internet-based Configuration Manager clients require the [cloud management gateway](/mem/configmgr/core/clients/manage/cmg/overview) (CMG). The CMG requires the site is [onboarded to Azure AD for cloud management](/learn/modules/azure-sql-deploy-configure/).
 
 To check the version of Configuration Manager:
 
