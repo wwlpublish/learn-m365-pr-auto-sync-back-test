@@ -11,9 +11,9 @@ Now that you've completed this module, you should be able to:
 
 Review the following links to learn more:
 
-- [Explore Edge deployment with Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/learn/modules/explore-deployment-options-microsoft-edge/3-explore-edge-deployment-microsoft-endpoint-configuration-manager).
+- [Explore Edge deployment with Microsoft Endpoint Configuration Manager](/learn/modules/explore-deployment-options-microsoft-edge/3-explore-edge-deployment-microsoft-endpoint-configuration-manager).
 - [Microsoft Edge Enterprise Download](https://aka.ms/edgeenterprise)
-- [Microsoft Edge – Update policies](https://docs.microsoft.com/deployedge/microsoft-edge-update-policies)
+- [Microsoft Edge – Update policies](/deployedge/microsoft-edge-update-policies)
 - [Microsoft 365 apps say farewell to Internet Explorer 11 and Windows 10 sunsets Microsoft Edge Legacy](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666)
-- [Access Microsoft Edge Legacy after installing the new version of Microsoft Edge](https://docs.microsoft.com/learn/modules/manage-microsoft-edge-updates-servicing/)
-- [Microsoft Edge - Update policies - Allowsxs](https://docs.microsoft.com/deployedge/microsoft-edge-update-policies#allowsxs)
+- [Access Microsoft Edge Legacy after installing the new version of Microsoft Edge](/learn/modules/manage-microsoft-edge-updates-servicing/)
+- [Microsoft Edge - Update policies - Allowsxs](/deployedge/microsoft-edge-update-policies#allowsxs)
