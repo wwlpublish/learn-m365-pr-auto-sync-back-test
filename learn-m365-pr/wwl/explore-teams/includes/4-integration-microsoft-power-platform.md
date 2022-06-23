@@ -14,7 +14,7 @@ Microsoft Power Platform provides many integration capabilities with Teams. For 
 * Trigger a **Power Automate** flow from any message or use adaptive cards.
 * Add your bot created using **Power Virtual Agents** to Teams for other members of your organization to interact with.
 
-‎:::image  source="../media/teams-power-platform.png" alt-text="Diagram that shows Microsoft Teams can combine capabilities from a wide spectrum of tools to create a fully integrated experience" type="content":::
+‎:::image  source="../media/teams-power-platform.png" alt-text="Diagram that shows Microsoft Teams can combine capabilities from a wide spectrum of tools to create a fully integrated experience." type="content":::
 
 ## Power Apps in Teams
 Power Apps provides a rapid low code development environment for building custom apps for business needs. It has services, connectors, and a scalable data service and app platform (Microsoft Dataverse) to allow simple integration and interaction with existing data. Combined with Microsoft Teams, Power Apps can be used to build a modern workplace through custom tabs and apps in the app bar all with little to no code. 
@@ -27,7 +27,7 @@ The following are examples to use Power Apps in Microsoft Teams:
 
 - Use the **Power Apps app** in Teams to create canvas apps within Teams backed by Dataverse for Teams.
 
-‎:::image  source="../media/use-power-apps-teams.gif" alt-text="Screenshot of using Power Apps in Teams client" lightbox="../media/use-power-apps-teams.gif"  type="content":::
+‎:::image  source="../media/use-power-apps-teams.gif" alt-text="Screenshot of using Power Apps in Teams client." lightbox="../media/use-power-apps-teams.gif"  type="content":::
 
 ## Power Automate in Teams
 
@@ -93,5 +93,5 @@ The four types of Dataverse for Teams solutions are:
 
 * **Dashboards** - Users can explore and interact with their data in Dataverse for Teams.
 
-‎:::image  source="../media/dataverse-teams.png" alt-text="Screenshot of using Microsoft Dataverse for Teams in Teams client"  type="content":::
+‎:::image  source="../media/dataverse-teams.png" alt-text="Screenshot of using Microsoft Dataverse for Teams in Teams client."  type="content":::
 
