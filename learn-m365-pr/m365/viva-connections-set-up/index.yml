@@ -3,14 +3,14 @@ uid: learn.viva-connections-set-up
 metadata:
   moduleType: standard
   title: Set up Viva Connections
-  description: Learn what is Viva Connections, what users experience with it, when to use Viva Connections, and its technical requirements. 
+  description: Learn how to prepare the environment before setting up Viva Connections, how to build the Dashboard, how to prepare the content for the Feed, how to set up Resources, and how to set up audience targetting.
   ms.date: 6/23/2022
   author: maggierui
   ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365 
 title: Set up Viva Connections
-summary: Viva Connections is a customizable app experience in Microsoft Teams and is the gateway to modern employee experiences. Viva Connections incorporates curated content and tools from across your Microsoft 365 environment that connect your employees to tasks, organizational news, announcements, people, and resources. This module introduces the primary components of Viva Connections. 
+summary: Learn how to set up each component of Viva Connections - the Dashboard, the Feed, and Resources. First, you’ll learn about how to meet technical requirements. Then, get guidance on how to set up and personalize each component of the experience. Lastly, we will cover pre-launch considerations. 
 abstract: |
   By the end of this module, you'll be able to:
     - Describe the main features of Viva Connections
@@ -28,7 +28,6 @@ roles:
 products: 
 - viva
 - m365
-subjects: 
 units:
 - learn.viva-connections-set-up.introduction
 - learn.viva-connections-set-up.requirements-and-pre-work
