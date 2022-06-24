@@ -27,8 +27,7 @@ roles:
   - student
 products: 
 - viva
-- m365
-subjects: 
+- m365 
 units:
 - learn.viva-connections-introduction.introduction
 - learn.viva-connections-introduction.what-do-users-experience
