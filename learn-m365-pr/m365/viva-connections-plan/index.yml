@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.viva-connections-introduction
+metadata:
+  moduleType: standard
+  title: Introduction to Viva Connections
+  description: Learn what is Viva Connections, what users experience with it, when to use Viva Connections, and its technical requirements. 
+  ms.date: 6/23/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365 
+title: Introduction to Viva Connections
+summary: Viva Connections is a customizable app experience in Microsoft Teams and is the gateway to modern employee experiences. Viva Connections incorporates curated content and tools from across your Microsoft 365 environment that connect your employees to tasks, organizational news, announcements, people, and resources. This module introduces the primary components of Viva Connections. 
+abstract: |
+  By the end of this module, you'll be able to:
+    - Describe the main features of Viva Connections
+    - List technical requirements/prerequisites for Viva Connections implementation
+    - Explain the differences between desktop and mobile experiences 
+    -	Identify 2-3 business use cases for Viva Connections
+prerequisites: |
+  - Access to an instance of Viva Connections
+iconUrl: /learn/achievements/generic-badge.svg
+levels: 
+  - beginner
+roles: 
+  - administrator
+  - student
+products: 
+- viva
+- m365
+subjects: 
+units:
+- learn.viva-connections-introduction.introduction
+- learn.viva-connections-introduction.build-your-team-and-meet-requirements
+- learn.viva-connections-introduction.analyze-tasks-and-scenarios-for-viva-connections
+- learn.viva-connections-introduction.plan-for-viva-connections-dashboard,-feed,-and-resources-
+- learn.viva-connections-introduction.plan-to-announce,-launch,-and-scale-adoption
+- learn.viva-connections-introduction.knowledge-check
+- learn.viva-connections-introduction.summary
+badge:
+  uid: learn.viva-connections-introduction.badge
