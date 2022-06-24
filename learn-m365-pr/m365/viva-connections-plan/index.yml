@@ -27,8 +27,7 @@ roles:
   - student
 products: 
 - viva
-- m365
-subjects: 
+- m365 
 units:
 - learn.viva-connections-plan.introduction
 - learn.viva-connections-plan.build-your-team-and-meet-requirements
