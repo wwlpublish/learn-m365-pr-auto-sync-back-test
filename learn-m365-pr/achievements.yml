@@ -305,3 +305,13 @@ achievements:
   title: Implement policy tips for DLP policies
   summary: Implement policy tips for DLP policies
   iconUrl: /learn/achievements/dlp-policy-tips.svg
+- uid: learn.wwl.manage-retention-email.badge
+  type: badge
+  title: Manage retention in email
+  summary: Manage retention in email
+  iconUrl: /learn/achievements/exchange-retention.svg
+- uid: learn.wwl.troubleshoot-data-governance.badge
+  type: badge
+  title: Troubleshoot data governance
+  summary: Troubleshoot data governance
+  iconUrl: /learn/achievements/loss-prevention-troubleshoot.svg
