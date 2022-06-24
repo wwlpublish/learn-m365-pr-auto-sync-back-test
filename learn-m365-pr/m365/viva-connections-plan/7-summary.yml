@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
-uid: learn.viva-connections-introduction.summary
+uid: learn.viva-connections-plan.summary
 title: Summary
 metadata:
   unitType: summary
-  title: summary
+  title: Summary
   description: "TODO this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the unit; include relevant search keywords."
   ms.date: 6/23/2022
   author: maggierui
@@ -12,4 +12,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 1
 content: |
-  [!include[](includes/8-summary.md)]
+  [!include[](includes/6-summary.md)]

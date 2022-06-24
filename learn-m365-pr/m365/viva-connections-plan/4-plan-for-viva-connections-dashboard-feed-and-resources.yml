@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
-uid: learn.viva-connections-introduction.plan-for-viva-connections-dashboard,-feed,-and-resources-
-title: Plan for Viva Connections Dashboard, Feed, and Resources 
+uid: learn.viva-connections-plan.plan-for-viva-connections-dashboard-feed-and-resources
+title: Plan for viva connections dashboard feed and resources 
 metadata:
   unitType: learning-content
-  title: learning-content
+  title: Plan for viva connections dashboard feed and resources
   description: "TODO this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the unit; include relevant search keywords."
   ms.date: 6/23/2022
   author: maggierui
@@ -12,4 +12,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 1
 content: |
-  [!include[](includes/4-plan-for-viva-connections-dashboard,-feed,-and-resources- copy.md)]
+  [!include[](includes/4-plan-for-viva-connections-dashboard-feed-and-resources.md)]
