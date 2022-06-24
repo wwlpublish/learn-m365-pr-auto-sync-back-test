@@ -30,9 +30,9 @@ products:
 - m365
 subjects: 
 units:
-- learn.viva-connections-introduction.introduction
-- learn.viva-connections-introduction.build-your-team-and-meet-requirements
-- learn.viva-connections-introduction.analyze-tasks-and-scenarios-for-viva-connections
+- learn.viva-connections-plan.introduction
+- learn.viva-connections-plan.build-your-team-and-meet-requirements
+- learn.viva-connections-plan.analyze-tasks-and-scenarios-for-viva-connections
 - learn.viva-connections-plan.plan-for-viva-connections-dashboard-feed-and-resources
 - learn.viva-connections-plan.plan-to-announce,-launch,-and-scale-adoption
 - learn.viva-connections-plan.knowledge-check
