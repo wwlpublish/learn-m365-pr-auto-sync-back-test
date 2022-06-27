@@ -27,26 +27,26 @@ To create a team from a Microsoft 365 group in the Microsoft 365 admin center, f
 
 2. On the navigation pane, select **Teams & groups** > **Active teams & groups**.
 
-3. In the main pane, select the Microsoft 365 group you want to upgrade to a team.
+3. In the main pane, select the Microsoft 365 group you want to upgrade to a team. This group does not have a team associated with it.
 
-4. In the right overlay pane, select the **Microsoft Teams** tab.
+4. In the General tab, select **Add Teams** next to the question - Would you like to add Microsoft Teams to this group?
 
-5. Select **Create a team** in the **Microsoft Teams** tab.  
+5. from the **Add Microsoft Team to this group?** prompt select **Add Teams** to confirm that you want to upgrade your existing group to a team.
 
-    ‎:::image type="content" source="../media/microsoft-365-create-a-team.png" alt-text="Create a team from Group selection in Microsoft 365 admin center":::  
+    ‎:::image type="content" source="../media/microsoft-365-create-a-team.png" alt-text="Screenshot of creating a team from Group selection in Microsoft 365 admin center":::  
 
 6. In the **Add Microsoft Team to this group?** prompt select **Create a team** to confirm that you want to upgrade your existing group to a team.
 
 ### Use Teams client 
 To create a team in the Teams client, follow these steps:
 
-1. In the Teams client in the left panel select **Teams**, and then select **Join or create a team** on the lower end of the left panel.
+1. Select **Teams** on the left side of the app, then select **Join or create a team** at the bottom of your teams list.
 
-2. Select **Create team** in the main pane.
+2. Hover over the Create a team card and select **Create team**.
 
 3. On the **Create a team** page, select **From a group or team**.  
 
-    ‎:::image type="content" source="../media/create-team-microsoft-365-group.png" alt-text="Create your team from an existing Microsoft 365 Group or team":::  
+    ‎:::image type="content" source="../media/create-team-microsoft-365-group.png" alt-text="Screenshot of creating  your team from an existing Microsoft 365 Group or team":::  
 
 4. On the **Create a new team from something you already own** page, select **Microsoft 365 Group**.
 
@@ -74,12 +74,17 @@ You can also upgrade your existing SharePoint team sites to a team. If a SharePo
 
 3. On left pane, select your SharePoint team site or search for it.
 
-4. On your SharePoint team site page, on left pane, select **Create a Team**. 
-:::image type="content" source="../media/sharepoint-team-site-create-team.png" alt-text="SharePoint team site navigation pane that displays Create a Team":::  
+4. On your SharePoint team site page, on left pane, select **Add Microsoft Teams** and follow the prompts. 
+:::image type="content" source="../media/sharepoint-team-site-create-team.png" alt-text="Screenshot of SharePoint team site navigation pane that displays Create a Team":::  
 ‎
-Once the SharePoint team site is converted to a team, you will also see the Teams option on the navigation pane when you open your Team site that will lead you directly to open your site in Teams client:
 
-:::image type="content" source="../media/sharepoint-team-site-teams-option.png" alt-text="SharePoint Navigation pane that shows Teams option":::  
+5. From the **Add Microsoft Teams** pane, select **Continue**.
+
+6. From the **Pin resources as tabs in Teams** pane, select **Add Teams** to continue. You can also specify the resources in Teams. 
+
+Once the SharePoint team site is associated to a team, you can link to the team from the left navigation pane or the Teams icon next to the name of the site.
+
+:::image type="content" source="../media/sharepoint-team-site-teams-option.png" alt-text="Screenshot of SharePoint Navigation pane that shows Teams option":::  
 ‎
  
 

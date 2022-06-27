@@ -2,9 +2,9 @@ Within Microsoft Teams there are two user roles: **owner** and **member**. By de
 
 Owners can add members to their teams. If a team is public, then members are also allowed to add members to the team. In a private Team, members can request other new members to the Team. The owners will be informed of the request and react accordingly.
 
-As an owner you can restrict the creation of tabs, bots, connectors, and channels to the owner role. The table below lists the privileges available to owners and members of a team:
+As an owner you can restrict the creation of tabs, bots, connectors, and channels to the owner role. The table below lists  the difference in permissions between owners and members of a team:
 
-| Privileges                                  | Team Owner | Team Member |
+|    Task                               | Team Owner | Team Member |
 |-----------------------------------|------------|-------------|
 |          **Create team**          |    Yes<sup>1</sup>     |     No      |
 |          **Leave team**           |    Yes     |     Yes     |
@@ -16,17 +16,21 @@ As an owner you can restrict the creation of tabs, bots, connectors, and channel
 |          ***Add private channel**          |    Yes     |    Yes<sup>2</sup>|
 | ***Edit private channel name/description** |    No     |    N/A|
 |        ***Delete private channel**         |    Yes     |    No|
+|          **Add shared channel**          |    Yes     |    No|
+| **Edit shared channel name/description** |    No     |    No<sup>6</sup>|
+|        **Delete shared channel**         |    Yes     |    No<sup>6</sup>|
 |          **Add members**          |  Yes<sup>3</sup>   |     No<sup>4</sup>    |
 |          **Request to add members**          |  N/A   |     Yes<sup>5</sup>     |
 |           **Add apps**            |    Yes     |    Yes<sup>2</sup>|
 
-<sup>1</sup> Team owners can create teams unless they've been restricted from doing so. [Permissions to create teams](https://docs.microsoft.com/MicrosoftTeams/assign-roles-permissions#permissions-to-create-teams?azure-portal=true)<br>
+<sup>1</sup> Team owners can create teams unless they've been restricted from doing so.<br>
 <sup>2</sup> An owner can turn off these items at the team level, in which case members would not have access to them.<br>
 <sup>3</sup> After adding a member to a team, an owner can also promote a member to owner status. It is also possible for an owner to demote their own status to a member.<br>
 <sup>4</sup> Team members can add other members to a public team.<br>
-<sup>5</sup> While a team member can't directly add members to a private team, they can request someone to be added to a team they're already a member of. When a member requests someone to be added to a team, team owners receive an alert that they have a pending request that they can accept or deny.
+<sup>5</sup> While a team member can't directly add members to a private team, they can request someone to be added to a team they're already a member of. When a member requests someone to be added to a team, team owners receive an alert that they have a pending request that they can accept or deny.<br>
+<sup>6</sup> If the team member is a shared channel owner, they can perform this action.
  
-Owners can make other members as owners in the **View teams** option. A team can have up to 100 owners. It’s recommended, that you have at least a few owners to help manage the team; this will also prevent orphaned groups if a sole owner leaves your organization. For the supported number of members in a team, see [Limits and specifications for Microsoft Teams](https://docs.microsoft.com/microsoftteams/limits-specifications-teams?azure-portal=true#teams-and-channels).
+Owners can make other members owners in the **View teams** option. A team can have up to 100 owners. It’s recommended that you have at least a few owners to help manage the team; this will also prevent orphaned groups if a sole owner leaves your organization. For more information about orphaned groups, see [Assign a new owner to an orphaned group](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732) 
 
 ## Manage membership
 
@@ -39,8 +43,7 @@ There are still reasons for you to add members to a team. Perhaps you need to ad
 If you can’t create a team with dynamic membership you will add members using the Teams admin center, the Microsoft Teams PowerShell module, or the Teams client.
 
 ## Manage users in a team  
-
-You can manage users in a team using Teams admin center, Teams client, and PowerShell. 
+You can add/remove users and assign roles  in a team using Teams admin center, Teams client, and PowerShell.
 
 ### Use Teams admin center
 
@@ -52,24 +55,30 @@ You use the Teams admin center to manage users and user roles for a specific tea
 
 3. In the **teams** pane, select the **Members** tab (it should be selected automatically).
 
-4. On the Members pane, you can either select **Add members** or change role of a member in the Role column by selecting the user’s role (either **Owner** or **Member**) from a drop-down list. 
+4.	From the Members tab, you can  
 
-    :::image type="content" source="../media/select-role-admin.png" alt-text="Screenshot of managing users in a team":::
+    - Add members - select **+ Add** to add members.
+    - Remove members - select an existing member and select **Remove**.
+    - Change user roles - select the dropdown manu from the **Role** column of an existing member and change the role (either **Owner** or **Member**).
+
+    :::image type="content" source="../media/select-role-admin.png" alt-text=" Screenshot of managing users in a team":::
  
 
 ### Use Teams client
 
 To assign a user role in Teams client, follow these steps:
 
-1. Select **Teams** in the left panel.
+1.	Select **Teams** in the left panel.
 
-2. Select **Manage teams** in the dotted menu to the right of the team name.
+2.	Select **More options …** (the dotted menu) to the right of the team name.
 
-3. Select the **Members** tab.
+3.	Select **Manage team**. 
 
-4. In the **Role** column of the member list select the role to pick the users new role from a drop-down list.
+4.	 Under the **Members** tab, select **Add member** button to add users.
 
-    :::image type="content" source="../media/select-role-client.png" alt-text="Manage users in Teams client":::
+5.	In the **Role** column of the member list select a role from the drop-down list to assign/modify user role.
+
+    :::image type="content" source="../media/select-role-client.png" alt-text=" Screenshot of managing users in Teams client":::
 
  
 ### Use PowerShell
