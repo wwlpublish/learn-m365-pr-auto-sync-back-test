@@ -10,7 +10,11 @@ Each team in Microsoft Teams has a SharePoint team site associated. Files shared
 
 Permissions and file security options set in SharePoint are automatically reflected within Teams. Permissions for the SharePoint team site are best managed through the associated Microsoft 365 group or Teams team. 
 
-For public teams, the SharePoint team site is provisioned with **"Everyone except external users"** site members access. The public team isn't displayed in Teams for people who aren't members of that team. However, they can access content on the SharePoint team site using the URL of the SharePoint team site. 
+
+For public teams, the SharePoint team site is provisioned with **"Everyone except external users"** site members access. The public team isn't displayed in Teams for people who aren't members of that team. However, they can access content on the SharePoint team site using the URL of the SharePoint team site.
+
+### Teams-connected sites and channel types
+Teams-connected sites are a specialized type of SharePoint site that's been optimized for a Teams connection.  
 
 Each channel in a team gets a **folder** within the default **Shared Documents** library. Depending on the channel type, the channel folder could be in the different SharePoint team sites. 
 
@@ -24,7 +28,10 @@ Each channel in a team gets a **folder** within the default **Shared Documents**
 
     A private channel SharePoint site is created in the same geographic region as the SharePoint site of the parent team. Site membership is synced with the membership of the private channel within Teams. 
 
-Additionally, the recordings for channel meetings are stored in the channel folder that's in the document library for that team. The person who started the recording has edit permissions. Permissions for all other channel members are inherited from the Teams channel permissions. If a user can access the channel in Teams, they can access the meeting recording just like any other file saved in the channel.
+* **Shared Channel**
+
+   	Each shared channel has its own SharePoint site for file storage. Only members of the shared channel can access this site. The site can't be shared separately. Files and folders can be shared with anyone in the organization and external participants in the channel by using sharable links.
+
 
 The following table shows the scenarios of Teams content stored in SharePoint. 
 
@@ -32,9 +39,9 @@ The following table shows the scenarios of Teams content stored in SharePoint.
 | - |-|
 | Files shared in Teams channels. <br/>For example, post files or pictures to the channel conversation. | Files are stored in the **channel folder** of the SharePoint document library. |
 | Files sent to a channel.  <br/>For example, send emails with file attachments to the channels email address.| Files are stored in the subfolder **Email Messages** of the channel folder in the SharePoint document library. |
-|Channel meeting recordings| Channel meeting recordings are stored in a folder named **Recordings** in the channel folder that's in the document library for that team.|
+|Channel meeting recordings| Channel meeting recordings are stored in a folder named **Recordings** in the channel folder that's in the document library for that team. <br/><br/>**Note:** The person who started the recording has edit permissions. Permissions for all other channel members are inherited from the Teams channel permissions. If a user can access the channel in Teams, they can access the meeting recording just like any other file saved in the channel.|
 
-‎:::image type="content" source="../media/teams-content-sharepoint.png" alt-text="A graphic explains the structure of Teams Channels in SharePoint":::
+‎:::image  source="../media/teams-content-sharepoint.png" alt-text="Diagram that explains the structure of Teams Channels in SharePoint."  type="content":::
 
 ## OneDrive in Microsoft Teams
 
@@ -56,9 +63,6 @@ The following table shows the scenarios of Teams content stored in OneDrive.
 | Non-channel meeting recordings| Meeting recordings are stored in a folder named **Recordings** in the OneDrive for the person who started the meeting recording.| 
 
 
-‎:::image type="content" source="../media/teams-content-onedrive.png" alt-text="A graphic explains the structure of Teams chat in OneDrive":::
+‎:::image  source="../media/teams-content-onedrive.png" alt-text="Diagram that explains the structure of Teams chat in OneDrive."  type="content":::
 
 
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”
