@@ -8,7 +8,7 @@
 
     [Exercise introduction guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-introductions?branch=main#rule-use-the-standard-exercise-unit-introduction-format)
 -->
-TODO: add your topic sentences(s)
+TODO: add your topic sentence(s)
 
 <!-- 2. Scenario sub-task --------------------------------------------------------------------------------
 

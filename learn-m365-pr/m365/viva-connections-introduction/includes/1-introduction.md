@@ -10,7 +10,7 @@
 
     [Introduction unit guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-introductions?branch=main#rule-use-the-standard-module-introduction-format)
 -->
-TODO: add your topic sentences(s)
+TODO: add your topic sentence(s)
 TODO: add a visual element
 
 <!-- 2. Scenario -----------------------------------------------------------------------------------------
