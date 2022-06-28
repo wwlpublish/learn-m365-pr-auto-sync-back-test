@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.viva-connections-set-up.prepare-content-for-the-feed
+title: Prepare content for the Feed 
+metadata:
+  unitType: learning-content
+  title: Prepare content for the Feed
+  description: Prepare the SharePoint pages and sites, use content strategies to create the hierarchy for the Feed.
+  ms.date: 6/23/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/4-prepare-content-for-the-feed.md)]

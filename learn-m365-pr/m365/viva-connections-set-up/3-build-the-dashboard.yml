@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.viva-connections-set-up.build-the-dashboard
+title: Build the Dashboard
+metadata:
+  unitType: exercise
+  title: Build the Dashboard
+  description: Build the Dashboard by choosing the out-of-box dashboard cards, setting up the third-party tool dashboard cards, and develop custom dashbaord cards.
+  ms.date: 6/23/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/3-build-the-dashboard.md)]

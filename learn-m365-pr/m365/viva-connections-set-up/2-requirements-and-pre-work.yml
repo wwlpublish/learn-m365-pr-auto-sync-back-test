@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.viva-connections-set-up.requirements-and-pre-work
+title: Requirements and pre-work
+metadata:
+  unitType: learning-content
+  title: Requirements and pre-work
+  description: Steps to get the intranet environment ready for Viva Connections.
+  ms.date: 6/23/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/2-requirements-and-pre-work.md)]
