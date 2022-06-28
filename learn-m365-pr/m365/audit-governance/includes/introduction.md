@@ -10,5 +10,5 @@ Customers can review available independent audit reports for Microsoft's online 
 
 ## Learn more
 
-- [Microsoft Purivew offerings](https://go.microsoft.com/fwlink/?linkid=864391&azure-portal=true)
+- [Microsoft Purview offerings](https://go.microsoft.com/fwlink/?linkid=864391&azure-portal=true)
 - [Service Trust Portal](https://aka.ms/stp?azure-portal=true)
