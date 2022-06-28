@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
-uid: learn.viva-connections-plan.knowledge-check
+uid: learn.viva-connections-introduction.knowledge-check
 title: Knowledge check
 metadata:
   unitType: knowledge_check
   title: Knowledge check
-  description: "TODO this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the unit; include relevant search keywords."
+  description: Knowledge check questions to see if the learner has grasped the basic features, components and use cases of Viva Connections. 
   ms.date: 6/23/2022
   author: maggierui
   ms.author: ruihu

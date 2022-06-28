@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
-uid: learn.viva-connections-plan.introduction
+uid: learn.viva-connections-introduction.introduction
 title: Introduction
 metadata:
   unitType: introduction
-  title: introduction
-  description: Learn about best practices, considerations, and technical details to plan for Viva Connections Dashboard, Feed, and Resources.
+  title: Introduction
+  description: Introduction to Viva Connections, its main features and components.
   ms.date: 6/23/2022
   author: maggierui
   ms.author: ruihu
