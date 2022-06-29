@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn.viva-connections-plan.plan-to-announce,-launch,-and-scale-adoption
+uid: learn.viva-connections-plan.plan-to-announce-launch-and-scale-adoption
 title: Plan to announce, launch, and scale adoption 
 metadata:
   unitType: learning-content
@@ -12,4 +12,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 1
 content: |
-  [!include[](includes/5-plan-to-announce,-launch,-and-scale-adoption.md)]
+  [!include[](includes/5-plan-to-announce-launch-and-scale-adoption.md)]
