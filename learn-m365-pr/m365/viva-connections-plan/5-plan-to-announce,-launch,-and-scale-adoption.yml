@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.viva-connections-plan.plan-to-announce,-launch,-and-scale-adoption
+title: Plan to announce, launch, and scale adoption 
+metadata:
+  unitType: learning-content
+  title: Plan to announce, launch, and scale adoption
+  description: "TODO this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the unit; include relevant search keywords."
+  ms.date: 6/23/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/5-plan-to-announce,-launch,-and-scale-adoption.md)]
