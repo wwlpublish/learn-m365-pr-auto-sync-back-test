@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.viva-connections-set-up.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: Introduction
+  description: Introduction to the process of setting up Viva Connections for its Dashboard, Feed, and Resources.
+  ms.date: 6/23/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction.md)]

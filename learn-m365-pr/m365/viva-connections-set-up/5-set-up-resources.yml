@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.viva-connections-set-up.set-up-resources
+title: Set up Resources 
+metadata:
+  unitType: learning-content
+  title: Set up Resources
+  description: Enable and set up global navigation links for Resources of Viva Connections.
+  ms.date: 6/23/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/5-set-up-resources.md)]
