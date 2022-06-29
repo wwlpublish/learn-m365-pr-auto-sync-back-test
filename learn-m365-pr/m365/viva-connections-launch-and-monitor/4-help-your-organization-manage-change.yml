@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.viva-connections-launch-and-monitor.help-your-organization-manage-change
+title: Help your organization manage change 
+metadata:
+  unitType: learning-content
+  title: Help your organization manage change
+  description: Learn the best practices and strategies to engage your employees with the adoption of Viva Connections. 
+  ms.date: 6/23/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365dit as appropriate for your portfolio area
+durationInMinutes: 1
+content: |
+  [!include[](includes/4-help-your-organization-manage-change.md)]
