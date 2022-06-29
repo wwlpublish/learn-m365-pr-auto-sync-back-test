@@ -4,8 +4,8 @@ With org-wide teams, you can easily create a public team that pulls in every use
 
 Only global admins can create org-wide teams and currently an org-wide team is limited to organizations with no more than 10,000 users. There's also a limit of five org-wide teams per tenant. If these requirements are met, global admins will see **Org-wide** as an option when they select to build a team **From scratch** when creating a team.
   
-‎:::image type="content" source="../media/create-org-wide-team.png" alt-text="Create an org-wide team":::  
-‎
+:::image type="content" source="../media/create-org-wide-team.png" alt-text="Create an org-wide team":::  
+
 When an org-wide team is created, all global admins and Teams service administrators are added as team owners and all active users are added as team members. Unlicensed users are also added to the team. The first time an unlicensed user signs in to Teams, the user is assigned a Microsoft Teams Exploratory license. To learn more about the Exploratory license, check out [Manage the Microsoft Teams Exploratory license](/MicrosoftTeams/teams-exploratory?azure-portal=true).
 
  
@@ -41,7 +41,7 @@ If you want to create an Org-Wide team from scratch, follow these steps:
 2. Hover over the Create a team card and select **Create team**.
 
 3. Select **From scratch** on the **Create a team** page.  
-‎:::image type="content" source="../media/create-your-team.png" alt-text="Screenshot of creating a team from scratch":::
+:::image type="content" source="../media/create-your-team.png" alt-text="Screenshot of creating a team from scratch":::
 
 
 4. On the **What kind of team will this be?** page, select **Org-wide**. 

@@ -8,7 +8,7 @@ At some point when managing Teams, it will become necessary to retain or delete 
 
 If you archive a team, you are putting it in read-only mode. The team will still show up in search according to its visibility settings and members can still access the existing content. The Teams client will show an icon next to the team name to show the teams status as archived. Archiving a team might be beneficial if the team contains information that could still be useful later without the necessity of updating or changing content in that team.
 
-‎:::image type="content" source="../media/archive-team-icon.png" alt-text="Screenshot of the icon of a archived team":::
+:::image type="content" source="../media/archive-team-icon.png" alt-text="Screenshot of the icon of a archived team":::
 
 
 Archiving can also be used as a first step in an approval process for team deletion. In that case you prefer to archive a team for later review before deleting it.
@@ -21,19 +21,19 @@ Following are steps to archive a team in the Teams admin center:
 
 2. Select a team and select **Archive**.
     
-    ‎:::image type="content" source="../media/archive-team.png" alt-text=" Screenshot of archiving a team":::
+    :::image type="content" source="../media/archive-team.png" alt-text=" Screenshot of archiving a team":::
 
 
 3. The following message will appear. 
 
-    ‎:::image type="content" source="../media/teams-archive-window.png" alt-text=" Screenshot of Teams archive message":::
+    :::image type="content" source="../media/teams-archive-window.png" alt-text=" Screenshot of Teams archive message":::
 
 
     If you would like to prevent people from editing the content in the SharePoint site associated with the team, select the check box **Make the SharePoint site read-only for team members**.
 
 4. Select **Archive** to archive the team. The team’s status will change to **Archived**. 
 
-    ‎:::image type="content" source="../media/archived-team.png" alt-text=" Screenshot of a archived team"::: 
+    :::image type="content" source="../media/archived-team.png" alt-text=" Screenshot of a archived team"::: 
 
 ### Use Teams client
 
@@ -41,14 +41,14 @@ To archive a team in the Teams client, follow these steps:
 
 1. In the left pane, select the Cogwheel at the bottom.
 
-    ‎:::image type="content" source="../media/cogwheel-team.png" alt-text=" Screenshot of the cogwheel location from Teams client":::
+    :::image type="content" source="../media/cogwheel-team.png" alt-text=" Screenshot of the cogwheel location from Teams client":::
 
 
 2. In the main pane, select **…** to the right of the Team you want to archive.
 
 3. In the menu, select **Archive team**.
 
-    ‎:::image type="content" source="../media/archive-team-menu.png" alt-text=" Screenshot of archiving the team":::
+    :::image type="content" source="../media/archive-team-menu.png" alt-text=" Screenshot of archiving the team":::
 
 
 4. The Archive message will appear. 

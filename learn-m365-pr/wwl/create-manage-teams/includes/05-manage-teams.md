@@ -66,15 +66,15 @@ On the team's profile page, you can change the following elements of a team from
 
 - **Others settings** -set member permissions, mentions, guest permissions, and fun settings.
 
-|Category |	Actions |
-|---|-------|
-|Member permissions|<br/>- Edit sent messages<br/>- Delete sent messages<br/>- Teams owners can delete sent messages<br/>- Add and edit channels<br/>- Add and edit private channels<br/>- Delete channels<br/>- Add, edit or remove tabs<br/>- Add, edit or remove connectors<br/>- Add, edit or remove apps|
-|Mentions|	<br/>- Mention teams in messages<br/>- Mention channels in messages|
-|Guest permissions	|<br/>- Guests can add and edit channels<br/>- Guests can delete channels|
-|Fun settings|<br/>- Giphy<br/>- Giphy content rating<br/>- Stickers and memes<br/>- Custom memes |
+    |Category |	Actions |
+    |---|-------|
+    |Member permissions|- Edit sent messages<br/>- Delete sent messages<br/>- Teams owners can delete sent messages<br/>- Add and edit channels<br/>- Add and edit private channels<br/>- Delete channels<br/>- Add, edit or remove tabs<br/>- Add, edit or remove connectors<br/>- Add, edit or remove apps|
+    |Mentions|- Mention teams in messages<br/>- Mention channels in messages|
+    |Guest permissions	|- Guests can add and edit channels<br/>- Guests can delete channels|
+    |Fun settings|- Giphy<br/>- Giphy content rating<br/>- Stickers and memes<br/>- Custom memes |
 
 
-:::image type="content" source="../media/teams-setting.png" alt-text="Screenshot of the Teams settings" lightbox="../media/teams-setting.png":::
+:::image type="content" source="../media/teams-setting.png" alt-text="Screenshot of the Teams settings" :::
 
 
 The changes that you make to a team are logged. If you're modifying group settings (changing the name, description, photo, privacy, or team members), the changes are attributed to you through the audit pipeline. If you are performing actions against Teams-specific settings, your changes are tracked and attributed to you in the General channel of the team.

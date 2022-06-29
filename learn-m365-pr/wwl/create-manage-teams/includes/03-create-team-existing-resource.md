@@ -33,7 +33,7 @@ To create a team from a Microsoft 365 group in the Microsoft 365 admin center, f
 
 5. from the **Add Microsoft Team to this group?** prompt select **Add Teams** to confirm that you want to upgrade your existing group to a team.
 
-    ‎:::image type="content" source="../media/microsoft-365-create-a-team.png" alt-text="Screenshot of creating a team from Group selection in Microsoft 365 admin center":::  
+    :::image type="content" source="../media/microsoft-365-create-a-team.png" alt-text="Screenshot of creating a team from Group selection in Microsoft 365 admin center":::  
 
 6. In the **Add Microsoft Team to this group?** prompt select **Create a team** to confirm that you want to upgrade your existing group to a team.
 
@@ -46,7 +46,7 @@ To create a team in the Teams client, follow these steps:
 
 3. On the **Create a team** page, select **From a group or team**.  
 
-    ‎:::image type="content" source="../media/create-team-microsoft-365-group.png" alt-text="Screenshot of creating  your team from an existing Microsoft 365 Group or team":::  
+    :::image type="content" source="../media/create-team-microsoft-365-group.png" alt-text="Screenshot of creating  your team from an existing Microsoft 365 Group or team":::  
 
 4. On the **Create a new team from something you already own** page, select **Microsoft 365 Group**.
 
@@ -76,7 +76,7 @@ You can also upgrade your existing SharePoint team sites to a team. If a SharePo
 
 4. On your SharePoint team site page, on left pane, select **Add Microsoft Teams** and follow the prompts. 
 :::image type="content" source="../media/sharepoint-team-site-create-team.png" alt-text="Screenshot of SharePoint team site navigation pane that displays Create a Team":::  
-‎
+
 
 5. From the **Add Microsoft Teams** pane, select **Continue**.
 
@@ -85,7 +85,7 @@ You can also upgrade your existing SharePoint team sites to a team. If a SharePo
 Once the SharePoint team site is associated to a team, you can link to the team from the left navigation pane or the Teams icon next to the name of the site.
 
 :::image type="content" source="../media/sharepoint-team-site-teams-option.png" alt-text="Screenshot of SharePoint Navigation pane that shows Teams option":::  
-‎
+
  
 
  
