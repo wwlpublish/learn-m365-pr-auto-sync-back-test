@@ -6,22 +6,26 @@ As an owner you can restrict the creation of tabs, bots, connectors, and channel
 
 |    Task                               | Team Owner | Team Member |
 |-----------------------------------|------------|-------------|
-|          **Create team**          |    Yes<sup>1</sup>     |     No      |
-|          **Leave team**           |    Yes     |     Yes     |
-|  **Edit team name/description**   |    Yes     |     No      |
-|          **Delete team**          |    Yes     |     No      |
-|          **Add standard channel**          |    Yes     |    Yes<sup>2</sup>|
-| **Edit standard channel name/description** |    Yes     |    Yes<sup>2</sup>|
-|        **Delete standard channel**         |    Yes     |    Yes<sup>2</sup>|
-|          ***Add private channel**          |    Yes     |    Yes<sup>2</sup>|
-| ***Edit private channel name/description** |    No     |    N/A|
-|        ***Delete private channel**         |    Yes     |    No|
-|          **Add shared channel**          |    Yes     |    No|
-| **Edit shared channel name/description** |    No     |    No<sup>6</sup>|
-|        **Delete shared channel**         |    Yes     |    No<sup>6</sup>|
-|          **Add members**          |  Yes<sup>3</sup>   |     No<sup>4</sup>    |
-|          **Request to add members**          |  N/A   |     Yes<sup>5</sup>     |
-|           **Add apps**            |    Yes     |    Yes<sup>2</sup>|
+|**Team level**||
+|          Create team          |    Yes<sup>1</sup>     |     No      |
+|          Leave team           |    Yes     |     Yes     |
+|  Edit team name/description   |    Yes     |     No      |
+|          Delete team          |    Yes     |     No      |
+|          Add members          |  Yes<sup>3</sup>   |     No<sup>4</sup>    |
+|          Request to add members          |  N/A   |     Yes<sup>5</sup>     |
+|           Add apps            |    Yes     |    Yes<sup>2</sup>|
+|**Standard channel level**||
+|          Add standard channel          |    Yes     |    Yes<sup>2</sup>|
+| Edit standard channel name/description |    Yes     |    Yes<sup>2</sup>|
+|        Delete standard channel         |    Yes     |    Yes<sup>2</sup>|
+|**Private channel level**||
+|          Add private channel          |    Yes     |    Yes<sup>2</sup>|
+| Edit private channel name/description |    No     |    N/A|
+|        Delete private channel         |    Yes     |    No|
+|**Shared channel level**||
+|          Add shared channel          |    Yes     |    No|
+| Edit shared channel name/description |    No     |    No<sup>6</sup>|
+|        Delete shared channel         |    Yes     |    No<sup>6</sup>|
 
 <sup>1</sup> Team owners can create teams unless they've been restricted from doing so.<br>
 <sup>2</sup> An owner can turn off these items at the team level, in which case members would not have access to them.<br>
