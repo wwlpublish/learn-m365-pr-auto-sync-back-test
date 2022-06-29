@@ -23,7 +23,8 @@ To enable dynamic membership in a Team, you must modify the underlying Microsoft
 
 There currently isn't a way to create a team with dynamic membership directly. You can either create a team then change the membership rule of the associated Microsoft 365 group or create a Microsoft 365 group with dynamic user membership type then create a team from the existing Microsoft 365 Group. 
 
-**Warning**: When changing an existing static group to a dynamic group, all existing members are removed from the group, and then the membership rule is processed to add new members. If the group is used to control access to apps or resources, be aware that the original members might lose access until the membership rule is fully processed. You should test the new membership rule beforehand to make sure that the membership in the group is as expected.
+> [!warning]
+> When changing an existing static group to a dynamic group, all existing members are removed from the group, and then the membership rule is processed to add new members. If the group is used to control access to apps or resources, be aware that the original members might lose access until the membership rule is fully processed. You should test the new membership rule beforehand to make sure that the membership in the group is as expected.
  
 ### Use Azure AD Portal
 
