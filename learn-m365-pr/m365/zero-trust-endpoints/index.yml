@@ -3,19 +3,17 @@ uid: learn-m365.zero-trust-endpoints
 metadata:
   moduleType: standard
   title: zero-trust-endpoints
-  description: "TODO this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the module; include relevant search keywords."
+  description: ""
   ms.date: 6/16/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: zero-trust-endpoints
-summary: "TODO 2 sentences, 20-35 words, don't teach or motivate, avoid using 'learn', don't duplicate the title; see https://review.docs.microsoft.com/help/learn/id-guidance-introductory-summaries?branch=main"
+summary: ""
 abstract: |
   By the end of this module, you'll be able to:
     - "TODO learning objective 1"
-    - "TODO learning objective 2"
-    - "TODO learning objective 3 (if needed; see https://review.docs.microsoft.com/help/learn/id-guidance-learning-objectives?branch=main)"
 prerequisites: |
   - None
 iconUrl: /learn/achievements/generic-badge.svg
