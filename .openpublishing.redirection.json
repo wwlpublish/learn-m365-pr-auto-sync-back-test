@@ -4174,6 +4174,91 @@
       "source_path": "learn-m365-pr/wwl/monitor-your-microsoft-teams-environment/8-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/monitor-your-microsoft-teams-environment/9-knowledge-check",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-retention-email/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-retention-email/4-add-optional-retention-policies.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-retention-email/2-apply-personal-retention-tags-to-messages-folders.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-retention-email/3-assign-retention-policy-to-email-folder.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-retention-email/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-retention-email/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-retention-email/5-remove-retention-policy-from-email-message.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-retention-email/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/troubleshoot-data-governance/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/troubleshoot-data-governance/2-examine-how-retention-age-is-calculated.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/troubleshoot-data-governance/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/troubleshoot-data-governance/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/troubleshoot-data-governance/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/troubleshoot-data-governance/6-troubleshoot-messaging-issues-by-reviewing-message-tracking-logs.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/troubleshoot-data-governance/3-troubleshoot-retention-policies-that-fail-to-run.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/troubleshoot-data-governance/4-troubleshoot-retention-policy-tips-that-do-not-appear.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/troubleshoot-data-governance/5-troubleshoot-transmittal-of-sensitive-data.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
     }
   ]
 }
