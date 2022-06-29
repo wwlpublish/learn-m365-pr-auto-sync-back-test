@@ -4,82 +4,47 @@ title: Knowledge check
 metadata:
   unitType: knowledge_check
   title: Knowledge check
-  description: "TODO this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the unit; include relevant search keywords."
-  ms.date: 6/16/2022
+  description: Check what you've learned
+  ms.date: 06/22/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 1
-###########################################################################
-###
-### General guidance (https://review.docs.microsoft.com/learn-docs/docs/id-guidance-knowledge-check)
-###  - Questions are complete sentences ending with a question mark
-###  - No true/false questions
-###  - 3 answers per question
-###  - All answers about the same length
-###  - Numeric answers listed in sorted order
-###  - No "All of the above" and/or "None of the above" as answer choices
-###  - No "Not" or "Except" in questions
-###  - No second person ("you") in the questions or answers
-###  - Provide a meaningful explanation for both correct and incorrect answers
-###
-###########################################################################
+durationInMinutes: 4
+
 content: |
 quiz:
   questions:
-  - content: ""
+  - content: "Why is a Zero Trust security model considered critical for organizations?"
     choices:
-    - content: ""
+    - content: "The Zero Trust approach requires organizations to verify and validate users and devices."
       isCorrect: true
-      explanation: ""
-    - content: ""
+      explanation: "That's correct. The Zero Trust model works on the principles of verify explicitly, use least privilege access, and assume breach. The Zero Trust model asserts every request is a potential threat and must be verified."
+    - content: "The Zero Trust model trusts users and devices within the corporate network."
       isCorrect: false
-      explanation: ""
-    - content: ""
+      explanation: "That's incorrect. The traditional approach automatically trusts users and devices within the defined network perimeter."
+    - content: "The Zero Trust model focuses on network security and protects network access with firewalls and VPNs."
       isCorrect: false
-      explanation: ""
-  - content: ""
+      explanation: "That's incorrect. The Zero Trust model advocates protection across all domains—identity, endpoints, applications, network, infrastructure, and data."
+  - content: "Why is it important to implement the Zero Trust strategy across all domains—identity, endpoints, applications, network, infrastructure, and data?"
     choices:
-    - content: ""
+    - content: "The Zero Trust strategy ensures all the processes and procedures are carried out manually across all domains"
+      isCorrect: false
+      explanation: "That's incorrect. An effective Zero Trust strategy automates routine tasks across all domains and layers of defense to reduce the chances of human error."
+    - content: "The Zero Trust strategy enhances user experience by trusting people within the organization and granting them complete access."
+      isCorrect: false
+      explanation: "That's incorrect. Zero Trust enhances user experience by automating protection and security compliance, such as enforcing conditional access based on the principle of least privilege."
+    - content: "The Zero Trust approach advocates protection across all domains as they could be vulnerable entry points for cybercriminals to exploit."
       isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
+      explanation: "That's correct. The Zero Trust strategy asserts that each of these areas maintain their own security and compliance posture."
+  - content: "Zero Trust is based on the principles of verify explicitly, use least privilege access, and assume breach. What does the principle of “assume breach” imply?"
     choices:
-    - content: ""
+    - content: "This principle asserts that the users and devices within the organization can be trusted."
+      isCorrect: false
+      explanation: "That's incorrect. Zero Trust asserts all users, within or outside the corporate network, must not be trusted."
+    - content: "This principle assumes every request is a potential threat."
       isCorrect: true
-      explanation: ""
-    - content: ""
+      explanation: "That's correct. It assumes that every user or device making a request to access your systems and data has come from a cybercriminal."
+    - content: "This principle assumes that every request that originates from outside the network is a potential threat."
       isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
-    choices:
-    - content: ""
-      isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
-    choices:
-    - content: ""
-      isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
+      explanation: "That's incorrect. Zero Trust assumes that there's no defined network and treats every request as a potential threat."

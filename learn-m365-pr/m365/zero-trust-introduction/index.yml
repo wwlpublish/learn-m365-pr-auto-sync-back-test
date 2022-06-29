@@ -2,35 +2,37 @@
 uid: learn-m365.zero-trust-introduction
 metadata:
   moduleType: standard
-  title: zero-trust-introduction
-  description: "TODO this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the module; include relevant search keywords."
-  ms.date: 6/16/2022
+  title: Introduction to Zero Trust
+  description: In recent years, the Zero Trust concept has emerged as a go to security solution for the organizations big or small. The Zero trust approach is a combination of modern technologies and best practices that strengthens the security infrastructure within your organization.
+  ms.date: 06/22/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: zero-trust-introduction
-summary: "TODO 2 sentences, 20-35 words, don't teach or motivate, avoid using 'learn', don't duplicate the title; see https://review.docs.microsoft.com/help/learn/id-guidance-introductory-summaries?branch=main"
+title: Introduction to Zero Trust
+summary: In recent years, the Zero Trust concept has emerged as a go to security solution for the organizations big or small. The Zero trust approach is a combination of modern technologies and best practices that strengthens the security infrastructure within your organization.
 abstract: |
   By the end of this module, you'll be able to:
-    - "TODO learning objective 1"
-    - "TODO learning objective 2"
-    - "TODO learning objective 3 (if needed; see https://review.docs.microsoft.com/help/learn/id-guidance-learning-objectives?branch=main)"
+    - Describe the Zero Trust security model and its principles.
+    - Explain Zero Trust as a security strategy.
+    - Define Zero Trust components.
 prerequisites: |
-  - "TODO prerequisite 1"
-  - "TODO prerequisite 2"
-  - "TODO prerequisite 3 (if needed; see https://review.docs.microsoft.com/help/learn/id-guidance-prerequisites?branch=main"
+  - None
 iconUrl: /learn/achievements/generic-badge.svg
-levels: # see level taxonomy https://review.docs.microsoft.com/help/contribute/metadata-taxonomies?branch=main#level
+levels:
   - beginner
-roles: # see role taxonomy https://review.docs.microsoft.com/help/contribute/metadata-taxonomies?branch=main#role
-  - developer
-products: # see product taxonomy https://review.docs.microsoft.com/help/contribute/metadata-taxonomies?branch=main#product
-- learning-m365
-subjects: # see subject taxonomy https://review.docs.microsoft.com/help/contribute/metadata-taxonomies?branch=main#subject
+roles:
+  - administrator
+  - student
+products:
+- m365
+subjects:
   - cloud-computing
 units:
 - learn-m365.zero-trust-introduction.introduction
+- learn-m365.zero-trust-introduction.zero-trust-security-model
+- learn-m365.zero-trust-introduction.zero-trust-security-strategy
+- learn-m365.zero-trust-introduction.zero-trust-components
 - learn-m365.zero-trust-introduction.knowledge-check
 - learn-m365.zero-trust-introduction.summary
 badge:
