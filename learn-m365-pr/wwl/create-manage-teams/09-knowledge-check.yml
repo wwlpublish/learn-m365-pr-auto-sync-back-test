@@ -54,13 +54,13 @@ quiz:
     choices:
     - content: "14 days"
       isCorrect: false
-      explanation: "That's incorrect. A deleted Microsoft 365 group isn't retained for 14 days.."
+      explanation: "That's incorrect. A deleted Microsoft 365 group isn't retained for 14 days."
     - content: "30 days"
       isCorrect: true
       explanation: "That's correct. A deleted Microsoft 365 group is retained for 30 days."
     - content: "90 days"
       isCorrect: false
-      explanation: "That's incorrect. A deleted Microsoft 365 group isn't retained for 90 days.."
+      explanation: "That's incorrect. A deleted Microsoft 365 group isn't retained for 90 days."
   - content: "Which of the following permissions is only for team owners?"
     choices:
     - content: "Add a channel"
