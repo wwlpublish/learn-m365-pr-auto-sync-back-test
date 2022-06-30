@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-purview-ediscovery-standard.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 06/30/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "After a hold is turned off, a grace period (called a delay hold) is applied to content locations that were on hold. How long is this delay hold?"
+    choices:
+    - content: "30 days"
+      isCorrect: true
+      explanation: "Correct. After the hold is turned off, a 30-day grace period (called a delay hold) is applied to content locations that were on hold. This delay helps prevent content from being immediately deleted. It also provides administrators the opportunity to search for and restore content before it may be permanently deleted after the delay hold period expires."
+    - content: "60 days"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the length of the delay hold."
+    - content: "90 days"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the length of the delay hold."
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson created an eDiscovery (Standard) case involving members of the Sales group. This group is a Microsoft 365 group. When configuring the search, Holly set the Exchange mailboxes toggle switch to On and selected the Sales group. Which of the following items will be searched?"
+    choices:
+    - content: "The Sales group mailbox"
+      isCorrect: true
+      explanation: "Correct. If you add Microsoft Teams, Yammer Groups, or Microsoft 365 Groups, the group or team mailbox is searched; the mailboxes of the group members aren't searched."
+    - content: "The mailboxes of the Sales group members"
+      isCorrect: false
+      explanation: "Incorrect. Mailboxes of group members aren't searched."
+    - content: "The mailbox of the Sales group manager"
+      isCorrect: false
+      explanation: "Incorrect. Mailboxes of group members aren't searched."
+  - content: "As the Enterprise Administrator for Lucerne Publishing, Patti Fernandez wants to add Holly Dickson as a member of an eDiscovery (Standard) case involving a copyright infringement issue. What role group must Holly be a member of before Patti can assign her as a member of this case?"
+    choices:
+    - content: "Organization Management"
+      isCorrect: false
+      explanation: "Incorrect. Holly doesn't need to be a member of this role group to be assigned to a case."
+    - content: "eDiscovery Manager"
+      isCorrect: true
+      explanation: "Correct. A user must be assigned the appropriate permissions to either access eDiscovery (Standard) or be added as a member of an eDiscovery (Standard) case. Specifically, a user must be added as a member of the eDiscovery Manager role group in the Microsoft Purview compliance portal."
+    - content: "Compliance Administrator"
+      isCorrect: false
+      explanation: "Incorrect. Incorrect. Holly doesn't need to be a member of this role group to be assigned to a case."

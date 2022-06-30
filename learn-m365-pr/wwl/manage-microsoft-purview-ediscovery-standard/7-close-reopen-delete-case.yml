@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-purview-ediscovery-standard.close-reopen-delete-case
+title: Close, reopen, and delete a case
+metadata:
+  title: Close, reopen, and delete a case
+  description: "Close, reopen, and delete a case"
+  ms.date: 06/30/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-close-reopen-delete-case.md)]

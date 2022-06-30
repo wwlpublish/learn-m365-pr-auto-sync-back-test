@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-purview-ediscovery-standard.create-ediscovery-holds
+title: Create eDiscovery holds
+metadata:
+  title: Create eDiscovery holds
+  description: "Create eDiscovery holds"
+  ms.date: 06/30/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-create-ediscovery-holds.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "After an organization creates an eDiscovery hold, how long does it usually take for the hold to take effect?"
+    choices:
+    - content: "The hold takes effect immediately after being created"
+      isCorrect: false
+      explanation: "Incorrect. It usually takes much longer than this for a hold to take effect."
+    - content: "12 hours"
+      isCorrect: false
+      explanation: "Incorrect. It usually takes longer than this for a hold to take effect."
+    - content: "24 hours"
+      isCorrect: true
+      explanation: "Correct. After an organization creates an eDiscovery hold, it may take up to 24 hours for the hold to take effect."

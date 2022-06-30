@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-purview-ediscovery-standard.export-content-from-case
+title: Export content from a case
+metadata:
+  title: Export content from a case
+  description: "Export content from a case"
+  ms.date: 06/30/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-export-content-from-case.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer just created an eDiscovery case regarding a potential legal issue the company is facing. Holly is especially concerned about preserving content associated with Allan Deyoung, one of the company's Vice Presidents. Allan is the main focus of the legal investigation facing Fabrikam. As such, Holly created an eDiscovery hold to preserve Allan's emails. What must Holly do as part of creating this eDiscovery hold?"
+    choices:
+    - content: "Add Allan's mailbox to the hold"
+      isCorrect: true
+      explanation: "Correct. If Holly doesn't add Allan's mailbox to the hold, Allan's email may not be preserved for the case."
+    - content: "Create a search associated with Allan's mailbox"
+      isCorrect: false
+      explanation: "Incorrect. While this action must eventually be performed, it isn't the next step that Holly should perform related to the eDiscovery hold."
+    - content: "Add Allan as a member of the case"
+      isCorrect: false
+      explanation: "Incorrect. This action isn't the next step that Holly should perform related to the eDiscovery hold."
