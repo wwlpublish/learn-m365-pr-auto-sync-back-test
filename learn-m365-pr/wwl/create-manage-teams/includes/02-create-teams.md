@@ -20,6 +20,9 @@ You can use Teams admin center to create a team from scratch.
 
 		- **Public** – A team where everybody can join
 		- **Private** – A team where you need an invitation.
+	
+	> [!NOTE] 
+	> You can specify the **Sensitivity** of the team if the sensitivity labels have been configured. 
 
 4. Select **Apply**.
 
@@ -41,9 +44,9 @@ When you use Teams Client, you can create a team:
 
 To create a team from the Teams Client, follow these steps:
 
-1. In the Teams Client in the left panel select **Teams**, and then select **Join or create a team** on the lower section of the left panel.
+1. Select **Teams** on the left side of the app, then select **Join or create a team** at the bottom of your teams list.
 
-2. Select **Create a team** in the main pane.
+2. Hover over the Create a team card and select **Create team**.
 
 3. On the **Create your team** page, select a way to create a team. 
 
@@ -60,7 +63,7 @@ To create a team from the Teams Client, follow these steps:
 
 	- **Public** – A team where everyone in your organization can join.
 
-	- **Org-Wide** – A team where everyone in your organization is a member.
+	- **Org-Wide** – A team where everyone in your organization is a member. (Org-wide option will be visible only if you are logged in as Global administrator)
 
 	:::image type="content" source="../media/team-types.png" alt-text="Screenshot of different team types":::
 
@@ -71,10 +74,9 @@ To create a team from the Teams Client, follow these steps:
 	- Description
 
 6. Select **Create** to create the team.
-
  
 > [!NOTE] 
-> Whenever you create a team it is a best practice to configure at least two owners for the self-service needs of the team. If a group owner leaves your company the group could find itself without an owner. The content in the group is unaffected by this - the content belongs to the group and isn't tied to the owner's account. But not having a group owner means there's nobody with permissions to manage the group. Anytime the single owner is not available and modifications in the team are required, the members will have to contact a Teams administrator. This problem can be resolved by any administrator in your organization. For more information, please refer to [Assign a new owner to an orphaned group](https://support.office.com/article/assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732?azure-portal=true).
+> You can now add members to the team or skip to finish creating a team. Whenever you create a team it is a best practice to configure at least two owners for the self-service needs of the team. If a group owner leaves your company the group could find itself without an owner. The content in the group is unaffected by this - the content belongs to the group and isn't tied to the owner's account. But not having a group owner means there's nobody with permissions to manage the group. Anytime the single owner is not available and modifications in the team are required, the members will have to contact a Teams administrator. This problem can be resolved by any administrator in your organization. For more information, please refer to [Assign a new owner to an orphaned group](https://support.office.com/article/assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732?azure-portal=true).
 
  
 
