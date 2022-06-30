@@ -27,7 +27,7 @@ roles:
 products:
 - m365
 subjects:
-  - cloud-computing
+  - security
 units:
 - learn-m365.zero-trust-introduction.introduction
 - learn-m365.zero-trust-introduction.zero-trust-security-model

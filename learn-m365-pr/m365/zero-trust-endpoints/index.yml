@@ -3,7 +3,7 @@ uid: learn-m365.zero-trust-endpoints
 metadata:
   moduleType: standard
   title: zero-trust-endpoints
-  description: In recent years, the Zero Trust concept has emerged as a go to security solution for the organizations big or small. The Zero trust approach is a combination of modern technologies and best practices that strengthens the security infrastructure within your organization.
+  description: In recent years, the Zero Trust endpoints.
   ms.date: 6/16/2022
   author: beccarobins
   ms.author: beccarobins
@@ -25,7 +25,7 @@ roles:
 products:
 - m365
 subjects:
-  - cloud-computing
+  - security
 units:
 - learn-m365.zero-trust-endpoints.introduction
 - learn-m365.zero-trust-endpoints.knowledge-check
