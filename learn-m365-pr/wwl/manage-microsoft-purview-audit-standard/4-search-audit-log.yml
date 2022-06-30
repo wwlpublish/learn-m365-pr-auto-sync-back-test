@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-purview-audit-standard.search-audit-log
+title: Search the audit log
+metadata:
+  title: Search the audit log
+  description: "Search the audit log"
+  ms.date: 06/30/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/4-search-audit-log.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer just completed running a search using the Microsoft Purview Audit (Standard) solution. When viewing the search results, Holly noticed that several records displayed a null value in the IP address field. Why wouldn't an IP address be displayed in these records?"
+    choices:
+    - content: "The records were for administrator activities for Azure AD-related events"
+      isCorrect: true
+      explanation: "Correct. For administrator activity (or activity performed by a system account) for Azure Active Directory-related events, the IP address isn't logged. As a result, the value displayed in this field is null."
+    - content: "The records were for activities performed by external users"
+      isCorrect: false
+      explanation: "Incorrect. These activities would still capture the IP address of the external user."
+    - content: "The records were for activities performed by a trusted application calling into the service on behalf of a user"
+      isCorrect: false
+      explanation: "Incorrect. These types of activities display the IP address for the trusted application and not the IP address of the device used by the person who performed the activity."

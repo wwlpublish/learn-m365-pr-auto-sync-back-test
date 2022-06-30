@@ -1,0 +1,51 @@
+### YamlMime:Module
+uid: learn.wwl.manage-microsoft-purview-audit-standard
+metadata:
+  title: Manage Microsoft Purview Audit (Standard)
+  description: "Manage Microsoft Purview Audit (Standard)"
+  ms.date: 06/30/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage Microsoft Purview Audit (Standard)
+summary: This module examines how to search for audited activities using the Microsoft Purview Audit (Standard) solution, including how to export, configure, and view the audit log records that were retrieved from an audit log search.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Describe the differences between Audit (Standard) and Audit (Premium).
+  - Identify the core features of the Audit (Standard) solution.
+  - Set up and implement audit log searching using the Audit (Standard) solution.
+  - Export, configure, and view audit log records.
+  - Use audit log searching to troubleshoot common support issues.
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+- security-engineer
+- solution-architect
+- technology-manager
+products:
+- m365
+- office-365
+subjects:
+- cloud-computing
+- cloud-security
+- collaboration
+- communication
+- compliance
+- information-protection-governance
+- security
+- threat-protection
+units:
+- learn.wwl.manage-microsoft-purview-audit-standard.introduction
+- learn.wwl.manage-microsoft-purview-audit-standard.explore-microsoft-purview-audit-solutions
+- learn.wwl.manage-microsoft-purview-audit-standard.implement-microsoft-purview-audit-standard
+- learn.wwl.manage-microsoft-purview-audit-standard.search-audit-log
+- learn.wwl.manage-microsoft-purview-audit-standard.export-configure-view-audit-log-records
+- learn.wwl.manage-microsoft-purview-audit-standard.use-audit-log-searching-investigate-common-support-issues
+- learn.wwl.manage-microsoft-purview-audit-standard.knowledge-check
+- learn.wwl.manage-microsoft-purview-audit-standard.summary
+badge:
+  uid: learn.wwl.manage-microsoft-purview-audit-standard.badge
