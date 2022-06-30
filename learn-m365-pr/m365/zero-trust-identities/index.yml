@@ -2,18 +2,19 @@
 uid: learn-m365.zero-trust-identities
 metadata:
   moduleType: standard
-  title: zero-trust-identities
-  description: In recent years, the Zero Trust identities.
-  ms.date: 6/16/2022
+  title: Identities in Zero Trust
+  description: With the advent of cloud applications, and the increase in employees working remotely, or bringing their own devices, it's critical to verify identities with strong authentication and ensure access is compliant. 
+  ms.date: 06/22/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: zero-trust-identities
-summary: ""
+title: Identities in Zero Trust
+summary: With the advent of cloud applications, and the increase in employees working remotely, or bringing their own devices, it's critical to verify identities with strong authentication and ensure access is compliant. 
 abstract: |
   By the end of this module, you'll be able to:
-    - "TODO learning objective 1"
+    - Describe identities in Zero Trust.
+    - Explain identity and access management.
 prerequisites: |
   - None
 iconUrl: /learn/achievements/generic-badge.svg
@@ -28,6 +29,8 @@ subjects:
   - security
 units:
 - learn-m365.zero-trust-identities.introduction
+- learn-m365.zero-trust-identities.identities-zero-trust
+- learn-m365.zero-trust-identities.identity-access-management
 - learn-m365.zero-trust-identities.knowledge-check
 - learn-m365.zero-trust-identities.summary
 badge:

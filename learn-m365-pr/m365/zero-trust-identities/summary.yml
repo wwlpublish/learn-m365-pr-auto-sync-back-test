@@ -3,9 +3,9 @@ uid: learn-m365.zero-trust-identities.summary
 title: Summary
 metadata:
   unitType: summary
-  title: summary
-  description: "TODO this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the unit; include relevant search keywords."
-  ms.date: 6/16/2022
+  title: Summary
+  description: Summarize the module content.
+  ms.date: 06/22/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

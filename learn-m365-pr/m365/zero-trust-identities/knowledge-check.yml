@@ -4,82 +4,47 @@ title: Knowledge check
 metadata:
   unitType: knowledge_check
   title: Knowledge check
-  description: "TODO this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the unit; include relevant search keywords."
-  ms.date: 6/16/2022
+  description: Test what you've learned
+  ms.date: 06/22/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 1
-###########################################################################
-###
-### General guidance (https://review.docs.microsoft.com/learn-docs/docs/id-guidance-knowledge-check)
-###  - Questions are complete sentences ending with a question mark
-###  - No true/false questions
-###  - 3 answers per question
-###  - All answers about the same length
-###  - Numeric answers listed in sorted order
-###  - No "All of the above" and/or "None of the above" as answer choices
-###  - No "Not" or "Except" in questions
-###  - No second person ("you") in the questions or answers
-###  - Provide a meaningful explanation for both correct and incorrect answers
-###
-###########################################################################
+durationInMinutes: 4
+
 content: |
 quiz:
   questions:
-  - content: ""
+  - content: "Why is identity and access management important?"
     choices:
-    - content: ""
+    - content: "It ensures access control at the entry point and doesn't take the full account of a user session for smooth functioning."
+      isCorrect: false
+      explanation: "That's incorrect. Identity and access management enforce authorization and authentication at multiple points throughout the user experience and session."
+    - content: "It enhances security and compliance and ensures greater control of user access."
       isCorrect: true
-      explanation: ""
-    - content: ""
+      explanation: "That's correct. Identity and access management offer explicit verification and protection against unauthorized access."
+    - content: "It ensures that organizations manually manage access rights to data and applications and eliminate automation."
       isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
+      explanation: "That's incorrect. Identity and access management rely on automated technologies to reduce the chances of human error."
+  - content: "How is compliance identification effective?"
     choices:
-    - content: ""
+    - content: "It ensures that you don't need a continuous risk assessment and your devices and applications are secure and protected."
+      isCorrect: false
+      explanation: "That's incorrect. Compliance identification, along with other security practices, requires continuous risk evaluation because no security system is 100% secure."
+    - content: "It ensures all the security practices and procedures are automated and involve minimal human intervention."
+      isCorrect: false
+      explanation: "That's incorrect. Effective compliance identification requires both automation and employees to play their part in keeping the organization secure."
+    - content: "It limits and controls access to an organization's resources, and adds protection against onsite attackers."
       isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
+      explanation: "That's correct. A compliance identification solution manages physical security to keep the sites and buildings safe."
+  - content: "Why is it recommended to use a strong authentication method?"
     choices:
-    - content: ""
+    - content: "It ensures multi-layered user verification that can't be easily bypassed."
       isCorrect: true
-      explanation: ""
-    - content: ""
+      explanation: "That's correct. A strong authentication method offers multi-layered identity verification and is robust enough to survive attacks to gain access."
+    - content: "It requires complicated software and hardware to make it difficult to use and bypass."
       isCorrect: false
-      explanation: ""
-    - content: ""
+      explanation: "That's incorrect. Strong authentication doesn't require complicated systems or applications to make it more complex. With the use of the latest technology, it's secure and easy to use."
+    - content: "It ensures that users store their credentials in a safe place."
       isCorrect: false
-      explanation: ""
-  - content: ""
-    choices:
-    - content: ""
-      isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
-    choices:
-    - content: ""
-      isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
+      explanation: "That's incorrect. Storing usernames and passwords isn't deemed safe. Passwordless authentication is the latest technology that eliminates using passwords."
