@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn.viva-connections-plan
+metadata:
+  moduleType: standard
+  title: Plan for Viva Connections
+  description: Learn to build a team of stakeholders to plan for Viva Connections, how to conduct the needs assessment, how to plan for deployment and launch.
+  ms.date: 6/23/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365 
+title: Plan for Viva Connections
+summary: Thoughtful planning is the beginning of the successful deployment of Viva Connections. Most of the time spent getting Viva Connections ready for your organization will be in the planning phase. Planning involves building a team of stakeholders who will work together to prioritize scenarios and tasks that can be supported by Viva Connections. Once you’ve formed a planning team, you can get to work meeting requirements, planning scenarios, and a launch plan.
+abstract: |
+  By the end of this module, you'll be able to:
+    - Identify key stakeholders for the deployment of Viva Connections
+    - Align and prioritize scenarios for Viva Connections
+    - Plan and design for the Dashboard, the Feed, and Resources by scenarios and audiences 
+    -	Consider how your organization will scale adoption
+prerequisites: |
+  - Access to an instance of Viva Connections
+iconUrl: /learn/achievements/generic-badge.svg
+levels: 
+  - beginner
+roles: 
+  - administrator
+  - student
+products: 
+- viva
+- m365 
+units:
+- learn.viva-connections-plan.introduction
+- learn.viva-connections-plan.build-your-team-and-meet-requirements
+- learn.viva-connections-plan.analyze-tasks-and-scenarios-for-viva-connections
+- learn.viva-connections-plan.plan-for-viva-connections-dashboard-feed-and-resources
+- learn.viva-connections-plan.knowledge-check
+- learn.viva-connections-plan.plan-to-announce-launch-and-scale-adoption
+- learn.viva-connections-plan.summary
+badge:
+  uid: learn.viva-connections-plan.badge
