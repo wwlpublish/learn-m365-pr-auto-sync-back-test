@@ -39,6 +39,7 @@ To check on your Azure AD Premium license, use the following steps:
 If you don't have a license for Azure AD Premium, see [Sign up for Azure Active Directory Premium editions](/azure/active-directory/fundamentals/active-directory-get-started-premium).
 
   > [!Tip]
+
   > You may not need to purchase and assign individual Intune or EMS licenses to your users. For more information, see the [Product and licensing FAQ](/learn/support/faq).
 
 ## Microsoft Endpoint Configuration Manager
