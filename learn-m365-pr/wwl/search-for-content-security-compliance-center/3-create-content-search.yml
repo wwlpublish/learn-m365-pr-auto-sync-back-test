@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.search-for-content-security-compliance-center.create-content-search
+title: Create a content search
+metadata:
+  title: Create a content search
+  description: "Create a content search"
+  ms.date: 06/30/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/3-create-content-search.md)]
