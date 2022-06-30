@@ -3,7 +3,7 @@ uid: learn.wwl.manage-collaboration-experiences-for-chat-channels
 metadata:
   title: Manage collaboration experiences for chat and channels
   description: "Manage collaboration experiences for chat and channels"
-  ms.date: 10/25/2021
+  ms.date: 06/30/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -33,11 +33,13 @@ subjects:
 - communication
 units:
 - learn.wwl.manage-collaboration-experiences-for-chat-channels.introduction
+- learn.wwl.manage-collaboration-experiences-for-chat-channels.coexistence-modes
 - learn.wwl.manage-collaboration-experiences-for-chat-channels.manage-public-private-channels
 - learn.wwl.manage-collaboration-experiences-for-chat-channels.manage-private-channel-creation
 - learn.wwl.manage-collaboration-experiences-for-chat-channels.configure-teams-settings
 - learn.wwl.manage-collaboration-experiences-for-chat-channels.create-manage-messaging-policies
 - learn.wwl.manage-collaboration-experiences-for-chat-channels.manage-channel-moderation
+- learn.wwl.manage-collaboration-experiences-for-chat-channels.manage-access-channels
 - learn.wwl.manage-collaboration-experiences-for-chat-channels.knowledge-check
 - learn.wwl.manage-collaboration-experiences-for-chat-channels.summary
 badge:
