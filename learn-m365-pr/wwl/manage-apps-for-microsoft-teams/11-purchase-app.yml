@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-apps-for-microsoft-teams.purchase-app
+title: Manage purchasing of apps in the Microsoft Teams app store
+metadata:
+  title: Manage purchasing of apps in the Microsoft Teams app store
+  description: "Manage purchasing of apps in the Microsoft Teams app store"
+  ms.date: 06/30/2022
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/11-purchase-app.md)]

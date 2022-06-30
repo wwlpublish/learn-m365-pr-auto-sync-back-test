@@ -1,17 +1,16 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.manage-apps-for-microsoft-teams.customize-app-store
-title: Customize the app store
+title: Customize the organization's app store
 metadata:
-  title: Customize the app store
-  description: "Customize the app store"
-  ms.date: 09/18/2021
+  title: Customize the organization's app store
+  description: "Customize the organization's app store"
+  ms.date: 06/30/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 6
 content: |
-  [!include[](includes/09-customize-app-store.md)]
+  [!include[](includes/12-customize-app-store.md)]

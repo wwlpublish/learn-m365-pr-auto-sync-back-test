@@ -3,7 +3,7 @@ uid: learn.wwl.manage-apps-for-microsoft-teams
 metadata:
   title: Manage apps for Microsoft Teams
   description: "Manage apps for Microsoft Teams"
-  ms.date: 09/18/2021
+  ms.date: 06/30/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -30,8 +30,8 @@ products:
 - m365
 - office-teams
 subjects:
-- communication
 - collaboration
+- communication
 - productivity
 units:
 - learn.wwl.manage-apps-for-microsoft-teams.introduction
@@ -40,9 +40,13 @@ units:
 - learn.wwl.manage-apps-for-microsoft-teams.manage-app-settings-organization-level
 - learn.wwl.manage-apps-for-microsoft-teams.create-manage-app-permission-policies
 - learn.wwl.manage-apps-for-microsoft-teams.create-manage-app-setup-policies
+- learn.wwl.manage-apps-for-microsoft-teams.app-consent
+- learn.wwl.manage-apps-for-microsoft-teams.teams-connectors
 - learn.wwl.manage-apps-for-microsoft-teams.manage-custom-apps-uploads
 - learn.wwl.manage-apps-for-microsoft-teams.publish-custom-apps
+- learn.wwl.manage-apps-for-microsoft-teams.purchase-app
 - learn.wwl.manage-apps-for-microsoft-teams.customize-app-store
+- learn.wwl.manage-apps-for-microsoft-teams.customize-branded-app
 - learn.wwl.manage-apps-for-microsoft-teams.knowledge-check
 - learn.wwl.manage-apps-for-microsoft-teams.summary
 badge:

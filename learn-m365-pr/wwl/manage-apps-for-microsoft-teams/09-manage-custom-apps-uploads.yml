@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-apps-for-microsoft-teams.manage-custom-apps-uploads
+title: Manage custom apps uploads
+metadata:
+  title: Manage custom apps uploads
+  description: "Manage custom apps uploads"
+  ms.date: 06/30/2022
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/09-manage-custom-apps-uploads.md)]
