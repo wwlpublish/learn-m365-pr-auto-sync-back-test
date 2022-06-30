@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-purview-ediscovery-premium.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 06/30/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Lucerne Publishing, Patti Fernandez wants to deploy eDiscovery (Premium) in the company's Microsoft 365 tenant. Patti has set it up by configuring licenses, permissions, and an optional global setting. What must Patti do next to deploy eDiscovery (Premium)?"
+    choices:
+    - content: "Identify the users who will be assigned as eDiscovery (Premium) custodians"
+      isCorrect: false
+      explanation: "Incorrect. Users are assigned as custodians for specific cases. They aren't assigned up front to deploy eDiscovery (Premium)."
+    - content: "Align Lucerne's eDiscovery (Premium) deployment with EDRM"
+      isCorrect: false
+      explanation: "Incorrect. The EDRM framework is a conceptual standard for the electronic discovery process. It doesn't consist of required steps that organizations must complete to deploy eDiscovery (Premium)."
+    - content: "Nothing else needs to be done"
+      isCorrect: true
+      explanation: "Correct. Nothing is needed to deploy eDiscovery (Premium). Organizations just need to configure licenses, permissions, and an optional global setting to set it up. Once eDiscovery (Premium) is set up, you're ready to create and manage cases."
+  - content: "As the Enterprise Administrator for Lucerne Publishing, Patti Fernandez has deployed eDiscovery (Premium). Lucerne is responding to a legal case, so Patti created a case for it in the Microsoft Purview compliance portal. Custodians were added to the case, and Patti conducted a search of custodial data sources for relevant data. What's the next step that Patti should complete in the eDiscovery (Premium) workflow?"
+    choices:
+    - content: "Reindex custodian data"
+      isCorrect: false
+      explanation: "Incorrect. This action is part of the first step in the workflow process of adding custodians to a case."
+    - content: "Add data to a review set"
+      isCorrect: true
+      explanation: "Correct. Once you've configured and verified that a search returns the expected data, the next step is to add the search results to a review set. When you add data to a review set, items are copied from their original location to a secure Azure Storage location. The data is reindexed again to optimize it for thorough and fast searches when reviewing and analyzing items in the review set."
+    - content: "Send a legal hold notification to custodians"
+      isCorrect: false
+      explanation: "Incorrect. This action is part of the first step in the workflow process of adding custodians to a case."
+  - content: "It can be difficult for organizations to review all the collected documents in a review set when a large number of documents are involved. eDiscovery (Premium) provides a set of tools to make the review process more manageable, efficient, and effective. In the \"Near duplicate detection\" tool, once all documents have been compared and grouped, what is a document from each group marked as?"
+    choices:
+    - content: "The pivot"
+      isCorrect: true
+      explanation: "Correct. Once all documents have been compared and grouped, a document from each group is marked as the pivot. When reviewing your documents, you can review a pivot first and review the other documents in the same near duplicate set. This process enables you to focus on the difference between the pivot and the document that's in review."
+    - content: "The theme"
+      isCorrect: false
+      explanation: "Incorrect. As part of the Themes tool, Advanced eDiscovery analyzes the ideas that are discussed in a review set and then assigns a corresponding theme to documents in the review set."
+    - content: "The primary"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't what a document is marked as from each group."
