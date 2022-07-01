@@ -10,7 +10,7 @@ The module then examines how to view the search results. You'll also learn how t
 
 The module concludes by examining how to use audit log searching to investigate common support issues reported to Microsoft Support. The module provides suggestions on how to troubleshoot these scenarios by using the audit log search tool in the Microsoft Purview compliance portal. Each scenario explains how to configure an audit log search query for the corresponding issue. It also describes what to look for in the detailed information in the audit records that match the search criteria.
 
-After completing this module, you'll be able to:
+After completing this module, you'll be able to: 
 
  -  Describe the differences between Audit (Standard) and Audit (Premium).
  -  Identify the core features of the Audit (Standard) solution.
