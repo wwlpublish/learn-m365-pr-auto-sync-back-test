@@ -4,7 +4,7 @@ title: Explore Microsoft Purview Audit (Premium)
 metadata:
   title: Explore Microsoft Purview Audit (Premium)
   description: "Explore Microsoft Purview Audit (Premium)"
-  ms.date: 06/30/2022
+  ms.date: 07/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,7 +21,7 @@ quiz:
     choices:
     - content: "Configure the 10 year audit log setting in the Microsoft Purview compliance portal"
       isCorrect: false
-      explanation: "Incorrect. There is no such setting in the Microsoft Purview compliance portal."
+      explanation: "Incorrect. There's no such setting in the Microsoft Purview compliance portal."
     - content: "Purchase per-user add-on licenses for each manager"
       isCorrect: true
       explanation: "Correct. In addition to the one-year retention capabilities of Audit (Premium), Microsoft 365 can optionally retain audit logs for 10 years. The 10-year retention of audit logs helps support long running investigations and respond to regulatory, legal, and internal obligations. Retaining audit logs for 10 years requires an extra per-user add-on license. After this license is assigned to a user and an appropriate 10-year audit log retention policy is set for that user, audit logs covered by that policy will start to be retained for the 10-year period."

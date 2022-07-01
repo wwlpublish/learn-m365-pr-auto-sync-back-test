@@ -1,6 +1,6 @@
 The Audit functionality in Microsoft Purview provides organizations with visibility into many types of audited activities across many different Microsoft 365 services. Microsoft Purview provides two auditing solutions: Audit (Standard) and Audit (Premium).
 
-In a previous module, you learned that Microsoft Purview Audit (Standard) provides organizations with the ability to log and search for audited activities. It also enables organizations to power their forensic, IT, compliance, and legal investigations.
+In a previous module, you learned that Microsoft Purview Audit (Standard) provides organizations with the ability to log and search for audited activities. It also enables an organization to power its forensic, IT, compliance, and legal investigations.
 
 In this module, you'll learn that Microsoft Purview Audit (Premium) builds on the capabilities of Microsoft Purview Audit (Standard). It provides advanced features designed specifically for organizations that conduct forensic and compliance investigations. These features provide:
 
