@@ -32,7 +32,7 @@ To use connectors in a team or a channel:
 2.  From the menu select **Connectors**
 3.  In the **Connectors page** locate or search for the required connector app. 
 
-    :::image type="content" source="../media/connectors-selection-ui.png" alt-text="Screenshot of connectors page":::
+    :::image type="content" source="../media/connectors-selection-ui.png" alt-text="Screenshot of connectors page.":::
 
 
 4.  Click **Add** to use the connector, Configure the selected connector if required.

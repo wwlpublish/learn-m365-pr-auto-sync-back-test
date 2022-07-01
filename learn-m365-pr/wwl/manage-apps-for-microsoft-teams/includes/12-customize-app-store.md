@@ -6,7 +6,7 @@ The following are available customizations that appear on different pages in Tea
 
 * Organization logomark
     
-    :::image type="content" source="../media/custom-app-page.png" alt-text=" Teams app store page":::
+    :::image type="content" source="../media/custom-app-page.png" alt-text="Graph of Teams app store page.":::
 
 **Custom apps page**
 
@@ -14,7 +14,7 @@ The following are available customizations that appear on different pages in Tea
 - Customize background
 - Text color of your organization name 
 
-    :::image type="content" source="../media/app-page.png" alt-text=" Custom apps page":::
+    :::image type="content" source="../media/app-page.png" alt-text="Graph of Custom apps page.":::
 
 ## Customize organization's app store
 
@@ -62,10 +62,10 @@ The following are available customizations that appear on different pages in Tea
 Changes to branding will require 24 hours to take effect. The following screenshots are examples of a custom app store. 
 
 **Teams app store page**
-:::image type="content" source="../media/contoso-app-page.png" alt-text="Example of Custom apps page":::
+:::image type="content" source="../media/contoso-app-page.png" alt-text="Screenshot of Custom apps page.":::
 
 **Custom apps page**
-:::image type="content" source="../media/contoso-custom-app-page.png" alt-text="Example of Teams app store page"::: 
+:::image type="content" source="../media/contoso-custom-app-page.png" alt-text="Screenshot of Teams app store page."::: 
 
 
 

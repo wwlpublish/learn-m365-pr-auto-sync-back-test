@@ -34,8 +34,8 @@ Use org-wide app settings to control whether users can install third-party apps 
 
     -   **Third-party apps:** This setting controls whether users can use third-party apps. If you turn off this setting, your users won’t be able to install or use any third-party apps. For apps that you allowed, the status shows as **Allowed but disabled org-wide**.
 
-    > [!NOTE]
-    > When T**hird-party apps** is off, [outgoing webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors?azure-portal=true) are still enabled for all users, but you can control them at the user level by allowing or blocking the Outgoing Webhook app through app permission policies.
+        > [!NOTE]
+        > When **Third-party apps** is off, [outgoing webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors?azure-portal=true) are still enabled for all users, but you can control them at the user level by allowing or blocking the Outgoing Webhook app through app permission policies.
 
     -   **New third-party apps published to the store**: This setting controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
@@ -43,7 +43,7 @@ Use org-wide app settings to control whether users can install third-party apps 
 
 5.  Select **Save** for org-wide app settings to take effect.
 
-    :::image type="content" source="../media/manage-apps-organization-wide-app-settings.png" alt-text=" Screenshot of org-wide app settings":::
+    :::image type="content" source="../media/manage-apps-organization-wide-app-settings.png" alt-text=" Screenshot of org-wide app settings.":::
 
 
 ## Manage access to individual apps
@@ -56,7 +56,7 @@ For a user to be able to install and interact with any app, you must allow the a
 
 To allow or block apps, select one or more apps, and then select **Allow** or **Block**.
 
-:::image type="content" source="../media/block-app.png" alt-text=" Screenshot of blocking apps from Teams admin center":::
+:::image type="content" source="../media/block-app.png" alt-text=" Screenshot of blocking apps from Teams admin center.":::
 
 
 ## Manage access to Microsoft Power Platform apps 
@@ -78,7 +78,7 @@ A user will see an app in **Built by your colleagues** if the app meets one of t
 Users install Microsoft Power Platform apps in the same way they install any other Teams app. Keep in mind that users can only install apps to the context to which they have permissions, for example, a team they own, a chat that they're a part of, or their personal scope.
 
 
-:::image type="content" source="../media/manage-power-platform-apps-apps-page.png" alt-text=" Screenshots of Apps page, showing Microsoft Power Platform apps listed in Built by your colleagues":::
+:::image type="content" source="../media/manage-power-platform-apps-apps-page.png" alt-text=" Screenshots of Apps page, showing Microsoft Power Platform apps listed in Built by your colleagues.":::
 
 ## Add an app to a team
 

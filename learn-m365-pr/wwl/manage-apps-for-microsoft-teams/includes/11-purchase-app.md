@@ -11,7 +11,7 @@ The **Manage apps** page in the Microsoft Teams admin center is where you can pu
     -   **Purchase**: The app offers a SaaS subscription and is available to purchase.
     -   **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
     -   **- -**: The app doesn't offer a SaaS subscription.
-3.  When you find the app, select **Purchase** to go to the **Plans and pricing** tab of the app details page. Review the plans and pricing information for the SaaS offer for the app..
+3.  When you find the app, select **Purchase** to go to the **Plans and pricing** tab of the app details page. Review the plans and pricing information for the SaaS offer for the app.
 4.  To subscribe to an app, choose the plan you want, and select **Purchase**. The checkout flow opens directly in the Teams admin center.
 5.  Select the number of user licenses you want to buy.
 6.  Check that the billing account and sold-to address is correct. If you don't already have one, add a new one by selecting **Add**.
@@ -28,6 +28,6 @@ After you've purchased the SaaS offer associated with the Teams app, you can vie
 
 Select **Manage licenses** to go to the Microsoft 365 admin center to view and manage the licenses you purchased.
 
-:::image type="content" source="../media/purchase-third-party-apps-details-page.png" alt-text=" Screenshot of Plans and pricing tab in Teams app":::  
+:::image type="content" source="../media/purchase-third-party-apps-details-page.png" alt-text=" Screenshot of Plans and pricing tab in Teams app.":::  
 
 Global admins can add more licenses, remove licenses, and cancel subscriptions for purchases made by anyone in the organization. Teams service admins can perform the same actions for purchases made by themselves. However, if a Teams service admin also has the Billing admin role, they can manage purchases made by anyone in the organization.

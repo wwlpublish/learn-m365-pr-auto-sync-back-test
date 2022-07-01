@@ -8,7 +8,7 @@ You can view every app in your tenant app catalog including the following inform
 
 In the left navigation of the Microsoft Teams admin center, go to **Teams apps** \> **Manage apps**. To see the information that you want in the table, select the cog wheel icon in the upper-right corner to add or remove columns to the table.
 
-:::image type="content" source="../media/manage-apps.png" alt-text=" Screenshot of the Managed apps page":::
+:::image type="content" source="../media/manage-apps.png" alt-text=" Screenshot of the Managed apps page.":::
 
 -   **Name**: The app name.
 -   **Certification**: If the app has gone through certification, you’ll see either **Microsoft 365 certified** or **Publisher attestation**. Select the link to view certification details for the app. If you see “**–**”, we don’t have certification information for the app.
@@ -23,7 +23,7 @@ In the left navigation of the Microsoft Teams admin center, go to **Teams apps**
 -   **Categories**: Categories that apply to the app.
 -   **Version**: App version.
 
-    :::image type="content" source="../media/manage-apps-app-details.png" alt-text=" Screenshot of the apps details page for an app":::
+    :::image type="content" source="../media/manage-apps-app-details.png" alt-text=" Screenshot of the apps details page for an app.":::
 
 
 ## Manage apps at the organization level

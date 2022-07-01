@@ -37,7 +37,7 @@ You can access **Security and Compliance** information for an app:
 
     To get more details on the supported capabilities for the app, select the dropdown list for each category.
 
-    :::image type="content" source="../media/mcas.png" alt-text=" Screenshot of Teams admin center security and compliance tab":::
+    :::image type="content" source="../media/mcas.png" alt-text=" Screenshot of Teams admin center security and compliance tab.":::
 
 ### Grant org-wide admin consent to an app
 
@@ -51,13 +51,13 @@ To grant org-wide consent to an app, follow these steps:
 
 
 
-    :::image type="content" source="../media/app-permission-admin-center-organization-wide.png" alt-text=" Screenshot of org-wide permissions on the Permissions tab for an app":::
+    :::image type="content" source="../media/app-permission-admin-center-organization-wide.png" alt-text=" Screenshot of org-wide permissions on the Permissions tab for an app.":::
 
     You must be a global admin to do the consent. This option isn't available to Teams service admins.
 
 4. On the **Permissions** tab, review the permissions requested by the app.
 
-    :::image type="content" source="../media/app-permission-admin-center-organization-wide-permissions.png" alt-text=" Screenshot of permissions requested by an app":::
+    :::image type="content" source="../media/app-permission-admin-center-organization-wide-permissions.png" alt-text=" Screenshot of permissions requested by an app.":::
 
     
 5. If you agree with the permissions requested by the app, select **Accept** to grant consent. A banner temporarily appears at the top of the page to let you know that the requested permissions have been granted for the app. The app now has access to the specified resources for all users in your organization and no one else will be prompted to review the permissions.

@@ -4,14 +4,14 @@ Apps are pinned to the app bar. This is the bar on the side of the Teams desktop
 
 |Teams desktop client  |Teams mobile client |
 |---------|---------|
-|:::image type="content" source="../media/app-setup-policies-desktop-app-bar.png" alt-text="Screenshot showing Teams desktop client" lightbox="../media/app-setup-policies-desktop-app-bar.png" :::|:::image type="content" source="../media/app-setup-policies-mobile-app-bar.png" alt-text="Screenshot showing Teams mobile client" lightbox="../media/app-setup-policies-mobile-app-bar.png":::|
+|:::image type="content" source="../media/app-setup-policies-desktop-app-bar.png" alt-text="Screenshot showing Teams desktop client" lightbox="../media/app-setup-policies-desktop-app-bar.png" :::|:::image type="content" source="../media/app-setup-policies-mobile-app-bar.png" alt-text="Screenshot showing Teams mobile client" lightbox="../media/app-setup-policies-mobile-app-bar.png.":::|
 
 
 You manage app setup policies in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy. 
 
 You can edit the settings in the global policy to include the apps that you want. If you want to customize Teams for different groups of users in your organization, create and assign one or more custom policies. If a user is assigned a custom policy, that policy applies to the user. If a user is not assigned a custom policy, the global policy applies to the user. 
 
-:::image type="content" source="../media/app-setup-policies.png" alt-text=" Screenshot of app setup policies":::
+:::image type="content" source="../media/app-setup-policies.png" alt-text=" Screenshot of app setup policies.":::
 
 
 > [!NOTE]
@@ -24,7 +24,7 @@ You can use the Microsoft Teams admin center to create a custom policy:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
 2. Select **+ Add**.
-    :::image type="content" source="../media/app-setup-policies-add.png" alt-text=" Screenshot showing the Add app setup policies page":::
+    :::image type="content" source="../media/app-setup-policies-add.png" alt-text=" Screenshot showing the Add app setup policies page.":::
 3. Enter a name and description for the policy.
 4. Turn on or turn off **Upload custom apps**, depending on whether you want to let users upload custom apps to Teams. You won't be able to change this setting if **Allow third-party apps** is turned off in **org-wide app settings**.
 5. Turn on or turn off **User pinning**, depending on whether you want to let users personalize their app bar by pinning apps to it.
@@ -33,18 +33,18 @@ You can use the Microsoft Teams admin center to create a custom policy:
     1. Under **Installed apps**, select **Add apps**.
     2. In the **Add installed apps** pane, search for the apps you want to automatically install for users when they start Teams. You can also filter apps by app permission policy. When you've chosen your list of apps, select **Add**.
 
-        :::image type="content" source="../media/app-setup-policies-add-installed-apps.png" alt-text=" Screenshot showing the Add installed apps pane":::
+        :::image type="content" source="../media/app-setup-policies-add-installed-apps.png" alt-text=" Screenshot showing the Add installed apps pane.":::
 
 7. To pin apps:
 
     1. Under **Pinned apps**, select **Add apps**.
     2. In the **Add pinned apps** pane, search for the apps you want to add, and then select **Add**. You can also filter apps by app permission policy. When you've chosen your list of apps to pin, select **Add**.
 
-         :::image type="content" source="../media/app-setup-policies-add-apps.png" alt-text=" Screenshot showing the Add pinned apps pane":::
+         :::image type="content" source="../media/app-setup-policies-add-apps.png" alt-text=" Screenshot showing the Add pinned apps pane.":::
 
     3. Arrange the apps in the order that you want them to appear in Teams, and then select **Save**.
 
-        :::image type="content" source="../media/app-setup-policies-new-policy-setup.png" alt-text=" Screenshot showing the Pinned apps section":::   
+        :::image type="content" source="../media/app-setup-policies-new-policy-setup.png" alt-text=" Screenshot showing the Pinned apps section.":::   
 
 ## Edit a custom app setup policy
 

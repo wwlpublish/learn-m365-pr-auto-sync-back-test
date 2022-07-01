@@ -2,13 +2,13 @@ As an admin, you can use app permission policies to control what apps are availa
 
 You manage app permission policies in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create and assign custom policies to individual users or users in a group.
 
-:::image type="content" source="../media/app-permissions-policies.png" alt-text=" Screenshot of app permission policy":::
+:::image type="content" source="../media/app-permissions-policies.png" alt-text=" Screenshot of app permission policy.":::
 
 By default, all apps are allowed in the **global policy**. This includes apps published by Microsoft, third parties, and your organization. Users in your organization will automatically get the global policy unless you create and assign a custom policy. **Organization-wide app settings** on the **Manage apps** page override the global policy and any custom policies that you create and assign to users.
 
 For example, you want to block all third-party apps and allow specific apps from Microsoft for the HR team in your organization. First, you would go to the **Manage apps** page and make sure that the apps that you want to allow for the HR team are allowed at the org level. Then, create a custom policy named *HR App Permission Policy*, set it to block and allow the apps that you want, and assign it to users on the HR team.
 
-## Create a app permission policy
+## Create an app permission policy
 
 If you want to control the apps that are available for different groups of users in your organization, create and assign one or more custom app permission policies. You can create and assign separate custom policies based on whether apps are published by Microsoft, third-parties, or your organization. It's important to know that after you create a custom policy, you can't change it if third-party apps are disabled in org-wide app settings.  
 
@@ -20,7 +20,7 @@ If you want to control the apps that are available for different groups of users
 
 4. Under **Microsoft apps**, **Third-party apps**, and **Custom apps**, select one of the following options that is listed in the following graphic:
 
-	:::image type="content" source="../media/choose-teams-apps-published-dialog-box.png" alt-text=" Screenshot of options to manage app permissions":::
+	:::image type="content" source="../media/choose-teams-apps-published-dialog-box.png" alt-text=" Screenshot of options to manage app permissions.":::
 
 5. If you selected **Allow specific apps and block all others**, add the apps that you want to allow:
 	- Select **Allow apps**.
@@ -65,7 +65,7 @@ Alternatively, you can also perform the following steps to assign a policy to a 
 2. Select the user by selecting to the left of the username, and then select **Edit settings**.
 3. Under **App permission policy**, select the app permission policy you want to assign, and then select **Apply**.
 
-	:::image type="content" source="../media/app-permission-policies-new-policy.png" alt-text=" Screenshot of assigning a app permission policy to a user":::  
+	:::image type="content" source="../media/app-permission-policies-new-policy.png" alt-text=" Screenshot of assigning a app permission policy to a user.":::  
 
 
 ### Assign a custom app permission policy using PowerShell

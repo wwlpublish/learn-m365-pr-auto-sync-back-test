@@ -22,21 +22,21 @@ You can customize an app to include a specific look and feel according to your o
 
 1. Check the **Customizable** column of the apps list and sort by apps that are customizable.
 
-    :::image type="content" source="../media/customizable-apps-in-tac.png" alt-text=" Screenshot of customizable app on Manage apps page":::
+    :::image type="content" source="../media/customizable-apps-in-tac.png" alt-text=" Screenshot of customizable app on Manage apps page.":::
 
 4. Open **Customize** pane by the following options:
 
     * From the **Manage apps** page, select next to the app that you want to customize, and then select **Customize**.
 
-        :::image type="content" source="../media/customize-app.png" alt-text=" Screenshot of customizing app":::
+        :::image type="content" source="../media/customize-app.png" alt-text=" Screenshot of customizing app.":::
 
     * Go to the app details page by selecting the app name and then **Customizable**.
         
-        :::image type="content" source="../media/customizable-app.png" alt-text=" Screenshot of customizable from app details page":::
+        :::image type="content" source="../media/customizable-app.png" alt-text=" Screenshot of customizable from app details page.":::
 
     * Go to the app details page by selecting the app name, and select  **... > Actions** drop-down menu then select **Customize**.
 
-        :::image type="content" source="../media/customize-app-actions.png" alt-text=" Screenshot of actions drop down menu ":::
+        :::image type="content" source="../media/customize-app-actions.png" alt-text=" Screenshot of actions drop down menu.":::
 
 
 5. Customize the visible fields that the developer allowed as customizable, including:
@@ -54,7 +54,7 @@ You can customize an app to include a specific look and feel according to your o
         * Outline icon: 32x32 pixel in PNG format
         * Accent color 
 
-    :::image type="content" source="../media/customize-app-pane.png" alt-text="Screenshot of customize app details page":::
+    :::image type="content" source="../media/customize-app-pane.png" alt-text="Screenshot of customize app details page.":::
 
 
 6.	After customizing the app, select Apply.
@@ -84,7 +84,7 @@ To see the app details and review the information
 
     The **Short name from publisher** field is only visible if you've changed the app's short name.
 
-    :::image type="content" source="../media/custom-app-detail.png" alt-text="Screenshot of reset app details to default values":::
+    :::image type="content" source="../media/custom-app-detail.png" alt-text="Screenshot of reset app details to default values.":::
 
 ## Reset app details to default values
 
@@ -94,6 +94,6 @@ You can reset the app details to the original values provided by the app develop
 2.  Select the app name.
 3.  Select Reset to default from the Actions menu.
 
-    :::image type="content" source="../media/reset-app.png" alt-text="Screenshot of reset app details to default values":::
+    :::image type="content" source="../media/reset-app.png" alt-text="Screenshot of reset app details to default values.":::
 
 
