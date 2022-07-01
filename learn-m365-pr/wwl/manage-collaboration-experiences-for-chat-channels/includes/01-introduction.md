@@ -10,6 +10,6 @@ After this module, you will be able to:
 * Manage the email integration, file sharing and cloud storage for teams
 * Create and manage messaging policies
 * Set up channel moderation in teams
-* Manage access to channels
+* Manage access to channels 
 
 
