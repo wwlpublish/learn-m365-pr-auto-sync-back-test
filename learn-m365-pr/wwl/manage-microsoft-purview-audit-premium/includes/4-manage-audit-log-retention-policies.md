@@ -37,7 +37,7 @@ Complete the following steps to create a custom audit log retention policy:
 3.  On the **Audit** page, select the **Audit retention policies** tab.
 4.  On the **Audit retention policies** tab, select **Create audit retention policy**, and then complete the following fields on the **New audit retention policy** window that appears:
     
-    :::image type="content" source="../media/createauditlogretentionpolicy-3f6fc15e.png" alt-text="Screenshot showing the New audit retention policy window with several of the settings highlighted.":::
+    :::image type="content" source="../media/create-audit-log-retention-policy-49ced9e7.png" alt-text="Screenshot showing the New audit retention policy window with several of the settings highlighted.":::
     
     
     
@@ -61,7 +61,7 @@ Audit log retention policies are listed on the **Audit retention policies** tab 
 
 Audit log retention policies are listed in the dashboard. One advantage of viewing policies in the dashboard is that you can select the **Priority** column to list the policies in the priority in which they're applied. As previously explained, a lower value indicates a higher priority.
 
-:::image type="content" source="../media/auditlogretentiondashboardpriority-382cd206.png" alt-text="Screenshot showing the Audit retention policies tab on the Audit page with the priority column highlighted for each policy.":::
+:::image type="content" source="../media/audit-log-retention-dash-board-priority-4e61fb1c.png" alt-text="Screenshot showing the Audit retention policies tab on the Audit page with the priority column highlighted for each policy.":::
 
 
 You can also select a policy to display its settings on the policy detail pane that appears.

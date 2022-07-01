@@ -196,7 +196,7 @@ If any of the properties listed in the table in the previous section are differe
 
 For example, in audit records shown in the following screenshot, mail was accessed from EWSEditor and OWA simultaneously. However, the access activity is collated in different audit records depending on the context in which the access took place. In this case, the context is defined by different values for the **ClientInfoString** property.
 
-:::image type="content" source="../media/mailitemsaccessed4-7f5052f7.png" alt-text="Screenshot of the Search Mailbox Audit Log command in PowerShell and the resulting audit records that it retrieved.":::
+:::image type="content" source="../media/mail-items-accessed-4-959b4774.png" alt-text="Screenshot of the Search Mailbox Audit Log command in PowerShell and the resulting audit records that it retrieved.":::
 
 
 The following PowerShell command was used in this screenshot:

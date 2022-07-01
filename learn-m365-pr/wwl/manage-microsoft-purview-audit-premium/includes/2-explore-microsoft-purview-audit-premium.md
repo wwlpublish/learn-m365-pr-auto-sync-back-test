@@ -79,7 +79,7 @@ The MailItemsAccessed event replaces MessageBind in mailbox auditing logging in 
 
 To search for MailItemsAccessed audit records, organizations can search for the **Accessed mailbox items** activity in the Exchange mailbox activities drop-down list in the audit log search tool in the Microsoft Purview compliance portal.
 
-:::image type="content" source="../media/advaudit_mailitemsaccessed-625664f7.png" alt-text="Screenshot of the Search window with the Accessed mailbox items option selected for the Activities setting.":::
+:::image type="content" source="../media/advanced-audit-mail-items-accessed-3ce3f22d.png" alt-text="Screenshot of the Search window with the Accessed mailbox items option selected for the Activities setting.":::
 
 
 You can also run the [Search-UnifiedAuditLog -Operations MailItemsAccessed](/powershell/module/exchange/search-unifiedauditlog?azure-portal=true) or [Search-MailboxAuditLog -Operations MailItemsAccessed](/powershell/module/exchange/search-mailboxauditlog?azure-portal=true) commands in Exchange Online PowerShell.
@@ -103,7 +103,7 @@ This auditing information can help investigators identify information about emai
 
 To search for Send audit records, you can search for the **Sent message** activity in the Exchange mailbox activities drop-down list in the audit log search tool in the Microsoft Purview compliance portal.
 
-:::image type="content" source="../media/advaudit_sentmessage-27e6f824.png" alt-text="Screenshot of the Search window with the Sent message option selected for the Activities setting.":::
+:::image type="content" source="../media/advanced-audit-sent-message-79c18307.png" alt-text="Screenshot of the Search window with the Sent message option selected for the Activities setting.":::
 
 
 You can also run the [Search-UnifiedAuditLog -Operations Send](/powershell/module/exchange/search-unifiedauditlog?azure-portal=true) or [Search-MailboxAuditLog -Operations Send](/powershell/module/exchange/search-mailboxauditlog?azure-portal=true) commands in Exchange Online PowerShell.
@@ -122,7 +122,7 @@ Investigators can use the SearchQueryInitiatedExchange event to determine if an 
 
 To search for SearchQueryInitiatedExchange audit records, you can search for the **Performed email search** activity in the Search activities drop-down list in the audit log search tool in the Microsoft Purview compliance portal.
 
-:::image type="content" source="../media/advaudit_searchexchange-2347fc8d.png" alt-text="Screenshot of the Search window with the Performed email search option selected for the Activities setting.":::
+:::image type="content" source="../media/advanced-audit-search-exchange-fea27fe7.png" alt-text="Screenshot of the Search window with the Performed email search option selected for the Activities setting.":::
 
 
 You can also run the [Search-UnifiedAuditLog -Operations SearchQueryInitiatedExchange](/powershell/module/exchange/search-unifiedauditlog?azure-portal=true) in Exchange Online PowerShell.
@@ -142,7 +142,7 @@ Investigators can use the SearchQueryInitiatedSharePoint event to determine if a
 
 To search for SearchQueryInitiatedSharePoint audit records, you can search for the **Performed SharePoint search** activity in the Search activities drop-down list in the audit log search tool in the Microsoft Purview compliance portal.
 
-:::image type="content" source="../media/advaudit_searchsharepoint-69f11352.png" alt-text="Screenshot of the Search window with the Performed SharePoint search option selected for the Activities setting.":::
+:::image type="content" source="../media/advanced-audit-search-sharepoint-86a40402.png" alt-text="Screenshot of the Search window with the Performed SharePoint search option selected for the Activities setting.":::
 
 
 You can also run the [Search-UnifiedAuditLog -Operations SearchQueryInitiatedSharePoint](/powershell/module/exchange/search-unifiedauditlog?azure-portal=true) in Exchange Online PowerShell.

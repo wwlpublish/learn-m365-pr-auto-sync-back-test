@@ -1,6 +1,6 @@
 If an organization has a subscription and end-user licensing that supports Audit (Premium), it should perform the following steps to set up and use the Audit (Premium) capabilities.
 
-:::image type="content" source="../media/advancedauditworkflow-b9e1e64a.png" alt-text="Diagram showing the workflow to set up Microsoft Purview Audit Premium.":::
+:::image type="content" source="../media/advanced-audit-workflow-5ee0c15a.png" alt-text="Diagram showing the workflow to set up Microsoft Purview Audit Premium.":::
 
 
 ### Step 1: Set up Audit (Premium) for users
