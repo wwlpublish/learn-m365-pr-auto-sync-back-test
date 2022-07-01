@@ -17,7 +17,7 @@ The module then examines how to implement Audit (Premium). You'll review the fol
 
 The module then focuses on the final two activities in this workflow - setting up audit log retention policies and performing investigations of compromised accounts.
 
-After completing this module, you'll be able to:
+After completing this module, you'll be able to: 
 
  -  Describe the differences between Audit (Standard) and Audit (Premium).
  -  Set up and implement Microsoft Purview Audit (Premium).
