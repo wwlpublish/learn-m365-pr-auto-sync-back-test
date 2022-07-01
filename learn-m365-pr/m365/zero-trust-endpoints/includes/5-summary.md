@@ -8,5 +8,5 @@ Now that you’ve completed this module, you should be able to:
 
 ## Learn more
 
-- [Embrace proactive security with Zero Trust](https://www.microsoft.com/security/business/zero-trust)
-- [Zero Trust Guidance Center](https://docs.microsoft.com/security/zero-trust/)
+- [Embrace proactive security with Zero Trust](/security/business/zero-trust)
+- [Zero Trust Guidance Center](/security/zero-trust/)
