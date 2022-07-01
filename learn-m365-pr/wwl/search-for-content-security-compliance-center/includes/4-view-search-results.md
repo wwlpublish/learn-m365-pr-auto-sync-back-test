@@ -10,11 +10,11 @@ To preview a sample of results returned by a search:
 2.  On the detail pane that appears for the selected search, the **Summary** tab is displayed by default. Review the summary information that pertains to the search.
 3.  At the bottom of the **Summary** tab, select the **Review sample** button.
     
-    :::image type="content" source="../media/previewsearchresults1-11b9d1a9.png" alt-text="Screenshot of the detail pane for a search that shows the review sample button highlighted.":::
+    :::image type="content" source="../media/preview-search-results-1-def5b00c.png" alt-text="Screenshot of the detail pane for a search that shows the review sample button highlighted.":::
     
 4.  A page is displayed containing a sample of the search results. In the list of search results, select an item to view its contents in the reading pane that appears on the right.
     
-    :::image type="content" source="../media/previewsearchresults2-163c7de7.png" alt-text="Screenshot showing a sample of the search results, with an item selected and displaying its contents in the detail pane.":::
+    :::image type="content" source="../media/preview-search-results-2-fb06bc8f.png" alt-text="Screenshot showing a sample of the search results, with an item selected and displaying its contents in the detail pane.":::
     
     
     > [!NOTE]
@@ -67,7 +67,7 @@ To display statistics for a Content search or a search associated with a eDiscov
      -  Select **eDiscovery** and then **Standard**, and then on the **eDiscovery (Standard)** page, select a case, and then on the **Searches** tab, select a search associated with the case that you want to review.
 2.  On the detail pane that appears for the selected search, select the **Search statistics** tab.
     
-    :::image type="content" source="../media/searchstatistics1-91ef0cf1.png" alt-text="Screenshot of an eDiscovery Standard case showing the Search statistics tab and the details of a selected search.":::
+    :::image type="content" source="../media/search-statistics-1-15d9219c.png" alt-text="Screenshot of an eDiscovery Standard case showing the Search statistics tab and the details of a selected search.":::
     
 
 The **Search statistics** tab contains for following sections that contain different types of statistics about the search.
@@ -76,7 +76,7 @@ The **Search statistics** tab contains for following sections that contain diffe
 
 This section displays a graphical summary of the estimated items returned by the search. The summary indicates the number of items that match the search criteria. This information gives you an idea about the estimated number of items returned by the search.
 
-:::image type="content" source="../media/searchcontentreport-5c5aff11.png" alt-text="Screenshot of an eDiscovery Standard case showing the Search statistics tab for a search, and the Search content option highlighted.":::
+:::image type="content" source="../media/search-content-report-82c80768.png" alt-text="Screenshot of an eDiscovery Standard case showing the Search statistics tab for a search, and the Search content option highlighted.":::
 
 
 This report displays the following information:
@@ -94,7 +94,7 @@ This section displays statistics about:
 
 An organization can use these statistics to analyze the number of items that match each component of the search query. This information can help an organization refine the search criteria. It can also help to narrow the scope of the scope. An option also appears that enables the organization to download a copy of the report in CSV format.
 
-:::image type="content" source="../media/searchcontentreportnokeywordlist-72c3266f.png" alt-text="Screenshot of an eDiscovery Standard case showing the Search statistics tab for a search, and the Condition report option highlighted.":::
+:::image type="content" source="../media/search-content-report-no-keyword-list-ea2e9ad1.png" alt-text="Screenshot of an eDiscovery Standard case showing the Search statistics tab for a search, and the Condition report option highlighted.":::
 
 
 This report displays the following information:
@@ -132,7 +132,7 @@ To create a keyword list and view keyword statistics for a search:
 2.  On the **Conditions** page of the search wizard, select the **Show keyword list** checkbox.
 3.  Type a keyword or keyword phase in a row in the **Keywords** table. For example, type **budget** in the first row, type **security** in the second row, and type **FY2021** in the third row. This example is displayed in the following screenshot.
     
-    :::image type="content" source="../media/searchkeywordslist2-0c93d93b.png" alt-text="Screenshot of the Define your search conditions window showing a list of keywords and keyword phrases that were entered by a user.":::
+    :::image type="content" source="../media/search-keywords-list-2-858e4dec.png" alt-text="Screenshot of the Define your search conditions window showing a list of keywords and keyword phrases that were entered by a user.":::
     
     
     > [!NOTE]
@@ -141,7 +141,7 @@ To create a keyword list and view keyword statistics for a search:
 5.  When the search is completed, select it to display the detail page for the search.
 6.  On the **Search statistics** tab, select the **Condition report** option to display the keyword statistics for the search.
     
-    :::image type="content" source="../media/searchkeywordslist3-fdecd202.png" alt-text="Screenshot of a detail pane for a search showing the Search statistics tab and the Condition report.":::
+    :::image type="content" source="../media/search-keywords-list-3-58cda97e.png" alt-text="Screenshot of a detail pane for a search showing the Search statistics tab and the Condition report.":::
     
     
     As shown in the previous screenshot, the statistics for each keyword are displayed. These statistics includes:

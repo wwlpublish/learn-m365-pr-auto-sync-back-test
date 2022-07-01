@@ -44,7 +44,7 @@ The first step is to prepare the search results for exporting. When you prepare 
 2.  On the **Content search** page, select the content search that you want to export results from.
 3.  On the **Actions** menu at the bottom of the flyout page, select **Export results**. The **Export results** flyout page is displayed. The export options available to export content depend on whether search results are located in mailboxes or sites or a combination of both.
     
-    :::image type="content" source="../media/actionmenuexportresults-cf530593.png" alt-text="Screenshot of the Actions menu at the bottom of the flyout page.":::
+    :::image type="content" source="../media/action-menu-export-results-693fdd85.png" alt-text="Screenshot of the Actions menu at the bottom of the flyout page.":::
     
 4.  Under **Output** options, choose one of the following options:
     
@@ -205,7 +205,7 @@ The next step is to download the report from the Azure Storage area to your loca
 6.  If you're prompted to install the eDiscovery Export Tool, select **Install**.
 7.  In the **eDiscovery Export Tool**, complete the following steps:
     
-    :::image type="content" source="../media/ediscoveryexporttool-fd1336a1.png" alt-text="Screenshot of the eDiscovery Export Tool dialog box and the fields for entering the export key and the location for downloading the files.":::
+    :::image type="content" source="../media/ediscovery-export-tool-4851035a.png" alt-text="Screenshot of the eDiscovery Export Tool dialog box and the fields for entering the export key and the location for downloading the files.":::
     
     
     
