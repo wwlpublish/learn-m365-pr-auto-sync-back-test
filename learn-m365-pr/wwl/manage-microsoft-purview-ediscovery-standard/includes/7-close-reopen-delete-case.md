@@ -18,7 +18,7 @@ An organization should perform the following steps to close a case:
     > [!NOTE]
     > A warning is displayed indicating the holds associated with the case will be turned off.
     
-    :::image type="content" source="../media/ediscoverycasehomepage-7ea3d9cb.png" alt-text="Screenshot of case's Home tab showing the Close case option highlighted.":::
+    :::image type="content" source="../media/ediscovery-case-home-page-ae8f18fd.png" alt-text="Screenshot of case's Home tab showing the Close case option highlighted.":::
     
 4.  Select **Yes** to close the case. The status of the case on its **Home** tab is changed from **Active** to **Closing**.
 5.  On the **eDiscovery (Standard)** page, select **Refresh** to update the status of the closed case.
@@ -37,7 +37,7 @@ An organization should perform the following steps to reopen a closed a case:
     > [!NOTE]
     > A warning is displayed indicating the holds that were associated with the case when it was closed won't be turned on automatically.
     
-    :::image type="content" source="../media/ediscoverycasehomepagereopen-653a11d9.png" alt-text="Screenshot of case's Home tab showing the Reopen case option highlighted.":::
+    :::image type="content" source="../media/ediscovery-case-home-page-reopen-8a096adb.png" alt-text="Screenshot of case's Home tab showing the Reopen case option highlighted.":::
     
 4.  Select **Yes** to reopen the case. The status of the case on its **Home** tab is changed from **Closed** to **Active**.
 5.  On the **eDiscovery (Standard)** page, select **Refresh** to update the status of the reopened case.
@@ -75,7 +75,7 @@ Perform the following steps to delete a case:
 2.  On the **eDiscovery (Standard)** page, select the name of the case that you want to delete.
 3.  On the case's detail page, on the **Home** tab, select **Delete case**, which appears under the **Status** section.
     
-    :::image type="content" source="../media/ediscoverycasehomepagedelete-c75d9fe9.png" alt-text="Screenshot of case's Home tab showing the Delete case option highlighted.":::
+    :::image type="content" source="../media/ediscovery-case-home-page-delete-eb1f5552.png" alt-text="Screenshot of case's Home tab showing the Delete case option highlighted.":::
     
 
 > [!IMPORTANT]

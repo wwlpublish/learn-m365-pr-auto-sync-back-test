@@ -107,7 +107,7 @@ If you create a case in Step 3 and you're the only person who will use the case,
 
 The following diagram is designed to help organizations get started using eDiscovery (Standard) once they've created a case. A brief summary of each step included in this diagram is provided below. Each summary highlights some extended eDiscovery (Standard) functionality that organizations can explore.
 
-:::image type="content" source="../media/coreediscoveryworkflow-3c615545.png" alt-text="Diagram showing the Microsoft Purview eDiscovery Standard workflow, which consists of three steps.":::
+:::image type="content" source="../media/core-ediscovery-workflow-c44de18f.png" alt-text="Diagram showing the Microsoft Purview eDiscovery Standard workflow, which consists of three steps.":::
 
 
 1.  **Create an eDiscovery hold**. The first step after creating a case is placing a hold (also called an **eDiscovery hold**) on the content locations of the people of interest in the investigation. Content locations include:

@@ -27,7 +27,7 @@ Complete the following steps to create an eDiscovery hold that's associated with
 5.  In the **New Hold** wizard, on the **Name your hold** page, enter a **Name** for the hold. Optionally add a **Description**, and then select **Next**. The name of the hold must be unique in the organization.
 6.  On the **Choose locations** page, select the content locations that you want to place on hold. You can place mailboxes, sites, and public folders on hold.
     
-    :::image type="content" source="../media/ediscoveryholdlocations-1edd603e.png" alt-text="Screenshot of the Choose locations page in the New Hold wizard, with each of the three locations highlighted.":::
+    :::image type="content" source="../media/ediscovery-hold-locations-fe407e4d.png" alt-text="Screenshot of the Choose locations page in the New Hold wizard, with each of the three locations highlighted.":::
     
     
     
@@ -40,7 +40,7 @@ Complete the following steps to create an eDiscovery hold that's associated with
 7.  When you're done adding locations to the hold, select **Next**.
 8.  On the **Query** page, create a query-based hold using keywords or conditions. To do so, complete the following steps.
     
-    :::image type="content" source="../media/ediscoveryholdquery-f57be2d6.png" alt-text="Screenshot of the Query page in the New Hold wizard, with the Keywords field and the Add condition option highlighted.":::
+    :::image type="content" source="../media/ediscovery-hold-query-fef6aafb.png" alt-text="Screenshot of the Query page in the New Hold wizard, with the Keywords field and the Add condition option highlighted.":::
     
     
     

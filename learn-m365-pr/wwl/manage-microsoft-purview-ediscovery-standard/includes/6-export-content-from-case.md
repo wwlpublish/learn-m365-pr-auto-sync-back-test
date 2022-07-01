@@ -15,7 +15,7 @@ Organizations should complete the following steps to export the search results f
 3.  On the case's detail page, select the **Searches** tab.
 4.  On the **Actions** menu at the bottom of the detail pane, select **Export results**.
     
-    :::image type="content" source="../media/actionmenuexportresults-cf530593.png" alt-text="Screenshot showing the Action menu with the Export results option highlighted.":::
+    :::image type="content" source="../media/action-menu-export-results-693fdd85.png" alt-text="Screenshot showing the Action menu with the Export results option highlighted.":::
     
     
     The workflow to export the results of a search associated with a eDiscovery (Standard) case is the same as exporting the search results for a search on the **Content search** page. For step-by-step instructions, see the training module titled: **Search for content in the Microsoft Purview compliance portal**.
@@ -26,7 +26,7 @@ Organizations should complete the following steps to export the search results f
     After the export is started, the search results are prepared for downloading. As a result, they're transferred to a Microsoft-provided Azure Storage location in the Microsoft cloud.
 5.  On the case's detail page, select the **Exports** tab to display the list of export jobs related to that case.
     
-    :::image type="content" source="../media/coreediscoveryexport-64b15119.png" alt-text="Screenshot of a case's detail page showing the Exports tab and two export jobs that were run for the case.":::
+    :::image type="content" source="../media/core-ediscovery-export-e1cabcca.png" alt-text="Screenshot of a case's detail page showing the Exports tab and two export jobs that were run for the case.":::
     
     
     > [!NOTE]

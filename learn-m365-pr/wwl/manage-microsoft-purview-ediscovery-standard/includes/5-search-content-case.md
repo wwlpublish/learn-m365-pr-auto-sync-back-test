@@ -8,12 +8,12 @@ To create an eDiscovery (Standard) search:
 4.  On the **eDiscovery (Standard)** page, select the case that you want to create an associated search, and then select **Open case**.
 5.  On the detail page for the case, select the **Searches** tab, and then select **+New search**.
     
-    :::image type="content" source="../media/coreediscoverysearch1-47fc6d1e.png" alt-text="Screenshot showing the Searches tab on the detail page for a case, with the New search option highlighted.":::
+    :::image type="content" source="../media/core-ediscovery-search-1-63924cce.png" alt-text="Screenshot showing the Searches tab on the detail page for a case, with the New search option highlighted.":::
     
 6.  In the **New search** pane that appears, enter a **Name** for the search (required) and optionally enter a description. The name of the search must be unique in your organization.
 7.  On the **Locations** page, choose the content locations that you want to search. You can search mailboxes, sites, and public folders.
     
-    :::image type="content" source="../media/contentsearchlocations-b535b0cc.png" alt-text="Screenshot showing the Locations page in the New search wizard, with the three locations highlighted.":::
+    :::image type="content" source="../media/content-search-locations-7c1a4776.png" alt-text="Screenshot showing the Locations page in the New search wizard, with the three locations highlighted.":::
     
     
     
@@ -27,7 +27,7 @@ To create an eDiscovery (Standard) search:
     4.  **Add App Content for On-Premises Users**. Keep this check box selected to search for Teams content for on-premises users. For example, if you search all Exchange mailboxes in the organization and this check box is selected, the cloud-based storage used to store Teams chat data for on-premises users will be included in the scope of the search. For more information, see [Search for Teams chat data for on-premises users](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users?azure-portal=true).
 8.  On the **Define your search conditions** page, type a keyword query and add conditions to the search query if necessary.
     
-    :::image type="content" source="../media/contentsearchquery-1ac53e91.png" alt-text="Screenshot of the Define your search conditions page in the New search wizard, showing the keywords and conditions settings highlighted.":::
+    :::image type="content" source="../media/content-search-query-d435e57c.png" alt-text="Screenshot of the Define your search conditions page in the New search wizard, showing the keywords and conditions settings highlighted.":::
     
     
     

@@ -21,7 +21,7 @@ Microsoft Purview eDiscovery (Standard) builds on the basic search and export fu
 
 The following diagram displays the basic workflow on how to get started using eDiscovery (Standard).
 
-:::image type="content" source="../media/coreediscoveryworkflow-3c615545.png" alt-text="Diagram showing the basic workflow steps when implementing Microsoft Purview eDiscovery Standard.":::
+:::image type="content" source="../media/core-ediscovery-workflow-c44de18f.png" alt-text="Diagram showing the basic workflow steps when implementing Microsoft Purview eDiscovery Standard.":::
 
 
 Organizations must create eDiscovery holds for people of interest, search for content that's relevant to its investigation, and then export that data for further review.
