@@ -68,7 +68,7 @@ Each of these steps is examined in greater detail in the following sections.
     > If the **Start recording user and admin activity** link is displayed, select it to turn on auditing. If you don't see this link, auditing is already turned on for your organization.
 3.  On the **Audit** page, the **Search** tab is displayed by default. Configure the following search criteria in this tab:
     
-    :::image type="content" source="../media/auditlogsearchpage1-85edea31.png" alt-text="Screenshot of the Audit page in the Microsoft Purview compliance portal showing the various settings that can be configured.":::
+    :::image type="content" source="../media/audit-log-search-page-1-5b694ad3.png" alt-text="Screenshot of the Audit page in the Microsoft Purview compliance portal showing the various settings that can be configured.":::
     
     
     
@@ -137,7 +137,7 @@ Organizations should keep in mind the following considerations when searching th
      -  If an activity is selected, you can select it to cancel the selection.
      -  You can use the search box to display the activities that contain the keyword that you type.
         
-        :::image type="content" source="../media/tips-for-running-audit-log-search-374346a9.png" alt-text="Screenshot showing the Audit Log search window with callout boxes displaying various search tips.":::
+        :::image type="content" source="../media/tips-for-run-audit-log-search-db8a937e.png" alt-text="Screenshot showing the Audit Log search window with callout boxes displaying various search tips.":::
         
  -  You have to select **Show results for all activities** in the **Activities** list to display events from the Exchange admin audit log. Events from this audit log display a cmdlet name (for example, Set-Mailbox) in the **Activity** column in the results.
     

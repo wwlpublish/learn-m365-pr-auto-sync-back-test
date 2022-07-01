@@ -12,7 +12,7 @@ The first step is to search the audit log and then export the results in a comma
 2.  If necessary, revise the search criteria until you have the desired results.
 3.  On the search results page, select **Export**, and then select **Download all results**.
     
-    :::image type="content" source="../media/exportauditsearchresults-8703ffec.png" alt-text="Screenshot of the Audit search window with the Download all results option highlighted.":::
+    :::image type="content" source="../media/export-audit-search-results-553fefa1.png" alt-text="Screenshot of the Audit search window with the Download all results option highlighted.":::
     
     
     This option exports all the audit records from the audit log search. It then adds the raw data from the audit log to a CSV file. It takes a while to prepare the download file for a large search. Large files will result when searching for all activities or using a wide date range.
@@ -28,12 +28,12 @@ The next step is where the JSON transform feature in the Power Query Editor in E
 1.  Open a blank workbook in Excel for Office 365, Excel 2019, or Excel 2016.
 2.  On the **Data** tab, in the **Get &amp; Transform Data** ribbon group, select **From Text/CSV**.
     
-    :::image type="content" source="../media/jsontransformopencsvfile-90f3bfaa.png" alt-text="Screenshot of an Excel spreadsheet showing the Get and transform data section in the ribbon and the From text and C S V option highlighted.":::
+    :::image type="content" source="../media/json-transform-open-csv-file-36489bd9.png" alt-text="Screenshot of an Excel spreadsheet showing the Get and transform data section in the ribbon and the From text and C S V option highlighted.":::
     
 3.  Open the CSV file that you downloaded in Step 1.
 4.  In the window that's displayed, select **Transform Data**.
     
-    :::image type="content" source="../media/jsonopenpowerquery-ee01e9d4.png" alt-text="Screenshot of a downloaded C S V file that shows the Transform Data button highlighted.":::
+    :::image type="content" source="../media/json-open-power-query-076b48f4.png" alt-text="Screenshot of a downloaded C S V file that shows the Transform Data button highlighted.":::
     
     
     The CSV file is opened in the Query Editor. There are four columns: **CreationDate**, **UserIds**, **Operations**, and **AuditData**.
@@ -41,17 +41,17 @@ The next step is where the JSON transform feature in the Power Query Editor in E
     The **AuditData** column is a JSON object that contains multiple properties. The next step is to create a column for each property in the JSON object.
 5.  Right-click the title in the **AuditData** column, select **Transform**, and then select **JSON**.
     
-    :::image type="content" source="../media/jsontransform-dec1abdb.png" alt-text="Screenshot of a C S V file opened in the Query Editor and showing the Audit Data column and the Transform option highlighted.":::
+    :::image type="content" source="../media/json-transform-6a2c5ac4.png" alt-text="Screenshot of a C S V file opened in the Query Editor and showing the Audit Data column and the Transform option highlighted.":::
     
 6.  In the upper-right corner of the **AuditData** column, select the expand icon.
     
-    :::image type="content" source="../media/jsontransformexpandicon-14256a23.png" alt-text="Screenshot of a C S V file opened in the Query Editor and showing the Audit Data column and the Expand icon highlighted.":::
+    :::image type="content" source="../media/json-transform-expand-icon-b3401c04.png" alt-text="Screenshot of a C S V file opened in the Query Editor and showing the Audit Data column and the Expand icon highlighted.":::
     
     
     A partial list of the properties in the JSON objects in the **AuditData** column is displayed.
 7.  Select **Load more** to display all properties in the JSON objects in the **AuditData** column.
     
-    :::image type="content" source="../media/jsontransformloadjsonproperties-460e3f6f.png" alt-text="Screenshot of a C S V file opened in the Query Editor and showing the Audit Data column and the Load more option highlighted.":::
+    :::image type="content" source="../media/json-transform-load-json-properties-f91cbced.png" alt-text="Screenshot of a C S V file opened in the Query Editor and showing the Audit Data column and the Load more option highlighted.":::
     
     
     You can unselect the checkbox next to any property that you don't want to include. Eliminating columns that aren't useful for your investigation is a good way to reduce the amount of data displayed in the audit log.

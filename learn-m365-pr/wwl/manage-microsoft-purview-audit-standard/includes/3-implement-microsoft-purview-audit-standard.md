@@ -1,6 +1,6 @@
 Microsoft Purview Audit (Standard) in Microsoft 365 enables organizations to search for audit records of activities that were completed by users and administrators in the different Microsoft 365 services. Audit (Standard) is enabled by default for most Microsoft 365 and Office 365 organizations. As a result, there's only a few things an organization must do before it can search the audit log.
 
-:::image type="content" source="../media/basicauditingworkflow-50029870.png" alt-text="Diagram showing the steps to set up Microsoft Purview Audit (Standard), which include setting up licensing and permissions.":::
+:::image type="content" source="../media/basic-audit-workflow-595d32ab.png" alt-text="Diagram showing the steps to set up Microsoft Purview Audit (Standard), which include setting up licensing and permissions.":::
 
 
 The setup steps that must be completed before an organization can search the audit log using Audit (Standard) include:
@@ -48,7 +48,7 @@ At this point, an organization is ready to search the audit log within the Micro
 1.  In the **Microsoft Purview compliance** portal, select **Audit** in the navigation pane.
 2.  On the **Audit** page, configure the search using the following conditions on the **Search** tab.
     
-    :::image type="content" source="../media/auditlogsearchtoolmcccallouts-30e0b194.png" alt-text="Screenshot of the Audit page on the Microsoft Purview compliance portal showing the audit log search settings.":::
+    :::image type="content" source="../media/audit-log-search-tool-callouts-db4d2a76.png" alt-text="Screenshot of the Audit page on the Microsoft Purview compliance portal showing the audit log search settings.":::
     
     
     

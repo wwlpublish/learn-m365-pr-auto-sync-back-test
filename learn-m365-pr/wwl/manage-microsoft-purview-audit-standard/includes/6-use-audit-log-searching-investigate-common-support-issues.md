@@ -22,7 +22,7 @@ This section describes the basics for creating and running audit log searches. U
 2.  In the **Microsoft Purview compliance** portal, in the left-hand navigation pane, select **Audit**.
 3.  On the **Audit** page, the **Search** tab is displayed by default.
     
-    :::image type="content" source="../media/auditlogsearchpage1-85edea31.png" alt-text="Screenshot showing the Audit page in the Microsoft Purview compliance portal, with each of the settings highlighted.":::
+    :::image type="content" source="../media/audit-log-search-page-1-5b694ad3.png" alt-text="Screenshot showing the Audit page in the Microsoft Purview compliance portal, with each of the settings highlighted.":::
     
     
     You can configure the following search criteria. Each troubleshooting scenario in this article recommends specific guidance for configuring these fields.
@@ -63,12 +63,12 @@ Here's how to configure an audit log search query for this scenario:
 
 After you run the search, select **Filter results** on the search results page. In the box under the **Activity** column header, type **Set-Mailbox** so that only audit records related to the **Set-Mailbox** cmdlet are displayed.
 
-:::image type="content" source="../media/emailforwarding1-4d9e67f2.png" alt-text="Screenshot showing the search results page with the Set Mailbox activity highlighted for filtering the results.":::
+:::image type="content" source="../media/email-forward-1-edb35d8e.png" alt-text="Screenshot showing the search results page with the Set Mailbox activity highlighted for filtering the results.":::
 
 
 At this point, you have to look at the details of each audit record to determine if the activity is related to email forwarding. Select the audit record to display the **Details** flyout page, and then select **More information**. The following screenshot and descriptions highlight the information that indicates email forwarding was set on the mailbox.
 
-:::image type="content" source="../media/emailforwarding2-1b4bce19.png" alt-text="Screenshot of the search results page after selecting the More information option, and with fields from the audit record highlighted.":::
+:::image type="content" source="../media/email-forward-2-3ef10e73.png" alt-text="Screenshot of the search results page after selecting the More information option, and with fields from the audit record highlighted.":::
 
 
 1.  In the **ObjectId** field, the alias of the mailbox that email forwarding was set on is displayed. This mailbox is also displayed on the **Item** column in the search results page.
@@ -108,12 +108,12 @@ The following screenshots show an example of the **AffectedItems** field from a 
 
 Example of the **AffectedItems** field for a soft-deleted item:
 
-:::image type="content" source="../media/softdeleteditem-6956744f.png" alt-text="Screenshot of the Audit record for a soft-deleted email item.":::
+:::image type="content" source="../media/soft-deleted-item-cd526486.png" alt-text="Screenshot of the Audit record for a soft-deleted email item.":::
 
 
 Example of the **AffectedItems** field for a hard-deleted item:
 
-:::image type="content" source="../media/harddeleteditem-c32c6478.png" alt-text="Screenshot of the Audit record for a hard-deleted email item.":::
+:::image type="content" source="../media/hard-deleted-item-e1ea776d.png" alt-text="Screenshot of the Audit record for a hard-deleted email item.":::
 
 
 #### Recover deleted email items
@@ -140,7 +140,7 @@ Here's how to configure an audit log search query for this scenario:
 
 After you run the search, any audit records for this activity are displayed in the search results. Select an audit record to display the **Details** flyout page, and then select **More information**. Information about the inbox rule settings is displayed in the **Parameters** field. The following screenshot and descriptions highlight the information about inbox rules.
 
-:::image type="content" source="../media/newinboxrulerecord-8c4aba4a.png" alt-text="Screenshot of the Audit record for a new inbox rule that shows selected fields highlighted.":::
+:::image type="content" source="../media/new-inbox-rule-record-518c6308.png" alt-text="Screenshot of the Audit record for a new inbox rule that shows selected fields highlighted.":::
 
 
 1.  In the **ObjectId** field, the full name of the inbox rule is displayed. This name includes the alias of the user's mailbox (for example, **SaraD**) and the name of the inbox rule (for example, "**Move messages from admin**").
@@ -167,7 +167,7 @@ The indication of the successful sign-in in the audit record is the result of Az
 
 The following screenshot shows an example and descriptions of relevant properties in an audit record for a **User logged In** event that's a result of pass-through authentication. Select the audit record to display the **Details** flyout page, and then select **More information**.
 
-:::image type="content" source="../media/passthroughauth1-406dc140.png" alt-text="Screenshot of an Audit record for a successful pass-thru authentication and with selected fields highlighted.":::
+:::image type="content" source="../media/pass-through-authentication-1-2e6b71ec.png" alt-text="Screenshot of an Audit record for a successful pass-thru authentication and with selected fields highlighted.":::
 
 
 1.  This field indicates the user who attempted to access a resource in your organization wasn't found in your organization's Azure AD.
@@ -187,7 +187,7 @@ Organizations should keep in mind the following considerations when investigatin
 
  -  Search the audit log for activities performed by the external user identified in the **User logged in** audit record. Type the UPN for the external user in the **Users** box and use a date range if relevant to your scenario. For example, you can create a search using the following search criteria:
     
-    :::image type="content" source="../media/passthroughauth2-6187ecd6.png" alt-text="Screenshot of a content search window showing the fields to enter to search for all activities completed by an external user.":::
+    :::image type="content" source="../media/pass-through-authentication-2-5bf77132.png" alt-text="Screenshot of a content search window showing the fields to enter to search for all activities completed by an external user.":::
     
     
     Besides the **User logged in** activities, other audit records may be returned. For example, records that indicate a user in your organization shared resources with the external user and whether the external user accessed, modified, or downloaded a document that was shared with them.
