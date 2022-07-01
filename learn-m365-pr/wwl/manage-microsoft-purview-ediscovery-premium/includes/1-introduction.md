@@ -10,7 +10,7 @@ In this module, you'll examine the steps for setting up eDiscovery (Premium). Yo
 
 The module concludes with a review of the toolset provided in eDiscovery (Premium) to analyze case data. These tools are designed to make the review process more manageable, efficient, and effective. It can be difficult for organizations to review all the collected documents in a review set when a large number of documents are involved. This set of tools provided by eDiscovery (Premium) helps organizations analyze documents, and ultimately reduce the volume of documents to be reviewed without any loss in information. They can also help organize the documents in a coherent manner.
 
-After completing this module, you'll be able to:
+After completing this module, you'll be able to: 
 
  -  Describe how Microsoft Purview eDiscovery (Premium) builds on eDiscovery (Standard).
  -  Describe the basic workflow of eDiscovery (Premium).
