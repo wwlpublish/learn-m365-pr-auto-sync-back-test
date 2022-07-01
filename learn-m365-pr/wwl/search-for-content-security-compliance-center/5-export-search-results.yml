@@ -27,4 +27,4 @@ quiz:
       explanation: "Incorrect. When downloading search results for concurrent download jobs, you should download the results to different folders."
     - content: "Download search results to a mapped network drive"
       isCorrect: false
-      explanation: "Incorrect. Downloading search results to a mapped network drive can have an adverse affect on network traffic."
+      explanation: "Incorrect. Downloading search results to a mapped network drive can have an adverse effect on network traffic."
