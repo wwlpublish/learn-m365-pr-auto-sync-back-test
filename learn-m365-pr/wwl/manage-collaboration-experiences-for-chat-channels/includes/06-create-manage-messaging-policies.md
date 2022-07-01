@@ -2,7 +2,7 @@ Messaging policies are used to control chat and channel messaging features for u
 
 All users are assigned to the Global (Org-wide default) policy by default. Other custom policies can be created and assigned to individual users, but any user can only be assigned to one messaging policy at a time.
 
-:::image type="content" source="../media/messaging-policy.png" alt-text=" Screenshot of messaging policies":::
+:::image type="content" source="../media/messaging-policy.png" alt-text=" Screenshot of messaging policies.":::
 
 
 ## Messaging policy settings

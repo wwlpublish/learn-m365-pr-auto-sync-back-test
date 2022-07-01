@@ -22,7 +22,7 @@ However, from an experience perspective, mode can be described as defining the e
 
 Here are coexistence modes that are available when you decide to upgrades to Teams.
 
-:::image type="content" source="../media/skype-to-teams-upgrade-paths.png" alt-text="Screenshot of upgrade building blocks from Skype for Business to Teams":::
+:::image type="content" source="../media/skype-to-teams-upgrade-paths.png" alt-text="Screenshot of upgrade building blocks from Skype for Business to Teams.":::
 
 ## Skype for Business Only
 

@@ -13,7 +13,7 @@ Before you create channels, you first need to decide, which channels you need an
 
 A lock icon indicates a private channel. Only members of private channels can see and participate in private channels that they are added to.
 
-:::image type="content" source="../media/private-channels-teams.png" alt-text=" Screenshot of private channel":::  
+:::image type="content" source="../media/private-channels-teams.png" alt-text=" Screenshot of private channel.":::  
 
 The following decision matrix should be helpful at planning and recommending channel types.
 
@@ -78,7 +78,7 @@ To modify a channel in the Teams admin center, follow these steps:
 
 6. Modify the channel name and description then select **Apply**.
 
-	:::image type="content" source="../media/modify-channel.png" alt-text=" Screenshot of modifying a channel":::
+	:::image type="content" source="../media/modify-channel.png" alt-text=" Screenshot of modifying a channel.":::
 
 #### Delete a channel
 
@@ -109,9 +109,10 @@ To recover a deleted channel in the Teams client, follow these steps:
 
 4. Select **Restore** right from the channel you need to restore. 
 
-	:::image type="content" source="../media/restore-deleted-channel.png" alt-text=" Restore a deleted channel":::
+	:::image type="content" source="../media/restore-deleted-channel.png" alt-text=" Screenshot of restore a deleted channel from Teams client.":::
 
-**Note**: It is currently not possible to restore channels from the Teams admin center or via the Teams PowerShell module.
+> [!NOTE]
+> It is currently not possible to restore channels from the Teams admin center or via the Teams PowerShell module.
 
 ### Use PowerShell
 
@@ -146,7 +147,8 @@ To create a private channel, use the membership parameter and set the type to pr
 Get-Team -DisplayName "CxO Team" | New-TeamChannel -DisplayName "Billing" -Description "A channel for requesting payment on your invoices." -MembershipType Private
 ```
 
-**Note**: Using the *-MembershipType* parameter requires Teams PowerShell version 1.0.18 or newer. 
+> [!NOTE]
+> Using the *-MembershipType* parameter requires Teams PowerShell version 1.0.18 or newer. 
 
 To create a private channel on behalf of a user, without granting permissions to an administrator use the following cmdlet:
 

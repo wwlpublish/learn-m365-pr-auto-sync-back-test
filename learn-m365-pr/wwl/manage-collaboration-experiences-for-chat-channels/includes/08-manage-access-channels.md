@@ -34,7 +34,7 @@ To restrict team members from creating standard or private channels, the team ow
 
     -   Allow guests to create and update channels
 
-    :::image type="content" source="../media/team-private-channel-creation-restriction.png" alt-text=" Screenshot of managing member permissions":::
+    :::image type="content" source="../media/team-private-channel-creation-restriction.png" alt-text=" Screenshot of managing member permissions.":::
 
 ## Manage channel membership
 

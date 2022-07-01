@@ -2,7 +2,7 @@
 
 Managing Teams settings includes several options to control basic features of Microsoft Teams, including notifications and feeds, tagging, email integration, cloud storage options, and devices. These settings are organizational-wide settings and apply to all users and teams in an organization. You can go to the Teams admin center, select **Teams** > **Teams settings** for the settings page.  
 
-:::image type="content" source="../media/teams-settings.png" alt-text=" Screenshot of Microsoft Teams admin center: Teams settings"::: 
+:::image type="content" source="../media/teams-settings.png" alt-text=" Screenshot of Microsoft Teams admin center: Teams settings."::: 
 
 
 ## Notifications and feeds
@@ -21,7 +21,7 @@ Tags let users communicate with a subset of people on a team.  There are two kin
 Tags can be added to one or more team members. After a tag is added, it can be used in @mentions by anyone on the team in a channel post to communicate with only those people who are assigned that tag. As an admin, you can control how tags are used across your organization in the Microsoft Teams admin center.
 
 
-:::image type="content" source="../media/manage-tags-admin-settings.png" alt-text=" Screenshot of tagging settings in the Microsoft Teams admin center"::: 
+:::image type="content" source="../media/manage-tags-admin-settings.png" alt-text=" Screenshot of tagging settings in the Microsoft Teams admin center."::: 
 
 Use the following settings to control who can add tags and how tags are used across your organization. 
 
@@ -55,7 +55,7 @@ To add a cloud storage service to Teams:
 
 2.  Select your cloud storage service from the list that comes up.   
     
-    :::image type="content" source="../media/cloud-file-options.png" alt-text=" Screenshot of cloud file storage options in Teams client"::: 
+    :::image type="content" source="../media/cloud-file-options.png" alt-text=" Screenshot of cloud file storage options in Teams client."::: 
 
 3.  Sign in with your account. You may need to turn off your pop-up blocker first.
 
