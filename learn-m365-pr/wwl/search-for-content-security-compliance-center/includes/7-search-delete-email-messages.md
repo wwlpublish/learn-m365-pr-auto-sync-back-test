@@ -23,7 +23,7 @@ An organization can use the Content search feature to search for and delete emai
 
 ### Step 1: Connect to the Security and Compliance PowerShell module
 
-Organizations must use the **Security and Compliance PowerShell** module to delete messages. Therefore, the first step for an organization is to connect to the Security and Compliance PowerShell module. For more information on connecting to this module, see [Connect to Security &amp; Compliance PowerShell](/powershell/exchange/connect-to-scc-powershell?azure-portal=true).
+Organizations must use the **Security and Compliance PowerShell** module to delete messages. Therefore, the first step for an organization is to connect to the Security and Compliance PowerShell module. For more information on connecting to this module, see [Connect to Security & Compliance PowerShell](/powershell/exchange/connect-to-scc-powershell?azure-portal=true).
 
 ### Step 2: Create a Content Search to find the message to delete
 
@@ -102,7 +102,7 @@ When you run the previous commands to soft-delete or hard-delete messages, the s
 
  -  **How do you determine the status of the search and remove operation?**
     
-    Run the **Get-ComplianceSearchAction** command to get the status on the delete operation. The object that is created when you run the **New-ComplianceSearchAction** cmdlet is named using this format: **&lt;name of Content Search&gt;\_Purge.**
+    Run the **Get-ComplianceSearchAction** command to get the status on the delete operation. The object that is created when you run the **New-ComplianceSearchAction** cmdlet is named using this format: **\<name of Content Search\>\_Purge.**
  -  **What happens after you hard-delete a message?**
     
     A message that's hard-deleted with the **`New-ComplianceSearchAction -Purge -PurgeType HardDelete`** command is moved to the **Purges** folder. The message can't be accessed by the user.
