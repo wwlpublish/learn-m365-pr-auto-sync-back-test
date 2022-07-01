@@ -84,7 +84,7 @@ To see the app details and review the information
 
     The **Short name from publisher** field is only visible if you've changed the app's short name.
 
-    :::image type="content" source="../media/custom-app-detail.png" alt-text="Screenshot of reset app details to default values.":::
+    :::image type="content" source="../media/custom-app-detail.png" alt-text="Screenshot of app short name in app details .":::
 
 ## Reset app details to default values
 
