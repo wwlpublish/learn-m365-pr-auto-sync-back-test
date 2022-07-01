@@ -83,7 +83,7 @@ The last step to complete before users in an organization start to create and us
 
 The following diagram is designed to help organizations get started using eDiscovery (Premium) once they've created a case. A brief summary of each step included in this diagram is provided below. Each summary highlights some extended eDiscovery (Premium) functionality that organizations can explore.
 
-:::image type="content" source="../media/aedworkflow-ccfce77b.png" alt-text="Diagram showing the Microsoft Purview eDiscovery Premium workflow, which consists of five steps.":::
+:::image type="content" source="../media/ediscovery-workflow-d3334f0a.png" alt-text="Diagram showing the Microsoft Purview eDiscovery Premium workflow, which consists of five steps.":::
 
 
 1.  **Add custodians and non-custodial data sources to the case**. The first step after creating a case is to add custodians. A **custodian** is a person having administrative control of a document or electronic file that may be relevant to the case. Additionally, you can add data sources that aren't associated with a specific user but may be relevant to the case.

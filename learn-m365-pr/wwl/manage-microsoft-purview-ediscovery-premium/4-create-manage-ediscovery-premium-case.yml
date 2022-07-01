@@ -11,6 +11,6 @@ metadata:
   ms.prod: learning-m365
 azureSandbox: false
 labModal: false
-durationInMinutes: 3
+durationInMinutes: 4
 content: |
   [!include[](includes/4-create-manage-ediscovery-premium-case.md)]

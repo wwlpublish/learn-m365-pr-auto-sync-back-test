@@ -52,4 +52,4 @@ The eDiscovery (Premium) case format enables organizations to manage cases that 
 
 The user interface for the eDiscovery (Premium) case format displays the total size of each review set in the case. Review set sizes are displayed in a column on the **Review sets** tab.
 
-:::image type="content" source="../media/largecaseui-ac0858fd.png" alt-text="Screenshot showing the Review sets tab on the case detail page where the size of each review set is highlighted.":::
+:::image type="content" source="../media/large-case-ui-a7014335.png" alt-text="Screenshot showing the Review sets tab on the case detail page where the size of each review set is highlighted.":::

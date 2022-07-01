@@ -48,7 +48,7 @@ Other machine learning capabilities can further refine and identify relevant dat
 
 The built-in workflow of eDiscovery (Premium) in Microsoft 365 aligns with the eDiscovery process outlined by the Electronic Discovery Reference Model (EDRM).
 
-:::image type="content" source="../media/edrmv2-d9777452.png" alt-text="Diagram of the Electronic Discovery Reference Model workflow showing its eDiscovery process.":::
+:::image type="content" source="../media/electronic-discovery-reference-model-v2-941b53d1.png" alt-text="Diagram of the Electronic Discovery Reference Model workflow showing its eDiscovery process.":::
 
 
 (Image based on the EDRM model on edrm.net)

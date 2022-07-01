@@ -53,7 +53,7 @@ Perform the following steps to deselect the primary mailbox and OneDrive account
 1.  Expand the custodian to view the primary data locations that have been automatically associated to each custodian.
 2.  Select **Clear** next to **Mailbox** or **OneDrive** to remove a custodian's Exchange mailbox or OneDrive account from being associated as a data location for this custodian.
     
-    :::image type="content" source="../media/configurecustodianlocations-56f22e6d.png" alt-text="Screenshot of the Select custodian screen with the Clear option highlighted for the user's Exchange mailbox and OneDrive account.":::
+    :::image type="content" source="../media/configure-custodian-locations-af7e5008.png" alt-text="Screenshot of the Select custodian screen with the Clear option highlighted for the user's Exchange mailbox and OneDrive account.":::
     
 
 Perform the following steps to associate other mailboxes, sites, Teams, or Yammer groups to a specific custodian:
@@ -88,5 +88,5 @@ Before you actually add the custodians to the case, you can review the list of c
 1.  Verify and review all the data sources and the hold setting associated with each custodian in the table. If necessary, go back to the **Identify custodian** or **Hold settings** pages to make any changes.
 2.  Select **Submit** to add custodians and their data locations to the case and apply all custodial hold settings. The new custodians are added to the case and displayed on the **Data sources** tab.
     
-    :::image type="content" source="../media/datasourcestab-5e1d8afa.png" alt-text="Screenshot of the Data sources tab for a case that shows the custodians that were added to the case.":::
+    :::image type="content" source="../media/data-sources-tab-1843ae4e.png" alt-text="Screenshot of the Data sources tab for a case that shows the custodians that were added to the case.":::
     

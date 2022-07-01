@@ -11,7 +11,7 @@ metadata:
   ms.prod: learning-m365
 azureSandbox: false
 labModal: false
-durationInMinutes: 3
+durationInMinutes: 10
 content: |
   [!include[](includes/6-analyze-case-content.md)]
 quiz:

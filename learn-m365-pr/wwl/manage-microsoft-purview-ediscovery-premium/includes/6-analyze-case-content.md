@@ -35,7 +35,7 @@ After an organization runs analytics for the review set, it can use an automatic
 
 To apply the **For Review** filter query to a review set, select **Saved filter queries**. In the dropdown list that appears, select **\[AutoGen\] For Review**.
 
-:::image type="content" source="../media/forreviewfilterquery1-43ca7687.png" alt-text="Screenshot of a review set showing the Saved filter queries option and the For Review option in the drop-down menu.":::
+:::image type="content" source="../media/review-filter-query-1-56c79913.png" alt-text="Screenshot of a review set showing the Saved filter queries option and the For Review option in the drop-down menu.":::
 
 
 Here's the syntax for the **For Review filter** query:
