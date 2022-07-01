@@ -30,7 +30,7 @@ In this coexistence mode, users remain in Skype for Business—not Teams—for c
 
 This mode can be used prior to starting a managed deployment of Teams to prevent users from starting to use Teams ahead of having built readiness. This mode is also a way to enable authenticated participation in Teams meetings for Skype for Business users, provided the users are licensed for Teams.
 
-## Islands
+## Islands 
 
 Users can run Teams alongside Skype for Business as two separate solutions that deliver similar and overlapping capabilities. The capabilities include presence, chat, calling, and meetings. Teams users also can take advantage of new collaboration capabilities such as teams and channels, access to files in Microsoft 365 and applications.
 
