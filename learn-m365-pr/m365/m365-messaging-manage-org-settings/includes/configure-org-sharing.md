@@ -52,7 +52,7 @@ If you're setting up an organization relationship with an on-premises Exchange o
 - Fourth Coffee sees free/busy information with the time.
 
 ```PowerShell
-New-OrganizationRelationship -Name "Fourth Coffee" -DomainNames "fourthcoffee.com" -FreeBusyAccessEnabled $true -FreeBusyAccessLevel AvailabilityOnly -TargetAutodiscoverEpr "`https://mail.fourthcoffee.com/autodiscover/autodiscover.svc/wssecurity`" -TargetApplicationUri "mail.fourthcoffee.com"
+New-OrganizationRelationship -Name "Fourth Coffee" -DomainNames "fourthcoffee.com" -FreeBusyAccessEnabled $true -FreeBusyAccessLevel AvailabilityOnly -TargetAutodiscoverEpr "https://mail.fourthcoffee.com/autodiscover/autodiscover.svc/wssecurity" -TargetApplicationUri "mail.fourthcoffee.com"
 ```
 
 ## Modify an organization relationship in Exchange Online
