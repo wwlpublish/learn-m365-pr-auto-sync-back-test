@@ -20,4 +20,4 @@ You can use the same management tools you already use with Teams Rooms.  This le
 
 ## Learn more
 
-- [Certified Teams Room devices](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=20?azure-portal=true)
+- [Certified Teams Room devices](/learn/modules/configure-deploy-manage-teams-devices/)

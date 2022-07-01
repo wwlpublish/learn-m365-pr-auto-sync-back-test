@@ -18,7 +18,7 @@ Now that you have completed this module, you should be able to:
 - [Ways to contact support for business products - Admin Help](/microsoft-365/admin/contact-support-for-business-products)
 - [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
 - [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
-- [PSTN service desk](/microsoftteams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk)
+- [PSTN service desk](/learn/modules/configure-teams-phone-system/)
 - [Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)
 - [Calling policies in Microsoft Teams](/microsoftteams/teams-calling-policy)
 - [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
