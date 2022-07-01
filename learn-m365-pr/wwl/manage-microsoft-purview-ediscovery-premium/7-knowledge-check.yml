@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/30/2022
+  ms.date: 07/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -46,7 +46,7 @@ quiz:
       explanation: "Correct. Once all documents have been compared and grouped, a document from each group is marked as the pivot. When reviewing your documents, you can review a pivot first and review the other documents in the same near duplicate set. This process enables you to focus on the difference between the pivot and the document that's in review."
     - content: "The theme"
       isCorrect: false
-      explanation: "Incorrect. As part of the Themes tool, Advanced eDiscovery analyzes the ideas that are discussed in a review set and then assigns a corresponding theme to documents in the review set."
+      explanation: "Incorrect. As part of the Themes tool, eDiscovery (Premium) analyzes the ideas that are discussed in a review set and then assigns a corresponding theme to documents in the review set."
     - content: "The primary"
       isCorrect: false
       explanation: "Incorrect. This item isn't what a document is marked as from each group."

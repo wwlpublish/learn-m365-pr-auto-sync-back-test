@@ -4,7 +4,7 @@ title: Analyze case content
 metadata:
   title: Analyze case content
   description: "Analyze case content"
-  ms.date: 06/30/2022
+  ms.date: 07/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,7 +21,7 @@ quiz:
     choices:
     - content: "Inclusive"
       isCorrect: false
-      explanation: "Incorrect. In this category, the last message in the email has unique content, and the email has all of the attachments that were included in other emails of which the content is wholly contained in this email."
+      explanation: "Incorrect. In this category, the last message in the email has unique content. The email also has all the attachments that were included in other emails of which the content is wholly contained in this email."
     - content: "Inclusive minus"
       isCorrect: true
       explanation: "Correct. In this category, the last message in the email has unique content, but the email doesn't contain some of the attachments that were included in other emails of which the content is wholly contained in this email."
