@@ -16,7 +16,7 @@ A user must be assigned the **View-Only Audit Logs** or **Audit Logs** role in E
 
 ### Running audit log searches
 
-This section describes the basics for creating and running audit log searches. Use these instructions as a starting point for each troubleshooting scenario in this unit. For more detailed step-by-step instructions, see [Search the audit log](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-1-run-an-audit-log-search?azure-portal=true).
+This section describes the basics for creating and running audit log searches. Use these instructions as a starting point for each troubleshooting scenario in this unit. For more detailed step-by-step instructions, see [Search the audit log](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?azure-portal=true).
 
 1.  Sign in to the **Microsoft Purview compliance** portal.
 2.  In the **Microsoft Purview compliance** portal, in the left-hand navigation pane, select **Audit**.
