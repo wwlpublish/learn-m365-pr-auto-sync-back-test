@@ -2,11 +2,11 @@ After a Microsoft Purview eDiscovery (Standard) case is created and people of in
 
 To create an eDiscovery (Standard) search:
 
-1.  Go to select **eDiscovery** in the navigation pane to expand the group. Under the **eDiscovery** group, select **Standard**.
+1.  On the **Microsoft Purview compliance** portal, select **eDiscovery** in the navigation pane to expand the group. Under the **eDiscovery** group, select **Standard**.
 2.  On the **eDiscovery (Standard)** page, select **eDiscovery** in the navigation pane to expand the group. Under the **eDiscovery** group, select **Standard**.
 3.  On the **eDiscovery (Standard)** page, select **+Create a case** on the menu bar.
 4.  On the **eDiscovery (Standard)** page, select the case that you want to create an associated search, and then select **Open case**.
-5.  On the detailpage for the case, select the **Searches** tab, and then select **+New search**.
+5.  On the detail page for the case, select the **Searches** tab, and then select **+New search**.
     
     :::image type="content" source="../media/coreediscoverysearch1-47fc6d1e.png" alt-text="Screenshot showing the Searches tab on the detail page for a case, with the New search option highlighted.":::
     
