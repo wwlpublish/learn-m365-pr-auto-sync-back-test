@@ -180,4 +180,4 @@ For a guided tour on the available visualization functions, see the following li
 - [Capacity demo report](https://microsoft.github.io/wpa/report-demo/capacity-report.html)
 - [Coaching demo report](https://microsoft.github.io/wpa/report-demo/coaching-report.html)
 - [Connectivity demo report](https://microsoft.github.io/wpa/report-demo/connectivity-report.html)
-- [Information on the ggplot2 package](https://ggplot2.tidyverse.org/e)
+- [Information on the ggplot2 package](https://ggplot2.tidyverse.org/)
