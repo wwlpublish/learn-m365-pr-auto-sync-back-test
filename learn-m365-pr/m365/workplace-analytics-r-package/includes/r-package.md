@@ -39,7 +39,7 @@ The `wpa` R package includes the following essential and advanced features:
 
 ## Learn more
 
-- [Base R Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf)
+- [Base R Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/02/advancedR.pdf)
 - [Resource on using R for data science](https://r4ds.had.co.nz)
 - [`wpa` R package documentation](/viva/insights/tutorials/wpa-r-package)
 - [`wpa` R package on CRAN](https://CRAN.R-project.org/package=wpa)

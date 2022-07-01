@@ -91,7 +91,7 @@ Once this process is complete, you should see both the **Web Chat** and **Micros
 
 Select **Configuration** from the left-hand navigation.
 
-On the **Configuration** pane, enter the **Messaging endpoint**: https://REPLACE_THIS.ngrok.io/api/messages
+On the **Configuration** pane, enter the **Messaging endpoint**: `https://REPLACE_THIS.ngrok.io/api/messages`
 
 Select **Apply**.
 
