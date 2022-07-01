@@ -4,8 +4,8 @@ With org-wide teams, you can easily create a public team that pulls in every use
 
 Only global admins can create org-wide teams and currently an org-wide team is limited to organizations with no more than 10,000 users. There's also a limit of five org-wide teams per tenant. If these requirements are met, global admins will see **Org-wide** as an option when they select to build a team **From scratch** when creating a team.
   
-‎:::image type="content" source="../media/create-org-wide-team.png" alt-text="Create an org-wide team":::  
-‎
+:::image type="content" source="../media/create-org-wide-team.png" alt-text="Create an org-wide team":::  
+
 When an org-wide team is created, all global admins and Teams service administrators are added as team owners and all active users are added as team members. Unlicensed users are also added to the team. The first time an unlicensed user signs in to Teams, the user is assigned a Microsoft Teams Exploratory license. To learn more about the Exploratory license, check out [Manage the Microsoft Teams Exploratory license](/MicrosoftTeams/teams-exploratory?azure-portal=true).
 
  
@@ -18,7 +18,7 @@ These types of accounts won't be added to your org-wide team:
 - Accounts backed by a shared mailbox
 
 
-As your organization's directory is updated to include new active users or if users no longer work at your company and their account is disabled, changes are automatically synced, and the users are added or removed from the team. Team members can't leave an org-wide team. As a team owner, you can manually add or remove users if needed.
+As your organization's directory is updated to include new active users or to disable accounts of users who no longer work at your company, changes are automatically synced, and the users are added or removed from the team. Team members can't leave an org-wide team. As a team owner, you can manually add or remove users if needed.
  
 When creating an org-wide team, consider the following things:
 
@@ -36,12 +36,12 @@ When creating an org-wide team, consider the following things:
 
 If you want to create an Org-Wide team from scratch, follow these steps:
 
-1. In the Teams Client in the left panel select **Teams**, and then select **Join or create a team** on the lower end of the left panel.
+1. From the Teams client, select **Teams** on the left side of the app, then select **Join or create a team** at the bottom of your teams list.
 
-2. Select **Create team** in the main pane.
+2. Hover over the Create a team card and select **Create team**.
 
 3. Select **From scratch** on the **Create a team** page.  
-‎:::image type="content" source="../media/create-your-team.png" alt-text="Screenshot of creating a team from scratch":::
+:::image type="content" source="../media/create-your-team.png" alt-text="Screenshot of creating a team from scratch":::
 
 
 4. On the **What kind of team will this be?** page, select **Org-wide**. 
@@ -58,9 +58,9 @@ If you want to create an Org-Wide team from scratch, follow these steps:
 
 If you want to change the team you just created to be an org-wide team, follow these steps.
 
-1. In the Teams Client select **Teams** in the left pane.
+1. From the Teams Client, select **Teams** on the left side of the app.
 
-2. In the left panel select **…** next to the team you want to modify.
+2. Select **…** next to the team you want to modify.
 
 3. In the dropdown menu, select **Edit Team**.
 
@@ -76,13 +76,10 @@ To get the most out of org-wide teams, you should consider the best practices fr
 
 | **Best practice** | **Description** |
 |------|--------|
-| Allow only team owners to post to the General channel | Reduce channel noise by having only team owners post to the General channel. In the Teams Client go to the team and select **˙˙˙ More options** \> **Manage Team**. On the **Settings** tab, click **Member permissions** \> select **Only owners can post messages**. |
-| Turn off \@team and \@[team name] mentions            | Reduce \@mentions to keep them from overloading the entire organization. In the Teams Client go to the team and select **˙˙˙ More options** \> **Manage Team**. On the **Settings** tab, click **\@mentions** \> turn off **Show members the option to \@team or \@[team name]**.              |
-| Automatically favorite important channels             | Favorite important channels to ensure everyone in your organization engages in specific conversations.      |
+| Allow only team owners to post to the General channel | Reduce channel noise by having only team owners post to the General channel.<br/><br/>1. Go to the team, locate the General channel, and then select **... More options** > **Manage channel**.<br/>2. On the **Channel settings** tab, click **Permissions**, and then select **Only owners can post messages**. |
+| Turn off \@team and \@[team name] mentions            | Reduce \@mentions to keep them from overloading the entire organization.<br/><br/> 1. Go to the team and click **... More options** \> **Manage Team**.<br/>2. On the **Settings** tab, click **@mentions** \> turn off **Show members the option to @team or @[team name]**.|
+| Automatically show important channels             | Show important channels to ensure everyone in your organization engages in specific conversations.      |
 | Set up channel moderation                             | Consider setting up channel moderation and giving moderator capabilities to certain team members. (When moderation is set up, team owners are given moderator capabilities automatically.) Moderators can control who can start a new post in a channel, add and remove moderators, control whether team members can reply to existing channel messages, and control whether bots and connectors can submit channel messages. |
 | Remove accounts that might not belong                 | Even though members can’t leave an org-wide team, as a team owner, you can manage the team roster by removing accounts that don’t belong. **Make sure you use Teams to remove users from your org-wide team**. If you use another way to remove a user, such as the Microsoft 365 admin center or from a group in Outlook, the user might be added back to the org-wide team.                                                 |
 
 
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”
