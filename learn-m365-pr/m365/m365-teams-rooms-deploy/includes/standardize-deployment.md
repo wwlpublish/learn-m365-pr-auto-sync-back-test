@@ -17,7 +17,7 @@ To assist in the deployment, you'll need several teams:
 
 ## Plan your deployment
 
-**Set standards based on room sizes**. When possible, you'll want to set standards based on the size of a room. For small rooms, you'll use certain devices while you'll use different devices sized for large rooms. Microsoft provides meeting room archetype specifications for different-sized meeting rooms. You can find these by browsing to the [Microsoft Teams devices page](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=20?azure-portal=true). From here, you can scroll down on the left navigation, expand **Space**, and select the room size you need to configure.
+**Set standards based on room sizes**. When possible, you'll want to set standards based on the size of a room. For small rooms, you'll use certain devices while you'll use different devices sized for large rooms. Microsoft provides meeting room archetype specifications for different-sized meeting rooms. You can find these by browsing to the [Microsoft Teams devices page](/learn/modules/configure-deploy-manage-teams-devices/). From here, you can scroll down on the left navigation, expand **Space**, and select the room size you need to configure.
 
 **Plan for product delays**. Unexpected things can happen, like a pandemic, which puts a slowdown on shipping and delivery schedules.
 

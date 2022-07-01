@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 10/25/2021
+  ms.date: 06/29/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -17,36 +17,58 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
+  - content: "Jenifer is working as an IT administrator with the Contoso Ltd. She receives a request from the IT Manager to create an Org-wide team. Which of the following roles should be assigned to Jenifer for creating  organization-wide teams?"
+    choices:
+    - content: "Teams administrator"
+      isCorrect: false
+      explanation: "That's incorrect. Teams administrator can't create organization-wide teams."
+    - content: "Global administrator"
+      isCorrect: true
+      explanation: "That's correct. Only global admins can create organization-wide teams."
+    - content: "Teams communications administrator"
+      isCorrect: false
+      explanation: "That's incorrect. Teams communications administrator can't create organization-wide teams."
+  - content: "Contoso Electronics recently acquired a mobile phone assembling plant. It has more than sixty percentages of temporary workforce both in the shop floor and administrative department. You, as a Teams administrator with Contoso Electronics, have been assigned the task to automate managing the membership in various Microsoft Teams that the temporary employees are part of. You decide to use dynamic membership capability to automate the task. Which statement most accurately defines dynamic membership in Microsoft Teams?"
+    choices:
+    - content: "Users can add or remove themselves from teams according to their needs."
+      isCorrect: false
+      explanation: "That's incorrect. In Microsoft Teams, users are added or removed only if they meet the conditions for a group."
+    - content: "Administrators create a dynamic group by using the Microsoft 365 admin center."
+      isCorrect: false
+      explanation: "That's incorrect. In Microsoft Teams, administrators create a dynamic group by using the Azure AD admin center."
+    - content: "Users are automatically added to or removed from relevant teams as user attributes change."
+      isCorrect: true
+      explanation: "That's correct. In Microsoft Teams, dynamic membership enables the membership of a team to be defined by rules that check for certain user attributes in Azure Active Directory."
   - content: "Jennifer is the Teams admin for Contoso Ltd. The company wants to use Teams for company-wide announcements. Which kind of the following team should Jennifer create?"
     choices:
     - content: "Public team"
       isCorrect: false
-      explanation: "That's incorrect. A public team doesn't include all the users in the organization. Try again."
+      explanation: "That's incorrect. A public team doesn't include all the users in the organization."
     - content: "Private team"
       isCorrect: false
-      explanation: "That's incorrect. A private team doesn't include all the users in the organization. Try again."
+      explanation: "That's incorrect. A private team doesn't include all the users in the organization."
     - content: "Org-wide team"
       isCorrect: true
       explanation: "That's correct. An org-wide team includes all the users in the organization."
-  - content: "When a team been accidentally deleted from Teams admin center, the admin can recover the team by restoring the associated Microsoft 365 group during the soft-delete period. How long is a deleted Microsoft 365 Group been retained before permanently deleted?"
+  - content: "Alex is a Teams administrator with Contoso Logistics, a fleet operator. He receives a request from a business user who accidentally deleted one of the teams owned by him, to help recover the team and the associated SharePoint site. When a team has been accidentally deleted, the admin can recover the team by restoring the associated Microsoft 365 group during the soft-delete period. How long is a deleted Microsoft 365 group been retained before permanently deleted?"
     choices:
     - content: "14 days"
       isCorrect: false
-      explanation: "That's incorrect. A deleted Microsoft 365 group is not retained for 14 days.. Try again."
+      explanation: "That's incorrect. A deleted Microsoft 365 group isn't retained for 14 days."
     - content: "30 days"
       isCorrect: true
       explanation: "That's correct. A deleted Microsoft 365 group is retained for 30 days."
     - content: "90 days"
       isCorrect: false
-      explanation: "That's incorrect. A deleted Microsoft 365 group is not retained for 90 days.. Try again."
+      explanation: "That's incorrect. A deleted Microsoft 365 group isn't retained for 90 days."
   - content: "Which of the following permissions is only for team owners?"
     choices:
     - content: "Add a channel"
       isCorrect: false
-      explanation: "That's incorrect. Team owners can allow team members to create channels. Try again."
+      explanation: "That's incorrect. Team owners can allow team members to create channels."
     - content: "Edit team name/description"
       isCorrect: true
       explanation: "That's correct. Only team owners can edit team name or description."
     - content: "Add tabs"
       isCorrect: false
-      explanation: "That's incorrect. Team owners can allow team members to add tabs. Try again."
+      explanation: "That's incorrect. Team owners can allow team members to add tabs."
