@@ -2,18 +2,21 @@
 uid: learn-m365.zero-trust-endpoints
 metadata:
   moduleType: standard
-  title: zero-trust-endpoints
-  description: In recent years, the Zero Trust endpoints.
-  ms.date: 6/16/2022
+  title: Recognize Endpoints
+  description: "Learn how to use Zero Trust to secure endpoints to protect your organization and its users."
+  ms.date: 22/06/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: zero-trust-endpoints
-summary: ""
+title: Recognize Endpoints
+summary: "Learn how to use Zero Trust to secure endpoints to protect your organization and its users."
 abstract: |
   By the end of this module, you'll be able to:
-    - "TODO learning objective 1"
+    - Describe endpoints.
+    - Describe attack surface.
+    - Describe how to protect endpoints using the Zero Trust approach.
+
 prerequisites: |
   - None
 iconUrl: /learn/achievements/generic-badge.svg
@@ -21,6 +24,7 @@ levels:
   - beginner
 roles:
   - administrator
+  - business user
   - student
 products:
 - m365
@@ -28,6 +32,8 @@ subjects:
   - security
 units:
 - learn-m365.zero-trust-endpoints.introduction
+- learn-m365.zero-trust-endpoints.what-are-endpoints
+- learn-m365.zero-trust-endpoints.protect-endpoints
 - learn-m365.zero-trust-endpoints.knowledge-check
 - learn-m365.zero-trust-endpoints.summary
 badge:
