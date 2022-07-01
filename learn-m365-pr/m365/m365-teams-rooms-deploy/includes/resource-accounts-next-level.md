@@ -118,5 +118,5 @@ Set-Place MTR-STP-Avanti-1  IsWheelChairAccessible $true  Capacity 12  DisplayDe
 
 ## Learn more
 
-- [Create and manage Room mailboxes](/exchange/recipients-in-exchange-online/manage-room-mailboxes?azure-portal=true)
+- [Create and manage Room mailboxes](/learn/modules/create-manage-exchange-recipients/)
 - [PowerShell module browser](/powershell/module/?azure-portal=true)
