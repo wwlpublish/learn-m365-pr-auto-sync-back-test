@@ -106,7 +106,7 @@ To run your application in Live Server, press the following key combination in V
 
 Open with Live Server, select the option, and press **Enter**.
 
-After Live Server is running, it might open the page [http://localhost:3000/index.html](http://localhost:3000/index.html). Open [http://localhost:3000](http://localhost:3000) in the browser.
+After Live Server is running, it might open the page `http://localhost:3000/index.html`. Open `http://localhost:3000` in the browser.
 
 Select **Sign in**, and enter your Microsoft 365 developer tenant account.
 You'll be asked to consent to the required permissions the first time. After you've consented, the application displays your sign-in information.
