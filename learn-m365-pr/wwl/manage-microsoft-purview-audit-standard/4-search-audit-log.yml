@@ -4,7 +4,7 @@ title: Search the audit log
 metadata:
   title: Search the audit log
   description: "Search the audit log"
-  ms.date: 06/30/2022
+  ms.date: 07/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer just completed running a search using the Microsoft Purview Audit (Standard) solution. When viewing the search results, Holly noticed that several records displayed a null value in the IP address field. Why wouldn't an IP address be displayed in these records?"
+  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer just completed running a search using the Microsoft Purview Audit (Standard) solution. When Holly reviewed the search results, she noticed that several records displayed a null value in the IP address field. Why wouldn't an IP address be displayed in these records?"
     choices:
     - content: "The records were for administrator activities for Azure AD-related events"
       isCorrect: true

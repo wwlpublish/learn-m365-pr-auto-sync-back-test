@@ -16,7 +16,7 @@ A user must be assigned the **View-Only Audit Logs** or **Audit Logs** role in E
 
 ### Running audit log searches
 
-This section describes the basics for creating and running audit log searches. Use these instructions as a starting point for each troubleshooting scenario in this unit. For more detailed step-by-step instructions, see [Search the audit log](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-1-run-an-audit-log-search).
+This section describes the basics for creating and running audit log searches. Use these instructions as a starting point for each troubleshooting scenario in this unit. For more detailed step-by-step instructions, see [Search the audit log](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-1-run-an-audit-log-search?azure-portal=true).
 
 1.  Sign in to the **Microsoft Purview compliance** portal.
 2.  In the **Microsoft Purview compliance** portal, in the left-hand navigation pane, select **Audit**.
@@ -43,7 +43,7 @@ Here's how to configure an audit log search query for this scenario:
  -  **Activities**. If relevant to your case, select a specific activity to search for. For troubleshooting compromised accounts, consider selecting the User signed in to mailbox activity under Exchange mailbox activities. This returns auditing records showing the IP address that was use when signing in to the mailbox. Otherwise, leave this field blank to return audit records for all activities.
     
         > [!TIP]
-        > Leaving this field blank will return UserLoggedIn activities, which is an Azure Active Directory activity that indicates that someone has signed in to an user account. Use filtering in the search results to display the UserLoggedIn audit records.
+        > Leaving this field blank will return UserLoggedIn activities, which is an Azure Active Directory activity that indicates that someone has signed into a user account. Use filtering in the search results to display the UserLoggedIn audit records.
  -  **Start date and End date**. Select a date range that's applicable to your investigation.
  -  **Users**. If you're investigating a compromised account, select the user whose account was compromised. This returns audit records for activities performed by that user account.
  -  **File, folder, or site**. Leave this field blank.
@@ -91,7 +91,7 @@ Starting in 2019, mailbox audit logging is turned on by default for all Microsof
 
 Before mailbox audit logging was turned on by default, organizations had to manually enable it for each of its user mailboxes.
 
-The mailbox actions logged by default include the **SoftDelete** and **HardDelete** mailbox actions performed by mailbox owners. As a result, organizations can use the following steps to search the audit log for events related to deleted email items. For more information about mailbox auditing on by default, see [Manage mailbox auditing](/microsoft-365/compliance/enable-mailbox-auditing?view=o365-worldwide).
+The mailbox actions logged by default include the **SoftDelete** and **HardDelete** mailbox actions performed by mailbox owners. As a result, organizations can use the following steps to search the audit log for events related to deleted email items. For more information about mailbox auditing on by default, see [Manage mailbox auditing](/microsoft-365/compliance/enable-mailbox-auditing?azure-portal=true).
 
 Here's how to configure an audit log search query for this scenario:
 
@@ -99,7 +99,7 @@ Here's how to configure an audit log search query for this scenario:
      -  **Deleted messages from Deleted Items folder**. This activity corresponds to the **SoftDelete** mailbox auditing action. This activity is also logged when a user permanently deletes an item by selecting it and pressing **Shift+Delete**. After an item is permanently deleted, the user can recover it until the deleted item retention period expires.
      -  **Purged messages from mailbox**. This activity corresponds to the **HardDelete** mailbox auditing action. This activity is logged when a user purges an item from the **Recoverable Items** folder. Admins can use the **Content search** tool in the Microsoft Purview compliance portal to search for and recover purged items until the deleted item retention period expires, or longer if the user's mailbox is on hold.
  -  **Start date and End date**. Select a date range that's applicable to the investigation.
- -  **Users**. If you select a user in this field, the audit log search tool returns audit records for email items that were either soft deleted or hard deleted by the user you specify. Sometimes the user who deletes an email miay not be the mailbox owner.
+ -  **Users**. If you select a user in this field, the audit log search tool returns audit records for email items that were either soft deleted or hard deleted by the user you specify. Sometimes the user who deletes an email may not be the mailbox owner.
  -  **File, folder, or site**. Leave this field blank.
 
 After you run the search, you can filter the search results to display the audit records for soft-deleted items or for hard-deleted items. Select the audit record to display the **Details** flyout page, and then select **More information**. Additional information about the deleted item, such as the subject line and the location of the item when it was deleted, is displayed in the **AffectedItems** field.
@@ -118,7 +118,7 @@ Example of the **AffectedItems** field for a hard-deleted item:
 
 #### Recover deleted email items
 
-Users can recover soft-deleted items if the deleted items retention period hasn't expired. In Exchange Online, the default deleted items retention period is 14 days. However, admins can increase this setting to a maximum of 30 days. Point users to the [Recover deleted items or email in Outlook on the web](https://support.office.com/article/Recover-deleted-items-or-email-in-Outlook-Web-App-C3D8FC15-EEEF-4F1C-81DF-E27964B7EDD4) article for instructions on recovering deleted items.
+Users can recover soft-deleted items if the deleted items retention period hasn't expired. In Exchange Online, the default deleted items retention period is 14 days. However, admins can increase this setting to a maximum of 30 days. Point users to the [Recover deleted items or email in Outlook on the web](https://support.office.com/article/Recover-deleted-items-or-email-in-Outlook-Web-App-C3D8FC15-EEEF-4F1C-81DF-E27964B7EDD4?azure-portal=true) article for instructions on recovering deleted items.
 
 As previously explained, administrators may be able to recover hard-deleted items if the deleted item retention period hasn't expired or if the mailbox is on hold, in which case items are kept until the hold duration expires. When you run a content search, soft-deleted and hard-deleted items in the **Recoverable Items** folder are returned in the search results if they match the search query.
 
@@ -150,7 +150,7 @@ After you run the search, any audit records for this activity are displayed in t
 
 ### Issue: Investigate why there was a successful sign-in by a user outside your organization
 
-When reviewing audit records in the audit log, an organization may see records that indicate an external user was authenticated by Azure Active Directory and successfully signed in to its Microsoft 365 tenant. For example:
+When an organization reviews audit records in the audit log, it may see records that indicate an external user was authenticated by Azure Active Directory and successfully signed in to its Microsoft 365 tenant. For example:
 
  -  An admin in contoso.onmicrosoft.com may see an audit record showing that a user from a different organization (for example, fabrikam.onmicrosoft.com) successfully signed into contoso.onmicrosoft.com.
  -  Similarly, the admin may see audit records that indicate users with a Microsoft Account (MSA), such as an Outlook.com or Live.com, successfully signed into contoso.onmicrosoft.com.
@@ -165,7 +165,7 @@ The indication of the successful sign-in in the audit record is the result of Az
 > [!NOTE]
 > Azure AD allows pass-through authentication only for **first-party applications**, such as SharePoint Online and OneDrive for Business. It isn't allowed for other third-party applications.
 
-The following screensot shows an example and descriptions of relevant properties in an audit record for a **User logged In** event that's a result of pass-through authentication. Select the audit record to display the **Details** flyout page, and then select **More information**.
+The following screenshot shows an example and descriptions of relevant properties in an audit record for a **User logged In** event that's a result of pass-through authentication. Select the audit record to display the **Details** flyout page, and then select **More information**.
 
 :::image type="content" source="../media/passthroughauth1-406dc140.png" alt-text="Screenshot of an Audit record for a successful pass-thru authentication and with selected fields highlighted.":::
 
@@ -174,7 +174,7 @@ The following screensot shows an example and descriptions of relevant properties
 2.  This field displays the UPN of the external user who attempted to access a resource in your organization. This user ID is also identified in the **User** and **UserId** properties in the audit record.
 3.  The **ApplicationId** property identifies the application that triggered the sign-in request. The value of 00000003-0000-0ff1-ce00-000000000000 displayed in the **ApplicationId** property in this audit record indicates SharePoint Online. OneDrive for Business also has this same **ApplicationId**.
 4.  This field indicates that the pass-through authentication was successful. In other words, the user was successfully authenticated by Azure AD.
-5.  The **RecordTyp**e value of 15 indicates the audited activity (**UserLoggedIn**) is a Secure Token Service (STS) logon event in Azure AD.
+5.  The **RecordTyp**e value of 15 indicates the audited activity (**UserLoggedIn**) is a Secure Token Service (STS) sign-in event in Azure AD.
 
 The following examples are scenarios that would result in a successful **User logged in** audit activity because of pass-through authentication:
 
@@ -191,7 +191,7 @@ Organizations should keep in mind the following considerations when investigatin
     
     
     Besides the **User logged in** activities, other audit records may be returned. For example, records that indicate a user in your organization shared resources with the external user and whether the external user accessed, modified, or downloaded a document that was shared with them.
- -  Search for SharePoint sharing activities that would indicate a file was shared with the external user identified by a **User logged in** audit record. For more information, see [Use sharing auditing in the audit log](/microsoft-365/compliance/use-sharing-auditing?view=o365-worldwide).
+ -  Search for SharePoint sharing activities that would indicate a file was shared with the external user identified by a **User logged in** audit record. For more information, see [Use sharing auditing in the audit log](/microsoft-365/compliance/use-sharing-auditing?azure-portal=true).
  -  Export the audit log search results that contain records relevant to your investigation. By doing so, you can use Excel to search for other activities related to the external user.
 
 ### Issue: Search for mailbox activities performed by users with non-E5 licenses
@@ -206,7 +206,7 @@ Why? Because mailbox audit events are returned only for users with E5 licenses w
 
 To retrieve mailbox audit log records for non-E5 users, you can complete one of the following workarounds:
 
- -  Manually enable mailbox auditing on individual mailboxes. To do so, run the following command in Exchange Online Powershell:
+ -  Manually enable mailbox auditing on individual mailboxes. To do so, run the following command in Exchange Online PowerShell:
     
     ```powershell
     Set-Mailbox -Identity <MailboxIdentity> -AuditEnabled $true
@@ -215,12 +215,12 @@ To retrieve mailbox audit log records for non-E5 users, you can complete one of 
     After you run this command, search for mailbox audit activities by using the Microsoft Purview compliance portal, the **Search-UnifiedAuditLog** cmdlet, or the Office 365 Management Activity API.
     
     > [!TIP]
-    > If mailbox auditing already appears to be enabled on the mailbox but your searches return no results, change the value of the **AuditEnabled** parameter to **$false** and then back to **$true**.
+    > If mailbox auditing already appears to be enabled on the mailbox, but your searches return no results, change the value of the **AuditEnabled** parameter to **$false** and then back to **$true**.
  -  Use the following cmdlets in Exchange Online PowerShell:
     
     
-     -  [Search-MailboxAuditLog](/powershell/module/exchange/search-mailboxauditlog) to search the mailbox audit log for specific users.
-     -  [New-MailboxAuditLogSearch](/powershell/module/exchange/new-mailboxauditlogsearch) to search the mailbox audit log for specific users and send the results through email to specified recipients.
+     -  [Search-MailboxAuditLog](/powershell/module/exchange/search-mailboxauditlog?azure-portal=true) to search the mailbox audit log for specific users.
+     -  [New-MailboxAuditLogSearch](/powershell/module/exchange/new-mailboxauditlogsearch?azure-portal=true) to search the mailbox audit log for specific users and send the results through email to specified recipients.
 
 ### Issue: Search for mailbox activities performed in a specific mailbox (including shared mailboxes)
 

@@ -16,7 +16,7 @@ Microsoft Purview provides two auditing solutions: Audit (Standard) and Audit (P
 
 ### Audit (Standard)
 
-Microsoft Purview Audit (Standard) provides organizations with the ability to log and search for audited activities. It also enables organizations to power their forensic, IT, compliance, and legal investigations.
+Microsoft Purview Audit (Standard) provides organizations with the ability to log and search for audited activities. It also enables an organization to power its forensic, IT, compliance, and legal investigations.
 
  -  **Enabled by default**. Audit (Standard) is turned on by default for all organizations with the appropriate subscription. As a result, records for audited activities will be captured and searchable. The only setup that's required is to assign the necessary permissions to access the audit log search tool (and the corresponding cmdlet) and to ensure that users are assigned the right license for Microsoft Purview Audit (Premium) features.
  -  **Thousands of searchable audit events**. Organizations can search for a wide-range of audited activities that occur in most of the Microsoft 365 services in an organization. For a partial list of the activities that can be searched for, see [Audited activities](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?azure-portal=true). For a list of the services and features that support audited activities, see [Audit log record type](/office/office-365-management-api/office-365-management-activity-api-schema#auditlogrecordtype?azure-portal=true).
@@ -30,7 +30,7 @@ Microsoft Purview Audit (Standard) provides organizations with the ability to lo
  -  **Search-UnifiedAuditLog cmdlet**. Organizations can also use the **Search-UnifiedAuditLog** cmdlet in Exchange Online PowerShell (the underlying cmdlet for the search tool) to search for audit events or to use in a script. For more information, see:
      -  [Search-UnifiedAuditLog cmdlet reference](/powershell/module/exchange/search-unifiedauditlog?azure-portal=true)
      -  [Use a PowerShell script to search the audit log](/microsoft-365/compliance/audit-log-search-script?azure-portal=true)
- -  **Export audit records to a CSV file**. After running the Audit log search tool in the Microsoft Purview compliance portal, an organization can export the audit records returned by the search to a CSV file. By doing so, Microsoft Excel can sort and filter on different audit record properties. Excel Power Query can also be used to transform functionality to split each property in the AuditData JSON object into its own column. This process enables you to effectively view and compare similar data for different events.
+ -  **Export audit records to a CSV file**. After an organization runs the Audit log search tool in the Microsoft Purview compliance portal, it can export the audit records returned by the search to a CSV file. By doing so, Microsoft Excel can sort and filter on different audit record properties. Excel Power Query can also be used to transform functionality to split each property in the AuditData JSON object into its own column. This process enables you to effectively view and compare similar data for different events.
  -  **Access to audit logs via Office 365 Management Activity API**. A third method for accessing and retrieving audit records is to use the Office 365 Management Activity API. This API lets organizations retain auditing data for longer periods than the default 90 days. It also lets them import their auditing data into a SIEM solution. For more information, see [Office 365 Management Activity API reference](/office/office-365-management-api/office-365-management-activity-api-reference?azure-portal=true).
  -  **90-day audit log retention**. When an audited activity is performed by a user or admin, an audit record is generated and stored in the audit log for the organization. In Microsoft Purview Audit (Standard), records are retained for 90 days. As such, organizations can search for activities that occurred within the past three months.
 
@@ -42,7 +42,7 @@ Audit (Premium) builds on the capabilities of Audit (Standard) by providing audi
      -  the service where the audited activities occurred.
      -  specific audited activities.
      -  the user who performed an audited activity.
- -  **Longer retention of audit records**. Exchange, SharePoint, and Azure Active Directory audit records are retained for one year by default. Audit records for all other activities are retained for 90 days by default. Withi Audit (Premium), organizations can use audit log retention policies to configure longer retention periods.
+ -  **Longer retention of audit records**. Exchange, SharePoint, and Azure Active Directory audit records are retained for one year by default. Audit records for all other activities are retained for 90 days by default. With Audit (Premium), organizations can use audit log retention policies to configure longer retention periods.
  -  **High-value, crucial Audit (Premium) events**. Audit records for crucial events can help an organization conduct forensic and compliance investigations. It does so by providing visibility to events such as:
      -  When mail items were accessed.
      -  When mail items were replied to and forwarded.
@@ -67,7 +67,7 @@ The following table compares the key capabilities available in Audit (Standard) 
 | Export audit records to CSV file                                |          X           |          X          |
 | Access to audit logs via Office 365 Management Activity API (1) |          X           |          X          |
 | 90-day audit log retention                                      |          X           |          X          |
-| 1-year audit log retention                                      |                      |          X          |
+| One-year audit log retention                                    |                      |          X          |
 | 10-year audit log retention (2)                                 |                      |          X          |
 | Audit log retention policies                                    |                      |          X          |
 | High-value, crucial events                                      |                      |          X          |
@@ -76,7 +76,7 @@ The following table compares the key capabilities available in Audit (Standard) 
 
 (1) Audit (Premium) includes higher bandwidth access to the Office 365 Management Activity API, which provides faster access to audit data.
 
-(2) Besides the required licensing for Audit (Premium), a user must be assigned a 10-Year Audit Log Retention add on license to retain their audit records for 10 years.
+(2) Besides the required licensing for Audit (Premium), a user must be assigned a 10-Year Audit Log Retention add-on license to retain their audit records for 10 years.
 
 ## Knowledge check
 

@@ -4,7 +4,7 @@ title: Use audit log searching to investigate common support issues
 metadata:
   title: Use audit log searching to investigate common support issues
   description: "Use audit log searching to investigate common support issues"
-  ms.date: 06/30/2022
+  ms.date: 07/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,7 +24,7 @@ quiz:
       explanation: "Incorrect. These events still show up in the search results; however, the IP address field displays a null value."
     - content: "The compliance team should have used the Search-UnifiedAuditLog cmdlet to run the search"
       isCorrect: false
-      explanation: "Incorrect. The probable cause of this situation would not have been resolved by using the Search-UnifiedAuditLog cmdlet to run the search."
-    - content: "When using either of these search methods, mailbox audit events are returned only for users with E5 licenses"
+      explanation: "Incorrect. The probable cause of this situation wouldn't have been resolved by using the Search-UnifiedAuditLog cmdlet to run the search."
+    - content: "When either of these search methods is used, mailbox audit events are returned only for users with E5 licenses"
       isCorrect: true
       explanation: "Correct. Even when mailbox auditing is turned on by default for an organization, mailbox audit events for some users won't be found in audit log searches when the organization uses any of the following methods: the Microsoft Purview compliance portal, the Search-UnifiedAuditLog cmdlet, or the Office 365 Management Activity API. Why? Because mailbox audit events are returned only for users with E5 licenses when you use one of these methods to search the unified audit log."
