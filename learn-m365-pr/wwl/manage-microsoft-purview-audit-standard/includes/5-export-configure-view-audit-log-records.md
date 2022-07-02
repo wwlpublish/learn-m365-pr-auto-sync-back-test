@@ -1,8 +1,8 @@
 After you search the audit log and download the search results to a CSV file, the file contains a column named **AuditData**. This column contains additional information about each event. The data in this column is formatted as a JSON object, which contains multiple properties that are configured as **property:value** pairs separated by commas.
 
-**Question:** If multiple properties are combined together in the **AuditData** column, how can an organization sort and filter on a specific property?
+**Question**: If multiple properties are combined together in the **AuditData** column, how can an organization sort and filter on a specific property?
 
-**Answer:** Through the JSON transform feature in the Power Query Editor in Excel. This feature enables an organization to split each property in the JSON object in the **AuditData** column into multiple columns. By doing so, each property will have its own column. In turn, an organization can sort and filter on one or more of these properties. This process can help it quickly locate the specific auditing data that it's looking for.
+**Answer**: Through the JSON transform feature in the Power Query Editor in Excel. This feature enables an organization to split each property in the JSON object in the **AuditData** column into multiple columns. By doing so, each property will have its own column. In turn, an organization can sort and filter on one or more of these properties. This process can help it quickly locate the specific auditing data that it's looking for.
 
 ### Step 1: Export audit log search results
 
@@ -83,7 +83,7 @@ $auditlog = Search-UnifiedAuditLog -StartDate 06/01/2019 -EndDate 06/30/2019 -Re
 $auditlog | Select-Object -Property CreationDate,UserIds,RecordType,AuditData | Export-Csv -Path c:\AuditLogs\PowerShellAuditlog.csv -NoTypeInformation
 ```
 
-The search results are exported to a CSV file named **PowerShellAuditlog** that contains four columns: **CreationDate**, **UserIds**, **RecordType**, **AuditData**.<br>
+The search results are exported to a CSV file named **PowerShellAuditlog** that contains four columns: **CreationDate**, **UserIds**, **RecordType**, **AuditData**.
 
 You can also use the name or enum value for the record type as the value for the **RecordType** parameter. For a list of record type names and their corresponding enum values, see the **AuditLogRecordType** table in [Office 365 Management Activity API schema](/office/office-365-management-api/office-365-management-activity-api-schema#enum-auditlogrecordtype---type-edmint32?azure-portal=true).
 

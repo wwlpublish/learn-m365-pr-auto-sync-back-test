@@ -77,12 +77,12 @@ Each of these steps is examined in greater detail in the following sections.
         If you're using the maximum date range of 90 days, select the current time for the **Start date**. Otherwise, you'll receive an error saying the start date is earlier than the end date. If you've implemented auditing within the last 90 days, the maximum date range can't start before the date that auditing was implemented.
     2.  **Activities**. Select the drop-down list to display the activities that you can search for. User and administrator activities are organized into groups of related activities. You can select specific activities or you can select the activity group name to select all activities in the group. You can also select a selected activity to clear the selection. After you run the search, only the audit log entries for the selected activities are displayed. Selecting **Show results for all activities** displays results for all activities performed by the selected user or group of users. Over 100 user and administrator activities are logged in the audit log.
     3.  **Users**. Select in this box and then select one or more users to display search results for. The audit log entries for the selected activity performed by the users you select in this box are displayed in the list of results. Leave this box blank to return entries for all users (and service accounts) in the organization.
-    4.  **File, folder, or site**. Type some or all of a file or folder name to search for activity related to the file of folder that contains the specified keyword. You can also specify a URL of a file or folder. If you use a URL, be sure the type the full URL path or if you type a portion of the URL, don't include any special characters or spaces. However, using the wildcard character (\*) is supported.
+    4.  **File**, **folder**, **or site**. Type some or all of a file or folder name to search for activity related to the file of folder that contains the specified keyword. You can also specify a URL of a file or folder. If you use a URL, be sure the type the full URL path or if you type a portion of the URL, don't include any special characters or spaces. However, using the wildcard character (\*) is supported.
         
         Leave this box blank to return entries for all files and folders in your organization.
         
         
-         -  If you're looking for all activities related to a site, add the wildcard character (\*) after the URL to return all entries for that site. For example: **https://contoso-my.sharepoint.com/personal\***
+         -  If you're looking for all activities related to a site, add the wildcard character (\*) after the URL to return all entries for that site. For example: **`https://contoso-my.sharepoint.com/personal*`**
          -  If you're looking for all activities related to a file, add the wildcard character (\*) before the file name to return all entries for that file. For example: **\*Customer\_Profitability\_Sample.csv**
 4.  Select **Search** to run the search using your search criteria.
 
@@ -129,7 +129,7 @@ Organizations can export the results of an audit log search. The results are exp
 
 ### Tips for searching the audit log
 
-Organizations should keep in mind the following considerations when searching the audit log:<br>
+Organizations should keep in mind the following considerations when searching the audit log:
 
  -  There are multiple ways to select activities:
      -  You can select specific activities to search for by selecting the activity name.
@@ -145,7 +145,7 @@ Organizations should keep in mind the following considerations when searching th
  -  Select **Clear** to clear the current search criteria. The date range returns to the default of the last seven days. To cancel all selected activities, select **Clear all to show results for all activities**.
  -  If 50,000 results are found, you can probably assume there are more than 50,000 events that met the search criteria. You can either:
      -  Refine the search criteria and rerun the search to return fewer results.
-     -  Export all of the search results by selecting **Export results &gt; Download all results**.
+     -  Export all of the search results by selecting **Export results**, and then selecting **Download all results**.
 
 ## Knowledge check
 

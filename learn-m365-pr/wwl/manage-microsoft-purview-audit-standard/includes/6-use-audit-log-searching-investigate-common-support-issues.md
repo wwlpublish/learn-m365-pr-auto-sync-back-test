@@ -42,8 +42,8 @@ Here's how to configure an audit log search query for this scenario:
 
  -  **Activities**. If relevant to your case, select a specific activity to search for. For troubleshooting compromised accounts, consider selecting the User signed in to mailbox activity under Exchange mailbox activities. This returns auditing records showing the IP address that was use when signing in to the mailbox. Otherwise, leave this field blank to return audit records for all activities.
     
-        > [!TIP]
-        > Leaving this field blank will return UserLoggedIn activities, which is an Azure Active Directory activity that indicates that someone has signed into a user account. Use filtering in the search results to display the UserLoggedIn audit records.
+    > [!TIP]
+    > Leaving this field blank will return UserLoggedIn activities, which is an Azure Active Directory activity that indicates that someone has signed into a user account. Use filtering in the search results to display the UserLoggedIn audit records.
  -  **Start date and End date**. Select a date range that's applicable to your investigation.
  -  **Users**. If you're investigating a compromised account, select the user whose account was compromised. This returns audit records for activities performed by that user account.
  -  **File, folder, or site**. Leave this field blank.
@@ -144,7 +144,7 @@ After you run the search, any audit records for this activity are displayed in t
 
 
 1.  In the **ObjectId** field, the full name of the inbox rule is displayed. This name includes the alias of the user's mailbox (for example, **SaraD**) and the name of the inbox rule (for example, "**Move messages from admin**").
-2.  In the **Parameters** field, the condition of the inbox rule is displayed. In this example, the condition is specified by the **From** parameter. The value defined for the **From** parameter indicates the inbox rule acts on email sent by **admin@alpinehouse.onmicrosoft.com**. F
+2.  In the **Parameters** field, the condition of the inbox rule is displayed. In this example, the condition is specified by the **From** parameter. The value defined for the **From** parameter indicates the inbox rule acts on email sent by **admin@alpinehouse.onmicrosoft.com**.
 3.  The **MoveToFolder** parameter specifies the action for the inbox rule. In this example, messages received from **admin@alpinehouse.onmicrosoft.com** are moved to the folder named **AdminSearch**. A
 4.  The **UserId** field indicates the user who created the inbox rule specified in the **ObjectId** field. This user is also displayed in the **User** column on the search results page.
 
@@ -178,7 +178,7 @@ The following screenshot shows an example and descriptions of relevant propertie
 
 The following examples are scenarios that would result in a successful **User logged in** audit activity because of pass-through authentication:
 
- -  A user with a Microsoft Account (such as **SaraD@outlook.com**) has tried to access a document in a OneDrive for Business account in **fourthcoffee.onmicrosoft.com**. However, there isn't a corresponding guest user account for **SaraD@outlook.com** in **fourthcoffee.onmicrosoft.com.**
+ -  A user with a Microsoft Account (such as **SaraD@outlook.com**) has tried to access a document in a OneDrive for Business account in **fourthcoffee.onmicrosoft.com**. However, there isn't a corresponding guest user account for **SaraD@outlook.com** in **fourthcoffee.onmicrosoft.com**.
  -  A user with a Work or School account in an organization (such as **pilarp@fabrikam.onmicrosoft.com**) has tried to access a SharePoint site in **contoso.onmicrosoft.com**. However, there isn't a corresponding guest user account for **pilarp@fabrikam.com** in **contoso.onmicrosoft.com**.
 
 #### Tips for investigating successful sign-in attempts resulting from pass-through authentication

@@ -62,7 +62,7 @@ The following table compares the key capabilities available in Audit (Standard) 
 |:--------------------------------------------------------------- |:--------------------:|:-------------------:|
 | Enabled by default                                              |          X           |          X          |
 | Thousands of searchable audit events                            |          X           |          X          |
-| Audit search tool in the compliance portal&gt;       |          X           |          X          |
+| Audit search tool in the Microsoft Purview compliance portal    |          X           |          X          |
 | Search-UnifiedAuditLog cmdlet                                   |          X           |          X          |
 | Export audit records to CSV file                                |          X           |          X          |
 | Access to audit logs via Office 365 Management Activity API (1) |          X           |          X          |
@@ -72,7 +72,7 @@ The following table compares the key capabilities available in Audit (Standard) 
 | Audit log retention policies                                    |                      |          X          |
 | High-value, crucial events                                      |                      |          X          |
 
-**Footnotes:**
+**Footnotes**:
 
 (1) Audit (Premium) includes higher bandwidth access to the Office 365 Management Activity API, which provides faster access to audit data.
 
