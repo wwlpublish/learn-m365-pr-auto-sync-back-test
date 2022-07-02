@@ -34,8 +34,8 @@ Organizations must create eDiscovery holds for people of interest, search for co
     When an organization creates an eDiscovery hold, it can either:
     
     
-     -  preserve all content in specific content locations.
-     -  create a query-based hold to preserve only the content that matches a hold query.
+     -  Preserve all content in specific content locations.
+     -  Create a query-based hold to preserve only the content that matches a hold query.
     
     Besides preserving content, another good reason to create eDiscovery holds is to quickly search the content locations on hold (instead of having to select each location to search) when you create and run searches in the next step. After an organization completes its investigation, it can release any hold that it created.
 2.  **Search for content**. After an organization creates eDiscovery holds, it can use the built-in search tool to search the content locations on hold. It can also search other content locations for data that may be relevant to the case.

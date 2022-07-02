@@ -80,10 +80,9 @@ The next step is to create a case and start using eDiscovery (Standard). The use
 Complete the following steps to create a case:
 
 1.  On the **Microsoft Purview compliance** portal, select **eDiscovery** on the navigation pane. In the **eDiscovery** group, select **Standard**.
-2.  On the **eDiscovery (Standard)** page,
-3.  On the **eDiscovery (Standard)** page, select the **+Create a case** option on the menu bar.
-4.  On the **New case** pane that appears, enter a **Name** for the case, optionally enter a **Description**, and then select **Save**. The case name must be unique in your organization.
-5.  The new case is created and displayed on the **eDiscovery (Standard)** page. You may have to select the **Refresh** option on the menu bar to display the new case.
+2.  On the **eDiscovery (Standard)** page, select the **+Create a case** option on the menu bar.<br>
+3.  On the **New case** pane that appears, enter a **Name** for the case, optionally enter a **Description**, and then select **Save**. The case name must be unique in your organization.
+4.  The new case is created and displayed on the **eDiscovery (Standard)** page. You may have to select the **Refresh** option on the menu bar to display the new case.
 
 ### Step 4 (optional): Add members to an eDiscovery (Standard) case
 
@@ -95,10 +94,12 @@ If you create a case in Step 3 and you're the only person who will use the case,
 4.  On the **Settings** tab, two tiles are displayed: **Case Information** and **Access and permissions**. Select the **Select** button in the **Access and permissions** tile.
 5.  On the **Access &amp; permissions** pane that appears, under the **Manage members** section, select **+Add** to add members to the case.
     
-        > [!NOTE]
-        > You can also choose to add role groups as members of a case. Under the **Manage role groups** section, select **+Add**. You can only assign the role groups that you're a member of to a case. This restriction is in place because role groups control who can assign members to an eDiscovery case.
+    > [!NOTE]
+    > You can also choose to add role groups as members of a case. Under the **Manage role groups** section, select **+Add**. You can only assign the role groups that you're a member of to a case. This restriction is in place because role groups control who can assign members to an eDiscovery case.
 6.  On the **Add members** pane, in the list of users or role groups that can be added as members of the case, select to the left of the name of the people or role groups that you want to add. Doing so displays a check box for the user or role group. If you have a large list of people or role groups who can be added as members, use the **Search** box to search for a specific person or role group in the list.
 7.  On the **Access &amp; permissions** pane, select the **Exit** button at the bottom of the pane, which returns you to the case detail page.
+
+Organizations should keep in mind the following considerations when adding members to an eDiscovery (Standard) case:
 
  -  If a role is added or removed from a role group that you've added as a member of a case, then the role group will automatically be removed as a member of the case (or any case the role group is a member of). The reason for this action is to protect the organization from inadvertently providing extra permissions to members of a case. Similarly, if a role group is deleted, it will be removed from all cases it was a member of.
  -  As previously mentioned, only an eDiscovery Administrator can remove members from a case. Users who are members of the eDiscovery Manager subgroup can't remove members from a case, even if the user created the case.

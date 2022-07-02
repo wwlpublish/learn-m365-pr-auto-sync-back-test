@@ -11,7 +11,7 @@ In this module, you'll learn how to use eDiscovery tools in Microsoft Purview to
  -  Exchange Online
  -  SharePoint Online
  -  OneDrive for Business
- -  Microsoft Teams<br>
+ -  Microsoft Teams
  -  Microsoft 365 Groups
  -  Yammer teams
 
@@ -19,7 +19,7 @@ The module explores how to search mailboxes and sites in the same eDiscovery sea
 
 The module also examines how to search for and export content in a case. After a Microsoft Purview eDiscovery (Standard) case is created and people of interest in the case are placed on hold, an organization can create and run one or more searches for content relevant to the case. And after an organization successfully runs a search associated with a Microsoft Purview eDiscovery (Standard) case, the company can export the search results. The module concludes by examining how to close, reopen, and delete a case.
 
-After completing this module, you'll be able to: 
+After completing this module, you'll be able to:
 
  -  Describe how Microsoft Purview eDiscovery (Standard) builds on the basic search and export functionality of Content search.
  -  Describe the basic workflow of eDiscovery (Standard).

@@ -11,7 +11,7 @@ In this module, you learned how to use eDiscovery tools in Microsoft Purview to 
  -  Exchange Online
  -  SharePoint Online
  -  OneDrive for Business
- -  Microsoft Teams<br>
+ -  Microsoft Teams
  -  Microsoft 365 Groups
  -  Yammer teams
 

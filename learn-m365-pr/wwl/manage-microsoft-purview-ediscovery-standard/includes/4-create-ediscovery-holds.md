@@ -1,15 +1,15 @@
 An organization can use a Microsoft Purview eDiscovery (Standard) case to create holds. Holds preserve content that may be relevant to a case. For example, you can place a hold on:
 
- -  the Exchange mailboxes and OneDrive for Business accounts of people you're investigating in a case.
- -  the mailboxes and sites that are associated with Microsoft Teams, Microsoft 365 Groups, and Yammer Groups.
+ -  The Exchange mailboxes and OneDrive for Business accounts of people you're investigating in a case.
+ -  The mailboxes and sites that are associated with Microsoft Teams, Microsoft 365 Groups, and Yammer Groups.
 
 > [!NOTE]
 > After an organization creates an eDiscovery hold, it may take up to 24 hours for the hold to take effect.
 
 When an organization places content locations on hold, content is preserved until the organization either:
 
- -  removes the content location from the hold.
- -  deletes the hold.
+ -  Removes the content location from the hold.
+ -  Deletes the hold.
 
 When an organization creates a hold, it has the following options to scope the content that's preserved in the specified content locations:
 
@@ -74,7 +74,7 @@ Organizations should keep in mind the following recommendations when searching l
  -  **A content location is part of multiple holds within the same case**. In this situation, the hold queries are combined by OR operators when you search that content location using the **all case content** option. Similarly, if a content location is part of two different holds, where one is query-based and the other is an infinite hold (where all content is placed on hold), then all content is searched because of the infinite hold.
  -  **A search is configured to search locations on hold and then you change an eDiscovery hold in the case by adding or removing a location, or changing a hold query**. In this scenario, the search configuration is updated with those changes. However, you have to rerun the search after the hold is changed to update the search results.
  -  **Multiple eDiscovery holds are placed on a single location in an eDiscovery case and you select to search locations on hold**. In this situation, the maximum number of keywords for that search query is 500. Why? Because the search combines all the query-based holds by using the OR operator. If there are more than 500 keywords in the combined hold queries and the search query, then all content in the mailbox is searched, not just that content that matches the query-based case holds.
- -  **An eDiscovery hold has a status of On (Pending).** In this scenario, you can still search the locations on hold while the hold is being turned on.
+ -  **An eDiscovery hold has a status of On (Pending)**. In this scenario, you can still search the locations on hold while the hold is being turned on.
 
 ### Removing content locations from an eDiscovery hold
 

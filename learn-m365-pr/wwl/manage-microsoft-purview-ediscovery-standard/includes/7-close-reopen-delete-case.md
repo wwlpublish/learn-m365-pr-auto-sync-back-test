@@ -52,7 +52,7 @@ When an organization reopens a closed case, any eDiscovery holds that were in pl
 
 1.  Go to the **Holds** tab in the case that you reopened.
 2.  Select the hold that you want to turn back on.
-3.  On the hold's detail pane that appears, set the **Status** toggle to **On.**
+3.  On the hold's detail pane that appears, set the **Status** toggle to **On**.
 
 ### Delete a case
 
@@ -67,7 +67,7 @@ An organization should perform the following steps to delete an eDiscovery hold:
 
 1.  Go to the **Holds** tab in the case that you want to delete.
 2.  Select the hold that you want to delete.
-3.  On the detail pane that appears, select **Delete.**
+3.  On the detail pane that appears, select **Delete**.
 
 Perform the following steps to delete a case:
 
