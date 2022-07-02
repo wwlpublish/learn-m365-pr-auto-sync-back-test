@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 07/01/2022
+  ms.date: 07/02/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -65,13 +65,13 @@ quiz:
     choices:
     - content: "Standard channel"
       isCorrect: false
-      explanation: "That's incorrect. Standard channels allow you to do moderation, invite guests, schedule meetings and you can not share or restrict to certain uesrs."
+      explanation: "That's incorrect. Standard channels allow you to do moderation, invite guests, schedule meetings and you can't share or restrict to certain uesrs."
     - content: "Private channel"
       isCorrect: false
       explanation: "That's incorrect. Private channel is a focused spaces for collaboration within a team."
     - content: "Shared channel"
       isCorrect: true
-      explanation: "That's correct. Shared channel is a collaboration space where you can invite people from cross-tenants and add members without adding them to them to a team."
+      explanation: "That's correct. Shared channel is a collaboration space where you can invite people from cross-tenants and add members without adding them to a team."
   - content: "Amy is the Teams admin for Contoso Ltd. The company wants to centralize the cloud file storage to Microsoft 365 (SharePoint and OneDrive) by disabling third-party storage providers. Which of the following should Amy configure in the Teams admin center?"
     choices:
     - content: "Teams apps permission policy"
