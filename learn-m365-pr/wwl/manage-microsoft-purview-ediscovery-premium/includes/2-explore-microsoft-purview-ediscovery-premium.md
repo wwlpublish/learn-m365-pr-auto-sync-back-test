@@ -63,6 +63,6 @@ At a high level, here's how eDiscovery (Premium) supports the EDRM workflow:
  -  **Analysis**. eDiscovery (Premium) provides an integrated analytics tool. This tool helps an organization further cull data from the review set when it determines the data isn't relevant to the investigation. Besides reducing the volume of relevant data, Advance eDiscovery also helps an organization save legal review costs by letting it organize content to make the review process easier and more efficient.
  -  **Production and Presentation**. When an organization's ready, it can export documents from a review set for legal review. Documents can be exported in their native format. They can also be exported in an EDRM-specified format. By doing so, the documents can be imported into third-party review applications.
 
-### Knowledge check<br>
+## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”

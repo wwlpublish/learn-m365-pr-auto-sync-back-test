@@ -38,7 +38,7 @@ Perform the following steps to add custodians to an eDiscovery (Premium) case:
 5.  On the **Data sources** tab, select **Add data source** on the menu bar. In the drop-down menu that appears, select **Add new custodians**.
 6.  Add one or more users in your organization as custodians to the case by typing the first part of a person's name or alias. Both active and inactive users are searched. After you find the correct person, select their name to add them to the list. Select **Next** once you're finished adding custodians to the case.
 7.  On the **Hold settings** page that appears, choose which of the new custodians to place on hold (all custodians are selected by default). Select **Next**.
-8.  On the **Review your custodians** page, select **Submit.**
+8.  On the **Review your custodians** page, select **Submit**.
 9.  On the **New custodians created** page, select **Done**.
 10. On the **Data sources** tab, the selected custodians should now appear in the list of data sources.
 
@@ -59,7 +59,7 @@ Perform the following steps to deselect the primary mailbox and OneDrive account
 Perform the following steps to associate other mailboxes, sites, Teams, or Yammer groups to a specific custodian:
 
 1.  Expand a custodian to display the following services to associate data locations with the custodian. Select **Edit** next to a service to add one of the following data locations:
-     -  **Exchange**. Associates other mailboxes to the custodian. Type into the search box the name or alias (a minimum of three characters) of user mailboxes or distribution groups. Select the mailboxes to assign to the custodian and then select **Add.**
+     -  **Exchange**. Associates other mailboxes to the custodian. Type into the search box the name or alias (a minimum of three characters) of user mailboxes or distribution groups. Select the mailboxes to assign to the custodian and then select **Add**.
      -  **SharePoint**. Associates SharePoint sites to the custodian. Select a site in the list or search for a site by typing a URL in the search box. Select the sites to assign to the custodian and then select **Add**. If a user is inactive, their OneDrive site must be added here as another SharePoint location.
      -  **Teams**. Assigns the Microsoft Teams in which the custodian is currently a member of. Select the teams to assign to the custodian and then select **Add**. After you add a team, the system automatically identifies and locates both the SharePoint site and the group mailbox associated with that team. It then assigns them to the custodian.
      -  **Yammer**. Assigns the Yammer groups the custodian is currently a member of. Select the groups to assign to the custodian and then select **Add**. After you add a team, the system automatically identifies and locates both the SharePoint site and the group mailbox associated with that group. It then assigns them to the custodian.

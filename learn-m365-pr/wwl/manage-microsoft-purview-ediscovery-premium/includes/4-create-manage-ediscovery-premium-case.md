@@ -15,9 +15,9 @@ Perform the following steps to create an eDiscovery (Premium) case:
     
     :::image type="content" source="../media/new-ediscovery-case-form-71b70e2a.png" alt-text="Screenshot showing the New eDiscovery Case form.":::
     
-5.  Select either of the following options for the setting titled: **Do you want to configure additional settings after creating this case?:**
+5.  Select either of the following options for the setting titled: **Do you want to configure additional settings after creating this case?**:
      -  **Yes, I want to add members or configure the analytics section**.
-     -  **No, return to the home page. I'll use the default case settings for.**
+     -  **No, return to the home page. I'll use the default case settings for**.
 6.  In the **Case format** section, select **New**. The Classic case option is being deprecated, so it's recommended that you select the **New case** format.
 7.  Select **Save** to create the case.
 8.  If you earlier selected the **Yes, I want to add members or configure the analytics** option, the case's detail page is returned, and the **Settings** tab is displayed.
@@ -37,18 +37,18 @@ Perform the following steps to create an eDiscovery (Premium) case:
 
 The eDiscovery (Premium) case format enables organizations to manage cases that contain over 40 million items. This capability helps companies to effectively manage large volumes of case data through the entire eDiscovery workflow. The eDiscovery (Premium) case format provides a list of other benefits for large cases in the eDiscovery (Premium) workflow, including:
 
- -  **Collection.** In the eDiscovery (Premium) case format, organizations can collect up to 1 TB of data for a single collection. For each case, the collection settings default to collect cloud attachments and contextual Teams and Yammer content. These settings help to collect the full picture of digital communications within an investigation. For Teams and Yammer contextual conversations, the eDiscovery (Premium) case format converts time-based snapshots of 1:1, 1: N and Channel conversations into HTML transcripts. Doing so provides context of conversations and reduces the total number of items produced by chat-based content.
+ -  **Collection**. In the eDiscovery (Premium) case format, organizations can collect up to 1 TB of data for a single collection. For each case, the collection settings default to collect cloud attachments and contextual Teams and Yammer content. These settings help to collect the full picture of digital communications within an investigation. For Teams and Yammer contextual conversations, the eDiscovery (Premium) case format converts time-based snapshots of 1:1, 1: N and Channel conversations into HTML transcripts. Doing so provides context of conversations and reduces the total number of items produced by chat-based content.
     
-        > [!WARNING]
-        > If you attempt to collect over 1 TB in a single collection, the performance will be negatively impacted, and it may cause instability in some instances.
+    > [!WARNING]
+    > If you attempt to collect over 1 TB in a single collection, the performance will be negatively impacted, and it may cause instability in some instances.
     
-        > [!NOTE]
-        > If cloud attachments are included by default in the large case format, an organization can remove that content from its review experience. It can do so by using review set filters to filter by message kind. Or, it can exclude cloud attachments by using the HasAttachment filter. For more information, see [Query and filter content in a review set](/microsoft-365/compliance/review-set-search?azure-portal=true).
+    > [!NOTE]
+    > If cloud attachments are included by default in the large case format, an organization can remove that content from its review experience. It can do so by using review set filters to filter by message kind. Or, it can exclude cloud attachments by using the HasAttachment filter. For more information, see [Query and filter content in a review set](/microsoft-365/compliance/review-set-search?azure-portal=true).
  -  **Review**. Each review set will support up to 1 TB of pre-expansion content. Other metadata is available for filters and queries including Team name, channel name, and conversation name for Teams content. Each transcript includes time-based content for before and after the responsive item. For Channel conversations, the root post and all replies are collected for responsive content. For more information, see [eDiscovery (Premium) workflow for content in Microsoft Teams (preview)](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery?azure-portal=true)
  -  **Export**. An organization can export large sets of content in a single export job. The eDiscovery (Premium) case format can export 5 million documents or 500 GB, whichever is smaller in an export job.
     
-        > [!NOTE]
-        > When an organization exports chat conversation transcripts, all metadata for a conversation is embedded in the HTML transcript file. Many of the common fields are available in the load file. For more information about exported metadata, see [Document metadata fields in eDiscovery (Premium)](/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery?azure-portal=true).
+    > [!NOTE]
+    > When an organization exports chat conversation transcripts, all metadata for a conversation is embedded in the HTML transcript file. Many of the common fields are available in the load file. For more information about exported metadata, see [Document metadata fields in eDiscovery (Premium)](/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery?azure-portal=true).
 
 The user interface for the eDiscovery (Premium) case format displays the total size of each review set in the case. Review set sizes are displayed in a column on the **Review sets** tab.
 

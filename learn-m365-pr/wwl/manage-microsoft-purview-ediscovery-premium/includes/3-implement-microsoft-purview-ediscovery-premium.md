@@ -20,7 +20,7 @@ Licensing for eDiscovery (Premium) requires the following organization subscript
  -  **Per-user licensing**. To add a user as a custodian in an Advance eDiscovery case, that user must be assigned one of the following licenses, depending on their organization subscription:
      -  Microsoft 365: Users must be assigned one of the following licenses:
          -  Microsoft 365 E5 license, an E5 Compliance add-on license, or an E5 eDiscovery and Audit add-on.
-         -  Microsoft 365 Frontline users must be assigned an F5 Compliance or F5 Security &amp; Compliance add-on.
+         -  Microsoft 365 Frontline users must be assigned an F5 Compliance or F5 Security and Compliance add-on.
          -  Microsoft 365 Education users must be assigned an A5 license.
      -  Office 365: Users must be assigned an Office 365 E5 or Office 365 Education A5 license.
 

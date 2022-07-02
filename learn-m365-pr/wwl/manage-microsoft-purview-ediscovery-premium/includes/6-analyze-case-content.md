@@ -40,7 +40,9 @@ To apply the **For Review** filter query to a review set, select **Saved filter 
 
 Here's the syntax for the **For Review filter** query:
 
-`(((FileClass="Email") AND (InclusiveType="InclusiveMinus" OR InclusiveType="Inclusive")) OR ((FileClass="Attachment") AND (UniqueInEmailSet="true")) OR ((FileClass="Document") AND (MarkAsRepresentative="Unique")) OR (FileClass="Conversations"))`
+```
+(((FileClass="Email") AND (InclusiveType="InclusiveMinus" OR InclusiveType="Inclusive")) OR ((FileClass="Attachment") AND (UniqueInEmailSet="true")) OR ((FileClass="Document") AND (MarkAsRepresentative="Unique")) OR (FileClass="Conversations"))">
+```
 
 The following list describes the result of the filter query in terms of what content is displayed after you apply it to the review set.
 
