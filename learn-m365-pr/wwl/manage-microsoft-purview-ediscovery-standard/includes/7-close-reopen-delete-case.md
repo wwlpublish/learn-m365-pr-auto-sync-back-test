@@ -42,8 +42,8 @@ An organization should perform the following steps to reopen a closed a case:
 4.  Select **Yes** to reopen the case. The status of the case on its **Home** tab is changed from **Closed** to **Active**.
 5.  On the **eDiscovery (Standard)** page, select **Refresh** to update the status of the reopened case.
     
-        > [!NOTE]
-        > It may take up to 60 minutes for the reopening process to complete. When the process is complete, the status of the case is changed to **Active** on the **eDiscovery (Standard)** page.
+    > [!NOTE]
+    > It may take up to 60 minutes for the reopening process to complete. When the process is complete, the status of the case is changed to **Active** on the **eDiscovery (Standard)** page.
 6.  (Optional) To turn on any holds associated with the reopened case, go to **Holds** tab, select a hold, and then select the check box under **Status** on the hold detail pane.
 
 #### Turn on previous eDiscovery holds

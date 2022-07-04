@@ -80,7 +80,7 @@ The next step is to create a case and start using eDiscovery (Standard). The use
 Complete the following steps to create a case:
 
 1.  On the **Microsoft Purview compliance** portal, select **eDiscovery** on the navigation pane. In the **eDiscovery** group, select **Standard**.
-2.  On the **eDiscovery (Standard)** page, select the **+Create a case** option on the menu bar.<br>
+2.  On the **eDiscovery (Standard)** page, select the **+Create a case** option on the menu bar.
 3.  On the **New case** pane that appears, enter a **Name** for the case, optionally enter a **Description**, and then select **Save**. The case name must be unique in your organization.
 4.  The new case is created and displayed on the **eDiscovery (Standard)** page. You may have to select the **Refresh** option on the menu bar to display the new case.
 
