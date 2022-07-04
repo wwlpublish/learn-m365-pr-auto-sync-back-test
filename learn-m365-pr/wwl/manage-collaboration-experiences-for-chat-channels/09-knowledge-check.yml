@@ -87,10 +87,10 @@ quiz:
     choices:
     - content: "LOB apps, bots, connectors, and message extensions"
       isCorrect: false
-      explanation: "That's incorrect. Shared channels do not support LOB apps, bots m connectors and message extensions."
+      explanation: "That's incorrect. Shared channels don't support LOB apps, bots m connectors and message extensions."
     - content: "Receive notifications from shared channels in missed activity emails."
       isCorrect: false
-      explanation: "That's incorrect. Missed activity emails will not include notifications from Shared channel."
+      explanation: "That's incorrect. Missed activity emails won't include notifications from Shared channel."
     - content: "Accept or decline a team invite to a shared channel"
       isCorrect: true
       explanation: "That's correct. A team owner can accept or decline a team invite to a shared channel."
