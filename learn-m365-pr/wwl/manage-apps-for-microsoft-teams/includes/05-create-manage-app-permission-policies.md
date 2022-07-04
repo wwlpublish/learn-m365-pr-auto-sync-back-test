@@ -65,7 +65,7 @@ Alternatively, you can also perform the following steps to assign a policy to a 
 2. Select the user by selecting to the left of the username, and then select **Edit settings**.
 3. Under **App permission policy**, select the app permission policy you want to assign, and then select **Apply**.
 
-	:::image type="content" source="../media/app-permission-policies-new-policy.png" alt-text=" Screenshot of assigning a app permission policy to a user.":::  
+	:::image type="content" source="../media/app-permission-policies-new-policy.png" alt-text=" Screenshot of assigning an app permission policy to a user.":::  
 
 
 ### Assign a custom app permission policy using PowerShell
