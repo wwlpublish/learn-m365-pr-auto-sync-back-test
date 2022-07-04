@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-collaboration-experiences-for-chat-channels.create-manage-messaging-policies
+title: Create and manage messaging policies
+metadata:
+  title: Create and manage messaging policies
+  description: "Create and manage messaging policies"
+  ms.date: 07/04/2022
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/06-create-manage-messaging-policies.md)]

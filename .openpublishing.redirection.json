@@ -4274,6 +4274,41 @@
       "source_path": "learn-m365-pr/wwl/search-for-content-security-compliance-center/7-items-from-third-party-data-source.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/search-for-content-security-compliance-center/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-collaboration-experiences-for-chat-channels/03-manage-private-channel-creation.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-collaboration-experiences-for-chat-channels/04-manage-private-channel-creation",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-collaboration-experiences-for-chat-channels/02-manage-public-private-channels.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-collaboration-experiences-for-chat-channels/03-manage-public-private-channels",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-collaboration-experiences-for-chat-channels/04-configure-teams-settings.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-collaboration-experiences-for-chat-channels/05-configure-teams-settings",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-collaboration-experiences-for-chat-channels/05-create-manage-messaging-policies.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-collaboration-experiences-for-chat-channels/06-create-manage-messaging-policies",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-collaboration-experiences-for-chat-channels/07-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-collaboration-experiences-for-chat-channels/09-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-collaboration-experiences-for-chat-channels/06-manage-channel-moderation.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-collaboration-experiences-for-chat-channels/07-manage-channel-moderation",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-collaboration-experiences-for-chat-channels/08-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-collaboration-experiences-for-chat-channels/10-summary",
+      "redirect_document_id": true
     }
   ]
 }
