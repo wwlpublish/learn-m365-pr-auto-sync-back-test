@@ -2,32 +2,37 @@
 uid: learn-m365.zero-trust-applications
 metadata:
   moduleType: standard
-  title: zero-trust-applications
-  description: In recent years, the Zero Trust applications.
-  ms.date: 6/16/2022
+  title: Describe application access in Zero Trust
+  description: Learn how to use Zero Trust to secure your applications, to protect your organization and its users.
+  ms.date: 06/22/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: zero-trust-applications
-summary: ""
+title: Describe application access in Zero Trust
+summary: Learn how to use Zero Trust to secure your applications, to protect your organization and its users.
 abstract: |
   By the end of this module, you'll be able to:
-    - "TODO learning objective 1"
+    - Describe applications.
+    - Describe shadow IT and its impact.
+    - Describe how to secure applications with a Zero Trust framework.
+
 prerequisites: |
   - None
 iconUrl: /learn/achievements/generic-badge.svg
-levels:
+levels: 
   - beginner
-roles:
+roles: 
   - administrator
   - student
-products:
-- m365
-subjects:
+products: 
+  - m365
+subjects: 
   - security
 units:
 - learn-m365.zero-trust-applications.introduction
+- learn-m365.zero-trust-applications.describe-cloud-applications
+- learn-m365.zero-trust-applications.protect-cloud-applications-using-zero-trust
 - learn-m365.zero-trust-applications.knowledge-check
 - learn-m365.zero-trust-applications.summary
 badge:
