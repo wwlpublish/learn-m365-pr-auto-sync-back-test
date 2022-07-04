@@ -4259,6 +4259,21 @@
       "source_path": "learn-m365-pr/wwl/troubleshoot-data-governance/5-troubleshoot-transmittal-of-sensitive-data.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/search-for-content-security-compliance-center/2-explore-content-search-functionality.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/search-for-content-security-compliance-center/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/search-for-content-security-compliance-center/3-design-create-clone-content-search.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/search-for-content-security-compliance-center/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/search-for-content-security-compliance-center/7-items-from-third-party-data-source.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/search-for-content-security-compliance-center/",
+      "redirect_document_id": false
     }
   ]
 }
