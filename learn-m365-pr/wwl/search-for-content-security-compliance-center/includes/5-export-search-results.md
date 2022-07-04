@@ -163,7 +163,7 @@ When an organization exports a report, the report files are downloaded to a fold
 
 #### Step 1: Generate the report for export
 
-The first step is to prepare the report for downloading to your computer. When you export the report, the report documents are uploaded to an Azure Storage area in the Microsoft cloud. The steps in this process are fairly similar to the steps in the prior section titled **Prepare search results for export**. As such, screenshots aren't displayed to streamline the instruction.<br>
+The first step is to prepare the report for downloading to your computer. When you export the report, the report documents are uploaded to an Azure Storage area in the Microsoft cloud. The steps in this process are fairly similar to the steps in the prior section titled **Prepare search results for export**. As such, screenshots aren't displayed to streamline the instruction.
 
 1.  In the **Microsoft Purview compliance** portal, select **Content search** in the navigation pane.
 2.  On the **Content search** page, select the content search that you want to export results from.

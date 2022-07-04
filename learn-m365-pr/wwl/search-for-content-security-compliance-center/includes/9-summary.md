@@ -7,6 +7,6 @@ This module also reviewed the Compliance search cmdlets that enable you to use W
 This module examined the most common Content search scenarios, including:
 
  -  Searching all your Microsoft 365 data without limits on the number of mailboxes or documents.
- -  Configuring search permissions filtering to allow an eDiscovery manager to search a subset of mailboxes and sites in their Microsoft 365 organization.<br>
+ -  Configuring search permissions filtering to allow an eDiscovery manager to search a subset of mailboxes and sites in their Microsoft 365 organization.
  -  Exporting search results and statistics reports.
- -  Searching for and deleting email messages.<br>
+ -  Searching for and deleting email messages.
