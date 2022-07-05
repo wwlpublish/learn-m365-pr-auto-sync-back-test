@@ -72,15 +72,15 @@ manager, one of her top objectives is setting up successful onboarding
 and training processes for her new team members. With Viva Connections,
 managers like Amber can work with the Dashboard administrator to set up
 cards for new employees that include the onboarding tasks and training
-in [Viva Learning](https://docs.microsoft.com/en-us/viva/learning/) that
+in [Viva Learning](https://docs.microsoft.com/viva-connections-launch-and-monitor/viva/learning/) that
 they need to complete. Integrations with another Viva module, [Viva
-Insights](https://docs.microsoft.com/en-us/viva/insights/), can help
+Insights](https://docs.microsoft.com/viva-connections-launch-and-monitor/viva/insights/), can help
 create a well-rounded onboarding experience by helping team members
 prioritize mental health, reserve time for focused work, and take
 breaks.
 
 Integrations with other [Microsoft Viva
-modules](https://docs.microsoft.com/en-us/viva/) like Viva Learning and
+modules](https://docs.microsoft.com/viva-connections-launch-and-monitor/viva/) like Viva Learning and
 Viva Insights can be extended to new and existing employees alike who
 want to continue building skills through curated training and want help
 managing work-life balance.
