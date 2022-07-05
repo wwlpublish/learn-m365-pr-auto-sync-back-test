@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-apps-for-microsoft-teams.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 07/04/2022
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/14-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "John is the IT Administrator in Contoso Ltd. John recently published and distributed a custom LOB application to Salespeople's Teams client. The sales lead complains that users are prompted  to review and accept the permissions requested by the app whenever they start the app. What should John do to improve the user experience?"
+    choices:
+    - content: "Configure app permission policy"
+      isCorrect: false
+      explanation: "That's incorrect. App permission policy doesn't control the permissions request from custom or third-party apps."
+    - content: "Configure app permissions"
+      isCorrect: true
+      explanation: "That's correct. The global admin can review and grant consent to apps that request permissions on behalf of all users in the organization."
+    - content: "Configure app setup policy"
+      isCorrect: false
+      explanation: "That's incorrect. App setup policy doesn't control the permissions request from custom or third-party apps."
+  - content: "Jimmy is the Teams Administrator in Contoso Ltd. Amy owns a team named ProjectStart. Amy reports that she can use but can't upload any custom apps to the  ProjectStart team. What should Jimmy do to resolve the issue?"
+    choices:
+    - content: "Configure org-wide custom app setting"
+      isCorrect: false
+      explanation: "That's incorrect. Amy confirmed she could use custom apps, which assures the org-wide custom app setting is turned on."
+    - content: "Configure app setup policies"
+      isCorrect: true
+      explanation: "That's correct. App setup policies control whether users can upload custom apps."
+    - content: "Configure setting in the Project-A team"
+      isCorrect: false
+      explanation: "That's incorrect. The custom app setting in the Project-A team controls whether team members can upload custom apps."
+  - content: "Amy is the Teams Administrator in Contoso Ltd. Andrew from the HR department developed a custom app using Power Apps and shared it with his colleagues. Andrew reports that his colleagues can't find the app on the Apps page in Teams. What should Amy do to resolve the issue?"
+    choices:
+    - content: "Configure app setup policies"
+      isCorrect: false
+      explanation: "That's incorrect. Configuring app setup policies doesn't resolve the issue."
+    - content: "Allow Shared Power Apps and Shared Power Virtual Agent Apps apps"
+      isCorrect: true
+      explanation: "That's correct. Shared Power Apps and Shared Power Virtual Agent Apps apps need to be allowed for Microsoft Power Platform apps listed in Built by your colleagues on the Apps page in Teams."
+    - content: "Manage app permissions and settings"
+      isCorrect: false
+      explanation: "That's incorrect. Managing app permissions and settings doesn't resolve the issue."
+  - content: "Eric is the Teams admin for Contoso Ltd. Eric wants to make the new custom app is visible for the Sales team in their Teams client. How can this be achieved from Teams admin center?"
+    choices:
+    - content: "Configure Teams apps setup policies"
+      isCorrect: true
+      explanation: "That's correct. Teams apps setup policies control the apps pinned to users' app bar."
+    - content: "Configure Teams apps permission policies"
+      isCorrect: false
+      explanation: "That's incorrect. Teams apps permission policy doesn't control the apps pinned to users' app bar."
+    - content: "Configure Teams setting"
+      isCorrect: false
+      explanation: "That's incorrect. Teams setting doesn't control the apps pinned to users' app bar."
+  - content: "Emily is the Teams Administrator in Contoso Ltd. The developer team developed a custom LOB app for the Sales team and submitted the app from Teams client. The Sales team reports that they can't find the app from Teams client. What should Emily do to resolve the issue?"
+    choices:
+    - content: "Configure app permission policies"
+      isCorrect: false
+      explanation: "That's incorrect. Configuring app permission policies doesn't resolve the issue."
+    - content: "Configure app status from Manage apps"
+      isCorrect: true
+      explanation: "That's correct. Emily needs to approve the custom app submitted by the developer."
+    - content: "Configure app setup policies"
+      isCorrect: false
+      explanation: "That's incorrect. Configuring app setup policies doesn't resolve the issue."

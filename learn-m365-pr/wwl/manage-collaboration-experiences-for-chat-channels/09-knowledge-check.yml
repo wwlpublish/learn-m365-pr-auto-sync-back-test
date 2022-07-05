@@ -1,0 +1,96 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-collaboration-experiences-for-chat-channels.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 07/04/2022
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/09-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Ann is the Teams admin for Contoso Ltd. Ann also owns two teams named TeamA and TeamB. Ann wants to prevent the team members of TeamA from creating private channels, but not TeamB. The team members are overlapped between those two teams. What should Ann do to achieve the goal?"
+    choices:
+    - content: "Configure the settings from Teams client"
+      isCorrect: true
+      explanation: "That's correct. Teams owners can control whether team members can create private channels of the team from the Teams client."
+    - content: "Configure Teams policies from Teams admin center"
+      isCorrect: false
+      explanation: "That's incorrect. Teams policies control whether users can create private channels at the user level."
+    - content: "Configure Teams settings from Teams admin center"
+      isCorrect: false
+      explanation: "That's incorrect. Teams settings don't control whether users can create private channels."
+  - content: "Teams administrators can configure the Teams settings at different levels, including tenant and team levels. Which of the following settings is only available at the tenant level (Org-wide)?"
+    choices:
+    - content: "Allow users to send emails to a channel email address"
+      isCorrect: true
+      explanation: "That's correct. Email integration control is a part of Teams settings at the tenant level."
+    - content: "Users can delete sent messages"
+      isCorrect: false
+      explanation: "That's incorrect. Teams admin can control whether users can delete sent messages through messaging policy at the user level."
+    - content: "Allow a user to remove users from a group chat"
+      isCorrect: false
+      explanation: "That's incorrect. Teams admin can control whether users can remove users from group chats through messaging policy at the user level."
+  - content: "Tommy is the Teams admin for Contoso Ltd in the financial industry. The company wants to prevent users from using GIF files in Teams. Which of the following policies should Tommy configure to achieve the goal?"
+    choices:
+    - content: "Meeting policy"
+      isCorrect: false
+      explanation: "That's incorrect. Meeting policy doesn't control whether users can use GIF files in Teams."
+    - content: "Messaging policy"
+      isCorrect: true
+      explanation: "That's correct. Messaging policy controls whether users can use GIF files in Teams."
+    - content: "Teams policy"
+      isCorrect: false
+      explanation: "That's incorrect. Teams policy doesn't control whether users can use GIF files in Teams."
+  - content: "Angel is the Teams admin for Contoso Ltd. The management wants to prevent unabated usage of private channels in some department. Angel was asked to configure the settings to prevent users from creating private channels. Which of the following policies should Angel use to prevent users from creating private channels in teams?"
+    choices:
+    - content: "Messaging policy"
+      isCorrect: false
+      explanation: "That's incorrect. Messaging policy doesn't control whether users can create private channels."
+    - content: "Teams policy"
+      isCorrect: true
+      explanation: "That's correct. Teams policy controls whether users can create private channels."
+    - content: "Meeting policy"
+      isCorrect: false
+      explanation: "That's incorrect. Meeting policy doesn't control whether users can create private channels."
+  - content: "Alex is the Teams admin for Contoso Ltd. A Marketing department manager wants to team members to a channel without adding them to the team and collaborate with external participants from other companies. Which of the following channel type should Alex recommend to the manager?"
+    choices:
+    - content: "Standard channel"
+      isCorrect: false
+      explanation: "That's incorrect. Standard channels allow you to do moderation, invite guests, schedule meetings and you can't share or restrict to certain uesrs."
+    - content: "Private channel"
+      isCorrect: false
+      explanation: "That's incorrect. Private channel is a focused spaces for collaboration within a team."
+    - content: "Shared channel"
+      isCorrect: true
+      explanation: "That's correct. Shared channel is a collaboration space where you can invite people from cross-tenants and add members without adding them to a team."
+  - content: "Amy is the Teams admin for Contoso Ltd. The company wants to centralize the cloud file storage to Microsoft 365 (SharePoint and OneDrive) by disabling third-party storage providers. Which of the following should Amy configure in the Teams admin center?"
+    choices:
+    - content: "Teams apps permission policy"
+      isCorrect: false
+      explanation: "That's incorrect. Teams apps permission policy doesn't control the file sharing and cloud file storage options for the Files tab."
+    - content: "Teams settings"
+      isCorrect: true
+      explanation: "That's correct. Teams settings control the file sharing and cloud file storage options for the Files tab."
+    - content: "Teams policy"
+      isCorrect: false
+      explanation: "That's incorrect. Teams policy doesn't control the file sharing and cloud file storage options for the Files tab."
+  - content: "Allen, a Marketing department manager in Contoso Ltd. created a shared channel to collaborate with other teams and with external participants from other companies. Which of the following Allen can do or use with shared channel?"
+    choices:
+    - content: "LOB apps, bots, connectors, and message extensions"
+      isCorrect: false
+      explanation: "That's incorrect. Shared channels don't support LOB apps, bots m connectors and message extensions."
+    - content: "Receive notifications from shared channels in missed activity emails."
+      isCorrect: false
+      explanation: "That's incorrect. Missed activity emails won't include notifications from Shared channel."
+    - content: "Accept or decline a team invite to a shared channel"
+      isCorrect: true
+      explanation: "That's correct. A team owner can accept or decline a team invite to a shared channel."
