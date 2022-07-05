@@ -1,11 +1,24 @@
-<img src="../media/image9.png"
-style="width:0.47778in;height:0.47778in" />
+:::image type="icon" source="../media/image7.png":::In this module, let us imagine a large chain of regional hospitals,
+Lamna Healthcare, that needs an employee experience tool for their
+diverse types of employees, such as physicians and surgeons, nurse
+practitioners, Human Resources professionals, IT professionals, office
+administrators, and custodial staff. View a simplified Lamna Healthcare
+org chart below:
+
+
+:::image type="content" source="../media/image8.png" alt-text="Simplified Lamna Healthcare org chart.":::
+Now, let’s review some scenarios Lamna Healthcare wants to support with
+Viva Connections below.
+
+
 
 ### Viva Connections use cases in action
+:::image type="icon" source="../media/image9.png":::
 
 **Communicate and connect**
 
-<img src="../media/image11.png" style="width:2in;height:0.45in" />Kendall
+:::image type="content" source="../media/Kendall.png" alt-text="profile image of Kendall with headshot and job title.":::
+Kendall
 is a nurse at Lamna Healthcare Region C hospital ER. He needs to stay
 updated on important workplace events, news, and team communication.
 Quickly accessing organization communications is essential to his
@@ -34,7 +47,8 @@ tasks added by his manager. Now, Kendall is ready to get to work!
 
 **View** **pay and benefits**
 
-<img src="../media/image12.png" style="width:2in;height:0.45in" />Jessie
+:::image type="content" source="../media/Jessie.png" alt-text="profile image of Jessie with headshot and job title.":::
+Jessie
 works in Lamna Healthcare’s Human Resources team. She is a Benefit
 Specialist and answers repetitive questions from employees, including
 where to find paystubs and how to request time off. Jessie collaborates
@@ -50,7 +64,7 @@ Human Resources sites or content like frequently asked questions.
 
 **Training and onboarding**
 
-<img src="../media/image13.png" style="width:2in;height:0.45in" />Amber
+:::image type="content" source="../media/Amber.png" alt-text="profile image of Kendall with headshot and job title.":::Amber
 is a leader at Lamna Healthcare and manages a team of eight employees.
 As Lamna Healthcare has been rapidly growing its business in the past
 two years, her team has been growing and becoming more diverse. As a
