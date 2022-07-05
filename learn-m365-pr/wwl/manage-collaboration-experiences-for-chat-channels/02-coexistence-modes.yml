@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-collaboration-experiences-for-chat-channels.coexistence-modes
+title: Choose appropriate coexistence modes
+metadata:
+  title: Choose appropriate coexistence modes
+  description: "Choose appropriate coexistence modes"
+  ms.date: 07/04/2022
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/02-coexistence-modes.md)]
