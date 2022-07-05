@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.zero-trust-infrastructure.introduction
+uid: learn-m365.zero-trust-infrastructure.what-infrastructure
 title: Introduction
 metadata:
-  unitType: introduction
+  unitType: learning-content
   title: Introduction
-  description: Learn what is meant by the term infrastructure, and why it's a critical threat vector.
+  description: Learn what is meant by the term infrastructure.
   ms.date: 7/5/2022
   author: beccarobins
   ms.author: beccarobins
@@ -12,4 +12,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 1
 content: |
-  [!include[](includes/introduction.md)]
+  [!include[](includes/what-infrastructure.md)]

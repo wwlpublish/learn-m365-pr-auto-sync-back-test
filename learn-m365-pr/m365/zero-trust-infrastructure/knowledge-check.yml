@@ -4,82 +4,47 @@ title: Knowledge check
 metadata:
   unitType: knowledge_check
   title: Knowledge check
-  description: "TODO this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the unit; include relevant search keywords."
-  ms.date: 6/16/2022
+  description: Check what you've learned in this module
+  ms.date: 7/5/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 1
-###########################################################################
-###
-### General guidance (https://review.docs.microsoft.com/learn-docs/docs/id-guidance-knowledge-check)
-###  - Questions are complete sentences ending with a question mark
-###  - No true/false questions
-###  - 3 answers per question
-###  - All answers about the same length
-###  - Numeric answers listed in sorted order
-###  - No "All of the above" and/or "None of the above" as answer choices
-###  - No "Not" or "Except" in questions
-###  - No second person ("you") in the questions or answers
-###  - Provide a meaningful explanation for both correct and incorrect answers
-###
-###########################################################################
+durationInMinutes: 4
+
 content: |
 quiz:
   questions:
-  - content: ""
+  - content: SIEM and SOAR are key technologies that organizations deploy to monitor infrastructure. How do SIEM and SOAR function?
     choices:
-    - content: ""
+    - content: SIEM generates alerts of a potential threat. SOAR integrates SIEM and other security tools, triggers alerts, and takes remediation steps.
       isCorrect: true
-      explanation: ""
-    - content: ""
+      explanation: That's correct. Both SOAR and SIEM platforms collect security data, evaluate threats and trigger alerts. However, SIEM doesn't address the process required for incident response.
+    - content: SIEM focuses on automation whereas SOAR requires more human intervention to complete the tasks.
       isCorrect: false
-      explanation: ""
-    - content: ""
+      explanation: That's incorrect. SIEM requires human resources to handle security events whereas SOAR leverages artificial intelligence to automate threat detection, investigation, and incident response. SOAR works with both automated and manual processes.
+    - content: SIEM and SOAR platforms can't work independently and rely on each other to monitor security events.
       isCorrect: false
-      explanation: ""
-  - content: ""
+      explanation: That's incorrect. Although SIEM doesn't address the process required for incident response, both platforms can work independently and be used together for overall security operations.
+  - content: What is the goal of configuration management?
     choices:
-    - content: ""
+    - content: Effective configuration management enables organizations to accept default configurations and settings.
+      isCorrect: false
+      explanation: That's incorrect. Default configurations are often misconfigured. Configuration management helps to disable default configurations and settings.
+    - content: Configuration management implements clear screen and clear desk policies.
+      isCorrect: false
+      explanation: That's incorrect. Enforcing clear screen and clear desk policies isn't a part of the configuration management process
+    - content: Configuration management ensures every device and endpoint is operating at optimal performance.
       isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
+      explanation: That's correct. Configuration management implements various tools and strategies to ensure the optimal health of your infrastructure.
+  - content: Why is distributed denial-of-service (DDoS) a threat vector associated with IT infrastructure?
     choices:
-    - content: ""
+    - content: A DDoS is a threat vector because it exhausts an application's resources with an overflow of internet traffic.
       isCorrect: true
-      explanation: ""
-    - content: ""
+      explanation: That's correct. A DDoS attack targets web servers or networks and tries to exhaust an application's resources with a flood of internet traffic.
+    - content: A DDoS attack is a malicious attempt to gain unauthorized access to sites or facilities.
       isCorrect: false
-      explanation: ""
-    - content: ""
+      explanation: That's incorrect. Gaining unauthorized access to sites and workspaces is a security threat associated with physical infrastructure
+    - content: A DDoS is a process of assessing and monitoring IT infrastructure to identify various threat vectors.
       isCorrect: false
-      explanation: ""
-  - content: ""
-    choices:
-    - content: ""
-      isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
-    choices:
-    - content: ""
-      isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
+      explanation: That's incorrect. A DDoS isn't a process, it's an attack that targets web servers or networks.
