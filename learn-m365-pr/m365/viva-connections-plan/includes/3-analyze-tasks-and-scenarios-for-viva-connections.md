@@ -1,12 +1,8 @@
+To determine which tasks and scenarios to support, it's recommended that you conduct a needs assessment with various departments, roles, and regions within your organization. Insights from the needs assessment will help you identify and prioritize scenarios and tasks to support.
 
-## Unit 3: Analyze tasks and scenarios for Viva Connections
-
-To determine which tasks and scenarios to support, it's recommended that
-you conduct a needs assessment with various departments, roles, and
-regions within your organization. Insights from the needs assessment
-will help you identify and prioritize scenarios and tasks to support.
-
-![](../media/image7.png){width="6.25in" height="1.6145833333333333in"}
+:::image type="content" source="../media/image7.png" alt-text="workflow of analyzing and prioritizing tasks and scenarios." :::
+Step 1 is to consider needs of specific roles and regions; step 2 is to conduct a needs assessment; step 3 is to analyze scenarios and prioritize tasks for support; step 4 is to align scenarios with Viva Connections components; step 5 is to plan for audience targeting; step 6 is to consider device preference for different scenarios.
+:::image-end:::
 
 ## Quickly review the types of available cards
 
@@ -21,7 +17,7 @@ The following are cards that can be used with little configuration and
 customization:
 
   -------------------------------------------------------------------------------------------------------------------------------------------------
-  Approvals       Use [Approvals](https://docs.microsoft.com/en-us/power-automate/get-started-approvals) for vacation requests, sign-off on
+  Approvals       Use [Approvals](/power-automate/get-started-approvals) for vacation requests, sign-off on
                   documents, and approve expense reports.
   --------------- ---------------------------------------------------------------------------------------------------------------------------------
   Assigned Tasks  Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage
@@ -39,14 +35,14 @@ customization:
   Top news card   Set up the Top news card to [surface boosted news from
                   SharePoint.](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)
 
-  Web link        Access a site without leaving the Viva Connections app (most popular card and used to link to SharePoint portals and external
+Web link        Access a site without leaving the Viva Connections app (most popular card and used to link to SharePoint portals and external
                   links.)
   -------------------------------------------------------------------------------------------------------------------------------------------------
 
 In addition to the cards mentioned above, developers can create their
 own cards with advanced customization by extending Viva Connections with
 [Adaptive Card Extensions (ACE) with SharePoint
-Framework.](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/viva/get-started/build-first-sharepoint-adaptive-card-extension)
+Framework.](/sharepoint/dev/spfx/viva/get-started/build-first-sharepoint-adaptive-card-extension)
 
 ## Conduct a needs assessment
 
@@ -59,58 +55,57 @@ support where needed.
 
 **Considerations when conducting a needs assessment:**
 
--   Identify the places and locations where your workforce is located.
+- Identify the places and locations where your workforce is located.
 
--   Learn more about the needs of your workforce depending on location,
+- Learn more about the needs of your workforce depending on location,
     department, and task.
 
--   Consider how the geographical location, culture, and industry may
+- Consider how the geographical location, culture, and industry may
     impact the workforce.
 
--   Explore the ways your organization communicates and collaborates the
+- Explore the ways your organization communicates and collaborates the
     best.
 
--   Discover what your organization needs to learn in the flow of their
+- Discover what your organization needs to learn in the flow of their
     work
 
--   Discover what your organization struggles with and give them the
+- Discover what your organization struggles with and give them the
     tools and insights they need to focus their time and take time to
     rest.
 
--   Consider the culture of your organization and the ways people
+- Consider the culture of your organization and the ways people
     connect with each other.
 
 **Many data sources can be used to help your stakeholders to decide key
 scenarios and tasks, including:**
 
--   Anecdotal observations
+- Anecdotal observations
 
--   Email communications
+- Email communications
 
--   Employee survey results
+- Employee survey results
 
--   Interviews with focus group
+- Interviews with focus group
 
--   Customer support tickets
+- Customer support tickets
 
--   Analytics and usage data from Microsoft 365 apps
+- Analytics and usage data from Microsoft 365 apps
 
 **As you work with business owners and key stakeholders to align your
 Viva Connections design strategy, answer the following for each task:**
 
--   Who is the audience?
+- Who is the audience?
 
--   What do users need to accomplish or learn?
+- What do users need to accomplish or learn?
 
--   What tools or technology do they use today?
+- What tools or technology do they use today?
 
--   What tools or technology do you want visitors to use to accomplish
+- What tools or technology do you want visitors to use to accomplish
     their key tasks?
 
--   What information needs to be promoted?
+- What information needs to be promoted?
 
-![](../media/image5.png){width="0.4777777777777778in"
-height="0.4777777777777778in"}
+:::image type="icon" source="../media/image5.png" :::
 
 ### Learn how Lamna Healthcare starts identifying needs
 
@@ -131,42 +126,42 @@ surveys to broader audiences.
 
 Here are a few issues you have discovered across the organization:
 
--   The HR Benefits team receives lots of emails every day asking where
+- The HR Benefits team receives lots of emails every day asking where
     to find out information about stock, healthcare, tuition
     reimbursement, and childcare, so they spend several hours a day
     dealing with frequently asked questions and responding to inquiries
     on forms and documents.
 
--   Employees in all business units at Lamna reported wanting easier
+- Employees in all business units at Lamna reported wanting easier
     access to payroll information and calendar updates and changes.
 
--   With so many different roles and employees in different regions,
+- With so many different roles and employees in different regions,
     several Lamna employees complained that not having access to
     job-specific news or news relating to their location made it
     difficult to be well-informed and stay in the loop. This highlights
     the need for a central location, like the Feed, where organizational
     and regional news can be easily communicated to all employees.
 
--   Employee satisfaction surveys received by HR professionals show that
+- Employee satisfaction surveys received by HR professionals show that
     some employees are struggling with managing their stress and mental
     health.
 
-![](../media/image8.png){width="2.0in" height="0.45in"}In addition, you
+In addition, you
 discovered some role specific issues. For example:
 
-Nicoletta, a member of Lamna's janitorial staff, is an hourly paid
+:::image type="content" source="../media/Nicoletta.png" alt-text="work profile of Nicoletta with headshot and job title." ::: Nicoletta, a member of Lamna's janitorial staff, is an hourly paid
 employee and claimed that clocking in and out of shifts was a tedious
 process for her due to having to complete it on a shared computer. Since
 the nature of her role requires her to travel throughout the hospital,
 the manual process takes up valuable time.
 
-![](../media/image9.png){width="2.0in" height="0.45in"}Christian is a
+:::image type="content" source="../media/Christian.png" alt-text="work profile of Christian with head shot and job title." :::Christian is a
 full-time pediatrician at your hospital, meaning she only needs to
 report her monthly absences and time off. She expressed that she finds
 it difficult to know exactly where to report her time off and which
 tools to use.
 
-![](../media/image10.png){width="2.0in" height="0.45in"}Diego is an IT
+:::image type="content" source="../media/Diego.png" alt-text="work profile of Diego with head shot and job title." :::Diego is an IT
 professional at Lamna, which requires him to move around the hospital to
 address help desk tickets submitted by hospital employees. Diego and his
 fellow team members explained that managing so many tickets while moving

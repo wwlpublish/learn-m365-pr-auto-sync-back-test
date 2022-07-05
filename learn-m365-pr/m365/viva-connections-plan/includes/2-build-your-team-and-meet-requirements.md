@@ -1,5 +1,4 @@
 ### Identify key stakeholders
-
 After deciding to use [Viva
 Connections](https://adoption.microsoft.com/viva/), the first step is to
 identify the key stakeholders. These are the people who will prioritize
