@@ -30,7 +30,7 @@ to the viewer.
 
 **Feed**
 
-<img src="./media/image3.png" style="width:6.07235in;height:3.0625in" />
+:::image type="content" source="../media/image3.png" alt-text="Screenshots of Feed on both desktop and mobile phone.":::
 
 [The
 Feed](https://docs.microsoft.com/en-us/viva/connections/viva-connections-overview#viva-connections-feed)
@@ -47,8 +47,7 @@ Feed, so your employees don’t miss out on important information.
 
 **Resources**
 
-<img src="./media/image4.png"
-style="width:6.48148in;height:3.64583in" />
+:::image type="content" source="../media/image4.png" alt-text="Screenshots of Resources on both desktop and mobile phone.":::
 
 [Resources](https://docs.microsoft.com/en-us/viva/connections/viva-connections-overview#viva-connections-resources)
 are the navigational links that allow you to navigate to sites, news,
@@ -64,8 +63,7 @@ so the navigation is relevant to the user and their role.
 
 **Desktop experience**
 
-<img src="./media/image5.jpg" style="width:3.8125in;height:2.40664in"
-alt="Graphical user interface, website Description automatically generated" />
+:::image type="content" source="../media/image5.jpg" alt-text="Screenshots of the desktop experience of Viva Connections.":::
 
 *\[The video below will be embedded here\]*
 
@@ -92,8 +90,7 @@ experience on the desktop app.
 
 **Mobile view**
 
-<img src="./media/image6.png"
-style="width:4.02083in;height:2.52977in" />
+:::image type="content" source="../media/image6.png" alt-text="Screenshots of mobile experience of Viva Connections.":::
 
 *\[The video below will be embedded here\]*
 
