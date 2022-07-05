@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-apps-for-microsoft-teams.customize-branded-app
+title: Customize the branded experience of an app
+metadata:
+  title: Customize the branded experience of an app
+  description: "Customize the branded experience of an app"
+  ms.date: 07/04/2022
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/13-customize-branded-app.md)]
