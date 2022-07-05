@@ -64,7 +64,7 @@ Human Resources sites or content like frequently asked questions.
 
 **Training and onboarding**
 
-:::image type="content" source="../media/Amber.png" alt-text="profile image of Kendall with headshot and job title.":::Amber
+:::image type="content" source="../media/Amber.png" alt-text="profile image of Amber with headshot and job title.":::Amber
 is a leader at Lamna Healthcare and manages a team of eight employees.
 As Lamna Healthcare has been rapidly growing its business in the past
 two years, her team has been growing and becoming more diverse. As a
@@ -72,15 +72,15 @@ manager, one of her top objectives is setting up successful onboarding
 and training processes for her new team members. With Viva Connections,
 managers like Amber can work with the Dashboard administrator to set up
 cards for new employees that include the onboarding tasks and training
-in [Viva Learning](viva-connections-launch-and-monitorviva-connections-launch-and-monitor/viva/learning/) that
+in [Viva Learning](/viva/learning/) that
 they need to complete. Integrations with another Viva module, [Viva
-Insights](viva-connections-launch-and-monitorviva-connections-launch-and-monitor/viva/insights/), can help
+Insights](/viva/insights/), can help
 create a well-rounded onboarding experience by helping team members
 prioritize mental health, reserve time for focused work, and take
 breaks.
 
 Integrations with other [Microsoft Viva
-modules](viva-connections-launch-and-monitorviva-connections-launch-and-monitor/viva/) like Viva Learning and
+modules](/viva/) like Viva Learning and
 Viva Insights can help new and existing employees continue building skills through curated training and manage their work-life balance.  
 
 **Digitize processes**
