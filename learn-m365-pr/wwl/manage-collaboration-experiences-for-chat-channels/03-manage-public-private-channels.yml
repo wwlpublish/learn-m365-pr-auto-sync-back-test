@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-collaboration-experiences-for-chat-channels.manage-public-private-channels
+title: Create and manage channels in a team
+metadata:
+  title: Create and manage channels in a team
+  description: "Create and manage channels in a team"
+  ms.date: 07/04/2022
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/03-manage-public-private-channels.md)]
