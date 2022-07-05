@@ -65,7 +65,7 @@ Perform the following steps to associate other mailboxes, sites, Teams, or Yamme
      -  **Yammer**. Assigns the Yammer groups the custodian is currently a member of. Select the groups to assign to the custodian and then select **Add**. After you add a team, the system automatically identifies and locates both the SharePoint site and the group mailbox associated with that group. It then assigns them to the custodian.
     
     > [!NOTE]
-    > The Exchange and SharePoint location pickers can be used to associate any mailbox or site in an organization to a custodian. , This includes associating the mailbox and site for a Microsoft Team or Yammer group that a custodian isn't a member of. To do so, you must add both the mailbox and site associated with each team or Yammer group.
+    > The Exchange and SharePoint location pickers can be used to associate any mailbox or site in an organization to a custodian. This includes associating the mailbox and site for a Microsoft Team or Yammer group that a custodian isn't a member of. To do so, you must add both the mailbox and site associated with each team or Yammer group.
 2.  You can view the total number of mailboxes, sites, Teams, and Yammer groups assigned to each custodian by expanding each custodian in the table. When you've finalized the assigned data locations for each custodian, these associations are maintained and used during the collection, processing, and review stages in the eDiscovery (Premium) workflow.
 3.  After adding custodians and configuring their data locations, select **Next** to go to the **Hold settings** page.
 

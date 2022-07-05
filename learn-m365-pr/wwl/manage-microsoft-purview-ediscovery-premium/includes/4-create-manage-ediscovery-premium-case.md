@@ -17,7 +17,7 @@ Perform the following steps to create an eDiscovery (Premium) case:
     
 5.  Select either of the following options for the setting titled: **Do you want to configure additional settings after creating this case?**:
      -  **Yes, I want to add members or configure the analytics section**.
-     -  **No, return to the home page. I'll use the default case settings for**.
+     -  **No, return to the home page. I'll use the default case settings for now**.
 6.  In the **Case format** section, select **New**. The Classic case option is being deprecated, so it's recommended that you select the **New case** format.
 7.  Select **Save** to create the case.
 8.  If you earlier selected the **Yes, I want to add members or configure the analytics** option, the case's detail page is returned, and the **Settings** tab is displayed.
