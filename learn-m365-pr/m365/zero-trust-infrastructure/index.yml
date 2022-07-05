@@ -18,7 +18,7 @@ abstract: |
     - Describe how monitoring your infrastructure can identify possible vulnerabilities and attacks.
 
 prerequisites: |
-  - None
+  - None 
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
   - beginner
