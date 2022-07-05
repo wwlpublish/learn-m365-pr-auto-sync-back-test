@@ -8,7 +8,7 @@ To create an eDiscovery (Standard) search:
 4.  On the **eDiscovery (Standard)** page, select the case that you want to create an associated search, and then select **Open case**.
 5.  On the detail page for the case, select the **Searches** tab, and then select **+New search**.
     
-    :::image type="content" source="../media/core-ediscovery-search-1-63924cce.png" alt-text="Screenshot showing the Searches tab on the detail page for a case, with the New search option highlighted.":::
+    :::image type="content" source="../media/core-ediscovery-search-57d17da2.png" alt-text="Screenshot showing the Searches tab on the detail page for a case, with the New search option highlighted.":::
     
 6.  In the **New search** pane that appears, enter a **Name** for the search (required) and optionally enter a description. The name of the search must be unique in your organization.
 7.  On the **Locations** page, choose the content locations that you want to search. You can search mailboxes, sites, and public folders.
