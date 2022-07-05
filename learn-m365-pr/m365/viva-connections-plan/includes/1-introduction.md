@@ -14,8 +14,7 @@ and Resources
 
 **Step 5**: Consider how to announce, launch, and scale
 
-## ![](../media/image2.png){width="0.8555555555555555in" height="0.8506944444444444in"}Lamna Healthcare
-
+:::image type="icon" source="../media/image2.png"  :::
 In this module, let\'s imagine that you are the Internal Communications
 Manager of Lamna Healthcare, a large chain of regional hospitals.
 
