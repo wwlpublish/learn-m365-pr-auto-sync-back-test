@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.zero-trust-infrastructure.harden-infrastructure
-title: Introduction
+title: Harden your infrastructure
 metadata:
   unitType: learning-content
-  title: Introduction
+  title: Harden your infrastructure
   description: To prevent resources falling into the wrong hands, it's critical to ensure that your infrastructure is protected, and you have the appropriate security processes and technology in place.
   ms.date: 7/5/2022
   author: beccarobins

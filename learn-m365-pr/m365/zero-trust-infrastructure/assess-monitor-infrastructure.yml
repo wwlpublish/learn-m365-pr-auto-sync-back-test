@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.zero-trust-infrastructure.assess-monitor-infrastructure
-title: Introduction
+title: Assess and monitor your infrastructure with a Zero Trust framework
 metadata:
   unitType: learning-content
-  title: Introduction
+  title: Assess and monitor your infrastructure with a Zero Trust framework
   description: Assessing infrastructure, also referred to as infrastructure monitoring, is a process that enables you to evaluate, manage, and analyze the capacity and performance of your IT infrastructure.
   ms.date: 7/5/2022
   author: beccarobins
