@@ -6,9 +6,9 @@ There are three components that determine whether a user can upload a custom app
 
 |Settings|Location|Screenshot|
 |--|--|--|
-|Org-wide custom app setting|**Teams admin center**<br/> > Teams apps<br/> > Manage apps <br/> > Org-wide app settings|:::image type="content" source="../media/organizational-wide-custom-app-setting.png" alt-text="Screenshot showing Org-wide custom app setting" lightbox="../media/organizational-wide-custom-app-setting.png"::: | 
-|User custom app policy | **Teams admin center**<br/> > Teams apps<br/> > Setup policies|:::image type="content" source="../media/user-custom-app-setting.png" alt-text="Screenshot showing User custom app setting" lightbox="../media/user-custom-app-setting.png":::|
-|Team custom app setting|**Teams client**<br/> > Manage team<br/> > Settings <br/> >  Member permissions| :::image type="content" source="../media/teams-client-allow-custom-apps.png" alt-text="Screenshot showing Team custom app setting" lightbox="../media/teams-client-allow-custom-apps.png":::|
+|Org-wide custom app setting|**Teams admin center**<br/> > Teams apps<br/> > Manage apps <br/> > Org-wide app settings|:::image type="content" source="../media/organizational-wide-custom-app-setting.png" alt-text=" Screenshot showing Org-wide custom app setting."::: | 
+|User custom app policy | **Teams admin center**<br/> > Teams apps<br/> > Setup policies|:::image type="content" source="../media/user-custom-app-setting.png" alt-text=" Screenshot showing User custom app setting.":::|
+|Team custom app setting|**Teams client**<br/> > Manage team<br/> > Settings <br/> >  Member permissions| :::image type="content" source="../media/teams-client-allow-custom-apps.png" alt-text=" Screenshot showing Team custom app setting.":::|
 
 
 ## Org-wide custom app setting
@@ -19,15 +19,15 @@ The org-wide custom app setting, **Allow interaction with custom apps**, applies
 
 2. Select **Org-wide app settings**.
 
-3. Under **Custom apps**, turn on or turn off **Allow interaction with custom apps**.
+3. Under **Custom apps**, turn on or turn off **Interaction with custom apps**.
 
 ## User custom app policy
 
-As part of app setup policies, admins can use the policy setting **Allow uploading custom apps** to control whether a user can upload custom apps to Teams.
+As part of app setup policies, admins can use the policy setting **Upload custom apps** to control whether a user can upload custom apps to Teams.
 
 If this setting is turned on:
 
-- The user can upload custom apps to the personal context.
+- The user can upload custom apps in the personal context.
 - The user can upload custom apps to teams that allow it and to teams for which they are owners, depending on the org-wide custom app setting.
 - The user can interact with custom apps, depending on the org-wide custom app setting.
 
@@ -42,7 +42,7 @@ You can edit the settings in the global app setup policy to include the apps tha
 
 2. Select **Add**.
 
-3. Turn on or turn off **Allow uploading custom apps**.
+3. Turn on or turn off **Upload custom apps**.
 
 4. Choose any other settings that you want for the policy.
 
@@ -67,7 +67,7 @@ Use the following steps to configure the team custom app setting:
 
 2. Select **Settings**, and then expand **Member permissions**.
 
-3. Select or clear the **Allow members to upload custom apps** check box.  ‎  
+3. Select or clear the **Allow members to upload custom apps** check box.    
  
 
 ## How custom app policies and settings work together
@@ -97,9 +97,4 @@ For example, assume that you want to allow only team owners to upload custom app
 
 - **Team level**: Turn off the **Allow members to upload custom apps** for every team to which you want to restrict access.
 
-:::image type="content" source="../media/team-owner-upload-custom-apps.png" alt-text="Screenshot showing the setting that allows team owners to upload custom app setting":::
-
-
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”
+:::image type="content" source="../media/team-owner-upload-custom-apps.png" alt-text=" Screenshot showing the setting that allows team owners to upload custom app setting.":::

@@ -4,14 +4,13 @@ title: Publish custom apps to Microsoft Teams
 metadata:
   title: Publish custom apps to Microsoft Teams
   description: "Publish custom apps to Microsoft Teams"
-  ms.date: 09/18/2021
+  ms.date: 07/04/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 7
 content: |
-  [!include[](includes/08-publish-custom-apps-microsoft-teams.md)]
+  [!include[](includes/10-publish-custom-apps-microsoft-teams.md)]

@@ -20,9 +20,9 @@ You can upload the custom app or approve the apps submitted by users(developers)
 ### Upload an app package as a Teams admin
 
 1. Go to **Teams admin center**.
-2. On the **Manage apps** page, select **+ Upload** to upload your app package in .zip format. 
+2. On the **Manage apps** page, select **+ Upload new app** to upload your app package in .zip format. 
 
-    ‎:::image type="content" source="../media/upload-custom-app.png" alt-text="Screenshot of uploading a custom app":::  
+    :::image type="content" source="../media/upload-custom-app.png" alt-text=" Screenshot of uploading a custom app.":::  
 
 ### Approve custom apps submitted by users
 
@@ -30,7 +30,7 @@ When the app is ready for production use, the developer can submit the app using
 
 You can see the newly submitted app automatically shows a **Publishing status** of **Submitted** and **Status** of **Blocked** on the **Manage apps** page of the Microsoft Teams admin center. 
 
-‎:::image type="content" source="../media/custom-app-lifecycle-validate-app.png" alt-text="Publishing status " lightbox="../media/custom-app-lifecycle-validate-app.png":::  
+:::image type="content" source="../media/custom-app-lifecycle-validate-app.png" alt-text=" Screenshot of app publishing status.":::  
 
 When you're ready to make the app available to users, publish the app.
 
@@ -40,7 +40,7 @@ When you're ready to make the app available to users, publish the app.
 
 After you publish the app, the **Publishing status** changes to **Published** and the **Status** automatically changes to **Allowed**.
 
-:::image type="content" source="../media/custom-app-lifecycle-app-details.png" alt-text="App details page for a submitted app" lightbox="../media/custom-app-lifecycle-app-details.png":::
+:::image type="content" source="../media/custom-app-lifecycle-app-details.png" alt-text="Screenshot of app details page for a submitted app.":::
 
 
 ## Update custom apps
@@ -52,5 +52,5 @@ As a Teams admin, you can update the app on the Manage apps page in the Microsof
 
 Doing this replaces the existing app in your app catalog and all app permission policies and app setup policies remain enforced for the updated app. 
 
-‎:::image type="content" source="../media/update-app.png" alt-text="Update a custom app from Teams admin center" lightbox="../media/update-app.png":::  
+:::image type="content" source="../media/update-app.png" alt-text="Screenshot of updating a custom app from Teams admin center.":::  
 
