@@ -1,8 +1,8 @@
 :::image type="icon" source="../media/image7.png":::In this module, let us imagine a large chain of regional hospitals,
 Lamna Healthcare, that needs an employee experience tool for their
-diverse types of employees, such as physicians and surgeons, nurse
+diverse types of employees. These employees include physicians and surgeons, nurse
 practitioners, Human Resources professionals, IT professionals, office
-administrators, and custodial staff. View a simplified Lamna Healthcare
+administrators, custodial staff, and many more. View a simplified Lamna Healthcare
 org chart below:
 
 
@@ -81,9 +81,7 @@ breaks.
 
 Integrations with other [Microsoft Viva
 modules](viva-connections-launch-and-monitorviva-connections-launch-and-monitor/viva/) like Viva Learning and
-Viva Insights can be extended to new and existing employees alike who
-want to continue building skills through curated training and want help
-managing work-life balance.
+Viva Insights can help new and existing employees continue building skills through curated training and manage their work-life balance.  
 
 **Digitize processes**
 

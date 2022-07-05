@@ -36,7 +36,7 @@ quiz:
             frequently by users, such as existing Teams apps,
             third-party apps, custom solutions, and more. One exception
             is if your organization chooses to use the [Top news
-            card](viva-connections-launch-and-monitor/viva-connections-launch-and-monitor/viva/connections/create-dashboard#add-the-top-news-card)
+            card](/viva/connections/create-dashboard#add-the-top-news-card)
             which aggregated news that’s been boosted on authoritative
             news sites."
     - content: "Resources"
@@ -60,15 +60,15 @@ quiz:
       isCorrect: false
       explanation: "After setting up Viva Connections, you will need
             to add the
-            [Dashboard](/viva-connections-launch-and-monitor/viva-connections-launch-and-monitor/viva/connections/use-dashboard-web-part-on-home-site)
+            [Dashboard](/viva/connections/use-dashboard-web-part-on-home-site)
             and
-            [Feed](/viva-connections-launch-and-monitor/viva-connections-launch-and-monitor/viva/connections/use-feed-web-part-for-viva-connections)
+            [Feed](/viva/connections/use-feed-web-part-for-viva-connections)
             web parts to your SharePoint home site to complete the Viva
             Connections experience on the desktop app."
     - content: "On desktop, Viva Connections integrates your SharePoint [home
-        site](/viva-connections-launch-and-monitor/viva-connections-launch-and-monitor/viva/connections/create-sharepoint-home-site-for-viva-connections)
+        site](/viva/connections/create-sharepoint-home-site-for-viva-connections)
         and [global
-        navigation](/viva-connections-launch-and-monitor/viva/connections/sharepoint-app-bar)
+        navigation](/viva/connections/sharepoint-app-bar)
         with Microsoft Teams."
       isCorrect: true
       explanation: "The desktop experience allows you to navigate to

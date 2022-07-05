@@ -19,12 +19,12 @@ Teams](https://support.microsoft.com/viva-connections-launch-and-monitor/office/
 
 [The Dashboard is a digital toolset that brings together tools and
 resources as Dashboard
-cards.](/viva-connections-launch-and-monitor/viva/connections/viva-connections-overview#viva-connections-dashboard)
+cards.](/viva/connections/viva-connections-overview#viva-connections-dashboard)
 The Dashboard enables you to create a curated experience using dynamic
 cards that give employees access to high-impact tools, news, and
 resources needed for their jobs. [Dashboard cards can be targeted to
 specific roles and
-regions](/viva-connections-launch-and-monitor/viva/connections/use-audience-targeting-in-viva-connections)
+regions](/viva/connections/use-audience-targeting-in-viva-connections)
 to make sure the tools are easy to identify, and resources are relevant
 to the viewer.
 
@@ -33,7 +33,7 @@ to the viewer.
 :::image type="content" source="../media/image3.png" alt-text="Screenshots of Feed on both desktop and mobile phone.":::
 
 [The
-Feed](viva-connections-launch-and-monitorviva-connections-launch-and-monitor/viva/connections/viva-connections-overview#viva-connections-feed)
+Feed](/viva/connections/viva-connections-overview#viva-connections-feed)
 displays organizational news and content from the SharePoint sites and
 Yammer communities that the viewer follows. The Feed automatically
 incorporates fresh and engaging content from across the organization to
@@ -42,23 +42,23 @@ important messages. Users will see content from SharePoint news posts,
 Yammer community posts, and Stream videos in SharePoint. As an
 organization, you can use the News boosts, audience targeting, and
 Yammers “Featured” options to [influence the content hierarchy in
-the](viva-connections-launch-and-monitorviva-connections-launch-and-monitor/viva/connections/faqs-viva-connections-feed#question-what-are-the-available-controls-to-influence-content-in-the-feed)
+the](/viva/connections/faqs-viva-connections-feed#question-what-are-the-available-controls-to-influence-content-in-the-feed)
 Feed, so your employees don’t miss out on important information.
 
 **Resources**
 
 :::image type="content" source="../media/image4.png" alt-text="Screenshots of Resources on both desktop and mobile phone.":::
 
-[Resources](viva-connections-launch-and-monitorviva-connections-launch-and-monitor/viva/connections/viva-connections-overview#viva-connections-resources)
+[Resources](/viva/connections/viva-connections-overview#viva-connections-resources)
 are the navigational links that allow you to navigate to sites, news,
 files, and more. Resources can be accessed as a tab in the mobile app
 and by selecting the Viva Connections icon twice in the Microsoft Teams
 app bar on desktop. You can set up and customize Resources in the
 [SharePoint app
-bar](viva-connections-launch-and-monitorviva-connections-launch-and-monitor/viva/connections/sharepoint-app-bar)
+bar](/viva/connections/sharepoint-app-bar)
 from your home site. Like the Dashboard and the Feed, [links can be
 audience
-targeted](viva-connections-launch-and-monitorviva-connections-launch-and-monitor/viva/connections/use-audience-targeting-in-viva-connections)
+targeted](/viva/connections/use-audience-targeting-in-viva-connections)
 so the navigation is relevant to the user and their role.
 
 **Desktop experience**
@@ -68,23 +68,23 @@ so the navigation is relevant to the user and their role.
 *\[The video below will be embedded here\]*
 
 [Viva Connections on your desktop
-(microsoft.com)](https://support.microsoft.com/viva-connections-launch-and-monitor/office/viva-connections-on-your-desktop-3da30f39-684a-4bde-bb81-2e1407d59b52)
+(microsoft.com)](https://support.microsoft.com/en-us/office/viva-connections-on-your-desktop-3da30f39-684a-4bde-bb81-2e1407d59b52)
 
 <https://eus-streaming-video-rt-microsoft-com.akamaized.net/715baccf-e8fa-4859-a683-61cda5bc4aee/5f3c2c38-831e-430b-ab09-fc917100_3400.mp4>
 
 On desktop, Viva Connections integrates your SharePoint [home
-site](viva-connections-launch-and-monitorviva-connections-launch-and-monitor/viva/connections/create-sharepoint-home-site-for-viva-connections)
+site](/viva/connections/create-sharepoint-home-site-for-viva-connections)
 and [global
-navigation](viva-connections-launch-and-monitorviva-connections-launch-and-monitor/viva/connections/sharepoint-app-bar)
+navigation](/viva/connections/sharepoint-app-bar)
 with Microsoft Teams. The desktop experience allows you to navigate to
 SharePoint sites, organizational news, and other content without leaving
 Teams. You can search and share intranet content in chats, teams, or
 channels, making collaboration easier than ever.
 
 Add the
-[Dashboard](viva-connections-launch-and-monitorviva-connections-launch-and-monitor/viva/connections/use-dashboard-web-part-on-home-site)
+[Dashboard](/viva/connections/use-dashboard-web-part-on-home-site)
 and
-[Feed](viva-connections-launch-and-monitorviva-connections-launch-and-monitor/viva/connections/use-feed-web-part-for-viva-connections)
+[Feed](/viva/connections/use-feed-web-part-for-viva-connections)
 web parts to your SharePoint home site to complete the Viva Connections
 experience on the desktop app.
 
@@ -95,7 +95,7 @@ experience on the desktop app.
 *\[The video below will be embedded here\]*
 
 [Viva Connections on the go
-(microsoft.com)](https://support.microsoft.com/viva-connections-launch-and-monitor/office/viva-connections-on-the-go-753e0607-0bfd-4712-ad7e-18490dd565a2)
+(microsoft.com)](https://support.microsoft.com/en-us/office/viva-connections-on-the-go-753e0607-0bfd-4712-ad7e-18490dd565a2)
 
 <https://eus-streaming-video-rt-microsoft-com.akamaized.net/761d0383-7b19-49f4-9a68-ae4e8a3bbf55/383c636e-16e5-48a8-82a6-01624822_3400.mp4>
 
@@ -109,4 +109,4 @@ news, and other important content without leaving Teams.
 Viva Connections offers a variety of extensibility solutions. To learn
 about how the desktop experience and dashboard cards can be extended,
 take [the Extend Microsoft Viva Connections Learning
-path](viva-connections-launch-and-monitorviva-connections-launch-and-monitor/learn/paths/m365-extend-viva-connections/).
+path](~/m365-extend-viva-connections/).
