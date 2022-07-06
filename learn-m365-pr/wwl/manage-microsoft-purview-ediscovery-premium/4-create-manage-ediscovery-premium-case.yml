@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-purview-ediscovery-premium.create-manage-ediscovery-premium-case
+title: Create and manage an eDiscovery (Premium) case
+metadata:
+  title: Create and manage an eDiscovery (Premium) case
+  description: "Create and manage an eDiscovery (Premium) case"
+  ms.date: 07/06/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-create-manage-ediscovery-premium-case.md)]

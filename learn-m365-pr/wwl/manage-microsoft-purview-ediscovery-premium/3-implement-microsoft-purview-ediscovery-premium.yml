@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-purview-ediscovery-premium.implement-microsoft-purview-ediscovery-premium
+title: Implement Microsoft Purview eDiscovery (Premium)
+metadata:
+  title: Implement Microsoft Purview eDiscovery (Premium)
+  description: "Implement Microsoft Purview eDiscovery (Premium)"
+  ms.date: 07/06/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/3-implement-microsoft-purview-ediscovery-premium.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson has created an eDiscovery case in the Microsoft Purview compliance portal to address a legal issue facing the company. What should Holly do to preserve any content that's relevant to the case?"
+    choices:
+    - content: "Place the custodian data on hold"
+      isCorrect: true
+      explanation: "Correct. Custodian data can be placed on hold. Doing so preserves data that may be relevant to the case during the investigation."
+    - content: "Index custodian data by using the process known as Advanced indexing"
+      isCorrect: false
+      explanation: "Incorrect. This process enables custodial content such as images, unsupported file types, and other potentially unindexed content to be fully searchable when you run searches to collect data for the case."
+    - content: "Create searches to search the in-place custodial and non-custodial data sources in Microsoft 365 for content relevant to the case"
+      isCorrect: false
+      explanation: "Incorrect. While Holly will eventually create searches to search for content relevant to the case, this action isn't what Holly should do to preserve the relevant content in the first place."
