@@ -143,13 +143,10 @@ After you run the search, any audit records for this activity are displayed in t
 :::image type="content" source="../media/new-inbox-rule-record-518c6308.png" alt-text="Screenshot of the Audit record for a new inbox rule that shows selected fields highlighted.":::
 
 
-A. In the **ObjectId** field, the full name of the inbox rule is displayed. This name includes the alias of the user's mailbox (for example, **SaraD**) and the name of the inbox rule (for example, "**Move messages from admin**").
-
-B. In the **Parameters** field, the condition of the inbox rule is displayed. In this example, the condition is specified by the **From** parameter. The value defined for the **From** parameter indicates the inbox rule acts on email sent by **admin@alpinehouse.onmicrosoft.com**.
-
-C. The **MoveToFolder** parameter specifies the action for the inbox rule. In this example, messages received from **admin@alpinehouse.onmicrosoft.com** are moved to the folder named **AdminSearch**. 
-
-D. The **UserId** field indicates the user who created the inbox rule specified in the **ObjectId** field. This user is also displayed in the **User** column on the search results page.
+1.  In the **ObjectId** field, the full name of the inbox rule is displayed. This name includes the alias of the user's mailbox (for example, **SaraD**) and the name of the inbox rule (for example, "**Move messages from admin**").
+2.  In the **Parameters** field, the condition of the inbox rule is displayed. In this example, the condition is specified by the **From** parameter. The value defined for the **From** parameter indicates the inbox rule acts on email sent by **admin@alpineskihouse.onmicrosoft.com**.
+3.  The **MoveToFolder** parameter specifies the action for the inbox rule. In this example, messages received from **admin@alpineskihouse.onmicrosoft.com** are moved to the folder named **AdminSearch**. A
+4.  The **UserId** field indicates the user who created the inbox rule specified in the **ObjectId** field. This user is also displayed in the **User** column on the search results page.
 
 ### Issue: Investigate why there was a successful sign-in by a user outside your organization
 

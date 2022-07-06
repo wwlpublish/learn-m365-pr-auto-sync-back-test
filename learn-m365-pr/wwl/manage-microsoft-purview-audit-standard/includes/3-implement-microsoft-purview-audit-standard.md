@@ -38,7 +38,7 @@ For more information, see [Manage role groups in Exchange Online](/Exchange/perm
 
 The following screenshot shows the two audit-related roles assigned to the **Organization Management** role group in the Exchange admin center.
 
-:::image type="content" source="../media/organization-management-role-7ba83501.png" alt-text="Screenshot of the Exchange admin center showing the organization management role and the permissions assigned to it." lightbox="../media/organization-management-role-7ba83501.png":::
+:::image type="content" source="../media/organization-management-role-7ba83501.png" alt-text="Screenshot of the Exchange admin center showing the organization management role and the permissions assigned to it.":::
 
 
 ### Step 3: Search the audit log
