@@ -35,80 +35,47 @@ business unit, how to customize the platform accordingly, and how to
 help your organization transition to using Viva Connections to help with
 their daily tasks.
 
-+-----------------+-----------------+-----------------+-----------------+
-|                 | **Coordinate    | **Build and set | **Deploy and    |
-|                 | and plan**      | up**            | launch**        |
-+=================+=================+=================+=================+
-| **Viva          | \- Work with    | \- The          | \- Collaborate  |
-| Connections**   | **your          | **SharePoint    | with            |
-|                 | organization's  | admin** will    | **champions**   |
-|                 | stakeholder**s  | set a home site | (early          |
-|                 | and business    | (if you don't   | adopters) to    |
-|                 | partners (from  | already have    | help other      |
-|                 | groups like HR, | one) in the     | people at the   |
-|                 | communications  | admin center.   | organization    |
-|                 | specialists,    | SharePoint      | implement Viva  |
-|                 | and technology  | admins may also | Connections.    |
-|                 | advocates) to   | help modernize  |                 |
-|                 | identify the    | classic         | \- Leverage     |
-|                 | most valuable   | SharePoint      | **executive     |
-|                 | workflows and   | sites and pages | sponsors** who  |
-|                 | tasks that can  | where needed.   | can help        |
-|                 | be completed in |                 | evangelize Viva |
-|                 | Viva            | \- The          | Connections at  |
-|                 | Connections.    | **Microsoft     | large company   |
-|                 |                 | Teams admin**   | meetings and in |
-|                 | \- Key          | will add your   | broad           |
-|                 | administrative  | organization's  | communications. |
-|                 | stakeholders    | version of Viva |                 |
-|                 | typically       | Connections as  | **- Business    |
-|                 | include:        | an app and      | owners (like    |
-|                 |                 | choose settings | HR) and         |
-|                 | \- **HR         | in the Teams    | managers** at   |
-|                 | p               | admin center.   | all levels can  |
-|                 | rofessionals**, |                 | help teams and  |
-|                 | who manage team | \- **Site       | individuals     |
-|                 | members and     | owners and      | find value and  |
-|                 | oversee company | authors for the | adopt new ways  |
-|                 | and             | home site**     | of working.     |
-|                 | organizational  | will design the |                 |
-|                 | structure and   | home site       |                 |
-|                 | efficiency      | content,        |                 |
-|                 |                 | navigation, and |                 |
-|                 | \- **Internal   | the Dashboard.  |                 |
-|                 | communication   |                 |                 |
-|                 | specialists**,  | \- Additional   |                 |
-|                 | who facilitate  | **site owners   |                 |
-|                 | and manage      | and authors**   |                 |
-|                 | communications  | may be involved |                 |
-|                 | between         | to update       |                 |
-|                 | employees and   | content or news |                 |
-|                 | various         | post that will  |                 |
-|                 | internal teams  | be relevant to  |                 |
-|                 |                 | the Viva        |                 |
-|                 | \-              | Connections     |                 |
-|                 | *               | experience.     |                 |
-|                 | *Communications |                 |                 |
-|                 | coordinators    |                 |                 |
-|                 | and             |                 |                 |
-|                 | specialists**,  |                 |                 |
-|                 | who execute and |                 |                 |
-|                 | maintain        |                 |                 |
-|                 | company-wide    |                 |                 |
-|                 | communications  |                 |                 |
-|                 | and brand       |                 |                 |
-|                 | management      |                 |                 |
-|                 |                 |                 |                 |
-|                 | \-              |                 |                 |
-|                 | *               |                 |                 |
-|                 | *Administrative |                 |                 |
-|                 | assistants,**   |                 |                 |
-|                 | who complete    |                 |                 |
-|                 | and oversee     |                 |                 |
-|                 | various         |                 |                 |
-|                 | administrative  |                 |                 |
-|                 | tasks           |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
+
+| **Coordinate and plan**                    | **Build and set up**                         | **Deploy and launch**                 |
+|--------------------------------------------|----------------------------------------------|---------------------------------------|
+|Work with **your organization’s stakeholders** and business partners (from groups like HR, communications specialists, and technology advocates) to identify the most valuable workflows and tasks that can be completed in Viva Connections. <br> <br>Key administrative stakeholders typically include: <br>- **HR professionals**, who manage team members and oversee company and organizational structure and efficiency <br>- **Internal communication specialists**, who facilitate and manage communications between employees and various internal teams <br> - **Communications coordinators and specialists**, who execute and maintain company-wide communications and brand management <br> - **Administrative assistants**, who complete and oversee various administrative tasks|The **SharePoint admin** will set a home site (if you don’t already have one) in the admin center. SharePoint admins may also help modernize classic SharePoint sites and pages where needed. <br>The **Microsoft Teams admin** will add your organization’s version of Viva Connections as an app and choose settings in the Teams admin center.<br>**Site owners and authors for the home site** will design the home site content, navigation, and the Dashboard. <br> **Additional site owners and authors** may be involved to update content or news post that will be relevant to the Viva Connections experience.|Collaborate with **champions** (early adopters) to help other people at the organization implement Viva Connections. <br> Leverage **executive sponsors** who can help evangelize Viva Connections at large company meetings and in broad communications.<**Business owners (like HR) and managers** at all levels can help teams and individuals find value and adopt new ways of working.> **Business owners (like HR) and managers** at all levels can help teams and individuals find value and adopt new ways of working.|
+|||
+
+:::row:::
+   :::column span="":::
+      **Coordinate and plan**
+   :::column-end:::
+   :::column span="":::
+      **Build and set up**
+   :::column-end:::
+   :::column span="":::
+      **Deploy and launch**
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column span="":::
+Key administrative stakeholders typically include:
+     - **HR professionals**, who manage team members and oversee company and organizational structure and efficiency 
+     - **Internal communication specialists**, who facilitate and manage communications between employees and various internal teams
+     - **Communications coordinators and specialists**, who execute and maintain company-wide communications and brand management
+     - **Administrative assistants**, who complete and oversee various administrative tasks
+
+Work with **your organization’s stakeholders** and business partners (from groups like HR, communications specialists, and technology advocates) to identify the most valuable workflows and tasks that can be completed in Viva Connections.
+   :::column-end:::
+
+   :::column span="":::
+      - The **SharePoint admin** will set a home site (if you don’t already have one) in the admin center. SharePoint admins may also help modernize classic SharePoint sites and pages where needed.
+      - The **Microsoft Teams admin** will add your organization’s version of Viva Connections as an app and choose settings in the Teams admin center.
+      - **Site owners and authors for the home site** will design the home site content, navigation, and the Dashboard.
+      - Additional **site owners and authors** may be involved to update content or news post that will be relevant to the Viva Connections experience.
+   :::column-end:::
+   :::column span="":::
+      - Collaborate with **champions** (early adopters) to help other people at the organization implement Viva Connections.
+      - Leverage **executive sponsors** who can help evangelize Viva Connections at large company meetings and in broad communications.
+      - **Business owners (like HR) and managers** at all levels can help teams and individuals find value and adopt new ways of working. 
+   :::column-end:::
+:::row-end:::
 
 **Before finalizing your list of key stakeholders, answer these
 questions:**

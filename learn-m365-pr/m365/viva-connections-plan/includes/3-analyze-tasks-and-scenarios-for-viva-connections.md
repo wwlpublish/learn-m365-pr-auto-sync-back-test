@@ -15,29 +15,16 @@ Dashboard, while others are a better fit in the Resources section.
 
 The following are cards that can be used with little configuration and
 customization:
-
-  -------------------------------------------------------------------------------------------------------------------------------------------------
-  Approvals       Use [Approvals](/power-automate/get-started-approvals) for vacation requests, sign-off on
-                  documents, and approve expense reports.
-  --------------- ---------------------------------------------------------------------------------------------------------------------------------
-  Assigned Tasks  Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage
-                  your team's work, assign tasks, and track tasks.
-
-  Card designer   Create custom cards and quick views using JSON without writing actual code.
-
-  Shifts          Let users clock-in, clock-out, and get more information about the next or current shift from the Shifts app in Teams.
-
-  Teams app card  Use to open a Teams personal app or bot specified by the Dashboard author.
-
-  Third-party     Use cards that integrate [third-party services](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)
-  cards           through the SharePoint Store (for example, ADP, ServiceNow, etc.)
-
-  Top news card   Set up the Top news card to [surface boosted news from
-                  SharePoint.](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)
-
-Web link        Access a site without leaving the Viva Connections app (most popular card and used to link to SharePoint portals and external
-                  links.)
-  -------------------------------------------------------------------------------------------------------------------------------------------------
+|                       |                                                                                                                                        |
+|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| **Approvals**         | Use [Approvals](/power-automate/get-started-approvals), sign-off on documents, and approve expense reports.                                               |
+| **Assigned Tasks**    | Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage your team’s work, assign tasks, and track tasks.                                                                   |
+| **Card designer**     | Create custom cards and quick views using JSON without writing actual code.                                                            |
+| **Shifts**            | Let users clock-in, clock-out, and get more information about the next or current shift from the Shifts app in Teams.                  |
+| **Teams app card**    | Use to open a Teams personal app or bot specified by the Dashboard author.                                                             |
+| **Third-party cards** | Use cards that integrate [third-party services](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration) through the SharePoint Store (for example, ADP, ServiceNow, etc.)                       |
+| **Top news card**     | Set up the Top news card to [surface boosted news from SharePoint.](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)                                                                      |
+| **Web link**          | Access a site without leaving the Viva Connections app (most popular card and used to link to SharePoint portals and external links.)  |
 
 In addition to the cards mentioned above, developers can create their
 own cards with advanced customization by extending Viva Connections with
