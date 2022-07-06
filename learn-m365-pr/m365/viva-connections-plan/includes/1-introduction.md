@@ -34,6 +34,7 @@ Leadership has asked you to lead the deployment of Viva Connections
 along with a team of stakeholders that represent different roles. The
 company operates with support from a variety of employees and intends to
 use Viva Connections to support the following roles:
+
 - Physicians and surgeons
 - Medical records and information technicians
 - Nurse practitioners

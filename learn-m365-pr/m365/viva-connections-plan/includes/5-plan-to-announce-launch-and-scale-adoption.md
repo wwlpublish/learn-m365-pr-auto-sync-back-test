@@ -1,78 +1,49 @@
-<!-- 1. Topic sentence(s) --------------------------------------------------------------------------------
+Part of the planning process includes how you will announce the
+availability of Viva Connections to the rest of your organization and
+scale broad adoption across different regions and roles.
 
-    Goal: briefly summarize the key skill this unit will teach
+**Best practices for launching Viva Connections:**
 
-    Heading: none
+-   Consider where and how different audiences get news and
+    announcements (for example, frontline workers might get the most
+    important news in team meetings and hybrid workers might be used to
+    getting SharePoint news in Outlook.)
+-   Plan to engage with users where they already meet and share
+    information (for example, if your organization already meets in
+    Teams, plan to post in channels.)
+-   Use multiple communication methods and channels to reach most of
+    your target audience.
+-   Continue to engage early adopters and champions and use their
+    enthusiasm and expertise to engage the rest of the organization
+    during meetings or training sessions.
+-   Regularly revisit success metrics over the first 90 days to track
+    progress and learn more about how audiences engage with Viva
+    Connections.
+-   Ask end users for feedback and provide multiple ways to connect so
+    that the experience can be improved over time
 
-    Example: "Organizations often have multiple storage accounts to let them implement different sets of requirements."
+**Create an adoption plan:**
 
-    [Learning-unit introduction guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-introductions?branch=main#rule-use-the-standard-learning-unit-introduction-format)
--->
-TODO: add your topic sentence(s)
+Planning for change and helping users adopt new resources will be
+different for every organization. Use the considerations and best
+practices here as a starting point to creating an adoption plan that
+fits your organization's needs. Include considerations for change
+management and training materials for end-users in your plan.
 
-<!-- 2. Scenario sub-task --------------------------------------------------------------------------------
-
-    Goal: Describe the part of the scenario that will be solved by the content in this unit
-
-    Heading: none, combine this with the topic sentence into a single paragraph
-
-    Example: "In the shoe-company scenario, we will use a Twitter trigger to launch our app when tweets containing our product name are available."
--->
-TODO: add your scenario sub-task
-
-<!-- 3. Prose table-of-contents --------------------------------------------------------------------
-
-    Goal: State concisely what's covered in this unit
-
-    Heading: none, combine this with the topic sentence into a single paragraph
-
-    Example: "Here, you will learn the policy factors that are controlled by a storage account so you can decide how many accounts you need."
--->
-TODO: write your prose table-of-contents
-
-<!-- 4. Visual element (highly recommended) ----------------------------------------------------------------
-
-    Goal: Visual element, like an image, table, list, code sample, or blockquote. Ideally, you'll provide an image that illustrates the customer problem the unit will solve; it can use the scenario to do this or stay generic (i.e. not address the scenario).
-
-    Heading: none
--->
-TODO: add a visual element
-
-<!-- 5. Chunked content-------------------------------------------------------------------------------------
-
-    Goal: Provide all the information the learner needs to perform this sub-task.
-
-    Structure: Break the content into 'chunks' where each chunk has three things:
-        1. An H2 or H3 heading describing the goal of the chunk
-        2. 1-3 paragraphs of text
-        3. Visual like an image, table, list, code sample, or blockquote.
-
-    [Learning-unit structural guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-structure-learning-content?branch=main)
--->
-
-<!-- Pattern for simple chunks (repeat as needed) -->
-## H2 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list, code sample, blockquote)
-Paragraph (optional)
-Paragraph (optional)
-
-<!-- Pattern for complex chunks (repeat as needed) -->
-## H2 heading
-Strong lead sentence; remainder of paragraph.
-Visual (image, table, list)
-### H3 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list)
-Paragraph (optional)
-### H3 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list)
-Paragraph (optional)
-
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
-<!-- Do not add a unit summary or references/links -->
+:::image type="content" source="../media/image25.png" alt-text="Screenshot of Microsoft Viva Connections countdown news post sample." :::
+-   Viva Connections can only be accessed in Microsoft Teams. If your
+    organization isn\'t already using Microsoft Teams, you\'ll need to
+    plan the [adoption of Microsoft
+    Teams](https://adoption.microsoft.com/microsoft-teams/) alongside
+    [Viva Connections](https://adoption.microsoft.com/viva/).
+-   Make adoption easy for end-users by pre-installing and pre-pinning
+    the app in Teams while picking settings.
+-   Find early adopters and champions and create ways to extend their
+    enthusiasm to the rest of the organization.
+-   Plan to engage with users where they typically meet and share
+    information (for example, if your organization already meets in
+    Teams, plan to post in channels.)
+-   Determine who and where questions about Viva Connections should go
+    to. Consider using a Yammer community, SharePoint site, or Teams
+    channels that allow users to ask questions or see commonly asked
+    questions.
