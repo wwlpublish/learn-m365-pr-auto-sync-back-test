@@ -136,7 +136,7 @@ dynamic information.
       :::image type="content" source="../media/image17.png" alt-text="A screenshot of customed time off card." :::
    :::column-end:::
    :::column span="":::
-      :::image type="content" source="../media/image18.png" alt-text="A screenshot of customed inventory card." :::
+      :::image type="content" source="../media/image18.png" alt-text="A screenshot of customer inventory card." :::
    :::column-end:::
    :::column span="":::
       :::image type="content" source="../media/image19.png" alt-text="A screenshot of customed benefit open enrollment card." :::
@@ -283,17 +283,24 @@ its own tab. One the desktop and web experiences, Resources can be
 accessed by selecting your organization's Viva Connections icon twice
 form the Teams app bar.
 
-:::image type="icon" source="../media/image5.png"  :::
+:::image type="icon" source="../media/StoryTellingLogo200x200.png"  :::
 
 ## Learn how Lamna Healthcare uses insights from the needs assessment
 
-After conducting the needs assessment, you set up a meeting for the Viva
+:::row:::
+   :::column span="":::
+      :::image type="icon" source="../media/LamnaLogo200x200.png"  :::
+   :::column-end:::
+   :::column span="2":::
+      After conducting the needs assessment, you set up a meeting for the Viva
 Connections planning team at Lamna Healthcare meet and review the
 findings. Planning team members start to prioritize the highest impact
 experiences. High-impact experiences will provide the greatest value for
 large groups of roles and help solve known issues identified in the
 needs assessment. Then, technical team members provide feedback on how
 each experience could be implemented and other technical considerations.
+   :::column-end:::
+:::row-end:::
 
 Next, the planning team determines the timeline and release schedule for
 the first version of Viva Connections. The first version will include
@@ -307,66 +314,19 @@ indicates a high impact area that will be implemented in the first
 version of Viva Connections. Areas with a priority level of 2 will be
 implemented sometime soon after the release of the first version.
 
-  ---------------------------------------------------------------------------------
-  **Insights from**Viva           **Solution**     **Technical**Priority
-  needs            Connections                       consideration**level**
-  assessment**component**
-  ---------------- ---------------- ---------------- ----------------- ------------
-  Clock in and out Dashboard        Use the Shifts                     1
-                                    card
-
-  Get approvals    Dashboard        Use the          Need to set up    1
-  for purchase                      Approvals card   the Teams
-  orders                                             Approval app
-                                                     before launching  
-                                                     this card
-
-  Submit IT        Dashboard        Use the                            2
-  tickets                           third-party card
-                                    from ServiceNow
-
-  Accessing HR     Dashboard and    Use the ACE      Customized card   1
-  benefits and     Resources        framework and    should be used to
-  payroll                           add links to     call existing
-  information                       global           APIs
-                                    navigation
-
-  Accessing        Resources        Links in global                    1
-  popular                           navigation
-  SharePoint
-  portals
-
-  Accessing        Dashboard and    Use the Top news                   1
-  organizational   the Feed         card and
-  news                              organizational
-                                    news posts in
-                                    SharePoint
-
-  Work-life        Dashboard and    Use the          Need to get a     1
-  balance and      Resources        Third-party card license to
-  wellness                          that connects to Headspace before  
-                                    Headspace and    launching on the  
-                                    more links in    Dashboard
-                                    Resources
-
-  Submit time-off  Dashboard        Use the ACE                        2
-  requests                          framework and
-                                    add links to
-                                    global
-                                    navigation
-
-  Track inventory  Dashboard        Use the ACE                        2
-                                    framework
-
-  View holiday     Dashboard and    Use the Card     Need to create    1
-  schedules        Resources        designer card    API for holiday
-                                                     schedules
-
-View cafe menus  Dashboard        Use the Link     Create workflow   1
-                                    card             to update cafe
-                                                     menus every 7
-                                                     days
-  ---------------------------------------------------------------------------------
+  **Insights from needs assessment**|**Viva Connections component**|**Solution**|**Technical consideration**|**Priority level**|
+  |---------------------------------|------------------------------|----------------|-----------------|------------|
+  Clock in and out| Dashboard  |      Use the Shifts card    |        |         1|
+|Get approvals    |Dashboard        |Use the Approvals card|        Need to set up the Teams Approval before launching this card |   1|
+|Submit IT tickets|Dashboard|Use the third-party card from ServiceNow||2|
+|Accessing HR benefits and payroll information|Dashboard and Resources|Use the ACE framework and add links to global navigation|Customized card should be used to call existing APIs  |1|
+|Accessing popular SharePoint portals|Resources|Links in global navigation||1|
+|Accessing organizational news |Dashboard and the Feed|Use the Top news card and organizational news posts in SharePoint||1|
+|Work-life balance and wellness|Dashboard and Resources|Use the Third-party card that connects to Headspace and more links in Resources|Need to get a license to Headspace before launching on the Dashboard|1|
+|Submit time-off requests|Dashboard|Use the ACE framework and add links to global navigation||2|
+|Track inventory|Dashboard|Use the ACE framework||2|
+|View holiday schedules|Dashboard and Resources|Use the Card designer card|Need to create API for holiday schedules|1|
+|View cafe menus|Dashboard|Use the Link card|Create workflow to update cafe menus every 7 days|1|
 
 To prepare for the Dashboard, priority level 1 items from the list above
 are organized into a separate spreadsheet for the Dashboard authors. The
@@ -374,34 +334,12 @@ Dashboard planning spreadsheet also considers which audiences need
 access to the cards and which devices the card will likely be viewed on
 to craft the ideal viewing experience.
 
-  ----------------------------------------------------------------------------------
-  **Card**Roles          **Regions**Card type****Desktop/mobile**
-  function**      impacted**impacted**
-  --------------- ---------------- -------------- ------------- --------------------
-  Clock in and    Nurses, nurse    All            Shifts card   Mobile
-  out             practitioners,
-                  custodial staff
-
-  Approvals for   People managers  All            Approvals     Desktop
-  purchase orders and finance                     card
-                  professionals
-
-  Access to       Employees who    All            ACE framework Desktop and mobile
-  self-service HR work more than
-  benefits        30 hours a week
-
-  Work-life       All              All            Third party   Desktop and mobile
-  balance and                                     card
-  wellness
-
-  Organization    Physicians,      Regions A and  Top news card Desktop
-  news posts need surgeons, nurse  D
-  to be viewed by practitioners,
-  certain roles   and office
-  and regions     administrators
-
-  View holiday    All              All            Card designer Desktop and mobile
-  schedules
-
-View café menus All              All            Link card     Desktop and mobile
-  ----------------------------------------------------------------------------------
+  **Card function**|**Roles impacted**|**Regions impacted**|**Card type**|**Desktop/mobile**|
+  |---------------------------------|------------------------------|----------------|-----------------|------------|
+  Clock in and out| Nurses, nurse practitioners, custodial staff  |      All    |  Shifts card      |         Mobile|
+|Approvals for purchase orders    |People managers and finance professionals        |All |       Approvals card |   Desktop|
+|Access to self-service HR benefits|Employees who work more than 30 hours a week |All|ACE framework|Desktop and mobile|
+|Work-life balance and wellness|All|All|Third party card|Desktop and mobile|
+|Organization news posts need to be viewed by certain roles and regions|Physicians, surgeons, nurse practitioners, and office administrators|Regions A and D|Top news card|Desktop|
+|View holiday schedules |All|All|Card designer|Desktop and mobile|
+|View café menus|All|All|Link card|Desktop and mobile|

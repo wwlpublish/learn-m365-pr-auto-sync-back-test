@@ -1,4 +1,5 @@
 ### Identify key stakeholders
+
 After deciding to use [Viva
 Connections](https://adoption.microsoft.com/viva/), the first step is to
 identify the key stakeholders. These are the people who will prioritize
@@ -7,22 +8,22 @@ Viva Connections.
 
 **A typical team of stakeholders includes:**
 
--   Business partners (from groups like HR, communications specialists,
+- Business partners (from groups like HR, communications specialists,
     and technology advocates) to identify the most valuable workflows
     and tasks that can be supported by Viva Connections.
 
--   SharePoint and Microsoft Teams admins who can help with tasks in
+- SharePoint and Microsoft Teams admins who can help with tasks in
     admin centers.
 
--   SharePoint site owners and authors for the home site who will manage
+- SharePoint site owners and authors for the home site who will manage
     content, navigation design, and authoring and updating the
     Dashboard.
 
--   Additional site owners and authors may be involved to update content
+- Additional site owners and authors may be involved to update content
     or news post that will be relevant to the Viva Connections
     experience.
 
--   Organizational leaders (sometimes called executive sponsors) and
+- Organizational leaders (sometimes called executive sponsors) and
     early adopters (sometimes called champions) who can help others at
     the organization announce and scale Viva Connections.
 
@@ -34,12 +35,6 @@ team that decides what scenarios will be the most beneficial to each
 business unit, how to customize the platform accordingly, and how to
 help your organization transition to using Viva Connections to help with
 their daily tasks.
-
-
-| **Coordinate and plan**                    | **Build and set up**                         | **Deploy and launch**                 |
-|--------------------------------------------|----------------------------------------------|---------------------------------------|
-|Work with **your organization’s stakeholders** and business partners (from groups like HR, communications specialists, and technology advocates) to identify the most valuable workflows and tasks that can be completed in Viva Connections. <br> <br>Key administrative stakeholders typically include: <br>- **HR professionals**, who manage team members and oversee company and organizational structure and efficiency <br>- **Internal communication specialists**, who facilitate and manage communications between employees and various internal teams <br> - **Communications coordinators and specialists**, who execute and maintain company-wide communications and brand management <br> - **Administrative assistants**, who complete and oversee various administrative tasks|The **SharePoint admin** will set a home site (if you don’t already have one) in the admin center. SharePoint admins may also help modernize classic SharePoint sites and pages where needed. <br>The **Microsoft Teams admin** will add your organization’s version of Viva Connections as an app and choose settings in the Teams admin center.<br>**Site owners and authors for the home site** will design the home site content, navigation, and the Dashboard. <br> **Additional site owners and authors** may be involved to update content or news post that will be relevant to the Viva Connections experience.|Collaborate with **champions** (early adopters) to help other people at the organization implement Viva Connections. <br> Leverage **executive sponsors** who can help evangelize Viva Connections at large company meetings and in broad communications.<**Business owners (like HR) and managers** at all levels can help teams and individuals find value and adopt new ways of working.> **Business owners (like HR) and managers** at all levels can help teams and individuals find value and adopt new ways of working.|
-|||
 
 :::row:::
    :::column span="":::
@@ -56,7 +51,7 @@ their daily tasks.
 :::row:::
    :::column span="":::
 Key administrative stakeholders typically include:
-     - **HR professionals**, who manage team members and oversee company and organizational structure and efficiency 
+     - **HR professionals**, who manage team members and oversee company and organizational structure and efficiency
      - **Internal communication specialists**, who facilitate and manage communications between employees and various internal teams
      - **Communications coordinators and specialists**, who execute and maintain company-wide communications and brand management
      - **Administrative assistants**, who complete and oversee various administrative tasks
@@ -73,63 +68,70 @@ Work with **your organization’s stakeholders** and business partners (from gro
    :::column span="":::
       - Collaborate with **champions** (early adopters) to help other people at the organization implement Viva Connections.
       - Leverage **executive sponsors** who can help evangelize Viva Connections at large company meetings and in broad communications.
-      - **Business owners (like HR) and managers** at all levels can help teams and individuals find value and adopt new ways of working. 
+      - **Business owners (like HR) and managers** at all levels can help teams and individuals find value and adopt new ways of working.
    :::column-end:::
 :::row-end:::
 
-**Before finalizing your list of key stakeholders, answer these
+
+>**Before finalizing your list of key stakeholders, answer these
 questions:**
-
--   Who can represent the most important jobs, roles, and regions that
+>- Who can represent the most important jobs, roles, and regions that
     should be supported by Viva Connections?
-
--   How can the team members contribute to identify key scenarios and
+>- How can the team members contribute to identify key scenarios and
     tasks for employees in each unit, or organization-wise?
-
--   Which roles and regions need the most support?
-
--   Who in the organization has line of sight to leaders, organizational
+>- Which roles and regions need the most support?
+>- Who in the organization has line of sight to leaders, organizational
     announcements, and the overall culture?
-
--   Who are the best representatives to help create and manage redundant
+>- Who are the best representatives to help create and manage redundant
     workflows and tasks?
 
 **Best practices for building your team of stakeholders:**
 
--   Build Viva Connections with the help from several people, including
+- Build Viva Connections with the help from several people, including
     owners of various business units who have a comprehensive
     understanding of business processes, workflows domain knowledge, and
     change management knowledge.
 
--   Involve your stakeholders in the planning process to make sure the
+- Involve your stakeholders in the planning process to make sure the
     needs of everyone at your organization are represented so that Viva
     Connections can have the largest impact possible.
 
--   In most cases, this team will include a few technical professionals
+- In most cases, this team will include a few technical professionals
     as well as human resources people, communications specialists, and
     operations employees, to name a few.
 
--   HR professionals typically have a significant understanding of the
+- HR professionals typically have a significant understanding of the
     work the employees do. Start with the suggestions from your HR
     professionals, then utilize input from individual business units in
     the form of a needs assessment to help make final decisions.
 
 ### Meet technical requirements
 
-The team of stakeholders can help make decisions and set priorities for
+:::row:::
+   :::column span="":::
+      :::image type="icon" source="../media/technical_requirements.png"  :::
+
+   :::column-end:::
+   :::column span="2":::
+      The team of stakeholders can help make decisions and set priorities for
 meeting technical requirements. If your organization does not already
 have a home site with customized global navigation, you can use this as
 your team's first assignment. Both requirements will benefit from the
 planning team's diverse perspectives of different roles and regions.
-
--   If your organization already has a home site and customized global
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+     - If your organization already has a home site and customized global
     navigation, but you are still using classic sites and pages,
     consider strategically modernizing sites and pages that are key to
     the Viva Connections experience.
-
--   If your organization already has a home site, customized global
+- If your organization already has a home site, customized global
     navigation, and modern sites, then you have met the technical
     requirements for Viva Connections.
+   :::column-end:::
+:::row-end:::
+
 
 > **Step 1 -- Create a home site**: Create a SharePoint communication
 > site and [set it as a home site in the SharePoint admin
@@ -155,16 +157,24 @@ planning team's diverse perspectives of different roles and regions.
 > to keep viewing in Teams while using Viva Connections.
 >
 
-:::image type="icon" source="../media/image5.png" :::
+:::image type="icon" source="../media/StoryTellingLogo200x200.png" :::
+
 ### Learn how Lamna Healthcare builds their planning team
 
-As the Internal Communications Manager of Lamna Healthcare, when it's
+:::row:::
+   :::column span="":::
+      :::image type="icon" source="../media/LamnaLogo200x200.png"  :::
+   :::column-end:::
+   :::column span="2":::
+      As the Internal Communications Manager of Lamna Healthcare, when it's
 time to start gathering your team of stakeholders to plan the deployment
 of Viva Connections at Lamna Healthcare, you consider who can help to
 make Viva Connections beneficial for the different roles and regions.
 These individuals will serve as your Viva Connections planning committee
 and will ensure the platform is as useful to all groups of employees as
 possible.
+   :::column-end:::
+:::row-end:::
 
 You first contact the HR team, which is in close contact with Lamna's
 employees and is also responsible for maintaining their mental health

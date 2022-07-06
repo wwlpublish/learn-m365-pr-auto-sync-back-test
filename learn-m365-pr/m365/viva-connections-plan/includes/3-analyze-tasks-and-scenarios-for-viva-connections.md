@@ -92,17 +92,24 @@ Viva Connections design strategy, answer the following for each task:**
 
 - What information needs to be promoted?
 
-:::image type="icon" source="../media/image5.png" :::
+:::image type="icon" source="../media/StoryTellingLogo200x200.png" :::
 
 ### Learn how Lamna Healthcare starts identifying needs
 
-In preparation for Viva Connections, as the Internal Communications
+:::row:::
+   :::column span="":::
+      :::image type="icon" source="../media/LamnaLogo200x200.png"  :::
+   :::column-end:::
+   :::column span="2":::
+      In preparation for Viva Connections, as the Internal Communications
 Manager, you work with the Lamna Healthcare Viva Connections planning
 team conducts a needs assessment over a couple of weeks across the
 organization. The purpose of the needs assessment is to understand how
 each role and region currently gets work done, common pain points, and
 potential improvements to create efficiencies and strengthen employee
 satisfaction.
+   :::column-end:::
+:::row-end:::
 
 You work with the planning team members to identify the different roles
 and regions across the organization and connect with leaders and people
