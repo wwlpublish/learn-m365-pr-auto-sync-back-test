@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-purview-ediscovery-premium.explore-microsoft-purview-ediscovery-premium
+title: Explore Microsoft Purview eDiscovery (Premium)
+metadata:
+  title: Explore Microsoft Purview eDiscovery (Premium)
+  description: "Explore Microsoft Purview eDiscovery (Premium)"
+  ms.date: 07/06/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/2-explore-microsoft-purview-ediscovery-premium.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso is implementing eDiscovery (Premium) in Microsoft Purview. As the Enterprise Administrator for Contoso, Holly Dickson has created an eDiscovery case in the Microsoft Purview compliance portal. The purpose of the case is to address a legal issue facing the company. Several Contoso employees have since been identified as potential persons of interest in the investigation. What should Holly do next?"
+    choices:
+    - content: "Place a legal hold on the data sources associated with the case"
+      isCorrect: false
+      explanation: "Incorrect. This action isn't what Holly should do next."
+    - content: "Add the employees as custodians to the case"
+      isCorrect: true
+      explanation: "Correct. After an organization identifies potential persons of interest in an investigation, it can add them as custodians to an eDiscovery (Premium) case. After users are added as custodians, it's easy to preserve, collect, and review custodian documents."
+    - content: "Send legal hold notifications to the employees and track their acknowledgments"
+      isCorrect: false
+      explanation: "That's incorrect. This action isn't what Holly should do next."
