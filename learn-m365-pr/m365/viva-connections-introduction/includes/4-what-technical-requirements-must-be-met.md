@@ -1,4 +1,4 @@
-Before installing and setting up Viva Connections for your organization[, certain technical requirements must be in place](/viva/connections/plan-viva-connections#step-1-meet-technical-requirements). More information on technical requirements will be reviewed in depth in [module 2](./viva-connections-plan).
+Before installing and setting up Viva Connections for your organization[, certain technical requirements must be in place](/viva/connections/plan-viva-connections#step-1-meet-technical-requirements). More information on technical requirements will be reviewed in depth in [module 2](~/viva-connections-plan).
 
 **Step 1 – Create a home site**: Create a SharePoint communication site
 and [set it as a home site in the SharePoint admin center](/sharepoint/home-site). Home sites activate special features and provide a landing portal for the entire organization. [Learn more about how to plan, build, and launch a home site](/viva/connections/home-site-plan).

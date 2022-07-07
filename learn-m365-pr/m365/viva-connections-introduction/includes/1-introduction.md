@@ -6,7 +6,7 @@ Microsoft Teams app, is a personalized and interactive experience that
 brings everything an employee needs to stay connected to their
 organization into one central hub.
 
-:::image type="content" source="../media/image1.png" alt-text="Devices of desktop and mobile phone showing Viva Connections on the screen.":::
+:::image type="content" source="../media/vc-both-devices.png" alt-text="Devices of desktop and mobile phone showing Viva Connections on the screen.":::
 
 It can be accessed:
 
