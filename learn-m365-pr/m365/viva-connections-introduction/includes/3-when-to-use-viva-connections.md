@@ -1,25 +1,26 @@
-:::image type="icon" source="../media/image7.png":::In this module, let us imagine a large chain of regional hospitals,
+## Lamna Healthcare
+
+:::image type="icon" source="../media/lamna-logo200x200.png":::
+
+In this module, let us imagine a large chain of regional hospitals,
 Lamna Healthcare, that needs an employee experience tool for their
 diverse types of employees. These employees include physicians and surgeons, nurse
 practitioners, Human Resources professionals, IT professionals, office
 administrators, custodial staff, and many more. View a simplified Lamna Healthcare
 org chart below:
 
-
-:::image type="content" source="../media/image8.png" alt-text="Simplified Lamna Healthcare org chart.":::
+:::image type="content" source="../media/lamna-org-chart.png" alt-text="Diagram showing a simplified Lamna Healthcare org structure.":::
 Now, let’s review some scenarios Lamna Healthcare wants to support with
 Viva Connections below.
 
-
-
 ### Viva Connections use cases in action
-:::image type="icon" source="../media/image9.png":::
+
+:::image type="icon" source="../media/story-telling-logo200x200.png":::
 
 **Communicate and connect**
 
-:::image type="content" source="../media/Kendall.png" alt-text="profile image of Kendall with headshot and job title.":::
-Kendall
-is a nurse at Lamna Healthcare Region C hospital ER. He needs to stay
+:::image type="content" source="../media/kendall.png" alt-text="Diagram showing profile of Kendall with head shot and job title.":::
+Kendall is a nurse at Lamna Healthcare Region C hospital ER. He needs to stay
 updated on important workplace events, news, and team communication.
 Quickly accessing organization communications is essential to his
 everyday workflow with ever changing policies and regulations. Kendall
@@ -47,9 +48,8 @@ tasks added by his manager. Now, Kendall is ready to get to work!
 
 **View** **pay and benefits**
 
-:::image type="content" source="../media/Jessie.png" alt-text="profile image of Jessie with headshot and job title.":::
-Jessie
-works in Lamna Healthcare’s Human Resources team. She is a Benefit
+:::image type="content" source="../media/jessie.png" alt-text="Diagram showing profile of Jessie with head shot and job title.":::
+Jessie works in Lamna Healthcare’s Human Resources team. She is a Benefit
 Specialist and answers repetitive questions from employees, including
 where to find paystubs and how to request time off. Jessie collaborates
 with the Dashboard administrator to make sure the Viva Connection’s
@@ -64,7 +64,7 @@ Human Resources sites or content like frequently asked questions.
 
 **Training and onboarding**
 
-:::image type="content" source="../media/Amber.png" alt-text="profile image of Amber with headshot and job title.":::Amber
+:::image type="content" source="../media/amber.png" alt-text="Diagram showing profile of Amber with head shot and job title.":::Amber
 is a leader at Lamna Healthcare and manages a team of eight employees.
 As Lamna Healthcare has been rapidly growing its business in the past
 two years, her team has been growing and becoming more diverse. As a
