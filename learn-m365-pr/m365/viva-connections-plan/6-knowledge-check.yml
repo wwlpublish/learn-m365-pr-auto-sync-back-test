@@ -20,22 +20,12 @@ quiz:
     - content: "Welcome all organization employees who want to serve on the Viva
         Connections planning team."
       isCorrect: false
-      explanation: "Key stakeholders need to have deep understanding
-            of their business areas and certain jobs and roles, although
-            employees should be encouraged to voice their opinions on
-            the design of Viva Connections through various organization
-            communication channels, such as SharePoint sites, Yammer
-            community."
+      explanation: "You should recruit key stakeholders who have deep knowledge of their business areas and certain jobs and roles for Viva Connections implementation. Meanwhile, all employees should be encouraged to voice their opinions through various organization communication channels, such as SharePoint sites, Yammer community. "
     - content: "Recruit IT professionals from each business unit since they have
         full understanding of their local IT infrastructure settings and
         audience groups."
       isCorrect: false
-      explanation: "IT professionals are a critical part of the key
-            stakeholders, but you will need a team of people with
-            various job functions and roles to fully understand the
-            employees needs and tasks, such as Human Resources, business
-            owners, and SharePoint site owners, and communication
-            specialists."
+      explanation: "IT professionals are a critical part of the key stakeholders, but you will need a team of people with various job functions and roles to fully understand the employees’ needs and tasks. Other key stakeholders can be Human Resources, business owners, SharePoint site owners, and communication specialists.   "
     - content: "Select a team of stakeholders to ensure the right scenarios are
         prioritized in all levels and departments of an organization."
       isCorrect: true
@@ -64,10 +54,7 @@ quiz:
             conducting a needs assessment and prioritize them."
     - content: "Implement the same tools and experiences for every employee."
       isCorrect: false
-      explanation: "Viva Connections provides users with personalized
-            workplace solutions based on their roles and needs. This
-            means not every employeewill have the exact same Dashboard
-            on Viva Connections."
+      explanation: "Viva Connections provides users with personalized workplace solutions based on their roles and needs. This personalization means not every employee will have the exact same Dashboard on Viva Connections."
   - content: "Which approach below ensures users have quick access to curated news and company-wide communications?"
     choices:
     - content: "Set up a card on the Viva Connections Dashboard."
@@ -79,12 +66,12 @@ quiz:
     - content: "The Feed"
       isCorrect: true
       explanation: "The Feed in Viva Connections dynamically displays
-            news and announcements that is personalized to the viewers
+            news and announcements that are personalized to the viewer's
             role and location."
     - content: "The Resources tab"
       isCorrect: false
       explanation: "While the Resources tab in Viva Connections
-            allows users toaccess sites, pages, news, and more form
+            allows users to access sites, pages, news, and more from
             Teams, it does not provide a constant stream of news and
             announcements targeted toward employee groups based on
             region and role."
@@ -92,14 +79,14 @@ quiz:
     choices:
     - content: "Plan to announce Viva Connections at the all-company meeting and send out an email to everyone to remind them to try the tool."
       isCorrect: false
-      explanation: "An all-company meeting is a great channel for sharing announcements, but it is unlikely you will reach everyone in your organization in one meeting. Sending an email is another effective method of communication but does not provide enough guidance toinfluence long term change."
+      explanation: "An all-company meeting is a great channel for sharing announcements, but it is unlikely you will reach everyone in your organization in one meeting. Sending an email is another effective method of communication but does not provide enough guidance to influence long term change."
     - content: "Plan to send out a series of emails and posts in Teams that include tutorial videos."
       isCorrect: false
       explanation: "Systematic communications and tutorial content are
         vital components to the adoption of Viva Connections, but this
         plan may exclude people who do not have access to a dedicated
         desktop or mobile device at work."
-    - content: "Plan to use a variety of communications methods that reach everyone at the organization and highlight hands-on training opportunities, digital resources, and ongoing support from champions in your organizaiton. Find early adopters and champions and create ways to extend their enthusiasm to the rest of the organization."
+    - content: "Plan to use various communications methods that reach everyone at the organization and highlight hands-on training opportunities, digital resources, and ongoing support from champions in your organization. Find early adopters and champions and create ways to extend their enthusiasm to the rest of the organization."
       isCorrect: true
       explanation: "This plan best incorporates known success factors like
         using a variety of communication methods, providing training
