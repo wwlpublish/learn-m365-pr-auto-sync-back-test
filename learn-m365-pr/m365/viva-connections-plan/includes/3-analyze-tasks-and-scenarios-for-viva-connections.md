@@ -15,8 +15,8 @@ Dashboard, while others are a better fit in the Resources section.
 
 The following are cards that can be used with little configuration and
 customization:
-|                       |                                                                                                                                        |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|       Card name             |        Card function                             |
+|-----------------------|---------------------------------------------------------------|
 | **Approvals**         | Use [Approvals](/power-automate/get-started-approvals), sign-off on documents, and approve expense reports.                                               |
 | **Assigned Tasks**    | Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage your team’s work, assign tasks, and track tasks.                                                                   |
 | **Card designer**     | Create custom cards and quick views using JSON without writing actual code.                                                            |
@@ -98,7 +98,7 @@ Viva Connections design strategy, answer the following for each task:**
 
 :::row:::
    :::column span="":::
-      :::image type="icon" source="../media/LamnaLogo200x200.png"  :::
+      :::image type="icon" source="../media/lamna-logo-white-bg-200x200.jpg"  :::
    :::column-end:::
    :::column span="2":::
       In preparation for Viva Connections, as the Internal Communications

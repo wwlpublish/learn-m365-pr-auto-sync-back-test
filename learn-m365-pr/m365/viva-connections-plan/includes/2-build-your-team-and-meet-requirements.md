@@ -156,7 +156,7 @@ planning team's diverse perspectives of different roles and regions.
 
 :::row:::
    :::column span="":::
-      :::image type="icon" source="../media/LamnaLogo200x200.png"  :::
+      :::image type="icon" source="../media/lamna-logo-white-bg-200x200.jpg"  :::
    :::column-end:::
    :::column span="2":::
       As the Internal Communications Manager of Lamna Healthcare, you start gathering your team of stakeholders to plan the deployment of Viva Connections by considering who can help to make it beneficial for the different roles and regions. These individuals will serve as your Viva Connections planning committee

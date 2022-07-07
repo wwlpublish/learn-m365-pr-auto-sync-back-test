@@ -16,7 +16,7 @@ and Resources
 
 :::row:::
    :::column span="":::
-      :::image type="icon" source="../media/LamnaLogo200x200.png"  :::
+      :::image type="icon" source="../media/lamna-logo-white-bg-200x200.jpg"  :::
    :::column-end:::
    :::column span="2":::
       In this module, let\'s imagine that you're the Internal Communications

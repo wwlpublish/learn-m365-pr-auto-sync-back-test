@@ -289,7 +289,7 @@ form the Teams app bar.
 
 :::row:::
    :::column span="":::
-      :::image type="icon" source="../media/LamnaLogo200x200.png"  :::
+      :::image type="icon" source="../media/lamna-logo-white-bg-200x200.jpg"  :::
    :::column-end:::
    :::column span="2":::
       After conducting the needs assessment, you set up a meeting for the Viva
