@@ -1,4 +1,4 @@
-In the upcoming units, you will learn about best practices, considerations, and technical details that will help you in the planning phase. The planning phase includes the following steps:
+In the upcoming units, you'll learn about best practices, considerations, and technical details that will help you in the planning phase. The planning phase includes the following steps:
 
 ![](../media/image1.png){width="6.5in" height="1.3947911198600176in"}
 
@@ -19,14 +19,8 @@ and Resources
       :::image type="icon" source="../media/LamnaLogo200x200.png"  :::
    :::column-end:::
    :::column span="2":::
-      In this module, let\'s imagine that you are the Internal Communications
-Manager of Lamna Healthcare, a large chain of regional hospitals. The organization needs to constantly communicate new policies and
-procedures, provide easy access to tools that allow employees to see
-their shifts and manage their time and absence, connect them with
-shuttles and café menus, and provide quick links to resources and forms.
-After carefully researching and examining existing platforms, executive
-leadership has decided that Viva Connections is an ideal solution since
-they already subscribe to Microsoft 365.
+      In this module, let\'s imagine that you're the Internal Communications
+Manager of Lamna Healthcare, a large chain of regional hospitals. The organization needs to communicate new policies and procedures constantly. Meanwhile, it needs to provide easy access to tools that allow employees to see their shifts and manage their time and absence, connect them with shuttles and café menus, and provide quick links to resources and forms. After carefully researching and examining existing platforms, executive leadership has decided that Viva Connections is an ideal solution since they already subscribe to Microsoft 365. 
    :::column-end:::
 :::row-end:::
 

@@ -2,7 +2,7 @@
 
 After deciding to use [Viva
 Connections](https://adoption.microsoft.com/viva/), the first step is to
-identify the key stakeholders. These are the people who will prioritize
+identify the key stakeholders. Key stakeholders are the people who will prioritize
 which tasks, tools, and resources should be streamlined and supported by
 Viva Connections.
 
@@ -28,13 +28,9 @@ Viva Connections.
     the organization announce and scale Viva Connections.
 
 The table below outlines some of the key stakeholders in each phase of
-the implementation process, as well as their roles and responsibilities.
+the implementation process, and their roles and responsibilities.
 These stakeholders will be your go-to experts when it comes to the
-planning, building, and launch phases. Stakeholder will be the planning
-team that decides what scenarios will be the most beneficial to each
-business unit, how to customize the platform accordingly, and how to
-help your organization transition to using Viva Connections to help with
-their daily tasks.
+planning, building, and launch phases. Stakeholders will be deciding what scenarios will be the most beneficial to each business unit, how to customize the platform accordingly, and how to help your organization transition to using Viva Connections to help with their daily tasks. 
 
 :::row:::
    :::column span="":::
@@ -96,8 +92,7 @@ questions:**
     needs of everyone at your organization are represented so that Viva
     Connections can have the largest impact possible.
 
-- In most cases, this team will include a few technical professionals
-    as well as human resources people, communications specialists, and
+- In most cases, this team will include a few technical professionals, human resources people, communications specialists, and
     operations employees, to name a few.
 
 - HR professionals typically have a significant understanding of the
@@ -114,9 +109,7 @@ questions:**
    :::column-end:::
    :::column span="2":::
       The team of stakeholders can help make decisions and set priorities for
-meeting technical requirements. If your organization does not already
-have a home site with customized global navigation, you can use this as
-your team's first assignment. Both requirements will benefit from the
+meeting technical requirements. If your organization does not already have a home site with customized global navigation, this will be your team’s first assignment. Both requirements will benefit from the
 planning team's diverse perspectives of different roles and regions.
    :::column-end:::
 :::row-end:::
@@ -166,11 +159,7 @@ planning team's diverse perspectives of different roles and regions.
       :::image type="icon" source="../media/LamnaLogo200x200.png"  :::
    :::column-end:::
    :::column span="2":::
-      As the Internal Communications Manager of Lamna Healthcare, when it's
-time to start gathering your team of stakeholders to plan the deployment
-of Viva Connections at Lamna Healthcare, you consider who can help to
-make Viva Connections beneficial for the different roles and regions.
-These individuals will serve as your Viva Connections planning committee
+      As the Internal Communications Manager of Lamna Healthcare, you start gathering your team of stakeholders to plan the deployment of Viva Connections by considering who can help to make it beneficial for the different roles and regions. These individuals will serve as your Viva Connections planning committee
 and will ensure the platform is as useful to all groups of employees as
 possible.
    :::column-end:::
@@ -182,22 +171,15 @@ and wellbeing. You know that collaborating with HR professionals can
 help you brainstorm what day-to-day functioning can be streamlined and
 automated for employees.
 
-Next, you recruit business owners from each business unit to learn more
-about different tasks and regions, for roles like physicians, nurses, IT
-professionals, student interns, office administrators, janitorial staff,
-and other employees.
+Next, you recruit business owners from each business unit to learn more about different tasks and regions. You try to get business owners who supervise roles like physicians, nurses, IT professionals, student interns, office administrators, janitorial staff, and other employees.
 
-Then, you also ask for input from departmental communication specialists
-and SharePoint site owners so that you can better understand how news
-and resources are communicated to the employees at both the organization
-and departmental levels.
+Then, you also ask for input from departmental communication specialists and SharePoint site owners so that you can better understand how they help to communicate news and resources at both the organization and departmental levels.
 
 Finally, you invite Lamna Healthcare's Microsoft Teams and SharePoint
 admins and a team of IT experts to help complete technical requirements
 and advise other technical decisions.
 
 By collaborating with a wide range of stakeholders who work directly
-with all the different business units at the hospital, you'll get
-insights into how to best inform, connect, and engage employees, and
-which tasks and scenarios in employees' daily work can be streamlined
-with Viva Connections.
+with all business units at the hospital, you get
+insights into how to best inform, connect, and engage employees. You also get insights into
+which tasks and scenarios in employees' daily work can be streamlined with Viva Connections.
