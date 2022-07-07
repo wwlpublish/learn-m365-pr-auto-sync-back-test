@@ -1,6 +1,6 @@
 ## Lamna Healthcare
 
-:::image type="icon" source="../media/lamna-logo200x200.png":::
+:::image type="icon" source="../media/lamna-logo-white-bg-200x200.png":::
 
 In this module, let us imagine a large chain of regional hospitals,
 Lamna Healthcare, that needs an employee experience tool for their
