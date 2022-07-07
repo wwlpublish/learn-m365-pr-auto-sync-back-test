@@ -34,7 +34,7 @@ Feed, so your employees don’t miss out on important information.
 
 **Resources**
 
-:::image type="content" source="../media/image4.png" alt-text="Screenshots of Resources on both desktop and mobile phone.":::
+:::image type="content" source="../media/vc-resources-both.png" alt-text="Screenshots of Resources on both desktop and mobile phone.":::
 
 [Resources](/viva/connections/viva-connections-overview#viva-connections-resources)
 are the navigational links that allow you to navigate to sites, news,
