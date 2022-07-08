@@ -314,7 +314,7 @@ indicates a high impact area that will be implemented in the first
 version of Viva Connections. Areas with a priority level of 2 will be
 implemented sometime soon after the release of the first version.
 
-  **Insights from needs assessment**|**Viva Connections component**|**Solution**|**Technical consideration**|**Priority level**|
+  |**Insights from needs assessment**|**Viva Connections component**|**Solution**|**Technical consideration**|**Priority level**|
   |---------------------------------|------------------------------|----------------|-----------------|------------|
   |Clock in and out| Dashboard  |      Use the Shifts card    |        |         1|
 |Get approvals    |Dashboard        |Use the Approvals card|        Need to set up the Teams Approval before launching this card |   1|
@@ -334,7 +334,7 @@ Dashboard planning spreadsheet also considers which audiences need
 access to the cards and which devices the card will likely be viewed on
 to craft the ideal viewing experience.
 
-  **Card function**|**Roles impacted**|**Regions impacted**|**Card type**|**Desktop/mobile**|
+  |**Card function**|**Roles impacted**|**Regions impacted**|**Card type**|**Desktop/mobile**|
   |---------------------------------|------------------------------|----------------|-----------------|------------|
   |Clock in and out| Nurses, nurse practitioners, custodial staff  |      All    |  Shifts card      |         Mobile|
 |Approvals for purchase orders    |People managers and finance professionals        |All |       Approvals card |   Desktop|

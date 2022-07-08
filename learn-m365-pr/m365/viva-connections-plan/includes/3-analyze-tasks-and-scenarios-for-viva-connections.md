@@ -15,6 +15,7 @@ Dashboard, while others are a better fit in the Resources section.
 
 The following are cards that can be used with little configuration and
 customization:
+
 |       Card name             |        Card function                             |
 |-----------------------|---------------------------------------------------------------|
 | **Approvals**         | Use [Approvals](/power-automate/get-started-approvals), sign-off on documents, and approve expense reports.                                               |
