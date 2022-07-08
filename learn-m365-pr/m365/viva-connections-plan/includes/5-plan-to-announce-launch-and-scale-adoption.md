@@ -30,7 +30,7 @@ practices here as a starting point to creating an adoption plan that
 fits your organization's needs. Include considerations for change
 management and training materials for end-users in your plan.
 
-:::image type="content" source="../media/countdown-poaster.png" alt-text="Screenshot of Microsoft Viva Connections countdown news post sample." :::
+:::image type="content" source="../media/countdown-poster.png" alt-text="Screenshot of Microsoft Viva Connections countdown news post sample." :::
 -   Viva Connections can only be accessed in Microsoft Teams. If your
     organization isn\'t already using Microsoft Teams, you\'ll need to
     plan the [adoption of Microsoft

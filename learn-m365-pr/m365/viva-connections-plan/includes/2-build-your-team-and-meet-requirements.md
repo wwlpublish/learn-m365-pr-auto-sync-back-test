@@ -104,7 +104,7 @@ questions:**
 
 :::row:::
    :::column span="":::
-      :::image type="icon" source="../media/technical_requirements.png"  :::
+      :::image type="icon" source="../media/technical-requirements.png"  :::
 
    :::column-end:::
    :::column span="2":::
@@ -132,7 +132,7 @@ planning team's diverse perspectives of different roles and regions.
 > sites activate special features and provide a landing portal for the
 > entire organization.
 >
-:::image type="content" source="../media/relecloud-homesite.png" alt-text="Screenshot of an imaginary organization RELECLOUD Sharepoint homesite" :::
+:::image type="content" source="../media/relecloud-homesite.png" alt-text="Screenshot of an imaginary organization RELECLOUD Sharepoint homesite." :::
 > **Step 2 -- Customize global navigation:** [Enable global navigation
 > for the SharePoint application
 > bar](/viva/connections/sharepoint-app-bar).
@@ -141,7 +141,7 @@ planning team's diverse perspectives of different roles and regions.
 > navigation, there will not be any links in the Resources tab in the
 > mobile app.
 
-:::image type="content" source="../media/setting-global-links.png" alt-text="Screenshot of customizing Relecloud global navigation links" :::
+:::image type="content" source="../media/setting-global-links.png" alt-text="Screenshot of customizing Relecloud global navigation links." :::
 
 > **Step 3 -- Audit and modernize sites and content**: Sites that have
 > not been modernized will open in a separate browser window instead of

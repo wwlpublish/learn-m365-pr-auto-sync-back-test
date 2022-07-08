@@ -34,7 +34,7 @@ This will involve:
       :::image type="content" source="../media/sample-dashboard-mobile.png" alt-text="Screenshot of a sample dashboard on a mobile device." :::  
    :::column-end:::
    :::column span="":::
-      :::image type="content" source="../media/sample-dashboard-webpart.png" alt-text="Screenshot of a sample dashboard web part on a desktop" :::
+      :::image type="content" source="../media/sample-dashboard-webpart.png" alt-text="Screenshot of a sample dashboard web part on a desktop." :::
    :::column-end:::
 :::row-end:::
 
@@ -44,7 +44,7 @@ supported by a card on the Dashboard. Not *every* task should be turned
 into a card. Start with the most important workflows, then focus on the
 most impactful tasks that can be executed within a short amount of time.
 
-:::image type="content" source="../media/workflow-play-dashboard.png" alt-text="Diagram of the four step work flow to plan for the Viva Connections Dashboard." :::
+:::image type="complex" source="../media/workflow-play-dashboard.png" alt-text="Diagram of the four step work flow to plan for the Viva Connections Dashboard." :::
 Step 1 is to use insights from the needs assessment; step 2 is to align needs with experiences on the Dashboard; Step 3 is to plan use specific cards to support scenarios; step 4 is to prepare your technical environment to support cards.
 :::image-end:::
 
@@ -248,7 +248,7 @@ that creates the ideal viewing experience.
     a non-authoritative site. [Learn more about video news
     links.](/viva/connections/video-news-links)
 
-- **Use Yammer for announcements and conversations:** Content form
+- **Use Yammer for announcements and conversations:** Content from
     Yammer will display in the Feed based on the communities the viewer
     follows. [Yammer posts and announcements set to "All company" will
     appear](https://techcommunity.microsoft.com/t5/yammer-blog/engage-your-entire-organization-with-new-all-company-features/ba-p/1441124)
@@ -281,7 +281,7 @@ You must enable global navigation for Resources to display in the Viva
 Connections experience. On the mobile experience, Resources displays as
 its own tab. One the desktop and web experiences, Resources can be
 accessed by selecting your organization's Viva Connections icon twice
-form the Teams app bar.
+from the Teams app bar.
 
 :::image type="icon" source="../media/story-telling-logo-white-bg.png"  :::
 
