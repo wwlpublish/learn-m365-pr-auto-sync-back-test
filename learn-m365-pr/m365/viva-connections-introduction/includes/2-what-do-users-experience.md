@@ -6,7 +6,7 @@ Whether you’re on desktop or mobile, Viva Connections brings together
 relevant news, conversations, and resources into Microsoft Teams where
 it’s easy to share, collaborate, and chat all in one place.
 
-[Your intranet is now in Microsoft Teams](https://support.microsoft.com/en-us/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b)
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Vpnn]
 
 **Dashboard**
 
@@ -52,7 +52,7 @@ so the navigation is relevant to the user and their role.
 
 :::image type="content" source="../media/vc-desktop.jpg" alt-text="Screenshots of the desktop experience of Viva Connections.":::
 
-[Viva Connections on your desktop (microsoft.com)](https://support.microsoft.com/en-us/office/viva-connections-on-your-desktop-3da30f39-684a-4bde-bb81-2e1407d59b52)
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4THB8]
 
 On desktop, Viva Connections integrates your SharePoint [home site](/viva/connections/create-sharepoint-home-site-for-viva-connections)and [global navigation](/viva/connections/sharepoint-app-bar)
 with Microsoft Teams. The desktop experience allows you to navigate to SharePoint sites, organizational news, and other content without leaving Teams. You can search and share intranet content in chats, teams, or channels, making collaboration easier than ever.
@@ -63,7 +63,7 @@ Add the [Dashboard](/viva/connections/use-dashboard-web-part-on-home-site) and [
 
 :::image type="content" source="../media/vc-three-components-mobile.png" alt-text="Screenshots of mobile experience of Viva Connections.":::
 
-[Viva Connections on the go (microsoft.com)](https://support.microsoft.com/en-us/office/viva-connections-on-the-go-753e0607-0bfd-4712-ad7e-18490dd565a2)
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4TpyN]
 
 On mobile, the Viva Connections app is anchored around three key
 concepts: Dashboard, Feed, and Resources. The mobile app displays the
