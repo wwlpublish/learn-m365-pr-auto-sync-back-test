@@ -287,20 +287,16 @@ from the Teams app bar.
 
 ## Learn how Lamna Healthcare uses insights from the needs assessment
 
-:::row:::
-   :::column span="":::
-      :::image type="icon" source="../media/lamna-logo-white-bg-200.jpg"  :::
-   :::column-end:::
-   :::column span="2":::
-      After conducting the needs assessment, you set up a meeting for the Viva
+:::image type="icon" source="../media/lamna-logo-white-bg-200.jpg"  :::
+
+After conducting the needs assessment, you set up a meeting for the Viva
 Connections planning team at Lamna Healthcare meet and review the
 findings. Planning team members start to prioritize the highest impact
 experiences. High-impact experiences will provide the greatest value for
 large groups of roles and help solve known issues identified in the
 needs assessment. Then, technical team members provide feedback on how
 each experience could be implemented and other technical considerations.
-   :::column-end:::
-:::row-end:::
+
 
 Next, the planning team determines the timeline and release schedule for
 the first version of Viva Connections. The first version will include
