@@ -1,0 +1,33 @@
+### YamlMime:LearningPath
+uid: learn-m365.principles-zero-trust
+metadata:
+  title: Establish the guiding principles and core components of Zero Trust
+  description: Zero Trust is not a product or tool, but an essential security strategy that seeks to continuously verify every transaction, asserts least privilege, and assumes that every transaction could be a possible attack.  Through the modules in this learning path, you'll gain an understanding of Zero Trust and how it applies to identity, endpoints, applications, networks, infrastructure, and data.
+  ms.date: 7/8/2020
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Establish the guiding principles and core components of Zero Trust
+summary: Zero Trust is not a product or tool, but an essential security strategy that seeks to continuously verify every transaction, asserts least privilege, and assumes that every transaction could be a possible attack.  Through the modules in this learning path, you'll gain an understanding of Zero Trust and how it applies to identity, endpoints, applications, networks, infrastructure, and data.
+prerequisites: None
+iconUrl: /learn/achievements/generic-achievement.svg
+levels: 
+- beginner
+roles:
+  - administrator
+  - student
+products: 
+- m365
+subjects:
+- security
+modules:
+- learn-m365.zero-trust-introduction
+- learn-m365.zero-trust-identities
+- learn-m365.zero-trust-endpoints
+- learn-m365.zero-trust-applications
+- learn-m365.zero-trust-networks
+- learn-m365.zero-trust-infrastructure
+- learn-m365.zero-trust-data
+trophy: 
+  uid: learn-m365.principles-zero-trust.trophy
