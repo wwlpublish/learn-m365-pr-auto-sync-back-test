@@ -31,7 +31,7 @@ These capabilities include:
 
 ## External access
 
-With external access, you can find, call, chat, and set up meetings with users from an entire external domain. You can also use external access to communicate with people from other organizations who are still using Skype for Business (online and on-premises) and Skype (in preview). A (External) label appears next to the name of the external (federated) user in Teams client.
+With external access, you can find, call, chat, and set up meetings with users from an entire external domain. You can also use external access to communicate with people from other organizations who are still using Skype for Business (online and on-premises) and Skype. A (External) label appears next to the name of the external (federated) user in Teams client.
 
 Use external access when:  ‎
 
@@ -56,10 +56,10 @@ Guests are added to Azure Active Directory (Azure AD), with a user type of *Gues
 
 A team owner in Microsoft Teams can add and manage guests in their teams. Everyone on the team can easily identify who is a guest. A (Guest) label appears next to each guest's name and a tag in the upper-right corner of the channel thread indicates the number of guests on the team.
 
-:::image type="content" source="../media/guest-access.png" alt-text="The order of policy precedence":::
+:::image type="content" source="../media/guest-access.png" alt-text="guest access in Microsoft Teams":::
 
 For more information, see:
 
-* [Compare external and guest access](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access?azure-portal=true)
+* [Compare external and guest access](/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access?azure-portal=true)
 
-* [Comparison of team member and guest capabilities](https://docs.microsoft.com/microsoftteams/guest-experience#comparison-of-team-member-and-guest-capabilities?azure-portal=true)
+* [Comparison of team member and guest capabilities](/microsoftteams/guest-experience#comparison-of-team-member-and-guest-capabilities?azure-portal=true)

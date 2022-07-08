@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 10/25/2021
+  ms.date: 07/08/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -17,22 +17,66 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Teams administrator for Contoso, Holly Dickson wants to enable collaboration and communication with authenticated users outside the organization. Which of the following options should Holly set to enable access permission to users of an entire external domain?"
+  - content: "Azure Active Directory includes a feature that controls administrative access to resources in Azure, Azure AD, and other Microsoft Online Services, like Microsoft 365 and Intune. This feature enables administrators to manage, control, and monitor access within their organizations. What is the name of this Azure Active Directory feature?"
+    choices:
+    - content: "Identity governance"
+      isCorrect: false
+      explanation: "That's incorrect. This feature manages your organization's identity through employee, business partner, vendor, service, and app access controls. You can also perform access reviews."
+    - content: "Managed identities for Azure resources"
+      isCorrect: false
+      explanation: "That's incorrect. This feature provides your Azure services with an automatically managed identity in Azure AD that can authenticate any Azure AD-supported authentication service, including Key Vault."
+    - content: "Privileged identity management (PIM)"
+      isCorrect: true
+      explanation: "That's correct. PIM manages, controls, and monitors access within your organization. It includes access to resources in Azure AD and Azure, and other Microsoft Online Services, like Microsoft 365 and Intune."
+  - content: "As the Teams administrator for Contoso, Holly Dickson wants to create teams of users across functional groups within the company. Holly's goal is to increase collaboration between users. What type of groups does Teams use for team membership?"
+    choices:
+    - content: "Microsoft 365 groups"
+      isCorrect: true
+      explanation: "That's correct. Teams uses Microsoft 365 Groups for team membership. Microsoft 365 groups are used for collaboration between users, both inside and outside a company."
+    - content: "Distribution groups"
+      isCorrect: false
+      explanation: "That's incorrect. Distribution groups are used for sending notifications to a group of people."
+    - content: "Mail-enabled Security groups"
+      isCorrect: false
+      explanation: "That's incorrect. Security groups are used for granting access to Microsoft 365 resources, such as SharePoint. Mail-enabled security groups function the same as regular security groups, except that they can't be dynamically managed through Azure AD and they can't contain devices."
+  - content: "As the Teams administrator for Fabrikam, Holly Spencer is planning external collaboration features for the company. Which external collaboration setting in Azure AD allows Holly to specify a list of allowed or blocked domains for sharing?"
+    choices:
+    - content: "Guest user access"
+      isCorrect: false
+      explanation: "That's incorrect. This setting determines the permissions that guests have in Azure Active Directory."
+    - content: "Collaboration restrictions"
+      isCorrect: true
+      explanation: "That's correct. This setting allows you to specify a list of allowed or blocked domains for sharing. When allowed domains are specified, then sharing invitations can only be sent to those domains. When denied domains are specified, then sharing invitations cannot be sent to those domains."
+    - content: "Enable guest self-service sign up via user flows"
+      isCorrect: false
+      explanation: "That's incorrect. This setting determines if you can create user flows that allow someone to sign up for an app that you created and create a new guest account."
+  - content: "As the Teams administrator for Contoso, Holly Dickson wants to implement guest access to enable collaboration with people outside the organization. Holly activated guest access in Microsoft Teams, but external people with a personal or business email account still can't access Contoso's existing teams or channels. What else must Holly do to enable guest access?"
+    choices:
+    - content: "Set the Make private calls setting to On"
+      isCorrect: false
+      explanation: "That's incorrect. This setting enables guests to make peer-to-peer calls in Microsoft Teams. It doesn't enable guest access."
+    - content: "Update the Guest User Access setting on the External collaboration settings page"
+      isCorrect: false
+      explanation: "That's incorrect. This setting determines the permissions that guests have in Azure AD. It doesn't enable guest access."
+    - content: "Enable Guest access in Azure AD"
+      isCorrect: true
+      explanation: "That's correct. Even if you activate Guest access in Teams, you must also ensure that Guest access is enabled in Azure AD."
+  - content: "As the Teams administrator for Contoso, Holly Dickson wants to enable collaboration and communication with authenticated users outside the organization. This will allow users to login using their own corporate account. Which of the following options should Holly set to enable access permission to users of an entire external domain?"
     choices:
     - content: "Guest access"
       isCorrect: false
-      explanation: "That's incorrect. Guest access gives access permission to an individual. Guest access allows a user to invite people from outside your organization to join a team. Invited people get a guest account in Azure Active Directory.Try again."
+      explanation: "That's incorrect. Guest access gives access permission to an individual. Guest access allows a user to invite people from outside your organization to join a team. Invited people get a guest account in Azure Active Directory."
     - content: "External access"
       isCorrect: true
       explanation: "That's correct. External access enables access permission to users of an entire external domain. External access is a type of federation that allows users to find, call, chat, and set up meetings with people in other organizations."
     - content: "Privileged Identity Management (PIM)"
       isCorrect: false
-      explanation: "That's incorrect. PIM manages, controls, and monitors access within an organization. This feature includes access to resources in Azure AD and Azure, and other Microsoft Online Services, like Microsoft 365 and Intune. Try again."
+      explanation: "That's incorrect. PIM manages, controls, and monitors access within an organization. This feature includes access to resources in Azure AD and Azure, and other Microsoft Online Services, like Microsoft 365 and Intune."
   - content: "As the Teams administrator for Tailspin Toys, Allan DeYoung wants to enable Tailspin users so they can invite people from outside the company to Teams meetings. Which of the following settings must be enabled?"
     choices:
     - content: "Guest access"
       isCorrect: false
-      explanation: "That's incorrect. Guest access isn't required to invite people outside an organization to Teams meetings. Try again."
+      explanation: "That's incorrect. Guest access isn't required to invite people outside an organization to Teams meetings."
     - content: "External access"
       isCorrect: false
       explanation: "That's incorrect. External access isn't required to invite people outside an organization to Teams meetings. Try again."
@@ -43,10 +87,10 @@ quiz:
     choices:
     - content: "The Sharing permissions option must be set to Anyone"
       isCorrect: false
-      explanation: "That's incorrect. This setting allows users to share files and folders by using links that let anyone who has the link access the files or folders without authenticating. Try again."
+      explanation: "That's incorrect. This setting allows users to share files and folders by using links that let anyone who has the link access the files or folders without authenticating."
     - content: "Site settings can't be more permissive than the organization-level settings"
       isCorrect: true
       explanation: "That's correct. The organization-level settings determine what settings are available for individual sites, including sites associated with teams. Site settings can't be more permissive than the organization-level settings."
     - content: "The Sharing permissions option must be set to New and existing guests"
       isCorrect: false
-      explanation: "That's incorrect. This setting requires people who have received invitations to sign in with their work or school account (if their organization uses Microsoft 365) or a Microsoft account, or to provide a code to verify their identity. Try again."
+      explanation: "That's incorrect. This setting requires people who have received invitations to sign in with their work or school account (if their organization uses Microsoft 365) or a Microsoft account, or to provide a code to verify their identity."

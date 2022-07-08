@@ -3,9 +3,9 @@ uid: learn.wwl.manage-access-for-external-users
 metadata:
   title: Manage access for external users
   description: "Manage access for external users"
-  ms.date: 10/25/2021
+  ms.date: 07/08/2022
   author: wwlpublish
-  ms.author: tfrink
+  ms.author: jennyche
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage access for external users
@@ -31,8 +31,8 @@ products:
 - m365
 - office-teams
 subjects:
-- identity-access
 - collaboration
+- identity-access
 units:
 - learn.wwl.manage-access-for-external-users.introduction
 - learn.wwl.manage-access-for-external-users.understand-features-azure-active-directory

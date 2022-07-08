@@ -1,14 +1,15 @@
+
 Teams provides all of the collaboration features available in Office and SharePoint with persistent chat and a customizable and extensible set of collaboration tools in a unified user experience.
 
-There are various settings that can affect sharing with people outside your organization for the Microsoft 365 workloads: Teams, Microsoft 365 Groups, SharePoint, and OneDrive. These settings are located in the Azure Active Directory, Microsoft 365, Teams, and SharePoint admin centers.
+There are various settings that can affect sharing with people outside your organization for the Microsoft 365 workloads: Teams, Microsoft 365 Groups, SharePoint, and OneDrive. These settings are located in the Azure Active Directory, Microsoft 365, Microsoft Purview compliance portal, Teams, and SharePoint admin centers.
 
 ## Azure Active Directory
 
-Administrators can also use Azure AD to determine whether external collaborators can be invited into your tenant as guests, and in what ways.
+Azure AD External Identities refers to all the ways you can securely interact with users outside of your organization. Administrators can use External Identities to determine whether external collaborators can be invited into your tenant as guests, and in what ways. 
 
 Sharing in Microsoft 365 is governed at its highest level by the B2B external collaboration settings in Azure Active Directory. If guest sharing is disabled or restricted in Azure AD, this setting overrides any sharing settings that you configure in Microsoft 365.
 
-You can use the Azure AD admin center to control:
+You can use the Azure AD External Identities to control:
 
 * Guest access to properties and memberships of directory objects
 
@@ -17,6 +18,32 @@ You can use the Azure AD admin center to control:
 * Enable up guest self-service sign via user flows
 
 * Collaboration restrictions
+
+* Cross-tenant access
+
+Shared channels in Microsoft Teams create collaboration spaces where you can invite people who are not in the team. You can invite people outside your organization to participate in a shared channel by configuring **B2B direct connect** in Azure AD cross-tenant access settings.
+
+When you enable shared channels in Teams with another organization:
+* Team owners in your organization will be able to invite people from other organizations to participate in shared channels.
+* Your organization's custom (line of business) apps will be available in shared channels and external participants will be able to access them.
+* Your organization's apps list will be available in shared channels and external participants will be able to access them.
+
+    ‎:::image type="content" source="../media/shared-channel.png" alt-text="Share a shared channel with external users":::
+
+## Microsoft Purview compliance portal
+
+Administrators can use sensitivity labels to control guest access to your teams. Teams created with a label that doesn't allow guest access are only available to users in your organization. People outside your organization can't be added to the team.
+
+You can use the sensitivity labels to protect content in the Microsoft Teams sites, Microsoft 365 groups, and SharePoint sites with the following label settings:
+
+* Privacy (public or private) of teams sites and Microsoft 365 groups
+* External user access
+* External sharing from SharePoint sites
+* Access from unmanaged devices
+* Authentication contexts (in preview)
+* Default sharing link for a SharePoint site (PowerShell-only configuration)
+* In preview: Site sharing settings (PowerShell-only configuration)
+
 
 ## Microsoft 365
 
@@ -56,8 +83,17 @@ You can use the SharePoint admin center to control:
 
 The following diagram shows how guest access authorization dependency is granted and integrated between Azure Active Directory, Microsoft 365, Teams, and SharePoint. This dependency means that if you disable guest access at any point in the chain every App down the line will inherit the restriction and you will not be able to create or let your users create new Teams.
 
-:::image type="content" source="../media/teams-guests-dependencies.png" alt-text="Guest access authorization dependency" lightbox="../media/teams-guests-dependencies.png":::
+‎:::image type="content" source="../media/teams-guests-dependencies.png" alt-text=" Guest access authorization dependency":::
 
-## Knowledge check
+## Remove guest users 
+Guests can leave the team at any time from within Teams or the owners can manually remove the guest accounts from their teams.
 
-Choose the best response for the following question. Then select “Check your answers.”
+:::image type="content" source="../media/remove-guests.png" alt-text=" Remove guests from Teams client":::
+
+However, leaving the team doesn't remove the guest account from your organization's directory. This must be done by a Microsoft 365 global admin or an Azure AD admin.
+
+As a Microsoft 365 global admin or an Azure AD admin, you can remove a guest user from the following locations:
+ 
+* Microsoft 365 admin center.
+* Azure AD admin center. 
+
