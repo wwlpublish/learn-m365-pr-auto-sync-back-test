@@ -31,10 +31,10 @@ This will involve:
 :::row-end:::
 :::row:::
    :::column span="":::
-      :::image type="content" source="../media/image11.png" alt-text="A sample dashboard on a mobile device." :::  
+      :::image type="content" source="../media/sample-dashboard-mobile.png" alt-text="Screenshot of a sample dashboard on a mobile device." :::  
    :::column-end:::
    :::column span="":::
-      :::image type="content" source="../media/image12.png" alt-text="A sample dashboard web part on a desktop" :::
+      :::image type="content" source="../media/sample-dashboard-webpart.png" alt-text="Screenshot of a sample dashboard web part on a desktop" :::
    :::column-end:::
 :::row-end:::
 
@@ -44,14 +44,14 @@ supported by a card on the Dashboard. Not *every* task should be turned
 into a card. Start with the most important workflows, then focus on the
 most impactful tasks that can be executed within a short amount of time.
 
-:::image type="content" source="../media/image13.png" alt-text="Four step work flow to plan for the Viva Connections Dashboard." :::
+:::image type="content" source="../media/workflow-play-dashboard.png" alt-text="Diagram of the four step work flow to plan for the Viva Connections Dashboard." :::
 Step 1 is to use insights from the needs assessment; step 2 is to align needs with experiences on the Dashboard; Step 3 is to plan use specific cards to support scenarios; step 4 is to prepare your technical environment to support cards.
 :::image-end:::
 
 Find opportunities that align with the
 fields \"Quick wins\" and \"First successes\" in the decision matrix
 below as a start:
-:::image type="content" source="../media/image14.png" alt-text="The quadrant matrix to identify the priorities of scenarios in the categories of: quick wins, business transformation, first success, and Save for later." :::
+:::image type="content" source="../media/vc-scenario-priority-matrix.png" alt-text="Diagram of the quadrant matrix to identify the priorities of scenarios in the categories of: quick wins, business transformation, first success, and Save for later." :::
 
 Within the Dashboard, you will have the opportunity to incorporate three
 types of cards:
@@ -77,7 +77,7 @@ language](/viva/connections/create-multilingual-dashboard).
 
 ### Plan to use out-of-the-box cards
 
-:::image type="content" source="../media/image16.png" alt-text="A screenshot of out-of-box card." :::
+:::image type="content" source="../media/out-of-box-card.png" alt-text="Screenshot of out-of-box card." :::
 
 We have reviewed out-of-the-box cards in unit 2. These cards are card
 templates that can be easily customized to fit the needs of your
@@ -133,13 +133,13 @@ dynamic information.
 :::row-end:::
 :::row:::
    :::column span="":::
-      :::image type="content" source="../media/image17.png" alt-text="A screenshot of customed time off card." :::
+      :::image type="content" source="../media/customized-card.png" alt-text="Screenshot of customized time off card." :::
    :::column-end:::
    :::column span="":::
-      :::image type="content" source="../media/image18.png" alt-text="A screenshot of customer inventory card." :::
+      :::image type="content" source="../media/inventory-card.png" alt-text="Screenshot of customer inventory card." :::
    :::column-end:::
    :::column span="":::
-      :::image type="content" source="../media/image19.png" alt-text="A screenshot of customed benefit open enrollment card." :::
+      :::image type="content" source="../media/open-enrollment-card.png" alt-text="Screenshot of customized benefit open enrollment card." :::
    :::column-end:::
 :::row-end:::
 
@@ -173,10 +173,10 @@ templates](https://github.com/pnp/AdaptiveCards-Templates).
 :::row-end:::
 :::row:::
    :::column span="":::
-      :::image type="content" source="../media/image20.png" alt-text="A screenshot of the Viva Connections Feed on a cellphone." :::
+      :::image type="content" source="../media/feed-mobile.png" alt-text="Screenshot of the Viva Connections Feed on a cellphone." :::
    :::column-end:::
    :::column span="2":::
-      :::image type="content" source="../media/image21.png" alt-text="A screenshot of Viva Connections Feed as the desktop web part." :::
+      :::image type="content" source="../media/feed-web-part.png" alt-text="Screenshot of Viva Connections Feed as the desktop web part." :::
    :::column-end:::
 :::row-end:::
 
@@ -230,12 +230,12 @@ to 30 days. Consider creating a content schedule each month to ensure
 organizational and departmental communications are synced on a schedule
 that creates the ideal viewing experience.
 
-:::image type="content" source="../media/image22.png" alt-text="A screenshot of Viva Connections Resources." :::
+:::image type="content" source="../media/vc-resources.png" alt-text="Screenshot of Viva Connections Resources." :::
 
 - **Use organization news sites for authoritative news sources:** To
     make SharePoint sites "official" or "authoritative" you mark them as
     [organization news
-    sites](https://docs.microsoft.com/en-us/sharepoint/organization-news-site).
+    sites](/sharepoint/organization-news-site).
     You can specify up to 250 organization news sites to keep your
     partners, team, and colleagues in the loop with the information that
     is important to them. [Learn more about organizational
@@ -268,10 +268,10 @@ that creates the ideal viewing experience.
 :::row-end:::
 :::row:::
    :::column span="":::
-      :::image type="content" source="../media/image23.png" alt-text="A screenshot of the Viva Connections Resources tab on a cellphone." :::
+      :::image type="content" source="../media/resources-mobile.png" alt-text="Screenshot of the Viva Connections Resources tab on a cellphone." :::
    :::column-end:::
    :::column span="2":::
-      :::image type="content" source="../media/image24.png" alt-text="A screenshot of Viva Connections Resources as the desktop web part and the global navigation links." :::
+      :::image type="content" source="../media/resources-web-part.png" alt-text="A screenshot of Viva Connections Resources as the desktop web part and the global navigation links." :::
    :::column-end:::
 :::row-end:::
 
@@ -316,7 +316,7 @@ implemented sometime soon after the release of the first version.
 
   **Insights from needs assessment**|**Viva Connections component**|**Solution**|**Technical consideration**|**Priority level**|
   |---------------------------------|------------------------------|----------------|-----------------|------------|
-  Clock in and out| Dashboard  |      Use the Shifts card    |        |         1|
+  |Clock in and out| Dashboard  |      Use the Shifts card    |        |         1|
 |Get approvals    |Dashboard        |Use the Approvals card|        Need to set up the Teams Approval before launching this card |   1|
 |Submit IT tickets|Dashboard|Use the third-party card from ServiceNow||2|
 |Accessing HR benefits and payroll information|Dashboard and Resources|Use the ACE framework and add links to global navigation|Customized card should be used to call existing APIs  |1|
@@ -336,7 +336,7 @@ to craft the ideal viewing experience.
 
   **Card function**|**Roles impacted**|**Regions impacted**|**Card type**|**Desktop/mobile**|
   |---------------------------------|------------------------------|----------------|-----------------|------------|
-  Clock in and out| Nurses, nurse practitioners, custodial staff  |      All    |  Shifts card      |         Mobile|
+  |Clock in and out| Nurses, nurse practitioners, custodial staff  |      All    |  Shifts card      |         Mobile|
 |Approvals for purchase orders    |People managers and finance professionals        |All |       Approvals card |   Desktop|
 |Access to self-service HR benefits|Employees who work more than 30 hours a week |All|ACE framework|Desktop and mobile|
 |Work-life balance and wellness|All|All|Third party card|Desktop and mobile|

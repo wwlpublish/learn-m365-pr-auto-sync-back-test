@@ -1,7 +1,7 @@
 In the upcoming units, you'll learn about best practices, considerations, and technical details that will help you in the planning phase. The planning phase includes the following steps:
 
-![](../media/image1.png){width="6.5in" height="1.3947911198600176in"}
 
+:::image type="content" source="../media/workflow-plan-vc.png" alt-text="Diagram of the workflow of planning for Viva Connections." :::
 **Step 1**: Gather a team of stakeholders and meet technical
 requirements
 
