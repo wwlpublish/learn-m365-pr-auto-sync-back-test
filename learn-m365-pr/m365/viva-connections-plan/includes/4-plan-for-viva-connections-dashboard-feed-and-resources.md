@@ -297,7 +297,6 @@ large groups of roles and help solve known issues identified in the
 needs assessment. Then, technical team members provide feedback on how
 each experience could be implemented and other technical considerations.
 
-
 Next, the planning team determines the timeline and release schedule for
 the first version of Viva Connections. The first version will include
 the highest priority experiences. You know you will build on this
