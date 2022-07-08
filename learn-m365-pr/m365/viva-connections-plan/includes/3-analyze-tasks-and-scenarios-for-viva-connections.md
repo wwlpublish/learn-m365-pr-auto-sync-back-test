@@ -93,13 +93,13 @@ Viva Connections design strategy, answer the following for each task:**
 
 - What information needs to be promoted?
 
-:::image type="icon" source="../media/StoryTellingLogo200x200.png" :::
+:::image type="icon" source="../media/story-telling-logo-white-bg.png" :::
 
 ### Learn how Lamna Healthcare starts identifying needs
 
 :::row:::
    :::column span="":::
-      :::image type="icon" source="../media/lamna-logo-white-bg-200x200.jpg"  :::
+      :::image type="icon" source="../media/lamna-logo-white-bg-200.jpg"  :::
    :::column-end:::
    :::column span="2":::
       In preparation for Viva Connections, as the Internal Communications
@@ -144,19 +144,25 @@ Here are a few issues you have discovered across the organization:
 In addition, you
 discovered some role specific issues. For example:
 
-:::image type="content" source="../media/nicoletta.png" alt-text="work profile of Nicoletta with headshot and job title." ::: Nicoletta, a member of Lamna's janitorial staff, is an hourly paid
+:::image type="content" source="../media/-nicoletta.png" alt-text="work profile of Nicoletta with headshot and job title." ::: 
+
+Nicoletta, a member of Lamna's janitorial staff, is an hourly paid
 employee and claimed that clocking in and out of shifts was a tedious
 process for her due to having to complete it on a shared computer. Since
 the nature of her role requires her to travel throughout the hospital,
 the manual process takes up valuable time.
 
-:::image type="content" source="../media/christian.png" alt-text="work profile of Christian with head shot and job title." :::Christian is a
+:::image type="content" source="../media/-christian.png" alt-text="work profile of Christian with head shot and job title." :::
+
+Christian is a
 full-time pediatrician at your hospital, meaning she only needs to
 report her monthly absences and time off. She expressed that she finds
 it difficult to know exactly where to report her time off and which
 tools to use.
 
-:::image type="content" source="../media/diego.png" alt-text="work profile of Diego with head shot and job title." :::Diego is an IT
+:::image type="content" source="../media/-diego.png" alt-text="work profile of Diego with head shot and job title." :::
+
+Diego is an IT
 professional at Lamna, which requires him to move around the hospital to
 address help desk tickets submitted by hospital employees. Diego and his
 fellow team members explained that managing so many tickets while moving

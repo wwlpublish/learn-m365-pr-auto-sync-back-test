@@ -283,13 +283,13 @@ its own tab. One the desktop and web experiences, Resources can be
 accessed by selecting your organization's Viva Connections icon twice
 form the Teams app bar.
 
-:::image type="icon" source="../media/StoryTellingLogo200x200.png"  :::
+:::image type="icon" source="../media/story-telling-logo-white-bg.png"  :::
 
 ## Learn how Lamna Healthcare uses insights from the needs assessment
 
 :::row:::
    :::column span="":::
-      :::image type="icon" source="../media/lamna-logo-white-bg-200x200.jpg"  :::
+      :::image type="icon" source="../media/lamna-logo-white-bg-200.jpg"  :::
    :::column-end:::
    :::column span="2":::
       After conducting the needs assessment, you set up a meeting for the Viva
