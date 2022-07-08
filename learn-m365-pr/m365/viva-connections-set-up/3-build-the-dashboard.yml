@@ -13,3 +13,42 @@ metadata:
 durationInMinutes: 1
 content: |
   [!include[](includes/3-build-the-dashboard.md)]
+quiz:
+    title: Knowledge check for building the dashboard
+    questions:
+    - content: "What is the best out-of-box card to add for managing your team’s tasks?"
+      choices:
+      - content: "The Approvals card"
+        isCorrect: false
+        explanation: "The Approvals card is best used for time-off
+            requests and approving important documents, such as expense
+            reports. It is still an important card to add to your
+            Dashboard, though."
+      - content: "The Web Link card"
+        isCorrect: false
+        explanation: "The Web Link card is best used for accessing the
+            site without leaving the Viva Connections app."
+      - content: "The Assigned Tasks card"
+        isCorrect: true
+        explanation: "As its name suggests, the Assigned Tasks card
+            allows you to manage, assign, and track your team’s tasks.
+            It is the best out-of-box card to add to your Dashboard for
+            overseeing your team’s task workflow."
+    - content: "A team within your organization is facing issues with getting sign-off for projects. Their workflows aren’t streamlined, and they are having a hard time getting the sign-off they need from other teams. What kind of out-of-box card can you set up for this team to help with getting documents signed?"
+      choices:
+      - content: "Shifts card"
+        isCorrect: false
+        explanation: "A shift card is helpful for teams that need to
+            quickly clock-in and out and view their work schedules but
+            doesn’t support getting documents approved."
+      - content: "Approvals card"
+        isCorrect: true
+        explanation: "The approvals card connects to Approvals in
+            Microsoft Teams and helps streamline all of your requests
+            and processes, like getting project approval and document
+            sign-off."
+      - content: "Assigned Tasks card"
+        isCorrect: false
+        explanation: "As the name states, this card enables automatic
+            display of information to users about their assigned tasks
+            and is retrieved from the Tasks app in Teams."

@@ -57,16 +57,14 @@ without opening in a separate browser window.
 Only modern SharePoint sites and pages will display inside the Microsoft Teams experience. Classic sites and pages will open in a separate browser window. It is highly recommended that popular portals linked in global navigation (which will display as Resources in the mobile app) and to cards on the Dashboard are [modernized to create the best viewing experience](/sharepoint/dev/transform/modernize-classic-sites#:~:text=%20Modernize%20your%20classic%20SharePoint%20sites%20%201,site%20transformation%20is%20transforming%20your%20site...%20See%20More.).
 
 ### Lamna Healthcare
-:::row:::
-   :::column span="":::
-      :::image type="icon" source="../media/lamna-logo-white-bg-200x200.png"  :::
-   :::column-end:::
-   :::column span="2":::
-      In this module, let's imagine that you are the Internal Communications Manager at a large chain of regional hospitals, Lamna Healthcare. Your organization needs an employee experience tool for their various types of employees, such as physicians and surgeons, nurse practitioners, HR professionals, IT professionals, office administrators, and custodial staff.  
-   :::column-end:::
-:::row-end:::
+
+:::image type="icon" source="../media/lamna-logo-white-bg-200.png"  :::
+
+In this module, let's imagine that you are the Internal Communications Manager at a large chain of regional hospitals, Lamna Healthcare. Your organization needs an employee experience tool for their various types of employees, such as physicians and surgeons, nurse practitioners, HR professionals, IT professionals, office administrators, and custodial staff.  
+
 After carefully researching and examining existing platforms, executive leadership has decided that Viva Connections is an ideal solution since they already subscribe to Microsoft 365. Leadership has asked you to lead the deployment of Viva Connections along with a team of stakeholders that represent different roles.
-:::image type="icon" source="../media/story-telling-logo200x200.png"  :::
+
+:::image type="icon" source="../media/story-telling-logo-white-bg.png"  :::
 
 ### Learn how Lamna Healthcare meets requirements
 
