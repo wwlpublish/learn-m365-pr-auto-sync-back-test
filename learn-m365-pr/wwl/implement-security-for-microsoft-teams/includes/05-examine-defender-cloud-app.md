@@ -14,19 +14,19 @@ Microsoft Defender for Cloud Apps natively integrates with leading Microsoft sol
 
 Defender for Cloud Apps uses a four-stage framework:
 
-- **Discover and control the use of Shadow IT**: Identify the cloud apps, IaaS, and PaaS services used by your organization. Investigate usage patterns, assess the risk levels and business readiness of more than 16,000 SaaS apps and more than 80 risks.
+- **Discover and control the use of Shadow IT**: Identify the cloud apps, IaaS, and PaaS services used by your organization. Investigate usage patterns, assess the risk levels and business readiness of more than 25,000 SaaS apps against more than 80 risks. Start managing them to ensure security and compliance.
 
-- **Protect your sensitive information**: Understand, classify, and protect the exposure of sensitive information at rest. Use security policies and automated processes to apply controls in real time across all your cloud apps.
+- **Protect your sensitive information anywhere in the cloud**: Understand, classify, and protect the exposure of sensitive information at rest. Leverage out-of-the box policies and automated processes to apply controls in real time across all your cloud apps.
 
-- **Detect cyber threats and anomalies**: Detect unusual behavior across cloud apps to identify ransomware, compromised users, or rogue applications. Analyze high-risk usage and remediate automatically to limit the risk to your organization.
+- **Protect against cyberthreats and anomalies**: Detect unusual behavior across cloud apps to identify ransomware, compromised users or rogue applications, analyze high-risk usage and remediate automatically to limit the risk to your organization.
 
-- **Control the compliance of your cloud apps**: Assess if these cloud apps meet relevant requirements, including regulatory compliance and industry standards. Prevent data leaks to noncompliant apps, and limit access to regulated data.
+- **Assess the compliance of your cloud apps**: Assess if your cloud apps meet relevant compliance requirements including regulatory compliance and industry standards. Prevent data leaks to non-compliant apps, and limit access to regulated data.
 
 ## Architecture
 
 Defender for Cloud Apps provides:
 
-- **Cloud Discovery**: Analyzes your traffic logs against the Defender for Cloud Apps catalog of more than 16,000 cloud apps. Using more than 80 risk factors, the apps are ranked and scored to provide risk assessment reports.
+- **Cloud Discovery**: Using Cloud Discovery to map and identify your cloud environment and the cloud apps your organization is using.
 
 - **Sanction or unsanction apps**: Apps should be sanctioned or unsanctioned after you've reviewed the list of discovered apps in your environment. Secure your environment by approving or sanctioning safe apps or prohibiting or unsanctioning unwanted apps.
 
@@ -36,7 +36,7 @@ Defender for Cloud Apps provides:
 
 - **Policies**: Enables you to define the way you want users to behave in the cloud. You detect risky behavior, violations, or suspicious data points and activities in your cloud environment. If necessary, you can integrate remediation workflows to achieve complete risk mitigation.
 
-:::image type="content" source="../media/cloud-app-security.png" alt-text="Diagram showing the Defender for Cloud Apps being used in an organization":::
+:::image type="content" source="../media/cloud-app-security.png" alt-text="Diagram showing the Defender for Cloud Apps being used in an organization.":::
 
 ## Conditional Access App Control
 

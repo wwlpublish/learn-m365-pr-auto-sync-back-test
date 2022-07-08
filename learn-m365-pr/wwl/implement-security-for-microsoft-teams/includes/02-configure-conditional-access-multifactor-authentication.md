@@ -1,3 +1,4 @@
+
 When users connect to your Teams system using their device, they may inadvertently introduce security loopholes because of the apps and configurations present on that device. One approach to prevent such loopholes is to set policies that test devices and users, then decide on their level of access based on the results. You can implement such an approach by using Conditional Access in Microsoft Teams.
 
 ## Conditional Access
@@ -36,7 +37,7 @@ Following are sample steps to create a Conditional Access policy for users in Sa
 
 2. On the left pane, select **All services** and search for **Conditional access**, and then select **Azure AD Conditional Access**.
 
-3. On the **Conditional Access - Policies** page, select **New Policy.**
+3. On the **Conditional Access - Policies** page, select **+ New Policy** > **Create new Policy**.
 
 	:::image type="content" source="../media/conditional-access-new-policy.png" alt-text="Conditional Access New policy":::  
 
@@ -64,6 +65,4 @@ Following are sample steps to create a Conditional Access policy for users in Sa
 
 5. Enable policy by selecting **On** in the **Enable policy** section and then click **Create**.
 
-## Knowledge check
 
-Choose the best response for the following question. Then select “Check your answers.”

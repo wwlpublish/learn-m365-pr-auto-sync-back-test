@@ -6,7 +6,7 @@ Here, you'll learn how Safe Attachments can prevent malicious code from running 
 
 ## What is Safe Attachments?
 
-Safe Attachments for Microsoft Teams are a feature of  Microsoft Defender for Office 365. Safe Attachments helps detect and block files that are identified as malicious in Teams sites and document libraries.
+Safe Attachments for Microsoft Teams is a feature of  Microsoft Defender for Office 365. Safe Attachments helps detect and block files that are identified as malicious in Teams sites and document libraries.
 
 Microsoft Teams allows people to share files and collaborate, and Microsoft Defender for Office 365 allows users to collaborate in a safer way. The Microsoft Defender for Office 365 Safe Attachments feature protects your organization according to policies that are set by your global or security administrators.
 
