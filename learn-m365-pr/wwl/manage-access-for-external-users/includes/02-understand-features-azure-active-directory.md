@@ -2,7 +2,7 @@ Azure Active Directory (Azure AD), part of Microsoft Entra, is the cloud-based i
 
 You can use Azure AD to control access to your apps and your app resources, based on your business requirements. For example, you can use Azure AD to require multifactor authentication when accessing important organizational resources. Additionally, you can use Azure AD to automate user provisioning between your existing Windows Server AD and your cloud apps, including Microsoft 365. Finally, Azure AD gives you powerful tools to automatically help protect user identities and credentials and to meet your access governance requirements.
 
-:::image type="content" source="../media/microsoft-entra.png" alt-text="Microsoft Entra Admin center":::
+:::image type="content" source="../media/microsoft-entra.png" alt-text="Diagram that shows Microsoft Entra Admin center.":::
 
 ## Features in Azure AD
 
@@ -30,7 +30,7 @@ Microsoft Teams, SharePoint, and OneDrive are three of the most used ways to col
 
 Azure Active Directory (Azure AD) business-to-business (B2B) collaboration is a feature within External Identities that lets you invite guests to collaborate with your organization. With B2B collaboration, you can securely share Microsoft 365 applications and services with guests from any other organization, while maintaining control over your own corporate data.
 
-:::image type="content" source="../media/aad-b2b.png" alt-text="Azure Active Directory (Azure AD) business-to-business (B2B)":::
+:::image type="content" source="../media/azure-ad-b2b.png" alt-text="Diagram that shows Azure Active Directory (Azure A D) business-to-business (B 2 B).":::
 
 With Azure AD B2B, the partner uses their own identity management solution, so there is no external administrative overhead for your organization. Guests sign in to your apps and services with their own work, school, or social identities.
 
@@ -54,7 +54,7 @@ Azure Active Directory (Azure AD) entitlement management is an **identity govern
 
 With entitlement management, you can delegate access governance to these non-administrators because they're the ones who know which users need access, for how long, and to which resources. Delegating to non-administrators ensures the right people are managing access for their departments.
 
-:::image type="content" source="../media/delegate-admin-dept-managers.png" alt-text="Delegate from IT administrator to managers":::
+:::image type="content" source="../media/delegate-admin-dept-managers.png" alt-text="Diagram that shows Delegate from IT administrator to managers.":::
 
 
 
@@ -72,6 +72,6 @@ You can also control access to other resources that rely upon Azure AD security 
 * Access to manage Azure resources by using an Azure AD security group in an access package and creating an Azure role assignment for that group.
 * Access to manage Azure AD roles by using groups assignable to Azure AD roles in an access package and assigning an Azure AD role to that group.
 
-:::image type="content" source="../media/access-package.png" alt-text="Access package":::
+:::image type="content" source="../media/access-package.png" alt-text="Diagram that shows Access package.":::
 
 

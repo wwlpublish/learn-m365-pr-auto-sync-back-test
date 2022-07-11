@@ -41,7 +41,7 @@ Guests in Teams are covered by the same compliance and auditing protection as th
 |Immersive reader for messages|On|When **On**, guests can view messages in Immersive Reader; when **Off**, they can't.|
 
 
-:::image type="content" source="../media/teams-guest-access-setting.png" alt-text="Guest permissions settings in Teams" :::
+:::image type="content" source="../media/teams-guest-access-setting.png" alt-text="Screenshot of Guest permissions settings in Teams." :::
 
 ## Configure guest access 
 

@@ -44,7 +44,7 @@ Configuring external access for organizations includes:
 
 5. Turn on the **Allow users in my organization to communicate with Skype users** setting if you want to allow Teams users in your organization chat with and call Skype users.
 
-    :::image type="content" source="../media/enable-external-access.png" alt-text="Screenshot of external access for Teams accounts" :::
+    :::image type="content" source="../media/enable-external-access.png" alt-text="Screenshot of external access for Teams accounts." :::
 
 6. Select **Save**.
 

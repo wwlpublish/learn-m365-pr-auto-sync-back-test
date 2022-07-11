@@ -61,7 +61,7 @@ quiz:
     - content: "Enable Guest access in Azure AD"
       isCorrect: true
       explanation: "That's correct. Even if you activate Guest access in Teams, you must also ensure that Guest access is enabled in Azure AD."
-  - content: "As the Teams administrator for Contoso, Holly Dickson wants to enable collaboration and communication with authenticated users outside the organization. This will allow users to login using their own corporate account. Which of the following options should Holly set to enable access permission to users of an entire external domain?"
+  - content: "As the Teams administrator for Contoso, Holly Dickson wants to enable collaboration and communication with authenticated users outside the organization. This will allow users to log in using their own corporate account. Which of the following options should Holly set to enable access permission to users of an entire external domain?"
     choices:
     - content: "Guest access"
       isCorrect: false

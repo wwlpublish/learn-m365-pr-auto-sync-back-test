@@ -51,7 +51,7 @@ To configure the settings:
 
 7. Under **Collaboration restrictions**, you can choose whether to allow or deny invitations to the domains you specify and enter specific domain names in the text boxes. For multiple domains, enter each domain on a new line.
 
-	:::image type="content" source="../media/external-collaboration-settings.png" alt-text=" External collaboration settings in AAD":::
+	:::image type="content" source="../media/external-collaboration-settings.png" alt-text="Screenshot of external collaboration settings in Azure A D.":::
 
 
 ## Cross-tenant access settings 
@@ -67,19 +67,19 @@ The following are admin settings for B2B direct connect feature:
 
 * **Trust settings** (inbound) determine whether your Conditional Access policies will trust the multi-factor authentication (MFA), compliant device, and hybrid Azure AD joined device claims from an external organization if their users have already satisfied these requirements in their home tenants. 
 
-:::image type="content" source="../media/b2b-settings.png" alt-text=" B2B direct connect admin settings":::
+:::image type="content" source="../media/b2b-settings.png" alt-text="Diagram that shows B 2 B direct connect admin settings.":::
 
 ### Enable shared channels with all external organizations
-If your organization doesn't have a requirement to restrict collaboration with other organizations, enabling all organizations by default can save you time and complexity in managing each organization separately. For more information, see [enable shared channels with all external organizations](/microsoft-365/solutions/allow-direct-connect-with-all-organizations?view=o365-worldwide?azure-portal=true).
+If your organization doesn't have a requirement to restrict collaboration with other organizations, enabling all organizations by default can save you time and complexity in managing each organization separately. For more information, see [enable shared channels with all external organizations](/microsoft-365/solutions/allow-direct-connect-with-all-organizations?azure-portal=true).
 
 ### Enable shared channels with specific organizations
-If your organization have a requirement to restrict collaboration with specific organizations, you need to configure B2B direct connect for each organization that you want to collaborate with. Here are the high-level steps:
+If your organization has a requirement to restrict collaboration with specific organizations, you need to configure B2B direct connect for each organization that you want to collaborate with. Here are the high-level steps:
 
 * Add an organization.
 * Configure inbound settings for the organization to allow users from the organization to be invited to your shared channels.
 * Configure outbound settings for the organization to allow your users to be invited to the other organization's shared channels.
 
-For more information, see [collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect?view=o365-worldwide#configure-cross-tenant-access-settings-in-azure-ad?azure-portal=true).
+For more information, see [collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect?azure-portal=true#configure-cross-tenant-access-settings-in-azure-ad).
 
 ## Block guest access for individual groups and teams
 
@@ -93,22 +93,22 @@ If you want to allow guest access to most groups and teams, but have somewhere y
 
 2.	Run the following script, changing ```<GroupName>``` to the name of the group where you want to block guest access
 
-   ```PowerShell
-   $GroupName = "<GroupName>"
-   
-   Connect-AzureAD
-   
-   $template = Get-AzureADDirectorySettingTemplate | ? {$_.displayname -eq "group.unified.guest"}
-   $settingsCopy = $template.CreateDirectorySetting()
-   $settingsCopy["AllowToAddGuests"]=$False
-   $groupID= (Get-AzureADGroup -SearchString $GroupName).ObjectId
-   New-AzureADObjectSetting -TargetType Groups -TargetObjectId $groupID -DirectorySetting $settingsCopy
-   ```
+      ```PowerShell
+      $GroupName = "<GroupName>"
+      
+      Connect-AzureAD
+      
+      $template = Get-AzureADDirectorySettingTemplate | ? {$_.displayname -eq "group.unified.guest"}
+      $settingsCopy = $template.CreateDirectorySetting()
+      $settingsCopy["AllowToAddGuests"]=$False
+      $groupID= (Get-AzureADGroup -SearchString $GroupName).ObjectId
+      New-AzureADObjectSetting -TargetType Groups -TargetObjectId $groupID -DirectorySetting $settingsCopy
+      ```
 3.	To verify your settings, run this command:
 
-   ```PowerShell
-   Get-AzureADObjectSetting -TargetObjectId $groupID -TargetType Groups | fl Values
-   ```
+      ```PowerShell
+      Get-AzureADObjectSetting -TargetObjectId $groupID -TargetType Groups | fl Values
+      ```
 ### Use Sensitivity labels
 If you use sensitivity labels in your organization, it is recommended to use sensitivity labels to control guest access on a per-group basis as it’s available to users. 
 

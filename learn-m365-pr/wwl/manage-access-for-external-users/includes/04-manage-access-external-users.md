@@ -28,7 +28,7 @@ When you enable shared channels in Teams with another organization:
 * Your organization's custom (line of business) apps will be available in shared channels and external participants will be able to access them.
 * Your organization's apps list will be available in shared channels and external participants will be able to access them.
 
-    ‎:::image type="content" source="../media/shared-channel.png" alt-text="Share a shared channel with external users":::
+    ‎:::image type="content" source="../media/shared-channel.png" alt-text="Screenshot of sharing a shared channel with external users.":::
 
 ## Microsoft Purview compliance portal
 
@@ -83,12 +83,12 @@ You can use the SharePoint admin center to control:
 
 The following diagram shows how guest access authorization dependency is granted and integrated between Azure Active Directory, Microsoft 365, Teams, and SharePoint. This dependency means that if you disable guest access at any point in the chain every App down the line will inherit the restriction and you will not be able to create or let your users create new Teams.
 
-‎:::image type="content" source="../media/teams-guests-dependencies.png" alt-text=" Guest access authorization dependency":::
+‎:::image type="content" source="../media/teams-guests-dependencies.png" alt-text="Diagram that shows Guest access authorization dependency.":::
 
 ## Remove guest users 
 Guests can leave the team at any time from within Teams or the owners can manually remove the guest accounts from their teams.
 
-:::image type="content" source="../media/remove-guests.png" alt-text=" Remove guests from Teams client":::
+:::image type="content" source="../media/remove-guests.png" alt-text="Screenshot of removing guests from Teams client.":::
 
 However, leaving the team doesn't remove the guest account from your organization's directory. This must be done by a Microsoft 365 global admin or an Azure AD admin.
 
