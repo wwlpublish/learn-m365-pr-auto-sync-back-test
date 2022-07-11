@@ -2,7 +2,7 @@ Modern organizations deal with a great variety of endpoints, in larger numbers t
 
 Let’s take a look at endpoints in the Zero Trust journey:
 
-:::image type="content" source="../media/layers-that-make-up-zero-trust-endpoints.png" alt-text="Diagram showing the six layers that make up Zero Trust. Endpoints is highlighted.":::
+:::image type="content" source="../media/layers-that-make-up-zero-trust-endpoints.png" alt-text="Diagram showing the six layers that make up Zero Trust. Endpoints is highlighted." border="false":::
 
 Remember that Zero Trust requires adherence to the following security principles:
 

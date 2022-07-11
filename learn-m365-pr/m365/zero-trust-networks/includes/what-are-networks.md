@@ -5,7 +5,7 @@ Whether it’s a network in your home, coffee shop, or at work, they all use a s
 - A **switch** is the cornerstone of every network on the planet, allowing multiple devices to connect and communicate with each other, forming an individual network.
 - The **router** allows different types of networks to talk to each other.
 
-:::image type="content" source="../media/network-components.png" alt-text="Diagram showing multiple users/devices accessing a switch, which is connected to a router that links to the internet.":::
+:::image type="content" source="../media/network-components.png" alt-text="Diagram showing multiple users/devices accessing a switch, which is connected to a router that links to the internet." border="false":::
 
 ## What are private and public networks?
 
@@ -20,7 +20,7 @@ Networks allow different types of devices to communicate with each other. They c
 
 The client-server network assumes one or more servers receive requests from a variety of clients, which then send back an appropriate response, as shown in this diagram.
 
-:::image type="content" source="../media/client-server-network.png" alt-text="Diagram showing different types of clients, all making requests to a central server, and each receiving a response.":::
+:::image type="content" source="../media/client-server-network.png" alt-text="Diagram showing different types of clients, all making requests to a central server, and each receiving a response." border="false":::
 
 #### What is a client?
 

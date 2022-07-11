@@ -12,13 +12,13 @@ Let’s look at how this might apply to your home. It’s composed of a number o
 
 The diagram below shows a simplified rendering of a flat network. When an attacker gets onto your network, they can go anywhere.
 
-:::image type="content" source="../media/flat-network.png" alt-text="Diagram showing a simplified flat network structure with a single firewall protecting three servers.":::
+:::image type="content" source="../media/flat-network.png" alt-text="Diagram showing a simplified flat network structure with a single firewall protecting three servers." lightbox="../media/flat-network.png" border="false":::
 
 However, using segmentation, you can make sure that each room has a door that’s always locked and requires a unique key to unlock. If someone were to get into the house, the places they can visit are severely limited and require more effort, and time to access.
 
 The diagram below shows a simplified rendering of a segmented network. The cybercriminal will have to attack each segment in turn to access your data.
 
-:::image type="content" source="../media/segmented-network.png" alt-text="Diagram showing the simplified flat network now transformed to a segmented network, with three segments and a server within each.":::
+:::image type="content" source="../media/segmented-network.png" alt-text="Diagram showing the simplified flat network now transformed to a segmented network, with three segments and a server within each." lightbox="../media/segmented-network.png" border="false":::
 
 Network segmentation creates boundaries around critical operations or assets, in much the same way as you'd put your finance team in their own office. It improves the integrity of your network assets by ensuring that, even if your network is breached, the attacker can't reach the segmented areas.
 

@@ -2,7 +2,7 @@ Data protection is at the heart of a Zero Trust framework. Inadequately protecte
 
 We’re now at data in the Zero Trust journey. With a Zero Trust strategy, your organization can help ensure that its data is protected regardless of its type, or whether it’s in use, moving, or in long-term storage.
 
-:::image type="content" source="../media/zero-trust-banner-data.png" alt-text="Diagram showing the six pillars that make up Zero Trust: identity, endpoints, applications, networks, infrastructure, and data. Data is highlighted.":::
+:::image type="content" source="../media/zero-trust-banner-data.png" alt-text="Diagram showing the six pillars that make up Zero Trust: identity, endpoints, applications, networks, infrastructure, and data. Data is highlighted." border="false":::
 
 Remember that Zero Trust requires you to follow three security principles:
 

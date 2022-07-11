@@ -1,6 +1,6 @@
 Zero Trust is an end-to-end security strategy that monitors and controls the six main pillars of security: identity, endpoints, applications, network, infrastructure, and data.
 
-:::image type="content" source="../media/overview-of-zero-trust.png" alt-text="Diagram showing an overview of Zero Trust and its security pillars – identity, endpoints, applications, network, infrastructure, and data.":::
+:::image type="content" source="../media/overview-of-zero-trust.png" alt-text="Diagram showing an overview of Zero Trust and its security pillars – identity, endpoints, applications, network, infrastructure, and data." border="false":::
 
 The Zero Trust approach addresses the security concerns that emerge due to the evolving digital landscape. Today, nearly every organization has a mobile, remote or hybrid workforce, cloud applications, data stored in different environments, and devices enrolled from various locations. In the absence of a robust security model, all these factors can inadvertently lead to a major security breach.
 
@@ -8,7 +8,8 @@ In practice, the “trust no one and verify everything” rule suggests that eve
 
 ## Zero Trust principles
 
-:::image type="content" source="../media/key-principles-of-zero-trust.png" alt-text="Diagram showing the key principles of Zero Trust - verify explicitly, apply least privilege access, and assume breach.":::
+> [!div class="centered"]
+> :::image type="content" source="../media/key-principles-of-zero-trust.png" alt-text="Diagram showing the key principles of Zero Trust - verify explicitly, apply least privilege access, and assume breach." border="false":::
 
 The Zero Trust security framework operates on key principles that are applied across the security infrastructure to provide multiple layers of defense. The underlying principles of a Zero Trust framework are:
 

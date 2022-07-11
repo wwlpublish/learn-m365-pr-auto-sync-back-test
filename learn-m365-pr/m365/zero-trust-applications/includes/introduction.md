@@ -4,7 +4,7 @@ However, this means that, if a single app is compromised, the device, the user, 
 
 Let’s look at applications in the Zero Trust journey.
 
-:::image type="content" source="../media/layers-that-make-up-zero-trust-applications.png" alt-text="Diagram showing the six layers that make up Zero Trust. Applications is highlighted.":::
+:::image type="content" source="../media/layers-that-make-up-zero-trust-applications.png" alt-text="Diagram showing the six layers that make up Zero Trust. Applications is highlighted." border="false":::
 
 Remember that Zero Trust requires you to apply the following security principles:
 

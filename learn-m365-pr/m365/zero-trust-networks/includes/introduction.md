@@ -10,7 +10,7 @@ Zero Trust isn't a tool, but a security model that employs three principles:
 - **Use the least privilege** – provide only enough network access to enable users, services, and apps to do what they need, and only when they need it.
 - **Assume breach** – assume that everyone and everything trying to access your network is a cybercriminal or malware, and limit access.
 
-:::image type="content" source="../media/zero-trust-banner-networks.png" alt-text="Diagram showing the six pillars that comprise Zero Trust: identity, endpoints, applications, network, infrastructure, and data. Network is highlighted.":::
+:::image type="content" source="../media/zero-trust-banner-networks.png" alt-text="Diagram showing the six pillars that comprise Zero Trust: identity, endpoints, applications, network, infrastructure, and data. Network is highlighted." border="false":::
 
 A network following Zero Trust principles assumes that cyberattack breaches are inevitable and that each network access request comes from an untrusted source. Working on this principle, Zero Trust lets you build a strong defense towards attacks before they happen and minimizes the effects of a malicious attack.
 

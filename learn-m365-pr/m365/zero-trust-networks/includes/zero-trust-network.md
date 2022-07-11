@@ -19,7 +19,7 @@ To achieve these objectives, a network that adheres to the Zero Trust model make
 
 Every organization will be at a different level of maturity when it comes to network security. Within Zero Trust, there's a maturity model that lets you know where you are. It has three categories: traditional, advanced, and optimal. Most organizations will be somewhere between traditional and advanced.
 
-:::image type="content" source="../media/zero-trust-network-maturity-model.png" alt-text="Diagram showing the three progressive stages of the Zero Trust maturity model: traditional, advanced, and optimal.":::
+:::image type="content" source="../media/zero-trust-network-maturity-model.png" alt-text="Diagram showing the three progressive stages of the Zero Trust maturity model: traditional, advanced, and optimal." border="false":::
 
 ### Traditional
 
