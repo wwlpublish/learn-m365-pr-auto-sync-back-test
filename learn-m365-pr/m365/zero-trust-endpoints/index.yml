@@ -2,7 +2,7 @@
 uid: learn-m365.zero-trust-endpoints
 metadata:
   moduleType: standard
-  title: Recognize Endpoints
+  title: Recognize Endpoints in Zero Trust
   description: "Learn how to use Zero Trust to secure endpoints to protect your organization and its users."
   ms.date: 06/22/2022
   author: beccarobins
