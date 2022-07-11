@@ -10,7 +10,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Identities in Zero Trust
-summary: With the advent of cloud applications, and the increase in employees working remotely, or bringing their own devices, it's critical to verify identities with strong authentication and ensure access is compliant. 
+summary: With the advent of cloud applications and the increase in employees working remotely, or bringing their own devices, it's critical to verify identities with strong authentication and ensure access is compliant.
 abstract: |
   By the end of this module, you'll be able to:
     - Describe identities in Zero Trust.
