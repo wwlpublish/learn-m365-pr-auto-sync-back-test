@@ -2,7 +2,7 @@
 uid: learn-m365.zero-trust-identities
 metadata:
   moduleType: standard
-  title: Identities in Zero Trust
+  title: Describe identities in Zero Trust
   description: With the advent of cloud applications, and the increase in employees working remotely, or bringing their own devices, it's critical to verify identities with strong authentication and ensure access is compliant. 
   ms.date: 06/22/2022
   author: beccarobins
