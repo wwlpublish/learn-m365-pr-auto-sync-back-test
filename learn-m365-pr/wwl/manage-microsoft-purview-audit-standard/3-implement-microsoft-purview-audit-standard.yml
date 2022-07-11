@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-purview-audit-standard.implement-microsoft-purview-audit-standard
+title: Implement Microsoft Purview Audit (Standard)
+metadata:
+  title: Implement Microsoft Purview Audit (Standard)
+  description: "Implement Microsoft Purview Audit (Standard)"
+  ms.date: 07/11/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-implement-microsoft-purview-audit-standard.md)]
