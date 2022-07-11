@@ -23,7 +23,7 @@ preview the experience and then publish to make it available to others.
 
 :::image type="content" source="../media/workflow-create-dashboard-card.png" alt-text="Diagram of workflow to create a dashboard card." :::
 
-### How to create the Dashboard
+## How to create the Dashboard
 
 Start from your organization’s home site. Add cards and preview the
 experience as you build. [Learn more about creating a
@@ -148,7 +148,7 @@ resources, and workflows are functioning properly before the experience
 is rolled out to the entire organization. To get the environment ready
 to test, you publish the Dashboard.
 
-### Create custom Dashboard cards
+## Create custom Dashboard cards
 
 Cards on the Dashboard can be customized to fit the unique needs of your organization. There are two ways cards can be customized – using the [Card designer card](/viva/connections/create-dashboard#design-your-own-card-with-a-quick-view) or using the SharePoint Framework. Card designer enables users to create custom cards with JSON configuration and SharePoint Framework cards require custom code. Card Designer cards can be used to show static information and the code driven SharePoint Framework cards enable you to connect to external systems and information using Microsoft Graph or other APIs hosted in Microsoft Azure. Card can also take advantage of the Quick View option to render the most common operations or information directly in the dashboard without forcing user to move to a specific application.**Here are three examples of custom cards with quick views:
 
@@ -185,7 +185,7 @@ details on the ACE card extensibility options from this module.
 
 :::image type="icon" source="../media/story-telling-logo-white-bg.png"  :::
 
-## Learn how Lamna Healthcare uses custom cards
+### Learn how Lamna Healthcare uses custom cards
 
 You have added several out-of-the-box cards that connect to Teams apps
 and other links. However, the current list of out-of-box cards does not
@@ -207,7 +207,7 @@ in the planning phase. It's expected that this custom card will reduce
 the volume of requests to the HR team so that they have more time to
 focus on higher impact work.
 
-### Connect third-party tools to cards on the Dashboard
+## Connect third-party tools to cards on the Dashboard
 
 Within your Viva Connections Dashboard, you will have the option to add
 third-party tools and applications to services that help manage payroll,
@@ -239,3 +239,20 @@ third-party card will display in the card toolbox while in edit-mode on
 the Dashboard. Next, you can add the third-party card, apply audiences,
 and preview the experience before sharing with
 others.
+
+## Preview the Dashboard before sharing it with others
+
+While you are creating or editing the Dashboard, you can preview the
+experience on different devices and for different audiences before
+publishing.
+
+:::image type="content" source="../media/preview-dashboard.png" alt-text="Screenshot of previewing the dashboard." :::
+
+From the Dashboard, select **Preview**. Then, **Select audiences to
+preview as** to view the Dashboard for different audiences that were
+targeted to cards. Cards that have not been targeted will be seen by the
+entire organization. After selecting an audience, toggle between the
+**Mobile** and **Desktop** views.
+
+When you are done previewing, select **Close
+preview**.

@@ -74,3 +74,25 @@ quiz:
       - content: "Adaptive card extensions allow end users to make personalized customizations to their Dashboard layout."
         isCorrect: false
         explanation: "Adaptive card extensions is a developer tool, not an end user customization tool. "
+    - content: "Your organization wants to add a third-party card to the Dashboard. Do editors of the home site and Viva Connections Dashboard have permission to get the third-party card on their own?"
+      choices:
+      - content: "Yes. Viva Connections editors can request any third-party app. "
+        isCorrect: false
+        explanation: "For AppSource, you can request to add the app, but you need to be a global admin to approve the API (Application Programming Interfaces) request. For the SharePoint Store, you will need approval from a tenant admin to approve app catalog request "
+      - content: "No. Editor permissions to the home site and Viva Connections Dashboard are not high-enough permission level to request the third-party card on your own. "
+        isCorrect: true
+        explanation: "For AppSource, you can request to add the app, but you need to be a global admin to approve the API request. For the SharePoint Store, you will need approval from a tenant admin to approve app catalog request."
+      - content: "Yes, but only for some third-party apps."
+        isCorrect: false
+        explanation: "For AppSource, you can request to add the app, but you need to be a global admin to approve the API request. For the SharePoint Store, you will need approval from a tenant admin to approve app catalog request."
+    - content: "Lamna Healthcare uses Qualtrics to collect feedback from their employees to gauge moral and satisfaction. When setting up the Dashboard, how can you add a card to link to these surveys?"
+      choices:
+      - content: "An out-of-box card"
+        isCorrect: false
+        explanation: "A Link card could be used, but the experience would display in a browser window instead of inside Microsoft Teams. You can add the Qualtrics Feedback app from the SharePoint store to the Dashboard of Viva Connections."
+      - content: "An ACE Dashboard Card"
+        isCorrect: false
+        explanation: "ACE cards are fully customized cards that connect employees with experiences unique to your organization. You can add the Qualtrics Feedback app from the SharePoint store to the Dashboard of Viva Connections."
+      - content: "A third-party card"
+        isCorrect: true
+        explanation: "With a third-party card, you can integrate with other applications, even if they are not a Microsoft app."
