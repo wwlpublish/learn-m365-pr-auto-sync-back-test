@@ -24,7 +24,7 @@ quiz:
       explanation: "That's incorrect. Identifying your attack surface can help you to investigate useful features for protection but attack surface isn't a feature itself. Instead, think about all the endpoints in an organization. Cybercriminals can exploit a single endpoint, so how would you define its collective endpoints?"
     - content: "It describes the detailed recommended settings for security to stop an ongoing attack."
       isCorrect: false
-      explanation: "That's incorrect. it doesn't describe settings. Instead, focus on endpoints. Organizations have many endpoints that a cybercriminal can potentially exploit. How would you define its collective endpoints based on this threat?"
+      explanation: "That's incorrect. An attack surface doesn't describe settings. Instead, focus on endpoints. Organizations have many endpoints that a cybercriminal can potentially exploit. How would you define its collective endpoints based on this threat?"
   - content: "Why should you register your endpoints with a cloud identity provider?"
     choices:
     - content: "This enables your organization to update device configurations using compliance policies."

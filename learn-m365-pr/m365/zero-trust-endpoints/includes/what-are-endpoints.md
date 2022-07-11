@@ -10,7 +10,7 @@ In short, endpoints vary widely in type, ownership, and management.
 
 ## What is an attack surface?
 
-Cybercriminals will try to use any endpoint to carry out attacks. This means that all the endpoints can potentially be compromised for malicious purposes since they are *attack vectors*. *Attack surface* refers to the collection of these threat vectors. Let’s look at how the use of endpoints can result in a pervasive and encompassing attack surface:
+Cybercriminals will try to use _any_ endpoint to carry out attacks. This means that _all_ endpoints can potentially be compromised for malicious purposes since they are *attack vectors*. *Attack surface* refers to the collection of these threat vectors. Let’s look at how the use of endpoints can result in a pervasive and encompassing attack surface:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWPb1R]
 

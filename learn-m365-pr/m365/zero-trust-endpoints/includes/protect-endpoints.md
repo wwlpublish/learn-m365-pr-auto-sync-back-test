@@ -7,8 +7,6 @@ To successfully secure endpoints, an organization should achieve the following:
 - Automatically and rapidly respond to security incidents and prevent organizational data from being extracted from endpoints.
 - The presence of an access control system that only allows access to data through policy controls.
 
-To successfully take a Zero Trust stance, your organization needs to carry out the following measures:
-
 ## Register endpoints with cloud identity providers
 
 Organizations need to monitor and secure endpoints in a way that encompasses all the endpoints that are used by everyone. This means that your organization must be able to see and manage access to the endpoints that could be used to reach its resources.  

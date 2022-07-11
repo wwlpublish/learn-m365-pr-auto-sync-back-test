@@ -1,4 +1,4 @@
-Modern organizations deal with a great variety of endpoints, in larger numbers than ever before. They all require access to carry out a task, or enable users to do their daily work. Following the recent increase in remote working, there’s now a greater need for endpoints to have secure access from wherever, and whenever, it’s required.
+Modern organizations deal with a great variety of endpoints, in larger numbers than ever before. They all require access to carry out a task or enable users to do their daily work. Following the recent increase in remote working, there’s now a greater need for endpoints to have secure access from wherever and whenever it’s required.
 
 Let’s take a look at endpoints in the Zero Trust journey:
 
