@@ -1,14 +1,13 @@
 Once you’ve got the home site set up, you can build the Dashboard. In
 this unit, you’ll learn how to [create a
-Dashboard](https://docs.microsoft.com/en-us/viva/connections/create-dashboard),
+Dashboard](/viva/connections/create-dashboard),
 use different kinds of cards, [apply audience
-targeting](https://docs.microsoft.com/en-us/viva/connections/use-audience-targeting-in-viva-connections#apply-audience-targeting-to-cards-in-the-dashboard),
+targeting](/viva/connections/use-audience-targeting-in-viva-connections#apply-audience-targeting-to-cards-in-the-dashboard),
 preview the experience and then publish to make it available to others.
 
-<img src="./media/image6.png" style="width:4.21875in;height:2.3125in"
-alt="Graphical user interface, application Description automatically generated" />
+:::image type="content" source="../media/select-dashboard-card.png" alt-text="Screenshot of selecting a dashboard card." :::
 
-### Summary of steps to create the Dashboard:
+### Summary of steps to create the Dashboard
 
 1.  Choose and add cards to the Dashboard in edit mode.
 
@@ -22,17 +21,13 @@ alt="Graphical user interface, application Description automatically generated" 
 4.  Publish the Dashboard after previewing it to make it available to
     end users.
 
-<img src="./media/image7.png" style="width:6.5in;height:2.42569in"
-alt="Graphical user interface, text Description automatically generated" />
+:::image type="content" source="../media/workflow-create-dashboard-card.png" alt-text="Diagram of workflow to create a dashboard card." :::
 
 ### How to create the Dashboard
 
 Start from your organization’s home site. Add cards and preview the
 experience as you build. [Learn more about creating a
-Dashboard](https://docs.microsoft.com/en-us/viva/connections/create-dashboard).
-
-*\[Will add “creating Dashboard” video Holland is working on at the end
-of July here\]*
+Dashboard](/viva/connections/create-dashboard).
 
 1.  Go to your home site and select **Settings**.
 
@@ -57,7 +52,7 @@ Best practices while building the Dashboard include:
     so.
 
 -   **[Target audiences for the cards you
-    select](https://docs.microsoft.com/en-us/viva/connections/use-audience-targeting-in-viva-connections).**
+    select](/viva/connections/use-audience-targeting-in-viva-connections).**
     This is a key step that ensures the right audience receives the
     right information. Without targeting audiences, you risk not
     providing information end users need to carry out their jobs
@@ -70,8 +65,7 @@ Best practices while building the Dashboard include:
 
 ### Choosing cards for the Dashboard
 
-<img src="./media/image8.png"
-style="width:4.18077in;height:3.57657in" />
+:::image type="content" source="../media/dashboard-cards.png" alt-text="Screenshot of a dashboard." :::
 
 Out-of-the-box cards are cards that have already been configured for the
 Dashboard. They make it easy to link to a SharePoint site, to an app in
@@ -106,8 +100,8 @@ site owner of the home site to create the Viva Connections Dashboard.
 The planning team has organized the top scenarios that will be supported
 by Viva Connections Dashboard so you can easily implement the design.
 
-| **Card function**                                                      | **Roles impacted**                                                   | **Regions impacted** | **Card type**    | **Desktop/mobile** |
-|------------------------------------------------------------------------|----------------------------------------------------------------------|----------------------|------------------|--------------------|
+| **Card function**    | **Roles impacted**      | **Regions impacted** | **Card type**    | **Desktop/mobile** |
+|-------------------------|------------------|----------------------|------------------|--------------------|
 | Clock in and out                                                       | Hourly paid employees                                                | All                  | Shifts card      | Mobile             |
 | Approvals for purchase orders                                          | People managers and finance professionals                            | All                  | Approvals card   | Desktop            |
 | Access to self-service HR benefits                                     | Employees who work more than 30 hours a week                         | All                  | ACE framework    | Desktop and mobile |
@@ -156,44 +150,42 @@ to test, you publish the Dashboard.
 
 ### Create custom Dashboard cards
 
-| Cards on the Dashboard can be customized to fit the unique needs of your organization. There are two ways cards can be customized – using the [Card designer card](https://docs.microsoft.com/en-us/viva/connections/create-dashboard#design-your-own-card-with-a-quick-view) or using the SharePoint Framework . Card designer enables users to create custom cards with JSON configuration and SharePoint Framework cards require custom code. Card Designer cards can be used to show static information and the code driven SharePoint Framework cards enable you to connect to external systems and information using Microsoft Graph or other APIs hosted in Microsoft Azure. Card can also take advantage of the Quick View option to render the most common operations or information directly in the dashboard without forcing user to move to a specific application.**Here are three examples of custom cards with quick views:
+Cards on the Dashboard can be customized to fit the unique needs of your organization. There are two ways cards can be customized – using the [Card designer card](/viva/connections/create-dashboard#design-your-own-card-with-a-quick-view) or using the SharePoint Framework. Card designer enables users to create custom cards with JSON configuration and SharePoint Framework cards require custom code. Card Designer cards can be used to show static information and the code driven SharePoint Framework cards enable you to connect to external systems and information using Microsoft Graph or other APIs hosted in Microsoft Azure. Card can also take advantage of the Quick View option to render the most common operations or information directly in the dashboard without forcing user to move to a specific application.**Here are three examples of custom cards with quick views:
 
 |**Scheduling time off** | **Keep track of inventory**                 | **Open enrollment for benefits**            |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|---------------------------------------------|
-| <img src="./media/image9.png" style="width:1.58333in;height:4.3125in">     | <img src="./media/image10.png" style="width:1.81679in;height:4.41548in" />  | <img src="./media/image11.png" style="width:1.66692in;height:4.48958in" />  |
+|-----|-------------------------------|---------------------------------------------|
+|:::image type="content" source="../media/time-off-customized-card.png" alt-text="Screenshot of a time-off card." :::  | :::image type="content" source="../media/inventory-card.png" alt-text="Screenshot of an inventory card." ::: |   :::image type="content" source="../media/benefits-card.png" alt-text="Screenshot of a benefit open enrollment card." :::|
 
-### Get started using the Card designer card:
+### Get started using the Card designer card
 
-<img src="./media/image12.png"
-style="width:4.87525in;height:3.07655in" />
+:::image type="content" source="../media/card-designer.png" alt-text="Screenshot of the card designer." :::
 
 You can choose the [Card designer from the card toolbox on the
-Dashboard](https://docs.microsoft.com/en-us/viva/connections/create-dashboard#design-your-own-card-with-a-quick-view)
+Dashboard](/viva/connections/create-dashboard#design-your-own-card-with-a-quick-view)
 to design your own card that includes a quick view. To do this, you
 should be familiar with [JSON and Adaptive Card
-templates](https://docs.microsoft.com/en-us/adaptive-cards/templating/).
+templates](/adaptive-cards/templating/).
 For more information, see Adaptive Cards Templating.
 
-### Get started creating ACE cards:
+### Get started creating ACE cards
 
 [Use this toolkit to help you design custom
-cards](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/viva/design/design-intro)
+cards](/sharepoint/dev/spfx/viva/design/design-intro)
 for your Dashboard. You'll learn the structure of cards, how users can
 interact with them, and the design principles to help you make them
 attractive and engaging for mobile and desktop.
-[Review](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/viva/get-started/actions/geolocation/geolocationdocumentation)
+[Review](/sharepoint/dev/spfx/viva/get-started/actions/geolocation/geolocationdocumentation)
 the different capabilities of ACE cards and get familiar with how to use
 [in](https://adaptivecards.io/designer/) the Adaptive card designer.
 Next, [build your first adaptive
-card](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/viva/get-started/build-first-sharepoint-adaptive-card-extension).
+card](/sharepoint/dev/spfx/viva/get-started/build-first-sharepoint-adaptive-card-extension).
 
 Viva Connections offers a variety of extensibility solutions. See more
 details on the ACE card extensibility options from this module.
 
-<img src="./media/image4.png"
-style="width:0.47778in;height:0.47778in" />
+:::image type="icon" source="../media/story-telling-logo-white-bg.png"  :::
 
-## Learn how Lamna Healthcare uses custom cards:
+## Learn how Lamna Healthcare uses custom cards
 
 You have added several out-of-the-box cards that connect to Teams apps
 and other links. However, the current list of out-of-box cards does not
@@ -215,62 +207,35 @@ in the planning phase. It's expected that this custom card will reduce
 the volume of requests to the HR team so that they have more time to
 focus on higher impact work.
 
-[**Knowledge Check:**](mailto:Holland.Kaviani@microsoft.com)
+### Connect third-party tools to cards on the Dashboard
 
-1.  1.  1.  
-
-    <!-- -->
-
-    1.  1.  
-
-    2.  1.  
-
-2.  1.  1.  
-
-    <!-- -->
-
-    1.  1.  
-
-    <!-- -->
-
-    2.  1.  
-
-## [A nurse with low-vision at Lamna Healthcare has expressed concerns with the accessibility of her “Shuttle Schedule” card, a custom card that developers created to provide shuttle schedule information for employees. She says she is having problems accessing the card on her phone. How can you best accommodate the nurse’s concerns about the usability of this custom card?Consult your organization’s accessibility experts.Incorrect. Although this is generally good practice, custom cards will need to be built with accessibility in mind and will need the help of the technical team.Consult the developer who created the “Benefits and Payroll” card and your accessibility specialist.Correct. Your accessibility specialists can provide guidelines to the developer to make sure the card is accessible on all devices.Create a new Dashboard just for her.Incorrect. Although the accessibility of the shuttle card might be the primary problem, it does not mean the entire Dashboard needs to be tossed or reconfigured.Which statement about adaptive extension cards below is true?Adaptive card extensions make it easier for users to access Viva Connections.Incorrect. Adaptive extension cards allow developers to create custom cards for users. Once they are created, users will access them like other out-of-box cards. Adaptive card extensions allow developers to create custom cards with quick views that include functionality specific for the organization. Correct. Unlike out-of-the-box cards, adaptive card extensions are not built in. Rather, they are custom-made to allow employees to complete critical and complicated tasks, on the Dashboard.Adaptive card extensions allow end users to make personalized customizations to their Dashboard layout.Incorrect. Adaptive card extensions is a developer tool, not an end user customization tool. Connect third-party tools to cards on the Dashboard:](mailto:Holland.Kaviani@microsoft.com)
-
-[Within your Viva Connections Dashboard, you will have the option to add
+Within your Viva Connections Dashboard, you will have the option to add
 third-party tools and applications to services that help manage payroll,
 IT tickets, and wellness in the workplace. Third-party services are
-outside of the Microsoft 365 suite. [Review third-party integrations
-that are available for
-Viva](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)
-Connections.](mailto:Holland.Kaviani@microsoft.com)
+outside of the Microsoft 365 suite. Review [third-party integrations](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration) that are available for Viva Connections.
 
-[Third party tools and services can be incorporated into the Viva
+Third party tools and services can be incorporated into the Viva
 Connection dashboard using the [Microsoft
-AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=sharepoint)
-, from the [SharePoint
-store](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289)
-or directly from the third-party
-developer.](mailto:Holland.Kaviani@microsoft.com)
+AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=sharepoint), from the [SharePoint store](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289)
+or directly from the third-party developer.
 
-[<img src="./media/image4.png"
-style="width:0.47778in;height:0.47778in" />](mailto:Holland.Kaviani@microsoft.com)
+:::image type="icon" source="../media/story-telling-logo-white-bg.png"  :::
 
-## [Learn how Lamna Healthcare uses third-party cards](mailto:Holland.Kaviani@microsoft.com)
+### Learn how Lamna Healthcare uses third-party cards
 
-[During the needs assessment, the planning team has identified a large
+During the needs assessment, the planning team has identified a large
 demand for a tool that can help with work-life balance and wellness in
 the workplace. Currently, Lamna Healthcare offers well-being benefits
 through healthcare services, but would like to offer more options for
 people in the flow of work. After researching and comparing existing
 tools, the leadership has decided to enroll in services from a
-third-party wellness app.](mailto:Holland.Kaviani@microsoft.com)
+third-party wellness app.
 
-[You know that once a service plan has been established, this new
+You know that once a service plan has been established, this new
 resource can be displayed as a card on the Dashboard. A member of the
 planning team works with you and SharePoint admin to get the third-party
 card from the SharePoint store. Once it's been provisioned, the
 third-party card will display in the card toolbox while in edit-mode on
 the Dashboard. Next, you can add the third-party card, apply audiences,
 and preview the experience before sharing with
-others.](mailto:Holland.Kaviani@microsoft.com)
+others.

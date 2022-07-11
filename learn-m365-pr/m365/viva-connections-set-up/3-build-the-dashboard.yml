@@ -52,3 +52,25 @@ quiz:
         explanation: "As the name states, this card enables automatic
             display of information to users about their assigned tasks
             and is retrieved from the Tasks app in Teams."
+    - content: "A nurse with low-vision at Lamna Healthcare has expressed concerns with the accessibility of her “Shuttle Schedule” card, a custom card that developers created to provide shuttle schedule information for employees. She says she is having problems accessing the card on her phone. How can you best accommodate the nurse’s concerns about the usability of this custom card?"
+      choices:
+      - content: "Consult your organization’s accessibility experts."
+        isCorrect: false
+        explanation: "Although this is generally good practice, custom cards will need to be built with accessibility in mind and will need the help of the technical team."
+      - content: "Consult the developer who created the “Shuttle Schedule” card and your accessibility specialist."
+        isCorrect: true
+        explanation: "Your accessibility specialists can provide guidelines to the developer to make sure the card is accessible on all devices."
+      - content: "Create a new Dashboard just for her."
+        isCorrect: false
+        explanation: "Although the accessibility of the shuttle card might be the primary problem, it does not mean the entire Dashboard needs to be tossed or reconfigured."
+    - content: "Which statement about adaptive extension cards below is true?"
+      choices:
+      - content: "Adaptive card extensions make it easier for users to access Viva Connections."
+        isCorrect: false
+        explanation: "Adaptive extension cards allow developers to create custom cards for users. Once they are created, users will access them like other out-of-box cards. "
+      - content: "Adaptive card extensions allow developers to create custom cards with quick views that include functionality specific to the organization. "
+        isCorrect: true
+        explanation: "Unlike out-of-the-box cards, adaptive card extensions are not built in. Rather, they are custom-made to allow employees to complete critical and complicated tasks, on the Dashboard."
+      - content: "Adaptive card extensions allow end users to make personalized customizations to their Dashboard layout."
+        isCorrect: false
+        explanation: "Adaptive card extensions is a developer tool, not an end user customization tool. "
