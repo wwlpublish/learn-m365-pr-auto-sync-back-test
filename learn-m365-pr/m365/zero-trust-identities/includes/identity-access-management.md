@@ -1,4 +1,4 @@
-Access management begins with a secure identity. Using the Zero Trust framework, this means you apply least privileged access, by assigning the fewest permissions to authorized users. Securing identities and managing access is, therefore, unified into one identity and access management system.
+Access management begins with a secure identity. Using the Zero Trust framework, this means you apply least privileged access by assigning the fewest permissions to authorized users. Securing identities and managing access is, therefore, unified into one identity and access management system.
 
 ## How does identity and access management work?
 
@@ -6,7 +6,7 @@ An identity and access management system is a vital security layer. It’s cruci
 
 - Password management tools.
 - Employee database systems.
-- On-premises and cloud applications.
+- On-premise and cloud applications.
 
 ## Compliant identification
 
@@ -49,5 +49,5 @@ The way in which we work today has changed and is continuing to evolve. More use
 An effective least privilege access management solution ensures:
 
 - **Correct level of access**. Users will only have an appropriate level of access to do their jobs. It also enables the identification of activities linked to privilege misuse.
-- **Secure endpoints**. Every single endpoint—from IoT devices to smartphones, BYOD to partner-managed devices, and on-premises workloads to cloud-hosted servers—contains privilege by default. If attackers get hold of an admin account, they can easily go from one endpoint to another to cause more damage. When least privilege access management is in place, it enables IT teams to remove the local administrative rights to mitigate the risk.
+- **Secure endpoints**. Every single endpoint—from IoT devices to smartphones, bring your own device (BYOD) to partner-managed devices, and on-premises workloads to cloud-hosted servers—contains privilege by default. If attackers get hold of an admin account, they can easily go from one endpoint to another to cause more damage. When least privilege access management is in place, it enables IT teams to remove the local administrative rights to mitigate the risk.
 - **Effective compliance**. Organizations will remain vulnerable if privileged access isn't monitored and managed. A successful privilege access management solution enables organizations to track and record all activities related to critical data and IT assets and ensures regulatory compliance.
