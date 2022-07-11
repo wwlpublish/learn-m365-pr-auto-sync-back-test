@@ -54,7 +54,7 @@ To configure end-to-end encryption using the Teams admin center:
 
 4.  To enable end-to-end encryption for your users, for End-to-end call encryption, choose **Off, but users can turn it on**, and then choose Save.
 
-    :::image type="content" source="../media/encryption-policies.png" alt-text="Screenshot of the Enhanced encryption policies in Teams admin center":::
+    :::image type="content" source="../media/encryption-policies.png" alt-text="Screenshot of the Enhanced encryption policies in Teams admin center.":::
 
 Once you’ve finished setting up the policy, assign the policy to users, groups, or your entire tenant the same way you manage other Teams policies.  
   
@@ -88,4 +88,4 @@ Before the call, both users must turn on E2EE from the Teams client:
 
 2.  Select **Privacy** on the left and then select the toggle next to **End-to-end encrypted calls** to turn it on.  
       
-    :::image type="icon" source="../media/encryption-client.png" alt-text="Screenshot of the end to end encryptioed calls setting in Teams client":::
+    :::image type="icon" source="../media/encryption-client.png" alt-text="Screenshot of the end to end encryptioed calls setting in Teams client.":::

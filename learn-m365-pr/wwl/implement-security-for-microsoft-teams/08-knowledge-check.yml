@@ -61,7 +61,7 @@ quiz:
     - content: "Detect"
       isCorrect: false
       explanation: "That's incorrect. This stage detects unusual behavior across cloud apps to identify ransomware, compromised users, or rogue applications. It analyzes high-risk usage and remediates automatically to limit the risk to the organization."
-  - content: "Which feature of the Microsoft Defender for Cloud Apps architecture analyzes your traffic logs against the Microsoft Defender for Cloud Apps catalog of more than 16,000 cloud apps and, using more than 80 risk factors, provides risk assessment reports."
+  - content: "Which feature of the Microsoft Defender for Cloud Apps architecture analyzes your traffic logs against the Microsoft Defender for Cloud Apps catalog of more than 16,000 cloud apps and provides risk assessment reports?"
     choices:
     - content: "Conditional Access App Control"
       isCorrect: false

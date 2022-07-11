@@ -29,7 +29,7 @@ After you turn on Safe Links protection for Microsoft Teams, URLs in Teams are c
 
 If the user who sent the link isn't included in a Safe Links policy where Teams protection is enabled, the user is free to click through to the original URL on their computer or device.
 
-:::image type="icon" source="../media/safe-links-for-teams-malicious-message.png" alt-text="A Safe Links for Teams page reporting a malicious link":::
+:::image type="icon" source="../media/safe-links-for-teams-malicious-message.png" alt-text="Screenshot of a Safe Links for Teams page reporting a malicious link.":::
 
 Clicking the **Go Back** button on the warning page will return the user to their original context or URL location. However, clicking on the original link again will cause Safe Links to rescan the URL, so the warning page will reappear.
 
@@ -47,7 +47,7 @@ You enable or disable Safe Links protection for Microsoft Teams in Safe Links po
 
 3. Select **+ Create** to create new Safe Links policies.
 
-4. On the **Name your policy** page, enter the **Name** and **Description**for the policy.
+4. On the **Name your policy** page, enter the **Name** and **Description** for the policy.
 
 5. On the **Users and domains** page that appears, identify the internal recipients that the policy applies to. You can specify by **Users**, **Groups**, or **Domains**. 
 
@@ -68,7 +68,7 @@ You enable or disable Safe Links protection for Microsoft Teams in Safe Links po
         
       |Setting|Recommendation| 
       |--|--|
-      |On: Safe Links checks a list of known, malicious links when users click links in Microsoft Teams|Selected|
+      |On: Safe Links checks a list of known, malicious links when users click links at Microsoft Teams|Selected|
 
     * **Action for potentially malicious URLs in Microsoft Office apps**. The recommended value is **On** with the following settings:
         
@@ -84,7 +84,7 @@ You enable or disable Safe Links protection for Microsoft Teams in Safe Links po
       |Let users click through to the original URL|Not selected|
       |Display the organization branding on notification and warning pages|No recommendation|
 
-      :::image type="icon" source="../media/safe-links-policy-settings.png" alt-text="A Safe Links protection settings page":::
+      :::image type="icon" source="../media/safe-links-policy-settings.png" alt-text="Screenshot of a Safe Links protection settings page.":::
 
 7. On the **Notification** page that appears, select one of the following values for **How would you like to notify your users?**:
    - **Use the default notification text**

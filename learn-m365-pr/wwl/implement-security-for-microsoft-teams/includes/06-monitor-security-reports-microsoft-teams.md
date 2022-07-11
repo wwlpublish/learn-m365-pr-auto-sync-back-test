@@ -42,6 +42,6 @@ To view the report, go to **Reports** > **Email & collaboration reports**. On th
 
 In the **View data by URL click by application** view, you can find the number of URL clicks by Teams by filtering the apps.
 
-:::image type="content" source="../media/url-threat-protection-report-url-click-by-application-view.png" alt-text="[Screenshot of The URL click protection action view in the URL protection report." lightbox="../media/url-threat-protection-report-url-click-by-application-view.png" :::
+:::image type="content" source="../media/url-threat-protection-report-url-click-by-application-view.png" alt-text="Screenshot of The U R L click protection action view in the U R L protection report." lightbox="../media/url-threat-protection-report-url-click-by-application-view.png" :::
 
 
