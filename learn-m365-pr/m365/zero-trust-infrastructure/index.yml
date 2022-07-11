@@ -3,7 +3,7 @@ uid: learn-m365.zero-trust-infrastructure
 metadata:
   moduleType: standard
   title: Protect infrastructure with Zero Trust
-  description: Infrastructure is a broad term that covers all hardware, software, servers, networks, facilities, and much more in your organization. Utilizing Zero Trust principles can help to reduce your infrastructure's exposure to cyberattacks through improved monitoring, configuration management, and keeping software up-to-date.
+  description: Infrastructure is a broad term that covers all hardware, software, servers, networks, facilities, and much more. Utilizing Zero Trust principles can help to reduce your infrastructure's exposure to cyberattacks through improved monitoring, configuration management, and keeping software up-to-date.
   ms.date: 7/5/2022
   author: beccarobins
   ms.author: beccarobins
