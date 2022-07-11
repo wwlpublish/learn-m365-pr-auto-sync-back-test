@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-purview-audit-standard.export-configure-view-audit-log-records
+title: Export, configure, and view audit log records
+metadata:
+  title: Export, configure, and view audit log records
+  description: "Export, configure, and view audit log records"
+  ms.date: 07/11/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-export-configure-view-audit-log-records.md)]
