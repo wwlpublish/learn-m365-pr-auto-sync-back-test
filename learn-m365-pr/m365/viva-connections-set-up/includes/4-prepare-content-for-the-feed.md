@@ -1,104 +1,60 @@
-<!-- 1. Topic sentence(s) --------------------------------------------------------------------------------
+The Feed aggregates SharePoint news posts, video news links, and
+conversation in Yammer into one central place. In the mobile app, the
+Feed displays as its own tab. On desktop, the Feed can be included by
+adding the Feed web part to the home site which will be covered in an
+upcoming unit. Technically, *you do not need to do anything* for content
+to populate in the Feed if your organization already uses [SharePoint
+news
+posts](/sharepoint/organization-news-site)
+and
+[Yammer.](https://www.bing.com/ck/a?!&&p=577a5b674b3c22b601cec0336b5b3382218bf922f2d243c50dbe788fd5d05742JmltdHM9MTY1NDE5MTI5OCZpZ3VpZD1jMGNjODg2MC1mMWEzLTRkM2ItOWY5Mi0xMDNkY2M4YWE4OTAmaW5zaWQ9NTE3NQ&ptn=3&fclid=52a4d99a-e29a-11ec-ac46-276dea4d8649&u=a1aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS9lbi11cy9taWNyb3NvZnQtMzY1L2Jsb2cvMjAxMi8wMi8wOS9nZXR0aW5nLXN0YXJ0ZWQtd2l0aC15YW1tZXItdGhlLWJhc2ljcy1hbmQtYmV5b25kLw&ntb=1)
 
-    Goal: remind the learner of the core idea(s) from the preceding learning-content unit (without mentioning the details of the exercise or the scenario)
+:::image type="content" source="../media/company-feed.png" alt-text="Screenshot of a company feed sample" :::
+**Feed content comes from three main
+sources:**
 
-    Heading: none
+- Organizational news posts published in SharePoint
+- Posts in Yammer communities
+- Videos posted as videos news links form organization news sites in SharePoint
 
-    Example: "A storage account represents a collection of settings that implement a business policy."
+You do not need to do anything for content to
+populate the Feed, but you can influence the hierarchy of content in the
+Feed. To ensure the most important news is prioritized in the
+Feed:
 
-    [Exercise introduction guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-introductions?branch=main#rule-use-the-standard-exercise-unit-introduction-format)
--->
-TODO: add your topic sentence(s)
+:::image type="content" source="../media/news-boost.png" alt-text="Screenshot of setting up news boost" :::
 
-<!-- 2. Scenario sub-task --------------------------------------------------------------------------------
+- **Promote important communications** - Use [News
+boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)
+to raise the visibility of the most important news posts. 
+- **Highlight community discussions** - [Feature posts in public Yammer
+communities](https://techcommunity.microsoft.com/t5/yammer-blog/engage-your-entire-organization-with-new-all-company-features/ba-p/1441124)
+that you’d like seen by the entire organization.
+- **Publish from official news sources** - Post news from [organizational news sites in
+SharePoint](https://docs.microsoft.com/en-us/sharepoint/organization-news-site)
+to impact content ranking.
+- **Use video news links in SharePoint.** Rather
+than sharing a written news story, you may want to use a [Video news
+link](https://docs.microsoft.com/en-us/sharepoint/video-news-links) in
+SharePoint to share an update, rebroadcast an all-hands meeting, or
+provide reusable training
+materials.
 
-    Goal: Describe the part of the scenario covered in this exercise
+:::image type="icon" source="../media/story-telling-logo-white-bg.png"  :::
+### Learn how Lamna Healthcare prepares content for the Feed:
 
-    Heading: a separate heading is optional; you can combine this with the topic sentence into a single paragraph
-
-    Example: "Recall that in the chocolate-manufacturer example, there would be a separate storage account for the private business data. There were two key requirements for this account: geographically-redundant storage because the data is business-critical and at least one location close to the main factory."
-
-    Recommended: image that summarizes the entire scenario with a highlight of the area implemented in this exercise
--->
-TODO: add your scenario sub-task
-TODO: add your scenario image
-
-<!-- 3. Task performed in the exercise ---------------------------------------------------------------------
-
-    Goal: State concisely what they'll implement here; that is, describe the end-state after completion
-
-    Heading: a separate heading is optional; you can combine this with the sub-task into a single paragraph
-
-    Example: "Here, you will create a storage account with settings appropriate to hold this mission-critical business data."
-
-    Optional: a video that shows the end-state
--->
-TODO: describe the end-state
-
-<!-- 4. Chunked steps -------------------------------------------------------------------------------------
-
-    Goal: List the steps they'll do to complete the exercise.
-
-    Structure: Break the steps into 'chunks' where each chunk has three things:
-        1. A heading describing the goal of the chunk
-        2. An introductory paragraph describing the goal of the chunk at a high level
-        3. Numbered steps (target 7 steps or fewer in each chunk)
-
-    Example:
-        Heading:
-            "Use a template for your Azure logic app"
-        Introduction:
-             "When you create an Azure logic app in the Azure portal, you have the option of selecting a starter template. Let's select a blank template so that we can build our logic app from scratch."
-        Steps:
-             "1. In the left navigation bar, select Resource groups.
-              2. Select the existing Resource group [sandbox resource group name].
-              3. Select the ShoeTracker logic app.
-              4. Scroll down to the Templates section and select Blank Logic App."
--->
-
-## (Chunk 1 heading)
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-## (Chunk 2 heading)
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-## (Chunk n heading)
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-<!-- 5. Validation -------------------------------------------------------------------------------------------
-
-    Goal: Enables the learner to evaluate if they completed the exercise correctly. Feedback like this is critical for learning.
-
-    Structure:
-        1. A heading of "## Check your work".
-        2. An introductory paragraph describing how they'll validate their work at a high level.
-        3. Numbered steps (if the learner needs to perform multiple steps to verify if they were successful).
-        4. Video of an expert performing the exact steps of the exercise (optional).
-
-    Example:
-         "At this point, the app is scanning Twitter every minute for tweets containing the search text. To verify the app is running and working correctly, we'll look at the Runs history table."
-             "1. Select Overview in the navigation menu.
-              2. Select Refresh once a minute until you see a row in the Runs history table.
-              ...
-              6. Examine the data in the OUTPUTS section. For example, locate the text of the matching tweet."
--->
-
-## Check your work
-<!-- Introduction paragraph -->
-1. <!-- Step 1 (if multiple steps are needed) -->
-1. <!-- Step 2 (if multiple steps are needed) -->
-1. <!-- Step n (if multiple steps are needed) -->
-Optional "exercise-solution" video
-
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
-<!-- Do not add a unit summary or references/links -->
+As the Internal Communications Manager of Lamna Healthcare, you know
+that your organization already uses SharePoint to distribute news and
+Yammer to facilitate conversations and announcements. However, you have
+spent time investing in this area to ensure the Feed has a constant
+source of new content. You work with the Viva Connections planning team
+and other organizational communications specialists to establish an
+authoritative organizational news site for each department of the
+organization. You work with other communication specialists on your team
+to decide upon a publishing schedule that ensures new content is created
+at least every 30 days from organizational news sites and other sites.
+The most important news posts will get boosted to make sure they are
+seen. Additionally, the communications team develops a similar schedule
+for “All company” posts and announcements in Yammer. As often as
+possible, video news links will be
+used.
