@@ -1,78 +1,59 @@
-<!-- 1. Topic sentence(s) --------------------------------------------------------------------------------
+Resources are navigational links that you set up in [SharePoint global
+navigation](/viva/connections/sharepoint-app-bar).
+You must first enable global navigation for Resources to display in the
+Viva Connections experience. On the mobile experience, Resources
+displays as its own tab. One the desktop and web experiences, Resources
+can be accessed by selecting your organization’s Viva Connections icon
+twice form the Teams app bar.
+:::image type="content" source="../media/global-links.png" alt-text="Screenshot of global links" :::
 
-    Goal: briefly summarize the key skill this unit will teach
+Links in Resources should help solve opportunities identified in the
+needs assessment from module 2 and will often include links to
+organizational information that everyone can benefit from, for example
+trainings resources, event opportunities, and the HR portal. Links can
+also be targeted to specific audiences to personalize the experience for
+certain roles and regions.
 
-    Heading: none
+**Set up global navigation:**
+:::image type="content" source="../media/enable-global-nav.png" alt-text="Screenshot of enabling global navigation." :::
+1. You must be a site owner of the home site to customize global
+navigation. Navigate to your organization’s home site.
+2. Select
+**Settings** and then select **Global navigation settings**.
+3. Switch the
+**Enable global navigation** toggle to **On.**
+4. Next, add the **Logo** for
+global navigation that will be recognizable to users to replace the home
+icon in the SharePoint app bar. No action is needed if you choose to
+keep the default home icon. This icon *will not* be the Viva Connections
+icon that displays in the Teams app bar.
+    - The logo size should be 20x20
+    - pixelsTransparent background recommended
+5. Then, enter a **Title** that
+will be displayed at the top of the global navigation pane.
+6. Finally,
+determine the **Navigation source**. [Learn more about selecting a
+source](/viva/connections/sharepoint-app-bar#determine-the-global-navigation-source-depending-on-your-home-sites-configuration).
+7. Make
+edits to the selected global navigation source if needed by selecting
+Edit global navigation.
+8. Select **Save** when you are done. Updates to
+global navigation may take several minutes before they
+appear.
+:::image type="icon" source="../media/story-telling-logo-white-bg.png"  :::
 
-    Example: "Organizations often have multiple storage accounts to let them implement different sets of requirements."
+### Learn how Lamna Healthcare sets up SharePoint global navigation
 
-    [Learning-unit introduction guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-introductions?branch=main#rule-use-the-standard-learning-unit-introduction-format)
--->
-TODO: add your topic sentence(s)
-
-<!-- 2. Scenario sub-task --------------------------------------------------------------------------------
-
-    Goal: Describe the part of the scenario that will be solved by the content in this unit
-
-    Heading: none, combine this with the topic sentence into a single paragraph
-
-    Example: "In the shoe-company scenario, we will use a Twitter trigger to launch our app when tweets containing our product name are available."
--->
-TODO: add your scenario sub-task
-
-<!-- 3. Prose table-of-contents --------------------------------------------------------------------
-
-    Goal: State concisely what's covered in this unit
-
-    Heading: none, combine this with the topic sentence into a single paragraph
-
-    Example: "Here, you will learn the policy factors that are controlled by a storage account so you can decide how many accounts you need."
--->
-TODO: write your prose table-of-contents
-
-<!-- 4. Visual element (highly recommended) ----------------------------------------------------------------
-
-    Goal: Visual element, like an image, table, list, code sample, or blockquote. Ideally, you'll provide an image that illustrates the customer problem the unit will solve; it can use the scenario to do this or stay generic (i.e. not address the scenario).
-
-    Heading: none
--->
-TODO: add a visual element
-
-<!-- 5. Chunked content-------------------------------------------------------------------------------------
-
-    Goal: Provide all the information the learner needs to perform this sub-task.
-
-    Structure: Break the content into 'chunks' where each chunk has three things:
-        1. An H2 or H3 heading describing the goal of the chunk
-        2. 1-3 paragraphs of text
-        3. Visual like an image, table, list, code sample, or blockquote.
-
-    [Learning-unit structural guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-structure-learning-content?branch=main)
--->
-
-<!-- Pattern for simple chunks (repeat as needed) -->
-## H2 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list, code sample, blockquote)
-Paragraph (optional)
-Paragraph (optional)
-
-<!-- Pattern for complex chunks (repeat as needed) -->
-## H2 heading
-Strong lead sentence; remainder of paragraph.
-Visual (image, table, list)
-### H3 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list)
-Paragraph (optional)
-### H3 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list)
-Paragraph (optional)
-
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
-<!-- Do not add a unit summary or references/links -->
+As the Internal Communications Manager, you work with Lamna
+Healthcare’s planning team for Viva Connections to conduct a needs
+assessment in the planning phase. The needs assessment helps surface
+popular requests, pain points, opportunities to boost productivity, and
+improve wellness in the workplace. The planning team organizes and
+synthesizes insights from the needs assessment and prioritizes where
+content should be located throughout the three components of the Viva
+Connections experience. The planning team decides to use links in
+SharePoint global navigation to make it easy to access the most popular
+portals that help people complete high-impact tasks like completing
+required training, access information about pay and benefits, find out
+more about upcoming events, and get more information about people and
+facilities.

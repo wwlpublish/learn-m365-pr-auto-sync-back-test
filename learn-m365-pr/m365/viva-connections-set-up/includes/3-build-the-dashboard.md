@@ -129,10 +129,7 @@ You continue adding and editing cards until all the priority scenarios
 in the planning spreadsheet have been captured. Then, you preview the
 experience before publishing. While previewing, you make sure to preview
 the layouts made available with each targeted audience group and to
-ensure there aren't any gaps in the layout of the cards. If you use two
-medium cards and one large card in your layout, you want to check the
-preview if one of the medium cards is audience targeted to make sure you
-have the layout optimized. You also make sure to check the experience on
+ensure there aren't any gaps in the layout of the cards for each audience group. You also make sure to check the experience on
 both desktop and mobile device for accessibility on both devices. Then,
 you toggle between different audience groups to review the experience
 for different roles and regions. While previewing, you notice some
