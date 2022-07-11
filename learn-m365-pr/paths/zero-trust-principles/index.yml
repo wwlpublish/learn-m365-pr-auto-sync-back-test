@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Establish the guiding principles and core components of Zero Trust
-summary: Zero Trust is not a product or tool, but an essential security strategy that seeks to continuously verify every transaction, asserts least privilege, and assumes that every transaction could be a possible attack.  Through the modules in this learning path, you'll gain an understanding of Zero Trust and how it applies to identity, endpoints, applications, networks, infrastructure, and data.
+summary: Zero Trust is not a product or tool, but an essential security strategy that seeks to continuously verify every transaction, asserts least privilege access, and assumes that every transaction could be a possible attack.  Through the modules in this learning path, you'll gain an understanding of Zero Trust and how it applies to identity, endpoints, applications, networks, infrastructure, and data.
 prerequisites: None
 iconUrl: /learn/achievements/generic-achievement.svg
 levels: 
