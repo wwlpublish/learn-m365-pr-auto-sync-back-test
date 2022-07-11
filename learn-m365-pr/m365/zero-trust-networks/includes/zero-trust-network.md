@@ -44,9 +44,9 @@ Organizations are improving their network security posture and implementing impr
 
 On the Zero Trust maturity scale, this is where all organizations want to be. They have implemented large-scale security changes. It can be summarized as follows:
 
-- Use of adaptive access permissions that check automatically, based on user usage and data risk.
-- Every user or device session is continuously evaluated using multiple points of data, against policies—access is revoked if a policy is violated.
-- All network traffic is monitored to identify potential threats, and the administrator is notified when a threat is found.
+- Use of adaptive access permissions that check automatically based on user usage and data risk.
+- Every user or device session is continuously evaluated using multiple points of data against policies—access is revoked if a policy is violated.
+- All network traffic is monitored to identify potential threats and the administrator is notified when a threat is found.
 - All data and network traffic is encrypted end to end.
 
 Wherever your organization is, using a Zero Trust strategy can help you to improve network security, and better protect your assets, resources, and data.

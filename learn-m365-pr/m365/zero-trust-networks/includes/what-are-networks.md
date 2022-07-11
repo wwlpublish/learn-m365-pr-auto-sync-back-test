@@ -11,8 +11,8 @@ Whether it’s a network in your home, coffee shop, or at work, they all use a s
 
 While there are many different types of networks, each serving a specific and often dedicated purpose, typically they're either private or public.
 
-- A **private network** requires a level of authentication and authorization to access data and resources. You’ll find this type when you access a work network, or when you sign into your favorite streaming service.
-- A **public network** is open to anyone and requires no network authorization. The internet is a good example of this.
+- A **private network** requires a level of authentication and authorization to access data and resources. You’ll find this type when you access a work network or when you sign into your favorite streaming service.
+- A **public network** is open to anyone and requires no network authorization. The internet is a perfect example of a public network.
 
 ### The client-server network
 
@@ -28,4 +28,4 @@ The client is a fancy name for any device that wants to do something on your net
 
 #### What is a server?
 
-The server is dedicated to providing resources, services, and data—for example, a web server hosting a webpage. They're responsible for processing requests that come from the client and sending back a response, which is typically the data, resource, or service that has been requested. A server handles hundreds or thousands of requests from clients every minute.
+The server is dedicated to providing resources, services, and data, for example, a web server hosting a webpage. They're responsible for processing requests that come from the client and sending back a response, which is typically the data, resource, or service that has been requested. A server handles hundreds or thousands of requests from clients every minute.
