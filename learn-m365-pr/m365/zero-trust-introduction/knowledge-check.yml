@@ -22,7 +22,7 @@ quiz:
       explanation: "That's correct. The Zero Trust model works on the principles of verify explicitly, use least privilege access, and assume breach. The Zero Trust model asserts every request is a potential threat and must be verified."
     - content: "The Zero Trust model trusts users and devices within the corporate network."
       isCorrect: false
-      explanation: "That's incorrect. The traditional approach automatically trusts users and devices within the defined network perimeter."
+      explanation: "That's incorrect. The _traditional_ approach automatically trusts users and devices within the defined network perimeter."
     - content: "The Zero Trust model focuses on network security and protects network access with firewalls and VPNs."
       isCorrect: false
       explanation: "That's incorrect. The Zero Trust model advocates protection across all domains—identity, endpoints, applications, network, infrastructure, and data."
@@ -44,7 +44,7 @@ quiz:
       explanation: "That's incorrect. Zero Trust asserts all users, within or outside the corporate network, must not be trusted."
     - content: "This principle assumes every request is a potential threat."
       isCorrect: true
-      explanation: "That's correct. It assumes that every user or device making a request to access your systems and data has come from a cybercriminal."
+      explanation: "That's correct. It assumes that every request from a user or device to access your systems and data has come from a cybercriminal."
     - content: "This principle assumes that every request that originates from outside the network is a potential threat."
       isCorrect: false
-      explanation: "That's incorrect. Zero Trust assumes that there's no defined network and treats every request as a potential threat."
+      explanation: "That's incorrect. Zero Trust assumes that there's no defined network and treats _every_ request as a potential threat."
