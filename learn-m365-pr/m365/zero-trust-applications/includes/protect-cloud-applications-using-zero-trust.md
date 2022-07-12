@@ -17,7 +17,7 @@ The process consists of three broad phases:
 1. **Evaluate and analyze**: Evaluate compliance of apps and analyze usage patterns.
 1. **Manage and continuously monitor**: Manage cloud apps based on your discovery, evaluation, and analyses, and continue to monitor apps.
 
-To achieve this, your organization can use cloud app discovery tools specifically designed to help you to implement the process. These tools will automatically find cloud apps used across the organization, and enable you to:  
+To achieve this, your organization can use cloud app discovery tools designed to help you to implement the process. These tools will automatically find cloud apps used across the organization, and enable you to:  
 
 - **Assess app risk levels**: For example, through a calculated score from 1 to 10, to represent an app's risk.
 - **Evaluate app compliance**: Checking whether discovered apps meet compliance requirements for your organization.

@@ -26,11 +26,11 @@ When there's an attack, this strategy helps to prevent the cybercriminal from mo
 
 ## Real-time threat protection
 
-As cyberattacks get more sophisticated, there's a need to use threat intelligence to help correlate warnings and threat indicators, and thereby prioritize responses to an attack. To achieve this, you need to deploy sophisticated software tools that monitor, in real time, all activities that occur on and across your network. These tools rely on the very latest data from multiple sources in your network to identify whether the traffic is good or bad.
+As cyberattacks get more sophisticated, there's a need to use threat intelligence to help correlate warnings and threat indicators, and thereby prioritize responses to an attack. To achieve this, you need to deploy sophisticated software tools that monitor, in real time, all activities that occur on and across your network. These tools rely on the latest data from multiple sources in your network to identify whether the traffic is good or bad.
 
 A robust threat protection solution must, therefore, scan all traffic looking for malicious payloads, and unusual device and user behavior.
 
-Using extended detection and response (XDR) tools is pivotal in providing the necessary end-to-end visibility and automated response to protect assets, remediate threats, and support investigations. A typical XDR solution uses threat intelligence to classify each activity as either known or unknown malware, or a valid operation. XDRs also monitor user activity—for example, user login events—to understand the geographical location of the user, the applications they typically access, and the device they're using to accurately pinpoint threats.
+Using extended detection and response (XDR) tools is pivotal in providing the necessary end-to-end visibility and automated response to protect assets, remediate threats, and support investigations. A typical XDR solution uses threat intelligence to classify each activity as either known or unknown malware, or a valid operation. XDRs also monitor user activity—for example, user sign-in events—to understand the geographical location of the user, the applications they typically access, and the device they're using to accurately pinpoint threats.
 
 Typically, threats fall into two broad categories: known and unknown attacks.
 

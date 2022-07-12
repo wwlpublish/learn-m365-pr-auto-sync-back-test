@@ -2,7 +2,7 @@ The aim of a Zero Trust strategy is to enable your organization to protect data 
 
 ## Sensitivity labels
 
-Sensitivity labels facilitate the "verify explicitly" Zero Trust principle for your organization because they provide additional data points that can be used to make security decisions about access to resources. Your organization can automatically apply labels to flag items, such as files and emails, that contain sensitive information. These labels also indicate the sensitivity of a particular item. Here are some examples of common labels:
+Sensitivity labels facilitate the "verify explicitly" Zero Trust principle for your organization because they provide additional data points that can be used to make security decisions about access to resources. Your organization can automatically apply labels to flag items, such as files and emails that contain sensitive information. These labels also indicate the sensitivity of a particular item. Here are some examples of common labels:
 
 - **Public** - Business data that is designed for public consumption. For example, a public marketing campaign for a new product.
 - **Confidential** - Data that could harm the business if accessed by unauthorized individuals. For example, contracts, and sales accounts.

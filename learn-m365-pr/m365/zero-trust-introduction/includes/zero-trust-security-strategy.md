@@ -7,7 +7,7 @@ The traditional perimeter-based approach to defense is heavily based on protecti
   - Data is encrypted.
   - Identity is maintained as anonymous.
 
-The traditional approach assumes that everything within the network security perimeter is safe and divides users into two categories: "trusted" and "untrusted". For example, anyone who works on-premises and uses a device owned by the organization, inside the clearly defined network perimeter, is deemed as a "trusted user". They'll have access to data, applications, and information within the organization. This also means that someone who connects a bring your own device (BYOD) to the corporate network is considered an authorized user and has access to the resources.
+The traditional approach assumes that everything within the network security perimeter is safe and divides users into two categories: "trusted" and "untrusted". For example, anyone who works on-premises and uses a device owned by the organization, inside the clearly defined network perimeter, is deemed as a "trusted user". They'll have access to data, applications, and information within the organization. This also means that someone who connects their own device (also known as bring your own device or BYOD) to the corporate network is considered an authorized user and has access to the resources.
 
 The perimeter security model puts organizations at risk from the following:
 

@@ -39,7 +39,7 @@ Network segmentation is the practice of dividing a computer network into multipl
 
 Threats to infrastructure by malware, distributed denial of service (DDoS) attacks, or web applications attacks continue to emerge. The sole aim of these attacks is to disrupt day-to-day operations, commit data theft, or gain unauthorized access. Malware, DDoS, or web applications attacks can be defined as:
 
-- **Malware** is malicious software, which, when installed, can damage computers and networks. It's generally spread via email attachments, links, or malicious websites over the internet.
+- **Malware** is malicious software, which, when installed, can damage computers and networks. It's spread via email attachments, links, or malicious websites over the internet.
 - A **distributed denial-of-service (DDoS)** attack targets websites and servers aiming to disrupt network services by overwhelming an application's resources with an overflow of internet traffic.
 - A **web app** is a computer program that runs on a web browser. The web application communicates with web servers and database servers. It allows users to interact with the webpages within a website. If there was an attack on a web application, web servers and data servers can be exposed and compromised.
 

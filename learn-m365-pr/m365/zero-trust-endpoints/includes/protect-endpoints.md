@@ -3,7 +3,7 @@ To protect endpoints, an organization must take a Zero Trust stance. This means 
 To successfully secure endpoints, an organization should achieve the following:
 
 - Cloud enforced security policies. This needs to cover endpoint security, app protection, device compliance, device configuration, and risk posture.
-- The operating system (like Windows), as well as apps that run on devices are securely provisioned, configured, and kept up to date.
+- The operating system (like Windows), and apps that run on devices are securely provisioned, configured, and kept up to date.
 - Automatically and rapidly respond to security incidents and prevent organizational data from being extracted from endpoints.
 - The presence of an access control system that only allows access to data through policy controls.
 

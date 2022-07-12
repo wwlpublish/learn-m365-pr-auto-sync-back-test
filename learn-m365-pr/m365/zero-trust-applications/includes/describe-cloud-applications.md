@@ -10,7 +10,7 @@ First, let's define *cloud services*—these are computing services that are del
 - The app code is protected and never leaves its origin.
 - Apps can be scaled easily and rapidly to meet demand.
 
-We're becoming increasingly more reliant on cloud applications. For example, a banking app might be installed and running on your mobile device, but the majority of its functionality relies on cloud services. In fact, the app might not work at all if you don't have an internet connection. That's a tell-tale sign that it's a cloud application. As we'll see next, the convenience and proliferation of cloud applications doesn't necessarily come without risks.
+We're becoming increasingly more reliant on cloud applications. For example, a banking app might be installed and running on your mobile device, but most its functionality relies on cloud services. In fact, the app might not work at all if you don't have an internet connection. That's a tell-tale sign that it's a cloud application. As we'll see next, the convenience and proliferation of cloud applications doesn't necessarily come without risks.
 
 ## What is shadow IT?
 

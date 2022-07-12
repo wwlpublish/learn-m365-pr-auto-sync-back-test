@@ -16,11 +16,11 @@ Security Orchestration, Automation and Response (SOAR) combines threat and vulne
 - **Security automation** analyzes the data collected from security orchestration and automates the standard workflows and tasks, such as vulnerability scanning, log analysis, and auditing. It triggers security alerts and potential intrusions.
 - **Security response** works with both automated and manual processes to plan, manage, monitor, and report incidents to support a timely response to security threats.
 
-Both SOAR and SIEM platforms collect, monitor, and analyze data from multiple sources. However, there are a few differences as to how each platform performs and executes the security processes. For example, **SIEM** systems collect data, determine anomalies, evaluate threats, and send alerts to security analysts when there's a potential threat. **SOAR** systems integrate a wider range of internal and external tools and applications while handling the same tasks. SOAR technology leverages artificial intelligence to automate threat detection and incident response. This enables the sending of an alert about a security incident before it occurs. Both platforms can be used together for overall security operations.
+Both SOAR and SIEM platforms collect, monitor, and analyze data from multiple sources. However, there are a few differences as to how each platform performs and executes the security processes. For example, **SIEM** systems collect data, determine anomalies, evaluate threats, and send alerts to security analysts when there's a potential threat. **SOAR** systems integrate a wider range of internal and external tools and applications while handling the same tasks. SOAR technology uses artificial intelligence to automate threat detection and incident response. This enables the sending of an alert about a security incident before it occurs. Both platforms can be used together for overall security operations.
 
 ### Endpoint Detection and Response
 
-Endpoint Detection and Response (EDR) is a technology that monitors for and detects potential threats or suspicious activities occurring at endpoints. The core objective of EDR solutions is to provide real-time alerts and visibility into threats and the impact on the organization, in case of an attack.
+Endpoint Detection and Response (EDR) is a technology that monitors for and detects potential threats or suspicious activities occurring at endpoints. The core objective of EDR solutions is to provide real-time alerts and visibility into threats and the impact on the organization, if there is an attack.
 
 ## Workload behavior assessment
 
@@ -28,7 +28,7 @@ The Zero Trust approach ensures proactive security against threats for on-premis
 
 ### Automatically flag suspicious behavior
 
-Examples of suspicious behavior can be an unusual login time or location of a user, or an unusual way of using an application or piece of software. Organizations deploy threat intelligence and response solutions, aligned with Zero Trust strategy, to defend against attackers. Threat intelligence and response tools flag any suspicious behavior or activities that occur on your resources. This is done by generating alerts when a security incident or compliance issue is detected.
+Examples of suspicious behavior can be an unusual sign-in time or location of a user, or an unusual way of using an application or piece of software. Organizations deploy threat intelligence and response solutions, aligned with Zero Trust strategy, to defend against attackers. Threat intelligence and response tools flag any suspicious behavior or activities that occur on your resources. This is done by generating alerts when a security incident or compliance issue is detected.
 
 ### Automatically block risky behavior
 

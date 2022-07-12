@@ -15,7 +15,7 @@ durationInMinutes: 4
 content: |
 quiz:
   questions:
-  - content: Why is network segmentation particularly suited to limit the scope of a breach?
+  - content: Why is network segmentation suited to limit the scope of a breach?
     choices:
     - content: A cybercriminal can be caught more easily in a network segment.
       isCorrect: false

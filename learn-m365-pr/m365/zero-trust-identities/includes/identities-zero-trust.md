@@ -10,7 +10,7 @@ A Zero Trust approach focuses on _authenticating_ and _authorizing_ every connec
 
 As part of a Zero Trust strategy, users, applications, and devices should be strongly authenticated and evaluated before being granted authorization to access your resources.
 
-- **Authentication** is a process that requires users to confirm that they're who they claim to be.
+- **Authentication** is a process that requires users to confirm that they are who they claim to be.
 - **Authorization** is an automated process where the system determines which level of access each user is granted.
 
 ## Authentication methods
