@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-security-for-microsoft-teams.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 07/12/2022
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/08-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "A Conditional Access policy is made up of if-then statements consisting of access controls and what other object?"
+    choices:
+    - content: "Early-bound enforcement"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't part of a Conditional Access policy. If you have a service dependency configured, it controls how a Conditional Access policy may be applied."
+    - content: "Late-bound enforcement"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't part of a Conditional Access policy. If you have a service dependency configured, it controls how a Conditional Access policy may be applied."
+    - content: "Assignments"
+      isCorrect: true
+      explanation: "That's correct. A Conditional Access policy is made of if-then statements of Assignments and Access controls. The assignment part of the policy controls the who, what, and where of the Conditional Access policy. The access part of the policy controls how it's enforced."
+  - content: "As the Teams administrator for Northwind Traders, Allan DeYoung is interested in a report that provides the count of email messages with malicious content, such as files or website addresses (URLs) that were blocked by the anti-malware engine, zero-hour auto purge (ZAP), and Defender for Office 365 features like Safe Links, Safe Attachments. Which report provides this information?"
+    choices:
+    - content: "Threat Protection status report"
+      isCorrect: true
+      explanation: "That's correct. This report provides the count of email messages with malicious content, such as files or website addresses (URLs) that were blocked by the anti-malware engine, zero-hour auto purge (ZAP), and Defender for Office 365 features like Safe Links, Safe Attachments, and impersonation protection features in anti-phishing policies. You can use this information to identify trends or determine whether organization policies need adjustment."
+    - content: "Threat Explorer report"
+      isCorrect: false
+      explanation: "That's incorrect. Threat Explorer is a powerful, near real-time tool to help Security Operations teams investigate and respond to threats in the Microsoft 365 Defender portal. Threat Explorer displays information about suspected malware and phishes in email and files in Microsoft 365, as well as other security threats and risks to an organization."
+    - content: "Defender for Office 365 Message Disposition report"
+      isCorrect: false
+      explanation: "That's incorrect. This report displays the actions that were taken on email messages that had malicious URLs or files."
+  - content: "When Safe Attachments identifies a file as malicious, Microsoft Defender for Office 365 locks the file. The blocked file is still listed in the document library. However, people are limited to what they can do with it. Which of the following actions can be applied to a file that's been blocked by Safe Attachments?"
+    choices:
+    - content: "Open"
+      isCorrect: false
+      explanation: "That's incorrect. People can't open a blocked file."
+    - content: "Delete"
+      isCorrect: true
+      explanation: "That's correct. Although the blocked file is still listed in the document library and in web, mobile, or desktop applications, people can't open, copy, move, or share the file. But they can delete the blocked file."
+    - content: "Share"
+      isCorrect: false
+      explanation: "That's incorrect. People can't share a blocked file."
+  - content: "Which stage of the Microsoft Defender for Cloud Apps framework assesses whether cloud apps meet relevant requirements, including regulatory compliance and industry standards?"
+    choices:
+    - content: "Assess"
+      isCorrect: true
+      explanation: "That's correct.  This stage assesses if cloud apps meet relevant requirements, including regulatory compliance and industry standards. It also prevents data leaks to noncompliant apps, and limits access to regulated data."
+    - content: "Discover"
+      isCorrect: false
+      explanation: "That's incorrect. This stage identifies the cloud apps, IaaS, and PaaS services used by an organization. It investigates usage patterns and assesses the risk levels and business readiness of more than 16,000 SaaS apps and more than 80 risks."
+    - content: "Detect"
+      isCorrect: false
+      explanation: "That's incorrect. This stage detects unusual behavior across cloud apps to identify ransomware, compromised users, or rogue applications. It analyzes high-risk usage and remediates automatically to limit the risk to the organization."
+  - content: "Which feature of the Microsoft Defender for Cloud Apps architecture analyzes your traffic logs against the Microsoft Defender for Cloud Apps catalog of more than 16,000 cloud apps and provides risk assessment reports?"
+    choices:
+    - content: "Conditional Access App Control"
+      isCorrect: false
+      explanation: "That's incorrect. This feature provides real-time protection, visibility, and control over access and activities within your cloud apps."
+    - content: "App connectors"
+      isCorrect: false
+      explanation: "That's incorrect. App connectors use the APIs of app providers to give visibility and control by Microsoft Defender for Cloud Apps over the apps you connect to."
+    - content: "Cloud Discovery"
+      isCorrect: true
+      explanation: "That's correct. This feature analyzes your traffic logs against the Microsoft Defender for Cloud Apps catalog of more than 25,000 cloud apps. Using more than 80 risk factors, the apps are ranked and scored to provide risk assessment reports."
