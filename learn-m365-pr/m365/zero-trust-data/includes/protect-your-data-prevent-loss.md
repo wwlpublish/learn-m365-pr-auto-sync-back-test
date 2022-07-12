@@ -1,16 +1,15 @@
-The aim of a Zero Trust strategy is to enable your organization to protect data in transit, at rest, and in use—particularly for sensitive information. This is done by appropriately identifying your data, but also ensuring that you can control and verify any access to it and have effective data loss prevention in place. Here are some of the measures your organization can take to achieve this:
+The aim of a Zero Trust strategy is to enable your organization to protect data in transit, at rest, and in use—particularly for sensitive information. This is done by appropriately identifying your data but also ensuring that you can control and verify any access to it _and_ have effective data loss prevention in place.
 
 ## Sensitivity labels
 
-Sensitivity labels facilitate the “verify explicitly” Zero Trust principle for your organization, because they provide additional data points that can be used to make security decisions about access to resources. Your organization can automatically apply labels to flag items such as files and emails that contain sensitive information. These labels also indicate the sensitivity of a particular item. Here are some examples of common labels:
+Sensitivity labels facilitate the “verify explicitly” Zero Trust principle for your organization because they provide additional data points that can be used to make security decisions about access to resources. Your organization can automatically apply labels to flag items, such as files and emails, that contain sensitive information. These labels also indicate the sensitivity of a particular item. Here are some examples of common labels:
 
 - **Public** - Business data that is designed for public consumption. For example, a public marketing campaign for a new product.
 - **Confidential** - Data that could harm the business if accessed by unauthorized individuals. For example, contracts, and sales accounts.
 - **Highly confidential** - Confidential data that should only be accessible to a select group of people. For example, information about an ongoing merger.
 
-Your organization can apply turnkey labels using cloud security tools, or create its own labels.
-
-Turnkey labels are precreated for organizations based on common security requirements. These allow you to easily use labels without having to create your own. When labels are applied to items, they enable your organization to identify the sensitivity of data at a glance. This is because they help your cloud security tools to create detailed charts and derive insights based on sensitivity labels.
+Your organization can also apply turnkey labels using cloud security tools or create its own labels.
+Turnkey labels are out-of-the-box labels for organizations based on common security requirements. These allow you to easily use labels without having to create your own. When labels are applied to items, they enable your organization to identify the sensitivity of data at a glance. This is because they help your cloud security tools to create detailed charts and derive insights based on sensitivity labels.
 
 Sensitivity labels can also be used to provide protection and data loss prevention because they can be a basis for:
 
