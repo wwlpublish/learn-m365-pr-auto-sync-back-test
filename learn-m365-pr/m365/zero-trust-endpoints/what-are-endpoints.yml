@@ -4,7 +4,7 @@ title: What are endpoints?
 metadata:
   unitType: learning-content
   title: What are endpoints?
-  description: Learn what an endpoint is according to Zero Trust, and then introduce the concept of an attack surface based on that definition.
+  description: An endpoint is any entity that connects to, and communicates through, a network. Cybercriminals will try to use any endpoint to carry out attacks, so the need to protect all endpoints is critical.
   ms.date: 06/22/2022
   author: beccarobins
   ms.author: beccarobins
