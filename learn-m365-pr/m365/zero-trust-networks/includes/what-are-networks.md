@@ -1,6 +1,6 @@
-Anytime you use your smartphone or laptop to access the internet, you’re using a network to do it. Networks exist everywhere, from your home to your place of work, and the largest network of all is the internet.
+Anytime you use your smartphone or laptop to access the internet, you're using a network to do it. Networks exist everywhere, from your home to your place of work, and the largest network of all is the internet.
 
-Whether it’s a network in your home, coffee shop, or at work, they all use a similar set of components to create a seamless infrastructure for your devices to effortlessly communicate with each other. Even the cloud or internet have their roots in the physical world. Networks have dozens of components that work together—the ones you’ve probably heard of are switches, routers, firewalls, and hubs. The list is far longer, but it’s worth calling out two:
+Whether it's a network in your home, coffee shop, or at work, they all use a similar set of components to create a seamless infrastructure for your devices to effortlessly communicate with each other. Even the cloud or internet have their roots in the physical world. Networks have dozens of components that work together—the ones you've probably heard of are switches, routers, firewalls, and hubs. The list is far longer, but it's worth calling out two:
 
 - A **switch** is the cornerstone of every network on the planet, allowing multiple devices to connect and communicate with each other, forming an individual network.
 - The **router** allows different types of networks to talk to each other.
@@ -11,7 +11,7 @@ Whether it’s a network in your home, coffee shop, or at work, they all use a s
 
 While there are many different types of networks, each serving a specific and often dedicated purpose, typically they're either private or public.
 
-- A **private network** requires a level of authentication and authorization to access data and resources. You’ll find this type when you access a work network or when you sign into your favorite streaming service.
+- A **private network** requires a level of authentication and authorization to access data and resources. You'll find this type when you access a work network or when you sign into your favorite streaming service.
 - A **public network** is open to anyone and requires no network authorization. The internet is a perfect example of a public network.
 
 ### The client-server network

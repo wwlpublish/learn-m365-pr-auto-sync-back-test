@@ -1,4 +1,4 @@
-An organization must know its data if it wants to take an effective Zero Trust approach to protecting it. Here, you’ll learn to define data, its different states, and what makes it sensitive. You’ll also see what your organization can do to discover and identify its data. 
+An organization must know its data if it wants to take an effective Zero Trust approach to protecting it. Here, you'll learn to define data, its different states, and what makes it sensitive. You'll also see what your organization can do to discover and identify its data. 
 
 ## What is data?
 
@@ -17,15 +17,15 @@ Data is at the core of all resources and services including files, applications,
 
 ### Data in transit
 
-When data is moving, it’s considered to be _in transit_. For example, when you send an email, chat messages, or submit your personal details to make an order on a website. Data in this state is generally less secure than when it’s not moving. This is because it’s typically being exposed to the threats and vulnerabilities associated with the internet, private networks, devices, or other means of transfer.
+When data is moving, it's considered to be _in transit_. For example, when you send an email, chat messages, or submit your personal details to make an order on a website. Data in this state is generally less secure than when it's not moving. This is because it's typically being exposed to the threats and vulnerabilities associated with the internet, private networks, devices, or other means of transfer.
 
 ### Data in use
 
-Data is considered to be _in use_ when it’s being accessed or used. This can include reading, processing, or making changes to data. This is generally when data is most vulnerable because it’s open to an individual or program. At that point, any vulnerabilities in the program or due to the human nature of the user, can put the data at risk.
+Data is considered to be _in use_ when it's being accessed or used. This can include reading, processing, or making changes to data. This is generally when data is most vulnerable because it's open to an individual or program. At that point, any vulnerabilities in the program or due to the human nature of the user, can put the data at risk.
 
 ### Data at rest
 
-When data is inactive, it’s considered to be _at rest_. Typically, this is when it’s not being used or moved on devices, applications, or networks. When data is in this state, it’s less vulnerable than when it’s in transit or in use, because it tends to be accessed infrequently and stored for archiving. For example, data that’s stored on a hard drive or remote storage services is at rest.
+When data is inactive, it's considered to be _at rest_. Typically, this is when it's not being used or moved on devices, applications, or networks. When data is in this state, it's less vulnerable than when it's in transit or in use, because it tends to be accessed infrequently and stored for archiving. For example, data that's stored on a hard drive or remote storage services is at rest.
 
 ## What is sensitive information?
 
@@ -44,6 +44,6 @@ You can use data discovery and classification to help get to know your data. Man
 - Medical information such as patient numbers, medication, and more.
 - Financial information including tax numbers, and more.
 
-Your organization might also use machine learning-based classifiers that can learn how to identify content by looking at hundreds of examples. When these classifiers are done learning, your organization can point them to where the data resides to classify it. This helps your organization to more effectively deal with data that isn’t easily identified by manual or automated pattern matching.
+Your organization might also use machine learning-based classifiers that can learn how to identify content by looking at hundreds of examples. When these classifiers are done learning, your organization can point them to where the data resides to classify it. This helps your organization to more effectively deal with data that isn't easily identified by manual or automated pattern matching.
 
 Discovery and classification tools also allow your organization to get a detailed view and gain insights into what labels have been applied to sensitive items and what users are doing with those items. These insights are provided through detailed charts, tables, and other information that can be exported and analyzed further if needed. With all of this information available, your organization is in a better position to achieve the Zero Trust “verify explicitly” principle. This is because you can use all of the information to inform security decisions.

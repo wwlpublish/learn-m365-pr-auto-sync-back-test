@@ -1,4 +1,4 @@
-To protect endpoints, an organization must take a Zero Trust stance. This means you need to employ the principle of “never trust, always verify” across all endpoints, regardless of whether they belong to an organization, or they don’t—such as endpoints owned by a contractor, a partner, or an employee.
+To protect endpoints, an organization must take a Zero Trust stance. This means you need to employ the principle of “never trust, always verify” across all endpoints, regardless of whether they belong to an organization, or they don't—such as endpoints owned by a contractor, a partner, or an employee.
 
 To successfully secure endpoints, an organization should achieve the following:
 
@@ -11,7 +11,7 @@ To successfully secure endpoints, an organization should achieve the following:
 
 Organizations need to monitor and secure endpoints in a way that encompasses all the endpoints that are used by everyone. This means that your organization must be able to see and manage access to the endpoints that could be used to reach its resources.  
 
-To achieve this, the organization’s IT team can carry out the following steps: 
+To achieve this, the organization's IT team can carry out the following steps: 
 
 - Register all devices with identity providers.
 - Require modern authentication.
@@ -22,16 +22,16 @@ The combination of these measures enables organizations to control access. For e
 
 ## Grant access only to cloud-managed and compliant endpoints
 
-Next, organizations need to limit access to endpoints that are compliant with their security requirements. If endpoints aren’t compliant, it could lead to vulnerabilities, which might allow the endpoint to be compromised, and result in serious consequences.
+Next, organizations need to limit access to endpoints that are compliant with their security requirements. If endpoints aren't compliant, it could lead to vulnerabilities, which might allow the endpoint to be compromised, and result in serious consequences.
 
 Organizations can define requirements using compliance policies. For example, your organization could have a policy that requires devices to have the latest operating system version installed or have antimalware protection enabled. Your IT team can create compliance policies using cloud-based modern device management tools. These are dedicated solutions designed to enable your organization to manage all its devices from the cloud, from preconfiguration before first use, to monitoring and enforcing configuration and security requirements continuously.
 
-Your organization should also set remediation rules when you create policies, in case an endpoint is noncompliant. Remediation rules describe how noncompliance issues should be resolved. For example, by alerting the user via email, blocking the endpoint, or applying a grace period after which the endpoint will be blocked if it isn’t compliant.
+Your organization should also set remediation rules when you create policies, in case an endpoint is noncompliant. Remediation rules describe how noncompliance issues should be resolved. For example, by alerting the user via email, blocking the endpoint, or applying a grace period after which the endpoint will be blocked if it isn't compliant.
 
 ## Use endpoint threat detection to monitor risk and control access
 
 Next, your organization will need to implement threat detection for all endpoints to monitor risk across all devices. Endpoint threat detection is a way for your organization to identify threats, vulnerabilities, and security risks for the whole estate. Your organization can use threat detection solutions that collect all this information to provide insights into your security from a single view.
 
-Threat detection solutions also allow your organization to respond promptly and effectively, using automated investigation and remediation for all endpoints. All of this means that endpoint threat detection enables you to take a strong security posture that protects all endpoints across the organization’s estate.
+Threat detection solutions also allow your organization to respond promptly and effectively, using automated investigation and remediation for all endpoints. All of this means that endpoint threat detection enables you to take a strong security posture that protects all endpoints across the organization's estate.
 
 Finally, your organization can also take information such as device risk, and feed it as a source of data to your endpoint compliance policies and access policies. This way, multiple points of data, such as device risk, will always inform what resources—like files or documents—are accessible to a device user, regardless of whether the device is owned by the organization, or an individual.

@@ -1,4 +1,4 @@
-The traditional network security model is built around the premise that, once authenticated, you’re assigned a level of authorization to access data and resources on the network. However, as more and more companies and organizations move towards cloud-based services and hybrid working models, the network security perimeter is open to attack.
+The traditional network security model is built around the premise that, once authenticated, you're assigned a level of authorization to access data and resources on the network. However, as more and more companies and organizations move towards cloud-based services and hybrid working models, the network security perimeter is open to attack.
 
 Network security is a battlefield, fought between security teams using the latest tools to protect your network, data, and resources from attack, and the cybercriminals looking for vulnerabilities they can exploit. They want to gain access to your network to cause disruption and find sensitive data they can steal and sell.
 

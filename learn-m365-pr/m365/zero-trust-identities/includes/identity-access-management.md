@@ -2,7 +2,7 @@ Access management begins with a secure identity. Using the Zero Trust framework,
 
 ## How does identity and access management work?
 
-An identity and access management system is a vital security layer. It’s crucial to protect areas such as critical data and information, applications and software, devices, locations—business locations and datacenters—and data transmission, from unauthorized access or use. Identity and access management typically involves working with:
+An identity and access management system is a vital security layer. It's crucial to protect areas such as critical data and information, applications and software, devices, locations—business locations and datacenters—and data transmission, from unauthorized access or use. Identity and access management typically involves working with:
 
 - Password management tools.
 - Employee database systems.
@@ -16,7 +16,7 @@ There are measures that organizations can take in conjunction with specific tech
 
 - **Identification cards**: The use of ID cards is one of the oldest and most prevalent methods of identification. ID cards that show clear pictures of employees ensure that the person entering the premises is an authorized individual. Scanners can be installed to check legitimacy, in case of a counterfeit ID.
 - **Personal Identification numbers**: Using PINs is another best practice for secure access. PINs are codes that are entered at the doors using keypads before accessing a building. Each employee is assigned a unique access PIN that is updated regularly.
-- **Smart cards**: Smart cards are increasingly being used as a secure way of controlling physical access. They can be used to authenticate an individual’s identity, and determine the correct level of access. Smart cards can be programmed to allow specific employees to access restricted areas.
+- **Smart cards**: Smart cards are increasingly being used as a secure way of controlling physical access. They can be used to authenticate an individual's identity, and determine the correct level of access. Smart cards can be programmed to allow specific employees to access restricted areas.
 - **Biometrics**: Biometrics is one of the most secure methods of authenticating the identity of a user who needs to access assets and resources in your organization. A biometric reader typically scans the physical traits, such as a fingerprint or handprint, face, voice, or eyes before giving secure access.
 
 ## Methods to determine typical access for an identity
