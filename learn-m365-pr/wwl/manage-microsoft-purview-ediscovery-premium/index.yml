@@ -1,0 +1,51 @@
+### YamlMime:Module
+uid: learn.wwl.manage-microsoft-purview-ediscovery-premium
+metadata:
+  title: Manage Microsoft Purview eDiscovery (Premium)
+  description: "Manage Microsoft Purview eDiscovery (Premium)"
+  ms.date: 07/06/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage Microsoft Purview eDiscovery (Premium)
+summary: This module explores how to use Microsoft Purview eDiscovery (Premium) to preserve, collect, analyze, review, and export content that's responsive to an organization's internal and external investigations, and communicate with custodians involved in a case.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Describe how Microsoft Purview eDiscovery (Premium) builds on eDiscovery (Standard).
+  - Describe the basic workflow of eDiscovery (Premium).
+  - Create and manage cases in eDiscovery (Premium).
+  - Manage custodians and non-custodial data sources.
+  - Analyze case content and use analytical tools to reduce the size of search result sets.
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+- security-engineer
+- solution-architect
+- technology-manager
+products:
+- m365
+- office-365
+subjects:
+- cloud-computing
+- cloud-security
+- collaboration
+- communication
+- compliance
+- information-protection-governance
+- security
+- threat-protection
+units:
+- learn.wwl.manage-microsoft-purview-ediscovery-premium.introduction
+- learn.wwl.manage-microsoft-purview-ediscovery-premium.explore-microsoft-purview-ediscovery-premium
+- learn.wwl.manage-microsoft-purview-ediscovery-premium.implement-microsoft-purview-ediscovery-premium
+- learn.wwl.manage-microsoft-purview-ediscovery-premium.create-manage-ediscovery-premium-case
+- learn.wwl.manage-microsoft-purview-ediscovery-premium.manage-custodians-non-custodial-data-sources
+- learn.wwl.manage-microsoft-purview-ediscovery-premium.analyze-case-content
+- learn.wwl.manage-microsoft-purview-ediscovery-premium.knowledge-check
+- learn.wwl.manage-microsoft-purview-ediscovery-premium.summary
+badge:
+  uid: learn.wwl.manage-microsoft-purview-ediscovery-premium.badge

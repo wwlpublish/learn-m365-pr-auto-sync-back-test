@@ -14,9 +14,11 @@ Configuring external access for organizations includes:
 
 ## Configure external access
 
-1. In the left navigation pane, go to **Users** > **External access**.
+1. Sign-in to Teams admin center.
 
-2. Under **Choose which domains your users have access to** section, configure the setting based on business need. 
+2. In the left navigation pane, go to **Users** > **External access**.
+
+3. Under **Teams and Skype for Business users in external organizations** section, configure the setting based on business need. 
 
     **To allow specific domains**:
     
@@ -32,12 +34,21 @@ Configuring external access for organizations includes:
     3. In the **Domain** box, type the domain that you want to allow and then select **Done**.
     4. If you want to block another domain, select **Add a domain**.
 
-3. Turn on the **Allow users in my organization to communicate with Skype users** setting if you want to allow Teams users in your organization chat with and call Skype users. .
+4. Under **Teams accounts not managed by an organization** section, configure the setting based on business need.
 
-4. Select **Save**.
+    |People in my organization can communicate with Teams users whose accounts aren't managed by an organization|	External users with Teams accounts not managed by an organization can contact users in my organization|	Scenario|
+    |--|--|--|
+    |Turn off	|Uncheck|	Block Teams users in your organization from communicating with external Teams users whose accounts are not managed by an organization.|
+    |Turn on|	Uncheck	|Let Teams users in your organization communicate with external Teams users whose accounts are not managed by an organization if your Teams users have **initiated** the contact.<br/><br/>Unmanaged Teams users will not be able to search the full email address to find organization contacts.|
+    |Turn on|	Check	|Let Teams users in your organization **initiate** and **receive requests** to communicate with external Teams users whose accounts are not managed by an organization.|
+
+5. Turn on the **Allow users in my organization to communicate with Skype users** setting if you want to allow Teams users in your organization chat with and call Skype users.
+
+    :::image type="content" source="../media/enable-external-access.png" alt-text="Screenshot of external access for Teams accounts." :::
+
+6. Select **Save**.
 
 Make sure the admin in the other Teams organization completes these same steps. For example, in their **allowed domains** list, their admin needs to enter the domain for your business if they limit the organizations that can communicate with their users.
 
 After the configuration, you can chat with external users using their email address and adding them as a contact. You can verify if federation is working by sending a chat message to an external user via Teams chat and getting a response.
 
-:::image type="content" source="../media/enable-external-access.png" alt-text="Screenshot of external access switch turned On" :::

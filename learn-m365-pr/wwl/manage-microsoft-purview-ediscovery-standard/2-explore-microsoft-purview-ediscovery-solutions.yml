@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-purview-ediscovery-standard.explore-microsoft-purview-ediscovery-solutions
+title: Explore Microsoft Purview eDiscovery solutions
+metadata:
+  title: Explore Microsoft Purview eDiscovery solutions
+  description: "Explore Microsoft Purview eDiscovery solutions"
+  ms.date: 07/06/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-explore-microsoft-purview-ediscovery-solutions.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer just created an eDiscovery case regarding a potential legal issue the company is facing. Holly is especially concerned about preserving content associated with Allan Deyoung, one of the company's Vice Presidents who's also the main focus of the investigation. What's the next step that Holly should perform?"
+    choices:
+    - content: "View search statistics related to content created by Allan Deyoung"
+      isCorrect: false
+      explanation: "Incorrect. This step can be performed after running a search to help refine a search query to narrow the results."
+    - content: "Search the content locations associated with the case"
+      isCorrect: false
+      explanation: "Incorrect. This is the second step in the eDiscovery (Standard) workflow. After an organization creates eDiscovery holds, it can use the built-in search tool to search the content locations on hold."
+    - content: "Place a hold on the content locations associated with Allan Deyoung"
+      isCorrect: true
+      explanation: "Correct. In the eDiscovery (Standard) workflow, the first step after creating a case is placing a hold (also called an eDiscovery hold) on the content locations of the people of interest in the investigation. Content locations include Exchange mailboxes, SharePoint sites, OneDrive accounts, and the mailboxes and sites associated with Microsoft Teams and Microsoft 365 Groups."

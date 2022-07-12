@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-purview-ediscovery-premium.analyze-case-content
+title: Analyze case content
+metadata:
+  title: Analyze case content
+  description: "Analyze case content"
+  ms.date: 07/06/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/6-analyze-case-content.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Email threading parses each email and deconstructs it down to the individual messages. It then analyzes all emails in the working set to determine whether an email has unique content or if the chain is wholly contained in a different email. At the end of the process, emails are divided into four categories. In which category does the last message in the email have unique content, but the email doesn't contain some of the attachments that were included in other emails of which the content is wholly contained in this email?"
+    choices:
+    - content: "Inclusive"
+      isCorrect: false
+      explanation: "Incorrect. In this category, the last message in the email has unique content. The email also has all the attachments that were included in other emails of which the content is wholly contained in this email."
+    - content: "Inclusive minus"
+      isCorrect: true
+      explanation: "Correct. In this category, the last message in the email has unique content, but the email doesn't contain some of the attachments that were included in other emails of which the content is wholly contained in this email."
+    - content: "Inclusive copy"
+      isCorrect: false
+      explanation: "Incorrect. This category contains an exact copy of an inclusive email or an inclusive minus email."
