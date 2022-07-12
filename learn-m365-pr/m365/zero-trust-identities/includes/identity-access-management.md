@@ -1,4 +1,4 @@
-Access management begins with a secure identity. Using the Zero Trust framework, this means you apply least privileged access by assigning the fewest permissions to authorized users. Securing identities and managing access is, therefore, unified into one identity and access management system.
+Access management begins with a secure identity. Using the Zero Trust framework, this means you apply least privilege access by assigning the fewest permissions to authorized users. Securing identities and managing access is, therefore, unified into one identity and access management system.
 
 ## How does identity and access management work?
 
@@ -35,7 +35,7 @@ MFA adds multiple layers of security by combining different authentication techn
 
 ## Least privilege access for identities
 
-The aim of least privileged access, as the name suggests, is to grant a user or device just enough access to critical and essential resources. There are a number of tools to support this. Privileged access management (PAM) specifically addresses user accounts with elevated permissions, like administrators. Privileged identity management (PIM) oversees and monitors the access privileges user and devices have to sensitive data and resources. Lastly, identity access management governs which groups of users can access resources within your organization.
+The aim of least privilege access, as the name suggests, is to grant a user or device just enough access to critical and essential resources. There are a number of tools to support this. Privileged access management (PAM) specifically addresses user accounts with elevated permissions, like administrators. Privileged identity management (PIM) oversees and monitors the access privileges user and devices have to sensitive data and resources. Lastly, identity access management governs which groups of users can access resources within your organization.
 
 The least privilege access can be exercised by:
 

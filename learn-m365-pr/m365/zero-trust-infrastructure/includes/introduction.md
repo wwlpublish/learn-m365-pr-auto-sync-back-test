@@ -1,4 +1,4 @@
-Zero Trust embodies the principles of verify explicitly, apply least privileged access, and always assume breach. In our Zero Trust journey, we’re now looking at infrastructure.
+Zero Trust embodies the principles of verify explicitly, apply least privilege access, and always assume breach. In our Zero Trust journey, we’re now looking at infrastructure.
 
 :::image type="content" source="../media/zero-trust-infrastructure-banner.png" alt-text="Diagram showing the six pillars that comprise Zero Trust: identity, endpoints, applications, networks, infrastructure and data. Infrastructure is highlighted." border="false":::
 
