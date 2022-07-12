@@ -192,12 +192,12 @@ Feed](/viva/connections/faqs-viva-connections-feed).
 
 **Content in the Feed comes from three sources:**
 
-1. SharePoint news published from organizational news sites and sites
+- SharePoint news published from organizational news sites and sites
     that the user follows
 
-2. Yammer community posts from communities the user follows
+- Yammer community posts from communities the user follows
 
-3. Stream videos built on SharePoint in the form of a video news link
+- Stream videos built on SharePoint in the form of a video news link
 
 **How to influence content in the Feed:**
 

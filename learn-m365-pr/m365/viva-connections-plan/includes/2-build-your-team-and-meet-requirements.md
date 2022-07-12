@@ -32,42 +32,9 @@ the implementation process, and their roles and responsibilities.
 These stakeholders will be your go-to experts when it comes to the
 planning, building, and launch phases. Stakeholders will be deciding what scenarios will be the most beneficial to each business unit, how to customize the platform accordingly, and how to help your organization transition to using Viva Connections to help with their daily tasks. 
 
-:::row:::
-   :::column span="":::
-      **Coordinate and plan**
-   :::column-end:::
-   :::column span="":::
-      **Build and set up**
-   :::column-end:::
-   :::column span="":::
-      **Deploy and launch**
-   :::column-end:::
-:::row-end:::
-
-:::row:::
-   :::column span="":::
-Key administrative stakeholders typically include:
-     - **HR professionals**, who manage team members and oversee company and organizational structure and efficiency
-     - **Internal communication specialists**, who facilitate and manage communications between employees and various internal teams
-     - **Communications coordinators and specialists**, who execute and maintain company-wide communications and brand management
-     - **Administrative assistants**, who complete and oversee various administrative tasks
-
-Work with **your organization’s stakeholders** and business partners (from groups like HR, communications specialists, and technology advocates) to identify the most valuable workflows and tasks that can be completed in Viva Connections.
-   :::column-end:::
-
-   :::column span="":::
-      - The **SharePoint admin** will set a home site (if you don’t already have one) in the admin center. SharePoint admins may also help modernize classic SharePoint sites and pages where needed.
-      - The **Microsoft Teams admin** will add your organization’s version of Viva Connections as an app and choose settings in the Teams admin center.
-      - **Site owners and authors for the home site** will design the home site content, navigation, and the Dashboard.
-      - Additional **site owners and authors** may be involved to update content or news post that will be relevant to the Viva Connections experience.
-   :::column-end:::
-   :::column span="":::
-      - Collaborate with **champions** (early adopters) to help other people at the organization implement Viva Connections.
-      - Leverage **executive sponsors** who can help evangelize Viva Connections at large company meetings and in broad communications.
-      - **Business owners (like HR) and managers** at all levels can help teams and individuals find value and adopt new ways of working.
-   :::column-end:::
-:::row-end:::
-
+|**Coordinate and plan**|**Build and set up**|**Deploy and launch**|
+|---|---|---|
+|Key administrative stakeholders typically include: <br> **HR professionals**, who manage team members and oversee company and organizational structure and efficiency <br> **Internal communication specialists**, who facilitate and manage communications between employees and various internal teams <br> **Communications coordinators and specialists**, who execute and maintain company-wide communications and brand management <br> **Administrative assistants**, who complete and oversee various administrative tasks <br> <br> Work with **your organization’s stakeholders** and business partners (from groups like HR, communications specialists, and technology advocates) to identify the most valuable workflows and tasks that can be completed in Viva Connections.|The **SharePoint admin** will set a home site (if you don’t already have one) in the admin center. SharePoint admins may also help modernize classic SharePoint sites and pages where needed. <br> The **Microsoft Teams admin** will add your organization’s version of Viva Connections as an app and choose settings in the Teams admin center. <br> **Site owners and authors for the home site** will design the home site content, navigation, and the Dashboard. <br> Additional **site owners and authors** may be involved to update content or news post that will be relevant to the Viva Connections experience. <br> <br><br> <br><br> |Collaborate with **champions** (early adopters) to help other people at the organization implement Viva Connections.<br> Leverage **executive sponsors** who can help evangelize Viva Connections at large company meetings and in broad communications.<br>**Business owners (like HR) and managers** at all levels can help teams and individuals find value and adopt new ways of working.<br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br> |
 
 >**Before finalizing your list of key stakeholders, answer these
 questions:**
@@ -102,29 +69,17 @@ questions:**
 
 ### Meet technical requirements
 
-:::row:::
-   :::column span="":::
-      :::image type="icon" source="../media/technical-requirements.png"  :::
-
-   :::column-end:::
-   :::column span="2":::
-      The team of stakeholders can help make decisions and set priorities for
+The team of stakeholders can help make decisions and set priorities for
 meeting technical requirements. If your organization does not already have a home site with customized global navigation, this will be your team’s first assignment. Both requirements will benefit from the
 planning team's diverse perspectives of different roles and regions.
-   :::column-end:::
-:::row-end:::
-:::row:::
-   :::column span="":::
-     - If your organization already has a home site and customized global
+
+- If your organization already has a home site and customized global
     navigation, but you are still using classic sites and pages,
     consider strategically modernizing sites and pages that are key to
     the Viva Connections experience.
 - If your organization already has a home site, customized global
     navigation, and modern sites, then you have met the technical
     requirements for Viva Connections.
-   :::column-end:::
-:::row-end:::
-
 
 > **Step 1 -- Create a home site**: Create a SharePoint communication
 > site and [set it as a home site in the SharePoint admin
@@ -153,8 +108,6 @@ planning team's diverse perspectives of different roles and regions.
 :::image type="icon" source="../media/story-telling-logo-white-bg.png" :::
 
 ### Learn how Lamna Healthcare builds their planning team
-
-:::image type="icon" source="../media/lamna-logo-white-bg-200.jpg"  :::
 
 As the Internal Communications Manager of Lamna Healthcare, you start gathering your team of stakeholders to plan the deployment of Viva Connections by considering who can help to make it beneficial for the different roles and regions. These individuals will serve as your Viva Connections planning committee and will ensure the platform is as useful to all groups of employees as
 possible.

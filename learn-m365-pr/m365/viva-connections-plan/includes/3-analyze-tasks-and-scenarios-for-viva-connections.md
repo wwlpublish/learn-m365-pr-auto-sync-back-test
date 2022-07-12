@@ -1,6 +1,6 @@
 To determine which tasks and scenarios to support, it's recommended that you conduct a needs assessment with various departments, roles, and regions within your organization. Insights from the needs assessment will help you identify and prioritize scenarios and tasks to support.
 
-:::image type="content" source="../media/workflow-analyze-tasks.png" alt-text="Workflow of analyzing and prioritizing tasks and scenarios." :::
+:::image type="complex" source="../media/workflow-analyze-tasks.png" alt-text="Workflow of analyzing and prioritizing tasks and scenarios." :::
 Step 1 is to consider needs of specific roles and regions; step 2 is to conduct a needs assessment; step 3 is to analyze scenarios and prioritize tasks for support; step 4 is to align scenarios with Viva Connections components; step 5 is to plan for audience targeting; step 6 is to consider device preference for different scenarios.
 :::image-end:::
 
@@ -97,7 +97,6 @@ Viva Connections design strategy, answer the following for each task:**
 
 ### Learn how Lamna Healthcare starts identifying needs
 
-:::image type="icon" source="../media/lamna-logo-white-bg-200.jpg"  :::
 
 In preparation for Viva Connections, as the Internal Communications
 Manager, you work with the Lamna Healthcare Viva Connections planning
@@ -139,7 +138,7 @@ Here are a few issues you have discovered across the organization:
 In addition, you
 discovered some role specific issues. For example:
 
-:::image type="content" source="../media/-nicoletta.png" alt-text="Work profile of Nicoletta with headshot and job title." ::: 
+:::image type="content" source="../media/-nicoletta.png" alt-text="Work profile of Nicoletta with head shot and job title." :::
 
 Nicoletta, a member of Lamna's janitorial staff, is an hourly paid
 employee and claimed that clocking in and out of shifts was a tedious
