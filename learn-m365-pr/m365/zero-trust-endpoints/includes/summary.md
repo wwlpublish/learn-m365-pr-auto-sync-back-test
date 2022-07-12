@@ -1,6 +1,6 @@
-In this module, you’ve learned how to define endpoints. You’ve also seen how to use the Zero Trust security approach to protect endpoints. This includes registering endpoints with cloud identity providers, granting access only to cloud-managed and compliant endpoints, and more.
+In this module, you've learned how to define endpoints. You've also seen how to use the Zero Trust security approach to protect endpoints. This includes registering endpoints with cloud identity providers, granting access only to cloud-managed and compliant endpoints, and more.
 
-Now that you’ve completed this module, you should be able to:
+Now that you've completed this module, you should be able to:
 
 - Describe endpoints.
 - Describe attack surface.

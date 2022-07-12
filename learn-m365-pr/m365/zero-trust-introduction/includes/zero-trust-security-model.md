@@ -4,7 +4,7 @@ Zero Trust is an end-to-end security strategy that monitors and controls the six
 
 The Zero Trust approach addresses the security concerns that emerge due to the evolving digital landscape. Today, nearly every organization has a mobile, remote or hybrid workforce, cloud applications, data stored in different environments, and devices enrolled from various locations. In the absence of a robust security model, all these factors can inadvertently lead to a major security breach.
 
-In practice, the “trust no one and verify everything” rule suggests that every request, device, or user must **not** be trusted and should be treated as a potential threat until verified by strong authentication methods, before allowing access to the network. This also means that users and devices are _only_ allowed access to the specific applications or data that they need.
+In practice, the "trust no one and verify everything" rule suggests that every request, device, or user must **not** be trusted and should be treated as a potential threat until verified by strong authentication methods, before allowing access to the network. This also means that users and devices are _only_ allowed access to the specific applications or data that they need.
 
 ## Zero Trust principles
 

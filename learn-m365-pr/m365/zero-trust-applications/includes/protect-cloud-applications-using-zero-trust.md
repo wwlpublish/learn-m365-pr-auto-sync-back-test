@@ -17,9 +17,9 @@ The process consists of three broad phases:
 1. **Evaluate and analyze**: Evaluate compliance of apps and analyze usage patterns.
 1. **Manage and continuously monitor**: Manage cloud apps based on your discovery, evaluation, and analyses, and continue to monitor apps.
 
-To achieve this, your organization can use cloud app discovery tools specifically designed to help you to implement the process. These tools will automatically find cloud apps used across the organization, and enable you to:  
+To achieve this, your organization can use cloud app discovery tools designed to help you to implement the process. These tools will automatically find cloud apps used across the organization, and enable you to:  
 
-- **Assess app risk levels**: For example, through a calculated score from 1 to 10, to represent an app’s risk.
+- **Assess app risk levels**: For example, through a calculated score from 1 to 10, to represent an app's risk.
 - **Evaluate app compliance**: Checking whether discovered apps meet compliance requirements for your organization.
 - **Analyze usage patterns**: Understand how individuals use apps and learn about high-risk usage.
 - **Manage apps**: Enforce governance actions such as sanctioning, reviewing, or blocking apps.
@@ -43,7 +43,7 @@ Your organization should also enable real-time monitoring and control over acces
 Cybercriminals continue to evolve their attack techniques and tools, to breach defenses and access business-critical and personal information in your applications. To strengthen your protection against the latest attacks and attack tools, your organization should use advanced cloud app security capabilities including:
 
 - **User and entity behavioral analytics (UEBA)**: Evaluate behavior and respond using many risk indicators such as chancy IP addresses, sign-in failures, activities from inactive accounts, or suspicious admin sign-ins.
-- **Anomaly detection**: Detect and respond to unusual activities across cloud apps. For example, a user suddenly uploads 500 GB of data into a cloud storage app when they’ve never done this before.
+- **Anomaly detection**: Detect and respond to unusual activities across cloud apps. For example, a user suddenly uploads 500 GB of data into a cloud storage app when they've never done this before.
 - **Malware protection**: Detect for malware using the most up-to-date information across all apps. For example, to detect activities associated with a new type of malware that holds critical data hostage for ransom.
 - **Automated investigation and remediation**: Investigate and remediate security alerts automatically. Or allow a security admin to remediate specific types of security alerts after automated investigation.
 

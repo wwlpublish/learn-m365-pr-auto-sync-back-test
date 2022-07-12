@@ -1,8 +1,8 @@
-Access management begins with a secure identity. Using the Zero Trust framework, this means you apply least privileged access by assigning the fewest permissions to authorized users. Securing identities and managing access is, therefore, unified into one identity and access management system.
+Access management begins with a secure identity. Using the Zero Trust framework, this means you apply least privilege access by assigning the fewest permissions to authorized users. Securing identities and managing access is, therefore, unified into one identity and access management system.
 
 ## How does identity and access management work?
 
-An identity and access management system is a vital security layer. It’s crucial to protect areas such as critical data and information, applications and software, devices, locations—business locations and datacenters—and data transmission, from unauthorized access or use. Identity and access management typically involves working with:
+An identity and access management system is a vital security layer. It's crucial to protect areas such as critical data and information, applications and software, devices, locations—business locations and datacenters—and data transmission, from unauthorized access or use. Identity and access management typically involves working with:
 
 - Password management tools.
 - Employee database systems.
@@ -12,18 +12,18 @@ An identity and access management system is a vital security layer. It’s cruci
 
 Identity and access management and compliance, combined with effective security policies, can help prevent hacking or other security breaches. One of the most common reasons for a security breach is when cybercriminals gain access through unauthorized means.
 
-There are measures that organizations can take in conjunction with specific technologies to improve their overall security perimeter. Below are some of the methods of identification used by many organizations to monitor access to resources:
+There are measures that organizations can take with specific technologies to improve their overall security perimeter. Below are some of the methods of identification used by many organizations to monitor access to resources:
 
-- **Identification cards**: The use of ID cards is one of the oldest and most prevalent methods of identification. ID cards that show clear pictures of employees ensure that the person entering the premises is an authorized individual. Scanners can be installed to check legitimacy, in case of a counterfeit ID.
+- **Identification cards**: The use of ID cards is one of the oldest and most prevalent methods of identification. ID cards that show clear pictures of employees ensure that the person entering the premises is an authorized individual. Scanners can be installed to check legitimacy, if there is a counterfeit ID.
 - **Personal Identification numbers**: Using PINs is another best practice for secure access. PINs are codes that are entered at the doors using keypads before accessing a building. Each employee is assigned a unique access PIN that is updated regularly.
-- **Smart cards**: Smart cards are increasingly being used as a secure way of controlling physical access. They can be used to authenticate an individual’s identity, and determine the correct level of access. Smart cards can be programmed to allow specific employees to access restricted areas.
+- **Smart cards**: Smart cards are increasingly being used as a secure way of controlling physical access. They can be used to authenticate an individual's identity, and determine the correct level of access. Smart cards can be programmed to allow specific employees to access restricted areas.
 - **Biometrics**: Biometrics is one of the most secure methods of authenticating the identity of a user who needs to access assets and resources in your organization. A biometric reader typically scans the physical traits, such as a fingerprint or handprint, face, voice, or eyes before giving secure access.
 
 ## Methods to determine typical access for an identity
 
 A Zero Trust strategy based on explicit verification requires the implementation of various methods to confirm the identity of a user or device. Some of the more common identification methods are:
 
-- **Single sign-on**: Single sign-on (SSO) implies that you sign in only once using a single user account to access multiple applications and resources required to do the job. Single sign**-**on eliminates the risk of users holding copies of their credentials in various apps.
+- **Single sign-on**: Single sign-on (SSO) implies that you sign in only once using a single user account to access multiple applications and resources required to do the job. Single sign-on eliminates the risk of users holding copies of their credentials in various apps.
 - **Multifactor authentication**: Multifactor authentication (MFA) requires more than one form of security and validation procedure. This security mechanism is based on three factors:
   - Something you know—a password.
   - Something you have—a token or authenticator app.
@@ -35,7 +35,7 @@ MFA adds multiple layers of security by combining different authentication techn
 
 ## Least privilege access for identities
 
-The aim of least privileged access, as the name suggests, is to grant a user or device just enough access to critical and essential resources. There are a number of tools to support this. Privileged access management (PAM) specifically addresses user accounts with elevated permissions, like administrators. Privileged identity management (PIM) oversees and monitors the access privileges user and devices have to sensitive data and resources. Lastly, identity access management governs which groups of users can access resources within your organization.
+The aim of least privilege access, as the name suggests, is to grant a user or device just enough access to critical and essential resources. There are a number of tools to support this. Privileged access management (PAM) specifically addresses user accounts with elevated permissions, like administrators. Privileged identity management (PIM) oversees and monitors the access privileges user and devices have to sensitive data and resources. Lastly, identity access management governs which groups of users can access resources within your organization.
 
 The least privilege access can be exercised by:
 
