@@ -1,62 +1,43 @@
-<!-- 1. Topic sentence(s) --------------------------------------------------------------------------------
+In the upcoming units, you'll learn about best practices, considerations, and technical details that will help you in the planning phase. The planning phase includes the following steps:
 
-    Goal: orient the learner to the area covered in this module
+:::image type="content" source="../media/workflow-plan-vc.png" alt-text="Diagram of the workflow of planning for Viva Connections." :::
+**Step 1**: Gather a team of stakeholders and meet technical
+requirements
 
-    Heading: none
+**Step 2**: Analyze tasks and key scenarios to support
 
-    Example: "Azure Logic Apps let you automate your business processes and run them in the cloud."
+**Step 3**: Align key scenarios to design plans for the Dashboard, Feed,
+and Resources
 
-    Recommended: visual like an image, table, list, etc. that supports the topic sentence(s)
+**Step 4**: Plan for the Dashboard, Feed, and Resources
 
-    [Introduction unit guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-introductions?branch=main#rule-use-the-standard-module-introduction-format)
--->
-TODO: add your topic sentence(s)
-TODO: add a visual element
+**Step 5**: Consider how to announce, launch, and scale
 
-<!-- 2. Scenario -----------------------------------------------------------------------------------------
+### About Lamna Healthcare
 
-    Goal: describe the real-world scenario this module will use to illustrate the concepts
+:::image type="icon" source="../media/lamna-logo-white-bg-200.jpg"  :::
+  
+In this module, let\'s imagine that you're the Internal Communications
+Manager of Lamna Healthcare, a large chain of regional hospitals. The organization needs to communicate new policies and procedures constantly. Meanwhile, it needs to provide easy access to tools that allow employees to see their shifts and manage their time and absence, connect them with shuttles and café menus, and provide quick links to resources and forms. After carefully researching and examining existing platforms, executive leadership has decided that Viva Connections is an ideal solution since they already subscribe to Microsoft 365.
 
-    Heading: "## Example scenario"
+Leadership has asked you to lead the deployment of Viva Connections
+along with a team of stakeholders that represent different roles. The
+company operates with support from a variety of employees and intends to
+use Viva Connections to support the following roles:
 
-    Example: "Suppose you work at an athletic shoe company on the marketing team. You're launching a new basketball shoe created by a celebrity athlete. Previous launches resulted in a social media frenzy as people shared stories and photos of themselves wearing their new shoes. The marketing team wants to monitor hundreds of social media sites, blogs, and websites to determine consumer reaction. There will be more data than you can process manually. You would like a cloud-hosted system that automates monitoring, text analytics, database storage, and email notifications."
+- Physicians and surgeons
+- Medical records and information technicians
+- Nurse practitioners
+- IT professionals
+- Service managers
+- Human resources
+- Office administrators
+- Janitorial staff
 
-    Recommended: an image that visualizes the scenario, use the image markdown extension (https://review.docs.microsoft.com/help/contribute/markdown-reference?branch=main#images)
+View a simplified Lamna Healthcare org chart below:
+:::image type="content" source="../media/lamna-org-chart-white-bg.png" alt-text="Diagram of a simplified Lamna healthcare org chart." :::
 
-    Optional: a "scenario video" that visualizes the scenario
-
-    [Scenario guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-scenarios)
-    [Scenario video guidance](TBD)
- -->
-## Example scenario
-TODO: add your scenario
-TODO: add a visual element
-
-<!-- 3. Prose table-of-contents --------------------------------------------------------------------------
-
-    Goal: List the activities the learner will do in this content. This differs from the title and the learning objectives. The title and the learning objectives are "outcome focused"; that is, they describe the skills the learner will acquire as a result of consuming this content. By contrast, here you should be specific about what the learning will **do** in order to acquire those skills. The format can be either prose or bulleted-list; however, a list will yield better results when transformed into other output types such as PowerPoint.
-
-    Heading: "## What will we be doing?"
-
-    Example: "Here, you'll create a business workflow using Azure Logic Apps to automate the processing of tweets:
-                * **Launch**: when a new tweet is available
-                * **Process**: determine if the sentiment of the tweet is positive or negative
-                * **Route**: branch based on the sentiment score"
-
- -->
-## What will we be doing?
-TODO: add your activities
-
-<!-- 4. Terminal learning objective ----------------------------------------------------------------------
-
-    Goal: This is a restatement of the module title into a complete sentence. You have more room here to convey the main goal than in a space-limited title. Make it outcome-focused so it describes the main skill the learner will acquire as a result of this training. In other words, it should answer the question: "what is the key thing the learner will be able to do as a result of consuming this training?"
-
-    Heading: "## What is the main goal?"
-
-    Example: "By the end of this session, you'll be able to create workflows which route and process data using Azure Logic Apps and its built-in connectors."
-
- -->
-## What is the main goal?
-By the end of this session, you'll be able to (TODO)
-
-<!-- Do **not** include any other content like learning objectives, prerequisites, unit summary, "next unit" lead-in, or references. -->
+Your first task is to build a team of stakeholders that represent these
+groups. Stakeholders will help ensure the needs of everyone are
+represented and will help prioritize which scenarios should be supported
+by Viva Connections.

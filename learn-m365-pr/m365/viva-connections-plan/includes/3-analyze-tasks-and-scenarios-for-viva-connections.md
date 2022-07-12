@@ -1,104 +1,167 @@
-<!-- 1. Topic sentence(s) --------------------------------------------------------------------------------
+To determine which tasks and scenarios to support, it's recommended that you conduct a needs assessment with various departments, roles, and regions within your organization. Insights from the needs assessment will help you identify and prioritize scenarios and tasks to support.
 
-    Goal: remind the learner of the core idea(s) from the preceding learning-content unit (without mentioning the details of the exercise or the scenario)
+:::image type="complex" source="../media/workflow-analyze-tasks.png" alt-text="Workflow of analyzing and prioritizing tasks and scenarios." :::
+Step 1 is to consider needs of specific roles and regions; step 2 is to conduct a needs assessment; step 3 is to analyze scenarios and prioritize tasks for support; step 4 is to align scenarios with Viva Connections components; step 5 is to plan for audience targeting; step 6 is to consider device preference for different scenarios.
+:::image-end:::
 
-    Heading: none
+## Quickly review the types of available cards
 
-    Example: "A storage account represents a collection of settings that implement a business policy."
+To better understand whether a certain scenario or task can be supported
+by Viva Connections, you need to learn more about the types of cards
+that can be added to the Dashboard. The Dashboard will be your
+organization's digital toolset and landing experience in the mobile app.
+You will find that some tools and tasks will be best supported by the
+Dashboard, while others are a better fit in the Resources section.
 
-    [Exercise introduction guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-introductions?branch=main#rule-use-the-standard-exercise-unit-introduction-format)
--->
-TODO: add your topic sentence(s)
+The following are cards that can be used with little configuration and
+customization:
 
-<!-- 2. Scenario sub-task --------------------------------------------------------------------------------
+|       Card name             |        Card function                             |
+|-----------------------|---------------------------------------------------------------|
+| **Approvals**         | Use [Approvals](/power-automate/get-started-approvals), sign-off on documents, and approve expense reports.                                               |
+| **Assigned Tasks**    | Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage your team’s work, assign tasks, and track tasks.                                                                   |
+| **Card designer**     | Create custom cards and quick views using JSON without writing actual code.                                                            |
+| **Shifts**            | Let users clock-in, clock-out, and get more information about the next or current shift from the Shifts app in Teams.                  |
+| **Teams app card**    | Use to open a Teams personal app or bot specified by the Dashboard author.                                                             |
+| **Third-party cards** | Use cards that integrate [third-party services](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration) through the SharePoint Store (for example, ADP, ServiceNow, etc.)                       |
+| **Top news card**     | Set up the Top news card to [surface boosted news from SharePoint.](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)                                                                      |
+| **Web link**          | Access a site without leaving the Viva Connections app (most popular card and used to link to SharePoint portals and external links.)  |
 
-    Goal: Describe the part of the scenario covered in this exercise
+In addition to the cards mentioned above, developers can create their
+own cards with advanced customization by extending Viva Connections with
+[Adaptive Card Extensions (ACE) with SharePoint
+Framework.](/sharepoint/dev/spfx/viva/get-started/build-first-sharepoint-adaptive-card-extension)
 
-    Heading: a separate heading is optional; you can combine this with the topic sentence into a single paragraph
+## Conduct a needs assessment
 
-    Example: "Recall that in the chocolate-manufacturer example, there would be a separate storage account for the private business data. There were two key requirements for this account: geographically-redundant storage because the data is business-critical and at least one location close to the main factory."
+The primary goal of this stage is to identify daily tasks and
+pain-points for different groups of employees. Then, the team of
+stakeholders will come together to analyze the findings and to discuss
+how Viva Connections can solve common pain points within employees'
+workdays to encourage engagement, reduce stress, and provide more
+support where needed.
 
-    Recommended: image that summarizes the entire scenario with a highlight of the area implemented in this exercise
--->
-TODO: add your scenario subtask
-TODO: add your scenario image
+**Considerations when conducting a needs assessment:**
 
-<!-- 3. Task performed in the exercise ---------------------------------------------------------------------
+- Identify the places and locations where your workforce is located.
 
-    Goal: State concisely what they'll implement here; that is, describe the end-state after completion
+- Learn more about the needs of your workforce depending on location,
+    department, and task.
 
-    Heading: a separate heading is optional; you can combine this with the sub-task into a single paragraph
+- Consider how the geographical location, culture, and industry may
+    impact the workforce.
 
-    Example: "Here, you will create a storage account with settings appropriate to hold this mission-critical business data."
+- Explore the ways your organization communicates and collaborates the
+    best.
 
-    Optional: a video that shows the end-state
--->
-TODO: describe the end-state
+- Discover what your organization needs to learn in the flow of their
+    work
 
-<!-- 4. Chunked steps -------------------------------------------------------------------------------------
+- Discover what your organization struggles with and give them the
+    tools and insights they need to focus their time and take time to
+    rest.
 
-    Goal: List the steps they'll do to complete the exercise.
+- Consider the culture of your organization and the ways people
+    connect with each other.
 
-    Structure: Break the steps into 'chunks' where each chunk has three things:
-        1. A heading describing the goal of the chunk
-        2. An introductory paragraph describing the goal of the chunk at a high level
-        3. Numbered steps (target 7 steps or fewer in each chunk)
+**Many data sources can be used to help your stakeholders to decide key
+scenarios and tasks, including:**
 
-    Example:
-        Heading:
-            "Use a template for your Azure logic app"
-        Introduction:
-             "When you create an Azure logic app in the Azure portal, you have the option of selecting a starter template. Let's select a blank template so that we can build our logic app from scratch."
-        Steps:
-             "1. In the left navigation bar, select Resource groups.
-              2. Select the existing Resource group [sandbox resource group name].
-              3. Select the ShoeTracker logic app.
-              4. Scroll down to the Templates section and select Blank Logic App."
--->
+- Anecdotal observations
 
-## (Chunk 1 heading)
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+- Email communications
 
-## (Chunk 2 heading)
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+- Employee survey results
 
-## (Chunk n heading)
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+- Interviews with focus group
 
-<!-- 5. Validation -------------------------------------------------------------------------------------------
+- Customer support tickets
 
-    Goal: Enables the learner to evaluate if they completed the exercise correctly. Feedback like this is critical for learning.
+- Analytics and usage data from Microsoft 365 apps
 
-    Structure:
-        1. A heading of "## Check your work".
-        2. An introductory paragraph describing how they'll validate their work at a high level.
-        3. Numbered steps (if the learner needs to perform multiple steps to verify if they were successful).
-        4. Video of an expert performing the exact steps of the exercise (optional).
+**As you work with business owners and key stakeholders to align your
+Viva Connections design strategy, answer the following for each task:**
 
-    Example:
-         "At this point, the app is scanning Twitter every minute for tweets containing the search text. To verify the app is running and working correctly, we'll look at the Runs history table."
-             "1. Select Overview in the navigation menu.
-              2. Select Refresh once a minute until you see a row in the Runs history table.
-              ...
-              6. Examine the data in the OUTPUTS section. For example, locate the text of the matching tweet."
--->
+- Who is the audience?
 
-## Check your work
-<!-- Introduction paragraph -->
-1. <!-- Step 1 (if multiple steps are needed) -->
-1. <!-- Step 2 (if multiple steps are needed) -->
-1. <!-- Step n (if multiple steps are needed) -->
-Optional "exercise-solution" video
+- What do users need to accomplish or learn?
 
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+- What tools or technology do they use today?
 
-<!-- Do not add a unit summary or references/links -->
+- What tools or technology do you want visitors to use to accomplish
+    their key tasks?
+
+- What information needs to be promoted?
+
+:::image type="icon" source="../media/story-telling-logo-white-bg.png" :::
+
+### Learn how Lamna Healthcare starts identifying needs
+
+
+In preparation for Viva Connections, as the Internal Communications
+Manager, you work with the Lamna Healthcare Viva Connections planning
+team conducts a needs assessment over a couple of weeks across the
+organization. The purpose of the needs assessment is to understand how
+each role and region currently gets work done, common pain points, and
+potential improvements to create efficiencies and strengthen employee
+satisfaction.
+
+You work with the planning team members to identify the different roles
+and regions across the organization and connect with leaders and people
+managers that are representative of those roles and regions. The
+planning team learns more about the needs of employees by interviewing
+managers and a handful of individuals in certain roles, and through
+surveys to broader audiences.
+
+Here are a few issues you have discovered across the organization:
+
+- The HR Benefits team receives lots of emails every day asking where
+    to find out information about stock, healthcare, tuition
+    reimbursement, and childcare, so they spend several hours a day
+    dealing with frequently asked questions and responding to inquiries
+    on forms and documents.
+
+- Employees in all business units at Lamna reported wanting easier
+    access to payroll information and calendar updates and changes.
+
+- With so many different roles and employees in different regions,
+    several Lamna employees complained that not having access to
+    job-specific news or news relating to their location made it
+    difficult to be well-informed and stay in the loop. This highlights
+    the need for a central location, like the Feed, where organizational
+    and regional news can be easily communicated to all employees.
+
+- Employee satisfaction surveys received by HR professionals show that
+    some employees are struggling with managing their stress and mental
+    health.
+
+In addition, you
+discovered some role specific issues. For example:
+
+:::image type="content" source="../media/-nicoletta.png" alt-text="Work profile of Nicoletta with head shot and job title." :::
+
+Nicoletta, a member of Lamna's janitorial staff, is an hourly paid
+employee and claimed that clocking in and out of shifts was a tedious
+process for her due to having to complete it on a shared computer. Since
+the nature of her role requires her to travel throughout the hospital,
+the manual process takes up valuable time.
+
+:::image type="content" source="../media/-christian.png" alt-text="Work profile of Christian with head shot and job title." :::
+
+Christian is a
+full-time pediatrician at your hospital, meaning she only needs to
+report her monthly absences and time off. She expressed that she finds
+it difficult to know exactly where to report her time off and which
+tools to use.
+
+:::image type="content" source="../media/-diego.png" alt-text="Work profile of Diego with head shot and job title." :::
+
+Diego is an IT
+professional at Lamna, which requires him to move around the hospital to
+address help desk tickets submitted by hospital employees. Diego and his
+fellow team members explained that managing so many tickets while moving
+through the hospital can be overwhelming.
+
+You recorded all these findings in a spreadsheet to share with the
+planning team and with additional stakeholders for building and setting
+up Viva Connections, adoption, and post-deployment monitoring.
