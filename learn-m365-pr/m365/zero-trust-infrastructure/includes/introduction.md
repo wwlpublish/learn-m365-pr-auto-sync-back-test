@@ -1,6 +1,6 @@
 Zero Trust embodies the principles of verify explicitly, apply least privileged access, and always assume breach. In our Zero Trust journey, we’re now looking at infrastructure.
 
-:::image type="content" source="../media/zero-trust-infrastructure-banner.png" alt-text="Diagram showing the six pillars that comprise Zero Trust: identity, endpoints, applications, networks, infrastructure and data. Infrastructure is highlighted.":::
+:::image type="content" source="../media/zero-trust-infrastructure-banner.png" alt-text="Diagram showing the six pillars that comprise Zero Trust: identity, endpoints, applications, networks, infrastructure and data. Infrastructure is highlighted." border="false":::
 
 Infrastructure, like air, is all around us. However, for the most part, none of us think about it too much. It just exists. For your organization, IT infrastructure touches and binds together several aspects of the Zero Trust model. Whether you use the cloud or on-premises servers, all IT infrastructure covers the hardware, software, networking, and facilities needed to make an organization operate. Because of its broad coverage, IT infrastructure tends to be targeted more often by cybercriminals.
 

@@ -1,4 +1,4 @@
-To safely benefit from cloud applications, organizations need to achieve a good balance that enables access to apps, while also ensuring and maintaining enough control to protect themselves and their users from risks. A Zero Trust framework empowers your organization to do this. You can:
+To safely benefit from cloud applications, organizations need to achieve a good balance that enables access to apps, while also ensuring and maintaining enough control to protect themselves and their users from risks. A Zero Trust framework empowers your organization to do this. With Zero Trust, you can:
 
 - Apply technologies to control and discover shadow IT.
 - Ensure appropriate permissions for app use.
@@ -7,7 +7,7 @@ To safely benefit from cloud applications, organizations need to achieve a good 
 - Control user actions.
 - Validate secure configuration options.
 
-To achieve these goals, organizations can use a continuous protection process. A Zero Trust approach encourages the implementation of a robust and continuous protection process that looks like this:
+To achieve these goals, organizations can use a continuous protection process. A Zero Trust approach encourages the implementation of a robust and continuous protection process.
 
 :::image type="content" source="../media/process-for-cloud-discovery-and-control.png" alt-text="Diagram shows a circular continuous process for protection. In a clockwise direction, it consists of the following items: discover shadow IT, identify risk levels of your apps, evaluate compliance, analyze usage, manage cloud apps, and continuous monitoring.":::
 
@@ -19,7 +19,7 @@ The process consists of three broad phases:
 
 To achieve this, your organization can use cloud app discovery tools specifically designed to help you to implement the process. These tools will automatically find cloud apps used across the organization, and enable you to:  
 
-- **Assess app risk levels**: For example, through a calculated score, from 1 to 10, to represent an app’s risk.
+- **Assess app risk levels**: For example, through a calculated score from 1 to 10, to represent an app’s risk.
 - **Evaluate app compliance**: Checking whether discovered apps meet compliance requirements for your organization.
 - **Analyze usage patterns**: Understand how individuals use apps and learn about high-risk usage.
 - **Manage apps**: Enforce governance actions such as sanctioning, reviewing, or blocking apps.

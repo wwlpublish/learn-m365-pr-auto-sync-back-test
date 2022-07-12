@@ -26,7 +26,7 @@ quiz:
     - content: "When users in an organization use nonsanctioned apps that might not be compliant"
       isCorrect: true
       explanation: "That's correct. These noncompliant apps could introduce security risks into the organization."
-  - content: "Your organization wants to continuously monitor and respond to suspicious user actions in apps based on risk indicators like sign-in failures, and activities from inactive accounts. How should it do this?"
+  - content: "Your organization wants to continuously monitor and respond to suspicious user actions in apps based on risk indicators like sign-in failures and activities from inactive accounts. How should it do this?"
     choices:
     - content: "Use malware protection."
       isCorrect: false

@@ -4,7 +4,7 @@ title: Identity and access management
 metadata:
   unitType: learning-content
   title: Identity and access management
-  description: Access management begins with a secure identity. Using the Zero Trust framework, this means you apply least privileged access, by assigning the fewest permissions to authorized users. 
+  description: Access management begins with a secure identity. Using the Zero Trust framework, you apply least privileged access by assigning the fewest permissions to authorized users. 
   ms.date: 06/22/2022
   author: beccarobins
   ms.author: beccarobins
