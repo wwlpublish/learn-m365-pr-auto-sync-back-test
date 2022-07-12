@@ -3,8 +3,8 @@ uid: learn-m365.zero-trust-data.introduction
 title: Introduction
 metadata:
   unitType: introduction
-  title: introduction
-  description: "TODO this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the unit; include relevant search keywords."
+  title: Introduction
+  description: Data protection is at the heart of a Zero Trust framework. Inadequately protected data can harm your users and the organization as a whole.
   ms.date: 6/16/2022
   author: beccarobins
   ms.author: beccarobins

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.zero-trust-networks.what-are-networks
+title: What are networks?
+metadata:
+  unitType: learning-content
+  title: What are networks?
+  description: Anytime you use your smartphone or laptop to access the internet, you're using a network to do it. Networks exist everywhere, from your home to your place of work, and the largest network of all is the internet.
+  ms.date: 7/6/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/what-are-networks.md)]

@@ -3,9 +3,9 @@ uid: learn-m365.zero-trust-introduction.introduction
 title: Introduction
 metadata:
   unitType: introduction
-  title: introduction
-  description: "TODO this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the unit; include relevant search keywords."
-  ms.date: 6/16/2022
+  title: Introduction
+  description: Learn about the Zero Trust security model, how it works as a security strategy, the principles it’s based on, and its primary components.
+  ms.date: 06/22/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

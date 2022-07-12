@@ -4,82 +4,46 @@ title: Knowledge check
 metadata:
   unitType: knowledge_check
   title: Knowledge check
-  description: "TODO this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the unit; include relevant search keywords."
-  ms.date: 6/16/2022
+  description: Test what you know.
+  ms.date: 06/22/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 1
-###########################################################################
-###
-### General guidance (https://review.docs.microsoft.com/learn-docs/docs/id-guidance-knowledge-check)
-###  - Questions are complete sentences ending with a question mark
-###  - No true/false questions
-###  - 3 answers per question
-###  - All answers about the same length
-###  - Numeric answers listed in sorted order
-###  - No "All of the above" and/or "None of the above" as answer choices
-###  - No "Not" or "Except" in questions
-###  - No second person ("you") in the questions or answers
-###  - Provide a meaningful explanation for both correct and incorrect answers
-###
-###########################################################################
+durationInMinutes: 4
 content: |
 quiz:
   questions:
-  - content: ""
+  - content: "Why is it important to identify your attack surface?"
     choices:
-    - content: ""
+    - content: "It helps you to understand all the ways in which a cybercriminal could launch an attack."
       isCorrect: true
-      explanation: ""
-    - content: ""
+      explanation: "That's correct. As endpoints become more important to our lives, attack surfaces will continue to get larger and more pervasive. You need to find ways to prevent cybercriminals from exploiting your attack surface."
+    - content: "It's a feature of a modern device management solution that lets you monitor endpoints."
       isCorrect: false
-      explanation: ""
-    - content: ""
+      explanation: "That's incorrect. Identifying your attack surface can help you to investigate useful features for protection but attack surface isn't a feature itself. Instead, think about all the endpoints in an organization. Cybercriminals can exploit a single endpoint, so how would you define its collective endpoints?"
+    - content: "It describes the detailed recommended settings for security to stop an ongoing attack."
       isCorrect: false
-      explanation: ""
-  - content: ""
+      explanation: "That's incorrect. An attack surface doesn't describe settings. Instead, focus on endpoints. Organizations have many endpoints that a cybercriminal can potentially exploit. How would you define its collective endpoints based on this threat?"
+  - content: "Why should you register your endpoints with a cloud identity provider?"
     choices:
-    - content: ""
+    - content: "This enables your organization to update device configurations using compliance policies."
+      isCorrect: false
+      explanation: "That's incorrect. While updated device configurations can help you to protect endpoints, you wouldn't use identity providers to handle device configurations. Instead, think about the purpose of a user account. Why would you need one?"
+    - content: "It enables you to decommission endpoints with a single switch when they're no longer used. "
+      isCorrect: false
+      explanation: "That's incorrect. Identity providers can help you to find endpoints used across your organization, and even block an account associated with an endpoint. But this alone wouldn't be enough to ensure a device can no longer be used."
+    - content: "This enables your organization to see and manage access to endpoints."
       isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
+      explanation: "That's correct. This will enable your organization to monitor and secure access in a way that encompasses all the endpoints that are used by everyone."
+  - content: "Your organization uses compliance policies to satisfy security requirements. What should your organization do for noncompliant devices?"
     choices:
-    - content: ""
+    - content: "Your organization should set remediation rules when you create compliance policies."
       isCorrect: true
-      explanation: ""
-    - content: ""
+      explanation: "That's correct. For example, you can create a rule that alerts the user via email, block the endpoint, or give it a grace period after which the endpoint will be blocked if it isn't compliant."
+    - content: "Your organization should configure security baselines to remediate noncompliant devices."
       isCorrect: false
-      explanation: ""
-    - content: ""
+      explanation: "That's incorrect. While security baselines help define recommended security settings, this alone isn't enough to rectify noncompliant endpoints."
+    - content: "Your organization should update those devices so that they automatically become compliant."
       isCorrect: false
-      explanation: ""
-  - content: ""
-    choices:
-    - content: ""
-      isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
-    choices:
-    - content: ""
-      isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
+      explanation: "That's incorrect. While updating devices is generally a good idea, this alone doesn't necessarily address compliance issues. For example, you might encounter compliance problems that have nothing to do with device updates."

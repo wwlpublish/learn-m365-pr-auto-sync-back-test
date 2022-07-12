@@ -3,9 +3,9 @@ uid: learn-m365.zero-trust-endpoints.introduction
 title: Introduction
 metadata:
   unitType: introduction
-  title: introduction
-  description: "TODO this field is for search engine optimization and is not user-visible; use 2-3 complete, grammatically correct sentences to describe the unit; include relevant search keywords."
-  ms.date: 6/16/2022
+  title: Introduction
+  description: Modern organizations deal with a great variety of endpoints, in larger numbers than ever before. They all require access to carry out a task or enable users to do their daily work. 
+  ms.date: 06/22/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
