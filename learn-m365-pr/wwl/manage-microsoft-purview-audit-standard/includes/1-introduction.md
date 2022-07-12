@@ -17,4 +17,3 @@ After completing this module, you'll be able to:
  -  Set up and implement audit log searching using the Audit (Standard) solution.
  -  Export, configure, and view audit log records.
  -  Use audit log searching to troubleshoot common support issues.
-
