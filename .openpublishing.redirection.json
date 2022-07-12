@@ -4334,6 +4334,16 @@
       "source_path": "learn-m365-pr/wwl/manage-apps-for-microsoft-teams/11-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/manage-apps-for-microsoft-teams/15-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-security-for-microsoft-teams/07-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-security-for-microsoft-teams/08-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-security-for-microsoft-teams/08-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-security-for-microsoft-teams/09-summary",
+      "redirect_document_id": true
     }
   ]
 }
