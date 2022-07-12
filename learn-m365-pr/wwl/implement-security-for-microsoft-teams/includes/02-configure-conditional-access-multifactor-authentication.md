@@ -1,3 +1,4 @@
+
 When users connect to your Teams system using their device, they may inadvertently introduce security loopholes because of the apps and configurations present on that device. One approach to prevent such loopholes is to set policies that test devices and users, then decide on their level of access based on the results. You can implement such an approach by using Conditional Access in Microsoft Teams.
 
 ## Conditional Access
@@ -8,13 +9,13 @@ Conditional Access policies are if-then statements that allow security professio
 
 A Conditional Access policy is made of if-then statements of **Assignments** and **Access controls**. The assignment part of the policy controls the who, what, and where of the Conditional Access policy. The access part of the policy controls how it's enforced. Based on the assignments, it may **grant access**, **block access**, or grant access provided one or more **additional conditions** is met.
 
-:::image type="content" source="../media/conditional-access.png" alt-text="Screenshot of conditional access":::
+:::image type="content" source="../media/conditional-access.png" alt-text="Screenshot of conditional access.":::
 
 ## Multifactor authentication
 
 Multifactor authentication (MFA) is the process of prompting a user for an additional form of identification during sign-in. They might be asked to enter a code on their cell phone or to provide a fingerprint scan. MFA dramatically decreases the chances of user accounts being compromised. Requiring MFA for all users will significantly improve identity security for your organization.
 
-:::image type="content" source="../media/multifactor-authentication.png" alt-text="MFA authentication and verification methods":::
+:::image type="content" source="../media/multifactor-authentication.png" alt-text="Diagram that shows M F A authentication and verification methods.":::
 
 ## Conditional Access policy enforcement
 
@@ -26,7 +27,7 @@ Conditional Access policies can be set for Teams. However, Teams is integrated w
 
 The following diagram illustrates Teams service dependencies. Solid arrows indicate early-bound enforcement; the dashed arrow for Planner indicates late-bound enforcement.
 
-:::image type="content" source="../media/teams-service-dependency.png" alt-text="MS Teams service dependencies":::
+:::image type="content" source="../media/teams-service-dependency.png" alt-text="Diagram that shows Microsoft Teams service dependencies.":::
 
 ## Configure multifactor authentication for Teams
 
@@ -36,9 +37,9 @@ Following are sample steps to create a Conditional Access policy for users in Sa
 
 2. On the left pane, select **All services** and search for **Conditional access**, and then select **Azure AD Conditional Access**.
 
-3. On the **Conditional Access - Policies** page, select **New Policy.**
+3. On the **Conditional Access - Policies** page, select **+ New Policy** > **Create new Policy**.
 
-	:::image type="content" source="../media/conditional-access-new-policy.png" alt-text="Conditional Access New policy":::  
+	:::image type="content" source="../media/conditional-access-new-policy.png" alt-text="Screenshot of creating a new Conditional Access policy.":::  
 
 4. On the **New** page, insert the following information in the corresponding fields in the sections of the left navigation menu:
 
@@ -50,7 +51,7 @@ Following are sample steps to create a Conditional Access policy for users in Sa
 
 		* Select **Cloud apps or actions** that you would like to apply the policy, and from the list of the apps, choose **Microsoft Teams**.
 
- 			:::image type="content" source="../media/conditional-access-teams.png" alt-text="Conditional Access Teams":::
+ 			:::image type="content" source="../media/conditional-access-teams.png" alt-text="Screenshot of adding Teams to Conditional Access policy.":::
 
 		* Select **Conditions** that you would like to include in the policy, such as the level of sign-in risk, device platform, physical locations, client apps, and device state.
 
@@ -58,12 +59,10 @@ Following are sample steps to create a Conditional Access policy for users in Sa
 
 		* Select **Grant** to choose which controls will be enforced, such as multifactor authentication.
 
-			:::image type="content" source="../media/conditional-access-multifactor-authentication.png" alt-text="A screenshot of Conditional Access MFA":::
+			:::image type="content" source="../media/conditional-access-multifactor-authentication.png" alt-text="Screenshot of configuring M F A in Conditional Access policy.":::
 
 		* Select **Session** if you need to configure limited experience within a cloud app, such as app enforced restriction.
 
 5. Enable policy by selecting **On** in the **Enable policy** section and then click **Create**.
 
-## Knowledge check
 
-Choose the best response for the following question. Then select “Check your answers.”
