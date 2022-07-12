@@ -7,7 +7,7 @@ As the boundaries of our networks expand, devices, services, and apps can now al
 Zero Trust isn't a tool, but a security model that employs three principles:
 
 - **Verify explicitly** – always authenticate and authorize using all available information including location, identity, service or device health, and more.
-- **Use the least privilege** – provide only enough network access to enable users, services, and apps to do what they need, and only when they need it.
+- **Use least privilege access** – provide only enough network access to enable users, services, and apps to do what they need and _only_ when they need it.
 - **Assume breach** – assume that everyone and everything trying to access your network is a cybercriminal or malware and limit access.
 
 :::image type="content" source="../media/zero-trust-banner-networks.png" alt-text="Diagram showing the six pillars that comprise Zero Trust: identity, endpoints, applications, network, infrastructure, and data. Network is highlighted." border="false":::
