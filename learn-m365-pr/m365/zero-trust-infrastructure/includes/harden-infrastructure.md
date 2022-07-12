@@ -1,4 +1,4 @@
-To prevent resources falling into the wrong hands, it’s critical to ensure that your infrastructure is protected, and you have the appropriate security processes and technology in place. Enforcing a Zero Trust strategy strengthens the security posture of your resources. Some common ways you can harden or secure your infrastructure are:
+To prevent resources falling into the wrong hands, it’s critical to ensure that your infrastructure is protected, and you have the appropriate security processes and technology in place. Enforcing a Zero Trust strategy strengthens the security posture of your resources. Some common ways you can _harden_, or secure, your infrastructure are:
 
 - Implement threat detection systems
 - Improve hardware configuration to plug gaps in your security perimeter
