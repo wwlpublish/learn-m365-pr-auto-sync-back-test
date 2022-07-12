@@ -1,4 +1,4 @@
-The traditional perimeter-based approach to defense is heavily based on protecting network access. The emphasis is on restricting everything to a “secure” network with on-premises firewalls and Virtual Private Networks (VPNs). These can be defined as:
+The traditional perimeter-based approach to defense is heavily based on protecting network access. The emphasis is on restricting everything to a "secure" network with on-premises firewalls and Virtual Private Networks (VPNs). These can be defined as:
 
 - **Firewall**: A firewall is a network security device that filters the incoming and outgoing network traffic. In the absence of a firewall, your network accepts all connection requests from everyone. If in place, a firewall prevents unwanted traffic and malicious software from reaching your network.
 - **Virtual Private Network**: A Virtual Private Network (VPN) is a secure connection from one network to another. For example, while using a public Wi-Fi network available at a coffee shop or an airport, you sign into a VPN using a password. A VPN connects your device securely to the internet and ensures your:
@@ -7,7 +7,7 @@ The traditional perimeter-based approach to defense is heavily based on protecti
   - Data is encrypted.
   - Identity is maintained as anonymous.
 
-The traditional approach assumes that everything within the network security perimeter is safe and divides users into two categories: “trusted” and “untrusted”. For example, anyone who works on-premises and uses a device owned by the organization, inside the clearly defined network perimeter, is deemed as a “trusted user”. They'll have access to data, applications, and information within the organization. This also means that someone who connects a bring your own device (BYOD) to the corporate network is considered an authorized user and has access to the resources.
+The traditional approach assumes that everything within the network security perimeter is safe and divides users into two categories: "trusted" and "untrusted". For example, anyone who works on-premises and uses a device owned by the organization, inside the clearly defined network perimeter, is deemed as a "trusted user". They'll have access to data, applications, and information within the organization. This also means that someone who connects a bring your own device (BYOD) to the corporate network is considered an authorized user and has access to the resources.
 
 The perimeter security model puts organizations at risk from the following:
 

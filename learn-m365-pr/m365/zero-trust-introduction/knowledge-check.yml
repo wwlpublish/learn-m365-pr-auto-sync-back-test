@@ -37,7 +37,7 @@ quiz:
     - content: "The Zero Trust approach advocates protection across all domains as they could be vulnerable entry points for cybercriminals to exploit."
       isCorrect: true
       explanation: "That's correct. The Zero Trust strategy asserts that each of these areas maintain their own security and compliance posture."
-  - content: "Zero Trust is based on the principles of verify explicitly, use least privilege access, and assume breach. What does the principle of “assume breach” imply?"
+  - content: "Zero Trust is based on the principles of verify explicitly, use least privilege access, and assume breach. What does the principle of "assume breach" imply?"
     choices:
     - content: "This principle asserts that the users and devices within the organization can be trusted."
       isCorrect: false
