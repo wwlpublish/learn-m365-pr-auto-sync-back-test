@@ -19,7 +19,7 @@ quiz:
     choices:
     - content: SIEM generates alerts of a potential threat. SOAR integrates SIEM and other security tools, triggers alerts, and takes remediation steps.
       isCorrect: true
-      explanation: That's correct. Both SOAR and SIEM platforms collect security data, evaluate threats and trigger alerts. However, SIEM doesn't address the process required for incident response.
+      explanation: That's correct. Both SOAR and SIEM platforms collect security data, evaluate threats, and trigger alerts. However, SIEM doesn't address the process required for incident response.
     - content: SIEM focuses on automation whereas SOAR requires more human intervention to complete the tasks.
       isCorrect: false
       explanation: That's incorrect. SIEM requires human resources to handle security events whereas SOAR leverages artificial intelligence to automate threat detection, investigation, and incident response. SOAR works with both automated and manual processes.
