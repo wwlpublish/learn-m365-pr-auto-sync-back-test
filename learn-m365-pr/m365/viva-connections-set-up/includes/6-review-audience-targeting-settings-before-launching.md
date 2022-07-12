@@ -1,78 +1,155 @@
-<!-- 1. Topic sentence(s) --------------------------------------------------------------------------------
+[[Audience targeting](/viva/connections/use-audience-targeting-in-viva-connections)
+can be applied to components of the Viva Connections experience.
+Audience targeting filters content by Azure Active Directory (ADD)
+groups set up by your administrators. Often ADD groups are set up for
+distinct roles and regions, and it is likely an individual will belong
+to several ADD groups.](mailto:Holland.Kaviani@microsoft.com)
 
-    Goal: briefly summarize the key skill this unit will teach
+**Example of an audience targeting**
+**field:**
 
-    Heading: none
+:::image type="content" source="../media/audience-targeting-field.png" alt-text="Screenshot of the audience targeting field." :::
+Audience targeting settings are usually applied in the flow of creating
+the Dashboard, preparing content for the Feed, and setting up Resources
+in SharePoint global navigation. Settings can be applied and edited at
+any time. Audience targeting settings will apply to both the desktop and
+mobile experiences.
 
-    Example: "Organizations often have multiple storage accounts to let them implement different sets of requirements."
+**Summary of where audience targeting can be applied for each
+component:**
 
-    [Learning-unit introduction guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-introductions?branch=main#rule-use-the-standard-learning-unit-introduction-format)
--->
-TODO: add your topic sentence(s)
+|Dashboard cards|SharePoint news posts|Links in Resources|
+|---------------|---------------------|------------------|
+|:::image type="content" source="../media/vc_mobile-dashboard.png" alt-text="Screenshot of the dashboard mobile view.":::|:::image type="content" source="../media/vc_mobile-feed.png" alt-text="Screenshot of the Feed mobile view.":::|:::image type="content" source="../media/vc_mobile-resources.png" alt-text="Screenshot of the Resources mobile view.":::|
+|Each card on the Dashboard can be targeted to a specific audience by selecting Edit and then adding one or more audience to the Audience targeting field.|SharePoint news posts can be targeted to specific audiences to filter news posts that are displayed in the Feed. Learn more about targeting news posts.To influence the hierarchy of SharePoint news posts in the Feed, use the News Boost feature.|Navigational links that get set up in SharePoint global navigation that display as Resources in the Viva Connections experience can be targeted. <br> From the home site, select Settings, and then Global navigation. Turn on Audience targeting and then Edit labels and links. Add one or more audiences in the Audience targeting field and select Save.|
 
-<!-- 2. Scenario sub-task --------------------------------------------------------------------------------
+:::image type="icon" source="../media/story-telling-logo-white-bg.png"  :::
 
-    Goal: Describe the part of the scenario that will be solved by the content in this unit
+### Learn how Lamna Healthcare applies audience targeting
 
-    Heading: none, combine this with the topic sentence into a single paragraph
+At Lamna Healthcare, it is common to see employees belong to multiple
+[Azure Active Directory (AAD)
+groups](/azure/active-directory/fundamentals/active-directory-manage-groups).
+Let’s see how each AAD group affect what Lamna employee affect see in
+each component Viva Connections.](mailto:Holland.Kaviani@microsoft.com)
 
-    Example: "In the shoe-company scenario, we will use a Twitter trigger to launch our app when tweets containing our product name are available."
--->
-TODO: add your scenario sub-task
+#### Lamna Healthcare - audience targeting for Dashboard cards
 
-<!-- 3. Prose table-of-contents --------------------------------------------------------------------
+Cards on the Dashboard are filtered to specific AAD groups using
+audience targeting. As a result, certain groups will see different
+content. Let’s see how Lamna Healthcare employees’ AAD group settings
+impact what cards they see in
+Dashboard.
 
-    Goal: State concisely what's covered in this unit
+| **AAD group**      | Work-life balance and wellbeing | Shuttle schedule | Café menu | Shifts | Submit time off | Benefits Self-service| Approval for purchase |
+|---------|------|-------|-----|----------|-----------------|-----------|---------|
+| All Employees |&check; |&check; |&check; | | | | |
+| Hourly |   | | | &check;| | | |
+| Full time |  | | | | &check;| | |
+| Benefits eligible |   | | | | |&check; | |
+| People Manager |   | | | | | |&check; |
+| Finance professional |   | | | | | |&check; |
 
-    Heading: none, combine this with the topic sentence into a single paragraph
+:::image type="content" source="../media/-nicoletta.png" alt-text="Diagram of Nicoletta's profile head shot and job title." :::
 
-    Example: "Here, you will learn the policy factors that are controlled by a storage account so you can decide how many accounts you need."
--->
-TODO: write your prose table-of-contents
+Nicoletta, a member of Lamna’s janitorial staff working at Region D, is
+an hourly paid employee. She works over 30 hours a week and is eligible
+for healthcare and vacation benefits. Nicoletta belongs to the AAD
+groups of: *Hourly paid*, *Region D*, and *Benefits eligible*. In her
+Viva Connections Dashboard, Nicoletta sees the Shifts card, the Benefits
+self-service card and other cards that are available for all Lamna
+employees.
 
-<!-- 4. Visual element (highly recommended) ----------------------------------------------------------------
+:::image type="content" source="../media/-kendall.png" alt-text="Diagram of Kendall's profile head shot and job title." :::
 
-    Goal: Visual element, like an image, table, list, code sample, or blockquote. Ideally, you'll provide an image that illustrates the customer problem the unit will solve; it can use the scenario to do this or stay generic (i.e. not address the scenario).
+Kendal is a part time nurse working 20 hours a week at Region C of
+Lamna Healthcare. He is paid hourly, but not eligible for benefits since
+he works less than 20 hours a week. He belongs to the ADD groups of:
+*Medical professional*, *Hourly paid*, and *Region C*. In his Viva
+Connections Dashboard, Kendal sees the Shifts card, and other cards that
+are available for all Lamna
+employees.
 
-    Heading: none
--->
-TODO: add a visual element
+:::image type="content" source="../media/-amber.png" alt-text="Diagram of Amber's profile head shot and job title." :::
 
-<!-- 5. Chunked content-------------------------------------------------------------------------------------
+Amber is a full-time people manager working at Lamna Healthcare Region
+A. So, she belongs to the AAD groups of: *FTE* (Full Time Employee),
+*Benefits eligible*, *People manager*, and *Region A*. In her Viva
+Connections Dashboard, Amber sees the Submit time off card, the Approval
+for purchase card, the Benefits self-service card, and other cards that
+are available for all Lamna
+employees.
 
-    Goal: Provide all the information the learner needs to perform this sub-task.
+#### Lamna Healthcare - audience targeting for Feed
 
-    Structure: Break the content into 'chunks' where each chunk has three things:
-        1. An H2 or H3 heading describing the goal of the chunk
-        2. 1-3 paragraphs of text
-        3. Visual like an image, table, list, code sample, or blockquote.
+Content in the Feed automatically gets aggregated into one central
+location based on the SharePoint sites and Yammer communities that they
+follow. Content in the Feed will be unique for each viewer. Some content
+in the Feed can be targeted by ensuring certain AAD groups have visitor
+permissions to [organizational news
+sites](/sharepoint/organization-news-site)
+and [Yammer
+communities](https://techcommunity.microsoft.com/t5/yammer-blog/10-yammer-communities-considered-the-backbone-of-many-yammer/ba-p/681007)
+at Lamna Healthcare. Let’s see how Lamna Healthcare employees’ AAD
+settings for organizational news and announcements impact what they see
+in their Feed:
 
-    [Learning-unit structural guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-structure-learning-content?branch=main)
--->
+| **AAD group**      | General news | Region A news | Region B news | Region C news | Region D news | News for people managers| News for finance professionals |News for medical professionals|
+|---------|------|-------|-----|----------|-----------------|-----------|---------|----|
+| All Employees |&check; | | | | | | | |
+| People Manager |   | | || |&check; | | |
+| Finance professional |  | | | | | |&check; | |
+| Medical Professional |   | | | |  | | |&check; |
+| Region A |   | &check;| | | | | | |
+| Region B |   | | &check;| | | | | |
+| Region C |   | | | &check;|  | | | |
+| Region D |   | | | | &check; | | | |
 
-<!-- Pattern for simple chunks (repeat as needed) -->
-## H2 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list, code sample, blockquote)
-Paragraph (optional)
-Paragraph (optional)
+Since Nicoletta works at Region D, in her Feed, Nicoletta gets news for
+all Lamna Healthcare units, and local news for the Region D
+hospital.
 
-<!-- Pattern for complex chunks (repeat as needed) -->
-## H2 heading
-Strong lead sentence; remainder of paragraph.
-Visual (image, table, list)
-### H3 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list)
-Paragraph (optional)
-### H3 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list)
-Paragraph (optional)
+Kendal works at Region C. Therefore, in his Feed, Kendal gets news for
+all Lamna Healthcare units, and local news for the Region C hospital.
+Because Kendal is a part time nurse, he also gets news specifically for
+medical professionals, which are for both nurses and
+physicians.
 
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+Amber works in Region A, so in her Feed, Amber gets news for all Lamna
+Healthcare units, and local news for Region A. In addition, Amber gets
+news specifically for people
+managers.
 
-<!-- Do not add a unit summary or references/links -->
+#### Lamna Healthcare audience targeting for Resources
+
+Navigational links that get set up in SharePoint global navigation will
+display as Resources in the Viva Connections experience. These
+navigational links can be filtered to specific audiences using AAD
+groups for audience targeting. Finally, let’s see how Lamna Healthcare
+employees’ AAD settings affect what they see in their
+Resources:
+
+| **AAD group**      | General resources |Benefits forms | Forms and resources for people managers | Finance forms | Resources for medical professionals |
+|---------|------|-------|-----|----------|-----------------|
+| All Employees |&check; | | | | |
+| Hourly |   | | | | |
+| Full time |   | | | | |
+| Benefits eligible |   | &check;| | | |
+| People Manager |   | | || |&check; |&check; | |
+| Finance professional |  | | |&check; | |
+| Medical Professional |   | | | |&check; |
+
+As fulltime employees, both Nicoletta and Amber are eligible for
+benefits, so they both has access to the links to Lamna Healthcare
+Benefits related pages and forms from their Viva Connections Resources
+tab.
+
+Kendal is part time. He does not see the links to Lamna Healthcare
+Benefits related pages and forms from his Viva Connections Resources
+since he does not belong to the Benefits Eligible AAD group. As a nurse,
+Kendal can see links to resources for medical
+professionals.
+
+In addition to links to benefits related resources, as a people
+manager, Amber can access resources and forms for people managers and
+some finance forms.
