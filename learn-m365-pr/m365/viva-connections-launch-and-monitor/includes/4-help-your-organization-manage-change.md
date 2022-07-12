@@ -1,78 +1,69 @@
-<!-- 1. Topic sentence(s) --------------------------------------------------------------------------------
+Adapting to any form of new technology can seem daunting at first. To
+make your employees feel supported through this change you can establish
+change management best practices. More importantly, make sure different
+roles and regions throughout the organization understand how Viva
+Connections will provide immediate value in their day-to-day work.
 
-    Goal: briefly summarize the key skill this unit will teach
+**Change management strategies:**
 
-    Heading: none
+-   Continue to engage early adopters and
+    [champions](https://adoption.microsoft.com/roles/champion/) with
+    their enthusiasm and expertise to engage the rest of the
+    organization during meetings or training sessions. Consider getting
+    certified as a Microsoft Service Adoption Specialist using the
+    Microsoft Service adoption framework.
+-   Organize opportunities for live demonstrations of useful features
+    like the Dashboard, Feed, Resource, and how these components can
+    make their tasks and responsibilities easier.
+-   Find corporate sponsors in leadership positions who can help promote
+    the use of new tools.
+-   Use other Viva platforms like Viva Learning to share curated
+    training on how to use the platform.
+-   Connect employees to [Microsoft’s training for
+    end-users](https://support.microsoft.com/en-us/office/viva-connections-on-your-desktop-3da30f39-684a-4bde-bb81-2e1407d59b52)
+    to promote adoption.
+-   Set up weekly training sessions and user groups that appeal to
+    specific roles and workflows.
+-   Ask end users for feedback and provide multiple ways to connect so
+    that the experience can be improved over time.
+-   Create an open channel for questions in Teams and Yammer.
+-   Make sure help is always available as employees begin using Viva
+    Connections.
+-   Over the first 90 days, regularly revisit your organization’s
+    success metrics to track progress and learn more about how audiences
+    engage with Viva Connections.
+-   Use multiple channels and techniques such as posters, emails, campaigns, training, user groups to inform, engage, train, and reinforce the adoption of Viva Connections and its security compliance.
 
-    Example: "Organizations often have multiple storage accounts to let them implement different sets of requirements."
+:::image type="logo" source="../media/story-telling-logo-white-bg.png" :::
 
-    [Learning-unit introduction guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-introductions?branch=main#rule-use-the-standard-learning-unit-introduction-format)
--->
-TODO: add your topic sentence(s)
+### Learn how Lamna Healthcare manages the change with the adoption
 
-<!-- 2. Scenario sub-task --------------------------------------------------------------------------------
+As the Internal Communications Manager, you successfully recruited
+champions for the adoption of Viva Connections at each hospital
+location. Now, they can help their colleagues adopt Viva Connections in
+their own units.
 
-    Goal: Describe the part of the scenario that will be solved by the content in this unit
+:::image type="content" source="../media/-cora.png" alt-text="Diagram of profile head shot of Cora and her job title.":::
+For
+example, Cora was a part of the testing and a champion for Viva
+Connections at the Department of Physicians & Nurses of Lamna
+Healthcare. She is enthusiastic about Viva Connections and is excited to
+help her colleagues use it. Cora knows that several people on her team
+aren’t comfortable using new technology right away. Even though the
+current system of manually clocking in and out of shifts on a shared
+computer is frustrating and laborious, her team is used to the system.
+Anticipating their reluctance to change, Cora offers to provide a series
+of 10-minute hands-on mini training sessions during lunch breaks to help
+her colleagues learn how to use Viva Connections to clock in and out on
+their phones. Cora also posts more information on the announcement board
+in the break room close to where employees' clock in and out. The
+posters, provided by the Internal Communications manager, break down the
+new logging process in three simple steps, which makes it easy for
+Cora’s colleagues to learn about it.
 
-    Heading: none, combine this with the topic sentence into a single paragraph
-
-    Example: "In the shoe-company scenario, we will use a Twitter trigger to launch our app when tweets containing our product name are available."
--->
-TODO: add your scenario sub-task
-
-<!-- 3. Prose table-of-contents --------------------------------------------------------------------
-
-    Goal: State concisely what's covered in this unit
-
-    Heading: none, combine this with the topic sentence into a single paragraph
-
-    Example: "Here, you will learn the policy factors that are controlled by a storage account so you can decide how many accounts you need."
--->
-TODO: write your prose table-of-contents
-
-<!-- 4. Visual element (highly recommended) ----------------------------------------------------------------
-
-    Goal: Visual element, like an image, table, list, code sample, or blockquote. Ideally, you'll provide an image that illustrates the customer problem the unit will solve; it can use the scenario to do this or stay generic (i.e. not address the scenario).
-
-    Heading: none
--->
-TODO: add a visual element
-
-<!-- 5. Chunked content-------------------------------------------------------------------------------------
-
-    Goal: Provide all the information the learner needs to perform this sub-task.
-
-    Structure: Break the content into 'chunks' where each chunk has three things:
-        1. An H2 or H3 heading describing the goal of the chunk
-        2. 1-3 paragraphs of text
-        3. Visual like an image, table, list, code sample, or blockquote.
-
-    [Learning-unit structural guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-structure-learning-content?branch=main)
--->
-
-<!-- Pattern for simple chunks (repeat as needed) -->
-## H2 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list, code sample, blockquote)
-Paragraph (optional)
-Paragraph (optional)
-
-<!-- Pattern for complex chunks (repeat as needed) -->
-## H2 heading
-Strong lead sentence; remainder of paragraph.
-Visual (image, table, list)
-### H3 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list)
-Paragraph (optional)
-### H3 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list)
-Paragraph (optional)
-
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
-<!-- Do not add a unit summary or references/links -->
+Working with HR and the training and personal development team, you
+curate a series of self-paced training courses for Viva Connections and
+make them available on channels that will reach specific audiences.
+Training materials consist of short tutorial videos and demonstrations
+on how to use the Dashboard, the Feeds, and Resources for specific roles
+and tasks.
