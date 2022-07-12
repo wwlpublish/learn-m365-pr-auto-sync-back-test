@@ -1,78 +1,78 @@
-<!-- 1. Topic sentence(s) --------------------------------------------------------------------------------
+Viva Connections optimizes communication and productivity by connecting
+you with the right tools, people, and information you need to do your
+best work and build skills faster.
 
-    Goal: briefly summarize the key skill this unit will teach
+Whether you’re on desktop or mobile, Viva Connections brings together
+relevant news, conversations, and resources into Microsoft Teams where
+it’s easy to share, collaborate, and chat all in one place.
 
-    Heading: none
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Vpnn]
 
-    Example: "Organizations often have multiple storage accounts to let them implement different sets of requirements."
+**Dashboard**
 
-    [Learning-unit introduction guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-introductions?branch=main#rule-use-the-standard-learning-unit-introduction-format)
--->
-TODO: add your topic sentence(s)
+:::image type="content" source="../media/vc-dashboard-both.png" alt-text="Screenshots of Dashboard on both desktop and mobile phone.":::
 
-<!-- 2. Scenario sub-task --------------------------------------------------------------------------------
+[The Dashboard is a digital toolset that brings together tools and resources as Dashboard cards.](/viva/connections/viva-connections-overview#viva-connections-dashboard)
+The Dashboard enables you to create a curated experience using dynamic cards that give employees access to high-impact tools, news, and resources needed for their jobs. [Dashboard cards can be targeted to specific roles and regions](/viva/connections/use-audience-targeting-in-viva-connections)
+to make sure the tools are easy to identify, and resources are relevant
+to the viewer.
 
-    Goal: Describe the part of the scenario that will be solved by the content in this unit
+**Feed**
 
-    Heading: none, combine this with the topic sentence into a single paragraph
+:::image type="content" source="../media/vc-feed-both.png" alt-text="Screenshots of Feed on both desktop and mobile phone.":::
 
-    Example: "In the shoe-company scenario, we will use a Twitter trigger to launch our app when tweets containing our product name are available."
--->
-TODO: add your scenario sub-task
+[The Feed](/viva/connections/viva-connections-overview#viva-connections-feed)
+displays organizational news and content from the SharePoint sites and
+Yammer communities that the viewer follows. The Feed automatically
+incorporates fresh and engaging content from across the organization to
+keep users interested, while also ensuring that they see the most
+important messages. Users will see content from SharePoint news posts,
+Yammer community posts, and Stream videos in SharePoint. As an
+organization, you can use the News boosts, audience targeting, and
+Yammers “Featured” options to [influence the content hierarchy in the](/viva/connections/faqs-viva-connections-feed#question-what-are-the-available-controls-to-influence-content-in-the-feed)
+Feed, so your employees don’t miss out on important information.
 
-<!-- 3. Prose table-of-contents --------------------------------------------------------------------
+**Resources**
 
-    Goal: State concisely what's covered in this unit
+:::image type="content" source="../media/vc-resources-both.png" alt-text="Screenshots of Resources on both desktop and mobile phone.":::
 
-    Heading: none, combine this with the topic sentence into a single paragraph
+[Resources](/viva/connections/viva-connections-overview#viva-connections-resources)
+are the navigational links that allow you to navigate to sites, news,
+files, and more. Resources can be accessed as a tab in the mobile app
+and by selecting the Viva Connections icon twice in the Microsoft Teams
+app bar on desktop. You can set up and customize Resources in the
+[SharePoint app
+bar](/viva/connections/sharepoint-app-bar)
+from your home site. Like the Dashboard and the Feed, [links can be
+audience
+targeted](/viva/connections/use-audience-targeting-in-viva-connections)
+so the navigation is relevant to the user and their role.
 
-    Example: "Here, you will learn the policy factors that are controlled by a storage account so you can decide how many accounts you need."
--->
-TODO: write your prose table-of-contents
+**Desktop experience**
 
-<!-- 4. Visual element (highly recommended) ----------------------------------------------------------------
+:::image type="content" source="../media/vc-desktop.jpg" alt-text="Screenshots of the desktop experience of Viva Connections.":::
 
-    Goal: Visual element, like an image, table, list, code sample, or blockquote. Ideally, you'll provide an image that illustrates the customer problem the unit will solve; it can use the scenario to do this or stay generic (i.e. not address the scenario).
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4THB8]
 
-    Heading: none
--->
-TODO: add a visual element
+On desktop, Viva Connections integrates your SharePoint [home site](/viva/connections/create-sharepoint-home-site-for-viva-connections)and [global navigation](/viva/connections/sharepoint-app-bar)
+with Microsoft Teams. The desktop experience allows you to navigate to SharePoint sites, organizational news, and other content without leaving Teams. You can search and share intranet content in chats, teams, or channels, making collaboration easier than ever.
 
-<!-- 5. Chunked content-------------------------------------------------------------------------------------
+Add the [Dashboard](/viva/connections/use-dashboard-web-part-on-home-site) and [Feed](/viva/connections/use-feed-web-part-for-viva-connections) web parts to your SharePoint home site to complete the Viva Connections experience on the desktop app.
 
-    Goal: Provide all the information the learner needs to perform this sub-task.
+**Mobile view**
 
-    Structure: Break the content into 'chunks' where each chunk has three things:
-        1. An H2 or H3 heading describing the goal of the chunk
-        2. 1-3 paragraphs of text
-        3. Visual like an image, table, list, code sample, or blockquote.
+:::image type="content" source="../media/vc-three-components-mobile.png" alt-text="Screenshots of mobile experience of Viva Connections.":::
 
-    [Learning-unit structural guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-structure-learning-content?branch=main)
--->
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4TpyN]
 
-<!-- Pattern for simple chunks (repeat as needed) -->
-## H2 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list, code sample, blockquote)
-Paragraph (optional)
-Paragraph (optional)
+On mobile, the Viva Connections app is anchored around three key
+concepts: Dashboard, Feed, and Resources. The mobile app displays the
+Dashboard as the default tab in the Viva Connections app in the
+Microsoft Teams app bar. Like the desktop experience, the mobile
+experience allows you to navigate to SharePoint sites, organizational
+news, and other important content without leaving Teams.
 
-<!-- Pattern for complex chunks (repeat as needed) -->
-## H2 heading
-Strong lead sentence; remainder of paragraph.
-Visual (image, table, list)
-### H3 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list)
-Paragraph (optional)
-### H3 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list)
-Paragraph (optional)
-
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
-<!-- Do not add a unit summary or references/links -->
+Viva Connections offers a variety of extensibility solutions. To learn
+about how the desktop experience and dashboard cards can be extended,
+take [the Extend Microsoft Viva Connections Learning
+path](/learn/paths/m365-extend-viva-connections/).

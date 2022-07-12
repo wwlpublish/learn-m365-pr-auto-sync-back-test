@@ -1,78 +1,9 @@
-<!-- 1. Topic sentence(s) --------------------------------------------------------------------------------
+Before installing and setting up Viva Connections for your organization[, certain technical requirements must be in place](/viva/connections/plan-viva-connections#step-1-meet-technical-requirements). More information on technical requirements will be reviewed in depth in [module 2](/learn/modules/viva-connections-plan).
 
-    Goal: briefly summarize the key skill this unit will teach
+**Step 1 – Create a home site**: Create a SharePoint communication site
+and [set it as a home site in the SharePoint admin center](/sharepoint/home-site). Home sites activate special features and provide a landing portal for the entire organization. [Learn more about how to plan, build, and launch a home site](/viva/connections/home-site-plan).
+Once a home site has been created, you’ll be able to [create the Dashboard](/viva/connections/create-dashboard).
 
-    Heading: none
+**Step 2 – Customize global navigation:** [Enable global navigation for the SharePoint application bar](/viva/connections/sharepoint-app-bar). This customizable feature allows users to find the information that’s most important to them such as news, sites, and files anywhere in SharePoint. Navigational links in global navigation get inherited by the Viva Connections Resource experience. Without setting up global navigation, there won't be any links in the Resources tab in the mobile app.
 
-    Example: "Organizations often have multiple storage accounts to let them implement different sets of requirements."
-
-    [Learning-unit introduction guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-introductions?branch=main#rule-use-the-standard-learning-unit-introduction-format)
--->
-TODO: add your topic sentence(s)
-
-<!-- 2. Scenario sub-task --------------------------------------------------------------------------------
-
-    Goal: Describe the part of the scenario that will be solved by the content in this unit
-
-    Heading: none, combine this with the topic sentence into a single paragraph
-
-    Example: "In the shoe-company scenario, we will use a Twitter trigger to launch our app when tweets containing our product name are available."
--->
-TODO: add your scenario sub-task
-
-<!-- 3. Prose table-of-contents --------------------------------------------------------------------
-
-    Goal: State concisely what's covered in this unit
-
-    Heading: none, combine this with the topic sentence into a single paragraph
-
-    Example: "Here, you will learn the policy factors that are controlled by a storage account so you can decide how many accounts you need."
--->
-TODO: write your prose table-of-contents
-
-<!-- 4. Visual element (highly recommended) ----------------------------------------------------------------
-
-    Goal: Visual element, like an image, table, list, code sample, or blockquote. Ideally, you'll provide an image that illustrates the customer problem the unit will solve; it can use the scenario to do this or stay generic (i.e. not address the scenario).
-
-    Heading: none
--->
-TODO: add a visual element
-
-<!-- 5. Chunked content-------------------------------------------------------------------------------------
-
-    Goal: Provide all the information the learner needs to perform this sub-task.
-
-    Structure: Break the content into 'chunks' where each chunk has three things:
-        1. An H2 or H3 heading describing the goal of the chunk
-        2. 1-3 paragraphs of text
-        3. Visual like an image, table, list, code sample, or blockquote.
-
-    [Learning-unit structural guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-structure-learning-content?branch=main)
--->
-
-<!-- Pattern for simple chunks (repeat as needed) -->
-## H2 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list, code sample, blockquote)
-Paragraph (optional)
-Paragraph (optional)
-
-<!-- Pattern for complex chunks (repeat as needed) -->
-## H2 heading
-Strong lead sentence; remainder of paragraph.
-Visual (image, table, list)
-### H3 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list)
-Paragraph (optional)
-### H3 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list)
-Paragraph (optional)
-
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
-<!-- Do not add a unit summary or references/links -->
+**Step 3 – Audit and modernize sites and content**: Ensure sites that will receive a high volume of traffic are [modernized](/sharepoint/dev/transform/modernize-classic-sites). For example, if you create cards on the Dashboard that link to HR (Human Resources) portals, you'll want to ensure the HR portal is modern and meets [healthy portal guidelines](/sharepoint/portal-health). Sites that haven't been modernized will open in a separate browser window instead of in Microsoft Teams.

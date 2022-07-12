@@ -1,104 +1,97 @@
-<!-- 1. Topic sentence(s) --------------------------------------------------------------------------------
+## Lamna Healthcare
 
-    Goal: remind the learner of the core idea(s) from the preceding learning-content unit (without mentioning the details of the exercise or the scenario)
+:::image type="icon" source="../media/lamna-logo-white-bg-200.png":::
 
-    Heading: none
+In this module, let us imagine a large chain of regional hospitals,
+Lamna Healthcare, that needs an employee experience tool for their
+diverse types of employees. These employees include physicians and surgeons, nurse
+practitioners, Human Resources professionals, IT professionals, office
+administrators, custodial staff, and many more. View a simplified Lamna Healthcare
+org chart below:
 
-    Example: "A storage account represents a collection of settings that implement a business policy."
+:::image type="content" source="../media/lamna-org-chart-white-bg.png" alt-text="Diagram showing a simplified Lamna Healthcare org structure.":::
+Now, let’s review some scenarios Lamna Healthcare wants to support with
+Viva Connections below.
 
-    [Exercise introduction guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-introductions?branch=main#rule-use-the-standard-exercise-unit-introduction-format)
--->
-TODO: add your topic sentence(s)
+### Viva Connections use cases in action
 
-<!-- 2. Scenario sub-task --------------------------------------------------------------------------------
+:::image type="icon" source="../media/story-telling-logo-white-bg.png":::
 
-    Goal: Describe the part of the scenario covered in this exercise
+**Communicate and connect**
 
-    Heading: a separate heading is optional; you can combine this with the topic sentence into a single paragraph
+:::image type="content" source="../media/endall.png" alt-text="Diagram showing profile of Kendall with head shot and job title.":::
 
-    Example: "Recall that in the chocolate-manufacturer example, there would be a separate storage account for the private business data. There were two key requirements for this account: geographically-redundant storage because the data is business-critical and at least one location close to the main factory."
+Kendall is a nurse at Lamna Healthcare Region C hospital ER. He needs to stay
+updated on important workplace events, news, and team communication.
+Quickly accessing organization communications is essential to his
+everyday workflow with ever changing policies and regulations. Kendall
+regularly checks his Viva Connections Feed to see the latest protocols
+and procedures updates.
 
-    Recommended: image that summarizes the entire scenario with a highlight of the area implemented in this exercise
--->
-TODO: add your scenario sub-task
-TODO: add your scenario image
+**Reminder:** Administrators for the Dashboard can target specific
+content to different groups, so employees see the most important
+organization news and access the resources they need most. This might
+include highlighting office updates for remote workers, any new
+organization-wide rules and regulations for managers, and any updates on
+critical policy updates for frontline workers like Kendall.
 
-<!-- 3. Task performed in the exercise ---------------------------------------------------------------------
+**Schedule and Task Management**
 
-    Goal: State concisely what they'll implement here; that is, describe the end-state after completion
+Kendall also needs to regularly access schedules, task lists, and
+training materials. Through the Viva Connections Dashboard, he has
+direct access to his schedule and list of daily tasks. Lamna Healthcare
+designed the view for the frontline workers’ Dashboard, so the most
+important information and tools are right at the top. As Kendall starts
+his day, he clocks in through his mobile device by accessing Teams, then
+selecting Viva Connections app, and then by selecting a card. Once he is
+clocked in, he can navigate to a separate Dashboard card to view new
+tasks added by his manager. Now, Kendall is ready to get to work!
 
-    Heading: a separate heading is optional; you can combine this with the sub-task into a single paragraph
+**View** **pay and benefits**
 
-    Example: "Here, you will create a storage account with settings appropriate to hold this mission-critical business data."
+:::image type="content" source="../media/jessie.png" alt-text="Diagram showing profile of Jessie with head shot and job title.":::
 
-    Optional: a video that shows the end-state
--->
-TODO: describe the end-state
+Jessie works in Lamna Healthcare’s Human Resources team. She is a Benefit
+Specialist and answers repetitive questions from employees, including
+where to find paystubs and how to request time off. Jessie collaborates
+with the Dashboard administrator to make sure the Viva Connection’s
+Dashboard offers self-service cards so people in the rest of the
+organization can report time off and view their pay summaries. Then,
+Jessie has more time to assist employees with more complex benefit
+related questions.
 
-<!-- 4. Chunked steps -------------------------------------------------------------------------------------
+To further customize employees’ experiences, Dashboard admins can use
+Viva Connections Resources to link to other SharePoint portals like
+Human Resources sites or content like frequently asked questions.
 
-    Goal: List the steps they'll do to complete the exercise.
+**Training and onboarding**
 
-    Structure: Break the steps into 'chunks' where each chunk has three things:
-        1. A heading describing the goal of the chunk
-        2. An introductory paragraph describing the goal of the chunk at a high level
-        3. Numbered steps (target 7 steps or fewer in each chunk)
+:::image type="content" source="../media/amber.png" alt-text="Diagram showing profile of Amber with head shot and job title.":::
 
-    Example:
-        Heading:
-            "Use a template for your Azure logic app"
-        Introduction:
-             "When you create an Azure logic app in the Azure portal, you have the option of selecting a starter template. Let's select a blank template so that we can build our logic app from scratch."
-        Steps:
-             "1. In the left navigation bar, select Resource groups.
-              2. Select the existing Resource group [sandbox resource group name].
-              3. Select the ShoeTracker logic app.
-              4. Scroll down to the Templates section and select Blank Logic App."
--->
+Amber is a leader at Lamna Healthcare and manages a team of eight employees.
+As Lamna Healthcare has been rapidly growing its business in the past
+two years, her team has been growing and becoming more diverse. As a
+manager, one of her top objectives is setting up successful onboarding
+and training processes for her new team members. With Viva Connections,
+managers like Amber can work with the Dashboard administrator to set up
+cards for new employees that include the onboarding tasks and training
+in [Viva Learning](/viva/learning/) that
+they need to complete. Integrations with another Viva module, [Viva
+Insights](/viva/insights/), can help
+create a well-rounded onboarding experience by helping team members
+prioritize mental health, reserve time for focused work, and take
+breaks.
 
-## (Chunk 1 heading)
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+Integrations with other [Microsoft Viva
+modules](/viva/) like Viva Learning and
+Viva Insights can help new and existing employees continue building skills through curated training and manage their work-life balance.  
 
-## (Chunk 2 heading)
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+**Digitize processes**
 
-## (Chunk n heading)
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-<!-- 5. Validation -------------------------------------------------------------------------------------------
-
-    Goal: Enables the learner to evaluate if they completed the exercise correctly. Feedback like this is critical for learning.
-
-    Structure:
-        1. A heading of "## Check your work".
-        2. An introductory paragraph describing how they'll validate their work at a high level.
-        3. Numbered steps (if the learner needs to perform multiple steps to verify if they were successful).
-        4. Video of an expert performing the exact steps of the exercise (optional).
-
-    Example:
-         "At this point, the app is scanning Twitter every minute for tweets containing the search text. To verify the app is running and working correctly, we'll look at the Runs history table."
-             "1. Select Overview in the navigation menu.
-              2. Select Refresh once a minute until you see a row in the Runs history table.
-              ...
-              6. Examine the data in the OUTPUTS section. For example, locate the text of the matching tweet."
--->
-
-## Check your work
-<!-- Introduction paragraph -->
-1. <!-- Step 1 (if multiple steps are needed) -->
-1. <!-- Step 2 (if multiple steps are needed) -->
-1. <!-- Step n (if multiple steps are needed) -->
-Optional "exercise-solution" video
-
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
-<!-- Do not add a unit summary or references/links -->
+In addition to onboarding and training, Amber spends a lot of time
+communicating with her team and managing tasks like approving time off
+requests, reimbursements, signing documents, and managing her team’s
+projects. With Viva Connections, the Dashboard administrator works with
+people managers to include cards and content targeted towards managers
+that make it easy to access popular documents, training materials, and
+other manager-specific tools.
