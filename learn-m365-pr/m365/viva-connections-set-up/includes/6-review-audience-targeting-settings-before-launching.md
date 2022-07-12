@@ -129,13 +129,13 @@ groups for audience targeting. Finally, let’s see how Lamna Healthcare
 employees’ AAD settings affect what they see in their
 Resources:
 
-| **AAD group**      | General resources |Benefits forms | Forms and resources for people managers | Finance forms | Resources for medical professionals |
+| **AAD group**  | General resources |Benefits forms | Forms and resources for people managers |Finance forms | Resources for medical professionals |
 |---------|------|-------|-----|----------|-----------------|
 | All Employees |&check; | | | | |
 | Hourly |   | | | | |
 | Full time |   | | | | |
 | Benefits eligible |   | &check;| | | |
-| People Manager |   | | || |&check; |&check; | |
+| People Manager |   |  |&check; |&check; | |
 | Finance professional |  | | |&check; | |
 | Medical Professional |   | | | |&check; |
 

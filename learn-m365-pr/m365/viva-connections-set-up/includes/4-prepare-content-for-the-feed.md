@@ -31,17 +31,18 @@ to raise the visibility of the most important news posts.
 communities](https://techcommunity.microsoft.com/t5/yammer-blog/engage-your-entire-organization-with-new-all-company-features/ba-p/1441124)
 that you’d like seen by the entire organization.
 - **Publish from official news sources** - Post news from [organizational news sites in
-SharePoint](https://docs.microsoft.com/en-us/sharepoint/organization-news-site)
+SharePoint](/sharepoint/organization-news-site)
 to impact content ranking.
 - **Use video news links in SharePoint.** Rather
 than sharing a written news story, you may want to use a [Video news
-link](https://docs.microsoft.com/en-us/sharepoint/video-news-links) in
+link](/sharepoint/video-news-links) in
 SharePoint to share an update, rebroadcast an all-hands meeting, or
 provide reusable training
 materials.
 
 :::image type="icon" source="../media/story-telling-logo-white-bg.png"  :::
-### Learn how Lamna Healthcare prepares content for the Feed:
+
+### Learn how Lamna Healthcare prepares content for the Feed
 
 As the Internal Communications Manager of Lamna Healthcare, you know
 that your organization already uses SharePoint to distribute news and
