@@ -26,10 +26,10 @@ This section describes the basics for creating and running audit log searches. U
     
     
     You can configure the following search criteria. Each troubleshooting scenario in this article recommends specific guidance for configuring these fields.
-    1.  **Start date and End date**. Select a date and time range to display the events that occurred within that period. The last seven days are selected by default. The date and time are presented in Coordinated Universal Time (UTC) format. The maximum date range that you can specify is 90 days.
-    2.  **Activities**. Select the drop-down list to display the activities that you can search for. After you run the search, only the audit records for the selected activities are displayed. If you select **Show results for all activities**, the results for all activities that meet the other search criteria are displayed. You'll have to leave this field blank in some of the troubleshooting scenarios.
-    3.  **Users**. Select in this box and then select one or more users to display search results for. Audit records for the selected activity performed by the users you select in this box are displayed in the list of results. Leave this box blank to return entries for all users (and service accounts) in your organization.
-    4.  **File, folder, or site**. Type some or all of a file or folder name to search for activity related to the file of folder that contains the specified keyword. You can also specify a URL of a file or folder. If you use a URL, be sure the type the full URL path or if you only type a portion of the URL, don't include any special characters or spaces. Leave this box blank to return entries for all files and folders in your organization. This field is left blank in all the troubleshooting scenarios in this unit.
+     -  **A. Start date and End date**. Select a date and time range to display the events that occurred within that period. The last seven days are selected by default. The date and time are presented in Coordinated Universal Time (UTC) format. The maximum date range that you can specify is 90 days.
+     -  **B. Activities**. Select the drop-down list to display the activities that you can search for. After you run the search, only the audit records for the selected activities are displayed. If you select **Show results for all activities**, the results for all activities that meet the other search criteria are displayed. You'll have to leave this field blank in some of the troubleshooting scenarios.
+     -  **C. Users**. Select in this box and then select one or more users to display search results for. Audit records for the selected activity performed by the users you select in this box are displayed in the list of results. Leave this box blank to return entries for all users (and service accounts) in your organization.
+     -  **D. File, folder, or site**. Type some or all of a file or folder name to search for activity related to the file of folder that contains the specified keyword. You can also specify a URL of a file or folder. If you use a URL, be sure the type the full URL path or if you only type a portion of the URL, don't include any special characters or spaces. Leave this box blank to return entries for all files and folders in your organization. This field is left blank in all the troubleshooting scenarios in this unit.
 4.  Select **Search** to run the search using your search criteria.
 
 The search results are loaded, and after a few moments they're displayed on a page in the audit log search tool. Each of the sections in this unit provides guidance about things to look for in the context of the specific troubleshooting scenario.
@@ -71,10 +71,10 @@ At this point, you have to look at the details of each audit record to determine
 :::image type="content" source="../media/email-forward-2-3ef10e73.png" alt-text="Screenshot of the search results page after selecting the More information option, and with fields from the audit record highlighted.":::
 
 
-1.  In the **ObjectId** field, the alias of the mailbox that email forwarding was set on is displayed. This mailbox is also displayed on the **Item** column in the search results page.
-2.  In the **Parameters** field, the value **ForwardingSmtpAddress** indicates that email forwarding was set on the mailbox. In this example, mail is being forwarded to the email address mike@contoso.com, which is outside of the alpinehouse.onmicrosoft.com organization.
-3.  The **True** value for the **DeliverToMailboxAndForward** parameter indicates that a copy of the message is delivered to sarad@alpinehouse.onmicrosoft.com AND is forwarded to the email address specified by the **ForwardingSmtpAddress** parameter, which in this example is mike@contoso.com. If the value for the **DeliverToMailboxAndForward** parameter is set to **False**, then email is only forwarded to the address specified by the **ForwardingSmtpAddress** parameter. It's not delivered to the mailbox specified in the **ObjectId** field.
-4.  The **UserId** field indicates the user who set email forwarding on the mailbox specified in the **ObjectId** field. This user is also displayed in the **User** column on the search results page. In this case, it seems that the owner of the mailbox set email forwarding on their mailbox.
+ -  **A. ObjectId**. The alias of the mailbox that email forwarding was set on is displayed. This mailbox is also displayed on the **Item** column in the search results page.
+ -  **B. Parameters**. The value **ForwardingSmtpAddress** indicates that email forwarding was set on the mailbox. In this example, mail is being forwarded to the email address mike@contoso.com, which is outside of the alpinehouse.onmicrosoft.com organization.
+ -  **C. True**. This value for the **DeliverToMailboxAndForward** parameter indicates that a copy of the message is delivered to sarad@alpinehouse.onmicrosoft.com AND is forwarded to the email address specified by the **ForwardingSmtpAddress** parameter, which in this example is mike@contoso.com. If the value for the **DeliverToMailboxAndForward** parameter is set to **False**, then email is only forwarded to the address specified by the **ForwardingSmtpAddress** parameter. It's not delivered to the mailbox specified in the **ObjectId** field.
+ -  **D. UserId**. Indicates the user who set email forwarding on the mailbox specified in the **ObjectId** field. This user is also displayed in the **User** column on the search results page. In this case, it seems that the owner of the mailbox set email forwarding on their mailbox.
 
 If you determine that email forwarding shouldn't be set on the mailbox, you can remove it by running the following command in Exchange Online PowerShell:
 
@@ -143,13 +143,10 @@ After you run the search, any audit records for this activity are displayed in t
 :::image type="content" source="../media/new-inbox-rule-record-518c6308.png" alt-text="Screenshot of the Audit record for a new inbox rule that shows selected fields highlighted.":::
 
 
-A. In the **ObjectId** field, the full name of the inbox rule is displayed. This name includes the alias of the user's mailbox (for example, **SaraD**) and the name of the inbox rule (for example, "**Move messages from admin**").
-
-B. In the **Parameters** field, the condition of the inbox rule is displayed. In this example, the condition is specified by the **From** parameter. The value defined for the **From** parameter indicates the inbox rule acts on email sent by **admin@alpineskihouse.onmicrosoft.com**.
-
-C. The **MoveToFolder** parameter specifies the action for the inbox rule. In this example, messages received from **admin@alpineskihouse.onmicrosoft.com** are moved to the folder named **AdminSearch**. A
-
-D. The **UserId** field indicates the user who created the inbox rule specified in the **ObjectId** field. This user is also displayed in the **User** column on the search results page.
+ -  **A. ObjectId**. The full name of the inbox rule is displayed. This name includes the alias of the user's mailbox (for example, **SaraD**) and the name of the inbox rule (for example, "**Move messages from admin**").
+ -  **B. Parameters**. The condition of the inbox rule is displayed. In this example, the condition is specified by the **From** parameter. The value defined for the **From** parameter indicates the inbox rule acts on email sent by **admin@alpineskihouse.onmicrosoft.com**.
+ -  **C. MoveToFolder**. This parameter specifies the action for the inbox rule. In this example, messages received from **admin@alpineskihouse.onmicrosoft.com** are moved to the folder named **AdminSearch**. A
+ -  **D. UserId**. Indicates the user who created the inbox rule specified in the **ObjectId** field. This user is also displayed in the **User** column on the search results page.
 
 ### Issue: Investigate why there was a successful sign-in by a user outside your organization
 
@@ -173,11 +170,11 @@ The following screenshot shows an example and descriptions of relevant propertie
 :::image type="content" source="../media/pass-through-authentication-1-2e6b71ec.png" alt-text="Screenshot of an Audit record for a successful pass-thru authentication and with selected fields highlighted.":::
 
 
-1.  This field indicates the user who attempted to access a resource in your organization wasn't found in your organization's Azure AD.
-2.  This field displays the UPN of the external user who attempted to access a resource in your organization. This user ID is also identified in the **User** and **UserId** properties in the audit record.
-3.  The **ApplicationId** property identifies the application that triggered the sign-in request. The value of 00000003-0000-0ff1-ce00-000000000000 displayed in the **ApplicationId** property in this audit record indicates SharePoint Online. OneDrive for Business also has this same **ApplicationId**.
-4.  This field indicates that the pass-through authentication was successful. In other words, the user was successfully authenticated by Azure AD.
-5.  The **RecordTyp**e value of 15 indicates the audited activity (**UserLoggedIn**) is a Secure Token Service (STS) sign-in event in Azure AD.
+ -  **A. Actor ID**. This field indicates the user who attempted to access a resource in your organization wasn't found in your organization's Azure AD.
+ -  **B. Actor UPN**. This field displays the UPN of the external user who attempted to access a resource in your organization. This user ID is also identified in the **User** and **UserId** properties in the audit record.
+ -  **C. ApplicationId**. This property identifies the application that triggered the sign-in request. The value of 00000003-0000-0ff1-ce00-000000000000 displayed in the **ApplicationId** property in this audit record indicates SharePoint Online. OneDrive for Business also has this same **ApplicationId**.
+ -  **D. ExtendedProperties**. This field indicates that the pass-through authentication was successful. In other words, the user was successfully authenticated by Azure AD.
+ -  **E. RecordType**. Value of 15 indicates the audited activity (**UserLoggedIn**) is a Secure Token Service (STS) sign-in event in Azure AD.
 
 The following examples are scenarios that would result in a successful **User logged in** audit activity because of pass-through authentication:
 
