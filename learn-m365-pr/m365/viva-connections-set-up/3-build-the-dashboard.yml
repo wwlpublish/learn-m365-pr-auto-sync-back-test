@@ -10,7 +10,7 @@ metadata:
   ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 1
+durationInMinutes: 15
 content: |
   [!include[](includes/3-build-the-dashboard.md)]
 quiz:
