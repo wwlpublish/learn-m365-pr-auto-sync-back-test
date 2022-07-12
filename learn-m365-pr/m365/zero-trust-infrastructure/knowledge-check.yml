@@ -44,7 +44,7 @@ quiz:
       explanation: That's correct. A DDoS attack targets web servers or networks and tries to exhaust an application's resources with a flood of internet traffic.
     - content: A DDoS attack is a malicious attempt to gain unauthorized access to sites or facilities.
       isCorrect: false
-      explanation: That's incorrect. Gaining unauthorized access to sites and workspaces is a security threat associated with physical infrastructure
+      explanation: That's incorrect. Gaining unauthorized access to sites and workspaces is a security threat associated with _physical_ infrastructure.
     - content: A DDoS is a process of assessing and monitoring IT infrastructure to identify various threat vectors.
       isCorrect: false
       explanation: That's incorrect. A DDoS isn't a process, it's an attack that targets web servers or networks.
