@@ -33,7 +33,7 @@ quiz:
       explanation: That's incorrect. Default configurations are often misconfigured. Configuration management helps to disable default configurations and settings.
     - content: Configuration management implements clear screen and clear desk policies.
       isCorrect: false
-      explanation: That's incorrect. Enforcing clear screen and clear desk policies isn't a part of the configuration management process
+      explanation: That's incorrect. Enforcing clear screen and clear desk policies isn't a part of the configuration management process.
     - content: Configuration management ensures every device and endpoint is operating at optimal performance.
       isCorrect: true
       explanation: That's correct. Configuration management implements various tools and strategies to ensure the optimal health of your infrastructure.
