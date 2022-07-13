@@ -4344,6 +4344,31 @@
       "source_path": "learn-m365-pr/wwl/implement-security-for-microsoft-teams/08-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/implement-security-for-microsoft-teams/09-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-manage-microsoft-teams-devices/07-create-manage-configuration-profiles.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-manage-microsoft-teams-devices/08-create-manage-configuration-profiles",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-manage-microsoft-teams-devices/08-manage-microsoft-teams-device-tags.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-manage-microsoft-teams-devices/09-manage-microsoft-teams-device-tags",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-manage-microsoft-teams-devices/09-troubleshoot-teams-rooms.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-manage-microsoft-teams-devices/10-troubleshoot-teams-rooms",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-manage-microsoft-teams-devices/10-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-manage-microsoft-teams-devices/11-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-manage-microsoft-teams-devices/11-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-manage-microsoft-teams-devices/12-summary",
+      "redirect_document_id": true
     }
   ]
 }
