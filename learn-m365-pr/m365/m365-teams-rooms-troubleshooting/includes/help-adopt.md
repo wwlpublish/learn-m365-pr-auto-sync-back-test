@@ -5,8 +5,6 @@ To help, here are some links that might assist you with end-user training. You c
 |Topic|Link|
 |---|---|
 |End-user help|aka.ms/TeamsRoomsHelp|
-|Introductory Teams Rooms video|aka.ms/TeamsRoomsVideo|
-|Interactive end-user training|aka.ms/MicrosoftTeamsRoomsDemo|
 |Teams Rooms administrator video training|aka.ms/TeamsRoomsLearning|
 
 In-room signage can be important. You can create documents like the one seen here, laminate them, and leave them in the rooms.
