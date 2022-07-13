@@ -6,19 +6,19 @@ requirement:
 **Step 1: Design and set a SharePoint communication site as the home
 site (required)**
 
-:::image type="content" source="../media/sharepoint-homesite.png" alt-text="Screenshot of sharepoint homesite." :::
+:::image type="content" source="../media/sharepoint-homesite.png" alt-text="Screenshot of sharepoint home site." :::
 A home site is the main landing page for your intranet and will also
 serve as the landing page for the Viva Connection’s desktop experience.
 Home sites have special capabilities beyond a typical communication site
 like:
 
--   Provide a gateway to other high-traffic portals
+- Provide a gateway to other high-traffic portals
 
--   Connect people with an intranet-wide search experience
+- Connect people with an intranet-wide search experience
 
--   Display targeted news and content
+- Display targeted news and content
 
-Once you have designed your [communication
+Once you've designed your [communication
 site](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb#:~:text=Steps%20to%20create%20a%20communication%20site%3A%201%20Sign,5%20Give%20your%20new%20communication%20site%20a%20name),
 set it as a home site in the SharePoint admin center. Learn more about
 [how to design a home site just for Viva
@@ -31,7 +31,7 @@ to set a communication site as a home site.
 
 **Step 2: Customize global navigation in SharePoint (required)**
 
-:::image type="content" source="../media/enable-global-nav.png" alt-text="Screenshot of enabling global navigation of the sharepoint homesite." :::
+:::image type="content" source="../media/enable-global-nav.png" alt-text="Screenshot of enabling global navigation of the sharepoint home site." :::
 Now that your home site is set up, you can [enable and customize global
 navigation](/viva/connections/sharepoint-app-bar).
 Global navigation gives users access to the news, sites, and documents
@@ -54,13 +54,13 @@ without opening in a separate browser window.
 
 **Step 3: Modernize classic SharePoint sites and pages (recommended)**
 
-Only modern SharePoint sites and pages will display inside the Microsoft Teams experience. Classic sites and pages will open in a separate browser window. It is highly recommended that popular portals linked in global navigation (which will display as Resources in the mobile app) and to cards on the Dashboard are [modernized to create the best viewing experience](/sharepoint/dev/transform/modernize-classic-sites#:~:text=%20Modernize%20your%20classic%20SharePoint%20sites%20%201,site%20transformation%20is%20transforming%20your%20site...%20See%20More.).
+Only modern SharePoint sites and pages will display inside the Microsoft Teams experience. Classic sites and pages will open in a separate browser window. We highly recommend to [modernize popular portals](/sharepoint/dev/transform/modernize-classic-sites#:~:text=%20Modernize%20your%20classic%20SharePoint%20sites%20%201,site%20transformation%20is%20transforming%20your%20site...%20See%20More.), which are linked in global navigation and to cards on the Dashboard to create the best viewing experience.
 
 ### Lamna Healthcare
 
 :::image type="icon" source="../media/lamna-logo-white-bg-200.png"  :::
 
-In this module, let's imagine that you are the Internal Communications Manager at a large chain of regional hospitals, Lamna Healthcare. Your organization needs an employee experience tool for their various types of employees, such as physicians and surgeons, nurse practitioners, HR professionals, IT professionals, office administrators, and custodial staff.  
+In this module, let's imagine that you're the Internal Communications Manager at a large chain of regional hospitals, Lamna Healthcare. Your organization needs an employee experience tool for their various types of employees. These employees include physicians and surgeons, nurse practitioners, HR professionals, IT professionals, office administrators, custodial staff, and many more.  
 
 After carefully researching and examining existing platforms, executive leadership has decided that Viva Connections is an ideal solution since they already subscribe to Microsoft 365. Leadership has asked you to lead the deployment of Viva Connections along with a team of stakeholders that represent different roles.
 
@@ -72,7 +72,7 @@ Lamna Healthcare uses a SharePoint intranet to store files and share
 information about benefits, tools, and upcoming events. Currently, Lamna
 Health care is using a SharePoint communication site as a landing place
 for their intranet experience. The intranet contains a combination of
-classic and modern SharePoint sites and pages. Therefore, it does not
+classic and modern SharePoint sites and pages. Therefore, it doesn't
 currently meet the requirements to use Viva Connections as an app in
 Microsoft Teams. As the Internal Communications manager, you work with a
 team of stakeholders to systematically audit the SharePoint intranet to
@@ -91,8 +91,8 @@ they can set up global navigation and start working on the Dashboard.
 You continue working with the planning team to decide which navigational
 links should be displayed in the global navigation. These navigational
 links will display as resources in both the desktop and mobile Viva
-Connections experiences. Prior to this, you have conducted the needs
-assessment with the Viva Connections planning team. You have created a
+Connections experiences. Prior to deciding which navigational links to be included, you've conducted the needs
+assessment with the Viva Connections planning team. You've created a
 planning spreadsheet to all findings from the needs assessment, which
 are scenarios and tasks that can be supported by Viva Connections. Now,
 you use this planning spreadsheet to identify which roles and audiences
@@ -102,7 +102,7 @@ select navigational links to personalize the viewing experience.
 
 Next, you work with the planning team to consider which sites and pages
 should be modernized. You know that only modern sites and pages will
-display in Microsoft Teams, otherwise they will open in a separate
+display in Microsoft Teams, otherwise they'll open in a separate
 browser window outside of the experience. Using the planning
 spreadsheet, the planning team identifies which sites and pages are
 linked to the Dashboard and Resources. Then, the planning team ensures
@@ -113,5 +113,5 @@ pages that will receive a high volume of visitors (thousands per day) to
 ensure the ideal viewing experience.
 
 Now that Lamna Healthcare has a home site, customized global navigation,
-and modern sites and pages for Viva Connections experiences, you are
+and modern sites and pages for Viva Connections experiences, you're
 ready to start building the Viva Connections Dashboard.

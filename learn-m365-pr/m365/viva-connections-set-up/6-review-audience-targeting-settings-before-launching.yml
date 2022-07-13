@@ -10,22 +10,22 @@ metadata:
   ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 6
 content: |
   [!include[](includes/6-review-audience-targeting-settings-before-launching.md)]
 quiz:
   questions:
-  - content: "Megan is the SharePoint admin for her organization’s Viva Connections site. Before updating and publishing her organization’s Viva Connections Dashboard, what should Megan do to ensure she is targeting the right people on shifts for this updated shift card?"
+  - content: "Megan is the SharePoint admin for her organization’s Viva Connections site. Before Megan updates and publishes the organization’s Viva Connections Dashboard, what should she do to ensure she's targeting the right people on shifts for this updated shift card?"
     choices:
-    - content: "Open the Dashboard in a “Preview” mode to confirm she has selected the right audience to target."
+    - content: "Open the Dashboard in a “Preview” mode to confirm she's selected the right audience to target."
       isCorrect: true
       explanation: "You should take this step before publishing the newly updated Dashboard or sharing the information with your employees."
     - content: "Nothing. Megan can publish the updated Dashboard right away."
       isCorrect: false
       explanation: "Double-checking your audience targeting in a “Preview” mode is critical. It prevents mistakes and allows you to see how users will view the latest updates on their end."
-    - content: "Update the Dashboard, share it with the nurses on shifts, and then go back and make additional edits as needed."
+    - content: "Update the Dashboard, share it with the nurses on shifts, and then go back and make more edits as needed."
       isCorrect: false
-      explanation: "While user testing is important, to ensure the correct audience targeting, Megan should use the “Preview” feature to confirm that she has selected the right audience to target."
+      explanation: "While user testing is critical for the launch, Megan should use the “Preview” feature to ensure that she's selected the right audience to target. "
   - content: "Which statement for the tools below is a correct description for personalizing the Viva Connections experience for different roles and regions?"
     choices:
     - content: "You can only apply audience targeting to Dashboard cards at the card level, which will require card customization by developers. "
@@ -36,4 +36,4 @@ quiz:
       explanation: "Audience targeting can be applied while in edit mode for both Dashboard and Resources.  "
     - content: "For the Feed, the News boost feature can be used to surface the most important news. "
       isCorrect: false
-      explanation: "Although the New boost feature is a Feed feature to promote important news, this features itself does not customize news for employees with different roles and regions."
+      explanation: "Although the New boost feature is a Feed feature to promote important news, it doesn't customize news for employees with different roles and regions."

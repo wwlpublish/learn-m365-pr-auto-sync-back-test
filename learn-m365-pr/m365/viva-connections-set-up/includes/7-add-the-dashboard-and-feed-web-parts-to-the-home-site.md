@@ -1,4 +1,4 @@
-:::image type="content" source="../media/dashboard-feed-webparts.png" alt-text="Screenshot of the Dashboard and Feed webparts." :::
+:::image type="content" source="../media/dashboard-feed-webparts.png" alt-text="Screenshot of the Dashboard and Feed web parts." :::
 The Viva Connections mobile experience automatically includes the three
 components that make up Viva Connections - the Dashboard, the Feed, and
 Resources. In the desktop experience, Viva Connections can be
@@ -9,8 +9,7 @@ Connections.
 There are two distinct web parts that can be used on the home site when
 Viva Connections is set up:
 
-[The Dashboard web
-part](/viva/connections/use-dashboard-web-part-on-home-site)
+[The Dashboard web part](/viva/connections/use-dashboard-web-part-on-home-site)
 (Highlighted in red) displays cards from the Dashboard. Audience
 targeting and other customizations will transfer through the web
 part.

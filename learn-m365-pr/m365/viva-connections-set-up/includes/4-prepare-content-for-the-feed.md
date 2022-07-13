@@ -1,8 +1,8 @@
 The Feed aggregates SharePoint news posts, video news links, and
 conversation in Yammer into one central place. In the mobile app, the
 Feed displays as its own tab. On desktop, the Feed can be included by
-adding the Feed web part to the home site which will be covered in an
-upcoming unit. Technically, *you do not need to do anything* for content
+adding the Feed web part to the home site, which will be covered in an
+upcoming unit. Technically, *you don't need to do anything* for content
 to populate in the Feed if your organization already uses [SharePoint
 news
 posts](/sharepoint/organization-news-site)
@@ -15,9 +15,9 @@ sources:**
 
 - Organizational news posts published in SharePoint
 - Posts in Yammer communities
-- Videos posted as videos news links form organization news sites in SharePoint
+- Videos posted as videos news links from organization news sites in SharePoint
 
-You do not need to do anything for content to
+You don't need to do anything for content to
 populate the Feed, but you can influence the hierarchy of content in the
 Feed. To ensure the most important news is prioritized in the
 Feed:
@@ -26,7 +26,7 @@ Feed:
 
 - **Promote important communications** - Use [News
 boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)
-to raise the visibility of the most important news posts. 
+to raise the visibility of the most important news posts.
 - **Highlight community discussions** - [Feature posts in public Yammer
 communities](https://techcommunity.microsoft.com/t5/yammer-blog/engage-your-entire-organization-with-new-all-company-features/ba-p/1441124)
 that you’d like seen by the entire organization.
@@ -45,7 +45,7 @@ materials.
 ### Learn how Lamna Healthcare prepares content for the Feed
 
 As the Internal Communications Manager of Lamna Healthcare, you know
-that your organization already uses SharePoint to distribute news and
+that your organization already uses SharePoint to distribute news, and
 Yammer to facilitate conversations and announcements. However, you have
 spent time investing in this area to ensure the Feed has a constant
 source of new content. You work with the Viva Connections planning team
@@ -54,7 +54,7 @@ authoritative organizational news site for each department of the
 organization. You work with other communication specialists on your team
 to decide upon a publishing schedule that ensures new content is created
 at least every 30 days from organizational news sites and other sites.
-The most important news posts will get boosted to make sure they are
+The most important news posts will get boosted to make sure they're
 seen. Additionally, the communications team develops a similar schedule
 for “All company” posts and announcements in Yammer. As often as
 possible, video news links will be

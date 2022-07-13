@@ -9,16 +9,16 @@ preview the experience and then publish to make it available to others.
 
 ### Summary of steps to create the Dashboard
 
-1.  Choose and add cards to the Dashboard in edit mode.
+1. Choose and add cards to the Dashboard in edit mode.
 
-2.  Apply audience targeting strategies to ensure the correct audiences
+2. Apply audience targeting strategies to ensure the correct audiences
     have access to the right information.
 
-3.  Preview your edits by using preview mode to view the experience from
+3. Preview your edits by using preview mode to view the experience from
     the perspectives of different audiences and on different devices
     (mobile and desktop).
 
-4.  Publish the Dashboard after previewing it to make it available to
+4. Publish the Dashboard after previewing it to make it available to
     end users.
 
 :::image type="content" source="../media/workflow-create-dashboard-card.png" alt-text="Diagram of workflow to create a dashboard card." :::
@@ -29,36 +29,36 @@ Start from your organization’s home site. Add cards and preview the
 experience as you build. [Learn more about creating a
 Dashboard](/viva/connections/create-dashboard).
 
-1.  Go to your home site and select **Settings**.
+1. Go to your home site and select **Settings**.
 
-2.  Select **Manage Viva Connections**.
+2. Select **Manage Viva Connections**.
 
-3.  Click on **+ Create Dashboard**.
+3. Click on **+ Create Dashboard**.
 
-4.  Click on **+ Add a card**.
+4. Click on **+ Add a card**.
 
-5.  **Preview** the Dashboard under the preview mode.
+5. **Preview** the Dashboard under the preview mode.
 
-6.  Click **Publish** once you have selected the cards you want, as well
+6. Click **Publish** once you have selected the cards you want, as well
     as completed the targeting audience process.
 
 Best practices while building the Dashboard include:
 
--   **Choose images and labels that encourage your users to interact
+- **Choose images and labels that encourage your users to interact
     with the cards.** In other words, each card will have its own style,
     and selecting compelling images can distinguish one card from
     another. Additionally, you can access images easier if you enable
     Content Delivery Network (CDN). You must be a SharePoint admin to do
     so.
 
--   **[Target audiences for the cards you
+- **[Target audiences for the cards you
     select](/viva/connections/use-audience-targeting-in-viva-connections).**
     This is a key step that ensures the right audience receives the
     right information. Without targeting audiences, you risk not
     providing information end users need to carry out their jobs
     successfully and efficiently.
 
--   **Preview the experience on different devices and for different
+- **Preview the experience on different devices and for different
     audiences:** Check both mobile and desktop views. Doing this can
     prevent errors and ensure your Viva Connections works on both types
     of platforms. You can take this step by using the preview mode.

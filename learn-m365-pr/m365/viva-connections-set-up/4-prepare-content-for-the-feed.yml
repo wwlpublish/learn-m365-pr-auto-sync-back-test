@@ -10,7 +10,7 @@ metadata:
   ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 6
 content: |
   [!include[](includes/4-prepare-content-for-the-feed.md)]
 quiz:

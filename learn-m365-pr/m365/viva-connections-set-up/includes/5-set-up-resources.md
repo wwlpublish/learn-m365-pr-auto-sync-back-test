@@ -4,18 +4,19 @@ You must first enable global navigation for Resources to display in the
 Viva Connections experience. On the mobile experience, Resources
 displays as its own tab. One the desktop and web experiences, Resources
 can be accessed by selecting your organization’s Viva Connections icon
-twice form the Teams app bar.
+twice from the Teams app bar.
 :::image type="content" source="../media/global-links.png" alt-text="Screenshot of global links" :::
 
-Links in Resources should help solve opportunities identified in the
-needs assessment from module 2 and will often include links to
-organizational information that everyone can benefit from, for example
+Links in Resources should help address opportunities that are identified in the
+needs assessment from [module 2](/learn/modules/viva-connections-plan). These links often point to
+organizational information that everyone can benefit from, such as
 trainings resources, event opportunities, and the HR portal. Links can
 also be targeted to specific audiences to personalize the experience for
 certain roles and regions.
 
 **Set up global navigation:**
 :::image type="content" source="../media/enable-global-nav.png" alt-text="Screenshot of enabling global navigation." :::
+
 1. You must be a site owner of the home site to customize global
 navigation. Navigate to your organization’s home site.
 2. Select
@@ -37,7 +38,7 @@ source](/viva/connections/sharepoint-app-bar#determine-the-global-navigation-sou
 7. Make
 edits to the selected global navigation source if needed by selecting
 Edit global navigation.
-8. Select **Save** when you are done. Updates to
+8. Select **Save** when you're done. Updates to
 global navigation may take several minutes before they
 appear.
 :::image type="icon" source="../media/story-telling-logo-white-bg.png"  :::
@@ -53,7 +54,6 @@ synthesizes insights from the needs assessment and prioritizes where
 content should be located throughout the three components of the Viva
 Connections experience. The planning team decides to use links in
 SharePoint global navigation to make it easy to access the most popular
-portals that help people complete high-impact tasks like completing
-required training, access information about pay and benefits, find out
-more about upcoming events, and get more information about people and
+portals, such as
+required training, information about pay and benefits, upcoming events, and information about people and
 facilities.
