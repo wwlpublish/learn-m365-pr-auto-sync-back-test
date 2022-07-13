@@ -34,7 +34,7 @@ ideal for the rest of the organization.
 
 :::image type="icon" source="../media/lamna-logo-white-bg-200.jpg" :::
 
-In this module, let's imagine that you are the Internal Communications Manager at a large chain of regional hospitals, Lamna Healthcare. Your organization needs an employee experience tool for their various types of employees, such as physicians and surgeons, nurse practitioners, HR professionals, IT professionals, office administrators, and custodial staff.  After carefully researching and examining existing platforms, executive leadership has decided that Viva Connections is an ideal solution since they already subscribe to Microsoft 365. Leadership has asked you to lead the deployment of Viva Connections along with a team of stakeholders that represent different roles.
+In this module, let's imagine that you are the Internal Communications Manager at a large chain of regional hospitals, Lamna Healthcare. Your organization needs an employee experience tool for their various types of employees. These employees include physicians and surgeons, nurse practitioners, HR professionals, IT professionals, office administrators, custodial staff, and many more.  After carefully researching and examining existing platforms, executive leadership has decided that Viva Connections is an ideal solution since they already subscribe to Microsoft 365. Leadership has asked you to lead the deployment of Viva Connections along with a team of stakeholders that represent different roles.
 
 :::image type="icon" source="../media/story-telling-logo-white-bg.png" :::
 
@@ -68,7 +68,7 @@ makes it hard to find.
 :::image type="content" source="../media/-maya.png" alt-text="Diagram of profile head shot of Maya and her job title.":::
 Maya,
 a pediatric nurse, notices that a few cards on the Dashboard and a few
-links in Resources are loading very slowly.
+links in Resources are loading slowly.
 
 Your group of testers not only provides important feedback, but they
 will also get excited about Viva Connections and evangelize the new tool
