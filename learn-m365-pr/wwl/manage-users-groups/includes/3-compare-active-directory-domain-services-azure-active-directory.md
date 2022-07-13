@@ -23,7 +23,6 @@ Although Azure AD has many similarities to AD DS, there are also many difference
 When comparing Azure AD with AD DS, it’s important to note the following characteristics of Azure AD:
 
  -  Azure AD is primarily an identity solution, and it’s designed for internet-based applications by using HTTP (port 80) and HTTPS (port 443) communications.
-    
      -  Port 80 is the port number assigned to the commonly used internet communication protocol, Hypertext Transfer Protocol (HTTP). It's the port from which a computer sends and receives Web client-based communication, messages from a Web server, and is used to send and receive HTML pages or data.
      -  Port 443 is the port number for the secure version of the Hypertext Transfer Protocol (HTTPS) that's used to access web pages. It's the port used by servers and browsers to ensure you access the right version of a site. Criminals aren't able to eavesdrop on you or tamper with the data you send across the internet.
  -  Azure AD is a multi-tenant directory service.

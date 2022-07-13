@@ -12,7 +12,6 @@ There are two types of groups in Active Directory:
 
  -  **Distribution groups** Used to create email distribution lists. Distribution groups can be used only with email applications (such as Exchange Server) to send email to collections of users. Distribution groups are not security enabled, which means that they cannot be listed in discretionary access control lists (DACLs).
  -  **Security groups** Used to assign rights and permissions.
-    
      -  *User rights* are assigned to a security group to determine what members of that group can do within the scope of a domain or forest. User rights define a person’s administrative role in the domain. For example, a user who is added to the Backup Operators group in Active Directory has the ability to back up and restore files and directories that are located on each domain controller in the domain. This is possible because, by default, the user rights *Backup files and directories* and *Restore files and directories* are automatically assigned to the Backup Operators group. Therefore, members of this group inherit the user rights that are assigned to that group. You can use Group Policy to assign user rights to security groups to delegate specific tasks.
      -  Permissions are different than user rights. Permissions are assigned to the security group for the shared resource. Permissions determine who can access the resource and the level of access, such as Full Control. Security groups are listed in DACLs that define permissions on resources and objects such as file shares or printers.
 
