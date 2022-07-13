@@ -1,0 +1,96 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-manage-microsoft-teams-devices.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 07/13/2022
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/11-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Teams administrator for Lucerne Publishing, Patti Fernandez wants to create several Microsoft Teams rooms. Patti knows that Lucerne will need several teams to help deploy Microsoft Teams Rooms across the organization. The first team that Patti wants to create will help with network readiness and the provisioning and configuration of resource accounts. This team must also assist with monitoring, maintaining, and operating the Teams Rooms environment. Which type of team must Patti create that will be responsible for completing these tasks?"
+    choices:
+    - content: "Facilities team"
+      isCorrect: false
+      explanation: "That's incorrect. This team helps with room inventory, hanging, drilling, powering displays, and putting up signage."
+    - content: "AV team"
+      isCorrect: false
+      explanation: "That's incorrect. This team plans, configures, installs, and supports the audio/visual components within Microsoft Teams Rooms."
+    - content: "IT Project team"
+      isCorrect: true
+      explanation: "That's correct. This team helps with network readiness and the provisioning and configuration of resource accounts. It also assists with monitoring, maintaining, and operating the Teams Rooms environment."
+  - content: "As the Teams administrator for Lucerne Publishing, Patti Fernandez wants to use a PowerShell script that automatically creates Teams Rooms accounts. This will enable her to quickly create multiple accounts in bulk. What two modules must Patti install to create these Teams Rooms accounts in PowerShell?"
+    choices:
+    - content: "Microsoft Online and Exchange Online"
+      isCorrect: true
+      explanation: "That's correct. There are two mandatory PowerShell modules that must be installed to create a resource account in Teams Rooms. One is the Microsoft Online module, which is the Azure Active Directory PowerShell module. The other is the Exchange Online PowerShell module."
+    - content: "Microsoft Online and Azure Active Directory"
+      isCorrect: false
+      explanation: "That's incorrect. The Microsoft Online module is the Azure Active Directory PowerShell module. They are one and the same."
+    - content: "Microsoft Online and Teams"
+      isCorrect: false
+      explanation: "That's incorrect. The Teams PowerShell module isn't required to create a Teams Rooms account."
+  - content: "Contoso's IT admin wants to provision the company's Android devices remotely from the Teams admin center. The admin has already uploaded the MAC IDs of the devices being provisioned. What's the next step the admin must complete to finish device provisioning?"
+    choices:
+    - content: "Create a configuration profile for the Android device type"
+      isCorrect: false
+      explanation: "That's incorrect. A configuration profile isn't required to provision a device."
+    - content: "Generate a verification code for each device"
+      isCorrect: true
+      explanation: "That's correct. A verification code is required for each device. The verification code is generated in bulk or at the device level and is valid for 24 hours."
+    - content: "Add one or more device tags to each device"
+      isCorrect: false
+      explanation: "That's incorrect. Device tags are optional. They're used to group or organize devices to help with device maintenance. They aren't part of the provisioning process."
+  - content: "Fabrikam has  a large assortment of devices across its Microsoft 365 deployment. The Teams admin earlier implemented device tags as a means of filtering all the devices of a certain type. Fabrikam has since narrowed down the types of devices they use. As such, the admin wants to remove a tag that was associated with multiple devices of a certain type that Fabrikam no longer uses. What's the first thing the admin should do to remove the tag?"
+    choices:
+    - content: "Delete the tag in the Microsoft Teams admin center"
+      isCorrect: false
+      explanation: "That's incorrect. This step isn't the first thing you should do to remove the tag."
+    - content: "Select the Teams user that's associated with each device and remove the tag from the user"
+      isCorrect: true
+      explanation: "That's correct. If you want to remove a tag from multiple devices, you must select the Teams user that's associated with the device and remove the tag from the user."
+    - content: "Remove the devices from the Teams admin center"
+      isCorrect: false
+      explanation: "That's incorrect. This step isn't the first thing you should do to remove the tag."
+  - content: "What is the role of the Microsoft 365 resource accounts?"
+    choices:
+    - content: "It's the account that's invited to meetings on behalf of the room"
+      isCorrect: true
+      explanation: "That's correct. Microsoft 365 resource accounts are mailbox and Teams accounts that are dedicated to specific resources, such as a room, projector, and so on. These resource accounts can automatically respond to meeting invites using rules you define when they're created. For example, if you have a common resource such as a conference room, you can set up a resource account for that conference room that will automatically accept or decline meeting invites depending on its calendar availability."
+    - content: "It signs into Windows on Teams Rooms"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the role of Microsoft 365 resource accounts."
+    - content: "It schedules the meetings that happen on Teams Rooms"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the role of Microsoft 365 resource accounts."
+  - content: "As the Teams administrator for Tailspin Toys, Allan DeYoung wants to manage the company's devices through the Teams admin center. What must Allan DeYoung do to enable this requirement?"
+    choices:
+    - content: "Assign a configuration profile to each device type"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't required to manage devices through the Teams admin center. Try again."
+    - content: "Add a device tag to each device type"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't required to manage devices through the Teams admin center. Try again."
+    - content: "Enroll the devices in Microsoft Teams"
+      isCorrect: true
+      explanation: "That's correct. Devices must be enrolled in Microsoft Teams before they can be managed through the Teams admin center. Organizations can use the Teams admin center to view and manage phones, collaboration bars, Teams displays, and Teams panels."
+  - content: "As the Teams administrator for Lucerne Publishing, Patti Fernandez is concerned with the poor performance of Teams Rooms. Patti has started troubleshooting this issue. When Teams Rooms experience poor performance, what has history shown is the usual cause of this situation?"
+    choices:
+    - content: "The resource account can’t sign into Microsoft Teams"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the usual cause of poor performance with Teams Rooms. Try again."
+    - content: "Unnecessary Intune or Group Policy Objects being applied to Teams Rooms"
+      isCorrect: true
+      explanation: "That's correct. Poor performance is usually the result of unnecessary Intune or Group Policy Objects being applied to Teams Rooms."
+    - content: "The Teams Room app isn't up-to-date"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the usual cause of poor performance with Teams Rooms. Try again."

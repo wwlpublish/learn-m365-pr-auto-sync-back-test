@@ -1,8 +1,7 @@
 Microsoft Teams Rooms scale to different room sizes. Teams Rooms use a wide variety of certified audio and video peripherals based on the size and use of the room. By selecting the right core device and console, combined with microphones, speakers, cameras, and displays appropriate for the space, an organization can deploy Microsoft Teams Rooms into spaces of any size - from small huddle spaces up through large conference spaces and boardrooms. 
 
-You can review the details on the [Microsoft Teams devices](https://www.microsoft.com/microsoft-teams/across-devices?azure-portal=true) page.
 
-:::image type="content" source="../media/teams-devices-consistent.png" alt-text="Screenshot of consistent Teams devices":::
+:::image type="content" source="../media/teams-devices-consistent.png" alt-text="Screenshot of consistent Teams devices.":::
 
 ## Analyze spaces for Teams Rooms
 
@@ -42,3 +41,13 @@ Once you have all the dimensions, you can work with your Teams Rooms vendor to v
 | Small 16' by 16'     | 4&ndash;6                   |                                  |                         |                 |
 | Medium 18' by 20'    | 6&ndash;12                  |                                  |                         |                 |
 | Large 15' by 32'     | 12&ndash;16                 |                                  |                         |                 |
+
+## Select Teams devices
+
+The Microsoft Teams devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). 
+
+You can browse, purchase, and provision devices certified for Microsoft Teams from the **Teams admin center** > **Teams devices** > **Store**. 
+
+The device store includes all devices that are certified for Teams, including headsets, web cameras, and Teams devices such as Teams Rooms, desk phones, and Teams displays. You can sort, filter, or search to find the device that your organization needs.
+
+:::image type="content" source="../media/devices-store.png" alt-text="Screenshot of devices store in Teams admin center.":::
