@@ -1,21 +1,22 @@
 ### YamlMime:Module
 uid: learn.wwl.plan-for-mobile-application-management
 metadata:
-  title: Plan for application management
-  description: "Plan for application management"
-  ms.date: 06/23/2021
+  title: Plan for mobile application management in Microsoft Intune
+  description: "Plan for mobile application management in Microsoft Intune"
+  ms.date: 07/13/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Plan for application management
-summary: This module examines how to protect company data by using app protection policies, and how to manage apps by using Configuration Manager, Intune, and Azure AD.
+title: Plan for mobile application management in Microsoft Intune
+summary: This module examines how to plan for mobile application management using Microsoft Intune, with a focus on adding apps to Intune, using app protection policies and app configuration policies, and troubleshooting app protection policy deployment.
 abstract: |
   By the end of this module, you'll be able to:
-  - Describe how to protect company data by using app protection policies
-  - Describe how apps can be managed using Configuration Manager
-  - Describe how apps can be managed using Intune
-  - Describe how apps can be managed using Azure AD
+  - Describe the basic functionality of mobile application management in Microsoft Intune.
+  - Assess your app requirements and add apps into Intune.
+  - Protect company data by using app protection policies.
+  - Implement app configuration policies in Intune to eliminate app setup problems.
+  - Troubleshoot app protection policy deployment in Intune.
 prerequisites: |
   None
 iconUrl: /learn/achievements/windows-application-management.svg
@@ -27,18 +28,22 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 subjects:
+- business-applications
+- cloud-security
+- communication
 - data-management
+- device-management
 - threat-protection
 units:
 - learn.wwl.plan-for-mobile-application-management.introduction
+- learn.wwl.plan-for-mobile-application-management.explore-mobile-application-management
+- learn.wwl.plan-for-mobile-application-management.add-apps-microsoft-intune
 - learn.wwl.plan-for-mobile-application-management.protect-company-data
-- learn.wwl.plan-for-mobile-application-management.explore-app-management-using-configuration-manager
-- learn.wwl.plan-for-mobile-application-management.explore-app-management-using-intune
-- learn.wwl.plan-for-mobile-application-management.explore-app-management-using-azure-ad
+- learn.wwl.plan-for-mobile-application-management.explore-app-configuration-policies-intune
+- learn.wwl.plan-for-mobile-application-management.troubleshoot-app-protection-policy-deployment-intune
 - learn.wwl.plan-for-mobile-application-management.knowledge-check
 - learn.wwl.plan-for-mobile-application-management.summary
 badge:

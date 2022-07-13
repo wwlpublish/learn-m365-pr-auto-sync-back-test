@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-for-mobile-application-management.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 07/13/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Intune represents different app configuration policy channels. The channel that an organization selects for a specific app policy is defined in the Device Enrollment Type setting. When configuring an app policy, which Device Enrollment Type setting specifically refers to apps deployed by Intune on enrolled devices?"
+    choices:
+    - content: "Managed Apps"
+      isCorrect: false
+      explanation: "Incorrect. Managed apps specifically refers to apps configured with an Intune App Protection Policy on devices regardless of the enrollment state."
+    - content: "Managed Devices"
+      isCorrect: true
+      explanation: "Correct. Selecting Managed devices as the Device Enrollment Type specifically refers to apps deployed by Intune on enrolled devices. As such, they're managed by Intune as the enrollment provider."
+    - content: "Intune App SDK"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't a valid Device Enrollment Type option."
+  - content: "As the Enterprise administrator for Lucerne Publishing, Patti Fernandez wants to implement mobile application management (MAM) in Intune. By doing so, which of the following tasks can Patti do?"
+    choices:
+    - content: "See reports on which apps are used and track their usage"
+      isCorrect: true
+      explanation: "Correct. When apps are managed in Intune, administrators can add and assign mobile apps to user groups and devices, configure apps to start or run with specific settings enabled, see reports on which apps are used and track their usage, and do a selective wipe by removing only organization data from apps."
+    - content: "Do a selective wipe by removing only personally owned data from apps"
+      isCorrect: false
+      explanation: "Incorrect. On apps managed in Intune, administrators can do a selective wipe by removing only organization data from apps."
+    - content: "Protect organization data on store apps only"
+      isCorrect: false
+      explanation: "Incorrect. Mobile application management in Intune is designed to protect organization data at the application level, including custom apps and store apps."
+  - content: "Apps that have been sourced from other Microsoft services can be sourced from either Azure AD or Office Online. Azure AD Enterprise applications are registered and assigned through which of the following portals?"
+    choices:
+    - content: "Microsoft 365 admin center"
+      isCorrect: false
+      explanation: "Incorrect. This admin center is used for assigning Office Online applications."
+    - content: "Azure Active Directory admin center"
+      isCorrect: false
+      explanation: "Incorrect. This admin center isn't used for assigning Azure AD Enterprise applications."
+    - content: "Microsoft Endpoint Manager admin center"
+      isCorrect: true
+      explanation: "Correct. Apps from other Microsoft services have been sourced from either Azure AD or Office Online. Azure AD Enterprise applications are registered and assigned through the Microsoft Endpoint Manager admin center. Office Online applications are assigned using the licensing controls available in the Microsoft 365 admin center."

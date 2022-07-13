@@ -1,18 +1,19 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.plan-for-mobile-application-management.explore-app-management-using-intune
-title: Explore app management using Intune
+uid: learn.wwl.plan-for-mobile-application-management.explore-mobile-application-management
+title: Explore mobile application management in Microsoft Intune
 metadata:
-  title: Explore app management using Intune
-  description: "Explore app management using Intune"
-  ms.date: 06/23/2021
+  title: Explore mobile application management in Microsoft Intune
+  description: "Explore mobile application management in Microsoft Intune"
+  ms.date: 07/13/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 8
+labModal: false
+durationInMinutes: 10
 content: |
-  [!include[](includes/4-explore-app-management-using-intune.md)]
+  [!include[](includes/2-explore-mobile-application-management.md)]
 quiz:
   title: "Check your knowledge"
   questions:
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Add the app to Intune"
       isCorrect: true
-      explanation: "That's correct. The app lifecycle begins when you add an app to Intune."
+      explanation: "Correct. The app lifecycle begins when you add an app to Intune."
     - content: "Deploy the app to users and devices"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't the first step in the app lifecycle. Try again."
+      explanation: "Incorrect. This action isn't the first step in the app lifecycle."
     - content: "Protect the app data by using app protection policies"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't the first step in the app lifecycle. Try again."
+      explanation: "Incorrect. This action isn't the first step in the app lifecycle."
