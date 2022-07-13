@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn.wwl.configure-manage-microsoft-teams-devices
 metadata:
-  title: Configure and manage Microsoft Teams devices
+  title: Configure and manage Microsoft Teams Room and Teams devices
   description: "Learn about the process to deploy and manage Teams devices, including devices selection, required resource accounts, devices provision, and devices management with configuration profiles and device tags, and troubleshooting common issues for Teams Rooms."
-  ms.date: 11/18/2021
+  ms.date: 07/13/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Configure and manage Microsoft Teams devices
+title: Configure and manage Microsoft Teams Room and Teams devices
 summary: Learn about the process to deploy and manage Teams devices, including devices selection, required resource accounts, devices provision, and devices management with configuration profiles and device tags, and troubleshooting common issues for Teams Rooms.
 abstract: |
   By the end of this module, you will be able to:
@@ -30,7 +30,6 @@ products:
 - m365
 - office-teams
 subjects:
-- device-management
 - collaboration
 - communication
 units:
@@ -40,6 +39,7 @@ units:
 - learn.wwl.configure-manage-microsoft-teams-devices.configure-microsoft-365-resource-accounts-for-teams-rooms
 - learn.wwl.configure-manage-microsoft-teams-devices.remote-provision-sign-for-new-devices
 - learn.wwl.configure-manage-microsoft-teams-devices.manage-devices
+- learn.wwl.configure-manage-microsoft-teams-devices.teams-rooms-managed-service
 - learn.wwl.configure-manage-microsoft-teams-devices.create-manage-configuration-profiles
 - learn.wwl.configure-manage-microsoft-teams-devices.device-tags
 - learn.wwl.configure-manage-microsoft-teams-devices.troubleshoot-teams-rooms
