@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-endpoint-security-microsoft-intune.manage-devices
+title: Manage devices with endpoint security in Intune
+metadata:
+  title: Manage devices with endpoint security in Intune
+  description: "Manage devices with endpoint security in Intune"
+  ms.date: 07/13/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-manage-devices.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson is reviewing the remote actions the company's Security team can apply to its Windows 10 and later devices from the Microsoft Endpoint Manager admin center. Which action concerns Holly, since it may result in the device owner losing work?"
+    choices:
+    - content: "Sychronize device"
+      isCorrect: false
+      explanation: "Incorrect. With this remote action, a device is immediately checked-in with Intune. When a device checks in, it receives any pending actions or policies that have been assigned to it. The action doesn't result in the device owner losing work."
+    - content: "BitLocker key rotation"
+      isCorrect: false
+      explanation: "Incorrect. With this remote action, the BitLocker recovery key of a device that runs Windows 10 version 1909 or later, or Windows 11 is remotely rotated. The action doesn't result in the device owner losing work."
+    - content: "Restart"
+      isCorrect: true
+      explanation: "Correct. This remote action forces a Windows 10 and later device to restart, within five minutes. The device owner won't automatically be notified of the restart and may lose work."

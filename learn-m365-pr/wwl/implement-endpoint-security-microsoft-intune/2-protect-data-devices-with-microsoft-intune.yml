@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-endpoint-security-microsoft-intune.protect-data-devices-with-microsoft-intune
+title: Protect data and devices with Microsoft Intune
+metadata:
+  title: Protect data and devices with Microsoft Intune
+  description: "Protect data and devices with Microsoft Intune"
+  ms.date: 07/13/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-protect-data-devices-with-microsoft-intune.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which type of Intune policies enable an organization to create profiles for different device platforms that establish device requirements?"
+    choices:
+    - content: "Device configuration policies"
+      isCorrect: false
+      explanation: "Incorrect. These policies manage profiles that define the settings and features that devices use in an organization"
+    - content: "Device compliance policies"
+      isCorrect: true
+      explanation: "Correct. These policies enable an organization to create profiles for different device platforms that establish device requirements. Requirements can include Operating system versions, disk encryption, and being at or under specific threat levels as defined by threat management software."
+    - content: "Conditional access policies"
+      isCorrect: false
+      explanation: "Incorrect. These policies control the devices and apps that can connect to your email and company resources."

@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-endpoint-security-microsoft-intune.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 07/13/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Tailspin Toys is a well-managed, security-conscious organization in which standard end users don't have administrative rights. Tailspin is new to Intune, which it wants to use to help protect its users and devices. Allan Deyoung, Tailspin Toy's Enterprise Administrator, isn't sure where to start. Which of the following items should Allan use that will give him an advantage by enabling him to quickly create and deploy a secure profile, knowing that it will help protect Tailspin's resources and data?"
+    choices:
+    - content: "Device-compliant conditional access policies"
+      isCorrect: false
+      explanation: "Incorrect. These policies ensure that only managed and compliant devices can access network resources."
+    - content: "App-based conditional access policies"
+      isCorrect: false
+      explanation: "Incorrect. These policies use app-protection policies to manage access to network resources by users on devices that aren't managed with Intune."
+    - content: "Security baselines"
+      isCorrect: true
+      explanation: "Correct. If you're new to Intune, and not sure where to start, then security baselines gives you an advantage. You can quickly create and deploy a secure profile, knowing that you're helping protect your organization's resources and data. Baselines are designed for well-managed, security-conscious organizations in which standard end users don't have administrative rights."
+  - content: "Contoso wants to evaluate how attack surface reduction rules would affect its line-of-business applications if the rules are enabled. What should Contoso do so that it can understand how the rules would affect its line-of-business applications?"
+    choices:
+    - content: "Run all attack surface reduction rules in warn mode"
+      isCorrect: false
+      explanation: "Incorrect. When running attack surface reduction rules in warn mode, whenever content is blocked by a rule, users see a dialog box that indicates the content is blocked."
+    - content: "Run all attack surface reduction rules in audit mode first"
+      isCorrect: true
+      explanation: "Correct. Organizations should use audit mode to evaluate how attack surface reduction rules would affect them if enabled. They should also run all rules in audit mode first so they can understand how the rules affect their line-of-business applications. Many line-of-business applications are written with limited security concerns. As such, they may perform tasks in ways that seem similar to malware. By monitoring audit data and adding exclusions for necessary applications, organizations can deploy attack surface reduction rules without reducing productivity."
+    - content: "When testing rules, run obfuscated or suspicious scripts"
+      isCorrect: false
+      explanation: "Incorrect. Running obfuscated or otherwise suspicious scripts is a type of behavior that attack surface reduction rules targets. It isn't a method to evaluate how attack surface reduction rules would affect line of business apps."
+  - content: "As the Enterprise Administrator for Lucerne Publishing, Patti Fernandez plans to implement endpoint security using the tools that are available through Microsoft Intune. Patti is planning which methods Lucerne will use to deploy configurations to different devices. In doing so, Patti doesn't want to create policy conflicts when designing Endpoint security policies. Which of the following items should Patti implement to avoid policy conflicts on devices?"
+    choices:
+    - content: "Avoid using instances of the same baseline"
+      isCorrect: true
+      explanation: "Correct. One way to avoid conflicts is to NOT use different baselines, instances of the same baseline, or different policy types and instances to manage the same settings on a device."
+    - content: "Use different baselines"
+      isCorrect: false
+      explanation: "Incorrect. To avoid policy conflicts, organizations should not use different baselines."
+    - content: "Use different policy types to manage the same settings on a device"
+      isCorrect: false
+      explanation: "Incorrect. Incorrect. To avoid policy conflicts, organizations should not use different policy types and instances to manage the same settings on a device."

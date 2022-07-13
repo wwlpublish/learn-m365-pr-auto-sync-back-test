@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-endpoint-security-microsoft-intune.explore-endpoint-security
+title: Explore endpoint security in Microsoft Intune
+metadata:
+  title: Explore endpoint security in Microsoft Intune
+  description: "Explore endpoint security in Microsoft Intune"
+  ms.date: 07/13/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-explore-endpoint-security.md)]
