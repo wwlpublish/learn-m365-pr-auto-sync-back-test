@@ -79,7 +79,7 @@ quiz:
       explanation: "That's incorrect. A PBX is a telephone exchange or switching system that serves a private organization."
     - content: "Session Initiation Protocol (SIP) trunks"
       isCorrect: false
-      explanation: "That's incorrect. A SIP trunk enables an end point’s PBX phone system to send and receive calls through the Internet."
+      explanation: "That's incorrect. A SIP trunk enables an end point’s PBX system to send and receive calls through the Internet."
     - content: "Microsoft  Teams Phone"
       isCorrect: true
       explanation: "That's correct. Teams Phone is Microsoft's technology for enabling call control and PBX capabilities in the Microsoft 365 or Office 365 cloud with Microsoft Teams. Calls between users in an organization are handled internally  and they never go to the PSTN. This design applies to calls between users in an organization located in different geographical areas, removing long-distance costs on these internal calls."
