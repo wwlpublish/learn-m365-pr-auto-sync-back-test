@@ -121,10 +121,10 @@ Ask - Are these focused, measurable, and ambitious? Yes!
 Next you can look to see if they line up with the OKR superpowers.
 
 - **Focus**: What OKRs can be eliminated?
-- **Alignment**: Who are the stakeholders you might have forgotten?
-- **Tracking**: Ask yourself, if we have this conversation next month, can we track if we were successful?
+- **Alignment**: Who are the stakeholders you might have forgotten and who do you need to help you achieve these?
+- **Tracking**: Ask yourself will there be undeniable evidence whether we were successful
 - **Transparency**: Where are there unseen implications or bottlenecks?
-- **Stretch**: Are my OKRs propelling the business forward?
+- **Stretch**: Are my OKRs propelling the business forward? Do they seem ambitious? 
 
 We're looking solid here, but when thinking about alignment, you start to consider other stakeholders. One of the stakeholders we left out is the product team. So, we should add a Key Result around launching a Spanish language version of our product.
 
