@@ -2,7 +2,7 @@ There are two forms of common security principals in Active Directory: user acco
 
 As with local accounts, domain user accounts are created for each user in most cases. This account contains their username and password, as well as information about the user, such as their name, location, department, etc. However, unlike a local account, domain accounts can be used to sign in using other devices on the network (with the correct permissions). The obvious benefit to this is administrators can centrally manage user accounts across an organization instead of each individual device.
 
-Like local accounts, domain user accounts can also be used as dedicated service accounts for applications or services..
+Like local accounts, domain user accounts can also be used as dedicated service accounts for applications or services.
 
 ### Active Directory groups
 
