@@ -4369,6 +4369,21 @@
       "source_path": "learn-m365-pr/wwl/configure-manage-microsoft-teams-devices/11-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/configure-manage-microsoft-teams-devices/12-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-users-groups/4-compare-active-directory-domain-services-azure-active-directory.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-users-groups/3-compare-active-directory-domain-services-azure-active-directory",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-users-groups/5-sign-in-domain.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-users-groups/4-sign-in-domain",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-users-groups/3-manage-users-groups-using-active-directory.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-users-groups/5-manage-users-groups-using-active-directory",
+      "redirect_document_id": true
     }
   ]
 }
