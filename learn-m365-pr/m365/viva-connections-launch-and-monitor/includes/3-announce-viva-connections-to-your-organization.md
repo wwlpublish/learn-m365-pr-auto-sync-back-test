@@ -1,15 +1,14 @@
 After testing Viva Connections, it’s time to let the rest of the
 organization know that it's available for use. Announce the launch at
-team and organization-wide meetings. Use your community communication
-channels like Teams, Yammer, and SharePoint to share more in-depth
-details about training opportunities, live demonstrations, and [where to
+team and organization-wide meetings. Use communication
+channels like Teams, Yammer, and SharePoint to share information about training opportunities, live demonstrations, and [where to
 get
 more](https://support.microsoft.com/en-us/office/viva-connections-on-your-desktop-3da30f39-684a-4bde-bb81-2e1407d59b52)
 information for end users.
 
 :::image type="content" source="../media/communication-channels-by-job-type.png" alt-text="Diagram of communication channels by job type.":::
 Use Microsoft Viva adoption materials to help announce the change. In
-the adoption center you will find communication templates that can be
+the adoption center you'll find communication templates that can be
 customized. Share these templates with organizational leaders so they
 can create a special message that speaks to the specific scenarios that
 impact them.
@@ -61,8 +60,8 @@ and in Outlook. Hybrid workers, like IT professionals and the
 administration team, are used to getting information from Teams channels
 and Yammer communities. Other roles like the custodial staff and café
 operators get the most important announcements in team meetings or in
-the form of a poster in the breakroom. The adoption committee has
-decided that they will announce the launch of Viva Connections through
+the form of a poster in the break room. The adoption committee has
+decided that they'll announce the launch of Viva Connections through
 multiple channels to make sure every group has an opportunity to improve
 their workflow using this new tool.
 
@@ -73,24 +72,24 @@ adoption committee to schedule office hours (flexible drop-in hours) to
 provide extra support over the next 90 days. The adoption committee puts
 together change management guidance for managers and end-user training
 for Viva Connections that is accessible in Teams and SharePoint. Let’s
-see how Kayla, a HR generalist, and Maya, a nurse hear about the launch
+see how Kayla, an HR generalist, and Maya, a nurse, hear about the launch
 of Viva Connections from different channels:
 
-:::image type="content" source="../media/-kayla.png" alt-text="Diagram of profile head shot of Kayla and her job title.":::
+:::image type="content" source="../media/-kayla.png" alt-text="Diagram of profile head shot of Kayla and their job title.":::
 Kayla,
 an HR generalist who completes most of her work on a computer, first
 learns about the launch of Viva Connections the Office of Human
-Resources Teams channel. She then joins the discussion about Viva
-Connections launch in the hospital’s Yammer community. Lastly, she
+Resources Teams channel. Kayla then joins the discussion about Viva
+Connections launch in the hospital’s Yammer community. Lastly, Kayla
 receives the organization wide email announcement about the launch.
 
-:::image type="content" source="../media/-maya.png" alt-text="Diagram of profile head shot of Maya and her job title.":::
+:::image type="content" source="../media/-maya.png" alt-text="Diagram of profile head shot of Maya and their job title.":::
 Maya
-and her nurse colleagues, however, are introduced to Viva Connections in
+and their nurse colleagues, however, are introduced to Viva Connections in
 a SharePoint news post. They also see Lamna’s version of Viva
 Connections announced on breakroom posters, “*LamnaNet is Coming!*”
-Lastly, Maya and her colleagues receive the email announcement a few
-weeks before the launch. They are excited to use this new technology to
+Lastly, Maya and their colleagues receive the email announcement a few
+weeks before the launch. They're excited to use this new technology to
 manage their shifts and tasks more efficiently. They later attend a
 training event for hourly employees offered during both day and at night
-shirts.
+shifts.
