@@ -4,7 +4,7 @@ title: Build the Dashboard
 metadata:
   unitType: exercise
   title: Build the Dashboard
-  description: Build the Dashboard by choosing the out-of-box dashboard cards, setting up the third-party tool dashboard cards, and develop custom dashbaord cards.
+  description: Build the Dashboard by choosing the out-of-box dashboard cards, setting up the third-party tool dashboard cards, and develop custom dashboard cards.
   ms.date: 6/23/2022
   author: maggierui
   ms.author: ruihu
@@ -22,7 +22,7 @@ quiz:
         isCorrect: false
         explanation: "The Approvals card is best used for time-off
             requests and approving important documents, such as expense
-            reports. It is still an important card to add to your
+            reports. It's still an important card to add to your
             Dashboard, though."
       - content: "The Web Link card"
         isCorrect: false
@@ -32,9 +32,9 @@ quiz:
         isCorrect: true
         explanation: "As its name suggests, the Assigned Tasks card
             allows you to manage, assign, and track your team’s tasks.
-            It is the best out-of-box card to add to your Dashboard for
+            It's the best out-of-box card to add to your Dashboard for
             overseeing your team’s task workflow."
-    - content: "A team within your organization is facing issues with getting sign-off for projects. Their workflows aren’t streamlined, and they are having a hard time getting the sign-off they need from other teams. What kind of out-of-box card can you set up for this team to help with getting documents signed?"
+    - content: "A team within your organization is facing issues with getting sign-off for projects. Their workflows aren’t streamlined, and they're having a hard time getting the sign-off they need from other teams. What kind of out-of-box card can you set up for this team to help with getting documents signed?"
       choices:
       - content: "Shifts card"
         isCorrect: false
@@ -52,11 +52,11 @@ quiz:
         explanation: "As the name states, this card enables automatic
             display of information to users about their assigned tasks
             and is retrieved from the Tasks app in Teams."
-    - content: "A nurse with low-vision at Lamna Healthcare has expressed concerns with the accessibility of her “Shuttle Schedule” card, a custom card that developers created to provide shuttle schedule information for employees. She says she is having problems accessing the card on her phone. How can you best accommodate the nurse’s concerns about the usability of this custom card?"
+    - content: "A nurse with low-vision at Lamna Healthcare has expressed concerns with the accessibility of their “Shuttle Schedule” card, a custom card that developers created to provide shuttle schedule information for employees. The nurse says they are having problems accessing the card on her phone. How can you accommodate the nurse’s concerns about the usability of this custom card?"
       choices:
       - content: "Consult your organization’s accessibility experts."
         isCorrect: false
-        explanation: "Although this is generally good practice, custom cards will need to be built with accessibility in mind and will need the help of the technical team."
+        explanation: "Although this is good practice, custom cards will need to be built with accessibility in mind, and will need the help of the technical team."
       - content: "Consult the developer who created the “Shuttle Schedule” card and your accessibility specialist."
         isCorrect: true
         explanation: "Your accessibility specialists can provide guidelines to the developer to make sure the card is accessible on all devices."
@@ -67,10 +67,10 @@ quiz:
       choices:
       - content: "Adaptive card extensions make it easier for users to access Viva Connections."
         isCorrect: false
-        explanation: "Adaptive extension cards allow developers to create custom cards for users. Once they are created, users will access them like other out-of-box cards. "
+        explanation: "Adaptive extension cards allow developers to create custom cards for users. Once they're created, users will access them like other out-of-box cards. "
       - content: "Adaptive card extensions allow developers to create custom cards with quick views that include functionality specific to the organization. "
         isCorrect: true
-        explanation: "Unlike out-of-the-box cards, adaptive card extensions are not built in. Rather, they are custom-made to allow employees to complete critical and complicated tasks, on the Dashboard."
+        explanation: "Unlike out-of-the-box cards, adaptive card extensions aren't built in. Rather, they're custom-made to allow employees to complete critical and complicated tasks, on the Dashboard."
       - content: "Adaptive card extensions allow end users to make personalized customizations to their Dashboard layout."
         isCorrect: false
         explanation: "Adaptive card extensions is a developer tool, not an end user customization tool. "
@@ -78,13 +78,13 @@ quiz:
       choices:
       - content: "Yes. Viva Connections editors can request any third-party app. "
         isCorrect: false
-        explanation: "For AppSource, you can request to add the app, but you need to be a global admin to approve the API (Application Programming Interfaces) request. For the SharePoint Store, you will need approval from a tenant admin to approve app catalog request "
-      - content: "No. Editor permissions to the home site and Viva Connections Dashboard are not high-enough permission level to request the third-party card on your own. "
+        explanation: "For AppSource, you can request to add the app, but you need to be a global admin to approve the API (Application Programming Interfaces) request. For the SharePoint Store, you'll need approval from a tenant admin to approve app catalog request "
+      - content: "No. Editor permissions to the home site and Viva Connections Dashboard aren't high-enough permission level to request the third-party card on your own. "
         isCorrect: true
-        explanation: "For AppSource, you can request to add the app, but you need to be a global admin to approve the API request. For the SharePoint Store, you will need approval from a tenant admin to approve app catalog request."
+        explanation: "For AppSource, you can request to add the app, but you need to be a global admin to approve the API request. For the SharePoint Store, you'll need approval from a tenant admin to approve app catalog request."
       - content: "Yes, but only for some third-party apps."
         isCorrect: false
-        explanation: "For AppSource, you can request to add the app, but you need to be a global admin to approve the API request. For the SharePoint Store, you will need approval from a tenant admin to approve app catalog request."
+        explanation: "For AppSource, you can request to add the app, but you need to be a global admin to approve the API request. For the SharePoint Store, you'll need approval from a tenant admin to approve app catalog request."
     - content: "Lamna Healthcare uses Qualtrics to collect feedback from their employees to gauge moral and satisfaction. When setting up the Dashboard, how can you add a card to link to these surveys?"
       choices:
       - content: "An out-of-box card"
@@ -95,4 +95,4 @@ quiz:
         explanation: "ACE cards are fully customized cards that connect employees with experiences unique to your organization. You can add the Qualtrics Feedback app from the SharePoint store to the Dashboard of Viva Connections."
       - content: "A third-party card"
         isCorrect: true
-        explanation: "With a third-party card, you can integrate with other applications, even if they are not a Microsoft app."
+        explanation: "With a third-party card, you can integrate with other applications, even if they're not a Microsoft app."
