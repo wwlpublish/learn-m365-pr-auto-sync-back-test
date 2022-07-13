@@ -6,19 +6,19 @@ Here, you'll learn how Safe Attachments can prevent malicious code from running 
 
 ## What is Safe Attachments?
 
-Safe Attachments for Microsoft Teams are a feature of  Microsoft Defender for Office 365. Safe Attachments helps detect and block files that are identified as malicious in Teams sites and document libraries.
+Safe Attachments for Microsoft Teams is a feature of  Microsoft Defender for Office 365. Safe Attachments helps detect and block files that are identified as malicious in Teams sites and document libraries.
 
-Microsoft Teams allows people to share files and collaborate, and Microsoft Defender for Office 365 allows users to collaborate in a safer way. The Microsoft Defender for Office 365 Safe Attachments feature protects your organization according to policies that are set by your global or security administrators.
+Microsoft Teams allows people to share files and collaborate. Microsoft Defender for Office 365 allows users to collaborate in a safer way. The Microsoft Defender for Office 365 Safe Attachments feature protects your organization according to policies that are set by your global or security administrators.
 
 ## How Safe Attachments works
 
 When a file in Microsoft Teams has been identified as malicious, Microsoft Defender for Office 365 locks the file by integrating with the file store. The following image shows an example of a malicious file detected in a library.
 
-:::image type="content" source="../media/advanced-threat-protection-policies.png" alt-text="Screenshot of blocked file in SharePoint document library":::
+:::image type="content" source="../media/advanced-threat-protection-policies.png" alt-text="Screenshot of blocked file in SharePoint document library.":::
 
 Although the blocked file is still listed in the document library and in web, mobile, or desktop applications, people can't open, copy, move, or share the file. But they can delete the blocked file. Here's an example of what a blocked file looks like on a mobile device:
 
-:::image type="content" source="../media/blocked-file-mobile-device.png" alt-text="Screenshot of blocked file in mobile device":::
+:::image type="content" source="../media/blocked-file-mobile-device.png" alt-text="Screenshot of blocked file in mobile device.":::
 
 ## Enable Safe Attachments for Microsoft Teams
 
@@ -30,13 +30,13 @@ Safe Attachments for SharePoint, OneDrive, and Microsoft Teams is not enabled by
 
 2. In the left navigation bar, select **Policies & rules** \> **Threat policies** \> **Policies** section \> **Safe Attachments**.
 
-    :::image type="content" source="../media/threat-policy-safe-attachments.png" alt-text="Safe attachments in Threat Policies page":::
+    :::image type="content" source="../media/threat-policy-safe-attachments.png" alt-text="Screenshot of Safe attachments in Threat Policies page.":::
 
 3. In the Safe attachments page, select **Global settings**.
 
 4. In the Global settings fly out that appears, turn on the toggle under **Turn on Defender for Office 365 for SharePoint, OneDrive, and Microsoft Teams**.
 
-    :::image type="content" source="../media/safe-attachments.png" alt-text="Turn on Safe Attachments for SharePoint, OneDrive, and Microsoft Teams":::
+    :::image type="content" source="../media/safe-attachments.png" alt-text="Screenshot of turn on Safe Attachments for SharePoint, OneDrive, and Microsoft Teams.":::
 
 5. Select **Save**.
 

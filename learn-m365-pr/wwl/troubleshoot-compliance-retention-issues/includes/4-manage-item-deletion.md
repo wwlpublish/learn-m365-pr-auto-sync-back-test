@@ -34,7 +34,7 @@ Ordinarily, users are in charge of deleting items from their mailbox and adminis
 - Phishing messages have been received and reached users' inboxes.
 - Messages with sensitive data have been sent to unauthorized users.
 
-You can use the Microsoft 365 compliance center's **Content search** feature to locate these messages and delete them to preserve security.
+You can use the compliance portal's **Content search** feature to locate these messages and delete them to preserve security.
 
 > [!IMPORTANT] 
 > To locate messages this way, you must be a member of the **eDiscovery Manager** or **Compliance Search** role groups. To delete the messages you find, you must be a member of the **Organization Management** role group or be assigned the **Search and Purge** role.

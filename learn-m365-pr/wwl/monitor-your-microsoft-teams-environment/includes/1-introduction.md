@@ -6,7 +6,9 @@ In this module, you'll learn about different reports and dashboards to monitor y
 
 After this module, you will be able to: 
 
-- Analyze usage patterns by monitoring Microsoft 365 and Teams usage reports. 
-- Monitor user access by using Azure AD access reviews.
-- Interpret Microsoft Productivity Score.
-- Assess network readiness by using Microsoft 365 network connectivity dashboard.
+* Analyze usage patterns by monitoring Microsoft 365 and Teams usage reports
+* Interpret Microsoft Productivity Score
+* Manage user access by using Azure AD access reviews
+* Assess network readiness by using Microsoft 365 network connectivity dashboard
+* Manage Teams notifications and alerts   to monitor Teams capabilities and receive alerts
+* Manage feedback policies 

@@ -1,0 +1,53 @@
+### YamlMime:Module
+uid: learn.wwl.manage-microsoft-purview-ediscovery-standard
+metadata:
+  title: Manage Microsoft Purview eDiscovery (Standard)
+  description: "Manage Microsoft Purview eDiscovery (Standard)"
+  ms.date: 07/06/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage Microsoft Purview eDiscovery (Standard)
+summary: This module explores how to use Microsoft Purview eDiscovery (Standard) to create an eDiscovery case and a hold for a case, how to manage case content, and how to close, reopen, and delete a case.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Describe how Microsoft Purview eDiscovery (Standard) builds on the basic search and export functionality of Content search.
+  - Describe the basic workflow of eDiscovery (Standard).
+  - Create an eDiscovery case.
+  - Create an eDiscovery hold for an eDiscovery case.
+  - Search for content in a case and then export that content.
+  - Close, reopen, and delete a case.
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+- security-engineer
+- solution-architect
+- technology-manager
+products:
+- m365
+- office-365
+subjects:
+- cloud-computing
+- cloud-security
+- collaboration
+- communication
+- compliance
+- information-protection-governance
+- security
+- threat-protection
+units:
+- learn.wwl.manage-microsoft-purview-ediscovery-standard.introduction
+- learn.wwl.manage-microsoft-purview-ediscovery-standard.explore-microsoft-purview-ediscovery-solutions
+- learn.wwl.manage-microsoft-purview-ediscovery-standard.implement-microsoft-purview-ediscovery-standard
+- learn.wwl.manage-microsoft-purview-ediscovery-standard.create-ediscovery-holds
+- learn.wwl.manage-microsoft-purview-ediscovery-standard.search-content-case
+- learn.wwl.manage-microsoft-purview-ediscovery-standard.export-content-from-case
+- learn.wwl.manage-microsoft-purview-ediscovery-standard.close-reopen-delete-case
+- learn.wwl.manage-microsoft-purview-ediscovery-standard.knowledge-check
+- learn.wwl.manage-microsoft-purview-ediscovery-standard.summary
+badge:
+  uid: learn.wwl.manage-microsoft-purview-ediscovery-standard.badge

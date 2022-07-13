@@ -32,6 +32,7 @@ Guests in Teams are covered by the same compliance and auditing protection as th
 |:-----|:-----|:-----|
 |Edit sent messages|On|When **On**, guests can edit messages they previously sent; when **Off**, they can't.|
 |Delete sent messages|On|When **On**, guests can delete messages they previously sent; when **Off**, they can't.|
+|Delete chat|	On	|When **On**, guests can delete chat|
 |Chat|On|When **On**, guests can use chat in Teams; when **Off**, they can't.|
 |Giphy in conversations|On|When **On**, guests can use Giphys in conversations; when **Off**, they can't.|
 |Giphy content rating|Moderate|When set to **Allow all content**, guests will be able to insert all Giphys in chats, regardless of the content rating. <br/>When set to **Moderate** guests can insert Giphys in chats, but will be moderately restricted from adult content. <br/>When set to **Strict** guests can insert Giphys in chats, but will be restricted from inserting adult content.|
@@ -40,7 +41,7 @@ Guests in Teams are covered by the same compliance and auditing protection as th
 |Immersive reader for messages|On|When **On**, guests can view messages in Immersive Reader; when **Off**, they can't.|
 
 
-:::image type="content" source="../media/teams-guest-access-setting.png" alt-text="Guest permissions settings in Teams" :::
+:::image type="content" source="../media/teams-guest-access-setting.png" alt-text="Screenshot of Guest permissions settings in Teams." :::
 
 ## Configure guest access 
 
@@ -72,6 +73,3 @@ Set-CsTeamsGuestMeetingConfiguration
 Set-CsTeamsGuestMessagingConfiguration
 ```
 
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”

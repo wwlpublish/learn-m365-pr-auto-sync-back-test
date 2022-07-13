@@ -3,7 +3,7 @@ uid: learn.wwl.deploy-use-premises-based-tools
 metadata:
   title: Deploy using on-premises based tools
   description: Deploy using on-premises based tools
-  ms.date: 03/31/2022
+  ms.date: 07/07/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -15,7 +15,7 @@ prerequisites: |
   - Experience using Active Directory Domain Services
 summary: |
   Students well be introduced to deployment using the Microsoft Deployment Toolkit and Configuration Manager.
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/on-premises-deploy-tools.svg
 levels:
 - intermediate
 roles:

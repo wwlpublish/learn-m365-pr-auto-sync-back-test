@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-collaboration-experiences-for-chat-channels.manage-access-channels
+title: Manage access to channels
+metadata:
+  title: Manage access to channels
+  description: "Manage access to channels"
+  ms.date: 07/04/2022
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/08-manage-access-channels.md)]

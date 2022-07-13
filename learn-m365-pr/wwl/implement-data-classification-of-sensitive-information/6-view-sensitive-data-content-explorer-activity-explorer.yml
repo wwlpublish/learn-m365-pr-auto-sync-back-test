@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-data-classification-of-sensitive-information.view-sensitive-data-content-explorer-activity-explorer
+title: View sensitive data using Content explorer and Activity explorer
+metadata:
+  title: View sensitive data using Content explorer and Activity explorer
+  description: "View sensitive data using Content explorer and Activity explorer"
+  ms.date: 06/21/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/6-view-sensitive-data-content-explorer-activity-explorer.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following features gets embedded in a document so that it follows the document everywhere it goes?"
+    choices:
+    - content: "Sensitivity label"
+      isCorrect: true
+      explanation: "Correct. A sensitivity label is simply a tag that indicates the value of the item to an organization. It can be applied manually or automatically. Once applied, the label gets embedded in the document. By doing so, it follows the document everywhere it goes."
+    - content: "Retention label"
+      isCorrect: false
+      explanation: "Incorrect. A retention label enables organizations to define how long a labeled item is kept and the steps to be taken prior to deleting it."
+    - content: "Data classification label"
+      isCorrect: false
+      explanation: "Incorrect. Data classification label is a term that actually encompasses both sensitivity and retention labels."

@@ -39,10 +39,10 @@ Microsoft Teams lets you quickly pull together a team with people inside and out
 
     * **Standard channels**: Standard channels are visible to all team members, which are available for conversations that everyone on a team can participate in. 
 
-    * **Private channels**: Private channels are similar to standard channels, but they restrict access to conversations, files, and apps to a limited subset of team members. This enables private collaboration within a project or department. 
+    * **Private channels**: Private channels create focused spaces for collaboration within a team. Anyone, including guests, can be added as a member of a private channel as long as they are already members of the team. Only the users on the team who are owners or members of the private channel can access the channel. 
 
-    * **Shared channels**: Shared channels enable you to share channels with any user or group with Azure Active Directory identity to your organization. (The feature is in development. For the latest status, check the roadmap with the [feature ID_70766](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=70766&azure-portal=true).)
-
+    * **Shared channels**: Shared channels create collaboration spaces where you can invite people who are not in the team. Users can securely collaborate with users or groups across teams and organizations. (This feature is in public preview as of May 2022. For the latest status, check the roadmap with the [feature ID_70766](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=70766&azure-portal=true).)
+    
 Teams can be dynamic for project-based work (such as running projects), and ongoing, to reflect the internal structure of your organization (such as departments and office locations). 
 
 All data within a team, such as conversations, files, and notes across team channels are only visible to members of the team. At the top of each channel, you will find tabs, which are basically links to your favorite files, apps, and services. The following picture shows the structure of channels in Teams of an organization.  
@@ -84,7 +84,7 @@ There are two kinds of calls in Teams.
 
 * **Make and receive PSTN calls**: Microsoft Teams Phone allows users to make and receive Public Switched Telephone Network (PSTN) phone calls with traditional phone service. 
 
-    To enable users to make and receive PSTN calls, you need to connect Phone System to the PSTN. Users can then use the Dial Pad to call landlines or mobiles phones on the PSTN.
+    To enable users to make and receive PSTN calls, you need to connect Microsoft Teams Phone to the PSTN. Users can then use the Dial Pad to call landlines or mobiles phones on the PSTN.
 
      ‎:::image type="content" source="../media/make-switched-telephone-network-calls.png" alt-text="Make PSTN calls using the Dial Pad":::
 
@@ -95,7 +95,7 @@ There are two kinds of calls in Teams.
 Microsoft Teams provides the enterprise-grade security, compliance, and manageability. With Microsoft Teams, organizations can adopt user collaboration and communication while protecting their business data and interest on an enterprise scale. 
 
 ### Security
-Teams enforces two-factor authentication, single sign-on through Active Directory, and encryption of data in transit and at rest. The security capabilities for Teams include:
+Teams enforces two-factor authentication, single Sign-On through Active Directory, and encryption of data in transit and at rest. The security capabilities for Teams include:
 
 * Microsoft Defender for Office 365
 * Safe Links
@@ -104,7 +104,7 @@ Teams enforces two-factor authentication, single sign-on through Active Director
 * Multi-Geo Support
 * End-to-end encryption
 * Meeting safety controls
-* Cloud App Security
+* Microsoft Defender for Cloud Apps
  
 ### Compliance
 The compliance capabilities for Teams include:

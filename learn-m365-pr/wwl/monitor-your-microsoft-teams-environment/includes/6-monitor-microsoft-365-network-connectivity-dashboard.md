@@ -17,7 +17,7 @@ You will have to configure your locations to see the map of global network perfo
 2. Add locations and provide LAN subnet information.
 3. Manually gather test reports with the Microsoft 365 network connectivity test tool.
 
-For more information, see [Pre-requisites for network connectivity assessments to appear](https://docs.microsoft.com/microsoft-365/enterprise/office-365-network-mac-perf-overview?azure-portal=true#pre-requisites-for-network-connectivity-assessments-to-appear)
+For more information, see [Pre-requisites for network connectivity assessments to appear](/microsoft-365/enterprise/office-365-network-mac-perf-overview?azure-portal=true#pre-requisites-for-network-connectivity-assessments-to-appear)
 
 
 ## Interpret network assessments
