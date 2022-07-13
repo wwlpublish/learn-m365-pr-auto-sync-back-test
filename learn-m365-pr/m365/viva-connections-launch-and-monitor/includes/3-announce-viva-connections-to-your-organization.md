@@ -15,13 +15,13 @@ can create a special message that speaks to the specific scenarios that
 impact them.
 
 -   [Email announcement
-    template](http://adoption.microsoft.com/files/viva/connections/Microsoft-Viva-Connections-Announcement.eml)
+    template](https://adoption.microsoft.com/files/viva/connections/Microsoft-Viva-Connections-Announcement.eml)
 
 -   [Editable poster
-    template](http://adoption.microsoft.com/files/viva/connections/Viva%20Connections_EditablePoster_Template.docx)
+    template](https://adoption.microsoft.com/files/viva/connections/Viva%20Connections_EditablePoster_Template.docx)
 
 -   [Countdown news post
-    sample](http://adoption.microsoft.com/files/viva/connections/Viva%20Connections-Countdown-News-Post-Sample.docx)
+    sample](https://adoption.microsoft.com/files/viva/connections/Viva%20Connections-Countdown-News-Post-Sample.docx)
 
 ### **Best practices for announcing Viva Connections:**
 

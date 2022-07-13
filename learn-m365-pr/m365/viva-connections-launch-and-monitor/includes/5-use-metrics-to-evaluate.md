@@ -20,7 +20,7 @@ useful.
 
 For a more high-level view of how your employees are using Viva
 Connections and the apps it links to, [Microsoft 365 usage
-analytics](/microsoft-365/admin/usage-analytics/usage-analytics?view=o365-worldwide)
+analytics](/microsoft-365/admin/usage-analytics/usage-analytics)
 provides access to a dashboard with pre-built reports that focus on the
 adoption of different Microsoft 365 apps, usage, communication, and
 collaboration.
