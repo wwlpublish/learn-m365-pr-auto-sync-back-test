@@ -12,24 +12,26 @@ It's recommended that organizations assign the Teams Rooms Standard or Teams Roo
 
 - **Teams Rooms Premium license** - This license includes everything in the Standard license, plus an advanced set of features. For example, it includes a Microsoft-managed service that helps with everything from planning your rooms to monitoring and troubleshooting them.
 
-    :::image type="content" source="../media/standard-premium-license.png" alt-text="Standard versus Premium licenses":::
+    :::image type="content" source="../media/standard-premium-license.png" alt-text="Diagram showing Standard versus Premium licenses.":::
 
-## Create a resource account using Microsoft 365 admin center
+## Create a resource account 
+
+### Use Microsoft 365 admin center
 
 Complete the following steps to create a new resource account using the Microsoft 365 admin center. These instructions will create a user account record for the resource account, and then assign it a password and a license.
 
 1. Navigate to the Microsoft 365 admin center (admin.microsoft.com) and sign in with an admin account.
 2. In the left-hand navigation pane, select **Show all**, select **Resources**, and then select **Rooms & equipment**.
   
-   :::image type="content" source="../media/resource-account-resources-tab.png" alt-text="Microsoft 365 admin center resources tab Rooms & equipment option":::
+   :::image type="content" source="../media/resource-account-resources-tab.png" alt-text="Screenshot of Microsoft 365 admin center resources tab Rooms & equipment option.":::
 
 3. On the **Rooms & equipment** window, select the **+Add resource** option on the menu bar to add a new resource account.
 
-   :::image type="content" source="../media/rooms-equipment-view.png" alt-text="Screenshot of the Rooms & equipment page with the +Add resource option on the menu bar highlighted":::
+   :::image type="content" source="../media/rooms-equipment-view.png" alt-text="Screenshot of the Rooms & equipment page with the +Add resource option on the menu bar highlighted.":::
 
 4. In the **Add resource** pane that appears, update the following fields:
 
-   :::image type="content" source="../media/add-resource-form.png" alt-text="Focus Room configuration":::
+   :::image type="content" source="../media/add-resource-form.png" alt-text="Screenshot of Focus Room configuration.":::
 
    1. Select **Room** as the **Resource type**.
    1. Add a friendly name in the **Name** field. This value is what users will see when scheduling the room in Outlook or Microsoft Teams.
@@ -40,7 +42,7 @@ Complete the following steps to create a new resource account using the Microsof
 
 6. After the resource account has been created, you’ll receive an acknowledgment that the Room mailbox is ready to use.
 
-   :::image type="content" source="../media/add-resource-acknowledgement.png" alt-text="Acknowledgement of mailbox creation":::
+   :::image type="content" source="../media/add-resource-acknowledgment.png" alt-text="Screenshot of Acknowledgment of mailbox creation.":::
 
 7. Once you've created a resource account, you can edit its booking options. On the acknowledgment window that you received in the prior step, under the **Next steps** section, select **Edit booking options**.
 
@@ -48,7 +50,7 @@ Complete the following steps to create a new resource account using the Microsof
 
     Both methods described in this step will open the **Edit booking options** pane.
 
-   :::image type="content" source="../media/edit-booking-options.png" alt-text="Edit the booking options":::
+   :::image type="content" source="../media/edit-booking-options.png" alt-text="Screenshot of Edit the booking options.":::
 
 8. In the **Edit booking options** pane, update the following settings:
 
@@ -65,7 +67,7 @@ Complete the following steps to create a new resource account using the Microsof
 10. Now that you've created the resource account and configured its booking options, it's time to assign it a password. In the **Microsoft 365 admin center**, in the left-hand navigation pane, select **Users** and then select **Active users**.
 11. On the **Active users** window, either hover your mouse over the new resource account that you created, or select the check box to the left of the account's display name. A **Key** icon (Reset a password) will appear to the right of the display name. Select the **Key** icon to set the password.
 
-   :::image type="content" source="../media/resource-account-with-key.png" alt-text="Find your new resource account and click Key to reset password":::
+      :::image type="content" source="../media/resource-account-with-key.png" alt-text="Screenshot of Find your new resource account and click Key to reset password.":::
 
 12. On the **Reset password** pane that appears, enter the following information:
     1. Unselect the **Automatically create a password** check box.
@@ -75,13 +77,13 @@ Complete the following steps to create a new resource account using the Microsof
 13. Select **Reset password**, and then select **Close** once the password has been reset.
 
 14. To complete the resource account configuration, you must assign a license to the resource account. On the **Active users** window, select the room’s display name to open the properties pane for this account.
-   :::image type="content" source="../media/resource-account-license-form.png" alt-text="Screenshot of the Active Users window":::
+   :::image type="content" source="../media/resource-account-license-form.png" alt-text="Screenshot of the Active Users window.":::
 
 15. In the properties pane that appears, note the tabs that appear across the top of the pane. The **Account** tab is displayed by default. Select the **Licenses and apps** tab.
 16. In the **Licenses and apps** tab, select the check box next to the appropriate license for this resource account.
 17. Select **Save changes** and then close the properties pane.
 
-## Create a resource account using PowerShell
+### Use PowerShell
 
 PowerShell can also be used to create resource accounts. PowerShell is the fastest way to create accounts in bulk. If you need to create multiple accounts, you can create a PowerShell script to automate the account creation. There are also some features and settings that are only available through PowerShell.
 
@@ -96,7 +98,7 @@ There are two mandatory PowerShell modules that must be installed to create a re
    ```
 
    
-   :::image type="content" source="../media/see-licenses.png" alt-text="See your licenses":::
+   :::image type="content" source="../media/see-licenses.png" alt-text="Screenshot of See your licenses.":::
 
    In this example, there are 25 Meeting Room licenses and 19 of them have been consumed (or assigned). That leaves six licenses available to be assigned to resource accounts.
 
@@ -175,7 +177,3 @@ There are two mandatory PowerShell modules that must be installed to create a re
    Set-MsolUserLicense -UserPrincipalName $acctupn -AddLicenses $ADLicense
    ```
 
-
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”
