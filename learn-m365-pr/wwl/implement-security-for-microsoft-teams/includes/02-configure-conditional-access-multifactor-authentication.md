@@ -9,7 +9,7 @@ Conditional Access policies are if-then statements that allow security professio
 
 A Conditional Access policy is made of if-then statements of **Assignments** and **Access controls**. The assignment part of the policy controls the who, what, and where of the Conditional Access policy. The access part of the policy controls how it's enforced. Based on the assignments, it may **grant access**, **block access**, or grant access provided one or more **additional conditions** is met.
 
-:::image type="content" source="../media/conditional-access.png" alt-text="Screenshot of conditional access.":::
+:::image type="content" source="../media/conditional-access.png" alt-text="Diagram that shows the capibilities of conditional access policy, including allow access, require m f a, limit access, password reset, and monitor access.":::
 
 ## Multifactor authentication
 
@@ -39,7 +39,7 @@ Following are sample steps to create a Conditional Access policy for users in Sa
 
 3. On the **Conditional Access - Policies** page, select **+ New Policy** > **Create new Policy**.
 
-	:::image type="content" source="../media/conditional-access-new-policy.png" alt-text="Screenshot of creating a new Conditional Access policy.":::  
+	:::image type="content" source="../media/conditional-access-new-policy.png" alt-text="Screenshot of creating a new Conditional Access policy from acure a d admin center.":::  
 
 4. On the **New** page, insert the following information in the corresponding fields in the sections of the left navigation menu:
 
