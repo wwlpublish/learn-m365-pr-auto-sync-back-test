@@ -42,9 +42,9 @@ Your organization should also enable real-time monitoring and control over acces
 
 Cybercriminals continue to evolve their attack techniques and tools, to breach defenses and access business-critical and personal information in your applications. To strengthen your protection against the latest attacks and attack tools, your organization should use advanced cloud app security capabilities including:
 
-- **User and entity behavioral analytics (UEBA)**: Evaluate behavior and respond using many risk indicators such as chancy IP addresses, sign-in failures, activities from inactive accounts, or suspicious admin sign-ins.
+- **User and entity behavioral analytics (UEBA)**: Evaluate behavior and respond using many risk indicators such as IP addresses, sign-in failures, activities from inactive accounts, or suspicious admin sign-ins.
 - **Anomaly detection**: Detect and respond to unusual activities across cloud apps. For example, a user suddenly uploads 500 GB of data into a cloud storage app when they've never done this before.
 - **Malware protection**: Detect for malware using the most up-to-date information across all apps. For example, to detect activities associated with a new type of malware that holds critical data hostage for ransom.
 - **Automated investigation and remediation**: Investigate and remediate security alerts automatically. Or allow a security admin to remediate specific types of security alerts after automated investigation.
 
-Your organization can use these and other capabilities to continuously protect itself against an evolving threat landscape.
+Your organization can use these and other capabilities to continuously protect itself against an evolving threat landscape. 
