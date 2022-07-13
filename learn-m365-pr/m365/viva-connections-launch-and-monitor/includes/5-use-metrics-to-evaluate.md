@@ -14,7 +14,7 @@ and [page
 level](https://support.microsoft.com/en-us/office/view-usage-data-for-sharepoint-pages-and-news-e3186199-ccc8-4445-9162-bb1bcec8b7ee)
 usage reports in SharePoint, you can get a sense for how much your
 employees are truly engaging with certain components of Viva
-Connections. You can also see exactly how much time on average users
+Connections. You can also see exactly the average time that users
 spend on pages, which can help you determine which features are the most
 useful.
 
