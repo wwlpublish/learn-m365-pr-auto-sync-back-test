@@ -38,7 +38,7 @@ platform, how useful it is in their daily life, and what features they
 use the most. Yammer or Teams channels can also be used to collect
 employee feedback.
 
-:::image type="logo" source="../media/story-telling-logo-white-bg.png" :::
+:::image type="icon" source="../media/story-telling-logo-white-bg.png" :::
 
 ### Learn how Lamna Healthcare uses metrics to track progress
 
