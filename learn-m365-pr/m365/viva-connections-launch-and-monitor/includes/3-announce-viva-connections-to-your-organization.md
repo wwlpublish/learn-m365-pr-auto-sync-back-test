@@ -42,7 +42,7 @@ impact them.
     training](https://support.microsoft.com/en-us/topic/3da30f39-684a-4bde-bb81-2e1407d59b52)
     and where more guidance can be found.
 
-:::image type="logo" source="../media/story-telling-logo-white-bg.png" :::
+:::image type="icon" source="../media/story-telling-logo-white-bg.png" :::
 
 ### Learn how Lamna Healthcare announce Viva Connections to its employees
 

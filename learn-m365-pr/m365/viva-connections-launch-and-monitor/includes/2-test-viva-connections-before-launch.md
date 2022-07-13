@@ -32,11 +32,11 @@ ideal for the rest of the organization.
 
 ### Lamna Healthcare
 
-:::image type="logo" source="../media/lamna-logo-white-bg-200x200.jpg" :::
+:::image type="icon" source="../media/lamna-logo-white-bg-200.jpg" :::
 
 In this module, let's imagine that you are the Internal Communications Manager at a large chain of regional hospitals, Lamna Healthcare. Your organization needs an employee experience tool for their various types of employees, such as physicians and surgeons, nurse practitioners, HR professionals, IT professionals, office administrators, and custodial staff.  After carefully researching and examining existing platforms, executive leadership has decided that Viva Connections is an ideal solution since they already subscribe to Microsoft 365. Leadership has asked you to lead the deployment of Viva Connections along with a team of stakeholders that represent different roles.
 
-:::image type="logo" source="../media/story-telling-logo-white-bg.png" :::
+:::image type="icon" source="../media/story-telling-logo-white-bg.png" :::
 
 ### Learn how Lamna Healthcare tests Viva Connections before launch
 

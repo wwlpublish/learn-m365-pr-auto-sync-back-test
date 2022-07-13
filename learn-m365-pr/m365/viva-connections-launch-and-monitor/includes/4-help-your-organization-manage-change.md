@@ -34,7 +34,7 @@ Connections will provide immediate value in their day-to-day work.
     engage with Viva Connections.
 -   Use multiple channels and techniques such as posters, emails, campaigns, training, user groups to inform, engage, train, and reinforce the adoption of Viva Connections and its security compliance.
 
-:::image type="logo" source="../media/story-telling-logo-white-bg.png" :::
+:::image type="icon" source="../media/story-telling-logo-white-bg.png" :::
 
 ### Learn how Lamna Healthcare manages the change with the adoption
 
