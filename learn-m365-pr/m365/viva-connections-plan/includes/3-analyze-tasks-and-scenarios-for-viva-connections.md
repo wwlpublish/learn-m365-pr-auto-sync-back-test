@@ -1,16 +1,16 @@
-To determine which tasks and scenarios to support, it's recommended that you conduct a needs assessment with various departments, roles, and regions within your organization. Insights from the needs assessment will help you identify and prioritize scenarios and tasks to support.
+To determine which tasks and scenarios to support, we recommend you conduct a needs assessment with various departments, roles, and regions within your organization. Insights from the needs assessment will help you identify and prioritize scenarios and tasks to support.
 
 :::image type="complex" source="../media/workflow-analyze-tasks.png" alt-text="Workflow of analyzing and prioritizing tasks and scenarios." :::
-Step 1 is to consider needs of specific roles and regions; step 2 is to conduct a needs assessment; step 3 is to analyze scenarios and prioritize tasks for support; step 4 is to align scenarios with Viva Connections components; step 5 is to plan for audience targeting; step 6 is to consider device preference for different scenarios.
+Step 1 is to consider needs of specific roles and regions. Step 2 is to conduct a needs assessment. Step 3 is to analyze scenarios and prioritize tasks for support. Step 4 is to align scenarios with Viva Connections components. Step 5 is to plan for audience targeting. Step 6 is to consider device preference for different scenarios.
 :::image-end:::
 
 ## Quickly review the types of available cards
 
 To better understand whether a certain scenario or task can be supported
-by Viva Connections, you need to learn more about the types of cards
+by Viva Connections, you need to know the types of cards
 that can be added to the Dashboard. The Dashboard will be your
 organization's digital toolset and landing experience in the mobile app.
-You will find that some tools and tasks will be best supported by the
+You'll find that some tools and tasks will be best supported by the
 Dashboard, while others are a better fit in the Resources section.
 
 The following are cards that can be used with little configuration and
@@ -36,10 +36,8 @@ Framework.](/sharepoint/dev/spfx/viva/get-started/build-first-sharepoint-adaptiv
 
 The primary goal of this stage is to identify daily tasks and
 pain-points for different groups of employees. Then, the team of
-stakeholders will come together to analyze the findings and to discuss
-how Viva Connections can solve common pain points within employees'
-workdays to encourage engagement, reduce stress, and provide more
-support where needed.
+stakeholders will analyze the findings and decide
+how Viva Connections can address common tasks and scenarios to support employees daily work.
 
 **Considerations when conducting a needs assessment:**
 
@@ -102,9 +100,8 @@ In preparation for Viva Connections, as the Internal Communications
 Manager, you work with the Lamna Healthcare Viva Connections planning
 team conducts a needs assessment over a couple of weeks across the
 organization. The purpose of the needs assessment is to understand how
-each role and region currently gets work done, common pain points, and
-potential improvements to create efficiencies and strengthen employee
-satisfaction.
+each role and region currently get work done, common pain points, and
+potential improvements.
 
 You work with the planning team members to identify the different roles
 and regions across the organization and connect with leaders and people
@@ -113,21 +110,20 @@ planning team learns more about the needs of employees by interviewing
 managers and a handful of individuals in certain roles, and through
 surveys to broader audiences.
 
-Here are a few issues you have discovered across the organization:
+Here are a few issues you've discovered across the organization:
 
 - The HR Benefits team receives lots of emails every day asking where
     to find out information about stock, healthcare, tuition
-    reimbursement, and childcare, so they spend several hours a day
+    reimbursement, and childcare. The team spends several hours a day
     dealing with frequently asked questions and responding to inquiries
     on forms and documents.
 
 - Employees in all business units at Lamna reported wanting easier
     access to payroll information and calendar updates and changes.
 
-- With so many different roles and employees in different regions,
+- With so many different roles and employees in all regions,
     several Lamna employees complained that not having access to
-    job-specific news or news relating to their location made it
-    difficult to be well-informed and stay in the loop. This highlights
+    job-specific news or news relating to their location. This complaint highlights
     the need for a central location, like the Feed, where organizational
     and regional news can be easily communicated to all employees.
 
@@ -142,26 +138,24 @@ discovered some role specific issues. For example:
 
 Nicoletta, a member of Lamna's janitorial staff, is an hourly paid
 employee and claimed that clocking in and out of shifts was a tedious
-process for her due to having to complete it on a shared computer. Since
-the nature of her role requires her to travel throughout the hospital,
+process due to having to complete it on a shared computer. Since Nicoletta needs to travel throughout the hospital to complete her work each day,
 the manual process takes up valuable time.
 
 :::image type="content" source="../media/-christian.png" alt-text="Work profile of Christian with head shot and job title." :::
 
 Christian is a
-full-time pediatrician at your hospital, meaning she only needs to
-report her monthly absences and time off. She expressed that she finds
-it difficult to know exactly where to report her time off and which
+full-time pediatrician at your hospital, meaning they only needs to
+report their monthly absences and time off. Christian expresses that it has been difficult to know exactly where to report her time off and which
 tools to use.
 
 :::image type="content" source="../media/-diego.png" alt-text="Work profile of Diego with head shot and job title." :::
 
 Diego is an IT
-professional at Lamna, which requires him to move around the hospital to
-address help desk tickets submitted by hospital employees. Diego and his
-fellow team members explained that managing so many tickets while moving
+professional at Lamna, and needs to move around the hospital to
+address help desk tickets submitted by hospital employees. Diego and the
+fellow IT team members explains that managing so many tickets while moving
 through the hospital can be overwhelming.
 
-You recorded all these findings in a spreadsheet to share with the
-planning team and with additional stakeholders for building and setting
+You record all these findings in a spreadsheet to share with the
+planning team and with other stakeholders for building and setting
 up Viva Connections, adoption, and post-deployment monitoring.
