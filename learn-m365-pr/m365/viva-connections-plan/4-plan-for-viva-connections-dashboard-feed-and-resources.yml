@@ -10,6 +10,6 @@ metadata:
   ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 1
+durationInMinutes: 15
 content: |
   [!include[](includes/4-plan-for-viva-connections-dashboard-feed-and-resources.md)]

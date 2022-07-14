@@ -8,12 +8,12 @@ experience.
 
 Key takeaways:
 
--   **Technical requirements:** There is some pre-work that will need to
+-   **Technical requirements:** There's some pre-work that will need to
     be in place before you can start building and customizing Viva
     Connections for your organization.
 
 -   **Needs assessment and insights:** Will help guide your team of
-    stakeholders through the planning process and make sure you are
+    stakeholders through the planning process and make sure you're
     addressing the most impactful workflows.
 
 -   **Dashboard, Feed, and Resource planning:** Considerations,

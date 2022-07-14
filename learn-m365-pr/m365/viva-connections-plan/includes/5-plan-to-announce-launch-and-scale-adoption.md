@@ -1,16 +1,16 @@
-Part of the planning process includes how you will announce the
+Part of the planning process includes how you'll announce the
 availability of Viva Connections to the rest of your organization and
 scale broad adoption across different regions and roles.
 
 **Best practices for launching Viva Connections:**
 
 -   Consider where and how different audiences get news and
-    announcements (for example, frontline workers might get the most
+    announcements. For example, frontline workers might get the most
     important news in team meetings and hybrid workers might be used to
-    getting SharePoint news in Outlook.)
+    getting SharePoint news in Outlook.
 -   Plan to engage with users where they already meet and share
-    information (for example, if your organization already meets in
-    Teams, plan to post in channels.)
+    information. For example, if your organization already meets in
+    Teams, plan to post in channels.
 -   Use multiple communication methods and channels to reach most of
     your target audience.
 -   Continue to engage early adopters and champions and use their

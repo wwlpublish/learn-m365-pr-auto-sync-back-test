@@ -4,18 +4,18 @@ title: Knowledge check
 metadata:
   unitType: knowledge_check
   title: Knowledge check
-  description: Knowledge check questions for the learner to self assess if they have learned the best practices and strategies to plan for Viva Connections.
+  description: Knowledge check questions for the learner to self assess if they've learned the best practices and strategies to plan for Viva Connections.
   ms.date: 6/23/2022
   author: maggierui
   ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 1
+durationInMinutes: 12
 
 content: |
 quiz:
   questions:
-  - content: "You are determining key stakeholders for implementing Viva Connections into your team. What is the best way to decide who is on your team?"
+  - content: "You're determining key stakeholders for implementing Viva Connections into your team. What is the best way to decide who is on your team?"
     choices:
     - content: "Welcome all organization employees who want to serve on the Viva
         Connections planning team."
@@ -25,16 +25,16 @@ quiz:
         full understanding of their local IT infrastructure settings and
         audience groups."
       isCorrect: false
-      explanation: "IT professionals are a critical part of the key stakeholders, but you will need a team of people with various job functions and roles to fully understand the employees’ needs and tasks. Other key stakeholders can be Human Resources, business owners, SharePoint site owners, and communication specialists.   "
+      explanation: "IT professionals are a critical part of the key stakeholders. However, you'll need a team of people with various job functions and roles to fully understand the employees’ needs and tasks. Other key stakeholders can be Human Resources, business owners, SharePoint site owners, and communication specialists.   "
     - content: "Select a team of stakeholders to ensure the right scenarios are
         prioritized in all levels and departments of an organization."
       isCorrect: true
-      explanation: "You will need a team of people with various job
+      explanation: "You'll need a team of people with various job
             functions and roles to fully understand the employees' needs
-            and daily job functions, such as Human Resources, business
+            and daily job functions. These people can include Human Resources, business
             owners, SharePoint site owners, and communication
             specialists."
-  - content: "You are thinking about which tools and resources should be prioritized into your organization's instance of Viva Connections. What should you do before creating and implementing the experience?"
+  - content: "You're thinking about which tools and resources should be prioritized into your organization's instance of Viva Connections. What should you do before creating and implementing the experience?"
     choices:
     - content: "Think about the types of problems, daily tasks, and scenarios
         that each of your employee groups faces on a daily basis.
@@ -44,7 +44,7 @@ quiz:
       isCorrect: true
       explanation: "Analyzing your employees' daily tasks and typical
             scenarios is the best place to start when planning which
-            tools and links you will incorporate on your team's Viva
+            tools and links you'll incorporate on your team's Viva
             Connections."
     - content: "Select the tools and links that you feel your employees would
         benefit from, and then implement them right away."
@@ -70,25 +70,25 @@ quiz:
             role and location."
     - content: "The Resources tab"
       isCorrect: false
-      explanation: "While the Resources tab in Viva Connections
-            allows users to access sites, pages, news, and more from
-            Teams, it does not provide a constant stream of news and
+      explanation: "Resources tab in Viva Connections
+            allows users to access sites and pages, which can include news from
+            Teams. However, Resources tab doesn't provide a constant stream of news and
             announcements targeted toward employee groups based on
             region and role."
   - content: "Which approach below best demonstrates recommended practices to announce, launch and scale Viva Connections?"
     choices:
     - content: "Plan to announce Viva Connections at the all-company meeting and send out an email to everyone to remind them to try the tool."
       isCorrect: false
-      explanation: "An all-company meeting is a great channel for sharing announcements, but it is unlikely you will reach everyone in your organization in one meeting. Sending an email is another effective method of communication but does not provide enough guidance to influence long term change."
+      explanation: "An all-company meeting is a great channel for sharing announcements, but it's unlikely you'll reach everyone in your organization in one meeting. Sending an email is another effective method of communication but doesn't provide enough guidance to influence long term change."
     - content: "Plan to send out a series of emails and posts in Teams that include tutorial videos."
       isCorrect: false
       explanation: "Systematic communications and tutorial content are
         vital components to the adoption of Viva Connections, but this
-        plan may exclude people who do not have access to a dedicated
+        plan may exclude people who don't have access to a dedicated
         desktop or mobile device at work."
     - content: "Plan to use various communications methods that reach everyone at the organization and highlight hands-on training opportunities, digital resources, and ongoing support from champions in your organization. Find early adopters and champions and create ways to extend their enthusiasm to the rest of the organization."
       isCorrect: true
       explanation: "This plan best incorporates known success factors like
-        using a variety of communication methods, providing training
+        using various communication methods, providing training
         opportunities, and the continuing to engage with Viva
         Connections champions."
