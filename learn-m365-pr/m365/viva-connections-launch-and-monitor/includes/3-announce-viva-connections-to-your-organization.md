@@ -7,6 +7,7 @@ more](https://support.microsoft.com/en-us/office/viva-connections-on-your-deskto
 information for end users.
 
 :::image type="content" source="../media/communication-channels-by-job-type.png" alt-text="Diagram of communication channels by job type.":::
+
 Use Microsoft Viva adoption materials to help announce the change. In
 the adoption center you'll find communication templates that can be
 customized. Share these templates with organizational leaders so they
