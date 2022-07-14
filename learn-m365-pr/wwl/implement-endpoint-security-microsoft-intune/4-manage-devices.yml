@@ -4,7 +4,7 @@ title: Manage devices with endpoint security in Intune
 metadata:
   title: Manage devices with endpoint security in Intune
   description: "Manage devices with endpoint security in Intune"
-  ms.date: 07/13/2022
+  ms.date: 07/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -19,7 +19,7 @@ quiz:
   questions:
   - content: "As the Enterprise Administrator for Contoso, Holly Dickson is reviewing the remote actions the company's Security team can apply to its Windows 10 and later devices from the Microsoft Endpoint Manager admin center. Which action concerns Holly, since it may result in the device owner losing work?"
     choices:
-    - content: "Sychronize device"
+    - content: "Synchronize device"
       isCorrect: false
       explanation: "Incorrect. With this remote action, a device is immediately checked-in with Intune. When a device checks in, it receives any pending actions or policies that have been assigned to it. The action doesn't result in the device owner losing work."
     - content: "BitLocker key rotation"

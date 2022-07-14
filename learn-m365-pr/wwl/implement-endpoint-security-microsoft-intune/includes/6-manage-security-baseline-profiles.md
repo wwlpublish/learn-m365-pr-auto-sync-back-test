@@ -43,7 +43,7 @@ Organizations must perform the following steps to create a profile:
     
 13. On the **Select groups to include** pane that appears, select the groups that you want to include in the profile. Then select the **Select** button.
     
-    :::image type="content" source="../media/select-groups-to-include-pane-ea41c90f.png" alt-text="Screenshot of the Create profile page showing the Assignments tab.":::
+    :::image type="content" source="../media/select-groups-to-include-pane-ea41c90f.png" alt-text="Screenshot of the Select groups to include pane showing the groups you can choose from to include in the profile.":::
     
 14. If you want to exclude groups from the profile, repeat the prior steps, but this time you should select **+Add groups** under the **Excluded groups** section.
 15. On the **Select groups to exclude** pane that appears, select the groups that you want to exclude from the profile. Then select the **Select** button.
