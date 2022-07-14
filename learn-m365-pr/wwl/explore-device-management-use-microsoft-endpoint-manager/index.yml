@@ -1,0 +1,51 @@
+### YamlMime:Module
+uid: learn.wwl.explore-device-management-use-microsoft-endpoint-manager
+metadata:
+  title: Explore device management using Microsoft Endpoint Manager
+  description: "Explore device management using Microsoft Endpoint Manager"
+  ms.date: 07/14/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore device management using Microsoft Endpoint Manager
+summary: This module explores the device management features of Microsoft Endpoint Manager, including Microsoft Intune, Configuration Manager, device co-management, and configuration profiles for devices using Intune.
+abstract: |
+  By the end of this module, you'll be able to:
+  *   Describe the device management capabilities found in Microsoft Endpoint Manager.
+  *   Describe how Windows devices can be co-managed in Endpoint Manager using Configuration Manager and Intune.
+  *   Manage devices using Configuration Manager.
+  *   Manage devices using Microsoft Intune.
+  *   Create device profiles in Microsoft Intune.
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+- security-engineer
+- solution-architect
+- technology-manager
+products:
+- m365
+- office-365
+subjects:
+- cloud-computing
+- cloud-security
+- collaboration
+- communication
+- compliance
+- information-protection-governance
+- security
+- threat-protection
+units:
+- learn.wwl.explore-device-management-use-microsoft-endpoint-manager.introduction
+- learn.wwl.explore-device-management-use-microsoft-endpoint-manager.explore-device-management
+- learn.wwl.explore-device-management-use-microsoft-endpoint-manager.explore-co-management-windows-devices
+- learn.wwl.explore-device-management-use-microsoft-endpoint-manager.manage-devices-use-configuration-manager
+- learn.wwl.explore-device-management-use-microsoft-endpoint-manager.manage-devices-use-microsoft-intune
+- learn.wwl.explore-device-management-use-microsoft-endpoint-manager.create-device-profiles-microsoft-intune
+- learn.wwl.explore-device-management-use-microsoft-endpoint-manager.knowledge-check
+- learn.wwl.explore-device-management-use-microsoft-endpoint-manager.summary
+badge:
+  uid: learn.wwl.explore-device-management-using-microsoft-endpoint-manager.badge

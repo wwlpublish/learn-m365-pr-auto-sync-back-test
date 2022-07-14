@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-device-management-use-microsoft-endpoint-manager.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 07/14/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which Microsoft Endpoint Manager feature is a cloud-based service that provides insight and intelligence for an organization to make more informed decisions about the update readiness of its Windows clients?"
+    choices:
+    - content: "Desktop Analytics"
+      isCorrect: true
+      explanation: "Correct. Desktop Analytics is a cloud-based service that integrates with Configuration Manager. It provides insight and intelligence for an organization to make more informed decisions about the update readiness of its Windows clients. The service combines data from an organization with data aggregated from millions of devices connected to the Microsoft cloud. It provides information on security updates, apps, and devices in an organization. It also identifies compatibility issues with apps and drivers."
+    - content: "Microsoft Intune"
+      isCorrect: false
+      explanation: "Incorrect. Intune is a 100% cloud-based mobile device management (MDM) and mobile application management (MAM) provider for an organization's apps and devices. It enables organizations to control features and settings on Android, Android Enterprise, iOS/iPadOS, macOS, and Windows 10 devices."
+    - content: "Configuration Manager"
+      isCorrect: false
+      explanation: "Incorrect. Configuration Manager is an on-premises management solution that manages desktops, servers, and laptops that are internet-based or on an organization's network."
+  - content: "Which of the following is a True statement regarding Co-management?"
+    choices:
+    - content: "By itself, Co-management is a solution to manage remotely connected Windows systems"
+      isCorrect: false
+      explanation: "Incorrect. Co-management by itself isn't a solution to manage remotely connected Windows systems. The Configuration Manager client must still communicate with its assigned site. To manage remotely connected Windows systems with Configuration Manager, you must enable a cloud management gateway (CMG)."
+    - content: "Devices are managed with Configuration Manager and enrolled to a third-party MDM service."
+      isCorrect: false
+      explanation: "Incorrect. This item is a definition of co-existence."
+    - content: "Devices are concurrently managed with both Configuration Manager and Microsoft Intune"
+      isCorrect: true
+      explanation: "Correct. Co-management is one of the primary ways for an organization to attach its existing Configuration Manager deployment to the Microsoft 365 cloud. Co-management enables an organization to concurrently manage Windows 10 or later devices by using both Configuration Manager and Microsoft Intune."
+  - content: "Which of the following features is the act of moving workloads from Configuration Manager to Intune and telling the Windows client who the management authority is for that particular workload?"
+    choices:
+    - content: "Device provisioning"
+      isCorrect: false
+      explanation: "Incorrect. Device provisioning is the process of connecting a device to your organization through Intune or Configuration Manager."
+    - content: "Co-management"
+      isCorrect: true
+      explanation: "Correct. Co-management is the act of moving workloads from Configuration Manager to Intune and telling the Windows client who the management authority is for that particular workload. For example, you may move Compliance Policies and Device Configuration workloads to Intune while leaving all other workloads set to Configuration Manager."
+    - content: "Co-existence"
+      isCorrect: false
+      explanation: "Incorrect. With Co-existence, devices are managed with Configuration Manager and enrolled to a third-party MDM service."

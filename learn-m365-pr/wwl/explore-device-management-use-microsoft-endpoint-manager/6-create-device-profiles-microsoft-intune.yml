@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-device-management-use-microsoft-endpoint-manager.create-device-profiles-microsoft-intune
+title: Create device profiles in Microsoft Intune
+metadata:
+  title: Create device profiles in Microsoft Intune
+  description: "Create device profiles in Microsoft Intune"
+  ms.date: 07/14/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/6-create-device-profiles-microsoft-intune.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which Intune feature enables organizations to create security policies using recommendations by Microsoft security teams?"
+    choices:
+    - content: "Administrative templates"
+      isCorrect: false
+      explanation: "Incorrect. Administrative Templates in Microsoft Intune include thousands of settings that control features in Microsoft Edge version 77 and later, Internet Explorer, Google Chrome, Microsoft Office programs, remote desktop, OneDrive, passwords, PINs, and more. These settings enable administrators to create group policies using the cloud."
+    - content: "Settings catalog"
+      isCorrect: false
+      explanation: "Incorrect. On Windows 10 and later devices, the settings catalog displays all the available settings in one location."
+    - content: "Baselines"
+      isCorrect: true
+      explanation: "Correct. On Windows 10 and later devices, baselines include preconfigured security settings. Organizations can use baselines to create security policies using recommendations by Microsoft security teams."
