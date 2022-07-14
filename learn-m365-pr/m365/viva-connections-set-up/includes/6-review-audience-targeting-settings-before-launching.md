@@ -1,9 +1,9 @@
 [Audience targeting](/viva/connections/use-audience-targeting-in-viva-connections)
 can be applied to components of the Viva Connections experience.
-Audience targeting filters content by Azure Active Directory (ADD)
-groups set up by your administrators. Often ADD groups are set up for
+Audience targeting filters content by Azure Active Directory (Azure AD)
+groups set up by your administrators. Often Azure AD groups are set up for
 distinct roles and regions, and it's likely an individual will belong
-to several ADD groups.
+to several Azure AD groups.
 
 **Example of an audience targeting**
 **field:**
@@ -64,7 +64,8 @@ employees.
 
 Kendal is a part time nurse working 20 hours a week at Region C of
 Lamna Healthcare. Kendal is paid hourly, but not eligible for benefits since
-they work less than 20 hours a week. Kendall belongs to the ADD groups of:
+they work less than 20 hours a week. Kendall belongs to the Azure 
+AD groups of:
 *Medical professional*, *Hourly paid*, and *Region C*. In the Viva
 Connections Dashboard, Kendal sees the Shifts card, and other cards that
 are available for all Lamna
