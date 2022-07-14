@@ -10,76 +10,65 @@ metadata:
   ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 1
-###########################################################################
-###
-### General guidance (https://review.docs.microsoft.com/learn-docs/docs/id-guidance-knowledge-check)
-###  - Questions are complete sentences ending with a question mark
-###  - No true/false questions
-###  - 3 answers per question
-###  - All answers about the same length
-###  - Numeric answers listed in sorted order
-###  - No "All of the above" and/or "None of the above" as answer choices
-###  - No "Not" or "Except" in questions
-###  - No second person ("you") in the questions or answers
-###  - Provide a meaningful explanation for both correct and incorrect answers
-###
-###########################################################################
+durationInMinutes: 6
 content: |
 quiz:
   questions:
-  - content: ""
+  - content: "Which statement below is one of the best practices for testing Viva Connections before you launch?"
     choices:
-    - content: ""
+    - content: "Use all available web browsers to make sure they all work with Viva Connections."
+      isCorrect: false
+      explanation: "Make sure to use the approved web browser(s) for your organization."
+    - content: "Test Viva Connections on a desktop device and mobile device."
       isCorrect: true
-      explanation: ""
-    - content: ""
+      explanation: "Viva Connections is available on both desktop and mobile. Check both experiences to make sure they're working well. "
+    - content: "Check all navigation links by yourself to make sure everything works and provides the best user experiences. "
       isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
+      explanation: "Ask testers from different employee groups to navigate the experience and give you feedback. People navigate in different ways. Consider the navigation experience for a broad range of employees."
+  - content: "As the Internal Communications Manager at Lamna Healthcare, you're ready to launch Viva Connections for your organization. Which statement below is one of the best practices you should follow to announce Viva Connections?"
     choices:
-    - content: ""
+    - content: "Announce the launch of Viva Connections at a live event and surprise everyone with this engaging, modern experience that should be used right away."
+      isCorrect: false
+      explanation: "You want to make sure your employees have plenty of time to get used to the idea of changing how they communicate and access information, as well as time to find support and attend training. While you might be excited to announce and launch immediately at a large event, not all employees will attend a large event, or will have time to immediately change behaviors. "
+    - content: "Share launch information online; all your employees should be able to see it between using SharePoint news, Teams, and Yammer."
+      isCorrect: false
+      explanation: "While most employees likely have access to SharePoint news, Teams, and Yammer communities, many employee groups don't regularly access these online communication portals, or use a dedicated work device. Diversify the communication channels you use to reach all employee groups where they're at including in team meetings and posters in break rooms.  "
+    - content: "Explain that this system is best for the organization and therefore, its employees. "
+      isCorrect: false
+      explanation: "While the new system might be best for the organization, emphasizing the personal benefits of trying something new will speak directly to employees and their individual experiences. They'll be more open to change if they specifically understand how their experiences will improve with the new system. "
+    - content: "Consider where different groups of employees get information and tailor your communication to these locations, times, and channels. "
       isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
+      explanation: "Different employee groups will access information through different channels, at different times, and will have different motivations. Communicate through various channels to reach all employees and tap into the workflows and efficiencies they care about the most that will be supported by Viva Connections. "
+  - content: "What existing Microsoft Viva adoption materials can help your organization to announce the launch of Viva Connections to different employee groups and prepare them for the change? "
     choices:
-    - content: ""
+    - content: "A guided simulation, an eBook, a pre-populated  Teams channel, and a newsletter template"
+      isCorrect: false
+      explanation: "An email template, poster template, SharePoint countdown news post sample, and end-user training videos are all existing Microsoft adoption materials that can help you announce the launch of Viva Connections."
+    - content: "An email template, poster template, a SharePoint countdown news post sample, and end-user training videos"
       isCorrect: true
-      explanation: ""
-    - content: ""
+      explanation: "An email  template, poster template, SharePoint countdown news post sample, and end-user training videos are all existing Microsoft adoption materials that can help you announce the launch of Viva Connections."
+    - content: "c.	A SharePoint countdown news post sample, a pre-populated Teams channel, a guided simulation, and end-user training videos"
       isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
+      explanation: "An email template, poster template, SharePoint countdown news post sample, and end-user training videos are all existing Microsoft adoption materials that can help you announce the launch of Viva Connections."
+  - content: "Which change management strategy would be the most effective in reaching frontline workers?"
     choices:
-    - content: ""
+    - content: "Host general training sessions so people can get used to using Viva Connections."
+      isCorrect: false
+      explanation: "Many frontline workers have physically demanding and fast-paced jobs. They need training materials that focus on the most essential tasks that relate to their roles in training sessions. "
+    - content: "Create bite-sized training opportunities and support materials. "
       isCorrect: true
-      explanation: ""
-    - content: ""
+      explanation: "Frontline workers are moving quickly and won't have time for even a 30-minute training session. Expect to provide support for the most critical flows, for example clocking-in, clocking-out, and checking the task list every day. Use posters, videos, or hands-on training opportunities to appeal to various learning preferences. "
+    - content: "Make sure communications come from the most senior level person at the organization so the new tool will be taken seriously."
       isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
+      explanation: "Workers in specific roles will be most impacted by leaders close to their discipline. For example, at Lamna Healthcare, nurses will be more likely to prioritize communications and requests from the nurse practitioner. The nurse practitioner has a more influential role in helping nurses adopt new tools. "
+  - content: "What is the best summary of direct and indirect indicators that Viva Connections is effective in supporting you? "
     choices:
-    - content: ""
+    - content: "Reviewing site level and page level usage reports in SharePoint to understand employee engagement"
+      isCorrect: false
+      explanation: "While site and page level usage reports can provide valuable data to indicate trends of usage correlated to certain experiences in Viva Connections, this is only one source of information. Consider collecting direct feedback from people using Viva Connections and other business groups who support internal users. "
+    - content: "Looking at Microsoft 365 usage analytics, which include pre-built reports on app usage, organizational communication, and collaboration."
+      isCorrect: false
+      explanation: "Microsoft 365 usage analytics can provide a high-level view of how much your employees are using each Microsoft 365 apps that integrate with Viva Connections.  However, this method doesn't illustrate employee satisfaction or more insights into specific workflows."
+    - content: "Reviewing usage metrics in SharePoint, monitoring user behavior across Microsoft 365 apps, providing opportunities to share direct feedback, and conducting surveys with business owners and employees. "
       isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
+      explanation: "This approach uses an ideal variety of feedback channels that will help illustrate Viva Connection’s impact. Consider adding a card on the Dashboard that asks for feedback on the Viva Connections experience."

@@ -1,78 +1,77 @@
-<!-- 1. Topic sentence(s) --------------------------------------------------------------------------------
+Before sharing Viva Connections with the rest of your organization,
+recruit a small group of users to test and refine popular workflows to
+ensure end-users have a great experience using Viva Connections for the
+first time. Consider recruiting specific people from different audiences
+to complete popular tasks. Make improvements until the experience is
+ideal for the rest of the organization.
 
-    Goal: briefly summarize the key skill this unit will teach
+**Best practices for testing:**
 
-    Heading: none
+-   Test with early adopters and champions and capture their feedback
 
-    Example: "Organizations often have multiple storage accounts to let them implement different sets of requirements."
+-   Use the approved web browser for your organization
 
-    [Learning-unit introduction guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-introductions?branch=main#rule-use-the-standard-learning-unit-introduction-format)
--->
-TODO: add your topic sentence(s)
+-   Test Viva Connections on a desktop device and mobile device
 
-<!-- 2. Scenario sub-task --------------------------------------------------------------------------------
+-   Make sure all the links are active and there aren’t any dead ends
 
-    Goal: Describe the part of the scenario that will be solved by the content in this unit
+-   Pay attention to labels on Dashboard cards and buttons – will they
+    make sense to the rest of the organization?
 
-    Heading: none, combine this with the topic sentence into a single paragraph
+-   Evaluate the quality and effectiveness of icons and images
 
-    Example: "In the shoe-company scenario, we will use a Twitter trigger to launch our app when tweets containing our product name are available."
--->
-TODO: add your scenario sub-task
+-   Check for performance issues like slow loading times or missing
+    images
 
-<!-- 3. Prose table-of-contents --------------------------------------------------------------------
+-   Ask testers about the navigation experience with user experience
+    surveys. For example, “How easy is it to navigate Viva Connections?”
+    “Did you run into any broken links? If so, please indicate here.”
+    You can find many other examples online by searching on the Internet
+    for “UX survey templates” or “app user experience survey questions”
+    to guide you.
 
-    Goal: State concisely what's covered in this unit
+### Lamna Healthcare
 
-    Heading: none, combine this with the topic sentence into a single paragraph
+:::image type="icon" source="../media/lamna-logo-white-bg-200.jpg" :::
 
-    Example: "Here, you will learn the policy factors that are controlled by a storage account so you can decide how many accounts you need."
--->
-TODO: write your prose table-of-contents
+In this module, let's imagine that you are the Internal Communications Manager at a large chain of regional hospitals, Lamna Healthcare. Your organization needs an employee experience tool for their various types of employees. These employees include physicians and surgeons, nurse practitioners, HR professionals, IT professionals, office administrators, custodial staff, and many more.  After carefully researching and examining existing platforms, executive leadership has decided that Viva Connections is an ideal solution since they already subscribe to Microsoft 365. Leadership has asked you to lead the deployment of Viva Connections along with a team of stakeholders that represent different roles.
 
-<!-- 4. Visual element (highly recommended) ----------------------------------------------------------------
+:::image type="icon" source="../media/story-telling-logo-white-bg.png" :::
 
-    Goal: Visual element, like an image, table, list, code sample, or blockquote. Ideally, you'll provide an image that illustrates the customer problem the unit will solve; it can use the scenario to do this or stay generic (i.e. not address the scenario).
+### Learn how Lamna Healthcare tests Viva Connections before launch
 
-    Heading: none
--->
-TODO: add a visual element
+As the Internal Communications Manager at Lamna Healthcare, you want to
+ensure that medical personnel, information workers, frontline workers,
+and all other employees at the hospital adopt this new app in their
+daily flow of work. Considering the needs of all groups, you recruit a
+group of people to test Viva Connections from different regions and
+roles.
 
-<!-- 5. Chunked content-------------------------------------------------------------------------------------
+Each tester can complete popular tasks using Viva Connections and give
+feedback based on their roles. For example, clocking in, clocking out,
+viewing the café menu, and checking the holiday schedule. Ask testers to
+complete tasks using Viva Connections on both desktop and mobile
+devices. After testing, a few insights were discovered.
 
-    Goal: Provide all the information the learner needs to perform this sub-task.
+:::image type="content" source="../media/-jessie.png" alt-text="Diagram of profile head shot of Jessie and her job title.":::
 
-    Structure: Break the content into 'chunks' where each chunk has three things:
-        1. An H2 or H3 heading describing the goal of the chunk
-        2. 1-3 paragraphs of text
-        3. Visual like an image, table, list, code sample, or blockquote.
+Jessie,
+a Benefits specialist from HR noticed a dead-end when trying to access a
+link to a training module.
 
-    [Learning-unit structural guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-structure-learning-content?branch=main)
--->
+:::image type="content" source="../media/-cora.png" alt-text="Diagram of profile head shot of Cora and her job title.":::
+Cora,
+a clinical operations manager, shares feedback while using the mobile
+app. They notice the icon used on the Dashboard cards for logging hours
+makes it hard to find.
 
-<!-- Pattern for simple chunks (repeat as needed) -->
-## H2 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list, code sample, blockquote)
-Paragraph (optional)
-Paragraph (optional)
+:::image type="content" source="../media/-maya.png" alt-text="Diagram of profile head shot of Maya and her job title.":::
+Maya,
+a pediatric nurse, notices that a few cards on the Dashboard and a few
+links in Resources are loading slowly.
 
-<!-- Pattern for complex chunks (repeat as needed) -->
-## H2 heading
-Strong lead sentence; remainder of paragraph.
-Visual (image, table, list)
-### H3 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list)
-Paragraph (optional)
-### H3 heading
-Strong lead sentence; remainder of paragraph.
-Paragraph (optional)
-Visual (image, table, list)
-Paragraph (optional)
-
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
-<!-- Do not add a unit summary or references/links -->
+Your group of testers not only provides important feedback, but they
+will also get excited about Viva Connections and evangelize the new tool
+to their peers. Your investment in testing and refining the experience
+helps to create excitement and a smooth delivery of Viva Connections at
+Lamna Healthcare.

@@ -1,104 +1,96 @@
-<!-- 1. Topic sentence(s) --------------------------------------------------------------------------------
+After testing Viva Connections, it’s time to let the rest of the
+organization know that it's available for use. Announce the launch at
+team and organization-wide meetings. Use communication
+channels like Teams, Yammer, and SharePoint to share information about training opportunities, live demonstrations, and [where to
+get
+more](https://support.microsoft.com/en-us/office/viva-connections-on-your-desktop-3da30f39-684a-4bde-bb81-2e1407d59b52)
+information for end users.
 
-    Goal: remind the learner of the core idea(s) from the preceding learning-content unit (without mentioning the details of the exercise or the scenario)
+:::image type="content" source="../media/communication-channels-by-job-type.png" alt-text="Diagram of communication channels by job type.":::
 
-    Heading: none
+Use Microsoft Viva adoption materials to help announce the change. In
+the adoption center you'll find communication templates that can be
+customized. Share these templates with organizational leaders so they
+can create a special message that speaks to the specific scenarios that
+impact them.
 
-    Example: "A storage account represents a collection of settings that implement a business policy."
+-   [Email announcement
+    template](https://adoption.microsoft.com/files/viva/connections/Microsoft-Viva-Connections-Announcement.eml)
 
-    [Exercise introduction guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-introductions?branch=main#rule-use-the-standard-exercise-unit-introduction-format)
--->
-TODO: add your topic sentence(s)
+-   [Editable poster
+    template](https://adoption.microsoft.com/files/viva/connections/Viva%20Connections_EditablePoster_Template.docx)
 
-<!-- 2. Scenario sub-task --------------------------------------------------------------------------------
+-   [Countdown news post
+    sample](https://adoption.microsoft.com/files/viva/connections/Viva%20Connections-Countdown-News-Post-Sample.docx)
 
-    Goal: Describe the part of the scenario covered in this exercise
+### **Best practices for announcing Viva Connections:**
 
-    Heading: a separate heading is optional; you can combine this with the topic sentence into a single paragraph
+-   Consider where and how different audiences get news and
+    announcements.
 
-    Example: "Recall that in the chocolate-manufacturer example, there would be a separate storage account for the private business data. There were two key requirements for this account: geographically-redundant storage because the data is business-critical and at least one location close to the main factory."
+-   Plan to engage with users where they already meet and share
+    information.
 
-    Recommended: image that summarizes the entire scenario with a highlight of the area implemented in this exercise
--->
-TODO: add your scenario sub-task
-TODO: add your scenario image
+-   Use multiple communication methods and channels to reach your target
+    audiences.
 
-<!-- 3. Task performed in the exercise ---------------------------------------------------------------------
+-   Think about how you can get your employees excited about
+    implementing the platform into their daily work life. Emphasizing
+    personal benefits can facilitate willingness to try something new.
 
-    Goal: State concisely what they'll implement here; that is, describe the end-state after completion
+-   Share links to [end-user
+    training](https://support.microsoft.com/en-us/topic/3da30f39-684a-4bde-bb81-2e1407d59b52)
+    and where more guidance can be found.
 
-    Heading: a separate heading is optional; you can combine this with the sub-task into a single paragraph
+:::image type="icon" source="../media/story-telling-logo-white-bg.png" :::
 
-    Example: "Here, you will create a storage account with settings appropriate to hold this mission-critical business data."
+### Learn how Lamna Healthcare announce Viva Connections to its employees
 
-    Optional: a video that shows the end-state
--->
-TODO: describe the end-state
+You invite corporate sponsors, early adopters, and testers to serve at
+the Lamna Healthcare Viva Connections adoption committee as the team of
+champions. You know that they can serve as the Viva Connections
+champions, because they understand the value of new technology and are
+excited to help others adopt this new tool.
 
-<!-- 4. Chunked steps -------------------------------------------------------------------------------------
+Champions can help identify the best communication strategies and
+platforms to reach each employee group. As the Internal Communications
+Manager, you work with the adoption committee to discuss how each
+employee group usually learns about news and announcements. For example,
+nurses and surgeons get the most important news in SharePoint news posts
+and in Outlook. Hybrid workers, like IT professionals and the
+administration team, are used to getting information from Teams channels
+and Yammer communities. Other roles like the custodial staff and café
+operators get the most important announcements in team meetings or in
+the form of a poster in the break room. The adoption committee has
+decided that they'll announce the launch of Viva Connections through
+multiple channels to make sure every group has an opportunity to improve
+their workflow using this new tool.
 
-    Goal: List the steps they'll do to complete the exercise.
+A few weeks before the launch, the Viva Connections adoption committee
+and the communications team begin a two-round email campaign that
+reaches every employee at Lamna Healthcare. You also work with the
+adoption committee to schedule office hours (flexible drop-in hours) to
+provide extra support over the next 90 days. The adoption committee puts
+together change management guidance for managers and end-user training
+for Viva Connections that is accessible in Teams and SharePoint. Let’s
+see how Kayla, an HR generalist, and Maya, a nurse, hear about the launch
+of Viva Connections from different channels:
 
-    Structure: Break the steps into 'chunks' where each chunk has three things:
-        1. A heading describing the goal of the chunk
-        2. An introductory paragraph describing the goal of the chunk at a high level
-        3. Numbered steps (target 7 steps or fewer in each chunk)
+:::image type="content" source="../media/-kayla.png" alt-text="Diagram of profile head shot of Kayla and their job title.":::
+Kayla,
+an HR generalist who completes most of her work on a computer, first
+learns about the launch of Viva Connections the Office of Human
+Resources Teams channel. Kayla then joins the discussion about Viva
+Connections launch in the hospital’s Yammer community. Lastly, Kayla
+receives the organization wide email announcement about the launch.
 
-    Example:
-        Heading:
-            "Use a template for your Azure logic app"
-        Introduction:
-             "When you create an Azure logic app in the Azure portal, you have the option of selecting a starter template. Let's select a blank template so that we can build our logic app from scratch."
-        Steps:
-             "1. In the left navigation bar, select Resource groups.
-              2. Select the existing Resource group [sandbox resource group name].
-              3. Select the ShoeTracker logic app.
-              4. Scroll down to the Templates section and select Blank Logic App."
--->
-
-## (Chunk 1 heading)
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-## (Chunk 2 heading)
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-## (Chunk n heading)
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-<!-- 5. Validation -------------------------------------------------------------------------------------------
-
-    Goal: Enables the learner to evaluate if they completed the exercise correctly. Feedback like this is critical for learning.
-
-    Structure:
-        1. A heading of "## Check your work".
-        2. An introductory paragraph describing how they'll validate their work at a high level.
-        3. Numbered steps (if the learner needs to perform multiple steps to verify if they were successful).
-        4. Video of an expert performing the exact steps of the exercise (optional).
-
-    Example:
-         "At this point, the app is scanning Twitter every minute for tweets containing the search text. To verify the app is running and working correctly, we'll look at the Runs history table."
-             "1. Select Overview in the navigation menu.
-              2. Select Refresh once a minute until you see a row in the Runs history table.
-              ...
-              6. Examine the data in the OUTPUTS section. For example, locate the text of the matching tweet."
--->
-
-## Check your work
-<!-- Introduction paragraph -->
-1. <!-- Step 1 (if multiple steps are needed) -->
-1. <!-- Step 2 (if multiple steps are needed) -->
-1. <!-- Step n (if multiple steps are needed) -->
-Optional "exercise-solution" video
-
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
-<!-- Do not add a unit summary or references/links -->
+:::image type="content" source="../media/-maya.png" alt-text="Diagram of profile head shot of Maya and their job title.":::
+Maya
+and their nurse colleagues, however, are introduced to Viva Connections in
+a SharePoint news post. They also see Lamna’s version of Viva
+Connections announced on breakroom posters, “*LamnaNet is Coming!*”
+Lastly, Maya and their colleagues receive the email announcement a few
+weeks before the launch. They're excited to use this new technology to
+manage their shifts and tasks more efficiently. They later attend a
+training event for hourly employees offered during both day and at night
+shifts.
