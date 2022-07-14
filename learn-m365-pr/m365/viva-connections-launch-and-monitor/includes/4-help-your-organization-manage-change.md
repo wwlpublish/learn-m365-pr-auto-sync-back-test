@@ -1,5 +1,4 @@
-Adapting to any form of new technology can seem daunting at first. To
-make your employees feel supported through this change you can establish
+Adapting to any form of new technology can seem daunting at first. To make your employees feel supported through this change, you can establish
 change management best practices. More importantly, make sure different
 roles and regions throughout the organization understand how Viva
 Connections will provide immediate value in their day-to-day work.
@@ -43,18 +42,18 @@ champions for the adoption of Viva Connections at each hospital
 location. Now, they can help their colleagues adopt Viva Connections in
 their own units.
 
-:::image type="content" source="../media/-cora.png" alt-text="Diagram of profile head shot of Cora and her job title.":::
+:::image type="content" source="../media/-cora.png" alt-text="Diagram of profile head shot of Cora and their job title.":::
 For
 example, Cora was a part of the testing and a champion for Viva
 Connections at the Department of Physicians & Nurses of Lamna
-Healthcare. She is enthusiastic about Viva Connections and is excited to
-help her colleagues use it. Cora knows that several people on her team
+Healthcare. Cora is enthusiastic about Viva Connections and is excited to
+help the colleagues use it. Cora knows that several people on the team
 aren’t comfortable using new technology right away. Even though the
 current system of manually clocking in and out of shifts on a shared
-computer is frustrating and laborious, her team is used to the system.
+computer is frustrating and laborious, the team is used to the system.
 Anticipating their reluctance to change, Cora offers to provide a series
 of 10-minute hands-on mini training sessions during lunch breaks to help
-her colleagues learn how to use Viva Connections to clock in and out on
+the colleagues learn how to use Viva Connections to clock in and out on
 their phones. Cora also posts more information on the announcement board
 in the break room close to where employees' clock in and out. The
 posters, provided by the Internal Communications manager, break down the

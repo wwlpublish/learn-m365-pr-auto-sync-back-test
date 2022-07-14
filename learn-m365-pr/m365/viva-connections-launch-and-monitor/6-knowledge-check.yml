@@ -10,7 +10,7 @@ metadata:
   ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 6
+durationInMinutes: 15
 content: |
 quiz:
   questions:
@@ -43,13 +43,13 @@ quiz:
     choices:
     - content: "A guided simulation, an eBook, a pre-populated  Teams channel, and a newsletter template"
       isCorrect: false
-      explanation: "An email template, poster template, SharePoint countdown news post sample, and end-user training videos are all existing Microsoft adoption materials that can help you announce the launch of Viva Connections."
+      explanation: "An email template, poster template, SharePoint countdown news post sample, and end-user training videos are all existing Microsoft adoption materials. These materials can help you announce the launch of Viva Connections."
     - content: "An email template, poster template, a SharePoint countdown news post sample, and end-user training videos"
       isCorrect: true
-      explanation: "An email  template, poster template, SharePoint countdown news post sample, and end-user training videos are all existing Microsoft adoption materials that can help you announce the launch of Viva Connections."
+      explanation: "An email template, poster template, SharePoint countdown news post sample, and end-user training videos are all existing Microsoft adoption materials. These materials can help you announce the launch of Viva Connections."
     - content: "c.	A SharePoint countdown news post sample, a pre-populated Teams channel, a guided simulation, and end-user training videos"
       isCorrect: false
-      explanation: "An email template, poster template, SharePoint countdown news post sample, and end-user training videos are all existing Microsoft adoption materials that can help you announce the launch of Viva Connections."
+      explanation: "An email template, poster template, SharePoint countdown news post sample, and end-user training videos are all existing Microsoft adoption materials. These materials can help you announce the launch of Viva Connections."
   - content: "Which change management strategy would be the most effective in reaching frontline workers?"
     choices:
     - content: "Host general training sessions so people can get used to using Viva Connections."
@@ -65,7 +65,7 @@ quiz:
     choices:
     - content: "Reviewing site level and page level usage reports in SharePoint to understand employee engagement"
       isCorrect: false
-      explanation: "While site and page level usage reports can provide valuable data to indicate trends of usage correlated to certain experiences in Viva Connections, this is only one source of information. Consider collecting direct feedback from people using Viva Connections and other business groups who support internal users. "
+      explanation: "While site and page level usage reports can provide valuable data to indicate trends of usage correlated to certain experiences in Viva Connections, this resource is only one source of information. Consider collecting direct feedback from people using Viva Connections and other business groups who support internal users. "
     - content: "Looking at Microsoft 365 usage analytics, which include pre-built reports on app usage, organizational communication, and collaboration."
       isCorrect: false
       explanation: "Microsoft 365 usage analytics can provide a high-level view of how much your employees are using each Microsoft 365 apps that integrate with Viva Connections.  However, this method doesn't illustrate employee satisfaction or more insights into specific workflows."

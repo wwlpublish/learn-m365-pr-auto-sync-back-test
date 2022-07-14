@@ -1,4 +1,4 @@
-After testing Viva Connections, it’s time to let the rest of the
+You have recruited users to test Viva Connections. Now it’s time to let the rest of the
 organization know that it's available for use. Announce the launch at
 team and organization-wide meetings. Use communication
 channels like Teams, Yammer, and SharePoint to share information about training opportunities, live demonstrations, and [where to
@@ -7,11 +7,16 @@ more](https://support.microsoft.com/en-us/office/viva-connections-on-your-deskto
 information for end users.
 
 :::image type="content" source="../media/communication-channels-by-job-type.png" alt-text="Diagram of communication channels by job type.":::
+
+<<<<<<< HEAD
+Use Microsoft Viva adoption materials to help announce the change. In the adoption center you'll, find communication templates that can be
+=======
 Use Microsoft Viva adoption materials to help announce the change. In
 the adoption center you'll find communication templates that can be
+>>>>>>> 9b3731bb54b11ea77801f5bd71e1916d2f324ff8
 customized. Share these templates with organizational leaders so they
 can create a special message that speaks to the specific scenarios that
-impact them.
+affect them.
 
 -   [Email announcement
     template](https://adoption.microsoft.com/files/viva/connections/Microsoft-Viva-Connections-Announcement.eml)
@@ -77,7 +82,7 @@ of Viva Connections from different channels:
 
 :::image type="content" source="../media/-kayla.png" alt-text="Diagram of profile head shot of Kayla and their job title.":::
 Kayla,
-an HR generalist who completes most of her work on a computer, first
+an HR generalist who completes most of their work on a computer, first
 learns about the launch of Viva Connections the Office of Human
 Resources Teams channel. Kayla then joins the discussion about Viva
 Connections launch in the hospital’s Yammer community. Lastly, Kayla
@@ -87,7 +92,7 @@ receives the organization wide email announcement about the launch.
 Maya
 and their nurse colleagues, however, are introduced to Viva Connections in
 a SharePoint news post. They also see Lamna’s version of Viva
-Connections announced on breakroom posters, “*LamnaNet is Coming!*”
+Connections announced on break room posters, “*LamnaNet is Coming!*”
 Lastly, Maya and their colleagues receive the email announcement a few
 weeks before the launch. They're excited to use this new technology to
 manage their shifts and tasks more efficiently. They later attend a
