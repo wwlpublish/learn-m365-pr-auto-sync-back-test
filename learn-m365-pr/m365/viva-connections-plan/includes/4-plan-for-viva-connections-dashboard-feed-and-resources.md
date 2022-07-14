@@ -106,7 +106,7 @@ Dashboard authors can add and customize them.
 
 ### Plan for custom cards for the Dashboard
 
-You can custom cards for the Dashboard to meet the unique needs of your
+You can customize cards for the Dashboard to meet the unique needs of your
 organization. For example, booking a shuttle or viewing holiday
 schedules. There are two ways cards can be customized--using the [Card
 designer
