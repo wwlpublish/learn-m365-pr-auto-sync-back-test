@@ -1,10 +1,7 @@
 Viva Connections optimizes communication and productivity by connecting
-you with the right tools, people, and information you need to do your
-best work and build skills faster.
-
-Whether you’re on desktop or mobile, Viva Connections brings together
+you with the right tools, people, and information for your job. Whether on desktop or mobile, Viva Connections brings together
 relevant news, conversations, and resources into Microsoft Teams where
-it’s easy to share, collaborate, and chat all in one place.
+it’s easy to share, collaborate, and chat.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Vpnn]
 
@@ -27,10 +24,9 @@ Yammer communities that the viewer follows. The Feed automatically
 incorporates fresh and engaging content from across the organization to
 keep users interested, while also ensuring that they see the most
 important messages. Users will see content from SharePoint news posts,
-Yammer community posts, and Stream videos in SharePoint. As an
-organization, you can use the News boosts, audience targeting, and
-Yammers “Featured” options to [influence the content hierarchy in the](/viva/connections/faqs-viva-connections-feed#question-what-are-the-available-controls-to-influence-content-in-the-feed)
-Feed, so your employees don’t miss out on important information.
+Yammer community posts, and Stream videos in SharePoint. You can use the News boosts, audience targeting, and
+Yammer's “Featured” options to [influence the content hierarchy in the](/viva/connections/faqs-viva-connections-feed#question-what-are-the-available-controls-to-influence-content-in-the-feed)
+Feed, so your employees don’t miss important information.
 
 **Resources**
 
@@ -72,7 +68,7 @@ Microsoft Teams app bar. Like the desktop experience, the mobile
 experience allows you to navigate to SharePoint sites, organizational
 news, and other important content without leaving Teams.
 
-Viva Connections offers a variety of extensibility solutions. To learn
+Viva Connections offers various extensibility solutions. To learn
 about how the desktop experience and dashboard cards can be extended,
 take [the Extend Microsoft Viva Connections Learning
 path](/learn/paths/m365-extend-viva-connections/).

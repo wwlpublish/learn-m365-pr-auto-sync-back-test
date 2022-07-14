@@ -15,9 +15,8 @@ It can be accessed:
 -   Via desktop or mobile devices in the Microsoft Teams app.
 
 Greater access to tasks, news, and resources allows everyone in the
-organization to feel like they’re part of the greater whole. By
-seamlessly integrating with your organization’s communities, Viva
-Connections encourages employees to connect and elicits a feeling of
+organization to feel like they’re part of the greater whole. Viva
+Connections seamlessly integrates with your organization's communities, and encourages employees to connect and elicits a feeling of
 belonging—all while making it easier to accomplish high-impact tasks and
 access popular resources.
 
