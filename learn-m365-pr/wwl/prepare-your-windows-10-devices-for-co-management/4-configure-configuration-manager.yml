@@ -4,7 +4,7 @@ title: Configure Configuration Manager for Co-management
 metadata:
   title: Configure Configuration Manager for Co-management
   description: "Configure Configuration Manager for Co-management"
-  ms.date: 07/13/2022
+  ms.date: 07/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "When running the Co-management Configuration Wizard, the \"Automatic enrollment in Intune\" setting enables you to select whether you want to automatically enroll all devices, selected devices, or no devices that are managed by Configuration Manager in Intune. For this setting, which option enables you to enroll selected devices?"
+  - content: "Fabrikam ran the Co-management Configuration Wizard. The \"Automatic enrollment in Intune\" setting enabled Fabrikam to select whether it wanted to automatically enroll all devices, selected devices, or no devices that are managed by Configuration Manager in Intune. For this setting, which option enabled Fabrikam to enroll selected devices?"
     choices:
     - content: "Targeted devices"
       isCorrect: false

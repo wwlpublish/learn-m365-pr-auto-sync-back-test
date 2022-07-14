@@ -12,7 +12,7 @@ Co-management requires the following licenses:
 
 ### Configuration Manager
 
-Co-management requires Configuration Manager version 1710 or later. Organizations that have Configuration Manager version 1806 or latercan connect multiple Configuration Manager instances to a single Intune tenant.
+Co-management requires Configuration Manager version 1710 or later. Organizations that have Configuration Manager version 1806 or later can connect multiple Configuration Manager instances to a single Intune tenant.
 
 ### Azure Active Directory
 

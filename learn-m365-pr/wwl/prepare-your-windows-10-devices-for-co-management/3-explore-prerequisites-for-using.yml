@@ -4,7 +4,7 @@ title: Explore the prerequisites for using Co-management
 metadata:
   title: Explore the prerequisites for using Co-management
   description: "Explore the prerequisites for using Co-management"
-  ms.date: 07/13/2022
+  ms.date: 07/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -27,4 +27,4 @@ quiz:
       explanation: "Incorrect. This item isn't what Holly needs to purchase."
     - content: "No other license"
       isCorrect: true
-      explanation: "Correct. Co-management requires an Azure AD Premium license and a Microsoft Intune license. An Enterprise Mobility + Security subscription includes both Azure AD Premium and Microsoft Intune. Since Contoso already purchased an EMS subscription, Holly doesn't need to purchase any additional licenses."
+      explanation: "Correct. Co-management requires an Azure AD Premium license and a Microsoft Intune license. An Enterprise Mobility + Security subscription includes both Azure AD Premium and Microsoft Intune. Since Contoso already purchased an EMS subscription, Holly doesn't need to purchase any other licenses."
