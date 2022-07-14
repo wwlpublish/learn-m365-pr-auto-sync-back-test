@@ -1,9 +1,9 @@
-Once you’ve got the home site set up, you can build the Dashboard. In
+Once you’ve set up the home site, you can build the Dashboard. In
 this unit, you’ll learn how to [create a
 Dashboard](/viva/connections/create-dashboard),
 use different kinds of cards, [apply audience
 targeting](/viva/connections/use-audience-targeting-in-viva-connections#apply-audience-targeting-to-cards-in-the-dashboard),
-preview the experience and then publish to make it available to others.
+preview the experience, and publish the dashboard.
 
 :::image type="content" source="../media/select-dashboard-card.png" alt-text="Screenshot of selecting a dashboard card." :::
 
@@ -33,14 +33,13 @@ Dashboard](/viva/connections/create-dashboard).
 
 2. Select **Manage Viva Connections**.
 
-3. Click on **+ Create Dashboard**.
+3. Select on **+ Create Dashboard**.
 
-4. Click on **+ Add a card**.
+4. Select on **+ Add a card**.
 
 5. **Preview** the Dashboard under the preview mode.
 
-6. Click **Publish** once you have selected the cards you want, as well
-    as completed the targeting audience process.
+6. Select **Publish** once you've selected the cards you want, and completed the targeting audience process.
 
 Best practices while building the Dashboard include:
 
@@ -53,13 +52,13 @@ Best practices while building the Dashboard include:
 
 - **[Target audiences for the cards you
     select](/viva/connections/use-audience-targeting-in-viva-connections).**
-    This is a key step that ensures the right audience receives the
+    Audience targeting is a key step that ensures the right audience receives the
     right information. Without targeting audiences, you risk not
     providing information end users need to carry out their jobs
     successfully and efficiently.
 
 - **Preview the experience on different devices and for different
-    audiences:** Check both mobile and desktop views. Doing this can
+    audiences:** Check both mobile and desktop views. Preview the experience can
     prevent errors and ensure your Viva Connections works on both types
     of platforms. You can take this step by using the preview mode.
 
@@ -72,7 +71,7 @@ Dashboard. They make it easy to link to a SharePoint site, to an app in
 Teams, and more. Without cards, the Dashboard would be a plain screen
 with no end user tools or quick access to important resources.
 
-To access out-of-box cards, you will need to have page editing
+To access out-of-box cards, you'll need to have page editing
 permission. Just be sure you have followed previous steps that ensure a
 successful Viva Connections implementation, including enabling global
 connection and modernizing your sites.
@@ -119,16 +118,15 @@ then apply audience targeting scoped to all hourly employees to make
 sure this card displays prominently for this specific audience.
 
 Next, you add the Approvals card to help reduce the repetitive workflows
-that currently exist. This is one of the high impact scenarios that will
-help make work more efficient for several separate roles by streamlining
-the approval process for expense reports, and purchase orders. You apply
+that currently exist. The Approvals card will address one of the high impact scenarios and
+help streamline the approval processes for people who constantly deal with expense reports, and purchase orders. You apply
 audience targeting so only the roles who have expense and purchase
 approval requests will see the card on their Dashboard.
 
 You continue adding and editing cards until all the priority scenarios
 in the planning spreadsheet have been captured. Then, you preview the
 experience before publishing. While previewing, you make sure to preview
-the layouts made available with each targeted audience group and to
+the layouts made available with each targeted audience group, and to
 ensure there aren't any gaps in the layout of the cards for each audience group. You also make sure to check the experience on
 both desktop and mobile device for accessibility on both devices. Then,
 you toggle between different audience groups to review the experience
@@ -140,14 +138,14 @@ rest of the planning team.
 Next, you invite the planning team to review the draft Dashboard. After
 reviewing, the planning team makes some recommendations for small
 adjustments. The planning team also has identified a group of early
-adopters that will test the experience to make sure priority tasks,
-resources, and workflows are functioning properly before the experience
+adopters that will test the experience. These testers will test all Viva Connections tasks,
+resources, and workflows to ensure them functioning properly before the experience
 is rolled out to the entire organization. To get the environment ready
 to test, you publish the Dashboard.
 
 ## Create custom Dashboard cards
 
-Cards on the Dashboard can be customized to fit the unique needs of your organization. There are two ways cards can be customized – using the [Card designer card](/viva/connections/create-dashboard#design-your-own-card-with-a-quick-view) or using the SharePoint Framework. Card designer enables users to create custom cards with JSON configuration and SharePoint Framework cards require custom code. Card Designer cards can be used to show static information and the code driven SharePoint Framework cards enable you to connect to external systems and information using Microsoft Graph or other APIs hosted in Microsoft Azure. Card can also take advantage of the Quick View option to render the most common operations or information directly in the dashboard without forcing user to move to a specific application.**Here are three examples of custom cards with quick views:
+Cards on the Dashboard can be customized to fit the unique needs of your organization. There are two ways cards can be customized – using the [Card designer card](/viva/connections/create-dashboard#design-your-own-card-with-a-quick-view) or using the SharePoint Framework. Card designer enables users to create custom cards with JSON configuration and SharePoint Framework cards require custom code. Card Designer cards can be used to show static information. The code driven SharePoint Framework cards, on the other hand, enable you to connect to external systems and information using Microsoft Graph or other APIs hosted in Microsoft Azure. Card can also take advantage of the Quick View option to render the most common operations or information directly in the dashboard without forcing user to move to a specific application.**Here are three examples of custom cards with quick views:
 
 |**Scheduling time off** | **Keep track of inventory**                 | **Open enrollment for benefits**            |
 |-----|-------------------------------|---------------------------------------------|
@@ -177,7 +175,7 @@ the different capabilities of ACE cards and get familiar with how to use
 Next, [build your first adaptive
 card](/sharepoint/dev/spfx/viva/get-started/build-first-sharepoint-adaptive-card-extension).
 
-Viva Connections offers a variety of extensibility solutions. See more
+Viva Connections offers various extensibility solutions. See more
 details on the ACE card extensibility options from this module.
 
 :::image type="icon" source="../media/story-telling-logo-white-bg.png"  :::
@@ -185,17 +183,18 @@ details on the ACE card extensibility options from this module.
 ### Learn how Lamna Healthcare uses custom cards
 
 You have added several out-of-the-box cards that connect to Teams apps
-and other links. However, the current list of out-of-box cards does not
+and other links. However, the current list of out-of-box cards doesn't
 provide a solution for quickly and easily accessing payroll information
 and self-service HR benefits.
 
 After discussion, the Office of Information Technology at Lamna
 Healthcare proposed to have their developers take on the task of
 developing a customized Dashboard card using Adaptive Card Extensions.
-You informed them that you would like to include a card that clearly
-displays benefits employees are enrolled in it and options to make
-adjustments and requests without needing the help from an HR team
-member.
+You informed them that the card needs to allow employees to:
+
+- Review their current benefit selections
+- Select benefits during open enrollment period
+- Provide self-service options such as submitting claims, making adjustments, and reviewing balances.
 
 The developers take this information and create a custom benefits card.
 Once deployed, the Benefit self-service card can be accessed by the
@@ -206,7 +205,7 @@ focus on higher impact work.
 
 ## Connect third-party tools to cards on the Dashboard
 
-Within your Viva Connections Dashboard, you will have the option to add
+Within your Viva Connections Dashboard, you can add
 third-party tools and applications to services that help manage payroll,
 IT tickets, and wellness in the workplace. Third-party services are
 outside of the Microsoft 365 suite. Review [third-party integrations](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration) that are available for Viva Connections.
@@ -224,8 +223,7 @@ During the needs assessment, the planning team has identified a large
 demand for a tool that can help with work-life balance and wellness in
 the workplace. Currently, Lamna Healthcare offers well-being benefits
 through healthcare services, but would like to offer more options for
-people in the flow of work. After researching and comparing existing
-tools, the leadership has decided to enroll in services from a
+people in the flow of work. The leadership has researched and compared existing tools. They then have decided to enroll in services from a
 third-party wellness app.
 
 You know that once a service plan has been established, this new
@@ -239,7 +237,7 @@ others.
 
 ## Preview the Dashboard before sharing it with others
 
-While you are creating or editing the Dashboard, you can preview the
+While you're creating or editing the Dashboard, you can preview the
 experience on different devices and for different audiences before
 publishing.
 
@@ -247,9 +245,9 @@ publishing.
 
 From the Dashboard, select **Preview**. Then, **Select audiences to
 preview as** to view the Dashboard for different audiences that were
-targeted to cards. Cards that have not been targeted will be seen by the
+targeted to cards. Cards that haven't been targeted will be seen by the
 entire organization. After selecting an audience, toggle between the
 **Mobile** and **Desktop** views.
 
-When you are done previewing, select **Close
+When you're done previewing, select **Close
 preview**.
