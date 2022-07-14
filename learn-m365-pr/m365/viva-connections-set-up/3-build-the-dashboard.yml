@@ -14,7 +14,7 @@ durationInMinutes: 16
 content: |
   [!include[](includes/3-build-the-dashboard.md)]
 quiz:
-    title: Knowledge check for building the dashboard
+    title: Build the Dashboard
     questions:
     - content: "What is the best out-of-box card to add for managing your team’s tasks?"
       choices:

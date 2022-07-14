@@ -1,4 +1,5 @@
 :::image type="content" source="../media/dashboard-feed-webparts.png" alt-text="Screenshot of the Dashboard and Feed web parts." :::
+
 The Viva Connections mobile experience automatically includes the three
 components that make up Viva Connections - the Dashboard, the Feed, and
 Resources. In the desktop experience, Viva Connections can be
@@ -25,7 +26,8 @@ Connections icon in the Teams app bar has been selected twice. Consider
 adding both web parts to the home site to complete the Viva Connections
 experience.
 
-:::image type="content" source="../media/vc-web-parts.png" alt-text="Screenshot of adding Viva Connections web parts." :::
+:::image type="content" source="../media/viva-connections-web-parts.png" alt-text="Screenshot of adding Viva Connections web parts." :::
+
 **Add Viva Connections web parts to your home
 site:**
 

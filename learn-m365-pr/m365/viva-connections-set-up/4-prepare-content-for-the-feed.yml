@@ -14,6 +14,7 @@ durationInMinutes: 6
 content: |
   [!include[](includes/4-prepare-content-for-the-feed.md)]
 quiz:
+  title: Prepare content for the Feed
   questions:
   - content: "Which tool influences the hierarchy of content in the Feed to make sure the most important news is seen?"
     choices:

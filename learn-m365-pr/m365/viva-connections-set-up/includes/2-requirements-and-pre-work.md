@@ -7,6 +7,7 @@ requirement:
 site (required)**
 
 :::image type="content" source="../media/sharepoint-homesite.png" alt-text="Screenshot of sharepoint home site." :::
+
 A home site is the main landing page for your intranet and will also
 serve as the landing page for the Viva Connection’s desktop experience.
 Home sites have special capabilities beyond a typical communication site

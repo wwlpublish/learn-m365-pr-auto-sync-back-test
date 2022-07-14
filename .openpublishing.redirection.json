@@ -1,11 +1,6 @@
 {
   "redirections": [
     {
-      "source_path": "learn-m365-pr/m365/viva-connections-set-up/7-knowledge-check.yml",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/viva-connections-set-up/",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "learn-m365-pr/paths/okr-champions/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/okr-leadership",
       "redirect_document_id": false

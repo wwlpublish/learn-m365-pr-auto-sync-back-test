@@ -14,7 +14,7 @@ durationInMinutes: 6
 content: |
   [!include[](includes/2-requirements-and-pre-work.md)]
 quiz:
-    title: Knowledge check for requirements and pre-work
+    title: Requirements and pre-work
     questions:
     - content: "You want to be sure that the Viva Connections Feed has a steady source of organizational news. What is the best site to distribute organizational news using Viva Connections?"
       choices:

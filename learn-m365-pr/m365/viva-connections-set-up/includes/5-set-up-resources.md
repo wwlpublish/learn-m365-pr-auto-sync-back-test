@@ -26,7 +26,7 @@ navigation. Navigate to your organization’s home site.
 4. Next, add the **Logo** for
 global navigation that will be recognizable to users to replace the home
 icon in the SharePoint app bar. No action is needed if you choose to
-keep the default home icon. This icon *will not* be the Viva Connections
+keep the default home icon. This icon *won't* be the Viva Connections
 icon that displays in the Teams app bar.
     - The logo size should be 20x20
     - pixelsTransparent background recommended
@@ -41,6 +41,7 @@ Edit global navigation.
 8. Select **Save** when you're done. Updates to
 global navigation may take several minutes before they
 appear.
+
 :::image type="icon" source="../media/story-telling-logo-white-bg.png"  :::
 
 ### Learn how Lamna Healthcare sets up SharePoint global navigation
@@ -54,6 +55,5 @@ synthesizes insights from the needs assessment and prioritizes where
 content should be located throughout the three components of the Viva
 Connections experience. The planning team decides to use links in
 SharePoint global navigation to make it easy to access the most popular
-portals, such as
-required training, information about pay and benefits, upcoming events, and information about people and
+portals. Some of the popular portals include required training, information about pay and benefits, upcoming events, and information about people and
 facilities.
