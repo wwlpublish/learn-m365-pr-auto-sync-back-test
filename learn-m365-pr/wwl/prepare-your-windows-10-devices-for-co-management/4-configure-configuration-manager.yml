@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Fabrikam ran the Co-management Configuration Wizard. The \"Automatic enrollment in Intune\" setting enabled Fabrikam to select whether it wanted to automatically enroll all devices, selected devices, or no devices that are managed by Configuration Manager in Intune. For this setting, which option enabled Fabrikam to enroll selected devices?"
+  - content: "Fabrikam ran the Co-management Configuration Wizard. Which \"Automatic enrollment in Intune\" option enabled Fabrikam to automatically enroll selected devices?"
     choices:
     - content: "Targeted devices"
       isCorrect: false
