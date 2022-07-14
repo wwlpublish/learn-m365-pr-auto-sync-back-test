@@ -60,12 +60,14 @@ a Benefits specialist from HR noticed a dead-end when trying to access a
 link to a training module.
 
 :::image type="content" source="../media/-cora.png" alt-text="Diagram of profile head shot of Cora and their job title.":::
+
 Cora,
 a clinical Operations Manager, shares feedback while using the mobile
 app. They notice the icon used on the Dashboard cards for logging hours
 makes it hard to find.
 
 :::image type="content" source="../media/-maya.png" alt-text="Diagram of profile head shot of Maya and their job title.":::
+
 Maya,
 a pediatric nurse, notices that a few cards on the Dashboard and a few
 links in Resources are loading slowly.

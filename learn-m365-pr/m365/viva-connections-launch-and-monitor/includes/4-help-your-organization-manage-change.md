@@ -43,6 +43,7 @@ location. Now, they can help their colleagues adopt Viva Connections in
 their own units.
 
 :::image type="content" source="../media/-cora.png" alt-text="Diagram of profile head shot of Cora and their job title.":::
+
 For
 example, Cora was a part of the testing and a champion for Viva
 Connections at the Department of Physicians & Nurses of Lamna
