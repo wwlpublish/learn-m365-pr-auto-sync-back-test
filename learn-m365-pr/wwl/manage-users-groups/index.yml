@@ -2,14 +2,14 @@
 uid: learn.wwl.manage-users-groups
 metadata:
   title: Manage users and groups
-  description: "This module introduces the management of users and groups using Active Directory, and compares the differences between Active Directory Directory Services and Azure Active Directory."
-  ms.date: 03/31/2022
+  description: "This module introduces the management of users and groups using Active Directory, and compares the differences between Active Directory Services and Azure Active Directory."
+  ms.date: 07/13/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage users and groups
-summary: This module introduces the management of users and groups using Active Directory, and compares the differences between Active Directory Directory Services and Azure Active Directory.
+summary: This module introduces the management of users and groups using Active Directory, and compares the differences between Active Directory Services and Azure Active Directory.
 abstract: |
   After completing this module, you will be able to:
   - Describe Active Directory Domain Services.
@@ -21,7 +21,7 @@ prerequisites: |
   - Students should have a basic understanding of computer networks and hardware concepts.
   - Students should have a basic understanding of OS and Application concepts.
   - Students should have experience with using Windows 10 or later.
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/users-manage-group.svg
 levels:
 - beginner
 roles:
@@ -33,9 +33,9 @@ subjects:
 units:
 - learn.wwl.manage-users-groups.introduction
 - learn.wwl.manage-users-groups.explore-active-directory
-- learn.wwl.manage-users-groups.manage-users-groups-using-active-directory
 - learn.wwl.manage-users-groups.compare-active-directory-domain-services-azure-active-directory
 - learn.wwl.manage-users-groups.sign-in-domain
+- learn.wwl.manage-users-groups.manage-users-groups-using-active-directory
 - learn.wwl.manage-users-groups.knowledge-check
 - learn.wwl.manage-users-groups.summary
 badge:
