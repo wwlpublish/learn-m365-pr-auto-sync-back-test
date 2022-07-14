@@ -40,7 +40,7 @@ subjects:
 - threat-protection
 units:
 - learn.wwl.implement-endpoint-security-microsoft-intune.introduction
-- learn.wwl.implement-endpoint-security-microsoft-intune.protect-data-devices-with-microsoft-intune
+- learn.wwl.implement-endpoint-security-microsoft-intune.protect-data-devices-microsoft-intune
 - learn.wwl.implement-endpoint-security-microsoft-intune.explore-endpoint-security
 - learn.wwl.implement-endpoint-security-microsoft-intune.manage-devices
 - learn.wwl.implement-endpoint-security-microsoft-intune.use-security-baselines-configure-windows-devices-intune

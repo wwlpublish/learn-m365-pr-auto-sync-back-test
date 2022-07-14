@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.implement-endpoint-security-microsoft-intune.protect-data-devices-with-microsoft-intune
+uid: learn.wwl.implement-endpoint-security-microsoft-intune.protect-data-devices-microsoft-intune
 title: Protect data and devices with Microsoft Intune
 metadata:
   title: Protect data and devices with Microsoft Intune
@@ -13,7 +13,7 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 3
 content: |
-  [!include[](includes/2-protect-data-devices-with-microsoft-intune.md)]
+  [!include[](includes/2-protect-data-devices-microsoft-intune.md)]
 quiz:
   title: "Check your knowledge"
   questions:

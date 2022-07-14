@@ -97,7 +97,7 @@ Keeping Microsoft Defender Antivirus versions current helps reduce attack surfac
 
 As with any new, wide-scale implementation that could potentially affect an organization's line-of-business operations, it's important to be methodical when planning and implementing attack surface reduction rules. Because of the powerful capabilities of attack surface reduction rules in preventing malware, careful planning and deployment of these rules is necessary to ensure they work best for an organization's unique customer workflows. For attack surface reduction rules to work, organizations must plan, test, implement, and operationalize attack surface reduction rules carefully.
 
-:::image type="content" source="../media/asr-rules-deployment-phases-cbeab64c.png" alt-text="Diagram showing the deployment phases for Attack Surface Reduction rules, which include plan, test, implement, and operationalize.":::
+:::image type="content" source="../media/attack-surface-reduction-rules-deployment-phases-8faeb141.png" alt-text="Diagram showing the deployment phases for Attack Surface Reduction rules, which include plan, test, implement, and operationalize.":::
 
 
 > [!NOTE]
@@ -107,7 +107,7 @@ As with any new, wide-scale implementation that could potentially affect an orga
 
 An organization can assess how an attack surface reduction rule may affect its network by opening the security recommendation for that rule in [Microsoft Defender Vulnerability Management](/microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management?azure-portal=true).
 
-:::image type="content" source="../media/asrrecommendation-09119efb.png" alt-text="Screenshot of the Security recommendations page showing the recommended actions for an attack surface reduction rule.":::
+:::image type="content" source="../media/attack-surface-reduction-recommendation-dce7fad6.png" alt-text="Screenshot of the Security recommendations page showing the recommended actions for an attack surface reduction rule.":::
 
 
 ### Audit mode for evaluation
