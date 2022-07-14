@@ -34,7 +34,7 @@ ideal for the rest of the organization.
 
 :::image type="icon" source="../media/lamna-logo-white-bg-200.jpg" :::
 
-In this module, let's imagine that you are the Internal Communications Manager at a large chain of regional hospitals, Lamna Healthcare. Your organization needs an employee experience tool for their various types of employees. These employees include physicians and surgeons, nurse practitioners, HR professionals, IT professionals, office administrators, custodial staff, and many more.  After carefully researching and examining existing platforms, executive leadership has decided that Viva Connections is an ideal solution since they already subscribe to Microsoft 365. Leadership has asked you to lead the deployment of Viva Connections along with a team of stakeholders that represent different roles.
+In this module, let's imagine that you're the Internal Communications Manager at a large chain of regional hospitals, Lamna Healthcare. Your organization needs an employee experience tool for their various types of employees. These employees include physicians and surgeons, nurse practitioners, HR professionals, IT professionals, office administrators, custodial staff, and many more. The executive leadership has carefully researched and examined existing platforms. Then they've decided that Viva Connections is an ideal solution since Lamna Healthcare already subscribes to Microsoft 365. Leadership has asked you to lead the deployment of Viva Connections along with a team of stakeholders that represent different roles.
 
 :::image type="icon" source="../media/story-telling-logo-white-bg.png" :::
 
@@ -51,27 +51,28 @@ Each tester can complete popular tasks using Viva Connections and give
 feedback based on their roles. For example, clocking in, clocking out,
 viewing the café menu, and checking the holiday schedule. Ask testers to
 complete tasks using Viva Connections on both desktop and mobile
-devices. After testing, a few insights were discovered.
+devices. A few insights were discovered.
 
-:::image type="content" source="../media/-jessie.png" alt-text="Diagram of profile head shot of Jessie and her job title.":::
+:::image type="content" source="../media/-jessie.png" alt-text="Diagram of profile head shot of Jessie and their job title.":::
 
 Jessie,
 a Benefits specialist from HR noticed a dead-end when trying to access a
 link to a training module.
 
-:::image type="content" source="../media/-cora.png" alt-text="Diagram of profile head shot of Cora and her job title.":::
+:::image type="content" source="../media/-cora.png" alt-text="Diagram of profile head shot of Cora and their job title.":::
+
 Cora,
-a clinical operations manager, shares feedback while using the mobile
+a clinical Operations Manager, shares feedback while using the mobile
 app. They notice the icon used on the Dashboard cards for logging hours
 makes it hard to find.
 
-:::image type="content" source="../media/-maya.png" alt-text="Diagram of profile head shot of Maya and her job title.":::
+:::image type="content" source="../media/-maya.png" alt-text="Diagram of profile head shot of Maya and their job title.":::
+
 Maya,
 a pediatric nurse, notices that a few cards on the Dashboard and a few
 links in Resources are loading slowly.
 
-Your group of testers not only provides important feedback, but they
-will also get excited about Viva Connections and evangelize the new tool
+Your group of testers not only provides important feedback, but they'll also get excited about Viva Connections and evangelize the new tool
 to their peers. Your investment in testing and refining the experience
 helps to create excitement and a smooth delivery of Viva Connections at
 Lamna Healthcare.

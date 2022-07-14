@@ -10,6 +10,6 @@ metadata:
   ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365# Edit as appropriate for your portfolio area
-durationInMinutes: 1
+durationInMinutes: 8
 content: |
   [!include[](includes/5-use-metrics-to-evaluate.md)]

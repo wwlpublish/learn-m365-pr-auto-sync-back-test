@@ -20,7 +20,7 @@ useful.
 
 For a more high-level view of how your employees are using Viva
 Connections, [Microsoft 365 usage analytics](/microsoft-365/admin/usage-analytics/usage-analytics)
-provides access to a dashboard with pre-built reports about the
+provides access to a dashboard. This dashboard includes pre-built reports about the
 adoption of different Microsoft 365 apps, usage, communication, and
 collaboration.
 
@@ -29,11 +29,10 @@ collaboration.
 To measure how successful Viva Connections is more directly,
 consider creating feedback channels. Employees can give insight into
 exactly what works and what doesn’t through these channels. Consider using a [Link
-card](/viva/connections/create-dashboard#add-a-web-link-card)
-directly on the Viva Connections Dashboard that links users to a
+card](/viva/connections/create-dashboard#add-a-web-link-card) on the Viva Connections Dashboard that links users to a
 [Microsoft
-Form](https://support.microsoft.com/en-us/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d)
-where they can give feedback like rating their satisfaction with the
+Form](https://support.microsoft.com/en-us/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d).
+The Microsoft form will collect employee feedback like rating their satisfaction with the
 platform, how useful it is in their daily life, and what features they
 use the most. Yammer or Teams channels can also be used to collect
 employee feedback.
@@ -42,19 +41,19 @@ employee feedback.
 
 ### Learn how Lamna Healthcare uses metrics to track progress
 
-After the launch, you work with the Viva Connections planning team at Lamna Healthcare monitors and evaluates the effectiveness of Viva Connections and makes continued adjustments based on the insights they gain from different metrics. When reviewing the site level and page level usage reports in SharePoint, the planning team discovered the page “*Find a Provider*” is among the most visited pages. You decide to add this page as a quick link in Resources. 
+After the launch, you work with the Viva Connections planning team at Lamna Healthcare monitors and evaluates the effectiveness of Viva Connections and makes continued adjustments based on the insights they gain from different metrics. When reviewing the site level and page level usage reports in SharePoint, the planning team discovered the page “*Find a Provider*” is among the most visited pages. You decide to add this page as a quick link in Resources.
 
 In addition to monitoring usage analytics and viewing behavior, Lamna
 HealthCare’s HR department wants to know how Viva
 Connections helps answer common questions or complete
-tasks via self-service cards, such as the Benefits card, and the Payroll
-card. Since the launch, HR observes a drop in the number of emails and
+tasks. Specifically, they want to know how self-service cards, such as the Benefits card, and the Payroll
+card are helping employees. Since the launch, HR observes a drop in the number of emails and
 messages in Teams that they receive. Site and page level usage report
 helps the planning team confirm this trend - the HR portals are among
 the most popular sites and site traffic shows that more people are
 accessing HR sites than before the launch of Viva Connections.
 
-Another metric Lamna Healthcare is prioritizing is the overall
+Another metric Lamna Healthcare is prioritizing, is the overall
 satisfaction of the experience amongst different roles and regions.
 Overall, employees are happy with the resources and tools provided
 by Viva Connections. One employee said, “*I love the new landing page in
