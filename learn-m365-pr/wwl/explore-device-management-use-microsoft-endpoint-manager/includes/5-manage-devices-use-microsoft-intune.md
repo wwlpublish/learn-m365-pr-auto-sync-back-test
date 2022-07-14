@@ -49,4 +49,4 @@ The available actions depend on the device platform and the device configuration
      -  [Send custom notification](/mem/intune/remote-actions/custom-notifications#send-a-custom-notification-to-a-single-device?azure-portal=true) (Android, iOS/iPadOS)
      -  [Synchronize device](/mem/intune/remote-actions/device-sync?azure-portal=true)
      -  [Update cellular data plan](/mem/intune/remote-actions/update-cellular-data-plan?azure-portal=true) (iOS/iPadOS)
-     -  [Wipe](/mem/intune/remote-actions/devices-wipe#wipe?azure-portal=true)<br>
+     -  [Wipe](/mem/intune/remote-actions/devices-wipe#wipe?azure-portal=true)

@@ -17,7 +17,8 @@ abstract: |
   *   Manage devices using Configuration Manager.
   *   Manage devices using Microsoft Intune.
   *   Create device profiles in Microsoft Intune.
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
