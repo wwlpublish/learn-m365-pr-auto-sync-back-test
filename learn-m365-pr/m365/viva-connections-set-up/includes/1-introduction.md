@@ -3,7 +3,7 @@ detailed planning and collaborative team effort that’s covered in [module
 2](/learn/modules/viva-connections-plan/). There are several steps you must take before your organization can
 access and use Viva Connections.
 
-In this module, you will learn how to build your organization’s unique
+In this module, you'll learn how to build your organization’s unique
 Viva Connections experience through a step-by-step guide. You will use
 insights from various types of stakeholders to make decisions. Keep in
 mind that stakeholders may look different based on the organization.

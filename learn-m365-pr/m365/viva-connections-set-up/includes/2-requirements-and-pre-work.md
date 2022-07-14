@@ -62,7 +62,7 @@ Only modern SharePoint sites and pages will display inside the Microsoft Teams e
 
 In this module, let's imagine that you're the Internal Communications Manager at a large chain of regional hospitals, Lamna Healthcare. Your organization needs an employee experience tool for their various types of employees. These employees include physicians and surgeons, nurse practitioners, HR professionals, IT professionals, office administrators, custodial staff, and many more.  
 
-After carefully researching and examining existing platforms, executive leadership has decided that Viva Connections is an ideal solution since they already subscribe to Microsoft 365. Leadership has asked you to lead the deployment of Viva Connections along with a team of stakeholders that represent different roles.
+The executive leadership has carefully researched and examined existing platforms. They then have decided that Viva Connections is an ideal solution since they already subscribe to Microsoft 365. Leadership has asked you to lead the deployment of Viva Connections along with a team of stakeholders that represent different roles.
 
 :::image type="icon" source="../media/story-telling-logo-white-bg.png"  :::
 
