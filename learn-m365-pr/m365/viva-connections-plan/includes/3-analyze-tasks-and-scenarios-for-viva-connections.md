@@ -138,22 +138,21 @@ discovered some role specific issues. For example:
 
 Nicoletta, a member of Lamna's janitorial staff, is an hourly paid
 employee and claimed that clocking in and out of shifts was a tedious
-process due to having to complete it on a shared computer. Since Nicoletta needs to travel throughout the hospital to complete her work each day,
+process due to having to complete it on a shared computer. Since Nicoletta needs to travel throughout the hospital to complete the work each day,
 the manual process takes up valuable time.
 
 :::image type="content" source="../media/-christian.png" alt-text="Work profile of Christian with head shot and job title." :::
 
 Christian is a
 full-time pediatrician at your hospital, meaning they only needs to
-report their monthly absences and time off. Christian expresses that it has been difficult to know exactly where to report her time off and which
+report their monthly absences and time off. Christian expresses that it has been difficult to know exactly where to report time off and which
 tools to use.
 
 :::image type="content" source="../media/-diego.png" alt-text="Work profile of Diego with head shot and job title." :::
 
 Diego is an IT
 professional at Lamna, and needs to move around the hospital to
-address help desk tickets submitted by hospital employees. Diego and the
-fellow IT team members explains that managing so many tickets while moving
+address help desk tickets submitted by hospital employees. Diego and the fellow IT team members explain that managing so many tickets while moving
 through the hospital can be overwhelming.
 
 You record all these findings in a spreadsheet to share with the

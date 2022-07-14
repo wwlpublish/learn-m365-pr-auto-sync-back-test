@@ -1,9 +1,9 @@
-Now that you have identified your key stakeholders and have completed a
+Now that you've identified your key stakeholders and have completed a
 needs assessment, it's time to plan and design the Dashboard, Feed, and
-Resources. This is an important time to think critically about how you
+Resources. The plan process is an important time to think critically about how you
 want your users to experience Viva Connections.
 
-This will involve:
+The plan process will involve:
 
 - Using insights from the needs assessment to decide which cards to
     use on the Dashboard and links to include in Resources.
@@ -53,7 +53,7 @@ fields \"Quick wins\" and \"First successes\" in the decision matrix
 below as a start:
 :::image type="content" source="../media/vc-scenario-priority-matrix.png" alt-text="Diagram of the quadrant matrix to identify the priorities of scenarios in the categories of: quick wins, business transformation, first success, and Save for later." :::
 
-Within the Dashboard, you will have the opportunity to incorporate three
+Within the Dashboard, you'll have the opportunity to incorporate three
 types of cards:
 
 - **Out of box cards**, which are already included in the Dashboard
@@ -65,13 +65,13 @@ types of cards:
 
 Consider each end user's experience and how their Dashboards will be
 displayed and accessed. As a Dashboard author, you can decide how you
-want users' Dashboards to look, how many cards display on a users'
+want users' Dashboards to look, how many cards display on a user's
 Dashboards, and their layout. Additionally, consider if the card should
 display on a desktop, mobile device, or both. Lastly, plan to [apply
 audience targeting to
 cards](/viva/connections/use-audience-targeting-in-viva-connections)
 as they relate to different roles and regions. Lastly, if people at your
-organization speak more than one language at work, you will want to plan
+organization speak more than one language at work, you'll want to plan
 on [creating a Dashboard in more than one
 language](/viva/connections/create-multilingual-dashboard).
 
@@ -87,7 +87,7 @@ without any extra configuration like third-party cards or custom cards.
 
 ### Plan to use third-party cards
 
-Within your Viva Connections Dashboard, you will have the option to add
+Within your Viva Connections Dashboard, you can add
 third-party tools that connect to services that help manage payroll, IT
 tickets, and wellness in the workplace. Your organization will need to
 have a service plan with the third-party service before the card can be
@@ -108,7 +108,7 @@ Dashboard authors can add and customize them.
 
 You can custom cards for the Dashboard to meet the unique needs of your
 organization. For example, booking a shuttle or viewing holiday
-schedules. There are two ways cards can be customized -- using the [Card
+schedules. There are two ways cards can be customized--using the [Card
 designer
 card](/viva/connections/create-dashboard#design-your-own-card-with-a-quick-view)
 or using the [Adaptive Card Extensions (ACEs)
@@ -183,8 +183,8 @@ templates](https://github.com/pnp/AdaptiveCards-Templates).
 The Feed aggregates SharePoint news posts, video news links, and
 conversation in Yammer into one central place. In the mobile app, the
 Feed displays as its own tab. On desktop, the Feed can be included by
-adding the Feed web part to the home site which will be covered in an
-upcoming unit. Technically, *you do not need to do anything* for content
+adding the Feed web part to the home site, which will be covered in an
+upcoming unit. Technically, *you don't need to do anything* for content
 to populate in the Feed if your organization already uses SharePoint
 news posts and Yammer. There are ways to influence the hierarchy of
 content in the Feed. [Learn more about the
@@ -223,7 +223,7 @@ Feed](/viva/connections/faqs-viva-connections-feed).
 
 **Get started using SharePoint news and Yammer:**
 
-If your organization is not already using SharePoint news posts or
+If your organization isn't already using SharePoint news posts or
 Yammer, include adopting these tools in your plan to generate a healthy
 flow of content in the Feed. Content in the Feed can be accessed for up
 to 30 days. Consider creating a content schedule each month to ensure
@@ -299,7 +299,7 @@ each experience could be implemented and other technical considerations.
 
 Next, the planning team determines the timeline and release schedule for
 the first version of Viva Connections. The first version will include
-the highest priority experiences. You know you will build on this
+the highest priority experiences. You know you'll build on this
 platform over time and plan to include more tools and resources as they
 learn more.
 
@@ -321,7 +321,7 @@ implemented sometime soon after the release of the first version.
 |Submit time-off requests|Dashboard|Use the ACE framework and add links to global navigation||2|
 |Track inventory|Dashboard|Use the ACE framework||2|
 |View holiday schedules|Dashboard and Resources|Use the Card designer card|Need to create API for holiday schedules|1|
-|View cafe menus|Dashboard|Use the Link card|Create workflow to update cafe menus every 7 days|1|
+|View cafe menus|Dashboard|Use the Link card|Create workflow to update cafe menus every seven days|1|
 
 To prepare for the Dashboard, priority level 1 items from the list above
 are organized into a separate spreadsheet for the Dashboard authors. The
