@@ -19,7 +19,7 @@ MAM enables organizations to manage and protect its company data within an appli
 Intune MAM supports two configurations:
 
  -  **Intune MDM + MAM**. IT administrators can manage apps using MAM on devices that are enrolled with Intune mobile device management (MDM). To manage apps using MDM + MAM, customers should use Intune in the **Microsoft Endpoint Manager admin center**.
- -  **Unenrolled devices with MAM managed applications**. IT administrators can manage organization data and accounts in apps using MAM on unenrolled devices or devices enrolled with third-party Enterprise Mobility Management (EMM) providers. To manage apps using MAM, customers should use Intune in the Microsoft Endpoint Manager admin center. For more information about BYOD and Microsoft's Enterprise Mobility + Security (EMS) suite, see [Technology decisions for enabling BYOD with Microsoft Enterprise Mobility + Security (EMS)](/mem/intune/fundamentals/byod-technology-decisions?azure-portal=true).
+ -  **Unenrolled devices with MAM managed applications**. IT administrators can manage organization data and accounts in apps using MAM on unenrolled devices or devices enrolled with third-party Enterprise Mobility Management (EMM) providers. To manage apps using MAM, customers should use Intune in the Microsoft Endpoint Manager admin center. For more information about BYOD and Microsoft's Enterprise Mobility + Security (EMS) suite, see [Technology decisions for enabling BYOD with Microsoft Enterprise Mobility + Security](/mem/intune/fundamentals/byod-technology-decisions?azure-portal=true).
 
 When apps are managed in Intune, administrators can:
 
@@ -42,7 +42,7 @@ One way that Intune provides mobile app security is through [app protection poli
 
 For example, consider the scenario where a user signs in to a device with their organization credentials. Their organization identity allows access to data that's denied to their personal identity. As that organization data is used, app protection policies control how the data is saved and shared. When users sign in with their personal identity, those same protections aren't applied. In this way, IT has control of organization data, while end users maintain control and privacy over their personal data.
 
-You can also use Intune with the other services in Microsoft's Enterprise Mobility + Security (EMS) suite. This feature provides your organization's mobile app security beyond what's included with the operating system and any apps. Apps managed with EMS have access to a broader set of mobile app and data protection features.
+You can also use Intune with the other services in the Microsoft Enterprise Mobility + Security (EMS) suite. This feature provides your organization's mobile app security beyond what's included with the operating system and any apps. Apps managed with EMS have access to a broader set of mobile app and data protection features.
 
 :::image type="content" source="../media/managing-mobile-apps-2a398ebc.png" alt-text="Diagram showing how to manage mobile apps, including using apps with E M S integration, managed apps, and store apps.":::
 
@@ -134,7 +134,7 @@ The top of the App workload navigation menu provides commonly used app details, 
      -  **S mode supplemental policies**. Select this option to authorize other applications to run on your managed S mode devices. For more information, see [S mode supplemental policies](/mem/intune/apps/apps-win32-s-mode?azure-portal=true).
      -  **Policies for Office apps**. Select this option to create mobile app management policies for Office mobile apps that connect to Microsoft 365 services. You can also protect access to Exchange on-premises mailboxes. You can do so by creating Intune app protection policies for Outlook for iOS/iPadOS and Android enabled with hybrid Modern Authentication. You must meet the requirements to use policies for Office apps. For more information about requirements, see [Requirements for using the Office cloud policy service](/deployoffice/overview-office-cloud-policy-service#requirements-for-using-the-office-cloud-policy-service?azure-portal=true). App protection policies aren't supported for other apps that connect to on-premises Exchange or SharePoint services. For related information, see [Overview of the Office cloud policy service for Microsoft 365 Apps for enterprise](/deployoffice/overview-office-cloud-policy-service?azure-portal=true).
      -  **Policy sets**. Select this option to create an assignable collection of apps, policies, and other management objects you've created. For more information, see [Policy sets](/mem/intune/fundamentals/policy-sets?azure-portal=true).
- -  **Other**. Additional features include:
+ -  **Other**. More features include:
      -  **App selective wipe**. Select this option to remove only corporate data from a selected user's device. For more information, see [App selective wipe](/mem/intune/apps/apps-selective-wipe?azure-portal=true).
      -  **App categories**. Add, pin, and delete app category names.
      -  **E-books**. Some app stores give you the ability to purchase multiple licenses for an app or books that you want to use in your company. For more information, see [Manage volume-purchased apps and books with Microsoft Intune](/mem/intune/apps/vpp-apps?azure-portal=true).

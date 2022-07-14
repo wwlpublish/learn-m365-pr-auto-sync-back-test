@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 07/13/2022
+  ms.date: 07/14/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -17,14 +17,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Intune represents different app configuration policy channels. The channel that an organization selects for a specific app policy is defined in the Device Enrollment Type setting. When configuring an app policy, which Device Enrollment Type setting specifically refers to apps deployed by Intune on enrolled devices?"
+  - content: "Intune represents different app configuration policy channels. The channel that an organization selects for a specific app policy is defined in the Device Enrollment Type setting. When an organization configures an app policy, which Device Enrollment Type setting specifically refers to apps deployed by Intune on enrolled devices?"
     choices:
     - content: "Managed Apps"
       isCorrect: false
-      explanation: "Incorrect. Managed apps specifically refers to apps configured with an Intune App Protection Policy on devices regardless of the enrollment state."
+      explanation: "Incorrect. This setting refers to apps configured with an Intune App Protection Policy on devices regardless of the enrollment state."
     - content: "Managed Devices"
       isCorrect: true
-      explanation: "Correct. Selecting Managed devices as the Device Enrollment Type specifically refers to apps deployed by Intune on enrolled devices. As such, they're managed by Intune as the enrollment provider."
+      explanation: "Correct. This setting refers to apps deployed by Intune on enrolled devices. As such, they're managed by Intune as the enrollment provider."
     - content: "Intune App SDK"
       isCorrect: false
       explanation: "Incorrect. This item isn't a valid Device Enrollment Type option."
