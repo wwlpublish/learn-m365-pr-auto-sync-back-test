@@ -10,6 +10,30 @@ metadata:
   ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 1
+durationInMinutes: 6
 content: |
   [!include[](includes/5-set-up-resources.md)]
+quiz:
+  questions:
+  - content: "Where do customized navigational links in the Resources tab of the mobile app come from?"
+    choices:
+    - content: "From global navigation."
+      isCorrect: true
+      explanation: "You can set up links for the Resources tab by editing global navigation from the home site."
+    - content: "Directly from the Feed."
+      isCorrect: false
+      explanation: "The Feed automatically aggregates news  from SharePoint sites and Yammer Communities. "
+    - content: "From third-party tools."
+      isCorrect: false
+      explanation: "Customized navigational links are part of the global navigation feature in SharePoint. "
+  - content: "What are the requirements for setting up global navigation in SharePoint? "
+    choices:
+    - content: "You must have a home site and have site owner permissions or higher to the home site. "
+      isCorrect: true
+      explanation: "These are the three requirements for setting up the global navigation to help with the way finding information across your SharePoint site."
+    - content: "You must have a Teams site and have the Teams admin access to the site."
+      isCorrect: false
+      explanation: "You must have a home site and have site owner permissions or higher to the home site. "
+    - content: "You must have a communication site and have the Viva Connections admin access to the site."
+      isCorrect: false
+      explanation: "You must have a home site and have site owner permissions or higher to the home site."

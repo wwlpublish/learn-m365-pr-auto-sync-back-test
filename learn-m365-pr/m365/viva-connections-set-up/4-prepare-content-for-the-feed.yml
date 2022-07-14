@@ -10,6 +10,42 @@ metadata:
   ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 1
+durationInMinutes: 6
 content: |
   [!include[](includes/4-prepare-content-for-the-feed.md)]
+quiz:
+  title: Prepare content for the Feed
+  questions:
+  - content: "Which tool influences the hierarchy of content in the Feed to make sure the most important news is seen?"
+    choices:
+    - content: "The Feed web part"
+      isCorrect: false
+      explanation: "This tool does relate to Feed news, but it primarily focuses on the personalization of news and announcements."
+    - content: "Stream"
+      isCorrect: false
+      explanation: "This feature is only used to embed videos into the Feed."
+    - content: "News boost"
+      isCorrect: true
+      explanation: "This tool ensures that the most important SharePoint news and announcements will appear prominently in the Feed for 30 days."
+  - content: "How can you target content to specific groups in the Feed? "
+    choices:
+    - content: "You do not need to do anything to target content to specific groups in the Feed. News posted from organizational news site automatically gets displayed in the Feed for viewers who follow those sites. "
+      isCorrect: true
+      explanation: "You can add up to 250 organization news sites to specify news content for specific groups’ Feeds. "
+    - content: "You can add news cards to the Feed."
+      isCorrect: false
+      explanation: "The card functionality is available for the Dashboard, not the Feed. Content in the feed automatically gets aggregated from SharePoint sites and Yammer communities. "
+    - content: "You can use a Video news link in SharePoint to embed videos into your Viva Connections Feed and keep employees engaged across various time zones."
+      isCorrect: false
+      explanation: "Video news links will automatically get included in the Feed. Users who follow the site the news is published from will be able to view that news post in their Feed."
+  - content: "How do SharePoint news authors make sure the news published from their SharePoint sites show up in the Viva Connections Feed?"
+    choices:
+    - content: "They use News Boost to elevate SharePoint news into the Feed."
+      isCorrect: false
+      explanation: "Not all news should be boosted. Only the most important messages."
+    - content: "They don’t need to do anything. "
+      isCorrect: true
+      explanation: "People will see news from official organizational news sites and the sites they follow automatically. Posts from official organizational news sites will take priority over news published from standard sites."
+    - content: "They access the SharePoint start page from the Microsoft 365 App Launcher and follow navigation to create the news."
+      isCorrect: false
+      explanation: "Before creating the news, the site owner will need to mark your SharePoint sites as organization news sites."

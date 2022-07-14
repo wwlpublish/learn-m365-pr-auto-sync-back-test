@@ -3,14 +3,14 @@ uid: learn.viva-connections-set-up
 metadata:
   moduleType: standard
   title: Set up Viva Connections
-  description: Learn how to prepare the environment before setting up Viva Connections, how to build the Dashboard, how to prepare the content for the Feed, how to set up Resources, and how to set up audience targetting.
+  description: You'll learn how to prepare the environment for Viva Connections, build the Dashboard, prepare the content for the Feed, set up Resources, and configure audience targeting.
   ms.date: 6/23/2022
   author: maggierui
   ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365 
 title: Set up Viva Connections
-summary: Learn how to set up each component of Viva Connections - the Dashboard, the Feed, and Resources. First, you’ll learn about how to meet technical requirements. Then, get guidance on how to set up and personalize each component of the experience. Lastly, we will cover pre-launch considerations. 
+summary: Learn how to set up each component of Viva Connections - the Dashboard, the Feed, and Resources. First, you’ll learn about how to meet technical requirements. Then, get guidance on how to set up and personalize each component of the experience. Lastly, we'll cover pre-launch considerations. 
 abstract: |
   By the end of this module, you'll be able to:
     - Describe the main features of Viva Connections
@@ -35,7 +35,7 @@ units:
 - learn.viva-connections-set-up.prepare-content-for-the-feed
 - learn.viva-connections-set-up.set-up-resources
 - learn.viva-connections-set-up.review-audience-targeting-settings-before-launching
-- learn.viva-connections-set-up.knowledge-check
+- learn.viva-connections-set-up.add-the-dashboard-and-feed-web-parts-to-the-home-site
 - learn.viva-connections-set-up.summary
 badge:
   uid: learn.viva-connections-set-up.badge

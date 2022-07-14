@@ -4,12 +4,36 @@ title: Review audience targeting settings before launching
 metadata:
   unitType: learning-content
   title: Review audience targeting settings before launching
-  description: Apply audience targeting strategies for Dashbaord cards, Feed, and Resources. Preview before launch to make sure the right audiences see the right content.
+  description: Apply audience targeting strategies for Dashboard cards, Feed, and Resources. Preview before launch to make sure the right audiences see the right content.
   ms.date: 6/23/2022
   author: maggierui
   ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 1
+durationInMinutes: 6
 content: |
   [!include[](includes/6-review-audience-targeting-settings-before-launching.md)]
+quiz:
+  questions:
+  - content: "Megan is the SharePoint admin for her organization’s Viva Connections site. Before Megan updates and publishes the organization’s Viva Connections Dashboard, what should she do to ensure she's targeting the right people on shifts for this updated shift card?"
+    choices:
+    - content: "Open the Dashboard in a “Preview” mode to confirm she's selected the right audience to target."
+      isCorrect: true
+      explanation: "You should take this step before publishing the newly updated Dashboard or sharing the information with your employees."
+    - content: "Nothing. Megan can publish the updated Dashboard right away."
+      isCorrect: false
+      explanation: "Double-checking your audience targeting in a “Preview” mode is critical. It prevents mistakes and allows you to see how users will view the latest updates on their end."
+    - content: "Update the Dashboard, share it with the nurses on shifts, and then go back and make more edits as needed."
+      isCorrect: false
+      explanation: "While user testing is critical for the launch, Megan should use the “Preview” feature to ensure that she's selected the right audience to target. "
+  - content: "Which statement for the tools below is a correct description for personalizing the Viva Connections experience for different roles and regions?"
+    choices:
+    - content: "You can only apply audience targeting to Dashboard cards at the card level, which will require card customization by developers. "
+      isCorrect: true
+      explanation: "You can apply audience targeting directly at the dashboard by adding targeted audience groups for each Dashboard card. "
+    - content: "You can apply audience targeting to cards on the Dashboard and to links in the global navigation displayed in Resources. "
+      isCorrect: false
+      explanation: "Audience targeting can be applied while in edit mode for both Dashboard and Resources.  "
+    - content: "For the Feed, the News boost feature can be used to surface the most important news. "
+      isCorrect: false
+      explanation: "Although the New boost feature is a Feed feature to promote important news, it doesn't customize news for employees with different roles and regions."
