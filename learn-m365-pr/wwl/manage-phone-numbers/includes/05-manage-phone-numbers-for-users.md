@@ -7,12 +7,14 @@ Complete the following steps to assign phone numbers to users:
 1. Sign into the **Microsoft Teams admin center**.
 2. On the left-hand navigation pane, select **Voice** and then select **Phone numbers**.
 3. On the **Phone numbers** window, select an unassigned number in the list and then select **Edit**.
-‎‎:::image type="content" source="../media/manage-phone-numbers.png" alt-text="Screenshot of Manage phone numbers.":::  
+
+    ‎‎:::image type="content" source="../media/manage-phone-numbers.png" alt-text="Screenshot of Manage phone numbers.":::  
 
 4. In the **Edit** pane, under **Assigned to**, search for the user by display name or user name, and then select **Assign**.
 
 5. To assign or change the associated emergency location, search for and then select the location under the **Emergency location** tab. 
-‎‎:::image type="content" source="../media/assign-phone-number.png" alt-text="Screenshot of Assign phone number.":::  
+
+    ‎‎:::image type="content" source="../media/assign-phone-number.png" alt-text="Screenshot of Assign phone number.":::  
 
 6. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
 
