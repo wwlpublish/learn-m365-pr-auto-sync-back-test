@@ -18,11 +18,11 @@ and Resources
 :::image type="icon" source="../media/lamna-logo-white-bg-200.jpg"  :::
   
 In this module, let\'s imagine that you're the Internal Communications
-Manager of Lamna Healthcare, a large chain of regional hospitals. The organization needs to communicate new policies and procedures constantly. Meanwhile, it needs to provide easy access to tools that allow employees to see their shifts and manage their time and absence, connect them with shuttles and café menus, and provide quick links to resources and forms. After carefully researching and examining existing platforms, executive leadership has decided that Viva Connections is an ideal solution since they already subscribe to Microsoft 365.
+Manager of Lamna Healthcare, a large chain of regional hospitals. The organization needs to communicate new policies and procedures constantly. Meanwhile, it needs to provide easy access to review and manage shifts, access shuttle schedules and café menus, and provide quick links to resources. After carefully researching and examining existing platforms, executive leadership has decided that Viva Connections is an ideal solution since they already subscribe to Microsoft 365.
 
 Leadership has asked you to lead the deployment of Viva Connections
 along with a team of stakeholders that represent different roles. The
-company operates with support from a variety of employees and intends to
+company operates with support from various employees and intends to
 use Viva Connections to support the following roles:
 
 - Physicians and surgeons
