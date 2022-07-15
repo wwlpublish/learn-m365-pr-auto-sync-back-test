@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.viva-connections-launch-and-monitor.use-metrics-to-evaluate
+uid: learn.viva-connections-launch-and-monitor.use-metrics-to-evaluate
 title: Use metrics to evaluate 
 metadata:
   unitType: learning-content
@@ -9,7 +9,7 @@ metadata:
   author: maggierui
   ms.author: ruihu
   ms.topic: interactive-tutorial
-  ms.prod: learning-m365
+  ms.prod: learning-m365# Edit as appropriate for your portfolio area
 durationInMinutes: 8
 content: |
   [!include[](includes/5-use-metrics-to-evaluate.md)]

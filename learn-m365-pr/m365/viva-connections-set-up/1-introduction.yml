@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit
-uid: learn.viva-connections-launch-and-monitor.introduction
+uid: learn.viva-connections-set-up.introduction
 title: Introduction
 metadata:
   unitType: introduction
   title: Introduction
-  description: introduction on how to launch and monitor Viva Connections.
+  description: Introduction to the process of setting up Viva Connections for its Dashboard, Feed, and Resources.
   ms.date: 6/23/2022
   author: maggierui
   ms.author: ruihu
   ms.topic: interactive-tutorial
-  ms.prod: learning-m365 Edit as appropriate for your portfolio area
+  ms.prod: learning-m365
 durationInMinutes: 1
 content: |
   [!include[](includes/1-introduction.md)]
