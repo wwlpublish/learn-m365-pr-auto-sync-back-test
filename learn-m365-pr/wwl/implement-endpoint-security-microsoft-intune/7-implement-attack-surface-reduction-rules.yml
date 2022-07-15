@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-endpoint-security-microsoft-intune.implement-attack-surface-reduction-rules
+title: Implement attack surface reduction rules
+metadata:
+  title: Implement attack surface reduction rules
+  description: "Implement attack surface reduction rules"
+  ms.date: 07/15/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-implement-attack-surface-reduction-rules.md)]

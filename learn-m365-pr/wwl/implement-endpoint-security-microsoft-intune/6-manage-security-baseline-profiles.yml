@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-endpoint-security-microsoft-intune.manage-security-baseline-profiles
+title: Manage security baseline profiles in Microsoft Intune
+metadata:
+  title: Manage security baseline profiles in Microsoft Intune
+  description: "Manage security baseline profiles in Microsoft Intune"
+  ms.date: 07/15/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-manage-security-baseline-profiles.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Microsoft released an update to one of the security baselines used by Fabrikam. As the Enterprise Administrator for Fabrikam, Holly Spencer was notified that a new version of the baseline was released. However, since she was satisfied with the existing profile that used the older baseline, Holly decided not to upgrade to the new version. Instead, Fabrikam continued using the older version. 6 months later, Holly attempted to edit the settings for the profile. However, the system didn't allow her to update the profile settings. Why couldn't Holly update the profile settings?"
+    choices:
+    - content: "Baseline profiles that don’t use the latest version are automatically placed on hold"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the correct reason why Holly couldn't update the profile settings."
+    - content: "Settings in baseline profiles that don’t use the latest version become read-only"
+      isCorrect: true
+      explanation: "Correct. When a new version for a baseline is released, existing profiles don’t upgrade to the new baseline version automatically. As such, settings in baseline profiles that don’t use the latest version become read-only. Organizations can continue using those older profiles, including editing their name, description and assignments. However, they won't be able to edit settings for them or create new profiles based on the older versions."
+    - content: "Baseline profiles that don’t use the latest version are disabled"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the correct reason why Holly couldn't update the profile settings."
