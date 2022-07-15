@@ -29,13 +29,13 @@ products:
 - viva
 - m365
 units:
-- learn.viva-connections-set-up.introduction
-- learn.viva-connections-set-up.requirements-and-pre-work
-- learn.viva-connections-set-up.build-the-dashboard
-- learn.viva-connections-set-up.prepare-content-for-the-feed
-- learn.viva-connections-set-up.set-up-resources
-- learn.viva-connections-set-up.review-audience-targeting-settings-before-launching
-- learn.viva-connections-set-up.add-the-dashboard-and-feed-web-parts-to-the-home-site
-- learn.viva-connections-set-up.summary
+- learn-m365.viva-connections-set-up.introduction
+- learn-m365.viva-connections-set-up.requirements-and-pre-work
+- learn-m365.viva-connections-set-up.build-the-dashboard
+- learn-m365.viva-connections-set-up.prepare-content-for-the-feed
+- learn-m365.viva-connections-set-up.set-up-resources
+- learn-m365.viva-connections-set-up.review-audience-targeting-settings-before-launching
+- learn-m365.viva-connections-set-up.add-the-dashboard-and-feed-web-parts-to-the-home-site
+- learn-m365.viva-connections-set-up.summary
 badge:
-  uid: learn.viva-connections-set-up.badge
+  uid: learn-m365.viva-connections-set-up.badge
