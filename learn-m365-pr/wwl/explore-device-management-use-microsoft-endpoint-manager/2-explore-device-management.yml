@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-device-management-use-microsoft-endpoint-manager.explore-device-management
+title: Explore device management in Microsoft Endpoint Manager
+metadata:
+  title: Explore device management in Microsoft Endpoint Manager
+  description: "Explore device management in Microsoft Endpoint Manager"
+  ms.date: 07/15/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-explore-device-management.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which Microsoft Endpoint Manager solution is an on-premises management solution that manages desktops, servers, and laptops that are internet-based or on an organization's network?"
+    choices:
+    - content: "Microsoft Intune"
+      isCorrect: false
+      explanation: "Incorrect. Intune is a 100% cloud-based mobile device management (MDM) and mobile application management (MAM) provider for an organization's apps and devices."
+    - content: "Configuration Manager"
+      isCorrect: true
+      explanation: "Correct. Configuration Manager is an on-premises management solution that manages desktops, servers, and laptops that are internet-based or on an organization's network. Configuration Manager can deploy apps, software updates, and operating systems. It can also monitor compliance, query and act on clients in real time, and much more."
+    - content: "Windows Autopilot"
+      isCorrect: false
+      explanation: "Incorrect. Windows Autopilot sets up and pre-configures new devices. By doing so, it prepares them for use. It's designed to simplify the lifecycle of Windows devices, for both IT and end users, from initial deployment through end of life."
