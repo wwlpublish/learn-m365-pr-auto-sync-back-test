@@ -88,6 +88,7 @@ planning team's diverse perspectives of different roles and regions.
  entire organization.
 
 :::image type="content" source="../media/relecloud-homesite.png" alt-text="Screenshot of an imaginary organization RELECLOUD Sharepoint home site." :::
+ 
  **Step 2--Customize global navigation:** [Enable global navigation
  for the SharePoint application
  bar](/viva/connections/sharepoint-app-bar).
