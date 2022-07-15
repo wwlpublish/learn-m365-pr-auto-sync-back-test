@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-device-management-use-microsoft-endpoint-manager.manage-devices-use-configuration-manager
+title: Manage devices using Configuration Manager
+metadata:
+  title: Manage devices using Configuration Manager
+  description: "Manage devices using Configuration Manager"
+  ms.date: 07/15/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-manage-devices-use-configuration-manager.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which Configuration Manager feature can configure, update, and protect clients against malware?"
+    choices:
+    - content: "Endpoint Protection"
+      isCorrect: true
+      explanation: "Correct. The functionality in Endpoint Protection can configure, update, and protect clients against malware."
+    - content: "Content Management"
+      isCorrect: false
+      explanation: "Incorrect. The tools and resources in the Content Management feature can manage content files for applications, packages, software updates, and operating system deployment."
+    - content: "Asset Intelligence"
+      isCorrect: false
+      explanation: "Incorrect. The Asset Intelligence feature can obtain more insight from the inventory data that the Hardware and Software Inventory feature records. Asset Intelligence uses a catalog that contains software and imported license information to identify the inventoried software."
