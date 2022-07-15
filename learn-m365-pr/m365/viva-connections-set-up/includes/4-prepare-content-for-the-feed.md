@@ -9,7 +9,7 @@ posts](/sharepoint/organization-news-site)
 and
 [Yammer.](https://www.bing.com/ck/a?!&&p=577a5b674b3c22b601cec0336b5b3382218bf922f2d243c50dbe788fd5d05742JmltdHM9MTY1NDE5MTI5OCZpZ3VpZD1jMGNjODg2MC1mMWEzLTRkM2ItOWY5Mi0xMDNkY2M4YWE4OTAmaW5zaWQ9NTE3NQ&ptn=3&fclid=52a4d99a-e29a-11ec-ac46-276dea4d8649&u=a1aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS9lbi11cy9taWNyb3NvZnQtMzY1L2Jsb2cvMjAxMi8wMi8wOS9nZXR0aW5nLXN0YXJ0ZWQtd2l0aC15YW1tZXItdGhlLWJhc2ljcy1hbmQtYmV5b25kLw&ntb=1)
 
-:::image type="content" source="../media/company-feed.png" alt-text="Screenshot of a company feed sample" :::
+:::image type="content" source="../media/company-feed.png" alt-text="Screenshot of a company feed sample." :::
 **Feed content comes from three main
 sources:**
 
@@ -22,7 +22,7 @@ populate the Feed, but you can influence the hierarchy of content in the
 Feed. To ensure the most important news is prioritized in the
 Feed:
 
-:::image type="content" source="../media/news-boost.png" alt-text="Screenshot of setting up news boost" :::
+:::image type="content" source="../media/news-boost.png" alt-text="Screenshot of setting up news boost." :::
 
 - **Promote important communications** - Use [News
 boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)

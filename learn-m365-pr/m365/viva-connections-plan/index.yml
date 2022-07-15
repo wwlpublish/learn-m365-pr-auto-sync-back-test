@@ -33,8 +33,8 @@ units:
 - learn-m365.viva-connections-plan.build-your-team-and-meet-requirements
 - learn-m365.viva-connections-plan.analyze-tasks-and-scenarios-for-viva-connections
 - learn-m365.viva-connections-plan.plan-for-viva-connections-dashboard-feed-and-resources
-- learn-m365.viva-connections-plan.knowledge-check
 - learn-m365.viva-connections-plan.plan-to-announce-launch-and-scale-adoption
+- learn-m365.viva-connections-plan.knowledge-check
 - learn-m365.viva-connections-plan.summary
 badge:
   uid: learn-m365.viva-connections-plan.badge

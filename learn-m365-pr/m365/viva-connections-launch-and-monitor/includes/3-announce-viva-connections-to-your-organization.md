@@ -6,7 +6,7 @@ get
 more](https://support.microsoft.com/en-us/office/viva-connections-on-your-desktop-3da30f39-684a-4bde-bb81-2e1407d59b52)
 information for end users.
 
-:::image type="content" source="../media/communication-channels-by-job-type.png" alt-text="Diagram of communication channels by job type.":::
+:::image type="content" source="../media/communication-channels-by-job-type.png" alt-text="Diagram of communication channels by job type." lightbox="media/communication-channels-by-job-type-expanded.png":::
 
 Use Microsoft Viva adoption materials to help announce the change. In the adoption center you'll, find communication templates that can be
 customized. Share these templates with organizational leaders so they
@@ -76,6 +76,7 @@ see how Kayla, an HR generalist, and Maya, a nurse, hear about the launch
 of Viva Connections from different channels:
 
 :::image type="content" source="../media/-kayla.png" alt-text="Diagram of profile head shot of Kayla and their job title.":::
+
 Kayla,
 an HR generalist who completes most of their work on a computer, first
 learns about the launch of Viva Connections the Office of Human
@@ -84,6 +85,7 @@ Connections launch in the hospital’s Yammer community. Lastly, Kayla
 receives the organization wide email announcement about the launch.
 
 :::image type="content" source="../media/-maya.png" alt-text="Diagram of profile head shot of Maya and their job title.":::
+
 Maya
 and their nurse colleagues, however, are introduced to Viva Connections in
 a SharePoint news post. They also see Lamna’s version of Viva
