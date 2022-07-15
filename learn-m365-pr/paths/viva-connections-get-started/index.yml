@@ -1,0 +1,29 @@
+### YamlMime:LearningPath
+uid: learn-m365-pr.viva-connections-get-started
+metadata:
+  title: Get started with Microsoft Viva Connections
+  description: Viva Connections is a customizable employee experience app in Microsoft Teams that connects your employees to tasks, organizational news, people, and resources. This learning path will introduce you to the Viva Connections experience, show you how to plan, build, launch and monitor the customized app.  
+  ms.date: 07/15/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Get started with Microsoft Viva Connections
+summary: Viva Connections is a customizable employee experience app in Microsoft Teams that connects your employees to tasks, organizational news, people, and resources. This learning path will introduce you to the Viva Connections experience, show you how to plan, build, launch and monitor the customized app. 
+prerequisites: |
+  - Access to an instance of Viva Connections
+iconUrl: /learn/achievements/generic-trophy.svg
+levels: 
+- beginner
+roles:
+- administrator
+products: 
+- m365
+- viva
+modules:
+- learn-m365.viva-connections-introduction
+- learn-m365.viva-connections-plan
+- learn-m365.viva-connections-set-up
+- learn-m365.viva-connections-launch-and-monitor
+trophy: 
+  uid: learn-m365-pr.viva-connections-get-started.trophy
