@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn.wwl.manage-phone-system-for-microsoft-teams
 metadata:
-  title: Manage Phone System for Microsoft Teams
+  title: Manage Teams Phone settings and policies
   description: "Learn about various features in the Phone System and how to configure those features, including call queues, auto attendants, caller ID, and call park."
-  ms.date: 11/18/2021
+  ms.date: 07/15/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Manage Phone System for Microsoft Teams
+title: Manage Teams Phone settings and policies
 summary: Learn about various features in the Phone System and how to configure those features, including call queues, auto attendants, caller ID, and call park.
 abstract: |
   By the end of this module, you will be able to:

@@ -3,39 +3,46 @@ Microsoft Teams requires a resource account for each auto attendant or call queu
 > [!NOTE]
 > Teams resource accounts aren't the same as Microsoft 365 resource accounts. Microsoft 365 resource accounts are tied to an Exchange Online mailbox and enable booking of shared resources, such as rooms.
 
+Before creating a Teams resource account and configuring it, ensure you've done the following:
+
+* **Virtual user licenses** - If you purchased **Teams Phone Standard** or **Teams Phone with Calling Plan** bundle licenses, virtual licenses are already in your account. If you have virtual licenses, they'll appear as **Microsoft Teams Phone Standard - Virtual User** under **Billing** > **Your products** in the Microsoft 365 admin center. 
+
+* **Service numbers** - For any auto attendant or call queue that you want to be reachable directly by a service number, you must have a resource account with an associated service number.
+
+
 ## Create a resource account
 
 You can create a resource account in the Teams admin center by completing the following steps:
 
 1. In the Teams admin center, in the left-hand navigation pane, select **Voice**, and then select **Resource accounts**.
 
-2. Select **Add**.
+2. Select **+ Add**.
 
 3. In the **Add resource account** pane, enter the **Display name** and **Username** fields, and then select the appropriate **Resource account type** value. The resource account type can be either **Auto attendant** or **Call queue**, depending on how you intend to use this resource account.
 
-	‎:::image type="content" source="../media/resource-options.png" alt-text="Screenshot of add resource account user interface":::
+	:::image type="content" source="../media/resource-options.png" alt-text="Screenshot of add resource account user interface.":::
 
 4. Select **Save**.
 
-	‎:::image type="content" source="../media/resource-accounts-page.png" alt-text="Screenshot of a list of resource accounts":::
+	:::image type="content" source="../media/resource-accounts-page.png" alt-text="Screenshot of a list of resource accounts.":::
 
 ## Assign a license
 
-Each resource account requires a license to work with auto attendants and call queues. You can assign a **Microsoft 365 Phone System - Virtual User** license or a **Phone System** license to the resource account.
+Each resource account requires a license to work with auto attendants and call queues. You can assign a **Microsoft Teams Phone Standard - Virtual User license** license or a **Teams Phone Standard license** license to the resource account.
 
 1. In the Microsoft 365 admin center, select the resource account to which you want to assign a license.
 
-2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft 365 Phone System - Virtual User**.
+2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft Teams Phone System - Virtual User**.
 
 3. Select **Save changes**.
 
-	‎:::image type="content" source="../media/resource-account-assign-virtual-user-license.png" alt-text="Screenshot of assign licenses user interface in the Microsoft 365 admin center":::
+	:::image type="content" source="../media/resource-account-assign-virtual-user-license.png" alt-text="Screenshot of assign licenses user interface in the Microsoft 365 admin center.":::
 
 ## Assign a service number
 
 Service numbers are optional for auto attendants and call queues. However, an organization must have at least one service number for callers to reach its auto attendant and call queue configuration.
 
-For any auto attendant or call queue that an organization wants to be reachable directly by a service number, it must have a resource account with an associated service number. Resource accounts can use either toll or toll-free service numbers.
+Resource accounts can use either toll or toll-free service numbers.
 
 If you're planning to use the resource account with an auto attendant or call queue that requires a service number, complete the following steps to assign a number to the resource account:
 
@@ -47,7 +54,7 @@ If you're planning to use the resource account with an auto attendant or call qu
 
 4. Select **Save**.
 
-	‎:::image type="content" source="../media/assign-number.png" alt-text="Screenshot of the assign service number user interface":::
+	:::image type="content" source="../media/assign-number.png" alt-text="Screenshot of the assign service number user interface.":::
 
 ## Manage resource accounts 
 

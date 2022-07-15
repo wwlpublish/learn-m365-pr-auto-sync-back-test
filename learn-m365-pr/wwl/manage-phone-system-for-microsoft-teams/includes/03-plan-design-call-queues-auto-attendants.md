@@ -1,4 +1,4 @@
-Microsoft Teams Phone System provides auto attendants and call queues. These features enable external and internal callers to move through a menu system to place calls and transfer calls to users or departments in an organization. Companies can use these tools to design and build phone systems that satisfy their exact business needs.
+Microsoft Teams Phone provides auto attendants and call queues. These features enable external and internal callers to move through a menu system to place calls and transfer calls to users or departments in an organization. Companies can use these tools to design and build Teams Phones that satisfy their exact business needs.
 
 ## What is the auto attendant service?
 
@@ -28,7 +28,7 @@ Cloud call queues can provide:
 
 The following image shows what an attendant would see when a caller was in a call queue:
 
-‎:::image type="content" source="../media/answer-auto-attendant-call-queue-calls.png" alt-text="Phone system layout":::
+:::image type="content" source="../media/answer-auto-attendant-call-queue-calls.png" alt-text="Screenshot of Teams Phone layout.":::
 
 ## Business decisions
 
@@ -102,8 +102,5 @@ As part of the planning process, it's recommended that you design the call routi
 
 The following diagram shows an example of call routing using auto attendants and call queues.
 
-‎:::image type="content" source="../media/auto-attendant-call-queues.png" alt-text="Example auto attendant design":::
+:::image type="content" source="../media/auto-attendant-call-queues.png" alt-text="Diagram showing example of auto attendant design.":::
 
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”
