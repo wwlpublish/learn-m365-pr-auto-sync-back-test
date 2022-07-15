@@ -53,7 +53,7 @@ Teams-specific diagnostic scenarios that cover top support topics and the most c
 > [!NOTE]
 > If a diagnostic detects an issue, and you've implemented a fix based on the results, consider rerunning the diagnostic to ensure the issue is completely resolved.
 
-For more details on the diagnostics that are currently available, with brief scenario descriptions, see [Scenario descriptions and shortcut commands](https://docs.microsoft.com/en-us/microsoftteams/troubleshoot/teams-administration/admin-self-help-diagnostics?azure-portal=true
+For more details on the diagnostics that are currently available, with brief scenario descriptions, see [Scenario descriptions and shortcut commands](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/admin-self-help-diagnostics?azure-portal=true
 #what-scenarios-are-currently-covered)
 
 ## Monitor usage and feedback
