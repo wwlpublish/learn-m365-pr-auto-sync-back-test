@@ -1,8 +1,8 @@
-As an organization, you've rolled out Microsoft Teams with chat, teams, channels, and apps. Maybe you've deployed meetings and conferencing. Now you're ready to add cloud voice workloads. To do so, you've decided to use your own telephony carrier for Public Switched Telephone Network (PSTN) connectivity by using Phone System Direct Routing. With Direct Routing, you can use Teams Phone System with virtually any telephony carrier. Microsoft Phone System Direct Routing enables your organization to connect its on-premises telephony infrastructure to Microsoft Teams. 
+As an organization, you've rolled out Microsoft Teams with chat, teams, channels, and apps. Maybe you've deployed meetings and conferencing. Now you're ready to add cloud voice workloads. To do so, you've decided to use your own telephony carrier for Public Switched Telephone Network (PSTN) connectivity by using Direct Routing. With Direct Routing, you can use Teams Phone System with virtually any telephony carrier. Microsoft Teams Phone System Direct Routing enables your organization to connect its on-premises telephony infrastructure to Microsoft Teams. 
 
 Once an organization has configured its Direct Routing environment, there are several components required to make sure everything is running smoothly. For example, you may have a Session Border Controller (SBC), or maybe multiple SBCs connected to Microsoft Teams. You may even have a third-party private branch exchange (PBX) system, as shown in the following diagram:
 
-‎:::image type="content" source="../media/environment-diagram.png" alt-text="Direct routing diagram":::
+‎:::image type="content" source="../media/environment-diagram.png" alt-text="Screenshot of Direct routing diagram.":::
 
 The following tools can be used to monitor and troubleshoot Direct Routing issues:
 
@@ -26,11 +26,11 @@ You can view the Health Dashboard in the Microsoft Teams admin center by navigat
 
 ### Overall health of the connected SBCs
 
-The Health Dashboard provides the following information related to overall health of the connected SBCs:
+The Health Dashboard provides the following information related to overall health of the connected SBCs and Voice routes:
 
-‎:::image type="content" source="../media/direct-routing-dashboard-stats-1.png" alt-text="Shows Health Dashboard statistics" lightbox="../media/direct-routing-dashboard-stats-1.png":::
+‎:::image type="content" source="../media/direct-routing-dashboard-stats-1.png" alt-text="Screenshot of Health Dashboard statistics." lightbox="../media/direct-routing-dashboard-stats-1.png":::
 
-* **Direct Routing summary**: Shows the total number of SBCs registered in the system. Registration means that the tenant administrator added an SBC by using the ```New-CsOnlinePSTNGateway``` command. If the SBC was added in PowerShell but never connected, the Health Dashboard shows it in an unhealthy status.
+* **Direct Routing summary**: Shows the total number of SBCs registered in the system, voice routes with the enrolled SBCs, and SBCs with issues. Registration means that the tenant administrator added an SBC by using the ```New-CsOnlinePSTNGateway``` command. If the SBC was added in PowerShell but never connected, the Health Dashboard shows it in an unhealthy status.
 
 * **SBC**: The FQDN of the paired SBC.
 
@@ -72,7 +72,7 @@ The Health Dashboard provides the following information related to overall healt
 
 You can also view the detailed information for a specific SBC as shown in the following screenshot:
 
-‎:::image type="content" source="../media/direct-routing-dashboard-session-border-controller-detail.png" alt-text="Health dashboard SBC details" lightbox="../media/direct-routing-dashboard-session-border-controller-detail.png":::
+‎:::image type="content" source="../media/direct-routing-dashboard-session-border-controller-detail.png" alt-text="Screenshot of Health dashboard SBC details." lightbox="../media/direct-routing-dashboard-session-border-controller-detail.png":::
 
 The detailed view shows the following parameters:
 
@@ -100,6 +100,3 @@ The detailed view shows the following parameters:
 
 * **Network Effectiveness ratio**: This parameter is the same metric displayed on the **Overall Health** dashboard. However, it provides the option to slice the data by time series or call direction.
 
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”
