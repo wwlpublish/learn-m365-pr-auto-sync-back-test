@@ -29,11 +29,11 @@ products:
 - viva
 - m365 
 units:
-- learn.viva-connections-introduction.introduction
-- learn.viva-connections-introduction.what-do-users-experience
-- learn.viva-connections-introduction.when-to-use-viva-connections
-- learn.viva-connections-introduction.what-technical-requirements-must-be-met
-- learn.viva-connections-introduction.knowledge-check
-- learn.viva-connections-introduction.summary
+- learn-m365.viva-connections-introduction.introduction
+- learn-m365.viva-connections-introduction.what-do-users-experience
+- learn-m365.viva-connections-introduction.when-to-use-viva-connections
+- learn-m365.viva-connections-introduction.what-technical-requirements-must-be-met
+- learn-m365.viva-connections-introduction.knowledge-check
+- learn-m365.viva-connections-introduction.summary
 badge:
-  uid: learn.viva-connections-introduction.badge
+  uid: learn-m365.viva-connections-introduction.badge
