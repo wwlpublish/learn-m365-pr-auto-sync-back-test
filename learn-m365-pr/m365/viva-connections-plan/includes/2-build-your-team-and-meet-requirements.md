@@ -36,16 +36,16 @@ planning, building, and launch phases. Stakeholders will decide what scenarios w
 |---|---|---|
 |Key administrative stakeholders typically include: <br> **HR professionals**, who manage team members and oversee company and organizational structure and efficiency <br> **Internal communication specialists**, who facilitate and manage communications between employees and various internal teams <br> **Communications coordinators and specialists**, who execute and maintain company-wide communications and brand management <br> **Administrative assistants**, who complete and oversee various administrative tasks <br> <br> Work with **your organization’s stakeholders** and business partners (from groups like HR, communications specialists, and technology advocates) to identify the most valuable workflows and tasks that can be completed in Viva Connections.|The **SharePoint admin** will set a home site (if you don’t already have one) in the admin center. SharePoint admins may also help modernize classic SharePoint sites and pages where needed. <br> The **Microsoft Teams admin** will add your organization’s version of Viva Connections as an app and choose settings in the Teams admin center. <br> **Site owners and authors for the home site** will design the home site content, navigation, and the Dashboard. <br> Other **site owners and authors** may be involved to update content or news post that will be relevant to the Viva Connections experience. <br> <br><br> <br><br> |Collaborate with **champions** (early adopters) to help other people at the organization implement Viva Connections.<br> Leverage **executive sponsors** who can help evangelize Viva Connections at large company meetings and in broad communications.<br>**Business owners (like HR) and managers** at all levels can help teams and individuals find value and adopt new ways of working.<br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br> |
 
->**Before finalizing your list of key stakeholders, answer these
+**Before finalizing your list of key stakeholders, answer these
 questions:**
->- Who can represent the most important jobs, roles, and regions that
+- Who can represent the most important jobs, roles, and regions that
     should be supported by Viva Connections?
->- How can the team members contribute to identify key scenarios and
+- How can the team members contribute to identify key scenarios and
     tasks for employees in each unit, or organization-wise?
->- Which roles and regions need the most support?
->- Who in the organization has line of sight to leaders, organizational
+- Which roles and regions need the most support?
+- Who in the organization has line of sight to leaders, organizational
     announcements, and the overall culture?
->- Who are the best representatives to help create and manage redundant
+- Who are the best representatives to help create and manage redundant
     workflows and tasks?
 
 **Best practices for building your team of stakeholders:**
@@ -81,29 +81,29 @@ planning team's diverse perspectives of different roles and regions.
     navigation, and modern sites, then you've met the technical
     requirements for Viva Connections.
 
-> **Step 1--Create a home site**: Create a SharePoint communication
-> site and [set it as a home site in the SharePoint admin
-> center](/sharepoint/home-site). Home
-> sites activate special features and provide a landing portal for the
-> entire organization.
->
+ **Step 1--Create a home site**: Create a SharePoint communication
+ site and [set it as a home site in the SharePoint admin
+ center](/sharepoint/home-site). Home
+ sites activate special features and provide a landing portal for the
+ entire organization.
+
 :::image type="content" source="../media/relecloud-homesite.png" alt-text="Screenshot of an imaginary organization RELECLOUD Sharepoint home site." :::
-> **Step 2--Customize global navigation:** [Enable global navigation
-> for the SharePoint application
-> bar](/viva/connections/sharepoint-app-bar).
-> Navigational links in global navigation get inherited by the Viva
-> Connections experience. Without enabling and customizing global
-> navigation, there will not be any links in the Resources tab in the
-> mobile app.
+ 
+ **Step 2--Customize global navigation:** [Enable global navigation
+ for the SharePoint application
+ bar](/viva/connections/sharepoint-app-bar).
+ Navigational links in global navigation get inherited by the Viva
+ Connections experience. Without enabling and customizing global
+ navigation, there will not be any links in the Resources tab in the
+ mobile app.
 
 :::image type="content" source="../media/setting-global-links.png" alt-text="Screenshot of customizing Relecloud global navigation links." :::
 
-> **Step 3--Audit and modernize sites and content**: Sites that have
-> not been modernized will open in a separate browser window instead of
-> in Microsoft Teams. [Consider modernizing sites and
-> pages](/sharepoint/dev/transform/modernize-classic-sites)
-> to keep viewing in Teams while using Viva Connections.
->
+ **Step 3--Audit and modernize sites and content**: Sites that have
+ not been modernized will open in a separate browser window instead of
+ in Microsoft Teams. [Consider modernizing sites and
+ pages](/sharepoint/dev/transform/modernize-classic-sites)
+ to keep viewing in Teams while using Viva Connections.
 
 :::image type="icon" source="../media/story-telling-logo-white-bg.png" :::
 

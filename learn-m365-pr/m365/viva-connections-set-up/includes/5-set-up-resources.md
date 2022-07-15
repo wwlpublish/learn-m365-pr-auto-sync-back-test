@@ -5,7 +5,7 @@ Viva Connections experience. On the mobile experience, Resources
 displays as its own tab. One the desktop and web experiences, Resources
 can be accessed by selecting your organization’s Viva Connections icon
 twice from the Teams app bar.
-:::image type="content" source="../media/global-links.png" alt-text="Screenshot of global links" :::
+:::image type="content" source="../media/global-links.png" alt-text="Screenshot of global links." :::
 
 Links in Resources should help address opportunities that are identified in the
 needs assessment from [module 2](/learn/modules/viva-connections-plan). These links often point to

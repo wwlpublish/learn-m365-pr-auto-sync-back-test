@@ -21,22 +21,9 @@ The plan process will involve:
 
 ### Plan for the Dashboard
 
-:::row:::
-   :::column span="":::
-      **Dashboard mobile experience**
-   :::column-end:::
-   :::column span="":::
-      **Dashboard web part for the desktop experience**
-   :::column-end:::
-:::row-end:::
-:::row:::
-   :::column span="":::
-      :::image type="content" source="../media/sample-dashboard-mobile.png" alt-text="Screenshot of a sample dashboard on a mobile device." :::  
-   :::column-end:::
-   :::column span="":::
-      :::image type="content" source="../media/sample-dashboard-webpart.png" alt-text="Screenshot of a sample dashboard web part on a desktop." :::
-   :::column-end:::
-:::row-end:::
+|**Dashboard mobile experience**|**Dashboard web part for the desktop experience**|
+|---|---|
+|:::image type="content" source="../media/sample-dashboard-mobile.png" alt-text="Screenshot of a sample dashboard on a mobile device." :::  |:::image type="content" source="../media/sample-dashboard-webpart.png" alt-text="Screenshot of a sample dashboard web part on a desktop." :::|
 
 Most of your time will be spent planning the Dashboard. Use insights
 from the needs assessment to determine which scenarios and tasks can be
@@ -120,28 +107,9 @@ dynamic information.
 
 **Here are examples of custom quick views:**
 
-:::row:::
-   :::column span="":::
-      **Scheduling time off**
-   :::column-end:::
-   :::column span="":::
-      **Keep track of inventory**
-   :::column-end:::
-   :::column span="":::
-      **Open enrollment for benefits**
-   :::column-end:::
-:::row-end:::
-:::row:::
-   :::column span="":::
-      :::image type="content" source="../media/customized-card.png" alt-text="Screenshot of customized time off card." :::
-   :::column-end:::
-   :::column span="":::
-      :::image type="content" source="../media/inventory-card.png" alt-text="Screenshot of customer inventory card." :::
-   :::column-end:::
-   :::column span="":::
-      :::image type="content" source="../media/open-enrollment-card.png" alt-text="Screenshot of customized benefit open enrollment card." :::
-   :::column-end:::
-:::row-end:::
+|**Scheduling time off**|**Keep track of inventory**|**Open enrollment for benefits**|
+|---|---|---|
+|:::image type="content" source="../media/customized-card.png" alt-text="Screenshot of customized time off card." :::|:::image type="content" source="../media/inventory-card.png" alt-text="Screenshot of customer inventory card." :::|:::image type="content" source="../media/open-enrollment-card.png" alt-text="Screenshot of customized benefit open enrollment card." :::|
 
 The Card designer option enables IT admins in your organization to
 create low-code customizations using JSON. Developers can take the steps
@@ -163,22 +131,9 @@ templates](https://github.com/pnp/AdaptiveCards-Templates).
 
 ## Plan for the Feed
 
-:::row:::
-   :::column span="":::
-      **The Feed mobile experience**
-   :::column-end:::
-   :::column span="2":::
-      **The Feed web part for the desktop experience**
-   :::column-end:::
-:::row-end:::
-:::row:::
-   :::column span="":::
-      :::image type="content" source="../media/feed-mobile.png" alt-text="Screenshot of the Viva Connections Feed on a cellphone." :::
-   :::column-end:::
-   :::column span="2":::
-      :::image type="content" source="../media/feed-web-part.png" alt-text="Screenshot of Viva Connections Feed as the desktop web part." :::
-   :::column-end:::
-:::row-end:::
+|**The Feed mobile experience**|**The Feed web part for the desktop experience**|
+|---|---|
+|:::image type="content" source="../media/feed-mobile.png" alt-text="Screenshot of the Viva Connections Feed on a cellphone." :::|:::image type="content" source="../media/feed-web-part.png" alt-text="Screenshot of Viva Connections Feed as the desktop web part." :::|
 
 The Feed aggregates SharePoint news posts, video news links, and
 conversation in Yammer into one central place. In the mobile app, the
@@ -258,22 +213,9 @@ that creates the ideal viewing experience.
 
 ## Plan for Resources
 
-:::row:::
-   :::column span="":::
-      **Resources mobile experience**
-   :::column-end:::
-   :::column span="2":::
-      **Resources desktop experience**
-   :::column-end:::
-:::row-end:::
-:::row:::
-   :::column span="":::
-      :::image type="content" source="../media/resources-mobile.png" alt-text="Screenshot of the Viva Connections Resources tab on a cellphone." :::
-   :::column-end:::
-   :::column span="2":::
-      :::image type="content" source="../media/resources-web-part.png" alt-text="A screenshot of Viva Connections Resources as the desktop web part and the global navigation links." :::
-   :::column-end:::
-:::row-end:::
+|**Resources mobile experience**|**Resources desktop experience**|
+|---|---|
+|:::image type="content" source="../media/resources-mobile.png" alt-text="Screenshot of the Viva Connections Resources tab on a cellphone." :::|:::image type="content" source="../media/resources-web-part.png" alt-text="A screenshot of Viva Connections Resources as the desktop web part and the global navigation links." :::|
 
 Resources are navigational links that get set up in [SharePoint global
 navigation](/viva/connections/sharepoint-app-bar).
@@ -286,8 +228,6 @@ from the Teams app bar.
 :::image type="icon" source="../media/story-telling-logo-white-bg.png"  :::
 
 ## Learn how Lamna Healthcare uses insights from the needs assessment
-
-:::image type="icon" source="../media/lamna-logo-white-bg-200.jpg"  :::
 
 After conducting the needs assessment, you set up a meeting for the Viva
 Connections planning team at Lamna Healthcare meet and review the

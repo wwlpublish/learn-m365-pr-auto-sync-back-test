@@ -33,6 +33,7 @@ to set a communication site as a home site.
 **Step 2: Customize global navigation in SharePoint (required)**
 
 :::image type="content" source="../media/enable-global-nav.png" alt-text="Screenshot of enabling global navigation of the sharepoint home site." :::
+
 Now that your home site is set up, you can [enable and customize global
 navigation](/viva/connections/sharepoint-app-bar).
 Global navigation gives users access to the news, sites, and documents

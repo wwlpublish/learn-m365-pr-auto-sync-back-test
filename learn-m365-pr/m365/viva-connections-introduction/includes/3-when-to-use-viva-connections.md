@@ -19,7 +19,7 @@ Viva Connections below.
 
 **Communicate and connect**
 
-:::image type="content" source="../media/endall.png" alt-text="Diagram showing profile of Kendall with head shot and job title.":::
+:::image type="content" source="../media/kendall.png" alt-text="Diagram showing profile of Kendall with head shot and job title.":::
 
 Kendall is a nurse at Lamna Healthcare Region C hospital ER and needs to stay
 updated on important workplace events, news, and team communication.
