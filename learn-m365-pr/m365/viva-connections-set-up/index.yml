@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.viva-connections-set-up
+metadata:
+  moduleType: standard
+  title: Set up Viva Connections
+  description: You'll learn how to prepare the environment for Viva Connections, build the Dashboard, prepare the content for the Feed, set up Resources, and configure audience targeting.
+  ms.date: 6/23/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365 
+title: Set up Viva Connections
+summary: Learn how to set up each component of Viva Connections - the Dashboard, the Feed, and Resources. First, you’ll learn about how to meet technical requirements. Then, get guidance on how to set up and personalize each component of the experience. Lastly, we'll cover pre-launch considerations. 
+abstract: |
+  By the end of this module, you'll be able to:
+    - Describe the main features of Viva Connections
+    - List technical requirements/prerequisites for Viva Connections implementation
+    - Explain the differences between desktop and mobile experiences 
+    -	Identify 2-3 business use cases for Viva Connections
+prerequisites: |
+  - Access to an instance of Viva Connections
+iconUrl: /learn/achievements/generic-badge.svg
+levels: 
+  - beginner
+roles: 
+  - administrator
+  - student
+products: 
+- viva
+- m365
+units:
+- learn-m365.viva-connections-set-up.introduction
+- learn-m365.viva-connections-set-up.requirements-and-pre-work
+- learn-m365.viva-connections-set-up.build-the-dashboard
+- learn-m365.viva-connections-set-up.prepare-content-for-the-feed
+- learn-m365.viva-connections-set-up.set-up-resources
+- learn-m365.viva-connections-set-up.review-audience-targeting-settings-before-launching
+- learn-m365.viva-connections-set-up.add-the-dashboard-and-feed-web-parts-to-the-home-site
+- learn-m365.viva-connections-set-up.summary
+badge:
+  uid: learn-m365.viva-connections-set-up.badge
