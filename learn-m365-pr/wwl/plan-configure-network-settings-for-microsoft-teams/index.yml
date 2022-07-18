@@ -3,9 +3,9 @@ uid: learn.wwl.plan-configure-network-settings-for-microsoft-teams
 metadata:
   title: Plan and configure network settings for Microsoft Teams
   description: "Plan and configure network settings for Microsoft Teams"
-  ms.date: 10/26/2021
+  ms.date: 07/18/2022
   author: wwlpublish
-  ms.author: tfrink
+  ms.author: jennyche
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Plan and configure network settings for Microsoft Teams
@@ -30,9 +30,9 @@ products:
 - m365
 - office-teams
 subjects:
-- networking
-- communication
 - collaboration
+- communication
+- networking
 units:
 - learn.wwl.plan-configure-network-settings-for-microsoft-teams.introduction
 - learn.wwl.plan-configure-network-settings-for-microsoft-teams.examine-network-requirements
@@ -42,6 +42,7 @@ units:
 - learn.wwl.plan-configure-network-settings-for-microsoft-teams.configure-reporting-labels
 - learn.wwl.plan-configure-network-settings-for-microsoft-teams.configure-tenant-data
 - learn.wwl.plan-configure-network-settings-for-microsoft-teams.assess-network-readiness-using-network-connectivity-test-tool
+- learn.wwl.plan-configure-network-settings-for-microsoft-teams.manage-network-topology
 - learn.wwl.plan-configure-network-settings-for-microsoft-teams.knowledge-check
 - learn.wwl.plan-configure-network-settings-for-microsoft-teams.summary
 badge:

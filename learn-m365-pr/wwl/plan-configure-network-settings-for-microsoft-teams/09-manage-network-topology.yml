@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-configure-network-settings-for-microsoft-teams.manage-network-topology
+title: Manage network topology
+metadata:
+  title: Manage network topology
+  description: "Manage network topology"
+  ms.date: 07/18/2022
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/09-manage-network-topology.md)]

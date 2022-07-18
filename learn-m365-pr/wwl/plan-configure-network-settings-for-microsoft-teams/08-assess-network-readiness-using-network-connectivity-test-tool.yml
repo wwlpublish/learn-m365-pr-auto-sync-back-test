@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.plan-configure-network-settings-for-microsoft-teams.assess-network-readiness-using-network-connectivity-test-tool
-title: Assess network readiness using Microsoft 365 network connectivity test tool
+title: Assess network readiness
 metadata:
-  title: Assess network readiness using Microsoft 365 network connectivity test tool
-  description: "Assess network readiness using Microsoft 365 network connectivity test tool"
-  ms.date: 10/26/2021
+  title: Assess network readiness
+  description: "Assess network readiness"
+  ms.date: 07/18/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial

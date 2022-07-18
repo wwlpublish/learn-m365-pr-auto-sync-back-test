@@ -1,6 +1,6 @@
 Call analytics shows call and meeting quality for individual users in Teams. Location-enhanced Call Analytics reports contain the location names instead of just an IP subnet, making the reports easier to understand and use for remediating any potential issues.
 
-The Reporting labels page in the Microsoft Teams admin center lets you provide a text file containing a list of physical locations and their associated network subnets. This file is used by **Call Analytics** for generating reports.
+Reporting labels are used in your organization to indicate the physical locations of offices, buildings, or organizational sites. The Reporting labels page in the Microsoft Teams admin center lets you provide a text file containing a list of physical locations and their associated network subnets. This file is used by **Call Analytics** for generating reports.
 
 ## Prepare data file
 
@@ -49,4 +49,4 @@ This following table is an example, which you can follow in order to create your
 
 Once the file is uploaded successfully, you can see the update in the locations summary pane.
 
-:::image type="content" source="../media/configure-reporting-labels.png" alt-text="Configuration of reporting labels" :::
+:::image type="content" source="../media/configure-reporting-labels.png" alt-text="Screenshot of Configuration of reporting labels" :::
