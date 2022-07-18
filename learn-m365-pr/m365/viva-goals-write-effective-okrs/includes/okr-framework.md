@@ -122,7 +122,7 @@ Next you can look to see if they line up with the OKR superpowers.
 
 - **Focus**: What OKRs can be eliminated?
 - **Alignment**: Who are the stakeholders you might have forgotten and who do you need to help you achieve these?
-- **Tracking**: Ask yourself will there be undeniable evidence whether we were successful
+- **Tracking**: Ask yourself, will there be undeniable evidence whether we were successful?
 - **Transparency**: Where are there unseen implications or bottlenecks?
 - **Stretch**: Are my OKRs propelling the business forward? Do they seem ambitious? 
 
