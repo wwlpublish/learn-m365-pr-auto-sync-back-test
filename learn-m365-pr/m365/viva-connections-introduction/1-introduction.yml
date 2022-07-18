@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-introduction.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: Introduction
+  description: Introduction to Viva Connections, its main features and components.
+  ms.date: 6/23/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction.md)]
