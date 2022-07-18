@@ -15,7 +15,7 @@ Policy settings are implemented in the following methods:
 
 	For example, **Automatically admit people** is a per-organizer policy and controls whether users join the meeting directly or wait in the lobby for meetings scheduled by the user who is assigned the policy.
 
-2. **Per user** - Per-user policies apply the restriction to the organizer and meeting participants.
+2. **Per user** - Per-user policies apply the restriction to certain features for the organizer and meeting participants.
 
 	For example, **PowerPoint Live** is a per-user policy. At Contoso, Linda has the policy setting enabled, while Debbie has the policy setting disabled. 
 
@@ -23,7 +23,7 @@ Policy settings are implemented in the following methods:
 	* Debbie can't share PowerPoint slide decks in meetings even if she's the meeting organizer. Debbie can view the PowerPoint slide decks shared by others in the meeting, even though she can't share PowerPoint slide decks.
 
 
-3. **Per organizer and per user** - Certain features are restricted for meeting participants based on their policy AND the organizer's policy.
+3. **Per organizer and per user** - Certain features are restricted for meeting participants based on their policy and the organizer's policy.
 
 	For example, **Cloud recording** is a per-organizer and per-user policy. At Contoso, Linda has the policy setting enabled, while Debbie has the policy setting disabled. 
 	
@@ -33,7 +33,7 @@ Policy settings are implemented in the following methods:
 
 	The following table shows the different conditions of meeting policy precedence for per-organizer and per-user meeting policies:
 	
-	:::image type="content" source="../media/meeting-policy-precedence.png" alt-text="Meeting policy precedence":::
+	:::image type="content" source="../media/meeting-policy-precedence.png" alt-text="Screenshot of Meeting policy precedence.":::
 
 
 
@@ -47,12 +47,12 @@ To create a new meeting policy, complete the following steps:
 
 1. Sign into the Microsoft Teams admin center.
 2. Select **Meetings** > **Meeting policies**.
-3. On the **Meeting policies** page, select **Add** to create a new meeting policy.
+3. On the **Meeting policies** page, select **+ Add** to create a new meeting policy.
 4. Give your policy a unique title and enter a brief description.
 5. Specify the settings based on business needs.
 6. Select **Save**.
 
-	:::image type="content" source="../media/new-meeting-policy.png" alt-text="New meeting policy":::
+	:::image type="content" source="../media/new-meeting-policy.png" alt-text="Screenshot of New meeting policy.":::
 
 You can then assign the policy directly to users. It can be assigned to individual users, or to a large number of users through a batch assignment, or to a group that contains one or more users.
 
@@ -85,13 +85,13 @@ Policies can be configured for the following categories:
 
 **General** meeting policy settings provide more generalized settings that control meeting scheduling. 
 
-:::image type="content" source="../media/meeting-policy-general.png" alt-text="General settings in meeting policy":::
+:::image type="content" source="../media/meeting-policy-general.png" alt-text="Screenshot of General settings in meeting policy.":::
 
 | Policy setting                       | Type     | When it applies  | What it does   | 
 |------|----------|------|------|
-| Meet now in channels           | Per-user | Before a meeting | Controls whether a user can start an unplanned meeting in a Teams channel. Allows users to post a message and select **Meet** under the compose box to start an unplanned meeting.   <br/><br/> :::image type="content" source="../media/allow-meet-now-option.png" alt-text="Screenshot showing the Meet now icon in the channel message":::   |
+| Meet now in channels           | Per-user | Before a meeting | Controls whether a user can start an unplanned meeting in a Teams channel. Allows users to post a message and select **Meet** under the compose box to start an unplanned meeting.   <br/><br/> :::image type="content" source="../media/allow-meet-now-option.png" alt-text="Screenshot of showing the Meet now icon in the channel message.":::   |
 | Outlook add-in             | Per-user | Before a meeting | Controls whether Teams meetings can be scheduled from within Outlook (Windows, Mac, web, and mobile). When disabled, users can't schedule Teams meetings in Outlook. In Outlook on Windows, the **New Teams Meeting** isn't visible.                                           | 
-| Channel meeting scheduling     | Per-user | Before a meeting | Controls whether users can schedule a meeting in a Teams channel. When disabled, the **Schedule a meeting** option isn't displayed, and the **Add channel** option is disabled.             <br/><br/> :::image type="content" source="../media/select-channel-to-meet.png" alt-text="Screenshot showing the Select a channel to meet in option":::                                                                                   | 
+| Channel meeting scheduling     | Per-user | Before a meeting | Controls whether users can schedule a meeting in a Teams channel. When disabled, the **Schedule a meeting** option isn't displayed, and the **Add channel** option is disabled.             <br/><br/> :::image type="content" source="../media/select-channel-to-meet.png" alt-text="Screenshot of showing the Select a channel to meet in option.":::                                                                                   | 
 | Private meeting scheduling | Per-user | Before a meeting | Allows users to schedule private meetings in Teams. A meeting is private when it's not published to a channel in a team. When both this option and **Allow channel meeting scheduling** are disabled, the **Add required attendees** and **Add channel** options are disabled. |
 |Engagement report|Per-user|After a meeting| Controls whether meeting organizers can download the meeting attendance report. <br/><br/> Use the ```AllowEngagementReport``` parameter to configure the value to **True** or **False**.|
 |Webinar registration| Per-user| Before a meeting| Controls whether users in your organization can set up webinars. <br/><br/> Use the ```AllowMeetingRegistration``` parameter to configure the value to **True** or **False**.|
@@ -102,7 +102,7 @@ Policies can be configured for the following categories:
 
 **Audio and video** policy settings enable an organization to control whether audio or video can be turned on in meetings and group calls, the bandwidth they consume, and so on.
 
-:::image type="content" source="../media/meeting-policy-audio.png" alt-text="Audio and video settings in meeting policy":::
+:::image type="content" source="../media/meeting-policy-audio.png" alt-text="Screenshot of Audio and video settings in meeting policy.":::
 
 
 | Policy setting   | Type  | When it applies  | What it does    |
@@ -120,20 +120,20 @@ Conversely, assume the meeting organizer's policy doesn't restrict video, but se
 
 For IP video policy setting, the most restrictive policy setting for video takes precedence.
 
-:::image type="content" source="../media/video-meeting-policy-precedence.png" alt-text="Video meeting policy precedence":::
+:::image type="content" source="../media/video-meeting-policy-precedence.png" alt-text="Screenshot of Video meeting policy precedence.":::
 
 ### Recording and transcription
 
 **Recording and transcription** policy settings enable an organization to control whether meetings can be recorded or transcribed, the bandwidth they consume, and so on.
 
-:::image type="content" source="../media/meeting-policy-record.png" alt-text="Recording and transcription settings in meeting policy":::
+:::image type="content" source="../media/meeting-policy-record.png" alt-text="Screenshot of recording and transcription settings in meeting policy.":::
 
 
 | Policy setting        | Type                       | When it applies  | What it does                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------|------------------|---------------------------------|
 | Transcription   | Per-organizer and per-user | After a meeting  | Controls whether captions and transcription features are available during playback of meeting recordings. When disabled, the Search and CC options won't be available during playback of a meeting recording. When enabled, only English is supported.            |
-| Cloud recording | Per-organizer and per-user | During a meeting | Controls whether this user's meetings can be recorded. When enabled, the recording is started by the meeting organizer or by another meeting participant, providing the policy setting is enabled for the participant, and if they're from the same organization. <br/><br/>:::image type="content" source="../media/allow-cloud-recording.png" alt-text="Screenshot showing recording options":::| 
-|Meetings automatically expire|- |After a meeting|Controls whether Teams meeting recordings (TMRs) automatically expire. If it's enabled, admins can specify the **Default expiration time**. <br/><br/>The expiration date is calculated as the day it's created plus the default number of days set in the Teams policy by the admin. Any changes will only effect newly created TMRs from that point forward.|
+| Cloud recording | Per-organizer and per-user | During a meeting | Controls whether this user's meetings can be recorded. When enabled, the recording is started by the meeting organizer or by another meeting participant, providing the policy setting is enabled for the participant, and if they're from the same organization. <br/><br/>:::image type="content" source="../media/allow-cloud-recording.png" alt-text="Screenshot of showing recording options.":::| 
+|Meetings automatically expire|- |After a meeting|Controls whether Teams meeting recordings (TMRs) automatically expire. If it's enabled, admins can specify the **Default expiration time**. <br/><br/>The expiration date is calculated as the day it's created plus the default number of days set in the Teams policy by the admin. Any changes will only affect newly created TMRs from that point forward.|
 |Store recordings outside of your country or region|- |After a meeting|Controls whether meeting records can be permanently stored in another country or region. If it's enabled, the recordings can't be migrated. |
 
 
@@ -141,13 +141,13 @@ For IP video policy setting, the most restrictive policy setting for video takes
 
 **Content sharing** policy settings can prevent things like screen sharing and control requests.
 
-:::image type="content" source="../media/meeting-policy-content.png" alt-text="Content sharing settings in meeting policy":::
+:::image type="content" source="../media/meeting-policy-content.png" alt-text="Screenshot of Content sharing settings in meeting policy.":::
 
 
 | Policy setting  | Type   | When it applies  | What it does        | 
 |------------|-----|----|--------|
 | Screen sharing mode                                      | Per-organizer and per-user | During a meeting | Controls whether desktop and window sharing are allowed in the user's meeting. Participants who don't have policies assigned inherit from the meeting organizer. Options are **Entire screen**, **Single application**, or **Disabled**. |
-| Participant can give or request control           | Per-user                   | During a meeting | Controls whether the user can give control of the shared desktop or window to other meeting participants.            <br/><br/>:::image type="content" source="../media/give-control.png" alt-text="Screenshot showing the Give Control option":::    | 
+| Participant can give or request control           | Per-user                   | During a meeting | Controls whether the user can give control of the shared desktop or window to other meeting participants.            <br/><br/>:::image type="content" source="../media/give-control.png" alt-text="Screenshot of showing the Give Control option.":::    | 
 | External participant can give or request control | Per-user                   | During a meeting | Controls whether external participants can be given control or request control of the sharer's screen, depending on what the sharer has set within their organization's meeting policies.                                                | 
 | PowerPoint Live                                 | Per-user                   | During a meeting | Controls whether the user can share PowerPoint slide decks in a meeting. External users inherit the policy of the meeting organizer.                                                                                                     | 
 | Whiteboard                                         | Per-user                   | During a meeting | Controls whether a user can share the whiteboard in a meeting. External users inherit the policy of the meeting organizer.                                                                                                               |
@@ -161,7 +161,7 @@ For IP video policy setting, the most restrictive policy setting for video takes
 
 **Participants and guests** settings determine who can take part in a meeting and how they join.
 
-:::image type="content" source="../media/meeting-policy-guest.png" alt-text="Participants and guests settings in meeting policy":::
+:::image type="content" source="../media/meeting-policy-guest.png" alt-text="Screenshot of Participants and guests settings in meeting policy.":::
 
 
 | Policy setting                          | Type          | When it applies  | What it does                                                                                                                                                              | 
@@ -174,11 +174,6 @@ For IP video policy setting, the most restrictive policy setting for video takes
 | Meet now in private meetings      | Per-user      | Before a meeting | Controls whether a user can start an unplanned private meeting.                                                                                                              |
 | Live captions                    | Per-user      | During a meeting | Controls whether the **Turn on live captions** option is available in meetings that the user attends. Options are **Disabled** or **Disabled but the user can override**. | 
 | Chat in meetings                  | Per-organizer | During a meeting | Controls whether meeting chat is allowed in the user's meeting.   |               
-| Meeting reactions               | Per-organizer | During a meeting | Controls whether meeting reactions is allowed in the user's meeting.   |                  
+|Question & answer experience |	Per organizer	|During a meeting	|When enabled allows organizer to turn on question & answer experience for their meetings |
+| Meeting reactions               | Per-organizer | During a meeting | Controls whether meeting reactions is allowed in the user's meeting.   |       
 
-
-
-
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”
