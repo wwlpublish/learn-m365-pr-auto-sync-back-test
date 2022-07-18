@@ -27,12 +27,12 @@ The following table identifies the per-user information that's available for eac
 Complete the following steps to view the call analytics for a user:
 
 1. Sign into Microsoft Teams admin center.
-2. From the left-hand navigation pane, select **Users**, and then select a user.
+2. From the left-hand navigation pane, select **Users** > **Manage Users**, and then select a user.
 3. On the **User** page, select **Meetings & calls**.
 
     Call analytics displays all calls and meetings for that user for the past 30 days.
 
-    ‎‎:::image type="content" source="../media/user-call-history.png" alt-text="User Call history" lightbox="../media/user-call-history.png":::  
+    ‎‎:::image type="content" source="../media/user-call-history.png" alt-text="Screenshot of User Call history." lightbox="../media/user-call-history.png":::  
 ‎
 By selecting a session, you can view other information about a given session, including detailed media and networking statistics.
 
@@ -46,15 +46,15 @@ Complete the following steps to view the call analytics for a call:
 
 2. In the **Overall call analytics** page, you can select different phrases for more detailed information.
 
-    ‎:::image type="content" source="../media/call-analytics-overview-tab.png" alt-text="Overview tab":::
+    ‎:::image type="content" source="../media/call-analytics-overview-tab.png" alt-text="Screenshot of Overview tab.":::
 
 3. Select the **Advanced** or **Debug** tabs, and then look for yellow and red items that indicate poor call quality or connection problems.  
 
     * **Advanced tab**
-    ‎:::image type="content" source="../media/call-analytics-advanced-tab.png" alt-text="Advanced tab":::
+    ‎:::image type="content" source="../media/call-analytics-advanced-tab.png" alt-text="Screenshot of Advanced tab.":::
 
     * **Debug tab**
-    :::image type="content" source="../media/call-analytics-debug-tab.png" alt-text="Debug tab":::
+    :::image type="content" source="../media/call-analytics-debug-tab.png" alt-text="Screenshot of Debug tab.":::
 
 ### Call analytics for meetings
 
@@ -64,7 +64,7 @@ Complete the following steps to view the call analytics for a meeting:
 
 2. Select the **Timeline** or **Participant details** tabs for more information about the meeting.
 
-    ‎‎:::image type="content" source="../media/call-analytics-meetings.png" alt-text="Screenshot of the Meetings and Calls page that displays the Timeline tab":::
+    ‎‎:::image type="content" source="../media/call-analytics-meetings.png" alt-text="Screenshot of the Meetings and Calls page that displays the Timeline tab.":::
 
 Rarely is quality of experience data not received for audio sessions. When this situation does occur, it's usually the result of the call dropping and connection with the client ending. When this situation occurs, the session rating is **unavailable**.
 
@@ -73,9 +73,6 @@ For audio sessions that do have quality of experience (QoE) data, the following 
 | Issue                              | Area    | Description                                                                                                                                                            |
 |------------------------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Call setup                         | Session | The error code Ms-diag 20-29 indicates the call setup failed. The user couldn't join the call or meeting.                                                             |
-| Audio network classified poor call | Session | Network quality issues (such as packet loss, jitter, NMOS degradation, RTT, or concealed ratio) occurred.                                                      |
+| Audio network classified poor call | Session | Network quality issues (such as packet loss, jitter, NMOS degradation, RTT, or concealed ratio) were encountered.                                                 |
 | Device not functioning             | Device  | A device isn't functioning correctly. Device not functioning ratios are: <br/> - DeviceRenderNotFunctioningEventRatio \>= 0.005 <br/> - DeviceCaptureNotFunctioningEventRatio \>= 0.005     |
 
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”
