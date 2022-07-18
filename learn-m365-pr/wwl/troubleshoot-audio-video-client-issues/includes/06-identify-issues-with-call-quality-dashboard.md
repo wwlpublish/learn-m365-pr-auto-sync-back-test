@@ -1,8 +1,11 @@
 Microsoft Teams Call Quality Dashboard (CQD) provides a summary view of an organization's calls and meetings on a monthly, daily, or hourly basis. It enables an organization to investigate problems based on quality, failure, and in-product user feedback. 
 
-CQD is designed to help Microsoft Teams administrators and network engineers monitor call and meeting quality at an organization-wide level. The near real-time data enables Teams admins to quickly resolve troubleshooting efforts by drilling down to find where issues originated, and who was affected.
+CQD is designed to help Microsoft Teams administrators, Skype for Business admins, and network engineers monitor call and meeting quality at an organization-wide level. The near real-time data enables Teams admins to quickly resolve troubleshooting efforts by drilling down to find where issues originated, and who was affected.
 
 Suppose a user's poor call quality is because of a network issue that also affects other users. The individual call experience isn't visible in CQD, but the overall quality of calls made using Microsoft Teams is captured.
+
+> [!NOTE]
+> Wherever CQD includes end-user identifiable information (EUII) data, it's managed in the same way as EUII throughout Microsoft 365.
 
 ## Permissions to access Call Quality Dashboard  
 
@@ -24,15 +27,15 @@ Users with the following roles can access the Call Quality Dashboard:
 CQD data can be accessed using several different methods, including:
 
 * Teams admin center
-* CQD portal (Teams admin center > Call Quality Dashboard)
+* CQD portal (Teams admin center >Analytics & Reports > Call Quality Dashboard)
 * Graph API
 * Power BI
 
 When you first sign into the CQD Portal, you'll see the summary reports. These show daily and monthly call quality trends. Call quality is classified as good, poor, or unclassified.
 
-In the Product Filter, select **Microsoft Teams**. Using the tabs, select **Overall Call Quality**, **Server-Client**, **Client-Client**, or **Voice Quality SLA**.
+In the Product Filter, select **All**, **Microsoft Teams**, or **Skype for Business**. Using the tabs, select **Overall Call Quality**, **Server-Client**, **Client-Client**, or **Voice Quality SLA**.
 
-### **Summary reports**
+### Summary reports
 
 These reports are displayed on the CQD Dashboard when you first sign in to CQD. They provide an at-a-glance look at quality trends with daily, monthly, and table reports to assist with identifying subnets that have poor quality.
 
@@ -43,7 +46,16 @@ These reports are displayed on the CQD Dashboard when you first sign in to CQD. 
 |Client—Client     |Details of the streams between two client endpoints.        |
 |Voice Quality SLA     |Info about calls included in the Skype for Business voice quality SLA.        |
 
-‎:::image type="content" source="../media/call-quality-dashboard-summary-report.png" alt-text="Quality Dashboard":::
+‎:::image type="content" source="../media/call-quality-dashboard-summary-report.png" alt-text="Screenshot of Quality Dashboard.":::
+
+#### Tenant Data information
+
+The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting Tenant Data Upload from the settings menu in the top-right corner. This page is used for admins to upload their own information, such as:
+
+* A map of IP address and geographical information.
+* A map of each wireless AP and its MAC address.
+* A map of Endpoint to Endpoint Make/Model/Type, etc. 
+
 
 ### Detailed reports
 
@@ -53,7 +65,7 @@ Use the menu at the top to select other reports. For each type of report, you ca
 |---------|---------|
 |Location-Enhanced Reports     |Shows quality trends based on location information. This report appears only if you've uploaded your tenant data.        |
 |Reliability Reports     |Includes audio, video, video-based screen sharing (VBSS), and app sharing reports.        |
-|Quality of Experience Reports     |Audio quality and reliability for all clients and devices, including meeting rooms. These reports are a “slimmed-down” version of the downloadable [CQD templates](https://docs.microsoft.com/microsoftteams/cqd-data-and-reports#import-the-cqd-report-templates?azure-portal=true), focusing on key areas for analyzing audio quality and reliability.         |
+|Quality of Experience Reports     |Audio quality and reliability for all clients and devices, including meeting rooms. These reports are a “slimmed-down” version of the downloadable [CQD templates](/microsoftteams/cqd-data-and-reports#import-the-cqd-report-templates?azure-portal=true), focusing on key areas for analyzing audio quality and reliability.         |
 |Quality Drill Down Reports     | Drill downs: Date by region, locations, subnets, hour, and users.        |
 |Failure Drill Down Reports     | Drill downs: Date by region, locations, subnets, hour, and users.        |
 |Rate My Call Reports     |Analyze user call ratings by region, location, or by user. Includes verbatim feedback.         |
@@ -61,4 +73,4 @@ Use the menu at the top to select other reports. For each type of report, you ca
 |Client Version Reports     |Client Version Summary: View the Sessions and Users counts for each client app version<br><br>Client Version by User: View user names for each client app version <br><br>Pre-built filters for Product and Client Type help focus the versions to specific clients.         |
 |Endpoint Reports     |Shows call quality by machine endpoints (computer make and model).
 
-‎:::image type="content" source="../media/call-quality-reports.png" alt-text="Reports in CQD ":::
+‎:::image type="content" source="../media/call-quality-reports.png" alt-text="Screenshot of Reports in CQD .":::
