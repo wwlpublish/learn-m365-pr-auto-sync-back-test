@@ -1146,11 +1146,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "learn-m365-pr/wwl/describe-compliance-management-capabilities-microsoft-365/index.md",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-compliance-management-capabilities-microsoft/",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "learn-m365-pr/wwl/describe-compliance-management-capabilities-microsoft-365/3-explore-compliance-center.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/describe-compliance-management-capabilities-microsoft/",
       "redirect_document_id": false
@@ -1162,11 +1157,6 @@
     },
     {
       "source_path": "learn-m365-pr/wwl/describe-compliance-management-capabilities-microsoft-365/4-get-know-compliance-score.md",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-compliance-management-capabilities-microsoft/",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "learn-m365-pr/wwl/describe-compliance-management-capabilities-microsoft-365/1-introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/describe-compliance-management-capabilities-microsoft/",
       "redirect_document_id": false
     },
