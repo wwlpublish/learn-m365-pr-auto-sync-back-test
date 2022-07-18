@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-launch-and-monitor.use-metrics-to-evaluate
+title: Use metrics to evaluate 
+metadata:
+  unitType: learning-content
+  title: Use metrics to evaluate
+  description: Learn how to use Microsoft 365 analytics and other metrics to monitor and evaluate the adoption of Viva Connections for future improvement.
+  ms.date: 6/23/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 8
+content: |
+  [!include[](includes/5-use-metrics-to-evaluate.md)]
