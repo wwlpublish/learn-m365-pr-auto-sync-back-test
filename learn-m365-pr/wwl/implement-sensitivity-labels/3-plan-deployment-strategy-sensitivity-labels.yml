@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-sensitivity-labels.plan-deployment-strategy-sensitivity-labels
+title: Plan your deployment strategy for sensitivity labels
+metadata:
+  title: Plan your deployment strategy for sensitivity labels
+  description: "Plan your deployment strategy for sensitivity labels"
+  ms.date: 06/20/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/3-plan-deployment-strategy-sensitivity-labels.md)]

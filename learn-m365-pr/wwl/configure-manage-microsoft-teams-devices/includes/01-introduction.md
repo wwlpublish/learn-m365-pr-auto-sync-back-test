@@ -8,9 +8,12 @@ In this module, you’ll learn how to standardize Teams Rooms deployments to sim
 
 After completing this module, you'll be able to:
 
-- Standardize a Teams Rooms deployment
-- Consider the right criteria when analyzing various meeting spaces
-- Create the resource account used by Teams Rooms
-- Manage device settings and firmware
-- Manage configuration profiles
-- Manage Teams device tags
+* Standardize a Teams Rooms deployment
+* Consider the right criteria when analyzing various meeting spaces
+* Create the resource account used by Teams Rooms
+* Manage device settings and firmware
+* Manage devices with Microsoft Teams Rooms managed service Manage configuration profiles
+* Manage Teams device tags
+* Troubleshoot Teams Rooms
+
+

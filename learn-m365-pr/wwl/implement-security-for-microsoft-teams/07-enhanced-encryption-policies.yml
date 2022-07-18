@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-security-for-microsoft-teams.enhanced-encryption-policies
+title: Plan and configure enhanced encryption policies
+metadata:
+  title: Plan and configure enhanced encryption policies
+  description: "Plan and configure enhanced encryption policies"
+  ms.date: 07/13/2022
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/07-enhanced-encryption-policies.md)]

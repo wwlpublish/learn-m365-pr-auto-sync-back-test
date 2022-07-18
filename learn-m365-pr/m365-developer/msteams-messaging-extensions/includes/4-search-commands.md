@@ -10,7 +10,7 @@ Search commands allow your users to search an external system for information (*
 
 In the most basic search command flow, the initial invoke message will include the search string the user submitted. You'll respond with a list of cards and card previews. The Microsoft Teams client will render the card previews in a list for the end user to select from. When the user selects a card, the full-size card will be inserted into the compose message area.
 
-![Screenshot of a search command](../media/04-search-command.png)
+![Screenshot of a search command.](../media/04-search-command.png)
 
 ## Developing search commands
 
@@ -102,9 +102,9 @@ The `attachmentLayout` property can be either a `list` of results containing thu
 
 The `attachments` property is used when `type` is set to `result` and contains an array of supported cards.
 
-If `type` is set to `message`, an additional property `text` can be used to set the plain text message displayed.
+If `type` is set to `message`, an extra property `text` can be used to set the plain text message displayed.
 
-When `type` is set to `auth` or `config`, use the `suggestedActions` property to suggest additional actions to do.
+When `type` is set to `auth` or `config`, use the `suggestedActions` property to suggest extra actions to do.
 
 ## Summary
 

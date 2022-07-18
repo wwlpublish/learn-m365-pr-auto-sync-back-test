@@ -11,11 +11,11 @@ Using this feature, a given team's members update automatically based on a speci
 > [!NOTE]
 > Using dynamic groups requires Azure AD Premium P1 licenses for any users in scope. 
  
-It may take anywhere from a few minutes to up to hours to reflect dynamic membership changes once they take effect in the Microsoft 365 Group for a team. For dynamic group membership in teams, you must consider the following:  
-‎
-- Rules can define who is a team member of a team, but not who is a team owner.
-- Owners won't be able to add or remove users as members of the team, since members are defined by dynamic group rules.  
-- Members won't be able to leave teams backed by dynamic groups.
+It may take anywhere from a few minutes to up to 2 hours to reflect dynamic membership changes once they take effect in the Microsoft 365 Group for a team. For dynamic group membership in teams, you must consider the following:
+
+- Rules can define who is a team member of a team, but not who is a team owner. 
+- Owners won’t be able to add or remove users as members of the team, since members are defined by dynamic group rules.
+- Members won’t be able to leave teams backed by dynamic groups.
 
 ## Enable dynamic membership
 
@@ -23,30 +23,37 @@ To enable dynamic membership in a Team, you must modify the underlying Microsoft
 
 There currently isn't a way to create a team with dynamic membership directly. You can either create a team then change the membership rule of the associated Microsoft 365 group or create a Microsoft 365 group with dynamic user membership type then create a team from the existing Microsoft 365 Group. 
 
-> [!WARNING]
+> [!warning]
 > When changing an existing static group to a dynamic group, all existing members are removed from the group, and then the membership rule is processed to add new members. If the group is used to control access to apps or resources, be aware that the original members might lose access until the membership rule is fully processed. You should test the new membership rule beforehand to make sure that the membership in the group is as expected.
  
-## Azure AD Portal
+### Use Azure AD Portal
 
 Do the following steps to change the group membership of an existing team to a rule based dynamic membership.
 
-1. Sign into the Azure AD admin center with an account that is a global administrator or a user administrator in your tenant.
-2. Select the search bar from the top of the page, type **Azure Active Directory** and select it.
-3. In the left-pane menu, select **Groups**.
-4. From the **All groups** list, open the group that you want to change.
-5. Select **Properties**.
-6. On the Properties page for your selected group, select a Membership type of Dynamic User.
-:::image type="content" source="../media/membership-type.png" alt-text="Membership type in AAD":::
 
-7. Select **Add dynamic query**, and then provide the rule.
-:::image type="content" source="../media/add-dynamic-query.png" alt-text="Adding dynamic query in AAD":::
+1.  Sign into the Azure AD admin center with an account that is a global administrator, user administrator or groups administrator in your Azure AD organization.
 
-8. After creating the rule, select **Add query** at the lower end of the page.
-9. Select **Save** on the **Properties** page for the group to save your changes. The **Membership type** of the group is immediately updated in the group list.
+2.  In the left-pane menu, select **Groups**.
 
- 
+3.  From the **All groups** list, open the group that you want to change.
 
-## PowerShell
+
+
+4.  Select **Properties**. On the Properties page for your selected group, select a Membership type of Dynamic User.
+
+    :::image type="content" source="../media/membership-type.png" alt-text="Screenshot of Membership type in AAD":::
+
+5.  Select **Add dynamic query**, and then provide the rule.
+
+    :::image type="content" source="../media/add-dynamic-query.png" alt-text="Screenshot of Adding dynamic query in AAD":::
+
+6.  After creating the rule, click save to go back to **Properties** page.
+
+7.  Select **Save** on the **Properties** page for the group to save your changes. The **Membership type** of the group is immediately updated in the group list.
+
+
+
+### Use PowerShell
 
 To change the membership type of a group using PowerShell, you can use the AzureAD PowerShell module.
 
@@ -134,6 +141,3 @@ When specifying a value within an expression, it's important to use the correct 
 
 For more information, see [Dynamic membership rules for groups in Azure Active Directory](/azure/active-directory/users-groups-roles/groups-dynamic-membership?azure-portal=true). 
 
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”

@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-purview-audit-standard.explore-microsoft-purview-audit-solutions
+title: Explore Microsoft Purview Audit solutions
+metadata:
+  title: Explore Microsoft Purview Audit solutions
+  description: "Explore Microsoft Purview Audit solutions"
+  ms.date: 07/12/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-explore-microsoft-purview-audit-solutions.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "In Microsoft Purview Audit (Standard), how long are records retained for in the audit log?"
+    choices:
+    - content: "60 days"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the retention period for audit records in Microsoft Purview Audit (Standard)."
+    - content: "90 days"
+      isCorrect: true
+      explanation: "Correct. When an audited activity is performed by a user or admin, an audit record is generated and stored in the audit log for the organization. In Microsoft Purview Audit (Standard), records are retained for 90 days. As such, organizations can search for activities that occurred within the past three months."
+    - content: "120 days"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the retention period for audit records in Microsoft Purview Audit (Standard)."

@@ -1,7 +1,9 @@
 Start the classification journey with your most critical and sensitive data and work your way to the least sensitive data.
 
 > [!div class="centered"]
-> :::image type="content" source="../media/classify-data.png" alt-text="Diagram shows Classify data from the least to the most sensitive.":::
+> :::image type="complex" source="../media/classify-data.png" alt-text="Infographic shows the steps taken by I T admins to set policies, templates, and rules to determine how to classify data." border="true":::
+>	The journey starts with the data that is most sensitive. IT can set automatic rules and users can complement those rules and associate actions, such as visual markings and protection. Ultimately data is classified as one of the following: personal, confidential, restricted, internal, or public.
+> :::image-end:::
 
 If you're unsure of your organization's data classification policies, contact your legal department. Usually they know the data classifications, visual markings, and rules for copying and sharing.
 

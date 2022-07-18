@@ -22,7 +22,7 @@ You can distribute your registered Connector as part of your Teams app package. 
 
 Start by registering your connector using the [Connectors Developer Dashboard](https://outlook.office.com/connectors/home/login/#/publish).
 
-![Screenshot of registered Connector in the Connectors Developer Dashboard](../media/07-connector-dashboard-02.png)
+![Screenshot of registered Connector in the Connectors Developer Dashboard.](../media/07-connector-dashboard-02.png)
 
 ### Create the configuration experience
 

@@ -27,4 +27,4 @@ The image below shows the Audit solution in the Microsoft Purview compliance por
 ## Learn more
 
 - [Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off?azure-portal=true)
-- [Permission requirements for retention policy creation and modification](/microsoft-365/compliance/audit-log-retention-policies%23before-you-begin?azure-portal=true)
+- [Permission requirements for retention policy creation and modification](/microsoft-365/compliance/audit-log-retention-policies?view=o365-worldwide#before-you-create-an-audit-log-retention-policy)

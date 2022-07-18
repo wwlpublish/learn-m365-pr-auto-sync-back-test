@@ -12,7 +12,7 @@ An Adaptive Card is represented as a JSON object. The JSON string defines all th
 
 This JSON can be authored in any text editor. The Microsoft Teams app, App Studio, can be used to author Adaptive Cards starting with a template and preview the rendering of the card.
 
-![Screenshot of the YouTube Video Selector card](../media/05-app-studio-04.png)
+![Screenshot of the YouTube Video Selector card.](../media/05-app-studio-04.png)
 
 The following JSON represents an Adaptive Card that contains an input box and single submit button:
 
@@ -62,7 +62,7 @@ The following JSON represents an Adaptive Card that contains an input box and si
 
 In a previous unit, you learned how to use HTML and JavaScript, or React, to implement a task module. You can also use Adaptive Cards to implement the task module interface.
 
-![Screenshot of the Adaptive Card rendered in a task module](../media/05-test-01.png)
+![Screenshot of the Adaptive Card rendered in a task module.](../media/05-test-01.png)
 
 Using Adaptive Cards in task modules follows almost all the same rules as a HTML-based task module.
 
@@ -87,7 +87,7 @@ https://teams.microsoft.com/l/task/<APP_ID>?url=<TASKINFO.URL>&height=<TASKINFO.
 Let's look at each of these values:
 
 - `<APP_ID>`: This is the ID of the custom Microsoft Teams app. The app ID, a GUID, can be found in the app's **manifest.json** file.
-- `<TASKINFO.*>`: The additional properties in the query string of the URL map to specific properties on the `taskInfo` object covered in a previous unit.
+- `<TASKINFO.*>`: The extra properties in the query string of the URL map to specific properties on the `taskInfo` object covered in a previous unit.
 
 The deep link can be used from anywhere, including the conversations within Microsoft Teams channels or in external applications.
 

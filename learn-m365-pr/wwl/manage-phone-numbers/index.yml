@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn.wwl.manage-phone-numbers
 metadata:
-  title: Manage phone numbers
+  title: Manage phone numbers and settings
   description: "Learn about the calling solutions in Microsoft Teams and how to get and manage phone numbers with Calling Plans. You will also learn to manage voice settings for users."
-  ms.date: 11/18/2021
+  ms.date: 07/14/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Manage phone numbers
+title: Manage phone numbers and settings
 summary: Learn about the calling solutions in Microsoft Teams and how to get and manage phone numbers with Calling Plans. You will also learn to manage voice settings for users.
 abstract: |
   By the end of this module, you will be able to:

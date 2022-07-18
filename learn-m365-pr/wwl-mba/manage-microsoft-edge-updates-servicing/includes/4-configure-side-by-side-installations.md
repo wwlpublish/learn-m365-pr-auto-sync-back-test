@@ -47,5 +47,5 @@ Setting this policy will set the following Registry Key to '00000001':
 
 For more information, see:
 
-- [Access Microsoft Edge Legacy after installing the new version of Microsoft Edge](https://docs.microsoft.com/deployedge/microsoft-edge-sysupdate-access-old-edge)
-- [Microsoft Edge - Update policies - Allowsxs](https://docs.microsoft.com/deployedge/microsoft-edge-update-policies#allowsxs)
+- [Access Microsoft Edge Legacy after installing the new version of Microsoft Edge](/learn/modules/manage-microsoft-edge-updates-servicing/)
+- [Microsoft Edge - Update policies - Allowsxs](/deployedge/microsoft-edge-update-policies#allowsxs)

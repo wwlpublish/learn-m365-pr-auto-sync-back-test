@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-manage-microsoft-teams-devices.device-tags
+title: Manage Microsoft Teams device tags
+metadata:
+  title: Manage Microsoft Teams device tags
+  description: "Manage Microsoft Teams device tags"
+  ms.date: 07/13/2022
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/09-manage-microsoft-teams-device-tags.md)]

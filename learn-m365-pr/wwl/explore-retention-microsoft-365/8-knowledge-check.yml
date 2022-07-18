@@ -4,48 +4,49 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/10/2021
+  ms.date: 06/06/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/8-knowledge-check.md)]
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Northwind Traders has implemented Messaging Records Management in Exchange Server. It has done so by using retention tags and retention policies. What happens when a message in Northwind's Exchange Server reaches its retention age specified in the applicable retention tag?"
+  - content: "Fabrikam has submitted a retention policy for workloads. How long can it take for the policy to take effect?"
     choices:
-    - content: "A user can apply different retention settings to the message"
+    - content: "Five days"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't what happens when a message reaches its retention age specified in the applicable retention tag. Try again."
-    - content: "The message is automatically moved to the Recoverable Items folder"
-      isCorrect: false
-      explanation: "That's incorrect. This item isn't what happens when a message reaches its retention age specified in the applicable retention tag. Try again."
-    - content: "The Managed Folder Assistant takes the retention action specified by the tag"
+      explanation: "Incorrect. This value isn't the maximum number of days for a policy to normally take effect."
+    - content: "Seven days"
       isCorrect: true
-      explanation: "That's correct. When a message reaches its retention age specified in the applicable retention tag, the Managed Folder Assistant takes the retention action specified by the tag. Messages can then be deleted permanently or deleted with the ability to recover them."
-  - content: "Fabrikam wants to keep email messages for compliance and regulatory reasons. What should it do?"
+      explanation: "Correct. When you create and submit a retention policy, it can take up to seven days for the retention policy to take effect."
+    - content: "10 days"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the maximum number of days for a policy to normally take effect."
+  - content: "How long does an eDiscovery hold preserve data?"
     choices:
-    - content: "Use the Security and Compliance Center to configure message retention in a retention policy"
+    - content: "Until the end date of the retention period is reached"
+      isCorrect: false
+      explanation: "Incorrect. The start and end of the preservation period for eDiscovery holds isn't configurable."
+    - content: "Until the end date of the retention period is reached, but no more than 180 days after the start date"
+      isCorrect: false
+      explanation: "Incorrect. The start and end of the preservation period for eDiscovery holds isn't configurable."
+    - content: "Until an administrator manually releases the hold"
       isCorrect: true
-      explanation: "That's correct. When a message reaches its retention age specified in the applicable retention tag, the Managed Folder Assistant takes the retention action specified by the tag. Messages can then be deleted permanently or deleted with the ability to recover them."
-    - content: "Use Messaging Records Management in Exchange Server"
-      isCorrect: false
-      explanation: "That's incorrect. This item isn't what Fabrikam should do to keep email messages for compliance and regulatory reasons. Try again."
-    - content: "Implement In-place archiving in Exchange"
-      isCorrect: false
-      explanation: "That's incorrect. This item isn't what Fabrikam should do to keep email messages for compliance and regulatory reasons. Try again."
-  - content: "As the Enterprise Administrator for Adventure Works Cycles, Holly Spencer wants to create a retention policy that deletes content. Holly wants to configure the policy to detect content that contains sensitive information, and then update the policy's retention settings for sensitive data. What must Holly do to create a retention policy that deletes content?"
+      explanation: "Correct. If content is subject to both retention settings and an eDiscovery hold, preserving content for the eDiscovery hold always takes precedence. In this way, the principles of retention expand to eDiscovery holds because they preserve data until an administrator manually releases the hold. However, despite this precedence, organizations shouldn't use eDiscovery holds for long-term data lifecycle management."
+  - content: "Contoso wants to manually apply retention settings. How can it accomplish this task?"
     choices:
-    - content: "Create the retention policy in SCC PowerShell using the New-RetentionCompliancePolicy cmdlet"
+    - content: "By implementing a retention policy"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't what Holly should do to create a retention policy that deletes content. Try again."
-    - content: "Create a retention tag with the \"Delete and Allow Recovery\" action"
-      isCorrect: false
-      explanation: "That's incorrect. This item isn't what Holly should do to create a retention policy that deletes content. Try again."
-    - content: "Select the \"Use advanced retention settings\" option when creating the retention policy in the SCC"
+      explanation: "Incorrect. Retention policies can only be automatically applied."
+    - content: "By implementing a retention label"
       isCorrect: true
-      explanation: "That's correct. When creating a retention policy, Holly must select the \"Use advanced retention settings\" option to create a policy that deletes content. This option has two choices - Detect content that has specific words and phrases, and Detect content that contains sensitive information."
+      explanation: "Correct. Retention policies and retention labels can both be automatically applied. However, only retention labels can be manually applied."
+    - content: "Contoso can't manually apply retention settings; they must be automatically applied through retention policies or labels"
+      isCorrect: false
+      explanation: "Incorrect. Retention settings can be manually applied."

@@ -24,19 +24,19 @@ gulp ngrok-serve --debug
 
 Navigate to (or create) a Team for testing the channel conversation. In the Teams list, select **More options** next to the Team. Then select **Manage team**.
 
-![Screenshot of selecting the Manage team option](../media/05-channel-app-01.png)
+![Screenshot of selecting the Manage team option.](../media/05-channel-app-01.png)
 
 Select the **Apps** tab and then **Upload a custom app**.
 
-![Screenshot of the Apps tab of the Manage Team page](../media/05-channel-app-02.png)
+![Screenshot of the Apps tab of the Manage Team page.](../media/05-channel-app-02.png)
 
 In the file dialog that appears, select the Microsoft Teams package in your project. This app package is a ZIP file that can be found in the project's **./package** folder.
 
 After the package is uploaded, Microsoft Teams displays a summary of the app. Select the **Add** button, and select **Add to a team** to install the app.
 
-In a channel of the Team, @ mention the bot, sending the `mention` command. Notice that the response does not mention the user.
+In a channel of the Team, @ mention the bot, sending the `mention` command. Notice that the response doesn't mention the user.
 
-![Screenshot of the conversation with incorrect response](../media/05-channel-app-03.png)
+![Screenshot of the conversation with incorrect response.](../media/05-channel-app-03.png)
 
 ### Update the bot code
 
@@ -73,20 +73,20 @@ private async finalStep(stepContext: WaterfallStepContext): Promise<DialogTurnRe
 
 Save your changes, update, and test the installed app.
 
-The `gulp` task will detect the change and run the **webpack:server** task. 
+The `gulp` task will detect the change and run the **webpack:server** task.
 
-![Screenshot of the gulp task running the webpack task](../media/05-channel-app-04.png)
+![Screenshot of the gulp task running the webpack task.](../media/05-channel-app-04.png)
 
 Once that task completes, @mention the bot again.
 
-![Screenshot of the correct bot response](../media/05-channel-app-05.png)
+![Screenshot of the correct bot response.](../media/05-channel-app-05.png)
 
 
 ## Reply to messages with Adaptive cards
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NHym]
 
-In this section, you'll update the bot to respond to unknown messages using an Adaptive card. The card's single action will trigger the bot to update the existing message with a new Adaptive card. The updated message will include an additional action that will trigger the bot to delete the message.
+In this section, you'll update the bot to respond to unknown messages using an Adaptive card. The card's single action will trigger the bot to update the existing message with a new Adaptive card. The updated message will include an extra action that will trigger the bot to delete the message.
 
 Run the following command to install the Adaptive Cards SDK and supporting packages:
 
@@ -94,7 +94,7 @@ Run the following command to install the Adaptive Cards SDK and supporting packa
 npm install adaptivecards-templating adaptive-expressions
 ```
 
-Create a new file named **responseCard.json** in the **./src/server/conversationalBot/cards** folder. Add the following json which defines an adaptive card:
+Create a new file named **responseCard.json** in the **./src/server/conversationalBot/cards** folder. Add the following json that defines an adaptive card:
 
 ```json
 {
@@ -206,7 +206,7 @@ private async sendResponseCard(turnContext: TurnContext): Promise<void> {
 }
 ```
 
-When the use selects the button that represents an action, the bot will receive an `onAdaptiveCardInvoke` event. This event is part of the `TeamsActivityHandler` which is the base class for the `ConversationalBot` class. The event can be handled by implementing the handler in our class.
+When the use selects the button that represents an action, the bot will receive an `onAdaptiveCardInvoke` event. This event is part of the `TeamsActivityHandler` that is the base class for the `ConversationalBot` class. The event can be handled by implementing the handler in our class.
 
 Open the file **./src/server/conversationalBot/ConversationalBot.ts**.
 
@@ -282,7 +282,7 @@ protected async onAdaptiveCardInvoke(context: TurnContext, invokeValue: Adaptive
 }
 ```
 
-In the code you've added, notice the `update` code block retrieves and increments the `count` property it received. It then creates a new cardData object with an updated message and boolean property that will render an additional action to delete the card. The method returns an `AdaptiveCardInvokeResponse` object containing an updated card to render in place of the original.
+In the code you've added, notice the `update` code block retrieves and increments the `count` property it received. It then creates a new cardData object with an updated message and boolean property that will render an extra action to delete the card. The method returns an `AdaptiveCardInvokeResponse` object containing an updated card to render in place of the original.
 
 The `delete` code block deletes the card using the `deleteActivity()` method.
 
@@ -290,17 +290,17 @@ The `delete` code block deletes the card using the `deleteActivity()` method.
 
 Save your changes. The `gulp` task will detect the change and run the **webpack:server** task. Wait for that task to complete.
 
-![Screenshot of the gulp task running the webpack task](../media/05-channel-app-04.png)
+![Screenshot of the gulp task running the webpack task.](../media/05-channel-app-04.png)
 
 In the Microsoft Teams client, go to the channel you installed the bot in the previous section. From the **Conversations** tab, @mention the bot with a random string to trigger the `else` condition.
 
 The bot will reply to the message with a card:
 
-![Screenshot of a message from the bot using cards](../media/05-test-04.png)
+![Screenshot of a message from the bot using cards.](../media/05-test-04.png)
 
 Select the button **Update card**. After a few seconds, the card should be updated with a new card containing an incremented counter value and a new button:
 
-![Screenshot of an updated message from the bot using cards](../media/05-test-05.png)
+![Screenshot of an updated message from the bot using cards.](../media/05-test-05.png)
 
 Select the **Update card** button a few more times to see the counter get updated.
 
@@ -346,7 +346,7 @@ gulp ngrok-serve
 
 In the Microsoft Teams client, go to the channel you installed the bot in the previous section. From the **Conversations** tab, find a message from the bot and apply a *like* reaction to it. After a few seconds, the bot will reply with a message, thanking them for liking the reaction:
 
-![Screenshot of a bot replying to a reaction](../media/05-test-07.png)
+![Screenshot of a bot replying to a reaction.](../media/05-test-07.png)
 
 ## Summary
 

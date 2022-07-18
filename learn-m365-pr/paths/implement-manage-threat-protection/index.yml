@@ -26,7 +26,6 @@ products:
 subjects:
 - threat-protection
 modules:
-- learn.wwl.implement-microsoft-defender-for-identity
 - learn-m365.m365-security-threat-protect
 - learn-m365-pr.detect-respond-to-security-issues-using-microsoft-defender-for-endpoint
 - learn.wwl.deploy-microsoft-defender-for-endpoints-environment
@@ -37,6 +36,5 @@ modules:
 - learn.wwl.manage-device-compliance
 - learn-m365.m365-threat-remediate
 - azure.query-data-sentinel
-- learn.wwl.implement-microsoft-cloud-application-security
 trophy:
   uid: learn.wwl.implement-manage-threat-protection.trophy

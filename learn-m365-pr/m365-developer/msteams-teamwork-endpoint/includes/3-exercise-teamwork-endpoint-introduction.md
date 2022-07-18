@@ -15,12 +15,12 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v12.\* (or higher)
-- NPM (installed with Node.js) - v6.\* (or higher)
+- [Node.js](https://nodejs.org/) - v14.\*
+- npm (installed with Node.js) - v6.\*
 - [Visual Studio Code](https://code.visualstudio.com)
-- [Gulp-cli](https://gulpjs.com/) - v2.\* (or higher)
-- [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0 (or higher)
+- [Gulp-cli](https://gulpjs.com/) - v2.3.\*
+- [Yeoman](https://yeoman.io/) - v3.\*
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.\*
 
 You must have the minimum versions of these prerequisites installed on your workstation.
 
@@ -30,7 +30,7 @@ Open a browser and navigate to the [Azure Active Directory admin center (https:/
 
 Select **Manage > App registrations** in the left-hand navigation and then select **New registration**.
 
-![Screenshot of the App registrations](../media/03-azure-ad-app-registration-01.png)
+![Screenshot of the App registrations.](../media/03-azure-ad-app-registration-01.png)
 
 On the **Register an application** page, set the values as follows, and then select **Register**:
 
@@ -38,7 +38,7 @@ On the **Register an application** page, set the values as follows, and then sel
 - **Supported account types**: Accounts in any organizational directory (Any Azure AD directory - Multitenant)
 - **Redirect URI**: Web & `https://REPLACE.ngrok.io`
 
-![Screenshot of the Register an application page](../media/03-azure-ad-app-registration-02.png)
+![Screenshot of the Register an application page.](../media/03-azure-ad-app-registration-02.png)
 
 > [!NOTE]
 > The **Redirect URL** will need to be updated once you know the dynamic subdomain of the proxy URL created by ngrok, a tool you'll use to simplify testing and debugging your Microsoft Teams app.
@@ -49,7 +49,7 @@ On the **Register an application** page, set the values as follows, and then sel
 
 On the **My Teams SSO App** page, copy the value of the **Application (client) ID**; you'll need this later when you create the Microsoft Teams app in a future exercise.
 
-![Screenshot of the application ID of the new app registration](../media/03-azure-ad-app-registration-03.png)
+![Screenshot of the application ID of the new app registration.](../media/03-azure-ad-app-registration-03.png)
 
 ### Configure authentication
 
@@ -57,7 +57,7 @@ Next, configure the app's authentication settings. Select **Manage > Authenticat
 
 In the **Implicit grant and hybrid flows** section, select both of the following options, and then select **Save** at the top of the screen:
 
-![Screenshot of the app's authentication settings](../media/03-azure-ad-app-registration-04.png)
+![Screenshot of the app's authentication settings.](../media/03-azure-ad-app-registration-04.png)
 
 ### Create a client secret
 
@@ -82,11 +82,11 @@ By default, the app has the **User.Read** permission. When Microsoft Teams reque
   - openid
   - profile
 
-![Screenshot adding permissions to the app](../media/03-azure-ad-app-registration-05.png)
+![Screenshot adding permissions to the app.](../media/03-azure-ad-app-registration-05.png)
 
 Once you've added the permissions, select the **Grant admin consent for ...** to consent these permissions for all users in the tenant.
 
-![Screenshot of consented permissions](../media/03-azure-ad-app-registration-06.png)
+![Screenshot of consented permissions.](../media/03-azure-ad-app-registration-06.png)
 
 ### Expose an API for the app
 
@@ -94,7 +94,7 @@ The next step is to configure the app's API for Microsoft Teams. Select **Manage
 
 On the **Expose an API** page, select the **Set** link next to the **Application ID URI**. This will default the app's ID to `api://<app-id>`. This needs to include the domain where the Microsoft Teams app will be hosted. Add `REPLACE.ngrok.io/` to the start of the address after the protocol and select **Save**
 
-![Screencast of the app ID URI](../media/03-azure-ad-app-registration-07.png)
+![Screencast of the app ID URI.](../media/03-azure-ad-app-registration-07.png)
 
 Next, select **Add a scope** to add a new permission for the app. Create a new scope using the following settings and then select **Add scope**:
 
@@ -106,7 +106,7 @@ Next, select **Add a scope** to add a new permission for the app. Create a new s
 - **User consent description:** Teams can call this app’s APIs with the same rights as the user.
 - **State**: Enabled
 
-![Screenshot of the add scope page](../media/03-azure-ad-app-registration-08.png)
+![Screenshot of the add scope page.](../media/03-azure-ad-app-registration-08.png)
 
 The last step is to preauthorize the Microsoft Teams clients that the app's API will trust. This means users won't be asked to consent to specific permissions, or scopes, exposed by the API.
 
@@ -171,7 +171,7 @@ This gulp task will run many other tasks all displayed within the command-line c
 > [!IMPORTANT]
 > Each time ngrok starts, it generates a new dynamic subdomain for the URL. If you have to restart ngrok, you will need to repackage and and update the app in Microsoft Teams to make the installed app aware of the new URL. The optional licensed version of ngrok allows you to define and reuse the same subdomain.
 
-![Screenshot of gulp ngrok-serve](../media/03-ngrok-dynamic-url.png)
+![Screenshot of gulp ngrok-serve.](../media/03-ngrok-dynamic-url.png)
 
 Before testing the Microsoft Teams app, you need to update all locations where you entered the URL `REPLACE.ngrok.io` in both your project and the Azure AD app you registered. For example:
 
@@ -187,7 +187,7 @@ Select a team that you want to install and test your custom teams app in and the
 
 Next, select the plus icon to the right of the existing tabs to add a new tab:
 
-![Screenshot selecting a team and channel](../media/03-add-tab-01.png)
+![Screenshot selecting a team and channel.](../media/03-add-tab-01.png)
 
 The app containing our new tab isn't installed yet, so in the **Add a tab** dialog, select **Manage apps** in the lower-right corner.
 
@@ -203,17 +203,17 @@ Locate and select the Microsoft Teams app package, found in the **./package** fo
 
 Microsoft Teams will display the details of the app in a dialog. Select the **Add** button to install the app into the current team:
 
-![Screenshot installing a new tab, step 2](../media/03-add-tab-03.png)
+![Screenshot installing a new tab, step 2.](../media/03-add-tab-03.png)
 
 After installing the app, select the team's **General** channel, and then the plus icon to the right of the existing tabs in the channel. When prompted to select the tab, select the **MSGraph Playground**:
 
-![Screenshot installing a new tab, step 3](../media/03-add-tab-04.png)
+![Screenshot installing a new tab, step 3.](../media/03-add-tab-04.png)
 
 When you select the tab to add to the channel, Microsoft Teams will present the tab's configuration screen. Enter anything into the provided input box and select **Save** to add the tab.
 
 When the tab loads, it will initiate the SSO process with Azure AD and obtain an ID token. This token contains the basic identification information about the current user. The current user's display name is included in this token and is displayed in the tab:
 
-![Screenshot installing a new tab, step 5](../media/03-add-tab-05.png)
+![Screenshot installing a new tab, step 5.](../media/03-add-tab-05.png)
 
 ### Explore the code
 
@@ -242,7 +242,7 @@ useEffect(() => {
 }, [inTeams]);
 ```
 
-This hook will run when the component loads. If the page is loaded in a Microsoft Teams client, as it is when it's in a tab, it calls the `getAuthToken()` method on the Microsoft Teams JavaScript SDK. When successful, it extracts the ID token Microsoft Teams received from Azure AD and provided to the tab to retrieve the currently signed in user's display name. The user's name is then set, using the `setName()` method, to the React state `name` property.
+This hook will run when the component loads. If the page is loaded in a Microsoft Teams client, as it's when it's in a tab, it calls the `getAuthToken()` method on the Microsoft Teams JavaScript SDK. When successful, it extracts the ID token Microsoft Teams received from Azure AD and provided to the tab to retrieve the currently signed in user's display name. The user's name is then set, using the `setName()` method, to the React state `name` property.
 
 Changing the state triggers React to rerender the component. The code in the `return` statement within the React component will render the updated user experience that includes the user's name from the React state property as shown in the following code.
 
@@ -273,7 +273,7 @@ At this point, the tab is successfully using Microsoft Teams' support for SSO, b
 
 In this section, we'll update the Microsoft Teams app to add support for submitting requests to Microsoft Graph building off the SSO support currently in place.
 
-When submitting requests to Microsoft Graph, you must include an OAuth access token in the header of each request. This is not the same ID token Microsoft Teams received previously as part of the SSO support, but that same ID token can be used to obtain an access token for use with Microsoft Graph.
+When submitting requests to Microsoft Graph, you must include an OAuth access token in the header of each request. This isn't the same ID token Microsoft Teams received previously as part of the SSO support, but that same ID token can be used to obtain an access token for use with Microsoft Graph.
 
 This is done by implementing the [OAuth2 On-Behalf-Of (OBO) flow](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow), but this can't be done client-side, rather it must be done server-side.
 
@@ -294,7 +294,7 @@ TAB_APP_SCOPES=https://graph.microsoft.com/User.Read email openid profile offlin
 
 The next step is to update the server-side API to add support for using the ID token, obtained by Microsoft Teams, for an OBO access token that can be used to submit requests to Microsoft Graph.
 
-First, install a new dependencies into the project. This is used to submit an HTTP request (*Axios*):
+First, install a new dependency into the project. This is used to submit an HTTP request (*Axios*):
 
 ```console
 npm install axios -SE
@@ -380,7 +380,7 @@ express.get("/exchangeSsoTokenForOboToken", async (req, res) => {
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OAOP]
 
-With the server-side API updated, we can now update the SSO tab to request and display the current user's profile photo. To do this, the tab will first exchange the ID token obtained by Microsoft Teams and it's SSO support for an access token that can be used to authenticate requests for Microsoft Graph.
+With the server-side API updated, we can now update the SSO tab to request and display the current user's profile photo. To do this, the tab will first exchange the ID token obtained by Microsoft Teams and its SSO support for an access token that can be used to authenticate requests for Microsoft Graph.
 
 Locate and open the file **./src/client/msGraphTeamworkTab/MsGraphTeamworkTab.tsx**.
 
@@ -493,13 +493,13 @@ Immediately following the closing `</div>` element, add the following code that 
 {photo && <div><Avatar image={photo} size='largest' /></div>}
 ```
 
-Save your changes. The `gulp` task should detect the changes are re-run the webpack task.
+Save your changes. The `gulp` task should detect the changes are rerun the webpack task.
 
 ### Test the application
 
 Go back to the browser and navigate back to the tab you added earlier in this exercise. Notice it's now displaying the current user's profile photo:
 
-![Screenshot of the tab displaying the user's profile photo from Microsoft Graph](../media/03-test-user-profile-photo.png)
+![Screenshot of the tab displaying the user's profile photo from Microsoft Graph.](../media/03-test-user-profile-photo.png)
 
 > [!IMPORTANT]
 > If the **ngrok-serve** stopped for any reason, remember when you start/restart the **gulp ngrok-serve** task, the dynamic ngrok URL will change.
@@ -534,7 +534,7 @@ Select **Add a permission**, then select **Microsoft Graph > Delegated permissio
 
 Search for, and select the permission **Team.ReadBasic.All**, then select the **Add permissions** button:
 
-![Screenshot adding a new permission to the app](../media/03-azure-ad-add-api-permissions.png)
+![Screenshot adding a new permission to the app.](../media/03-azure-ad-add-api-permissions.png)
 
 To simplify the testing process, select **Grant admin consent for Contoso** to consent this new permission for all users in your tenant.
 
@@ -548,7 +548,7 @@ Locate and open the **./.env**. At the end of the file, locate the environment v
 TAB_APP_SCOPES=https://graph.microsoft.com/User.Read https://graph.microsoft.com/Team.ReadBasic.All email openid profile offline_access
 ```
 
-The `gulp` task should detect the change in environment and re-run the webpack task and re-start the host process. 
+The `gulp` task should detect the change in environment and rerun the webpack task and restart the host process.
 
 > [!IMPORTANT]
 > If you restart ngrok, remember the dynamic subdomain will change. Therefore, you'll need to not only update all the places where you've entered the ngrok URL in your project and registered Azure AD app, but also reinstall the Microsoft Teams app package as well.
@@ -622,6 +622,6 @@ The last step is to update the rendering in the component's `return` statement t
 
 Go back to the browser and navigate back to the tab you added earlier in this exercise. Notice it's now displaying the current user's profile photo:
 
-![Screenshot of the tab displaying the user's joined teams](../media/03-test-user-joined-teams.png)
+![Screenshot of the tab displaying the user's joined teams.](../media/03-test-user-joined-teams.png)
 
 You can now stop the Teams app project in the consoles by pressing <kbd>CTRL</kbd>+<kbd>C</kbd>. However, you can leave the ngrok process running so the dynamic subdomain won't change for future exercises in this module.

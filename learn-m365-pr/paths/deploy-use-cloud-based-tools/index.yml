@@ -3,7 +3,7 @@ uid: learn.wwl.deploy-use-cloud-based-tools
 metadata:
   title: Deploy using cloud based tools
   description: Deploy using cloud based tools
-  ms.date: 03/31/2022
+  ms.date: 06/23/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -15,7 +15,7 @@ prerequisites: |
   - Experience using Active Directory Domain Services
 summary: |
   Students will learn about using Windows Autopilot and deployment using Microsoft Intune. Students will also learn how co-management can be used to transition to modern management.
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/deploy-cloud-based-tools.svg
 levels:
 - intermediate
 roles:

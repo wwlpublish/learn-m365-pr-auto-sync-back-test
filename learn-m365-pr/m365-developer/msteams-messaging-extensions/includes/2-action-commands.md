@@ -8,7 +8,7 @@ In this unit, you’ll learn what messaging extensions are, what scenarios where
 
 Messaging extensions allow users to interact with your web service through buttons and forms in the Microsoft Teams client. They can search, or start actions, in an external system from the compose message area, the command box, or directly from a message. You can then send the results of that interaction back to the Microsoft Teams client, typically in the form of a richly formatted card.
 
-![Screenshot of invoke locations for messaging extensions](../media/02-messaging-extension-invoke-locations.png)
+![Screenshot of invoke locations for messaging extensions.](../media/02-messaging-extension-invoke-locations.png)
 
 ### Messaging extension scenarios
 
@@ -47,7 +47,7 @@ Action commands allow you present your users with a modal popup to collect or di
 
 Action commands can be triggered from the compose message area, the command box, or from a message. When invoked from a message, the initial JSON payload sent to your web service will include the entire message it was invoked from.
 
-![Screenshot of an action command message extension](../media/02-action-command.png)
+![Screenshot of an action command message extension.](../media/02-action-command.png)
 
 The modal popup triggered by the messaging extension is implemented as a task module in Microsoft Teams. Task modules, when triggered from an action command messaging extension, can be implemented in one of three ways:
 

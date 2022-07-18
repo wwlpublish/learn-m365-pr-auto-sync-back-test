@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 11/08/2021
+  ms.date: 06/23/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -17,36 +17,58 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Which of the following groups can be upgraded to Microsoft 365 groups?"
+  - content: "Patti Fernandez is the IT Admin for Contoso Ltd. The HR department wants to create an automated service to answer the frequently asked questions from employees. Which of the following tool should Patti recommend achieving the goal?"
+    choices:
+    - content: "Power Apps"
+      isCorrect: false
+      explanation: "Incorrect. Using Power Apps isn't a good solution here."
+    - content: "Power Virtual Agents"
+      isCorrect: true
+      explanation: "Correct. They can use Power Virtual Agents to create a bot with FAQ content."
+    - content: "Power BI"
+      isCorrect: false
+      explanation: "Incorrect. Power BI is used for data visualizations."
+  - content: "Where are the recordings for channel meetings stored?"
+    choices:
+    - content: "A recordings folder in the OneDrive for the person who started the meeting recording"
+      isCorrect: false
+      explanation: "Incorrect. OneDrive is for storing non-channel meeting recordings."
+    - content: "A channel folder in the SharePoint document library"
+      isCorrect: true
+      explanation: "Correct. Channel meeting recordings are stored in a folder named Recordings in the channel folder that's in the document library for that team."
+    - content: "A group channel in Microsoft Stream"
+      isCorrect: false
+      explanation: "Incorrect. All meeting recordings saved to OneDrive or SharePoint."
+  - content: "You're the IT Admin with Contoso. Brian, a Sales manager with Contoso, wants to broadcast information to key users both inside and outside the company. He maintains a list of users who are part of different distribution groups and security groups. You need to upgrade the relevant group to Microsoft 365 group to promote collaboration. Which of the following groups can be upgraded to Microsoft 365 groups?"
     choices:
     - content: "Security groups"
       isCorrect: false
-      explanation: "That's incorrect. Security groups can not be upgraded to Microsoft 365 groups. Try again."
+      explanation: "Incorrect. Security groups can't be upgraded to Microsoft 365 groups."
     - content: "Distribution groups"
       isCorrect: true
-      explanation: "That's correct. You can convert distribution groups to Microsoft 365 groups."
+      explanation: "Correct. You can convert distribution groups to Microsoft 365 groups."
     - content: "Mail-enabled security groups"
       isCorrect: false
-      explanation: "That's incorrect. Mail-enabled security groups can not be upgraded to Microsoft 365 groups. Try again."
+      explanation: "Incorrect. Mail-enabled security groups can't be upgraded to Microsoft 365 groups."
   - content: "Allan DeYoung is the Teams Administrator in Contoso Ltd. A team has been created for the new series of marketing campaigns with external vendors. The team owner wants to restrict sensitive information to only a subset of the team members, including external vendors' managers. Which solution should Allan recommend to the team owner?"
     choices:
     - content: "Create a new team"
       isCorrect: false
-      explanation: "That's incorrect. Creating a new team is not a recommended solution. Try again."
+      explanation: "Incorrect. Creating a new team isn't a recommended solution."
     - content: "Create a private channel"
       isCorrect: true
-      explanation: "That's correct. Private channels restrict access to conversations, files, and apps to a limited subset of team members. This enables private collaboration within a project or department."
+      explanation: "Correct. Private channels restrict access to conversations, files, and apps to a limited subset of team members. This enables private collaboration within a project or department."
     - content: "Create a standard channel"
       isCorrect: false
-      explanation: "That's incorrect. All the members of the team can access the content shared in standard channels. Try again."
-  - content: "What is a mandatory basis for a team creation?"
+      explanation: "Incorrect. All the members of the team can access the content shared in standard channels."
+  - content: "You're the Teams administrator with Contoso group. You received a request from a marketing manager in your company, to create a Team for Marketing department. You're aware of what gets created when creating a new team. What is a mandatory basis for a team creation?"
     choices:
     - content: "A Distribution group"
       isCorrect: false
-      explanation: "That's incorrect. A Distribution group is not required for a team creation. Try again."
+      explanation: "Incorrect. A Distribution group isn't required for a team creation."
     - content: "A Microsoft 365 group"
       isCorrect: true
-      explanation: "That's correct. When a team is created, a Microsoft 365 group is associated to the team."
+      explanation: "Correct. When a team is created, a Microsoft 365 group is associated to the team."
     - content: "A Mail-enabled security group"
       isCorrect: false
-      explanation: "That's incorrect. A Mail-enabled security group is not required for a team creation. Try again."
+      explanation: "Incorrect. A Mail-enabled security group isn't required for a team creation."

@@ -37,7 +37,7 @@ The naming convention for protocol log files is **SENDyyyymmdd-nnnn.log** for Se
  -  **yyyymmdd** is the date when the log file was created.
  -  **nnnn** is an instance number that is reset to a value of 1 every day.
 
-For example, let’s assume a server produces 50 MB of protocol logs every day and you must search for events in the receive connector logs that happened on the late evening of April 8, 2022. You would open the log file with the name **RECV20190108-0005.log**.
+For example, let’s assume a server produces 50 MB of protocol logs every day and you must search for events in the receive connector logs that happened on the late evening of April 8, 2022. You would open the log file with the name **RECV20220408-0005.log**.
 
 Once the maximum log file size is reached, a new log file is created with an incremented instance number. If a log file reaches its maximum age, or if a log folder reaches its maximum size, then the oldest log file is deleted.
 

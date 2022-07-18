@@ -4,7 +4,7 @@ metadata:
   moduleType: standard
   title: Identify vulnerabilities that ransomware can exploit
   description: How will you know if you are a victim of ransomware? This module will cover the top ransomware families for today's threat landscape and the vectors they use to enter and infect your organization's files and systems.
-  ms.date: 5/9/2022
+  ms.date: 05/25/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

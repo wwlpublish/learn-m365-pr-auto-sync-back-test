@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-m365.viva-connections-introduction
+metadata:
+  moduleType: standard
+  title: Introduction to Viva Connections
+  description: Learn what is Viva Connections, what users experience with it, when to use Viva Connections, and its technical requirements. 
+  ms.date: 6/23/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365 
+title: Introduction to Viva Connections
+summary: Viva Connections is built on your current Microsoft 365 ecosystem to provide tailored employee experiences. Learn the main components of Viva Connections, what users experience with it, when to use Viva Connections, and its technical requirements. 
+abstract: |
+  By the end of this module, you'll be able to:
+    - Describe the main features of Viva Connections
+    - List technical requirements/prerequisites for Viva Connections implementation
+    - Explain the differences between desktop and mobile experiences 
+    -	Identify 2-3 business use cases for Viva Connections
+prerequisites: |
+  - Access to an instance of Viva Connections
+iconUrl: /learn/achievements/generic-badge.svg
+levels: 
+  - beginner
+roles: 
+  - administrator
+  - student
+products: 
+- viva
+- m365 
+units:
+- learn-m365.viva-connections-introduction.introduction
+- learn-m365.viva-connections-introduction.what-do-users-experience
+- learn-m365.viva-connections-introduction.when-to-use-viva-connections
+- learn-m365.viva-connections-introduction.what-technical-requirements-must-be-met
+- learn-m365.viva-connections-introduction.knowledge-check
+- learn-m365.viva-connections-introduction.summary
+badge:
+  uid: learn-m365.viva-connections-introduction.badge

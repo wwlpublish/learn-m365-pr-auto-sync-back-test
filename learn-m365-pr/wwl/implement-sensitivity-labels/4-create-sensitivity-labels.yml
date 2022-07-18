@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-sensitivity-labels.create
+title: Create sensitivity labels
+metadata:
+  title: Create sensitivity labels
+  description: "Create sensitivity labels"
+  ms.date: 06/20/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/4-create-sensitivity-labels.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson has created and published several sensitivity labels. Holly later used the Edit Sensitivity Label wizard to edit the settings in a label that was previously published by using a label policy. What must Holly do next to the edited label for the changes to become available to the same users?"
+    choices:
+    - content: "Republish the label policy"
+      isCorrect: false
+      explanation: "Incorrect. This action isn't the next step that Holly should complete."
+    - content: "Add the label to a new label policy"
+      isCorrect: false
+      explanation: "Incorrect. This action isn't the next step that Holly should complete."
+    - content: "No extra steps are needed once the wizard is finished"
+      isCorrect: true
+      explanation: "Correct. If you edit a label that's already published by using a label policy, no extra steps are needed when you finish the wizard. For example, you don't need to add it to a new label policy for the changes to become available to the same users."

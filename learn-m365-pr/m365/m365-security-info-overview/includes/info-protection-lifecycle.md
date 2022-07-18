@@ -10,13 +10,16 @@ For instance, a beverage company needs to protect the secret recipe to its most 
 
 Let's look at the journey of a file through your company and discuss how Microsoft technologies can help protect the data within that file.
 
-:::image type="content" source="../media/story-of-file.png" alt-text="Diagram showing how Microsoft technologies protect a file from creation through editing and cloud storage.":::
+> [!div class="centered"]
+> :::image type="complex" source="../media/story-of-file.png" alt-text="Infographic showing how Microsoft technologies protect a file from creation through editing and cloud storage." lightbox="../media/story-of-file.png" border="false":::
+>	First the file is created, then the user opens the file for editing, the user collaborates on the file with others through SharePoint Online, which may lead to a user opening the file on mobile, and finally the file is uploaded to other cloud services for sharing externally.
+> :::image-end:::
 
 Now, let's examine these lifecycle stages in more detail.
 
 1. **File is created**
 
-    Your legal department creates a slide deck to share with clients in PowerPoint. It's a generic deck that should be tailored for each client. The file isn't _immediately_ given any sensitivity labeling. Sensitivity labels enforce information protection based on labels added to any documents created in an Office app, so sensitivity labels will be added to each customized deck based on different client needs. 
+    Your legal department creates a slide deck to share with clients in PowerPoint. It's a generic deck that should be tailored for each client. The file isn't _immediately_ given any sensitivity labeling. Sensitivity labels enforce information protection based on labels added to any documents created in an Office app, so sensitivity labels will be added to each customized deck based on different client needs.
 
 1. **User edits the file**
 

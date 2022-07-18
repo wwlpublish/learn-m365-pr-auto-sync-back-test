@@ -240,3 +240,78 @@ achievements:
   title: Implement Azure AD Connect
   summary: This module examines the Azure AD Connect installation requirements, the options for installing and configuring the tool, and how to monitor synchronization services using Azure AD Connect Health.
   iconUrl: /learn/achievements/azure-ad-implement.svg
+- uid: learn.wwl.explore-security-dashboard.badge
+  type: badge
+  title: Explore the Security Dashboard
+  summary: Explore the Security Dashboard
+  iconUrl: /learn/achievements/m365-security-dashboard.svg
+- uid: learn.wwl.implement-microsoft-cloud-application-security.badge
+  type: badge
+  title: Implement Microsoft Cloud Application Security
+  summary: Implement Microsoft Cloud Application Security
+  iconUrl: /learn/achievements/cloud-security-implement.svg
+- uid: learn.wwl.implement-microsoft-defender-for-identity.badge
+  type: badge
+  title: Implement Microsoft Defender for Identity
+  summary: Implement Microsoft Defender for Identity
+  iconUrl: /learn/achievements/defender-implement-identity.svg
+- uid: learn.wwl.explore-reporting-microsoft-365-security-services.badge
+  type: badge
+  title: Explore reporting in the Microsoft 365 security services
+  summary: Explore reporting in the Microsoft 365 security services
+  iconUrl: /learn/achievements/microsoft-365-security-services.svg
+- uid: learn.wwl.create-custom-dlp-policy.badge
+  type: badge
+  title: Create a custom DLP policy
+  summary: Create a custom DLP policy
+  iconUrl: /learn/achievements/create-a-custom-dlp-policy.svg
+- uid: learn.wwl.create-dlp-policy-from-built-template.badge
+  type: badge
+  title: Create a DLP policy from a built-in template
+  summary: Create a DLP policy from a built-in template
+  iconUrl: /learn/achievements/create-a-dlp-policy-from-a-built-in-template.svg
+- uid: learn.wwl.create-dlp-policy-to-protect-documents.badge
+  type: badge
+  title: Create a DLP policy to protect documents
+  summary: Create a DLP policy to protect documents
+  iconUrl: /learn/achievements/dlp-protect-documents.svg
+- uid: learn.wwl.evaluate-your-compliance-readiness.badge
+  type: badge
+  title: Evaluate your compliance readiness
+  summary: Evaluate your compliance readiness
+  iconUrl: /learn/achievements/evaluate-your-compliance-readiness.svg
+- uid: learn.wwl.explore-information-rights-management.badge
+  type: badge
+  title: Explore Information Rights Management
+  summary: Explore Information Rights Management
+  iconUrl: /learn/achievements/explore-information-rights-management.svg
+- uid: learn.wwl.explore-office-365-message-encryption.badge
+  type: badge
+  title: Explore Office 365 Message Encryption
+  summary: Explore Office 365 Message Encryption
+  iconUrl: /learn/achievements/explore-office-365-message-encryption.svg
+- uid: learn.wwl.explore-place-records-management-sharepoint.badge
+  type: badge
+  title: Explore In-place Records Management in SharePoint
+  summary: Explore In-place Records Management in SharePoint
+  iconUrl: /learn/achievements/explore-place-records-management-sharepoint.svg
+- uid: learn.wwl.implement-compliance-solutions.badge
+  type: badge
+  title: Implement compliance solutions
+  summary: Implement compliance solutions
+  iconUrl: /learn/achievements/implement-compliance-solutions.svg
+- uid: learn.wwl.implement-policy-tips-for-dlp-policies.badge
+  type: badge
+  title: Implement policy tips for DLP policies
+  summary: Implement policy tips for DLP policies
+  iconUrl: /learn/achievements/dlp-policy-tips.svg
+- uid: learn.wwl.manage-retention-email.badge
+  type: badge
+  title: Manage retention in email
+  summary: Manage retention in email
+  iconUrl: /learn/achievements/exchange-retention.svg
+- uid: learn.wwl.troubleshoot-data-governance.badge
+  type: badge
+  title: Troubleshoot data governance
+  summary: Troubleshoot data governance
+  iconUrl: /learn/achievements/loss-prevention-troubleshoot.svg

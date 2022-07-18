@@ -1,0 +1,104 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-introduction.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Knowledge check questions to see if the learner has grasped the basic features, components and use cases of Viva Connections. 
+  ms.date: 6/23/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 12
+content: |
+quiz:
+  questions:
+  - content: "Lamna Healthcare’s Internal Communications Manager has been tasked with overseeing the creation of Viva Connections. They are ready to start reaching out to stakeholders within their organization to start planning. Before they begin receiving input from different teams, what is the first step to implement Viva Connections for Lamna Healthcare?"
+    choices:
+    - content: "Create a SharePoint home site"
+      isCorrect: true
+      explanation: "Setting up a SharePoint home site that will house
+            important organization-wide news is the first step in using
+            Viva Connections."
+    - content: "Customize global navigation"
+      isCorrect: false
+      explanation: "You must have a home site before global
+            navigation can be customized."
+    - content: "Create a Viva Connections Dashboard"
+      isCorrect: false
+      explanation: "You must create a home site before you can create a Dashboard."
+  - content: "A user needs access to news from one of their team’s SharePoint sites. Where is the best place to find news in Viva Connections?"
+    choices:
+    - content: "The Dashboard"
+      isCorrect: false
+      explanation: "The Dashboard primarily houses tools used
+            frequently by users, such as existing Teams apps,
+            third-party apps, custom solutions, and more. One exception
+            is if your organization chooses to use the [Top news
+            card](/viva/connections/create-dashboard#add-the-top-news-card)
+            which aggregated news that’s been boosted on authoritative
+            news sites."
+    - content: "Resources"
+      isCorrect: false
+      explanation: "The Resources component of Viva Connections gives
+            users access to navigational links of resources determined
+            by their organization. You may include a link to an
+            organizational news site, but it will not be the primary
+            news experience."
+    - content: "The Feed"
+      isCorrect: true
+      explanation: "The Feed provides users with a personalized view of
+            engaging content and corporate communications, including
+            content from the SharePoint sites and Yammer communities
+            they follow."
+  - content: "Which of the following statements about Viva Connections desktop and mobile experiences is true?"
+    choices:
+    - content: "Once Viva Connections is set up, users will automatically get
+        the exact same experiences on both their desktop devices and
+        their mobile devices."
+      isCorrect: false
+      explanation: "After setting up Viva Connections, you will need
+            to add the
+            [Dashboard](/viva/connections/use-dashboard-web-part-on-home-site)
+            and
+            [Feed](/viva/connections/use-feed-web-part-for-viva-connections)
+            web parts to your SharePoint home site to complete the Viva
+            Connections experience on the desktop app."
+    - content: "On desktop, Viva Connections integrates your SharePoint [home
+        site](/viva/connections/create-sharepoint-home-site-for-viva-connections)
+        and [global
+        navigation](/viva/connections/sharepoint-app-bar)
+        with Microsoft Teams."
+      isCorrect: true
+      explanation: "The desktop experience allows you to navigate to
+            SharePoint sites, organizational news, and other content
+            without leaving Teams. You can search and share intranet
+            content in chats, teams, or channels, making collaboration
+            easier than ever. Add the Dashboard web part and the Feed
+            web part to your home site to complete the Viva Connections
+            experience."
+    - content: "On mobile, the Viva Connections app displays the Feed as the
+        default tab in the Viva Connections app in the Microsoft Teams
+        app bar."
+      isCorrect: false
+      explanation: "The mobile app displays the Dashboard as the
+            default tab in the Viva Connections app in the Microsoft
+            Teams app bar."
+  - content: "Which of the following components to the Viva Connections experience is automatically enabled when you set up Viva Connections?"
+    choices:
+    - content: "Providing recommended training and resources for specific roles
+        and regions."
+      isCorrect: false
+      explanation: "Dashboard cards need to be created to integrate
+            Viva Learning, a separate Viva module that focuses on
+            training, with Viva Connections."
+    - content: "Providing a single source of company news for all employees that
+        includes organizational and departmental news."
+      isCorrect: true
+      explanation: "The Viva Connections Feed serves as a central
+            communications hub for organizations."
+    - content: "Providing a central place to navigate to popular portals and
+        resources."
+      isCorrect: false
+      explanation: "Viva Connections Resources will need to be customized when you set up global navigation in SharePoint."

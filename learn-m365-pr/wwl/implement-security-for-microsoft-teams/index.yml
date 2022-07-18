@@ -3,7 +3,7 @@ uid: learn.wwl.implement-security-for-microsoft-teams
 metadata:
   title: Implement security for Microsoft Teams
   description: "Implement security for Microsoft Teams"
-  ms.date: 03/07/2022
+  ms.date: 07/13/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -17,6 +17,7 @@ abstract: |
   - Configure Safe Links for Microsoft Teams.
   - Examine the Cloud App Security.
   - Describe security reports for Microsoft Teams.
+  - Plan and configure enhanced encryption policies.
 prerequisites: |
   - A proficient understanding of basic functional experience with Microsoft 365 services.
   - A proficient understanding of general IT practices, including using PowerShell.
@@ -29,8 +30,8 @@ products:
 - m365
 - office-teams
 subjects:
-- security
 - collaboration
+- security
 units:
 - learn.wwl.implement-security-for-microsoft-teams.introduction
 - learn.wwl.implement-security-for-microsoft-teams.configure-conditional-access-multifactor-authentication
@@ -38,6 +39,7 @@ units:
 - learn.wwl.implement-security-for-microsoft-teams.configure-safe-links
 - learn.wwl.implement-security-for-microsoft-teams.examine-defender-cloud-app
 - learn.wwl.implement-security-for-microsoft-teams.monitor-security-reports
+- learn.wwl.implement-security-for-microsoft-teams.enhanced-encryption-policies
 - learn.wwl.implement-security-for-microsoft-teams.knowledge-check
 - learn.wwl.implement-security-for-microsoft-teams.summary
 badge:

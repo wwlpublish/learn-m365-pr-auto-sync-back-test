@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-microsoft-purview-message-encryption.add-organizational-branding-encrypted-email-messages
+title: Add organizational branding to encrypted email messages
+metadata:
+  title: Add organizational branding to encrypted email messages
+  description: "Add organizational branding to encrypted email messages"
+  ms.date: 06/02/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-add-organizational-branding-encrypted-email-messages.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Lucerne Publishing, Patti Fernandez wants to create templates that will be used to encrypt emails that originate from within the company. Patti plans to create a custom branding template and an encryption template. Once Patti creates the templates, how can she apply them?"
+    choices:
+    - content: "By running the Set-OMEConfiguration PowerShell cmdlet"
+      isCorrect: false
+      explanation: "Incorrect. This cmdlet is used to modify the default branding template or a custom branding template that you created."
+    - content: "By setting the priority of the branding rule higher than the encryption rule"
+      isCorrect: false
+      explanation: "Incorrect. This action isn't how Patti should apply the templates. However, once she does apply the templates in a mail flow rule, the priority of the encryption rule should be higher than the branding rule. By doing so, the encryption rule is processed first."
+    - content: "By using Exchange mail flow rules"
+      isCorrect: true
+      explanation: "Correct. Once you've created the templates, you can apply them to encrypted emails by using Exchange mail flow rules. If you have Microsoft Purview Advanced Message Encryption, you can revoke any email that you've branded by using these templates."

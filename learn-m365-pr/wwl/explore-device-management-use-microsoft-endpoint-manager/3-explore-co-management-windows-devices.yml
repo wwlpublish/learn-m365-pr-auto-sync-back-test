@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-device-management-use-microsoft-endpoint-manager.explore-co-management-windows-devices
+title: Explore co-management of Windows devices
+metadata:
+  title: Explore co-management of Windows devices
+  description: "Explore co-management of Windows devices"
+  ms.date: 07/15/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/3-explore-co-management-windows-devices.md)]

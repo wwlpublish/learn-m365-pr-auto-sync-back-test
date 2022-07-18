@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-device-management-use-microsoft-endpoint-manager.manage-devices-use-microsoft-intune
+title: Manage devices using Microsoft Intune
+metadata:
+  title: Manage devices using Microsoft Intune
+  description: "Manage devices using Microsoft Intune"
+  ms.date: 07/15/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-manage-devices-use-microsoft-intune.md)]

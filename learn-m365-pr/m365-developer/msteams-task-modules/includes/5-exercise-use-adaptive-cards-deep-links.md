@@ -13,18 +13,18 @@ In the browser, navigate to **https://teams.microsoft.com** and sign in with the
 
 Select the **More added apps** menu item from the left-hand navigation and select the **App Studio** app:
 
-![Screenshot of the App Studio app listed in the More Added Apps dialog](../media/05-app-studio-01.png)
+![Screenshot of the App Studio app listed in the More Added Apps dialog.](../media/05-app-studio-01.png)
 
 > [!TIP]
 > If App Studio is not listed in the **More added apps** dialog as shown above, select **More apps** at the bottom of the dialog.
 >
 > Search for **App Studio** and select it from the search results to install it:
 >
-> ![Screenshot of installing App Studio from the available apps](../media/05-app-studio-02.png)
+> ![Screenshot of installing App Studio from the available apps.](../media/05-app-studio-02.png)
 
 In App Studio, select the **Card editor** tab and then select the **Create a new card** button.
 
-![Screenshot of the Card editor initial experience](../media/05-app-studio-03.png)
+![Screenshot of the Card editor initial experience.](../media/05-app-studio-03.png)
 
 Select the **Create** button for an **Adaptive Card** in the list of card types you can create in the **Create a new card** dialog.
 
@@ -74,7 +74,7 @@ From the **json** tab, replace the contents of the default card with the followi
 }
 ```
 
-![Screenshot of the YouTube Video Selector card](../media/05-app-studio-04.png)
+![Screenshot of the YouTube Video Selector card.](../media/05-app-studio-04.png)
 
 This JSON code instructs Microsoft Teams to render a textbox and button. When the button is selected, it will submit the card.
 
@@ -148,11 +148,11 @@ const taskModuleInfo = {
 
 ### Test the Adaptive Card task module
 
-Save the modified files. The `ngrok` task will detect the changes and re-run the webpack task. Upon completion, the web page should refresh to show the updated content.
+Save the modified files. The `ngrok` task will detect the changes and rerun the webpack task. Upon completion, the web page should refresh to show the updated content.
 
 In the browser, navigate back to the tab in the Microsoft Teams interface and select the new button **Change Video ID (AdaptiveCard)**. Microsoft Teams will open a task module with the rendered Adaptive Card:
 
-![Screenshot of the Adaptive Card rendered in a task module](../media/05-test-01.png)
+![Screenshot of the Adaptive Card rendered in a task module.](../media/05-test-01.png)
 
 Replace the video ID in the input box and select **Update**. Notice the video ID displayed in the tab is updated to reflect this new value.
 
@@ -174,7 +174,7 @@ As you learned in a previous exercise, the URL to display the video in the playe
 https://{{REPLACE_WITH_YOUR_NGROK_URL}}/youTubePlayer1Tab/player.html?vid=VlEH4vtaxp4
 ```
 
-The deep link for to launch the video player task module would be the following (*assuming your custom Microsoft Teams app's ID is 3386faf0-109f-11ea-9799-77a28170bd5d*):
+The deep link to launch the video player task module would be the following (*assuming your custom Microsoft Teams app's ID is 3386faf0-109f-11ea-9799-77a28170bd5d*):
 
 ```http
 https://teams.microsoft.com/l/task/3386faf0-109f-11ea-9799-77a28170bd5d?url=https://{{REPLACE_WITH_YOUR_NGROK_URL}}/youTubePlayer1Tab/player.html?vid=VlEH4vtaxp4&height=700&width=1000&title=YouTube%20Player:%20Overview%20of%20teams%20and%20channels
@@ -182,13 +182,13 @@ https://teams.microsoft.com/l/task/3386faf0-109f-11ea-9799-77a28170bd5d?url=http
 
 In Microsoft Teams, go to a channel, select the **Conversations** tab, and select the **Format** button in the message dialog:
 
-![Screenshot of the message dialog](../media/05-test-02.png)
+![Screenshot of the message dialog.](../media/05-test-02.png)
 
 Enter a message to post to the channel. Select some of the text and use the **Link** feature to add the deep link to the message:
 
-![Screenshot of the new message experience in a Conversations tab - adding a link](../media/05-test-03.png)
+![Screenshot of the new message experience in a Conversations tab - adding a link.](../media/05-test-03.png)
 
-![Screenshot of the new message experience in a Conversations tab](../media/05-test-04.png)
+![Screenshot of the new message experience in a Conversations tab.](../media/05-test-04.png)
 
 Now, select the link to see the task module open without having to trigger it from the custom tab.
 

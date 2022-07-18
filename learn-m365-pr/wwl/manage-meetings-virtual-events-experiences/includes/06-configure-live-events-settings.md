@@ -1,26 +1,34 @@
-Settings for the Live events that are held within an organization can be configured in the Microsoft Teams admin center. The Teams administrator can set up a support URL and configure a third-party video distribution provider.
+For live events or videos sent out to large portions of your organization, there could be a significant amount of internet bandwidth consumed by viewers. For organizations that want to reduce this internet traffic for live events, live events solutions are integrated with Microsoft's trusted video delivery partners offering software defined networks (SDNs) or enterprise content delivery networks (eCDNs). These SDN/eCDN platforms enable organizations to optimize network bandwidth without sacrificing end user viewing experiences. 
+
+The Teams administrator can set up a support URL and configure a video distribution provider. Before you can enable a video delivery provider to be used with Teams, you must purchase and set up the SDN/eCDN solution outside and separate from Teams.
 
 > [!NOTE]
 > These settings will be applied to all Live events that are created in an organization.
 
-You can manage Live events settings in the Microsoft Teams admin center.
+You can manage Live events settings in the Microsoft Teams admin center or PowerShell.
+
+## Use Teams admin center
 
 1. Sign into the **Microsoft Teams admin center** with your admin account.
 2. Select **Meetings** and then choose **Live events settings**.
 3. On the **Live events settings** page, in the **Support URL** section, you can define the URL that will be shown to your attendees who will participate at the Live event.
 
-	‎:::image type="content" source="../media/live-event-settings.png" alt-text="Live event settings":::  
+4. If your company purchased a Software Defined Network (SDN) solution or enterprise Content Delivery Network (eCDN) solution, you can configure the provider by completing the following steps:
 
-4. If your company purchased a Software Defined Network (SDN) solution or enterprise Content Delivery Network (eCDN) solution through a Microsoft video delivery partner, you can configure the provider by completing the following steps:
+	- **Video distribution provider**. Turn this option On to enable the video distribution provider.
+	- **SDN provider name**. Select the provider.
+	- **SDN Configuration**. Depending on the selected SDN provider, enter the configuration details you received from your provider contact.
+		- SDN provider API token 
+		- Provider License key and SDN Configuration 
+		- SDN API template URL
 
-	- **Third-party distribution provider**. Turn this option On to enable the third-party video distribution provider.
-	- **SDN provider name**. Enter the provider who's being used.
-	- **SDN provider API token**. Enter the API token, which you received from your provider contact.
-	- **SDN API template URL**. Enter the API template URL, which you received from your provider contact.
+		:::image type="content" source="../media/live-event-settings.png" alt-text="Screenshot of Live event settings.":::  
 
 5. Select the **Save** button.
  
-## Set up the Support URL using Windows PowerShell
+## Use PowerShell
+
+### Set up the Support URL
 
 To set up the Support URL using PowerShell, you must run the following command:
 
@@ -28,7 +36,7 @@ To set up the Support URL using PowerShell, you must run the following command:
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL "{your URL}"
 ```
 
-## Configure the third-party video provider using Windows PowerShell
+### Configure the video provider
 
 Organizations can optionally configure their third-party video provider using Windows PowerShell. To do so, they must first obtain the license ID or API token and API template from their provider contact. Once they have that information, they should run the following command (in this example, the provider is Hive Streaming):
 

@@ -15,11 +15,11 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v12.\* (or higher)
-- NPM (installed with Node.js) - v6.\* (or higher)
-- [Gulp-cli](https://gulpjs.com/) - v2.\* (or higher)
-- [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0 (or higher)
+- [Node.js](https://nodejs.org/) - v14.*\
+- npm (installed with Node.js) - v7.*\
+- [Gulp CLI](https://gulpjs.com/) - v2.3.*\
+- [Yeoman](https://yeoman.io/) - v4.3.*\
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.
@@ -32,13 +32,13 @@ Open a browser, and go to the [Azure Active Directory admin center (https://aad.
 
 Select **Azure Active Directory** in the left pane.
 
-  ![Screenshot of App registrations](../media/azure-ad-portal-home.png)
+  ![Screenshot of App registrations.](../media/azure-ad-portal-home.png)
 
 Select **Manage** > **App registrations** in the left pane.
 
 On the **App registrations** page, select **New registration**.
 
-  ![Screenshot of App registrations page](../media/azure-ad-portal-new-app-00.png)
+  ![Screenshot of App registrations page.](../media/azure-ad-portal-new-app-00.png)
 
 On the **Register an application** page, set the values as follows:
 
@@ -49,19 +49,19 @@ On the **Register an application** page, set the values as follows:
     > [!NOTE]
     > Each time ngrok starts, it generates a new random subdomain. Azure AD requires that the redirect URI is specified in the app registration. You'll need to return to this Azure AD app registration to add or change the redirect URI after you start the ngrok utility.
 
-    ![Screenshot of the Register an application page](../media/azure-ad-portal-new-app-01.png)
+    ![Screenshot of the Register an application page.](../media/azure-ad-portal-new-app-01.png)
 
     Select **Register**.
 
 On the **Teams Messages Graph Tab** page, copy the value of the **Application (client) ID**. You'll need it later in this exercise.
 
-  ![Screenshot of the Application ID of the new app registration](../media/azure-ad-portal-new-app-details.png)
+  ![Screenshot of the Application ID of the new app registration.](../media/azure-ad-portal-new-app-details.png)
 
 On the **Teams Calendar Graph Tab** page, select the **1 web, 0 spa, 0 public client** link under the **Redirect URIs**.
 
 Locate the section **Implicit grant**, and select both **Access tokens** and **ID tokens**. This action tells Azure AD to return these tokens to the authenticated user if requested.
 
-![Screenshot selecting ID and access tokens to be returned under the implicit flow](../media/azure-ad-portal-new-app-implicit.png)
+![Screenshot selecting ID and access tokens to be returned under the implicit flow.](../media/azure-ad-portal-new-app-implicit.png)
 
 Save the settings by selecting **Save** in the toolbar at the bottom of the page.
 
@@ -71,15 +71,15 @@ After you create the application, you need to grant it the necessary permissions
 
 Select **API Permissions** in the left pane.
 
-![Screenshot of the API permissions navigation item](../media/azure-ad-portal-new-app-permissions-01.png)
+![Screenshot of the API permissions navigation item.](../media/azure-ad-portal-new-app-permissions-01.png)
 
 Select the **Add a permission** button.
 
-![Screenshot of the Add a permission button](../media/azure-ad-portal-new-app-permissions-02.png)
+![Screenshot of the Add a permission button.](../media/azure-ad-portal-new-app-permissions-02.png)
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
-![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-03.png)
+![Screenshot of Microsoft Graph in the Request API permissions panel.](../media/azure-ad-portal-new-app-permissions-03.png)
 
 When you're prompted for the type of permission, select **Delegated permissions**.
 
@@ -97,7 +97,7 @@ Run the Yeoman generator for Microsoft Teams by running the following command:
 yo teams
 ```
 
-![Screenshot of the Yeoman generator for Microsoft Teams](../media/03-yo-teams-01.png)
+![Screenshot of the Yeoman generator for Microsoft Teams.](../media/03-yo-teams-01.png)
 
 Yeoman starts and asks you a series of questions. Answer the questions with the following values:
 
@@ -379,16 +379,16 @@ gulp ngrok-serve --debug
 
 Copy the ngrok URL displayed in the console. Go back to Azure AD, and add or update the redirect URI of the Azure AD application previously created in this lab. Otherwise, Azure AD won't redirect you back to the **auth-end.html** page. The URL should be in the form of **https://{ngrok-subdomain}.ngrok.io/auth-end.html**.
 
-In the browser, go to [Microsoft Teams](https://teams.microsoft.com), and sign in with the credentials of a Work and School account. 
+In the browser, go to [Microsoft Teams](https://teams.microsoft.com), and sign in with the credentials of a Work and School account.
 
 
 Navigate to (or create) a Team for testing the Team Tab. In the Teams list, select **More options** next to the Team. Then select **Manage team**.
 
-![Screenshot of selecting the Manage team option](../media/07-channel-app-01.png)
+![Screenshot of selecting the Manage team option.](../media/07-channel-app-01.png)
 
 Select the **Apps** tab and then **Upload a custom app**.
 
-![Screenshot of the Apps tab of the Manage Team page](../media/07-channel-app-02.png)
+![Screenshot of the Apps tab of the Manage Team page.](../media/07-channel-app-02.png)
 
 In the file dialog that appears, select the Microsoft Teams package in your project. This app package is a ZIP file that can be found in the project's **./package** folder.
 
@@ -396,11 +396,11 @@ After the package is uploaded, Microsoft Teams displays a summary of the app. Se
 
 In the Team's General channel, select the **+** button in the Tab strip. In the **Add a Tab** dialog, select the **Learn MSTeams Auth Tabs** app.
 
-![Screenshot of the Add a Tab dialog](../media/07-channel-app-03.png)
+![Screenshot of the Add a Tab dialog.](../media/07-channel-app-03.png)
 
 Once the app is selected, the configuration page is displayed. Select **Save**. The tab is displayed.
 
-![Screenshot of the Learn Auth tab](../media/07-01.png)
+![Screenshot of the Learn Auth tab.](../media/07-01.png)
 
 Select the **Get My Messages** button. Microsoft Teams opens the pop-up window that will be redirected to Azure AD for sign-in. If you're prompted to sign in, enter the credentials of your Work and School account.
 
@@ -409,7 +409,7 @@ Select the **Get My Messages** button. Microsoft Teams opens the pop-up window t
 
 After you've successfully signed in to Azure AD, Microsoft Teams closes the pop-up window and displays the last 15 emails in your mailbox retrieved from Microsoft Graph.
 
-![Screenshot of the Learn Auth tab displaying messages from Microsoft Graph](../media/07-02.png)
+![Screenshot of the Learn Auth tab displaying messages from Microsoft Graph.](../media/07-02.png)
 
 ## Summary
 

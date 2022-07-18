@@ -14,28 +14,34 @@ To view the report in the Microsoft 365 Defender portal, go to **Reports** > **S
 
 - **Apps**: This category of reports provides data from Microsoft Defender for Cloud Apps on threats from different apps, such as privileged OAuth apps, suspicious admin activity, impersonations, and cloud activity geographical locations. Reports are related to Microsoft Teams because of different apps that are integrated with Teams.
 
-## Threat protection status report
+## Defender for Office 365 reports
+
+Microsoft Defender for Office 365 contains a variety of security-related reports. To view the Defender for Office 365 reports, go to the **Microsoft 365 Defender portal** > **Reports** >  **Email & collaboration** > **Email & collaboration reports**, and select **View details** of the report. 
+
+
+### Threat protection status report
 
 The Threat protection status report is available in both EOP and Defender for Office 365; however, the reports contain different data. For example, EOP customers can view information about malware detected in email, but not information about malicious files detected by Safe Attachments for SharePoint, OneDrive, and Microsoft Teams.
 
 The report provides the count of email messages with malicious content, such as files or website addresses (URLs) that were blocked by the anti-malware engine, zero-hour auto purge (ZAP), and Defender for Office 365 features like Safe Links, Safe Attachments, and impersonation protection features in anti-phishing policies. You can use this information to identify trends or determine whether organization policies need adjustment.
 
-To view the report in the Microsoft 365 Defender portal, go to **Reports** > **Email & collaboration reports**. On the **Email & collaboration reports** page, find **Threat protection status** and then select **View details**.
+To view the report, go to **Reports** > **Email & collaboration reports**. On the **Email & collaboration reports** page, find **Threat protection status** and then select **View details**.
 
-:::image type="content" source="../media/threat-protection-status.png" alt-text="Screenshot of Threat Protection Status report with information about detected files" lightbox="../media/threat-protection-status.png":::
+:::image type="content" source="../media/threat-protection-status.png" alt-text="Screenshot of Threat Protection Status report with information about detected files." lightbox="../media/threat-protection-status.png":::
 
-By default, the chart shows data for the past seven days. If you select **Filter** on the Threat protection status report page, you can select a **90-day** date range (trial subscriptions might be limited to 30 days). The details table allows filtering for 30 days.
+In the **View data by Content** > **Malware** view, you can find the Malicious files detected in Microsoft Teams by filtering the workload. 
 
-## Threat Explorer
+:::image type="content" source="../media/threat-protection-malware.png" alt-text="Screenshot of The Content malware view in the Threat protection status report." lightbox="../media/threat-protection-malware.png":::
 
-Threat Explorer (and the real-time detections report) is a powerful, near real-time tool to help Security Operations teams investigate and respond to threats in the Microsoft 365 Defender portal. Explorer (and the real-time detections report) displays information about suspected malware and phishes in email and files in Office 365, as well as other security threats and risks to your organization.
 
-When you first open Explorer (or the real-time detections report), the default view shows email malware detections for the past seven days. This report can also show Microsoft Defender for Office 365 detections, such as malicious URLs detected by **Safe Links**, and malicious files detected by **Safe Attachments**. This report can be modified to show data for the past 30 days (with a Microsoft Defender for Office 365 P2 paid subscription). Trial subscriptions will include data for the past seven days only.
+### URL protection report
 
-To view the report in the Microsoft 365 Defender portal, go to **Explorer**. Use the **View** menu to change what information is displayed. Tooltips help you determine which view to use. Once you have selected a view, you can apply filters and set up queries to conduct further analysis.
+The URL protection report provides summary and trend views for threats detected and actions taken on URL clicks as part of Safe Links. This report will not have click data from users where the Safe Links policy was applied when the Track user clicks option is not selected.
 
-:::image type="content" source="../media/explorer.png" alt-text="Screenshot of Explorer with information about detected files" lightbox="../media/explorer.png" :::
+To view the report, go to **Reports** > **Email & collaboration reports**. On the **Email & collaboration reports** page, find **URL protection report** and then select **View details**.
 
-## Knowledge check
+In the **View data by URL click by application** view, you can find the number of URL clicks by Teams by filtering the apps.
 
-Choose the best response for the following question. Then select “Check your answers.”
+:::image type="content" source="../media/url-threat-protection-report-url-click-by-application-view.png" alt-text="Screenshot of The U R L click protection action view in the U R L protection report." lightbox="../media/url-threat-protection-report-url-click-by-application-view.png" :::
+
+

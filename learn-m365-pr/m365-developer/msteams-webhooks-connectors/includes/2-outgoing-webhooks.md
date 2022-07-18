@@ -53,11 +53,11 @@ The first step is to create a web service that accepts HTTP POST requests with a
 
 From a team, add an app by selecting the **Create outgoing webhook** link on the channel's installed apps page:
 
-![Screenshot of the installed teams apps](../media/03-test-04.png)
+![Screenshot of the installed teams apps.](../media/03-test-04.png)
 
 Microsoft Teams will display a security token after you register the outgoing webhook that your web service will use to validate messages it receives are sent from Microsoft Teams:
 
-![Screenshot of the security token dialog](../media/03-test-05.png)
+![Screenshot of the security token dialog.](../media/03-test-05.png)
 
 ### Authenticate messages
 
@@ -71,7 +71,7 @@ Your web service should use the body of the message to generate the HMAC token u
 
 The last step in your web service is to respond to the Microsoft Teams request message with a success or failure. Outgoing webhook messages sent from Microsoft Teams are sent synchronously and your web service must respond within five seconds. The response from your web service will be added to the same reply chain as the original message. The reply can be a text string, or a rich message that includes images or a card.
 
-![Screenshot of a card-based response to a message](../media/03-test-07.png)
+![Screenshot of a card-based response to a message.](../media/03-test-07.png)
 
 ## Summary
 

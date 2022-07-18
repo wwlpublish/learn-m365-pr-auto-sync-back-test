@@ -118,7 +118,7 @@ The tab's `meetingSurfaces` array is a set of scopes where the app is shown. The
 
 Developers can get details about the current meeting the app is installed in different ways. Meeting apps can take advantage of the support for single sign-on for all apps.
 
-Refer to the Microsoft Teams documentation on [Single sign-on (SSO) support for tabs](/microsoftteams/platform/tabs/how-to/authentication/auth-aad-sso) for more information, including how to configure Azure AD and your app to obtain an SSO token from Microsoft Teams.
+For more information about SSO in Microsoft Teams tabs, including how to configure Azure AD and your app to obtain an SSO token from Microsoft Teams, see [Single sign-on (SSO) support for tabs](/microsoftteams/platform/tabs/how-to/authentication/auth-aad-sso).
 
 Azure AD applications used to support SSO in Microsoft Teams have many requirements. For example, they must be multitenant applications, they expose the `access_as_user` permission, and should also trust all Microsoft Teams client applications calling the app.
 

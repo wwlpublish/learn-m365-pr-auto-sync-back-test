@@ -20,11 +20,11 @@ The Azure Bot Framework’s OAuthPrompt makes authentication easier for apps usi
 
 ## Microsoft Teams and single sign-on (SSO)
 
-Microsoft added support for SSO to Microsoft Teams in 2020. This capability reduces how often a user is prompted to log in to third-party services.
+Microsoft added support for SSO to Microsoft Teams in 2020. This capability reduces how often a user is prompted to sign-in to third-party services.
 
 Microsoft Teams SSO support is implemented in combination with code in your custom app and Azure AD. To support SSO, a Microsoft Teams app must have a corresponding Azure AD application registration. This app registration defines what permissions the app supports and trusts the Microsoft Teams client applications to act on behalf of the user.
 
-Using this support for SSO, apps can request the user's profile information or information from Microsoft Graph.
+Using the SSO support, apps can request the user's profile information or information from Microsoft Graph.
 
 Users can consent Microsoft Teams apps for themselves to allow the app to obtain their profile information. The app can then use this profile information provided by Azure AD and Microsoft Teams as the ID of the currently signed in user.
 
@@ -58,7 +58,7 @@ Azure AD applications used to support SSO in Microsoft Teams have many requireme
 
 Creating and configuring this permission is done in the **Expose an API** section of the Azure AD app configuration. Here you specify a unique URI for the application in the format of **api://APP_HOST_DOMAIN/APP_ID**.
 
-![Screenshot of the Expose an API - Add a scope dialog in Azure AD](../media/03-azure-ad-app-registration-08.png)
+![Screenshot of the Expose an API - Add a scope dialog in Azure AD.](../media/03-azure-ad-app-registration-08.png)
 
 You then add permissions and optionally trust existing client apps to call this permission. When you automatically trust existing client apps, such as Microsoft Teams desktop, mobile, and web clients, Azure AD won't require the user to consent the application this permission.
 
