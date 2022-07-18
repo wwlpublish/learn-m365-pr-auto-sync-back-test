@@ -1,4 +1,4 @@
-Access management begins with a secure identity. Using the Zero Trust framework, this means you apply least privilege access by assigning the fewest permissions to authorized users. Securing identities and managing access is, therefore, unified into one identity and access management system.
+Access management begins with a secure identity. Using the Zero Trust approach, this means you apply least privilege access by assigning the fewest permissions to authorized users. Securing identities and managing access is, therefore, unified into one identity and access management system.
 
 ## How does identity and access management work?
 

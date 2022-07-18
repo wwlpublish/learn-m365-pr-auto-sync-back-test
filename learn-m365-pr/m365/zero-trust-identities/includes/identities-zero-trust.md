@@ -1,8 +1,8 @@
-In a computing sense, an identity can be a user, device, or application. The first step in a successful Zero Trust framework is being able to secure these identities.
+In a computing sense, an identity can be a user, device, or application. The first step in a successful Zero Trust approach is being able to secure these identities.
 
 Knowing who is making a request to access resources in your digital estate is essential to controlling access to sensitive data. When a user or device has been authenticated, they're given appropriate authorization, which grants them access to resources, assets, and data.
 
-Securing identities with a Zero Trust framework, also referred to as identity management, applies the principle of continually verifying users. Before allowing access, organizations must validate the identity of the user and other properties, such as their location, the health of their device, their role in the organization, and the type of data they're attempting to access. To achieve this end state, a Zero Trust strategy relies heavily on automated technologies and enforcement of policies to ensure security and provide a great user experience.
+Securing identities with a Zero Trust approach, also referred to as identity management, applies the principle of continually verifying users. Before allowing access, organizations must validate the identity of the user and other properties, such as their location, the health of their device, their role in the organization, and the type of data they're attempting to access. To achieve this end state, a Zero Trust strategy relies heavily on automated technologies and enforcement of policies to ensure security and provide a great user experience.
 
 A Zero Trust approach focuses on _authenticating_ and _authorizing_ every connection, device, user, or network flow.
 
