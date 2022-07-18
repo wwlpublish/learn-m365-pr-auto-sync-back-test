@@ -4374,6 +4374,16 @@
       "source_path": "learn-m365-pr/wwl/manage-users-groups/3-manage-users-groups-using-active-directory.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/manage-users-groups/5-manage-users-groups-using-active-directory",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-meetings-virtual-events-experiences/09-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-meetings-virtual-events-experiences/10-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-meetings-virtual-events-experiences/10-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-meetings-virtual-events-experiences/11-summary",
+      "redirect_document_id": true
     }
   ]
 }
