@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.viva-connections-launch-and-monitor
+metadata:
+  moduleType: standard
+  title: Launch and monitor Viva Connections
+  description: Learn how to test, launch, evaluate, and monitor Viva Connections.  
+  ms.date: 6/23/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365 
+title: Launch and monitor Viva Connections
+summary: Now that you're finishing building and customizing your plan, it’s time to announce the launch and availability of Viva Connections throughout your organization. Learn more about the best practices for announcing and launching Viva Connections and ways to manage change and evaluate adoption in your organization.
+abstract: |
+  By the end of this module, you'll be able to:
+    - Describe the main features of Viva Connections
+    - List technical requirements/prerequisites for Viva Connections implementation
+    - Explain the differences between desktop and mobile experiences 
+    -	Identify 2-3 business use cases for Viva Connections
+prerequisites: |
+  - Access to an instance of Viva Connections
+iconUrl: /learn/achievements/generic-badge.svg
+levels: 
+  - beginner
+roles: 
+  - administrator
+  - student
+products: 
+- viva
+- m365
+units:
+- learn-m365.viva-connections-launch-and-monitor.introduction
+- learn-m365.viva-connections-launch-and-monitor.test-viva-connections-before-launch
+- learn-m365.viva-connections-launch-and-monitor.announce-viva-connections-to-your-organization
+- learn-m365.viva-connections-launch-and-monitor.help-your-organization-manage-change
+- learn-m365.viva-connections-launch-and-monitor.use-metrics-to-evaluate
+- learn-m365.viva-connections-launch-and-monitor.knowledge-check
+- learn-m365.viva-connections-launch-and-monitor.summary
+badge:
+  uid: learn-m365.viva-connections-launch-and-monitor.badge
+  

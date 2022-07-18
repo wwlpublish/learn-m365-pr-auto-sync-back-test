@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-introduction.when-to-use-viva-connections
+title: When to use Viva Connections?
+metadata:
+  unitType: exercise
+  title: When to use Viva Connections?
+  description: Learn use cases on when to use Viva Connections to communicate and connect, schedule and manage tasks, view pay and benefits, deliver training and onboarding materials, and digitize processes.
+  ms.date: 6/23/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-when-to-use-viva-connections.md)]

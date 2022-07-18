@@ -63,7 +63,7 @@ You must be a Teams admin to configure meeting settings in the Teams admin cente
 
 3. Select **Save**.
 
-	:::image type="content" source="../media/meeting-settings.png" alt-text="Meeting settings":::
+	:::image type="content" source="../media/meeting-settings.png" alt-text="Screenshot of Meeting settings.":::
 
 > [!TIP] 
 > It may take approximately an hour for the setting changes to propagate through the system and take effect. At that point, you should schedule a Teams meeting to see if the information in the meeting invitation is correct.

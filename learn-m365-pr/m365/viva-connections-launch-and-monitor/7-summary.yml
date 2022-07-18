@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-launch-and-monitor.summary
+title: Summary
+metadata:
+  unitType: summary
+  title: summary
+  description: Summary of best practices and strategies to launch and monitor Viva Connections.
+  ms.date: 6/23/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/6-summary.md)]
