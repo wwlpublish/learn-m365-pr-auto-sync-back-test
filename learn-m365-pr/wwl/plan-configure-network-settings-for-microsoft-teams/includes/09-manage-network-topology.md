@@ -10,7 +10,8 @@ If your organization is deploying **Location-Based Routing for Direct Routing** 
 
 You configure network settings on the Network topology page of the Microsoft Teams admin center or by using Windows PowerShell.
 
-## Configure network settings using Teams admin center 
+## Configure network settings 
+
 
 ### Configure network sites  
 
@@ -35,6 +36,14 @@ You define network regions, network sites, and subnets on the **Network sites** 
 
     :::image type="content" source="../media/network-topology.png" alt-text="Screenshot of adding network topology.":::
 
+You can also use the following PowerShell cmdlet to configure network sites:
+
+* To define network regions, use the cmdlet ```New-CsTenantNetworkRegion```. 
+
+* To define network sites, use the cmdlet ```New-CsTenantNetworkSite```. 
+
+* To define network subnets, use the cmdlet ```New-CsTenantNetworkSubnet```. 
+
 ### Configure trusted IP addresses
 
 You manage external trusted IP addresses on the **Trusted IPs** tab on the Network topology page of the Microsoft Teams admin center. You can add an unlimited number of external trusted IP addresses.
@@ -46,6 +55,11 @@ You manage external trusted IP addresses on the **Trusted IPs** tab on the Netwo
 3. In the **Add trusted IP address** pane, specify the IP version, IP address, network range, add a description, and then select **Apply**.
 
     :::image type="content" source="../media/network-trusted-ip.png" alt-text="Screenshot of adding trusted I P.":::
+
+You can also use the following PowerShell cmdlet to configure trusted IP addresses:
+
+* To define external subnets and assign them to the tenant, use the cmdlet ```New-CsTenantTrustedIPAddress```.
+
 
 ### Configure roaming policies
 
@@ -69,30 +83,14 @@ When the Teams client signs in from a network site with a roaming policy assigne
 
 4. Then, you can assign the roamig policy by editing a network site from the **Network sites** tab.
 
-## Configure network settings using PowerShell
-
-### Configure network sites  
-
-* To define network regions, use the cmdlet ```New-CsTenantNetworkRegion```. 
-
-* To define network sites, use the cmdlet ```New-CsTenantNetworkSite```. 
-
-* To define network subnets, use the cmdlet ```New-CsTenantNetworkSubnet```. 
-
-### Configure trusted IP addresses
-
-* To define external subnets and assign them to the tenant, use the cmdlet ```New-CsTenantTrustedIPAddress```.
-
-### Configure roaming policies
-To configure the network roaming policies, using the following PowerShell cmdlets:
+You can also use the following PowerShell cmdlet to configure roaming policies:
 
 * ```Get-CsTeamsNetworkRoamingPolicy```
 * ```New-CsTeamsNetworkRoamingPolicy```
 * ```Set-CsTeamsNetworkRoamingPolicy```
 * ```Remove-CsTeamsNetworkRoamingPolicy```
 
-After you've configured the policy, assign it to one or more network sites by using the ```Set-CsTenantNetworkSite``` cmdlet
+After you've configured the policy, assign it to one or more network sites by using the ```Set-CsTenantNetworkSite``` cmdlet.
 
-For more details, see [Configure network settings using PowerShell](https://docs.microsoft.com/microsoftteams/manage-your-network-topology?azure-portal=true
-#configure-network-settings-using-powershell)
+For more information, see [Configure network settings using PowerShell](/microsoftteams/manage-your-network-topology?azure-portal=true#configure-network-settings-using-powershell).
 
