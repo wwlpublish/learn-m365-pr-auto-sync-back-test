@@ -8,7 +8,7 @@ Teams Phone provides many key capabilities to help an organization’s users to 
 Teams Phone can be connected to the PSTN in one of several ways:
 * **Purchase a Microsoft Calling Plan.** Microsoft Calling Plan is an all-in-the-cloud solution with Microsoft as your PSTN carrier.
 
-* **Use your existing telephony infrastructure for on-premises PSTN connectivity.**            You can connect your on-premises telephony infrastructure to Teams Phone System by using Operator Connect Calling or Direct Routing.
+* **Use your existing telephony infrastructure for on-premises PSTN connectivity.**            You can connect your on-premises telephony infrastructure to Teams Phone by using Operator Connect Calling or Direct Routing.
 
 ## Teams Phone services
 

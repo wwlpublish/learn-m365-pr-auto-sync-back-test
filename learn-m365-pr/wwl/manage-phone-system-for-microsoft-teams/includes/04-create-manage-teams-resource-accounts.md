@@ -1,14 +1,15 @@
-Microsoft Teams requires a resource account for each auto attendant or call queue. Resource accounts may also be assigned service telephone numbers. This design enables organizations to assign phone numbers to auto attendants and call queues, which allows callers from outside Teams to reach the auto attendant or call queue.
+All auto attendants and call queues require an associated resource account. Resource accounts may also be assigned service telephone numbers. This design enables organizations to assign phone numbers to auto attendants and call queues, which allows callers from outside Teams to reach the auto attendant or call queue. 
 
 > [!NOTE]
 > Teams resource accounts aren't the same as Microsoft 365 resource accounts. Microsoft 365 resource accounts are tied to an Exchange Online mailbox and enable booking of shared resources, such as rooms.
 
 Before creating a Teams resource account and configuring it, ensure you've done the following:
 
-* **Virtual user licenses** - If you purchased **Teams Phone Standard** or **Teams Phone with Calling Plan** bundle licenses, virtual licenses are already in your account. If you have virtual licenses, they'll appear as **Microsoft Teams Phone Standard - Virtual User** under **Billing** > **Your products** in the Microsoft 365 admin center. 
-
 * **Service numbers** - For any auto attendant or call queue that you want to be reachable directly by a service number, you must have a resource account with an associated service number.
 
+* **Resource Account licenses** - Resource accounts that require a phone number need either a free **Microsoft Teams Phone Resource Account** license or a paid **Teams Phone Standard** user license before a phone number can be applied to the resource account.
+
+	Your organization is allotted **Microsoft Teams Phone Resource Account** licenses depending on its overall size. Any organization that has at least one license with Teams  Phone features, including **Teams Phone Standard** and **Teams Phone with Calling Plan** licenses, has 25 Resource Account licenses available at no cost. For more information, see [Resource Account license allocation](/microsoftteams/teams-add-on-licensing/virtual-user?azure-portal=true#resource-account-license-allocation).
 
 ## Create a resource account
 
@@ -28,11 +29,11 @@ You can create a resource account in the Teams admin center by completing the fo
 
 ## Assign a license
 
-Each resource account requires a license to work with auto attendants and call queues. You can assign a **Microsoft Teams Phone Standard - Virtual User license** license or a **Teams Phone Standard license** license to the resource account.
+Each resource account requires a license to work with auto attendants and call queues. You can assign a **Microsoft Teams Phone Resource Account** or **Microsoft Teams Phone Standard** to the resource account.
 
 1. In the Microsoft 365 admin center, select the resource account to which you want to assign a license.
 
-2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft Teams Phone System - Virtual User**.
+2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft Teams Phone Standard**.
 
 3. Select **Save changes**.
 
