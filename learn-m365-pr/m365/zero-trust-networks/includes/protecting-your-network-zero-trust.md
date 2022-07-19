@@ -45,6 +45,6 @@ Data is at the heart of everything we do, whether it's pictures of your loved on
 
 One of the best ways to keep data safe is to ensure that it's encrypted. Encryption is the process of rendering a message unintelligible to anyone who doesn't have the right key to decode it.
 
-Encrypting your data applies not only to data that is stored on a device, whether on-premises, in the cloud, or on an external drive—known as data at rest—but also to data that is sent across your network, known as data in transit.
+Encrypting your data applies not only to data that's stored on a device, whether on-premises, in the cloud, or on an external drive—known as data at rest—but also to data that's sent across your network, known as data in transit.
 
 One of the key objectives when applying a Zero Trust strategy to the network is to ensure that any app that accesses data encrypts it. You should also consider encrypting all data that moves from your on-premises networks to the cloud or the internet. There are many tools on the market that can seamlessly encrypt all communications between user devices and the apps they're using, and the source of data. If you're developing your own applications, encryption of all data in transit is essential.
