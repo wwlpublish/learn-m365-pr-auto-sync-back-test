@@ -1,4 +1,4 @@
-To protect endpoints, an organization must take a Zero Trust approach. This means you need to employ the principle of "never trust, always verify" across all endpoints, regardless of whether they belong to an organization, or they don't—such as endpoints owned by a contractor, a partner, or an employee.
+To protect endpoints, an organization must implement Zero Trust principles. This means you need to configure a "never trust, always verify" approach across all endpoints, regardless of whether they belong to an organization or are owned by a contractor, a partner, or an employee.
 
 To successfully secure endpoints, an organization should achieve the following:
 
@@ -22,7 +22,7 @@ The combination of these measures enables organizations to control access. For e
 
 ## Grant access only to cloud-managed and compliant endpoints
 
-Next, organizations need to limit access to endpoints that are compliant with their security requirements. If endpoints aren't compliant, it could lead to vulnerabilities, which might allow the endpoint to be compromised, and result in serious consequences.
+Next, organizations need to limit access to endpoints that are compliant with their security requirements. If endpoints aren't compliant, it could allow the endpoint to become compromised, and result in serious consequences if it connects to the corporate network.
 
 Organizations can define requirements using compliance policies. For example, your organization could have a policy that requires devices to have the latest operating system version installed or have antimalware protection enabled. Your IT team can create compliance policies using cloud-based modern device management tools. These are dedicated solutions designed to enable your organization to manage all its devices from the cloud, from preconfiguration before first use, to monitoring and enforcing configuration and security requirements continuously.
 

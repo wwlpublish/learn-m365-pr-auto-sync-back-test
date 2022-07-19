@@ -34,8 +34,8 @@ Using extended detection and response (XDR) tools is pivotal in providing the ne
 
 Typically, threats fall into two broad categories: known and unknown attacks.
 
-- **Known attacks** are those that have been previously discovered by other sources. Each attack has a unique signature, which enables it to be identified. By keeping your threat detection tools up-to-date, you'll spot these attacks and mitigate them before they can do any damage.
-- **Unknown attacks** are threats and attacks that don't match any known signatures. These are called zero-day attacks. The ability of your threat protection system to identify these attacks depends on it knowing what normal traffic and behaviors are, and what aren't.
+- **Known attacks** are those that have been previously discovered by other sources. Attack often have unique indicators, which enables it to be identified. By keeping your threat detection tools up-to-date, you'll spot these attacks and mitigate them before they can do any damage.
+- **Unknown attacks** are threats and attacks that are new and don't match any known indicators. These are called zero-day attacks. The ability of your threat protection system to identify these attacks depends on it knowing what normal traffic and behaviors are, and what aren't.
 
 Using these tools empowers security teams, giving them the necessary information required to detect, deter, and defeat the most critical attacks and risks, both internally and externally.
 
@@ -45,6 +45,6 @@ Data is at the heart of everything we do, whether it's pictures of your loved on
 
 One of the best ways to keep data safe is to ensure that it's encrypted. Encryption is the process of rendering a message unintelligible to anyone who doesn't have the right key to decode it.
 
-Encrypting your data applies not only to data that is stored on a device, whether on-premises, in the cloud, or on an external drive—known as data at rest—but also to data that is sent across your network, known as data in transit.
+Encrypting your data applies not only to data that's stored on a device, whether on-premises, in the cloud, or on an external drive—known as data at rest—but also to data that's sent across your network, known as data in transit.
 
 One of the key objectives when applying a Zero Trust strategy to the network is to ensure that any app that accesses data encrypts it. You should also consider encrypting all data that moves from your on-premises networks to the cloud or the internet. There are many tools on the market that can seamlessly encrypt all communications between user devices and the apps they're using, and the source of data. If you're developing your own applications, encryption of all data in transit is essential.

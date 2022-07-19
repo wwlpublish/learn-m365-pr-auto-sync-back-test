@@ -4,7 +4,7 @@ title: Identities in Zero Trust
 metadata:
   unitType: learning-content
   title: Identities in Zero Trust
-  description: In a computing sense, an identity can be a user, device, or application. The first step in a successful Zero Trust framework is being able to secure these identities.
+  description: In a computing sense, an identity can be a user, device, or application. The first step in implementing Zero Trust is being able to secure these identities.
   ms.date: 06/22/2022
   author: beccarobins
   ms.author: beccarobins

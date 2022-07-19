@@ -10,7 +10,7 @@ An identity and access management system is a vital security layer. It's crucial
 
 ## Compliant identification
 
-Identity and access management and compliance, combined with effective security policies, can help prevent hacking or other security breaches. One of the most common reasons for a security breach is when cybercriminals gain access through unauthorized means.
+Identity and access management and compliance, combined with effective security policies, can help prevent hacking or other security breaches. 
 
 There are measures that organizations can take with specific technologies to improve their overall security perimeter. Below are some of the methods of identification used by many organizations to monitor access to resources:
 
@@ -44,7 +44,7 @@ The least privilege access can be exercised by:
 - Service accounts
 - Business user accounts
 
-The way in which we work today has changed and is continuing to evolve. More users and devices connect via the cloud, Internet of Things (IoT) devices communicate with each other, and more business processes are being automated. This has greatly increased the volume of access-related cybercriminal attacks.
+The way in which we work today is continuing to evolve. More users and devices connect via the cloud, Internet of Things (IoT) devices communicate with each other, and more business processes are being automated. This has greatly increased the volume of access-related cybercriminal attacks.
 
 An effective least privilege access management solution ensures:
 

@@ -10,7 +10,7 @@ An endpoint is any device that connects to your network whether in the cloud, on
 
 ## Applications
 
-Applications are the means by which users access their data. Knowing how these apps and their application programming interfaces work is essential to understanding, managing, and controlling the flow of data. All apps used across your digital estate should be given tightly controlled in-app permissions and be monitored for abnormal behavior.
+Applications are productivity tools through which users access their data. Knowing how these apps and their application programming interfaces work is essential to understanding, managing, and controlling the flow of data. All apps used across your digital estate should be given tightly controlled in-app permissions and be monitored for abnormal behavior.
 
 ## Networks
 
