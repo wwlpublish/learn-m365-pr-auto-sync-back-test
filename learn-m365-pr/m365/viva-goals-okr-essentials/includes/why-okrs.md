@@ -21,7 +21,7 @@ OKRs help organizations solve many problems, including ones that are newly emerg
 - **Values around work are changing.** Modern employees are seeking companies with purpose, meaning, transparency, and who value employee input around key decisions.
 - **The workforce is global.** Collaboration, networking, meetings, and teams now cross geographic, language, time zones and cultural lines.
 
-Fortunately, OKRs help address these issues, and provide a modern business framework for high-growth companies.
+Fortunately, OKRs help address these issues, and provide a modern business framework for high-performance. 
 
 ## OKR benefits
 
