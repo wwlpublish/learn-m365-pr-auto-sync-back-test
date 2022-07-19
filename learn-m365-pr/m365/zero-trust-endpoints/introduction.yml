@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.zero-trust-endpoints.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: Introduction
+  description: Modern organizations deal with a great variety of endpoints, in larger numbers than ever before. They all require access to carry out a task or enable users to do their daily work. 
+  ms.date: 06/22/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

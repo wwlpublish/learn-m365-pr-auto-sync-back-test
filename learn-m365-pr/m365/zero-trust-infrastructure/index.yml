@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn-m365.zero-trust-infrastructure
+metadata:
+  moduleType: standard
+  title: Protect infrastructure with Zero Trust
+  description: Infrastructure is a broad term that covers all hardware, software, servers, networks, facilities, and much more. Utilizing Zero Trust principles can help to reduce your infrastructure's exposure to cyberattacks through improved monitoring, configuration management, and keeping software up-to-date.
+  ms.date: 7/5/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Protect infrastructure with Zero Trust
+summary: Infrastructure is a broad term that covers all hardware, software, servers, networks, facilities, and much more. Utilizing Zero Trust principles can help to reduce your infrastructure's exposure to cyberattacks through improved monitoring, configuration management, and keeping software up-to-date.
+abstract: |
+  By the end of this module, you'll be able to:
+    - Describe the threat vectors associated with your infrastructure.
+    - Describe how configuration management can improve your infrastructure.
+    - Describe how monitoring your infrastructure can identify possible vulnerabilities and attacks.
+
+prerequisites: |
+  - None 
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - administrator
+  - student
+products:
+- m365
+subjects:
+  - security
+units:
+- learn-m365.zero-trust-infrastructure.introduction
+- learn-m365.zero-trust-infrastructure.what-infrastructure
+- learn-m365.zero-trust-infrastructure.assess-monitor-infrastructure
+- learn-m365.zero-trust-infrastructure.harden-infrastructure
+- learn-m365.zero-trust-infrastructure.knowledge-check
+- learn-m365.zero-trust-infrastructure.summary
+badge:
+  uid: learn-m365.zero-trust-infrastructure.badge
