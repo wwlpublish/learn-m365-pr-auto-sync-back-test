@@ -2,7 +2,7 @@ To protect endpoints, it's critical to understand exactly what they are. Here, w
 
 ## What is an endpoint?
 
-An *endpoint* is any entity that connects to, and communicates through, a network. This includes devices such as computers, mobile devices, Internet of Things (IoT) devices, USB devices, and more.
+An *endpoint* is any entity that connects to, and communicates through, a network. This includes devices such as computers, mobile devices, Internet of Things (IoT) devices, virtual machines, USB devices, and more.
 
 Endpoints can be owned by an organization or a user. They can be fully managed by an organization's IT team (think work laptops) or partially managed. For example, an individual owns the device, but uses an email client (managed by their organization's IT department) for emails.
 

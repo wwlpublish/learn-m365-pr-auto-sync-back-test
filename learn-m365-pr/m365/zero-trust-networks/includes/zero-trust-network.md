@@ -7,7 +7,7 @@ Zero Trust isn't a tool, but a security model. Using this model, when it comes t
 - Try to limit damage from an attack and the rate at which it spreads.
 - Make it more difficult for a cybercriminal to attack your network.
 
-To achieve these objectives, a network that adheres to the Zero Trust model makes the following assertions:
+To achieve these objectives, a network that adheres to the Zero Trust approach makes the following assertions:
 
 - Assume that your network isn't safe from attack.
 - Threats, whether internal or external, are present on your network all the time.
@@ -23,7 +23,7 @@ Every organization will be at a different level of maturity when it comes to net
 
 ### Traditional
 
-The traditional stage is broadly where most organizations will start when considering a Zero Trust model for their networks. It can be summarized as follows:
+The traditional stage is broadly where most organizations will start when considering a Zero Trust approach for their networks. It can be summarized as follows:
 
 - Access and authorization permissions are manually managed and largely static.
 - Some internet resources are accessible to users directly.

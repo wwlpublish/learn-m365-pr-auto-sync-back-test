@@ -11,7 +11,7 @@ To successfully secure endpoints, an organization should achieve the following:
 
 Organizations need to monitor and secure endpoints in a way that encompasses all the endpoints that are used by everyone. This means that your organization must be able to see and manage access to the endpoints that could be used to reach its resources.  
 
-To achieve this, the organization's IT team can carry out the following steps: 
+To achieve this, the organization's IT team can carry out the following steps:
 
 - Register all devices with identity providers.
 - Require modern authentication.
@@ -22,7 +22,7 @@ The combination of these measures enables organizations to control access. For e
 
 ## Grant access only to cloud-managed and compliant endpoints
 
-Next, organizations need to limit access to endpoints that are compliant with their security requirements. If endpoints aren't compliant, it could lead to vulnerabilities, which might allow the endpoint to be compromised, and result in serious consequences.
+Next, organizations need to limit access to endpoints that are compliant with their security requirements. If endpoints aren't compliant, it could allow the endpoint to become compromised, and result in serious consequences if it connects to the corporate network.
 
 Organizations can define requirements using compliance policies. For example, your organization could have a policy that requires devices to have the latest operating system version installed or have antimalware protection enabled. Your IT team can create compliance policies using cloud-based modern device management tools. These are dedicated solutions designed to enable your organization to manage all its devices from the cloud, from preconfiguration before first use, to monitoring and enforcing configuration and security requirements continuously.
 

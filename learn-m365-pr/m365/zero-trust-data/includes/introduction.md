@@ -10,4 +10,4 @@ Remember that Zero Trust requires you to follow three security principles:
 - Use least privilege access
 - Assume breach
 
-To protect your organization and users, these principles need to be applied to all data. Here, you'll learn how to protect your data using a Zero Trust approach.
+To protect your organization and users, these principles need to be applied to all data. Here, you'll learn how to protect your data using a Zero Trust strategy.
