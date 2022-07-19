@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.zero-trust-networks
+metadata:
+  moduleType: standard
+  title: Manage networks with Zero Trust
+  description: Networks enable us to communicate with everyone, from sharing pictures and video chats to online shopping and banking. Protecting your network from cybercriminals can be demanding as many of us move to hybrid working. A Zero Trust strategy will help to keep your networks safe and your data secure. 
+  ms.date: 6/16/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage networks with Zero Trust
+summary: Networks enable us to communicate with everyone, from sharing pictures and video chats to online shopping and banking. Protecting your network from cybercriminals can be demanding as many of us move to hybrid working. A Zero Trust strategy will help to keep your networks safe and your data secure. 
+abstract: |
+  By the end of this module, you'll be able to:
+    - Describe a network and network encryption.
+    - Describe how network segmentation can limit the scope of a data breach.
+    - Describe threat protection and some of the tools you can use to protect your network. 
+
+prerequisites: |
+  - None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - administrator
+  - student
+products:
+  - m365
+subjects:
+  - security
+units:
+- learn-m365.zero-trust-networks.introduction
+- learn-m365.zero-trust-networks.what-are-networks
+- learn-m365.zero-trust-networks.common-network-attacks
+- learn-m365.zero-trust-networks.zero-trust-network
+- learn-m365.zero-trust-networks.protect-your-network-zero-trust
+- learn-m365.zero-trust-networks.knowledge-check
+- learn-m365.zero-trust-networks.summary
+badge:
+  uid: learn-m365.zero-trust-networks.badge

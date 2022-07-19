@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.zero-trust-networks.zero-trust-network
+title: Zero Trust and the network
+metadata:
+  unitType: learning-content
+  title: Zero Trust and the network
+  description: Every organization will be at a different level of maturity when it comes to network security. Within Zero Trust, there is a maturity model that lets you know where you are.
+  ms.date: 7/6/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/zero-trust-network.md)]

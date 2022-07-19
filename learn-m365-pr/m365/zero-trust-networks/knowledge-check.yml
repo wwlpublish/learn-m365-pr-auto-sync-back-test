@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.zero-trust-networks.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Check what you've learned in this module
+  ms.date: 6/16/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+
+content: |
+quiz:
+  questions:
+  - content: Why is network segmentation suited to limit the scope of a breach?
+    choices:
+    - content: A cybercriminal can be caught more easily in a network segment.
+      isCorrect: false
+      explanation: That's incorrect. Segmentation is designed to protect your network and limit access to authorized users and devices.
+    - content: A cybercriminal will need to attack each segment to access sensitive data.
+      isCorrect: true
+      explanation: That's correct. By segmenting your network, you make it more difficult for an attacker to access data and cause malicious damage.
+    - content: It obfuscates the data, making it more difficult for a cybercriminal to know whether or not it's sensitive data.
+      isCorrect: false
+      explanation: That's incorrect. Segmentation is designed to protect your network and limit access to authorized users and devices, not obfuscate data.
+  - content: Your organization wants to implement threat protection on its network. How should it do this?
+    choices:
+    - content: Install and configure robust antivirus and antimalware tools and systems.
+      isCorrect: false
+      explanation: That's incorrect. Antivirus and antimalware should be installed to protect your network. However, it will not allow you to detect attacks and mitigate the threat.
+    - content: Install and configure man-in-the-middle detection tools and systems.
+      isCorrect: false
+      explanation: That's incorrect. Network threat protection tools should continuously monitor your network, looking to detect and respond to threats.
+    - content: Install and configure extended detection and response tools and systems.
+      isCorrect: true
+      explanation: That's correct. Using advanced monitoring tools can help to detect, deter and defeat cyberattacks before they cause damage.
+  - content: Why is it important to ensure that all data on your network is encrypted?
+    choices:
+    - content: It ensures only authorized users can access your data.
+      isCorrect: true
+      explanation: That's correct. Whether the data is at rest or in transit, it should be encrypted to prevent unauthorized users from gaining access.
+    - content: It makes your data more secure and stops it from being stolen.
+      isCorrect: false
+      explanation: That's incorrect. While encrypting data makes it more secure, this doesn't prevent it from being stolen. 
+    - content: It makes it easier to track down stolen data.
+      isCorrect: false
+      explanation: That's incorrect. Encrypted data is more secure but is no easier to track down than unencrypted data. 
