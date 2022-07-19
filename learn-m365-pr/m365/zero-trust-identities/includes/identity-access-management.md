@@ -10,7 +10,7 @@ An identity and access management system is a vital security layer. It's crucial
 
 ## Compliant identification
 
-Identity and access management and compliance, combined with effective security policies, can help prevent hacking or other security breaches. One of the most common reasons for a security breach is when cybercriminals gain access through unauthorized means.
+Identity and access management and compliance, combined with effective security policies, can help prevent hacking or other security breaches. 
 
 There are measures that organizations can take with specific technologies to improve their overall security perimeter. Below are some of the methods of identification used by many organizations to monitor access to resources:
 
