@@ -8,7 +8,7 @@ The same dial string may be interpreted and translated differently in different 
 
 There are two types of dial plans in Microsoft Teams:
 
-* **Service-scoped dial plans** - A service-scoped dial plan is defined for every country or region where Phone System is available. Each user is automatically assigned the service country/region dial plan that matches the usage location assigned to the user. You can't change the service country/region dial plan.
+* **Service-scoped dial plans** - A service-scoped dial plan is defined for every country or region where Teams Phone is available. Each user is automatically assigned the service country/region dial plan that matches the usage location assigned to the user. You can't change the service country/region dial plan.
 
 * **Tenant-scoped dial plans** - As clients are provisioned, they obtain an "effective dial plan." This dial plan is a combination of the service country/region dial plan and the appropriately scoped tenant dial plan. This option doesn't require an organization to define all normalization rules in tenant dial plans because they may already exist in the service country/region dial plan.
 
@@ -45,9 +45,9 @@ Dial plans can be configured using either the Teams admin center or Windows Powe
 Complete the following steps to configure a dial plan using the Teams admin center:
 
 1. In the left-hand navigation pane of the Microsoft Teams admin center, select **Voice** > **Dial plan**.
-2. Select **Add**, and then enter a name and description for the dial plan.
+2. Select **+ Add**, and then enter a name and description for the dial plan.
 
-    ‎:::image type="content" source="../media/create-dial-plan.png" alt-text="Screenshot showing the Add page for creating a dial plan":::
+    :::image type="content" source="../media/create-dial-plan.png" alt-text="Screenshot showing the Add page for creating a dial plan.":::
 
 3. Under **Dial plan details** section, specify an external dialing prefix if users must dial one or more leading digits (for example, 9) to get an external line. To configure a dial plan prefix, update the following fields:
     * **External dialing prefix** - Enter an external dialing prefix. The prefix can be up to four characters (#,*, and 0-9).
@@ -57,7 +57,7 @@ Complete the following steps to configure a dial plan using the Teams admin cent
 
     Normalization rules use .NET Framework regular expressions to specify numeric match patterns that the server uses to translate dial strings to E.164 format.
     
-    The following table shows sample normalization rules that are written as .NET Framework regular expressions. For more examples, see [Sample normalization rules](https://docs.microsoft.com/microsoftteams/what-are-dial-plans#sample-normalization-rules?azure-portal=true).
+    The following table shows sample normalization rules that are written as .NET Framework regular expressions. For more examples, see [Sample normalization rules](/microsoftteams/what-are-dial-plans#sample-normalization-rules?azure-portal=true).
 
     | Rule name | Description | Number pattern | Translation | Example |
     |:-----|:-----|:-----|:-----|:-----|
@@ -65,7 +65,7 @@ Complete the following steps to configure a dial plan using the Teams admin cent
     |5digitExtension   |Translates five-digit extensions.   |^5(\\d{4})$   |+1425555$1   |50100 is translated to +14255550100   |
     |7digitcallingRedmond   |Translates  seven-digit numbers to Redmond local numbers.   |^(\\d{7})$   |+1425$1   |5550100 is translated to +14255550100  |
 
-    ‎:::image type="content" source="../media/normalization-rules.png" alt-text="Screenshot showing the Normalization rules for creating a dial plan":::
+    :::image type="content" source="../media/normalization-rules.png" alt-text="Screenshot showing the Normalization rules for creating a dial plan.":::
 
 5.  Select **Move up** or **Move down** to change the position of rules in the list.
 
@@ -74,7 +74,13 @@ Complete the following steps to configure a dial plan using the Teams admin cent
 6. Select **Save**.
 7. If you want to test the dial plan, under **Test dial plan**, enter a phone number, and then select **Test**.
 
-8. You can assign the dial plan to users.
+8. You can assign the dial plan to users with the following ways:
+
+    |Scenarios|Details|
+    |--|--|
+    |Assign a policy directly to an individual user| Go to **Users** > **Manage users** > Select a user > **Policies** tab > **Assigned policies**. |
+    |Assign a policy to a batch of users| Option 1: Go to **Users** > **Manage users** > Select multiple users > **Edit settings**. <br/>Option 2: Go to **Dail plans** > Select the policy > **Assign users**.|
+
 
 ### Use PowerShell
 
@@ -85,6 +91,3 @@ To configure dial plans using PowerShell,  use the following PowerShell cmdlets:
 * To add users to a dial plan, run: ```Grant-CsTenantDialPlan```
 * To see the settings of the effective dial plan, run: ```Get-CsEffectiveTenantDialPlan```
 
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”
