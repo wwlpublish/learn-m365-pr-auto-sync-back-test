@@ -7,7 +7,7 @@ In this short video, you'll see a simplified simulation of how each of these att
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWP56P?postJsllMsg=true]
 
-For the man-in-the-middle attack, to keep it simple, we chose to only use one route. With the DDoS attack, hundreds of thousands, or even tens of millions, of computers are used. Again, for simplicity, we've only shown a handful.
+For the adversary-in-the-middle attack, to keep it simple, we chose to only use one route. With the DDoS attack, hundreds of thousands, or even tens of millions, of computers are used. Again, for simplicity, we've only shown a handful.
 
 ## Lateral movement
 
