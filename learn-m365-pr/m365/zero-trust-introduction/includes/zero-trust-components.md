@@ -2,7 +2,7 @@ In the Zero Trust approach, identity, endpoints, applications, network, infrastr
 
 ## Identities
 
-An identity in the Zero Trust approach is defined as users, services, applications, and Internet of Things (IoT) devices. In the Zero Trust approach, identities control and administer access to critical data and resources. This means that when an identity attempts to access a resource, organizations must verify it through strong authentication methods, ensure access is compliant and typical for that identity, and enforce least privilege access principles.
+An identity in the Zero Trust approach is defined as users, services, and the credentials used by applications, and Internet of Things (IoT) devices. In the Zero Trust approach, identities control and administer access to critical data and resources. This means that when an identity attempts to access a resource, organizations must verify it through strong authentication methods, ensure access is compliant and typical for that identity, and enforce least privilege access principles.
 
 ## Endpoints
 
