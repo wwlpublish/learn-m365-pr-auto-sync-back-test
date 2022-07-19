@@ -18,12 +18,9 @@ The perimeter security model puts organizations at risk from the following:
 
 As people move from on-premises working to a more hybrid model, the ability of a traditional security approach to keep data, assets, and resources safe becomes more difficult.
 
-## Zero Trust as a security strategy
+## The Zero Trust approach
 
-> [!div class="centered"]
-> :::image type="content" source="../media/zero-trust-as-a-centralized-approach.png" alt-text="Diagram showing Zero Trust as a centralized approach to protect I T assets." border="false":::
-```suggestion
-> :::image type="content" source="../media/zero-trust-as-a-centralized-approach.png" alt-text="Diagram showing Zero Trust as a centralized approach to protect I T assets." border="false":::```
+:::image type="content" source="../media/zero-trust-as-a-centralized-approach.png" alt-text="Diagram showing Zero Trust as a centralized approach to protect I T assets." border="false":::
 
 The eroding traditional network security approach has given way to the Zero Trust approach. This model is based on verifying users and devices rather than just determining where they're located. The perimeter model can no longer be trusted as it fails to provide quick responsiveness and the protection required for a rapidly evolving digital landscape. For example, with a Zero Trust approach, users aren't only verified at the perimeter but also when they move from one part of the network to another. Implementing a Zero Trust approach alleviates the issue of who's accessing what and enables organizations to be more agile. The benefits of adopting a Zero Trust approach include, but aren't limited to:
 
