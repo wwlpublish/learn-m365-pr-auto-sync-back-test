@@ -44,7 +44,7 @@ The least privilege access can be exercised by:
 - Service accounts
 - Business user accounts
 
-The way in which we work today has changed and is continuing to evolve. More users and devices connect via the cloud, Internet of Things (IoT) devices communicate with each other, and more business processes are being automated. This has greatly increased the volume of access-related cybercriminal attacks.
+The way in which we work today is continuing to evolve. More users and devices connect via the cloud, Internet of Things (IoT) devices communicate with each other, and more business processes are being automated. This has greatly increased the volume of access-related cybercriminal attacks.
 
 An effective least privilege access management solution ensures:
 
