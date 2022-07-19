@@ -34,7 +34,7 @@ Using extended detection and response (XDR) tools is pivotal in providing the ne
 
 Typically, threats fall into two broad categories: known and unknown attacks.
 
-- **Known attacks** are those that have been previously discovered by other sources. Each attack has a unique signature, which enables it to be identified. By keeping your threat detection tools up-to-date, you'll spot these attacks and mitigate them before they can do any damage.
+- **Known attacks** are those that have been previously discovered by other sources. Attack often have unique indicators, which enables it to be identified. By keeping your threat detection tools up-to-date, you'll spot these attacks and mitigate them before they can do any damage.
 - **Unknown attacks** are threats and attacks that don't match any known signatures. These are called zero-day attacks. The ability of your threat protection system to identify these attacks depends on it knowing what normal traffic and behaviors are, and what aren't.
 
 Using these tools empowers security teams, giving them the necessary information required to detect, deter, and defeat the most critical attacks and risks, both internally and externally.
