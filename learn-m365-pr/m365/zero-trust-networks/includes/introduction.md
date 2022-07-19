@@ -14,4 +14,4 @@ Zero Trust isn't a tool, but a security model that employs three principles:
 
 A network following Zero Trust principles assumes that cyberattack breaches are inevitable and that each network access request comes from an untrusted source. Working on this principle, Zero Trust lets you build a strong defense against attacks before they happen and minimizes the effects of a malicious attack.
 
-In this module, you'll learn how the Zero Trust security model can protect your network through segmentation. You'll also understand network boundaries, use threat protection to spot weaknesses, and see how encrypting your data can minimize data loss.
+In this module, you'll learn how the Zero Trust approach can protect your network through segmentation. You'll also understand network boundaries, use threat protection to spot weaknesses, and see how encrypting your data can minimize data loss.

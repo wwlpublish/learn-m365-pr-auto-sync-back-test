@@ -1,4 +1,4 @@
-To protect endpoints, an organization must take a Zero Trust stance. This means you need to employ the principle of "never trust, always verify" across all endpoints, regardless of whether they belong to an organization, or they don't—such as endpoints owned by a contractor, a partner, or an employee.
+To protect endpoints, an organization must take a Zero Trust approach. This means you need to employ the principle of "never trust, always verify" across all endpoints, regardless of whether they belong to an organization, or they don't—such as endpoints owned by a contractor, a partner, or an employee.
 
 To successfully secure endpoints, an organization should achieve the following:
 
@@ -11,7 +11,7 @@ To successfully secure endpoints, an organization should achieve the following:
 
 Organizations need to monitor and secure endpoints in a way that encompasses all the endpoints that are used by everyone. This means that your organization must be able to see and manage access to the endpoints that could be used to reach its resources.  
 
-To achieve this, the organization's IT team can carry out the following steps: 
+To achieve this, the organization's IT team can carry out the following steps:
 
 - Register all devices with identity providers.
 - Require modern authentication.
