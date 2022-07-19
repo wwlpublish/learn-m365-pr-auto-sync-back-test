@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Contoso has an existing auto attendant and call queue infrastructure. With its recent Microsoft 365 deployment, It currently uses auto attendants and call queues to connect callers to people within the company and  and wants to migrate its calling environment to Microsoft Teams. What must Contoso do to port its existing phone numbers to Microsoft Teams Phone?"
+  - content: "Contoso has an existing auto attendant and call queue infrastructure. With its recent Microsoft 365 deployment, It currently uses auto attendants and call queues to connect callers to people within the company and wants to migrate its calling environment to Microsoft Teams. What must Contoso do to port its existing phone numbers to Microsoft Teams Phone?"
     choices:
     - content: "Set Teams-only coexistence mode for agents"
       isCorrect: false
