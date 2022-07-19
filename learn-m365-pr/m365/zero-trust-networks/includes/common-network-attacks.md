@@ -1,6 +1,6 @@
 As networks expand and change to meet our ever-growing needs, they become more susceptible to attacks. Providing a strong network security perimeter is essential to protect your data and resources. Cybercriminals will exploit any weakness to try to break into your network. The ways in which networks can be attacked are too numerous to cover here. Let's consider the more common ones:
 
-- **Man-in-the-middle** or **eavesdropping** attack – this type of attack can occur when cybercriminals compromise or emulate routes in the network, allowing them to intercept the packets of information. Think of this as a form of wiretapping. This allows attackers to not just steal data but also compromise its integrity.
+- **Adversary-in-The-Middle (AiTM) ** or **eavesdropping** attack – this type of attack can occur when cybercriminals compromise or emulate routes in the network, allowing them to intercept the packets of information. Think of this as a form of wiretapping. This allows attackers to not just steal data but also compromise its integrity.
 - **Distributed denial of service (DDoS)** attack – the objective of a DDoS attack is to compromise the availability of the targeted network or service. Attackers do this by bombarding the targeted network or service with millions of simultaneous requests, from sources that are distributed across the network, overwhelming it and causing it to crash.
 
 In this short video, you'll see a simplified simulation of how each of these attacks work.
