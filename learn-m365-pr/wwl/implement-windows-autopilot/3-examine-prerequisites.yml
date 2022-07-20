@@ -4,12 +4,13 @@ title: Examine the Windows Autopilot prerequisites
 metadata:
   title: Examine the Windows Autopilot prerequisites
   description: "Examine the Windows Autopilot prerequisites"
-  ms.date: 06/30/2021
+  ms.date: 07/20/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 7
 content: |
   [!include[](includes/3-examine-prerequisites.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Configure AD DS automatic enrollment"
       isCorrect: false
-      explanation: "That's incorrect. Configure Azure AD automatic enrollment is a task to be completed. However, there's no such task as configuring AD DS automatic enrollment to support Autopilot. Try again."
+      explanation: "Incorrect. Configure Azure AD automatic enrollment is a task to be completed. However, there's no such task as configuring AD DS automatic enrollment to support Autopilot."
     - content: "Enable Intune subscription activation"
       isCorrect: false
-      explanation: "That's incorrect. Enabling Windows subscription activation is a task to be completed. However, there's not such task as enabling Intune subscription activation to support Autopilot. Try again."
+      explanation: "Incorrect. Enabling Windows subscription activation is a task to be completed. However, there's not such task as enabling Intune subscription activation to support Autopilot."
     - content: "Add devices to Windows Autopilot"
       isCorrect: true
-      explanation: "That's correct. Devices must be added to Windows Autopilot to support most Windows Autopilot scenarios."
+      explanation: "Correct. Devices must be added to Windows Autopilot to support most Windows Autopilot scenarios."

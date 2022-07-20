@@ -10,8 +10,8 @@ This module not only introduced you to Windows Autopilot, but it examined how to
 
 The module then introduced the three methods of deploying Autopilot:
 
- -  **Self-deployment model.** You learned how the Autopilot self-deployment model deploys Windows 10 with little or no user interaction.<br>
+ -  **Self-deployment model.** You learned how the Autopilot self-deployment model deploys Windows 10 and 11 with little or no user interaction.<br>
  -  **Pre-provisioned deployment model.** The module examined how the Autopilot pre-provisioned deployment model enables end users to provision new devices by using the preinstalled OEM image and drivers.
- -  **User-driven deployment model.**  You reviewed how the Autopilot user-driven deployment model enables new Windows 10 devices to be transformed from their initial factory state without requiring IT personnel to ever touch the device.
+ -  **User-driven deployment model.**  You reviewed how the Autopilot user-driven deployment model enables new Windows 10 and 11 devices to be transformed from their initial factory state without requiring IT personnel to ever touch the device.
 
 The module concluded with a review of BitLocker encryption for Autopiloted devices. You learned that with Windows Autopilot, you can configure the BitLocker encryption settings to be applied before automatic encryption is started.

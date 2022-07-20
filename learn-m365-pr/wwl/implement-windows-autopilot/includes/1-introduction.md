@@ -11,10 +11,8 @@ This module not only introduces you to Windows Autopilot, it also examines how t
 After completing this module, you'll be able to:
 
  -  Describe the Windows Autopilot deployment requirements.
- -  Configure Windows Autopilot.
- -  Create and assign a Windows Autopilot profile.
- -  Deploy and validate Windows Autopilot.
- -  Explain how the Autopilot self-deployment model deploys Windows 10 with little or no user interaction.
+ -  Create and assign a Windows Autopilot profile.<br>
+ -  Explain how the Autopilot self-deployment model deploys Windows 10 and 11 with little or no user interaction.<br>
  -  Explain how the Autopilot pre-provisioned deployment model enables end users to provision new devices by using the preinstalled OEM image and drivers.
- -  Explain how the Autopilot user-driven deployment model enables new Windows 10 devices to be transformed from their initial factory state without requiring IT personnel to ever touch the device.
+ -  Explain how the Autopilot user-driven deployment model enables new Windows 10 and 11 devices to be transformed from their initial factory state without requiring IT personnel to ever touch the device.
  -  Deploy BitLocker encryption for Autopiloted devices.

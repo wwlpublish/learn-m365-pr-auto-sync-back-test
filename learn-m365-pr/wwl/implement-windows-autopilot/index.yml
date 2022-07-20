@@ -3,7 +3,7 @@ uid: learn.wwl.implement-windows-autopilot
 metadata:
   title: Explore Windows Autopilot deployment models
   description: "Explore Windows Autopilot deployment models"
-  ms.date: 06/30/2021
+  ms.date: 07/20/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -13,12 +13,10 @@ summary: This module examines the Windows Autopilot deployment models and how th
 abstract: |
   By the end of this module, you will be able to:
   - Describe the Windows Autopilot deployment requirements
-  - Configure Windows Autopilot
   - Create and assign a Windows Autopilot profile
-  - Deploy and validate Windows Autopilot
-  - Explain how the Autopilot self-deployment model deploys Windows 10 with little or no user interaction
+  - Explain how the Autopilot self-deployment model deploys Windows 10 and 11 with little or no user interaction
   - Explain how the Autopilot pre-provisioned deployment model enables end users to provision new devices by using the preinstalled OEM image and drivers
-  - Explain how the Autopilot user-driven deployment model enables new Windows 10 devices to be transformed from their initial factory state without requiring IT personnel to ever touch the device
+  - Explain how the Autopilot user-driven deployment model enables new Windows 10 and 11 devices to be transformed from their initial factory state without requiring IT personnel to ever touch the device
   - Deploy BitLocker encryption for Autopiloted devices
 prerequisites: |
   None
@@ -31,15 +29,15 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 subjects:
-- device-management
 - cloud-computing
+- compliance
+- device-management
 units:
 - learn.wwl.implement-windows-autopilot.introduction
-- learn.wwl.implement-windows-autopilot.explore
+- learn.wwl.implement-windows-autopilot.explore-windows-autopilot
 - learn.wwl.implement-windows-autopilot.examine-prerequisites
 - learn.wwl.implement-windows-autopilot.plan-autopilot-profile-settings
 - learn.wwl.implement-windows-autopilot.examine-self-deployment-model
