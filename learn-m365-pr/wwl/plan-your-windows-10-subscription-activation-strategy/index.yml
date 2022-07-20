@@ -9,12 +9,12 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Plan your Windows client Subscription Activation strategy
-summary: This module examines how Windows 10 Subscription Activation enables a seamless online upgrade from Windows 10 Pro to Windows 10 Enterprise, how it provides for automatic subscription activation, and how enterprise licenses can be deployed.
+summary: This module examines how Windows 10/11 Subscription Activation enables a seamless online upgrade from Windows 10/11 Pro to Windows 10/11 Enterprise, how it provides for automatic subscription activation, and how enterprise licenses can be deployed.
 abstract: |
-  By the end of this module, you will be able to:
-  - Describe how Windows 10 Enterprise E3 subscriptions can be purchased through the Cloud Service Provider channel
-  - Configure Virtual Desktop Access for automatic subscription activation on virtual machines
-  - Explain how Windows 10 Enterprise licenses can be deployed automatically and without device restart
+  By the end of this module, you'll be able to:
+  - Describe how Windows 10/11 Enterprise E3 subscriptions can be purchased through the Cloud Service Provider channel.
+  - Configure Virtual Desktop Access for automatic subscription activation on virtual machines.
+  - Explain how Windows 10/11 Enterprise licenses can be deployed automatically and without device restart.
 prerequisites: |
   None
 iconUrl: /learn/achievements/windows-subscription-activation.svg
