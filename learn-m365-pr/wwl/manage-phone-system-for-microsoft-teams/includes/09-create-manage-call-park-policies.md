@@ -22,26 +22,39 @@ Call parking and retrieval can be enabled by first enabling a call park policy. 
 
 1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/?azure-portal=true).
 2. In the left-hand navigation pane, select **Voice** > **Call park policies**.
-3. Select **Add** on the **Manage policies** tab.
-4. Provide a name for your policy, and then set **Allow call park** to **On**.
+3. Select **+ Add** on the **Manage policies** tab.
+4. Provide a name for your policy, and then set **Call park** to **On**.
 5. Select **Save**.
 
 You can also use the ```New-CsTeamsCallParkPolicy``` PowerShell cmdlet to create a call park policy.
 
-‎‎‎:::image type="content" source="../media/new-call-park-policy.png" alt-text="Create new call park policy":::  
+:::image type="content" source="../media/new-call-park-policy.png" alt-text="Screenshot of Create new call park policy.":::  
 
 ## Assign the policy to a group
 
-For a call park policy to take effect, it must be assigned to users either on a per-user level or on a group-level. For example, you can complete the following steps to assign a call park policy to a group:
+For a call park policy to take effect, it must be assigned to users either on a per-user level or on a group-level. 
+
+|Scenarios|Details|
+|--|--|
+|Assign a policy directly to an individual user| Go to **Users** > **Manage users** > Select a user > **Policies** tab > **Assigned policies**. |
+|Assign a policy to a batch of users| Option 1: Go to **Users** > **Manage users** > Select multiple users > **Edit settings**. <br/>Option 2: Go to **Call park policies** > Select the policy > **Assign users**.|
+|Assign a policy to a group| Go to **Call park policies** > **Group policy assignment** > **+Add** and follow the configuration. |
+|Assign a policy package directly to an individual user.| Go to **Users** > **Manage users** > Select a user > **Policies** tab > **Policy package**. |
+| Assign a policy package to a batch of users| Go to **Policy packages** > Select the policy package > **Manage users**.|
+|Assign a policy package to a group| Go to **Policy packages** > **Group policy assignment** > **+Add** and follow the configuration. |
+
+
+
+For example, you can complete the following steps to assign a call park policy to a group:
 
 1. Select the **Group policy assignment** tab in the **Call park policies** pane.
 
-	‎‎‎:::image type="content" source="../media/assigning-group-policy.png" alt-text="Screenshot of the Group policy assignment option":::  
+	:::image type="content" source="../media/assigning-group-policy.png" alt-text="Screenshot of the Group policy assignment option.":::  
 
 2. Select **Add**. The **Assign policy to group** pane appears.
 3. In the **Select a group** field, look for your target group and select it.
 
-	‎‎‎:::image type="content" source="../media/assign-policy-to-group.png" alt-text="Screenshot showing how to assign policy to a group":::  
+	:::image type="content" source="../media/assign-policy-to-group.png" alt-text="Screenshot showing how to assign policy to a group.":::  
 
 4. In the **Select rank** field, assign a rank you want to set for this group assignment compared with other assignments.
 5. In the **Select a policy** field, select your newly created policy.
@@ -49,6 +62,3 @@ For a call park policy to take effect, it must be assigned to users either on a 
 
 You can also use the  ```Grant-CsTeamsCallParkPolicy``` PowerShell cmdlet to grant a call park policy.
 
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”

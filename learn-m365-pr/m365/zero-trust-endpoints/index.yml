@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-m365.zero-trust-endpoints
+metadata:
+  moduleType: standard
+  title: Secure endpoints with Zero Trust
+  description: "Learn how to use Zero Trust to secure endpoints to protect your organization and its users."
+  ms.date: 06/22/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Secure endpoints with Zero Trust
+summary: "Learn how to use Zero Trust to secure endpoints to protect your organization and its users."
+abstract: |
+  By the end of this module, you'll be able to:
+    - Describe endpoints.
+    - Describe attack surface.
+    - Describe how to protect endpoints using the Zero Trust approach.
+
+prerequisites: |
+  - None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - administrator
+  - student
+products:
+- m365
+subjects:
+  - security
+units:
+- learn-m365.zero-trust-endpoints.introduction
+- learn-m365.zero-trust-endpoints.what-are-endpoints
+- learn-m365.zero-trust-endpoints.protect-endpoints
+- learn-m365.zero-trust-endpoints.knowledge-check
+- learn-m365.zero-trust-endpoints.summary
+badge:
+  uid: learn-m365.zero-trust-endpoints.badge

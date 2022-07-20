@@ -1,6 +1,6 @@
 When people call an organization, its auto attendant service enables the callers to navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center, or with PowerShell.
 
-To set up a call queue, in the Teams admin center, expand **Voice**, select **Auto attendants**, and then select **Add**. Provide the following information with your auto attendants design.
+To set up an auto attendant, in the Teams admin center, expand **Voice**, select **Auto attendants**, and then select **Add**. Provide the following information with your auto attendants design.
 
 ### General Info
 
@@ -19,25 +19,27 @@ Configure the following settings when creating an auto attendant:
 
 - **Voice inputs** - Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
 
-	‎:::image type="content" source="../media/auto-attendant-general-info-page-new.png" alt-text="Screenshot of auto attendant settings for name, operator, time zone, language, and voice inputs":::
+	:::image type="content" source="../media/auto-attendant-general-info-page-new.png" alt-text="Screenshot of auto attendant settings for name, operator, time zone, language, and voice inputs.":::
 
 ### Call flow
 
 This section provides settings on what the system should do when the auto attendant answers a call. You'll then configure how the call should be routed.
 
-- **First play a greeting message** - If you want a greeting, choose whether to play a greeting when the auto attendant answers a call. There are two types of greetings to choose from:
+- **Greeting options** - If you want a greeting, choose whether to play a greeting when the auto attendant answers a call. There are two types of greetings to choose from:
 
-    * **Play an audio file** - You can use the **Upload file** button to upload a recorded greeting message saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB.
+    * **Play an audio file** - You can use the **Upload file** button to upload a recorded greeting message saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB. The system plays the announcement, and then returns to the auto attendant menu.
 
-    * **Type a greeting message** - The system will read the text that you type (up to 1000 characters) when the auto attendant answers a call.
+    * **Add a greeting message** - The system will read the text that you type (up to 1000 characters) when the auto attendant answers a call. –	The system plays the announcement, and then returns to the auto attendant menu.
 
-	‎:::image type="content" source="../media/auto-attendant-call-flow-greeting-message.png" alt-text="Screenshot of greeting message settings":::
+	:::image type="content" source="../media/auto-attendant-call-flow-greeting-message.png" alt-text="Screenshot of greeting message settings.":::
 
 - **Then route the call** - Choose how you want to route the call from the following options:
 
     * **Disconnect** - The auto attendant will hang up the call.
 
     * **Redirect call** - Choose one of the call routing destinations.
+
+		- **Redirect to** - The call routing destination used when callers choose this option. If you're redirecting to an auto attendant or call queue, choose the resource account associated with it.
 
     * **Play menu options** - If this option is selected, then you must configure the following groups of settings:
 	
@@ -55,7 +57,7 @@ This section provides settings on what the system should do when the auto attend
 
 		    - **Voice command** - Defines the voice command that a caller can give to access this option, if voice inputs are enabled. It can contain multiple words like "Customer Service" or "Operations and Grounds." For example, the caller can press 2, say "two," or say "Sales" to select the option mapped to the two keys. This text is also rendered by text to speech for the service confirmation prompt, which might be something like "Transferring your call to sales."
 
-		    - **Redirect to** - The call routing destination used when callers choose this option. If you're redirecting to an auto attendant or call queue, choose the resource account associated with it.
+
 
 
 	    - **Directory search** - When searching for users as part of the auto attendant functionality, callers can search by name or by extension.
@@ -63,7 +65,7 @@ This section provides settings on what the system should do when the auto attend
 		   - **Dial by Name** - This feature enables the people who call your auto attendant to use voice (speech recognition) or their phone keypad (DTMF) responses to enter a full or partial name to search your company's directory, locate the person, and then have the call transferred to them.
 		   - **Dial by Extension** - This feature enables a caller to use voice (speech recognition) or their phone keypad (DTMF) responses to enter the phone extension of the user they're trying to reach, and then have the call transferred to them.
 
-		‎:::image type="content" source="../media/auto-attendant-call-flow-route-call-message.png" alt-text="Screenshot of call flow":::
+		:::image type="content" source="../media/auto-attendant-call-flow-route-call-message.png" alt-text="Screenshot of call flow.":::
 
 ### Advanced settings
 
@@ -79,4 +81,4 @@ The Auto Attendant form provides an optional set of advanced settings that can b
 
 - **Resource account** - All auto attendants must have an associated resource account. First-level auto attendants must have at least one resource account that has an associated service number. You can optionally assign several resource accounts to an auto attendant, each with a separate service number.
 
-	‎:::image type="content" source="../media/auto-attendant-advanced.png" alt-text="Screenshot of Advanced settings":::
+	:::image type="content" source="../media/auto-attendant-advanced.png" alt-text="Screenshot of Advanced settings.":::

@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-m365.zero-trust-introduction
+metadata:
+  moduleType: standard
+  title: Introduction to Zero Trust
+  description: In recent years, the Zero Trust concept has emerged as a go-to security solution for organizations big or small. The Zero Trust approach is a combination of modern technologies and best practices that strengthens the security infrastructure within your organization.
+  ms.date: 06/22/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction to Zero Trust
+summary: In recent years, the Zero Trust concept has emerged as a go-to security solution for organizations big or small. The Zero Trust approach is a combination of modern technologies and best practices that strengthens the security infrastructure within your organization.
+abstract: |
+  By the end of this module, you'll be able to:
+    - Describe the Zero Trust security model and its principles.
+    - Explain Zero Trust as a security strategy.
+    - Define Zero Trust components.
+prerequisites: |
+  - None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - administrator
+  - student
+products:
+- m365
+subjects:
+  - security
+units:
+- learn-m365.zero-trust-introduction.introduction
+- learn-m365.zero-trust-introduction.zero-trust-security-model
+- learn-m365.zero-trust-introduction.zero-trust-security-strategy
+- learn-m365.zero-trust-introduction.zero-trust-components
+- learn-m365.zero-trust-introduction.knowledge-check
+- learn-m365.zero-trust-introduction.summary
+badge:
+  uid: learn-m365.zero-trust-introduction.badge

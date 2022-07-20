@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.zero-trust-introduction.zero-trust-security-strategy
+title: Zero Trust as a security strategy
+metadata:
+  unitType: learning-content
+  title: Zero Trust as a security strategy
+  description: Understand how a Zero Trust strategy can improve your security posture.
+  ms.date: 06/22/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/zero-trust-security-strategy.md)]
