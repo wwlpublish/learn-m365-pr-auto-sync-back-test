@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.zero-trust-data.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Check what you've learned in this module.
+  ms.date: 7/7/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+
+content: |
+quiz:
+  questions:
+  - content: Your organization regularly collaborates with a partner on projects. In line with compliance requirements, it needs to ensure that users don't accidentally share internal documents with their external partner colleagues. What should you do?
+    choices:
+    - content: Use data loss prevention policies to automatically ensure internal documents can't be shared.
+      isCorrect: true
+      explanation: That's correct. This way, your organization can automatically prevent users from accidentally or deliberately sharing important documents.
+    - content: Apply a confidential sensitivity label, which adds the watermark text "confidential, for internal use only".
+      isCorrect: false
+      explanation: That's incorrect. While sensitivity labels allow you to automatically label files, and apply watermarks to them across your organization, this alone won't be enough.  You still need to find a way to prevent these files from being shared and stop a user if they're about to do so.
+    - content: Use automatic data classification to ensure internal documents can't be shared.
+      isCorrect: false
+      explanation: That's incorrect. This helps you to discover and classify all the data across the organization. It's a good first step but it won't be enough. You also need to find a way to prevent these files from being shared and stop a user if they're about to do so.
+  - content: How would you describe the term data at rest?
+    choices:
+    - content: This is any data that is stored physically on paper, on-premises.
+      isCorrect: false
+      explanation: That's incorrect.  This term doesn't apply to documents that have been printed and stored. It refers to digital data.
+    - content: This is any data that isn't currently being accessed or transmitted.
+      isCorrect: true
+      explanation: That's correct. When data is in this state, it's less vulnerable than when it's in transit or use because it tends to be infrequently accessed or is stored for archive.
+    - content: This is any data, as long as it hasn't been kept in long-term storage.
+      isCorrect: false
+      explanation: That's incorrect. Data kept in long-term storage is considered to be at rest, but the term refers to _any_ data that isn't being used or moved.
+  - content: Suppose you want to ensure that only authorized users within your organization can open confidential documents. What is the most effective approach?
+    choices:
+    - content: Use data classification to control access.
+      isCorrect: false
+      explanation: That's incorrect. Data classification is used to scan and classify your data. You need to ensure that the files can't be opened by unauthorized users, so this isn't enough.
+    - content: Automatically encrypt all files used across the organization.
+      isCorrect: false
+      explanation: That's incorrect. If you encrypt all files regardless of whether they're confidential or not, your organization could run into performance and productivity issues. Instead, think about how to target _only_ confidential files based on this scenario.
+    - content: Apply encryption using a sensitivity label.
+      isCorrect: true
+      explanation: That's correct. You can apply encryption with a sensitivity label. This way, you restrict access to content based on its confidentiality label.

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-set-up.add-the-dashboard-and-feed-web-parts-to-the-home-site
+title: Add the Dashboard and Feed web parts to the home site 
+metadata:
+  unitType: learning-content
+  title: Add the Dashboard and Feed web parts to the home site
+  description: Use web parts to add the Dashboard and Feed to the home site. 
+  ms.date: 07/14/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/7-add-the-dashboard-and-feed-web-parts-to-the-home-site.md)]

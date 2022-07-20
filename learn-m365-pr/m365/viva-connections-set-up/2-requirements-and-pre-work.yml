@@ -1,0 +1,69 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-set-up.requirements-and-pre-work
+title: Requirements and pre-work
+metadata:
+  unitType: learning-content
+  title: Requirements and pre-work
+  description: Steps to get the intranet environment ready for Viva Connections.
+  ms.date: 07/15/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-requirements-and-pre-work.md)]
+quiz:
+    title: Requirements and pre-work
+    questions:
+    - content: "You want to be sure that the Viva Connections Feed has a steady source of organizational news. What is the best site to distribute organizational news using Viva Connections?"
+      choices:
+      - content: "A Team site"
+        isCorrect: false
+        explanation: "A Team site is best used for a group of people
+            working on the same project or who require shared
+            productivity tools. A Team site isn't ideal for delivering
+            company-wide news."
+      - content: "A project site"
+        isCorrect: false
+        explanation: "SharePoint offers two types of sites:/ communication sites or team sites."
+      - content: "The home site or other organizational news sites"
+        isCorrect: true
+        explanation: "The home site and other organizational news sites
+            are the best way to deliver information to the entire
+            organization. Home sites automatically get flagged as a
+            source of organizational news, which will distribute news on
+            the home sites and other sites users follow."
+    - content: "What are the minimum requirements for deploying Viva Connections?"
+      choices:
+      - content: "Your organization must have a home site and customized global navigation to set up Viva Connections. Though not required, it's highly recommended that sites and pages that get links to the Viva Connections experience are modernized for the best viewing experience."
+        isCorrect: true
+        explanation: "You need both a home site and global navigation
+            enabled to successfully deploy Viva Connections."
+      - content: "Your organization must gather a team of tech experts to deploy Viva Connections."
+        isCorrect: false
+        explanation: "Deploying Viva Connections, and planning
+            and building it, takes a team of people with various
+            knowledge and experience, not just technical."
+      - content: "Your organization only requires a home site to deploy Viva Connections."
+        isCorrect: false
+        explanation: "Although your organization must have a home site
+            to deploy Viva Connections, you'll also need to customize
+            global navigation. A home site alone isn't enough to
+            successfully deploy Viva Connections."
+    - content: "While preparing your company’s Intranet, what is the purpose of enabling global navigation?"
+      choices:
+      - content: "It allows users to access popular portals and content from the landing experience on a desktop device or from the Resources tab on a mobile device."
+        isCorrect: true
+        explanation: "Global navigation is an essential step in setting
+            up Viva Connections Resources."
+      - content: "It provides access to external resources from other Viva Connections users."
+        isCorrect: false
+        explanation: "Global navigation is a setting that enables users
+            to see and access information that is useful to their
+            personal needs. It isn't a tool that connects to external
+            users or resources."
+      - content: "It adds a new card on the Dashboard."
+        isCorrect: false
+        explanation: "Global navigation is a customizable feature that
+            is unrelated to the Dashboard."

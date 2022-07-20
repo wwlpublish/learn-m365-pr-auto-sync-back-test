@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.zero-trust-data.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: Introduction
+  description: Data protection is at the heart of a Zero Trust framework. Inadequately protected data can harm your users and the organization as a whole.
+  ms.date: 07/18/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

@@ -21,7 +21,7 @@ When an organization is looking for phone numbers, it can get more phone numbers
 
 - **User numbers** - The number of phone numbers for users (subscribers) is equal to the total number of **Domestic Calling Plan** and **Domestic and International Calling Plan** licenses you've assigned multiplied by 1.1, plus 10 extra phone numbers. For example, if you have 50 users in total between a Domestic Calling Plan and a Domestic and International Calling Plan, you can acquire **65** phone numbers **(50 x 1.1 + 10)**.
 
-- **Service numbers** - The number of phone numbers is based on the total number of Phone System and Audio Conferencing licenses. For more information, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get?azure-portal=true).
+- **Service numbers** - The number of phone numbers is based on the total number of Teams Phone and Audio Conferencing licenses. For more information, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get?azure-portal=true).
 
 ## Sources of phone numbers
 
@@ -48,7 +48,7 @@ The sources of phone numbers can be:
 	- Phone numbers used for data connections such as DSL lines or broadband Internet connections
 	- Phone numbers dedicated to faxing
 
-	If an organization has existing dedicated phone numbers that are being used for faxing, it can transfer these numbers over to Teams. However, its fax services won't continue to work as expected. Faxing services aren't available to Teams customers, even if the organization has licenses for Phone System, Domestic Calling Plan, or International Calling Plan. If the organization ports the phone number to Teams, it can assign this phone number to a user in the organization instead of using it for faxing.
+	If an organization has existing dedicated phone numbers that are being used for faxing, it can transfer these numbers over to Teams. However, its fax services won't continue to work as expected. Faxing services aren't available to Teams customers, even if the organization has licenses for Teams Phone, Domestic Calling Plan, or International Calling Plan. If the organization ports the phone number to Teams, it can assign this phone number to a user in the organization instead of using it for faxing.
 
 ## How can an organization get phone numbers?
 
@@ -85,7 +85,7 @@ You must be a Teams service admin to use the Teams admin center to get new phone
 	- **Country or region** - Select country or region.
 	- **Number type** - Select the appropriate option that determines whether the phone numbers are for users or for services, such as conference bridge, call queue, or auto attendant.  
 ‎
-	‎:::image type="content" source="../media/get-phone-numbers-number-type.png" alt-text="Different phone number types":::  
+	‎:::image type="content" source="../media/get-phone-numbers-number-type.png" alt-text="Screenshot of Different phone number types.":::  
 ‎
 	- **Location** - Choose a location for connecting the new phone numbers. If you need to create a new location, select **Add a location** and enter the required location’s data.
 	- **Area code** - Select a valid area code for the country/region and location.
@@ -93,7 +93,7 @@ You must be a Teams service admin to use the Teams admin center to get new phone
 
 6. Select **Next** to continue.
 ‎	
-	‎:::image type="content" source="../media/get-phone-numbers-location-quantity.png" alt-text="Get phone numbers location quantity":::
+	‎:::image type="content" source="../media/get-phone-numbers-location-quantity.png" alt-text="Screenshot of Get phone numbers location quantity.":::
 
 7. On the **Get numbers** page, select the phone numbers you want to apply to your tenant.
 
@@ -118,7 +118,7 @@ If you need 999 or fewer phone numbers for your users, use the porting wizard in
 
 	The information displayed on this page is determined by the country or region and number type. Each country and region has different regulations about the information that's required to port numbers. What you see on this page may be different from the following screenshot.
 
-	‎:::image type="content" source="../media/add-account-information-inline.png" alt-text="Porting Wizard – Adding account information":::
+	‎:::image type="content" source="../media/add-account-information-inline.png" alt-text="Screenshot of Porting Wizard – Adding account information.":::
 
 7. On the **Add numbers** page, select **Select a file**. Browse to the CSV file that contains the phone numbers that you want to transfer, select it, and then select **Next**.
 
@@ -131,6 +131,8 @@ If you need 999 or fewer phone numbers for your users, use the porting wizard in
       4. Scan the signed LOA, and then select **Upload a signed Letter of Authorization** to upload it.
 
 9. Review your order details, and then select **Submit**.
+
+To view the status of your port order, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Port orders**, and then select **Order history**. Each port order status is listed in the **Status** column.
 
 ### Use the Phone Number Support Center to get phone numbers
 

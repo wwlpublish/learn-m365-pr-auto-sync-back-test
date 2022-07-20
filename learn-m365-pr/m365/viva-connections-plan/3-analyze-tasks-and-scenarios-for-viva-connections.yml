@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-plan.analyze-tasks-and-scenarios-for-viva-connections
+title: Analyze tasks and scenarios for Viva Connections
+metadata:
+  unitType: exercise
+  title: Analyze tasks and scenarios for Viva Connections
+  description: Learn data sources, considerations, and best practices to conduct a needs assessment for Viva Connections with various departments, roles, and regions within your organization. 
+  ms.date: 07/14/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/3-analyze-tasks-and-scenarios-for-viva-connections.md)]

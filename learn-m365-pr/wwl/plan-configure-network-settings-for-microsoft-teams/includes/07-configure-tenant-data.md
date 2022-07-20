@@ -2,7 +2,7 @@ Call Quality Dashboard (CQD) gives you a network-wide view of call quality acros
 
 For example, you can include different building locations or endpoint-specific views such as wired or Wi-Fi connected devices. The data can be assessed to determine if the problem is isolated to a single user or affects a larger segment of users.
 
-:::image type="content" source="../media/location-enhanced-reports.png" alt-text="CQD Location Enhanced Reports":::
+:::image type="content" source="../media/location-enhanced-reports.png" alt-text="Screenshot of CQD Location Enhanced Reports.":::
 
 To turn on building or endpoint-specific views in CQD, an admin must upload building or endpoint information on the CQD Tenant Data Upload page.
 
@@ -65,7 +65,7 @@ The Endpoint data file lists the mapping of an endpoint name to device informati
 
 It can take up to four hours to validate and finish processing the building file. If no errors occur during validation, you can see the uploaded data file in the My uploads table at the bottom of that page.
 
-   :::image type="content" source="../media/tenant-data-upload-page.png" alt-text="Tenant Data Upload Page":::
+   :::image type="content" source="../media/tenant-data-upload-page.png" alt-text="Screenshot of Tenant Data Upload Page.":::
 
 ## Update a building file
 
@@ -83,6 +83,3 @@ To add missing subnets:
 
 To find these missing networks, review the **Missing Subnet Report** on the **Quality of Experience Reports** page in CQD. This presents all the subnets with 10 or more audio streams that aren't defined in the building data file and are being marked as outside. Ensure that there are no managed networks in this list.
 
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”

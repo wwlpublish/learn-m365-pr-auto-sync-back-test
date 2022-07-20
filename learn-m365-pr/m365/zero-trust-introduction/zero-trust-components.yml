@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.zero-trust-introduction.zero-trust-components
+title: Zero Trust components
+metadata:
+  unitType: learning-content
+  title: Zero Trust components
+  description: In the Zero Trust model, identity, endpoints, applications, network, infrastructure and data are important components that work together to provide end-to-end security. 
+  ms.date: 07/19/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/zero-trust-components.md)]

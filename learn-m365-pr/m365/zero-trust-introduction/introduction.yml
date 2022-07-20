@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.zero-trust-introduction.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: Introduction
+  description: Learn about the Zero Trust security model, how it works as a security strategy, the principles it's based on, and its primary components.
+  ms.date: 07/19/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]
