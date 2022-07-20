@@ -4,7 +4,7 @@ metadata:
   moduleType: standard
   title: Describe identities in Zero Trust
   description: With the advent of cloud applications and the increase in employees working remotely, or bringing their own devices, it's critical to verify identities with strong authentication and ensure access is compliant. 
-  ms.date: 06/22/2022
+  ms.date: 07/19/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
