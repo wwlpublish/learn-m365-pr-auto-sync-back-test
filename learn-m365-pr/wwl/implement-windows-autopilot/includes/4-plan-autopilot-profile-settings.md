@@ -34,7 +34,9 @@ Autopilot deployment profiles are used to configure the Autopilot devices. An or
     
 7.  If you want all devices in the assigned groups to automatically convert to Autopilot, set the **Convert all targeted devices to Autopilot** option to **Yes**. By doing so:
      -  All corporate owned, non-Autopilot devices in assigned groups will register with the Autopilot deployment service.
-     -  Personally owned devices won't be converted to Autopilot.Allow 48 hours for the registration to be processed. When the device is unenrolled and reset, Autopilot will enroll it. After a device is registered in this way, disabling this option or removing the profile assignment won't remove the device from the Autopilot deployment service. You must instead [remove the device directly](/mem/autopilot/add-devices#delete-autopilot-devices?azure-portal=true).
+     -  Personally owned devices won't be converted to Autopilot.
+    
+    Allow 48 hours for the registration to be processed. When the device is unenrolled and reset, Autopilot will enroll it. After a device is registered in this way, disabling this option or removing the profile assignment won't remove the device from the Autopilot deployment service. You must instead [remove the device directly](/mem/autopilot/add-devices#delete-autopilot-devices?azure-portal=true).
     
     > [!NOTE]
     > Converting all targeted devices to Autopilot isn't supported for transforming a hybrid Azure AD device into an Azure AD Autopilot device.

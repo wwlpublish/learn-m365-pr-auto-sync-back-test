@@ -27,7 +27,7 @@ quiz:
       explanation: "Incorrect. This item isn't what Autopilot uses when initially deploying new Windows devices."
     - content: "The OEM-optimized version of Windows 11 that's preinstalled on the devices"
       isCorrect: true
-      explanation: "Correct. When initially deploying new Windows devices, Windows Autopilot uses the OEM-optimized version of Windows 10 or 11 that's preinstalled on the device. Doing so saves organizations the effort of having to maintain custom images and drivers for every model of device that's used."
+      explanation: "Correct. When Windows devices are initially deployed, Windows Autopilot uses the OEM-optimized version of Windows 10 or 11 that's preinstalled on the device. Doing so saves organizations the effort of having to maintain custom images and drivers for every model of device that's used."
   - content: "Northwind Traders recently purchased a dozen new devices from its hardware vendor. As the Enterprise Administrator for Lucerne Publishing, Allan Deyoung used the Windows Autopilot self-deployment mode to deploy Windows on each new device. An IT administrator who later used one of the devices told Allan that some Azure AD and Intune capabilities weren't available on the device, including BitLocker recovery and Conditional Access. Why were these features missing when the user signed into the device?"
     choices:
     - content: "Self-deploying mode doesn't associate a user with the device"

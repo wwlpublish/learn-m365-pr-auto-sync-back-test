@@ -89,7 +89,7 @@ Depending on the type of policy that an organization uses to silently enable Bit
  -  **Endpoint security disk encryption policy**. Configure the following settings in the BitLocker profile:
      -  Hide prompt about third-party encryption = **Yes***.*
      -  Alow standard users to enable encryption during Autopilot = **Yes***.*
- -  **Device configuration policy**. Configure the following settings in the **Endpoint protection** template or a **custom settings**profile:
+ -  **Device configuration policy**. Configure the following settings in the Endpoint protection template or a custom settings profile:
      -  Warning for other disk encryption = **Block**.
      -  Allow standard users to enable encryption during Azure AD Join = **Allow***.*
 
