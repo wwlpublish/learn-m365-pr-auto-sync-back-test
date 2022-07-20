@@ -60,8 +60,8 @@ Projects can be created directly underneath the Key Result they're supporting or
 1. Information in the **Details** section will be set by default depending on the entity you're currently viewing, and the time period selected. To change the entity and time period, or to add a co-owner of the **Project**, select the **Type**, **Owner**, and **When** fields.
 1. The **Outcome** section is where you can start to make the choice regarding whether this is a **Native** or **Integrated** project. Select **Show more options**.
 1. Select **Add tasks**.
-1. Under the **Tasks** menu you can choose to **Add tasks in Ally** or **Automatically from a data source**.
-    1. For **Native** Projects, you'll select **Add tasks in Ally** and then will be able to manually add tasks.
+1. Under the **Tasks** menu you can choose to **Add tasks in Viva Goals** or **Automatically from a data source**.
+    1. For **Native** Projects, you'll select **Add tasks in Viva Goals** and then will be able to manually add tasks.
         1. Complete the **Task name** field and add a **Due date** and **Owner** if required.
         1. Select **+ Add another task** to carry on adding tasks to the list.
     1. For **Integrated** Projects, you'll select **Automatically from a data source** and then you'll be able to integrate the Project to an outside project management tool. This integration must have been enabled by your Admin to be available.

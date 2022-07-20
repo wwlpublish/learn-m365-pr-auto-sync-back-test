@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.zero-trust-applications.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Check what you've learned.
+  ms.date: 06/22/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+
+content: |
+quiz:
+  questions:
+  - content: "How is shadow IT introduced into an organization?"
+    choices:
+    - content: "When a large number of users exhibit strange usage patterns across their daily apps."
+      isCorrect: false
+      explanation: "That's incorrect. This can help you to understand how users use apps, and learn about high-risk usage, such as access from unknown locations. But shadow IT can be introduced by users who don't exhibit strange usage patterns."
+    - content: "When a cybercriminal successfully proliferates their attack and gains control of apps or devices."
+      isCorrect: false
+      explanation: "That's incorrect. While shadow IT can indeed prompt this to occur, it can exist entirely without any cybercriminal activity."
+    - content: "When users in an organization use nonsanctioned apps that might not be compliant"
+      isCorrect: true
+      explanation: "That's correct. These noncompliant apps could introduce security risks into the organization."
+  - content: "Your organization wants to continuously monitor and respond to suspicious user actions in apps based on risk indicators like sign-in failures and activities from inactive accounts. How should it do this?"
+    choices:
+    - content: "Use malware protection."
+      isCorrect: false
+      explanation: "That's incorrect. This protection can help you to detect some activities traditionally associated with different types of malware. But it won't be enough to monitor for suspicious user actions that might not necessarily be associated with malware."
+    - content: "Use automated investigation and remediation."
+      isCorrect: false
+      explanation: "That's incorrect. This helps you to investigate security alerts automatically, but that isn't enough. You need to find a way to continuously monitor for user actions based on your selected criteria, so that alerts can be generated first."
+    - content: "Apply user and entity behavioral analytics."
+      isCorrect: true
+      explanation: "That's correct. You can continuously evaluate user behavior based on risk. Then you'll react to the alerts generated, either by responding manually, or using automated investigation and remediation."
+  - content: "Your organization wants to be able to scan proprietary information when documents are being sent through cloud applications. How will it do this?"
+    choices:
+    - content: "Use anomaly detection."
+      isCorrect: false
+      explanation: "That's incorrect. Anomaly detection is designed to help you detect strange behavior in apps and users. It isn't meant to identify proprietary information that belongs to your organization."
+    - content: "Use file policies."
+      isCorrect: true
+      explanation: "That's correct. You use file policies to scan cloud apps for specific files, file types, and data such as proprietary or personal information."
+    - content: "Use malware protection."
+      isCorrect: false
+      explanation: "That's incorrect. Malware protection is designed to protect against malware and its symptoms. It isn't necessarily designed to identify your organization's proprietary information across documents."

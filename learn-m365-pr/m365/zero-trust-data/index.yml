@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-m365.zero-trust-data
+metadata:
+  moduleType: standard
+  title: Protect data with Zero Trust
+  description: Zero Trust isn't a tool or product, it's an essential security strategy, with data at its core.  Here, you'll learn how to identify and protect your data using a Zero Trust approach.
+  ms.date: 7/7/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Protect data with Zero Trust
+summary: Zero Trust isn't a tool or product, it's an essential security strategy, with data at its core.  Here, you'll learn how to identify and protect your data using a Zero Trust approach.
+abstract: |
+  By the end of this module, you'll be able to:
+    - Describe how to know your data.
+    - Describe how to protect data.
+    - Describe how to prevent data loss.
+
+prerequisites: |
+  - None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - administrator
+  - student
+products:
+  - m365
+subjects:
+  - security
+units:
+- learn-m365.zero-trust-data.introduction
+- learn-m365.zero-trust-data.know-your-data
+- learn-m365.zero-trust-data.protect-your-data-prevent-loss
+- learn-m365.zero-trust-data.knowledge-check
+- learn-m365.zero-trust-data.summary
+badge:
+  uid: learn-m365.zero-trust-data.badge

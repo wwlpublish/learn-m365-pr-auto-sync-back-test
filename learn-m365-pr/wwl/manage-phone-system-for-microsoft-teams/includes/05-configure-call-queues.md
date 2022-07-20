@@ -1,36 +1,55 @@
 Call queues provide a method of routing callers to people in an organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as agents).
 
-To set up a call queue, in the Teams admin center, expand **Voice**, select **Call queues**, and then select **Add**. Provide a **name** of your call queue and configure the following settings with your call queue design.
+Call queues provide:
+* A greeting message.
+* Music while people are waiting on hold in a queue.
+* Call routing - in First In, First Out (FIFO) order - to agents.
+* Handling options for queue overflow and timeout.
 
-‎:::image type="content" source="../media/call-queue.png" alt-text="Configure call queues":::
+## Create a call queue
+
+To set up a call queue, in the Teams admin center, expand **Voice**, select **Call queues**, and then select **+ Add**. Provide a **name** of your call queue and configure the following settings with your call queue design.
 
 The following sections describe each of the available settings for a call queue.
 
-### Resource accounts
+### General info
 
-All call queues are required to have a resource account. Agents will see the resource account name when they receive an incoming call.
+:::image type="content" source="../media/call-queue.png" alt-text="Screenshot of Configure call queues.":::
 
-Select **Add**, and search for the resource account that you want to use with this call queue, then select **Add** twice.
+* **Resource accounts**
 
-### Assign calling ID
+	All call queues are required to have a resource account. Agents will see the resource account name when they receive an incoming call.
 
-If you plan to use a Teams channel for your call agents, you can assign an outbound caller ID number for the agents by specifying one or more resource accounts with a phone number.
+	Select **Add**, and search for the resource account that you want to use with this call queue, then select **Add** twice.
 
-Select **Add**, and search for the resource accounts that you want to allow agents to use for calling ID purposes when making outbound calls, then select **Add** twice.
+* **Assign calling ID**
 
-If you're not using a Teams channel to control agent membership, consider directly setting the caller ID for members of the call queue to the service number of the call queue or appropriate auto attendant
+	If you plan to use a Teams channel for your call agents, you can assign an outbound caller ID number for the agents by specifying one or more resource accounts with a phone number.
 
-### Language
+	> [!NOTE]
+	> The resource account used for calling ID purposes must have a **Microsoft Teams Phone System - Virtual User** license and one of the following assigned:
+	>	* A Calling Plan license and a phone number assigned
+	>	* An Operator Connect phone number assigned
+		An online voice routing policy (phone number assignment is optional when using Direct Routing)
 
-Choose a supported language. This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
 
-### Greeting
+	Select **Add**, and search for the resource accounts that you want to allow agents to use for calling ID purposes when making outbound calls, then select **Add** twice.
 
-Teams can provide a greeting to callers when they arrive in the queue. To set up a greeting, upload an MP3, WAV, or WMA file containing the greeting that you want to play.
+	If you're not using a Teams channel to control agent membership, consider directly setting the caller ID for members of the call queue to the service number of the call queue or appropriate auto attendant
 
-### Music on hold
+* **Language**
 
-Teams can also provide default music to callers while they're on hold in a queue. If you want to play a specific audio file, choose **Upload file** and upload an MP3, WAV, or WMA file.
+	Choose a supported language. This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
+
+### Greeting and music
+
+* **Greeting**
+
+	Teams can provide a greeting to callers when they arrive in the queue. To set up a greeting, upload an MP3, WAV, or WMA file containing the greeting that you want to play.
+
+* **Music on hold**
+
+	Teams can also provide default music to callers while they're on hold in a queue. If you want to play a specific audio file, choose **Upload file** and upload an MP3, WAV, or WMA file.
 
 ### Call answering
 
@@ -44,6 +63,8 @@ The following call answering settings can be configured:
 - **Conference mode** - Conference mode significantly reduces the amount of time it takes for a caller to be connected to an agent, after the agent accepts the call.
 
 	Agents' Teams accounts must be set to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list.
+
+### Agent selection
 
 - **Routing method** - Routing method determines the order in which agents receive calls from the queue. Choose from these options:
 
@@ -61,7 +82,7 @@ The following call answering settings can be configured:
 
 - **Call agent alert time (seconds)** - Agent alert time specifies how long an agent's phone will ring before the queue redirects the call to the next agent.
 
-	‎:::image type="content" source="../media/call-answering-options.png" alt-text="Screenshot of call answering options, with numbered callouts":::
+	:::image type="content" source="../media/call-answering-options.png" alt-text="Screenshot of agent selection options, with numbered callouts.":::
 
 ### Call overflow handling
 
@@ -69,13 +90,16 @@ The following call answering settings can be configured:
 
 You can choose to disconnect the call or redirect it to any of the call routing destinations. For example, you can have the caller leave a voicemail for the agents in the queue.
 
-‎:::image type="content" source="../media/call-queue-overflow-handling.png" alt-text="Screenshot of call overflow settings":::
+:::image type="content" source="../media/call-queue-overflow-handling.png" alt-text="Screenshot of call overflow settings.":::
  
 ### Call timeout handling
 
 Call Timeout is the maximum time a call can be on hold in the queue before it's redirected or disconnected. You can specify a value from 0 seconds to 45 minutes. You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you can have the caller leave a voicemail for the agents in the queue.
 
-‎:::image type="content" source="../media/call-queue-timeout-handling.png" alt-text="Screenshot of call timeout settings":::
+:::image type="content" source="../media/call-queue-timeout-handling.png" alt-text="Screenshot of call timeout settings.":::
+
+> [!NOTE]
+> When redirecting to shared voicemail, make sure **Let people outside this organization email this team** is enabled for the Team/Group in the Microsoft 365 Admin Center.
 
 ## Call queue PowerShell cmdlets
 
@@ -85,7 +109,3 @@ You can also create and set up call queues with Windows PowerShell. The followin
 - ```Set-CsCallQueue```
 - ```Get-CsCallQueue```
 - ```Remove-CsCallQueue```
-
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”
