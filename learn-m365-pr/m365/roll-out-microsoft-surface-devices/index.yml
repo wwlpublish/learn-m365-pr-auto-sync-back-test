@@ -4,7 +4,7 @@ metadata:
   moduleType: standard
   title: Roll out Microsoft Surface devices
   description: In this module, you'll explore the features of both the Microsoft 365 admin center and Microsoft Endpoint Manager. You'll follow the journey of a Surface device and see how to use Intune and Windows Autopilot to improve the out-of-box experience for your employees.
-  ms.date: 05/27/2022
+  ms.date: 07/12/2022
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
