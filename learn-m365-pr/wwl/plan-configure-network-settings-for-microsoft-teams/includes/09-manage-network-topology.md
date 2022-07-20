@@ -81,7 +81,7 @@ When the Teams client signs in from a network site with a roaming policy assigne
 
     :::image type="content" source="../media/network-roaming-policy.png" alt-text="Screenshot of adding a roaming policy.":::
 
-4. Then, you can assign the roamig policy by editing a network site from the **Network sites** tab.
+4. Then, you can assign the roaming policy by editing a network site from the **Network sites** tab.
 
 You can also use the following PowerShell cmdlet to configure roaming policies:
 

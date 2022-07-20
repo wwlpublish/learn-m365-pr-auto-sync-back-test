@@ -12,7 +12,7 @@ When network traffic enters a router, the traffic is placed into a queue. Withou
 
 When you implement QoS, you define multiple queues using one of several congestion management features. A simple analogy is that QoS creates virtual “carpool lanes” in your data network so some types of data never or rarely encounter a delay. Once you create those lanes, you can adjust their relative size and much more effectively manage the connection bandwidth you have, while still delivering business-grade experiences for your organization's users.
 
-:::image type="content" source="../media/traffic-classification.png" alt-text="Diagram that shows QoS queues and bandwidth division":::
+:::image type="content" source="../media/traffic-classification.png" alt-text="Diagram that shows QoS queues and bandwidth division.":::
 
 ## Implement QoS
 
