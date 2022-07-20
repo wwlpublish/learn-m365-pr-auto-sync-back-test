@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-plan.summary
+title: Summary
+metadata:
+  unitType: summary
+  title: Summary
+  description: Summary of planning for Viva Connections.
+  ms.date: 07/14/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/6-summary.md)]

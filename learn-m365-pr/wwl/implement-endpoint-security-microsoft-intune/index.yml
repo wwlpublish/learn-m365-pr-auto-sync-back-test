@@ -1,0 +1,52 @@
+### YamlMime:Module
+uid: learn.wwl.implement-endpoint-security-microsoft-intune
+metadata:
+  title: Implement endpoint security in Microsoft Intune
+  description: "Implement endpoint security in Microsoft Intune"
+  ms.date: 07/15/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implement endpoint security in Microsoft Intune
+summary: This module explores how organizations use Microsoft Intune to implement endpoint security, including the use of device configuration and device compliance policies, device management, security baselines, and attack surface reduction rules.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Describe how Microsoft Intune enables organizations to protect their data and devices.
+  - Understand how endpoint security in Microsoft Intune focuses on device security and risk mitigation.
+  - Manage devices with endpoint security in Intune.
+  - Use security baselines to configure Windows devices in Intune.
+  - Implement attack surface reduction rules to reduce an organization's attack surface.
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+- security-engineer
+- solution-architect
+- technology-manager
+products:
+- m365
+- office-365
+subjects:
+- cloud-computing
+- cloud-security
+- collaboration
+- communication
+- compliance
+- information-protection-governance
+- security
+- threat-protection
+units:
+- learn.wwl.implement-endpoint-security-microsoft-intune.introduction
+- learn.wwl.implement-endpoint-security-microsoft-intune.protect-data-devices-microsoft-intune
+- learn.wwl.implement-endpoint-security-microsoft-intune.explore-endpoint-security
+- learn.wwl.implement-endpoint-security-microsoft-intune.manage-devices
+- learn.wwl.implement-endpoint-security-microsoft-intune.use-security-baselines-configure-windows-devices-intune
+- learn.wwl.implement-endpoint-security-microsoft-intune.manage-security-baseline-profiles
+- learn.wwl.implement-endpoint-security-microsoft-intune.implement-attack-surface-reduction-rules
+- learn.wwl.implement-endpoint-security-microsoft-intune.knowledge-check
+- learn.wwl.implement-endpoint-security-microsoft-intune.summary
+badge:
+  uid: learn.wwl.implement-endpoint-security-microsoft-intune.badge

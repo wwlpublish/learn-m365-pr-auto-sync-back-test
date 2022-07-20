@@ -1,6 +1,6 @@
 Network Planner is designed to assist the admin to determine and organize network requirements for connecting Microsoft Teams users across the whole organization. You can access the tool by going to **Microsoft Teams admin center** > **Planning** > **Network planner**. After providing network details and Teams usage, the Network Planner calculates the network requirements for deploying Teams and cloud voice across the organization’s physical locations.
 
-:::image type="content" source="../media/network-planner.png" alt-text="Network planner" lightbox="../media/network-planner.png":::
+:::image type="content" source="../media/network-planner.png" alt-text="Screenshot of Network planner." lightbox="../media/network-planner.png":::
 
 With Network Planner you can:
 
@@ -12,7 +12,7 @@ To use the Network Planner, you must have one of the following roles:
 
 - Global administrator
 
-- Teams admin
+- Teams administrator
 
 - Teams communication administrator
 
@@ -24,13 +24,13 @@ To create a custom persona in your network plan, do the following steps:
 
 2. Navigate to **Planning** > **Network Planner**.
 
-3. On the **Network Planner** page, select the **Personas** section, review the default personas, and then select **Add persona** if you’d like to add a custom persona.
+3. On the **Network Planner** page, select the **Personas** section, review the default personas, and then select **+ Add** if you’d like to add a custom persona.
 
 4. On the **Add persona** page, provide the persona name and description. Under the **Permissions** section, choose from the following services: Audio, Video, Screen sharing, File sharing, Conference audio, Conference video, Conference screen sharing, and PSTN.
 
 5. Select **Apply**.
 
-   :::image type="content" source="../media/network-planner-add-persona.png" alt-text="Screenshot of creating custom personas" lightbox="../media/network-planner-add-persona.png":::
+   :::image type="content" source="../media/network-planner-add-persona.png" alt-text="Screenshot of creating custom personas." lightbox="../media/network-planner-add-persona.png":::
 
 ## Build your plan
 
@@ -76,7 +76,7 @@ To create a report based on your network plan, do the following steps:
 
 3. On the **Network Planner** page, under **Network Plans** section, select your network plan (for example, **NY Teams network plan**).
 
-4. On the plan page, select **Report**, and then select **Add report**.
+4. On the plan page, select **Report**, and then select **Start a report**.
 
 5. On the **Add report** page, enter the report name, and in the **Calculation** section, choose the type of persona, such as Office Worker or Remote Worker and the number of each persona types.
 
@@ -84,4 +84,4 @@ To create a report based on your network plan, do the following steps:
 
 7. On the **report** page, review the report including Type of service and required bandwidth for different services, such as Audio, Video, Screen share, Office 365 server traffic, and PSTN.
 
-:::image type="content" source="../media/network-planner-report-output.png" alt-text="Screenshot to run report of network planner" lightbox="../media/network-planner-report-output.png":::
+:::image type="content" source="../media/network-planner-report-output.png" alt-text="Screenshot to run report of network planner." lightbox="../media/network-planner-report-output.png":::

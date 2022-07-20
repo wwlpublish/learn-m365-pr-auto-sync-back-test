@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.zero-trust-infrastructure.what-infrastructure
+title: What is infrastructure?
+metadata:
+  unitType: learning-content
+  title: What is infrastructure?
+  description: Learn what is meant by the term infrastructure.
+  ms.date: 07/12/2022
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5 
+content: |
+  [!include[](includes/what-infrastructure.md)]

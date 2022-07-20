@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-plan.build-your-team-and-meet-requirements
+title: Build your team and meet requirements
+metadata:
+  unitType: learning-content
+  title: Build your team and meet requirements
+  description: The first step of planning for Viva Connections is to identify the key stakeholders. These people will prioritize which tasks, tools, and resources should be streamlined and supported by Viva Connections. 
+  ms.date: 07/15/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-build-your-team-and-meet-requirements.md)]

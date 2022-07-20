@@ -32,8 +32,8 @@ Just like with company-wide goals, we're going to follow the same steps of askin
 
 Here are some critical things to remember:​
 
-- Metrics for teams should be things they control​.
-  - Don't set a metric of generating 1,000 attendees at a webinar, if the only thing you do is present the material, with no ability to bring in new prospects. Instead, generate a metric around the material being presented such as, level of participation.​
+- Metrics for teams should be things the team can influence.
+  - Don't set a metric of generating 1,000 attendees at a webinar, if the team has no influence on generating those leads.  Instead, focus on what the team can control firstly, or build influence with the teams that can help achieve the attendance goals if that is what matters to company success.​
 - Focus first on the primary point of alignment​.
   - Ask yourself "Why" a company-wide Objective or Key Result is being done and identify what you can do to make that happen. Why do we want to lead the market? So we can beat the competition. How can my team help beat the competition?
 

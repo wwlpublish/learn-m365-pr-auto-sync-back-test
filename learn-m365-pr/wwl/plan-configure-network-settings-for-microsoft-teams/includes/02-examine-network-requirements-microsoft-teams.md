@@ -53,6 +53,10 @@ You might want to do more network optimization if:
 
 The following tasks are optional and aren't required for rolling out Teams, especially if you're a small business and you've already rolled out Microsoft 365 or Office 365. Use this guidance to optimize your network and Teams performance or if you know you've got some network limitations.
 
+- **Network planner** - For help assessing your network, including bandwidth calculations and network requirements across your org's physical locations, use the Network Planner tool, in the Teams admin center.
+
+- **Advisor for Teams** - Advisor for Teams is part of the Teams admin center. It assesses your Microsoft 365 or Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. 
+
 - **External Name Resolution** - Be sure that all computers running the Teams client can resolve external DNS queries to discover the services provided by Microsoft 365 or Office 365 and that your firewalls are not preventing access.
 
 - **Maintain session persistence** - Make sure your firewall doesn't change the mapped Network Address Translation (NAT) addresses or ports for UDP.
@@ -89,10 +93,7 @@ The following tasks are optional and aren't required for rolling out Teams, espe
 
   Each wireless vendor has its own recommendations for deploying its wireless solution. Consult your WiFi vendor for specific guidance.
 
-- **Proxy servers** - It is recommended that proxy servers are bypassed. Performance-related problems can be introduced into the environment through latency and packet loss. Issues such as these will result in a negative experience in Teams or Skype for Business audio and video scenarios, where real-time streams are essential. It is also recommended that organizations use external DNS resolution, direct UDP based routing, and allow UDP traffic.
+- **Bypass Proxy servers** - It is recommended that proxy servers are bypassed. Performance-related problems can be introduced into the environment through latency and packet loss. Issues such as these will result in a negative experience in Teams or Skype for Business audio and video scenarios, where real-time streams are essential. If bypassing a proxy for Teams is not an option,  it is recommended that organizations use external DNS resolution, direct UDP based routing, and allow UDP traffic. 
 
 For more information, see [Prepare your organization's network for Microsoft Teams](/microsoftteams/prepare-network?azure-portal=true).
 
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”

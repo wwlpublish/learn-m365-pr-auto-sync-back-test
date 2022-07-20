@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-plan.introduction
+title: Introduction
+metadata:
+  unitType: Introduction
+  title: introduction
+  description: Learn about best practices, considerations, and technical details to plan for Viva Connections Dashboard, Feed, and Resources.
+  ms.date: 07/14/2022
+  author: maggierui
+  ms.author: ruihu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction.md)]
