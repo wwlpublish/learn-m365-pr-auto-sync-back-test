@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 10/25/2021
+  ms.date: 07/20/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -17,36 +17,91 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson is creating a sensitivity label. When defining the scope for the label, Holly configured the label settings. What else can Holly define as part of the label's scope?"
+    choices:
+    - content: "Where the label will be visible to users"
+      isCorrect: true
+      explanation: "That's correct. When you create a sensitivity label, you're asked to configure the label's scope which determines two things: which label settings you can configure for that label, and where the label will be visible to users."
+    - content: "A help link to a custom help page"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the second part of the label's scope."
+    - content: "Choose which users and groups see the label"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the second part of the label's scope."
+  - content: "Microsoft Purview Data Loss Prevention for Microsoft Teams blocks sensitive content that's shared with which Microsoft Teams users?"
+    choices:
+    - content: "Users who can access SharePoint sites from unmanaged devices"
+      isCorrect: false
+      explanation: "That's incorrect. This item doesn't define the types of users who are blocked from receiving sensitive content that's shared with them."
+    - content: "Users with external access"
+      isCorrect: true
+      explanation: "That's correct. DLP for Microsoft Teams blocks sensitive content when shared with Microsoft Teams users who have guest access or external access."
+    - content: "Users who are assigned a sensitivity label"
+      isCorrect: false
+      explanation: "That's incorrect. This item doesn't define the types of users who are blocked from receiving sensitive content that's shared with them."
+  - content: "As the Teams administrator for Tailspin Toys, Patti Fernandez wants to create communication compliance policies that configure specific communication channels, individual detection conditions, and the amount of content to monitor and review in the organization. Which policy template should Patti use to create these policies?"
+    choices:
+    - content: "Custom policy"
+      isCorrect: true
+      explanation: "That's correct. This template enables organizations to create policies that configure specific communication channels, individual detection conditions, and the amount of content to monitor and review in your organization."
+    - content: "Regulatory compliance"
+      isCorrect: false
+      explanation: "That's incorrect. This template creates a policy that scans communications for references to standard financial terms associated with regulatory standards."
+    - content: "Organization compliance"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't a valid policy template."
+  - content: "As the Teams administrator for Tailspin Toys, Patti Fernandez is unable to create an information barrier policy. Patti has reviewed the Microsoft Purview Information Barrier prerequisites and identified the following items. All Tailspin users are assigned a Microsoft 365 E5 license. Tailspin Toys has no Exchange address book policies in place.  Audit logging and Scoped directory search are both turned On. Which of the following items explains why Patti is unable to create an information barrier policy?"
+    choices:
+    - content: "Patti is assigned a Microsoft 365 E5 license"
+      isCorrect: false
+      explanation: "That's incorrect. A Microsoft 365 E5 license is a valid license that supports creating information barriers. Since all Tailspin users are assigned this license, this item isn't preventing Patti from creating an information barrier."
+    - content: "No Exchange address book policies are in place at Tailspin Toys"
+      isCorrect: false
+      explanation: "That's incorrect. An organization can't have Exchange address book policies if it wants to create information barriers. Since no Exchange address book policies are in place at Tailspin Toys, this item isn't preventing Patti from creating an information barrier."
+    - content: "The Teams administrator role doesn't provide permission to create an information barrier policy"
+      isCorrect: true
+      explanation: "That's correct. To define or edit information barrier policies, administrators must be assigned to one of the following roles - Microsoft 365 Global admin, Compliance administrator, and IB Compliance Management."
+  - content: "Which of the following Microsoft 365 role groups can't view any alerts because none of the assigned roles provide permission to view alerts from any alert category?"
+    choices:
+    - content: "Records Management"
+      isCorrect: false
+      explanation: "That's incorrect. The roles in this role group can view selected alerts."
+    - content: "Compliance Administrator"
+      isCorrect: false
+      explanation: "That's incorrect. The roles in this role group can view selected alerts."
+    - content: "eDiscovery Manager"
+      isCorrect: true
+      explanation: "That's correct. Members of the eDiscovery Manager role group can't view any alerts because none of the assigned roles provide permission to view alerts from any alert category."
   - content: "Which of the following items is a principle of retention when more than one retention policy applies to the same content?"
     choices:
     - content: "Implicit wins over explicit for deletions"
       isCorrect: false
-      explanation: "That's incorrect. Explicit wins over implicit for deletions. If a retention policy includes a specific location, such as a specific user’s mailbox or OneDrive for Business account, that policy takes precedence over another retention policy that applies to all users’ mailboxes or OneDrive for Business accounts but doesn’t specifically include that user’s mailbox. Try again."
+      explanation: "That's incorrect. Explicit wins over implicit for deletions. If a retention policy includes a specific location, such as a specific user’s mailbox or OneDrive for Business account, that policy takes precedence over another retention policy that applies to all users’ mailboxes or OneDrive for Business accounts but doesn’t specifically include that user’s mailbox."
     - content: "Retention wins over deletion"
       isCorrect: true
       explanation: "That's correct. Content won't be permanently deleted when it also has retention settings to retain it."
     - content: "The longest deletion period wins"
       isCorrect: false
-      explanation: "That's incorrect. The shortest deletion period wins. Similarly, if content is subject to multiple policies that delete content (with no retention), it will be deleted at the end of the shortest retention period. Try again."
+      explanation: "That's incorrect. The shortest deletion period wins. Similarly, if content is subject to multiple policies that delete content (with no retention), it will be deleted at the end of the shortest retention period."
   - content: "What's the general guideline as to when an organization should use scoped directory searches?"
     choices:
     - content: "When an organization selects \"Groups and sites\" as the scope for its sensitivity labels"
       isCorrect: false
-      explanation: "That's incorrect. The scope defined for sensitivity labels has nothing to do with scoped directory searches. Try again."
-    - content: "When an organization uses the Advanced eDiscovery tool"
+      explanation: "That's incorrect. The scope defined for sensitivity labels has nothing to do with scoped directory searches."
+    - content: "When an organization uses the eDiscovery (Premium)  tool"
       isCorrect: false
-      explanation: "That's incorrect. The types of eDiscovery searches used by an organization have nothing to do with scoped directory searches. Try again."
+      explanation: "That's incorrect. The types of eDiscovery searches used by an organization have nothing to do with scoped directory searches."
     - content: "An organization has multiple companies within its tenant that it wants to keep separate"
       isCorrect: true
       explanation: "That's correct. An organization should use scoped directory searches when it has multiple companies within its tenant that it wants to keep separate."
   - content: "When a user does something that matches the conditions of an alert policy, the assigned alert action is triggered. For example, the alert action can be sending an email to all global administrators notifying them of what the user did to trigger the alert policy. Besides the user-defined alert action, another action automatically occurs when an alert action is triggered. What is this action?"
     choices:
-    - content: "An alert entry is created in the Alert dashboard in the Microsoft 365 Compliance Center"
+    - content: "An alert entry is created in the Alert dashboard in the Microsoft  Purview (previously Microsoft 365 Compliance center)"
       isCorrect: true
-      explanation: "That's correct. When an alert is generated, the according alert action is triggered, such as sending an email to all global administrators. An alert entry is also created in the alert dashboard in the Microsoft 365 compliance center."
+      explanation: "That's correct. When an alert is generated, the according alert action is triggered, such as sending an email to all global administrators. An alert entry is also created in the alert dashboard in the Microsoft Purview."
     - content: "The user who triggered the alert policy is notified via email that their action is being reviewed"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't the action that's automatically completed when an alert action is triggered. Try again."
+      explanation: "That's incorrect. This item isn't the action that's automatically completed when an alert action is triggered."
     - content: "The status of the user who triggered the alert policy is set to \"Under compliance review\""
       isCorrect: false
-      explanation: "That's incorrect. This item isn't the action that's automatically completed when an alert action is triggered. Try again."
+      explanation: "That's incorrect. This item isn't the action that's automatically completed when an alert action is triggered."

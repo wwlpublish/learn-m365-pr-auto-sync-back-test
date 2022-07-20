@@ -4,7 +4,7 @@ title: Deploy communication compliance
 metadata:
   title: Deploy communication compliance
   description: "Deploy communication compliance"
-  ms.date: 10/25/2021
+  ms.date: 07/20/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -14,17 +14,3 @@ labModal: false
 durationInMinutes: 7
 content: |
   [!include[](includes/05-deploy-communication-compliance.md)]
-quiz:
-  title: "Check your knowledge"
-  questions:
-  - content: "As the Teams administrator for Tailspin Toys, Patti Fernandez wants to create communication compliance policies that configure specific communication channels, individual detection conditions, and the amount of content to monitor and review in the organization. Which policy template should Patti use to create these policies?"
-    choices:
-    - content: "Custom policy"
-      isCorrect: true
-      explanation: "That's correct. This template enables organizations to create policies that configure specific communication channels, individual detection conditions, and the amount of content to monitor and review in your organization."
-    - content: "Regulatory compliance"
-      isCorrect: false
-      explanation: "That's incorrect. This template creates a policy that scans communications for references to standard financial terms associated with regulatory standards. Try again."
-    - content: "Organization compliance"
-      isCorrect: false
-      explanation: "That's incorrect. This item isn't a valid policy template. Try again."

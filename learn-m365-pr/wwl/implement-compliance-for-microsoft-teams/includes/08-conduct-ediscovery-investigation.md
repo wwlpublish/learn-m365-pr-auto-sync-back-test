@@ -20,41 +20,42 @@ You can use eDiscovery tools to search for Teams content. Depends on the type of
 
 There are three key capabilities of eDiscovery.
 
-:::image type="content" source="../media/m365-ediscovery-solution-graphic.png" alt-text="Key capabilities of Microsoft 365 eDiscovery tools":::
+:::image type="content" source="../media/m365-ediscovery-solution-graphic.png" alt-text="Screenshot of Key capabilities of Microsoft 365 eDiscovery tools.":::
 
-- **Content search**: Use the Content search tool to search for content across Microsoft 365 data sources and then export the search results to local computer.
+- **Content search**. Use the Content search tool to search for content across Microsoft 365 data sources and then export the search results to a local computer.
 
-- **Core eDiscovery**: Core eDiscovery builds on the basic search and export functionality of Content search. You can create eDiscovery cases and eDiscovery managers who can only access the case they are members of. Core eDiscovery lets you associate searches and exports with a case and allows you to place an eDiscovery hold on content locations relevant to the case.
+- **eDiscovery (Standard)**. eDiscovery (Standard) builds on the basic search and export functionality of Content search by enabling you to create eDiscovery cases and assign eDiscovery managers to specific cases. eDiscovery managers can only access the cases of which they are members. eDiscovery (Standard) also lets you associate searches and exports with a case and lets you place an eDiscovery hold on content locations relevant to the case.
 
-- **Advanced eDiscovery**: The Advanced eDiscovery tool builds on the existing case management, preservation, search, and export capabilities in Core eDiscovery. Advanced eDiscovery provides an end-to-end workflow to identify, preserve, collect, review, analyze, and export content that's responsive to your organization's internal and external investigations. It lets legal teams manage custodians and the legal hold notification workflow to communicate with custodians involved in a case.
+- **eDiscovery (Premium)**. The eDiscovery (Premium) tool builds on the existing case management, preservation, search, and export capabilities in eDiscovery (Standard). eDiscovery (Premium) provides an end-to-end workflow to identify, preserve, collect, review, analyze, and export content that's responsive to your organization's internal and external investigations. It lets legal teams manage custodians and the legal hold notification workflow to communicate with custodians involved in a case. It allows you to collect and copy data from the live service into review sets, when you can filter, search, and tag content to cull non-relevant content from further review so your workflow can identify and focus on content that's most relevant. eDiscovery (Premium) provides analytics and machine learning-based predictive coding models to further narrow to scope of your investigation to the most relevant content.
 
-To get you started using core eDiscovery, here's a simple workflow of creating eDiscovery holds for people of interest, searching for content that's relevant to your investigation, and then exporting that data for further review.
 
-:::image type="content" source="../media/core-ediscovery-workflow.png" alt-text="Core eDiscovery workflow":::
+To get you started using eDiscovery (Standard), here's a simple workflow of creating eDiscovery holds for people of interest, searching for content that's relevant to your investigation, and then exporting that data for further review.
+
+:::image type="content" source="../media/core-ediscovery-workflow.png" alt-text="Screenshot of eDiscovery (Standard) workflow.":::
 
 ## eDiscovery permissions
 
-If you want people to use any of the eDiscovery-related tools in the Microsoft 365 compliance center, you have to assign them the appropriate permissions. The easiest way to do this is to add the person to the appropriate role group on the **Permissions** page in the compliance center.
+If you want people to use any of the eDiscovery-related tools in the Microsoft Purview compliance portal, you have to assign them the appropriate permissions. The easiest way to do this is to add the person to the appropriate role group on the **Permissions** page in the compliance center.
 
-The primary eDiscovery-related role group in Microsoft 365 compliance center is called **eDiscovery Manager**. There are two subgroups within this role group.
+The primary eDiscovery-related role group in Microsoft Purview compliance portal is called **eDiscovery Manager**. There are two subgroups within this role group.
 
-- **eDiscovery Managers**: An eDiscovery Manager can use eDiscovery search tools to search content locations in the organization, and perform various search-related actions such as preview and export search results. Members can also create and manage cases in Core eDiscovery and Advanced eDiscovery, add, and remove members to a case, create case holds, run searches associated with a case, and access case data. eDiscovery Managers can only access and manage the cases they create. They can't access or manage cases created by other eDiscovery Managers.
+- **eDiscovery Managers**: An eDiscovery Manager can use eDiscovery search tools to search content locations in the organization, and perform various search-related actions such as preview and export search results. Members can also create and manage cases in eDiscovery (Standard) and eDiscovery (Premium), add, and remove members to a case, create case holds, run searches associated with a case, and access case data. eDiscovery Managers can only access and manage the cases they create. They can't access or manage cases created by other eDiscovery Managers.
   
 - **eDiscovery Administrators**: An eDiscovery Administrator is a member of the eDiscovery Manager role group, and can perform the same content search and case management-related tasks that an eDiscovery Manager can perform. Additionally, an eDiscovery Administrator can:
   
-  - Access all cases that are listed on the **Core eDiscovery** and **Advanced eDiscovery** pages in the Microsoft 365 compliance center.
+  - Access all cases that are listed on the **eDiscovery (Standard)** and **eDiscovery (Premium)** pages in the Microsoft Purview compliance portal.
 
-  - Access case data in Advanced eDiscovery for any case in the organization.
+  - Access case data in eDiscovery (Premium) for any case in the organization.
   
   - Manage any eDiscovery case after they add themselves as a member of the case.
 
-## Create a Core eDiscovery case
+## Create a eDiscovery (Standard) case
 
-Do the following to create a case and start using Core eDiscovery.
+Do the following to create a case and start using eDiscovery (Standard).
 
-1. From the [Microsoft 365 compliance center](https://compliance.microsoft.com/?azure-portal=true), select **eDiscovery** > **Core**.
+1. From the [Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true), select **eDiscovery** > **Standard**.
 
-2. On the Core eDiscovery page, select **+ Create a case**.
+2. On the eDiscovery (Standard) page, select **+ Create a case**.
 
 3. On the New case pane on the right side, enter a meaningful **Case name** and a **Case description** that tells the purpose of this case. Then select **Save**.
 
@@ -62,13 +63,13 @@ The case that you created will now be displayed in the list of cases on the **eD
 
 ## Create an eDiscovery hold for Teams content
 
-You can use a Core eDiscovery case to create holds to preserve content that might be relevant to the case. To create an eDiscovery hold that's associated with a Core eDiscovery case:
+You can use a eDiscovery (Standard) case to create holds to preserve content that might be relevant to the case. To create an eDiscovery hold that's associated with a eDiscovery (Standard) case:
 
-1. From the [Microsoft 365 compliance center](https://compliance.microsoft.com/?azure-portal=true), select **eDiscovery** > **Core**.
+1. From the [Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true), select **eDiscovery** > **Standard**.
 
-2. On the **Core eDiscovery** page, select the name of the case that you want to create the hold in.
+2. On the **eDiscovery (Standard)** page, select the name of the case that you want to create the hold in.
 
-3. On the Home page for the case, select the **Holds** tab.  
+3. On the Home page for the case, select the **Hold** tab.  
 
 4. Select **+ Create** to create a new hold.
 
@@ -84,7 +85,7 @@ You can use a Core eDiscovery case to create holds to preserve content that migh
   
    - **Exchange public folders**: Set the toggle to **On** to put all public folders in your Exchange Online organization on hold.
 
-		:::image type="content" source="../media/ediscovery-hold-locations.png" alt-text="Choose the content locations to place on hold":::
+		:::image type="content" source="../media/ediscovery-hold-locations.png" alt-text="Screenshot of Choose the content locations to place on hold.":::
 
 8. When you're done adding locations to the hold, select **Next**.
 
@@ -103,17 +104,17 @@ You can use a Core eDiscovery case to create holds to preserve content that migh
 
 ## Search for content in a case
 
-After a Core eDiscovery case is created and people of interest in the case are placed on hold, you can create and run one or more searches for content relevant to the case.
+After a eDiscovery (Standard) case is created and people of interest in the case are placed on hold, you can create and run one or more searches for content relevant to the case.
 
-To create a Core eDiscovery search:
+To create a eDiscovery (Standard) search:
 
-1. From the [Microsoft 365 compliance center](https://compliance.microsoft.com/?azure-portal=true), select **eDiscovery** > **Core**.
+1. From the [Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true), select **eDiscovery** > **Standard**.
 
 2. Select a case.  ‎
 
-3. On the **Core eDiscovery** page, select the **Searches** tab from the top pane.
+3. On the **eDiscovery (Standard)** page, select the **Searches** tab from the top pane.
 
-4. Select the dropdown arrow right from **+ New search** and select **+ Guided Search**.  ‎
+4. Select the dropdown arrow right from **+ New search**.  ‎
 
 5. On the **Name your search** page, enter a meaningful **Name** and a **Description**, that tells the purpose of this search on context of this eDiscovery case.  
 
@@ -135,28 +136,30 @@ After the search is completed, you can preview the search results.
 
 ## Export content from a case
 
-After a search associated with a Core eDiscovery case is successfully run, you can export the search results.
+After a search associated with a eDiscovery (Standard) case is successfully run, you can export the search results.
 
 Follow these steps to export the results of a content in an eDiscovery case:
 
-1. From the [Microsoft 365 compliance center](https://compliance.microsoft.com/?azure-portal=true), select **eDiscovery** > **Core**.
+1. From the [Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true), select **eDiscovery** > **Standard**.
 
-2. On the **Core eDiscovery** page, select the name of the case that you want to create the hold in.
+2. On the **eDiscovery (Standard)** page, select the name of the case that you want to create the hold in.
 
 3. On the **Home** page for the case, select the **Searches** tab.
 
-4. On the **Actions** menu at the bottom of the flyout page, select **Export results**.
+4. Select the search youd like to export.
 
-   The workflow to export the results of a search associated with a Core eDiscovery case is the same as exporting the search results for a search on the **Content search** page.
+5. On the **Actions** menu at the bottom of the flyout page, select **Export results**.
+
+   The workflow to export the results of a search associated with a eDiscovery (Standard) case is the same as exporting the search results for a search on the **Content search** page.
   
-5. Select the **Exports** tab in the case to display the list of export jobs.
+6. Select the **Exports** tab in the case to display the list of export jobs.
 
    You may have to select **Refresh** to update the list of export jobs so that it shows the export job you created. Export jobs have the same name as the corresponding search with **_Export** appended to the search name.
 
-6. Select the export job you created to display status information on the flyout page. This information includes the percentage of items that have been transferred to the Azure Storage location.
+7. Select the export job you created to display status information on the flyout page. This information includes the percentage of items that have been transferred to the Azure Storage location.
 
-7. After all items have been transferred, select **Download results** to download the search results to your local computer.
+8. After all items have been transferred, select **Download list** to download the search results to your local computer.
 
 For additional information, see:
 
-- [eDiscovery cases in the Microsoft 365 compliance center](/microsoft-365/compliance/ediscovery-cases?azure-portal=true)
+- [eDiscovery cases in the Microsoft Purview compliance portal](/microsoft-365/compliance/ediscovery-cases?azure-portal=true)
