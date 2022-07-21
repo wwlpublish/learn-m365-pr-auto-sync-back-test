@@ -4,26 +4,27 @@ title: Configure Virtual Desktop Access for automatic subscription activation on
 metadata:
   title: Configure Virtual Desktop Access for automatic subscription activation on virtual machines
   description: "Configure Virtual Desktop Access for automatic subscription activation on virtual machines"
-  ms.date: 07/30/2021
+  ms.date: 07/21/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/3-configure-virtual-desktop-access-for-automatic-virtual-machines.md)]
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Contoso, Holly Dickson wants Contoso's Windows 10 devices to have virtual desktop access rights. This feature will enable these devices to connect to remote Windows 10 computers by using Remote Desktop at no extra cost. What prerequisite is required to provide Contoso's Windows 10 devices with virtual desktop access rights?"
+  - content: "You're the Enterprise Administrator for Contoso. You want to upload a Windows virtual machine (VM) from Contoso's on-premises environment to Microsoft Azure. Before you can upload the VM, what's the first thing you must do?"
     choices:
-    - content: "The devices must be licensed with Windows Virtual Desktop Access (VDA)"
+    - content: "Change the VM's generation"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't a prerequisite for providing virtual desktop access rights to Windows 10 devices. Try again."
-    - content: "The devices must be Azure Active Directory joined"
-      isCorrect: false
-      explanation: "That's incorrect. This item isn't a prerequisite for providing virtual desktop access rights to Windows 10 devices. Try again."
-    - content: "The devices must be covered under Windows Client Software Assurance (SA)"
+      explanation: "Incorrect. Organizations can't change a VM's generation."
+    - content: "Prepare the virtual hard disk"
       isCorrect: true
-      explanation: "That's correct. Virtual desktop access rights are a benefit of Windows Client SA. If an organization's Windows 10 devices are covered under Windows Client SA, they can connect to remote Windows 10 computers by using Remote Desktop at no extra cost."
+      explanation: "Correct. Before an organization uploads a Windows virtual machine (VM) from on-premises to Azure, it must prepare the virtual hard disk (VHD or VHDX)."
+    - content: "Create custom Remote Desktop Protocol (RDP) settings for Azure"
+      isCorrect: false
+      explanation: "Incorrect. This task doesn't need to be completed before an organization uploads a Windows virtual machine (VM) from on-premises to Azure."

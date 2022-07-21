@@ -1,17 +1,17 @@
 ### YamlMime:Module
 uid: learn.wwl.prepare-your-windows-10-devices-for-co-management
 metadata:
-  title: Prepare your Windows 10 devices for Co-management
-  description: "Prepare your Windows 10 devices for Co-management"
-  ms.date: 06/25/2021
+  title: Prepare your Windows devices for Co-management
+  description: "Prepare your Windows devices for Co-management"
+  ms.date: 07/20/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Prepare your Windows 10 devices for Co-management
+title: Prepare your Windows devices for Co-management
 summary: This module examines the steps involved in preparing your existing environment for Co-management, from reviewing Co-management prerequisites to configuring Configuration Manager for Co-management to enrolling Windows 10 devices to Intune.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Describe the prerequisites for using Co-management
   - Configure Microsoft Endpoint Configuration Manager for Co-management
   - Enroll Windows 10 Devices to Intune
@@ -26,16 +26,20 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 subjects:
+- cloud-security
+- communication
 - device-management
 units:
 - learn.wwl.prepare-your-windows-10-devices-for-co-management.introduction
+- learn.wwl.prepare-your-windows-10-devices-for-co-management.plan-your-co-management-strategy
 - learn.wwl.prepare-your-windows-10-devices-for-co-management.explore-prerequisites-for-using
 - learn.wwl.prepare-your-windows-10-devices-for-co-management.configure-configuration-manager
 - learn.wwl.prepare-your-windows-10-devices-for-co-management.enroll-to-intune
+- learn.wwl.prepare-your-windows-10-devices-for-co-management.modify-your-co-management-settings
+- learn.wwl.prepare-your-windows-10-devices-for-co-management.transfer-workload-management
 - learn.wwl.prepare-your-windows-10-devices-for-co-management.knowledge-check
 - learn.wwl.prepare-your-windows-10-devices-for-co-management.summary
 badge:

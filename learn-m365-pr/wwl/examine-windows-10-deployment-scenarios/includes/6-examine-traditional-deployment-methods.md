@@ -1,52 +1,58 @@
-In the past, companies typically deployed new versions of Windows by using an image-based process. This process was built using tools provided in the Windows Assessment and Deployment Kit, Microsoft Deployment Toolkit, and Configuration Manager.
+New versions of Windows have typically been deployed by organizations using an image-based process built on top of tools provided in the:
 
-> [!NOTE]
-> Many companies have replaced these traditional deployment methods with newer methods such as in-place upgrade and dynamic provisioning. However, these traditional methods remain important and will continue to be available for companies that need them.
+ -  [Windows Assessment and Deployment Kit](/windows/deployment/windows-adk-scenarios-for-it-pros?azure-portal=true).
+ -  [Windows Deployment Services](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831764%28v=ws.11%29?azure-portal=true).
+ -  [Deploy Windows 10/11 with the Microsoft Deployment Toolkit](/windows/deployment/deploy-windows-mdt/prepare-for-windows-deployment-with-mdt?azure-portal=true).
+ -  [Microsoft Endpoint Configuration Manager](/windows/deployment/deploy-windows-cm/prepare-for-zero-touch-installation-of-windows-10-with-configuration-manager?azure-portal=true).
 
-These traditional tools fully support Windows 10. In fact, in some scenarios, Windows 10 can only be deployed using an image-based process. A traditional deployment typically applies in the following scenarios:
+With the release of both Windows 10 and 11, these tools were updated to fully support both operating systems. Although newer scenarios such as in-place upgrade and dynamic provisioning may reduce the need for traditional deployment capabilities in some organizations, these traditional methods remain important, and will continue to be available to organizations that need them.
 
- -  New device
- -  Device refresh
- -  Device replacement
+The traditional deployment scenario can be divided into different subscenarios. These subscenarios are explained in detail in the following sections, but the following list provides a brief summary:
 
-These scenarios are examined in greater detail in the following sections.
+ -  **New computer**. A bare-metal deployment of a new machine.
+ -  **Computer refresh**. A reinstall of the same machine (with user-state migration and an optional full Windows Imaging (WIM) image backup).
+ -  **Computer replace**. A replacement of the old machine with a new machine (with user-state migration and an optional full WIM image backup).
 
-### New device
+### New computer
 
-This scenario is also called a "bare metal" deployment. Organizations can use this scenario when they have to deploy a new device that doesn't have a previous operating system (bare metal). It can also be used when they want to wipe and redeploy a device without preserving any existing data.
+Also called a "bare metal" deployment. This scenario occurs when an organization has a blank machine it must deploy, or an existing machine it wants to wipe and redeploy without needing to preserve any existing data. The setup starts from a boot media, using CD, USB, ISO, or Pre-Boot Execution Environment (PXE). An organization can also generate a full offline media that includes all the files needed for a client deployment. This design enables the organization to deploy without having to connect to a central deployment share. The target can be a physical computer, a virtual machine, or a Virtual Hard Disk (VHD) running on a physical computer (boot from VHD).
 
-The setup starts from a boot media, such as DVD, USB, or Pre-Boot Execution Environment (PXE). A full offline media that includes all the files needed for a deployment can also be generated. This media enables an organization to deploy the device without connecting to a deployment share.
+The deployment process for the new machine scenario is as follows:
 
-The following steps describe the deployment process for the new device scenario:
+1.  Start the setup from boot media (CD, USB, ISO, or PXE).
+2.  Wipe the hard disk clean and create new volume(s).
+3.  Install the operating system image.
+4.  Install other applications (as part of the task sequence).
 
-1.  Start the Windows 10 setup from boot media (DVD, USB, or PXE).
-2.  Wipe the hard disk clean and create a new volume(s).
-3.  Install the Windows 10 operating system image.
-4.  Install apps.
-5.  Join the device to the company domain, or join to Azure AD.
-6.  If the device is joined to Azure AD, then enroll it to an MDM solution, such as Intune.
+After an organization completes these steps, the computer is ready for use.
 
-### Device refresh
+### Computer refresh
 
-A device refresh is also called a wipe-and-load scenario. It’s a reinstall of Windows 10 on the same device, followed by user-state migration and by optional full Windows Imaging (WIM) image backup.
+A refresh is sometimes called wipe-and-load. The process is normally initiated in the running operating system. User data and settings are backed up and restored later as part of the deployment process. The target can be the same as for the new computer scenario.
 
-The process includes the following steps:
+The deployment process for the wipe-and-load scenario is as follows:
 
-1.  Start the Windows 10 setup on a running operating system.
-2.  User data and settings are backed up locally or on the network share.
-3.  The hard disk is wiped (except for the folder containing the backup).
-4.  The operating system is installed.
-5.  Apps are installed.
-6.  User data and settings are restored.
+1.  Start the setup on a running operating system.
+2.  Save the user state locally.
+3.  Wipe the hard disk clean (except for the folder containing the backup).
+4.  Install the operating system image.
+5.  Install other applications.
+6.  Restore the user state.
 
-Although device refresh can be performed manually, it's typically automated by using solutions such as the Microsoft Deployment Toolkit or Configuration Manager. At the end, the device has a newly installed operating system, while settings and user data are preserved.
+After an organization completes these steps, the machine is ready for use.
 
-### Device replacement
+### Computer replace
 
-This scenario is the replacement of an old device with a new device. It's basically a thee-step process:
+A computer replace is similar to the refresh scenario. However, since the machine is being replaced, this scenario is divided into two main tasks:
 
-1.  User data and settings on the old device are backed up to a network share.
-2.  A bare-metal deployment of Windows 10 is completed on the new device.
-3.  The old device's user data and settings are copied from the backup to the new device.
+ -  Backup of the old client.
+ -  Bare-metal deployment of the new client.
 
-This process is similar to the device refresh scenario, with one exception. In a device refresh scenario, the same device is used. In a device replacement scenario, Windows 10 is installed on a new device.
+As with the refresh scenario, user data and settings are backed up and restored.
+
+The deployment process for the replace scenario is as follows:
+
+1.  Save the user state (data and settings) on the server through a backup job on the running operating system.
+2.  Deploy the new computer as a bare-metal deployment.
+    
+    In some situations, the replace scenario can be used even if the target is the same machine. For example, replace can be used if an organization wants to modify the disk layout from the master boot record (MBR) to the GUID partition table (GPT). This process enables the organization to take advantage of the Unified Extensible Firmware Interface (UEFI) functionality. Replace can also be used if the disk must be repartitioned, since user data must be transferred off the disk.

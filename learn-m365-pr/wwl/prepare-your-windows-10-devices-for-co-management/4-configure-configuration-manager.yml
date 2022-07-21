@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.prepare-your-windows-10-devices-for-co-management.configure-configuration-manager
+title: Configure Configuration Manager for Co-management
+metadata:
+  title: Configure Configuration Manager for Co-management
+  description: "Configure Configuration Manager for Co-management"
+  ms.date: 07/20/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-configure-configuration-manager.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Fabrikam ran the Co-management Configuration Wizard. Which \"Automatic enrollment in Intune\" option enabled Fabrikam to automatically enroll selected devices?"
+    choices:
+    - content: "Targeted devices"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the option to enroll selected devices."
+    - content: "Pilot"
+      isCorrect: true
+      explanation: "Correct. The Pilot option should be selected to enroll selected devices."
+    - content: "Limited"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the option to enroll selected devices."

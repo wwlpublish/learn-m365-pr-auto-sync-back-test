@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-for-mobile-application-management.explore-mobile-application-management
+title: Explore mobile application management in Microsoft Intune
+metadata:
+  title: Explore mobile application management in Microsoft Intune
+  description: "Explore mobile application management in Microsoft Intune"
+  ms.date: 07/21/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/2-explore-mobile-application-management.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson wants to use Intune's Mobile Application Management to manage the lifecycles of Contoso's apps. Holly created a pilot team to test MAM at Contoso. The team identified an app they want to use in the pilot project. What's the first step the team must complete in the lifecycle of this app?"
+    choices:
+    - content: "Add the app to Intune"
+      isCorrect: true
+      explanation: "Correct. The app lifecycle begins when you add an app to Intune."
+    - content: "Deploy the app to users and devices"
+      isCorrect: false
+      explanation: "Incorrect. This action isn't the first step in the app lifecycle."
+    - content: "Protect the app data by using app protection policies"
+      isCorrect: false
+      explanation: "Incorrect. This action isn't the first step in the app lifecycle."

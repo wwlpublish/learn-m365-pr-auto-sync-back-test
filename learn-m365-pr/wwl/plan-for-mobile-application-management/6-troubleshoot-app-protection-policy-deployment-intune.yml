@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-for-mobile-application-management.troubleshoot-app-protection-policy-deployment-intune
+title: Troubleshoot app protection policy deployment in Intune
+metadata:
+  title: Troubleshoot app protection policy deployment in Intune
+  description: "Troubleshoot app protection policy deployment in Intune"
+  ms.date: 07/21/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/6-troubleshoot-app-protection-policy-deployment-intune.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "For Android devices, which app is required to receive app protection policies?"
+    choices:
+    - content: "Company Portal"
+      isCorrect: true
+      explanation: "Correct. For Android devices, the Company Portal app is required to receive app protection policies."
+    - content: "WSATools - APK installer"
+      isCorrect: false
+      explanation: "Incorrect. This app isn't required to receive app protection policies for Android devices."
+    - content: "App Installer"
+      isCorrect: false
+      explanation: "Incorrect. This app isn't required to receive app protection policies for Android devices."

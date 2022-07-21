@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.examine-windows-10-deployment-scenarios.explore-windows-deployment-models
+title: Explore the Windows client deployment models
+metadata:
+  title: Explore the Windows client deployment models
+  description: "Explore the Windows client deployment models"
+  ms.date: 07/21/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-explore-windows-deployment-models.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which deployment method is image-based and can always be used, regardless of the current device state?"
+    choices:
+    - content: "Traditional deployment"
+      isCorrect: true
+      explanation: "Correct. These methods are image-based and can always be used, regardless of the current device state. Traditional deployment methods include bare metal deployment and refresh and replace."
+    - content: "Modern deployment"
+      isCorrect: false
+      explanation: "Incorrect. These methods are recommended for Windows 10/11 deployments unless you have a specific need."
+    - content: "Dynamic deployment"
+      isCorrect: false
+      explanation: "Incorrect. These methods enable an organization to customize an existing Windows 10/11 device and configure it to meet its needs."
