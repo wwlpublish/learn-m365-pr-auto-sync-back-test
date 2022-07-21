@@ -4,26 +4,27 @@ title: Examine the Windows Autopilot user-driven deployment model
 metadata:
   title: Examine the Windows Autopilot user-driven deployment model
   description: "Examine the Windows Autopilot user-driven deployment model"
-  ms.date: 06/30/2021
+  ms.date: 07/21/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 2
 content: |
   [!include[](includes/7-examine-user-driven-deployment-model.md)]
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Contoso recently purchased a dozen new Windows 10 devices. Contoso's Enterprise Administrator, Holly Dickson, wants to use Windows Autopilot user-driven mode to transform the devices from their initial state directly from the factory into a ready-to-use state without requiring Contoso's IT personnel to ever touch them. Which of the following steps must Holly complete in preparation to deploying Windows Autopilot in user-driven mode?"
+  - content: "Contoso recently purchased a dozen new Windows 11 devices. Contoso's Enterprise Administrator, Holly Dickson, wants to use Windows Autopilot user-driven mode to transform the devices from their initial state directly from the factory into a ready-to-use state without requiring Contoso's IT personnel to ever touch them. Which of the following steps must Holly complete in preparation to deploying Windows Autopilot in user-driven mode?"
     choices:
     - content: "Ensure the users who will be performing user-driven mode deployments can join devices to on-premises Active Directory"
       isCorrect: false
-      explanation: "That's incorrect. Users who perform user-driven deployments must have permission to join devices to Azure Active Directory, not on-premises Active Directory. Try again."
+      explanation: "Incorrect. Users who perform user-driven deployments must have permission to join devices to Azure Active Directory, not on-premises Active Directory."
     - content: "Create an Autopilot profile for user-driven mode with the required settings"
       isCorrect: true
-      explanation: "That's correct. Holly must create an Autopilot profile for user-driven mode with the required settings. In Microsoft Intune, this mode is explicitly chosen when creating the profile."
+      explanation: "Correct. Holly must create an Autopilot profile for user-driven mode with the required settings. In Microsoft Intune, this mode is explicitly chosen when creating the profile."
     - content: "Add the devices to Microsoft Intune"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't a step Holly must complete in preparation to deploying Windows Autopilot in user-driven mode. Try again."
+      explanation: "Incorrect. This action isn't a step Holly must complete in preparation to deploying Windows Autopilot in user-driven mode."
