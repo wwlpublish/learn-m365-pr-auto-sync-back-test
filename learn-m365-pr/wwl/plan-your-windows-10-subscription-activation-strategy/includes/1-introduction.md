@@ -19,4 +19,4 @@ After completing this module, you'll be able to:
 
  -  Describe how Windows 10/11 Enterprise E3 subscriptions can be purchased through the Cloud Service Provider channel.
  -  Configure Virtual Desktop Access for automatic subscription activation on virtual machines.
- -  Explain how Windows 10/11 Enterprise licenses can be deployed automatically and without device restart.
+ -  Explain how Windows 10/11 Enterprise licenses can be deployed automatically and without device restart. 
