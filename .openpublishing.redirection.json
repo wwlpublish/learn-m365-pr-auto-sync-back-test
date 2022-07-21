@@ -4464,6 +4464,11 @@
       "source_path": "learn-m365-pr/wwl/examine-windows-10-deployment-scenarios/3-explore-models.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/examine-windows-10-deployment-scenarios/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-windows-10-subscription-activation-strategy/2-explore-enterprise-e3-availability-through-cloud-service-provider-channel.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-windows-10-subscription-activation-strategy/",
+      "redirect_document_id": false
     }
   ]
 }
