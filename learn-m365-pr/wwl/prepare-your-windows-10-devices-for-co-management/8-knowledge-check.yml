@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.prepare-your-windows-10-devices-for-co-management.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 07/20/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "A Windows 10 or later device can be Co-managed if it's managed by Configuration Manager and enrolled to Intune. What must you do to manage a device by Configuration Manager?"
+    choices:
+    - content: "Purchase an Azure AD license"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't what you must do to manage devices by Configuration Manager."
+    - content: "Add the device to the Pilot collection"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't what you must do to manage devices by Configuration Manager."
+    - content: "Install the Configuration Manager client on the device"
+      isCorrect: true
+      explanation: "Correct. To be managed by Configuration Manager, you must install the Configuration Manager client on a device."
+  - content: "There are two prerequisites to using Microsoft Intune in a Co-management deployment. The first is setting it up. What's the second prerequisite?"
+    choices:
+    - content: "Joining the Windows 10 devices to Azure AD"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the second prerequisite to using Intune."
+    - content: "Enabling automatic enrollment for Windows 10 and later devices"
+      isCorrect: true
+      explanation: "Correct. There are two prerequisites to using Intune - setting it up and enabling Windows 10 and later devices for automatic enrollment."
+    - content: "Connecting Configuration Manager to Intune"
+      isCorrect: false
+      explanation: "Incorrect. This item is required for Co-management, but it isn't the second prerequisite to using Intune."
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson has found that Contoso's IT staff is constantly asking questions about co-managing devices and hybrid Azure AD-joined devices. They keep confusing these two services. To help clarify this situation, Holly has told them to remember one fact - Co-management and Azure AD are different types of options. Co-management is a device management option. What type of option is Azure AD?"
+    choices:
+    - content: "a Mobile Desktop Management option"
+      isCorrect: false
+      explanation: "Incorrect. Azure AD isn't this type of option."
+    - content: "an identity option"
+      isCorrect: true
+      explanation: "Correct. Azure AD is an identity option, whereas, co-management is a device management option."
+    - content: "an autoprovisioning option"
+      isCorrect: false
+      explanation: "Incorrect. Azure AD isn't this type of option."

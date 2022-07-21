@@ -4394,6 +4394,31 @@
       "source_path": "learn-m365-pr/wwl/plan-configure-network-settings-for-microsoft-teams/10-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/plan-configure-network-settings-for-microsoft-teams/11-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/prepare-your-windows-10-devices-for-co-management/3-configure-configuration-manager.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-your-windows-10-devices-for-co-management/4-configure-configuration-manager",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/prepare-your-windows-10-devices-for-co-management/2-explore-prerequisites-for-using.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-your-windows-10-devices-for-co-management/3-explore-prerequisites-for-using",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/prepare-your-windows-10-devices-for-co-management/4-enroll-to-intune.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-your-windows-10-devices-for-co-management/5-enroll-to-intune",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/prepare-your-windows-10-devices-for-co-management/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-your-windows-10-devices-for-co-management/8-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/prepare-your-windows-10-devices-for-co-management/6-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-your-windows-10-devices-for-co-management/9-summary",
+      "redirect_document_id": true
     }
   ]
 }
