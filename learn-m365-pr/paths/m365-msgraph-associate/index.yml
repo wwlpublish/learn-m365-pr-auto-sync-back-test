@@ -29,5 +29,6 @@ modules:
 - learn-m365.msgraph-access-file-data
 - learn-m365.msgraph-build-aspnetmvc-apps
 - learn-m365.msgraph-changenotifications-trackchanges
+- learn.msgraph-extensibility
 trophy:
   uid: learn-m365.msgraph-associate.trophy
