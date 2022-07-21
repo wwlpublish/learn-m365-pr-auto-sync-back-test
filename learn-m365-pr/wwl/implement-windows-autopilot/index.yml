@@ -37,7 +37,7 @@ subjects:
 - device-management
 units:
 - learn.wwl.implement-windows-autopilot.introduction
-- learn.wwl.implement-windows-autopilot.explore-windows-autopilot
+- learn.wwl.implement-windows-autopilot.explore
 - learn.wwl.implement-windows-autopilot.examine-prerequisites
 - learn.wwl.implement-windows-autopilot.plan-autopilot-profile-settings
 - learn.wwl.implement-windows-autopilot.examine-self-deployment-model
