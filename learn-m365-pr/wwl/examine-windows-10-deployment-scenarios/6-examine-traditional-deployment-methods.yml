@@ -4,12 +4,13 @@ title: Examine the traditional deployment methods
 metadata:
   title: Examine the traditional deployment methods
   description: "Examine the traditional deployment methods"
-  ms.date: 06/25/2021
+  ms.date: 07/21/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 3
 content: |
   [!include[](includes/6-examine-traditional-deployment-methods.md)]
