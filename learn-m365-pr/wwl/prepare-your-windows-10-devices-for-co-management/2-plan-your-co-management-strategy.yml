@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.prepare-your-windows-10-devices-for-co-management.plan-your-co-management-strategy
+title: Plan your Co-management strategy
+metadata:
+  title: Plan your Co-management strategy
+  description: "Plan your Co-management strategy"
+  ms.date: 07/20/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-plan-your-co-management-strategy.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson has identified many Windows 10 and later devices throughout the organization that don't have the Configuration Manager client installed. Holly had Contoso's developers create an app to deploy the Configuration Manager client on these devices. After the app was run, which service is managing all the workloads on these devices that now have co-management enabled?"
+    choices:
+    - content: "Intune"
+      isCorrect: false
+      explanation: "Incorrect. After co-management is enabled on devices, this service isn't the one that will manage all workloads."
+    - content: "Azure AD"
+      isCorrect: false
+      explanation: "Incorrect. After co-management is enabled on devices, this service isn't the one that will manage all workloads."
+    - content: "Configuration Manager"
+      isCorrect: true
+      explanation: "Correct. After co-management is enabled, Configuration Manager continues to manage all workloads. When you decide that you're ready, Intune can start managing available workloads."

@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.prepare-your-windows-10-devices-for-co-management.explore-prerequisites-for-using
+title: Explore the prerequisites for using Co-management
+metadata:
+  title: Explore the prerequisites for using Co-management
+  description: "Explore the prerequisites for using Co-management"
+  ms.date: 07/20/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/3-explore-prerequisites-for-using.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson wants to implement Co-management. Holly recently purchased an Enterprise Mobility + Security subscription for Contoso. What other license does Holly need to purchase to implement Co-management?"
+    choices:
+    - content: "Azure AD Premium"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't what Holly needs to purchase."
+    - content: "Microsoft Intune"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't what Holly needs to purchase."
+    - content: "No other license"
+      isCorrect: true
+      explanation: "Correct. Co-management requires an Azure AD Premium license and a Microsoft Intune license. An Enterprise Mobility + Security subscription includes both Azure AD Premium and Microsoft Intune. Since Contoso already purchased an EMS subscription, Holly doesn't need to purchase any other licenses."
