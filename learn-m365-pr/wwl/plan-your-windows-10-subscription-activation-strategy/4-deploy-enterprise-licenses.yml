@@ -1,15 +1,16 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.plan-your-windows-10-subscription-activation-strategy.deploy-enterprise-licenses
-title: Deploy Windows 10 Enterprise licenses
+title: Deploy Windows 10/11 Enterprise licenses
 metadata:
-  title: Deploy Windows 10 Enterprise licenses
-  description: "Deploy Windows 10 Enterprise licenses"
-  ms.date: 07/30/2021
+  title: Deploy Windows 10/11 Enterprise licenses
+  description: "Deploy Windows 10/11 Enterprise licenses"
+  ms.date: 07/21/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 3
 content: |
   [!include[](includes/4-deploy-enterprise-licenses.md)]
