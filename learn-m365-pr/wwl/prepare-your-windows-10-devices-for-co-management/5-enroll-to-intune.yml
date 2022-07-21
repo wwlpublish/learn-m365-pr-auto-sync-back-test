@@ -4,12 +4,13 @@ title: Enroll Windows 10 devices to Intune
 metadata:
   title: Enroll Windows 10 devices to Intune
   description: "Enroll Windows 10 devices to Intune"
-  ms.date: 06/25/2021
+  ms.date: 07/20/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 2
 content: |
-  [!include[](includes/4-enroll-to-intune.md)]
+  [!include[](includes/5-enroll-to-intune.md)]
