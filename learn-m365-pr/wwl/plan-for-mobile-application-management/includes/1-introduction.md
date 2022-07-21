@@ -20,4 +20,4 @@ After completing this module, you'll be able to:
  -  Assess your app requirements and add apps into Intune.
  -  Protect company data by using app protection policies.
  -  Implement app configuration policies in Intune to eliminate app setup problems.
- -  Troubleshoot app protection policy deployment in Intune.
+ -  Troubleshoot app protection policy deployment in Intune. 
