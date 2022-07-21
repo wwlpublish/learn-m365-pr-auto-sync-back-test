@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.plan-implement-identity-synchronization
 metadata:
-  title: Plan and implement identity synchronization
-  description: Plan and implement identity synchronization
-  ms.date: 05/05/2022
+  title: MS-100 Plan and implement identity synchronization
+  description: MS-100 Plan and implement identity synchronization
+  ms.date: 07/21/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Plan and implement identity synchronization
+title: MS-100 Plan and implement identity synchronization
 prerequisites: |
   - Students should have completed a role-based administrator training collection such as Messaging, Teamwork, Security and Compliance, or Collaboration.
   - Students should have a proficient understanding of DNS and basic functional experience with Microsoft 365 services.
@@ -26,9 +26,9 @@ products:
 - m365
 - office-365
 subjects:
-- process-workflow
-- identity-access
 - cloud-security
+- identity-access
+- process-workflow
 modules:
 - learn.wwl.introduction-to-identity-synchronization
 - learn.wwl.prepare-identity-synchronization-microsoft-365
