@@ -33,6 +33,3 @@ For more information, see:
 
 - [Office 365 IP Address and URL Web Service](/microsoft-365/enterprise/microsoft-365-ip-web-service?azure-portal=true)
 
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”

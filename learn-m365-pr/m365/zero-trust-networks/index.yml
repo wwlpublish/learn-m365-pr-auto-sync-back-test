@@ -4,7 +4,7 @@ metadata:
   moduleType: standard
   title: Manage networks with Zero Trust
   description: Networks enable us to communicate with everyone, from sharing pictures and video chats to online shopping and banking. Protecting your network from cybercriminals can be demanding as many of us move to hybrid working. A Zero Trust strategy will help to keep your networks safe and your data secure. 
-  ms.date: 6/16/2022
+  ms.date: 07/19/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
