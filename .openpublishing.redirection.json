@@ -4454,6 +4454,16 @@
       "source_path": "learn-m365-pr/wwl/implement-windows-autopilot/2-explore.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/implement-windows-autopilot/2-explore-windows-autopilot",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/examine-windows-10-deployment-scenarios/2-explore-windows-as-service.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/examine-windows-10-deployment-scenarios/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/examine-windows-10-deployment-scenarios/3-explore-models.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/examine-windows-10-deployment-scenarios/",
+      "redirect_document_id": false
     }
   ]
 }

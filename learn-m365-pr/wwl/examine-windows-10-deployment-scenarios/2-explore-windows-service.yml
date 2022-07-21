@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.examine-windows-10-deployment-scenarios.explore-windows-service
+title: Explore Windows as a Service
+metadata:
+  title: Explore Windows as a Service
+  description: "Explore Windows as a Service"
+  ms.date: 07/21/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/2-explore-windows-service.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which servicing channel is designed only for specialized devices that don’t need feature updates as frequently as other devices in an organization?"
+    choices:
+    - content: "General Availability Channel"
+      isCorrect: false
+      explanation: "Incorrect. This channel isn't designed for specialized devices that don’t need feature updates as frequently as other devices in an organization."
+    - content: "Long-term Servicing Channel"
+      isCorrect: true
+      explanation: "Correct. The Long-term Servicing Channel (LTSC) is designed only for specialized devices, which typically don't run Office. Specialized systems—such as devices that control medical equipment, point-of-sale systems, and ATMs—often require a longer servicing option because of their purpose. These devices typically perform a single important task. As such, they don’t need feature updates as frequently as other devices in the organization."
+    - content: "Windows Insider Program"
+      isCorrect: false
+      explanation: "Incorrect. This channel isn't designed for specialized devices that don’t need feature updates as frequently as other devices in an organization."
