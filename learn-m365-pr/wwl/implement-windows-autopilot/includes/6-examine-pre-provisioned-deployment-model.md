@@ -1,4 +1,4 @@
-Windows Autopilot enables organizations to easily provision new devices by using the preinstalled OEM image and drivers. Known as the pre-provisioned (formerly white glove) deployment model, this process that can be completed by the end user to help get their device business-ready.
+Windows Autopilot enables organizations to easily provision new devices by using the preinstalled OEM image and drivers. This process is known as the pre-provisioned (formerly white glove) deployment model. It can be completed by the end user to help make their device business-ready.
 
 :::image type="content" source="../media/autopilot-preprovision-oem-end-user-6306c478.png" alt-text="graphic showing the steps that are completed by the OEM and the end user":::
 
@@ -10,7 +10,7 @@ In a **Windows Autopilot for pre-provisioned deployment**, the provisioning proc
 :::image type="content" source="../media/autopilot-preprovision-oem-partner-end-user-0f9b0897.png" alt-text="graphic showing the steps completed by the OEM, then the OEM, partner, or IT person, and then the end user":::
 
 
-Pre-provisioned deployments use Microsoft Intune in Windows 10, version 1903 and later. Such deployments build on existing Windows Autopilot [user-driven scenarios](/mem/autopilot/user-driven) and support user-driven mode scenarios for both Azure Active Directory joined and Hybrid Azure Active Directory joined devices.
+Pre-provisioned deployments use Microsoft Intune in Windows 10, version 1903 and later. Such deployments build on existing Windows Autopilot [user-driven scenarios](/mem/autopilot/user-driven?azure-portal=true). They support user-driven mode scenarios for both Azure Active Directory joined and Hybrid Azure Active Directory joined devices.
 
 ### Prerequisites
 
@@ -22,7 +22,7 @@ Besides the Windows Autopilot requirements, Windows Autopilot for pre-provisione
  -  Physical devices with Ethernet connectivity are required to complete pre-provisioning. Wi-fi connectivity isn't supported because of the requirement to choose a language, locale, and keyboard to make that Wi-fi connection. Enforcing this requirement in a pre-provisioning process could prevent the user from choosing their own language, locale, and keyboard when they receive the device.
 
 > [!IMPORTANT]
-> Because the OEM or vendor completes the pre-provisioning process, it doesn’t require access to an end user's on-premises domain infrastructure. This requirement is unlike a typical hybrid Azure AD-joined scenario because rebooting the device is postponed. The device is resealed before the time when connectivity to a domain controller is expected, and the domain network is contacted when the device is unboxed on-premises by the end user.
+> Because the OEM or vendor completes the pre-provisioning process, it doesn’t require access to an end user's on-premises domain infrastructure. This requirement is unlike a typical hybrid Azure AD-joined scenario because rebooting the device is postponed. The device is resealed before the time when connectivity to a domain controller is expected. The domain network is then contacted when the device is unboxed on-premises by the end user.
 
 ### Preparation
 
@@ -66,12 +66,11 @@ After the customer or IT Admin has targeted all the apps and settings they want 
 1.  Boot the device (running Windows 10 Pro, Enterprise, or Education SKUs, version 1903 or later).
 2.  From the first OOBE screen (which could be a language selection or locale selection screen), don't select **Next**. Instead, press the Windows key five times to view another options dialog. From that screen, choose the **Windows Autopilot provisioning** option and then select **Continue**.
 3.  On the **Windows Autopilot Configuration** screen, the following information will be displayed about the device:
-    
      -  The Autopilot profile assigned to the device.
      -  The organization name for the device.
      -  The user assigned to the device (if there's a user).
      -  A QR code containing a unique identifier for the device. You can use this code to look up the device in Intune. You may need to look up the device in Intune to make configuration changes, like assigning a user or adding the device to groups needed for app or policy targeting.
-4.  Validate the information displayed. If any changes are needed, make the changes and then select **Refresh** to redownload the updated Autopilot profile details.
+4.  Validate the information displayed. If any changes are needed, make the changes, and then select **Refresh** to redownload the updated Autopilot profile details.
 5.  Select **Provision** to begin the provisioning process.
 6.  If the pre-provisioning process completes successfully, a green status screen appears with information about the device, including the same details presented previously.
 7.  Select **Reseal** to shut down the device. At that point, the device can be shipped to the end user.

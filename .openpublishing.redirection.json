@@ -4394,6 +4394,76 @@
       "source_path": "learn-m365-pr/wwl/plan-configure-network-settings-for-microsoft-teams/10-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/plan-configure-network-settings-for-microsoft-teams/11-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/prepare-your-windows-10-devices-for-co-management/3-configure-configuration-manager.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-your-windows-10-devices-for-co-management/4-configure-configuration-manager",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/prepare-your-windows-10-devices-for-co-management/2-explore-prerequisites-for-using.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-your-windows-10-devices-for-co-management/3-explore-prerequisites-for-using",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/prepare-your-windows-10-devices-for-co-management/4-enroll-to-intune.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-your-windows-10-devices-for-co-management/5-enroll-to-intune",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/prepare-your-windows-10-devices-for-co-management/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-your-windows-10-devices-for-co-management/8-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/prepare-your-windows-10-devices-for-co-management/6-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-your-windows-10-devices-for-co-management/9-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-mobile-application-management/4-explore-app-management-using-intune.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-for-mobile-application-management/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-mobile-application-management/3-explore-app-management-using-configuration-manager.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-for-mobile-application-management/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-mobile-application-management/2-protect-company-data.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-for-mobile-application-management/4-protect-company-data",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-mobile-application-management/5-explore-app-management-using-azure-ad.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-for-mobile-application-management/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-mobile-application-management/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-for-mobile-application-management/7-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-mobile-application-management/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-for-mobile-application-management/8-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-windows-autopilot/2-explore.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-windows-autopilot/2-explore-windows-autopilot",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/examine-windows-10-deployment-scenarios/2-explore-windows-as-service.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/examine-windows-10-deployment-scenarios/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/examine-windows-10-deployment-scenarios/3-explore-models.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/examine-windows-10-deployment-scenarios/",
+      "redirect_document_id": false
     }
   ]
 }

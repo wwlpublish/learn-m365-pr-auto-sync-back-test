@@ -4,10 +4,10 @@ In this module, you'll learn how to make a detailed review of the current infras
 
 After completing this module, you'll be able to:
 
-* Explain Evaluate the existing network meets the requirements for deploying Microsoft Teams
+* Evaluate the existing network meets the requirements for deploying Microsoft Teams
 * Work with the Network Planner tool
 * Configure the required network ports and protocols
 * Implement Quality of Service in your environment
 * Configure reporting labels for Microsoft Teams
-* Access Assess network readiness using Microsoft 365 network connectivity test tool and Microsoft Teams network assessment tool
+* Assess network readiness using Microsoft 365 network connectivity test tool and Microsoft Teams network assessment tool
 * Create and manage roaming network policies for cloud voice features in Microsoft Teams
