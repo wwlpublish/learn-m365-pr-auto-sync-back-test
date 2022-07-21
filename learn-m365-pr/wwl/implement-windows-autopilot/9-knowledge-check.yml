@@ -4,12 +4,13 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/30/2021
+  ms.date: 07/21/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/9-knowledge-check.md)]
@@ -18,34 +19,34 @@ quiz:
   questions:
   - content: "Lucerne Publishing recently purchased a dozen new devices from its hardware vendor. As the Enterprise Administrator for Lucerne Publishing, Patti Fernandez wants to use Windows Autopilot to initially deploy these devices. What does Autopilot use when initially deploying new Windows devices?"
     choices:
-    - content: "A custom Windows 10 image that Patti created"
+    - content: "A custom Windows 11 image that Patti created"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't what Autopilot uses when initially deploying new Windows devices. Try again."
+      explanation: "Incorrect. This item isn't what Autopilot uses when initially deploying new Windows devices."
     - content: "A provisioning package that Patti created using Windows Configuration Designer"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't what Autopilot uses when initially deploying new Windows devices. Try again."
-    - content: "The OEM-optimized version of Windows 10 that's preinstalled on the devices"
+      explanation: "Incorrect. This item isn't what Autopilot uses when initially deploying new Windows devices."
+    - content: "The OEM-optimized version of Windows 11 that's preinstalled on the devices"
       isCorrect: true
-      explanation: "That's correct. When initially deploying new Windows devices, Windows Autopilot uses the OEM-optimized version of Windows 10 that's preinstalled on the device. Doing so saves organizations the effort of having to maintain custom images and drivers for every model of device that's used."
+      explanation: "Correct. When Windows devices are initially deployed, Windows Autopilot uses the OEM-optimized version of Windows 10 or 11 that's preinstalled on the device. Doing so saves organizations the effort of having to maintain custom images and drivers for every model of device that's used."
   - content: "Northwind Traders recently purchased a dozen new devices from its hardware vendor. As the Enterprise Administrator for Lucerne Publishing, Allan Deyoung used the Windows Autopilot self-deployment mode to deploy Windows on each new device. An IT administrator who later used one of the devices told Allan that some Azure AD and Intune capabilities weren't available on the device, including BitLocker recovery and Conditional Access. Why were these features missing when the user signed into the device?"
     choices:
     - content: "Self-deploying mode doesn't associate a user with the device"
       isCorrect: true
-      explanation: "That's correct. Self-deploying mode doesn't associate a user with the device, since no user ID or password is specified as part of the process. As a result, some Azure AD and Intune capabilities such as BitLocker recovery, installation of apps from the Company Portal, and Conditional Access may not be available to a user that signs into the device."
+      explanation: "Correct. Self-deploying mode doesn't associate a user with the device, since no user ID or password is specified as part of the process. As a result, some Azure AD and Intune capabilities such as BitLocker recovery, installation of apps from the Company Portal, and Conditional Access may not be available to a user that signs into the device."
     - content: "The device doesn't support TPM 2.0"
       isCorrect: false
-      explanation: "That's incorrect. The self-deployment installation wouldn't have even worked if the device didn't support TPM 2.0. Try again."
+      explanation: "Incorrect. The self-deployment installation wouldn't have even worked if the device didn't support TPM 2.0."
     - content: "The device doesn't support TPM device attestation"
       isCorrect: false
-      explanation: "That's incorrect. The self-deployment installation wouldn't have even worked if the device didn't support TPM device attestation. Try again."
+      explanation: "Incorrect. The self-deployment installation wouldn't have even worked if the device didn't support TPM device attestation."
   - content: "Fabrikam recently purchased a dozen new devices from its hardware vendor. As the Enterprise Administrator for Fabrikam, Holly Spencer wants to use the Windows Autopilot pre-provisioned deployment model to provision the devices. Which of the following items is a prerequisite to using the pre-provisioned deployment model?"
     choices:
     - content: "Wi-fi connectivity"
       isCorrect: false
-      explanation: "That's incorrect. Wi-fi connectivity isn't supported in a pre-provisioned deployment because of the requirement to choose a language, locale, and keyboard to make that Wi-fi connection. Try again."
+      explanation: "Incorrect. Wi-fi connectivity isn't supported in a pre-provisioned deployment because of the requirement to choose a language, locale, and keyboard to make that Wi-fi connection."
     - content: "An Intune subscription"
       isCorrect: true
-      explanation: "That's correct. Before starting the pre-provisioning process in the provisioning service facility, you must configure an Autopilot profile setting by using your Intune account."
+      explanation: "Correct. Before starting the pre-provisioning process in the provisioning service facility, you must configure an Autopilot profile setting by using your Intune account."
     - content: "Access to an end user's on-premises domain infrastructure"
       isCorrect: false
-      explanation: "That's incorrect. Because the OEM or vendor completes the pre-provisioning process, it doesn’t require access to an end user's on-premises domain infrastructure. Try again."
+      explanation: "Incorrect. Because the OEM or vendor completes the pre-provisioning process, it doesn’t require access to an end user's on-premises domain infrastructure."

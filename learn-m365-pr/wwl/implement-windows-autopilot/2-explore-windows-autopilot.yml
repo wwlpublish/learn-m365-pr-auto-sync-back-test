@@ -4,12 +4,13 @@ title: Explore Windows Autopilot
 metadata:
   title: Explore Windows Autopilot
   description: "Explore Windows Autopilot"
-  ms.date: 06/30/2021
+  ms.date: 07/21/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 3
 content: |
-  [!include[](includes/2-explore.md)]
+  [!include[](includes/2-explore-windows-autopilot.md)]
