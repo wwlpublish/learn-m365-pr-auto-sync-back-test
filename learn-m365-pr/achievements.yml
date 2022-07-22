@@ -315,3 +315,18 @@ achievements:
   title: Troubleshoot data governance
   summary: Troubleshoot data governance
   iconUrl: /learn/achievements/loss-prevention-troubleshoot.svg
+- uid: learn.wwl.introduction-to-co-management-of-windows-10-devices.badge
+  type: badge
+  title: Explore Co-management of Windows 10 devices
+  summary: Explore Co-management of Windows 10 devices
+  iconUrl: /learn/achievements/windows-intro-device-co-management.svg
+- uid: learn.wwl.introduction-to-microsoft-store-for-business.badge
+  type: badge
+  title: Examine the Microsoft Store for Business
+  summary: Examine the Microsoft Store for Business
+  iconUrl: /learn/achievements/microsoft-store-for-business.svg
+- uid: learn.wwl.transition-from-configuration-manager-to-intune.badge
+  type: badge
+  title: Transition from Configuration Manager to Intune
+  summary: Transition from Configuration Manager to Intune
+  iconUrl: /learn/achievements/windows-intune-manager.svg

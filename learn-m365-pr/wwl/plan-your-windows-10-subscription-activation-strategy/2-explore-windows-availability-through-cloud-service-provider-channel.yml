@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-your-windows-10-subscription-activation-strategy.explore-windows-availability-through-cloud-service-provider-channel
+title: Explore Windows 10/11 Enterprise E3 availability through the Cloud Service Provider channel
+metadata:
+  title: Explore Windows 10/11 Enterprise E3 availability through the Cloud Service Provider channel
+  description: "Explore Windows 10/11 Enterprise E3 availability through the Cloud Service Provider channel"
+  ms.date: 07/21/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/2-explore-windows-availability-through-cloud-service-provider-channel.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson is interested in purchasing Windows 11 Enterprise E3 through a CSP partner. By doing so, which of the following benefits would Contoso receive?"
+    choices:
+    - content: "Deploy Windows 11 Enterprise edition on up to three devices per licensed user"
+      isCorrect: false
+      explanation: "Incorrect. Windows 11 Enterprise edition can be deployed and used on up to five devices per licensed user."
+    - content: "Roll back to Windows 11 Pro at any time"
+      isCorrect: true
+      explanation: "Correct. When a user’s subscription expires or Windows 11 Enterprise E3 license is transferred to another user, the Windows 11 Enterprise device reverts seamlessly to Windows 11 Pro edition, after a grace period of up to 90 days."
+    - content: "Annual, per-user pricing model"
+      isCorrect: false
+      explanation: "Incorrect. The pricing model is a monthly, per-user model."
