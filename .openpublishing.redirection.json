@@ -4469,6 +4469,126 @@
       "source_path": "learn-m365-pr/wwl/plan-your-windows-10-subscription-activation-strategy/2-explore-enterprise-e3-availability-through-cloud-service-provider-channel.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-windows-10-subscription-activation-strategy/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-co-management-of-windows-10-devices/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-co-management-of-windows-10-devices/5-enable-by-using-azure-active-directory.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-co-management-of-windows-10-devices/2-explore.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-co-management-of-windows-10-devices/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-co-management-of-windows-10-devices/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-co-management-of-windows-10-devices/4-manage-devices-using-configuration-manager.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-co-management-of-windows-10-devices/3-plan-your-strategy.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-co-management-of-windows-10-devices/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-store-for-business/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-store-for-business/5-add-apps-to-your-private-store.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-store-for-business/3-examine-prerequisites-to-using.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-store-for-business/2-explore.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-store-for-business/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-store-for-business/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-store-for-business/4-manage-permissions-licensing-to-use.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-store-for-business/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-configuration-manager-to-intune/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-configuration-manager-to-intune/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-configuration-manager-to-intune/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-configuration-manager-to-intune/2-modify-your-co-management-settings.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-configuration-manager-to-intune/4-monitor-your-co-management-solution.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-configuration-manager-to-intune/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-configuration-manager-to-intune/3-transfer-workload-management.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-configuration-manager-to-intune/5-validate-compliance-of-your-co-managed-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
     }
   ]
 }
