@@ -4589,6 +4589,106 @@
       "source_path": "learn-m365-pr/wwl/transition-from-configuration-manager-to-intune/5-validate-compliance-of-your-co-managed-devices.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-desktop-analytics/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-desktop-analytics/4-analyze-device-performance-issues-using-device-health.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-desktop-analytics/6-analyze-device-upgrade-preparedness-using-upgrade-readiness.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-desktop-analytics/5-analyze-status-of-software-updates-using-update-compliance.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-desktop-analytics/3-explore-major-components-of.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-desktop-analytics/2-explore-windows-10-diagnostic-data.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-desktop-analytics/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-desktop-analytics/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-desktop-analytics/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/8-examine-common-error-codes-how-to-resolve-them.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/6-examine-log-file-events-using-event-viewer.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/3-examine-windows-setup-log-files-using-setupdiag-tool.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/2-identify-resolutions-to-common-upgrade-errors.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/9-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/5-review-errors-during-upgrade.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/10-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/7-troubleshoot-upgrade-issues-using-log-files.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/4-understand-error-codes.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
     }
   ]
 }
