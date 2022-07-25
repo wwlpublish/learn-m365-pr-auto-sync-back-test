@@ -8,7 +8,6 @@ Teams encourages your users to organize and collaborate across projects and work
 
  -  **Teams** are a collection of people, content, and tools surrounding different projects and outcomes within an organization. It’s designed to bring together a group of people who work closely to get things done. Teams can be created to be private to only invited users. Teams can also be public and open to anyone within the organization. A team has a limit of up to 10,000 simultaneous members.
  -  **Channels** are dedicated sections within a team to keep conversations organized by specific topics, projects, disciplines, or whatever works for your team. It’s a place where users can discuss and get hands-on with work. Channels facilitate features like tabs and make it possible for users to access and work on the same content. For instance, users in a team could have a channel with a tab for a specific report that they're all contributing to. Files that you share in a channel (on the Files tab) are stored in SharePoint.
-    
      -  **Standard channels** can be open to all team members.
      -  **Private channels** are for selected team members.
      -  **Shared channels** can select people both inside and outside the team.
@@ -41,13 +40,11 @@ Meetings help teams to share status updates, brainstorm ideas, and solve issues 
 
  -  **Schedule and join meetings.** Users can join meetings through links, their Teams calendar, or call into meetings using their phones. A user's calendar in Teams is connected to their Exchange calendar so when users schedule a meeting in Outlook, their meeting is automatically visible and accessible from Teams and vice versa. Users can also start meetings whenever they want, without scheduling them.
  -  **Manage different types of meetings.** Meetings, webinars, and live events are all types of meetings, but webinars and live events provide extra control for the organizer over the conversation and participants. Webinars provide two-way interaction while live events provide a managed Q&amp;A experience. Teams can detect what's said in a meeting and present real-time captions with speaker attribution.
-    
      -  **Meetings** in Teams include audio, video, and screen sharing for up to 1,000 people. View-only capabilities are for participants over 1,000 up to 20,000.
      -  **Webinars** are dynamic, hosted presentations or events that audiences remotely attend using a phone, tablet, or computer. Participants up to 1,000 have fully interactive capabilities.
      -  **Live events** engage and inform employees and customers with immersive video broadcasts and interactive discussions using Microsoft Stream, Microsoft Teams, or Yammer. Host live events with up to 20,000 participants.
  -  **Audio conferencing.** Users can call into meetings from their phones. Calling or dialing into meetings is useful for users who are on the road or when internet connectivity is limited. Audio conferencing allows up to 1000 phone attendees.
  -  **Record and publish with Microsoft Stream.** Users can capture audio, video, and content by recording the meeting to share with people who couldn’t attend and for future reference. Users can upload meeting recordings and notes in the meeting thread and can publish the recordings to Microsoft Stream for archiving and wider usage. Stream has the ability to automatically transcript your recorded meetings through artificial intelligence (AI) powered translation.
-    
      -  **Microsoft Stream** is an enterprise video service where people in your organization can upload, view, and share videos securely. You can share recordings of classes, meetings, presentations, training sessions, or other videos that aid your team's collaboration. You can watch your organization's trending and most popular videos. Video files for Stream are stored in SharePoint and can be accessed through Teams or Yammer integration.
  -  **Custom backgrounds.** Users can blur their backgrounds or use custom backgrounds during meetings to avoid distractions, set the tone and ensure privacy.
  -  **Screen sharing and content sharing.** Users can share individual screens, windows, and files during a meeting. They can also use whiteboards to sketch ideas and share notes.
