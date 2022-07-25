@@ -23,7 +23,7 @@ For private chat and private channels, communication compliance policies support
 
 ## Workflow
 
-Identifying and resolving compliance issues with communication compliance in Microsoft 365 uses the following workflow:
+Identifying and resolving compliance issues with communication compliance uses the following workflow:
 
 :::image type="content" source="../media/communication-compliance-workflow.png" alt-text="Screenshot of Diagram communication compliance workflow. ":::
 
@@ -99,5 +99,5 @@ Keeping track and managing compliance issues identified by communication complia
 
 * **Monitor and report**: Use communication compliance dashboard widgets, export logs, and events recorded in the unified audit logs to continually evaluate and improve your compliance posture.
 
-For more information, see [Get started with communication compliance in Microsoft 365](/microsoft-365/compliance/communication-compliance-configure?azure-portal=true).
+For more information, see [Get started with communication compliance](/microsoft-365/compliance/communication-compliance-configure?azure-portal=true).
 

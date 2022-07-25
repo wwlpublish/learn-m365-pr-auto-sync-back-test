@@ -35,7 +35,7 @@ To get you started using eDiscovery (Standard), here's a simple workflow of crea
 
 ## eDiscovery permissions
 
-If you want people to use any of the eDiscovery-related tools in the Microsoft Purview compliance portal, you have to assign them the appropriate permissions. The easiest way to do this is to add the person to the appropriate role group on the **Permissions** page in the compliance center.
+If you want people to use any of the eDiscovery-related tools in the Microsoft Purview compliance portal, you have to assign them the appropriate permissions. The easiest way to do this is to add the person to the appropriate role group on the **Permissions** page in the compliance portal.
 
 The primary eDiscovery-related role group in Microsoft Purview compliance portal is called **eDiscovery Manager**. There are two subgroups within this role group.
 
@@ -146,7 +146,7 @@ Follow these steps to export the results of a content in an eDiscovery case:
 
 3. On the **Home** page for the case, select the **Searches** tab.
 
-4. Select the search youd like to export.
+4. Select the search you'd like to export.
 
 5. On the **Actions** menu at the bottom of the flyout page, select **Export results**.
 

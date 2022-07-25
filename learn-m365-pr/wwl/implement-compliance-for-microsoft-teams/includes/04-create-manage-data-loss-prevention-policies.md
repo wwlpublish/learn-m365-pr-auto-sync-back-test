@@ -70,7 +70,7 @@ You have flexibility in how you create and configure your DLP policies. You can 
 
 4. **Choose the action to take when the policy conditions are met**: The actions depend on the location where the activity is happening. Some examples are:
 
-	- **SharePoint/Exchange/OneDrive** - Block people who are outside your organization form accessing the content. Show the user a tip and send them an email notification that they are taking an action that is prohibited by the DLP policy.
+	- **SharePoint/Exchange/OneDrive** - Block people who are outside your organization from accessing the content. Show the user a tip and send them an email notification that they are taking an action that is prohibited by the DLP policy.
 
 	- **Teams Chat and Channel** - Block sensitive information from being shared in the chat or channel.
 
@@ -118,7 +118,7 @@ DLP policies can be managed in the Microsoft Purview compliance portal, beneath 
 
 	- Additional options
 
-	:::image type="content" source="../media/data-loss-prevention-action.png" alt-text="Screenshot of M365 Action options in DLP." lightbox="../media/data-loss-prevention-action.png":::
+	:::image type="content" source="../media/data-loss-prevention-action.png" alt-text="Screenshot of Microsoft 365 Action options in DLP." lightbox="../media/data-loss-prevention-action.png":::
 
  	After configuring the desired settings, select **Next**.
 

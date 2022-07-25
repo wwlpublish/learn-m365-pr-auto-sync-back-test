@@ -1,4 +1,4 @@
-Sensitivity labels from the Microsoft Purview Information Protection let you **classify** and **protect** your organization's data, while making sure that user productivity and their ability to collaborate isn't hindered. Sensitivity labels allow Teams admins to to protect and regulate access to sensitive organizational content created during collaboration within teams. 
+Sensitivity labels from the Microsoft Purview Information Protection let you **classify** and **protect** your organization's data, while making sure that user productivity and their ability to collaborate isn't hindered. Sensitivity labels allow Teams admins to protect and regulate access to sensitive organizational content created during collaboration within teams. 
 
 Organizations can use sensitivity labels to:
 

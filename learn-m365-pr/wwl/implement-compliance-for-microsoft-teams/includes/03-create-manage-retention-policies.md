@@ -102,7 +102,7 @@ You can apply more than one retention policy to the same content. Each retention
 
 To create and manage Teams retention policies, you can use the Microsoft Purview compliance portal or PowerShell. To create a retention policy for Teams chats and channel messages, use the following steps:
 
-1. From the [Microsoft Purview portal](https://compliance.microsoft.com/?azure-portal=true), select **Data Lifecycle Management** > **Retention policies**.
+1. From the [Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true), select **Data Lifecycle Management** > **Retention policies**.
 
 2. Select **+ New retention policy** to start the Create retention policy wizard, and name your new retention policy.
 
@@ -128,7 +128,7 @@ To create and manage Teams retention policies, you can use the Microsoft Purview
 
 ## Create a retention policy using PowerShell
 
-To create and manage retention policies via Exchange PowerShell, you need to use the Security & Compliance Center PowerShell module. The following cmdlets are available for managing retention policies:
+To create and manage retention policies via Exchange PowerShell, you need to use the Security & Compliance PowerShell module. The following cmdlets are available for managing retention policies:
 
 * [New-RetentionCompliancePolicy](/powershell/module/exchange/new-retentioncompliancepolicy?azure-portal=true)
 

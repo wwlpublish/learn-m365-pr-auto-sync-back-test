@@ -1,4 +1,4 @@
-Microsoft Purview Information barriers (IBs) are policies that an admin can configure to prevent individuals or groups from communicating with each other. 
+Information barriers (IBs) are policies that an admin can configure to prevent individuals or groups from communicating with each other. 
 
 IB policies also prevent lookups and discovery. If you attempt to communicate with someone you shouldn't be communicating with, you won't find that user in the people picker. The information barriers can be used in some of the following cases:
 
@@ -57,7 +57,7 @@ There are several steps to configuring information barrier policies for Microsof
 
 The following prerequisites must be in place to implement information barriers:
 
-- **Required licenses for information barriers**: Information barriers is an advanced compliance feature and requires according licenses. The feature is available for users with one of the following licenses:
+- **Required licenses for information barriers**: Information barriers is an advanced compliance feature. The feature is available for users with one of the following licenses:
 
 	* Microsoft 365 E5/A5/G5
 	* Office 365 E5/A5/G5
@@ -79,7 +79,7 @@ The following prerequisites must be in place to implement information barriers:
 
 - **No address book policies**: Make sure no Exchange address book policies are in place.
 
-- **PowerShell with the Security &amp; Compliance Center module**: Information barriers can be configured using PowerShell and connecting the Security and Compliance center module to your Microsoft 365 tenant.
+- **PowerShell with the Security &amp; Compliance module**: Information barriers can be configured using PowerShell and connecting the Security and Compliance module to your Microsoft 365 tenant.
 
 - **Admin consent for information barriers in Microsoft Teams**: Use the following procedure to enable information barrier policies to work as expected in Microsoft Teams.
 
