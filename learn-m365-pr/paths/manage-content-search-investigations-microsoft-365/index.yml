@@ -3,7 +3,7 @@ uid: learn.wwl.manage-content-search-investigations-microsoft-365
 metadata:
   title: Manage content search and investigations in Microsoft 365
   description: Manage content search and investigations in Microsoft 365
-  ms.date: 06/23/2021
+  ms.date: 07/25/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,15 +24,16 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 subjects:
-- data-management
 - compliance
+- data-management
 modules:
 - learn.wwl.search-for-content-security-compliance-center
-- learn.wwl.conduct-audit-log-investigations
-- learn.wwl.manage-advanced-ediscovery
+- learn.wwl.manage-microsoft-purview-audit-standard
+- learn.wwl.manage-microsoft-purview-audit-premium
+- learn.wwl.manage-microsoft-purview-ediscovery-standard
+- learn.wwl.manage-microsoft-purview-ediscovery-premium
 trophy:
   uid: learn.wwl.manage-content-search-investigations-microsoft-365.trophy
