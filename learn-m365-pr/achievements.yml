@@ -330,3 +330,13 @@ achievements:
   title: Transition from Configuration Manager to Intune
   summary: Transition from Configuration Manager to Intune
   iconUrl: /learn/achievements/windows-intune-manager.svg
+- uid: learn.wwl.introduction-to-desktop-analytics.badge
+  type: badge
+  title: Analyze Windows 10 diagnostic data using Desktop Analytics
+  summary: Analyze Windows 10 diagnostic data using Desktop Analytics
+  iconUrl: /learn/achievements/windows-desktop-analytics.svg
+- uid: learn.wwl.resolve-windows-10-upgrade-errors.badge
+  type: badge
+  title: Resolve Windows 10 upgrade errors
+  summary: Resolve Windows 10 upgrade errors
+  iconUrl: /learn/achievements/windows-upgrade-errors.svg
