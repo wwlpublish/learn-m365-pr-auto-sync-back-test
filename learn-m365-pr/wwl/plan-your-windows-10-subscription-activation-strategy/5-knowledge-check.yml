@@ -4,48 +4,49 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 07/30/2021
+  ms.date: 07/21/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/5-knowledge-check.md)]
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Lucerne Publishing, Patti Fernandez recently got Windows 10 Enterprise E3 licenses for free because of Lucerne's existing Enterprise Agreement with Microsoft. Patti then assigned the licenses Lucerne's Azure AD users. What will happen to Lucerne's Windows 10 devices that have Windows 10 Pro installed?"
-    choices:
-    - content: "Patti must use PowerShell to activate the firmware-embedded activation key, which will trigger the upgrade to Windows 10 Enterprise"
-      isCorrect: false
-      explanation: "That's incorrect. This item isn't what happens to Lucerne's Windows 10 devices that have Windows 10 Pro installed. Try again."
-    - content: "If a firmware-embedded activation key is present on the machines, Patti can deploy a provisioning package to deploy Windows 10 Enterprise"
-      isCorrect: false
-      explanation: "That's incorrect. This item isn't what happens to Lucerne's Windows 10 devices that have Windows 10 Pro installed. Try again."
-    - content: "They'll be automatically upgraded to Windows 10 Enterprise and activated when users sign in"
-      isCorrect: true
-      explanation: "That's correct. If you're an existing EA customer, you can get Windows 10 Enterprise E3 or E5 licenses for free, depending on your EA. You can then assign the licenses to Azure AD users or groups. By doing so, Windows 10 Pro devices will be automatically upgraded and activated when users sign in."
-  - content: "As the Enterprise Administrator for Lucerne Publishing, Patti Fernandez wants to start deploying Windows 10 Enterprise E3 licenses to Lucerne's users. Before doing so, what must Patti do first?"
-    choices:
-    - content: "Sync the identities in Lucerne's on-premises AD DS domain with Azure AD"
-      isCorrect: true
-      explanation: "That's correct. Before an organization can start deploying Windows 10 Enterprise E3 or E5 licenses to users, it must sync the identities in the on-premises AD DS domain with Azure AD. This process is required because it ensures that users have a single identity they can use to access their on-premises apps and cloud services that use Azure AD, such as Windows 10 Enterprise E3 or E5."
-    - content: "Use Windows PowerShell to verify whether a firmware-embedded activation key is present on each user's device"
-      isCorrect: false
-      explanation: "That's incorrect. This item isn't what Patti must to first before deploying Windows 10 Enterprise licenses to Lucerne's users. Try again."
-    - content: "Ensure Lucerne's Windows Client Software Assurance (SA) agreement provides Lucerne's users with virtual desktop access rights"
-      isCorrect: false
-      explanation: "That's incorrect. This item isn't what Patti must to first before deploying Windows 10 Enterprise licenses to Lucerne's users. Try again."
   - content: "As the Enterprise Administrator for Tailspin Toys, Allan Deyoung is interested in purchasing Windows 10 Enterprise E3 through a CSP partner. By doing so, which of the following benefits would Tailspin Toys receive?"
     choices:
     - content: "Windows 10 can use the Long-Term-Servicing Channel (LTSC)"
       isCorrect: false
-      explanation: "That's incorrect. When an organization purchases Windows 10 Enterprise E3 through a CSP partner, Windows 10 Enterprise E3 doesn't include rights to use the Long-Term Servicing Channel (LTSC). Try again."
+      explanation: "Incorrect. When an organization purchases Windows 10 Enterprise E3 through a CSP partner, Windows 10 Enterprise E3 doesn't include rights to use the Long-Term Servicing Channel (LTSC)."
     - content: "Roll back to Windows 10 Pro at any time after a grace period of up to 30 days"
       isCorrect: false
-      explanation: "That's incorrect. When a user’s subscription expires or Windows 10 Enterprise E3 license is transferred to another user, the Windows 10 Enterprise device reverts seamlessly to Windows 10 Pro edition, after a grace period of up to 90 days. Try again."
-    - content: "Support from one to hundreds of users"
+      explanation: "Incorrect. When a user’s subscription expires or Windows 10 Enterprise E3 license is transferred to another user, the Windows 10 Enterprise device reverts seamlessly to Windows 10 Pro edition, after a grace period of up to 90 days."
+    - content: "Support from one user to hundreds of users"
       isCorrect: true
-      explanation: "That's correct. Although the Windows 10 Enterprise E3 in CSP program doesn't have a limitation on the number of licenses that a company can use, the offering is designed for small- and medium-sized companies."
+      explanation: "Correct. Although the Windows 10 Enterprise E3 in CSP program doesn't have a limitation on the number of licenses that a company can use, the offering is designed for small- and medium-sized companies."
+  - content: "As the Enterprise Administrator for Lucerne Publishing, Patti Fernandez recently got Windows 10 Enterprise E3 licenses for free because of Lucerne's existing Enterprise Agreement (EA) with Microsoft. Patti then assigned the licenses Lucerne's Azure AD users. What will happen to Lucerne's Windows 10 devices that have Windows 10 Pro installed?"
+    choices:
+    - content: "Patti must use PowerShell to activate the firmware-embedded activation key, which will trigger the upgrade to Windows 10 Enterprise"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't what happens to Lucerne's Windows 10 devices that have Windows 10 Pro installed."
+    - content: "If a firmware-embedded activation key is present on the machines, Patti can deploy a provisioning package to deploy Windows 10 Enterprise"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't what happens to Lucerne's Windows 10 devices that have Windows 10 Pro installed."
+    - content: "They'll be automatically upgraded to Windows 10 Enterprise and activated when users sign in"
+      isCorrect: true
+      explanation: "Correct. If you're an existing EA customer, you can get Windows 10 Enterprise E3 or E5 licenses for free, depending on your EA. You can then assign the licenses to Azure AD users or groups. By doing so, Windows 10 Pro devices will be automatically upgraded and activated when users sign in."
+  - content: "As the Enterprise Administrator for Lucerne Publishing, Patti Fernandez wants to start deploying Windows 10 Enterprise E3 licenses to Lucerne's users. Before doing so, what must Patti do first?"
+    choices:
+    - content: "Sync the identities in Lucerne's on-premises AD DS domain with Azure AD"
+      isCorrect: true
+      explanation: "Correct. Before an organization can start deploying Windows 10 Enterprise E3 or E5 licenses to users, it must sync the identities in the on-premises AD DS domain with Azure AD. This process is required because it ensures that users have a single identity they can use to access their on-premises apps and cloud services that use Azure AD, such as Windows 10 Enterprise E3 or E5."
+    - content: "Use Windows PowerShell to verify whether a firmware-embedded activation key is present on each user's device"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't what Patti must to first before deploying Windows 10 Enterprise licenses to Lucerne's users."
+    - content: "Ensure Lucerne's Windows Client Software Assurance (SA) agreement provides Lucerne's users with virtual desktop access rights"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't what Patti must to first before deploying Windows 10 Enterprise licenses to Lucerne's users."
