@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.configure-post-installation-settings-personalization
 metadata:
-  title: Configure post-installation settings and personalization
-  description: Configure post-installation settings and personalization
-  ms.date: 06/07/2022
+  title: MD-100 Configure post-installation settings and personalization
+  description: MD-100 Configure post-installation settings and personalization
+  ms.date: 07/26/2022
   author: wwlpublish
-  ms.author: brhinkel
+  ms.author: rstearman
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Configure post-installation settings and personalization
+title: MD-100 Configure post-installation settings and personalization
 prerequisites: |
   - Students should have a basic understanding of computer networks and hardware concepts.
   - Students should have a basic understanding of OS and Application concepts.

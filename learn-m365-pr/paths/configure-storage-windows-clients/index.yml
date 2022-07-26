@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.configure-storage-windows-clients
 metadata:
-  title: Configure storage on Windows clients
-  description: Configure storage on Windows clients
-  ms.date: 06/07/2022
+  title: MD-100 Configure storage on Windows clients
+  description: MD-100 Configure storage on Windows clients
+  ms.date: 07/26/2022
   author: wwlpublish
-  ms.author: brhinkel
+  ms.author: rstearman
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Configure storage on Windows clients
+title: MD-100 Configure storage on Windows clients
 prerequisites: |
   - Students should have a basic understanding of computer networks and hardware concepts.
   - Students should have a basic understanding of OS and Application concepts.
