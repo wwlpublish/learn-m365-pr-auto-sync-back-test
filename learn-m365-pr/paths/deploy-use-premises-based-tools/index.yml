@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.deploy-use-premises-based-tools
 metadata:
-  title: Deploy using on-premises based tools
-  description: Deploy using on-premises based tools
-  ms.date: 07/07/2022
+  title: MD-101 Deploy using on-premises based tools
+  description: MD-101 Deploy using on-premises based tools
+  ms.date: 07/26/2022
   author: wwlpublish
-  ms.author: brhinkel
+  ms.author: rstearman
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Deploy using on-premises based tools
+title: MD-101 Deploy using on-premises based tools
 prerequisites: |
   - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
   - Strong understanding of computer networking, client security, and application concepts

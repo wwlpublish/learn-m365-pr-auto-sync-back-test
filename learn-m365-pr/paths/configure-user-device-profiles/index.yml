@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.configure-user-device-profiles
 metadata:
-  title: Configure user and device profiles
-  description: Configure user and device profiles
-  ms.date: 07/07/2022
+  title: MD-101 Configure user and device profiles
+  description: MD-101 Configure user and device profiles
+  ms.date: 07/26/2022
   author: wwlpublish
-  ms.author: brhinkel
+  ms.author: rstearman
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Configure user and device profiles
+title: MD-101 Configure user and device profiles
 prerequisites: |
   - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later.
   - Strong understanding of computer networking, client security, and application concepts.
