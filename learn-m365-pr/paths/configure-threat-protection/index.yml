@@ -2,13 +2,13 @@
 uid: learn.wwl.configure-threat-protection
 metadata:
   title: Configure threat protection
-  description: Configure threat protection
-  ms.date: 06/09/2022
+  description: MD-100 Configure threat protection
+  ms.date: 07/26/2022
   author: wwlpublish
-  ms.author: brhinkel
+  ms.author: rstearman
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Configure threat protection
+title: MD-100 Configure threat protection
 prerequisites: |
   - Students should have a basic understanding of computer networks and hardware concepts.
   - Students should have a basic understanding of OS and Application concepts.
