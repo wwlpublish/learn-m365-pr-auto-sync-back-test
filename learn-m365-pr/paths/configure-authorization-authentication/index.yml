@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.configure-authorization-authentication
 metadata:
-  title: Configure authorization and authentication
-  description: Configure authorization and authentication
-  ms.date: 06/09/2022
+  title: MD-100 Configure authorization and authentication
+  description: MD-100 Configure authorization and authentication
+  ms.date: 07/26/2022
   author: wwlpublish
-  ms.author: brhinkel
+  ms.author: rstearman
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Configure authorization and authentication
+title: MD-100 Configure authorization and authentication
 prerequisites: |
   - Students should have a basic understanding of computer networks and hardware concepts.
   - Students should have a basic understanding of OS and Application concepts.
