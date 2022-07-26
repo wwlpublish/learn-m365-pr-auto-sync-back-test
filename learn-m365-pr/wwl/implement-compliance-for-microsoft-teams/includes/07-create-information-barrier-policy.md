@@ -113,7 +113,7 @@ During this phase, you determine what information barrier policies are needed, m
 A segment is defined by certain directory attributes.
 To assign users to a segment, you use the cmdlet ```New-OrganizationSegment``` with the ```UserGroupFilter``` parameter:
 
-1. Open PowerShell and connect with the Security & Compliance Center PowerShell module to your tenant.  
+1. Open PowerShell and connect with the Security & Compliance PowerShell module to your tenant.  
 
 2. Run the following cmdlet and replace **segment-name** with a meaningful name and both **attribute** and **attribute-value** with the desired directory attribute to filter segment members for.
 

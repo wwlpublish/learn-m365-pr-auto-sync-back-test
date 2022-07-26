@@ -14,7 +14,7 @@ The recording becomes part of the organizational archive. The recording is avail
 
 The exact implementation of the recorder service will vary by partner. Compliance recording solutions are integrated with Teams as shown in the following diagram.
 
-:::image type="content" source="../media/compliance-recording-teams-calling-meetings.jpg" alt-text="Digram that show the flow when a Teams meeting or call is sent and received.":::
+:::image type="content" source="../media/compliance-recording-teams-calling-meetings.jpg" alt-text="Diagram that show the flow when a Teams meeting or call is sent and received.":::
 
 ## Configure compliance recording policy
 

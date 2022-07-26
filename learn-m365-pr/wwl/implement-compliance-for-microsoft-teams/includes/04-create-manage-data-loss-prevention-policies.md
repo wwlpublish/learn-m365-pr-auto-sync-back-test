@@ -82,7 +82,7 @@ The conditions and the actions to take are defined in an object called a Rule. A
 
 DLP policies can be managed in the Microsoft Purview compliance portal, beneath **Data loss prevention**. Follow these steps to create a new DLP policy for Teams locations:
 
-1. From the [Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true), select **Policies** > **Data loss prevention**.
+1. From the [the Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true), select **Policies** > **Data loss prevention**.
 
 2. Select the **Policies** tab, and select **+ Create policy** to start the wizard.
 

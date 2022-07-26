@@ -35,7 +35,7 @@ You identify your compliance requirements and configure applicable communication
 
 * **Teams level**: Policies at this level apply to a Microsoft Teams channel. These policies cover messages sent in the Teams channel only.
 
-You must navigate to **Microsoft Purview compliance portal** > **Communication compliance** to create policies. You can choose from the following policy templates:
+You must navigate to **the Microsoft Purview compliance portal** > **Communication compliance** to create policies. You can choose from the following policy templates:
 
 * **Detect inappropriate text**: Use this template to quickly create a policy that uses built-in classifiers to automatically detect text in messages that may be considered inappropriate, abusive, or offensive.
 

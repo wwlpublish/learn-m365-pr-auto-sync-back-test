@@ -134,9 +134,9 @@ Configuration options for Site and group settings don't display until you enable
 
 ## Create and publish sensitivity labels
 
-The global admin can create and manage sensitivity labels from Microsoft Purview Compliance Portal. See the instructions from [Create and publish sensitivity labels](/microsoft-365/compliance/create-sensitivity-labels?azure-portal=true).  
+The global admin can create and manage sensitivity labels from the Microsoft Purview compliance portal. See the instructions from [Create and publish sensitivity labels](/microsoft-365/compliance/create-sensitivity-labels?azure-portal=true).  
 
-1. Go to **Microsoft Purview Compliance Portal** > **Information protection**.
+1. Go to **the Microsoft Purview compliance portal** > **Information protection**.
 
 2. Select **Labels** tab and select **+ Create a label** to start the New sensitivity label wizard.
 

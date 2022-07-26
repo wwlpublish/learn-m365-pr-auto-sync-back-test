@@ -37,7 +37,7 @@ To get you started using eDiscovery (Standard), here's a simple workflow of crea
 
 If you want people to use any of the eDiscovery-related tools in the Microsoft Purview compliance portal, you have to assign them the appropriate permissions. The easiest way to do this is to add the person to the appropriate role group on the **Permissions** page in the compliance portal.
 
-The primary eDiscovery-related role group in Microsoft Purview compliance portal is called **eDiscovery Manager**. There are two subgroups within this role group.
+The primary eDiscovery-related role group in the Microsoft Purview compliance portal is called **eDiscovery Manager**. There are two subgroups within this role group.
 
 - **eDiscovery Managers**: An eDiscovery Manager can use eDiscovery search tools to search content locations in the organization, and perform various search-related actions such as preview and export search results. Members can also create and manage cases in eDiscovery (Standard) and eDiscovery (Premium), add, and remove members to a case, create case holds, run searches associated with a case, and access case data. eDiscovery Managers can only access and manage the cases they create. They can't access or manage cases created by other eDiscovery Managers.
   
@@ -53,7 +53,7 @@ The primary eDiscovery-related role group in Microsoft Purview compliance portal
 
 Do the following to create a case and start using eDiscovery (Standard).
 
-1. From the [Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true), select **eDiscovery** > **Standard**.
+1. From the [the Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true), select **eDiscovery** > **Standard**.
 
 2. On the eDiscovery (Standard) page, select **+ Create a case**.
 
@@ -65,7 +65,7 @@ The case that you created will now be displayed in the list of cases on the **eD
 
 You can use a eDiscovery (Standard) case to create holds to preserve content that might be relevant to the case. To create an eDiscovery hold that's associated with a eDiscovery (Standard) case:
 
-1. From the [Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true), select **eDiscovery** > **Standard**.
+1. From the [the Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true), select **eDiscovery** > **Standard**.
 
 2. On the **eDiscovery (Standard)** page, select the name of the case that you want to create the hold in.
 
@@ -108,7 +108,7 @@ After a eDiscovery (Standard) case is created and people of interest in the case
 
 To create a eDiscovery (Standard) search:
 
-1. From the [Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true), select **eDiscovery** > **Standard**.
+1. From the [the Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true), select **eDiscovery** > **Standard**.
 
 2. Select a case.  ‎
 
@@ -140,7 +140,7 @@ After a search associated with a eDiscovery (Standard) case is successfully run,
 
 Follow these steps to export the results of a content in an eDiscovery case:
 
-1. From the [Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true), select **eDiscovery** > **Standard**.
+1. From the [the Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true), select **eDiscovery** > **Standard**.
 
 2. On the **eDiscovery (Standard)** page, select the name of the case that you want to create the hold in.
 

@@ -46,7 +46,7 @@ An alert policy consists of the following settings and conditions:
 
   - Others
 
-  When an activity occurs that matches the conditions of the alert policy, the alert that's generated is tagged with the category defined in the setting. The tagging allows you to track and manage alerts that have the same category setting on the **Alerts** page in the compliance center because you can sort and filter alerts based on category.
+  When an activity occurs that matches the conditions of the alert policy, the alert that's generated is tagged with the category defined in the setting. The tagging allows you to track and manage alerts that have the same category setting on the **Alerts** page in the compliance portal because you can sort and filter alerts based on category.
 
 - **Alert severity**: Similar to the alert category, you assign a severity attribute (**Low**, **Medium**, **High**, or **Informational**) to alert policies. Like the alert category, when an activity occurs that matches the conditions of the alert policy, the alert that's generated is tagged with the same severity level that's set for the alert policy.
 
@@ -56,7 +56,7 @@ An alert policy consists of the following settings and conditions:
 
 To create a new alert policy in the Microsoft Purview compliance portal and to check if audit logging is turned on, follow these steps:
 
-1. Sign into **Microsoft Purview compliance portal** and select **Policies** > **Alert policies**.
+1. Sign into **the Microsoft Purview compliance portal** and select **Policies** > **Alert policies**.
 
 2. Select **+ New alert policy** from the top pane to create a new alert policy.
 

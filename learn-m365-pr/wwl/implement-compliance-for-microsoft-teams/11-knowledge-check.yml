@@ -63,13 +63,13 @@ quiz:
       explanation: "That's correct. To define or edit information barrier policies, administrators must be assigned to one of the following roles - Microsoft 365 Global admin, Compliance administrator, and IB Compliance Management."
   - content: "Which of the following Microsoft 365 role groups can't view any alerts because none of the assigned roles provide permission to view alerts from any alert category?"
     choices:
-    - content: "Records Management role group"
+    - content: "Microsoft Purview Records Management role group"
       isCorrect: false
       explanation: "That's incorrect. The roles in this role group can view selected alerts."
-    - content: "Compliance Administrator role group"
+    - content: "Microsoft Purview Compliance Administrator role group"
       isCorrect: false
       explanation: "That's incorrect. The roles in this role group can view selected alerts."
-    - content: "eDiscovery Manager role group"
+    - content: "Microsoft Purview eDiscovery Manager role group"
       isCorrect: true
       explanation: "That's correct. Members of the eDiscovery Manager role group can't view any alerts because none of the assigned roles provide permission to view alerts from any alert category."
   - content: "Which of the following items is a principle of retention when more than one retention policy applies to the same content?"
