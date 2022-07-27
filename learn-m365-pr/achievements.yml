@@ -340,3 +340,13 @@ achievements:
   title: Resolve Windows 10 upgrade errors
   summary: Resolve Windows 10 upgrade errors
   iconUrl: /learn/achievements/windows-upgrade-errors.svg
+- uid: learn.wwl.conduct-audit-log-investigations.badge
+  type: badge
+  title: Conduct audit log investigations
+  summary: Conduct audit log investigations
+  iconUrl: /learn/achievements/windows-security-audit-log.svg
+- uid: learn.wwl.implement-windows-information-protection.badge
+  type: badge
+  title: Implement Windows Information Protection
+  summary: Implement Windows Information Protection
+  iconUrl: /learn/achievements/windows-information-protection.svg
