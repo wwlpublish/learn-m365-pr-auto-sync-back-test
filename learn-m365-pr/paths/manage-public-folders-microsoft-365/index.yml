@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.manage-public-folders-microsoft-365
 metadata:
-  title: Manage public folders in Microsoft 365
-  description: Manage public folders in Microsoft 365
-  ms.date: 03/09/2022
+  title: MS-203 Manage public folders in Microsoft 365
+  description: MS-203 Manage public folders in Microsoft 365
+  ms.date: 07/27/2022
   author: wwlpublish
-  ms.author: tfrink
+  ms.author: maquinl
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Manage public folders in Microsoft 365
+title: MS-203 Manage public folders in Microsoft 365
 prerequisites: |
   This module is designed for persons who are aspiring to the Microsoft 365 Messaging Administrator role. The prerequisites for this module include:
   *   Ability to navigate the Microsoft 365 admin center, the Exchange admin center, and the Microsoft 365 Defender portal
@@ -28,8 +28,8 @@ products:
 - office-365
 - office-exchange-server
 subjects:
-- data-management
 - cloud-computing
+- data-management
 modules:
 - learn.wwl.design-your-public-folder-hierarchy
 - learn.wwl.create-manage-public-folders
