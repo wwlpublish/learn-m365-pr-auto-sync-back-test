@@ -1,6 +1,6 @@
 Microsoft Teams scoped directory search allows organizations to create virtual boundaries that control how users can find and communicate with other users in their organization. 
 
-Microsoft Teams lets organizations provide custom views of the directory to their users. Microsoft Teams uses Information Barrier policies to support these custom views. Enabling scope directory search is a prerequisite to use information barriers.
+Microsoft Teams lets organizations provide custom views of the directory to their users. Microsoft Teams uses Microsoft Purview Information Barrier policies to support these custom views. Enabling scope directory search is a prerequisite to use information barriers.
 
 Once the policies are enabled, the results returned by searches for other users will be scoped according to the configured policies. Users will not be able to search or discover any teams when scoped search is in effect. But existing members in those teams can add users, as allowed by active Information Barrier policies.
 
@@ -22,6 +22,6 @@ Address book policies provide only a virtual separation of users from directory 
 
 3. Scroll down to **Search by name** and turn the slider behind **Scope directory search using an Exchange address book policy** to **On**.
 
-    :::image type="content" source="../media/scoped-directory-search.png" alt-text="Scoped Directory Search":::
+    :::image type="content" source="../media/scoped-directory-search.png" alt-text="Screenshot of Scoped Directory Search.":::
 
 This change can take a few hours to replicate.

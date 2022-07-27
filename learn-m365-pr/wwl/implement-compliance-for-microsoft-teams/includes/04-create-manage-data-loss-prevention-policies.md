@@ -1,6 +1,6 @@
 Organizations must protect sensitive information and prevent inadvertent disclosure. Regulations for data protection change from time to time. The goal of Data Loss Prevention (DLP) is to ensure that sensitive data is not lost, misused, or accessed by unauthorized users.
 
-With Data Loss Prevention policies, organizations can identify, monitor, and automatically protect sensitive information across their Microsoft 365 environment.
+With Microsoft Purview Data Loss Prevention policies, organizations can identify, monitor, and automatically protect sensitive information across their Microsoft 365 environment.
 
 DLP policy can help you to:
 
@@ -26,15 +26,15 @@ As the Teams administrator for Contoso, you have created and applied a DLP polic
 
 Later, a user tried to send a social security number in a Microsoft Teams channel. The message was blocked and there is a help link **What can I do?**. This link will open a dialog box that provides options for the sender to resolve the issue.  
 
-:::image type="content" source="../media/data-loss-prevention-policy-tip-teams.png" alt-text="Blocked message notification in Teams":::
+:::image type="content" source="../media/data-loss-prevention-policy-tip-teams.png" alt-text="Screenshot of Blocked message notification in Teams.":::
 
 As an admin, you can choose to allow users to override a DLP policy in your organization. When you configure your DLP policies, you can use the default policy tips or customize policy tips. In the following example, the sender has the options to override the policy or notify an admin to review and resolve it.
 
-:::image type="content" source="../media/data-loss-prevention-policy-tip-teams-actions.png" alt-text="Options to resolve blocked message":::
+:::image type="content" source="../media/data-loss-prevention-policy-tip-teams-actions.png" alt-text="Screenshot of Options to resolve blocked message.":::
 
 The recipients are viewing different message on the screen, as in the following image:
 
-:::image type="content" source="../media/data-loss-prevention-policy-tip-teams-block.png" alt-text="Message blocked":::
+:::image type="content" source="../media/data-loss-prevention-policy-tip-teams-block.png" alt-text="Screenshot of Message blocked.":::
 
 You may notice that the recipients are receiving information that the message was blocked due to sensitive content, and there is a link right next to the message: **What's this?** which will open an article about DLP policies, where the users can find an explanation why the message was blocked.
 
@@ -42,7 +42,7 @@ You may notice that the recipients are receiving information that the message wa
 
 You have flexibility in how you create and configure your DLP policies. You can start from a predefined template and create a policy in just a few clicks or you can design your own from the ground up. No matter which you choose, all DLP policies require the same information from you.
 
-1. **Choose what you want to monitor**: Microsoft 365 comes with many predefined policy templates to help you get started or you can create a custom policy.
+1. **Choose what you want to monitor**: Microsoft Purview comes with many predefined policy templates to help you get started or you can create a custom policy.
 
     - A predefined policy template: Financial data, Medical and health data, Privacy data all for various countries and regions. For more information, see [DLP policy templates](/microsoft-365/compliance/what-the-dlp-policy-templates-include?azure-portal=true).
 
@@ -57,7 +57,7 @@ You have flexibility in how you create and configure your DLP policies. You can 
 	|OneDrive accounts |accounts or distribution groups |
 	|Teams chat and channel messages |accounts |
 	|Windows 10 devices |user or group |
-	|Microsoft Cloud App Security |instance |
+	|Microsoft Defender for Cloud Apps |instance |
 	|On-premises repositories| repository file path|
 
 3. **Choose the conditions that must be matched for a policy to be applied to an item**: You can accept pre-configured conditions or define custom conditions. Some examples are:
@@ -70,19 +70,19 @@ You have flexibility in how you create and configure your DLP policies. You can 
 
 4. **Choose the action to take when the policy conditions are met**: The actions depend on the location where the activity is happening. Some examples are:
 
-	- **SharePoint/Exchange/OneDrive** - Block people who are outside your organization form accessing the content. Show the user a tip and send them an email notification that they are taking an action that is prohibited by the DLP policy.
+	- **SharePoint/Exchange/OneDrive** - Block people who are outside your organization from accessing the content. Show the user a tip and send them an email notification that they are taking an action that is prohibited by the DLP policy.
 
 	- **Teams Chat and Channel** - Block sensitive information from being shared in the chat or channel.
 
 The conditions and the actions to take are defined in an object called a Rule. A rule is created to enforce a specific protection requirement. A DLP policy is used to group together common protection requirements.
 
-:::image type="content" source="../media/data-loss-prevention-policy.png" alt-text="Data loss prevention policy":::
+:::image type="content" source="../media/data-loss-prevention-policy.png" alt-text="Screenshot of Data loss prevention policy.":::
 
 ## Create a new DLP policy for Microsoft Teams
 
-DLP policies can be managed in the Microsoft 365 compliance center, beneath **Data loss prevention**. Follow these steps to create a new DLP policy for Teams locations:
+DLP policies can be managed in the Microsoft Purview compliance portal, beneath **Data loss prevention**. Follow these steps to create a new DLP policy for Teams locations:
 
-1. From the [Microsoft 365 compliance center](https://compliance.microsoft.com/?azure-portal=true), select **Policies** > **Data loss prevention**.
+1. From the [the Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true), select **Policies** > **Data loss prevention**.
 
 2. Select the **Policies** tab, and select **+ Create policy** to start the wizard.
 
@@ -92,13 +92,13 @@ DLP policies can be managed in the Microsoft 365 compliance center, beneath **Da
 
 5. On the **Choose locations to apply the policy** page, choose the locations that you want the DLP policy to protect. DLP policies can contain Teams and non-Teams locations at the same time.
 
-	:::image type="content" source="../media/data-loss-prevention-locations.png" alt-text="Location options in DLP" lightbox="../media/data-loss-prevention-locations.png":::
+	:::image type="content" source="../media/data-loss-prevention-locations.png" alt-text="Screenshot of Location options in DLP." lightbox="../media/data-loss-prevention-locations.png":::
 
 6. On the **Define policy settings page**, select one of the radio buttons and then select **Next**.
 
 	- Review and customize default settings from the template
 
-	- Create or customize advanced DLP rule
+	- Create or customize advanced DLP rules
 
 7. Depending on the previous selection, you will configure the **Policy settings**.
 
@@ -118,7 +118,7 @@ DLP policies can be managed in the Microsoft 365 compliance center, beneath **Da
 
 	- Additional options
 
-	:::image type="content" source="../media/data-loss-prevention-action.png" alt-text="M365 Action options in DLP" lightbox="../media/data-loss-prevention-action.png":::
+	:::image type="content" source="../media/data-loss-prevention-action.png" alt-text="Screenshot of Microsoft 365 Action options in DLP." lightbox="../media/data-loss-prevention-action.png":::
 
  	After configuring the desired settings, select **Next**.
 
@@ -130,8 +130,5 @@ DLP policies can be managed in the Microsoft 365 compliance center, beneath **Da
 
 	- **Keep it off** - Leaves the policy deactivated.
 
-9. Select **Next** and on the **Review your settings** page, select **Create**.
+9. Select **Next** and on the **Review your settings** page, select **Submit**.
 
-## Knowledge check
-
-Choose the best response for the following question. Then select “Check your answers.”
