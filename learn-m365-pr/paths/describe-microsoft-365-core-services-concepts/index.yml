@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.describe-microsoft-365-core-services-concepts
 metadata:
-  title: 'Microsoft 365 Fundamentals: Describe Microsoft 365 core services and concepts'
-  description: 'Microsoft 365 Fundamentals: Describe Microsoft 365 core services and concepts'
-  ms.date: 07/22/2022
+  title: 'MS-900 Microsoft 365 Fundamentals: Describe Microsoft 365 core services and concepts'
+  description: 'MS-900 Microsoft 365 Fundamentals: Describe Microsoft 365 core services and concepts'
+  ms.date: 07/27/2022
   author: wwlpublish
   ms.author: asglenno
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: 'Microsoft 365 Fundamentals: Describe Microsoft 365 core services and concepts'
+title: 'MS-900 Microsoft 365 Fundamentals: Describe Microsoft 365 core services and concepts'
 prerequisites: |
   Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a-Service (Saas). If you're unfamiliar with basic cloud computing concepts, we recommend you take [Discuss Azure fundamental concepts](/learn/modules/fundamental-azure-concepts/).
 summary: |
