@@ -2,6 +2,8 @@ Besides regular Teams recording, some organizations need compliance recording fo
 
 Compliance recording solution in Teams enables organizations to automatically record and capture calls and online meetings for later processing and retention.
 
+Compliance Recording can be enabled on Microsoft 365 A3/A5/E3/E5/Business Premium and Office 365 A3/A5/E3/E5 users.
+
 ## Compliance recording solution  
 
 The core component of the compliance recording solution is the recorder. When a communication interaction takes place, the recorders are automatically invited to participate in conversations based on the policies.
@@ -12,7 +14,7 @@ The recording becomes part of the organizational archive. The recording is avail
 
 The exact implementation of the recorder service will vary by partner. Compliance recording solutions are integrated with Teams as shown in the following diagram.
 
-:::image type="content" source="../media/compliance-recording-teams-calling-meetings.jpg" alt-text="Images show the flow when a Teams meeting or call is sent and received":::
+:::image type="content" source="../media/compliance-recording-teams-calling-meetings.jpg" alt-text="Diagram that show the flow when a Teams meeting or call is sent and received.":::
 
 ## Configure compliance recording policy
 
