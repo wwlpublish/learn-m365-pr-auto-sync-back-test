@@ -2,13 +2,13 @@
 uid: learn.wwl.m365-security-compliance-capabilities
 metadata:
   title: 'Microsoft 365 Fundamentals: Demonstrate fundamental knowledge of Microsoft 365 security and compliance capabilities'
-  description: 'Microsoft 365 Fundamentals: Demonstrate fundamental knowledge of Microsoft 365 security and compliance capabilities'
-  ms.date: 05/12/2022
+  description: 'MS-900 Microsoft 365 Fundamentals: Demonstrate fundamental knowledge of Microsoft 365 security and compliance capabilities'
+  ms.date: 07/27/2022
   author: wwlpublish
   ms.author: asglenno
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: 'Microsoft 365 Fundamentals: Demonstrate fundamental knowledge of Microsoft 365 security and compliance capabilities'
+title: 'MS-900 Microsoft 365 Fundamentals: Demonstrate fundamental knowledge of Microsoft 365 security and compliance capabilities'
 prerequisites: |
   - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a-Service (Saas). If you're unfamiliar with basic cloud computing concepts, we recommend you take [Discuss Azure fundamental concepts](/learn/modules/fundamental-azure-concepts/)
 summary: |
@@ -22,9 +22,9 @@ roles:
 products:
 - m365
 subjects:
+- cloud-security
 - compliance
 - threat-protection
-- cloud-security
 modules:
 - learn.wwl.describe-security-concepts-methodologies
 - learn.wwl.describe-identity-principles-concepts
