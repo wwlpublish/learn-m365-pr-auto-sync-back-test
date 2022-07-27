@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.manage-authentication-compliance
 metadata:
-  title: Manage authentication and compliance
-  description: Manage authentication and compliance
-  ms.date: 07/07/2022
+  title: MD-101 Manage authentication and compliance
+  description: MD-101 Manage authentication and compliance
+  ms.date: 07/26/2022
   author: wwlpublish
-  ms.author: brhinkel
+  ms.author: rstearman
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Manage authentication and compliance
+title: MD-101 Manage authentication and compliance
 prerequisites: |
   Students should have:
   - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later

@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.configure-data-access-usage
 metadata:
-  title: Configure data access and usage
-  description: Configure data access and usage
-  ms.date: 06/02/2022
+  title: MD-100 Configure data access and usage
+  description: MD-100 Configure data access and usage
+  ms.date: 07/26/2022
   author: wwlpublish
-  ms.author: brhinkel
+  ms.author: rstearman
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Configure data access and usage
+title: MD-100 Configure data access and usage
 prerequisites: |
   - Students should have a basic understanding of computer networks and hardware concepts.
   - Students should have a basic understanding of OS and Application concepts.

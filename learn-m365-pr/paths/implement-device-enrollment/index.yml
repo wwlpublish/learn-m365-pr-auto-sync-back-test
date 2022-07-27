@@ -1,21 +1,21 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.implement-device-enrollment
 metadata:
-  title: Implement device enrollment
-  description: Implement device enrollment
-  ms.date: 03/31/2022
+  title: MD-101 Implement device enrollment
+  description: MD-101 Implement device enrollment
+  ms.date: 07/26/2022
   author: wwlpublish
-  ms.author: brhinkel
+  ms.author: rstearman
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Implement device enrollment
+title: MD-101 Implement device enrollment
 prerequisites: |
   - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later.
   - Strong understanding of computer networking, client security, and application concepts.
   - Experience using Active Directory Domain Services.
 summary: |
   This learning path will cover Azure AD join and will introduce Microsoft Endpoint Manager. We will also discuss how to configure policies for enrolling devices to Configuration Manager and Microsoft Intune.
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/device-enrollment-implementation.svg
 levels:
 - intermediate
 roles:
