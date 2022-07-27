@@ -3,9 +3,9 @@ uid: learn.wwl.implement-compliance-for-microsoft-teams
 metadata:
   title: Implement compliance for Microsoft Teams
   description: "Implement compliance for Microsoft Teams"
-  ms.date: 10/25/2021
+  ms.date: 07/27/2022
   author: wwlpublish
-  ms.author: tfrink
+  ms.author: jennyche
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Implement compliance for Microsoft Teams
@@ -33,9 +33,9 @@ products:
 - m365
 - office-teams
 subjects:
-- compliance
 - collaboration
 - communication
+- compliance
 units:
 - learn.wwl.implement-compliance-for-microsoft-teams.introduction
 - learn.wwl.implement-compliance-for-microsoft-teams.create-manage-sensitivity-labels

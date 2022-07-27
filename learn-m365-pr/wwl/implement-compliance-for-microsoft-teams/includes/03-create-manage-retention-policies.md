@@ -28,7 +28,7 @@ Retention policies can be applied to the following locations:
 
 * Yammer user messages
 
-    :::image type="content" source="../media/retention-policy-locations.png" alt-text="Retention policy Choose locations page" lightbox="../media/retention-policy-locations.png":::
+    :::image type="content" source="../media/retention-policy-locations.png" alt-text="Screenshot of Retention policy Choose locations page." lightbox="../media/retention-policy-locations.png":::
 
 Although a retention policy can support multiple locations, you can't create a single retention policy that includes all the supported locations.
 
@@ -82,7 +82,7 @@ With these two retention actions, you can configure retention settings for the f
 
 * **Delete-only**: Delete content after a specified period of time. For this configuration, choose **Only delete items when they reach a certain age**.
 
-    :::image type="content" source="../media/retention-policy-settings.png" alt-text="Retention policy settings page" lightbox="../media/retention-policy-settings.png":::
+    :::image type="content" source="../media/retention-policy-settings.png" alt-text="Screenshot of Retention policy settings page." lightbox="../media/retention-policy-settings.png":::
 
 ## The principles of retention
 
@@ -96,17 +96,19 @@ You can apply more than one retention policy to the same content. Each retention
 
 4. **The shortest deletion period wins**: Similarly, if content is subject to multiple policies that delete content (with no retention), it will be deleted at the end of the shortest retention period.
 
-    :::image type="content" source="../media/principles-of-retention.png" alt-text="Diagram of the principles of retention":::
+    :::image type="content" source="../media/principles-of-retention.png" alt-text="Diagram of the principles of retention.":::
 
 ## Create a retention policy for Teams locations
 
-To create and manage Teams retention policies, you can use the Microsoft 365 compliance center or PowerShell. To create a retention policy for Teams chats and channel messages, use the following steps:
+To create and manage Teams retention policies, you can use the Microsoft Purview compliance portal or PowerShell. To create a retention policy for Teams chats and channel messages, use the following steps:
 
-1. From the [Microsoft 365 compliance center](https://compliance.microsoft.com/?azure-portal=true), select **Policies** > **Retention**.
+1. From the [the Microsoft Purview compliance portal](https://compliance.microsoft.com/?azure-portal=true), select **Data Lifecycle Management** > **Retention policies**.
 
-2. Select **New retention policy** to start the Create retention policy wizard, and name your new retention policy.
+2. Select **+ New retention policy** to start the Create retention policy wizard, and name your new retention policy.
 
-3. For the **Choose locations to apply the policy** page, select any or all of the locations for Teams. By default, all teams and all users are selected, but you can refine this setting by selecting the **Choose** and **Exclude** options.
+3.	Select **Static** from the **Type** page to choose locations containing the content you want to retain.
+
+4. For the **Choose locations to apply the policy** page, select any or all of the locations for Teams. By default, all teams and all users are selected, but you can refine this setting by selecting the **Choose** and **Exclude** options.
 
     * **Teams channel message**: Messages from standard channel chats and standard channel meetings.
 
@@ -114,7 +116,7 @@ To create and manage Teams retention policies, you can use the Microsoft 365 com
 
     * **Teams private channel messages**: Messages from private channel chats and private channel meetings.  
 
-4. For **Decide if you want to retain content, delete it, or both** page of the wizard, specify the configuration options for retaining and deleting content. You can create a retention policy with the following options:
+5. For **Decide if you want to retain content, delete it, or both** page of the wizard, specify the configuration options for retaining and deleting content. You can create a retention policy with the following options:
 
    * Retains content without deleting.
 
@@ -122,11 +124,11 @@ To create and manage Teams retention policies, you can use the Microsoft 365 com
 
    * Deletes content after a specified period of time.
 
-5. Complete the wizard to save your settings.
+6. Complete the wizard to save your settings.
 
 ## Create a retention policy using PowerShell
 
-To create and manage retention policies via PowerShell, you need to use the Security & Compliance Center PowerShell module. The following cmdlets are available for managing retention policies:
+To create and manage retention policies via Exchange PowerShell, you need to use the Security & Compliance PowerShell module. The following cmdlets are available for managing retention policies:
 
 * [New-RetentionCompliancePolicy](/powershell/module/exchange/new-retentioncompliancepolicy?azure-portal=true)
 
@@ -134,4 +136,4 @@ For more information, see:
 
 * [Manage retention policies for Microsoft Teams](/microsoftteams/retention-policies?azure-portal=true)
 
-* [Principles of retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention?azure-portal=true#the-principles-of-retention-or-what-takes-precedence)
+* [Principles of retention policies](/microsoft-365/compliance/retention?azure-portal=true#the-principles-of-retention-or-what-takes-precedence)
