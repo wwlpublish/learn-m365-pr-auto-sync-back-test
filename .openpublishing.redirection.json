@@ -4689,6 +4689,91 @@
       "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/4-understand-error-codes.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/conduct-audit-log-investigations/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/conduct-audit-log-investigations/3-create-auditing-policies-sharepoint-online.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/conduct-audit-log-investigations/2-explore-searching-microsoft-365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/conduct-audit-log-investigations/6-export-search-results-to-local-csv-file.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/conduct-audit-log-investigations/5-filter-search-results-for-specific-user-activity.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/conduct-audit-log-investigations/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/conduct-audit-log-investigations/8-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/conduct-audit-log-investigations/4-search-security-compliance-center.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/conduct-audit-log-investigations/7-search-using-windows-powershell.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/conduct-audit-log-investigations/9-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-windows-information-protection/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-windows-information-protection/2-explore.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-windows-information-protection/4-implement-policies-windows-desktop-apps.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-windows-information-protection/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-windows-information-protection/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-windows-information-protection/3-plan-for-windows-information-protection.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-windows-information-protection/6-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
     }
   ]
 }
