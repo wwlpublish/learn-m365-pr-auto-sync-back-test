@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.plan-configure-teams-voice
 metadata:
-  title: Plan and configure Teams Phone
-  description: Plan and configure Teams Phone
-  ms.date: 12/29/2021
+  title: MS-720 Plan and configure Teams Phone
+  description: MS-720 Plan and configure Teams Phone
+  ms.date: 07/28/2022
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Plan and configure Teams Phone
+title: MS-720 Plan and configure Teams Phone
 prerequisites: |
   - Learners should be familiar with telecommunication technologies and have experience in Microsoft Teams, Microsoft 365, and PowerShell.
   - Learners should have completed the
@@ -24,8 +24,8 @@ products:
 - m365
 - office-teams
 subjects:
-- communication
 - collaboration
+- communication
 modules:
 - learn.wwl.plan-teams-phone-system
 - learn.wwl.plan-optimize-network-performance-for-teams-phone-system
