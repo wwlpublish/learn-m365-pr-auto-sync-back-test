@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.manage-chat-teams-channels-apps-microsoft-teams
 metadata:
-  title: Manage chat, teams, channels, and apps in Microsoft Teams
-  description: Manage chat, teams, channels, and apps in Microsoft Teams
-  ms.date: 09/30/2021
+  title: MS-700 Manage chat, teams, channels, and apps in Microsoft Teams
+  description: MS-700 Manage chat, teams, channels, and apps in Microsoft Teams
+  ms.date: 07/28/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Manage chat, teams, channels, and apps in Microsoft Teams
+title: MS-700 Manage chat, teams, channels, and apps in Microsoft Teams
 prerequisites: |
   - A proficient understanding of basic functional experience with Microsoft 365 services.
   - A proficient understanding of general IT practices, including using PowerShell.
@@ -23,8 +23,8 @@ products:
 - m365
 - office-teams
 subjects:
-- communication
 - collaboration
+- communication
 modules:
 - learn.wwl.create-manage-teams
 - learn.wwl.manage-collaboration-experiences-for-chat-channels
