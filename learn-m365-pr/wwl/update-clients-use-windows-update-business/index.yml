@@ -11,10 +11,10 @@ metadata:
 title: Update clients using Windows Update for Business
 summary: Leverage Windows Update for Business to control the distribution and methods for Windows update delivery.
 abstract: |
-  After completing this module, you will be able to:
-  - Describe Windows Update for Business.
-  - Configure Windows Update for Business.
-  - Identify scenarios for using Windows Update for Business.
+  After completing this module, you'll be able to:
+  *   Describe Windows Update for Business.
+  *   Configure Windows Update for Business.
+  *   Identify scenarios for using Windows Update for Business.
 prerequisites: |
   - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
   - Strong understanding of computer networking, client security, and application concepts
