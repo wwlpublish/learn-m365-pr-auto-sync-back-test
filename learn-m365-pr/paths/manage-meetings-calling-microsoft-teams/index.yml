@@ -13,7 +13,7 @@ prerequisites: |
   - A proficient understanding of basic functional experience with Microsoft 365 services.
   - A proficient understanding of general IT practices, including using PowerShell.
 summary: |
-  Learn the meetings and calling features in Microsoft Teams, including managing meetings experiences, managing Microsoft Teams devices, managing calling features with Calling Plans and Phone System, and the basic troubleshooting tool for Teams issue.
+  Learn the meetings and calling features in Microsoft Teams, including managing meetings experiences, managing Microsoft Teams devices, managing calling features with Calling Plans and Microsoft Teams, and the basic troubleshooting tool for Teams issue.
 iconUrl: /learn/achievements/teams-manage-meeting-calling.svg
 levels:
 - intermediate
