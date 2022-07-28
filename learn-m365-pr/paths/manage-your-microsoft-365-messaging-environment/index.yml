@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.manage-your-microsoft-365-messaging-environment
 metadata:
-  title: Manage your Microsoft 365 messaging environment
-  description: Manage your Microsoft 365 messaging environment
-  ms.date: 05/11/2022
+  title: MS-203 Manage your Microsoft 365 messaging environment
+  description: MS-203 Manage your Microsoft 365 messaging environment
+  ms.date: 07/27/2022
   author: wwlpublish
-  ms.author: tfrink
+  ms.author: maquinl
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Manage your Microsoft 365 messaging environment
+title: MS-203 Manage your Microsoft 365 messaging environment
 prerequisites: |
   This module is designed for persons who are aspiring to the Microsoft 365 Messaging Administrator role. The prerequisites for this module include:
   - Ability to navigate the Microsoft 365 admin center, the Exchange admin center, and the Microsoft 365 Defender portal
@@ -29,8 +29,8 @@ products:
 - office-exchange-server
 - office-exchange-online
 subjects:
-- data-management
 - communication
+- data-management
 modules:
 - learn.wwl.manage-authentication-for-messaging
 - learn.wwl.configure-organizational-settings

@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.manage-hybrid-deployment-life-cycle
 metadata:
-  title: Manage the hybrid deployment life cycle
-  description: Manage the hybrid deployment life cycle
-  ms.date: 05/11/2022
+  title: MS-203 Manage the hybrid deployment life cycle
+  description: MS-203 Manage the hybrid deployment life cycle
+  ms.date: 07/27/2022
   author: wwlpublish
-  ms.author: tfrink
+  ms.author: maquinl
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Manage the hybrid deployment life cycle
+title: MS-203 Manage the hybrid deployment life cycle
 prerequisites: |
   This module is designed for persons who are aspiring to the Microsoft 365 Messaging Administrator role. The prerequisites for this module include:
   *   Ability to navigate the Microsoft 365 admin center, the Exchange admin center, and the Microsoft 365 Defender portal
