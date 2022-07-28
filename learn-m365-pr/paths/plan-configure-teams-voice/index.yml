@@ -14,7 +14,7 @@ prerequisites: |
   - Learners should have completed the
   [Microsoft 365 Certified: Teams Administrator Associate](/learn/certifications/m365-teams-administrator-associate/) or have equivalent experience.
 summary: |
-  You will learn how to plan for and configure Teams Phone, including Calling Plans, Direct Routing, Auto Attendants, Call Queues, Operator Connect, and how to extend Teams Phone with additional services.
+  You‘ll learn how to plan for and configure Teams Phone, including Calling Plans, Direct Routing, Auto Attendants, Call Queues, Operator Connect, and how to extend Teams Phone with additional services.
 iconUrl: /learn/achievements/plan-and-configure-teams-voice.svg
 levels:
 - advanced
