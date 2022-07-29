@@ -4774,6 +4774,46 @@
       "source_path": "learn-m365-pr/wwl/implement-windows-information-protection/6-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/03-choose-appropriate-coexistence-modes.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/05-configure-meeting-migration-service.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/01-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/06-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/04-set-coexistence-upgrade-settings.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/07-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/02-understand-upgrade-process-microsoft-teams.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
     }
   ]
 }
