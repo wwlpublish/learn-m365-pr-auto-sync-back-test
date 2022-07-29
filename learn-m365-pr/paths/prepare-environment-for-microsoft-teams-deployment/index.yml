@@ -3,7 +3,7 @@ uid: learn.wwl.prepare-environment-for-microsoft-teams-deployment
 metadata:
   title: MS-700 Prepare the environment for a Microsoft Teams deployment
   description: MS-700 Prepare the environment for a Microsoft Teams deployment
-  ms.date: 07/28/2022
+  ms.date: 07/29/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -13,7 +13,7 @@ prerequisites: |
   - A proficient understanding of basic functional experience with Microsoft 365 services.
   - A proficient understanding of general IT practices, including using PowerShell.
 summary: |
-  Learn about the environment for a Teams deployment, including configuring access for external users, implementing security and compliance for Teams, the transition process to Microsoft Teams, and network requirements.
+  Learn about the environment for a Teams deployment, including configuring access for external users, implementing security and compliance for Teams, and network requirements.
 iconUrl: /learn/achievements/prepare-environment-deployment.svg
 levels:
 - intermediate
