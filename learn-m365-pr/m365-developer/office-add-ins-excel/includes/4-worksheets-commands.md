@@ -29,13 +29,13 @@ The following code examples demonstrate common operations developers can do from
 - Get the active worksheet
 
     ```javascript
-    var worksheet = context.workbook.worksheets.getActiveWorksheet();
+    const worksheet = context.workbook.worksheets.getActiveWorksheet();
     ```
 
 - Get worksheet by name
 
     ```javascript
-    var worksheet = context.workbook.worksheets.getItem("MyNewWorksheet");
+    const worksheet = context.workbook.worksheets.getItem("MyNewWorksheet");
     ```
 
 - Set the active worksheet
@@ -47,7 +47,7 @@ The following code examples demonstrate common operations developers can do from
 - Create a worksheet
 
     ```javascript
-    var worksheet = context.workbook.worksheets.add("MyNewWorksheet");
+    const worksheet = context.workbook.worksheets.add("MyNewWorksheet");
     ```
 
 - Delete a worksheet
