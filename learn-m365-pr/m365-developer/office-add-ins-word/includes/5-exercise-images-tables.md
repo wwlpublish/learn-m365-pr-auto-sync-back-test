@@ -103,11 +103,6 @@ These steps must be completed whenever your code needs to *read* information fro
     ```
 
 1. Move the `doc.body.insertParagraph` line and paste in place of `TODO4`.
-1. Replace `TODO5` with the following code.
-
-   ```javascript
-   await context.sync();
-   ```
 
 When you're done, the completed `insertTextIntoRange()` function should look like the following:
 
