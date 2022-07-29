@@ -83,12 +83,12 @@ In this section, you'll programmatically test that your add-in supports the user
 1. Add the following function to the end of the file:
 
     ```javascript
-    function insertParagraph() {
-      Word.run(function (context) {
+    async function insertParagraph() {
+      await Word.run(async (context) => {
 
         // TODO1: Queue commands to insert a paragraph into the document.
 
-        return context.sync();
+        await context.sync();
       })
       .catch(function (error) {
         console.log("Error: " + error);
@@ -108,7 +108,7 @@ In this section, you'll programmatically test that your add-in supports the user
 1. Within the `insertParagraph()` function, replace `TODO1` with the following code:
 
     ```javascript
-    var docBody = context.document.body;
+    const docBody = context.document.body;
     docBody.insertParagraph("Office has several versions, including Office 2016, Microsoft 365 Click-to-Run, and Office on the web.",
                             "Start");
     ```
@@ -187,12 +187,12 @@ In this section, you'll apply a built-in style to text, apply a custom style to 
 1. Add the following function to the end of the file:
 
     ```javascript
-    function applyStyle() {
-      Word.run(function (context) {
+    async function applyStyle() {
+      await Word.run(async (context) => {
 
         // TODO1: Queue commands to style text.
 
-        return context.sync();
+        await context.sync();
       })
       .catch(function (error) {
         console.log("Error: " + error);
@@ -206,7 +206,7 @@ In this section, you'll apply a built-in style to text, apply a custom style to 
 1. Within the `applyStyle()` function, replace `TODO1` with the following code. The code applies a style to a paragraph, but styles can also be applied to ranges of text.
 
     ```javascript
-    var firstParagraph = context.document.body.paragraphs.getFirst();
+    const firstParagraph = context.document.body.paragraphs.getFirst();
     firstParagraph.styleBuiltIn = Word.Style.intenseReference;
     ```
 
@@ -235,12 +235,12 @@ In this section, you'll apply a built-in style to text, apply a custom style to 
 1. Add the following function to the end of the file:
 
     ```javascript
-    function applyCustomStyle() {
-      Word.run(function (context) {
+    async function applyCustomStyle() {
+      await Word.run(async (context) => {
 
         // TODO1: Queue commands to apply the custom style.
 
-        return context.sync();
+        await context.sync();
       })
       .catch(function (error) {
         console.log("Error: " + error);
@@ -254,7 +254,7 @@ In this section, you'll apply a built-in style to text, apply a custom style to 
 1. Within the `applyCustomStyle()` function, replace `TODO1` with the following code. The code applies a custom style that doesn't exist yet. You'll create a style with the name **MyCustomStyle** in a later step.
 
     ```javascript
-    var lastParagraph = context.document.body.paragraphs.getLast();
+    const lastParagraph = context.document.body.paragraphs.getLast();
     lastParagraph.style = "MyCustomStyle";
     ```
 
@@ -285,12 +285,12 @@ In this section, you'll apply a built-in style to text, apply a custom style to 
 1. Add the following function to the end of the file:
 
     ```javascript
-    function changeFont() {
-      Word.run(function (context) {
+    async function changeFont() {
+      await Word.run(async (context) => {
 
         // TODO1: Queue commands to apply a different font.
 
-        return context.sync();
+        await context.sync();
       })
       .catch(function (error) {
         console.log("Error: " + error);
@@ -304,7 +304,7 @@ In this section, you'll apply a built-in style to text, apply a custom style to 
 1. Within the `changeFont()` function, replace `TODO1` with the following code. The code gets a reference to the second paragraph by using the `ParagraphCollection.getFirst()` method chained to the `Paragraph.getNext()` method.
 
     ```javascript
-    var secondParagraph = context.document.body.paragraphs.getFirst().getNext();
+    const secondParagraph = context.document.body.paragraphs.getFirst().getNext();
     secondParagraph.font.set({
       name: "Courier New",
       bold: true,
