@@ -80,8 +80,8 @@ Each recipient is set using an array of objects, where each object has a `displa
 
 ```javascript
 // Get recipients
-var item = Office.context.mailbox.item;
-var toRecipients;
+const item = Office.context.mailbox.item;
+let toRecipients;
 if (item.itemType == Office.MailboxEnums.ItemType.Appointment) // Handle appointment vs message
   toRecipients = item.requiredAttendees;
 else
@@ -114,13 +114,13 @@ This sample demonstrates how to set an appointment recurrence setting, which is 
 
 ```javascript
 // Get and set recurrence
-var seriesTimeObject = new Office.SeriesTime();
+const seriesTimeObject = new Office.SeriesTime();
 seriesTimeObject.setStartDate(2019,10,2);
 seriesTimeObject.setEndDate(2019,11,2);
 seriesTimeObject.setStartTime(10,30);
 seriesTimeObject.setDuration(30);
 
-var pattern = {
+const pattern = {
   "seriesTime": seriesTimeObject,
   "recurrenceType": "weekly",
   "recurrenceProperties": {"interval": 1, "days": ["tue", "thu"]},
@@ -141,7 +141,7 @@ The following sample demonstrates how to get, set, and remove a user's roaming s
 ```javascript
 // Roaming Settings
 Office.initialize = function () {
-  var settings = Office.context.roamingSettings;
+  const settings = Office.context.roamingSettings;
 
   // Save roaming settings for the mailbox to the server so always available
   settings.set("cookie", Date());
@@ -152,7 +152,7 @@ Office.initialize = function () {
   settings.saveAsync(function(asyncResult) {});
 
   // Get roaming setting
-  var val = settings.get("cookie");
+  const val = settings.get("cookie");
 }
 ```
 
@@ -162,11 +162,11 @@ This sample demonstrates how to call the Exchange Web Services (EWS) from an add
 
 ```javascript
 // Call Exchange Web Services (EWS)
-var mailbox = Office.context.mailbox;
+const mailbox = Office.context.mailbox;
 mailbox.makeEwsRequestAsync(mailbox.item.itemId, function(result) {
   // result.value contains the EWS getItem information in XML format
-  var response = $.parseXML(result.value);
-  var extendedProps = response.getElementsByTagName("ExtendedProperty")
+  const response = $.parseXML(result.value);
+  const extendedProps = response.getElementsByTagName("ExtendedProperty")
 });
 
 // Note add-ins calling EWS must be installed by an Exchange admin
@@ -183,11 +183,11 @@ Outlook add-ins can't pass the attachments of a selected item directly from the 
 
 ```javascript
 // Get attachments
-var svcRequest = { attachmentToken: '', ewsUrl: Office.context.mailbox.ewsUrl, attachments: [] };
+const svcRequest = { attachmentToken: '', ewsUrl: Office.context.mailbox.ewsUrl, attachments: [] };
 Office.context.mailbox.getCallbackTokenAsync(function(asyncResult, userContext) {
   // get access token returned from getCallbackTokenAsync and capture attachment metadata
   svcRequest.attachmentToken = asyncResult.value;
-  for (var i = 0; i < mailbox.item.attachments.length; i++) {
+  for (let i = 0; i < mailbox.item.attachments.length; i++) {
     svcRequest.attachments[i] = JSON.parse(JSON.stringify(mailbox.item.attachments[i].$0_0));
   }
   $.ajax({
