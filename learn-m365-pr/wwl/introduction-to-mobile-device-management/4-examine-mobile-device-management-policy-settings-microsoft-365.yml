@@ -4,13 +4,12 @@ title: Examine the Mobile Device Management policy settings in Microsoft 365
 metadata:
   title: Examine the Mobile Device Management policy settings in Microsoft 365
   description: "Examine the Mobile Device Management policy settings in Microsoft 365"
-  ms.date: 09/15/2021
+  ms.date: 08/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 5
 content: |
@@ -22,10 +21,10 @@ quiz:
     choices:
     - content: "Organization-wide device access settings"
       isCorrect: true
-      explanation: "That's correct. Organization-wide device access settings enable an organization to specify whether it wants to allow or block access to Exchange mail for devices that aren't supported by Basic Mobility and Security and which security groups should be excluded from access control."
+      explanation: "Correct. Organization-wide device access settings enable an organization to specify whether it wants to allow or block access to Exchange mail for devices that aren't supported by Basic Mobility and Security and which security groups should be excluded from access control."
     - content: "Device security policies"
       isCorrect: false
-      explanation: "That's incorrect. Organizations can use device security policies to protect their devices from unauthorized access. Try again."
+      explanation: "Incorrect. Organizations can use device security policies to protect their devices from unauthorized access."
     - content: "Device compliance policies"
       isCorrect: false
-      explanation: "That's incorrect. Device compliance policies are an Intune feature that defines the rules and settings that users and managed devices must meet to be compliant. Try again."
+      explanation: "Incorrect. Device compliance policies are an Intune feature that defines the rules and settings that users and managed devices must meet to be compliant."

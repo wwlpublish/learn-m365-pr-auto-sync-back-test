@@ -4,13 +4,12 @@ title: Explore Mobile Device Management in Microsoft 365
 metadata:
   title: Explore Mobile Device Management in Microsoft 365
   description: "Explore Mobile Device Management in Microsoft 365"
-  ms.date: 09/15/2021
+  ms.date: 08/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 5
 content: |
@@ -20,12 +19,12 @@ quiz:
   questions:
   - content: "As the Enterprise Administrator for Northwind Traders, Allan Deyoung wants to implement Microsoft Intune as Northwind's MDM authority. Which of the following rules must Allan consider when planning this implementation?"
     choices:
-    - content: "Only Group Policy can manage Windows 10 devices that are domain members"
+    - content: "Only Group Policy can manage Windows 10 and 11 devices that are domain members"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't a valid rule that Allan should follow when planning Northwind's MDM implementation. Try again."
-    - content: "Only MDM can manage Windows 10 devices that are domain members"
+      explanation: "Incorrect. This item isn't a valid rule that Allan should follow when planning Northwind's MDM implementation."
+    - content: "Only MDM can manage Windows 10 and 11 devices that are domain members"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't a valid rule that Allan should follow when planning Northwind's MDM implementation. Try again."
-    - content: "Group Policy and MDM can simultaneously manage Windows 10 devices that are domain members"
+      explanation: "Incorrect. This item isn't a valid rule that Allan should follow when planning Northwind's MDM implementation."
+    - content: "Group Policy and MDM can simultaneously manage Windows 10 and 11 devices that are domain members"
       isCorrect: true
-      explanation: "That's correct. If a Windows 10 device is a domain member, it can be managed by Group Policy and MDM at the same time."
+      explanation: "Correct. If a Windows 10 or 11 device is a domain member, it can be managed by Group Policy and MDM at the same time."

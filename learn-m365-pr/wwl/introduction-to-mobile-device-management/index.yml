@@ -3,7 +3,7 @@ uid: learn.wwl.introduction-to-mobile-device-management
 metadata:
   title: Explore Mobile Device Management
   description: "Explore Mobile Device Management"
-  ms.date: 09/15/2021
+  ms.date: 08/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,7 +11,7 @@ metadata:
 title: Explore Mobile Device Management
 summary: This module examines the built-in capabilities of Mobile Device Management in Microsoft 365, including a comparison of Microsoft's two MDM solutions, policy settings for mobile devices, and controlling email and document access.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Describe the two MDM authority solutions included in Microsoft 365 - Microsoft Intune and Basic Mobility and Security
   - Compare the basic features in Microsoft Intune and Basic Mobility and Security
   - Describe the policy settings for mobile devices in Microsoft Intune and Basic Mobility and Security
@@ -27,10 +27,12 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 subjects:
+- cloud-computing
+- communication
+- compliance
 - device-management
 - knowledge-management
 units:
