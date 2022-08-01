@@ -8,7 +8,7 @@ Some of the more commonly used device compliance settings include:
 
  -  Require a password to access devices.
  -  Local data encryption.
- -  Whether the device is jail-broken or rooted.
+ -  Jail-broken or rooted device.
  -  Minimum OS version required.
  -  Maximum OS version allowed.
  -  Require the device to be at, or under the Mobile Threat Defense level.

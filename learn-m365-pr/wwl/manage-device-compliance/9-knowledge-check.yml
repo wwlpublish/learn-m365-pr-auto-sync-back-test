@@ -43,10 +43,10 @@ quiz:
     choices:
     - content: "Persistent browser session"
       isCorrect: true
-      explanation: "Correct. This access control allow users to remain signed in after closing and reopening their browser window."
+      explanation: "Correct. This access control setting allows users to remain signed in after closing and reopening their browser window."
     - content: "Users and groups"
       isCorrect: false
-      explanation: "Incorrect. This item isn't an access control. It's an assignment control that defines who the policy will include or exclude."
+      explanation: "Incorrect. This item isn't an access control setting. It's an assignment control setting that defines who the policy will include or exclude."
     - content: "Device state"
       isCorrect: false
-      explanation: "Incorrect. This item isn't an access control. It's used to exclude devices that are hybrid Azure AD joined, or marked a compliant in Intune."
+      explanation: "Incorrect. This item isn't an access control setting. It's used to exclude devices that are hybrid Azure AD joined, or marked a compliant in Intune."

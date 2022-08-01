@@ -17,7 +17,7 @@ Conditional Access policies enable organizations to make decisions to enforce th
 
 Today, administrators are faced with two primary goals:<br>
 
- -  Empower users to be productive wherever and whenever.
+ -  Empower users to be productive wherever they're at and whenever it's required.
  -  Protect the organization's assets.
 
 Organizations can use Conditional Access policies to apply the right access controls when needed to remain secure.
@@ -63,7 +63,7 @@ Common decisions made by Conditional Access policies include:
 
 ### Use Conditional Access templates to provide commonly applied policies
 
-Microsoft is making [security defaults](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults?azure-portal=true) available to everyone, because managing security can be difficult. Identity-related attacks like password spray, replay, and phishing are common in today's environment. More than 99.9% of these identity-related attacks are stopped by using multi-factor authentication (MFA) and blocking legacy authentication. Microsoft's goal is to ensure that all organizations have at least a basic level of security enabled at no extra cost.
+Microsoft is making [security default properties](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults?azure-portal=true) available to everyone, because managing security can be difficult. Identity-related attacks like password spray, replay, and phishing are common in today's environment. More than 99.9% of these identity-related attacks are stopped by using multi-factor authentication (MFA) and blocking legacy authentication. Microsoft's goal is to ensure that all organizations have at least a basic level of security enabled at no extra cost.
 
 While security defaults are great for some companies, many organizations need more flexibility than they offer. For example, these organizations need to exclude specific accounts like their emergency access or break-glass administration accounts from Conditional Access policies.
 

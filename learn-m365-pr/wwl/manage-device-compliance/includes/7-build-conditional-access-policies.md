@@ -54,7 +54,11 @@ The access controls portion of a Conditional Access policy controls how the poli
      -  Require approved client app.
      -  Require app protection policy.
      -  Require password change.
-     -  Require terms of use.Administrators can choose to require one of the previous controls or all selected controls using the following options. The default for multiple controls is to require all.
+     -  Require terms of use.
+    
+    Administrators can choose to require one of the previous controls or all selected controls using the following options. The default for multiple controls is to require all.
+    
+    
      -  Require all the selected controls (control AND control).
      -  Require one of the selected controls (control OR control).
  -  **Session**. Session controls can limit the experience:

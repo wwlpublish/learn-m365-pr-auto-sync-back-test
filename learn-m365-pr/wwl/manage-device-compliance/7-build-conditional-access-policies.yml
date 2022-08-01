@@ -6,7 +6,9 @@ metadata:
   description: "Build Conditional Access policies"
   ms.date: 08/01/2022
   author: wwlpublish
+  ms.author: tfrink
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 azureSandbox: false
 labModal: false
 durationInMinutes: 3

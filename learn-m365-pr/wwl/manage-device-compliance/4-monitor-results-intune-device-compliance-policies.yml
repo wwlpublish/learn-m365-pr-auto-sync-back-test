@@ -6,7 +6,9 @@ metadata:
   description: "Monitor results of your Intune device compliance policies"
   ms.date: 08/01/2022
   author: wwlpublish
+  ms.author: tfrink
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 azureSandbox: false
 labModal: false
 durationInMinutes: 3
@@ -23,6 +25,6 @@ quiz:
     - content: "The settings in the compliance policy will take precedence over the settings in the Intune configuration policy"
       isCorrect: false
       explanation: "Incorrect. This solution applies only if the conflict is between settings from an Intune configuration policy and a compliance policy. In this case, the conflict was between two compliance policies, so this solution doesn't apply."
-    - content: "The settings in the Intune configuration policy will appy if it's more secure than the compliance policy"
+    - content: "The settings in the Intune configuration policy will apply if it's more secure than the compliance policy"
       isCorrect: false
       explanation: "Incorrect. This solution doesn't apply if the conflict is between multiple compliance policies."
