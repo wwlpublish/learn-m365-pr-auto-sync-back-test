@@ -3,13 +3,13 @@ uid: learn.wwl.manage-device-compliance
 metadata:
   title: Manage device compliance
   description: "Manage device compliance"
-  ms.date: 09/15/2021
+  ms.date: 08/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage device compliance
-summary: This module examines device compliance policies, how organizations effectively use them, how to create policies and configure conditional users and groups, and how to manage and monitor devices once they're enrolled to MDM.
+summary: This module examines device compliance policies, how organizations effectively use them, how to create policies and configure conditional users and groups, how to build Conditional Access policies, and how to monitor enrolled devices.
 abstract: |
   By the end of this module, you will be able to:
   - Plan for device compliance by defining the rules and settings that must be configured on a device for it to be considered compliant
@@ -27,17 +27,21 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 subjects:
-- device-management
+- cloud-computing
+- communication
 - compliance
+- device-management
 units:
 - learn.wwl.manage-device-compliance.introduction
-- learn.wwl.manage-device-compliance.plan-for
-- learn.wwl.manage-device-compliance.configure-conditional-users-groups
-- learn.wwl.manage-device-compliance.create-conditional-access-policies
+- learn.wwl.manage-device-compliance.plan-device-compliance
+- learn.wwl.manage-device-compliance.implement-compliance-policies-intune-managed-devices
+- learn.wwl.manage-device-compliance.monitor-results-intune-device-compliance-policies
+- learn.wwl.manage-device-compliance.implement-user-device-groups-monitor-device-compliance
+- learn.wwl.manage-device-compliance.explore-conditional-access-policies
+- learn.wwl.manage-device-compliance.build-conditional-access-policies
 - learn.wwl.manage-device-compliance.monitor-enrolled-devices
 - learn.wwl.manage-device-compliance.knowledge-check
 - learn.wwl.manage-device-compliance.summary

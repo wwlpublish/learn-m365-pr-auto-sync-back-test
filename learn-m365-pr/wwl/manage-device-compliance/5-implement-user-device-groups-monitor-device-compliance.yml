@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-device-compliance.implement-user-device-groups-monitor-device-compliance
+title: Implement user and device groups to monitor device compliance
+metadata:
+  title: Implement user and device groups to monitor device compliance
+  description: "Implement user and device groups to monitor device compliance"
+  ms.date: 08/01/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-implement-user-device-groups-monitor-device-compliance.md)]

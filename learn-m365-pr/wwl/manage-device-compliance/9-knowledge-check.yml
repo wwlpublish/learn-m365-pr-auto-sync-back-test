@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-device-compliance.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 08/01/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/9-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "After a device is enrolled to Intune, a built-in device MDM agent automatically begins to sync the device details to Intune. Where can organizations view this device information?"
+    choices:
+    - content: "In the Azure AD admin center"
+      isCorrect: false
+      explanation: "Incorrect. This location isn't where organizations view this device information."
+    - content: "In the Microsoft 365 admin center"
+      isCorrect: false
+      explanation: "Incorrect. This location isn't where organizations view this device information."
+    - content: "In the Microsoft Endpoint Manager admin center"
+      isCorrect: true
+      explanation: "Correct. Organizations can view device information in the Microsoft Endpoint Manager admin center."
+  - content: "Lucerne Publishing uses both Conditional Access policies and device compliance policies. As the company's Enterprise Administrator, Patti Fernandez wants to create a compliance policy that determines how Intune treats devices that haven't been assigned a device compliance policy. What should Patti set the \"Mark devices with no compliance policy assigned as\" setting to ensure that only devices that are confirmed as compliant can access the company's resources?"
+    choices:
+    - content: "Compliant"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the correct value that Patti should select for the \"Mark devices with no compliance policy assigned as\" setting."
+    - content: "Not compliant"
+      isCorrect: true
+      explanation: "Correct. If an organization uses Conditional Access with its device compliance policies, it's recommended that it change the \"Mark devices with no compliance policy assigned as\" setting to Not compliant. Doing so ensures that only devices that are confirmed as compliant can access the company's resources."
+    - content: "Disabled"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't one of the options for the \"Mark devices with no compliance policy assigned as\" setting."
+  - content: "A conditional access policy can be created that includes many settings. Which of the following items is an Access Control setting that can be included in a conditional access policy?"
+    choices:
+    - content: "Persistent browser session"
+      isCorrect: true
+      explanation: "Correct. This access control allow users to remain signed in after closing and reopening their browser window."
+    - content: "Users and groups"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't an access control. It's an assignment control that defines who the policy will include or exclude."
+    - content: "Device state"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't an access control. It's used to exclude devices that are hybrid Azure AD joined, or marked a compliant in Intune."

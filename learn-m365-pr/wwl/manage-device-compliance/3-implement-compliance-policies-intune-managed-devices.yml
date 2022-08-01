@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-device-compliance.implement-compliance-policies-intune-managed-devices
+title: Implement compliance policies for Intune managed devices
+metadata:
+  title: Implement compliance policies for Intune managed devices
+  description: "Implement compliance policies for Intune managed devices"
+  ms.date: 08/01/2022
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-implement-compliance-policies-intune-managed-devices.md)]

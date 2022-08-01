@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-device-compliance.build-conditional-access-policies
+title: Build Conditional Access policies
+metadata:
+  title: Build Conditional Access policies
+  description: "Build Conditional Access policies"
+  ms.date: 08/01/2022
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-build-conditional-access-policies.md)]

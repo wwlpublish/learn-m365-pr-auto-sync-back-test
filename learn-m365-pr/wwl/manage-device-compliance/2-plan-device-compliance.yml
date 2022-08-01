@@ -1,20 +1,19 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.manage-device-compliance.plan-for
+uid: learn.wwl.manage-device-compliance.plan-device-compliance
 title: Plan for device compliance
 metadata:
   title: Plan for device compliance
   description: "Plan for device compliance"
-  ms.date: 09/15/2021
+  ms.date: 08/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 6
 content: |
-  [!include[](includes/2-plan-for.md)]
+  [!include[](includes/2-plan-device-compliance.md)]
 quiz:
   title: "Check your knowledge"
   questions:
@@ -22,10 +21,10 @@ quiz:
     choices:
     - content: "Leave the device marked as compliant for three more days, then mark the device as noncompliant if it still hasn't achieved compliance"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't an action that can be performed by a compliance policy. Try again."
+      explanation: "Incorrect. This item isn't an action that can be performed by a compliance policy."
     - content: "Leave the device marked as compliant for an organization-defined grace period, then mark the device as noncompliant if it still hasn't achieved compliance"
       isCorrect: false
-      explanation: "That's incorrect. his item isn't an action that can be performed by a compliance policy. Try again."
+      explanation: "Incorrect. his item isn't an action that can be performed by a compliance policy."
     - content: "Notify end users through email"
       isCorrect: true
-      explanation: "That's correct. Organizations can customize an email notification before sending it to the end user. Intune includes details about the noncompliant device in the email notification."
+      explanation: "Correct. Organizations can customize an email notification before sending it to the end user. Intune includes details about the noncompliant device in the email notification."
