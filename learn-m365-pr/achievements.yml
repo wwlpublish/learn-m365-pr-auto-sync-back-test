@@ -350,3 +350,8 @@ achievements:
   title: Implement Windows Information Protection
   summary: Implement Windows Information Protection
   iconUrl: /learn/achievements/windows-information-protection.svg
+- uid: learn.wwl.transition-from-skype-for-business-to-microsoft-teams.badge
+  type: badge
+  title: Transition from Skype for Business to Microsoft Teams
+  summary: Transition from Skype for Business to Microsoft Teams
+  iconUrl: /learn/achievements/teams-transition-from-skype.svg
