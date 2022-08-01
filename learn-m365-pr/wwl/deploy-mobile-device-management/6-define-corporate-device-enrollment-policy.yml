@@ -4,12 +4,13 @@ title: Define a corporate device enrollment policy
 metadata:
   title: Define a corporate device enrollment policy
   description: "Define a corporate device enrollment policy"
-  ms.date: 07/27/2021
+  ms.date: 08/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/6-define-corporate-device-enrollment-policy.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "They were automatically removed from Basic Mobility and Security 90 days after certificate expiration"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't what happened to the devices. Try again."
+      explanation: "Incorrect. This action isn't what happened to the devices."
     - content: "They were automatically removed from Intune 180 days after certificate expiration"
       isCorrect: true
-      explanation: "That's correct. This certificate is used to communicate with Intune, even if you're using Basic Mobility and Security (remember, Basic Mobility and Security is hosted by the Intune service and includes a subset of Intune services). The certificate is renewed automatically when the device communicates with Intune. If the certificate expires, the device is no longer managed by MDM. If the certificate isn't renewed, the device is automatically removed from Intune after 180 days."
+      explanation: "Correct. This certificate is used to communicate with Intune, even if you're using Basic Mobility and Security (remember, Basic Mobility and Security is hosted by the Intune service and includes a subset of Intune services). The certificate is renewed automatically when the device communicates with Intune. If the certificate expires, the device is no longer managed by MDM. If the certificate isn't renewed, the device is automatically removed from Intune after 180 days."
     - content: "The users could still access Microsoft 365 email and documents, but the devices were no longer managed by MDM"
       isCorrect: false
-      explanation: "That's incorrect. Devices must be managed before users can access company resources or manage settings on those devices. When the certificates expired, the devices were no longer managed by MDM. As a result, the devices could no longer access Microsoft 365 email and documents. Try again."
+      explanation: "Incorrect. Devices must be managed before users can access company resources or manage settings on those devices. When the certificates expired, the devices were no longer managed by MDM. As a result, the devices could no longer access Microsoft 365 email and documents."

@@ -3,7 +3,7 @@ uid: learn.wwl.deploy-mobile-device-management
 metadata:
   title: Deploy Mobile Device Management
   description: "Deploy Mobile Device Management"
-  ms.date: 07/27/2021
+  ms.date: 08/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -11,7 +11,7 @@ metadata:
 title: Deploy Mobile Device Management
 summary: This module examines how to deploy Mobile Device Management in Microsoft 365, including activating MDM services, configuring MDM policies, enrolling devices, adding client DNS records, and obtaining an APNS certificate for iOS devices.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Activate and deploy Mobile Device Management services in Microsoft 365
   - Configure domains for MDM by adding DNS records for clients to use Autodiscover when enrolling devices
   - Obtain an APNS certificate to enroll and manage iOS devices
@@ -28,10 +28,12 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 subjects:
+- cloud-computing
+- communication
+- compliance
 - device-management
 units:
 - learn.wwl.deploy-mobile-device-management.introduction

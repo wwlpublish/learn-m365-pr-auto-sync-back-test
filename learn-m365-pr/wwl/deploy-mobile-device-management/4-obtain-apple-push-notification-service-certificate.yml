@@ -4,12 +4,13 @@ title: Obtain an Apple Push Notification Service certificate for iOS devices
 metadata:
   title: Obtain an Apple Push Notification Service certificate for iOS devices
   description: "Obtain an Apple Push Notification Service certificate for iOS devices"
-  ms.date: 07/27/2021
+  ms.date: 08/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 5
 content: |
   [!include[](includes/4-obtain-apple-push-notification-service-certificate.md)]
@@ -18,12 +19,12 @@ quiz:
   questions:
   - content: "Northwind Traders has several users who use iOS devices. Allan Deyoung, Northwind's Enterprise Administrator, obtained an APNS certificate so that the iOS devices can be enrolled and managed by Northwind's MDM. Allan added the APNS certificate to Intune. It's now up to Northwind's users to enroll their iOS devices for MDM. How can they enroll their iOS devices to Northwind's MDM?"
     choices:
-    - content: "through the Company Portal app"
+    - content: "Through the Company Portal app"
       isCorrect: true
-      explanation: "That's correct. Northwind's users can enroll their Apple devices to MDM through the Company Portal app."
-    - content: "through the Configuration Manager portal"
+      explanation: "Correct. Northwind's users can enroll their Apple devices to MDM through the Company Portal app."
+    - content: "Through the Configuration Manager portal"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't a valid way of enrolling Apple devices to MDM. Try again."
-    - content: "through the Microsoft 365 Device Enrollment Program"
+      explanation: "Incorrect. This item isn't a valid way of enrolling Apple devices to MDM."
+    - content: "Through the Microsoft 365 Device Enrollment Program"
       isCorrect: false
-      explanation: "That's incorrect. The Device Enrollment Program is an Apple program and not a Microsoft 365 program. Try again."
+      explanation: "Incorrect. The Device Enrollment Program is an Apple program and not a Microsoft 365 program."

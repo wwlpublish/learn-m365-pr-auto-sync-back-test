@@ -4,12 +4,13 @@ title: Activate the Mobile Device Management services in Microsoft 365
 metadata:
   title: Activate the Mobile Device Management services in Microsoft 365
   description: "Activate the Mobile Device Management services in Microsoft 365"
-  ms.date: 07/27/2021
+  ms.date: 08/01/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/2-activate-mobile-device-management-services-microsoft-365.md)]
@@ -20,10 +21,10 @@ quiz:
     choices:
     - content: "Allan should contact Microsoft Support to make this change for Northwind Traders"
       isCorrect: false
-      explanation: "That's incorrect. In the past, this was the method of change. This item is no longer how organizations change the MDM authority. Try again."
+      explanation: "Incorrect. In the past, this was the method of change. This item is no longer how organizations change the MDM authority."
     - content: "Unenroll the existing managed devices, make the change through the Intune portal, then reenroll the devices"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't how Allan should make this change. Try again."
+      explanation: "Incorrect. This item isn't how Allan should make this change."
     - content: "Through the Configuration Manager console"
       isCorrect: true
-      explanation: "That's correct. If an organization wants to change its MDM authority setting, it can do so by using the Configuration Manager console."
+      explanation: "Correct. If an organization wants to change its MDM authority setting, it can do so by using the Configuration Manager console."
