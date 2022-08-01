@@ -27,7 +27,7 @@ quiz:
       explanation: "Incorrect. This feature is only available in Microsoft Intune."
     - content: "Remote actions"
       isCorrect: true
-      explanation: "Correct. Remote actions is available in both Microsoft Intune and Basic Mobility and Security, although limited functionality is provided in Basic Mobility and Security."
+      explanation: "Correct. Remote actions are available in both Microsoft Intune and Basic Mobility and Security, although limited functionality is provided in Basic Mobility and Security."
   - content: "As the Enterprise Administrator for Northwind Traders, Allan Deyoung wants to implement Microsoft Intune as Northwind's MDM authority. Allan likes the fact MDM can only allow access to e-mail and documents from devices that are managed by MDM and follow company policy. Which of the following items is an MDM policy used in Microsoft 365?"
     choices:
     - content: "Devices that aren't enrolled to MDM can't be prevented from accessing mailboxes, documents, and cloud apps"
