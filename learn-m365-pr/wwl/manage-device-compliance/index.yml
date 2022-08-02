@@ -36,7 +36,7 @@ subjects:
 - device-management
 units:
 - learn.wwl.manage-device-compliance.introduction
-- learn.wwl.manage-device-compliance.plan-device-compliance
+- learn.wwl.manage-device-compliance.plan-for
 - learn.wwl.manage-device-compliance.implement-compliance-policies-intune-managed-devices
 - learn.wwl.manage-device-compliance.monitor-results-intune-device-compliance-policies
 - learn.wwl.manage-device-compliance.implement-user-device-groups-monitor-device-compliance
