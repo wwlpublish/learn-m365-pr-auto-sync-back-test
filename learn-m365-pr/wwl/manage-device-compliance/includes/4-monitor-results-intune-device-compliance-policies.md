@@ -129,7 +129,7 @@ When you select the tile, it displays all devices without a compliance policy. I
 
 Organizations should be aware of the following issues when viewing this tile:
 
- -  With the **Mark devices with no compliance** policy assigned as the security setting, it's important to identify devices without a compliance policy. Then you can assign at least one compliance policy to them. The security setting is configurable in the Microsoft Endpoint Manager admin center. Navigate to **Devices** &gt; **Compliance policies** &gt; **Compliance policy settings**. Then, set **Mark devices with no compliance policy assigned as** to either **Compliant** or **Not compliant**.
+ -  With the **Mark devices with no compliance** policy assigned as the security setting, it's important to identify devices without a compliance policy. Then you can assign at least one compliance policy to them. The security setting is configurable in the Microsoft Endpoint Manager admin center. Navigate to **Devices** > **Compliance policies** > **Compliance policy settings**. Then, set **Mark devices with no compliance policy assigned as** to either **Compliant** or **Not compliant**.
  -  Users who are assigned a compliance policy of any type aren't shown in the report, regardless of device platform. For example, if you've assigned a Windows compliance policy to a user with an Android device, the device doesn't show up in the report. However, Intune considers that Android device non-compliant. To avoid issues, it's recommended that you create policies for each device platform and deploy them to all users.
 
 ### Per-policy device compliance chart
@@ -148,7 +148,7 @@ The **Setting compliance** chart displays all device compliance policy settings 
 
 ### View compliance reports
 
-In addition to using the charts on the **Compliance status** page, you can also navigate to **Reports** &gt; **Device compliance**.
+In addition to using the charts on the **Compliance status** page, you can also navigate to **Reports** > **Device compliance**.
 
 1.  Sign in to the **Microsoft Endpoint Manager admin center**.
 2.  In the **Microsoft Endpoint Manager admin center**, select **Devices** on the navigation pane.

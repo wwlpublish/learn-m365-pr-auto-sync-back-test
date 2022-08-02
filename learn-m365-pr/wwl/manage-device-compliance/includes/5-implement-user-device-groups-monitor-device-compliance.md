@@ -47,7 +47,7 @@ The following table identifies the attributes that can be used when creating a d
 | deviceId              | a valid Azure AD device ID                                                                           | (device.deviceId -eq "d4fe7726-5966-431c-b3b8-cddc8fdb717d")            |
 | objectId              | a valid Azure AD object ID                                                                           | (device.objectId -eq 76ad43c9-32c5-45e8-a272-7b58b58f596d")             |
 
-## **Exercise – Interactive demonstration**
+## Exercise – Interactive demonstration
 
 Select the following link to complete an interactive demonstration titled: [Create device categories](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-101/M11-L10-E5-T1/index.html?azure-portal=true).
 

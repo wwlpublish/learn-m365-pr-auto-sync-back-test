@@ -15,7 +15,7 @@ Conditional Access policies enable organizations to make decisions to enforce th
 :::image type="content" source="../media/conditional-access-signal-decision-enforcement-155d4ef4.png" alt-text="Diagram showing a conceptual Conditional Access signal plus a decision to get enforcement.":::
 
 
-Today, administrators are faced with two primary goals:<br>
+Today, administrators are faced with two primary goals:
 
  -  Empower users to be productive wherever they're at and whenever it's required.
  -  Protect the organization's assets.
@@ -114,7 +114,7 @@ To use Conditional Access policies, organizations must have an Azure AD Premium 
  -  Risk-based policies require access to Identity Protection, which is an Azure AD P2 feature.
  -  Other products and features that may interact with Conditional Access policies require appropriate licensing for those products and features.
 
-## **Exercise – Interactive demonstrations**
+## Exercise – Interactive demonstrations
 
 Select the following links to complete these interactive demonstrations:
 

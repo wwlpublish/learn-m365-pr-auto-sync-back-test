@@ -91,12 +91,12 @@ First, create a Conditional Access policy and assign your test group of users as
 6.  On the **New** page that appears, enter a name for the policy, such as **MFA Pilot**.
 7.  Under **Assignments**, select the current value under **Users or workload identities**.
     
-    :::image type="content" source="../media/tutorial-enable-azure-mfa-conditional-access-menu-users-b6113fb1.png" alt-text="Screenshot of the New page showing the current value under the Assignments field.":::
+    :::image type="content" source="../media/tutorial-menu-users-5604268c.png" alt-text="Screenshot of the New page showing the current value under the Assignments field.":::
     
 8.  Verify the **Users and groups** option is selected in the **What does this policy apply to?** setting that appears.
 9.  Under the **Include** tab, select the **Select users and groups** option, and then select the **Users and groups** check box that appears.
     
-    :::image type="content" source="../media/tutorial-enable-azure-mfa-conditional-access-menu-select-users-groups-be6a4b97.png" alt-text="Screenshot of the New page showing the select users and groups option in the Include tab.":::
+    :::image type="content" source="../media/tutorial-menu-select-users-groups-c5989d9a.png" alt-text="Screenshot of the New page showing the select users and groups option in the Include tab.":::
     
     
     Since no one is assigned yet, the **Select users and groups** pane appears.
@@ -123,11 +123,11 @@ In this example, the access controls will be configured to require multi-factor 
 
 1.  Under **Access controls**, select the current value under **Grant**, and then select **Grant access**.
     
-    :::image type="content" source="../media/tutorial-enable-azure-mfa-conditional-access-menu-grant-access-48666258.png" alt-text="Screenshot of the Conditional Access page, where you select Grant and then Grant access.":::
+    :::image type="content" source="../media/tutorial-menu-grant-access-bf01c957.png" alt-text="Screenshot of the Conditional Access page, where you select Grant and then Grant access.":::
     
 2.  Select **Require multi-factor authentication**, and then choose **Select**.
     
-    :::image type="content" source="../media/tutorial-enable-azure-mfa-conditional-access-select-require-mfa-0d903dd2.png" alt-text="Screenshot of the Conditional Access page, where you select Require multi-factor authentication.":::
+    :::image type="content" source="../media/tutorial-select-require-multifactor-authentication-c5cd6f46.png" alt-text="Screenshot of the Conditional Access page, where you select Require multi-factor authentication.":::
     
 
 #### Activate the policy
@@ -136,6 +136,6 @@ Conditional Access policies can be set to **Report-only** if you want to see how
 
 1.  Under **Enable policy**, select **On**.
     
-    :::image type="content" source="../media/tutorial-enable-azure-mfa-conditional-access-enable-policy-on-0cbd97ab.png" alt-text="Screenshot of the Conditional Access page, where you specify whether the policy is enabled.":::
+    :::image type="content" source="../media/tutorial-enable-policy-on-f52f9fab.png" alt-text="Screenshot of the Conditional Access page, where you specify whether the policy is enabled.":::
     
 2.  To apply the Conditional Access policy, select **Create**.

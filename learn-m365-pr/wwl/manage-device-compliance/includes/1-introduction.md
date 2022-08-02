@@ -17,4 +17,4 @@ After completing this module, you'll be able to:
  -  Plan for device compliance by defining the rules and settings that must be configured on a device for it to be considered compliant.
  -  Configure conditional users and groups for deploying profiles, policies, and apps.
  -  Create Conditional Access policies to implement automated access control decisions for accessing your cloud apps.
- -  Monitor enrolled devices to control their Intune activities and compliance status. 
+ -  Monitor enrolled devices to control their Intune activities and compliance status.

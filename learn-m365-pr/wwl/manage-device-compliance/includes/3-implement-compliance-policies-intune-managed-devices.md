@@ -18,7 +18,7 @@ There are two parts to compliance policies in Intune:
 
 Compliance policy settings are tenant-wide settings that determine how Intune’s compliance service interacts with an organization's devices. These settings are different from the settings that an organization configures in a device compliance policy.
 
-To manage the compliance policy settings, sign in to Microsoft Endpoint Manager admin center, then navigate to **Endpoint security** &gt; **Device compliance** &gt; **Compliance policy settings**.
+To manage the compliance policy settings, sign in to Microsoft Endpoint Manager admin center, then navigate to **Endpoint security** > **Device compliance** > **Compliance policy settings**.
 
 Compliance policy settings include the following settings:
 
@@ -51,7 +51,7 @@ Compliance policy settings include the following settings:
     > [!NOTE]
     > By default, the period is set to 30 days. Organizations can configure a period from 1 to 120 days.
     
-    Organizations can view details about device compliance with the validity period setting. Sign in to Microsoft Endpoint Manager admin center and navigate to **Devices** &gt; **Monitor** &gt; **Setting compliance**. This setting displays **Is active** in the **Setting** column. For more information about this and related compliance status views, see [Monitor device compliance](/mem/intune/protect/compliance-policy-monitor?azure-portal=true).
+    Organizations can view details about device compliance with the validity period setting. Sign in to Microsoft Endpoint Manager admin center and navigate to **Devices** > **Monitor** > **Setting compliance**. This setting displays **Is active** in the **Setting** column. For more information about this and related compliance status views, see [Monitor device compliance](/mem/intune/protect/compliance-policy-monitor?azure-portal=true).
 
 ### Device compliance policies
 
