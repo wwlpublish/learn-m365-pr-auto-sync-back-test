@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.enroll-devices-to-mobile-device-management.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 08/02/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/9-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso uses Microsoft Intune as its mobile device management provider. Contoso's Enterprise Administrator, Holly Dickson, recently learned that Intune deleted several devices. Upon further investigation, Holly discovered the devices' MDM certificates were never renewed and had expired. How many days must a device remain idle after its MDM certificate expires before Intune deletes the devices from its service?"
+    choices:
+    - content: "60 days"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the correct number of days that a device must remain idle after its MDM certificate expires before Intune deletes the device from its service."
+    - content: "90 days"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the correct number of days that a device must remain idle after its MDM certificate expires before Intune deletes the device from its service."
+    - content: "180 days"
+      isCorrect: true
+      explanation: "Correct. The MDM certificate renews automatically as long as enrolled devices communicate with the Microsoft Intune service. The MDM certificate doesn't renew for devices that have been wiped, or that fail to sync with Microsoft Intune for an extended period of time. Microsoft Intune deletes idle devices from record 180 days after the MDM certificate expires."
+  - content: "Lucerne Publishing wants to simplify Windows enrollment into Intune for its users. Lucerne has set up Microsoft Intune. It's now ready to enroll Windows devices into Intune. Lucerne wants to enable bulk enrollment. Which of the following featured is required to implement bulk enrollment?"
+    choices:
+    - content: "Azure AD Premium"
+      isCorrect: true
+      explanation: "Correct. To enable bulk enrollment, Azure AD Premium and Windows Configuration Designer are required."
+    - content: "Device Enrollment Manager"
+      isCorrect: false
+      explanation: "Incorrect. Device Enrollment Manager is a device enrollment method. It isn't a feature required to implement bulk enrollment."
+    - content: "Conditional Access"
+      isCorrect: false
+      explanation: "Incorrect. Conditional Access is a feature available in device enrollment methods. While it's available in bulk enrollment, it isn't a feature required to implement bulk enrollment."
+  - content: "Which of the following is a feature of Azure AD joined devices?"
+    choices:
+    - content: "Azure AD join can be configured for all Windows 10 and 11 devices"
+      isCorrect: false
+      explanation: "Incorrect. An organization can configure Azure AD join for all Windows 10 and 11 devices, except for Home editions."
+    - content: "Azure AD join can use an on-premises domain join"
+      isCorrect: false
+      explanation: "Incorrect. With Azure AD join, organizations can't use an on-premises domain join."
+    - content: "Azure AD join is suitable for both cloud-only and hybrid organizations"
+      isCorrect: true
+      explanation: "Correct. Any organization can deploy Azure AD joined devices no matter the size or industry. Azure AD join works even in hybrid environments, enabling access to both cloud and on-premises apps and resources."

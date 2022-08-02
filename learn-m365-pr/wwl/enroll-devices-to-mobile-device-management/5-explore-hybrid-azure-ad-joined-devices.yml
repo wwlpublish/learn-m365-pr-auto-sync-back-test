@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.enroll-devices-to-mobile-device-management.explore-hybrid-azure-ad-joined-devices
+title: Explore hybrid Azure AD joined devices
+metadata:
+  title: Explore hybrid Azure AD joined devices
+  description: "Explore hybrid Azure AD joined devices"
+  ms.date: 08/02/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-explore-hybrid-azure-ad-joined-devices.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following items is a feature of hybrid Azure AD joined devices?"
+    choices:
+    - content: "They can be Windows 10/11 devices, iOS/Android devices, and macOS devices"
+      isCorrect: false
+      explanation: "Incorrect. A hybrid Azure AD client device must be a Windows 10 or newer device, or a Windows 7 or 8.1 device."
+    - content: "They can be used in both hybrid and cloud-only organizations"
+      isCorrect: false
+      explanation: "Incorrect. They're only suitable for hybrid organizations with existing on-premises AD infrastructure."
+    - content: "They must be connected to an organization's on-premises domain controllers"
+      isCorrect: true
+      explanation: "Correct. Hybrid Azure AD joined devices require periodic network line of sight to an organization's on-premises domain controllers. Without this connection, devices become unusable. If this requirement is a concern, organizations should consider Azure AD joining their devices."
