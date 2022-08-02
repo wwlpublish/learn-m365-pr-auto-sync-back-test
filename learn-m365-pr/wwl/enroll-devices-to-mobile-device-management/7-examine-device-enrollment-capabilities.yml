@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.enroll-devices-to-mobile-device-management.examine-device-enrollment-capabilities
+title: Examine device enrollment capabilities
+metadata:
+  title: Examine device enrollment capabilities
+  description: "Examine device enrollment capabilities"
+  ms.date: 08/02/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/7-examine-device-enrollment-capabilities.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which enrollment method requires Azure AD Premium?"
+    choices:
+    - content: "Azure AD joined with Autopilot"
+      isCorrect: true
+      explanation: "Correct. The following enrollment methods require Azure AD Premium: Azure AD joined with Autopilot (including both user-driven mode and self-deploying mode), bulk enrollment, Group policy object, and Co-management."
+    - content: "Azure AD joined"
+      isCorrect: false
+      explanation: "Incorrect. This enrollment method doesn't require Azure AD Premium."
+    - content: "Bring your own device"
+      isCorrect: false
+      explanation: "Incorrect. This enrollment method doesn't require Azure AD Premium."
