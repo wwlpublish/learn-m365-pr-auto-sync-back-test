@@ -4774,6 +4774,86 @@
       "source_path": "learn-m365-pr/wwl/implement-windows-information-protection/6-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/03-choose-appropriate-coexistence-modes.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/05-configure-meeting-migration-service.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/01-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/06-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/04-set-coexistence-upgrade-settings.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/07-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/02-understand-upgrade-process-microsoft-teams.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/enroll-devices-to-mobile-device-management/2-enroll-windows-10-android-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/enroll-devices-to-mobile-device-management/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/enroll-devices-to-mobile-device-management/3-enroll-ios-devices-using-apple-device-enrollment-program.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/enroll-devices-to-mobile-device-management/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/enroll-devices-to-mobile-device-management/4-regulate-device-enrollment-by-using-enrollment-rules.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/enroll-devices-to-mobile-device-management/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/enroll-devices-to-mobile-device-management/5-examine-how-users-can-enroll-their-personal-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/enroll-devices-to-mobile-device-management/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/enroll-devices-to-mobile-device-management/6-enroll-devices-using-device-enrollment-manager-account.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/enroll-devices-to-mobile-device-management/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/enroll-devices-to-mobile-device-management/7-examine-need-for-multi-factor-authentication-to-secure-enrollment.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/enroll-devices-to-mobile-device-management/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/enroll-devices-to-mobile-device-management/8-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/enroll-devices-to-mobile-device-management/9-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/enroll-devices-to-mobile-device-management/9-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/enroll-devices-to-mobile-device-management/10-summary",
+      "redirect_document_id": true
     }
   ]
 }

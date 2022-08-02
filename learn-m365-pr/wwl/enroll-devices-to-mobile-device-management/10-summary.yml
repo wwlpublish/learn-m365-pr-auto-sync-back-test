@@ -1,16 +1,16 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.transition-from-skype-for-business-to-microsoft-teams.summary
+uid: learn.wwl.enroll-devices-to-mobile-device-management.summary
 title: Summary
 metadata:
   title: Summary
   description: "Summary"
-  ms.date: 10/25/2021
+  ms.date: 08/02/2022
   author: wwlpublish
-  ms.author: jennyche
+  ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
 labModal: false
-durationInMinutes: 1
+durationInMinutes: 2
 content: |
-  [!include[](includes/07-summary.md)]
+  [!include[](includes/10-summary.md)]

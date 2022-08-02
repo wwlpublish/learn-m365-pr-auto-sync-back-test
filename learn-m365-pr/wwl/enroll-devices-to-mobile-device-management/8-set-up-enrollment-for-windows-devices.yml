@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.enroll-devices-to-mobile-device-management.set-up-enrollment-for-windows-devices
+title: Set up enrollment for Windows devices
+metadata:
+  title: Set up enrollment for Windows devices
+  description: "Set up enrollment for Windows devices"
+  ms.date: 08/02/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/8-set-up-enrollment-for-windows-devices.md)]
