@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.enroll-devices-to-mobile-device-management.examine-azure-ad-registered-devices
+title: Examine Azure AD registered devices
+metadata:
+  title: Examine Azure AD registered devices
+  description: "Examine Azure AD registered devices"
+  ms.date: 08/02/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/3-examine-azure-ad-registered-devices.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Fabrikam has created an MDM policy in Intune that enables its manufacturing design engineers to remotely access the company's proprietary fabrication system. This system contains all the company's top secret design specs for its automotive parts division. What must Fabrikam do to enforce the Intune policy so that its design engineers can access the fabrication system remotely?"
+    choices:
+    - content: "Require biometric device sign-in"
+      isCorrect: false
+      explanation: "Incorrect. While this item is a valid sign-in option, it doesn't enforce Fabrikam's Inune policy."
+    - content: "Register each engineer's remote device with Azure AD"
+      isCorrect: true
+      explanation: "Correct. Once an engineer's remote device is registered with Azure AD, Fabrikam's required Intune policy will be enforced, and the engineer will have access to the company's fabrication system."
+    - content: "Enables Phone sign-in with the Microsoft Authenticator app"
+      isCorrect: false
+      explanation: "Incorrect. While this item is a valid capability of Azure AD registered devices, it doesn't enforce Fabrikam's Inune policy."
