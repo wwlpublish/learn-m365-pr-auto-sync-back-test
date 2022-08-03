@@ -4884,6 +4884,51 @@
       "source_path": "learn-m365-pr/wwl/manage-device-compliance/7-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/manage-device-compliance/10-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-advanced-ediscovery/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-advanced-ediscovery/6-analyze-data.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-advanced-ediscovery/5-analyze-workflow-example.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-advanced-ediscovery/2-explore.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-advanced-ediscovery/3-implement.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-advanced-ediscovery/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-advanced-ediscovery/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-advanced-ediscovery/4-manage-workflow.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-advanced-ediscovery/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
     }
   ]
 }

@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.manage-content-search-investigations-microsoft-365
 metadata:
-  title: Manage content search and investigations in Microsoft 365
-  description: Manage content search and investigations in Microsoft 365
-  ms.date: 07/26/2022
+  title: MS-101 Manage content search and investigations in Microsoft 365
+  description: MS-101 Manage content search and investigations in Microsoft 365
+  ms.date: 08/03/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Manage content search and investigations in Microsoft 365
+title: MS-101 Manage content search and investigations in Microsoft 365
 prerequisites: |
   - Students should have completed a role-based administrator collection such as Messaging, Teamwork, Security and Compliance, or Collaboration.
   - Students should have a proficient understanding of DNS and basic functional experience with Microsoft 365 services.
