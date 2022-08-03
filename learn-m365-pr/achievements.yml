@@ -355,3 +355,8 @@ achievements:
   title: Transition from Skype for Business to Microsoft Teams
   summary: Transition from Skype for Business to Microsoft Teams
   iconUrl: /learn/achievements/teams-transition-from-skype.svg
+- uid: learn.wwl.manage-advanced-ediscovery.badge
+  type: badge
+  title: Manage Advanced eDiscovery
+  summary: Manage Advanced eDiscovery
+  iconUrl: /learn/achievements/ediscovery-management.svg
