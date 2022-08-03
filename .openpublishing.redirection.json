@@ -4854,6 +4854,36 @@
       "source_path": "learn-m365-pr/wwl/enroll-devices-to-mobile-device-management/9-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/enroll-devices-to-mobile-device-management/10-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-device-compliance/2-plan-for.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-device-compliance/2-plan-device-compliance",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-device-compliance/3-configure-conditional-users-groups.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-device-compliance/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-device-compliance/4-create-conditional-access-policies.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-device-compliance/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-device-compliance/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-device-compliance/9-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-device-compliance/5-monitor-enrolled-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-device-compliance/8-monitor-enrolled-devices",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-device-compliance/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-device-compliance/10-summary",
+      "redirect_document_id": true
     }
   ]
 }

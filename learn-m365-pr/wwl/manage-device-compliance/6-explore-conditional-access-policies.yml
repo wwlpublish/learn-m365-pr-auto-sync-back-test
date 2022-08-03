@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-device-compliance.explore-conditional-access-policies
+title: Explore Conditional Access policies
+metadata:
+  title: Explore Conditional Access policies
+  description: "Explore Conditional Access policies"
+  ms.date: 08/02/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/6-explore-conditional-access-policies.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following items is a True statement regarding conditional access policies?"
+    choices:
+    - content: "Conditional Access policies are enforced after second-factor authentication is completed"
+      isCorrect: false
+      explanation: "Incorrect. Conditional Access policies are enforced after first-factor authentication is completed."
+    - content: "Conditional Access is intended to be an organization's first line of defense for scenarios like denial-of-service (DoS) attacks"
+      isCorrect: false
+      explanation: "Incorrect. Conditional Access isn't intended to be an organization's first line of defense for scenarios like denial-of-service (DoS) attacks."
+    - content: "Conditional Access can take into account common signals from first line of defense scenarios to determine access"
+      isCorrect: true
+      explanation: "Correct. Conditional Access policies are enforced after first-factor authentication is completed. Conditional Access isn't intended to be an organization's first line of defense for scenarios like denial-of-service (DoS) attacks. However, it can use signals from these events to determine access."
