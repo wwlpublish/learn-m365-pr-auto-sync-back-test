@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 08/03/2022
+  ms.date: 08/04/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Northwind Traders has multiple locations and wide area network (WAN) links. When deploying an operating system, an image, or any large amount of data, the company spends considerable time planning the deployment. It's goal is to always minimize the impact the deployment has on the performance of those using the network. When downloading and distributing large amounts of data, which Windows tool can Northwind Traders use that reduces bandwidth consumption by sharing the work of downloading these packages among multiple devices in its deployment?"
+  - content: "Northwind Traders has multiple locations and wide area network (WAN) links. When deploying an operating system, an image, or any large amount of data, the company spends considerable time planning the deployment. Its goal is to always minimize the impact the deployment has on the performance of those using the network. When downloading and distributing large amounts of data, which Windows tool can Northwind Traders use that reduces bandwidth consumption by sharing the work of downloading these packages among multiple devices in its deployment?"
     choices:
     - content: "Windows Update"
       isCorrect: false
