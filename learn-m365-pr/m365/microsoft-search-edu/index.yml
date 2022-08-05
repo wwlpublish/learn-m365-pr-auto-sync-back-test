@@ -3,7 +3,7 @@ uid: learn-m365.microsoft-search-edu
 metadata:
   title: Use and customize Microsoft Search for schools   
   description: Overview of the search experience for schools, including the custom results available to students and teachers, and the settings available to customize school and web results for your organization.
-  ms.date: 03/30/2022
+  ms.date: 08/05/2022
   author: dawholl
   ms.author: dawholl
   ms.topic: interactive-tutorial
@@ -19,7 +19,7 @@ abstract: |
 prerequisites: | 
   - Basic understanding of Microsoft Search
   - Access to the Microsoft 365 admin center
-iconUrl: /learn/achievements/generic-badge.svg 
+iconUrl: /learn/achievements/microsoft-search-edu.svg 
 levels:
 - beginner
 roles:
