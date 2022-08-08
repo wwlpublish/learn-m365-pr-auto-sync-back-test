@@ -14,7 +14,7 @@ When building your own custom queries, you can select from a list of predefined 
 
 Most of the templates are designed for Power BI. They typically include a download option to set up automatically refreshed reports in Power BI through an OData link. Setting up predefined templates can vary depending on what's required for its Power BI dashboard. Select the template you'd like to use in Power BI dashboards to view more details about setup and how to use the template in Power BI.
 
-:::image type="content" source="../media/query-designer-d92aaa52.png" alt-text="screenshot of the Query Designer page":::
+:::image type="content" source="../media/query-designer-d92aaa52.png" alt-text="screenshot of the Query Designer page" lightbox="../media/query-designer-d92aaa52.png":::
 
 
 Queries in the **Query designer** tool provide access to row-level data and customizable metrics. You can import the row-level data into other analysis tools to create custom analyses, models, and dashboards. Queries report the same underlying data, but the type of query determines the structure of the output. The most common query types include:
