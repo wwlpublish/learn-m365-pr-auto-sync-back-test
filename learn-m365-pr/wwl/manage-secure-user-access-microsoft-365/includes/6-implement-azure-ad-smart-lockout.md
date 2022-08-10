@@ -35,10 +35,10 @@ For example, if you want your Azure AD counter to be higher than AD, then Azure 
 
 An organization should complete the following instructions to verify its on-premises Active Directory account lockout policy:
 
-1.  Open the Group Policy Management tool.
-2.  Edit the group policy that includes the organization's account lockout policy. For example, the **Default Domain Policy**.
-3.  Browse to **Computer Configuration** &gt; **Policies** &gt; **Windows Settings** &gt; **Security Settings** &gt; **Account Policies** &gt; **Account Lockout Policy**.
-4.  Verify your **Account lockout threshold** and **Reset account lockout counter after** values.
+1. Open the Group Policy Management tool.
+1. Edit the group policy that includes the organization's account lockout policy. For example, the **Default Domain Policy**.
+1. Browse to **Computer Configuration** &gt; **Policies** &gt; **Windows Settings** &gt; **Security Settings** &gt; **Account Policies** &gt; **Account Lockout Policy**.
+1. Verify your **Account lockout threshold** and **Reset account lockout counter after** values.
 
 ### Manage Azure AD Smart Lockout values
 
@@ -46,9 +46,9 @@ Based on an organization's requirements, Smart Lockout values may need to be cus
 
 To check or modify the Smart Lockout values for an organization, complete the following steps:
 
-1.  Sign in to the Azure portal and navigate to **Azure Active Directory** &gt; **Authentication methods** &gt; **Password protection**.
-2.  Set the **Lockout threshold**, based on how many failed sign-ins are allowed on an account before its first lockout. The default is 10.
-3.  Set the **Lockout duration in seconds**, to the length in seconds of each lockout. The default is 60 seconds.
+1. Sign in to the Azure portal and navigate to **Azure Active Directory** &gt; **Authentication methods** &gt; **Password protection**.
+1. Set the **Lockout threshold**, based on how many failed sign-ins are allowed on an account before its first lockout. The default is 10.
+1. Set the **Lockout duration in seconds**, to the length in seconds of each lockout. The default is 60 seconds.
 
 > [!WARNING]
 > If the first sign-in after a lockout also fails, the account locks out again. When an account locks repeatedly, the lockout duration is increased.
