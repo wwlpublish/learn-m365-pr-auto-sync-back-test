@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-regulatory-privacy-requirements-microsoft-priva.risk-management-create-manage-policies
+title: Create and manage risk management policies
+metadata:
+  title: Create and manage risk management policies
+  description: "Create and manage risk management policies"
+  ms.date: 08/10/2022
+  author: wwlpublish
+  ms.author: hrasheed
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-risk-management-create-manage-policies.md)]

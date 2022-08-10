@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-regulatory-privacy-requirements-microsoft-priva.rights-requests-review-data
+title: Review data from rights requests
+metadata:
+  title: Review data from rights requests
+  description: "Review data from rights requests"
+  ms.date: 08/10/2022
+  author: wwlpublish
+  ms.author: hrasheed
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-rights-requests-review-data.md)]

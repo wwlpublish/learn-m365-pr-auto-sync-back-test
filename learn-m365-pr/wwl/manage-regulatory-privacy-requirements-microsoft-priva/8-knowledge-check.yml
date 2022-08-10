@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-regulatory-privacy-requirements-microsoft-priva.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 08/10/2022
+  author: wwlpublish
+  ms.author: hrasheed
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Manage regulatory and privacy requirements with Microsoft Priva"
+  questions:
+  - content: "What are the different types of risk management policy templates?"
+    choices:
+    - content: "Data loss prevention, Data in transit, and Data breach."
+      isCorrect: false
+      explanation: "Incorrect. These are not policy types for Microsoft Priva risk management."
+    - content: "Data overexposure, Data transfers, and Data minimization."
+      isCorrect: true
+      explanation: "Correct. These are the three policy types for Microsoft Priva risk management."
+    - content: "Data encryption, Data labelling, and Data anonymization."
+      isCorrect: false
+      explanation: "Incorrect. These are not policy types for Microsoft Priva risk management."
+  - content: "What is the connection between risk policies, alerts and issues?"
+    choices:
+    - content: "An issue is a specific type of policy alert that is described in the policy template."
+      isCorrect: false
+      explanation: "Incorrect. An issue is a case created from an alert that allows for further investigation. An alert is triggered when a policy is matched."
+    - content: "Issues and alerts are both specified in risk policies as different types of notifications when the policy is matched."
+      isCorrect: false
+      explanation: "Incorrect. An issue is a case created from an alert that allows for further investigation. An alert is triggered when a policy is matched."
+    - content: "Issues are created by admins while assessing alerts about policy matches to further investigate a case."
+      isCorrect: true
+      explanation: "Correct."
+  - content: "After a Subject Rights Request is completed, where do the results show up in the compliance portal?"
+    choices:
+    - content: "The **Data collected** tab."
+      isCorrect: true
+      explanation: "Correct."
+    - content: "**Request results** page."
+      isCorrect: false
+      explanation: "Incorrect. There is no **Request results** page in the compliance portal."
+    - content: "The Request Audit log."
+      isCorrect: false
+      explanation: "Incorrect. The audit log is a CSV file providing a record of the progression of stages for each subject rights request."

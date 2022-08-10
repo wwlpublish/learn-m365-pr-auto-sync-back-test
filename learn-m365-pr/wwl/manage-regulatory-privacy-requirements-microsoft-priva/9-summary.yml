@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-regulatory-privacy-requirements-microsoft-priva.summary
+title: Summary
+metadata:
+  title: Summary
+  description: "Summary"
+  ms.date: 08/10/2022
+  author: wwlpublish
+  ms.author: hrasheed
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/9-summary.md)]
