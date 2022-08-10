@@ -3,7 +3,7 @@ uid: learn-m365.microsoft-search-connectors
 metadata:
   title: Bring more of your data to Microsoft Search  
   description: Explore how Microsoft Graph and federated connectors can help bring more of your organization's data to Microsoft Search. Use custom verticals, results clusters, and other customizations to enhance the search experience for your users.
-  ms.date: 04/01/2022
+  ms.date: 08/10/2022
   author: dawholl
   ms.author: dawholl
   ms.topic: interactive-tutorial
@@ -19,7 +19,7 @@ abstract: |
 prerequisites: | 
   - Basic understanding of Microsoft Search
   - Access to the Microsoft 365 admin center
-iconUrl: /learn/achievements/generic-badge.svg 
+iconUrl: /learn/achievements/microsoft-search-connectors.svg 
 levels:
 - beginner
 roles:
