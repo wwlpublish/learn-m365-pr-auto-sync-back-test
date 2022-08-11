@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.manage-teams-voice
 metadata:
-  title: Manage Teams Phone
-  description: Manage Teams Phone
-  ms.date: 12/29/2021
+  title: MS-720 Manage Teams Phone
+  description: MS-720 Manage Teams Phone
+  ms.date: 08/11/2022
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Manage Teams Phone
+title: MS-720 Manage Teams Phone
 prerequisites: |
   - Learners should be familiar with telecommunication technologies and have experience in Microsoft Teams, Microsoft 365, and PowerShell.
   - Learners should have completed the
