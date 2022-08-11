@@ -21,7 +21,7 @@ quiz:
     choices:
     - content: "Microsoft Message Analyzer"
       isCorrect: false
-      explanation: "Incorrect. Message Analyzer is an effective tool for troubleshooting network issues."
+      explanation: "Incorrect. Message Analyzer is a deprecated tool that's no longer available for troubleshooting client connectivity issues."
     - content: "Microsoft Remote Connectivity Analyzer"
       isCorrect: false
       explanation: "Incorrect. While the Microsoft Remote Connectivity Analyzer creates a log file, the tool itself focuses primarily on client connectivity issues."
