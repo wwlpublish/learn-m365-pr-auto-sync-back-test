@@ -38,7 +38,7 @@ Open the **Azure** folder, then open the **AEDExport.zip** file, which contains 
 - **Export_load_file.csv** file: Contains the original file names so you can cross-reference them with the unique file names provided in the NativeFiles folder.
 - **Summary** text file: Provides a summary of the types of files in the data package, the number of files and their size.
 
-##### What to do with the folder contents
+#### What to do with the folder contents
 
 Open the **Azure** folder and the zip files as explained above. Your next task is to review the items, determine what to send to the data subject, and modify zip file contents if necessary.
 
@@ -54,7 +54,7 @@ The audit log is a CSV file providing a record of the progression of stages for 
 
 ## Tagged files reports
 
-The reports labeled as **Files tagged as...** are CSV files which list the content items to which tags were applied during the data review process. Tags are used to flag content items for further attention or action by the organization. Learn more about [settings for tags](priva-settings.md#data-review-tags).
+The reports labeled as **Files tagged as...** are CSV files which list the content items to which tags were applied during the data review process. Tags are used to flag content items for further attention or action by the organization. Learn more about [settings for tags](/privacy/priva/priva-settings#data-review-tags).
 
 ## Retention periods for reports and data
 

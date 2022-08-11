@@ -5,7 +5,7 @@ If your policy has been set up to send notifications to your users, content owne
 
 ## View current alerts and issues
 
-Priva’s **Overview** page provides a view into recent findings with updates about key areas of concern, such as the policies with the most matches and your currently active policy alerts. To learn more about the information this view provides, see [Find and visualize personal data in Priva](/privacy/priva/priva-data-profile.md).
+Priva’s **Overview** page provides a view into recent findings with updates about key areas of concern, such as the policies with the most matches and your currently active policy alerts. To learn more about the information this view provides, see [Find and visualize personal data in Priva](/privacy/priva/priva-data-profile).
 
 You can also access visualizations and details about your alerts and issues via the main **Policies** page. Select **View alerts** and **View issues** to see details.
 
