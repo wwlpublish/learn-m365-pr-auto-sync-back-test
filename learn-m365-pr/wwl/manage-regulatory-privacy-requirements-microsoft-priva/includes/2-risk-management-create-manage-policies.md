@@ -16,7 +16,7 @@ Privacy Risk Management has three policy templates designed to help you address 
 
 When creating a policy directly from a template, most settings will be chosen for you automatically to help you get up and running quickly. Follow these steps to create a policy with default settings using one of our templates:
 
-1. In the [Microsoft Purview compliance center](https://compliance.microsoft.com/), find Priva Privacy Risk Management in the left navigation and select **Policies**.
+1. In the [Microsoft Purview compliance portal](https://compliance.microsoft.com/), find Priva Privacy Risk Management in the left navigation and select **Policies**.
 
 2. Select **Create a policy** at the upper right corner of the screen, which displays a flyout pane listing all policy creation options.
 

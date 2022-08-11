@@ -21,13 +21,13 @@ quiz:
     choices:
     - content: "Data loss prevention, Data in transit, and Data breach."
       isCorrect: false
-      explanation: "Incorrect. These are not policy types for Microsoft Priva risk management."
+      explanation: "Incorrect. The listed items are not policy types for Microsoft Priva risk management."
     - content: "Data overexposure, Data transfers, and Data minimization."
       isCorrect: true
-      explanation: "Correct. These are the three policy types for Microsoft Priva risk management."
-    - content: "Data encryption, Data labelling, and Data anonymization."
+      explanation: "Correct. Data overexposure, Data transfers, and Data minimization are the three policy types for Microsoft Priva risk management."
+    - content: "Data encryption, Data labeling, and Data anonymization."
       isCorrect: false
-      explanation: "Incorrect. These are not policy types for Microsoft Priva risk management."
+      explanation: "Incorrect. The listed items are not policy types for Microsoft Priva risk management."
   - content: "What is the connection between risk policies, alerts and issues?"
     choices:
     - content: "An issue is a specific type of policy alert that is described in the policy template."
@@ -46,7 +46,7 @@ quiz:
       explanation: "Correct."
     - content: "**Request results** page."
       isCorrect: false
-      explanation: "Incorrect. There is no **Request results** page in the compliance portal."
+      explanation: "Incorrect. The Microsoft Purview compliance portal does not have a **Request results**."
     - content: "The Request Audit log."
       isCorrect: false
       explanation: "Incorrect. The audit log is a CSV file providing a record of the progression of stages for each subject rights request."

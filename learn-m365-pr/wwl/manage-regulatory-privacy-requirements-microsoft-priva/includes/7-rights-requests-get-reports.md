@@ -5,8 +5,8 @@ After completing your data review for a subject rights request, the next stage i
 After you select **Complete review** in the **Review data** stage of the subject rights request, the final reports for the request will start generating automatically. On the **Reports** tab of the subject rights requests details page, the **Status** column indicates when report generation is **In progress** and when a report is **Ready to download**. It can take up to 30 minutes to finish creating the reports.
 
 Reports are divided into two sections:
-1. **Reports for the data subject**: These reports contain information that can be returned to the data subject as part of request fulfillment. This is where you'll find the **data package** containing files for you to send to the data subject.
-2. **Reports for internal use**: These reports are for your organization's internal records related to the subject rights request. They include an audit log and a list of all the files you applied tags to during the data review in order to follow up or take further action on.
+* **Reports for the data subject**: These reports contain information that can be returned to the data subject as part of request fulfillment. This is where you'll find the **data package** containing files for you to send to the data subject.
+* **Reports for internal use**: These reports are for your organization's internal records related to the subject rights request. They include an audit log and a list of all the files you applied tags to during the data review in order to follow up or take further action on.
 
 ## Data package
 

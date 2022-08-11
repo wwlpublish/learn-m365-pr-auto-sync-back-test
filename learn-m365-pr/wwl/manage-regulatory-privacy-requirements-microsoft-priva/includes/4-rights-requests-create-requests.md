@@ -7,11 +7,9 @@ Users holding a role in the Subject Rights Request Administrators role group oth
 
 Priva Subject Rights Requests supports three different types of requests:
 
-1. **Access**: Provides a summary of the data subject’s personal information held by your organization in Microsoft 365.
-
-2. **Export**: Provides a summary and an exported file of content items that contain the data subject’s personal information. These are the items reviewed and marked as **Included** during your review of the data collected by your search settings.
-
-3. **Tagged list for follow up**: Generates a summary of any files that were tagged during data review that may require more action outside of Priva. For example, you may need to facilitate deletion of the data subject's personal information according to their request. You can view the included tags and set up custom tags for your organization in [Priva settings](/privacy/priva/priva-settings).
+* **Access**: Provides a summary of the data subject’s personal information held by your organization in Microsoft 365.
+* **Export**: Provides a summary and an exported file of content items that contain the data subject’s personal information. These are the items reviewed and marked as **Included** during your review of the data collected by your search settings.
+* **Tagged list for follow up**: Generates a summary of any files that were tagged during data review that may require more action outside of Priva. For example, you may need to facilitate deletion of the data subject's personal information according to their request. You can view the included tags and set up custom tags for your organization in [Priva settings](/privacy/priva/priva-settings).
 
 ## Getting started with your first request
 
@@ -46,7 +44,7 @@ Each template allows you to select the type of relationship between the data sub
 
 #### Steps for creating a request from a template
 
-1. In the [Microsoft Purview compliance center](https://compliance.microsoft.com/), select **Priva Subject Rights Requests** in the left navigation.
+1. In the [Microsoft Purview compliance portal](https://compliance.microsoft.com/), select **Priva Subject Rights Requests** in the left navigation.
 
 2. In the top right corner of the screen, select **Create a request**.
 

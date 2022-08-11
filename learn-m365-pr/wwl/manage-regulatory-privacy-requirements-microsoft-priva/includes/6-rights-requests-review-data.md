@@ -55,19 +55,20 @@ The five tags that you manage in **Settings** apply to all of your subject right
 
 **To add or remove tags:**
 
-- Select the item from the list on the **Data collected** tab of the request.
-- In the item preview area to the right of the list, select the **Apply tags** button on the bottom row. You can also select the three dots to the right of the item name and select the **Apply tags** option.
-- A flyout pane appears with the list of tags. Check the box next to any of the tags you want to apply to the item. Unchecking a checked box will remove the tag.
-- When you're done select **Save**, which saves your tag selections and closes the flyout pane.
+1. Select the item from the list on the **Data collected** tab of the request.
+1. In the item preview area to the right of the list, select the **Apply tags** button on the bottom row. You can also select the three dots to the right of the item name and select the **Apply tags** option.
+1. A flyout pane appears with the list of tags. Check the box next to any of the tags you want to apply to the item. Unchecking a checked box will remove the tag.
+1. When you're done select **Save**, which saves your tag selections and closes the flyout pane.
 
 **To add custom tags or update tag descriptions:**
-- From the Subject Rights Requests page, select **Settings** in the upper right corner of your screen to get to your Priva settings.
-- Go to the **Data review tags** page, and select the tag to input a description and, for the custom tags, a name. Learn more about [tag settings](/privacy/priva/priva-settings#data-review-tags).
+1. From the Subject Rights Requests page, select **Settings** in the upper right corner of your screen to get to your Priva settings.
+1. Go to the **Data review tags** page, and select the tag to input a description and, for the custom tags, a name. Learn more about [tag settings](/privacy/priva/priva-settings#data-review-tags).
 
 **To export a list of tagged items:**
-- Go to the **Data collected** page in a subject rights request.
-- Above the list of items, select the **Export** command.
-- An Excel file will download which shows the properties for all the items collected by the search for the request. Find the **Tags** column to identify and sort the items by tag.
+
+1. Go to the **Data collected** page in a subject rights request.
+1. Above the list of items, select the **Export** command.
+1. An Excel file will download which shows the properties for all the items collected by the search for the request. Find the **Tags** column to identify and sort the items by tag.
 
 ### Use the Annotate command to redact text
 

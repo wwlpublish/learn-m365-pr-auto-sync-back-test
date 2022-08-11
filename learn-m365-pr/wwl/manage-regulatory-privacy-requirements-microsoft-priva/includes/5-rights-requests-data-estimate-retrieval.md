@@ -6,9 +6,8 @@ Your request will move automatically to the next stage of **Data retrieval**, wh
 
 There are two reasons why a request will pause at the **Data estimate** stage:
 
-1. When creating a request, you can choose to get an estimate first. See step 6 of [creating a custom request](/privacy/priva/subject-rights-requests-create#custom-setup-guided-process-to-choose-all-settings) for details.
-
-2. If the estimate is projected to return a large number of items to review (over 10K items), the workflow pauses. At this point you can preview the results and decide whether to [edit your search query](/privacy/priva/subject-rights-requests-create#refining-your-search) or continue to retrieve the identified items.
+* When creating a request, you can choose to get an estimate first. See step 6 of [creating a custom request](/privacy/priva/subject-rights-requests-create#custom-setup-guided-process-to-choose-all-settings) for details.
+* If the estimate is projected to return a large number of items to review (over 10K items), the workflow pauses. At this point you can preview the results and decide whether to [edit your search query](/privacy/priva/subject-rights-requests-create#refining-your-search) or continue to retrieve the identified items.
 
 When the request is paused at **Data estimate**, you'll see a card on your request's details page with summary information about the number of items, volume, their location, and a link allowing you to **View search query details**.
 
