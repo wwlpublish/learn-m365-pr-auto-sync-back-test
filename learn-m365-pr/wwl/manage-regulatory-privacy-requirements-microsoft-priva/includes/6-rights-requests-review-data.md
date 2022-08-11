@@ -1,10 +1,12 @@
 After data has been collected for a subject rights request, the next stage is to review the content items, decide what items to include or exclude as part of the request, and redact information if necessary.
 
+:::image type="content" source="../media/review-data-priva-rights-request.png" alt-text="Screenshot showing the results of a Subject Rights Request." lightbox="../media/review-data-priva-rights-request.png":::
+
 ## Tasks for completing the data review
 
 The **Review data** stage is when collaborators examine the content items on the **Data collected** tab. A Teams channel will automatically be set up to facilitate content review by all stakeholders. See [Collaboration for data review](#collaboration-for-data-review) below for more details. The essential tasks for the data review step are outlined below.
 
-#### Import additional files
+### Import additional files
 
 You may want to bring additional content items into the request for your data review. For example, files stored outside your organization's Microsoft 365 environment, or other items you think are relevant but weren't scoped in the search. You can import files into the **Data collected** tab of an individual request to be reviewed and worked on, along with the other items. Imported files are added to the same Azure Blob Storage container with the other content items retrieved from your search.
 
@@ -30,20 +32,20 @@ You'll see a confirmation message above the **Data collected** tab when the impo
 
 - If an import is already in progress for one user, the same user won't be able to upload additional files until the previous upload process finishes. Multiple users can upload files to the same request simultaneously. However, the more uploads that are in progress, the longer they'll take to complete. Status messages on the request will inform when an upload has finished and files are ready to review.
 
-#### Mark items as Include or Exclude and add notes
+### Mark items as Include or Exclude and add notes
 
 Review the items listed on the request's **Data collected** tab.  If you decide that the item should be included as part of the final report back to the data subject, select **Include** on the command bar across the top of the list of items. You can also select the blue **Include** button in the content review area to the right of the list of items. When you select **Include**, a flyout pane appears with an option to add notes. When you're done, select **Submit** to save the item's review status as **Include**.
 
 If the item doesn't belong as part of the request, you can select **Exclude** on the command bar or the **Exclude** button in the content review area. Marking an item explicitly as **Exclude** is often required for internal records.
 
-By default, only items you mark as **Include** will be included in the [final reports that are generated for the data subject](subject-rights-requests-reports.md).
+By default, only items you mark as **Include** will be included in the [final reports that are generated for the data subject](/privacy/priva/subject-rights-requests-reports).
 
 > [!NOTE]
 > If you mark an item as **Exclude**, you're required to add a note as justification for why it doesn't pertain to the subject rights request. Notes are for internal purposes and aren't included in final reports.
 
 If the content appears to be a false positive for your search query, select **Not a match** and on the flyout pane, select **Confirm**. This action will flag the item as something that shouldn't have been detected in the search.
 
-#### Apply tags
+### Apply tags
 
 Tags can be used to help you identify items that need further attention. Priva provides three default tags—**Follow-up**, **Delete**, and **Update**—for which you can set a description. Priva also provides two custom tags that you can name and describe.
 
@@ -60,17 +62,18 @@ The five tags that you manage in **Settings** apply to all of your subject right
 
 **To add custom tags or update tag descriptions:**
 - From the Subject Rights Requests page, select **Settings** in the upper right corner of your screen to get to your Priva settings.
-- Go to the **Data review tags** page, and select the tag to input a description and, for the custom tags, a name. Learn more about [tag settings](priva-settings.md#data-review-tags).
+- Go to the **Data review tags** page, and select the tag to input a description and, for the custom tags, a name. Learn more about [tag settings](/privacy/priva/priva-settings#data-review-tags).
 
 **To export a list of tagged items:**
 - Go to the **Data collected** page in a subject rights request.
 - Above the list of items, select the **Export** command.
 - An Excel file will download which shows the properties for all the items collected by the search for the request. Find the **Tags** column to identify and sort the items by tag.
 
-#### Use the Annotate command to redact text
+### Use the Annotate command to redact text
+
 The **Annotate** command in the content review area lets you create inline mark-ups and redact data within a content item. For example, if you need to include a file for an individual that also contains the personal information of a different data subject, you can use **Area redaction** under the Drawing button in the command bar to black out all information that doesn't pertain to the person who made the request. When your edits are complete, select **Include** to add the redacted file to the request. Annotation creates a copy of the file, which is stored in your Azure blob. The original file remains unaltered and stored in its original location.
 
-#### Enter notes about a file
+### Enter notes about a file
 To add or review notes on an item, select the item from its row and go to the **File Notes** tab in the content review area to the right. You can also use the **Add file note** option to create a new comment. To review or add notes at an overall case level, go to the main **Notes** tab above and use **Add case note**. These notes will be visible to users working on the request, but won't be included in the final report or otherwise shared with the data subject.
 
 ## Collaboration for data review

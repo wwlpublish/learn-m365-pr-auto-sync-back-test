@@ -6,13 +6,11 @@ Your request will move automatically to the next stage of **Data retrieval**, wh
 
 There are two reasons why a request will pause at the **Data estimate** stage:
 
-1. When creating a request, you can choose to get an estimate first. See step 6 of [creating a custom request](subject-rights-requests-create.md#custom-setup-guided-process-to-choose-all-settings) for details.
+1. When creating a request, you can choose to get an estimate first. See step 6 of [creating a custom request](/privacy/priva/subject-rights-requests-create#custom-setup-guided-process-to-choose-all-settings) for details.
 
-2. If the estimate is projected to return a large number of items to review (over 10K items), the workflow pauses. At this point you can preview the results and decide whether to [edit your search query](subject-rights-requests-create.md#refining-your-search) or continue to retrieve the identified items.
+2. If the estimate is projected to return a large number of items to review (over 10K items), the workflow pauses. At this point you can preview the results and decide whether to [edit your search query](/privacy/priva/subject-rights-requests-create#refining-your-search) or continue to retrieve the identified items.
 
 When the request is paused at **Data estimate**, you'll see a card on your request's details page with summary information about the number of items, volume, their location, and a link allowing you to **View search query details**.
-
-![Data estimate card.](../media/priva-srr-data-estimate.png)
 
 ## View and edit search queries
 
@@ -21,7 +19,7 @@ To see detailed information about the request's search, select **View search que
 - Select **Preview results** to get a preview of the type of content that will be returned under the current search settings.
 - Select **Edit search query** to change the search settings.
 
-When you select **Edit search query**, you'll be led through a guided process to change or add properties to identify the data subject, change conditions, and adjust the locations you want the search to cover. Follow the instructions at [Refining your search](subject-rights-requests-create.md#refining-your-search) for more detailed information. You can review the final version of your new search query, then select **Save** to begin the search again.
+When you select **Edit search query**, you'll be led through a guided process to change or add properties to identify the data subject, change conditions, and adjust the locations you want the search to cover. Follow the instructions at [Refining your search](/privacy/priva/subject-rights-requests-create#refining-your-search) for more detailed information. You can review the final version of your new search query, then select **Save** to begin the search again.
 
 A new estimate will be generated and the status of the request will go back to **Data estimate**. The new search may take up to 60 minutes to complete. Once it’s done, you’ll see updated results on the request’s details page.
 

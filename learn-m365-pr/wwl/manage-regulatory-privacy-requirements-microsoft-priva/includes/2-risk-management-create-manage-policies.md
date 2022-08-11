@@ -32,6 +32,8 @@ The policy will start running in test mode, meaning no alerts or notifications w
 
 The custom policy option is a guided process for creating a policy. You'll start by choosing a template, and then walk through each setting to customize your policy. The instructions below give details about basic settings that apply to each of the three policy types. Where the settings differ by policy type, we'll link to specific instructions.
 
+:::image type="content" source="../media/create-manage-priva-policies.png" alt-text="Screenshot showing creating a risk management policy in the Microsoft Priva portal." lightbox="../media/create-manage-priva-policies.png":::
+
 Follow the steps below to create a policy:
 
 1. In the [Microsoft Purview compliance portal](https://compliance.microsoft.com/), locate Priva Privacy Risk Management in the left navigation. From the drop-down menu, select **Policies**.
@@ -68,19 +70,7 @@ When creating or editing a policy, we'll ask you to select which types of data t
 
 If you select from the existing classification groups, you can't also select individual types or create your own groups. For the most flexibility, choose individual sensitive info types. To utilize the most common standards, choose from the classification groups. Learn more about each data type below.
 
-### Classification groups
-
-Classification groups are groupings of [sensitive information types](/microsoft-365/compliance/sensitive-information-type-entity-definitions) that are used to detect content related to personal data or specific regulations.
-
-When you select this option on the **Data to monitor** page, you'll need to select **+Add classification groups** and choose one or more groups from the list that appears on a flyout pane.
-
-### Individual sensitive information types
-
-By choosing specific [sensitive information types](/microsoft-365/compliance/sensitive-information-type-entity-definitions), like Social Security numbers or driver’s license information, you can customize your own group or groups of data to look out for. You can select from the complete list of sensitive information types within Privacy Risk Management. Each information type has its own properties.
-
-When you select this option on the **Data to monitor** page, a selector appears with **Default** listed as a name for the group of sensitive info types you'll select. Keep or edit this group name, then select **Add** to select one or more sensitive info types from the complete list within Privacy Risk Management. Each information type has its own properties and recommended settings, which you can discover by selecting the info icon to the right of the confidence drop-down menu after you've added the info type. You can also change the instance count for each sensitive info type. This setting designates the number of unique instances of each sensitive info type you want your policy to detect.
-
-If you create more than one group, the wizard lets you select how the groups should relate (an "and" or "or" relation) and define their order of operations.
+For more information on data types to monitor, see [Choose data to monitor](/privacy/priva/risk-management-policies#choose-data-to-monitor).
 
 ## Choose users and groups
 
@@ -109,18 +99,15 @@ In this step, you'll designate where in your Microsoft 365 environment you want 
 
     - **Specific SharePoint sites**: this selection asks you to designate specific sites for the policy to apply to. You can enter the URL of a specific site directly in the URL box, then select the **+** sign to add it to your list of sites. You can also select **Choose sites**, and from the flyout pane, search for and select from the list of sites you have access to. Check the box that appears when you hover over the site you want to select. After making your selections, select **Add**.  All your chosen sites will be listed at the bottom of the **Locations** page.
     
-    > [!TIP]
-    > If you need help identifying the SharePoint sites in your organization, visit [Manage sites in the SharePoint admin center](/sharepoint/manage-sites-in-new-admin-center).
-
 After you finish designating locations, select **Next**.
 
 ## Set conditions
 
 The conditions for detecting policy matches differ based on the policy template.
 
-- **Data overexposure**: Refer to the conditions step in the [data exposure policy custom setup instructions](risk-management-policy-data-overexposure.md#custom-setup-guided-policy-creation-process).
-- **Data transfers**: Refer to the conditions step in the [data transfers policy custom setup instructions](risk-management-policy-data-transfer.md#custom-setup-guided-policy-creation-process).
-- **Data minimization**: Refer to the conditions step in the [data minimization policy custom setup instructions](risk-management-policy-data-minimization.md#custom-setup-guided-policy-creation-process).
+- **Data overexposure**: Refer to the conditions step in the [data exposure policy custom setup instructions](/privacy/priva/risk-management-policy-data-overexposure#custom-setup-guided-policy-creation-process).
+- **Data transfers**: Refer to the conditions step in the [data transfers policy custom setup instructions](/privacy/priva/risk-management-policy-data-transfer#custom-setup-guided-policy-creation-process).
+- **Data minimization**: Refer to the conditions step in the [data minimization policy custom setup instructions](/privacy/priva/risk-management-policy-data-minimization#custom-setup-guided-policy-creation-process).
 
 ## Define outcomes: user email notifications and tips
 
@@ -130,11 +117,11 @@ Data transfer policies have an additional option to show tips to users in Teams 
 
 These notifications can be useful opportunities to prevent issues from escalating, and to build users' skills and confidence in adopting safe data handling practices.
 
-Visit [User notifications in Privacy Risk Management](risk-management-notifications.md) to learn more about working with user notifications.
+Visit [User notifications in Privacy Risk Management](/privacy/priva/risk-management-notifications) to learn more about working with user notifications.
 
 ## Set alerts
 
-Alerts help admins know when a user event matches a policy's conditions. Setting up alerts is optional and you control how often alerts are generated, the threshold that must be reached before an alert is generated, and the alert's severity. Alerts are displayed on the **Alerts** card on the **Policies** page. Learn more about [viewing, investigating, and remediating alerts](risk-management-alerts.md).
+Alerts help admins know when a user event matches a policy's conditions. Setting up alerts is optional and you control how often alerts are generated, the threshold that must be reached before an alert is generated, and the alert's severity. Alerts are displayed on the **Alerts** card on the **Policies** page. Learn more about [viewing, investigating, and remediating alerts](/privacy/priva/risk-management-alerts).
 
 #### Turn on alerts
 
@@ -158,15 +145,6 @@ When you create a policy, the default setting is to start it in test mode. This 
 - No user email notifications will be sent when policy matches are detected. However, you'll see insights on the policy's details page showing which users are associated to policy matches.
 
 Test mode allows you to look for matches from the last 30 days of user activity. Using these insights, you can gauge the policy’s behavior and review the types of alerts that may be generated when the policy is on.
-
-We recommend testing your policy for at least five days to help you understand the type and volume of matches it'll generate. You can [edit the policy](#edit-a-policy) while it's in test mode so that you can monitor how the changes affect its performance before turning it on. For example, you may find that the policy is too broad and its conditions need adjusting. Or you may realize based on activity it detects that alerts won't be generated in a time frame that's useful to you.
-
-The policy's details page indicates how many days the test has been running. You'll see how many matches have been found by location, how many user events matching the policy's conditions have been detected, and the personal data types that have detected by policy matches.
-
-> [!NOTE]
-> If you toggle the **Run in test mode** switch to the **Off** position, *this will turn on your policy* when you're done creating it. This means any alerts or user notifications you set up will start generating when matches are detected.
-
-When you're satisfied with your policy's settings and are ready to turn it on, select the blue **Turn on policy** button. The policy will now be active and will generate any alerts and user notifications you set up.
 
 ## Turn on a policy
 
@@ -205,9 +183,9 @@ The policy status card will indicate whether your policy is in one of three stat
 
 - **User actions taken**: This metric shows the number of remediation actions taken by users when prompted from a notification email out of the total number of notifications sent. For example, 8/10 would represent that out of 10 user notifications sent, users performed a remediation action in 8 instances.
 
-- **User resolution rate**: This metric is rate at which remediation actions are taken by users based on the number of notifications generated. If the percentage is low, you may want to [edit the email content](risk-management-notifications.md#preview-and-customize-email-content), or closely examine the matches to determine if the policy's detecting the intended activity.
+- **User resolution rate**: This metric is rate at which remediation actions are taken by users based on the number of notifications generated. If the percentage is low, you may want to [edit the email content](/privacy/priva/risk-management-notifications#preview-and-customize-email-content), or closely examine the matches to determine if the policy's detecting the intended activity.
 
-- **Admin actions taken**: This metric shows the number of remediation actions taken by admins when an alert is generated by the policy. Learn more about [how to take actions on alerts](risk-management-alerts.md#manage-alerts).
+- **Admin actions taken**: This metric shows the number of remediation actions taken by admins when an alert is generated by the policy. Learn more about [how to take actions on alerts](/privacy/priva/risk-management-alerts#manage-alerts).
 
 - **Admin resolution rate**: This metric is rate at which remediation actions are taken by admins based on the number of alerts.
 
@@ -226,9 +204,6 @@ The **Matches by user** card lists the top users whose actions have triggered a 
 #### Matches by data type
 
 The **Matches by data type** card displays the types of personal data detected by policy matches, and the amount of each type. The pie chart helps visually demonstrate whether a certain type of personal data, for example Social Security numbers or credit card numbers, is predominantly represented in the risk scenarios you're trying to identify.
-
-> [!TIP]
-> When taking a holistic look at the locations, types of data, and number of users involved in policy matches, you may get a better sense as to the types of training and data protection measures needed to help your organization secure the personal data it stores.
 
 ### Matched items tab
 

@@ -11,22 +11,24 @@ Priva Subject Rights Requests supports three different types of requests:
 
 2. **Export**: Provides a summary and an exported file of content items that contain the data subject’s personal information. These are the items reviewed and marked as **Included** during your review of the data collected by your search settings.
 
-3. **Tagged list for follow up**: Generates a summary of any files that were tagged during data review that may require more action outside of Priva. For example, you may need to facilitate deletion of the data subject's personal information according to their request. You can view the included tags and set up custom tags for your organization in [Priva settings](priva-settings.md).
+3. **Tagged list for follow up**: Generates a summary of any files that were tagged during data review that may require more action outside of Priva. For example, you may need to facilitate deletion of the data subject's personal information according to their request. You can view the included tags and set up custom tags for your organization in [Priva settings](/privacy/priva/priva-settings).
 
 ## Getting started with your first request
+
+:::image type="content" source="../media/create-priva-data-subject-request.png" alt-text="Screenshot showing creating a new Subject Rights Request." lightbox="../media/create-priva-data-subject-request.png":::
 
 When you start a trial or subscription of Subject Rights Requests, we offer a simple, out-of-box setup for your first request that uses default settings. This setup can help you explore the subject rights request workflow and get familiar with its functionality.
 
 The first time you arrive at the Subject Rights Requests page, you'll see a banner at the top with a **Get started** button. When a user selects this button, a flyout pane appears with that user's information pre-populated into the name and email fields, and shows all the default settings.
 
-**Exploring request functionality with your information**: Trying out a subject rights request based on your own information can help you gain familiarity and comfort with moving through each stage of the process. You'll see what a default search will return, and can practice refining results by adjusting search settings. On the **Data collected** tab, you can review items in the preview area to the right and practice redacting text, applying tags, entering notes, and marking items to include or exclude for the final report (find details at [Review data for a subject rights request](subject-rights-requests-data-review.md)).
+**Exploring request functionality with your information**: Trying out a subject rights request based on your own information can help you gain familiarity and comfort with moving through each stage of the process. You'll see what a default search will return, and can practice refining results by adjusting search settings. On the **Data collected** tab, you can review items in the preview area to the right and practice redacting text, applying tags, entering notes, and marking items to include or exclude for the final report (find details at [Review data for a subject rights request](/privacy/priva/subject-rights-requests-data-review.md)).
 
 - You don't have to use your information to create your first request. If you're ready to start a request for a data subject, replace your name and email address with the data subject's information.
 
 To accept all settings and create the request, select **Create**. The pane will close and you'll see your new request listed on your **Subject Rights Requests** page. To change any of the default settings before creating the request, select **Edit request details**, which puts you into the [subject rights request creation wizard](#custom-setup-guided-process-to-choose-all-settings).
 
 > [!NOTE]
-> Any request you create will count toward your trial or paid subscription allotment, regardless of which data subject's information is used for the request. The standard 30-day data retention period applies after the request is closed. Learn how to change [retention periods for subject rights requests](subject-rights-requests-reports.md#retention-periods-for-reports-and-data).
+> Any request you create will count toward your trial or paid subscription allotment, regardless of which data subject's information is used for the request. The standard 30-day data retention period applies after the request is closed. Learn how to change [retention periods for subject rights requests](/privacy/priva/subject-rights-requests-reports#retention-periods-for-reports-and-data).
 
 ## Quick setup: Use a template with default settings
 

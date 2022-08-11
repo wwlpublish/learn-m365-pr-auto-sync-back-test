@@ -6,18 +6,11 @@ After you select **Complete review** in the **Review data** stage of the subject
 
 Reports are divided into two sections:
 1. **Reports for the data subject**: These reports contain information that can be returned to the data subject as part of request fulfillment. This is where you'll find the **data package** containing files for you to send to the data subject.
-   > [!IMPORTANT]
-   > A data package will only be generated if you mark items as **Include** during your data review.
-
-   > [!IMPORTANT]
-   > A data package will only be generated for **Export** and **Access** types of requests. A data package won't be generated for a **Tagged list for follow up** request. Review details about [subject rights request types](subject-rights-requests-create.md#request-types).
-
 2. **Reports for internal use**: These reports are for your organization's internal records related to the subject rights request. They include an audit log and a list of all the files you applied tags to during the data review in order to follow up or take further action on.
 
-> [!NOTE]
-> When reports are generated, the organization completes the request by sending the appropriate reports in a secure manner to the data subject in order to fulfill the subject rights request. If the data subject has requested a deletion of their data, it is the organization's responsibility to identify items for deletion and carry out the deletion.
-
 ## Data package
+
+:::image type="content" source="../media/get-report-priva-rights-request.png" alt-text="Screenshot showing creating a report from a Subject Rights Request." lightbox="../media/get-report-priva-rights-request.png":::
 
 The subject rights request data package contains items marked as **Include** during the data review stage of the process. The data package is generated as a zip file. When it's ready for download, select the report's row on the **Reports** tab of the subject rights request details page. A flyout panel will open with a button to **Download** the report. The **What do do next** instructions on the flyout panel provide a quick reference for how to work with the contents.
 

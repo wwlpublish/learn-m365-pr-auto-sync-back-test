@@ -1,11 +1,11 @@
 
 Microsoft Priva can help provide visibility into important discoveries from your data overexposure, data minimization, or data transfer policies. Within the Privacy Risk Management solution, admins can review **alerts** about content that matches your policy conditions. Reviewing alerts allows you to identify cases that need follow-up. You can do this by creating **issues**. Issues give your users a structured way to review content, assign the severity of the problem, and collaboratively work toward remediating issues.
 
-If your policy has been set up to send notifications to your users, content owners can also take certain corrective actions directly from these emails or from Teams. To learn more, see [Send user notifications in Privacy Risk Management](risk-management-notifications.md).
+If your policy has been set up to send notifications to your users, content owners can also take certain corrective actions directly from these emails or from Teams. To learn more, see [Send user notifications in Privacy Risk Management](/privacy/priva/risk-management-notifications).
 
 ## View current alerts and issues
 
-Priva’s **Overview** page provides a view into recent findings with updates about key areas of concern, such as the policies with the most matches and your currently active policy alerts. To learn more about the information this view provides, see [Find and visualize personal data in Priva](priva-data-profile.md).
+Priva’s **Overview** page provides a view into recent findings with updates about key areas of concern, such as the policies with the most matches and your currently active policy alerts. To learn more about the information this view provides, see [Find and visualize personal data in Priva](/privacy/priva/priva-data-profile.md).
 
 You can also access visualizations and details about your alerts and issues via the main **Policies** page. Select **View alerts** and **View issues** to see details.
 
@@ -16,6 +16,8 @@ To evaluate your active alerts and specify which ones require follow-up, access 
 Selecting any alert will open a flyover pane with additional details, like the number of matching items and the severity as judged by your policy settings. Under the **Content** tab, you can review which files are involved in this alert. This information can provide additional insights as to the specific event that triggered the alert, where the files reside, and what types of personal data are involved. Triggers for alerts are determined by each policy’s specific conditions. For instance, an alert might be triggered on a data transfer policy if Priva detects a transfer between the policy’s specified departments or regions.
 
 After assessing any alert in the list, you can select **Create issue** to prompt further investigation and action by your users. You will be asked to name the issue and add any relevant comments for context. You can also dismiss alerts here if they don’t require a follow-up.
+
+:::image type="content" source="../media/create-priva-issue-from-alert.png" alt-text="Screenshot showing creating an issue from an alert." lightbox="../media/create-priva-issue-from-alert.png":::
 
 ## Manage issues
 

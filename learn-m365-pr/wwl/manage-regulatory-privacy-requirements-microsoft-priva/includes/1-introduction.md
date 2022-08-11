@@ -22,7 +22,6 @@ Priva provides capabilities that help you:
 * Enable users to effectively manage data and take steps to comply with evolving privacy regulations
 * Manage subject rights requests at scale
 * Priva's capabilities are available through two solutions: Priva Privacy Risk Management, which provides visibility into your organization's data and policy templates for reducing risks; and Priva Subject Rights Requests, which provides automation and workflow tools for fulfilling data requests. You can choose to purchase one or both modules to suit your organization's needs.
-* TODO: How to handle policy violations
 
 ## Privacy Risk Management
 
