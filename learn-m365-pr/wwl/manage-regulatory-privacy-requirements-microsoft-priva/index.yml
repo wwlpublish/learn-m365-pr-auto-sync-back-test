@@ -1,0 +1,50 @@
+### YamlMime:Module
+uid: learn.wwl.manage-regulatory-privacy-requirements-microsoft-priva
+metadata:
+  title: Manage regulatory and privacy requirements with Microsoft Priva
+  description: "Learn how to use Microsoft Priva to manage privacy risk policies and subject rights requests."
+  ms.date: 08/11/2022
+  author: wwlpublish
+  ms.author: hrasheed
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Manage regulatory and privacy requirements with Microsoft Priva
+summary: Learn how to use Microsoft Priva to manage privacy risk policies and subject rights requests.
+abstract: |
+  Upon completion of this module, the learner will be able to:
+  - Create and manage risk management policies for data overexposure, data transfer, and data minimization
+  - Investigate and remediate risk alerts
+  - Send user notifications
+  - Create and manage Subject Rights Requests
+  - Estimate and retrieve subject data
+  - Review subject data
+  - Create subject rights reports
+prerequisites: |
+  Conceptual knowledge of security policies, privacy requirements, and risk management.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+- security-engineer
+- technology-manager
+products:
+- azure-purview
+- m365
+- office-365
+subjects:
+- cloud-computing
+- modern-work
+- security
+units:
+- learn.wwl.manage-regulatory-privacy-requirements-microsoft-priva.introduction
+- learn.wwl.manage-regulatory-privacy-requirements-microsoft-priva.risk-management-create-manage-policies
+- learn.wwl.manage-regulatory-privacy-requirements-microsoft-priva.risk-management-investigate-remediate-alerts
+- learn.wwl.manage-regulatory-privacy-requirements-microsoft-priva.rights-requests-create-requests
+- learn.wwl.manage-regulatory-privacy-requirements-microsoft-priva.rights-requests-data-estimate-retrieval
+- learn.wwl.manage-regulatory-privacy-requirements-microsoft-priva.rights-requests-review-data
+- learn.wwl.manage-regulatory-privacy-requirements-microsoft-priva.rights-requests-get-reports
+- learn.wwl.manage-regulatory-privacy-requirements-microsoft-priva.knowledge-check
+- learn.wwl.manage-regulatory-privacy-requirements-microsoft-priva.summary
+badge:
+  uid: learn.wwl.manage-regulatory-privacy-requirements-microsoft-priva.badge
