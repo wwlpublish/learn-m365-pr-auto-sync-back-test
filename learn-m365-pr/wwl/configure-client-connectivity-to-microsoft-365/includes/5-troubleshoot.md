@@ -1,11 +1,5 @@
 Microsoft provides the following tools that can be used to analyze connectivity issues in Microsoft 365 deployments.
 
-### Microsoft Message Analyzer
-
-Message Analyzer is an effective tool for troubleshooting network issues. Message Analyzer captures, displays, and analyzes protocol-based messaging traffic and system messages. Message Analyzer also lets you import, aggregate, and analyze data from log and trace files.
-
-**Additional reading.** For more information, see [Getting Started with Microsoft Message Analyzer](/message-analyzer/getting-started-with-message-analyzer?azure-portal=true) and [Microsoft Message Analyzer Operating Guide](https://technet.microsoft.com/library/jj649776.aspx?azure-portal=true).
-
 ### Microsoft Remote Connectivity Analyzer
 
 ‎Microsoft Remote Connectivity Analyzer (RCA) is a downloadable client program that can:
