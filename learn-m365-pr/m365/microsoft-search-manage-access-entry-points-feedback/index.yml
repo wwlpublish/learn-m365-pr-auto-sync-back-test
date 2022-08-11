@@ -3,7 +3,7 @@ uid: learn-m365.microsoft-search-manage-access-entry-points-feedback
 metadata:
   title: Manage access, add entry points, and review Microsoft Search feedback
   description: Get an overview of solutions to manage access to files and sites, add search entry points, and review feedback from your users.
-  ms.date: 04/05/2022
+  ms.date: 08/10/2022
   author: dawholl
   ms.author: dawholl
   ms.topic: interactive-tutorial
@@ -18,7 +18,7 @@ abstract: |
 prerequisites: | 
   - Basic understanding of Microsoft Search
   - Access to the Microsoft 365 admin center
-iconUrl: /learn/achievements/generic-badge.svg 
+iconUrl: /learn/achievements/microsoft-search-manage-access-entry-points-feedback.svg 
 levels:
 - beginner
 roles:
