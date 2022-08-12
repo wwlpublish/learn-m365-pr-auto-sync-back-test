@@ -4929,6 +4929,16 @@
       "source_path": "learn-m365-pr/wwl/manage-advanced-ediscovery/8-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-secure-user-access-microsoft-365/10-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/11-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-secure-user-access-microsoft-365/11-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/12-summary",
+      "redirect_document_id": true
     }
   ]
 }

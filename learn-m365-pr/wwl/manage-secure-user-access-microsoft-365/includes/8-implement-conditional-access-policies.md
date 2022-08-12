@@ -37,6 +37,7 @@ Conditional Access works with Intune device configuration and compliance policie
 
  -  **Device-based Conditional Access**. Intune and Azure Active Directory work together to make sure only managed and compliant devices can access email, Microsoft 365 services, Software as a service (SaaS) apps, and on-premises apps. You can also set a policy in Azure Active Directory to enable only domain-joined computers or mobile devices that have enrolled in Intune to access Microsoft 365 services. These policies include:
     
+    
      -  Conditional Access based on network access control
      -  Conditional Access based on device risk
      -  Conditional Access for Windows PCs (both corporate-owned and bring your own device (BYOD))
@@ -50,24 +51,18 @@ Conditional Access works with Intune device configuration and compliance policie
 Common signals that Conditional Access can take into account when making a policy decision include:
 
  -  User or group membership
-    
      -  Policies can be targeted to specific users and groups giving administrators fine-grained control over access.
  -  IP Location information
-    
      -  Organizations can create trusted IP address ranges that can be used when making policy decisions.
      -  Administrators can specify entire countries/regions IP ranges to block or allow traffic from.
  -  Device
-    
      -  Users with devices of specific platforms or marked with a specific state can be used when enforcing Conditional Access policies.
      -  Use filters for devices to target policies to specific devices like privileged access workstations.
  -  Application
-    
      -  Users attempting to access specific applications can trigger different Conditional Access policies.
  -  Real-time and calculated risk detection
-    
      -  Signals integration with Azure AD Identity Protection allows Conditional Access policies to identify risky sign-in behavior. Policies can then force users to change their password, do multifactor authentication to reduce their risk level, or block access until an administrator takes manual action.
  -  Microsoft Defender for Cloud Apps
-    
      -  Enables user application access and sessions to be monitored and controlled in real time. This feature increases visibility and control over access to and activities done within your cloud environment.
 
 ### Common decisions
@@ -75,12 +70,9 @@ Common signals that Conditional Access can take into account when making a polic
 Common decisions built into conditional access policies include:
 
  -  Block access
-    
      -  Most restrictive decision
  -  Grant access
-    
      -  Least restrictive decision. It can still require one or more of the following options:
-        
          -  Require multifactor authentication.
          -  Require a device to be marked as compliant.
          -  Require a device to be Hybrid Azure AD-joined.
@@ -109,20 +101,21 @@ Conditional Access policies aren't set for your tenant by default. You can targe
 
 The following steps describe how to create conditional access policies using Microsoft Endpoint Manager:
 
-1.  Sign in to the Microsoft Endpoint Manager admin center, select **Endpoint Security &gt; Conditional Access &gt; New Policy.**
-2.  Provide a **Name** for your specific Conditional Access policy.
-3.  On the **New Policy** tab, under **Users and groups**, choose **Specific users included**. Select the specific user or group you want to target with the conditional access policy. You can also Exclude certain users or groups to fine-tune the assignment.
-4.  Under **Cloud apps or actions**, select **No cloud apps, action, or authentication contexts selected**.
-5.  Select **Cloud apps &gt; Include &gt; Select apps**.
-6.  In the **Select** pane, search for and select both the following apps:
+1. Sign in to the Microsoft Endpoint Manager admin center, select **Endpoint Security &gt; Conditional Access &gt; New Policy.**
+1. Provide a **Name** for your specific Conditional Access policy.
+1. On the **New Policy** tab, under **Users and groups**, choose **Specific users included**. Select the specific user or group you want to target with the conditional access policy. You can also Exclude certain users or groups to fine-tune the assignment.
+1. Under **Cloud apps or actions**, select **No cloud apps, action, or authentication contexts selected**.
+1. Select **Cloud apps &gt; Include &gt; Select apps**.
+1. In the **Select** pane, search for and select both the following apps:
+    
     
      -  **Windows 365** (you can also search for "cloud" to find this app).
      -  **Windows Virtual Desktop** (this option may also appear as Azure Virtual Desktop)
     
     By choosing both apps, you ensure the policy applies to the Cloud PC End-user portal and the connection to the Cloud PC. If you want to exclude apps, you must also choose both apps.
-7.  If you want to fine-tune your policy, under **Access controls**, choose **0 controls selected**. Under **Grant**, choose the options that you want to apply to all objects assigned to this policy.
-8.  If you want to test your policy first, under **Enable Policy**, set **Report-only** to **Off**. If you set it to **On**, the policy will be applied as soon as you create it.
-9.  Select **Create** to create the policy.
+1. If you want to fine-tune your policy, under **Access controls**, choose **0 controls selected**. Under **Grant**, choose the options that you want to apply to all objects assigned to this policy.
+1. If you want to test your policy first, under **Enable Policy**, set **Report-only** to **Off**. If you set it to **On**, the policy will be applied as soon as you create it.
+1. Select **Create** to create the policy.
 
 You can see your list of active and inactive policies in the **Policies** view in the Conditional Access UI.
 
