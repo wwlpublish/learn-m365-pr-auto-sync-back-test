@@ -3,7 +3,7 @@ uid: learn.wwl.implement-data-classification-of-sensitive-information
 metadata:
   title: Implement data classification of sensitive information
   description: "Implement data classification of sensitive information"
-  ms.date: 06/21/2022
+  ms.date: 08/12/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -19,7 +19,7 @@ abstract: |
   - Analyze the results of your data classification efforts in Content explorer and Activity explorer.
   - Implement Document Fingerprinting to protect sensitive information being sent through Exchange Online.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/implement-data-classification-of-sensitive-information.svg
 levels:
 - intermediate
 roles:
