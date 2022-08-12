@@ -59,7 +59,6 @@ You can also control access to other resources that rely upon Azure AD security 
 Other capabilities that are included in Azure AD entitlement management include:
 
  -  **Delegate the ability to create access packages to non-administrators**. Access packages contain resources that users can request. Delegated access package managers can define policies with rules that identify:
-    
      -  The users who can request resources.
      -  The user who must approve their access.
      -  The date when their access expires.
@@ -110,7 +109,6 @@ The following diagram shows an example of the different elements in entitlement 
 
  -  **Access package 1**. This package includes a single group as a resource. Access is defined with a policy that enables a set of users in the directory to request access.
  -  **Access package 2**. This package includes a group, an application, and a SharePoint Online site as resources. Access is defined with two different policies:
-    
      -  The first policy enables a set of users in the directory to request access.
      -  The second policy enables users in an external directory to request access.
 

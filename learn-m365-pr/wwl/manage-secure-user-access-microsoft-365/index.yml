@@ -3,7 +3,7 @@ uid: learn.wwl.manage-secure-user-access-microsoft-365
 metadata:
   title: Manage secure user access in Microsoft 365
   description: "Manage secure user access in Microsoft 365"
-  ms.date: 04/27/2022
+  ms.date: 08/12/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -46,6 +46,7 @@ units:
 - learn.wwl.manage-secure-user-access-microsoft-365.implement-entitlement-packages-azure-ad-identity-governance
 - learn.wwl.manage-secure-user-access-microsoft-365.implement-conditional-access-policies
 - learn.wwl.manage-secure-user-access-microsoft-365.create-perform-access-review
+- learn.wwl.manage-secure-user-access-microsoft-365.investigate-authentication-issues-using-sign-in-logs
 - learn.wwl.manage-secure-user-access-microsoft-365.knowledge-check
 - learn.wwl.manage-secure-user-access-microsoft-365.summary
 badge:
