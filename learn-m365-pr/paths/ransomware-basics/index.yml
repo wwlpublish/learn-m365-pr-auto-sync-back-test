@@ -13,7 +13,7 @@ prerequisites: |
   None
 summary: |
   Ransomware and extortion-based attacks are a high-reward, low-cost business that has escalated from extorting money from individuals to targeting businesses and organizations. The modules in this learning path will provide you with insights and information to help you better understand this threat, including a broad look at ransomware and extortion-based threats, how cybercriminals exploit security weaknesses to gain access to your computers and devices, some of the steps you can take prevent ransomware threats, and finally, how to recover from an attack. 
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/basics-of-ransomware.svg
 levels:
 - beginner
 roles:
