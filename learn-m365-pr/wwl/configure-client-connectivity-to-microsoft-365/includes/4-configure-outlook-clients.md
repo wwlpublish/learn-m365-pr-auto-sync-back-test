@@ -17,7 +17,6 @@ MAPI over HTTP offers the following benefits:
 
  -  Enables future innovation in authentication by using an HTTP based protocol.<br>
  -  Provides faster reconnection times after a communications break because only TCP connections (not RPC connections) must be rebuilt. Examples of a communication break include:
-    
      -  Device hibernation<br>
      -  Changing from a wired network to a wireless or cellular network<br>
  -  Offers a session context that isn't dependent on the connection. The server maintains the session context for a configurable period of time, even if the user changes networks.<br>
