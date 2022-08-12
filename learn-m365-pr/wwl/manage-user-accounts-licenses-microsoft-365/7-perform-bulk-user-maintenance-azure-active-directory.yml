@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-user-accounts-licenses-microsoft-365.perform-bulk-user-maintenance-azure-active-directory
+title: Perform bulk user maintenance in Azure Active Directory
+metadata:
+  title: Perform bulk user maintenance in Azure Active Directory
+  description: "Perform bulk user maintenance in Azure Active Directory"
+  ms.date: 08/12/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/7-perform-bulk-user-maintenance-azure-active-directory.md)]
