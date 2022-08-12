@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-secure-user-access-microsoft-365.investigate-authentication-issues-using-sign-in-logs
+title: Investigate authentication issues using sign-in logs
+metadata:
+  title: Investigate authentication issues using sign-in logs
+  description: "Investigate authentication issues using sign-in logs"
+  ms.date: 08/12/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/10-investigate-authentication-issues-using-sign-in-logs.md)]
