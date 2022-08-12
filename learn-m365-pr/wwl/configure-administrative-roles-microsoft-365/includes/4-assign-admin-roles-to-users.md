@@ -16,16 +16,15 @@ Admin roles are based on groups held in Azure Active Directory (Azure AD). Even 
 
 To assign admin roles in Microsoft 365 admin center, you must sign in using a Global admin account and follow these steps:
 
-1.  In the Admin center, select **Users**, and then select **Active Users**.
-2.  On the **Active users** page, choose the user whose administrator role you want to change. The **Properties** page for the user opens.
-3.  Next to **Roles**, select **Edit**.
-4.  On the **Edit user roles** page, choose one of the following options:
-    
+1. In the Admin center, select **Users**, and then select **Active Users**.
+1. On the **Active users** page, choose the user whose administrator role you want to change. The **Properties** page for the user opens.
+1. Next to **Roles**, select **Edit**.
+1. On the **Edit user roles** page, choose one of the following options:
      -  User (no administrator access)
      -  Global administrator
      -  Customized administrator (to see a list of admin roles)
-5.  In the **Alternative email address** field, you can type an email address that isn't connected to Microsoft 365. This email address is used for important notifications, including resetting your admin password.
-6.  To close the **Edit user roles** page, select **Save**.
+1. In the **Alternative email address** field, you can type an email address that isn't connected to Microsoft 365. This email address is used for important notifications, including resetting your admin password.
+1. To close the **Edit user roles** page, select **Save**.
 
 ### Assign admin roles in Windows PowerShell
 
@@ -62,7 +61,8 @@ Similarly, can you copy and paste in the ObjectId for Patti Fernandez's user acc
 
 You would then enter the following command and paste in each of the ObjectId's to assign Patti to the Helpdesk Administrator role:
 
-```Add-AzureADDirectoryRoleMember -ObjectID
+```powershell
+Add-AzureADDirectoryRoleMember -ObjectID
 
 ```
 
