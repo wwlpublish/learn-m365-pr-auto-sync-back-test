@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-regulatory-privacy-requirements-microsoft-priva.risk-management-investigate-remediate-alerts
+title: Investigate and remediate risk management alerts
+metadata:
+  title: Investigate and remediate risk management alerts
+  description: "Investigate and remediate risk management alerts"
+  ms.date: 08/11/2022
+  author: wwlpublish
+  ms.author: hrasheed
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-risk-management-investigate-remediate-alerts.md)]
