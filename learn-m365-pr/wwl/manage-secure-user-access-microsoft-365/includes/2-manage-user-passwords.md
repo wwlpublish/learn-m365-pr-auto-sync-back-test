@@ -16,11 +16,11 @@ The default password expiration policy in Microsoft 365 includes the following s
 
 The Microsoft 365 admin center enables the Enterprise Administrator to change both of these settings for their organization. To change the password expiration policy, complete the following steps:
 
-1.  Sign-in to the Microsoft 365 admin center, navigate to the **Settings** menu, and then select the **Security &amp; privacy** tab.
-2.  In the **Security &amp; privacy** page, select **Password expiration policy**.
-3.  Select **Set user passwords to expire after a number of days** and specify the number of days between 14 and 730 for password expiration.
-4.  Specify the number of days between 1 and 30 for the notification warning of password expiration.
-5.  Save your settings.
+1. Sign-in to the Microsoft 365 admin center, navigate to the **Settings** menu, and then select the **Security &amp; privacy** tab.
+1. In the **Security &amp; privacy** page, select **Password expiration policy**.
+1. Select **Set user passwords to expire after a number of days** and specify the number of days between 14 and 730 for password expiration.
+1. Specify the number of days between 1 and 30 for the notification warning of password expiration.
+1. Save your settings.
 
 Let's assume an organization changed its password expiration policy so that passwords expire after 60 days. What happens if a user doesn't change their password before the expiration time has elapsed? There are two options:
 
