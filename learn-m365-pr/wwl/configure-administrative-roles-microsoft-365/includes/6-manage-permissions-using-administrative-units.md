@@ -38,9 +38,9 @@ The criteria on which administrative units are created are guided by the unique 
 
 An organization can expect its administrative units to go through the following stages:
 
-1.  **Initial adoption**. The organization will start creating administrative units based on initial criteria. The number of administrative units will increase as the criteria are refined.
-2.  **Pruning.** After the criteria are defined, administrative units that are no longer required will be deleted.
-3.  **Stabilization.** Once the organizational structure is defined, the number of administrative units isn't going to change significantly in the short term.
+1. **Initial adoption**. The organization will start creating administrative units based on initial criteria. The number of administrative units will increase as the criteria are refined.
+1. **Pruning.** After the criteria are defined, administrative units that are no longer required will be deleted.
+1. **Stabilization.** Once the organizational structure is defined, the number of administrative units isn't going to change significantly in the short term.
 
 ### Currently supported scenarios
 
