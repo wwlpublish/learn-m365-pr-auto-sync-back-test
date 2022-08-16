@@ -76,7 +76,6 @@ An organization can use Exchange Online PowerShell to verify that its Microsoft 
     Remove-PSSession $session
     ```
 
-
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
