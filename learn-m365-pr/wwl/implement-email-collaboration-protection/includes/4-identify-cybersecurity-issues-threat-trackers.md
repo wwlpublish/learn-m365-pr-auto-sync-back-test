@@ -32,7 +32,7 @@ Noteworthy trackers will typically be posted for just a couple of weeks when Mic
 
 Trending trackers (formerly called Campaigns) highlight new threats that haven't been seen in an organization's email in the past week. Trending trackers provide visibility into new threats that organizations should review. In doing so, organizations can ensure their broader corporate environment is prepared against attacks.
 
-:::image type="content" source="../media/trend-trackers-7b564652.png" alt-text="Screenshot showing the Trending Trackers view." lightbox="../media/trend-trackers-7b564652.png":::
+:::image type="content" source="../media/trend-trackers-7b564652.png" alt-text="Screenshot showing the Trending Trackers view.":::
 
 
 Trending trackers give organizations an idea of new threats they should review to ensure their broader corporate environment is prepared against attacks.
@@ -55,7 +55,7 @@ Whether you're reviewing email, content, or Office activities, Threat Explorer a
 
 Organizations that have an Office 365 Enterprise E5 tenant should be using Microsoft Defender for Office 365 - it's included in their subscriptions. Microsoft Defender for Office 365 provides value even if you have other security tools filtering email flow with your Office 365 services. However, anti-spam, Safe Attachments, and Safe Links features work best when your main email security solution is through Office 365.
 
-:::image type="content" source="../media/threat-policies-page-53c1a2a0.png" alt-text="Screenshot of the threat policies page that shows both policy templates and custom policies." lightbox="../media/threat-policies-page-53c1a2a0.png":::
+:::image type="content" source="../media/threat-policies-page-53c1a2a0.png" alt-text="Screenshot of the threat policies page that shows both policy templates and custom policies.":::
 
 
 In today's threat-riddled world, running only traditional anti-malware scans means you aren't protected enough against attacks. Today's more sophisticated attackers use common tools to create new, obfuscated, or delayed attacks that won't be recognized by traditional signature-based anti-malware engines. The Safe Attachments feature takes email attachments and detonates them in a virtual environment to determine whether they're safe or malicious. This detonation process opens each file in a virtual computer environment. It then watches what happens after the file is opened. Whether it's a PDF, a compressed file, or an Office document, malicious code can be hidden in a file. The code is only activated when the victim opens the document on their computer. The threat tracking capability in Microsoft Defender for Office 365 detonates and analyzes the file in the email flow. By doing so, it can find these threats based on behaviors, file reputation, and numerous heuristic rules.
