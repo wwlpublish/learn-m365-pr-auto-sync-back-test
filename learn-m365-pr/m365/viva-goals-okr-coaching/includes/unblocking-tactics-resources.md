@@ -1,0 +1,1 @@
+List of resources for unblocking the OKR creation process.
