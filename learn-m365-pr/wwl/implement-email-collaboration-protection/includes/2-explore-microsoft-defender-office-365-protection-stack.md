@@ -7,7 +7,7 @@ The Microsoft Defender for Office 365 protection stack provides multiple layers 
 
 Each layer checks for a different type of threat. Typically, a message will pass through each of the layers. However, the actual route through each part depends on how an organization has chosen to configure Microsoft Defender for Office 365.
 
-:::image type="content" source="../media/microsoft-defender-office-365-protection-stack-43fb84f0.png" alt-text="Diagram showing the Microsoft Defender for Office 365 protection stack." lightbox="../media/microsoft-defender-office-365-protection-stack-43fb84f0.png":::
+:::image type="content" source="../media/microsoft-defender-office-365-protection-stack-43fb84f0.png" alt-text="Diagram showing the Microsoft Defender for Office 365 protection stack.":::
 
 
 ### The Edge protection layer
@@ -17,7 +17,7 @@ Each layer checks for a different type of threat. Typically, a message will pass
 
 The Edge protection layer is the first point of contact for an inbound message. It's made up of edge blocks that run automatically. Each edge block handles a different aspect of protection - from network and IP reputation throttling through directory-based edge filtering and backscatter detection.
 
-:::image type="content" source="../media/microsoft-defender-office-365-edge-protection-692bed03.png" alt-text="Diagram showing the edge protection layer in the Microsoft Defender for Office 365 protection stack." lightbox="../media/microsoft-defender-office-365-edge-protection-692bed03.png":::
+:::image type="content" source="../media/microsoft-defender-office-365-edge-protection-692bed03.png" alt-text="Diagram showing the edge protection layer in the Microsoft Defender for Office 365 protection stack.":::
 
 
 The Edge protection layer consists of the following edge blocks:
@@ -41,7 +41,7 @@ The next layer in the protection stack is Sender intelligence. The focus of this
 
 An organization's security team can configure each of these features to meet their business needs.
 
-:::image type="content" source="../media/microsoft-defender-office-365-send-intelligence-07fb00b4.png" alt-text="Diagram showing the sender intelligence layer in the Microsoft Defender for Office 365 protection stack." lightbox="../media/microsoft-defender-office-365-send-intelligence-07fb00b4.png":::
+:::image type="content" source="../media/microsoft-defender-office-365-send-intelligence-07fb00b4.png" alt-text="Diagram showing the sender intelligence layer in the Microsoft Defender for Office 365 protection stack.":::
 
 
 The Sender intelligence layer consists of the following features:
@@ -61,7 +61,7 @@ The Sender intelligence layer consists of the following features:
 
 The next layer in the protection stack is Content filtering. The primary focus of this layer is to check the content of the mail. In doing so, it looks for suspicious message structure and word frequency, hyperlinks, and attachments. Each email is subject to several checks, from mail flow rules to heuristics and machine learning models.
 
-:::image type="content" source="../media/microsoft-defender-office-365-content-filtering-0602f968.png" alt-text="Diagram showing the content filtering layer in the Microsoft Defender for Office 365 protection stack." lightbox="../media/microsoft-defender-office-365-content-filtering-0602f968.png":::
+:::image type="content" source="../media/microsoft-defender-office-365-content-filtering-0602f968.png" alt-text="Diagram showing the content filtering layer in the Microsoft Defender for Office 365 protection stack.":::
 
 
 The Content filtering layer consists of the following features:
@@ -82,7 +82,7 @@ The Content filtering layer consists of the following features:
 
 The last layer in the protection stack is Post-delivery protection. This persistent layer manages how users interact with files and links not just in their mailboxes, but across other collaborative tools like Microsoft Teams.
 
-:::image type="content" source="../media/microsoft-defender-office-365-post-delivery-protection-b4152dfe.png" alt-text="Diagram showing the post-delivery protection layer in the Microsoft Defender for Office 365 protection stack." lightbox="../media/microsoft-defender-office-365-post-delivery-protection-b4152dfe.png":::
+:::image type="content" source="../media/microsoft-defender-office-365-post-delivery-protection-b4152dfe.png" alt-text="Diagram showing the post-delivery protection layer in the Microsoft Defender for Office 365 protection stack.":::
 
 
 The Post-delivery protection layer consists of the following features:

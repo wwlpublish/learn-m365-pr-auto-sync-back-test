@@ -35,7 +35,7 @@ The following sections identify the common components within these views.
 
 You can use the various filters to view the data based on email or file attributes. If you're applying multiple filters, they're applied in 'AND' mode. You can use the advanced filter to change it to 'OR' mode. You can also use commas to add multiple values for the same filter.
 
-:::image type="content" source="../media/explorer-new-experience-filters-9654384f.png" alt-text="Screenshot showing the Explorer chart view." lightbox="../media/explorer-new-experience-filters-9654384f.png":::
+:::image type="content" source="../media/explorer-new-experience-filters-9654384f.png" alt-text="Screenshot showing the Explorer chart view.":::
 
 
 #### Charts
@@ -45,7 +45,7 @@ Charts provide a visual, aggregate view of data based on filters. You can use di
 > [!NOTE]
 > You may see no results in chart view even if there's an entry in the list view. This situation happens if the filter doesn't produce any data. For example, if you applied the filter malware family, but the underlying data doesn't have any malicious emails. When this situation occurs, you may see the message: **No data available for this scenario**.
 
-:::image type="content" source="../media/explorer-new-experience-export-chart-data-617cdbe1.png" alt-text="Screenshot showing the Explorer chart view with an aggregate view of the data." lightbox="../media/explorer-new-experience-export-chart-data-617cdbe1.png":::
+:::image type="content" source="../media/explorer-new-experience-export-chart-data-617cdbe1.png" alt-text="Screenshot showing the Explorer chart view with an aggregate view of the data.":::
 
 
 #### Results grid
@@ -55,7 +55,7 @@ Results grid shows the email results based on the filters you've applied. Based 
 > [!NOTE]
 > You can toggle between the **Chart View** and the **List View** to maximize your result set.
 
-:::image type="content" source="../media/explorer-new-experience-list-chart-view-8981fbf6.png" alt-text="Screenshot showing the Explorer list chart view." lightbox="../media/explorer-new-experience-list-chart-view-8981fbf6.png":::
+:::image type="content" source="../media/explorer-new-experience-list-chart-view-8981fbf6.png" alt-text="Screenshot showing the Explorer list chart view.":::
 
 
 #### Detailed panes
@@ -70,7 +70,7 @@ From Threat Explorer, you can trigger remediation actions like **Delete an email
 
 You can select **Export chart data** to export the chart details. Similarly, select **Export email list** to export email details. You can export up to 200,000 records for an email list. However, for better system performance and reduced download time, you should use email filters to limit the number of records exported.
 
-:::image type="content" source="../media/explorer-new-experience-export-chart-data-highlighted-1201a0c4.png" alt-text="Screenshot showing the Export chart view with the export chart data and export email list options highlighted." lightbox="../media/explorer-new-experience-export-chart-data-highlighted-1201a0c4.png":::
+:::image type="content" source="../media/explorer-new-experience-export-chart-data-highlighted-1201a0c4.png" alt-text="Screenshot showing the Export chart view with the export chart data and export email list options highlighted.":::
 
 
 > [!NOTE]

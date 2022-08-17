@@ -21,7 +21,7 @@ Key Initiatives and Projects are added on an as-needed basis to reflect the work
 
 ## History of OKRs
 
-OKRs have a long history that can be traced back to 1954 when Peter Drucker developed a strategic planning process called Management by Objectives (MBO). Management by Objectives revolutionized performance management and gained popularity, inspiring business managers and leaders at companies like HP and Xerox, leaders who later attributed their success to the adoption of Ducker’s framework. 
+OKRs have a long history that can be traced back to 1954 when Peter Drucker developed a strategic planning process called Management by Objectives (MBO). Management by Objectives revolutionized performance management and gained popularity, inspiring business managers and leaders at companies like HP and Xerox, leaders who later attributed their success to the adoption of Drucker’s framework. 
 
 Decades later, Andy Grove (former CEO at Intel) built upon this foundation to create the OKR framework. In the 1980s, Intel and Motorola were locked in a "life-threatening competitive challenge" to determine who would be the dominant chipmaker for computers of the future.
 
