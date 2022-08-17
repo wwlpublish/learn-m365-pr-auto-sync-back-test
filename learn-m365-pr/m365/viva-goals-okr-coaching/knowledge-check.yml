@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-goals-okr-coaching.knowledge-check
+title: Check your knowledge
+metadata:
+  unitType: knowledge_check
+  title: Check your knowledge
+  description: Check your knowledge of OKRs.
+  ms.date: 07/25/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+quiz:
+  questions:
+  - content: "What is an OKR Coach?"
+    choices:
+    - content: "A facilitator who can guide a group of people to identify what their goals for the quarter are by asking thought provoking questions and ensuring great OKRs are created through the process."
+      isCorrect: true
+      explanation: "Correct. OKR Coaches increase team adoption by helping them create great OKRs."
+    - content: "An OKR expert who manages company OKRs, ensures end-users complete check-ins, and crafts excellent OKRs for the team."
+      isCorrect: false
+      explanation: "Incorrect. Remember, an OKR Coach does not craft OKRs for a team."
+    - content: "An OKR counselor who provides the soft skills side of change management, thereby ensuring long-term company adoption."
+      isCorrect: false
+      explanation: "Incorrect.  Remember, an OKR Coach does not craft OKRs for a team. "
+  - content: "What's the definition of a Key Result?"
+    choices:
+    - content: "How you'll measure success (outcome)"
+      isCorrect: true
+      explanation: "Correct. Key Results are the specific metrics you'll use to ensure you meet your Objective."
+    - content: "A group of tasks oriented toward long-term success."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that Key Results are specific to your Objective and ensure that you can achieve your goal."
+    - content: "The most important results that demonstrate success."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that Key Results are specific to your Objective and ensure that you can achieve your goal."
+  - content: "What are Key Initiatives/Projects?"
+    choices:
+    - content: "Collection of unrelated Objectives held in one folder."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that Projects are a particular production related to achieving the Objective."
+    - content: "Focused efforts (outputs) that help you achieve Key Results."
+      isCorrect: true
+      explanation: "Correct. Projects or Key Indicators are something produced in order to fulfill the Key Result."
+    - content: "A weighted Objective that is prioritized across the entire company."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that Projects are a particular production related to achieving the Objective."
+  - content: "What are the five OKR superpowers?"
+    choices:
+    - content: "Collaboration, Networking, Personal Success, Transparency, Purpose, Focus."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that the Superpowers are related to a goal-setting system that empower the entire company."
+    - content: "Focus, Alignment, Tracking, Transparency, and Stretch."
+      isCorrect: true
+      explanation: "These five superpowers are what makes the OKR framework an effective system for achieving goals."
+    - content: "Stretch, Scheduling, Intuition, Evolution, Adaptation, Alignment."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that the Superpowers are related to a goal-setting system that empower the entire company."
+  - content: "What's the Emotional Cycle of Change?"
+    choices:
+    - content: "The cycle from anger to acceptance that people experience in the first meeting when change is introduced."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that the Emotional Cycle of change has multiple stages and can take some time for people to move through."
+    - content: "The emotional five step process employees go through when onboarding at a new company or reporting to a new manager."
+      isCorrect: false
+      explanation: "That's incorrect. Remember that the Emotional Cycle of change has multiple stages and can take some time for people to move through."
+    - content: "The journey from Uninformed Optimism to Success & Fulfillment that people experience as they process change."
+      isCorrect: true
+      explanation: "Correct. The Emotional Cycle of Change outlines the five stages most common in navigating a new experience."
