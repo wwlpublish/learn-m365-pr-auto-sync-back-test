@@ -11,7 +11,7 @@ The following screenshot displays the top portion of the Compliance Manager dash
 
 The following screenshot displays the bottom portion of the Compliance Manager dashboard. This portion of the dashboard shows the breakdown of the company's compliance score by each compliance category. This design provides visibility into those areas of compliance that a company is doing well at, and those areas that could use improvement.
 
-:::image type="content" source="../media/compliance-manager-dashboard-bottom-half-b962abb3.png" alt-text="Screenshot of the bottom half of the Compliance Manager dashboard showing Contoso's compliance score breakdown by compliance component.":::
+:::image type="content" source="../media/compliance-manager-dashboard-bottom-half-b962abb3.png" alt-text="Screenshot of the bottom half of the Compliance Manager dashboard showing Contoso's compliance score breakdown by compliance component." lightbox="../media/compliance-manager-dashboard-bottom-half-b962abb3.png":::
 
 
 **Additional viewing**. Select the following link to watch a short video on how [Compliance Manager can help simplify how an organization manages compliance](https://www.microsoft.com/videoplayer/embed/RE4VdoO?postJsllMsg=true?azure-portal=true).
