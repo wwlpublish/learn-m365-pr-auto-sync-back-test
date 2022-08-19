@@ -8,7 +8,6 @@ An organization must meet the following prerequisites to run Attack simulation t
 
  -  The organization that has Microsoft 365 E5 or Microsoft Defender for Office 365 Plan 2.
  -  The person running the Attack simulation training must be a Microsoft 365 Global administrator or Security administrator or be assigned to one of the following roles.
-    
      -  **Attack Simulator Administrators.** Create and manage all aspects of attack simulation campaigns.
      -  **Attack Simulator Payload Authors.** Create attack payloads that an admin can start later.
  -  The organization's email is hosted in Exchange Online. Attack simulation training isn't available for on-premises email servers.
@@ -25,7 +24,7 @@ The graph depicts:
  -  **Actual compromise rate.** Reflects the percentage of employees that fell for the simulation.
  -  **Predicted compromise rate.** Reflects the average compromise rate for simulations using the same type of payload across other Microsoft 365 tenants that use Attack simulation training.
 
-:::image type="content" source="../media/attack-simulation-training-graph-b3d01db9.png" alt-text="Screenshot of the attack simulation training graph." lightbox="../media/attack-simulation-training-graph-b3d01db9.png":::
+:::image type="content" source="../media/attack-simulation-training-graph-b3d01db9.png" alt-text="Screenshot of the attack simulation training graph.":::
 
 
 ### Running Attack simulation training
