@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.m365-licensing-service-support
 metadata:
-  title: 'Microsoft 365 Fundamentals: Demonstrate knowledge of Microsoft 365 licensing, service and support'
-  description: 'Microsoft 365 Fundamentals: Demonstrate knowledge of Microsoft 365 licensing, service and support'
-  ms.date: 04/29/2022
+  title: 'MS-900 Microsoft 365 Fundamentals: Demonstrate knowledge of Microsoft 365 licensing, service and support'
+  description: 'MS-900 Microsoft 365 Fundamentals: Demonstrate knowledge of Microsoft 365 licensing, service and support'
+  ms.date: 07/27/2022
   author: wwlpublish
   ms.author: asglenno
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: 'Microsoft 365 Fundamentals: Demonstrate knowledge of Microsoft 365 licensing, service and support'
+title: 'MS-900 Microsoft 365 Fundamentals: Demonstrate knowledge of Microsoft 365 licensing, service and support'
 prerequisites: |
   - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a-Service (Saas). If you're unfamiliar with basic cloud computing concepts, we recommend you take [Discuss Azure fundamental concepts](/learn/modules/fundamental-azure-concepts/).
 summary: |

@@ -1,21 +1,21 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.explore-modern-management
 metadata:
-  title: Explore modern management
-  description: Explore modern management
-  ms.date: 03/31/2022
+  title: MD-101 Explore modern management
+  description: MD-101 Explore modern management
+  ms.date: 07/26/2022
   author: wwlpublish
-  ms.author: brhinkel
+  ms.author: rstearman
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Explore modern management
+title: MD-101 Explore modern management
 prerequisites: |
   - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later.
   - Strong understanding of computer networking, client security, and application concepts.
   - Experience using Active Directory Domain Services.
 summary: |
   This learning path explains the concepts of supporting the desktop through its entire lifecycle.
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/modern-management-explore.svg
 levels:
 - intermediate
 roles:
@@ -27,8 +27,8 @@ products:
 - windows
 - microsoft-deployment-toolkit
 subjects:
-- modern-work
 - infrastructure
+- modern-work
 modules:
 - learn.wwl.examine-enterprise-desktop
 - learn.wwl.explore-azure-active-directory

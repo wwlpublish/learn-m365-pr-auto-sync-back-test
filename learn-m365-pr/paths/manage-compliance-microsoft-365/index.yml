@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.manage-compliance-microsoft-365
 metadata:
-  title: Manage compliance in Microsoft 365
-  description: Manage compliance in Microsoft 365
-  ms.date: 05/11/2022
+  title: MS-203 Manage compliance in Microsoft 365
+  description: MS-203 Manage compliance in Microsoft 365
+  ms.date: 07/27/2022
   author: wwlpublish
-  ms.author: tfrink
+  ms.author: maquinl
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Manage compliance in Microsoft 365
+title: MS-203 Manage compliance in Microsoft 365
 prerequisites: |
   This module is designed for persons who are aspiring to the Microsoft 365 Messaging Administrator role. The prerequisites for this module include:
   - Ability to navigate the Microsoft 365 admin center, the Exchange admin center, and the Microsoft 365 Defender portal
@@ -29,9 +29,9 @@ products:
 - office-exchange-server
 - office-exchange-online
 subjects:
-- data-management
-- compliance
 - communication
+- compliance
+- data-management
 modules:
 - learn.wwl.explore-messaging-compliance-microsoft-365
 - learn.wwl.explore-messaging-compliance-exchange

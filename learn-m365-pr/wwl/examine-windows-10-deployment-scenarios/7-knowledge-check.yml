@@ -4,48 +4,49 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/25/2021
+  ms.date: 07/21/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/7-knowledge-check.md)]
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Northwind Traders, Allan Deyoung wants to update all the company's Windows 10 devices, which already have Windows 10 preinstalled. Allan wants to customize them to adhere to company policy without reinstallation. Which of the following deployment options should Allan use given the current state of Northwind's devices?"
+  - content: "As the Enterprise Administrator for Northwind Traders, Allan Deyoung wants to update all the company's Windows 11 devices, which already have Windows 11 preinstalled. Allan wants to customize them to adhere to company policy without reinstallation. Which of the following deployment options should Allan use given the current state of Northwind's devices?"
     choices:
     - content: "In-place upgrade"
       isCorrect: false
-      explanation: "That's incorrect. This deployment option is used when devices are running one of the previous supported Windows client operating system. Try again."
+      explanation: "Incorrect. This deployment option is used when devices are running one of the supported, pre-Windows 10 client operating systems."
     - content: "Migration"
       isCorrect: false
-      explanation: "That's incorrect. This deployment option is used when devices are running one of the previous supported Windows client operating system. Try again."
+      explanation: "Incorrect. This deployment option is used when devices are running one of the supported, pre-Windows 10 client operating systems."
     - content: "Windows Autopilot"
       isCorrect: true
-      explanation: "That's correct. When the devices already have Windows 10 preinstalled and you want to customize it to adhere to company policy without reinstallation, use provisioning or Windows Autopilot. Windows Autopilot is considered the modern way of deploying Windows 10."
-  - content: "Lucerne Publishing recently purchased a dozen new Windows 10 laptops from its local hardware vendor. When the users turn on these new computers, the Out of Box Experience (OOBE) setup phase occurs. In this phase, Windows performs several tasks, such as asking for the keyboard layout and EULA acceptance. Of all the OOBE setup phase tasks, which one is unacceptable for many companies because it can cause serious problems?"
+      explanation: "Correct. When devices already have Windows 10 or later preinstalled and an organization wants to customize them to adhere to company policy without reinstallation, use provisioning or Windows Autopilot. Windows Autopilot is considered the modern way of deploying Windows 10 and later."
+  - content: "Lucerne Publishing recently purchased a dozen new Windows 11 laptops from its local hardware vendor. When the users turn on these new computers, the Out of Box Experience (OOBE) setup phase occurs. In this phase, Windows performs several tasks, such as asking for the keyboard layout and EULA acceptance. Of all the OOBE setup phase tasks, which one is unacceptable for many companies because it can cause serious problems?"
     choices:
     - content: "Windows asks if the computer should be joined to AD DS or Azure AD"
       isCorrect: false
-      explanation: "That's incorrect. This is a standard Windows configuration settings prompt that doesn't cause issues with companies. Try again."
+      explanation: "Incorrect. This is a standard Windows configuration settings prompt that doesn't cause issues with companies."
     - content: "The user is automatically assigned to the local Administrators group"
       isCorrect: true
-      explanation: "That's correct. The OOBE setup phase automatically assigns the user to the local Administrators group. This assignment is unacceptable for many companies because it can cause serious problems. For example, users with local admin rights can install/uninstall any software or modify the configuration of the system in such a way that could damage the system."
+      explanation: "Correct. The OOBE setup phase automatically assigns the user to the local Administrators group. This assignment is unacceptable for many companies because it can cause serious problems. For example, users with local admin rights can install/uninstall any software or modify the configuration of the system in such a way that could damage the system."
     - content: "Windows asks about the privacy settings to be used"
       isCorrect: false
-      explanation: "That's incorrect. This is a standard Windows configuration settings prompt that doesn't cause issues with companies. Try again."
-  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer has several older devices running Windows 8.1 that the company wants to refurbish and redeploy to its warehouse staff. Because the previous users of these devices had downloaded unapproved and unlicensed software, Holly plans to wipe the hard disks clean and redeploy the devices without preserving any existing data. Which deployment method should Holly use to deploy the latest version of Windows 10 on these devices?"
+      explanation: "Incorrect. This is a standard Windows configuration settings prompt that doesn't cause issues with companies."
+  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer has several older devices running Windows 8.1 that the company wants to refurbish and redeploy to its warehouse staff. Because the previous users of these devices had downloaded unapproved and unlicensed software, Holly plans to wipe the hard disks clean and redeploy the devices without preserving any existing data. Which deployment method should Holly use to deploy the latest version of Windows 11 on these devices?"
     choices:
     - content: "In-place upgrade"
       isCorrect: false
-      explanation: "That's incorrect. This deployment option is used when devices are running one of the previous supported Windows client operating system. However, it reserves existing settings, while Holly plans to wipe the hard disks clean. Try again."
+      explanation: "Incorrect. This deployment option is used when devices are running one of the previous supported Windows client operating system. However, it reserves existing settings, while Holly plans to wipe the hard disks clean."
     - content: "Bare metal deployment"
       isCorrect: true
-      explanation: "That's correct. Organizations can use this scenario when they have to deploy a new device that doesn't have a previous operating system (bare metal). It can also be used when they want to wipe and redeploy a device without preserving any existing data."
+      explanation: "Correct. Organizations can use this deployment method when they have to deploy a new device that doesn't have a previous operating system (bare metal). It can also be used when they want to wipe and redeploy a device without preserving any existing data."
     - content: "Dynamic deployment"
       isCorrect: false
-      explanation: "That's incorrect. Dynamic provisioning enables organizations to transform the existing version of Windows 10, which is included on a device, to a customized version that's used within the company. Try again."
+      explanation: "Incorrect. Dynamic provisioning enables organizations to transform the existing version of Windows 10, which is included on a device, to a customized version that's used within the company. Try again."

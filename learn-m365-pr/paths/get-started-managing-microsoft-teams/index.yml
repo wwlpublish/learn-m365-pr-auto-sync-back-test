@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.get-started-managing-microsoft-teams
 metadata:
-  title: Get started with managing Microsoft Teams
-  description: Get started with managing Microsoft Teams
-  ms.date: 09/23/2021
+  title: MS-700 Get started with managing Microsoft Teams
+  description: MS-700 Get started with managing Microsoft Teams
+  ms.date: 07/27/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Get started with managing Microsoft Teams
+title: MS-700 Get started with managing Microsoft Teams
 prerequisites: |
   - A proficient understanding of basic functional experience with Microsoft 365 services.
   - A proficient understanding of general IT practices, including using PowerShell.
@@ -23,8 +23,8 @@ products:
 - m365
 - office-teams
 subjects:
-- communication
 - collaboration
+- communication
 modules:
 - learn.wwl.explore-teams
 - learn.wwl.plan-deploy-microsoft-teams

@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.manage-updates-use-analytics
 metadata:
-  title: Manage updates and use analytics
-  description: Manage updates and use analytics
-  ms.date: 03/31/2022
+  title: MD-101 Manage updates and use analytics
+  description: MD-101 Manage updates and use analytics
+  ms.date: 07/26/2022
   author: wwlpublish
-  ms.author: brhinkel
+  ms.author: rstearman
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Manage updates and use analytics
+title: MD-101 Manage updates and use analytics
 prerequisites: |
   Students should have:
   - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later
@@ -16,7 +16,7 @@ prerequisites: |
   - Experience using Active Directory Domain Services
 summary: |
   Introduces the servicing options for Windows clients. Students will learn the different methods for deploying updates and how to configure windows update policies. Use Analytics to plan update strategies and monitor the reliability of devices.
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/updates-manage-analytics.svg
 levels:
 - intermediate
 roles:

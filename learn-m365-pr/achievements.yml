@@ -320,3 +320,48 @@ achievements:
   title: Transition from Azure Information Protection to Microsoft Information Protection
   summary: Transition from Azure Information Protection to Microsoft Information Protection
   iconUrl: /learn/achievements/transition-azure-information-microsoft-information-protection.svg
+- uid: learn.wwl.introduction-to-co-management-of-windows-10-devices.badge
+  type: badge
+  title: Explore Co-management of Windows 10 devices
+  summary: Explore Co-management of Windows 10 devices
+  iconUrl: /learn/achievements/windows-intro-device-co-management.svg
+- uid: learn.wwl.introduction-to-microsoft-store-for-business.badge
+  type: badge
+  title: Examine the Microsoft Store for Business
+  summary: Examine the Microsoft Store for Business
+  iconUrl: /learn/achievements/microsoft-store-for-business.svg
+- uid: learn.wwl.transition-from-configuration-manager-to-intune.badge
+  type: badge
+  title: Transition from Configuration Manager to Intune
+  summary: Transition from Configuration Manager to Intune
+  iconUrl: /learn/achievements/windows-intune-manager.svg
+- uid: learn.wwl.introduction-to-desktop-analytics.badge
+  type: badge
+  title: Analyze Windows 10 diagnostic data using Desktop Analytics
+  summary: Analyze Windows 10 diagnostic data using Desktop Analytics
+  iconUrl: /learn/achievements/windows-desktop-analytics.svg
+- uid: learn.wwl.resolve-windows-10-upgrade-errors.badge
+  type: badge
+  title: Resolve Windows 10 upgrade errors
+  summary: Resolve Windows 10 upgrade errors
+  iconUrl: /learn/achievements/windows-upgrade-errors.svg
+- uid: learn.wwl.conduct-audit-log-investigations.badge
+  type: badge
+  title: Conduct audit log investigations
+  summary: Conduct audit log investigations
+  iconUrl: /learn/achievements/windows-security-audit-log.svg
+- uid: learn.wwl.implement-windows-information-protection.badge
+  type: badge
+  title: Implement Windows Information Protection
+  summary: Implement Windows Information Protection
+  iconUrl: /learn/achievements/windows-information-protection.svg
+- uid: learn.wwl.transition-from-skype-for-business-to-microsoft-teams.badge
+  type: badge
+  title: Transition from Skype for Business to Microsoft Teams
+  summary: Transition from Skype for Business to Microsoft Teams
+  iconUrl: /learn/achievements/teams-transition-from-skype.svg
+- uid: learn.wwl.manage-advanced-ediscovery.badge
+  type: badge
+  title: Manage Advanced eDiscovery
+  summary: Manage Advanced eDiscovery
+  iconUrl: /learn/achievements/ediscovery-management.svg

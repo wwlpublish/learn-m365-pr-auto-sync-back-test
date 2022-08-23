@@ -5,7 +5,6 @@ Azure AD Privileged Identity Management helps an organization:
  -  See which users are assigned privileged roles to manage Azure resources.
  -  See which users are assigned administrative roles in Azure AD.
  -  Enable on-demand, "just in time" administrative access to:
-    
      -  Microsoft Online Services like Microsoft 365 and Intune
      -  Azure resources of subscriptions
      -  Resource groups
@@ -30,10 +29,10 @@ The following diagram shows how a regular user, with mail and files stored in Ex
 
 Complete the following steps to enable Privileged Identity Management for your directory:
 
-1.  Sign in to the [Azure portal](https://portal.azure.com/?azure-portal=true) as a global administrator of your directory.
-2.  If your organization has more than one directory, select your username in the upper right-hand corner of the Azure portal. Select the directory where you'll use Azure AD Privileged Identity Management.
-3.  Select **All services** and use the **Filter** text box to search for Azure AD Privileged Identity Management.
-4.  Select **Pin to dashboard** and then select **Create**. The Privileged Identity Management application opens.
+1. Sign in to the [Azure portal](https://portal.azure.com/?azure-portal=true) as a global administrator of your directory.
+1. If your organization has more than one directory, select your username in the upper right-hand corner of the Azure portal. Select the directory where you'll use Azure AD Privileged Identity Management.
+1. Select **All services** and use the **Filter** text box to search for Azure AD Privileged Identity Management.
+1. Select **Pin to dashboard** and then select **Create**. The Privileged Identity Management application opens.
 
 **Additional reading.** For more information, see [Assign directory roles to users using Azure AD PIM](/azure/active-directory/privileged-identity-management/pim-how-to-add-role-to-user?azure-portal=true).
 

@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.support-windows-client-environment
 metadata:
-  title: Support the Windows client environment
-  description: Support the Windows client environment
-  ms.date: 06/09/2022
+  title: MD-100 Support the Windows client environment
+  description: MD-100 Support the Windows client environment
+  ms.date: 07/26/2022
   author: wwlpublish
-  ms.author: brhinkel
+  ms.author: rstearman
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Support the Windows client environment
+title: MD-100 Support the Windows client environment
 prerequisites: |
   - Students should have a basic understanding of computer networks and hardware concepts.
   - Students should have a basic understanding of OS and Application concepts.

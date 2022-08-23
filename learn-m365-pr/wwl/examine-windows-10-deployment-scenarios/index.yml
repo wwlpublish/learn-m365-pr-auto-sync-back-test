@@ -1,21 +1,21 @@
 ### YamlMime:Module
 uid: learn.wwl.examine-windows-10-deployment-scenarios
 metadata:
-  title: Examine Windows 10 deployment scenarios
-  description: "Examine Windows 10 deployment scenarios"
-  ms.date: 06/25/2021
+  title: Examine Windows client deployment scenarios
+  description: "Examine Windows client deployment scenarios"
+  ms.date: 07/21/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Examine Windows 10 deployment scenarios
-summary: This module examines the servicing model for Windows as a Service, how to plan for it in your organization, and the Windows 10 deployment models, including the modern, dynamic, and traditional deployment methods.
+title: Examine Windows client deployment scenarios
+summary: This module examines the servicing model for Windows as a Service, how to plan for it in your organization, and the Windows 10/11 deployment models, including the modern, dynamic, and traditional deployment methods.
 abstract: |
-  By the end of this module, you will be able to:
-  - Explain how the Windows as a Service model continually provides new capabilities and updates while maintaining a high level of hardware and software compatibility
-  - Explain how the modern Windows 10 deployment model combines both traditional on-premises and cloud services to deliver a streamlined, cost effective deployment experience
-  - Explain how the dynamic Windows 10 deployment model can transform the existing version of Windows 10 that's included on a device to a customized version that is used in your company without reinstalling Windows 10
-  - Explain how the traditional Windows 10 deployment model is image-based and uses an organization’s on-premises infrastructure
+  By the end of this module, you'll be able to:
+  - Explain how the Windows as a Service model continually provides new capabilities and updates while maintaining a high level of hardware and software compatibility.
+  - Explain how the modern Windows 10/11 deployment model combines both traditional on-premises and cloud services to deliver a streamlined, cost-effective deployment experience.
+  - Explain how the dynamic Windows 10/11 deployment model can transform the existing version of Windows 10/11 that's included on a device to a customized version that's used in your company without reinstalling Windows.
+  - Explain how the traditional Windows 10/11 deployment model is image-based and uses an organization’s on-premises infrastructure.
 prerequisites: |
   None
 iconUrl: /learn/achievements/windows-deployment-scenarios.svg
@@ -27,16 +27,16 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 subjects:
-- device-management
 - cloud-computing
+- compliance
+- device-management
 units:
 - learn.wwl.examine-windows-10-deployment-scenarios.introduction
-- learn.wwl.examine-windows-10-deployment-scenarios.explore-windows-as-service
-- learn.wwl.examine-windows-10-deployment-scenarios.explore-models
+- learn.wwl.examine-windows-10-deployment-scenarios.explore-windows-service
+- learn.wwl.examine-windows-10-deployment-scenarios.explore-windows-deployment-models
 - learn.wwl.examine-windows-10-deployment-scenarios.examine-modern-deployment-methods
 - learn.wwl.examine-windows-10-deployment-scenarios.examine-dynamic-deployment-methods
 - learn.wwl.examine-windows-10-deployment-scenarios.examine-traditional-deployment-methods

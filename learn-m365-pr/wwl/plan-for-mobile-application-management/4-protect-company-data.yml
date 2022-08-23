@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-for-mobile-application-management.protect-company-data
+title: Protect company data by using app protection policies
+metadata:
+  title: Protect company data by using app protection policies
+  description: "Protect company data by using app protection policies"
+  ms.date: 07/21/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/4-protect-company-data.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson wants to use MAM app protection policies to protect Contoso's data within applications. Which of the following items is another benefit of using app protection policies?"
+    choices:
+    - content: "App protection policies require device management, which provides greater control over app management"
+      isCorrect: false
+      explanation: "Incorrect. App protection policies don't require device management."
+    - content: "App protection policies can protect company data on both managed and unmanaged devices"
+      isCorrect: true
+      explanation: "Correct. Mobile app management doesn't require device management. As a result, app protection policies can protect company data on both managed and unmanaged devices. Management is centered on the user identity, which removes the requirement for device management."
+    - content: "App protection policies apply when using an app in both work and personal context"
+      isCorrect: false
+      explanation: "Incorrect. App protection policies are only applied in a work context."

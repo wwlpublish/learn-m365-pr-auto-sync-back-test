@@ -18,15 +18,6 @@ What makes an ideal partner or ISV candidate for building a Microsoft Teams app 
 
 The Microsoft Teams app is the starting point. When planning and building your app, think about the value that you're giving to your users. One thing to keep in mind is the *stickiness* of the app. Users are more inclined to pay for an app if it's something they can't live without or if it's something that helps them with their productivity.
 
-### Per-user vs. flat-rate pricing models
-
-Today, Microsoft Teams supports a per-user model, meaning that it doesn't support a flat-rate price. But Microsoft AppSource does support flat-rate offers.
-
-> [!NOTE]
-> Support for site-wide and flat-rate pricing models will be supported and available in the future.
-
-This doesn't mean that you're unable to publish a Teams app with a flat-rate offer that you want to monetize. It means your users won't be able to purchase the subscription from the Teams App Store. Instead, users will have to download and install the Teams app, and then purchase the subscription from Microsoft AppSource.
-
 ### Free vs. paid in-app experiences
 
 As previously mentioned, stickiness of an app is a key point you want to focus on for your app, but also think about the value of a free Teams app, also known as the *freemium* model, compared to a paid Teams app.

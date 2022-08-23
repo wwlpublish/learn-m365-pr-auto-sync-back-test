@@ -2,7 +2,7 @@ Now that you're familiar with the software navigation, let's jump into the 4Cs, 
 
 The transparency of being able to see how OKRs relate to each other also allows bottlenecks or duplication of efforts to be identified.
 
-:::image type="content" source="../media/cascade.png" alt-text="Screenshot showing the alignment of OKRs.":::
+:::image type="content" source="../media/cascade-example.png" alt-text="Screenshot showing the alignment of OKRs.":::
 
 The alignment of OKRs is best visualized in the main screen section. Next to an **Objective** you'll see a dropdown arrow.
 

@@ -5,13 +5,11 @@
 With Windows client, there are two release types:
 
  -  **Feature updates** add new functionality and are released twice a year. Because these updates are more frequent, they're smaller. There are many benefits:
-    
      -  There's less disruption and effort to apply new features.
      -  Users are more productive with earlier access to new Windows features.
      -  Users take less time to adapt to smaller changes.
      -  The workload and cost impact of updating Windows is reduced.
  -  **Quality updates** provide security and reliability fixes. These updates are issued once a month as **non-security releases** or **combined security + non-security releases.** Non-security releases allow IT admins to do an early validation of content. In addition, a cumulative update is released which includes all previous updates. There are a couple of benefits:
-    
      -  Identified security issues are fixed and deployed quickly, helping to keep devices secure.
      -  Everyone receives security fixes regularly, keeping all devices aligned.
 
@@ -30,13 +28,10 @@ With Windows client, there are two release types:
 A common ring structure uses three deployment groups:
 
  -  **Preview** is for planning and development.
-    
      -  The purpose of the preview ring is to evaluate the new features of the update.
  -  **Limited** is for pilot and validation.
-    
      -  The purpose of the limited ring is to validate the update on representative devices across the network.
  -  **Broad** is for wide deployment.
-    
      -  Once the devices in the limited ring have had a sufficient stabilization period, it’s time for broad deployment across the network.
 
 ### Deployment methods for Windows
