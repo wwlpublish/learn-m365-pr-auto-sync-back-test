@@ -17,11 +17,12 @@ summary:  |
     > Viva Goals is currently available only for preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 abstract: |
   By the end of this module, you'll be able to:
-    - Describe the main features of Viva Connections
-    - List technical requirements/prerequisites for Viva Connections implementation
-    - Explain the differences between desktop and mobile experiences 
-    -	Identify 2-3 business use cases for Viva Connections 
-
+    - Navigate your way around Viva Goals
+    - Understand how Objectives, Key Results and Projects align within Viva Goals
+    - Create Objectives, Key Results and Projects
+    - See the different ways that progress can be tracked
+    - Close your OKRs at the end of the relevant time period
+    - Understand the different types of systems that can integrate with Viva Goals and their uses
 prerequisites: |
   - Access to an instance of Viva Goals
 iconUrl: /learn/achievements/generic-badge.svg
