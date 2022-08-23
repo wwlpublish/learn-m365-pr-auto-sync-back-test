@@ -360,7 +360,7 @@ achievements:
   title: Manage Advanced eDiscovery
   summary: Manage Advanced eDiscovery
   iconUrl: /learn/achievements/ediscovery-management.svg
-- uid: learn-m365.m365-compliance-information-transition-to-microsoft-information-protection.badge
+- uid: learn-m365.m365-compliance-information-transition-to-microsoft-information-protection.badges
   type: badge
   title: Transition from Azure Information Protection to Microsoft Information Protection
   summary: Transition from Azure Information Protection to Microsoft Information Protection
