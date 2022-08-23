@@ -39,153 +39,18 @@ Organizations must use Windows PowerShell to modify one branding template at a t
     :::image type="content" source="../media/message-encryption-template-0805f33e.png" alt-text="Diagram showing a message encryption branding template with all the features highlighted that can be customized.":::
     
 
-:::row:::
-  :::column:::
-    **To customize this feature of the encryption experience:**
-  :::column-end:::
-  :::column:::
-    **Use these PowerShell commands:**
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Background color:
-  :::column-end:::
-  :::column:::
-    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -BackgroundColor "&lt;\#RRGGBB hexadecimal color code or name value&gt;"**Example:
-
-Set-OMEConfiguration -Identity "Branding Template 1" -BackgroundColor "\#ffffff"
-
-For more information about background colors, see [Background colors](/microsoft-365/compliance/add-your-organization-brand-to-encrypted-messages?azure-portal=true).
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Logo:
-  :::column-end:::
-  :::column:::
-    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -Image &lt;Byte\[\]&gt;**
-
-Example:
-
-Set-OMEConfiguration -Identity "Branding Template 1" -Image (\[System.IO.File\]::ReadAllBytes('C:\\Temp\\contosologo.png'))
-
-Supported file formats: .png, .jpg, .bmp, .tiff
-
-Optimal size of logo file: less than 40 KB
-
-Optimal size of logo image: 170x70 pixels. If your image exceeds these dimensions, the service resizes your logo for display in the portal. The service doesn't modify the graphic file itself. For best results, use the optimal size.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Text next to the sender's name and email address:
-  :::column-end:::
-  :::column:::
-    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -IntroductionText "&lt;String up to 1024 characters&gt;"**
-
-Example:
-
-Set-OMEConfiguration -Identity "Branding Template 1" -IntroductionText "has sent you a secure message."
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Text that appears on the "Read Message" button:
-  :::column-end:::
-  :::column:::
-    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -ReadButtonText "&lt;String up to 1024 characters&gt;"**
-
-Example:
-
-Set-OMEConfiguration -Identity "OME Configuration" -ReadButtonText "Read Secure Message"
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Text that appears below the "Read Message" button:
-  :::column-end:::
-  :::column:::
-    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -EmailText "&lt;String up to 1024 characters&gt;"**
-
-Example:
-
-Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system."
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    URL for the Privacy Statement link:
-  :::column-end:::
-  :::column:::
-    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -PrivacyStatementURL "&lt;URL&gt;"**
-
-Example:
-
-Set-OMEConfiguration -Identity "Branding Template 1" -PrivacyStatementURL "https://contoso.com/privacystatement.html"
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Disclaimer statement in the email that contains the encrypted message:
-  :::column-end:::
-  :::column:::
-    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -DisclaimerText "&lt;Disclaimer statement. String of up to 1024 characters.&gt;"**
-
-Example:
-
-Set-OMEConfiguration -Identity "Branding Template 1" -DisclaimerText "This message is confidential for the use of the addressee only."
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    Text that appears at the top of the encrypted mail viewing portal:
-  :::column-end:::
-  :::column:::
-    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -PortalText "&lt;Text for your portal. String of up to 128 characters.&gt;"**
-
-Example:
-
-Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal"
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    To enable or disable authentication with a one-time pass code for this custom template:
-  :::column-end:::
-  :::column:::
-    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -OTPEnabled &lt;$true\|$false&gt;**
-
-Examples:
-
-To enable one-time passcodes for this custom template:
-
-Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $true
-
-To disable one-time passcodes for this custom template:
-
-Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $false
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    To enable or disable authentication with Microsoft, Google, or Yahoo identities for this custom template:
-  :::column-end:::
-  :::column:::
-    **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -SocialIdSignIn &lt;$true\|$false&gt;**
-
-Examples:
-
-To enable social IDs for this custom template:
-
-Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $true
-
-To disable social IDs for this custom template:
-
-Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $false
-  :::column-end:::
-:::row-end:::
-
+| **To customize this feature of the encryption experience:**                                               | **Use these PowerShell commands:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Background color:                                                                                         | **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -BackgroundColor "&lt;\#RRGGBB hexadecimal color code or name value&gt;"**<br><br>Example:<br><br>Set-OMEConfiguration -Identity "Branding Template 1" -BackgroundColor "\#ffffff"<br><br>For more information about background colors, see [Background colors](/microsoft-365/compliance/add-your-organization-brand-to-encrypted-messages?azure-portal=true).                                                                                                                                            |
+| Logo:                                                                                                     | **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -Image &lt;Byte\[\]&gt;**<br><br>Example:<br><br>Set-OMEConfiguration -Identity "Branding Template 1" -Image (\[System.IO.File\]::ReadAllBytes('C:\\Temp\\contosologo.png'))<br><br>Supported file formats: .png, .jpg, .bmp, .tiff<br><br>Optimal size of logo file: less than 40 KB<br><br>Optimal size of logo image: 170x70 pixels. If your image exceeds these dimensions, the service resizes your logo for display in the portal. The service doesn't modify the graphic file itself. For best results, use the optimal size. |
+| Text next to the sender's name and email address:                                                         | **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -IntroductionText "&lt;String up to 1024 characters&gt;"**<br><br>Example:<br><br>Set-OMEConfiguration -Identity "Branding Template 1" -IntroductionText "has sent you a secure message."                                                                                                                                                                                                                                                                                                                                            |
+| Text that appears on the "Read Message" button:                                                           | **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -ReadButtonText "&lt;String up to 1024 characters&gt;"**<br><br>Example:<br><br>Set-OMEConfiguration -Identity "OME Configuration" -ReadButtonText "Read Secure Message"                                                                                                                                                                                                                                                                                                                                                             |
+| Text that appears below the "Read Message" button:                                                        | **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -EmailText "&lt;String up to 1024 characters&gt;"**<br><br>Example:<br><br>Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system."                                                                                                                                                                                                                                                                                                                             |
+| URL for the Privacy Statement link:                                                                       | **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -PrivacyStatementURL "&lt;URL&gt;"**<br><br>Example:<br><br>Set-OMEConfiguration -Identity "Branding Template 1" -PrivacyStatementURL "https://contoso.com/privacystatement.html"                                                                                                                                                                                                                                                                                                                                                    |
+| Disclaimer statement in the email that contains the encrypted message:                                    | **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -DisclaimerText "&lt;Disclaimer statement. String of up to 1024 characters.&gt;"**<br><br>Example:<br><br>Set-OMEConfiguration -Identity "Branding Template 1" -DisclaimerText "This message is confidential for the use of the addressee only."                                                                                                                                                                                                                                                                                     |
+| Text that appears at the top of the encrypted mail viewing portal:                                        | **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -PortalText "&lt;Text for your portal. String of up to 128 characters.&gt;"**<br><br>Example:<br><br>Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal"                                                                                                                                                                                                                                                                                                                              |
+| To enable or disable authentication with a one-time pass code for this custom template:                   | **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -OTPEnabled &lt;$true\|$false&gt;**<br><br>Examples:<br><br>To enable one-time passcodes for this custom template:<br><br>Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $true<br><br>To disable one-time passcodes for this custom template:<br><br>Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $false                                                                                                                                                                                       |
+| To enable or disable authentication with Microsoft, Google, or Yahoo identities for this custom template: | **Set-OMEConfiguration -Identity "&lt;OMEConfigurationName&gt;" -SocialIdSignIn &lt;$true\|$false&gt;**<br><br>Examples:<br><br>To enable social IDs for this custom template:<br><br>Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $true<br><br>To disable social IDs for this custom template:<br><br>Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $false                                                                                                                                                                                           |
 
 ### Create an Exchange mail flow rule that applies your custom branding to encrypted emails
 

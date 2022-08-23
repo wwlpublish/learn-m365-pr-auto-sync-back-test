@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-device-compliance.monitor-results-intune-device-compliance-policies
+title: Monitor results of your Intune device compliance policies
+metadata:
+  title: Monitor results of your Intune device compliance policies
+  description: "Monitor results of your Intune device compliance policies"
+  ms.date: 08/02/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-monitor-results-intune-device-compliance-policies.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Holly Spencer is the Enterprise Administrator for Fabrikam. Fabrikam uses Intune as its mobile device management solution. Holly configured multiple compliance policies and an Intune configuration policy. She later discovered that a couple of the settings from the compliance policies overlapped. How will Intune resolve these policy conflicts?"
+    choices:
+    - content: "Intune uses the most secure of these policies"
+      isCorrect: true
+      explanation: "Correct. If policy settings overlap and the organization deployed multiple compliance policies, Intune uses the most secure of these policies."
+    - content: "The settings in the compliance policy will take precedence over the settings in the Intune configuration policy"
+      isCorrect: false
+      explanation: "Incorrect. This solution applies only if the conflict is between settings from an Intune configuration policy and a compliance policy. In this case, the conflict was between two compliance policies, so this solution doesn't apply."
+    - content: "The settings in the Intune configuration policy will apply if it's more secure than the compliance policy"
+      isCorrect: false
+      explanation: "Incorrect. This solution doesn't apply if the conflict is between multiple compliance policies."

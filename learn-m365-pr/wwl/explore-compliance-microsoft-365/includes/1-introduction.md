@@ -29,4 +29,4 @@ After completing this module, you'll be able to:
  -  Plan your beginning compliance tasks in Microsoft Purview.
  -  Manage your compliance requirements with Compliance Manager.
  -  Manage compliance posture and improvement actions using the Compliance Manager dashboard.
- -  Explain how an organization's compliance score is determined.
+ -  Explain how an organization's compliance score is determined. 

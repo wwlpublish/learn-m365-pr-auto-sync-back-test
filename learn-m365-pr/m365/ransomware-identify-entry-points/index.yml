@@ -18,7 +18,7 @@ abstract: |
     - Describe the specialization of ransomware 
 prerequisites: |
   - None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/identify-ransomware-entry-points.svg
 levels: 
   - beginner
 roles: 

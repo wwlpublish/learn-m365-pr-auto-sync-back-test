@@ -4394,6 +4394,561 @@
       "source_path": "learn-m365-pr/wwl/plan-configure-network-settings-for-microsoft-teams/10-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/plan-configure-network-settings-for-microsoft-teams/11-summary",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/prepare-your-windows-10-devices-for-co-management/3-configure-configuration-manager.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-your-windows-10-devices-for-co-management/4-configure-configuration-manager",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/prepare-your-windows-10-devices-for-co-management/2-explore-prerequisites-for-using.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-your-windows-10-devices-for-co-management/3-explore-prerequisites-for-using",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/prepare-your-windows-10-devices-for-co-management/4-enroll-to-intune.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-your-windows-10-devices-for-co-management/5-enroll-to-intune",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/prepare-your-windows-10-devices-for-co-management/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-your-windows-10-devices-for-co-management/8-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/prepare-your-windows-10-devices-for-co-management/6-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/prepare-your-windows-10-devices-for-co-management/9-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-mobile-application-management/4-explore-app-management-using-intune.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-for-mobile-application-management/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-mobile-application-management/3-explore-app-management-using-configuration-manager.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-for-mobile-application-management/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-mobile-application-management/2-protect-company-data.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-for-mobile-application-management/4-protect-company-data",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-mobile-application-management/5-explore-app-management-using-azure-ad.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-for-mobile-application-management/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-mobile-application-management/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-for-mobile-application-management/7-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-for-mobile-application-management/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-for-mobile-application-management/8-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-windows-autopilot/2-explore.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-windows-autopilot/2-explore-windows-autopilot",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/examine-windows-10-deployment-scenarios/2-explore-windows-as-service.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/examine-windows-10-deployment-scenarios/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/examine-windows-10-deployment-scenarios/3-explore-models.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/examine-windows-10-deployment-scenarios/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-windows-10-subscription-activation-strategy/2-explore-enterprise-e3-availability-through-cloud-service-provider-channel.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-windows-10-subscription-activation-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-co-management-of-windows-10-devices/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-co-management-of-windows-10-devices/5-enable-by-using-azure-active-directory.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-co-management-of-windows-10-devices/2-explore.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-co-management-of-windows-10-devices/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-co-management-of-windows-10-devices/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-co-management-of-windows-10-devices/4-manage-devices-using-configuration-manager.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-co-management-of-windows-10-devices/3-plan-your-strategy.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-co-management-of-windows-10-devices/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-store-for-business/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-store-for-business/5-add-apps-to-your-private-store.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-store-for-business/3-examine-prerequisites-to-using.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-store-for-business/2-explore.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-store-for-business/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-store-for-business/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-store-for-business/4-manage-permissions-licensing-to-use.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-microsoft-store-for-business/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-configuration-manager-to-intune/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-configuration-manager-to-intune/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-configuration-manager-to-intune/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-configuration-manager-to-intune/2-modify-your-co-management-settings.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-configuration-manager-to-intune/4-monitor-your-co-management-solution.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-configuration-manager-to-intune/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-configuration-manager-to-intune/3-transfer-workload-management.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-configuration-manager-to-intune/5-validate-compliance-of-your-co-managed-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-for-device-management-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-desktop-analytics/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-desktop-analytics/4-analyze-device-performance-issues-using-device-health.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-desktop-analytics/6-analyze-device-upgrade-preparedness-using-upgrade-readiness.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-desktop-analytics/5-analyze-status-of-software-updates-using-update-compliance.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-desktop-analytics/3-explore-major-components-of.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-desktop-analytics/2-explore-windows-10-diagnostic-data.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-desktop-analytics/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-desktop-analytics/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/introduction-to-desktop-analytics/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/8-examine-common-error-codes-how-to-resolve-them.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/6-examine-log-file-events-using-event-viewer.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/3-examine-windows-setup-log-files-using-setupdiag-tool.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/2-identify-resolutions-to-common-upgrade-errors.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/9-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/5-review-errors-during-upgrade.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/10-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/7-troubleshoot-upgrade-issues-using-log-files.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/resolve-windows-10-upgrade-errors/4-understand-error-codes.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/plan-your-windows-10-deployment-strategy/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/conduct-audit-log-investigations/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/conduct-audit-log-investigations/3-create-auditing-policies-sharepoint-online.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/conduct-audit-log-investigations/2-explore-searching-microsoft-365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/conduct-audit-log-investigations/6-export-search-results-to-local-csv-file.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/conduct-audit-log-investigations/5-filter-search-results-for-specific-user-activity.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/conduct-audit-log-investigations/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/conduct-audit-log-investigations/8-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/conduct-audit-log-investigations/4-search-security-compliance-center.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/conduct-audit-log-investigations/7-search-using-windows-powershell.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/conduct-audit-log-investigations/9-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-windows-information-protection/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-windows-information-protection/2-explore.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-windows-information-protection/4-implement-policies-windows-desktop-apps.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-windows-information-protection/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-windows-information-protection/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-windows-information-protection/3-plan-for-windows-information-protection.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-windows-information-protection/6-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-data-governance-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/03-choose-appropriate-coexistence-modes.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/05-configure-meeting-migration-service.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/01-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/06-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/04-set-coexistence-upgrade-settings.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/07-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/transition-from-skype-for-business-to-microsoft-teams/02-understand-upgrade-process-microsoft-teams.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/enroll-devices-to-mobile-device-management/2-enroll-windows-10-android-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/enroll-devices-to-mobile-device-management/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/enroll-devices-to-mobile-device-management/3-enroll-ios-devices-using-apple-device-enrollment-program.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/enroll-devices-to-mobile-device-management/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/enroll-devices-to-mobile-device-management/4-regulate-device-enrollment-by-using-enrollment-rules.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/enroll-devices-to-mobile-device-management/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/enroll-devices-to-mobile-device-management/5-examine-how-users-can-enroll-their-personal-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/enroll-devices-to-mobile-device-management/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/enroll-devices-to-mobile-device-management/6-enroll-devices-using-device-enrollment-manager-account.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/enroll-devices-to-mobile-device-management/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/enroll-devices-to-mobile-device-management/7-examine-need-for-multi-factor-authentication-to-secure-enrollment.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/enroll-devices-to-mobile-device-management/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/enroll-devices-to-mobile-device-management/8-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/enroll-devices-to-mobile-device-management/9-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/enroll-devices-to-mobile-device-management/9-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/enroll-devices-to-mobile-device-management/10-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-device-compliance/2-plan-for.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-device-compliance/2-plan-device-compliance",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-device-compliance/3-configure-conditional-users-groups.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-device-compliance/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-device-compliance/4-create-conditional-access-policies.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-device-compliance/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-device-compliance/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-device-compliance/9-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-device-compliance/5-monitor-enrolled-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-device-compliance/8-monitor-enrolled-devices",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-device-compliance/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-device-compliance/10-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-advanced-ediscovery/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-advanced-ediscovery/6-analyze-data.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-advanced-ediscovery/5-analyze-workflow-example.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-advanced-ediscovery/2-explore.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-advanced-ediscovery/3-implement.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-advanced-ediscovery/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-advanced-ediscovery/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-advanced-ediscovery/4-manage-workflow.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-advanced-ediscovery/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/manage-content-search-investigations-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-secure-user-access-microsoft-365/10-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/11-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-secure-user-access-microsoft-365/11-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-secure-user-access-microsoft-365/12-summary",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-user-accounts-licenses-microsoft-365/7-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-user-accounts-licenses-microsoft-365/8-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/manage-user-accounts-licenses-microsoft-365/8-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-user-accounts-licenses-microsoft-365/9-summary",
+      "redirect_document_id": true
     }
   ]
 }

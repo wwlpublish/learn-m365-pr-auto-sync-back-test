@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.explore-microsoft-365-platform-services
 metadata:
-  title: Explore the Microsoft 365 platform services
-  description: Explore the Microsoft 365 platform services
-  ms.date: 04/23/2021
+  title: MS-100 Explore the Microsoft 365 platform services
+  description: MS-100 Explore the Microsoft 365 platform services
+  ms.date: 07/21/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Explore the Microsoft 365 platform services
+title: MS-100 Explore the Microsoft 365 platform services
 prerequisites: |
   - Students should have completed a role-based administrator training collection such as Messaging, Teamwork, Security and Compliance, or Collaboration.
   - Students should have a proficient understanding of DNS and basic functional experience with Microsoft 365 services.
@@ -23,13 +23,14 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 subjects:
+- cloud-computing
 - collaboration
 - device-management
-- cloud-computing
+- employee-engagement
+- productivity
 modules:
 - learn.wwl.explore-exchange-online
 - learn.wwl.explore-sharepoint-online

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.enroll-devices-to-mobile-device-management.examine-device-enrollment-intune
+title: Examine device enrollment in Intune
+metadata:
+  title: Examine device enrollment in Intune
+  description: "Examine device enrollment in Intune"
+  ms.date: 08/02/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/6-examine-device-enrollment-intune.md)]

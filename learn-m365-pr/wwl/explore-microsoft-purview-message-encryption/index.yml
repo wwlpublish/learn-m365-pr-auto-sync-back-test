@@ -3,7 +3,7 @@ uid: learn.wwl.explore-microsoft-purview-message-encryption
 metadata:
   title: Explore Microsoft Purview Message Encryption
   description: "Explore Microsoft Purview Message Encryption"
-  ms.date: 06/02/2022
+  ms.date: 08/16/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -18,7 +18,7 @@ abstract: |
   *   Add organizational branding to encrypted email messages.
   *   Explain the extra capabilities provided by Microsoft Purview Advanced Message Encryption.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/explore-microsoft-purview-message-encryption.svg
 levels:
 - intermediate
 roles:

@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-device-compliance.plan-for
+title: Plan for device compliance
+metadata:
+  title: Plan for device compliance
+  description: "Plan for device compliance"
+  ms.date: 08/02/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-plan-device-compliance.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Northwind Traders wants to block access to company resources from non-compliant devices. As the Enterprise Administrator for Northwind Traders, Allan Deyoung wants to configure a compliance policy that provides this restriction. If the compliance policy identifies a previously compliant device as being noncompliant, which of the following items is a noncompliant action that can be performed by the policy?"
+    choices:
+    - content: "Leave the device marked as compliant for three more days, then mark the device as noncompliant if it still hasn't achieved compliance"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't an action that can be performed by a compliance policy."
+    - content: "Leave the device marked as compliant for an organization-defined grace period, then mark the device as noncompliant if it still hasn't achieved compliance"
+      isCorrect: false
+      explanation: "Incorrect. his item isn't an action that can be performed by a compliance policy."
+    - content: "Notify end users through email"
+      isCorrect: true
+      explanation: "Correct. Organizations can customize an email notification before sending it to the end user. Intune includes details about the noncompliant device in the email notification."

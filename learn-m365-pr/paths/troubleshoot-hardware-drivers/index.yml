@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.troubleshoot-hardware-drivers
 metadata:
-  title: Troubleshoot hardware and drivers
-  description: Troubleshoot hardware and drivers
-  ms.date: 06/09/2022
+  title: MD-100 Troubleshoot hardware and drivers
+  description: MD-100 Troubleshoot hardware and drivers
+  ms.date: 07/26/2022
   author: wwlpublish
-  ms.author: brhinkel
+  ms.author: rstearman
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Troubleshoot hardware and drivers
+title: MD-100 Troubleshoot hardware and drivers
 prerequisites: |
   - Students should have a basic understanding of computer networks and hardware concepts.
   - Students should have a basic understanding of OS and Application concepts.

@@ -1,20 +1,20 @@
 ### YamlMime:Module
 uid: learn.wwl.plan-your-windows-10-subscription-activation-strategy
 metadata:
-  title: Plan your Windows 10 Subscription Activation strategy
-  description: "Plan your Windows 10 Subscription Activation strategy"
-  ms.date: 07/30/2021
+  title: Plan your Windows client Subscription Activation strategy
+  description: "Plan your Windows client Subscription Activation strategy"
+  ms.date: 07/21/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Plan your Windows 10 Subscription Activation strategy
-summary: This module examines how Windows 10 Subscription Activation enables a seamless online upgrade from Windows 10 Pro to Windows 10 Enterprise, how it provides for automatic subscription activation, and how enterprise licenses can be deployed.
+title: Plan your Windows client Subscription Activation strategy
+summary: This module examines how Windows 10/11 Subscription Activation enables a seamless online upgrade from Windows 10/11 Pro to Windows 10/11 Enterprise, how it provides for automatic subscription activation, and how enterprise licenses can be deployed.
 abstract: |
-  By the end of this module, you will be able to:
-  - Describe how Windows 10 Enterprise E3 subscriptions can be purchased through the Cloud Service Provider channel
-  - Configure Virtual Desktop Access for automatic subscription activation on virtual machines
-  - Explain how Windows 10 Enterprise licenses can be deployed automatically and without device restart
+  By the end of this module, you'll be able to:
+  - Describe how Windows 10/11 Enterprise E3 subscriptions can be purchased through the Cloud Service Provider channel.
+  - Configure Virtual Desktop Access for automatic subscription activation on virtual machines.
+  - Explain how Windows 10/11 Enterprise licenses can be deployed automatically and without device restart.
 prerequisites: |
   None
 iconUrl: /learn/achievements/windows-subscription-activation.svg
@@ -26,14 +26,15 @@ roles:
 - solution-architect
 - technology-manager
 products:
-- azure-active-directory
 - m365
 - office-365
 subjects:
+- cloud-computing
+- compliance
 - device-management
 units:
 - learn.wwl.plan-your-windows-10-subscription-activation-strategy.introduction
-- learn.wwl.plan-your-windows-10-subscription-activation-strategy.explore-enterprise-e3-availability-through-cloud-service-provider-channel
+- learn.wwl.plan-your-windows-10-subscription-activation-strategy.explore-windows-availability-through-cloud-service-provider-channel
 - learn.wwl.plan-your-windows-10-subscription-activation-strategy.configure-virtual-desktop-access-for-automatic-virtual-machines
 - learn.wwl.plan-your-windows-10-subscription-activation-strategy.deploy-enterprise-licenses
 - learn.wwl.plan-your-windows-10-subscription-activation-strategy.knowledge-check

@@ -4,26 +4,27 @@ title: Examine the Windows Autopilot self-deployment model
 metadata:
   title: Examine the Windows Autopilot self-deployment model
   description: "Examine the Windows Autopilot self-deployment model"
-  ms.date: 06/30/2021
+  ms.date: 07/21/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 5
 content: |
   [!include[](includes/5-examine-self-deployment-model.md)]
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Contoso, Holly Dickson is considering using Windows Autopilot to set up and pre-configure new Windows 10 devices that will be shared throughout the company. Holly wants to use Windows Autopilot self-deployment mode to deploy Windows 10 to these devices. Which of the following steps must Holly complete to use self-deployment mode?"
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson is considering using Windows Autopilot to set up and pre-configure new Windows 11 devices that will be shared throughout the company. Holly wants to use Windows Autopilot self-deployment mode to deploy Windows 11 to these devices. Which of the following steps must Holly complete to use self-deployment mode?"
     choices:
     - content: "Join each device to Azure Active Directory"
       isCorrect: true
-      explanation: "That's correct. Self-deployment mode requires the devices to be joined to Azure Active Directory."
+      explanation: "Correct. Self-deployment mode requires the devices to be joined to Azure Active Directory."
     - content: "Join each device to on-premises Active Directory"
       isCorrect: false
-      explanation: "That's incorrect. Self-deploying mode doesn't support Active Directory Join. Try again."
+      explanation: "Incorrect. Self-deploying mode doesn't support Active Directory Join."
     - content: "Join each device to Hybrid Azure Active Directory"
       isCorrect: false
-      explanation: "That's incorrect. Self-deploying mode doesn't support Hybrid Azure AD Join. Try again."
+      explanation: "Incorrect. Self-deploying mode doesn't support Hybrid Azure AD Join."
