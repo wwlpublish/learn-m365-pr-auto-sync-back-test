@@ -4951,11 +4951,6 @@
       "redirect_document_id": true
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-compliance-information-transition-to-microsoft-information-protection/summary-knowledge-check.md",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-compliance-information-governance/",
-      "redirect_document_id": true
-    },
-    {
       "source_path": "learn-m365-pr/m365/m365-compliance-information-transition-to-microsoft-information-protection/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-compliance-information-governance/",
       "redirect_document_id": true
