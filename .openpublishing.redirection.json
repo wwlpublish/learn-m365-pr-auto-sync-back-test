@@ -4958,22 +4958,22 @@
     {
       "source_path": "learn-m365-pr/m365/m365-compliance-information-transition-to-microsoft-information-protection/label-management-overview.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-compliance-information-governance/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-compliance-information-transition-to-microsoft-information-protection/evaluate-windows-labeling.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-compliance-information-governance/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-compliance-information-transition-to-microsoft-information-protection/transition-from-azure.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-compliance-information-governance/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-compliance-information-transition-to-microsoft-information-protection/summary-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-compliance-information-governance/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     }
   ]
 }
