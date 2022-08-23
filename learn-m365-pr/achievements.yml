@@ -315,3 +315,8 @@ achievements:
   title: Troubleshoot data governance
   summary: Troubleshoot data governance
   iconUrl: /learn/achievements/loss-prevention-troubleshoot.svg
+- uid: learn-m365.m365-compliance-information-transition-to-microsoft-information-protection
+  type: badge
+  title: Transition from Azure Information Protection to Microsoft Information Protection
+  summary: Transition from Azure Information Protection to Microsoft Information Protection
+  iconUrl: /learn/achievements/transition-azure-information-microsoft-information-protection.svg
