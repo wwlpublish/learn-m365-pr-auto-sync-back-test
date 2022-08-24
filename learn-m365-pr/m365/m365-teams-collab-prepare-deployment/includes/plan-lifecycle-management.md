@@ -4,9 +4,9 @@ Planning for lifecycle management is essential if your organization is to get th
 
 In Teams, each individual team has its own lifecycle with the following sequence:  
 
-1. Initiate
-1. Active
-1. Sunset
+1. Beginning
+1. Middle
+1. End
 
 Broadly speaking, the lifecycle of a Teams team encompasses both configuration—*static* settings and policies—and management, which is dynamic per team during the lifecycle.
 
