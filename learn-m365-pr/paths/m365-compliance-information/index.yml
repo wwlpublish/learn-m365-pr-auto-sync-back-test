@@ -31,7 +31,7 @@ modules:
 - learn-m365.m365-compliance-information-prevent-data-loss
 - learn-m365.m365-compliance-information-govern-information
 - learn-m365.m365-compliance-information-manage-records
-- learn-m365.m365-compliance-information-transition-to-microsoft-information-protection
+#learn-m365.m365-compliance-information-transition-to-microsoft-information-protection
 
 trophy: 
   uid: learn-m365.m365-compliance-information-.trophy
