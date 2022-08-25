@@ -2,16 +2,20 @@ To protect endpoints, it's critical to understand exactly what they are. Here, w
 
 ## What is an endpoint?
 
-An *endpoint* is any entity that connects to, and communicates through, a network. This includes devices such as computers, mobile devices, Internet of Things (IoT) devices, virtual machines, USB devices, and more.
+Endpoints are devices that connect to and exchange information through a computer network, such as computers, mobile devices, and servers. Other devices such as Internet of Things (IoT) devices like cameras, smart thermostats, and speakers are also considered as endpoints.
 
-Endpoints can be owned by an organization or a user. They can be fully managed by an organization's IT team (think work laptops) or partially managed. For example, an individual owns the device, but uses an email client (managed by their organization's IT department) for emails.
+On the flip side, devices that a network runs on, such as firewalls, load balancers, and routers are not endpoints. They are consumer premise equipment (CPE). 
+
+Endpoints can be owned by an organization or a user and can be fully managed by an organization’s IT team (think work laptops) or partially managed. For example, you can own a personal device that you use to access work emails. While the device isn’t owned by your organization, the IT department can manage the email client. 
 
 In short, endpoints vary widely in type, ownership, and management.
 
 ## What is an attack surface?
 
-Cybercriminals will try to use _any_ endpoint to carry out attacks. This means that _all_ endpoints can potentially be compromised for malicious purposes since they are *attack vectors*. *Attack surface* refers to the collection of these threat vectors. Let's look at how the use of endpoints can result in a pervasive and encompassing attack surface:
+Cybercriminals look for entry points to carry out an attack. The collection of possible entry points is what is defined as attack surface. This term is used interchangeably with attack vectors. Because endpoints can pretty much be anything that connects to the computer network - an endpoint is a typical attack surface. 
+
+Let's look at how the use of endpoints can result in a pervasive and encompassing attack surface:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWPb1R]
 
-As we can see, the typical employee at an organization might use several devices to carry out their daily work, from home, all the way to their office. This creates a large attack surface, which presents many opportunities for cybercriminals to take advantage. As endpoints become more integral to our lives, attack surfaces will continue to get larger and more pervasive. Accordingly, the need to protect all endpoints becomes more critical.
+As we can see, the typical employee at an organization might use several devices to carry out their daily work, from home, all the way to their office. This creates a large attack surface, which cybercriminals can take advantage of. As devices become more integrated in our lives, attack surfaces will continue to get larger. Because of this, it’s very important to protect endpoints to keep organizations safe. 
