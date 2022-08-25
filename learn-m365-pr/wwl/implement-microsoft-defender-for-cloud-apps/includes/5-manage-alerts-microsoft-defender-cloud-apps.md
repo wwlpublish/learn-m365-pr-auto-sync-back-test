@@ -7,7 +7,7 @@ It's a good idea to review all of your alerts and use them as tools for modifyin
 1. On the **Microsoft Defender for Cloud Apps** portal, select **Alerts** in the navigation pane.
 1. On the **Alerts** page, in the **Filters** section, select **Open** for the resolution status. This section of the dashboard provides full visibility into any suspicious activity or violation of your established policies. It can help you safeguard the security posture you defined for your cloud environment.
     
-    :::image type="content" source="../media/alerts-page-defender-for-cloud-apps-f1b89217.png" alt-text="Screenshot of the Alerts page in the Microsoft Defender for Cloud Apps with the Open filter highlighted." " lightbox="../media/alerts-page-defender-for-cloud-apps-f1b89217.png":::
+    :::image type="content" source="../media/alerts-page-defender-for-cloud-apps-f1b89217.png" alt-text="Screenshot of the Alerts page in the Microsoft Defender for Cloud Apps with the Open filter highlighted." lightbox="../media/alerts-page-defender-for-cloud-apps-f1b89217.png":::
     
 
 For each alert, you need to investigate and determine the nature of the violation and the required response.
