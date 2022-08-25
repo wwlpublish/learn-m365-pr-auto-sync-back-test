@@ -43,8 +43,8 @@ This step is a **required** task. Complete the following steps to connect apps t
 
 1. On the **Microsoft Defender for Cloud Apps** portal, on the **Dashboard**, select the **Connect apps** button on the **App connectors** tile.
 1. On the **Connected apps** page, the **App connectors** tab is displayed by default. Select **+Connect an app** on the menu bar. Select the app in the drop-down menu that appears.
-1. On the **Connect &lt;app name&gt;** window that appears, if an **Instance name** field appears (usually for a non-Microsoft app), enter a value in the field. Select the **Connect &lt;app name&gt;** button.
-1. On the **Connect &lt;app name**&gt; window, follow the instructions to create your connection to the app. The app instructions may vary by app.
+1. On the **Connect <app name>** window that appears, if an **Instance name** field appears (usually for a non-Microsoft app), enter a value in the field. Select the **Connect <app name>** button.
+1. On the **Connect <app name>** window, follow the instructions to create your connection to the app. The app instructions may vary by app.
 
 Why connect an app? App connectors use the APIs of app providers to enable greater visibility and control by Microsoft Defender for Cloud Apps over the apps you connect to.
 
@@ -64,7 +64,7 @@ This step is a **recommended** task. Complete the following steps to enable file
 1. Proceed to the next step to create file policies to meet your organizational requirements.
 
 > [!TIP]
-> You can view files from your connected apps by browsing to **Investigate &gt; Files** on the navigation pane in the Microsoft Defender for Cloud Apps portal**.**
+> You can view files from your connected apps by browsing to **Investigate > Files** on the navigation pane in the Microsoft Defender for Cloud Apps portal**.**
 
 > [!CAUTION]
 > For third-party apps, verify the current load doesn't exceed the app's maximum number of allowed API calls.
@@ -76,7 +76,7 @@ This step is a **required** task. Complete the following steps to create policie
 1. On the **Microsoft Defender for Cloud Apps** portal, select **Control** on the navigation pane, and then select **Policies**.
 1. On the **Policies** page, the **All policies** tab is displayed by default. You can leave this tab selected, or select one of the tabs to the left of it that relates to a specific risk category.
 1. In the selected risk category tab, select **+Create policy** on the menu bar. A drop-down menu appears that displays the policy types that are available for the selected risk category. Select the appropriate policy type.
-1. On the **Create &lt;policy type&gt;** page, select the **Policy template** of your choice, or whether you don't want to use a template (**No template**). Enter the **Policy name,** and then configure the remaining fields to customize the policy per your organization's requirements (select filters, actions, and other settings). Select **Create** when you're finished.
+1. On the **Create <policy type>** page, select the **Policy template** of your choice, or whether you don't want to use a template (**No template**). Enter the **Policy name,** and then configure the remaining fields to customize the policy per your organization's requirements (select filters, actions, and other settings). Select **Create** when you're finished.
 1. On the **Policies** page, select the policy that you created to see the relevant matches (activities, files, alerts).
 
 > [!TIP]
