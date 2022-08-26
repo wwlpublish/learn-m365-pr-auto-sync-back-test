@@ -9,7 +9,7 @@ To successfully secure endpoints, an organization should achieve the following:
 
 ## Register endpoints with cloud identity providers
 
-It’s important for organizations to have visibility into all the devices that are being used in the network. Having visibility into the devices helps organizations monitor and secure all endpoints so that access to valuable resources are managed.  
+It's important for organizations to have visibility into all the devices used in the network. Having visibility into the devices helps organizations monitor and secure all endpoints so that access to valuable resources is managed.  
 
 To achieve this, the organization's IT team can carry out the following steps:
 
