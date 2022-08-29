@@ -19,7 +19,7 @@ In this exercise, you'll learn how to examine data available in Microsoft Graph 
     </html>
     ```
 
-1. Verify that the web app works as expected. In Visual Studio Code, run Live Server to test your app. Open your browser, and go to `http://localhost:3000`. You should see a list of events.
+1. Verify that the web app works as expected. In Visual Studio Code, run Live Server to test your app. Open your browser, and go to `http://localhost:8080`. You should see a list of events.
 
 ## Debug the component template
 
@@ -107,7 +107,7 @@ Now, let's change the font color in the web app.
     </html>
     ```
 
-1. In Visual Studio Code, run Live Server to test your app. Open your browser, and go to `http://localhost:3000`. You should see a list of events.
+1. In Visual Studio Code, run Live Server to test your app. Open your browser, and go to `http://localhost:8080`. You should see a list of events.
 
     :::image type="content" source="../media/5-styling.png" alt-text="Screenshot that shows the result of the styling.":::
 
@@ -129,6 +129,6 @@ Now, let's change the font color in the web app.
     </style>
     ```
 
-1. In Visual Studio Code, run Live Server to test your app. Open your browser, and go to `http://localhost:3000`. You should see a list of events displayed that use your web app's font color.
+1. In Visual Studio Code, run Live Server to test your app. Open your browser, and go to `http://localhost:8080`. You should see a list of events displayed that use your web app's font color.
 
    :::image type="content" source="../media/5-final-result.png" alt-text="Screenshot that shows the final result.":::
