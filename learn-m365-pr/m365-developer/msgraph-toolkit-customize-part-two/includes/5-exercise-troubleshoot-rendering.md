@@ -19,7 +19,7 @@ In this exercise, you'll learn how to examine data available in Microsoft Graph 
     </html>
     ```
 
-1. Verify that the web app works as expected. In Visual Studio Code, run Live Server to test your app. Open your browser, and go to `http://localhost:8080`. You should see a list of events.
+1. Verify that the web app works as expected. In Visual Studio Code, run Live Server to test your app. Open your browser, and go to `http://localhost:3000`. You should see a list of events.
 
 ## Debug the component template
 
