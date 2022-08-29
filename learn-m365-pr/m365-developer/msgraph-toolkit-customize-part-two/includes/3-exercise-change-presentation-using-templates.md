@@ -11,7 +11,7 @@ For this module, you'll need an application with the following settings:
 - **Name**: My app
 - **Platform**: Single Page Application (SPA)
 - **Supported account types**: Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (for example, Skype, Xbox)
-- **Redirect URIs**: http://localhost:3000
+- **Redirect URIs**: http://localhost:8080
 
 To create this application, follow these steps:
 
@@ -44,7 +44,7 @@ To create this application, follow these steps:
     ```json
     {
       "liveServer.settings.host": "localhost",
-      "liveServer.settings.port": 3000
+      "liveServer.settings.port": 8080
     }
     ```
 
@@ -98,7 +98,9 @@ The final version of **index.html** will look like this example:
 
    Run Live Server to test your app.
 
-1. Open your browser, and go to `http://localhost:3000`.
+1. Open your browser, and go to `http://localhost:8080`. If you have the file index.html open when you launch the Live Server, the browser will open `http://localhost:8080/Index.html`. Make sure you change the url to `http://localhost:8080`, before you sign in with your Microsoft 365 developer account. If you don't update the URL, you will get the following error.
+    
+    `The redirect URI 'http://localhost:8080/Index.html' specified in the request does not match the redirect URIs configured for the application <Your client ID>. Make sure the redirect URI sent in the request matches one added to your application in the Azure portal. Navigate to https://aka.ms/redirectUriMismatchError to learn more about how to fix this.`
 1. Sign in with your Microsoft 365 developer account. Consent to the required permissions, and select **Accept**.
 1. Finally, the signed-in button's content shows the user's email address after signing in.
 
