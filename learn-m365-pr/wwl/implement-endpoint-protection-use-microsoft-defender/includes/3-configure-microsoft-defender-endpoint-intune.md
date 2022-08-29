@@ -66,7 +66,7 @@ Complete the following steps to enable Microsoft Defender for Endpoint with Micr
     > [!TIP]
     > If the **Connection status** at the top of the page is already set to **Enabled**, the connection to Intune has already been made. In this event, you can select **Open the Microsoft Defender for Endpoint admin console** to open the **Microsoft Defender Security Center**. Then use the guidance in the following steps to confirm that the **Microsoft Intune connection** is set to **On**.
 
-5.  In the **Microsoft 365 Defender** portal, select **Settings > Endpoints > Advanced features**.
+5.  In the **Microsoft 365 Defender** portal, select **Settings &gt; Endpoints &gt; Advanced features**.
 6.  Set the toggle switch for the **Microsoft Intune connection** setting to **On**.
     
     :::image type="content" source="../media/security-center-intune-toggle-3a1d7a0a.png" alt-text="Screenshot of the Microsoft Intune connection setting.":::
@@ -74,7 +74,7 @@ Complete the following steps to enable Microsoft Defender for Endpoint with Micr
 7.  Select **Save preferences**.
     
     > [!NOTE]
-    > Once the connection between Microsoft Defender for Endpoint and Microsoft Intune is established, the services are expected to sync with each other **at least** once every 24 hours. The number of days without sync until the connection is considered unresponsive can be configured in the Microsoft Endpoint Manager admin center. Select **Endpoint security > Microsoft Defender for Endpoint > Number of days until partner is unresponsive**.
+    > Once the connection between Microsoft Defender for Endpoint and Microsoft Intune is established, the services are expected to sync with each other **at least** once every 24 hours. The number of days without sync until the connection is considered unresponsive can be configured in the Microsoft Endpoint Manager admin center. Select **Endpoint security &gt; Microsoft Defender for Endpoint &gt; Number of days until partner is unresponsive**.
 
 8.  At this point, you have enabled Microsoft Defender for Endpoint with Microsoft Intune. You'll now configure Microsoft Defender for Endpoint to use compliance and app protection policies. To do so, you must begin by returning to the **Microsoft Defender for Endpoint** page in the **Microsoft Endpoint Manager admin center**.
 9.  To use Microsoft Defender for Endpoint with compliance policies, configure the following options under **MDM Compliance Policy Settings** for the platforms you support:
@@ -99,4 +99,4 @@ Classic conditional access policies for MTD apps:
  -  Are distinct from conditional access policies you can create to help manage MTD.
  -  By default, don't interact with other conditional access policies you use for evaluation.
 
-To view classic conditional access policies, in Azure, go to **Azure Active Directory > Conditional Access > Classic policies.**
+To view classic conditional access policies, in Azure, go to **Azure Active Directory &gt; Conditional Access &gt; Classic policies.**

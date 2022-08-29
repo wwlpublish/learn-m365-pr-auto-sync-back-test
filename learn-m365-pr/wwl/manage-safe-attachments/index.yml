@@ -3,7 +3,7 @@ uid: learn.wwl.manage-safe-attachments
 metadata:
   title: Manage Safe Attachments
   description: "Manage Safe Attachments"
-  ms.date: 05/03/2022
+  ms.date: 08/26/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -33,6 +33,9 @@ products:
 subjects:
 - cloud-security
 - information-protection-governance
+- insider-risk
+- security
+- threat-protection
 units:
 - learn.wwl.manage-safe-attachments.introduction
 - learn.wwl.manage-safe-attachments.create-safe-attachment-policies-scc
