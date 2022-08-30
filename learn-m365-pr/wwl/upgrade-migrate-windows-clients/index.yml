@@ -3,9 +3,9 @@ uid: learn.wwl.upgrade-migrate-windows-clients
 metadata:
   title: Upgrade and migrate Windows clients
   description: "This module examines the fundamentals of upgrading and migrating processes for a single Windows device."
-  ms.date: 06/16/2022
+  ms.date: 08/30/2022
   author: wwlpublish
-  ms.author: brhinkel
+  ms.author: rstearman
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Upgrade and migrate Windows clients

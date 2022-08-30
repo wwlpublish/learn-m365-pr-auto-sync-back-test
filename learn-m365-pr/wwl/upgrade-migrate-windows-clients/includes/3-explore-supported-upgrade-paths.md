@@ -1,8 +1,8 @@
-Performing an in-place upgrade can save time and enable you to retain user settings and computer settings from a previous Windows version. However, the Windows version from which you are upgrading will dictate the options that are available for the upgrade process.
+Performing an in-place upgrade can save time and enable you to keep user and computer settings from a previous Windows version. However, the Windows version you're upgrading will dictate the options available for the upgrade process.
 
 ### In-place upgrade paths for Windows
 
-When using the in-place upgrade method, you have the ability to switch to a different edition as well. This requires the appropriate license or product key prior to starting the upgrade process. The following table lists upgrade possibilities based on Windows editions.
+You can switch to a different edition when using the in-place upgrade method. This switch requires the appropriate license or product key before starting the upgrade process. The following table lists upgrade possibilities based on Windows editions.
 
 :::row:::
   :::column:::
@@ -127,11 +127,11 @@ When using the in-place upgrade method, you have the ability to switch to a diff
 
 ### Edition Upgrade paths for Windows 10 and later
 
-For Windows 10 or later, changing editions is easier. Unlike previous Windows versions, the in-place upgrade process is not required and the OS does not have to be replaced to change to a different edition. Instead, the license that is used for the device determines the edition. If the license changes to a different edition, then the OS features reflect the new license.
+For Windows 10 or 11, changing editions is more accessible. Unlike previous versions of Windows, the in-place upgrade process isn't required. Switching to different editions doesn’t require the OS to be replaced. Instead, the license used for the device determines the edition. The OS features reflect the new license if the license changes to another edition.
 
-This is extremely helpful for new PC deployments. A new device might come with a certain edition of Windows, but the organization uses a different edition. The most common scenario is devices are purchased with Pro, but the organization uses Enterprise or Education edition. Instead of a lengthy wipe and reload, a simple change of the licenses changes the edition. In many cases, not even a reboot is required.
+This process is beneficial for new PC deployments. A new device might come with a specific edition of Windows, but the organization uses a different edition. The most common scenario is that your device purchase includes Pro, but the organization uses Enterprise or Education edition. Instead of a lengthy wipe and reload, a simple change to the licenses will change the edition. Most times, a reboot is unnecessary.
 
-There are several methods available for performing an edition upgrade. The current edition on the device and the target edition determine which method can be used. The following table shows the supported upgrade paths for editions:
+There are several methods available for performing an edition upgrade. The current edition on the device and the target edition determine which method to use. The following table shows the supported upgrade paths for editions:
 
 :::row:::
   :::column:::
@@ -371,15 +371,17 @@ The Edition Upgrade policy in Configuration Manager can also be used to upgrade 
 
 #### S Mode
 
-S Mode is available in Home, Pro and Enterprise editions in Windows 10. You can switch out of S Mode to Home, Pro, or Enterprise Edition, but once this is done, you cannot switch back without reloading the OS. This can be done using Microsoft Store or Microsoft Intune. In Windows 11, S mode is only avaiable for Home Edition. Therefore, only Windows Home in S mode can be upgraded to Windows 11 Home S Mode.
+S mode is a version of Windows 10 and 11 that’s streamlined for security and performance while providing a familiar Windows experience. To increase security, it allows only apps from Microsoft Store and requires Microsoft Edge for safe browsing.
+
+S Mode is available in Home, Pro, and Enterprise Windows 10. You can switch out of S Mode to Home, Pro, or Enterprise Edition, but once completed, you cannot switch back without reloading the OS. You start this switch using the Microsoft Store or Microsoft Intune. Windows 11 in S mode is only available in the Windows 11 Home edition. If you have the Pro, Enterprise, or Education editions of Windows 10 in S mode, you'll need to permanently switch out of S mode to upgrade to Windows 11.
 
 ### Downgrade Paths
 
-Downgrading is possible from either Enteprise or Education edition to any of the three Pro editions or Education is supported. If the target downgrade edition is any supported edition other than the firmware embedded key, an additional key is required. Volume license customers who license has expired must downgrade to an edition with an active license. If the downgrath path is supported, the edition can be switched the same as an upgrade, otherwise, a clean install is required.
+Users upgrade Windows Pro to Enterprise to enjoy more features and better services for advanced tasks. It's possible to downgrade from either the Enterprise or Education edition. You can downgrade to any of the three Pro or Education editions. Windows requires an another key if the target downgrade edition is any supported edition other than the firmware embedded key. Volume license customers whose license has expired must downgrade to an edition with an active license. If the downgrade path isn't supported, a clean install is required.
 
 ### Deprecated features
 
-When you upgrade to Windows 10 or Windows 11, there may be some features in your old operating system that will no longer be available. The following list details the deprecated features that are not a part of Windows 10 and Windows 11:
+When you upgrade to Windows 10 or 11, some features in your old operating system may no longer be available. The following list details the deprecated features that aren't a part of Windows 10 and 11:
 
 #### Windows 10
 
@@ -388,19 +390,19 @@ When you upgrade to Windows 10 or Windows 11, there may be some features in your
  -  Internet Explorer. Microsoft Edge Chromium is the default browser. IE Mode in Microsoft Edge is available for supporting legacy web applications.
  -  Microsoft Edge. The legacy version of Microsoft Edge (non-Chromium) is no longer being developed.
  -  Roaming of Personalization settings (including wallpaper, slideshow, accent colors, and lock screen images) is no longer being developed.
- -  Timeline will not display new activity after July 2021.
+ -  Timeline won't display new activity after **July 2021.**
 
 #### Windows 11
 
  -  Cortana is no longer pinned to the task bar or part of the boot experience.
- -  Desktop wallpaper does not roam.
+ -  Desktop wallpaper doesn't roam.
  -  Start Menu
     
-     -  Named groups and folders of apps are no longer supported and the layout is not currently resizable.
+     -  Named groups and folders of apps are no longer supported and the layout isn't currently resizable.
      -  Live tiles are no longer available. Dynamic content has been replaced with the Widgets feature.
-     -  Pinned apps and sites will not migrate from Windows 10.
-     -  Customizations are still supported, but users cannot be locked from making layout changes.
- -  Multi-app Kiosk Mode is not available, only single app Kiosk Mode is supported.
+     -  Pinned apps and sites won't migrate from Windows 10.
+     -  Customizations are still supported, but users can't be locked from making layout changes.
+ -  Multi-app Kiosk Mode isn't available, only single app Kiosk Mode is supported.
  -  Snip and Sketch have been merged with the Snipping Tool.
  -  S Mode is only available on Home edition.
  -  Tablet mode is removed. The experience is more dynamic based on the configuration of the device.
