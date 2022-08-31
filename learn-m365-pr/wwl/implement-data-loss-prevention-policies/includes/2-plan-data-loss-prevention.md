@@ -35,7 +35,7 @@ These examples are just some ways in which customers can approach DLP. It doesn'
 
 ### Overview of the Microsoft Purview DLP planning process
 
-There are three different aspects of the Microsoft Purview DLP planning process. Each of these considerations is examined in the following sections.
+There are different aspects of the Microsoft Purview DLP planning process. Each of these considerations is examined in the following sections.
 
 #### Identify stakeholders
 
@@ -126,9 +126,9 @@ When an organization creates its DLP policies, it should consider rolling them o
 
 If an organization is creating DLP policies with a large potential effect, it's recommended that it follow this sequence:
 
-1.  **Start in Test mode without Policy Tips.** By doing so, the organization can use the DLP reports and any incident reports to assess the effect. It can use DLP reports to view the number, location, type, and severity of policy matches. Based on the results, it can fine-tune the policies as needed. In test mode, DLP policies won't affect the productivity of people working in the organization. This stage should also be used to test the organization's workflow for DLP event review and issue remediation.
-2.  **Move to Test mode with notifications and Policy Tips**. Doing so will enable an organization to begin teaching users about its compliance policies. It will also prepare them for the policies that are going to be applied. It's useful to have a link to an organization policy page that provides more details about the policy in the policy tip. At this stage, the organization can also ask users to report false positives so that it can further refine the policies. An organization should move to this stage once it has confidence the results of its policy application match what the stakeholders had in mind.
-3.  **Start full enforcement on the policies**. By doing so, the actions in the rules will be applied and the content will be protected. Continue to monitor the DLP reports and any incident reports or notifications. When doing so, ensure the results are what was intended.
+1. **Start in Test mode without Policy Tips.** By doing so, the organization can use the DLP reports and any incident reports to assess the effect. It can use DLP reports to view the number, location, type, and severity of policy matches. Based on the results, it can fine-tune the policies as needed. In test mode, DLP policies won't affect the productivity of people working in the organization. This stage should also be used to test the organization's workflow for DLP event review and issue remediation.
+1. **Move to Test mode with notifications and Policy Tips**. Doing so will enable an organization to begin teaching users about its compliance policies. It will also prepare them for the policies that are going to be applied. It's useful to have a link to an organization policy page that provides more details about the policy in the policy tip. At this stage, the organization can also ask users to report false positives so that it can further refine the policies. An organization should move to this stage once it has confidence the results of its policy application match what the stakeholders had in mind.
+1. **Start full enforcement on the policies**. By doing so, the actions in the rules will be applied and the content will be protected. Continue to monitor the DLP reports and any incident reports or notifications. When doing so, ensure the results are what was intended.
     
     :::image type="content" source="../media/dlp-policy-deployment-options-cec65ae9.png" alt-text="Screenshot of the dialog box from the policy wizard asking whether you want to turn on the policy now or test it out first.":::
     
