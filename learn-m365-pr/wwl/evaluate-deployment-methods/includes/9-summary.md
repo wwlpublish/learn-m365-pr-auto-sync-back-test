@@ -1,4 +1,4 @@
-In this module, you learned about deploying Windows clients at scale. You compared the modern, dynamic and traditional approaches to deployment. You examined the benefits of imaging a device. You learned about the Autopilot process, and how it differs from traditional deployment methods. You explored the different deployment strategies and how they affect the end-user experience. You learned about the tools included in the Windows Assessment and Deployment Kit. You reviewed the components of the User State Migration Tool used to migrate user data during deployments.
+In this module, you learned about deploying Windows clients at scale. You compared the modern, dynamic, and traditional approaches to deployment. Examined the benefits of imaging a device. You learned about the Autopilot process and how it differs from conventional deployment methods. Explored the different deployment strategies and how they affect the end-user experience. You learned about the tools included in the Windows Assessment and Deployment Kit. Reviewed the User State Migration Tool components used to migrate user data during deployments.
 
 ### Learn more
 
