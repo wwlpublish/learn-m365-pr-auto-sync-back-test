@@ -1,5 +1,7 @@
 ### YamlMime:AchievementDetail
 achievementUid: learn.wwl.configure-user-device-profiles.trophy
 metadata:
-  title: 'Microsoft Trophy: Configure user and device profiles was issued by Microsoft'
-socialImageUrl: /learn/achievements/generic-trophy-social.png
+  title: >-
+    Microsoft Trophy: MD-101 Configure user and device profiles was issued by
+    Microsoft
+socialImageUrl: /learn/achievements/device-profile-configure-social.png
