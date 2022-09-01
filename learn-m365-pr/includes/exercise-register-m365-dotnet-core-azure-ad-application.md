@@ -13,7 +13,7 @@ Create a new Azure Active Directory application registration by following these 
 
     :::image type="content" source="../media/exercise-register-m365-dotnet-core-azure-ad-application/azure-ad-select-in-menu.png" alt-text="Screenshot showing Microsoft Azure portal Azure Active Directory." lightbox="../media/exercise-register-m365-dotnet-core-azure-ad-application/azure-ad-select-in-menu.png":::
 
-1. Select **App registrations** from the menu.
+1. Select **App registrations** from the left menu.
 1. Create a new app registration by selecting **New registration** in the toolbar.
 
     :::image type="content" source="../media/exercise-register-m365-dotnet-core-azure-ad-application/azure-ad-app-registration.png" alt-text="Screenshot showing selecting an app registration in Azure Active Directory." lightbox="../media/exercise-register-m365-dotnet-core-azure-ad-application/azure-ad-app-registration.png":::
