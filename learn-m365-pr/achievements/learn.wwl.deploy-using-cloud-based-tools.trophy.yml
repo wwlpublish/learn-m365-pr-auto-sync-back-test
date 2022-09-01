@@ -1,5 +1,7 @@
 ### YamlMime:AchievementDetail
 achievementUid: learn.wwl.deploy-using-cloud-based-tools.trophy
 metadata:
-  title: 'Microsoft Trophy: Deploy using cloud based tools was issued by Microsoft'
-socialImageUrl: /learn/achievements/generic-trophy-social.png
+  title: >-
+    Microsoft Trophy: MD-101 Deploy using cloud based tools was issued by
+    Microsoft
+socialImageUrl: /learn/achievements/deploy-cloud-based-tools-social.png
