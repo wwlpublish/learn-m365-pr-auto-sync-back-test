@@ -1,6 +1,6 @@
 If you can't, or prefer not to do an in-place upgrade, you can do a migration. The migration process supports two scenarios:
 
- -  **Side-by-side migration**. With a side-by-side migration, there are two devices - the device currently in use (source) and the new device (target). The source device’s user data and application settings are moved to a migration store, such as a network location. The target device receives a fresh install of the OS. Applications are reinstalled on the target device, and the user data and application settings are migrated back to the device from the migration store.
+ -  **Side-by-side migration**. With a side-by-side migration, there are two devices - the device currently in use (source) and the new device (target). The source device's user data and application settings are moved to a migration store, such as a network location. The target device receives a fresh install of the OS. Applications are reinstalled on the target device, and the user data and application settings are migrated back to the device from the migration store.
  -  **In-place migration**. With an in-place migration, the source and target are the same device.
 
 The migration process includes the following steps:

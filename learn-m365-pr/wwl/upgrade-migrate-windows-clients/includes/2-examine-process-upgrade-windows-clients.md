@@ -13,7 +13,7 @@ Most applications compatible with at least Windows 8.1 will work fine with Windo
 
 ### Back up
 
-You can perform the upgrade processes without deleting user data on the device. However, when performing an upgrade, it’s best to have a plan to restore data if something goes wrong. A restore plan is best practice if the upgrade process wipes the drive. We encourage administrators to configure devices to use cloud services such as OneDrive to synchronize user files with the cloud. If you need to keep application data without using OneDrive, use the User State Migration Tool (USMT) to back up data to a secure location, such as a network folder.
+You can perform the upgrade processes without deleting user data on the device. However, when performing an upgrade, it's best to have a plan to restore data if something goes wrong. A restore plan is best practice if the upgrade process wipes the drive. We encourage administrators to configure devices to use cloud services such as OneDrive to synchronize user files with the cloud. If you need to keep application data without using OneDrive, use the User State Migration Tool (USMT) to back up data to a secure location, such as a network folder.
 
 ### Upgrade
 
@@ -21,7 +21,7 @@ After evaluating your computer requirements and backing up your data and persona
 
 #### Upgrading from Windows 8.1
 
-Run the Windows installation program (setup.exe) from the product DVD, removable media, or a network share to perform the in-place upgrade. If your computer supports an in-place upgrade to Windows, you can select Upgrade during installation. The installation program prevents you from choosing the upgrade option if an in-place upgrade is unavailable. This stop in the process might occur for several reasons: your computer lacks sufficient disk space, or your current Windows edition doesn’t support a direct upgrade to the Windows edition you want to install. You should stop the upgrade process and resolve the problems shown before attempting the upgrade again.
+Run the Windows installation program (setup.exe) from the product DVD, removable media, or a network share to perform the in-place upgrade. If your computer supports an in-place upgrade to Windows, you can select Upgrade during installation. The installation program prevents you from choosing the upgrade option if an in-place upgrade is unavailable. This stop in the process might occur for several reasons: your computer lacks sufficient disk space, or your current Windows edition doesn't support a direct upgrade to the Windows edition you want to install. You should stop the upgrade process and resolve the problems shown before attempting the upgrade again.
 
 > [!NOTE]
 > We recommend that you disable antivirus programs before attempting an upgrade.
@@ -41,4 +41,4 @@ When the upgrade completes, sign in to your computer, and verify that all applic
 
 ### Update
 
-Finally, determine whether there are any relevant updates to the new Windows operating system and apply them to your computer. It's essential to keep the operating system up to date to protect against security threats. You also can check for updates during the upgrade process. Dynamic Update is a feature of Windows Setup that downloads any critical fixes and drivers that the setup process requires. With Windows as a Service, it’s more important than ever to ensure your Windows-based computer is up to date because you may also receive new functionality through Windows Update.
+Finally, determine whether there are any relevant updates to the new Windows operating system and apply them to your computer. It's essential to keep the operating system up to date to protect against security threats. You also can check for updates during the upgrade process. Dynamic Update is a feature of Windows Setup that downloads any critical fixes and drivers that the setup process requires. With Windows as a Service, it's more important than ever to ensure your Windows-based computer is up to date because you may also receive new functionality through Windows Update.

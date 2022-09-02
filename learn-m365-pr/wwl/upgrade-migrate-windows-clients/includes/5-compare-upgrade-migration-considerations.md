@@ -1,4 +1,4 @@
-In many scenarios, either the in-place upgrade or migration method may provide a solution. While there isn’t necessarily a right or wrong answer in these situations, there are factors that can determine which process has the potential to be more effective, require less effort, or provide the best experience for end users.
+In many scenarios, either the in-place upgrade or migration method may provide a solution. While there isn't necessarily a right or wrong answer in these situations, there are factors that can determine which process has the potential to be more effective, require less effort, or provide the best experience for end users.
 
 :::image type="content" source="../media/upgrade-vs-migrate-6b35b349.jpg" alt-text="Graphic showing the conceptual difference between upgrading and migrating.":::
 
@@ -16,9 +16,9 @@ If the device has Windows 10 or older, upgrading using the feature update method
 
 ### Refresh
 
-Historically, technicians used the in-place migration steps to perform an OS upgrade and refresh the OS on the PC. Performing an in-place migration was expected if a device is having issues or wants to clean up legacy data and applications quickly. This process is called “refreshing the PC” or “wipe-and-load” even though the steps are essentially an in-place migration, only the OS is being replaced with the same version.
+Historically, technicians used the in-place migration steps to perform an OS upgrade and refresh the OS on the PC. Performing an in-place migration was expected if a device is having issues or wants to clean up legacy data and applications quickly. This process is called "refreshing the PC" or "wipe-and-load" even though the steps are essentially an in-place migration, only the OS is being replaced with the same version.
 
-With Windows 10 and 11, this process is no longer necessary. Instead, administrators can perform the **Reset this PC** feature. **Reset this PC** essentially reverts the machine to a fresh install. It also provides the option to keep user files or delete everything. It would be best if you reinstalled applications with either option. In scenarios where the device isn’t being upgraded to a new version of Windows, the **Reset this PC** option can be quicker and easier than performing an in-place migration.
+With Windows 10 and 11, this process is no longer necessary. Instead, administrators can perform the **Reset this PC** feature. **Reset this PC** essentially reverts the machine to a fresh install. It also provides the option to keep user files or delete everything. It would be best if you reinstalled applications with either option. In scenarios where the device isn't being upgraded to a new version of Windows, the **Reset this PC** option can be quicker and easier than performing an in-place migration.
 
 ### Migration
 
@@ -26,11 +26,11 @@ You should use Migrations when you have a target computer running the Windows op
 
 #### Side-by-side migration
 
-In a side-by-side migration, the source and destination computers are different. Side-by-side migrations are used when replacing a user’s device. You configure the target device with a fresh install of Windows using the organization's typical method of OS deployment. USMT is used to migrate the data and settings to a migration store or directly to the target device. This process applies to whether the target device is the same or a newer version of Windows.
+In a side-by-side migration, the source and destination computers are different. Side-by-side migrations are used when replacing a user's device. You configure the target device with a fresh install of Windows using the organization's typical method of OS deployment. USMT is used to migrate the data and settings to a migration store or directly to the target device. This process applies to whether the target device is the same or a newer version of Windows.
 
 #### In-place Migration
 
-You can use an in-place migration to either upgrade to a new OS or refresh the existing OS. Previously, the migration method was the recommended method for upgrading a current device; however, this is no longer the case. As discussed earlier, Microsoft recommends using an in-place upgrade when upgrading the OS. However, organizations sometimes need to take a “fresh start” approach. Transitioning from unmanaged, excessive, non-standard OS configurations or efforts to clean up years of legacy applications and data may justify a reason to wipe-and-reload devices. For organizations that haven't yet moved to Windows 10, it’s an ideal time to review the deployment tools, methods, and new options available and decide whether an upgrade or migration is most effective.
+You can use an in-place migration to either upgrade to a new OS or refresh the existing OS. Previously, the migration method was the recommended method for upgrading a current device; however, this is no longer the case. As discussed earlier, Microsoft recommends using an in-place upgrade when upgrading the OS. However, organizations sometimes need to take a "fresh start" approach. Transitioning from unmanaged, excessive, non-standard OS configurations or efforts to clean up years of legacy applications and data may justify a reason to wipe-and-reload devices. For organizations that haven't yet moved to Windows 10, it's an ideal time to review the deployment tools, methods, and new options available and decide whether an upgrade or migration is most effective.
 
 ### Upgrade vs. migration
 

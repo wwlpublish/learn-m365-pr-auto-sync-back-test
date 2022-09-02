@@ -127,7 +127,7 @@ You can switch to a different edition when using the in-place upgrade method. Th
 
 ### Edition Upgrade paths for Windows 10 and later
 
-For Windows 10 or 11, changing editions is more accessible. Unlike previous versions of Windows, the in-place upgrade process isn't required. Switching to different editions doesn’t require the OS to be replaced. Instead, the license used for the device determines the edition. The OS features reflect the new license if the license changes to another edition.
+For Windows 10 or 11, changing editions is more accessible. Unlike previous versions of Windows, the in-place upgrade process isn't required. Switching to different editions doesn't require the OS to be replaced. Instead, the license used for the device determines the edition. The OS features reflect the new license if the license changes to another edition.
 
 This process is beneficial for new PC deployments. A new device might come with a specific edition of Windows, but the organization uses a different edition. The most common scenario is that your device purchase includes Pro, but the organization uses Enterprise or Education edition. Instead of a lengthy wipe and reload, a simple change to the licenses will change the edition. Most times, a reboot is unnecessary.
 
@@ -371,13 +371,13 @@ The Edition Upgrade policy in Configuration Manager can also be used to upgrade 
 
 #### S Mode
 
-S mode is a version of Windows 10 and 11 that’s streamlined for security and performance while providing a familiar Windows experience. To increase security, it allows only apps from Microsoft Store and requires Microsoft Edge for safe browsing.
+S mode is a version of Windows 10 and 11 that's streamlined for security and performance while providing a familiar Windows experience. To increase security, it allows only apps from Microsoft Store and requires Microsoft Edge for safe browsing.
 
 S Mode is available in Home, Pro, and Enterprise Windows 10. You can switch out of S Mode to Home, Pro, or Enterprise Edition, but once completed, you cannot switch back without reloading the OS. You start this switch using the Microsoft Store or Microsoft Intune. Windows 11 in S mode is only available in the Windows 11 Home edition. If you have the Pro, Enterprise, or Education editions of Windows 10 in S mode, you'll need to permanently switch out of S mode to upgrade to Windows 11.
 
 ### Downgrade Paths
 
-Users upgrade Windows Pro to Enterprise to enjoy more features and better services for advanced tasks. It's possible to downgrade from either the Enterprise or Education edition. You can downgrade to any of the three Pro or Education editions. Windows requires an another key if the target downgrade edition is any supported edition other than the firmware embedded key. Volume license customers whose license has expired must downgrade to an edition with an active license. If the downgrade path isn't supported, a clean install is required.
+Users upgrade Windows Pro to Enterprise to enjoy more features and better services for advanced tasks. It's possible to downgrade from either the Enterprise or Education edition. You can downgrade to any of the three Pro or Education editions. Windows requires another key if the target downgrade edition is any supported edition other than the firmware embedded key. Volume license customers whose license has expired must downgrade to an edition with an active license. If the downgrade path isn't supported, a clean install is required.
 
 ### Deprecated features
 
