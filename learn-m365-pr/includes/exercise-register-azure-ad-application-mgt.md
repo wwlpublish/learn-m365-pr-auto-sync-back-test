@@ -15,7 +15,7 @@ ms.topic: include
 
     - **Name**: enter the name for your application.
     - **Supported account types**: select **Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)**.
-    - **Redirect URI (optional)**: select **Single page application (SPA)** and enter `http://localhost:8080`.
+    - **Redirect URI (optional)**: select **Single page application (SPA)** and enter `http://localhost:3000`.
     - Select **Register**.
 
     :::image type="content" source="../media/exercise-register-azure-ad-application-mgt/register-application.png" alt-text="Screenshot that shows registering your application in Azure Active Directory.":::

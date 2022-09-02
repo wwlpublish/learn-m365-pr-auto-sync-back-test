@@ -1,4 +1,4 @@
-In this module, you learned about the different methods for installing Windows clients. You compared the methods used for new deployments, upgrades and migrations, and provisioning. You examined the process of a manual Windows client install. You learned about the different options to consider when planning a client deployment.
+In this module, you learned about the different methods for installing Windows clients. We compared the new deployments, upgrades, migrations, and provisioning methods. We examined the process of a manual Windows client install and learned about the different options to consider when planning a client deployment.
 
 ### Learn more
 

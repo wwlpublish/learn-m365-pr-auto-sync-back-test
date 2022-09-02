@@ -1,4 +1,4 @@
-In this module, you learned about Windows 10 and Windows 11 and the wide range of devices that use Windows as well as the new features of Windows 11. You explored the benefits of using the Windows client for small and medium-sized organizations, as well as benefits in an enterprise environment.
+In this module, you learned about Windows 10 and Windows 11 and the wide range of devices that use Windows client OS, and the new features of Windows 11. You explored the benefits of using the Windows client for small and medium-sized organizations and the benefits it provides in an enterprise environment.
 
 ### Learn more
 

@@ -1,4 +1,4 @@
-In this module, you compared the different editions of Windows, the audiences they are intended for and the features and benefits they provide. You learned about the different form factors that Windows runs on, and the scenarios that best fit the different editions of Windows. You examined the minimum hardware requirements for Windows 10 and Windows 11, and how to check for Hyper-V compatibility.
+In this module, you compared the different editions of Windows, the intended audiences, and the features they provide. You learned about the other form factors that Windows runs on and the scenarios that best fit the different editions offered. You examined the minimum hardware requirements for Windows 10 and 11 and how to check for Hyper-V compatibility.
 
 ### Learn more
 
