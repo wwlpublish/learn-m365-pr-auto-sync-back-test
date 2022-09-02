@@ -123,7 +123,7 @@ You've now extended your app to show some of the user's files by using Microsoft
     ```
 
 1. Your browser should point to `http://localhost:8080`.
-1. Select the **Sign in with Microsoft** button to sign in with your Microsoft 365 account.
+1. Select the **Sign in with Microsoft** button to sign in with your Microsoft 365 account. Make sure the account you sign in with has a profile photo.
 
     :::image type="content" source="../media/3-sign-in-button.png" alt-text="Screenshot of the sign-in button.":::
 
@@ -132,6 +132,6 @@ You've now extended your app to show some of the user's files by using Microsoft
 
     :::image type="content" source="../media/3-show-profile-button.png" alt-text="Screenshot of the button to show a profile picture.":::
 
-1. Select the **Show profile picture** button. The profile picture of the signed-in user appears.
+1. Select the **Show profile picture** button. The profile picture of the signed-in user appears. If the profile does not have a photo associated with it, no photo will be displayed.
 
     :::image type="content" source="../media/3-profile-picture.png" alt-text="Screenshot of a profile picture.":::
