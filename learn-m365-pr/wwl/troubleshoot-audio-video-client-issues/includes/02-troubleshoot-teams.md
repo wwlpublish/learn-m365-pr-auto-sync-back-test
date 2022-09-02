@@ -53,8 +53,7 @@ Teams-specific diagnostic scenarios that cover top support topics and the most c
 > [!NOTE]
 > If a diagnostic detects an issue, and you've implemented a fix based on the results, consider rerunning the diagnostic to ensure the issue is completely resolved.
 
-For more details on the diagnostics that are currently available, with brief scenario descriptions, see [Scenario descriptions and shortcut commands](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/admin-self-help-diagnostics?azure-portal=true
-#what-scenarios-are-currently-covered)
+For more details on the diagnostics that are currently available, with brief scenario descriptions, see [Scenario descriptions and shortcut commands](/microsoftteams/troubleshoot/teams-administration/admin-self-help-diagnostics?azure-portal=true#what-scenarios-are-currently-covered)
 
 ## Monitor usage and feedback
 
@@ -78,5 +77,3 @@ The following tools are designed to help organizations monitor and troubleshoot 
 * **Call Quality Dashboard**: Call Quality Dashboard (CQD) provides a network-wide view of call quality across an organization. Call Quality Dashboard (CQD) is designed to help Microsoft Teams administrators, Skype for Business administrators, and network engineers optimize a network.
 
 * **Direct Routing Health Dashboard**: Health Dashboard for Direct Routing monitors the connection between a Session Border Controller (SBC) and the Direct Routing interface.
-
-
