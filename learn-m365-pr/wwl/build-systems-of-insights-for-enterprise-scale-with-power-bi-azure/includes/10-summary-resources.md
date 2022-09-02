@@ -14,9 +14,8 @@ Now that you have reviewed this module, you should have learned:
 
 Use these resources to discover more.
 
-- [Introduction to dataflows and self-service data prep](https://docs.microsoft.com/power-bi/transform-model/dataflows/dataflows-introduction-self-service)
+- [Introduction to dataflows and self-service data prep](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)
 
-- [What is Azure Synapse Analytics (workspaces preview)](https://docs.microsoft.com/azure/synapse-analytics/overview-what-is)
+- [What is Azure Synapse Analytics (workspaces preview)](/azure/synapse-analytics/overview-what-is)
 
 - [For more information on purchasing Premium Per User and to be notified when preview goes live, sign up here](https://info.microsoft.com/ww-landing-power-bi-premium-per-user.html?).
-
