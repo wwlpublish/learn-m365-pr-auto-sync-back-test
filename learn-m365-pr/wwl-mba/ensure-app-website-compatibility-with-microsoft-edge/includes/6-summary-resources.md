@@ -9,12 +9,12 @@ Now that you’ve completed this module, you should be able to:
 
 ## Resources 
 
-- [About IE mode](https://docs.microsoft.com/deployedge/edge-ie-mode)
-- [Use the Enterprise Mode Site List Manager](https://docs.microsoft.com/internet-explorer/ie11-deploy-guide/use-the-enterprise-mode-site-list-manager)
+- [About IE mode](/deployedge/edge-ie-mode)
+- [Use the Enterprise Mode Site List Manager](/internet-explorer/ie11-deploy-guide/use-the-enterprise-mode-site-list-manager)
 - [Enterprise Mode Site List Manager (schema v.2)](https://aka.ms/EMSLM)
-- [Enterprise Mode schema v.2 guidance](https://docs.microsoft.com/internet-explorer/ie11-deploy-guide/enterprise-mode-schema-version-2-guidance)
+- [Enterprise Mode schema v.2 guidance](/internet-explorer/ie11-deploy-guide/enterprise-mode-schema-version-2-guidance)
 - [Microsoft Edge Policy Template](https://www.microsoft.com/edge/business/download)
-- [Use the Enterprise Mode IE website list](https://docs.microsoft.com/deployedge/edge-ie-mode-policies#configure-using-the-use-the-enterprise-mode-ie-website-list-policy)
-- [Configure the Enterprise Mode Site List](https://docs.microsoft.com/deployedge/edge-ie-mode-policies#configure-using-the-configure-the-enterprise-mode-site-list-policy)
-- [Learn about Configurable sites in IE mode](https://docs.microsoft.com/deployedge/edge-learnmore-configurable-sites-ie-mode)
-- [Enterprise Site Discovery Step-by-Step Guide](https://docs.microsoft.com/deployedge/edge-ie-mode-site-discovery)
+- [Use the Enterprise Mode IE website list](/deployedge/edge-ie-mode-policies#configure-using-the-use-the-enterprise-mode-ie-website-list-policy)
+- [Configure the Enterprise Mode Site List](/deployedge/edge-ie-mode-policies#configure-using-the-configure-the-enterprise-mode-site-list-policy)
+- [Learn about Configurable sites in IE mode](/deployedge/edge-learnmore-configurable-sites-ie-mode)
+- [Enterprise Site Discovery Step-by-Step Guide](/deployedge/edge-ie-mode-site-discovery)

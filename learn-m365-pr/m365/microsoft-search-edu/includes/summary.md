@@ -11,5 +11,5 @@ Now that you've completed this module, you should be able to:
 
 - [Intelligent search for the connected classroom](https://www.microsoft.com/bing/bing-for-education?rtc=2)
 - [Admin Essentials Guide](https://aka.ms/SearchAdminEssentials)
-- [Microsoft Search on Microsoft Docs](/microsoftsearch/overview-microsoft-search)
+- [Microsoft Search documentation](/microsoftsearch/overview-microsoft-search)
 - [Manage access to files and sites](/microsoftsearch/manage-access-files-sites)

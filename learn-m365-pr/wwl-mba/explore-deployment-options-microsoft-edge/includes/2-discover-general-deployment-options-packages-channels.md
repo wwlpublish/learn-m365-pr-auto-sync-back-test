@@ -16,10 +16,10 @@ One of the benefits of Microsoft Edge (version 77 or later) is that Microsoft ca
 
 | **Channel**| **Primary purpose**| **How often updated with new features**| **Supported?** |
 | --- |---|---|---|
-| [Stable](https://docs.microsoft.com/deployedge/microsoft-edge-channels)| Broad Deployment| ~6 weeks| Yes |
-| [Beta](https://docs.microsoft.com/deployedge/microsoft-edge-channels)| Representative validation in the organization| ~6 weeks| Yes |
-| [Dev](https://docs.microsoft.com/deployedge/microsoft-edge-channels)| Planning and developing| Weekly| No |
-| [Canary](https://docs.microsoft.com/deployedge/microsoft-edge-channels)| Leading-edge content| Daily| No |
+| [Stable](/deployedge/microsoft-edge-channels)| Broad Deployment| ~6 weeks| Yes |
+| [Beta](/deployedge/microsoft-edge-channels)| Representative validation in the organization| ~6 weeks| Yes |
+| [Dev](/deployedge/microsoft-edge-channels)| Planning and developing| Weekly| No |
+| [Canary](/deployedge/microsoft-edge-channels)| Leading-edge content| Daily| No |
 
 Which update channel you decide to deploy to your users will depend on your business needs. To help you make this decision, review the following information about the four update channels that are available for Microsoft Edge.
 

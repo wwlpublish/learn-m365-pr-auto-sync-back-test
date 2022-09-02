@@ -26,7 +26,7 @@ Only those sites that you specifically configure (via policy) will use IE mode, 
 - ActiveX controls (such as Java or Silverlight)
 - Browser Helper Objects
 - Internet Explorer settings and Group Policies that affect the security zone settings and Protected Mode
-- The F12 developer tools for IE, when launched with [IEChooser](https://docs.microsoft.com/office/dev/add-ins/testing/debug-add-ins-using-f12-developer-tools-on-windows-10)
+- The F12 developer tools for IE, when launched with [IEChooser](/office/dev/add-ins/testing/debug-add-ins-using-f12-developer-tools-on-windows-10)
 - Microsoft Edge extensions (Extensions that interact with the IE page content directly are not supported.)
 
 ### IE mode doesn't support the following Internet Explorer functionality
