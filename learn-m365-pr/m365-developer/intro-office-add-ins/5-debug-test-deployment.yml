@@ -44,7 +44,7 @@ quiz:
       explanation: "You should verify that your add-in works in the expected browsers, Office hosts, and operating system to ease the AppSource validation process."
     - content: "Browsers, Office applications, Organizations"
       isCorrect: false
-      explanation: "You won't be able to verify your add-in in external organizations. Users who install your add-in and give you feedback may belong to various organizations."
+      explanation: "You won't be able to verify your add-in in external organizations. Users who install your add-in and give your feedback may belong to various organizations."
     - content: "Monitor resolutions, Office applications, Operating systems"
       isCorrect: false
       explanation: "While it's important to verify how your add-in is displayed in expected monitor resolutions, it's not a key validation requirement as discussed in this module."
