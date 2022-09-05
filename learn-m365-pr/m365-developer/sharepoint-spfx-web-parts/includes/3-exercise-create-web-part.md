@@ -1,7 +1,7 @@
 In this exercise, you'll create a SharePoint Framework client-side web part.
 
 > [!IMPORTANT]
-> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
+> The instructions below assume you're using v1.15.2 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
 
 Open a command prompt and change to the folder where you want to create the project.
 
@@ -16,7 +16,7 @@ Use the following to complete the prompt that is displayed:
 - **What is your solution name?**: HelloWorld
 - **Which type of client-side component to create?**: WebPart
 - **What is your Web part name?**: HelloWorld
-- **Which framework would you like to use?**: No framework
+- **Which template would you like to use?**: No framework
 
 After the generator scaffolds the folders required for the project, the generator will install all the dependency packages using npm.
 
@@ -89,7 +89,7 @@ Next, add the following code to the end of the `render()` method. This will wire
 
 ```typescript
 this.domElement.getElementsByTagName("button")[0]
-  .addEventListener('click', (event: any) => {
+  .addEventListener('click', (event: MouseEvent) => {
     event.preventDefault();
     alert('Welcome to the SharePoint Framework!');
   });
