@@ -23,16 +23,18 @@ The tools used in compiling, debugging, and packaging SharePoint Framework proje
 >
 > If you are building projects for SharePoint 2019, then you need to use the SharePoint Framework v1.4.1 because of the server-side version dependencies. This means you should install Node.js v6.x or v8.x. For more information on SharePoint Framework development with SharePoint 2019, please refer to [SharePoint Framework development with SharePoint Server 2019](/sharepoint/dev/spfx/sharepoint-2019-support).
 >
-> If you are building projects for SharePoint Online, then it is recommended that you install the latest version of Node.js v14.x and the latest version of the SharePoint Framework, which is currently v1.14.0.
+> If you are building projects for SharePoint Online, then it is recommended that you install the latest version of Node.js v16.x and the latest version of the SharePoint Framework, which is currently v1.15.2.
 
 ### SharePoint Framework / Node.js / SharePoint Version Compatibility
 
 | SPFx    | Node.js                         | SP 2016 | SP 2019 | SP Online |
 | ------- | ------------------------------- | ------- | ------- | --------- |
-| v1.14.0 | v12.13.0+, v14.15.0+            |         |         |     X     |
-| v1.13.1 | v12.13.0+, v14.15.0+            |         |         |     X     |
-| v1.13.0 | v12.13.0+, v14.15.0+            |         |         |     X     |
-| v1.12.1 | v10.13.0+, v12.13.0+, v14.15.0+ |         |    X    |     X     |
+| v1.15.2 | v14.x, v16.x                    |         |         |     X     |
+| v1.15.0 | v14.x, v16.x                    |         |         |     X     |
+| v1.14.0 | v12.x, v14.x                    |         |         |     X     |
+| v1.13.1 | v12.x, v14.x                    |         |         |     X     |
+| v1.13.0 | v12.x, v14.x                    |         |         |     X     |
+| v1.12.1 | v10.x, v12.x, v14.x             |         |    X    |     X     |
 | v1.11.0 | v10.x                           |         |    X    |     X     |
 | v1.10.0 | v8.x, v10.x                     |    X    |    X    |     X     |
 | v1.9.1  | v8.x, v10.x                     |    X    |    X    |     X     |
@@ -60,7 +62,7 @@ If you already have a version of Node.js that's compatible with the environment(
 
 Open a browser and navigate to the Node.js Foundation site: https://www.nodejs.org.
 
-The LTS version is currently 16.x so you'll need to navigate further into the site to find the appropriate installer.
+The current LTS version may not be compatible with the current version of the SharePoint Framework, so you'll navigate further into the site to ensure you download the appropriate installer.
 
 Select **Downloads** from the top menu navigation then scroll to the bottom of the page and select **Previous Releases**.
 
