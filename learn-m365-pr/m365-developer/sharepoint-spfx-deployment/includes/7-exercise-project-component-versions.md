@@ -119,7 +119,7 @@ Use the following to complete the prompt that is displayed (*if more options are
 
 - **Which type of client-side component to create?**: WebPart
 - **What is your Web part name?**: Second Deployment Demo
-- **Which framework would you like to use?**: No framework
+- **Which template would you like to use?**: No framework
 
 ![Screenshot of adding a new component with the generator.](../media/07-new-web-part-01.png)
 
@@ -241,7 +241,7 @@ Within the `solution` object, update the `version` property to `1.2.0.0`.
 }
 ```
 
-Withing the `features` array, update the `version` property of the first feature object to `1.2.0.0`.
+Within the `features` array, update the `version` property of the first feature object to `1.2.0.0`.
 
 ```json
 "features": [
@@ -329,4 +329,4 @@ Notice that both web parts are now showing that their component version is **0.0
 
 ## Summary
 
-In this exercise, you learned how to change the various version numbers in SharePoint Framework components, packages, and how this impacts your deployments.
+In this exercise, you learned how to change the various version numbers in SharePoint Framework components, packages, and how doing so impacts your deployments.
