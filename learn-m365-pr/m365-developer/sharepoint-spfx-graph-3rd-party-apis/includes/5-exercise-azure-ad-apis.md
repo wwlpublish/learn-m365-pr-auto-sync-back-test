@@ -3,7 +3,7 @@ In this exercise, you'll create a new SharePoint Framework project with a single
 ## Create the SharePoint Framework solution
 
 > [!IMPORTANT]
-> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
+> The instructions below assume you're using v1.15.2 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
 
 Open a command prompt and change to the folder where you want to create the project. Run the SharePoint Yeoman generator by executing the following command
 
@@ -16,7 +16,7 @@ Use the following to complete the prompt that is displayed (*if more options are
 - **What is your solution name?**: SPFxAadHttpClient
 - **Which type of client-side component to create?**: WebPart
 - **What is your Web part name?**: SPFxAadHttpClient
-- **Which framework would you like to use?**: React
+- **Which template would you like to use?**: React
 
 After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When npm completes downloading all dependencies, open the project in **Visual Studio Code**.
 
@@ -90,8 +90,7 @@ public render(): React.ReactElement<ISpFxAadHttpClientProps> {
       <div className={styles.mail}>
         <div><strong>Mail:</strong></div>
         <ul>
-          {this.props.userItems &&
-            this.props.userItems.map((user) =>
+          {userItems && userItems.map((user) =>
               <li key={user.id}>
                 <strong>ID:</strong> {user.id}<br />
                 <strong>Email:</strong> {user.mail}<br />
@@ -129,49 +128,57 @@ It will then use that `aadClient` object to issue an HTTP GET request to Microso
 Once a response is received, the body is processed as JSON and the collection of users is resolved in the JavaScript promise:
 
 ```typescript
-private _getUsers(): Promise<IUserItem[]> {
-  return new Promise<IUserItem[]>((resolve, reject) => {
-    this.context.aadHttpClientFactory
-      .getClient('https://graph.microsoft.com')
-      .then((aadClient: AadHttpClient) => {
-        const endpoint: string = 'https://graph.microsoft.com/v1.0/users?$top=10&$select=id,displayName,mail';
-        aadClient.get(endpoint, AadHttpClient.configurations.v1)
-          .then((rawResponse: HttpClientResponse) => {
-            return rawResponse.json();
-          })
-          .then((jsonResponse: any) => {
-            resolve(jsonResponse.value);
-          });
-      });
-    });
+private async _getUsers(): Promise<IUserItem[]> {
+  const aadClient: AadHttpClient = await this.context.aadHttpClientFactory
+    .getClient('https://graph.microsoft.com');
+
+  const endpoint: string = 'https://graph.microsoft.com/v1.0/users?$top=10&$select=id,displayName,mail';
+  const response: HttpClientResponse = await aadClient.get(endpoint, AadHttpClient.configurations.v1);
+
+  if (!response.ok) {
+    const responseText = await response.text();
+    throw new Error(responseText);
+  }
+
+  const responseJson = await response.json();
+  return responseJson.value as IUserItem[];
 }
 ```
 
-Update the contents of the `render()` method to the following code:
+Replace the `render()` method with the following code:
 
 ```typescript
-public render(): void {
-  if (!this.renderedOnce) {
-    this._getUsers()
-      .then((results: IUserItem[]) => {
-        const element: React.ReactElement<ISpFxAadHttpClientProps> = React.createElement(
-          SpFxAadHttpClient,
-          {
-            userItems: results,
-            isDarkTheme: this._isDarkTheme,
-            environmentMessage: this._environmentMessage,
-            hasTeamsContext: !!this.context.sdks.microsoftTeams,
-            userDisplayName: this.context.pageContext.user.displayName
-          }
-        );
+protected get isRenderAsync(): boolean {
+  return true;
+}
 
-        ReactDom.render(element, this.domElement);
-      });
+public async render(): Promise<void> {
+  if (!this.renderedOnce) {
+    const results: IUserItem[] = await this._getUsers();
+
+    const element: React.ReactElement<ISpFxAadHttpClientProps> = React.createElement(
+      SpFxAadHttpClient,
+      {
+        userItems: results,
+        isDarkTheme: this._isDarkTheme,
+        environmentMessage: this._environmentMessage,
+        hasTeamsContext: !!this.context.sdks.microsoftTeams,
+        userDisplayName: this.context.pageContext.user.displayName
+      }
+    );
+
+    ReactDom.render(element, this.domElement);
   }
+
+  this.renderCompleted();
+}
+
+protected renderCompleted(): void {
+  super.renderCompleted();
 }
 ```
 
-In this code, we've added a check to see if the web part has already been rendered on the page. If not, it calls the `_getUsers()` method previously added.
+The `render()` method is replaced by three methods because asynchronous rendering is being used. In this code, we've added a check to see if the web part has already been rendered on the page. If not, it calls the `_getUsers()` method previously added.
 
 ## Update the package permission requests
 
