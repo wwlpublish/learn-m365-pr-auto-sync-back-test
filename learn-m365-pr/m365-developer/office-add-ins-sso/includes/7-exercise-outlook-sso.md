@@ -373,7 +373,7 @@ $vault.Add($creds)
 Execute the following in the console, after updating the first three values:
 
 - `SSOAPPNAME`: *the name of your project, such as **MyOutlookSsoAddin***
-- `USER`: *your macOS sign in user name, such as myusername*
+- `USER`: *your macOS sign in user name, such as **myusername***
 - `SECRET`: *the client secret you copied when registering the Azure AD app*
 
 ```console

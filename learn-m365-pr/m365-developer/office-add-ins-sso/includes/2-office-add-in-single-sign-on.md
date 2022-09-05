@@ -38,13 +38,13 @@ Let's look at how the SSO process works at runtime.
 
 ![Overview diagram of SSO runtime process flow.](../media/02-sso-overview-diagram.png)
 
-1. In the add-in, JavaScript calls a new Office.js API: `getAccessToken()`. This tells the Office client application to obtain an access token to the add-in.
+1. In the add-in, JavaScript calls a new Office.js API: `getAccessToken()`. This method tells the Office client application to obtain an access token to the add-in.
 1. If the user isn't signed in, the Office client application opens a pop-up window for the user to sign in.
-1. If this is the first time the current user has used your add-in, they're prompted to consent.
+1. The user is prompted to consent if it's the first time the current user has used your add-in.
 1. The Office client application requests the add-in token from the Azure AD v2.0 endpoint for the current user.
 1. Azure AD sends the add-in token to the Office client application.
 1. The Office client application sends the add-in token to the add-in as part of the result object returned by the `getAccessToken()` call.
-1. JavaScript in the add-in can parse the token and extract the information it needs, such as the user's email address.
+1. JavaScript in the add-in can parse the token and extract the information it needs.
 1. Optionally, the add-in can send HTTP request to it's server-side for more data about the user; such as the user's preferences. Instead, the access token itself could be sent to the server-side for parsing and validation there.
 
 ## Implementing SSO in Office Add-ins
@@ -63,7 +63,7 @@ The first step is to register an Azure AD application for the add-in.
 
 Azure AD applications used to support SSO in Office Add-ins have many requirements. For example, they must be multitenant applications, they expose the `access_as_user` permission, and should also trust all Office client applications calling the app.
 
-The developer tools provided by Microsoft include a utility, **configure-sso**, that will register the Azure AD application with all the required settings during your development process.
+The developer tools provided by Microsoft include the utility **configure-sso** that will register the Azure AD application with all the required settings during your development process.
 
 Another unit in this module will go into depth on how to create a new Azure AD application for use by an Office Add-in that implements SSO.
 
