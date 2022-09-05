@@ -55,20 +55,19 @@ The `SPHttpClient` API automatically configures the HTTP request with the requir
 To submit a request to the SharePoint REST API, use the `spHttpClient` object on the current component's `context` object. You'll use either the `get()` or `post()` method to submit either an HTTP GET or HTTP POST request.
 
 ```typescript
-private _getListItems(): Promise<ICountryListItem[]> {
-  const endpoint: string = this.context.pageContext.web.absoluteUrl
-    + `/_api/web/lists/getbytitle('Countries')/items?$select=Id,Title`
+private async _getListItems(): Promise<ICountryListItem[]> {
+  const response = await this.context.spHttpClient.get(
+    this.context.pageContext.web.absoluteUrl + `/_api/web/lists/getbytitle('Countries')/items?$select=Id,Title`,
+    SPHttpClient.configurations.v1);
 
-  return this.context.spHttpClient.get(
-      endpoint,
-      SPHttpClient.configurations.v1
-    )
-    .then(response => {
-      return response.json();
-    })
-    .then(jsonResponse => {
-      return jsonResponse.value;
-    }) as Promise<ICountryListItem[]>;
+  if (!response.ok) {
+    const responseText = await response.text();
+    throw new Error(responseText);
+  }
+
+  const responseJson = await response.json();
+
+  return responseJson.value as ICountryListItem[];
 }
 ```
 
