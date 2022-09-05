@@ -126,7 +126,7 @@ Creating and configuring this permission is done in the **Expose an API** sectio
 
 You then add permissions and optionally trust existing client apps to call this permission. When you automatically trust existing client apps, such as Microsoft Teams desktop, mobile, and web clients, Azure AD won't require the user to consent the application this permission.
 
-To configure the Azure AD application to trust the Microsoft Teams clients, add them to the app as preauthorized applications by their ID's and trust the `access_as_user` permission:
+To configure the Azure AD application to trust the Microsoft Teams clients, add them to the app as preauthorized applications by their IDs and trust the `access_as_user` permission:
 
 - **Microsoft Teams mobile & desktop clients:** `1fec8e78-bce4-4aaf-ab1b-5451cc387264`
 - **Microsoft Teams web client:** `5e3ce6c0-2b1f-4285-8d4b-75ee78787346`

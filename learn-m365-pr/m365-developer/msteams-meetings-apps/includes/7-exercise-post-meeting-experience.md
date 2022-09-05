@@ -92,10 +92,10 @@ Locate the `switch` statement for our tab that creates the user experience. It s
 ```typescript
 let mainContentElement: JSX.Element | JSX.Element[] | null = null;
 switch (frameContext) {
-  case microsoftTeams.FrameContexts.content:
+  case FrameContexts.content:
     mainContentElement = getPreMeetingUX();
     break;
-  case microsoftTeams.FrameContexts.sidePanel:
+  case FrameContexts.sidePanel:
     mainContentElement = getSidepanelUX();
     break;
   default:
@@ -105,7 +105,7 @@ switch (frameContext) {
 Add the following `case` statement to the `switch` to create our new side-panel experience when appropriate:
 
 ```typescript
-case microsoftTeams.FrameContexts.meetingStage:
+case FrameContexts.meetingStage:
   mainContentElement = getMeetingStageUX();
   break;
 ```
@@ -115,13 +115,13 @@ The switch statement should now look like the following code:
 ```typescript
 let mainContentElement: JSX.Element | JSX.Element[] | null = null;
 switch (frameContext) {
-  case microsoftTeams.FrameContexts.content:
+  case FrameContexts.content:
     mainContentElement = getPreMeetingUX();
     break;
-  case microsoftTeams.FrameContexts.sidePanel:
+  case FrameContexts.sidePanel:
     mainContentElement = getSidepanelUX();
     break;
-  case microsoftTeams.FrameContexts.meetingStage:
+  case FrameContexts.meetingStage:
     mainContentElement = getMeetingStageUX();
     break;
   default:

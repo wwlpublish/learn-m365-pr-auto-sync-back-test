@@ -51,11 +51,11 @@ In your meeting app tab, use this React hook to get the tab's current context:
 ```typescript
 import { useState, useEffect } from "react";
 import { useTeams } from "msteams-react-base-component";
-import * as microsoftTeams from "@microsoft/teams-js";
+import { app, authentication, FrameContexts } from "@microsoft/teams-js";
 
 const [{ inTeams, context }] = useTeams();
 const [meetingId, setMeetingId] = useState<string | undefined>();
-const [frameContext, setFrameContext] = useState<microsoftTeams.FrameContexts | null>();
+const [frameContext, setFrameContext] = useState<FrameContexts | null>();
 ```
 
 Use the React hook `useEffect()` to execute whenever the `context` object is set:
@@ -63,8 +63,8 @@ Use the React hook `useEffect()` to execute whenever the `context` object is set
 ```typescript
 useEffect(() => {
   if (context) {
-    setMeetingId(context.meetingId);
-    setFrameContext(context.frameContext);
+    setMeetingId(context.meeting?.id);
+    setFrameContext(app.getFrameContext());
   }
 }, [context]);
 ```
@@ -74,13 +74,13 @@ Your tab can then use the `frameContext` state object to conditionally create re
 ```tsx
 let mainContentElement: JSX.Element | JSX.Element[] | null = null;
 switch (frameContext) {
-  case microsoftTeams.FrameContexts.content:
+  case FrameContexts.content:
     mainContentElement = getPreMeetingUX();
     break;
-  case microsoftTeams.FrameContexts.sidePanel:
+  case FrameContexts.sidePanel:
     mainContentElement = getSidepanelUX();
     break;
-  case microsoftTeams.FrameContexts.meetingStage:
+  case FrameContexts.meetingStage:
     mainContentElement = getMeetingStageUX();
     break;
   default:
