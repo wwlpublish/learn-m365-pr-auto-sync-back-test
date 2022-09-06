@@ -40,7 +40,7 @@ However, your situation may be more complex. For example, you may have offices i
  -  A combination solution that uses Microsoft Teams Phone with Calling Plan, Microsoft Teams Phone with Operator Connect, and/or Microsoft Teams Phone with Direct Routing.
 
 > [!NOTE]
-> If you’re a small to medium business (300 or fewer people), Microsoft now bundles Microsoft Teams Phone with a Domestic Calling Plan. For more information, see [Microsoft Teams Phone guidance for small and medium businesses](/microsoftteams/business-voice/whats-business-voicehttps://aka.ms/SkypeToTeamsWizard?azure-portal=true) to help you plan, set up, and manage your voice solution.
+> If you’re a small to medium business (300 or fewer people), Microsoft now bundles Microsoft Teams Phone with a Domestic Calling Plan. For more information, see [Microsoft Teams Phone guidance for small and medium businesses](/microsoftteams/business-voice/whats-business-voice?azure-portal=true) to help you plan, set up, and manage your voice solution.
 
 ### Public Switched Telephone Network connectivity options
 
