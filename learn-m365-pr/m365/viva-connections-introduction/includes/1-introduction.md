@@ -5,10 +5,9 @@ information is more important than ever. Microsoft Viva Connections, a
 Microsoft Teams app, is a personalized and interactive experience that
 brings everything an employee needs to stay connected to their
 organization into one central hub.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Vpnn]
 
-:::image type="content" source="../media/vc-both-devices.png" alt-text="Devices of desktop and mobile phone showing Viva Connections on the screen.":::
-
-It can be accessed:
+Viva Connections can be accessed:
 
 -   By employees in the office, in the field, or at home.
 
