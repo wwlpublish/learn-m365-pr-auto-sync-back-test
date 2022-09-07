@@ -23,7 +23,7 @@ Viva Connections below.
 
 Kendall is a nurse at Lamna Healthcare Region C hospital ER and needs to stay
 updated on important workplace events, news, and team communication.
-Kendall receives all important organization-wide news, events, and updates, such as the organization's updated vision and mission, the recorded CEO keynote speech at the new fiscal year kickoff, and upcoming organizational events. As a medical professional, Kendall also receives targeted news and updates on every change in medical products, procedures, policies and regulations through the Feeds feature. In addition, Kendall receives region-specific news for Region C because of his work location.
+Kendall receives all organization-wide news, such as the organization's updated vision, the recorded CEO keynote speech to kickoff the new fiscal year, and upcoming events. As a medical professional, Kendall also receives news and updates on changes in medical products, procedures, policies and regulations through the Feeds feature. In addition, Kendall receives region-specific news for Region C because of his work location.
 :::image type="content" source="../media/feed-scrolling-on-screen.gif" alt-text="Scrolling screenshot of Kendall viewing news feed on a mobile device.":::
 
 **Reminder:** Administrators for the Dashboard can target specific
