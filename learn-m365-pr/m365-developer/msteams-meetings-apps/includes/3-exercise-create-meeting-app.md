@@ -606,7 +606,7 @@ setAccessToken(token);
 
 ### Update the React hook when the Microsoft Teams `context` changes
 
-When the state member `context` changes, the default project contains a hook that runs to set the `entityId` of the tab. This React hook looks like the following:
+When the state member `context` changes, the default project contains a hook that runs to set the `entityId` of the tab. This React hook looks like the following example:
 
 ```typescript
 useEffect(() => {
@@ -616,7 +616,7 @@ useEffect(() => {
 }, [context]);
 ```
 
-Update this hook to also set the `meetingId` of the meeting and the current `frameContext` of the meeting. The `frameContext` will be used to determine what the tab should show if the experience is the pre/post meeting view, the meeting stage, or the meeting's side panel. Add the following lines after the call to `setEntityId()`:
+Update this hook to set the `meetingId` of the meeting and the current `frameContext` of the meeting also. The `frameContext` will be used to determine what the tab should show if the experience is the pre/post meeting view, the meeting stage, or the meeting's side panel. Add the following lines after the call to `setEntityId()`:
 
 ```typescript
 // set the meeting context
@@ -711,7 +711,7 @@ const getPreMeetingUX = () => {
 };
 ```
 
-The pre-meeting experience will display a list that takes up four (4) grid columns, unless they trigger the new stand-up topic form you'll create. In that case, we want the list to take up three columns and the form to take up the last and fourth column.
+The pre-meeting experience will display a list that takes up four (4) grid columns, unless they trigger the new stand-up topic form that you'll create. In that case, we want the list to take up three columns and the form to take up the last and fourth column.
 
 By default, you can see from the code we'll default to not showing the form.
 
