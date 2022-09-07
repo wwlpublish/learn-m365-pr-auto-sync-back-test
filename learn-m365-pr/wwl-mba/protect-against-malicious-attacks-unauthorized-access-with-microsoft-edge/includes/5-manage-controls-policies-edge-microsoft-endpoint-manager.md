@@ -25,7 +25,7 @@ To configure Microsoft Edge with Application Guard and SmartScreen in your Micro
     ![Screenshot of Microsoft Endpoint Manager admin center Security baseline scope](../media/edge-security-baseline-4.png)
 
     > [!TIP] 
-    > For more information about scope tags, see [Use role-based access control (RBAC) and scope tags for distributed IT](https://docs.microsoft.com/mem/intune/fundamentals/scope-tags#to-create-a-scope-tag).
+    > For more information about scope tags, see [Use role-based access control (RBAC) and scope tags for distributed IT](/mem/intune/fundamentals/scope-tags#to-create-a-scope-tag).
 
 5. Choose which users and groups will be assigned this profile.  You can broadly assign this profile to **Selected groups**, **All users**, **All devices**, and **All users and devices**.  Choosing **Selected groups** allows you to specify specific groups in your organization.  Additionally, you add a list of **excluded groups** as needed.
  
@@ -39,6 +39,6 @@ The default settings shown here are configured for a high security environment b
 
 For more information on configuring Microsoft Edge security settings through group policy or Intune, see the following resources:
 
-- [Prepare to install Microsoft Defender Application Guard](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/install-md-app-guard#install-application-guard)
-- [Configure Microsoft Defender Application Guard policy settings](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/configure-md-app-guard)
-- [Microsoft Defender SmartScreen setup for admins](https://docs.microsoft.com/deployedge/microsoft-edge-security-smartscreen#microsoft-defender-smartscreen-setup-for-admins)
+- [Prepare to install Microsoft Defender Application Guard](/windows/security/threat-protection/microsoft-defender-application-guard/install-md-app-guard#install-application-guard)
+- [Configure Microsoft Defender Application Guard policy settings](/windows/security/threat-protection/microsoft-defender-application-guard/configure-md-app-guard)
+- [Microsoft Defender SmartScreen setup for admins](/deployedge/microsoft-edge-security-smartscreen#microsoft-defender-smartscreen-setup-for-admins)
