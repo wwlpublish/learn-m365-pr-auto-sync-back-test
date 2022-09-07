@@ -11,7 +11,7 @@ Now that you've completed this module, you should be able to:
 - [Troubleshoot Microsoft Teams installation and update issues on Windows](/microsoftteams/troubleshoot-installation).
 - [How Microsoft Teams uses memory](/microsoftteams/teams-memory-usage-perf).
 - [Microsoft Support Recovery Assistant](https://support.microsoft.com/office/about-the-microsoft-support-and-recovery-assistant-e90bb691-c2a7-4697-a94f-88836856c72f?azure-portal=true).
-- [Collect and analyze application and system logs](https://docs.microsoft.com/microsoftteams/troubleshoot-installation#collect-and-analyze-application-and-system-logs?azure-portal=true).
+- [Collect and analyze application and system logs](/microsoftteams/troubleshoot-installation#collect-and-analyze-application-and-system-logs?azure-portal=true).
 - [Using Network Planner - example scenario](/microsoftteams/tutorial-network-planner-example).
 - [Audio Conferencing in Microsoft 365](/microsoftteams/audio-conferencing-in-office-365).
 - [What is Phone System?](/microsoftteams/what-is-phone-system-in-office-365).

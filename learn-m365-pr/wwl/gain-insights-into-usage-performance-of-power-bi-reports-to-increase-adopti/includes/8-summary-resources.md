@@ -12,5 +12,4 @@ Now that you have reviewed this module, you should have learned:
 
 Use these resources to discover more.
 
-- [Monitor usage metrics in the new workspace experience](https://docs.microsoft.com/power-bi/collaborate-share/service-modern-usage-metrics)
-
+- [Monitor usage metrics in the new workspace experience](/power-bi/collaborate-share/service-modern-usage-metrics)
