@@ -8,11 +8,10 @@ Now that you have reviewed this module, you should be able to:
 
 Use these resources to discover more background details of the described topics from this module:
 
-- [Plan your teams calling solution - Learn - Microsoft Docs](/learn/modules/m365-teams-calling-plan-teams-calling-solution/)
+- [Plan your teams calling solution - Learn](/learn/modules/m365-teams-calling-plan-teams-calling-solution/)
 
-- [What is Direct Routing? - Learn - Microsoft Docs](/learn/modules/m365-teams-calling-overview-teams-calling/direct-routing-overview)
+- [What is Direct Routing? - Learn](/learn/modules/m365-teams-calling-overview-teams-calling/direct-routing-overview)
 
-- [Set up Cloud Voicemail - Microsoft Docs](/microsoftteams/set-up-phone-system-voicemail)
+- [Set up Cloud Voicemail](/microsoftteams/set-up-phone-system-voicemail)
 
-- [Microsoft Teams add-on licenses - Microsoft Docs](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)
-
+- [Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)

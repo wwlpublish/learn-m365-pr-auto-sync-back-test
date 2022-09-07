@@ -40,5 +40,5 @@ Before you can decide whether Exchange Online is right for your organization, yo
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Overview of Microsoft Graph](https://docs.microsoft.com/graph/overview)
+- [Overview of Microsoft Graph](/graph/overview)
  
