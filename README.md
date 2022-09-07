@@ -1,10 +1,10 @@
 # Microsoft Learn - Microsoft 365 training content
 
-This repository contains the Microsoft Learn modules and learning paths for Microsoft 365. Review this README file to understand how you can assist in contributing to the Microsoft Learn training content.	This repository contains the Microsoft Learn modules and learning paths for Microsoft 365. Review this README file to understand how you can assist in contributing to the Microsoft Learn training content. 
+This repository contains the Learn modules and learning paths for Microsoft 365. Review this README file to understand how you can assist in contributing to the Microsoft Learn training content. This repository contains the Learn modules and learning paths for Microsoft 365. Review this README file to understand how you can assist in contributing to the Microsoft Learn training content.
 
 ## Other Learn repos  
 
-* **Content repos:** To view the list of all Learn content repos, view the [Microsoft Learn repos article](https://review.docs.microsoft.com/en-us/learn-docs/docs/repos-msft-learn) in LearnDocs.
+* **Content repos:** To view the list of all Learn content repos, see [Microsoft Learn GitHub repositories](https://review.docs.microsoft.com/learn-docs/docs/repos-msft-learn).
 * **Code repos:** Code repos for individual modules follow the naming convention of https://github.com/MicrosoftDocs/mslearn-module-name. To find them all, search in GitHub for all repos in the MicrosoftDocs GitHub organization that start with 'mslearn-'.
 
 ## Content author and learner experience
@@ -17,14 +17,14 @@ The content in the Microsoft Learn repositories is developed, organized, and dis
 
 ### Home, landing, and browse pages
 
-* [Microsoft Learn - Home Page](https://docs.microsoft.com/learn/) (*Can also access via https://microsoft.com/learn and https://docs.com/learn*)
-* [Microsoft Learn - Browse Page](https://docs.microsoft.com/learn/browse/)
+* [Microsoft Learn home page](https://docs.microsoft.com/learn/) (*Can also access via `https://microsoft.com/learn` and `https://docs.com/learn`)
+* [Microsoft Learn browse page](https://docs.microsoft.com/learn/browse/)
 
 To view all of the available landing pages, you can navigate to them from the header of the Learn home page.
 
 ## Contributions and feedback
 
-We welcome contributions and feedback. How you contribute depends on who you are and the sort of changes you'd like to contribute. For more information about how to understand the content files, view our [create a module](https://review.docs.microsoft.com/learn-docs/docs/create-a-module?branch=master#implementation) documentation.
+We welcome contributions and feedback. How you contribute depends on who you are and the sort of changes you'd like to contribute. For more information about how to understand the content files, view our [create a module](https://review.docs.microsoft.com/learn-docs/docs/create-a-module?branch=main#implementation) documentation.
 
 ### Microsoft employees
 
@@ -44,6 +44,5 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 
 ## Questions
 
-View the [Microsoft Learn FAQs](https://review.docs.microsoft.com/en-us/learn-docs/docs/microsoftlearn-faq?branch=master).
-
+View the [Microsoft Learn FAQs](https://docs.microsoft.com/learn/support/faq).
 For questions related to repo and build issues, contact: [learn-repo-managers@microsoft.com](mailto:learn-repo-managers@microsoft.com)
