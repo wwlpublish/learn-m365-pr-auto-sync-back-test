@@ -24,7 +24,8 @@ Viva Connections below.
 Kendall is a nurse at Lamna Healthcare Region C hospital ER and needs to stay
 updated on important workplace events, news, and team communication.
 Kendall receives all organization-wide news and updates, such as the organization's updated vision and mission, the recorded CEO keynote speech to kickoff the new fiscal year, and upcoming events. As a medical professional, Kendall also receives news and updates on changes in medical products, procedures, policies and regulations through the Feeds feature. In addition, Kendall receives region-specific news for Region C because of his work location.
-:::image type="content" source="../media/feed-scrolling-on-screen.gif" alt-text="Scrolling screenshot of Kendall viewing news feed on a mobile device.":::
+
+:::image type="content" source="../media/feed-scrolling-on-screen.gif" alt-text="Scrolling screenshot of Kendall viewing news feed on a mobile device." border="false":::
 
 **Reminder:** Administrators for the Dashboard can target specific
 content to different groups, so employees see the most important
@@ -52,7 +53,8 @@ tasks added by the manager. Now, Kendall is ready to get to work!
 Jessie works in Lamna Healthcare’s Human Resources team as a Benefit
 Specialist. Jessie answers repetitive questions from employees,  employees, including where to find paystubs and how to request time off. Jessie collaborates with the Viva Connections administrator to make sure the Viva Connection’s Dashboard offers self-service cards so people in the rest of the organization can report time off and view their pay summaries. Then, Jessie has more time to assist employees with more complex benefit related questions.
 To further customize employees’ experiences, Jessie works with the Viva Connections admins to add links to other SharePoint portals like Human Resources sites or content like frequently asked questions under the Resources tab, so that employees can easily access
-:::image type="content" source="../media/lamna-resources.png" alt-text="Mobile screen of Lamna Healthcare Resources tab showing links to various Human Resources links.":::
+
+:::image type="content" source="../media/lamna-resources.png" alt-text="Mobile screen of Lamna Healthcare Resources tab showing links to various Human Resources links." border="false":::
 
 To further customize employees’ experiences, Dashboard admins can use
 Viva Connections Resources to link to other SharePoint portals like
