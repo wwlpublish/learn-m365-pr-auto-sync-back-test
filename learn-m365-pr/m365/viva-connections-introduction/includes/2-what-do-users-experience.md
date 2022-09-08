@@ -1,9 +1,9 @@
 Viva Connections optimizes communication and productivity by connecting
 you with the right tools, people, and information for your job. Whether on desktop or mobile, Viva Connections brings together
 relevant news, conversations, and resources into Microsoft Teams where
-it’s easy to share, collaborate, and chat.
+it’s easy to share, collaborate, and chat. Your Viva Connections experience includes three components: Dashboard, Feeds, and Resources. Now let’s take a look at each.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Vpnn]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Vpnn]
 
 **Dashboard**
 
