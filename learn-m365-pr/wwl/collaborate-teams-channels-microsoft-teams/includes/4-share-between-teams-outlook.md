@@ -15,7 +15,7 @@ To share a conversation to Outlook:
 
 > [!NOTE]
 > * The **Share to Outlook** feature is currently not supported on mobile.
-> * You must have [Outlook on the Web](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app?azure-portal=true) enabled. If it's turned off, the **Share to Outlook** option isn't displayed in Teams.
+> * You must have [Outlook on the Web](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app?azure-portal=true) enabled. If it's turned off, the **Share to Outlook** option isn't displayed in Teams.
 
 ## Send email to a channel
 
@@ -30,7 +30,7 @@ To send email to a channel:
 4. Select **Send** to send the email to the channel.
 
 > [!NOTE]
-> This feature needs to be turned on by your IT admin. Also, sending email to a channel isn't available if you're using Teams as part of an [Office 365 Government plan](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government?azure-portal=true).
+> This feature needs to be turned on by your IT admin. Also, sending email to a channel isn't available if you're using Teams as part of an [Office 365 Government plan](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government?azure-portal=true).
 
 When a member of the channel replies to an email message that has been sent to a channel, it's treated like a reply to any other post in a channel. Replying to the post in Teams doesn't send an email reply to the original sender. Any comments or conversations you have about the email in a channel aren't visible outside of Teams.
 

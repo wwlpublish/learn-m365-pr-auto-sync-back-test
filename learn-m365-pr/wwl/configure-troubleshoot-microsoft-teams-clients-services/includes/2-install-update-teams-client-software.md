@@ -1,4 +1,4 @@
-Installing the Teams desktop client is a fairly straightforward process, and most users could complete this procedure without administrative intervention. One way for users to install the client is to connect to the [Download Microsoft Teams]( https://www.microsoft.com/microsoft-teams/download-app?azure-portal=true) website and select the client they want to install. 
+Installing the Teams desktop client is a fairly straightforward process, and most users could complete this procedure without administrative intervention. One way for users to install the client is to connect to the [Download Microsoft Teams](https://www.microsoft.com/microsoft-teams/download-app?azure-portal=true) website and select the client they want to install. 
 
 However, in most organizations, administrators will want to exert more control over the process to ensure users don’t experience problems. In this unit, you’ll learn about the available options for administrative control over the installation process for the Teams desktop client. 
 
@@ -102,4 +102,4 @@ If you experience problems when updating, you should collect and review availabl
 
 If these logs don’t provide useful insights, then consider collecting and analyzing application and system logs using [Windows Sysinternals](/sysinternals).
 
-Use the procedure in the [Collect and analyze application and system logs](https://docs.microsoft.com/microsoftteams/troubleshoot-installation#collect-and-analyze-application-and-system-logs?azure-portal=true) document to learn more. 
+Use the procedure in the [Collect and analyze application and system logs](/microsoftteams/troubleshoot-installation#collect-and-analyze-application-and-system-logs?azure-portal=true) document to learn more. 

@@ -22,8 +22,8 @@ As you just saw in the video, you can use group policy to configure IE mode thro
 
 Once you’ve configured IE integration, you can use the following group policies to configure specific sites to open in IE mode:
 
-- [Use the Enterprise Mode IE website list](https://docs.microsoft.com/deployedge/edge-ie-mode-policies#configure-using-the-use-the-enterprise-mode-ie-website-list-policy) (Internet Explorer node)
-- [Configure the Enterprise Mode Site List](https://docs.microsoft.com/deployedge/edge-ie-mode-policies#configure-using-the-configure-the-enterprise-mode-site-list-policy) (Microsoft Edge node, version 78 or later)
+- [Use the Enterprise Mode IE website list](/deployedge/edge-ie-mode-policies#configure-using-the-use-the-enterprise-mode-ie-website-list-policy) (Internet Explorer node)
+- [Configure the Enterprise Mode Site List](/deployedge/edge-ie-mode-policies#configure-using-the-configure-the-enterprise-mode-site-list-policy) (Microsoft Edge node, version 78 or later)
 
 ### Enterprise Site Discovery
 
@@ -32,4 +32,4 @@ Enterprise Site Discovery can help you configure your Enterprise Mode Site List 
 - Discover which sites are using legacy document modes. Unless these sites are detecting modern browsers and providing different HTML, they probably need to use IE mode.
 - Discover which sites are using ActiveX controls. Microsoft Edge doesn't support ActiveX controls. Unless these sites are detecting modern browsers and providing different HTML, they probably need to use IE mode.
 
-For more information, see [Enterprise Site Discovery Step-by-Step Guide](https://docs.microsoft.com/deployedge/edge-ie-mode-site-discovery).
+For more information, see [Enterprise Site Discovery Step-by-Step Guide](/deployedge/edge-ie-mode-site-discovery).

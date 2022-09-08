@@ -43,7 +43,7 @@ To recap, devices running the new Microsoft Edge Browser require no additional c
 
  
 
-To learn more, go to [How does the Microsoft Search in Bing extension for Google Chrome get installed?](https://docs.microsoft.com/deployoffice/microsoft-search-bing).
+To learn more, go to [How does the Microsoft Search in Bing extension for Google Chrome get installed?](/deployoffice/microsoft-search-bing).
 
  
 
@@ -91,6 +91,6 @@ Once devices are provisioned you to configure Microsoft Search controls, specifi
 
    *Add a Bookmark for Microsoft Search*
 
-Additional controls can be configured, including [locations](https://docs.microsoft.com/microsoftsearch/manage-locations), [floor plans](https://docs.microsoft.com/microsoftsearch/manage-floorplans), and [Q&As](https://docs.microsoft.com/microsoftsearch/manage-qas). To learn more, go to [Plan you content](https://docs.microsoft.com/microsoftsearch/plan-your-content).
+Additional controls can be configured, including [locations](/microsoftsearch/manage-locations), [floor plans](/microsoftsearch/manage-floorplans), and [Q&As](/microsoftsearch/manage-qas). To learn more, go to [Plan you content](/microsoftsearch/plan-your-content).
 
  

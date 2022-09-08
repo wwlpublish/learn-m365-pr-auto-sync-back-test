@@ -12,13 +12,12 @@ Now that you have reviewed this module, you should have learned:
 
 Use these resources to discover more.
 
-- [Configure and consume a dataflow](https://docs.microsoft.com/power-bi/transform-model/dataflows/dataflows-configure-consume)
+- [Configure and consume a dataflow](/power-bi/transform-model/dataflows/dataflows-configure-consume)
 
-- [Introduction to dataflows and self-service data prep](https://docs.microsoft.com/power-bi/transform-model/dataflows/dataflows-introduction-self-service)
+- [Introduction to dataflows and self-service data prep](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)
 
-- [Grouping or summarizing rows - Fuzzy Grouping](https://docs.microsoft.com/power-query/group-by)
+- [Grouping or summarizing rows - Fuzzy Grouping](/power-query/group-by)
 
-- [Power Query Text/CSV by Example connector](https://docs.microsoft.com/power-query/connectors/textcsv)
+- [Power Query Text/CSV by Example connector](/power-query/connectors/textcsv)
 
 - [Power Query roadmap](https://powerbi.microsoft.com/roadmap/)
-
