@@ -25,17 +25,17 @@ The conditional logic to display the same view can reuse the two user interfaces
 ```tsx
 let mainContentElement: JSX.Element | JSX.Element[] | null = null;
 switch (frameContext) {
-  case microsoftTeams.FrameContexts.content:
+  case FrameContexts.content:
     if (onlineMeeting.startDateTime) {
       mainContentElement = ((new Date(onlineMeeting.startDateTime as string)).getTime() < Date.now())
         ? getPreMeetingUX()
         : getMeetingStageUX();
     }
     break;
-  case microsoftTeams.FrameContexts.sidePanel:
+  case FrameContexts.sidePanel:
     mainContentElement = getSidepanelUX();
     break;
-  case microsoftTeams.FrameContexts.meetingStage:
+  case FrameContexts.meetingStage:
     mainContentElement = getMeetingStageUX();
     break;
   default:
