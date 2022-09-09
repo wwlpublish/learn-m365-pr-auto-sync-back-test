@@ -6,13 +6,13 @@ This resource account is also the account that signs into the Microsoft Teams Ro
 
 ## Assign Teams Rooms licenses
 
-It's recommended that organizations assign the Teams Rooms Standard or Teams Rooms Premium license to all Teams Rooms resource accounts.
+It's recommended that organizations assign the Teams Rooms Basic or Teams Rooms Pro license to all Teams Rooms resource accounts.
 
-- **Teams Rooms Standard license** - This license is a cost-effective license that includes all the core components needed for Teams Rooms.
+- **Teams Rooms Basic license** - This license is a cost-effective license that includes all the core components needed for Teams Rooms. The Teams Rooms Basic license includes scheduling, joining meetings, content sharing, and collaborative white boarding, as well as basic security and management capabilities out-of-the-box.
 
-- **Teams Rooms Premium license** - This license includes everything in the Standard license, plus an advanced set of features. For example, it includes a Microsoft-managed service that helps with everything from planning your rooms to monitoring and troubleshooting them.
+- **Teams Rooms Pro license** - This license includes everything in the Basic license, plus enhanced in-room meeting experiences like intelligent audio and video, front row and large galleries, and multi-screen support. The Teams Rooms Pro licenses also provides advanced management features like remote device management, conditional access policies, and detailed device analytics.
 
-    :::image type="content" source="../media/standard-premium-license.png" alt-text="Diagram showing Standard versus Premium licenses.":::
+    :::image type="content" source="../media/standard-premium-license.png" alt-text="Diagram showing Basic versus Pro licenses.":::
 
 ## Create a resource account 
 
