@@ -3,7 +3,7 @@ uid: learn.wwl.manage-governance-compliance-features-microsoft-365
 metadata:
   title: 'MS-500 part 4: Manage Governance and Compliance Features in Microsoft 365'
   description: 'MS-500 part 4: Manage Governance and Compliance Features in Microsoft 365'
-  ms.date: 08/02/2022
+  ms.date: 09/09/2022
   author: wwlpublish
   ms.author: hrasheed
   ms.topic: interactive-tutorial
@@ -29,7 +29,7 @@ modules:
 - learn-m365.m365-messaging-manage-compliance
 - learn.wwl.manage-microsoft-purview-ediscovery-premium
 - learn-m365.compmgmt-explore-compliance
-- learn.azure-data-subject-requests
+- learn.wwl.manage-regulatory-privacy-requirements-microsoft-priva
 - learn-m365.m365-compliance-insider-prepare-communication-compliance
 - learn-m365.m365-compliance-insider-manage-insider-risk
 - learn-m365.m365-compliance-insider-plan-information-barriers
