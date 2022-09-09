@@ -18,7 +18,7 @@ The cause of the problem can vary, so you'll need to investigate further, but th
 To retrieve errors for an object, use the following PowerShell command: 
 
 ``` powershell
-$errors = (Get-<object_type> –ObjectID <Object_ID>).Errors`.
+$errors = (Get-<object_type> –ObjectID <Object_ID>).Errors
 ```
 
 The following are supported object types:
