@@ -251,14 +251,14 @@ Now that you've defined the dialog UI, you can write the code that makes it actu
     jQuery(document).ready(function(){
       if (window.location.search) {
         // Check if warning should be displayed.
-        var warn = getParameterByName('warn');
+        const warn = getParameterByName('warn');
         if (warn) {
           $('.not-configured-warning').show();
         } else {
           // See if the config values were passed.
           // If so, pre-populate the values.
-          var user = getParameterByName('gitHubUserName');
-          var gistId = getParameterByName('defaultGistId');
+          const user = getParameterByName('gitHubUserName');
+          const gistId = getParameterByName('defaultGistId');
 
           $('#github-user').val(user);
           loadGists(user, function(success){
@@ -277,7 +277,7 @@ Now that you've defined the dialog UI, you can write the code that makes it actu
       // try to load gists.
       $('#github-user').on('change', function(){
         $('#gist-list').empty();
-        var ghUser = $('#github-user').val();
+        const ghUser = $('#github-user').val();
         if (ghUser.length > 0) {
           loadGists(ghUser);
         }
@@ -287,11 +287,11 @@ Now that you've defined the dialog UI, you can write the code that makes it actu
       // values back to the caller as a serialized
       // object.
       $('#settings-done').on('click', function() {
-        var settings = {};
+        const settings = {};
 
         settings.gitHubUserName = $('#github-user').val();
 
-        var selectedGist = $('.ms-ListItem.is-selected');
+        const selectedGist = $('.ms-ListItem.is-selected');
         if (selectedGist) {
           settings.defaultGistId = selectedGist.val();
 
@@ -335,7 +335,7 @@ Now that you've defined the dialog UI, you can write the code that makes it actu
       url = window.location.href;
     }
     name = name.replace(/[\[\]]/g, "\\$&");
-    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+    const regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
       results = regex.exec(url);
     if (!results) return null;
     if (!results[2]) return '';
@@ -475,7 +475,7 @@ Within the **./src** folder, create a new subfolder named **helpers**. In the **
 
 ```javascript
 function getUserGists(user, callback) {
-  var requestUrl = 'https://api.github.com/users/' + user + '/gists';
+  const requestUrl = 'https://api.github.com/users/' + user + '/gists';
 
   $.ajax({
     url: requestUrl,
@@ -490,10 +490,10 @@ function getUserGists(user, callback) {
 function buildGistList(parent, gists, clickFunc) {
   gists.forEach(function(gist) {
 
-    var listItem = $('<div/>')
+    const listItem = $('<div/>')
       .appendTo(parent);
 
-    var radioItem = $('<input>')
+    const radioItem = $('<input>')
       .addClass('ms-ListItem')
       .addClass('is-selectable')
       .attr('type', 'radio')
@@ -502,19 +502,19 @@ function buildGistList(parent, gists, clickFunc) {
       .val(gist.id)
       .appendTo(listItem);
 
-    var desc = $('<span/>')
+    const desc = $('<span/>')
       .addClass('ms-ListItem-primaryText')
       .text(gist.description)
       .appendTo(listItem);
 
-    var desc = $('<span/>')
+    const desc = $('<span/>')
       .addClass('ms-ListItem-secondaryText')
       .text(' - ' + buildFileList(gist.files))
       .appendTo(listItem);
 
-    var updated = new Date(gist.updated_at);
+    const updated = new Date(gist.updated_at);
 
-    var desc = $('<span/>')
+    const desc = $('<span/>')
       .addClass('ms-ListItem-tertiaryText')
       .text(' - Last updated ' + updated.toLocaleString())
       .appendTo(listItem);
@@ -525,9 +525,9 @@ function buildGistList(parent, gists, clickFunc) {
 
 function buildFileList(files) {
 
-  var fileList = '';
+  let fileList = '';
 
-  for (var file in files) {
+  for (let file in files) {
     if (files.hasOwnProperty(file)) {
       if (fileList.length > 0) {
         fileList = fileList + ', ';
@@ -592,8 +592,8 @@ You may have noticed that the HTML file references a JavaScript file, **addin-co
 Open the file **./src/commands/commands.js** and replace the entire contents with the following code. If the `insertDefaultGist()` function determines the add-in hasn't yet been configured, it adds the `?warn=1` parameter to the dialog URL. Doing so makes the settings dialog render the message bar that's defined in **./settings/dialog.html**, to tell the user why they're seeing the dialog.
 
 ```javascript
-var config;
-var btnEvent;
+let config;
+let btnEvent;
 
 // The initialize function must be run each time a new page is loaded.
 Office.initialize = function (reason) {
@@ -608,7 +608,7 @@ function showError(error) {
   });
 }
 
-var settingsDialog;
+let settingsDialog;
 
 function insertDefaultGist(event) {
 
@@ -646,8 +646,8 @@ function insertDefaultGist(event) {
     btnEvent = event;
     // Not configured yet, display settings dialog with
     // warn=1 to display warning.
-    var url = new URI('../src/settings/dialog.html?warn=1').absoluteTo(window.location).toString();
-    var dialogOptions = { width: 20, height: 40, displayInIframe: true };
+    const url = new URI('../src/settings/dialog.html?warn=1').absoluteTo(window.location).toString();
+    const dialogOptions = { width: 20, height: 40, displayInIframe: true };
 
     Office.context.ui.displayDialogAsync(url, dialogOptions, function(result) {
       settingsDialog = result.value;
@@ -656,6 +656,9 @@ function insertDefaultGist(event) {
     });
   }
 }
+
+// Register the function.
+Office.actions.associate("insertDefaultGist", insertDefaultGist);
 
 function receiveMessage(message) {
   config = JSON.parse(message.message);
@@ -672,18 +675,6 @@ function dialogClosed(message) {
   btnEvent.completed();
   btnEvent = null;
 }
-
-function getGlobal() {
-  return (typeof self !== "undefined") ? self :
-    (typeof window !== "undefined") ? window :
-    (typeof global !== "undefined") ? global :
-    undefined;
-}
-
-var g = getGlobal();
-
-// The add-in command functions need to be available in global scope.
-g.insertDefaultGist = insertDefaultGist;
 ```
 
 ### Create a file to manage configuration settings
@@ -692,7 +683,7 @@ The HTML function file references a file named **addin-config.js**, which doesn'
 
 ```javascript
 function getConfig() {
-  var config = {};
+  const config = {};
 
   config.gitHubUserName = Office.context.roamingSettings.get('gitHubUserName');
   config.defaultGistId = Office.context.roamingSettings.get('defaultGistId');
@@ -714,7 +705,7 @@ Open the **./src/helpers/gist-api.js** file and add the following functions.
 
 ```javascript
 function getGist(gistId, callback) {
-  var requestUrl = 'https://api.github.com/gists/' + gistId;
+  const requestUrl = 'https://api.github.com/gists/' + gistId;
 
   $.ajax({
     url: requestUrl,
@@ -729,9 +720,9 @@ function getGist(gistId, callback) {
 function buildBodyContent(gist, callback) {
   // Find the first non-truncated file in the gist
   // and use it.
-  for (var filename in gist.files) {
+  for (let filename in gist.files) {
     if (gist.files.hasOwnProperty(filename)) {
-      var file = gist.files[filename];
+      const file = gist.files[filename];
       if (!file.truncated) {
         // We have a winner.
         switch (file.language) {
@@ -741,13 +732,13 @@ function buildBodyContent(gist, callback) {
             break;
           case 'Markdown':
             // Convert Markdown to HTML.
-            var converter = new showdown.Converter();
-            var html = converter.makeHtml(file.content);
+            const converter = new showdown.Converter();
+            const html = converter.makeHtml(file.content);
             callback(html);
             break;
           default:
             // Insert contents as a <code> block.
-            var codeBlock = '<pre><code>';
+            let codeBlock = '<pre><code>';
             codeBlock = codeBlock + file.content;
             codeBlock = codeBlock + '</code></pre>';
             callback(codeBlock);

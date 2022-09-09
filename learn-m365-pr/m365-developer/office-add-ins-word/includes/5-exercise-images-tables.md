@@ -28,8 +28,8 @@ In this exercise, you'll add text inside and outside of selected ranges of text,
 1. Add the following function to the end of the file:
 
     ```javascript
-    function insertTextIntoRange() {
-      Word.run(function (context) {
+    async function insertTextIntoRange() {
+      await Word.run(async (context) => {
         // TODO1: Queue commands to insert text into a selected range.
 
         // TODO2: Load the text of the range and sync so that the
@@ -38,7 +38,7 @@ In this exercise, you'll add text inside and outside of selected ranges of text,
         // TODO3: Queue commands to repeat the text of the original
         //        range at the end of the document.
 
-        return context.sync();
+        await context.sync();
       })
       .catch(function (error) {
         console.log("Error: " + error);
@@ -52,8 +52,8 @@ In this exercise, you'll add text inside and outside of selected ranges of text,
 1. Within the `insertTextIntoRange()` function, replace `TODO1` with the following code:
 
     ```javascript
-    var doc = context.document;
-    var originalRange = doc.getSelection();
+    const doc = context.document;
+    const originalRange = doc.getSelection();
     originalRange.insertText(" (C2R)", "End");
     ```
 
@@ -93,43 +93,32 @@ These steps must be completed whenever your code needs to *read* information fro
 
     ```javascript
     originalRange.load("text");
-    return context.sync()
-      .then(function() {
-        // TODO4: Move the doc.body.insertParagraph line here.
-      })
-      // TODO5: Move the final call of context.sync here and ensure
-      //        that it doesn't run until the insertParagraph has
-      //        been queued.
+    await context.sync();
+
+    // TODO4: Move the doc.body.insertParagraph line here.
+
+    // TODO5: Move the final call of context.sync here and ensure
+    //        that it doesn't run until the insertParagraph has
+    //        been queued.
     ```
 
-1. You can't have two `return` statements in the same unbranching code path, so delete the final line `return context.sync();` at the end of the `Word.run()`. You'll add a new final `context.sync()` later.
 1. Move the `doc.body.insertParagraph` line and paste in place of `TODO4`.
-1. Replace `TODO5` with the following code.
-
-      ```javascript
-      .then(context.sync);
-      ```
-
-    > [!NOTE]
-    >
-    > - Passing the `sync()` method to a `then()` method ensures that it doesn't run until the `insertParagraph` logic has been queued.
-    > - The `then()` method invokes whatever function is passed to it, and you don't want `sync` to be invoked twice, so omit the "()" from the end of context.sync.
 
 When you're done, the completed `insertTextIntoRange()` function should look like the following:
 
 ```javascript
-function insertTextIntoRange() {
-  Word.run(function (context) {
-    var doc = context.document;
-    var originalRange = doc.getSelection();
+async function insertTextIntoRange() {
+  await Word.run(async (context) => {
+    const doc = context.document;
+    const originalRange = doc.getSelection();
     originalRange.insertText(" (C2R)", "End");
 
     originalRange.load("text");
-    return context.sync()
-      .then(function() {
-        doc.body.insertParagraph("Current text of original range: " + originalRange.text, "End");
-      })
-      .then(context.sync);
+    await context.sync();
+
+    doc.body.insertParagraph("Current text of original range: " + originalRange.text, "End");
+
+    await context.sync();
   })
   .catch(function (error) {
     console.log("Error: " + error);
@@ -165,8 +154,8 @@ function insertTextIntoRange() {
 1. Add the following function to the end of the file:
 
     ```javascript
-    function insertTextBeforeRange() {
-      Word.run(function (context) {
+    async function insertTextBeforeRange() {
+      await Word.run(async (context) => {
         // TODO1: Queue commands to insert a new range before the
         //        selected range.
 
@@ -185,8 +174,8 @@ function insertTextIntoRange() {
 1. Within the `insertTextBeforeRange()` function, replace `TODO1` with the following code:
 
       ```javascript
-      var doc = context.document;
-      var originalRange = doc.getSelection();
+      const doc = context.document;
+      const originalRange = doc.getSelection();
       originalRange.insertText("Office 2019, ", "Before");
       ```
 
@@ -200,14 +189,14 @@ function insertTextIntoRange() {
 
     ```javascript
     originalRange.load("text");
-    return context.sync()
-      .then(function() {
-        // TODO3: Queue commands to insert the original range as a
-        //        paragraph at the end of the document.
-    })
-      // TODO4: Make a final call of context.sync here and ensure
-      //        that it doesn't run until the insertParagraph has
-      //        been queued.
+    await context.sync();
+
+    // TODO3: Queue commands to insert the original range as a
+    //        paragraph at the end of the document.
+
+    // TODO4: Make a final call of context.sync here and ensure
+    //        that it doesn't run until the insertParagraph has
+    //        been queued.
     ```
 
 1. Replace `TODO3` with the following code. This new paragraph will demonstrate the fact that the new text **isn't** part of the original selected range. The original range still has only the text it had when it was selected.
@@ -219,7 +208,7 @@ function insertTextIntoRange() {
 1. Replace `TODO4` with the following code:
 
     ```javascript
-    .then(context.sync);
+    await context.sync();
     ```
 
 ### Replace the text of a range
@@ -247,10 +236,11 @@ function insertTextIntoRange() {
 1. Add the following function to the end of the file:
 
     ```javascript
-    function replaceText() {
-      Word.run(function (context) {
+    async function replaceText() {
+      await Word.run(async (context) => {
         // TODO1: Queue commands to replace the text.
-        return context.sync();
+        
+        await context.sync();
       })
       .catch(function (error) {
         console.log("Error: " + error);
@@ -264,8 +254,8 @@ function insertTextIntoRange() {
 1. Within the `replaceText()` function, replace `TODO1` with the following code. The method is intended to replace the string "several" with the string "many". It makes a simplifying assumption that the string is present and the user has selected it.
 
     ```javascript
-    var doc = context.document;
-    var originalRange = doc.getSelection();
+    const doc = context.document;
+    const originalRange = doc.getSelection();
     originalRange.insertText("many", "Replace");
     ```
 
@@ -332,11 +322,11 @@ Complete the following steps to define the image that you'll insert into the doc
 1. Add the following function to the end of the file:
 
     ```javascript
-    function insertImage() {
-      Word.run(function (context) {
+    async function insertImage() {
+      await Word.run(async (context) => {
         // TODO1: Queue commands to insert an image.
 
-        return context.sync();
+        await context.sync();
       })
       .catch(function (error) {
         console.log("Error: " + error);
@@ -378,10 +368,11 @@ Complete the following steps to define the image that you'll insert into the doc
 1. Add the following function to the end of the file:
 
     ```javascript
-    function insertHTML() {
-      Word.run(function (context) {
+    async function insertHTML() {
+      await Word.run(async (context) => {
         // TODO1: Queue commands to insert a string of HTML.
-        return context.sync();
+        
+        await context.sync();
       })
       .catch(function (error) {
         console.log("Error: " + error);
@@ -395,7 +386,7 @@ Complete the following steps to define the image that you'll insert into the doc
 1. Within the `insertHTML()` function, replace `TODO1` with the following code:
 
     ```javascript
-    var blankParagraph = context.document.body.paragraphs.getLast().insertParagraph("", "After");
+    const blankParagraph = context.document.body.paragraphs.getLast().insertParagraph("", "After");
     blankParagraph.insertHtml('<p style="font-family: verdana;">Inserted HTML.</p><p>Another paragraph</p>', "End");
     ```
 
@@ -429,14 +420,14 @@ Complete the following steps to define the image that you'll insert into the doc
 1. Add the following function to the end of the file:
 
     ```javascript
-    function insertTable() {
-      Word.run(function (context) {
+    async function insertTable() {
+      await Word.run(async (context) => {
         // TODO1: Queue commands to get a reference to the paragraph
         //        that will proceed the table.
 
         // TODO2: Queue commands to create a table and populate it with data.
 
-        return context.sync();
+        await context.sync();
       })
       .catch(function (error) {
         console.log("Error: " + error);
@@ -450,13 +441,13 @@ Complete the following steps to define the image that you'll insert into the doc
 1. Within the `insertTable()` function, replace `TODO1` with the following code. This line uses the `ParagraphCollection.getFirst()` method to get a reference to the first paragraph and then uses the `Paragraph.getNext()` method to get a reference to the second paragraph.
 
     ```javascript
-    var secondParagraph = context.document.body.paragraphs.getFirst().getNext();
+    const secondParagraph = context.document.body.paragraphs.getFirst().getNext();
     ```
 
 1. Within the `insertTable()` function, replace `TODO2` with the following code:
 
     ```javascript
-    var tableData = [
+    const tableData = [
         ["Name", "ID", "Birth City"],
         ["Bob", "434", "Chicago"],
         ["Sue", "719", "Havana"],
