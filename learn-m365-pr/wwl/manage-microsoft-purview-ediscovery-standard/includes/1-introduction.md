@@ -1,4 +1,4 @@
-This module examines how organizations can use eElectronic discovery, or eDiscovery, to identify and deliver electronic information that can be used as evidence in legal cases.
+This module examines how organizations can use electronic discovery, or eDiscovery, to identify and deliver electronic information that can be used as evidence in legal cases.
 
 Microsoft Purview provides three eDiscovery solutions: Content search, eDiscovery (Standard), and eDiscovery (Premium). Each solution builds upon its predecessor.
 
