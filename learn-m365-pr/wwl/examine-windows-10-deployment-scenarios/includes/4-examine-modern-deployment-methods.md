@@ -1,9 +1,9 @@
-Traditional device deployment is image-based and only uses an organization’s on-premises infrastructure. You can still use this methodology today, but the modern deployment method is now recognized as the preferable way for deploying Windows 10 devices.
+Traditional device deployment is image-based and only uses an organization’s on-premises infrastructure. You can still use this methodology today, but the modern deployment method is now recognized as the preferable way for deploying Windows 10 and later devices.
 
 Modern deployment methods combine both traditional on-premises and cloud services to deliver a streamlined, cost effective deployment experience. There are two modern deployment methods - Windows Autopilot and in-place upgrade.
 
  -  Windows Autopilot is typically used on newly purchased devices.
- -  In-place upgrade is used every time you install a feature update on your Windows 10 device.
+ -  In-place upgrade is used every time you install a feature update on a Windows 10 or later device.
 
 > [!NOTE]
 > The operating system must be present on the device to use either deployment method.
