@@ -31,11 +31,11 @@ In this exercise, you'll learn how to create rich text content controls in the d
 1. Add the following function to the end of the file:
 
     ```javascript
-    function createContentControl() {
-      Word.run(function (context) {
+    async function createContentControl() {
+      await Word.run(async (context) => {
         // TODO1: Queue commands to create a content control.
 
-        return context.sync();
+        await context.sync();
       })
       .catch(function (error) {
         console.log("Error: " + error);
@@ -49,8 +49,8 @@ In this exercise, you'll learn how to create rich text content controls in the d
 1. Within the `createContentControl()` function, replace `TODO1` with the following code:
 
     ```javascript
-    var serviceNameRange = context.document.getSelection();
-    var serviceNameContentControl = serviceNameRange.insertContentControl();
+    const serviceNameRange = context.document.getSelection();
+    const serviceNameContentControl = serviceNameRange.insertContentControl();
     serviceNameContentControl.title = "Service Name";
     serviceNameContentControl.tag = "serviceName";
     serviceNameContentControl.appearance = "Tags";
@@ -91,12 +91,12 @@ In this exercise, you'll learn how to create rich text content controls in the d
 1. Add the following function to the end of the file:
 
     ```javascript
-    function replaceContentInControl() {
-      Word.run(function (context) {
+    async function replaceContentInControl() {
+      await Word.run(async (context) => {
         // TODO1: Queue commands to replace the text in the Service Name
         //        content control.
 
-        return context.sync();
+        await context.sync();
       })
       .catch(function (error) {
         console.log("Error: " + error);
@@ -111,7 +111,7 @@ In this exercise, you'll learn how to create rich text content controls in the d
     - The `ContentControlCollection.getByTag()` method returns a `ContentControlCollection` of all content controls of the specified tag. We use `getFirst` to get a reference to the desired control.
 
         ```javascript
-        var serviceNameContentControl = context.document.contentControls.getByTag("serviceName").getFirst();
+        const serviceNameContentControl = context.document.contentControls.getByTag("serviceName").getFirst();
         serviceNameContentControl.insertText("Fabrikam Online Productivity Suite", "Replace");
         ```
 

@@ -63,7 +63,7 @@ The following code examples include common scenarios developers will come across
 - get the HTML representation of content in a content control:
 
     ```javascript
-    var html = ctrl.getHtml();
+    const html = ctrl.getHtml();
     ```
 
 - insert a content control based on the selection within a document:
