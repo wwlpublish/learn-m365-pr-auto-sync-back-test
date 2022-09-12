@@ -59,6 +59,27 @@ switch (stepContext.context.activity.text) {
 }
 ```
 
+In the switch statement, the text from the command is not included. Update the switch statement to include the text `mention me`:
+
+```typescript
+switch (stepContext.context.activity.text) {
+  case "who": {
+    return await stepContext.beginDialog("teamsInfoDialog");
+  }
+  case "help": {
+    return await stepContext.beginDialog("helpDialog");
+  }
+  case "mention me":
+  case "mention": {
+    return await stepContext.beginDialog("mentionUserDialog");
+  }
+  default: {
+    await stepContext.context.sendActivity("Ok, maybe next time 😉");
+    return await stepContext.next();
+  }
+```
+
+
 In the context of a channel, the repeated prompt "What else can I do for you?" may be too noisy. The prompt can be suppressed when in a channel by updating the `finalStep` method. Replace the `finalStep` method with the following:
 
 ```typescript
@@ -338,7 +359,7 @@ This code will execute when a user adds a reaction to a message from the bot. If
 From the command line, navigate to the root folder for the project and execute the following command:
 
 ```console
-gulp ngrok-serve
+gulp ngrok-serve --debug
 ```
 
 > [!IMPORTANT]
