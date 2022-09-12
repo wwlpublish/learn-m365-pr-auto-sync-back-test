@@ -53,6 +53,11 @@ Copy the user's **Object ID** value as you'll need this when you update the tab'
 
 ![Screenshot of selecting the user's Object ID.](../media/07-azure-ad-users-02.png)
 
+Add the selected user to the Team containing the tab.
+
+> [!IMPORTANT]
+> Applications cannot send a Team-scoped notification to a user unless that user is part of the Team.
+
 ## Update the Microsoft Teams app manifest
 
 Now, let's update the app's manifest to register support for an activity.
@@ -87,7 +92,7 @@ Add the following code before the `handleWordOnClick` method:
 const sendActivityMessage = useCallback(async() => {
   if (!msGraphOboToken || !context) { return; }
 
-  const endpoint = `https://graph.microsoft.com/v1.0/teams/${context.groupId}/sendActivityNotification`;
+  const endpoint = `https://graph.microsoft.com/v1.0/teams/${context.team?.groupId}/sendActivityNotification`;
   const requestObject = {
     method: "POST",
     headers: {
@@ -97,7 +102,7 @@ const sendActivityMessage = useCallback(async() => {
     body: JSON.stringify({
       topic: {
         source: "entityUrl",
-        value: `https://graph.microsoft.com/v1.0/teams/${context.groupId}`
+        value: `https://graph.microsoft.com/v1.0/teams/${context.team?.groupId}`
       },
       activityType: "userMention",
       previewText: {
@@ -105,12 +110,12 @@ const sendActivityMessage = useCallback(async() => {
       },
       recipient: {
         "@odata.type": "microsoft.graph.aadUserNotificationRecipient",
-        userId: "97c431bf-2437-4154-acee-6865979eed54"
+        userId: "{{recipient-object-id-from-above}}"
       },
       templateParameters: [
         { name: "tabName", value: "Word" },
-        { name: "teamName", value: `${context.teamName}` },
-        { name: "channelName", value: `${context.channelName}` }
+        { name: "teamName", value: `${context.team?.displayName}` },
+        { name: "channelName", value: `${context.channel?.displayName}` }
       ]
     })
   };
