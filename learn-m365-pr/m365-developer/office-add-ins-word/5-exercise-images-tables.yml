@@ -3,7 +3,7 @@ uid: learn-m365.office-add-ins-word.5-exercise-images-tables
 metadata:
   title: Exercise - Insert and replace images, HTML, and tables
   description: In this exercise, you'll update the add-in you created in a previous exercise to add images, HTML, and tables to a Word document.
-  ms.date: 05/03/2022
+  ms.date: 09/12/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

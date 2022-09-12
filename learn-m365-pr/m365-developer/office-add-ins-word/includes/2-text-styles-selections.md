@@ -103,7 +103,7 @@ The following code snippets demonstrate working examples of working text and par
     const paragraphs = context.document.body.paragraphs;
     context.load(paragraphs, 'text');
     return context.sync().then(() => {
-      for (var i = 0; i < paragraphs.items.length; i++) {
+      for (let i = 0; i < paragraphs.items.length; i++) {
         // do something with paragraph (paragraphs.items[i])
       }
     }).then(context.sync);
@@ -198,10 +198,10 @@ The following code snippets demonstrate working examples of obtaining and workin
 - search the current paragraph for a range of text and replace it:
 
     ```javascript
-    var ranges = paragraph.search('office', {matchCase: true, ignoreSpace: true});
+    const ranges = paragraph.search('office', {matchCase: true, ignoreSpace: true});
     context.load(ranges);
     return context.sync().then(() => {
-      for (var i = 0; i < ranges.items.length; i++) {
+      for (let i = 0; i < ranges.items.length; i++) {
         ranges.items[i].insertText("Office", "Replace");
       }
     }).then(context.sync);

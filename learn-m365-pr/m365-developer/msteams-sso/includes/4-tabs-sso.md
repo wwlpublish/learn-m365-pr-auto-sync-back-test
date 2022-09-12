@@ -89,7 +89,7 @@ The next step is for your tab to obtain the initial ID token from Microsoft Team
 To obtain this ID token, use the Microsoft Teams JavaScript SDK's `authentication` object:
 
 ```typescript
-microsoftTeams.authentication.getAuthToken({
+authentication.getAuthToken({
   successCallback: (result: string) => { this.ssoLoginSuccess(result) },
   failureCallback: (error: string) => { this.ssoLoginFailure(error) }
 });

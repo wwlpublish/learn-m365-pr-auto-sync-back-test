@@ -3,7 +3,7 @@ uid: learn-m365.office-add-ins-word.4-html-images-tables
 metadata:
   title: Work with HTML, images, and tables in Word documents
   description: In this unit, you'll learn how to work with HTML, images, and tables in Microsoft Word documents using the Office JavaScript API.
-  ms.date: 08/31/2020
+  ms.date: 07/28/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
