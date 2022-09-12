@@ -9,14 +9,10 @@ You'll use Node.js to create the custom Outlook add-in in this module. The exerc
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) (*the latest [LTS](https://nodejs.org/about/releases) version*)
-- npm v6.x or higher (installed with Node.js)
-- [Yeoman](https://yeoman.io/) (v3.x or higher) and [Yeoman generator for Office Add-ins](/office/dev/add-ins/develop/yeoman-generator-overview) (v1.8.x or higher). To install these tools globally, run the following command via the command prompt.
-
-  ```console
-  npm install -g yo generator-office
-  ```
-
+- [Node.js](https://nodejs.org/) - (*the active [LTS](https://nodejs.org/about/releases) version*)
+- NPM (*installed with Node.js*)
+- [Yeoman](https://yeoman.io/) - v4.x (or higher)
+- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.8.8
 - [Visual Studio Code (VS Code)](https://code.visualstudio.com) or your preferred code editor
 
 You must have the minimum versions of these prerequisites installed on your workstation.
