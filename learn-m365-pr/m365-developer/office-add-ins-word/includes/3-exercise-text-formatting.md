@@ -9,13 +9,11 @@ You'll use Node.js to create the custom Word add-in in this module. The exercise
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - (*the latest [LTS](https://nodejs.org/about/releases) version*)
-- NPM (installed with Node.js) - v6.x (or higher)
-- [Yeoman](https://yeoman.io/) - v3.x (or higher)
-- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.8.1 (or higher)
+- [Node.js](https://nodejs.org/) - (*the active [LTS](https://nodejs.org/about/releases) version*)
+- NPM (*installed with Node.js*)
+- [Yeoman](https://yeoman.io/) - v4.x (or higher)
+- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.8.8
 - [Visual Studio Code](https://code.visualstudio.com)
-
-You must have the minimum versions of these prerequisites installed on your workstation.
 
 ## Create your add-in project
 
