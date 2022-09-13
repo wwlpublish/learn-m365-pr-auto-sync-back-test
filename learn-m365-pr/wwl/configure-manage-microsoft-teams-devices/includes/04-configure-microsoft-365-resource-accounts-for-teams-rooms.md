@@ -12,7 +12,7 @@ It's recommended that organizations assign the Teams Rooms Basic or Teams Rooms 
 
 - **Teams Rooms Pro license** - This license includes everything in the Basic license, plus enhanced in-room meeting experiences like intelligent audio and video, front row and large galleries, and multi-screen support. The Teams Rooms Pro licenses also provides advanced management features like remote device management, conditional access policies, and detailed device analytics.
 
-    :::image type="content" source="../media/standard-premium-license.png" alt-text="Diagram showing Basic versus Pro licenses.":::
+    :::image type="content" source="../media/standard-premium-license.png" alt-text="Diagram showing Basic versus Pro licenses."::: 
 
 ## Create a resource account 
 
