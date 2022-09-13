@@ -1,4 +1,4 @@
-Organizations can obtain Windows 10/11 Enterprise licenses in the following ways:<br>
+Organizations can obtain Windows 10/11 Enterprise licenses in the following ways:
 
  -  **Firmware-embedded activation key**. If you purchased Windows 8 or newer devices, they probably have a firmware-embedded activation key. You can use Windows PowerShell to verify if an activation key is present. If it's present, Windows 10 version 1803 or newer and Windows 11 will be automatically activated if you deploy it to such a device.
  -  **Enabling Subscription Activation with an existing Enterprise Agreement (EA)**. If you're an existing EA customer, you can get Windows 10/11 Enterprise E3 or E5 licenses for free, depending on your EA. You can then assign the licenses to Azure AD users or groups. By doing so, Windows 10 Pro devices will be automatically upgraded and activated when users sign in.
