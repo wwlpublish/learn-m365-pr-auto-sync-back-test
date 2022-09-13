@@ -26,7 +26,7 @@ To connect Box to Defender for Cloud Apps, perform the following steps:
 
     :::image type="content" source="../media/2-box-custom-apps.png" alt-text="Box custom apps.":::
 
-5. Ensure that **Disable unpublished apps by default** is disabled or enter the API key from [Connect Box to Defender for Cloud Apps \| Microsoft Docs](/cloud-app-security/connect-box-to-microsoft-cloud-app-security).
+5. Ensure that **Disable unpublished apps by default** is disabled or enter the API key from [Connect Box to Defender for Cloud Apps](/cloud-app-security/connect-box-to-microsoft-cloud-app-security).
 
 6. Navigate to <https://portal.cloudappsecurity.com>.
 
