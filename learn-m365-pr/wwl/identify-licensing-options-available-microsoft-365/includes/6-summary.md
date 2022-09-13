@@ -17,7 +17,7 @@ Use the following list of resources to learn more about the units discussed in t
  -  [Compare All Microsoft 365 Plans (Formerly Office 365)](https://www.microsoft.com/microsoft-365/buy/compare-all-microsoft-365-products-b?azure-portal=true).
  -  [Microsoft 365 Education](https://www.microsoft.com/licensing/product-licensing/microsoft-365-education?azure-portal=true).
  -  [Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government?azure-portal=true).
- -  [Compare Microsoft 365 Enterprise plans.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?azure-portal=true)
- -  [Home \| Microsoft Licensing Resources](https://www.microsoft.com/licensing/default?azure-portal=true).
+ -  [Compare Microsoft 365 Enterprise plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?azure-portal=true)
+ -  [Microsoft Licensing Resources](https://www.microsoft.com/licensing/default?azure-portal=true).
  -  [Microsoft 365 \| Microsoft Licensing Resources](https://www.microsoft.com/Licensing/product-licensing/microsoft-365?azure-portal=true).
- -  [Understand billing accounts \| Microsoft Docs](/microsoft-365/commerce/manage-billing-accounts?azure-portal=true)
+ -  [Understand billing accounts](/microsoft-365/commerce/manage-billing-accounts?azure-portal=true)

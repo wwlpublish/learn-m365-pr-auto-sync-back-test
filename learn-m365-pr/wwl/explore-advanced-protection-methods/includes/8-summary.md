@@ -2,6 +2,6 @@ The key to good security is taking a defense-in-depth approach. Choosing an appr
 
 ### Learn more
 
- -  [Protect against threats with Microsoft Defender for Endpoint - Learn](/learn/modules/m365-security-threat-protect/)
- -  [Security baselines guide - Windows security \| Microsoft Docs](/windows/security/threat-protection/windows-security-configuration-framework/windows-security-baselines)
- -  [Microsoft Defender for Endpoint \| Microsoft Docs](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide)
+ -  [Protect against threats with Microsoft Defender for Endpoint](/learn/modules/m365-security-threat-protect/)
+ -  [Security baselines guide - Windows security](/windows/security/threat-protection/windows-security-configuration-framework/windows-security-baselines)
+ -  [Microsoft Defender for Endpoint](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide)

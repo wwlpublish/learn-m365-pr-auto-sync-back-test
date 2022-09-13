@@ -32,7 +32,7 @@ Licensing for eDiscovery (Standard) requires the appropriate organization subscr
 **Additional reading**. For information and guidance on security and compliance:
 
  -  Download and see the eDiscovery and auditing section in the [Microsoft 365 Comparison table](https://aka.ms/M365EnterprisePlans?azure-portal=true).
- -  See the [Microsoft 365 guidance for security &amp; compliance - Service Descriptions \| Microsoft Docs](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true).
+ -  See the [Microsoft 365 guidance for security and compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true).
 
 ### Step 2: Assign eDiscovery permissions
 
