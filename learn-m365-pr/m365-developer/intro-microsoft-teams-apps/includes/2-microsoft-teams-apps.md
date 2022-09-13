@@ -22,9 +22,9 @@ Teams, channels, and group chats allow multiple people to collaborate. Apps that
 
 They can be expanded with:
 
-- **Conversational bots** interacting with members of the conversation through chat, and responding to events (like a new member being added, or a channel being renamed). All conversations with a bot in this context are visible to all members of the channel or group, so you'll need to ensure the conversation is relevant to everyone.
-- **Channel & Group Chat Tabs** providing a full-screen embedded web experience configured for the channel or group chat it's installed in. All members will interact on the same shared web-app, so a stateless single page app experience is typical.
-- **Webhooks & Connectors** enabling external services to post messages to the conversation. You can take advantage of cards and card actions to create rich, actionable messages. Webhooks provide a simple, unauthenticated, one-way method to post messages to a channel, while Connectors provide a slightly more robust back-and-forth experience.
+- **Conversational, call, and online media bots** interacting with members of the conversation through chat, and responding to events (like a new member being added, or a channel being renamed). All conversations with a bot in this context are visible to all members of the channel or group, so you'll need to ensure the conversation is relevant to everyone.
+- **Channel & group chat tabs** providing a full-screen embedded web experience configured for the channel or group chat it's installed in. All members will interact on the same shared web-app, so a stateless single page app experience is typical.
+- **Webhooks & connectors** enabling external services to post messages to the conversation. You can take advantage of cards and card actions to create rich, actionable messages. Webhooks provide a simple, unauthenticated, one-way method to post messages to a channel, while Connectors provide a slightly more robust back-and-forth experience.
 
 ### Personal apps
 
@@ -32,7 +32,7 @@ Personal apps are the portion of your Teams app focusing on interactions with a 
 
 They can contain:
 
-- **Conversational bots** having a one-to-one conversation with the user. Because this is a private conversation, if your app needs to have a multi-turn conversation with a user, or provide a notification relevant only to a single user, it's typically best to have that interaction in a personal app.
+- **Conversational, call, and online media bots** having a one-to-one conversation with the user. Because this is a private conversation, if your app needs to have a multi-turn conversation with a user, or provide a notification relevant only to a single user, it's typically best to have that interaction in a personal app.
 - **Personal Tabs** providing a full-screen embedded web experience.
 
 ### Messages
@@ -48,6 +48,12 @@ There are three ways your app can help users create better messages:
 - **Messaging Extension - action commands** present your user with a modal form (a task module), submit the results of the form to your app, then either insert a message into the conversation directly, or create part of a message the user can edit before sending to the conversation.
 - **Messaging Extension - search commands** allowing them to quickly search an external system, preview the results of that search, then insert the result into the chat as a rich card.
 - **Messaging Extension - link unfurling** allows your app to monitor web domains you're interested in. When a URL containing that domain is pasted into the compose message box, your app's API will be invoked, allowing you to add a rich card to the message with additional information about the item being linked to.
+
+### Meeting apps
+
+Meetings enable collaboration, partnership, informed communication, and shared feedback. The meeting app can deliver a user experience for each stage of the meeting lifecycle.
+
+Meeting lifecycle includes pre-meeting, in-meeting, and post-meeting app experience, depending on the attendee's status.
 
 ## User interface (UI) elements
 
