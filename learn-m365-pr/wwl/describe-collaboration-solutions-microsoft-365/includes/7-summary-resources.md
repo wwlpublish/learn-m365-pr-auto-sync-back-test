@@ -11,14 +11,14 @@ Now that you've completed this module, you’ll be able to:
 
 Use the following list of resources to learn more about the units discussed in this module:
 
- -  [Video Conferencing, Meetings, Calling \| Microsoft Teams](https://www.microsoft.com/microsoft-teams/group-chat-software?azure-portal=true)
- -  [Welcome to Microsoft Teams - Microsoft Teams](/microsoftteams/teams-overview?azure-portal=true).
- -  [What is Microsoft Stream (Classic)? - Microsoft Stream](/stream/overview?azure-portal=true)
- -  [Employee Experience and Engagement \| Microsoft Viva](https://www.microsoft.com/microsoft-viva?azure-portal=true)
- -  [Microsoft Viva \| Microsoft Docs](/viva/?azure-portal=true)
- -  [SharePoint, Team Collaboration Software Tools (microsoft.com)](https://www.microsoft.com/microsoft-365/sharepoint/collaboration?azure-portal=true)
- -  [SharePoint documentation \| Microsoft Docs](/sharepoint/?azure-portal=true)
- -  [Personal Cloud Storage – Microsoft OneDrive](https://www.microsoft.com/microsoft-365/onedrive/online-cloud-storage?azure-portal=true)
- -  [OneDrive documentation - OneDrive \| Microsoft Docs](/onedrive/?azure-portal=true)
+ -  [Video Conferencing, Meetings, Calling with Microsoft Teams](https://www.microsoft.com/microsoft-teams/group-chat-software?azure-portal=true)
+ -  [Welcome to Microsoft Teams](/microsoftteams/teams-overview?azure-portal=true).
+ -  [What is Microsoft Stream (Classic)?](/stream/overview?azure-portal=true)
+ -  [Employee Experience and Engagement in Microsoft Viva](https://www.microsoft.com/microsoft-viva?azure-portal=true)
+ - [Microsoft Viva](/viva/?azure-portal=true)
+ -  [SharePoint - Team Collaboration Software Tools](https://www.microsoft.com/microsoft-365/sharepoint/collaboration?azure-portal=true)
+ -  [SharePoint documentation](/sharepoint/?azure-portal=true)
+ -  [Personal Cloud Storage in Microsoft OneDrive](https://www.microsoft.com/microsoft-365/onedrive/online-cloud-storage?azure-portal=true)
+ -  [OneDrive documentation](/onedrive/?azure-portal=true)
  -  [Yammer Enterprise Social Network \| Microsoft 365](https://www.microsoft.com/microsoft-365/yammer/yammer-overview?azure-portal=true)
- -  [Yammer administration documentation - Yammer \| Microsoft Docs](/yammer/?azure-portal=true)
+ -  [Yammer administration documentation](/yammer/?azure-portal=true)
