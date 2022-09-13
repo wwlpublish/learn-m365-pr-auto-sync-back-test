@@ -3,7 +3,7 @@ uid: learn-m365.msteams-teamwork-endpoint.5-exercise-configure-tab
 metadata:
   title: Exercise - Configure a built-in tab with Microsoft Graph
   description: In this exercise, you'll add a few built-in tabs to a channel in a Microsoft Teams team. Then, you'll use Microsoft Graph to programmatically configure the settings on these built-in tabs.
-  ms.date: 05/20/2022
+  ms.date: 09/12/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

@@ -21,11 +21,11 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v14.19.*
-- npm (installed with Node.js) - v6.14.*
+- [Node.js](https://nodejs.org/) - v16.16.*
+- npm (installed with Node.js) - v8.11.*
 - [Gulp CLI](https://gulpjs.com/) - v2.3.*
 - [Yeoman](https://yeoman.io/) - v4.3.*
-- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v4.0.1
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -48,13 +48,13 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: Adaptive Cards Task Modules
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.11
+- **Which manifest version would you like to use?**: v1.13
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A Tab
 - **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like to show a loading indicator when your app/tab loads?** No
 - **Default Tab name? (max 16 characters)**: YouTube Player
-- **What kind of Tab would you like to create?**: Personal (static)
+- **What kind of Tab would you like to create?**: Personal
 - **Do you require Azure AD Single-Sign-On support for the tab?** No
 
 > [!NOTE]
@@ -290,7 +290,19 @@ Now, implement the task module in the personal tab.
 
 Locate and open the **./src/client/youTubePlayerTab/YouTubePlayerTab.tsx** file.
 
-First, add the following utility method to the `YouTubePlayerTab` component:
+First, update the import statement in this file to add namespaces from the Microsoft Teams SDK. Find the following import statement at the top of the file:
+
+```typescript
+import { app } from "@microsoft/teams-js";
+```
+
+Replace the previous statement with the following import statement:
+
+```typescript
+import { app, dialog, tasks } from "@microsoft/teams-js";
+```
+
+Next, add the following utility method to the `YouTubePlayerTab` component:
 
 ```typescript
 const appRoot = (): string => {
@@ -306,13 +318,15 @@ Next, add the following code to the `onShowVideo` method:
 
 ```typescript
 const onShowVideo = (): void => {
-  const taskModuleInfo = {
+  const dialogInfo = {
     title: "YouTube Player",
     url: appRoot() + `/youTubePlayerTab/player.html?vid=${youTubeVideoId}`,
-    width: 1000,
-    height: 700
+    size: {
+      width: 1000,
+      height: 700
+    }
   };
-  microsoftTeams.tasks.startTask(taskModuleInfo);
+  dialog.open(dialogInfo);
 };
 ```
 
@@ -397,7 +411,7 @@ const onChangeVideo = (): void => {
   const submitHandler = (err: string, result: any): void => {
   };
 
-  microsoftTeams.tasks.startTask(taskModuleInfo, submitHandler);
+  tasks.startTask(taskModuleInfo, submitHandler);
 };
 ```
 

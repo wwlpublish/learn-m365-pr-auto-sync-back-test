@@ -29,13 +29,13 @@ The following code examples demonstrate common operations developers can do from
 - Get the active worksheet
 
     ```javascript
-    var worksheet = context.workbook.worksheets.getActiveWorksheet();
+    const worksheet = context.workbook.worksheets.getActiveWorksheet();
     ```
 
 - Get worksheet by name
 
     ```javascript
-    var worksheet = context.workbook.worksheets.getItem("MyNewWorksheet");
+    const worksheet = context.workbook.worksheets.getItem("MyNewWorksheet");
     ```
 
 - Set the active worksheet
@@ -47,7 +47,7 @@ The following code examples demonstrate common operations developers can do from
 - Create a worksheet
 
     ```javascript
-    var worksheet = context.workbook.worksheets.add("MyNewWorksheet");
+    const worksheet = context.workbook.worksheets.add("MyNewWorksheet");
     ```
 
 - Delete a worksheet
@@ -56,7 +56,7 @@ The following code examples demonstrate common operations developers can do from
     someWorksheet.delete();
     ```
 
-- Wire into the ondeactivated event
+- Wire into the `onDeactivated` event
 
     ```javascript
     currWorksheet.onDeactivated.add((args) => {
@@ -142,7 +142,7 @@ First, define the function in a script file. For example, add the following code
     // Initialize add-in
   };
 })();
-// function must be global
+// function must be global
 function doStuff(event) {
   // do stuff with Office.js
 }

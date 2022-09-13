@@ -29,12 +29,12 @@ When a table is long enough that a user must scroll to see some rows, the header
 1. Add the following function to the end of the file:
 
     ```javascript
-    function freezeHeader() {
-      Excel.run(function (context) {
+    async function freezeHeader() {
+      await Excel.run(async (context) => {
 
         // TODO1: Queue commands to keep the header visible when the user scrolls.
 
-        return context.sync();
+        await context.sync();
       })
       .catch(function (error) {
         console.log("Error: " + error);
@@ -48,7 +48,7 @@ When a table is long enough that a user must scroll to see some rows, the header
 1. Within the `freezeHeader()` function, replace `TODO1` with the following code:
 
     ```javascript
-    var currentWorksheet = context.workbook.worksheets.getActiveWorksheet();
+    const currentWorksheet = context.workbook.worksheets.getActiveWorksheet();
     currentWorksheet.freezePanes.freezeRows(1);
     ```
 
@@ -190,12 +190,12 @@ In this section, you'll add another button to the ribbon that, when chosen, exec
 1. Add the following function immediately after the `action()` function. We specify an `args` parameter to the function and the last line of the function calls `args.completed`. This is a requirement for all add-in commands of type `ExecuteFunction`. It signals the Office host application that the function has finished and the UI can become responsive again.
 
     ```javascript
-    function toggleProtection(args) {
-      Excel.run(function (context) {
+    async function toggleProtection(args) {
+      await Excel.run(async (context) => {
 
         // TODO1: Queue commands to reverse the protection status of the current worksheet.
 
-        return context.sync();
+        await context.sync();
       })
       .catch(function (error) {
         console.log("Error: " + error);
@@ -210,13 +210,13 @@ In this section, you'll add another button to the ribbon that, when chosen, exec
 1. Add the following line to the end of the file:
 
     ```javascript
-    g.toggleProtection = toggleProtection;
+    Office.actions.associate("toggleProtection", toggleProtection);
     ```
 
 1. Within the `toggleProtection()` function, replace `TODO1` with the following code. This code uses the worksheet object's protection property in a standard toggle pattern. The `TODO2` will be explained in the next section.
 
     ```javascript
-    var sheet = context.workbook.worksheets.getActiveWorksheet();
+    const sheet = context.workbook.worksheets.getActiveWorksheet();
 
     // TODO2: Queue command to load the sheet's "protection.protected" property from
     //        the document and re-synchronize the document and task pane.
@@ -242,50 +242,31 @@ These steps must be completed whenever your code needs to *read* information fro
 
     ```javascript
     sheet.load('protection/protected');
-    return context.sync()
-      .then(
-        function() {
-          // TODO3: Move the queued toggle logic here.
-        }
-      )
-      // TODO4: Move the final call of `context.sync` here and ensure that it
-      //        doesn't run until the toggle logic has been queued.
+    await context.sync();
     ```
 
     > [!NOTE]
     >
-    ><- Every Excel object has a `load()` method. You specify the properties of the object that you want to read in the parameter as a string of comma-delimited names. In this case, the property you need to read is a subproperty of the `protection` property. You reference the subproperty almost exactly as you would anywhere else in your code, with the exception that you use a forward slash ('/') character instead of a "." character.
-    ><- To ensure that the toggle logic, which reads `sheet.protection.protected`, doesn't run until after the `sync()` is complete and the `sheet.protection.protected` has been assigned the correct value that is fetched from the document, it will be moved (in the next step) into a `then()` function that won't run until the `sync()` has completed.
-
-1. You can't have two `return` statements in the same unbranching code path, so delete the final line `return context.sync();` at the end of the `Excel.run()`. You'll add a new final `context.sync()`, in a later step.
-1. Cut the `if ... else` structure in the `toggleProtection()` function and paste it in place of `TODO3`.
-1. Replace `TODO4` with the following code. Note:
-   - Passing the `sync()` method to a `then()` function ensures that it doesn't run until either `sheet.protection.unprotect()` or `sheet.protection.protect()` has been queued.
-   - The `then()` method invokes whatever function is passed to it, and you don't want `sync()` to be invoked twice, so leave off the "()" from the end of `context.sync`.
-
-    ```javascript
-    .then(context.sync);
-    ```
+    > - Every Excel object has a `load()` method. You specify the properties of the object that you want to read in the parameter as a string of comma-delimited names. In this case, the property you need to read is a subproperty of the `protection` property. You reference the subproperty almost exactly as you would anywhere else in your code, with the exception that you use a forward slash ('/') character instead of a "." character.
+    > - To ensure that the toggle logic, which reads `sheet.protection.protected`, doesn't run until after the `sync` is complete and the `sheet.protection.protected` has been assigned the correct value that is fetched from the document, it must come after the `await` operator.
 
    When you're done, the entire function should look like the following:
 
     ```javascript
-    function toggleProtection(args) {
-        Excel.run(function (context) {
-          var sheet = context.workbook.worksheets.getActiveWorksheet();
+    async function toggleProtection(args) {
+        await Excel.run(async (context) => {
+          const sheet = context.workbook.worksheets.getActiveWorksheet();
           sheet.load('protection/protected');
 
-          return context.sync()
-            .then(
-              function() {
-                if (sheet.protection.protected) {
-                  sheet.protection.unprotect();
-                } else {
-                  sheet.protection.protect();
-                }
-              }
-            )
-            .then(context.sync);
+          await context.sync();
+
+          if (sheet.protection.protected) {
+              sheet.protection.unprotect();
+          } else {
+              sheet.protection.protect();
+          }
+
+          await context.sync();
         })
         .catch(function (error) {
           console.log("Error: " + error);
@@ -309,11 +290,17 @@ These steps must be completed whenever your code needs to *read* information fro
 
         > [!NOTE]
         > If that folder doesn't exist, check for the following folders and if found, delete the contents of the folder:
+        >
         >    - `~/Library/Containers/com.microsoft.{host}/Data/Library/Caches/` where `{host}` is the Office host (e.g., `Excel`)
         >    - `~/Library/Containers/com.microsoft.{host}/Data/Library/Application Support/Microsoft/Office/16.0/Wef/` where `{host}` is the Office host (e.g., `Excel`)
         >    - `com.microsoft.Office365ServiceV2/Data/Caches/com.microsoft.Office365ServiceV2/`
 
-1. If the local web server is already running, stop it by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console window.
+1. If the local web server is already running, stop it by entering the following command in the command prompt.
+
+   ```console
+   npm stop
+   ```
+
 1. Because your manifest file has been updated, you must sideload your add-in again, using the updated manifest file. Start the local web server and sideload your add-in:
 
     - To test your add-in in Excel, run the following command in the root directory of your project. This starts the local web server (if it's not already running) and opens Excel with your add-in loaded.

@@ -37,17 +37,13 @@ In this exercise, you'll open a dialog in your add-in, pass a message from the d
 1. Add the following code to **popup.js**:
 
     ```javascript
-    (function () {
-    "use strict";
-      Office.onReady()
-        .then(function() {
+    (async () => {
+        await Office.onReady();
 
-          // TODO1: Assign handler to the OK button.
+        // TODO1: Assign handler to the OK button.
 
-        });
-
-      // TODO2: Create the OK button handler
-    }());
+        // TODO2: Create the OK button handler
+    })();
     ```
 
     > [!NOTE]
@@ -64,7 +60,7 @@ In this exercise, you'll open a dialog in your add-in, pass a message from the d
 
     ```javascript
     function sendStringToParentPage() {
-        var userName = document.getElementById("name-box").value;
+        const userName = document.getElementById("name-box").value;
         Office.context.ui.messageParent(userName);
     }
     ```
@@ -144,7 +140,12 @@ Open the file **webpack.config.js** in the root directory of the project and com
     ],
     ```
 
-1. If the local web server is running, stop it by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console window.
+1. If the local web server is running, stop it by entering the following command in the command prompt.
+
+    ```console
+    npm stop
+    ```
+
 1. Run the following command to rebuild the project.
 
     ```console
@@ -182,7 +183,7 @@ Open the file **webpack.config.js** in the root directory of the project and com
 1. Add the following declaration to the end of the file. This variable is used to hold an object in the parent page's execution context that acts as an intermediator to the dialog page's execution context.
 
     ```javascript
-    var dialog = null;
+    let dialog = null;
     ```
 
 1. Add the following function to the end of the file (after the declaration of `dialog`). The important thing to notice about this code is what **isn't** there: there's no call of `Excel.run()`. This is because the API to open a dialog is shared among all Office hosts, so it's part of the Office JavaScript Common API, not the Excel-specific API.

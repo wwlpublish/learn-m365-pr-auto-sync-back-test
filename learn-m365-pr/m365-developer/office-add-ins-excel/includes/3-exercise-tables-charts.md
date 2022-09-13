@@ -9,13 +9,11 @@ You'll use Node.js to create the custom Excel add-in in this module. The exercis
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - (*the latest [LTS](https://nodejs.org/about/releases) version*)
-- NPM (installed with Node.js) - v6.x (or higher)
-- [Yeoman](https://yeoman.io/) - v3.x (or higher)
-- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.8.1 (or higher)
+- [Node.js](https://nodejs.org/) - (*the active [LTS](https://nodejs.org/about/releases) version*)
+- NPM (*installed with Node.js*)
+- [Yeoman](https://yeoman.io/) - v4.x (or higher)
+- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.8.8
 - [Visual Studio Code](https://code.visualstudio.com)
-
-You must have the minimum versions of these prerequisites installed on your workstation.
 
 ## Create your add-in project
 
@@ -81,8 +79,8 @@ In this section, you'll programmatically test that your add-in supports the user
 1. Add the following function to the end of the file:
 
     ```javascript
-    function createTable() {
-      Excel.run(function (context) {
+    async function createTable() {
+      await Excel.run(async (context) => {
 
         // TODO1: Queue table creation logic here.
 
@@ -90,7 +88,7 @@ In this section, you'll programmatically test that your add-in supports the user
 
         // TODO3: Queue commands to format the table.
 
-        return context.sync();
+        await context.sync();
       })
       .catch(function (error) {
         console.log("Error: " + error);
@@ -110,8 +108,8 @@ In this section, you'll programmatically test that your add-in supports the user
 1. Within the `createTable()` function, replace `TODO1` with the following code:
 
     ```javascript
-    var currentWorksheet = context.workbook.worksheets.getActiveWorksheet();
-    var expensesTable = currentWorksheet.tables.add("A1:D1", true /*hasHeaders*/);
+    const currentWorksheet = context.workbook.worksheets.getActiveWorksheet();
+    const expensesTable = currentWorksheet.tables.add("A1:D1", true /*hasHeaders*/);
     expensesTable.name = "ExpensesTable";
     ```
 
@@ -225,13 +223,13 @@ In this section, you'll filter and sort the table that you created previously.
 1. Add the following function to the end of the file:
 
     ```javascript
-    function filterTable() {
-      Excel.run(function (context) {
+    async function filterTable() {
+      await Excel.run(async (context) => {
 
         // TODO1: Queue commands to filter out all expense categories except
         //        Groceries and Education.
 
-        return context.sync();
+        await context.sync();
       })
       .catch(function (error) {
         console.log("Error: " + error);
@@ -245,15 +243,15 @@ In this section, you'll filter and sort the table that you created previously.
 1. Within the `filterTable()` function, replace `TODO1` with the following code:
 
     ```javascript
-    var currentWorksheet = context.workbook.worksheets.getActiveWorksheet();
-    var expensesTable = currentWorksheet.tables.getItem('ExpensesTable');
-    var categoryFilter = expensesTable.columns.getItem('Category').filter;
+    const currentWorksheet = context.workbook.worksheets.getActiveWorksheet();
+    const expensesTable = currentWorksheet.tables.getItem('ExpensesTable');
+    const categoryFilter = expensesTable.columns.getItem('Category').filter;
     categoryFilter.applyValuesFilter(['Education', 'Groceries']);
     ```
 
     > [!NOTE]
     >
-    > - The code first gets a reference to the column that needs filtering by passing the column name to the `getItem()` method, instead of passing its index to the `getItemAt()` method as the `createTabl()e` method does. Since users can move table columns, the column at a given index might change after the table is created. It's safer to use the column name to get a reference to the column. We used `getItemAt` safely in the preceding tutorial, because we used it in the same method that creates the table, so there's no chance that a user has moved the column.
+    > - The code first gets a reference to the column that needs filtering by passing the column name to the `getItem()` method, instead of passing its index to the `getItemAt()` method as the `createTable()` method does. Since users can move table columns, the column at a given index might change after the table is created. It's safer to use the column name to get a reference to the column. We used `getItemAt` safely in the preceding tutorial, because we used it in the same method that creates the table, so there's no chance that a user has moved the column.
     > - The `applyValuesFilter()` method is one of several filtering methods on the `Filter` object.
 
 ### Sort the table
@@ -281,12 +279,12 @@ In this section, you'll filter and sort the table that you created previously.
 1. Add the following function to the end of the file:
 
     ```javascript
-    function sortTable() {
-      Excel.run(function (context) {
+    async function sortTable() {
+      await Excel.run(async (context) => {
 
         // TODO1: Queue commands to sort the table by Merchant name.
 
-        return context.sync();
+        await context.sync();
       })
       .catch(function (error) {
         console.log("Error: " + error);
@@ -300,9 +298,9 @@ In this section, you'll filter and sort the table that you created previously.
 1. Within the `sortTable()` function, replace `TODO1` with the following code:
 
     ```javascript
-    var currentWorksheet = context.workbook.worksheets.getActiveWorksheet();
-    var expensesTable = currentWorksheet.tables.getItem('ExpensesTable');
-    var sortFields = [
+    const currentWorksheet = context.workbook.worksheets.getActiveWorksheet();
+    const expensesTable = currentWorksheet.tables.getItem('ExpensesTable');
+    const sortFields = [
       {
         key: 1,            // Merchant column
         ascending: false,
@@ -337,7 +335,7 @@ In this section, you'll filter and sort the table that you created previously.
 
         To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
-1. If the add-in task pane isn't already open in Excel, go to the **Home** tab and select the **Show Taskpane** button in the ribbon to open it.
+1. If the add-in task pane isn't already open in Excel, go to the **Home** tab, and select the **Show Taskpane** button in the ribbon to open it.
 1. If the table you added previously in this tutorial isn't present in the open worksheet, select the **Create Table** button in the task pane.
 1. Select the **Filter Table** button and the **Sort Table** button, in either order.
 
@@ -372,8 +370,8 @@ In this section, you'll create a chart using data from the table that you create
 1. Add the following function to the end of the file:
 
     ```javascript
-    function createChart() {
-      Excel.run(function (context) {
+    async function createChart() {
+      await Excel.run(async (context) => {
 
         // TODO1: Queue commands to get the range of data to be charted.
 
@@ -381,7 +379,7 @@ In this section, you'll create a chart using data from the table that you create
 
         // TODO3: Queue commands to position and format the chart.
 
-        return context.sync();
+        await context.sync();
       })
       .catch(function (error) {
         console.log("Error: " + error);
@@ -395,15 +393,15 @@ In this section, you'll create a chart using data from the table that you create
 1. Within the `createChart()` function, replace `TODO1` with the following code. To exclude the header row, the code uses the `Table.getDataBodyRange()` method to get the range of data you want to chart instead of the `getRange()` method.
 
     ```javascript
-    var currentWorksheet = context.workbook.worksheets.getActiveWorksheet();
-    var expensesTable = currentWorksheet.tables.getItem('ExpensesTable');
-    var dataRange = expensesTable.getDataBodyRange();
+    const currentWorksheet = context.workbook.worksheets.getActiveWorksheet();
+    const expensesTable = currentWorksheet.tables.getItem('ExpensesTable');
+    const dataRange = expensesTable.getDataBodyRange();
     ```
 
 1. Within the `createChart()` function, replace `TODO2` with the following code:
 
     ```javascript
-    var chart = currentWorksheet.charts.add('ColumnClustered', dataRange, 'auto');
+    const chart = currentWorksheet.charts.add('ColumnClustered', dataRange, 'auto');
     ```
 
     > [!NOTE]
@@ -448,7 +446,7 @@ In this section, you'll create a chart using data from the table that you create
 
         To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
-1. If the add-in task pane isn't already open in Excel, go to the **Home** tab and select the **Show Taskpane** button in the ribbon to open it.
+1. If the add-in task pane isn't already open in Excel, go to the **Home** tab, and select the **Show Taskpane** button in the ribbon to open it.
 1. If the table you added previously in this tutorial isn't present in the open worksheet, select the **Create Table** button, and then the **Filter Table** button and the **Sort Table** button, in either order.
 1. Select the **Create Chart** button. A chart is created and only the data from the rows that have been filtered are included. The labels on the data points across the bottom are in the sort order of the chart; that is, merchant names in reverse alphabetical order.
 
