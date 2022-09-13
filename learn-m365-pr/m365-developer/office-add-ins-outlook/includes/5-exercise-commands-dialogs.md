@@ -130,7 +130,7 @@ This add-in needs to read gists from the user's GitHub account and identify whic
 
 ### Collect data from the user
 
-Let's start by creating the UI for the dialog itself. Within the **./src** folder, create a new subfolder named **settings**. In the **./src/settings** folder, create a file named **dialog.html**, and add the following markup to define a basic form with a text input for a GitHub username and an empty list for gists that'll be populated via JavaScript.
+Let's start by creating the UI for the dialog itself. Within the **./src** folder, create a new subfolder named **settings**. In the **./src/settings** folder, create a file named **dialog.html**, and add the following markup to define a basic form with a text input for a GitHub username and an empty list for gists that will be populated via JavaScript.
 
 ```html
 <!DOCTYPE html>
@@ -207,7 +207,7 @@ You may have noticed that the HTML file references a JavaScript file, **gist-api
 
 Next, create a file in the **./src/settings** folder named **dialog.css**, and add the following code to specify the styles that are used by **dialog.html**.
 
-```CSS
+```css
 section {
   margin: 10px 20px;
 }
@@ -759,7 +759,7 @@ function buildBodyContent(gist, callback) {
 
 ### Test the Insert default gist button
 
-If the server isn't already running, save all of your changes and run **npm start** from the command prompt. To test the **Insert default gist** button, complete the following steps.
+If the server isn't already running, save all of your changes, and run **npm start** from the command prompt. To test the **Insert default gist** button, complete the following steps.
 
 1. Open Outlook and compose a new message.
 
