@@ -12,13 +12,11 @@ You'll use Node.js to create the custom Word add-in in this module. The exercise
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - (*the latest [LTS](https://nodejs.org/about/releases) version*)
-- NPM (installed with Node.js) - v6.x (or higher)
-- [Yeoman](https://yeoman.io/) - v3.x (or higher)
-- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.8.1 (or higher)
+- [Node.js](https://nodejs.org/) - (*the active [LTS](https://nodejs.org/about/releases) version*)
+- NPM (*installed with Node.js*)
+- [Yeoman](https://yeoman.io/) - v4.x (or higher)
+- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.8.8
 - [Visual Studio Code](https://code.visualstudio.com)
-
-You must have the minimum versions of these prerequisites installed on your workstation.
 
 ## Create your add-in project
 
@@ -58,7 +56,7 @@ Let's take a look at some of the other files added to the project that support i
 
 You learned in a previous unit that an Office Add-in must have an associated Azure AD application registration in order for the user to sign in and obtain an access token to call Microsoft Graph.
 
-Before you can test the project, you'll need to register the Azure AD application and then update the project to use the Azure AD application.
+Before you can test the project, you'll need to register the Azure AD application, and then update the project to use the Azure AD application.
 
 > [!TIP]
 > For details on registering the Azure AD application manually, see: **[Create a Node.js Office Add-in that uses single sign-on: Register the add-in with Azure AD v2.0 endpoint](/office/dev/add-ins/develop/create-sso-office-add-ins-nodejs#register-the-add-in-with-azure-ad-v20-endpoint)**.
@@ -195,7 +193,7 @@ If you aren't already signed in with your Office client, you'll be prompted to s
 
 ![Screenshot of signing in in Word.](../media/03-test-app-02.png)
 
-After signing in, the add-in will retrieve your basic profile information from Microsoft Graph and add it to the document.
+After the user signs in, the add-in will retrieve your basic profile information from Microsoft Graph and add it to the document.
 
 ![Screenshot of successful test in Word.](../media/03-test-app-03.png)
 
@@ -230,7 +228,7 @@ Locate and open the **./manifest.xml** file. Within the add-in manifest, locate 
 ```xml
 <OfficeApp>
   <DefaultSettings>
-    <SourceLocation />
+    <SourceLocation DefaultValue="https://localhost:{PORT}/taskpane.html"/>
   </DefaultSettings>
 </OfficeApp>
 ```
@@ -252,12 +250,12 @@ Locate and open the **./src/helpers/ssoauthhelper.js** file. This file contains 
     The `bootstrapToken` obtained in the first step doesn't contain the necessary scopes to call Microsoft Graph as it's used to authenticate the user and obtain an ID token.
 
     > [!NOTE]
-    > The `sso.getGraphToken()` method called in this step calls the **https://graph.microsoft.com/v1.0/auth** endpoint to obtain an access token that can be used for Microsoft Graph.
+    > The `sso.getGraphToken()` method called in this step calls the `https://graph.microsoft.com/v1.0/auth` endpoint to obtain an access token that can be used for Microsoft Graph.
 
 1. Submit an HTTP request to Microsoft Graph's REST API to obtain the user's profile data. This is done by calling the `sso.makeGraphApiCall()` method.
 
     > [!NOTE]
-    > The `sso.makeGraphApiCall()` method calls the **https://graph.microsoft.com/v1.0/getuserdata** endpoint to retrieve the user's profile information.
+    > The `sso.makeGraphApiCall()` method calls the `https://graph.microsoft.com/v1.0/getuserdata` endpoint to retrieve the user's profile information.
 
 If any point the authentication process fails, the code uses a fallback authentication process using the **./src/helpers/fallbackauth\*.\*** files.
 

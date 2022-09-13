@@ -4,7 +4,7 @@ title: Plan for security and compliance in Microsoft 365
 metadata:
   title: Plan for security and compliance in Microsoft 365
   description: "Plan for security and compliance in Microsoft 365"
-  ms.date: 06/14/2022
+  ms.date: 08/19/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Contoso, Holly Dickson has finished setting up the company's Microsoft 365 subscription. Holly has also completed all the Microsoft 365 training on data compliance, data governance, and information protection in Microsoft Learn. What's the next step that Holly should complete when planning for security and compliance in Microsoft 365?"
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson has finished setting up the company's Microsoft 365 subscription. Holly has also completed all the Microsoft 365 Learn modules on data compliance, data governance, and information protection. What's the next step that Holly should complete when planning for security and compliance in Microsoft 365?"
     choices:
     - content: "Plan access protection for identity and devices"
       isCorrect: false

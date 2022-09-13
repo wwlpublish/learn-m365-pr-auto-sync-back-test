@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.office-add-ins-sso.2-office-add-in-single-sign-on
 metadata:
-  title: Implement Single Sign-On (SSO) for Office Add-ins
+  title: Implement single sign-on (SSO) for Office Add-ins
   description: In this unit, you'll learn how authentication works with Office Add-ins and how to use SSO for your Office Add-ins.
-  ms.date: 05/03/2022
+  ms.date: 09/02/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Implement Single Sign-On (SSO) for Office Add-ins
+title: Implement single sign-on (SSO) for Office Add-ins
 durationInMinutes: 11
 content: |
   [!include[](includes/2-office-add-in-single-sign-on.md)]

@@ -48,7 +48,7 @@ Follow the steps below to create a Microsoft Edge application using the built-in
 
  
 
-5) On the **Deployment** page, decide if you want to deploy the application. If you select **Yes**, you can specify your deployment settings for the application. For more information about deployment settings, see [Deploy applications](https://docs.microsoft.com/mem/configmgr/apps/deploy-use/deploy-applications).
+5) On the **Deployment** page, decide if you want to deploy the application. If you select **Yes**, you can specify your deployment settings for the application. For more information about deployment settings, see [Deploy applications](/mem/configmgr/apps/deploy-use/deploy-applications).
 
 6) In **Software Center** on the client device, the user can see and install the application.
 
@@ -83,5 +83,3 @@ The dashboard is where you can track Microsoft Edge KPIs. Starting in Configurat
 [![The Microsoft Edge Management dashboard](../media/unit3-configuration-manager-dashboard-v5.png)](../media/unit3-configuration-manager-dashboard-v5.png#lightbox)
 
    *The Microsoft Edge Management dashboard*
-
-

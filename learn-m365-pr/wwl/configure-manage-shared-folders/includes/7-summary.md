@@ -2,6 +2,6 @@ Shared folders provide the ability for multiple users to access data from across
 
 ### Learn more
 
- -  [Get-SmbShare (SmbShare)](https://docs.microsoft.com/powershell/module/smbshare/get-smbshare?view=winserver2012r2-ps&amp;redirectedfrom=MSDN)
+ -  [Get-SmbShare (SmbShare)](/powershell/module/smbshare/get-smbshare?view=winserver2012r2-ps&amp;redirectedfrom=MSDN)
  -  [Set-SmbShare (SmbShare)](/powershell/module/smbshare/set-smbshare?view=winserver2012r2-ps)
  -  [Share and NTFS Permissions](/iis/web-hosting/configuring-servers-in-the-windows-web-platform/configuring-share-and-ntfs-permissions)

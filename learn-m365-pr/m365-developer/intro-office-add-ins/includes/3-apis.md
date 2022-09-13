@@ -4,7 +4,7 @@ In this unit, you'll explore the Office Add-ins programming model, developer too
 
 The Office Add-in programming model relies on two JavaScript object models:
 
-- Host-specific JavaScript API - Host-specific APIs for Excel and Word provide strongly typed objects that you can use to access specific elements in the host application. For example, the Excel API contains objects that represent worksheets, ranges, tables, charts, and more.
+- Host-specific JavaScript API - Host-specific APIs for Excel and Word provide typed objects that you can use to access specific elements in the host application. For example, the Excel API contains objects that represent worksheets, ranges, tables, charts, and more.
 - Common API - Introduced with Office 2013, the Common API enables you to access features such as:
   - UI
   - Dialogs
@@ -60,7 +60,7 @@ Office.onReady(function() {
 
 ### Making asynchronous calls with proxy objects
 
-When you work with a document, requested read or write actions are batched up using a proxy object. Your API calls don't actually read or update the underlying document until you call the `sync()` method.
+When you work with a document, requested read, or write actions are batched up using a proxy object. Your API calls don't actually read or update the underlying document until you call the `sync()` method.
 
 For better security, your add-in runs in a sandboxed JavaScript environment that can't directly access the document, or other add-ins. The Office Add-ins platform provides a `RequestContext` object that in turn provides proxy objects to represent the document (such as worksheets, ranges, and tables). The `RequestContext` is typically passed to your code as a parameter named `context`. You can use the `context` object to get any proxy objects you need to work with the document.
 

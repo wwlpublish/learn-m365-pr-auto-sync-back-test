@@ -15,7 +15,7 @@ paragraph.insertHtml('<p style="font-family: verdana;">Inserted HTML.</p><p>Anot
 To retrieve the contents of a paragraph as HTML, use the `getHtml()` method as the following code demonstrates:
 
 ```javascript
-var html = paragraph.getHtml();
+const html = paragraph.getHtml();
 ```
 
 ## Work with images in Word documents
@@ -41,7 +41,7 @@ You can also get the base64 encoded string of an image in a document using the `
 
 ```javascript
 const someInlinePicture = body.inlinePictures[0];
-var base64 = someInlinePicture.getBase64ImageSrc();
+const base64 = someInlinePicture.getBase64ImageSrc();
 ```
 
 Finally, you can lock the aspect ratio of an image and set the dimensions of the picture using the provided properties such as `width`:
@@ -85,8 +85,8 @@ paragraph.insertTable(3, 3, "After", tableData);
 The table object contains properties to retrieve the number of rows in a table, using the `rowCount` property, and the contents of the table, using the `values` property:
 
 ```javascript
-var rows = table.rowCount;
-var array2D = table.values;
+const rows = table.rowCount;
+const array2D = table.values;
 ```
 
 ## Summary

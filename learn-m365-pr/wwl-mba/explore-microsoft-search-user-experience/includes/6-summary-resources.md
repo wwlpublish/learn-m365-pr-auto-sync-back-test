@@ -6,19 +6,19 @@ Devices configured with Google Chrome can also take advantage of the power of Mi
 
 Links to additional resources can be found below.
 
-- [Overview of Microsoft Search](https://docs.microsoft.com/microsoftsearch/overview-microsoft-search)
+- [Overview of Microsoft Search](/microsoftsearch/overview-microsoft-search)
 
  
 
-- [Frequently asked questions](https://docs.microsoft.com/microsoftsearch/faqs)
+- [Frequently asked questions](/microsoftsearch/faqs)
 
  
 
-- [Microsoft Search Insights dashboard reports](https://docs.microsoft.com/microsoftsearch/get-insights)
+- [Microsoft Search Insights dashboard reports](/microsoftsearch/get-insights)
 
  
 
-- [Plan your content](https://docs.microsoft.com/microsoftsearch/plan-your-content)
+- [Plan your content](/microsoftsearch/plan-your-content)
 
  
 

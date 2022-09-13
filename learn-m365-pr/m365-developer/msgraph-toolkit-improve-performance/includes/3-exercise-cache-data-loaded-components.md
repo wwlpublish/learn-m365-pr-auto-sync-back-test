@@ -75,7 +75,9 @@ First, let’s look at how Microsoft Graph Toolkit components cache data by defa
 
    Run Live Server to test your app.
 
-1. Open your browser, and go to `http://localhost:3000`.
+1.  Open your browser, and go to `http://localhost:3000`. If you have the file index.html open when you launch the Live Server, the browser will open `http://localhost:3000/Index.html`. Make sure you change the url to `http://localhost:3000`, before you sign in with your Microsoft 365 developer account. If you don't update the URL, you will get the following error.
+    
+    `The redirect URI 'http://localhost:3000/Index.html' specified in the request does not match the redirect URIs configured for the application <Your client ID>. Make sure the redirect URI sent in the request matches one added to your application in the Azure portal. Navigate to https://aka.ms/redirectUriMismatchError to learn more about how to fix this.`
 1. Select the **Sign in** button, and sign in with your Microsoft 365 developer account. Consent to the required permissions and select **Accept**. You should see a list of people.
 
     :::image type="content" source="../media/3-mgt-people.png" alt-text="Screenshot of the People component, showing information about people.":::

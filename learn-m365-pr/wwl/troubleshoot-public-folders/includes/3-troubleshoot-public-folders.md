@@ -93,6 +93,6 @@ For example, **PublicFoldersLockedForMigration** may be $true, or **PublicFolder
     There may be various reasons why a public folder mailbox might disappear. The most common reasons are a failed mailbox move and a soft delete.
   :::column-end:::
   :::column:::
-    For more information on how to troubleshoot this issue, see [Restore public folders and public folder mailboxes from failed moves](https://docs.microsoft.com/exchange/restore-public-folders-and-public-folder-mailboxes-from-failed-moves-exchange-2013-help#:~:text=If%20a%20move%20request%20for%20a%20public%20folder,and%20is%20still%20within%20the%20mailbox%20retention%20period?azure-portal=true).
+    For more information on how to troubleshoot this issue, see [Restore public folders and public folder mailboxes from failed moves](/exchange/restore-public-folders-and-public-folder-mailboxes-from-failed-moves-exchange-2013-help?azure-portal=true).
   :::column-end:::
 :::row-end:::

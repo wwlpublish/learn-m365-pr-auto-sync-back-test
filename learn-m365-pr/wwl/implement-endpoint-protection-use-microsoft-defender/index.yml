@@ -3,7 +3,7 @@ uid: learn.wwl.implement-endpoint-protection-use-microsoft-defender
 metadata:
   title: Implement endpoint protection by using Microsoft Defender for Endpoint
   description: "Implement endpoint protection by using Microsoft Defender for Endpoint"
-  ms.date: 05/18/2022
+  ms.date: 08/29/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -18,7 +18,7 @@ abstract: |
   - Configure device discovery to help find unmanaged devices connected to your corporate network.
   - Lower your organization's threat and vulnerability exposure by remediating issues based on prioritized security recommendations.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/implement-endpoint-protection-use-microsoft-defender.svg
 levels:
 - intermediate
 roles:

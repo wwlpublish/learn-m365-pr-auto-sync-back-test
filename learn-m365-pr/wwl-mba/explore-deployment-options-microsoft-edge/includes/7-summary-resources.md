@@ -4,7 +4,7 @@ Throughout this module, you saw the various options to get Microsoft Edge on you
 
 - Subscribe to the [Microsoft Mechanics](https://www.youtube.com/c/MicrosoftMechanicsSeries) series 
 
-- Information on [Microsoft Edge channels](https://docs.microsoft.com/deployedge/microsoft-edge-channels) 
+- Information on [Microsoft Edge channels](/deployedge/microsoft-edge-channels) 
 
 - Site to download [Microsoft Edge msi packages for business](https://www.microsoft.com/edge/business/download) 
 

@@ -1,17 +1,17 @@
-Microsoft Graph provides a unified programmability model that you can use to build apps that interact with the data available in Microsoft 365. In this module, you'll learn how to access Microsoft 365 data to show a user’s default calendar in an ASP.NET Core application using Microsoft Graph APIs and SDKs. To make sure that the web app only shows what is immediately relevant to the user, you'll access and display events for a given period.
+[Microsoft Graph](https://developer.microsoft.com/graph) provides a unified programmability model that you can use to build apps that interact with the data available in Microsoft 365. In this module, you'll learn how to access Microsoft 365 data to show a user’s default calendar in an ASP.NET Core application using Microsoft Graph APIs and the [.NET SDK](/graph/sdks/sdk-installation#install-the-microsoft-graph-net-sdk). To make sure that the web app only shows what is immediately relevant to the user, you'll access and display events for a given period.
 
 ## Learning objectives
 
-In this module, you will:
+In this module, you will learn:
 
-- Learn how to retrieve a list of calendar events from a user's calendar for a given period by using Microsoft Graph and ASP.NET Core.
-- Display retrieved calendar events in an application.
+- How to retrieve a list of calendar events from a user's calendar.
+- How to display retrieved calendar events in an application.
 
 ## Prerequisites
 
-- [Microsoft 365 developer tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn&WT.mc_id=m365-30352-cxa)
+- [Microsoft 365 developer tenant](https://developer.microsoft.com/microsoft-365/dev-program)
 - Basic understanding of [authentication and authorization](/learn/modules/getting-started-identity/?WT.mc_id=m365-30352-cxa) on Microsoft 365
-- Basic understanding of HTML, C#, and [ASP.NET Core](/aspnet/core/razor-pages/?WT.mc_id=m365-30352-cxa)
+- Basic understanding of HTML, C#, and [ASP.NET Core](/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0)
 - Basic understanding of [Microsoft Graph](/learn/modules/msgraph-intro-overview/?WT.mc_id=m365-30352-cxa)
 - [.NET 5.0.405 SDK installed](https://dot.net?WT.mc_id=m365-30352-cxa)
 

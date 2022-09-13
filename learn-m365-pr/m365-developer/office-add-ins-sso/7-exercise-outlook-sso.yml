@@ -1,21 +1,21 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.office-add-ins-sso.7-exercise-outlook-sso
 metadata:
-  title: Exercise - Create an Office Add-in for Outlook that implements Single Sign-On
+  title: Exercise - Create an Office Add-in for Outlook that implements single sign-on
   description: In this exercise, you'll build an Outlook add-in that adds a list of the recent emails received by the currently logged in user with Microsoft Graph in a worksheet. This process uses the single sign-on (SSO) authentication scheme.
-  ms.date: 05/03/2022
+  ms.date: 09/02/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Exercise - Create an Office Add-in for Outlook that implements Single Sign-On
+title: Exercise - Create an Office Add-in for Outlook that implements single sign-on
 durationInMinutes: 15
 content: |
   [!include[](includes/7-exercise-outlook-sso.md)]
 quiz:
   title: Test your knowledge
   questions:
-  - content: "The Azure AD application registered for an Office Add-in automatically trust which of the Office clients to call it?"
+  - content: "The Azure AD application registered for an Office Add-in automatically trust that of the Office clients to call it?"
     choices:
       - content: "The Office web clients, except Outlook.com, are automatically trusted by the Azure AD application because they're hosted web applications maintained by Microsoft."
         isCorrect: false

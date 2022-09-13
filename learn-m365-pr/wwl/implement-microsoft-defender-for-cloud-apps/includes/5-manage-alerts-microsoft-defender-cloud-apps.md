@@ -4,8 +4,8 @@ Alerts are the entry points to understanding your cloud environment more deeply.
 
 It's a good idea to review all of your alerts and use them as tools for modifying your policies. If harmless events are being considered violations to existing policies, refine your policies so that you receive fewer unnecessary alerts.
 
-1.  On the **Microsoft Defender for Cloud Apps** portal, select **Alerts** in the navigation pane.
-2.  On the **Alerts** page, in the **Filters** section, select **Open** for the resolution status. This section of the dashboard provides full visibility into any suspicious activity or violation of your established policies. It can help you safeguard the security posture you defined for your cloud environment.
+1. On the **Microsoft Defender for Cloud Apps** portal, select **Alerts** in the navigation pane.
+1. On the **Alerts** page, in the **Filters** section, select **Open** for the resolution status. This section of the dashboard provides full visibility into any suspicious activity or violation of your established policies. It can help you safeguard the security posture you defined for your cloud environment.
     
     :::image type="content" source="../media/alerts-page-defender-for-cloud-apps-f1b89217.png" alt-text="Screenshot of the Alerts page in the Microsoft Defender for Cloud Apps with the Open filter highlighted." lightbox="../media/alerts-page-defender-for-cloud-apps-f1b89217.png":::
     
@@ -14,7 +14,7 @@ For each alert, you need to investigate and determine the nature of the violatio
 
  -  You can filter the alerts by **Alert type** or by **Severity** to process the most important ones first.
  -  Select a specific alert. Depending on what type of alert it is, you'll see various actions that can be taken before resolving the alerts.
- -  You can filter based on App. The apps listed are ones for which Microsoft Defender for Cloud Apps detected activities.
+ -  You can filter based on an app. The apps listed are ones for which Microsoft Defender for Cloud Apps detected activities.
  -  There are three types of violations you'll need to deal with when investigating alerts:
      -  **Serious violations**. Require immediate response. Examples include:
          -  For a suspicious activity alert, you might want to suspend the account until the user changes their password.

@@ -15,14 +15,12 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v14.\*
-- [npm](https://www.npmjs.com/package/npm) (installed with Node.js) - v7.\*
+- [Node.js](https://nodejs.org/) - (*the active [LTS](https://nodejs.org/about/releases) version*)
+- npm (*installed with Node.js*)
 - [Gulp-cli](https://www.npmjs.com/package/gulp-cli) - v2.3.\*
 - [Yeoman](https://yeoman.io/) - v4.3.\*
-- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.\*
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v4.0.\*
 - [Visual Studio Code](https://code.visualstudio.com)
-
-*You must have the minimum versions of these prerequisites installed on your workstation.*
 
 ## Register an Azure AD application to support single sign-on (SSO)
 
@@ -165,7 +163,7 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project**: Stand-up Agenda
 - **Your (company) name (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.11
+- **Which manifest version would you like to use?**: v1.13
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A tab
 - **The URL where you will host this solution?**: *(Accept the default option)*
@@ -191,9 +189,6 @@ Open the **./.env** file that contains the environment variables used by the pro
 - **APPLICATION_ID**: This is the unique ID of the Microsoft Teams application.
 - **MICROSOFT_APP_ID** & **TAB_APP_ID**: This is the Azure AD application (client) ID that you specified.
 - **TAB_APP_URI** This is the Azure AD application ID URI you specified.
-
-> [!NOTE]
-> The prefix of the last two items in the above list is generated using the name of the tab you specified during the project creation process.
 
 > [!IMPORTANT]
 > Each time ngrok starts, it generates a new dynamic subdomain for the URL. If you have to restart ngrok, you will need to repackage and and update the app in Microsoft Teams to make the installed app aware of the new URL. The optional licensed version of ngrok allows you to define and reuse the same subdomain.
@@ -264,11 +259,11 @@ To satisfy these requirements, we'll create an API for our application.
 From the command prompt, install a few dependencies that we'll use within our API. Run the following two commands from the root folder of your project (*the same folder where the **package.json** file is located*):
 
 ```console
-npm install jsonwebtoken@8.5.1 jwks-rsa@2.0.5 @azure/msal-node@1.5.0 node-persist@3.1.0 --save-exact
-npm install @microsoft/microsoft-graph-types-beta @types/node-persist@3.1.2 @types/jsonwebtoken@8.5.1 @types/node-persist@3.1.2 --save-dev --save-exact
+npm install jsonwebtoken@8.5.1 jwks-rsa@2.1.4 @azure/msal-node@1.12.1 node-persist@3.1.0 -SE
+npm install @microsoft/microsoft-graph-types-beta @types/node-persist@3.1.2 @types/jsonwebtoken@8.5.9 @types/node-persist@3.1.2 -DE
 ```
 
-The **jsonwebtoken** and **jwks-rsa** packages are used to simply working with JWT's and certificate key files, the **@azure/msal-node** package is used to simplify authentication and token acquisition with Azure identity, and the **node-persist** package serves the role as our simplified JSON database.
+The **jsonwebtoken** and **jwks-rsa** packages are used to simply working with JWTs and certificate key files, the **@azure/msal-node** package is used to simplify authentication and token acquisition with Azure identity, and the **node-persist** package serves the role as our simplified JSON database.
 
 ### Implement the API
 
@@ -330,7 +325,11 @@ import { validateToken } from "./AuthUtils";
 export const StandupAgendaRouter = (options: any): express.Router => {
   const router = express.Router();
 
-  // TODO: add API endpoints
+  // TODO: [1] add API endpoint GET /meetingDetails/:meetingId
+
+  // TODO: [2] add API endpoint GET /standup-topics/:meetingId
+
+  // TODO: [3] add API endpoint POST /standup-topics/:meetingId
 
   return router;
 };
@@ -338,7 +337,7 @@ export const StandupAgendaRouter = (options: any): express.Router => {
 
 With the API router created, you need to add three endpoint handlers to it. The first, and biggest one, implements the on-behalf-of OAuth flow. It accepts the Microsoft Teams SSO token and requests an OBO token we can use to authenticate requests to Microsoft Graph using the Azure AD previously registered.
 
-If then uses that token to submit a request to Microsoft Graph for the details of the current meeting. Add the following code before the `// TODO: add API endpoints` comment:
+If then uses that token to submit a request to Microsoft Graph for the details of the current meeting. Locate the comment `// TODO: [1] add API endpoint GET /meetingDetails/:meetingId` and replace with the following code.
 
 ```typescript
 router.get(
@@ -401,7 +400,7 @@ router.get(
 });
 ```
 
-Next, add the following code before the `// TODO: add API endpoints` comment that will read the stand-up topics for the current meeting from our JSON database and return it to the caller:
+Next, locate the comment `// TODO: [2] add API endpoint GET /standup-topics/:meetingId` and replace with the following code. This code reads the stand-up topics for the current meeting from our JSON database and return it to the caller:
 
 ```typescript
 router.get(
@@ -421,7 +420,7 @@ router.get(
 });
 ```
 
-Next, add the following code before the `// TODO: add API endpoints` comment that will write the stand-up topics for the current meeting to our JSON database:
+Next, locate the comment `// TODO: [3] add API endpoint POST /standup-topics/:meetingId` and replace it with the following code. This code writes the stand-up topics for the current meeting to our JSON database:
 
 ```typescript
 router.post(
@@ -511,7 +510,7 @@ This includes installing the React components implemented with Fluent UI release
 From the command prompt, run the following two commands from the root folder of your project (*the same folder where the **package.json** file is located*):
 
 ```console
-npm install @fluentui/react-teams@6.0.0 -SE --legacy-peer-deps
+npm install @fluentui/react-teams@6.1.2 -SE --legacy-peer-deps
 npm install lodash@4.17.21 -SE
 npm install @types/lodash@4.14.178 -DE
 ```
@@ -528,6 +527,18 @@ import { orderBy, sortBy } from "lodash";
 ```
 
 These add React controls from the Fluent UI library, the Microsoft Teams UI Kit library, and other utilities we'll use to implement the user experience.
+
+Next, locate the existing `import` statement:
+
+```typescript
+import { app, authentication } from "@microsoft/teams-js";
+```
+
+Add a reference to the `FrameContexts` type so the `import` statement looks like the following:
+
+```typescript
+import { app, authentication, FrameContexts } from "@microsoft/teams-js";
+```
 
 Next, add the following interfaces after the `imports` statements, but before the `export const` statement, to define new object types for the stand-up meeting topic submissions:
 
@@ -553,7 +564,7 @@ The Microsoft Teams meeting is implemented as a tab using React hooks. Add the f
 const [accessToken, setAccessToken] = useState<string>();
 const [meetingId, setMeetingId] = useState<string | undefined>();
 const [onlineMeeting, setOnlineMeeting] = useState<OnlineMeeting>({});
-const [frameContext, setFrameContext] = useState<microsoftTeams.FrameContexts | null>();
+const [frameContext, setFrameContext] = useState<FrameContexts | null>();
 const [showAddTopicForm, setShowAddTopicForm] = useState<boolean>(false);
 const [currentUserId, setCurrentUserId] = useState<string>("");
 const [currentUserName, setCurrentUserName] = useState<string>("");
@@ -575,34 +586,42 @@ const [{ inTeams, theme, themeString, context }] = useTeams();
 
 ### Update the React hook when `inTeams` changes
 
-When the state member `inTeams` changes, the default project contains a hook that runs to retrieve an SSO token from Microsoft Teams. Locate the `successCallback()` function within this hook. Within this callback, modify the code to set the `currentUserId`, `currentUserName`, and `accessToken` state members:
+When the state member `inTeams` changes, the default project contains a hook that runs to retrieve an SSO token from Microsoft Teams.
+
+Locate the following lines in the first `useEffect()` React hook:
 
 ```typescript
-successCallback: (token: string) => {
-  const decoded: { [key: string]: any; } = jwtDecode(token) as { [key: string]: any; };
-  setCurrentUserId(decoded.oid);
-  setCurrentUserName(decoded!.name);
-  setAccessToken(token);
-  microsoftTeams.appInitialization.notifySuccess();
-},
+const decoded: { [key: string]: any; } = jwtDecode(token) as { [key: string]: any; };
+setName(decoded!.name);
+app.notifySuccess();
+```
+
+Replace the line `setName(decoded!.name);` with the following code to set the `currentUserId`, `currentUserName`, and `accessToken` state members:
+
+```typescript
+setCurrentUserId(decoded.oid);
+setCurrentUserName(decoded!.name);
+setAccessToken(token);
 ```
 
 ### Update the React hook when the Microsoft Teams `context` changes
 
-When the state member `context` changes, the default project contains a hook that runs to set the `entityId` of the tab. Update this hook to also set the `meetingId` of the meeting and the current `frameContext` of the meeting.
-
-The `frameContext` will be used to determine what the tab should show if the experience is the pre/post meeting view, the meeting stage, or the meeting's side panel.
+When the state member `context` changes, the default project contains a hook that runs to set the `entityId` of the tab. This React hook looks like the following example:
 
 ```typescript
 useEffect(() => {
   if (context) {
-    setEntityId(context.entityId);
-
-    // set the meeting context
-    setMeetingId(context.meetingId);
-    setFrameContext(context.frameContext);
+    setEntityId(context.page.id);
   }
 }, [context]);
+```
+
+Update this hook to set the `meetingId` of the meeting and the current `frameContext` of the meeting also. The `frameContext` will be used to determine what the tab should show if the experience is the pre/post meeting view, the meeting stage, or the meeting's side panel. Add the following lines after the call to `setEntityId()`:
+
+```typescript
+// set the meeting context
+setMeetingId(context.meeting?.id);
+setFrameContext(app.getFrameContext());
 ```
 
 ### Add React hook to retrieve meeting details
@@ -646,7 +665,7 @@ const saveStandupTopics = async (topics: IStandupTopic[]): Promise<void> => {
 }
 ```
 
-Next, add an event handler to take a new stand-up topic submission, add it to the collection of stand-up topics, and save them to the JSON.
+Next, add an event handler to take a new stand-up topic submission, add it to the collection of stand-up topics, and save them to the JSON:
 
 ```typescript
 const onNewStandupTopicSubmit = (): void => {
@@ -692,7 +711,7 @@ const getPreMeetingUX = () => {
 };
 ```
 
-The pre-meeting experience will display a list that takes up four (4) grid columns, unless they trigger the "new stand-up topic form you'll create. In that case, we want the list to take up three columns and the form to take up the last and fourth column.
+The pre-meeting experience will display a list that takes up four (4) grid columns, unless they trigger the new stand-up topic form that you'll create. In that case, we want the list to take up three columns and the form to take up the last and fourth column.
 
 By default, you can see from the code we'll default to not showing the form.
 
@@ -769,7 +788,7 @@ return (
     <Box styles={gridSpan}>
       <Flex fill={true} column>
         <List
-          title="Standup Meeting Topics"
+          label="Standup Meeting Topics"
           columns={{
             presenter: { title: "Presenter" },
             topic: { title: "Topic" },
@@ -816,7 +835,7 @@ Replace the existing `return()` method on the tab with the following code:
 ```tsx
 let mainContentElement: JSX.Element | JSX.Element[] | null = null;
 switch (frameContext) {
-  case microsoftTeams.FrameContexts.content:
+  case FrameContexts.content:
     mainContentElement = getPreMeetingUX();
     break;
   default:

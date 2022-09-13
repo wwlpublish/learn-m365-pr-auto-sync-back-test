@@ -112,14 +112,14 @@ The following code snippets demonstrate working examples of working text and par
 - Delete the second row in a table
 
     ```javascript
-    var row = context.workbook.tables.getItem("ExpensesTable").rows.getItemAt(1);
+    const row = context.workbook.tables.getItem("ExpensesTable").rows.getItemAt(1);
     row.delete();
     ```
 
 - Update the second row in a table
 
     ```javascript
-    var row = context.workbook.tables.getItem("ExpensesTable").rows.getItemAt(1);
+    const row = context.workbook.tables.getItem("ExpensesTable").rows.getItemAt(1);
     row.values = [["1/15/2017", "Best For You Organics Company", "Groceries", "97.8"]];
     ```
 
