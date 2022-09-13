@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/16/2022
+  ms.date: 08/31/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -39,7 +39,7 @@ quiz:
     - content: "Autotriggered VPN"
       isCorrect: false
       explanation: "Incorrect. With autotriggered VPN, if an app requires access to your company’s intranet, Windows can automatically trigger a virtual private network (VPN) connection. Try again."
-  - content: "As the Desktop Administrator for Fabrikam, Holly Spencer wants to implement an on-premises management solution to manage desktops, servers, and laptops that are on the company's network or are internet-based. Holly also wants monitor compliance, and query and act on clients in real time. What tool will provide Holly with this functionality?"
+  - content: "As the Desktop Administrator for Fabrikam, Holly Spencer wants to implement an on-premises management solution to manage desktops, servers, and laptops on the company’s network or internet-based. Holly also intends to monitor compliance, query, and act on clients in real time. What tool will provide Holly with this functionality?"
     choices:
     - content: "Desktop Analytics"
       isCorrect: false
@@ -50,18 +50,18 @@ quiz:
     - content: "Configuration Manager"
       isCorrect: true
       explanation: "Correct. Configuration Manager is an on-premises management solution to manage desktops, servers, and laptops that are on your network or internet-based. You can cloud-enable it to integrate with Intune, Azure Active Directory (AD), Microsoft Defender for Endpoint, and other cloud services. Use Configuration Manager to deploy apps, software updates, and operating systems. You can also monitor compliance, query and act on clients in real time, and much more."
-  - content: "Which feature in Windows 10 and 11 enables a user to turn their device into a Wi-Fi hotspot?"
+  - content: "Which feature in Windows 10 and 11 enables users to turn their device into a Wi-Fi hotspot?"
     choices:
     - content: "Broadband tethering"
       isCorrect: true
       explanation: "Correct. With broadband tethering, you can turn your Windows 10 or later device into a Wi-Fi hotspot."
     - content: "Autotriggered VPN"
       isCorrect: false
-      explanation: "Incorrect. If an app requires access to your company’s intranet, Windows can automatically trigger a virtual private network (VPN) connection. This feature does not turn a device into a Wi-Fi hotspot. Try again."
+      explanation: "Incorrect. If an app requires access to your company’s intranet, Windows can automatically trigger a virtual private network (VPN) connection. This feature doesn't turn a device into a Wi-Fi hotspot. Try again."
     - content: "Mobile broadband"
       isCorrect: false
       explanation: "Incorrect. With its mobile broadband feature, Windows provides support for embedded wireless radio. This support helps to improve power efficiency and reduce the size of some devices. This feature does not turn a device into a Wi-Fi hotspot. Try again."
-  - content: "Lucerne Publishing has experienced a rash of security issues related to device management. As such, it wants to control how the organization’s devices are used, including mobile phones, tablets, and laptops. The company has decided that it wants to prevent emails from being sent to people outside the organization. And while the company allows selected employees to use their personal devices for work, it wants to ensure the organization's data stays protected. It also wants to isolate organization data from personal data. What tool should Lucerne Publishing implement to provide these device management features?"
+  - content: "Lucerne Publishing has experienced a rash of security issues related to device management. It wants to control how the organization uses devices, including mobile phones, tablets, and laptops. The company has decided that it wants to prevent emails from being sent to people outside the organization. And while the company allows selected employees to use their personal devices for work, it wants to ensure the organization’s data stays protected. It also wants to isolate organization data from personal data. What tool should Lucerne Publishing implement to provide these device management features?"
     choices:
     - content: "Client Hyper-V"
       isCorrect: false

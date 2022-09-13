@@ -22,5 +22,4 @@ Use these resources to discover more.
 
 - [A Closer Look at Data Platform Capabilities in Microsoft Dataverse for Teams](https://powerapps.microsoft.com/blog/a-closer-look-at-data-platform-capabilities-in-project-oakdale/)
 
-- [View table data in Power BI Desktop (Preview)](https://docs.microsoft.com/powerapps/maker/common-data-service/view-entity-data-power-bi)
-
+- [View table data in Power BI Desktop (Preview)](/powerapps/maker/common-data-service/view-entity-data-power-bi)

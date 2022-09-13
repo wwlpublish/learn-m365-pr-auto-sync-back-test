@@ -11,7 +11,7 @@ Now that you've finished this module, you should be able to:
 
 ## Learn more
 
-- [Microsoft Search on Microsoft Docs](/microsoftsearch/overview-microsoft-search)
+- [Microsoft Search documentation](/microsoftsearch/overview-microsoft-search)
 - [Admin Essentials guide](https://aka.ms/SearchAdminEssentials)
 - [Forrester TEI report](https://aka.ms/microsoftsearchTEI)
 - [Microsoft Search Tech Community Site](https://techcommunity.microsoft.com/t5/microsoft-search/ct-p/MicrosoftSearch)

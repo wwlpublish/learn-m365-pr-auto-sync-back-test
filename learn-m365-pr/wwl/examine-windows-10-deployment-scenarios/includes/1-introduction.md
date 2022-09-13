@@ -13,4 +13,4 @@ After completing this module, you'll be able to:
  -  Explain how the Windows as a Service model continually provides new capabilities and updates while maintaining a high level of hardware and software compatibility.
  -  Explain how the modern deployment model combines both traditional on-premises and cloud services to deliver a streamlined, cost effective deployment experience.
  -  Explain how the dynamic deployment model can transform the existing version of Windows 10 and later that's included on a device to a customized version that is used in your company without reinstalling Windows.
- -  Explain how the traditional deployment model is image-based and uses an organization’s on-premises infrastructure. 
+ -  Explain how the traditional deployment model is image-based and uses an organization’s on-premises infrastructure.

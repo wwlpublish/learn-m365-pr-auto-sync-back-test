@@ -25,7 +25,7 @@ When troubleshooting, it’s important to know which policies are assigned to wh
 - If the user has no assigned policy, and doesn’t belong to groups with assigned policies, then the Org-wide default policy applies. 
 
 > [!TIP]
-> You can learn more about [Precedence rules](https://docs.microsoft.com/microsoftteams/assign-policies#precedence-rules?azure-portal=true) here. 
+> You can learn more about [Precedence rules](/microsoftteams/assign-policies#precedence-rules?azure-portal=true) here. 
 
 To determine which policies are applied to a user, in the Microsoft Teams admin center:
 

@@ -14,23 +14,22 @@ Now that you have reviewed this module, you should have learned:
 
 Use these resources to discover more.
 
-- [What is Azure Synapse Analytics (workspaces preview)?](https://docs.microsoft.com/azure/synapse-analytics/overview-what-is)
+- [What is Azure Synapse Analytics (workspaces preview)?](/azure/synapse-analytics/overview-what-is)
 
-- [Welcome to Azure Stream Analytics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-introduction)
+- [Welcome to Azure Stream Analytics](/azure/stream-analytics/stream-analytics-introduction)
 
-- [Machine Learning capabilities in Azure Synapse Analytics (workspaces preview)](https://docs.microsoft.com/azure/synapse-analytics/machine-learning/what-is-machine-learning)
+- [Machine Learning capabilities in Azure Synapse Analytics (workspaces preview)](/azure/synapse-analytics/machine-learning/what-is-machine-learning)
 
-- [Tutorial: Machine learning model scoring wizard for dedicated SQL pools ](https://docs.microsoft.com/azure/synapse-analytics/machine-learning/tutorial-sql-pool-model-scoring-wizard)
+- [Tutorial: Machine learning model scoring wizard for dedicated SQL pools](/azure/synapse-analytics/machine-learning/tutorial-sql-pool-model-scoring-wizard)
 
-- [Tutorial: Run experiments using Azure Automated ML](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-azure-machine-learning-tutorial)
+- [Tutorial: Run experiments using Azure Automated ML](/azure/synapse-analytics/spark/apache-spark-azure-machine-learning-tutorial)
 
-- [What is column-level security for Azure Synapse?](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/column-level-security)
+- [What is column-level security for Azure Synapse?](/azure/synapse-analytics/sql-data-warehouse/column-level-security)
 
-- [Row-Level Security - SQL Server](https://docs.microsoft.com/sql/relational-databases/security/row-level-security)
+- [Row-Level Security - SQL Server](/sql/relational-databases/security/row-level-security)
 
-- [Dynamic Data Masking - SQL Server](https://docs.microsoft.com/sql/relational-databases/security/dynamic-data-masking)
+- [Dynamic Data Masking - SQL Server](/sql/relational-databases/security/dynamic-data-masking)
 
 - [Quickly get started with samples in Azure Synapse Analytics](https://azure.microsoft.com/blog/quickly-get-started-with-samples-in-azure-synapse-analytics/)
 
-- [Tutorial: Get started explore the Synapse Knowledge Center](https://docs.microsoft.com/azure/synapse-analytics/get-started-knowledge-center)
-
+- [Tutorial: Get started explore the Synapse Knowledge Center](/azure/synapse-analytics/get-started-knowledge-center)

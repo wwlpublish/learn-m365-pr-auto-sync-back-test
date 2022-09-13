@@ -6,6 +6,6 @@ Check out the video below to see how to download the ADMX templates and deploy t
 
 As you saw, you can limit the build level of Microsoft Edge to specific versions using the new ADMX-based policies.  In addition, there are other policies that provide an even greater level of control, allowing administrators to configure which Microsoft Edge channel to use with opening sites that are redirected from Internet Explorer.
 
-For more information on Microsoft Edge update policies, see [Microsoft Edge – Update policies](https://docs.microsoft.com/deployedge/microsoft-edge-update-policies).
+For more information on Microsoft Edge update policies, see [Microsoft Edge – Update policies](/deployedge/microsoft-edge-update-policies).
 
 In the next unit, you’ll see how to configure side-by-side installations of Microsoft Edge.

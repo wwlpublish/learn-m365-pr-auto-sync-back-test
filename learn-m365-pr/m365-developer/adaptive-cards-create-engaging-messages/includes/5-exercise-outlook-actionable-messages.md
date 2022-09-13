@@ -80,6 +80,11 @@ In the **Configured Permissions** panel, select the button **Grant admin consent
 
 ## Create .NET Core console application
 
+  > [!IMPORTANT]
+> In most cases, installing the latest version of tools is the best option. The versions listed here were used when this module was published and last tested.
+>
+> - [.NET SDK](https://docs.microsoft.com/dotnet/core/install/) - 6.0.400
+
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 
 ```console
@@ -508,6 +513,12 @@ You'll use Node.js and TypeScript to create the web service
 Open your command prompt, navigate to a directory where you have rights to create your project, and create a new folder **refresh-card-ts**.
 
 ### Project setup
+
+  > [!IMPORTANT]
+> In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
+>
+> - [Node.js](https://nodejs.org/) - v16.\*
+> - npm (installed with Node.js) - v8.\*
 
 Change to that folder and run the following to initialize a new Node project:
 

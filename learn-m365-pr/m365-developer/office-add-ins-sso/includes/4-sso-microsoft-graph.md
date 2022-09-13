@@ -29,13 +29,13 @@ Let's start by taking a look at how the authentication flow works at runtime whe
 1. Microsoft Graph returns data to the add-in, which can pass it on to the add-in's UI.
 1. When the access token to Microsoft Graph expires, the server-side code can use its refresh token to get a new access token to Microsoft Graph.
 
-### Office can't prompt for to consent Microsoft Graph permissions
+### Office can't prompt for consent Microsoft Graph permissions
 
 The steps outlined above state that Office can prompt the user to consent the add-in permissions to sign them in. However, it's worth noting that Office can only prompt for consent for the OpenID `profile` scope. Office can't prompt the user to consent any of the Microsoft Graph permissions.
 
 This can introduce a challenge with your add-in because it can't know if this initial bootstrap token can be used in the OBO OAuth2 to obtain an access token to call Microsoft Graph.
 
-If your code needs permissions to Microsoft Graph, or more permissions that the user hasn't consented to yet, when Microsoft Graph receives the bootstrap token, it will fail with a specific error code: **AADSTS65001**. This error code indicates consent to the requested Microsoft Graph permissions hasn't been granted yet.
+If your code needs permissions to Microsoft Graph, or more permissions that the user hasn't consented yet, when Microsoft Graph receives the bootstrap token, it will fail with a specific error code: **AADSTS65001**. This error code indicates consent to the requested Microsoft Graph permissions hasn't been granted yet.
 
 In this scenario, your add-in should gracefully handle this scenario with a fallback authorization system that prompts the user to consent the necessary Microsoft Graph permissions.
 

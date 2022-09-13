@@ -35,7 +35,7 @@ You can locally install (sideload) your add-in for testing and debugging on Wind
 
 If you create your project using the Yeoman generator for Office Add-ins, you can run **npm run start** in a command-line prompt to start and sideload your add-in to Excel on Windows or **npm run start:web** to run it in a web browser, though you'll have to manually sideload to Excel in the browser.
 
-If you create your project using Visual Studio (VS), you can run the project in VS debug mode and it will automatically sideload to Excel on Windows.
+If you create your project using Visual Studio (VS), you can run the project in VS debug mode, and it will automatically sideload to Excel on Windows.
 
 ### Debug your add-in
 
@@ -95,7 +95,7 @@ If your add-in will be limited to you or your organization, test it in Office ve
 
 #### Public use
 
-If your add-in will be available to the public through AppSource, you should look over the AppSource validation policies so review and validation of your add-in is as smooth as possible. A few key validation requirements are:
+If your add-in will be available to the public through AppSource, you should look over the AppSource validation policies so the review and validation of your add-in is as smooth as possible. A few key validation requirements are:
 
 - Browsers: Internet Explorer 11 and later, Microsoft Edge, Chrome, Firefox, and Safari (Mac)
 - Office: All applications you specified in the `Hosts` section of the add-in's manifest configuration file

@@ -1,7 +1,7 @@
 Microsoft Edge is fully integrated with Intune, for both Windows and non-Windows devices. Watch this video to see the steps to add Microsoft Edge for macOS as a package to deploy to users at scale.
 
 >[!NOTE] 
-> You cannot use the built-in application deployment of Microsoft Edge for workplace join computers. Built-in application deployment requires the Intune management extension, which only exists for AAD joined devices. You can still deploy Microsoft Edge version 77 and later using an .msi uploaded to Apps, see [Add a Windows line-of-business app to Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/lob-apps-windows).
+> You cannot use the built-in application deployment of Microsoft Edge for workplace join computers. Built-in application deployment requires the Intune management extension, which only exists for AAD joined devices. You can still deploy Microsoft Edge version 77 and later using an .msi uploaded to Apps, see [Add a Windows line-of-business app to Microsoft Intune](/mem/intune/apps/lob-apps-windows).
 
 <br>
 

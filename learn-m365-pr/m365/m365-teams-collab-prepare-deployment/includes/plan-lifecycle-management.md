@@ -4,9 +4,9 @@ Planning for lifecycle management is essential if your organization is to get th
 
 In Teams, each individual team has its own lifecycle with the following sequence:  
 
-1. Initiate
-1. Active
-1. Sunset
+1. Beginning
+1. Middle
+1. End
 
 Broadly speaking, the lifecycle of a Teams team encompasses both configuration—*static* settings and policies—and management, which is dynamic per team during the lifecycle.
 
@@ -43,12 +43,6 @@ The **end stage** occurs when a team has concluded its useful lifecycle, normall
 - Deciding whether to keep a team's stored content available, and for how long.
 - Documenting best practices and lessons learned.
 - Archiving data, if necessary.
-
-## Automation throughout the lifecycle
-
-This diagram visualizes a team lifecycle using PowerShell and Graph API automation tools.
-
-:::image type="content" source="../media/lifecycle-automation-tools.png" alt-text="Lifecycle stages using PowerShell and Graph A P I automation tools." border="false":::
 
 ## Learn more
 
