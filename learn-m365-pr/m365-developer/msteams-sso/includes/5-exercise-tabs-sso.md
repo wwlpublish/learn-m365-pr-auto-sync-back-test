@@ -63,7 +63,7 @@ After answering the generator's questions, the generator will create the scaffol
 
 ### Ensure the project is using the latest version of Teams SDK
 
-Run the npm command to install the latest version of the SDK
+Run the npm command to install the latest version of the SDK:
 
 ```console
 npm i @microsoft/teams-js
@@ -126,7 +126,7 @@ useEffect(() => {
 }, [inTeams]);
 ```
 
-Notice the `getAuthToken()` method accepts an object with three properties. In addition to the two callbacks, you also set the Application ID URL of the Azure AD application you registered and associated with this Microsoft Teams app. Azure AD will automatically trust the Microsoft Teams client to act on the current user's behalf because in a previous exercise you granted it the `access_as_user` scope.
+Notice the `getAuthToken()` method accepts an object with three properties. In addition to the two callbacks, you also set the Application ID URI of the Azure AD application you registered and associated with this Microsoft Teams app. Azure AD will automatically trust the Microsoft Teams client to act on the current user's behalf because in a previous exercise you granted it the `access_as_user` scope.
 
 ### Server-side web app
 
