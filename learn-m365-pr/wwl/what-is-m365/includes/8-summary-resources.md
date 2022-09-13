@@ -13,9 +13,9 @@ Use the following list of resources to learn more about the units discussed in t
 
  -  [What is Microsoft 365](https://www.microsoft.com/microsoft-365/what-is-microsoft-365?azure-portal=true)?
  -  [Hybrid Work Solutions for a Hybrid Workplace \| Microsoft Flexibility](https://www.microsoft.com/flexibility/hybrid-work-solutions?azure-portal=true)
- -  [Set up your infrastructure for hybrid work with Microsoft 365 \| Microsoft Docs.](/microsoft-365/solutions/empower-people-to-work-remotely?azure-portal=true)
+ -  [Set up your infrastructure for hybrid work with Microsoft 365](/microsoft-365/solutions/empower-people-to-work-remotely?azure-portal=true)
  -  [What's the difference between Microsoft 365 and Office 2021?](https://support.microsoft.com/office/what-s-the-difference-between-microsoft-365-and-office-2021-ed447ebf-6060-46f9-9e90-a239bd27eb96?azure-portal=true)
- -  [Windows 365 service description - Service Descriptions \| Microsoft Docs](/office365/servicedescriptions/windows-365-service-description/windows-365-service-description?azure-portal=true)
- -  [Welcome to the Microsoft 365 Developer Program \| Microsoft Docs.](/office/developer-program/microsoft-365-developer-program?azure-portal=true)
- -  [Set up a Microsoft 365 developer sandbox subscription \| Microsoft Docs](/office/developer-program/microsoft-365-developer-program-get-started?azure-portal=true)
+ -  [Windows 365 service description](/office365/servicedescriptions/windows-365-service-description/windows-365-service-description?azure-portal=true)
+ -  [Microsoft 365 Developer Program](/office/developer-program/microsoft-365-developer-program?azure-portal=true)
+ -  [Set up a Microsoft 365 developer sandbox subscription](/office/developer-program/microsoft-365-developer-program-get-started?azure-portal=true)
  -  [Microsoft Developer](https://developer.microsoft.com/?azure-portal=true)
