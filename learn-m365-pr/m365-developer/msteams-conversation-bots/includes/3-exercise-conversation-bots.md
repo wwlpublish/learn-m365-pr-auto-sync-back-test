@@ -201,7 +201,7 @@ Select **Save**
 
 In the navigation outline, select **App features** The select **Bot** page, select **Set up** to add a bot to the manifest.
 
-- Because you previously created a bot using the Microsoft Azure's Bot Framework, select **Enter a bot ID** and set the `MICROSOFT_APP_ID` value from above
+- Because you previously created a bot using the Microsoft Azure's Bot Framework, select **Enter a bot ID** and set the `MICROSOFT_APP_ID` value from above.
 
 - For the **Select the scopes in which people can use this command** section, choose **Personal** and **Team**.
 
@@ -209,7 +209,7 @@ Select **Save**.
 
 ![Screenshot of setting up a bot.](../media/03-dev-portal-03.png)
 
-Once the app is saved, the **Bot** page refreshes with an another section, titled **Commands** at the bottom.
+Once the app is saved, the **Bot** page refreshes with another section, titled **Commands** at the bottom.
 
 Within the **Commands** section, select **Add a command** to add a new command to the bot.
 
