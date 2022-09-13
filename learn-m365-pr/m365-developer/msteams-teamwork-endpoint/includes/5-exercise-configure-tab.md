@@ -121,7 +121,7 @@ Locate the `return` statement and add the following code immediately before it:
 const handleWordOnClick = useCallback(async() => {
   if (!msGraphOboToken || !context) { return; }
 
-  const endpoint = `https://graph.microsoft.com/v1.0/teams/${context.groupId}/channels/${context.channelId}/tabs`;
+  const endpoint = `https://graph.microsoft.com/v1.0/teams/${context.team?.groupId}/channels/${context.channel?.id}/tabs`;
   const requestObject = {
     method: "POST",
     headers: {
@@ -146,7 +146,7 @@ const handleWordOnClick = useCallback(async() => {
 const handleExcelOnClick = useCallback(async() => {
   if (!msGraphOboToken || !context) { return; }
 
-  const endpoint = `https://graph.microsoft.com/v1.0/teams/${context.groupId}/channels/${context.channelId}/tabs`;
+  const endpoint = `https://graph.microsoft.com/v1.0/teams/${context.team?.groupId}/channels/${context.channel?.id}/tabs`;
   const requestObject = {
     method: "POST",
     headers: {

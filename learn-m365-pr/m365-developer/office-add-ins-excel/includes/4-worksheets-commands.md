@@ -56,7 +56,7 @@ The following code examples demonstrate common operations developers can do from
     someWorksheet.delete();
     ```
 
-- Wire into the ondeactivated event
+- Wire into the `onDeactivated` event
 
     ```javascript
     currWorksheet.onDeactivated.add((args) => {
@@ -142,7 +142,7 @@ First, define the function in a script file. For example, add the following code
     // Initialize add-in
   };
 })();
-// function must be global
+// function must be global
 function doStuff(event) {
   // do stuff with Office.js
 }
