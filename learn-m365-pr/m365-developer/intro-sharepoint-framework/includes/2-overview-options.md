@@ -114,7 +114,7 @@ Command sets enable you to add buttons to list and library toolbars or to the co
 
 #### List form customizer
 
-The last time of extensin is the list form customizer. This extension enables developers to create custom forms with the SharePoint Framework that replace a list's new, edit, and view forms.
+The last time of extension is the list from customizer. This extension enables developers to create custom forms with the SharePoint Framework that replace a list's new, edit, and view forms.
 
 ### Library components
 
