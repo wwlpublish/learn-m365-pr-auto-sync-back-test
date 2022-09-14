@@ -1,6 +1,6 @@
 # Learn pull requests  
 
-Thanks for contributing to [Learn](https://docs.microsoft.com/learn/)!
+Thanks for contributing to [Learn](https://docs.microsoft.com/training/)!
 
 Before requesting or performing a merge in upstream:
 
