@@ -32,4 +32,4 @@ The teamwork tools in Microsoft 365 are built on an intelligent fabric that keep
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
 - [Overview of Microsoft Graph](/graph/overview)
-- [Understand Teams management tools-Microsoft Graph API](/learn/modules/m365-teams-collab-prepare-deployment/management-tools)
+- [Understand Teams management tools-Microsoft Graph API](/training/modules/m365-teams-collab-prepare-deployment/management-tools)

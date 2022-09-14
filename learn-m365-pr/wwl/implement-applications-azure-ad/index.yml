@@ -19,7 +19,7 @@ abstract: |
   - Monitor app governance for OAuth-enabled apps
 prerequisites: |
   None
-iconUrl: /learn/achievements/azure-ad-implement-applications.svg
+iconUrl: /training/achievements/azure-ad-implement-applications.svg
 levels:
 - intermediate
 roles:

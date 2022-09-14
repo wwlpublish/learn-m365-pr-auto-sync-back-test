@@ -19,7 +19,7 @@ abstract: |
   *   Configure and troubleshoot Cloud Discovery.
 prerequisites: |
   None
-iconUrl: /learn/achievements/cloud-security-implement.svg
+iconUrl: /training/achievements/cloud-security-implement.svg
 levels:
 - intermediate
 roles:

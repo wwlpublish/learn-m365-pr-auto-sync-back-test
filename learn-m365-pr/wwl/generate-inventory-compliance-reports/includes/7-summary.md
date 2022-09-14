@@ -3,5 +3,5 @@ The Endpoint Manager admin center allows administrators to view device and appli
 ### Learn more
 
  -  [Audit changes and events in Microsoft Intune](/mem/intune/fundamentals/monitor-audit-logs)
- -  [Explore Microsoft Graph - Learn](/learn/modules/microsoft-graph/)
- -  [Get data with Power BI Desktop - Learn](/learn/modules/get-data-power-bi/)
+ -  [Explore Microsoft Graph - Learn](/training/modules/microsoft-graph/)
+ -  [Get data with Power BI Desktop - Learn](/training/modules/get-data-power-bi/)

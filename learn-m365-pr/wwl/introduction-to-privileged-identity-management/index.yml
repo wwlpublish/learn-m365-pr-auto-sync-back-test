@@ -19,7 +19,7 @@ abstract: |
   - Explain how Privileged Access Management provides granular access control over privileged admin tasks in Microsoft 365
 prerequisites: |
   None
-iconUrl: /learn/achievements/privileged-identity-management.svg
+iconUrl: /training/achievements/privileged-identity-management.svg
 levels:
 - intermediate
 roles:

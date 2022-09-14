@@ -19,7 +19,7 @@ abstract: |
   - Explain where to look to determine the threats each action will mitigate and the impact it has on users
 prerequisites: |
   None
-iconUrl: /learn/achievements/secure-score-reduce-risk.svg
+iconUrl: /training/achievements/secure-score-reduce-risk.svg
 levels:
 - intermediate
 roles:

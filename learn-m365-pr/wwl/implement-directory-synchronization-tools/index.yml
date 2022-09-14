@@ -17,7 +17,7 @@ abstract: |
   - Monitor synchronization services using Azure AD Connect Health
 prerequisites: |
   None
-iconUrl: /learn/achievements/azure-ad-implement.svg
+iconUrl: /training/achievements/azure-ad-implement.svg
 levels:
 - intermediate
 roles:

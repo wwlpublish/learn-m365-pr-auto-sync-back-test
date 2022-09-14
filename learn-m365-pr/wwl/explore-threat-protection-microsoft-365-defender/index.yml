@@ -21,7 +21,7 @@ abstract: |
   *   Understand how Advanced Hunting can be used to track events in your secure messaging environment.
 prerequisites: |
   None
-iconUrl: /learn/achievements/m365-defender-threat-protection.svg
+iconUrl: /training/achievements/m365-defender-threat-protection.svg
 levels:
 - intermediate
 roles:

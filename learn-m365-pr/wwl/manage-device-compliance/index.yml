@@ -18,7 +18,7 @@ abstract: |
   - Monitor enrolled devices to control their Intune activities and compliance status
 prerequisites: |
   None
-iconUrl: /learn/achievements/mobile-device-management-compliance.svg
+iconUrl: /training/achievements/mobile-device-management-compliance.svg
 levels:
 - intermediate
 roles:
