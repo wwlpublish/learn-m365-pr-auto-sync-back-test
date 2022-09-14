@@ -17,7 +17,7 @@ abstract: |
   - Explain business app delivery and how it differs from Microsoft 365 Apps installation
   - Describe Microsoft Store and MSIX options for app delivery
 prerequisites: None
-iconUrl: /learn/achievements/get-modern-office-and-lob-app-delivery.svg
+iconUrl: /training/achievements/get-modern-office-and-lob-app-delivery.svg
 ratingEnabled: true
 levels:
 - intermediate

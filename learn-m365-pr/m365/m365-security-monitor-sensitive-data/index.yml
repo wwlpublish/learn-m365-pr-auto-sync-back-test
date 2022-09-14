@@ -18,8 +18,8 @@ abstract: |
   - Navigate the Microsoft Purview compliance portal for compliance with standards and regulations
 
 prerequisites: | 
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/learn/paths/m365-fundamentals/)
-iconUrl: /learn/achievements/monitor-analyze-sensitive-data.svg
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/training/paths/m365-fundamentals/)
+iconUrl: /training/achievements/monitor-analyze-sensitive-data.svg
 ratingEnabled: true
 levels:
 - intermediate

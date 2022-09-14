@@ -15,8 +15,8 @@ abstract: |
   - Understand the protection available using Microsoft Defender for Office 365 policies
   - Define mail protection using Microsoft Defender for Office 365 policies
 prerequisites: | 
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/learn/paths/m365-fundamentals/)
-iconUrl: /learn/achievements/protect-mail-with-office-365-advanced-threat-protection.svg
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/training/paths/m365-fundamentals/)
+iconUrl: /training/achievements/protect-mail-with-office-365-advanced-threat-protection.svg
 ratingEnabled: true
 levels:
 - intermediate

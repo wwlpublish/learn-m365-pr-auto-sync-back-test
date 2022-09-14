@@ -16,8 +16,8 @@ abstract: |
   - Define attack surface reduction for Windows 10 endpoints
   - Explain how Windows Defender Antivirus stops suspicious behaviors
 prerequisites: | 
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/learn/paths/m365-fundamentals/)
-iconUrl: /learn/achievements/secure-windows-10-endpoints.svg
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/training/paths/m365-fundamentals/)
+iconUrl: /training/achievements/secure-windows-10-endpoints.svg
 ratingEnabled: true
 levels:
 - intermediate

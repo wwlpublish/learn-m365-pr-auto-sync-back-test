@@ -2,7 +2,7 @@ Welcome to Microsoft Service Adoption Specialist training! This training is for 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3HdXO]
 
-This course uses the implementation of Microsoft Teams as our example service. The service adoption framework is designed to apply to any service you need to implement. However, there's some information, such as the technical acumen section, that's specific to Microsoft Teams. All the information you need to complete this training is contained in this course. If you'd like to go deeper in the technical implementation of Microsoft Teams, check out [Manage team collaboration with Microsoft Teams](/learn/paths/m365-manage-team-collaboration/).
+This course uses the implementation of Microsoft Teams as our example service. The service adoption framework is designed to apply to any service you need to implement. However, there's some information, such as the technical acumen section, that's specific to Microsoft Teams. All the information you need to complete this training is contained in this course. If you'd like to go deeper in the technical implementation of Microsoft Teams, check out [Manage team collaboration with Microsoft Teams](/training/paths/m365-manage-team-collaboration/).
 
 You'll learn about the following areas:
 

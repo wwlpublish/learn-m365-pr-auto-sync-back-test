@@ -15,7 +15,7 @@ abstract: |
   - Explain the most common security-related problems that interrupt Microsoft 365 deployments and how to solve them 
   - Describe the new security capabilities in Microsoft 365 
 prerequisites: None
-iconUrl: /learn/achievements/get-modern-security-and-compliance.svg
+iconUrl: /training/achievements/get-modern-security-and-compliance.svg
 levels:
 - intermediate
 roles:
