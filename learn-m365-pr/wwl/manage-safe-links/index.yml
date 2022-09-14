@@ -19,7 +19,7 @@ abstract: |
   - Describe the end-user experience when Safe Links identifies a link to a malicious website embedded in email, and a link to a malicious file hosted on a website
 prerequisites: |
   None
-iconUrl: /learn/achievements/manage-safe-links.svg
+iconUrl: /training/achievements/manage-safe-links.svg
 levels:
 - intermediate
 roles:

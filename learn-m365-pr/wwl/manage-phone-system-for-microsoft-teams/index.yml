@@ -20,7 +20,7 @@ abstract: |
 prerequisites: |
   - A proficient understanding of basic functional experience with Microsoft 365 services.
   - A proficient understanding of general IT practices, including using PowerShell.
-iconUrl: /learn/achievements/teams-manage-phone-system.svg
+iconUrl: /training/achievements/teams-manage-phone-system.svg
 levels:
 - intermediate
 roles:

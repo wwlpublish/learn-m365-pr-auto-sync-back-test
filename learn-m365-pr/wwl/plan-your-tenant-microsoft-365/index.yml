@@ -16,7 +16,7 @@ abstract: |
   *   Identify which Microsoft 365 component services satisfy your organizational needs.
   *   Identify the steps to successfully create a tenant for Microsoft 365\.
 prerequisites: ""
-iconUrl: /learn/achievements/plan-your-tenant-in-microsoft-365.svg
+iconUrl: /training/achievements/plan-your-tenant-in-microsoft-365.svg
 levels:
 - intermediate
 roles:
