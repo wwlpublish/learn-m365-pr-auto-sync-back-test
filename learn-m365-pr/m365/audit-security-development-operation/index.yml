@@ -21,7 +21,7 @@ abstract: |
  - Explain how Microsoft uses Component Governance (CG) to manage open source software.
 
 prerequisites: None
-iconUrl: /learn/achievements/understand-microsoft-365-security-development-operation.svg
+iconUrl: /training/achievements/understand-microsoft-365-security-development-operation.svg
 ratingEnabled: false
 levels:
 - beginner

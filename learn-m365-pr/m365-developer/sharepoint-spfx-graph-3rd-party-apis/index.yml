@@ -20,7 +20,7 @@ prerequisites: |
   - Ability to program with JavaScript, TypeScript, and Node.js
   - Experience using Visual Studio Code at the intermediate level
   - Access to a Microsoft 365 tenant
-iconUrl: /learn/achievements/sharepoint-spfx-graph-3rd-party-apis.svg
+iconUrl: /training/achievements/sharepoint-spfx-graph-3rd-party-apis.svg
 levels:
   - intermediate
 roles:

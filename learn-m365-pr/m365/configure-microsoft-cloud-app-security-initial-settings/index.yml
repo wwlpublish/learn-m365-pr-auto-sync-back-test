@@ -18,7 +18,7 @@ abstract: |
 prerequisites: | 
   - Knowledge of security fundamentals
   - Knowledge Microsoft Azure and Microsoft 365 fundamentals
-iconUrl: /learn/achievements/configure-microsoft-cloud-app-security-initial-settings.svg
+iconUrl: /training/achievements/configure-microsoft-cloud-app-security-initial-settings.svg
 levels:
 - beginner
 roles:

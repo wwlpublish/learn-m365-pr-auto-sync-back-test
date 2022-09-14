@@ -19,7 +19,7 @@ prerequisites: |
   - Experience working with Azure 
   - Knowledge of security concepts, risks, and mitigations
   - Microsoft Defender for Cloud Apps intermediate or equivalent
-iconUrl: /learn/achievements/integrate-third-party-identity-providers-with-mcas.svg
+iconUrl: /training/achievements/integrate-third-party-identity-providers-with-mcas.svg
 levels:
 - advanced
 roles:

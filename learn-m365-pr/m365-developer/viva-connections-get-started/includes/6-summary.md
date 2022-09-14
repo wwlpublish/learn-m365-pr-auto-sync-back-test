@@ -8,6 +8,6 @@ To learn more about Microsoft Viva, Microsoft Viva Connections, and Microsoft Vi
 
 - [Microsoft Viva](https://www.microsoft.com/microsoft-viva?WT.mc_id=m365-41957-cxa)
 - [Microsoft Viva Connections helps everyone to stay engaged and informed](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/microsoft-viva-connections-helps-everyone-to-stay-engaged-and/ba-p/2107009?WT.mc_id=m365-41957-cxa)
-- [Extend Microsoft Viva Connections with web parts](/learn/modules/viva-connections-extend-with-web-parts)
-- [Extend Microsoft Viva Connections with application customizers](/learn/modules/viva-connections-extend-with-app-customizers)
-- [Extend Microsoft Viva Connections with Adaptive Card Extensions](/learn/modules/viva-connections-extend-with-adaptive-card-extensions)
+- [Extend Microsoft Viva Connections with web parts](/training/modules/viva-connections-extend-with-web-parts)
+- [Extend Microsoft Viva Connections with application customizers](/training/modules/viva-connections-extend-with-app-customizers)
+- [Extend Microsoft Viva Connections with Adaptive Card Extensions](/training/modules/viva-connections-extend-with-adaptive-card-extensions)

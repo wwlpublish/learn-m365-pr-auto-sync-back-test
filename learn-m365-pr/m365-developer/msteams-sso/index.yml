@@ -20,7 +20,7 @@ prerequisites: |
   - Basic knowledge of Microsoft Graph
   - Experience using Visual Studio Code at the beginner level
   - Valid Microsoft 365 Subscription
-iconUrl: /learn/achievements/msteams-sso.svg
+iconUrl: /training/achievements/msteams-sso.svg
 levels:
   - intermediate
 roles:
