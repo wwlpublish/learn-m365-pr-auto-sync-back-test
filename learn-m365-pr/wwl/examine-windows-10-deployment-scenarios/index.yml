@@ -18,7 +18,7 @@ abstract: |
   - Explain how the traditional Windows 10/11 deployment model is image-based and uses an organization’s on-premises infrastructure.
 prerequisites: |
   None
-iconUrl: /learn/achievements/windows-deployment-scenarios.svg
+iconUrl: /training/achievements/windows-deployment-scenarios.svg
 levels:
 - intermediate
 roles:

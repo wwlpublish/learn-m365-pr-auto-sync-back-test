@@ -18,7 +18,7 @@ abstract: |
 prerequisites: |
   - Knowledge of how to configure Teams Phone tenant settings for your organization, either using Calling Plans or Direct Routing.
   - Understanding of the requirements for voice users, including dial plans, voice routing and numbering.
-iconUrl: /learn/achievements/1-configure-and-manage-voice-users.svg
+iconUrl: /training/achievements/1-configure-and-manage-voice-users.svg
 levels:
 - advanced
 roles:

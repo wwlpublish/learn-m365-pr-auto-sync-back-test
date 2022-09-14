@@ -16,7 +16,7 @@ abstract: |
   - Plan and set up domains for your organization.
   - Understand how the receive and send connectors work.
 prerequisites: ""
-iconUrl: /learn/achievements/2-configure-message-transport.svg
+iconUrl: /training/achievements/2-configure-message-transport.svg
 levels:
 - intermediate
 roles:

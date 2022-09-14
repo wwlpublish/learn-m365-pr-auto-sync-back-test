@@ -5,6 +5,6 @@ Watch the video below for a quick overview of configuring the deployment package
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4F99b]
 
-For additional details and information, see [Explore Edge deployment with Microsoft Endpoint Configuration Manager](/learn/modules/explore-deployment-options-microsoft-edge/3-explore-edge-deployment-microsoft-endpoint-configuration-manager).
+For additional details and information, see [Explore Edge deployment with Microsoft Endpoint Configuration Manager](/training/modules/explore-deployment-options-microsoft-edge/3-explore-edge-deployment-microsoft-endpoint-configuration-manager).
 
 For a broad majority of users, updating Microsoft Edge automatically is the preferred.  However, there are situations where specific builds and versions are needed for testing and validation.

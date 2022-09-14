@@ -19,7 +19,7 @@ abstract: |
 prerequisites: |
   - Knowledge of PBX telephony systems and terminology
   - Knowledge equivalent to the Plan for Direct Routing module
-iconUrl: /learn/achievements/6-configure-and-deploy-direct-routing.svg
+iconUrl: /training/achievements/6-configure-and-deploy-direct-routing.svg
 levels:
 - advanced
 roles:

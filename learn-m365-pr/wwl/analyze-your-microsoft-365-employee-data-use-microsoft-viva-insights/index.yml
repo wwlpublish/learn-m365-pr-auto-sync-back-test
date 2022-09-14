@@ -18,7 +18,7 @@ abstract: |
   - Create custom analysis with Microsoft Viva Insights.
   - Summarize tasks and considerations for setting up Microsoft Viva Insights and managing privacy.
 prerequisites: ""
-iconUrl: /learn/achievements/analyze-your-microsoft-365-employee-data-use-microsoft-viva-insights.svg
+iconUrl: /training/achievements/analyze-your-microsoft-365-employee-data-use-microsoft-viva-insights.svg
 levels:
 - intermediate
 roles:
