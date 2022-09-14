@@ -15,7 +15,7 @@ prerequisites: |
   - Students should have experience with using Windows 10 or later.
 summary: |
   This learning path introduces students to protecting devices from external threats. This path will teach students about using encryption, firewalls, and IPSec to help protect against threats.
-iconUrl: /learn/achievements/threat-protection-configure.svg
+iconUrl: /training/achievements/threat-protection-configure.svg
 levels:
 - beginner
 roles:

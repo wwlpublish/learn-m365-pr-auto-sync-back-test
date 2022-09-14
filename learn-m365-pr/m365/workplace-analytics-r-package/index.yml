@@ -20,7 +20,7 @@ prerequisites: |
  - Familiarity with Workplace Analytics data sources and metrics 
  - Basic knowledge of the Query designer and query structure in Workplace Analytics
  - Basic understanding of data manipulation in R. Knowledge of the basic verbs in the dplyr package is also recommended.
-iconUrl: /learn/achievements/workplace-analytics-r-package.svg
+iconUrl: /training/achievements/workplace-analytics-r-package.svg
 levels:
 - beginner
 roles:

@@ -15,7 +15,7 @@ prerequisites: |
   - Students must have a proficient understanding of general IT practices.
 summary: |
   This learning path provides instruction on implementing the Microsoft 365 data governance features, including how to calculate your compliance readiness, implement compliance solutions, and create information barriers, DLP policies, and policy tips.
-iconUrl: /learn/achievements/implement-data-governance-in-microsoft-365-intelligence.svg
+iconUrl: /training/achievements/implement-data-governance-in-microsoft-365-intelligence.svg
 levels:
 - intermediate
 roles:

@@ -15,7 +15,7 @@ prerequisites: |
   - Students must have a proficient understanding of general IT practices.
 summary: |
   This learning path introduces you to the data governance features of Microsoft 365, which serve regulatory compliance, can facilitate eDiscovery, and are part of a business strategy to protect the integrity of the data estate.
-iconUrl: /learn/achievements/introduction-to-data-governance-in-microsoft-365.svg
+iconUrl: /training/achievements/introduction-to-data-governance-in-microsoft-365.svg
 levels:
 - intermediate
 roles:

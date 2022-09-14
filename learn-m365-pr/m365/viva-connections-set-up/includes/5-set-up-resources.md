@@ -8,7 +8,7 @@ twice from the Teams app bar.
 :::image type="content" source="../media/global-links.png" alt-text="Screenshot of global links." :::
 
 Links in Resources should help address opportunities that are identified in the
-needs assessment from [module 2](/learn/modules/viva-connections-plan). These links often point to
+needs assessment from [module 2](/training/modules/viva-connections-plan). These links often point to
 organizational information that everyone can benefit from, such as
 trainings resources, event opportunities, and the HR portal. Links can
 also be targeted to specific audiences to personalize the experience for

@@ -15,7 +15,7 @@ prerequisites: |
   - Experience using Active Directory Domain Services
 summary: |
   Students well be introduced to deployment using the Microsoft Deployment Toolkit and Configuration Manager.
-iconUrl: /learn/achievements/on-premises-deploy-tools.svg
+iconUrl: /training/achievements/on-premises-deploy-tools.svg
 levels:
 - intermediate
 roles:
