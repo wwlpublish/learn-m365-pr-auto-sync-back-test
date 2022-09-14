@@ -20,7 +20,7 @@ abstract: |
   - Describe usage scenarios for Customer Lockbox requests.
 prerequisites: |
   None
-iconUrl: /learn/achievements/azure-active-directory-external-access.svg
+iconUrl: /training/achievements/azure-active-directory-external-access.svg
 levels:
 - intermediate
 roles:

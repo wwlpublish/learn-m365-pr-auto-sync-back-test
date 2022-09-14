@@ -19,7 +19,7 @@ abstract: |
   - Analyze the results of your data classification efforts in Content explorer and Activity explorer.
   - Implement Document Fingerprinting to protect sensitive information being sent through Exchange Online.
 prerequisites: ""
-iconUrl: /learn/achievements/implement-data-classification-of-sensitive-information.svg
+iconUrl: /training/achievements/implement-data-classification-of-sensitive-information.svg
 levels:
 - intermediate
 roles:

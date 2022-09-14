@@ -19,7 +19,7 @@ abstract: |
   *   Describe how Advanced hunting in Microsoft 365 Defender proactively inspects events in your network to locate threat indicators and entities.
 prerequisites: |
   None
-iconUrl: /learn/achievements/explore-m365-threat-intelligence.svg
+iconUrl: /training/achievements/explore-m365-threat-intelligence.svg
 levels:
 - intermediate
 roles:

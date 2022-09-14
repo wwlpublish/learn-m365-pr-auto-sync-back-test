@@ -19,7 +19,7 @@ abstract: |
     - Understand how Microsoft 365 protects data across Windows 10, iOS, Android, and macOS devices
 prerequisites: |
   None
-iconUrl: /learn/achievements/intro-to-m365-unified-endpoint-mgmt.svg
+iconUrl: /training/achievements/intro-to-m365-unified-endpoint-mgmt.svg
 levels:
 - beginner
 roles:

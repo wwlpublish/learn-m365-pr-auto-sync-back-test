@@ -18,7 +18,7 @@ abstract: |
   - Create custom management roles and assign them through role assignment policies to users.
   - Troubleshoot RBAC management roles.
 prerequisites: ""
-iconUrl: /learn/achievements/admin-roles-manage.svg
+iconUrl: /training/achievements/admin-roles-manage.svg
 levels:
 - intermediate
 roles:

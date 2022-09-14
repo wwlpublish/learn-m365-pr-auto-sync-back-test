@@ -18,7 +18,7 @@ abstract: |
   - Configure device discovery to help find unmanaged devices connected to your corporate network.
   - Lower your organization's threat and vulnerability exposure by remediating issues based on prioritized security recommendations.
 prerequisites: ""
-iconUrl: /learn/achievements/implement-endpoint-protection-use-microsoft-defender.svg
+iconUrl: /training/achievements/implement-endpoint-protection-use-microsoft-defender.svg
 levels:
 - intermediate
 roles:
