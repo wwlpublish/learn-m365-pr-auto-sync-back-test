@@ -117,7 +117,7 @@ The steps to configure auto attendants and call queues are in the **Manage calls
 ## Learn more
 
 - [Call forwarding, call groups, and simultaneous ring in Teams](https://support.microsoft.com/office/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e?ui=en-us&rs=en-gb&ad=gb)
-- [Control caller ID information](/learn/modules/m365-teams-secure-teams-voice-functionality/5-configure-caller-id-policies)
-- [Protect voicemail](/learn/modules/m365-teams-secure-teams-voice-functionality/3-protect-voicemail)
-- [Control inbound calls](/learn/modules/m365-teams-secure-teams-voice-functionality/4-block-inbound-calls)
-- [Manage calls in Microsoft Teams by using auto attendants and call queues](/learn/modules/m365-teams-manage-calls-using-auto-attendants/)
+- [Control caller ID information](/training/modules/m365-teams-secure-teams-voice-functionality/5-configure-caller-id-policies)
+- [Protect voicemail](/training/modules/m365-teams-secure-teams-voice-functionality/3-protect-voicemail)
+- [Control inbound calls](/training/modules/m365-teams-secure-teams-voice-functionality/4-block-inbound-calls)
+- [Manage calls in Microsoft Teams by using auto attendants and call queues](/training/modules/m365-teams-manage-calls-using-auto-attendants/)

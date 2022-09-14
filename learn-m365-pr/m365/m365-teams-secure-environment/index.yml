@@ -17,7 +17,7 @@ abstract: |
   - Describe security settings and policies in Teams.
 prerequisites: | 
   - Familiarity with Microsoft Teams administration
-iconUrl: /learn/achievements/secure-your-ms-teams-environment.svg
+iconUrl: /training/achievements/secure-your-ms-teams-environment.svg
 levels:
 - intermediate
 roles:

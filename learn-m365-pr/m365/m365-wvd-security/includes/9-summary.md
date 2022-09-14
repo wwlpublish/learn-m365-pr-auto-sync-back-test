@@ -21,6 +21,6 @@ You can learn more by reviewing the following resources:
 
 - [What is Azure Virtual Desktop?](/azure/virtual-desktop/overview?azure-portal=true)
 - [Azure Virtual Desktop for the enterprise](/azure/architecture/example-scenario/wvd/windows-virtual-desktop?azure-portal=true)
-- [How does Azure Virtual Desktop work?](/learn/modules/m365-wvd-intro/3-how-windows-virtual-desktop-works?azure-portal=true)
+- [How does Azure Virtual Desktop work?](/training/modules/m365-wvd-intro/3-how-windows-virtual-desktop-works?azure-portal=true)
 - [Set up the PowerShell module for Azure Virtual Desktop](/azure/virtual-desktop/powershell-module?azure-portal=true)
 - [Use Azure Firewall to protect Azure Virtual Desktop deployments](/azure/firewall/protect-windows-virtual-desktop?azure-portal=true)

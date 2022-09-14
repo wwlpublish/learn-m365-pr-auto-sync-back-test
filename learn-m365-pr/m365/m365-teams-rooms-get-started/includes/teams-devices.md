@@ -20,4 +20,4 @@ You can use the same management tools you already use with Teams Rooms.  This le
 
 ## Learn more
 
-- [Certified Teams Room devices](/learn/modules/configure-deploy-manage-teams-devices/)
+- [Certified Teams Room devices](/training/modules/configure-deploy-manage-teams-devices/)

@@ -16,7 +16,7 @@ abstract: |
   - Explain how to configure multi-factor authentication to secure access to Teams.
   - Describe how to configure app protection policies for mobile devices.
 prerequisites: None
-iconUrl: /learn/achievements/configure-enterprise-grade-security-in-microsoft-teams.svg
+iconUrl: /training/achievements/configure-enterprise-grade-security-in-microsoft-teams.svg
 levels:
 - intermediate
 roles:

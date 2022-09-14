@@ -18,7 +18,7 @@ abstract: |
   - Configure cloud meeting recording.
 prerequisites: | 
   - Complete the **Deploy meetings using Teams** module.
-iconUrl: /learn/achievements/manage-and-secure-teams-meetings.svg
+iconUrl: /training/achievements/manage-and-secure-teams-meetings.svg
 levels:
 - intermediate
 roles:

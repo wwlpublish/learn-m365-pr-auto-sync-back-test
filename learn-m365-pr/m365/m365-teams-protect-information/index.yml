@@ -18,7 +18,7 @@ abstract: |
   - Explain secure guest access.
 prerequisites: | 
   - Complete the **Defend against threats in Microsoft Teams** learn module.
-iconUrl: /learn/achievements/protect-information-in-teams.svg
+iconUrl: /training/achievements/protect-information-in-teams.svg
 levels:
 - intermediate
 roles:

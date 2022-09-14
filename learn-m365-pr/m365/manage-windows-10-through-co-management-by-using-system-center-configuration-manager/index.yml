@@ -17,7 +17,7 @@ abstract: |
   - Explain how to implement conditional access.
   - Describe the remote actions available for co-managed devices.
 prerequisites: None
-iconUrl: /learn/achievements/manage-windows-10-through-co-management-by-using-system-center-configuration-manager.svg
+iconUrl: /training/achievements/manage-windows-10-through-co-management-by-using-system-center-configuration-manager.svg
 levels:
 - beginner
 roles:

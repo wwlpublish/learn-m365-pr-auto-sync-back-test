@@ -17,7 +17,7 @@ abstract: |
   - Describe how to configure communication compliance policies.
   - Demonstrate how to create eDiscovery cases, search for content, and export search results.
 prerequisites: None 
-iconUrl: /learn/achievements/configure-enterprise-grade-compliance-in-microsoft-teams.svg
+iconUrl: /training/achievements/configure-enterprise-grade-compliance-in-microsoft-teams.svg
 levels:
 - intermediate
 roles:

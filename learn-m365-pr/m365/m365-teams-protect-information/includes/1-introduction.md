@@ -2,7 +2,7 @@ Microsoft Teams allows users to share information and communicate effectively, w
 
 Imagine you're a Microsoft Teams security admin and your company needs to protect users and their data that's in Teams. You've been asked to create a data protection policy, record access in Teams, and allow guests to securely be added to team channels.
 
-Before starting this module, you should understand how to defend against threats in Microsoft Teams. We recommend you first complete the [Defend against threats in Teams](/learn/modules/m365-teams-defend-against-threats/) Learn module.
+Before starting this module, you should understand how to defend against threats in Microsoft Teams. We recommend you first complete the [Defend against threats in Teams](/training/modules/m365-teams-defend-against-threats/) Learn module.
 
 ## Learning objectives
 

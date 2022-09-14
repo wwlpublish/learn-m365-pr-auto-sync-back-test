@@ -21,7 +21,7 @@ prerequisites: |
   - Familiarity with Azure Virtual Desktop.
   - Knowledge of security concepts at a fundamental level.
   - The Remote Desktop app for Windows. If you're using an operating system other than Windows, download the appropriate Remote Desktop client by using the links in the [Remote Desktop clients](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients) article.
-iconUrl: /learn/achievements/wvd-security.svg
+iconUrl: /training/achievements/wvd-security.svg
 ratingEnabled: true
 levels:
 - beginner

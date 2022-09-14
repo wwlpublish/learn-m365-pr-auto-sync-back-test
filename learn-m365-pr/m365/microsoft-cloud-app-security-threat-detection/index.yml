@@ -20,7 +20,7 @@ prerequisites: |
     - Basic security knowledge
     - Basic Azure knowledge 
 
-iconUrl: /learn/achievements/implement-threat-detection-using-microsoft-cloud-app-security.svg
+iconUrl: /training/achievements/implement-threat-detection-using-microsoft-cloud-app-security.svg
 levels:
 - beginner
 roles:

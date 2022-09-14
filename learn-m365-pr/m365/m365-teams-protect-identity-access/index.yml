@@ -17,7 +17,7 @@ abstract: |
   - Explain how to manage Microsoft Teams endpoints.
 prerequisites: | 
   - Complete the **Get started securing Microsoft Teams** module.
-iconUrl: /learn/achievements/protect-identity-and-access-in-teams.svg
+iconUrl: /training/achievements/protect-identity-and-access-in-teams.svg
 levels:
 - intermediate
 roles:

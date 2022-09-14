@@ -24,7 +24,7 @@ prerequisites: |
     - Microsoft compute, storage, networking, and virtualization technologies.
   - Beginner-level experience with Application deployment and Azure Virtual Desktop.
   - Windows 10 Enterprise and Windows 10 Enterprise multi-session, version 2004 or later.
-iconUrl: /learn/achievements/wvd-msix-app-attach.svg
+iconUrl: /training/achievements/wvd-msix-app-attach.svg
 ratingEnabled: true
 levels:
 - intermediate

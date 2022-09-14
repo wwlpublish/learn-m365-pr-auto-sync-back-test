@@ -20,7 +20,7 @@ abstract: |
   - Plan for lifecycle management.
   - Describe the Teams networking requirements.
 prerequisites: None
-iconUrl: /learn/achievements/prepare-for-a-microsoft-teams-deployment.svg
+iconUrl: /training/achievements/prepare-for-a-microsoft-teams-deployment.svg
 levels:
 - beginner
 roles:

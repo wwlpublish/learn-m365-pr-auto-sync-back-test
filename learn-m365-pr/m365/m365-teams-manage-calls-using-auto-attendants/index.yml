@@ -21,7 +21,7 @@ abstract: |
 prerequisites: | 
   - Familiarity with administrating Microsoft Teams
   - Awareness of Microsoft 365 Phone System
-iconUrl: /learn/achievements/manage-calls-in-microsoft-teams-by-using-auto-attendants-and-call-queues.svg
+iconUrl: /training/achievements/manage-calls-in-microsoft-teams-by-using-auto-attendants-and-call-queues.svg
 levels:
 - intermediate
 roles:

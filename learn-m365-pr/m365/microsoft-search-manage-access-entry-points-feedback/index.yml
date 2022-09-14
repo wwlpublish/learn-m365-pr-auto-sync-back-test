@@ -18,7 +18,7 @@ abstract: |
 prerequisites: | 
   - Basic understanding of Microsoft Search
   - Access to the Microsoft 365 admin center
-iconUrl: /learn/achievements/microsoft-search-manage-access-entry-points-feedback.svg 
+iconUrl: /training/achievements/microsoft-search-manage-access-entry-points-feedback.svg 
 levels:
 - beginner
 roles:
