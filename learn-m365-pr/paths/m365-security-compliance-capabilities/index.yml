@@ -10,10 +10,10 @@ metadata:
   ms.prod: learning-m365
 title: 'MS-900 Microsoft 365 Fundamentals: Demonstrate fundamental knowledge of Microsoft 365 security and compliance capabilities'
 prerequisites: |
-  - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a-Service (Saas). If you're unfamiliar with basic cloud computing concepts, we recommend you take [Discuss Azure fundamental concepts](/learn/modules/fundamental-azure-concepts/)
+  - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a-Service (Saas). If you're unfamiliar with basic cloud computing concepts, we recommend you take [Discuss Azure fundamental concepts](/training/modules/fundamental-azure-concepts/)
 summary: |
   Learn about how the security, compliance, and identity solutions through Microsoft help people and organizations secure their entire digital estate, simplify compliance and reduce risk.
-iconUrl: /learn/achievements/microsoft-365-security-and-compliance-capabilities.svg
+iconUrl: /training/achievements/microsoft-365-security-and-compliance-capabilities.svg
 levels:
 - beginner
 roles:

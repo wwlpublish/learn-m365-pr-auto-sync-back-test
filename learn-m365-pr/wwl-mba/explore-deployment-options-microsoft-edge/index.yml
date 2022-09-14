@@ -15,7 +15,7 @@ abstract: |
   * Provision all your managed devices – including your phones and Macs – with Edge
 prerequisites: |
   * Experience deploying and configuring application packages using software distribution tools such as Microsoft Intune or Configuration Manager
-iconUrl: /learn/achievements/explore-your-deployment-options-for-microsoft-edge.svg
+iconUrl: /training/achievements/explore-your-deployment-options-for-microsoft-edge.svg
 levels:
 - intermediate
 roles:

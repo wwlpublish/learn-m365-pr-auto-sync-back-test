@@ -9,12 +9,12 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Implement Microsoft identity – Associate
-summary: "The Microsoft identity platform is an evolution of the Azure Active Directory (Azure AD) developer platform. It allows developers to build applications that sign in users, and access resources in both external applications such as Microsoft Office 365, the Azure portal, and thousands of other SaaS applications and internal resources, such as apps on your corporate network and intranet, along with any cloud apps developed by your own organization. Learn how to utilize Microsoft identity in your custom applications. This learning path can help you prepare for the [Microsoft 365 Certified: Developer Associate](/learn/certifications/m365-developer-associate) certification."
+summary: "The Microsoft identity platform is an evolution of the Azure Active Directory (Azure AD) developer platform. It allows developers to build applications that sign in users, and access resources in both external applications such as Microsoft Office 365, the Azure portal, and thousands of other SaaS applications and internal resources, such as apps on your corporate network and intranet, along with any cloud apps developed by your own organization. Learn how to utilize Microsoft identity in your custom applications. This learning path can help you prepare for the [Microsoft 365 Certified: Developer Associate](/certifications/m365-developer-associate) certification."
 prerequisites: |
   - Basic knowledge of OAuth authentication flows and terminologies
   - Experience using Visual Studio Code at the beginner level
   - Access to a Microsoft 365 tenant
-iconUrl: /learn/achievements/identity-associate.svg
+iconUrl: /training/achievements/identity-associate.svg
 levels:
 - intermediate
 roles:

@@ -17,7 +17,7 @@ prerequisites: |
   - Ability to write PowerShell commands at an intermediate level
 summary: |
   Examines how messaging administrators manage role-based permissions, and how they must plan and configure permissions carefully so as not to put their messaging environment or their entire Active Directory at risk.
-iconUrl: /learn/achievements/m365-role-based-permission.svg
+iconUrl: /training/achievements/m365-role-based-permission.svg
 levels:
 - intermediate
 roles:

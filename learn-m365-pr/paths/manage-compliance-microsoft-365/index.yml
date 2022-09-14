@@ -17,7 +17,7 @@ prerequisites: |
   - Ability to write PowerShell commands at an intermediate level
 summary: |
   Examines the compliance features in Microsoft 365, Exchange Server, and Exchange Online, along with the eDiscovery features in Exchange that help organizations perform discovery searches for relevant content within mailboxes.
-iconUrl: /learn/achievements/m365-manage-compliance.svg
+iconUrl: /training/achievements/m365-manage-compliance.svg
 levels:
 - intermediate
 roles:

@@ -15,7 +15,7 @@ prerequisites: |
   - Students must have a proficient understanding of general IT practices.
 summary: |
   This learning path examines how to plan for and implement identity synchronization in a hybrid Microsoft 365 deployment, including how to implement Azure AD Connect, how to manage synchronized identities, and how to manage passwords.
-iconUrl: /learn/achievements/azure-ad-implement-identity-synchronization.svg
+iconUrl: /training/achievements/azure-ad-implement-identity-synchronization.svg
 levels:
 - intermediate
 roles:

@@ -12,7 +12,7 @@ title: Design and configure Microsoft Teams Rooms
 summary: "**Design and configure Microsoft Teams Rooms** introduces you to the features and capabilities of Microsoft Teams Rooms. You’ll learn how you can use Teams Rooms to enhance your in-room meeting experiences by understanding its core components and how they fit into meeting room spaces of all sizes.  You’ll learn how to create the accounts required for Teams Rooms and understand how to properly configure the Teams Rooms app. You’ll also look at maintenance and monitoring of Teams Rooms including using Microsoft Teams admin center and other tools like Microsoft Endpoint Manager. You’ll gain an understanding of how Teams Rooms provides a comprehensive and flexible environment for collaboration across various meeting spaces."
 prerequisites: | 
  - Familiarity with Microsoft Teams
-iconUrl: /learn/achievements/design-and-configure-microsoft-teams-rooms.svg
+iconUrl: /training/achievements/design-and-configure-microsoft-teams-rooms.svg
 levels: 
 - intermediate
 roles:

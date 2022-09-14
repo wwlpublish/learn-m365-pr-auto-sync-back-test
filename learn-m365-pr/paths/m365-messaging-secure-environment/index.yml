@@ -9,11 +9,11 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Secure the Microsoft 365 Messaging environment 
-summary: "The **Secure the Microsoft 365 Messaging environment** learning path helps you use role-based permissions, compliance issues, and Microsoft's Advanced Threat Protection to protect your Microsoft Exchange Online environment. This learning path can help you prepare for the [Microsoft 365 Certified: Messaging Administration Associate](/learn/certifications/m365-messaging-administrator) certification."
+summary: "The **Secure the Microsoft 365 Messaging environment** learning path helps you use role-based permissions, compliance issues, and Microsoft's Advanced Threat Protection to protect your Microsoft Exchange Online environment. This learning path can help you prepare for the [Microsoft 365 Certified: Messaging Administration Associate](/certifications/m365-messaging-administrator) certification."
 prerequisites: | 
  - Basic understanding of Microsoft 365
  - Working knowledge of Exchange Online authentication types, licensing, and integration with Microsoft 365 applications
-iconUrl: /learn/achievements/secure-microsoft-365-messaging-environment.svg
+iconUrl: /training/achievements/secure-microsoft-365-messaging-environment.svg
 levels:
 - intermediate
 roles:

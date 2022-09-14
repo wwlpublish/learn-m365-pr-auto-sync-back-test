@@ -13,7 +13,7 @@ summary: Learn how Microsoft Defender for Cloud Apps can help you proactively id
 prerequisites: | 
   - An understanding of basic security concepts
   - Familiarity with the Microsoft Azure and the Azure portal
-iconUrl: /learn/achievements/secure-cloud-apps-using-microsoft-cloud-app-security.svg
+iconUrl: /training/achievements/secure-cloud-apps-using-microsoft-cloud-app-security.svg
 levels: 
 - beginner
 roles:

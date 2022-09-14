@@ -15,7 +15,7 @@ prerequisites: |
   - Students must have a proficient understanding of general IT practices.
 summary: |
   This learning path provides instruction on managing content search and investigations in Microsoft 365, including how to search for content in the Microsoft Purview compliance portal, Microsoft Purview Audit, and Microsoft Purview eDiscovery.
-iconUrl: /learn/achievements/m365-content-search.svg
+iconUrl: /training/achievements/m365-content-search.svg
 levels:
 - intermediate
 roles:

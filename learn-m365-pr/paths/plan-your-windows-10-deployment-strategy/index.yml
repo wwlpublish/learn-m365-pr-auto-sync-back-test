@@ -15,7 +15,7 @@ prerequisites: |
   - Students must have a proficient understanding of general IT practices.
 summary: |
   This learning path examines the Microsoft 365 features an organization must plan for to implement its Windows devices deployment strategy, including Windows Autopilot, its Windows device subscription activation strategy, and Desktop Analytics.
-iconUrl: /learn/achievements/windows-deployment.svg
+iconUrl: /training/achievements/windows-deployment.svg
 levels:
 - intermediate
 roles:
