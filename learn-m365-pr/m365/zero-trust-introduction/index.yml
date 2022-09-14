@@ -18,7 +18,7 @@ abstract: |
     - Define Zero Trust components.
 prerequisites: |
   - None
-iconUrl: /training/achievements/generic-badge.svg
+iconUrl: /training/achievements/introduction-to-zero-trust.svg
 levels:
   - beginner
 roles:
