@@ -20,8 +20,8 @@ abstract: |
   - Explain how to disable hybrid to complete migration to the cloud.
   - Describe cloud consolidation for Teams and Skype for Business
 prerequisites: | 
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/learn/paths/m365-fundamentals/)
-iconUrl: /learn/achievements/m365-teams-upgrade-hybrid.svg
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/training/paths/m365-fundamentals/)
+iconUrl: /training/achievements/m365-teams-upgrade-hybrid.svg
 ratingEnabled: true
 levels:
 - intermediate

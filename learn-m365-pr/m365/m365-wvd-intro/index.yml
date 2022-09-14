@@ -17,7 +17,7 @@ abstract: |
 prerequisites: |
   - Familiarity with server and client management concepts and tools
   - Familiarity with Windows virtualization technologies, like Remote Desktop Services
-iconUrl: /learn/achievements/get-modern-os-deployment-and-feature-updates.svg
+iconUrl: /training/achievements/get-modern-os-deployment-and-feature-updates.svg
 ratingEnabled: true
 levels:
 - intermediate

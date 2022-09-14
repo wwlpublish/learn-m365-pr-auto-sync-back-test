@@ -41,6 +41,6 @@ Finally, when rolling out Teams Rooms, there are several roles that will be need
 ## Learn more
 
 - [Microsoft 365 and Office 365 URLs and IP address ranges](/microsoftteams/office-365-urls-ip-address-ranges?azure-portal=true)
-- [Microsoft Teams devices](/learn/modules/configure-deploy-manage-teams-devices/)
+- [Microsoft Teams devices](/training/modules/configure-deploy-manage-teams-devices/)
 - [Microsoft Teams licensing](/microsoftteams/rooms/rooms-licensing?azure-portal=true)
 - [Teams Rooms Premium](https://rooms.microsoft.com?azure-portal=true)

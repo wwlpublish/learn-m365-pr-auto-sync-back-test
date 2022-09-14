@@ -17,7 +17,7 @@ abstract: |
   - Describe how to maintain capacity in Teams by monitoring user demand and behavior.
 prerequisites: | 
   - Knowledge equivalent to previous modules in the **Security, privacy, and compliance in Microsoft Teams** learning path.
-iconUrl: /learn/achievements/monitor-troubleshoot-and-investigate-teams-usage.svg
+iconUrl: /training/achievements/monitor-troubleshoot-and-investigate-teams-usage.svg
 levels:
 - intermediate
 roles:

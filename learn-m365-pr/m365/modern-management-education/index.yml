@@ -19,7 +19,7 @@ abstract: |
 
 prerequisites: | 
    - Familiarity with Windows 10 and Microsoft 365 Apps
-iconUrl:  /learn/achievements/education-modern-management.svg
+iconUrl:  /training/achievements/education-modern-management.svg
 ratingEnabled: true
 levels:
 - beginner

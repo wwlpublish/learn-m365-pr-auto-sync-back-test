@@ -80,7 +80,7 @@ Setting up Topics does not modify any existing access controls on content in you
 
 You can manage the set of users who can see topic highlights, topic cards, and the topic center in the Microsoft 365 admin center. You must be a global administrator, SharePoint administrator, or Knowledge administrator to perform these tasks.
 
-Learn more about [Knowledge management of Viva Topics](/learn/modules/m365-viva-topics-knowledge/).
+Learn more about [Knowledge management of Viva Topics](/training/modules/m365-viva-topics-knowledge/).
 
 ### Manage topic permissions
 

@@ -19,7 +19,7 @@ abstract: |
   - Manage dynamic membership. 
   - Manage messaging policies.
 prerequisites: None
-iconUrl: /learn/achievements/manage-microsoft-teams.svg
+iconUrl: /training/achievements/manage-microsoft-teams.svg
 levels:
 - beginner
 roles:

@@ -18,7 +18,7 @@ abstract: |
 prerequisites: | 
   - Knowledge of security fundamentals
   - Knowledge of Microsoft Azure and Microsoft 365 fundamentals
-iconUrl: /learn/achievements/implement-app-security-best-practices-with-cloud-access-security-brokers.svg
+iconUrl: /training/achievements/implement-app-security-best-practices-with-cloud-access-security-brokers.svg
 levels:
 - beginner
 roles:
