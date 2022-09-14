@@ -2,5 +2,5 @@ Microsoft Edge is the browser included in Windows clients, and replaces Internet
 
 ### Learn more
 
- -  [Explore your deployment options for Microsoft Edge - Learn](/learn/modules/explore-deployment-options-microsoft-edge/)
- -  [Enrich the learning experience in Edge browser - Learn](/learn/modules/enrich-learning-experience-edge-browser/)
+ -  [Explore your deployment options for Microsoft Edge - Learn](/training/modules/explore-deployment-options-microsoft-edge/)
+ -  [Enrich the learning experience in Edge browser - Learn](/training/modules/enrich-learning-experience-edge-browser/)

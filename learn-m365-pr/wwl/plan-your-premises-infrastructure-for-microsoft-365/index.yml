@@ -18,7 +18,7 @@ abstract: |
   *   Identify the deployment strategies your company can use when implementing Microsoft 365 services.
   *   Prepare your Active Directory forest for directory synchronization.
 prerequisites: ""
-iconUrl: /learn/achievements/plan-your-on-premises-infrastructure-for-microsoft-365.svg
+iconUrl: /training/achievements/plan-your-on-premises-infrastructure-for-microsoft-365.svg
 levels:
 - intermediate
 roles:

@@ -20,7 +20,7 @@ abstract: |
 prerequisites: |
   - Experience with PowerShell and the Exchange PowerShell module.
   - Significant experience deploying, managing, and troubleshooting Exchange environments.
-iconUrl: /learn/achievements/troubleshoot-compliance-retention-issues.svg
+iconUrl: /training/achievements/troubleshoot-compliance-retention-issues.svg
 levels:
 - advanced
 roles:

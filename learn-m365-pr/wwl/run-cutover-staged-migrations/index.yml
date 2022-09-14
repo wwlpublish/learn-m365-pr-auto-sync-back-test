@@ -16,7 +16,7 @@ abstract: |
   *   Identify the steps involved in running both cutover and staged migrations.
   *   Create and manage migration batches in the Exchange Admin Center.
 prerequisites: ""
-iconUrl: /learn/achievements/3-run-cutover-and-staged-migrations.svg
+iconUrl: /training/achievements/3-run-cutover-and-staged-migrations.svg
 levels:
 - intermediate
 roles:

@@ -20,7 +20,7 @@ abstract: |
   *   Troubleshoot directory synchronization using various troubleshooting tasks and tools
 prerequisites: |
   None
-iconUrl: /learn/achievements/azure-ad-synchronized-identities.svg
+iconUrl: /training/achievements/azure-ad-synchronized-identities.svg
 levels:
 - intermediate
 roles:
