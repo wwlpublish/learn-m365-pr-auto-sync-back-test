@@ -17,7 +17,7 @@ abstract: |
   - Describe the Edge Subscription process using EdgeSync.
   - Plan for message flow with an Edge Transport server.
 prerequisites: ""
-iconUrl: /learn/achievements/3-deploy-and-manage-an-edge-transport-server.svg
+iconUrl: /training/achievements/3-deploy-and-manage-an-edge-transport-server.svg
 levels:
 - intermediate
 roles:

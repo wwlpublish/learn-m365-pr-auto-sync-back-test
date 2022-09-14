@@ -19,7 +19,7 @@ abstract: |
   - Add apps to use in Microsoft Teams
   - Use the Tasks app in Microsoft Teams
 prerequisites: ""
-iconUrl: /learn/achievements/create-a-collaborative-environment-with-microsoft-teams.svg
+iconUrl: /training/achievements/create-a-collaborative-environment-with-microsoft-teams.svg
 levels:
 - beginner
 roles:
