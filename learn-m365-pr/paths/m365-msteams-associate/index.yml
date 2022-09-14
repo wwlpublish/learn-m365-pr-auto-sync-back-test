@@ -9,9 +9,9 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Develop apps for Microsoft Teams – Associate
-summary: "Microsoft Teams is an extensible platform you can create custom apps on; putting your app at the heart of your organizations collaboration platform. Apps for Microsoft Teams can be as simple or as complex as you need, from sending notifications to channels or users to complex multi-surface apps incorporating conversational bots, natural language processing, and embedded web experiences. You can build apps for an individual, your team, your organization, or for all Microsoft Teams users everywhere. Learn how to customize and extend Microsoft Teams. This learning path can help you prepare for the [Microsoft 365 Certified: Developer Associate](/learn/certifications/m365-developer-associate) certification."
+summary: "Microsoft Teams is an extensible platform you can create custom apps on; putting your app at the heart of your organizations collaboration platform. Apps for Microsoft Teams can be as simple or as complex as you need, from sending notifications to channels or users to complex multi-surface apps incorporating conversational bots, natural language processing, and embedded web experiences. You can build apps for an individual, your team, your organization, or for all Microsoft Teams users everywhere. Learn how to customize and extend Microsoft Teams. This learning path can help you prepare for the [Microsoft 365 Certified: Developer Associate](/certifications/m365-developer-associate) certification."
 prerequisites: None
-iconUrl: /learn/achievements/msteams-associate.svg
+iconUrl: /training/achievements/msteams-associate.svg
 levels:
   - intermediate
 roles:

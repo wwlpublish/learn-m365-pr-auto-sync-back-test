@@ -15,7 +15,7 @@ prerequisites: |
   - Students must have a proficient understanding of general IT practices.
 summary: |
   This learning path examines how to prepare for device management in Microsoft 365, including planning your co-management strategy for Windows devices, transitioning from Configuration Manager to Intune, and planning for Mobile Application Management.
-iconUrl: /learn/achievements/device-management.svg
+iconUrl: /training/achievements/device-management.svg
 levels:
 - intermediate
 roles:

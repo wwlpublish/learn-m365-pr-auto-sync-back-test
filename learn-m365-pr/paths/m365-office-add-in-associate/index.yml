@@ -9,9 +9,9 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Extend Office clients with Office add-ins – Associate
-summary: "The Office add-ins platform enables you to extend the functionality of Office applications including Excel, Outlook, and Word. In this learning path, you'll explore various ways you can use add-ins to extend and interact with Office applications. This learning path can help you prepare for the [Microsoft 365 Certified: Developer Associate](/learn/certifications/m365-developer-associate) certification."
+summary: "The Office add-ins platform enables you to extend the functionality of Office applications including Excel, Outlook, and Word. In this learning path, you'll explore various ways you can use add-ins to extend and interact with Office applications. This learning path can help you prepare for the [Microsoft 365 Certified: Developer Associate](/certifications/m365-developer-associate) certification."
 prerequisites: None
-iconUrl: /learn/achievements/m365-office-add-in-associate.svg
+iconUrl: /training/achievements/m365-office-add-in-associate.svg
 levels:
 - intermediate
 roles:

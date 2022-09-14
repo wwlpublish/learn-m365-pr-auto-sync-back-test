@@ -17,7 +17,7 @@ prerequisites: |
   - Ability to write PowerShell commands at an intermediate level
 summary: |
   Examines how to manage your messaging environment in Microsoft 365, including authentication for messaging, configuring organizational settings, and configuring organizational settings.
-iconUrl: /learn/achievements/m365-messaging-environment.svg
+iconUrl: /training/achievements/m365-messaging-environment.svg
 levels:
 - intermediate
 roles:

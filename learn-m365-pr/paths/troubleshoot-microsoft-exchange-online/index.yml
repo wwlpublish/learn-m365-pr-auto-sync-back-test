@@ -14,7 +14,7 @@ prerequisites: |
   - Significant experience deploying, managing, and troubleshooting Exchange environments.
 summary: |
   Learn how to solve a broad range of problems that can arise in organizations using Exchange. In this learning path, you’ll troubleshoot many aspects of Exchange, including mail flow, compliance, recipient problems, and cloud/on-premises hybrid configurations.
-iconUrl: /learn/achievements/exchange-online-troubleshooting.svg
+iconUrl: /training/achievements/exchange-online-troubleshooting.svg
 levels:
 - advanced
 roles:

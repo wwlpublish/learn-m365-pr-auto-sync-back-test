@@ -17,7 +17,7 @@ prerequisites: |
   *   Ability to write PowerShell commands at an intermediate level
 summary: |
   Examines how to plan, implement, and troubleshoot a hybrid Exchange deployment, including implementing the Hybrid Configuration Wizard and advanced hybrid functionality, such as public folder coexistence, pass-through authentication, and mailbox replication
-iconUrl: /learn/achievements/manage-the-hybrid-deployment-life-cycle.svg
+iconUrl: /training/achievements/manage-the-hybrid-deployment-life-cycle.svg
 levels:
 - intermediate
 roles:

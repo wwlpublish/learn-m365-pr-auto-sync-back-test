@@ -17,7 +17,7 @@ prerequisites: |
   - Ability to write PowerShell commands at an intermediate level
 summary: |
   Examines how to plan for mailbox migrations to Exchange Online, and how to implement IMAP migrations, cutover migrations, staged migrations, and advanced migrations.
-iconUrl: /learn/achievements/manage-mailbox-migrations.svg
+iconUrl: /training/achievements/manage-mailbox-migrations.svg
 levels:
 - intermediate
 roles:
