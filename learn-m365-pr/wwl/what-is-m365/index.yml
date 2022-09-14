@@ -18,7 +18,7 @@ abstract: |
   *   Create a Microsoft 365 trial organization
 prerequisites: |
   - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a -Service (Saas).
-iconUrl: /learn/achievements/what-is-m365.svg
+iconUrl: /training/achievements/what-is-m365.svg
 levels:
 - beginner
 roles:
