@@ -22,7 +22,7 @@ prerequisites: |
   - Ability to develop with NET Core at the intermediate level
   - Experience using Visual Studio Code at the beginner level
   - Access to a Microsoft 365 tenant
-iconUrl: /learn/achievements/msgraph-access-file-data.svg
+iconUrl: /training/achievements/msgraph-access-file-data.svg
 levels:
 - intermediate
 roles:

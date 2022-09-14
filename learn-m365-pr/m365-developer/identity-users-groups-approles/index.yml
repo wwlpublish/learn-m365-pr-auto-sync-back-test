@@ -20,7 +20,7 @@ prerequisites: |
   - Ability to develop with ASP.NET Core at the intermediate level
   - Experience using Visual Studio Code at the beginner level
   - Access to a Microsoft 365 tenant
-iconUrl: /learn/achievements/identity-users-groups-approles.svg
+iconUrl: /training/achievements/identity-users-groups-approles.svg
 levels:
   - intermediate
 roles:
