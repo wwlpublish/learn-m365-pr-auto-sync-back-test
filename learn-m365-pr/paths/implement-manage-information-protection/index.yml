@@ -13,7 +13,7 @@ prerequisites: |
   None.
 summary: |
   Learn how to plan, implement, and manage information protection technologies in Microsoft 365. This learning path prepares you for the third set of skills evaluated on the MS-500 Microsoft 365 Security Administrator certification exam.
-iconUrl: /learn/achievements/protection-information.svg
+iconUrl: /training/achievements/protection-information.svg
 levels:
 - intermediate
 roles:

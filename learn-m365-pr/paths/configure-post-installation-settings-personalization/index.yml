@@ -15,7 +15,7 @@ prerequisites: |
   - Students should have experience with using Windows 10 or later.
 summary: |
   Students will learn how to customize the user interface and use the control panel and settings app to configure common OS settings. This path will also introduce students to Windows PowerShell and device drivers.
-iconUrl: /learn/achievements/personalization-post-installation.svg
+iconUrl: /training/achievements/personalization-post-installation.svg
 levels:
 - beginner
 roles:

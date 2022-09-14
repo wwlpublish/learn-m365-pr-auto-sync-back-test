@@ -10,10 +10,10 @@ metadata:
   ms.prod: learning-m365
 title: 'MS-900 Microsoft 365 Fundamentals: Describe Microsoft 365 core services and concepts'
 prerequisites: |
-  Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a-Service (Saas). If you're unfamiliar with basic cloud computing concepts, we recommend you take [Discuss Azure fundamental concepts](/learn/modules/fundamental-azure-concepts/).
+  Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a-Service (Saas). If you're unfamiliar with basic cloud computing concepts, we recommend you take [Discuss Azure fundamental concepts](/training/modules/fundamental-azure-concepts/).
 summary: |
   Learn about how the productivity, collaboration, and business management solutions through Microsoft 365 empower people and organizations to achieve more.
-iconUrl: /learn/achievements/describe-microsoft-365-core-services-concepts.svg
+iconUrl: /training/achievements/describe-microsoft-365-core-services-concepts.svg
 levels:
 - beginner
 roles:

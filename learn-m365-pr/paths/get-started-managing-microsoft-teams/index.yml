@@ -14,7 +14,7 @@ prerequisites: |
   - A proficient understanding of general IT practices, including using PowerShell.
 summary: |
   Learn the fundamentals of managing Microsoft Teams, including Teams capabilities, Teams admin roles and management tools, lifecycle management, features for governance, and available reports to monitor your Teams environment.
-iconUrl: /learn/achievements/teams-get-started-management.svg
+iconUrl: /training/achievements/teams-get-started-management.svg
 levels:
 - intermediate
 roles:

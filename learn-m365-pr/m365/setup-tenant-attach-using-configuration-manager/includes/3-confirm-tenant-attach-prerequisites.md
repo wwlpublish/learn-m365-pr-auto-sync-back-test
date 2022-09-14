@@ -15,7 +15,7 @@ There are five main prerequisites to enable tenant attach:
 Microsoft Intune provides mobile device management (MDM) and mobile app management (MAM) from a secure cloud-based service that is administered using the Microsoft Endpoint Manager admin center. If you don't already have Intune set up, see [Try Microsoft Intune for free](/mem/intune/fundamentals/free-trial-sign-up) to quickly create an Intune tenant. When you complete the sign up process, you'll have a new tenant.
 
 > [!TIP]
-> For complete details about setting up Microsoft Intune, such as reviewing supported configurations, adding users, and assigning licenses, see [Set up Microsoft Intune](/learn/modules/set-up-microsoft-intune).
+> For complete details about setting up Microsoft Intune, such as reviewing supported configurations, adding users, and assigning licenses, see [Set up Microsoft Intune](/training/modules/set-up-microsoft-intune).
 
 ### Verify the global administrator account
 

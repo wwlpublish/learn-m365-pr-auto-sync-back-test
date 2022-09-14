@@ -15,7 +15,7 @@ prerequisites: |
   - Students must have a proficient understanding of general IT practices.
 summary: |
   This learning path provides instruction on how to configure your Microsoft 365 tenant, including your organizational profile, tenant subscriptions, user accounts and licenses, groups, custom domains, and client connectivity.
-iconUrl: /learn/achievements/configure-your-microsoft-365-tenant.svg
+iconUrl: /training/achievements/configure-your-microsoft-365-tenant.svg
 levels:
 - intermediate
 roles:
