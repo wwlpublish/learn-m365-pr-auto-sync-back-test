@@ -21,7 +21,7 @@ abstract: |
  - Describe how datacenter business continuity, disaster recovery, and resilience strategies protect the availability of Microsoft datacenters.
 
 prerequisites: None
-iconUrl: /learn/achievements/understand-microsoft-datacenter-security.svg
+iconUrl: /training/achievements/understand-microsoft-datacenter-security.svg
 ratingEnabled: false
 levels:
 - beginner

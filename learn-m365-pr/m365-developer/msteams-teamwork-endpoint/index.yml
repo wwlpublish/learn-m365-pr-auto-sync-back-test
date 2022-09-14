@@ -22,7 +22,7 @@ prerequisites: |
   - Experience using Visual Studio Code at the intermediate level
   - Intermediate knowledge of Microsoft Graph
   - Access to a Microsoft 365 tenant
-iconUrl: /learn/achievements/msteams-teamwork-endpoint.svg
+iconUrl: /training/achievements/msteams-teamwork-endpoint.svg
 levels:
   - intermediate
 roles:

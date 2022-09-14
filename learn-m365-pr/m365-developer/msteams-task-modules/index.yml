@@ -20,7 +20,7 @@ prerequisites: |
   - Ability to program with JavaScript, TypeScript, and Node.js
   - Experience using Visual Studio Code at the intermediate level
   - Access to a Microsoft 365 tenant
-iconUrl: /learn/achievements/msteams-task-modules.svg
+iconUrl: /training/achievements/msteams-task-modules.svg
 levels:
   - intermediate
 roles:

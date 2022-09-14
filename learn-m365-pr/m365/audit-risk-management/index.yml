@@ -19,7 +19,7 @@ abstract: |
  - Explain how Microsoft 365 Trust coordinates with service teams to mitigate, monitor, and report on ongoing risks in Microsoft 365 environments.
 
 prerequisites: None
-iconUrl: /learn/achievements/understand-microsoft-365-risk-management.svg
+iconUrl: /training/achievements/understand-microsoft-365-risk-management.svg
 ratingEnabled: false
 levels:
 - beginner

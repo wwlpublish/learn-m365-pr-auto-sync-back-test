@@ -21,7 +21,7 @@ prerequisites: |
   - Experience working with Azure 
   - Knowledge of security concepts, risks, and mitigations
   - Microsoft Defender for Cloud Apps fundamentals or equivalent
-iconUrl: /learn/achievements/cloud-app-security-detect-threats.svg
+iconUrl: /training/achievements/cloud-app-security-detect-threats.svg
 levels:
 - intermediate
 roles:

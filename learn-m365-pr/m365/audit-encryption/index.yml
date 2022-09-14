@@ -18,7 +18,7 @@ abstract: |
  - Understand the differences between Microsoft managed keys and customer managed keys for use with service encryption.
 
 prerequisites: None
-iconUrl: /learn/achievements/understand-microsoft-365-encryption.svg
+iconUrl: /training/achievements/understand-microsoft-365-encryption.svg
 ratingEnabled: false
 levels:
 - beginner

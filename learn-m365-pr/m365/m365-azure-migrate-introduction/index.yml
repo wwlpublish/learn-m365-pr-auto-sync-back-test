@@ -16,8 +16,8 @@ abstract: |
   - List the steps of the migration process. 
   
 prerequisites: | 
- - Basic understanding of Microsoft Azure. If you're unfamiliar with this, we recommend you take [Microsoft Azure Fundamentals](/learn/paths/azure-fundamentals/).
-iconUrl: /learn/achievements/introduction-azure-migrate-server-migration.svg
+ - Basic understanding of Microsoft Azure. If you're unfamiliar with this, we recommend you take [Microsoft Azure Fundamentals](/training/paths/azure-fundamentals/).
+iconUrl: /training/achievements/introduction-azure-migrate-server-migration.svg
 ratingEnabled: true
 levels:
 - intermediate

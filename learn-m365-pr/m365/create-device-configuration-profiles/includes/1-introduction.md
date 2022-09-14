@@ -16,8 +16,8 @@ In this module, you will:
 ## Prerequisites
 
 Before starting this module, you should complete the following module:
- - Set up and understand how to use Intune, see [Set up Microsoft Intune](/learn/modules/set-up-microsoft-intune?azure-portal=true).
+ - Set up and understand how to use Intune, see [Set up Microsoft Intune](/training/modules/set-up-microsoft-intune?azure-portal=true).
 
 In addition, consider completing the following modules before starting this module:
-  - Basic knowledge of Microsoft Endpoint Manager and endpoint management concepts, see [Microsoft Endpoint Manager fundamentals](/learn/paths/endpoint-manager-fundamentals?azure-portal=true).
-  - Understand your endpoint management objectives, inventory considerations, licensing needs, infrastructure objectives, and rollout plans, see [Determine your endpoint management implementation](/learn/modules/determine-endpoint-implementation?azure-portal=true).
+  - Basic knowledge of Microsoft Endpoint Manager and endpoint management concepts, see [Microsoft Endpoint Manager fundamentals](/training/paths/endpoint-manager-fundamentals?azure-portal=true).
+  - Understand your endpoint management objectives, inventory considerations, licensing needs, infrastructure objectives, and rollout plans, see [Determine your endpoint management implementation](/training/modules/determine-endpoint-implementation?azure-portal=true).
