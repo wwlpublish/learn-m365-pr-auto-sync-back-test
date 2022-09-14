@@ -10,9 +10,9 @@ In this module, you will learn:
 ## Prerequisites
 
 - [Microsoft 365 developer tenant](https://developer.microsoft.com/microsoft-365/dev-program)
-- Basic understanding of [authentication and authorization](/learn/modules/getting-started-identity/?WT.mc_id=m365-30352-cxa) on Microsoft 365
+- Basic understanding of [authentication and authorization](/training/modules/getting-started-identity/?WT.mc_id=m365-30352-cxa) on Microsoft 365
 - Basic understanding of HTML, C#, and [ASP.NET Core](/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0)
-- Basic understanding of [Microsoft Graph](/learn/modules/msgraph-intro-overview/?WT.mc_id=m365-30352-cxa)
+- Basic understanding of [Microsoft Graph](/training/modules/msgraph-intro-overview/?WT.mc_id=m365-30352-cxa)
 - [.NET 5.0.405 SDK installed](https://dot.net?WT.mc_id=m365-30352-cxa)
 
 ## Scenario

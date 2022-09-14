@@ -19,7 +19,7 @@ abstract: |
 prerequisites: |
   - Experience using Microsoft Teams
   - Basic understanding of web services and APIs
-iconUrl: /learn/achievements/intro-microsoft-teams-apps.svg
+iconUrl: /training/achievements/intro-microsoft-teams-apps.svg
 levels:
 - beginner
 - intermediate
