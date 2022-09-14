@@ -192,7 +192,7 @@ After answering the generator's questions, the generator will create the scaffol
 
 ### Ensure the project is using the latest version of Teams SDK
 
-Run the npm command to install the latest version of the SDK
+Run the npm command to install the latest version of the SDK:
 
 ```console
 npm i @microsoft/teams-js

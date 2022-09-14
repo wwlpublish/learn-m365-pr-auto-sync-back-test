@@ -47,4 +47,4 @@ This image shows the DLP false positives and overrides report. One line in the c
 
 ## Learn more
 
-- [View the reports for data loss prevention | Microsoft Docs](/microsoft-365/compliance/view-the-dlp-reports)
+- [View the reports for data loss prevention](/microsoft-365/compliance/view-the-dlp-reports)

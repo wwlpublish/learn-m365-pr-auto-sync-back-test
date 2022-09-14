@@ -2,8 +2,8 @@ Sign up for the **Microsoft 365 Developer Program** to explore **Microsoft 365.*
 
 ### Join the Microsoft 365 developer program
 
-1.  Go to [Developer Program \| Microsoft 365 Dev Center](https://developer.microsoft.com/microsoft-365/dev-program?azure-portal=true) page to sign in with your Microsoft account.
-    
+1.  Go to the [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program?azure-portal=true) page to sign in with your Microsoft account.
+
      -  If you don’t have a Microsoft account go to Microsoft account \| Sign In or Create Your Account Today – Microsoft to create a free Microsoft account. **Select Create a Microsoft account** and follow the steps.
 
     > [!TIP]
@@ -11,7 +11,7 @@ Sign up for the **Microsoft 365 Developer Program** to explore **Microsoft 365.*
 
 2.  After signing in, select **Join now** and follow the steps.
 
-For more information and information, see [Welcome to the Microsoft 365 Developer Program \| Microsoft Docs.](/office/developer-program/microsoft-365-developer-program?azure-portal=true)
+For more information, see the [Microsoft 365 Developer Program](/office/developer-program/microsoft-365-developer-program?azure-portal=true)
 
 ### Set up and configure a Microsoft 365 E5 developer sandbox subscription
 
@@ -25,7 +25,7 @@ For more information and information, see [Welcome to the Microsoft 365 Develope
 5.  Use the app launcher to go to the **Microsoft 365 admin center.**
 6.  On the admin center home page, choose **Go to guided setup.** It will take you to the **Microsoft 365 E5 Developer Setup** page.
 
-For more information and information, see [Set up a Microsoft 365 developer sandbox subscription \| Microsoft Docs.](/office/developer-program/microsoft-365-developer-program-get-started?azure-portal=true)
+For more information, see [Set up a Microsoft 365 developer sandbox subscription](/office/developer-program/microsoft-365-developer-program-get-started?azure-portal=true).
 
 After you have set up and configured your Microsoft 365 developer subscription, explore the **Microsoft 365, Azure Active Directory,** and **Teams admin centers** by following the exercises below.
 

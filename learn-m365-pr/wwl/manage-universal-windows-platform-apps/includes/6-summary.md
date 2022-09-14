@@ -2,6 +2,6 @@ The Microsoft Store provides a convenient portal for browsing and installing app
 
 ### Learn more
 
- -  [Examine the Microsoft Store for Business - Learn \| Microsoft Docs](/learn/modules/introduction-to-microsoft-store-for-business/)
+ -  [Examine the Microsoft Store for Business](/learn/modules/introduction-to-microsoft-store-for-business/)
  -  [Distribute apps to your employees from the Microsoft Store for Business and Education (Windows 10)](/microsoft-store/distribute-apps-to-your-employees-microsoft-store-for-business)
  -  [Evolving the Microsoft Store for Business and Education - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/evolving-the-microsoft-store-for-business-and-education/ba-p/2569423)

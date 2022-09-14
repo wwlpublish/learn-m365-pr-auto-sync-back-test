@@ -97,7 +97,6 @@ Add the following client applications by selecting the **Add a client applicatio
 - `5e3ce6c0-2b1f-4285-8d4b-75ee78787346`
   - *Microsoft Teams web client*
 
-
 ## Review
 
 At this point, you've now registered an Azure AD application that can be used by Microsoft Teams apps to support SSO for your users.
