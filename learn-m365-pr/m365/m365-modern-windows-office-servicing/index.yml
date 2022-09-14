@@ -17,7 +17,7 @@ abstract: |
   - Describe the details of both the Windows 10 and Microsoft 365 Apps servicing channels
   - Explain phased update deployments and how they work  
 prerequisites: None
-iconUrl: /learn/achievements/get-modern-windows-and-office-servicing.svg
+iconUrl: /training/achievements/get-modern-windows-and-office-servicing.svg
 ratingEnabled: true
 levels:
 - intermediate

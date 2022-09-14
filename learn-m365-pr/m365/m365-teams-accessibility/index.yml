@@ -18,7 +18,7 @@ abstract: |
   - Implement features to enhance participation in Microsoft Teams meetings.
 prerequisites: | 
   - Familiarity with administration of Microsoft Teams
-iconUrl: /learn/achievements/accessibility-in-teams.svg
+iconUrl: /training/achievements/accessibility-in-teams.svg
 levels:
 - beginner
 roles:

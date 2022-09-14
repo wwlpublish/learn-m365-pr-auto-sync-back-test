@@ -19,7 +19,7 @@ abstract: |
   - Understand the different capabilities of Microsoft Defender for Endpoint.
 prerequisites: |
   - None
-iconUrl: /learn/achievements/m365-defender-endpoint-introduction.svg
+iconUrl: /training/achievements/m365-defender-endpoint-introduction.svg
 levels:
   - beginner
 roles:

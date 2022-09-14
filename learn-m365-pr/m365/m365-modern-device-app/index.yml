@@ -15,7 +15,7 @@ abstract: |
   - List the Microsoft readiness assessment tools and explain how to use them
   - Explain the four-step process for analyzing device and application readiness 
 prerequisites: None
-iconUrl: /learn/achievements/get-modern-device-and-app-readiness.svg
+iconUrl: /training/achievements/get-modern-device-and-app-readiness.svg
 ratingEnabled: true
 levels:
 - intermediate

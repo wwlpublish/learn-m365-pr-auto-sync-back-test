@@ -17,7 +17,7 @@ abstract: |
   - Explain how Microsoft Defender for Endpoint can remediate risks in your environment.
 prerequisites: | 
  - Intermediate understanding of Microsoft 365
-iconUrl: /learn/achievements/protect-against-threats.svg
+iconUrl: /training/achievements/protect-against-threats.svg
 ratingEnabled: true
 levels:
 - intermediate

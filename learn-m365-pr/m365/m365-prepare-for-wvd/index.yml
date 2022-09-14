@@ -17,7 +17,7 @@ prerequisites: |
   - An Azure account with an [active subscription](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)
   - Familiarity with server and client management concepts and tools
   - Familiarity with Windows virtualization technologies, like Remote Desktop Services
-iconUrl: /learn/achievements/prepare-for-windows-virtual-desktop.svg
+iconUrl: /training/achievements/prepare-for-windows-virtual-desktop.svg
 ratingEnabled: true
 levels:
 - intermediate

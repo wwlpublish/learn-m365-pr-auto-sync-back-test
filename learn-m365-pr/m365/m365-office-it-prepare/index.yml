@@ -18,7 +18,7 @@ abstract: |
 prerequisites: | 
  - Familiarity with Microsoft Office, especially servicing
  - Familiarity with Configuration Manager
-iconUrl: /learn/achievements/prepare-for-office.svg
+iconUrl: /training/achievements/prepare-for-office.svg
 ratingEnabled: true
 levels:
 - intermediate

@@ -18,7 +18,7 @@ abstract: |
   - Describe Role-based Access Control for eDiscovery.
 prerequisites: |
  - Basic understanding of Microsoft 365 and Exchange Online
-iconUrl: /learn/achievements/manage-role-based-permissions.svg
+iconUrl: /training/achievements/manage-role-based-permissions.svg
 levels:
 - intermediate
 roles:
