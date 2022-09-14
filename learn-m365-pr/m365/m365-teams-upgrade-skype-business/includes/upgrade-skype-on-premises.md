@@ -6,7 +6,7 @@ Setting up hybrid connectivity is the first step in moving your on-premises envi
 
 If you have on-premises Skype for Business users that are also using Teams (side by side), those users do not have the ability to interoperate with Skype for Business users from their Teams client, nor communicate with users in federated organizations, from their Teams client. To gain this functionality in Teams, these users must be moved from Skype for Business on-premises to the cloud, which requires configuring Skype for Business hybrid mode. In addition, for the best experience, these users should be in TeamsOnly mode, which ensures all incoming calls and chats from any user land in the user's Teams client.
 
-You can learn more about hybrid connectivity in the [Understanding hybrid connectivity](/learn/modules/m365-teams-upgrade-hybrid/index) module.
+You can learn more about hybrid connectivity in the [Understanding hybrid connectivity](/training/modules/m365-teams-upgrade-hybrid/index) module.
 
 ## Step 2: Set a transitional coexistence mode (optional)
 

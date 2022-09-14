@@ -10,8 +10,8 @@ Now that you've reviewed this module, you should be able to:
 
 Follow these links to find out more about each topic:
 
-- [Surface Management Portal - Surface | Microsoft Docs](/surface/surface-management-portal)
-- [Manage DFCI on Surface devices - Surface | Microsoft Docs](/surface/surface-manage-dfci-guide)
-- [Microsoft Surface Data Eraser (Surface) - Surface | Microsoft Docs](/surface/microsoft-surface-data-eraser)
-- [Retire or wipe devices using Microsoft Intune | Microsoft Docs](/mem/intune/remote-actions/devices-wipe)
-- [Reset Windows 10 devices with Microsoft Intune | Microsoft Docs](/mem/intune/remote-actions/device-fresh-start)
+- [Surface Management Portal](/surface/surface-management-portal)
+- [Manage DFCI on Surface devices](/surface/surface-manage-dfci-guide)
+- [Microsoft Surface Data Eraser](/surface/microsoft-surface-data-eraser)
+- [Retire or wipe devices using Microsoft Intune](/mem/intune/remote-actions/devices-wipe)
+- [Reset Windows 10 devices with Microsoft Intune](/mem/intune/remote-actions/device-fresh-start)

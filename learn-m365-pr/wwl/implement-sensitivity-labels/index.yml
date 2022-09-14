@@ -20,7 +20,7 @@ abstract: |
   - Identify the differences between removing and deleting sensitivity labels
 prerequisites: |
   None
-iconUrl: /learn/achievements/labels-implementing-labels.svg
+iconUrl: /training/achievements/labels-implementing-labels.svg
 levels:
 - intermediate
 roles:

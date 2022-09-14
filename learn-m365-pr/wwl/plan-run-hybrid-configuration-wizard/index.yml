@@ -19,7 +19,7 @@ abstract: |
   - Describe the prerequisites to run the Microsoft 365 Hybrid Configuration Wizard.
   - Explain best practices for implementing a hybrid deployment.
 prerequisites: ""
-iconUrl: /learn/achievements/plan-configure-hybrid-deployment-using-hybrid-configuration-wizard.svg
+iconUrl: /training/achievements/plan-configure-hybrid-deployment-using-hybrid-configuration-wizard.svg
 levels:
 - intermediate
 roles:

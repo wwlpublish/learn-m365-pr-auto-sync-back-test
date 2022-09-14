@@ -17,8 +17,8 @@ abstract: |
   - Explain how Microsoft Secure Score recommendations are calculated.
 
 prerequisites: | 
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/learn/paths/m365-fundamentals/)
-iconUrl: /learn/achievements/use-reporting-in-the-microsoft-365-security-center.svg
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/training/paths/m365-fundamentals/)
+iconUrl: /training/achievements/use-reporting-in-the-microsoft-365-security-center.svg
 ratingEnabled: true
 levels:
 - intermediate

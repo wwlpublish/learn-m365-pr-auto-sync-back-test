@@ -17,7 +17,7 @@ prerequisites: |
   - Ability to write PowerShell commands at an intermediate level
 summary: |
   Explores Microsoft Exchange Online Protection (EOP) features and functionality, including the use of anti-malware and anti-spam policies, and Microsoft 365 Defender features that extend messaging protection against advanced threats.
-iconUrl: /learn/achievements/m365-manage-message-hygiene.svg
+iconUrl: /training/achievements/m365-manage-message-hygiene.svg
 levels:
 - intermediate
 roles:

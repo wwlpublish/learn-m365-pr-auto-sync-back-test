@@ -18,7 +18,7 @@ abstract: |
 prerequisites: |
   - Experience with Windows PowerShell and the Exchange PowerShell module.
   - Hands-on experience deploying, managing, and troubleshooting Exchange environments.
-iconUrl: /learn/achievements/troubleshoot-desktop-outlook-clients.svg
+iconUrl: /training/achievements/troubleshoot-desktop-outlook-clients.svg
 levels:
 - advanced
 roles:

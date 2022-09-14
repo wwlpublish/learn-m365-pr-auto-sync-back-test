@@ -103,7 +103,7 @@ The following list identifies the licensing options for Microsoft Defender for E
      -  Microsoft 365 E5/A5/G5 (which includes Windows 10 or Windows 11 Enterprise E5)
      -  Microsoft 365 E5/A5/G5/F5 Security
      -  Microsoft 365 F5 Security &amp; Compliance
- -  **Microsoft Defender for Endpoint Server**. For server security, Microsoft offers Microsoft Defender for Cloud. It has the best and most appropriate capabilities for server and cloud protection. As of April 2022, Microsoft introduced Microsoft Defender for Servers Plan 1 and Plan 2. For more information, please read [Microsoft Defender for Servers - the benefits and features \| Microsoft Docs](/azure/defender-for-cloud/defender-for-servers-introduction?azure-portal=true).
+ -  **Microsoft Defender for Endpoint Server**. For server security, Microsoft offers Microsoft Defender for Cloud. It has the best and most appropriate capabilities for server and cloud protection. As of April 2022, Microsoft introduced Microsoft Defender for Servers Plan 1 and Plan 2. For more information, please read [Microsoft Defender for Servers - the benefits and features](/azure/defender-for-cloud/defender-for-servers-introduction?azure-portal=true).
 
 ### Plan your Microsoft Defender for Endpoint deployment
 

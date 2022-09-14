@@ -15,12 +15,12 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v14.\*
-- npm (installed with Node.js) - v6.\*
+- [Node.js](https://nodejs.org/) - (*the active [LTS](https://nodejs.org/about/releases) version*)
+- npm (*installed with Node.js*)
 - [Visual Studio Code](https://code.visualstudio.com)
-- [Gulp-cli](https://gulpjs.com/) - v2.3.\*
-- [Yeoman](https://yeoman.io/) - v3.\*
-- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.\*
+- [Gulp-cli](https://www.npmjs.com/package/gulp-cli) - v2.3.\*
+- [Yeoman](https://yeoman.io/) - v4.3.\*
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v4.0.1
 
 You must have the minimum versions of these prerequisites installed on your workstation.
 
@@ -36,7 +36,7 @@ On the **Register an application** page, set the values as follows, and then sel
 
 - **Name**: My Teams SSO App
 - **Supported account types**: Accounts in any organizational directory (Any Azure AD directory - Multitenant)
-- **Redirect URI**: Web & `https://REPLACE.ngrok.io`
+- **Redirect URI**: Web & `https://REPLACE.ngrok.io/auth-end`
 
 ![Screenshot of the Register an application page.](../media/03-azure-ad-app-registration-02.png)
 
@@ -55,7 +55,7 @@ On the **My Teams SSO App** page, copy the value of the **Application (client) I
 
 Next, configure the app's authentication settings. Select **Manage > Authentication** from the left-hand navigation.
 
-In the **Implicit grant and hybrid flows** section, select both of the following options, and then select **Save** at the top of the screen:
+In the **Implicit grant and hybrid flows** section, select both of the following options, and then select **Save**:
 
 ![Screenshot of the app's authentication settings.](../media/03-azure-ad-app-registration-04.png)
 
@@ -135,7 +135,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: MSGraph Playground
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.11
+- **Which manifest version would you like to use?**: v1.13
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A Tab
 - **The URL where you will host this solution?**: `https://REPLACE.ngrok.io`
@@ -152,6 +152,14 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 > Most of the answers to these questions can be changed after creating the project. For example, the URL where the project will be hosted and Application ID URI must be changed when you start debugging your project using the ngrok utility.
 
 After answering the generator's questions, the generator will create the scaffolding for the project and then execute `npm install` that downloads all the dependencies required by the project.
+
+### Ensure the project is using the latest version of Teams SDK
+
+Run the npm command to install the latest version of the SDK:
+
+```console
+npm i @microsoft/teams-js
+```
 
 ### Build and test the application
 
@@ -227,14 +235,19 @@ The tab is implemented as a React app with React Hooks. Locate the following `us
 ```tsx
 useEffect(() => {
   if (inTeams === true) {
-    microsoftTeams.authentication.getAuthToken({
-      successCallback: (token: string) => {
-        const decoded: { [key: string]: any; } = jwtDecode(token) as { [key: string]: any; };
-        setName(decoded!.name);
-        microsoftTeams.appInitialization.notifySuccess();
-      },
-      failureCallback: (message: string) => { /* ... */ },
-      resources: [process.env.TAB_APP_URI as string]
+    authentication.getAuthToken({
+      resources: [process.env.TAB_APP_URI as string],
+      silent: false
+    } as authentication.AuthTokenRequestParameters).then(token => {
+      const decoded: { [key: string]: any; } = jwtDecode(token) as { [key: string]: any; };
+      setName(decoded!.name);
+      app.notifySuccess();
+    }).catch(message => {
+      setError(message);
+      app.notifyFailure({
+        reason: app.FailedReason.AuthFailed,
+        message
+      });
     });
   } else {
     setEntityId("Not in Microsoft Teams");
@@ -242,7 +255,7 @@ useEffect(() => {
 }, [inTeams]);
 ```
 
-This hook will run when the component loads. If the page is loaded in a Microsoft Teams client, as it's when it's in a tab, it calls the `getAuthToken()` method on the Microsoft Teams JavaScript SDK. When successful, it extracts the ID token Microsoft Teams received from Azure AD and provided to the tab to retrieve the currently signed in user's display name. The user's name is then set, using the `setName()` method, to the React state `name` property.
+This hook will run when the component loads. If the page is loaded in a Microsoft Teams client, as it is when added in a tab, it calls the `getAuthToken()` method on the Microsoft Teams JavaScript SDK. When successful, it extracts the ID token Microsoft Teams received from Azure AD and provides to the tab to retrieve the currently signed in user's display name. The user's name is then set, using the `setName()` method, to the React state `name` property.
 
 Changing the state triggers React to rerender the component. The code in the `return` statement within the React component will render the updated user experience that includes the user's name from the React state property as shown in the following code.
 
@@ -411,7 +424,7 @@ Now locate the `useEffect()` hook (*the first one in the file*) that the tab is 
 Let's update this to save the ID token to the component's `ssoToken` state property. Locate the following line in the success callback:
 
 ```typescript
-microsoftTeams.appInitialization.notifySuccess();
+app.notifySuccess();
 ```
 
 Add the following line immediately before the `notifySuccess()` call:

@@ -12,11 +12,10 @@ Now you've completed the module, you should be able to:
 
 Use these resources to discover more background details of the described topics from this module:
 
-- [Manage phone numbers for your organization - Microsoft Teams | Microsoft Docs](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
+- [Manage phone numbers for your organization in Microsoft Teams](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
 
-- [Manage voice and calling policies in Teams - Microsoft Teams | Microsoft Docs](/microsoftteams/voice-and-calling-policies)
+- [Manage voice and calling policies in Microsoft Teams](/microsoftteams/voice-and-calling-policies)
 
-- [Create and manage dial plans - Microsoft Teams | Microsoft Docs](/microsoftteams/create-and-manage-dial-plans)
+- [Create and manage dial plans in Microsoft Teams](/microsoftteams/create-and-manage-dial-plans)
 
-- [Operator Connect - Microsoft Teams | Microsoft Docs](/microsoftteams/operator-connect-plan)
-
+- [Operator Connect in Microsoft Teams](/microsoftteams/operator-connect-plan)

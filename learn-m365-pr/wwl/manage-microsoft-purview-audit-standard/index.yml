@@ -18,7 +18,7 @@ abstract: |
   - Export, configure, and view audit log records.
   - Use audit log searching to troubleshoot common support issues.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /training/achievements/generic-badge.svg
 levels:
 - intermediate
 roles:

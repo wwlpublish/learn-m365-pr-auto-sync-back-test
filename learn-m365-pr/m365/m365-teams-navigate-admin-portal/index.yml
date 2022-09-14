@@ -20,7 +20,7 @@ abstract: |
   - Describe how to analyze users' behavior in Teams.
 prerequisites: | 
   - Familiarity with Microsoft Teams
-iconUrl: /learn/achievements/navigate-the-teams-admin-center.svg
+iconUrl: /training/achievements/navigate-the-teams-admin-center.svg
 levels:
 - beginner
 roles:

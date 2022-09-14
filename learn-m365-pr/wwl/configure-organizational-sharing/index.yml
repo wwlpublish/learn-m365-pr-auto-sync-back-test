@@ -18,7 +18,7 @@ abstract: |
   - Implement organization relationships.
   - Implement sharing policies.
 prerequisites: ""
-iconUrl: /learn/achievements/organization-configure-sharing.svg
+iconUrl: /training/achievements/organization-configure-sharing.svg
 levels:
 - intermediate
 roles:

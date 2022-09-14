@@ -2,6 +2,6 @@ The Windows servicing module ensures that Windows OS, drivers, and applications 
 
 ### Learn More
 
- -  [Learn about Windows and Microsoft 365 Apps servicing in Microsoft 365 - Learn](/learn/modules/m365-modern-windows-office-servicing/)
- -  [Deploy Windows Update in Microsoft 365 - Learn \| Microsoft Docs](/learn/modules/deploy-windows-update-microsoft-365/)
+ -  [Learn about Windows and Microsoft 365 Apps servicing in Microsoft 365](/training/modules/m365-modern-windows-office-servicing/)
+ -  [Deploy Windows Update in Microsoft 365](/training/modules/deploy-windows-update-microsoft-365/)
  -  [Overview of Windows as a service - Windows Deployment](/windows/deployment/update/waas-overview#servicing-channels)

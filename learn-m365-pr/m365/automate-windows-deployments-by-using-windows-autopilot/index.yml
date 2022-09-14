@@ -16,7 +16,7 @@ abstract: |
   - Define the different methods of deploying Windows clients via Autopilot.
   - Explain the different administration options for device configuration.
 prerequisites: None
-iconUrl: /learn/achievements/automate-windows-deployments-by-using-windows-autopilot.svg
+iconUrl: /training/achievements/automate-windows-deployments-by-using-windows-autopilot.svg
 levels:
 - beginner
 roles:

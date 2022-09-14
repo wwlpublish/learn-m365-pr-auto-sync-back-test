@@ -18,11 +18,11 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v14.\*
-- npm (installed with Node.js) - v7.\*
-- [Gulp CLI](https://gulpjs.com/) - v2.\*
+- [Node.js](https://nodejs.org/) - (*the active [LTS](https://nodejs.org/about/releases) version*)
+- npm (*installed with Node.js*)
+- [Gulp-cli](https://www.npmjs.com/package/gulp-cli) - v2.3.\*
 - [Yeoman](https://yeoman.io/) - v4.3.\*
-- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v4.0.1
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -43,7 +43,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: SSO Teams Tab
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.11
+- **Which manifest version would you like to use?**: v1.13
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A Tab
 - **The URL where you will host this solution?**: `https://REPLACE.ngrok.io`
@@ -60,6 +60,14 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 > Most of the answers to these questions can be changed after creating the project. For example, the URL where the project will be hosted and Application ID URI must be changed when you start debugging your project using the ngrok utility.
 
 After answering the generator's questions, the generator will create the scaffolding for the project and then execute `npm install` that downloads all the dependencies required by the project.
+
+### Ensure the project is using the latest version of Teams SDK
+
+Run the npm command to install the latest version of the SDK:
+
+```console
+npm i @microsoft/teams-js
+```
 
 ## Explore the initial project
 
@@ -98,20 +106,19 @@ When this method is called, it triggers Microsoft Teams to obtain an ID token fr
 ```typescript
 useEffect(() => {
   if (inTeams === true) {
-    microsoftTeams.authentication.getAuthToken({
-      successCallback: (token: string) => {
-        const decoded: { [key: string]: any; } = jwtDecode(token) as { [key: string]: any; };
-        setName(decoded!.name);
-        microsoftTeams.appInitialization.notifySuccess();
-      },
-      failureCallback: (message: string) => {
-        setError(message);
-        microsoftTeams.appInitialization.notifyFailure({
-          reason: microsoftTeams.appInitialization.FailedReason.AuthFailed,
-          message
-        });
-      },
-      resources: [process.env.TAB_APP_URI as string]
+    authentication.getAuthToken({
+      resources: [process.env.TAB_APP_URI as string],
+      silent: false
+    } as authentication.AuthTokenRequestParameters).then(token => {
+      const decoded: { [key: string]: any; } = jwtDecode(token) as { [key: string]: any; };
+      setName(decoded!.name);
+      app.notifySuccess();
+    }).catch(message => {
+      setError(message);
+      app.notifyFailure({
+        reason: app.FailedReason.AuthFailed,
+        message
+      });
     });
   } else {
     setEntityId("Not in Microsoft Teams");
@@ -119,7 +126,7 @@ useEffect(() => {
 }, [inTeams]);
 ```
 
-Notice the `getAuthToken()` method accepts an object with three properties. in addition to the two callbacks, you also set the Application ID URL of the Azure AD application you registered and associated with this Microsoft Teams app. Azure AD will automatically trust the Microsoft Teams client to act on the current user's behalf because in a previous exercise you granted it the `access_as_user` scope.
+Notice the `getAuthToken()` method accepts an object with three properties. In addition to the two callbacks, you also set the Application ID URI of the Azure AD application you registered and associated with this Microsoft Teams app. Azure AD will automatically trust the Microsoft Teams client to act on the current user's behalf because in a previous exercise you granted it the `access_as_user` scope.
 
 ### Server-side web app
 
@@ -320,7 +327,7 @@ Now locate the `useEffect()` hook (*the first one in the file*) that the tab is 
 Let's update this to save the ID token to the component's `ssoToken` state property. Locate the following line in the success callback:
 
 ```typescript
-microsoftTeams.appInitialization.notifySuccess();
+app.notifySuccess();
 ```
 
 Add the following line immediately before the `notifySuccess()` call:

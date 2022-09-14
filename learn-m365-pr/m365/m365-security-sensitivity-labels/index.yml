@@ -17,8 +17,8 @@ abstract: |
   - Apply protection levels based on sensitivity labels
 
 prerequisites: | 
- - Basic understanding of Microsoft 365. If you are unfamiliar with Microsoft 365, we recommend you take [Microsoft 365 Fundamentals](/learn/paths/m365-fundamentals/)
-iconUrl: /learn/achievements/protect-data-with-sensitivity-labels.svg
+ - Basic understanding of Microsoft 365. If you are unfamiliar with Microsoft 365, we recommend you take [Microsoft 365 Fundamentals](/training/paths/m365-fundamentals/)
+iconUrl: /training/achievements/protect-data-with-sensitivity-labels.svg
 ratingEnabled: true
 levels:
 - intermediate

@@ -19,7 +19,7 @@ abstract: |
   - Describe the end-user experience when an email attachment is scanned and found to be malicious
 prerequisites: |
   None
-iconUrl: /learn/achievements/attachments-safe-management.svg
+iconUrl: /training/achievements/attachments-safe-management.svg
 levels:
 - intermediate
 roles:

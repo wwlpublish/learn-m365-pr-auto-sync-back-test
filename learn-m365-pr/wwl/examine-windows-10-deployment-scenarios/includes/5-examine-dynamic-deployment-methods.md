@@ -16,7 +16,7 @@ Organizations can also step up from:
  -  Windows 10, version 1903 and later Pro Education to Windows 10 Windows 10 Education (Enterprise grade edition).
  -  Windows 11 Pro Eduction to Windows 11 Education (Enterprise grade edition).
 
-If you have devices that are licensed for Windows 7, 8, and 8.1 Professional, Microsoft 365 Business Premium provides an upgrade to Windows 10 Pro, which is the prerequisite for deploying [Windows 10/11 Business](/microsoft-365/business-premium/microsoft-365-business-faqs#what-is-windows-10-business?azure-portal=true).
+If you have devices that are licensed for Windows 7, 8, and 8.1 Professional, Microsoft 365 Business Premium provides an upgrade to Windows 10/11 Pro, which is the prerequisite for deploying [Windows 10/11 Business](/microsoft-365/business-premium/microsoft-365-business-faqs#what-is-windows-10-business?azure-portal=true).
 
 The Subscription Activation feature eliminates the need to:
 

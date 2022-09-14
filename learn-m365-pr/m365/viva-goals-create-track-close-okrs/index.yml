@@ -25,7 +25,7 @@ abstract: |
     - Understand the different types of systems that can integrate with Viva Goals and their uses
 prerequisites: |
   - Access to an instance of Viva Goals
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /training/achievements/generic-badge.svg
 levels:
 - beginner
 roles:

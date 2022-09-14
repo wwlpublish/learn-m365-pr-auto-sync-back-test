@@ -16,7 +16,7 @@ abstract: |
   - Describe how to use various methods to deploy updates to Windows 10 devices.
   - Explain the scenarios for using Windows Update for Business.
 prerequisites: Basic understanding of Windows Update.  If you are not familiar with this, we recommend you take Move to a modern desktop with Microsoft 365.
-iconUrl: /learn/achievements/deploy-windows-update-in-microsoft-365.svg
+iconUrl: /training/achievements/deploy-windows-update-in-microsoft-365.svg
 levels:
 - beginner
 roles:

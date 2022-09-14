@@ -19,7 +19,7 @@ abstract: |
 prerequisites: |
   - Basic understanding of the Viva Goals environment
   - Access to an instance of Viva Goals
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /training/achievements/generic-badge.svg
 levels:
   - beginner
 roles:

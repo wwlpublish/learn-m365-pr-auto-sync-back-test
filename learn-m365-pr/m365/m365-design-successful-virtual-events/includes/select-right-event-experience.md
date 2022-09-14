@@ -1,6 +1,6 @@
 Part of planning and designing your virtual summit is choosing the right type of virtual event. Microsoft 365 supports three distinct options: Teams meetings, webinars, and live events. 
 
-In this unit, you'll learn when to use each option, based on your audience and the kind of content you're presenting.  If you've completed the [Introduction to delivering virtual events with Microsoft 365](/learn/modules/m365-introduction-deliver-virtual-events-using-microsoft-teams) module, you have a basic understanding of the different types of events. Now we'll dig into how to choose the right experience for your event.
+In this unit, you'll learn when to use each option, based on your audience and the kind of content you're presenting.  If you've completed the [Introduction to delivering virtual events with Microsoft 365](/training/modules/m365-introduction-deliver-virtual-events-using-microsoft-teams) module, you have a basic understanding of the different types of events. Now we'll dig into how to choose the right experience for your event.
 
 
 ## Select your event experience

@@ -95,7 +95,7 @@ Here are the settings available to you:
 
 ## Learn more
 
-- [Learn about Microsoft 365 Endpoint data loss prevention | Microsoft Docs](/microsoft-365/compliance/endpoint-dlp-learn-about)
-- [Get started with Endpoint data loss prevention | Microsoft Docs](/microsoft-365/compliance/endpoint-dlp-getting-started)
-- [Using Endpoint data loss prevention | Microsoft Docs](/microsoft-365/compliance/endpoint-dlp-using)
-- [Data loss prevention device onboarding | Microsoft Docs](/microsoft-365/compliance/device-onboarding-overview)
+- [Learn about Microsoft 365 Endpoint data loss prevention](/microsoft-365/compliance/endpoint-dlp-learn-about)
+- [Get started with Endpoint data loss prevention](/microsoft-365/compliance/endpoint-dlp-getting-started)
+- [Using Endpoint data loss prevention](/microsoft-365/compliance/endpoint-dlp-using)
+- [Data loss prevention device onboarding](/microsoft-365/compliance/device-onboarding-overview)

@@ -23,7 +23,7 @@ prerequisites: |
    - Basic understanding of Microsoft 365
    - Understanding of the different types of OneDrive services
 
-iconUrl: /learn/achievements/manage-onedrive-migrations-and-deployment.svg
+iconUrl: /training/achievements/manage-onedrive-migrations-and-deployment.svg
 ratingEnabled: true
 levels:
 - intermediate

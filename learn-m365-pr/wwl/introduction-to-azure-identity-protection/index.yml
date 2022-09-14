@@ -19,7 +19,7 @@ abstract: |
   - Plan how to protect your Azure Active Directory environment from security breaches
 prerequisites: |
   None
-iconUrl: /learn/achievements/identity-management-protection.svg
+iconUrl: /training/achievements/identity-management-protection.svg
 levels:
 - intermediate
 roles:

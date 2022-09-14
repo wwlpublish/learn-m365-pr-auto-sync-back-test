@@ -20,7 +20,7 @@ abstract: |
 prerequisites: | 
    - None
 
-iconUrl:  /learn/achievements/remote-work.svg
+iconUrl:  /training/achievements/remote-work.svg
 ratingEnabled: true
 levels:
 - beginner

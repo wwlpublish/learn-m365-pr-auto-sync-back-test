@@ -18,7 +18,7 @@ abstract: |
   *   Add organizational branding to encrypted email messages.
   *   Explain the extra capabilities provided by Microsoft Purview Advanced Message Encryption.
 prerequisites: ""
-iconUrl: /learn/achievements/explore-microsoft-purview-message-encryption.svg
+iconUrl: /training/achievements/explore-microsoft-purview-message-encryption.svg
 levels:
 - intermediate
 roles:

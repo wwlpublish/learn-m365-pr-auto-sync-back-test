@@ -17,7 +17,7 @@ abstract: |
   - Manage Microsoft Edge security options through policies and controls in Microsoft Endpoint Manager
 prerequisites: |
   - Experience deploying and configuring application packages using software distribution tools such as Microsoft Intune or Configuration Manager
-iconUrl: /learn/achievements/protect-against-malicious-attacks-and-unauthorized-access-with-microsoft-edge.svg
+iconUrl: /training/achievements/protect-against-malicious-attacks-and-unauthorized-access-with-microsoft-edge.svg
 levels:
 - intermediate
 roles:

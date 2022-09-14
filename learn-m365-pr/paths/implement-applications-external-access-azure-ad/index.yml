@@ -15,7 +15,7 @@ prerequisites: |
   - Students must have a proficient understanding of general IT practices.
 summary: |
   This learning path examines how to implement applications and external access in Azure AD, including implementation of Azure AD Application Proxy, Microsoft 365 external sharing, Azure AD B2B collaboration, external access, and guess access.
-iconUrl: /learn/achievements/azure-ad-implement-applications.svg
+iconUrl: /training/achievements/azure-ad-implement-applications.svg
 levels:
 - intermediate
 roles:

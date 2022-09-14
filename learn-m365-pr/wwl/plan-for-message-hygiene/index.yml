@@ -16,7 +16,7 @@ abstract: |
   - Plan message routing for Exchange Online Protection.
   - Investigate the available EOP reports and logs that enable organizations to monitor message hygiene.
 prerequisites: ""
-iconUrl: /learn/achievements/messages-plan-hygiene.svg
+iconUrl: /training/achievements/messages-plan-hygiene.svg
 levels:
 - intermediate
 roles:

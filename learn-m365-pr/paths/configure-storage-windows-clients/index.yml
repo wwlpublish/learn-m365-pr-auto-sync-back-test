@@ -15,7 +15,7 @@ prerequisites: |
   - Students should have experience with using Windows 10 or later.
 summary: |
   This learning path covers storage configuration and management in Windows client.  Students will be introduced to local, cloud and virtual storage options.
-iconUrl: /learn/achievements/windows-client-configure-storage.svg
+iconUrl: /training/achievements/windows-client-configure-storage.svg
 levels:
 - beginner
 roles:

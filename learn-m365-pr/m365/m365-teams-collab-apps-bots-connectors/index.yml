@@ -17,7 +17,7 @@ abstract: |
   - Configure and manage bots for private chats and channels.
   - Describe ways you can interact with apps and services in Teams.
 prerequisites: None
-iconUrl: /learn/achievements/manage-apps-bots-and-connectors-in-ms-teams.svg
+iconUrl: /training/achievements/manage-apps-bots-and-connectors-in-ms-teams.svg
 levels:
 - beginner
 roles:

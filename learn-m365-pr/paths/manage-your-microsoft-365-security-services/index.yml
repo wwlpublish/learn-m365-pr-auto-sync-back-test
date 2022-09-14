@@ -15,7 +15,7 @@ prerequisites: |
   - Students must have a proficient understanding of general IT practices.
 summary: |
   This learning path examines how to manage the Microsoft 365 security services, with a special focus on security reporting and managing the Safe Attachments and Safe Links features in Microsoft Defender for Office 365.
-iconUrl: /learn/achievements/m365-manage-security-services.svg
+iconUrl: /training/achievements/m365-manage-security-services.svg
 levels:
 - intermediate
 roles:

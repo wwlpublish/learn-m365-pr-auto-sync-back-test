@@ -3,7 +3,7 @@ uid: learn-m365.msteams-sso.4-tabs-sso
 metadata:
   title: Single sign-on (SSO) with Microsoft Teams tabs
   description: In this unit, learn how single sign-on works and how to create a tab that uses single sign-on (SSO).
-  ms.date: 05/20/2022
+  ms.date: 09/12/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

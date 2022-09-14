@@ -12,7 +12,7 @@ Now that you have reviewed this module, you should be able to:
 
 Use these resources to discover more background details of the described topics from this module:
 
-- [Configure and manage Direct Routing with Microsoft Teams](/learn/modules/m365-teams-configure-manage-direct-routing/)
+- [Configure and manage Direct Routing with Microsoft Teams](/training/modules/m365-teams-configure-manage-direct-routing/)
 
 - [Survivable Branch Appliance (SBA) for Direct Routing](/microsoftteams/direct-routing-survivable-branch-appliance)
 
@@ -24,7 +24,7 @@ Use these resources to discover more background details of the described topics 
 
 - [Connect your Session Border Controller (SBC) to Direct Routing](/microsoftteams/direct-routing-connect-the-sbc)
 
-- [Provision users](/learn/modules/m365-teams-configure-manage-direct-routing/4-provision-users)
+- [Provision users](/training/modules/m365-teams-configure-manage-direct-routing/4-provision-users)
 
 - [Enabling users for direct routing](/microsoftteams/direct-routing-enable-users)
 

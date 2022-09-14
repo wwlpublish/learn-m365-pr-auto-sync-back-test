@@ -15,7 +15,7 @@ abstract: |
   - Design content searches to search for messages in your organization.
   - Describe eDiscovery cases and in-place eDiscovery for Exchange.
 prerequisites: ""
-iconUrl: /learn/achievements/content-search.svg
+iconUrl: /training/achievements/content-search.svg
 levels:
 - intermediate
 roles:

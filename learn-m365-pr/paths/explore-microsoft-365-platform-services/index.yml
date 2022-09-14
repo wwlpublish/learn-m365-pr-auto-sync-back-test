@@ -15,7 +15,7 @@ prerequisites: |
   - Students must have a proficient understanding of general IT practices.
 summary: |
   This learning path examines the more popular Microsoft 365 platform services, including Exchange Online, SharePoint Online, Teams, and the Power Platform services consisting of Power Apps, Power BI, Power Automate, and Power Virtual Agents.
-iconUrl: /learn/achievements/microsoft-365-platform-services.svg
+iconUrl: /training/achievements/microsoft-365-platform-services.svg
 levels:
 - intermediate
 roles:

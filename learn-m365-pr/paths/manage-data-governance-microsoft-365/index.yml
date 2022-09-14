@@ -15,7 +15,7 @@ prerequisites: |
   - Students must have a proficient understanding of general IT practices.
 summary: |
   This learning path provides instruction on managing the Microsoft 365 data governance features, including how to implement retention in email, sensitivity labels, and Windows Information Protection, and how to troubleshoot data loss prevention issues.
-iconUrl: /learn/achievements/m365-data-governance.svg
+iconUrl: /training/achievements/m365-data-governance.svg
 levels:
 - intermediate
 roles:

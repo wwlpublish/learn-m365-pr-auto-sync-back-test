@@ -16,7 +16,7 @@ abstract: |
   - Set up key Phone System capabilities.
   - Set up emergency calling.
 prerequisites: None
-iconUrl: /learn/achievements/set-up-phone-system-for-microsoft-teams.svg
+iconUrl: /training/achievements/set-up-phone-system-for-microsoft-teams.svg
 levels: 
 - advanced
 roles: 

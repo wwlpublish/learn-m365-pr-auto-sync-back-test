@@ -23,7 +23,7 @@ prerequisites: |
   - Experience working with Microsoft Sentinel
   - Knowledge of security concepts, risks, and mitigations
   - Microsoft Defender for Cloud Apps intermediate or equivalent  
-iconUrl: /learn/achievements/microsoft-cloud-app-security-siem-integration.svg
+iconUrl: /training/achievements/microsoft-cloud-app-security-siem-integration.svg
 levels:
 - advanced
 roles:

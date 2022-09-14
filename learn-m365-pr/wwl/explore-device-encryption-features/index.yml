@@ -17,7 +17,7 @@ abstract: |
 prerequisites: |
   - Students should have a basic understanding of computer networks and hardware concepts.
   - Students should have a basic understanding of OS and Students should have experience with using Windows 10 or later.
-iconUrl: /learn/achievements/encryption-explore-features.svg
+iconUrl: /training/achievements/encryption-explore-features.svg
 levels:
 - beginner
 roles:

@@ -16,7 +16,7 @@ abstract: |
   - Explain how task sequence automation works
   - Describe what Windows Autopilot is and how it works
 prerequisites: None
-iconUrl: /learn/achievements/get-modern-os-deployment-and-feature-updates.svg
+iconUrl: /training/achievements/get-modern-os-deployment-and-feature-updates.svg
 ratingEnabled: true
 levels:
 - intermediate

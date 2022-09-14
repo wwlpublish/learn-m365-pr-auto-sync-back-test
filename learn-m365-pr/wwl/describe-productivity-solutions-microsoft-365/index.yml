@@ -18,7 +18,7 @@ abstract: |
   *   Describe the email and calendaring features with Microsoft Exchange
 prerequisites: |
   - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a-Service (Saas).
-iconUrl: /learn/achievements/2-describe-productivity-solutions-in-microsoft-365.svg
+iconUrl: /training/achievements/2-describe-productivity-solutions-in-microsoft-365.svg
 levels:
 - beginner
 roles:

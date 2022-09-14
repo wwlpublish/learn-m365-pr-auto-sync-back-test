@@ -15,7 +15,7 @@ prerequisites: |
   - Students must have a proficient understanding of general IT practices.
 summary: |
   This learning path examines how to implement Mobile Device Management (MDM) in Microsoft 365, including how to deploy MDM, how to enroll devices to MDM, and how to manage device compliance.
-iconUrl: /learn/achievements/m365-mobile-device-management.svg
+iconUrl: /training/achievements/m365-mobile-device-management.svg
 levels:
 - intermediate
 roles:

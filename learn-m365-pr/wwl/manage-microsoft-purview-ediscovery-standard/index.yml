@@ -19,7 +19,7 @@ abstract: |
   - Search for content in a case and then export that content.
   - Close, reopen, and delete a case.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /training/achievements/generic-badge.svg
 levels:
 - intermediate
 roles:

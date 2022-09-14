@@ -25,7 +25,7 @@ prerequisites: |
   - Basic understanding of HTML and JavaScript
   - Basic understanding of Microsoft Graph
   - Node.js LTS
-iconUrl: /learn/achievements/graph-user-email.svg
+iconUrl: /training/achievements/graph-user-email.svg
 levels:
   - intermediate
 roles:

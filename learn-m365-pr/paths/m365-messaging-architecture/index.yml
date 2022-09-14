@@ -9,10 +9,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage Microsoft 365 messaging organizational settings and architecture 
-summary: "The **Manage Microsoft 365 messaging organizational settings and architecture** learning path explains how to deploy, configure, manage, and monitor your Exchange Online messaging infrastructure in on-premises, hybrid, and cloud enterprise environments. This learning path can help you prepare for the [Microsoft 365 Certified: Messaging Administration Associate](/learn/certifications/m365-messaging-administrator) certification."
+summary: "The **Manage Microsoft 365 messaging organizational settings and architecture** learning path explains how to deploy, configure, manage, and monitor your Exchange Online messaging infrastructure in on-premises, hybrid, and cloud enterprise environments. This learning path can help you prepare for the [Microsoft 365 Certified: Messaging Administration Associate](/certifications/m365-messaging-administrator) certification."
 prerequisites: |
  - Basic understanding of Microsoft 365.
-iconUrl: /learn/achievements/manage-m365-messaging-organizational-settings-architecture.svg
+iconUrl: /training/achievements/manage-m365-messaging-organizational-settings-architecture.svg
 levels:
 - intermediate
 roles:

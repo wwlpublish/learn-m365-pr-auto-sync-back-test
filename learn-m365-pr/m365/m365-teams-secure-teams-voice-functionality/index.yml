@@ -18,7 +18,7 @@ abstract: |
   - Explain how to configure caller ID policies.
 prerequisites: | 
   - Knowledge equivalent to the **Use advanced meeting controls to ensure privacy, security, and compliance in Microsoft Teams** module.
-iconUrl: /learn/achievements/secure-teams-voice-functionality.svg
+iconUrl: /training/achievements/secure-teams-voice-functionality.svg
 levels:
 - intermediate
 roles:

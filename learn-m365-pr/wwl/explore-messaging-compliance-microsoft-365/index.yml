@@ -17,7 +17,7 @@ abstract: |
   - Plan retention policies for Exchange Online mailboxes.
   - Create message traces to understand the mail flow in your Exchange Online organization.
 prerequisites: ""
-iconUrl: /learn/achievements/m365-messaging-compliance.svg
+iconUrl: /training/achievements/m365-messaging-compliance.svg
 levels:
 - intermediate
 roles:

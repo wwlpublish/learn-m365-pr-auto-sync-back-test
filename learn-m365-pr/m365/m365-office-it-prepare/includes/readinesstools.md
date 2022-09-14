@@ -18,4 +18,4 @@ In smaller environments, you can also use the Readiness Toolkit for Office on it
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [FastTrack Center](/learn/modules/fasttrack-customer-success-program/)
+- [FastTrack Center](/training/modules/fasttrack-customer-success-program/)

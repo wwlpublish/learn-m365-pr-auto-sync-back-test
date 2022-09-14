@@ -17,7 +17,7 @@ abstract: |
   -	Demonstrate how to secure Microsoft Teams with three tiers of protection.
 prerequisites: | 
   - Knowledge equivalent to the **Protect identity and access in Microsoft Teams** module.
-iconUrl: /learn/achievements/m365-teams-manage-security.svg
+iconUrl: /training/achievements/m365-teams-manage-security.svg
 levels:
 - intermediate
 roles:

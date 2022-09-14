@@ -1,7 +1,7 @@
 Co-management is where you concurrently manage Windows 10 or later devices with both Configuration Manager and Microsoft Intune. It combines your existing on-premises Configuration Manager investment with the cloud by using Intune, Azure AD, and other Microsoft 365 cloud services. You choose whether Configuration Manager or Intune is the management authority. You keep some tasks on-premises, while running other tasks in the cloud with Intune. As an administrator, you can see co-managed devices in the Microsoft Endpoint Manager admin center. You can perform Intune-based remote actions from the Microsoft Endpoint Manager admin center, and benefit from data insights with Endpoint analytics.
 
 > [!NOTE]
-> The mobile device management (MDM) authority setting determines how you manage your devices. As an IT admin, you must set an MDM authority before users can enroll devices for management. For more information, see [Set the mobile device management authority](/learn/modules/manage-devices-by-using-microsoft-intune/).
+> The mobile device management (MDM) authority setting determines how you manage your devices. As an IT admin, you must set an MDM authority before users can enroll devices for management. For more information, see [Set the mobile device management authority](/training/modules/manage-devices-by-using-microsoft-intune/).
 
 Co-management is one of the primary ways to attach your existing Configuration Manager deployment to the Microsoft 365 cloud. It helps you unlock additional cloud-powered capabilities like conditional device access, Intune-based remote actions, and centralized device health visibility. By using co-management, you have the flexibility to use the technology solution that works best for your organization.
 

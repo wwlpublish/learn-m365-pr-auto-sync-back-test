@@ -15,6 +15,6 @@ Consider brainstorming sessions to reward champions and help unmotivated users g
 |Knowledge managers|They need to learn how to manage topics through the Manage Topics page in Topic center, only visible to them. They need to know how to edit an existing topic or create a new topic. They can review necessary sections in the Microsoft library*, starting with the Introduction to Microsoft Viva Topics. They can also complete the training in Knowledge management of Viva Topics. [Manage topics in the topic center](/microsoft-365/knowledge/manage-topics).|
 |Knowledge admins|These new users need to learn how to set up and configure Viva Topics and manage settings after completing it. They can review Viva Topics library, including [Plan for Microsoft Viva Topics](/microsoft-365/knowledge/plan-topic-experiences). They also need to complete this Learn module.|
 
-## About Microsoft technical library and Microsoft Learn
+## About Microsoft Learn
 
-The [Microsoft technical libraries](/) are the home for Microsoft documentation and learning for developers and technology professionals to explore guides and articles by product. Microsoft Learn helps admins explore a topic in-depth through guided paths or learn how to accomplish a specific task through individual modules.
+[Microsoft Learn](/) is the home for Microsoft documentation and learning for developers and technology professionals to explore guides and articles by product. Microsoft Learn helps admins explore a topic in-depth through guided paths or learn how to accomplish a specific task through individual modules.

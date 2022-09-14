@@ -20,7 +20,7 @@ abstract: |
 prerequisites: |
  - Basic understanding of Microsoft 365
  - Familiarity with Exchange Online, authentication methods
-iconUrl: /learn/achievements/manage-mobile-devices.svg
+iconUrl: /training/achievements/manage-mobile-devices.svg
 levels:
 - intermediate
 roles:

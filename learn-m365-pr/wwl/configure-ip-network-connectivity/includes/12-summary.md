@@ -2,5 +2,5 @@ This module introduced configuring network connectivity on Windows client. Admin
 
 ## Learn More
 
- -  [Troubleshoot on-premises and hybrid networking - Learn](/learn/modules/troubleshoot-premises-hybrid-networking/)
- -  [Deploy and manage DHCP - Learn](/learn/modules/deploy-manage-dynamic-host-configuration-protocol/)
+ -  [Troubleshoot on-premises and hybrid networking - Learn](/training/modules/troubleshoot-premises-hybrid-networking/)
+ -  [Deploy and manage DHCP - Learn](/training/modules/deploy-manage-dynamic-host-configuration-protocol/)

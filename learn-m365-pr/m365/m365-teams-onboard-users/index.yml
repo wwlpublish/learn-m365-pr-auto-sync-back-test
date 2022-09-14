@@ -17,7 +17,7 @@ abstract: |
   - Describe how to drive all users in your organization to adopt Teams.
 prerequisites: | 
   - Basic understanding of Microsoft Teams
-iconUrl: /learn/achievements/onboard-users-to-microsoft-teams.svg
+iconUrl: /training/achievements/onboard-users-to-microsoft-teams.svg
 levels:
 - intermediate
 roles:

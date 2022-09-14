@@ -8,7 +8,7 @@ In this module, you learned how to implement protection of your Azure Virtual De
 
 To get started with protecting individual components of Azure Virtual Desktop, see the following additional resources:
 
-[Protect your virtual machines by using Azure Backup](/learn/modules/protect-virtual-machines-with-azure-backup/) teaches you more about how to protect Azure virtual machines.
+[Protect your virtual machines by using Azure Backup](/training/modules/protect-virtual-machines-with-azure-backup/) teaches you more about how to protect Azure virtual machines.
 
 [Back up Azure file shares](/azure/backup/backup-afs) explains how to back up Azure file shares from the Azure portal and how to protect the various services that run in Azure.
 
@@ -16,7 +16,7 @@ To get started with protecting individual components of Azure Virtual Desktop, s
 
 The tutorial [Configure Cloud Cache to redirect profile containers or office container to multiple Providers](/fslogix/configure-cloud-cache-tutorial) is a good source to understand the purpose and use of Cloud Cache.
 
-[Protect your Azure infrastructure with Azure Site Recovery](/learn/modules/protect-infrastructure-with-site-recovery/) explores the features that apply to a business continuity and disaster recovery (BCDR) plan.
+[Protect your Azure infrastructure with Azure Site Recovery](/training/modules/protect-infrastructure-with-site-recovery/) explores the features that apply to a business continuity and disaster recovery (BCDR) plan.
 
 [Cross-region replication of Azure NetApp Files volumes](/azure/azure-netapp-files/cross-region-replication-introduction) explains how to set up cross-region replication of Azure NetApp Files.
 
@@ -27,4 +27,3 @@ The tutorial [Configure Cloud Cache to redirect profile containers or office con
 - [Availability options for Azure Virtual Machines](/azure/virtual-machines/availability)
 - [Cloud Cache to create resiliency and availability](/fslogix/cloud-cache-resiliency-availability-cncpt)
 - [Shared Image Galleries overview](/azure/virtual-machines/shared-image-galleries)
-

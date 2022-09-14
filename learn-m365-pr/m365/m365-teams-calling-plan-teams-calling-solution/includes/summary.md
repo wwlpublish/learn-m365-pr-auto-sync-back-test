@@ -10,7 +10,7 @@ Now that you've completed this module, you should be able to:
 - [Country and region availability for Audio Conferencing and Calling Plans](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 - [Phone System and Calling Plans](/MicrosoftTeams/calling-plan-landing-page)
 - [Direct Routing](/MicrosoftTeams/direct-routing-landing-page)
-- [Microsoft telephony solutions](/learn/modules/m365-teams-upgrade-hybrid/)
+- [Microsoft telephony solutions](/training/modules/m365-teams-upgrade-hybrid/)
 - [Phone numbers from Microsoft](/microsoftteams/cloud-voice-landing-page#phone-numbers-from-microsoft)
 - [Dial plans and call routing](/microsoftteams/cloud-voice-landing-page#dial-plans-and-call-routing)
 - [Emergency calling](/microsoftteams/cloud-voice-landing-page#emergency-calling)

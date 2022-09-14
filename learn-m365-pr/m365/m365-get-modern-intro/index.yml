@@ -15,7 +15,7 @@ abstract: |
   - Explain the eight-step deployment process
   - Understand the main concepts for each step
 prerequisites: None
-iconUrl: /learn/achievements/get-modern-overview.svg
+iconUrl: /training/achievements/get-modern-overview.svg
 ratingEnabled: true
 levels:
 - intermediate
