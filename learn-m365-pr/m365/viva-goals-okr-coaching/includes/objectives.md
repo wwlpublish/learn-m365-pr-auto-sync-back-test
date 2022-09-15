@@ -9,7 +9,7 @@ As a pro-tip, this is a great time to use a whiteboard, or sticky notes both in-
 Let’s walk through a scenario in which this question (and follow ups) unfolds. 
 
 
-|Attendees  |Coach  |
+| Attendees  |Coach  |
 |---------|---------|
 | <br> | *What is the most important area of your business you need to focus on?* |“We need to evolve our Surface business”      |   *What does that mean, evolve?*       |
 |We need to increase the efficacy of our sellers, onboard new partners, and delve deeper into the enterprise.     |   *I hear you saying things like "enterprise," "efficacy;" how would you summarize those areas into an inspirational statement?*        |

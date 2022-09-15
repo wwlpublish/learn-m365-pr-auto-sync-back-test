@@ -21,7 +21,7 @@ In the absence of a baseline, the coach pushed the team find a target that they 
 
 The group isn't done after creating just one key result. Remember, there needs to be 3-5 key results per Objective, so we’ll continue with the scenario in creating more key results.
 
-|Attendees | Coach|
+| Attendees | Coach|
 | ------ | ---------|
 | Another key result for us might be to run a campaign targeting multi-national companies that fit our enterprise persona and have lots of users. |*That’s a great idea for what we can do as a project, but what would the impact of that marketing campaign be?*  |
 Well we’d close more multi-national companies as surface customers of course. | *Great, now we’re on the right track.  How many companies would be a stretch goal for the team?* | We currently have about 100, so upping that to 200 would be huge. | Will we be able to see a change in that measure during our time frame (semester)?| 
