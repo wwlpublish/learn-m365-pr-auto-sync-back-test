@@ -10,7 +10,7 @@ In Teams, a PSTN (Public Switched Telephone Network) conference is any conferenc
 
 Audio conferencing and toll-free phone numbers (service numbers) are available but only in some countries/regions.
 
-**Additional reading.** For a list of the audio conferencing and toll-free phone numbers that are available, see [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json?azure-portal=true).
+**Additional reading.** For a list of the audio conferencing and toll-free phone numbers that are available, see [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json?azure-portal=true).
 
 ### Audio conferencing support
 
