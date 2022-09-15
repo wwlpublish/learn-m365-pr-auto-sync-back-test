@@ -11,7 +11,8 @@ Let’s walk through a scenario in which this question (and follow ups) unfolds.
 
 | Attendees  |Coach  |
 |---------|---------|
-| <br> | *What is the most important area of your business you need to focus on?* |“We need to evolve our Surface business”      |   *What does that mean, evolve?*       |
+| <br> | *What is the most important area of your business you need to focus on?* |
+|We need to evolve our Surface business|   *What does that mean, evolve?*       |
 |We need to increase the efficacy of our sellers, onboard new partners, and delve deeper into the enterprise.     |   *I hear you saying things like "enterprise," "efficacy;" how would you summarize those areas into an inspirational statement?*        |
 |We need to transform Surface into an enterprise business.      |  *Great!  There’s an objective to start, "Transform Surface into an enterprise Business." Is that statement something your team will find inspirational?*        |
 |I think so. We’ve always focused on consumer and enterprise is a completely different challenge for us.      |    *Why is this important for us to focus on?*      |
