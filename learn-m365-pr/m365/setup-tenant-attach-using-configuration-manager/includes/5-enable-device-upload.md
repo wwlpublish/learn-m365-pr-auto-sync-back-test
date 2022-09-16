@@ -19,6 +19,6 @@ When co-management isn't enabled in your environment, use the instructions below
 7. On the **Configure upload** page, select the recommended device upload setting for **All my devices managed by Microsoft Endpoint Configuration Manager**. <br>
    If needed, you can limit upload to a single device collection.
 8. Check the option to **Enable Endpoint analytics for devices uploaded to Microsoft Endpoint Manager**. <br>
-   Selecting this option will allow you to get insights into optimizing the end-user experience using [Endpoint Analytics](/learn/modules/compliance-endpoint-manager) later.
+   Selecting this option will allow you to get insights into optimizing the end-user experience using [Endpoint Analytics](/training/modules/compliance-endpoint-manager) later.
 9. Select **Summary** to review your selection, then choose **Next**.
 10. When the wizard is complete, select **Close**.  

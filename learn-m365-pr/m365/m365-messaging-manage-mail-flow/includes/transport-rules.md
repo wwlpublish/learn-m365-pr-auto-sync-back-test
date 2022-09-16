@@ -221,7 +221,7 @@ To import an XML rule file, use this command:
 ## Learn more
 
 - [Mail flow rule conditions and exceptions (predicates) in Exchange Online](/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions?azure-portal=true)
-- [Mail flow rule actions in Exchange Online](/learn/modules/explore-messaging-compliance-exchange/)
+- [Mail flow rule actions in Exchange Online](/training/modules/explore-messaging-compliance-exchange/)
 - [Mail flow rule properties](/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules#mail-flow-rule-properties?azure-portal=true)
 - [Microsoft 365 Defender portal](https://security.microsoft.com?azure-portal=true)
 - [Exchange admin center](https://outlook.office365.com/ecp?azure-portal=true)

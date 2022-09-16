@@ -17,7 +17,7 @@ abstract: |
   - Describe how to use connectors to secure email transfer to partner organizations.
 prerequisites: |
  - Basic understanding of Microsoft 365. 
-iconUrl: /learn/achievements/plan-configure-transport-architecture.svg
+iconUrl: /training/achievements/plan-configure-transport-architecture.svg
 levels:
 - intermediate
 roles:

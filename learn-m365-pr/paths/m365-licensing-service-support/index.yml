@@ -10,10 +10,10 @@ metadata:
   ms.prod: learning-m365
 title: 'MS-900 Microsoft 365 Fundamentals: Demonstrate knowledge of Microsoft 365 licensing, service and support'
 prerequisites: |
-  - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a-Service (Saas). If you're unfamiliar with basic cloud computing concepts, we recommend you take [Discuss Azure fundamental concepts](/learn/modules/fundamental-azure-concepts/).
+  - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a-Service (Saas). If you're unfamiliar with basic cloud computing concepts, we recommend you take [Discuss Azure fundamental concepts](/training/modules/fundamental-azure-concepts/).
 summary: |
   Learn about how people and organizations can get the most out of their Microsoft 365 investments through adoption guidance, continuous support, and licensing options that meet their needs.
-iconUrl: /learn/achievements/microsoft-365-licensing-service-and-support.svg
+iconUrl: /training/achievements/microsoft-365-licensing-service-and-support.svg
 levels:
 - beginner
 roles:

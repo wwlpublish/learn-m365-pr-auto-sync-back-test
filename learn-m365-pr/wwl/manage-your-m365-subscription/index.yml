@@ -20,7 +20,7 @@ abstract: |
     - How you can monitor Microsoft 365 service health.
 prerequisites: |
   None
-iconUrl: /learn/achievements/manage-your-m365-subscription.svg
+iconUrl: /training/achievements/manage-your-m365-subscription.svg
 levels:
 - beginner
 roles:

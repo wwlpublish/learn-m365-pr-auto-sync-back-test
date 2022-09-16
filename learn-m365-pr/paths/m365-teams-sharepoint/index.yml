@@ -10,10 +10,10 @@ metadata:
   ms.prod: learning-m365
 title: Collaborate with SharePoint in Microsoft 365
 summary: |
-  Manage shared content with Microsoft SharePoint introduces you to the features and capabilities of SharePoint, and how it works with Microsoft 365. You'll learn about the different types of SharePoint sites, including hub sites, as well as information protection, reporting, and monitoring. You'll also learn how to use SharePoint file and folder sharing to optimize collaboration, how to share files externally, and how to manage SharePoint sites in the SharePoint admin center. This learning path can help you prepare for the [Microsoft 365 Certified: Teamwork Administrator Associate](/learn/certifications/m365-teamwork-administrator) certification.
+  Manage shared content with Microsoft SharePoint introduces you to the features and capabilities of SharePoint, and how it works with Microsoft 365. You'll learn about the different types of SharePoint sites, including hub sites, as well as information protection, reporting, and monitoring. You'll also learn how to use SharePoint file and folder sharing to optimize collaboration, how to share files externally, and how to manage SharePoint sites in the SharePoint admin center. This learning path can help you prepare for the [Microsoft 365 Certified: Teamwork Administrator Associate](/certifications/m365-teamwork-administrator) certification.
 prerequisites: | 
  - Basic understanding of Microsoft 365.
-iconUrl: /learn/achievements/collaborate-with-sharepoint-in-microsoft-365.svg
+iconUrl: /training/achievements/collaborate-with-sharepoint-in-microsoft-365.svg
 levels: 
 - intermediate
 roles:

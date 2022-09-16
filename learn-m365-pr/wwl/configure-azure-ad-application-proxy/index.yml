@@ -18,7 +18,7 @@ abstract: |
   - Publish an on-premises app for remote access and test the published app to verify that it functions correctly
 prerequisites: |
   None
-iconUrl: /learn/achievements/azure-ad-application-proxy.svg
+iconUrl: /training/achievements/azure-ad-application-proxy.svg
 levels:
 - intermediate
 roles:

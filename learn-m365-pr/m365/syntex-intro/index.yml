@@ -18,7 +18,7 @@ abstract: |
   - Identify the appropriate use cases for SharePoint Syntex
 prerequisites: | 
   - Basic understanding of SharePoint document library
-iconUrl: /learn/achievements/introduction-to-sharepoint-syntex.svg
+iconUrl: /training/achievements/introduction-to-sharepoint-syntex.svg
 ratingEnabled: true
 levels:
 - beginner

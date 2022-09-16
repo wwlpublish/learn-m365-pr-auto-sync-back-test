@@ -19,7 +19,7 @@ abstract: |
   - Define a corporate device enrollment policy that can limit enrollment and enable multi-factor authentication
 prerequisites: |
   None
-iconUrl: /learn/achievements/mobile-device-management-deploy.svg
+iconUrl: /training/achievements/mobile-device-management-deploy.svg
 levels:
 - intermediate
 roles:

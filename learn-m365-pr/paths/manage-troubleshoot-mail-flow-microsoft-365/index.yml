@@ -17,7 +17,7 @@ prerequisites: |
   - Ability to write PowerShell commands at an intermediate level
 summary: |
   Examines how to manage mail flow components in Exchange Online, Exchange Server, and Exchange hybrid deployments, and explores how to troubleshoot mail flow and mail transport issues
-iconUrl: /learn/achievements/m365-manage-mail-flow.svg
+iconUrl: /training/achievements/m365-manage-mail-flow.svg
 levels:
 - intermediate
 roles:

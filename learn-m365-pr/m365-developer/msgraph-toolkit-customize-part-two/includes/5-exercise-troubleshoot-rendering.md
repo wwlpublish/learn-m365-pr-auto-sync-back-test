@@ -3,7 +3,7 @@ In this exercise, you'll learn how to examine data available in Microsoft Graph 
 ## Prepare the web app
 
 1. In Visual Studio Code, open the **index.html** file.
-1. Reset its contents to the following HTML content. You'll replace `YOUR-CLIENT-ID` with the **Application (client) ID** from the Azure Active Directory app you registered in the previous module, **[Configure and style Microsoft Graph Toolkit components by using attributes and CSS](/learn/modules/msgraph-toolkit-customize-part-one)**:
+1. Reset its contents to the following HTML content. You'll replace `YOUR-CLIENT-ID` with the **Application (client) ID** from the Azure Active Directory app you registered in the previous module, **[Configure and style Microsoft Graph Toolkit components by using attributes and CSS](/training/modules/msgraph-toolkit-customize-part-one)**:
 
     ```html
     <html>

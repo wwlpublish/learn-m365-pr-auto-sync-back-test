@@ -71,4 +71,4 @@ news, and other important content without leaving Teams.
 Viva Connections offers various extensibility solutions. To learn
 about how the desktop experience and dashboard cards can be extended,
 take [the Extend Microsoft Viva Connections Learning
-path](/learn/paths/m365-extend-viva-connections/).
+path](/training/paths/m365-extend-viva-connections/).

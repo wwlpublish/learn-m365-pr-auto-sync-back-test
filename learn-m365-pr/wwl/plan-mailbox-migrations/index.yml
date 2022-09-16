@@ -17,7 +17,7 @@ abstract: |
   *   Determine whether DNS MX records must be changed during a mailbox migration.
 prerequisites: |
   None
-iconUrl: /learn/achievements/1-plan-mailbox-migrations.svg
+iconUrl: /training/achievements/1-plan-mailbox-migrations.svg
 levels:
 - intermediate
 roles:

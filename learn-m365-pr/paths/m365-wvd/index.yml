@@ -13,7 +13,7 @@ summary: Azure Virtual Desktop on Microsoft Azure is a desktop and app virtualiz
 prerequisites: | 
  - Familiarity with server and client management concepts and tools
  - Familiarity with Windows virtualization technologies, like Remote Desktop Services
-iconUrl: /learn/achievements/deliver-remote-desktops-and-apps-from-azure-with-windows-virtual-desktop.svg
+iconUrl: /training/achievements/deliver-remote-desktops-and-apps-from-azure-with-windows-virtual-desktop.svg
 levels: 
 - intermediate
 roles:

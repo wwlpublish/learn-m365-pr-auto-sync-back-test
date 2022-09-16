@@ -13,7 +13,7 @@ prerequisites: |
   - Experience deploying and configuring application packages, at scale, using software distribution tools such as Microsoft Intune or Configuration Manager
 summary: |
   Discover how to deploy and configure Microsoft Edge for all devices, in addition to how to use, enable, and configure Microsoft Search on your browser.
-iconUrl: /learn/achievements/deploy-configure-microsoft-edge-search-for-devices.svg
+iconUrl: /training/achievements/deploy-configure-microsoft-edge-search-for-devices.svg
 levels:
 - intermediate
 roles:

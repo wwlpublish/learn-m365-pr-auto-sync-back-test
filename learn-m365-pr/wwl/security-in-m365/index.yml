@@ -19,7 +19,7 @@ abstract: |
     - How Microsoft 365 helps you protect information.
 prerequisites: |
   None
-iconUrl: /learn/achievements/security-in-m365.svg
+iconUrl: /training/achievements/security-in-m365.svg
 levels:
 - beginner
 roles:

@@ -17,7 +17,7 @@ abstract: |
   - Manage mail flow for Exchange Online.
   - Describe and manage mail flow in hybrid environments.
 prerequisites: ""
-iconUrl: /learn/achievements/manage-mail-flow.svg
+iconUrl: /training/achievements/manage-mail-flow.svg
 levels:
 - intermediate
 roles:

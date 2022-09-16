@@ -4,8 +4,8 @@ metadata:
   title: Protect information in Microsoft Purview
   description:  Learn how to detect sensitive content as it's used and shared throughout your organization, in the cloud and on devices, and help prevent accidental data loss. 
   ms.date: 04/29/2022
-  author: beccarobins
-  ms.author: beccarobins
+  author: riswinto
+  ms.author: riswinto
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Protect information in Microsoft Purview
@@ -22,7 +22,7 @@ prerequisites: |
    - Cloud computing concepts
    - Microsoft 365 product and services
 
-iconUrl: /learn/achievements/protect-information.svg
+iconUrl: /training/achievements/protect-information.svg
 ratingEnabled: true
 levels:
 - intermediate

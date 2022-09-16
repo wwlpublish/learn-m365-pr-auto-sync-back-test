@@ -18,7 +18,7 @@ abstract: |
 prerequisites: |
   - Experience with PowerShell and the Exchange PowerShell module.
   - Significant experience deploying, managing, and troubleshooting Exchange environments.
-iconUrl: /learn/achievements/troubleshoot-hybrid-migration-issues.svg
+iconUrl: /training/achievements/troubleshoot-hybrid-migration-issues.svg
 levels:
 - advanced
 roles:

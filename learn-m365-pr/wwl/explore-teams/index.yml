@@ -21,7 +21,7 @@ abstract: |
 prerequisites: |
   - A proficient understanding of basic functional experience with Microsoft 365 services.
   - A proficient understanding of general IT practices, including using PowerShell.
-iconUrl: /learn/achievements/teams-explore.svg
+iconUrl: /training/achievements/teams-explore.svg
 levels:
 - intermediate
 roles:

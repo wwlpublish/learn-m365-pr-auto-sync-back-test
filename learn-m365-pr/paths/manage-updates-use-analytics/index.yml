@@ -16,7 +16,7 @@ prerequisites: |
   - Experience using Active Directory Domain Services
 summary: |
   Introduces the servicing options for Windows clients. Students will learn the different methods for deploying updates and how to configure windows update policies. Use Analytics to plan update strategies and monitor the reliability of devices.
-iconUrl: /learn/achievements/updates-manage-analytics.svg
+iconUrl: /training/achievements/updates-manage-analytics.svg
 levels:
 - intermediate
 roles:

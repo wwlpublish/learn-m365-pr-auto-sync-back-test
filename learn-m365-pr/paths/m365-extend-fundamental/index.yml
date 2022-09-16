@@ -9,9 +9,9 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Extend Microsoft 365 – Fundamental
-summary: "Microsoft 365 is an extensible platform enabling developers to create custom apps and extend Office applications. Learn about the options available to developers to extend and customize Office applications, SharePoint, and Microsoft Teams. This learning path can help you prepare for the [Microsoft 365 Certified: Developer Associate](/learn/certifications/m365-developer-associate) certification."
+summary: "Microsoft 365 is an extensible platform enabling developers to create custom apps and extend Office applications. Learn about the options available to developers to extend and customize Office applications, SharePoint, and Microsoft Teams. This learning path can help you prepare for the [Microsoft 365 Certified: Developer Associate](/certifications/m365-developer-associate) certification."
 prerequisites: None
-iconUrl: /learn/achievements/m365-extend-fundamental.svg
+iconUrl: /training/achievements/m365-extend-fundamental.svg
 levels:
 - beginner
 roles:

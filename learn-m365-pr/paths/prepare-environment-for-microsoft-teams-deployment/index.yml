@@ -14,7 +14,7 @@ prerequisites: |
   - A proficient understanding of general IT practices, including using PowerShell.
 summary: |
   Learn about the environment for a Teams deployment, including configuring access for external users, implementing security and compliance for Teams, and network requirements.
-iconUrl: /learn/achievements/prepare-environment-deployment.svg
+iconUrl: /training/achievements/prepare-environment-deployment.svg
 levels:
 - intermediate
 roles:

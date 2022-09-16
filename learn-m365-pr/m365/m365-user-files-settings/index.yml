@@ -17,7 +17,7 @@ abstract: |
   - Explain what OneDrive Known Folder Move is and how it works
   - List the steps involved in customizing users’ start menus and task bars  
 prerequisites: None
-iconUrl: /learn/achievements/get-modern-user-files-and-settings-migration.svg
+iconUrl: /training/achievements/get-modern-user-files-and-settings-migration.svg
 ratingEnabled: true
 levels:
 - intermediate

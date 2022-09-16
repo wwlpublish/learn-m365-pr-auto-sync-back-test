@@ -18,7 +18,7 @@ abstract: |
 prerequisites: | 
   - Knowledge of security fundamentals
   - Knowledge of Microsoft Azure and Microsoft 365 fundamentals
-iconUrl: /learn/achievements/cloud-app-security-information-protection.svg
+iconUrl: /training/achievements/cloud-app-security-information-protection.svg
 levels:
 - beginner
 roles:

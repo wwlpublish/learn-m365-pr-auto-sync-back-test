@@ -12,7 +12,7 @@ title: Migrate virtual machines and apps using Azure Migrate
 summary: "The **Virtual machine and app migration using Azure Migrate** learning path gives you a step-by-step process to help you understand, set up, assess, and migrate virtual and physical servers, databases, applications, and virtual desktops from on-premises to the Azure infrastructure. Azure Migrate now includes fully integrated and optimized migration-specific tools previously available only in Azure Site Recovery."
 prerequisites: | 
  - Basic understanding of Microsoft Azure.
-iconUrl: /learn/achievements/virtual-machine-app-migration-azure-migrate.svg
+iconUrl: /training/achievements/virtual-machine-app-migration-azure-migrate.svg
 levels: 
 - intermediate
 roles:

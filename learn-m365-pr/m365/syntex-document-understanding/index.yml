@@ -19,7 +19,7 @@ abstract: |
 prerequisites: | 
    - Basic understanding of SharePoint Syntex  
    - SharePoint Syntex setup 
-iconUrl:  /learn/achievements/create-and-apply-a-document-understanding-model.svg
+iconUrl:  /training/achievements/create-and-apply-a-document-understanding-model.svg
 ratingEnabled: true
 levels:
 - beginner

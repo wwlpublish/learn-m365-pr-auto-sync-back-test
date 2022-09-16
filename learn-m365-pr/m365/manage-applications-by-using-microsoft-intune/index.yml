@@ -16,7 +16,7 @@ abstract: |
   - Describe the available options for deploying Microsoft 365 Apps to Windows 10 devices.
   - Explain how Intune can be used to manage other applications.
 prerequisites: Basic understanding of Microsoft 365 unified endpoint management.  If you are not familiar with this, we recommend you take Introduction to Microsoft 365 unified endpoint management.
-iconUrl: /learn/achievements/manage-applications-by-using-microsoft-intune.svg
+iconUrl: /training/achievements/manage-applications-by-using-microsoft-intune.svg
 levels:
 - beginner
 roles:

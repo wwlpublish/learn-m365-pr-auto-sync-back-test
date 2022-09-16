@@ -15,7 +15,7 @@ abstract: |
   - Describe the directory and network bandwidth requirements for deploying Microsoft 365 Apps 
   - Explain the role of Azure Active Directory in Microsoft 365
 prerequisites: None
-iconUrl: /learn/achievements/get-modern-directory-and-network-readiness.svg
+iconUrl: /training/achievements/get-modern-directory-and-network-readiness.svg
 ratingEnabled: true
 levels:
 - intermediate

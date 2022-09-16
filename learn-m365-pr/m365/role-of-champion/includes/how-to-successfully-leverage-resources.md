@@ -8,7 +8,7 @@ Before you kick off your OKR program with Viva Goals, be sure to read our [Viva 
 
 ## The OKR cycle
 
-**At the beginning of the OKR program** once users have their accounts set up, Champions should direct their teams to the [Get Started with Viva Goals](/learn/paths/viva-goals-get-started) learning path. This course introduces OKRs as a goal-setting framework, shows how to write great OKRs, and provides software basics for using the platform. 
+**At the beginning of the OKR program** once users have their accounts set up, Champions should direct their teams to the [Get Started with Viva Goals](/training/paths/viva-goals-get-started) learning path. This course introduces OKRs as a goal-setting framework, shows how to write great OKRs, and provides software basics for using the platform. 
 
 OKR Champions can also send out the [OKR Writing Cheat Sheet Guide](https://go.microsoft.com/fwlink/?linkid=2194114) to help users get a strong sense for how to write effective OKRs. 
 

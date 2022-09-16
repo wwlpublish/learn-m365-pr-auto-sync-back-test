@@ -18,7 +18,7 @@ abstract: |
   *   Describe the deployment and servicing methods for Microsoft 365 Apps
 prerequisites: |
   - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a -Service (Saas).
-iconUrl: /learn/achievements/describe-endpoint-modernization-management-concepts-deployment-option.svg
+iconUrl: /training/achievements/describe-endpoint-modernization-management-concepts-deployment-option.svg
 levels:
 - beginner
 roles:

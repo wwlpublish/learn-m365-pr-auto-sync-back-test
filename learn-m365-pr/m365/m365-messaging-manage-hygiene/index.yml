@@ -20,7 +20,7 @@ abstract: |
   - Explain Microsoft Defender for Office 365 
 prerequisites: |
  - None
-iconUrl: /learn/achievements/manage-message-hygiene.svg
+iconUrl: /training/achievements/manage-message-hygiene.svg
 levels:
 - intermediate
 roles:

@@ -18,7 +18,7 @@ abstract: |
   - About advanced security in Synapse SQL, Power Query support in Synapse Pipelines, and Synapse Studio Knowledge Center
 prerequisites: |
   None
-iconUrl: /learn/achievements/build-real-time-enterprise-analytics-solutions.svg
+iconUrl: /training/achievements/build-real-time-enterprise-analytics-solutions.svg
 hidden: true
 levels:
 - beginner

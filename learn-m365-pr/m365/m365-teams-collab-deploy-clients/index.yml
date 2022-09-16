@@ -15,7 +15,7 @@ abstract: |
   - Describe the differences between the different types of Teams clients.
   - Explain how to deploy and turn on Teams clients.
 prerequisites: None
-iconUrl: /learn/achievements/deploy-ms-teams-clients.svg
+iconUrl: /training/achievements/deploy-ms-teams-clients.svg
 ratingEnabled: true
 levels:
 - beginner

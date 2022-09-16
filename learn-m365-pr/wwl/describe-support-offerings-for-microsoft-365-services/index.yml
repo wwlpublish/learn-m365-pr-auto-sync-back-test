@@ -18,7 +18,7 @@ abstract: |
   *   Describe how organizations can provide feedback on Microsoft 365 services
 prerequisites: |
   - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a -Service (Saas).
-iconUrl: /learn/achievements/describe-support-offerings-for-microsoft-365-services.svg
+iconUrl: /training/achievements/describe-support-offerings-for-microsoft-365-services.svg
 levels:
 - beginner
 roles:

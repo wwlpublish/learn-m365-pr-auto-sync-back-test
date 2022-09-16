@@ -19,7 +19,7 @@ abstract: |
   - Set up enrollment for Windows devices.
 prerequisites: |
   None
-iconUrl: /learn/achievements/mobile-device-management-enroll.svg
+iconUrl: /training/achievements/mobile-device-management-enroll.svg
 levels:
 - intermediate
 roles:

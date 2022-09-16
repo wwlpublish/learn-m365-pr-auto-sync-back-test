@@ -13,7 +13,7 @@ Now that you have completed this module, you will be able to:
 
 ## Learn more
 
-- [Overview of data loss prevention](/learn/modules/manage-data-loss-prevention-polices/)
+- [Overview of data loss prevention](/training/modules/manage-data-loss-prevention-polices/)
 - [What a DLP policy contains](/microsoft-365/compliance/data-loss-prevention-policies?what-a-dlp-policy-contains)
 - [How DLP policies work](/microsoft-365/compliance/data-loss-prevention-policies?how-dlp-policies-work)
 - [Sensitive information type entity definitions](/microsoft-365/compliance/sensitive-information-type-entity-definitions)

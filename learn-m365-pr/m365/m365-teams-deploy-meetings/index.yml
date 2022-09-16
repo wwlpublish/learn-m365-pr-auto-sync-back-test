@@ -18,7 +18,7 @@ abstract: |
   - Explain how to deploy Cloud Video Interoperability.
 prerequisites: | 
   - Complete the **Plan your Teams meeting deployment** learn module.
-iconUrl: /learn/achievements/deploy-meetings-using-teams.svg
+iconUrl: /training/achievements/deploy-meetings-using-teams.svg
 levels:
 - intermediate
 roles:

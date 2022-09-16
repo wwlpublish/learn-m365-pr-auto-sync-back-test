@@ -21,7 +21,7 @@ prerequisites:  |
   - Familiarity with Windows virtualization technologies, like Remote Desktop Services
   - (Optional) Access to an Azure environment prepared for Azure Virtual Desktop: Azure Active Directory (Azure AD) configured and integrated with Active Directory Domain Services (AD DS), and an Azure Virtual Network that's connected to your domain 
   - (Optional) User credentials for three user accounts in Azure AD: a user account that's assigned to the AD DS administrator role and two non-administrative user accounts
-iconUrl: /learn/achievements/deploy-windows-virtual-desktop.svg
+iconUrl: /training/achievements/deploy-windows-virtual-desktop.svg
 ratingEnabled: true
 levels:
 - intermediate

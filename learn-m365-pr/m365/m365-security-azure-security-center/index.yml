@@ -20,7 +20,7 @@ prerequisites: |
   - Familiarity with Azure administration and security.
   - Basic familiarity with Azure services, particularly Microsoft Defender for Cloud.
   - Familiarity with Azure virtual machines and virtual networking.
-iconUrl: /learn/achievements/azure-security-center-cloud-posture.svg
+iconUrl: /training/achievements/azure-security-center-cloud-posture.svg
 levels:
 - intermediate
 roles:

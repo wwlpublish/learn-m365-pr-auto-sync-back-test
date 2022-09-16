@@ -14,7 +14,7 @@ prerequisites: |
   - A proficient understanding of general IT practices, including using PowerShell.
 summary: |
   Learn the collaboration features in Microsoft Teams, including creating and managing teams, managing user experience for chat and channels, and managing apps.
-iconUrl: /learn/achievements/teams-manage-chat-channels.svg
+iconUrl: /training/achievements/teams-manage-chat-channels.svg
 levels:
 - intermediate
 roles:

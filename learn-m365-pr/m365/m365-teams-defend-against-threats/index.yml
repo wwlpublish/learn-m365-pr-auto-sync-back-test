@@ -17,7 +17,7 @@ abstract: |
   - Explain how to restrict and control access to Teams resources using Conditional Access.
 prerequisites: | 
   - Familiarity with Microsoft Teams administration
-iconUrl: /learn/achievements/defend-against-threats-in-teams.svg
+iconUrl: /training/achievements/defend-against-threats-in-teams.svg
 levels:
 - intermediate
 roles:

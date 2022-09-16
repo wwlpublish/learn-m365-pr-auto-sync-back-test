@@ -17,7 +17,7 @@ abstract: |
   - How to consume dataflows with Power Automate Connector
 prerequisites: |
   None
-iconUrl: /learn/achievements/explore-enterprise-grade-etl-data-preparation-using-dataflows.svg
+iconUrl: /training/achievements/explore-enterprise-grade-etl-data-preparation-using-dataflows.svg
 hidden: true
 levels:
 - beginner

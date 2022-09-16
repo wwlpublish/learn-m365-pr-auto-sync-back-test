@@ -15,7 +15,7 @@ prerequisites: |
   - Experience using Active Directory Domain Services
 summary: |
   Students will examine application management methods using on-premises and cloud-based solutions.
-iconUrl: /learn/achievements/application-explore-management.svg
+iconUrl: /training/achievements/application-explore-management.svg
 levels:
 - intermediate
 roles:

@@ -17,7 +17,7 @@ abstract: |
   - Enroll Windows 10 Devices to Intune
 prerequisites: |
   None
-iconUrl: /learn/achievements/windows-device-co-management.svg
+iconUrl: /training/achievements/windows-device-co-management.svg
 levels:
 - intermediate
 roles:

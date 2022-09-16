@@ -15,8 +15,8 @@ abstract: |
   - Describe what operations and capabilities are available in the Microsoft 365 Defender portal
   - Explain what technologies are connected by the Microsoft 365 Defender portal
 prerequisites: | 
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/learn/paths/m365-fundamentals/)
-iconUrl: /learn/achievements/overview-of-security-management-in-microsoft-365-security-center.svg
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/training/paths/m365-fundamentals/)
+iconUrl: /training/achievements/overview-of-security-management-in-microsoft-365-security-center.svg
 ratingEnabled: true
 levels:
 - intermediate

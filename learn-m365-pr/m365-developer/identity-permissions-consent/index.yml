@@ -23,7 +23,7 @@ prerequisites: |
   - Ability to develop with JavaScript or TypeScript at the intermediate level
   - Experience using Visual Studio Code at the beginner level
   - Access to a Microsoft 365 tenant
-iconUrl: /learn/achievements/identity-permissions-consent.svg
+iconUrl: /training/achievements/identity-permissions-consent.svg
 levels:
 - intermediate
 roles:

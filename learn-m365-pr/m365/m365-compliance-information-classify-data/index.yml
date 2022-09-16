@@ -4,8 +4,8 @@ metadata:
   title: Classify data for protection and governance
   description:  Learn about the information available to help you understand your data landscape and know your data.
   ms.date: 05/09/2022
-  author: beccarobins
-  ms.author: beccarobins
+  author: riswinto
+  ms.author: riswinto
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Classify data for protection and governance
@@ -21,7 +21,7 @@ prerequisites: |
    - Cloud computing concepts
    - Microsoft 365 product and services
 
-iconUrl:  /learn/achievements/classify-data-protection-governance.svg
+iconUrl:  /training/achievements/classify-data-protection-governance.svg
 ratingEnabled: true
 levels:
 - intermediate

@@ -17,7 +17,7 @@ abstract: |
   - Create insider risk management policies.
   - Manage insider risk management alerts and cases.
 prerequisites: ""
-iconUrl: /learn/achievements/implement-microsoft-purview-insider-risk-management.svg
+iconUrl: /training/achievements/implement-microsoft-purview-insider-risk-management.svg
 levels:
 - intermediate
 roles:

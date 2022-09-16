@@ -17,7 +17,7 @@ abstract: |
   - Explain how Windows 10/11 Enterprise licenses can be deployed automatically and without device restart.
 prerequisites: |
   None
-iconUrl: /learn/achievements/windows-subscription-activation.svg
+iconUrl: /training/achievements/windows-subscription-activation.svg
 levels:
 - intermediate
 roles:

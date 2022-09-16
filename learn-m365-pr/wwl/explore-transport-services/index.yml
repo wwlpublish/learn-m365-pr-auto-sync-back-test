@@ -17,7 +17,7 @@ abstract: |
   - Modify message flow for your organization.
   - Describe which transport agents exist and what they do.
 prerequisites: ""
-iconUrl: /learn/achievements/1-explore-transport-services.svg
+iconUrl: /training/achievements/1-explore-transport-services.svg
 levels:
 - intermediate
 roles:
