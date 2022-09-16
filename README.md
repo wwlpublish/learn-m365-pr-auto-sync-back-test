@@ -4,7 +4,7 @@ This repository contains the Learn modules and learning paths for Microsoft 365.
 
 ## Other repos for Microsoft Learn training
 
-* **Content repos:** To view the list of all content repos, see [GitHub repositories for Microsoft Learn training](https://review.learn.microsoft.com/learn-docs/docs/repos-msft-learn).
+* **Content repos:** To view the list of all Microsoft Learn training content repos, see [GitHub repositories for Microsoft Learn training](https://review.learn.microsoft.com/learn-docs/docs/repos-msft-learn).
 * **Code repos:** Code repos for individual modules follow the naming convention of `https://github.com/MicrosoftDocs/mslearn-module-name`. To find them all, search in GitHub for all repos in the MicrosoftDocs GitHub organization that start with `mslearn-`.
 
 ## Content author and learner experience
