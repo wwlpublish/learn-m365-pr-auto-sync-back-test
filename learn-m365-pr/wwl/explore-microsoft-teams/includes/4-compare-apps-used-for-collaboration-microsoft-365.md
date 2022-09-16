@@ -87,22 +87,20 @@ Custom app permission policies control the apps that are available for different
 
 Complete the following steps to add a permission policy:
 
-1.  In the left navigation of the Microsoft Teams admin center, go to **Teams apps** &gt; **Permission policies**.
-2.  Select **Add**.
-3.  Enter a name and description for the policy.
-4.  Under **Microsoft apps**, **Third-party apps**, and **Custom apps**, select one of the following options:
-    
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** &gt; **Permission policies**.
+1. Select **Add**.
+1. Enter a name and description for the policy.
+1. Under **Microsoft apps**, **Third-party apps**, and **Custom apps**, select one of the following options:
      -  Allow all apps.
      -  Allow specific apps and block all others.
      -  Block specific apps and allow all others.
      -  Block all apps.
-5.  If you selected the **Allow specific apps and block others** option, complete the following steps to add the apps that you want to allow:
-    
-    1.  Select **Allow apps**.
-    2.  Search for the apps that you want to allow, and then select **Add**. The search results are filtered to the app publisher (**Microsoft apps**, **Third-party apps**, or **Custom apps**).
-    3.  When you've chosen the list of apps, select **Allow**.
-6.  If you selected the **Block specific apps and allow all others** option, search for and add the apps that you want to block, and then select **Block**.
-7.  Select **Save**.
+1. If you selected the **Allow specific apps and block others** option, complete the following steps to add the apps that you want to allow:
+    1. Select **Allow apps**.
+    1. Search for the apps that you want to allow, and then select **Add**. The search results are filtered to the app publisher (**Microsoft apps**, **Third-party apps**, or **Custom apps**).
+    1. When you've chosen the list of apps, select **Allow**.
+1. If you selected the **Block specific apps and allow all others** option, search for and add the apps that you want to block, and then select **Block**.
+1. Select **Save**.
 
 ### Manage organization-wide app settings for Microsoft 365
 
@@ -110,13 +108,12 @@ The **org-wide app settings** enable an organization to control whether its user
 
 Complete the following steps to update the **org-wide app settings**:
 
-1.  On the **Permission policies** page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
-2.  Under **Third-party apps**, turn the following settings on or off to control access to third-party apps:
-    
+1. On the **Permission policies** page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
+1. Under **Third-party apps**, turn the following settings on or off to control access to third-party apps:
      -  **Allow third-party apps.** This option controls whether users can use third-party apps. When this setting is turned off, your users can't install or use any third-party apps.
      -  **Allow any new third-party apps published to the store by default.** This option controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
-3.  Under **Blocked apps**, add the apps you want to block across your organization. For any third-party app you want to allow in your organization, remove the app from this blocked apps list. When you block an app org-wide, the app is automatically blocked for all your users. It's also blocked even if the app is allowed in any app permission policies.
-4.  Select **Save** for the updated org-wide app settings to take effect.
+1. Under **Blocked apps**, add the apps you want to block across your organization. For any third-party app you want to allow in your organization, remove the app from this blocked apps list. When you block an app org-wide, the app is automatically blocked for all your users. It's also blocked even if the app is allowed in any app permission policies.
+1. Select **Save** for the updated org-wide app settings to take effect.
 
 **Additional Reading:** For more information related to managing app collaboration, see [Managing apps for Teams](/microsoftteams/manage-apps?azure-portal=true)**.**
 

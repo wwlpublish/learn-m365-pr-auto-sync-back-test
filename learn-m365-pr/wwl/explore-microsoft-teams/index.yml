@@ -3,7 +3,7 @@ uid: learn.wwl.explore-microsoft-teams
 metadata:
   title: Explore Microsoft Teams as a Microsoft 365 Enterprise Administrator
   description: "Explore Microsoft Teams as a Microsoft 365 Enterprise Administrator"
-  ms.date: 04/20/2022
+  ms.date: 09/16/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -23,7 +23,7 @@ abstract: |
   - Manage your organizational settings in Microsoft Teams
 prerequisites: |
   None
-iconUrl: /training/achievements/teams-explore.svg
+iconUrl: /learn/achievements/teams-explore.svg
 levels:
 - intermediate
 roles:
@@ -35,8 +35,10 @@ products:
 - office-365
 subjects:
 - cloud-computing
-- identity-access
 - communication
+- employee-engagement
+- identity-access
+- productivity
 units:
 - learn.wwl.explore-microsoft-teams.introduction
 - learn.wwl.explore-microsoft-teams.analyze-teams-infrastructure
