@@ -21,40 +21,46 @@ You can obtain a list of all the data types supported on a list using the lists 
 Let's look at an example. This TypeScript method requests the data type for the **Countries** list. It does this by requesting the `ListItemEntityTypeFullName` property on the list and returning it back as a string in a JavaScript promise:
 
 ```typescript
-private _getItemEntityType(): Promise<string> {
-  const endpoint: string = this.context.pageContext.web.absoluteUrl
-                                + `/_api/web/lists/getbytitle('Countries')`
-                                + `?$select=ListItemEntityTypeFullName`
+private async _getItemEntityType(): Promise<string> {
+  const endpoint: string = this.context.pageContext.web.absoluteUrl + 
+    `/_api/web/lists/getbytitle('Countries')/items?$select=Id,Title`;
 
-  return this.context.spHttpClient
-      .get(endpoint, SPHttpClient.configurations.v1)
-      .then(response => {
-        return response.json();
-      })
-      .then(jsonResponse => {
-        return jsonResponse.ListItemEntityTypeFullName;
-      }) as Promise<string>;
+  const response = await this.context.spHttpClient.get(
+    endpoint,
+    SPHttpClient.configurations.v1);
+
+  if (!response.ok) {
+    const responseText = await response.text();
+    throw new Error(responseText);
+  }
+
+  const responseJson = await response.json();
+
+  return responseJson.ListItemEntityTypeFullName;
 }
 ```
 
 Call this method before creating a new list item. The following TypeScript method calls the `_getItemEntityType()` method to first get the data type supported by the list. It then creates a JSON object for the new item, setting the `Title` property of the item and the `@odata.type` property:
 
 ```typescript
-private _addListItem(): Promise<SPHttpClientResponse> {
-  return this._getItemEntityType()
-    .then(spEntityType => {
-      const request: any = {};
+private async _addListItem(): Promise<SPHttpClientResponse> {
+  const itemEntityType = await this._getItemEntityType();
 
-      request.body = JSON.stringify({
-        Title: new Date().toUTCString(),
-        '@odata.type': spEntityType
-      });
+  /* eslint-disable @typescript-eslint/no-explicit-any */
+  const request: any = {};
+  request.body = JSON.stringify({
+    Title: new Date().toUTCString(),
+    '@odata.type': itemEntityType
+  });
+  /* eslint-enable @typescript-eslint/no-explicit-any */
 
-      const endpoint: string = this.context.pageContext.web.absoluteUrl
-                                  + `/_api/web/lists/getbytitle('Countries')/items`;
-      return this.context.spHttpClient.post(
-        endpoint, SPHttpClient.configurations.v1, request);
-    });
+  const endpoint = this.context.pageContext.web.absoluteUrl + 
+    `/_api/web/lists/getbytitle('Countries')/items`;
+
+  return this.context.spHttpClient.post(
+    endpoint,
+    SPHttpClient.configurations.v1,
+    request);
 }
 ```
 
@@ -79,26 +85,40 @@ The following TypeScript method demonstrates how to update an item in a SharePoi
 Finally, the `request` object's `body` property is set with the JSON string version of the object. Notice that unlike creating an item, the endpoint of the request includes the unique endpoint of the item to be updated:
 
 ```typescript
-private _updateListItem(): Promise<SPHttpClientResponse> {
-  // get the first item
-  return this.context.spHttpClient.get(/* code to get item from SP REST API */
-    )
-    .then((listItem: ICountryListItem) => {
-      // update item
-      listItem.Title = 'USA';
+private async _updateListItem(): Promise<SPHttpClientResponse> {
+  const getEndpoint: string = this.context.pageContext.web.absoluteUrl + 
+    `/_api/web/lists/getbytitle('Countries')/items?` +
+    `$select=Id,Title&$filter=Title eq 'United States'`;
 
-      // save it
-      const request: any = {};
-      request.headers = {
-        'X-HTTP-Method': 'MERGE',
-        'IF-MATCH': (listItem as any)['@odata.etag']
-      };
-      request.body = JSON.stringify(listItem);
+  const getResponse = await this.context.spHttpClient.get(
+    getEndpoint,
+    SPHttpClient.configurations.v1);
 
-      const endpoint: string = this.context.pageContext.web.absoluteUrl
-                                  + `/_api/web/lists/getbytitle('Countries')/items(${listItem.Id})`
-      return this.context.spHttpClient.post(endpoint, SPHttpClient.configurations.v1, request);
-    });
+  if (!getResponse.ok) {
+    const responseText = await getResponse.text();
+    throw new Error(responseText);
+  }
+
+  const responseJson = await getResponse.json();
+  const listItem: ICountryListItem = responseJson.value[0];
+
+  listItem.Title = 'USA';
+  /* eslint-disable @typescript-eslint/no-explicit-any */
+  const request: any = {};
+  request.headers = {
+    'X-HTTP-Method': 'MERGE',
+    'IF-MATCH': (listItem as any)['@odata.etag']
+  };
+  /* eslint-enable @typescript-eslint/no-explicit-any */
+  request.body = JSON.stringify(listItem);
+
+  const postEndpoint: string = this.context.pageContext.web.absoluteUrl + 
+    `/_api/web/lists/getbytitle('Countries')/items(${listItem.Id})`;
+
+  return this.context.spHttpClient.post(
+    postEndpoint,
+    SPHttpClient.configurations.v1,
+    request);
 }
 ```
 
@@ -113,23 +133,39 @@ You can also use the `IF-MATCH` HTTP request header to be sure you're deleting s
 The following TypeScript method demonstrates how to delete an item in a SharePoint list. After first obtaining an item from a list, it then modifies the request using the HTTP request headers `IF-MATCH` and `X-HTTP-METHOD` are added as previously discussed.
 
 ```typescript
-private _deleteListItem(): Promise<SPHttpClientResponse> {
-  // get the first item
-  return this.context.spHttpClient.get(/* code to get item from SP REST API */
-    )
-    .then((listItem: ICountryListItem) => {
-      // delete it
-      const request: any = {};
-      request.headers = {
-        'X-HTTP-Method': 'DELETE',
-        'IF-MATCH': '*'
-      };
+private async _deleteListItem(): Promise<SPHttpClientResponse> {
+  const getEndpoint = this.context.pageContext.web.absoluteUrl + 
+    `/_api/web/lists/getbytitle('Countries')/items?` +
+    `$select=Id,Title&$orderby=ID desc&$top=1`;
 
-      const endpoint: string = this.context.pageContext.web.absoluteUrl
-                                  + `/_api/web/lists/getbytitle('Countries')/items(${listItem.Id})`
+  const getResponse = await this.context.spHttpClient.get(
+    getEndpoint,
+    SPHttpClient.configurations.v1);
 
-      return this.context.spHttpClient.post(endpoint, SPHttpClient.configurations.v1, request);
-    });
+  if (!getResponse.ok) {
+    const responseText = await getResponse.text();
+    throw new Error(responseText);
+  }
+
+  const responseJson = await getResponse.json();
+  const listItem: ICountryListItem = responseJson.value[0];
+
+  /* eslint-disable @typescript-eslint/no-explicit-any */
+  const request: any = {};
+  request.headers = {
+    'X-HTTP-Method': 'DELETE',
+    'IF-MATCH': '*'
+  };
+  /* eslint-enable @typescript-eslint/no-explicit-any */
+  request.body = JSON.stringify(listItem);
+
+  const postEndpoint = this.context.pageContext.web.absoluteUrl + 
+    `/_api/web/lists/getbytitle('Countries')/items(${listItem.Id})`;
+
+  return this.context.spHttpClient.post(
+    postEndpoint,
+    SPHttpClient.configurations.v1,
+    request);
 }
 ```
 
