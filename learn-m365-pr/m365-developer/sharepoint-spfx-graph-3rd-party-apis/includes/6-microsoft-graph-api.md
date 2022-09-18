@@ -95,13 +95,13 @@ You can use Microsoft Graph in your custom SharePoint Framework solutions. Micro
 
 The SharePoint Framework API includes the Microsoft Graph JavaScript SDK and also handles the initialization of the client. This is handled using the existing Azure AD support to obtain an access token.
 
-To obtain an instance of the Microsoft Graph JavaScript SDK, use the `this.context.msGraphClientFactory.getClient()` method. This will return an instance of the `MSGraphClient` that is already configured with the necessary OAuth 2.0 access token:
+To obtain an instance of the Microsoft Graph JavaScript SDK, use the `this.context.msGraphClientFactory.getClient()` method. This will return an instance of the `MSGraphClientV3` that is already configured with the necessary OAuth 2.0 access token:
 
 ```typescript
 this.context.msGraphClientFactory
-     .getClient()
-     .then((client: MSGraphClient): void => {
-       // use MSGraphClient here
+     .getClient('3')
+     .then((client: MSGraphClientV3): void => {
+       // use MSGraphClientV3 here
      });
 ```
 
