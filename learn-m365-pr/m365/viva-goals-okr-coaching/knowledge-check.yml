@@ -44,12 +44,12 @@ quiz:
     - content: "False."
       isCorrect: false
       explanation: "Incorrect. Teams need to come to OKR coaching sessions familiar with related OKRs so they are ready to offer feedback and consideration."
-  - content: "What tool(s) do we recommend using for coaching sessions?"
+  - content: "What tools do we recommend using for coaching sessions?"
     choices:
     - content: "Any learning management system."
       isCorrect: false
       explanation: "Incorrect. A learning management system is a system of record for digital learning, not live coaching sessions."
-    - content: "Meeting chat and/or A whiteboard (or virtual whiteboard)."
+    - content: "Meeting chat or a whiteboard (or virtual whiteboard)."
       isCorrect: true
       explanation: "Correct. A large collaboration space for brainstorming and taking notes live during a session is helpful."
     - content: "Individual spreadsheets."

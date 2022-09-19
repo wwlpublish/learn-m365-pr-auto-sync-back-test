@@ -8,15 +8,14 @@ The goal is to identify the major work items, provide clarity on who is involved
 
 Let’s look at the final part of our scenario to see how that happens.
 
-|Attendees   |Coach   |
+|Coach   |Attendees   |
 |---------|---------|
-|<br> | *What do we need to do to be successful?*| 
-|If we want to increase the revenue per head of each of our sellers, we need to really focus on enablement. | *What specific area of sales enablement do you think will have the biggest impact?*
-|We’ve created a series of new multi-solution sales plays that include Surface and have seen great traction, but how would we know what will have the biggest impact?| *You won’t know 100% what will have the biggest impact, otherwise this conversation would be easy.   Part of creating and defining your OKRs is making a bet on what will work and learning when it does or doesn’t.* |
-| Ok, got it.  These sales plays have been a huge effort to create and implement and we believe they'll make a large splash on our customer base.| *Great, let’s mark that down as a key initiative.  Who will be leading that effort?* |
-| Lisa will be driving that forward. | *Great, Lisa can you take the action of bringing the appropriate group together to start executing on that enablement?* |
+| *What do we need to do to be successful?*|If we want to increase the revenue per head of each of our sellers, we need to really focus on enablement. | 
+|*What specific area of sales enablement do you think will have the biggest impact?*| We’ve created a series of new multi-solution sales plays that include Surface and have seen great traction, but how would we know what will have the biggest impact?|
+| *You won’t know 100% what will have the biggest impact, otherwise this conversation would be easy.   Part of creating and defining your OKRs is making a bet on what will work and learning when it does or doesn’t.* | Ok, got it.  These sales plays have been a huge effort to create and implement and we believe they'll make a large splash on our customer base.| 
+|*Great, let’s mark that down as a key initiative.  Who will be leading that effort?* | Lisa will be driving that forward. | *Great, Lisa can you take the action of bringing the appropriate group together to start executing on that enablement?* |
 
-<br>As you see, the conversation around projects is brief, but with a clear path toward next steps.  Avoid spending too much time in creating, assigning, and delving deep into projects.   
+As you see, the conversation around projects is brief, but with a clear path toward next steps.  Avoid spending too much time in creating, assigning, and delving deep into projects.   
 
 We don't have a rubric for Projects as they aren't a core part of the OKR, however they're crucial in helping teams understand how the work will get done to enable OKR success.
  

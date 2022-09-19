@@ -1,6 +1,7 @@
+
 Part of being an effective facilitator is being prepared for the meeting or conversation you're facilitating.  This means covering logistical details, familiarizing yourself with the team and their work, and ensuring the attendees themselves are prepared.   
 
-*What you should do to prepare as an OKR coach:* 
+## What you should do to prepare as an OKR coach 
 
 - Book time for discussion (2-3 hours).  We recommend going for three hours wherever possible, especially if this is the first time a team has gone through an OKR creation exercise with a coach.   
 
@@ -12,7 +13,7 @@ Part of being an effective facilitator is being prepared for the meeting or conv
 
 - Set expectations for what will occur during the session.  It’s just as important to clearly state what isn't intended to occur during the time as what is. 
 
-*What your attendees should do to prepare:* 
+## What your attendees should do to prepare 
 
 - Refresh themselves on OKRs (what they’re for, how to write them, etc.). 
 
