@@ -46,6 +46,18 @@ private onDeleteListItemClicked = (event: React.MouseEvent<HTMLButtonElement>): 
 
 Locate and open the **./src/webparts/spFxHttpClientDemo/SpFxHttpClientDemoWebpart.ts** file.
 
+At the top of the web part file, locate the following line:
+
+```typescript
+import { SPHttpClient } from '@microsoft/sp-http';
+```
+
+Add a reference to `SPHttpClientResponse` the existing list so it looks like this:
+
+```typescript
+import { SPHttpClient, SPHttpClientResponse } from '@microsoft/sp-http';
+```
+
 Within the `render()` method in the `SpFxHttpClientDemoWebPart` class, locate the code where the public properties are set on the React component `SpFxHttpClientDemo`. It will look like this:
 
 ```typescript
@@ -78,37 +90,43 @@ Update the public properties to add handlers for the events when buttons are pre
 Implement the three event handlers you just added.
 
 ```typescript
-private _onAddListItem = (): void => {
-  this._addListItem()
-    .then(() => {
-      this._getListItems()
-        .then(response => {
-          this._countries = response;
-          this.render();
-        });
-    });
+private _onAddListItem = async (): Promise<void> => {
+  const addResponse: SPHttpClientResponse = await this._addListItem();
+
+  if (!addResponse.ok) {
+    const responseText = await addResponse.text();
+    throw new Error(responseText);
+  }
+
+  const getResponse: ICountryListItem[] = await this._getListItems();
+  this._countries = getResponse;
+  this.render();
 }
 
-private _onUpdateListItem = (): void => {
-  this._updateListItem()
-    .then(() => {
-      this._getListItems()
-        .then(response => {
-          this._countries = response;
-          this.render();
-        });
-    });
+private _onUpdateListItem = async (): Promise<void> => {
+  const updateResponse: SPHttpClientResponse = await this._updateListItem();
+
+  if (!updateResponse.ok) {
+    const responseText = await updateResponse.text();
+    throw new Error(responseText);
+  }
+
+  const getResponse: ICountryListItem[] = await this._getListItems();
+  this._countries = getResponse;
+  this.render();
 }
 
-private _onDeleteListItem = (): void => {
-  this._deleteListItem()
-    .then(() => {
-      this._getListItems()
-        .then(response => {
-          this._countries = response;
-          this.render();
-        });
-    });
+private _onDeleteListItem = async (): Promise<void> => {
+  const deleteResponse: SPHttpClientResponse = await this._deleteListItem();
+
+  if (!deleteResponse.ok) {
+    const responseText = await deleteResponse.text();
+    throw new Error(responseText);
+  }
+
+  const getResponse: ICountryListItem[] = await this._getListItems();
+  this._countries = getResponse;
+  this.render();
 }
 ```
 
@@ -117,33 +135,42 @@ These event handlers will call different methods, which you'll add in the rest o
 Add the following methods to the `SpFxHttpClientDemoWebPart` class to add a new item to the list:
 
 ```typescript
-private _getItemEntityType(): Promise<string> {
-  return this.context.spHttpClient.get(
-      this.context.pageContext.web.absoluteUrl + `/_api/web/lists/getbytitle('Countries')?$select=ListItemEntityTypeFullName`,
-      SPHttpClient.configurations.v1)
-    .then(response => {
-      return response.json();
-    })
-    .then(jsonResponse => {
-      return jsonResponse.ListItemEntityTypeFullName;
-    }) as Promise<string>;
+private async _getItemEntityType(): Promise<string> {
+  const endpoint: string = this.context.pageContext.web.absoluteUrl + 
+    `/_api/web/lists/getbytitle('Countries')/items?$select=Id,Title`;
+
+  const response = await this.context.spHttpClient.get(
+    endpoint,
+    SPHttpClient.configurations.v1);
+
+  if (!response.ok) {
+    const responseText = await response.text();
+    throw new Error(responseText);
+  }
+
+  const responseJson = await response.json();
+
+  return responseJson.ListItemEntityTypeFullName;
 }
 
-private _addListItem(): Promise<SPHttpClientResponse> {
-  return this._getItemEntityType()
-    .then(spEntityType => {
-      const request: any = {};
-      request.body = JSON.stringify({
-        Title: new Date().toUTCString(),
-        '@odata.type': spEntityType
-      });
+private async _addListItem(): Promise<SPHttpClientResponse> {
+  const itemEntityType = await this._getItemEntityType();
 
-      return this.context.spHttpClient.post(
-        this.context.pageContext.web.absoluteUrl + `/_api/web/lists/getbytitle('Countries')/items`,
-        SPHttpClient.configurations.v1,
-        request);
-      }
-    ) ;
+  /* eslint-disable @typescript-eslint/no-explicit-any */
+  const request: any = {};
+  request.body = JSON.stringify({
+    Title: new Date().toUTCString(),
+    '@odata.type': itemEntityType
+  });
+  /* eslint-enable @typescript-eslint/no-explicit-any */
+
+  const endpoint = this.context.pageContext.web.absoluteUrl + 
+    `/_api/web/lists/getbytitle('Countries')/items`;
+
+  return this.context.spHttpClient.post(
+    endpoint,
+    SPHttpClient.configurations.v1,
+    request);
 }
 ```
 
@@ -162,33 +189,40 @@ The method `_addListItem()` first obtains the data type supported by the list ne
 Add the following method to the `SpFxHttpClientDemoWebPart` class to update an item in the list:
 
 ```typescript
-private _updateListItem(): Promise<SPHttpClientResponse> {
-  // get the first item
-  return this.context.spHttpClient.get(
-      this.context.pageContext.web.absoluteUrl + `/_api/web/lists/getbytitle('Countries')/items?$select=Id,Title&$filter=Title eq 'United States'`,
-      SPHttpClient.configurations.v1)
-    .then(response => {
-      return response.json();
-    })
-    .then(jsonResponse => {
-      return jsonResponse.value[0];
-    })
-    .then((listItem: ICountryListItem) => {
-      // update item
-      listItem.Title = 'USA';
-      // save it
-      const request: any = {};
-      request.headers = {
-        'X-HTTP-Method': 'MERGE',
-        'IF-MATCH': (listItem as any)['@odata.etag']
-      };
-      request.body = JSON.stringify(listItem);
+private async _updateListItem(): Promise<SPHttpClientResponse> {
+  const getEndpoint: string = this.context.pageContext.web.absoluteUrl + 
+    `/_api/web/lists/getbytitle('Countries')/items?` +
+    `$select=Id,Title&$filter=Title eq 'United States'`;
 
-      return this.context.spHttpClient.post(
-        this.context.pageContext.web.absoluteUrl + `/_api/web/lists/getbytitle('Countries')/items(${listItem.Id})`,
-        SPHttpClient.configurations.v1,
-        request);
-    });
+  const getResponse = await this.context.spHttpClient.get(
+    getEndpoint,
+    SPHttpClient.configurations.v1);
+
+  if (!getResponse.ok) {
+    const responseText = await getResponse.text();
+    throw new Error(responseText);
+  }
+
+  const responseJson = await getResponse.json();
+  const listItem: ICountryListItem = responseJson.value[0];
+
+  listItem.Title = 'USA';
+  /* eslint-disable @typescript-eslint/no-explicit-any */
+  const request: any = {};
+  request.headers = {
+    'X-HTTP-Method': 'MERGE',
+    'IF-MATCH': (listItem as any)['@odata.etag']
+  };
+  /* eslint-enable @typescript-eslint/no-explicit-any */
+  request.body = JSON.stringify(listItem);
+
+  const postEndpoint: string = this.context.pageContext.web.absoluteUrl + 
+    `/_api/web/lists/getbytitle('Countries')/items(${listItem.Id})`;
+
+  return this.context.spHttpClient.post(
+    postEndpoint,
+    SPHttpClient.configurations.v1,
+    request);
 }
 ```
 
@@ -205,30 +239,39 @@ This method will update an existing item in the list by doing the following step
 Add the following method to the `SpFxHttpClientDemoWebPart` class to delete the last item in the list:
 
 ```typescript
-private _deleteListItem(): Promise<SPHttpClientResponse> {
-  // get the last item
-  return this.context.spHttpClient.get(
-      this.context.pageContext.web.absoluteUrl + `/_api/web/lists/getbytitle('Countries')/items?$select=Id,Title&$orderby=ID desc&$top=1`,
-      SPHttpClient.configurations.v1)
-    .then(response => {
-      return response.json();
-    })
-    .then(jsonResponse => {
-      return jsonResponse.value[0];
-    })
-    .then((listItem: ICountryListItem) => {
-      const request: any = {};
-      request.headers = {
-        'X-HTTP-Method': 'DELETE',
-        'IF-MATCH': '*'
-      };
-      request.body = JSON.stringify(listItem);
+private async _deleteListItem(): Promise<SPHttpClientResponse> {
+  const getEndpoint = this.context.pageContext.web.absoluteUrl + 
+    `/_api/web/lists/getbytitle('Countries')/items?` +
+    `$select=Id,Title&$orderby=ID desc&$top=1`;
 
-      return this.context.spHttpClient.post(
-        this.context.pageContext.web.absoluteUrl + `/_api/web/lists/getbytitle('Countries')/items(${listItem.Id})`,
-        SPHttpClient.configurations.v1,
-        request);
-    });
+  const getResponse = await this.context.spHttpClient.get(
+    getEndpoint,
+    SPHttpClient.configurations.v1);
+
+  if (!getResponse.ok) {
+    const responseText = await getResponse.text();
+    throw new Error(responseText);
+  }
+
+  const responseJson = await getResponse.json();
+  const listItem: ICountryListItem = responseJson.value[0];
+
+  /* eslint-disable @typescript-eslint/no-explicit-any */
+  const request: any = {};
+  request.headers = {
+    'X-HTTP-Method': 'DELETE',
+    'IF-MATCH': '*'
+  };
+  /* eslint-enable @typescript-eslint/no-explicit-any */
+  request.body = JSON.stringify(listItem);
+
+  const postEndpoint = this.context.pageContext.web.absoluteUrl + 
+    `/_api/web/lists/getbytitle('Countries')/items(${listItem.Id})`;
+
+  return this.context.spHttpClient.post(
+    postEndpoint,
+    SPHttpClient.configurations.v1,
+    request);
 }
 ```
 

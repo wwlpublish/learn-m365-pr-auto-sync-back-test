@@ -21,11 +21,13 @@ Microsoft Teams enables individual teams to self-organize and collaborate across
 
  -  **Teams.** A team is designed to bring together a group of people who work closely to get things done. A team is typically a collection of people, content, or tools that's created to work on a project within an organization.
     
+    
      -  A private team is closed to only invited users.
      -  A public team is open to anyone within the organization (up to 10,000 members).
     
     A team can be dynamic for project-based work (for example, launching a product, creating a digital war room). A team can also be an ongoing entity, to reflect the internal structure of your organization (for example, departments and office locations). Conversations, files, and notes across team channels are only visible to members of the team.
  -  **Channels.** A channel is a dedicated section within a team to keep conversations organized by specific topics, projects, or disciplines. Files that you share in a channel (on the Files tab) are stored in SharePoint.
+    
     
      -  Channels are places where conversations happen and where the work actually gets done. Channels can be open to all team members or, if an organization needs a more select audience, they can be private. Standard channels are for conversations that everyone in a team can participate in. Private channels limit communication to a subset of people in a team.
      -  Channels are most valuable when extended with apps that include tabs, connectors, and bots that increase their value to the members of the team. To learn more, see [Apps, bots, &amp; connectors in Teams](/microsoftteams/deploy-apps-microsoft-teams-landing-page?azure-portal=true).
