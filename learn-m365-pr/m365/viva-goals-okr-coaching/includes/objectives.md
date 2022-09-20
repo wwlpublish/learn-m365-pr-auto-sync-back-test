@@ -29,11 +29,11 @@ Once you have a solid first draft of the objective, we recommend checking it aga
 ## Scenario example
 Let’s apply this rubric to the objective we reached in our scenario example.
 
-**Objective: Transform Surface to be an Enterprise Business**
-- Key Result
+**Objective: Transform Surface to be an enterprise business**
+- Key result
 - Project
 
-(We'll define the Key Results and Projects in the next units.)
+(We'll complete the key results and projects in the next units.)
 
  When looking at the above rubric, we can check each of the requirements off.  As noted through the team’s conversation, the objective does define an area of focus, is qualitative, inspires their team and is relevant for their business.
 

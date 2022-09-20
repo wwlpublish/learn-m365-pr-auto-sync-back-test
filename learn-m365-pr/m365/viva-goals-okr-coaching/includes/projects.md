@@ -18,7 +18,7 @@ Let’s look at the final part of our scenario to see how that happens.
 
 As you see, the conversation around projects is brief, but with a clear path toward next steps.  Avoid spending too much time in creating, assigning, and delving deep into projects.
 
-We don't have a rubric for Projects as they aren't a core part of the OKR, however they're crucial in helping teams understand how the work will get done to enable OKR success.
+We don't have a rubric for projects as they aren't a core part of the OKR, however they're crucial in helping teams understand how the work will get done to enable OKR success.
 
 ## Scenario example
 
@@ -26,10 +26,10 @@ Let’s apply this rubric to the projects we reached in our scenario example.
 
 **Objective: Transform Surface to be an enterprise business** 
 
-- Key Result: Increase our revenue per head across Surface sellers by 15%
-- Key Result: Onboard 15 new Surface partners
-- Key Result: Baseline our Enterprise MAU penetration with a target of 30%
-- Key Result: Grow our multi-national customer pipeline by 500 customers
+- Key result: Increase our revenue per head across Surface sellers by 15%
+- Key result: Onboard 15 new Surface partners
+- Key result: Baseline our Enterprise MAU penetration with a target of 30%
+- Key result: Grow our multi-national customer pipeline by 500 customers
 - Project: *Multi-solution Sales Enablement*
 - Project: *Multi-national Marketing Campaigns*
 - Project: *Enterprise MAU Telemetry*

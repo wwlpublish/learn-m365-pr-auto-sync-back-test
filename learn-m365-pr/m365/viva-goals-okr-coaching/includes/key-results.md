@@ -19,7 +19,7 @@ There are a few things that we want to highlight.  First, we started with the ke
 
 In the absence of a baseline, the coach pushed the team find a target that they could hold themselves accountable to.  In this case, it was to focus on a percentage increase rather than an absolute number.  This is a great tactic to use with teams that gets them to establish a baseline that can be used for future metrics. 
 
-The group isn't done after creating just one key result. Remember, there needs to be 3-5 key results per Objective, so we’ll continue with the scenario in creating more key results.
+The group isn't done after creating just one key result. Remember, there needs to be 3-5 key results per objective, so we’ll continue with the scenario in creating more key results.
 
 | Coach| Attendees |
 | ------ | ---------|
@@ -51,7 +51,7 @@ Just like the above objective rubric, we have a key result rubric that you can u
 - Do we have offsetting quantity and quality metrics?
 - Are all our key results necessary?
 - Is the success of all key results sufficient to say that we were successful for our objective?
-- Is our objective still the right area of focus for our Key Results?
+- Is our objective still the right area of focus for our key results?
 
 
 
@@ -60,10 +60,10 @@ Let’s apply this rubric to key results we reached in our scenario example.
 
 **Objective: Transform Surface to be an enterprise business** 
 
-- Key Result: *Increase our revenue per head across Surface sellers by 15%*
-- Key Result: *Onboard 15 new Surface partners*
-- Key Result: *Baseline our Enterprise MAU penetration with a target of 30%*
-- Key Result: *Grow our multi-national customer pipeline by 500 customers*
+- Key result: *Increase our revenue per head across Surface sellers by 15%*
+- Key result: *Onboard 15 new Surface partners*
+- Key result: *Baseline our Enterprise MAU penetration with a target of 30%*
+- Key result: *Grow our multi-national customer pipeline by 500 customers*
 
 (We'll complete the projects in another unit.)
 

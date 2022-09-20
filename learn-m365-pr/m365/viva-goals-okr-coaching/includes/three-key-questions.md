@@ -1,14 +1,14 @@
 There are three questions that you can use in your toolkit as an OKR coach.  If you remember anything from this module, remember these three questions.  Write them down, speak them verbally, do whatever it takes for you to remember.  They will be the greatest resource at your disposal as an OKR coach.
 
-*Objective Question:*
+*Objective question:*
 
 **What is the most important area of our business that we need to focus on?**
 
-*Key Result Question:*
+*Key result question:*
 
 **How will we know we were successful?**
 
-*Project Question:*
+*Project question:*
 
 **What do we need to do to be successful?**
 
