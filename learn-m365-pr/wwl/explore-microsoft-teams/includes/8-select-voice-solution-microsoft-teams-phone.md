@@ -61,7 +61,7 @@ To configure auto attendants and call queues, organizations need the following r
 
 #### Voicemail
 
-Cloud Voicemail is automatically set up and provisioned for all Teams users. Cloud Voicemail is powered by Azure Voicemail services. It supports voicemail deposits to Exchange mailboxes only. It doesn't support third-party email systems. Cloud Voicemail includes voicemail transcription, which is enabled for all users in your organization by default. Your business needs may require that you disable voicemail transcription for specific users or everyone throughout the organization.<br>
+Cloud Voicemail is automatically set up and provisioned for all Teams users. Cloud Voicemail is powered by Azure Voicemail services. It supports voicemail deposits to Exchange mailboxes only. It doesn't support third-party email systems. Cloud Voicemail includes voicemail transcription, which is enabled for all users in your organization by default. Your business needs may require that you disable voicemail transcription for specific users or everyone throughout the organization.
 
 #### Calling identity
 
@@ -98,9 +98,9 @@ However, your situation may be more complex. For example, you may have offices i
 
 Microsoft Teams Phone provides complete PBX capabilities for your organization. However, to enable users to make calls outside your organization, you need to connect Microsoft Teams Phone to the Public Switched Telephone Network (PSTN). To connect Microsoft Teams Phone to the PSTN, you can choose one of the following options:
 
- -  [Microsoft Teams Phone with Calling Plan](/microsoftteams/pstn-connectivity#phone-system-with-calling-plan?azure-portal=true). An all-in-the-cloud solution with Microsoft as your PSTN carrier.<br>
- -  [Microsoft Teams Phone with your own PSTN carrier by using Operator Connect](/microsoftteams/operator-connect-plan?azure-portal=true). If your existing operator participates in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams.<br>
- -  [Microsoft Teams Phone with your own PSTN carrier by using Direct Routing](/microsoftteams/pstn-connectivity#phone-system-with-direct-routing?azure-portal=true). Connects your on-premises environment to Teams.<br>
+ -  [Microsoft Teams Phone with Calling Plan](/microsoftteams/pstn-connectivity#phone-system-with-calling-plan?azure-portal=true). An all-in-the-cloud solution with Microsoft as your PSTN carrier.
+ -  [Microsoft Teams Phone with your own PSTN carrier by using Operator Connect](/microsoftteams/operator-connect-plan?azure-portal=true). If your existing operator participates in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams.
+ -  [Microsoft Teams Phone with your own PSTN carrier by using Direct Routing](/microsoftteams/pstn-connectivity#phone-system-with-direct-routing?azure-portal=true). Connects your on-premises environment to Teams.
 
 Organizations can choose a combination of connectivity options. By doing so, an organization can design a solution for a complex environment, or manage a multi-step migration. Most Microsoft Teams Phone features are the same regardless of the PSTN connectivity option you choose. There are some differences in functionality that may affect how you configure certain Microsoft Teams Phone features, such as call routing and emergency calling.
 
@@ -117,4 +117,4 @@ When an organization migrates its voice solution, there are four possible callin
      -  Coordinate that move with the port of that user’s phone number to a Microsoft Calling Plan.
      -  Assign a new subscriber number from available regions.
 
-**Additional reading**. For more information on each of these calling scenarios, see [PSTN considerations for upgrading to Teams from Skype for Business on-premises](/microsoftteams/upgrade-to-teams-on-prem-pstn-considerations?azure-portal=true).<br>
+**Additional reading**. For more information on each of these calling scenarios, see [PSTN considerations for upgrading to Teams from Skype for Business on-premises](/microsoftteams/upgrade-to-teams-on-prem-pstn-considerations?azure-portal=true).
