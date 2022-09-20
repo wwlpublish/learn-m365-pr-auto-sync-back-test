@@ -3,7 +3,7 @@ uid: learn-m365.msteams-messaging-extensions.3-exercise-action-commands
 metadata:
   title: Exercise - Create action command messaging extensions
   description: In this exercise, you'll create an action command messaging extension for a custom Microsoft Teams app.
-  ms.date: 05/20/2022
+  ms.date: 09/13/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
