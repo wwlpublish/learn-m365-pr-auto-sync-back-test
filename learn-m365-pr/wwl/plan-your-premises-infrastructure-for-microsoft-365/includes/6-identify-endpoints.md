@@ -166,7 +166,7 @@ c1.microsoft.com
 client.hip.live.com
 contentstorage.osi.office.net
 dgps.support.microsoft.com
-docs.microsoft.com
+learn.microsoft.com
 groupsapi-prod.outlookgroups.ms
 groupsapi2-prod.outlookgroups.ms
 groupsapi3-prod.outlookgroups.ms

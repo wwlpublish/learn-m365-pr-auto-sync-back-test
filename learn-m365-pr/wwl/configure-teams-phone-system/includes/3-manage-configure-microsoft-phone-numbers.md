@@ -26,7 +26,7 @@ If you don't already have them, to purchase a Teams Phone add-on license and Cal
 
 Teams Phone is a license enables the ability to make and receive phone calls, turning Teams into a "Private Branch Exchange (PBX)" or telephony system. However, to make calls you also need a phone number and Public Switched Telephone Network (PSTN) connectivity. This functionality can be provided by Microsoft Calling plans (an add-on license) or via third-party operators with Direct Routing or Operator Connect.
 
-In this unit, we're focused on Microsoft Calling Plans. You can buy Domestic plans that only allow calling within the country/region of the user and have the option of pay per minute on communication credits for international calls or Domestic and International plans that provide minutes for both domestic and international calls. The number of minutes bundled depends on the country/region, and the list of countries/regions that have calling plans is constantly expanding. For the latest list of available countries/regions check the Microsoft docs-link in the references section.
+In this unit, we're focused on Microsoft Calling Plans. You can buy Domestic plans that only allow calling within the country/region of the user and have the option of pay per minute on communication credits for international calls or Domestic and International plans that provide minutes for both domestic and international calls. The number of minutes bundled depends on the country/region, and the list of countries/regions that have calling plans is constantly expanding. For the latest list of available countries/regions check the Microsoft Docs link in the references section.
 
 Having one or more Teams Phone licenses and calling plan licenses on your tenant will unlock the ability to acquire PSTN phone numbers from Microsoft.
 
@@ -124,7 +124,7 @@ For the United Kingdom, United States, and Canada you can use the porting wizard
 
 1. Review the information provided about the porting process, Select **Next**.
 
-1. Select a **Country/region.** Some regions will only support porting in service numbers. Review the reference links for a link to Microsoft docs.
+1. Select a **Country/region.** Some regions will only support porting in service numbers. Review the reference links for a link to Microsoft Docs.
 
 1. Select the **country/region** and **type** of phone numbers you wish to port in. The type options are based on the country/region you select
 
@@ -152,7 +152,7 @@ For all countries/regions other than the United Kingdom, United States, and Cana
 
 To manually submit a new port order, you must do the following steps in order:
 
-1. Download the Letter of Authorization (LOA) for the country/region. Available from Microsoft docs. Link in the resources section.
+1. Download the Letter of Authorization (LOA) for the country/region. Available from Microsoft Docs. Link in the resources section.
 
 1. Complete the form.
 
