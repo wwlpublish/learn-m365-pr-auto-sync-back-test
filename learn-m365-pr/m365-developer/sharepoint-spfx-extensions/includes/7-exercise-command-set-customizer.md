@@ -1,7 +1,7 @@
 In this exercise, you'll create a SharePoint Framework (SPFx) command set extension that will display custom buttons in a SharePoint list.
 
 > [!IMPORTANT]
-> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
+> The instructions below assume you're using v1.15.2 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
 
 Open a command prompt and change to the folder where you want to create the project.
 
@@ -56,22 +56,44 @@ Locate and open the **./src/extensions/commandSetDemo/CommandSetDemoCommandSet.t
 messagePrefix: string;
 ```
 
-Locate the method `onListViewUpdated()` in the `CommandSetDemoCommandSet` class and replace its contents with the following code. This code will show or hide two of the buttons depending on the number of items selected in the list.
+Locate the method `onInit()` in the `CommandSetDemoCommandSet` class and replace its contents with the following code. This code controls what happens when the extension is initialized.
 
 ```typescript
+Log.info(LOG_SOURCE, 'Initialized CommandSetDemoCommandSet');
+
+const one_item_selected: Command = this.tryGetCommand('ONE_ITEM_SELECTED');
+one_item_selected.visible = false;
+
+const two_item_selected: Command = this.tryGetCommand('TWO_ITEM_SELECTED');
+two_item_selected.visible = false;
+
+this.context.listView.listViewStateChangedEvent.add(this, this._onListViewStateChanged);
+
+return Promise.resolve();
+```
+
+Locate the event handler `_onListViewStateChanged` in the `CommandSetDemoCommandSet` class and replace its contents with the following code. This code will show or hide two of the buttons depending on the number of items selected in the list.
+
+```typescript
+Log.info(LOG_SOURCE, 'List view state changed');
+
 const one_item_selected: Command = this.tryGetCommand('ONE_ITEM_SELECTED');
 if (one_item_selected) {
-  one_item_selected.visible = event.selectedRows.length === 1;
+  one_item_selected.visible = this.context.listView.selectedRows?.length === 1;
 }
 const two_item_selected: Command = this.tryGetCommand('TWO_ITEM_SELECTED');
 if (two_item_selected) {
-  two_item_selected.visible = event.selectedRows.length === 2;
+  two_item_selected.visible = this.context.listView.selectedRows?.length === 2;
 }
+
+// You should call this.raiseOnChage() to update the command bar
+this.raiseOnChange();
 ```
 
 Locate the method `onExecute()` in the `CommandSetDemoCommandSet` class and replace its contents with the following code. This code controls what happens when custom button is selected.
 
 ```typescript
+/* eslint-disable @typescript-eslint/no-floating-promises */
 switch (event.itemId) {
   case 'ONE_ITEM_SELECTED':
     Dialog.alert(`${this.properties.messagePrefix} ONE_ITEM_SELECTED command checked; Title = ${event.selectedRows[0].getValueByName('Title')}`);
@@ -85,6 +107,7 @@ switch (event.itemId) {
   default:
     throw new Error('Unknown command');
 }
+/* eslint-enable @typescript-eslint/no-floating-promises */
 ```
 
 ## Update the deployment configuration
