@@ -61,11 +61,8 @@ Let’s apply this rubric to key results we reached in our scenario example.
 **Objective: Transform Surface to be an enterprise business** 
 
 - Key Result: *Increase our revenue per head across Surface sellers by 15%*
-
 - Key Result: *Onboard 15 new Surface partners*
-
 - Key Result: *Baseline our Enterprise MAU penetration with a target of 30%*
-
 - Key Result: *Grow our multi-national customer pipeline by 500 customers*
 
 (We'll complete the projects in another module.)

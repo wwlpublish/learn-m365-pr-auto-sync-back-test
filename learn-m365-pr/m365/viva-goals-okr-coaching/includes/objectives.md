@@ -21,11 +21,8 @@ Let’s walk through a scenario in which this question (and follow ups) unfolds.
 Once you have a solid first draft of the objective, we recommend checking it against this rubric with the team.  
 
 - Does the objective define a specific area of focus?
-
 - Is the objective qualitative?
-
 - Does the objective inspire our team?
-
 - Is the objective relevant for our business?
 
 
@@ -35,13 +32,9 @@ Let’s apply this rubric to the objective we reached in our scenario example.
 **Objective: Transform Surface to be an Enterprise Business**
 
 - Key Result: [To be completed]
-
 - Key Result: [To be completed]
-
 - Key Result: [To be completed]
-
 - Project: [To be completed]
-
 - Project: [To be completed]
 
  When looking at the above rubric, we can check each of the requirements off.  As noted through the team’s conversation, the objective does define an area of focus, is qualitative, inspires their team and is relevant for their business.
