@@ -23,7 +23,7 @@ Add items to the list by entering the names of different countries as shown in t
 Open a command prompt and change to the folder where you want to create the project.
 
 > [!IMPORTANT]
-> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
+> The instructions below assume you're using v1.15.2 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
 
 Run the SharePoint Yeoman generator by executing the following command:
 
@@ -36,7 +36,7 @@ Use the following to complete the prompt that is displayed (*if more options are
 - **What is your solution name?**: SPFxHttpClientDemo
 - **Which type of client-side component to create?**: Web Part
 - **What is your Web Part name?**: SPFxHttpClientDemo
-- **Which framework would you like to use?** React
+- **Which template would you like to use?** React
 
 After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When npm completes downloading all dependencies, open the project in **Visual Studio Code**.
 
@@ -119,7 +119,6 @@ Locate the `render()` method and replace it with the following code. This will c
 public render(): React.ReactElement<ISpFxHttpClientDemoProps> {
   const {
     spListItems,
-    onGetListItems,
     isDarkTheme,
     environmentMessage,
     hasTeamsContext,
@@ -168,7 +167,7 @@ Locate and open the **./src/webparts/spFxHttpClientDemo/SpFxHttpClientDemoWebPar
 After the existing `import` statements at the top of the file, add the following import statements:
 
 ```typescript
-import { SPHttpClient, SPHttpClientResponse } from '@microsoft/sp-http';
+import { SPHttpClient } from '@microsoft/sp-http';
 import { ICountryListItem } from '../../models';
 ```
 
@@ -188,28 +187,29 @@ onGetListItems: this._onGetListItems,
 Add the following method as an event handler to the `SpFxHttpClientDemoWebPart` class. This method calls another method (*that you'll add in the next step*) that returns a collection of list items. Once those items are returned via a JavaScript Promise, the method updates the internal `_countries` member and re-renders the web part. This will bind the collection of countries returned by the `_getListItems()` method to the public property on the React component that will render the items.
 
 ```typescript
-private _onGetListItems = (): void => {
-  this._getListItems()
-    .then(response => {
-      this._countries = response;
-      this.render();
-    });
+private _onGetListItems = async (): Promise<void> => {
+  const response: ICountryListItem[] = await this._getListItems();
+  this._countries = response;
+  this.render();
 }
 ```
 
 Add the following method to the `SpFxHttpClientDemoWebPart` class. The method retrieves list items from the **Countries** list using the SharePoint REST API. It will use the `spHttpClient` object to query the SharePoint REST API. When it receives the response, it calls `response.json()` that will process the response as a JSON object and then returns the `value` property in the response to the caller. The `value` property is a collection of list items that match the interface created previously.
 
 ```typescript
-private _getListItems(): Promise<ICountryListItem[]> {
-  return this.context.spHttpClient.get(
+private async _getListItems(): Promise<ICountryListItem[]> {
+  const response = await this.context.spHttpClient.get(
     this.context.pageContext.web.absoluteUrl + `/_api/web/lists/getbytitle('Countries')/items?$select=Id,Title`,
-    SPHttpClient.configurations.v1)
-    .then(response => {
-      return response.json();
-    })
-    .then(jsonResponse => {
-      return jsonResponse.value;
-    }) as Promise<ICountryListItem[]>;
+    SPHttpClient.configurations.v1);
+
+  if (!response.ok) {
+    const responseText = await response.text();
+    throw new Error(responseText);
+  }
+
+  const responseJson = await response.json();
+
+  return responseJson.value as ICountryListItem[];
 }
 ```
 
