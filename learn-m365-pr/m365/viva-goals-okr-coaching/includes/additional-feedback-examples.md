@@ -4,14 +4,16 @@ Review these examples to familiarize yourself with the type of OKRs you’ll lik
 
 ## Example 1 
 
-**Objective: Exceed Business Results**
+### Initial OKR
+
+**Objective: Exceed business results**
 
 - KR: Increase our total market cap by 4% 
 - KR: Drive an increase in our SaaS product sales from 12M to 18M 
 - KR: Increase our SaaS product NPS by 1.2 points (from 7.3 to 8.5) 
 - KR: Achieve the ‘leaders’ category in Gartner’s Magic Quadrant for our market 
  
-<u>Feedback:</U>  
+### Feedback  
 
 The objective is broad. (Remember our guiding question: “What is the most important area of our business we need to focus on?”) 
 
@@ -21,9 +23,11 @@ Ask the following questions:
 
 - *How does this help me understand where to focus?*
 
-NEW OBJECTIVE: Position our SaaS offering as a leader in the market to create future opportunities for the company.
+**New objective: Position our SaaS offering as a leader in the market to create future opportunities for the company.**
 
 ## Example 2
+
+### Initial OKR
 
 **Objective: Invest in our EMEA workforce to accelerate customer growth in Europe**
 
@@ -32,29 +36,30 @@ NEW OBJECTIVE: Position our SaaS offering as a leader in the market to create fu
 - KR: Reduce the NA customer success team involvement in EMEA customer interactions 
 - KR: Achieve a workplace happiness score of 87 across our entire EMEA employee base 
 
-<u> Feedback: </U>
+### Feedback
 
 The first key result isn’t measurable and instead is a broad “to-do” type statement.
 
 - Ask the question *“What is the impact of that work?”* 
 
-NEW KEY RESULT: Increase the close rate of our EMEA sales team from 45% to 65%
+**New key result: Increase the close rate of our EMEA sales team from 45% to 65%**
 
 While the third key result is measurable, it doesn’t have specific targets. 
 
 - Ask the question: “How will we measure the success of reducing team involvement” 
 
-NEW KEY RESULT: Reduce the total hours spent by the NA customer success team on EMEA customers by 35% 
+**New key result: Reduce the total hours spent by the NA customer success team on EMEA customers by 35%** 
 
 ## Example 3 
 
+### Initial OKR
 **Objective: Make our customers so happy that they refer their colleagues and friends**
 
 - KR: Increase our NPS on our core product by eight points 
 - KR: Close 50 new deals through referrals 
 - KR: Reduce our customer churn by 20%  
 
-<u>Feedback: </u>
+### Feedback
 
 While each of these key results is measurable, they're examples of key results with a lagging indicator. 
 
@@ -68,10 +73,11 @@ Potential leading indicators could be:
 
 ## Example 4 
 
+### Initial OKR
 **Objective: Boost customer acquisition through our marketing efforts to grow the funnel**
 
 - KR: Increase our average SEO ranking from 5.4 to 3.2 
-- KR: Decrease our customer acquisition cost from $57 to $32 
+- KR: Decrease our customer acquisition cost from \$57 to \$32 
 - KR: Increase our social media marketing budget by $400k 
 - KR: Increase our MQLs by 35% 
 - KR: Release 5 net-new press articles 
@@ -79,7 +85,7 @@ Potential leading indicators could be:
 - KR: Produce three new product videos 
 - KR: Increase our total brand impressions by 2M 
 
-<u>Feedback:</u>
+### Feedback
 
 This OKR is trying to fit everything in their business into their OKR. 
 
@@ -88,24 +94,24 @@ This OKR is trying to fit everything in their business into their OKR.
 Target narrowing down to 3-5 KRs – if everything is a priority, nothing is. 
 
 ## Example 5 
-
+### Initial OKR 
 **Objective: Create beautiful products to drive more customer delight**
 
 - KR: Ship our new SSO integration experience for enterprise customers
 - KR: Define our product roadmap for FY23 
 - KR: Increase our NPS by 12 points 
 
-<u>Feedback:</u>
+### Feedback
 
 This objective reads a little more like a mission statement: it’s “evergreen.” 
 
 - Ask the question: *“What is the most important thing we need to focus on for our business?”* 
 
-NEW OBJECTIVE: Create a beautiful user experience in our Employee Experience product to drive more engagement at launch.
+**New objective: Create a beautiful user experience in our Employee Experience product to drive more engagement at launch.**
  
 
 Key results 1 and 2 read more like projects rather than key results. 
 
 - Ask the question: *“What is the impact of that work?”* 
 
-NEW KEY RESULT: Reduce customer sign-on support tickets by 25%
+**New key result: Reduce customer sign-on support tickets by 25%**
