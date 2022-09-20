@@ -31,11 +31,8 @@ Let’s apply this rubric to the objective we reached in our scenario example.
 
 **Objective: Transform Surface to be an Enterprise Business**
 
-- Key Result: [To be completed]
-- Key Result: [To be completed]
-- Key Result: [To be completed]
-- Project: [To be completed]
-- Project: [To be completed]
+
+(We'll define the Key Results in the next unit.)
 
  When looking at the above rubric, we can check each of the requirements off.  As noted through the team’s conversation, the objective does define an area of focus, is qualitative, inspires their team and is relevant for their business.
 
