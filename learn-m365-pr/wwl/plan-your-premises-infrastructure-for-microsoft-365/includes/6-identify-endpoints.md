@@ -171,6 +171,7 @@ groupsapi-prod.outlookgroups.ms
 groupsapi2-prod.outlookgroups.ms
 groupsapi3-prod.outlookgroups.ms
 groupsapi4-prod.outlookgroups.ms
+learn.microsoft.com
 msdn.microsoft.com
 platform.linkedin.com
 products.office.com

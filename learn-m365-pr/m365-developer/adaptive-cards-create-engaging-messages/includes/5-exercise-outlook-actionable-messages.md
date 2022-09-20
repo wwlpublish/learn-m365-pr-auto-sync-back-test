@@ -76,14 +76,14 @@ Enter **Mail.S** in the **Select permissions** search box and select the **Mail.
 In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Yes** button in the consent dialog to grant all users in your organization this permission.
 
 > [!NOTE]
-> The option to **Grant admin consent** here in the Azure AD admin center is pre-consenting the permissions to the users in the tenant to simplify the exercise. This approach allows the console application to use the [resource owner password credential grant](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc), so the user isn't prompted to grant consent to the application that simplifies the process of obtaining an OAuth access token. You could elect to implement alternative options such as the [device code flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-device-code) to utilize dynamic consent as another option.
+> The option to **Grant admin consent** here in the Azure AD admin center is pre-consenting the permissions to the users in the tenant to simplify the exercise. This approach allows the console application to use the [resource owner password credential grant](/azure/active-directory/develop/v2-oauth-ropc), so the user isn't prompted to grant consent to the application that simplifies the process of obtaining an OAuth access token. You could elect to implement alternative options such as the [device code flow](/azure/active-directory/develop/v2-oauth2-device-code) to utilize dynamic consent as another option.
 
 ## Create .NET Core console application
 
   > [!IMPORTANT]
 > In most cases, installing the latest version of tools is the best option. The versions listed here were used when this module was published and last tested.
 >
-> - [.NET SDK](https://docs.microsoft.com/dotnet/core/install/) - 6.0.400
+> - [.NET SDK](/dotnet/core/install/) - 6.0.400
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 

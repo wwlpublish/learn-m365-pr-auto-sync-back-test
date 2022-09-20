@@ -41,7 +41,7 @@ Let's take a look at a simple example. The following JSON implements a basic car
     {
       "type": "Action.OpenUrl",
       "title": "Learn More",
-      "url": "https://docs.microsoft.com/outlook/actionable-messages"
+      "url": "https://learn.microsoft.com/outlook/actionable-messages"
     }
   ]
 }
@@ -73,7 +73,7 @@ Actionable messages are added to email messages by adding a `<script>` tag in th
   </script>
 </head>
 <body>
-Visit the <a href="https://docs.microsoft.com/outlook/actionable-messages">Outlook Dev Portal</a> to learn more about Actionable Messages.
+Visit the <a href="https://learn.microsoft.com/outlook/actionable-messages">Outlook Dev Portal</a> to learn more about Actionable Messages.
 </body>
 </html>
 ```
