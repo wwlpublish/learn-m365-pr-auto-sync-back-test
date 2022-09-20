@@ -5,7 +5,7 @@ metadata:
   unitType: knowledge_check
   title: Check your knowledge
   description: Check your knowledge of OKRs.
-  ms.date: 07/25/2022
+  ms.date: 09/15/2022
   author: rasanders
   ms.author: rasanders
   ms.topic: interactive-tutorial
@@ -25,47 +25,99 @@ quiz:
     - content: "An OKR counselor who provides the soft skills side of change management, thereby ensuring long-term company adoption."
       isCorrect: false
       explanation: "Incorrect.  Remember, an OKR Coach does not craft OKRs for a team. "
-  - content: "What's the definition of a Key Result?"
+  - content: "Which of these is NOT a preparation tactic for an OKR Coaching Session as an OKR Coach?"
     choices:
-    - content: "How you'll measure success (outcome)"
+    - content: "Book a time and room (or virtual room)."
+      isCorrect: false
+      explanation: "Incorrect. In order to have an effective OKR session, an OKR coach needs to make sure there is space and time set aside to collaborate."
+    - content: "Review the organization’s strategy."
+      isCorrect: false
+      explanation: "Incorrect. It’s important that an OKR Coach does familiarize themselves with a team before the session."
+    - content: "Pre-define OKRs for their team."
       isCorrect: true
-      explanation: "Correct. Key Results are the specific metrics you'll use to ensure you meet your Objective."
-    - content: "A group of tasks oriented toward long-term success."
-      isCorrect: false
-      explanation: "That's incorrect. Remember that Key Results are specific to your Objective and ensure that you can achieve your goal."
-    - content: "The most important results that demonstrate success."
-      isCorrect: false
-      explanation: "That's incorrect. Remember that Key Results are specific to your Objective and ensure that you can achieve your goal."
-  - content: "What are Key Initiatives/Projects?"
+      explanation: "Correct. An OKR coach helps to facilitate the creation of OKRs without doing the work for the team."
+  - content: "A team should review the OKRs above it prior to joining an OKR Coaching session."
     choices:
-    - content: "Collection of unrelated Objectives held in one folder."
-      isCorrect: false
-      explanation: "That's incorrect. Remember that Projects are a particular production related to achieving the Objective."
-    - content: "Focused efforts (outputs) that help you achieve Key Results."
+    - content: "True."
       isCorrect: true
-      explanation: "Correct. Projects or Key Indicators are something produced in order to fulfill the Key Result."
-    - content: "A weighted Objective that is prioritized across the entire company."
+      explanation: "Correct. Teams need to come to OKR coaching sessions familiar with related OKRs so they are ready to offer feedback and consideration."
+    - content: "False."
       isCorrect: false
-      explanation: "That's incorrect. Remember that Projects are a particular production related to achieving the Objective."
-  - content: "What are the five OKR superpowers?"
+      explanation: "Incorrect. Teams need to come to OKR coaching sessions familiar with related OKRs so they are ready to offer feedback and consideration."
+  - content: "What tools do we recommend using for coaching sessions?"
     choices:
-    - content: "Collaboration, Networking, Personal Success, Transparency, Purpose, Focus."
+    - content: "Any learning management system."
       isCorrect: false
-      explanation: "That's incorrect. Remember that the Superpowers are related to a goal-setting system that empower the entire company."
-    - content: "Focus, Alignment, Tracking, Transparency, and Stretch."
+      explanation: "Incorrect. A learning management system is a system of record for digital learning, not live coaching sessions."
+    - content: "Meeting chat or a whiteboard (or virtual whiteboard)."
       isCorrect: true
-      explanation: "These five superpowers are what makes the OKR framework an effective system for achieving goals."
-    - content: "Stretch, Scheduling, Intuition, Evolution, Adaptation, Alignment."
+      explanation: "Correct. A large collaboration space for brainstorming and taking notes live during a session is helpful."
+    - content: "Individual spreadsheets."
       isCorrect: false
-      explanation: "That's incorrect. Remember that the Superpowers are related to a goal-setting system that empower the entire company."
-  - content: "What's the Emotional Cycle of Change?"
+      explanation: "Incorrect. Coaching others through their OKRs is a collaborative activity and one that shouldn’t be siloed."
+  - content: "What is the key question to ask about Objectives?"
     choices:
-    - content: "The cycle from anger to acceptance that people experience in the first meeting when change is introduced."
-      isCorrect: false
-      explanation: "That's incorrect. Remember that the Emotional Cycle of change has multiple stages and can take some time for people to move through."
-    - content: "The emotional five step process employees go through when onboarding at a new company or reporting to a new manager."
-      isCorrect: false
-      explanation: "That's incorrect. Remember that the Emotional Cycle of change has multiple stages and can take some time for people to move through."
-    - content: "The journey from Uninformed Optimism to Success & Fulfillment that people experience as they process change."
+    - content: "What is the most important area of our business we need to focus on?"
       isCorrect: true
-      explanation: "Correct. The Emotional Cycle of Change outlines the five stages most common in navigating a new experience."
+      explanation: "Correct. The key question for Objectives highlights where the team wants to focus efforts in order to achieve a specific goal."
+    - content: "What is the mission statement for your company?"
+      isCorrect: false
+      explanation: "Incorrect. Remember that the Objective question specifies the goal the team wants to achieve, not simply their overarching mission, how they’ll measure success or how they will specifically get there."
+    - content: "How would we know we were successful?"
+      isCorrect: false
+      explanation: "Incorrect. Remember that the Objective question specifies the goal the team wants to achieve, not simply their overarching mission, how they’ll measure success or how they will specifically get there."
+  - content: "What is the key question to ask about Key Results?"
+    choices:
+    - content: "How would we know we were successful?"
+      isCorrect: true
+      explanation: "Correct. They Key Result question asks the team how they would measure success for their Objective."
+    - content: "What is the most important area of our business we need to focus on?"
+      isCorrect: false
+      explanation: "Incorrect. Remember they Key Result Question helps the team focus on how they will measure the success of an Objective."
+    - content: "What is the mission statement for your company?"
+      isCorrect: false
+      explanation: "Incorrect.  Remember they Key Result Question helps the team focus on how they will measure the success of an Objective."
+  - content: "What is the key question to ask about Projects?"
+    choices:
+    - content: "What is the most important area of our business we need to focus on?"
+      isCorrect: false
+      explanation: "Incorrect. Remember that Projects are specific outputs required for the success of the OKR and the question will help the team identify what these are."
+    - content: "What is the mission statement for your company?"
+      isCorrect: false
+      explanation: "Incorrect. Remember that Projects are specific outputs required for the success of the OKR and the question will help the team identify what these are."
+    - content: "What do we need to do to be successful?"
+      isCorrect: true
+      explanation: "Correct.  The Project Question asks the team to start thinking through how they are going to achieve the Objective and Key Results."
+  - content: "Which of the below questions is the final question to ask when creating an Objective?"
+    choices:
+    - content: "How will you complete this Objective?"
+      isCorrect: false
+      explanation: "Incorrect. Remember that the last question for an Objective checks that it accurately represents the focus for the business."
+    - content: "Why is this important for us to focus on?"
+      isCorrect: true
+      explanation: "Correct. This final question double checks that the Objective written truly captures the main area of focus for the business."
+    - content: "Will we succeed with this Objective?"
+      isCorrect: false
+      explanation: "Incorrect. Remember that the last question for an Objective checks that it accurately represents the focus for the business."
+  - content: "If a baseline is not currently available for a Key Result, what should the team do?"
+    choices:
+    - content: "Set a key result to define a baseline along with a target."
+      isCorrect: true
+      explanation: "Correct. Teams will need a clear metric to measure against for the current OKR time period and for future time periods in order to accurately track progress."
+    - content: "Write a new key result without a baseline. "
+      isCorrect: false
+      explanation: "Incorrect. Remember that Key Results are specific and require an accurate baseline to measure."
+    - content: "Make a best guess for what the baseline might be and use that."
+      isCorrect: false
+      explanation: "Incorrect. Remember that Key Results are specific and require an accurate baseline to measure."
+  - content: "Which two are common pitfalls when setting Key Results?"
+    choices:
+    - content: "Setting a key result that is too specific and overly ambitious."
+      isCorrect: false
+      explanation: "Incorrect. Remember Key Results should be specific and ambitious."
+    - content: "Setting a key result that contributes to more than one Objective and failing to set a timeline for completion."
+      isCorrect: false
+      explanation: "Incorrect. Remember Key Results should be aligned to a specific period of time."
+    - content: "Not defining a target and writing Key Results that are not ambitious."
+      isCorrect: true
+      explanation: "Correct. Many teams fail to set specific targets for their Key Results or set Key Results that are too easy."
