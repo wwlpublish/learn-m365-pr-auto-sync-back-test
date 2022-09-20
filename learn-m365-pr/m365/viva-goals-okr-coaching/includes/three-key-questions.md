@@ -20,4 +20,4 @@ As mentioned above, these questions are a starting point for the conversation. O
 
 We recommend using this cheat sheet as a reference throughout the upcoming scenarios to solidify your learning and understanding.
 
-:::image type="content" source="../media/coaching-cheat-sheet.png" alt-text="An image of an OKR Cheat Sheet with the three questions, the OKR forumula, and a list of the 5 superpowers" :::
+:::image type="content" source="../media/coaching-cheat-sheet.png" alt-text="An image of an OKR Cheat Sheet with the three questions, the OKR forumula, and a list of the 5 superpowers." :::
