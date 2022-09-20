@@ -44,8 +44,9 @@ Next, submit a request using either the `get()` or `post()` method on the `this.
 The `get()` and `post()` methods return a JavaScript promise with the response as a `HttpClientResponse` object. To parse the body of the response as a JSON object, call the `json()` method that will return a JavaScript promise object containing the response:
 
 ```typescript
+// Promises
 return this.context.httpClient.get(
-  `http://[rest-endpoint]`,
+  `https://[rest-endpoint]`,
   HttpClient.configurations.v1
 )
 .then((response: HttpClientResponse) => {
@@ -54,6 +55,15 @@ return this.context.httpClient.get(
 .then(jsonResponse => {
   return jsonResponse;
 }) as Promise<any>;
+
+// Async/await
+const response: HttpClientResponse = await this.context.httpClient.get(
+  `https://[rest-endpoint]`,
+  HttpClient.configurations.v1
+);
+
+const responseJson = await response.json();
+return responseJson as any;
 ```
 
 ## Summary

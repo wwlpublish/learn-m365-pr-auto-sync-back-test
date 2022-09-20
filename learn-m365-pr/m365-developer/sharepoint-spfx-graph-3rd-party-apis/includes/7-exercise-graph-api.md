@@ -3,7 +3,7 @@ In this exercise, you'll create a new SharePoint Framework project with a single
 ## Create the Persona SharePoint Framework solution
 
 > [!IMPORTANT]
-> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
+> The instructions below assume you're using v1.15.2 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
 
 Open a command prompt and change to the folder where you want to create the project. Run the SharePoint Yeoman generator by executing the following command:
 
@@ -16,7 +16,7 @@ Use the following to complete the prompt that is displayed (*if more options are
 - **What is your solution name?**: MSGraphSPFx
 - **Which type of client-side component to create?**: WebPart
 - **What is your Web part name?**: GraphPersona
-- **Which framework would you like to use?**: React
+- **Which template would you like to use?**: React
 
 After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When npm completes downloading all dependencies, open the project in **Visual Studio Code**.
 
@@ -37,16 +37,21 @@ Open the web part file **src/webparts/graphPersona/GraphPersonaWebPart.ts**.
 Add the following `import` statement after the existing `import` statements:
 
 ```typescript
-import { MSGraphClient } from '@microsoft/sp-http';
+import { MSGraphClientV3 } from '@microsoft/sp-http';
 ```
 
 Locate the `render()` method. This method creates a new instance of a React element by passing in the component class and the properties to bind to it. The only property being set is the `description` property.
 
-Replace the contents of the `render()` method with the following code to create and initialize a new instance fo the Microsoft Graph client:
+Replace the `render()` method with the following code that uses asynchronous rendering and initializes a new instance fo the Microsoft Graph client:
 
 ```typescript
-this.context.msGraphClientFactory.getClient()
-.then((client: MSGraphClient): void => {
+protected get isRenderAsync(): boolean {
+  return true;
+}
+
+public async render(): Promise<void> {
+  const client: MSGraphClientV3 = await this.context.msGraphClientFactory.getClient('3');
+
   const element: React.ReactElement<IGraphPersonaProps> = React.createElement(
     GraphPersona,
     {
@@ -59,7 +64,13 @@ this.context.msGraphClientFactory.getClient()
   );
 
   ReactDom.render(element, this.domElement);
-});
+
+  this.renderCompleted();
+}
+
+protected renderCompleted(): void {
+  super.renderCompleted();
+}
 ```
 
 > [!NOTE]
@@ -74,10 +85,10 @@ Open the **src/webparts/graphPersona/components/IGraphPersonaProps.ts**.
 Replace the contents with the following code to change the public signature of the component:
 
 ```typescript
-import { MSGraphClient } from '@microsoft/sp-http';
+import { MSGraphClientV3 } from '@microsoft/sp-http';
 
 export interface IGraphPersonaProps {
-  graphClient: MSGraphClient;
+  graphClient: MSGraphClientV3;
   isDarkTheme: boolean;
   environmentMessage: string;
   hasTeamsContext: boolean;
@@ -109,7 +120,7 @@ Add the following `import` statements after the existing `import` statements:
 ```typescript
 import { IGraphPersonaState } from './IGraphPersonaState';
 
-import { MSGraphClient } from '@microsoft/sp-http';
+import { GraphError, ResponseType } from '@microsoft/microsoft-graph-client';
 import * as MicrosoftGraph from '@microsoft/microsoft-graph-types';
 
 import {
@@ -170,7 +181,7 @@ public render(): React.ReactElement<IGraphPersonaProps> {
 The code in the Persona card references two utility methods to control rendering of the secondary and tertiary text. Add the following to methods to the `GraphPersona` class that will be used to render the text:
 
 ```typescript
-private _renderMail = () => {
+private _renderMail = (): JSX.Element => {
   if (this.state.email) {
     return <Link href={`mailto:${this.state.email}`}>{this.state.email}</Link>;
   } else {
@@ -178,7 +189,7 @@ private _renderMail = () => {
   }
 }
 
-private _renderPhone = () => {
+private _renderPhone = (): JSX.Element => {
   if (this.state.phone) {
     return <Link href={`tel:${this.state.phone}`}>{this.state.phone}</Link>;
   } else {
@@ -193,9 +204,10 @@ Add the following method to the `GraphPersona` class:
 
 ```typescript
 public componentDidMount(): void {
+  /* eslint-disable @typescript-eslint/no-floating-promises */
   this.props.graphClient
     .api('me')
-    .get((error: any, user: MicrosoftGraph.User, rawResponse?: any) => {
+    .get((error: GraphError, user: MicrosoftGraph.User) => {
       this.setState({
         name: user.displayName,
         email: user.mail,
@@ -205,11 +217,12 @@ public componentDidMount(): void {
 
   this.props.graphClient
     .api('/me/photo/$value')
-    .responseType('blob')
-    .get((err: any, photoResponse: any, rawResponse: any) => {
+    .responseType(ResponseType.BLOB)
+    .get((error: GraphError, photoResponse: Blob) => {
       const blobUrl = window.URL.createObjectURL(photoResponse);
       this.setState({ image: blobUrl });
     });
+  /* eslint-enable @typescript-eslint/no-floating-promises */
 }
 ```
 
