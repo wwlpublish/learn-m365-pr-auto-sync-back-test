@@ -17,7 +17,7 @@ abstract: |
     - Explain identity and access management.
 prerequisites: |
   - None
-iconUrl: /training/achievements/generic-badge.svg
+iconUrl: /training/achievements/describe-identities-in-zero-trust.svg
 levels:
   - beginner
 roles:
