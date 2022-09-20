@@ -18,11 +18,11 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v14.\*
-- npm (installed with Node.js) - v7.\*
-- [Gulp CLI](https://gulpjs.com/) - v2.3.\*
+- [Node.js](https://nodejs.org/) - (*the active [LTS](https://nodejs.org/about/releases) version*)
+- npm (*installed with Node.js*)
+- [Gulp-cli](https://www.npmjs.com/package/gulp-cli) - v2.3.\*
 - [Yeoman](https://yeoman.io/) - v4.3.\*
-- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v4.0.1
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -143,8 +143,8 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: Conversational Bot
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.11
-- **Quick scaffolding**: Yes
+- **Which manifest version would you like to use?**: v1.13
+- **Quick scaffolding?**: Yes
 - **What features do you want to add to your project?**: A bot
 - **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like show a loading indicator when your app/tab loads?**: No
@@ -177,60 +177,76 @@ You need to set these two values for the bot to work:
 
 ### Register the bot in the Microsoft Teams app
 
-The last step before you can test bot is to add it to the Microsoft Teams app manifest. You can use App Studio to do this.
+The last step before you can test bot is to add it to the Microsoft Teams app manifest. You can use Developer Portal to do this.
 
-In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
+In the browser, navigate to **https://dev.teams.microsoft.com/** and sign in with the credentials of a Work and School account.
 
-> [!NOTE]
-> Microsoft Teams is available for use as a web client, desktop client and a mobile client. In this module, we will use the web client but any of the clients can be used.
+Using the navigation menu, select **Apps**. Then select **New app**:
 
-Using the app bar navigation menu, select the **More added apps** button. Then select **App Studio**:
+![Screenshot of the Developer Portal with New App hightlighted.](../media/03-dev-portal-01.png)
 
-![Screenshot of the More added apps dialog with App Studio.](../media/03-app-studio-02.png)
+Provide a short name. Then select **Add**.
 
-Select the **Manifest editor** tab and then the **Create a new app** button:
+On the **Basic Information** page:
 
-![Screenshot of App studio manifest editor screen - create new app.](../media/03-app-studio-03.png)
+- Provide a Full name.
 
-Provide a short name.
+- Provide a Short Description and Long Description.
+- Provide Developer information
+- Provide App URLs
 
-Select Generate for a new App ID.
+Select **Save**
 
-Provide a Package Name and Version.
+![Screenshot of the Developer Portal basic information page.](../media/03-dev-portal-02.png)
 
-Provide a Short Description and Full Description.
+In the navigation outline, select **App features** The select **Bot** page, select **Set up** to add a bot to the manifest.
 
-![Screenshot of App studio - app details screen.](../media/03-app-studio-04.png)
+- Because you previously created a bot using the Microsoft Azure's Bot Framework, select **Enter a bot ID** and set the `MICROSOFT_APP_ID` value from above.
 
-From the **(2) Capabilities** > **Bots** page, select **Set up** to add a bot to the manifest.
-
-Because you previously created a bot using the Microsoft Azure's Bot Framework, select **Existing bot** and set the following values and select **Save**:
-
-- **Bot ID**
-  - Connect to a different bot ID: `<REPLACE_WITH_MICROSOFT_APP_ID>`
-- **Scope**: Personal, Team
+- For the **Select the scopes in which people can use this command** section, choose **Personal** and **Team**.
 
 Select **Save**.
 
-![Screenshot of setting up a bot.](../media/03-app-studio-05.png)
+![Screenshot of setting up a bot.](../media/03-dev-portal-03.png)
 
-Within the **Commands** section, select **Add** to add a new command to the bot.
+Once the app is saved, the **Bot** page refreshes with another section, titled **Commands** at the bottom.
 
-On the **New command** dialog, enter the following values and select **Save**:
+Within the **Commands** section, select **Add a command** to add a new command to the bot.
 
-- **Command text**: MentionMe
-- **Help text**: Sends message with @mention of the sender
-- **Scope**: Personal
+On the **Add a bot command** dialog, enter the following values and select **Add**:
 
-![Screenshot of the new bot.](../media/03-app-studio-06.png)
+- **Command**: MentionMe
+- **Description (help text)**: Sends message with @mention of the sender
+- **Select the scopes in which people can use this command**: Personal
 
-With the bot added to the Teams app, you need to update the manifest in your project. From the **(3) Finish** > **Test and distribute** section, select the **Download** button from the **Download** section.
+Select **Save**.
+
+![Screenshot of the new bot.](../media/03-dev-portal-04.png)
+
+With the bot added to the Teams app, you need to update the manifest in your project.
+
+return to the **Apps** page by selecting **Apps** in the Toolbar.
+
+![Screenshot of the Developer Portal highlighting the Apps link](../media/03-dev-portal-05.png)
+
+From the Apps page in Developer Portal, open the app's menu and select **Download app package**.
+
+![Screenshot of the Developer Portal highlighting the Download app package link](../media/03-dev-portal-06.png)
 
 This will download the app package as a ZIP. Unpack the zip and open the **manifest.json** file in it. Copy the updated information to your project, updating the existing **./src/manifest/manifest.json** file.
 
+> [!CAUTION]
+> Be careful if you chose to update the **manifest.json** file in your project with the one in the package downloaded from Developer Portal.
+>
+> The manifest file in your project contains placeholder strings that are updated by the build and debugging process that's replaced when you test the project. Using placeholder strings simplifies the development and debugging process.
+>
+> For example, the placeholder `{{PUBLIC_HOSTNAME}}` is replaced with the hosting URL of the app each time the package is re-created.
+>
+> So you might not want to completely replace the existing **manifest.json** file with the file generated by Developer Portal.
+
 In the **./src/manifest/manifest.json** file, verify `icons` property's values, and update if necessary, file names to match what's in the project
 
-Locate the property `bots`. Verify it contains the following JSON that includes the new command added in App Studio:
+Locate the property `bots`. Verify it contains the following JSON that includes the new command added in the Developer Portal:
 
 ```json
 "bots": [
@@ -243,10 +259,6 @@ Locate the property `bots`. Verify it contains the following JSON that includes 
       {
         "scopes": [ "team", "personal" ],
         "commands": [
-          {
-            "title": "Help",
-            "description": "Shows help information"
-          },
           {
             "title": "MentionMe",
             "description": "Sends message with @mention of the sender"

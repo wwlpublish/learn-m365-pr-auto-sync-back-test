@@ -136,9 +136,9 @@ When you register a new bot with the Microsoft Bot Framework, you'll associate i
 
 Before deploying your Microsoft Teams app and custom bot to Microsoft Teams, you need to define the bot with the custom app. This is done by adding an entry to the app's manifest file.
 
-You can use App Studio to add a bot to the app's manifest file. App Studio can create a new app manifest file, or you can import an existing one to add a bot to it:
+You can use the Developer Portal to add a bot to the app's manifest file. Developer Portal can create a new app manifest file, or you can import an existing one to add a bot to it:
 
-![Screenshot of App Studio.](../media/03-app-studio-01.png)
+![Screenshot of App Studio.](../media/03-dev-portal-02.png)
 
 The following JSON is taken from the app's manifest for the bot you'll create in the next unit of this module. This bot defines a new command, **MentionMe** that is displayed to users who want to interact with it. Listing all the supported commands isn't required, but it does make your bot more user-friendly.
 
