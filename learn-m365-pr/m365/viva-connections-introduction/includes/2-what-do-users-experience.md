@@ -34,8 +34,6 @@ Add the [Dashboard](/viva/connections/use-dashboard-web-part-on-home-site) and [
 
 :::image type="content" source="../media/vc-three-components-mobile.png" alt-text="Screenshots of mobile experience of Viva Connections." border="false":::
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4TpyN]
-
 On mobile, the Viva Connections app is anchored around three key concepts: Dashboard, Feed, and Resources. The mobile app displays the Dashboard as the default tab in the Viva Connections app in the Microsoft Teams app bar. Like the desktop experience, the mobile experience allows you to navigate to SharePoint sites, organizational news, and other important content without leaving Teams.
 
 Viva Connections offers various extensibility solutions. To learn about how the desktop experience and dashboard cards can be extended, take [the Extend Microsoft Viva Connections Learning path](/training/paths/m365-extend-viva-connections/).

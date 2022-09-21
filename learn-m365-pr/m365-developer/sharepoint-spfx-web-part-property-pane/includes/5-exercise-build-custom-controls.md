@@ -77,7 +77,7 @@ export default class ContinentSelector extends React.Component<IContinentSelecto
   }
 
   public loadOptions(): void {
-    let continents: IDropdownOption[] = [
+    const continents: IDropdownOption[] = [
       { "key": "Africa", "text": "Africa" },
       { "key": "Antarctica", "text": "Antarctica" },
       { "key": "Asia", "text": "Asia" },
@@ -130,7 +130,7 @@ The files that implement the custom property pane control will go in the **Prope
 Create a new file **IPropertyPaneContinentSelectorProps.ts** in the **./src/controls/PropertyPaneContinentSelector** folder. Add the following code to the **IPropertyPaneContinentSelectorProps.ts** file:
 
 ```typescript
-import { IDropdownOption } from 'office-ui-fabric-react/lib/components/Dropdown';
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 export interface IPropertyPaneContinentSelectorProps {
   label: string;
@@ -202,7 +202,8 @@ export class PropertyPaneContinentSelector implements IPropertyPaneField<IProper
       disabled: properties.disabled,
       selectedKey: properties.selectedKey,
       onPropertyChange: properties.onPropertyChange,
-      onRender: this.onRender.bind(this)
+      onRender: this.onRender.bind(this),
+      onDispose: this.onDispose.bind(this)
     };
   }
 
@@ -232,6 +233,10 @@ private onRender(element: HTMLElement): void {
   ReactDom.render(reactElement, element);
 }
 
+private onDispose(element: HTMLElement): void {
+  ReactDom.unmountComponentAtNode(element);
+}
+
 private onChanged(option: IDropdownOption, index?: number): void {
   this.properties.onPropertyChange(this.targetProperty, option.key);
 }
@@ -250,6 +255,18 @@ import {
 } from '../../controls/PropertyPaneContinentSelector';
 ```
 
+Locate the following line:
+
+```typescript
+import { escape } from '@microsoft/sp-lodash-subset';
+```
+
+Update this line to the following:
+
+```typescript
+import { escape, update } from '@microsoft/sp-lodash-subset';
+```
+
 Locate the `getPropertyPaneConfiguration()` method in the web part, then find the existing `PropertyPaneTextField` that's bound to the **myContinent** property. Comment out this control and add the following custom control to the property pane:
 
 ```typescript
@@ -264,11 +281,12 @@ new PropertyPaneContinentSelector('myContinent', <IPropertyPaneContinentSelector
 Add the following method to the `HelloPropertyPaneWebPart` class to handle the event when a user changes the selection in the control. This will update the property on the web part.
 
 ```typescript
+/* eslint-disable @typescript-eslint/no-explicit-any */
 private onContinentSelectionChange(propertyPath: string, newValue: any): void {
-  const oldValue: any = this.properties[propertyPath];
-  this.properties[propertyPath] = newValue;
+  update(this.properties, propertyPath, (): any => {return newValue});
   this.render();
 }
+/* eslint-enable @typescript-eslint/no-explicit-any */
 ```
 
 Now test the web part by executing **gulp serve** (*if the local web server isn't already running*). You'll see the new control selector and notice the values change in the web part when you change the selection.

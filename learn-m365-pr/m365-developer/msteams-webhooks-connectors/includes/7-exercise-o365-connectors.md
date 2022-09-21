@@ -6,6 +6,16 @@ The first step will be to create a new Microsoft Teams app that contains a web s
 
 ## Create Microsoft Teams app
 
+> [!IMPORTANT]
+> In most cases, installing the latest version of the following tools is the best option. However, v4 of the Yeoman Generator for Microsoft Teams does not support Connectors. To complete this exercise, you must install v3.5 of the generator.
+
+- [Node.js](https://nodejs.org/) - (*the active [LTS](https://nodejs.org/about/releases) version*)
+- npm (*installed with Node.js*)
+- [Gulp-cli](https://www.npmjs.com/package/gulp-cli) - v2.3.\*
+- [Yeoman](https://yeoman.io/) - v4.3.\*
+- [Yeoman Generator for Microsoft Teams](https://www.npmjs.com/package/generator-teams/v/3.5.0) - v3.5.0
+- [Visual Studio Code](https://code.visualstudio.com)
+
 Open your command prompt, navigate to a directory where you want to save your work, create a new folder **learn-msteams-connectors**, and change directory into that folder.
 
 Run the Yeoman Generator for Microsoft Teams by running the following command:
@@ -154,6 +164,7 @@ Select **New Connector**.
 On the **Register Connector** page, complete the required fields in the form with anything you like and accept any default options presented, with the following exceptions:
 
 - **Connector name**: My First Teams Connector
+- **Logo**: Upload an image of your choice. There is a compatible image in the project: **/src/manifest/icon-color.png**.
 - **Configuration page for your Connector**: `https://REPLACE.ngrok.io/MyFirstTeamsConnector/config.html`
 - **Valid domains**: `REPLACE.ngrok.io`
 
@@ -224,6 +235,8 @@ With the Connector saved, the next step is to see it post to a channel. Do this 
 
 Using the free tool [Postman](https://www.postman.com/), create a new request to the point endpoint:
 
+- set the request to a **GET**
+- set the endpoint to **https://{{REPLACE_NGROK_SUBDOMAIN}}.ngrok.io/api/connector/ping**
 - set the `Content-Type` header to `application/json` on the **Headers** tab:
 
     ![Screenshot of the Headers tab in Postman.](../media/07-test-setup-app-09.png)
