@@ -1,6 +1,6 @@
-In this module you learned about Viva Connections and how it engages employees using digitized tasks, organizational news, and opular resources. You also have seen how Viva Connections has helped Lamna Healthcare employees who work in different roles and locations feel connected, engaged, and empowered to do their jobs.
+In this module, you learned about Viva Connections. You learned about how Viva Connections engages employees using digitized tasks, organizational news, and popular resources. You also have seen how Viva Connections has helped Lamna Healthcare employees in different roles and locations feel connected, engaged, and empowered to do their jobs.
 
-Key takeaways:
+## Key takeaways
 
 - **Fully customizable experience:** The possibilities and benefits of Viva Connections extend across all different types of roles and use cases.
 - **Creates transparency and empowers users:** Instead of relying on emails for organizational news that may get buried in inboxes, Viva Connections makes it easy to quickly view important and time-sensitive announcements.
