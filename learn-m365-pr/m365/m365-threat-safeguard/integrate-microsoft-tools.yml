@@ -5,8 +5,8 @@ metadata:
   title: Integrate with other Microsoft tools
   description: Learn about the Microsoft Defender for Identity component of Microsoft 365 Defender. 
   ms.date: 04/25/2022
-  author: beccarobins
-  ms.author: beccarobins
+  author: dcurwin
+  ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
