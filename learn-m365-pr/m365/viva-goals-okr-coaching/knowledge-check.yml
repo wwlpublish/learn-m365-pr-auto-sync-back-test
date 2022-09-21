@@ -14,29 +14,29 @@ durationInMinutes: 4
 content: |
 quiz:
   questions:
-  - content: "What is an OKR Coach?"
+  - content: "What is an OKR coach?"
     choices:
     - content: "A facilitator who can guide a group of people to identify what their goals for the quarter are by asking thought provoking questions and ensuring great OKRs are created through the process."
       isCorrect: true
-      explanation: "Correct. OKR Coaches increase team adoption by helping them create great OKRs."
+      explanation: "Correct. OKR coaches increase team adoption by helping them create great OKRs."
     - content: "An OKR expert who manages company OKRs, ensures end-users complete check-ins, and crafts excellent OKRs for the team."
       isCorrect: false
-      explanation: "Incorrect. Remember, an OKR Coach does not craft OKRs for a team."
+      explanation: "Incorrect. Remember, an OKR coach does not craft OKRs for a team."
     - content: "An OKR counselor who provides the soft skills side of change management, thereby ensuring long-term company adoption."
       isCorrect: false
-      explanation: "Incorrect.  Remember, an OKR Coach does not craft OKRs for a team. "
-  - content: "Which of these is NOT a preparation tactic for an OKR Coaching Session as an OKR Coach?"
+      explanation: "Incorrect.  Remember, an OKR coach does not craft OKRs for a team. "
+  - content: "Which of these is NOT a preparation tactic for an OKR coaching Session as an OKR coach?"
     choices:
     - content: "Book a time and room (or virtual room)."
       isCorrect: false
       explanation: "Incorrect. In order to have an effective OKR session, an OKR coach needs to make sure there is space and time set aside to collaborate."
     - content: "Review the organization’s strategy."
       isCorrect: false
-      explanation: "Incorrect. It’s important that an OKR Coach does familiarize themselves with a team before the session."
+      explanation: "Incorrect. It’s important that an OKR coach does familiarize themselves with a team before the session."
     - content: "Pre-define OKRs for their team."
       isCorrect: true
       explanation: "Correct. An OKR coach helps to facilitate the creation of OKRs without doing the work for the team."
-  - content: "A team should review the OKRs above it prior to joining an OKR Coaching session."
+  - content: "A team should review the OKRs above it prior to joining an OKR coaching session."
     choices:
     - content: "True."
       isCorrect: true

@@ -1,4 +1,4 @@
-Creating OKRs can be a challenge for anyone, and when moving an entire organization over to OKRs, that challenge is multiplied tenfold. OKR Coaches are a great resource to use when helping people craft OKRs.   
+Creating OKRs can be a challenge for anyone, and when moving an entire organization over to OKRs, that challenge is multiplied tenfold. OKR coaches are a great resource to use when helping people craft OKRs.   
 
 OKR coaches can be both internal to your company and external resources that you bring in to assist.  This program is specifically meant to focus on the development of internal OKR coaches for your organization.  
 

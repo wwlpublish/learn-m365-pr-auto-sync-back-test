@@ -65,7 +65,7 @@ Let’s apply this rubric to key results we reached in our scenario example.
 - Key result: *Baseline our Enterprise MAU penetration with a target of 30%*
 - Key result: *Grow our multi-national customer pipeline by 500 customers*
 
-(We'll complete the projects in another unit.)
+(We'll complete the projects in the next unit.)
 
 A best in-class set of key results is able to address each of the questions above. When working with teams, however, focusing on getting a majority of these checked off is more realistic than achieving all of them.   
 
