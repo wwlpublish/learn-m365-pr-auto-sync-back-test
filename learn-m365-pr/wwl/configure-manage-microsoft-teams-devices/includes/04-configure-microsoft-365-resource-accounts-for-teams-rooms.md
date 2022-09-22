@@ -4,7 +4,12 @@ When a person schedules a room, it's this resource mailbox that's invited to the
 
 This resource account is also the account that signs into the Microsoft Teams Rooms app. The account must be enabled for Skype for Business and Microsoft Teams. It's recommended that organizations establish a naming convention for resource accounts, particularly when organizations move to Azure Active Directory (Azure AD) and employ dynamic groups. A resource account can automatically be added to Azure AD groups based on the organization's naming convention.
 
-There are four primary steps to configure a resource account for Teams room. 
+> [!NOTE]
+> **Microsoft 365 resource accounts** aren't the same as **Teams resource accounts**. 
+> * **Teams resource accounts** can be used with call queues and auto attendants to accept phone calls from external phone numbers. 
+> * **Microsoft 365 resource accounts** are tied to an Exchange Online mailbox and enable booking of shared resources, such as rooms, projectors, and so on.
+
+There are four primary steps to configure a Microsoft 365 resource account for Teams room. 
 
 **Step 1** - Create a new resource account. Or, if a room mailbox already exists and you want to convert it to a resource account, you can modify an existing Exchange room mailbox.
 
@@ -16,7 +21,7 @@ There are four primary steps to configure a resource account for Teams room.
 
 ## Teams Rooms licenses
 
-It's recommended that organizations assign the Teams Rooms Basic or Teams Rooms Pro license to all Teams Rooms resource accounts.
+Each resource account you want to associate with a Teams Rooms console needs a Teams Rooms license. You need to purchase a license before you configure the resource account for Teams Rooms. 
 
 - **Teams Rooms Basic license** - provides core meeting experiences to organizations that purchase a certified Microsoft Teams Rooms device, at no additional cost. The Teams Rooms Basic license includes scheduling, joining meetings, content sharing, and collaborative white boarding, as well as basic security and management capabilities out-of-the-box.
 
