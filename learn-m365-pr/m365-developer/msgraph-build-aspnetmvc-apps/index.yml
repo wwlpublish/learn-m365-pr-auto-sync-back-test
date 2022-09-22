@@ -21,7 +21,7 @@ prerequisites: |
   - Ability to develop with ASP.NET MVC web applications the intermediate level
   - Experience using Visual Studio 2019 at the beginner level
   - Access to a Microsoft 365 tenant
-iconUrl: /learn/achievements/msgraph-build-aspnetmvc-apps.svg
+iconUrl: /training/achievements/msgraph-build-aspnetmvc-apps.svg
 levels:
 - intermediate
 roles:

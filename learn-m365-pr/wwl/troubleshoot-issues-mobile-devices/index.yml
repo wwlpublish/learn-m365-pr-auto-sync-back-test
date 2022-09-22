@@ -17,7 +17,7 @@ abstract: |
 prerequisites: |
   - Experience with PowerShell and the Exchange PowerShell module.
   - Significant experience deploying, managing, and troubleshooting Exchange environments.
-iconUrl: /learn/achievements/troubleshoot-issues-mobile-devices.svg
+iconUrl: /training/achievements/troubleshoot-issues-mobile-devices.svg
 levels:
 - advanced
 roles:

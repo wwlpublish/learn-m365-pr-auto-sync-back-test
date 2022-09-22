@@ -155,7 +155,7 @@ After answering the generator's questions, the generator will create the scaffol
 
 ### Ensure the project is using the latest version of Teams SDK
 
-Run the npm command to install the latest version of the SDK
+Run the npm command to install the latest version of the SDK:
 
 ```console
 npm i @microsoft/teams-js
@@ -255,7 +255,7 @@ useEffect(() => {
 }, [inTeams]);
 ```
 
-This hook will run when the component loads. If the page is loaded in a Microsoft Teams client, as it is when added in a tab, it calls the `getAuthToken()` method on the Microsoft Teams JavaScript SDK. When successful, it extracts the ID token Microsoft Teams received from Azure AD and provided to the tab to retrieve the currently signed in user's display name. The user's name is then set, using the `setName()` method, to the React state `name` property.
+This hook will run when the component loads. If the page is loaded in a Microsoft Teams client, as it is when added in a tab, it calls the `getAuthToken()` method on the Microsoft Teams JavaScript SDK. When successful, it extracts the ID token Microsoft Teams received from Azure AD and provides to the tab to retrieve the currently signed in user's display name. The user's name is then set, using the `setName()` method, to the React state `name` property.
 
 Changing the state triggers React to rerender the component. The code in the `return` statement within the React component will render the updated user experience that includes the user's name from the React state property as shown in the following code.
 

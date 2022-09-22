@@ -20,7 +20,7 @@ abstract: |
 
 prerequisites: |
  - Basic understanding of Microsoft 365. 
-iconUrl:  /learn/achievements/troubleshoot-mail-flow.svg
+iconUrl:  /training/achievements/troubleshoot-mail-flow.svg
 levels:
 - intermediate
 roles:

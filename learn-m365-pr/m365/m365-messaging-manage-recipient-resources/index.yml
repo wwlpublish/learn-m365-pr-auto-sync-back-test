@@ -18,7 +18,7 @@ abstract: |
 
 prerequisites: |
  - None
-iconUrl: /learn/achievements/manage-recipient-resources.svg
+iconUrl: /training/achievements/manage-recipient-resources.svg
 levels:
 - intermediate
 roles:

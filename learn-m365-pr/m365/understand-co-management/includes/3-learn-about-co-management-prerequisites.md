@@ -29,7 +29,7 @@ To confirm your Microsoft Intune license or trial, use the following steps:
 4. Confirm you are an **administrator** with **full** permissions to **all** Intune resources.
 
 > [!NOTE]
-> For more in-depth information about Microsoft Intune, see the learning module: [Set up Microsoft Intune](/learn/modules/set-up-microsoft-intune?azure-portal=true).
+> For more in-depth information about Microsoft Intune, see the learning module: [Set up Microsoft Intune](/training/modules/set-up-microsoft-intune?azure-portal=true).
 
 To check on your Azure AD Premium license, use the following steps:
 
@@ -39,11 +39,11 @@ To check on your Azure AD Premium license, use the following steps:
 If you don't have a license for Azure AD Premium, see [Sign up for Azure Active Directory Premium editions](/azure/active-directory/fundamentals/active-directory-get-started-premium).
 
 > [!Tip]
-> You might not need to purchase and assign individual Intune or EMS licenses to your users. For more information, see the [Product and licensing FAQ](/learn/support/faq).
+> You might not need to purchase and assign individual Intune or EMS licenses to your users. For more information, see the [Product and licensing FAQ](/training/support/faq).
 
 ## Microsoft Endpoint Configuration Manager
 
-Enabling co-management itself doesn't require that you onboard your site with Azure AD. Internet-based Configuration Manager clients require the [cloud management gateway](/mem/configmgr/core/clients/manage/cmg/overview) (CMG). The CMG requires the site is [onboarded to Azure AD for cloud management](/learn/modules/azure-sql-deploy-configure/).
+Enabling co-management itself doesn't require that you onboard your site with Azure AD. Internet-based Configuration Manager clients require the [cloud management gateway](/mem/configmgr/core/clients/manage/cmg/overview) (CMG). The CMG requires the site is [onboarded to Azure AD for cloud management](/training/modules/azure-sql-deploy-configure/).
 
 To check the version of Configuration Manager:
 
@@ -80,7 +80,7 @@ If you are uncertain whether you have a Microsoft Intune license, you can confir
 
 2. Select **Azure Active Directory** > **Licenses** > **All products** to see all licensable products that you have available for your organization.
 
-For additional information about Microsoft Intune, see [Set up Microsoft Intune](/learn/modules/set-up-microsoft-intune).
+For additional information about Microsoft Intune, see [Set up Microsoft Intune](/training/modules/set-up-microsoft-intune).
 
 ### Enable Windows 10 or Windows 11 automatic enrollment
 

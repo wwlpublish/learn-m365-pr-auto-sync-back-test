@@ -15,7 +15,7 @@ prerequisites: |
   - Students should have experience with using Windows 10 or later.
 summary: |
   This learning path will cover the Windows architecture and common environments. Students will be introduced to the various tools and methodologies used in maintaining Windows.
-iconUrl: /learn/achievements/windows-client-support-environment.svg
+iconUrl: /training/achievements/windows-client-support-environment.svg
 levels:
 - beginner
 roles:

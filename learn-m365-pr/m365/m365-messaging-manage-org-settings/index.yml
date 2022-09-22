@@ -18,8 +18,8 @@ abstract: |
   - Configure organizational sharing. 
   - Manage add-ins. 
 prerequisites: |
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/learn/paths/m365-fundamentals/)
-iconUrl: /learn/achievements/plan-manage-organizational-settings.svg
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/training/paths/m365-fundamentals/)
+iconUrl: /training/achievements/plan-manage-organizational-settings.svg
 levels:
 - intermediate
 roles:

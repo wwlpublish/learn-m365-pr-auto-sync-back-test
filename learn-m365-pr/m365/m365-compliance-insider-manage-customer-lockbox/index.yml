@@ -19,7 +19,7 @@ abstract: |
 prerequisites: |  
  - Cloud computing concepts
  - Microsoft 365 product and services
-iconUrl: /learn/achievements/customer-lockbox.svg
+iconUrl: /training/achievements/customer-lockbox.svg
 ratingEnabled: true
 levels:
 - intermediate

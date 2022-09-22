@@ -3,9 +3,9 @@ uid: learn-m365.m365-compliance-information-prevent-data-loss
 metadata:
   title: Prevent data loss in Microsoft Purview
   description: Learn how to discover, classify, and protect sensitive and business-critical content throughout its lifecycle across your organization. 
-  ms.date: 05/02/2022
-  author: beccarobins
-  ms.author: beccarobins
+  ms.date: 09/13/2022
+  author: riswinto
+  ms.author: riswinto
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Prevent data loss in Microsoft Purview
@@ -19,7 +19,7 @@ prerequisites: |
    - Cloud computing concepts
    - Microsoft 365 product and services
 
-iconUrl: /learn/achievements/prevent-data-loss-microsoft-365.svg
+iconUrl: /training/achievements/prevent-data-loss-microsoft-365.svg
 ratingEnabled: true
 levels:
 - intermediate

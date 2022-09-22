@@ -8,7 +8,7 @@ In this exercise, you'll create a new web part that someone can use to select a 
 Open a command prompt and change to the folder where you want to create the project.
 
 > [!IMPORTANT]
-> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
+> The instructions below assume you're using v1.15.2 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
 
 Run the SharePoint Yeoman generator by executing the following command:
 
@@ -21,7 +21,7 @@ Use the following to complete the prompt that is displayed (*if more options are
 - **What is your solution name?**: FileUpload
 - **Which type of client-side component to create?**: Web Part
 - **What is your Web Part name?**: FileUpload
-- **Which framework would you like to use?** No framework
+- **Which template would you like to use?** No framework
 
 After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When npm completes downloading all dependencies, open the project in **Visual Studio Code**.
 
@@ -97,7 +97,7 @@ In the **FileUploadWebPart.ts** file, add the following method to the `FileUploa
 ```typescript
 private _getFileBuffer(file: File): Promise<ArrayBuffer> {
   return new Promise((resolve, reject) => {
-    let fileReader = new FileReader();
+    const fileReader = new FileReader();
 
     // write up error handler
     fileReader.onerror = (event: ProgressEvent<FileReader>) => {

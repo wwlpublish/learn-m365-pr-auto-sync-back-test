@@ -18,7 +18,7 @@ abstract: |
   - Manage custodians and non-custodial data sources.
   - Analyze case content and use analytical tools to reduce the size of search result sets.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /training/achievements/generic-badge.svg
 levels:
 - intermediate
 roles:

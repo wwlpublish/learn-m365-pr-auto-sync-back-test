@@ -17,7 +17,7 @@ abstract: |
   - Describe how to troubleshoot Transport Layer Security encryption issues.
   - Understand how Alert policies can be used to troubleshoot mail flow issues.
 prerequisites: ""
-iconUrl: /learn/achievements/troubleshoot-mail-flow.svg
+iconUrl: /training/achievements/troubleshoot-mail-flow.svg
 levels:
 - intermediate
 roles:

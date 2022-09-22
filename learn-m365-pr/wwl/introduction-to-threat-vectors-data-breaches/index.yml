@@ -20,7 +20,7 @@ abstract: |
   - Prevent data exfiltration, data deletion, and data spillage
 prerequisites: |
   None
-iconUrl: /learn/achievements/azure-ad-threat-vectors.svg
+iconUrl: /training/achievements/azure-ad-threat-vectors.svg
 levels:
 - intermediate
 roles:

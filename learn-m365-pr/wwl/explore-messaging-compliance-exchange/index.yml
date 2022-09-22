@@ -16,7 +16,7 @@ abstract: |
   *   Plan retention and deletion with Message Records Management (MRM).
   *   Analyze your Exchange organization's message tracking log.
 prerequisites: ""
-iconUrl: /learn/achievements/exchange-messaging-compliance.svg
+iconUrl: /training/achievements/exchange-messaging-compliance.svg
 levels:
 - intermediate
 roles:

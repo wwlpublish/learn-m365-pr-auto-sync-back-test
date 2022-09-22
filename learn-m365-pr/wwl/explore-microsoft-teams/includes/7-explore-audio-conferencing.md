@@ -10,7 +10,7 @@ In Teams, a PSTN (Public Switched Telephone Network) conference is any conferenc
 
 Audio conferencing and toll-free phone numbers (service numbers) are available but only in some countries/regions.
 
-**Additional reading.** For a list of the audio conferencing and toll-free phone numbers that are available, see [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json?azure-portal=true).
+**Additional reading.** For a list of the audio conferencing and toll-free phone numbers that are available, see [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json?azure-portal=true).
 
 ### Audio conferencing support
 
@@ -69,14 +69,14 @@ To configure an organization’s users for audio conferencing, a license must be
 
 Complete the following steps to assign a user with a license that has the Microsoft 365 Audio Conferencing app turned on:
 
-1.  Sign in to [Office 365](https://portal.office.com/?azure-portal=true) as an admin for your organization.
-2.  On the **Office 365 Home** page, select the **Admin** icon to open the Microsoft 365 admin center.
-3.  In the **Microsoft Teams admin center**, in the left-hand navigation pane, select **Users** and then select **Active users**.
-4.  On the **Active users** page, select the user that you want to maintain. A detail pane will open for the selected user.
-5.  In the user detail pane, select the **Licenses and Apps** tab.
-6.  In the **Licensing and Apps** tab, select the appropriate license(s) to be assigned to the user. Scroll down and select the **Apps** section to display the Apps associated with the assigned license(s).
-7.  In the list of Apps, scroll down and verify the **Microsoft 365 Audio Conferencing** check box is selected. If necessary, select the check box to turn on audio conferencing for the user's license. If you want to turn audio conferencing off for a user, select this check box to clear it. Clearing this check box turns audio conferencing off for the user.
-8.  Select **Save changes** and then close the user detail pane.
+1. Sign in to [Office 365](https://portal.office.com/?azure-portal=true) as an admin for your organization.
+1. On the **Office 365 Home** page, select the **Admin** icon to open the Microsoft 365 admin center.
+1. In the **Microsoft Teams admin center**, in the left-hand navigation pane, select **Users** and then select **Active users**.
+1. On the **Active users** page, select the user that you want to maintain. A detail pane will open for the selected user.
+1. In the user detail pane, select the **Licenses and Apps** tab.
+1. In the **Licensing and Apps** tab, select the appropriate license(s) to be assigned to the user. Scroll down and select the **Apps** section to display the Apps associated with the assigned license(s).
+1. In the list of Apps, scroll down and verify the **Microsoft 365 Audio Conferencing** check box is selected. If necessary, select the check box to turn on audio conferencing for the user's license. If you want to turn audio conferencing off for a user, select this check box to clear it. Clearing this check box turns audio conferencing off for the user.
+1. Select **Save changes** and then close the user detail pane.
 
 **Additional reading.** For more information, see [Assign Skype for Business and Microsoft Teams licenses](https://aka.ms/F4jdg8?azure-portal=true).
 

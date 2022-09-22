@@ -21,7 +21,7 @@ prerequisites: |
   - Ability to develop with ASP.NET Core at the intermediate level
   - Experience using Visual Studio Code at the beginner level
   - Access to a Microsoft 365 tenant
-iconUrl: /learn/achievements/msgraph-changenotifications-trackchanges.svg
+iconUrl: /training/achievements/msgraph-changenotifications-trackchanges.svg
 levels:
 - intermediate
 roles:

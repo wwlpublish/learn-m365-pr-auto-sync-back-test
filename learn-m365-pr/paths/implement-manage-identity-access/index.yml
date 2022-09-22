@@ -13,7 +13,7 @@ prerequisites: |
   None.
 summary: |
   Learn how to plan, implement, and manage the identity and access technologies in Microsoft 365. This learning path prepares you for skills evaluated on the MS-500 Microsoft 365 Security Administrator certification exam.
-iconUrl: /learn/achievements/identity-access-implement.svg
+iconUrl: /training/achievements/identity-access-implement.svg
 levels:
 - intermediate
 roles:

@@ -18,7 +18,7 @@ abstract: |
 prerequisites: | 
  - Familiarity with Microsoft Office, especially servicing
  - Familiarity with Configuration Manager
-iconUrl: /learn/achievements/upgrade-office-in-windows-for-it.svg
+iconUrl: /training/achievements/upgrade-office-in-windows-for-it.svg
 ratingEnabled: true
 levels:
 - intermediate

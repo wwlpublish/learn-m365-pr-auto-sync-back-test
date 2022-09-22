@@ -2,4 +2,4 @@ The module examined the various storage options that are available for Windows c
 
 ### Learn more
 
- -  [Introduction to OneDrive in Microsoft 365 - Learn](/learn/modules/m365-onedrive-collaboration-use/)
+ -  [Introduction to OneDrive in Microsoft 365 - Learn](/training/modules/m365-onedrive-collaboration-use/)

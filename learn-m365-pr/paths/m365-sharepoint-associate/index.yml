@@ -9,9 +9,9 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Extend Microsoft SharePoint – Associate
-summary: "Microsoft SharePoint is a customizable platform that developers can extend with custom components. The SharePoint Framework is the recommended development model to extend the modern SharePoint experience. In this learning path, you'll learn how to customize and extend SharePoint using the SharePoint Framework using web parts and extensions. This learning path can help you prepare for the [Microsoft 365 Certified: Developer Associate](/learn/certifications/m365-developer-associate) certification."
+summary: "Microsoft SharePoint is a customizable platform that developers can extend with custom components. The SharePoint Framework is the recommended development model to extend the modern SharePoint experience. In this learning path, you'll learn how to customize and extend SharePoint using the SharePoint Framework using web parts and extensions. This learning path can help you prepare for the [Microsoft 365 Certified: Developer Associate](/certifications/m365-developer-associate) certification."
 prerequisites: None
-iconUrl: /learn/achievements/sharepoint-associate.svg
+iconUrl: /training/achievements/sharepoint-associate.svg
 levels:
 - intermediate
 roles:

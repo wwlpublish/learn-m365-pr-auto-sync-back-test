@@ -17,10 +17,10 @@ abstract: |
     - Create and assign new device configuration profiles
     - View device configuration profiles
 prerequisites: | 
-  - Basic knowledge of Microsoft Endpoint Manager and endpoint management concepts, see [Microsoft Endpoint Manager fundamentals](/learn/paths/endpoint-manager-fundamentals?azure-portal=true).
-  - Understand your endpoint management objectives, device inventory considerations, licensing needs, infrastructure objectives, and rollout plans, see [Determine your endpoint management implementation](/learn/modules/determine-endpoint-implementation?azure-portal=true).
-  - Set up and understand how to use Intune, see [Set up Microsoft Intune](/learn/modules/set-up-microsoft-intune?azure-portal=true).
-iconUrl: /learn/achievements/generic-badge.svg
+  - Basic knowledge of Microsoft Endpoint Manager and endpoint management concepts, see [Microsoft Endpoint Manager fundamentals](/training/paths/endpoint-manager-fundamentals?azure-portal=true).
+  - Understand your endpoint management objectives, device inventory considerations, licensing needs, infrastructure objectives, and rollout plans, see [Determine your endpoint management implementation](/training/modules/determine-endpoint-implementation?azure-portal=true).
+  - Set up and understand how to use Intune, see [Set up Microsoft Intune](/training/modules/set-up-microsoft-intune?azure-portal=true).
+iconUrl: /training/achievements/generic-badge.svg
 ratingEnabled: true
 levels:
 - beginner

@@ -1,6 +1,6 @@
 Setting up Viva Connections is a multi-step process that requires
 detailed planning and collaborative team effort that’s covered in [module
-2](/learn/modules/viva-connections-plan/). There are several steps you must take before your organization can
+2](/training/modules/viva-connections-plan/). There are several steps you must take before your organization can
 access and use Viva Connections.
 
 In this module, you'll learn how to build your organization’s unique

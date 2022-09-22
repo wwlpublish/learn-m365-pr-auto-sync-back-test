@@ -22,7 +22,7 @@ prerequisites: |
   - Ability to program with JavaScript and Node.js
   - Experience using Visual Studio Code at the beginner level
   - Valid Microsoft 365 subscription
-iconUrl: /learn/achievements/office-add-ins-sso.svg
+iconUrl: /training/achievements/office-add-ins-sso.svg
 levels:
   - intermediate
 roles:

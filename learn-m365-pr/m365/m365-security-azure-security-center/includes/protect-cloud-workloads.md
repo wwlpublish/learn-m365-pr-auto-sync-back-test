@@ -333,4 +333,4 @@ issue.
 - [Microsoft Defender for Cloud's ACR bundle](/azure/security-center/azure-kubernetes-service-integration)
 - [Microsoft Defender for Cloud's AKS bundle](/azure/security-center/azure-kubernetes-service-integration)
 - [Microsoft Defender for IoT Supported platforms](/azure/asc-for-iot/how-to-deploy-agent#supported-platforms)
-- [Microsoft Defender for IoT supported regions](/learn/modules/explore-azure-defender-for-iot-implementation/)
+- [Microsoft Defender for IoT supported regions](/training/modules/explore-azure-defender-for-iot-implementation/)

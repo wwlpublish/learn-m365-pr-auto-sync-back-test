@@ -15,8 +15,8 @@ abstract: |
   - Set up Azure Migrate prerequisites so that Azure has the right permissions.  
   - Select the appropriate Azure Migrate tools for assessment and migration.  
 prerequisites: | 
- - Basic understanding of Microsoft Azure. If you are unfamiliar with this, we recommend you take [Microsoft Azure Fundamentals](/learn/paths/azure-fundamentals/)
-iconUrl: /learn/achievements/set-up-azure-migrate-server-migration.svg
+ - Basic understanding of Microsoft Azure. If you are unfamiliar with this, we recommend you take [Microsoft Azure Fundamentals](/training/paths/azure-fundamentals/)
+iconUrl: /training/achievements/set-up-azure-migrate-server-migration.svg
 ratingEnabled: true
 levels:
 - intermediate

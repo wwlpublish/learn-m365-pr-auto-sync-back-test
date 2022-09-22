@@ -98,17 +98,23 @@ import {
 Next, use the `aadhttpClientFactory` to request an HTTP client configured with the access token for the specified resource:
 
 ```typescript
+// Promises
 this.context.aadHttpClientFactory
-  .getClient("https://your-endpoint-uri")
+  .getClient('https://your-endpoint-uri')
   .then((aadClient: AadHttpClient) => {
     /* submit request to endpoint */
   });
+
+// Async/await
+const aadClient: AadHttpClient = await this.context.aadHttpClientFactory
+  .getClient('https://your-endpoint-uri');
 ```
 
 Finally, use the configured client to call the secured REST API the same way you can use the `HttpClient`:
 
 ```typescript
-const endpoint: string = "https://your-endpoint-uri/api";
+// Promises
+const endpoint: string = 'https://your-endpoint-uri/api';
 aadClient.get(endpoint, AadHttpClient.configurations.v1)
   .then((rawResponse: HttpClientResponse) => {
     return rawResponse.json();
@@ -116,6 +122,13 @@ aadClient.get(endpoint, AadHttpClient.configurations.v1)
   .then((jsonResponse: any) => {
     // work with result
   });
+
+// Async/await
+const endpoint: string = 'https://your-endpoint-uri/api';
+const rawResponse: HttpClientResponse = await aadClient.get(endpoint, AadHttpClient.configurations.v1);
+
+const responseJson = await rawResponse.json();
+return responseJson as any;
 ```
 
 ## Add SharePoint packages to the SharePoint App Catalog

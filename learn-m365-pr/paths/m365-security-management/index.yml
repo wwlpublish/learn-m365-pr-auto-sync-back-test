@@ -9,10 +9,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage security with Microsoft 365
-summary: "We live in an always connected, technology-driven world. Efficient security management is the foundation to managing your assets – in the cloud, on-premises, or across a hybrid environment. You need to proactively manage and secure your organization’s identities, devices, end points (both apps and data), and IT infrastructure. Microsoft 365 helps you secure your infrastructure with a focus on visibility, control, and guidance, and helps you consolidate from a plethora of specialized functions and tools, leveraging the shared intelligence, to keep your security teams focused on the most critical insights for their workloads. This learning path can help you prepare for the [Microsoft 365 Certified: Security Administrator Associate](/learn/certifications/m365-security-administrator) and [Microsoft 365 Certified: Enterprise Administration Expert](/learn/certifications/m365-enterprise-administrator) certifications."
+summary: "We live in an always connected, technology-driven world. Efficient security management is the foundation to managing your assets – in the cloud, on-premises, or across a hybrid environment. You need to proactively manage and secure your organization’s identities, devices, end points (both apps and data), and IT infrastructure. Microsoft 365 helps you secure your infrastructure with a focus on visibility, control, and guidance, and helps you consolidate from a plethora of specialized functions and tools, leveraging the shared intelligence, to keep your security teams focused on the most critical insights for their workloads. This learning path can help you prepare for the [Microsoft 365 Certified: Security Administrator Associate](/certifications/m365-security-administrator) and [Microsoft 365 Certified: Enterprise Administration Expert](/certifications/m365-enterprise-administrator) certifications."
 prerequisites: | 
  - Basic understanding of Microsoft 365.
-iconUrl: /learn/achievements/manage-security-microsoft-365.svg
+iconUrl: /training/achievements/manage-security-microsoft-365.svg
 levels: 
 - intermediate
 roles:

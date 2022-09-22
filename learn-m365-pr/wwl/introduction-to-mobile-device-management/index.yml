@@ -18,7 +18,7 @@ abstract: |
   - Explain how email and document access are controlled on devices managed by MDM
 prerequisites: |
   None
-iconUrl: /learn/achievements/mobile-device-management-introduction.svg
+iconUrl: /training/achievements/mobile-device-management-introduction.svg
 levels:
 - intermediate
 roles:

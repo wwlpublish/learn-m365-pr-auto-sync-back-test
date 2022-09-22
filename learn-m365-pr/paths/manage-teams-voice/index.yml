@@ -12,10 +12,10 @@ title: MS-720 Manage Teams Phone
 prerequisites: |
   - Learners should be familiar with telecommunication technologies and have experience in Microsoft Teams, Microsoft 365, and PowerShell.
   - Learners should have completed the
-  [Microsoft 365 Certified: Teams Administrator Associate](/learn/certifications/m365-teams-administrator-associate/) or have equivalent experience.
+  [Microsoft 365 Certified: Teams Administrator Associate](/certifications/m365-teams-administrator-associate/) or have equivalent experience.
 summary: |
   Discover how to manage Teams Voice after implementation. You’ll learn how to manage Teams Voice Users, Teams Devices, and perform common troubleshooting tasks.
-iconUrl: /learn/achievements/manage-teams-voice.svg
+iconUrl: /training/achievements/manage-teams-voice.svg
 levels:
 - advanced
 roles:

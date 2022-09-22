@@ -17,7 +17,7 @@ abstract: |
   - Enable Enterprise Mode in Microsoft Edge across the organization with group policy.
 prerequisites: |
   - Experience deploying and configuring application packages using software distribution tools such as Microsoft Intune or Configuration Manager
-iconUrl: /learn/achievements/ensure-app-and-website-compatibility-with-microsoft-edge.svg
+iconUrl: /training/achievements/ensure-app-and-website-compatibility-with-microsoft-edge.svg
 levels:
 - intermediate
 roles:

@@ -20,7 +20,7 @@ prerequisites: |
   - Knowledge of security fundamentals
   - Knowledge Microsoft Azure and Microsoft 365 fundamentals
   - Knowledge of Defender for Cloud Apps initial configuration settings 
-iconUrl: /learn/achievements/configure-microsoft-cloud-app-security-cloud-discovery.svg
+iconUrl: /training/achievements/configure-microsoft-cloud-app-security-cloud-discovery.svg
 levels:
 - beginner
 roles:

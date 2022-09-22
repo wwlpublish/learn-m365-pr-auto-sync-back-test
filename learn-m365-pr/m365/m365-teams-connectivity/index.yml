@@ -19,7 +19,7 @@ abstract: |
 prerequisites: |
   - Knowledge of networking terminology and technology
   - Knowledge of TCP/IP and DNS
-iconUrl: /learn/achievements/configure-your-network-for-teams.svg
+iconUrl: /training/achievements/configure-your-network-for-teams.svg
 levels:
 - beginner
 roles:

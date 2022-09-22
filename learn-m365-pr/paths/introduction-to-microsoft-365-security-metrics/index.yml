@@ -15,7 +15,7 @@ prerequisites: |
   - Students must have a proficient understanding of general IT practices.
 summary: |
   This learning path examines the threat vectors and data breaches organizations face today in their cybersecurity landscape, and the wide range of security solutions that Microsoft 365 provides to combat those threats.
-iconUrl: /learn/achievements/m365-security-metrics.svg
+iconUrl: /training/achievements/m365-security-metrics.svg
 levels:
 - intermediate
 roles:

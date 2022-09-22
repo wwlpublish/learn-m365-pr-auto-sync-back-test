@@ -16,7 +16,7 @@ abstract: |
   - How the Common Data Service (Beta) connector works with Power BI
 prerequisites: |
   None
-iconUrl: /learn/achievements/connect-power-apps-automate-virtual-agent-bi-common.svg
+iconUrl: /training/achievements/connect-power-apps-automate-virtual-agent-bi-common.svg
 hidden: true
 levels:
 - beginner

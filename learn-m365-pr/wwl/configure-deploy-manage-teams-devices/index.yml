@@ -20,7 +20,7 @@ abstract: |
 prerequisites: |
   - Familiarity with Microsoft Teams Phone
   - Understanding of the Teams Admin Center and PowerShell
-iconUrl: /learn/achievements/2-configure-deploy-and-manage-teams-devices.svg
+iconUrl: /training/achievements/2-configure-deploy-and-manage-teams-devices.svg
 levels:
 - advanced
 roles:

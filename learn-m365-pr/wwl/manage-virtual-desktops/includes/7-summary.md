@@ -2,4 +2,4 @@ Virtual Desktops can be an effective solution for many scenarios such as remote 
 
 ### Learn more
 
- -  [Deliver remote desktops and apps with Azure Virtual Desktop - Learn](/learn/paths/m365-wvd/)
+ -  [Deliver remote desktops and apps with Azure Virtual Desktop - Learn](/training/paths/m365-wvd/)

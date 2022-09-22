@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn-m365.viva-goals-okr-coaching
+metadata:
+  moduleType: standard
+  title: OKR coaching with Viva Goals
+  description: Learn about the role of an OKR coach, how to effectively coach others in the creation of OKRs, and what resources are available to set you and your team up for success.
+  ms.date: 09/21/2022
+  author: rasanders
+  ms.author: rasanders
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: OKR coaching with Viva Goals
+summary: Learn about the role of an OKR coach, how to effectively coach others in the creation of OKRs and what resources are available to set you and your team up for success.
+abstract: |
+  By the end of this module, you will be able to:
+    - Ask the right questions about OKRs
+    - Unblock conversation
+    - Provide OKR feedback
+    - Coach others on their OKRs
+prerequisites: |
+  OKR Leadership Program - Become an OKR Champion with Viva Goals
+iconUrl: /learn/achievements/generic-badge.svg
+levels: 
+  - beginner
+roles: 
+  - administrator
+products: 
+- m365
+- viva
+units:
+- learn-m365.viva-goals-okr-coaching.introduction
+- learn-m365.viva-goals-okr-coaching.role-okr-coach
+- learn-m365.viva-goals-okr-coaching.meeting-preparation
+- learn-m365.viva-goals-okr-coaching.three-key-questions
+- learn-m365.viva-goals-okr-coaching.objectives
+- learn-m365.viva-goals-okr-coaching.key-results
+- learn-m365.viva-goals-okr-coaching.projects
+- learn-m365.viva-goals-okr-coaching.unblocking-tactics-resources
+- learn-m365.viva-goals-okr-coaching.knowledge-check
+- learn-m365.viva-goals-okr-coaching.summary
+- learn-m365.viva-goals-okr-coaching.additional-feedback-examples
+badge:
+  uid: learn-m365.learn-m365.viva-goals-okr-coaching.badge

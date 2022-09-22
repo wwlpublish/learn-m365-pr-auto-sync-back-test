@@ -15,7 +15,7 @@ In this module, you've learned how to attach your on-premises Configuration Mana
 ## Next steps
 
 Now that you have completed attaching to your tenant, consider adding co-management. For more information, see the following resources:
-- [Understand co-management using Microsoft Endpoint Configuration Manager](/learn/modules/understand-co-management/)
+- [Understand co-management using Microsoft Endpoint Configuration Manager](/training/modules/understand-co-management/)
 
 To evaluate Microsoft Intune and the Microsoft technologies available with Microsoft's Enterprise Mobility + Security (EMS), continue with the free trial:
 - [Get a free trial, evaluate Enterprise Mobility + Security (EMS)](https://go.microsoft.com/fwlink/?linkid=845167)

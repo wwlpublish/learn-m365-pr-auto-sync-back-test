@@ -9,10 +9,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Protect enterprise information with Microsoft 365
-summary: "Protecting and securing your organization's information is more challenging than ever. The **Protect enterprise information with Microsoft 365** learning path discusses how to protect your sensitive information from accidental oversharing or misuse, how to discover and classify data, how to protect it with sensitivity labels, and how to both monitor and analyze your sensitive information to protect against its loss. This learning path can help you prepare for the [Microsoft 365 Certified: Security Administrator Associate](/learn/certifications/m365-security-administrator) and [Microsoft 365 Certified: Enterprise Administration Expert](/learn/certifications/m365-enterprise-administrator) certifications."
+summary: "Protecting and securing your organization's information is more challenging than ever. The **Protect enterprise information with Microsoft 365** learning path discusses how to protect your sensitive information from accidental oversharing or misuse, how to discover and classify data, how to protect it with sensitivity labels, and how to both monitor and analyze your sensitive information to protect against its loss. This learning path can help you prepare for the [Microsoft 365 Certified: Security Administrator Associate](/certifications/m365-security-administrator) and [Microsoft 365 Certified: Enterprise Administration Expert](/certifications/m365-enterprise-administrator) certifications."
 prerequisites: | 
  - Basic understanding of Microsoft 365.
-iconUrl: /learn/achievements/protect-enterprise-information-microsoft-365.svg
+iconUrl: /training/achievements/protect-enterprise-information-microsoft-365.svg
 levels: 
 - intermediate
 roles:

@@ -21,8 +21,8 @@ abstract: |
   - Explain how to conduct a user pilot.
 
 prerequisites: | 
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/learn/paths/m365-fundamentals/)
-iconUrl: /learn/achievements/m365-teams-upgrade-plan-upgrade.svg
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/training/paths/m365-fundamentals/)
+iconUrl: /training/achievements/m365-teams-upgrade-plan-upgrade.svg
 ratingEnabled: true
 levels:
 - intermediate

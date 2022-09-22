@@ -3,7 +3,7 @@ uid: learn-m365.msteams-conversation-bots.3-exercise-conversation-bots
 metadata:
   title: Exercise - Creating conversational bots for Microsoft Teams
   description: In this exercise, you’ll learn how to create and add a new bot to a Microsoft Teams app and interact with it from the Microsoft Teams client.
-  ms.date: 05/20/2022
+  ms.date: 09/12/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -30,13 +30,13 @@ quiz:
     choices:
     - content: "All messages in a personal 1:1 chat between the user and the bot. All messages in a team or group chat where a bot is installed."
       isCorrect: false
-      explanation: "A bot has access to all messages in a personal 1:1 chat. It also has access to all messages in team channels and group chats where its @mentioned."
+      explanation: "A bot has access to all messages in a personal 1:1 chat. It also has access to all messages in team channels and group chats where it's @mentioned."
     - content: "All messages in a personal 1:1 chat between the user and the bot. All messages where the bot is @mentioned in a teams channel conversation or a group chat."
       isCorrect: true
       explanation: "Correct!"
     - content: "All messages in a personal 1:1 chat between the user and the bot. All messages in a team where a bot is installed. All messages in a group chat when the bot is @mentioned."
       isCorrect: false
-      explanation: "A bot has access to all messages in a personal 1:1 chat. It also has access to all messages in team channels and group chats where its @mentioned."
+      explanation: "A bot has access to all messages in a personal 1:1 chat. It also has access to all messages in team channels and group chats where it's @mentioned."
   - content: "How does Microsoft Teams send and receive messages from your web service that implements the conversational bot?"
     choices:
     - content: "The bot registration in the Microsoft Teams app manifest includes the URI to the HTTPS endpoint of the web service and include the app ID of the Azure AD app that represents the bot."

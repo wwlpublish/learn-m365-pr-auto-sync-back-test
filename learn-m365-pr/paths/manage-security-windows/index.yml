@@ -15,7 +15,7 @@ prerequisites: |
   - Experience using Active Directory Domain Services
 summary: |
   In this learning path, students will learn about data protection and protecting endpoints against threats. This path will also cover the key capabilities of Microsoft Defender solutions.
-iconUrl: /learn/achievements/security-manage.svg
+iconUrl: /training/achievements/security-manage.svg
 levels:
 - intermediate
 roles:

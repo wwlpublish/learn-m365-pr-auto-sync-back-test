@@ -4,5 +4,5 @@ Permissions can become complex if multiple permissions are defined. Using the Ef
 
 ### Learn more
 
- -  [icacls \| Microsoft Docs](/windows-server/administration/windows-commands/icacls)
- -  [Set-Acl (Microsoft.PowerShell.Security) - PowerShell](/powershell/module/microsoft.powershell.security/)
+- [icacls](/windows-server/administration/windows-commands/icacls)
+- [Set-Acl (Microsoft.PowerShell.Security)](/powershell/module/microsoft.powershell.security/)

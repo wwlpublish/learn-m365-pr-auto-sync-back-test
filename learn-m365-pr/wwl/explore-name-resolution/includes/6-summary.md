@@ -2,4 +2,4 @@ This module explores how name resolution works. Name resolution is used to acces
 
 ### Learn More
 
- -  [Implement Windows Server DNS - Learn](/learn/modules/implement-windows-server-dns/)
+ -  [Implement Windows Server DNS - Learn](/training/modules/implement-windows-server-dns/)

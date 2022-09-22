@@ -101,7 +101,7 @@ To create a tenant global or tenant user dial plan, complete the following steps
 
 1. If you want to test the dial plan, under **Test dial plan**, enter a phone number, and then select **Test**.
 
-A good overview of dial plans is available on Microsoft docs in resources.
+A good overview of dial plans is available on Microsoft Docs in resources.
 
 ## Configure call park policies
 
@@ -217,4 +217,3 @@ After performing the described steps, you have configured and verified blocking 
 
 > [!TIP]
 > Blocked callers may experience slightly different behaviors depending on how their carrier handles the notification that the call isn't allowed to be successfully completed. Examples may include a carrier message stating the call can't be completed as dialed or simply dropping the call.
-

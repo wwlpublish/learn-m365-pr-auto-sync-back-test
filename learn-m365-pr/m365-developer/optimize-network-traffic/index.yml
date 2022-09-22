@@ -21,7 +21,7 @@ prerequisites: |
   - Ability to develop with NET Core at the intermediate level
   - Experience using Visual Studio Code at the beginner level
   - Access to a Microsoft 365 tenant
-iconUrl: /learn/achievements/optimize-network-traffic.svg
+iconUrl: /training/achievements/optimize-network-traffic.svg
 levels:
   - intermediate
 roles:

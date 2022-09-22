@@ -14,7 +14,7 @@ summary: |
 prerequisites: | 
   - An understanding of concepts including containers, virtual machines, storage, Logic Apps, and Log Analytics.
   - Familiarity with the Azure portal, and Microsoft Defender for Cloud.
-iconUrl: /learn/achievements/cloud-security-solutions-safeguard.svg
+iconUrl: /training/achievements/cloud-security-solutions-safeguard.svg
 levels: 
 - intermediate
 roles:

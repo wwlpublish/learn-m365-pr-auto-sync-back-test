@@ -43,4 +43,4 @@ Microsoft 365 services such as Data Loss Protection, Defender for Cloud Apps, an
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
 - [Introduction to SharePoint Online](/sharepoint/introduction)
-- [Understand your SharePoint site options](/learn/modules/m365-teams-sharepoint-plan-site-architecture/)
+- [Understand your SharePoint site options](/training/modules/m365-teams-sharepoint-plan-site-architecture/)

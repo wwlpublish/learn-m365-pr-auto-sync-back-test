@@ -16,8 +16,8 @@ abstract: |
   - Describe how IT and end users can classify data
 
 prerequisites: | 
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/learn/paths/m365-fundamentals/)
-iconUrl: /learn/achievements/info-protection-growing-digital-estate.svg
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/training/paths/m365-fundamentals/)
+iconUrl: /training/achievements/info-protection-growing-digital-estate.svg
 ratingEnabled: true
 levels:
 - intermediate

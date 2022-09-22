@@ -16,7 +16,7 @@ abstract: |
   * Configure the Microsoft Search service.
 prerequisites: |
   * Experience deploying and configuring application packages, using software distribution tools such as Microsoft Intune or Configuration Manager.
-iconUrl: /learn/achievements/explore-microsoft-search-user-experience.svg
+iconUrl: /training/achievements/explore-microsoft-search-user-experience.svg
 levels:
 - intermediate
 roles:

@@ -4,9 +4,9 @@ Microsoft Graph provides access to data stored across Microsoft 365 services. Cu
 
 - Global Administrator access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program/?WT.mc_id=m365-16105-cxa)
 - Ability to develop JavaScript applications
-- Basic understanding of Azure Active Directory and [Microsoft identity](/learn/modules/getting-started-identity/?WT.mc_id=m365-16105-cxa) concepts is recommended
+- Basic understanding of Azure Active Directory and [Microsoft identity](/training/modules/getting-started-identity/?WT.mc_id=m365-16105-cxa) concepts is recommended
 - [Node.js](https://nodejs.org)
-- Completion of the [Configure a JavaScript application to retrieve Microsoft 365 data by using Microsoft Graph](/learn/modules/msgraph-javascript-app/?WT.mc_id=m365-16105-cxa) module
+- Completion of the [Configure a JavaScript application to retrieve Microsoft 365 data by using Microsoft Graph](/training/modules/msgraph-javascript-app/?WT.mc_id=m365-16105-cxa) module
 
 ## Learning objectives
 

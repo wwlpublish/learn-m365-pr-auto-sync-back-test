@@ -3,7 +3,7 @@ uid: learn-m365.teams.enterprise-security
 metadata:
   title: Configure enterprise-grade security in Microsoft Teams
   description: Learn how to configure enterprise-grade security for Microsoft Teams.
-  ms.date: 06/18/2022
+  ms.date: 09/14/2022
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ abstract: |
   - Explain how to configure multi-factor authentication to secure access to Teams.
   - Describe how to configure app protection policies for mobile devices.
 prerequisites: None
-iconUrl: /learn/achievements/configure-enterprise-grade-security-in-microsoft-teams.svg
+iconUrl: /training/achievements/configure-enterprise-grade-security-in-microsoft-teams.svg
 levels:
 - intermediate
 roles:

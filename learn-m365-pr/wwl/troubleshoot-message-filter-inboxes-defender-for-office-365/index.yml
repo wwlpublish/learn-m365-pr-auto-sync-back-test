@@ -19,7 +19,7 @@ abstract: |
 prerequisites: |
   - Experience with PowerShell and the Exchange PowerShell module.
   - Significant experience deploying, managing, and troubleshooting Exchange environments.
-iconUrl: /learn/achievements/troubleshoot-message-filter-inboxes-defender-for-office-365.svg
+iconUrl: /training/achievements/troubleshoot-message-filter-inboxes-defender-for-office-365.svg
 levels:
 - advanced
 roles:

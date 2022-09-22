@@ -16,7 +16,7 @@ abstract: |
   - Plan for the deployment of meetings using Teams.
 prerequisites: | 
   - Familiarity with Microsoft Teams administration
-iconUrl: /learn/achievements/plan-your-teams-meeting-deployment.svg
+iconUrl: /training/achievements/plan-your-teams-meeting-deployment.svg
 levels:
 - intermediate
 roles:

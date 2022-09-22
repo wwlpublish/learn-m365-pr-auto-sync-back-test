@@ -19,7 +19,7 @@ abstract: |
   - Describe how Microsoft Cloud App Security enhances visibility and control over your Microsoft 365 tenant through three core areas
 prerequisites: |
   None
-iconUrl: /learn/achievements/m365-introduction-security-solutions.svg
+iconUrl: /training/achievements/m365-introduction-security-solutions.svg
 levels:
 - intermediate
 roles:

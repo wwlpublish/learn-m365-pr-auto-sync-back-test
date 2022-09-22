@@ -1,15 +1,17 @@
-Windows 10/11 Enterprise E3 or E5 licenses can be deployed by a company with either:
-
- -  Windows 10/11 Enterprise Subscription Activation
- -  Windows 10/11 Enterprise E3 in CSP and Azure Active Directory (Azure AD)
-
-Devices must be running Windows 10 Pro version 1703 or newer (version 1803 or newer for firmware-embedded activation key). Licenses are automatically deployed and don't require a device restart.
-
 Organizations can obtain Windows 10/11 Enterprise licenses in the following ways:
 
  -  **Firmware-embedded activation key**. If you purchased Windows 8 or newer devices, they probably have a firmware-embedded activation key. You can use Windows PowerShell to verify if an activation key is present. If it's present, Windows 10 version 1803 or newer and Windows 11 will be automatically activated if you deploy it to such a device.
  -  **Enabling Subscription Activation with an existing Enterprise Agreement (EA)**. If you're an existing EA customer, you can get Windows 10/11 Enterprise E3 or E5 licenses for free, depending on your EA. You can then assign the licenses to Azure AD users or groups. By doing so, Windows 10 Pro devices will be automatically upgraded and activated when users sign in.
  -  **Enabling Subscription Activation without an existing EA**. The process of assigning Windows 10/11 Enterprise E3 or E5 licenses is the same. The only difference is that organizations must purchase the licenses from a CSP before they can assign them.
+
+### Deploy Windows 10/11 Enterprise E3 or E5 licenses
+
+Once an organization has obtained Windows 10/11 Enterprise E3 or E5 licenses, it can then deploy them with either:
+
+ -  Windows 10/11 Enterprise Subscription Activation
+ -  Windows 10/11 Enterprise E3 in CSP and Azure Active Directory (Azure AD)
+
+Devices must be running Windows 10 Pro version 1703 or newer (version 1803 or newer for firmware-embedded activation key). Licenses are automatically deployed and don't require a device restart.
 
 Before an organization can start deploying Windows 10 Enterprise E3 or E5 licenses to users, it must sync the identities in the on-premises AD DS domain with Azure AD. This process is required because it ensures that users have a single identity they can use to access their on-premises apps and cloud services that use Azure AD, such as Windows 10 Enterprise E3 or E5. Having a single identity means that users can use their existing credentials to sign in to Azure AD and access the cloud services the organization provides and manages for them.
 
