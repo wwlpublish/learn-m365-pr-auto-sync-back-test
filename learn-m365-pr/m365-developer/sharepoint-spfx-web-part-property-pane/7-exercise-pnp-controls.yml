@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-web-part-property-pane.7-exercise-pnp-controls
 metadata:
   title: Exercise - Use the SPFx PnP reusable property pane controls
   description: In this exercise, you'll learn how to use existing third-party controls from the popular PnP SPFx reusable property pane controls project.
-  ms.date: 05/02/2022
+  ms.date: 09/05/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -17,13 +17,13 @@ quiz:
   questions:
   - content: "What is required to use the PnP reusable property pane controls in a SharePoint Framework client-side web part project?"
     choices:
-    - content: "Install the NPM package that contains the PnP reusable property pane controls into the project using NPM (or another package manager."
+    - content: "Install the npm package that contains the PnP reusable property pane controls into the project using NPM (or another package manager."
       isCorrect: true
       explanation: "Correct!"
     - content: "Nothing - the library is already included in the default project created by the Yeoman generator for the SharePoint Framework."
       isCorrect: false
       explanation: "You must install the library; it isn't included in default projects."
-    - content: "Install the NPM package that contains the PnP reusable property pane controls and uninstall the package that contains the default controls."
+    - content: "Install the npm package that contains the PnP reusable property pane controls and uninstall the package that contains the default controls."
       isCorrect: false
       explanation: "You don't need to uninstall anything to use the PnP library."
   - content: "Why are some of the controls in the PnP reusable property pane controls library called *smart controls*?"

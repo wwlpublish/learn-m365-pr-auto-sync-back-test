@@ -17,7 +17,7 @@ summary:  |
     
     This module is a great start for anyone involved with organizing, producing, presenting in, moderating, or attending virtual events.
    
-abstract: | # user input: learning objectives (https://review.docs.microsoft.com/help/learn/id-guidance-learning-objectives?branch=main)
+abstract: | # user input: learning objectives (https://review.learn.microsoft.com/help/learn/id-guidance-learning-objectives?branch=main)
   By the end of this module, you'll be able to:
     - Describe the different virtual events supported by Microsoft 365
     - Build accessible presentations to support your virtual events
@@ -25,9 +25,9 @@ abstract: | # user input: learning objectives (https://review.docs.microsoft.com
     - Explain the different platform requirements
 prerequisites: None
 iconUrl: /training/achievements/introduction-to-delivering-virtual-events-using-microsoft-teams.svg
-levels: # user input: add levels from level taxonomy (https://review.docs.microsoft.com/help/contribute/metadata-taxonomies?branch=main#level)
+levels: # user input: add levels from level taxonomy (https://review.learn.microsoft.com/help/contribute/metadata-taxonomies?branch=main#level)
   - beginner
-roles: # user input: add roles from role taxonomy (https://review.docs.microsoft.com/help/contribute/metadata-taxonomies?branch=main#role)
+roles: # user input: add roles from role taxonomy (https://review.learn.microsoft.com/help/contribute/metadata-taxonomies?branch=main#role)
   - business-user
   - administrator
 products:

@@ -10,9 +10,9 @@ Administrators can access the CQD at [https://cqd.teams.microsoft.com/](https://
 
 The dashboard lets you track call quality trends over time, focused on the overall call quality, server to client, and client to client. If you have building and endpoint information available, you can upload that data and use it in the dashboard.
 
-The building data file can be tab or comma-separated data, with no headers, and up to a million rows. For the full column specification, see [Microsoft docs](/microsoftteams/cqd-upload-tenant-building-data#upload-building-data-file).
+The building data file can be tab or comma-separated data, with no headers, and up to a million rows. For the full column specification, see [Upload building data file](/microsoftteams/cqd-upload-tenant-building-data#upload-building-data-file).
 
-The endpoint file is in the same format, for the full column specification see [Microsoft docs](/microsoftteams/cqd-upload-tenant-building-data#endpoint-data-file).
+The endpoint file is in the same format, for the full column specification, see [Endpoint data file](/microsoftteams/cqd-upload-tenant-building-data#endpoint-data-file).
 
 After you've added the information, the CQD becomes more useful to your organization as you have access to extra functionality like filtering reports by location.
 

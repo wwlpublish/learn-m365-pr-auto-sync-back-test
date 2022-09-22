@@ -3,7 +3,7 @@ In this exercise, you'll learn how to use existing third-party controls from the
 ## Create a new SharePoint Framework solution and web part
 
 > [!IMPORTANT]
-> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
+> The instructions below assume you're using v1.15.2 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
 
 Open a command prompt and change to the folder where you want to create the project.
 
@@ -18,7 +18,7 @@ Use the following to complete the prompt that is displayed (*if more options are
 - **What is your solution name?:** HelloPnPControls
 - **Which type of client-side component to create?:** WebPart
 - **What is your Web part name?:** HelloPnPControls
-- **Which framework would you like to use?:** No framework
+- **Which template would you like to use?:** No framework
 
 After provisioning the folders required for the project, the generator will install all the dependency packages using npm.
 
@@ -107,7 +107,7 @@ PropertyFieldPeoplePicker('people', {
   allowDuplicate: false,
   principalType: [PrincipalType.Users, PrincipalType.SharePoint, PrincipalType.Security],
   onPropertyChange: this.onPropertyPaneFieldChanged,
-  context: this.context as any,
+  context: this.context as any, // eslint-disable-line @typescript-eslint/no-explicit-any
   properties: this.properties,
   onGetErrorMessage: null,
   deferredValidationTime: 0,
@@ -163,7 +163,7 @@ import {
 Locate the interface `IHelloPnPControlsWebPartProps` after the `import` statements. Add the following property to the interface to store the collection of data entered in the new control you're about to add to the property pane:
 
 ```typescript
-expansionOptions: any[];
+expansionOptions: any[]; // eslint-disable-line @typescript-eslint/no-explicit-any
 ```
 
 ### Display the `expansionOptions` property data
@@ -180,7 +180,7 @@ Add the following code at the end of the `render()` method. If any regions have 
 if (this.properties.expansionOptions && this.properties.expansionOptions.length > 0) {
   let expansionOptions: string  = '';
   this.properties.expansionOptions.forEach((option) => {
-    expansionOptions = expansionOptions + `<li>${ option['Region'] }: ${ option['Comment'] } </li>`;
+    expansionOptions = expansionOptions + `<li>${ option.Region }: ${ option.Comment } </li>`;
   });
   if (expansionOptions.length > 0) {
     this.domElement.getElementsByClassName('expansionOptions')[0].innerHTML = `<ul>${ expansionOptions }</ul>`;
