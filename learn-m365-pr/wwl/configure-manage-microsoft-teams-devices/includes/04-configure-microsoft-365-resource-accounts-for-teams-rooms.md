@@ -197,7 +197,7 @@ Set-AzureADUser -ObjectID ConfRoom1@contoso.com -PasswordPolicies DisablePasswor
 
 2. Use the ```Set-AzureADUser``` cmdlet to assign the license. Convert the license SKU ID into a PowerShell license type object. Then, assign that object to the resource account.
 
-   Here's the command to assign **Microsoft Teams Rooms Pro** (license SKU ID 4cde982a-ede4-4409-9ae6-b003453c8ea6) to the account ConfRoom1@contoso.com.
+   Here's the command to assign **Microsoft Teams Rooms Pro license** ( SKU ID: 4cde982a-ede4-4409-9ae6-b003453c8ea6) to the account ConfRoom1@contoso.com.
 
 
    ```powershell
