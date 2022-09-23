@@ -16,7 +16,7 @@ These are three key aspects of the service:
 For the Microsoft Teams Rooms managed service to maintain service quality, you need to ensure
 
 -   Use [Microsoft Teams Rooms supported devices](/microsoftteams/rooms/requirements?azure-portal=true#hardware-requirements).
--   Prepare a resource account for each Microsoft Teams Rooms console. The resource accounts require a **Microsoft Teams Rooms Premium license** to work with the Microsoft Teams Rooms Premium-managed service.
+-   Prepare a resource account for each Microsoft Teams Rooms console. The resource accounts require a **Microsoft Teams Rooms Pro license** to work with the Microsoft Teams Rooms Premium managed services.
 -   Ensure that there is a working network/Internet connection for the device to use.
 
 ## Service capabilities
