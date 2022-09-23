@@ -82,7 +82,7 @@ To configure a device state monitoring rule for a tenant, perform the following 
 
 > [!TIP]
 > You cannot edit Rule type, condition, or scope. The only condition available to monitor is if the device goes offline. More rule types, conditions and scopes are planned to be added in the future.
-> Microsoft provides a reference for web hook code in Microsoft Docs.
+> Microsoft provides a reference for web hook code in Microsoft Learn.
 
 ## Device log collection and review
 
