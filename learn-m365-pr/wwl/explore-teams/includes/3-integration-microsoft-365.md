@@ -7,9 +7,7 @@ There are multiple ways to apply Microsoft 365 apps and services in Microsoft Te
 Microsoft Viva is an integrated employee experience platform for the hybrid work era. Viva brings together tools and applications employees need into one unified solution aligned across four key experience areas: Connection, Insight, Purpose, and Growth.
 :::image type="content" source="../media/viva-teams.png" alt-text="The integration between Viva and Microsoft Teams":::
 
-For example, **Viva Goals** is a goal-setting and objectives and key results (OKR) management solution that helps organizations align everyday work to business outcomes.  
-
-The integration between Viva Goals and Teams brings goals into the flow of work. These include an enhanced Microsoft Teams app to check-in and collaborate on OKRs within the Teams activity feed, an extension in Azure DevOps to complete work items, a connection to Power BI datasets to track key performance indicators (KPIs) and key results, and integrations with Microsoft Planner and Microsoft Project for automatic project management updates.
+For example, **Viva Goals** is a goal-setting and objectives and key results (OKR) management solution that helps organizations align everyday work to business outcomes. The integration between Viva Goals and Teams brings goals into the flow of work. These include an enhanced Microsoft Teams app to check-in and collaborate on OKRs within the Teams activity feed, an extension in Azure DevOps to complete work items, a connection to Power BI datasets to track key performance indicators (KPIs) and key results, and integrations with Microsoft Planner and Microsoft Project for automatic project management updates.
 
 :::image type="content" source="../media/viva-goal-teams.png" alt-text="The integration between Viva goals and Microsoft Teams":::
 
