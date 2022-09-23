@@ -19,7 +19,7 @@ abstract: |
   - Troubleshoot app protection policy deployment in Intune.
 prerequisites: |
   None
-iconUrl: /learn/achievements/windows-application-management.svg
+iconUrl: /training/achievements/windows-application-management.svg
 levels:
 - intermediate
 roles:

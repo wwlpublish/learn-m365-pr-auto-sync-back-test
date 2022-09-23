@@ -15,7 +15,7 @@ prerequisites: |
   - Students must have a proficient understanding of general IT practices.
 summary: |
   This learning path examines how to manage the Microsoft 365 threat intelligence features that provide organizations with insight and protection against the internal and external cyber-attacks that threaten their tenants.
-iconUrl: /learn/achievements/m365-threat-intelligence.svg
+iconUrl: /training/achievements/m365-threat-intelligence.svg
 levels:
 - intermediate
 roles:

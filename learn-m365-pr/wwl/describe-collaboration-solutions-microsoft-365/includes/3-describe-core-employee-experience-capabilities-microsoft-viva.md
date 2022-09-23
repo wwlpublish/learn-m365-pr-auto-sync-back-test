@@ -42,7 +42,6 @@ The topics are displayed to users through:
 
 :::image type="content" source="../media/microsoft-viva-topics-9eefa004.jpg" alt-text="Screenshot showing the Viva Topics module within the Microsoft Viva platform.":::
 
-
 ### Viva Learning
 
 **Viva Learning** is a centralized learning hub in Microsoft Teams that lets you seamlessly integrate learning and building skills into your day. In Viva Learning, your team can discover, share, recommend, and learn from content libraries provided by both your organization and partners. They can do all of this without leaving Microsoft Teams.
@@ -51,8 +50,8 @@ Viva Learning allows employees to easily discover informal and formal learning i
 
 There are three main views in the Viva Learning app:
 
- -  **Home.** Discover new content, trending content, and browse learning content libraries.
- -  **My Learning.** Access your recommendations and assignments, as well as bookmarked, recently viewed, and completed courses.
- -  **Manage.** Track the progress of recommendations that you made.
+- **Home.** Discover new content, trending content, and browse learning content libraries.
+- **My Learning.** Access your recommendations and assignments, as well as bookmarked, recently viewed, and completed courses.
+- **Manage.** Track the progress of recommendations that you made.
 
 :::image type="content" source="../media/microsoft-viva-learning-81133db6.jpg" alt-text="Screenshot showing the Viva Learning module within the Microsoft Viva platform.":::

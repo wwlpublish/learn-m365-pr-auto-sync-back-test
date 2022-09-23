@@ -280,8 +280,8 @@ In the project that you've created, the task pane JavaScript is specified in the
 (function(){
   'use strict';
 
-  var config;
-  var settingsDialog;
+  let config;
+  let settingsDialog;
 
   Office.initialize = function(reason){
 
@@ -301,7 +301,7 @@ In the project that you've created, the task pane JavaScript is specified in the
       // When insert button is selected, build the content
       // and insert into the body.
       $('#insert-button').on('click', function(){
-        var gistId = $('.ms-ListItem.is-selected').val();
+        const gistId = $('.ms-ListItem.is-selected').val();
         getGist(gistId, function(gist, error) {
           if (gist) {
             buildBodyContent(gist, function (content, error) {
@@ -325,14 +325,14 @@ In the project that you've created, the task pane JavaScript is specified in the
       // When the settings icon is selected, open the settings dialog.
       $('#settings-icon').on('click', function(){
         // Display settings dialog.
-        var url = new URI('../src/settings/dialog.html').absoluteTo(window.location).toString();
+        let url = new URI('../src/settings/dialog.html').absoluteTo(window.location).toString();
         if (config) {
           // If the add-in has already been configured, pass the existing values
           // to the dialog.
           url = url + '?gitHubUserName=' + config.gitHubUserName + '&defaultGistId=' + config.defaultGistId;
         }
 
-        var dialogOptions = { width: 20, height: 40, displayInIframe: true };
+        const dialogOptions = { width: 20, height: 40, displayInIframe: true };
 
         Office.context.ui.displayDialogAsync(url, dialogOptions, function(result) {
           settingsDialog = result.value;

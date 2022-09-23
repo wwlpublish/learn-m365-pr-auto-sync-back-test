@@ -17,7 +17,7 @@ abstract: |
   *   Describe the benefits of the Microsoft 365 Roadmap
 prerequisites: |
   - Familiarity with cloud computing concepts including deployment models and cloud service models, such as Software-as-a -Service (Saas).
-iconUrl: /learn/achievements/describe-the-service-life-cycle-in-microsoft-365.svg
+iconUrl: /training/achievements/describe-the-service-life-cycle-in-microsoft-365.svg
 levels:
 - beginner
 roles:

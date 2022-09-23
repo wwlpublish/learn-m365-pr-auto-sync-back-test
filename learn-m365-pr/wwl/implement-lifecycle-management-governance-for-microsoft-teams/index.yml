@@ -22,7 +22,7 @@ abstract: |
 prerequisites: |
   - A proficient understanding of basic functional experience with Microsoft 365 services.
   - A proficient understanding of general IT practices, including using PowerShell.
-iconUrl: /learn/achievements/teams-lifecycle-management.svg
+iconUrl: /training/achievements/teams-lifecycle-management.svg
 levels:
 - intermediate
 roles:

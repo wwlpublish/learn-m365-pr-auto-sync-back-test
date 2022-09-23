@@ -25,7 +25,7 @@ prerequisites: |
   - Basic understanding of HTML
   - [Visual Studio Code](https://code.visualstudio.com/)
   - [Visual Studio Code Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-iconUrl: /learn/achievements/msgraph-toolkit-customize-part-one.svg
+iconUrl: /training/achievements/msgraph-toolkit-customize-part-one.svg
 levels:
   - beginner
 roles:

@@ -18,7 +18,7 @@ abstract: |
  - Configure Take a Test profile.
 prerequisites: |
    - Basic understanding of modern management in Microsoft 365  
-iconUrl: /learn/achievements/manage-devices-used-for-education.svg
+iconUrl: /training/achievements/manage-devices-used-for-education.svg
 levels: 
 - beginner
 roles: 

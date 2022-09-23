@@ -16,7 +16,7 @@ Now that you have reviewed this module, you should be able to:
 
 Use these resources to discover more background details of the described topics from this module:
 
-- [Manage calls in Microsoft Teams by using auto attendants and call queues](/learn/modules/m365-teams-manage-calls-using-auto-attendants/)
+- [Manage calls in Microsoft Teams by using auto attendants and call queues](/training/modules/m365-teams-manage-calls-using-auto-attendants/)
 
 - [Set up an auto attendant - small business tutorial](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb)
 

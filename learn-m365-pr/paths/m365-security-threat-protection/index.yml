@@ -12,7 +12,7 @@ title: Defend against threats with Microsoft 365
 summary: Microsoft 365 includes security technologies that enterprises can use to secure email, data, devices, and identities against the risk of cyber threats. This learning path provides an introduction to Microsoft 365 Defender, Microsoft Defender for Endpoint, Microsoft Defender for Identity, and Microsoft Defender for Office 365. 
 prerequisites: | 
  - Intermediate understanding of Microsoft 365
-iconUrl: /learn/achievements/defend-against-threats-m365-microsoft-threat-protection.svg
+iconUrl: /training/achievements/defend-against-threats-m365-microsoft-threat-protection.svg
 levels: 
 - intermediate
 roles:

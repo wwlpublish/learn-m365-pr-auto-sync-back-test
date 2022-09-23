@@ -15,7 +15,7 @@ prerequisites: |
   - Experience using Active Directory Domain Services
 summary: |
   Students will learn about using Windows Autopilot and deployment using Microsoft Intune. Students will also learn how co-management can be used to transition to modern management.
-iconUrl: /learn/achievements/deploy-cloud-based-tools.svg
+iconUrl: /training/achievements/deploy-cloud-based-tools.svg
 levels:
 - intermediate
 roles:

@@ -3,7 +3,7 @@ uid: learn-m365.m365-teams-rooms-get-started
 metadata:
   title: Get started with Microsoft Teams Rooms
   description: Learn what Microsoft Teams meetings are, what defines Microsoft Teams devices, and what the basic requirements are for setting up Microsoft Teams Rooms.
-  ms.date: 06/18/2022
+  ms.date: 09/14/2022
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
@@ -19,7 +19,7 @@ abstract: |
 prerequisites: | 
  - Familiarity with Microsoft Teams
 
-iconUrl: /learn/achievements/get-started-with-microsoft-teams-rooms.svg
+iconUrl: /training/achievements/get-started-with-microsoft-teams-rooms.svg
 levels:
 - intermediate
 roles:

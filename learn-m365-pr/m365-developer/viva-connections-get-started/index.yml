@@ -21,7 +21,7 @@ abstract: |
 prerequisites: |
   - SharePoint and Teams administrator access to a Microsoft 365 tenant
   - Mobile device with Microsoft Teams installed
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /training/achievements/generic-badge.svg
 levels:
   - beginner
 roles:

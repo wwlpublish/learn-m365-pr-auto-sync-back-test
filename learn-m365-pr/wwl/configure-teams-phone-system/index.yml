@@ -20,7 +20,7 @@ abstract: |
 prerequisites: |
   - General knowledge of Teams Phone and the Teams Admin Center
   - A general understanding of Office 365 and Microsoft 365
-iconUrl: /learn/achievements/4-configure-teams-phone-system.svg
+iconUrl: /training/achievements/4-configure-teams-phone-system.svg
 levels:
 - advanced
 roles:

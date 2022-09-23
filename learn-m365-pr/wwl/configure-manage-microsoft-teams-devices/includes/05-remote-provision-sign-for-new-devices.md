@@ -5,17 +5,25 @@ IT admins can remotely provision and sign in to a Teams Android device. To provi
 Complete the following steps to provision a new device:
 
 1.  Sign in to the Teams admin center.
-2.  Expand **Teams Devices**.
-3.  Select **Provision new device** from the **Actions** tab.
+2.  Expand **Teams Devices** and select the device type.
+3.  Select **Provision device** from the **Actions** dropdown menu.
 
-In the **Provision new devices** window, you can either add the MAC address manually or upload a file.
-
+In the **Provision devices** window, you can either add the MAC address manually or upload a file.
 
 ### Manually add a device MAC address
 
-1. From the **Waiting on activation** tab, select **Add MAC ID**.
-1. Enter the MAC ID.
-1. Enter a location, which helps technicians identify where to install the devices.
+1. From the **Waiting on activation** tab, select **Add MAC address manually**.
+
+1. Enter the following information:
+
+   1. **ID type**:
+
+         * MAC address: Use for devices that support MAC addresses, excluding SIP analog devices.
+         * Hardware ID (analog): Use only for SIP analog devices. Requires a port number and MAC address.
+
+   2. **MAC address**
+   3. **Location**: This helps technicians identify where to install the devices.
+
 1. Select **Apply** when finished.
    
    :::image type="content" source="../media/remote-provision-6.png" alt-text="Screenshot of Manually add a device mac address.":::
@@ -23,10 +31,10 @@ In the **Provision new devices** window, you can either add the MAC address manu
 
 ### Upload a file to add a device MAC address
 
-1. From the **Waiting on activation** tab, select **Upload MAC IDs**.
-2. Download the file template.
-3. Enter the MAC ID and location, and then save the file.
-4. **Select file**, and then select **Upload**.
+1. From the **Waiting on activation** tab, select **Upload multiple MAC addresses**.
+2. Select **download a template**.
+3. Enter the MAC addresses or hardware IDs, and then save the file.
+4. Select **Select a file** and select the csv file you updated, and then select **Upload**.
 
 ## Generate a verification code
 

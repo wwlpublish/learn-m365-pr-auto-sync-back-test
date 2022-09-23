@@ -17,7 +17,7 @@ abstract: |
   - Demonstrate how to run an assessment of your environment to identify the deployment tasks you must complete.
   - Explain how to manage a deployment in the Planner and gather feedback from users.
 prerequisites: None
-iconUrl: /learn/achievements/rollout-teams-using-advisor-for-teams.svg
+iconUrl: /training/achievements/rollout-teams-using-advisor-for-teams.svg
 levels:
 - beginner
 roles:

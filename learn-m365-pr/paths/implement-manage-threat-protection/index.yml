@@ -13,7 +13,7 @@ prerequisites: |
   None.
 summary: |
   Learn how to plan, implement, and manage threat protection technologies in Microsoft 365. This learning path prepares you for the second set of skills evaluated on the MS-500 Microsoft 365 Security Administrator certification exam.
-iconUrl: /learn/achievements/m365-threat-protection.svg
+iconUrl: /training/achievements/m365-threat-protection.svg
 levels:
 - intermediate
 roles:

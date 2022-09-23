@@ -21,11 +21,11 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v14.\*
-- npm (installed with Node.js) - v7.\*
-- [Gulp CLI](https://gulpjs.com/) - v2.\*
+- [Node.js](https://nodejs.org/) - (*the active [LTS](https://nodejs.org/about/releases) version*)
+- npm (*installed with Node.js*)
+- [Gulp-cli](https://www.npmjs.com/package/gulp-cli) - v2.3.\*
 - [Yeoman](https://yeoman.io/) - v4.3.\*
-- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v4.0.1
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -173,7 +173,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: SSO Teams Bot
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.11
+- **Which manifest version would you like to use?**: v1.13
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A bot
 - **The URL where you will host this solution?**:  (Accept the default option)
@@ -189,6 +189,14 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 > At the time of writing this exercise, the Yeoman Generator for Microsoft Teams doesn't contain a project template for a bot that supports SSO. That's why you selected *An already existing and running bot* in the options above. In the next step, you'll manually add the bot to the project.
 
 After answering the generator's questions, the generator will create the scaffolding for the project and then execute `npm install` that downloads all the dependencies required by the project.
+
+### Ensure the project is using the latest version of Teams SDK
+
+Run the npm command to install the latest version of the SDK:
+
+```console
+npm i @microsoft/teams-js
+```
 
 ### Add more dependencies to the project
 
@@ -283,7 +291,6 @@ Let's start by creating the SSO helper. Add a new file **SsoOAuthHelper.ts** to 
 import {
   ActivityTypes,
   BotFrameworkAdapter,
-  ConversationState,
   StatusCodes,
   tokenExchangeOperationName,
   TokenResponse,
@@ -458,10 +465,6 @@ In the `MainDialog` constructor, it adds a two dialogs to the bot, including:
 Add the following code to the **MainDialog.ts** file:
 
 ```typescript
-import {
-  StatePropertyAccessor,
-  TurnContext
-} from "botbuilder-core";
 import {
   DialogSet,
   DialogState,
@@ -668,8 +671,8 @@ Create a new file, **./src/server/SsoBot/SsoBot.ts**, and add the following code
 import { BotDeclaration } from "express-msteams-host";
 import * as debug from "debug";
 import {
-  ConversationState,
   UserState,
+  ConversationState,
   SigninStateVerificationQuery,
   TurnContext,
   MemoryStorage
@@ -736,7 +739,7 @@ The handler for the `signin/tokenExchange` activity uses the helper we previousl
 
 The last step is to add the bot to the web server when it starts.
 
-Locate and open the file **./src/server/TeamsAppsComponents.ts**. Add the following to the end of the file:
+Locate and open the file **./src/server/TeamsAppsComponents.ts**. Replace the export statement in that file:
 
 ```typescript
 export * from "./SsoBot/SsoBot";

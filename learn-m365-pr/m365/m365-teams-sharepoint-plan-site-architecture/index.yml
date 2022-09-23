@@ -17,8 +17,8 @@ abstract: |
   - Explain how SharePoint hub sites work with team and communications sites and how to set them up.
 
 prerequisites: | 
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/learn/paths/m365-fundamentals/)
-iconUrl: /learn/achievements/understand-your-sharepoint-site-options.svg
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/training/paths/m365-fundamentals/)
+iconUrl: /training/achievements/understand-your-sharepoint-site-options.svg
 ratingEnabled: true
 levels:
 - intermediate

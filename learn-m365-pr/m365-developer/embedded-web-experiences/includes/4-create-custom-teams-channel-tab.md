@@ -81,7 +81,7 @@ This image shows the tab context menu. If the channel tab doesn't have the `canU
 
 Configuration pages, just like personal and channel tabs, are webpages loaded within an `<iframe>`. You're responsible for implementing the user interface. Similar to the content pages for tabs, the webpage used as a configuration page must be permitted to load within an `<iframe>`.
 
-Configuration pages must notify Microsoft Teams when the settings have been configured and saved. This notification is done by registering a save handler by using the `registerOnSaveHandler()` event. Within your handler for this event, use the `microsoftTeams.settings.setSettings()` method to update the tab's settings. Use the `saveEvent.notifySuccess()` method to make Microsoft Teams aware that the settings were successfully saved.
+Configuration pages must notify Microsoft Teams when the settings have been configured and saved. This notification is done by registering a save handler by using the `registerOnSaveHandler()` event. Within your handler for this event, use the `pages.config.setConfig()` method to update the tab's settings. Use the `saveEvent.notifySuccess()` method to make Microsoft Teams aware that the settings were successfully saved.
 
 You're responsible for saving any configuration information your tab will need.
 
@@ -93,7 +93,7 @@ This code is what you'll use to save any settings from the configuration page in
 microsoftTeams.settings.registerOnSaveHandler((saveEvent: microsoftTeams.settings.SaveEvent) => {
   // Calculate host dynamically to enable local debugging
   const host = "https://" + window.location.host;
-  microsoftTeams.settings.setSettings({
+  pages.config.setConfig({
     contentUrl: host + "/configMathTab/?data=",
     suggestedDisplayName: "ConfigMathTab",
     removeUrl: host + "/configMathTab/remove.html",
@@ -103,9 +103,9 @@ microsoftTeams.settings.registerOnSaveHandler((saveEvent: microsoftTeams.setting
 });
 ```
 
-Register your handler when the **Save** button is selected on the configuration page by calling the `microsoftTeams.settings.registerOnSaveHandler()` method from the Microsoft Teams JavaScript SDK.
+Register your handler when the **Save** button is selected on the configuration page by calling the `pages.config.registerOnSaveHandler()` method from the Microsoft Teams JavaScript SDK.
 
-Use the `microsoftTeams.settings.setSettings()` method to save any settings on the channel tab. Finally, notify Microsoft Teams that the configuration page completed successfully by calling the `saveEvent.notifySuccess()` method.
+Use the `pages.config.setConfig()` method to save any settings on the channel tab. Finally, notify Microsoft Teams that the configuration page completed successfully by calling the `saveEvent.notifySuccess()` method.
 
 ## Channel tab capabilities: Removal page
 

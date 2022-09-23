@@ -18,11 +18,10 @@ You should now be able to:
 
 Use these resources to discover more background details of the described topics from this module:
 
-- [Get started upgrading Skype for Business to Teams - Microsoft Teams | Microsoft Docs](/microsoftteams/upgrade-start-here)
+- [Get started upgrading Skype for Business to Microsoft Teams](/microsoftteams/upgrade-start-here)
 
-- [Plan hybrid connectivity - Skype for Business Hybrid | Microsoft Docs](/skypeforbusiness/hybrid/plan-hybrid-connectivity)
+- [Plan hybrid connectivity between Skype for Business Server and Teams](/skypeforbusiness/hybrid/plan-hybrid-connectivity)
 
-- [Set your coexistence and upgrade settings - Microsoft Teams | Microsoft Docs](/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings)
+- [Set your coexistence and upgrade settings in Microsoft Teams](/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings)
 
-- [PSTN considerations when upgrading to Teams from Skype for Business - Microsoft Teams | Microsoft Docs](/microsoftteams/upgrade-to-teams-on-prem-pstn-considerations)
-
+- [PSTN considerations when upgrading to Teams from Skype for Business](/microsoftteams/upgrade-to-teams-on-prem-pstn-considerations)

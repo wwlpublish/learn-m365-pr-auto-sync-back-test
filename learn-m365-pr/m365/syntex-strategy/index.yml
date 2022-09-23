@@ -18,7 +18,7 @@ abstract: |
 prerequisites: | 
  - Beginner understanding of SharePoint Syntex 
  - SharePoint administrative access
-iconUrl:  /learn/achievements/create-your-sharepoint-syntex-strategy.svg
+iconUrl:  /training/achievements/create-your-sharepoint-syntex-strategy.svg
 ratingEnabled: true
 levels:
 - beginner

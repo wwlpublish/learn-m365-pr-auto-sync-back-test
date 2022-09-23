@@ -18,7 +18,7 @@ abstract: |
 
 prerequisites: | 
  - Intermediate understanding of Microsoft 365
-iconUrl: /learn/achievements/train-the-defenders.svg
+iconUrl: /training/achievements/train-the-defenders.svg
 ratingEnabled: true
 levels:
 - intermediate

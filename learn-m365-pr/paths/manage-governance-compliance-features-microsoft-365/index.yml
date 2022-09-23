@@ -13,7 +13,7 @@ prerequisites: |
   None.
 summary: |
   Learn how to plan, implement, and manage government and compliance features in Microsoft 365. This learning path prepares you for the fourth set of skills evaluated on the MS-500 Microsoft 365 Security Administrator certification exam.
-iconUrl: /learn/achievements/m365-governance-compliance.svg
+iconUrl: /training/achievements/m365-governance-compliance.svg
 levels:
 - intermediate
 roles:

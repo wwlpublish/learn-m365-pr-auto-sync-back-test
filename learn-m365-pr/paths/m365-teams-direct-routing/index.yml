@@ -14,7 +14,7 @@ summary: "You can use Microsoft Teams to implement telephony in your business an
 prerequisites: | 
   - Ability to administer Microsoft Teams 
   - Familiarity with traditional and VOIP telephony concepts such as private branch exchanges (PBXs) and public switch telephone networks (PSTNs) 
-iconUrl: /learn/achievements/deploy-teams-phone-systems-with-direct-routing.svg
+iconUrl: /training/achievements/deploy-teams-phone-systems-with-direct-routing.svg
 levels: 
 - intermediate
 roles:

@@ -21,7 +21,7 @@ prerequisites: |
   - Experience using Visual Studio Code at the intermediate level
   - Access to a Microsoft 365 tenant
   - Access to a Microsoft Azure subscription
-iconUrl: /learn/achievements/msteams-conversation-bots.svg
+iconUrl: /training/achievements/msteams-conversation-bots.svg
 levels:
   - intermediate
 roles:

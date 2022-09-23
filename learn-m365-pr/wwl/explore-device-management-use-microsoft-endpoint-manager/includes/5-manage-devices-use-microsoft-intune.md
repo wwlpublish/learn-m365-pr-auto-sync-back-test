@@ -1,8 +1,24 @@
+Microsoft Intune is a cloud-based service that focuses on mobile device management (MDM) and mobile application management (MAM). Organizations can use Intune to control how their devices are used, including mobile phones, tablets, and laptops. They can also configure specific policies to control applications. For example, they can prevent emails from being sent to people outside their organization. Intune also allows people in an organization to use their personal devices for school or work. On personal devices, Intune helps make sure an organization's data stays protected and can isolate organization data from personal data.
+
+### Manage devices
+
+In Intune, an organization can manage devices using an approach that's right for the company. For company-owned devices, an organization may want full control over the devices, including settings, features, and security. In this approach, devices and users of these devices "enroll" in Intune. Once enrolled, they receive the organization's rules and settings through policies configured in Intune. For example, you can set password and PIN requirements, create a VPN connection, set up threat protection, and more.
+
+For personal devices, or bring-your-own devices (BYOD), users may not want the company administrators to have full control. In this approach, an organization can provide options to its users. For example, users must enroll their devices if they want full access to the organization's resources. Or, if these users only want access to email or Microsoft Teams, they can use app protection policies that require multi-factor authentication (MFA) to use these apps.
+
+When devices are enrolled and managed in Intune, administrators can:
+
+ -  See the devices enrolled and get an inventory of devices accessing organization resources.
+ -  Configure devices, so they meet their company's security and health standards. For example, organizations probably want to block jailbroken devices.
+ -  Push certificates to devices so users can easily access the company's Wi-Fi network or use a VPN to connect to its network.
+ -  See reports on users and devices compliance.
+ -  Remove organization data if a device is lost, stolen, or not used anymore.
+
 As an IT admin, you must ensure that managed devices are providing the resources that your users need to do their work, while protecting that data from risk.
 
 In the Microsoft Endpoint Manager admin center, the **Devices** page gives you insights into the devices you manage, and lets you activate remote tasks on those devices. Not all device actions are available for every platform or device. Available actions are shown on a device's overview page. To get to the Devices overview page, perform the following steps:
 
-1.  In the **Microsoft Endpoint Manager admin center**, select **Devices** on the navigation pane. This view shows detailed information about devices, and what you can do with them. The middle navigation pane includes the following groups of settings:
+1. In the **Microsoft Endpoint Manager admin center**, select **Devices** on the navigation pane. This view shows detailed information about devices, and what you can do with them. The middle navigation pane includes the following groups of settings:
      -  **Overview**. The Overview page shows a visual snapshot of the enrolled devices, how many devices are using the different platforms, and more.
      -  **All devices**. The All devices page shows a list of the enrolled devices you manage.
         
@@ -17,8 +33,8 @@ In the Microsoft Endpoint Manager admin center, the **Devices** page gives you i
          -  **Device cleanup rules**. This option lets you automatically remove inactive devices from Intune. For more information, see [Automatically delete devices with cleanup rules](/mem/intune/remote-actions/devices-wipe#delete-devices-from-the-intune-portal?azure-portal=true).
          -  **Device categories**. This option lets you create [device categories](/mem/intune/enrollment/device-group-mapping?azure-portal=true).
      -  **Help and Support**. Provides a shortcut on troubleshooting tips, requesting support, or checking the status of Intune.
-2.  On the **Devices** page, select **All devices** in the middle navigation pane.
-3.  On the **All devices** page, select a device.
+1. On the **Devices** page, select **All devices** in the middle navigation pane.
+1. On the **All devices** page, select a device.
 
 ### Available device actions
 

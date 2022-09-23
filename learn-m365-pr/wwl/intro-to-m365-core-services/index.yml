@@ -17,7 +17,7 @@ abstract: |
     -	Learn the difference between the Microsoft 365 services and their on-premises counterparts
 prerequisites: |
   None
-iconUrl: /learn/achievements/intro-to-m365-core-services.svg
+iconUrl: /training/achievements/intro-to-m365-core-services.svg
 levels:
 - beginner
 roles:

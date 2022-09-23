@@ -18,7 +18,7 @@ abstract: |
     - Describe how to create configuration policies for Surface Hub using Microsoft Endpoint Manager.
 prerequisites: |
   - None.
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /training/achievements/generic-badge.svg
 levels:
   - beginner
 roles:

@@ -16,7 +16,7 @@ abstract: |
   *   Configure role assignment policies.
   *   Create new custom roles and role assignment policies.
 prerequisites: ""
-iconUrl: /learn/achievements/user-roles-manage.svg
+iconUrl: /training/achievements/user-roles-manage.svg
 levels:
 - intermediate
 roles:

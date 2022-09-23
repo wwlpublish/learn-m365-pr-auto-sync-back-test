@@ -21,7 +21,7 @@ prerequisites: |
   - Familiarity with Azure Virtual Desktop.
   - Familiarity with Windows virtualization technologies, including Remote Desktop Services.
   - (Optional) Access to an Azure environment that's prepared for Azure Virtual Desktop. You must have Azure Active Directory (Azure AD) configured and integrated with Azure Active Directory Domain Services (AD DS), and an Azure virtual network that’s connected to your domain.
-iconUrl: /learn/achievements/business-continuity-disaster-recovery-azure-virtual-desktop.svg
+iconUrl: /training/achievements/business-continuity-disaster-recovery-azure-virtual-desktop.svg
 ratingEnabled: true
 levels:
 - intermediate

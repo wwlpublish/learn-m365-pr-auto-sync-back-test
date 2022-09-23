@@ -18,7 +18,7 @@ abstract: |
   *   Unblock users who violated spam filtering policies so they can resume sending emails.
 prerequisites: |
   None
-iconUrl: /learn/achievements/office-365-defender.svg
+iconUrl: /training/achievements/office-365-defender.svg
 levels:
 - intermediate
 roles:

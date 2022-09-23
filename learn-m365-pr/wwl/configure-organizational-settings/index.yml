@@ -16,7 +16,7 @@ abstract: |
   - Configure quota configurations.
   - Deploy Microsoft 365 Integrated apps.
 prerequisites: ""
-iconUrl: /learn/achievements/organization-configure-settings.svg
+iconUrl: /training/achievements/organization-configure-settings.svg
 levels:
 - intermediate
 roles:

@@ -18,7 +18,7 @@ abstract: |
  - Explain how Microsoft 365 analyzes log data to support security monitoring and service health monitoring.
 
 prerequisites: None
-iconUrl: /learn/achievements/understand-microsoft-audit-logging-monitoring.svg
+iconUrl: /training/achievements/understand-microsoft-audit-logging-monitoring.svg
 ratingEnabled: false
 levels:
 - beginner

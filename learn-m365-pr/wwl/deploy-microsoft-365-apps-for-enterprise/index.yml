@@ -23,7 +23,7 @@ abstract: |
   - Determine which update channel and application method applies for your organization.
 prerequisites: |
   None
-iconUrl: /learn/achievements/deploy-microsoft-365-apps-for-enterprise.svg
+iconUrl: /training/achievements/deploy-microsoft-365-apps-for-enterprise.svg
 levels:
 - intermediate
 roles:

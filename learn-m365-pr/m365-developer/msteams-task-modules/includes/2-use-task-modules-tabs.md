@@ -23,30 +23,26 @@ Task modules can be invoked from tabs, bots, or deep links and what appears in o
 To invoke a task module, use the Microsoft Teams client SDK:
 
 ```javascript
-microsoftTeams.tasks.startTask(taskInfo, callback);
+dialog.open(dialogInfo, submitHandler);
 ```
 
 The `taskInfo` object contains properties that tell Microsoft Teams about the task module. This object includes the following properties:
 
 - `title` (string): Appears below the app name and to the right of the app icon.
-- `height` & `width` (number | string): These properties can be a number representing the task module's dimensions, or one of the predefined sizes (small, medium, or large).
-
-    The named sizes are predefined percentages of the available space to display the task module. For the width, they're 20%, 50% & 60% while the height values are 20%, 50%, and 66%.
-
+- `size` `{height: number, width: number}`: These properties represent the task module's dimensions.
 - `url` (string): The URL of the page loaded as an `<iframe>` inside the task module. The URL's domain must be in the app's `validDomains` array in your app's manifest.
-- `failbackUrl` (string): If a client doesn't support the task module feature, this URL is opened in a browser tab.
 
 > [!NOTE]
 > These are the properties that are used when working with task modules in tabs. Additional properties apply to other scenarios, such as using task modules with Adaptive Cards or when invoking task modules from bots. These two scenarios are covered in additional units in this module.
 
-The second parameter of the `startTask()` method is a callback. This callback can receive two parameters: `error: string, result: string | any`. Microsoft Teams will execute the callback if there's an error or when the task module triggers it.
+The second parameter of the `open()` method is a callback. This callback can receive an object with two properties: `err?: string, result?: string | object`. Microsoft Teams will execute the callback if there's an error or when the task module triggers it.
 
 ## Dismissing task modules
 
 From within the task module, you can submit the data collected from the user by calling the `submitTask()` method:
 
 ```javascript
-microsoftTeams.tasks.submitTask(result);
+tasks.submitTask(result);
 ```
 
 The `result` can be either a string or an object. This method will call the registered callback defined in the `startTask()` method.

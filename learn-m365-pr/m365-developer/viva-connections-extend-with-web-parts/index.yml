@@ -19,14 +19,14 @@ abstract: |
     - Install development tools for building Viva Connections extensions.
     - Extend Viva Connections desktop with web parts.
     - Deploy and test custom web parts in Viva Connections desktop.
-prerequisites: | # user input: prerequisites (https://review.docs.microsoft.com/help/learn/id-guidance-prerequisites?branch=main)
+prerequisites: | # user input: prerequisites (https://review.learn.microsoft.com/help/learn/id-guidance-prerequisites?branch=main)
   - SharePoint administrator access to a Microsoft 365 tenant
   - Viva Connections enabled in the Microsoft 365 tenant
   - Ability to develop JavaScript applications by using modern web technologies 
   - Basic knowledge of TypeScript
   - Code editor or IDE
   - Node.js v14
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /training/achievements/generic-badge.svg
 levels:
   - beginner
 roles:

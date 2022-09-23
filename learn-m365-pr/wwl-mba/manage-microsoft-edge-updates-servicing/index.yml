@@ -17,7 +17,7 @@ abstract: |
   - Configure side-by-side installations of Microsoft Edge
 prerequisites: |
   - Experience deploying and configuring application packages using software distribution tools such as Microsoft Intune or Configuration Manager
-iconUrl: /learn/achievements/manage-microsoft-edge-updates-servicing.svg
+iconUrl: /training/achievements/manage-microsoft-edge-updates-servicing.svg
 levels:
 - intermediate
 roles:

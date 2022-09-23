@@ -19,7 +19,7 @@ abstract: |
  - Explain the process for using Microsoft Purview Customer Lockbox.
 
 prerequisites: None
-iconUrl: /learn/achievements/understand-microsoft-365-identity-access-management.svg 
+iconUrl: /training/achievements/understand-microsoft-365-identity-access-management.svg 
 ratingEnabled: false
 levels:
 - beginner

@@ -3,7 +3,7 @@ In this exercise, you'll create a new SharePoint Framework project with a single
 ## Create the SharePoint Framework solution
 
 > [!IMPORTANT]
-> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
+> The instructions below assume you're using v1.15.2 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info).
 
 Open a command prompt and change to the folder where you want to create the project. Run the SharePoint Yeoman generator by executing the following command:
 
@@ -16,19 +16,54 @@ Use the following to complete the prompt that is displayed (*if more options are
 - **What is your solution name?**: SPFxHttpClient
 - **Which type of client-side component to create?**: WebPart
 - **What is your Web part name?**: SPFxHttpClient
-- **Which framework would you like to use?**: React
+- **Which template would you like to use?**: React
 
 After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When npm completes downloading all dependencies, open the project in **Visual Studio Code**.
+
+## Create interfaces that reflect the results of the query
+
+Locate the **./src** folder in the project.
+
+Create a new folder **models** in the existing **./src** folder.
+
+Add a new file, **INasaImageSearchResponse.ts**, to the **models** folder with the following code:
+
+```typescript
+export interface INasaItemData {
+  title: string;
+  keywords: string[];
+  description: string;
+}
+
+export interface INasaItemLink {
+  href: string;
+}
+
+export interface INasaItem {
+  data: INasaItemData[];
+  links: INasaItemLink[];
+}
+
+export interface INasaItemCollection {
+  items: INasaItem[];
+}
+
+export interface INasaImageSearchResponse {
+  collection: INasaItemCollection;
+}
+```
 
 ## Update the public interface for the React component
 
 Locate and open the file **./src/webparts/spFxHttpClient/components/ISpFxHttpClientProps.ts**. This is the interface for the public properties on the React component.
 
-Update the interface to replace the existing `description` property with a property that will hold a custom object. This object is complex and, while you could create an interface to represent it, in this lab you'll set that complexity aside and focus on consuming an untyped TypeScript object.
+Update the interface to replace the existing `description` property with a property that will hold the object that represents a NASA image. 
 
 ```typescript
+import { INasaItem } from "../../../models/INasaImageSearchResponse";
+
 export interface ISpFxHttpClientProps {
-  apolloMissionImage: any;
+  apolloMissionImage: INasaItem;
   isDarkTheme: boolean;
   environmentMessage: string;
   hasTeamsContext: boolean;
@@ -48,13 +83,13 @@ public render(): React.ReactElement<ISpFxHttpClientProps> {
     <section className={`${styles.spFxHttpClient} ${this.props.hasTeamsContext ? styles.teams : ''}`}>
       <div>
         <img src={this.props.apolloMissionImage.links[0].href} />
-        <div><strong>Title:</strong> {this.props.apolloMissionImage.data[0].title}</div>
+        <div><strong>Title:</strong> {escape(this.props.apolloMissionImage.data[0].title)}</div>
         <div><strong>Keywords:</strong></div>
         <ul>
           {this.props.apolloMissionImage &&
-            this.props.apolloMissionImage.data[0].keywords.map((keyword) =>
+            this.props.apolloMissionImage.data[0].keywords.map((keyword: string) =>
               <li key={keyword}>
-                {keyword}
+                {escape(keyword)}
               </li>
             )
           }
@@ -69,59 +104,72 @@ public render(): React.ReactElement<ISpFxHttpClientProps> {
 
 Locate and open the **./src/webparts/spFxHttpClient/SpFxHttpClientWebPart.ts** file.
 
-Add the following `import` statement to the top of the file after the existing `import` statements:
+Add the following `import` statements to the top of the file after the existing `import` statements:
 
 ```typescript
 import {
   HttpClient,
   HttpClientResponse
 } from '@microsoft/sp-http';
+
+import { INasaImageSearchResponse } from '../../models/INasaImageSearchResponse';
 ```
 
 Add the following method to the `SpFxHttpClientWebPart` class:
 
 ```typescript
-private _getApolloImage(): Promise<any> {
-  return this.context.httpClient.get(
+private async _getApolloImage(): Promise<INasaImageSearchResponse> {
+  const response: HttpClientResponse = await this.context.httpClient.get(
     `https://images-api.nasa.gov/search?q=Apollo%204&media_type=image`,
     HttpClient.configurations.v1
-  )
-  .then((response: HttpClientResponse) => {
-    return response.json();
-  })
-  .then(jsonResponse => {
-    return jsonResponse;
-  }) as Promise<any>;
+  );
+
+  if (!response.ok) {
+    const responseText = await response.text();
+    throw new Error(responseText);
+  }
+
+  const responseJson = await response.json();
+  return responseJson as INasaImageSearchResponse;
 }
 ```
 
 This method uses the `HttpClient` available from the current SharePoint context and issues an HTTP GET request to the NASA Image REST API with the query equal to **Apollo 4**. After processing the response to JSON, it's returned to the caller as an untyped `any` object.
 
-Update the contents of the `render()` method to the following code:
+Replace the `render()` method with the following code:
 
 ```typescript
-public render(): void {
-  if (!this.renderedOnce) {
-    this._getApolloImage()
-      .then(response => {
-        const element: React.ReactElement<ISpFxHttpClientProps > = React.createElement(
-          SpFxHttpClient,
-          {
-            apolloMissionImage: response.collection.items[0],
-            isDarkTheme: this._isDarkTheme,
-            environmentMessage: this._environmentMessage,
-            hasTeamsContext: !!this.context.sdks.microsoftTeams,
-            userDisplayName: this.context.pageContext.user.displayName
-          }
-        );
+protected get isRenderAsync(): boolean {
+  return true;
+}
 
-        ReactDom.render(element, this.domElement);
-      });
+public async render(): Promise<void> {
+  if (!this.renderedOnce) {
+    const response: INasaImageSearchResponse = await this._getApolloImage();
+
+    const element: React.ReactElement<ISpFxHttpClientProps> = React.createElement(
+      SpFxHttpClient,
+      {
+        apolloMissionImage: response.collection.items[0],
+        isDarkTheme: this._isDarkTheme,
+        environmentMessage: this._environmentMessage,
+        hasTeamsContext: !!this.context.sdks.microsoftTeams,
+        userDisplayName: this.context.pageContext.user.displayName
+      }
+    );
+
+    ReactDom.render(element, this.domElement);
   }
+
+  this.renderCompleted();
+}
+
+protected renderCompleted(): void {
+  super.renderCompleted();
 }
 ```
 
-In this code, we've added a check to see if the web part has already been rendered on the page. If not, it calls the `_getApolloImage()` method previously added. When it receives a response, it attaches the first item in the results returned by the NASA Imagery REST API.
+The `render()` method is replaced by three methods because asynchronous rendering is being used. In this code, we've added a check to see if the web part has already been rendered on the page. If not, it calls the `_getApolloImage()` method previously added. When it receives a response, it attaches the first item in the results returned by the NASA Imagery REST API.
 
 ## Test the web part
 

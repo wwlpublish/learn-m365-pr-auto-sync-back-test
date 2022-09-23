@@ -18,4 +18,4 @@ In this case, we see that the event was a file that included a high volume of U.
 
 ## Learn more
 
-[Configure and view alerts for DLP policies (preview) | Microsoft Docs](/microsoft-365/compliance/dlp-configure-view-alerts-policies)
+[Configure and view alerts for DLP policies (preview)](/microsoft-365/compliance/dlp-configure-view-alerts-policies)

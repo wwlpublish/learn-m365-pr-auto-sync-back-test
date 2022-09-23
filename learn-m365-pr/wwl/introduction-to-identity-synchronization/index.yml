@@ -17,7 +17,7 @@ abstract: |
   - Explain how Azure AD Connect enables coexistence between your on-premises Active Directory environment and Microsoft 365
 prerequisites: |
   None
-iconUrl: /learn/achievements/azure-ad-intro-identity-synchronization.svg
+iconUrl: /training/achievements/azure-ad-intro-identity-synchronization.svg
 levels:
 - intermediate
 roles:

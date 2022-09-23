@@ -3,7 +3,7 @@ uid: learn-m365.msteams-task-modules.3-exercise-use-task-modules-tabs
 metadata:
   title: Exercise - Collecting user input with task modules
   description: In this exercise, you’ll learn the basics of task modules in Microsoft Teams and how to collect input from users in a custom Teams tab.
-  ms.date: 05/20/2022
+  ms.date: 09/13/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -20,10 +20,10 @@ quiz:
     - content: "Create an Adaptive Card and include it in the `TaskModuleTaskInfo` object submitted to the `startTask()` method."
       isCorrect: false
       explanation: "This is a valid option."
-    - content: "Create an HTML webpage and include a link to it in the `TaskModuleTaskInfo` object submitted ot the `startTask()` method."
+    - content: "Create an HTML webpage and include a link to it in the `TaskModuleTaskInfo` object submitted to the `startTask()` method."
       isCorrect: false
       explanation: "This is a valid option."
-    - content: "Design a task module with App Studio and set it's ID on the `taskModuleId` property on the `TaskModuleTaskInfo` object submitted ot the `startTask()` method."
+    - content: "Design a task module with App Studio and set its ID on the `taskModuleId` property on the `TaskModuleTaskInfo` object submitted to the `startTask()` method."
       isCorrect: true
       explanation: "Task modules aren't created using App Studio."
   - content: "How does a web page task module submit data back to a tab?"

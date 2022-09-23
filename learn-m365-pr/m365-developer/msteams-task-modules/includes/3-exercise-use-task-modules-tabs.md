@@ -23,11 +23,11 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v14.\*
-- npm (installed with Node.js) - v7.\*
-- [Gulp CLI](https://gulpjs.com/) - v2.3.\*
+- [Node.js](https://nodejs.org/) - (*the active [LTS](https://nodejs.org/about/releases) version*)
+- npm (*installed with Node.js*)
+- [Gulp-cli](https://www.npmjs.com/package/gulp-cli) - v2.3.\*
 - [Yeoman](https://yeoman.io/) - v4.3.\*
-- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v4.0.1
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -50,19 +50,27 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: YouTube Player
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.11
+- **Which manifest version would you like to use?**: v1.13
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A Tab
 - **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like to show a loading indicator when your app/tab loads?** No
 - **Default Tab name? (max 16 characters)**: YouTube Player 1
-- **What kind of Tab would you like to create?**: Personal (static)
+- **What kind of Tab would you like to create?**: Personal
 - **Do you require Azure AD Single-Sign-On support for the tab?** No
 
 > [!NOTE]
 > Most of the answers to these questions can be changed after creating the project. For example, the URL where the project will be hosted isn't important at the time of creating or testing the project.
 
 After answering the generator's questions, the generator will create the scaffolding for the project and then execute `npm install` that downloads all the dependencies required by the project.
+
+### Ensure the project is using the latest version of Teams SDK
+
+Run the npm command to install the latest version of the SDK
+
+```console
+npm i @microsoft/teams-js
+```
 
 ### Test the personal tab
 
@@ -295,14 +303,16 @@ Next, add the following code to the `onShowVideo()` method:
 
 ```typescript
 const onShowVideo = (): void => {
-  const taskModuleInfo = {
+  const dialogInfo = {
     title: "YouTube Player",
     url: appRoot() + `/youTubePlayer1Tab/player.html?vid=${youTubeVideoId}`,
-    width: 1000,
-    height: 700
+    size: {
+      width: 1000,
+      height: 700
+    }
   };
-  microsoftTeams.tasks.startTask(taskModuleInfo);
-}
+  dialog.open(dialogInfo);
+};
 ```
 
 This code will create a new `taskInfo` object with the details of the task module. It will then launch the task module. This task module does nothing but display information, so we don't need to implement the callback.
@@ -395,14 +405,26 @@ Add the following code to the page. Most of this code mirrors what you would see
 import * as React from "react";
 import { Provider, Flex, Text, Button, Header, Input } from "@fluentui/react-northstar";
 import { useState, useEffect } from "react";
-import { useTeams, getQueryVariable } from "msteams-react-base-component";
-import * as microsoftTeams from "@microsoft/teams-js";
+import { useTeams } from "msteams-react-base-component";
+import { app, dialog } from "@microsoft/teams-js";
 
 export const VideoSelectorTaskModule = () => {
 
   const [{ inTeams, theme, context }] = useTeams();
   const [entityId, setEntityId] = useState<string | undefined>();
   const [youTubeVideoId, setYouTubeVideoId] = useState<string | undefined>("VlEH4vtaxp4");
+
+  const getQueryVariable = (variable: string): string | undefined => {
+      const query = window.location.search.substring(1);
+      const vars = query.split("&");
+      for (const varPairs of vars) {
+          const pair = varPairs.split("=");
+          if (decodeURIComponent(pair[0]) === variable) {
+              return decodeURIComponent(pair[1]);
+          }
+      }
+      return undefined;
+  };
 
   useEffect(() => {
     if (inTeams === true) {
@@ -414,7 +436,7 @@ export const VideoSelectorTaskModule = () => {
 
   useEffect(() => {
     if (context) {
-      setEntityId(context.entityId);
+      setEntityId(context.page.id);
       setYouTubeVideoId(getQueryVariable("vid"));
     }
   }, [context]);
@@ -446,7 +468,7 @@ const handleOnChanged = (event): void => {
 };
 
 const handleOnClick = (): void => {
-  microsoftTeams.tasks.submitTask(youTubeVideoId, undefined);
+  dialog.submit(youTubeVideoId, undefined);
 };
 ```
 
@@ -458,25 +480,41 @@ Make this React class available to the rest of the application by adding the fol
 export * from "./youTubePlayer1Tab/VideoSelectorTaskModule";
 ```
 
-The last step is to wire this task module up to the tab. Within the **./src/client/youTubePlayer1Tab/YouTubePlayer1Tab.tsx** file, locate the method `onChangeVideo()`. Add the following code to the method:
+The last step is to wire this task module up to the tab. Open the **./src/client/youTubePlayer1Tab/YouTubePlayer1Tab.tsx** file. Update the `import` statement in this file to add a namesspace from the Microsoft Teams SDK library.
+
+Find the following `import` statement at the top of the file that imports components from the Fluent UI - React library:
 
 ```typescript
-const taskModuleInfo = {
-  title: "YouTube Video Selector",
-  url: appRoot() + `/youTubePlayer1Tab/selector.html?theme={theme}&vid=${youTubeVideoId}`,
-  width: 350,
-  height: 150
-};
-
-const submitHandler = (err: string, result: string): void => {
-  console.log(`Submit handler - err: ${err}`);
-  setYouTubeVideoId(result);
-};
-
-microsoftTeams.tasks.startTask(taskModuleInfo, submitHandler);
+import { app } from "@microsoft/teams-js";
 ```
 
-This code will first create the `taskInfo` object that defines the task module. It also creates a callback that will take the result from the task module and use it to update the state of the React app.
+Replace the previous statement with the following `import` statement:
+
+```typescript
+import { app, dialog } from "@microsoft/teams-js";
+```
+
+Locate the method `onChangeVideo()`. Add the following code to the method:
+
+```typescript
+const dialogInfo = {
+  title: "YouTube Video Selector",
+  url: appRoot() + `/youTubePlayer1Tab/selector.html?theme={theme}&vid=${youTubeVideoId}`,
+  size: {
+    width: 350,
+    height: 150
+  }
+};
+
+const submitHandler dialog.DialogSubmitHandler = (response) => {
+  console.log(`Submit handler - err: ${response.err}`);
+  setYouTubeVideoId(response.result?.toString());
+};
+
+dialog.open(dialogInfo, submitHandler);
+```
+
+This code will first create the `dialogInfo` object that defines the task module. It also creates a callback that will take the result from the task module and use it to update the state of the React app.
 
 ### Test the video selector task module
 

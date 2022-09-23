@@ -21,7 +21,7 @@ prerequisites: |
   - Azure Active Directory Domain Services is already configured 
   - (Optional) Azure subscription owner or global administrator access to a deployed Azure Virtual Desktop environment
   - (Optional) User credentials for one user accounts in Azure AD
-iconUrl: /learn/achievements/optimize-windows-virtual-desktop.svg
+iconUrl: /training/achievements/optimize-windows-virtual-desktop.svg
 ratingEnabled: true
 levels:
 - intermediate

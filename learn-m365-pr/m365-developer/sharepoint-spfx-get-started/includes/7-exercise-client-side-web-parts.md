@@ -35,7 +35,7 @@ Select **Save as draft** to see the page as your users will see it.
 ## Verify your developer environment is properly configured
 
 > [!NOTE]
-> The instructions below assume you're using v1.14.0 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info)
+> The instructions below assume you're using v1.15.2 of the SharePoint Framework Yeoman generator. For more information on the use of the SharePoint Framework Yeoman generator, see [Yeoman generator for the SharePoint Framework](https://aka.ms/spfx-yeoman-info)
 
 Use the tools installed in the second exercise to create a new SharePoint Framework component and test it using the SharePoint Online hosted workbench.
 
@@ -52,14 +52,14 @@ Use the following to complete the prompt that is displayed:
 * **What is your solution name?**: HelloWorld
 * **Which type of client-side component to create?**: WebPart
 * **What is your Web part name?**: HelloWorld
-* **Which framework would you like to use?**: No framework
+* **Which template would you like to use?**: No framework
 
 After provisioning the folders required for the project, the generator will install all the dependency packages using npm.
 
 When npm completes downloading all dependencies, install the developer certificate by executing the following command:
 
 ```console
-gulp trust-dev-certnpm
+gulp trust-dev-cert
 ```
 
 Run the project by executing the following command:

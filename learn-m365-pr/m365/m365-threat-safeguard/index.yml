@@ -4,8 +4,8 @@ metadata:
   title: Safeguard your environment with Microsoft Defender for Identity
   description: Learn about the Microsoft Defender for Identity component of Microsoft 365 Defender. 
   ms.date: 04/25/2022
-  author: beccarobins
-  ms.author: beccarobins
+  author: dcurwin
+  ms.author: dacurwin
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Safeguard your environment with Microsoft Defender for Identity
@@ -18,7 +18,7 @@ abstract: |
 
 prerequisites: | 
  - Intermediate understanding of Microsoft 365
-iconUrl: /learn/achievements/safeguard-your-environment-with-microsoft-azure-advanced-threat-protection.svg
+iconUrl: /training/achievements/safeguard-your-environment-with-microsoft-azure-advanced-threat-protection.svg
 ratingEnabled: true
 levels:
 - intermediate

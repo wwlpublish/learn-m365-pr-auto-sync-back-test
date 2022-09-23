@@ -12,10 +12,10 @@ title: MS-720 Plan and configure Teams Phone
 prerequisites: |
   - Learners should be familiar with telecommunication technologies and have experience in Microsoft Teams, Microsoft 365, and PowerShell.
   - Learners should have completed the
-  [Microsoft 365 Certified: Teams Administrator Associate](/learn/certifications/m365-teams-administrator-associate/) or have equivalent experience.
+  [Microsoft 365 Certified: Teams Administrator Associate](/certifications/m365-teams-administrator-associate/) or have equivalent experience.
 summary: |
   You‘ll learn how to plan for and configure Teams Phone, including Calling Plans, Direct Routing, Auto Attendants, Call Queues, Operator Connect, and how to extend Teams Phone with additional services.
-iconUrl: /learn/achievements/plan-and-configure-teams-voice.svg
+iconUrl: /training/achievements/plan-and-configure-teams-voice.svg
 levels:
 - advanced
 roles:

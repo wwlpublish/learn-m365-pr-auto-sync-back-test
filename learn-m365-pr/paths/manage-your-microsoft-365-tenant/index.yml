@@ -15,7 +15,7 @@ prerequisites: |
   - Students must have a proficient understanding of general IT practices.
 summary: |
   This learning path provides instruction on how to manage your Microsoft 365 tenant, including administrative roles, tenant health and services, Microsoft 365 Apps for enterprise, and workplace analytics using Microsoft Viva Insights.
-iconUrl: /learn/achievements/manage-your-microsoft-365-tenant.svg
+iconUrl: /training/achievements/manage-your-microsoft-365-tenant.svg
 levels:
 - intermediate
 roles:

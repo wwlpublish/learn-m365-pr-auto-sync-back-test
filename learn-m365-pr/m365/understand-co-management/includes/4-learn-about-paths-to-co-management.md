@@ -39,7 +39,7 @@ Just as mentioned above, co-management allows you to keep your well-established 
 
 This path to co-management involves having Windows 10 or later devices that must join Azure AD and be automatically enrolled into Intune. Also, you must install the Configuration Manager client to reach a co-management state. When you do this, you set up co-management of Windows 10/11 devices in an environment where you use both Azure Active Directory (AD) and an on-premises AD but don't have a hybrid Azure Active Directory (AD). The Configuration Manager environment includes a single primary site with all site system roles located on the same server, the site server. 
 
-This path to co-management begins with the premise that your Windows 10 or later devices are already enrolled with Intune. If you are not using Microsoft Intune, you can quickly sign up for the [Intune free trial](/mem/intune/fundamentals/free-trial-sign-up). Or for a complete overview of Intune, see [Set up Microsoft Intune](/learn/modules/set-up-microsoft-intune?azure-portal=true).
+This path to co-management begins with the premise that your Windows 10 or later devices are already enrolled with Intune. If you are not using Microsoft Intune, you can quickly sign up for the [Intune free trial](/mem/intune/fundamentals/free-trial-sign-up). Or for a complete overview of Intune, see [Set up Microsoft Intune](/training/modules/set-up-microsoft-intune?azure-portal=true).
 
 > [!IMPORTANT]
 > If you have a hybrid Azure AD that joins your on-premises AD with Azure AD, we recommend you [enable co-management for existing Windows 10 or later Configuration Manager clients](#enable-co-management-for-existing-windows-10-or-later-configuration-manager-clients).

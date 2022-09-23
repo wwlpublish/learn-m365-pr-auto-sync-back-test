@@ -66,7 +66,7 @@ Adding a SPFx client-side web part to a page works in very much the same way as 
 
 Unlike classic pages, when a page is in edit mode, any web parts on the page are also in edit mode. Compared to classic pages where the web part has a different edit mode from the page's edit mode.
 
-To add a web part to a modern page, first put the page in edit mode and then select the **+** icon to open the toolbox. Select a web part from the toolbox to add it to the page.
+To add a web part to a modern page, first put the page in edit mode, and then select the **+** icon to open the toolbox. Select a web part from the toolbox to add it to the page.
 
 You can edit the web part by opening the property pane with the edit icon to the left of the web part. By default, any changes made in the property page are immediately reflected in the web part.
 
@@ -104,13 +104,17 @@ Field customizers enable you to define the HTML within a cell in the list displa
 
 ![Screenshot of the field customizer](../media/02-field-customizer-preview.png)
 
-#### Command sets
+#### Command set
 
-The last type of extension is the command set. This extension is intended to be the modern replacement to the legacy custom actions.
+The next type of extension is the command set. This extension is intended to be the modern replacement to the legacy custom actions.
 
 Command sets enable you to add buttons to list and library toolbars or to the context menu of items within a list.
 
 ![Screenshot of the command set](../media/02-command-sets-preview.png)
+
+#### List form customizer
+
+The last time of extension is the list from customizer. This extension enables developers to create custom forms with the SharePoint Framework that replace a list's new, edit, and view forms.
 
 ### Library components
 

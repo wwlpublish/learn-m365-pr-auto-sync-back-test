@@ -15,7 +15,7 @@ prerequisites: |
   - Working experience with performance tuning and service monitoring
 summary: |
   Learn how to troubleshoot Microsoft Teams, including voice issues, live events, and messaging. Explore how to configure and troubleshoot client and services issues.
-iconUrl: /learn/achievements/troubleshoot-microsoft-365-teams.svg
+iconUrl: /training/achievements/troubleshoot-microsoft-365-teams.svg
 levels:
 - advanced
 roles:

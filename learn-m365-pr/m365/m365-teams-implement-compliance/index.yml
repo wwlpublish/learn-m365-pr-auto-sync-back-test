@@ -18,7 +18,7 @@ abstract: |
   - Demonstrate how to use the audit log, content search, and legal hold functions in Teams.
 prerequisites: | 
   - Familiarity with Microsoft Teams administration
-iconUrl: /learn/achievements/implement-compliance-in-microsoft-teams.svg
+iconUrl: /training/achievements/implement-compliance-in-microsoft-teams.svg
 levels:
 - intermediate
 roles:

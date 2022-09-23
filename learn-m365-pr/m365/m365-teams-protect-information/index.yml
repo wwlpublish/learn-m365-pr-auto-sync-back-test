@@ -3,7 +3,7 @@ uid: learn-m365.teams.protect-information
 metadata:
   title: Protect information in Microsoft Teams
   description: Protect information in Microsoft Teams across your organization.
-  ms.date: 05/02/2022
+  ms.date: 09/14/2022
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
@@ -18,7 +18,7 @@ abstract: |
   - Explain secure guest access.
 prerequisites: | 
   - Complete the **Defend against threats in Microsoft Teams** learn module.
-iconUrl: /learn/achievements/protect-information-in-teams.svg
+iconUrl: /training/achievements/protect-information-in-teams.svg
 levels:
 - intermediate
 roles:

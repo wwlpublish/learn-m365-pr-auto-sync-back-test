@@ -22,7 +22,7 @@ prerequisites: |
   - Basic knowledge of REST services & APIs
   - Access to a Microsoft 365 tenant
   - Access to a Microsoft Azure subscription
-iconUrl: /learn/achievements/msteams-meetings-apps.svg
+iconUrl: /training/achievements/msteams-meetings-apps.svg
 levels:
   - intermediate
 roles:

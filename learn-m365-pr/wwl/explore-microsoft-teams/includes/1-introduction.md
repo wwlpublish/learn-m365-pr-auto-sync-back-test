@@ -17,3 +17,4 @@ After completing this module, you'll be able to:
  -  Assign an audio conferencing license and a conference ID to each user to support audio conferencing.
  -  Select a voice solution using Microsoft Teams Phone.
  -  Configure your Microsoft Teams organizational settings.
+
