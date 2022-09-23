@@ -27,7 +27,7 @@ Each resource account you want to associate with a Teams Rooms console needs a T
 
    You can assign up to 25 Microsoft Teams Rooms Basic licenses to Teams Rooms devices in your organization. If you need to license more than 25 devices, those additional licenses need to be Teams Rooms Pro licenses.
 
-- **Teams Rooms Pro license** - This license includes everything in the Basic license, plus enhanced in-room meeting experiences like intelligent audio and video, front row and large galleries, and multi-screen support. The Teams Rooms Pro licenses also provides advanced management features like remote device management, conditional access policies, and detailed device analytics.
+- **Teams Rooms Pro license** - This license includes everything in the Basic license, plus enhanced in-room meeting experiences like intelligent audio and video, front row and large galleries, and multi-screen support. The Teams Rooms Pro license also provides advanced management features like remote device management, conditional access policies, and detailed device analytics.
 
     :::image type="content" source="../media/standard-premium-license.png" alt-text="Diagram showing Basic versus Pro licenses."::: 
 
@@ -197,7 +197,7 @@ Set-AzureADUser -ObjectID ConfRoom1@contoso.com -PasswordPolicies DisablePasswor
 
 2. Use the ```Set-AzureADUser``` cmdlet to assign the license. Convert the license SKU ID into a PowerShell license type object. Then, assign that object to the resource account.
 
-   Here's the command to assign **Microsoft Teams Rooms Pro license** ( SKU ID: 4cde982a-ede4-4409-9ae6-b003453c8ea6) to the account ConfRoom1@contoso.com.
+   Here's the command to assign **Microsoft Teams Rooms Pro license** (SKU ID: 4cde982a-ede4-4409-9ae6-b003453c8ea6) to the account ConfRoom1@contoso.com.
 
 
    ```powershell
