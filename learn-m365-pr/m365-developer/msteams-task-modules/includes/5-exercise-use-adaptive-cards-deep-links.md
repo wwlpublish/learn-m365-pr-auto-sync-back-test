@@ -7,28 +7,23 @@ In this exercise, you'll learn how to use adaptive cards in a custom task module
 
 ## Create video selector as an adaptive card
 
-In this section, you'll create an Adaptive Card that mirrors the functionality of the video selector task module created in a previous exercise. Adaptive Cards are defined using JSON that can be written by hand or using the Microsoft Teams App Studio app.
+In this section, you'll create an Adaptive Card that mirrors the functionality of the video selector task module created in a previous exercise. Adaptive Cards are defined using JSON that can be written by hand or using the Microsoft Teams Developer Portal.
 
-In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
+In the browser, navigate to **https://dev.teams.microsoft.com** and sign in with the credentials of a Work and School account.
 
-Select the **More added apps** menu item from the left-hand navigation and select the **App Studio** app:
+Select the **Tools** from the left-hand navigation then select **Adaptive Cards editor (Preview)** app:
 
-![Screenshot of the App Studio app listed in the More Added Apps dialog.](../media/05-app-studio-01.png)
+![Screenshot of the Developer Portal highlighting the Adaptive Cards editor.](../media/05-dev-portal-01.png)
 
-> [!TIP]
-> If App Studio is not listed in the **More added apps** dialog as shown above, select **More apps** at the bottom of the dialog.
->
-> Search for **App Studio** and select it from the search results to install it:
->
-> ![Screenshot of installing App Studio from the available apps.](../media/05-app-studio-02.png)
+In the Card editor, select **New card**.
 
-In App Studio, select the **Card editor** tab and then select the **Create a new card** button.
+![Screenshot of the Developer Portal highlighting the New Card action.](../media/05-dev-portal-02.png)
 
-![Screenshot of the Card editor initial experience.](../media/05-app-studio-03.png)
+Provide a card name. The card we're creating is used as the YouTube Video Selector card. Select **Save**. The tool will display a list of example cards. Select **Blank Card**.
 
-Select the **Create** button for an **Adaptive Card** in the list of card types you can create in the **Create a new card** dialog.
+The Card editor will show a default card and its live preview. You can use this interface to design your card and see how it will be rendered.
 
-The App Studio Card editor will show a default card and its live preview. You can use this interface to design your card and see how it will be rendered.
+![Screenshot of the Developer Portal Adaptive Card editor showing a blank card.](../media/05-dev-portal-03.png)
 
 From the **json** tab, replace the contents of the default card with the following JSON:
 
@@ -74,7 +69,7 @@ From the **json** tab, replace the contents of the default card with the followi
 }
 ```
 
-![Screenshot of the YouTube Video Selector card.](../media/05-app-studio-04.png)
+![Screenshot of the YouTube Video Selector card.](../media/05-dev-portal-04.png)
 
 This JSON code instructs Microsoft Teams to render a textbox and button. When the button is selected, it will submit the card.
 
@@ -85,6 +80,18 @@ Copy and paste this JSON into a new file, **YouTubeSelectorCard.json**, into the
 After creating the Adaptive Card, the next step is to create a task module that will display it and handle the submission action.
 
 Within the existing Microsoft Teams app project, locate the file **./src/client/youTubePlayer1Tab/YouTubePlayer1Tab.tsx** that contains the custom personal tab.
+
+Find the following `import` statement at the top of the file that imports components from the Fluent UI - React library:
+
+```typescript
+import { app, dialog } from "@microsoft/teams-js";
+```
+
+Replace the previous statement with the following `import` statement:
+
+```typescript
+import { app, dialog, tasks } from "@microsoft/teams-js";
+```
 
 Locate the `return` statement and add the following code to add a button after one of the existing buttons:
 
@@ -105,11 +112,14 @@ const onChangeVideoAdaptiveCard = (): void => {
   const submitHandler = (err: string, result: any): void => {
   };
 
-  microsoftTeams.tasks.startTask(taskModuleInfo, submitHandler);
+  tasks.startTask(taskModuleInfo, submitHandler);
 };
 ```
 
-The first step is to load the Adaptive Card and set the value of the video ID to display when it loads. Do this by adding the following code to the top of the `onChangeVideoAdaptiveCard()` method:
+> [!NOTE]
+> The `dialog.open()` method used in the previous exercise does not yet support an Adaptive Card as the body of the dialog. This exercise is using the deprecard `tasks.startTask()` method which still works.
+
+The next step is to load the Adaptive Card and set the value of the video ID to display when it loads. Do this by adding the following code to the top of the `onChangeVideoAdaptiveCard()` method:
 
 ```typescript
 // load adaptive card

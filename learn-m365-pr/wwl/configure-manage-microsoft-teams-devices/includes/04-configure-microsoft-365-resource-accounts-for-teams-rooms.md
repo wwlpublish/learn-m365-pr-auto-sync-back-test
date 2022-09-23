@@ -4,21 +4,39 @@ When a person schedules a room, it's this resource mailbox that's invited to the
 
 This resource account is also the account that signs into the Microsoft Teams Rooms app. The account must be enabled for Skype for Business and Microsoft Teams. It's recommended that organizations establish a naming convention for resource accounts, particularly when organizations move to Azure Active Directory (Azure AD) and employ dynamic groups. A resource account can automatically be added to Azure AD groups based on the organization's naming convention.
 
-## Assign Teams Rooms licenses
+> [!NOTE]
+> **Microsoft 365 resource accounts** aren't the same as **Teams resource accounts**. 
+> * **Teams resource accounts** can be used with call queues and auto attendants to accept phone calls from external phone numbers. 
+> * **Microsoft 365 resource accounts** are tied to an Exchange Online mailbox and enable booking of shared resources, such as rooms, projectors, and so on.
 
-It's recommended that organizations assign the Teams Rooms Standard or Teams Rooms Premium license to all Teams Rooms resource accounts.
+There are four primary steps to configure a Microsoft 365 resource account for Teams room. 
 
-- **Teams Rooms Standard license** - This license is a cost-effective license that includes all the core components needed for Teams Rooms.
+**Step 1** - Create a new resource account. Or, if a room mailbox already exists and you want to convert it to a resource account, you can modify an existing Exchange room mailbox.
 
-- **Teams Rooms Premium license** - This license includes everything in the Standard license, plus an advanced set of features. For example, it includes a Microsoft-managed service that helps with everything from planning your rooms to monitoring and troubleshooting them.
+**Step 2** - Then, configure your account for Teams Meetings.
 
-    :::image type="content" source="../media/standard-premium-license.png" alt-text="Diagram showing Standard versus Premium licenses.":::
+**Step 3** - If the resource account is going to be associated with a shared device, such as Teams displays with hot-desking, turn off password expiration.
 
-## Create a resource account 
+**Step 4** - Lastly, assign a meeting room license so the account can access Microsoft Teams.
+
+## Teams Rooms licenses
+
+Each resource account you want to associate with a Teams Rooms console needs a Teams Rooms license. You need to purchase a license before you configure the resource account for Teams Rooms. 
+
+- **Teams Rooms Basic license** - provides core meeting experiences to organizations that purchase a certified Microsoft Teams Rooms device, at no additional cost. The Teams Rooms Basic license includes scheduling, joining meetings, content sharing, and collaborative white boarding, as well as basic security and management capabilities out-of-the-box.
+
+   You can assign up to 25 Microsoft Teams Rooms Basic licenses to Teams Rooms devices in your organization. If you need to license more than 25 devices, those additional licenses need to be Teams Rooms Pro licenses.
+
+- **Teams Rooms Pro license** - This license includes everything in the Basic license, plus enhanced in-room meeting experiences like intelligent audio and video, front row and large galleries, and multi-screen support. The Teams Rooms Pro license also provides advanced management features like remote device management, conditional access policies, and detailed device analytics.
+
+    :::image type="content" source="../media/standard-premium-license.png" alt-text="Diagram showing Basic versus Pro licenses."::: 
+
+## Configure a resource account 
 
 ### Use Microsoft 365 admin center
-
 Complete the following steps to create a new resource account using the Microsoft 365 admin center. These instructions will create a user account record for the resource account, and then assign it a password and a license.
+
+#### Step 1: Create a resource account
 
 1. Navigate to the Microsoft 365 admin center (admin.microsoft.com) and sign in with an admin account.
 2. In the left-hand navigation pane, select **Show all**, select **Resources**, and then select **Rooms & equipment**.
@@ -44,6 +62,8 @@ Complete the following steps to create a new resource account using the Microsof
 
    :::image type="content" source="../media/add-resource-acknowledgment.png" alt-text="Screenshot of Acknowledgment of mailbox creation.":::
 
+#### Step 2: Configure mailbox properties
+
 7. Once you've created a resource account, you can edit its booking options. On the acknowledgment window that you received in the prior step, under the **Next steps** section, select **Edit booking options**.
 
     If you closed the acknowledgment window before selecting **Edit booking options**, then select the resource account on the **Rooms & equipment** window. In the detail pane that appears for the account, select **Edit** under the **Booking options** section.  
@@ -64,24 +84,40 @@ Complete the following steps to create a new resource account using the Microsof
 
 9. Select **Save changes**.
 
-10. Now that you've created the resource account and configured its booking options, it's time to assign it a password. In the **Microsoft 365 admin center**, in the left-hand navigation pane, select **Users** and then select **Active users**.
-11. On the **Active users** window, either hover your mouse over the new resource account that you created, or select the check box to the left of the account's display name. A **Key** icon (Reset a password) will appear to the right of the display name. Select the **Key** icon to set the password.
+
+#### Step 3: Turn off password expiration
+
+10. In the **Microsoft 365 admin center**, in the left-hand navigation pane, select **Users** > **Active users**.
+
+11. Select the check box of the account. A **Key** icon (Reset a password) will appear to the right of the display name. 
+
+12. Select the **Key** icon. 
+
+13. Uncheck **Require this user to change their password when they first sign in**.
+
+      - You can unselect the **Automatically create a password** check box. By unselecting this option, a **Password** field will appear. Enter the password for this room in this field.  
+
+      - You can select the **Email the sign-in info to me** check box if you want to receive an email with the password information you just entered.
 
       :::image type="content" source="../media/resource-account-with-key.png" alt-text="Screenshot of Find your new resource account and click Key to reset password.":::
 
-12. On the **Reset password** pane that appears, enter the following information:
-    1. Unselect the **Automatically create a password** check box.
-    1. By unselecting this option, a **Password** field will appear. Enter the password for this room in this field.  
-    1. Unselect the **Require this user to change their password when they first sign in** check box. There's no way to force a password change interactively within the Teams Rooms app. As such, this check box shouldn't be selected for a resource account.
-    1. You can select the **Email the sign-in info to me** check box if you want to receive an email with the password information you just entered.
-13. Select **Reset password**, and then select **Close** once the password has been reset.
+14. Select **Reset password**, and then select **Close** once the password has been reset.
 
-14. To complete the resource account configuration, you must assign a license to the resource account. On the **Active users** window, select the room’s display name to open the properties pane for this account.
-   :::image type="content" source="../media/resource-account-license-form.png" alt-text="Screenshot of the Active Users window.":::
+#### Step 4: Assign a meeting room license
 
-15. In the properties pane that appears, note the tabs that appear across the top of the pane. The **Account** tab is displayed by default. Select the **Licenses and apps** tab.
-16. In the **Licenses and apps** tab, select the check box next to the appropriate license for this resource account.
+To complete the resource account configuration, you must assign a license to the resource account. 
+
+15. On the **Active users** window, select the room’s display name to open the properties pane for this account.
+
+16. Select **Licenses and apps** tab from the properties pane.
+
+      - Select the country or region where the device will be installed from **Select location** dropdown menu. 
+
+      - Select the check box next to the appropriate license for this resource account.
+
 17. Select **Save changes** and then close the properties pane.
+
+      :::image type="content" source="../media/resource-account-license-form.png" alt-text="Screenshot of the Active Users window.":::
 
 ### Use PowerShell
 
@@ -89,91 +125,92 @@ PowerShell can also be used to create resource accounts. PowerShell is the faste
 
 There are two mandatory PowerShell modules that must be installed to create a resource account. One is the **Microsoft Online** module, which is the Azure Active Directory PowerShell module. The other is the **Exchange Online** PowerShell module.
 
-1. To connect to Microsoft 365, run the ```Connect-MsolService``` and ```Connect-ExchangeOnline``` cmdlets. Enter your credentials when prompted.
-2. Verify that you have enough licenses by running the following PowerShell cmdlet:
 
+#### Step 1: Create a resource account
 
-   ```powershell
-   Get-MsolAccountSku | where-object {$_.AccountSkuID -like "*meeting*"}
-   ```
+By default, room mailboxes don't have associated accounts. Add an account when you create a room mailbox so it can authenticate with Microsoft Teams.
 
-   
-   :::image type="content" source="../media/see-licenses.png" alt-text="Screenshot of See your licenses.":::
+Here's the command to create a new resource mailbox with the following settings:
 
-   In this example, there are 25 Meeting Room licenses and 19 of them have been consumed (or assigned). That leaves six licenses available to be assigned to resource accounts.
-
-   When creating accounts through PowerShell, it's advantageous to use variables to store values. Throughout the following cmdlets, you'll reuse the same values several times. Storing these values in a variable will make these commands easier to run successfully. It also sets the stage for writing your own script if you need to create multiple resource accounts at one time.
-
-3. In this example, you'll create several variables, such as UPN, mailbox name, mailbox alias, and password. 
-
-   **Account name**
+* Account: ConfRoom1@contoso.com
+* Name: focusroom
+* Alias: focusroom
+* Account password: P@$$W0rd5959
 
    ```powershell
-   $acctUpn=mtrfocusroom1@contoso.com
-   ```
+   ## Set account name
+   $acctUpn=ConfRoom1@contoso.com
 
-   **The unique name of the mailbox**
- 
-
-   ```powershell
+   ## Set the unique name of the mailbox
    $MailBoxName 'focusroom'
-   ```
 
-    **Specify the Exchange alias** (also known as the mail nickname) for the recipient
-
-
-   ```powershell
+   ## Specify the Exchange alias(also known as the mail nickname) for the recipient
    $MailBoxAlias='focusroom'
-   ```
 
-    **Define the password for the account**
+   ## Define the password for the account
+   $Password='P@$$W0rd5959'
 
-
-   ```powershell
-   $Password='ThisIs1ReallyLongPassword!'
-   ```
-
-    **Set the license to assign**
-
-
-   ```powershell
-   $ADLicense='teamsdevicesdemo:MEETING_ROOM'
-   ```
-
-    **Two letter ISO code** for the country where the tenant is registered
-
-
-   ```powershell
-   $UsageLocation='US'
-   ```
-
-   - The password is in clear text. If you set the password using this method, be sure to immediately go into the Microsoft 365 Admin Center and change the password to something else.
-
-4. As mentioned earlier, the resource account is just an Exchange mailbox. Here's the command to create the mailbox as a resource account.
-
-   ```powershell
+   ## Create a new resource mailbox
    New-Mailbox -MicrosoftOnlineServicesID $acctUpn -Name $DisplayName -Alias $MailBoxAlias -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String $Password -AsPlainText -Force)
    ```
 
-5. The next thing you need to do is enable calendar processing. You do this using the ```Set-CalendarProcessing``` cmdlet.
+#### Step 2: Configure mailbox properties
+
+The next thing you need to do is enable calendar processing. You do this using the ```Set-CalendarProcessing``` cmdlet.
+
+```powershell
+Set-CalendarProcessing -Identity $MailBoxAlias -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -ProcessExternalMeetingMessages $true -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
+```
+   * **AutomateProcessing:** ```AutoAccept``` Meeting organizers receive the room reservation decision directly without human intervention.
+   * **AddOrganizerToSubject:** ```$false``` The meeting organizer isn't added to the subject of the meeting request.
+   * **DeleteComments:** ```$false``` Keep any text in the message body of incoming meeting requests. This is required to process external Teams and third-party meetings to provide One Touch Join experience.
+   * **DeleteSubject:** ```$false``` Keep the subject of incoming meeting requests.
+   * **ProcessExternalMeetingMessages:** ```$true``` Specifies whether to process meeting requests that originate outside the Exchange organization. Required for external Teams meetings and third-party meetings.
+   * **RemovePrivateProperty:** ```$false``` Ensures the private flag that was sent by the meeting organizer in the original meeting request remains as specified.
+   * **AddAdditionalResponse:** ```$true``` The text specified by the AdditionalResponse parameter is added to meeting requests.
+
+   * **AdditionalResponse:** **"This is a Microsoft Teams Meeting room!"** The additional text to add to the meeting acceptance response.
+
+
+#### Step 3: Turn off password expiration
+
+If the resource account password expires, the device won't sign in after the expiration date. The password will then need to be changed for the resource account and then updated on each device. To avoid this, you can turn off password expiration. 
+
+Here's the command to set the resource account password to never expire and location in US:
+
+```powershell
+Set-AzureADUser -ObjectID ConfRoom1@contoso.com -PasswordPolicies DisablePasswordExpiration -UsageLocation 'US'
+```
+
+#### Step 4: Assign a meeting room license
+
+1. Connect to Azure AD and use ```Get-AzureADSubscribedSku``` to retrieve a list of available SKUs for your Microsoft 365 or Office 365 organization.
+
+   ```powershell
+   ## Connect to Azure AD
+   Connect-AzureAD
+   ## Check available SKUs
+   Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
+   ```
+
+   :::image type="content" source="../media/see-licenses.png" alt-text="Screenshot of See your licenses.":::
+
+2. Use the ```Set-AzureADUser``` cmdlet to assign the license. Convert the license SKU ID into a PowerShell license type object. Then, assign that object to the resource account.
+
+   Here's the command to assign **Microsoft Teams Rooms Pro license** (SKU ID: 4cde982a-ede4-4409-9ae6-b003453c8ea6) to the account ConfRoom1@contoso.com.
 
 
    ```powershell
-   Set-CalendarProcessing -Identity $MailBoxAlias -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false ‐RemovePrivateProperty $false
+   #Create an object for a single license type
+   $License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense 
+   $License.SkuId = "6070a4c8-34c6-4937-8dfb-39bbc6397a60" 
+
+   #Create an object for a multiple license type
+   $Licenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses 
+
+   #Add the single license object to the multiple license object
+   $Licenses.AddLicenses = $License 
+
+   #Assign the license to the resource account
+   Set-AzureADUserLicense -ObjectId ConfRoom1@contoso.com -AssignedLicenses $Licenses
    ```
-
-   - After identifying the account that was created in the previous command, the *AutomateProcessing* parameter is set to **AutoAccept**. This setting directs the resource account to automatically process meeting invites instead of waiting for human intervention.  
-   - *AddOrganizerToSubject* is set to **False**. That means when the meeting is shown on the center of table console, it will only show the meeting name and not *both* the organizer and meeting name. For example, it will display "Weekly Status Meeting" instead of "Sara Perez Weekly Status Meeting."
-   - The *DeleteComments* parameter is set to **False**. This setting means the body of the email won't be deleted. This parameter MUST be False when using third-party guest join (for example, joining Cisco or Zoom meetings through Teams Rooms).
-   - You can choose to delete the Subject of the meeting invite using the *DeleteSubject* parameter. In doing so, the meetings on Teams Rooms will be called by the name of the meeting organizer, such as "Sara Perez." This setting is a security feature that prevents someone from walking through a restricted area and seeing meeting subjects that might leak information, such as "Meeting About Acquisition of Tailspin Toys." If you enable deleting the subject, the meeting title would be "Sara Perez Meeting" and you would have no idea what the meeting is about.
-
-6. If the meeting is flagged as private, set *RemovePrivateProperty* to **False**.
-7. Set the resource account password to never expire and then assign the license.
-
-
-   ```powershell
-   Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true ‐UsageLocation $UsageLocation
-
-   Set-MsolUserLicense -UserPrincipalName $acctupn -AddLicenses $ADLicense
-   ```
-

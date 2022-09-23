@@ -15,11 +15,11 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v14.\*
-- npm (installed with Node.js) - v7.\*
-- [Gulp CLI](https://gulpjs.com/) - v2.3.\*
+- [Node.js](https://nodejs.org/) - (*the active [LTS](https://nodejs.org/about/releases) version*)
+- npm (*installed with Node.js*)
+- [Gulp-cli](https://www.npmjs.com/package/gulp-cli) - v2.3.\*
 - [Yeoman](https://yeoman.io/) - v4.3.\*
-- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v4.0.1
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.
@@ -42,19 +42,27 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project**: Learn MSTeams Tabs
 - **Your (company) name (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.11hul
+- **Which manifest version would you like to use?**: v1.13
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A tab
 - **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like to show a loading indicator when your app/tab loads?** No
 - **Default Tab name (max 16 characters)**: LearnPersonalTab
-- **What kind of Tab would you like to create?**: Personal (static)
+- **What kind of Tab would you like to create?**: Personal (for Teams, Outlook and Office)
 - **Do you require Azure AD Single-Sign-On support for the tab?** No
 
 > [!NOTE]
 > Most of the answers to these questions can be changed after you create the project. For example, the URL where the project will be hosted isn't important at the time of creating or testing the project.
 
 After you answer the generator's questions, the generator creates the scaffolding for the project. The generator then runs `npm install` that downloads all the dependencies required by the project.
+
+### Ensure the project is using the latest version of Teams SDK
+
+Run the npm command to install the latest version of the SDK
+
+```console
+npm i @microsoft/teams-js
+```
 
 ## Test the personal tab
 
@@ -228,64 +236,63 @@ Finally, locate the string `TODO: add new list item form here` in the `render()`
 </Flex>
 ```
 
-## Use App Studio to update the Microsoft Teams app manifest
+## Use Developer Portal to update the Microsoft Teams app manifest
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NHyl]
 
-At this point, the app is complete. Recall from our initial test that when the app was added to Microsoft Teams, it had a few todo strings for the description of the app. While you could change these values in the project's **./src/manifest/manifest.json** file, you'll use App Studio to make these changes.
+At this point, the app is complete. Recall from our initial test that when the app was added to Microsoft Teams, it had a few todo strings for the description of the app. While you could change these values in the project's **./src/manifest/manifest.json** file, you'll use Developer Portal to make these changes.
 
 First, build, and run the project by running the command **gulp ngrok-serve** in the command line like you did previously. This step also creates the Microsoft Teams app package.
 
-In the browser, go to [Microsoft Teams](https://teams.microsoft.com) and sign in with the credentials of a Work and School account.
+In the browser, go to [Developer Portal for Teams](https://dev.teams.microsoft.com/) and sign in with the credentials of a Work and School account.
 
-Using the **More added apps** link in the app bar on the left, select **App Studio**.
+Select the **Apps** link in the app bar on the left, select **Import App** in the toolbar.
 
-![Screenshot of the More added apps dialog box with App Studio highlighted](../media/03-yo-teams-13.png)
+![Screenshot of the Developer Portal for Teams with App section highlighted.](../media/03-yo-teams-13.png)
 
-Select the **Manifest editor** tab in App Studio, and then select **Import an existing app**. Locate the zip file that can be found in the project's **./package** folder and open it.
+Locate the zip file that can be found in the project's **./package** folder and open it. You'll see a warning regarding the version number. Select **Import**.
 
-![Screenshot of the Microsoft Teams app in App Studio](../media/03-yo-teams-14.png)
-
-Edit the app by selecting its tile, or use the menu in the upper-right corner for more options and select **Edit**.
+![Screenshot of the warning during import into Developer Studio.](../media/03-yo-teams-14.png)
 
 On the **App details** page, change the **Full name** of the app to **Learn Teams Tabs**.
-
-On the **App details** page, change the **Version** to **1.0.0**.
 
 On the **App details** page, scroll down to the **Descriptions** section and enter the following values:
 
 - **Short description**: My first custom Teams app
 - **Full description**: *enter a long description*
 
-![Screenshot of app details App Studio](../media/03-yo-teams-15.png)
+On the **App details** page, change the **Version** to **1.0.0**.
 
-Update the name of the tab by selecting **Capabilities** > **Tabs** in the left pane in App Studio.
+Scroll to the bottom of the page and select **Save**.
 
-Locate the LearnPersonalTab in the project. Select the menu for more options on the tab, and select **Edit**. Change the name of the tab to **My First Tab**. Update the **Content URL** property with your new ngrok subdomain. Ensure that `&theme={theme}` is added to the end of the Content URL property. Select **Save** to save your changes.
+![Screenshot of app details in Developer Portal.](../media/03-yo-teams-15.png)
 
-The changes made to the app within App Studio aren't saved to your project. If you want to update the project, download the app package from App Studio.
+Update the name of the tab by selecting **App features** in the left pane in Developer Portal. Then select **Personal App** .
 
-To download the project, select **Finish** > **Test and distribute** in the left pane in App Studio. Then select **Download**.
+Locate the LearnPersonalTab in the project. Select the menu for more options on the tab, and select **Edit**. Change the name of the tab to **My First Tab**. Update the **Content URL** property with your new ngrok subdomain. Ensure that `&theme={theme}` is added to the end of the Content URL property. Select **Confirm** to save your changes for the tab. Then select **Save**.
+
+![Screenshot of Personal App details in Developer Portal.](../media/03-yo-teams-15a.png)
+
+The changes made to the app within the Developer Portal aren't saved to your project. If you want to update the project, download the app package from the portal.
+
+To download the project, return to the **Apps** page by selecting **Apps** in the Toolbar.
+
+![Screenshot of the Developer Portal highlighting the Apps link.](../media/03-yo-teams-15b.png)
+
+From the Apps page in Developer Portal, open the app's menu and select **Download app package**.
+
+![Screenshot of the Developer Portal highlighting the Download app package link.](../media/03-yo-teams-15c.png)
 
 > [!CAUTION]
-> Be careful if you chose to update the **manifest.json** file in your project with the one in the package downloaded from App Studio.
+> Be careful if you chose to update the **manifest.json** file in your project with the one in the package downloaded from Developer Portal.
 >
 > The manifest file in your project contains placeholder strings that are updated by the build and debugging process that's replaced when you test the project. Using placeholder strings simplifies the development and debugging process.
 >
 > For example, the placeholder `{{PUBLIC_HOSTNAME}}` is replaced with the hosting URL of the app each time the package is re-created.
 >
-> So you might not want to completely replace the existing **manifest.json** file with the file generated by App Studio.
+> So you might not want to completely replace the existing **manifest.json** file with the file generated by Developer Portal.
 
-## Install and test the Microsoft Teams app
-
-In App Studio, select **Finish** > **Test and distribute** in the left pane in App Studio. Then select **Install**. Notice that the new names and descriptions are shown before installing the app.
-
-![Screenshot of installing the updated app](../media/03-yo-teams-16.png)
-
-Select **Add** to install the app. This action adds a new personal tab to your **More added apps** dialog box. Select the app to see the updated working version.
-
-![Screenshot of the updated and working tab](../media/03-yo-teams-17.png)
 
 ## Summary
 
-In this exercise, you created a new Microsoft Teams personal tab by using the Microsoft Teams Yeoman generator, Visual Studio Code, and App Studio.
+In this exercise, you created a new Microsoft Teams personal tab by using the Microsoft Teams Yeoman generator, Visual Studio Code, and Developer Portal.
