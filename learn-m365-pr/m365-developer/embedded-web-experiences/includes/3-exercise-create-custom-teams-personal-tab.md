@@ -248,11 +248,11 @@ In the browser, go to [Developer Portal for Teams](https://dev.teams.microsoft.c
 
 Select the **Apps** link in the app bar on the left, select **Import App** in the toolbar.
 
-![Screenshot of the Developer Portal for Teams with App section highlighted](../media/03-yo-teams-13.png)
+![Screenshot of the Developer Portal for Teams with App section highlighted.](../media/03-yo-teams-13.png)
 
 Locate the zip file that can be found in the project's **./package** folder and open it. You'll see a warning regarding the version number. Select **Import**.
 
-![Screenshot of the warning during import into Developer Studio](../media/03-yo-teams-14.png)
+![Screenshot of the warning during import into Developer Studio.](../media/03-yo-teams-14.png)
 
 On the **App details** page, change the **Full name** of the app to **Learn Teams Tabs**.
 
@@ -265,23 +265,23 @@ On the **App details** page, change the **Version** to **1.0.0**.
 
 Scroll to the bottom of the page and select **Save**.
 
-![Screenshot of app details in Developer Portal](../media/03-yo-teams-15.png)
+![Screenshot of app details in Developer Portal.](../media/03-yo-teams-15.png)
 
 Update the name of the tab by selecting **App features** in the left pane in Developer Portal. Then select **Personal App** .
 
 Locate the LearnPersonalTab in the project. Select the menu for more options on the tab, and select **Edit**. Change the name of the tab to **My First Tab**. Update the **Content URL** property with your new ngrok subdomain. Ensure that `&theme={theme}` is added to the end of the Content URL property. Select **Confirm** to save your changes for the tab. Then select **Save**.
 
-![Screenshot of Personal App details in Developer Portal](../media/03-yo-teams-15a.png)
+![Screenshot of Personal App details in Developer Portal.](../media/03-yo-teams-15a.png)
 
 The changes made to the app within the Developer Portal aren't saved to your project. If you want to update the project, download the app package from the portal.
 
 To download the project, return to the **Apps** page by selecting **Apps** in the Toolbar.
 
-![Screenshot of the Developer Portal highlighting the Apps link](../media/03-yo-teams-15b.png)
+![Screenshot of the Developer Portal highlighting the Apps link.](../media/03-yo-teams-15b.png)
 
 From the Apps page in Developer Portal, open the app's menu and select **Download app package**.
 
-![Screenshot of the Developer Portal highlighting the Download app package link](../media/03-yo-teams-15c.png)
+![Screenshot of the Developer Portal highlighting the Download app package link.](../media/03-yo-teams-15c.png)
 
 > [!CAUTION]
 > Be careful if you chose to update the **manifest.json** file in your project with the one in the package downloaded from Developer Portal.
