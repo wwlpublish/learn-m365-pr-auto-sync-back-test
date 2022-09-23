@@ -10,7 +10,7 @@ The Microsoft Teams Admin Center is available from the Microsoft 365 Admin Cente
 
  
 
-‎:::image type="content" source="../media/teams-admin-center.png" alt-text="Microsoft Teams Admin Center":::
+:::image type="content" source="../media/teams-admin-center.png" alt-text="Microsoft Teams Admin Center":::
 
 
  
@@ -65,7 +65,7 @@ If you want to see a list of all the cmdlets that are included in the Microsoft 
 Get-Command -Module MicrosoftTeams
 ```
  
-‎:::image type="content" source="../media/teams-powershell-module.png" alt-text="Screenshot of PowerShell window":::
+:::image type="content" source="../media/teams-powershell-module.png" alt-text="Screenshot of PowerShell window":::
 
 
 

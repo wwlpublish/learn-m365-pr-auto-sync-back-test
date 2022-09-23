@@ -26,7 +26,7 @@ The list below is high-level steps that organizations should pursue to implement
 
 8. Adjust messaging and methods based on feedback, and then repeat.
 
-‎:::image type="content" source="../media/adoption-plan.png" alt-text="Overview of adoption plan":::
+:::image type="content" source="../media/adoption-plan.png" alt-text="Overview of adoption plan":::
 
 ## Identify key stakeholders, champions, and user profiles
 
