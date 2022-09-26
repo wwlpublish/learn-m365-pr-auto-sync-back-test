@@ -21,7 +21,7 @@ yo teams
 Yeoman starts and asks you a series of questions. Answer the questions with the following values:
 
 - **You are running the generator on an already existing project... are you sure you want to continue?**: Yes
-- **Do you want to change the current manifest version (1.11)?**: No
+- **Do you want to change the current manifest version (1.13)?**: No
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A Tab
 - **Default tab name (max 16 characters)**: ConfigMathTab
@@ -109,18 +109,18 @@ const [mathOperator, setMathOperator] = useState<string>();
 
 ### Implement the configuration page logic and user interface
 
-The configuration page displays a drop-down list of four math operators to select from. After an operator is selected, it's saved to the tab's `entityId` property with the string **MathPage** appended to it. This value is used by the tab page to determine what operation to perform in the tab.
+The configuration page displays a drop-down list of four math operators to select from. After an operator is selected, it's saved to the page's `id` property with the string **MathPage** appended to it. This value is used by the tab page to determine what operation to perform in the tab.
 
-Locate the `useEffect` method that depends upon the `context` variable. This method sets the state of the React component. Change the statement that contains the `setText` method with the following code. This new code takes the value of the `entityId` property on the tab, removes the **MathPage** string, and leaves only the operator.
+Locate the `useEffect` method that depends upon the `context` variable. This method sets the state of the React component. Change the statement that contains the `setText` method with the following code. This new code takes the value of the `page.id` property on the tab, removes the **MathPage** string, and leaves only the operator.
 
 ```typescript
 useEffect(() => {
   if (context) {
-    setMathOperator(context.entityId.replace("MathPage", ""));
-    entityId.current = context.entityId;
-    microsoftTeams.settings.registerOnSaveHandler(onSaveHandler);
-    microsoftTeams.settings.setValidityState(true);
-    microsoftTeams.appInitialization.notifySuccess();
+    setMathOperator(context.page.id?.replace("MathPage", "") ?? "");
+    entityId.current = context.page.id;
+    pages.config.registerOnSaveHandler(onSaveHandler);
+    pages.config.setValidityState(true);
+    app.notifySuccess();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [context]);
@@ -156,7 +156,7 @@ return (
 
 At this point, the configuration page is complete. If you removed the tab in the last step, repeat the process to upload and add it again.
 
-If you didn't remove the tab, select the menu from the tab and then select **Settings**.
+If you didn't remove the tab, select the menu from the tab, and then select **Settings**.
 
 ![Screenshot selecting the tab settings menu.](../media/05-channel-tab-05.png)
 
@@ -215,7 +215,7 @@ useEffect(() => {
     setEntityId(context.entityId);
     setMathTabState(state => ({
       ...state,
-      mathOperator: context.entityId.replace("MathPage", "")
+      mathOperator: context.page.id?.replace("MathPage", "") ?? ""
     } as IConfigMathTabState));
   }
 }, [context]);
@@ -311,7 +311,7 @@ return (
 
 ### Test the channel tab page
 
-At this point, the channel tab page is complete. If the web server isn't still running, rebuild the project and start the web server by running **gulp ngrok-server --debug**.
+At this point, the channel tab page is complete. If the web server isn't still running, rebuild the project, and start the web server by running **gulp ngrok-server --debug**.
 
 Open a browser, and go to [Microsoft Teams](https://teams.microsoft.com). Sign in with the credentials of a Work and School account.
 

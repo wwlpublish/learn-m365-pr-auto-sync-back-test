@@ -59,3 +59,10 @@ Then, assign a custom policy named New Hire Feedback Policy to a user named user
 ```PowerShell
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
+## Review product feedback from users
+
+Organizations own all user feedback data and this functionality will assist administrators to provide direct transparency into their users’ experiences with Microsoft 365 products and enable user feedback data to be provided as part of any Data Subject Request. 
+
+Global admins and compliance data administrators now have the ability to view, export and delete user feedback. All other administrators, as well as readers, are able to view and export feedback data but can't perform compliance related tasks or see information about who posted the feedback (such as user name, email, or device name). 
+
+Administrators can view, delete, and export the feedback data from the **Microsoft 365 admin center** > **Health** > **Product feedback**.
