@@ -44,7 +44,7 @@ Microsoft Teams is built on the Microsoft 365 and Office 365 hyper-scale, enterp
 
 * [Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true)
 
-* [Key governance capabilities and licensing requirements](https://learn.microsoft.com/en-us/microsoft-365/solutions/collaboration-governance-overview?azure-portal=true&view=o365-worldwide#key-collaboration-governance-capabilities-and-licensing-requirements)
+* [Key governance capabilities and licensing requirements](https://learn.microsoft.com/microsoft-365/solutions/collaboration-governance-overview?azure-portal=true&view=o365-worldwide#key-collaboration-governance-capabilities-and-licensing-requirements)
 
 
 ## Licensing for guest access
