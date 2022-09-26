@@ -27,10 +27,10 @@ The following sections describe each of the available settings for a call queue.
 	If you plan to use a Teams channel for your call agents, you can assign an outbound caller ID number for the agents by specifying one or more resource accounts with a phone number.
 
 	> [!NOTE]
-	> The resource account used for calling ID purposes must have a **Microsoft Teams Phone System - Virtual User** license and one of the following assigned:
+	> The resource account used for calling ID purposes must have a Teams Phone Resource Account license and one of the following assigned:
 	>	* A Calling Plan license and a phone number assigned
 	>	* An Operator Connect phone number assigned
-		An online voice routing policy (phone number assignment is optional when using Direct Routing)
+	>	* An online voice routing policy (phone number assignment is optional when using Direct Routing)
 
 
 	Select **Add**, and search for the resource accounts that you want to allow agents to use for calling ID purposes when making outbound calls, then select **Add** twice.
