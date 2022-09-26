@@ -3,7 +3,7 @@ uid: learn.wwl.implement-lifecycle-management-governance-for-microsoft-teams
 metadata:
   title: Implement lifecycle management and governance for Microsoft Teams
   description: "Learn about Teams lifecycle management and governance, including different features to govern Microsoft 365 Groups, ways to assign Teams policies, Teams preview features controls."
-  ms.date: 09/24/2022
+  ms.date: 09/26/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -22,7 +22,7 @@ abstract: |
 prerequisites: |
   - A proficient understanding of basic functional experience with Microsoft 365 services.
   - A proficient understanding of general IT practices, including using PowerShell.
-iconUrl: /learn/achievements/teams-lifecycle-management.svg
+iconUrl: /training/achievements/teams-lifecycle-management.svg
 levels:
 - intermediate
 roles:
