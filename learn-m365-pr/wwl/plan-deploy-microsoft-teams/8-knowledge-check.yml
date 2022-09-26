@@ -43,13 +43,13 @@ quiz:
     choices:
     - content: "Microsoft Teams mobile client"
       isCorrect: false
-      explanation: "That's incorrect. Administrators cannot do a bulk deployment of the mobile client."
+      explanation: "That's incorrect. Administrators can't do a bulk deployment of the mobile client."
     - content: "Microsoft Teams desktop client"
       isCorrect: true
       explanation: "That's correct. Administrators can do a bulk deployment of the desktop client via MSI or Microsoft 365 Apps."
     - content: "Microsoft Teams web client"
       isCorrect: false
-      explanation: "That's incorrect. Administrators cannot do a bulk deployment of the web client."
+      explanation: "That's incorrect. Administrators can't do a bulk deployment of the web client."
   - content: "Following the principle of least privilege, which role should be assigned to an administrator in Teams that needs to assign telephone numbers?"
     choices:
     - content: "Teams administrator"
@@ -60,4 +60,4 @@ quiz:
       explanation: "That's correct. Users assigned to this role can assign telephone numbers."
     - content: "Teams communication support engineer"
       isCorrect: false
-      explanation: "That's incorrect. This role cannot assign telephone numbers."
+      explanation: "That's incorrect. This role can't assign telephone numbers."
