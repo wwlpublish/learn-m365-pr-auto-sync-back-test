@@ -2,7 +2,7 @@ Teams is the platform for communications and collaboration within Microsoft 365.
 
 Additionally, Microsoft Teams delivers the advanced security and compliance capabilities that enable safe and trustworthy online collaboration.
 
-:::image type="content" source="../media/teams-workloads.png" alt-text="Description of what is Teams":::
+:::image type="content" source="../media/teams-workloads.png" alt-text="Diagram that shows what is Teams":::
 
 ## Chat
 
@@ -48,7 +48,7 @@ Teams can be dynamic for project-based work (such as running projects), and ongo
 All data within a team, such as conversations, files, and notes across team channels are only visible to members of the team. At the top of each channel, you will find tabs, which are basically links to your favorite files, apps, and services. The following picture shows the structure of channels in Teams of an organization.  
 
 
-:::image type="content" source="../media/channel-structure.png" alt-text="Example of a team created to align with organizational structure" lightbox="../media/channel-structure.png":::
+:::image type="content" source="../media/channel-structure.png" alt-text="Diagram that shows a team created to align with organizational structure" lightbox="../media/channel-structure.png":::
 
 
 ## Apps and workflows
@@ -80,13 +80,13 @@ There are two kinds of calls in Teams.
 
 * **Calls between Teams clients**: Out of the box, Teams supports the ability for users to make voice over IP (VoIP) 1:1 or group calls from Teams client to Teams client.
 
-    :::image type="content" source="../media/calls-teams-client.png" alt-text="Make call between Teams client":::
+    :::image type="content" source="../media/calls-teams-client.png" alt-text="Screenshot of making call between Teams client":::
 
 * **Make and receive PSTN calls**: Microsoft Teams Phone allows users to make and receive Public Switched Telephone Network (PSTN) phone calls with traditional phone service. 
 
     To enable users to make and receive PSTN calls, you need to connect Microsoft Teams Phone to the PSTN. Users can then use the Dial Pad to call landlines or mobiles phones on the PSTN.
 
-     :::image type="content" source="../media/make-switched-telephone-network-calls.png" alt-text="Make PSTN calls using the Dial Pad":::
+     :::image type="content" source="../media/make-switched-telephone-network-calls.png" alt-text="Screenshot of making PSTN calls using the Dial Pad":::
 
 
 

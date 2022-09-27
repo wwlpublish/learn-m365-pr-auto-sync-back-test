@@ -27,7 +27,7 @@ Teams uses the most effective storage location for different Teams data. The fol
 
 The Teams architecture enables data governance, security, and compliance capabilities. You can protect Teams data with various security and compliance features in Microsoft 365. This protects against leakage and loss of business data by supporting compliant business processes when discovering sensitive business data. 
 
-‎:::image type="content" source="../media/teams-security-compliance.png" alt-text="A graphic explains Teams Security Compliance":::
+‎:::image type="content" source="../media/teams-security-compliance.png" alt-text="Diagram that shows explains Teams Security Compliance":::
 
 ## Limits of Microsoft Teams
 
