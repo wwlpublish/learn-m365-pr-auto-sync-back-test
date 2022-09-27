@@ -47,7 +47,7 @@ Your organization might have other requirements for setting policies for expirat
 | **Capability**| **Details**| **Azure AD Premium license required**| **When to use** |
 | - |-|-|-|
 | **Expiration policy**| Manage the lifecycle of Microsoft 365 Groups by setting an expiration policy.| P1| Used in organizations that have a large number of inactive groups. |
-| **Retention policy**| Retain or delete data for a specific time period by setting retention policies for Microsoft 365 Groups in the Security & compliance center. **Note**: Using this feature requires licensing of Office 365 Enterprise E3 or above.| No| In organizations that need to comply with industry regulations and internal policies for retaining content for a specific minimum period of time. |
+| **Retention policy**| Retain or delete data for a specific time period by setting retention policies for Microsoft 365 Groups in the Microsoft Purview compliance portal. **Note**: Using this feature requires licensing of Office 365 Enterprise E3 or above.| No| In organizations that need to comply with industry regulations and internal policies for retaining content for a specific minimum period of time. |
 | **Archive and restore**| Archive a team when it’s no longer active but you want to keep it around for reference or to reactivate in the future.| No| Used in organizations that need to archive the group content when it is no longer active, with ability to reactivate in the future if needed. |
 
 
