@@ -93,7 +93,7 @@ To create a tenant global or tenant user dial plan, complete the following steps
 
 1. Under Normalization rules, configure and associate one or more normalization rules for the dial plan. Each dial plan must have at least one normalization rule associated with it. 
 
-    - To create a new normalization rule and associate it with the dial plan, select **Add**, and then define the rule using .NET Framework regular expressions. There are some good samples on Microsoft Docs.
+    - To create a new normalization rule and associate it with the dial plan, select **Add**, and then define the rule using .NET Framework regular expressions. There are some good samples on Microsoft Learn.
 
 1. Arrange the normalization rules in the order that you want. Select **Move up** or **Move down** to change the position of rules in the list.
 
@@ -101,7 +101,7 @@ To create a tenant global or tenant user dial plan, complete the following steps
 
 1. If you want to test the dial plan, under **Test dial plan**, enter a phone number, and then select **Test**.
 
-A good overview of dial plans is available on Microsoft Docs in resources.
+A good overview of dial plans is available on Microsoft Learn in resources.
 
 ## Configure call park policies
 
