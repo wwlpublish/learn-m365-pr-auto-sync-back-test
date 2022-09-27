@@ -10,7 +10,7 @@ The Microsoft Teams Admin Center is available from the Microsoft 365 Admin Cente
 
  
 
-:::image type="content" source="../media/teams-admin-center.png" alt-text="Microsoft Teams Admin Center":::
+:::image type="content" source="../media/teams-admin-center.png" alt-text="Screenshot of Microsoft Teams Admin Center.":::
 
 
  
