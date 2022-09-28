@@ -400,3 +400,108 @@ achievements:
   title: Protect your data with sensitivity labels
   summary: Protect your data with sensitivity labels
   iconUrl: /learn/achievements/protect-data-with-sensitivity-labels.svg
+- uid: learn-m365-pr.defender-advanced-hunting.badge
+  type: badge
+  title: Locate threats using advanced hunting with Microsoft 365 Defender
+  summary: Locate threats using advanced hunting with Microsoft 365 Defender
+  iconUrl: /learn/achievements/m365-defender-locate-threats.svg
+- uid: learn-m365-pr.defender-enable.badge
+  type: badge
+  title: Enable Microsoft 365 Defender in your organization
+  summary: Enable Microsoft 365 Defender in your organization
+  iconUrl: /learn/achievements/m365-defender-get-started.svg
+- uid: learn-m365-pr.defender-investigate-incidents.badge
+  type: badge
+  title: Investigate incidents with Microsoft 365 Defender
+  summary: Investigate incidents with Microsoft 365 Defender
+  iconUrl: /learn/achievements/m365-defender-investigate-incidents.svg
+- uid: learn-m365-pr.defender-office-365-evaluate.badge
+  type: badge
+  title: Evaluate Microsoft Defender for Office 365
+  summary: Evaluate Microsoft Defender for Office 365
+  iconUrl: /learn/achievements/m365-defender-evaluate-office-365.svg
+- uid: learn-m365-pr.defender-office-365-explore.badge
+  type: badge
+  title: Explore security policies and threat protection capabilities in Microsoft Defender for Office 365
+  summary: Explore security policies and threat protection capabilities in Microsoft Defender for Office 365
+  iconUrl: /learn/achievements/m365-defender-explore-office-365.svg
+- uid: learn-m365-pr.defender-self-healing.badge
+  type: badge
+  title: Automate self-healing with Microsoft 365 Defender
+  summary: Automate self-healing with Microsoft 365 Defender
+  iconUrl: /learn/achievements/m365-defender-auto-self-healing.svg
+- uid: learn-m365-pr.apply-next-generation-protection-with-microsoft-defender-for-endpoint.badge
+  type: badge
+  title: Apply next-generation protection with Microsoft Defender for Endpoint
+  summary: Apply next-generation protection with Microsoft Defender for Endpoint
+  iconUrl: /learn/achievements/m365-defender-next-gen-protection-endpoint.svg
+- uid: learn-m365-pr.automated-investigation-remediation-microsoft-defender-endpoint.badge
+  type: badge
+  title: Use automated investigation and remediation in Microsoft Defender for Endpoint
+  summary: Use automated investigation and remediation in Microsoft Defender for Endpoint
+  iconUrl: /learn/achievements/m365-defender-address-security-investigation.svg
+- uid: learn-m365-pr.detect-respond-to-security-issues-using-microsoft-defender-for-endpoint.badge
+  type: badge
+  title: Detect and respond to security issues using Microsoft Defender for Endpoint
+  summary: Detect and respond to security issues using Microsoft Defender for Endpoint
+  iconUrl: /learn/achievements/m365-defender-endpoint-detect-respond.svg
+- uid: learn-m365-pr.m365-evaluate-endpoint-security.badge
+  type: badge
+  title: Evaluate endpoint security in Microsoft Defender for Endpoint
+  summary: Evaluate endpoint security in Microsoft Defender for Endpoint
+  iconUrl: /learn/achievements/m365-defender-evaluate-endpoint-security.svg
+- uid: learn-m365-pr.m365-gain-insights-reporting-defender-endpoint.badge
+  type: badge
+  title: Gain insights through reporting in Microsoft Defender for Endpoint
+  summary: Gain insights through reporting in Microsoft Defender for Endpoint
+  iconUrl: /learn/achievements/m365-defender-endpoint-insights-reporting.svg
+- uid: learn-m365-pr.get-started-microsoft-defender-endpoint.badge
+  type: badge
+  title: Onboard to Microsoft Defender for Endpoint
+  summary: Onboard to Microsoft Defender for Endpoint
+  iconUrl: /learn/achievements/m365-defender-endpoint-get-started.svg
+- uid: learn-m365-pr.reduce-potential-attack-areas-with-microsoft-defender-for-endpoint.badge
+  type: badge
+  title: Reduce potential attack areas with Microsoft Defender for Endpoint
+  summary: Reduce potential attack areas with Microsoft Defender for Endpoint
+  iconUrl: /learn/achievements/m365-defender-endpoint-reduce-attack-areas.svg
+- uid: learn-m365.m365-security-management-endpoints.badges
+  type: badge
+  title: Secure Windows 10 endpoints
+  summary: Secure Windows 10 endpoints
+  iconUrl: /learn/achievements/secure-windows-10-endpoints.svg
+- uid: learn-m365.m365-security-management-mail.badges
+  type: badge
+  title: Protect mail with Microsoft Defender for Office 365
+  summary: Protect mail with Microsoft Defender for Office 365
+  iconUrl: /learn/achievements/protect-mail-with-office-365-advanced-threat-protection.svg
+- uid: learn-m365.m365-security-management-secure-score.badges
+  type: badge
+  title: Use reporting in the Microsoft 365 Defender portal
+  summary: Use reporting in the Microsoft 365 Defender portal
+  iconUrl: /learn/achievements/use-reporting-in-the-microsoft-365-security-center.svg
+- uid: learn-m365-pr.strengthen-your-security-posture.badge
+  type: badge
+  title: Strengthen your security posture with Microsoft Defender for Endpoint
+  summary: Strengthen your security posture with Microsoft Defender for Endpoint
+  iconUrl: /learn/achievements/m365-defender-endpoint-strengthen-security.svg
+- uid: learn-m365.m365-security-management.trophy
+  type: trophy
+  title: Manage security with Microsoft 365
+  summary: Manage security with Microsoft 365
+  iconUrl: /learn/achievements/manage-security-microsoft-365.svg
+- uid: learn-m365.m365-defender-endpoint-secure-organization.trophy
+  type: trophy
+  title: Secure your organization with Microsoft Defender for Endpoint
+  summary: Secure your organization with Microsoft Defender for Endpoint
+  iconUrl: /learn/achievements/m365-defender-secure-organization.svg
+- uid: learn-m365.defender-office-365-malicious-threats.trophy
+  type: trophy
+  title: Protect against malicious threats with Microsoft Defender for Office 365
+  summary: Protect against malicious threats with Microsoft Defender for Office 365
+  iconUrl: /learn/achievements/m365-defender-malicious-threats.svg
+- uid: learn-m365.defender-detect-respond.trophy
+  type: trophy
+  title: Detect and respond to cyber attacks with Microsoft 365 Defender
+  summary: Detect and respond to cyber attacks with Microsoft 365 Defender
+  iconUrl: /learn/achievements/m365-defender-manage-security.svg
