@@ -4986,11 +4986,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "learn-m365-pr/paths/data-identification-cybersecurity/index.md",
-      "redirect_url": "/training/paths/implement-information-protection/",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "learn-m365-pr/paths/defender-detect-respond/index.md",
       "redirect_url": "m365/defender",
       "redirect_document_id": false
@@ -5012,11 +5007,6 @@
     },
     {
       "source_path": "learn-m365-pr/paths/m365-security-management/index.md",
-      "redirect_url": "/m365/defender",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "learn-m365-pr/paths/m365-security-threat-protection/index.md",
       "redirect_url": "/m365/defender",
       "redirect_document_id": false
     },
