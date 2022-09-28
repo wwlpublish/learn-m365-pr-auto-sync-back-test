@@ -5239,6 +5239,37 @@
       "source_path": "learn-m365-pr/modules/compmgmt-learn-concepts/summary.md",
       "redirect_url": "/microsoft-365/compliance/compliance-manager",
       "redirect_document_id": false
+    },
+
+    {
+      "source_path": "learn-m365-pr/modules/defender-enable/index.md",
+      "redirect_url": "/microsoft-365/security/defender/get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-enable/introduction.md",
+      "redirect_url": "/microsoft-365/security/defender/get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-enable/knowledge-check.md",
+      "redirect_url": "/microsoft-365/security/defender/get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-enable/manage-access.md",
+      "redirect_url": "/microsoft-365/security/defender/get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-enable/roll-out.md",
+      "redirect_url": "/microsoft-365/security/defender/get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-enable/summary.md",
+      "redirect_url": "/microsoft-365/security/defender/get-started",
+      "redirect_document_id": false
     }
   ]
 }
