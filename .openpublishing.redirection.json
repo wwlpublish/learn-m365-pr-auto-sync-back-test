@@ -5306,6 +5306,36 @@
       "source_path": "learn-m365-pr/modules/defender-investigate-incidents/working-incidents.md",
       "redirect_url": "/microsoft-365/security/defender/investigate-incidents",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-evaluate/configuration-analyzer.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-evaluate/evaluation-mode.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-evaluate/index.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-evaluate/introduction.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-evaluate/knowledge-check.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-evaluate/summary.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365",
+      "redirect_document_id": false
     }
   ]
 }
