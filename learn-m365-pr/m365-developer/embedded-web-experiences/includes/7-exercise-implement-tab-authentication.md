@@ -15,11 +15,11 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v14.*\
-- npm (installed with Node.js) - v7.*\
-- [Gulp CLI](https://gulpjs.com/) - v2.3.*\
-- [Yeoman](https://yeoman.io/) - v4.3.*\
-- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v3.5.0
+- [Node.js](https://nodejs.org/) - (*the active [LTS](https://nodejs.org/about/releases) version*)
+- npm (*installed with Node.js*)
+- [Gulp-cli](https://www.npmjs.com/package/gulp-cli) - v2.3.\*
+- [Yeoman](https://yeoman.io/) - v4.3.\*
+- [Yeoman Generator for Microsoft Teams](https://github.com/pnp/generator-teams) - v4.0.1
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.
@@ -57,7 +57,7 @@ On the **Teams Messages Graph Tab** page, copy the value of the **Application (c
 
   ![Screenshot of the Application ID of the new app registration.](../media/azure-ad-portal-new-app-details.png)
 
-On the **Teams Calendar Graph Tab** page, select the **1 web, 0 spa, 0 public client** link under the **Redirect URIs**.
+On the **Teams Messages Graph Tab** page, select the **1 web, 0 spa, 0 public client** link under the **Redirect URIs**.
 
 Locate the section **Implicit grant**, and select both **Access tokens** and **ID tokens**. This action tells Azure AD to return these tokens to the authenticated user if requested.
 
@@ -105,7 +105,7 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project**: Learn MSTeams Auth Tabs
 - **Your (company) name (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.11
+- **Which manifest version would you like to use?**: v1.13
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A tab
 - **The URL where you will host this solution?**: (Accept the default option)
@@ -118,11 +118,19 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 
 After you answer the generator's questions, the generator creates the scaffolding for the project. The generator then runs `npm install` that downloads all the dependencies required by the project.
 
+
+### Ensure the project is using the latest version of Teams SDK
+
+Run the npm command to install the latest version of the SDK
+
+```console
+npm i @microsoft/teams-js
+```
+
 The tab you'll create in this exercise will get the latest emails from the current user's mailbox by using Microsoft Graph. Install the Microsoft Graph JavaScript SDK and associated TypeScript type declarations for Microsoft Graph in the project. To install these packages, run the following commands:
 
 ```console
 npm install @microsoft/microsoft-graph-client
-npm install @types/microsoft-graph --save-dev
 ```
 
 ## Update the tab to use the current Theme
@@ -155,7 +163,7 @@ Add the following `import` statements after the existing `import` statements in 
 
 ```typescript
 import * as MicrosoftGraphClient from "@microsoft/microsoft-graph-client";
-import * as MicrosoftGraph from "microsoft-graph";
+import * as MicrosoftGraph from "@microsoft/microsoft-graph-types";
 ```
 
 Next, update the state of the component to store the email messages returned from Microsoft Graph.
@@ -232,23 +240,19 @@ const getMessages = async (promptConsent: boolean = false): Promise<void> => {
 
 The `getMessages()` method first acquires an access token. It then submits the request to Microsoft Graph for the top 15 email messages.
 
-The `getAccessToken()` method uses the Microsoft Teams JavaScript SDK to start the authentication process. It opens a pop-up window that loads the **auth-start.html** page to start the authentication process with Azure AD. Ultimately, the authentication process ends in the pop-up window and results in either a successful or failed authentication process. In either case, the associated callback handlers are registered in the `authenticate()` method in the following code:
-
+The `getAccessToken()` method uses the Microsoft Teams JavaScript SDK to start the authentication process. It opens a pop-up window that loads the **auth-start.html** page to start the authentication process with Azure AD. Ultimately, the authentication process ends in the pop-up window and results in either a successful or failed authentication process.
 ```typescript
-const getAccessToken = async (promptConsent: boolean = false): Promise < string > => {
-  return new Promise<string>((resolve, reject) => {
-    microsoftTeams.authentication.authenticate({
+const getAccessToken = async (promptConsent: boolean = false): Promise<string> => {
+  try {
+    const accessToken = await authentication.authenticate({
       url: window.location.origin + "/auth-start.html",
       width: 600,
-      height: 535,
-      successCallback: (accessToken: string) => {
-        resolve(accessToken);
-      },
-      failureCallback: (reason) => {
-        reject(reason);
-      }
+      height: 535
     });
-  });
+    return Promise.resolve(accessToken);
+  } catch (error) {
+    return Promise.reject(error);
+  }
 };
 ```
 
@@ -258,7 +262,7 @@ Create the new file **./src/public/auth-start.html** in the project, and add the
 <!DOCTYPE html>
 <html>
 <body>
-  <script src="https://statics.teams.cdn.office.net/sdk/v1.9.0/js/MicrosoftTeams.min.js" crossorigin="anonymous"></script>
+  <script src="https://res.cdn.office.net/teams-js/2.3.0/js/MicrosoftTeams.min.js" crossorigin="anonymous"></script>
   <script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.17/js/adal.min.js" crossorigin="anonymous"></script>
   <script type="text/javascript">
     microsoftTeams.initialize();
@@ -320,7 +324,7 @@ The notification process triggers Microsoft Teams to close the pop-up window and
 <!DOCTYPE html>
 <html>
 <body>
-  <script src="https://statics.teams.cdn.office.net/sdk/v1.9.0/js/MicrosoftTeams.min.js" crossorigin="anonymous"></script>
+  <script src="https://res.cdn.office.net/teams-js/2.3.0/js/MicrosoftTeams.min.js" crossorigin="anonymous"></script>
   <script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.17/js/adal.min.js" crossorigin="anonymous"></script>
 
   <script type="text/javascript">

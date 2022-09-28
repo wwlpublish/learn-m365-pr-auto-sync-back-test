@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/17/2022
+  ms.date: 09/27/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -30,26 +30,26 @@ quiz:
       explanation: "That's incorrect. SharePoint admin can't archive a team from the SharePoint admin center."
   - content: "Lidia is the Teams Administrator in Contoso Ltd. Lidia is evaluating the required licenses for Teams Room deployment. Lidia wants to include Teams Rooms Managed Services. Which of the following license should Lidia choose?"
     choices:
-    - content: "Microsoft Teams Rooms Standard"
+    - content: "Microsoft Teams Rooms Basic"
       isCorrect: false
-      explanation: "That's incorrect. Microsoft Teams Rooms Standard doesn't include Teams Rooms Managed Services."
-    - content: "Microsoft Teams Rooms Premium"
+      explanation: "That's incorrect. Microsoft Teams Rooms Basic doesn't include Teams Rooms Managed Services."
+    - content: "Microsoft Teams Rooms Pro"
       isCorrect: true
-      explanation: "That's correct. Microsoft Teams Rooms Premium includes all the licenses that come with Microsoft Teams Rooms Standard while providing additional value through Teams Rooms Managed Services."
-    - content: "Microsoft 365 Business Voice"
+      explanation: "That's correct. Microsoft Teams Rooms Pro includes all the licenses that come with Microsoft Teams Rooms Basic while providing additional value through Teams Rooms Managed Services."
+    - content: "Teams Phone with Calling Plan"
       isCorrect: false
-      explanation: "That's incorrect. Business Voice is a telephony solution designed for small and medium businesses."
+      explanation: "That's incorrect.  Teams Phone with Calling Plan is a telephony solution designed for small and medium businesses."
   - content: "Contoso Associates, a law firm with few hundred attorneys, recently rolled out Microsoft Teams for collaboration amongst the attorneys. Tom is a Teams Administrator at Contoso Associates. He wants to use bulk deployment of Teams client to prevent users from downloading and manually installing the Teams client. Which of the following Teams client can be deployed at bulk by Tom?"
     choices:
     - content: "Microsoft Teams mobile client"
       isCorrect: false
-      explanation: "That's incorrect. Administrators cannot do a bulk deployment of the mobile client."
+      explanation: "That's incorrect. Administrators can't do a bulk deployment of the mobile client."
     - content: "Microsoft Teams desktop client"
       isCorrect: true
       explanation: "That's correct. Administrators can do a bulk deployment of the desktop client via MSI or Microsoft 365 Apps."
     - content: "Microsoft Teams web client"
       isCorrect: false
-      explanation: "That's incorrect. Administrators cannot do a bulk deployment of the web client."
+      explanation: "That's incorrect. Administrators can't do a bulk deployment of the web client."
   - content: "Following the principle of least privilege, which role should be assigned to an administrator in Teams that needs to assign telephone numbers?"
     choices:
     - content: "Teams administrator"
@@ -60,4 +60,4 @@ quiz:
       explanation: "That's correct. Users assigned to this role can assign telephone numbers."
     - content: "Teams communication support engineer"
       isCorrect: false
-      explanation: "That's incorrect. This role cannot assign telephone numbers."
+      explanation: "That's incorrect. This role can't assign telephone numbers."
