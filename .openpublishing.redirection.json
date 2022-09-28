@@ -4992,17 +4992,17 @@
     },
     {
       "source_path": "learn-m365-pr/paths/defender-detect-respond/index.md",
-      "redirect_url": "/training/m365/defender",
+      "redirect_url": "m365/defender",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/paths/defender-endpoint-fundamentals/index.md",
-      "redirect_url": "/training/m365/defender",
+      "redirect_url": "m365/defender",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/paths/defender-office-365-malicious-threats/index.md",
-      "redirect_url": "/training/m365/defender",
+      "redirect_url": "m365/defender",
       "redirect_document_id": false
     },
     {
@@ -5012,12 +5012,52 @@
     },
     {
       "source_path": "learn-m365-pr/paths/m365-security-management/index.md",
-      "redirect_url": "/training/m365/defender",
+      "redirect_url": "/m365/defender",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/paths/m365-security-threat-protection/index.md",
-      "redirect_url": "/training/m365/defender",
+      "redirect_url": "/m365/defender",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-audit/index.md",
+      "redirect_url": "/microsoft-365/compliance/advanced-audit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-audit/configure.md",
+      "redirect_url": "/microsoft-365/compliance/advanced-audit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-audit/create.md",
+      "redirect_url": "/microsoft-365/compliance/advanced-audit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-audit/investigate.md",
+      "redirect_url": "/microsoft-365/compliance/advanced-audit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-audit/monitor.md",
+      "redirect_url": "/microsoft-365/compliance/advanced-audit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-audit/overview.md",
+      "redirect_url": "/microsoft-365/compliance/advanced-audit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-audit/summary.md",
+      "redirect_url": "/microsoft-365/compliance/advanced-audit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-audit/knowledge-check.md",
+      "redirect_url": "/microsoft-365/compliance/advanced-audit",
       "redirect_document_id": false
     }
   ]
