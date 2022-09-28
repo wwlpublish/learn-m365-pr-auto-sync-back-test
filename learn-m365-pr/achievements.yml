@@ -370,11 +370,11 @@ achievements:
   title: Track user and admin activity with Microsoft Purview Audit (Premium)
   summary: Track user and admin activity with Microsoft Purview Audit (Premium)
   iconUrl: /learn/achievements/track-user-and-admin-activity-with-advanced-audit-in-microsoft-365.svg
-- uid: /learn/achievements/discover-and-analyze-content-in-place-using-advanced-ediscovery.svg
+- uid: learn-m365.compliance-discover-advanced-ediscovery.badges
   type: badge
   title: Discover and analyze content in place using eDiscovery (Premium)
   summary: Discover and analyze content in place using eDiscovery (Premium)
-  iconUrl: learn-m365.compliance-discover-advanced-ediscovery.badges
+  iconUrl: /learn/achievements/discover-and-analyze-content-in-place-using-advanced-ediscovery.svg
 - uid: learn-m365.compmgmt-learn-concepts.badges
   type: badge
   title: Learn Microsoft Purview Compliance Manager concepts
