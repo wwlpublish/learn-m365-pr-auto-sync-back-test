@@ -365,3 +365,43 @@ achievements:
   title: Transition from Azure Information Protection to Microsoft Information Protection
   summary: Transition from Azure Information Protection to Microsoft Information Protection
   iconUrl: /training/achievements/transition-azure-information-microsoft-information-protection.svg
+- uid: learn-m365.compliance-discover-advanced-audit.badges
+  type: badge
+  title: Track user and admin activity with Microsoft Purview Audit (Premium)
+  summary: Track user and admin activity with Microsoft Purview Audit (Premium)
+  iconUrl: /learn/achievements/track-user-and-admin-activity-with-advanced-audit-in-microsoft-365.svg
+- uid: /learn/achievements/discover-and-analyze-content-in-place-using-advanced-ediscovery.svg
+  type: badge
+  title: Discover and analyze content in place using eDiscovery (Premium)
+  summary: Discover and analyze content in place using eDiscovery (Premium)
+  iconUrl: learn-m365.compliance-discover-advanced-ediscovery.badges
+- uid: learn-m365.compmgmt-learn-concepts.badges
+  type: badge
+  title: Learn Microsoft Purview Compliance Manager concepts
+  summary: Learn Microsoft Purview Compliance Manager concepts
+  iconUrl: /learn/achievements/learn-microsoft-compliance-manager-concepts.svg
+- uid: learn-m365.m365-security-data-loss.badges
+  type: badge
+  title: Prevent data loss
+  summary: Prevent data loss
+  iconUrl: /learn/achievements/prevent-data-loss.svg
+- uid: learn-m365.m365-security-digital-estate.badges
+  type: badge
+  title: Information protection and the growing digital estate
+  summary: Information protection and the growing digital estate
+  iconUrl: /learn/achievements/info-protection-growing-digital-estate.svg
+- uid: learn-m365.m365-security-info-overview.badges
+  type: badge
+  title: Information protection overview
+  summary: Information protection overview
+  iconUrl: /learn/achievements/info-protection-overview.svg
+- uid: learn-m365.m365-security-monitor-sensitive-data.badges
+  type: badge
+  title: Monitor and analyze sensitive data
+  summary: Monitor and analyze sensitive data
+  iconUrl: /learn/achievements/monitor-analyze-sensitive-data.svg
+- uid: learn-m365.m365-security-sensitivity-labels.badges
+  type: badge
+  title: Protect your data with sensitivity labels
+  summary: Protect your data with sensitivity labels
+  iconUrl: /learn/achievements/protect-data-with-sensitivity-labels.svg
