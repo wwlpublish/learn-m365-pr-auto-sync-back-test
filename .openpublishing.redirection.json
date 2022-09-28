@@ -5150,6 +5150,66 @@
       "source_path": "learn-m365-pr/modules/advanced-ediscovery/summary.md",
       "redirect_url": "/microsoft-365/compliance/overview-ediscovery-20",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/achieve-compliance.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/align-requirements.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/configure-permissions.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/create-assessments.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/identify-solutions.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/index.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/introduction.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/knowledge-check.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/review-dashboard.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/simplifies-compliance.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/summary.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/track-adherence.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
     }
   ]
 }
