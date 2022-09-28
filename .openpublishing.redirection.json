@@ -5240,7 +5240,6 @@
       "redirect_url": "/microsoft-365/compliance/compliance-manager",
       "redirect_document_id": false
     },
-
     {
       "source_path": "learn-m365-pr/modules/defender-enable/index.md",
       "redirect_url": "/microsoft-365/security/defender/get-started",
@@ -5271,7 +5270,6 @@
       "redirect_url": "/microsoft-365/security/defender/get-started",
       "redirect_document_id": false
     },
-
     {
       "source_path": "learn-m365-pr/modules/defender-investigate-incidents/classification-alerts.md",
       "redirect_url": "/microsoft-365/security/defender/investigate-incidents",
@@ -5335,6 +5333,41 @@
     {
       "source_path": "learn-m365-pr/modules/defender-office-365-evaluate/summary.md",
       "redirect_url": "/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-explore/introduction.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/preset-security-policies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-explore/preset-policies-overrides.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/preset-security-policies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-explore/protect-against-threats.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/preset-security-policies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-explore/reporting-messages-files.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/preset-security-policies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-explore/summary.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/preset-security-policies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-explore/knowledge-check.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/preset-security-policies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-explore/index.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/preset-security-policies",
       "redirect_document_id": false
     }
   ]
