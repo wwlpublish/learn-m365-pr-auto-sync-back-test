@@ -4974,6 +4974,51 @@
       "source_path": "learn-m365-pr/m365/m365-compliance-information-transition-to-microsoft-information-protection/summary-knowledge-check.md",
       "redirect_url": "/training/modules/m365-compliance-information-governance/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/paths/compliance-discover/index.md",
+      "redirect_url": "/training/paths/describe-concepts-of-security-compliance-identity/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/paths/compmgmt/index.md",
+      "redirect_url": "/training/paths/describe-concepts-of-security-compliance-identity/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/paths/data-identification-cybersecurity/index.md",
+      "redirect_url": "/training/paths/implement-information-protection/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/paths/defender-detect-respond/index.md",
+      "redirect_url": "/training/m365/defender",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/paths/defender-endpoint-fundamentals/index.md",
+      "redirect_url": "/training/m365/defender",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/paths/defender-office-365-malicious-threats/index.md",
+      "redirect_url": "/training/m365/defender",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/paths/m365-information-protection/index.md",
+      "redirect_url": "/training/paths/m365-compliance-information/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/paths/m365-security-management/index.md",
+      "redirect_url": "/training/m365/defender",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/paths/m365-security-threat-protection/index.md",
+      "redirect_url": "/training/m365/defender",
+      "redirect_document_id": false
     }
   ]
 }
