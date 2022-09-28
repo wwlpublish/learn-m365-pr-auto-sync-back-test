@@ -505,3 +505,23 @@ achievements:
   title: Detect and respond to cyber attacks with Microsoft 365 Defender
   summary: Detect and respond to cyber attacks with Microsoft 365 Defender
   iconUrl: /learn/achievements/m365-defender-manage-security.svg
+- uid: learn-m365.compmgmt-explore-compliance.badges
+  type: badge
+  title: Explore Microsoft Purview Compliance Manager
+  summary: Explore Microsoft Purview Compliance Manager
+  iconUrl: /learn/achievements/explore-microsoft-compliance-manager.svg
+- uid: learn-m365-pr.dlp-for-teams-and-microsoft-365.badge
+  type: badge
+  title: DLP for Teams and Microsoft 365
+  summary: DLP for Teams and Microsoft 365
+  iconUrl: /learn/achievements/dlp-for-teams-and-microsoft-365.svg
+- uid: learn-m365.m365-security-management-center.badges
+  type: badge
+  title: Overview of security management in Microsoft 365 Defender
+  summary: Overview of security management in Microsoft 365 Defender
+  iconUrl: /learn/achievements/overview-of-security-management-in-microsoft-365-security-center.svg
+- uid: learn-m365.m365-security-threat-define.badges
+  type: badge
+  title: Introduction to threat protection with Microsoft 365
+  summary: Introduction to threat protection with Microsoft 365
+  iconUrl: /learn/achievements/introduction-to-threat-protection.svg
