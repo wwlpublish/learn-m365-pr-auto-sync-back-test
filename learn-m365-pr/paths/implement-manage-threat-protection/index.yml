@@ -27,10 +27,8 @@ subjects:
 - threat-protection
 modules:
 - learn-m365.m365-security-threat-protect
-- learn-m365-pr.detect-respond-to-security-issues-using-microsoft-defender-for-endpoint
 - learn.wwl.deploy-microsoft-defender-for-endpoints-environment
 - learn.wwl.protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge
-- learn-m365-pr.reduce-potential-attack-areas-with-microsoft-defender-for-endpoint
 - learn-m365.audit-encryption
 - learn.app-management-using-microsoft-endpoint-manager
 - learn.wwl.manage-device-compliance
