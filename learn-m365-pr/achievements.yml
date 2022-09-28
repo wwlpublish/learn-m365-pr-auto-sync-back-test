@@ -380,11 +380,6 @@ achievements:
   title: Learn Microsoft Purview Compliance Manager concepts
   summary: Learn Microsoft Purview Compliance Manager concepts
   iconUrl: /learn/achievements/learn-microsoft-compliance-manager-concepts.svg
-- uid: learn-m365.m365-security-data-loss.badges
-  type: badge
-  title: Prevent data loss
-  summary: Prevent data loss
-  iconUrl: /learn/achievements/prevent-data-loss.svg
 - uid: learn-m365.m365-security-digital-estate.badges
   type: badge
   title: Information protection and the growing digital estate
