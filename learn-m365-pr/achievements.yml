@@ -525,3 +525,8 @@ achievements:
   title: Introduction to threat protection with Microsoft 365
   summary: Introduction to threat protection with Microsoft 365
   iconUrl: /learn/achievements/introduction-to-threat-protection.svg
+- uid: learn-m365.compliance-discover.trophy
+  type: trophy
+  title: Quickly find relevant data to respond to legal and regulatory obligations using Microsoft Purview eDiscovery (Premium) and Microsoft Purview Audit (Premium)
+  summary: Quickly find relevant data to respond to legal and regulatory obligations using Microsoft Purview eDiscovery (Premium) and Microsoft Purview Audit (Premium)
+  iconUrl: /training/achievements/investigate-and-respond-with-relevant-data.svg
