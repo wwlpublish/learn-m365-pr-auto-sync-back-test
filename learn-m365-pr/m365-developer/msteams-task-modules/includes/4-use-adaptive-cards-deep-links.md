@@ -10,9 +10,9 @@ Adaptive Cards are a cross-product specification for various Microsoft products 
 
 An Adaptive Card is represented as a JSON object. The JSON string defines all the controls, text, and actions that the hosting application will use to render the card.
 
-This JSON can be authored in any text editor. The Microsoft Teams app, App Studio, can be used to author Adaptive Cards starting with a template and preview the rendering of the card.
+This JSON can be authored in any text editor. The Developer Portal can be used to author Adaptive Cards starting with a template and preview the rendering of the card.
 
-![Screenshot of the YouTube Video Selector card.](../media/05-app-studio-04.png)
+![Screenshot of the YouTube Video Selector card.](../media/05-dev-portal-04.png)
 
 The following JSON represents an Adaptive Card that contains an input box and single submit button:
 

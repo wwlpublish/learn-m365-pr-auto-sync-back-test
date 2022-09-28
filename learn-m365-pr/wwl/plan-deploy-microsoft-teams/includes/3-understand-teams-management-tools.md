@@ -10,7 +10,7 @@ The Microsoft Teams Admin Center is available from the Microsoft 365 Admin Cente
 
  
 
-‎:::image type="content" source="../media/teams-admin-center.png" alt-text="Microsoft Teams Admin Center":::
+:::image type="content" source="../media/teams-admin-center.png" alt-text="Screenshot of Microsoft Teams Admin Center.":::
 
 
  
@@ -65,7 +65,7 @@ If you want to see a list of all the cmdlets that are included in the Microsoft 
 Get-Command -Module MicrosoftTeams
 ```
  
-‎:::image type="content" source="../media/teams-powershell-module.png" alt-text="Screenshot of PowerShell window":::
+:::image type="content" source="../media/teams-powershell-module.png" alt-text="Screenshot of PowerShell window":::
 
 
 
@@ -145,7 +145,7 @@ External apps are provided by third parties. You can configure the following set
 * Allow sideloading of external apps
 * Enable new external apps by default
 
-## Microsoft 365 Defender portal and Microsoft 365 compliance center
+## Microsoft 365 Defender portal and the Microsoft Purview compliance portal
 
-The Microsoft 365 Defender portal and Microsoft 365 compliance center are designed to help you manage compliance features across Microsoft 365 for your organization, including Teams. Links to existing SharePoint and Exchange compliance features bring together compliance capabilities across Microsoft 365. To use the Microsoft 365 Defender portal, you must either be assigned the global administrator role or have been assigned to one or more Microsoft 365 Defender portal role groups by a global administrator.
+The Microsoft 365 Defender portal and the Microsoft Purview compliance portal are designed to help you manage compliance features across Microsoft 365 for your organization, including Teams. Links to existing SharePoint and Exchange compliance features bring together compliance capabilities across Microsoft 365. To use the Microsoft 365 Defender portal, you must either be assigned the global administrator role or have been assigned to one or more Microsoft 365 Defender portal role groups by a global administrator.
 

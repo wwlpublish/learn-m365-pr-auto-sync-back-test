@@ -31,6 +31,9 @@ Organizations should address the following questions when reviewing current or p
 * Do you need to control external devices such as lowering shades or turning on a projector?
 * Can the walls support the display weight?
 
+
+:::image type="content" source="../media/teams-room-type.png" alt-text="Screenshot of different room types.":::
+
 Before reviewing each meeting room and space, it's important to obtain the dimensions of each room from the facilities team. Cameras, microphones, and speakers all have documented ranges for optimal performance. With these measurements, an organization can be certain that it's purchased the right audio and video equipment for a given space.
 
 Once you have all the dimensions, you can work with your Teams Rooms vendor to validate the right equipment is being chosen for the right space. The following chart is a sample Microsoft Teams Rooms deployment template:

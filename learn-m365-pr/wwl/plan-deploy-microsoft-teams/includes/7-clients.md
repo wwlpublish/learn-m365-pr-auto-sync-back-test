@@ -3,7 +3,7 @@ Microsoft Teams has clients available for desktop (Windows, Mac, and Linux), web
 ## Deploy Teams desktop clients 
 The Microsoft Teams desktop clients provide real-time communications support (audio, video, and content sharing) for team meetings, group calling, and private one-on-one calls.
 
-‎:::image type="content" source="../media/teams-windows-client.png" alt-text="Screenshot of Teams desktop client":::
+:::image type="content" source="../media/teams-windows-client.png" alt-text="Screenshot of Teams desktop client":::
 
 The desktop client is available for the following operating systems:
 
