@@ -5094,8 +5094,7 @@
       "source_path": "learn-m365-pr/modules/defender-advanced-hunting/knowledge-check.md",
       "redirect_url": "/microsoft-365/security/defender/advanced-hunting-overview",
       "redirect_document_id": false
-    }
-
+    },
     {
       "source_path": "learn-m365-pr/modules/advanced-ediscovery/add-custodians.md",
       "redirect_url": "/microsoft-365/compliance/overview-ediscovery-20",
