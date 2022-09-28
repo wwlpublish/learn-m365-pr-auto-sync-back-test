@@ -5270,6 +5270,42 @@
       "source_path": "learn-m365-pr/modules/defender-enable/summary.md",
       "redirect_url": "/microsoft-365/security/defender/get-started",
       "redirect_document_id": false
+    },
+
+    {
+      "source_path": "learn-m365-pr/modules/defender-investigate-incidents/classification-alerts.md",
+      "redirect_url": "/microsoft-365/security/defender/investigate-incidents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-investigate-incidents/incident-notifications.md",
+      "redirect_url": "/microsoft-365/security/defender/investigate-incidents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-investigate-incidents/index.md",
+      "redirect_url": "/microsoft-365/security/defender/investigate-incidents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-investigate-incidents/introduction.md",
+      "redirect_url": "/microsoft-365/security/defender/investigate-incidents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-investigate-incidents/knowledge-check.md",
+      "redirect_url": "/microsoft-365/security/defender/investigate-incidents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-investigate-incidents/summary.md",
+      "redirect_url": "/microsoft-365/security/defender/investigate-incidents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-investigate-incidents/working-incidents.md",
+      "redirect_url": "/microsoft-365/security/defender/investigate-incidents",
+      "redirect_document_id": false
     }
   ]
 }
