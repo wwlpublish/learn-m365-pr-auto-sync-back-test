@@ -5199,6 +5199,46 @@
       "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/track-adherence.md",
       "redirect_url": "/microsoft-365/compliance/compliance-manager",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-learn-concepts/apply-model.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-learn-concepts/assess-score.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-learn-concepts/define-terms.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-learn-concepts/explain-model.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-learn-concepts/index.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-learn-concepts/introduction.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-learn-concepts/knowledge-check.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-learn-concepts/summary.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
     }
   ]
 }
