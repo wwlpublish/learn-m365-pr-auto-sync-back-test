@@ -132,11 +132,20 @@ Conference bridge settings allow organizations to change the settings for meetin
 
 	- **Meeting entry and exit notifications**. An organization can turn this setting On or Off, depending on whether it wants users who have already joined the meeting to be notified when someone enters or leaves the meeting. If this setting is turned On, the following options can be updated:
 	- **Entry/exit announcement type**. Select one of the following options:
-		- **Names or phone numbers**: When users dial in to a meeting, their phone number will be played when they join it.
+
 		- **Tones**: When users dial in to a meeting, an audio tone will be played when they join it.
-	- **Ask callers to record their name before joining the meeting**. If you turn this setting Off, callers won't be asked to record their name before they join a meeting.
+		
+		- **Names or phone numbers**: When users dial in to a meeting, their phone number will be played when they join it. If you select this option, you will decide whether to **Ask callers to record their name before joining the meeting**. If you turn this setting Off, callers won't be asked to record their name before they join a meeting.
+
 	- **Pin length**. Set the PIN length from 4 to 12; the default value is 5.
 	- **Automatically send emails to users if their dial-in settings change**. This option should be enabled or disabled.
+
+	- **Mask phone numbers**. Admins can choose how the audio conferencing participants' phone numbers appear in meetings that are organized in their tenant. The admins can choose from three options: 
+
+		* **From participants outside your organization**: Phone numbers are masked only from external participants. The participants who belong to the meeting organizer's tenant still see the full phone number.
+		* **From all meeting participants(except the organizer)**: Phone numbers are masked from everyone in the meeting except the organizer.
+		* **Turned off**: Phone numbers are unmasked, which makes them visible to everyone in the meeting.
+
 
 3. Select **Apply** to confirm the settings.
 
@@ -144,9 +153,14 @@ Organizations can also use PowerShell to update these settings by using the ```S
 
 :::image type="content" source="../media/conference-bridges.png" alt-text="Screenshot of Conference Bridges settings.":::
 
-## Assign dial-in phone numbers for users who lead meetings
+## Manage dial-in phone numbers for users
 
-After an organization has created an Audio Conferencing bridge, it must complete the following steps to set the toll and toll-free numbers for all users who lead or schedule meetings:
+After an organization has created an Audio Conferencing bridge, admins can manage dial-in phone numbers for users who lead meetings with following options:
+
+1. Edit Audio Conferencing setting for a user
+2. Configure Audio conferencing policies for users
+
+### Audio Conferencing setting
 
 1. From the Teams admin center, select **Users** > **Manage users**, select the user from the list.
 2. Select **Edit** next to **Audio Conferencing**, and then in the Audio Conferencing pane, choose a number in the Toll number and Toll-free number lists.
@@ -154,4 +168,19 @@ After an organization has created an Audio Conferencing bridge, it must complete
 
 	:::image type="content" source="../media/assign-user-conference-bridges.png" alt-text="Screenshot of Assign dial-in phone numbers for users.":::
 
+### Configure Audio conferencing policies
 
+Admins can use Audio conferencing policies to manage audio conferencing toll and toll-free numbers to be displayed in meeting invites created by users.
+
+You can use the Global (Org-wide) default policy or create custom policies. To create a new Audio conferencing policy:
+
+1. From the Teams admin center, select **Meetings** > **Audio conferencing**.
+2. Select **+ Add** and configure the settings that you want.
+3. Select **Save**.
+
+	:::image type="content" source="../media/audio-conference-policy.png" alt-text="Screenshot of creating a new Audio conferencing policy.":::
+
+Then, you can assign the policy directly to users or to a group that the users are members of, either individually or in larger numbers through a batch assignment. 
+
+> [!NOTE]
+> It can take up to 24 hours for the assigned phone numbers to show up on users' meeting invite. 

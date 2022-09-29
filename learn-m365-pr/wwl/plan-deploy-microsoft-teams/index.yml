@@ -3,7 +3,7 @@ uid: learn.wwl.plan-deploy-microsoft-teams
 metadata:
   title: Plan and deploy Microsoft Teams
   description: "Learn how to plan and deploy Microsoft Teams to your organization, including different Teams admin roles, available management tools, and processes to rollout Teams. Understand required licensing and how to deploy Teams clients."
-  ms.date: 06/17/2022
+  ms.date: 09/27/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -11,13 +11,13 @@ metadata:
 title: Plan and deploy Microsoft Teams
 summary: Learn how to plan and deploy Microsoft Teams to your organization, including different Teams admin roles, available management tools, and processes to roll out Teams. Understand required licensing and how to deploy Teams clients.
 abstract: |
-  By the end of this module, you will be able to:
-  * Describe different Teams admin roles
-  * Explain which management tools are available for Teams
-  * Plan for Teams rollout
-  * Understand the importance of a user adoption plan when deploying Teams
-  * Identify required licensing for Teams
-  * Deploy Teams clients
+  By the end of this module, you'll be able to:
+  *   Describe different Teams admin roles
+  *   Explain which management tools are available for Teams
+  *   Plan for Teams rollout
+  *   Understand the importance of a user adoption plan when deploying Teams
+  *   Identify required licensing for Teams
+  *   Deploy Teams clients
 prerequisites: |
   - A proficient understanding of basic functional experience with Microsoft 365 services.
   - A proficient understanding of general IT practices, including using PowerShell.
