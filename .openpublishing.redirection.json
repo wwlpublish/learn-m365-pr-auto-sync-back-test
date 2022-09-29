@@ -5865,6 +5865,31 @@
       "source_path": "learn-m365-pr/modules/m365-security-sensitivity-labels/index.md",
       "redirect_url": "microsoft-365/compliance/get-started-with-sensitivity-labels",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-threat-define/introduction.md",
+      "redirect_url": "learn-m365-pr/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-threat-define/landscape-evolving.md",
+      "redirect_url": "learn-m365-pr/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-threat-define/summary-knowledge-check.md",
+      "redirect_url": "learn-m365-pr/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-threat-define/what-constitutes-threat.md",
+      "redirect_url": "learn-m365-pr/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-threat-define/index.md",
+      "redirect_url": "learn-m365-pr/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
+      "redirect_document_id": false
     }
   ]
 }
