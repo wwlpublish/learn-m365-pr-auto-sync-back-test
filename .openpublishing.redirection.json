@@ -5795,6 +5795,26 @@
       "source_path": "learn-m365-pr/modules/m365-security-management-mail/index.md",
       "redirect_url": "learn-m365-pr/modules/defender-office-365-introduction/index.md",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-secure-score/how-secure-score-works.md",
+      "redirect_url": "microsoft-365/security/defender-business/mdb-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-secure-score/introduction.md",
+      "redirect_url": "microsoft-365/security/defender-business/mdb-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-secure-score/summary-knowledge-check.md",
+      "redirect_url": "microsoft-365/security/defender-business/mdb-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-secure-score/index.md",
+      "redirect_url": "microsoft-365/security/defender-business/mdb-get-started",
+      "redirect_document_id": false
     }
   ]
 }
