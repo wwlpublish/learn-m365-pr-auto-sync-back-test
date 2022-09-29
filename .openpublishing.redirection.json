@@ -5775,6 +5775,26 @@
       "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/index.md",
       "redirect_url": "learn-m365-pr/modules/explore-microsoft-defender/index.md",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-mail/atp-policy-examples.md",
+      "redirect_url": "learn-m365-pr/modules/defender-office-365-introduction/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-mail/introduction.md",
+      "redirect_url": "learn-m365-pr/modules/defender-office-365-introduction/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-mail/summary-knowledge-check.md",
+      "redirect_url": "learn-m365-pr/modules/defender-office-365-introduction/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-mail/index.md",
+      "redirect_url": "learn-m365-pr/modules/defender-office-365-introduction/index.md",
+      "redirect_document_id": false
     }
   ]
 }
