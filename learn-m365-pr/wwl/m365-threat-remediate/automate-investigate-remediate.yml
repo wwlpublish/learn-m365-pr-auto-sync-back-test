@@ -5,8 +5,8 @@ metadata:
   title: Automate, investigate, and remediate
   description: Learn about the Microsoft Defender for Office 365 component of Microsoft 365 Defender.  
   ms.date: 11/03/2021
-  author: beccarobins
-  ms.author: beccarobins
+  author: kenMAG
+  ms.author: kelawson
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 8
