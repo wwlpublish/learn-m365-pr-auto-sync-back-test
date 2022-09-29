@@ -5680,6 +5680,36 @@
       "source_path": "learn-m365-pr/modules/m365-reduce-potential-attack-areas/index.md",
       "redirect_url": "microsoft-365/security/defender-endpoint/overview-attack-surface-reduction",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-digital-estate/classification-user-experience.md",
+      "redirect_url": "microsoft-365/compliance/information-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-digital-estate/growing-digital-estate.md",
+      "redirect_url": "microsoft-365/compliance/information-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-digital-estate/introduction.md",
+      "redirect_url": "microsoft-365/compliance/information-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-digital-estate/summary-knowledge-check.md",
+      "redirect_url": "microsoft-365/compliance/information-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-digital-estate/your-classification-journey.md",
+      "redirect_url": "microsoft-365/compliance/information-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-digital-estate/index.md",
+      "redirect_url": "microsoft-365/compliance/information-protection",
+      "redirect_document_id": false
     }
   ]
 }
