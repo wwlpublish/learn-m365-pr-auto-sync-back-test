@@ -4,8 +4,8 @@ metadata:
   title: Manage information protection and governance
   description: The amount of data being generated today is growing faster than ever, employees want to get work done everywhere, and the regulatory landscape is constantly changing. Microsoft’s solutions for information protection and governance help organizations achieve the right balance between keeping their data protected and their people productive.  
   ms.date: 06/5/2020
-  author: beccarobins
-  ms.author: beccarobins
+  author: riswinto
+  ms.author: riswinto
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage information protection and governance
@@ -31,7 +31,6 @@ modules:
 - learn-m365.m365-compliance-information-prevent-data-loss
 - learn-m365.m365-compliance-information-govern-information
 - learn-m365.m365-compliance-information-manage-records
-#learn-m365.m365-compliance-information-transition-to-microsoft-information-protection
 
 trophy: 
   uid: learn-m365.m365-compliance-information-.trophy
