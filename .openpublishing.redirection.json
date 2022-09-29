@@ -5710,6 +5710,26 @@
       "source_path": "learn-m365-pr/modules/m365-security-digital-estate/index.md",
       "redirect_url": "microsoft-365/compliance/information-protection",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-info-overview/info-protection-lifecycle.md",
+      "redirect_url": "microsoft-365/compliance/information-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-info-overview/introduction.md",
+      "redirect_url": "microsoft-365/compliance/information-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-info-overview/summary-knowledge-check.md",
+      "redirect_url": "microsoft-365/compliance/information-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-info-overview/index.md",
+      "redirect_url": "microsoft-365/compliance/information-protection",
+      "redirect_document_id": false
     }
   ]
 }
