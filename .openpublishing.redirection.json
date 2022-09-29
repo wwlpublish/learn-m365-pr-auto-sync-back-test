@@ -5890,6 +5890,46 @@
       "source_path": "learn-m365-pr/modules/m365-security-threat-define/index.md",
       "redirect_url": "learn-m365-pr/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-strengthen-your-security-posture/assess-your-security-posture.md",
+      "redirect_url": "microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-strengthen-your-security-posture/get-overview-threat-management.md",
+      "redirect_url": "microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-strengthen-your-security-posture/identify-vulnerabilities-devices.md",
+      "redirect_url": "microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-strengthen-your-security-posture/improve-security-posture-reduce-risks.md",
+      "redirect_url": "microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-strengthen-your-security-posture/introduction.md",
+      "redirect_url": "microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-strengthen-your-security-posture/knowledge-check.md",
+      "redirect_url": "microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-strengthen-your-security-posture/summary.md",
+      "redirect_url": "microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-strengthen-your-security-posture/index.md",
+      "redirect_url": "microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management",
+      "redirect_document_id": false
     }
   ]
 }
