@@ -5550,6 +5550,36 @@
       "source_path": "learn-m365-pr/modules/m365-detect-respond-security-issues-defender-endpoint/use-alerts-incidents-queues.md",
       "redirect_url": "microsoft-365/security/defender-endpoint/overview-endpoint-detection-response",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-evaluate-endpoint-security/introduction.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/evaluation-lab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-evaluate-endpoint-security/summary.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/evaluation-lab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-evaluate-endpoint-security/understand-evaluation-lab.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/evaluation-lab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-evaluate-endpoint-security/use-evaluation-lab.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/evaluation-lab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-evaluate-endpoint-security/knowledge-check.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/evaluation-lab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-evaluate-endpoint-security/index.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/evaluation-lab",
+      "redirect_document_id": false
     }
   ]
 }
