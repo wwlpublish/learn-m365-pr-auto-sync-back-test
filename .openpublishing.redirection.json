@@ -5650,6 +5650,36 @@
       "source_path": "learn-m365-pr/modules/m365-get-started-defender-endpoint/index.md",
       "redirect_url": "microsoft-365/security/defender-endpoint/onboard-configure",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-reduce-potential-attack-areas/enable-attack-surface-reduction-rules.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-attack-surface-reduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-reduce-potential-attack-areas/introduction.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-attack-surface-reduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-reduce-potential-attack-areas/knowledge-check.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-attack-surface-reduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-reduce-potential-attack-areas/minimize-potential-attack-areas.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-attack-surface-reduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-reduce-potential-attack-areas/summary.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-attack-surface-reduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-reduce-potential-attack-areas/index.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-attack-surface-reduction",
+      "redirect_document_id": false
     }
   ]
 }
