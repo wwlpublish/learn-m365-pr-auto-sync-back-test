@@ -5835,6 +5835,36 @@
       "source_path": "learn-m365-pr/modules/m365-security-monitor-sensitive-data/index.md",
       "redirect_url": "microsoft-365/compliance/microsoft-365-compliance-center",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-sensitivity-labels/define-sensitivity-labels.md",
+      "redirect_url": "microsoft-365/compliance/get-started-with-sensitivity-labels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-sensitivity-labels/introduction.md",
+      "redirect_url": "microsoft-365/compliance/get-started-with-sensitivity-labels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-sensitivity-labels/protection-settings.md",
+      "redirect_url": "microsoft-365/compliance/get-started-with-sensitivity-labels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-sensitivity-labels/summary-knowledge-check.md",
+      "redirect_url": "microsoft-365/compliance/get-started-with-sensitivity-labels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-sensitivity-labels/use-sensitivity-labels.md",
+      "redirect_url": "microsoft-365/compliance/get-started-with-sensitivity-labels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-sensitivity-labels/index.md",
+      "redirect_url": "microsoft-365/compliance/get-started-with-sensitivity-labels",
+      "redirect_document_id": false
     }
   ]
 }
