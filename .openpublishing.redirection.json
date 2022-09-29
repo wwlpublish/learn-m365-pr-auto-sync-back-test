@@ -5520,6 +5520,36 @@
       "source_path": "learn-m365-pr/modules/m365-data-loss-prevention/using-reports-validate-dlp-policy-data.md",
       "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-detect-respond-security-issues-defender-endpoint/index.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-endpoint-detection-response",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-detect-respond-security-issues-defender-endpoint/introduction.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-endpoint-detection-response",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-detect-respond-security-issues-defender-endpoint/knowledge-check.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-endpoint-detection-response",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-detect-respond-security-issues-defender-endpoint/summary.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-endpoint-detection-response",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-detect-respond-security-issues-defender-endpoint/take-response-actions.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-endpoint-detection-response",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-detect-respond-security-issues-defender-endpoint/use-alerts-incidents-queues.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-endpoint-detection-response",
+      "redirect_document_id": false
     }
   ]
 }
