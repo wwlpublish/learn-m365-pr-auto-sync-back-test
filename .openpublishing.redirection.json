@@ -5750,6 +5750,31 @@
       "source_path": "learn-m365-pr/modules/m365-security-management-center/index.md",
       "redirect_url": "microsoft-365/security/defender-business/mdb-get-started",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/attack-surface-reduction.md",
+      "redirect_url": "learn-m365-pr/modules/explore-microsoft-defender/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/introduction.md",
+      "redirect_url": "learn-m365-pr/modules/explore-microsoft-defender/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/next-gen-protection.md",
+      "redirect_url": "learn-m365-pr/modules/explore-microsoft-defender/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/summary-knowledge-check.md",
+      "redirect_url": "learn-m365-pr/modules/explore-microsoft-defender/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/index.md",
+      "redirect_url": "learn-m365-pr/modules/explore-microsoft-defender/index.md",
+      "redirect_document_id": false
     }
   ]
 }
