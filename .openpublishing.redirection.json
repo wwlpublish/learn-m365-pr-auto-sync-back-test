@@ -5815,6 +5815,26 @@
       "source_path": "learn-m365-pr/modules/m365-security-management-secure-score/index.md",
       "redirect_url": "microsoft-365/security/defender-business/mdb-get-started",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-monitor-sensitive-data/introduction.md",
+      "redirect_url": "microsoft-365/compliance/microsoft-365-compliance-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-monitor-sensitive-data/monitor-sensitive-data.md",
+      "redirect_url": "microsoft-365/compliance/microsoft-365-compliance-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-monitor-sensitive-data/summary-knowledge-check.md",
+      "redirect_url": "microsoft-365/compliance/microsoft-365-compliance-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-monitor-sensitive-data/index.md",
+      "redirect_url": "microsoft-365/compliance/microsoft-365-compliance-center",
+      "redirect_document_id": false
     }
   ]
 }
