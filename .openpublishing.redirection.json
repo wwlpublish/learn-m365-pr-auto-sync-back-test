@@ -5369,6 +5369,36 @@
       "source_path": "learn-m365-pr/modules/defender-office-365-explore/index.md",
       "redirect_url": "/microsoft-365/security/office-365-security/preset-security-policies",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-self-healing/automated-investigation-response.md",
+      "redirect_url": "/microsoft-365/security/defender/m365d-autoir",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-self-healing/automated-self-healing.md",
+      "redirect_url": "/microsoft-365/security/defender/m365d-autoir",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-self-healing/index.md",
+      "redirect_url": "/microsoft-365/security/defender/m365d-autoir",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-self-healing/introduction.md",
+      "redirect_url": "/microsoft-365/security/defender/m365d-autoir",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-self-healing/knowledge-check.md",
+      "redirect_url": "/microsoft-365/security/defender/m365d-autoir",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-self-healing/summary.md",
+      "redirect_url": "/microsoft-365/security/defender/m365d-autoir",
+      "redirect_document_id": false
     }
   ]
 }
