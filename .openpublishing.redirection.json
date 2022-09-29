@@ -5618,37 +5618,37 @@
     },
     {
       "source_path": "learn-m365-pr/modules/m365-get-started-defender-endpoint/introduction.md",
-      "redirect_url": "microsoft-365/security/defender-endpoint",
+      "redirect_url": "microsoft-365/security/defender-endpoint/onboard-configure",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-get-started-defender-endpoint/knowledge-check.md",
-      "redirect_url": "microsoft-365/security/defender-endpoint",
+      "redirect_url": "microsoft-365/security/defender-endpoint/onboard-configure",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-get-started-defender-endpoint/plan.md",
-      "redirect_url": "microsoft-365/security/defender-endpoint",
+      "redirect_url": "microsoft-365/security/defender-endpoint/onboard-configure",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-get-started-defender-endpoint/prepare.md",
-      "redirect_url": "microsoft-365/security/defender-endpoint",
+      "redirect_url": "microsoft-365/security/defender-endpoint/onboard-configure",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-get-started-defender-endpoint/set-up-onboard-devices.md",
-      "redirect_url": "microsoft-365/security/defender-endpoint",
+      "redirect_url": "microsoft-365/security/defender-endpoint/onboard-configure",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-get-started-defender-endpoint/summary.md",
-      "redirect_url": "microsoft-365/security/defender-endpoint",
+      "redirect_url": "microsoft-365/security/defender-endpoint/onboard-configure",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-get-started-defender-endpoint/index.md",
-      "redirect_url": "microsoft-365/security/defender-endpoint",
+      "redirect_url": "microsoft-365/security/defender-endpoint/onboard-configure",
       "redirect_document_id": false
     }
   ]
