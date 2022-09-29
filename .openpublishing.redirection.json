@@ -5399,6 +5399,36 @@
       "source_path": "learn-m365-pr/modules/defender-self-healing/summary.md",
       "redirect_url": "/microsoft-365/security/defender/m365d-autoir",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-apply-next-generation-protection/behavioral-blocking-containment.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint/next-generation-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-apply-next-generation-protection/index.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint/next-generation-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-apply-next-generation-protection/intelligent-protections.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint/next-generation-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-apply-next-generation-protection/introduction.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint/next-generation-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-apply-next-generation-protection/knowledge-check.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint/next-generation-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-apply-next-generation-protection/summary.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint/next-generation-protection",
+      "redirect_document_id": false
     }
   ]
 }
