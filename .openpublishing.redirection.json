@@ -5459,6 +5459,67 @@
       "source_path": "learn-m365-pr/modules/m365-automated-investigation-remediation-defender-endpoint/summary.md",
       "redirect_url": "/microsoft-365/security/defender-endpoint/automated-investigations",
       "redirect_document_id": false
+    },
+
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention/create-new-dlp-policy-with-microsoft-teams.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention/customize-tool-tip-policy.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention/describe-dlp-policy.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention/dlp-exercise.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention/index.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention/introduction.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention/knowledge-check.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention/prevent-external-access-sensitive-documents.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention/summary.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention/understand-dlp-policies-microsoft-teams.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention/understand-dlp-policies-work.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention/using-reports-validate-dlp-policy-data.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
     }
   ]
 }
