@@ -5882,7 +5882,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "learn-m365-pr/modules/m365-security-threat-define/what-constitutes-threat.md",
+      "source_path": "learn-m365-pr/modules/m365-security-threat-define/what-consitutes-threat.md",
       "redirect_url": "learn-m365-pr/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
       "redirect_document_id": false
     },
@@ -5907,7 +5907,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "learn-m365-pr/modules/m365-strengthen-your-security-posture/improve-security-posture-reduce-risks.md",
+      "source_path": "learn-m365-pr/modules/m365-strengthen-your-security-posture/improve-security-posture-reduce-risk.md",
       "redirect_url": "microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management",
       "redirect_document_id": false
     },
