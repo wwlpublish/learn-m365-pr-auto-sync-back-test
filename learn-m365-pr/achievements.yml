@@ -540,3 +540,8 @@ achievements:
   title: Protect enterprise information with Microsoft 365
   summary: Protect enterprise information with Microsoft 365
   iconUrl: /training/achievements/protect-enterprise-information-microsoft-365.svg
+- uid: learn-m365.compmgmt-understand-landscape.badges
+  type: badge
+  title: Understand today's compliance landscape
+  summary: Understand today's compliance landscape
+  iconUrl: /training/achievements/understand-todays-compliance-landscape-badge.svg
