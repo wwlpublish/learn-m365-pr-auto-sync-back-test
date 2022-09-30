@@ -4974,6 +4974,962 @@
       "source_path": "learn-m365-pr/m365/m365-compliance-information-transition-to-microsoft-information-protection/summary-knowledge-check.md",
       "redirect_url": "/training/modules/m365-compliance-information-governance/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/paths/compliance-discover/index.md",
+      "redirect_url": "/training/paths/describe-concepts-of-security-compliance-identity/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/paths/compmgmt/index.md",
+      "redirect_url": "/training/paths/describe-concepts-of-security-compliance-identity/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/paths/defender-detect-respond/index.md",
+      "redirect_url": "m365/defender",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/paths/defender-endpoint-fundamentals/index.md",
+      "redirect_url": "m365/defender",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/paths/defender-office-365-malicious-threats/index.md",
+      "redirect_url": "m365/defender",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/paths/m365-information-protection/index.md",
+      "redirect_url": "/training/paths/m365-compliance-information/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/paths/m365-security-management/index.md",
+      "redirect_url": "/m365/defender",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-audit/index.md",
+      "redirect_url": "/microsoft-365/compliance/advanced-audit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-audit/configure.md",
+      "redirect_url": "/microsoft-365/compliance/advanced-audit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-audit/create.md",
+      "redirect_url": "/microsoft-365/compliance/advanced-audit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-audit/investigate.md",
+      "redirect_url": "/microsoft-365/compliance/advanced-audit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-audit/monitor.md",
+      "redirect_url": "/microsoft-365/compliance/advanced-audit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-audit/overview.md",
+      "redirect_url": "/microsoft-365/compliance/advanced-audit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-audit/summary.md",
+      "redirect_url": "/microsoft-365/compliance/advanced-audit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-audit/knowledge-check.md",
+      "redirect_url": "/microsoft-365/compliance/advanced-audit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-advanced-hunting/index.md",
+      "redirect_url": "/microsoft-365/security/defender/advanced-hunting-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-advanced-hunting/custom-detections.md",
+      "redirect_url": "/microsoft-365/security/defender/advanced-hunting-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-advanced-hunting/introduction.md",
+      "redirect_url": "/microsoft-365/security/defender/advanced-hunting-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-advanced-hunting/kusto.md",
+      "redirect_url": "/microsoft-365/security/defender/advanced-hunting-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-advanced-hunting/schema.md",
+      "redirect_url": "/microsoft-365/security/defender/advanced-hunting-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-advanced-hunting/summary.md",
+      "redirect_url": "/microsoft-365/security/defender/advanced-hunting-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-advanced-hunting/knowledge-check.md",
+      "redirect_url": "/microsoft-365/security/defender/advanced-hunting-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-ediscovery/add-custodians.md",
+      "redirect_url": "/microsoft-365/compliance/overview-ediscovery-20",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-ediscovery/add-data.md",
+      "redirect_url": "/microsoft-365/compliance/overview-ediscovery-20",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-ediscovery/analyze-data.md",
+      "redirect_url": "/microsoft-365/compliance/overview-ediscovery-20",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-ediscovery/collect-process-data.md",
+      "redirect_url": "/microsoft-365/compliance/overview-ediscovery-20",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-ediscovery/export-data.md",
+      "redirect_url": "/microsoft-365/compliance/overview-ediscovery-20",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-ediscovery/index.md",
+      "redirect_url": "/microsoft-365/compliance/overview-ediscovery-20",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-ediscovery/introduction.md",
+      "redirect_url": "/microsoft-365/compliance/overview-ediscovery-20",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-ediscovery/knowledge-check.md",
+      "redirect_url": "/microsoft-365/compliance/overview-ediscovery-20",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-ediscovery/work-review-sets.md",
+      "redirect_url": "/microsoft-365/compliance/overview-ediscovery-20",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-ediscovery/manage.md",
+      "redirect_url": "/microsoft-365/compliance/overview-ediscovery-20",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/advanced-ediscovery/summary.md",
+      "redirect_url": "/microsoft-365/compliance/overview-ediscovery-20",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/achieve-compliance.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/align-requirements.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/configure-permissions.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/create-assessments.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/identify-solutions.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/index.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/introduction.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/knowledge-check.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/review-dashboard.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/simplifies-compliance.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/summary.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-explore-compliance/track-adherence.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-learn-concepts/apply-model.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-learn-concepts/assess-score.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-learn-concepts/define-terms.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-learn-concepts/explain-model.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-learn-concepts/index.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-learn-concepts/introduction.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-learn-concepts/knowledge-check.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-learn-concepts/summary.md",
+      "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-enable/index.md",
+      "redirect_url": "/microsoft-365/security/defender/get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-enable/introduction.md",
+      "redirect_url": "/microsoft-365/security/defender/get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-enable/knowledge-check.md",
+      "redirect_url": "/microsoft-365/security/defender/get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-enable/manage-access.md",
+      "redirect_url": "/microsoft-365/security/defender/get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-enable/roll-out.md",
+      "redirect_url": "/microsoft-365/security/defender/get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-enable/summary.md",
+      "redirect_url": "/microsoft-365/security/defender/get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-investigate-incidents/classification-incident-alerts.md",
+      "redirect_url": "/microsoft-365/security/defender/investigate-incidents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-investigate-incidents/incident-notifications.md",
+      "redirect_url": "/microsoft-365/security/defender/investigate-incidents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-investigate-incidents/index.md",
+      "redirect_url": "/microsoft-365/security/defender/investigate-incidents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-investigate-incidents/introduction.md",
+      "redirect_url": "/microsoft-365/security/defender/investigate-incidents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-investigate-incidents/knowledge-check.md",
+      "redirect_url": "/microsoft-365/security/defender/investigate-incidents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-investigate-incidents/summary.md",
+      "redirect_url": "/microsoft-365/security/defender/investigate-incidents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-investigate-incidents/working-incidents.md",
+      "redirect_url": "/microsoft-365/security/defender/investigate-incidents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-evaluate/configuration-analyzer.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-evaluate/evaluation-mode.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-evaluate/index.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-evaluate/introduction.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-evaluate/knowledge-check.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-evaluate/summary.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-explore/introduction.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/preset-security-policies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-explore/preset-policies-overrides.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/preset-security-policies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-explore/protect-against-threats.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/preset-security-policies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-explore/reporting-messages-files-microsoft.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/preset-security-policies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-explore/summary.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/preset-security-policies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-explore/knowledge-check.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/preset-security-policies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-office-365-explore/index.md",
+      "redirect_url": "/microsoft-365/security/office-365-security/preset-security-policies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-self-healing/automated-investigation-response.md",
+      "redirect_url": "/microsoft-365/security/defender/m365d-autoir",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-self-healing/automated-self-healing.md",
+      "redirect_url": "/microsoft-365/security/defender/m365d-autoir",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-self-healing/index.md",
+      "redirect_url": "/microsoft-365/security/defender/m365d-autoir",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-self-healing/introduction.md",
+      "redirect_url": "/microsoft-365/security/defender/m365d-autoir",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-self-healing/knowledge-check.md",
+      "redirect_url": "/microsoft-365/security/defender/m365d-autoir",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/defender-self-healing/summary.md",
+      "redirect_url": "/microsoft-365/security/defender/m365d-autoir",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-apply-next-generation-protection/behavioral-blocking-containment.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint/next-generation-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-apply-next-generation-protection/index.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint/next-generation-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-apply-next-generation-protection/intelligent-protections.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint/next-generation-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-apply-next-generation-protection/introduction.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint/next-generation-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-apply-next-generation-protection/knowledge-check.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint/next-generation-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-apply-next-generation-protection/summary.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint/next-generation-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-automated-investigation-remediation-defender-endpoint/get-overview-automated-investigation-remediation.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint/automated-investigations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-automated-investigation-remediation-defender-endpoint/index.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint/automated-investigations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-automated-investigation-remediation-defender-endpoint/introduction.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint/automated-investigations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-automated-investigation-remediation-defender-endpoint/knowledge-check.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint/automated-investigations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-automated-investigation-remediation-defender-endpoint/review-remediation-investigation-results.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint/automated-investigations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-automated-investigation-remediation-defender-endpoint/summary.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint/automated-investigations",
+      "redirect_document_id": false
+    },
+
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//create-new-dlp-policy-with-microsoft-teams.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//customize-tool-tip-policy.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//describe-dlp-policy.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//dlp-exercise.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//index.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//introduction.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//knowledge-check.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//prevent-external-access-sensitive-documents.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//summary.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//understand-dlp-policies-microsoft-teams.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//understand-dlp-policies-work.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//using-reports-validate-dlp-policy-data.md",
+      "redirect_url": "learn-m365-pr/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-detect-respond-security-issues-defender-endpoint/index.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-endpoint-detection-response",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-detect-respond-security-issues-defender-endpoint/introduction.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-endpoint-detection-response",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-detect-respond-security-issues-defender-endpoint/knowledge-check.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-endpoint-detection-response",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-detect-respond-security-issues-defender-endpoint/summary.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-endpoint-detection-response",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-detect-respond-security-issues-defender-endpoint/take-response-actions.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-endpoint-detection-response",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-detect-respond-security-issues-defender-endpoint/use-alerts-incidents-queues.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-endpoint-detection-response",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-evaluate-endpoint-security/introduction.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/evaluation-lab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-evaluate-endpoint-security/summary.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/evaluation-lab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-evaluate-endpoint-security/understand-evaluation-lab.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/evaluation-lab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-evaluate-endpoint-security/use-evaluation-lab.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/evaluation-lab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-evaluate-endpoint-security/knowledge-check.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/evaluation-lab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-evaluate-endpoint-security/index.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/evaluation-lab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-gain-insights-reporting-defender-endpoint/introduction.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-gain-insights-reporting-defender-endpoint/summary.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-gain-insights-reporting-defender-endpoint/track-threats-analytics.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-gain-insights-reporting-defender-endpoint/use-custom-reports.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-gain-insights-reporting-defender-endpoint/use-threat-protection-vulnerabilities-health-reports.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-gain-insights-reporting-defender-endpoint/knowledge-check.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-gain-insights-reporting-defender-endpoint/index.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-get-started-defender-endpoint/introduction.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/onboard-configure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-get-started-defender-endpoint/knowledge-check.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/onboard-configure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-get-started-defender-endpoint/plan.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/onboard-configure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-get-started-defender-endpoint/prepare.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/onboard-configure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-get-started-defender-endpoint/set-up-onboard-devices.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/onboard-configure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-get-started-defender-endpoint/summary.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/onboard-configure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-get-started-defender-endpoint/index.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/onboard-configure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-reduce-potential-attack-areas/enable-attack-surface-reduction-rules.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-attack-surface-reduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-reduce-potential-attack-areas/introduction.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-attack-surface-reduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-reduce-potential-attack-areas/knowledge-check.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-attack-surface-reduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-reduce-potential-attack-areas/minimize-potential-attack-areas.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-attack-surface-reduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-reduce-potential-attack-areas/summary.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-attack-surface-reduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-reduce-potential-attack-areas/index.md",
+      "redirect_url": "microsoft-365/security/defender-endpoint/overview-attack-surface-reduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-digital-estate/classification-user-experience.md",
+      "redirect_url": "microsoft-365/compliance/information-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-digital-estate/growing-digital-estate.md",
+      "redirect_url": "microsoft-365/compliance/information-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-digital-estate/introduction.md",
+      "redirect_url": "microsoft-365/compliance/information-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-digital-estate/summary-knowledge-check.md",
+      "redirect_url": "microsoft-365/compliance/information-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-digital-estate/your-classification-journey.md",
+      "redirect_url": "microsoft-365/compliance/information-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-digital-estate/index.md",
+      "redirect_url": "microsoft-365/compliance/information-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-info-overview/info-protection-lifecycle.md",
+      "redirect_url": "microsoft-365/compliance/information-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-info-overview/introduction.md",
+      "redirect_url": "microsoft-365/compliance/information-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-info-overview/summary-knowledge-check.md",
+      "redirect_url": "microsoft-365/compliance/information-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-info-overview/index.md",
+      "redirect_url": "microsoft-365/compliance/information-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-center/introduction.md",
+      "redirect_url": "microsoft-365/security/defender-business/mdb-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-center/m365-security-center.md",
+      "redirect_url": "microsoft-365/security/defender-business/mdb-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-center/summary-knowledge-check.md",
+      "redirect_url": "microsoft-365/security/defender-business/mdb-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-center/index.md",
+      "redirect_url": "microsoft-365/security/defender-business/mdb-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/attack-surface-reduction.md",
+      "redirect_url": "learn-m365-pr/modules/explore-microsoft-defender/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/introduction.md",
+      "redirect_url": "learn-m365-pr/modules/explore-microsoft-defender/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/next-gen-protection.md",
+      "redirect_url": "learn-m365-pr/modules/explore-microsoft-defender/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/summary-knowledge-check.md",
+      "redirect_url": "learn-m365-pr/modules/explore-microsoft-defender/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/index.md",
+      "redirect_url": "learn-m365-pr/modules/explore-microsoft-defender/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-mail/atp-policy-examples.md",
+      "redirect_url": "learn-m365-pr/modules/defender-office-365-introduction/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-mail/introduction.md",
+      "redirect_url": "learn-m365-pr/modules/defender-office-365-introduction/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-mail/summary-knowledge-check.md",
+      "redirect_url": "learn-m365-pr/modules/defender-office-365-introduction/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-mail/index.md",
+      "redirect_url": "learn-m365-pr/modules/defender-office-365-introduction/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-secure-score/how-secure-score-works.md",
+      "redirect_url": "microsoft-365/security/defender-business/mdb-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-secure-score/introduction.md",
+      "redirect_url": "microsoft-365/security/defender-business/mdb-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-secure-score/summary-knowledge-check.md",
+      "redirect_url": "microsoft-365/security/defender-business/mdb-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-management-secure-score/index.md",
+      "redirect_url": "microsoft-365/security/defender-business/mdb-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-monitor-sensitive-data/introduction.md",
+      "redirect_url": "microsoft-365/compliance/microsoft-365-compliance-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-monitor-sensitive-data/monitor-sensitive-data.md",
+      "redirect_url": "microsoft-365/compliance/microsoft-365-compliance-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-monitor-sensitive-data/summary-knowledge-check.md",
+      "redirect_url": "microsoft-365/compliance/microsoft-365-compliance-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-monitor-sensitive-data/index.md",
+      "redirect_url": "microsoft-365/compliance/microsoft-365-compliance-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-sensitivity-labels/define-sensitivity-labels.md",
+      "redirect_url": "microsoft-365/compliance/get-started-with-sensitivity-labels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-sensitivity-labels/introduction.md",
+      "redirect_url": "microsoft-365/compliance/get-started-with-sensitivity-labels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-sensitivity-labels/protection-settings.md",
+      "redirect_url": "microsoft-365/compliance/get-started-with-sensitivity-labels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-sensitivity-labels/summary-knowledge-check.md",
+      "redirect_url": "microsoft-365/compliance/get-started-with-sensitivity-labels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-sensitivity-labels/use-sensitivity-labels.md",
+      "redirect_url": "microsoft-365/compliance/get-started-with-sensitivity-labels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-sensitivity-labels/index.md",
+      "redirect_url": "microsoft-365/compliance/get-started-with-sensitivity-labels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-threat-define/introduction.md",
+      "redirect_url": "learn-m365-pr/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-threat-define/landscape-evolving.md",
+      "redirect_url": "learn-m365-pr/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-threat-define/summary-knowledge-check.md",
+      "redirect_url": "learn-m365-pr/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-threat-define/what-consitutes-threat.md",
+      "redirect_url": "learn-m365-pr/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-security-threat-define/index.md",
+      "redirect_url": "learn-m365-pr/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-strengthen-your-security-posture/assess-your-security-posture.md",
+      "redirect_url": "microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-strengthen-your-security-posture/get-overview-threat-management.md",
+      "redirect_url": "microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-strengthen-your-security-posture/identify-vulnerabilities-devices.md",
+      "redirect_url": "microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-strengthen-your-security-posture/improve-security-posture-reduce-risk.md",
+      "redirect_url": "microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-strengthen-your-security-posture/introduction.md",
+      "redirect_url": "microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-strengthen-your-security-posture/knowledge-check.md",
+      "redirect_url": "microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-strengthen-your-security-posture/summary.md",
+      "redirect_url": "microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-strengthen-your-security-posture/index.md",
+      "redirect_url": "microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management",
+      "redirect_document_id": false
     }
   ]
 }
