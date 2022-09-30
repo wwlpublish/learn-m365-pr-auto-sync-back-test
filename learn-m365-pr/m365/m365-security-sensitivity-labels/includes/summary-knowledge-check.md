@@ -1,1 +1,0 @@
-Sensitivity labels help classify and protect your sensitive content while allowing for end-user productivity and collaboration. By creating sensitivity labels and corresponding protection levels, you can help end users understand how to protect their data according to business standards.

@@ -1,1 +1,0 @@
-Organizational data governance and control has shifted from legal to direct IT involvement. By creating a series of standard end-user classification requirements and processes, IT and legal can help ensure data meets business standards and regulations.
