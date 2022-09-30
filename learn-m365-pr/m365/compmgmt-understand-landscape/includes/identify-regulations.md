@@ -1,6 +1,0 @@
-Not only is the amount of data IT must manage exploding, regulations on how that data can and should be handled are also increasing. The constantly evolving regulations having to do with privacy are probably the most visible to those in professions that do not involve compliance. Collecting customer and citizen data is often an integral part of how public and private sector organizations function. While there has been progress over the last few years, the challenge of maintaining and protecting personal data continues. Regulations are creating a need for the responsible usage of personal data, and the stakes are high. Not complying with regulations can result in significant fines and reduced credibility with regulators, customers, and citizens.
-
-> [!div class="centered"]
-> :::image type="complex" source="../media/regulations-are-increasing.png" alt-text="Slide titled Data regulations are increasing around the world." lightbox="../media/regulations-are-increasing.png" border="false":::
->	 The slide lists various regulatory acts from across the globe including GDPR from the EU, the Personal Information Protection and Electronic Documents Act from Canada, and the California Consumer Privacy Act among many others.
-> :::image-end:::
