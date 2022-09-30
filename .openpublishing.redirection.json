@@ -5930,6 +5930,56 @@
       "source_path": "learn-m365-pr/modules/m365-strengthen-your-security-posture/index.md",
       "redirect_url": "microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-understand-landscape/determine-cases.md",
+      "redirect_url": "microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-understand-landscape/discover-challenges.md",
+      "redirect_url": "microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-understand-landscape/harness-explosion.md",
+      "redirect_url": "microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-understand-landscape/identify-regulations.md",
+      "redirect_url": "microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-understand-landscape/introduction.md",
+      "redirect_url": "microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-understand-landscape/knowledge-check.md",
+      "redirect_url": "microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-understand-landscape/manage-challenges.md",
+      "redirect_url": "microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-understand-landscape/simplify-compliance.md",
+      "redirect_url": "microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-understand-landscape/summary.md",
+      "redirect_url": "microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compmgmt-understand-landscape/index.md",
+      "redirect_url": "microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
     }
   ]
 }
