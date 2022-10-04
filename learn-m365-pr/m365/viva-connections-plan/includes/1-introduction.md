@@ -37,7 +37,4 @@ use Viva Connections to support the following roles:
 View a simplified Lamna Healthcare org chart below:
 :::image type="content" source="../media/lamna-org-chart-white-bg.png" alt-text="Diagram of a simplified Lamna healthcare org chart." :::
 
-Your first task is to build a team of stakeholders that represent these
-groups. Stakeholders will help ensure the needs of everyone are
-represented and will help prioritize which scenarios should be supported
-by Viva Connections.
+Your first task is to build a team of stakeholders that represent these groups. Stakeholders will help ensure the needs of everyone are represented and will help prioritize which scenarios should be supported by Viva Connections.
