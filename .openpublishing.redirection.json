@@ -5983,32 +5983,32 @@
     },
     {
       "source_path": "learn-m365-pr/modules/m365-use-automated-investigation-remediation-defender-endpoint/index.md",
-      "redirect_url": "/microsoft-365/security/defender-endpoint/automated-investigations",
+      "redirect_url": "/microsoft-365/security/defender-endpoint",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-use-automated-investigation-remediation-defender-endpoint/introduction.md",
-      "redirect_url": "/microsoft-365/security/defender-endpoint/automated-investigations",
+      "redirect_url": "/microsoft-365/security/defender-endpoint",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-use-automated-investigation-remediation-defender-endpoint/get-overview-automated-investigation-remediation.md",
-      "redirect_url": "/microsoft-365/security/defender-endpoint/automated-investigations",
+      "redirect_url": "/microsoft-365/security/defender-endpoint",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-use-automated-investigation-remediation-defender-endpoint/review-remediation-investigation-results.md",
-      "redirect_url": "/microsoft-365/security/defender-endpoint/automated-investigations",
+      "redirect_url": "/microsoft-365/security/defender-endpoint",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-use-automated-investigation-remediation-defender-endpoint/knowledge-check.md",
-      "redirect_url": "/microsoft-365/security/defender-endpoint/automated-investigations",
+      "redirect_url": "/microsoft-365/security/defender-endpoint",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-use-automated-investigation-remediation-defender-endpoint/summary.md",
-      "redirect_url": "/microsoft-365/security/defender-endpoint/automated-investigations",
+      "redirect_url": "/microsoft-365/security/defender-endpoint",
       "redirect_document_id": false
     }
   ]
