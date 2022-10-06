@@ -5463,62 +5463,62 @@
 
     {
       "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//create-new-dlp-policy-with-microsoft-teams.md",
-      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//customize-tool-tip-policy.md",
-      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//describe-dlp-policy.md",
-      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//dlp-exercise.md",
-      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//index.md",
-      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//introduction.md",
-      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//knowledge-check.md",
-      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//prevent-external-access-sensitive-documents.md",
-      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//summary.md",
-      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//understand-dlp-policies-microsoft-teams.md",
-      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//understand-dlp-policies-work.md",
-      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-data-loss-prevention-microsoft-teams//using-reports-validate-dlp-policy-data.md",
-      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/index.md",
+      "redirect_url": "/training/modules/implement-compliance-for-microsoft-teams/",
       "redirect_document_id": false
     },
     {
@@ -5753,47 +5753,47 @@
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/attack-surface-reduction.md",
-      "redirect_url": "/training/modules/explore-microsoft-defender/index.md",
+      "redirect_url": "/training/modules/explore-microsoft-defender/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/introduction.md",
-      "redirect_url": "/training/modules/explore-microsoft-defender/index.md",
+      "redirect_url": "/training/modules/explore-microsoft-defender/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/next-gen-protection.md",
-      "redirect_url": "/training/modules/explore-microsoft-defender/index.md",
+      "redirect_url": "/training/modules/explore-microsoft-defender/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/summary-knowledge-check.md",
-      "redirect_url": "/training/modules/explore-microsoft-defender/index.md",
+      "redirect_url": "/training/modules/explore-microsoft-defender/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/index.md",
-      "redirect_url": "/training/modules/explore-microsoft-defender/index.md",
+      "redirect_url": "/training/modules/explore-microsoft-defender/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-management-mail/atp-policy-examples.md",
-      "redirect_url": "/training/modules/defender-office-365-introduction/index.md",
+      "redirect_url": "/training/modules/defender-office-365-introduction/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-management-mail/introduction.md",
-      "redirect_url": "/training/modules/defender-office-365-introduction/index.md",
+      "redirect_url": "/training/modules/defender-office-365-introduction/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-management-mail/summary-knowledge-check.md",
-      "redirect_url": "/training/modules/defender-office-365-introduction/index.md",
+      "redirect_url": "/training/modules/defender-office-365-introduction/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-management-mail/index.md",
-      "redirect_url": "/training/modules/defender-office-365-introduction/index.md",
+      "redirect_url": "/training/modules/defender-office-365-introduction/",
       "redirect_document_id": false
     },
     {
@@ -5868,27 +5868,27 @@
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-threat-define/introduction.md",
-      "redirect_url": "/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
+      "redirect_url": "/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-threat-define/landscape-evolving.md",
-      "redirect_url": "/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
+      "redirect_url": "/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-threat-define/summary-knowledge-check.md",
-      "redirect_url": "/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
+      "redirect_url": "/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-threat-define/what-consitutes-threat.md",
-      "redirect_url": "/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
+      "redirect_url": "/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-threat-define/index.md",
-      "redirect_url": "/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
+      "redirect_url": "/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations",
       "redirect_document_id": false
     },
     {
@@ -5979,6 +5979,36 @@
     {
       "source_path": "learn-m365-pr/modules/compmgmt-understand-landscape/index.md",
       "redirect_url": "/microsoft-365/compliance/compliance-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-use-automated-investigation-remediation-defender-endpoint/index.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-use-automated-investigation-remediation-defender-endpoint/introduction.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-use-automated-investigation-remediation-defender-endpoint/get-overview-automated-investigation-remediation.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-use-automated-investigation-remediation-defender-endpoint/review-remediation-investigation-results.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-use-automated-investigation-remediation-defender-endpoint/knowledge-check.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/modules/m365-use-automated-investigation-remediation-defender-endpoint/summary.md",
+      "redirect_url": "/microsoft-365/security/defender-endpoint",
       "redirect_document_id": false
     }
   ]
