@@ -11,14 +11,14 @@ Before a user can use a Cloud PC, you must assign a Windows 365 license to that 
 5.  On the Assign license page, select **Users and groups** to open a list of users and groups.
 6.  Select **Assign** at the bottom of the page.
 
-### Create an on-premises network connection
+### Create an Azure network connection
 
-An on-premises network connection is required so that Cloud PCs can join the organization's domain and access on-premises resources. You'll be connecting to a virtual network configured in Azure that has been set up for connectivity with the on-premises domain controller and network. Work with your organization's Azure administrator to identify this.
+An Azure network connection (ANC) is required so that Cloud PCs can join the organization's domain and access on-premises resources. You'll be connecting to a virtual network configured in Azure that has been set up for connectivity with the on-premises domain controller and network. Work with your organization's Azure administrator to identify this.
 
-To create an on-premises network connection:
+To create an Azure network connection:
 
-1.  Sign in to the Microsoft Endpoint Manager admin center with an account that is an Intune Administrator in Azure AD and has owner permissions to the virtual network in the Azure subscription.
-2.  Select **Devices** > **Windows 365** (under **Provisioning**) > **On-premises network connection** > **Create connection**.
+1.  Sign in to the **Microsoft Endpoint Manager admin center** with an account that is an Intune Administrator in Azure AD and has owner permissions to the virtual network in the Azure subscription.
+2.  Select **Devices** > **Windows 365** (under **Provisioning**) > **Azure network connection** > **Create connection**.
 3.  On the **Network details** page, enter a **Name** for the new connection. The connection name must be unique within the customer tenant.
     
     :::image type="content" source="../media/connection-name-c4ff26d6.png" alt-text="Screenshot of connection name":::
@@ -29,6 +29,10 @@ To create an on-premises network connection:
 7.  Select **Next**.
 8.  On the **Review + Create** page, select **Create**.
 
+### Learn More
+-  [Create Azure network connection](https://learn.microsoft.com/en-us/windows-365/enterprise/create-azure-network-connection)
+-  [Edit Azure network connection](https://learn.microsoft.com/en-us/windows-365/enterprise/edit-azure-network-connection)
+-  [Delete Azure network connection](https://learn.microsoft.com/en-us/windows-365/enterprise/delete-azure-network-connection)
 ### Configure a custom device image (optional)
 
 Windows 365 provides a built-in gallery of Windows Enterprise images accessible through the provisioning policy creation flow. These images are updated monthly with the latest security updates so that end users have a secure and seamless experience.
@@ -37,6 +41,8 @@ Windows 365 provides a built-in gallery of Windows Enterprise images accessible 
  -  Images with OS optimizations: These are Windows Enterprise images optimized for improved performance on virtualized environments and on lower end hardware configurations.
 
 As most device configurations are applied through configuration policies, these base images should be sufficient for many organizations. However, if a custom image is needed, you can create and upload up to 20 custom generalized images. The custom image must be added to your Azure subscription before it can be used with Windows 365. Once that's done, sign in to the Microsoft Endpoint Manager admin center, select **Devices** > **Windows 365** > **Device images** > **Add**. Select an image from the available list, and select **Add**.
+### Learn More
+-  [Add or delete custom device images](https://learn.microsoft.com/en-us/windows-365/enterprise/add-device-images)
 
 ### Create provisioning policies
 
@@ -57,6 +63,9 @@ Creating a provisioning policy requires the following steps:
 5.  Select **Next**.
 6.  On the **Assignments** page, choose **Select groups** > choose the groups you want this policy assigned to, choose **Select** and then **Next**.
 7.  On the **Review + create** page, select **Create**.
+
+### Learn More
+-   [Create provisioning policies](https://learn.microsoft.com/en-us/windows-365/enterprise/create-provisioning-policy)
 
 > [!NOTE]
 > It can take up to 60 minutes for the policy creation process to complete, depending on when the Azure AD connect sync last happened.

@@ -2,12 +2,12 @@ Windows 365 is a cloud-based service that automatically creates a new type of Wi
 
 Windows 365 is available in two editions:
 
- -  **Windows 365 Business**. This edition is made specifically for use in smaller companies (up to 300 seats) who want ready-to-use Cloud PCs with simple management options. There are no licensing prerequisites to set up Windows 365 Business. There are no dependencies on Azure or Active Directory. It's purchased through the Microsoft 365 admin center or the Windows 365 product site.
- -  **Windows 365 Enterprise**. This edition is for larger companies who want unlimited seats for creating Cloud PCs. It includes options to create custom Cloud PCs based on device images that you create, more management options, and full integration with Microsoft Endpoint Manager. It leverages Azure AD and AD DS domains.
+ -  **Windows 365 Business:** Windows 365 Business is made specifically for use in smaller companies (up to 300 seats) who want ready-to-use Cloud PCs with simple management options. There are no licensing prerequisites to set up Windows 365 Business. There are no dependencies on Azure or Active Directory. Purchases are made through the Microsoft 365 admin center or the Windows 365 product site.
+ -  **Windows 365 Enterprise:** Windows 365 Enterprise is for larger companies who want unlimited seats for creating Cloud PCs. It includes options to create custom Cloud PCs based on your created device images, more management options, and full integration with Microsoft Endpoint Manager. It leverages Azure AD and AD DS domains.
 
 ### Windows 365 versus Azure Virtual Desktop
 
-Windows 365 and Azure Virtual Desktop are both built on top of the same platform. On the backend, the functionality is essentially the same. They key difference is how they are provisioned and managed. The following table is a general comparison between the two solutions:
+Windows 365 and Azure Virtual Desktop are built on the same platform. On the backend, the functionality is essentially the same. The key difference is how they're provisioned and managed. The following table is a general comparison between the two solutions:
 
 :::row:::
   :::column:::
@@ -67,7 +67,7 @@ Windows 365 and Azure Virtual Desktop are both built on top of the same platform
 :::row-end:::
 
 
-While setting up AVD has more complexity, because the customer is managing the VMs, it provides the most flexibility. However, not all customers need the level of flexibility that AVD provides. In Windows 365, Microsoft manages the VMs, providing a solution that is relatively simple to set up, with enough flexibility for many organizations. An organization that prefers pooled desktops may deploy or continue to use AVD. Organizations that typically want to assign persistent cloud PCs to users may choose to deploy or migrate to Windows 365.
+While setting up AVD has more complexity, it provides the most flexibility because the customer is managing the VMs. However, not all customers need the level of flexibility that AVD provides. In Windows 365, Microsoft manages the VMs, providing a relatively simple solution with enough flexibility for many organizations. An organization that prefers pooled desktops may deploy or continue to use AVD. Organizations that typically want to assign persistent cloud PCs to users may choose to deploy or migrate to Windows 365.
 
 ### Access cloud PCs
 
