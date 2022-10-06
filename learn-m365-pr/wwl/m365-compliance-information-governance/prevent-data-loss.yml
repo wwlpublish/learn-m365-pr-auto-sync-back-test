@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-compliance-information-governance.prevent-data-loss
+title: Prevent data loss
+metadata:
+  title: Prevent data loss
+  description: Learn how Microsoft Purview information protection and data lifecycle management solutions help you protect and govern your data, throughout its lifecycle – wherever it lives, or wherever it travels. 
+  ms.date: 07/07/2021
+  author: riswinto
+  ms.author: riswinto
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+
+durationInMinutes: 3
+content: |
+  [!include[](includes/prevent-data-loss.md)]

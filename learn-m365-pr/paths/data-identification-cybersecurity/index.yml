@@ -30,9 +30,7 @@ modules:
 - learn.azure.classification-and-protection
 - learn.azure-security.configure-security-policies-to-manage-data
 - learn-m365.information-protection-microsoft-cloud-app-security
-#learn-m365.m365-compliance-information-transition-to-microsoft-information-protection
 - learn-m365.teams.protect-information
-- learn-m365-pr.dlp-for-teams-and-microsoft-365
 
 trophy: 
   uid: learn-m365.cybersecurity-data.trophy

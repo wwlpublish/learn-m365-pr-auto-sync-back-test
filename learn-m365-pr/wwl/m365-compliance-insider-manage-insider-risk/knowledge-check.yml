@@ -1,0 +1,41 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-compliance-insider-manage-insider-risk.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Microsoft Purview Insider Risk Management helps organizations address internal risks, such as IP theft, fraud, and sabotage. Learn about insider risk management and how Microsoft technologies can help you detect, investigate, and take action on risky activities in your organization. 
+  ms.date: 08/06/2021
+  author: kenMAG
+  ms.author: kelawson
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 2
+content: |
+ 
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "A healthcare employee left work with an unencrypted work laptop, which was stolen days later in a burglary. Data containing sensitive information for 100 patients is on the laptop. This is an example of which type of internal risk?  "
+      choices:
+      - content: "Regulatory compliance violation "
+        isCorrect: true
+        explanation: "If your business handles the personal, medical, sensitive, or classified data of individuals or government organizations, the law requires you to follow strict compliance regulations."
+      - content: "Sabotage "
+        isCorrect: false
+        explanation: "Sabotage includes acting with the intention to harm specific individuals, the organization, or the organization’s data systems or daily business operations. "
+      - content: "Data leak"
+        isCorrect: false
+        explanation: "There is a potential data leak situation here, however, there is an internal risk due to actions or non-actions before a leak might occur.  "
+               
+    - content: "Which one of the following apply to Microsoft Insider Risk Management policies and templates?"
+      choices:
+      - content: "Insider risk settings for **Privacy** and **Policy Indicators** can be configured to apply for a specific policy."
+        isCorrect: false
+        explanation: "Insider risk settings apply to all insider risk management policies regardless of the template chosen when creating a policy."
+      - content: "Microsoft Insider Risk Management policies and templates are for malicious intent violations. "
+        isCorrect: false
+        explanation: "What an organization decides to take action on is up to the organization, templates and policies are for the detection of any suspicious activity."
+      - content: "Each policy must have a template assigned in the policy creation wizard before the policy is created.  "
+        isCorrect: true
+        explanation: "Insider risk management templates are pre-defined policy conditions that define the types of risk indicators monitored by a policy. Each policy must have a template assigned before creation."

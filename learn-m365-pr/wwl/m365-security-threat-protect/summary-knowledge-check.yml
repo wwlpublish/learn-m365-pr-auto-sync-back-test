@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-threat-protect.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn how Microsoft Defender for Endpoint can help your organization stay secure. 
+  ms.date: 02/04/2021
+  author: kenMAG
+  ms.author: kelawson
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "What is required to deploy Microsoft Defender for Endpoint to Windows devices in your organization?"
+      choices:
+      - content: "Subscription to the Microsoft Defender for Endpoint online service."
+        isCorrect: true
+        explanation: "Correct! To deploy Microsoft Defender for Endpoint you require a subscription to the Microsoft Defender for Endpoint online service."
+      - content: "No action is required. Microsoft Defender for Endpoint is included in the Windows 10 operating system."
+        isCorrect: false
+        explanation: "Incorrect. To deploy Microsoft Defender for Endpoint you require a subscription to the service, as well as configuring the service."
+      - content: "License for Microsoft Intune."
+        isCorrect: false
+        explanation: "Incorrect. Microsoft Defender for Endpoint can be deployed using Microsoft Intune, but a license for Microsoft Intune is not a sufficient for using Microsoft Defender for Endpoint."
+  
+    - content: "Which of the following choices describes threat hunting using Microsoft Defender for Endpoint?"
+      choices:
+      - content: "You can proactively inspect events in your network using a powerful search and query tool."
+        isCorrect: true
+        explanation: "Correct! Microsoft Defender for Endpoint advanced threat hunting is a powerful search and query tool built on top of a query language that gives you flexibility."
+      - content: "Detecting and blocking apps that are considered unsafe but may not be detected as malware."
+        isCorrect: false
+        explanation: "Incorrect. This is an explanation of advanced protection provided by Windows Defender Antivirus."
+      - content: "Reduce vulnerabilities (attack surfaces) in your applications with intelligent rules that help stop malware."
+        isCorrect: false
+        explanation: "Incorrect. This is an explanation of attack surface reduction."
+
+    - content: "Which of the following is not a component of Microsoft Defender for Endpoint?"
+      choices:
+      - content: "Next generation protection"
+        isCorrect: false
+        explanation: "Incorrect. Threat and vulnerability management, attack surface reduction, next generation protection, endpoint detection and response, automated investigation and remediation are all components of Microsoft Defender for Endpoint."
+      - content: "Endpoint detection and response"
+        isCorrect: false
+        explanation: "Incorrect. Threat and vulnerability management, attack surface reduction, next generation protection, endpoint detection and response, automated investigation and remediation are all components of Microsoft Defender for Endpoint."
+      - content: "Cloud device management"
+        isCorrect: true
+        explanation: "Correct! Cloud device management is not a component of security administration of Microsoft Defender for Endpoint."

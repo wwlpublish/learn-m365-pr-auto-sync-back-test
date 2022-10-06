@@ -1,0 +1,78 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-compliance-insider-manage-insider-risk.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Microsoft Purview Insider Risk Management helps organizations address internal risks, such as IP theft, fraud, and sabotage. Learn about insider risk management and how Microsoft technologies can help you detect, investigate, and take action on risky activities in your organization. 
+  ms.date: 05/02/2022
+  author: kenMAG
+  ms.author: kelawson
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 6
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "If you want to define past and future review periods that are triggered after policy matches based on events and activities for the insider risk management policy templates, which policy setting do you select? "
+      choices:
+      - content: "Indicators"
+        isCorrect: false
+        explanation: "Each policy template is based on specific indicators (that can be turned off or on) that correspond to particular risk activities. Alerts are triggered by policies when users perform activities related to these indicators. "
+      - content: "Policy timeframes"
+        isCorrect: true
+        explanation: "Depending on the template, you select the timeframes available are activation window and past activity detection."
+      - content: "Intelligent detections"
+        isCorrect: false
+        explanation: "Intelligent detection settings help refine how the detection of risky activities is processed for alerts."
+
+    - content: "Configuring a Microsoft Human Resources (HR) data connector is a dependency for which insider risk management template?"
+      choices:
+      - content: "Departing employee's data theft template"
+        isCorrect: true
+        explanation: "If you configure a policy using the Departing employee data theft template, you'll need to configure a Microsoft 365 HR data connector so that you can import user and log data from 3rd-party risk management and human resources platforms. HR connectors allow you to pull in human resources data from CSV files, including user termination and last employment dates. "
+      - content: "Data leaks "
+        isCorrect: false
+        explanation: "If you configure a policy using the Data leaks template, you'll need to configure at least one data loss prevention (DLP) policy to use the full signal detection features of the policy template.  An HR data connector is not needed. "
+      - content: "Offensive language in email "
+        isCorrect: false
+        explanation: "There is no dependency on an HR data connector for the offensive language in email template. Detecting and taking action to prevent offensive and abusive behavior is a critical component of preventing risk. Built-in offensive language classifiers in Microsoft 365 can scan sent email messages from Exchange Online mailboxes in your organization for different types of compliance issues. "
+      
+    - content: "You create a new policy by stepping through the policy wizard and policy settings. Which of the following is optional when creating a new policy?"
+      choices:
+      - content: "The users or groups the policy will apply to"
+        isCorrect: false
+        explanation: "You must identify the users or groups or select all users and mail enabled groups. "
+      - content: "Alert indicators "
+        isCorrect: false
+        explanation: "Indicators are not optional and need to be enabled under Policy	settings before they can be selected when creating a policy.  "
+      - content: "Specify content to prioritize "
+        isCorrect: true
+        explanation: "This is optional, you can assign the sources to prioritize for risky user activity such as SharePoint sites. "
+               
+    - content: "You want to search for insider risk alerts that occurred in the past 30 days and are high severity risks. The easiest way to accomplish this is to do which of the following? "
+      choices:
+      - content: "From the Alerts dashboard search for “last 30 days.”"
+        isCorrect: false
+        explanation: "You can search for dates, status, time detected, and policy from the Alerts dashboard, but only one at a time. "
+      - content: "Click “Export” to download a CSV file with all alerts.  Import this into Excel and use the filter function."
+        isCorrect: false
+        explanation: "While this is an approach that could determine alerts in the last 30 days, this involves several steps and is not the “easiest” way to accomplish this."
+      - content: "From the Alerts dashboard, select the Filter control.  "
+        isCorrect: true
+        explanation: "You can filter alerts by one of more attributes including Status, Severity, Time detected, and Policy."
+
+    - content: "Which of the case actions opens a new eDiscovery (Premium) case in your Microsoft O365 investigation?"
+      choices:
+      - content: "Escalate for investigation "
+        isCorrect: true
+        explanation: "Escalate the case for employee investigation in situations where additional legal review is needed for the employee's risk activity. This escalation opens a new eDiscovery (Premium) case in your Microsoft 365 organization. eDiscovery (Premium) provides an end-to-end workflow to preserve, collect, review, analyze, and export content that's responsive to your organization's internal and external legal investigations. "
+      - content: "Send a notice "
+        isCorrect: false
+        explanation: "Sending a reminder notice to the employee via email is an effective method for documenting case review and action, as well as a method to remind employees of corporate policies or point them to refresher training.  "
+      - content: "Resolve the case "
+        isCorrect: false
+        explanation: "Resolving a case adds a resolution classification, changes the case status to Closed, and the resolution action reasons are automatically added to the case notes queue on the Case notes dashboard.  "
+      

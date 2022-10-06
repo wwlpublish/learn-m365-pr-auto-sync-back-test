@@ -1,0 +1,78 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-compliance-information-governance.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn how Microsoft Purview information protection and data lifecycle management solutions help you protect and govern your data, throughout its lifecycle – wherever it lives, or wherever it travels. 
+  ms.date: 05/09/2022
+  author: riswinto
+  ms.author: riswinto
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which of the following define what to do with data that has been classified?"
+      choices:
+      - content: "Sensitive information types"
+        isCorrect: false
+        explanation: "A sensitive information type is defined by a pattern that can be identified by a regular expression or function. One commonly recognized sensitive information type is a credit card number."
+      - content: "Labels"
+        isCorrect: false
+        explanation: "Labels can be thought of as a stamp you put on a document that goes everywhere the document goes, across apps, devices, and services. For example, your organization might create a label named *Confidential* to indicate data that should not be widely."
+      - content: "Policies"
+        isCorrect: true
+        explanation: "Policies define what to do with the data to which has been classified. For example, you can create a policy based on the *Confidential* sensitivity label. That label policy can do nothing more than mark a file as confidential, or it can encrypt files, add content marking, and control user access to specific sites based on that sensitivity label."
+
+    - content: "Governing your data is all about reducing risk. Which of the following Microsoft solutions for protecting your data is focused on controlling the data explosion, the amount of data being generated and how regulations keep changing?"
+      choices:
+      - content: "Automation at scale"
+        isCorrect: true
+        explanation: "Automation at scale helps you control the data explosion by automating and applying governance policies at the organizational level. Automation at scale applies governance policies without user intervention and reduces the amount of data that needs governing."
+      - content: "Streamlined administration "
+        isCorrect: false
+        explanation: "Managing a set of governance policies in SharePoint, another set in Exchange, and then another for each of your line of business systems is not productive and can be redundant. Microsoft centralized the administration of policies in the Microsoft Purview compliance portal and added native connectors to let you incorporate data outside Microsoft 365 to be governed by one set of policies."
+      - content: "Microsoft Purview Records Management"
+        isCorrect: false
+        explanation: "Microsoft Purview Records Management is for that special set of content within your organization, which needs to be immutable."
+
+    - content: "Information protection and governance is a dynamic process. It is continuous. If you are at the stage where the organization is asking why this particular data is a risk, which stage are you in the process?"
+      choices:
+      - content: "Know your data"
+        isCorrect: true
+        explanation: "You need a deep understanding of how much sensitive data exists and where it is stored before it can be protected and governed. This information is critical to assess your overall risk, which, helps you define your strategy for protecting and governing the data."
+      - content: "Protect your data"
+        isCorrect: false
+        explanation: "Once you know your data and mapped your data estate, you can take steps to protect it."
+      - content: "Govern your data"
+        isCorrect: false
+        explanation: "Governing your data is about keeping what you need and deleting what you don’t, to meet compliance requirements and reduce your overall risk landscape."
+      
+    - content: "Once you know your data and mapped your data estate, you can take steps to protect it. Which solution helps you discover, classify, and protect sensitive critical content throughout its lifecycle across your organizations? "
+      choices:
+      - content: "Microsoft data loss prevention solution"
+        isCorrect: false
+        explanation: "The Microsoft data loss prevention solution detects sensitive content as it is used and shared throughout your organization, in the cloud and on devices, and helps prevent accidental data loss. "
+      - content: "Microsoft Purview Data Lifecycle Management "
+        isCorrect: false
+        explanation: "Data Lifecycle Management manages your content lifecycle using solution to import, store, and classify business critical data. Governance policies can be configured to work automatically and applied organization-wide, if desired. For example, the system can be configured to delete obsolete or irrelevant data without user intervention, reducing the amount of data to govern. "
+      - content: "Microsoft Purview Information Protection"
+        isCorrect: true
+        explanation: "Customers typically want to apply some level of protection to the most sensitive information to prevent it from getting into the wrong hands. This solution helps you discover, classify, and protect sensitive and business critical content throughout its lifecycle across your organization."
+              
+    - content: "Governing your data is about keeping what you need and deleting what you do not. Which solution uses intelligent classification to automate and simplify the retention schedule for regulatory, legal, and business critical records in your organization?"
+      choices:
+      - content: "Microsoft Purview Data Lifecycle Management "
+        isCorrect: false
+        explanation: "Data Lifecycle Management manages your content lifecycle using solution to import, store, and classify business critical data. Governance policies can be configured to work automatically and applied organization-wide, if desired. For example, the system can be configured to delete obsolete or irrelevant data without user intervention, reducing the amount of data to govern."
+      - content: "Microsoft Purview Records Management "
+        isCorrect: true
+        explanation: "Microsoft Purview Records Management uses intelligent classification to automate and simplify the retention schedule for regulatory, legal, and business critical records in your organization. Governance policies can be configured to work automatically and applied organization-wide, if desired. For example, the system can be configured to delete obsolete or irrelevant data without user intervention, reducing the amount of data to govern."
+      - content: "Microsoft Purview Information Protection"
+        isCorrect: false
+        explanation: "Customers typically want to apply some level of protection to the most sensitive information to prevent it from getting into the wrong hands. This solution helps you discover, classify, and protect sensitive and business critical content throughout its lifecycle across your organization.  Question: Once you know your data and mapped your data estate, you can take steps to protect it. Which solution helps you discover, classify, and protect sensitive and business critical content throughout its lifecycle across your organization?"
+      

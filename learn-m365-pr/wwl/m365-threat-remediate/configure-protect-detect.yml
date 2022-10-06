@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-threat-remediate.configure-protect-detect
+title: Configure, protect, and detect
+metadata:
+  title: Configure, protect, and detect
+  description: Learn about the Microsoft Defender for Office 365 component of Microsoft 365 Defender. 
+  ms.date: 04/25/2022
+  author: kenMAG
+  ms.author: kelawson
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 28
+content: |
+  [!include[](includes/configure-protect-detect.md)]

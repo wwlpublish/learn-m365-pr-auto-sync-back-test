@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-threat-protect.introduction
+title: Introduction to Microsoft Defender for Endpoint
+metadata:
+  title: Introduction to Microsoft Defender for Endpoint
+  description: Learn how Microsoft Defender for Endpoint can help your organization stay secure. 
+  ms.date: 04/22/2022
+  author: kenMAG
+  ms.author: kelawson
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 14
+content: |
+  [!include[](includes/introduction.md)]

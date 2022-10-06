@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-threat-remediate.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn about the Microsoft Defender for Office 365 component of Microsoft 365 Defender.
+  ms.date: 07/16/2021
+  author: kenMAG
+  ms.author: kelawson
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "True or false? Microsoft Defender for Office 365 requires an agent to be deployed to all Windows 10 devices in your organization for the best protection."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Incorrect. Microsoft Defender for Office 365 is a cloud-based email filtering service that helps protect your organization. No agents are deployed."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct! Microsoft Defender for Office 365 is a cloud-based email filtering service that helps protect your organization. No agents are deployed."
+  
+    - content: "What describes Safe Attachments from Microsoft Defender for Office 365?"
+      choices:
+      - content: "Messages and attachments are routed to a special environment where Microsoft Defender for Office 365 uses a variety of machine learning and analysis techniques to detect malicious intent."
+        isCorrect: true
+        explanation: "Correct! Microsoft Defender for Office 365 Safe Attachments protect against unknown malware and viruses, and provide zero-day protection to safeguard your messaging system by rerouting messages and using machine learning to detect malicious intent."
+      - content: "Protects your users from malicious URLs in a message or in an Office document."
+        isCorrect: false
+        explanation: "Incorrect. This is an explanation of Safe Links in Microsoft Defender for Office 365. Microsoft Defender for Office 365 Safe Attachments protect against unknown malware and viruses, and provides zero-day protection to safeguard your messaging system by rerouting messages and using machine learning to detect malicious intent."
+      - content: "A powerful report that enables your Security Operations team to investigate and respond to threats effectively and efficiently."
+        isCorrect: false
+        explanation: "Incorrect. This is an explanation of Office 365 Threat Explorer. Microsoft Defender for Office 365 Safe Attachments protect against unknown malware and viruses, and provide zero-day protection to safeguard your messaging system by rerouting messages and using machine learning to detect malicious intent."
+
+    - content: "Which of the following is **not** an Attack Simulator scenario?"
+      choices:
+      - content: "Spear phishing"
+        isCorrect: false
+        explanation: "Incorrect. Simulations of current types of attacks are available, including spear phishing, credential harvest and attachment attacks, and password spray and brute force password attacks."
+      - content: "Password spray"
+        isCorrect: false
+        explanation: "Incorrect. Simulations of current types of attacks are available, including spear phishing, credential harvest and attachment attacks, and password spray and brute force password attacks."
+      - content: "Bitcoin mining"
+        isCorrect: true
+        explanation: "Correct! Bitcoin mining is not an Attack Simulator scenario."
