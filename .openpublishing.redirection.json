@@ -5753,47 +5753,47 @@
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/attack-surface-reduction.md",
-      "redirect_url": "/training/modules/explore-microsoft-defender/index.md",
+      "redirect_url": "/training/modules/explore-microsoft-defender/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/introduction.md",
-      "redirect_url": "/training/modules/explore-microsoft-defender/index.md",
+      "redirect_url": "/training/modules/explore-microsoft-defender/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/next-gen-protection.md",
-      "redirect_url": "/training/modules/explore-microsoft-defender/index.md",
+      "redirect_url": "/training/modules/explore-microsoft-defender/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/summary-knowledge-check.md",
-      "redirect_url": "/training/modules/explore-microsoft-defender/index.md",
+      "redirect_url": "/training/modules/explore-microsoft-defender/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-management-endpoints/index.md",
-      "redirect_url": "/training/modules/explore-microsoft-defender/index.md",
+      "redirect_url": "/training/modules/explore-microsoft-defender/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-management-mail/atp-policy-examples.md",
-      "redirect_url": "/training/modules/defender-office-365-introduction/index.md",
+      "redirect_url": "/training/modules/defender-office-365-introduction/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-management-mail/introduction.md",
-      "redirect_url": "/training/modules/defender-office-365-introduction/index.md",
+      "redirect_url": "/training/modules/defender-office-365-introduction/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-management-mail/summary-knowledge-check.md",
-      "redirect_url": "/training/modules/defender-office-365-introduction/index.md",
+      "redirect_url": "/training/modules/defender-office-365-introduction/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-management-mail/index.md",
-      "redirect_url": "/training/modules/defender-office-365-introduction/index.md",
+      "redirect_url": "/training/modules/defender-office-365-introduction/",
       "redirect_document_id": false
     },
     {
@@ -5868,27 +5868,27 @@
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-threat-define/introduction.md",
-      "redirect_url": "/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
+      "redirect_url": "/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-threat-define/landscape-evolving.md",
-      "redirect_url": "/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
+      "redirect_url": "/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-threat-define/summary-knowledge-check.md",
-      "redirect_url": "/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
+      "redirect_url": "/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-threat-define/what-consitutes-threat.md",
-      "redirect_url": "/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
+      "redirect_url": "/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations/",
       "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modules/m365-security-threat-define/index.md",
-      "redirect_url": "/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations/index.md",
+      "redirect_url": "/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations/",
       "redirect_document_id": false
     },
     {
