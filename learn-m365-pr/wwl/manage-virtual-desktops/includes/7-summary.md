@@ -2,7 +2,7 @@ Cloud PCs can be an effective solution for many scenarios such as remote and con
 
 ### Learn more
 
- -  [Azure Virtual Desktop documentation](https://learn.microsoft.com/en-us/azure/virtual-desktop/)
- -  [Deliver remote desktops and apps with Azure Virtual Desktop - Learn](/learn/paths/m365-wvd/)
- -  [Windows 365 Enterprise documentation](https://learn.microsoft.com/en-us/windows-365/enterprise/)
- -  [Windows 365 Business documentation](https://learn.microsoft.com/en-us/windows-365/business/)
+ -  [Azure Virtual Desktop documentation](https://learn.microsoft.com/azure/virtual-desktop/?azure-portal=true)
+ -  [Deliver remote desktops and apps with Azure Virtual Desktop - Learn](/learn/paths/m365-wvd/?azure-portal=true)
+ -  [Windows 365 Enterprise documentation](https://learn.microsoft.com/windows-365/enterprise/?azure-portal=true)
+ -  [Windows 365 Business documentation](https://learn.microsoft.com/windows-365/business/?azure-portal=true)

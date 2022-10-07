@@ -30,9 +30,9 @@ To create an Azure network connection:
 8.  On the **Review + Create** page, select **Create**.
 
 ### Learn More
--  [Create Azure network connection](https://learn.microsoft.com/en-us/windows-365/enterprise/create-azure-network-connection)
--  [Edit Azure network connection](https://learn.microsoft.com/en-us/windows-365/enterprise/edit-azure-network-connection)
--  [Delete Azure network connection](https://learn.microsoft.com/en-us/windows-365/enterprise/delete-azure-network-connection)
+-  [Create Azure network connection](https://learn.microsoft.com/windows-365/enterprise/create-azure-network-connection?azure-portal=true)
+-  [Edit Azure network connection](https://learn.microsoft.com/windows-365/enterprise/edit-azure-network-connection?azure-portal=true)
+-  [Delete Azure network connection](https://learn.microsoft.com/windows-365/enterprise/delete-azure-network-connection?azure-portal=true)
 ### Configure a custom device image (optional)
 
 Windows 365 provides a built-in gallery of Windows Enterprise images accessible through the provisioning policy creation flow. These images are updated monthly with the latest security updates so that end users have a secure and seamless experience.
@@ -42,7 +42,7 @@ Windows 365 provides a built-in gallery of Windows Enterprise images accessible 
 
 As most device configurations are applied through configuration policies, these base images should be sufficient for many organizations. However, if a custom image is needed, you can create and upload up to 20 custom generalized images. The custom image must be added to your Azure subscription before it can be used with Windows 365. Once that's done, sign in to the Microsoft Endpoint Manager admin center, select **Devices** > **Windows 365** > **Device images** > **Add**. Select an image from the available list, and select **Add**.
 ### Learn More
--  [Add or delete custom device images](https://learn.microsoft.com/en-us/windows-365/enterprise/add-device-images)
+-  [Add or delete custom device images](https://learn.microsoft.com/windows-365/enterprise/add-device-images?azure-portal=true)
 
 ### Create provisioning policies
 
@@ -65,7 +65,7 @@ Creating a provisioning policy requires the following steps:
 7.  On the **Review + create** page, select **Create**.
 
 ### Learn More
--   [Create provisioning policies](https://learn.microsoft.com/en-us/windows-365/enterprise/create-provisioning-policy)
+-   [Create provisioning policies](https://learn.microsoft.com/windows-365/enterprise/create-provisioning-policy?azure-portal=true)
 
 > [!NOTE]
 > It can take up to 60 minutes for the policy creation process to complete, depending on when the Azure AD connect sync last happened.
