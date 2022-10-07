@@ -11,14 +11,3 @@ Viva Topics uses Microsoft AI technology, Microsoft 365, Microsoft Graph, Search
 Viva Topics discovers content through Microsoft Graph, a graph database in Microsoft 365. Microsoft Graph connects topics, content, and people across Microsoft 365 apps. Then Viva Topics organizes content into topics, to build summaries and connect them to people who are related to the Topics.
 
 When content is created or shared in Microsoft 365 apps, the graph database records these activities as hints or signals as topics. AI and machine learning indexes these signals to predict future Topics your employees will likely want to see. As people in your organization engage or ignore the suggested Topics across Microsoft 365, Viva Topics will curate what content is most relevant for each of your end users.
-
-## Learning objectives
-
-By the end of this learning path, you be able to:
-
-- Describe how AI interacts on Viva Topics  
-- Use Viva Topics for admins  
-- Modernize SharePoint  
-- Sign up for & set up a Viva Topics trial
-- Create a Topic center & assign licenses
-- Change the name of the Topic center
