@@ -5,8 +5,8 @@ metadata:
   title:  Introduction to privileged access management
   description: Privileged access management allows granular access control over privileged admin tasks in Office 365. Privileged access management requires users to request just-in-time access to complete elevated and privileged tasks through a highly scoped and time-bound approval workflow. This configuration gives users just-enough-access to perform the task at hand without risking exposure of sensitive data or critical configuration settings. 
   ms.date: 06/01/2022
-  author: beccarobins
-  ms.author: beccarobins
+  author: hrasheed-msft
+  ms.author: hrasheed
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 
