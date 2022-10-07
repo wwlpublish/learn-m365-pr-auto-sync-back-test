@@ -18,7 +18,7 @@ Adapting to any form of new technology can seem daunting at first. To make your 
 
 ### Learn how Lamna Healthcare manages the change with the adoption
 
-As the Internal Communications Manager, you successfully recruite champions for the adoption of Viva Connections at each hospita location. Now, they can help their colleagues adopt Viva Connections in their own units.
+As the Internal Communications Manager, you successfully recruit champions for the adoption of Viva Connections at each hospital location. Now, they can help their colleagues adopt Viva Connections in their own units.
 
 :::image type="content" source="../media/-cora.png" alt-text="Diagram of profile head shot of Cora and their job title.":::
 
