@@ -5,8 +5,8 @@ metadata:
   title: Summary and knowledge check
   description: Customer Lockbox supports requests to access data in Exchange Online, SharePoint Online, and OneDrive when Microsoft engineers need to access customer content to determine root cause and fix an issue. Customer Lockbox requires the engineer to request access from the customer as a final step in the approval workflow. This gives organizations the option to approve or deny these requests and provide direct-access control to the customer.
   ms.date: 07/08/2021
-  author: beccarobins
-  ms.author: beccarobins
+  author: hrasheed-msft
+  ms.author: hrasheed
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
  
@@ -28,7 +28,7 @@ quiz:
         isCorrect: false
         explanation: "Currently, the maximum period for the access permissions granted to the Microsoft engineer is 4 hours. The Microsoft engineer can also request a shorter period."
 
-    - content: "How long does the designated approver at the customer organization have to respond to a customer lockbox request after it is issued?  "
+    - content: "How long does the designated approver at the customer organization have to respond to a Customer Lockbox request after it is issued?  "
       choices:
       - content: "12 hours"
         isCorrect: true
@@ -50,5 +50,5 @@ quiz:
         explanation: "Access can be granted for unique access IDs only."
       - content: "Just-in-time  "
         isCorrect: true
-        explanation: "In the rare instance when a Microsoft engineer needs access to your data, you grant access only to data required to resolve the issue and for a limited amount of time which is considered just-in-time access."
+        explanation: "In the rare instance when a Microsoft engineer needs access to your data, you grant access only to data required to resolve the issue and for a limited amount of time, which is considered just-in-time access."
       
