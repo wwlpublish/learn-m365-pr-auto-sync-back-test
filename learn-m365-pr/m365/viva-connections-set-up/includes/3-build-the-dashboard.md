@@ -20,7 +20,7 @@ Once you’ve set up the home site, you can build the Dashboard. In this unit, y
 
 ## How to create the Dashboard
 
-Start from your organization’s home site. Add cards and preview theexperience as you build. [Learn more about creating a Dashboard](/viva/connections/create-dashboard).
+Start from your organization’s home site. Add cards and preview the experience as you build. [Learn more about creating a Dashboard](/viva/connections/create-dashboard).
 
 1. Go to your home site and select **Settings**.
 
@@ -93,7 +93,7 @@ Now that requirements have been met, it's time for you to work as the site owner
 | View holiday schedules                                                 | All                                                                  | All                  | Card designer    | Desktop and mobile |
 | View café menus                                                        | All                                                                  | All                  | Link card        | Desktop and mobile |
 
-You start by adding dashboard cards based on the planning spreadsheet.First, you add the Shifts card to make it easier to clock-in-clock-out, take breaks, and manage schedules for all hourly employees like nurses and janitorial staff. Since this tool is in high demand, you choose the medium card size and position this card at the top of the Dashboard. You then apply audience targeting scoped to all hourly employees to make sure this card displays prominently for this specific audience.
+You start by adding dashboard cards based on the planning spreadsheet. First, you add the Shifts card to make it easier to clock-in-clock-out, take breaks, and manage schedules for all hourly employees like nurses and janitorial staff. Since this tool is in high demand, you choose the medium card size and position this card at the top of the Dashboard. You then apply audience targeting scoped to all hourly employees to make sure this card displays prominently for this specific audience.
 
 Next, you add the Approvals card to help reduce the repetitive workflows that currently exist. The Approvals card will address one of the high impact scenarios and help streamline the approval processes for people who constantly deal with expense reports, and purchase orders. You apply audience targeting so only the roles who have expense and purchase approval requests will see the card on their Dashboard.
 
