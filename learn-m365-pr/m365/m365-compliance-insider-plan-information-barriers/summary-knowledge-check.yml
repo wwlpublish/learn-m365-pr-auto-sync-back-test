@@ -3,10 +3,10 @@ uid: learn-m365.m365-compliance-insider-plan-information-barriers.summary-knowle
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Information barriers enable administrators to define policies to allow or prevent communications between groups of users in Microsoft Teams chats and channels. When information barrier policies are in place, people who should not communicate with other specific users won't be able to find, select, chat, or call those users. With information barriers, checks are in place to prevent unauthorized communication. 
+  description: Information barriers enable administrators to define policies to allow or prevent communications between groups of users in Microsoft Teams chats and channels. When information barrier policies are in place, people who shouldn't communicate with other specific users won't be able to find, select, chat, or call those users. With information barriers, checks are in place to prevent unauthorized communication. 
   ms.date: 07/08/2021
-  author: beccarobins
-  ms.author: beccarobins
+  author: hrasheed-msft
+  ms.author: hrasheed
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
  
@@ -20,7 +20,7 @@ quiz:
       choices:
       - content: "An individual wants to keep their work private from the public. "
         isCorrect: false
-        explanation: "Simply keeping your information private is not an essential driver for using the information barriers in Office 365. "
+        explanation: "Simply keeping your information private isn't an essential driver for using the information barriers in Office 365. "
       - content: "A department is handling information that should not be shared with other groups or departments."
         isCorrect: true
         explanation: "Information barriers in Office 365 are policies that a compliance administrator or information barriers administrator can configure to prevent individuals or groups from communicating with each other."
@@ -38,17 +38,17 @@ quiz:
         explanation: "Edit segments when you want to change how a segment is defined. For example, you might have originally defined segments using Department and now want to use another attribute, such as *MemberOf*."
       - content: "Edit user account attributes"
         isCorrect: false
-        explanation: "Edit user account attributes when users are not included in segments they should be, to change which segments users are in, or to define segments using different attributes."
+        explanation: "Edit user account attributes when users aren't included in segments they should be, to change which segments users are in, or to define segments using different attributes."
       
     - content: "Can you use address book policies and information barrier policies at the same time?"
       choices:
       - content: "Yes"
         isCorrect: false
-        explanation: "Information barriers are based on address book policies, but the two kinds of policies are not compatible. If you do have such policies, make sure to remove your address book policies first. Once information barrier policies are enabled and you have hierarchical address book enabled, all users who are not included in an information barrier segment will see the hierarchical address book in Exchange Online."
+        explanation: "Information barriers are based on address book policies, but the two kinds of policies aren't compatible. If you do have such policies, make sure to remove your address book policies first. Once information barrier policies are enabled and you have hierarchical address book enabled, all users who aren't included in an information barrier segment will see the hierarchical address book in Exchange Online."
       - content: "No"
         isCorrect: true
-        explanation: "Information barriers are based on address book policies, but the two kinds of policies are not compatible. If you do have such policies, make sure to remove your address book policies first. Once information barrier policies are enabled and you have hierarchical address book enabled, all users who are not included in an information barrier segment will see the hierarchical address book in Exchange Online."
+        explanation: "Information barriers are based on address book policies, but the two kinds of policies aren't compatible. If you do have such policies, make sure to remove your address book policies first. Once information barrier policies are enabled and you have hierarchical address book enabled, all users who aren't included in an information barrier segment will see the hierarchical address book in Exchange Online."
       - content: "Only when address book policies were in place first"
         isCorrect: false
-        explanation: "Information barriers are based on address book policies, but the two kinds of policies are not compatible. If you do have such policies, make sure to remove your address book policies first. Once information barrier policies are enabled and you have hierarchical address book enabled, all users who are not included in an information barrier segment will see the hierarchical address book in Exchange Online."
+        explanation: "Information barriers are based on address book policies, but the two kinds of policies aren't compatible. If you do have such policies, make sure to remove your address book policies first. Once information barrier policies are enabled and you have hierarchical address book enabled, all users who aren't included in an information barrier segment will see the hierarchical address book in Exchange Online."
       
