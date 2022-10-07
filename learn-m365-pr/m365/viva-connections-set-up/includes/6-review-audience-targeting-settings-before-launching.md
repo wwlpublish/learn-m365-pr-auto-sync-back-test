@@ -62,7 +62,7 @@ Content in the Feed automatically gets aggregated into one central location base
 
 Since Nicoletta works at Region D, in the Feed, Nicoletta gets news for all Lamna Healthcare units, and local news for the Region D hospital.
 
-Kendall works at Region C. Therefore, in the Feed, Kendall gets news forall Lamna Healthcare units, and local news for the Region C hospital. As a part time nurse, Kendall also gets news specifically for medical professionals, which are for both nurses and physicians.
+Kendall works at Region C. Therefore, in the Feed, Kendall gets news for all Lamna Healthcare units, and local news for the Region C hospital. As a part time nurse, Kendall also gets news specifically for medical professionals, which are for both nurses and physicians.
 
 Amber works in Region A, so in the Feed, Amber gets news for all Lamna Healthcare units, and local news for Region A. In addition, Amber gets news specifically for people managers.
 
