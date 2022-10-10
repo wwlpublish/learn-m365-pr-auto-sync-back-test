@@ -58,4 +58,4 @@ Resizing a Cloud PC involves the following steps:
 -  If there are no licenses in your inventory, the resizing will fail. You can contact your procurement admin to request more licenses. After the license has been purchased and added to the inventory in the Microsoft Admin Center, you can retry the resize operation.
 
 ### Learn More
--  [Device management overview for Cloud PCs](https://learn.microsoft.com/windows-365/enterprise/device-management-overview?azure-portal=true)
+-  [Device management overview for Cloud PCs](/windows-365/enterprise/device-management-overview?azure-portal=true)
