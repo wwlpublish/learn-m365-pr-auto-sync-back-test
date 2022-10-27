@@ -15,7 +15,7 @@ durationInMinutes: 3
 content: |
   [!include[](includes/8-knowledge-check.md)]
 quiz:
-  title: "Manage regulatory and privacy requirements with Microsoft Priva"
+  title: "(rain test 2022.10.27)Manage regulatory and privacy requirements with Microsoft Priva"
   questions:
   - content: "What are the different types of risk management policy templates?"
     choices:
@@ -28,7 +28,7 @@ quiz:
     - content: "Data encryption, Data labeling, and Data anonymization."
       isCorrect: false
       explanation: "Incorrect. The listed items are not policy types for Microsoft Priva risk management."
-  - content: "What is the connection between risk policies, alerts and issues?"
+  - content: "(rain test 2022.10.27)What is the connection between risk policies, alerts and issues?"
     choices:
     - content: "An issue is a specific type of policy alert that is described in the policy template."
       isCorrect: false
@@ -39,7 +39,7 @@ quiz:
     - content: "Issues are created by admins while assessing alerts about policy matches to further investigate a case."
       isCorrect: true
       explanation: "Correct."
-  - content: "After a Subject Rights Request is completed, where do the results show up in the compliance portal?"
+  - content: "(rain test 2022.10.27)After a Subject Rights Request is completed, where do the results show up in the compliance portal?"
     choices:
     - content: "The **Data collected** tab."
       isCorrect: true
