@@ -1,4 +1,4 @@
-In this module, you'll learn how to:
+(rain test 2022.10.27)In this module, you'll learn how to:
 
 - Create and manage risk management policies for data overexposure, data transfer and data minimization
 - Investigate and remediate risk alerts
